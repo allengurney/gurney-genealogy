@@ -4,9 +4,12 @@ Source-related material beyond the bare bibliography entries in `data/sources.js
 
 ## Contents
 
-- `media-refs.md` — index of where source media (register scans, record extracts, screen captures) lives. Media itself is kept on OneDrive rather than in the repo, but the paths, share-links, and identifying details are tracked here so `data/sources.json` entries can point to them reliably.
-- `validations/` — per-source validation worksheets. When a source is examined carefully (paleography of a register entry, reconciliation of conflicting citations, confirmation of an index entry against the original image), the worksheet lives here. Gives future revisits a place to pick up where analysis left off.
+- `media/` — source media (register scans, record extracts, screen captures), organized by sourceId. For now, stored in-repo since we're dealing primarily with small screengrabs.
+- `validations/` — per-source validation worksheets. When a source is examined carefully (paleography of a register entry, reconciliation of conflicting citations, confirmation of an index entry against the original image), the worksheet lives here.
+- `media-refs.md` — index for any media stored *outside* the repo (OneDrive, external archives), added later if and when repo storage becomes a concern.
 
-## Why not keep media in the repo?
+## Media policy
 
-Register scans and high-resolution record extracts can be large; dozens or hundreds of images would exceed the soft limits for a text-oriented repo. OneDrive is the right store for the binary assets; the repo carries the structured references to them.
+Current rule: small screengrabs and record extracts live in `media/{sourceId}/`. If we start accumulating full high-resolution scans or large PDFs, we move those to OneDrive and leave low-res reference copies in the repo. Keeping media in the repo means commits are atomic — when a source is found and screenshotted, the image and its validation worksheet land in the same commit.
+
+Monitor repo size periodically. GitHub's soft guidance is <1GB; we're well under and should stay under at current accumulation rates.
