@@ -1,21 +1,32 @@
 # fact-sheets/
 
-Polished narrative markdown for each ancestor. These are hand-wordsmithed — the research voice and the considered phrasing matter, and this folder is where that work lives and is revised.
+Every direct-line ancestor gets a paired set of files here.
 
-## Naming convention
+## The paired-file rule
 
-`g{NN}-{slug}.md`, e.g.:
+**Narrative** (`g{NN}-{slug}-fact-sheet.md`):
+- Published content: YAML front matter, vitals, highlights, children table, narrative prose, citations, sidebar timeline.
+- Allen's wordsmithed work. Stable. Changes only when published content changes.
+- Built by Eleventy into the genealogy site.
 
-- `g06-william-brigadier.md`
-- `g13-john-gurney-1.md`
-- `g14-francis-gurney.md`
+**Research companion** (`g{NN}-{slug}-fact-sheet.research.md`):
+- Lab notebook for this ancestor. Working notes, open questions, sources consulted, negative results, conflicting information, working hypotheses, raw transcriptions.
+- Grows during research sessions. Frequent small commits.
+- Skipped by Eleventy build (*.research.md excluded).
 
-Generation number is zero-padded so files sort correctly. The slug is short, hyphenated, and disambiguating where the name alone isn't unique (two Francis Gurneys, several Benjamins).
+See AI-Rules.md §3 for full rules on what goes where.
 
-## Structure
+## Naming
 
-Each fact sheet follows the established template: YAML front matter, vitals, highlights, children table, narrative prose, citations referencing `sources.json` IDs, research appendix, and sidebar timeline data. See existing sheets for the canonical shape.
+Generation number is zero-padded. Slug is short, hyphenated, disambiguating:
+
+```
+g14-francis-gurney-fact-sheet.md            ← narrative
+g14-francis-gurney-fact-sheet.research.md   ← research companion
+g23-edmund-gurney-fact-sheet.md
+g23-edmund-gurney-fact-sheet.research.md
+```
 
 ## Relationship to data/
 
-Facts come from `data/master.json`. The *prose* — the narrative, anecdotes, family memorial quotes, considered framing — lives here and is edited here directly. The two are linked by generation/ancestor ID; changes in one should be reflected in the other.
+Structured facts come from `data/ancestors_v23.json` (future `master.json`). The narrative file holds the prose. The research companion holds the detail, source extracts, and analytical trail. The JSON, narrative, and companion are linked by generation/ancestor ID.
