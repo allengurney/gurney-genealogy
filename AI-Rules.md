@@ -41,6 +41,16 @@ tools/           lineage-specific artifacts (pedigree-explorer.html)
 
 ## 3. Workflow
 
+### Default mode: Claude commits via MCP
+
+Allen rarely wants to run things locally. Claude proceeds via MCP for all ongoing research work — committing findings, notes, fact updates, new files, edits to research companions. Don't ask Allen to do something locally that MCP can do.
+
+### The one exception: bulk file restructures
+
+For one-time bulk operations across 10+ files (splitting, renaming, restructuring), a tested local script is acceptable when MCP would require dozens of round-trip tool calls. Claude provides the script; Allen runs it once and pushes. After that, all subsequent commits to the restructured files go through MCP.
+
+This is a narrow exception. The default is MCP. If in doubt, do it via MCP.
+
 ### The paired-file rule: every ancestor gets two files
 
 Each direct-line ancestor has a paired set in `fact-sheets/`:
@@ -230,8 +240,8 @@ Ryvett claim confirmed against NRO PD 12/1 (March 2026).
 
 ## 11. Tooling
 
-- **GitHub MCP** — small/medium files (<50KB) inline; larger files push locally.
-- **Eleventy** — build skips `*.research.md` files. Cloudflare Pages deploys from repo.
+- **GitHub MCP** is the default for all commits — see §3 "Default mode."
+- **Eleventy** build skips `*.research.md` files. Cloudflare Pages deploys from repo on push.
 
 ---
 
