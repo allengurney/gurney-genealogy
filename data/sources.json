@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "version": "0.1.0",
+    "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
+    "lastUpdated": "2026-04-14",
+    "schema": "sourceId → {citation, archive, url, corpusStatus, mediaPath, validationPath, notes}"
+  },
+  "sources": {
+    "dg-rec-pt1": {
+      "shortTitle": "DG Record, Part I",
+      "citation": "Gurney, Daniel. The Record of the House of Gournay, Part I. London: Priv. print. by J. B. Nichols and J. G. Nichols, 1848.",
+      "archive": "HathiTrust / Yale University Library (barcode 39002006511357)",
+      "url": "https://hdl.handle.net/2027/yale.39002006511357",
+      "corpusStatus": "full",
+      "corpusPath": "sources/corpus/daniel-gurney-part-1.md",
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Norman origins through Gerard de Gournay (G32). OCR quirks: Wilham/William (~6%), Basiha/Basilia (~16%). Page markers: ## p. N (#M) ## where N=book page."
+    },
+    "dg-rec-pt2": {
+      "shortTitle": "DG Record, Part II",
+      "citation": "Gurney, Daniel. The Record of the House of Gournay, Part II. London: Priv. print. by J. B. Nichols and J. G. Nichols, 1848.",
+      "archive": "HathiTrust / Yale University Library",
+      "url": "https://hdl.handle.net/2027/yale.39002006511357",
+      "corpusStatus": "full",
+      "corpusPath": "sources/corpus/daniel-gurney-part-2.md",
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Junior Norfolk Branch, West Barsham medieval Gurneys, through Henry G15."
+    },
+    "dg-rec-pt3": {
+      "shortTitle": "DG Record, Part III",
+      "citation": "Gurney, Daniel. The Record of the House of Gournay, Part III. London: Priv. print. by J. B. Nichols and J. G. Nichols, 1848.",
+      "archive": "HathiTrust / Yale University Library",
+      "url": "https://hdl.handle.net/2027/yale.39002006511357",
+      "corpusStatus": "full",
+      "corpusPath": "sources/corpus/daniel-gurney-part-3.md",
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Gurneys of Keswick: Francis G14 Merchant Taylor, Francis of Maldon, John of Norwich. Includes Appendix C (Court of Wards records, Merchant Taylors' Company membership)."
+    },
+    "dg-rec-supp": {
+      "shortTitle": "DG Record, Supplement (1858)",
+      "citation": "Gurney, Daniel. The Record of the House of Gournay, Supplement. London: Priv. print., 1858.",
+      "archive": "Project knowledge PDF (Record_of_the_House_of_Gurney_by_Daniel_Gurney-Supplement.pdf)",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Text extraction into corpus pending. Contains detailed notes supplementing all three parts."
+    },
+    "nro-pd-12-1": {
+      "shortTitle": "NRO PD 12/1 (St Martin at Palace, Norwich)",
+      "citation": "Parish register, St Martin at Palace, Norwich, 1538–1639. Norfolk Record Office, PD 12/1.",
+      "archive": "Norfolk Record Office",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "BREAKTHROUGH SOURCE (March 2026): Francis Gurney + Margaret Rybett marriage, 23 September 1611. Image examined on Ancestry; paleographic reading confirmed."
+    },
+    "nro-pd-86-41": {
+      "shortTitle": "NRO PD 86/41 (East Dereham register)",
+      "citation": "Parish register, East Dereham, Norfolk. Norfolk Record Office, PD 86/41 (microfilm, 69 images).",
+      "archive": "Norfolk Record Office",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Systematically reviewed. Five Francis Gurney baptisms identified (Entries A–E). Entry E: 'John son of [ffrancis Gurnie?]' — four-test paleographic analysis supports ffrancis over Nicholas. Margaret Rybett death revised to c.1616–17 based on 9-month impossibility test."
+    },
+    "anderson-gmd-2015": {
+      "shortTitle": "Anderson, Great Migration Directory (2015)",
+      "citation": "Anderson, Robert Charles. The Great Migration Directory: Immigrants to New England, 1620–1640: A Concise Compendium. Boston: NEHGS, 2015.",
+      "archive": null,
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "John Gurney-1 entry. Assigns 'Unknown' English origin = implicit rejection of Banks's Bury St. Edmunds attribution under modern standards. Arrival date: 1636 — discrepancy with June 1641 Weymouth record; unresolved."
+    },
+    "banks-brownell-1937": {
+      "shortTitle": "Banks/Brownell, Topographical Dictionary (1937)",
+      "citation": "Banks, Charles Edward, and Elijah Ellsworth Brownell. Topographical Dictionary of 2885 English Emigrants to New England, 1620–1650. Philadelphia, 1937.",
+      "archive": null,
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "East Anglian placement of John-1 weakens Candidate A (Stewkley) more than Candidate B."
+    },
+    "blomefield-norfolk": {
+      "shortTitle": "Blomefield, History of Norfolk",
+      "citation": "Blomefield, Francis. An Essay Towards a Topographical History of the County of Norfolk. 11 vols. London, 1805–1810.",
+      "archive": "British History Online",
+      "url": "https://www.british-history.ac.uk/topographical-hist-norfolk",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Key parish entries: Harpley (vol. viii, pp.452–459), West Barsham (vol. vii, pp.42–47), Great Ellingham (vol. ii). Independently confirms multiple DG pedigree points."
+    },
+    "hop-gurney": {
+      "shortTitle": "History of Parliament Online — Gurney",
+      "citation": "History of Parliament Trust. 'Sir John Gurney (d.1408).' The History of Parliament: the House of Commons. historyofparliamentonline.org.",
+      "archive": null,
+      "url": "https://www.historyofparliamentonline.org/volume/1386-1421/member/gurney-sir-john-1408",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Sir John Gurney d.1408 biography. Confirms collateral status: son Edmund died under age, estates to nephew Thomas (Robert's son). John of Gaunt stewardship to be verified here."
+    },
+    "pease-pennyghael": {
+      "shortTitle": "Pease genealogy (Pennyghael)",
+      "citation": "Pease, Howard. Gurney family genealogy. pennyghael.org.uk/Gurney.pdf.",
+      "archive": null,
+      "url": "https://pennyghael.org.uk/Gurney.pdf",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Source of Ryvett claim for Francis G14's first wife. Confirmed against NRO PD 12/1 (March 2026)."
+    },
+    "burke-ancient-family": {
+      "shortTitle": "Burke, The Ancient Family of Gurney",
+      "citation": "Burke. 'The Ancient Family of Gurney.' TN298479 (project knowledge file).",
+      "archive": "Project knowledge PDF (TN298479_The_Ancient_Family_of_Gurney.pdf)",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Secondary source. Used for heraldic and general family context."
+    },
+    "hingham-register": {
+      "shortTitle": "Hingham parish register",
+      "citation": "Parish register, Hingham, Norfolk.",
+      "archive": "Norfolk Record Office / Ancestry",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Ann Gurney married John Gilman, 1 Oct 1626. Relationship to Francis G14's family unresolved."
+    },
+    "brs-v21": {
+      "shortTitle": "BRS v21 (1642 Bucks tax)",
+      "citation": "Buckinghamshire Record Society, vol. 21. 1642 Buckinghamshire tax records.",
+      "archive": null,
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Used in Candidate A (Stewkley) analysis."
+    },
+    "vch-bucks-v3": {
+      "shortTitle": "VCH Bucks v3 (Stewkley manors)",
+      "citation": "Victoria County History: A History of the County of Buckingham, vol. 3.",
+      "archive": "British History Online",
+      "url": "https://www.british-history.ac.uk/vch/bucks",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Stewkley manors. Used in Candidate A analysis."
+    },
+    "freebmd-freereg": {
+      "shortTitle": "FreeREG / FreeBMD",
+      "citation": "FreeREG (parish register transcription project). freereg.org.uk.",
+      "archive": null,
+      "url": "https://www.freereg.org.uk",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "FreeREG confirmed Francis G14 burial 9 Jan 1646/7, St Botolph Bishopsgate. Corrected Boyd's 1641 misread."
+    },
+    "domesday-1086": {
+      "shortTitle": "Domesday Book (1086)",
+      "citation": "Domesday Book, 1086. National Archives.",
+      "archive": "National Archives / Open Domesday",
+      "url": "https://opendomesday.org",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Hugh de Gournay III (G33): Liston, Fordham, Ardleigh (Essex); Norfolk properties. Referenced in DG-I."
+    }
+  }
+}
