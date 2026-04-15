@@ -173,10 +173,3 @@ factsheet:
 
   </aside>
 </div>
-
----
-
-## Research Appendix
-
-- Included details specifically restored from the thread: 462 Sixth Avenue / Avenue of the Americas; 248 West Thirty-eighth Street; 12 West 28th Street; Bay Avenue summer home; old-fashioned phaeton with definition; entertaining co-actors and friends; Winona’s hop; father-son <em>May Blossom</em> cast; Actors’ Order of Friendship; emergency-relief handling for actors; Helene Ransome / Helen Hill identity; and the Continental Lodge father-son line.
-- I did not add a stronger stage résumé for Helene Ransome because the surviving direct evidence located so far is still thin beyond the obituary and the 1895 trade-paper company notice.

@@ -181,32 +181,3 @@ The long-term result of the transfer was fortunate. When Rector John died in 133
 
   </aside>
 </div>
-
----
-
-## Research Appendix
-
-### Lineage Status
-**Confirmed.** William III is attested in the 1286 record (14 Edw. I) and in the 1294 conveyance deed, both cited in Daniel Gurney, <em>Record</em> (1848). The deed's seal (engrailed cross) is described and discussed at length in Daniel Gurney, <em>Record</em> (1848) pp. 339–341. His marriage to Katherine Baconsthorpe is named. Son John III is established as his heir on Rector John's death (1332).
-
-### IMPORTANT: Children Table Clarification
-The Rector John de Gurnay II is William III's **brother** (son of Sir John I), not William III's son. The Children table in this fact sheet flags this correctly in a footnote. The pedigree flow is:
-
-- Sir John I (G27) → two sons: William III (G26, direct line) + John Rector of Harpley (d. 1332, COLLATERAL)
-- William III (G26) → son John III (G25, direct line) + Edmund + William (COLLATERAL)
-
-When William III transferred estates to Rector John (his brother), and Rector John died in 1332, the estates then passed to John III (William III's son, the Rector's nephew). Daniel Gurney, <em>Record</em> (1848) p. 279 is explicit: "John, his nephew (son of William), became his heir."
-
-### DG's Death Date Discrepancy
-Daniel Gurney, <em>Record</em> (1848) p. 279 gives Rector John's death as "1333," while the pedigree (p. 286) gives "died 1332." The Part II detailed chapter on the Church at Harpley (p. 355) states the tomb of John de Gournay is in the chancel and implies 1332. The DG Supplement (Note 114) does not address this specifically. The fact sheet uses 1332 following the pedigree and the Harpley church chapter.
-
-### Sources Consulted
-- Daniel Gurney, <em>Record</em> (1848), pp. 279, 339–341 and pedigree p. 286.
-- Daniel Gurney, <em>Supplement</em> (1858), pp. 325–355 (Harpley church and manorial detail).
-- DG Supplement, p. 786.
-- Ancestors_v3.json; Gurney_Research_KnowledgeBase_1.md.
-
-### Open Questions
-1. The 1294 conveyance deed: where does it survive? DG describes it and its seal but does not give an archive reference in the passages reviewed. It may be in the Norfolk Record Office collections or in a private family archive.
-2. William III's annuity arrangement: the deed presumably specified the annual sum. What was it? This would give a sense of the estate's value at the time.
-3. Katherine Baconsthorpe: Edmund Baconsthorpe (her father) — is there a fuller pedigree of the Baconsthorpe family in Blomefield that would date her more precisely?

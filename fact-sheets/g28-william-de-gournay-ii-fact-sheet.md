@@ -175,26 +175,3 @@ He is classified as **Confirmed** on the basis of the two independent Norfolk re
 
   </aside>
 </div>
-
----
-
-## Research Appendix
-
-### Lineage Status
-**Confirmed.** William II is attested in two independent Norfolk records (1234 and 1243), designated as a knight and lord of Harpley in the DG pedigree. His father (Matthew) and son (Sir John I) are both well documented, providing solid genealogical context.
-
-### Katherine "probably a Baconsthorpe" — Clarification Needed
-DG's "probably a Baconsthorpe" for Katherine (William II's wife) is a common genealogical hedge in an 1848 compiled pedigree — it may reflect family tradition, a DG inference from the later Baconsthorpe marriage of grandson William III, or an intermediate document not quoted. **This should not be presented in the published narrative as a confirmed maiden name without flagging the uncertainty.** The fact sheet's treatment (inline note with footnote caveat) reflects this.
-
-### Sources Consulted
-- Daniel Gurney, <em>Record</em> (1848), pp. 278–279 and pedigree p. 286.
-- Ancestors_v3.json; Gurney_Research_KnowledgeBase_1.md.
-
-### Negative Results
-- No specific Norfolk record dates given for the 1234 and 1243 attestations — DG cites them without document title or folio.
-- No burial site recorded.
-- Katherine's maiden name not confirmed.
-
-### Open Questions
-1. The 1234 and 1243 Norfolk records: are these Norfolk fines (feet of fines) or assize rolls? If the specific record type were known, they could be checked in the Norfolk Record Office or via the Anglo-American Legal Tradition (AALT) database, which digitises many plea rolls.
-2. Edmund de Gurnay (collateral son): he held land of "the honour of Wormegay" in 1303 — Wormegay was a significant Norfolk barony. Is there any fuller record of Edmund that would help clarify the family's local connections?
