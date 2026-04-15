@@ -1,43 +1,54 @@
 {
   "meta": {
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-04-14",
-    "schema": "sourceId → {citation, archive, url, corpusStatus, mediaPath, validationPath, notes}"
+    "lastUpdated": "2026-04-15",
+    "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
     "dg-rec-pt1": {
       "shortTitle": "DG Record, Part I",
-      "citation": "Gurney, Daniel. The Record of the House of Gournay, Part I. London: Priv. print. by J. B. Nichols and J. G. Nichols, 1848.",
+      "citation": "Gurney, Daniel. The Record of the House of Gournay, Part I. London: J. B. Nichols and J. G. Nichols, 1848.",
       "archive": "HathiTrust / Yale University Library (barcode 39002006511357)",
       "url": "https://hdl.handle.net/2027/yale.39002006511357",
       "corpusStatus": "full",
       "corpusPath": "sources/corpus/daniel-gurney-part-1.md",
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Norman origins through Gerard de Gournay (G32). OCR quirks: Wilham/William (~6%), Basiha/Basilia (~16%). Page markers: ## p. N (#M) ## where N=book page."
+      "notes": "Norman origins through Gerard de Gournay (G32). OCR quirks: Wilham/William (~6%), Basiha/Basilia (~16%). Page markers: ## p. N (#M) ## where N=book page. See sources/corpus/daniel-gurney-readme.md."
     },
     "dg-rec-pt2": {
       "shortTitle": "DG Record, Part II",
-      "citation": "Gurney, Daniel. The Record of the House of Gournay, Part II. London: Priv. print. by J. B. Nichols and J. G. Nichols, 1848.",
+      "citation": "Gurney, Daniel. The Record of the House of Gournay, Part II. London: J. B. Nichols and J. G. Nichols, 1848.",
       "archive": "HathiTrust / Yale University Library",
       "url": "https://hdl.handle.net/2027/yale.39002006511357",
       "corpusStatus": "full",
       "corpusPath": "sources/corpus/daniel-gurney-part-2.md",
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Junior Norfolk Branch, West Barsham medieval Gurneys, through Henry G15."
+      "notes": "Junior Norfolk Branch, West Barsham medieval Gurneys, through Henry G15. See sources/corpus/daniel-gurney-readme.md."
     },
     "dg-rec-pt3": {
       "shortTitle": "DG Record, Part III",
-      "citation": "Gurney, Daniel. The Record of the House of Gournay, Part III. London: Priv. print. by J. B. Nichols and J. G. Nichols, 1848.",
+      "citation": "Gurney, Daniel. The Record of the House of Gournay, Part III. London: J. B. Nichols and J. G. Nichols, 1848.",
       "archive": "HathiTrust / Yale University Library",
       "url": "https://hdl.handle.net/2027/yale.39002006511357",
       "corpusStatus": "full",
       "corpusPath": "sources/corpus/daniel-gurney-part-3.md",
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Gurneys of Keswick: Francis G14 Merchant Taylor, Francis of Maldon, John of Norwich. Includes Appendix C (Court of Wards records, Merchant Taylors' Company membership)."
+      "notes": "Gurneys of Keswick: Francis G14 Merchant Taylor, Francis of Maldon, John of Norwich. Includes Appendix C (Court of Wards records, Merchant Taylors' Company membership). See sources/corpus/daniel-gurney-readme.md."
+    },
+    "dg-rec-pt4": {
+      "shortTitle": "DG Record, Part IV",
+      "citation": "Gurney, Daniel. The Record of the House of Gournay, Part IV: The Gournays of Somersetshire. London: J. B. Nichols and J. G. Nichols, c. 1848.",
+      "archive": "Internet Archive",
+      "url": "https://archive.org/details/recordofhouseofg04gurn",
+      "corpusStatus": "full",
+      "corpusPath": "sources/corpus/daniel-gurney-part-4.md",
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Part IV main text = THE GOURNAYS OF SOMERSETSHIRE (pp. 593–703); ADDENDA (pp. 704–714); INDEX (pp. 715–722); LIST OF ILLUSTRATIONS (pp. 723–724). Normalized from Internet Archive OCR. See sources/corpus/daniel-gurney-readme.md for pagination grammar and section map."
     },
     "dg-rec-supp": {
       "shortTitle": "DG Record, Supplement (1858)",
@@ -48,7 +59,7 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Text extraction into corpus pending. Contains detailed notes supplementing all three parts."
+      "notes": "Text extraction into corpus pending. Contains detailed notes supplementing all four parts."
     },
     "dg-rye-appendix": {
       "shortTitle": "DG Rye Appendix",
@@ -59,7 +70,40 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Rye's additions. Scope and content not fully cataloged. Text extraction pending."
+      "notes": "Rye's additions to the Supplement. Distinct from rye-norfolk-antiquarian (Rye's separate 1893 article). Text extraction pending."
+    },
+    "rye-norfolk-antiquarian": {
+      "shortTitle": "Rye, Norfolk Antiquarian — Gurneys of Norwich",
+      "citation": "Rye, Walter. 'The Gurneys of Norwich.' The Norfolk Antiquarian Miscellany.",
+      "archive": "Project knowledge PDF (The_Norfolk_Antiquarian_Miscellany.pdf)",
+      "url": null,
+      "corpusStatus": "full",
+      "corpusPath": "sources/corpus/norfolk-antiquarian-gurneys-of-norwich.md",
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Walter Rye's article on the Gurneys of Norwich. Critical for: (a) the multiple Gurney/Gurnell/Gurling/Garney name variants in Norwich registers, (b) plebeian Gurney lines in Norwich (shoemakers, cordwainers, lace weavers) from whom John the Quaker may have descended, (c) the disambiguation problem distinguishing related lines. Heavily relevant to John Gurney-1 research and the two-Francis problem."
+    },
+    "three-hundred-years-norman-house": {
+      "shortTitle": "Hannay, Three Hundred Years of a Norman House",
+      "citation": "Hannay, James. Three Hundred Years of a Norman House: The Barons of Gournay from the Tenth to the Thirteenth Century. London: Tinsley Brothers, 1867.",
+      "archive": "Internet Archive (threehundredyear00hann)",
+      "url": "https://archive.org/details/threehundredyear00hann",
+      "corpusStatus": "full",
+      "corpusPath": "sources/corpus/threehundredyear00hann - THEEE HUNDRED YEAES OF A NORMAN HOUSE.txt",
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Independent Victorian secondary source on the Gournay barons (10th–13th c.), parallel to but not derived from Daniel Gurney. Useful for cross-checking DG's Norman-period claims (G37–G33) against a separate scholarly tradition. Title page typo on file: 'THEEE HUNDRED YEAES' = OCR misread of 'THREE HUNDRED YEARS.'"
+    },
+    "gournay-en-bray-1844": {
+      "shortTitle": "Supplément aux recherches historiques sur Gournay-en-Bray (1844)",
+      "citation": "Supplément aux recherches historiques sur la ville de Gournay-en-Bray. 1844.",
+      "archive": "Internet Archive / Gallica (per filename)",
+      "url": null,
+      "corpusStatus": "full",
+      "corpusPath": "sources/corpus/Supplément aux recherches historiques sur la ville de Gournay-en-Bray 1844 with mentions about Daniel Gurney.txt",
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "French local history of Gournay-en-Bray, the Norman ancestral seat. Predates DG by 4 years; contains independent local-archive material on the seigneury and the Gournay/Gurney family. Notable: contains explicit mentions of Daniel Gurney (English correspondent), establishing transatlantic 19th-c. communication on the family history. Primary value: independent French perspective on the Norman seat (G37–G31)."
     },
     "nro-pd-12-1": {
       "shortTitle": "NRO PD 12/1 (St Martin at Palace, Norwich)",
@@ -79,20 +123,20 @@
       "url": null,
       "corpusStatus": "none",
       "corpusPath": null,
-      "mediaPath": null,
+      "mediaPath": "sources/media/parish-register/",
       "validationPath": null,
-      "notes": "Systematically reviewed. Five Francis Gurney baptisms identified (Entries A–E). Entry E: 'John son of [ffrancis Gurnie?]' — four-test paleographic analysis supports ffrancis over Nicholas. Margaret Rybett death revised to c.1616–17 based on 9-month impossibility test."
+      "notes": "Systematically reviewed. Five Francis Gurney baptisms identified (Entries A–E). Entry E: 'John son of [ffrancis Gurnie?]' — four-test paleographic analysis supports ffrancis over Nicholas. Margaret Rybett death revised to c.1616–17 based on 9-month impossibility test. Note: parish register image captures committed to sources/media/parish-register/ April 2026 (verify whether East Dereham or West Dereham — Allen's note used 'West Dereham' which may be a typo; the research has been East Dereham focused)."
     },
     "anderson-gmd-2015": {
-      "shortTitle": "Anderson, Great Migration Directory (2015)",
-      "citation": "Anderson, Robert Charles. The Great Migration Directory: Immigrants to New England, 1620–1640: A Concise Compendium. Boston: NEHGS, 2015.",
-      "archive": null,
+      "shortTitle": "Anderson, Great Migration Directory",
+      "citation": "Anderson, Robert Charles. The Great Migration Directory: Immigrants to New England, 1620–1640: A Concise Compendium. Boston: NEHGS, 2015 (extract from p. 158 added April 2026 from 2025 reprint/edition).",
+      "archive": "Project knowledge / corpus extract",
       "url": null,
-      "corpusStatus": "none",
-      "corpusPath": null,
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus/The Great Migration Directory 2025 Page 158.txt",
       "mediaPath": null,
       "validationPath": null,
-      "notes": "John Gurney-1 entry. Assigns 'Unknown' English origin = implicit rejection of Banks's Bury St. Edmunds attribution under modern standards. Arrival date: 1636 — discrepancy with June 1641 Weymouth record; unresolved."
+      "notes": "John Gurney-1 entry. Assigns 'Unknown' English origin = implicit rejection of Banks's Bury St. Edmunds attribution under modern standards. Arrival date: 1636 — discrepancy with June 1641 Weymouth record; unresolved. Page 158 excerpt now in corpus (partial); full directory not extracted."
     },
     "banks-brownell-1937": {
       "shortTitle": "Banks/Brownell, Topographical Dictionary (1937)",
@@ -140,14 +184,14 @@
     },
     "burke-ancient-family": {
       "shortTitle": "Burke, The Ancient Family of Gurney",
-      "citation": "Burke. 'The Ancient Family of Gurney.' TN298479 (project knowledge file).",
+      "citation": "Burke, J. Bernard. The Ancient Family of Gurney. Reprinted, Asbury Park, NJ: Martin & Allardyce.",
       "archive": "Project knowledge PDF (TN298479_The_Ancient_Family_of_Gurney.pdf)",
       "url": null,
       "corpusStatus": "none",
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Secondary source. Used for heraldic and general family context."
+      "notes": "Brief secondary heraldic-genealogical pamphlet. Arms: Argent, a cross engrailed gules, quartering Gournay, Warren, and Barclay. Crests: 1st on a chapeau gules turned up ermine, a fish in pale head downwards; 2nd a wrestling collar or. Seat: Keswick, near Norwich. Used for heraldic and family-context reference."
     },
     "hingham-register": {
       "shortTitle": "Hingham parish register",
