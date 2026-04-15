@@ -19,10 +19,10 @@ User: Allen Lawrence Gurney, b. 1972, Portland OR. Dual projects: biography of B
 ## 2. Repo map
 
 ```
-data/            master.json, sources.json, locations.json (canonical)
-fact-sheets/     polished narrative MDs, hand-wordsmithed (respect Allen's prose)
+data/            master.json, sources.json, locations.json (canonical structured data)
+fact-sheets/     THE per-ancestor canonical file: polished narrative + research appendix
 research/
-  people/        one file per person (g{NN}-{slug}.md or {slug}.md)
+  people/        NON-ANCESTOR subjects only (see §3 delineation rule)
   places/        one file per geographic locus
   topics/        cross-cutting problems (e.g., two-francis-disambiguation.md)
   case-files/    long-form investigations (e.g., candidate-b.md)
@@ -39,24 +39,29 @@ tools/           lineage-specific artifacts (pedigree-explorer.html)
 
 ## 3. Workflow
 
+### The delineation rule: one canonical file per ancestor
+
+**Fact sheet** (`fact-sheets/g{NN}-{slug}.md`) = the single per-ancestor document. Contains polished narrative (public, published via Eleventy) AND the research appendix (private, excluded from build via HTML comment markers). New findings for an ancestor go into the fact sheet's research appendix. The narrative gets updated when warranted. This is the file to read when needing everything about an ancestor.
+
+**research/people/** = reserved for subjects who DON'T have and WON'T get fact sheets:
+- Non-ancestor research subjects: Margaret Rybett, laceweaver Francis, Ann Gurney of Hingham, candidate matches (Earsham John Girney 1636, etc.)
+- Spouses with enough independent research to warrant their own file
+- Pre-fact-sheet staging: accumulating findings before producing a fact sheet. Once the fact sheet exists, the staging file gets absorbed into the appendix or deleted.
+
+**Never maintain two parallel files for the same ancestor.** If a fact sheet exists, that's the canonical file — period. research/people/ is not a shadow copy.
+
+**The JSON** (`ancestors_v23.json` / future `master.json`) = structured data only (dates, locations, children, lineage status, buttons). No narrative. No research notes. Links to fact sheets by generation/ancestor ID.
+
 ### Commit cadence
 Commit in the moment when durable content surfaces — not at session end. Atomic commits (one logical change each). Descriptive message. Don't batch unrelated changes.
 
 ### Topical-first discipline
-Content → `people/` | `places/` | `topics/` | `case-files/`. Log entry = pointer only (filename + section). **If you're writing substantive content in a log entry, move it to the topical file.**
-
-Rules for placement:
-- One person, their life/records → `people/`
-- One place, its genealogical relevance → `places/`
-- Cross-cutting problem spanning 3+ people/places, OR methodological → `topics/`
-- Sustained argument with probability/evidence weighting → `case-files/`
-
-Crosslinks explicit: `→ see topics/{slug}.md § Section`.
+Content → `fact-sheets/` (if ancestor) | `people/` (if non-ancestor) | `places/` | `topics/` | `case-files/`. Log entry = pointer only (filename + section). **If you're writing substantive content in a log entry, move it to the target file.**
 
 ### What does NOT go in research/
+- Per-ancestor research for ancestors who have fact sheets → `fact-sheets/g{NN}-{slug}.md` § Research Appendix
 - Source analysis (paleography, reconciliation) → `sources/validations/{sourceId}.md`
 - Full-text source material → `sources/corpus/{sourceId}.md`
-- Polished ancestor narrative → `fact-sheets/g{NN}-{slug}.md`
 
 ---
 
@@ -192,7 +197,7 @@ Active topics requiring ongoing attention:
 
 ## 11. Tooling
 
-- **GitHub MCP server** — direct commit access via Claude Desktop. Small/medium files (<50KB) commit inline cleanly; larger files should be placed locally and pushed via `git` from Allen's machine.
+- **GitHub MCP server** — direct commit access via Claude Desktop. Small/medium files (<50KB) commit inline cleanly; larger files (>50KB) should be placed locally and pushed via `git` from Allen's machine.
 - **Eleventy site** — source in `site/`; build output excluded; Cloudflare Pages builds from the repo on push.
 - **No localStorage/sessionStorage in artifacts** — if the pedigree explorer or similar gains data needs, use in-memory state or window.storage.
 
