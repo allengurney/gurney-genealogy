@@ -1,33 +1,29 @@
 # sources/corpus/
 
-Full-text versions of key primary and secondary sources. These are my working-reference copies for searching, quoting, and verifying claims made in fact sheets and case files.
+Searchable full-text extracts of primary and secondary sources. The working-reference layer for citing, quoting, and verifying claims made in fact sheets and case files.
 
-## Media vs. corpus
+## Where to look for what
 
-- **`corpus/`** (this folder) — searchable text for cite-from and verify-against work.
-- **`sources/media/`** — image captures of specific register entries, record details, and visual evidence.
-- **Original PDFs** — live outside the repo in OneDrive for archival fidelity. Reach for the PDF only when the text version is insufficient (paleography, marginal notes, page-image questions).
+- **What sources exist** → `data/sources.json` is the canonical catalog. Every source ever cited gets an entry there with `corpusStatus`, `corpusPath`, archive provenance, and notes. Don't go through this README to find out what's in the corpus — go to `sources.json` or browse the directory listing.
+- **Per-source deep documentation** → for sources with multiple files, complex pagination, OCR quirks, or extraction history worth recording, place a `{source-id}-readme.md` next to the corpus files. Example: `daniel-gurney-readme.md` for the four-part Daniel Gurney book.
+- **Image captures of specific records** → `sources/media/{source-id}/`.
+- **Original PDFs** — live outside the repo (OneDrive) for archival fidelity. Reach for the PDF only when text isn't enough (paleography, marginalia, layout questions).
+
+## Filename convention
+
+- Markdown extracts: kebab-case, source-identifying. `daniel-gurney-part-1.md`, `norfolk-antiquarian-gurneys-of-norwich.md`.
+- Raw OCR/text dumps from archive scans may keep their archive-derived filenames if they're easier to trace back to source. Filename quirks are fine; the entry in `sources.json` is what makes the file authoritative.
+- Source-specific READMEs: `{source-id}-readme.md`.
 
 ## Policy
 
-- **Text-in-repo preferred over PDF-in-repo** for anything longer than a few pages. Text is searchable, quotable, diffable, and cheap to fetch. PDFs are large, opaque to grep, and awkward for both humans and AI to navigate.
-- **Preserve page markers** when sourcing from OCR scans so citations tie to specific pages. HathiTrust/Google Books/Internet Archive typically preserve these in their extracted text.
-- **Record OCR quirks** in each corpus file's header. Common issues: `ffi`/`fi` ligatures, long-s vs `f`, line-break hyphenation, 19th-century typography collapsing `William` → `Wilham`. Documented quirks are far more useful than pretending they aren't there.
+- **Text-in-repo preferred over PDF-in-repo** for anything longer than a few pages. Text is searchable, quotable, diffable, cheap to fetch.
+- **Preserve page markers** when sourcing from OCR scans so citations tie to specific pages. HathiTrust, Internet Archive, and Google Books extractions typically preserve these.
+- **Record OCR quirks** in the source-specific README (or in the file header if no separate README exists). Common issues: `ffi`/`fi` ligatures, long-s vs `f`, line-break hyphenation, period-typography artifacts. Documented quirks are far more useful than pretending they aren't there.
 
-## Currently in corpus
+## Adding a source to the corpus
 
-- `daniel-gurney-part-1.md` — *The Record of the House of Gournay*, Part I (Norman origins through G32 Gerard de Gournay). HathiTrust/Yale scan of 1848 original.
-- `daniel-gurney-part-2.md` — Part II (Junior Norfolk Branch, West Barsham medieval Gurneys).
-- `daniel-gurney-part-3.md` — Part III (Tudor through early-modern: Anthony, Francis G16, Henry, Francis Merchant Taylor, John of Maldon, John of Norwich).
-
-## Not yet in corpus
-
-- **Daniel Gurney, 1858 Supplement** — PDF exists in project knowledge (`Record_of_the_House_of_Gurney_by_Daniel_Gurney-Supplement.pdf`). Text extraction needed.
-- **Rye appendix** — referenced in Supplement. Source uncertain.
-- **Anderson, *Great Migration Directory* (2015)** — John Gurney-1 entry. Targeted extraction, not full book.
-- **Banks/Brownell, *Topographical Dictionary* (1937)** — Gurney entry.
-- **Pease genealogy** (pennyghael.org.uk/Gurney.pdf) — Ryvett claim source.
-- **Blomefield, *History of Norfolk*** — relevant sections for Harpley, West Barsham, Great Ellingham, Norwich parishes.
-- **FG Gurney 121 notebooks** (Buckinghamshire Archaeological Society) — unexamined.
-
-Adding to the corpus: copy text into `sources/corpus/{sourceId}.md` with a header documenting provenance, edition, OCR method, and known quirks. Register the source in `data/sources.json` with a `corpusStatus: "full" | "partial" | "none"` field.
+1. Drop the text file into this folder.
+2. Register or update the entry in `data/sources.json` (set `corpusStatus`, `corpusPath`, `notes`).
+3. If the source warrants deep documentation, create a `{source-id}-readme.md` here.
+4. No need to update this README.
