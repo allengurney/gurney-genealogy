@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "0.1.0",
+    "version": "1.1.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
     "lastUpdated": "2026-04-14",
     "schema": "sourceId → {citation, archive, url, corpusStatus, mediaPath, validationPath, notes}"
@@ -49,6 +49,17 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "Text extraction into corpus pending. Contains detailed notes supplementing all three parts."
+    },
+    "dg-rye-appendix": {
+      "shortTitle": "DG Rye Appendix",
+      "citation": "Rye, Walter. Appendix to Daniel Gurney's Record of the House of Gournay.",
+      "archive": "Project knowledge PDF (within Supplement file)",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Rye's additions. Scope and content not fully cataloged. Text extraction pending."
     },
     "nro-pd-12-1": {
       "shortTitle": "NRO PD 12/1 (St Martin at Palace, Norwich)",
@@ -192,6 +203,83 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "Hugh de Gournay III (G33): Liston, Fordham, Ardleigh (Essex); Norfolk properties. Referenced in DG-I."
+    },
+    "tag-10-70": {
+      "shortTitle": "TAG 10:70–73",
+      "citation": "The American Genealogist, vol. 10, pp. 70–73.",
+      "archive": null,
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "TIER 1 PULL — highest priority. Not yet obtained. Content unknown but flagged as significant for John Gurney-1."
+    },
+    "nehgr-62-94": {
+      "shortTitle": "NEHGR 62:94",
+      "citation": "New England Historical and Genealogical Register, vol. 62, p. 94.",
+      "archive": null,
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "TIER 1 PULL — highest priority. Not yet obtained."
+    },
+    "nichols-herald-v3": {
+      "shortTitle": "Herald & Genealogist v3 p.9",
+      "citation": "Nichols, John Gough, ed. The Herald and Genealogist, vol. 3, p. 9. London, 1866.",
+      "archive": null,
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Minor heraldic note on Barons of Gournay. Secondary citation endorsing Daniel Gurney's heraldic authority. Vols. 1, 2, 4–8 not yet exhaustively searched."
+    },
+    "heralds-visit-london-1633": {
+      "shortTitle": "Heralds' Visitation London 1633",
+      "citation": "Heralds' Visitation of London, 1633. College of Arms, London. Certified copy by Charles George Young, York Herald, 4 May 1831.",
+      "archive": "College of Arms, London",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Francis G14's own attestation of his pedigree and children. Transcribed in DG-III-524. PRIMARY SOURCE for Francis as 'of London, merchant, living a'o 1634' and son of Henry Gurney of Great Ellingham."
+    },
+    "heralds-visit-essex-1664": {
+      "shortTitle": "Heralds' Visitation Essex 1664",
+      "citation": "Heralds' Visitation of Essex, 1664. College of Arms, London. Certified copy by Charles George Young, York Herald, 4 May 1831.",
+      "archive": "College of Arms, London",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Francis Gurney of Maldon's own attestation. Transcribed in DG-III-537. John Gourney 'sonne and heire, aet. 9 a'o 1664' = born c.1655."
+    },
+    "st-benet-fink-register": {
+      "shortTitle": "St Benet Fink register, London",
+      "citation": "Parish register, St Benet Fink, City of London. Baptisms 1619–1637.",
+      "archive": "London Metropolitan Archives (presumed)",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Children of Francis G14 + Anne Browning: Dorothy 1619, Roger 1621, Frances 1626 (d. same year), Francis 1628, Lucretia 1630, Thomas 1636, Margaret 1637. Transcribed DG-III-525."
+    },
+    "st-mary-maldon-register": {
+      "shortTitle": "St Mary's Maldon register",
+      "citation": "Parish register, St Mary's, Maldon, Essex.",
+      "archive": "Essex Record Office",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Birth/baptism of John Gourney, 7 Oct / 30 Oct 1655. Ten children of Francis Gurney of Maldon listed in DG-III-537."
     }
   }
 }
