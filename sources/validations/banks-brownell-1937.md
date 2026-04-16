@@ -27,6 +27,6 @@ Audit trail for what has been examined from this source and where findings lande
 
 | Finding | Destination |
 |---|---|
-| Banks entry text, BSE cluster names, "Banks Mss." limitation, BSE apprenticeship mechanism hypothesis, candidate-probability effects | `research/people/g13-john-gurney-1.md` |
+| Banks entry text, BSE cluster names, "Banks Mss." limitation, BSE apprenticeship mechanism hypothesis, candidate-probability effects | `research/people/g13-john-gurney-fact-sheet.research.md` |
 | Citation correction (Bertram Press, Philadelphia) | `data/sources.json` |
 | Standing interpretive principle (East Anglian placement weakens Candidate A more than B) | AI-Rules §8 |

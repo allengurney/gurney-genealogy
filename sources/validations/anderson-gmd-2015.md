@@ -34,6 +34,6 @@ Corpus extract committed at `sources/corpus/The Great Migration Directory 2025 P
 
 | Finding | Destination |
 |---|---|
-| All John Gurney-1 findings (origin "Unknown" as implicit Banks rejection; 1636 arrival discrepancy; Boston+Braintree settlements; pull list with priorities; 6 open items) | `research/people/g13-john-gurney-1.md` |
-| Tier 1 pull priorities (TAG, NEHGR) | `research/people/g13-john-gurney-1.md` and AI-Rules §10 |
+| All John Gurney-1 findings (origin "Unknown" as implicit Banks rejection; 1636 arrival discrepancy; Boston+Braintree settlements; pull list with priorities; 6 open items) | `research/people/g13-john-gurney-fact-sheet.research.md` |
+| Tier 1 pull priorities (TAG, NEHGR) | `research/people/g13-john-gurney-fact-sheet.research.md` and AI-Rules §10 |
 | Standing interpretive principles (Anderson "Unknown" = implicit Banks rejection; 1636 vs. 1641 discrepancy) | AI-Rules §8 and `data/sources.json` notes |
