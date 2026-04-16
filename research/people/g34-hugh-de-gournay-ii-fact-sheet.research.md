@@ -4,6 +4,19 @@ Research companion for `g34-hugh-de-gournay-ii-fact-sheet.md`. See AI-Rules.md Â
 
 ---
 
+## Landholdings
+
+| Place | Period | Tenure | Notes |
+|---|---|---|---|
+| Gournay-en-Bray, Normandy | fl. c. 985 â€“ d. c. 1074 | Senior-line seat | Major fortification investment: triple wall, double ditch, and tower at Gournay |
+
+**Data flag:** `data/ancestors v23.json` Gournay-en-Bray entry for G34 has an eventDate field concatenating dates across seven-plus generations. See `research/topics/ancestors-json-audit.md`.
+
+Place files with full per-ancestor chronology:
+- `research/places/gournay-en-bray.md`
+
+---
+
 ## Working Notes
 
 *No entries yet.*
