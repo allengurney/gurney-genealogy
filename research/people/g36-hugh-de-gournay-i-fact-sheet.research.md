@@ -4,20 +4,17 @@ Research companion for `g36-hugh-de-gournay-i-fact-sheet.md`. See AI-Rules.md §
 
 ---
 
-## Landholdings
-
-| Place | Period | Tenure | Notes |
-|---|---|---|---|
-| Gournay-en-Bray, Normandy | fl. c. 945 – later 10th c. | Inherited from Eudes | Built "La Tour Hue" — citadel near the church of Saint-Hildevert with double ditch and tower |
-
-Place files with full per-ancestor chronology:
-- `research/places/gournay-en-bray.md`
-
----
-
 ## Working Notes
 
 *No entries yet.*
+
+---
+
+## Landholdings
+
+| Place | Period | Notes |
+|---|---|---|
+| [Gournay-en-Bray, Normandy](../places/gournay-en-bray.md) | c. 945–950 onward (dates uncertain) | Inherited from Eudes. "The Fortifier" — built "La Tour Hue" (citadel with double ditch and tower) near the site of the church of Saint-Hildevert |
 
 ---
 

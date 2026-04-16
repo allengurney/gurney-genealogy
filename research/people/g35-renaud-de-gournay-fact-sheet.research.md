@@ -4,22 +4,18 @@ Research companion for `g35-renaud-de-gournay-fact-sheet.md`. See AI-Rules.md §
 
 ---
 
-## Landholdings
-
-| Place | Period | Tenure | Notes |
-|---|---|---|---|
-| Gournay-en-Bray, Normandy | fl. c. 970 – later | Inherited senior-line seat | Seigneury and Pays de Bray |
-| La Ferté-en-Bray, Normandy | c. 989–996 | Via son Gautier's priory foundation | Priory endowed by son Gautier de la Ferté citing father Renaud and mother Alberade — **earliest primary-source document attesting any named Lord of Gournay** |
-
-Place files with full per-ancestor chronology:
-- `research/places/gournay-en-bray.md`
-- `research/places/la-ferte-en-bray.md`
-
----
-
 ## Working Notes
 
 *No entries yet.*
+
+---
+
+## Landholdings
+
+| Place | Period | Notes |
+|---|---|---|
+| [Gournay-en-Bray, Normandy](../places/gournay-en-bray.md) | late 10th c. | Inherited senior-line seat |
+| [La Ferté-en-Bray, Normandy](../places/la-ferte-en-bray.md) | 989–996 | Priory endowed by son Gautier in foundation charter naming Renaud and wife Alberade. The earliest primary-source document attesting a named Lord of Gournay. |
 
 ---
 

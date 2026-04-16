@@ -4,30 +4,22 @@ Research companion for `g32-gerard-de-gournay-fact-sheet.md`. See AI-Rules.md §
 
 ---
 
-## Landholdings
-
-| Place | Period | Tenure | Notes |
-|---|---|---|---|
-| Gournay-en-Bray, Normandy | c. 1093 – before 1104 | Inherited senior-line seat | Retained Pays de Bray seigneury |
-| Caister-on-Sea, Norfolk | Post-Conquest – before 1104 | English *caput baroniae* | Acquired via Warenne marriage |
-| Cantley, Norfolk | Post-Conquest – before 1104 | English holding | Acquired via Warenne marriage |
-| Lessingham Priory, Norfolk | Post-Conquest – before 1104 | Founder | Attached to Abbey of Bec; transferred Gournay-Bec patronage relationship to England |
-| Norfolk holdings (general) | Post-Conquest – before 1104 | Warenne marriage expansion | "Norfolk manors expanded through Edith de Warenne marriage connection" |
-
-**Data flag:** Norfolk and Gournay-en-Bray entries for G32 have concatenated multi-generation eventDate fields in `data/ancestors v23.json`. See `research/topics/ancestors-json-audit.md`.
-
-Place files with full per-ancestor chronology:
-- `research/places/gournay-en-bray.md`
-- `research/places/caister-on-sea.md`
-- `research/places/cantley.md`
-- `research/places/lessingham.md`
-- `research/places/le-bec-hellouin.md` (parent abbey of Lessingham; Gerard inherits Anselm-era Gournay-Bec relationship)
-
----
-
 ## Working Notes
 
 *No entries yet.*
+
+---
+
+## Landholdings
+
+| Place | Period | Notes |
+|---|---|---|
+| [Gournay-en-Bray, Normandy](../places/gournay-en-bray.md) | c. 1060s – d. before 1104 | Inherited senior-line seat; Pays de Bray |
+| [Caister-on-Sea, Norfolk](../places/caister-on-sea.md) | post-Warenne marriage | English *caput baroniae* in Norfolk (via Edith de Warenne) |
+| [Cantley, Norfolk](../places/cantley.md) | post-Warenne marriage | English Norfolk holding |
+| [Lessingham, Norfolk](../places/lessingham.md) | post-Conquest | Founded Lessingham Priory as daughter house of Bec Abbey |
+
+**Critical junction:** Gerard is the last direct-line ancestor to hold Gournay-en-Bray itself. On his death the seat passed to his eldest son Hugh IV (senior baron line, collateral). The junior Norfolk branch — Allen's direct line — descends from Gerard's youngest son Walter (G31), who held no Gournay-en-Bray property.
 
 ---
 

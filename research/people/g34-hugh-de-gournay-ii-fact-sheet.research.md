@@ -4,22 +4,19 @@ Research companion for `g34-hugh-de-gournay-ii-fact-sheet.md`. See AI-Rules.md �
 
 ---
 
-## Landholdings
-
-| Place | Period | Tenure | Notes |
-|---|---|---|---|
-| Gournay-en-Bray, Normandy | fl. c. 985 – d. c. 1074 | Senior-line seat | Major fortification investment: triple wall, double ditch, and tower at Gournay |
-
-**Data flag:** `data/ancestors v23.json` Gournay-en-Bray entry for G34 has an eventDate field concatenating dates across seven-plus generations. See `research/topics/ancestors-json-audit.md`.
-
-Place files with full per-ancestor chronology:
-- `research/places/gournay-en-bray.md`
-
----
-
 ## Working Notes
 
 *No entries yet.*
+
+---
+
+## Landholdings
+
+| Place | Period | Notes |
+|---|---|---|
+| [Gournay-en-Bray, Normandy](../places/gournay-en-bray.md) | c. 985 – c. 1074 | Inherited senior-line seat. "The Fortifier" (disputed — see note below): tradition ascribes to him the triple wall, double ditch, and tower investment that transformed Gournay into a major frontier fortress. Commander at the Battle of Mortemer 1054; witnessed ducal charters of William of Normandy from c. 1060 |
+
+**"The Fortifier" attribution:** DG-I p. 24 attaches the "La Tour Hue" construction to Hugh I (G36); the Ancestor Table V3 attaches the "triple wall, double ditch and tower" phrasing to Hugh II. Most plausibly: Hugh I built the first tower and ditch (late 10th c.); Hugh II reinforced and elaborated the defences in the 11th c. Not resolved definitively in project sources. See Working Notes section below when next updated.
 
 ---
 

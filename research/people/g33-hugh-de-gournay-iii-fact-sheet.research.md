@@ -4,31 +4,22 @@ Research companion for `g33-hugh-de-gournay-iii-fact-sheet.md`. See AI-Rules.md 
 
 ---
 
-## Landholdings
-
-| Place | Period | Tenure | Notes |
-|---|---|---|---|
-| Gournay-en-Bray, Normandy | c. 1020 – c. 1093 | Senior-line seat | Added 24 villages in the Beauvoisis ("Conquêts Hue de Gournai") — made Gournays vassals of kings of France in addition to Dukes of Normandy |
-| Liston, Essex, England | From 1066 Conquest – d. c. 1093 | Tenant-in-chief of king | Domesday 1086; 5 bordarii; "Goisfredus Talbot" as sub-tenant |
-| Fordham, Essex, England | From 1066 Conquest – d. c. 1093 | Tenant-in-chief of king | Domesday 1086; 11 bordarii and 4 servi |
-| Ardleigh, Essex, England | From 1066 Conquest – d. c. 1093 | Tenant-in-chief of king | Domesday 1086 (specific detail not yet extracted) |
-| Norfolk holdings (county-level) | Post-Conquest period | Post-Conquest grants | Specific Norfolk manors not detailed individually in DG for Hugh III (contrast Essex Domesday detail) |
-| Le Bec-Hellouin, Normandy | Retirement / burial c. 1089 | Retired to abbey; buried in abbey church | Personal friend of St. Anselm; Anselm's letter naming him "*dilectissimum nostrum*" |
-
-**Data flag:** Norfolk and Gournay-en-Bray entries for G33 have concatenated multi-generation eventDate fields in `data/ancestors v23.json`. See `research/topics/ancestors-json-audit.md`.
-
-Place files with full per-ancestor chronology:
-- `research/places/gournay-en-bray.md`
-- `research/places/liston.md`
-- `research/places/fordham.md`
-- `research/places/ardleigh.md`
-- `research/places/le-bec-hellouin.md`
-
----
-
 ## Working Notes
 
 *No entries yet.*
+
+---
+
+## Landholdings
+
+| Place | Period | Notes |
+|---|---|---|
+| [Gournay-en-Bray, Normandy](../places/gournay-en-bray.md) | c. 1020 – c. 1093 | Inherited senior-line seat. Added 24 villages to the Norman lordship ("Conquêts Hue de Gournai" in the Beauvoisis) making the Gournays also vassals of the kings of France |
+| [Liston, Essex](../places/liston.md) | post-Conquest | Domesday 1086. Held directly of the king. Five *bordarii*; Goisfredus Talbot as sub-tenant |
+| [Fordham, Essex](../places/fordham.md) | post-Conquest | Domesday 1086. Eleven *bordarii* and four *servi* |
+| [Ardleigh, Essex](../places/ardleigh.md) | post-Conquest | Domesday 1086 |
+| Norfolk manors (county-level) | post-Conquest | DG states properties in Norfolk but does not detail specific manors for Hugh III individually vs. the family |
+| [Le Bec-Hellouin, Normandy](../places/le-bec-hellouin.md) | later life & burial c. 1093 | Retired to and buried in the Abbey Church of Bec; personal friend of Anselm ("*dilectissimum nostrum*") |
 
 ---
 

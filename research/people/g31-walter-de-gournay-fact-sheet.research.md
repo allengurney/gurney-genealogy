@@ -4,26 +4,19 @@ Research companion for `g31-walter-de-gournay-fact-sheet.md`. See AI-Rules.md §
 
 ---
 
-## Landholdings
-
-| Place | Period | Tenure | Notes |
-|---|---|---|---|
-| Suffolk (county-level) | fl. c. 1108–1154 | Under Manasser de Dampmartin | Liber Niger Scaccarii, vol. i, p. 298 — earliest documentary attestation of Walter in England |
-| Hardingham (Swathings), Norfolk | fl. c. 1108–1154 | Mesne lord under Barons of Gournay | One of two long-standing junior-branch Norfolk holdings |
-
-Note: Walter did not hold Gournay-en-Bray itself — that seat passed to his elder brother Hugh IV (senior baron line). The parage tenure of Montigny-sur-Andelle held by his son William I (G30) is the proof of Walter's Gournay blood descent — see `research/places/montigny-sur-andelle.md`.
-
-Place files with full per-ancestor chronology:
-- `research/places/suffolk.md`
-- `research/places/hardingham.md`
-- `research/places/montigny-sur-andelle.md` (parage tenure via son William I)
-- `research/places/runhall.md` (possibly acquired during Walter's lifetime)
-
----
-
 ## Working Notes
 
 *No entries yet.*
+
+---
+
+## Landholdings
+
+| Place | Period | Notes |
+|---|---|---|
+| [Suffolk (county-level)](../places/suffolk.md) | fl. c. 1108–1154 | Lands held under Manasser de Dampmartin (Liber Niger Scaccarii, vol. i, p. 298) |
+| [Hardingham, Norfolk](../places/hardingham.md) | fl. c. 1108–1154 | Swathings manor — held as mesne lord under the Barons of Gournay (senior line) |
+| Runhall, Norfolk (likely) | fl. c. 1108–1154 | Not individually attested for Walter; the fief may have come to the junior branch through the Le Bourguignon forfeiture c. 1204 rather than under Walter |
 
 ---
 
