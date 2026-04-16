@@ -283,3 +283,37 @@ Ryvett claim confirmed against NRO PD 12/1 (March 2026).
 ## 12. Tone
 
 Concise, direct, honest. Pushback over sycophancy. "I was wrong" when wrong. No filler.
+
+---
+
+## 13. Efficiency — don't over-engineer
+
+### Transcript migration: row-by-row, not inventory-first
+
+When processing a chat transcript for migration, the fast path is:
+
+1. **One or two** `conversation_search` calls to surface the relevant content. Stop when you have the material.
+2. Step through the transcript linearly. For each substantive row/finding, decide its target file and add it.
+3. Commit in batches of related changes (one subject file = one commit; multiple small subject files = one batched commit is also fine).
+4. Move on.
+
+Do NOT build a comprehensive inventory table before writing anything. Do NOT run 5+ searches "to make sure." The transcript is what it is; search it enough to find the material, then process it.
+
+### Small file edits: just write the file
+
+For files under ~50KB (sources.json, any markdown research file, fact sheets):
+- `get_file_contents` to fetch
+- edit inline
+- `create_or_update_file` with the full new content and the returned SHA
+
+Do NOT write a Python script to surgically edit a 20KB JSON file. The full-paste round-trip is faster and more reliable than scripting around edge cases.
+
+For files over ~200KB or operations across many files, consider `push_files` (multi-file commit) or the §3 bulk-script exception.
+
+### Stop retrying
+
+If a tool call fails or produces an unexpected result, try **once** more with a clear correction. If the second attempt also fails, stop and surface the problem rather than grinding through attempts 3+. Allen's time is more valuable than the work being done.
+
+### Directory listings
+
+Don't fetch full directory listings unless you actually need them. Knowing that `fact-sheets/` contains G04–G37 is sufficient for most tasks; the actual file list is only needed when looking for something specific.
