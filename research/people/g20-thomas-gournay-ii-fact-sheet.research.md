@@ -10,6 +10,24 @@ Research companion for `g20-thomas-gournay-ii-fact-sheet.md`. See AI-Rules.md §
 
 ---
 
+## Landholdings
+
+Thomas II's portfolio was substantial — perhaps 8–10 manors across Norfolk and Suffolk, plus a Norwich town house. His wife's textile work (bequest to Margaret in the 1471 will: "all the woolen and linen cloths ... being her own work and that of her servants") and his flocks would have made him comfortable without being magnate-level; he was solidly within the substantial (but not titled) Norfolk gentry.
+
+| Place | Period | Notes |
+|---|---|---|
+| [West Barsham, Norfolk](../places/west-barsham.md) | c. 1430 – d. 1471 | **Primary family seat.** Surviving 16th-century north wing of West Barsham Hall is Grade II listed |
+| [Harpley, Norfolk](../places/harpley.md) | c. 1430 – d. 1471 | Ancestral medieval seat, still a fully active residence. Will gives burial preference "at Harpley or Norwich, as he may die at either place" |
+| Norwich (St Gregory's parish), town house | c. 1430 – d. 1471 | Documented in 1471 will. One of three residences. St Gregory's is an ancient city parish in the heart of medieval Norwich |
+| Hingham, Norfolk (Hingham-Gurneys) | c. 1430 – d. 1471 | Held from the Bardolph heirs |
+| [Hardingham, Norfolk](../places/hardingham.md) | c. 1430 – d. 1471 | Swathings manor — long-standing family holding |
+| Saxthorpe, Norfolk (Loundhall) | c. 1430 – d. 1471 | Inherited from earlier generations (exchange by Edmund G23 per HoP biography of Sir John V) |
+| Hellesdon / Drayton, Norfolk | c. 1430 – d. 1471 | Heylesdon manors inherited through Sir John V's marriage |
+| Denver, Norfolk | c. 1430 – d. 1471 | Wauncy inheritance |
+| Depden, Suffolk | c. 1430 – d. 1471 | Wauncy inheritance (see [Suffolk](../places/suffolk.md)) |
+
+---
+
 ## Research Appendix
 
 ### Lineage Status
@@ -29,18 +47,6 @@ Daniel Gurney does not reproduce the full Latin text of Thomas II's will in his 
 - **Heir**: son William Gurney IV, who succeeded to West Barsham and the full portfolio.
 
 The full will could likely be recovered from either (a) Daniel Gurney, <em>Supplement to the Record of the House of Gournay</em> (King's Lynn: Thew & Son, 1858), pp. 814 ff. (the Thomas Gurnay chapter); or (b) the Norfolk Record Office, Norwich Consistory Court probate registers, series NCC; or (c) the original register at Doctors' Commons, London.
-
-### Landholdings
-- **West Barsham manor and Hall, Norfolk** — primary family seat since the 1372 Wauncy marriage. *Visible today: surviving 16th-century north wing of West Barsham Hall, Grade II listed.*
-- **Harpley manor, Norfolk** — the ancestral medieval seat, still held by Thomas II alongside West Barsham as a fully active residence. *Visible today: Harpley village and St Lawrence Church (the church his ancestors had presented to since the 14th century, with surviving medieval bench-end carvings).*
-- **Town house in St Gregory's parish, Norwich** — documented from his father-in-law's (or earlier) period and explicitly confirmed by Thomas's will. St Gregory's is one of the ancient city parishes in the heart of medieval Norwich.
-- **Hingham-Gurneys manor** — held from the Bardolph heirs.
-- **Hardingham (Swathings) manor** — long-standing family holding.
-- **Loundhall in Saxthorpe** — inherited from earlier generations (exchange by Edmund G23 per History of Parliament).
-- **Heylesdon manors** — inherited through the Heylesdon marriage of Sir John Gurney V (d. 1408).
-- **Denver, Norfolk** — Wauncy inheritance.
-- **Depden, Suffolk** — Wauncy inheritance.
-- **Estimated scale**: Thomas II's portfolio was substantial — perhaps 8–10 manors across Norfolk and Suffolk, plus a Norwich town house. His wife's textile work and his flocks would have made him comfortable without being magnate-level; he was solidly within the substantial (but not titled) Norfolk gentry.
 
 ### The Jerningham of Somerleyton connection
 The Jerninghams (also spelled Jernegan) of Somerleyton, Suffolk, were among the most prominent East Anglian Catholic gentry families of the later Middle Ages. They held estates at Somerleyton, Stonham Jerningham, and elsewhere in Suffolk. In the Reformation crisis they remained firmly Catholic; **Sir Henry Jerningham** (c. 1509/10–1572) of Huntingfield was one of the principal East Anglian gentlemen who rallied to Mary I at Kenninghall and Framlingham in July 1553, helping secure her throne against the Jane Grey faction. The Jerninghams remained recusant into the 17th century.

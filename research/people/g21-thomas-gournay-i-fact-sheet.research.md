@@ -10,6 +10,27 @@ Research companion for `g21-thomas-gournay-i-fact-sheet.md`. See AI-Rules.md §3
 
 ---
 
+## Landholdings
+
+Via the collateral succession from Sir John Gurney V (d. 1408), Thomas I came into possession of approximately the following portfolio — at least nine manors across Norfolk and Suffolk plus London and Norwich commercial property. Whether he retained the full portfolio, or whether parts were alienated during the collateral succession (e.g., to pay debts or settle Alice Heylesdon's dower), is not clear from sources consulted. By the time of his grandson William Gurney IV's 1507 will the working core had narrowed to West Barsham, Harpley, Hingham, and the Pockthorpe-by-Norwich town house — suggesting some consolidation over the intervening century.
+
+| Place | Period | Notes |
+|---|---|---|
+| [West Barsham, Norfolk](../places/west-barsham.md) | fl. c. 1408–1450 | Wauncy inheritance; family seat since 1372 |
+| [Harpley, Norfolk](../places/harpley.md) | fl. c. 1408–1450 | Ancestral medieval seat since at least 1183 |
+| [Hardingham, Norfolk](../places/hardingham.md) | fl. c. 1408–1450 | "Swathings" manor — long-standing family holding from the Henry II period |
+| Saxthorpe, Norfolk (Loundhall) | fl. c. 1408–1450 | Acquired by Edmund G23 in exchange for other premises |
+| Houghton, Norfolk (Nerford moiety) | fl. c. 1408–1450 | Moiety of the Nerford manor at Houghton purchased by Sir John V in 1399, bordering on Harpley |
+| Hellesdon, Norfolk | fl. c. 1408–1450 | Inherited from the Heylesdon marriage of Sir John V to Alice Heylesdon (before Nov. 1392) |
+| Drayton, Norfolk | fl. c. 1408–1450 | Inherited from the Heylesdon marriage |
+| Advowsons of Hellesdon & Drayton churches & two chantries | fl. c. 1408–1450 | Heylesdon chantry foundations |
+| Houses in Norwich | fl. c. 1408–1450 | |
+| Depden, Suffolk | fl. c. 1408–1450 | Wauncy inheritance (see [Suffolk](../places/suffolk.md)) |
+| "La Selde Coronata" warehouse, City of London | fl. c. 1408–1450 | Heylesdon inheritance; location within the City (Fenchurch / Leadenhall area?) unknown |
+| South Creak, Norfolk | fl. c. 1408–1450 | Scene of Sir John V's dispute with duchy of Lancaster tenants over "South Lings" grazing rights |
+
+---
+
 ## Research Appendix
 
 ### Lineage Status
@@ -33,22 +54,6 @@ Sir John Gurney V is documented in the History of Parliament's <em>House of Comm
 - **Heir**: a single son Edmund, who died before reaching majority. The estate therefore fell collaterally to Sir John's nephew Thomas I (son of Sir John's brother Robert by Joan de Norwich).
 
 This level of national-scale political documentation is exceptional for the pre-1600 Gurneys. Sir John V — Thomas I's uncle — is more fully documented in contemporary Crown records than any Gurney ancestor before him or after him until the 19th-century Quaker bankers.
-
-### Landholdings inherited by Thomas I
-Via the collateral succession from Sir John Gurney V, Thomas I came into possession of approximately the following portfolio (estimated from the HoP biography and DG pedigree):
-- **West Barsham manor**, Norfolk — the Wauncy inheritance, family seat since 1372.
-- **Harpley manor**, Norfolk — the medieval family seat since at least 1183.
-- **Hardingham ("Swathings") manor**, Norfolk — long-standing family holding from the Henry II period.
-- **"Loundhall" in Saxthorpe**, Norfolk — acquired by Edmund Gurney (d. 1387) in exchange for other premises.
-- **Moiety of the Nerford manor at Houghton**, Norfolk — purchased by Sir John V in 1399, bordering on Harpley.
-- **Hellesdon and Drayton manors**, Norfolk — inherited from the Heylesdon marriage.
-- **Advowsons of Hellesdon and Drayton churches** and of two chantries Heylesdon had founded.
-- **Houses in Norwich**.
-- **Depden, Suffolk** — Wauncy inheritance.
-- **"La Selde Coronata"** warehouse in the City of London.
-- **South Creak landholdings**, Norfolk.
-
-This is a portfolio of **at least nine manors across Norfolk and Suffolk plus London and Norwich commercial property**. Whether Thomas I retained all of it or whether parts were alienated during the collateral succession (for example to pay debts or settle Alice Heylesdon's dower) is not clear from the sources consulted. By the time of his grandson William Gurney IV's 1507 will, the working core had narrowed to West Barsham, Harpley, Hingham, and the Pockthorpe-by-Norwich town house — suggesting some consolidation or loss over the intervening century.
 
 ### Sources Consulted
 - Daniel Gurney, <em>Record</em> (1848), pp. 278–280, and pedigree p. 286.
