@@ -4,6 +4,19 @@ Research companion for `g37-eudes-de-gournay-fact-sheet.md`. See AI-Rules.md §3
 
 ---
 
+## Landholdings
+
+| Place | Period | Tenure | Notes |
+|---|---|---|---|
+| Gournay-en-Bray, Normandy | c. 911 – c. 912 | Founding grant from Rollo | Seigneury of Gournay-en-Bray and Pays de Bray; the founding land grant of the entire Gurney family story |
+
+**Data flag:** `data/ancestors v23.json` incorrectly lists West Barsham, Norfolk as a landholding for Eudes. This is categorically wrong — West Barsham did not enter the family until 1372 (Wauncy inheritance through Katherine, wife of Edmund G23). See `research/topics/ancestors-json-audit.md`.
+
+Place files with full per-ancestor chronology:
+- `research/places/gournay-en-bray.md`
+
+---
+
 ## Working Notes
 
 *No entries yet.*
