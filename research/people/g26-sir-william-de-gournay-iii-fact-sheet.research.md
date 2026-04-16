@@ -4,6 +4,21 @@ Research companion for `g26-sir-william-de-gournay-iii-fact-sheet.md`. See AI-Ru
 
 ---
 
+## Landholdings
+
+| Place | Period | Tenure | Notes |
+|---|---|---|---|
+| Harpley, Norfolk | fl. c. 1260–1294 | Inherited from father Sir John I | **Sold to brother** John (Rector of Harpley) in 1294 in exchange for annuity |
+| Hardingham (Swathings), Norfolk | fl. c. 1260–1300 | Inherited from father Sir John I | Continuing junior-branch holding |
+
+The 1294 conveyance deed seal is the **earliest surviving physical impression of the Gournay engrailed cross** — see DG-I pp. 339–341.
+
+Place files with full per-ancestor chronology:
+- `research/places/harpley.md`
+- `research/places/hardingham.md`
+
+---
+
 ## Working Notes
 
 *No entries yet.*

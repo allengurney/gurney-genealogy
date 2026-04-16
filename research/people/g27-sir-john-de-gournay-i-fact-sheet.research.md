@@ -4,6 +4,25 @@ Research companion for `g27-sir-john-de-gournay-i-fact-sheet.md`. See AI-Rules.m
 
 ---
 
+## Landholdings
+
+| Place | Period | Tenure | Notes |
+|---|---|---|---|
+| Harpley, Norfolk | fl. c. 1240–1280 | Inherited from father William II | Principal family manor |
+| Hardingham (Swathings), Norfolk | fl. c. 1240–1280 | Inherited from father William II | Continuing junior-branch holding |
+| South Wootton, Norfolk | Until 1264–65 | Forfeited for rebellion at Lewes | **Lost** after Battle of Lewes; only significant penalty from rebellion — Harpley and other holdings retained |
+
+Battlefield / event locations (not landholdings but primary-source-attested Sir John I locations):
+- Lewes, Sussex — fought at Battle of Lewes 14 May 1264 on rebel side
+- Holy Land — Crusade with Edward I 1270 (letters of protection Rot. Patent 54 Hen. III, m.15 d., in DG-Supp pp. 785–786)
+
+Place files with full per-ancestor chronology:
+- `research/places/harpley.md`
+- `research/places/hardingham.md`
+- `research/places/lewes.md`
+
+---
+
 ## Working Notes
 
 *No entries yet.*
