@@ -6,7 +6,25 @@ Research companion for `g29-matthew-de-gournay-fact-sheet.md`. See AI-Rules.md �
 
 ## Working Notes
 
-*No entries yet.*
+### Hameline Plantagenet — full identification (added 2026-04-16 from chat bcb40001)
+
+The marriage that defined Matthew's career was arranged c. 1183 by Hameline Plantagenet, Earl Warren. Hameline was:
+
+- Illegitimate son of Geoffrey of Anjou (father of Henry II) — therefore illegitimate half-brother of Henry II.
+- Married Isabella de Warenne in 1164, acquiring the earldom of Surrey through her.
+- Lifespan: c. 1130–1202.
+
+Why this matters for Matthew: Hameline was one of the great magnates of the realm. His arranging this marriage for a junior Norfolk knight signals that the Gournay name still carried weight at the Angevin court two generations after the loss of the senior baronial line's Norman primacy. Rose de Burnham was Hameline's "kinswoman" (DG-I p. 278) — the Burnhams being a younger branch of the de Warennes (DG-I p. 278; original Gerard-Edith de Warenne marriage c. 1090, DG-I p. 27).
+
+### The 1204 hook — severance of the last Norman tie (added 2026-04-16 from chat bcb40001)
+
+Matthew lived to see King John lose Normandy to Philip Augustus in 1204. Before that loss, the junior Norfolk branch had retained one tangible Norman tie: William I (G30, Matthew's father) had held Montigny-sur-Andelle in the Pays de Bray as a parage tenure under the senior Lords of Gournay. After 1204, that tenure was effectively severed — Montigny was on the French side of the new political reality, the Norfolk branch on the English side. From Matthew's late life onward, the family's Norman heritage survived only in their name.
+
+This is a useful narrative hook for any biographical writing about Matthew or about the junior Norfolk branch's transition to a fully English identity.
+
+### Norman Pipe Roll 1184 reference (added 2026-04-16 from chat bcb40001)
+
+DG cites the Norman Pipe Roll of 1184 in connection with Rose de Burnham's family (DG-I pedigree p. 286). Not yet independently reviewed. The Pipe Rolls of Henry II have been published — the 1184 roll would be in the Pipe Roll Society series. Worth checking for the original Latin entry.
 
 ---
 
@@ -34,7 +52,8 @@ Research companion for `g29-matthew-de-gournay-fact-sheet.md`. See AI-Rules.md �
 ### Open Questions
 1. Harl. MSS. 970 (British Library) — the Vitis Calthorpiana is a manuscript collection relating to Norfolk families. The Hardingham tithing deed and the charters relating to the Burnham family within this collection could potentially be digitised or requested through BL online services. This would provide direct primary source transcription.
 2. The DG Appendix LIII plea (Matthew vs. Gilbert de Runhall): can this be located in the project PDFs? It is the document establishing Matthew as son of William I.
-3. Hameline Earl Warren's motivation for arranging this marriage: was it simply good lordship toward a minor tenant, or was there a specific relationship between the Gournay junior branch and the Warren earldom that made this match particularly appropriate?
+3. Hameline Earl Warren's motivation for arranging this marriage: was it simply good lordship toward a minor tenant, or was there a specific relationship between the Gournay junior branch and the Warren earldom that made this match particularly appropriate? The Burnham-as-Warren-cadet link (DG-I p. 278) is part of the answer.
+4. Norman Pipe Roll 1184 entry on the Burnham family — Pipe Roll Society publications could be checked.
 
 ### Hero Image Note
 St. Lawrence Church, Harpley is the ideal hero image for Matthew and the next several generations — it is the church of the manor they acquired through this marriage and held for ~180 years. A clear Geograph photograph exists (CC BY-SA licensed). The image should be captioned to note that the current structure largely postdates Matthew (the Harpley church has significant 14th-century fabric) but stands on the site.
