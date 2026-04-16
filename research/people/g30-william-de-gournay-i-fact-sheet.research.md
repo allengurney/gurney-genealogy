@@ -4,6 +4,24 @@ Research companion for `g30-william-de-gournay-i-fact-sheet.md`. See AI-Rules.md
 
 ---
 
+## Landholdings
+
+| Place | Period | Tenure | Notes |
+|---|---|---|---|
+| Montigny-sur-Andelle, Normandy | fl. c. 1150–1180 | Held *in capite* in parage from Dukes of Normandy | "Incontestable proof of his descent in blood from the Barons of Gournay" — DG-I p. 278 |
+| Runhall, Norfolk | fl. c. 1150–1180 | Lord of the manor | Placit. 8 John (1207) retrospectively names him lord of Runhall "temp. Hen. II" |
+| Hardingham (Swathings), Norfolk | fl. c. 1150–1180 | Lord of Swathings manor | Continuing from father Walter's tenure |
+
+Gaywood (near King's Lynn): William I designated "Dominus Willelmus de Gurney" in a deed of conveyance — confirms knighthood. Not a landholding per se but an attested legal transaction place.
+
+Place files with full per-ancestor chronology:
+- `research/places/montigny-sur-andelle.md`
+- `research/places/runhall.md`
+- `research/places/hardingham.md`
+- `research/places/kings-lynn.md` (Gaywood deed connection)
+
+---
+
 ## Working Notes
 
 *No entries yet.*
