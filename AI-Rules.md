@@ -6,7 +6,7 @@ Operating rules for Claude working in this repo. **Read before first substantive
 
 ## 0. Session start
 
-On new session: read `AI-Rules.md`, `README.md`, most recent `research/log/*.md`. Check if `data/sources.json` changed since last reference. For a specific ancestor, read both `fact-sheets/g{NN}-{slug}.md` and `fact-sheets/g{NN}-{slug}.research.md`.
+On new session: read `AI-Rules.md`, `README.md`, most recent `research/log/*.md`. Check if `data/sources.json` changed since last reference. For a specific ancestor, read both `fact-sheets/g{NN}-{slug}-fact-sheet.md` and `research/people/g{NN}-{slug}-fact-sheet.research.md`.
 
 ---
 
@@ -21,21 +21,26 @@ User: Allen Lawrence Gurney, b. 1972, Portland OR. Dual projects: biography of B
 ```
 data/            sources.json, locations.json, ancestors_v23.json (canonical structured data)
 fact-sheets/
-  g{NN}-{slug}.md            ← published narrative (stable, polished, Allen's prose)
-  g{NN}-{slug}.research.md   ← research companion (growing, detailed, lab notebook)
+  g{NN}-{slug}-fact-sheet.md    ← PUBLISHED narrative only (stable, polished, Allen's prose)
 research/
-  people/        NON-ANCESTOR subjects only (see §3)
+  people/        ← RESEARCH for ancestors AND non-ancestors
+    g{NN}-{slug}-fact-sheet.research.md   ← paired research companion to each fact sheet
+    g{NN}-{slug}.md                        ← pre-fact-sheet staging (no fact sheet yet)
+    {descriptive-slug}.md                  ← non-ancestor subjects (Margaret Rybett, etc.)
   places/        one file per geographic locus
-  topics/        cross-cutting problems
-  case-files/    long-form investigations (e.g., candidate-b.md)
+  topics/        cross-cutting problems (Protestation Returns, two-Francis, etc.)
+  case-files/    long-form investigations (candidate-b.md)
   log/           YYYY-MM-DD.md — INDEX ONLY, points into target files
+  migration-tracker.md
 sources/
   corpus/        full-text source extracts (text preferred over PDF)
   media/{id}/    screengrabs, record crops (in-repo while small)
-  validations/   per-source paleographic/analytical worksheets
+  validations/   per-source audit trail: WHAT was examined, scope/limitations — NOT findings
 site/            Eleventy source (output excluded via .gitignore)
 tools/           lineage-specific artifacts (pedigree-explorer.html)
 ```
+
+**Key structural principle:** `fact-sheets/` is published-only. All research — for ancestors with fact sheets, ancestors without fact sheets, and non-ancestors — lives under `research/people/` (or `places/`, `topics/`, `case-files/` as appropriate).
 
 ---
 
@@ -53,20 +58,22 @@ This is a narrow exception. The default is MCP. If in doubt, do it via MCP.
 
 ### The paired-file rule: every ancestor gets two files
 
-Each direct-line ancestor has a paired set in `fact-sheets/`:
+Each direct-line ancestor has a paired set:
 
-**Narrative file** (`g{NN}-{slug}.md`):
+**Narrative file** (`fact-sheets/g{NN}-{slug}-fact-sheet.md`):
 - YAML front matter, vitals, highlights, children table, narrative prose, citations, related links.
 - Allen's wordsmithed work. Respect the prose — edit only when facts change.
 - Published to the website via Eleventy. Stable. Changes only when the published content changes.
 
-**Research companion** (`g{NN}-{slug}.research.md`):
+**Research companion** (`research/people/g{NN}-{slug}-fact-sheet.research.md`):
 - The lab notebook. All accumulated research detail for this ancestor.
 - Sections: Working Notes, Open Questions, Sources Consulted, Conflicting Information, Search Notes & Next Steps, Working Hypotheses, Raw Data / Transcriptions.
 - This is the file that grows during research sessions. Frequent small commits here.
 - Eleventy build skips `*.research.md` files — no HTML comment markers needed.
 
-**Why split:** The narrative file stays small and stable (~5–15KB). The research companion absorbs frequent commits without carrying 15KB of polished prose as dead weight on every MCP write. Git history on each tells a clean story: one shows editorial evolution, the other shows the research trail.
+**Why split — and why the companion lives in `research/people/`:** The narrative file stays small and stable (~5–15KB) in `fact-sheets/`, which is a clean published-content directory. The research companion absorbs frequent commits in `research/people/` alongside non-ancestor research (Margaret Rybett, laceweaver Francis, candidate matches). A researcher looking at a person — ancestor or not — finds all accumulated research in one place.
+
+*Filename note:* existing companions carry the `-fact-sheet.research.md` suffix as an artifact of the original local split. New files created for ancestors who don't yet have a fact sheet should use `g{NN}-{slug}.md` (pre-fact-sheet staging convention). If and when they get a fact sheet, rename to `g{NN}-{slug}-fact-sheet.research.md`.
 
 ### What goes where — narrative vs. research companion
 
@@ -79,6 +86,34 @@ Each direct-line ancestor has a paired set in `fact-sheets/`:
 - Negative results, conjectures, raw transcriptions.
 
 No promotion workflow. New findings go directly where they belong: if it's a fact-sheet-level finding (corrects a date, fills a gap, same weight as existing content), update the narrative. If it's detail, context, source extract, or supporting material, it goes in the companion. This is a judgment call, not a rule engine.
+
+### Findings vs. source provenance — the critical distinction
+
+**Findings go to the subject. Source files are thin audit trail.**
+
+When examining a source (parish register, published compilation, archival document), the evaluation produces two kinds of output that land in different places:
+
+1. **Findings about a person, place, or topic** → go to that subject's file:
+   - Facts established → `research/people/g{NN}-{slug}-fact-sheet.research.md` (or pre-fact-sheet stub, or non-ancestor file)
+   - Geographic findings → `research/places/{place}.md`
+   - Cross-cutting analysis → `research/topics/{topic}.md`
+   - Long-form hypothesis work → `research/case-files/{case}.md`
+   - Open items / action items → on the subject's file, not the source's
+   - Negative results → on the subject's file (a negative about John goes on John's file)
+
+2. **Source provenance** → `sources/validations/{source-id}.md`:
+   - WHAT was examined (which volume, which pages, what scope)
+   - HOW it was examined (image analysis, text search, paleographic review)
+   - Scope limitations (what was NOT examined)
+   - Pointer(s) to where findings landed
+
+The validation file is deliberately thin. It answers "what did we do with this source?" It does NOT answer "what did we learn about John?" — that answer lives on John's file.
+
+**Example:** Evaluating Anderson's *Great Migration Directory* entry for John Gurney-1 produces:
+- John's file gets: "Anderson GMD p. 158 gives origin Unknown, arrival 1636, settlements Boston + Braintree only" + the 6-source citation pull list + open items (pull TAG, pull NEHGR, reconcile 1636 vs 1641).
+- Anderson's validation file gets: "Examined p. 158 extract on 2026-04-08. Full directory not extracted. Findings logged at `research/people/g13-john-gurney-1.research.md`."
+
+This prevents findings from being buried where no one researching the subject would look.
 
 ### Working Notes section (in research companion)
 
@@ -107,12 +142,12 @@ collateral worth tracing if Flaitel scholarship exists.
 "Basiha" appears 10× in DG corpus vs. 52 correct "Basilia." Flag when quoting.
 ```
 
-### research/people/ — non-ancestors only
+### research/people/ — both ancestors and non-ancestors
 
-Reserved for people who don't have and won't get fact sheets:
-- Non-ancestor research subjects: Margaret Rybett, laceweaver Francis, Ann Gurney of Hingham, candidate matches.
-- Spouses with enough independent research to warrant their own file.
-- Pre-fact-sheet staging (absorbed or deleted when fact sheet is produced).
+This directory holds:
+- **Ancestor research companions** (paired to fact sheets): `g{NN}-{slug}-fact-sheet.research.md`
+- **Pre-fact-sheet ancestors:** `g{NN}-{slug}.md` — when an ancestor doesn't yet have a fact sheet but research is accumulating (e.g., John Gurney-1 at G13 while Candidate B is still probable-not-confirmed)
+- **Non-ancestor research subjects:** Margaret Rybett, laceweaver Francis, Ann Gurney of Hingham, candidate matches, disambiguation targets — use descriptive slugs without generation prefix
 
 ### Commit cadence
 Commit in the moment when durable content surfaces — not at session end. Atomic commits (one logical change each). Descriptive message. Don't batch unrelated changes.
@@ -162,7 +197,7 @@ Commit in the moment when durable content surfaces — not at session end. Atomi
 "Probable (~55–60%)" beats "fairly likely." Attach to specific claims, not whole documents.
 
 ### Negative results are first-class
-"Searched X, found nothing" is a finding. Log it. Examples: Peter absent from all England Gurney records; no John Gurney in Bucks Protestation Returns (London/Essex non-surviving, so Francis's absence uninformative).
+"Searched X, found nothing" is a finding. Log it **on the subject's file**, not on the source's. Examples: Peter absent from all England Gurney records; no John Gurney in Bucks Protestation Returns (London/Essex non-surviving, so Francis's absence uninformative).
 
 ### Conclusions don't outrun evidence
 Overclaiming is the cardinal sin. Rejected patterns: "no one left for New England is not provable"; Sunday-baptism test; tight 1618 timeline without basis.
@@ -229,11 +264,11 @@ Ryvett claim confirmed against NRO PD 12/1 (March 2026).
 
 ## 10. Open threads (April 2026)
 
-- **Candidate B** ~55–60%. Case file: `research/case-files/candidate-b.md`.
+- **Candidate B** ~55–60%. Case file to be built: `research/case-files/candidate-b.md`.
 - **Anderson 1636 vs. Weymouth 1641** — unresolved.
 - **East Dereham Entry E** — paleographic: ffrancis > Nicholas; further validation useful.
 - **Tier 1 pulls**: TAG 10:70–73, NEHGR 62:94 — not yet obtained.
-- **Fact sheets remaining**: G21–G15.
+- **Fact sheets remaining**: G21–G15 (G14 exists; G13 John Gurney-1 pre-fact-sheet).
 - **Supplement + Rye** — corpus extraction pending.
 
 ---
