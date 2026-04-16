@@ -2,7 +2,7 @@
 
 **Tailor.** b. c. 1609–12 (AI-Rules §7 correction #6), probably East Anglia. Emigrated to New England by June 1641 at latest; Anderson assigns 1636 arrival (unresolved). d. 1662/3, Braintree, Massachusetts. Wife Mary (maiden name unknown — "Richards" is UNVERIFIED). Lineage status: **Probable** (Candidate B ~55–60%, son of Francis Gurney G14 Merchant Taylor + Margaret Rybett).
 
-Pre-fact-sheet. No published narrative yet. Active research lives in this file and will move to `research/case-files/candidate-b.md` when that case file is built. Filename: `g13-john-gurney-1.md` (pre-fact-sheet staging per `research/people/README.md`); rename to `g13-john-gurney-1-fact-sheet.research.md` when a fact sheet is produced.
+Pre-fact-sheet. No published narrative yet. Active research lives in this file and will move to `research/case-files/candidate-b.md` when that case file is built.
 
 Standing facts are in AI-Rules.md §7 ("8 critical corrections" — #6 birth date, #7 Peter naming absence, and the Candidate B / two-Francis framing). Don't re-derive them here; reference them.
 
