@@ -16,33 +16,41 @@ When everything is `migrated`, this file can be archived or deleted.
 
 ---
 
-## Phase 1 — Project knowledge documents
+## Phase 1 — Project knowledge documents — REDIRECTED
 
-| Source | Status | Migration target | Notes |
-|---|---|---|---|
-| `Gurney_CandidateB_CaseFile_V2.md` | not started | `research/case-files/candidate-b.md` | The central research doc on John Gurney-1 origin. Highest priority. |
-| `Gurney_Research_Findings_V7.md` | not started | distributed: fact-sheet companions, topic files | Findings consolidated; need to identify what's not yet captured elsewhere |
-| `Gurney_ProtestationReturns_Analysis.md` | not started | `research/topics/protestation-returns.md` | Cross-cutting analysis; topic file is right home |
-| `Gurney_Children_Matrix_V2.docx` | not started | `research/case-files/john-children-matrix.md` (or supporting attachment to candidate-b) | Convert .docx to .md in migration |
-| `Gurney_Johns_Table_V2.docx` | not started | `research/case-files/john-candidates-comparison.md` | Convert .docx to .md |
-| `Gurney_John_Validation_V3.docx` | not started | `research/case-files/john-validation.md` | Convert .docx to .md |
-| `Gurney_Sources_Citations_V3.md` | not started | augment `data/sources.json` | Merge any citations not already in sources.json |
-| `Gurney_Research_KnowledgeBase_1.md` | not started | distributed | Cross-cutting; mine after others done so we know what's already captured |
-| `Gurney_AncestorTable_V3_WithLandHoldings.docx` | superseded | `data/ancestors_v23.json` | Already in JSON form |
+> **Decision (2026-04-15):** Phase 1 documents are NOT the migration starting point. They are distillations with weak citations, originated in prior chat sessions. We start from Phase 2 (chat transcripts) instead, which preserves primary-source-level context, exact record details, and reasoning trails. Phase 1 docs remain available as cross-check references — if a finding surfaces in transcripts, we can verify whether the Phase 1 doc captured it and whether it added anything.
 
-## Phase 2 — Chat transcripts
-
-| Scope | Status | Notes |
+| Source | Status | Notes |
 |---|---|---|
-| Daniel Gurney corpus exploration | not started | Look for paleographic findings, OCR quirks, page-specific cross-references |
-| Source evaluations (Anderson, Banks, etc.) | not started | Capture in `sources/validations/{sourceId}.md` |
-| East Dereham register paleographic analysis | not started | High-value; goes in `sources/validations/nro-pd-86-41.md` |
-| Allen's corrections / pushback patterns | not started | Mostly captured in AI-Rules §6. Verify completeness. |
+| `Gurney_CandidateB_CaseFile_V2.md` | cross-check ref | Compare against transcript-sourced candidate-b.md content |
+| `Gurney_Research_Findings_V7.md` | cross-check ref | Verify coverage after transcript migration |
+| `Gurney_ProtestationReturns_Analysis.md` | cross-check ref | Verify coverage after transcript migration |
+| `Gurney_Children_Matrix_V2.docx` | cross-check ref | Verify coverage after transcript migration |
+| `Gurney_Johns_Table_V2.docx` | cross-check ref | Verify coverage after transcript migration |
+| `Gurney_John_Validation_V3.docx` | cross-check ref | Verify coverage after transcript migration |
+| `Gurney_Sources_Citations_V3.md` | cross-check ref | Mine for any sourceIds not in sources.json after transcripts done |
+| `Gurney_Research_KnowledgeBase_1.md` | cross-check ref | Final cross-check sweep |
+| `Gurney_AncestorTable_V3_WithLandHoldings.docx` | superseded | Already in `data/ancestors_v23.json` |
+
+## Phase 2 — Chat transcripts (PRIMARY MIGRATION SOURCE)
+
+| Scope | Status | Sessions reviewed | Notes |
+|---|---|---|---|
+| East Dereham register paleographic analysis | not started | | High-value; parish record details, Entry A–E findings, paleographic tests |
+| Daniel Gurney corpus exploration | not started | | OCR quirks, page-specific cross-references, source extract details |
+| Source evaluations (Anderson, Banks, Herald & Genealogist, etc.) | not started | | Capture in `sources/validations/` |
+| Candidate B hypothesis sessions | not started | | Reasoning trail, evidence weighting, probability adjustments |
+| Fact sheet production sessions (Batch 1, 2, partial 3) | not started | | May contain research detail that didn't fit fact sheets |
+| Negative results & eliminated candidates | not started | | Children search eliminations, failed register searches |
+| Lineage restructuring (March 2026) | not started | | Junior Norfolk branch correction, new G21–G31 entries |
+| Allen's corrections / pushback patterns | not started | | Mostly in AI-Rules §6; verify completeness |
+| Architecture/meta sessions | skip | | Repo structure, site build — not research content |
 
 ## Phase 3 — Cleanup & validation
 
 | Task | Status |
 |---|---|
+| Cross-check Phase 1 docs against transcript-migrated content | not started |
 | Audit `data/sources.json` for orphans (sources with no facts citing them) | not started |
 | Audit fact sheet companions for missing § Sources Consulted entries | not started |
 | Verify all 8 critical corrections (AI-Rules §7) are reflected in target fact sheets | not started |
