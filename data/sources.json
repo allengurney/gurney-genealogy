@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "1.2.0",
+    "version": "1.3.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
     "lastUpdated": "2026-04-15",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
@@ -135,19 +135,19 @@
       "corpusStatus": "partial",
       "corpusPath": "sources/corpus/The Great Migration Directory 2025 Page 158.txt",
       "mediaPath": null,
-      "validationPath": null,
+      "validationPath": "sources/validations/anderson-gmd-2015.md",
       "notes": "John Gurney-1 entry. Assigns 'Unknown' English origin = implicit rejection of Banks's Bury St. Edmunds attribution under modern standards. Arrival date: 1636 — discrepancy with June 1641 Weymouth record; unresolved. Page 158 excerpt now in corpus (partial); full directory not extracted."
     },
     "banks-brownell-1937": {
       "shortTitle": "Banks/Brownell, Topographical Dictionary (1937)",
-      "citation": "Banks, Charles Edward, and Elijah Ellsworth Brownell. Topographical Dictionary of 2885 English Emigrants to New England, 1620–1650. Philadelphia, 1937.",
+      "citation": "Banks, Charles Edward. Topographical Dictionary of 2885 English Emigrants to New England, 1620–1650. Ed. Elijah Ellsworth Brownell. Philadelphia: Bertram Press, 1937.",
       "archive": null,
       "url": null,
       "corpusStatus": "none",
       "corpusPath": null,
       "mediaPath": null,
-      "validationPath": null,
-      "notes": "East Anglian placement of John-1 weakens Candidate A (Stewkley) more than Candidate B."
+      "validationPath": "sources/validations/banks-brownell-1937.md",
+      "notes": "John Gurney-1 on p. 151 (Suffolk — Bury St. Edmunds). Source: 'Banks Mss.' only — no primary citation. East Anglian placement weakens Candidate A (Stewkley) more than Candidate B. Cluster analysis: surrounded by genuine BSE emigration group (Newgate, Chaplin, Knapp, Goodrich, Bright, Townsend, Atkinson, Cooke, Wright). Banks died before publication; Brownell edited. See validation file for full analysis."
     },
     "blomefield-norfolk": {
       "shortTitle": "Blomefield, History of Norfolk",
@@ -257,7 +257,7 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": null,
-      "notes": "TIER 1 PULL — highest priority. Not yet obtained. Content unknown but flagged as significant for John Gurney-1."
+      "notes": "TIER 1 PULL — highest priority. Not yet obtained. Content unknown but flagged as significant for John Gurney-1. Cited by Anderson (GMD p. 158) — almost certainly the source of his 1636 arrival date."
     },
     "nehgr-62-94": {
       "shortTitle": "NEHGR 62:94",
@@ -268,18 +268,18 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": null,
-      "notes": "TIER 1 PULL — highest priority. Not yet obtained."
+      "notes": "TIER 1 PULL — highest priority. Not yet obtained. Cited by Anderson (GMD p. 158) — likely contains earliest published discussion of John Gurney-1's origin."
     },
     "nichols-herald-v3": {
       "shortTitle": "Herald & Genealogist v3 p.9",
-      "citation": "Nichols, John Gough, ed. The Herald and Genealogist, vol. 3, p. 9. London, 1866.",
+      "citation": "Nichols, John Gough, ed. The Herald and Genealogist, vol. 3. London: J. B. Nichols and Sons, 1866.",
       "archive": null,
       "url": null,
       "corpusStatus": "none",
       "corpusPath": null,
       "mediaPath": null,
-      "validationPath": null,
-      "notes": "Minor heraldic note on Barons of Gournay. Secondary citation endorsing Daniel Gurney's heraldic authority. Vols. 1, 2, 4–8 not yet exhaustively searched."
+      "validationPath": "sources/validations/nichols-herald-v3.md",
+      "notes": "p. 9: heraldic note on Barons of Gournay arms (plain sable shield), citing DG p. 19. Secondary citation endorsing Daniel Gurney's heraldic authority. Vol. 4 (1867) searched thoroughly — no Gurney/Gournay content (first-class negative). Vols. 1, 2, 5–8 not yet exhaustively searched."
     },
     "heralds-visit-london-1633": {
       "shortTitle": "Heralds' Visitation London 1633",
