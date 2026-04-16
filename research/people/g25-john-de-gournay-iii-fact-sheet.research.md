@@ -10,6 +10,15 @@ Research companion for `g25-john-de-gournay-iii-fact-sheet.md`. See AI-Rules.md 
 
 ---
 
+## Landholdings
+
+| Place | Period | Notes |
+|---|---|---|
+| [Harpley, Norfolk](../places/harpley.md) | fl. c. 1300–1353 | Succeeded uncle John, Rector of Harpley, in 1332. Living 27 Edw. III (1353) |
+| [Hardingham, Norfolk](../places/hardingham.md) | fl. c. 1300–1353 | Swathings manor |
+
+---
+
 ## Research Appendix
 
 ### Lineage Status

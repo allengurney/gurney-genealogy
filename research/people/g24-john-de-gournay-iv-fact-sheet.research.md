@@ -10,6 +10,15 @@ Research companion for `g24-john-de-gournay-iv-fact-sheet.md`. See AI-Rules.md �
 
 ---
 
+## Landholdings
+
+| Place | Period | Notes |
+|---|---|---|
+| [Harpley, Norfolk](../places/harpley.md) | fl. c. 1330–1370 | Kept first manorial court 9 Aug. 1354 (BL Add. MSS. 8841, fol. 112) |
+| [Hardingham, Norfolk](../places/hardingham.md) | fl. c. 1330–1370 | Swathings manor |
+
+---
+
 ## Research Appendix
 
 ### Lineage Status

@@ -18,6 +18,14 @@ The Cook, Clarenceux 1622 pedigree (DG's source for Edmund Gurney's children —
 
 ---
 
+## Landholdings
+
+| Place | Period | Notes |
+|---|---|---|
+| Norfolk (county-level) | fl. c. 1370–1420 | Specific holdings not individually documented. Robert's share of Edmund's Norfolk estate is not named in DG; he was a younger son, and the main estates passed to his elder brother Sir John V |
+
+---
+
 ## Research Appendix
 
 ### Lineage Status

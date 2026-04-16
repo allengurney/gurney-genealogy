@@ -4,28 +4,21 @@ Research companion for `g27-sir-john-de-gournay-i-fact-sheet.md`. See AI-Rules.m
 
 ---
 
-## Landholdings
-
-| Place | Period | Tenure | Notes |
-|---|---|---|---|
-| Harpley, Norfolk | fl. c. 1240–1280 | Inherited from father William II | Principal family manor |
-| Hardingham (Swathings), Norfolk | fl. c. 1240–1280 | Inherited from father William II | Continuing junior-branch holding |
-| South Wootton, Norfolk | Until 1264–65 | Forfeited for rebellion at Lewes | **Lost** after Battle of Lewes; only significant penalty from rebellion — Harpley and other holdings retained |
-
-Battlefield / event locations (not landholdings but primary-source-attested Sir John I locations):
-- Lewes, Sussex — fought at Battle of Lewes 14 May 1264 on rebel side
-- Holy Land — Crusade with Edward I 1270 (letters of protection Rot. Patent 54 Hen. III, m.15 d., in DG-Supp pp. 785–786)
-
-Place files with full per-ancestor chronology:
-- `research/places/harpley.md`
-- `research/places/hardingham.md`
-- `research/places/lewes.md`
-
----
-
 ## Working Notes
 
 *No entries yet.*
+
+---
+
+## Landholdings
+
+| Place | Period | Notes |
+|---|---|---|
+| [Harpley, Norfolk](../places/harpley.md) | fl. c. 1240–1280 | Principal seat |
+| [Hardingham, Norfolk](../places/hardingham.md) | fl. c. 1240–1280 | Swathings manor |
+| South Wootton, Norfolk | forfeited 1265–66 | **Forfeited** in consequence of his rebel activity at Lewes 1264; retained all other estates |
+| [Lewes, Sussex](../places/lewes.md) | battle, 14 May 1264 | Fought on rebel side under Simon de Montfort; not a holding but the defining geographic reference of his career |
+| Holy Land (Crusade) | 1270 | Accompanied Prince Edward (future Edward I) on Crusade; letters of protection Rot. Patent 54 Hen. III, m.15 d. (transcribed in DG Supplement pp. 785–786) |
 
 ---
 

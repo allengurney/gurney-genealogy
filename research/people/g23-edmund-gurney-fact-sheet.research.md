@@ -29,6 +29,20 @@ The DG-II passages reviewed in chat bcb40001 (pp. 357–363) **do not contain th
 
 ---
 
+## Landholdings
+
+| Place | Period | Notes |
+|---|---|---|
+| [Harpley, Norfolk](../places/harpley.md) | c. 1370–1387 | Principal documented holding |
+| [Hardingham, Norfolk](../places/hardingham.md) | c. 1370–1387 | |
+| [King's Lynn (Bishop's Lynn), Norfolk](../places/kings-lynn.md) | c. 1370–1387 | Land interests consistent with legal and **standing counsel** role to the city [DG-II-359] |
+| [West Barsham, Norfolk](../places/west-barsham.md) | 1372 (acquired) – 1387 | **West Barsham entered the family via Edmund's wife Katherine de Wauncy.** Settlement of 100 marks p.a. 1357 (31 Edw. III); fine 1367 (41 Edw. III); lordship via Katherine 1372 (on her brother Sir Edmund de Wauncy's death and infant nephew's death); 180-year lease indenture signed at West Barsham 51 Edw. III (c. 1375/77). Will dated at West Barsham 1387. |
+| Saxthorpe, Norfolk (Loundhall) | acquired in Edmund's lifetime | Loundhall manor acquired in exchange for other premises |
+| Depden, Suffolk | 1372 (acquired) – 1387 | Wauncy inheritance via Katherine (see [Suffolk](../places/suffolk.md)) |
+| Denver, Norfolk | 1357 (attested) onward | Wauncy inheritance; 100 marks p.a. settled on Edmund and Katherine (31 Edw. III) |
+
+---
+
 ## Research Appendix
 
 ### Lineage Status

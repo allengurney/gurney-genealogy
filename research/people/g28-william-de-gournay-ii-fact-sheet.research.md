@@ -4,22 +4,18 @@ Research companion for `g28-william-de-gournay-ii-fact-sheet.md`. See AI-Rules.m
 
 ---
 
-## Landholdings
-
-| Place | Period | Tenure | Notes |
-|---|---|---|---|
-| Harpley, Norfolk | fl. c. 1210–1250 | Inherited from father Matthew | Lord of Harpley; attested in Norfolk records 1234 and 1243 |
-| Hardingham (Swathings), Norfolk | fl. c. 1210–1250 | Inherited from father Matthew | Continuing junior-branch tenure |
-
-Place files with full per-ancestor chronology:
-- `research/places/harpley.md`
-- `research/places/hardingham.md`
-
----
-
 ## Working Notes
 
 *No entries yet.*
+
+---
+
+## Landholdings
+
+| Place | Period | Notes |
+|---|---|---|
+| [Harpley, Norfolk](../places/harpley.md) | fl. c. 1210–1250 | Inherited from father Matthew; attested in Norfolk records 1234 and 1243 |
+| [Hardingham, Norfolk](../places/hardingham.md) | fl. c. 1210–1250 | Swathings manor |
 
 ---
 

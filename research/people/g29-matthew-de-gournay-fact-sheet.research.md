@@ -4,23 +4,6 @@ Research companion for `g29-matthew-de-gournay-fact-sheet.md`. See AI-Rules.md �
 
 ---
 
-## Landholdings
-
-| Place | Period | Tenure | Notes |
-|---|---|---|---|
-| Harpley, Norfolk | fl. c. 1180–1220 | Acquired c. 1183 via marriage to Rose de Burnham | Gift arranged by Hameline Plantagenet, Earl Warren. **Acquisition event** that establishes Harpley as junior-branch ancestral Norfolk seat |
-| Hardingham (Swathings), Norfolk | fl. c. 1180–1220 | Inherited from father William I | Gave tithes of Hardingham to the parish church (Harl. MSS. 970) |
-| Runhall, Norfolk | fl. c. 1180–1220 | Inherited from father William I | Subject of the Matthew v. Gilbert de Runhall plea (DG-I Appendix LIII) — the legal record establishing Matthew as son of William I |
-
-Note: Matthew lived to see King John lose Normandy to Philip Augustus in 1204 — the event that severed the Montigny-sur-Andelle parage tenure his father William I had held. After 1204, the junior Norfolk branch was an English family in every practical sense, their Norman heritage preserved only in their name.
-
-Place files with full per-ancestor chronology:
-- `research/places/harpley.md`
-- `research/places/hardingham.md`
-- `research/places/runhall.md`
-
----
-
 ## Working Notes
 
 ### Hameline Plantagenet — full identification (added 2026-04-16 from chat bcb40001)
@@ -42,6 +25,16 @@ This is a useful narrative hook for any biographical writing about Matthew or ab
 ### Norman Pipe Roll 1184 reference (added 2026-04-16 from chat bcb40001)
 
 DG cites the Norman Pipe Roll of 1184 in connection with Rose de Burnham's family (DG-I pedigree p. 286). Not yet independently reviewed. The Pipe Rolls of Henry II have been published — the 1184 roll would be in the Pipe Roll Society series. Worth checking for the original Latin entry.
+
+---
+
+## Landholdings
+
+| Place | Period | Notes |
+|---|---|---|
+| [Harpley, Norfolk](../places/harpley.md) | fl. c. 1180–1220 | **Gurney's manor in Harpley acquired through marriage to Rose de Burnham c. 1183** — gift arranged by Hameline Plantagenet, Earl Warren. This acquisition begins the ~250-year continuous junior-branch tenure at Harpley. |
+| [Hardingham, Norfolk](../places/hardingham.md) | fl. c. 1180–1220 | Swathings manor — gave tithes of Hardingham to the parish church (Harl. MSS. 970) |
+| [Runhall, Norfolk](../places/runhall.md) | fl. c. 1180–1220 | Subject of DG-I Appendix LIII plea (Matthew v. Gilbert de Runhall) — the legal record establishing Matthew as son of William I |
 
 ---
 
