@@ -19,7 +19,7 @@ User: Allen Lawrence Gurney, b. 1972, Portland OR. Dual projects: biography of B
 ## 2. Repo map
 
 ```
-data/            sources.json, locations.json, ancestors_v23.json (canonical structured data)
+data/            sources.json, locations.json, ancestors v23.json (canonical structured data; note space in filename)
 fact-sheets/
   g{NN}-{slug}-fact-sheet.md    ← PUBLISHED narrative only (stable, polished, Allen's prose)
 research/
@@ -226,7 +226,7 @@ G0–G2 and living collaterals: minimize detail in public files. Birth year, gen
 - G1 = Allen. Numbers increase going back.
 - West Barsham entered via Wauncy inheritance (Edmund G23's wife Katherine); held until 1661.
 - Francis G14 = sixth son of Henry G15.
-- `ancestors_v23.json` = current ancestor data file.
+- `data/ancestors v23.json` = current ancestor data file (note space in filename). See `research/topics/ancestors-json-audit.md` for known data-quality issues and the filename-vs-convention question.
 
 ---
 
@@ -234,6 +234,8 @@ G0–G2 and living collaterals: minimize detail in public files. Birth year, gen
 
 ### Daniel Gurney, *Record* (1848)
 Primary secondary source G15–G35. Text in `sources/corpus/daniel-gurney-part-{1,2,3}.md`. OCR: "Wilham"/"William" ~6%, "Basiha"/"Basilia" ~16%. Page markers: `## p. N (#M) ##` (cite N). Parts I/II/III present. Supplement + Rye appendix NOT yet in corpus.
+
+**Supplement vs. Parts I–III pagination test.** The 1858 Supplement runs pp. 725–1096. Any "Supplement" citation with a page number below 725 is miscited (should be DG-I, DG-II, or DG-III). See `research/topics/dg-citation-audit.md` for the 2026-04-16 sweep that caught and fixed six G20–G37 companion miscitations.
 
 ### Anderson, *Great Migration Directory* (2015)
 "Unknown" origin = implicit rejection of Banks. Arrival 1636 vs. Weymouth 1641 — unresolved.
@@ -270,6 +272,7 @@ Ryvett claim confirmed against NRO PD 12/1 (March 2026).
 - **Tier 1 pulls**: TAG 10:70–73, NEHGR 62:94 — not yet obtained.
 - **Fact sheets remaining**: G21–G15 (G14 exists; G13 John Gurney-1 pre-fact-sheet).
 - **Supplement + Rye** — corpus extraction pending.
+- **Landholdings and places** — 17 place files for the G20–G37 range created 2026-04-16; linked from each research companion. See `research/places/`.
 
 ---
 
