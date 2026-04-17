@@ -4,9 +4,9 @@ Historic county in south-central England. Approximate county-level coordinate us
 
 ## Why this county matters
 
-Buckinghamshire, like Bedfordshire, appears in the project as one of the **scattered English county contexts of the senior baron line** rather than as part of the enduring Norfolk geography of Allen's direct branch. The place file therefore exists to preserve orientation and evidence-tracking, not to imply that Buckinghamshire was a principal Gournay seat. [DG-I]
+Buckinghamshire, like Bedfordshire, appears in the project as one of the **scattered English county contexts of the senior baron line** rather than as part of the enduring Norfolk geography of Allen's direct branch. The place file therefore exists to preserve orientation and evidence-tracking, not to imply that Buckinghamshire was a principal Gournay seat. [DG-I] [Normandy file]
 
-In practical terms, Buckinghamshire helps the library remember that the historical reach of the senior barons extended into more of England than the most famous Norman and Norfolk places alone might suggest. [DG-I] [Normandy file]
+In practical terms, Buckinghamshire helps the library remember that the historical reach of the senior barons extended into more of England than the most famous Norman and Norfolk places alone might suggest. It is therefore useful as a county of **distributed record-presence**, even though no single Buckinghamshire manor has yet emerged strongly enough in the project to deserve its own place file. [DG-I] [current place registry]
 
 ## Senior-line context
 
@@ -16,16 +16,11 @@ This is exactly the sort of record that becomes useful once more specific source
 
 ## Why retain the umbrella record now?
 
-It is easy for the family geography to collapse into a simplified story of:
-- Normandy as the ancestral base,
-- Norfolk as the English heartland,
-- and little else.
-
-County-level records like Buckinghamshire prevent that simplification. They preserve the fact that the senior line's English world was broader, even where the surviving project evidence has not yet matured into full local narratives. [DG-I]
+It is easy for the family geography to collapse into a simplified story of Normandy as the ancestral base, Norfolk as the English heartland, and little else. County-level records like Buckinghamshire prevent that simplification. They preserve the fact that the senior line's English world was broader, even where the surviving evidence has not yet matured into full local narratives. [DG-I] [Bedfordshire file]
 
 ## Interpretive note
 
-Buckinghamshire should remain a **cautious, provisional county record**. It is historically worth keeping, but not yet worth over-describing. In that sense it is a good test of discipline within the place library: a place file should be as rich as the evidence supports and no richer.
+Buckinghamshire should remain a **cautious, provisional county record**. It is historically worth keeping, but not yet worth over-describing. In that sense it is a good test of discipline within the place library: a place file should be as rich as the evidence supports and no richer. [DG-I]
 
 ## Open items
 
@@ -38,6 +33,7 @@ Buckinghamshire should remain a **cautious, provisional county record**. It is h
 - Daniel Gurney, *Record of the House of Gournay*, Part I (1848), senior-line material. [DG-I]
 - `research/places/normandy.md`
 - `research/places/gournay-en-bray.md`
+- `research/places/bedfordshire.md`
 
 <!-- GENERATED:PLACE-REGISTRY:START -->
 ## Place registry
