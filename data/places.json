@@ -949,30 +949,6 @@
     "filename": "hardingham.md"
   },
   {
-    "placeId": "place-harpham-norfolk-england",
-    "name": "Harpham, Norfolk, England",
-    "aliases": [
-      "Harpham, Norfolk"
-    ],
-    "shortDescription": "Later Gurney manor",
-    "placeType": "locality",
-    "coordinate": {
-      "lat": 52.834,
-      "lng": 0.886
-    },
-    "coordinatePrecision": "low",
-    "roles": [
-      "landholding / property reference"
-    ],
-    "ancestorLinks": [
-      {
-        "recordId": "ancestor-g15-henry-gurney",
-        "role": "landholding / property reference"
-      }
-    ],
-    "filename": "harpham.md"
-  },
-  {
     "placeId": "place-harpley-norfolk-england",
     "name": "Harpley, Norfolk, England",
     "aliases": [
@@ -1004,14 +980,10 @@
       },
       {
         "recordId": "ancestor-g23-edmund-gurney",
-        "role": "landholding / property reference"
+        "role": "individual geography"
       },
       {
         "recordId": "ancestor-g23-edmund-gurney",
-        "role": "individual geography"
-      },
-      {
-        "recordId": "ancestor-g24-john-de-gournay-iv",
         "role": "landholding / property reference"
       },
       {
@@ -1019,7 +991,7 @@
         "role": "individual geography"
       },
       {
-        "recordId": "ancestor-g25-john-de-gournay-iii",
+        "recordId": "ancestor-g24-john-de-gournay-iv",
         "role": "landholding / property reference"
       },
       {
@@ -1027,7 +999,7 @@
         "role": "individual geography"
       },
       {
-        "recordId": "ancestor-g26-sir-william-de-gournay-iii-knt",
+        "recordId": "ancestor-g25-john-de-gournay-iii",
         "role": "landholding / property reference"
       },
       {
@@ -1035,7 +1007,7 @@
         "role": "individual geography"
       },
       {
-        "recordId": "ancestor-g27-sir-john-de-gournay-i-knt",
+        "recordId": "ancestor-g26-sir-william-de-gournay-iii-knt",
         "role": "landholding / property reference"
       },
       {
@@ -1043,7 +1015,7 @@
         "role": "individual geography"
       },
       {
-        "recordId": "ancestor-g28-william-de-gournay-ii",
+        "recordId": "ancestor-g27-sir-john-de-gournay-i-knt",
         "role": "landholding / property reference"
       },
       {
@@ -1051,7 +1023,7 @@
         "role": "individual geography"
       },
       {
-        "recordId": "ancestor-g29-matthew-de-gournay",
+        "recordId": "ancestor-g28-william-de-gournay-ii",
         "role": "landholding / property reference"
       },
       {
@@ -1059,12 +1031,16 @@
         "role": "individual geography"
       },
       {
-        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "recordId": "ancestor-g29-matthew-de-gournay",
         "role": "landholding / property reference"
       },
       {
         "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
         "role": "individual geography"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "landholding / property reference"
       }
     ],
     "filename": "harpley.md"
