@@ -59,6 +59,6 @@ This is exactly the kind of issue the current place-file review is meant to catc
 
 ### Review notes
 
-- The narrative file currently treats this as a likely duplicate or misidentified record pending structured cleanup.
+- None in cleanup pass 3b.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->
