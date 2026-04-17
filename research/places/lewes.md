@@ -44,33 +44,25 @@ The Crusade journey (1270) is the traditional origin of the Gurney family coat o
 - `research/people/g27-sir-john-de-gournay-i-fact-sheet.research.md`
 - `research/people/g26-sir-william-de-gournay-iii-fact-sheet.research.md` (1294 deed with engrailed-cross seal)
 
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
 
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
-
-### Place summary
-
-- Registry entries: **1**
+- `placeId`: `place-lewes-sussex-england`
+- Canonical filename: `lewes.md`
+- Place class: locality
+- Aliases: Lewes, Sussex
+- Mention count: **1**
 - Linked records: G27 Sir John de Gournay I, Knt.
+- Representative coordinates: 50.873, 0.0087 (town centroid; High)
 
-### Registry entries
+### Mention ledger
 
-#### G27 Sir John de Gournay I, Knt. — individual geography
+- `loc-e2f1969ef0d9` — **G27 Sir John de Gournay I, Knt.** — individual geography — 1264
+  - Note: Battle of Lewes, 1264
+  - Links: [Battle of Lewes](https://en.wikipedia.org/wiki/Battle_of_Lewes)
 
-- `locationId`: `loc-e2f1969ef0d9`
-- `recordId`: `ancestor-g27-sir-john-de-gournay-i-knt`
-- `eventDate`: 1264
-- `region`: Sussex, England
-- `coordinates`: 50.873, 0.0087
-- `geocodeBasis`: town centroid
-- `confidence`: High
-- Source / citation status: explicit citation text present in inherited note
-- Inherited note / quote: Battle of Lewes, 1264
-- External reference: [Battle of Lewes](https://en.wikipedia.org/wiki/Battle_of_Lewes)
+### Review notes
 
-### Crosslinks
+- None in normalization pass v1.
 
-- `data/ancestors v24.json` → `G27` / `Sir John de Gournay I, Knt.`
-
-<!-- GENERATED:LOCATION-REGISTRY:END -->
+<!-- GENERATED:PLACE-REGISTRY:END -->

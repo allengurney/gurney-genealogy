@@ -50,35 +50,28 @@ No direct-line Gurney held La Ferté after Gautier — the site passed to the de
 - `research/people/g35-renaud-de-gournay-fact-sheet.research.md`
 - `research/places/gournay-en-bray.md`
 
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
 
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
-
-### Place summary
-
-- Registry entries: **1**
+- `placeId`: `place-la-ferte-en-bray-normandy-france`
+- Canonical filename: `la-ferte-en-bray.md`
+- Place class: locality
+- Aliases: La Ferte-en-Bray, La Ferté-en-Bray, Normandy
+- Sub-sites tracked here: Église Saint-Pierre-et-Saint-Paul
+- Mention count: **1**
 - Linked records: G35 Renaud de Gournay
-- Named sub-sites: Église Saint-Pierre-et-Saint-Paul / former core
+- Representative coordinates: 49.57795, 1.527104 (historic parish church / former La Ferté-en-Bray core; High)
 
-### Registry entries
+### Mention ledger
 
-#### G35 Renaud de Gournay — landholding / property reference
+- `loc-e1ff14f38f9a` — **G35 Renaud de Gournay** — landholding / property reference — c. 970 — dates uncertain
+  - Sub-site: Église Saint-Pierre-et-Saint-Paul
+  - Note: La Ferté-en-Bray priory — endowed by son Gautier citing father Renaud.
+  - Flags: subsite-name-normalized
+  - Links: [Local history page](https://tourismedes4rivieresenbray.com/la-ferte-saint-samson/)
 
-- `locationId`: `loc-e1ff14f38f9a`
-- `recordId`: `ancestor-g35-renaud-de-gournay`
-- `eventDate`: c. 970 — dates uncertain
-- `siteName`: Église Saint-Pierre-et-Saint-Paul / former core
-- `region`: Seine-Maritime, Normandy, France
-- `coordinates`: 49.57795, 1.527104
-- `geocodeBasis`: historic parish church / former La Ferté-en-Bray core
-- `confidence`: High
-- Source / citation status: explicit citation text present in inherited note
-- Inherited note / quote: La Ferté-en-Bray priory — endowed by son Gautier citing father Renaud.
-- External reference: [Local history page](https://tourismedes4rivieresenbray.com/la-ferte-saint-samson/)
+### Review notes
 
-### Crosslinks
+- None in normalization pass v1.
 
-- `data/ancestors v24.json` → `G35` / `Renaud de Gournay`
-
-<!-- GENERATED:LOCATION-REGISTRY:END -->
+<!-- GENERATED:PLACE-REGISTRY:END -->

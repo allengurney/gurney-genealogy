@@ -34,32 +34,25 @@ As with Caister, Cantley passed to the senior baron line after Gerard's death be
 - `research/places/caister-on-sea.md`
 - `research/places/lessingham.md`
 
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
 
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
-
-### Place summary
-
-- Registry entries: **1**
+- `placeId`: `place-cantley-norfolk-england`
+- Canonical filename: `cantley.md`
+- Place class: locality
+- Aliases: Cantley, Norfolk
+- Mention count: **1**
 - Linked records: G32 Gerard de Gournay
+- Representative coordinates: 52.562, 1.513 (village centroid; Low)
 
-### Registry entries
+### Mention ledger
 
-#### G32 Gerard de Gournay — landholding / property reference
+- `loc-2e7fc66053ce` — **G32 Gerard de Gournay** — landholding / property reference — c. 1040 — d. before 1104, Palestine
+  - Note: Cantley, Norfolk — documented holding.
+  - Flags: low-geocode-confidence
 
-- `locationId`: `loc-2e7fc66053ce`
-- `recordId`: `ancestor-g32-gerard-de-gournay`
-- `eventDate`: c. 1040 — d. before 1104, Palestine
-- `region`: Norfolk, England
-- `coordinates`: 52.562, 1.513
-- `geocodeBasis`: village centroid
-- `confidence`: Low
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Cantley, Norfolk — documented holding.
+### Review notes
 
-### Crosslinks
+- None in normalization pass v1.
 
-- `data/ancestors v24.json` → `G32` / `Gerard de Gournay`
-
-<!-- GENERATED:LOCATION-REGISTRY:END -->
+<!-- GENERATED:PLACE-REGISTRY:END -->

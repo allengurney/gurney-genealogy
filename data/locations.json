@@ -24,7 +24,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-15-avenue-c-manhattan-new-york-usa",
+    "siteNameNormalized": "15 Avenue C",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-749e6725cc12",
@@ -51,7 +54,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-155-henry-street-manhattan-new-york-usa",
+    "siteNameNormalized": "155 Henry Street",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-589e6dc5656e",
@@ -78,7 +84,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-177-west-48th-street-manhattan-new-york-usa",
+    "siteNameNormalized": "177 West 48th Street",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-bd37a48fa2bb",
@@ -105,7 +114,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-231-fifth-avenue-manhattan-new-york-usa",
+    "siteNameNormalized": "231 Fifth Avenue",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-7b33b98cfa73",
@@ -132,7 +144,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-54-hudson-street-manhattan-new-york-usa",
+    "siteNameNormalized": "54 Hudson Street",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-295903f86cd7",
@@ -159,7 +174,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-54-hudson-street-manhattan-new-york-usa",
+    "siteNameNormalized": "54 Hudson Street",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-185d47ebfd71",
@@ -186,7 +204,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-55-pike-street-manhattan-new-york-usa",
+    "siteNameNormalized": "55 Pike Street",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-242c41559eb0",
@@ -213,7 +234,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-abington-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-dc05ea2f05a4",
@@ -240,7 +264,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-abington-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-93c18e279914",
@@ -267,7 +294,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-abington-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-f175dc56e7f2",
@@ -294,7 +324,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-abington-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-f3e97701fc6c",
@@ -321,7 +354,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-abington-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-d08751f5b3ee",
@@ -348,7 +384,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-abington-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-3e13bbf107ec",
@@ -375,7 +414,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-abington-whitman-line-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-272c131a14c3",
@@ -402,7 +446,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-abington-whitman-line-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-239035dc9efb",
@@ -429,7 +478,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-abington-whitman-line-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-125cd44592c1",
@@ -456,7 +510,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-ardleigh-essex-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-e1058031427e",
@@ -483,7 +540,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-attleborough-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-a7fbcce4dbe9",
@@ -510,7 +570,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-bedfordshire-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-ded267f1298a",
@@ -537,7 +602,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-braintree-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-f626bbd39326",
@@ -564,7 +632,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-braintree-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note"
+    ]
   },
   {
     "locationId": "loc-b77282c1d714",
@@ -591,7 +664,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-bridgewater-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-545089de49c4",
@@ -618,7 +697,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-bridgewater-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-d55cdb04778e",
@@ -645,7 +730,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-bridgewater-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-2c84ee0c587c",
@@ -672,7 +763,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-bridgewater-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-46c7d940da52",
@@ -699,7 +793,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-bridgewater-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-55fb829abece",
@@ -726,7 +826,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-buckinghamshire-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-2c4e8b2e9481",
@@ -753,7 +858,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-burnham-thorpe-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-fb4aa2b7ca86",
@@ -780,7 +888,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-burnham-thorpe-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-a3bc48855c48",
@@ -807,7 +918,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-caister-on-sea-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-29726ab37431",
@@ -834,7 +948,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-caister-on-sea-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-2e7fc66053ce",
@@ -861,7 +978,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-cantley-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-9d99cd12c3d7",
@@ -888,7 +1010,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-charleston-south-carolina-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-86391a566aab",
@@ -915,7 +1040,10 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Benet_fink_godwin.jpg/250px-Benet_fink_godwin.jpg",
     "photoTitle": "St Benet Fink (historic image)",
     "siteUrl": "https://en.wikipedia.org/wiki/St_Benet_Fink",
-    "siteLabel": "Reference page"
+    "siteLabel": "Reference page",
+    "placeId": "place-city-of-london-england",
+    "siteNameNormalized": "St Benet Fink",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-66b73f513876",
@@ -942,7 +1070,10 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Benet_fink_godwin.jpg/250px-Benet_fink_godwin.jpg",
     "photoTitle": "St Benet Fink (historic image)",
     "siteUrl": "https://en.wikipedia.org/wiki/St_Benet_Fink",
-    "siteLabel": "Reference page"
+    "siteLabel": "Reference page",
+    "placeId": "place-city-of-london-england",
+    "siteNameNormalized": "St Benet Fink",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-dcfcfd00749c",
@@ -969,7 +1100,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-city-of-london-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-b6a6b2d2fb9c",
@@ -996,7 +1130,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-city-of-london-england",
+    "siteNameNormalized": "La Selde Coronata",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-73a0cb60e81b",
@@ -1023,7 +1160,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-cummington-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-1acf13299bcb",
@@ -1050,7 +1190,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-cummington-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-2395e913ead8",
@@ -1077,7 +1223,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-cummington-massachusetts-usa",
+    "siteNameNormalized": "Dawes Cemetery",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-bb126c912713",
@@ -1104,7 +1253,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-cummington-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-6d2d0342adab",
@@ -1131,7 +1283,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-cummington-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-a9902e809048",
@@ -1158,7 +1316,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-cummington-massachusetts-usa",
+    "siteNameNormalized": "Dawes Cemetery",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-e1404e3a4a78",
@@ -1185,7 +1346,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-cummington-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-f5129b748ec6",
@@ -1212,7 +1376,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-cummington-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-9e166351e142",
@@ -1239,7 +1406,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-cummington-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-e039d0cf0366",
@@ -1266,7 +1439,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-cummington-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-c5be41306007",
@@ -1293,7 +1469,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-cummington-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-37ba9284a104",
@@ -1320,7 +1502,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-cummington-massachusetts-usa",
+    "siteNameNormalized": "Dawes Cemetery",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-41bb261af56c",
@@ -1347,7 +1532,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-dexter-michigan-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-a21a78e3929f",
@@ -1374,7 +1562,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-dexter-michigan-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-335080a49c04",
@@ -1401,7 +1592,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-essex-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-d2b36bd4b0c2",
@@ -1428,7 +1624,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-flegg-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-9da710139bb5",
@@ -1455,7 +1656,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-flegg-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-eabf7d5ce399",
@@ -1482,7 +1688,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-flushing-queens-new-york-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-966ca8fc84f4",
@@ -1509,7 +1718,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-flushing-queens-new-york-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-7f7d57cd9896",
@@ -1536,7 +1751,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-flushing-queens-new-york-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-45f01750e6a9",
@@ -1563,7 +1781,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-flushing-queens-new-york-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-6651bd41f21e",
@@ -1590,7 +1814,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-fordham-essex-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-a90b03ee97a0",
@@ -1617,7 +1846,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-fort-wayne-indiana-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-44c2a8c734e7",
@@ -1644,7 +1876,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-gournay-en-bray-normandy-france",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-a7ded23222e8",
@@ -1671,7 +1906,14 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg",
     "photoTitle": "Collégiale Saint-Hildevert, Gournay-en-Bray",
     "siteUrl": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/",
-    "siteLabel": "Heritage page"
+    "siteLabel": "Heritage page",
+    "placeId": "place-gournay-en-bray-normandy-france",
+    "siteNameNormalized": "Collégiale Saint-Hildevert",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "subsite-name-normalized"
+    ]
   },
   {
     "locationId": "loc-3ee2021b8537",
@@ -1698,7 +1940,14 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg",
     "photoTitle": "Collégiale Saint-Hildevert, Gournay-en-Bray",
     "siteUrl": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/",
-    "siteLabel": "Heritage page"
+    "siteLabel": "Heritage page",
+    "placeId": "place-gournay-en-bray-normandy-france",
+    "siteNameNormalized": "Collégiale Saint-Hildevert",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "subsite-name-normalized"
+    ]
   },
   {
     "locationId": "loc-093890b8ccb5",
@@ -1725,7 +1974,14 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg",
     "photoTitle": "Collégiale Saint-Hildevert, Gournay-en-Bray",
     "siteUrl": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/",
-    "siteLabel": "Heritage page"
+    "siteLabel": "Heritage page",
+    "placeId": "place-gournay-en-bray-normandy-france",
+    "siteNameNormalized": "Collégiale Saint-Hildevert",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "subsite-name-normalized"
+    ]
   },
   {
     "locationId": "loc-6647ddf92595",
@@ -1752,7 +2008,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-gournay-en-bray-normandy-france",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-73bf3c215970",
@@ -1779,7 +2038,14 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg",
     "photoTitle": "Collégiale Saint-Hildevert, Gournay-en-Bray",
     "siteUrl": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/",
-    "siteLabel": "Heritage page"
+    "siteLabel": "Heritage page",
+    "placeId": "place-gournay-en-bray-normandy-france",
+    "siteNameNormalized": "Collégiale Saint-Hildevert",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "subsite-name-normalized"
+    ]
   },
   {
     "locationId": "loc-949f69d5cd69",
@@ -1806,7 +2072,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-gournay-en-bray-normandy-france",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-4db58edf69cc",
@@ -1833,7 +2102,14 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg",
     "photoTitle": "Collégiale Saint-Hildevert, Gournay-en-Bray",
     "siteUrl": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/",
-    "siteLabel": "Heritage page"
+    "siteLabel": "Heritage page",
+    "placeId": "place-gournay-en-bray-normandy-france",
+    "siteNameNormalized": "Collégiale Saint-Hildevert",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "subsite-name-normalized"
+    ]
   },
   {
     "locationId": "loc-adbbcfcebcb4",
@@ -1860,7 +2136,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-gournay-en-bray-normandy-france",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-d911a765999c",
@@ -1887,7 +2166,14 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg",
     "photoTitle": "Collégiale Saint-Hildevert, Gournay-en-Bray",
     "siteUrl": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/",
-    "siteLabel": "Heritage page"
+    "siteLabel": "Heritage page",
+    "placeId": "place-gournay-en-bray-normandy-france",
+    "siteNameNormalized": "Collégiale Saint-Hildevert",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "subsite-name-normalized"
+    ]
   },
   {
     "locationId": "loc-600ccf59e23e",
@@ -1914,7 +2200,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-gournay-en-bray-normandy-france",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-626e7f0d6965",
@@ -1941,7 +2232,14 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg",
     "photoTitle": "Collégiale Saint-Hildevert, Gournay-en-Bray",
     "siteUrl": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/",
-    "siteLabel": "Heritage page"
+    "siteLabel": "Heritage page",
+    "placeId": "place-gournay-en-bray-normandy-france",
+    "siteNameNormalized": "Collégiale Saint-Hildevert",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "subsite-name-normalized"
+    ]
   },
   {
     "locationId": "loc-f7fdf9603805",
@@ -1968,7 +2266,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-gournay-en-bray-normandy-france",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-ad28e8477fd4",
@@ -1995,7 +2298,14 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg",
     "photoTitle": "Collégiale Saint-Hildevert, Gournay-en-Bray",
     "siteUrl": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/",
-    "siteLabel": "Heritage page"
+    "siteLabel": "Heritage page",
+    "placeId": "place-gournay-en-bray-normandy-france",
+    "siteNameNormalized": "Collégiale Saint-Hildevert",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "subsite-name-normalized"
+    ]
   },
   {
     "locationId": "loc-102c043c30cc",
@@ -2022,7 +2332,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-great-ellingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-de804bff6e45",
@@ -2049,7 +2362,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-great-ellingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-6987db367a4d",
@@ -2076,7 +2395,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-great-ellingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-8ebc923d73ff",
@@ -2103,7 +2428,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-great-ellingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-17bfb9763892",
@@ -2130,7 +2458,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-great-ellingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-b0954a21de86",
@@ -2157,7 +2491,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-hardingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-6b91d25e660b",
@@ -2184,7 +2524,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-hardingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-03a40365a0da",
@@ -2211,7 +2554,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-hardingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-657c39971416",
@@ -2238,7 +2587,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-hardingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-33b7b24cb789",
@@ -2265,7 +2617,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-hardingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-faa6f7ff61df",
@@ -2292,7 +2650,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-hardingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-18435b7999a0",
@@ -2319,7 +2680,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-hardingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-34caa736bac9",
@@ -2346,7 +2710,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-hardingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-47c0b9d53bd7",
@@ -2373,7 +2740,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-hardingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-29997742e305",
@@ -2400,7 +2770,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-hardingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-76b7e891bca3",
@@ -2427,7 +2800,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-hardingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-a0b140659ba0",
@@ -2454,7 +2830,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-hardingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-ffb47d5a9277",
@@ -2481,7 +2860,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-hardingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-bd99b54730e1",
@@ -2508,7 +2890,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-hardingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-7f59a77bd453",
@@ -2535,7 +2920,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-hardingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-72eba098e79a",
@@ -2562,7 +2952,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-harpham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-909582772601",
@@ -2589,7 +2984,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-harpley-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-0c9ab6dd5059",
@@ -2616,7 +3017,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-harpley-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-789808db1273",
@@ -2643,7 +3050,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-harpley-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-f9d8c2ca3dc4",
@@ -2670,7 +3080,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-harpley-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-8e6b910b2da5",
@@ -2697,7 +3110,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-harpley-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-bf534faa0f50",
@@ -2724,7 +3143,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-harpley-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-1881eae44573",
@@ -2751,7 +3173,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-harpley-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-0303d3c9d973",
@@ -2778,7 +3206,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-harpley-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-3382f19e18b8",
@@ -2805,7 +3236,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-harpley-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-7e4ab7d840ad",
@@ -2832,7 +3266,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-harpley-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-23bd4973fe9e",
@@ -2859,7 +3296,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459",
-    "siteLabel": "Blomefield: Harpley"
+    "siteLabel": "Blomefield: Harpley",
+    "placeId": "place-harpley-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-ad30c4385693",
@@ -2886,7 +3326,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459",
-    "siteLabel": "Blomefield: Harpley"
+    "siteLabel": "Blomefield: Harpley",
+    "placeId": "place-harpley-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-d2472d603c9f",
@@ -2913,7 +3356,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-harpley-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-312ab9aadcb0",
@@ -2940,7 +3386,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-harpley-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-ea8ecdf06dbe",
@@ -2967,7 +3416,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459",
-    "siteLabel": "Blomefield: Harpley"
+    "siteLabel": "Blomefield: Harpley",
+    "placeId": "place-harpley-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-df8321dc4035",
@@ -2994,7 +3446,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-harpley-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-c8b74e7e1779",
@@ -3021,7 +3476,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-harpley-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-29ca378d7d3c",
@@ -3048,7 +3506,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459",
-    "siteLabel": "Blomefield: Harpley"
+    "siteLabel": "Blomefield: Harpley",
+    "placeId": "place-harpley-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-667d33611bba",
@@ -3075,7 +3536,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459",
-    "siteLabel": "Blomefield: Harpley"
+    "siteLabel": "Blomefield: Harpley",
+    "placeId": "place-harpley-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-60362f5738a7",
@@ -3102,7 +3566,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-hellesdon-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-4304ce72ec23",
@@ -3129,7 +3596,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-hingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-fd4899fe8139",
@@ -3156,7 +3629,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-hingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-33fd2d4d5aab",
@@ -3183,7 +3662,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-hingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-5407c47a0852",
@@ -3210,7 +3695,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-indianapolis-indiana-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-bee895f436aa",
@@ -3237,7 +3725,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-irstead-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-998313846d44",
@@ -3264,7 +3758,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-irstead-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-c145417645c5",
@@ -3291,7 +3791,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-irstead-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-ca7190f450cf",
@@ -3318,7 +3824,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-irstead-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-7aa954c6274e",
@@ -3345,7 +3854,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-irstead-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-2f7cde3a94a4",
@@ -3372,7 +3887,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1298188",
-    "siteLabel": "Historic England"
+    "siteLabel": "Historic England",
+    "placeId": "place-kings-lynn-norfolk-england",
+    "siteNameNormalized": "St James's Chapel ruins",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-22318caf866b",
@@ -3399,7 +3917,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-kings-lynn-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-c2956aea2ab1",
@@ -3426,7 +3950,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-kings-lynn-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-a46f9e470b56",
@@ -3453,7 +3980,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-kings-lynn-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-e1ff14f38f9a",
@@ -3480,7 +4013,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "https://tourismedes4rivieresenbray.com/la-ferte-saint-samson/",
-    "siteLabel": "Local history page"
+    "siteLabel": "Local history page",
+    "placeId": "place-la-ferte-en-bray-normandy-france",
+    "siteNameNormalized": "Église Saint-Pierre-et-Saint-Paul",
+    "qualityFlags": [
+      "subsite-name-normalized"
+    ]
   },
   {
     "locationId": "loc-9d0fb5e64bc4",
@@ -3507,7 +4045,10 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg/500px-Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg",
     "photoTitle": "Bec Abbey",
     "siteUrl": "https://abbayedubec.org/",
-    "siteLabel": "Abbey site"
+    "siteLabel": "Abbey site",
+    "placeId": "place-le-bec-hellouin-normandy-france",
+    "siteNameNormalized": "Abbey of Bec",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-1c8fdd2fb00e",
@@ -3534,7 +4075,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-lessingham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-e2f1969ef0d9",
@@ -3561,7 +4107,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "https://en.wikipedia.org/wiki/Battle_of_Lewes",
-    "siteLabel": "Battle of Lewes"
+    "siteLabel": "Battle of Lewes",
+    "placeId": "place-lewes-sussex-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-5a1138a4893c",
@@ -3588,7 +4137,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-liston-essex-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-da34c9847ad1",
@@ -3615,7 +4169,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-marion-indiana-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-cfce96b4338c",
@@ -3642,7 +4199,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-marion-indiana-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-22b8d35db15f",
@@ -3669,7 +4229,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-marion-indiana-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-ee118c7f9730",
@@ -3696,7 +4259,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-mendon-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-d3a225f1881b",
@@ -3723,7 +4289,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-middleborough-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-cebe60897d53",
@@ -3750,7 +4319,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-middleborough-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-72bc57a6b19e",
@@ -3777,7 +4349,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-middleborough-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-1568b529ea32",
@@ -3804,7 +4382,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-middleborough-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-67ef02d1aa9d",
@@ -3831,7 +4412,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-middleborough-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-b589167bf2d8",
@@ -3858,7 +4442,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-middleborough-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-513baf632ae5",
@@ -3885,7 +4475,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-middleborough-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-eac71f81af65",
@@ -3912,7 +4505,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-middleborough-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-0c466afdbe66",
@@ -3939,7 +4535,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-middleborough-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-c9eca26deb85",
@@ -3966,7 +4568,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-montigny-sur-andelle-normandy-france",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-99fb0d3103b4",
@@ -3993,7 +4598,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-new-york-metropolitan-area-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-3ff0381f2cfe",
@@ -4020,7 +4630,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-new-york-metropolitan-area-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-f4267a15234f",
@@ -4047,7 +4662,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-new-york-metropolitan-area-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-fe8da3904aea",
@@ -4074,7 +4694,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-new-york-metropolitan-area-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-9a12e12dfe9c",
@@ -4101,7 +4726,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-47cb9be78e52",
@@ -4128,7 +4758,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-141d135ae6c7",
@@ -4155,7 +4790,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-774e86b48234",
@@ -4182,7 +4822,14 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-6ff3f4423f86",
@@ -4209,7 +4856,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-8b5d43ba6ab3",
@@ -4236,7 +4888,14 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-8194ade69106",
@@ -4263,7 +4922,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-7aca08f2d4ec",
@@ -4290,7 +4954,14 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-0174a9386d0f",
@@ -4317,7 +4988,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-c4a062ccdc66",
@@ -4344,7 +5020,14 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-53df2a004005",
@@ -4371,7 +5054,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-normandy-france",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-02b726b4300f",
@@ -4398,7 +5086,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-normandy-france",
+    "siteNameNormalized": "Clairruissel Priory",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-e0a6c1dcaf65",
@@ -4425,7 +5116,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-normandy-france",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-b1314df75508",
@@ -4452,7 +5148,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-normandy-france",
+    "siteNameNormalized": "Bellosanne Abbey",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-df79a088e891",
@@ -4479,7 +5180,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-oxfordshire-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-59b857e396af",
@@ -4506,7 +5212,14 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-oxfordshire-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-87ce781270cc",
@@ -4533,7 +5246,14 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-oxfordshire-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-f0df54bc3e89",
@@ -4560,7 +5280,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-port-washington-new-york-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-16e5a2351f24",
@@ -4587,7 +5310,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-portland-oregon-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-9898a35c4605",
@@ -4614,7 +5340,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-rochester-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-00d80c04ea56",
@@ -4641,7 +5370,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-rochester-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-587c6e1e609b",
@@ -4668,7 +5400,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-rochester-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-12181ed8517c",
@@ -4695,7 +5430,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-rochester-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-56dcd56235b0",
@@ -4722,7 +5460,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-rochester-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-716daa8d72e7",
@@ -4749,7 +5490,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-rochester-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-1760096472ae",
@@ -4776,7 +5520,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-runhall-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-1d7a53517860",
@@ -4803,7 +5552,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-runhall-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-9e8bdb002f30",
@@ -4830,7 +5584,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-saxthorpe-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-06b9cd803713",
@@ -4857,7 +5616,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-scandinavia",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-a2c9809db5d0",
@@ -4884,7 +5648,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-scandinavia",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-8beaa2c87049",
@@ -4911,7 +5680,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-st-louis-missouri-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-40bf0bf41e8c",
@@ -4938,7 +5710,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-suffolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": [
+      "low-geocode-confidence"
+    ]
   },
   {
     "locationId": "loc-86402b409b4e",
@@ -4965,7 +5742,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-west-barsham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-471f454190c9",
@@ -4992,7 +5772,10 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg",
     "photoTitle": "West Barsham Hall",
     "siteUrl": "https://www.geograph.org.uk/photo/2122114",
-    "siteLabel": "Photo / site reference"
+    "siteLabel": "Photo / site reference",
+    "placeId": "place-west-barsham-norfolk-england",
+    "siteNameNormalized": "West Barsham Hall",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-79c99633c837",
@@ -5019,7 +5802,14 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg",
     "photoTitle": "West Barsham Hall",
     "siteUrl": "https://www.geograph.org.uk/photo/2122114",
-    "siteLabel": "Photo / site reference"
+    "siteLabel": "Photo / site reference",
+    "placeId": "place-west-barsham-norfolk-england",
+    "siteNameNormalized": "West Barsham Hall",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "subsite-name-normalized"
+    ]
   },
   {
     "locationId": "loc-d863c444bdcd",
@@ -5046,7 +5836,12 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg",
     "photoTitle": "West Barsham Hall",
     "siteUrl": "https://www.geograph.org.uk/photo/2122114",
-    "siteLabel": "Photo / site reference"
+    "siteLabel": "Photo / site reference",
+    "placeId": "place-west-barsham-norfolk-england",
+    "siteNameNormalized": "West Barsham Hall",
+    "qualityFlags": [
+      "subsite-name-normalized"
+    ]
   },
   {
     "locationId": "loc-83f1ad9e5046",
@@ -5073,7 +5868,10 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg",
     "photoTitle": "West Barsham Hall",
     "siteUrl": "https://www.geograph.org.uk/photo/2122114",
-    "siteLabel": "Photo / site reference"
+    "siteLabel": "Photo / site reference",
+    "placeId": "place-west-barsham-norfolk-england",
+    "siteNameNormalized": "West Barsham Hall",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-1fcb4794de18",
@@ -5100,7 +5898,14 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg",
     "photoTitle": "West Barsham Hall",
     "siteUrl": "https://www.geograph.org.uk/photo/2122114",
-    "siteLabel": "Photo / site reference"
+    "siteLabel": "Photo / site reference",
+    "placeId": "place-west-barsham-norfolk-england",
+    "siteNameNormalized": "West Barsham Hall",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "subsite-name-normalized"
+    ]
   },
   {
     "locationId": "loc-b74a91ec7735",
@@ -5127,7 +5932,12 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg",
     "photoTitle": "West Barsham Hall",
     "siteUrl": "https://www.geograph.org.uk/photo/2122114",
-    "siteLabel": "Photo / site reference"
+    "siteLabel": "Photo / site reference",
+    "placeId": "place-west-barsham-norfolk-england",
+    "siteNameNormalized": "West Barsham Hall",
+    "qualityFlags": [
+      "subsite-name-normalized"
+    ]
   },
   {
     "locationId": "loc-ae21acb4a4ce",
@@ -5154,7 +5964,10 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg",
     "photoTitle": "West Barsham Hall",
     "siteUrl": "https://www.geograph.org.uk/photo/2122114",
-    "siteLabel": "Photo / site reference"
+    "siteLabel": "Photo / site reference",
+    "placeId": "place-west-barsham-norfolk-england",
+    "siteNameNormalized": "West Barsham Hall",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-de5cd0ca64d5",
@@ -5181,7 +5994,14 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg",
     "photoTitle": "West Barsham Hall",
     "siteUrl": "https://www.geograph.org.uk/photo/2122114",
-    "siteLabel": "Photo / site reference"
+    "siteLabel": "Photo / site reference",
+    "placeId": "place-west-barsham-norfolk-england",
+    "siteNameNormalized": "West Barsham Hall",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "subsite-name-normalized"
+    ]
   },
   {
     "locationId": "loc-b13b72bb30ed",
@@ -5208,7 +6028,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-west-barsham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-c37021d9cf4b",
@@ -5235,7 +6058,14 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg",
     "photoTitle": "West Barsham Hall",
     "siteUrl": "https://www.geograph.org.uk/photo/2122114",
-    "siteLabel": "Photo / site reference"
+    "siteLabel": "Photo / site reference",
+    "placeId": "place-west-barsham-norfolk-england",
+    "siteNameNormalized": "West Barsham Hall",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "subsite-name-normalized"
+    ]
   },
   {
     "locationId": "loc-42e974f8b3a3",
@@ -5262,7 +6092,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-west-barsham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-0fe89bc86b99",
@@ -5289,7 +6122,14 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg",
     "photoTitle": "West Barsham Hall",
     "siteUrl": "https://www.geograph.org.uk/photo/2122114",
-    "siteLabel": "Photo / site reference"
+    "siteLabel": "Photo / site reference",
+    "placeId": "place-west-barsham-norfolk-england",
+    "siteNameNormalized": "West Barsham Hall",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "subsite-name-normalized"
+    ]
   },
   {
     "locationId": "loc-b06470608458",
@@ -5316,7 +6156,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-west-barsham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-f952e2be8452",
@@ -5343,7 +6186,12 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-west-barsham-norfolk-england",
+    "siteNameNormalized": "West Barsham Hall",
+    "qualityFlags": [
+      "subsite-name-normalized"
+    ]
   },
   {
     "locationId": "loc-8268cb532492",
@@ -5370,7 +6218,14 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg",
     "photoTitle": "West Barsham Hall",
     "siteUrl": "https://www.geograph.org.uk/photo/2122114",
-    "siteLabel": "Photo / site reference"
+    "siteLabel": "Photo / site reference",
+    "placeId": "place-west-barsham-norfolk-england",
+    "siteNameNormalized": "West Barsham Hall",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "subsite-name-normalized"
+    ]
   },
   {
     "locationId": "loc-9cc4392538ee",
@@ -5397,7 +6252,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-west-barsham-norfolk-england",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-408f6774352f",
@@ -5424,7 +6282,14 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg",
     "photoTitle": "West Barsham Hall",
     "siteUrl": "https://www.geograph.org.uk/photo/2122114",
-    "siteLabel": "Photo / site reference"
+    "siteLabel": "Photo / site reference",
+    "placeId": "place-west-barsham-norfolk-england",
+    "siteNameNormalized": "West Barsham Hall",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "subsite-name-normalized"
+    ]
   },
   {
     "locationId": "loc-4ba2e81330dc",
@@ -5451,7 +6316,14 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg",
     "photoTitle": "West Barsham Hall",
     "siteUrl": "https://www.geograph.org.uk/photo/2122114",
-    "siteLabel": "Photo / site reference"
+    "siteLabel": "Photo / site reference",
+    "placeId": "place-west-barsham-norfolk-england",
+    "siteNameNormalized": "West Barsham Hall",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span",
+      "subsite-name-normalized"
+    ]
   },
   {
     "locationId": "loc-1a1d33bb2456",
@@ -5478,7 +6350,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-weymouth-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-555d7531a316",
@@ -5505,7 +6380,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-weymouth-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-1430fdbe678b",
@@ -5532,7 +6410,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-weymouth-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-06877b17f4fe",
@@ -5559,7 +6440,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-weymouth-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-364ead652ca1",
@@ -5586,7 +6470,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-weymouth-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-680fa43c4a7c",
@@ -5613,7 +6500,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-weymouth-massachusetts-usa",
+    "siteNameNormalized": "Great Pond",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-b65c8f6242af",
@@ -5640,7 +6533,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-weymouth-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-31ad0ced6d3b",
@@ -5667,7 +6563,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-weymouth-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-bffe8b713d50",
@@ -5694,7 +6593,13 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-weymouth-massachusetts-usa",
+    "siteNameNormalized": "Great Pond",
+    "qualityFlags": [
+      "merged-source-note",
+      "merged-date-span"
+    ]
   },
   {
     "locationId": "loc-ae738517612a",
@@ -5721,7 +6626,10 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-weymouth-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   },
   {
     "locationId": "loc-b777d702a841",
@@ -5748,6 +6656,9 @@
     "photoUrl": "",
     "photoTitle": "",
     "siteUrl": "",
-    "siteLabel": ""
+    "siteLabel": "",
+    "placeId": "place-weymouth-massachusetts-usa",
+    "siteNameNormalized": "",
+    "qualityFlags": []
   }
 ]

@@ -1,93 +1,41 @@
 # Irstead, Norfolk, England
 
-Structured place-memory file combining prior narrative research with extracted registry entries.
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
 
-## Genealogical significance
-
-This file now serves as the place-level aggregation point for structured location and landholding entries extracted from the ancestor registry. Narrative interpretation, source cleanup, negative-result research, and archival notes can be layered above or below the generated registry block over time.
-
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
-
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
-
-### Place summary
-
-- Registry entries: **5**
+- `placeId`: `place-irstead-norfolk-england`
+- Canonical filename: `irstead.md`
+- Place class: locality
+- Aliases: Irstead, Norfolk
+- Mention count: **5**
 - Linked records: G15 Henry Gurney, G16 Francis Gurney, G17 Anthony Gurney, G18 William Gurney V
+- Representative coordinates: 52.707, 1.477602 (village centroid; Medium)
 
-### Registry entries
+### Mention ledger
 
-#### G15 Henry Gurney — landholding / property reference
+- `loc-bee895f436aa` — **G15 Henry Gurney** — landholding / property reference — 21 Jan. 1548/9 — d. 1615/16 | 20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris) | b. c. 1499 — d. 4 Jan. 1555/6 | c. 1465 – before 18 Jan. 1507/8
+  - Note: Irsted manor (held of Bishop of Norwich; sold to Sir Peter Gleane before 1632 by son/grandson). || Irsted manor, Norfolk. || Irsted manor, Norfolk (primary documented holding).
+  - Flags: merged-source-note, merged-date-span
 
-- `locationId`: `loc-bee895f436aa`
-- `recordId`: `ancestor-g15-henry-gurney`
-- `eventDate`: 21 Jan. 1548/9 — d. 1615/16 | 20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris) | b. c. 1499 — d. 4 Jan. 1555/6 | c. 1465 – before 18 Jan. 1507/8
-- `region`: Norfolk, England
-- `coordinates`: 52.707, 1.4776018452353217
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Irsted manor (held of Bishop of Norwich; sold to Sir Peter Gleane before 1632 by son/grandson). || Irsted manor, Norfolk. || Irsted manor, Norfolk (primary documented holding).
+- `loc-998313846d44` — **G16 Francis Gurney** — landholding / property reference — 21 Jan. 1548/9 — d. 1615/16 | 20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris) | b. c. 1499 — d. 4 Jan. 1555/6 | c. 1465 – before 18 Jan. 1507/8
+  - Note: Irsted manor (held of Bishop of Norwich; sold to Sir Peter Gleane before 1632 by son/grandson). || Irsted manor, Norfolk. || Irsted manor, Norfolk (primary documented holding).
+  - Flags: merged-source-note, merged-date-span
 
-#### G16 Francis Gurney — landholding / property reference
+- `loc-c145417645c5` — **G17 Anthony Gurney** — landholding / property reference — 21 Jan. 1548/9 — d. 1615/16 | 20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris) | b. c. 1499 — d. 4 Jan. 1555/6 | c. 1465 – before 18 Jan. 1507/8
+  - Note: Irsted manor (held of Bishop of Norwich; sold to Sir Peter Gleane before 1632 by son/grandson). || Irsted manor, Norfolk. || Irsted manor, Norfolk (primary documented holding).
+  - Flags: merged-source-note, merged-date-span
 
-- `locationId`: `loc-998313846d44`
-- `recordId`: `ancestor-g16-francis-gurney`
-- `eventDate`: 21 Jan. 1548/9 — d. 1615/16 | 20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris) | b. c. 1499 — d. 4 Jan. 1555/6 | c. 1465 – before 18 Jan. 1507/8
-- `region`: Norfolk, England
-- `coordinates`: 52.707, 1.4776018452353217
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Irsted manor (held of Bishop of Norwich; sold to Sir Peter Gleane before 1632 by son/grandson). || Irsted manor, Norfolk. || Irsted manor, Norfolk (primary documented holding).
+- `loc-ca7190f450cf` — **G18 William Gurney V** — individual geography — c. 1465 – before 18 Jan. 1507/8
+  - Note: Irsted, Norfolk
 
-#### G17 Anthony Gurney — landholding / property reference
+- `loc-7aa954c6274e` — **G18 William Gurney V** — landholding / property reference — 21 Jan. 1548/9 — d. 1615/16 | 20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris) | b. c. 1499 — d. 4 Jan. 1555/6 | c. 1465 – before 18 Jan. 1507/8
+  - Note: Irsted manor (held of Bishop of Norwich; sold to Sir Peter Gleane before 1632 by son/grandson). || Irsted manor, Norfolk. || Irsted manor, Norfolk (primary documented holding).
+  - Flags: merged-source-note, merged-date-span
 
-- `locationId`: `loc-c145417645c5`
-- `recordId`: `ancestor-g17-anthony-gurney`
-- `eventDate`: 21 Jan. 1548/9 — d. 1615/16 | 20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris) | b. c. 1499 — d. 4 Jan. 1555/6 | c. 1465 – before 18 Jan. 1507/8
-- `region`: Norfolk, England
-- `coordinates`: 52.707, 1.4776018452353217
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Irsted manor (held of Bishop of Norwich; sold to Sir Peter Gleane before 1632 by son/grandson). || Irsted manor, Norfolk. || Irsted manor, Norfolk (primary documented holding).
+### Review notes
 
-#### G18 William Gurney V — individual geography
+- contains merged inherited notes from source JSON; split or reverify in cleanup pass
+- contains merged date spans / likely cross-generation contamination in at least one mention
+- coordinates vary across mentions; representative coordinates are approximate
 
-- `locationId`: `loc-ca7190f450cf`
-- `recordId`: `ancestor-g18-william-gurney-v`
-- `eventDate`: c. 1465 – before 18 Jan. 1507/8
-- `region`: Norfolk, England
-- `coordinates`: 52.707, 1.471
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Irsted, Norfolk
-
-#### G18 William Gurney V — landholding / property reference
-
-- `locationId`: `loc-7aa954c6274e`
-- `recordId`: `ancestor-g18-william-gurney-v`
-- `eventDate`: 21 Jan. 1548/9 — d. 1615/16 | 20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris) | b. c. 1499 — d. 4 Jan. 1555/6 | c. 1465 – before 18 Jan. 1507/8
-- `region`: Norfolk, England
-- `coordinates`: 52.707, 1.4776018452353217
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Irsted manor (held of Bishop of Norwich; sold to Sir Peter Gleane before 1632 by son/grandson). || Irsted manor, Norfolk. || Irsted manor, Norfolk (primary documented holding).
-
-### Crosslinks
-
-- `data/ancestors v24.json` → `G15` / `Henry Gurney`
-- `data/ancestors v24.json` → `G16` / `Francis Gurney`
-- `data/ancestors v24.json` → `G17` / `Anthony Gurney`
-- `data/ancestors v24.json` → `G18` / `William Gurney V`
-
-<!-- GENERATED:LOCATION-REGISTRY:END -->
-
-## Research notes
-
-- This file is intentionally compatible with a later normalization pass where multiple extracted registry entries can be merged into a canonical place record.
-- Formal `sourceId` linkage has not yet been imposed here. Inherited quotations and URLs are preserved to reduce loss during migration.
+<!-- GENERATED:PLACE-REGISTRY:END -->

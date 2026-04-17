@@ -36,32 +36,25 @@ Fordham had **eleven *bordarii* and four *servi*** per the Domesday entry (cited
 - `research/places/liston.md`
 - `research/places/ardleigh.md`
 
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
 
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
-
-### Place summary
-
-- Registry entries: **1**
+- `placeId`: `place-fordham-essex-england`
+- Canonical filename: `fordham.md`
+- Place class: locality
+- Aliases: Fordham, Essex
+- Mention count: **1**
 - Linked records: G33 Hugh de Gournay III
+- Representative coordinates: 51.917, 0.801 (village centroid; Low)
 
-### Registry entries
+### Mention ledger
 
-#### G33 Hugh de Gournay III — landholding / property reference
+- `loc-6651bd41f21e` — **G33 Hugh de Gournay III** — landholding / property reference — c. 1020 — d. c. 1093
+  - Note: Fordham, Essex (Domesday 1086).
+  - Flags: low-geocode-confidence
 
-- `locationId`: `loc-6651bd41f21e`
-- `recordId`: `ancestor-g33-hugh-de-gournay-iii`
-- `eventDate`: c. 1020 — d. c. 1093
-- `region`: Essex, England
-- `coordinates`: 51.917, 0.801
-- `geocodeBasis`: village centroid
-- `confidence`: Low
-- Source / citation status: explicit citation text present in inherited note
-- Inherited note / quote: Fordham, Essex (Domesday 1086).
+### Review notes
 
-### Crosslinks
+- None in normalization pass v1.
 
-- `data/ancestors v24.json` → `G33` / `Hugh de Gournay III`
-
-<!-- GENERATED:LOCATION-REGISTRY:END -->
+<!-- GENERATED:PLACE-REGISTRY:END -->

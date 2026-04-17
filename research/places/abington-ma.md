@@ -1,104 +1,38 @@
 # Abington, Massachusetts, USA
 
-Structured place-memory file combining prior narrative research with extracted registry entries.
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
 
-## Genealogical significance
-
-This file now serves as the place-level aggregation point for structured location and landholding entries extracted from the ancestor registry. Narrative interpretation, source cleanup, negative-result research, and archival notes can be layered above or below the generated registry block over time.
-
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
-
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
-
-### Place summary
-
-- Registry entries: **6**
+- `placeId`: `place-abington-massachusetts-usa`
+- Canonical filename: `abington-ma.md`
+- Place class: locality
+- Aliases: Abington, Massachusetts
+- Mention count: **6**
 - Linked records: G10 Benjamin Gurney, G11 Benjamin Gurney, G9 Benjamin Gurney
+- Representative coordinates: 42.1043, -70.9467 (town centroid; High)
 
-### Registry entries
+### Mention ledger
 
-#### G10 Benjamin Gurney — individual geography
+- `loc-242c41559eb0` — **G10 Benjamin Gurney** — individual geography — bpt. 30 May 1730 — d. 28 Sept. 1805
+  - Note: Abington, MA
 
-- `locationId`: `loc-242c41559eb0`
-- `recordId`: `ancestor-g10-benjamin-gurney`
-- `eventDate`: bpt. 30 May 1730 — d. 28 Sept. 1805
-- `region`: Massachusetts, USA
-- `coordinates`: 42.1043, -70.94130862327691
-- `geocodeBasis`: town centroid
-- `confidence`: High
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Abington, MA
+- `loc-dc05ea2f05a4` — **G10 Benjamin Gurney** — individual geography — c. 1676 — d. 1738/9
+  - Note: Abington, MA
 
-#### G10 Benjamin Gurney — individual geography
+- `loc-93c18e279914` — **G11 Benjamin Gurney** — individual geography — bpt. 30 May 1730 — d. 28 Sept. 1805
+  - Note: Abington, MA
 
-- `locationId`: `loc-dc05ea2f05a4`
-- `recordId`: `ancestor-g10-benjamin-gurney`
-- `eventDate`: c. 1676 — d. 1738/9
-- `region`: Massachusetts, USA
-- `coordinates`: 42.1043, -70.9520913767231
-- `geocodeBasis`: town centroid
-- `confidence`: High
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Abington, MA
+- `loc-f175dc56e7f2` — **G11 Benjamin Gurney** — individual geography — c. 1676 — d. 1738/9
+  - Note: Abington, MA
 
-#### G11 Benjamin Gurney — individual geography
+- `loc-f3e97701fc6c` — **G9 Benjamin Gurney** — individual geography — bpt. 30 May 1730 — d. 28 Sept. 1805
+  - Note: Abington, MA
 
-- `locationId`: `loc-93c18e279914`
-- `recordId`: `ancestor-g11-benjamin-gurney`
-- `eventDate`: bpt. 30 May 1730 — d. 28 Sept. 1805
-- `region`: Massachusetts, USA
-- `coordinates`: 42.1043, -70.94130862327691
-- `geocodeBasis`: town centroid
-- `confidence`: High
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Abington, MA
+- `loc-d08751f5b3ee` — **G9 Benjamin Gurney** — individual geography — c. 1676 — d. 1738/9
+  - Note: Abington, MA
 
-#### G11 Benjamin Gurney — individual geography
+### Review notes
 
-- `locationId`: `loc-f175dc56e7f2`
-- `recordId`: `ancestor-g11-benjamin-gurney`
-- `eventDate`: c. 1676 — d. 1738/9
-- `region`: Massachusetts, USA
-- `coordinates`: 42.1043, -70.9520913767231
-- `geocodeBasis`: town centroid
-- `confidence`: High
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Abington, MA
+- coordinates vary across mentions; representative coordinates are approximate
 
-#### G9 Benjamin Gurney — individual geography
-
-- `locationId`: `loc-f3e97701fc6c`
-- `recordId`: `ancestor-g9-benjamin-gurney`
-- `eventDate`: bpt. 30 May 1730 — d. 28 Sept. 1805
-- `region`: Massachusetts, USA
-- `coordinates`: 42.1043, -70.94130862327691
-- `geocodeBasis`: town centroid
-- `confidence`: High
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Abington, MA
-
-#### G9 Benjamin Gurney — individual geography
-
-- `locationId`: `loc-d08751f5b3ee`
-- `recordId`: `ancestor-g9-benjamin-gurney`
-- `eventDate`: c. 1676 — d. 1738/9
-- `region`: Massachusetts, USA
-- `coordinates`: 42.1043, -70.9520913767231
-- `geocodeBasis`: town centroid
-- `confidence`: High
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Abington, MA
-
-### Crosslinks
-
-- `data/ancestors v24.json` → `G10` / `Benjamin Gurney`
-- `data/ancestors v24.json` → `G11` / `Benjamin Gurney`
-- `data/ancestors v24.json` → `G9` / `Benjamin Gurney`
-
-<!-- GENERATED:LOCATION-REGISTRY:END -->
-
-## Research notes
-
-- This file is intentionally compatible with a later normalization pass where multiple extracted registry entries can be merged into a canonical place record.
-- Formal `sourceId` linkage has not yet been imposed here. Inherited quotations and URLs are preserved to reduce loss during migration.
+<!-- GENERATED:PLACE-REGISTRY:END -->

@@ -39,44 +39,27 @@ Caister Castle (the fortified manor house built c. 1432–1446 by Sir John Fasto
 - `research/places/lessingham.md`
 - `research/places/gournay-en-bray.md` (Norman seat)
 
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
 
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
-
-### Place summary
-
-- Registry entries: **2**
+- `placeId`: `place-caister-on-sea-norfolk-england`
+- Canonical filename: `caister-on-sea.md`
+- Place class: locality
+- Aliases: Caister, Caister-on-Sea, Norfolk
+- Mention count: **2**
 - Linked records: G32 Gerard de Gournay
+- Representative coordinates: 52.6488, 1.7281 (town centroid; High)
 
-### Registry entries
+### Mention ledger
 
-#### G32 Gerard de Gournay — individual geography
+- `loc-a3bc48855c48` — **G32 Gerard de Gournay** — individual geography — c. 1040 — d. before 1104, Palestine
+  - Note: Caister, Norfolk
 
-- `locationId`: `loc-a3bc48855c48`
-- `recordId`: `ancestor-g32-gerard-de-gournay`
-- `eventDate`: c. 1040 — d. before 1104, Palestine
-- `region`: Norfolk, England
-- `coordinates`: 52.6488, 1.7281
-- `geocodeBasis`: town centroid
-- `confidence`: High
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Caister, Norfolk
+- `loc-29726ab37431` — **G32 Gerard de Gournay** — landholding / property reference — c. 1040 — d. before 1104, Palestine
+  - Note: Caister, Norfolk (English holdings documented).
 
-#### G32 Gerard de Gournay — landholding / property reference
+### Review notes
 
-- `locationId`: `loc-29726ab37431`
-- `recordId`: `ancestor-g32-gerard-de-gournay`
-- `eventDate`: c. 1040 — d. before 1104, Palestine
-- `region`: Norfolk, England
-- `coordinates`: 52.6488, 1.7281
-- `geocodeBasis`: town centroid
-- `confidence`: High
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Caister, Norfolk (English holdings documented).
+- None in normalization pass v1.
 
-### Crosslinks
-
-- `data/ancestors v24.json` → `G32` / `Gerard de Gournay`
-
-<!-- GENERATED:LOCATION-REGISTRY:END -->
+<!-- GENERATED:PLACE-REGISTRY:END -->

@@ -1,79 +1,36 @@
 # Flushing, Queens, New York, USA
 
-Structured place-memory file combining prior narrative research with extracted registry entries.
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
 
-## Genealogical significance
-
-This file now serves as the place-level aggregation point for structured location and landholding entries extracted from the ancestor registry. Narrative interpretation, source cleanup, negative-result research, and archival notes can be layered above or below the generated registry block over time.
-
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
-
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
-
-### Place summary
-
-- Registry entries: **4**
+- `placeId`: `place-flushing-queens-new-york-usa`
+- Canonical filename: `flushing-ny.md`
+- Place class: locality
+- Aliases: Flushing, NY, Flushing, Queens, NY, Flushing, New York
+- Mention count: **4**
 - Linked records: G6 Brigadier General William Gurney, G7 Willis Gurney
+- Representative coordinates: 40.7675, -73.827819 (town centroid; High)
 
-### Registry entries
+### Mention ledger
 
-#### G6 Brigadier General William Gurney — individual geography
+- `loc-eabf7d5ce399` — **G6 Brigadier General William Gurney** — individual geography — 1821–1879
+  - Note: Flushing, Queens NY
 
-- `locationId`: `loc-eabf7d5ce399`
-- `recordId`: `ancestor-g6-brigadier-general-william-gurney`
-- `eventDate`: 1821–1879
-- `region`: New York, USA
-- `coordinates`: 40.7675, -73.8278185347045
-- `geocodeBasis`: town centroid
-- `confidence`: High
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Flushing, Queens NY
+- `loc-966ca8fc84f4` — **G6 Brigadier General William Gurney** — landholding / property reference — 1821–1879 | c. 1796–98 — before 1870
+  - Note: Likely rented residential in Flushing and later Manhattan. || Unknown whether owned or rented Flushing premises
+  - Flags: merged-source-note, merged-date-span
 
-#### G6 Brigadier General William Gurney — landholding / property reference
+- `loc-7f7d57cd9896` — **G7 Willis Gurney** — individual geography — c. 1796–98 — before 1870
+  - Note: Flushing, Queens NY
 
-- `locationId`: `loc-966ca8fc84f4`
-- `recordId`: `ancestor-g6-brigadier-general-william-gurney`
-- `eventDate`: 1821–1879 | c. 1796–98 — before 1870
-- `region`: New York, USA
-- `coordinates`: 40.7675, -73.8278185347045
-- `geocodeBasis`: town centroid
-- `confidence`: High
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Likely rented residential in Flushing and later Manhattan. || Unknown whether owned or rented Flushing premises
+- `loc-45f01750e6a9` — **G7 Willis Gurney** — landholding / property reference — 1821–1879 | c. 1796–98 — before 1870
+  - Note: Likely rented residential in Flushing and later Manhattan. || Unknown whether owned or rented Flushing premises
+  - Flags: merged-source-note, merged-date-span
 
-#### G7 Willis Gurney — individual geography
+### Review notes
 
-- `locationId`: `loc-7f7d57cd9896`
-- `recordId`: `ancestor-g7-willis-gurney`
-- `eventDate`: c. 1796–98 — before 1870
-- `region`: New York, USA
-- `coordinates`: 40.7675, -73.8383814652955
-- `geocodeBasis`: town centroid
-- `confidence`: High
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Flushing, Queens NY
+- contains merged inherited notes from source JSON; split or reverify in cleanup pass
+- contains merged date spans / likely cross-generation contamination in at least one mention
+- coordinates vary across mentions; representative coordinates are approximate
 
-#### G7 Willis Gurney — landholding / property reference
-
-- `locationId`: `loc-45f01750e6a9`
-- `recordId`: `ancestor-g7-willis-gurney`
-- `eventDate`: 1821–1879 | c. 1796–98 — before 1870
-- `region`: New York, USA
-- `coordinates`: 40.7675, -73.8278185347045
-- `geocodeBasis`: town centroid
-- `confidence`: High
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Likely rented residential in Flushing and later Manhattan. || Unknown whether owned or rented Flushing premises
-
-### Crosslinks
-
-- `data/ancestors v24.json` → `G6` / `Brigadier General William Gurney`
-- `data/ancestors v24.json` → `G7` / `Willis Gurney`
-
-<!-- GENERATED:LOCATION-REGISTRY:END -->
-
-## Research notes
-
-- This file is intentionally compatible with a later normalization pass where multiple extracted registry entries can be merged into a canonical place record.
-- Formal `sourceId` linkage has not yet been imposed here. Inherited quotations and URLs are preserved to reduce loss during migration.
+<!-- GENERATED:PLACE-REGISTRY:END -->

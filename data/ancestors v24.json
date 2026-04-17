@@ -24,6 +24,9 @@
     "recordId": "collateral-g0-soren-and-ebba-gurney",
     "locationRefs": [
       "loc-41bb261af56c"
+    ],
+    "placeRefs": [
+      "place-dexter-michigan-usa"
     ]
   },
   {
@@ -45,6 +48,11 @@
       "loc-da34c9847ad1",
       "loc-8beaa2c87049",
       "loc-16e5a2351f24"
+    ],
+    "placeRefs": [
+      "place-marion-indiana-usa",
+      "place-portland-oregon-usa",
+      "place-st-louis-missouri-usa"
     ]
   },
   {
@@ -66,6 +74,11 @@
       "loc-cfce96b4338c",
       "loc-5407c47a0852",
       "loc-a21a78e3929f"
+    ],
+    "placeRefs": [
+      "place-dexter-michigan-usa",
+      "place-indianapolis-indiana-usa",
+      "place-marion-indiana-usa"
     ]
   },
   {
@@ -98,6 +111,11 @@
       "loc-f0df54bc3e89",
       "loc-22b8d35db15f",
       "loc-a90b03ee97a0"
+    ],
+    "placeRefs": [
+      "place-fort-wayne-indiana-usa",
+      "place-marion-indiana-usa",
+      "place-port-washington-new-york-usa"
     ]
   },
   {
@@ -123,6 +141,9 @@
     "recordId": "ancestor-g3-lester-sawyer-gurney-iii",
     "locationRefs": [
       "loc-99fb0d3103b4"
+    ],
+    "placeRefs": [
+      "place-new-york-metropolitan-area-usa"
     ]
   },
   {
@@ -156,6 +177,9 @@
     "recordId": "ancestor-g4-lester-sawyer-gurney-jr",
     "locationRefs": [
       "loc-3ff0381f2cfe"
+    ],
+    "placeRefs": [
+      "place-new-york-metropolitan-area-usa"
     ]
   },
   {
@@ -182,6 +206,9 @@
     "locationRefs": [
       "loc-f4267a15234f",
       "loc-fe8da3904aea"
+    ],
+    "placeRefs": [
+      "place-new-york-metropolitan-area-usa"
     ]
   },
   {
@@ -257,6 +284,16 @@
       "loc-185d47ebfd71",
       "loc-749e6725cc12",
       "loc-589e6dc5656e"
+    ],
+    "placeRefs": [
+      "place-15-avenue-c-manhattan-new-york-usa",
+      "place-155-henry-street-manhattan-new-york-usa",
+      "place-177-west-48th-street-manhattan-new-york-usa",
+      "place-231-fifth-avenue-manhattan-new-york-usa",
+      "place-54-hudson-street-manhattan-new-york-usa",
+      "place-55-pike-street-manhattan-new-york-usa",
+      "place-charleston-south-carolina-usa",
+      "place-flushing-queens-new-york-usa"
     ]
   },
   {
@@ -327,6 +364,10 @@
       "loc-e1404e3a4a78",
       "loc-7f7d57cd9896",
       "loc-45f01750e6a9"
+    ],
+    "placeRefs": [
+      "place-cummington-massachusetts-usa",
+      "place-flushing-queens-new-york-usa"
     ]
   },
   {
@@ -372,6 +413,10 @@
       "loc-2c84ee0c587c",
       "loc-f5129b748ec6",
       "loc-9e166351e142"
+    ],
+    "placeRefs": [
+      "place-bridgewater-massachusetts-usa",
+      "place-cummington-massachusetts-usa"
     ]
   },
   {
@@ -419,6 +464,15 @@
       "loc-0c466afdbe66",
       "loc-716daa8d72e7",
       "loc-46c7d940da52"
+    ],
+    "placeRefs": [
+      "place-abington-massachusetts-usa",
+      "place-abington-whitman-line-massachusetts-usa",
+      "place-bridgewater-massachusetts-usa",
+      "place-cummington-massachusetts-usa",
+      "place-middleborough-massachusetts-usa",
+      "place-rochester-massachusetts-usa",
+      "place-weymouth-massachusetts-usa"
     ]
   },
   {
@@ -475,6 +529,15 @@
       "loc-72bc57a6b19e",
       "loc-00d80c04ea56",
       "loc-b77282c1d714"
+    ],
+    "placeRefs": [
+      "place-abington-massachusetts-usa",
+      "place-abington-whitman-line-massachusetts-usa",
+      "place-bridgewater-massachusetts-usa",
+      "place-cummington-massachusetts-usa",
+      "place-middleborough-massachusetts-usa",
+      "place-rochester-massachusetts-usa",
+      "place-weymouth-massachusetts-usa"
     ]
   },
   {
@@ -518,6 +581,15 @@
       "loc-b589167bf2d8",
       "loc-12181ed8517c",
       "loc-545089de49c4"
+    ],
+    "placeRefs": [
+      "place-abington-massachusetts-usa",
+      "place-abington-whitman-line-massachusetts-usa",
+      "place-bridgewater-massachusetts-usa",
+      "place-cummington-massachusetts-usa",
+      "place-middleborough-massachusetts-usa",
+      "place-rochester-massachusetts-usa",
+      "place-weymouth-massachusetts-usa"
     ]
   },
   {
@@ -559,6 +631,10 @@
       "loc-d55cdb04778e",
       "loc-680fa43c4a7c",
       "loc-b65c8f6242af"
+    ],
+    "placeRefs": [
+      "place-bridgewater-massachusetts-usa",
+      "place-weymouth-massachusetts-usa"
     ]
   },
   {
@@ -643,6 +719,11 @@
       "loc-bffe8b713d50",
       "loc-f626bbd39326",
       "loc-ee118c7f9730"
+    ],
+    "placeRefs": [
+      "place-braintree-massachusetts-usa",
+      "place-mendon-massachusetts-usa",
+      "place-weymouth-massachusetts-usa"
     ]
   },
   {
@@ -745,6 +826,11 @@
       "loc-66b73f513876",
       "loc-2f7cde3a94a4",
       "loc-22318caf866b"
+    ],
+    "placeRefs": [
+      "place-city-of-london-england",
+      "place-kings-lynn-norfolk-england",
+      "place-west-barsham-norfolk-england"
     ]
   },
   {
@@ -804,6 +890,15 @@
       "loc-bee895f436aa",
       "loc-79c99633c837",
       "loc-d863c444bdcd"
+    ],
+    "placeRefs": [
+      "place-attleborough-norfolk-england",
+      "place-great-ellingham-norfolk-england",
+      "place-harpham-norfolk-england",
+      "place-harpley-norfolk-england",
+      "place-hingham-norfolk-england",
+      "place-irstead-norfolk-england",
+      "place-west-barsham-norfolk-england"
     ]
   },
   {
@@ -845,6 +940,11 @@
       "loc-998313846d44",
       "loc-1fcb4794de18",
       "loc-b74a91ec7735"
+    ],
+    "placeRefs": [
+      "place-great-ellingham-norfolk-england",
+      "place-irstead-norfolk-england",
+      "place-west-barsham-norfolk-england"
     ]
   },
   {
@@ -886,6 +986,12 @@
       "loc-fd4899fe8139",
       "loc-c145417645c5",
       "loc-de5cd0ca64d5"
+    ],
+    "placeRefs": [
+      "place-great-ellingham-norfolk-england",
+      "place-hingham-norfolk-england",
+      "place-irstead-norfolk-england",
+      "place-west-barsham-norfolk-england"
     ]
   },
   {
@@ -925,6 +1031,11 @@
       "loc-33fd2d4d5aab",
       "loc-7aa954c6274e",
       "loc-b0954a21de86"
+    ],
+    "placeRefs": [
+      "place-hardingham-norfolk-england",
+      "place-hingham-norfolk-england",
+      "place-irstead-norfolk-england"
     ]
   },
   {
@@ -972,6 +1083,10 @@
       "loc-b13b72bb30ed",
       "loc-c37021d9cf4b",
       "loc-fb4aa2b7ca86"
+    ],
+    "placeRefs": [
+      "place-burnham-thorpe-norfolk-england",
+      "place-west-barsham-norfolk-england"
     ]
   },
   {
@@ -1010,6 +1125,10 @@
       "loc-42e974f8b3a3",
       "loc-0c9ab6dd5059",
       "loc-0fe89bc86b99"
+    ],
+    "placeRefs": [
+      "place-harpley-norfolk-england",
+      "place-west-barsham-norfolk-england"
     ]
   },
   {
@@ -1048,6 +1167,10 @@
       "loc-b06470608458",
       "loc-f952e2be8452",
       "loc-789808db1273"
+    ],
+    "placeRefs": [
+      "place-harpley-norfolk-england",
+      "place-west-barsham-norfolk-england"
     ]
   },
   {
@@ -1085,6 +1208,9 @@
     "locationRefs": [
       "loc-9a12e12dfe9c",
       "loc-47cb9be78e52"
+    ],
+    "placeRefs": [
+      "place-norfolk-england"
     ]
   },
   {
@@ -1132,6 +1258,12 @@
       "loc-8e6b910b2da5",
       "loc-8268cb532492",
       "loc-03a40365a0da"
+    ],
+    "placeRefs": [
+      "place-hardingham-norfolk-england",
+      "place-harpley-norfolk-england",
+      "place-kings-lynn-norfolk-england",
+      "place-west-barsham-norfolk-england"
     ]
   },
   {
@@ -1173,6 +1305,15 @@
       "loc-60362f5738a7",
       "loc-774e86b48234",
       "loc-9e8bdb002f30"
+    ],
+    "placeRefs": [
+      "place-city-of-london-england",
+      "place-hardingham-norfolk-england",
+      "place-harpley-norfolk-england",
+      "place-hellesdon-norfolk-england",
+      "place-norfolk-england",
+      "place-saxthorpe-norfolk-england",
+      "place-west-barsham-norfolk-england"
     ]
   },
   {
@@ -1214,6 +1355,10 @@
       "loc-0303d3c9d973",
       "loc-3382f19e18b8",
       "loc-faa6f7ff61df"
+    ],
+    "placeRefs": [
+      "place-hardingham-norfolk-england",
+      "place-harpley-norfolk-england"
     ]
   },
   {
@@ -1252,6 +1397,10 @@
       "loc-7e4ab7d840ad",
       "loc-23bd4973fe9e",
       "loc-18435b7999a0"
+    ],
+    "placeRefs": [
+      "place-hardingham-norfolk-england",
+      "place-harpley-norfolk-england"
     ]
   },
   {
@@ -1294,6 +1443,10 @@
       "loc-ad30c4385693",
       "loc-d2472d603c9f",
       "loc-34caa736bac9"
+    ],
+    "placeRefs": [
+      "place-hardingham-norfolk-england",
+      "place-harpley-norfolk-england"
     ]
   },
   {
@@ -1328,6 +1481,11 @@
       "loc-e2f1969ef0d9",
       "loc-ea8ecdf06dbe",
       "loc-47c0b9d53bd7"
+    ],
+    "placeRefs": [
+      "place-hardingham-norfolk-england",
+      "place-harpley-norfolk-england",
+      "place-lewes-sussex-england"
     ]
   },
   {
@@ -1361,6 +1519,10 @@
       "loc-df8321dc4035",
       "loc-c8b74e7e1779",
       "loc-29997742e305"
+    ],
+    "placeRefs": [
+      "place-hardingham-norfolk-england",
+      "place-harpley-norfolk-england"
     ]
   },
   {
@@ -1401,6 +1563,11 @@
       "loc-667d33611bba",
       "loc-a0b140659ba0",
       "loc-1760096472ae"
+    ],
+    "placeRefs": [
+      "place-hardingham-norfolk-england",
+      "place-harpley-norfolk-england",
+      "place-runhall-norfolk-england"
     ]
   },
   {
@@ -1435,6 +1602,11 @@
       "loc-c9eca26deb85",
       "loc-1d7a53517860",
       "loc-bd99b54730e1"
+    ],
+    "placeRefs": [
+      "place-hardingham-norfolk-england",
+      "place-montigny-sur-andelle-normandy-france",
+      "place-runhall-norfolk-england"
     ]
   },
   {
@@ -1468,6 +1640,11 @@
       "loc-6ff3f4423f86",
       "loc-40bf0bf41e8c",
       "loc-7f59a77bd453"
+    ],
+    "placeRefs": [
+      "place-hardingham-norfolk-england",
+      "place-norfolk-england",
+      "place-suffolk-england"
     ]
   },
   {
@@ -1527,6 +1704,13 @@
       "loc-29726ab37431",
       "loc-2e7fc66053ce",
       "loc-1c8fdd2fb00e"
+    ],
+    "placeRefs": [
+      "place-caister-on-sea-norfolk-england",
+      "place-cantley-norfolk-england",
+      "place-gournay-en-bray-normandy-france",
+      "place-lessingham-norfolk-england",
+      "place-norfolk-england"
     ]
   },
   {
@@ -1575,6 +1759,14 @@
       "loc-3ee2021b8537",
       "loc-59b857e396af",
       "loc-02b726b4300f"
+    ],
+    "placeRefs": [
+      "place-bedfordshire-england",
+      "place-buckinghamshire-england",
+      "place-gournay-en-bray-normandy-france",
+      "place-norfolk-england",
+      "place-normandy-france",
+      "place-oxfordshire-england"
     ]
   },
   {
@@ -1611,6 +1803,12 @@
       "loc-093890b8ccb5",
       "loc-b1314df75508",
       "loc-87ce781270cc"
+    ],
+    "placeRefs": [
+      "place-flegg-norfolk-england",
+      "place-gournay-en-bray-normandy-france",
+      "place-normandy-france",
+      "place-oxfordshire-england"
     ]
   },
   {
@@ -1650,6 +1848,15 @@
       "loc-6651bd41f21e",
       "loc-9d0fb5e64bc4",
       "loc-5a1138a4893c"
+    ],
+    "placeRefs": [
+      "place-ardleigh-essex-england",
+      "place-essex-england",
+      "place-fordham-essex-england",
+      "place-gournay-en-bray-normandy-france",
+      "place-le-bec-hellouin-normandy-france",
+      "place-liston-essex-england",
+      "place-norfolk-england"
     ]
   },
   {
@@ -1682,6 +1889,9 @@
     "locationRefs": [
       "loc-949f69d5cd69",
       "loc-4db58edf69cc"
+    ],
+    "placeRefs": [
+      "place-gournay-en-bray-normandy-france"
     ]
   },
   {
@@ -1720,6 +1930,10 @@
       "loc-adbbcfcebcb4",
       "loc-d911a765999c",
       "loc-e1ff14f38f9a"
+    ],
+    "placeRefs": [
+      "place-gournay-en-bray-normandy-france",
+      "place-la-ferte-en-bray-normandy-france"
     ]
   },
   {
@@ -1752,6 +1966,9 @@
     "locationRefs": [
       "loc-600ccf59e23e",
       "loc-626e7f0d6965"
+    ],
+    "placeRefs": [
+      "place-gournay-en-bray-normandy-france"
     ]
   },
   {
@@ -1794,6 +2011,11 @@
       "loc-06b9cd803713",
       "loc-4ba2e81330dc",
       "loc-ad28e8477fd4"
+    ],
+    "placeRefs": [
+      "place-gournay-en-bray-normandy-france",
+      "place-scandinavia",
+      "place-west-barsham-norfolk-england"
     ]
   },
   {
@@ -1827,6 +2049,9 @@
     "recordId": "ancestor-g-38-unknown-scandinavian-ancestors",
     "locationRefs": [
       "loc-a2c9809db5d0"
+    ],
+    "placeRefs": [
+      "place-scandinavia"
     ]
   }
 ]

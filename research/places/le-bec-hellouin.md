@@ -42,36 +42,27 @@ Hugh III and his son Gerard witnessed the foundation charter of William I and Ma
 - `research/people/g32-gerard-de-gournay-fact-sheet.research.md`
 - `research/places/lessingham.md`
 
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
 
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
-
-### Place summary
-
-- Registry entries: **1**
+- `placeId`: `place-le-bec-hellouin-normandy-france`
+- Canonical filename: `le-bec-hellouin.md`
+- Place class: locality
+- Aliases: Le Bec-Hellouin, Normandy
+- Sub-sites tracked here: Abbey of Bec
+- Mention count: **1**
 - Linked records: G33 Hugh de Gournay III
-- Named sub-sites: Abbey of Bec
+- Representative coordinates: 49.2288, 0.722 (exact abbey site; Exact)
 
-### Registry entries
+### Mention ledger
 
-#### G33 Hugh de Gournay III — landholding / property reference
+- `loc-9d0fb5e64bc4` — **G33 Hugh de Gournay III** — landholding / property reference — c. 1020 — d. c. 1093
+  - Sub-site: Abbey of Bec
+  - Note: Abbey of Bec, Normandy — endowed and buried here.
+  - Links: [Abbey site](https://abbayedubec.org/) · [Bec Abbey](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg/500px-Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg)
 
-- `locationId`: `loc-9d0fb5e64bc4`
-- `recordId`: `ancestor-g33-hugh-de-gournay-iii`
-- `eventDate`: c. 1020 — d. c. 1093
-- `siteName`: Abbey of Bec
-- `region`: Eure, Normandy, France
-- `coordinates`: 49.2288, 0.722
-- `geocodeBasis`: exact abbey site
-- `confidence`: Exact
-- Source / citation status: explicit citation text present in inherited note
-- Inherited note / quote: Abbey of Bec, Normandy — endowed and buried here.
-- External reference: [Abbey site](https://abbayedubec.org/)
-- Media reference: [Bec Abbey](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg/500px-Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg)
+### Review notes
 
-### Crosslinks
+- None in normalization pass v1.
 
-- `data/ancestors v24.json` → `G33` / `Hugh de Gournay III`
-
-<!-- GENERATED:LOCATION-REGISTRY:END -->
+<!-- GENERATED:PLACE-REGISTRY:END -->

@@ -29,32 +29,25 @@ The foundation placed a Bec satellite on Gournay-held Norfolk coast, reinforcing
 - `research/people/g32-gerard-de-gournay-fact-sheet.research.md`
 - `research/places/le-bec-hellouin.md` (parent abbey)
 
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
 
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
-
-### Place summary
-
-- Registry entries: **1**
+- `placeId`: `place-lessingham-norfolk-england`
+- Canonical filename: `lessingham.md`
+- Place class: locality
+- Aliases: Lessingham, Norfolk
+- Mention count: **1**
 - Linked records: G32 Gerard de Gournay
+- Representative coordinates: 52.795, 1.575 (village centroid; Low)
 
-### Registry entries
+### Mention ledger
 
-#### G32 Gerard de Gournay — landholding / property reference
+- `loc-1c8fdd2fb00e` — **G32 Gerard de Gournay** — landholding / property reference — c. 1040 — d. before 1104, Palestine
+  - Note: Lessingham Priory, Norfolk — founded, attached to Abbey of Bec.
+  - Flags: low-geocode-confidence
 
-- `locationId`: `loc-1c8fdd2fb00e`
-- `recordId`: `ancestor-g32-gerard-de-gournay`
-- `eventDate`: c. 1040 — d. before 1104, Palestine
-- `region`: Norfolk, England
-- `coordinates`: 52.795, 1.575
-- `geocodeBasis`: village centroid
-- `confidence`: Low
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Lessingham Priory, Norfolk — founded, attached to Abbey of Bec.
+### Review notes
 
-### Crosslinks
+- None in normalization pass v1.
 
-- `data/ancestors v24.json` → `G32` / `Gerard de Gournay`
-
-<!-- GENERATED:LOCATION-REGISTRY:END -->
+<!-- GENERATED:PLACE-REGISTRY:END -->

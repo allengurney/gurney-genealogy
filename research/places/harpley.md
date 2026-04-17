@@ -62,263 +62,89 @@ The church is the natural hero-image anchor for G31–G22. Current structure pos
 - `research/places/west-barsham.md` (Norfolk family seat after 1372 Wauncy inheritance)
 - `research/places/hardingham.md` (parallel Norfolk holding)
 
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
 
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
-
-### Place summary
-
-- Registry entries: **19**
+- `placeId`: `place-harpley-norfolk-england`
+- Canonical filename: `harpley.md`
+- Place class: locality
+- Aliases: Harpley, Norfolk
+- Mention count: **19**
 - Linked records: G15 Henry Gurney, G20 Thomas Gournay II, G21 Thomas Gournay I, G23 Edmund Gurney, G23 Sir John Gurney, Knt. (d.1408) — Collateral, G24 John de Gournay IV, G25 John de Gournay III, G26 Sir William de Gournay III, Knt., G27 Sir John de Gournay I, Knt., G28 William de Gournay II, G29 Matthew de Gournay
+- Representative coordinates: 52.8088, 0.6486 (village centroid; Medium)
 
-### Registry entries
+### Mention ledger
 
-#### G15 Henry Gurney — landholding / property reference
+- `loc-909582772601` — **G15 Henry Gurney** — landholding / property reference — 21 Jan. 1548/9 — d. 1615/16 | c. 1430 – d. before 27 July 1471 | d. 1408 | d. 1387 | fl. c. 1300–1360
+  - Note: Harpley manor, Norfolk (purchased 1587 — £ not stated; presented to church 1588, 1602). || Associated Norfolk manors from John's estate: Harpley, Hardingham, Loundhall in Saxthorpe, and the Heylesdon manors. || Harpley manor, Norfolk (inherited from father Edmund, Gen.22). || Harpley manor, Norfolk (principal documented holding). || Harpley manor, Norfolk — held by the junior Norfolk Gurney branch through this period per Daniel Gurney's Record.
+  - Flags: merged-source-note, merged-date-span
 
-- `locationId`: `loc-909582772601`
-- `recordId`: `ancestor-g15-henry-gurney`
-- `eventDate`: 21 Jan. 1548/9 — d. 1615/16 | c. 1430 – d. before 27 July 1471 | d. 1408 | d. 1387 | fl. c. 1300–1360
-- `region`: Norfolk, England
-- `coordinates`: 52.8088, 0.6486172931727132
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Harpley manor, Norfolk (purchased 1587 — £ not stated; presented to church 1588, 1602). || Associated Norfolk manors from John's estate: Harpley, Hardingham, Loundhall in Saxthorpe, and the Heylesdon manors. || Harpley manor, Norfolk (inherited from father Edmund, Gen.22). || Harpley manor, Norfolk (principal documented holding). || Harpley manor, Norfolk — held by the junior Norfolk Gurney branch through this period per Daniel Gurney's Record.
+- `loc-0c9ab6dd5059` — **G20 Thomas Gournay II** — landholding / property reference — 21 Jan. 1548/9 — d. 1615/16 | c. 1430 – d. before 27 July 1471 | d. 1408 | d. 1387 | fl. c. 1300–1360
+  - Note: Harpley manor, Norfolk (purchased 1587 — £ not stated; presented to church 1588, 1602). || Associated Norfolk manors from John's estate: Harpley, Hardingham, Loundhall in Saxthorpe, and the Heylesdon manors. || Harpley manor, Norfolk (inherited from father Edmund, Gen.22). || Harpley manor, Norfolk (principal documented holding). || Harpley manor, Norfolk — held by the junior Norfolk Gurney branch through this period per Daniel Gurney's Record.
+  - Flags: merged-source-note, merged-date-span
 
-#### G20 Thomas Gournay II — landholding / property reference
+- `loc-789808db1273` — **G21 Thomas Gournay I** — landholding / property reference — fl. c. 1408–1450
+  - Note: Harpley manor and associated Norfolk holdings.
 
-- `locationId`: `loc-0c9ab6dd5059`
-- `recordId`: `ancestor-g20-thomas-gournay-ii`
-- `eventDate`: 21 Jan. 1548/9 — d. 1615/16 | c. 1430 – d. before 27 July 1471 | d. 1408 | d. 1387 | fl. c. 1300–1360
-- `region`: Norfolk, England
-- `coordinates`: 52.8088, 0.6486172931727132
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Harpley manor, Norfolk (purchased 1587 — £ not stated; presented to church 1588, 1602). || Associated Norfolk manors from John's estate: Harpley, Hardingham, Loundhall in Saxthorpe, and the Heylesdon manors. || Harpley manor, Norfolk (inherited from father Edmund, Gen.22). || Harpley manor, Norfolk (principal documented holding). || Harpley manor, Norfolk — held by the junior Norfolk Gurney branch through this period per Daniel Gurney's Record.
+- `loc-f9d8c2ca3dc4` — **G23 Edmund Gurney** — individual geography — d. 1387
+  - Note: Harpley, Norfolk
 
-#### G21 Thomas Gournay I — landholding / property reference
+- `loc-8e6b910b2da5` — **G23 Edmund Gurney** — landholding / property reference — 21 Jan. 1548/9 — d. 1615/16 | c. 1430 – d. before 27 July 1471 | d. 1408 | d. 1387 | fl. c. 1300–1360
+  - Note: Harpley manor, Norfolk (purchased 1587 — £ not stated; presented to church 1588, 1602). || Associated Norfolk manors from John's estate: Harpley, Hardingham, Loundhall in Saxthorpe, and the Heylesdon manors. || Harpley manor, Norfolk (inherited from father Edmund, Gen.22). || Harpley manor, Norfolk (principal documented holding). || Harpley manor, Norfolk — held by the junior Norfolk Gurney branch through this period per Daniel Gurney's Record.
+  - Flags: merged-source-note, merged-date-span
 
-- `locationId`: `loc-789808db1273`
-- `recordId`: `ancestor-g21-thomas-gournay-i`
-- `eventDate`: fl. c. 1408–1450
-- `region`: Norfolk, England
-- `coordinates`: 52.8088, 0.6486
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Harpley manor and associated Norfolk holdings.
+- `loc-bf534faa0f50` — **G23 Sir John Gurney, Knt. (d.1408) — Collateral** — individual geography — d. 1408
+  - Note: Harpley
 
-#### G23 Edmund Gurney — individual geography
+- `loc-1881eae44573` — **G23 Sir John Gurney, Knt. (d.1408) — Collateral** — landholding / property reference — 21 Jan. 1548/9 — d. 1615/16 | c. 1430 – d. before 27 July 1471 | d. 1408 | d. 1387 | fl. c. 1300–1360
+  - Note: Harpley manor, Norfolk (purchased 1587 — £ not stated; presented to church 1588, 1602). || Associated Norfolk manors from John's estate: Harpley, Hardingham, Loundhall in Saxthorpe, and the Heylesdon manors. || Harpley manor, Norfolk (inherited from father Edmund, Gen.22). || Harpley manor, Norfolk (principal documented holding). || Harpley manor, Norfolk — held by the junior Norfolk Gurney branch through this period per Daniel Gurney's Record.
+  - Flags: merged-source-note, merged-date-span
 
-- `locationId`: `loc-f9d8c2ca3dc4`
-- `recordId`: `ancestor-g23-edmund-gurney`
-- `eventDate`: d. 1387
-- `region`: Norfolk, England
-- `coordinates`: 52.812264101615135, 0.6386913534136435
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Harpley, Norfolk
+- `loc-0303d3c9d973` — **G24 John de Gournay IV** — individual geography — fl. c. 1330–1370
+  - Note: Harpley, Norfolk
 
-#### G23 Edmund Gurney — landholding / property reference
+- `loc-3382f19e18b8` — **G24 John de Gournay IV** — landholding / property reference — fl. c. 1330–1370
+  - Note: Harpley manor, Norfolk (inherited from father John III).
 
-- `locationId`: `loc-8e6b910b2da5`
-- `recordId`: `ancestor-g23-edmund-gurney`
-- `eventDate`: 21 Jan. 1548/9 — d. 1615/16 | c. 1430 – d. before 27 July 1471 | d. 1408 | d. 1387 | fl. c. 1300–1360
-- `region`: Norfolk, England
-- `coordinates`: 52.8088, 0.6486172931727132
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Harpley manor, Norfolk (purchased 1587 — £ not stated; presented to church 1588, 1602). || Associated Norfolk manors from John's estate: Harpley, Hardingham, Loundhall in Saxthorpe, and the Heylesdon manors. || Harpley manor, Norfolk (inherited from father Edmund, Gen.22). || Harpley manor, Norfolk (principal documented holding). || Harpley manor, Norfolk — held by the junior Norfolk Gurney branch through this period per Daniel Gurney's Record.
+- `loc-7e4ab7d840ad` — **G25 John de Gournay III** — individual geography — fl. c. 1300–1353
+  - Note: Harpley, Norfolk
 
-#### G23 Sir John Gurney, Knt. (d.1408) — Collateral — individual geography
+- `loc-23bd4973fe9e` — **G25 John de Gournay III** — landholding / property reference — fl. c. 1300–1353
+  - Note: Harpley manor, Norfolk (succeeded uncle John, Rector of Harpley, in 1332). DG Record Part I, p.286.
+  - Links: [Blomefield: Harpley](https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459)
 
-- `locationId`: `loc-bf534faa0f50`
-- `recordId`: `collateral-g23-sir-john-gurney-knt-d-1408-collateral`
-- `eventDate`: d. 1408
-- `region`: Norfolk, England
-- `coordinates`: 52.8088, 0.6486172931727132
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Harpley
+- `loc-ad30c4385693` — **G26 Sir William de Gournay III, Knt.** — individual geography — fl. c. 1260–1300
+  - Note: Harpley, Norfolk
+  - Links: [Blomefield: Harpley](https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459)
 
-#### G23 Sir John Gurney, Knt. (d.1408) — Collateral — landholding / property reference
+- `loc-d2472d603c9f` — **G26 Sir William de Gournay III, Knt.** — landholding / property reference — fl. c. 1260–1300
+  - Note: Harpley manor (sold to brother John de Gournay II, Rector of Harpley, for an annuity in 1294). DG Record Part I, p.279.
 
-- `locationId`: `loc-1881eae44573`
-- `recordId`: `collateral-g23-sir-john-gurney-knt-d-1408-collateral`
-- `eventDate`: 21 Jan. 1548/9 — d. 1615/16 | c. 1430 – d. before 27 July 1471 | d. 1408 | d. 1387 | fl. c. 1300–1360
-- `region`: Norfolk, England
-- `coordinates`: 52.8088, 0.6486172931727132
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Harpley manor, Norfolk (purchased 1587 — £ not stated; presented to church 1588, 1602). || Associated Norfolk manors from John's estate: Harpley, Hardingham, Loundhall in Saxthorpe, and the Heylesdon manors. || Harpley manor, Norfolk (inherited from father Edmund, Gen.22). || Harpley manor, Norfolk (principal documented holding). || Harpley manor, Norfolk — held by the junior Norfolk Gurney branch through this period per Daniel Gurney's Record.
+- `loc-312ab9aadcb0` — **G27 Sir John de Gournay I, Knt.** — individual geography — fl. c. 1240–1280
+  - Note: Harpley, Norfolk
 
-#### G24 John de Gournay IV — individual geography
+- `loc-ea8ecdf06dbe` — **G27 Sir John de Gournay I, Knt.** — landholding / property reference — fl. c. 1240–1280
+  - Note: Harpley manor, Norfolk. Estate seized by Earl Warren after rebellion against Henry III (Battle of Lewes 1264). Blomefield, History of Norfolk.
+  - Links: [Blomefield: Harpley](https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459)
 
-- `locationId`: `loc-0303d3c9d973`
-- `recordId`: `ancestor-g24-john-de-gournay-iv`
-- `eventDate`: fl. c. 1330–1370
-- `region`: Norfolk, England
-- `coordinates`: 52.8088, 0.6486
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Harpley, Norfolk
+- `loc-df8321dc4035` — **G28 William de Gournay II** — individual geography — fl. c. 1210–1250
+  - Note: Harpley, Norfolk
 
-#### G24 John de Gournay IV — landholding / property reference
+- `loc-c8b74e7e1779` — **G28 William de Gournay II** — landholding / property reference — fl. c. 1210–1250
+  - Note: Harpley manor, Norfolk (inherited from father Matthew de Gournay).
 
-- `locationId`: `loc-3382f19e18b8`
-- `recordId`: `ancestor-g24-john-de-gournay-iv`
-- `eventDate`: fl. c. 1330–1370
-- `region`: Norfolk, England
-- `coordinates`: 52.8088, 0.6486
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Harpley manor, Norfolk (inherited from father John III).
+- `loc-29ca378d7d3c` — **G29 Matthew de Gournay** — individual geography — fl. c. 1180–1220
+  - Note: Harpley, Norfolk
+  - Links: [Blomefield: Harpley](https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459)
 
-#### G25 John de Gournay III — individual geography
+- `loc-667d33611bba` — **G29 Matthew de Gournay** — landholding / property reference — fl. c. 1180–1220
+  - Note: Gurney's manor in Harpley, Norfolk — acquired c.1183 through marriage to Rose de Burnham (given by Hameline Earl Warren). DG Record Part I, pp.278-279. Blomefield, History of Norfolk.
+  - Links: [Blomefield: Harpley](https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459)
 
-- `locationId`: `loc-7e4ab7d840ad`
-- `recordId`: `ancestor-g25-john-de-gournay-iii`
-- `eventDate`: fl. c. 1300–1353
-- `region`: Norfolk, England
-- `coordinates`: 52.8088, 0.6486
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Harpley, Norfolk
+### Review notes
 
-#### G25 John de Gournay III — landholding / property reference
+- contains merged inherited notes from source JSON; split or reverify in cleanup pass
+- contains merged date spans / likely cross-generation contamination in at least one mention
+- coordinates vary across mentions; representative coordinates are approximate
 
-- `locationId`: `loc-23bd4973fe9e`
-- `recordId`: `ancestor-g25-john-de-gournay-iii`
-- `eventDate`: fl. c. 1300–1353
-- `region`: Norfolk, England
-- `coordinates`: 52.8088, 0.6486
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: explicit citation text present in inherited note
-- Inherited note / quote: Harpley manor, Norfolk (succeeded uncle John, Rector of Harpley, in 1332). DG Record Part I, p.286.
-- External reference: [Blomefield: Harpley](https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459)
-
-#### G26 Sir William de Gournay III, Knt. — individual geography
-
-- `locationId`: `loc-ad30c4385693`
-- `recordId`: `ancestor-g26-sir-william-de-gournay-iii-knt`
-- `eventDate`: fl. c. 1260–1300
-- `region`: Norfolk, England
-- `coordinates`: 52.8088, 0.6486
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: explicit citation text present in inherited note
-- Inherited note / quote: Harpley, Norfolk
-- External reference: [Blomefield: Harpley](https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459)
-
-#### G26 Sir William de Gournay III, Knt. — landholding / property reference
-
-- `locationId`: `loc-d2472d603c9f`
-- `recordId`: `ancestor-g26-sir-william-de-gournay-iii-knt`
-- `eventDate`: fl. c. 1260–1300
-- `region`: Norfolk, England
-- `coordinates`: 52.8088, 0.6486
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: explicit citation text present in inherited note
-- Inherited note / quote: Harpley manor (sold to brother John de Gournay II, Rector of Harpley, for an annuity in 1294). DG Record Part I, p.279.
-
-#### G27 Sir John de Gournay I, Knt. — individual geography
-
-- `locationId`: `loc-312ab9aadcb0`
-- `recordId`: `ancestor-g27-sir-john-de-gournay-i-knt`
-- `eventDate`: fl. c. 1240–1280
-- `region`: Norfolk, England
-- `coordinates`: 52.8088, 0.6486
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Harpley, Norfolk
-
-#### G27 Sir John de Gournay I, Knt. — landholding / property reference
-
-- `locationId`: `loc-ea8ecdf06dbe`
-- `recordId`: `ancestor-g27-sir-john-de-gournay-i-knt`
-- `eventDate`: fl. c. 1240–1280
-- `region`: Norfolk, England
-- `coordinates`: 52.8088, 0.6486
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: explicit citation text present in inherited note
-- Inherited note / quote: Harpley manor, Norfolk. Estate seized by Earl Warren after rebellion against Henry III (Battle of Lewes 1264). Blomefield, History of Norfolk.
-- External reference: [Blomefield: Harpley](https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459)
-
-#### G28 William de Gournay II — individual geography
-
-- `locationId`: `loc-df8321dc4035`
-- `recordId`: `ancestor-g28-william-de-gournay-ii`
-- `eventDate`: fl. c. 1210–1250
-- `region`: Norfolk, England
-- `coordinates`: 52.8088, 0.6486
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Harpley, Norfolk
-
-#### G28 William de Gournay II — landholding / property reference
-
-- `locationId`: `loc-c8b74e7e1779`
-- `recordId`: `ancestor-g28-william-de-gournay-ii`
-- `eventDate`: fl. c. 1210–1250
-- `region`: Norfolk, England
-- `coordinates`: 52.8088, 0.6486
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Harpley manor, Norfolk (inherited from father Matthew de Gournay).
-
-#### G29 Matthew de Gournay — individual geography
-
-- `locationId`: `loc-29ca378d7d3c`
-- `recordId`: `ancestor-g29-matthew-de-gournay`
-- `eventDate`: fl. c. 1180–1220
-- `region`: Norfolk, England
-- `coordinates`: 52.8088, 0.6486
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: explicit citation text present in inherited note
-- Inherited note / quote: Harpley, Norfolk
-- External reference: [Blomefield: Harpley](https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459)
-
-#### G29 Matthew de Gournay — landholding / property reference
-
-- `locationId`: `loc-667d33611bba`
-- `recordId`: `ancestor-g29-matthew-de-gournay`
-- `eventDate`: fl. c. 1180–1220
-- `region`: Norfolk, England
-- `coordinates`: 52.8088, 0.6486
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: explicit citation text present in inherited note
-- Inherited note / quote: Gurney's manor in Harpley, Norfolk — acquired c.1183 through marriage to Rose de Burnham (given by Hameline Earl Warren). DG Record Part I, pp.278-279. Blomefield, History of Norfolk.
-- External reference: [Blomefield: Harpley](https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459)
-
-### Crosslinks
-
-- `data/ancestors v24.json` → `G15` / `Henry Gurney`
-- `data/ancestors v24.json` → `G20` / `Thomas Gournay II`
-- `data/ancestors v24.json` → `G21` / `Thomas Gournay I`
-- `data/ancestors v24.json` → `G23` / `Edmund Gurney`
-- `data/ancestors v24.json` → `G23` / `Sir John Gurney, Knt. (d.1408) — Collateral`
-- `data/ancestors v24.json` → `G24` / `John de Gournay IV`
-- `data/ancestors v24.json` → `G25` / `John de Gournay III`
-- `data/ancestors v24.json` → `G26` / `Sir William de Gournay III, Knt.`
-- `data/ancestors v24.json` → `G27` / `Sir John de Gournay I, Knt.`
-- `data/ancestors v24.json` → `G28` / `William de Gournay II`
-- `data/ancestors v24.json` → `G29` / `Matthew de Gournay`
-
-<!-- GENERATED:LOCATION-REGISTRY:END -->
+<!-- GENERATED:PLACE-REGISTRY:END -->

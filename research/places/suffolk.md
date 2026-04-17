@@ -54,32 +54,25 @@ Depden, Suffolk, was held by the Wauncy family (Katherine Wauncy's family) and e
 - `research/people/g13-john-gurney-fact-sheet.research.md` (Bury St. Edmunds separate connection)
 - `research/places/west-barsham.md` (parallel Wauncy inheritance)
 
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
 
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
-
-### Place summary
-
-- Registry entries: **1**
+- `placeId`: `place-suffolk-england`
+- Canonical filename: `suffolk.md`
+- Place class: region
+- Aliases: Suffolk
+- Mention count: **1**
 - Linked records: G31 Walter de Gournay
+- Representative coordinates: 52.188, 1.005 (county centroid; Low)
 
-### Registry entries
+### Mention ledger
 
-#### G31 Walter de Gournay — landholding / property reference
+- `loc-40bf0bf41e8c` — **G31 Walter de Gournay** — landholding / property reference — fl. c. 1108–1154
+  - Note: Lands in Suffolk held under Manasser de Dampmartin (Liber Niger Scaccarii, vol. i, p.298).
+  - Flags: low-geocode-confidence
 
-- `locationId`: `loc-40bf0bf41e8c`
-- `recordId`: `ancestor-g31-walter-de-gournay`
-- `eventDate`: fl. c. 1108–1154
-- `region`: England
-- `coordinates`: 52.188, 1.005
-- `geocodeBasis`: county centroid
-- `confidence`: Low
-- Source / citation status: explicit citation text present in inherited note
-- Inherited note / quote: Lands in Suffolk held under Manasser de Dampmartin (Liber Niger Scaccarii, vol. i, p.298).
+### Review notes
 
-### Crosslinks
+- None in normalization pass v1.
 
-- `data/ancestors v24.json` → `G31` / `Walter de Gournay`
-
-<!-- GENERATED:LOCATION-REGISTRY:END -->
+<!-- GENERATED:PLACE-REGISTRY:END -->

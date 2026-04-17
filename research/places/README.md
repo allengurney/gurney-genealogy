@@ -1,27 +1,31 @@
 # research/places/
 
-Place files are the durable research-memory layer for geography, landholdings, and site-specific context.
+Canonical place-memory files.
 
-## Naming
+## Authority
 
-- Prefer stable kebab-case filenames.
-- Reuse established filenames when already present.
-- Use geographic disambiguation only when needed (`braintree-ma.md`, `hingham-norfolk.md`).
+`data/places.json` is the authoritative registry for:
+- canonical place name
+- `placeId`
+- filename
+- aliases
+- search terms
+- reverse links to location mentions
 
-## Structure
+Do not infer filenames ad hoc when a place already exists in `data/places.json`.
 
-Each place file may now contain two layers:
+## File shape
 
-1. Narrative research sections maintained manually.
-2. A generated block bounded by:
-   - `<!-- GENERATED:LOCATION-REGISTRY:START -->`
-   - `<!-- GENERATED:LOCATION-REGISTRY:END -->`
+Narrative place files may contain hand-written research plus one generated block bounded by:
 
-The generated block is populated from `data/locations.json`-compatible extracted entries.
+- `<!-- GENERATED:PLACE-REGISTRY:START -->`
+- `<!-- GENERATED:PLACE-REGISTRY:END -->`
 
-## Current migration discipline
+Older location-registry blocks are replaced during normalization.
 
-- Preserve existing narrative research when updating a file.
-- Replace only the generated block when regenerating.
-- If a place has no prior file, create a minimal file with the generated block plus a short research-notes section.
-- Preserve inherited quotations, URLs, and note text exactly unless a separate source-cleanup task is underway.
+## Current normalization discipline
+
+- Preserve existing narrative research outside the generated block.
+- Replace generic boilerplate introduced by the extraction pass with a concise normalized block.
+- Keep sub-sites (cemeteries, churches, halls, ponds, addresses) within the parent place unless the research clearly treats them as standalone places.
+- Record unresolved naming / contamination / citation issues as review notes instead of over-solving them in the first normalization pass.
