@@ -4,26 +4,19 @@
 ## Place registry
 
 - `placeId`: `place-abington-whitman-line-massachusetts-usa`
-- Canonical filename: `abington-whitman-line-ma.md`
-- Place class: locality
+- Short description: Associated ancestral place
+- Place type: locality
 - Aliases: Abington/Whitman line, Massachusetts, USA, Abington–Whitman line, MA
-- Mention count: **3**
-- Linked records: G10 Benjamin Gurney, G11 Benjamin Gurney, G9 Benjamin Gurney
-- Representative coordinates: 42.0925, -70.9413 (inferred locality centroid; Low)
+- Coordinate: 42.0925, -70.9413 (low)
+- Roles: individual geography
+- Detail: Abington/Whitman, MA
+- Current-site status: unknown — Abington/Whitman, MA
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-3e13bbf107ec` — **G10 Benjamin Gurney** — individual geography — c. 1704 — before 1772
-  - Note: Abington/Whitman, MA
-  - Flags: low-geocode-confidence
-
-- `loc-272c131a14c3` — **G11 Benjamin Gurney** — individual geography — c. 1704 — before 1772
-  - Note: Abington/Whitman, MA
-  - Flags: low-geocode-confidence
-
-- `loc-239035dc9efb` — **G9 Benjamin Gurney** — individual geography — c. 1704 — before 1772
-  - Note: Abington/Whitman, MA
-  - Flags: low-geocode-confidence
+- G10 Benjamin Gurney — individual geography
+- G11 Benjamin Gurney — individual geography
+- G9 Benjamin Gurney — individual geography
 
 ### Review notes
 

@@ -4,24 +4,20 @@
 ## Place registry
 
 - `placeId`: `place-scandinavia`
-- Canonical filename: `scandinavia.md`
-- Place class: region
-- Mention count: **2**
-- Linked records: G~37 Eudes (Odon) de Gournay, G~38+ Unknown Scandinavian ancestors
-- Representative coordinates: 60.5, 14.5 (regional centroid; Low)
+- Short description: Associated ancestral place
+- Place type: region
+- Coordinate: 60.5, 14.49187691182128 (low)
+- Roles: individual geography
+- Detail: Scandinavia — Denmark or Norway (unknown)
+- Current-site status: unknown — Scandinavia — Denmark or Norway (unknown)
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-06b9cd803713` — **G~37 Eudes (Odon) de Gournay** — individual geography — c. 860 — d. c. 912
-  - Note: Scandinavia
-  - Flags: low-geocode-confidence
-
-- `loc-a2c9809db5d0` — **G~38+ Unknown Scandinavian ancestors** — individual geography — Before c. 860
-  - Note: Scandinavia — Denmark or Norway (unknown)
-  - Flags: low-geocode-confidence
+- G~37 Eudes (Odon) de Gournay — individual geography
+- G~38+ Unknown Scandinavian ancestors — individual geography
 
 ### Review notes
 
-- coordinates vary across mentions; representative coordinates are approximate
+- Multiple coordinate candidates existed; normalized record uses the strongest single anchor.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

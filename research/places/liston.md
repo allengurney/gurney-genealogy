@@ -43,18 +43,17 @@ The sub-tenant relationship is notable: Domesday-era Talbots held land under the
 ## Place registry
 
 - `placeId`: `place-liston-essex-england`
-- Canonical filename: `liston.md`
-- Place class: locality
+- Short description: Ancestral landholding
+- Place type: locality
 - Aliases: Liston, Essex
-- Mention count: **1**
-- Linked records: G33 Hugh de Gournay III
-- Representative coordinates: 51.95, 0.64 (village centroid; Low)
+- Coordinate: 51.95, 0.64 (low)
+- Roles: landholding / property reference
+- Detail: Liston, Essex (Domesday 1086 — held directly of the king).
+- Current-site status: unknown — Liston, Essex (Domesday 1086 — held directly of the king).
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-5a1138a4893c` — **G33 Hugh de Gournay III** — landholding / property reference — c. 1020 — d. c. 1093
-  - Note: Liston, Essex (Domesday 1086 — held directly of the king).
-  - Flags: low-geocode-confidence
+- G33 Hugh de Gournay III — landholding / property reference
 
 ### Review notes
 

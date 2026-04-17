@@ -4,33 +4,25 @@
 ## Place registry
 
 - `placeId`: `place-flushing-queens-new-york-usa`
-- Canonical filename: `flushing-ny.md`
-- Place class: locality
-- Aliases: Flushing, NY, Flushing, Queens, NY
-- Mention count: **4**
-- Linked records: G6 Brigadier General William Gurney, G7 Willis Gurney
-- Representative coordinates: 40.7675, -73.827819 (town centroid; High)
+- Short description: Ancestral landholding
+- Place type: locality
+- Aliases: Flushing, NY, Flushing, Queens, NY, Flushing, Queens
+- Coordinate: 40.7675, -73.8278185347045 (high)
+- Roles: individual geography, landholding / property reference
+- Detail: Likely rented residential in Flushing and later Manhattan. | Unknown whether owned or rented Flushing premises
+- Current-site status: unknown — Likely rented residential in Flushing and later Manhattan. | Unknown whether owned or rented Flushing premises
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-eabf7d5ce399` — **G6 Brigadier General William Gurney** — individual geography — 1821–1879
-  - Note: Flushing, Queens NY
-
-- `loc-966ca8fc84f4` — **G6 Brigadier General William Gurney** — landholding / property reference — 1821–1879 | c. 1796–98 — before 1870
-  - Note: Likely rented residential in Flushing and later Manhattan. || Unknown whether owned or rented Flushing premises
-  - Flags: merged-source-note, merged-date-span
-
-- `loc-7f7d57cd9896` — **G7 Willis Gurney** — individual geography — c. 1796–98 — before 1870
-  - Note: Flushing, Queens NY
-
-- `loc-45f01750e6a9` — **G7 Willis Gurney** — landholding / property reference — 1821–1879 | c. 1796–98 — before 1870
-  - Note: Likely rented residential in Flushing and later Manhattan. || Unknown whether owned or rented Flushing premises
-  - Flags: merged-source-note, merged-date-span
+- G6 Brigadier General William Gurney — individual geography
+- G6 Brigadier General William Gurney — landholding / property reference
+- G7 Willis Gurney — individual geography
+- G7 Willis Gurney — landholding / property reference
 
 ### Review notes
 
-- contains merged inherited notes from source JSON; split or reverify in cleanup pass
-- contains merged date spans / likely cross-generation contamination in at least one mention
-- coordinates vary across mentions; representative coordinates are approximate
+- Merged inherited note text detected; verify and split in pass 2 if needed.
+- Merged date span detected; verify whether multiple generations were compressed together.
+- Multiple coordinate candidates existed; normalized record uses the strongest single anchor.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

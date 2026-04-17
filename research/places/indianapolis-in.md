@@ -4,17 +4,17 @@
 ## Place registry
 
 - `placeId`: `place-indianapolis-indiana-usa`
-- Canonical filename: `indianapolis-in.md`
-- Place class: locality
+- Short description: Family residence site
+- Place type: locality
 - Aliases: Indianapolis, IN
-- Mention count: **1**
-- Linked records: G1 Ken Gurney (Allen's Brother)
-- Representative coordinates: 39.7684, -86.1581 (town centroid; High)
+- Coordinate: 39.7684, -86.1581 (high)
+- Roles: residence
+- Detail: From 1996-c 2000 Indianapolis, IN
+- Current-site status: unknown — From 1996-c 2000 Indianapolis, IN
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-5407c47a0852` — **G1 Ken Gurney (Allen's Brother)** — residence — 1996–c.2000
-  - Note: From 1996-c 2000 Indianapolis, IN
+- G1 Ken Gurney (Allen's Brother) — residence
 
 ### Review notes
 

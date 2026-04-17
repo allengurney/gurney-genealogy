@@ -4,17 +4,17 @@
 ## Place registry
 
 - `placeId`: `place-port-washington-new-york-usa`
-- Canonical filename: `port-washington-ny.md`
-- Place class: locality
+- Short description: Family residence site
+- Place type: locality
 - Aliases: Port Washington, NY
-- Mention count: **1**
-- Linked records: G2 Lester Hayes Gurney
-- Representative coordinates: 40.8257, -73.6982 (town centroid; High)
+- Coordinate: 40.8257, -73.6982 (high)
+- Roles: residence
+- Detail: until 1970 Port Washington, NY
+- Current-site status: unknown — until 1970 Port Washington, NY
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-f0df54bc3e89` — **G2 Lester Hayes Gurney** — residence — 1945–1970
-  - Note: until 1970 Port Washington, NY
+- G2 Lester Hayes Gurney — residence
 
 ### Review notes
 

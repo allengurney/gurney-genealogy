@@ -4,35 +4,22 @@
 ## Place registry
 
 - `placeId`: `place-abington-massachusetts-usa`
-- Canonical filename: `abington-ma.md`
-- Place class: locality
+- Short description: Associated ancestral place
+- Place type: locality
 - Aliases: Abington, MA
-- Mention count: **6**
-- Linked records: G10 Benjamin Gurney, G11 Benjamin Gurney, G9 Benjamin Gurney
-- Representative coordinates: 42.1043, -70.9467 (town centroid; High)
+- Coordinate: 42.1043, -70.94130862327691 (high)
+- Roles: individual geography
+- Detail: Abington, MA
+- Current-site status: unknown — Abington, MA
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-242c41559eb0` — **G10 Benjamin Gurney** — individual geography — bpt. 30 May 1730 — d. 28 Sept. 1805
-  - Note: Abington, MA
-
-- `loc-dc05ea2f05a4` — **G10 Benjamin Gurney** — individual geography — c. 1676 — d. 1738/9
-  - Note: Abington, MA
-
-- `loc-93c18e279914` — **G11 Benjamin Gurney** — individual geography — bpt. 30 May 1730 — d. 28 Sept. 1805
-  - Note: Abington, MA
-
-- `loc-f175dc56e7f2` — **G11 Benjamin Gurney** — individual geography — c. 1676 — d. 1738/9
-  - Note: Abington, MA
-
-- `loc-f3e97701fc6c` — **G9 Benjamin Gurney** — individual geography — bpt. 30 May 1730 — d. 28 Sept. 1805
-  - Note: Abington, MA
-
-- `loc-d08751f5b3ee` — **G9 Benjamin Gurney** — individual geography — c. 1676 — d. 1738/9
-  - Note: Abington, MA
+- G10 Benjamin Gurney — individual geography
+- G11 Benjamin Gurney — individual geography
+- G9 Benjamin Gurney — individual geography
 
 ### Review notes
 
-- coordinates vary across mentions; representative coordinates are approximate
+- Multiple coordinate candidates existed; normalized record uses the strongest single anchor.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

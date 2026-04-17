@@ -43,20 +43,18 @@ Caister Castle (the fortified manor house built c. 1432–1446 by Sir John Fasto
 ## Place registry
 
 - `placeId`: `place-caister-on-sea-norfolk-england`
-- Canonical filename: `caister-on-sea.md`
-- Place class: locality
+- Short description: Ancestral landholding
+- Place type: locality
 - Aliases: Caister, Caister-on-Sea, Norfolk
-- Mention count: **2**
-- Linked records: G32 Gerard de Gournay
-- Representative coordinates: 52.6488, 1.7281 (town centroid; High)
+- Coordinate: 52.6488, 1.7281 (high)
+- Roles: individual geography, landholding / property reference
+- Detail: Caister, Norfolk (English holdings documented).
+- Current-site status: unknown — Caister, Norfolk (English holdings documented).
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-a3bc48855c48` — **G32 Gerard de Gournay** — individual geography — c. 1040 — d. before 1104, Palestine
-  - Note: Caister, Norfolk
-
-- `loc-29726ab37431` — **G32 Gerard de Gournay** — landholding / property reference — c. 1040 — d. before 1104, Palestine
-  - Note: Caister, Norfolk (English holdings documented).
+- G32 Gerard de Gournay — individual geography
+- G32 Gerard de Gournay — landholding / property reference
 
 ### Review notes
 

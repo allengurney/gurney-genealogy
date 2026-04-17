@@ -78,115 +78,40 @@ The parish church where Edmund (G23) directed his burial, and almost certainly t
 ## Place registry
 
 - `placeId`: `place-west-barsham-norfolk-england`
-- Canonical filename: `west-barsham.md`
-- Place class: locality
+- Short description: Historic landholding site
+- Place type: locality
 - Aliases: West Barsham, Norfolk
-- Sub-sites tracked here: West Barsham Hall
-- Mention count: **19**
-- Linked records: G14 Francis Gurney, G15 Henry Gurney, G16 Francis Gurney, G17 Anthony Gurney, G19 William Gurney IV, G20 Thomas Gournay II, G21 Thomas Gournay I, G23 Edmund Gurney, G23 Sir John Gurney, Knt. (d.1408) — Collateral, G~37 Eudes (Odon) de Gournay
-- Representative coordinates: 52.867826, 0.830094 (exact extant hall site used as manor anchor; mixed (High:11, Medium:5, Exact:3))
+- Coordinate: 52.867826, 0.830094 (exact)
+- Roles: individual geography, landholding / property reference
+- Site name: West Barsham Hall
+- Detail: West Barsham Hall, Norfolk
+- Current-site status: extant — West Barsham Hall, Norfolk
+- Links: [Photo / site reference](https://www.geograph.org.uk/photo/2122114) · [West Barsham Hall](https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg)
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-86402b409b4e` — **G14 Francis Gurney** — individual geography — 13 Sept. 1581 — d. 9 Jan. 1646/7
-  - Note: West Barsham, Norfolk
-
-- `loc-471f454190c9` — **G15 Henry Gurney** — individual geography — 21 Jan. 1548/9 — d. 1615/16
-  - Sub-site: West Barsham Hall
-  - Note: West Barsham Hall, Norfolk
-  - Links: [Photo / site reference](https://www.geograph.org.uk/photo/2122114) · [West Barsham Hall](https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg)
-
-- `loc-d863c444bdcd` — **G15 Henry Gurney** — landholding / property reference — 21 Jan. 1548/9 — d. 1615/16
-  - Sub-site: West Barsham Hall
-  - Note: West Barsham rectory (purchased from Thomas Fermor, Esq. for £100, 1595 — deed at Hunstanton Hall).
-  - Flags: subsite-name-normalized
-  - Links: [Photo / site reference](https://www.geograph.org.uk/photo/2122114) · [West Barsham Hall](https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg)
-
-- `loc-79c99633c837` — **G15 Henry Gurney** — landholding / property reference — 21 Jan. 1548/9 — d. 1615/16 | 20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris) | b. c. 1499 — d. 4 Jan. 1555/6 | b. c. 1430 – d. 18 Jan. 1507/8 | c. 1430 – d. before 27 July 1471 | d. 1408 | …
-  - Sub-site: West Barsham Hall
-  - Note: West Barsham manor, Norfolk (primary family seat; hall burned 1815, 16th-c. north wing survives Grade II listed). || Associated Norfolk advowsons and holdings as listed in Daniel Gurney's Record under the West Barsham Gurney family pedigree. || West Barsham manor, Norfolk (primary seat). || West Barsham manor, Norfolk. || Full manor holdings not individually documented in sources consulted; inherited the West Barsham and associated Norfolk portfolio from Thomas (Gen.20). || West Barsham manor, Norfolk (inherited from John, Gen.21). || West Barsham estate (Wauncy inheritance — brought into Gurney family through John's mother; this is how West Barsham entered the family). || West Barsham arrived in family through John (Gen.21) via his mother — Edmund's wife likely from the Wauncy family or Edmund himself had this connection. || This single land grant initiated a documented property-holding lineage lasting ~750 years (911 to 1661 when the West Barsham Gurneys became extinct in the direct male line in England).
-  - Flags: merged-source-note, merged-date-span, subsite-name-normalized
-  - Links: [Photo / site reference](https://www.geograph.org.uk/photo/2122114) · [West Barsham Hall](https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg)
-
-- `loc-83f1ad9e5046` — **G16 Francis Gurney** — individual geography — 20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris)
-  - Sub-site: West Barsham Hall
-  - Note: West Barsham Hall, Norfolk
-  - Links: [Photo / site reference](https://www.geograph.org.uk/photo/2122114) · [West Barsham Hall](https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg)
-
-- `loc-b74a91ec7735` — **G16 Francis Gurney** — landholding / property reference — 20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris)
-  - Sub-site: West Barsham Hall
-  - Note: West Barsham Hall, Norfolk — primary residence (inherited from Anthony, Gen.17).
-  - Flags: subsite-name-normalized
-  - Links: [Photo / site reference](https://www.geograph.org.uk/photo/2122114) · [West Barsham Hall](https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg)
-
-- `loc-1fcb4794de18` — **G16 Francis Gurney** — landholding / property reference — 21 Jan. 1548/9 — d. 1615/16 | 20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris) | b. c. 1499 — d. 4 Jan. 1555/6 | b. c. 1430 – d. 18 Jan. 1507/8 | c. 1430 – d. before 27 July 1471 | d. 1408 | …
-  - Sub-site: West Barsham Hall
-  - Note: West Barsham manor, Norfolk (primary family seat; hall burned 1815, 16th-c. north wing survives Grade II listed). || Associated Norfolk advowsons and holdings as listed in Daniel Gurney's Record under the West Barsham Gurney family pedigree. || West Barsham manor, Norfolk (primary seat). || West Barsham manor, Norfolk. || Full manor holdings not individually documented in sources consulted; inherited the West Barsham and associated Norfolk portfolio from Thomas (Gen.20). || West Barsham manor, Norfolk (inherited from John, Gen.21). || West Barsham estate (Wauncy inheritance — brought into Gurney family through John's mother; this is how West Barsham entered the family). || West Barsham arrived in family through John (Gen.21) via his mother — Edmund's wife likely from the Wauncy family or Edmund himself had this connection. || This single land grant initiated a documented property-holding lineage lasting ~750 years (911 to 1661 when the West Barsham Gurneys became extinct in the direct male line in England).
-  - Flags: merged-source-note, merged-date-span, subsite-name-normalized
-  - Links: [Photo / site reference](https://www.geograph.org.uk/photo/2122114) · [West Barsham Hall](https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg)
-
-- `loc-ae21acb4a4ce` — **G17 Anthony Gurney** — individual geography — b. c. 1499 — d. 4 Jan. 1555/6
-  - Sub-site: West Barsham Hall
-  - Note: West Barsham Hall, Norfolk
-  - Links: [Photo / site reference](https://www.geograph.org.uk/photo/2122114) · [West Barsham Hall](https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg)
-
-- `loc-de5cd0ca64d5` — **G17 Anthony Gurney** — landholding / property reference — 21 Jan. 1548/9 — d. 1615/16 | 20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris) | b. c. 1499 — d. 4 Jan. 1555/6 | b. c. 1430 – d. 18 Jan. 1507/8 | c. 1430 – d. before 27 July 1471 | d. 1408 | …
-  - Sub-site: West Barsham Hall
-  - Note: West Barsham manor, Norfolk (primary family seat; hall burned 1815, 16th-c. north wing survives Grade II listed). || Associated Norfolk advowsons and holdings as listed in Daniel Gurney's Record under the West Barsham Gurney family pedigree. || West Barsham manor, Norfolk (primary seat). || West Barsham manor, Norfolk. || Full manor holdings not individually documented in sources consulted; inherited the West Barsham and associated Norfolk portfolio from Thomas (Gen.20). || West Barsham manor, Norfolk (inherited from John, Gen.21). || West Barsham estate (Wauncy inheritance — brought into Gurney family through John's mother; this is how West Barsham entered the family). || West Barsham arrived in family through John (Gen.21) via his mother — Edmund's wife likely from the Wauncy family or Edmund himself had this connection. || This single land grant initiated a documented property-holding lineage lasting ~750 years (911 to 1661 when the West Barsham Gurneys became extinct in the direct male line in England).
-  - Flags: merged-source-note, merged-date-span, subsite-name-normalized
-  - Links: [Photo / site reference](https://www.geograph.org.uk/photo/2122114) · [West Barsham Hall](https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg)
-
-- `loc-b13b72bb30ed` — **G19 William Gurney IV** — individual geography — b. c. 1430 – d. 18 Jan. 1507/8
-  - Note: West Barsham
-
-- `loc-c37021d9cf4b` — **G19 William Gurney IV** — landholding / property reference — 21 Jan. 1548/9 — d. 1615/16 | 20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris) | b. c. 1499 — d. 4 Jan. 1555/6 | b. c. 1430 – d. 18 Jan. 1507/8 | c. 1430 – d. before 27 July 1471 | d. 1408 | …
-  - Sub-site: West Barsham Hall
-  - Note: West Barsham manor, Norfolk (primary family seat; hall burned 1815, 16th-c. north wing survives Grade II listed). || Associated Norfolk advowsons and holdings as listed in Daniel Gurney's Record under the West Barsham Gurney family pedigree. || West Barsham manor, Norfolk (primary seat). || West Barsham manor, Norfolk. || Full manor holdings not individually documented in sources consulted; inherited the West Barsham and associated Norfolk portfolio from Thomas (Gen.20). || West Barsham manor, Norfolk (inherited from John, Gen.21). || West Barsham estate (Wauncy inheritance — brought into Gurney family through John's mother; this is how West Barsham entered the family). || West Barsham arrived in family through John (Gen.21) via his mother — Edmund's wife likely from the Wauncy family or Edmund himself had this connection. || This single land grant initiated a documented property-holding lineage lasting ~750 years (911 to 1661 when the West Barsham Gurneys became extinct in the direct male line in England).
-  - Flags: merged-source-note, merged-date-span, subsite-name-normalized
-  - Links: [Photo / site reference](https://www.geograph.org.uk/photo/2122114) · [West Barsham Hall](https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg)
-
-- `loc-42e974f8b3a3` — **G20 Thomas Gournay II** — individual geography — c. 1430 – d. before 27 July 1471
-  - Note: West Barsham, Norfolk
-
-- `loc-0fe89bc86b99` — **G20 Thomas Gournay II** — landholding / property reference — 21 Jan. 1548/9 — d. 1615/16 | 20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris) | b. c. 1499 — d. 4 Jan. 1555/6 | b. c. 1430 – d. 18 Jan. 1507/8 | c. 1430 – d. before 27 July 1471 | d. 1408 | …
-  - Sub-site: West Barsham Hall
-  - Note: West Barsham manor, Norfolk (primary family seat; hall burned 1815, 16th-c. north wing survives Grade II listed). || Associated Norfolk advowsons and holdings as listed in Daniel Gurney's Record under the West Barsham Gurney family pedigree. || West Barsham manor, Norfolk (primary seat). || West Barsham manor, Norfolk. || Full manor holdings not individually documented in sources consulted; inherited the West Barsham and associated Norfolk portfolio from Thomas (Gen.20). || West Barsham manor, Norfolk (inherited from John, Gen.21). || West Barsham estate (Wauncy inheritance — brought into Gurney family through John's mother; this is how West Barsham entered the family). || West Barsham arrived in family through John (Gen.21) via his mother — Edmund's wife likely from the Wauncy family or Edmund himself had this connection. || This single land grant initiated a documented property-holding lineage lasting ~750 years (911 to 1661 when the West Barsham Gurneys became extinct in the direct male line in England).
-  - Flags: merged-source-note, merged-date-span, subsite-name-normalized
-  - Links: [Photo / site reference](https://www.geograph.org.uk/photo/2122114) · [West Barsham Hall](https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg)
-
-- `loc-b06470608458` — **G21 Thomas Gournay I** — individual geography — fl. c. 1408–1450
-  - Note: West Barsham, Norfolk
-
-- `loc-f952e2be8452` — **G21 Thomas Gournay I** — landholding / property reference — fl. c. 1408–1450
-  - Sub-site: West Barsham Hall
-  - Note: West Barsham manor, Norfolk (inherited through collateral succession from uncle Sir John Gurney, d.1408).
-  - Flags: subsite-name-normalized
-
-- `loc-8268cb532492` — **G23 Edmund Gurney** — landholding / property reference — 21 Jan. 1548/9 — d. 1615/16 | 20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris) | b. c. 1499 — d. 4 Jan. 1555/6 | b. c. 1430 – d. 18 Jan. 1507/8 | c. 1430 – d. before 27 July 1471 | d. 1408 | …
-  - Sub-site: West Barsham Hall
-  - Note: West Barsham manor, Norfolk (primary family seat; hall burned 1815, 16th-c. north wing survives Grade II listed). || Associated Norfolk advowsons and holdings as listed in Daniel Gurney's Record under the West Barsham Gurney family pedigree. || West Barsham manor, Norfolk (primary seat). || West Barsham manor, Norfolk. || Full manor holdings not individually documented in sources consulted; inherited the West Barsham and associated Norfolk portfolio from Thomas (Gen.20). || West Barsham manor, Norfolk (inherited from John, Gen.21). || West Barsham estate (Wauncy inheritance — brought into Gurney family through John's mother; this is how West Barsham entered the family). || West Barsham arrived in family through John (Gen.21) via his mother — Edmund's wife likely from the Wauncy family or Edmund himself had this connection. || This single land grant initiated a documented property-holding lineage lasting ~750 years (911 to 1661 when the West Barsham Gurneys became extinct in the direct male line in England).
-  - Flags: merged-source-note, merged-date-span, subsite-name-normalized
-  - Links: [Photo / site reference](https://www.geograph.org.uk/photo/2122114) · [West Barsham Hall](https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg)
-
-- `loc-9cc4392538ee` — **G23 Sir John Gurney, Knt. (d.1408) — Collateral** — individual geography — d. 1408
-  - Note: West Barsham
-
-- `loc-408f6774352f` — **G23 Sir John Gurney, Knt. (d.1408) — Collateral** — landholding / property reference — 21 Jan. 1548/9 — d. 1615/16 | 20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris) | b. c. 1499 — d. 4 Jan. 1555/6 | b. c. 1430 – d. 18 Jan. 1507/8 | c. 1430 – d. before 27 July 1471 | d. 1408 | …
-  - Sub-site: West Barsham Hall
-  - Note: West Barsham manor, Norfolk (primary family seat; hall burned 1815, 16th-c. north wing survives Grade II listed). || Associated Norfolk advowsons and holdings as listed in Daniel Gurney's Record under the West Barsham Gurney family pedigree. || West Barsham manor, Norfolk (primary seat). || West Barsham manor, Norfolk. || Full manor holdings not individually documented in sources consulted; inherited the West Barsham and associated Norfolk portfolio from Thomas (Gen.20). || West Barsham manor, Norfolk (inherited from John, Gen.21). || West Barsham estate (Wauncy inheritance — brought into Gurney family through John's mother; this is how West Barsham entered the family). || West Barsham arrived in family through John (Gen.21) via his mother — Edmund's wife likely from the Wauncy family or Edmund himself had this connection. || This single land grant initiated a documented property-holding lineage lasting ~750 years (911 to 1661 when the West Barsham Gurneys became extinct in the direct male line in England).
-  - Flags: merged-source-note, merged-date-span, subsite-name-normalized
-  - Links: [Photo / site reference](https://www.geograph.org.uk/photo/2122114) · [West Barsham Hall](https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg)
-
-- `loc-4ba2e81330dc` — **G~37 Eudes (Odon) de Gournay** — landholding / property reference — 21 Jan. 1548/9 — d. 1615/16 | 20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris) | b. c. 1499 — d. 4 Jan. 1555/6 | b. c. 1430 – d. 18 Jan. 1507/8 | c. 1430 – d. before 27 July 1471 | d. 1408 | …
-  - Sub-site: West Barsham Hall
-  - Note: West Barsham manor, Norfolk (primary family seat; hall burned 1815, 16th-c. north wing survives Grade II listed). || Associated Norfolk advowsons and holdings as listed in Daniel Gurney's Record under the West Barsham Gurney family pedigree. || West Barsham manor, Norfolk (primary seat). || West Barsham manor, Norfolk. || Full manor holdings not individually documented in sources consulted; inherited the West Barsham and associated Norfolk portfolio from Thomas (Gen.20). || West Barsham manor, Norfolk (inherited from John, Gen.21). || West Barsham estate (Wauncy inheritance — brought into Gurney family through John's mother; this is how West Barsham entered the family). || West Barsham arrived in family through John (Gen.21) via his mother — Edmund's wife likely from the Wauncy family or Edmund himself had this connection. || This single land grant initiated a documented property-holding lineage lasting ~750 years (911 to 1661 when the West Barsham Gurneys became extinct in the direct male line in England).
-  - Flags: merged-source-note, merged-date-span, subsite-name-normalized
-  - Links: [Photo / site reference](https://www.geograph.org.uk/photo/2122114) · [West Barsham Hall](https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg)
+- G14 Francis Gurney — individual geography
+- G15 Henry Gurney — individual geography
+- G15 Henry Gurney — landholding / property reference
+- G16 Francis Gurney — individual geography
+- G16 Francis Gurney — landholding / property reference
+- G17 Anthony Gurney — individual geography
+- G17 Anthony Gurney — landholding / property reference
+- G19 William Gurney IV — individual geography
+- G19 William Gurney IV — landholding / property reference
+- G20 Thomas Gournay II — individual geography
+- G20 Thomas Gournay II — landholding / property reference
+- G21 Thomas Gournay I — individual geography
+- G21 Thomas Gournay I — landholding / property reference
+- G23 Edmund Gurney — landholding / property reference
+- G23 Sir John Gurney, Knt. (d.1408) — Collateral — individual geography
+- G23 Sir John Gurney, Knt. (d.1408) — Collateral — landholding / property reference
+- G~37 Eudes (Odon) de Gournay — landholding / property reference
 
 ### Review notes
 
-- contains merged inherited notes from source JSON; split or reverify in cleanup pass
-- contains merged date spans / likely cross-generation contamination in at least one mention
-- coordinates vary across mentions; representative coordinates are approximate
+- Merged inherited note text detected; verify and split in pass 2 if needed.
+- Merged date span detected; verify whether multiple generations were compressed together.
+- Multiple coordinate candidates existed; normalized record uses the strongest single anchor.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

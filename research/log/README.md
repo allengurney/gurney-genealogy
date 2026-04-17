@@ -14,15 +14,7 @@ Multiple files per day are allowed and preferred over one large running file.
 
 Each log file is a short operational pointer:
 - what changed
-- which files were added or updated
+- which files were added, updated, renamed, or deleted
 - what still needs review
 
 Substantive research belongs in topical files (`people/`, `places/`, `topics/`), not in the log.
-
-## Format
-
-Keep entries short. A good atomic log records:
-- scope
-- files touched
-- design decisions
-- next cleanup steps

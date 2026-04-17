@@ -9,10 +9,11 @@ Canonical place-memory files.
 - `placeId`
 - filename
 - aliases
-- search terms
-- reverse links to location mentions
+- coordinate
+- place type
+- ancestor/place-role links
 
-Do not infer filenames ad hoc when a place already exists in `data/places.json`.
+`data/places_detail.json` carries the supplemental map/detail layer.
 
 ## File shape
 
@@ -21,11 +22,12 @@ Narrative place files may contain hand-written research plus one generated block
 - `<!-- GENERATED:PLACE-REGISTRY:START -->`
 - `<!-- GENERATED:PLACE-REGISTRY:END -->`
 
-Older location-registry blocks are replaced during normalization.
+Older extraction blocks are replaced during normalization.
 
 ## Current normalization discipline
 
 - Preserve existing narrative research outside the generated block.
-- Replace generic boilerplate introduced by the extraction pass with a concise normalized block.
-- Keep sub-sites (cemeteries, churches, halls, ponds, addresses) within the parent place unless the research clearly treats them as standalone places.
-- Record unresolved naming / contamination / citation issues as review notes instead of over-solving them in the first normalization pass.
+- Keep generated content concise.
+- Keep sub-sites and street-address detail in `places_detail.json` unless the research clearly treats them as standalone places.
+- Record unresolved cleanup items as review notes for pass 2.
+- For U.S. place filenames, use a trailing two-letter state code even for pre-statehood places.

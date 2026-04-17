@@ -4,25 +4,22 @@
 ## Place registry
 
 - `placeId`: `place-braintree-massachusetts-usa`
-- Canonical filename: `braintree-ma.md`
-- Place class: locality
+- Short description: Ancestral landholding
+- Place type: locality
 - Aliases: Braintree, MA
-- Mention count: **2**
-- Linked records: G13 John Gurney-1
-- Representative coordinates: 42.2079, -70.9983 (town centroid; High)
+- Coordinate: 42.2079, -70.99559979026579 (high)
+- Roles: individual geography, landholding / property reference
+- Detail: 48 acres at Braintree 'in the possession of John Gurney' — Tyng inventory 25 May 1653 (NEHGR 30:432). Tenant, not owner. | Sold land in Braintree 12 Feb. 1661 (deed witnessed by son John Jr.).
+- Current-site status: unknown — 48 acres at Braintree 'in the possession of John Gurney' — Tyng inventory 25 May 1653 (NEHGR 30:432). Tenant, not owner. | Sold land in Braintree 12 Feb.…
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-ded267f1298a` — **G13 John Gurney-1** — individual geography — c. 1603 England — d. 1662/3
-  - Note: Braintree, MA
-
-- `loc-f626bbd39326` — **G13 John Gurney-1** — landholding / property reference — c. 1603 England — d. 1662/3
-  - Note: 48 acres at Braintree 'in the possession of John Gurney' — Tyng inventory 25 May 1653 (NEHGR 30:432). Tenant, not owner. || Sold land in Braintree 12 Feb. 1661 (deed witnessed by son John Jr.).
-  - Flags: merged-source-note
+- G13 John Gurney-1 — individual geography
+- G13 John Gurney-1 — landholding / property reference
 
 ### Review notes
 
-- contains merged inherited notes from source JSON; split or reverify in cleanup pass
-- coordinates vary across mentions; representative coordinates are approximate
+- Merged inherited note text detected; verify and split in pass 2 if needed.
+- Multiple coordinate candidates existed; normalized record uses the strongest single anchor.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

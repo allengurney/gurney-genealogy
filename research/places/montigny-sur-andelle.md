@@ -46,17 +46,17 @@ See also DG-I Appendix XLVI on parage tenure.
 ## Place registry
 
 - `placeId`: `place-montigny-sur-andelle-normandy-france`
-- Canonical filename: `montigny-sur-andelle.md`
-- Place class: locality
+- Short description: Ancestral landholding
+- Place type: locality
 - Aliases: Montigny-sur-Andelle, Normandy
-- Mention count: **1**
-- Linked records: G30 William de Gournay I
-- Representative coordinates: 49.327, 1.352 (town centroid; Medium)
+- Coordinate: 49.327, 1.352 (medium)
+- Roles: landholding / property reference
+- Detail: Montigny-sur-Andelle, Normandy — held in parage, proof of descent from Barons of Gournay.
+- Current-site status: unknown — Montigny-sur-Andelle, Normandy — held in parage, proof of descent from Barons of Gournay.
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-c9eca26deb85` — **G30 William de Gournay I** — landholding / property reference — fl. c. 1150–1180
-  - Note: Montigny-sur-Andelle, Normandy — held in parage, proof of descent from Barons of Gournay.
+- G30 William de Gournay I — landholding / property reference
 
 ### Review notes
 

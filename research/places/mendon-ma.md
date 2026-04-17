@@ -4,17 +4,17 @@
 ## Place registry
 
 - `placeId`: `place-mendon-massachusetts-usa`
-- Canonical filename: `mendon-ma.md`
-- Place class: locality
+- Short description: Ancestral landholding
+- Place type: locality
 - Aliases: Mendon, MA
-- Mention count: **1**
-- Linked records: G13 John Gurney-1
-- Representative coordinates: 42.1056, -71.5523 (town centroid; High)
+- Coordinate: 42.1056, -71.5523 (high)
+- Roles: landholding / property reference
+- Detail: Grissell applied for John's Mendon lot after his death (NEHGR 22:44).
+- Current-site status: unknown — Grissell applied for John's Mendon lot after his death (NEHGR 22:44).
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-ee118c7f9730` — **G13 John Gurney-1** — landholding / property reference — c. 1603 England — d. 1662/3
-  - Note: Grissell applied for John's Mendon lot after his death (NEHGR 22:44).
+- G13 John Gurney-1 — landholding / property reference
 
 ### Review notes
 

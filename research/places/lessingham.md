@@ -33,18 +33,17 @@ The foundation placed a Bec satellite on Gournay-held Norfolk coast, reinforcing
 ## Place registry
 
 - `placeId`: `place-lessingham-norfolk-england`
-- Canonical filename: `lessingham.md`
-- Place class: locality
+- Short description: Ancestral landholding
+- Place type: locality
 - Aliases: Lessingham, Norfolk
-- Mention count: **1**
-- Linked records: G32 Gerard de Gournay
-- Representative coordinates: 52.795, 1.575 (village centroid; Low)
+- Coordinate: 52.795, 1.575 (low)
+- Roles: landholding / property reference
+- Detail: Lessingham Priory, Norfolk — founded, attached to Abbey of Bec.
+- Current-site status: unknown — Lessingham Priory, Norfolk — founded, attached to Abbey of Bec.
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-1c8fdd2fb00e` — **G32 Gerard de Gournay** — landholding / property reference — c. 1040 — d. before 1104, Palestine
-  - Note: Lessingham Priory, Norfolk — founded, attached to Abbey of Bec.
-  - Flags: low-geocode-confidence
+- G32 Gerard de Gournay — landholding / property reference
 
 ### Review notes
 

@@ -4,35 +4,25 @@
 ## Place registry
 
 - `placeId`: `place-normandy-france`
-- Canonical filename: `normandy.md`
-- Place class: region
+- Short description: Ancestral landholding
+- Place type: region
 - Aliases: Normandy
-- Sub-sites tracked here: Bellosanne Abbey, Clairruissel Priory
-- Mention count: **4**
-- Linked records: G32 Hugh de Gournay IV (Senior Baron Line), G32 Hugh de Gournay V (Senior Baron Line)
-- Representative coordinates: 49.1829, 0.37612 (regional centroid; mixed (Low:3, Medium:1))
+- Coordinate: 49.654653, 1.611621 (medium)
+- Roles: individual geography, landholding / property reference
+- Site name: Clairruissel Priory
+- Detail: Clairruissel Priory, Normandy — founded with second wife Melisende de Coucy.
+- Current-site status: site only — Clairruissel Priory, Normandy — founded with second wife Melisende de Coucy.
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-53df2a004005` — **G32 Hugh de Gournay IV (Senior Baron Line)** — individual geography — c. 1098 — d. 1180
-  - Note: Normandy
-  - Flags: low-geocode-confidence
-
-- `loc-02b726b4300f` — **G32 Hugh de Gournay IV (Senior Baron Line)** — landholding / property reference — c. 1098 — d. 1180
-  - Sub-site: Clairruissel Priory
-  - Note: Clairruissel Priory, Normandy — founded with second wife Melisende de Coucy.
-
-- `loc-e0a6c1dcaf65` — **G32 Hugh de Gournay V (Senior Baron Line)** — individual geography — c. 1148 — d. 25 Oct. 1214, Rouen
-  - Note: Normandy
-  - Flags: low-geocode-confidence
-
-- `loc-b1314df75508` — **G32 Hugh de Gournay V (Senior Baron Line)** — landholding / property reference — c. 1148 — d. 25 Oct. 1214, Rouen
-  - Sub-site: Bellosanne Abbey
-  - Note: Bellosanne Abbey, Normandy — founded 1198.
-  - Flags: low-geocode-confidence
+- G32 Hugh de Gournay IV (Senior Baron Line) — individual geography
+- G32 Hugh de Gournay IV (Senior Baron Line) — landholding / property reference
+- G32 Hugh de Gournay V (Senior Baron Line) — individual geography
+- G32 Hugh de Gournay V (Senior Baron Line) — landholding / property reference
 
 ### Review notes
 
-- coordinates vary across mentions; representative coordinates are approximate
+- Multiple coordinate candidates existed; normalized record uses the strongest single anchor.
+- Multiple sub-site labels were merged under one canonical place.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

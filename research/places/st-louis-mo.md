@@ -4,17 +4,17 @@
 ## Place registry
 
 - `placeId`: `place-st-louis-missouri-usa`
-- Canonical filename: `st-louis-mo.md`
-- Place class: locality
+- Short description: Family residence site
+- Place type: locality
 - Aliases: St. Louis, MO
-- Mention count: **1**
-- Linked records: G1 Allen Lawrence Gurney
-- Representative coordinates: 38.627, -90.1994 (town centroid; High)
+- Coordinate: 38.627, -90.1994 (high)
+- Roles: residence
+- Detail: from 1995-2006 St. Louis, MO
+- Current-site status: unknown — from 1995-2006 St. Louis, MO
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-8beaa2c87049` — **G1 Allen Lawrence Gurney** — residence — 1995–2006
-  - Note: from 1995-2006 St. Louis, MO
+- G1 Allen Lawrence Gurney — residence
 
 ### Review notes
 

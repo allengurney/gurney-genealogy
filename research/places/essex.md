@@ -4,18 +4,17 @@
 ## Place registry
 
 - `placeId`: `place-essex-england`
-- Canonical filename: `essex.md`
-- Place class: region
+- Short description: Associated ancestral place
+- Place type: region
 - Aliases: Essex
-- Mention count: **1**
-- Linked records: G33 Hugh de Gournay III
-- Representative coordinates: 51.776, 0.6417 (county centroid; Low)
+- Coordinate: 51.776, 0.6417 (low)
+- Roles: individual geography
+- Detail: Essex
+- Current-site status: unknown — Essex
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-335080a49c04` — **G33 Hugh de Gournay III** — individual geography — c. 1020 — d. c. 1093
-  - Note: Essex
-  - Flags: low-geocode-confidence
+- G33 Hugh de Gournay III — individual geography
 
 ### Review notes
 

@@ -1,23 +1,27 @@
 # 2026-04-17 — place normalization v1
 
-Normalized the geography layer after the v23 → v24 extraction merge.
+Refactored the geography model into a lighter two-file place spine.
 
 Updated:
-- `data/places.json` — NEW canonical place registry
-- `data/locations.json` — raw mentions annotated with `placeId`, normalized sub-site names, and quality flags
-- `data/ancestors v24.json` — ancestor/collateral records now also carry `placeRefs`
-- `data/README.md` — two-layer raw-mention / canonical-place model documented
-- `research/places/README.md` — `places.json` named as the filename authority
-- `research/log/README.md` — switched to atomic log guidance
-- `research/places/*.md` — generated blocks replaced with concise normalized place registry blocks
+- `data/places.json` — lightweight canonical place spine
+- `data/places_detail.json` — supplemental map/detail layer
+- `data/ancestors v24.json` — normalized ancestor records with `placeRefs`
+- `data/README.md` — revised lightweight place-spine model documented
+- `research/places/README.md` — place/detail registry contract documented
+- `research/log/README.md` — atomic log guidance retained
+- `research/places/*.md` — generated blocks simplified to canonical place summaries
+
+Removed / replaced:
+- `data/locations.json` — retired in favor of a per-place detail layer
+- mention-ledger style generated content in place files
 
 Design decisions:
-- kept raw mentions intact for fidelity
-- added a canonical place layer rather than overwriting the mention layer
-- retained existing filenames where practical for continuity; authoritative mapping now lives in `data/places.json`
-- flagged merged / contaminated inherited notes for later cleanup instead of forcing speculative repairs in this pass
+- flattened multiple occurrences of a place into one canonical record
+- chose one best coordinate per place rather than synthesizing representative coordinates
+- moved extant-status and richer map-popup content to `places_detail.json`
+- standardized U.S. place filenames to include a trailing two-letter state code
 
 Next:
-- second-pass review of place files flagged for merged date spans, merged notes, or naming cleanup
-- optional parent/child place hierarchy if city/address clustering becomes useful later
+- pass 2 cleanup of flagged place files
+- review any renamed U.S. files for link/citation updates outside the generated block
 

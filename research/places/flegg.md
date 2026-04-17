@@ -4,22 +4,18 @@
 ## Place registry
 
 - `placeId`: `place-flegg-norfolk-england`
-- Canonical filename: `flegg.md`
-- Place class: locality
+- Short description: Ancestral landholding
+- Place type: locality
 - Aliases: Flegg, Norfolk
-- Mention count: **2**
-- Linked records: G32 Hugh de Gournay V (Senior Baron Line)
-- Representative coordinates: 52.668, 1.61 (regional centroid; Low)
+- Coordinate: 52.668, 1.61 (low)
+- Roles: individual geography, landholding / property reference
+- Detail: Flegg, Norfolk (English manors).
+- Current-site status: unknown — Flegg, Norfolk (English manors).
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-d2b36bd4b0c2` — **G32 Hugh de Gournay V (Senior Baron Line)** — individual geography — c. 1148 — d. 25 Oct. 1214, Rouen
-  - Note: Flegg, Norfolk
-  - Flags: low-geocode-confidence
-
-- `loc-9da710139bb5` — **G32 Hugh de Gournay V (Senior Baron Line)** — landholding / property reference — c. 1148 — d. 25 Oct. 1214, Rouen
-  - Note: Flegg, Norfolk (English manors).
-  - Flags: low-geocode-confidence
+- G32 Hugh de Gournay V (Senior Baron Line) — individual geography
+- G32 Hugh de Gournay V (Senior Baron Line) — landholding / property reference
 
 ### Review notes
 

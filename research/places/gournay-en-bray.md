@@ -72,88 +72,37 @@ The local-history site *Les remparts de Gournay-en-Bray* (remparts-de-normandie.
 ## Place registry
 
 - `placeId`: `place-gournay-en-bray-normandy-france`
-- Canonical filename: `gournay-en-bray.md`
-- Place class: locality
+- Short description: Ancestral landholding
+- Place type: locality
 - Aliases: Gournay, Gournay-en-Bray, Normandy
-- Sub-sites tracked here: Collégiale Saint-Hildevert
-- Mention count: **14**
-- Linked records: G32 Gerard de Gournay, G32 Hugh de Gournay IV (Senior Baron Line), G32 Hugh de Gournay V (Senior Baron Line), G33 Hugh de Gournay III, G34 Hugh de Gournay II, G35 Renaud de Gournay, G36 Hugh de Gournay I, G~37 Eudes (Odon) de Gournay
-- Representative coordinates: 49.483148, 1.727303 (exact church site used as historic town anchor; mixed (High:12, Low:2))
+- Coordinate: 49.483148, 1.727303 (exact)
+- Roles: individual geography, landholding / property reference
+- Site name: Collégiale Saint-Hildevert
+- Detail: Norman territory (the great fief/honour of Bray, including Gournay-en-Bray fortress) — lost when Philip Augustus expelled the English from Normandy in 1204. | Gournay-en-Bray seigneury, Normandy — the ancestral fortress town. | Gournay-en-Bray seigneury and surrounding Pays de Bray, Normandy. | Gournay-en-Bray fortress town and…
+- Current-site status: extant — Norman territory (the great fief/honour of Bray, including Gournay-en-Bray fortress) — lost when Philip Augustus expelled the English from Normandy in 1204. | Gournay-en-Bray seigneury, Normandy — the…
+- Links: [Heritage page](https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/) · [Collégiale Saint-Hildevert, Gournay-en-Bray](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg)
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-44c2a8c734e7` — **G32 Gerard de Gournay** — individual geography — c. 1040 — d. before 1104, Palestine
-  - Note: Gournay-en-Bray, Normandy
-
-- `loc-a7ded23222e8` — **G32 Gerard de Gournay** — landholding / property reference — c. 1148 — d. 25 Oct. 1214, Rouen | c. 1098 — d. 1180 | c. 1040 — d. before 1104, Palestine | c. 1020 — d. c. 1093 | c. 985 — d. c. 1074 | c. 970 — dates uncertain | …
-  - Sub-site: Collégiale Saint-Hildevert
-  - Note: Norman territory (the great fief/honour of Bray, including Gournay-en-Bray fortress) — lost when Philip Augustus expelled the English from Normandy in 1204. || Gournay-en-Bray seigneury, Normandy — the ancestral fortress town. || Gournay-en-Bray seigneury and surrounding Pays de Bray, Normandy. || Gournay-en-Bray fortress town and the Norman honour of Bray — the principal and most valuable holding, a near-autonomous lordship on the French-Norman frontier. || Gournay-en-Bray seigneury — the walled fortress town and surrounding Pays de Bray territory. || Gournay-en-Bray seigneury, Pays de Bray, Normandy. || Gournay-en-Bray seigneury — inherited from Eudes. || Gournay-en-Bray and the Pays de Bray, Normandy — granted by Rollo c.911-912 as the founding land grant of the entire Gurney family story. || The town of Gournay-en-Bray itself survives today in Seine-Maritime, Normandy (~50 miles east of Rouen). Weekly market continues. 12th-century Collegiate Church of Saint-Hildevert (rebuilt after 1174 fire) still stands.
-  - Flags: merged-source-note, merged-date-span, subsite-name-normalized
-  - Links: [Heritage page](https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/) · [Collégiale Saint-Hildevert, Gournay-en-Bray](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg)
-
-- `loc-3ee2021b8537` — **G32 Hugh de Gournay IV (Senior Baron Line)** — landholding / property reference — c. 1148 — d. 25 Oct. 1214, Rouen | c. 1098 — d. 1180 | c. 1040 — d. before 1104, Palestine | c. 1020 — d. c. 1093 | c. 985 — d. c. 1074 | c. 970 — dates uncertain | …
-  - Sub-site: Collégiale Saint-Hildevert
-  - Note: Norman territory (the great fief/honour of Bray, including Gournay-en-Bray fortress) — lost when Philip Augustus expelled the English from Normandy in 1204. || Gournay-en-Bray seigneury, Normandy — the ancestral fortress town. || Gournay-en-Bray seigneury and surrounding Pays de Bray, Normandy. || Gournay-en-Bray fortress town and the Norman honour of Bray — the principal and most valuable holding, a near-autonomous lordship on the French-Norman frontier. || Gournay-en-Bray seigneury — the walled fortress town and surrounding Pays de Bray territory. || Gournay-en-Bray seigneury, Pays de Bray, Normandy. || Gournay-en-Bray seigneury — inherited from Eudes. || Gournay-en-Bray and the Pays de Bray, Normandy — granted by Rollo c.911-912 as the founding land grant of the entire Gurney family story. || The town of Gournay-en-Bray itself survives today in Seine-Maritime, Normandy (~50 miles east of Rouen). Weekly market continues. 12th-century Collegiate Church of Saint-Hildevert (rebuilt after 1174 fire) still stands.
-  - Flags: merged-source-note, merged-date-span, subsite-name-normalized
-  - Links: [Heritage page](https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/) · [Collégiale Saint-Hildevert, Gournay-en-Bray](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg)
-
-- `loc-093890b8ccb5` — **G32 Hugh de Gournay V (Senior Baron Line)** — landholding / property reference — c. 1148 — d. 25 Oct. 1214, Rouen | c. 1098 — d. 1180 | c. 1040 — d. before 1104, Palestine | c. 1020 — d. c. 1093 | c. 985 — d. c. 1074 | c. 970 — dates uncertain | …
-  - Sub-site: Collégiale Saint-Hildevert
-  - Note: Norman territory (the great fief/honour of Bray, including Gournay-en-Bray fortress) — lost when Philip Augustus expelled the English from Normandy in 1204. || Gournay-en-Bray seigneury, Normandy — the ancestral fortress town. || Gournay-en-Bray seigneury and surrounding Pays de Bray, Normandy. || Gournay-en-Bray fortress town and the Norman honour of Bray — the principal and most valuable holding, a near-autonomous lordship on the French-Norman frontier. || Gournay-en-Bray seigneury — the walled fortress town and surrounding Pays de Bray territory. || Gournay-en-Bray seigneury, Pays de Bray, Normandy. || Gournay-en-Bray seigneury — inherited from Eudes. || Gournay-en-Bray and the Pays de Bray, Normandy — granted by Rollo c.911-912 as the founding land grant of the entire Gurney family story. || The town of Gournay-en-Bray itself survives today in Seine-Maritime, Normandy (~50 miles east of Rouen). Weekly market continues. 12th-century Collegiate Church of Saint-Hildevert (rebuilt after 1174 fire) still stands.
-  - Flags: merged-source-note, merged-date-span, subsite-name-normalized
-  - Links: [Heritage page](https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/) · [Collégiale Saint-Hildevert, Gournay-en-Bray](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg)
-
-- `loc-6647ddf92595` — **G33 Hugh de Gournay III** — individual geography — c. 1020 — d. c. 1093
-  - Note: Gournay-en-Bray, Normandy
-
-- `loc-73bf3c215970` — **G33 Hugh de Gournay III** — landholding / property reference — c. 1148 — d. 25 Oct. 1214, Rouen | c. 1098 — d. 1180 | c. 1040 — d. before 1104, Palestine | c. 1020 — d. c. 1093 | c. 985 — d. c. 1074 | c. 970 — dates uncertain | …
-  - Sub-site: Collégiale Saint-Hildevert
-  - Note: Norman territory (the great fief/honour of Bray, including Gournay-en-Bray fortress) — lost when Philip Augustus expelled the English from Normandy in 1204. || Gournay-en-Bray seigneury, Normandy — the ancestral fortress town. || Gournay-en-Bray seigneury and surrounding Pays de Bray, Normandy. || Gournay-en-Bray fortress town and the Norman honour of Bray — the principal and most valuable holding, a near-autonomous lordship on the French-Norman frontier. || Gournay-en-Bray seigneury — the walled fortress town and surrounding Pays de Bray territory. || Gournay-en-Bray seigneury, Pays de Bray, Normandy. || Gournay-en-Bray seigneury — inherited from Eudes. || Gournay-en-Bray and the Pays de Bray, Normandy — granted by Rollo c.911-912 as the founding land grant of the entire Gurney family story. || The town of Gournay-en-Bray itself survives today in Seine-Maritime, Normandy (~50 miles east of Rouen). Weekly market continues. 12th-century Collegiate Church of Saint-Hildevert (rebuilt after 1174 fire) still stands.
-  - Flags: merged-source-note, merged-date-span, subsite-name-normalized
-  - Links: [Heritage page](https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/) · [Collégiale Saint-Hildevert, Gournay-en-Bray](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg)
-
-- `loc-949f69d5cd69` — **G34 Hugh de Gournay II** — individual geography — c. 985 — d. c. 1074
-  - Note: Gournay-en-Bray, Normandy
-
-- `loc-4db58edf69cc` — **G34 Hugh de Gournay II** — landholding / property reference — c. 1148 — d. 25 Oct. 1214, Rouen | c. 1098 — d. 1180 | c. 1040 — d. before 1104, Palestine | c. 1020 — d. c. 1093 | c. 985 — d. c. 1074 | c. 970 — dates uncertain | …
-  - Sub-site: Collégiale Saint-Hildevert
-  - Note: Norman territory (the great fief/honour of Bray, including Gournay-en-Bray fortress) — lost when Philip Augustus expelled the English from Normandy in 1204. || Gournay-en-Bray seigneury, Normandy — the ancestral fortress town. || Gournay-en-Bray seigneury and surrounding Pays de Bray, Normandy. || Gournay-en-Bray fortress town and the Norman honour of Bray — the principal and most valuable holding, a near-autonomous lordship on the French-Norman frontier. || Gournay-en-Bray seigneury — the walled fortress town and surrounding Pays de Bray territory. || Gournay-en-Bray seigneury, Pays de Bray, Normandy. || Gournay-en-Bray seigneury — inherited from Eudes. || Gournay-en-Bray and the Pays de Bray, Normandy — granted by Rollo c.911-912 as the founding land grant of the entire Gurney family story. || The town of Gournay-en-Bray itself survives today in Seine-Maritime, Normandy (~50 miles east of Rouen). Weekly market continues. 12th-century Collegiate Church of Saint-Hildevert (rebuilt after 1174 fire) still stands.
-  - Flags: merged-source-note, merged-date-span, subsite-name-normalized
-  - Links: [Heritage page](https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/) · [Collégiale Saint-Hildevert, Gournay-en-Bray](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg)
-
-- `loc-adbbcfcebcb4` — **G35 Renaud de Gournay** — individual geography — c. 970 — dates uncertain
-  - Note: Gournay-en-Bray, Normandy
-
-- `loc-d911a765999c` — **G35 Renaud de Gournay** — landholding / property reference — c. 1148 — d. 25 Oct. 1214, Rouen | c. 1098 — d. 1180 | c. 1040 — d. before 1104, Palestine | c. 1020 — d. c. 1093 | c. 985 — d. c. 1074 | c. 970 — dates uncertain | …
-  - Sub-site: Collégiale Saint-Hildevert
-  - Note: Norman territory (the great fief/honour of Bray, including Gournay-en-Bray fortress) — lost when Philip Augustus expelled the English from Normandy in 1204. || Gournay-en-Bray seigneury, Normandy — the ancestral fortress town. || Gournay-en-Bray seigneury and surrounding Pays de Bray, Normandy. || Gournay-en-Bray fortress town and the Norman honour of Bray — the principal and most valuable holding, a near-autonomous lordship on the French-Norman frontier. || Gournay-en-Bray seigneury — the walled fortress town and surrounding Pays de Bray territory. || Gournay-en-Bray seigneury, Pays de Bray, Normandy. || Gournay-en-Bray seigneury — inherited from Eudes. || Gournay-en-Bray and the Pays de Bray, Normandy — granted by Rollo c.911-912 as the founding land grant of the entire Gurney family story. || The town of Gournay-en-Bray itself survives today in Seine-Maritime, Normandy (~50 miles east of Rouen). Weekly market continues. 12th-century Collegiate Church of Saint-Hildevert (rebuilt after 1174 fire) still stands.
-  - Flags: merged-source-note, merged-date-span, subsite-name-normalized
-  - Links: [Heritage page](https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/) · [Collégiale Saint-Hildevert, Gournay-en-Bray](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg)
-
-- `loc-600ccf59e23e` — **G36 Hugh de Gournay I** — individual geography — c. 945–950 — dates uncertain
-  - Note: Gournay-en-Bray, Normandy
-  - Flags: low-geocode-confidence
-
-- `loc-626e7f0d6965` — **G36 Hugh de Gournay I** — landholding / property reference — c. 1148 — d. 25 Oct. 1214, Rouen | c. 1098 — d. 1180 | c. 1040 — d. before 1104, Palestine | c. 1020 — d. c. 1093 | c. 985 — d. c. 1074 | c. 970 — dates uncertain | …
-  - Sub-site: Collégiale Saint-Hildevert
-  - Note: Norman territory (the great fief/honour of Bray, including Gournay-en-Bray fortress) — lost when Philip Augustus expelled the English from Normandy in 1204. || Gournay-en-Bray seigneury, Normandy — the ancestral fortress town. || Gournay-en-Bray seigneury and surrounding Pays de Bray, Normandy. || Gournay-en-Bray fortress town and the Norman honour of Bray — the principal and most valuable holding, a near-autonomous lordship on the French-Norman frontier. || Gournay-en-Bray seigneury — the walled fortress town and surrounding Pays de Bray territory. || Gournay-en-Bray seigneury, Pays de Bray, Normandy. || Gournay-en-Bray seigneury — inherited from Eudes. || Gournay-en-Bray and the Pays de Bray, Normandy — granted by Rollo c.911-912 as the founding land grant of the entire Gurney family story. || The town of Gournay-en-Bray itself survives today in Seine-Maritime, Normandy (~50 miles east of Rouen). Weekly market continues. 12th-century Collegiate Church of Saint-Hildevert (rebuilt after 1174 fire) still stands.
-  - Flags: merged-source-note, merged-date-span, subsite-name-normalized
-  - Links: [Heritage page](https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/) · [Collégiale Saint-Hildevert, Gournay-en-Bray](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg)
-
-- `loc-f7fdf9603805` — **G~37 Eudes (Odon) de Gournay** — individual geography — c. 860 — d. c. 912
-  - Note: Gournay-en-Bray, Normandy (Seine-Maritime dept., France)
-  - Flags: low-geocode-confidence
-
-- `loc-ad28e8477fd4` — **G~37 Eudes (Odon) de Gournay** — landholding / property reference — c. 1148 — d. 25 Oct. 1214, Rouen | c. 1098 — d. 1180 | c. 1040 — d. before 1104, Palestine | c. 1020 — d. c. 1093 | c. 985 — d. c. 1074 | c. 970 — dates uncertain | …
-  - Sub-site: Collégiale Saint-Hildevert
-  - Note: Norman territory (the great fief/honour of Bray, including Gournay-en-Bray fortress) — lost when Philip Augustus expelled the English from Normandy in 1204. || Gournay-en-Bray seigneury, Normandy — the ancestral fortress town. || Gournay-en-Bray seigneury and surrounding Pays de Bray, Normandy. || Gournay-en-Bray fortress town and the Norman honour of Bray — the principal and most valuable holding, a near-autonomous lordship on the French-Norman frontier. || Gournay-en-Bray seigneury — the walled fortress town and surrounding Pays de Bray territory. || Gournay-en-Bray seigneury — inherited from Eudes. || Gournay-en-Bray and the Pays de Bray, Normandy — granted by Rollo c.911-912 as the founding land grant of the entire Gurney family story. || The town of Gournay-en-Bray itself survives today in Seine-Maritime, Normandy (~50 miles east of Rouen). Weekly market continues. 12th-century Collegiate Church of Saint-Hildevert (rebuilt after 1174 fire) still stands.
-  - Flags: merged-source-note, merged-date-span, subsite-name-normalized
-  - Links: [Heritage page](https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/) · [Collégiale Saint-Hildevert, Gournay-en-Bray](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg)
+- G32 Gerard de Gournay — individual geography
+- G32 Gerard de Gournay — landholding / property reference
+- G32 Hugh de Gournay IV (Senior Baron Line) — landholding / property reference
+- G32 Hugh de Gournay V (Senior Baron Line) — landholding / property reference
+- G33 Hugh de Gournay III — individual geography
+- G33 Hugh de Gournay III — landholding / property reference
+- G34 Hugh de Gournay II — individual geography
+- G34 Hugh de Gournay II — landholding / property reference
+- G35 Renaud de Gournay — individual geography
+- G35 Renaud de Gournay — landholding / property reference
+- G36 Hugh de Gournay I — individual geography
+- G36 Hugh de Gournay I — landholding / property reference
+- G~37 Eudes (Odon) de Gournay — individual geography
+- G~37 Eudes (Odon) de Gournay — landholding / property reference
 
 ### Review notes
 
-- contains merged inherited notes from source JSON; split or reverify in cleanup pass
-- contains merged date spans / likely cross-generation contamination in at least one mention
-- coordinates vary across mentions; representative coordinates are approximate
+- Merged inherited note text detected; verify and split in pass 2 if needed.
+- Merged date span detected; verify whether multiple generations were compressed together.
+- Multiple coordinate candidates existed; normalized record uses the strongest single anchor.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

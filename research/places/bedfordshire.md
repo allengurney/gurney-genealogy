@@ -4,18 +4,17 @@
 ## Place registry
 
 - `placeId`: `place-bedfordshire-england`
-- Canonical filename: `bedfordshire.md`
-- Place class: region
+- Short description: Associated ancestral place
+- Place type: region
 - Aliases: Bedfordshire
-- Mention count: **1**
-- Linked records: G32 Hugh de Gournay IV (Senior Baron Line)
-- Representative coordinates: 52.136, -0.467 (county centroid; Low)
+- Coordinate: 52.136, -0.467 (low)
+- Roles: individual geography
+- Detail: Bedfordshire
+- Current-site status: unknown — Bedfordshire
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-a7fbcce4dbe9` — **G32 Hugh de Gournay IV (Senior Baron Line)** — individual geography — c. 1098 — d. 1180
-  - Note: Bedfordshire
-  - Flags: low-geocode-confidence
+- G32 Hugh de Gournay IV (Senior Baron Line) — individual geography
 
 ### Review notes
 

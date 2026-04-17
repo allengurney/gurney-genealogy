@@ -4,17 +4,17 @@
 ## Place registry
 
 - `placeId`: `place-fort-wayne-indiana-usa`
-- Canonical filename: `fort-wayne-in.md`
-- Place class: locality
+- Short description: Family residence site
+- Place type: locality
 - Aliases: Fort Wayne, IN
-- Mention count: **1**
-- Linked records: G2 Lester Hayes Gurney
-- Representative coordinates: 41.0793, -85.1394 (town centroid; High)
+- Coordinate: 41.0793, -85.1394 (high)
+- Roles: residence
+- Detail: From 2020 to 2025 Fort Wayne, IN
+- Current-site status: unknown — From 2020 to 2025 Fort Wayne, IN
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-a90b03ee97a0` — **G2 Lester Hayes Gurney** — residence — 2020–2025
-  - Note: From 2020 to 2025 Fort Wayne, IN
+- G2 Lester Hayes Gurney — residence
 
 ### Review notes
 

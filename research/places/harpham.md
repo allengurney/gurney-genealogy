@@ -4,18 +4,17 @@
 ## Place registry
 
 - `placeId`: `place-harpham-norfolk-england`
-- Canonical filename: `harpham.md`
-- Place class: locality
+- Short description: Ancestral landholding
+- Place type: locality
 - Aliases: Harpham, Norfolk
-- Mention count: **1**
-- Linked records: G15 Henry Gurney
-- Representative coordinates: 52.834, 0.886 (village centroid; Low)
+- Coordinate: 52.834, 0.886 (low)
+- Roles: landholding / property reference
+- Detail: Harpham manor (purchased 1587; presented to church 1588, 1602).
+- Current-site status: unknown — Harpham manor (purchased 1587; presented to church 1588, 1602).
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-72eba098e79a` — **G15 Henry Gurney** — landholding / property reference — 21 Jan. 1548/9 — d. 1615/16
-  - Note: Harpham manor (purchased 1587; presented to church 1588, 1602).
-  - Flags: low-geocode-confidence
+- G15 Henry Gurney — landholding / property reference
 
 ### Review notes
 

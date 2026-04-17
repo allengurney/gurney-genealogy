@@ -4,17 +4,17 @@
 ## Place registry
 
 - `placeId`: `place-charleston-south-carolina-usa`
-- Canonical filename: `charleston-sc.md`
-- Place class: locality
+- Short description: Associated ancestral place
+- Place type: locality
 - Aliases: Charleston, SC
-- Mention count: **1**
-- Linked records: G6 Brigadier General William Gurney
-- Representative coordinates: 32.7765, -79.9311 (town centroid; High)
+- Coordinate: 32.7765, -79.9311 (high)
+- Roles: individual geography
+- Detail: Charleston SC
+- Current-site status: unknown — Charleston SC
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-9d99cd12c3d7` — **G6 Brigadier General William Gurney** — individual geography — 1821–1879
-  - Note: Charleston SC
+- G6 Brigadier General William Gurney — individual geography
 
 ### Review notes
 

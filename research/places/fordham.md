@@ -40,18 +40,17 @@ Fordham had **eleven *bordarii* and four *servi*** per the Domesday entry (cited
 ## Place registry
 
 - `placeId`: `place-fordham-essex-england`
-- Canonical filename: `fordham.md`
-- Place class: locality
+- Short description: Ancestral landholding
+- Place type: locality
 - Aliases: Fordham, Essex
-- Mention count: **1**
-- Linked records: G33 Hugh de Gournay III
-- Representative coordinates: 51.917, 0.801 (village centroid; Low)
+- Coordinate: 51.917, 0.801 (low)
+- Roles: landholding / property reference
+- Detail: Fordham, Essex (Domesday 1086).
+- Current-site status: unknown — Fordham, Essex (Domesday 1086).
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-6651bd41f21e` — **G33 Hugh de Gournay III** — landholding / property reference — c. 1020 — d. c. 1093
-  - Note: Fordham, Essex (Domesday 1086).
-  - Flags: low-geocode-confidence
+- G33 Hugh de Gournay III — landholding / property reference
 
 ### Review notes
 

@@ -52,22 +52,18 @@ Runhall appears to have passed out of the direct Gurney line after William I / M
 ## Place registry
 
 - `placeId`: `place-runhall-norfolk-england`
-- Canonical filename: `runhall.md`
-- Place class: locality
+- Short description: Ancestral landholding
+- Place type: locality
 - Aliases: Runhall, Norfolk
-- Mention count: **2**
-- Linked records: G29 Matthew de Gournay, G30 William de Gournay I
-- Representative coordinates: 52.6195, 1.01 (approximate village centroid; Low)
+- Coordinate: 52.6195, 1.01 (low)
+- Roles: landholding / property reference
+- Detail: Runhall manor, Norfolk — lord of Runhall and Swathings in Hardingham.
+- Current-site status: approximate area — Runhall manor, Norfolk — lord of Runhall and Swathings in Hardingham.
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-1760096472ae` — **G29 Matthew de Gournay** — landholding / property reference — fl. c. 1180–1220
-  - Note: Runhall manor, Norfolk (inherited from father William I).
-  - Flags: low-geocode-confidence
-
-- `loc-1d7a53517860` — **G30 William de Gournay I** — landholding / property reference — fl. c. 1150–1180
-  - Note: Runhall manor, Norfolk — lord of Runhall and Swathings in Hardingham.
-  - Flags: low-geocode-confidence
+- G29 Matthew de Gournay — landholding / property reference
+- G30 William de Gournay I — landholding / property reference
 
 ### Review notes
 

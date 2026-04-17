@@ -46,20 +46,19 @@ Hugh III and his son Gerard witnessed the foundation charter of William I and Ma
 ## Place registry
 
 - `placeId`: `place-le-bec-hellouin-normandy-france`
-- Canonical filename: `le-bec-hellouin.md`
-- Place class: locality
+- Short description: Historic landholding site
+- Place type: locality
 - Aliases: Le Bec-Hellouin, Normandy
-- Sub-sites tracked here: Abbey of Bec
-- Mention count: **1**
-- Linked records: G33 Hugh de Gournay III
-- Representative coordinates: 49.2288, 0.722 (exact abbey site; Exact)
+- Coordinate: 49.2288, 0.722 (exact)
+- Roles: landholding / property reference
+- Site name: Abbey of Bec
+- Detail: Abbey of Bec, Normandy — endowed and buried here.
+- Current-site status: site only — Abbey of Bec, Normandy — endowed and buried here.
+- Links: [Abbey site](https://abbayedubec.org/) · [Bec Abbey](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg/500px-Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg)
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-9d0fb5e64bc4` — **G33 Hugh de Gournay III** — landholding / property reference — c. 1020 — d. c. 1093
-  - Sub-site: Abbey of Bec
-  - Note: Abbey of Bec, Normandy — endowed and buried here.
-  - Links: [Abbey site](https://abbayedubec.org/) · [Bec Abbey](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg/500px-Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg)
+- G33 Hugh de Gournay III — landholding / property reference
 
 ### Review notes
 

@@ -4,17 +4,17 @@
 ## Place registry
 
 - `placeId`: `place-portland-oregon-usa`
-- Canonical filename: `portland-or.md`
-- Place class: locality
+- Short description: Family residence site
+- Place type: locality
 - Aliases: Portland, OR
-- Mention count: **1**
-- Linked records: G1 Allen Lawrence Gurney
-- Representative coordinates: 45.5152, -122.6784 (town centroid; High)
+- Coordinate: 45.5152, -122.6784 (high)
+- Roles: residence
+- Detail: From 2006-current Portland, OR
+- Current-site status: unknown — From 2006-current Portland, OR
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-16e5a2351f24` — **G1 Allen Lawrence Gurney** — residence — 2006–current
-  - Note: From 2006-current Portland, OR
+- G1 Allen Lawrence Gurney — residence
 
 ### Review notes
 

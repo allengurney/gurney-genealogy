@@ -54,21 +54,19 @@ No direct-line Gurney held La Ferté after Gautier — the site passed to the de
 ## Place registry
 
 - `placeId`: `place-la-ferte-en-bray-normandy-france`
-- Canonical filename: `la-ferte-en-bray.md`
-- Place class: locality
+- Short description: Ancestral landholding
+- Place type: locality
 - Aliases: La Ferte-en-Bray, La Ferté-en-Bray, Normandy
-- Sub-sites tracked here: Église Saint-Pierre-et-Saint-Paul
-- Mention count: **1**
-- Linked records: G35 Renaud de Gournay
-- Representative coordinates: 49.57795, 1.527104 (historic parish church / former La Ferté-en-Bray core; High)
+- Coordinate: 49.57795, 1.527104 (high)
+- Roles: landholding / property reference
+- Site name: Église Saint-Pierre-et-Saint-Paul
+- Detail: La Ferté-en-Bray priory — endowed by son Gautier citing father Renaud.
+- Current-site status: site only — La Ferté-en-Bray priory — endowed by son Gautier citing father Renaud.
+- Links: [Local history page](https://tourismedes4rivieresenbray.com/la-ferte-saint-samson/)
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-e1ff14f38f9a` — **G35 Renaud de Gournay** — landholding / property reference — c. 970 — dates uncertain
-  - Sub-site: Église Saint-Pierre-et-Saint-Paul
-  - Note: La Ferté-en-Bray priory — endowed by son Gautier citing father Renaud.
-  - Flags: subsite-name-normalized
-  - Links: [Local history page](https://tourismedes4rivieresenbray.com/la-ferte-saint-samson/)
+- G35 Renaud de Gournay — landholding / property reference
 
 ### Review notes
 

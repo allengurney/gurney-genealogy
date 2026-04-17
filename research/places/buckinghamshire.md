@@ -4,18 +4,17 @@
 ## Place registry
 
 - `placeId`: `place-buckinghamshire-england`
-- Canonical filename: `buckinghamshire.md`
-- Place class: region
+- Short description: Associated ancestral place
+- Place type: region
 - Aliases: Buckinghamshire
-- Mention count: **1**
-- Linked records: G32 Hugh de Gournay IV (Senior Baron Line)
-- Representative coordinates: 51.81, -0.8 (county centroid; Low)
+- Coordinate: 51.81, -0.8 (low)
+- Roles: individual geography
+- Detail: Buckinghamshire
+- Current-site status: unknown — Buckinghamshire
 
-### Mention ledger
+### Linked ancestors
 
-- `loc-55fb829abece` — **G32 Hugh de Gournay IV (Senior Baron Line)** — individual geography — c. 1098 — d. 1180
-  - Note: Buckinghamshire
-  - Flags: low-geocode-confidence
+- G32 Hugh de Gournay IV (Senior Baron Line) — individual geography
 
 ### Review notes
 
