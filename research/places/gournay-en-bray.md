@@ -4,6 +4,16 @@ The ancestral seat and namesake of the family. Small market town in the Pays de 
 
 Held continuously by the senior Lords of Gournay from c. 911 (Eudes's grant from Rollo) through the extinction of the senior baron line c. 1214 (Hugh VI, d. 25 Oct 1214 at Rouen). The junior Norfolk branch (G31 Walter onward) did not hold Gournay-en-Bray itself but retained the family name and, through William I (G30), a parage tenure at nearby Montigny-sur-Andelle that served as "incontestable proof" of Gournay blood descent [DG-I-278].
 
+## Why this place matters structurally
+
+This is the **master Norman place record** for the family. In the normalized library it is not just another locality; it is the anchor against which several other Europe records should be understood:
+- **La Ferté-en-Bray** matters because its charter names the Lords of Gournay in a surviving document.
+- **Le Bec-Hellouin** matters because it reflects the senior line's religious patronage and Hugh III's burial.
+- **Montigny-sur-Andelle** matters because its parage tenure proves junior-line blood descent.
+- **Normandy** remains only a regional umbrella when the evidence is too broad for a tighter place assignment.
+
+That hierarchy is useful because earlier drafts sometimes blurred together family seat, documentary context, burial site, and regional umbrella. Gournay-en-Bray should remain the central **family-seat and frontier-seigneury** record. [DG-I] [Hannay]
+
 ## Gurney ancestors holding here
 
 | Ancestor | Gen | Period | Status |
@@ -28,6 +38,8 @@ After G32 Gerard, the seat passed to his eldest son Hugh IV (collateral to Allen
 
 The Red Book Roll (Liber Niger Scaccarii) required the lord of Gournay to furnish the Duke of Normandy with twelve knights and defend the marches at his own expense [DG-I-23]. Hannay (1867) called the lordship "a most important one" that "would be established early, and given to some conspicuous and deserving fighting-man of the sea-king breed" [Hannay p. 35]. Hugh II's major investment in fortifications (triple wall, double ditch, tower) c. 1040–1060 reflected this frontier role.
 
+One content distinction worth preserving is that **Gournay-en-Bray is simultaneously the genealogical seat and a military frontier post**. That dual role helps explain why the family appears so early and so often in both political-military and ecclesiastical narratives. [DG-I] [Hannay]
+
 ## Arms
 
 The Barons of Gournay bore a plain sable shield (no charge) — one of the simplest and most ancient heraldic designs in Norman genealogy, consistent with an origin predating the formalisation of heraldry.
@@ -46,6 +58,12 @@ Philip Augustus conferred town arms on Gournay-en-Bray after his capture of the 
 ## Local tradition
 
 The local-history site *Les remparts de Gournay-en-Bray* (remparts-de-normandie.eklablog.com) describes Eudes as "le chevalier à l'écu noir" — the knight with the black shield — and gives the grant date as 912. The tradition aligns with the *pure sable* armorial record and is consistent with DG's account.
+
+## Open items
+
+- [ ] Pull the relevant passages from the 1844 *Supplément aux recherches historiques sur la ville de Gournay-en-Bray* directly into this file or a source extract note.
+- [ ] Confirm whether the surviving 13th-century tower remnant deserves its own site note or image treatment within this file.
+- [ ] Consider whether Rouen should be linked here more explicitly as the 1214 death/end-point location for Hugh VI of the senior line.
 
 ## Sources
 
