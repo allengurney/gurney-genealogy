@@ -10,7 +10,6 @@
 - Coordinate: 42.1056, -71.5523 (high)
 - Roles: landholding / property reference
 - Detail: Grissell applied for John's Mendon lot after his death (NEHGR 22:44).
-- Current-site status: unknown — Grissell applied for John's Mendon lot after his death (NEHGR 22:44).
 
 ### Linked ancestors
 
@@ -18,6 +17,6 @@
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

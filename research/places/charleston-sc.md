@@ -10,7 +10,6 @@
 - Coordinate: 32.7765, -79.9311 (high)
 - Roles: individual geography
 - Detail: Charleston SC
-- Current-site status: unknown — Charleston SC
 
 ### Linked ancestors
 
@@ -18,6 +17,6 @@
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

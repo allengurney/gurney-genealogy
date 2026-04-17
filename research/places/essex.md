@@ -4,13 +4,12 @@
 ## Place registry
 
 - `placeId`: `place-essex-england`
-- Short description: Associated ancestral place
+- Short description: Regional holdings context
 - Place type: region
 - Aliases: Essex
 - Coordinate: 51.776, 0.6417 (low)
 - Roles: individual geography
 - Detail: Essex
-- Current-site status: unknown — Essex
 
 ### Linked ancestors
 
@@ -18,6 +17,6 @@
 
 ### Review notes
 
-- None in normalization pass v1.
+- Regional umbrella record, not a single site.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

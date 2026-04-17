@@ -49,7 +49,6 @@ The sub-tenant relationship is notable: Domesday-era Talbots held land under the
 - Coordinate: 51.95, 0.64 (low)
 - Roles: landholding / property reference
 - Detail: Liston, Essex (Domesday 1086 — held directly of the king).
-- Current-site status: unknown — Liston, Essex (Domesday 1086 — held directly of the king).
 
 ### Linked ancestors
 
@@ -57,6 +56,6 @@ The sub-tenant relationship is notable: Domesday-era Talbots held land under the
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

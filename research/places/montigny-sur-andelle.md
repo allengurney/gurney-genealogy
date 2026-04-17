@@ -52,7 +52,6 @@ See also DG-I Appendix XLVI on parage tenure.
 - Coordinate: 49.327, 1.352 (medium)
 - Roles: landholding / property reference
 - Detail: Montigny-sur-Andelle, Normandy — held in parage, proof of descent from Barons of Gournay.
-- Current-site status: unknown — Montigny-sur-Andelle, Normandy — held in parage, proof of descent from Barons of Gournay.
 
 ### Linked ancestors
 
@@ -60,6 +59,6 @@ See also DG-I Appendix XLVI on parage tenure.
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

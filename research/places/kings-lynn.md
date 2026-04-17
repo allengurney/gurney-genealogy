@@ -64,20 +64,17 @@ Gaywood is a parish now absorbed into King's Lynn's urban area. The Gaywood deed
 - Coordinate: 52.7515, 0.401 (exact)
 - Roles: landholding / property reference, individual geography
 - Site name: St James's Chapel ruins
-- Detail: Attempted textile manufacture: desecrated St. James's Church, King's Lynn, Norfolk — leased from Lynn corporation (failed enterprise; Sir Hamon Lestrange paid his £100 bond c.1625).
-- Current-site status: ruins — Attempted textile manufacture: desecrated St. James's Church, King's Lynn, Norfolk — leased from Lynn corporation (failed enterprise; Sir Hamon Lestrange paid his £100 bond c.1625).
+- Detail: St James's Chapel site in King's Lynn, leased for a failed textile-manufacture venture in the early seventeenth century.
+- Current-site status: ruins — Ruins of St James's Chapel survive and provide the historic site anchor.
 - Links: [Historic England](https://historicengland.org.uk/listing/the-list/list-entry/1298188)
 
 ### Linked ancestors
 
 - G14 Francis Gurney — landholding / property reference
-- G23 Edmund Gurney — individual geography
-- G23 Edmund Gurney — landholding / property reference
+- G23 Edmund Gurney — landholding / property reference, individual geography
 
 ### Review notes
 
-- Merged inherited note text detected; verify and split in pass 2 if needed.
-- Merged date span detected; verify whether multiple generations were compressed together.
-- Multiple coordinate candidates existed; normalized record uses the strongest single anchor.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

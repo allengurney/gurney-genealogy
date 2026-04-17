@@ -10,7 +10,6 @@
 - Coordinate: 39.7684, -86.1581 (high)
 - Roles: residence
 - Detail: From 1996-c 2000 Indianapolis, IN
-- Current-site status: unknown — From 1996-c 2000 Indianapolis, IN
 
 ### Linked ancestors
 
@@ -18,6 +17,6 @@
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

@@ -39,7 +39,6 @@ The foundation placed a Bec satellite on Gournay-held Norfolk coast, reinforcing
 - Coordinate: 52.795, 1.575 (low)
 - Roles: landholding / property reference
 - Detail: Lessingham Priory, Norfolk — founded, attached to Abbey of Bec.
-- Current-site status: unknown — Lessingham Priory, Norfolk — founded, attached to Abbey of Bec.
 
 ### Linked ancestors
 
@@ -47,6 +46,6 @@ The foundation placed a Bec satellite on Gournay-held Norfolk coast, reinforcing
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

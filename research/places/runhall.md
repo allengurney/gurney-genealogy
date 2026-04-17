@@ -67,6 +67,6 @@ Runhall appears to have passed out of the direct Gurney line after William I / M
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

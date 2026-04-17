@@ -10,7 +10,6 @@
 - Coordinate: 52.8246, 1.0927 (low)
 - Roles: landholding / property reference
 - Detail: 'Loundhall' in Saxthorpe, Norfolk.
-- Current-site status: unknown — 'Loundhall' in Saxthorpe, Norfolk.
 
 ### Linked ancestors
 
@@ -18,6 +17,6 @@
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

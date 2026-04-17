@@ -78,40 +78,30 @@ The parish church where Edmund (G23) directed his burial, and almost certainly t
 ## Place registry
 
 - `placeId`: `place-west-barsham-norfolk-england`
-- Short description: Historic landholding site
+- Short description: Principal family seat
 - Place type: locality
 - Aliases: West Barsham, Norfolk
 - Coordinate: 52.867826, 0.830094 (exact)
-- Roles: individual geography, landholding / property reference
+- Roles: landholding / property reference, individual geography
 - Site name: West Barsham Hall
-- Detail: West Barsham Hall, Norfolk
-- Current-site status: extant — West Barsham Hall, Norfolk
+- Detail: Principal Gurney family seat from 1372 until Francis Gurney sold the Norfolk lands in 1634.
+- Current-site status: extant — Surviving north wing of West Barsham Hall still marks the historic manor site.
 - Links: [Photo / site reference](https://www.geograph.org.uk/photo/2122114) · [West Barsham Hall](https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg)
 
 ### Linked ancestors
 
 - G14 Francis Gurney — individual geography
-- G15 Henry Gurney — individual geography
-- G15 Henry Gurney — landholding / property reference
-- G16 Francis Gurney — individual geography
-- G16 Francis Gurney — landholding / property reference
-- G17 Anthony Gurney — individual geography
-- G17 Anthony Gurney — landholding / property reference
-- G19 William Gurney IV — individual geography
-- G19 William Gurney IV — landholding / property reference
-- G20 Thomas Gournay II — individual geography
-- G20 Thomas Gournay II — landholding / property reference
-- G21 Thomas Gournay I — individual geography
-- G21 Thomas Gournay I — landholding / property reference
+- G15 Henry Gurney — landholding / property reference, individual geography
+- G16 Francis Gurney — landholding / property reference, individual geography
+- G17 Anthony Gurney — landholding / property reference, individual geography
+- G19 William Gurney IV — landholding / property reference, individual geography
+- G20 Thomas Gournay II — landholding / property reference, individual geography
+- G21 Thomas Gournay I — landholding / property reference, individual geography
 - G23 Edmund Gurney — landholding / property reference
-- G23 Sir John Gurney, Knt. (d.1408) — Collateral — individual geography
-- G23 Sir John Gurney, Knt. (d.1408) — Collateral — landholding / property reference
-- G~37 Eudes (Odon) de Gournay — landholding / property reference
+- G23 Sir John Gurney, Knt. (d.1408) — Collateral — landholding / property reference, individual geography
 
 ### Review notes
 
-- Merged inherited note text detected; verify and split in pass 2 if needed.
-- Merged date span detected; verify whether multiple generations were compressed together.
-- Multiple coordinate candidates existed; normalized record uses the strongest single anchor.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

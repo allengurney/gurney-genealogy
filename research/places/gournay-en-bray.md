@@ -72,37 +72,29 @@ The local-history site *Les remparts de Gournay-en-Bray* (remparts-de-normandie.
 ## Place registry
 
 - `placeId`: `place-gournay-en-bray-normandy-france`
-- Short description: Ancestral landholding
+- Short description: Ancestral fortress town
 - Place type: locality
 - Aliases: Gournay, Gournay-en-Bray, Normandy
-- Coordinate: 49.483148, 1.727303 (exact)
-- Roles: individual geography, landholding / property reference
+- Coordinate: 49.4823, 1.7303568495177049 (high)
+- Roles: landholding / property reference, individual geography
 - Site name: Collégiale Saint-Hildevert
-- Detail: Norman territory (the great fief/honour of Bray, including Gournay-en-Bray fortress) — lost when Philip Augustus expelled the English from Normandy in 1204. | Gournay-en-Bray seigneury, Normandy — the ancestral fortress town. | Gournay-en-Bray seigneury and surrounding Pays de Bray, Normandy. | Gournay-en-Bray fortress town and…
-- Current-site status: extant — Norman territory (the great fief/honour of Bray, including Gournay-en-Bray fortress) — lost when Philip Augustus expelled the English from Normandy in 1204. | Gournay-en-Bray seigneury, Normandy — the…
+- Detail: Ancestral fortress town and seigneury of the Gournay family in the Pays de Bray.
+- Current-site status: extant — Modern town survives; the church site is used as the best historic anchor for the lost fortress town.
 - Links: [Heritage page](https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/) · [Collégiale Saint-Hildevert, Gournay-en-Bray](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg)
 
 ### Linked ancestors
 
-- G32 Gerard de Gournay — individual geography
-- G32 Gerard de Gournay — landholding / property reference
+- G32 Gerard de Gournay — landholding / property reference, individual geography
 - G32 Hugh de Gournay IV (Senior Baron Line) — landholding / property reference
 - G32 Hugh de Gournay V (Senior Baron Line) — landholding / property reference
-- G33 Hugh de Gournay III — individual geography
-- G33 Hugh de Gournay III — landholding / property reference
-- G34 Hugh de Gournay II — individual geography
-- G34 Hugh de Gournay II — landholding / property reference
-- G35 Renaud de Gournay — individual geography
-- G35 Renaud de Gournay — landholding / property reference
-- G36 Hugh de Gournay I — individual geography
-- G36 Hugh de Gournay I — landholding / property reference
-- G~37 Eudes (Odon) de Gournay — individual geography
-- G~37 Eudes (Odon) de Gournay — landholding / property reference
+- G33 Hugh de Gournay III — landholding / property reference, individual geography
+- G34 Hugh de Gournay II — landholding / property reference, individual geography
+- G35 Renaud de Gournay — landholding / property reference, individual geography
+- G36 Hugh de Gournay I — landholding / property reference, individual geography
+- G~37 Eudes (Odon) de Gournay — landholding / property reference, individual geography
 
 ### Review notes
 
-- Merged inherited note text detected; verify and split in pass 2 if needed.
-- Merged date span detected; verify whether multiple generations were compressed together.
-- Multiple coordinate candidates existed; normalized record uses the strongest single anchor.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

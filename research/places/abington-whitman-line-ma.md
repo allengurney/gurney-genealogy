@@ -10,7 +10,6 @@
 - Coordinate: 42.0925, -70.9413 (low)
 - Roles: individual geography
 - Detail: Abington/Whitman, MA
-- Current-site status: unknown — Abington/Whitman, MA
 
 ### Linked ancestors
 
@@ -20,6 +19,6 @@
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

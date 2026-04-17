@@ -71,8 +71,7 @@ The church is the natural hero-image anchor for G31–G22. Current structure pos
 - Aliases: Harpley, Norfolk
 - Coordinate: 52.8088, 0.6486 (medium)
 - Roles: landholding / property reference, individual geography
-- Detail: Gurney's manor in Harpley, Norfolk — acquired c.1183 through marriage to Rose de Burnham (given by Hameline Earl Warren). DG Record Part I, pp.278-279. Blomefield, History of Norfolk.
-- Current-site status: unknown — Gurney's manor in Harpley, Norfolk — acquired c.1183 through marriage to Rose de Burnham (given by Hameline Earl Warren). DG Record Part I, pp.278-279. Blomefield, History of Norfolk.
+- Detail: Gurney's manor in Harpley, acquired c.1183 through Rose de Burnham and the Hameline de Warenne connection.
 - Links: [Blomefield: Harpley](https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459)
 
 ### Linked ancestors
@@ -80,27 +79,17 @@ The church is the natural hero-image anchor for G31–G22. Current structure pos
 - G15 Henry Gurney — landholding / property reference
 - G20 Thomas Gournay II — landholding / property reference
 - G21 Thomas Gournay I — landholding / property reference
-- G23 Edmund Gurney — individual geography
-- G23 Edmund Gurney — landholding / property reference
-- G23 Sir John Gurney, Knt. (d.1408) — Collateral — individual geography
-- G23 Sir John Gurney, Knt. (d.1408) — Collateral — landholding / property reference
-- G24 John de Gournay IV — individual geography
-- G24 John de Gournay IV — landholding / property reference
-- G25 John de Gournay III — individual geography
-- G25 John de Gournay III — landholding / property reference
-- G26 Sir William de Gournay III, Knt. — individual geography
-- G26 Sir William de Gournay III, Knt. — landholding / property reference
-- G27 Sir John de Gournay I, Knt. — individual geography
-- G27 Sir John de Gournay I, Knt. — landholding / property reference
-- G28 William de Gournay II — individual geography
-- G28 William de Gournay II — landholding / property reference
-- G29 Matthew de Gournay — individual geography
-- G29 Matthew de Gournay — landholding / property reference
+- G23 Edmund Gurney — landholding / property reference, individual geography
+- G23 Sir John Gurney, Knt. (d.1408) — Collateral — landholding / property reference, individual geography
+- G24 John de Gournay IV — landholding / property reference, individual geography
+- G25 John de Gournay III — landholding / property reference, individual geography
+- G26 Sir William de Gournay III, Knt. — landholding / property reference, individual geography
+- G27 Sir John de Gournay I, Knt. — landholding / property reference, individual geography
+- G28 William de Gournay II — landholding / property reference, individual geography
+- G29 Matthew de Gournay — landholding / property reference, individual geography
 
 ### Review notes
 
-- Merged inherited note text detected; verify and split in pass 2 if needed.
-- Merged date span detected; verify whether multiple generations were compressed together.
-- Multiple coordinate candidates existed; normalized record uses the strongest single anchor.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

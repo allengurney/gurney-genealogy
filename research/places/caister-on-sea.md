@@ -47,17 +47,15 @@ Caister Castle (the fortified manor house built c. 1432–1446 by Sir John Fasto
 - Place type: locality
 - Aliases: Caister, Caister-on-Sea, Norfolk
 - Coordinate: 52.6488, 1.7281 (high)
-- Roles: individual geography, landholding / property reference
+- Roles: landholding / property reference, individual geography
 - Detail: Caister, Norfolk (English holdings documented).
-- Current-site status: unknown — Caister, Norfolk (English holdings documented).
 
 ### Linked ancestors
 
-- G32 Gerard de Gournay — individual geography
-- G32 Gerard de Gournay — landholding / property reference
+- G32 Gerard de Gournay — landholding / property reference, individual geography
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

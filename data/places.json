@@ -115,11 +115,11 @@
     "ancestorLinks": [
       {
         "recordId": "ancestor-g6-brigadier-general-william-gurney",
-        "role": "address reference"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g6-brigadier-general-william-gurney",
-        "role": "landholding / property reference"
+        "role": "address reference"
       }
     ],
     "filename": "54-hudson-street-ny.md"
@@ -267,7 +267,7 @@
     "aliases": [
       "Bedfordshire"
     ],
-    "shortDescription": "Associated ancestral place",
+    "shortDescription": "Regional holdings context",
     "placeType": "region",
     "coordinate": {
       "lat": 52.136,
@@ -295,21 +295,21 @@
     "placeType": "locality",
     "coordinate": {
       "lat": 42.2079,
-      "lng": -70.99559979026579
+      "lng": -71.001
     },
     "coordinatePrecision": "high",
     "roles": [
-      "individual geography",
-      "landholding / property reference"
+      "landholding / property reference",
+      "individual geography"
     ],
     "ancestorLinks": [
       {
         "recordId": "ancestor-g13-john-gurney-1",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g13-john-gurney-1",
-        "role": "landholding / property reference"
+        "role": "individual geography"
       }
     ],
     "filename": "braintree-ma.md"
@@ -324,12 +324,12 @@
     "placeType": "locality",
     "coordinate": {
       "lat": 41.9904,
-      "lng": -70.97051828091448
+      "lng": -70.9759
     },
     "coordinatePrecision": "high",
     "roles": [
-      "individual geography",
-      "landholding / property reference"
+      "landholding / property reference",
+      "individual geography"
     ],
     "ancestorLinks": [
       {
@@ -361,7 +361,7 @@
     "aliases": [
       "Buckinghamshire"
     ],
-    "shortDescription": "Associated ancestral place",
+    "shortDescription": "Regional holdings context",
     "placeType": "region",
     "coordinate": {
       "lat": 51.81,
@@ -393,17 +393,17 @@
     },
     "coordinatePrecision": "medium",
     "roles": [
-      "individual geography",
-      "landholding / property reference"
+      "landholding / property reference",
+      "individual geography"
     ],
     "ancestorLinks": [
       {
         "recordId": "ancestor-g19-william-gurney-iv",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g19-william-gurney-iv",
-        "role": "landholding / property reference"
+        "role": "individual geography"
       }
     ],
     "filename": "burnham-thorpe.md"
@@ -423,17 +423,17 @@
     },
     "coordinatePrecision": "high",
     "roles": [
-      "individual geography",
-      "landholding / property reference"
+      "landholding / property reference",
+      "individual geography"
     ],
     "ancestorLinks": [
       {
         "recordId": "ancestor-g32-gerard-de-gournay",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g32-gerard-de-gournay",
-        "role": "landholding / property reference"
+        "role": "individual geography"
       }
     ],
     "filename": "caister-on-sea.md"
@@ -492,7 +492,7 @@
     "aliases": [
       "City of London"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Historic commercial site",
     "placeType": "locality",
     "coordinate": {
       "lat": 51.51389,
@@ -500,25 +500,25 @@
     },
     "coordinatePrecision": "exact",
     "roles": [
-      "individual geography",
-      "landholding / property reference"
+      "landholding / property reference",
+      "individual geography"
     ],
     "ancestorLinks": [
       {
         "recordId": "ancestor-g14-francis-gurney",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g14-francis-gurney",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
         "role": "individual geography"
       },
       {
         "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
         "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "individual geography"
       }
     ],
     "filename": "city-of-london.md"
@@ -532,30 +532,30 @@
     "shortDescription": "Ancestral landholding",
     "placeType": "locality",
     "coordinate": {
-      "lat": 42.4598,
-      "lng": -72.90017811767369
+      "lat": 42.45599577393482,
+      "lng": -72.90392454621967
     },
     "coordinatePrecision": "high",
     "roles": [
-      "individual geography",
-      "landholding / property reference"
+      "landholding / property reference",
+      "individual geography"
     ],
     "ancestorLinks": [
       {
         "recordId": "ancestor-g10-benjamin-gurney",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g10-benjamin-gurney",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g11-benjamin-gurney",
         "role": "individual geography"
       },
       {
         "recordId": "ancestor-g11-benjamin-gurney",
         "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "role": "individual geography"
       },
       {
         "recordId": "ancestor-g7-willis-gurney",
@@ -563,19 +563,19 @@
       },
       {
         "recordId": "ancestor-g8-amos-gurney",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g8-amos-gurney",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g9-benjamin-gurney",
         "role": "individual geography"
       },
       {
         "recordId": "ancestor-g9-benjamin-gurney",
         "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "role": "individual geography"
       }
     ],
     "filename": "cummington-ma.md"
@@ -614,7 +614,7 @@
     "aliases": [
       "Essex"
     ],
-    "shortDescription": "Associated ancestral place",
+    "shortDescription": "Regional holdings context",
     "placeType": "region",
     "coordinate": {
       "lat": 51.776,
@@ -646,17 +646,17 @@
     },
     "coordinatePrecision": "low",
     "roles": [
-      "individual geography",
-      "landholding / property reference"
+      "landholding / property reference",
+      "individual geography"
     ],
     "ancestorLinks": [
       {
         "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
-        "role": "landholding / property reference"
+        "role": "individual geography"
       }
     ],
     "filename": "flegg.md"
@@ -677,25 +677,25 @@
     },
     "coordinatePrecision": "high",
     "roles": [
-      "individual geography",
-      "landholding / property reference"
+      "landholding / property reference",
+      "individual geography"
     ],
     "ancestorLinks": [
       {
         "recordId": "ancestor-g6-brigadier-general-william-gurney",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g6-brigadier-general-william-gurney",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g7-willis-gurney",
         "role": "individual geography"
       },
       {
         "recordId": "ancestor-g7-willis-gurney",
         "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g7-willis-gurney",
+        "role": "individual geography"
       }
     ],
     "filename": "flushing-ny.md"
@@ -755,25 +755,25 @@
       "Gournay",
       "Gournay-en-Bray, Normandy"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Ancestral fortress town",
     "placeType": "locality",
     "coordinate": {
-      "lat": 49.483148,
-      "lng": 1.727303
+      "lat": 49.4823,
+      "lng": 1.7303568495177049
     },
-    "coordinatePrecision": "exact",
+    "coordinatePrecision": "high",
     "roles": [
-      "individual geography",
-      "landholding / property reference"
+      "landholding / property reference",
+      "individual geography"
     ],
     "ancestorLinks": [
       {
         "recordId": "ancestor-g32-gerard-de-gournay",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g32-gerard-de-gournay",
-        "role": "landholding / property reference"
+        "role": "individual geography"
       },
       {
         "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
@@ -785,14 +785,10 @@
       },
       {
         "recordId": "ancestor-g33-hugh-de-gournay-iii",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g33-hugh-de-gournay-iii",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g34-hugh-de-gournay-ii",
         "role": "individual geography"
       },
       {
@@ -800,7 +796,7 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g35-renaud-de-gournay",
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
         "role": "individual geography"
       },
       {
@@ -808,7 +804,7 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g36-hugh-de-gournay-i",
+        "recordId": "ancestor-g35-renaud-de-gournay",
         "role": "individual geography"
       },
       {
@@ -816,12 +812,16 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g-37-eudes-odon-de-gournay",
+        "recordId": "ancestor-g36-hugh-de-gournay-i",
         "role": "individual geography"
       },
       {
         "recordId": "ancestor-g-37-eudes-odon-de-gournay",
         "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g-37-eudes-odon-de-gournay",
+        "role": "individual geography"
       }
     ],
     "filename": "gournay-en-bray.md"
@@ -840,17 +840,17 @@
     },
     "coordinatePrecision": "medium",
     "roles": [
-      "individual geography",
-      "landholding / property reference"
+      "landholding / property reference",
+      "individual geography"
     ],
     "ancestorLinks": [
       {
         "recordId": "ancestor-g15-henry-gurney",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g15-henry-gurney",
-        "role": "landholding / property reference"
+        "role": "individual geography"
       },
       {
         "recordId": "ancestor-g16-francis-gurney",
@@ -858,11 +858,11 @@
       },
       {
         "recordId": "ancestor-g17-anthony-gurney",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g17-anthony-gurney",
-        "role": "landholding / property reference"
+        "role": "individual geography"
       }
     ],
     "filename": "great-ellingham.md"
@@ -877,7 +877,7 @@
     "placeType": "locality",
     "coordinate": {
       "lat": 52.5708,
-      "lng": 0.8507813220216436
+      "lng": 0.8508
     },
     "coordinatePrecision": "medium",
     "roles": [
@@ -891,19 +891,19 @@
       },
       {
         "recordId": "ancestor-g23-edmund-gurney",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g23-edmund-gurney",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
         "role": "individual geography"
       },
       {
         "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
         "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "individual geography"
       },
       {
         "recordId": "ancestor-g24-john-de-gournay-iv",
@@ -927,19 +927,19 @@
       },
       {
         "recordId": "ancestor-g29-matthew-de-gournay",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g29-matthew-de-gournay",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g30-william-de-gournay-i",
         "role": "individual geography"
       },
       {
         "recordId": "ancestor-g30-william-de-gournay-i",
         "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g30-william-de-gournay-i",
+        "role": "individual geography"
       },
       {
         "recordId": "ancestor-g31-walter-de-gournay",
@@ -1004,14 +1004,10 @@
       },
       {
         "recordId": "ancestor-g23-edmund-gurney",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g23-edmund-gurney",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
         "role": "individual geography"
       },
       {
@@ -1019,7 +1015,7 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g24-john-de-gournay-iv",
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
         "role": "individual geography"
       },
       {
@@ -1027,7 +1023,7 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g25-john-de-gournay-iii",
+        "recordId": "ancestor-g24-john-de-gournay-iv",
         "role": "individual geography"
       },
       {
@@ -1035,7 +1031,7 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g26-sir-william-de-gournay-iii-knt",
+        "recordId": "ancestor-g25-john-de-gournay-iii",
         "role": "individual geography"
       },
       {
@@ -1043,7 +1039,7 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g27-sir-john-de-gournay-i-knt",
+        "recordId": "ancestor-g26-sir-william-de-gournay-iii-knt",
         "role": "individual geography"
       },
       {
@@ -1051,7 +1047,7 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g28-william-de-gournay-ii",
+        "recordId": "ancestor-g27-sir-john-de-gournay-i-knt",
         "role": "individual geography"
       },
       {
@@ -1059,12 +1055,16 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g29-matthew-de-gournay",
+        "recordId": "ancestor-g28-william-de-gournay-ii",
         "role": "individual geography"
       },
       {
         "recordId": "ancestor-g29-matthew-de-gournay",
         "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g29-matthew-de-gournay",
+        "role": "individual geography"
       }
     ],
     "filename": "harpley.md"
@@ -1159,7 +1159,7 @@
     "placeType": "locality",
     "coordinate": {
       "lat": 52.707,
-      "lng": 1.4776018452353217
+      "lng": 1.471
     },
     "coordinatePrecision": "medium",
     "roles": [
@@ -1181,11 +1181,11 @@
       },
       {
         "recordId": "ancestor-g18-william-gurney-v",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g18-william-gurney-v",
-        "role": "landholding / property reference"
+        "role": "individual geography"
       }
     ],
     "filename": "irstead.md"
@@ -1216,11 +1216,11 @@
       },
       {
         "recordId": "ancestor-g23-edmund-gurney",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g23-edmund-gurney",
-        "role": "landholding / property reference"
+        "role": "individual geography"
       }
     ],
     "filename": "kings-lynn.md"
@@ -1413,24 +1413,20 @@
     "placeType": "locality",
     "coordinate": {
       "lat": 41.8934,
-      "lng": -70.90582646163827
+      "lng": -70.91657353836172
     },
     "coordinatePrecision": "high",
     "roles": [
-      "individual geography",
-      "landholding / property reference"
+      "landholding / property reference",
+      "individual geography"
     ],
     "ancestorLinks": [
       {
         "recordId": "ancestor-g10-benjamin-gurney",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g10-benjamin-gurney",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g11-benjamin-gurney",
         "role": "individual geography"
       },
       {
@@ -1438,12 +1434,16 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g9-benjamin-gurney",
+        "recordId": "ancestor-g11-benjamin-gurney",
         "role": "individual geography"
       },
       {
         "recordId": "ancestor-g9-benjamin-gurney",
         "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "role": "individual geography"
       }
     ],
     "filename": "middleborough-ma.md"
@@ -1476,7 +1476,7 @@
     "placeId": "place-new-york-metropolitan-area-usa",
     "name": "New York metropolitan area, USA",
     "aliases": [],
-    "shortDescription": "Associated ancestral place",
+    "shortDescription": "Regional family geography",
     "placeType": "locality",
     "coordinate": {
       "lat": 40.783,
@@ -1508,33 +1508,33 @@
     "aliases": [
       "Norfolk"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "County-level holdings context",
     "placeType": "region",
     "coordinate": {
       "lat": 52.675,
-      "lng": 1.2885970084873355
+      "lng": 1.289
     },
     "coordinatePrecision": "low",
     "roles": [
-      "individual geography",
-      "landholding / property reference"
+      "landholding / property reference",
+      "individual geography"
     ],
     "ancestorLinks": [
       {
         "recordId": "ancestor-g22-robert-gournay",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g22-robert-gournay",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
         "role": "individual geography"
       },
       {
         "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
         "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "individual geography"
       },
       {
         "recordId": "ancestor-g31-walter-de-gournay",
@@ -1546,19 +1546,19 @@
       },
       {
         "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g33-hugh-de-gournay-iii",
         "role": "individual geography"
       },
       {
         "recordId": "ancestor-g33-hugh-de-gournay-iii",
         "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "role": "individual geography"
       }
     ],
     "filename": "norfolk.md"
@@ -1569,7 +1569,7 @@
     "aliases": [
       "Normandy"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Regional holdings context",
     "placeType": "region",
     "coordinate": {
       "lat": 49.654653,
@@ -1577,25 +1577,25 @@
     },
     "coordinatePrecision": "medium",
     "roles": [
-      "individual geography",
-      "landholding / property reference"
+      "landholding / property reference",
+      "individual geography"
     ],
     "ancestorLinks": [
       {
         "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
         "role": "individual geography"
       },
       {
         "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
         "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
+        "role": "individual geography"
       }
     ],
     "filename": "normandy.md"
@@ -1606,25 +1606,25 @@
     "aliases": [
       "Oxfordshire"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Regional holdings context",
     "placeType": "region",
     "coordinate": {
       "lat": 51.7612,
-      "lng": -1.240037342479512
+      "lng": -1.2465
     },
     "coordinatePrecision": "low",
     "roles": [
-      "individual geography",
-      "landholding / property reference"
+      "landholding / property reference",
+      "individual geography"
     ],
     "ancestorLinks": [
       {
         "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
-        "role": "landholding / property reference"
+        "role": "individual geography"
       },
       {
         "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
@@ -1695,20 +1695,16 @@
     },
     "coordinatePrecision": "high",
     "roles": [
-      "individual geography",
-      "landholding / property reference"
+      "landholding / property reference",
+      "individual geography"
     ],
     "ancestorLinks": [
       {
         "recordId": "ancestor-g10-benjamin-gurney",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g10-benjamin-gurney",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g11-benjamin-gurney",
         "role": "individual geography"
       },
       {
@@ -1716,12 +1712,16 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g9-benjamin-gurney",
+        "recordId": "ancestor-g11-benjamin-gurney",
         "role": "individual geography"
       },
       {
         "recordId": "ancestor-g9-benjamin-gurney",
         "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "role": "individual geography"
       }
     ],
     "filename": "rochester-ma.md"
@@ -1782,7 +1782,7 @@
     "placeId": "place-scandinavia",
     "name": "Scandinavia",
     "aliases": [],
-    "shortDescription": "Associated ancestral place",
+    "shortDescription": "Regional holdings context",
     "placeType": "region",
     "coordinate": {
       "lat": 60.5,
@@ -1834,7 +1834,7 @@
     "aliases": [
       "Suffolk"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Regional holdings context",
     "placeType": "region",
     "coordinate": {
       "lat": 52.188,
@@ -1858,7 +1858,7 @@
     "aliases": [
       "West Barsham, Norfolk"
     ],
-    "shortDescription": "Historic landholding site",
+    "shortDescription": "Principal family seat",
     "placeType": "locality",
     "coordinate": {
       "lat": 52.867826,
@@ -1866,8 +1866,8 @@
     },
     "coordinatePrecision": "exact",
     "roles": [
-      "individual geography",
-      "landholding / property reference"
+      "landholding / property reference",
+      "individual geography"
     ],
     "ancestorLinks": [
       {
@@ -1876,14 +1876,10 @@
       },
       {
         "recordId": "ancestor-g15-henry-gurney",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g15-henry-gurney",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g16-francis-gurney",
         "role": "individual geography"
       },
       {
@@ -1891,7 +1887,7 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g17-anthony-gurney",
+        "recordId": "ancestor-g16-francis-gurney",
         "role": "individual geography"
       },
       {
@@ -1899,7 +1895,7 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g19-william-gurney-iv",
+        "recordId": "ancestor-g17-anthony-gurney",
         "role": "individual geography"
       },
       {
@@ -1907,7 +1903,7 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g20-thomas-gournay-ii",
+        "recordId": "ancestor-g19-william-gurney-iv",
         "role": "individual geography"
       },
       {
@@ -1915,12 +1911,16 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g21-thomas-gournay-i",
+        "recordId": "ancestor-g20-thomas-gournay-ii",
         "role": "individual geography"
       },
       {
         "recordId": "ancestor-g21-thomas-gournay-i",
         "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g21-thomas-gournay-i",
+        "role": "individual geography"
       },
       {
         "recordId": "ancestor-g23-edmund-gurney",
@@ -1928,15 +1928,11 @@
       },
       {
         "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g-37-eudes-odon-de-gournay",
-        "role": "landholding / property reference"
+        "role": "individual geography"
       }
     ],
     "filename": "west-barsham.md"
@@ -1950,13 +1946,13 @@
     "shortDescription": "Ancestral landholding",
     "placeType": "locality",
     "coordinate": {
-      "lat": 42.2181,
-      "lng": -70.93559891808553
+      "lat": 42.22156410161514,
+      "lng": -70.94370054095724
     },
     "coordinatePrecision": "high",
     "roles": [
-      "individual geography",
-      "landholding / property reference"
+      "landholding / property reference",
+      "individual geography"
     ],
     "ancestorLinks": [
       {
@@ -1969,19 +1965,19 @@
       },
       {
         "recordId": "ancestor-g12-richard-gurney",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g12-richard-gurney",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g13-john-gurney-1",
         "role": "individual geography"
       },
       {
         "recordId": "ancestor-g13-john-gurney-1",
         "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "role": "individual geography"
       },
       {
         "recordId": "ancestor-g9-benjamin-gurney",

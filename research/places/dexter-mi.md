@@ -10,7 +10,6 @@
 - Coordinate: 42.3387, -83.8886 (high)
 - Roles: residence
 - Detail: From 2000-2013 Dexter, MI
-- Current-site status: unknown — From 2000-2013 Dexter, MI
 
 ### Linked ancestors
 
@@ -19,6 +18,6 @@
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

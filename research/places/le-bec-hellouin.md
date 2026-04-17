@@ -62,6 +62,6 @@ Hugh III and his son Gerard witnessed the foundation charter of William I and Ma
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

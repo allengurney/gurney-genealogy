@@ -29,5 +29,5 @@ Older extraction blocks are replaced during normalization.
 - Preserve existing narrative research outside the generated block.
 - Keep generated content concise.
 - Keep sub-sites and street-address detail in `places_detail.json` unless the research clearly treats them as standalone places.
-- Record unresolved cleanup items as review notes for pass 2.
+- Record unresolved cleanup items as review notes only when they still matter after cleanup.
 - For U.S. place filenames, use a trailing two-letter state code even for pre-statehood places.

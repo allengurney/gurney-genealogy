@@ -16,11 +16,10 @@
 
 ### Linked ancestors
 
-- G6 Brigadier General William Gurney — address reference
-- G6 Brigadier General William Gurney — landholding / property reference
+- G6 Brigadier General William Gurney — landholding / property reference, address reference
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

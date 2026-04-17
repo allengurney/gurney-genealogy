@@ -62,33 +62,26 @@ Swathings represents the junior branch's earliest continuous Norfolk holding —
 - Short description: Ancestral landholding
 - Place type: locality
 - Aliases: Hardingham, Norfolk
-- Coordinate: 52.5708, 0.8507813220216436 (medium)
+- Coordinate: 52.5708, 0.8508 (medium)
 - Roles: landholding / property reference, individual geography
-- Detail: Swathings manor in Hardingham, Norfolk — mesne lord under the senior Gournay line (documented from reign of Henry II per Daniel Gurney's Record). | Hardingham manor, Norfolk (inherited from Gen.22). | Hardingham manor, Norfolk. | Swathings in Hardingham — documented as mesne Gurney holding from…
-- Current-site status: unknown — Swathings manor in Hardingham, Norfolk — mesne lord under the senior Gournay line (documented from reign of Henry II per Daniel Gurney's Record). | Hardingham manor, Norfolk (inherited…
+- Detail: Swathings in Hardingham, a long-running junior-line holding documented from the Henry II period onward.
 
 ### Linked ancestors
 
 - G18 William Gurney V — landholding / property reference
-- G23 Edmund Gurney — individual geography
-- G23 Edmund Gurney — landholding / property reference
-- G23 Sir John Gurney, Knt. (d.1408) — Collateral — individual geography
-- G23 Sir John Gurney, Knt. (d.1408) — Collateral — landholding / property reference
+- G23 Edmund Gurney — landholding / property reference, individual geography
+- G23 Sir John Gurney, Knt. (d.1408) — Collateral — landholding / property reference, individual geography
 - G24 John de Gournay IV — landholding / property reference
 - G25 John de Gournay III — landholding / property reference
 - G26 Sir William de Gournay III, Knt. — landholding / property reference
 - G27 Sir John de Gournay I, Knt. — landholding / property reference
 - G28 William de Gournay II — landholding / property reference
-- G29 Matthew de Gournay — individual geography
-- G29 Matthew de Gournay — landholding / property reference
-- G30 William de Gournay I — individual geography
-- G30 William de Gournay I — landholding / property reference
+- G29 Matthew de Gournay — landholding / property reference, individual geography
+- G30 William de Gournay I — landholding / property reference, individual geography
 - G31 Walter de Gournay — landholding / property reference
 
 ### Review notes
 
-- Merged inherited note text detected; verify and split in pass 2 if needed.
-- Merged date span detected; verify whether multiple generations were compressed together.
-- Multiple coordinate candidates existed; normalized record uses the strongest single anchor.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

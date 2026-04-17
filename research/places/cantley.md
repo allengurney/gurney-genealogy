@@ -44,7 +44,6 @@ As with Caister, Cantley passed to the senior baron line after Gerard's death be
 - Coordinate: 52.562, 1.513 (low)
 - Roles: landholding / property reference
 - Detail: Cantley, Norfolk — documented holding.
-- Current-site status: unknown — Cantley, Norfolk — documented holding.
 
 ### Linked ancestors
 
@@ -52,6 +51,6 @@ As with Caister, Cantley passed to the senior baron line after Gerard's death be
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

@@ -12,7 +12,6 @@
 - Site name: 155 Henry Street
 - Street address: 155 Henry Street
 - Detail: 155 Henry Street, Manhattan, NY
-- Current-site status: unknown — 155 Henry Street, Manhattan, NY
 
 ### Linked ancestors
 
@@ -20,6 +19,6 @@
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

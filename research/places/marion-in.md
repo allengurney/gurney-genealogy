@@ -10,7 +10,6 @@
 - Coordinate: 40.5584, -85.6591 (high)
 - Roles: residence
 - Detail: From 1970 to 2020 Marion, IN
-- Current-site status: unknown — From 1970 to 2020 Marion, IN
 
 ### Linked ancestors
 
@@ -20,6 +19,6 @@
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

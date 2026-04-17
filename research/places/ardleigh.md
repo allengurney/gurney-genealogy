@@ -42,7 +42,6 @@ Ardleigh is the third of Hugh III's Essex holdings attested at Domesday (alongsi
 - Coordinate: 51.928, 0.985 (medium)
 - Roles: landholding / property reference
 - Detail: Ardleigh, Essex (Domesday 1086).
-- Current-site status: unknown — Ardleigh, Essex (Domesday 1086).
 
 ### Linked ancestors
 
@@ -50,6 +49,6 @@ Ardleigh is the third of Hugh III's Essex holdings attested at Domesday (alongsi
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

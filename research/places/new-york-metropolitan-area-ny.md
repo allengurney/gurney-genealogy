@@ -4,12 +4,11 @@
 ## Place registry
 
 - `placeId`: `place-new-york-metropolitan-area-usa`
-- Short description: Associated ancestral place
+- Short description: Regional family geography
 - Place type: locality
 - Coordinate: 40.783, -73.96571730235286 (low)
 - Roles: individual geography
-- Detail: New York area
-- Current-site status: unknown — New York area
+- Detail: Regional umbrella record for the family's broader New York-area geography before and beyond specific city addresses.
 
 ### Linked ancestors
 
@@ -19,6 +18,6 @@
 
 ### Review notes
 
-- Multiple coordinate candidates existed; normalized record uses the strongest single anchor.
+- Regional umbrella record, not a single site.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

@@ -12,7 +12,6 @@
 - Site name: 15 Avenue C
 - Street address: 15 Avenue C
 - Detail: 15 Avenue C, Manhattan, NY
-- Current-site status: unknown — 15 Avenue C, Manhattan, NY
 
 ### Linked ancestors
 
@@ -20,6 +19,6 @@
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

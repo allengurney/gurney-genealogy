@@ -9,8 +9,7 @@
 - Aliases: Hingham, Norfolk
 - Coordinate: 52.5764, 0.9656821626060168 (medium)
 - Roles: landholding / property reference
-- Detail: Gurney's manor, Hingham (held of Henry Lord Morley). | Manor of Hingham-Gurneys (ancient holding from Henry II period, held of heirs of Lords Bardolf). | Hingham-Gurneys manor.
-- Current-site status: unknown — Gurney's manor, Hingham (held of Henry Lord Morley). | Manor of Hingham-Gurneys (ancient holding from Henry II period, held of heirs of Lords Bardolf). | Hingham-Gurneys manor.
+- Detail: Manor of Hingham-Gurneys, an ancient junior-line holding later held of the Bardolf and Morley interests.
 
 ### Linked ancestors
 
@@ -20,7 +19,6 @@
 
 ### Review notes
 
-- Merged inherited note text detected; verify and split in pass 2 if needed.
-- Merged date span detected; verify whether multiple generations were compressed together.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

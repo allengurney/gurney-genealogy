@@ -46,7 +46,6 @@ Fordham had **eleven *bordarii* and four *servi*** per the Domesday entry (cited
 - Coordinate: 51.917, 0.801 (low)
 - Roles: landholding / property reference
 - Detail: Fordham, Essex (Domesday 1086).
-- Current-site status: unknown — Fordham, Essex (Domesday 1086).
 
 ### Linked ancestors
 
@@ -54,6 +53,6 @@ Fordham had **eleven *bordarii* and four *servi*** per the Domesday entry (cited
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

@@ -58,13 +58,12 @@ Depden, Suffolk, was held by the Wauncy family (Katherine Wauncy's family) and e
 ## Place registry
 
 - `placeId`: `place-suffolk-england`
-- Short description: Ancestral landholding
+- Short description: Regional holdings context
 - Place type: region
 - Aliases: Suffolk
 - Coordinate: 52.188, 1.005 (low)
 - Roles: landholding / property reference
 - Detail: Lands in Suffolk held under Manasser de Dampmartin (Liber Niger Scaccarii, vol. i, p.298).
-- Current-site status: unknown — Lands in Suffolk held under Manasser de Dampmartin (Liber Niger Scaccarii, vol. i, p.298).
 
 ### Linked ancestors
 
@@ -72,6 +71,6 @@ Depden, Suffolk, was held by the Wauncy family (Katherine Wauncy's family) and e
 
 ### Review notes
 
-- None in normalization pass v1.
+- Regional umbrella record, not a single site.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

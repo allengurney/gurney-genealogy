@@ -10,7 +10,6 @@
 - Coordinate: 38.627, -90.1994 (high)
 - Roles: residence
 - Detail: from 1995-2006 St. Louis, MO
-- Current-site status: unknown — from 1995-2006 St. Louis, MO
 
 ### Linked ancestors
 
@@ -18,6 +17,6 @@
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

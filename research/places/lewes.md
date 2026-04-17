@@ -54,7 +54,6 @@ The Crusade journey (1270) is the traditional origin of the Gurney family coat o
 - Coordinate: 50.873, 0.0087 (high)
 - Roles: individual geography
 - Detail: Battle of Lewes, 1264
-- Current-site status: unknown — Battle of Lewes, 1264
 - Links: [Battle of Lewes](https://en.wikipedia.org/wiki/Battle_of_Lewes)
 
 ### Linked ancestors
@@ -63,6 +62,6 @@ The Crusade journey (1270) is the traditional origin of the Gurney family coat o
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

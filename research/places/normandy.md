@@ -4,25 +4,22 @@
 ## Place registry
 
 - `placeId`: `place-normandy-france`
-- Short description: Ancestral landholding
+- Short description: Regional holdings context
 - Place type: region
 - Aliases: Normandy
 - Coordinate: 49.654653, 1.611621 (medium)
-- Roles: individual geography, landholding / property reference
+- Roles: landholding / property reference, individual geography
 - Site name: Clairruissel Priory
-- Detail: Clairruissel Priory, Normandy — founded with second wife Melisende de Coucy.
+- Detail: Regional umbrella record for Norman holdings and priory contexts not yet assigned to a tighter single place.
 - Current-site status: site only — Clairruissel Priory, Normandy — founded with second wife Melisende de Coucy.
 
 ### Linked ancestors
 
-- G32 Hugh de Gournay IV (Senior Baron Line) — individual geography
-- G32 Hugh de Gournay IV (Senior Baron Line) — landholding / property reference
-- G32 Hugh de Gournay V (Senior Baron Line) — individual geography
-- G32 Hugh de Gournay V (Senior Baron Line) — landholding / property reference
+- G32 Hugh de Gournay IV (Senior Baron Line) — landholding / property reference, individual geography
+- G32 Hugh de Gournay V (Senior Baron Line) — landholding / property reference, individual geography
 
 ### Review notes
 
-- Multiple coordinate candidates existed; normalized record uses the strongest single anchor.
-- Multiple sub-site labels were merged under one canonical place.
+- Regional umbrella record, not a single site.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

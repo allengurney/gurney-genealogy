@@ -70,6 +70,6 @@ No direct-line Gurney held La Ferté after Gautier — the site passed to the de
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

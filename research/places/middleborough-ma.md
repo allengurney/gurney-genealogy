@@ -7,24 +7,18 @@
 - Short description: Ancestral landholding
 - Place type: locality
 - Aliases: Middleborough, MA, Middleboro, MA
-- Coordinate: 41.8934, -70.90582646163827 (high)
-- Roles: individual geography, landholding / property reference
-- Detail: With father (Gen.11), bought land from Samuel Tinkham, Middleboro, 28 Oct. 1730 — 3 lots of upland + 1 lot meadow ~2 acres (Plym. Reg. 39:79). Sold 3 May 1749 after father's death. | 8 acres Middleboro from Sam Eddy Jr., 7 Nov. 1731 (Plym.…
-- Current-site status: unknown — With father (Gen.11), bought land from Samuel Tinkham, Middleboro, 28 Oct. 1730 — 3 lots of upland + 1 lot meadow ~2 acres (Plym. Reg. 39:79). Sold 3…
+- Coordinate: 41.8934, -70.91657353836172 (high)
+- Roles: landholding / property reference, individual geography
+- Detail: Middleborough land purchases and later sales associated with the Benjamin Gurney family in the 1730s and 1740s.
 
 ### Linked ancestors
 
-- G10 Benjamin Gurney — individual geography
-- G10 Benjamin Gurney — landholding / property reference
-- G11 Benjamin Gurney — individual geography
-- G11 Benjamin Gurney — landholding / property reference
-- G9 Benjamin Gurney — individual geography
-- G9 Benjamin Gurney — landholding / property reference
+- G10 Benjamin Gurney — landholding / property reference, individual geography
+- G11 Benjamin Gurney — landholding / property reference, individual geography
+- G9 Benjamin Gurney — landholding / property reference, individual geography
 
 ### Review notes
 
-- Merged inherited note text detected; verify and split in pass 2 if needed.
-- Merged date span detected; verify whether multiple generations were compressed together.
-- Multiple coordinate candidates existed; normalized record uses the strongest single anchor.
+- Town-level record aggregates multiple deeded parcels.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

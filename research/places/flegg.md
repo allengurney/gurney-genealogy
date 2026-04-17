@@ -8,17 +8,15 @@
 - Place type: locality
 - Aliases: Flegg, Norfolk
 - Coordinate: 52.668, 1.61 (low)
-- Roles: individual geography, landholding / property reference
+- Roles: landholding / property reference, individual geography
 - Detail: Flegg, Norfolk (English manors).
-- Current-site status: unknown — Flegg, Norfolk (English manors).
 
 ### Linked ancestors
 
-- G32 Hugh de Gournay V (Senior Baron Line) — individual geography
-- G32 Hugh de Gournay V (Senior Baron Line) — landholding / property reference
+- G32 Hugh de Gournay V (Senior Baron Line) — landholding / property reference, individual geography
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

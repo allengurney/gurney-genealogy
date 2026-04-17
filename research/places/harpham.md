@@ -10,7 +10,6 @@
 - Coordinate: 52.834, 0.886 (low)
 - Roles: landholding / property reference
 - Detail: Harpham manor (purchased 1587; presented to church 1588, 1602).
-- Current-site status: unknown — Harpham manor (purchased 1587; presented to church 1588, 1602).
 
 ### Linked ancestors
 
@@ -18,6 +17,6 @@
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

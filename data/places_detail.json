@@ -6,7 +6,7 @@
     "siteName": "15 Avenue C",
     "streetAddress": "15 Avenue C",
     "extantStatus": "unknown",
-    "extantStatusDescription": "15 Avenue C, Manhattan, NY",
+    "extantStatusDescription": "",
     "coordinateBasis": "modern street address",
     "imageUrl": "",
     "imageTitle": "",
@@ -21,7 +21,7 @@
     "siteName": "155 Henry Street",
     "streetAddress": "155 Henry Street",
     "extantStatus": "unknown",
-    "extantStatusDescription": "155 Henry Street, Manhattan, NY",
+    "extantStatusDescription": "",
     "coordinateBasis": "modern street address",
     "imageUrl": "",
     "imageTitle": "",
@@ -96,15 +96,13 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Abington, MA",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
-    "reviewNotes": [
-      "Multiple coordinate candidates existed; normalized record uses the strongest single anchor."
-    ]
+    "reviewNotes": []
   },
   {
     "placeId": "place-abington-whitman-line-massachusetts-usa",
@@ -113,7 +111,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Abington/Whitman, MA",
+    "extantStatusDescription": "",
     "coordinateBasis": "inferred locality centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -128,7 +126,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Ardleigh, Essex (Domesday 1086).",
+    "extantStatusDescription": "",
     "coordinateBasis": "village centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -143,7 +141,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Advowson, third part of Attleborough church (presented 1581).",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -158,49 +156,48 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Bedfordshire",
+    "extantStatusDescription": "",
     "coordinateBasis": "county centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
-    "reviewNotes": []
+    "reviewNotes": [
+      "Regional umbrella record, not a single site."
+    ]
   },
   {
     "placeId": "place-braintree-massachusetts-usa",
     "placeName": "Braintree, Massachusetts, USA",
-    "longDescription": "48 acres at Braintree 'in the possession of John Gurney' — Tyng inventory 25 May 1653 (NEHGR 30:432). Tenant, not owner. | Sold land in Braintree 12 Feb. 1661 (deed witnessed by son John Jr.).",
+    "longDescription": "Massachusetts town where immigrant John Gurney held land, including acreage noted in his possession in 1653, and sold property in 1661.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "48 acres at Braintree 'in the possession of John Gurney' — Tyng inventory 25 May 1653 (NEHGR 30:432). Tenant, not owner. | Sold land in Braintree 12 Feb.…",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
     "reviewNotes": [
-      "Merged inherited note text detected; verify and split in pass 2 if needed.",
-      "Multiple coordinate candidates existed; normalized record uses the strongest single anchor."
+      "Possession versus ownership should stay explicit in later source cleanup."
     ]
   },
   {
     "placeId": "place-bridgewater-massachusetts-usa",
     "placeName": "Bridgewater, Massachusetts, USA",
-    "longDescription": "Richard Williams farm on Abington-Bridgewater line — purchased 8 Sept. 1726 from Samuel Staples of Scituate (Plym. Deeds 25:79). | Granny Gurney's Swamp — low ground near Abington-Bridgewater line, named after Rebecca's fire incident — not owned but named for the family. | Land at…",
+    "longDescription": "Bridgewater-area holdings tied to the Benjamin/Richard Gurney line, including the Richard Williams farm and other town-level parcel references.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Richard Williams farm on Abington-Bridgewater line — purchased 8 Sept. 1726 from Samuel Staples of Scituate (Plym. Deeds 25:79). | Granny Gurney's Swamp — low ground near Abington-Bridgewater…",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
     "reviewNotes": [
-      "Merged inherited note text detected; verify and split in pass 2 if needed.",
-      "Merged date span detected; verify whether multiple generations were compressed together.",
-      "Multiple coordinate candidates existed; normalized record uses the strongest single anchor."
+      "Town-level record aggregates multiple parcels and named sub-places; parcel-level cleanup remains possible."
     ]
   },
   {
@@ -210,13 +207,15 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Buckinghamshire",
+    "extantStatusDescription": "",
     "coordinateBasis": "county centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
-    "reviewNotes": []
+    "reviewNotes": [
+      "Regional umbrella record, not a single site."
+    ]
   },
   {
     "placeId": "place-burnham-thorpe-norfolk-england",
@@ -225,7 +224,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Burnham Thorpe, Norfolk — died here (suggests land interest in this village, birthplace of Admiral Lord Nelson three centuries later).",
+    "extantStatusDescription": "",
     "coordinateBasis": "village centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -240,7 +239,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Caister, Norfolk (English holdings documented).",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -255,7 +254,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Cantley, Norfolk — documented holding.",
+    "extantStatusDescription": "",
     "coordinateBasis": "village centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -270,7 +269,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Charleston SC",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -281,38 +280,35 @@
   {
     "placeId": "place-city-of-london-england",
     "placeName": "City of London, England",
-    "longDescription": "Parish of St. Benet Fink, City of London — commercial premises (leased; church demolished 1844, site now Bank of England east wing).",
+    "longDescription": "City of London commercial context linked to St Benet Fink parish and the La Selde Coronata warehouse tradition.",
     "siteName": "St Benet Fink",
     "streetAddress": "",
     "extantStatus": "site only",
-    "extantStatusDescription": "Parish of St. Benet Fink, City of London — commercial premises (leased; church demolished 1844, site now Bank of England east wing).",
+    "extantStatusDescription": "St Benet Fink church is lost; the historic site lies within the modern Bank of England east-wing area.",
     "coordinateBasis": "exact historical church site",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Benet_fink_godwin.jpg/250px-Benet_fink_godwin.jpg",
     "imageTitle": "St Benet Fink (historic image)",
     "heritageUrl": "https://en.wikipedia.org/wiki/St_Benet_Fink",
     "heritageLabel": "Reference page",
     "reviewNotes": [
-      "Multiple coordinate candidates existed; normalized record uses the strongest single anchor.",
-      "Multiple sub-site labels were merged under one canonical place."
+      "City-level record aggregates more than one London sub-site; keep the narrative file for separation."
     ]
   },
   {
     "placeId": "place-cummington-massachusetts-usa",
     "placeName": "Cummington, Massachusetts, USA",
-    "longDescription": "Farm land in Cummington, Hampshire Co., MA — specific parcel not documented | Land in Abington, MA (sold June 1770 upon move to Cummington) | Springfield, MA records: purchased land in Town #5 (Cummington) with Silas Reed, 5 Nov | In 1787 exchanged farms with…",
+    "longDescription": "Cummington farm holdings associated with the Benjamin/Amos Gurney family after their move from Abington.",
     "siteName": "Dawes Cemetery",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Farm land in Cummington, Hampshire Co., MA — specific parcel not documented | Land in Abington, MA (sold June 1770 upon move to Cummington) | Springfield, MA records…",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
     "reviewNotes": [
-      "Merged inherited note text detected; verify and split in pass 2 if needed.",
-      "Merged date span detected; verify whether multiple generations were compressed together.",
-      "Multiple coordinate candidates existed; normalized record uses the strongest single anchor."
+      "Town-level record aggregates several family-era parcels and later cemetery context."
     ]
   },
   {
@@ -322,7 +318,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "From 2000-2013 Dexter, MI",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -337,13 +333,15 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Essex",
+    "extantStatusDescription": "",
     "coordinateBasis": "county centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
-    "reviewNotes": []
+    "reviewNotes": [
+      "Regional umbrella record, not a single site."
+    ]
   },
   {
     "placeId": "place-flegg-norfolk-england",
@@ -352,7 +350,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Flegg, Norfolk (English manors).",
+    "extantStatusDescription": "",
     "coordinateBasis": "regional centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -363,20 +361,18 @@
   {
     "placeId": "place-flushing-queens-new-york-usa",
     "placeName": "Flushing, Queens, New York, USA",
-    "longDescription": "Likely rented residential in Flushing and later Manhattan. | Unknown whether owned or rented Flushing premises",
+    "longDescription": "Probable residential base of the Willis/William Gurney family before later Manhattan addresses; ownership versus rental remains unresolved.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Likely rented residential in Flushing and later Manhattan. | Unknown whether owned or rented Flushing premises",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
     "reviewNotes": [
-      "Merged inherited note text detected; verify and split in pass 2 if needed.",
-      "Merged date span detected; verify whether multiple generations were compressed together.",
-      "Multiple coordinate candidates existed; normalized record uses the strongest single anchor."
+      "Residence versus ownership status remains unresolved and should be revisited with directory and property work."
     ]
   },
   {
@@ -386,7 +382,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Fordham, Essex (Domesday 1086).",
+    "extantStatusDescription": "",
     "coordinateBasis": "village centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -401,7 +397,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "From 2020 to 2025 Fort Wayne, IN",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -412,59 +408,47 @@
   {
     "placeId": "place-gournay-en-bray-normandy-france",
     "placeName": "Gournay-en-Bray, Normandy, France",
-    "longDescription": "Norman territory (the great fief/honour of Bray, including Gournay-en-Bray fortress) — lost when Philip Augustus expelled the English from Normandy in 1204. | Gournay-en-Bray seigneury, Normandy — the ancestral fortress town. | Gournay-en-Bray seigneury and surrounding Pays de Bray, Normandy. | Gournay-en-Bray fortress town and…",
+    "longDescription": "Ancestral fortress town and seigneury of the Gournay family in the Pays de Bray.",
     "siteName": "Collégiale Saint-Hildevert",
     "streetAddress": "",
     "extantStatus": "extant",
-    "extantStatusDescription": "Norman territory (the great fief/honour of Bray, including Gournay-en-Bray fortress) — lost when Philip Augustus expelled the English from Normandy in 1204. | Gournay-en-Bray seigneury, Normandy — the…",
-    "coordinateBasis": "exact church site used as historic town anchor",
+    "extantStatusDescription": "Modern town survives; the church site is used as the best historic anchor for the lost fortress town.",
+    "coordinateBasis": "town centroid",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg",
     "imageTitle": "Collégiale Saint-Hildevert, Gournay-en-Bray",
     "heritageUrl": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/",
     "heritageLabel": "Heritage page",
-    "reviewNotes": [
-      "Merged inherited note text detected; verify and split in pass 2 if needed.",
-      "Merged date span detected; verify whether multiple generations were compressed together.",
-      "Multiple coordinate candidates existed; normalized record uses the strongest single anchor."
-    ]
+    "reviewNotes": []
   },
   {
     "placeId": "place-great-ellingham-norfolk-england",
     "placeName": "Great Ellingham, Norfolk, England",
-    "longDescription": "Great Ellingham manor (held from Bishop of Norwich). | Great Ellingham manor, Norfolk. | Great Ellingham manor, Norfolk — acquired via marriage to Margaret Lovell (she and her sister co-heiresses of Sir Robert Lovell; through her mother of families Conyers of Finningham and Fitz-Ralf).",
+    "longDescription": "Great Ellingham manor, later associated with the Lovell inheritance through Margaret Lovell.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Great Ellingham manor (held from Bishop of Norwich). | Great Ellingham manor, Norfolk. | Great Ellingham manor, Norfolk — acquired via marriage to Margaret Lovell (she and her…",
+    "extantStatusDescription": "",
     "coordinateBasis": "village centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
-    "reviewNotes": [
-      "Merged inherited note text detected; verify and split in pass 2 if needed.",
-      "Merged date span detected; verify whether multiple generations were compressed together.",
-      "Multiple coordinate candidates existed; normalized record uses the strongest single anchor."
-    ]
+    "reviewNotes": []
   },
   {
     "placeId": "place-hardingham-norfolk-england",
     "placeName": "Hardingham, Norfolk, England",
-    "longDescription": "Swathings manor in Hardingham, Norfolk — mesne lord under the senior Gournay line (documented from reign of Henry II per Daniel Gurney's Record). | Hardingham manor, Norfolk (inherited from Gen.22). | Hardingham manor, Norfolk. | Swathings in Hardingham — documented as mesne Gurney holding from…",
+    "longDescription": "Swathings in Hardingham, a long-running junior-line holding documented from the Henry II period onward.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Swathings manor in Hardingham, Norfolk — mesne lord under the senior Gournay line (documented from reign of Henry II per Daniel Gurney's Record). | Hardingham manor, Norfolk (inherited…",
+    "extantStatusDescription": "",
     "coordinateBasis": "village centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
-    "reviewNotes": [
-      "Merged inherited note text detected; verify and split in pass 2 if needed.",
-      "Merged date span detected; verify whether multiple generations were compressed together.",
-      "Multiple coordinate candidates existed; normalized record uses the strongest single anchor."
-    ]
+    "reviewNotes": []
   },
   {
     "placeId": "place-harpham-norfolk-england",
@@ -473,7 +457,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Harpham manor (purchased 1587; presented to church 1588, 1602).",
+    "extantStatusDescription": "",
     "coordinateBasis": "village centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -484,21 +468,17 @@
   {
     "placeId": "place-harpley-norfolk-england",
     "placeName": "Harpley, Norfolk, England",
-    "longDescription": "Gurney's manor in Harpley, Norfolk — acquired c.1183 through marriage to Rose de Burnham (given by Hameline Earl Warren). DG Record Part I, pp.278-279. Blomefield, History of Norfolk.",
+    "longDescription": "Gurney's manor in Harpley, acquired c.1183 through Rose de Burnham and the Hameline de Warenne connection.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Gurney's manor in Harpley, Norfolk — acquired c.1183 through marriage to Rose de Burnham (given by Hameline Earl Warren). DG Record Part I, pp.278-279. Blomefield, History of Norfolk.",
+    "extantStatusDescription": "",
     "coordinateBasis": "village centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459",
     "heritageLabel": "Blomefield: Harpley",
-    "reviewNotes": [
-      "Merged inherited note text detected; verify and split in pass 2 if needed.",
-      "Merged date span detected; verify whether multiple generations were compressed together.",
-      "Multiple coordinate candidates existed; normalized record uses the strongest single anchor."
-    ]
+    "reviewNotes": []
   },
   {
     "placeId": "place-hellesdon-norfolk-england",
@@ -507,7 +487,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Heylesdon manors, Norfolk (from wife Alice Heylesdon, d/o wealthy London mercer/Alderman John Heylesdon).",
+    "extantStatusDescription": "",
     "coordinateBasis": "village centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -518,20 +498,17 @@
   {
     "placeId": "place-hingham-norfolk-england",
     "placeName": "Hingham, Norfolk, England",
-    "longDescription": "Gurney's manor, Hingham (held of Henry Lord Morley). | Manor of Hingham-Gurneys (ancient holding from Henry II period, held of heirs of Lords Bardolf). | Hingham-Gurneys manor.",
+    "longDescription": "Manor of Hingham-Gurneys, an ancient junior-line holding later held of the Bardolf and Morley interests.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Gurney's manor, Hingham (held of Henry Lord Morley). | Manor of Hingham-Gurneys (ancient holding from Henry II period, held of heirs of Lords Bardolf). | Hingham-Gurneys manor.",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
-    "reviewNotes": [
-      "Merged inherited note text detected; verify and split in pass 2 if needed.",
-      "Merged date span detected; verify whether multiple generations were compressed together."
-    ]
+    "reviewNotes": []
   },
   {
     "placeId": "place-indianapolis-indiana-usa",
@@ -540,7 +517,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "From 1996-c 2000 Indianapolis, IN",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -551,40 +528,32 @@
   {
     "placeId": "place-irstead-norfolk-england",
     "placeName": "Irstead, Norfolk, England",
-    "longDescription": "Irsted manor (held of Bishop of Norwich; sold to Sir Peter Gleane before 1632 by son/grandson). | Irsted manor, Norfolk. | Irsted manor, Norfolk (primary documented holding).",
+    "longDescription": "Irstead manor, a primary documented later junior-line holding in Norfolk.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Irsted manor (held of Bishop of Norwich; sold to Sir Peter Gleane before 1632 by son/grandson). | Irsted manor, Norfolk. | Irsted manor, Norfolk (primary documented holding).",
+    "extantStatusDescription": "",
     "coordinateBasis": "village centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
-    "reviewNotes": [
-      "Merged inherited note text detected; verify and split in pass 2 if needed.",
-      "Merged date span detected; verify whether multiple generations were compressed together.",
-      "Multiple coordinate candidates existed; normalized record uses the strongest single anchor."
-    ]
+    "reviewNotes": []
   },
   {
     "placeId": "place-kings-lynn-norfolk-england",
     "placeName": "King's Lynn, Norfolk, England",
-    "longDescription": "Attempted textile manufacture: desecrated St. James's Church, King's Lynn, Norfolk — leased from Lynn corporation (failed enterprise; Sir Hamon Lestrange paid his £100 bond c.1625).",
+    "longDescription": "St James's Chapel site in King's Lynn, leased for a failed textile-manufacture venture in the early seventeenth century.",
     "siteName": "St James's Chapel ruins",
     "streetAddress": "",
     "extantStatus": "ruins",
-    "extantStatusDescription": "Attempted textile manufacture: desecrated St. James's Church, King's Lynn, Norfolk — leased from Lynn corporation (failed enterprise; Sir Hamon Lestrange paid his £100 bond c.1625).",
+    "extantStatusDescription": "Ruins of St James's Chapel survive and provide the historic site anchor.",
     "coordinateBasis": "exact historical chapel ruins",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1298188",
     "heritageLabel": "Historic England",
-    "reviewNotes": [
-      "Merged inherited note text detected; verify and split in pass 2 if needed.",
-      "Merged date span detected; verify whether multiple generations were compressed together.",
-      "Multiple coordinate candidates existed; normalized record uses the strongest single anchor."
-    ]
+    "reviewNotes": []
   },
   {
     "placeId": "place-la-ferte-en-bray-normandy-france",
@@ -623,7 +592,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Lessingham Priory, Norfolk — founded, attached to Abbey of Bec.",
+    "extantStatusDescription": "",
     "coordinateBasis": "village centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -638,7 +607,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Battle of Lewes, 1264",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -653,7 +622,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Liston, Essex (Domesday 1086 — held directly of the king).",
+    "extantStatusDescription": "",
     "coordinateBasis": "village centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -668,7 +637,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "From 1970 to 2020 Marion, IN",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -683,7 +652,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Grissell applied for John's Mendon lot after his death (NEHGR 22:44).",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -694,20 +663,18 @@
   {
     "placeId": "place-middleborough-massachusetts-usa",
     "placeName": "Middleborough, Massachusetts, USA",
-    "longDescription": "With father (Gen.11), bought land from Samuel Tinkham, Middleboro, 28 Oct. 1730 — 3 lots of upland + 1 lot meadow ~2 acres (Plym. Reg. 39:79). Sold 3 May 1749 after father's death. | 8 acres Middleboro from Sam Eddy Jr., 7 Nov. 1731 (Plym.…",
+    "longDescription": "Middleborough land purchases and later sales associated with the Benjamin Gurney family in the 1730s and 1740s.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "With father (Gen.11), bought land from Samuel Tinkham, Middleboro, 28 Oct. 1730 — 3 lots of upland + 1 lot meadow ~2 acres (Plym. Reg. 39:79). Sold 3…",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
     "reviewNotes": [
-      "Merged inherited note text detected; verify and split in pass 2 if needed.",
-      "Merged date span detected; verify whether multiple generations were compressed together.",
-      "Multiple coordinate candidates existed; normalized record uses the strongest single anchor."
+      "Town-level record aggregates multiple deeded parcels."
     ]
   },
   {
@@ -717,7 +684,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Montigny-sur-Andelle, Normandy — held in parage, proof of descent from Barons of Gournay.",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -728,43 +695,41 @@
   {
     "placeId": "place-new-york-metropolitan-area-usa",
     "placeName": "New York metropolitan area, USA",
-    "longDescription": "New York area",
+    "longDescription": "Regional umbrella record for the family's broader New York-area geography before and beyond specific city addresses.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "New York area",
+    "extantStatusDescription": "",
     "coordinateBasis": "regional centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
     "reviewNotes": [
-      "Multiple coordinate candidates existed; normalized record uses the strongest single anchor."
+      "Regional umbrella record, not a single site."
     ]
   },
   {
     "placeId": "place-norfolk-england",
     "placeName": "Norfolk, England",
-    "longDescription": "Total estate at death: 8 manors in Norfolk + 1 in Suffolk (History of Parliament). | Three knights' fees in Norfolk (documented Pipe Rolls). | Norfolk manors inherited from Hugh III (Gen.27) then expanded through Edith de Warenne marriage connection. | Norfolk manors (granted post-Conquest…",
+    "longDescription": "County-level umbrella record for dispersed Norfolk holdings; use individual manor and village files for site-specific work.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Total estate at death: 8 manors in Norfolk + 1 in Suffolk (History of Parliament). | Three knights' fees in Norfolk (documented Pipe Rolls). | Norfolk manors inherited…",
+    "extantStatusDescription": "",
     "coordinateBasis": "county centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
     "reviewNotes": [
-      "Merged inherited note text detected; verify and split in pass 2 if needed.",
-      "Merged date span detected; verify whether multiple generations were compressed together.",
-      "Multiple coordinate candidates existed; normalized record uses the strongest single anchor."
+      "Regional umbrella record, not a single site."
     ]
   },
   {
     "placeId": "place-normandy-france",
     "placeName": "Normandy, France",
-    "longDescription": "Clairruissel Priory, Normandy — founded with second wife Melisende de Coucy.",
+    "longDescription": "Regional umbrella record for Norman holdings and priory contexts not yet assigned to a tighter single place.",
     "siteName": "Clairruissel Priory",
     "streetAddress": "",
     "extantStatus": "site only",
@@ -775,27 +740,24 @@
     "heritageUrl": "",
     "heritageLabel": "",
     "reviewNotes": [
-      "Multiple coordinate candidates existed; normalized record uses the strongest single anchor.",
-      "Multiple sub-site labels were merged under one canonical place."
+      "Regional umbrella record, not a single site."
     ]
   },
   {
     "placeId": "place-oxfordshire-england",
     "placeName": "Oxfordshire, England",
-    "longDescription": "Manors in Oxfordshire, Buckinghamshire, and Bedfordshire (documented in Curia Regis Rolls and Testa de Nevill). | Manors in Buckinghamshire, Bedfordshire, and Oxfordshire (Red Book of the Exchequer).",
+    "longDescription": "County-level umbrella record for scattered Oxfordshire holdings documented in royal and exchequer records.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Manors in Oxfordshire, Buckinghamshire, and Bedfordshire (documented in Curia Regis Rolls and Testa de Nevill). | Manors in Buckinghamshire, Bedfordshire, and Oxfordshire (Red Book of the Exchequer).",
+    "extantStatusDescription": "",
     "coordinateBasis": "county centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
     "reviewNotes": [
-      "Merged inherited note text detected; verify and split in pass 2 if needed.",
-      "Merged date span detected; verify whether multiple generations were compressed together.",
-      "Multiple coordinate candidates existed; normalized record uses the strongest single anchor."
+      "Regional umbrella record, not a single site."
     ]
   },
   {
@@ -805,7 +767,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "until 1970 Port Washington, NY",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -820,7 +782,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "From 2006-current Portland, OR",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -835,7 +797,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Homestead farm, Rochester, MA — sons Lemuel, Benjamin & Levi divided it 1 Jan. 1800 (Plym. Co. land deed 95:139, GS film 559,140).",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -865,7 +827,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "'Loundhall' in Saxthorpe, Norfolk.",
+    "extantStatusDescription": "",
     "coordinateBasis": "village centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -876,18 +838,18 @@
   {
     "placeId": "place-scandinavia",
     "placeName": "Scandinavia",
-    "longDescription": "Scandinavia — Denmark or Norway (unknown)",
+    "longDescription": "Broad Scandinavian origin context, more specifically Denmark or Norway, without a tighter attested locality.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Scandinavia — Denmark or Norway (unknown)",
+    "extantStatusDescription": "",
     "coordinateBasis": "regional centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
     "reviewNotes": [
-      "Multiple coordinate candidates existed; normalized record uses the strongest single anchor."
+      "Origin-region record only; no tighter locality is established yet."
     ]
   },
   {
@@ -897,7 +859,7 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "from 1995-2006 St. Louis, MO",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
@@ -912,50 +874,46 @@
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Lands in Suffolk held under Manasser de Dampmartin (Liber Niger Scaccarii, vol. i, p.298).",
+    "extantStatusDescription": "",
     "coordinateBasis": "county centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
-    "reviewNotes": []
+    "reviewNotes": [
+      "Regional umbrella record, not a single site."
+    ]
   },
   {
     "placeId": "place-west-barsham-norfolk-england",
     "placeName": "West Barsham, Norfolk, England",
-    "longDescription": "West Barsham Hall, Norfolk",
+    "longDescription": "Principal Gurney family seat from 1372 until Francis Gurney sold the Norfolk lands in 1634.",
     "siteName": "West Barsham Hall",
     "streetAddress": "",
     "extantStatus": "extant",
-    "extantStatusDescription": "West Barsham Hall, Norfolk",
+    "extantStatusDescription": "Surviving north wing of West Barsham Hall still marks the historic manor site.",
     "coordinateBasis": "exact extant hall site",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg",
     "imageTitle": "West Barsham Hall",
     "heritageUrl": "https://www.geograph.org.uk/photo/2122114",
     "heritageLabel": "Photo / site reference",
-    "reviewNotes": [
-      "Merged inherited note text detected; verify and split in pass 2 if needed.",
-      "Merged date span detected; verify whether multiple generations were compressed together.",
-      "Multiple coordinate candidates existed; normalized record uses the strongest single anchor."
-    ]
+    "reviewNotes": []
   },
   {
     "placeId": "place-weymouth-massachusetts-usa",
     "placeName": "Weymouth, Massachusetts, USA",
-    "longDescription": "Lands granted in Weymouth before 1642–44: 'in the East field,' 'in the mill field,' 'on the east side of Great Pond' (Hist. of Weymouth). | East field, mill field, east side of Great Pond — Weymouth (granted retrospectively c. 3 Feb. 1651-52; properties later granted…",
+    "longDescription": "Early Massachusetts grants in Weymouth included the East Field, Mill Field, and land near Great Pond.",
     "siteName": "Great Pond",
     "streetAddress": "",
     "extantStatus": "unknown",
-    "extantStatusDescription": "Lands granted in Weymouth before 1642–44: 'in the East field,' 'in the mill field,' 'on the east side of Great Pond' (Hist. of Weymouth). | East field, mill…",
+    "extantStatusDescription": "",
     "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
     "reviewNotes": [
-      "Merged inherited note text detected; verify and split in pass 2 if needed.",
-      "Merged date span detected; verify whether multiple generations were compressed together.",
-      "Multiple coordinate candidates existed; normalized record uses the strongest single anchor."
+      "Town-level record aggregates multiple field and pond-side grants rather than a single parcel."
     ]
   }
 ]

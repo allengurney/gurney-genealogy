@@ -4,12 +4,11 @@
 ## Place registry
 
 - `placeId`: `place-scandinavia`
-- Short description: Associated ancestral place
+- Short description: Regional holdings context
 - Place type: region
 - Coordinate: 60.5, 14.49187691182128 (low)
 - Roles: individual geography
-- Detail: Scandinavia — Denmark or Norway (unknown)
-- Current-site status: unknown — Scandinavia — Denmark or Norway (unknown)
+- Detail: Broad Scandinavian origin context, more specifically Denmark or Norway, without a tighter attested locality.
 
 ### Linked ancestors
 
@@ -18,6 +17,6 @@
 
 ### Review notes
 
-- Multiple coordinate candidates existed; normalized record uses the strongest single anchor.
+- Origin-region record only; no tighter locality is established yet.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

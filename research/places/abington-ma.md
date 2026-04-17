@@ -10,7 +10,6 @@
 - Coordinate: 42.1043, -70.94130862327691 (high)
 - Roles: individual geography
 - Detail: Abington, MA
-- Current-site status: unknown — Abington, MA
 
 ### Linked ancestors
 
@@ -20,6 +19,6 @@
 
 ### Review notes
 
-- Multiple coordinate candidates existed; normalized record uses the strongest single anchor.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

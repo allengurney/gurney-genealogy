@@ -10,7 +10,6 @@
 - Coordinate: 40.8257, -73.6982 (high)
 - Roles: residence
 - Detail: until 1970 Port Washington, NY
-- Current-site status: unknown — until 1970 Port Washington, NY
 
 ### Linked ancestors
 
@@ -18,6 +17,6 @@
 
 ### Review notes
 
-- None in normalization pass v1.
+- None in cleanup pass 2.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

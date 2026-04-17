@@ -8,21 +8,16 @@
 - Place type: locality
 - Aliases: Flushing, NY, Flushing, Queens, NY, Flushing, Queens
 - Coordinate: 40.7675, -73.8278185347045 (high)
-- Roles: individual geography, landholding / property reference
-- Detail: Likely rented residential in Flushing and later Manhattan. | Unknown whether owned or rented Flushing premises
-- Current-site status: unknown — Likely rented residential in Flushing and later Manhattan. | Unknown whether owned or rented Flushing premises
+- Roles: landholding / property reference, individual geography
+- Detail: Probable residential base of the Willis/William Gurney family before later Manhattan addresses; ownership versus rental remains unresolved.
 
 ### Linked ancestors
 
-- G6 Brigadier General William Gurney — individual geography
-- G6 Brigadier General William Gurney — landholding / property reference
-- G7 Willis Gurney — individual geography
-- G7 Willis Gurney — landholding / property reference
+- G6 Brigadier General William Gurney — landholding / property reference, individual geography
+- G7 Willis Gurney — landholding / property reference, individual geography
 
 ### Review notes
 
-- Merged inherited note text detected; verify and split in pass 2 if needed.
-- Merged date span detected; verify whether multiple generations were compressed together.
-- Multiple coordinate candidates existed; normalized record uses the strongest single anchor.
+- Residence versus ownership status remains unresolved and should be revisited with directory and property work.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->
