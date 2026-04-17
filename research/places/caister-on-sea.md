@@ -4,6 +4,12 @@ Coastal village on the east Norfolk coast, England. Coordinates: **52.6488, 1.72
 
 One of the **English holdings acquired by Gerard de Gournay (G32)** through his marriage to Edith de Warenne and the subsequent post-Conquest settlement. Described in DG as a Gournay *caput baroniae* ("head of the barony") in Norfolk.
 
+## Why this place matters structurally
+
+Caister-on-Sea is the strongest candidate for the **centre of Gerard de Gournay's Norfolk baronial cluster**. In the normalized place set it should therefore stand slightly above Cantley and alongside Lessingham as one of the key English records for G32. If Lessingham is the ecclesiastical extension of the Bec relationship, Caister looks more like the secular and territorial centre of Gerard's English foothold. [DG-I]
+
+That is why the structured layer keeps Caister as a straightforward **Gerard de Gournay holding** rather than trying to fold it into a generic Norfolk umbrella record. It is a specific early English place of consequence in the family's expansion after the Conquest.
+
 ## Gurney ancestors holding here
 
 | Ancestor | Gen | Period | Notes |
@@ -13,6 +19,10 @@ One of the **English holdings acquired by Gerard de Gournay (G32)** through his 
 ## The Warenne connection
 
 Gerard's wife Edith was daughter of William de Warenne, 1st Earl of Surrey — one of the richest men in Domesday England and holder of vast Norfolk and Sussex estates. The Warenne marriage opened English land to the Gournay family substantially; Caister, Cantley, and Lessingham represent the Norfolk portion of that expansion.
+
+## Interpretive note
+
+DG's description of Caister as a *caput baroniae* gives the place more weight than a routine manor entry. The project should continue to preserve that distinction. Even if the exact administrative meaning requires closer source checking later, the record clearly points to Caister as one of Gerard's more important English centres rather than a marginal holding.
 
 ## Post-Gurney tenure
 
@@ -25,6 +35,7 @@ Caister Castle (the fortified manor house built c. 1432–1446 by Sir John Fasto
 ## Open items
 
 - [ ] Blomefield's Norfolk coverage of Caister should be checked for the Warenne-to-Gournay descent and any further Gournay-era detail.
+- [ ] Clarify what DG specifically meant by *caput baroniae* in the Norfolk context.
 - [ ] Does any pre-Fastolf fabric survive on the Caister site that could be photographed for a hero image for G32? Unlikely — Fastolf built a substantially new castle — but worth checking.
 
 ## Sources
