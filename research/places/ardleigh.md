@@ -4,6 +4,12 @@ Village in northern Essex, England (near Colchester). Coordinates: **51.928, 0.9
 
 One of three Essex manors held by **Hugh de Gournay III (G33)** at Domesday (1086).
 
+## Why this place matters structurally
+
+Ardleigh belongs to the **Essex Domesday trio** — Ardleigh, Fordham, and Liston — that together provide the earliest directly documented English landholding cluster for Hugh de Gournay III. On its own Ardleigh is not yet the richest-evidenced of the three, but it remains part of the same evidentiary set and should be read alongside the other two rather than as an isolated manor note. [DG-I] [Hannay]
+
+This is exactly the kind of place where the normalized structure is useful: the JSON can preserve Ardleigh as a clean Domesday manor locality, while the MD can preserve the caution that the record is still thinner here than at Fordham or Liston.
+
 ## Gurney ancestors holding here
 
 | Ancestor | Gen | Period | Notes |
@@ -12,12 +18,17 @@ One of three Essex manors held by **Hugh de Gournay III (G33)** at Domesday (108
 
 ## Domesday detail
 
-Ardleigh is the third of Hugh III's Essex holdings attested at Domesday (alongside Liston and Fordham). Specific Ardleigh hide / valuation detail has not been extracted in the project sources reviewed; the Domesday entry would need to be pulled from Open Domesday.
+Ardleigh is the third of Hugh III's Essex holdings attested at Domesday (alongside Liston and Fordham). Specific Ardleigh hide / valuation detail has not yet been extracted in the project materials reviewed; the Domesday entry still needs to be pulled directly.
+
+## Interpretive caution
+
+Because Ardleigh's project record is still comparatively thin, the place should be treated as a **confirmed Domesday manor locality** but not yet as a richly described manor history. The next gain here will come from a direct Domesday pull rather than from further narrative elaboration without the underlying text.
 
 ## Open items
 
-- [ ] Pull the Domesday Essex entry for Ardleigh (opendomesday.org) for the full Latin text, valuations, and tenant structure.
+- [ ] Pull the Domesday Essex entry for Ardleigh (Open Domesday or a printed edition) for the full Latin text, valuations, and tenant structure.
 - [ ] Check whether Ardleigh remained in Gournay hands after Hugh III.
+- [ ] Compare Ardleigh's valuations and dependencies against Fordham and Liston once the direct entries are extracted.
 
 ## Sources
 
@@ -31,6 +42,7 @@ Ardleigh is the third of Hugh III's Essex holdings attested at Domesday (alongsi
 - `research/people/g33-hugh-de-gournay-iii-fact-sheet.research.md`
 - `research/places/liston.md`
 - `research/places/fordham.md`
+- `research/places/essex.md`
 
 <!-- GENERATED:PLACE-REGISTRY:START -->
 ## Place registry
