@@ -36,12 +36,13 @@ Ardleigh is the third of Hugh III's Essex holdings attested at Domesday (alongsi
 ## Place registry
 
 - `placeId`: `place-ardleigh-essex-england`
-- Short description: Ancestral landholding
+- Short description: Domesday manor locality
 - Place type: locality
 - Aliases: Ardleigh, Essex
 - Coordinate: 51.928, 0.985 (medium)
 - Roles: landholding / property reference
-- Detail: Ardleigh, Essex (Domesday 1086).
+- Detail: Ardleigh, one of the Essex Domesday manors associated with Hugh de Gournay III.
+- Current-site status: unknown
 
 ### Linked ancestors
 
@@ -49,6 +50,6 @@ Ardleigh is the third of Hugh III's Essex holdings attested at Domesday (alongsi
 
 ### Review notes
 
-- None in cleanup pass 2.
+- None in cleanup pass 3.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

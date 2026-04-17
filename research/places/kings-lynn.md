@@ -58,7 +58,7 @@ Gaywood is a parish now absorbed into King's Lynn's urban area. The Gaywood deed
 ## Place registry
 
 - `placeId`: `place-kings-lynn-norfolk-england`
-- Short description: Ancestral landholding
+- Short description: Historic commercial site
 - Place type: locality
 - Aliases: Bishop's Lynn, Lynn, King's Lynn, Norfolk
 - Coordinate: 52.7515, 0.401 (exact)
@@ -75,6 +75,6 @@ Gaywood is a parish now absorbed into King's Lynn's urban area. The Gaywood deed
 
 ### Review notes
 
-- None in cleanup pass 2.
+- None in cleanup pass 3.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

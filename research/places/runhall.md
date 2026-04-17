@@ -52,13 +52,13 @@ Runhall appears to have passed out of the direct Gurney line after William I / M
 ## Place registry
 
 - `placeId`: `place-runhall-norfolk-england`
-- Short description: Ancestral landholding
+- Short description: Junior-line manor locality
 - Place type: locality
 - Aliases: Runhall, Norfolk
 - Coordinate: 52.6195, 1.01 (low)
 - Roles: landholding / property reference
-- Detail: Runhall manor, Norfolk — lord of Runhall and Swathings in Hardingham.
-- Current-site status: approximate area — Runhall manor, Norfolk — lord of Runhall and Swathings in Hardingham.
+- Detail: Runhall manor, paired with Hardingham in the junior line's Norfolk holdings.
+- Current-site status: approximate area — Modern village location is the best surviving anchor for the historic manor.
 
 ### Linked ancestors
 
@@ -67,6 +67,6 @@ Runhall appears to have passed out of the direct Gurney line after William I / M
 
 ### Review notes
 
-- None in cleanup pass 2.
+- None in cleanup pass 3.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

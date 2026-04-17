@@ -4,12 +4,13 @@
 ## Place registry
 
 - `placeId`: `place-irstead-norfolk-england`
-- Short description: Ancestral landholding
+- Short description: Later junior-line manor
 - Place type: locality
 - Aliases: Irstead, Norfolk
 - Coordinate: 52.707, 1.471 (medium)
 - Roles: landholding / property reference, individual geography
 - Detail: Irstead manor, a primary documented later junior-line holding in Norfolk.
+- Current-site status: unknown
 
 ### Linked ancestors
 
@@ -20,6 +21,6 @@
 
 ### Review notes
 
-- None in cleanup pass 2.
+- None in cleanup pass 3.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

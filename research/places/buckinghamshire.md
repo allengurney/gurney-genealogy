@@ -9,7 +9,7 @@
 - Aliases: Buckinghamshire
 - Coordinate: 51.81, -0.8 (low)
 - Roles: individual geography
-- Detail: Buckinghamshire
+- Detail: County-level umbrella record for scattered Buckinghamshire holdings documented in exchequer and royal records.
 
 ### Linked ancestors
 

@@ -4,12 +4,13 @@
 ## Place registry
 
 - `placeId`: `place-attleborough-norfolk-england`
-- Short description: Ancestral landholding
+- Short description: Advowson locality
 - Place type: locality
 - Aliases: Attleborough, Norfolk
 - Coordinate: 52.517, 1.015 (high)
 - Roles: landholding / property reference
-- Detail: Advowson, third part of Attleborough church (presented 1581).
+- Detail: Attleborough church-advowson context associated with Henry Gurney.
+- Current-site status: unknown
 
 ### Linked ancestors
 
@@ -17,6 +18,6 @@
 
 ### Review notes
 
-- None in cleanup pass 2.
+- None in cleanup pass 3.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

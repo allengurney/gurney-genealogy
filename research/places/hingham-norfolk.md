@@ -4,12 +4,13 @@
 ## Place registry
 
 - `placeId`: `place-hingham-norfolk-england`
-- Short description: Ancestral landholding
+- Short description: Ancient junior-line manor
 - Place type: locality
 - Aliases: Hingham, Norfolk
 - Coordinate: 52.5764, 0.9656821626060168 (medium)
 - Roles: landholding / property reference
 - Detail: Manor of Hingham-Gurneys, an ancient junior-line holding later held of the Bardolf and Morley interests.
+- Current-site status: unknown
 
 ### Linked ancestors
 
@@ -19,6 +20,6 @@
 
 ### Review notes
 
-- None in cleanup pass 2.
+- None in cleanup pass 3.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

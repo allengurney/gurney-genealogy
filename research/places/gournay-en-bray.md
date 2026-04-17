@@ -75,7 +75,7 @@ The local-history site *Les remparts de Gournay-en-Bray* (remparts-de-normandie.
 - Short description: Ancestral fortress town
 - Place type: locality
 - Aliases: Gournay, Gournay-en-Bray, Normandy
-- Coordinate: 49.4823, 1.7303568495177049 (high)
+- Coordinate: 49.483148, 1.727303 (exact)
 - Roles: landholding / property reference, individual geography
 - Site name: Collégiale Saint-Hildevert
 - Detail: Ancestral fortress town and seigneury of the Gournay family in the Pays de Bray.
@@ -95,6 +95,6 @@ The local-history site *Les remparts de Gournay-en-Bray* (remparts-de-normandie.
 
 ### Review notes
 
-- None in cleanup pass 2.
+- None in cleanup pass 3.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

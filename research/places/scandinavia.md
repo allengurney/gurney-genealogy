@@ -4,7 +4,7 @@
 ## Place registry
 
 - `placeId`: `place-scandinavia`
-- Short description: Regional holdings context
+- Short description: Regional family geography
 - Place type: region
 - Coordinate: 60.5, 14.49187691182128 (low)
 - Roles: individual geography

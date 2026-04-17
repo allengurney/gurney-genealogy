@@ -9,7 +9,7 @@
 - Aliases: Oxfordshire
 - Coordinate: 51.7612, -1.2465 (low)
 - Roles: landholding / property reference, individual geography
-- Detail: County-level umbrella record for scattered Oxfordshire holdings documented in royal and exchequer records.
+- Detail: County-level umbrella record for scattered Oxfordshire holdings documented in exchequer and royal records.
 
 ### Linked ancestors
 

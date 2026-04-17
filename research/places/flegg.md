@@ -4,12 +4,12 @@
 ## Place registry
 
 - `placeId`: `place-flegg-norfolk-england`
-- Short description: Ancestral landholding
+- Short description: District-level holdings context
 - Place type: locality
 - Aliases: Flegg, Norfolk
 - Coordinate: 52.668, 1.61 (low)
 - Roles: landholding / property reference, individual geography
-- Detail: Flegg, Norfolk (English manors).
+- Detail: Flegg district umbrella record for dispersed Norfolk manorial interests associated with the Gournay line.
 
 ### Linked ancestors
 
@@ -17,6 +17,6 @@
 
 ### Review notes
 
-- None in cleanup pass 2.
+- District-level umbrella record, not a single site.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

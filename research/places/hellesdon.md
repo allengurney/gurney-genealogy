@@ -4,12 +4,13 @@
 ## Place registry
 
 - `placeId`: `place-hellesdon-norfolk-england`
-- Short description: Ancestral landholding
+- Short description: Heylesdon inheritance manor
 - Place type: locality
 - Aliases: Hellesdon, Norfolk
 - Coordinate: 52.659, 1.246 (medium)
 - Roles: landholding / property reference
-- Detail: Heylesdon manors, Norfolk (from wife Alice Heylesdon, d/o wealthy London mercer/Alderman John Heylesdon).
+- Detail: Hellesdon / Heylesdon manor context associated with the Alice Heylesdon inheritance.
+- Current-site status: unknown
 
 ### Linked ancestors
 
@@ -17,6 +18,6 @@
 
 ### Review notes
 
-- None in cleanup pass 2.
+- None in cleanup pass 3.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

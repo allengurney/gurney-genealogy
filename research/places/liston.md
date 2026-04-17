@@ -43,12 +43,13 @@ The sub-tenant relationship is notable: Domesday-era Talbots held land under the
 ## Place registry
 
 - `placeId`: `place-liston-essex-england`
-- Short description: Ancestral landholding
+- Short description: Domesday manor locality
 - Place type: locality
 - Aliases: Liston, Essex
 - Coordinate: 51.95, 0.64 (low)
 - Roles: landholding / property reference
-- Detail: Liston, Essex (Domesday 1086 — held directly of the king).
+- Detail: Liston, one of the Essex Domesday manors associated with Hugh de Gournay III.
+- Current-site status: unknown
 
 ### Linked ancestors
 
@@ -56,6 +57,6 @@ The sub-tenant relationship is notable: Domesday-era Talbots held land under the
 
 ### Review notes
 
-- None in cleanup pass 2.
+- None in cleanup pass 3.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

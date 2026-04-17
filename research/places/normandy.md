@@ -9,8 +9,7 @@
 - Aliases: Normandy
 - Coordinate: 49.654653, 1.611621 (medium)
 - Roles: landholding / property reference, individual geography
-- Site name: Clairruissel Priory
-- Detail: Regional umbrella record for Norman holdings and priory contexts not yet assigned to a tighter single place.
+- Detail: Regional umbrella record for Norman holdings and priory contexts not yet assigned to a tighter single locality.
 - Current-site status: site only — Clairruissel Priory, Normandy — founded with second wife Melisende de Coucy.
 
 ### Linked ancestors

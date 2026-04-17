@@ -46,14 +46,14 @@ Hugh III and his son Gerard witnessed the foundation charter of William I and Ma
 ## Place registry
 
 - `placeId`: `place-le-bec-hellouin-normandy-france`
-- Short description: Historic landholding site
+- Short description: Abbey burial site
 - Place type: locality
 - Aliases: Le Bec-Hellouin, Normandy
 - Coordinate: 49.2288, 0.722 (exact)
 - Roles: landholding / property reference
 - Site name: Abbey of Bec
-- Detail: Abbey of Bec, Normandy — endowed and buried here.
-- Current-site status: site only — Abbey of Bec, Normandy — endowed and buried here.
+- Detail: Abbey of Bec, endowed by the Gournays and associated with Hugh III's burial.
+- Current-site status: extant — The abbey complex still stands and anchors the historic burial and endowment site.
 - Links: [Abbey site](https://abbayedubec.org/) · [Bec Abbey](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg/500px-Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg)
 
 ### Linked ancestors
@@ -62,6 +62,6 @@ Hugh III and his son Gerard witnessed the foundation charter of William I and Ma
 
 ### Review notes
 
-- None in cleanup pass 2.
+- None in cleanup pass 3.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

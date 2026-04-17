@@ -102,6 +102,6 @@ The parish church where Edmund (G23) directed his burial, and almost certainly t
 
 ### Review notes
 
-- None in cleanup pass 2.
+- None in cleanup pass 3.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

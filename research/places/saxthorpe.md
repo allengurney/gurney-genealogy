@@ -4,12 +4,13 @@
 ## Place registry
 
 - `placeId`: `place-saxthorpe-norfolk-england`
-- Short description: Ancestral landholding
+- Short description: Loundhall locality
 - Place type: locality
 - Aliases: Saxthorpe, Norfolk
 - Coordinate: 52.8246, 1.0927 (low)
 - Roles: landholding / property reference
-- Detail: 'Loundhall' in Saxthorpe, Norfolk.
+- Detail: Saxthorpe locality associated with the holding called Loundhall.
+- Current-site status: unknown
 
 ### Linked ancestors
 
@@ -17,6 +18,6 @@
 
 ### Review notes
 
-- None in cleanup pass 2.
+- None in cleanup pass 3.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

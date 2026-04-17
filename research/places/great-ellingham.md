@@ -4,12 +4,13 @@
 ## Place registry
 
 - `placeId`: `place-great-ellingham-norfolk-england`
-- Short description: Ancestral landholding
+- Short description: Lovell inheritance manor
 - Place type: locality
 - Aliases: Great Ellingham, Norfolk
 - Coordinate: 52.5453, 1.0091774978679044 (medium)
 - Roles: landholding / property reference, individual geography
 - Detail: Great Ellingham manor, later associated with the Lovell inheritance through Margaret Lovell.
+- Current-site status: unknown
 
 ### Linked ancestors
 
@@ -19,6 +20,6 @@
 
 ### Review notes
 
-- None in cleanup pass 2.
+- None in cleanup pass 3.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

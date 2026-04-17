@@ -54,14 +54,14 @@ No direct-line Gurney held La Ferté after Gautier — the site passed to the de
 ## Place registry
 
 - `placeId`: `place-la-ferte-en-bray-normandy-france`
-- Short description: Ancestral landholding
+- Short description: Priory foundation locality
 - Place type: locality
 - Aliases: La Ferte-en-Bray, La Ferté-en-Bray, Normandy
 - Coordinate: 49.57795, 1.527104 (high)
 - Roles: landholding / property reference
 - Site name: Église Saint-Pierre-et-Saint-Paul
-- Detail: La Ferté-en-Bray priory — endowed by son Gautier citing father Renaud.
-- Current-site status: site only — La Ferté-en-Bray priory — endowed by son Gautier citing father Renaud.
+- Detail: La Ferté-en-Bray priory context endowed by Renaud's son Gautier.
+- Current-site status: site only — Former priory setting is now represented through the historic parish-church core.
 - Links: [Local history page](https://tourismedes4rivieresenbray.com/la-ferte-saint-samson/)
 
 ### Linked ancestors
@@ -70,6 +70,6 @@ No direct-line Gurney held La Ferté after Gautier — the site passed to the de
 
 ### Review notes
 
-- None in cleanup pass 2.
+- None in cleanup pass 3.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

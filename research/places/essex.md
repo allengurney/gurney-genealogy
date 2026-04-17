@@ -9,7 +9,7 @@
 - Aliases: Essex
 - Coordinate: 51.776, 0.6417 (low)
 - Roles: individual geography
-- Detail: Essex
+- Detail: County-level umbrella record for Essex holdings including the Domesday manors of Ardleigh, Fordham, and Liston.
 
 ### Linked ancestors
 

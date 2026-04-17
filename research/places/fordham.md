@@ -40,12 +40,13 @@ Fordham had **eleven *bordarii* and four *servi*** per the Domesday entry (cited
 ## Place registry
 
 - `placeId`: `place-fordham-essex-england`
-- Short description: Ancestral landholding
+- Short description: Domesday manor locality
 - Place type: locality
 - Aliases: Fordham, Essex
 - Coordinate: 51.917, 0.801 (low)
 - Roles: landholding / property reference
-- Detail: Fordham, Essex (Domesday 1086).
+- Detail: Fordham, one of the Essex Domesday manors associated with Hugh de Gournay III.
+- Current-site status: unknown
 
 ### Linked ancestors
 
@@ -53,6 +54,6 @@ Fordham had **eleven *bordarii* and four *servi*** per the Domesday entry (cited
 
 ### Review notes
 
-- None in cleanup pass 2.
+- None in cleanup pass 3.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

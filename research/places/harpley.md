@@ -66,12 +66,13 @@ The church is the natural hero-image anchor for G31–G22. Current structure pos
 ## Place registry
 
 - `placeId`: `place-harpley-norfolk-england`
-- Short description: Ancestral landholding
+- Short description: Junior-branch core manor
 - Place type: locality
 - Aliases: Harpley, Norfolk
 - Coordinate: 52.8088, 0.6486 (medium)
 - Roles: landholding / property reference, individual geography
 - Detail: Gurney's manor in Harpley, acquired c.1183 through Rose de Burnham and the Hameline de Warenne connection.
+- Current-site status: unknown
 - Links: [Blomefield: Harpley](https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459)
 
 ### Linked ancestors
@@ -90,6 +91,6 @@ The church is the natural hero-image anchor for G31–G22. Current structure pos
 
 ### Review notes
 
-- None in cleanup pass 2.
+- None in cleanup pass 3.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

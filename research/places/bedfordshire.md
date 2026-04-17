@@ -9,7 +9,7 @@
 - Aliases: Bedfordshire
 - Coordinate: 52.136, -0.467 (low)
 - Roles: individual geography
-- Detail: Bedfordshire
+- Detail: County-level umbrella record for scattered Bedfordshire holdings documented in exchequer and royal records.
 
 ### Linked ancestors
 

@@ -59,12 +59,13 @@ Swathings represents the junior branch's earliest continuous Norfolk holding —
 ## Place registry
 
 - `placeId`: `place-hardingham-norfolk-england`
-- Short description: Ancestral landholding
+- Short description: Junior-branch core manor
 - Place type: locality
 - Aliases: Hardingham, Norfolk
 - Coordinate: 52.5708, 0.8508 (medium)
 - Roles: landholding / property reference, individual geography
 - Detail: Swathings in Hardingham, a long-running junior-line holding documented from the Henry II period onward.
+- Current-site status: unknown
 
 ### Linked ancestors
 
@@ -82,6 +83,6 @@ Swathings represents the junior branch's earliest continuous Norfolk holding —
 
 ### Review notes
 
-- None in cleanup pass 2.
+- None in cleanup pass 3.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

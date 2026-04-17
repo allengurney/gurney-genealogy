@@ -48,12 +48,13 @@ The Crusade journey (1270) is the traditional origin of the Gurney family coat o
 ## Place registry
 
 - `placeId`: `place-lewes-sussex-england`
-- Short description: Associated ancestral place
+- Short description: Battlefield locality
 - Place type: locality
 - Aliases: Lewes, Sussex
 - Coordinate: 50.873, 0.0087 (high)
 - Roles: individual geography
-- Detail: Battle of Lewes, 1264
+- Detail: Lewes, associated with the 1264 battle in which Sir John de Gournay I was active.
+- Current-site status: unknown
 - Links: [Battle of Lewes](https://en.wikipedia.org/wiki/Battle_of_Lewes)
 
 ### Linked ancestors
@@ -62,6 +63,6 @@ The Crusade journey (1270) is the traditional origin of the Gurney family coat o
 
 ### Review notes
 
-- None in cleanup pass 2.
+- None in cleanup pass 3.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

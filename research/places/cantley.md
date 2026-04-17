@@ -38,12 +38,13 @@ As with Caister, Cantley passed to the senior baron line after Gerard's death be
 ## Place registry
 
 - `placeId`: `place-cantley-norfolk-england`
-- Short description: Ancestral landholding
+- Short description: Gerard de Gournay holding
 - Place type: locality
 - Aliases: Cantley, Norfolk
 - Coordinate: 52.562, 1.513 (low)
 - Roles: landholding / property reference
-- Detail: Cantley, Norfolk — documented holding.
+- Detail: Cantley, one of the documented Norfolk holdings associated with Gerard de Gournay's English expansion.
+- Current-site status: unknown
 
 ### Linked ancestors
 
@@ -51,6 +52,6 @@ As with Caister, Cantley passed to the senior baron line after Gerard's death be
 
 ### Review notes
 
-- None in cleanup pass 2.
+- None in cleanup pass 3.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

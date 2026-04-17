@@ -219,7 +219,7 @@
     "aliases": [
       "Ardleigh, Essex"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Domesday manor locality",
     "placeType": "locality",
     "coordinate": {
       "lat": 51.928,
@@ -243,7 +243,7 @@
     "aliases": [
       "Attleborough, Norfolk"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Advowson locality",
     "placeType": "locality",
     "coordinate": {
       "lat": 52.517,
@@ -385,7 +385,7 @@
     "aliases": [
       "Burnham Thorpe, Norfolk"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Later family locality",
     "placeType": "locality",
     "coordinate": {
       "lat": 52.9015,
@@ -415,7 +415,7 @@
       "Caister",
       "Caister-on-Sea, Norfolk"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Gerard de Gournay holding",
     "placeType": "locality",
     "coordinate": {
       "lat": 52.6488,
@@ -444,7 +444,7 @@
     "aliases": [
       "Cantley, Norfolk"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Gerard de Gournay holding",
     "placeType": "locality",
     "coordinate": {
       "lat": 52.562,
@@ -638,7 +638,7 @@
     "aliases": [
       "Flegg, Norfolk"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "District-level holdings context",
     "placeType": "locality",
     "coordinate": {
       "lat": 52.668,
@@ -706,7 +706,7 @@
     "aliases": [
       "Fordham, Essex"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Domesday manor locality",
     "placeType": "locality",
     "coordinate": {
       "lat": 51.917,
@@ -758,21 +758,61 @@
     "shortDescription": "Ancestral fortress town",
     "placeType": "locality",
     "coordinate": {
-      "lat": 49.4823,
-      "lng": 1.7303568495177049
+      "lat": 49.483148,
+      "lng": 1.727303
     },
-    "coordinatePrecision": "high",
+    "coordinatePrecision": "exact",
     "roles": [
       "landholding / property reference",
       "individual geography"
     ],
     "ancestorLinks": [
       {
+        "recordId": "ancestor-g-37-eudes-odon-de-gournay",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g-37-eudes-odon-de-gournay",
+        "role": "individual geography"
+      },
+      {
         "recordId": "ancestor-g32-gerard-de-gournay",
         "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g32-gerard-de-gournay",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g36-hugh-de-gournay-i",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g36-hugh-de-gournay-i",
         "role": "individual geography"
       },
       {
@@ -782,46 +822,6 @@
       {
         "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
         "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g33-hugh-de-gournay-iii",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g33-hugh-de-gournay-iii",
-        "role": "individual geography"
-      },
-      {
-        "recordId": "ancestor-g34-hugh-de-gournay-ii",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g34-hugh-de-gournay-ii",
-        "role": "individual geography"
-      },
-      {
-        "recordId": "ancestor-g35-renaud-de-gournay",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g35-renaud-de-gournay",
-        "role": "individual geography"
-      },
-      {
-        "recordId": "ancestor-g36-hugh-de-gournay-i",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g36-hugh-de-gournay-i",
-        "role": "individual geography"
-      },
-      {
-        "recordId": "ancestor-g-37-eudes-odon-de-gournay",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g-37-eudes-odon-de-gournay",
-        "role": "individual geography"
       }
     ],
     "filename": "gournay-en-bray.md"
@@ -832,7 +832,7 @@
     "aliases": [
       "Great Ellingham, Norfolk"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Lovell inheritance manor",
     "placeType": "locality",
     "coordinate": {
       "lat": 52.5453,
@@ -873,7 +873,7 @@
     "aliases": [
       "Hardingham, Norfolk"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Junior-branch core manor",
     "placeType": "locality",
     "coordinate": {
       "lat": 52.5708,
@@ -895,14 +895,6 @@
       },
       {
         "recordId": "ancestor-g23-edmund-gurney",
-        "role": "individual geography"
-      },
-      {
-        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
         "role": "individual geography"
       },
       {
@@ -944,6 +936,14 @@
       {
         "recordId": "ancestor-g31-walter-de-gournay",
         "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "individual geography"
       }
     ],
     "filename": "hardingham.md"
@@ -954,7 +954,7 @@
     "aliases": [
       "Harpham, Norfolk"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Later Gurney manor",
     "placeType": "locality",
     "coordinate": {
       "lat": 52.834,
@@ -978,7 +978,7 @@
     "aliases": [
       "Harpley, Norfolk"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Junior-branch core manor",
     "placeType": "locality",
     "coordinate": {
       "lat": 52.8088,
@@ -1011,14 +1011,6 @@
         "role": "individual geography"
       },
       {
-        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
-        "role": "individual geography"
-      },
-      {
         "recordId": "ancestor-g24-john-de-gournay-iv",
         "role": "landholding / property reference"
       },
@@ -1064,6 +1056,14 @@
       },
       {
         "recordId": "ancestor-g29-matthew-de-gournay",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
         "role": "individual geography"
       }
     ],
@@ -1075,7 +1075,7 @@
     "aliases": [
       "Hellesdon, Norfolk"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Heylesdon inheritance manor",
     "placeType": "locality",
     "coordinate": {
       "lat": 52.659,
@@ -1099,7 +1099,7 @@
     "aliases": [
       "Hingham, Norfolk"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Ancient junior-line manor",
     "placeType": "locality",
     "coordinate": {
       "lat": 52.5764,
@@ -1155,7 +1155,7 @@
     "aliases": [
       "Irstead, Norfolk"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Later junior-line manor",
     "placeType": "locality",
     "coordinate": {
       "lat": 52.707,
@@ -1198,7 +1198,7 @@
       "Lynn",
       "King's Lynn, Norfolk"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Historic commercial site",
     "placeType": "locality",
     "coordinate": {
       "lat": 52.7515,
@@ -1232,7 +1232,7 @@
       "La Ferte-en-Bray",
       "La Ferté-en-Bray, Normandy"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Priory foundation locality",
     "placeType": "locality",
     "coordinate": {
       "lat": 49.57795,
@@ -1256,7 +1256,7 @@
     "aliases": [
       "Le Bec-Hellouin, Normandy"
     ],
-    "shortDescription": "Historic landholding site",
+    "shortDescription": "Abbey burial site",
     "placeType": "locality",
     "coordinate": {
       "lat": 49.2288,
@@ -1280,7 +1280,7 @@
     "aliases": [
       "Lessingham, Norfolk"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Priory foundation locality",
     "placeType": "locality",
     "coordinate": {
       "lat": 52.795,
@@ -1304,7 +1304,7 @@
     "aliases": [
       "Lewes, Sussex"
     ],
-    "shortDescription": "Associated ancestral place",
+    "shortDescription": "Battlefield locality",
     "placeType": "locality",
     "coordinate": {
       "lat": 50.873,
@@ -1328,7 +1328,7 @@
     "aliases": [
       "Liston, Essex"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Domesday manor locality",
     "placeType": "locality",
     "coordinate": {
       "lat": 51.95,
@@ -1454,7 +1454,7 @@
     "aliases": [
       "Montigny-sur-Andelle, Normandy"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Parage tenure locality",
     "placeType": "locality",
     "coordinate": {
       "lat": 49.327,
@@ -1508,7 +1508,7 @@
     "aliases": [
       "Norfolk"
     ],
-    "shortDescription": "County-level holdings context",
+    "shortDescription": "Regional holdings context",
     "placeType": "region",
     "coordinate": {
       "lat": 52.675,
@@ -1529,14 +1529,6 @@
         "role": "individual geography"
       },
       {
-        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
-        "role": "individual geography"
-      },
-      {
         "recordId": "ancestor-g31-walter-de-gournay",
         "role": "individual geography"
       },
@@ -1545,19 +1537,27 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
         "role": "landholding / property reference"
       },
       {
-        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
         "role": "individual geography"
       },
       {
-        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
         "role": "individual geography"
       }
     ],
@@ -1732,7 +1732,7 @@
     "aliases": [
       "Runhall, Norfolk"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Junior-line manor locality",
     "placeType": "locality",
     "coordinate": {
       "lat": 52.6195,
@@ -1760,7 +1760,7 @@
     "aliases": [
       "Saxthorpe, Norfolk"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Loundhall locality",
     "placeType": "locality",
     "coordinate": {
       "lat": 52.8246,
@@ -1782,7 +1782,7 @@
     "placeId": "place-scandinavia",
     "name": "Scandinavia",
     "aliases": [],
-    "shortDescription": "Regional holdings context",
+    "shortDescription": "Regional family geography",
     "placeType": "region",
     "coordinate": {
       "lat": 60.5,

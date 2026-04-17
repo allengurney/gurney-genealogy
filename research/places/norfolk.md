@@ -4,7 +4,7 @@
 ## Place registry
 
 - `placeId`: `place-norfolk-england`
-- Short description: County-level holdings context
+- Short description: Regional holdings context
 - Place type: region
 - Aliases: Norfolk
 - Coordinate: 52.675, 1.289 (low)
