@@ -4,6 +4,12 @@ Monastery in the Risle valley, Normandy, France (modern commune Le Bec-Hellouin,
 
 One of the intellectual powerhouses of 11th- and 12th-century Europe, home to Lanfranc (Prior 1045–1063, later Archbishop of Canterbury) and Anselm (Prior 1063–1078, later Archbishop of Canterbury and one of the great theologians of the medieval church). The Gournay family's close connection to Bec is among the most distinctive features of the senior line.
 
+## Why this place matters structurally
+
+In the normalized place set, Bec should be treated as an **ecclesiastical patronage and burial record**, not as a seigneurial family seat. That distinction matters because older drafts could make it sound as though the Gournays somehow "held" Bec in the same sense that they held Gournay-en-Bray. They did not. What they held was a relationship of patronage, friendship, endowment, burial, and institutional affiliation. [DG-I] [Hannay]
+
+That makes Bec the principal counterpart to **Gournay-en-Bray** on the ecclesiastical side of the family story: the frontier lordship explains the family's political-military importance, while Bec explains much of its spiritual and intellectual prestige.
+
 ## Gurney connections
 
 ### Hugh de Gournay III (G33) — personal friend of Anselm
@@ -17,6 +23,10 @@ Gerard founded **Lessingham Priory**, Norfolk, as a daughter house attached to t
 ### Witnessing the Caen foundation (1082)
 
 Hugh III and his son Gerard witnessed the foundation charter of William I and Matilda's nunnery, Holy Trinity at Caen, in 1082 [DG-I-48]. While the Caen foundation is not Bec, the witness pattern reflects Hugh III's standing among the Conqueror's inner circle of ecclesiastical sponsors.
+
+## Interpretive note
+
+Bec helps explain why the Gournays appear in sources that are not purely feudal or military. The family's frontier role produced one kind of importance; its sustained tie to Bec produced another. That is why Hugh III's association with Anselm is not a decorative anecdote but part of the family's historical profile. [Hannay]
 
 ## Modern
 
@@ -41,6 +51,7 @@ Hugh III and his son Gerard witnessed the foundation charter of William I and Ma
 - `research/people/g33-hugh-de-gournay-iii-fact-sheet.research.md`
 - `research/people/g32-gerard-de-gournay-fact-sheet.research.md`
 - `research/places/lessingham.md`
+- `research/places/gournay-en-bray.md`
 
 <!-- GENERATED:PLACE-REGISTRY:START -->
 ## Place registry
