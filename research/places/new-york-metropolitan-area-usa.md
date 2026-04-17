@@ -4,7 +4,7 @@
 ## Place registry
 
 - `placeId`: `place-new-york-metropolitan-area-usa`
-- Canonical filename: `new-york-metropolitan-area.md`
+- Canonical filename: `new-york-metropolitan-area-usa.md`
 - Place class: place
 - Mention count: **4**
 - Linked records: G3 Lester Sawyer Gurney III, G4 Lester Sawyer Gurney Jr., G5 Lester Sawyer Gurney
