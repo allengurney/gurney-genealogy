@@ -6,7 +6,7 @@
 - `placeId`: `place-fort-wayne-indiana-usa`
 - Canonical filename: `fort-wayne-in.md`
 - Place class: locality
-- Aliases: Fort Wayne, IN, Fort Wayne, Indiana
+- Aliases: Fort Wayne, IN
 - Mention count: **1**
 - Linked records: G2 Lester Hayes Gurney
 - Representative coordinates: 41.0793, -85.1394 (town centroid; High)

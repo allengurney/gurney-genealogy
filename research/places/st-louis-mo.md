@@ -6,7 +6,7 @@
 - `placeId`: `place-st-louis-missouri-usa`
 - Canonical filename: `st-louis-mo.md`
 - Place class: locality
-- Aliases: St. Louis, MO, St. Louis, Missouri
+- Aliases: St. Louis, MO
 - Mention count: **1**
 - Linked records: G1 Allen Lawrence Gurney
 - Representative coordinates: 38.627, -90.1994 (town centroid; High)

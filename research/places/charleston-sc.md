@@ -6,7 +6,7 @@
 - `placeId`: `place-charleston-south-carolina-usa`
 - Canonical filename: `charleston-sc.md`
 - Place class: locality
-- Aliases: Charleston, SC, Charleston, South Carolina
+- Aliases: Charleston, SC
 - Mention count: **1**
 - Linked records: G6 Brigadier General William Gurney
 - Representative coordinates: 32.7765, -79.9311 (town centroid; High)

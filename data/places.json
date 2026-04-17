@@ -205,7 +205,7 @@
     "placeClass": "locality",
     "region": "Massachusetts, USA",
     "aliases": [
-      "Abington, Massachusetts"
+      "Abington, MA"
     ],
     "subSites": [],
     "representativeCoordinates": {
@@ -234,7 +234,7 @@
     ],
     "searchTerms": [
       "Abington, Massachusetts, USA",
-      "Abington, Massachusetts",
+      "Abington, MA",
       "Abington"
     ],
     "reviewFlags": [
@@ -249,7 +249,7 @@
     "region": "Massachusetts, USA",
     "aliases": [
       "Abington/Whitman line, Massachusetts, USA",
-      "Abington–Whitman line, Massachusetts"
+      "Abington–Whitman line, MA"
     ],
     "subSites": [],
     "representativeCoordinates": {
@@ -276,7 +276,7 @@
     "searchTerms": [
       "Abington–Whitman line, Massachusetts, USA",
       "Abington/Whitman line, Massachusetts, USA",
-      "Abington–Whitman line, Massachusetts",
+      "Abington–Whitman line, MA",
       "Abington–Whitman line"
     ],
     "reviewFlags": [
@@ -391,8 +391,7 @@
     "placeClass": "locality",
     "region": "Massachusetts, USA",
     "aliases": [
-      "Braintree, MA",
-      "Braintree, Massachusetts"
+      "Braintree, MA"
     ],
     "subSites": [],
     "representativeCoordinates": {
@@ -414,7 +413,6 @@
     "searchTerms": [
       "Braintree, Massachusetts, USA",
       "Braintree, MA",
-      "Braintree, Massachusetts",
       "Braintree"
     ],
     "reviewFlags": [
@@ -429,8 +427,7 @@
     "placeClass": "locality",
     "region": "Massachusetts, USA",
     "aliases": [
-      "Bridgewater, MA",
-      "Bridgewater, Massachusetts"
+      "Bridgewater, MA"
     ],
     "subSites": [],
     "representativeCoordinates": {
@@ -463,7 +460,6 @@
     "searchTerms": [
       "Bridgewater, Massachusetts, USA",
       "Bridgewater, MA",
-      "Bridgewater, Massachusetts",
       "Bridgewater"
     ],
     "reviewFlags": [
@@ -619,8 +615,7 @@
     "placeClass": "locality",
     "region": "South Carolina, USA",
     "aliases": [
-      "Charleston, SC",
-      "Charleston, South Carolina"
+      "Charleston, SC"
     ],
     "subSites": [],
     "representativeCoordinates": {
@@ -641,7 +636,6 @@
     "searchTerms": [
       "Charleston, South Carolina, USA",
       "Charleston, SC",
-      "Charleston, South Carolina",
       "Charleston"
     ],
     "reviewFlags": [
@@ -698,8 +692,7 @@
     "placeClass": "locality",
     "region": "Massachusetts, USA",
     "aliases": [
-      "Cummington, MA",
-      "Cummington, Massachusetts"
+      "Cummington, MA"
     ],
     "subSites": [
       "Dawes Cemetery"
@@ -741,7 +734,6 @@
     "searchTerms": [
       "Cummington, Massachusetts, USA",
       "Cummington, MA",
-      "Cummington, Massachusetts",
       "Dawes Cemetery",
       "Cummington"
     ],
@@ -759,8 +751,7 @@
     "placeClass": "locality",
     "region": "Michigan, USA",
     "aliases": [
-      "Dexter, MI",
-      "Dexter, Michigan"
+      "Dexter, MI"
     ],
     "subSites": [],
     "representativeCoordinates": {
@@ -784,7 +775,6 @@
     "searchTerms": [
       "Dexter, Michigan, USA",
       "Dexter, MI",
-      "Dexter, Michigan",
       "Dexter"
     ],
     "reviewFlags": [
@@ -867,8 +857,7 @@
     "region": "New York, USA",
     "aliases": [
       "Flushing, NY",
-      "Flushing, Queens, NY",
-      "Flushing, New York"
+      "Flushing, Queens, NY"
     ],
     "subSites": [],
     "representativeCoordinates": {
@@ -895,7 +884,6 @@
       "Flushing, Queens, New York, USA",
       "Flushing, NY",
       "Flushing, Queens, NY",
-      "Flushing, New York",
       "Flushing"
     ],
     "reviewFlags": [
@@ -945,8 +933,7 @@
     "placeClass": "locality",
     "region": "Indiana, USA",
     "aliases": [
-      "Fort Wayne, IN",
-      "Fort Wayne, Indiana"
+      "Fort Wayne, IN"
     ],
     "subSites": [],
     "representativeCoordinates": {
@@ -967,7 +954,6 @@
     "searchTerms": [
       "Fort Wayne, Indiana, USA",
       "Fort Wayne, IN",
-      "Fort Wayne, Indiana",
       "Fort Wayne"
     ],
     "reviewFlags": [
@@ -1346,8 +1332,7 @@
     "placeClass": "locality",
     "region": "Indiana, USA",
     "aliases": [
-      "Indianapolis, IN",
-      "Indianapolis, Indiana"
+      "Indianapolis, IN"
     ],
     "subSites": [],
     "representativeCoordinates": {
@@ -1368,7 +1353,6 @@
     "searchTerms": [
       "Indianapolis, Indiana, USA",
       "Indianapolis, IN",
-      "Indianapolis, Indiana",
       "Indianapolis"
     ],
     "reviewFlags": [
@@ -1654,8 +1638,7 @@
     "placeClass": "locality",
     "region": "Indiana, USA",
     "aliases": [
-      "Marion, IN",
-      "Marion, Indiana"
+      "Marion, IN"
     ],
     "subSites": [],
     "representativeCoordinates": {
@@ -1682,7 +1665,6 @@
     "searchTerms": [
       "Marion, Indiana, USA",
       "Marion, IN",
-      "Marion, Indiana",
       "Marion"
     ],
     "reviewFlags": [
@@ -1696,7 +1678,7 @@
     "placeClass": "locality",
     "region": "Massachusetts, USA",
     "aliases": [
-      "Mendon, Massachusetts"
+      "Mendon, MA"
     ],
     "subSites": [],
     "representativeCoordinates": {
@@ -1716,7 +1698,7 @@
     ],
     "searchTerms": [
       "Mendon, Massachusetts, USA",
-      "Mendon, Massachusetts",
+      "Mendon, MA",
       "Mendon"
     ],
     "reviewFlags": [
@@ -1731,8 +1713,7 @@
     "region": "Massachusetts, USA",
     "aliases": [
       "Middleborough, MA",
-      "Middleboro, MA",
-      "Middleborough, Massachusetts"
+      "Middleboro, MA"
     ],
     "subSites": [],
     "representativeCoordinates": {
@@ -1766,7 +1747,6 @@
       "Middleborough, Massachusetts, USA",
       "Middleborough, MA",
       "Middleboro, MA",
-      "Middleborough, Massachusetts",
       "Middleborough"
     ],
     "reviewFlags": [
@@ -1991,8 +1971,7 @@
     "placeClass": "locality",
     "region": "New York, USA",
     "aliases": [
-      "Port Washington, NY",
-      "Port Washington, New York"
+      "Port Washington, NY"
     ],
     "subSites": [],
     "representativeCoordinates": {
@@ -2013,7 +1992,6 @@
     "searchTerms": [
       "Port Washington, New York, USA",
       "Port Washington, NY",
-      "Port Washington, New York",
       "Port Washington"
     ],
     "reviewFlags": [
@@ -2027,8 +2005,7 @@
     "placeClass": "locality",
     "region": "Oregon, USA",
     "aliases": [
-      "Portland, OR",
-      "Portland, Oregon"
+      "Portland, OR"
     ],
     "subSites": [],
     "representativeCoordinates": {
@@ -2049,7 +2026,6 @@
     "searchTerms": [
       "Portland, Oregon, USA",
       "Portland, OR",
-      "Portland, Oregon",
       "Portland"
     ],
     "reviewFlags": [
@@ -2063,8 +2039,7 @@
     "placeClass": "locality",
     "region": "Massachusetts, USA",
     "aliases": [
-      "Rochester, MA",
-      "Rochester, Massachusetts"
+      "Rochester, MA"
     ],
     "subSites": [],
     "representativeCoordinates": {
@@ -2094,7 +2069,6 @@
     "searchTerms": [
       "Rochester, Massachusetts, USA",
       "Rochester, MA",
-      "Rochester, Massachusetts",
       "Rochester"
     ],
     "reviewFlags": [
@@ -2212,8 +2186,7 @@
     "placeClass": "locality",
     "region": "Missouri, USA",
     "aliases": [
-      "St. Louis, MO",
-      "St. Louis, Missouri"
+      "St. Louis, MO"
     ],
     "subSites": [],
     "representativeCoordinates": {
@@ -2234,7 +2207,6 @@
     "searchTerms": [
       "St. Louis, Missouri, USA",
       "St. Louis, MO",
-      "St. Louis, Missouri",
       "St. Louis"
     ],
     "reviewFlags": [
@@ -2356,8 +2328,7 @@
     "placeClass": "locality",
     "region": "Massachusetts, USA",
     "aliases": [
-      "Weymouth, MA",
-      "Weymouth, Massachusetts"
+      "Weymouth, MA"
     ],
     "subSites": [
       "Great Pond"
@@ -2398,7 +2369,6 @@
     "searchTerms": [
       "Weymouth, Massachusetts, USA",
       "Weymouth, MA",
-      "Weymouth, Massachusetts",
       "Great Pond",
       "Weymouth"
     ],

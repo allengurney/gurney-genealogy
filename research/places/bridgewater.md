@@ -6,7 +6,7 @@
 - `placeId`: `place-bridgewater-massachusetts-usa`
 - Canonical filename: `bridgewater.md`
 - Place class: locality
-- Aliases: Bridgewater, MA, Bridgewater, Massachusetts
+- Aliases: Bridgewater, MA
 - Mention count: **5**
 - Linked records: G10 Benjamin Gurney, G11 Benjamin Gurney, G12 Richard Gurney, G8 Amos Gurney, G9 Benjamin Gurney
 - Representative coordinates: 41.9904, -70.970518 (town centroid; High)

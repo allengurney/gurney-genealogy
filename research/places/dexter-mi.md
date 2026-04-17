@@ -6,7 +6,7 @@
 - `placeId`: `place-dexter-michigan-usa`
 - Canonical filename: `dexter-mi.md`
 - Place class: locality
-- Aliases: Dexter, MI, Dexter, Michigan
+- Aliases: Dexter, MI
 - Mention count: **2**
 - Linked records: G0 Soren and Ebba Gurney, G1 Ken Gurney (Allen's Brother)
 - Representative coordinates: 42.3387, -83.8886 (town centroid; High)

@@ -6,7 +6,7 @@
 - `placeId`: `place-rochester-massachusetts-usa`
 - Canonical filename: `rochester.md`
 - Place class: locality
-- Aliases: Rochester, MA, Rochester, Massachusetts
+- Aliases: Rochester, MA
 - Mention count: **6**
 - Linked records: G10 Benjamin Gurney, G11 Benjamin Gurney, G9 Benjamin Gurney
 - Representative coordinates: 41.7412, -70.8128 (town centroid; High)

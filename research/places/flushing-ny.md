@@ -6,7 +6,7 @@
 - `placeId`: `place-flushing-queens-new-york-usa`
 - Canonical filename: `flushing-ny.md`
 - Place class: locality
-- Aliases: Flushing, NY, Flushing, Queens, NY, Flushing, New York
+- Aliases: Flushing, NY, Flushing, Queens, NY
 - Mention count: **4**
 - Linked records: G6 Brigadier General William Gurney, G7 Willis Gurney
 - Representative coordinates: 40.7675, -73.827819 (town centroid; High)

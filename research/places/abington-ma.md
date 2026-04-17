@@ -6,7 +6,7 @@
 - `placeId`: `place-abington-massachusetts-usa`
 - Canonical filename: `abington-ma.md`
 - Place class: locality
-- Aliases: Abington, Massachusetts
+- Aliases: Abington, MA
 - Mention count: **6**
 - Linked records: G10 Benjamin Gurney, G11 Benjamin Gurney, G9 Benjamin Gurney
 - Representative coordinates: 42.1043, -70.9467 (town centroid; High)

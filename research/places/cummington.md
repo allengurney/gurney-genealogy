@@ -6,7 +6,7 @@
 - `placeId`: `place-cummington-massachusetts-usa`
 - Canonical filename: `cummington.md`
 - Place class: locality
-- Aliases: Cummington, MA, Cummington, Massachusetts
+- Aliases: Cummington, MA
 - Sub-sites tracked here: Dawes Cemetery
 - Mention count: **12**
 - Linked records: G10 Benjamin Gurney, G11 Benjamin Gurney, G7 Willis Gurney, G8 Amos Gurney, G9 Benjamin Gurney

@@ -6,7 +6,7 @@
 - `placeId`: `place-middleborough-massachusetts-usa`
 - Canonical filename: `middleborough.md`
 - Place class: locality
-- Aliases: Middleborough, MA, Middleboro, MA, Middleborough, Massachusetts
+- Aliases: Middleborough, MA, Middleboro, MA
 - Mention count: **9**
 - Linked records: G10 Benjamin Gurney, G11 Benjamin Gurney, G9 Benjamin Gurney
 - Representative coordinates: 41.8934, -70.905826 (town centroid; High)

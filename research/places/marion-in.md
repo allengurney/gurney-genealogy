@@ -6,7 +6,7 @@
 - `placeId`: `place-marion-indiana-usa`
 - Canonical filename: `marion-in.md`
 - Place class: locality
-- Aliases: Marion, IN, Marion, Indiana
+- Aliases: Marion, IN
 - Mention count: **3**
 - Linked records: G1 Allen Lawrence Gurney, G1 Ken Gurney (Allen's Brother), G2 Lester Hayes Gurney
 - Representative coordinates: 40.5584, -85.6591 (town centroid; High)

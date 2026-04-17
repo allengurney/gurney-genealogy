@@ -6,7 +6,7 @@
 - `placeId`: `place-indianapolis-indiana-usa`
 - Canonical filename: `indianapolis-in.md`
 - Place class: locality
-- Aliases: Indianapolis, IN, Indianapolis, Indiana
+- Aliases: Indianapolis, IN
 - Mention count: **1**
 - Linked records: G1 Ken Gurney (Allen's Brother)
 - Representative coordinates: 39.7684, -86.1581 (town centroid; High)

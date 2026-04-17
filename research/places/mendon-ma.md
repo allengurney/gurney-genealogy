@@ -6,7 +6,7 @@
 - `placeId`: `place-mendon-massachusetts-usa`
 - Canonical filename: `mendon-ma.md`
 - Place class: locality
-- Aliases: Mendon, Massachusetts
+- Aliases: Mendon, MA
 - Mention count: **1**
 - Linked records: G13 John Gurney-1
 - Representative coordinates: 42.1056, -71.5523 (town centroid; High)

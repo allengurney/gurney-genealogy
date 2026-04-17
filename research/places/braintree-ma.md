@@ -6,7 +6,7 @@
 - `placeId`: `place-braintree-massachusetts-usa`
 - Canonical filename: `braintree-ma.md`
 - Place class: locality
-- Aliases: Braintree, MA, Braintree, Massachusetts
+- Aliases: Braintree, MA
 - Mention count: **2**
 - Linked records: G13 John Gurney-1
 - Representative coordinates: 42.2079, -70.9983 (town centroid; High)

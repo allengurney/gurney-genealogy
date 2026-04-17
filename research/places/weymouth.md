@@ -6,7 +6,7 @@
 - `placeId`: `place-weymouth-massachusetts-usa`
 - Canonical filename: `weymouth.md`
 - Place class: locality
-- Aliases: Weymouth, MA, Weymouth, Massachusetts
+- Aliases: Weymouth, MA
 - Sub-sites tracked here: Great Pond
 - Mention count: **11**
 - Linked records: G10 Benjamin Gurney, G11 Benjamin Gurney, G12 Richard Gurney, G13 John Gurney-1, G9 Benjamin Gurney

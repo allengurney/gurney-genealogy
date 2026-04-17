@@ -6,7 +6,7 @@
 - `placeId`: `place-port-washington-new-york-usa`
 - Canonical filename: `port-washington-ny.md`
 - Place class: locality
-- Aliases: Port Washington, NY, Port Washington, New York
+- Aliases: Port Washington, NY
 - Mention count: **1**
 - Linked records: G2 Lester Hayes Gurney
 - Representative coordinates: 40.8257, -73.6982 (town centroid; High)
