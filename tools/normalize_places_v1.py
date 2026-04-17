@@ -86,6 +86,7 @@ KNOWN_FILENAME_MAP = {
     "Cantley, Norfolk, England": "cantley.md",
     "Braintree, Massachusetts, USA": "braintree-ma.md",
     "Hingham, Norfolk, England": "hingham-norfolk.md",
+    "New York metropolitan area, USA": "new-york-metropolitan-area-usa.md",
     "Weymouth, Massachusetts, USA": "weymouth.md",
 }
 
@@ -264,10 +265,10 @@ def previous_filename_map() -> dict[str, str]:
 
 
 def infer_filename(place: str, existing_name_map: dict[str, str], existing_files: set[str]) -> str:
-    if place in existing_name_map:
-        return existing_name_map[place]
     if place in KNOWN_FILENAME_MAP:
         return KNOWN_FILENAME_MAP[place]
+    if place in existing_name_map:
+        return existing_name_map[place]
 
     parts = [p.strip() for p in place.split(",")]
     candidates = [f"{slugify(place)}.md"]
@@ -414,11 +415,7 @@ def build_places(locations: list[dict], existing_name_map: dict[str, str], exist
         if any("merged-date-span" in loc["qualityFlags"] for loc in group):
             flags.append("contains merged date spans / likely cross-generation contamination in at least one mention")
         if coords:
-            distinct_coords = {
-                (round(float(loc["lat"]), 4), round(float(loc["lng"]), 4))
-                for loc in group
-                if loc.get("lat") is not None and loc.get("lng") is not None
-            }
+            distinct_coords = {(round(float(loc["lat"]), 4), round(float(loc["lng"]), 4)) for loc in group if loc.get("lat") is not None and loc.get("lng") is not None}
             if len(distinct_coords) > 1:
                 flags.append("coordinates vary across mentions; representative coordinates are approximate")
 
@@ -488,9 +485,7 @@ def make_place_block(place: dict, mentions: list[dict]) -> str:
     lines.append(f"- Linked records: {', '.join(place['recordLabels'])}")
     if place.get("representativeCoordinates"):
         coords = place["representativeCoordinates"]
-        lines.append(
-            f"- Representative coordinates: {coords['lat']}, {coords['lng']} ({place['representativeGeocodeBasis']}; {place['confidenceSummary']})"
-        )
+        lines.append(f"- Representative coordinates: {coords['lat']}, {coords['lng']} ({place['representativeGeocodeBasis']}; {place['confidenceSummary']})")
     lines.append("")
     lines.append("### Mention ledger")
     lines.append("")
