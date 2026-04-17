@@ -14,7 +14,7 @@ LOG_DIR = ROOT / "research" / "log"
 PLACES_JSON = DATA_DIR / "places.json"
 PLACES_DETAIL_JSON = DATA_DIR / "places_detail.json"
 ANCESTORS_V24 = DATA_DIR / "ancestors v24.json"
-LOG_PATH = LOG_DIR / "2026-04-17--place-normalization-pass3-europe.md"
+LOG_PATH = LOG_DIR / "2026-04-17--place-normalization-pass3b-europe.md"
 
 GEN_START = "<!-- GENERATED:PLACE-REGISTRY:START -->"
 GEN_END = "<!-- GENERATED:PLACE-REGISTRY:END -->"
@@ -103,7 +103,7 @@ EUROPE_OVERRIDES = {
     },
     "Gournay-en-Bray, Normandy, France": {
         "shortDescription": "Ancestral fortress town",
-        "longDescription": "Ancestral fortress town and seigneury of the Gournay family in the Pays de Bray.",
+        "longDescription": "Ancestral fortress town and frontier seigneury of the Gournay family in the Pays de Bray.",
         "siteName": "Collégiale Saint-Hildevert",
         "coordinate": {"lat": 49.483148, "lng": 1.727303},
         "coordinatePrecision": "exact",
@@ -160,13 +160,13 @@ EUROPE_OVERRIDES = {
     },
     "La Ferté-en-Bray, Normandy, France": {
         "shortDescription": "Priory foundation locality",
-        "longDescription": "La Ferté-en-Bray priory context endowed by Renaud's son Gautier.",
+        "longDescription": "Priory foundation site whose 989–996 charter first names Renaud de Gournay, Alberade, Hugh, and Gautier.",
         "siteName": "Église Saint-Pierre-et-Saint-Paul",
         "coordinate": {"lat": 49.57795, "lng": 1.527104},
         "coordinatePrecision": "high",
         "coordinateBasis": "historic parish church / former La Ferté-en-Bray core",
         "extantStatus": "site only",
-        "extantStatusDescription": "Former priory setting is now represented through the historic parish-church core.",
+        "extantStatusDescription": "Former priory no longer stands; the parish church of Saint-Pierre-et-Saint-Paul occupies or adjoins the historic core.",
         "reviewNotes": [],
     },
     "Le Bec-Hellouin, Normandy, France": {
@@ -213,6 +213,9 @@ EUROPE_OVERRIDES = {
         "longDescription": "Regional umbrella record for Norman holdings and priory contexts not yet assigned to a tighter single locality.",
         "reviewNotes": ["Regional umbrella record, not a single site."],
         "siteName": "",
+        "coordinateBasis": "regional centroid",
+        "extantStatus": "",
+        "extantStatusDescription": "",
     },
     "Oxfordshire, England": {
         "shortDescription": "Regional holdings context",
@@ -235,10 +238,14 @@ EUROPE_OVERRIDES = {
         "reviewNotes": [],
     },
     "Scandinavia": {
-        "shortDescription": "Regional family geography",
-        "longDescription": "Broad Scandinavian origin context, more specifically Denmark or Norway, without a tighter attested locality.",
-        "reviewNotes": ["Origin-region record only; no tighter locality is established yet."],
+        "shortDescription": "Traditional origin region",
+        "longDescription": "Traditional Scandinavian origin context only; no specific Denmark-or-Norway locality is established, and Rollo's ancestry should not be treated as direct Gournay ancestry.",
+        "reviewNotes": [
+            "Origin-region record only; no tighter locality is established yet.",
+            "Traditional context only; not an attested Gournay family seat or documented locality."
+        ],
         "siteName": "",
+        "coordinateBasis": "regional centroid",
         "extantStatus": "",
         "extantStatusDescription": "",
     },
@@ -264,21 +271,18 @@ EUROPE_OVERRIDES = {
     },
 }
 
-LOG_TEXT = """# 2026-04-17 — place normalization pass 3 (England and Europe)
+LOG_TEXT = """# 2026-04-17 — place normalization pass 3b (England and Europe)
 
-Targeted cleanup pass for England and Europe place records.
+Targeted corrective cleanup after the Europe-focused pass 3 sweep.
 
 Updated:
-- `data/places.json` — refined descriptions, coordinates, and roles for England/Europe places
-- `data/places_detail.json` — refined long descriptions, site-status descriptions, and review notes for England/Europe places
-- `data/ancestors v24.json` — regenerated `placeRefs` after Europe-focused ancestor-link cleanup
-- `research/places/*.md` — refreshed generated blocks for England/Europe place files with grouped ancestor-role lines and cleaner summaries
+- `data/places_detail.json` — removed remaining umbrella-record site-status contamination and refined selected Europe detail text
+- `research/places/*.md` — refreshed generated blocks for corrected Europe umbrella and origin-region records
 
 Key actions:
-- tightened high-value England/Europe descriptions and statuses
-- restored exact site anchors for major Europe/England places where the best historic coordinate was already known
-- removed the erroneous West Barsham ↔ Eudes landholding link from the canonical place spine
-- kept North America untouched for later work with additional materials
+- removed the lingering Clairruissel-specific status artifact from the Normandy regional umbrella record
+- tightened the Scandinavia origin-region wording to reflect tradition rather than attested locality
+- refined Gournay-en-Bray and La Ferté-en-Bray wording to align more closely with the narrative place files
 """
 
 
@@ -428,7 +432,7 @@ def make_block(place: dict, detail: dict, labels: dict[str, str]) -> str:
     lines.append("")
     notes = detail.get("reviewNotes") or []
     if not notes:
-        lines.append("- None in cleanup pass 3.")
+        lines.append("- None in cleanup pass 3b.")
     else:
         for note in notes:
             lines.append(f"- {note}")
