@@ -4,6 +4,12 @@ Village in the Pays de Bray, Seine-Maritime, Normandy, France (modern commune li
 
 Site of a medieval priory **endowed c. 989–996 by Gautier de la Ferté**, younger son of Renaud de Gournay (G35), with the consent of his elder brother Hugh. The foundation charter is the **earliest primary-source document attesting a named Lord of Gournay** in the lineage. Gautier subsequently took the surname "de la Ferté" — one of the earliest Norman families to adopt a territorial surname — establishing a cadet line distinct from the Gournays proper.
 
+## Why this place matters structurally
+
+This record matters for more than a local priory. In project terms, La Ferté-en-Bray is the point where the pedigree moves from **tradition and reconstruction** into a surviving document that explicitly names members of the family. The charter ties together Renaud, his wife Alberade / Alberarda, his elder son Hugh, and the donor Gautier. Because of that, the place file and the JSON both treat La Ferté-en-Bray as a **priory foundation locality** rather than as a generic landholding. [DG-I] [Hannay]
+
+The normalized structured layer intentionally uses the parish-church core as the best modern anchor because the priory itself does not survive as a standing, separately legible monument. The geography is therefore honest but necessarily approximate at the site-core level rather than at the level of an extant priory building.
+
 ## The foundation charter (989–996)
 
 Witnesses:
