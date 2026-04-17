@@ -4,6 +4,12 @@ Town in the Pays de Bray, Normandy, France (modern dept. Eure, on the river Ande
 
 Historically a parcel of the great honour of Bray, the principal Norman possession of the senior Lords of Gournay. Its significance in the Gurney story is evidentiary, not seigneurial: **William de Gournay I (G30) held Montigny-sur-Andelle in *parage* from the Dukes of Normandy** — a tenure only available to blood relatives of the senior line. Daniel Gurney called this "incontestable proof" of William I's descent from the Barons of Gournay [DG-I-278].
 
+## Why this place matters structurally
+
+This is one of the most important **proof places** in the entire project. Unlike Gournay-en-Bray, it is not important because it was the family's chief seat. Unlike La Ferté-en-Bray, it is not important because it preserves the earliest naming charter. Its importance is genealogical and argumentative: Montigny-sur-Andelle is the locality that underpins the case that Walter (G31) and William (G30) belonged by blood to the Barons of Gournay. [DG-I] [Hannay]
+
+That means the file should stay tightly focused on **parage tenure as evidence**, not drift into overstating the place as a major landed centre of the junior line.
+
 ## Gurney ancestors holding here
 
 | Ancestor | Gen | Period | Tenure |
@@ -14,9 +20,17 @@ The parage tie was effectively severed in 1204 when King John lost Normandy to P
 
 ## Parage tenure — what it meant
 
-From Hannay (p. 116–117), citing the feudal legal convention: parage was "a tenure by which a younger son possessed a portion of the family property *pari conditione* with his elder brother." Critically, parage required blood descent — it was not available to vassals or tenants.
+From Hannay (pp. 116–117), citing the feudal legal convention: parage was "a tenure by which a younger son possessed a portion of the family property *pari conditione* with his elder brother." Critically, parage required blood descent — it was not available to vassals or tenants.
 
 The argument for Walter (G31) as Gerard's son runs through this tenure: "As the severance of land in this case occurred at the time of the death of Gerard, when Walter, who profited by it, was alive, he cannot have been remoter from him than the degree of son."
+
+## Interpretive caution
+
+Montigny is powerful evidence, but it is still an **evidentiary link mediated through later historical argument and a cited source reference**. The project should continue to distinguish between: 
+1. the historical fact that Montigny-sur-Andelle was held in parage, and
+2. the genealogical conclusion DG and Hannay draw from that fact.
+
+The conclusion is strong, but the structure should preserve the logic rather than flattening everything into a single unsupported assertion.
 
 ## Primary source
 
@@ -28,6 +42,7 @@ See also DG-I Appendix XLVI on parage tenure.
 
 - [ ] Locate the *Registres Olim* entry (Beugnot ed., 1839) naming William de Gournay I at Montigny-sur-Andelle. This would be the strongest independent confirmation of his Norman holding.
 - [ ] Confirm the modern administrative status of Montigny-sur-Andelle — the commune may have been merged into Amfreville-sur-Iton or a neighbouring commune in modern reorganisations.
+- [ ] Once the primary citation is pulled, consider whether the structured detail text should mention the 1204 severance more explicitly.
 
 ## Sources
 
@@ -41,6 +56,7 @@ See also DG-I Appendix XLVI on parage tenure.
 - `research/people/g30-william-de-gournay-i-fact-sheet.research.md`
 - `research/people/g31-walter-de-gournay-fact-sheet.research.md` (the "proved ancestor" argument rests on Montigny parage)
 - `research/places/gournay-en-bray.md`
+- `research/places/normandy.md`
 
 <!-- GENERATED:PLACE-REGISTRY:START -->
 ## Place registry
