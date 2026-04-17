@@ -26,7 +26,7 @@ OLD_GEN_END = "<!-- GENERATED:LOCATION-REGISTRY:END -->"
 NEW_GEN_START = "<!-- GENERATED:PLACE-REGISTRY:START -->"
 NEW_GEN_END = "<!-- GENERATED:PLACE-REGISTRY:END -->"
 
-ATOMIC_LOG_NAME = "2026-04-17--place-normalization-v1.md"
+ATOMIC_LOG_NAME = "2026-04-17--place-normalization-pass2.md"
 
 STATE_ABBREV = {
     "Massachusetts": "ma",
@@ -36,6 +36,14 @@ STATE_ABBREV = {
     "Michigan": "mi",
     "South Carolina": "sc",
     "Missouri": "mo",
+}
+
+ROLE_ORDER = {
+    "landholding / property reference": 10,
+    "residence": 20,
+    "address reference": 30,
+    "individual geography": 40,
+    "associated place": 90,
 }
 
 ALIASES_MAP = {
@@ -108,6 +116,104 @@ KNOWN_FILENAME_MAP = {
 }
 KNOWN_FILENAME_MAP.update(US_FILENAME_OVERRIDES)
 
+PASS2_OVERRIDES = {
+    "West Barsham, Norfolk, England": {
+        "shortDescription": "Principal family seat",
+        "longDescription": "Principal Gurney family seat from 1372 until Francis Gurney sold the Norfolk lands in 1634.",
+        "extantStatus": "extant",
+        "extantStatusDescription": "Surviving north wing of West Barsham Hall still marks the historic manor site.",
+        "reviewNotes": [],
+        "removeAncestorLinks": [("ancestor-g-37-eudes-odon-de-gournay", "landholding / property reference")],
+    },
+    "Gournay-en-Bray, Normandy, France": {
+        "shortDescription": "Ancestral fortress town",
+        "longDescription": "Ancestral fortress town and seigneury of the Gournay family in the Pays de Bray.",
+        "extantStatus": "extant",
+        "extantStatusDescription": "Modern town survives; the church site is used as the best historic anchor for the lost fortress town.",
+        "reviewNotes": [],
+    },
+    "City of London, England": {
+        "shortDescription": "Historic commercial site",
+        "longDescription": "City of London commercial context linked to St Benet Fink parish and the La Selde Coronata warehouse tradition.",
+        "extantStatus": "site only",
+        "extantStatusDescription": "St Benet Fink church is lost; the historic site lies within the modern Bank of England east-wing area.",
+        "reviewNotes": ["City-level record aggregates more than one London sub-site; keep the narrative file for separation."],
+    },
+    "King's Lynn, Norfolk, England": {
+        "longDescription": "St James's Chapel site in King's Lynn, leased for a failed textile-manufacture venture in the early seventeenth century.",
+        "extantStatusDescription": "Ruins of St James's Chapel survive and provide the historic site anchor.",
+        "reviewNotes": [],
+    },
+    "Harpley, Norfolk, England": {
+        "longDescription": "Gurney's manor in Harpley, acquired c.1183 through Rose de Burnham and the Hameline de Warenne connection.",
+        "reviewNotes": [],
+    },
+    "Hardingham, Norfolk, England": {
+        "longDescription": "Swathings in Hardingham, a long-running junior-line holding documented from the Henry II period onward.",
+        "reviewNotes": [],
+    },
+    "Hingham, Norfolk, England": {
+        "longDescription": "Manor of Hingham-Gurneys, an ancient junior-line holding later held of the Bardolf and Morley interests.",
+        "reviewNotes": [],
+    },
+    "Irstead, Norfolk, England": {
+        "longDescription": "Irstead manor, a primary documented later junior-line holding in Norfolk.",
+        "reviewNotes": [],
+    },
+    "Great Ellingham, Norfolk, England": {
+        "longDescription": "Great Ellingham manor, later associated with the Lovell inheritance through Margaret Lovell.",
+        "reviewNotes": [],
+    },
+    "Braintree, Massachusetts, USA": {
+        "longDescription": "Massachusetts town where immigrant John Gurney held land, including acreage noted in his possession in 1653, and sold property in 1661.",
+        "reviewNotes": ["Possession versus ownership should stay explicit in later source cleanup."],
+    },
+    "Weymouth, Massachusetts, USA": {
+        "longDescription": "Early Massachusetts grants in Weymouth included the East Field, Mill Field, and land near Great Pond.",
+        "reviewNotes": ["Town-level record aggregates multiple field and pond-side grants rather than a single parcel."],
+    },
+    "Bridgewater, Massachusetts, USA": {
+        "longDescription": "Bridgewater-area holdings tied to the Benjamin/Richard Gurney line, including the Richard Williams farm and other town-level parcel references.",
+        "reviewNotes": ["Town-level record aggregates multiple parcels and named sub-places; parcel-level cleanup remains possible."],
+    },
+    "Cummington, Massachusetts, USA": {
+        "longDescription": "Cummington farm holdings associated with the Benjamin/Amos Gurney family after their move from Abington.",
+        "reviewNotes": ["Town-level record aggregates several family-era parcels and later cemetery context."],
+    },
+    "Flushing, Queens, New York, USA": {
+        "longDescription": "Probable residential base of the Willis/William Gurney family before later Manhattan addresses; ownership versus rental remains unresolved.",
+        "reviewNotes": ["Residence versus ownership status remains unresolved and should be revisited with directory and property work."],
+    },
+    "Middleborough, Massachusetts, USA": {
+        "longDescription": "Middleborough land purchases and later sales associated with the Benjamin Gurney family in the 1730s and 1740s.",
+        "reviewNotes": ["Town-level record aggregates multiple deeded parcels."],
+    },
+    "Norfolk, England": {
+        "shortDescription": "County-level holdings context",
+        "longDescription": "County-level umbrella record for dispersed Norfolk holdings; use individual manor and village files for site-specific work.",
+        "reviewNotes": ["Regional umbrella record, not a single site."],
+    },
+    "Normandy, France": {
+        "shortDescription": "Regional holdings context",
+        "longDescription": "Regional umbrella record for Norman holdings and priory contexts not yet assigned to a tighter single place.",
+        "reviewNotes": ["Regional umbrella record, not a single site."],
+    },
+    "Oxfordshire, England": {
+        "shortDescription": "Regional holdings context",
+        "longDescription": "County-level umbrella record for scattered Oxfordshire holdings documented in royal and exchequer records.",
+        "reviewNotes": ["Regional umbrella record, not a single site."],
+    },
+    "New York metropolitan area, USA": {
+        "shortDescription": "Regional family geography",
+        "longDescription": "Regional umbrella record for the family's broader New York-area geography before and beyond specific city addresses.",
+        "reviewNotes": ["Regional umbrella record, not a single site."],
+    },
+    "Scandinavia": {
+        "longDescription": "Broad Scandinavian origin context, more specifically Denmark or Norway, without a tighter attested locality.",
+        "reviewNotes": ["Origin-region record only; no tighter locality is established yet."],
+    },
+}
+
 DATA_README_TEXT = """# data/
 
 Canonical structured data for the research-library spine.
@@ -177,7 +283,7 @@ Older extraction blocks are replaced during normalization.
 - Preserve existing narrative research outside the generated block.
 - Keep generated content concise.
 - Keep sub-sites and street-address detail in `places_detail.json` unless the research clearly treats them as standalone places.
-- Record unresolved cleanup items as review notes for pass 2.
+- Record unresolved cleanup items as review notes only when they still matter after cleanup.
 - For U.S. place filenames, use a trailing two-letter state code even for pre-statehood places.
 """
 
@@ -203,32 +309,25 @@ Each log file is a short operational pointer:
 Substantive research belongs in topical files (`people/`, `places/`, `topics/`), not in the log.
 """
 
-LOG_TEXT = """# 2026-04-17 — place normalization v1
+LOG_TEXT = """# 2026-04-17 — place normalization pass 2
 
-Refactored the geography model into a lighter two-file place spine.
+Second cleanup pass on the normalized place spine.
 
 Updated:
-- `data/places.json` — lightweight canonical place spine
-- `data/places_detail.json` — supplemental map/detail layer
-- `data/ancestors v24.json` — normalized ancestor records with `placeRefs`
-- `data/README.md` — revised lightweight place-spine model documented
-- `research/places/README.md` — place/detail registry contract documented
-- `research/log/README.md` — atomic log guidance retained
-- `research/places/*.md` — generated blocks simplified to canonical place summaries
+- `data/places.json` — cleaned short descriptions, roles ordering, and ancestor links for selected places
+- `data/places_detail.json` — cleaned long descriptions, extant-status descriptions, and review notes
+- `data/ancestors v24.json` — place refs regenerated from the cleaned canonical place set
+- `research/places/*.md` — generated blocks refreshed with cleaner linked-ancestor summaries and reduced noise
 
-Removed / replaced:
-- `data/locations.json` — retired in favor of a per-place detail layer
-- mention-ledger style generated content in place files
+Key cleanup actions:
+- removed the incorrect West Barsham landholding link from G~37 Eudes
+- replaced merged/concatenated popup text for high-value places with cleaned canonical descriptions
+- converted several remaining records into explicit town-level or region-level umbrella notes where appropriate
+- suppressed review notes that no longer added value after cleanup
 
-Design decisions:
-- flattened multiple occurrences of a place into one canonical record
-- chose one best coordinate per place rather than synthesizing representative coordinates
-- moved extant-status and richer map-popup content to `places_detail.json`
-- standardized U.S. place filenames to include a trailing two-letter state code
-
-Next:
-- pass 2 cleanup of flagged place files
-- review any renamed U.S. files for link/citation updates outside the generated block
+Remaining follow-up:
+- optional deeper parcel-level split for some Massachusetts town records if needed later
+- optional future separation of City of London and Normandy sub-sites if those become first-class research objects
 """
 
 
@@ -388,10 +487,25 @@ def basis_rank(value: str | None) -> int:
     return 50 if text else 0
 
 
+def is_merged_field(value: str | None) -> bool:
+    text = value or ""
+    return "|" in text or "||" in text
+
+
+def split_fragments(value: str | None) -> list[str]:
+    text = value or ""
+    if not text:
+        return []
+    parts = [p.strip(" .") for p in re.split(r"\s*\|\|?\s*", text) if p.strip()]
+    return parts
+
+
 def choose_best_mention(mentions: list[dict]) -> dict:
     def score(item: dict) -> tuple:
         return (
             1 if item.get("lat") is not None and item.get("lng") is not None else 0,
+            1 if not is_merged_field(item.get("sourceQuote")) else 0,
+            1 if not is_merged_field(item.get("eventDate")) else 0,
             basis_rank(item.get("geocodeBasis")),
             confidence_rank(item.get("confidence")),
             1 if item.get("siteUrl") else 0,
@@ -414,6 +528,10 @@ def dedupe(values: list[str]) -> list[str]:
     return out
 
 
+def sort_roles(values: list[str]) -> list[str]:
+    return sorted(values, key=lambda v: (ROLE_ORDER.get(v, 80), v))
+
+
 def first_nonempty(values: list[str]) -> str:
     for value in values:
         if value:
@@ -431,9 +549,24 @@ def truncate_words(text: str, max_words: int) -> str:
 def clean_note(text: str) -> str:
     if not text:
         return ""
-    text = text.replace("||", " | ")
     text = re.sub(r"\s+", " ", text).strip()
     return text
+
+
+def best_quote_for_place(mentions: list[dict]) -> str:
+    clean_quotes = []
+    for mention in mentions:
+        quote = mention.get("sourceQuote") or ""
+        if quote and not is_merged_field(quote):
+            clean_quotes.append(clean_note(quote))
+    if clean_quotes:
+        return max(clean_quotes, key=lambda q: len(q.split()))
+    fragments = []
+    for mention in mentions:
+        fragments.extend(split_fragments(mention.get("sourceQuote")))
+    if fragments:
+        return max((clean_note(f) for f in fragments), key=lambda q: len(q.split()))
+    return ""
 
 
 def extant_status(mention: dict) -> str:
@@ -453,22 +586,28 @@ def extant_status(mention: dict) -> str:
     return "unknown"
 
 
-def extant_status_description(mention: dict) -> str:
-    quote = clean_note(mention.get("sourceQuote") or "")
+def extant_status_description(mention: dict, status: str) -> str:
+    if status == "unknown":
+        return ""
+    quote = best_quote_for_place([mention])
     if quote:
-        return truncate_words(quote, 28)
+        return truncate_words(quote, 22)
     basis = (mention.get("geocodeBasis") or "").strip()
     if basis:
         return basis[:1].upper() + basis[1:]
     return ""
 
 
-def short_description(place_type: str, roles: list[str], primary: dict) -> str:
+def short_description(place_name: str, place_type: str, roles: list[str], primary: dict) -> str:
     subsite = clean_subsite(primary.get("siteName"))
     roles_lower = " | ".join(r.lower() for r in roles)
+    if place_name in PASS2_OVERRIDES and PASS2_OVERRIDES[place_name].get("shortDescription"):
+        return PASS2_OVERRIDES[place_name]["shortDescription"]
     if place_type == "address":
         return "Historic street address"
-    if "landholding" in roles_lower and any(k in subsite.lower() for k in ("hall", "manor", "abbey", "estate")):
+    if place_type == "region":
+        return "Regional holdings context"
+    if "landholding" in roles_lower and any(k in subsite.lower() for k in ("hall", "manor", "abbey", "estate", "fortress")):
         return "Historic landholding site"
     if "landholding" in roles_lower:
         return "Ancestral landholding"
@@ -481,36 +620,37 @@ def short_description(place_type: str, roles: list[str], primary: dict) -> str:
     return "Associated ancestral place"
 
 
-def long_description(primary: dict, short_desc: str) -> str:
-    quote = clean_note(primary.get("sourceQuote") or "")
+def generic_long_description(place_name: str, place_type: str, mentions: list[dict], primary: dict, short_desc: str) -> str:
+    override = PASS2_OVERRIDES.get(place_name, {})
+    if override.get("longDescription"):
+        return override["longDescription"]
+    quote = best_quote_for_place(mentions)
     if quote:
-        return truncate_words(quote, 45)
+        return truncate_words(quote, 36)
     basis = primary.get("geocodeBasis") or ""
     site = clean_subsite(primary.get("siteName"))
-    status_desc = extant_status_description(primary)
+    if place_type == "address":
+        return primary.get("place") or place_name
     parts = [short_desc]
     if site:
-        parts.append(f"focused on {site}")
+        parts.append(site)
     if basis:
-        parts.append(f"geocoded from {basis}")
-    if status_desc:
-        parts.append(status_desc)
-    return truncate_words(". ".join(p for p in parts if p), 45)
+        parts.append(basis)
+    return truncate_words(" — ".join(p for p in parts if p), 28)
 
 
-def review_notes(mentions: list[dict]) -> list[str]:
+def review_notes(place_name: str, place_type: str, mentions: list[dict]) -> list[str]:
+    override = PASS2_OVERRIDES.get(place_name, {})
+    if "reviewNotes" in override:
+        return override["reviewNotes"]
     notes = []
-    quotes = [m.get("sourceQuote") or "" for m in mentions]
-    if any("||" in q for q in quotes):
-        notes.append("Merged inherited note text detected; verify and split in pass 2 if needed.")
-    if any("|" in (m.get("eventDate") or "") for m in mentions):
-        notes.append("Merged date span detected; verify whether multiple generations were compressed together.")
-    coords = {(m.get("lat"), m.get("lng")) for m in mentions if m.get("lat") is not None and m.get("lng") is not None}
-    if len(coords) > 1:
-        notes.append("Multiple coordinate candidates existed; normalized record uses the strongest single anchor.")
     site_names = dedupe([clean_subsite(m.get("siteName")) for m in mentions if clean_subsite(m.get("siteName"))])
-    if len(site_names) > 1:
-        notes.append("Multiple sub-site labels were merged under one canonical place.")
+    if place_type == "region":
+        notes.append("Regional umbrella record, not a single site.")
+    elif place_type == "locality" and len(site_names) > 1:
+        notes.append("Multiple sub-site labels are still grouped under one canonical place.")
+    if not best_quote_for_place(mentions) and any(is_merged_field(m.get("sourceQuote")) for m in mentions):
+        notes.append("Source JSON still preserves merged chronology fragments; use the narrative place file for nuance.")
     return notes
 
 
@@ -547,7 +687,14 @@ def extract_mentions(records: list[dict]) -> tuple[list[dict], dict[str, str]]:
     return mentions, labels
 
 
-def build_place_records(mentions: list[dict], labels: dict[str, str]) -> tuple[list[dict], list[dict], dict[str, list[str]]]:
+def apply_link_cleanup(place_name: str, group: list[dict]) -> list[dict]:
+    removals = set(PASS2_OVERRIDES.get(place_name, {}).get("removeAncestorLinks", []))
+    if not removals:
+        return group
+    return [m for m in group if (m["recordId"], m["role"]) not in removals]
+
+
+def build_place_records(mentions: list[dict]) -> tuple[list[dict], list[dict], dict[str, list[str]]]:
     by_place = defaultdict(list)
     for mention in mentions:
         by_place[mention["place"]].append(mention)
@@ -557,13 +704,17 @@ def build_place_records(mentions: list[dict], labels: dict[str, str]) -> tuple[l
     place_refs_by_record = defaultdict(list)
 
     for place_name in sorted(by_place):
-        group = by_place[place_name]
+        group = apply_link_cleanup(place_name, by_place[place_name])
+        if not group:
+            continue
         pid = place_id(place_name)
+        place_type = infer_place_type(place_name)
         primary = choose_best_mention(group)
-        roles = dedupe([m["role"] for m in group if m.get("role")])
+        roles = sort_roles(dedupe([m["role"] for m in group if m.get("role")]))
+
         ancestor_links = []
         seen_links = set()
-        for mention in sorted(group, key=lambda m: (m["recordGen"] or "", m["recordName"] or "", m["role"] or "")):
+        for mention in sorted(group, key=lambda m: (m["recordGen"] or "", m["recordName"] or "", ROLE_ORDER.get(m["role"], 80), m["role"])):
             link = (mention["recordId"], mention["role"])
             if link not in seen_links:
                 seen_links.add(link)
@@ -574,8 +725,20 @@ def build_place_records(mentions: list[dict], labels: dict[str, str]) -> tuple[l
         if primary.get("lat") is not None and primary.get("lng") is not None:
             coords = {"lat": primary["lat"], "lng": primary["lng"]}
 
-        short_desc = short_description(infer_place_type(place_name), roles, primary)
-        detail_desc = long_description(primary, short_desc)
+        short_desc = short_description(place_name, place_type, roles, primary)
+        detail_desc = generic_long_description(place_name, place_type, group, primary, short_desc)
+        status = PASS2_OVERRIDES.get(place_name, {}).get("extantStatus") or extant_status(primary)
+        status_desc = PASS2_OVERRIDES.get(place_name, {}).get("extantStatusDescription")
+        if status_desc is None:
+            status_desc = extant_status_description(primary, status)
+
+        heritage_url = first_nonempty([m.get("siteUrl") for m in group if m.get("siteUrl")])
+        heritage_label = first_nonempty([m.get("siteLabel") for m in group if m.get("siteUrl")]) if heritage_url else ""
+        image_url = first_nonempty([m.get("photoUrl") for m in group if m.get("photoUrl")])
+        image_title = first_nonempty([m.get("photoTitle") for m in group if m.get("photoUrl")]) if image_url else ""
+        site_name = PASS2_OVERRIDES.get(place_name, {}).get("siteName")
+        if site_name is None:
+            site_name = first_nonempty([m.get("siteName") for m in group if m.get("siteName")])
 
         places.append(
             {
@@ -583,7 +746,7 @@ def build_place_records(mentions: list[dict], labels: dict[str, str]) -> tuple[l
                 "name": place_name,
                 "aliases": alias_list(place_name),
                 "shortDescription": short_desc,
-                "placeType": infer_place_type(place_name),
+                "placeType": place_type,
                 "coordinate": coords,
                 "coordinatePrecision": precision_label(primary.get("confidence"), primary.get("geocodeBasis")),
                 "roles": roles,
@@ -592,27 +755,22 @@ def build_place_records(mentions: list[dict], labels: dict[str, str]) -> tuple[l
             }
         )
 
-        street_address = place_name.split(",")[0].strip() if infer_place_type(place_name) == "address" else ""
-        heritage_url = first_nonempty([m.get("siteUrl") for m in group if m.get("siteUrl")])
-        heritage_label = first_nonempty([m.get("siteLabel") for m in group if m.get("siteUrl")]) if heritage_url else ""
-        image_url = first_nonempty([m.get("photoUrl") for m in group if m.get("photoUrl")])
-        image_title = first_nonempty([m.get("photoTitle") for m in group if m.get("photoUrl")]) if image_url else ""
-
+        street_address = place_name.split(",")[0].strip() if place_type == "address" else ""
         details.append(
             {
                 "placeId": pid,
                 "placeName": place_name,
                 "longDescription": detail_desc,
-                "siteName": first_nonempty([m.get("siteName") for m in group if m.get("siteName")]),
+                "siteName": site_name,
                 "streetAddress": street_address,
-                "extantStatus": extant_status(primary),
-                "extantStatusDescription": extant_status_description(primary),
+                "extantStatus": status,
+                "extantStatusDescription": status_desc,
                 "coordinateBasis": primary.get("geocodeBasis") or "",
                 "imageUrl": image_url,
                 "imageTitle": image_title,
                 "heritageUrl": heritage_url,
                 "heritageLabel": heritage_label,
-                "reviewNotes": review_notes(group),
+                "reviewNotes": review_notes(place_name, place_type, group),
             }
         )
 
@@ -664,7 +822,7 @@ def make_place_block(place: dict, detail: dict, record_labels: dict[str, str]) -
         lines.append(f"- Street address: {detail['streetAddress']}")
     if detail.get("longDescription"):
         lines.append(f"- Detail: {detail['longDescription']}")
-    if detail.get("extantStatus"):
+    if detail.get("extantStatus") and detail['extantStatus'] != "unknown":
         status_line = f"- Current-site status: {detail['extantStatus']}"
         if detail.get("extantStatusDescription"):
             status_line += f" — {detail['extantStatusDescription']}"
@@ -675,15 +833,18 @@ def make_place_block(place: dict, detail: dict, record_labels: dict[str, str]) -
     lines.append("")
     lines.append("### Linked ancestors")
     lines.append("")
+    grouped = defaultdict(list)
     for link in place.get("ancestorLinks", []):
-        label = record_labels.get(link["recordId"], link["recordId"])
-        lines.append(f"- {label} — {link['role']}")
+        grouped[link["recordId"]].append(link["role"])
+    for record_id_key, roles in sorted(grouped.items(), key=lambda kv: record_labels.get(kv[0], kv[0])):
+        label = record_labels.get(record_id_key, record_id_key)
+        lines.append(f"- {label} — {', '.join(sort_roles(dedupe(roles)))}")
     lines.append("")
     lines.append("### Review notes")
     lines.append("")
     notes = detail.get("reviewNotes") or []
     if not notes:
-        lines.append("- None in normalization pass v1.")
+        lines.append("- None in cleanup pass 2.")
     else:
         for note in notes:
             lines.append(f"- {note}")
@@ -769,7 +930,7 @@ def cleanup_stale_generated_files(target_files: set[str]) -> None:
 def main() -> None:
     records = json.loads(ANCESTORS_V23.read_text(encoding="utf-8"))
     mentions, record_labels = extract_mentions(records)
-    places, details, place_refs_by_record = build_place_records(mentions, record_labels)
+    places, details, place_refs_by_record = build_place_records(mentions)
     ancestors_v24 = normalize_ancestors(records, place_refs_by_record)
 
     DATA_README.write_text(DATA_README_TEXT, encoding="utf-8")
