@@ -1,6 +1,6 @@
 name: Place normalization v1
 
-# Touch commit to trigger workflow after streamlined two-file place model update.
+# Trigger Europe-focused cleanup pass after the lightweight place model work.
 on:
   push:
     branches:
@@ -24,8 +24,8 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run place normalization
-        run: python tools/normalize_places_v1.py
+      - name: Run Europe cleanup pass
+        run: python tools/refine_europe_places_pass3.py
 
       - name: Commit generated outputs
         run: |
@@ -36,5 +36,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A data research/places research/log
-          git commit -m "place normalization v1: lightweight place spine and detail layer"
+          git commit -m "place normalization pass 3: clean England and Europe records"
           git push
