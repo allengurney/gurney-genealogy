@@ -60,6 +60,6 @@ See also DG-I Appendix XLVI on parage tenure.
 
 ### Review notes
 
-- None in cleanup pass 3.
+- None in cleanup pass 3b.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

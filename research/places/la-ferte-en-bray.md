@@ -60,8 +60,8 @@ No direct-line Gurney held La Ferté after Gautier — the site passed to the de
 - Coordinate: 49.57795, 1.527104 (high)
 - Roles: landholding / property reference
 - Site name: Église Saint-Pierre-et-Saint-Paul
-- Detail: La Ferté-en-Bray priory context endowed by Renaud's son Gautier.
-- Current-site status: site only — Former priory setting is now represented through the historic parish-church core.
+- Detail: Priory foundation site whose 989–996 charter first names Renaud de Gournay, Alberade, Hugh, and Gautier.
+- Current-site status: site only — Former priory no longer stands; the parish church of Saint-Pierre-et-Saint-Paul occupies or adjoins the historic core.
 - Links: [Local history page](https://tourismedes4rivieresenbray.com/la-ferte-saint-samson/)
 
 ### Linked ancestors
@@ -70,6 +70,6 @@ No direct-line Gurney held La Ferté after Gautier — the site passed to the de
 
 ### Review notes
 
-- None in cleanup pass 3.
+- None in cleanup pass 3b.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

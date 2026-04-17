@@ -57,6 +57,6 @@ Caister Castle (the fortified manor house built c. 1432–1446 by Sir John Fasto
 
 ### Review notes
 
-- None in cleanup pass 3.
+- None in cleanup pass 3b.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

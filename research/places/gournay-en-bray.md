@@ -78,7 +78,7 @@ The local-history site *Les remparts de Gournay-en-Bray* (remparts-de-normandie.
 - Coordinate: 49.483148, 1.727303 (exact)
 - Roles: landholding / property reference, individual geography
 - Site name: Collégiale Saint-Hildevert
-- Detail: Ancestral fortress town and seigneury of the Gournay family in the Pays de Bray.
+- Detail: Ancestral fortress town and frontier seigneury of the Gournay family in the Pays de Bray.
 - Current-site status: extant — Modern town survives; the church site is used as the best historic anchor for the lost fortress town.
 - Links: [Heritage page](https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/) · [Collégiale Saint-Hildevert, Gournay-en-Bray](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg)
 
@@ -95,6 +95,6 @@ The local-history site *Les remparts de Gournay-en-Bray* (remparts-de-normandie.
 
 ### Review notes
 
-- None in cleanup pass 3.
+- None in cleanup pass 3b.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

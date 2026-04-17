@@ -410,7 +410,7 @@
   {
     "placeId": "place-gournay-en-bray-normandy-france",
     "placeName": "Gournay-en-Bray, Normandy, France",
-    "longDescription": "Ancestral fortress town and seigneury of the Gournay family in the Pays de Bray.",
+    "longDescription": "Ancestral fortress town and frontier seigneury of the Gournay family in the Pays de Bray.",
     "siteName": "Collégiale Saint-Hildevert",
     "streetAddress": "",
     "extantStatus": "extant",
@@ -560,11 +560,11 @@
   {
     "placeId": "place-la-ferte-en-bray-normandy-france",
     "placeName": "La Ferté-en-Bray, Normandy, France",
-    "longDescription": "La Ferté-en-Bray priory context endowed by Renaud's son Gautier.",
+    "longDescription": "Priory foundation site whose 989–996 charter first names Renaud de Gournay, Alberade, Hugh, and Gautier.",
     "siteName": "Église Saint-Pierre-et-Saint-Paul",
     "streetAddress": "",
     "extantStatus": "site only",
-    "extantStatusDescription": "Former priory setting is now represented through the historic parish-church core.",
+    "extantStatusDescription": "Former priory no longer stands; the parish church of Saint-Pierre-et-Saint-Paul occupies or adjoins the historic core.",
     "coordinateBasis": "historic parish church / former La Ferté-en-Bray core",
     "imageUrl": "",
     "imageTitle": "",
@@ -734,9 +734,9 @@
     "longDescription": "Regional umbrella record for Norman holdings and priory contexts not yet assigned to a tighter single locality.",
     "siteName": "",
     "streetAddress": "",
-    "extantStatus": "site only",
-    "extantStatusDescription": "Clairruissel Priory, Normandy — founded with second wife Melisende de Coucy.",
-    "coordinateBasis": "approximate former priory vicinity",
+    "extantStatus": "",
+    "extantStatusDescription": "",
+    "coordinateBasis": "regional centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
@@ -840,7 +840,7 @@
   {
     "placeId": "place-scandinavia",
     "placeName": "Scandinavia",
-    "longDescription": "Broad Scandinavian origin context, more specifically Denmark or Norway, without a tighter attested locality.",
+    "longDescription": "Traditional Scandinavian origin context only; no specific Denmark-or-Norway locality is established, and Rollo's ancestry should not be treated as direct Gournay ancestry.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "",
@@ -851,7 +851,8 @@
     "heritageUrl": "",
     "heritageLabel": "",
     "reviewNotes": [
-      "Origin-region record only; no tighter locality is established yet."
+      "Origin-region record only; no tighter locality is established yet.",
+      "Traditional context only; not an attested Gournay family seat or documented locality."
     ]
   },
   {

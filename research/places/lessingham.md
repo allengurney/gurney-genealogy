@@ -47,6 +47,6 @@ The foundation placed a Bec satellite on Gournay-held Norfolk coast, reinforcing
 
 ### Review notes
 
-- None in cleanup pass 3.
+- None in cleanup pass 3b.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

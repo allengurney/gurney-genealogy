@@ -75,6 +75,6 @@ Gaywood is a parish now absorbed into King's Lynn's urban area. The Gaywood deed
 
 ### Review notes
 
-- None in cleanup pass 3.
+- None in cleanup pass 3b.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

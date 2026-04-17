@@ -91,6 +91,6 @@ The church is the natural hero-image anchor for G31–G22. Current structure pos
 
 ### Review notes
 
-- None in cleanup pass 3.
+- None in cleanup pass 3b.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

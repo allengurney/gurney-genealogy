@@ -63,6 +63,6 @@ The Crusade journey (1270) is the traditional origin of the Gurney family coat o
 
 ### Review notes
 
-- None in cleanup pass 3.
+- None in cleanup pass 3b.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->
