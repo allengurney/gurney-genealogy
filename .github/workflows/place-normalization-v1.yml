@@ -1,5 +1,6 @@
 name: Place normalization v1
 
+# Touch commit to trigger workflow after definition is present on branch.
 on:
   push:
     branches:
