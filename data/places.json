@@ -980,14 +980,10 @@
       },
       {
         "recordId": "ancestor-g23-edmund-gurney",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g23-edmund-gurney",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g24-john-de-gournay-iv",
         "role": "individual geography"
       },
       {
@@ -995,7 +991,7 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g25-john-de-gournay-iii",
+        "recordId": "ancestor-g24-john-de-gournay-iv",
         "role": "individual geography"
       },
       {
@@ -1003,7 +999,7 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g26-sir-william-de-gournay-iii-knt",
+        "recordId": "ancestor-g25-john-de-gournay-iii",
         "role": "individual geography"
       },
       {
@@ -1011,7 +1007,7 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g27-sir-john-de-gournay-i-knt",
+        "recordId": "ancestor-g26-sir-william-de-gournay-iii-knt",
         "role": "individual geography"
       },
       {
@@ -1019,7 +1015,7 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g28-william-de-gournay-ii",
+        "recordId": "ancestor-g27-sir-john-de-gournay-i-knt",
         "role": "individual geography"
       },
       {
@@ -1027,7 +1023,7 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g29-matthew-de-gournay",
+        "recordId": "ancestor-g28-william-de-gournay-ii",
         "role": "individual geography"
       },
       {
@@ -1035,12 +1031,16 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "recordId": "ancestor-g29-matthew-de-gournay",
         "role": "individual geography"
       },
       {
         "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
         "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "individual geography"
       }
     ],
     "filename": "harpley.md"
