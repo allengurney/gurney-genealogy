@@ -270,18 +270,32 @@ def infer_filename(place: str, existing_name_map: dict[str, str], existing_files
         return KNOWN_FILENAME_MAP[place]
 
     parts = [p.strip() for p in place.split(",")]
+    candidates = [f"{slugify(place)}.md"]
+    if parts[-1] in ("USA", "England", "France") and len(parts) > 1:
+        candidates.append(f"{slugify(', '.join(parts[:-1]))}.md")
     if re.match(r"^\d+\s", parts[0]):
-        return f"{slugify(', '.join(parts[:-1] if parts[-1] in ('USA', 'England', 'France') else parts))}.md"
-
+        candidates.append(f"{slugify(parts[0])}.md")
     if len(parts) >= 3 and parts[-1] == "USA":
         state = parts[-2]
         base = slugify(parts[0])
-        candidate_with_state = f"{base}-{STATE_ABBREV.get(state, slugify(state))}.md"
-        legacy_candidate = f"{base}.md"
-        if legacy_candidate in existing_files:
-            return legacy_candidate
-        return candidate_with_state
+        candidates.extend([f"{base}.md", f"{base}-{STATE_ABBREV.get(state, slugify(state))}.md"])
+    else:
+        candidates.append(f"{slugify(parts[0])}.md")
 
+    seen = set()
+    for candidate in candidates:
+        if candidate in seen:
+            continue
+        seen.add(candidate)
+        if candidate in existing_files:
+            return candidate
+
+    if re.match(r"^\d+\s", parts[0]):
+        return f"{slugify(', '.join(parts[:-1] if parts[-1] in ('USA', 'England', 'France') else parts))}.md"
+    if len(parts) >= 3 and parts[-1] == "USA":
+        state = parts[-2]
+        base = slugify(parts[0])
+        return f"{base}-{STATE_ABBREV.get(state, slugify(state))}.md"
     return f"{slugify(parts[0])}.md"
 
 
@@ -290,10 +304,10 @@ def alias_list(place: str) -> list[str]:
     parts = [p.strip() for p in place.split(",")]
     if re.match(r"^\d+\s", parts[0]):
         aliases.append(parts[0])
-    elif len(parts) >= 3 and parts[-1] == "USA":
-        aliases.append(f"{parts[0]}, {parts[-2]}")
     elif len(parts) >= 2 and parts[-1] in ("England", "France"):
         aliases.append(", ".join(parts[:-1]))
+    elif len(parts) >= 3 and parts[-1] == "USA":
+        aliases.append(f"{parts[0]}, {parts[-2].replace('Massachusetts','MA').replace('New York','NY').replace('Indiana','IN').replace('Oregon','OR').replace('Michigan','MI').replace('South Carolina','SC').replace('Missouri','MO')}")
     aliases = [a.strip() for a in aliases if a and a.strip() and a.strip() != place]
     deduped = []
     seen = set()
@@ -519,6 +533,11 @@ def remove_generated_blocks(text: str) -> str:
     return out.strip() + ("\n" if out.strip() else "")
 
 
+def heading_name(text: str) -> str | None:
+    m = re.search(r"^#\s+(.+)$", text, flags=re.MULTILINE)
+    return m.group(1).strip() if m else None
+
+
 def is_generic_shell(text_without_generated: str, canonical_name: str) -> bool:
     generic_parts = [
         f"# {canonical_name}",
@@ -547,6 +566,17 @@ def render_place_file(path: Path, canonical_name: str, block: str) -> str:
     if not body:
         return f"# {canonical_name}\n\n{block}\n"
     return body + "\n\n" + block + "\n"
+
+
+def cleanup_stale_generated_files(target_files: set[str]) -> None:
+    for path in PLACES_DIR.glob("*.md"):
+        if path.name == "README.md" or path.name in target_files:
+            continue
+        existing = path.read_text(encoding="utf-8")
+        stripped = remove_generated_blocks(existing)
+        heading = heading_name(existing)
+        if heading and is_generic_shell(stripped, heading):
+            path.unlink()
 
 
 def main() -> None:
@@ -578,11 +608,14 @@ def main() -> None:
     for loc in locations:
         mentions_by_place[loc["placeId"]].append(loc)
 
+    target_files = {place["filename"] for place in places}
     for place in places:
         target = PLACES_DIR / place["filename"]
         block = make_place_block(place, mentions_by_place[place["placeId"]])
         content = render_place_file(target, place["canonicalName"], block)
         target.write_text(content, encoding="utf-8")
+
+    cleanup_stale_generated_files(target_files)
 
     log_path = LOG_DIR / ATOMIC_LOG_NAME
     log_path.write_text(LOG_TEXT + "\n", encoding="utf-8")
