@@ -49,3 +49,36 @@ No direct-line Gurney held La Ferté after Gautier — the site passed to the de
 
 - `research/people/g35-renaud-de-gournay-fact-sheet.research.md`
 - `research/places/gournay-en-bray.md`
+
+<!-- GENERATED:LOCATION-REGISTRY:START -->
+## Structured location registry
+
+Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
+
+### Place summary
+
+- Registry entries: **1**
+- Linked records: G35 Renaud de Gournay
+- Named sub-sites: Église Saint-Pierre-et-Saint-Paul / former core
+
+### Registry entries
+
+#### G35 Renaud de Gournay — landholding / property reference
+
+- `locationId`: `loc-e1ff14f38f9a`
+- `recordId`: `ancestor-g35-renaud-de-gournay`
+- `eventDate`: c. 970 — dates uncertain
+- `siteName`: Église Saint-Pierre-et-Saint-Paul / former core
+- `region`: Seine-Maritime, Normandy, France
+- `coordinates`: 49.57795, 1.527104
+- `geocodeBasis`: historic parish church / former La Ferté-en-Bray core
+- `confidence`: High
+- Source / citation status: explicit citation text present in inherited note
+- Inherited note / quote: La Ferté-en-Bray priory — endowed by son Gautier citing father Renaud.
+- External reference: [Local history page](https://tourismedes4rivieresenbray.com/la-ferte-saint-samson/)
+
+### Crosslinks
+
+- `data/ancestors v24.json` → `G35` / `Renaud de Gournay`
+
+<!-- GENERATED:LOCATION-REGISTRY:END -->

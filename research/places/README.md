@@ -1,45 +1,27 @@
 # research/places/
 
-One file per place of genealogical relevance. A place earns a file when research about it accumulates beyond what fits naturally in a person's record.
+Place files are the durable research-memory layer for geography, landholdings, and site-specific context.
 
 ## Naming
 
-Kebab-case, descriptive, disambiguating:
-
-- `east-dereham.md`
-- `norwich-st-martin-palace.md`
-- `stewkley-bucks.md`
-- `west-barsham.md`
-- `hingham-norfolk.md` — disambiguated from Hingham, MA
-- `braintree-ma.md`
-
-Geographic clusters spanning multiple adjacent places get their own file:
-
-- `rivett-cluster-norfolk.md` — Garveston, Gressenhall, Shipdham, St Martin at Palace
+- Prefer stable kebab-case filenames.
+- Reuse established filenames when already present.
+- Use geographic disambiguation only when needed (`braintree-ma.md`, `hingham-norfolk.md`).
 
 ## Structure
 
-```
-# {Place}
+Each place file may now contain two layers:
 
-{One-line: what it is, why it matters}
+1. Narrative research sections maintained manually.
+2. A generated block bounded by:
+   - `<!-- GENERATED:LOCATION-REGISTRY:START -->`
+   - `<!-- GENERATED:LOCATION-REGISTRY:END -->`
 
-## Genealogical significance
-Why this place appears in the research. Which ancestors lived here, passed through, were baptized/married/buried here.
+The generated block is populated from `data/locations.json`-compatible extracted entries.
 
-## Records available
-What primary sources exist for this place (parish registers, wills, manor rolls, tax lists), their coverage periods, and where they're held.
+## Current migration discipline
 
-## Events recorded
-Specific records found here, with sourceId citations and links to the relevant person files.
-
-## Negative results
-Records searched without results. Particularly important for this research because absence at an expected place is often the finding.
-
-## Geographic context
-Distance and relationships to other relevant places. Administrative history if it affects record-keeping.
-
-## Crosslinks
-→ people/...
-→ topics/...
-```
+- Preserve existing narrative research when updating a file.
+- Replace only the generated block when regenerating.
+- If a place has no prior file, create a minimal file with the generated block plus a short research-notes section.
+- Preserve inherited quotations, URLs, and note text exactly unless a separate source-cleanup task is underway.

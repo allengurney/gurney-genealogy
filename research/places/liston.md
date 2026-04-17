@@ -38,3 +38,33 @@ The sub-tenant relationship is notable: Domesday-era Talbots held land under the
 - `research/people/g33-hugh-de-gournay-iii-fact-sheet.research.md`
 - `research/places/fordham.md` (co-held Essex Domesday manor)
 - `research/places/ardleigh.md` (co-held Essex Domesday manor)
+
+<!-- GENERATED:LOCATION-REGISTRY:START -->
+## Structured location registry
+
+Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
+
+### Place summary
+
+- Registry entries: **1**
+- Linked records: G33 Hugh de Gournay III
+
+### Registry entries
+
+#### G33 Hugh de Gournay III — landholding / property reference
+
+- `locationId`: `loc-5a1138a4893c`
+- `recordId`: `ancestor-g33-hugh-de-gournay-iii`
+- `eventDate`: c. 1020 — d. c. 1093
+- `region`: Essex, England
+- `coordinates`: 51.95, 0.64
+- `geocodeBasis`: village centroid
+- `confidence`: Low
+- Source / citation status: explicit citation text present in inherited note
+- Inherited note / quote: Liston, Essex (Domesday 1086 — held directly of the king).
+
+### Crosslinks
+
+- `data/ancestors v24.json` → `G33` / `Hugh de Gournay III`
+
+<!-- GENERATED:LOCATION-REGISTRY:END -->

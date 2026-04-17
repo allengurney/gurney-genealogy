@@ -47,3 +47,46 @@ Runhall appears to have passed out of the direct Gurney line after William I / M
 - `research/people/g29-matthew-de-gournay-fact-sheet.research.md`
 - `research/places/hardingham.md` (parallel Swathings holding)
 - `research/places/kings-lynn.md` (Gaywood is near King's Lynn)
+
+<!-- GENERATED:LOCATION-REGISTRY:START -->
+## Structured location registry
+
+Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
+
+### Place summary
+
+- Registry entries: **2**
+- Linked records: G29 Matthew de Gournay, G30 William de Gournay I
+
+### Registry entries
+
+#### G29 Matthew de Gournay — landholding / property reference
+
+- `locationId`: `loc-1760096472ae`
+- `recordId`: `ancestor-g29-matthew-de-gournay`
+- `eventDate`: fl. c. 1180–1220
+- `region`: Norfolk, England
+- `coordinates`: 52.6195, 1.01
+- `geocodeBasis`: approximate village centroid
+- `confidence`: Low
+- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
+- Inherited note / quote: Runhall manor, Norfolk (inherited from father William I).
+
+#### G30 William de Gournay I — landholding / property reference
+
+- `locationId`: `loc-1d7a53517860`
+- `recordId`: `ancestor-g30-william-de-gournay-i`
+- `eventDate`: fl. c. 1150–1180
+- `region`: Norfolk, England
+- `coordinates`: 52.6195, 1.01
+- `geocodeBasis`: approximate village centroid
+- `confidence`: Low
+- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
+- Inherited note / quote: Runhall manor, Norfolk — lord of Runhall and Swathings in Hardingham.
+
+### Crosslinks
+
+- `data/ancestors v24.json` → `G29` / `Matthew de Gournay`
+- `data/ancestors v24.json` → `G30` / `William de Gournay I`
+
+<!-- GENERATED:LOCATION-REGISTRY:END -->

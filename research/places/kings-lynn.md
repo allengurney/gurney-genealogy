@@ -53,3 +53,73 @@ Gaywood is a parish now absorbed into King's Lynn's urban area. The Gaywood deed
 - `research/people/g23-edmund-gurney-fact-sheet.research.md`
 - `research/people/g30-william-de-gournay-i-fact-sheet.research.md`
 - `research/places/runhall.md` (Gaywood deed cross-reference)
+
+<!-- GENERATED:LOCATION-REGISTRY:START -->
+## Structured location registry
+
+Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
+
+### Place summary
+
+- Registry entries: **4**
+- Linked records: G14 Francis Gurney, G23 Edmund Gurney
+- Named sub-sites: St James's Chapel ruins
+
+### Registry entries
+
+#### G14 Francis Gurney — landholding / property reference
+
+- `locationId`: `loc-2f7cde3a94a4`
+- `recordId`: `ancestor-g14-francis-gurney`
+- `eventDate`: 13 Sept. 1581 — d. 9 Jan. 1646/7
+- `siteName`: St James's Chapel ruins
+- `region`: Norfolk, England
+- `coordinates`: 52.7515, 0.401
+- `geocodeBasis`: exact historical chapel ruins
+- `confidence`: High
+- Source / citation status: explicit citation text present in inherited note
+- Inherited note / quote: Attempted textile manufacture: desecrated St. James's Church, King's Lynn, Norfolk — leased from Lynn corporation (failed enterprise; Sir Hamon Lestrange paid his £100 bond c.1625).
+- External reference: [Historic England](https://historicengland.org.uk/listing/the-list/list-entry/1298188)
+
+#### G14 Francis Gurney — landholding / property reference
+
+- `locationId`: `loc-22318caf866b`
+- `recordId`: `ancestor-g14-francis-gurney`
+- `eventDate`: 13 Sept. 1581 — d. 9 Jan. 1646/7 | d. 1387
+- `region`: Norfolk, England
+- `coordinates`: 52.75776410161514, 0.3942954943317888
+- `geocodeBasis`: town centroid
+- `confidence`: High
+- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
+- Inherited note / quote: Occasional residence at Norwich and King's Lynn noted (Pennyghael genealogy). || Land interests at Bishop's Lynn (King's Lynn) area — consistent with legal and stewardship role there.
+
+#### G23 Edmund Gurney — individual geography
+
+- `locationId`: `loc-c2956aea2ab1`
+- `recordId`: `ancestor-g23-edmund-gurney`
+- `eventDate`: d. 1387
+- `region`: Norfolk, England
+- `coordinates`: 52.7543, 0.3976
+- `geocodeBasis`: town centroid
+- `confidence`: High
+- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
+- Inherited note / quote: Bishop's Lynn (King's Lynn)
+
+#### G23 Edmund Gurney — landholding / property reference
+
+- `locationId`: `loc-a46f9e470b56`
+- `recordId`: `ancestor-g23-edmund-gurney`
+- `eventDate`: 13 Sept. 1581 — d. 1640 | d. 1387
+- `region`: Norfolk, England
+- `coordinates`: 52.75776410161514, 0.3942954943317888
+- `geocodeBasis`: town centroid
+- `confidence`: High
+- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
+- Inherited note / quote: Occasional residence at Norwich and King's Lynn noted (Pennyghael genealogy). || Land interests at Bishop's Lynn (King's Lynn) area — consistent with legal and stewardship role there.
+
+### Crosslinks
+
+- `data/ancestors v24.json` → `G14` / `Francis Gurney`
+- `data/ancestors v24.json` → `G23` / `Edmund Gurney`
+
+<!-- GENERATED:LOCATION-REGISTRY:END -->
