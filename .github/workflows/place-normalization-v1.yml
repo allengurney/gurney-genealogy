@@ -1,0 +1,39 @@
+name: Place normalization v1
+
+on:
+  push:
+    branches:
+      - place-normalization-v1-2026-04-17
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run place normalization
+        run: python tools/normalize_places_v1.py
+
+      - name: Commit generated outputs
+        run: |
+          if git diff --quiet; then
+            echo "No generated changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/README.md "data/ancestors v24.json" data/locations.json data/places.json research/places research/log
+          git commit -m "place normalization v1: canonical place registry and concise place files"
+          git push
