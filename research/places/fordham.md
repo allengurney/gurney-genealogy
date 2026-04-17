@@ -4,6 +4,12 @@ Village in northern Essex, England (near Colchester). Coordinates: **51.917, 0.8
 
 One of three Essex manors held by **Hugh de Gournay III (G33)** at Domesday (1086). The Domesday entry gives more detail than Liston or Ardleigh.
 
+## Why this place matters structurally
+
+Fordham is presently the **best-developed of the Essex Domesday trio** in the project because it preserves a little more concrete descriptive content than Ardleigh or Liston. That does not make it the most important manor in absolute terms, but it does make it especially useful as a representative example of what Hugh III's English Essex landholding looked like in practice. [DG-I] [Hannay]
+
+For that reason, Fordham can function as a kind of interpretive anchor for the Essex set while still remaining one manor among three co-held Domesday places.
+
 ## Gurney ancestors holding here
 
 | Ancestor | Gen | Period | Notes |
@@ -12,7 +18,11 @@ One of three Essex manors held by **Hugh de Gournay III (G33)** at Domesday (108
 
 ## Domesday detail
 
-Fordham had **eleven *bordarii* and four *servi*** per the Domesday entry (cited via DG and Hannay). This gives a sense of the working population on the manor c. 1086. The combined 15 low-status tenants/workers plus arable land plus livestock suggest a mid-sized Essex manor of reasonable value.
+Fordham had **eleven *bordarii* and four *servi*** per the Domesday entry (cited via DG and Hannay). This gives a sense of the working population on the manor c. 1086. The combined 15 low-status tenants/workers, together with arable land and livestock, suggest a mid-sized Essex manor of reasonable value.
+
+## Interpretive note
+
+Because Fordham preserves a little more socio-economic texture than the other two Essex places, it is a good reminder that the Gournay family's English footprint was not only a list of names on parchment but a set of working agricultural communities embedded in the post-Conquest tenurial order.
 
 ## Primary-source hooks
 
@@ -20,8 +30,9 @@ Fordham had **eleven *bordarii* and four *servi*** per the Domesday entry (cited
 
 ## Open items
 
-- [ ] Pull the Domesday Essex entry for Fordham (opendomesday.org) for full Latin text, valuations, and any detail on hides/carucates.
+- [ ] Pull the Domesday Essex entry for Fordham for full Latin text, valuations, and any detail on hides/carucates.
 - [ ] Check whether Fordham remained in Gournay hands after Hugh III.
+- [ ] Compare the valuation and labour profile with Ardleigh and Liston once the direct entries are extracted.
 
 ## Sources
 
@@ -35,6 +46,7 @@ Fordham had **eleven *bordarii* and four *servi*** per the Domesday entry (cited
 - `research/people/g33-hugh-de-gournay-iii-fact-sheet.research.md`
 - `research/places/liston.md`
 - `research/places/ardleigh.md`
+- `research/places/essex.md`
 
 <!-- GENERATED:PLACE-REGISTRY:START -->
 ## Place registry
