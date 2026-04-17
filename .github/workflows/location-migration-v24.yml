@@ -1,5 +1,6 @@
 name: Location migration v24
 
+# Touch commit to trigger workflow after definition is present on branch.
 on:
   push:
     branches:
