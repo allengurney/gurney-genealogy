@@ -1,13 +1,32 @@
 # data/
 
-Canonical structured data. The single source of truth for ancestor facts, citations, and shared registries. Outputs (fact sheets, the Eleventy site, the pedigree explorer) are generated *from* these files and should never be the place where new facts are first recorded.
+Canonical structured data. Preserve source fidelity first; normalize second.
 
 ## Files
 
-- `master.json` — ancestor records with stable IDs, linked to sources.
-- `sources.json` — bibliography of every citable document: archives, URLs, validation status, and media references.
-- `locations.json` — shared geographic registry (lat/lng, place names), referenced by `master.json` rather than duplicated per ancestor.
+- `ancestors v23.json` — pre-migration ancestor registry with embedded `locations` arrays.
+- `ancestors v24.json` — same registry after extraction. Embedded `locations` removed from ancestor/collateral records and replaced with `locationRefs`.
+- `locations.json` — lossless extracted location registry. One entry per former embedded location object.
+- `master.json` — canonical person/source registry used by the broader research system.
+- `sources.json` — bibliography and citation registry.
+
+## Extraction model
+
+Current phase uses a **lossless extraction** model rather than a deduplicated place registry.
+
+Each extracted entry in `locations.json` preserves:
+- original place/site/event/geocode fields
+- provenance back to the source record in `ancestors v23.json`
+- `locationId` for stable cross-reference
+- `canonicalPlaceKey` / `placeSlug` fields to prepare for a later normalization pass
+
+Each ancestor/collateral record in `ancestors v24.json` preserves the original record shape except:
+- `locations` removed
+- `locationRefs` added
+- `recordId` added for stable joins
 
 ## Discipline
 
-Every fact in `master.json` that depends on a source cites a `sourceId` defined in `sources.json`. Orphan facts (no source) and orphan sources (no fact cites them) are both detectable and should be resolved.
+- Do not edit `ancestors v23.json` except to preserve history.
+- Use `ancestors v24.json` + `locations.json` as the active bridge layer until a later normalization pass produces a true shared place registry.
+- Preserve inherited citation text even when it is incomplete. Formal `sourceId` cleanup is a later task.

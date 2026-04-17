@@ -41,3 +41,33 @@ See also DG-I Appendix XLVI on parage tenure.
 - `research/people/g30-william-de-gournay-i-fact-sheet.research.md`
 - `research/people/g31-walter-de-gournay-fact-sheet.research.md` (the "proved ancestor" argument rests on Montigny parage)
 - `research/places/gournay-en-bray.md`
+
+<!-- GENERATED:LOCATION-REGISTRY:START -->
+## Structured location registry
+
+Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
+
+### Place summary
+
+- Registry entries: **1**
+- Linked records: G30 William de Gournay I
+
+### Registry entries
+
+#### G30 William de Gournay I — landholding / property reference
+
+- `locationId`: `loc-c9eca26deb85`
+- `recordId`: `ancestor-g30-william-de-gournay-i`
+- `eventDate`: fl. c. 1150–1180
+- `region`: Normandy, France
+- `coordinates`: 49.327, 1.352
+- `geocodeBasis`: town centroid
+- `confidence`: Medium
+- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
+- Inherited note / quote: Montigny-sur-Andelle, Normandy — held in parage, proof of descent from Barons of Gournay.
+
+### Crosslinks
+
+- `data/ancestors v24.json` → `G30` / `William de Gournay I`
+
+<!-- GENERATED:LOCATION-REGISTRY:END -->

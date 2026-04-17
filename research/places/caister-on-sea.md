@@ -38,3 +38,45 @@ Caister Castle (the fortified manor house built c. 1432–1446 by Sir John Fasto
 - `research/places/cantley.md`
 - `research/places/lessingham.md`
 - `research/places/gournay-en-bray.md` (Norman seat)
+
+<!-- GENERATED:LOCATION-REGISTRY:START -->
+## Structured location registry
+
+Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
+
+### Place summary
+
+- Registry entries: **2**
+- Linked records: G32 Gerard de Gournay
+
+### Registry entries
+
+#### G32 Gerard de Gournay — individual geography
+
+- `locationId`: `loc-a3bc48855c48`
+- `recordId`: `ancestor-g32-gerard-de-gournay`
+- `eventDate`: c. 1040 — d. before 1104, Palestine
+- `region`: Norfolk, England
+- `coordinates`: 52.6488, 1.7281
+- `geocodeBasis`: town centroid
+- `confidence`: High
+- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
+- Inherited note / quote: Caister, Norfolk
+
+#### G32 Gerard de Gournay — landholding / property reference
+
+- `locationId`: `loc-29726ab37431`
+- `recordId`: `ancestor-g32-gerard-de-gournay`
+- `eventDate`: c. 1040 — d. before 1104, Palestine
+- `region`: Norfolk, England
+- `coordinates`: 52.6488, 1.7281
+- `geocodeBasis`: town centroid
+- `confidence`: High
+- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
+- Inherited note / quote: Caister, Norfolk (English holdings documented).
+
+### Crosslinks
+
+- `data/ancestors v24.json` → `G32` / `Gerard de Gournay`
+
+<!-- GENERATED:LOCATION-REGISTRY:END -->

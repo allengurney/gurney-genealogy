@@ -31,3 +31,33 @@ Ardleigh is the third of Hugh III's Essex holdings attested at Domesday (alongsi
 - `research/people/g33-hugh-de-gournay-iii-fact-sheet.research.md`
 - `research/places/liston.md`
 - `research/places/fordham.md`
+
+<!-- GENERATED:LOCATION-REGISTRY:START -->
+## Structured location registry
+
+Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
+
+### Place summary
+
+- Registry entries: **1**
+- Linked records: G33 Hugh de Gournay III
+
+### Registry entries
+
+#### G33 Hugh de Gournay III — landholding / property reference
+
+- `locationId`: `loc-125cd44592c1`
+- `recordId`: `ancestor-g33-hugh-de-gournay-iii`
+- `eventDate`: c. 1020 — d. c. 1093
+- `region`: Essex, England
+- `coordinates`: 51.928, 0.985
+- `geocodeBasis`: village centroid
+- `confidence`: Medium
+- Source / citation status: explicit citation text present in inherited note
+- Inherited note / quote: Ardleigh, Essex (Domesday 1086).
+
+### Crosslinks
+
+- `data/ancestors v24.json` → `G33` / `Hugh de Gournay III`
+
+<!-- GENERATED:LOCATION-REGISTRY:END -->
