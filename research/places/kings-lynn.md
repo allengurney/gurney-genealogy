@@ -2,124 +2,80 @@
 
 Port town on the east coast of the Wash, Norfolk, England. Coordinates: **52.75776, 0.39430**.
 
-Known as **Bishop's Lynn** until 1537 (reign of Henry VIII), when it was renamed King's Lynn. The port was one of the most important medieval English trading ports — especially for the wool, grain, and Baltic timber trades. Several Gurney ancestors had legal, commercial, or property interests here.
+Known as **Bishop's Lynn** until 1537, when Henry VIII changed the name to **King's Lynn**. It was one of the great medieval English ports, heavily involved in wool, grain, timber, and overseas trade. For the Gurneys, Lynn is not a single-period place. It matters in at least two distinct eras: first as a **medieval legal and commercial setting** for Edmund Gurney (G23), and later as an **early modern property / enterprise site** for the seventeenth-century family. [DG-I] [DG-II] [Edmund G23 companion]
 
-## Gurney ancestors connected here
+## Why this place matters historically
 
-| Ancestor | Gen | Period | Connection |
-|---|---|---|---|
-| William de Gournay I | G30 | fl. c. 1150–1180 | Gaywood deed: "Dominus Willelmus de Gurney" (Gaywood is adjacent to King's Lynn) |
-| Edmund Gurney | G23 | c. 1340–d. 1387 | **Standing counsel to the city** of Bishop's Lynn [DG-II-359]; land interests at Lynn consistent with his legal role |
-| Henry Gurney | G15 | 21 Jan. 1548/9–d. 1615/16 | Period connection (1581–1640 window per JSON) |
-| Francis Gurney (G14) | G14 | 13 Sept. 1581–d. 1646/7 | Period connection (1581–1640 window per JSON) |
+King's Lynn is one of the most interesting Norfolk urban places in the project because it keeps the family from being read only as rural manorial gentry. In Edmund Gurney's lifetime it shows the family participating in the legal and civic world of a major borough. In the early Stuart period it points toward a more entrepreneurial, semi-urban family geography tied to leases, industry, and market-town opportunity. That layered urban continuity is what makes Lynn historically richer than many of the purely rural place files. [DG-II]
 
-## Edmund Gurney — standing counsel to Lynn
+## Medieval Lynn: Edmund Gurney as standing counsel
 
-DG-II p. 359 records that Edmund Gurney served as **standing counsel to the city of Bishop's Lynn** (and also to Norwich), alongside his stewardship of John of Gaunt's East Anglian estates. This is the clearest urban-legal role in the medieval Gurney line before the 16th-century shift to London mercantile activity. The Lynn counsel role is consistent with:
+The clearest medieval connection is **Edmund Gurney (G23)**, whom DG-II describes as **standing counsel to the city of Bishop's Lynn**. This is one of the strongest urban-legal roles documented anywhere in the medieval family. It fits with Edmund's wider profile as a lawyer, commissioner, and regional administrator, and it helps explain why the family could accumulate the wealth and standing that later supported the West Barsham rise. [DG-II] [Edmund G23 companion]
 
-- Edmund's training as a lawyer (by c. 1370)
-- His multiple royal commissions in Norfolk
-- His presence across fifteen-plus Patent and Close Roll entries
-- The wealth accumulation that enabled his children's marriages
+This Lynn role should not be understated. It marks Edmund not merely as a landholder near the town but as a working legal figure embedded in borough governance.
 
-## The Supplement publisher Thew & Son
+## Gaywood and the William I connection
 
-Daniel Gurney's 1858 *Supplement to the Record of the House of Gournay* was published at King's Lynn by **Thew & Son**. This connects the town both to the medieval family (Edmund's counsel role) and to 19th-century Gurney family commemoration (Daniel Gurney's own activity, and the publisher who produced his final volume).
+The Lynn area also matters much earlier because of the **Gaywood deed** cited by DG-I, which designates **William de Gournay I (G30)** as *Dominus Willelmus de Gurney*. Gaywood is now effectively part of the greater King's Lynn urban area. That makes the Lynn region one of the few places where the project can point both to very early junior-line documentary evidence and to later medieval civic prominence. [DG-I]
 
-## Gaywood
+## Early modern Lynn: St James's Chapel and the textile venture
 
-Gaywood is a parish now absorbed into King's Lynn's urban area. The Gaywood deed designating William de Gournay I as "Dominus" (cited by DG-I p. 278) is the earliest Gurney document with a Lynn-area connection.
+The current structured layer anchors the place to **St James's Chapel ruins**, connected with a **failed textile-manufacture venture in the early seventeenth century**. That is a different kind of family story from Edmund's civic-law role, but a valuable one: it shows the family testing new forms of enterprise in a port-town setting rather than simply living off inherited rural rents. The site therefore deserves to remain one of the main urban-industrial anchors in the England set. [current place registry]
 
-## Primary-source hooks
+## Daniel Gurney and King's Lynn
 
-- **DG-II pp. 358–363** — Edmund's counsel-to-Lynn role. DG does not cite a specific document; the underlying source may be in the Norfolk Record Office Lynn Borough archives (now part of the Norfolk Record Office) or in Blomefield's Lynn chapter.
-- **Gaywood deed** — William I as "Dominus." Cited by DG-I p. 278; archive unknown.
+King's Lynn also matters in a third, commemorative sense: Daniel Gurney's 1858 *Supplement to the Record of the House of Gournay* was published there by **Thew & Son**. That nineteenth-century connection does not change the medieval or early modern history of the place, but it does make Lynn a kind of book-history node in the Gurney research story itself. [current file]
+
+## Interpretive note
+
+Lynn should be treated as a **multi-phase urban place**:
+1. early documentary perimeter through Gaywood and William I;
+2. medieval borough-law prominence through Edmund Gurney;
+3. early modern commercial/industrial experimentation through the St James's Chapel context.
+
+That is a better fit for the evidence than reducing the place to any one single anecdote.
 
 ## Open items
 
-- [ ] NRO King's Lynn Borough records (medieval) — check for any surviving entry naming Edmund Gurney as counsel or attorney.
-- [ ] Blomefield's Lynn chapter — does Blomefield document the city counsel appointment or name Edmund?
-- [ ] Gaywood deed provenance — is this in NRO or a private collection?
+- [ ] Pull the underlying source for Edmund's standing-counsel role more directly from borough or topographical records.
+- [ ] Identify the specific seventeenth-century Gurney and the source behind the St James's Chapel textile-manufacture reference, then integrate that explicitly into the narrative with fuller detail.
+- [ ] Locate the Gaywood deed if it survives in NRO or BL collections.
 
 ## Sources
 
-- Daniel Gurney, *Record of the House of Gournay*, Part I (1848), p. 278 (Gaywood), p. 280 (Edmund summary). [DG-I]
-- DG-II, pp. 357–363 (Edmund's counsel role). [DG-II]
-- DG Supplement (1858), published at King's Lynn by Thew & Son.
-- `ancestors v23.json` G23 landholding entries.
+- Daniel Gurney, *Record of the House of Gournay*, Part I (1848), p. 278 (Gaywood / William I), p. 280. [DG-I]
+- DG-II, pp. 357–363 (Edmund Gurney chapter and Lynn counsel role). [DG-II]
+- `research/people/g23-edmund-gurney-fact-sheet.research.md`
+- Existing place file / normalized place registry for the St James's Chapel industrial note.
 
 ## Crosslinks
 
 - `research/people/g23-edmund-gurney-fact-sheet.research.md`
 - `research/people/g30-william-de-gournay-i-fact-sheet.research.md`
-- `research/places/runhall.md` (Gaywood deed cross-reference)
+- `research/places/runhall.md`
+- `research/places/hardingham.md`
 
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
 
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
+- `placeId`: `place-kings-lynn-norfolk-england`
+- Short description: Historic commercial site
+- Place type: locality
+- Aliases: Bishop's Lynn, Lynn, King's Lynn, Norfolk
+- Coordinate: 52.7515, 0.401 (exact)
+- Roles: landholding / property reference, individual geography
+- Site name: St James's Chapel ruins
+- Detail: St James's Chapel site in King's Lynn, leased for a failed textile-manufacture venture in the early seventeenth century.
+- Current-site status: ruins — Ruins of St James's Chapel survive and provide the historic site anchor.
+- Links: [Historic England](https://historicengland.org.uk/listing/the-list/list-entry/1298188)
 
-### Place summary
+### Linked ancestors
 
-- Registry entries: **4**
-- Linked records: G14 Francis Gurney, G23 Edmund Gurney
-- Named sub-sites: St James's Chapel ruins
+- G14 Francis Gurney — landholding / property reference
+- G23 Edmund Gurney — landholding / property reference, individual geography
 
-### Registry entries
+### Review notes
 
-#### G14 Francis Gurney — landholding / property reference
+- None in cleanup pass 3b.
 
-- `locationId`: `loc-2f7cde3a94a4`
-- `recordId`: `ancestor-g14-francis-gurney`
-- `eventDate`: 13 Sept. 1581 — d. 9 Jan. 1646/7
-- `siteName`: St James's Chapel ruins
-- `region`: Norfolk, England
-- `coordinates`: 52.7515, 0.401
-- `geocodeBasis`: exact historical chapel ruins
-- `confidence`: High
-- Source / citation status: explicit citation text present in inherited note
-- Inherited note / quote: Attempted textile manufacture: desecrated St. James's Church, King's Lynn, Norfolk — leased from Lynn corporation (failed enterprise; Sir Hamon Lestrange paid his £100 bond c.1625).
-- External reference: [Historic England](https://historicengland.org.uk/listing/the-list/list-entry/1298188)
-
-#### G14 Francis Gurney — landholding / property reference
-
-- `locationId`: `loc-22318caf866b`
-- `recordId`: `ancestor-g14-francis-gurney`
-- `eventDate`: 13 Sept. 1581 — d. 9 Jan. 1646/7 | d. 1387
-- `region`: Norfolk, England
-- `coordinates`: 52.75776410161514, 0.3942954943317888
-- `geocodeBasis`: town centroid
-- `confidence`: High
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Occasional residence at Norwich and King's Lynn noted (Pennyghael genealogy). || Land interests at Bishop's Lynn (King's Lynn) area — consistent with legal and stewardship role there.
-
-#### G23 Edmund Gurney — individual geography
-
-- `locationId`: `loc-c2956aea2ab1`
-- `recordId`: `ancestor-g23-edmund-gurney`
-- `eventDate`: d. 1387
-- `region`: Norfolk, England
-- `coordinates`: 52.7543, 0.3976
-- `geocodeBasis`: town centroid
-- `confidence`: High
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Bishop's Lynn (King's Lynn)
-
-#### G23 Edmund Gurney — landholding / property reference
-
-- `locationId`: `loc-a46f9e470b56`
-- `recordId`: `ancestor-g23-edmund-gurney`
-- `eventDate`: 13 Sept. 1581 — d. 1640 | d. 1387
-- `region`: Norfolk, England
-- `coordinates`: 52.75776410161514, 0.3942954943317888
-- `geocodeBasis`: town centroid
-- `confidence`: High
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Occasional residence at Norwich and King's Lynn noted (Pennyghael genealogy). || Land interests at Bishop's Lynn (King's Lynn) area — consistent with legal and stewardship role there.
-
-### Crosslinks
-
-- `data/ancestors v24.json` → `G14` / `Francis Gurney`
-- `data/ancestors v24.json` → `G23` / `Edmund Gurney`
-
-<!-- GENERATED:LOCATION-REGISTRY:END -->
+<!-- GENERATED:PLACE-REGISTRY:END -->

@@ -1,68 +1,72 @@
 # Hingham, Norfolk, England
 
-Structured place-memory file combining prior narrative research with extracted registry entries.
+Market town in central Norfolk. Coordinates: **52.5764, 0.9656821626060168**.
 
-## Genealogical significance
+Associated with **Gurney's Manor**, a later Norfolk holding of the family and one of the best surviving physical links to the Tudor-period Gurneys.
 
-This file now serves as the place-level aggregation point for structured location and landholding entries extracted from the ancestor registry. Narrative interpretation, source cleanup, negative-result research, and archival notes can be layered above or below the generated registry block over time.
+## Why this place matters structurally
 
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
+Hingham is important for a different reason than Harpley, Hardingham, or Runhall. Those places primarily explain the medieval **junior-line territorial base**. Hingham, by contrast, is especially valuable because it carries the family forward into the **later Tudor and early Stuart period** and still preserves the family name in the surviving manorial identity. In the normalized place set it functions as a later-line Norfolk manor record rather than as an early proof-place or feudal-origin record. [Blomefield] [DG-II]
 
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
+The strongest independently reviewed witness currently in hand is **Henry Gurney (G15)**, whom Blomefield records as holding Gurney's manor in Hingham in 1572, held of the heirs of Henry Lord Morley. The structured layer also links **Anthony Gurney (G17)** and **William Gurney V (G18)** by lineage continuity, but the topographical evidence reviewed so far is clearest for Henry's generation. That distinction should remain explicit until the earlier Tudor manorial descent is pulled in more fully from Blomefield or deeds.
 
-### Place summary
+## Gurney ancestors connected here
 
-- Registry entries: **3**
-- Linked records: G15 Henry Gurney, G17 Anthony Gurney, G18 William Gurney V
+| Ancestor | Gen | Connection |
+|---|---|---|
+| William Gurney V | G18 | Earlier Tudor family connection carried in the structured record; needs fuller topographical extraction |
+| Anthony Gurney | G17 | Earlier Tudor family connection carried in the structured record; needs fuller topographical extraction |
+| Henry Gurney | G15 | Lord in 1572 per Blomefield; held of the heirs of Lord Morley |
 
-### Registry entries
+## Surviving physical site
 
-#### G15 Henry Gurney — landholding / property reference
+The greatest value of Hingham in the present project is the survival of **Gurney's Manor** itself. Henry Gurney's research companion identifies the building on Attleborough Road as a **Grade II listed** structure, with a later Georgian front but a rear wing dated by Historic England to about **1600**, plausibly connected to the family's tenure. That makes Hingham one of the rare places in the England set where the surviving built environment can still be tied closely to a named Gurney possession in the Tudor/Stuart transition. [Historic England] [Henry G15 companion]
 
-- `locationId`: `loc-4304ce72ec23`
-- `recordId`: `ancestor-g15-henry-gurney`
-- `eventDate`: 21 Jan. 1548/9 — d. 1615/16 | b. c. 1499 — d. 4 Jan. 1555/6 | c. 1465 – before 18 Jan. 1507/8
-- `region`: Norfolk, England
-- `coordinates`: 52.5764, 0.9656821626060168
-- `geocodeBasis`: town centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Gurney's manor, Hingham (held of Henry Lord Morley). || Manor of Hingham-Gurneys (ancient holding from Henry II period, held of heirs of Lords Bardolf). || Hingham-Gurneys manor.
+## Interpretive note
 
-#### G17 Anthony Gurney — landholding / property reference
+Because Hingham is a surviving-place record rather than a lost-manor or region-level abstraction, it deserves special weight for future visual and map work. It may ultimately become one of the best England hero-image candidates for the later pre-Quaker Gurney line.
 
-- `locationId`: `loc-fd4899fe8139`
-- `recordId`: `ancestor-g17-anthony-gurney`
-- `eventDate`: 21 Jan. 1548/9 — d. 1615/16 | b. c. 1499 — d. 4 Jan. 1555/6 | c. 1465 – before 18 Jan. 1507/8
-- `region`: Norfolk, England
-- `coordinates`: 52.5764, 0.9656821626060168
-- `geocodeBasis`: town centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Gurney's manor, Hingham (held of Henry Lord Morley). || Manor of Hingham-Gurneys (ancient holding from Henry II period, held of heirs of Lords Bardolf). || Hingham-Gurneys manor.
+## Open items
 
-#### G18 William Gurney V — landholding / property reference
+- [ ] Pull the full Blomefield Hingham entry to clarify the descent of Gurney's Manor before Henry G15 and verify how far back Anthony G17 and William G18 can be placed explicitly.
+- [ ] Add the Historic England list entry number and full building description directly into this file.
+- [ ] Check whether Henry Gurney's commonplace book (MS Tanner 175) contains any direct reference to Hingham or to repairs/building work at Gurney's Manor.
 
-- `locationId`: `loc-33fd2d4d5aab`
-- `recordId`: `ancestor-g18-william-gurney-v`
-- `eventDate`: 21 Jan. 1548/9 — d. 1615/16 | b. c. 1499 — d. 4 Jan. 1555/6 | c. 1465 – before 18 Jan. 1507/8
-- `region`: Norfolk, England
-- `coordinates`: 52.5764, 0.9656821626060168
-- `geocodeBasis`: town centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Gurney's manor, Hingham (held of Henry Lord Morley). || Manor of Hingham-Gurneys (ancient holding from Henry II period, held of heirs of Lords Bardolf). || Hingham-Gurneys manor.
+## Sources
 
-### Crosslinks
+- Francis Blomefield, *An Essay Towards a Topographical History of the County of Norfolk*, vol. ii (1805), Hingham entry. [Blomefield]
+- `research/people/g15-henry-gurney-fact-sheet.research.md`
+- `research/people/g17-anthony-gurney-fact-sheet.research.md`
+- `research/people/g18-william-gurney-v-fact-sheet.research.md`
+- Historic England list entry for Gurney's Manor, Hingham (not yet pulled directly into this file).
 
-- `data/ancestors v24.json` → `G15` / `Henry Gurney`
-- `data/ancestors v24.json` → `G17` / `Anthony Gurney`
-- `data/ancestors v24.json` → `G18` / `William Gurney V`
+## Crosslinks
 
-<!-- GENERATED:LOCATION-REGISTRY:END -->
+- `research/people/g15-henry-gurney-fact-sheet.research.md`
+- `research/people/g17-anthony-gurney-fact-sheet.research.md`
+- `research/places/great-ellingham.md`
+- `research/places/west-barsham.md`
 
-## Research notes
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
 
-- This file is intentionally compatible with a later normalization pass where multiple extracted registry entries can be merged into a canonical place record.
-- Formal `sourceId` linkage has not yet been imposed here. Inherited quotations and URLs are preserved to reduce loss during migration.
+- `placeId`: `place-hingham-norfolk-england`
+- Short description: Ancient junior-line manor
+- Place type: locality
+- Aliases: Hingham, Norfolk
+- Coordinate: 52.5764, 0.9656821626060168 (medium)
+- Roles: landholding / property reference
+- Detail: Manor of Hingham-Gurneys, an ancient junior-line holding later held of the Bardolf and Morley interests.
+- Current-site status: unknown
+
+### Linked ancestors
+
+- G15 Henry Gurney — landholding / property reference
+- G17 Anthony Gurney — landholding / property reference
+- G18 William Gurney V — landholding / property reference
+
+### Review notes
+
+- None in cleanup pass 3b.
+
+<!-- GENERATED:PLACE-REGISTRY:END -->

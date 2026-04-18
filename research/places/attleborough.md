@@ -1,42 +1,60 @@
 # Attleborough, Norfolk, England
 
-Structured place-memory file combining prior narrative research with extracted registry entries.
+Market town in south-central Norfolk. Coordinates: **52.517, 1.015**.
 
-## Genealogical significance
+Relevant to the project because of the family's interest in the **advowson of Attleborough church**, carried in the later Tudor period by **Henry Gurney (G15)**. [Henry G15 companion]
 
-This file now serves as the place-level aggregation point for structured location and landholding entries extracted from the ancestor registry. Narrative interpretation, source cleanup, negative-result research, and archival notes can be layered above or below the generated registry block over time.
+## Why this place matters historically
 
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
+Attleborough is not a principal family seat. Its value lies in what it shows about the family's later social position. By the time Henry Gurney held a **third part of the advowson of Attleborough church**, the family was no longer just a house of old Norfolk manors: it was also a family with ecclesiastical patronage rights, literary culture, and complex county-gentry connections. In other words, Attleborough belongs to the same later-world of Hingham and Great Ellingham rather than to the older world of Runhall or Hardingham. [Henry G15 companion]
 
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
+## The advowson connection
 
-### Place summary
+Henry Gurney's research companion specifically lists **"a third part of the advowson of Attleborough church"** among the holdings associated with him. That is the core historical fact for this place. The right of advowson — the right to present to a church living — was one of the classic marks of local gentry standing, blending property, influence, and ecclesiastical patronage. Even a fractional share is meaningful. It shows the family operating not only as landholders but as participants in the patronage structure of the Church of England's predecessor parochial system. [Henry G15 companion]
 
-- Registry entries: **1**
-- Linked records: G15 Henry Gurney
+## Interpretive note
 
-### Registry entries
+This file should stay tightly focused on **advowson and patronage**, not drift into claiming a full Gurney manor at Attleborough unless stronger evidence emerges. The place is historically important because it broadens the picture of what later Gurney influence looked like. It is not currently a seat-place, but a patronage-place. [Henry G15 companion]
 
-#### G15 Henry Gurney — landholding / property reference
+## The church context
 
-- `locationId`: `loc-e1058031427e`
-- `recordId`: `ancestor-g15-henry-gurney`
-- `eventDate`: 21 Jan. 1548/9 — d. 1615/16
-- `region`: Norfolk, England
-- `coordinates`: 52.517, 1.015
-- `geocodeBasis`: town centroid
-- `confidence`: High
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Advowson, third part of Attleborough church (presented 1581).
+The obvious physical anchor for the place is **St Mary's, Attleborough**, one of the major churches of central Norfolk. If later review of parish records or presentations identifies a specific Gurney nominee or clerical dispute, that material should be added here because it would substantially deepen the place's importance.
 
-### Crosslinks
+## Open items
 
-- `data/ancestors v24.json` → `G15` / `Henry Gurney`
+- [ ] Pull the exact Blomefield wording or other topographical wording on Henry Gurney's third part of the advowson.
+- [ ] Check whether any actual Gurney presentation to the living of Attleborough can be identified.
+- [ ] Add church-specific material if parish or diocesan records produce a candidate presentation.
 
-<!-- GENERATED:LOCATION-REGISTRY:END -->
+## Sources
 
-## Research notes
+- `research/people/g15-henry-gurney-fact-sheet.research.md`
+- Francis Blomefield, *An Essay Towards a Topographical History of the County of Norfolk*, vol. ii (Hingham / Forehoe materials) and related parish entries, as cited in the Henry G15 companion. [Blomefield]
 
-- This file is intentionally compatible with a later normalization pass where multiple extracted registry entries can be merged into a canonical place record.
-- Formal `sourceId` linkage has not yet been imposed here. Inherited quotations and URLs are preserved to reduce loss during migration.
+## Crosslinks
+
+- `research/people/g15-henry-gurney-fact-sheet.research.md`
+- `research/places/hingham-norfolk.md`
+- `research/places/great-ellingham.md`
+
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
+
+- `placeId`: `place-attleborough-norfolk-england`
+- Short description: Advowson locality
+- Place type: locality
+- Aliases: Attleborough, Norfolk
+- Coordinate: 52.517, 1.015 (high)
+- Roles: landholding / property reference
+- Detail: Attleborough church-advowson context associated with Henry Gurney.
+- Current-site status: unknown
+
+### Linked ancestors
+
+- G15 Henry Gurney — landholding / property reference
+
+### Review notes
+
+- None in cleanup pass 3b.
+
+<!-- GENERATED:PLACE-REGISTRY:END -->

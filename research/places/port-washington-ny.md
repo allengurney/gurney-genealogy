@@ -1,42 +1,22 @@
 # Port Washington, New York, USA
 
-Structured place-memory file combining prior narrative research with extracted registry entries.
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
 
-## Genealogical significance
+- `placeId`: `place-port-washington-new-york-usa`
+- Short description: Family residence site
+- Place type: locality
+- Aliases: Port Washington, NY
+- Coordinate: 40.8257, -73.6982 (high)
+- Roles: residence
+- Detail: until 1970 Port Washington, NY
 
-This file now serves as the place-level aggregation point for structured location and landholding entries extracted from the ancestor registry. Narrative interpretation, source cleanup, negative-result research, and archival notes can be layered above or below the generated registry block over time.
+### Linked ancestors
 
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
+- G2 Lester Hayes Gurney — residence
 
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
+### Review notes
 
-### Place summary
+- None in cleanup pass 2.
 
-- Registry entries: **1**
-- Linked records: G2 Lester Hayes Gurney
-
-### Registry entries
-
-#### G2 Lester Hayes Gurney — residence
-
-- `locationId`: `loc-f0df54bc3e89`
-- `recordId`: `ancestor-g2-lester-hayes-gurney`
-- `eventDate`: 1945–1970
-- `region`: New York, USA
-- `coordinates`: 40.8257, -73.6982
-- `geocodeBasis`: town centroid
-- `confidence`: High
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: until 1970 Port Washington, NY
-
-### Crosslinks
-
-- `data/ancestors v24.json` → `G2` / `Lester Hayes Gurney`
-
-<!-- GENERATED:LOCATION-REGISTRY:END -->
-
-## Research notes
-
-- This file is intentionally compatible with a later normalization pass where multiple extracted registry entries can be merged into a canonical place record.
-- Formal `sourceId` linkage has not yet been imposed here. Inherited quotations and URLs are preserved to reduce loss during migration.
+<!-- GENERATED:PLACE-REGISTRY:END -->

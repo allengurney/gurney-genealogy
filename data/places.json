@@ -1,0 +1,1965 @@
+[
+  {
+    "placeId": "place-15-avenue-c-manhattan-new-york-usa",
+    "name": "15 Avenue C, Manhattan, New York, USA",
+    "aliases": [
+      "15 Avenue C"
+    ],
+    "shortDescription": "Historic street address",
+    "placeType": "address",
+    "coordinate": {
+      "lat": 40.72119,
+      "lng": -73.98119
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "address reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g6-brigadier-general-william-gurney",
+        "role": "address reference"
+      }
+    ],
+    "filename": "15-avenue-c-ny.md"
+  },
+  {
+    "placeId": "place-155-henry-street-manhattan-new-york-usa",
+    "name": "155 Henry Street, Manhattan, New York, USA",
+    "aliases": [
+      "155 Henry Street"
+    ],
+    "shortDescription": "Historic street address",
+    "placeType": "address",
+    "coordinate": {
+      "lat": 40.71361,
+      "lng": -73.989555
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "address reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g6-brigadier-general-william-gurney",
+        "role": "address reference"
+      }
+    ],
+    "filename": "155-henry-street-ny.md"
+  },
+  {
+    "placeId": "place-177-west-48th-street-manhattan-new-york-usa",
+    "name": "177 West 48th Street, Manhattan, New York, USA",
+    "aliases": [
+      "177 West 48th Street"
+    ],
+    "shortDescription": "Historic street address",
+    "placeType": "address",
+    "coordinate": {
+      "lat": 40.7602,
+      "lng": -73.9856
+    },
+    "coordinatePrecision": "medium",
+    "roles": [
+      "address reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g6-brigadier-general-william-gurney",
+        "role": "address reference"
+      }
+    ],
+    "filename": "177-west-48th-street-ny.md"
+  },
+  {
+    "placeId": "place-231-fifth-avenue-manhattan-new-york-usa",
+    "name": "231 Fifth Avenue, Manhattan, New York, USA",
+    "aliases": [
+      "231 Fifth Avenue"
+    ],
+    "shortDescription": "Historic street address",
+    "placeType": "address",
+    "coordinate": {
+      "lat": 40.7446,
+      "lng": -73.988
+    },
+    "coordinatePrecision": "medium",
+    "roles": [
+      "address reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g6-brigadier-general-william-gurney",
+        "role": "address reference"
+      }
+    ],
+    "filename": "231-fifth-avenue-ny.md"
+  },
+  {
+    "placeId": "place-54-hudson-street-manhattan-new-york-usa",
+    "name": "54 Hudson Street, Manhattan, New York, USA",
+    "aliases": [
+      "54 Hudson Street"
+    ],
+    "shortDescription": "Historic street address",
+    "placeType": "address",
+    "coordinate": {
+      "lat": 40.7179,
+      "lng": -74.0086
+    },
+    "coordinatePrecision": "medium",
+    "roles": [
+      "landholding / property reference",
+      "address reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g6-brigadier-general-william-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g6-brigadier-general-william-gurney",
+        "role": "address reference"
+      }
+    ],
+    "filename": "54-hudson-street-ny.md"
+  },
+  {
+    "placeId": "place-55-pike-street-manhattan-new-york-usa",
+    "name": "55 Pike Street, Manhattan, New York, USA",
+    "aliases": [
+      "55 Pike Street"
+    ],
+    "shortDescription": "Historic street address",
+    "placeType": "address",
+    "coordinate": {
+      "lat": 40.712,
+      "lng": -73.9903
+    },
+    "coordinatePrecision": "medium",
+    "roles": [
+      "address reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g6-brigadier-general-william-gurney",
+        "role": "address reference"
+      }
+    ],
+    "filename": "55-pike-street-ny.md"
+  },
+  {
+    "placeId": "place-abington-massachusetts-usa",
+    "name": "Abington, Massachusetts, USA",
+    "aliases": [
+      "Abington, MA"
+    ],
+    "shortDescription": "Associated ancestral place",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 42.1043,
+      "lng": -70.94130862327691
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "abington-ma.md"
+  },
+  {
+    "placeId": "place-abington-whitman-line-massachusetts-usa",
+    "name": "Abington–Whitman line, Massachusetts, USA",
+    "aliases": [
+      "Abington/Whitman line, Massachusetts, USA",
+      "Abington–Whitman line, MA"
+    ],
+    "shortDescription": "Associated ancestral place",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 42.0925,
+      "lng": -70.9413
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "abington-whitman-line-ma.md"
+  },
+  {
+    "placeId": "place-ardleigh-essex-england",
+    "name": "Ardleigh, Essex, England",
+    "aliases": [
+      "Ardleigh, Essex"
+    ],
+    "shortDescription": "Domesday manor locality",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 51.928,
+      "lng": 0.985
+    },
+    "coordinatePrecision": "medium",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "ardleigh.md"
+  },
+  {
+    "placeId": "place-attleborough-norfolk-england",
+    "name": "Attleborough, Norfolk, England",
+    "aliases": [
+      "Attleborough, Norfolk"
+    ],
+    "shortDescription": "Advowson locality",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 52.517,
+      "lng": 1.015
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "attleborough.md"
+  },
+  {
+    "placeId": "place-bedfordshire-england",
+    "name": "Bedfordshire, England",
+    "aliases": [
+      "Bedfordshire"
+    ],
+    "shortDescription": "Regional holdings context",
+    "placeType": "region",
+    "coordinate": {
+      "lat": 52.136,
+      "lng": -0.467
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "bedfordshire.md"
+  },
+  {
+    "placeId": "place-braintree-massachusetts-usa",
+    "name": "Braintree, Massachusetts, USA",
+    "aliases": [
+      "Braintree, MA"
+    ],
+    "shortDescription": "Ancestral landholding",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 42.2079,
+      "lng": -71.001
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "braintree-ma.md"
+  },
+  {
+    "placeId": "place-bridgewater-massachusetts-usa",
+    "name": "Bridgewater, Massachusetts, USA",
+    "aliases": [
+      "Bridgewater, MA"
+    ],
+    "shortDescription": "Ancestral landholding",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 41.9904,
+      "lng": -70.9759
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g12-richard-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g8-amos-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "bridgewater-ma.md"
+  },
+  {
+    "placeId": "place-buckinghamshire-england",
+    "name": "Buckinghamshire, England",
+    "aliases": [
+      "Buckinghamshire"
+    ],
+    "shortDescription": "Regional holdings context",
+    "placeType": "region",
+    "coordinate": {
+      "lat": 51.81,
+      "lng": -0.8
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "buckinghamshire.md"
+  },
+  {
+    "placeId": "place-burnham-thorpe-norfolk-england",
+    "name": "Burnham Thorpe, Norfolk, England",
+    "aliases": [
+      "Burnham Thorpe, Norfolk"
+    ],
+    "shortDescription": "Later family locality",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 52.9015,
+      "lng": 0.727
+    },
+    "coordinatePrecision": "medium",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g19-william-gurney-iv",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g19-william-gurney-iv",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "burnham-thorpe.md"
+  },
+  {
+    "placeId": "place-caister-on-sea-norfolk-england",
+    "name": "Caister-on-Sea, Norfolk, England",
+    "aliases": [
+      "Caister",
+      "Caister-on-Sea, Norfolk"
+    ],
+    "shortDescription": "Gerard de Gournay holding",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 52.6488,
+      "lng": 1.7281
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "caister-on-sea.md"
+  },
+  {
+    "placeId": "place-cantley-norfolk-england",
+    "name": "Cantley, Norfolk, England",
+    "aliases": [
+      "Cantley, Norfolk"
+    ],
+    "shortDescription": "Gerard de Gournay holding",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 52.562,
+      "lng": 1.513
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "cantley.md"
+  },
+  {
+    "placeId": "place-charleston-south-carolina-usa",
+    "name": "Charleston, South Carolina, USA",
+    "aliases": [
+      "Charleston, SC"
+    ],
+    "shortDescription": "Associated ancestral place",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 32.7765,
+      "lng": -79.9311
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g6-brigadier-general-william-gurney",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "charleston-sc.md"
+  },
+  {
+    "placeId": "place-city-of-london-england",
+    "name": "City of London, England",
+    "aliases": [
+      "City of London"
+    ],
+    "shortDescription": "Historic commercial site",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 51.51389,
+      "lng": -0.08611
+    },
+    "coordinatePrecision": "exact",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g14-francis-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g14-francis-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "city-of-london.md"
+  },
+  {
+    "placeId": "place-cummington-massachusetts-usa",
+    "name": "Cummington, Massachusetts, USA",
+    "aliases": [
+      "Cummington, MA"
+    ],
+    "shortDescription": "Ancestral landholding",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 42.45599577393482,
+      "lng": -72.90392454621967
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g7-willis-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g8-amos-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g8-amos-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "cummington-ma.md"
+  },
+  {
+    "placeId": "place-dexter-michigan-usa",
+    "name": "Dexter, Michigan, USA",
+    "aliases": [
+      "Dexter, MI"
+    ],
+    "shortDescription": "Family residence site",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 42.3387,
+      "lng": -83.8886
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "residence"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g0-soren-and-ebba-gurney",
+        "role": "residence"
+      },
+      {
+        "recordId": "collateral-g1-ken-gurney-allens-brother",
+        "role": "residence"
+      }
+    ],
+    "filename": "dexter-mi.md"
+  },
+  {
+    "placeId": "place-essex-england",
+    "name": "Essex, England",
+    "aliases": [
+      "Essex"
+    ],
+    "shortDescription": "Regional holdings context",
+    "placeType": "region",
+    "coordinate": {
+      "lat": 51.776,
+      "lng": 0.6417
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "essex.md"
+  },
+  {
+    "placeId": "place-flegg-norfolk-england",
+    "name": "Flegg, Norfolk, England",
+    "aliases": [
+      "Flegg, Norfolk"
+    ],
+    "shortDescription": "District-level holdings context",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 52.668,
+      "lng": 1.61
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "flegg.md"
+  },
+  {
+    "placeId": "place-flushing-queens-new-york-usa",
+    "name": "Flushing, Queens, New York, USA",
+    "aliases": [
+      "Flushing, NY",
+      "Flushing, Queens, NY",
+      "Flushing, Queens"
+    ],
+    "shortDescription": "Ancestral landholding",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 40.7675,
+      "lng": -73.8278185347045
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g6-brigadier-general-william-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g6-brigadier-general-william-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g7-willis-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g7-willis-gurney",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "flushing-ny.md"
+  },
+  {
+    "placeId": "place-fordham-essex-england",
+    "name": "Fordham, Essex, England",
+    "aliases": [
+      "Fordham, Essex"
+    ],
+    "shortDescription": "Domesday manor locality",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 51.917,
+      "lng": 0.801
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "fordham.md"
+  },
+  {
+    "placeId": "place-fort-wayne-indiana-usa",
+    "name": "Fort Wayne, Indiana, USA",
+    "aliases": [
+      "Fort Wayne, IN"
+    ],
+    "shortDescription": "Family residence site",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 41.0793,
+      "lng": -85.1394
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "residence"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g2-lester-hayes-gurney",
+        "role": "residence"
+      }
+    ],
+    "filename": "fort-wayne-in.md"
+  },
+  {
+    "placeId": "place-gournay-en-bray-normandy-france",
+    "name": "Gournay-en-Bray, Normandy, France",
+    "aliases": [
+      "Gournay",
+      "Gournay-en-Bray, Normandy"
+    ],
+    "shortDescription": "Ancestral fortress town",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 49.483148,
+      "lng": 1.727303
+    },
+    "coordinatePrecision": "exact",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g-37-eudes-odon-de-gournay",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g-37-eudes-odon-de-gournay",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g36-hugh-de-gournay-i",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g36-hugh-de-gournay-i",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "gournay-en-bray.md"
+  },
+  {
+    "placeId": "place-great-ellingham-norfolk-england",
+    "name": "Great Ellingham, Norfolk, England",
+    "aliases": [
+      "Great Ellingham, Norfolk"
+    ],
+    "shortDescription": "Lovell inheritance manor",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 52.5453,
+      "lng": 1.0091774978679044
+    },
+    "coordinatePrecision": "medium",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g16-francis-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g17-anthony-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g17-anthony-gurney",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "great-ellingham.md"
+  },
+  {
+    "placeId": "place-hardingham-norfolk-england",
+    "name": "Hardingham, Norfolk, England",
+    "aliases": [
+      "Hardingham, Norfolk"
+    ],
+    "shortDescription": "Junior-branch core manor",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 52.5708,
+      "lng": 0.8508
+    },
+    "coordinatePrecision": "medium",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g18-william-gurney-v",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g23-edmund-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g23-edmund-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g24-john-de-gournay-iv",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g25-john-de-gournay-iii",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g26-sir-william-de-gournay-iii-knt",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g27-sir-john-de-gournay-i-knt",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g28-william-de-gournay-ii",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g29-matthew-de-gournay",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g29-matthew-de-gournay",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g30-william-de-gournay-i",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g30-william-de-gournay-i",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g31-walter-de-gournay",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "hardingham.md"
+  },
+  {
+    "placeId": "place-harpley-norfolk-england",
+    "name": "Harpley, Norfolk, England",
+    "aliases": [
+      "Harpley, Norfolk"
+    ],
+    "shortDescription": "Junior-branch core manor",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 52.8088,
+      "lng": 0.6486
+    },
+    "coordinatePrecision": "medium",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g20-thomas-gournay-ii",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g21-thomas-gournay-i",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g23-edmund-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g23-edmund-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g24-john-de-gournay-iv",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g24-john-de-gournay-iv",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g25-john-de-gournay-iii",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g25-john-de-gournay-iii",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g26-sir-william-de-gournay-iii-knt",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g26-sir-william-de-gournay-iii-knt",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g27-sir-john-de-gournay-i-knt",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g27-sir-john-de-gournay-i-knt",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g28-william-de-gournay-ii",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g28-william-de-gournay-ii",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g29-matthew-de-gournay",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g29-matthew-de-gournay",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "harpley.md"
+  },
+  {
+    "placeId": "place-hellesdon-norfolk-england",
+    "name": "Hellesdon, Norfolk, England",
+    "aliases": [
+      "Hellesdon, Norfolk"
+    ],
+    "shortDescription": "Heylesdon inheritance manor",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 52.659,
+      "lng": 1.246
+    },
+    "coordinatePrecision": "medium",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "hellesdon.md"
+  },
+  {
+    "placeId": "place-hingham-norfolk-england",
+    "name": "Hingham, Norfolk, England",
+    "aliases": [
+      "Hingham, Norfolk"
+    ],
+    "shortDescription": "Ancient junior-line manor",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 52.5764,
+      "lng": 0.9656821626060168
+    },
+    "coordinatePrecision": "medium",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g17-anthony-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g18-william-gurney-v",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "hingham-norfolk.md"
+  },
+  {
+    "placeId": "place-indianapolis-indiana-usa",
+    "name": "Indianapolis, Indiana, USA",
+    "aliases": [
+      "Indianapolis, IN"
+    ],
+    "shortDescription": "Family residence site",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 39.7684,
+      "lng": -86.1581
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "residence"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g1-ken-gurney-allens-brother",
+        "role": "residence"
+      }
+    ],
+    "filename": "indianapolis-in.md"
+  },
+  {
+    "placeId": "place-irstead-norfolk-england",
+    "name": "Irstead, Norfolk, England",
+    "aliases": [
+      "Irstead, Norfolk"
+    ],
+    "shortDescription": "Later junior-line manor",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 52.707,
+      "lng": 1.471
+    },
+    "coordinatePrecision": "medium",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g16-francis-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g17-anthony-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g18-william-gurney-v",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g18-william-gurney-v",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "irstead.md"
+  },
+  {
+    "placeId": "place-kings-lynn-norfolk-england",
+    "name": "King's Lynn, Norfolk, England",
+    "aliases": [
+      "Bishop's Lynn",
+      "Lynn",
+      "King's Lynn, Norfolk"
+    ],
+    "shortDescription": "Historic commercial site",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 52.7515,
+      "lng": 0.401
+    },
+    "coordinatePrecision": "exact",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g14-francis-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g23-edmund-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g23-edmund-gurney",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "kings-lynn.md"
+  },
+  {
+    "placeId": "place-la-ferte-en-bray-normandy-france",
+    "name": "La Ferté-en-Bray, Normandy, France",
+    "aliases": [
+      "La Ferte-en-Bray",
+      "La Ferté-en-Bray, Normandy"
+    ],
+    "shortDescription": "Priory foundation locality",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 49.57795,
+      "lng": 1.527104
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "la-ferte-en-bray.md"
+  },
+  {
+    "placeId": "place-le-bec-hellouin-normandy-france",
+    "name": "Le Bec-Hellouin, Normandy, France",
+    "aliases": [
+      "Le Bec-Hellouin, Normandy"
+    ],
+    "shortDescription": "Abbey burial site",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 49.2288,
+      "lng": 0.722
+    },
+    "coordinatePrecision": "exact",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "le-bec-hellouin.md"
+  },
+  {
+    "placeId": "place-lessingham-norfolk-england",
+    "name": "Lessingham, Norfolk, England",
+    "aliases": [
+      "Lessingham, Norfolk"
+    ],
+    "shortDescription": "Priory foundation locality",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 52.795,
+      "lng": 1.575
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "lessingham.md"
+  },
+  {
+    "placeId": "place-lewes-sussex-england",
+    "name": "Lewes, Sussex, England",
+    "aliases": [
+      "Lewes, Sussex"
+    ],
+    "shortDescription": "Battlefield locality",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 50.873,
+      "lng": 0.0087
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g27-sir-john-de-gournay-i-knt",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "lewes.md"
+  },
+  {
+    "placeId": "place-liston-essex-england",
+    "name": "Liston, Essex, England",
+    "aliases": [
+      "Liston, Essex"
+    ],
+    "shortDescription": "Domesday manor locality",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 51.95,
+      "lng": 0.64
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "liston.md"
+  },
+  {
+    "placeId": "place-marion-indiana-usa",
+    "name": "Marion, Indiana, USA",
+    "aliases": [
+      "Marion, IN"
+    ],
+    "shortDescription": "Family residence site",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 40.5584,
+      "lng": -85.6591
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "residence"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g1-allen-lawrence-gurney",
+        "role": "residence"
+      },
+      {
+        "recordId": "collateral-g1-ken-gurney-allens-brother",
+        "role": "residence"
+      },
+      {
+        "recordId": "ancestor-g2-lester-hayes-gurney",
+        "role": "residence"
+      }
+    ],
+    "filename": "marion-in.md"
+  },
+  {
+    "placeId": "place-mendon-massachusetts-usa",
+    "name": "Mendon, Massachusetts, USA",
+    "aliases": [
+      "Mendon, MA"
+    ],
+    "shortDescription": "Ancestral landholding",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 42.1056,
+      "lng": -71.5523
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "mendon-ma.md"
+  },
+  {
+    "placeId": "place-middleborough-massachusetts-usa",
+    "name": "Middleborough, Massachusetts, USA",
+    "aliases": [
+      "Middleborough, MA",
+      "Middleboro, MA"
+    ],
+    "shortDescription": "Ancestral landholding",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 41.8934,
+      "lng": -70.91657353836172
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "middleborough-ma.md"
+  },
+  {
+    "placeId": "place-montigny-sur-andelle-normandy-france",
+    "name": "Montigny-sur-Andelle, Normandy, France",
+    "aliases": [
+      "Montigny-sur-Andelle, Normandy"
+    ],
+    "shortDescription": "Parage tenure locality",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 49.327,
+      "lng": 1.352
+    },
+    "coordinatePrecision": "medium",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g30-william-de-gournay-i",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "montigny-sur-andelle.md"
+  },
+  {
+    "placeId": "place-new-york-metropolitan-area-usa",
+    "name": "New York metropolitan area, USA",
+    "aliases": [],
+    "shortDescription": "Regional family geography",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 40.783,
+      "lng": -73.96571730235286
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g3-lester-sawyer-gurney-iii",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g4-lester-sawyer-gurney-jr",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g5-lester-sawyer-gurney",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "new-york-metropolitan-area-ny.md"
+  },
+  {
+    "placeId": "place-norfolk-england",
+    "name": "Norfolk, England",
+    "aliases": [
+      "Norfolk"
+    ],
+    "shortDescription": "Regional holdings context",
+    "placeType": "region",
+    "coordinate": {
+      "lat": 52.675,
+      "lng": 1.289
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g22-robert-gournay",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g22-robert-gournay",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g31-walter-de-gournay",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "norfolk.md"
+  },
+  {
+    "placeId": "place-normandy-france",
+    "name": "Normandy, France",
+    "aliases": [
+      "Normandy"
+    ],
+    "shortDescription": "Regional holdings context",
+    "placeType": "region",
+    "coordinate": {
+      "lat": 49.654653,
+      "lng": 1.611621
+    },
+    "coordinatePrecision": "medium",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "normandy.md"
+  },
+  {
+    "placeId": "place-oxfordshire-england",
+    "name": "Oxfordshire, England",
+    "aliases": [
+      "Oxfordshire"
+    ],
+    "shortDescription": "Regional holdings context",
+    "placeType": "region",
+    "coordinate": {
+      "lat": 51.7612,
+      "lng": -1.2465
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "oxfordshire.md"
+  },
+  {
+    "placeId": "place-port-washington-new-york-usa",
+    "name": "Port Washington, New York, USA",
+    "aliases": [
+      "Port Washington, NY"
+    ],
+    "shortDescription": "Family residence site",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 40.8257,
+      "lng": -73.6982
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "residence"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g2-lester-hayes-gurney",
+        "role": "residence"
+      }
+    ],
+    "filename": "port-washington-ny.md"
+  },
+  {
+    "placeId": "place-portland-oregon-usa",
+    "name": "Portland, Oregon, USA",
+    "aliases": [
+      "Portland, OR"
+    ],
+    "shortDescription": "Family residence site",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 45.5152,
+      "lng": -122.6784
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "residence"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g1-allen-lawrence-gurney",
+        "role": "residence"
+      }
+    ],
+    "filename": "portland-or.md"
+  },
+  {
+    "placeId": "place-rochester-massachusetts-usa",
+    "name": "Rochester, Massachusetts, USA",
+    "aliases": [
+      "Rochester, MA"
+    ],
+    "shortDescription": "Ancestral landholding",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 41.7412,
+      "lng": -70.8128
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "rochester-ma.md"
+  },
+  {
+    "placeId": "place-runhall-norfolk-england",
+    "name": "Runhall, Norfolk, England",
+    "aliases": [
+      "Runhall, Norfolk"
+    ],
+    "shortDescription": "Junior-line manor locality",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 52.6195,
+      "lng": 1.01
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g29-matthew-de-gournay",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g30-william-de-gournay-i",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "runhall.md"
+  },
+  {
+    "placeId": "place-saxthorpe-norfolk-england",
+    "name": "Saxthorpe, Norfolk, England",
+    "aliases": [
+      "Saxthorpe, Norfolk"
+    ],
+    "shortDescription": "Loundhall locality",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 52.8246,
+      "lng": 1.0927
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "saxthorpe.md"
+  },
+  {
+    "placeId": "place-scandinavia",
+    "name": "Scandinavia",
+    "aliases": [],
+    "shortDescription": "Traditional origin region",
+    "placeType": "region",
+    "coordinate": {
+      "lat": 60.5,
+      "lng": 14.49187691182128
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g-37-eudes-odon-de-gournay",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g-38-unknown-scandinavian-ancestors",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "scandinavia.md"
+  },
+  {
+    "placeId": "place-st-louis-missouri-usa",
+    "name": "St. Louis, Missouri, USA",
+    "aliases": [
+      "St. Louis, MO"
+    ],
+    "shortDescription": "Family residence site",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 38.627,
+      "lng": -90.1994
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "residence"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g1-allen-lawrence-gurney",
+        "role": "residence"
+      }
+    ],
+    "filename": "st-louis-mo.md"
+  },
+  {
+    "placeId": "place-suffolk-england",
+    "name": "Suffolk, England",
+    "aliases": [
+      "Suffolk"
+    ],
+    "shortDescription": "Regional holdings context",
+    "placeType": "region",
+    "coordinate": {
+      "lat": 52.188,
+      "lng": 1.005
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g31-walter-de-gournay",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "suffolk.md"
+  },
+  {
+    "placeId": "place-west-barsham-norfolk-england",
+    "name": "West Barsham, Norfolk, England",
+    "aliases": [
+      "West Barsham, Norfolk"
+    ],
+    "shortDescription": "Principal family seat",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 52.867826,
+      "lng": 0.830094
+    },
+    "coordinatePrecision": "exact",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g14-francis-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g16-francis-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g16-francis-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g17-anthony-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g17-anthony-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g19-william-gurney-iv",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g19-william-gurney-iv",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g20-thomas-gournay-ii",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g20-thomas-gournay-ii",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g21-thomas-gournay-i",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g21-thomas-gournay-i",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g23-edmund-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "west-barsham.md"
+  },
+  {
+    "placeId": "place-weymouth-massachusetts-usa",
+    "name": "Weymouth, Massachusetts, USA",
+    "aliases": [
+      "Weymouth, MA"
+    ],
+    "shortDescription": "Ancestral landholding",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 42.22156410161514,
+      "lng": -70.94370054095724
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g12-richard-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g12-richard-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "weymouth-ma.md"
+  }
+]

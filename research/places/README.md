@@ -1,27 +1,33 @@
 # research/places/
 
-Place files are the durable research-memory layer for geography, landholdings, and site-specific context.
+Canonical place-memory files.
 
-## Naming
+## Authority
 
-- Prefer stable kebab-case filenames.
-- Reuse established filenames when already present.
-- Use geographic disambiguation only when needed (`braintree-ma.md`, `hingham-norfolk.md`).
+`data/places.json` is the authoritative registry for:
+- canonical place name
+- `placeId`
+- filename
+- aliases
+- coordinate
+- place type
+- ancestor/place-role links
 
-## Structure
+`data/places_detail.json` carries the supplemental map/detail layer.
 
-Each place file may now contain two layers:
+## File shape
 
-1. Narrative research sections maintained manually.
-2. A generated block bounded by:
-   - `<!-- GENERATED:LOCATION-REGISTRY:START -->`
-   - `<!-- GENERATED:LOCATION-REGISTRY:END -->`
+Narrative place files may contain hand-written research plus one generated block bounded by:
 
-The generated block is populated from `data/locations.json`-compatible extracted entries.
+- `<!-- GENERATED:PLACE-REGISTRY:START -->`
+- `<!-- GENERATED:PLACE-REGISTRY:END -->`
 
-## Current migration discipline
+Older extraction blocks are replaced during normalization.
 
-- Preserve existing narrative research when updating a file.
-- Replace only the generated block when regenerating.
-- If a place has no prior file, create a minimal file with the generated block plus a short research-notes section.
-- Preserve inherited quotations, URLs, and note text exactly unless a separate source-cleanup task is underway.
+## Current normalization discipline
+
+- Preserve existing narrative research outside the generated block.
+- Keep generated content concise.
+- Keep sub-sites and street-address detail in `places_detail.json` unless the research clearly treats them as standalone places.
+- Record unresolved cleanup items as review notes only when they still matter after cleanup.
+- For U.S. place filenames, use a trailing two-letter state code even for pre-statehood places.

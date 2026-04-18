@@ -1,42 +1,31 @@
 # Harpham, Norfolk, England
 
-Structured place-memory file combining prior narrative research with extracted registry entries.
+## Status of this place record
 
-## Genealogical significance
+This file is retained only as a **retired / superseded record note**.
 
-This file now serves as the place-level aggregation point for structured location and landholding entries extracted from the ancestor registry. Narrative interpretation, source cleanup, negative-result research, and archival notes can be layered above or below the generated registry block over time.
+Current project review indicates that the structured place record previously normalized as **Harpham, Norfolk, England** was likely a mistaken duplication of **Harpley, Norfolk** rather than a secure independent Gurney place. The strongest basis for that conclusion is the **Henry Gurney (G15) research companion**, which explicitly notes that the JSON's "Harpham" should be **Harpley**. [Henry G15 companion]
 
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
+## What changed
 
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
+- the structured `Harpham` place record was removed from `data/places.json`
+- the structured `Harpham` detail record was removed from `data/places_detail.json`
+- any ancestor `placeRefs` pointing to `place-harpham-norfolk-england` were removed
+- where appropriate, Harpley remains the active place record for the related family history
 
-### Place summary
+## Why keep this file
 
-- Registry entries: **1**
-- Linked records: G15 Henry Gurney
+This note is preserved so future reviewers can understand **why Harpham disappeared from the structured place layer** and so the branch history does not look like the record vanished without explanation.
 
-### Registry entries
+## Next review item
 
-#### G15 Henry Gurney — landholding / property reference
+- [ ] Confirm from the raw extraction path or original source trail exactly how `Harpham` entered the structured layer.
+- [ ] If a real independent Norfolk Harpham connection ever emerges, restore it only with source-backed evidence.
 
-- `locationId`: `loc-72eba098e79a`
-- `recordId`: `ancestor-g15-henry-gurney`
-- `eventDate`: 21 Jan. 1548/9 — d. 1615/16
-- `region`: Norfolk, England
-- `coordinates`: 52.834, 0.886
-- `geocodeBasis`: village centroid
-- `confidence`: Low
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Harpham manor (purchased 1587; presented to church 1588, 1602).
+## Sources
 
-### Crosslinks
+- `research/people/g15-henry-gurney-fact-sheet.research.md`
+- `research/places/harpley.md`
+- `data/places.json`
+- `data/places_detail.json`
 
-- `data/ancestors v24.json` → `G15` / `Henry Gurney`
-
-<!-- GENERATED:LOCATION-REGISTRY:END -->
-
-## Research notes
-
-- This file is intentionally compatible with a later normalization pass where multiple extracted registry entries can be merged into a canonical place record.
-- Formal `sourceId` linkage has not yet been imposed here. Inherited quotations and URLs are preserved to reduce loss during migration.

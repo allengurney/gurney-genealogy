@@ -1,0 +1,32 @@
+{
+  "title": "Hugh de Gournay III reconstruction notes",
+  "coordinate_system": "EPSG:4326",
+  "sources": [
+    {
+      "id": "record_house_of_gournay",
+      "type": "secondary_history",
+      "note": "Used for the summary that Hugh added twenty-four parishes/villages in the Beauvaisis on the left bank / eastern side of the Epte."
+    },
+    {
+      "id": "canton_de_gournay_local_history",
+      "type": "local_history",
+      "note": "Used for the preserved place-list attributed to the 'Conquêts Hue de Gournay'."
+    },
+    {
+      "id": "modern_commune_coords",
+      "type": "modern_reference_geography",
+      "note": "Modern commune locations used as anchor points for approximate reconstruction."
+    }
+  ],
+  "assumptions": [
+    "Polygon geometries are modern-reference abstractions for reuse and visualization.",
+    "The acquisition area is modeled as a compact frontier block rather than a loose honorific region.",
+    "The older core is kept conservative around Gournay-en-Bray and adjacent Bray/Epte communes."
+  ],
+  "confidence": {
+    "older_core_polygon": "medium-low",
+    "acquisition_polygon": "medium",
+    "epte_line": "low-medium",
+    "anchor_points": "high for modern locations"
+  }
+}

@@ -1,42 +1,57 @@
 # Bedfordshire, England
 
-Structured place-memory file combining prior narrative research with extracted registry entries.
+Historic county in east-central England. Approximate county-level coordinate used for structured display: **52.136, -0.467**.
 
-## Genealogical significance
+## Why this county matters
 
-This file now serves as the place-level aggregation point for structured location and landholding entries extracted from the ancestor registry. Narrative interpretation, source cleanup, negative-result research, and archival notes can be layered above or below the generated registry block over time.
+Bedfordshire is one of the **scattered English county contexts of the senior baron line**, not of Allen's direct Norfolk branch. Its importance is therefore contextual rather than hereditary. It helps show that after the main Norman seat was established at Gournay-en-Bray, the wider Gournay / de Gournay seigneurial world also touched multiple English counties beyond the better-known Norfolk and Essex holdings. [DG-I] [Normandy file] [Gournay-en-Bray file]
 
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
+This file should remain cautious and explicit about that limited role. Bedfordshire is a **regional evidence record**, not a place of residence or a clearly developed manor narrative in the current project. That is why it is thinner than Norfolk or even Essex, and that thinness is historically honest. [current place registry]
 
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
+## Senior-line setting
 
-### Place summary
+The current structured layer links Bedfordshire to **Hugh de Gournay IV (senior baron line)**. That should be read as a county-level survival of scattered exchequer, royal, or fee-based evidence in the later senior-line period, not as proof that Bedfordshire formed any central part of the family's enduring identity. By the time the project reaches Hugh IV and Hugh V, Allen's direct line has already gone into the junior Norfolk branch; Bedfordshire belongs instead to the **after-history of the senior barons**. [current place registry] [Normandy file]
 
-- Registry entries: **1**
-- Linked records: G32 Hugh de Gournay IV (Senior Baron Line)
+That distinction matters. If a reader assumes every county file is a family heartland, the whole geography becomes distorted. Bedfordshire is better thought of as one of the places where the senior line can still be glimpsed in England after the family story has already begun to bifurcate. [DG-I]
 
-### Registry entries
+## Why keep the county record at all?
 
-#### G32 Hugh de Gournay IV (Senior Baron Line) — individual geography
+Even a thin county record is useful when it prevents the larger historical picture from collapsing into a misleadingly narrow geography. Without records like Bedfordshire and Buckinghamshire, the senior line can appear to move only between Normandy and a few better-documented English places. The county umbrellas remind us that the family's sphere of action was wider, even where the evidence has not yet been refined into specific local places. [DG-I] [Buckinghamshire file]
 
-- `locationId`: `loc-a7fbcce4dbe9`
-- `recordId`: `collateral-g32-hugh-de-gournay-iv-senior-baron-line`
-- `eventDate`: c. 1098 — d. 1180
-- `region`: England
-- `coordinates`: 52.136, -0.467
-- `geocodeBasis`: county centroid
-- `confidence`: Low
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Bedfordshire
+## Interpretive note
 
-### Crosslinks
+Bedfordshire should remain a **negative-space file** in the best sense: a place that marks where evidence exists, but also where the evidence is still too thin or too unspecific to support stronger topographical claims. That is preferable to inventing a false manor narrative or forcing a precision the sources do not yet warrant. [DG-I]
 
-- `data/ancestors v24.json` → `G32` / `Hugh de Gournay IV (Senior Baron Line)`
+## Open items
 
-<!-- GENERATED:LOCATION-REGISTRY:END -->
+- [ ] Identify the exact Bedfordshire references in the royal, exchequer, or other records underlying the structured entry.
+- [ ] Determine whether the Bedfordshire material belongs wholly to Hugh IV, or whether it extends into Hugh V / Hugh VI of the senior baron line.
+- [ ] If a specific Bedfordshire manor or vill emerges, split it out into its own place file and leave this as a true county umbrella only.
 
-## Research notes
+## Sources
 
-- This file is intentionally compatible with a later normalization pass where multiple extracted registry entries can be merged into a canonical place record.
-- Formal `sourceId` linkage has not yet been imposed here. Inherited quotations and URLs are preserved to reduce loss during migration.
+- Daniel Gurney, *Record of the House of Gournay*, Part I (1848), senior-line material. [DG-I]
+- `research/places/normandy.md`
+- `research/places/gournay-en-bray.md`
+- `research/places/buckinghamshire.md`
+
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
+
+- `placeId`: `place-bedfordshire-england`
+- Short description: Regional holdings context
+- Place type: region
+- Aliases: Bedfordshire
+- Coordinate: 52.136, -0.467 (low)
+- Roles: individual geography
+- Detail: County-level umbrella record for scattered Bedfordshire holdings documented in exchequer and royal records.
+
+### Linked ancestors
+
+- G32 Hugh de Gournay IV (Senior Baron Line) — individual geography
+
+### Review notes
+
+- Regional umbrella record, not a single site.
+
+<!-- GENERATED:PLACE-REGISTRY:END -->

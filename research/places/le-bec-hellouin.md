@@ -2,76 +2,74 @@
 
 Monastery in the Risle valley, Normandy, France (modern commune Le Bec-Hellouin, Eure). Coordinates: **49.2288, 0.722**.
 
-One of the intellectual powerhouses of 11th- and 12th-century Europe, home to Lanfranc (Prior 1045–1063, later Archbishop of Canterbury) and Anselm (Prior 1063–1078, later Archbishop of Canterbury and one of the great theologians of the medieval church). The Gournay family's close connection to Bec is among the most distinctive features of the senior line.
+One of the intellectual powerhouses of eleventh- and twelfth-century Europe, home to **Lanfranc** and **Anselm**, and one of the most distinctive non-seigneurial places in the Gournay story. Bec matters because it preserves the family's **ecclesiastical, intellectual, and commemorative** side — a counterpart to the frontier lordship of Gournay-en-Bray. [DG-I] [Hannay]
 
-## Gurney connections
+## Why Bec matters
 
-### Hugh de Gournay III (G33) — personal friend of Anselm
+Bec should be treated as an **ecclesiastical patronage and burial record**, not as a family seat. The Gournays did not hold Bec in the same way that they held Gournay-en-Bray. What they held was a relationship of **patronage, friendship, endowment, witness, and burial**. [DG-I] [Hannay]
 
-Anselm's letter to the monks of Bec survives, asking them to "salute the Lord Hugh de Gournay, *dilectissimum nostrum*, and the Lady Basilia, on my part, as sweetly as you can (*quanto dulcius potestis*)" [Hannay pp. 91–100]. Hugh III retired to Bec in his later life and was buried in the Abbey Church; Hannay places his death c. 1089. The Gournay tradition of Bec burial continued in later generations.
+That distinction matters because it explains a different dimension of the family. The seat at Gournay-en-Bray shows frontier and military importance; Bec shows spiritual and intellectual distinction. [Gournay file]
 
-### Gerard de Gournay (G32) — founded Lessingham Priory as a Bec cell
+## Hugh de Gournay III and Anselm
 
-Gerard founded **Lessingham Priory**, Norfolk, as a daughter house attached to the Abbey of Bec. This transferred the Gournay–Bec patronage relationship from Normandy into England.
+The strongest single connection is **Hugh de Gournay III (G33)**. Hannay preserves Anselm's affectionate instruction to the monks of Bec to salute Hugh de Gournay and Basilia warmly. [Hannay] Hugh III later retired to Bec and was buried in the abbey church. [Hannay] That makes Bec not just a monastery admired from a distance, but one of the places in which the senior line deliberately lodged its memory.
 
-### Witnessing the Caen foundation (1082)
+## Gerard and the English extension
 
-Hugh III and his son Gerard witnessed the foundation charter of William I and Matilda's nunnery, Holy Trinity at Caen, in 1082 [DG-I-48]. While the Caen foundation is not Bec, the witness pattern reflects Hugh III's standing among the Conqueror's inner circle of ecclesiastical sponsors.
+The Bec relationship continued through **Gerard de Gournay (G32)**, who founded **Lessingham Priory** in Norfolk as a daughter house of Bec. [DG-I] This shows that the family's tie to Bec was not merely private devotion but an institutional connection that shaped its patronage on both sides of the Channel. [Lessingham file]
 
-## Modern
+## The 1082 Caen witness pattern
 
-- The Abbey of Bec operates again as a Benedictine monastery; open to visitors.
-- The 15th-century Tour Saint-Nicolas is the most recognizable surviving medieval element.
-- A 17th-century cloister survives; the main church fabric is later rebuilding on the original monastic site.
+A further sign of Hugh III's ecclesiastical standing appears in the **1082 foundation of Holy Trinity, Caen**, where Hugh III and his son Gerard appear among the witnesses to the Conqueror's and Matilda's act. [DG-I] Caen is not Bec, but the witness pattern helps show the rank in which Hugh III moved.
+
+## What Bec says about the family
+
+Bec helps explain why the Gournays appear in sources that are not purely feudal or military. The family's frontier role produced one kind of importance; its sustained tie to Bec produced another. That is why Hugh III's association with Anselm is not a decorative anecdote. It is part of the family's historical profile. [Hannay]
+
+## The abbey today
+
+The modern site still offers a strong physical anchor for this record. The abbey complex survives; the **Tour Saint-Nicolas** is the most recognizable medieval element, while later rebuilding and the seventeenth-century cloister preserve the continuity of the site even where exact medieval burial markers may have been lost. [current file]
 
 ## Open items
 
-- [ ] Locate the specific Caen charters Hugh III and Gerard witnessed. These would be in the *Regesta Regum Anglo-Normannorum* (Bates ed., 1998) or in the published *Acta* of William I.
-- [ ] Is Hugh III's tomb or any memorial identifiable in the surviving Bec fabric? Post-Revolutionary disturbances may have erased medieval markers.
-- [ ] Anselm's full letter collection is published (ed. F.S. Schmitt, 6 vols., 1938–1961). The Hugh de Gournay salutation is quoted by Hannay but the precise letter and date could be located.
+- [ ] Locate the specific Caen charters Hugh III and Gerard witnessed.
+- [ ] Check whether any tomb, necrology, or memorial trace of Hugh III survives in printed Bec sources.
+- [ ] Identify the precise Anselm letter reference in the Schmitt edition.
 
 ## Sources
 
-- Daniel Gurney, *Record of the House of Gournay*, Part I (1848), pp. 25–27 (Hugh III), 46–48, 58ff (Gerard). [DG-I]
+- Daniel Gurney, *Record of the House of Gournay*, Part I (1848), pp. 25–27, 46–48, 58ff. [DG-I]
 - James Hannay, *Three Hundred Years of a Norman House* (1867), pp. 91–100. [Hannay]
-- Anselm of Canterbury, *Epistolae* (ed. Schmitt) — Hannay quotation only; original letter not located.
+- Anselm of Canterbury, *Epistolae* (ed. Schmitt) — original letter not yet located in the project.
 
 ## Crosslinks
 
 - `research/people/g33-hugh-de-gournay-iii-fact-sheet.research.md`
 - `research/people/g32-gerard-de-gournay-fact-sheet.research.md`
+- `research/places/gournay-en-bray.md`
 - `research/places/lessingham.md`
+- `research/places/normandy.md`
 
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
 
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
+- `placeId`: `place-le-bec-hellouin-normandy-france`
+- Short description: Abbey burial site
+- Place type: locality
+- Aliases: Le Bec-Hellouin, Normandy
+- Coordinate: 49.2288, 0.722 (exact)
+- Roles: landholding / property reference
+- Site name: Abbey of Bec
+- Detail: Abbey of Bec, endowed by the Gournays and associated with Hugh III's burial.
+- Current-site status: extant — The abbey complex still stands and anchors the historic burial and endowment site.
+- Links: [Abbey site](https://abbayedubec.org/) · [Bec Abbey](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg/500px-Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg)
 
-### Place summary
+### Linked ancestors
 
-- Registry entries: **1**
-- Linked records: G33 Hugh de Gournay III
-- Named sub-sites: Abbey of Bec
+- G33 Hugh de Gournay III — landholding / property reference
 
-### Registry entries
+### Review notes
 
-#### G33 Hugh de Gournay III — landholding / property reference
+- None in cleanup pass 3b.
 
-- `locationId`: `loc-9d0fb5e64bc4`
-- `recordId`: `ancestor-g33-hugh-de-gournay-iii`
-- `eventDate`: c. 1020 — d. c. 1093
-- `siteName`: Abbey of Bec
-- `region`: Eure, Normandy, France
-- `coordinates`: 49.2288, 0.722
-- `geocodeBasis`: exact abbey site
-- `confidence`: Exact
-- Source / citation status: explicit citation text present in inherited note
-- Inherited note / quote: Abbey of Bec, Normandy — endowed and buried here.
-- External reference: [Abbey site](https://abbayedubec.org/)
-- Media reference: [Bec Abbey](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg/500px-Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg)
-
-### Crosslinks
-
-- `data/ancestors v24.json` → `G33` / `Hugh de Gournay III`
-
-<!-- GENERATED:LOCATION-REGISTRY:END -->
+<!-- GENERATED:PLACE-REGISTRY:END -->

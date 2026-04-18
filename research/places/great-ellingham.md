@@ -1,92 +1,76 @@
 # Great Ellingham, Norfolk, England
 
-Structured place-memory file combining prior narrative research with extracted registry entries.
+Village in south-central Norfolk. Coordinates: **52.5453, 1.0091774978679044**.
 
-## Genealogical significance
+One of the most important **later Norfolk manorial records** in the family, because it entered the Gurneys through the **Lovell inheritance** and remained a meaningful family holding into the seventeenth century.
 
-This file now serves as the place-level aggregation point for structured location and landholding entries extracted from the ancestor registry. Narrative interpretation, source cleanup, negative-result research, and archival notes can be layered above or below the generated registry block over time.
+## Why this place matters structurally
 
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
+Great Ellingham is not a medieval origin-place of the junior line in the way Harpley or Hardingham are. Its importance is different: it shows the family gaining stature and property through a **Tudor inheritance and marriage network**, especially through **Margaret Lovell**, wife of Anthony Gurney (G17). In the normalized place set, Great Ellingham helps explain the family's later Norfolk gentry position, just as Harpley and Hardingham explain the older medieval base. [Blomefield] [Anthony G17 companion] [Henry G15 companion]
 
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
+The place also matters because the record remains unusually traceable after Henry Gurney (G15). Blomefield follows the manor forward through Henry's grandson **Edward Gurney**, then to the younger Henry who died without issue in 1661, and finally out of the surname through **Margaret Gurney Davy** and **Mary Davy Potts**. That makes Great Ellingham one of the clearest places in which the family can be seen both acquiring and eventually losing a manor through female-line succession. [Blomefield]
 
-### Place summary
+## Gurney ancestors connected here
 
-- Registry entries: **5**
-- Linked records: G15 Henry Gurney, G16 Francis Gurney, G17 Anthony Gurney
+| Ancestor | Gen | Connection |
+|---|---|---|
+| Francis Gurney | G16 | Structured linkage for the transitional generation; direct topographical detail still lighter here |
+| Anthony Gurney | G17 | Manor came through his wife Margaret Lovell; documented as lord in the early Tudor period |
+| Henry Gurney | G15 | Lord in 1572 per Blomefield |
 
-### Registry entries
+## The Lovell–Conyers–Spelman connection
 
-#### G15 Henry Gurney — individual geography
+Anthony Gurney's wife **Margaret Lovell** brought Great Ellingham into the family as one of the daughters and coheirs of **Sir Robert Lovell** by **Ela Conyers**. Anthony's research companion notes that this same line linked the Gurneys into the broader Lovell and Spelman kinship network. So Great Ellingham is not only a manor record but also a visible marker of the family's entry into a more elevated Tudor cousinage network. [Anthony G17 companion]
 
-- `locationId`: `loc-102c043c30cc`
-- `recordId`: `ancestor-g15-henry-gurney`
-- `eventDate`: 21 Jan. 1548/9 — d. 1615/16
-- `region`: Norfolk, England
-- `coordinates`: 52.5453, 1.0091774978679044
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Great Ellingham, Norfolk
+## Later descent
 
-#### G15 Henry Gurney — landholding / property reference
+Henry Gurney (G15) was lord in 1572. After him the manor passed through the senior West Barsham line to his grandson **Edward Gurney** (d. 1641), then to the younger **Henry Gurney** (d. 1661 without issue), and then through **Margaret Gurney Davy** to the Potts family. That later descent is important because it shows Great Ellingham outlasting several other named Gurney properties in active memory and remaining visible in county topography well after the surname's direct possession ended. [Henry G15 companion]
 
-- `locationId`: `loc-de804bff6e45`
-- `recordId`: `ancestor-g15-henry-gurney`
-- `eventDate`: 21 Jan. 1548/9 — d. 1615/16 | 20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris) | b. c. 1499 — d. 4 Jan. 1555/6
-- `region`: Norfolk, England
-- `coordinates`: 52.5453, 1.0091774978679044
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Great Ellingham manor (held from Bishop of Norwich). || Great Ellingham manor, Norfolk. || Great Ellingham manor, Norfolk — acquired via marriage to Margaret Lovell (she and her sister co-heiresses of Sir Robert Lovell; through her mother of families Conyers of Finningham and Fitz-Ralf).
+## Interpretive note
 
-#### G16 Francis Gurney — landholding / property reference
+This file is one of the clearest examples of how the place library should distinguish **medieval family-seat logic** from **later inheritance logic**. Great Ellingham belongs to the second category. It is a later gentry-manor and inheritance record, not a Norman or early junior-line proof-place.
 
-- `locationId`: `loc-6987db367a4d`
-- `recordId`: `ancestor-g16-francis-gurney`
-- `eventDate`: 21 Jan. 1548/9 — d. 1615/16 | 20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris) | b. c. 1499 — d. 4 Jan. 1555/6
-- `region`: Norfolk, England
-- `coordinates`: 52.5453, 1.0091774978679044
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Great Ellingham manor (held from Bishop of Norwich). || Great Ellingham manor, Norfolk. || Great Ellingham manor, Norfolk — acquired via marriage to Margaret Lovell (she and her sister co-heiresses of Sir Robert Lovell; through her mother of families Conyers of Finningham and Fitz-Ralf).
+## Open items
 
-#### G17 Anthony Gurney — individual geography
+- [ ] Pull the full Blomefield Great Ellingham entry directly into this file, especially the exact wording on Anthony's wife Margaret Lovell and the later Potts descent.
+- [ ] Check whether St James the Apostle church at Great Ellingham preserves any Gurney heraldry, epitaph material, or monument evidence tied to Henry G15 or his descendants.
+- [ ] Clarify whether Francis G16 should remain an explicit structured link here or whether the cleaner topographical evidence begins with Anthony G17.
 
-- `locationId`: `loc-8ebc923d73ff`
-- `recordId`: `ancestor-g17-anthony-gurney`
-- `eventDate`: b. c. 1499 — d. 4 Jan. 1555/6
-- `region`: Norfolk, England
-- `coordinates`: 52.5453, 0.9960225021320956
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Great Ellingham, Norfolk
+## Sources
 
-#### G17 Anthony Gurney — landholding / property reference
+- Francis Blomefield, *An Essay Towards a Topographical History of the County of Norfolk*, vol. i (1805), Great Ellingham entry. [Blomefield]
+- `research/people/g17-anthony-gurney-fact-sheet.research.md`
+- `research/people/g15-henry-gurney-fact-sheet.research.md`
+- Daniel Gurney, *Record of the House of Gournay* and *Supplement* (for pedigree continuity).
 
-- `locationId`: `loc-17bfb9763892`
-- `recordId`: `ancestor-g17-anthony-gurney`
-- `eventDate`: 21 Jan. 1548/9 — d. 1615/16 | 20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris) | b. c. 1499 — d. 4 Jan. 1555/6
-- `region`: Norfolk, England
-- `coordinates`: 52.5453, 1.0091774978679044
-- `geocodeBasis`: village centroid
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Great Ellingham manor (held from Bishop of Norwich). || Great Ellingham manor, Norfolk. || Great Ellingham manor, Norfolk — acquired via marriage to Margaret Lovell (she and her sister co-heiresses of Sir Robert Lovell; through her mother of families Conyers of Finningham and Fitz-Ralf).
+## Crosslinks
 
-### Crosslinks
+- `research/people/g17-anthony-gurney-fact-sheet.research.md`
+- `research/people/g16-francis-gurney-fact-sheet.research.md`
+- `research/people/g15-henry-gurney-fact-sheet.research.md`
+- `research/places/hingham-norfolk.md`
+- `research/places/west-barsham.md`
 
-- `data/ancestors v24.json` → `G15` / `Henry Gurney`
-- `data/ancestors v24.json` → `G16` / `Francis Gurney`
-- `data/ancestors v24.json` → `G17` / `Anthony Gurney`
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
 
-<!-- GENERATED:LOCATION-REGISTRY:END -->
+- `placeId`: `place-great-ellingham-norfolk-england`
+- Short description: Lovell inheritance manor
+- Place type: locality
+- Aliases: Great Ellingham, Norfolk
+- Coordinate: 52.5453, 1.0091774978679044 (medium)
+- Roles: landholding / property reference, individual geography
+- Detail: Great Ellingham manor, later associated with the Lovell inheritance through Margaret Lovell.
+- Current-site status: unknown
 
-## Research notes
+### Linked ancestors
 
-- This file is intentionally compatible with a later normalization pass where multiple extracted registry entries can be merged into a canonical place record.
-- Formal `sourceId` linkage has not yet been imposed here. Inherited quotations and URLs are preserved to reduce loss during migration.
+- G15 Henry Gurney — landholding / property reference, individual geography
+- G16 Francis Gurney — landholding / property reference
+- G17 Anthony Gurney — landholding / property reference, individual geography
+
+### Review notes
+
+- None in cleanup pass 3b.
+
+<!-- GENERATED:PLACE-REGISTRY:END -->

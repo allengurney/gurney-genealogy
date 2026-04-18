@@ -1,85 +1,72 @@
 # Suffolk (county-level)
 
-English county adjacent to Norfolk. Approximate county centroid used for data purposes: **52.188, 1.005**.
+Historic county adjacent to Norfolk. Approximate county centroid used for structured display: **52.188, 1.005**.
 
-Suffolk appears as a county-level landholding for **Walter de Gournay (G31)** and possibly later generations, but specific Gurney-held Suffolk manors are not individually documented in DG in the way the Norfolk holdings are. The county-level coordinate in `ancestors v23.json` is a data-display convenience, not a specific location.
+## Why this county matters
 
-## Gurney ancestors with Suffolk connections
+Suffolk is a **mixed-type umbrella record** in the project. It matters for at least three different reasons:
 
-| Ancestor | Gen | Period | Connection |
-|---|---|---|---|
-| Walter de Gournay | G31 | fl. c. 1108–1154 | Held lands in Suffolk under **Manasser de Dampmartin** — Liber Niger Scaccarii, vol. i, p. 298 |
-| Sir John Gurney V (d. 1408) | collateral | d. 1408 | "One manor in Suffolk" among his eight-plus Norfolk manors at death (HoP biography) |
-| Thomas Gournay I | G21 | fl. c. 1408–1450 | Inherited via Sir John V |
-| Katherine de Wauncy | wife of G23 | | Her family held **Depden, Suffolk** |
-| Thomas Gournay II | G20 | c. 1430–d. 1471 | Depden Suffolk inherited via Wauncy |
+1. as the county of **Walter de Gournay's early English holdings** under **Manasser de Dampmartin** during the reign of Stephen; [DG-I]
+2. as a later county in which the family still possessed at least **one manor** by the death of Sir John Gurney in 1408; [HoP-Gurney]
+3. as the county of **Depden**, which entered the Gurney portfolio through the **Wauncy inheritance** that also brought West Barsham. [DG-II] [West Barsham file]
 
-## Walter de Gournay — Dampmartin tenure
+That means Suffolk is more historically layered than Essex, even though the place evidence is currently more dispersed and less well separated into specific manor files. [current file]
 
-The Liber Niger Scaccarii entry is the **earliest documentary attestation of Walter in England**. He held Suffolk lands as tenant of Manasser de Dampmartin during Stephen's reign (1135–1154) — "The Anarchy." This is separate from his holdings in Norfolk (Runhall, Swathings).
+## Walter de Gournay and the earliest Suffolk evidence
 
-## Bury St. Edmunds (Candidate B research)
+The earliest strong Suffolk connection belongs to **Walter de Gournay (G31)**. DG-I cites the **Liber Niger Scaccarii**, vol. i, p. 298, for Walter's holdings in Suffolk under **Manasser de Dampmartin**. This is one of the earliest documentary witnesses to Walter in England and one of the key reasons Suffolk must exist in the place library at all. [DG-I]
 
-Bury St. Edmunds is a distinct Suffolk locus attached to the **John Gurney-1 research** (Candidate B case file) — Banks/Brownell (1937) assigned John Gurney-1's English origin to Bury St. Edmunds based on "Banks Mss." The most probable mechanism is an apprenticeship record c. 1620–1635. See `sources/validations/banks-brownell-1937.md` and `research/people/g13-john-gurney-fact-sheet.research.md`. Bury St. Edmunds is not a documented Gurney landholding.
+At present, however, the county file is standing in for more specific manors that have not yet been separated. Until the Liber Niger entry is pulled directly and the named Suffolk places identified, Suffolk should remain a **county-level placeholder for early holdings**, not a claim that the family held the whole county in any broad sense.
 
-## Depden
+## Later medieval Suffolk
 
-Depden, Suffolk, was held by the Wauncy family (Katherine Wauncy's family) and entered the Gurney portfolio through her marriage to Edmund (G23) in the 1372 Wauncy inheritance. See DG-II Appendix LXIII for the Wauncy family, which included both Depden (Suffolk) and West Barsham (Norfolk).
+The county reappears in the later medieval line in two ways.
 
-## Primary-source hooks
+First, the **History of Parliament** biography of **Sir John Gurney (d. 1408)** notes that he died holding **one manor in Suffolk** in addition to his Norfolk property. [HoP-Gurney]
 
-- **Liber Niger Scaccarii**, vol. i, p. 298 — Walter de Gournay under Manasser de Dampmartin (Hearne ed., 1774). Cited by DG; not independently reviewed.
-- **HoP Online** biography of Sir John Gurney d. 1408 — mentions "one manor in Suffolk" in his estate at death.
-- **DG-II Appendix LXIII** — Wauncy family including Depden Suffolk.
+Second, **Depden, Suffolk** entered the family through the **Wauncy inheritance** that brought West Barsham into the line. This makes Suffolk part of the same inheritance geography that reshaped the family's fortunes in the late fourteenth century, even though the place-level Suffolk evidence has not yet been broken out in detail. [DG-II] [West Barsham file]
+
+## Bury St Edmunds — an important non-landholding Suffolk connection
+
+The project also preserves a very different Suffolk association through **Bury St Edmunds** in the **Candidate B / John Gurney-1** research. That is not a documented landholding but rather a possible origin or apprenticeship setting derived from later genealogical tradition. It matters enough to note here as a **separate Suffolk connection of a different type**, while keeping it clearly distinct from the county's landed-history layer. [current file]
+
+## Interpretive note
+
+Suffolk is therefore one of the more complex county umbrellas in the library. It is neither a single clear Domesday cluster like Essex nor a full-spectrum family county like Norfolk. Instead it is a county of **scattered but important evidence points** that probably deserves eventual subdivision — especially if the Liber Niger place names and the later Suffolk manor can be identified directly. [DG-I] [HoP-Gurney] [DG-II]
 
 ## Open items
 
-- [ ] Identify the specific Suffolk manors Walter held under Dampmartin — the Liber Niger entry may name them.
-- [ ] Which Suffolk manor is the "one manor in Suffolk" in Sir John V's 1408 estate? Not named in the HoP extract reviewed.
-- [ ] Depden — separate place file may be warranted when the Wauncy-era research is revisited.
+- [ ] Pull the **Liber Niger Scaccarii** entry and identify Walter's specific Suffolk holdings under Manasser de Dampmartin.
+- [ ] Identify the unnamed Suffolk manor in the 1408 estate of Sir John Gurney.
+- [ ] Consider a separate **Depden** place file once the Wauncy appendix is worked more fully into the library.
+- [ ] Keep Bury St Edmunds separate from the landed-history layer unless stronger evidence links it to property rather than apprenticeship/origin tradition.
 
 ## Sources
 
-- Liber Niger Scaccarii, vol. i, p. 298 — cited by DG-I p. 277.
 - Daniel Gurney, *Record of the House of Gournay*, Part I (1848), pp. 277–278. [DG-I]
-- DG-II Appendix LXIII (Wauncy). [DG-II-App-LXIII]
+- DG-II Appendix LXIII (Wauncy family / Depden). [DG-II]
 - History of Parliament Online: Sir John Gurney, d. 1408. [HoP-Gurney]
-- `ancestors v23.json` G31 landholding entries.
-
-## Crosslinks
-
+- `research/places/west-barsham.md`
 - `research/people/g31-walter-de-gournay-fact-sheet.research.md`
-- `research/people/g21-thomas-gournay-i-fact-sheet.research.md`
-- `research/people/g20-thomas-gournay-ii-fact-sheet.research.md`
-- `research/people/g13-john-gurney-fact-sheet.research.md` (Bury St. Edmunds separate connection)
-- `research/places/west-barsham.md` (parallel Wauncy inheritance)
+- `research/people/g13-john-gurney-fact-sheet.research.md`
 
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
 
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
+- `placeId`: `place-suffolk-england`
+- Short description: Regional holdings context
+- Place type: region
+- Aliases: Suffolk
+- Coordinate: 52.188, 1.005 (low)
+- Roles: landholding / property reference
+- Detail: County-level record for Suffolk holdings held under Manasser de Dampmartin.
 
-### Place summary
+### Linked ancestors
 
-- Registry entries: **1**
-- Linked records: G31 Walter de Gournay
+- G31 Walter de Gournay — landholding / property reference
 
-### Registry entries
+### Review notes
 
-#### G31 Walter de Gournay — landholding / property reference
+- Regional umbrella record, not a single site.
 
-- `locationId`: `loc-40bf0bf41e8c`
-- `recordId`: `ancestor-g31-walter-de-gournay`
-- `eventDate`: fl. c. 1108–1154
-- `region`: England
-- `coordinates`: 52.188, 1.005
-- `geocodeBasis`: county centroid
-- `confidence`: Low
-- Source / citation status: explicit citation text present in inherited note
-- Inherited note / quote: Lands in Suffolk held under Manasser de Dampmartin (Liber Niger Scaccarii, vol. i, p.298).
-
-### Crosslinks
-
-- `data/ancestors v24.json` → `G31` / `Walter de Gournay`
-
-<!-- GENERATED:LOCATION-REGISTRY:END -->
+<!-- GENERATED:PLACE-REGISTRY:END -->

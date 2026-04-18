@@ -1,32 +1,36 @@
 # data/
 
-Canonical structured data. Preserve source fidelity first; normalize second.
+Canonical structured data for the research-library spine.
 
 ## Files
 
-- `ancestors v23.json` — pre-migration ancestor registry with embedded `locations` arrays.
-- `ancestors v24.json` — same registry after extraction. Embedded `locations` removed from ancestor/collateral records and replaced with `locationRefs`.
-- `locations.json` — lossless extracted location registry. One entry per former embedded location object.
-- `master.json` — canonical person/source registry used by the broader research system.
+- `ancestors v23.json` — legacy ancestor registry with embedded location arrays.
+- `ancestors v24.json` — normalized ancestor registry with stable `recordId` values and `placeRefs`.
+- `places.json` — primary canonical place registry. Lightweight and optimized for navigation, AI consumption, website tables, and joins.
+- `places_detail.json` — supplemental place detail registry for map popups and richer site context.
+- `master.json` — broader canonical person/source registry used elsewhere in the repo.
 - `sources.json` — bibliography and citation registry.
 
-## Extraction model
+## Geography model
 
-Current phase uses a **lossless extraction** model rather than a deduplicated place registry.
+Use a two-layer place model:
 
-Each extracted entry in `locations.json` preserves:
-- original place/site/event/geocode fields
-- provenance back to the source record in `ancestors v23.json`
-- `locationId` for stable cross-reference
-- `canonicalPlaceKey` / `placeSlug` fields to prepare for a later normalization pass
+1. `places.json`
+   - one row per canonical place
+   - compact fields only
+   - canonical filename, aliases, coordinate, place type, short description, and ancestor/place-role links
 
-Each ancestor/collateral record in `ancestors v24.json` preserves the original record shape except:
-- `locations` removed
-- `locationRefs` added
-- `recordId` added for stable joins
+2. `places_detail.json`
+   - one row per canonical place
+   - supplemental fields only
+   - long description, site / address detail, extant-status detail, selected image / heritage links, and normalization review notes
+
+This is not a rigid relational database. Keep it small, navigable, and easy to join.
 
 ## Discipline
 
-- Do not edit `ancestors v23.json` except to preserve history.
-- Use `ancestors v24.json` + `locations.json` as the active bridge layer until a later normalization pass produces a true shared place registry.
-- Preserve inherited citation text even when it is incomplete. Formal `sourceId` cleanup is a later task.
+- `places.json` is the primary place spine.
+- `places_detail.json` must not duplicate place datasets that already exist in `places.json`.
+- Normalize multiple prior occurrences of the same place into one canonical record.
+- Choose one best coordinate and one best precision level per place. Do not synthesize derivative coordinates.
+- Keep rich narrative, citation discussion, and open questions in `research/places/*.md`.

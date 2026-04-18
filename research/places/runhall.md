@@ -2,91 +2,79 @@
 
 Village in central Norfolk, England. Coordinates: **52.6195, 1.0100**.
 
-Location of the **Runhall manor** held by the junior Gurney branch in the 12th–13th centuries. Significant mainly as the subject of the **plea between Sir Matthew de Gournay and Gilbert de Runhall** (DG-I Appendix LIII) — the legal record establishing Matthew as son of William de Gournay I (G30).
+Location of the Runhall manor held by the junior Gurney branch in the twelfth and thirteenth centuries. Significant mainly as the subject of the plea between Sir Matthew de Gournay and Gilbert de Runhall (DG-I Appendix LIII) — the legal record establishing Matthew as son of William de Gournay I (G30).
+
+## Why this place matters structurally
+
+Runhall is not primarily a long-lived family seat. Its importance in the project is evidentiary. In that respect it belongs with Montigny-sur-Andelle: both are places whose chief value is that they support a major genealogical argument. Montigny helps prove junior-line blood descent from the Barons of Gournay; Runhall helps prove the early Norfolk father-to-son chain from William I to Matthew. [DG-I]
+
+That makes Runhall one of the key proof-places in the Norfolk set. It should remain focused on legal and evidentiary significance rather than being inflated into a larger manorial narrative than the current source base supports.
 
 ## Gurney ancestors holding here
 
 | Ancestor | Gen | Period | Notes |
 |---|---|---|---|
-| William de Gournay I | G30 | fl. c. 1150–1180 | Lord of Runhall; attested via Placit. 8 John (1207 retrospective record) and Gaywood deed ("Dominus Willelmus de Gurney") |
+| William de Gournay I | G30 | fl. c. 1150–1180 | Lord of Runhall; attested in later legal memory |
 | Sir Matthew de Gournay | G29 | fl. c. 1180–1220 | Subject of the Runhall plea establishing his paternity |
 
 ## The Matthew–Runhall plea
 
-DG-I Appendix LIII contains the full text of a legal plea between Sir Matthew de Gournay and Gilbert de Runhall. This document is **the primary evidentiary basis for identifying Matthew as the son of William I**. DG does not reproduce it in the main text passages reviewed in the project; the Appendix is cited but not yet located in the corpus.
+DG-I Appendix LIII contains the text of a legal plea between Sir Matthew de Gournay and Gilbert de Runhall. This document is the primary evidentiary basis for identifying Matthew as the son of William I. Without it, the William I to Matthew to William II sequence becomes much more traditional than documentary.
 
-Matthew v. Gilbert de Runhall is therefore a foundational document for the junior Norfolk branch pedigree — without it, the William I → Matthew → William II chain becomes merely traditional.
+## Interpretive note
+
+Runhall is a good example of why the place library needs both concise JSON and fuller MD narrative. The structured layer can honestly keep it as a junior-line manor locality, but the narrative layer needs to explain that its real force in the project is legal proof, not social or architectural prominence.
 
 ## Primary-source hooks
 
-- **DG-I Appendix LIII** — Matthew v. Gilbert de Runhall plea. Cited but not transcribed in project files.
-- **Placit. 8 John (1207)** — retrospective record naming William I as lord of Runhall manor "temp. Hen. II."
-- **Gaywood deed** — conveyance of lands at Gaywood designating William I as "Dominus Willelmus de Gurney" (confirms knighthood). Cited by DG but no archive reference given.
+- DG-I Appendix LIII — Matthew v. Gilbert de Runhall plea.
+- Placit. 8 John (1207) — retrospective record naming William I as lord of Runhall manor in Henry II's time.
+- Gaywood deed naming William I as dominus Willelmus de Gurney.
 
 ## Post-Gurney tenure
 
-Runhall appears to have passed out of the direct Gurney line after William I / Matthew. The fiefs of Runhall and Swathings (Hardingham) may have come to the junior branch through the forfeiture of the Le Bourguignon family when Normandy was lost in 1204 — this would date the full junior-branch tenure to the generation of Matthew's son William II or later.
+Runhall appears to have passed out of the direct Gurney line after William I and Matthew. The fiefs of Runhall and Swathings may have come to the junior branch through the forfeiture of the Le Bourguignon family when Normandy was lost in 1204 — a plausible explanation, but one that still needs a firmer source trail.
 
 ## Open items
 
-- [ ] **Locate DG-I Appendix LIII** in the project's DG PDFs or text corpus. The plea is the most important primary-source document for the junior branch pedigree in its earliest phase.
-- [ ] Locate the Gaywood deed (William I as "Dominus") — near King's Lynn; may be in NRO or BL charter collections.
-- [ ] Placit. 8 John (1207) — the published Placita text should be checked for the Runhall entry naming William I.
-- [ ] Le Bourguignon forfeiture timing — when exactly did Runhall and Swathings transfer to the Gurneys? The 1204 loss of Normandy is the probable trigger.
+- Locate DG-I Appendix LIII in the project corpus.
+- Pull the published Placita text for the Runhall reference naming William I.
+- Locate the Gaywood deed and check whether it survives in NRO or BL charter collections.
+- Clarify the Le Bourguignon forfeiture timing and whether Runhall and Swathings entered the line together.
 
 ## Sources
 
 - Daniel Gurney, *Record of the House of Gournay*, Part I (1848), pp. 277–278 and pedigree p. 286. [DG-I]
-- DG-I Appendix LIII (Matthew v. Gilbert de Runhall plea) — cited, not transcribed.
-- Placit. 8 John (1207) — cited by DG, not independently verified.
-- `ancestors v23.json` G29, G30 landholding entries.
+- DG-I Appendix LIII (Matthew v. Gilbert de Runhall plea) — cited, not transcribed here.
+- `research/places/hardingham.md`
 
 ## Crosslinks
 
 - `research/people/g30-william-de-gournay-i-fact-sheet.research.md`
 - `research/people/g29-matthew-de-gournay-fact-sheet.research.md`
-- `research/places/hardingham.md` (parallel Swathings holding)
-- `research/places/kings-lynn.md` (Gaywood is near King's Lynn)
+- `research/places/hardingham.md`
+- `research/places/montigny-sur-andelle.md`
+- `research/places/kings-lynn.md`
 
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
 
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
+- `placeId`: `place-runhall-norfolk-england`
+- Short description: Junior-line manor locality
+- Place type: locality
+- Aliases: Runhall, Norfolk
+- Coordinate: 52.6195, 1.01 (low)
+- Roles: landholding / property reference
+- Detail: Runhall manor, paired with Hardingham in the junior line's Norfolk holdings.
+- Current-site status: approximate area — Modern village location is the best surviving anchor for the historic manor.
 
-### Place summary
+### Linked ancestors
 
-- Registry entries: **2**
-- Linked records: G29 Matthew de Gournay, G30 William de Gournay I
+- G29 Matthew de Gournay — landholding / property reference
+- G30 William de Gournay I — landholding / property reference
 
-### Registry entries
+### Review notes
 
-#### G29 Matthew de Gournay — landholding / property reference
+- None in cleanup pass 3b.
 
-- `locationId`: `loc-1760096472ae`
-- `recordId`: `ancestor-g29-matthew-de-gournay`
-- `eventDate`: fl. c. 1180–1220
-- `region`: Norfolk, England
-- `coordinates`: 52.6195, 1.01
-- `geocodeBasis`: approximate village centroid
-- `confidence`: Low
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Runhall manor, Norfolk (inherited from father William I).
-
-#### G30 William de Gournay I — landholding / property reference
-
-- `locationId`: `loc-1d7a53517860`
-- `recordId`: `ancestor-g30-william-de-gournay-i`
-- `eventDate`: fl. c. 1150–1180
-- `region`: Norfolk, England
-- `coordinates`: 52.6195, 1.01
-- `geocodeBasis`: approximate village centroid
-- `confidence`: Low
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Runhall manor, Norfolk — lord of Runhall and Swathings in Hardingham.
-
-### Crosslinks
-
-- `data/ancestors v24.json` → `G29` / `Matthew de Gournay`
-- `data/ancestors v24.json` → `G30` / `William de Gournay I`
-
-<!-- GENERATED:LOCATION-REGISTRY:END -->
+<!-- GENERATED:PLACE-REGISTRY:END -->

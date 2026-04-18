@@ -1,155 +1,107 @@
 # Norfolk, England
 
-Structured place-memory file combining prior narrative research with extracted registry entries.
+Historic county on England's east coast and the **single most important English region in the entire Gurney story**. Approximate county-level coordinate used for structured display: **52.675, 1.289**.
 
-## Genealogical significance
+## Why this county matters
 
-This file now serves as the place-level aggregation point for structured location and landholding entries extracted from the ancestor registry. Narrative interpretation, source cleanup, negative-result research, and archival notes can be layered above or below the generated registry block over time.
+Norfolk is not just a background region for the family. It is the county in which the junior line became English landholders, where the medieval branch consolidated itself in a network of manors, where the West Barsham seat rose through inheritance, and where later Tudor and early Stuart descendants still held churches, manors, urban houses, and county offices. If Gournay-en-Bray is the Norman cradle of the name, **Norfolk is the county in which the family became fully English**. [DG-I] [DG-II]
 
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
+Because this file is a **regional umbrella record**, it should not compete with the manor files. Instead, it should explain the phases of the family's Norfolk history and point outward to the specific places where those phases can be studied in detail. [current place registry]
 
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
+## Phase 1 — the Conquest-era Norfolk foothold
 
-### Place summary
+The earliest strong Norfolk phase belongs to **Gerard de Gournay (G32)**, whose marriage to Edith de Warenne opened a substantial English territorial world to the family after the Conquest. The project's Norfolk place set currently captures that phase through places such as **Caister-on-Sea**, **Cantley**, and **Lessingham**, the last of which expresses the family's ecclesiastical tie to the Abbey of Bec in an English setting. [DG-I] [Caister file] [Cantley file] [Lessingham file]
 
-- Registry entries: **10**
-- Linked records: G22 Robert Gournay, G23 Sir John Gurney, Knt. (d.1408) — Collateral, G31 Walter de Gournay, G32 Gerard de Gournay, G32 Hugh de Gournay IV (Senior Baron Line), G33 Hugh de Gournay III
+This first Norfolk phase matters because it shows the family not merely arriving in England, but establishing itself within one of the most politically significant counties of post-Conquest England. Norfolk was rich, heavily manorialised, and deeply tied to the Warenne orbit. [DG-I]
 
-### Registry entries
+## Phase 2 — the junior-line Norfolk manorial base
 
-#### G22 Robert Gournay — individual geography
+The second phase is the one most central to Allen's direct line: the **junior branch's durable Norfolk manorial core**. That phase is anchored by **Hardingham / Swathings**, **Runhall**, and above all **Harpley**. These places are what allow the line from Walter (G31) and William I (G30) to become historically concrete rather than purely traditional. [DG-I] [Hardingham file] [Runhall file] [Harpley file]
 
-- `locationId`: `loc-9a12e12dfe9c`
-- `recordId`: `ancestor-g22-robert-gournay`
-- `eventDate`: fl. c. 1370–1420
-- `region`: England
-- `coordinates`: 52.675, 1.289
-- `geocodeBasis`: county centroid
-- `confidence`: Low
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Norfolk
+Norfolk in this period is not just a map of scattered places. It is the medium through which the junior line can be seen as a real landed house, one with manorial courts, parish patronage, tithes, legal pleas, and eventually heraldic identity. [DG-I]
 
-#### G22 Robert Gournay — landholding / property reference
+## Phase 3 — the rise of West Barsham
 
-- `locationId`: `loc-47cb9be78e52`
-- `recordId`: `ancestor-g22-robert-gournay`
-- `eventDate`: fl. c. 1370–1420
-- `region`: England
-- `coordinates`: 52.675, 1.289
-- `geocodeBasis`: county centroid
-- `confidence`: Low
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Share of Edmund Gurney's Norfolk estate. Specific holdings not individually documented.
+The third phase begins when **Edmund Gurney (G23)** acquired **West Barsham** through the **Wauncy inheritance** in 1372. That event transformed the family's geography. Norfolk ceased to be only a county of older junior-line manors and became the county of a major later-medieval and early-modern seat. From Edmund through Thomas I, Thomas II, William IV, Anthony, Henry, and Francis, Norfolk remained the family's principal English stage. [DG-II] [West Barsham file]
 
-#### G23 Sir John Gurney, Knt. (d.1408) — Collateral — individual geography
+At this stage Norfolk also becomes a county of **parallel family geographies**:
+- **West Barsham** as the principal seat [West Barsham file]
+- **Harpley** and **Hardingham** as long-memory manorial anchors [Harpley file] [Hardingham file]
+- **Hingham** and **Great Ellingham** as later Tudor inheritance / manor records [Hingham file] [Great Ellingham file]
+- **Norwich** and **King's Lynn** as urban/legal/commercial contexts [King's Lynn file] [Edmund G23 companion]
 
-- `locationId`: `loc-141d135ae6c7`
-- `recordId`: `collateral-g23-sir-john-gurney-knt-d-1408-collateral`
-- `eventDate`: d. 1408
-- `region`: England
-- `coordinates`: 52.675, 1.2885970084873355
-- `geocodeBasis`: county centroid
-- `confidence`: Low
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Norfolk
+## Phase 4 — later Tudor and early Stuart Norfolk
 
-#### G23 Sir John Gurney, Knt. (d.1408) — Collateral — landholding / property reference
+By the sixteenth century the family's Norfolk history had widened beyond manors alone. **Henry Gurney (G15)** appears in the project not only with landed interests but with ecclesiastical patronage and a literary commonplace book; **Hingham**, **Great Ellingham**, **Attleborough**, and the restored **Harpley** manor all belong to this later Norfolk world. [Henry G15 companion] [Attleborough file] [Hingham file] [Great Ellingham file]
 
-- `locationId`: `loc-774e86b48234`
-- `recordId`: `collateral-g23-sir-john-gurney-knt-d-1408-collateral`
-- `eventDate`: d. 1408 | c. 1098 — d. 1180 | c. 1040 — d. before 1104, Palestine | c. 1020 — d. c. 1093
-- `region`: England
-- `coordinates`: 52.675, 1.2885970084873355
-- `geocodeBasis`: county centroid
-- `confidence`: Low
-- Source / citation status: explicit citation text present in inherited note
-- Inherited note / quote: Total estate at death: 8 manors in Norfolk + 1 in Suffolk (History of Parliament). || Three knights' fees in Norfolk (documented Pipe Rolls). || Norfolk manors inherited from Hugh III (Gen.27) then expanded through Edith de Warenne marriage connection. || Norfolk manors (granted post-Conquest, specific parcels documented in Daniel Gurney's Record as chiefly in Norfolk and Suffolk).
+Norfolk in this phase is the county in which the family becomes recognizably early modern: connected to London, to church patronage, to manuscript culture, and to the marriage networks of Heydons, Lovells, and Calthorpes. [Henry G15 companion] [G19 companion]
 
-#### G31 Walter de Gournay — individual geography
+## A note on collateral and regional records
 
-- `locationId`: `loc-6ff3f4423f86`
-- `recordId`: `ancestor-g31-walter-de-gournay`
-- `eventDate`: fl. c. 1108–1154
-- `region`: England
-- `coordinates`: 52.675, 1.289
-- `geocodeBasis`: county centroid
-- `confidence`: Low
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Norfolk & Suffolk
+The structured umbrella layer also links county-level Norfolk to ancestors like **Robert Gournay (G22)** and the collateral **Sir John Gurney (d. 1408)**. That is appropriate, because both belong to the broader county story even where the precise manor-level topography is thinner or distributed across several more specific place files. [G22 companion] [HoP-Gurney]
 
-#### G32 Gerard de Gournay — landholding / property reference
+## Interpretive note
 
-- `locationId`: `loc-8b5d43ba6ab3`
-- `recordId`: `ancestor-g32-gerard-de-gournay`
-- `eventDate`: d. 1408 | c. 1098 — d. 1180 | c. 1040 — d. before 1104, Palestine | c. 1020 — d. c. 1093
-- `region`: England
-- `coordinates`: 52.675, 1.2885970084873355
-- `geocodeBasis`: county centroid
-- `confidence`: Low
-- Source / citation status: explicit citation text present in inherited note
-- Inherited note / quote: Total estate at death: 8 manors in Norfolk + 1 in Suffolk (History of Parliament). || Three knights' fees in Norfolk (documented Pipe Rolls). || Norfolk manors inherited from Hugh III (Gen.27) then expanded through Edith de Warenne marriage connection. || Norfolk manors (granted post-Conquest, specific parcels documented in Daniel Gurney's Record as chiefly in Norfolk and Suffolk).
+Norfolk is the county in which nearly every major kind of family evidence appears:
+- conquest-era expansion
+- junior-line proof and manorial continuity
+- inheritance through marriage
+- borough-law prominence
+- ecclesiastical patronage
+- surviving built sites
+- eventual estate sale and dispersal
 
-#### G32 Hugh de Gournay IV (Senior Baron Line) — individual geography
+That is why the county deserves a richer umbrella file than Essex, Suffolk, or the more distant county-level records. It is the one English county that truly functions as a full-spectrum family landscape. [DG-I] [DG-II]
 
-- `locationId`: `loc-8194ade69106`
-- `recordId`: `collateral-g32-hugh-de-gournay-iv-senior-baron-line`
-- `eventDate`: c. 1098 — d. 1180
-- `region`: England
-- `coordinates`: 52.678464101615134, 1.2787014957563323
-- `geocodeBasis`: county centroid
-- `confidence`: Low
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Norfolk
+## Open items
 
-#### G32 Hugh de Gournay IV (Senior Baron Line) — landholding / property reference
+- [ ] Add a compact chronological table of Norfolk phases with links to key manor/place files.
+- [ ] Pull direct extracts from Blomefield where he helps bridge multiple Norfolk places at once.
+- [ ] Consider whether Norwich deserves its own dedicated place file rather than only appearing through person companions and related place contexts.
 
-- `locationId`: `loc-7aca08f2d4ec`
-- `recordId`: `collateral-g32-hugh-de-gournay-iv-senior-baron-line`
-- `eventDate`: d. 1408 | c. 1098 — d. 1180 | c. 1040 — d. before 1104, Palestine | c. 1020 — d. c. 1093
-- `region`: England
-- `coordinates`: 52.675, 1.2885970084873355
-- `geocodeBasis`: county centroid
-- `confidence`: Low
-- Source / citation status: explicit citation text present in inherited note
-- Inherited note / quote: Total estate at death: 8 manors in Norfolk + 1 in Suffolk (History of Parliament). || Three knights' fees in Norfolk (documented Pipe Rolls). || Norfolk manors inherited from Hugh III (Gen.27) then expanded through Edith de Warenne marriage connection. || Norfolk manors (granted post-Conquest, specific parcels documented in Daniel Gurney's Record as chiefly in Norfolk and Suffolk).
+## Sources
 
-#### G33 Hugh de Gournay III — individual geography
+- Daniel Gurney, *Record of the House of Gournay*, Part I (1848). [DG-I]
+- DG-II (later medieval and early modern family material). [DG-II]
+- `research/people/g23-edmund-gurney-fact-sheet.research.md`
+- `research/people/g15-henry-gurney-fact-sheet.research.md`
+- `research/people/g22-robert-gournay-fact-sheet.research.md`
+- `research/places/west-barsham.md`
+- `research/places/harpley.md`
+- `research/places/hardingham.md`
+- `research/places/hardingham.md`
+- `research/places/runhall.md`
+- `research/places/hardingham.md`
+- `research/places/caister-on-sea.md`
+- `research/places/cantley.md`
+- `research/places/lessingham.md`
+- `research/places/hingham-norfolk.md`
+- `research/places/great-ellingham.md`
+- `research/places/attleborough.md`
+- `research/places/kings-lynn.md`
 
-- `locationId`: `loc-0174a9386d0f`
-- `recordId`: `ancestor-g33-hugh-de-gournay-iii`
-- `eventDate`: c. 1020 — d. c. 1093
-- `region`: England
-- `coordinates`: 52.67153589838486, 1.2787014957563323
-- `geocodeBasis`: county centroid
-- `confidence`: Low
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Norfolk
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
 
-#### G33 Hugh de Gournay III — landholding / property reference
+- `placeId`: `place-norfolk-england`
+- Short description: Regional holdings context
+- Place type: region
+- Aliases: Norfolk
+- Coordinate: 52.675, 1.289 (low)
+- Roles: landholding / property reference, individual geography
+- Detail: County-level umbrella record for dispersed Norfolk holdings; use individual manor and village files for site-specific work.
 
-- `locationId`: `loc-c4a062ccdc66`
-- `recordId`: `ancestor-g33-hugh-de-gournay-iii`
-- `eventDate`: d. 1408 | c. 1098 — d. 1180 | c. 1040 — d. before 1104, Palestine | c. 1020 — d. c. 1093
-- `region`: England
-- `coordinates`: 52.675, 1.2885970084873355
-- `geocodeBasis`: county centroid
-- `confidence`: Low
-- Source / citation status: explicit citation text present in inherited note
-- Inherited note / quote: Total estate at death: 8 manors in Norfolk + 1 in Suffolk (History of Parliament). || Three knights' fees in Norfolk (documented Pipe Rolls). || Norfolk manors inherited from Hugh III (Gen.27) then expanded through Edith de Warenne marriage connection. || Norfolk manors (granted post-Conquest, specific parcels documented in Daniel Gurney's Record as chiefly in Norfolk and Suffolk).
+### Linked ancestors
 
-### Crosslinks
+- G22 Robert Gournay — landholding / property reference, individual geography
+- G23 Sir John Gurney, Knt. (d.1408) — Collateral — landholding / property reference, individual geography
+- G31 Walter de Gournay — individual geography
+- G32 Gerard de Gournay — landholding / property reference
+- G32 Hugh de Gournay IV (Senior Baron Line) — landholding / property reference, individual geography
+- G33 Hugh de Gournay III — landholding / property reference, individual geography
 
-- `data/ancestors v24.json` → `G22` / `Robert Gournay`
-- `data/ancestors v24.json` → `G23` / `Sir John Gurney, Knt. (d.1408) — Collateral`
-- `data/ancestors v24.json` → `G31` / `Walter de Gournay`
-- `data/ancestors v24.json` → `G32` / `Gerard de Gournay`
-- `data/ancestors v24.json` → `G32` / `Hugh de Gournay IV (Senior Baron Line)`
-- `data/ancestors v24.json` → `G33` / `Hugh de Gournay III`
+### Review notes
 
-<!-- GENERATED:LOCATION-REGISTRY:END -->
+- Regional umbrella record, not a single site.
 
-## Research notes
-
-- This file is intentionally compatible with a later normalization pass where multiple extracted registry entries can be merged into a canonical place record.
-- Formal `sourceId` linkage has not yet been imposed here. Inherited quotations and URLs are preserved to reduce loss during migration.
+<!-- GENERATED:PLACE-REGISTRY:END -->

@@ -22,8 +22,8 @@
     "children": [],
     "buttons": [],
     "recordId": "collateral-g0-soren-and-ebba-gurney",
-    "locationRefs": [
-      "loc-41bb261af56c"
+    "placeRefs": [
+      "place-dexter-michigan-usa"
     ]
   },
   {
@@ -41,10 +41,10 @@
     "children": [],
     "buttons": [],
     "recordId": "ancestor-g1-allen-lawrence-gurney",
-    "locationRefs": [
-      "loc-da34c9847ad1",
-      "loc-8beaa2c87049",
-      "loc-16e5a2351f24"
+    "placeRefs": [
+      "place-marion-indiana-usa",
+      "place-portland-oregon-usa",
+      "place-st-louis-missouri-usa"
     ]
   },
   {
@@ -62,10 +62,10 @@
     "children": [],
     "buttons": [],
     "recordId": "collateral-g1-ken-gurney-allens-brother",
-    "locationRefs": [
-      "loc-cfce96b4338c",
-      "loc-5407c47a0852",
-      "loc-a21a78e3929f"
+    "placeRefs": [
+      "place-dexter-michigan-usa",
+      "place-indianapolis-indiana-usa",
+      "place-marion-indiana-usa"
     ]
   },
   {
@@ -94,10 +94,10 @@
     ],
     "buttons": [],
     "recordId": "ancestor-g2-lester-hayes-gurney",
-    "locationRefs": [
-      "loc-f0df54bc3e89",
-      "loc-22b8d35db15f",
-      "loc-a90b03ee97a0"
+    "placeRefs": [
+      "place-fort-wayne-indiana-usa",
+      "place-marion-indiana-usa",
+      "place-port-washington-new-york-usa"
     ]
   },
   {
@@ -121,8 +121,8 @@
     ],
     "buttons": [],
     "recordId": "ancestor-g3-lester-sawyer-gurney-iii",
-    "locationRefs": [
-      "loc-99fb0d3103b4"
+    "placeRefs": [
+      "place-new-york-metropolitan-area-usa"
     ]
   },
   {
@@ -154,8 +154,8 @@
     ],
     "buttons": [],
     "recordId": "ancestor-g4-lester-sawyer-gurney-jr",
-    "locationRefs": [
-      "loc-3ff0381f2cfe"
+    "placeRefs": [
+      "place-new-york-metropolitan-area-usa"
     ]
   },
   {
@@ -179,9 +179,8 @@
     ],
     "buttons": [],
     "recordId": "ancestor-g5-lester-sawyer-gurney",
-    "locationRefs": [
-      "loc-f4267a15234f",
-      "loc-fe8da3904aea"
+    "placeRefs": [
+      "place-new-york-metropolitan-area-usa"
     ]
   },
   {
@@ -246,17 +245,15 @@
       }
     ],
     "recordId": "ancestor-g6-brigadier-general-william-gurney",
-    "locationRefs": [
-      "loc-9d99cd12c3d7",
-      "loc-eabf7d5ce399",
-      "loc-966ca8fc84f4",
-      "loc-7b33b98cfa73",
-      "loc-295903f86cd7",
-      "loc-bd37a48fa2bb",
-      "loc-a2cf8ad17bc8",
-      "loc-185d47ebfd71",
-      "loc-749e6725cc12",
-      "loc-589e6dc5656e"
+    "placeRefs": [
+      "place-15-avenue-c-manhattan-new-york-usa",
+      "place-155-henry-street-manhattan-new-york-usa",
+      "place-177-west-48th-street-manhattan-new-york-usa",
+      "place-231-fifth-avenue-manhattan-new-york-usa",
+      "place-54-hudson-street-manhattan-new-york-usa",
+      "place-55-pike-street-manhattan-new-york-usa",
+      "place-charleston-south-carolina-usa",
+      "place-flushing-queens-new-york-usa"
     ]
   },
   {
@@ -323,10 +320,9 @@
     ],
     "buttons": [],
     "recordId": "ancestor-g7-willis-gurney",
-    "locationRefs": [
-      "loc-e1404e3a4a78",
-      "loc-7f7d57cd9896",
-      "loc-45f01750e6a9"
+    "placeRefs": [
+      "place-cummington-massachusetts-usa",
+      "place-flushing-queens-new-york-usa"
     ]
   },
   {
@@ -368,10 +364,9 @@
     ],
     "buttons": [],
     "recordId": "ancestor-g8-amos-gurney",
-    "locationRefs": [
-      "loc-2c84ee0c587c",
-      "loc-f5129b748ec6",
-      "loc-9e166351e142"
+    "placeRefs": [
+      "place-bridgewater-massachusetts-usa",
+      "place-cummington-massachusetts-usa"
     ]
   },
   {
@@ -404,21 +399,14 @@
     ],
     "buttons": [],
     "recordId": "ancestor-g9-benjamin-gurney",
-    "locationRefs": [
-      "loc-f3e97701fc6c",
-      "loc-e039d0cf0366",
-      "loc-239035dc9efb",
-      "loc-513baf632ae5",
-      "loc-56dcd56235b0",
-      "loc-ae738517612a",
-      "loc-d08751f5b3ee",
-      "loc-eac71f81af65",
-      "loc-b777d702a841",
-      "loc-c5be41306007",
-      "loc-37ba9284a104",
-      "loc-0c466afdbe66",
-      "loc-716daa8d72e7",
-      "loc-46c7d940da52"
+    "placeRefs": [
+      "place-abington-massachusetts-usa",
+      "place-abington-whitman-line-massachusetts-usa",
+      "place-bridgewater-massachusetts-usa",
+      "place-cummington-massachusetts-usa",
+      "place-middleborough-massachusetts-usa",
+      "place-rochester-massachusetts-usa",
+      "place-weymouth-massachusetts-usa"
     ]
   },
   {
@@ -460,21 +448,14 @@
     ],
     "buttons": [],
     "recordId": "ancestor-g10-benjamin-gurney",
-    "locationRefs": [
-      "loc-242c41559eb0",
-      "loc-73a0cb60e81b",
-      "loc-3e13bbf107ec",
-      "loc-d3a225f1881b",
-      "loc-9898a35c4605",
-      "loc-1a1d33bb2456",
-      "loc-dc05ea2f05a4",
-      "loc-cebe60897d53",
-      "loc-555d7531a316",
-      "loc-1acf13299bcb",
-      "loc-2395e913ead8",
-      "loc-72bc57a6b19e",
-      "loc-00d80c04ea56",
-      "loc-b77282c1d714"
+    "placeRefs": [
+      "place-abington-massachusetts-usa",
+      "place-abington-whitman-line-massachusetts-usa",
+      "place-bridgewater-massachusetts-usa",
+      "place-cummington-massachusetts-usa",
+      "place-middleborough-massachusetts-usa",
+      "place-rochester-massachusetts-usa",
+      "place-weymouth-massachusetts-usa"
     ]
   },
   {
@@ -503,21 +484,14 @@
     ],
     "buttons": [],
     "recordId": "ancestor-g11-benjamin-gurney",
-    "locationRefs": [
-      "loc-93c18e279914",
-      "loc-bb126c912713",
-      "loc-272c131a14c3",
-      "loc-1568b529ea32",
-      "loc-587c6e1e609b",
-      "loc-1430fdbe678b",
-      "loc-f175dc56e7f2",
-      "loc-67ef02d1aa9d",
-      "loc-06877b17f4fe",
-      "loc-6d2d0342adab",
-      "loc-a9902e809048",
-      "loc-b589167bf2d8",
-      "loc-12181ed8517c",
-      "loc-545089de49c4"
+    "placeRefs": [
+      "place-abington-massachusetts-usa",
+      "place-abington-whitman-line-massachusetts-usa",
+      "place-bridgewater-massachusetts-usa",
+      "place-cummington-massachusetts-usa",
+      "place-middleborough-massachusetts-usa",
+      "place-rochester-massachusetts-usa",
+      "place-weymouth-massachusetts-usa"
     ]
   },
   {
@@ -554,11 +528,9 @@
     ],
     "buttons": [],
     "recordId": "ancestor-g12-richard-gurney",
-    "locationRefs": [
-      "loc-364ead652ca1",
-      "loc-d55cdb04778e",
-      "loc-680fa43c4a7c",
-      "loc-b65c8f6242af"
+    "placeRefs": [
+      "place-bridgewater-massachusetts-usa",
+      "place-weymouth-massachusetts-usa"
     ]
   },
   {
@@ -637,12 +609,10 @@
       }
     ],
     "recordId": "ancestor-g13-john-gurney-1",
-    "locationRefs": [
-      "loc-ded267f1298a",
-      "loc-31ad0ced6d3b",
-      "loc-bffe8b713d50",
-      "loc-f626bbd39326",
-      "loc-ee118c7f9730"
+    "placeRefs": [
+      "place-braintree-massachusetts-usa",
+      "place-mendon-massachusetts-usa",
+      "place-weymouth-massachusetts-usa"
     ]
   },
   {
@@ -739,12 +709,10 @@
       }
     ],
     "recordId": "ancestor-g14-francis-gurney",
-    "locationRefs": [
-      "loc-86391a566aab",
-      "loc-86402b409b4e",
-      "loc-66b73f513876",
-      "loc-2f7cde3a94a4",
-      "loc-22318caf866b"
+    "placeRefs": [
+      "place-city-of-london-england",
+      "place-kings-lynn-norfolk-england",
+      "place-west-barsham-norfolk-england"
     ]
   },
   {
@@ -793,17 +761,13 @@
       }
     ],
     "recordId": "ancestor-g15-henry-gurney",
-    "locationRefs": [
-      "loc-102c043c30cc",
-      "loc-471f454190c9",
-      "loc-e1058031427e",
-      "loc-de804bff6e45",
-      "loc-72eba098e79a",
-      "loc-909582772601",
-      "loc-4304ce72ec23",
-      "loc-bee895f436aa",
-      "loc-79c99633c837",
-      "loc-d863c444bdcd"
+    "placeRefs": [
+      "place-attleborough-norfolk-england",
+      "place-great-ellingham-norfolk-england",
+      "place-harpley-norfolk-england",
+      "place-hingham-norfolk-england",
+      "place-irstead-norfolk-england",
+      "place-west-barsham-norfolk-england"
     ]
   },
   {
@@ -839,12 +803,10 @@
       }
     ],
     "recordId": "ancestor-g16-francis-gurney",
-    "locationRefs": [
-      "loc-83f1ad9e5046",
-      "loc-6987db367a4d",
-      "loc-998313846d44",
-      "loc-1fcb4794de18",
-      "loc-b74a91ec7735"
+    "placeRefs": [
+      "place-great-ellingham-norfolk-england",
+      "place-irstead-norfolk-england",
+      "place-west-barsham-norfolk-england"
     ]
   },
   {
@@ -879,13 +841,11 @@
       }
     ],
     "recordId": "ancestor-g17-anthony-gurney",
-    "locationRefs": [
-      "loc-8ebc923d73ff",
-      "loc-ae21acb4a4ce",
-      "loc-17bfb9763892",
-      "loc-fd4899fe8139",
-      "loc-c145417645c5",
-      "loc-de5cd0ca64d5"
+    "placeRefs": [
+      "place-great-ellingham-norfolk-england",
+      "place-hingham-norfolk-england",
+      "place-irstead-norfolk-england",
+      "place-west-barsham-norfolk-england"
     ]
   },
   {
@@ -920,11 +880,10 @@
       }
     ],
     "recordId": "ancestor-g18-william-gurney-v",
-    "locationRefs": [
-      "loc-ca7190f450cf",
-      "loc-33fd2d4d5aab",
-      "loc-7aa954c6274e",
-      "loc-b0954a21de86"
+    "placeRefs": [
+      "place-hardingham-norfolk-england",
+      "place-hingham-norfolk-england",
+      "place-irstead-norfolk-england"
     ]
   },
   {
@@ -967,11 +926,9 @@
       }
     ],
     "recordId": "ancestor-g19-william-gurney-iv",
-    "locationRefs": [
-      "loc-2c4e8b2e9481",
-      "loc-b13b72bb30ed",
-      "loc-c37021d9cf4b",
-      "loc-fb4aa2b7ca86"
+    "placeRefs": [
+      "place-burnham-thorpe-norfolk-england",
+      "place-west-barsham-norfolk-england"
     ]
   },
   {
@@ -1006,10 +963,9 @@
       }
     ],
     "recordId": "ancestor-g20-thomas-gournay-ii",
-    "locationRefs": [
-      "loc-42e974f8b3a3",
-      "loc-0c9ab6dd5059",
-      "loc-0fe89bc86b99"
+    "placeRefs": [
+      "place-harpley-norfolk-england",
+      "place-west-barsham-norfolk-england"
     ]
   },
   {
@@ -1044,10 +1000,9 @@
       }
     ],
     "recordId": "ancestor-g21-thomas-gournay-i",
-    "locationRefs": [
-      "loc-b06470608458",
-      "loc-f952e2be8452",
-      "loc-789808db1273"
+    "placeRefs": [
+      "place-harpley-norfolk-england",
+      "place-west-barsham-norfolk-england"
     ]
   },
   {
@@ -1082,9 +1037,8 @@
       }
     ],
     "recordId": "ancestor-g22-robert-gournay",
-    "locationRefs": [
-      "loc-9a12e12dfe9c",
-      "loc-47cb9be78e52"
+    "placeRefs": [
+      "place-norfolk-england"
     ]
   },
   {
@@ -1124,14 +1078,11 @@
       }
     ],
     "recordId": "ancestor-g23-edmund-gurney",
-    "locationRefs": [
-      "loc-6b91d25e660b",
-      "loc-f9d8c2ca3dc4",
-      "loc-c2956aea2ab1",
-      "loc-a46f9e470b56",
-      "loc-8e6b910b2da5",
-      "loc-8268cb532492",
-      "loc-03a40365a0da"
+    "placeRefs": [
+      "place-hardingham-norfolk-england",
+      "place-harpley-norfolk-england",
+      "place-kings-lynn-norfolk-england",
+      "place-west-barsham-norfolk-england"
     ]
   },
   {
@@ -1160,19 +1111,14 @@
     ],
     "buttons": [],
     "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
-    "locationRefs": [
-      "loc-dcfcfd00749c",
-      "loc-657c39971416",
-      "loc-bf534faa0f50",
-      "loc-141d135ae6c7",
-      "loc-9cc4392538ee",
-      "loc-1881eae44573",
-      "loc-408f6774352f",
-      "loc-33b7b24cb789",
-      "loc-b6a6b2d2fb9c",
-      "loc-60362f5738a7",
-      "loc-774e86b48234",
-      "loc-9e8bdb002f30"
+    "placeRefs": [
+      "place-city-of-london-england",
+      "place-hardingham-norfolk-england",
+      "place-harpley-norfolk-england",
+      "place-hellesdon-norfolk-england",
+      "place-norfolk-england",
+      "place-saxthorpe-norfolk-england",
+      "place-west-barsham-norfolk-england"
     ]
   },
   {
@@ -1210,10 +1156,9 @@
       }
     ],
     "recordId": "ancestor-g24-john-de-gournay-iv",
-    "locationRefs": [
-      "loc-0303d3c9d973",
-      "loc-3382f19e18b8",
-      "loc-faa6f7ff61df"
+    "placeRefs": [
+      "place-hardingham-norfolk-england",
+      "place-harpley-norfolk-england"
     ]
   },
   {
@@ -1248,10 +1193,9 @@
       }
     ],
     "recordId": "ancestor-g25-john-de-gournay-iii",
-    "locationRefs": [
-      "loc-7e4ab7d840ad",
-      "loc-23bd4973fe9e",
-      "loc-18435b7999a0"
+    "placeRefs": [
+      "place-hardingham-norfolk-england",
+      "place-harpley-norfolk-england"
     ]
   },
   {
@@ -1290,10 +1234,9 @@
       }
     ],
     "recordId": "ancestor-g26-sir-william-de-gournay-iii-knt",
-    "locationRefs": [
-      "loc-ad30c4385693",
-      "loc-d2472d603c9f",
-      "loc-34caa736bac9"
+    "placeRefs": [
+      "place-hardingham-norfolk-england",
+      "place-harpley-norfolk-england"
     ]
   },
   {
@@ -1323,11 +1266,10 @@
       }
     ],
     "recordId": "ancestor-g27-sir-john-de-gournay-i-knt",
-    "locationRefs": [
-      "loc-312ab9aadcb0",
-      "loc-e2f1969ef0d9",
-      "loc-ea8ecdf06dbe",
-      "loc-47c0b9d53bd7"
+    "placeRefs": [
+      "place-hardingham-norfolk-england",
+      "place-harpley-norfolk-england",
+      "place-lewes-sussex-england"
     ]
   },
   {
@@ -1357,10 +1299,9 @@
       }
     ],
     "recordId": "ancestor-g28-william-de-gournay-ii",
-    "locationRefs": [
-      "loc-df8321dc4035",
-      "loc-c8b74e7e1779",
-      "loc-29997742e305"
+    "placeRefs": [
+      "place-hardingham-norfolk-england",
+      "place-harpley-norfolk-england"
     ]
   },
   {
@@ -1395,12 +1336,10 @@
       }
     ],
     "recordId": "ancestor-g29-matthew-de-gournay",
-    "locationRefs": [
-      "loc-29ca378d7d3c",
-      "loc-76b7e891bca3",
-      "loc-667d33611bba",
-      "loc-a0b140659ba0",
-      "loc-1760096472ae"
+    "placeRefs": [
+      "place-hardingham-norfolk-england",
+      "place-harpley-norfolk-england",
+      "place-runhall-norfolk-england"
     ]
   },
   {
@@ -1430,11 +1369,10 @@
       }
     ],
     "recordId": "ancestor-g30-william-de-gournay-i",
-    "locationRefs": [
-      "loc-ffb47d5a9277",
-      "loc-c9eca26deb85",
-      "loc-1d7a53517860",
-      "loc-bd99b54730e1"
+    "placeRefs": [
+      "place-hardingham-norfolk-england",
+      "place-montigny-sur-andelle-normandy-france",
+      "place-runhall-norfolk-england"
     ]
   },
   {
@@ -1464,10 +1402,10 @@
       }
     ],
     "recordId": "ancestor-g31-walter-de-gournay",
-    "locationRefs": [
-      "loc-6ff3f4423f86",
-      "loc-40bf0bf41e8c",
-      "loc-7f59a77bd453"
+    "placeRefs": [
+      "place-hardingham-norfolk-england",
+      "place-norfolk-england",
+      "place-suffolk-england"
     ]
   },
   {
@@ -1519,14 +1457,12 @@
       }
     ],
     "recordId": "ancestor-g32-gerard-de-gournay",
-    "locationRefs": [
-      "loc-a3bc48855c48",
-      "loc-44c2a8c734e7",
-      "loc-8b5d43ba6ab3",
-      "loc-a7ded23222e8",
-      "loc-29726ab37431",
-      "loc-2e7fc66053ce",
-      "loc-1c8fdd2fb00e"
+    "placeRefs": [
+      "place-caister-on-sea-norfolk-england",
+      "place-cantley-norfolk-england",
+      "place-gournay-en-bray-normandy-france",
+      "place-lessingham-norfolk-england",
+      "place-norfolk-england"
     ]
   },
   {
@@ -1565,16 +1501,13 @@
       }
     ],
     "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
-    "locationRefs": [
-      "loc-a7fbcce4dbe9",
-      "loc-55fb829abece",
-      "loc-8194ade69106",
-      "loc-53df2a004005",
-      "loc-df79a088e891",
-      "loc-7aca08f2d4ec",
-      "loc-3ee2021b8537",
-      "loc-59b857e396af",
-      "loc-02b726b4300f"
+    "placeRefs": [
+      "place-bedfordshire-england",
+      "place-buckinghamshire-england",
+      "place-gournay-en-bray-normandy-france",
+      "place-norfolk-england",
+      "place-normandy-france",
+      "place-oxfordshire-england"
     ]
   },
   {
@@ -1604,13 +1537,11 @@
       }
     ],
     "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
-    "locationRefs": [
-      "loc-d2b36bd4b0c2",
-      "loc-e0a6c1dcaf65",
-      "loc-9da710139bb5",
-      "loc-093890b8ccb5",
-      "loc-b1314df75508",
-      "loc-87ce781270cc"
+    "placeRefs": [
+      "place-flegg-norfolk-england",
+      "place-gournay-en-bray-normandy-france",
+      "place-normandy-france",
+      "place-oxfordshire-england"
     ]
   },
   {
@@ -1640,16 +1571,14 @@
       }
     ],
     "recordId": "ancestor-g33-hugh-de-gournay-iii",
-    "locationRefs": [
-      "loc-335080a49c04",
-      "loc-6647ddf92595",
-      "loc-0174a9386d0f",
-      "loc-c4a062ccdc66",
-      "loc-73bf3c215970",
-      "loc-125cd44592c1",
-      "loc-6651bd41f21e",
-      "loc-9d0fb5e64bc4",
-      "loc-5a1138a4893c"
+    "placeRefs": [
+      "place-ardleigh-essex-england",
+      "place-essex-england",
+      "place-fordham-essex-england",
+      "place-gournay-en-bray-normandy-france",
+      "place-le-bec-hellouin-normandy-france",
+      "place-liston-essex-england",
+      "place-norfolk-england"
     ]
   },
   {
@@ -1679,9 +1608,8 @@
       }
     ],
     "recordId": "ancestor-g34-hugh-de-gournay-ii",
-    "locationRefs": [
-      "loc-949f69d5cd69",
-      "loc-4db58edf69cc"
+    "placeRefs": [
+      "place-gournay-en-bray-normandy-france"
     ]
   },
   {
@@ -1716,10 +1644,9 @@
       }
     ],
     "recordId": "ancestor-g35-renaud-de-gournay",
-    "locationRefs": [
-      "loc-adbbcfcebcb4",
-      "loc-d911a765999c",
-      "loc-e1ff14f38f9a"
+    "placeRefs": [
+      "place-gournay-en-bray-normandy-france",
+      "place-la-ferte-en-bray-normandy-france"
     ]
   },
   {
@@ -1749,9 +1676,8 @@
       }
     ],
     "recordId": "ancestor-g36-hugh-de-gournay-i",
-    "locationRefs": [
-      "loc-600ccf59e23e",
-      "loc-626e7f0d6965"
+    "placeRefs": [
+      "place-gournay-en-bray-normandy-france"
     ]
   },
   {
@@ -1789,11 +1715,9 @@
       }
     ],
     "recordId": "ancestor-g-37-eudes-odon-de-gournay",
-    "locationRefs": [
-      "loc-f7fdf9603805",
-      "loc-06b9cd803713",
-      "loc-4ba2e81330dc",
-      "loc-ad28e8477fd4"
+    "placeRefs": [
+      "place-gournay-en-bray-normandy-france",
+      "place-scandinavia"
     ]
   },
   {
@@ -1825,8 +1749,8 @@
     ],
     "buttons": [],
     "recordId": "ancestor-g-38-unknown-scandinavian-ancestors",
-    "locationRefs": [
-      "loc-a2c9809db5d0"
+    "placeRefs": [
+      "place-scandinavia"
     ]
   }
 ]

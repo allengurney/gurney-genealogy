@@ -1,82 +1,71 @@
 # Normandy, France
 
-Structured place-memory file combining prior narrative research with extracted registry entries.
+Regional umbrella record for Norman holdings and contexts that are real to the research but not yet best represented by a tighter single locality.
 
-## Genealogical significance
+## Significance
 
-This file now serves as the place-level aggregation point for structured location and landholding entries extracted from the ancestor registry. Narrative interpretation, source cleanup, negative-result research, and archival notes can be layered above or below the generated registry block over time.
+This file is intentionally an **umbrella record**, not a manor, town, priory, or battlefield record. The project now has specific place files for major Norman sites such as Gournay-en-Bray, La Ferté-en-Bray, Le Bec-Hellouin, Montigny-sur-Andelle, and the newly added **Beauvaisis frontier acquisitions** note for Hugh III's "24 villages" expansion zone. But some references in the source material still remain at a broader Norman scale, especially for the later senior-baron line and for holdings or activities that have not yet been cleanly split into a more precise site record.
 
-<!-- GENERATED:LOCATION-REGISTRY:START -->
-## Structured location registry
+The JSON normalization therefore treats Normandy as a **regional holdings context** only. That is why the structured layer no longer uses a site-specific status or named sub-site here. If future source review shows that one of the remaining Normandy references really belongs under a more precise place — for example Clairruissel, Rouen, or another priory/manor — that material should be moved out of this umbrella record and into its own file. [DG-I] [Hannay]
 
-Derived from `data/ancestors v23.json` and intended as the bridge layer to `data/locations.json` / `data/ancestors v24.json`.
+## Current use in the project
 
-### Place summary
+At present, this record mainly serves to hold broad Norman references linked to the senior baron line after the direct line has already diverged into Norfolk. It is a convenience for navigation and structured continuity, not a claim that "Normandy" itself functioned as a single place in the way that Gournay-en-Bray did.
 
-- Registry entries: **4**
-- Linked records: G32 Hugh de Gournay IV (Senior Baron Line), G32 Hugh de Gournay V (Senior Baron Line)
-- Named sub-sites: Bellosanne Abbey, Clairruissel Priory
+That now includes one especially useful distinction: the library treats the **Beauvaisis / 24 villages** material as a **territorial acquisition block**, not as a single village or a county-level abstraction. That keeps the regional geography cleaner: Normandy remains the umbrella, while the acquisition zone gets its own aggregate research-place note. [Beauvaisis acquisitions file]
 
-### Registry entries
+## Related place logic inside the Norman set
 
-#### G32 Hugh de Gournay IV (Senior Baron Line) — individual geography
+The current Norman place set now works best if read at several scales:
 
-- `locationId`: `loc-53df2a004005`
-- `recordId`: `collateral-g32-hugh-de-gournay-iv-senior-baron-line`
-- `eventDate`: c. 1098 — d. 1180
-- `region`: France
-- `coordinates`: 49.1829, 0.3638804843388574
-- `geocodeBasis`: regional centroid
-- `confidence`: Low
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Normandy
+- **Gournay-en-Bray** — ancestral seat and frontier honour [Gournay file]
+- **La Ferté-en-Bray** — earliest documentary naming-place for the family [La Ferté file]
+- **Le Bec-Hellouin** — ecclesiastical patronage and burial place [Bec file]
+- **Montigny-sur-Andelle** — proof-place for junior-line blood descent [Montigny file]
+- **Beauvaisis frontier acquisitions** — reconstructed territorial expansion zone east / south-east of the seat [Beauvaisis acquisitions file]
+- **Normandy** — umbrella record for broader or still-unsplit Norman material
 
-#### G32 Hugh de Gournay IV (Senior Baron Line) — landholding / property reference
+That layered structure is a better fit to the evidence than trying to force everything into either a single seat-place or a county-scale abstraction.
 
-- `locationId`: `loc-02b726b4300f`
-- `recordId`: `collateral-g32-hugh-de-gournay-iv-senior-baron-line`
-- `eventDate`: c. 1098 — d. 1180
-- `siteName`: Clairruissel Priory
-- `region`: France
-- `coordinates`: 49.654653, 1.611621
-- `geocodeBasis`: approximate former priory vicinity
-- `confidence`: Medium
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Clairruissel Priory, Normandy — founded with second wife Melisende de Coucy.
+## Cleanup note
 
-#### G32 Hugh de Gournay V (Senior Baron Line) — individual geography
+Earlier normalization passes briefly carried a lingering site-specific artifact on this record. That has now been removed from the structured layer so that the file matches its intended purpose: **region-level context only**.
 
-- `locationId`: `loc-e0a6c1dcaf65`
-- `recordId`: `collateral-g32-hugh-de-gournay-v-senior-baron-line`
-- `eventDate`: c. 1148 — d. 25 Oct. 1214, Rouen
-- `region`: France
-- `coordinates`: 49.1829, 0.3761195156611426
-- `geocodeBasis`: regional centroid
-- `confidence`: Low
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Normandy
+## Open items
 
-#### G32 Hugh de Gournay V (Senior Baron Line) — landholding / property reference
+- [ ] Review whether any remaining Normandy-wide references for Hugh IV / Hugh V can be reassigned to a more precise site.
+- [ ] If Clairruissel Priory or another Norman site becomes important enough in the evidence, split it into its own place file rather than leaving it under this umbrella record.
+- [ ] Check whether Rouen should eventually be added as a separate place record for the 1214 endpoint of the senior baron line.
+- [ ] Revisit whether the Beauvaisis frontier block eventually justifies one or two individual village files, but only if the corpus develops them independently.
 
-- `locationId`: `loc-b1314df75508`
-- `recordId`: `collateral-g32-hugh-de-gournay-v-senior-baron-line`
-- `eventDate`: c. 1148 — d. 25 Oct. 1214, Rouen
-- `siteName`: Bellosanne Abbey
-- `region`: France
-- `coordinates`: 49.1829, 0.3761195156611426
-- `geocodeBasis`: regional centroid
-- `confidence`: Low
-- Source / citation status: no formal citation preserved in source JSON; inherited note retained verbatim
-- Inherited note / quote: Bellosanne Abbey, Normandy — founded 1198.
+## Sources
 
-### Crosslinks
+- Daniel Gurney, *Record of the House of Gournay*, Part I (1848). [DG-I]
+- James Hannay, *Three Hundred Years of a Norman House* (1867). [Hannay]
+- `research/places/gournay-en-bray.md`
+- `research/places/la-ferte-en-bray.md`
+- `research/places/le-bec-hellouin.md`
+- `research/places/montigny-sur-andelle.md`
+- `research/places/beauvaisis-frontier-acquisitions.md`
 
-- `data/ancestors v24.json` → `G32` / `Hugh de Gournay IV (Senior Baron Line)`
-- `data/ancestors v24.json` → `G32` / `Hugh de Gournay V (Senior Baron Line)`
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
 
-<!-- GENERATED:LOCATION-REGISTRY:END -->
+- `placeId`: `place-normandy-france`
+- Short description: Regional holdings context
+- Place type: region
+- Aliases: Normandy
+- Coordinate: 49.654653, 1.611621 (medium)
+- Roles: landholding / property reference, individual geography
+- Detail: Regional umbrella record for Norman holdings and priory contexts not yet assigned to a tighter single locality.
 
-## Research notes
+### Linked ancestors
 
-- This file is intentionally compatible with a later normalization pass where multiple extracted registry entries can be merged into a canonical place record.
-- Formal `sourceId` linkage has not yet been imposed here. Inherited quotations and URLs are preserved to reduce loss during migration.
+- G32 Hugh de Gournay IV (Senior Baron Line) — landholding / property reference, individual geography
+- G32 Hugh de Gournay V (Senior Baron Line) — landholding / property reference, individual geography
+
+### Review notes
+
+- Regional umbrella record, not a single site.
+
+<!-- GENERATED:PLACE-REGISTRY:END -->
