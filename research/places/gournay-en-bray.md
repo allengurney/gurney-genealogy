@@ -11,6 +11,7 @@ This is the **master Norman place record** for the family. In the place library 
 - **Le Bec-Hellouin** as the ecclesiastical and burial counterpart to the seat [Bec file]
 - **Montigny-sur-Andelle** as the proof-place for the junior Norfolk branch [Montigny file]
 - **Normandy** as a regional umbrella only when the evidence is too broad for a tighter place assignment [Normandy file]
+- **Beauvaisis frontier acquisitions** as the reconstructed east-bank / left-bank expansion zone associated with Hugh III's "24 villages" [Beauvaisis acquisitions file]
 
 That hierarchy matters because the source material itself tends to treat Gournay-en-Bray as more than just another locality. Hannay called it "a most important one" and argued that such a frontier honour would naturally have been entrusted early to a distinguished fighting-man of the sea-king stock. [Hannay]
 
@@ -38,6 +39,12 @@ With **Hugh de Gournay III**, the lordship moves from heroic frontier narrative 
 
 This is also the period in which the family's wider prestige becomes clearest. Hugh III's ties to Anselm, his standing around the Conqueror's court, and the later Bec relationship all make more sense when the frontier honour of Gournay is understood as one of the old and weighty Norman lordships rather than a minor place-name. [Hannay] [Bec file]
 
+## Hugh III and the Beauvaisis acquisitions
+
+The newly integrated geographic research also belongs here. Later historical tradition preserved by **Abbé J.-E. Decorde** treats Hugh III as the figure who seized or acquired **twenty-four villages / parishes in the Beauvaisis**, on the eastern / left-bank side of the Epte, with possession later confirmed by **Louis VII**. That tradition is now preserved in the library as an aggregate territorial note rather than twenty-four thin village files. [Beauvaisis acquisitions file]
+
+This matters because it reinforces the broader picture of the honour of Gournay as an **expanding frontier lordship**, not a fixed static seat. The place file for Gournay-en-Bray should therefore point outward not only to the older core around the town, but also to the reconstructed **Beauvaisis acquisition block** east and south-east of the seat.
+
 ## From Gerard to the extinction of the senior line
 
 The place stayed with the senior line through **Gerard de Gournay** and then through Hugh IV, Hugh V, and Hugh VI. The Allen line does **not** descend through these later lords of the seat; it descends through Gerard's younger son **Walter (G31)** into Norfolk. But the continuity of the seat through 1214 still matters because it marks the senior line's persistence as a Norman baronial house for roughly three centuries after Eudes. [DG-I] [Hannay]
@@ -52,7 +59,8 @@ That helps explain the family's recurrent appearance in:
 - military narrative
 - ecclesiastical patronage
 - English expansion after the Conquest
-- and aristocratic heraldic memory. [DG-I] [Hannay]
+- territorial growth into the Beauvaisis-side frontier zone
+- and aristocratic heraldic memory. [DG-I] [Hannay] [Beauvaisis acquisitions file]
 
 ## The church and the surviving site
 
@@ -86,6 +94,7 @@ The local-history tradition that Eudes was **"le chevalier à l'écu noir"** —
 - James Hannay, *Three Hundred Years of a Norman House* (1867), pp. 34–45 (founding & frontier context), 71–91 (Hugh II), 91–100 (Hugh III), 100–117 (Gerard). [Hannay]
 - John Gough Nichols, ed., *Herald and Genealogist*, vol. 3 (1866), p. 9. [Nichols-H&G-v3]
 - *Supplément aux recherches historiques sur la ville de Gournay-en-Bray* (1844) — French local history; see `sources/corpus/` and `data/sources.json` entry `gournay-en-bray-1844`.
+- Abbé J.-E. Decorde, *Essai historique et archéologique sur le Canton de Gournay* (1861). [Decorde 1861]
 - Wikipedia, "Gournay-en-Bray" (secondary — population, cheese, church).
 - "Les remparts de Gournay-en-Bray" (remparts-de-normandie.eklablog.com) — local tradition.
 
@@ -101,6 +110,7 @@ The local-history tradition that Eudes was **"le chevalier à l'écu noir"** —
 - `research/places/la-ferte-en-bray.md`
 - `research/places/le-bec-hellouin.md`
 - `research/places/normandy.md`
+- `research/places/beauvaisis-frontier-acquisitions.md`
 
 <!-- GENERATED:PLACE-REGISTRY:START -->
 ## Place registry
