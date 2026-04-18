@@ -1,0 +1,331 @@
+{
+  "type": "FeatureCollection",
+  "name": "hugh_de_gournay_reconstructed_holdings",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "properties": {
+    "title": "Approximate reconstructed holdings of Hugh de Gournay III",
+    "usage_note": "Historical research aid only; approximate modern-reference reconstruction.",
+    "derivation_summary": "Core polygon is an inferred schematic for the older Gournay lordship west/immediately around the Epte near Gournay-en-Bray. Acquisition polygon is a tighter schematic reconstruction of the Beauvaisis / '24 villages' block using the preserved place-list and modern anchor communes such as Saint-Quentin-des-Pres, Songeons, Loueuse, Sully, and Hericourt-sur-Therain. The Epte feature is schematic and not an exact river trace."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Older Gournay core",
+        "feature_type": "reconstructed_polygon",
+        "certainty": "medium-low",
+        "historical_basis": "Inferred from the pre-existing Gournay lordship prior to the Beauvaisis additions.",
+        "interpretation_note": "Approximate polygon for visualization and reuse."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.69,
+              49.555
+            ],
+            [
+              1.75,
+              49.555
+            ],
+            [
+              1.76,
+              49.47
+            ],
+            [
+              1.685,
+              49.47
+            ],
+            [
+              1.69,
+              49.555
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beauvaisis acquisitions / '24 villages'",
+        "feature_type": "reconstructed_polygon",
+        "certainty": "medium",
+        "historical_basis": "Reconstructed from the preserved 'Conquets Hue de Gournay' place-list and modern commune anchors.",
+        "listed_places_basis": [
+          "Auchy",
+          "Beaulevrier",
+          "Beaumont",
+          "Boimont",
+          "Doudeauville",
+          "Ferrieres",
+          "Foret",
+          "Haincourt",
+          "Hardencourt",
+          "Hericourt",
+          "Houssoye",
+          "Humermont",
+          "Hyancourt",
+          "Laudencourt",
+          "Loueuse",
+          "Molagnies",
+          "Mothois",
+          "Renicourt",
+          "Rosay",
+          "Saint-Quentin-des-Pres",
+          "Saint-Samson",
+          "Songeons",
+          "Sully",
+          "Torcy"
+        ],
+        "interpretation_note": "Not a surveyed medieval boundary; a compact modern-reference reconstruction."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.745,
+              49.61
+            ],
+            [
+              1.845,
+              49.606
+            ],
+            [
+              1.872,
+              49.545
+            ],
+            [
+              1.79,
+              49.505
+            ],
+            [
+              1.742,
+              49.512
+            ],
+            [
+              1.745,
+              49.61
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Epte frontier line",
+        "feature_type": "schematic_line",
+        "certainty": "low-medium",
+        "historical_basis": "Schematic orientation feature only."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.715,
+            49.6
+          ],
+          [
+            1.708,
+            49.548
+          ],
+          [
+            1.724,
+            49.521
+          ],
+          [
+            1.725,
+            49.483
+          ],
+          [
+            1.705,
+            49.44
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gournay-en-Bray",
+        "feature_type": "anchor_town",
+        "certainty": "high",
+        "historical_basis": "Modern reference point used to anchor the reconstruction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7246,
+          49.4827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ferrières-en-Bray",
+        "feature_type": "anchor_town",
+        "certainty": "high",
+        "historical_basis": "Modern reference point used to anchor the reconstruction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.748,
+          49.482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Molagnies",
+        "feature_type": "listed_place",
+        "certainty": "medium",
+        "historical_basis": "Modern reference point used to anchor the reconstruction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.724,
+          49.521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cuy-Saint-Fiacre",
+        "feature_type": "anchor_town",
+        "certainty": "high",
+        "historical_basis": "Modern reference point used to anchor the reconstruction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.699,
+          49.513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gancourt-Saint-Étienne",
+        "feature_type": "anchor_town",
+        "certainty": "high",
+        "historical_basis": "Modern reference point used to anchor the reconstruction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.708,
+          49.548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Quentin-des-Prés",
+        "feature_type": "listed_place",
+        "certainty": "medium",
+        "historical_basis": "Modern reference point used to anchor the reconstruction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.755,
+          49.5211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sully",
+        "feature_type": "listed_place",
+        "certainty": "medium",
+        "historical_basis": "Modern reference point used to anchor the reconstruction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7819,
+          49.5597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Héricourt-sur-Thérain",
+        "feature_type": "listed_place",
+        "certainty": "medium",
+        "historical_basis": "Modern reference point used to anchor the reconstruction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7614,
+          49.5831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Songeons",
+        "feature_type": "listed_place",
+        "certainty": "medium",
+        "historical_basis": "Modern reference point used to anchor the reconstruction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8549,
+          49.5478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Loueuse",
+        "feature_type": "listed_place",
+        "certainty": "medium",
+        "historical_basis": "Modern reference point used to anchor the reconstruction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8261,
+          49.5997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beauvais",
+        "feature_type": "orientation_city",
+        "certainty": "high",
+        "historical_basis": "Modern reference point used to anchor the reconstruction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0819,
+          49.43
+        ]
+      }
+    }
+  ]
+}
