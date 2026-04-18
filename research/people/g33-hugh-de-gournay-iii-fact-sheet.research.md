@@ -90,6 +90,8 @@ Notably, William de Warenne (Basilia's first husband's father's family? — no, 
 - Douglas Richardson, "Gournay Family Pedigree" (soc.genealogy.medieval, 19 Jan 2003). [Richardson-SGM]
 - Lewis C. Loyd, *The Origins of Some Anglo-Norman Families* (1951; repr. 1999), p. 47. [Loyd]
 
+- Anderson, James, *Genealogical History of the House of Yvery*, Vol. II (London, 1742), pp. 474–475: independently confirms Hugh III's Domesday holdings ("Lisiune, Earley, and Forham"), marriage to "Basil, the Daughter of Giraldus Flatellus, and Widow of Ralf de Wacry," and monastic retirement at Bec. Pre-dates DG by 106 years. [Anderson-Yvery]
+
 ### Sources to obtain
 - *Regesta Regum Anglo-Normannorum* (Bates, 1998) — verify the two Caen charter witness lists.
 - Orderic Vitalis, *Historia Ecclesiastica* — search for Hugh de Gournay entries.

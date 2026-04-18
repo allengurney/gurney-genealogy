@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-04-15",
+    "lastUpdated": "2026-04-18",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
@@ -53,13 +53,13 @@
     "dg-rec-supp": {
       "shortTitle": "DG Record, Supplement (1858)",
       "citation": "Gurney, Daniel. The Record of the House of Gournay, Supplement. London: Priv. print., 1858.",
-      "archive": "Project knowledge PDF (Record_of_the_House_of_Gurney_by_Daniel_Gurney-Supplement.pdf)",
+      "archive": "Google Books OCR scan",
       "url": null,
-      "corpusStatus": "none",
-      "corpusPath": null,
+      "corpusStatus": "full",
+      "corpusPath": "sources/corpus/daniel-gurney-supplement.md",
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Text extraction into corpus pending. Contains detailed notes supplementing all four parts."
+      "notes": "Text extracted April 2026 from Google Books OCR. 209 notes. OCR quality variable — Latin and French passages often garbled. Page markers: ## p. N ## where N = book page (725–1096). Key G37–G20 notes: 1 (name etymology), 6 (Caistor), 7 (fortifications/La Tour Hue), 8 (La Ferté charter), 9 (Hugh II charter witnesses), 10 (Cardiff death), 12 (Ausger), 13–14 (1076 Bec charter), 15–18 (Gerard), 104 (Walter proof), 105 (William I charter witness), 109 (Matthew death date correction), 116–118 (Edmund will), 123 (Thomas I wife)."
     },
     "dg-rye-appendix": {
       "shortTitle": "DG Rye Appendix",
@@ -71,6 +71,17 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "Rye's additions to the Supplement. Distinct from rye-norfolk-antiquarian (Rye's separate 1893 article). Text extraction pending."
+    },
+    "gournay-supp-reconstructed": {
+      "shortTitle": "Reconstructed Loose Supplement (Bernau, 1858)",
+      "citation": "Attributed to Chas. A. Bernau. Reconstructed loose supplement to Record of the House of Gournay, pp. 536a–536l. Original not digitally located; reconstruction by Allen Gurney based on antiquarian descriptions.",
+      "archive": "Project corpus",
+      "url": null,
+      "corpusStatus": "full",
+      "corpusPath": "sources/corpus/gournay-supplement-reconstructed-v2.md",
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Evidence-based reconstruction, not verbatim recovery. Covers the Gurneys of St. Benet Fink, London, and Maldon, Essex. Relevant primarily to G14 (Francis) and the London to Maldon to Norwich branch."
     },
     "rye-norfolk-antiquarian": {
       "shortTitle": "Rye, Norfolk Antiquarian — Gurneys of Norwich",
@@ -125,18 +136,18 @@
       "corpusPath": null,
       "mediaPath": "sources/media/parish-register/",
       "validationPath": null,
-      "notes": "Systematically reviewed. Five Francis Gurney baptisms identified (Entries A–E). Entry E: 'John son of [ffrancis Gurnie?]' — four-test paleographic analysis supports ffrancis over Nicholas. Margaret Rybett death revised to c.1616–17 based on 9-month impossibility test. Note: parish register image captures committed to sources/media/parish-register/ April 2026 (verify whether East Dereham or West Dereham — Allen's note used 'West Dereham' which may be a typo; the research has been East Dereham focused)."
+      "notes": "Systematically reviewed. Five Francis Gurney baptisms identified (Entries A–E). Entry E: 'John son of [ffrancis Gurnie?]' — four-test paleographic analysis supports ffrancis over Nicholas. Margaret Rybett death revised to c.1616–17 based on 9-month impossibility test."
     },
     "anderson-gmd-2015": {
       "shortTitle": "Anderson, Great Migration Directory",
-      "citation": "Anderson, Robert Charles. The Great Migration Directory: Immigrants to New England, 1620–1640: A Concise Compendium. Boston: NEHGS, 2015 (extract from p. 158 added April 2026 from 2025 reprint/edition).",
+      "citation": "Anderson, Robert Charles. The Great Migration Directory: Immigrants to New England, 1620–1640: A Concise Compendium. Boston: NEHGS, 2015.",
       "archive": "Project knowledge / corpus extract",
       "url": null,
       "corpusStatus": "partial",
       "corpusPath": "sources/corpus/The Great Migration Directory 2025 Page 158.txt",
       "mediaPath": null,
       "validationPath": "sources/validations/anderson-gmd-2015.md",
-      "notes": "John Gurney-1 entry. Assigns 'Unknown' English origin = implicit rejection of Banks's Bury St. Edmunds attribution under modern standards. Arrival date: 1636 — discrepancy with June 1641 Weymouth record; unresolved. Page 158 excerpt now in corpus (partial); full directory not extracted."
+      "notes": "John Gurney-1 entry. Assigns 'Unknown' English origin = implicit rejection of Banks's Bury St. Edmunds attribution under modern standards. Arrival date: 1636 — discrepancy with June 1641 Weymouth record; unresolved."
     },
     "banks-brownell-1937": {
       "shortTitle": "Banks/Brownell, Topographical Dictionary (1937)",
@@ -147,7 +158,7 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": "sources/validations/banks-brownell-1937.md",
-      "notes": "John Gurney-1 on p. 151 (Suffolk — Bury St. Edmunds). Source: 'Banks Mss.' only — no primary citation. East Anglian placement weakens Candidate A (Stewkley) more than Candidate B. Cluster analysis: surrounded by genuine BSE emigration group (Newgate, Chaplin, Knapp, Goodrich, Bright, Townsend, Atkinson, Cooke, Wright). Banks died before publication; Brownell edited. See validation file for full analysis."
+      "notes": "John Gurney-1 on p. 151 (Suffolk — Bury St. Edmunds). Source: 'Banks Mss.' only — no primary citation. East Anglian placement weakens Candidate A (Stewkley) more than Candidate B."
     },
     "blomefield-norfolk": {
       "shortTitle": "Blomefield, History of Norfolk",
@@ -158,7 +169,7 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Key parish entries: Harpley (vol. viii, pp.452–459), West Barsham (vol. vii, pp.42–47), Great Ellingham (vol. ii). Independently confirms multiple DG pedigree points."
+      "notes": "Key parish entries: Harpley (vol. viii, pp.452–459), West Barsham (vol. vii, pp.42–47), Great Ellingham (vol. ii), Hardingham (vol. x, p. 224), Hingham (vol. ii, p. 445). Independently confirms multiple DG pedigree points. Priority corpus extraction candidate for Norfolk ancestors G20–G27."
     },
     "hop-gurney": {
       "shortTitle": "History of Parliament Online — Gurney",
@@ -191,7 +202,7 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Brief secondary heraldic-genealogical pamphlet. Arms: Argent, a cross engrailed gules, quartering Gournay, Warren, and Barclay. Crests: 1st on a chapeau gules turned up ermine, a fish in pale head downwards; 2nd a wrestling collar or. Seat: Keswick, near Norwich. Used for heraldic and family-context reference."
+      "notes": "Brief secondary heraldic-genealogical pamphlet. Arms: Argent, a cross engrailed gules, quartering Gournay, Warren, and Barclay."
     },
     "hingham-register": {
       "shortTitle": "Hingham parish register",
@@ -246,7 +257,7 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Hugh de Gournay III (G33): Liston, Fordham, Ardleigh (Essex); Norfolk properties. Referenced in DG-I."
+      "notes": "Hugh de Gournay III (G33): Liston, Fordham, Ardleigh (Essex); Norfolk properties. Little Domesday vol. ii, p. 89 (per Morant). Referenced in DG-I."
     },
     "tag-10-70": {
       "shortTitle": "TAG 10:70–73",
@@ -257,7 +268,7 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": null,
-      "notes": "TIER 1 PULL — highest priority. Not yet obtained. Content unknown but flagged as significant for John Gurney-1. Cited by Anderson (GMD p. 158) — almost certainly the source of his 1636 arrival date."
+      "notes": "TIER 1 PULL — highest priority. Not yet obtained. Cited by Anderson (GMD p. 158) — almost certainly the source of his 1636 arrival date."
     },
     "nehgr-62-94": {
       "shortTitle": "NEHGR 62:94",
@@ -268,7 +279,7 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": null,
-      "notes": "TIER 1 PULL — highest priority. Not yet obtained. Cited by Anderson (GMD p. 158) — likely contains earliest published discussion of John Gurney-1's origin."
+      "notes": "TIER 1 PULL — highest priority. Not yet obtained. Cited by Anderson (GMD p. 158)."
     },
     "nichols-herald-v3": {
       "shortTitle": "Herald & Genealogist v3 p.9",
@@ -279,22 +290,22 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": "sources/validations/nichols-herald-v3.md",
-      "notes": "p. 9: heraldic note on Barons of Gournay arms (plain sable shield), citing DG p. 19. Secondary citation endorsing Daniel Gurney's heraldic authority. Vol. 4 (1867) searched thoroughly — no Gurney/Gournay content (first-class negative). Vols. 1, 2, 5–8 not yet exhaustively searched."
+      "notes": "p. 9: heraldic note on Barons of Gournay arms (plain sable shield), citing DG p. 19. Vols. 1, 2, 5–8 not yet exhaustively searched."
     },
     "heralds-visit-london-1633": {
       "shortTitle": "Heralds' Visitation London 1633",
-      "citation": "Heralds' Visitation of London, 1633. College of Arms, London. Certified copy by Charles George Young, York Herald, 4 May 1831.",
+      "citation": "Heralds' Visitation of London, 1633. College of Arms, London.",
       "archive": "College of Arms, London",
       "url": null,
       "corpusStatus": "none",
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Francis G14's own attestation of his pedigree and children. Transcribed in DG-III-524. PRIMARY SOURCE for Francis as 'of London, merchant, living a'o 1634' and son of Henry Gurney of Great Ellingham."
+      "notes": "Francis G14's own attestation of his pedigree and children. Transcribed in DG-III-524. PRIMARY SOURCE."
     },
     "heralds-visit-essex-1664": {
       "shortTitle": "Heralds' Visitation Essex 1664",
-      "citation": "Heralds' Visitation of Essex, 1664. College of Arms, London. Certified copy by Charles George Young, York Herald, 4 May 1831.",
+      "citation": "Heralds' Visitation of Essex, 1664. College of Arms, London.",
       "archive": "College of Arms, London",
       "url": null,
       "corpusStatus": "none",
@@ -312,7 +323,7 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Children of Francis G14 + Anne Browning: Dorothy 1619, Roger 1621, Frances 1626 (d. same year), Francis 1628, Lucretia 1630, Thomas 1636, Margaret 1637. Transcribed DG-III-525."
+      "notes": "Children of Francis G14 + Anne Browning. Transcribed DG-III-525."
     },
     "st-mary-maldon-register": {
       "shortTitle": "St Mary's Maldon register",
@@ -324,6 +335,116 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "Birth/baptism of John Gourney, 7 Oct / 30 Oct 1655. Ten children of Francis Gurney of Maldon listed in DG-III-537."
+    },
+    "dudo-historia": {
+      "shortTitle": "Dudo of Saint-Quentin, Historia Normannorum",
+      "citation": "Dudo of Saint-Quentin. De moribus et actis primorum Normanniae ducum. c. 996–1015. Ed. Jules Lair (Caen, 1865). English trans.: Eric Christiansen (Woodbridge: Boydell Press, 1998).",
+      "archive": "Internet Archive (Lair ed.); Boydell Press (Christiansen trans.)",
+      "url": "https://archive.org/details/bub_gb_FfoI_dZG8d0C",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Earliest Norman chronicle. Hagiographic propaganda for the ducal line — not reliable for early events. The 'funiculo divisit' passage (land division by rope) is cited in G37 fact sheet but does not name Eudes."
+    },
+    "fauroux-recueil": {
+      "shortTitle": "Fauroux, Recueil des actes des ducs de Normandie",
+      "citation": "Fauroux, Marie. Recueil des actes des ducs de Normandie de 911 à 1066. Mémoires de la Société des Antiquaires de Normandie, tome XXXVI. Caen, 1961.",
+      "archive": null,
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Standard charter collection for pre-Conquest ducal Normandy. Index search for Gournay/Gornai entries needed."
+    },
+    "loyd-origins": {
+      "shortTitle": "Loyd, Origins of Some Anglo-Norman Families",
+      "citation": "Loyd, Lewis C. The Origins of Some Anglo-Norman Families. Leeds: Harleian Society, 1951. Repr. Baltimore: Genealogical Publishing Company, 1999.",
+      "archive": null,
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "p. 47: Gournay family entry. Standard secondary source for the Anglo-Norman Gournay pedigree."
+    },
+    "keates-rohan-domesday": {
+      "shortTitle": "Keates-Rohan, Domesday People",
+      "citation": "Keates-Rohan, K. S. B. Domesday People: A Prosopography of Persons Occurring in English Documents, 1066–1166. Vol. 1. Woodbridge: Boydell Press, 1999.",
+      "archive": null,
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "p. 126: Geoffrey Talebot identified as Hugh de Gournay's Essex tenant."
+    },
+    "chronicon-beccensis": {
+      "shortTitle": "Chronicon Beccensis Abbatiæ",
+      "citation": "Chronicon Beccensis Abbatiæ (Chronicle of Bec Abbey).",
+      "archive": null,
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Records deaths of Basilia, Ansfride, and Eva at Bec on three consecutive Sundays in January 1099/1100. Primary source for Basilia's death date."
+    },
+    "morant-essex": {
+      "shortTitle": "Morant, History of Essex",
+      "citation": "Morant, Philip. The History and Antiquities of the County of Essex. 2 vols. London, 1768.",
+      "archive": null,
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Vol. ii, p. 31: Hugh de Gournai's Essex Domesday entries referenced to Little Domesday vol. ii, p. 89."
+    },
+    "regesta-rano": {
+      "shortTitle": "Regesta Regum Anglo-Normannorum (Bates)",
+      "citation": "Bates, David, ed. Regesta Regum Anglo-Normannorum: The Acta of William I (1066–1087). Oxford: Clarendon Press, 1998.",
+      "archive": null,
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Standard edition of William I's acta. Contains the 1077 St-Étienne and 1082 La Trinité Caen charter witness lists. Also the 1067 Vaudreuil charter (No. 6a)."
+    },
+    "liber-niger": {
+      "shortTitle": "Liber Niger Scaccarii",
+      "citation": "Liber Niger Scaccarii (Black Book of the Exchequer). Ed. Thomas Hearne, 1728.",
+      "archive": null,
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Vol. i, p. 298: Walter de Gournay (G31) enfeoffed of a quarter knight's fee in Suffolk under Manasser de Dampmartin, reign of Stephen. Key primary source for the junior Norfolk branch."
+    },
+    "les-olim": {
+      "shortTitle": "Les Olim (French legal records)",
+      "citation": "Les Olim, ou Registres des arrêts rendus par la Cour du roi. Ed. A. Beugnot, 1839–1848.",
+      "archive": null,
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "DG-I p. 293 cites Les Olim for proving the Gurneys of Swathings 'to be of the blood of the Lords of Gournay.' Key legal document linking the junior Norfolk branch to the senior baronial line."
+    },
+    "anderson-yvery-1742": {
+      "shortTitle": "Anderson, Genealogical History of the House of Yvery",
+      "citation": "Anderson, James. Genealogical History of the House of Yvery: In its Different Branches of Yvery, Luvel, Perceval, and Gournay. Vol. II. London: H. Woodfall, Jun., 1742.",
+      "archive": "Internet Archive (agenealogicalhi00andegoog)",
+      "url": "https://archive.org/details/agenealogicalhi00andegoog",
+      "corpusStatus": "full",
+      "corpusPath": "sources/corpus/agenealogical-history-gournay-extract.md",
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Book VII (pp. 474–533) covers the Gournay line as a branch of the House of Yvery. Primarily treats the Somerset/Harpetree Gournays. P. 474: confirms Hugh III's Domesday holdings and Bec retirement (pre-dating DG by 106 years). P. 478: brief aside on Norfolk Gournays with a DIFFERENT genealogy from DG — gives Matthew as the first Norfolk Gournay, with sons Thomas and William, not matching DG's Walter→William→Matthew sequence. The 1742 Norfolk pedigree is compressed and less well-sourced than DG (1848). Anderson died before completion; William Whiston Jr. revised. Passed the College of Arms."
     }
   }
 }

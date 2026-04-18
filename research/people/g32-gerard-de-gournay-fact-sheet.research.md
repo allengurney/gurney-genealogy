@@ -78,6 +78,7 @@ This note also proposes the naming: "He might probably have been named by his fa
 - Richardson, "Gournay Family Pedigree" (soc.genealogy.medieval, 2003). [Richardson-SGM]
 - Loyd, *Origins of Some Anglo-Norman Families* (1999), p. 47. [Loyd]
 - French Wikipedia, "Famille de Gournay." [fr.wiki-Gournay]
+- Anderson, James, *Genealogical History of the House of Yvery*, Vol. II (London, 1742), pp. 475–476: independent 1742 account of Gerard. Confirms Crusade, Edith de Warenne marriage, death in Holy Land. Notes that "his Wife surviving him, who afterwards married Dru de Monceaux." Pre-dates DG by 106 years. [Anderson-Yvery]
 
 ### Sources to obtain
 - Cartulary of La Trinité de Rouen (ed. Deville, Tome III), Charter No. 94 — Gerard's seal.

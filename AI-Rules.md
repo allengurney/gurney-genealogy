@@ -19,7 +19,7 @@ User: Allen Lawrence Gurney, b. 1972, Portland OR. Dual projects: biography of B
 ## 2. Repo map
 
 ```
-data/            sources.json, locations.json, ancestors v23.json (canonical structured data; note space in filename)
+data/            sources.json, places.json, places_detail.json, ancestors v24.json (canonical structured data)
 fact-sheets/
   g{NN}-{slug}-fact-sheet.md    ← PUBLISHED narrative only (stable, polished, Allen's prose)
 research/
@@ -226,14 +226,15 @@ G0–G2 and living collaterals: minimize detail in public files. Birth year, gen
 - G1 = Allen. Numbers increase going back.
 - West Barsham entered via Wauncy inheritance (Edmund G23's wife Katherine); held until 1661.
 - Francis G14 = sixth son of Henry G15.
-- `data/ancestors v23.json` = current ancestor data file (note space in filename). See `research/topics/ancestors-json-audit.md` for known data-quality issues and the filename-vs-convention question.
+- `data/ancestors v24.json` = current canonical ancestor data file. `ancestors v23.json` is legacy — DO NOT USE. See `research/topics/ancestors-json-audit.md` for known data-quality issues inherited from v23.
+- `data/places.json` + `data/places_detail.json` = canonical two-layer place spine. `locations.json` was retired.
 
 ---
 
 ## 8. Source-specific flags
 
 ### Daniel Gurney, *Record* (1848)
-Primary secondary source G15–G35. Text in `sources/corpus/daniel-gurney-part-{1,2,3}.md`. OCR: "Wilham"/"William" ~6%, "Basiha"/"Basilia" ~16%. Page markers: `## p. N (#M) ##` (cite N). Parts I/II/III present. Supplement + Rye appendix NOT yet in corpus.
+Primary secondary source G15–G35. Text in `sources/corpus/daniel-gurney-part-{1,2,3,4}.md`. OCR: "Wilham"/"William" ~6%, "Basiha"/"Basilia" ~16%. Page markers: `## p. N (#M) ##` (cite N). Parts I/II/III/IV present. Supplement text extracted (Google Books OCR) into `sources/corpus/daniel-gurney-supplement.md` — OCR quality varies, especially for Latin passages and marginal notes. Rye appendix NOT yet in corpus (text extraction pending).
 
 **Supplement vs. Parts I–III pagination test.** The 1858 Supplement runs pp. 725–1096. Any "Supplement" citation with a page number below 725 is miscited (should be DG-I, DG-II, or DG-III). See `research/topics/dg-citation-audit.md` for the 2026-04-16 sweep that caught and fixed six G20–G37 companion miscitations.
 
@@ -270,8 +271,11 @@ Ryvett claim confirmed against NRO PD 12/1 (March 2026).
 - **Anderson 1636 vs. Weymouth 1641** — unresolved.
 - **East Dereham Entry E** — paleographic: ffrancis > Nicholas; further validation useful.
 - **Tier 1 pulls**: TAG 10:70–73, NEHGR 62:94 — not yet obtained.
-- **Fact sheets remaining**: G21–G15 (G14 exists; G13 John Gurney-1 pre-fact-sheet).
-- **Supplement + Rye** — corpus extraction pending.
+- **Fact sheets remaining**: G21–G15 need creation (G14 exists but has no research companion; G13 John Gurney-1 pre-fact-sheet).
+- **G14 research companion**: Francis Gurney has a fact sheet but no paired research companion — needs creation.
+- **Supplement corpus**: Text extracted April 2026. Note-by-note mining for G37–G20 ancestors in progress.
+- **Blomefield corpus**: Not yet in sources.json corpus. Key independent source for Norfolk ancestors G20–G27. Available via British History Online.
+- **Rye appendix** — corpus extraction pending.
 - **Landholdings and places** — 17 place files for the G20–G37 range created 2026-04-16; linked from each research companion. See `research/places/`.
 
 ---

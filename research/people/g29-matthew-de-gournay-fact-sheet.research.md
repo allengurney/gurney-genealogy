@@ -1,4 +1,4 @@
-# Sir Matthew de Gournay (G29) — Research Companion
+# Matthew de Gournay (G29) — Research Companion
 
 Research companion for `g29-matthew-de-gournay-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
@@ -6,25 +6,41 @@ Research companion for `g29-matthew-de-gournay-fact-sheet.md`. See AI-Rules.md �
 
 ## Working Notes
 
-### Hameline Plantagenet — full identification (added 2026-04-16 from chat bcb40001)
+### DG-Supp Note 109 — critical death date correction (p. 780)
+2026-04-18 — DG-Supp Note 109 corrects a significant error in the main text: "I have said that Matthew de Gournay probably did not long survive the year 1206, but this appears to be a mistake; he was living 2nd Henry III (1217), as is shewn by the following extract:"
 
-The marriage that defined Matthew's career was arranged c. 1183 by Hameline Plantagenet, Earl Warren. Hameline was:
+> "Fines 2. Regis Henrici III. Norff.—Mattheus de Gurney dat Domino Regi XX. pro habendo brevi de attingendo, &c., &c., in comitatu Norfolcie de tenemento in Swathing in comitatu Norfolcie."
 
-- Illegitimate son of Geoffrey of Anjou (father of Henry II) — therefore illegitimate half-brother of Henry II.
-- Married Isabella de Warenne in 1164, acquiring the earldom of Surrey through her.
-- Lifespan: c. 1130–1202.
+This Fine Roll entry proves Matthew was alive in 1217 — paying 20 marks to the king for a writ of *attaint* concerning his tenement of Swathings in Norfolk. This extends his documented life by over a decade beyond DG's original estimate.
 
-Why this matters for Matthew: Hameline was one of the great magnates of the realm. His arranging this marriage for a junior Norfolk knight signals that the Gournay name still carried weight at the Angevin court two generations after the loss of the senior baronial line's Norman primacy. Rose de Burnham was Hameline's "kinswoman" (DG-I p. 278) — the Burnhams being a younger branch of the de Warennes (DG-I p. 278; original Gerard-Edith de Warenne marriage c. 1090, DG-I p. 27).
+**Impact:** The fact sheet and ancestor table give dates "fl. c. 1180–1220." The 1217 Fine Roll entry fits this range but the upper bound should probably be extended to at least 1217+ rather than the vague "c. 1220."
 
-### The 1204 hook — severance of the last Norman tie (added 2026-04-16 from chat bcb40001)
+### Marriage to Rose de Burnham — the Harpley acquisition (DG-I pp. 278–279)
+2026-04-18 — DG-I p. 278: "Hameline Plantagenet, Earl Warren, gave in marriage his kinswoman Rose, daughter and heir of Reginald de Burnham (Fitz-Philip), about the year 1183. Through Rose he acquired Gurney's manor in Harpley, Norfolk."
 
-Matthew lived to see King John lose Normandy to Philip Augustus in 1204. Before that loss, the junior Norfolk branch had retained one tangible Norman tie: William I (G30, Matthew's father) had held Montigny-sur-Andelle in the Pays de Bray as a parage tenure under the senior Lords of Gournay. After 1204, that tenure was effectively severed — Montigny was on the French side of the new political reality, the Norfolk branch on the English side. From Matthew's late life onward, the family's Norman heritage survived only in their name.
+This is the foundational moment for the Harpley connection that would define the family for centuries. Key details:
 
-This is a useful narrative hook for any biographical writing about Matthew or about the junior Norfolk branch's transition to a fully English identity.
+- **Hameline Plantagenet** (also Hamelin de Warenne, Earl of Surrey, c. 1129–1202) was an illegitimate half-brother of Henry II — a Plantagenet prince. He arranged Rose's marriage to Matthew, giving his kinswoman to the junior Gournay as a calculated match. This is a royal connection at one remove: the King's half-brother personally orchestrating the marriage.
+- **Rose de Burnham** was "daughter and heir of Reginald de Burnham (Fitz-Philip)" — the "Burnhams were a younger branch of the house of Warren" per the fact sheet companion notes from an earlier session. Through her, the Harpley manor entered the family.
+- **Harpley** would remain the Gurneys' most important Norfolk manor for nearly two centuries, through G29 (Matthew) to at least G21 (Thomas I).
 
-### Norman Pipe Roll 1184 reference (added 2026-04-16 from chat bcb40001)
+### DG-I pp. 278–279 — additional Matthew details
+2026-04-18 — DG records that Matthew "gave tithes of Hardingham to the church" (citing Harleian MSS. 970, *Vitis Calthorpiana*). He also held the manor of Swathings in Hardingham and Runhall (inherited from his father William I).
 
-DG cites the Norman Pipe Roll of 1184 in connection with Rose de Burnham's family (DG-I pedigree p. 286). Not yet independently reviewed. The Pipe Rolls of Henry II have been published — the 1184 roll would be in the Pipe Roll Society series. Worth checking for the original Latin entry.
+DG-I Appendix XLIX (p. 308) contains a deed witnessed by Matthew, which DG's correspondent Mr. Norris dated to c. 1160. This is the earliest dated appearance of Matthew in any document.
+
+DG-I Appendix LIII records a plea: Matthew v. Gilbert de Runhall — a key legal record for the early junior line. This suggests Matthew was actively litigating over his Runhall property, consistent with an engaged landholder defending his interests.
+
+### Pipe Roll appearance
+2026-04-18 — The existing G29 companion (from a prior session) notes a Pipe Roll appearance for Matthew, but the details were thin. The fact sheet mentions this. DG-Supp Note 109's Fine Roll entry (1217) is a separate and later record. Together they give two distinct dated documentary appearances: the c. 1160 deed witness (Appendix XLIX) and the 1217 Fine Roll payment.
+
+### 1204 and the loss of Normandy
+2026-04-18 — The senior Gournay line lost its Norman possessions when Philip Augustus conquered Normandy in 1204. Hugh V (senior line) was expelled. This event would have affected the junior branch too — William I (G30) had held Montigny-sur-Andelle in parage. If that Norman parcel was still held by Matthew in 1204, it was lost at this point. DG does not explicitly address this for the junior branch, but it's the logical terminus of their Norman connection.
+
+Matthew's documented activity is entirely English after this date (the 1217 Fine Roll concerns Swathings in Norfolk). The family's identity as purely English/Norfolk gentry, rather than Anglo-Norman, effectively begins here.
+
+### Rose de Burnham — the Warren-Burnham descent
+2026-04-18 — Blomefield's Harpley entry (vol. viii, pp. 452–459) should contain independent detail on how Harpley passed from the Burnhams to the Gurneys via Rose's marriage. This is flagged as a priority Blomefield extraction in the places file for Harpley.
 
 ---
 
@@ -32,42 +48,49 @@ DG cites the Norman Pipe Roll of 1184 in connection with Rose de Burnham's famil
 
 | Place | Period | Notes |
 |---|---|---|
-| [Harpley, Norfolk](../places/harpley.md) | fl. c. 1180–1220 | **Gurney's manor in Harpley acquired through marriage to Rose de Burnham c. 1183** — gift arranged by Hameline Plantagenet, Earl Warren. This acquisition begins the ~250-year continuous junior-branch tenure at Harpley. |
-| [Hardingham, Norfolk](../places/hardingham.md) | fl. c. 1180–1220 | Swathings manor — gave tithes of Hardingham to the parish church (Harl. MSS. 970) |
-| [Runhall, Norfolk](../places/runhall.md) | fl. c. 1180–1220 | Subject of DG-I Appendix LIII plea (Matthew v. Gilbert de Runhall) — the legal record establishing Matthew as son of William I |
+| [Harpley, Norfolk](../places/harpley.md) | c. 1183 onward | Acquired through marriage to Rose de Burnham. "Gurney's manor" — the defining family property for the next two centuries. |
+| [Hardingham/Swathings, Norfolk](../places/hardingham.md) | fl. c. 1180–1217+ | Inherited from father William I. Gave tithes to the church (Harl. MSS. 970). Fine Roll 1217 concerns Swathings. |
+| [Runhall, Norfolk](../places/runhall.md) | fl. c. 1180–1217+ | Inherited. Plea: Matthew v. Gilbert de Runhall (DG-I Appendix LIII). |
 
 ---
 
-## Research Appendix
+## Open Questions
 
-### Lineage Status
-**Confirmed.** Matthew is established by: (1) the plea with Gilbert de Runhall (DG Appendix LIII) identifying him as William I's son; (2) the Harl. MSS. 970 Hardingham tithing document naming him; (3) multiple Norfolk fines naming him, his wife, and his children; (4) the Norman Pipe Roll of 1184 referencing the Burnham family (Rose's family).
+1. **Blomefield's Harpley:** The Harpley entry (vol. viii, pp. 452–459) should document the Burnham-to-Gurney descent through Rose. Priority extraction.
+2. **Harl. MSS. 970:** The Hardingham tithe grant — can the British Library digitized Harleian manuscripts be searched for this?
+3. **DG-I Appendix XLIX (p. 308):** The c. 1160 deed — what does it establish? Full transcription needed.
+4. **DG-I Appendix LIII:** Matthew v. Gilbert de Runhall plea — what was the outcome? Was this a successful defense of Runhall?
+5. **Montigny-sur-Andelle after 1204:** Did the junior branch lose this Norman holding when Philip Augustus conquered Normandy? DG does not address this explicitly.
 
-### Sources Consulted
-- DG-I, pp. 278–279 and pedigree p. 286.
-- DG-II (Part II), p. 310: charters of Philip de Burnham family.
-- Harl. MSS. 970 (Vitis Calthorpiana) — cited by DG; not independently reviewed.
-- Norman Pipe Roll, 1184 — cited by DG pedigree; not independently reviewed.
-- Blomefield, *History of Norfolk*, cited in DG (Harpley section).
-- Ancestors_v3.json; Gurney_Research_KnowledgeBase_1.md.
+---
 
-### Key Findings from Hannay (1867)
-- Hannay's book does not extend to the junior branch (it covers the senior barons through Hugh VI, "the Last Baron," d. c. 1214). The Hannay content about Hugh V (Chapter V) includes details about the senior line's relationship with Richard Coeur-de-Lion, which is contextually relevant to Matthew's era.
-- Hugh V, Matthew's senior cousin, was a friend of Richard I and accompanied him on Crusade. Matthew's world was shaped by the same political currents — the Angevin empire, the loss of Normandy, the baronial tensions that would lead to Magna Carta.
+## Sources Consulted
 
-### Negative Results
-- Rose de Burnham's exact date of death unrecorded; last appearance in Norfolk fines of 27 Hen. III (c. 1243) — if this names Rose directly rather than their daughter Katherine, she would have been extraordinarily long-lived; more likely Katherine is named.
-- No burial site for Matthew.
+- DG-I, pp. 278–279 (Matthew chapter): Rose de Burnham marriage, Harpley acquisition, Hardingham tithes, Swathings/Runhall holdings. [DG-I]
+- DG-I, p. 286 (pedigree chart). [DG-I]
+- DG-I, Appendix XLIX (p. 308): c. 1160 deed witnessed by Matthew. [DG-I]
+- DG-I, Appendix LIII: Matthew v. Gilbert de Runhall plea. [DG-I]
+- DG-Supp, Note 109 (p. 780): Death date correction — Matthew living 1217, Fine Roll 2 Henry III. [DG-Supp]
+- DG-II, p. 310: Matthew reference (per citation audit — correct as DG-II). [DG-II]
+- Harl. MSS. 970 (*Vitis Calthorpiana*): Hardingham tithe grant. Cited via DG. [Harl-970]
+- Blomefield, *History of Norfolk* (Harpley entry, vol. viii, pp. 452–459). Not yet extracted. [Blomefield]
+- Anderson, James, *Genealogical History of the House of Yvery*, Vol. II (London, 1742), p. 478: brief aside on Norfolk Gournays with a different pedigree from DG. Matthew placed "in the Time of Henry the First" with sons Thomas and William — does not match DG's more detailed and better-sourced Walter→William→Matthew sequence. [Anderson-Yvery]
+- *Supplément aux recherches historiques sur la ville de Gournay-en-Bray* (1844): examined. Primarily local town history; confirms Daniel Gurney as a subscriber (establishing 1840s transatlantic scholarly communication). No specific content on the Norfolk junior branch. [Gournay-1844]
 
-### Open Questions
-1. Harl. MSS. 970 (British Library) — the Vitis Calthorpiana is a manuscript collection relating to Norfolk families. The Hardingham tithing deed and the charters relating to the Burnham family within this collection could potentially be digitised or requested through BL online services. This would provide direct primary source transcription.
-2. The DG Appendix LIII plea (Matthew vs. Gilbert de Runhall): can this be located in the project PDFs? It is the document establishing Matthew as son of William I.
-3. Hameline Earl Warren's motivation for arranging this marriage: was it simply good lordship toward a minor tenant, or was there a specific relationship between the Gournay junior branch and the Warren earldom that made this match particularly appropriate? The Burnham-as-Warren-cadet link (DG-I p. 278) is part of the answer.
-4. Norman Pipe Roll 1184 entry on the Burnham family — Pipe Roll Society publications could be checked.
+---
 
-### Hero Image Note
-St. Lawrence Church, Harpley is the ideal hero image for Matthew and the next several generations — it is the church of the manor they acquired through this marriage and held for ~180 years. A clear Geograph photograph exists (CC BY-SA licensed). The image should be captioned to note that the current structure largely postdates Matthew (the Harpley church has significant 14th-century fabric) but stands on the site.
+## Conflicting Information
 
-### Potential Hero Images
-- **Harpley church, Norfolk**: St. Lawrence Church, Harpley — the church that the Gournay family patronized for generations. Notable medieval bench ends survive.
-- **Castle Rising, Norfolk**: Nearby Norman castle ruin that evokes the world Matthew inhabited.
+| Claim | Source A | Source B | Status |
+|---|---|---|---|
+| Death date | DG-I main text: "did not long survive the year 1206" | DG-Supp Note 109: living 1217 (Fine Roll 2 Henry III) | **DG-Supp corrects DG-I.** Matthew was alive in 1217. |
+| Norfolk pedigree sequence | DG-I (1848): Walter → William I → Matthew → William II | Anderson, *House of Yvery* (1742), p. 478: "Matthew de Gournay, in the Time of Henry the First; which Matthew had two Sons, Thomas, and William" | **DG is better sourced.** Anderson's 1742 Norfolk pedigree is compressed and does not match DG's more detailed Walter→William→Matthew sequence. Anderson predates DG by 106 years but lacks the Liber Niger, Les Olim, and Supplement evidence that DG assembled. The discrepancy should be noted but DG's genealogy prevails. |
+
+---
+
+## Fact Sheet Improvement Notes
+
+1. **Hameline Plantagenet:** The narrative could emphasize that the man who arranged Matthew's marriage was a half-brother of Henry II — a Plantagenet prince. This elevates the social context of the Harpley acquisition from "inherited through wife" to "a royal kinsman personally orchestrated the match."
+2. **1217 Fine Roll:** The DG-Supp Note 109 correction should be incorporated. Matthew was alive in 1217, paying 20 marks for a writ concerning Swathings. This extends his documented life and shows him actively managing his estate deep into old age.
+3. **1204 context:** The loss of Normandy in 1204 effectively ended the family's cross-Channel identity. Matthew is the transitional figure — born Anglo-Norman, died purely English. This is a significant narrative moment.
+4. **Harpley significance:** The narrative could draw out that this one marriage (Matthew + Rose) established the Harpley connection that would define seven generations of Gurneys. It's the single most consequential marriage in the junior branch.
