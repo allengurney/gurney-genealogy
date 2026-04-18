@@ -1,46 +1,35 @@
 # Lessingham, Norfolk
 
-Village on the eastern Norfolk coast, England. Coordinates: **52.795, 1.575**.
+Lessingham Priory — founded by Gerard de Gournay (G32) as a daughter house of the Abbey of Bec, Normandy.
 
-Site of **Lessingham Priory**, founded by **Gerard de Gournay (G32)** as a daughter house of the Abbey of Bec in Normandy [DG-I]. This is the mechanism by which the Gournay–Bec ecclesiastical patronage was transferred from Normandy into England after the Conquest.
+## Gournay connections
 
-## Why this place matters structurally
+Gerard de Gournay founded Lessingham Priory, attaching it to the Abbey of Bec. The economic basis for the priory may have been established earlier when Hugh III (G33) gave tithes of his English properties to Bec in 1076. Blomefield and Dugdale (Monasticon Anglicanum) confirm the foundation.
 
-Lessingham is best understood as the **English extension of the Bec relationship**. It is not merely another Norfolk landholding and should not be read as equivalent to a manor such as Caister or Cantley. Its importance is ecclesiastical, institutional, and connective: it shows the Gournays moving a Norman monastic affiliation into their English sphere after the Conquest. [DG-I]
+DG-Supp Note 13 (p. 733) adds: "The priory of Lessingham was made subject to the abbey of Okeburn in Wiltshire, a cell to that of Bec. It was seized with all alien lands in the wars of Henry V. with France. There are no traces now left of the existence of this priory at Lessingham."
 
-That makes Lessingham the natural English counterpart to **Le Bec-Hellouin**. In the normalized place set, the two files should reinforce one another rather than duplicate each other: Bec is the parent abbey and burial-affiliation record; Lessingham is the Norfolk daughter-house record.
+The priory's fate is a common one for "alien priories" — small English religious houses subordinate to French mother houses. During the wars with France (particularly under Henry V, r. 1413–1422), these were confiscated by the Crown. Lessingham's disappearance is total: no architectural remains, no visible site.
 
-## Gurney ancestors holding here
-
-| Ancestor | Gen | Period | Connection |
-|---|---|---|---|
-| Gerard de Gournay | G32 | fl. late 11th c. | Founded Lessingham Priory as daughter house of Bec |
-
-## Significance
-
-The foundation placed a Bec satellite on Gournay-held Norfolk coast, reinforcing the family's spiritual tie to Anselm's monastery and providing a channel for Norman monks to serve English parishes under Gournay patronage. The grant is consistent with Gerard's other English acquisitions (Caister-on-Sea, Cantley) received through his wife Edith de Warenne's connection to the Earl Warren's Domesday fortune.
-
-## Interpretive caution
-
-This file should remain focused on the priory foundation. If later work identifies a distinct manor, church-advowson, or parcel history at Lessingham that is not really the priory site itself, that material may need to be separated or at least clearly distinguished from the monastic foundation narrative.
-
-## Open items
-
-- [ ] Blomefield's *History of Norfolk* should have an entry for Lessingham parish and any surviving notice of the priory. This has not been pulled.
-- [ ] The priory was alien (Norman-owned) and may have been suppressed during the Hundred Years' War or at the 1414 Suppression of Alien Priories. The dissolution record would confirm whether any fabric survived.
-- [ ] If a tighter modern site anchor for the priory can be identified, update the structured coordinate precision and extant-status notes.
+DG-Supp Note 14 also mentions that in the Henry II *Inspeximus* charter (Dugdale's Monasticon, vol. vi, p. 1068), among the benefactors to Bec is listed: "De dono Girardi de Gurnay, Lisingham" — confirming Gerard's gift of Lessingham to Bec.
 
 ## Sources
 
-- Daniel Gurney, *Record of the House of Gournay*, Part I (1848), pp. 46–48, 58ff. [DG-I]
-- `ancestors v23.json`, G32 locations entry.
+- DG-I, pp. 27–29 (Gerard chapter). [DG-I]
+- DG-Supp, Note 13 footnote (p. 733): Lessingham priory history, Okeburn connection, Henry V seizure. [DG-Supp]
+- DG-Supp, Note 14 footnote (p. 733): Henry II *Inspeximus* charter confirming "De dono Girardi de Gurnay, Lisingham." [DG-Supp]
+- Dugdale, *Monasticon Anglicanum*, vol. vi, p. 1068. [Dugdale-Mon]
+- Blomefield, *History of Norfolk* — confirms foundation. [Blomefield]
+
+## Open questions
+
+- [ ] What is the exact site of Lessingham Priory? Blomefield may provide a location description.
+- [ ] Is there any archaeological survey of the priory site?
 
 ## Crosslinks
 
 - `research/people/g32-gerard-de-gournay-fact-sheet.research.md`
-- `research/places/le-bec-hellouin.md` (parent abbey)
-- `research/places/caister-on-sea.md`
-- `research/places/cantley.md`
+- `research/people/g33-hugh-de-gournay-iii-fact-sheet.research.md`
+- `research/places/le-bec-hellouin.md`
 
 <!-- GENERATED:PLACE-REGISTRY:START -->
 ## Place registry
@@ -49,17 +38,16 @@ This file should remain focused on the priory foundation. If later work identifi
 - Short description: Priory foundation locality
 - Place type: locality
 - Aliases: Lessingham, Norfolk
-- Coordinate: 52.795, 1.575 (low)
+- Coordinate: 52.795, 1.575 (low precision — village centroid)
 - Roles: landholding / property reference
-- Detail: Lessingham Priory foundation linked to the Abbey of Bec.
-- Current-site status: unknown
+- Current-site status: no traces survive (DG-Supp Note 13)
 
 ### Linked ancestors
 
-- G32 Gerard de Gournay — landholding / property reference
+- G32 Gerard de Gournay — landholding / property reference (founded priory)
 
 ### Review notes
 
-- None in cleanup pass 3b.
+- None.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

@@ -6,7 +6,22 @@ Research companion for `g37-eudes-de-gournay-fact-sheet.md`. See AI-Rules.md §3
 
 ## Working Notes
 
-*No entries yet.*
+### Name etymology (DG-Supp Note 1)
+2026-04-18 — DG-Supp Note 1 (p. 725) discusses the derivation of the name Gournay: "Gore in Saxon, and I believe in Celtic, means mud, the Saxon genitive of which is Gorena; and Eye, which means waters, or island, is the second syllable of the word; hence Gorena-eye, the muddy waters or island. The rivers Epte and St. Aubin are both of muddy water." DG credits "an Antiquary learned in the Northern languages." Modern scholarship (Grokipedia, citing published etymology work) offers an alternative: Celtic *gorn* meaning "fishery" or "reach," combined with Latin suffix *-acum*. Both etymologies anchor in the marshy, riverine landscape. Neither is settled; include both as competing derivations.
+
+### Caistor connection (DG-Supp Note 6)
+2026-04-18 — DG-Supp Note 6 (p. 729) proposes that Caistor-on-Sea, Norfolk, "might probably be given to the Gournays as a protecting fortress from the incursions of the Danes and Norwegians." He suggests the Gournays were stationed on the Norfolk coast like "Counts of the Saxon shore" — comparing them to the Albinis at Castle Rising, Warrens at Castleacre, and Bigods at Norwich. This framing is speculative but historically suggestive: it places the post-Conquest Gournay Norfolk holdings in a defensive-frontier tradition analogous to their Norman role at Gournay-en-Bray. DG also notes that "Gurney's Conge" at Yarmouth (temp. Richard II) suggests residual Gournay rights over Yarmouth lading.
+
+**Caution:** This is DG's 1858 speculation, not established fact. The Caistor-Norfolk connection is documented for later Gournays (Gerard, G32), not Eudes himself. But the strategic-frontier parallel is noteworthy for the narrative.
+
+### Léopold Delisle's criticism of DG
+2026-04-18 — French Wikipedia ("Famille de Gournay") notes that DG's genealogy "a vite été critiquée par des érudits normands comme Léopold Delisle" (was quickly criticized by Norman scholars such as Léopold Delisle). Delisle (1826–1910) was the leading Norman charter scholar of the 19th century and director of the Bibliothèque nationale. His criticism appears to focus on the early, undocumented generations — precisely G37 (Eudes) and G36 (Hugh I). DG himself acknowledged this uncertainty. The fact sheet already handles this well with the "Tradition" status, but the Delisle critique should be noted here as independent scholarly skepticism beyond DG's own caveats.
+
+### Dudo of Saint-Quentin — the "funiculo" passage
+2026-04-18 — The fact sheet quotes Dudo's phrase *terram fidelibus suis funiculo divisit* ("divided the land among his followers by the measurement of a rope"). Dudo's *De moribus et actis primorum Normanniae ducum* (c. 996–1015) is the earliest Norman chronicle but is hagiographic propaganda for the ducal line, not a reliable factual record. Modern scholars (Prentout 1916, Searle 1984, Shopkow 1989) have progressively reassessed Dudo's reliability. The "rope measurement" passage describes Rollo's land distribution but does not name specific recipients. No source contemporary with Eudes names him. The connection Eudes → Gournay rests entirely on later tradition transmitted through local Gournay histories (the *MS. Histoire des Seigneurs de Gournay*, cited repeatedly by DG and in the Supplement).
+
+### Eudes's death date
+2026-04-18 — The fact sheet gives "c. 912" for Eudes's death, which implies he died almost immediately after receiving Gournay. This seems arbitrary. DG-I p. 23 does not give a death date. The "c. 912" appears to be a rough inference (active at the 911 Treaty; succeeded by Hugh I who is placed c. 945–950). A gap of ~30 years between Eudes's grant (911) and Hugh I's estimated birth is plausible without requiring Eudes's death in 912. He may have lived decades longer. The death date should be softened to "after 911, date unknown" in any future revision.
 
 ---
 
@@ -14,58 +29,51 @@ Research companion for `g37-eudes-de-gournay-fact-sheet.md`. See AI-Rules.md §3
 
 | Place | Period | Notes |
 |---|---|---|
-| [Gournay-en-Bray, Normandy](../places/gournay-en-bray.md) | c. 911 – c. 912 | Founding grant from Rollo. The town and surrounding Pays de Bray. 49.483148, 1.727303 |
+| [Gournay-en-Bray, Normandy](../places/gournay-en-bray.md) | c. 911 onward | Founding grant from Rollo. The town and surrounding Pays de Bray. 49.483148, 1.727303 |
 
-**Note on JSON data pollution:** the `data/ancestors v23.json` G~37 entry also lists West Barsham, Norfolk, as a landholding. This is categorically wrong — West Barsham did not enter the family until 1372 (via Katherine de Wauncy's marriage to Edmund G23). Flagged for cleanup in `research/topics/ancestors-json-audit.md`.
+**Note on JSON data pollution:** the `data/ancestors v23.json` G~37 entry also lists West Barsham, Norfolk, as a landholding. This is categorically wrong — West Barsham did not enter the family until 1372 (via Katherine de Wauncy's marriage to Edmund G23). Flagged for cleanup in `research/topics/ancestors-json-audit.md`. Corrected in `ancestors v24.json`.
 
 ---
 
-## Research Appendix
+## Open Questions
 
-### Lineage Status
-**Tradition.** No contemporary document names Eudes directly. The earliest primary sources for the Lords of Gournay postdate his presumed lifetime by at least one or two generations. Daniel Gurney acknowledged this explicitly in 1848 and classified Eudes as traditional. Hannay (1867) argued the tradition was unusually credible because it was modest and unembellished — no mythic heroism, just a follower of Rollo receiving land. This project follows both assessments.
+1. **Eudes's death date:** "c. 912" in the fact sheet is too precise. Should be "after 911, date unknown." Revise on next fact sheet update.
+2. **The *MS. Histoire des Seigneurs de Gournay*:** This manuscript, cited extensively by DG and in the Supplement as the "Paris MS. Hist: des Seigneurs de Gournay," is the ultimate source for the Eudes tradition. Does it survive? DG's copy appears to have been a privately held manuscript. If the Paris MS is the same as the one in the Bibliothèque nationale or the Archives de Seine-Maritime, it might be locatable. Delisle would likely have known its status.
+3. **Norse identity:** Hannay (pp. 37–38) notes Eudes's unknowable Norse ancestry. The fact sheet's "c. 860" birth date is a back-calculation from Rollo's generation; Eudes could have been younger or older. The Scandinavia birthplace is assumed, not documented.
 
-### Sources Consulted
+---
+
+## Sources Consulted
+
 - Daniel Gurney, *Record of the House of Gournay*, Part I (1848), pp. 3–4 (Preface), 23–24 (chapter on Eudes). [DG-I]
-- James Hannay, *Three Hundred Years of a Norman House: The Barons of Gournay from the Tenth to the Thirteenth Century* (London: Tinsley Brothers, 1867), Chapter I, pp. 1–41. [Hannay] — Dedicated to Daniel Gurney. Provides extensive contextual background on Norse origins and the strongest published argument for accepting Eudes as historical.
-- John Gough Nichols, ed., *The Herald and Genealogist*, vol. 3 (London: J. B. Nichols and Sons, 1866), p. 9 — short heraldic note in the editorial essay *The Origin and Development of Coat Armour*: "The barons of Gournay in Normandy bore an uncharged shield of Sable," citing Daniel Gurney's *Record* p. 19. Nichols was the leading Victorian heraldic editor and the same firm had printed DG's 1848 *Record*; the citation is contemporaneous peer endorsement of DG's heraldic authority. Useful as a secondary citation anywhere the G37–G32 fact sheets reference the senior line's arms. Suggested footnote wording in `sources/validations/nichols-herald-v3.md`. [Nichols-H&G-v3]
-- "Les remparts de Gournay-en-Bray," local history site — confirms the "chevalier à l'écu noir" tradition and 912 date.
-- Wikipedia, "Gournay-en-Bray" — current town population, Neufchâtel cheese heritage, Collégiale Saint-Hildevert.
-- Wikipedia, "Battle of Mortemer" — confirms Hugh of Gournay among leaders (used for cross-reference with G34).
+- Daniel Gurney, *Supplement* (1858), Note 1 (name derivation, p. 725), Note 6 (Caistor, p. 729), Note 7 (fortifications, p. 730). [DG-Supp]
+- James Hannay, *Three Hundred Years of a Norman House* (1867), Chapter I, pp. 1–41. [Hannay]
+- John Gough Nichols, ed., *Herald and Genealogist*, vol. 3 (1866), p. 9. [Nichols-H&G-v3]
+- Dudo of Saint-Quentin, *De moribus et actis primorum Normanniae ducum* (c. 996–1015). Ed. Lair (Caen, 1865). English trans. Christiansen (Woodbridge: Boydell Press, 1998). [Dudo]
+- French Wikipedia, "Famille de Gournay" — modern secondary synthesis citing Bauduin, Delisle. [fr.wiki-Gournay]
+- "Les remparts de Gournay-en-Bray" (remparts-de-normandie.eklablog.com) — local tradition.
 
-### Key Findings from Hannay (1867)
-- Hannay emphasizes that Gournay's frontier position made it one of the earliest and most important Norman lordships — not a minor backwater grant.
-- He places Eudes's death after Rollo's (c. 930–931), suggesting Eudes may have lived longer than the c. 912 estimate in the fact sheet. However, DG's estimate is retained as standard.
-- The "*pure sable*" arms tradition and the "chevalier à l'écu noir" description connect Eudes to one of the oldest heraldic identities in Norman genealogy.
-- Hannay's prose description of the Pays de Bray landscape (pp. 38–39) is the most vivid period-adjacent account of the family's home territory.
+### Sources to obtain
+- Pierre Bauduin, scholarship on early Norman aristocracy (cited in fr.wiki) — specific publication TBD.
+- Léopold Delisle, criticism of DG's genealogy — specific publication TBD (likely in *Bibliothèque de l'École des chartes* or similar).
+- Marie Fauroux, *Recueil des actes des ducs de Normandie de 911 à 1066* (Caen, 1961) — the standard charter collection. No Eudes entry expected, but confirms the absence of documentary evidence for G37.
 
-### Heraldic Cross-Reference (added 2026-04-16)
+---
 
-The plain sable shield attributed to the Barons of Gournay is attested across three independent Victorian sources:
-1. Daniel Gurney, *Record*, Part I (1848), p. 19. [DG-I-19]
-2. James Hannay, *Three Hundred Years of a Norman House* (1867) — "*pure sable*" tradition. [Hannay]
-3. John Gough Nichols, *Herald and Genealogist*, vol. 3 (1866), p. 9 — explicitly cites DG p. 19. [Nichols-H&G-v3]
+## Conflicting Information
 
-Three independent publications, the last being the leading heraldic journal of the day, describing the same reading. Strongest secondary-source confirmation available for an early-medieval heraldic claim short of a contemporary armorial roll.
+| Claim | Source A | Source B | Status |
+|---|---|---|---|
+| Death date | Fact sheet: "c. 912" | DG-I: no death date given | DG is silent; "c. 912" is editorial inference. Should be softened. |
+| Name etymology | DG-Supp: Saxon *Gorena-eye* ("muddy waters") | Modern scholarship: Celtic *gorn-acum* ("fishery") | Both plausible; neither proved. |
 
-### Negative Results
-- No contemporary document naming Eudes found in any source.
-- No wife's name recorded in any source.
-- No specific Scandinavian origin (Denmark / Norway / island) attributable.
-- Rollo's own Norse ancestry does NOT transfer to the Gurney line — Eudes was a companion, not a family member.
-- *Herald and Genealogist* vols. 1, 2, 5–8 not yet searched for additional heraldic or biographical references — see `sources/validations/nichols-herald-v3.md`.
+---
 
-### Open Questions
-1. Does the *MS. Histoire de Gournay* (cited by DG and Hannay) survive in the Archives Départementales de Seine-Maritime or the Bibliothèque municipale de Rouen?
-2. The Hannay book (Internet Archive: "threehundredyear00hann") — the full OCR text has now been reviewed. The chapter on Eudes (Ch. I) provides no new primary evidence beyond DG, but offers the strongest published defence of the tradition.
-3. The Red Book Roll entry — the full Liber Niger Scaccarii (Hearne ed., 1774) could be checked for the original Latin text of the twelve-knight obligation.
-4. Remaining *Herald and Genealogist* volumes (1, 2, 5–8) — potential for incidental Gournay references, especially reviews of the 1858 DG Supplement.
+## Fact Sheet Improvement Notes
 
-### Potential Hero Images
-- **Collégiale Saint-Hildevert, Gournay-en-Bray**: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/800px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg — 12th-century church on/near the original castle site. Best visual anchor for the town.
-- **Gournay-en-Bray town view**: Search Wikimedia Commons for "Gournay-en-Bray" for aerial or panoramic views of the Pays de Bray.
-- **Treaty of Saint-Clair-sur-Epte illustration**: Various public-domain 19th-century depictions of Rollo's treaty exist on Wikimedia Commons.
-- **13th-century tower remnant, Gournay**: Per "Les remparts de Gournay-en-Bray" — a tower from the early 13th century survives at Gournay. Photo available at: http://www.gournay-en-bray.fr/mairie/histoire/
+The G37 fact sheet is well-written and among the strongest narratives in the collection. Specific suggestions for next revision:
 
-### Contextual Note: Generation Number
-The JSON uses "G~37" (with tilde) to flag the uncertain generational count at this remote date. The JSON V3 numbering (G~37) is the authoritative current version.
+1. **Death date:** Change "c. 912" to "after 911, date unknown" — the current date implies he died immediately after the grant, which is unfounded.
+2. **Dudo source caveat:** The *funiculo* quotation is excellent, but a brief caveat that Dudo wrote ~100 years after the events and is propaganda, not reportage, would strengthen the scholarly framing. Currently footnote 3 handles this implicitly but could be sharpened.
+3. **Supplement Note 1 (etymology):** The name derivation could be added as a highlight or narrative aside — it's engaging and gives the reader a tangible sense of the landscape.
+4. **Delisle criticism:** Consider a brief note that DG's genealogy was challenged by contemporary French scholars, reinforcing the "Tradition" status.
