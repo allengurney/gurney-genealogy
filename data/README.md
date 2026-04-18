@@ -4,7 +4,7 @@ Canonical structured data for the research-library spine.
 
 ## Files
 
-- `ancestors v23.json` — legacy ancestor registry with embedded location arrays.
+- `ancestors v23.json` — legacy ancestor registry with embedded location arrays. DO NOT USE.
 - `ancestors v24.json` — normalized ancestor registry with stable `recordId` values and `placeRefs`.
 - `places.json` — primary canonical place registry. Lightweight and optimized for navigation, AI consumption, website tables, and joins.
 - `places_detail.json` — supplemental place detail registry for map popups and richer site context.
