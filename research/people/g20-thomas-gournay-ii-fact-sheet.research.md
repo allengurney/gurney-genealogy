@@ -6,74 +6,69 @@ Research companion for `g20-thomas-gournay-ii-fact-sheet.md`. See AI-Rules.md §
 
 ## Working Notes
 
-*No entries yet.*
+### Thomas II's seal — Hunstanton Hall deed (DG-Supp Note 126)
+2026-04-18 — DG-Supp Note 126 (p. 814) records a deed of feoffment dated 8 June 1445 (20 Henry VI): Sir Thomas Kerdeston, Sir William Oldhalle, Thomas Gurnay, Esq., and others, to John Wode of Berston and others, of the manor called Waldgraves in East Barsham.
+
+"The seal of Thomas Gurnay on the fifth label is a poor impression in red wax of what must originally have been a beautiful signet. The legend is scarcely discernible."
+
+The deed survives in the charter room of Hunstanton Hall. This is a primary source — a surviving document sealed by Thomas II in 1445. The Hunstanton connection (the Le Strange family seat) suggests the Gurneys were part of the north-Norfolk gentry network centered on the Harpley/Barsham area.
+
+**Significance for dating:** The 1445 deed proves Thomas II was active in 1445, adding a data point beyond the existing range. The Boking fine (DG-Supp Note 123) implies Thomas I was dead before 1444. So Thomas II was acting as head of the family by 1444–1445.
+
+### Jernegan of Somerleyton — Danish origins and Spelman correction (DG-Supp Note 127)
+2026-04-18 — DG-Supp Note 127 (pp. 815–816) provides detail on Thomas II's wife Margaret's family:
+
+- The Jernegans' Danish tradition "does not appear to rest upon any documentary evidence; but is nevertheless very likely true, as these traditions are generally founded on fact."
+- No Jernegan in Domesday Book, but in the Liber Niger Scaccarii (1167), "Hugh de Gernegan held one knight's fee of the honor of Eye." This Hugh was son of the original Jernegan.
+- The Jernegans of Somerleyton are ancestors of the Jerninghams of Cossey — "the only one existing at the present day."
+- **Critical:** Margaret, daughter of Sir Thomas Jernegan, was wife of Thomas Gurney II. DG proves this by: (a) John Jernegan's letter to Margaret Paston (DG-I p. 391); (b) Elizabeth White's legacy to "her niece Margaret wife of Thomas Gurnay" (DG-I p. 395).
+- **Spelman correction:** "Sir H. Spelman is therefore wrong in stating, at page 318, that Margaret Jernegan married John Gournay V." She married Thomas II, not Sir John.
+
+### The 1471 will — textile bequest (DG-I p. 282)
+2026-04-18 — Already in existing companion and fact sheet. DG-I p. 282: "all the woolen and linen cloths are left to Margaret his wife, being her own work and that of her servants." This is rare first-person evidence of a 15th-century gentry wife running a productive household textile operation.
+
+The will also shows Thomas II had three residences: West Barsham, Harpley, and a Norwich town house in St Gregory's parish. DG-I p. 280 explains: "every manor had a residence for the lord, where, before the existence of rents, he removed with his family to consume the produce of each estate."
+
+### Wars of the Roses context
+2026-04-18 — Thomas II died and was buried during the closing weeks of the Wars of the Roses. Will proved 27 July 1471 — about twelve weeks after Edward IV's decisive victory at Tewkesbury (4 May 1471). No record of Thomas's alignment. His son William IV served as Escheator under Edward IV (1466) and was feoffee for Lord Scales (1497) — both Yorkist connections (DG-Supp Note 129). This suggests the family was Yorkist, though Thomas II's own position is undocumented.
 
 ---
 
 ## Landholdings
 
-Thomas II's portfolio was substantial — perhaps 8–10 manors across Norfolk and Suffolk, plus a Norwich town house. His wife's textile work (bequest to Margaret in the 1471 will: "all the woolen and linen cloths ... being her own work and that of her servants") and his flocks would have made him comfortable without being magnate-level; he was solidly within the substantial (but not titled) Norfolk gentry.
-
 | Place | Period | Notes |
 |---|---|---|
-| [West Barsham, Norfolk](../places/west-barsham.md) | c. 1430 – d. 1471 | **Primary family seat.** Surviving 16th-century north wing of West Barsham Hall is Grade II listed |
-| [Harpley, Norfolk](../places/harpley.md) | c. 1430 – d. 1471 | Ancestral medieval seat, still a fully active residence. Will gives burial preference "at Harpley or Norwich, as he may die at either place" |
-| Norwich (St Gregory's parish), town house | c. 1430 – d. 1471 | Documented in 1471 will. One of three residences. St Gregory's is an ancient city parish in the heart of medieval Norwich |
-| Hingham, Norfolk (Hingham-Gurneys) | c. 1430 – d. 1471 | Held from the Bardolph heirs |
-| [Hardingham, Norfolk](../places/hardingham.md) | c. 1430 – d. 1471 | Swathings manor — long-standing family holding |
-| Saxthorpe, Norfolk (Loundhall) | c. 1430 – d. 1471 | Inherited from earlier generations (exchange by Edmund G23 per HoP biography of Sir John V) |
-| Hellesdon / Drayton, Norfolk | c. 1430 – d. 1471 | Heylesdon manors inherited through Sir John V's marriage |
-| Denver, Norfolk | c. 1430 – d. 1471 | Wauncy inheritance |
-| Depden, Suffolk | c. 1430 – d. 1471 | Wauncy inheritance (see [Suffolk](../places/suffolk.md)) |
+| [West Barsham, Norfolk](../places/west-barsham.md) | c. 1430–1471 | Primary family seat |
+| [Harpley, Norfolk](../places/harpley.md) | c. 1430–1471 | Secondary residence; burial option in will |
+| Norwich (St Gregory's parish) | c. 1430–1471 | Town house — one of three residences |
+| [Hardingham/Swathings, Norfolk](../places/hardingham.md) | c. 1430–1471 | Long-standing holding |
+| Depden, Suffolk | c. 1430–1471 | Wauncy inheritance |
 
 ---
 
-## Research Appendix
+## Open Questions
 
-### Lineage Status
-**Confirmed.** Thomas II is documented in Daniel Gurney, <em>Record</em> (1848) pedigree p. 286 with his parentage, wife, son and heir, and the exact probate date of his will (27 July 1471). Daniel Gurney, <em>Record</em> (1848) pp. 280–282 extracts substantive content from the will itself, including the three-residence statement and the bequest of woollen and linen cloths to his wife. Daniel Gurney, <em>Supplement to the Record of the House of Gournay</em> (King's Lynn: Thew & Son, 1858), pp. 814 ff., adds further material on Thomas and on the Jerningham of Somerleyton family.
+1. **Hunstanton Hall deed:** Can the 1445 deed (with Thomas II's seal) be photographed or examined? It survives in the Le Strange charter room.
+2. **Margaret Jernegan's monument:** DG-Supp Note 127 describes Sir Thomas Jernegan's monument in Somerleyton church (Suffolk). Does it survive? Arms: Jernegan impaling Appleyard.
+3. **Thomas II's will full text:** DG-I pp. 280–282 extracts key passages but does not give the complete text. Is the original in the Norwich registers?
 
-### Friction with the project JSON — for review
-1. **Birth date "fl. c. 1400–1460"** in the JSON. The "1400" lower bound is too early — his father Thomas I was active c. 1408–1450, so Thomas II cannot have been born before the 1420s at earliest, and c. 1430 is the most probable estimate (given his will in 1471 and a son born c. 1450). The "1460" upper bound is also wrong — he died in 1471. Recommend updating to "fl. c. 1430 – d. 1471."
-2. **Death year.** Project JSON captures the 1471 will but not cleanly as a death year. DG's "will proved 27 July 1471" is the clearest dating we have. Recommend "d. 1471 (will proved 27 July 1471)."
+---
 
-### The 1471 will — what we actually know from DG
-Daniel Gurney does not reproduce the full Latin text of Thomas II's will in his <em>Record</em> (1848), but the following details are confirmed:
-- **Dated at West Barsham** (location of drafting).
-- **Probate 27 July 1471** (Norwich Consistory Court, presumably).
-- **Three residences specified**: West Barsham, Harpley, and Norwich (a house in St Gregory's parish, from Daniel Gurney, <em>Record</em> (1848) p. 281).
-- **Burial preference**: "at Harpley or Norwich, as he may die at either place" — suggesting Thomas himself was aware he was dying and wished to be interred at whichever of his homes he happened to be at when death came.
-- **Bequest to wife Margaret**: "all the woolen and linen cloths ... being her own work and that of her servants."
-- **Heir**: son William Gurney IV, who succeeded to West Barsham and the full portfolio.
+## Sources Consulted
 
-The full will could likely be recovered from either (a) Daniel Gurney, <em>Supplement to the Record of the House of Gournay</em> (King's Lynn: Thew & Son, 1858), pp. 814 ff. (the Thomas Gurnay chapter); or (b) the Norfolk Record Office, Norwich Consistory Court probate registers, series NCC; or (c) the original register at Doctors' Commons, London.
+- DG-I, pp. 280–282 (will extracts: three residences, textile bequest, burial directives). [DG-I]
+- DG-I, p. 286 (pedigree). [DG-I]
+- DG-Supp, Note 126 (p. 814): Thomas II's seal on 1445 East Barsham feoffment at Hunstanton Hall. [DG-Supp]
+- DG-Supp, Note 127 (pp. 815–816): Jernegan of Somerleyton — Danish origins, Liber Niger entry, Spelman correction, marriage proof. [DG-Supp]
+- DG-Supp, Note 128 (p. 816): A "Thomas Gurnay" presented to Rushmere living 1435 — identity unknown. [DG-Supp]
+- DG-Supp, Note 129 (p. 816): William IV as Escheator, Scales feoffee — Yorkist leanings. [DG-Supp]
+- Blomefield, *History of Norfolk*, vol. vii, pp. 42–47 (West Barsham). [Blomefield]
+- Suckling, *History of Suffolk*, part V, p. 55 (Margaret Jernegan marriage proof). [Suckling]
 
-### The Jerningham of Somerleyton connection
-The Jerninghams (also spelled Jernegan) of Somerleyton, Suffolk, were among the most prominent East Anglian Catholic gentry families of the later Middle Ages. They held estates at Somerleyton, Stonham Jerningham, and elsewhere in Suffolk. In the Reformation crisis they remained firmly Catholic; **Sir Henry Jerningham** (c. 1509/10–1572) of Huntingfield was one of the principal East Anglian gentlemen who rallied to Mary I at Kenninghall and Framlingham in July 1553, helping secure her throne against the Jane Grey faction. The Jerninghams remained recusant into the 17th century.
+---
 
-The Gurney–Jerningham marriage of Thomas II and Margaret was activated again a century later when Francis Gurney G16's widow Helen Holditch married a John Jernegan as her third husband. The same network links appear repeatedly in the West Barsham family — Jerninghams, Heydons, Lovells, Pastons, Calthorpes, Spelmans — forming a dense East Anglian gentry web of marriages that recycled across generations.
+## Conflicting Information
 
-### Sources Consulted
-- Daniel Gurney, <em>Record</em> (1848), pp. 280–282, and pedigree p. 286.
-- Daniel Gurney, <em>Supplement to the Record of the House of Gournay</em> (King's Lynn: Thew & Son, 1858), pp. 814 ff. (Thomas Gurnay chapter; Jernegan of Somerleyton).
-- Ancestors_v3.json.
-
-### Negative Results
-- **Full Latin text of the 1471 will** not recovered in this session — Daniel Gurney, <em>Record</em> (1848) paraphrases but does not transcribe in full. Daniel Gurney, <em>Supplement</em> (1858) may reproduce more of it.
-- **Exact burial location** not recorded. Thomas's will gave three options; which was actually used is not stated in sources consulted.
-- **Margaret Jerningham's birth or death dates** not given in DG.
-- **Whether Thomas had siblings** is not addressed — the DG pedigree shows his father Thomas I with only the one son, Thomas II, but this may reflect documentary gaps rather than fact.
-- **No royal commissions, sheriffdom, or parliamentary service** catalogued for Thomas II — he does not appear in History of Parliament Online. He seems to have been a private Norfolk gentleman rather than a Crown servant, unlike his uncle Sir John Gurney V and his son William IV.
-
-### Open Questions for Future Research
-1. **Full text of the 1471 will** — Norfolk Record Office (NRO), Norwich Consistory Court probate series. The NCC registers for the period are largely extant. Alternatively, Daniel Gurney, <em>Supplement to the Record of the House of Gournay</em> (King's Lynn: Thew & Son, 1858), pp. 814 ff., may contain a fuller transcription.
-2. **Margaret Jerningham's birth family details** — Somerleyton Jerningham/Jernegan pedigrees should give her approximate birth year and the names of her Jerningham siblings.
-3. **St Gregory's parish, Norwich** — does any physical trace of the Gurney town house or its location survive? Blomefield's <em>History of Norfolk</em> vol. iv (Norwich) should be checked for St Gregory's parish and any Gurney references.
-4. **Harpley church medieval bench-end carvings** — these are noted as surviving by Pevsner and others. Any surviving memorials to Thomas II or his family would be expected here or at West Barsham.
-5. **Bodleian MS Tanner 175** (Henry G15's commonplace book) — Henry preserved his family papers including leases and court rolls going back to Edward III, so the manuscript may contain additional material on Thomas II's estate management.
-
-### Potential Hero Images
-- **West Barsham Hall surviving north wing** (current draft pick) — the principal seat where Thomas's will was dated. Grade II listed; Wikimedia Commons image available.
-- **St Lawrence Church, Harpley** — the medieval family church, one of Thomas's three possible burial sites. Famous for its surviving medieval bench-end carvings.
-- **St Gregory's Church, Norwich** — parish of Thomas's town house; the church still stands as St Gregory's Arts Centre (deconsecrated).
-- **Somerleyton Hall area, Suffolk** — the Jerningham family seat context, though the current Somerleyton Hall is Victorian and not the medieval Jerningham building.
+| Claim | Source A | Source B | Status |
+|---|---|---|---|
+| Margaret Jernegan married... | Spelman (DG-I p. 318): married John Gournay V | DG-Supp Note 127: married Thomas Gurney II | **DG corrects Spelman.** Proved by Jernegan letter and Elizabeth White legacy. |
