@@ -327,6 +327,21 @@
     "reviewNotes": []
   },
   {
+    "placeId": "place-east-dereham-norfolk-england",
+    "placeName": "East Dereham, Norfolk, England",
+    "longDescription": "Market town in central Norfolk. Site of the East Dereham parish church (NRO PD 86/41) where Francis Gurney (G14) and Margaret Rybett's children were baptized c.1609–1618, including the probable baptism of John Gurney-1 (G13, Entry E). The Rivett/Ryvett family — Margaret's kin — had a presence nearby at Gressenhall (3 mi) and Garveston (2 mi).",
+    "siteName": "East Dereham Parish Church",
+    "streetAddress": "",
+    "extantStatus": "extant",
+    "extantStatusDescription": "St Nicholas Church, East Dereham, remains an active parish church.",
+    "coordinateBasis": "church site",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "",
+    "heritageLabel": "",
+    "reviewNotes": []
+  },
+  {
     "placeId": "place-essex-england",
     "placeName": "Essex, England",
     "longDescription": "County-level umbrella record for Essex holdings including the Domesday manors of Ardleigh, Fordham, and Liston.",

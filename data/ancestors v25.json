@@ -550,12 +550,12 @@
     "eraKey": "The Emigrant",
     "lineageStatus": "Probable",
     "summary": "Tailor. First Gurney in North America. Estate: £55.14.6.",
-    "notables": "Tailor. FIRST GURNEY IN NORTH AMERICA. First record: June 1641, Weymouth. Married (1) Mary (surname unknown) (c.1625, England — d. 20 Sept. 1661); (2) Grissell Fletcher (12 Nov. 1661). Estate: £55.14.6. Probable arrival: 1636–1641. Grissell was a Mendon proprietor (received 20-acre allotment, Dec. 1663).",
+    "notables": "Tailor. FIRST GURNEY IN NORTH AMERICA. First record: June 1641, Weymouth. Married (1) Mary (surname unknown) (c.1630–1632, England — d. 20 Sept. 1661); (2) Grissell Fletcher (12 Nov. 1661). Estate: £55.14.6. Probable arrival: 1636–1641. Grissell was a Mendon proprietor (received 20-acre allotment, Dec. 1663).",
     "landHoldings": "• East field, mill field, east side of Great Pond — Weymouth (granted retrospectively c. 3 Feb. 1651-52; properties later granted to others as John did not permanently settle there). • 48 acres at Braintree 'in the possession of John Gurney' — Tyng inventory 25 May 1653 (NEHGR 30:432). Tenant, not owner. • Sold land in Braintree 12 Feb. 1661 (deed witnessed by son John Jr.). • Grissell applied for John's Mendon lot after his death (NEHGR 22:44).",
     "spouses": [
       {
         "name": "Mary (surname unknown)",
-        "dates": "m. c.1625 England, d. 20 Sep 1661 Braintree"
+        "dates": "m. c.1630–1632 England, d. 20 Sep 1661 Braintree"
       },
       {
         "name": "Grizzell Fletcher",
@@ -572,7 +572,7 @@
       },
       {
         "name": "Mary Gurney",
-        "dates": "c.1628–1632",
+        "dates": "c.1630–1632",
         "mother": "Mary",
         "notes": "Married Daniel Shed"
       },
@@ -611,6 +611,7 @@
     "recordId": "ancestor-g13-john-gurney-1",
     "placeRefs": [
       "place-braintree-massachusetts-usa",
+      "place-east-dereham-norfolk-england",
       "place-mendon-massachusetts-usa",
       "place-weymouth-massachusetts-usa"
     ]
@@ -711,6 +712,7 @@
     "recordId": "ancestor-g14-francis-gurney",
     "placeRefs": [
       "place-city-of-london-england",
+      "place-east-dereham-norfolk-england",
       "place-kings-lynn-norfolk-england",
       "place-west-barsham-norfolk-england"
     ]
@@ -857,7 +859,7 @@
     "eraKey": "Tudor England",
     "lineageStatus": "Confirmed",
     "summary": "Eldest son and heir-apparent of William Gurney IV (G19); died before his father; married Anne Heydon of Baconsthorpe Castle, bringing direct descent from Anne Boleyn the elder of Blickling and the Heydon-Boleyn-Howard cousinage of late-medieval Norfolk into the family.",
-    "notables": "Married Anne Heydon, daughter of Sir Henry Heydon (Privy Councillor to Henry VII and builder of Baconsthorpe Castle, English Heritage open free near Holt, Norfolk) and Anne Boleyn the elder of Blickling. Anne Boleyn the elder was sister of Sir William Boleyn, paternal grandfather of Queen Anne Boleyn — making William V's son Anthony G17 a second cousin of the queen. The marriage took place 'shortly after 28 May 1484' per modern Heydon scholarship reading Sir Henry Heydon's Prerogative Court of Canterbury will of 1503/4. Anne Heydon's siblings married into the Pastons of Caister, the Cobhams (and so to Sir Thomas Wyatt the poet), and the Lestranges of Hunstanton — the latter being the kinship that explains the appointment of William V's great-great-grandson Francis Gurney (G14) as financial agent to the Lestranges 1612–1636. Died vita patris before his father; widow Anne remarried Sir Lionel Dymoke of Ashby, Lincolnshire (d. 17 Aug. 1519), and died c. 1521.",
+    "notables": "Married Anne Heydon, daughter of Sir Henry Heydon (Privy Councillor to Henry VII and builder of Baconsthorpe Castle, English Heritage open free near Holt, Norfolk) and Anne Boleyn the elder of Blickling. Anne Boleyn the elder was sister of Sir William Boleyn, paternal grandfather of Queen Anne Boleyn — making William V's son Anthony G17 a second cousin of the queen. The marriage took place 'shortly after 28 May 1484' per modern Heydon scholarship reading Sir Henry Heydon's Prerogative Court of Canterbury will of 1503/4. Anne Heydon's siblings married into the Pastons of Caister, the Cobhams (and so to Sir Thomas Wyatt the poet), and the Lestranges of Hunstanton — the latter being the kinship that explains the appointment of William V's great-great-grandson Francis Gurney (G14) as financial agent to the Lestranges 1612–1636. Died vita patris before his father; widow Anne remarried Sir Lionel Dymoke of Ashby, Lincolnshire (d. 17 Aug. 1519), and died c. 1521. DG-Supp Note 132 provides the full IPM text (Escheats XIII Henry VIII, part 1, No. 103). Death: 16 February 1507/8. Grandson Anthony Gurnay heir, aged 30+. Son William junior predeceased him. Two trust deeds: (1) 19 September 1485 (2 Richard III) for Swathings/Hingham manors, feoffees including William Calthorpe Knt.; (2) 6 April 1505 (21 Henry VII) for West Barsham/Denver manors, feoffees including Edward Howard Knt. (future Lord Admiral). Cantley tenure: Swathings still held under the lords of Cantley — the old senior Gournay seat — 400 years after the senior line was established there.",
     "landHoldings": "• Irsted manor, Norfolk (primary documented holding). • Swathings manor in Hardingham, Norfolk — mesne lord under the senior Gournay line (documented from reign of Henry II per Daniel Gurney's Record). • Hingham-Gurneys manor.",
     "spouses": [
       {
@@ -883,7 +885,9 @@
     "placeRefs": [
       "place-hardingham-norfolk-england",
       "place-hingham-norfolk-england",
-      "place-irstead-norfolk-england"
+      "place-irstead-norfolk-england",
+      "place-west-barsham-norfolk-england",
+      "place-harpley-norfolk-england"
     ]
   },
   {
@@ -898,7 +902,7 @@
     "type": "ancestor",
     "gen": "G19",
     "name": "William Gurney IV",
-    "dates": "b. c. 1430 — d. 18 Jan. 1508",
+    "dates": "b. c. 1440–1450 — d. 18 Jan. 1507/8",
     "geography": "West Barsham; Burnham Thorpe, Norfolk",
     "eraKey": "Medieval Norfolk Gurneys",
     "lineageStatus": "Confirmed",
@@ -935,7 +939,7 @@
     "type": "ancestor",
     "gen": "G20",
     "name": "Thomas Gournay II",
-    "dates": "c. 1430 – d. before 27 July 1471 (will dated 18 March 1469/70)",
+    "dates": "fl. c. 1430 — d. 1471",
     "geography": "West Barsham, Norfolk",
     "eraKey": "Medieval Norfolk Gurneys",
     "lineageStatus": "Confirmed",
@@ -951,8 +955,8 @@
     "children": [
       {
         "name": "William Gurney IV",
-        "dates": "c. 1430 – 18 Jan. 1507/8",
-        "notes": "G19 in direct line. NAME CORRECTION: 'Edward William Gurney' was a JSON transcription error — the man's correct name is William Gurney IV, independently confirmed by Francis Blomefield (History of Norfolk vol. vii, pp. 53–65) naming 'William Gournay, junior' as receiving custody of the East Barsham manors in 14 Henry VII (1499), plus eight non-Daniel-Gurney Calthorpe-side sources naming Anne Calthorpe as 'wife of William Gurney.' Escheator for Norfolk. Married Anne Calthorpe."
+        "dates": "c. 1440–1450 — 18 Jan. 1507/8",
+        "notes": "G19 in direct line. Escheator for Norfolk under Edward IV. Married Anne Calthorpe, daughter of Sir William Calthorpe KB of Burnham Thorpe."
       }
     ],
     "buttons": [
@@ -972,7 +976,7 @@
     "type": "ancestor",
     "gen": "G21",
     "name": "Thomas Gournay I",
-    "dates": "fl. c. 1408–1450",
+    "dates": "fl. c. 1408 — d. before 1444",
     "geography": "West Barsham; Harpley; Norfolk",
     "eraKey": "Medieval Norfolk Gurneys",
     "lineageStatus": "Confirmed",
@@ -988,7 +992,7 @@
     "children": [
       {
         "name": "Thomas Gournay II",
-        "dates": "fl. c. 1430–1471",
+        "dates": "fl. c. 1430 — d. 1471",
         "notes": "G20 in direct line"
       }
     ],
@@ -1025,7 +1029,7 @@
     "children": [
       {
         "name": "Thomas Gournay I",
-        "dates": "fl. c. 1408–1450",
+        "dates": "fl. c. 1408 — d. before 1444",
         "notes": "G21 in direct line"
       }
     ],
@@ -1050,7 +1054,7 @@
     "eraKey": "Medieval Norfolk Gurneys",
     "lineageStatus": "Confirmed",
     "summary": "HISTORY OF PARLIAMENT. Steward of John of Gaunt's East Anglian estates 1372–1387.",
-    "notables": "HISTORY OF PARLIAMENT. Successful lawyer. Steward of JOHN OF GAUNT's East Anglian estates 1372–1387 — John of Gaunt was father of Henry IV, most powerful man in England after the king. Counsel sought by cities of Norwich and Bishop's Lynn.",
+    "notables": "HISTORY OF PARLIAMENT. Successful lawyer. Steward of JOHN OF GAUNT's East Anglian estates 1372–1387 — John of Gaunt was father of Henry IV, most powerful man in England after the king. Counsel sought by cities of Norwich and Bishop's Lynn. Will names four executors: Katherine his wife, John his son, Osbert de Mundeford, and Thomas Kempe. DG-II's summary omitted Katherine and John; the full Latin text (DG-Supp Note 118, from Harl. MSS. 10, fol. 144) is authoritative. Will includes a restitution clause directing heirs to compensate anyone Edmund wronged. Burial with thirteen paupers in white vestments holding torches.",
     "landHoldings": "• Harpley manor, Norfolk (principal documented holding). • Hardingham manor, Norfolk. • Land interests at Bishop's Lynn (King's Lynn) area — consistent with legal and stewardship role there. • West Barsham arrived in family through John (Gen.21) via his mother — Edmund's wife likely from the Wauncy family or Edmund himself had this connection. • Specific deeds recorded in Blomefield's History of Norfolk.",
     "spouses": [
       {
@@ -1248,7 +1252,7 @@
     "eraKey": "Junior Norfolk Branch",
     "lineageStatus": "Confirmed",
     "summary": "Present at battles of Lewes (1264) and Evesham (1265). Accompanied Edward I to Holy Land 1270.",
-    "notables": "Living 1245. Present at the battle of Lewes (1264) on the side of Sir Henry Hastings against Henry III, and at the battle of Evesham (1265). Estate seized by Earl Warren as a rebel. Presented by jury of Mitford in 1257 for not being knighted. Accompanied Prince Edward (later Edward I) to the Holy Land in 1270. Arms: Argent, a cross engrailed gules — borne by his descendants ever since. Source: DG Record, Part I, pp.279, 286; Blomefield, History of Norfolk.",
+    "notables": "Living 1245. Present at the battle of Lewes (1264) on the side of Sir Henry Hastings against Henry III, and at the battle of Evesham (1265). Estate seized by Earl Warren as a rebel. Presented by jury of Mitford in 1257 for not being knighted. Accompanied Prince Edward (later Edward I) to the Holy Land in 1270. Arms: Argent, a cross engrailed gules — borne by his descendants ever since. Source: DG Record, Part I, pp.279, 286; Blomefield, History of Norfolk. DG-Supp Note 112 preserves the full Latin text of the South Wootton plea (1264): livestock inventory of 3 horses, 4 oxen, 14 cows, 171 sheep seized because John 'was in the conflict of Lewes against the Lord King.' DG-Supp Note 114 gives the full Latin text of the Crusade letters of protection (Rot. Patent 54 Hen. III, 1270). Rotuli Hundredorum 1274 shows Harpley tenure chain: King → Earl Warren → Caletorp → Gournay.",
     "landHoldings": "• Harpley manor, Norfolk. • Hardingham manor. • Swathings in Hardingham.",
     "spouses": [],
     "children": [
@@ -1281,9 +1285,14 @@
     "eraKey": "Junior Norfolk Branch",
     "lineageStatus": "Confirmed",
     "summary": "Son of Matthew de Gournay. Father of Sir John I. Living 1234 and 1243.",
-    "notables": "Son of Matthew de Gournay and Rose de Burnham. Living 1234 and 1243 per pedigree. Father of Sir John de Gournay I. Source: DG Record, Part I, pedigree p.286.",
+    "notables": "Son of Matthew de Gournay and Rose de Burnham. Living 1234 and 1243 per pedigree. Father of Sir John de Gournay I. Source: DG Record, Part I, pedigree p.286. DG-Supp Note 111: William witnessed a charter of William de Clifford to the Abbey of Dore, Herefordshire, in 1220 (Dodsworth MS. 42, Bodleian Library).",
     "landHoldings": "• Harpley manor, Norfolk (inherited from father Matthew). • Hardingham/Swathings.",
-    "spouses": [],
+    "spouses": [
+      {
+        "name": "Katherine",
+        "notes": "DG-I pedigree calls her 'probably a Baconsthorpe.' DG-Supp Note 113 (1858) proposes she was an Ingoldesthorpe, based on a fine at DG-I p. 325. The two identifications are unresolved — they may represent the same woman (with the Supplement being DG's later, more considered opinion) or two different Katherines in successive generations (G28 and G26)."
+      }
+    ],
     "children": [
       {
         "name": "Sir John de Gournay I",
@@ -1308,12 +1317,12 @@
     "type": "ancestor",
     "gen": "G29",
     "name": "Matthew de Gournay",
-    "dates": "fl. c. 1180–1220",
+    "dates": "fl. c. 1180 — living 1217",
     "geography": "Harpley; Hardingham; Norfolk",
     "eraKey": "Junior Norfolk Branch",
     "lineageStatus": "Confirmed",
     "summary": "Married Rose de Burnham c.1183. Acquired Gurney's manor in Harpley through her.",
-    "notables": "Son of William de Gournay I. Hameline Plantagenet, Earl Warren, gave in marriage his kinswoman Rose, daughter and heir of Reginald de Burnham (Fitz-Philip), about the year 1183. Through Rose he acquired Gurney's manor in Harpley, Norfolk. Gave tithes of Hardingham to the church (Harl. MSS. 970). Held manor of Swathings in Hardingham. Source: DG Record, Part I, pp.278-279, 286; Blomefield, History of Norfolk (Harpley).",
+    "notables": "Son of William de Gournay I. Hameline Plantagenet, Earl Warren, gave in marriage his kinswoman Rose, daughter and heir of Reginald de Burnham (Fitz-Philip), about the year 1183. Through Rose he acquired Gurney's manor in Harpley, Norfolk. Gave tithes of Hardingham to the church (Harl. MSS. 970). Held manor of Swathings in Hardingham. Source: DG Record, Part I, pp.278-279, 286; Blomefield, History of Norfolk (Harpley). DG Supplement Note 109 corrects the main text: Matthew was living in 1217 (Fine Roll 2 Henry III), paying 20 marks for a writ of attaint concerning his tenement of Swathings.",
     "landHoldings": "• Gurney's manor in Harpley, Norfolk (acquired through marriage to Rose de Burnham c.1183). • Swathings manor in Hardingham. • Runhall.",
     "spouses": [
       {
@@ -1692,7 +1701,7 @@
     "type": "ancestor",
     "gen": "G~37",
     "name": "Eudes (Odon) de Gournay",
-    "dates": "c. 860 — d. c. 912",
+    "dates": "c. 860 — d. after 911",
     "geography": "Scandinavia → Gournay-en-Bray, Normandy (Seine-Maritime dept., France)",
     "eraKey": "Viking Origin",
     "lineageStatus": "Tradition",

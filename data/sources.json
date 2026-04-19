@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.4.0",
+    "version": "1.5.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-04-18",
+    "lastUpdated": "2026-04-19",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
@@ -140,14 +140,14 @@
     },
     "anderson-gmd-2015": {
       "shortTitle": "Anderson, Great Migration Directory",
-      "citation": "Anderson, Robert Charles. The Great Migration Directory: Immigrants to New England, 1620–1640: A Concise Compendium. Boston: NEHGS, 2015.",
+      "citation": "Anderson, Robert Charles. The Great Migration Directory: Immigrants to New England, 1620–1640: A Concise Compendium. 2nd ed. Boston: NEHGS, 2025.",
       "archive": "Project knowledge / corpus extract",
       "url": null,
       "corpusStatus": "partial",
       "corpusPath": "sources/corpus/The Great Migration Directory 2025 Page 158.txt",
       "mediaPath": null,
       "validationPath": "sources/validations/anderson-gmd-2015.md",
-      "notes": "John Gurney-1 entry. Assigns 'Unknown' English origin = implicit rejection of Banks's Bury St. Edmunds attribution under modern standards. Arrival date: 1636 — discrepancy with June 1641 Weymouth record; unresolved."
+      "notes": "John Gurney-1 entry (p. 158). Assigns 'Unknown' English origin = implicit rejection of Banks's BSE attribution. Arrival 1636. Settlements: Boston, Braintree only (Weymouth excluded). Six sources cited: WJ 2:422; MBCR 1:331; NEHGR 62:94; SPR Case #338; Weymouth Hist 3:251; TAG 10:70-73. 2025 edition consulted April 2026."
     },
     "banks-brownell-1937": {
       "shortTitle": "Banks/Brownell, Topographical Dictionary (1937)",
@@ -445,6 +445,72 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "Book VII (pp. 474–533) covers the Gournay line as a branch of the House of Yvery. Primarily treats the Somerset/Harpetree Gournays. P. 474: confirms Hugh III's Domesday holdings and Bec retirement (pre-dating DG by 106 years). P. 478: brief aside on Norfolk Gournays with a DIFFERENT genealogy from DG — gives Matthew as the first Norfolk Gournay, with sons Thomas and William, not matching DG's Walter→William→Matthew sequence. The 1742 Norfolk pedigree is compressed and less well-sourced than DG (1848). Anderson died before completion; William Whiston Jr. revised. Passed the College of Arms."
+    },
+    "sprague-braintree": {
+      "shortTitle": "Sprague, Genealogies of Braintree",
+      "citation": "Sprague, Waldo Chamberlain. Genealogies of the Families of Braintree, Mass., 1640–1850. Boston: New England Historic Genealogical Society, 2001.",
+      "archive": "NEHGS",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "p. 695: John Gurney entry. Lists children (Sarah, Mary, Richard, John Jr., Peter). Notes Stewkley baptism 21 Feb 1602/3 as possible match. Primary compiled source for John Gurney-1's colonial family."
+    },
+    "savage-dictionary": {
+      "shortTitle": "Savage, Genealogical Dictionary",
+      "citation": "Savage, James. A Genealogical Dictionary of the First Settlers of New England. 4 vols. Boston: Little, Brown, 1860–1862.",
+      "archive": null,
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Earliest comprehensive reference for John Gurney-1. Cites the 1653 deposition 'aged about 50.'"
+    },
+    "nps-adams-nhp": {
+      "shortTitle": "NPS Adams National Historical Park CLR",
+      "citation": "National Park Service. Cultural Landscape Report, Adams National Historical Park, Quincy, Massachusetts.",
+      "archive": "National Park Service",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Independent non-genealogical source identifying John Gurney among early Braintree tenants within the future park boundaries. Reports John died with no land."
+    },
+    "tna-pcc-probate": {
+      "shortTitle": "TNA PCC Probate Records",
+      "citation": "The National Archives, Kew. Prerogative Court of Canterbury wills and probate acts.",
+      "archive": "The National Archives, Kew",
+      "url": "https://www.nationalarchives.gov.uk/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "13 probate items examined for John Gurney emigrant elimination. 7 John Gurneys confirmed in England post-1637 (St Botolph Aldgate, Winkfield, Aylesbury, East Grinstead, Albury, East Chiltington x2). 6 contextual records (Anne Gurney Eythorne, Daniel Gurney Aylesbury, William Gurney London, Richard Gurney London, Sir Richard Gurney, Tobias/Edward Gurney). Full analysis in research/case-files/john-gurney-research-companion.md."
+    },
+    "protestation-returns": {
+      "shortTitle": "Protestation Returns 1641–42",
+      "citation": "Protestation Returns, 1641–1642. Parliamentary Archives; London Metropolitan Archives (City of London rolls).",
+      "archive": "Parliamentary Archives; LMA",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Searched via Findmypast. Key findings: No John Gurney in Buckinghamshire (15+ other Gurneys found). William Gurney at St Stephen Coleman Street. Abel Gurney at St Pancras Soper Lane. City of London returns do not survive (Gibson & Dell). Eythorne John confirmed alive."
+    },
+    "gibson-dell-protestation": {
+      "shortTitle": "Gibson & Dell, Protestation Returns guide",
+      "citation": "Gibson, Jeremy, and Alan Dell. Protestation Returns 1641–1642, and Other Contemporary Listings. Federation of Family History Societies, 1995; revised 2004.",
+      "archive": null,
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "County coverage chart used to assess significance of absences. London City = NONE, Norfolk = NONE, Suffolk = NONE, Essex = Slight, Bucks = Slight (but Stewkley well-represented)."
     }
   }
 }

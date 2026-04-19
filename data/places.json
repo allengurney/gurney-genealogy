@@ -609,6 +609,35 @@
     "filename": "dexter-mi.md"
   },
   {
+    "placeId": "place-east-dereham-norfolk-england",
+    "name": "East Dereham, Norfolk, England",
+    "aliases": [
+      "East Dereham",
+      "Dereham"
+    ],
+    "shortDescription": "Baptism parish for Francis Gurney's children",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 52.6819,
+      "lng": 0.9419
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g14-francis-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "role": "individual geography"
+      }
+    ],
+    "filename": "east-dereham.md"
+  },
+  {
     "placeId": "place-essex-england",
     "name": "Essex, England",
     "aliases": [
@@ -1041,6 +1070,10 @@
       {
         "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
         "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g18-william-gurney-v",
+        "role": "landholding / property reference"
       }
     ],
     "filename": "harpley.md"
@@ -1908,6 +1941,14 @@
       },
       {
         "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g18-william-gurney-v",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g18-william-gurney-v",
         "role": "individual geography"
       }
     ],
