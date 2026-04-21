@@ -31,7 +31,9 @@ Not allowed here:
 - exploratory reasoning dumps
 
 ## Editorial posture
-- Respect Allen’s prose.
+- Respect Allen’s prose yet offer suggestions for improvement.
+- Fact sheets are engaging, insightful, and enjoyable to read. Readers are not subject matter experts.
+- Fact sheets are concise yet include interesting anecdotes and stories, historically significant events and people, and unexpected findings.   
 - Edit only when a fact, citation, clarity issue, or structural improvement warrants it.
 - Prefer light-touch revision over stylistic churn.
 - Preserve the published feel.
@@ -51,7 +53,7 @@ Not allowed here:
 ## Promotion standard
 Before adding a new claim to a fact sheet, ask:
 - Is this claim durable enough for publication?
-- Is the evidence strong enough?
+- Is the evidence strong enough or appropriately and objectively phrased?
 - Is the claim phrased at the right confidence level?
 - Would a future reader be able to trace the support quickly?
 

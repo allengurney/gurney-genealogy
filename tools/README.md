@@ -1,12 +1,14 @@
 # tools/
 
-Lineage-specific tools and interactive artifacts. Currently Gurney-only; when a tool proves generally useful, it gets extracted to a cross-lineage repo.
+Lineage-specific tools and interactive artifacts.
 
-## Contents
+## Current use
+This directory holds exploratory or utility artifacts that support the genealogy workflow but are not themselves canonical research content.
 
-- `pedigree-explorer.html` — interactive pedigree explorer, G1 → G37. Standalone HTML with `ancestors_v23.json` embedded. To regenerate after data changes, rebuild from `data/master.json`.
+## Principle
+If a tool becomes broadly reusable, consider moving it to a more general repo or toolset.
 
-## Planned
-
-- A browser tool over `data/master.json` and `data/sources.json` for finding orphan facts, orphan sources, and coverage gaps.
-- A Candidate B timeline visualizer once the case file stabilizes.
+## AI / automation guidance
+General repo behavior still applies.
+See:
+- `.claude/CLAUDE.md`

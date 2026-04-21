@@ -16,6 +16,7 @@ Typical uses:
 - align markdown footnotes with `data/sources.json`
 - clean up duplicated, weak, or ambiguous notes
 - audit a fact sheet or research file for unsupported claims
+- locate the source (local, internet, or otherwise) in order to complete a citation when incorrect or missing.
 
 ## Core objective
 Make the file more rigorous without rewriting it unnecessarily.
@@ -56,7 +57,7 @@ Make the file more rigorous without rewriting it unnecessarily.
 
 ## Constraints
 - Do not invent support.
-- If support is weak or absent, mark it clearly or recommend moving the claim out of the fact sheet.
+- If support is weak or absent, mark it clearly.
 - Do not turn a polished fact sheet into a research dump.
 - Do not delete meaningful caveats just to make the prose cleaner.
 

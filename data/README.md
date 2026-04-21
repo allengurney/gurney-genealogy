@@ -1,35 +1,21 @@
 # data/
 
-Canonical structured data for the research-library spine.
+Canonical structured data for the research spine.
 
 ## Files
-
-- `ancestors v{XX}.json` where {xx} is the version number (V26 at the time of writing) — Ancestor registry with embedded location arrays.  USE THE LATEST VERSION - DO NOT USE OLDER VERSIONS.
-- `places.json` — primary canonical place registry. Lightweight and optimized for navigation, AI consumption, website tables, and joins.
-- `places_detail.json` — supplemental place detail registry for map popups and richer site context.
-- `master.json` — broader canonical person/source registry used elsewhere in the repo.
-- `sources.json` — bibliography and citation registry.
-
-## Geography model
-
-Use a two-layer place model:
-
-1. `places.json`
-   - one row per canonical place
-   - compact fields only
-   - canonical filename, aliases, coordinate, place type, short description, and ancestor/place-role links
-
-2. `places_detail.json`
-   - one row per canonical place
-   - supplemental fields only
-   - long description, site / address detail, extant-status detail, selected image / heritage links, and normalization review notes
-
-This is not a rigid relational database. Keep it small, navigable, and easy to join.
+- `ancestors v24.json` — current canonical ancestor registry
+- `ancestors v23.json` — legacy file; do not use for new work
+- `places.json` — primary canonical place registry
+- `places_detail.json` — supplemental place detail layer
+- `master.json` — broader canonical registry used elsewhere in the repo
+- `sources.json` — bibliography and citation registry
 
 ## Discipline
+- Keep this layer compact, canonical, and joinable.
+- Put narrative discussion, open questions, and long reasoning in `research/`.
+- Keep source references aligned with `sources.json`.
 
-- `places.json` is the primary place spine.
-- `places_detail.json` must not duplicate place datasets that already exist in `places.json`.
-- Normalize multiple prior occurrences of the same place into one canonical record.
-- Choose one best coordinate and one best precision level per place. Do not synthesize derivative coordinates.
-- Keep rich narrative, citation discussion, and open questions in `research/places/*.md`.
+## AI / automation guidance
+See:
+- `.claude/rules/data-json.md`
+- `.claude/rules/citations.md`

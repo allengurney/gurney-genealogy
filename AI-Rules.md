@@ -44,37 +44,6 @@ tools/           lineage-specific artifacts (pedigree-explorer.html)
 
 ---
 
-## 3. Workflow
-
-### Default mode: Claude commits via MCP
-
-Allen rarely wants to run things locally. Claude proceeds via MCP for all ongoing research work — committing findings, notes, fact updates, new files, edits to research companions. Don't ask Allen to do something locally that MCP can do.
-
-### The one exception: bulk file restructures
-
-For one-time bulk operations across 10+ files (splitting, renaming, restructuring), a tested local script is acceptable when MCP would require dozens of round-trip tool calls. Claude provides the script; Allen runs it once and pushes. After that, all subsequent commits to the restructured files go through MCP.
-
-This is a narrow exception. The default is MCP. If in doubt, do it via MCP.
-
-### The paired-file rule: every ancestor gets two files
-
-Each direct-line ancestor has a paired set:
-
-**Narrative file** (`fact-sheets/g{NN}-{slug}-fact-sheet.md`):
-- YAML front matter, vitals, highlights, children table, narrative prose, citations, related links.
-- Allen's wordsmithed work. Respect the prose — edit only when facts change.
-- Published to the website via Eleventy. Stable. Changes only when the published content changes.
-
-**Research companion** (`research/people/g{NN}-{slug}-fact-sheet.research.md`):
-- The lab notebook. All accumulated research detail for this ancestor.
-- Sections: Working Notes, Open Questions, Sources Consulted, Conflicting Information, Search Notes & Next Steps, Working Hypotheses, Raw Data / Transcriptions.
-- This is the file that grows during research sessions. Frequent small commits here.
-- Eleventy build skips `*.research.md` files — no HTML comment markers needed.
-
-**Why split — and why the companion lives in `research/people/`:** The narrative file stays small and stable (~5–15KB) in `fact-sheets/`, which is a clean published-content directory. The research companion absorbs frequent commits in `research/people/` alongside non-ancestor research (Margaret Rybett, laceweaver Francis, candidate matches). A researcher looking at a person — ancestor or not — finds all accumulated research in one place.
-
-*Filename note:* existing companions carry the `-fact-sheet.research.md` suffix as an artifact of the original local split. New files created for ancestors who don't yet have a fact sheet should use `g{NN}-{slug}.md` (pre-fact-sheet staging convention). If and when they get a fact sheet, rename to `g{NN}-{slug}-fact-sheet.research.md`.
-
 ### What goes where — narrative vs. research companion
 
 **Narrative file** — crisp ancestor summary. A sentence or two per event. The published view.
@@ -87,95 +56,8 @@ Each direct-line ancestor has a paired set:
 
 No promotion workflow. New findings go directly where they belong: if it's a fact-sheet-level finding (corrects a date, fills a gap, same weight as existing content), update the narrative. If it's detail, context, source extract, or supporting material, it goes in the companion. This is a judgment call, not a rule engine.
 
-### Findings vs. source provenance — the critical distinction
-
-**Findings go to the subject. Source files are thin audit trail.**
-
-When examining a source (parish register, published compilation, archival document), the evaluation produces two kinds of output that land in different places:
-
-1. **Findings about a person, place, or topic** → go to that subject's file:
-   - Facts established → `research/people/g{NN}-{slug}-fact-sheet.research.md` (or pre-fact-sheet stub, or non-ancestor file)
-   - Geographic findings → `research/places/{place}.md`
-   - Cross-cutting analysis → `research/topics/{topic}.md`
-   - Long-form hypothesis work → `research/case-files/{case}.md`
-   - Open items / action items → on the subject's file, not the source's
-   - Negative results → on the subject's file (a negative about John goes on John's file)
-
-2. **Source provenance** → `sources/validations/{source-id}.md`:
-   - WHAT was examined (which volume, which pages, what scope)
-   - HOW it was examined (image analysis, text search, paleographic review)
-   - Scope limitations (what was NOT examined)
-   - Pointer(s) to where findings landed
-
-The validation file is deliberately thin. It answers "what did we do with this source?" It does NOT answer "what did we learn about John?" — that answer lives on John's file.
-
-**Example:** Evaluating Anderson's *Great Migration Directory* entry for John Gurney-1 produces:
-- John's file gets: "Anderson GMD p. 158 gives origin Unknown, arrival 1636, settlements Boston + Braintree only" + the 6-source citation pull list + open items (pull TAG, pull NEHGR, reconcile 1636 vs 1641).
-- Anderson's validation file gets: "Examined p. 158 extract on 2026-04-08. Full directory not extracted. Findings logged at `research/people/g13-john-gurney-1.research.md`."
-
-This prevents findings from being buried where no one researching the subject would look.
-
-### Working Notes section (in research companion)
-
-The Working Notes section is a running field journal. Rules:
-
-**Include actual content.** Not "found a register entry" but the entry itself: dates, names, parish, transcription, what it establishes. If Allen shares a record, capture the substance.
-
-**Organize by topic/finding/source, not by date.** Group related observations under descriptive sub-headings. Use date stamps within entries when useful for the trail, but the primary structure is thematic. If no obvious topic grouping, fall back to chronological.
-
-Example structure:
-```
-## Working Notes
-
-### East Dereham sibling search
-2026-04-14 — Searched Ancestry Norfolk parish collection for siblings of Francis G14.
-Entry A: "Edward son of ffrancis Gurney" bpt. [date], East Dereham. Confirmed.
-Entry C: "Agnes daughter of ffrancis Gurney" bpt. [date]. Confirmed.
-No match for Peter in any East Dereham entry 1580–1640 (expected negative).
-
-### Basilia Flaitel connection
-2026-04-14 — DG-I-48 names Basilia's niece Anfride at Bec alongside Eva (wife of 
-William Crispin). Anfride not in the pedigree. Who is she? Possible Flaitel 
-collateral worth tracing if Flaitel scholarship exists.
-
-### OCR quirk log
-"Basiha" appears 10× in DG corpus vs. 52 correct "Basilia." Flag when quoting.
-```
-
-### research/people/ — both ancestors and non-ancestors
-
-This directory holds:
-- **Ancestor research companions** (paired to fact sheets): `g{NN}-{slug}-fact-sheet.research.md`
-- **Pre-fact-sheet ancestors:** `g{NN}-{slug}.md` — when an ancestor doesn't yet have a fact sheet but research is accumulating (e.g., John Gurney-1 at G13 while Candidate B is still probable-not-confirmed)
-- **Non-ancestor research subjects:** Margaret Rybett, laceweaver Francis, Ann Gurney of Hingham, candidate matches, disambiguation targets — use descriptive slugs without generation prefix
-
-### Commit cadence
-Commit in the moment when durable content surfaces — not at session end. Atomic commits (one logical change each). Descriptive message. Don't batch unrelated changes.
-
 ### Log discipline
 `research/log/YYYY-MM-DD.md` = index only. Points into target files. **If substantive content is accumulating in a log entry, move it to the target file.**
-
----
-
-## 4. Citation discipline
-
-### Citation key format
-- `[DG-I-278]` = Daniel Gurney, *Record*, Part I, p.278
-- `[DG-II-524]` = Part II, p.524
-- `[DG-III-525]` = Part III, p.525
-- `[DG-Supp-{page}]` = 1858 Supplement
-- `[NRO-PD12/1]` = Norfolk Record Office, PD 12/1
-- `[HoP-Gurney]` = History of Parliament Online
-- `[Blom-Harpley]` = Blomefield, *History of Norfolk*, Harpley entry
-- `[Anderson-GMD]` = Anderson, *Great Migration Directory* (2015)
-- `[Banks-Brownell]` = Banks/Brownell, *Topographical Dictionary* (1937)
-
-### Rules
-- Every fact in `data/` with a source dependency cites a `sourceId` defined in `data/sources.json`.
-- Orphan facts (no source) and orphan sources (no facts cite them) are both bugs.
-- When quoting Daniel Gurney text from `sources/corpus/`, cite book page (the `N` in `## p. N (#M) ##`), not scan sequence.
-- **Flag OCR variant characters** when quoting: "Wilham" (→William), "Basiha" (→Basilia), hyphenation breaks. Normalize silently when quoting is not the point.
-- Index entries (Boyd's, Ancestry, etc.) require image verification before treatment as established. See §9.
 
 ---
 
@@ -183,11 +65,11 @@ Commit in the moment when durable content surfaces — not at session end. Atomi
 
 - **Direct** — G1 (Allen himself)
 - **Confirmed** — multiple independent primary or highly reliable sources
-- **Probable** — best-supported hypothesis; active case file; e.g., John Gurney-1 (G13)
-- **Uncertain** — attestation exists but evidentiary gap; e.g., Hugh de Gournay I (G36)
-- **Tradition** — transmitted family lore without contemporary document; e.g., Eudes (G~37)
+- **Probable** — best-supported hypothesis; active case file
+- **Uncertain** — attestation exists but evidentiary gap
+- **Tradition** — transmitted family lore without contemporary document
 - **End of Record** — explicitly beyond the knowable
-- **Collateral** — never confuse with direct-line status.
+- **Related** — (also collateral) never confuse with direct-line status.
 
 ---
 
@@ -265,28 +147,6 @@ Ryvett claim confirmed against NRO PD 12/1 (March 2026).
 
 ---
 
-## 10. Open threads (April 2026)
-
-- **Candidate B** ~55–60%. Case file to be built: `research/case-files/candidate-b.md`.
-- **Anderson 1636 vs. Weymouth 1641** — unresolved.
-- **East Dereham Entry E** — paleographic: ffrancis > Nicholas; further validation useful.
-- **Tier 1 pulls**: TAG 10:70–73, NEHGR 62:94 — not yet obtained.
-- **Fact sheets remaining**: G21–G15 need creation (G14 exists but has no research companion; G13 John Gurney-1 pre-fact-sheet).
-- **G14 research companion**: Francis Gurney has a fact sheet but no paired research companion — needs creation.
-- **Supplement corpus**: Text extracted April 2026. Note-by-note mining for G37–G20 ancestors in progress.
-- **Blomefield corpus**: Not yet in sources.json corpus. Key independent source for Norfolk ancestors G20–G27. Available via British History Online.
-- **Rye appendix** — corpus extraction pending.
-- **Landholdings and places** — 17 place files for the G20–G37 range created 2026-04-16; linked from each research companion. See `research/places/`.
-
----
-
-## 11. Tooling
-
-- **GitHub MCP** is the default for all commits — see §3 "Default mode."
-- **Eleventy** build skips `*.research.md` files. Cloudflare Pages deploys from repo on push.
-
----
-
 ## 12. Tone
 
 Concise, direct, honest. Pushback over sycophancy. "I was wrong" when wrong. No filler.
@@ -294,28 +154,6 @@ Concise, direct, honest. Pushback over sycophancy. "I was wrong" when wrong. No 
 ---
 
 ## 13. Efficiency — don't over-engineer
-
-### Transcript migration: row-by-row, not inventory-first
-
-When processing a chat transcript for migration, the fast path is:
-
-1. **One or two** `conversation_search` calls to surface the relevant content. Stop when you have the material.
-2. Step through the transcript linearly. For each substantive row/finding, decide its target file and add it.
-3. Commit in batches of related changes (one subject file = one commit; multiple small subject files = one batched commit is also fine).
-4. Move on.
-
-Do NOT build a comprehensive inventory table before writing anything. Do NOT run 5+ searches "to make sure." The transcript is what it is; search it enough to find the material, then process it.
-
-### Small file edits: just write the file
-
-For files under ~50KB (sources.json, any markdown research file, fact sheets):
-- `get_file_contents` to fetch
-- edit inline
-- `create_or_update_file` with the full new content and the returned SHA
-
-Do NOT write a Python script to surgically edit a 20KB JSON file. The full-paste round-trip is faster and more reliable than scripting around edge cases.
-
-For files over ~200KB or operations across many files, consider `push_files` (multi-file commit) or the §3 bulk-script exception.
 
 ### Stop retrying
 

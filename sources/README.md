@@ -1,15 +1,18 @@
 # sources/
 
-Source-related material beyond the bare bibliography entries in `data/sources.json`.
+Source-related material beyond the bibliography entries in `data/sources.json`.
 
 ## Contents
+- `media/` — source images, crops, and working-reference captures
+- `validations/` — thin per-source validation worksheets
+- `media-refs.md` — optional index for media stored outside the repo
 
-- `media/` — source media (register scans, record extracts, screen captures), organized by sourceId. For now, stored in-repo since we're dealing primarily with small screengrabs.
-- `validations/` — per-source validation worksheets. When a source is examined carefully (paleography of a register entry, reconciliation of conflicting citations, confirmation of an index entry against the original image), the worksheet lives here.
-- `media-refs.md` — index for any media stored *outside* the repo (OneDrive, external archives), added later if and when repo storage becomes a concern.
+## Working principle
+Source validations record what was examined and where findings landed.
+Substantive person/place/topic findings belong in research files, not here.
 
-## Media policy
-
-Current rule: small screengrabs and record extracts live in `media/{sourceId}/`. If we start accumulating full high-resolution scans or large PDFs, we move those to OneDrive and leave low-res reference copies in the repo. Keeping media in the repo means commits are atomic — when a source is found and screenshotted, the image and its validation worksheet land in the same commit.
-
-Monitor repo size periodically. GitHub's soft guidance is <1GB; we're well under and should stay under at current accumulation rates.
+## AI / automation guidance
+See:
+- `.claude/rules/sources-validations.md`
+- `.claude/rules/sources-media.md`
+- `.claude/rules/citations.md`

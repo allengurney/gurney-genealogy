@@ -18,8 +18,8 @@ Read these as needed for directory purpose and naming:
 
 ### Canonical structured data
 - `data/` is the canonical structured spine.
-- `data/ancestors v24.json` is current canonical ancestor data.
-- `ancestors v23.json` is legacy and must not be used for new work.
+- `data/ancestors v{NN}.json` is current canonical ancestor data.
+- `data/ancestors v{NN-1}.json` is legacy and must not be used for new work.
 - `data/places.json` is the primary place registry.
 - `data/places_detail.json` is the supplemental place-detail layer.
 - `data/sources.json` is the bibliography and source registry.
@@ -63,7 +63,7 @@ Read these as needed for directory purpose and naming:
 
 ### Promote carefully
 - Fact sheets hold durable, publishable conclusions.
-- Research files hold the evidentiary trail, caveats, extracts, negative results, and open questions.
+- Research files hold the evidentiary trail, work in progress, supplemental knowledge, caveats, extracts, negative results, and open questions.
 - Do not push unresolved or weakly supported claims into published narrative.
 
 ### Citation baseline
@@ -82,11 +82,13 @@ See `.claude/rules/citations.md` for detailed citation behavior.
 - Preserve conflicts until resolved.
 - Negative results are findings and belong in the relevant subject file.
 - Index/database results require image-level verification before being treated as established.
+- Use evidence evaluation rigor appropriate for an amateur genealogist. 
 
 ### Human docs and AI rules
 - README files remain human-facing.
 - `.claude/rules/` files define Claude behavior.
 - If a README and a rule ever conflict, update both so they converge.
+- Continual improvement of rules and README files is appropriate when human approval is sought of an explicit AI request 
 
 ## Session start pattern
 On substantive work:

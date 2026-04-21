@@ -2,32 +2,20 @@
 
 Canonical place-memory files.
 
-## Authority
+## Authority split
+- `data/places.json` — canonical place registry
+- `data/places_detail.json` — supplemental detail layer
+- `research/places/*.md` — narrative place research and interpretive context
 
-`data/places.json` is the authoritative registry for:
-- canonical place name
-- `placeId`
-- filename
-- aliases
-- coordinate
-- place type
-- ancestor/place-role links
+## Use this layer for
+- why the place matters
+- place-specific record context
+- event clustering
+- unresolved place-identity issues
+- links to affected people and topics
 
-`data/places_detail.json` carries the supplemental map/detail layer.
-
-## File shape
-
-Narrative place files may contain hand-written research plus one generated block bounded by:
-
-- `<!-- GENERATED:PLACE-REGISTRY:START -->`
-- `<!-- GENERATED:PLACE-REGISTRY:END -->`
-
-Older extraction blocks are replaced during normalization.
-
-## Current normalization discipline
-
-- Preserve existing narrative research outside the generated block.
-- Keep generated content concise.
-- Keep sub-sites and street-address detail in `places_detail.json` unless the research clearly treats them as standalone places.
-- Record unresolved cleanup items as review notes only when they still matter after cleanup.
-- For U.S. place filenames, use a trailing two-letter state code even for pre-statehood places.
+## AI / automation guidance
+See:
+- `.claude/rules/research-places.md`
+- `.claude/rules/data-json.md`
+- `.claude/rules/citations.md`

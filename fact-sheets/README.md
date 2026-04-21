@@ -1,31 +1,30 @@
 # fact-sheets/
 
-**Published-only.** This directory holds ancestor narratives that Eleventy builds into the website. No research notes, no companions, no staging files.
-
-Research companions for ancestors live at `research/people/g{NN}-{slug}-fact-sheet.research.md`. See AI-Rules.md §3 for the paired-file rule.
-
-## Naming
-
-Generation number is zero-padded. Slug is short, hyphenated, disambiguating:
-
-```
-fact-sheets/g14-francis-gurney-fact-sheet.md       ← published narrative
-fact-sheets/g23-edmund-gurney-fact-sheet.md
-…
-```
+Published-only ancestor narratives.
 
 ## What belongs here
+- polished narrative
+- vitals and highlights
+- children table
+- concise contextual prose
+- citations
+- related links
 
-- YAML front matter, vitals, highlights, children table, narrative prose, citations, sidebar timeline, related links.
-- Allen's wordsmithed work. Stable. Edits happen only when published content changes.
+## What does not belong here
+- working notes
+- raw extracts beyond brief quotations
+- negative results
+- unresolved open questions
+- staging material
 
-## What does NOT belong here
+## Relationship to research
+Paired research companions live in `research/people/`.
 
-- Working notes → `research/people/g{NN}-{slug}-fact-sheet.research.md`
-- Source extracts longer than an inline quote → companion or `sources/corpus/`
-- Open questions, conjectures, negative results → companion
-- Non-ancestor research subjects → `research/people/{slug}.md`
+## Citation note
+Fact sheets should use nearby footnotes tied closely to the supported fact or finding.
 
-## Relationship to data/
-
-Structured facts come from `data/ancestors_v23.json`. Citations reference `sourceId` values in `data/sources.json`. The narrative file holds the prose; the research companion (in `research/people/`) holds the detail and analytical trail.
+## AI / automation guidance
+See:
+- `.claude/rules/fact-sheets.md`
+- `.claude/rules/citations.md`
+- `.claude/skills/citation-rigour/SKILL.md`

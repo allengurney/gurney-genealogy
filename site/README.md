@@ -1,22 +1,15 @@
 # site/
 
-Eleventy site source. Builds to the public site at genealogy.allengurney.com.
+Site-generation layer for the public genealogy site.
 
-## Currently
+## Principle
+This directory is presentation-oriented.
+Canonical facts and canonical prose live upstream in `data/` and `fact-sheets/`.
 
-Placeholder. The existing Eleventy site is deployed from elsewhere; migration into this folder is deferred until the MCP research workflow is proven over a few sessions.
+## Current state
+Migration remains in progress.
+Avoid treating this folder as the authoritative content layer.
 
-## Planned structure (once migrated)
-
-```
-site/
-├── _data/          # Eleventy data files (or symlink to /data/)
-├── _includes/      # Nunjucks templates and partials
-├── pages/          # Generated ancestor pages, index, about, etc.
-├── .eleventy.js    # Eleventy config
-└── package.json    # Build dependencies
-```
-
-## Relationship to other folders
-
-The site is *generated* from `data/` and `fact-sheets/`. It shouldn't hold canonical facts — those live upstream. Templates read from the data files; fact sheet prose is rendered into ancestor pages.
+## AI / automation guidance
+See:
+- `.claude/rules/site-generation.md`

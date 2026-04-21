@@ -1,22 +1,18 @@
 # research/case-files/
 
-Long-form investigations of contested or complex questions. The ideal case file is versioned and self-contained: timeline, bibliography, evidence analysis, probability assessment (where appropriate), and open items.
+Long-form investigations of contested or complex questions.
 
-This Case file director also may include other long form outputs such as self-compiled biographies.
+## Use this layer for
+- competing hypotheses
+- evidence weighing
+- timeline-heavy investigations
+- probability assessments
+- long-form biographies or major interpretive narratives
 
-## Active
+## Working principle
+Case files are self-contained arguments, but they should still crosslink back to the relevant people, places, and topics.
 
-- 'john-gurney-case-file-{xx}.md' where {xx} is the version number (currently v3) — the leading hypothesis for John Gurney-1's English origin: son of Francis Gurney (Merchant Taylor) and Margaret Rybett.
-- `brigadier-general-william-gurney.md' - self-written biography
-
-## Foundational materials for john-gurney-case-file-v3.md
-
-- The v3 case file was developed over time and existed in a number of formats and as a number of outputs. Those versions are included in directory "Initial foundation work for john-gurney-case-file". Given the multiple iterations and formats, most facts and findings should have carried forward but there could be some details in the foundational work worth reviewing.
-
-
-## Case files vs. topic files
-
-If a question fits on one screen and doesn't require a sustained argument with evolving evidence, it's falls in people, places, or topics. If it's a full investigation with competing hypotheses, a probability assessment, and a bibliography of its own, it's a case file.
-
-## Convention
-
+## AI / automation guidance
+See:
+- `.claude/rules/research-case-files.md`
+- `.claude/rules/citations.md`

@@ -12,8 +12,8 @@ Human-facing overview:
 `data/` is the canonical structured data spine for ancestors, places, and sources.
 
 ## Canonical files
-- `ancestors v24.json` is the active ancestor registry.
-- `ancestors v23.json` is legacy and should not be used for new work.
+- `data/ancestors v{NN}.json` is current canonical ancestor data.
+- `data/ancestors v{NN-1}.json` is legacy and must not be used for new work.
 - `places.json` is the primary place registry.
 - `places_detail.json` is supplemental.
 - `sources.json` is the source registry.
@@ -51,3 +51,4 @@ Before finishing JSON work:
 ## Citation relationship
 Structured data may not use markdown footnotes, but all source-bearing fields must still tie back to `sources.json`.
 See `.claude/rules/citations.md` for repo-wide source-traceability expectations.
+

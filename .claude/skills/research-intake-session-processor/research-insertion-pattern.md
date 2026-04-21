@@ -20,6 +20,8 @@ Example:
 
 A clipped newspaper item appears to reference William Gurney in an obituary-style notice dated 1870.[^1]
 
+{{text of obituary here or detailed summary if lengthy}}
+
 The OCR is reasonably strong on the death-notice language, but identity confirmation should still be checked against the date, place, and associated family details.[^2]
 
 See source file:
@@ -38,6 +40,7 @@ Validation note:
 
 - Write normal research prose.
 - Do not label the block as provisional.
+- Include full text of the research unless lengthy.  Text should be cleansed of OCR or related artifacts with reference to source text file for the unmodified version. If the text is lengthy, provide a detailed summary instead.
 - Keep uncertainty in the prose when uncertainty is real.
 - Use standard nearby citations.
 - Prefer one compact research addition over a verbose intake wrapper.

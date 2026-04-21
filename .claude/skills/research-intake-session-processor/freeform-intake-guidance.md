@@ -29,6 +29,7 @@ For each entry:
 3. Identify obvious person/place/topic hints.
 4. Use the surrounding text to infer intent.
 5. Look for an unclaimed matching file in `sources/intake/new/` when a filename is not explicitly stated.
+6. Read the URL page(s) to help build a citation when additional information is needed. The URL page may contain additional publication details such as author not included in the markdown.  
 
 ## File matching rules
 
