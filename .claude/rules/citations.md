@@ -25,14 +25,12 @@ These rules apply whenever Claude edits or creates citation-bearing markdown in 
 - Avoid omnibus end-of-paragraph notes unless the paragraph is genuinely one-source and one-claim.
 - When a sentence has multiple materially relevant sources, include multiple adjacent footnotes.
 
-### Example
-`Francis Gurney married Margaret Rybett in 1611.[^12][^13]`
-
 ## Research-file standard
 - New findings, quotations, transcriptions, and inferential claims should be cited.
-- Research files may contain denser note-taking than fact sheets, but they should still be source-traceable.
-- When a claim is provisional, say so explicitly and cite the basis.
+- Keep body prose focused on the finding.
+- Routine provenance mechanics should usually stay in the footnote rather than the body.
 - No research content should be inserted from intake unless it is tied to an existing or newly created `data/sources.json` entry.
+- Use explicit provisional language only when the uncertainty materially changes meaning.
 
 ## Footnote content
 Each footnote should generally include:
@@ -63,6 +61,9 @@ Each footnote should generally include:
 - Quotations must point to the exact page/entry/image when possible.
 - Preserve original spelling only when relevant.
 - If silently normalizing OCR or obvious character confusion in prose, do not present the normalized form as a verbatim quote.
+- A supplied crop, screenshot, or transcription may be cited directly when its source association is clear.
+- Do not add formulaic body-text caveats solely because the item is an extract rather than a full-page image.
+- If the extract is materially ambiguous, describe the specific ambiguity.
 
 ## Online sources
 - Include URL when available and stable enough to be useful.
