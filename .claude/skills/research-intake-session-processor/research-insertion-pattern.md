@@ -39,21 +39,15 @@ Validation note:
 ## Rules
 
 - Write normal research prose.
+- Translate non-English sources. 
+- Provide analysis or summary, particularly for a finding that is lengthy, not in modern English, or non-obvious. 
 - Do not label the block as provisional.
 - Include full text of the research unless lengthy.  Text should be cleansed of OCR or related artifacts with reference to source text file for the unmodified version. If the text is lengthy, provide a detailed summary instead.
 - Keep uncertainty in the prose when uncertainty is real.
 - Use standard nearby citations.
 - Prefer one compact research addition over a verbose intake wrapper.
 - Do not overwrite mature narrative when a small additive note is sufficient.
-
-## Placement
-
-Append under an appropriate heading near the bottom of the target research file, such as:
-- `## New research intake`
-- `## Recent source leads`
-- `## Additional research notes`
-
-If no such heading exists, create one cleanly.
+- Insert near related facts and findings. Synthesize related findings for optimal research output.
 
 ## Reversibility
 

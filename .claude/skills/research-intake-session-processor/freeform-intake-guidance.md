@@ -30,6 +30,10 @@ For each entry:
 4. Use the surrounding text to infer intent.
 5. Look for an unclaimed matching file in `sources/intake/new/` when a filename is not explicitly stated.
 6. Read the URL page(s) to help build a citation when additional information is needed. The URL page may contain additional publication details such as author not included in the markdown.  
+7. For image files, inspect and prepare to provide text contained in image. Example: extract text from image snippet of newspaper article.
+8. For URLs and no other content provided in entry, inspect the URL page for research content. 
+9. For files in sources, inspect for text. Include the text for md research files unless lengthy. For lengthy, find any and all relevant passages and prepare to include excerpts in the applicable research files.
+10. Identify which research file(s) each entry applies to and determine the specific revisions to the respective files.
 
 ## File matching rules
 

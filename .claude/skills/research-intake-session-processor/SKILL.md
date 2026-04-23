@@ -1,11 +1,13 @@
 ---
 name: research-intake-session-processor
-description: Legacy intake coordinator. Default to two-phase intake: create a repo-ready patchset from sources/intake/new/, then apply it in a separate operational pass.
+description: Intake coordinator. Default to two-phase intake: create a repo-ready patchset from sources/intake/new/, then apply it in a separate operational pass.
 argument-hint: [path to intake session markdown file or patchset]
 disable-model-invocation: true
 ---
 
 Use this skill as the intake coordinator.
+
+Objective: Assimilate free form research sourced from documents, images, internet, files, and other sources and incorporate into the applicable research files.
 
 ## Default policy
 Default to the two-phase model:
