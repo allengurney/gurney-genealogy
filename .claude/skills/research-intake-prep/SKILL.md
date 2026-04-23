@@ -20,9 +20,9 @@ Use this skill for phase 1 of intake.
 For each intake entry:
 1. parse the freeform entry
 2. identify the files, pages, and URLs
-3. inspect and extract or OCR content as needed
+3. inspect and extract text or OCR content as needed
 4. decide one outcome: promote, hold-review, duplicate, or reject
-5. determine the best research destination
+5. determine the best research destination(s)
 6. reconcile an existing sourceId or propose a new compliant one
 7. write an explicit patchset at `sources/intake/processed/vNN.patchset.md`
 
@@ -52,9 +52,9 @@ Use fenced code blocks for verbatim content to add.
 Write proposed research blocks as ordinary research notes:
 - lead with the finding
 - keep wording compact
-- no visible intake, process, OCR, or provenance narration
+- no visible intake, process, AI procedure, or provenance narration
 - no generic caveating
-- add analysis only when it adds real knowledge
+- add analysis only when it adds real knowledge or language clarification/translation
 - keep citations close to the fact
 
 ## Hold-review rule
