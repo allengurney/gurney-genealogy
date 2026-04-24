@@ -6,7 +6,15 @@ Research companion for `g15-henry-gurney-fact-sheet.md`. See AI-Rules.md §3 for
 
 ## Working Notes
 
-*No entries yet.*
+### 2026-04-23 — Bernau, *The British Archivist* (1913): new independent source for Henry's descendants
+
+Charles A. Bernau's 1913 article in *The British Archivist* on Francis Gurney of Maldon (b. 1628) opens with an independent re-attestation of Henry G15 as father of Francis G14: "a member of the Merchant Taylors' Company, and a merchant living in the parish of St. Benet Finck, London, the sixth son of Henry GOURNAY, of Great Ellingham and West Barsham, Norfolk."[^bernau-parentage] This adds a fourth independent published attestation of Henry's paternity of Francis G14 (the others being Daniel Gurney 1848, Blomefield, and the 1633/34 Heralds' Visitation of London). Bernau's source base at the Public Record Office and the St Benet Fink register is separate from Daniel Gurney's manuscript work.
+
+Bernau does not materially extend what is known about Henry himself. The value of the source for this research companion is almost entirely downstream: it documents Henry's **grandchildren through Francis G14** at St Benet Fink (Bernau's 11-item list — see conflict discussion in `research/people/g14-francis-gurney-fact-sheet.research.md`) and his **great-grandchildren through Francis Jr. of Maldon** (ten children at Maldon 1655–1667 — full biography at `research/people/francis-gurney-of-maldon.md`). One of those great-grandchildren, John of Maldon (b. 7 October 1655), is the candidate Bernau's article proposes for identification with John Gurney of St Gregory's Norwich, cordwainer, Quaker, ancestor of the Norwich banking Gurneys — making Henry G15 the shared paternal great-grandfather of both the Norwich banking Gurneys (under Bernau's proposed identification) and Allen's Massachusetts line (under the Candidate B model).
+
+Nothing in Bernau contradicts or revises any item in this companion's Research Appendix. The source is catalogued in `data/sources.json` (proposed `british-archivist-bernau-1913` — see `_CHANGES.md`).
+
+[^bernau-parentage]: Charles A. Bernau, "Unrecorded Biographies: Francis Gournay (or Gurney), of Maldon, Essex," *The British Archivist* vol. I, no. 7 (September 1913), pp. 49 ff., "His Parentage" section. Corpus extract at `sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md`.
 
 ---
 
@@ -22,6 +30,7 @@ Research companion for `g15-henry-gurney-fact-sheet.md`. See AI-Rules.md §3 for
 - **Sidney Lee, ed., <em>Dictionary of National Biography</em>**, vol. 23 (1890), s.v. "Gurney, Edmund (d. 1648)" — naming Henry as Edmund's father.
 - **Verily Anderson**, <em>Friends and Relations</em> (1980), p. 21 — preserves the epitaph verse.
 - **Pease/Pennyghael Gurney genealogy** (Charles E. G. Pease, 2016).
+- **Charles A. Bernau, *The British Archivist* I.7 (1913)** — re-attests Henry's paternity of Francis G14 from Public Record Office material independently of Daniel Gurney.
 
 Henry's father, grandfather, wife, and most of his twelve children are documented across two or more of these sources independently of Daniel Gurney.
 
@@ -77,6 +86,7 @@ Note: Blomefield's "Edm. Gurney" here is **Edward Gurney** (Henry G15's grandson
 - Steven W. May, "Henry Gurney, A Norfolk Farmer, Reads Spenser and Others," <em>Spenser Studies</em> 20 (2005), pp. 183–223 (DOI 10.1086/SPSv20p183).
 - Verily Anderson, <em>Friends and Relations: Three Centuries of Quaker Families</em> (London: Hodder & Stoughton, 1980), p. 21.
 - Pease/Pennyghael Gurney genealogy (Charles E. G. Pease, 2016), http://www.pennyghael.org.uk/Gurney.pdf.
+- Charles A. Bernau, "Unrecorded Biographies: Francis Gournay (or Gurney), of Maldon, Essex," <em>The British Archivist</em> vol. I, no. 7 (September 1913), pp. 49 ff. — independent re-attestation of Henry's paternity of Francis G14 and documentation of Henry's descendants through that branch at St Benet Fink, London, and Maldon, Essex.
 - Wikipedia, "Edmund Gurney (divine)" and "Gurney family (Norwich)."
 - Historic England, list entry 1170752 (Gurney's Manor, Hingham), and list entry 1248331 (St James, Great Ellingham).
 - Pevsner & Wilson, <em>Norfolk 2: North-West and South</em> (Buildings of England, 2nd ed. 1999), pp. 365–366.
