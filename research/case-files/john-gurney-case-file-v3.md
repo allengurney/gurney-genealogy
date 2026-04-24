@@ -253,6 +253,9 @@ A central method in emigrant-identification is eliminating other John Gurneys wh
 | Ackworth, Yorkshire | Yorkshire | **Mary** Barton | **Very unlikely** | Correct wife name but far outside emigrant corridor. |
 | Cheddington, Bucks | Bucks | — | **ELIMINATED** | Father is Richard Gurney, not John. Part of Isaac Gurney clan. |
 | St Giles Cripplegate, London | London | — | **ELIMINATED** | Died age 2 days. Son of Francis B (the laceweaver). |
+| Maldon, Essex (bachelor)<br />2nd John son of Francis G14 | Maldon, Essex | (unmarried) | **ELIMINATED** | Bachelor; died 1681; Householder at St Mary's Maldon paying hearth tax on 9 hearths in 1674. <sup class="fn"><a href="#n65" id="ref-65">65</a></sup> |
+
+
 
 ### 8.1 Buckinghamshire Cluster Note
 
@@ -454,6 +457,7 @@ Davis, *Ancestry of Abel Lunt* (1963). • Laslett, *World We Have Lost* (1965).
   <li id="n61">Shed genealogy; Browning family of Norwich/Maldon. <a class="backref" href="#ref-61">↩</a></li>
   <li id="n62">Protestation Returns 1641–42; Calder, <em>New Haven Colony</em> (1934). <a class="backref" href="#ref-62">↩</a></li>
   <li id="n64">Banks, <em>Topographical Dictionary</em> (1937), p. 151. <a class="backref" href="#ref-64">↩</a></li>
+    <li id="n65">Bernau, <em>British Archivist</em> vol. I, no. 7 (September 1913), "His Parents' Children" section, item 9, citing Lay Subsidy 246/22 (1674 Hearth Tax). Corpus extract at <code>sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md</code>. Source ID: <code>british-archivist-bernau-1913</code>. <a class="backref" href="#ref-65">↩</a></li>
 </ol>
 
 *Case File V3 — April 2026. Supersedes V2 (March 2026). Prepared by Allen Lawrence Gurney with AI research assistance.*
