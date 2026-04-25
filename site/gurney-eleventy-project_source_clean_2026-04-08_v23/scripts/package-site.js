@@ -12,9 +12,11 @@ const requiredEntries = [
   "assets/site.css",
   "assets/explorer.css",
   "assets/refactor.css",
+  "assets/phase2.css",
   "assets/pedigree-explorer.js",
   "maps-and-lists/ancestor-table.html",
   "maps-and-lists/ancestor-map.html",
+  "maps-and-lists/places.html",
 ];
 
 function psQuote(value) {
@@ -108,3 +110,4 @@ try {
 }
 
 console.log(`Packaged manual Cloudflare upload zip: ${path.relative(projectRoot, zipPath).replace(/\\/g, "/")}`);
+
