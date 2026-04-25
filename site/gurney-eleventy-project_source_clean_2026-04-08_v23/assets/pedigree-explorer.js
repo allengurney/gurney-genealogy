@@ -8,7 +8,7 @@
   const resultCount = page.querySelector("[data-result-count]");
   const modeButtons = Array.from(page.querySelectorAll("[data-catalog-mode]"));
   const eraButtons = Array.from(page.querySelectorAll("[data-era-filter]"));
-  const relatedToggle = page.querySelector("[data-related-toggle]");
+  const relatedButtons = Array.from(page.querySelectorAll("[data-related-mode]"));
   const catalogPanel = page.querySelector("[data-catalog-panel]");
   const tablePanel = page.querySelector("[data-table-panel]");
   const drawer = page.querySelector("[data-detail-drawer]");
@@ -95,13 +95,14 @@
     }
 
     const map = window.L.map(mapNode, {
-      zoomControl: false,
-      attributionControl: false,
+      zoomControl: true,
+      attributionControl: true,
       scrollWheelZoom: false,
     });
 
-    window.L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    window.L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
       maxZoom: 18,
+      attribution: "&copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors &copy; <a href='https://carto.com/attributions'>CARTO</a>",
     }).addTo(map);
 
     const bounds = [];
@@ -172,10 +173,11 @@
 
   function setRelated(value) {
     includeRelated = Boolean(value);
-    if (relatedToggle) {
-      relatedToggle.classList.toggle("is-active", includeRelated);
-      relatedToggle.setAttribute("aria-pressed", includeRelated ? "true" : "false");
-    }
+    relatedButtons.forEach(button => {
+      const active = includeRelated ? button.dataset.relatedMode === "related" : button.dataset.relatedMode === "direct";
+      button.classList.toggle("is-active", active);
+      button.setAttribute("aria-pressed", active ? "true" : "false");
+    });
     try { window.localStorage.setItem("gurneyIncludeRelated", includeRelated ? "true" : "false"); } catch (err) {}
     applyFilters();
   }
@@ -204,9 +206,9 @@
     });
   });
 
-  if (relatedToggle) {
-    relatedToggle.addEventListener("click", () => setRelated(!includeRelated));
-  }
+  relatedButtons.forEach(button => {
+    button.addEventListener("click", () => setRelated(button.dataset.relatedMode === "related"));
+  });
   if (closeButton) closeButton.addEventListener("click", closeDrawer);
   if (backdrop) backdrop.addEventListener("click", closeDrawer);
 
