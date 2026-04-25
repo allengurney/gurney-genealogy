@@ -11,10 +11,9 @@ updated: 25 April 2026
 ---
 
 <div data-pedigree-explorer>
-  <p class="explorer-crumbs">Library / Pedigree Catalog</p>
   <header class="explorer-head explorer-head-with-stats">
     <div>
-      <h1 class="explorer-title">Pedigree Catalog</h1>
+      <p class="explorer-crumbs explorer-page-title">Library / Pedigree Catalog</p>
       <p class="explorer-subtitle">The Gurney direct male line, rendered from the v26 ancestor data and the current place spine. Related records can be added when a wider family context is useful.</p>
     </div>
     <div class="stats-strip compact-stats">
@@ -27,10 +26,13 @@ updated: 25 April 2026
 
   <div class="catalog-toolbar">
     <div class="mode-switch" role="group" aria-label="Catalog view">
-      <button type="button" class="is-active" data-catalog-mode="catalog" aria-pressed="true">Catalog</button>
+      <button type="button" class="is-active" data-catalog-mode="catalog" aria-pressed="true">Simple table</button>
       <button type="button" data-catalog-mode="table" aria-pressed="false">Detailed table</button>
     </div>
-    <button type="button" class="related-toggle" data-related-toggle aria-pressed="false">Related ancestors</button>
+    <div class="mode-switch related-switch" role="group" aria-label="Related ancestors display">
+      <button type="button" class="is-active" data-related-mode="direct" aria-pressed="true">Direct ancestors only</button>
+      <button type="button" data-related-mode="related" aria-pressed="false">Related ancestors</button>
+    </div>
     <div class="spacer"></div>
     <span class="result-count" data-result-count></span>
   </div>
