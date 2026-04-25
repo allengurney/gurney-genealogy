@@ -102,6 +102,10 @@ const requiredFiles = [
   "maps-and-lists/ancestor-map.html",
   "maps-and-lists/ancestor-table.njk",
   "research/highlights.md",
+  "_data/researchCompanions.js",
+  "scripts/clean-site.js",
+  "scripts/sync-site-content.js",
+  "scripts/generate-site-data.js",
   "robots.txt",
   "sitemap.xml",
   "llms.txt",
@@ -120,6 +124,14 @@ if (exists(highlightsPath)) {
       warnings.push(`research/highlights.md has no ${field} field`);
     }
   });
+}
+
+const companionsDir = path.join(projectRoot, "research", "companions");
+if (!exists(companionsDir)) {
+  errors.push("generated research companions missing: run npm run sync:content");
+} else {
+  const companionCount = fs.readdirSync(companionsDir).filter(file => file.endsWith(".md")).length;
+  if (!companionCount) errors.push("generated research companions directory has no markdown files");
 }
 
 try {

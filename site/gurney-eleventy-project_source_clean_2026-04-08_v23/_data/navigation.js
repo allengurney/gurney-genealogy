@@ -20,7 +20,7 @@ module.exports = {
       visible: true,
       children: [
         { title: "Ancestor Map", url: "/maps-and-lists/ancestor-map.html", key: "map" },
-        { title: "Ancestor Table", url: "/maps-and-lists/ancestor-table.html", key: "table" }
+        { title: "Pedigree Catalog", url: "/maps-and-lists/ancestor-table.html", key: "catalog" }
       ]
     },
     {

@@ -6,6 +6,7 @@
   <title>{{ title }} | Gurney Genealogy Library</title>
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="stylesheet" href="/assets/site.css">
+  <link rel="stylesheet" href="/assets/refactor.css">
   {% if description %}<meta name="description" content="{{ description }}">{% endif %}
   <meta property="og:title" content="{{ title }} | Gurney Genealogy Library">
   {% if description %}<meta property="og:description" content="{{ description }}">{% endif %}
@@ -40,6 +41,9 @@
           <h1>{{ pageHeading | safe }}</h1>
         {% endif %}
         {% if subtitle %}<p>{{ subtitle }}</p>{% endif %}
+        {% if researchCompanion %}
+          <p class="page-action-row"><a class="page-action-link" href="{{ researchCompanion.url }}">View research companion</a></p>
+        {% endif %}
       </div>
       <div class="page-body">
         <div class="doc-content">
