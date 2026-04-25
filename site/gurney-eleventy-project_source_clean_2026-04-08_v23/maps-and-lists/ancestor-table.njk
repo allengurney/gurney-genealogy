@@ -4,7 +4,7 @@ permalink: /maps-and-lists/ancestor-table.html
 title: Pedigree Catalog
 pageHeading: Pedigree Catalog
 subtitle: "The Gurney direct male line, era-banded and linked to fact sheets, research companions, and places."
-description: "Pedigree catalog for the direct Gurney line, with a visual catalog and dense table view driven by the current ancestor data."
+description: "Pedigree catalog for the direct Gurney line, with optional related ancestors and a detailed table view driven by the current ancestor data."
 bodyClass: explorer-page
 activeNav: maps
 updated: 25 April 2026
@@ -15,7 +15,7 @@ updated: 25 April 2026
   <header class="explorer-head">
     <div>
       <h1 class="explorer-title">Pedigree Catalog</h1>
-      <p class="explorer-subtitle">The Gurney direct male line, rendered from the v26 ancestor data and the current place spine. Use the catalog for fast browsing or the detailed table for a denser research view.</p>
+      <p class="explorer-subtitle">The Gurney direct male line, rendered from the v26 ancestor data and the current place spine. Related records can be added when a wider family context is useful.</p>
     </div>
     <div class="mode-switch" role="group" aria-label="Catalog view">
       <button type="button" class="is-active" data-catalog-mode="catalog" aria-pressed="true">Catalog</button>
@@ -24,8 +24,8 @@ updated: 25 April 2026
   </header>
 
   <div class="stats-strip">
-    <div class="stat"><span class="label">Known generations</span><span class="value">{{ siteStats.knownGenerationCount }}</span><span class="sub">{{ siteStats.directAncestorCount }} catalog records</span></div>
-    <div class="stat"><span class="label">Eras</span><span class="value">{{ siteStats.eraCount }}</span><span class="sub">from modern America to origin wall</span></div>
+    <div class="stat"><span class="label">Known generations</span><span class="value">{{ siteStats.knownGenerationCount }}</span><span class="sub">{{ siteStats.directAncestorCount }} direct records</span></div>
+    <div class="stat"><span class="label">Related records</span><span class="value">{{ siteStats.relatedAncestorCount }}</span><span class="sub">optional family context</span></div>
     <div class="stat"><span class="label">Places</span><span class="value">{{ siteStats.placeCount }}</span><span class="sub">structured place references</span></div>
     <div class="stat"><span class="label">Research notes</span><span class="value">{{ siteStats.researchCompanionCount }}</span><span class="sub">published companions</span></div>
     <div class="stat"><span class="label">Data source</span><span class="value">v26</span><span class="sub">regenerated at build time</span></div>
@@ -40,30 +40,12 @@ updated: 25 April 2026
         {% endif %}
       {% endfor %}
     </div>
-    <div class="filter-group" role="group" aria-label="Lineage status filter">
-      <button type="button" class="is-active" data-status-filter="all">All status</button>
-      <button type="button" data-status-filter="Confirmed">Confirmed</button>
-      <button type="button" data-status-filter="Probable">Probable</button>
-      <button type="button" data-status-filter="Speculative">Speculative</button>
-    </div>
+    <button type="button" class="related-toggle" data-related-toggle aria-pressed="false">Related ancestors</button>
     <div class="spacer"></div>
     <span class="result-count" data-result-count></span>
   </div>
 
   <section class="explorer-layout" data-catalog-panel>
-    <aside class="ruler" aria-hidden="true">
-      <div>Now</div>
-      <div class="ruler-line">
-        <div class="ruler-tick" style="top:10%"><span class="year">1900</span><span class="mark"></span></div>
-        <div class="ruler-tick" style="top:24%"><span class="year">1700</span><span class="mark"></span></div>
-        <div class="ruler-tick" style="top:38%"><span class="year">1500</span><span class="mark"></span></div>
-        <div class="ruler-tick" style="top:52%"><span class="year">1300</span><span class="mark"></span></div>
-        <div class="ruler-tick" style="top:66%"><span class="year">1100</span><span class="mark"></span></div>
-        <div class="ruler-tick" style="top:80%"><span class="year">900</span><span class="mark"></span></div>
-      </div>
-      <div>Before</div>
-    </aside>
-
     <section class="pedigree-spine" aria-label="Ancestor catalog">
       {% for item in ancestors %}
         {% if item.type == "era" %}
@@ -71,99 +53,102 @@ updated: 25 April 2026
             <span>{{ item.label }}</span>
             <span class="era-range">{{ item.dates }}</span>
           </div>
-        {% elif item.type == "ancestor" %}
-          <div class="pedigree-row"
+        {% elif item.type == "ancestor" or item.type == "related" %}
+          <div class="pedigree-row{% if item.isRelated %} related-row{% endif %}"
                data-pedigree-row
+               data-record-id="{{ item.recordId }}"
+               data-record-type="{{ item.type }}"
                data-gen="{{ item.gen }}"
                data-era="{{ item.eraClass }}"
-               data-status="{{ item.lineageStatus }}"
                tabindex="0"
                role="button"
+               {% if item.isRelated %}hidden{% endif %}
                style="--era-a:{{ item.colorFrom }};--era-b:{{ item.colorTo }}">
             <div class="gen-badge">{{ item.gen }}</div>
             <div class="timeline-dot"><span class="dot"></span></div>
-            <div>
-              <div class="name-text">{{ item.name }}</div>
+            <div class="pedigree-content">
+              <div class="name-text">{{ item.name }}{% if item.displayLineageStatus %}<span class="lineage-note">{{ item.displayLineageStatus }}</span>{% endif %}</div>
               <div class="dates-text">{{ item.dates }}</div>
               <div class="geo-line">{{ item.placeSummary or item.geography }}</div>
               <div class="summary-line">{{ item.summary }}</div>
             </div>
             <div class="row-meta">
-              <span class="status-tag{% if item.lineageStatus == 'Probable' %} probable{% endif %}">{{ item.lineageStatus }}</span>
               <span aria-hidden="true">&gt;</span>
             </div>
           </div>
         {% endif %}
       {% endfor %}
     </section>
-
-    <aside class="detail-col">
-      {% for item in ancestors %}
-        {% if item.type == "ancestor" %}
-          <article class="detail-panel" data-detail-panel="{{ item.gen }}" style="--era-a:{{ item.colorFrom }};--era-b:{{ item.colorTo }}">
-            <header class="detail-head">
-              <div class="detail-eyebrow">{{ item.eraKey }} / {{ item.gen }}</div>
-              <h2 class="detail-name">{{ item.name }}</h2>
-              <div class="detail-dates">{{ item.dates }} / {{ item.geography }}</div>
-            </header>
-            <div class="detail-body">
-              {% if item.summary %}<p class="detail-summary">{{ item.summary }}</p>{% endif %}
-              {% if item.notables %}
-                <section class="detail-section">
-                  <h4>Notables</h4>
-                  <p class="detail-summary">{{ item.notables }}</p>
-                </section>
-              {% endif %}
-              {% if item.locations and item.locations.length %}
-                <section class="detail-section">
-                  <h4>Places</h4>
-                  <ul>
-                    {% for loc in item.locations %}
-                      <li>{{ loc.siteName or loc.place }}{% if loc.eventType %} - {{ loc.eventType }}{% endif %}</li>
-                    {% endfor %}
-                  </ul>
-                </section>
-              {% endif %}
-              {% if item.hasLandHoldings %}
-                <section class="detail-section">
-                  <h4>Places and holdings</h4>
-                  <p class="detail-summary">{{ item.landHoldings }}</p>
-                </section>
-              {% endif %}
-              {% if item.spouses and item.spouses.length %}
-                <section class="detail-section">
-                  <h4>Spouse</h4>
-                  <ul>
-                    {% for spouse in item.spouses %}
-                      <li>{{ spouse.name }}{% if spouse.dates %} - {{ spouse.dates }}{% endif %}</li>
-                    {% endfor %}
-                  </ul>
-                </section>
-              {% endif %}
-              {% if item.children and item.children.length %}
-                <section class="detail-section">
-                  <h4>Issue</h4>
-                  <ul>
-                    {% for child in item.children %}
-                      <li>{{ child.name }}{% if child.notes %} - {{ child.notes }}{% endif %}</li>
-                    {% endfor %}
-                  </ul>
-                </section>
-              {% endif %}
-              <div class="detail-actions">
-                {% if item.buttons and item.buttons.length %}
-                  {% for btn in item.buttons %}
-                    <a href="{{ btn.url }}" class="btn{% if btn.style == 'bio' %} primary{% endif %}">{{ btn.label }}</a>
-                  {% endfor %}
-                {% endif %}
-                <a href="/maps-and-lists/ancestor-map.html" class="btn">Map</a>
-              </div>
-            </div>
-          </article>
-        {% endif %}
-      {% endfor %}
-    </aside>
   </section>
+
+  <div class="drawer-backdrop" data-detail-backdrop></div>
+  <aside class="detail-drawer" data-detail-drawer aria-hidden="true" aria-label="Ancestor detail drawer">
+    <button type="button" class="drawer-close" data-detail-close aria-label="Close detail">&times;</button>
+    {% for item in ancestors %}
+      {% if item.type == "ancestor" or item.type == "related" %}
+        <article class="detail-panel" data-detail-panel="{{ item.recordId }}" style="--era-a:{{ item.colorFrom }};--era-b:{{ item.colorTo }}">
+          <header class="detail-head">
+            <div class="detail-eyebrow">{{ item.eraKey }} / {{ item.gen }}</div>
+            <h2 class="detail-name">{{ item.name }}{% if item.displayLineageStatus %}<span class="lineage-note">{{ item.displayLineageStatus }}</span>{% endif %}</h2>
+            <div class="detail-dates">{{ item.dates }}{% if item.geography %} / {{ item.geography }}{% endif %}</div>
+          </header>
+          <div class="detail-body">
+            {% if item.summary %}<p class="detail-summary">{{ item.summary }}</p>{% endif %}
+            {% if item.notables %}
+              <section class="detail-section">
+                <h4>Notables</h4>
+                <p class="detail-summary">{{ item.notables }}</p>
+              </section>
+            {% endif %}
+            {% if item.locations and item.locations.length %}
+              <section class="detail-section">
+                <h4>Places</h4>
+                <ul>
+                  {% for loc in item.locations %}
+                    <li>{{ loc.siteName or loc.place }}{% if loc.eventType %} - {{ loc.eventType }}{% endif %}</li>
+                  {% endfor %}
+                </ul>
+              </section>
+            {% endif %}
+            {% if item.hasLandHoldings %}
+              <section class="detail-section">
+                <h4>Places and holdings</h4>
+                <p class="detail-summary">{{ item.landHoldings }}</p>
+              </section>
+            {% endif %}
+            {% if item.spouses and item.spouses.length %}
+              <section class="detail-section">
+                <h4>Spouse</h4>
+                <ul>
+                  {% for spouse in item.spouses %}
+                    <li>{{ spouse.name }}{% if spouse.dates %} - {{ spouse.dates }}{% endif %}</li>
+                  {% endfor %}
+                </ul>
+              </section>
+            {% endif %}
+            {% if item.children and item.children.length %}
+              <section class="detail-section">
+                <h4>Issue</h4>
+                <ul>
+                  {% for child in item.children %}
+                    <li>{{ child.name }}{% if child.notes %} - {{ child.notes }}{% endif %}</li>
+                  {% endfor %}
+                </ul>
+              </section>
+            {% endif %}
+            <div class="detail-actions">
+              {% if item.buttons and item.buttons.length %}
+                {% for btn in item.buttons %}
+                  <a href="{{ btn.url }}" class="btn{% if btn.style == 'bio' %} primary{% endif %}">{{ btn.label }}</a>
+                {% endfor %}
+              {% endif %}
+              <a href="/maps-and-lists/ancestor-map.html" class="btn">Map</a>
+            </div>
+          </div>
+        </article>
+      {% endif %}
+    {% endfor %}
+  </aside>
 
   <section class="detailed-table-panel" data-table-panel>
     <div class="catalog-table-wrap">
@@ -177,22 +162,24 @@ updated: 25 April 2026
             <th>Summary</th>
             <th>Notables</th>
             <th>Places and holdings</th>
-            <th>Status</th>
             <th>Links</th>
           </tr>
         </thead>
         <tbody>
           {% for item in ancestors %}
-            {% if item.type == "ancestor" %}
-              <tr data-table-row data-era="{{ item.eraClass }}" data-status="{{ item.lineageStatus }}">
+            {% if item.type == "ancestor" or item.type == "related" %}
+              <tr data-table-row
+                  data-record-type="{{ item.type }}"
+                  data-era="{{ item.eraClass }}"
+                  class="{% if item.isRelated %}related-table-row{% endif %}"
+                  {% if item.isRelated %}hidden{% endif %}>
                 <td class="gen-cell">{{ item.gen }}</td>
-                <td class="name-cell"><span class="name">{{ item.name }}</span>{% if item.dates %}<span class="dates">{{ item.dates }}</span>{% endif %}</td>
+                <td class="name-cell"><span class="name">{{ item.name }}</span>{% if item.displayLineageStatus %}<span class="lineage-note">{{ item.displayLineageStatus }}</span>{% endif %}{% if item.dates %}<span class="dates">{{ item.dates }}</span>{% endif %}</td>
                 <td>{{ item.eraKey }}</td>
                 <td>{{ item.placeSummary or item.geography }}</td>
                 <td>{{ item.summary }}</td>
                 <td>{{ item.notables }}</td>
                 <td>{% if item.hasLandHoldings %}{{ item.landHoldings }}{% endif %}</td>
-                <td>{{ item.lineageStatus }}</td>
                 <td>
                   {% if item.buttons and item.buttons.length %}
                     <div class="btns">
