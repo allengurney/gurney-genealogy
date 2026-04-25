@@ -11,10 +11,9 @@ updated: 25 April 2026
 ---
 
 <div data-place-explorer>
-  <p class="explorer-crumbs">Library / Places Catalog</p>
   <header class="explorer-head explorer-head-with-stats">
     <div>
-      <h1 class="explorer-title">Places Catalog</h1>
+      <p class="explorer-crumbs explorer-page-title">Library / Places Catalog</p>
       <p class="explorer-subtitle">A place-first view of the same structured spine: addresses, churches, manors, regions, and sites tied back to ancestor records.</p>
     </div>
     <div class="stats-strip compact-stats">
@@ -62,13 +61,28 @@ updated: 25 April 2026
           </div>
         </header>
         <div class="detail-body">
+          {% if place.imageUrl %}
+            <figure class="place-image">
+              <img src="{{ place.imageUrl }}" alt="{{ place.imageTitle or place.title }}">
+              {% if place.imageTitle %}<figcaption>{{ place.imageTitle }}</figcaption>{% endif %}
+            </figure>
+          {% endif %}
           {% if place.longDescription %}<p class="detail-summary">{{ place.longDescription }}</p>{% endif %}
-          {% if place.extantStatus or place.coordinateBasis %}
+          {% if place.streetAddress or place.aliases.length or place.roles.length %}
+            <section class="detail-section">
+              <h4>Place details</h4>
+              <ul>
+                {% if place.streetAddress %}<li>Address: {{ place.streetAddress }}</li>{% endif %}
+                {% if place.aliases.length %}<li>Also known as: {{ place.aliases | join(", ") }}</li>{% endif %}
+                {% if place.roles.length %}<li>Roles: {{ place.roles | join(", ") }}</li>{% endif %}
+              </ul>
+            </section>
+          {% endif %}
+          {% if place.extantStatus or place.extantStatusDescription %}
             <section class="detail-section">
               <h4>Site notes</h4>
               <ul>
                 {% if place.extantStatus %}<li>Extant status: {{ place.extantStatus }}{% if place.extantStatusDescription %} - {{ place.extantStatusDescription }}{% endif %}</li>{% endif %}
-                {% if place.coordinateBasis %}<li>Coordinate basis: {{ place.coordinateBasis }}</li>{% endif %}
               </ul>
             </section>
           {% endif %}
