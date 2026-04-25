@@ -23,6 +23,8 @@
   {% include "partials/siteheader.njk" %}
 
   <main class="site-shell refresh-shell">
+    {% set featuredStart = 30 %}
+    {% set featuredEnd = 37 %}
     <section class="refresh-hero">
       <div>
         <div class="hero-kicker">A Gurney family project - 2026 edition</div>
@@ -40,10 +42,10 @@
           </div>
       </div>
       <aside class="hero-art">
-        <h4>Featured slice - Generations 20-30</h4>
+        <h4>Featured slice - Generations {{ featuredStart }}-{{ featuredEnd }}</h4>
         <div class="spine-preview">
           {% for item in ancestors %}
-            {% if item.type == "ancestor" and item.genNumber >= 20 and item.genNumber <= 30 %}
+            {% if item.type == "ancestor" and item.genNumber >= featuredStart and item.genNumber <= featuredEnd %}
               <a class="spine-preview-row" href="/maps-and-lists/ancestor-table.html?gen={{ item.gen }}" style="--era-a:{{ item.colorFrom }};--era-b:{{ item.colorTo }}">
                 <span class="g">{{ item.gen }}</span>
                 <span>
@@ -78,8 +80,18 @@
                   </span>
                 </a>
               {% else %}
-                <a class="highlight-chip" href="{{ item.link }}">
-                  <span class="icon">R</span>
+                <a class="highlight-chip highlight-chip-{{ item.link_type }}" href="{{ item.link }}"{% if item.link_type == "website" %} target="_blank" rel="noopener"{% endif %}>
+                  <span class="highlight-icon" aria-hidden="true">
+                    {% if item.link_type == "place" %}
+                      <svg viewBox="0 0 24 24"><path d="M6 4v16M7 5h10l-2 4 2 4H7"/></svg>
+                    {% elif item.link_type == "map" %}
+                      <svg viewBox="0 0 24 24"><path d="M9 18l-6 3V6l6-3 6 3 6-3v15l-6 3-6-3zM9 3v15M15 6v15"/></svg>
+                    {% elif item.link_type == "website" %}
+                      <span>www</span>
+                    {% else %}
+                      <svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v17H6.5A2.5 2.5 0 0 1 4 17.5v-12zM7 7h9M7 11h9"/></svg>
+                    {% endif %}
+                  </span>
                   <span>
                     <span class="label">{{ item.link_label or item.link }}</span>
                     <span class="sub">{{ item.link_type | replace("-", " ") }}</span>
