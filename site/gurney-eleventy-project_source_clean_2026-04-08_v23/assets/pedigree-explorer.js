@@ -14,6 +14,7 @@
   const drawer = page.querySelector("[data-detail-drawer]");
   const backdrop = page.querySelector("[data-detail-backdrop]");
   const closeButton = page.querySelector("[data-detail-close]");
+  const mapInstances = new WeakMap();
 
   let activeRecordId = "";
   let eraFilter = "all";
@@ -62,6 +63,72 @@
     activeRecordId = "";
   }
 
+  function escapeHtml(value) {
+    return String(value || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function initAncestorMap(panel) {
+    if (!panel || !window.L) return;
+    const mapNode = panel.querySelector("[data-ancestor-map]");
+    if (!mapNode || mapInstances.has(mapNode)) {
+      const existing = mapNode ? mapInstances.get(mapNode) : null;
+      if (existing) setTimeout(() => existing.invalidateSize(), 30);
+      return;
+    }
+
+    const points = Array.from(mapNode.querySelectorAll("[data-map-point]"))
+      .map(point => ({
+        lat: Number(point.dataset.lat),
+        lng: Number(point.dataset.lng),
+        title: point.dataset.title || "Place",
+        url: point.dataset.placeUrl || "",
+      }))
+      .filter(point => Number.isFinite(point.lat) && Number.isFinite(point.lng));
+
+    if (!points.length) {
+      mapNode.hidden = true;
+      return;
+    }
+
+    const map = window.L.map(mapNode, {
+      zoomControl: false,
+      attributionControl: false,
+      scrollWheelZoom: false,
+    });
+
+    window.L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 18,
+    }).addTo(map);
+
+    const bounds = [];
+    points.forEach(point => {
+      const marker = window.L.circleMarker([point.lat, point.lng], {
+        radius: 6,
+        color: "#8a4b1e",
+        weight: 2,
+        fillColor: "#8a4b1e",
+        fillOpacity: 0.9,
+      }).addTo(map);
+      const title = escapeHtml(point.title);
+      const popup = point.url ? `<a href="${escapeHtml(point.url)}">${title}</a>` : title;
+      marker.bindPopup(popup);
+      bounds.push([point.lat, point.lng]);
+    });
+
+    if (bounds.length === 1) {
+      map.setView(bounds[0], 8);
+    } else {
+      map.fitBounds(bounds, { padding: [24, 24], maxZoom: 9 });
+    }
+
+    mapInstances.set(mapNode, map);
+    setTimeout(() => map.invalidateSize(), 30);
+  }
+
   function openDrawer(recordId) {
     const target = rows.find(row => row.dataset.recordId === recordId && !row.hidden);
     if (!target || !drawer || !backdrop) return;
@@ -74,6 +141,7 @@
     drawer.setAttribute("aria-hidden", "false");
     document.body.classList.add("drawer-open");
     if (closeButton) closeButton.focus({ preventScroll: true });
+    initAncestorMap(detailPanels.find(panel => panel.dataset.detailPanel === activeRecordId));
   }
 
   function applyFilters() {
@@ -127,7 +195,11 @@
   eraButtons.forEach(button => {
     button.addEventListener("click", () => {
       eraFilter = button.dataset.eraFilter;
-      eraButtons.forEach(item => item.classList.toggle("is-active", item === button));
+      eraButtons.forEach(item => {
+        const active = item === button;
+        item.classList.toggle("is-active", active);
+        item.setAttribute("aria-pressed", active ? "true" : "false");
+      });
       applyFilters();
     });
   });
@@ -206,4 +278,8 @@
   document.addEventListener("keydown", event => {
     if (event.key === "Escape") closeDrawer();
   });
+
+  const params = new URLSearchParams(window.location.search);
+  const requestedPlace = params.get("place");
+  if (requestedPlace) openDrawer(requestedPlace);
 })();
