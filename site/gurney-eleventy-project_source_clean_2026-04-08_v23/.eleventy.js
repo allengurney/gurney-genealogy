@@ -17,17 +17,19 @@ module.exports = function (eleventyConfig) {
     return `<figure${cls}>\n  <img src="${src}" alt="${alt}">${cap}\n</figure>`;
   });
 
-  // Pass-through: ancestor map is supplied externally, stored under maps-and-lists, and copied unchanged during deployment
+  // Pass-through: ancestor map is supplied externally, stored under maps-and-lists, and copied unchanged during deployment.
   eleventyConfig.addPassthroughCopy("maps-and-lists/ancestor-map.html");
 
-  // Pass-through: assets, media, favicon
+  // Pass-through: raw research highlights feed used by the next homepage design.
+  eleventyConfig.addPassthroughCopy("research/highlights.md");
+
+  // Pass-through: assets, media, favicon, crawler files.
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("media");
   eleventyConfig.addPassthroughCopy("favicon.png");
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("sitemap.xml");
   eleventyConfig.addPassthroughCopy("llms.txt");
-
 
   // Published fact sheets should not expose source-only Research Appendix sections.
   // Authors may retain a Markdown section headed "Research Appendix" in the source file;
