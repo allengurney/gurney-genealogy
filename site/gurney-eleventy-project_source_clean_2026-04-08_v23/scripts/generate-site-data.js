@@ -8,6 +8,7 @@ const ancestorsPath = path.join(repoRoot, "data", "ancestors v26.json");
 const placesPath = path.join(repoRoot, "data", "places.json");
 const placeDetailsPath = path.join(repoRoot, "data", "places_detail.json");
 const outputPath = path.join(projectRoot, "_data", "ancestors.json");
+const placesOutputPath = path.join(projectRoot, "_data", "placesCatalog.json");
 const factSheetsDir = path.join(projectRoot, "fact-sheets");
 const companionsDir = path.join(projectRoot, "research", "companions");
 
@@ -48,6 +49,11 @@ function cleanButton(button) {
 
 function hasMeaningfulValue(value) {
   return Boolean(value && !/^\s*(?:-|\u2014)\s*$/.test(String(value)));
+}
+
+function displayLineageStatus(status) {
+  const value = String(status || "").trim();
+  return value && value.toLowerCase() !== "confirmed" ? value : "";
 }
 
 function indexFactSheets() {
@@ -135,6 +141,66 @@ function placeSummary(locations) {
   return `${names.slice(0, 3).join("; ")}; +${names.length - 3} more`;
 }
 
+function buildPlacesCatalog(places, placeDetails, generatedAncestors) {
+  const detailsById = new Map(placeDetails.map(detail => [detail.placeId, detail]));
+  const ancestorsByRecordId = new Map(
+    generatedAncestors
+      .filter(item => item.type !== "era")
+      .map(item => [item.recordId, item])
+  );
+
+  return places.map(place => {
+    const detail = detailsById.get(place.placeId) || {};
+    const coordinate = place.coordinate || {};
+    const links = Array.isArray(place.ancestorLinks) ? place.ancestorLinks : [];
+    const linkedAncestors = links
+      .map(link => {
+        const ancestor = ancestorsByRecordId.get(link.recordId);
+        if (!ancestor) return null;
+        const primaryButton = Array.isArray(ancestor.buttons) ? ancestor.buttons[0] : null;
+        return {
+          recordId: ancestor.recordId,
+          type: ancestor.type,
+          gen: ancestor.gen,
+          name: ancestor.name,
+          dates: ancestor.dates,
+          role: link.role || "",
+          lineageStatus: ancestor.lineageStatus,
+          displayLineageStatus: ancestor.displayLineageStatus,
+          url: primaryButton ? primaryButton.url : "",
+        };
+      })
+      .filter(Boolean);
+
+    return {
+      placeId: place.placeId,
+      name: place.name || detail.placeName || "",
+      title: detail.siteName || place.name || detail.placeName || "",
+      siteName: detail.siteName || "",
+      region: regionFromPlaceName(place.name || detail.placeName || ""),
+      aliases: place.aliases || [],
+      shortDescription: place.shortDescription || "",
+      longDescription: detail.longDescription || place.shortDescription || "",
+      placeType: place.placeType || "",
+      extantStatus: detail.extantStatus || "",
+      extantStatusDescription: detail.extantStatusDescription || "",
+      coordinate: {
+        lat: coordinate.lat,
+        lng: coordinate.lng,
+      },
+      coordinatePrecision: place.coordinatePrecision || "",
+      coordinateBasis: detail.coordinateBasis || place.coordinatePrecision || "",
+      roles: place.roles || [],
+      imageUrl: detail.imageUrl || "",
+      imageTitle: detail.imageTitle || "",
+      siteUrl: detail.heritageUrl || "",
+      siteLabel: detail.heritageLabel || "",
+      ancestorLinks: linkedAncestors,
+      ancestorCount: linkedAncestors.length,
+    };
+  });
+}
+
 const ancestors = readJson(ancestorsPath);
 const places = readJson(placesPath);
 const placeDetails = readJson(placeDetailsPath);
@@ -179,6 +245,7 @@ const generated = ancestors.map(item => {
 
   return {
     type: item.type,
+    isRelated: item.type === "related",
     gen: item.gen,
     genNumber: num,
     name: item.name,
@@ -192,6 +259,7 @@ const generated = ancestors.map(item => {
     colorFrom: era.colorFrom || "",
     colorTo: era.colorTo || "",
     lineageStatus: item.lineageStatus || "",
+    displayLineageStatus: displayLineageStatus(item.lineageStatus),
     summary: item.summary || "",
     notables: item.notables || "",
     landHoldings: item.landHoldings || "",
@@ -207,4 +275,6 @@ const generated = ancestors.map(item => {
 });
 
 fs.writeFileSync(outputPath, `${JSON.stringify(generated, null, 2)}\n`);
+fs.writeFileSync(placesOutputPath, `${JSON.stringify(buildPlacesCatalog(places, placeDetails, generated), null, 2)}\n`);
 console.log(`Generated ${path.relative(projectRoot, outputPath).replace(/\\/g, "/")} from data/ancestors v26.json.`);
+console.log(`Generated ${path.relative(projectRoot, placesOutputPath).replace(/\\/g, "/")} from data/places.json.`);
