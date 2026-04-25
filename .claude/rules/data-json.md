@@ -12,8 +12,9 @@ Human-facing overview:
 `data/` is the canonical structured data spine for ancestors, places, and sources.
 
 ## Canonical files
-- `data/ancestors v{NN}.json` is current canonical ancestor data.
-- `data/ancestors v{NN-1}.json` is legacy and must not be used for new work.
+- `data/ancestors v26.json` is the current canonical ancestor data file.
+- Older `data/ancestors v*.json` files are legacy and must not be used for new work.
+- If a newer `ancestors vNN.json` file is added later, use the highest version and update this rule and `data/README.md` in the same change.
 - `places.json` is the primary place registry.
 - `places_detail.json` is supplemental.
 - `sources.json` is the source registry.
@@ -42,6 +43,10 @@ Human-facing overview:
 - Keep one best coordinate and one best precision level per place.
 - Narrative and open questions belong in `research/places/*.md`, not in the JSON.
 
+## Site-generation relationship
+- Site-local files such as `_data/ancestors.json` or prototype `data/ancestors.js` are presentation artifacts unless explicitly promoted.
+- New website work should derive people and place views from `data/ancestors v26.json`, `data/places.json`, and `data/places_detail.json` rather than copying facts by hand.
+
 ## Validation posture
 Before finishing JSON work:
 - check JSON validity
@@ -51,4 +56,3 @@ Before finishing JSON work:
 ## Citation relationship
 Structured data may not use markdown footnotes, but all source-bearing fields must still tie back to `sources.json`.
 See `.claude/rules/citations.md` for repo-wide source-traceability expectations.
-
