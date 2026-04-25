@@ -78,14 +78,15 @@ if (Array.isArray(siteAncestors)) {
   if (!ancestorCount) errors.push("_data/ancestors.json has no ancestor records");
   if (!eraCount) warnings.push("_data/ancestors.json has no era records");
 
-  const seenButtonUrls = new Set();
   siteAncestors.forEach(item => {
     if (Array.isArray(item.buttons)) {
+      const seenButtonUrls = new Set();
       item.buttons.forEach(button => {
         if (!button || !button.url) return;
-        const key = `${item.gen || item.name || "record"}: ${button.url}`;
-        if (seenButtonUrls.has(key)) warnings.push(`duplicate ancestor button URL: ${key}`);
-        seenButtonUrls.add(key);
+        if (seenButtonUrls.has(button.url)) {
+          warnings.push(`duplicate ancestor button URL for ${item.gen || item.name || "record"}: ${button.url}`);
+        }
+        seenButtonUrls.add(button.url);
         checkRoute(button.url, `ancestor button for ${item.gen || item.name || "unknown"}`);
       });
     }
