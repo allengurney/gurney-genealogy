@@ -12,37 +12,38 @@ updated: 25 April 2026
 
 <div data-pedigree-explorer>
   <p class="explorer-crumbs">Library / Pedigree Catalog</p>
-  <header class="explorer-head">
+  <header class="explorer-head explorer-head-with-stats">
     <div>
       <h1 class="explorer-title">Pedigree Catalog</h1>
       <p class="explorer-subtitle">The Gurney direct male line, rendered from the v26 ancestor data and the current place spine. Related records can be added when a wider family context is useful.</p>
     </div>
+    <div class="stats-strip compact-stats">
+      <div class="stat"><span class="label">Known generations</span><span class="value">{{ siteStats.knownGenerationCount }}</span></div>
+      <div class="stat"><span class="label">Related records</span><span class="value">{{ siteStats.relatedAncestorCount }}</span></div>
+      <div class="stat"><span class="label">Places</span><span class="value">{{ siteStats.placeCount }}</span></div>
+      <div class="stat"><span class="label">Research notes</span><span class="value">{{ siteStats.researchCompanionCount }}</span></div>
+    </div>
+  </header>
+
+  <div class="catalog-toolbar">
     <div class="mode-switch" role="group" aria-label="Catalog view">
       <button type="button" class="is-active" data-catalog-mode="catalog" aria-pressed="true">Catalog</button>
       <button type="button" data-catalog-mode="table" aria-pressed="false">Detailed table</button>
     </div>
-  </header>
-
-  <div class="stats-strip">
-    <div class="stat"><span class="label">Known generations</span><span class="value">{{ siteStats.knownGenerationCount }}</span><span class="sub">{{ siteStats.directAncestorCount }} direct records</span></div>
-    <div class="stat"><span class="label">Related records</span><span class="value">{{ siteStats.relatedAncestorCount }}</span><span class="sub">optional family context</span></div>
-    <div class="stat"><span class="label">Places</span><span class="value">{{ siteStats.placeCount }}</span><span class="sub">structured place references</span></div>
-    <div class="stat"><span class="label">Research notes</span><span class="value">{{ siteStats.researchCompanionCount }}</span><span class="sub">published companions</span></div>
-    <div class="stat"><span class="label">Data source</span><span class="value">v26</span><span class="sub">regenerated at build time</span></div>
+    <button type="button" class="related-toggle" data-related-toggle aria-pressed="false">Related ancestors</button>
+    <div class="spacer"></div>
+    <span class="result-count" data-result-count></span>
   </div>
 
-  <div class="catalog-toolbar">
+  <div class="catalog-toolbar era-toolbar">
     <div class="filter-group" role="group" aria-label="Era filter">
       <button type="button" class="is-active" data-era-filter="all">All eras</button>
       {% for item in ancestors %}
         {% if item.type == "era" %}
-          <button type="button" data-era-filter="{{ item.cssClass }}">{{ item.label | truncate(18, true, "") }}</button>
+          <button type="button" data-era-filter="{{ item.cssClass }}" style="--era-a:{{ item.colorFrom }};--era-b:{{ item.colorTo }}">{{ item.shortLabel }}</button>
         {% endif %}
       {% endfor %}
     </div>
-    <button type="button" class="related-toggle" data-related-toggle aria-pressed="false">Related ancestors</button>
-    <div class="spacer"></div>
-    <span class="result-count" data-result-count></span>
   </div>
 
   <section class="explorer-layout" data-catalog-panel>
@@ -91,29 +92,36 @@ updated: 25 April 2026
             <div class="detail-eyebrow">{{ item.eraKey }} / {{ item.gen }}</div>
             <h2 class="detail-name">{{ item.name }}{% if item.displayLineageStatus %}<span class="lineage-note">{{ item.displayLineageStatus }}</span>{% endif %}</h2>
             <div class="detail-dates">{{ item.dates }}{% if item.geography %} / {{ item.geography }}{% endif %}</div>
+            <div class="detail-actions">
+              {% if item.buttons and item.buttons.length %}
+                {% for btn in item.buttons %}
+                  <a href="{{ btn.url }}" class="btn{% if btn.style == 'bio' %} primary{% endif %}">{{ btn.label }}</a>
+                {% endfor %}
+              {% endif %}
+              <a href="/maps-and-lists/ancestor-map.html" class="btn">Map</a>
+            </div>
           </header>
           <div class="detail-body">
             {% if item.summary %}<p class="detail-summary">{{ item.summary }}</p>{% endif %}
+            {% if item.locations and item.locations.length %}
+              <section class="detail-map-section">
+                <div class="ancestor-mini-map" data-ancestor-map aria-label="Map of places for {{ item.name }}">
+                  {% for loc in item.locations %}
+                    {% if loc.lat and loc.lng %}
+                      <span data-map-point
+                            data-lat="{{ loc.lat }}"
+                            data-lng="{{ loc.lng }}"
+                            data-title="{{ loc.siteName or loc.place }}"
+                            data-place-url="/maps-and-lists/places.html?place={{ loc.placeId }}"></span>
+                    {% endif %}
+                  {% endfor %}
+                </div>
+              </section>
+            {% endif %}
             {% if item.notables %}
               <section class="detail-section">
                 <h4>Notables</h4>
                 <p class="detail-summary">{{ item.notables }}</p>
-              </section>
-            {% endif %}
-            {% if item.locations and item.locations.length %}
-              <section class="detail-section">
-                <h4>Places</h4>
-                <ul>
-                  {% for loc in item.locations %}
-                    <li>{{ loc.siteName or loc.place }}{% if loc.eventType %} - {{ loc.eventType }}{% endif %}</li>
-                  {% endfor %}
-                </ul>
-              </section>
-            {% endif %}
-            {% if item.hasLandHoldings %}
-              <section class="detail-section">
-                <h4>Places and holdings</h4>
-                <p class="detail-summary">{{ item.landHoldings }}</p>
               </section>
             {% endif %}
             {% if item.spouses and item.spouses.length %}
@@ -128,7 +136,7 @@ updated: 25 April 2026
             {% endif %}
             {% if item.children and item.children.length %}
               <section class="detail-section">
-                <h4>Issue</h4>
+                <h4>Children</h4>
                 <ul>
                   {% for child in item.children %}
                     <li>{{ child.name }}{% if child.notes %} - {{ child.notes }}{% endif %}</li>
@@ -136,14 +144,22 @@ updated: 25 April 2026
                 </ul>
               </section>
             {% endif %}
-            <div class="detail-actions">
-              {% if item.buttons and item.buttons.length %}
-                {% for btn in item.buttons %}
-                  <a href="{{ btn.url }}" class="btn{% if btn.style == 'bio' %} primary{% endif %}">{{ btn.label }}</a>
-                {% endfor %}
-              {% endif %}
-              <a href="/maps-and-lists/ancestor-map.html" class="btn">Map</a>
-            </div>
+            {% if item.locations and item.locations.length %}
+              <section class="detail-section">
+                <h4>Places</h4>
+                <ul>
+                  {% for loc in item.locations %}
+                    <li><a href="/maps-and-lists/places.html?place={{ loc.placeId }}">{{ loc.siteName or loc.place }}</a>{% if loc.eventType %} - {{ loc.eventType }}{% endif %}</li>
+                  {% endfor %}
+                </ul>
+              </section>
+            {% endif %}
+            {% if item.hasLandHoldings %}
+              <section class="detail-section">
+                <h4>Places and holdings</h4>
+                <p class="detail-summary">{{ item.landHoldings }}</p>
+              </section>
+            {% endif %}
           </div>
         </article>
       {% endif %}
@@ -199,4 +215,6 @@ updated: 25 April 2026
   </section>
 </div>
 
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 <script src="/assets/pedigree-explorer.js"></script>
