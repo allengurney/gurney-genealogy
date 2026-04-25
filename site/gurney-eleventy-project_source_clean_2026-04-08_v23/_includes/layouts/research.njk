@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if title %}{{ title }} | {% endif %}Gurney Genealogy Library</title>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="/assets/site.css">
+  {% if description %}<meta name="description" content="{{ description }}">{% endif %}
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+</head>
+<body class="{{ bodyClass }}">
+
+  {% include "partials/siteheader.njk" %}
+
+  <main class="page-wrap">
+    <article class="page-card">
+      <div class="page-body">
+        <div class="doc-content">
+          <p class="research-companion-disclaimer"><strong>Research companion:</strong> This research companion is provided as-is and contains information supplementary to the fact sheet and other WIP research.</p>
+          {{ content | safe }}
+        </div>
+      </div>
+    </article>
+  </main>
+
+  {% include "partials/sitefooter.njk" %}
+
+</body>
+</html>
