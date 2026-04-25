@@ -1,0 +1,98 @@
+---
+layout: layouts/base.njk
+permalink: /maps-and-lists/places.html
+title: Places Catalog
+pageHeading: Places Catalog
+subtitle: "Places connected to the Gurney pedigree, generated from the current structured places data."
+description: "Places catalog for the Gurney genealogy library, linking places back to related ancestors and records."
+bodyClass: explorer-page places-page
+activeNav: maps
+updated: 25 April 2026
+---
+
+<div data-place-explorer>
+  <p class="explorer-crumbs">Library / Places Catalog</p>
+  <header class="explorer-head">
+    <div>
+      <h1 class="explorer-title">Places Catalog</h1>
+      <p class="explorer-subtitle">A place-first view of the same structured spine: addresses, churches, manors, regions, and sites tied back to ancestor records.</p>
+    </div>
+    <a class="btn" href="/maps-and-lists/ancestor-map.html">Map</a>
+  </header>
+
+  <div class="stats-strip">
+    <div class="stat"><span class="label">Places</span><span class="value">{{ placesCatalog.length }}</span><span class="sub">structured records</span></div>
+    <div class="stat"><span class="label">Linked records</span><span class="value">{{ siteStats.placeLinkCount }}</span><span class="sub">ancestor-place ties</span></div>
+    <div class="stat"><span class="label">Geocoded</span><span class="value">{{ siteStats.geocodedPlaceCount }}</span><span class="sub">mapped references</span></div>
+    <div class="stat"><span class="label">Place types</span><span class="value">{{ siteStats.placeTypeCount }}</span><span class="sub">addresses, sites, regions</span></div>
+    <div class="stat"><span class="label">Data source</span><span class="value">v26</span><span class="sub">places plus ancestor links</span></div>
+  </div>
+
+  <section class="place-list" aria-label="Places catalog">
+    {% for place in placesCatalog %}
+      <article class="place-row"
+               data-place-row
+               data-place-id="{{ place.placeId }}"
+               tabindex="0"
+               role="button">
+        <div class="place-marker"></div>
+        <div class="place-main">
+          <h2>{{ place.title }}</h2>
+          <p>{{ place.shortDescription or place.longDescription }}</p>
+          <div class="place-meta">
+            {% if place.placeType %}<span>{{ place.placeType }}</span>{% endif %}
+            {% if place.region %}<span>{{ place.region }}</span>{% endif %}
+            {% if place.coordinatePrecision %}<span>{{ place.coordinatePrecision }} precision</span>{% endif %}
+          </div>
+        </div>
+        <div class="place-count">{{ place.ancestorCount }} link{% if place.ancestorCount != 1 %}s{% endif %}</div>
+      </article>
+    {% endfor %}
+  </section>
+
+  <div class="drawer-backdrop" data-place-backdrop></div>
+  <aside class="detail-drawer place-drawer" data-place-drawer aria-hidden="true" aria-label="Place detail drawer">
+    <button type="button" class="drawer-close" data-place-close aria-label="Close place">&times;</button>
+    {% for place in placesCatalog %}
+      <article class="detail-panel" data-place-panel="{{ place.placeId }}">
+        <header class="detail-head">
+          <div class="detail-eyebrow">{{ place.placeType or "Place" }}{% if place.coordinatePrecision %} / {{ place.coordinatePrecision }} precision{% endif %}</div>
+          <h2 class="detail-name">{{ place.title }}</h2>
+          {% if place.region %}<div class="detail-dates">{{ place.region }}</div>{% endif %}
+        </header>
+        <div class="detail-body">
+          {% if place.longDescription %}<p class="detail-summary">{{ place.longDescription }}</p>{% endif %}
+          {% if place.extantStatus or place.coordinateBasis %}
+            <section class="detail-section">
+              <h4>Site notes</h4>
+              <ul>
+                {% if place.extantStatus %}<li>Extant status: {{ place.extantStatus }}{% if place.extantStatusDescription %} - {{ place.extantStatusDescription }}{% endif %}</li>{% endif %}
+                {% if place.coordinateBasis %}<li>Coordinate basis: {{ place.coordinateBasis }}</li>{% endif %}
+              </ul>
+            </section>
+          {% endif %}
+          {% if place.ancestorLinks and place.ancestorLinks.length %}
+            <section class="detail-section">
+              <h4>Related ancestors</h4>
+              <ul class="place-ancestor-links">
+                {% for ancestor in place.ancestorLinks %}
+                  <li>
+                    {% if ancestor.url %}<a href="{{ ancestor.url }}">{{ ancestor.gen }} {{ ancestor.name }}</a>{% else %}<span>{{ ancestor.gen }} {{ ancestor.name }}</span>{% endif %}
+                    {% if ancestor.displayLineageStatus %}<span class="lineage-note">{{ ancestor.displayLineageStatus }}</span>{% endif %}
+                    {% if ancestor.role %}<span class="place-role">{{ ancestor.role }}</span>{% endif %}
+                  </li>
+                {% endfor %}
+              </ul>
+            </section>
+          {% endif %}
+          <div class="detail-actions">
+            <a href="/maps-and-lists/ancestor-map.html" class="btn primary">Map</a>
+            {% if place.siteUrl %}<a href="{{ place.siteUrl }}" class="btn">{{ place.siteLabel or "Site reference" }}</a>{% endif %}
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+  </aside>
+</div>
+
+<script src="/assets/pedigree-explorer.js"></script>
