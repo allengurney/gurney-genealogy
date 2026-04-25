@@ -67,6 +67,7 @@ function checkRoute(url, label) {
 }
 
 const siteAncestors = readJson(path.join(projectRoot, "_data", "ancestors.json"), "site ancestors data");
+const sitePlaces = readJson(path.join(projectRoot, "_data", "placesCatalog.json"), "site places catalog data");
 const canonicalAncestors = readJson(path.join(repoRoot, "data", "ancestors v26.json"), "canonical ancestors v26 data");
 readJson(path.join(repoRoot, "data", "places.json"), "canonical places data");
 readJson(path.join(repoRoot, "data", "places_detail.json"), "canonical places detail data");
@@ -74,8 +75,10 @@ readJson(path.join(repoRoot, "data", "sources.json"), "canonical sources data");
 
 if (Array.isArray(siteAncestors)) {
   const ancestorCount = siteAncestors.filter(item => item.type === "ancestor").length;
+  const relatedCount = siteAncestors.filter(item => item.type === "related").length;
   const eraCount = siteAncestors.filter(item => item.type === "era").length;
   if (!ancestorCount) errors.push("_data/ancestors.json has no ancestor records");
+  if (!relatedCount) warnings.push("_data/ancestors.json has no related records");
   if (!eraCount) warnings.push("_data/ancestors.json has no era records");
 
   siteAncestors.forEach(item => {
@@ -93,6 +96,12 @@ if (Array.isArray(siteAncestors)) {
   });
 }
 
+if (Array.isArray(sitePlaces)) {
+  if (!sitePlaces.length) errors.push("_data/placesCatalog.json has no place records");
+  const linkedPlaceCount = sitePlaces.filter(place => Array.isArray(place.ancestorLinks) && place.ancestorLinks.length).length;
+  if (!linkedPlaceCount) warnings.push("_data/placesCatalog.json has no linked place records");
+}
+
 if (Array.isArray(canonicalAncestors)) {
   const currentCount = canonicalAncestors.filter(item => item.type === "ancestor").length;
   if (!currentCount) errors.push("data/ancestors v26.json has no ancestor records");
@@ -101,10 +110,13 @@ if (Array.isArray(canonicalAncestors)) {
 const requiredFiles = [
   "maps-and-lists/ancestor-map.html",
   "maps-and-lists/ancestor-table.njk",
+  "maps-and-lists/places.njk",
   "research/highlights.md",
   "_data/researchHighlights.js",
   "_data/researchCompanions.js",
   "_data/siteStats.js",
+  "assets/phase2.css",
+  "_data/placesCatalog.json",
   "assets/explorer.css",
   "assets/pedigree-explorer.js",
   "scripts/clean-site.js",
