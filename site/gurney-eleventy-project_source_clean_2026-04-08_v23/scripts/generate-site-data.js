@@ -195,6 +195,7 @@ function buildPlacesCatalog(places, placeDetails, generatedAncestors) {
       name: place.name || detail.placeName || "",
       title: detail.siteName || place.name || detail.placeName || "",
       siteName: detail.siteName || "",
+      streetAddress: detail.streetAddress || "",
       region: regionFromPlaceName(place.name || detail.placeName || ""),
       aliases: place.aliases || [],
       shortDescription: place.shortDescription || "",
