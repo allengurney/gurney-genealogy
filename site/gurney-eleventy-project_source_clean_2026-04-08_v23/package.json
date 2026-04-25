@@ -1,15 +1,17 @@
 {
   "name": "gurney-eleventy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Gurney Genealogy Library Eleventy site",
   "main": "index.js",
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --watch",
-    "serve": "eleventy --serve"
+    "serve": "eleventy --serve",
+    "validate": "node scripts/validate-site.js",
+    "package": "npm run validate && npm run build && node scripts/package-site.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Allen Lawrence Gurney",
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^3.1.5",
