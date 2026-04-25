@@ -25,6 +25,24 @@ function compactEra(label) {
   return String(label || "").split(/\s+(?:\u2014|\u00e2\u20ac\u201d|-)\s+/)[0].trim();
 }
 
+function shortEraLabel(item) {
+  if (item.shortLabel) return item.shortLabel;
+  const byClass = {
+    "era-modern": "Modern America",
+    "era-gilded": "Gilded Age",
+    "era-republic": "Early Republic",
+    "era-massachusetts": "Massachusetts",
+    "era-emigrant": "The Emigrant",
+    "era-tudor": "Tudor England",
+    "era-medieval": "Medieval Norfolk",
+    "era-junior-norfolk": "Junior Norfolk",
+    "era-norman": "Norman Barons",
+    "era-viking": "Viking Origins",
+    "era-end": "End of Known Record",
+  };
+  return byClass[item.cssClass] || compactEra(item.label);
+}
+
 function confidenceFromPrecision(precision) {
   const value = String(precision || "").toLowerCase();
   if (value.includes("high")) return "High";
@@ -220,6 +238,7 @@ const generated = ancestors.map(item => {
     return {
       type: "era",
       label: item.label,
+      shortLabel: shortEraLabel(item),
       dates: item.dates || "",
       sequenceId: item.sequenceId,
       cssClass: item.cssClass,
@@ -253,6 +272,7 @@ const generated = ancestors.map(item => {
     geography: item.geography || "",
     eraId: item.eraId || "",
     eraLabel: era.label || "",
+    eraShortLabel: shortEraLabel(era),
     eraKey: compactEra(era.label),
     eraDates: era.dates || "",
     eraClass: era.cssClass || "",
