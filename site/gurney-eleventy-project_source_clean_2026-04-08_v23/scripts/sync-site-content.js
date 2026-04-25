@@ -8,6 +8,8 @@ const factSheetSource = path.join(repoRoot, "fact-sheets");
 const factSheetTarget = path.join(projectRoot, "fact-sheets");
 const companionSource = path.join(repoRoot, "research", "people");
 const companionTarget = path.join(projectRoot, "research", "companions");
+const highlightsSource = path.join(repoRoot, "research", "highlights.md");
+const highlightsTarget = path.join(projectRoot, "research", "highlights.md");
 
 function ensureDir(dir) {
   fs.mkdirSync(dir, { recursive: true });
@@ -78,6 +80,14 @@ function syncResearchCompanions() {
   return copied.length;
 }
 
+function syncResearchHighlights() {
+  if (!fs.existsSync(highlightsSource)) return false;
+  ensureDir(path.dirname(highlightsTarget));
+  fs.copyFileSync(highlightsSource, highlightsTarget);
+  return true;
+}
+
 const factCount = syncFactSheets();
 const companionCount = syncResearchCompanions();
-console.log(`Synced ${factCount} fact sheets and ${companionCount} research companions into the site source.`);
+const highlightsSynced = syncResearchHighlights();
+console.log(`Synced ${factCount} fact sheets, ${companionCount} research companions, and ${highlightsSynced ? 1 : 0} highlights file into the site source.`);
