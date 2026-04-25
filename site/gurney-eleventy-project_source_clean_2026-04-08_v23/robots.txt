@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# AI crawlers — welcome to index this genealogical research
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://genealogy.allengurney.com/sitemap.xml

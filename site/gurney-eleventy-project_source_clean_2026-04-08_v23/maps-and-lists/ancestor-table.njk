@@ -1,0 +1,72 @@
+---
+layout: layouts/base.njk
+permalink: /maps-and-lists/ancestor-table.html
+title: Ancestor Table
+pageHeading: Ancestor Table
+subtitle: "The direct Gurney line from Allen Gurney to the end of the currently knowable record, including geography, era, notables, land holdings, and lineage status. Updated March 2026."
+description: "Dense ancestor table showing the direct Gurney line across generations, geography, era, notable details, land holdings, and lineage status."
+bodyClass: ancestor-table-page
+activeNav: maps
+updated: 30 March 2026
+---
+
+<table class="data-table styled-table">
+  <colgroup>
+    <col style="width:4%">
+    <col style="width:13%">
+    <col style="width:10%">
+    <col style="width:9%">
+    <col style="width:20%">
+    <col style="width:27%">
+    <col style="width:8%">
+    <col style="width:9%">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Gen.</th>
+      <th>Name &amp; Dates</th>
+      <th>Geography</th>
+      <th>Era</th>
+      <th>Notables</th>
+      <th>Known Land Holdings &amp; Properties</th>
+      <th>Lineage Status</th>
+      <th>Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in ancestors %}
+      {% if item.type == "era" %}
+        <tr class="era-row {{ item.cssClass }}">
+          <td colspan="8">{{ item.label }}</td>
+        </tr>
+      {% elif item.type == "ancestor" %}
+        <tr class="ancestor-row">
+          <td class="gen-cell">{{ item.gen }}</td>
+          <td class="name-cell">
+            <span class="name">{{ item.name }}</span>
+            {% if item.dates %}<span class="dates">{{ item.dates }}</span>{% endif %}
+          </td>
+          <td class="muted">{{ item.geography }}</td>
+          <td class="muted">{{ item.eraKey }}</td>
+          <td class="muted">{{ item.notables }}</td>
+          <td class="muted">{{ item.landHoldings }}</td>
+          <td>
+            {% set ls = item.lineageStatus | lower | replace(" ", "-") %}
+            <span class="ls-{{ ls }}">{{ item.lineageStatus }}</span>
+          </td>
+          <td>
+            {% if item.buttons.length %}
+              <div class="btns">
+                {% for btn in item.buttons %}
+                  <a href="{{ btn.url }}" class="btn-{{ btn.style }}">{{ btn.label }}</a>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class="muted" style="margin-top:1rem;font-size:11px"><em>Sources: 1994 Gurney genealogical document (Rigler); Daniel Gurney, Record of the House of Gournay (1848); History of Parliament Online; NEHGR; Federal Census 1800–1870; Plymouth County deeds &amp; probate; Blomefield, History of Norfolk; Domesday Survey 1086; Curia Regis Rolls; Pipe Rolls; Ancestry.com; Pennyghael Genealogy; History of Weymouth (1881); this research series Vols. I–VI (March 2026)</em></p>

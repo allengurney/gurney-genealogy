@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+<title id="title">St Benet Fink title card</title>
+<desc id="desc">A styled local title card for the St Benet Fink hero panel.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f8f3ec"/>
+    <stop offset="100%" stop-color="#ece0cf"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="780" fill="url(#bg)"/>
+<rect x="58" y="58" width="1084" height="664" rx="18" fill="#fffdfa" stroke="#d8cdbd" stroke-width="3"/>
+<path d="M168 604 L168 522 L260 522 L260 388 L396 388 L396 256 L534 256 L534 194 L666 194 L666 304 L754 304 L754 414 L866 414 L866 526 L1016 526 L1016 604 Z" fill="#c8ae87" opacity=".62"/>
+<path d="M168 604 L168 522 L260 522 L260 388 L396 388 L396 256 L534 256 L534 194 L666 194 L666 304 L754 304 L754 414 L866 414 L866 526 L1016 526" fill="none" stroke="#8a6134" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="600" y1="132" x2="600" y2="194" stroke="#8a6134" stroke-width="10"/>
+<text x="600" y="660" text-anchor="middle" font-family="Georgia,serif" font-size="72" fill="#1f2d44">St Benet Fink</text>
+<text x="600" y="715" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" fill="#8a6134">London parish associated with Francis Gurney&apos;s later family</text>
+</svg>

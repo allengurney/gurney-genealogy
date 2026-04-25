@@ -1,0 +1,47 @@
+# Gurney Genealogy Library
+
+> A working genealogical research library tracing the direct Gurney line across 37+ generations, from modern America to Viking-age Normandy. Developed by Allen Lawrence Gurney, Portland, Oregon.
+
+## Site content
+
+- [Home — Ancestor Spine](https://genealogy.allengurney.com/): Overview table of all 37+ generations with era groupings, geography, and navigation to detail pages.
+- [Brigadier General William Gurney (1821–1879)](https://genealogy.allengurney.com/key-research/brigadier-general-william-gurney.html): Full biography. New York merchant, Civil War colonel (127th NY Infantry), commandant of Charleston SC 1865, Reconstruction-era public official. Primary and secondary sources cited throughout.
+- [John Gurney Case File](https://genealogy.allengurney.com/key-research/john-gurney-case-file.html): Formal research case file arguing John Gurney-1 of Braintree MA (d. 1662/3) was the son of Francis Gurney, Merchant Taylor, and Margaret Rybett of Norfolk. Includes paleographic analysis of East Dereham parish register Entry E. Assessed probability ~55–60%.
+- [Ancestor Table](https://genealogy.allengurney.com/maps-and-lists/ancestor-table.html): Dense reference table covering all 37+ generations with geography, notables, documented land holdings, and lineage status per generation.
+- [Ancestor Map](https://genealogy.allengurney.com/maps-and-lists/ancestor-map.html): Interactive geographic map of documented Gurney ancestor locations from Scandinavia and Normandy through England to colonial and modern America.
+
+- [Using Generative AI in Genealogy](https://genealogy.allengurney.com/key-research/using-gen-ai-in-genealogy.html): Practical first-person notes on using generative AI for genealogy research, writing, paleography, structured files, and Eleventy website production.
+
+- [AI Assistant Procedure for Parish Record Analysis](https://genealogy.allengurney.com/key-research/east-dereham-ai-assistant-procedure.html): Technical workflow record for the East Dereham parish-register reading used in the John Gurney case file, including retained artifacts, enhancement families, and comparative letterform tests.
+
+- [Francis Gurney Fact Sheet](https://genealogy.allengurney.com/fact-sheets/g14-francis-gurney-fact-sheet.html): Compact research fact sheet for G14 Francis Gurney (1581–1646/7), Merchant Taylor of London, including vital records, marriages, children, concise narrative, and citations.
+- [Eudes (Odon) de Gournay Fact Sheet](https://genealogy.allengurney.com/fact-sheets/g37-eudes-de-gournay-fact-sheet.html): Compact research fact sheet for G~37 Eudes (Odon) de Gournay, traditional first lord of Gournay-en-Bray, with concise narrative and citations.
+- [Hugh de Gournay I Fact Sheet](https://genealogy.allengurney.com/fact-sheets/g36-hugh-de-gournay-i-fact-sheet.html): Compact research fact sheet for G36 Hugh de Gournay I, first lord born in Gournay, with concise narrative and citations.
+- [Renaud de Gournay Fact Sheet](https://genealogy.allengurney.com/fact-sheets/g35-renaud-de-gournay-fact-sheet.html): Compact research fact sheet for G35 Renaud de Gournay, early lord in the Norman line, with concise narrative and citations.
+- [Hugh de Gournay II Fact Sheet](https://genealogy.allengurney.com/fact-sheets/g34-hugh-de-gournay-ii-fact-sheet.html): Compact research fact sheet for G34 Hugh de Gournay II, early Norman frontier lord of Gournay-en-Bray, with concise narrative and citations.
+- [Hugh de Gournay III Fact Sheet](https://genealogy.allengurney.com/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html): Compact research fact sheet for G33 Hugh de Gournay III, Hastings-era Norman lord and Domesday landholder, with concise narrative and citations.
+- [Gerard de Gournay Fact Sheet](https://genealogy.allengurney.com/fact-sheets/g32-gerard-de-gournay-fact-sheet.html): Compact research fact sheet for G32 Gerard de Gournay, crusader lord of Gournay-en-Bray, including vital records, marriage alliance, descendants, concise narrative, and citations.
+
+- [William de Gournay II (fl. c. 1210–1250) fact sheet](https://genealogy.allengurney.com/fact-sheets/g28-william-de-gournay-ii-fact-sheet.html): Compact ancestor fact sheet for William de Gournay II (fl. c. 1210–1250).
+- [Sir Matthew de Gournay (fl. c. 1180–1220) fact sheet](https://genealogy.allengurney.com/fact-sheets/g29-matthew-de-gournay-fact-sheet.html): Compact ancestor fact sheet for Sir Matthew de Gournay (fl. c. 1180–1220).
+- [William de Gournay I (fl. c. 1150–1180) fact sheet](https://genealogy.allengurney.com/fact-sheets/g30-william-de-gournay-i-fact-sheet.html): Compact ancestor fact sheet for William de Gournay I (fl. c. 1150–1180).
+- [Walter de Gournay (fl. c. 1108–1154) fact sheet](https://genealogy.allengurney.com/fact-sheets/g31-walter-de-gournay-fact-sheet.html): Compact ancestor fact sheet for Walter de Gournay (fl. c. 1108–1154).
+- [John de Gournay IV (fl. c. 1330–1370) fact sheet](https://genealogy.allengurney.com/fact-sheets/g24-john-de-gournay-iv-fact-sheet.html): Compact ancestor fact sheet for John de Gournay IV (fl. c. 1330–1370).
+- [John de Gournay III (fl. c. 1300–1353) fact sheet](https://genealogy.allengurney.com/fact-sheets/g25-john-de-gournay-iii-fact-sheet.html): Compact ancestor fact sheet for John de Gournay III (fl. c. 1300–1353).
+- [Sir William de Gournay III (fl. c. 1260–1300) fact sheet](https://genealogy.allengurney.com/fact-sheets/g26-sir-william-de-gournay-iii-fact-sheet.html): Compact ancestor fact sheet for Sir William de Gournay III (fl. c. 1260–1300).
+- [Sir John de Gournay I (fl. c. 1240–1280) fact sheet](https://genealogy.allengurney.com/fact-sheets/g27-sir-john-de-gournay-i-fact-sheet.html): Compact ancestor fact sheet for Sir John de Gournay I (fl. c. 1240–1280).
+- [Robert Gournay (fl. c. 1370–1420) fact sheet](https://genealogy.allengurney.com/fact-sheets/g22-robert-gournay-fact-sheet.html): Compact ancestor fact sheet for Robert Gournay (fl. c. 1370–1420).
+- [Edmund Gurney (d. 1387) fact sheet](https://genealogy.allengurney.com/fact-sheets/g23-edmund-gurney-fact-sheet.html): Compact ancestor fact sheet for Edmund Gurney (d. 1387).
+- [Henry Gurney (1548/49–1615/16) fact sheet](https://genealogy.allengurney.com/fact-sheets/g15-henry-gurney-fact-sheet.html): Compact ancestor fact sheet for Henry Gurney (1548/49–1615/16).
+- [Francis Gurney (c. 1521–1556) fact sheet](https://genealogy.allengurney.com/fact-sheets/g16-francis-gurney-fact-sheet.html): Compact ancestor fact sheet for Francis Gurney (c. 1521–1556).
+- [Anthony Gurney (c. 1499–1555/6) fact sheet](https://genealogy.allengurney.com/fact-sheets/g17-anthony-gurney-fact-sheet.html): Compact ancestor fact sheet for Anthony Gurney (c. 1499–1555/6).
+- [William Gurney V (c. 1465–1508) fact sheet](https://genealogy.allengurney.com/fact-sheets/g18-william-gurney-v-fact-sheet.html): Compact ancestor fact sheet for William Gurney V (c. 1465–1508).
+- [William Gurney IV (c. 1450–1508) fact sheet](https://genealogy.allengurney.com/fact-sheets/g19-william-gurney-iv-fact-sheet.html): Compact ancestor fact sheet for William Gurney IV (c. 1450–1508).
+- [Thomas Gournay II (fl. c. 1430–1471) fact sheet](https://genealogy.allengurney.com/fact-sheets/g20-thomas-gournay-ii-fact-sheet.html): Compact ancestor fact sheet for Thomas Gournay II (fl. c. 1430–1471).
+- [Thomas Gournay I (fl. c. 1408–c. 1450) fact sheet](https://genealogy.allengurney.com/fact-sheets/g21-thomas-gournay-i-fact-sheet.html): Compact ancestor fact sheet for Thomas Gournay I (fl. c. 1408–c. 1450).
+
+## Research context
+
+Primary sources consulted include: Daniel Gurney, *Record of the House of Gournay* (1848); Norfolk Record Office parish registers (NRO PD 12/1, PD 86/41); Merchant Taylors' Company freedom certificates; Plymouth County MA deeds and probate; Weymouth MA town records; History of Parliament Online; Domesday Survey 1086; Curia Regis Rolls; Federal Census 1800–1870.
+
+The John Gurney–Francis Gurney connection (G13–G14) is assessed as probable (~55–60%), not confirmed. Professional paleographic examination of NRO PD 86/41 image 00715 is the next required step for confirmation.

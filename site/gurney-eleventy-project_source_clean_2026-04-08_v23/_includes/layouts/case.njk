@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} | Gurney Genealogy Library</title>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="/assets/site.css">
+  {% if description %}<meta name="description" content="{{ description }}">{% endif %}
+  <meta property="og:title" content="{{ title }} | Gurney Genealogy Library">
+  {% if description %}<meta property="og:description" content="{{ description }}">{% endif %}
+  <meta property="og:type" content="article">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+</head>
+<body class="{{ bodyClass }}">
+
+  {% include "partials/siteheader.njk" %}
+
+  <nav class="case-nav">
+    {% for item in caseNav %}
+      <a href="{{ item.href }}">{{ item.label }}</a>
+    {% endfor %}
+  </nav>
+
+  <div class="page" id="top">
+    <h1>{{ pageTitle1 }}</h1>
+    <h1>{{ pageTitle2 }}</h1>
+    <h2 id="s1">A Research Case File</h2>
+    <p>{{ caseMeta | safe }}</p>
+
+    {{ content | safe }}
+  </div>
+
+  {% include "partials/sitefooter.njk" %}
+
+</body>
+</html>
