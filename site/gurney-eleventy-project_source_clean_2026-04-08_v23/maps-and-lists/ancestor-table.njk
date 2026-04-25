@@ -3,115 +3,213 @@ layout: layouts/base.njk
 permalink: /maps-and-lists/ancestor-table.html
 title: Pedigree Catalog
 pageHeading: Pedigree Catalog
-subtitle: "One catalog for the direct Gurney line. Start with the quick view, then switch to detailed view for notables, places, land, and lineage status."
-description: "Pedigree catalog for the direct Gurney line, with quick and detailed views driven by the current ancestor data."
-bodyClass: ancestor-table-page catalog-page
+subtitle: "The Gurney direct male line, era-banded and linked to fact sheets, research companions, and places."
+description: "Pedigree catalog for the direct Gurney line, with a visual catalog and dense table view driven by the current ancestor data."
+bodyClass: explorer-page
 activeNav: maps
 updated: 25 April 2026
 ---
 
-<div class="catalog-toolbar" data-catalog-controls>
-  <div class="segmented-control" role="group" aria-label="Catalog view">
-    <button type="button" class="is-active" data-catalog-mode="quick" aria-pressed="true">Quick view</button>
-    <button type="button" data-catalog-mode="detailed" aria-pressed="false">Detailed view</button>
-  </div>
-  <p class="catalog-note">Fact sheets are rebuilt from the source Markdown. Research notes open the supplemental companion pages.</p>
-</div>
+<div data-pedigree-explorer>
+  <p class="explorer-crumbs">Library / Pedigree Catalog</p>
+  <header class="explorer-head">
+    <div>
+      <h1 class="explorer-title">Pedigree Catalog</h1>
+      <p class="explorer-subtitle">The Gurney direct male line, rendered from the v26 ancestor data and the current place spine. Use the catalog for fast browsing or the detailed table for a denser research view.</p>
+    </div>
+    <div class="mode-switch" role="group" aria-label="Catalog view">
+      <button type="button" class="is-active" data-catalog-mode="catalog" aria-pressed="true">Catalog</button>
+      <button type="button" data-catalog-mode="table" aria-pressed="false">Detailed table</button>
+    </div>
+  </header>
 
-<div class="catalog-table-wrap catalog-quick" data-catalog-table>
-  <table class="data-table styled-table catalog-table">
-    <colgroup>
-      <col class="catalog-col-gen">
-      <col class="catalog-col-name">
-      <col class="catalog-col-geography">
-      <col class="catalog-col-summary">
-      <col class="catalog-col-detail catalog-col-notables">
-      <col class="catalog-col-detail catalog-col-places">
-      <col class="catalog-col-detail catalog-col-status">
-      <col class="catalog-col-links">
-    </colgroup>
-    <thead>
-      <tr>
-        <th>Gen.</th>
-        <th>Name &amp; Dates</th>
-        <th>Geography</th>
-        <th>Summary</th>
-        <th class="catalog-detail-col">Notables</th>
-        <th class="catalog-detail-col">Places &amp; Holdings</th>
-        <th class="catalog-detail-col">Lineage Status</th>
-        <th>Links</th>
-      </tr>
-    </thead>
-    <tbody>
+  <div class="stats-strip">
+    <div class="stat"><span class="label">Known generations</span><span class="value">{{ siteStats.knownGenerationCount }}</span><span class="sub">{{ siteStats.directAncestorCount }} catalog records</span></div>
+    <div class="stat"><span class="label">Eras</span><span class="value">{{ siteStats.eraCount }}</span><span class="sub">from modern America to origin wall</span></div>
+    <div class="stat"><span class="label">Places</span><span class="value">{{ siteStats.placeCount }}</span><span class="sub">structured place references</span></div>
+    <div class="stat"><span class="label">Research notes</span><span class="value">{{ siteStats.researchCompanionCount }}</span><span class="sub">published companions</span></div>
+    <div class="stat"><span class="label">Data source</span><span class="value">v26</span><span class="sub">regenerated at build time</span></div>
+  </div>
+
+  <div class="catalog-toolbar">
+    <div class="filter-group" role="group" aria-label="Era filter">
+      <button type="button" class="is-active" data-era-filter="all">All eras</button>
       {% for item in ancestors %}
         {% if item.type == "era" %}
-          <tr class="era-row {{ item.cssClass }}">
-            <td colspan="8">{{ item.label }}{% if item.dates %} <span class="era-dates">{{ item.dates }}</span>{% endif %}</td>
-          </tr>
-        {% elif item.type == "ancestor" %}
-          <tr class="ancestor-row">
-            <td class="gen-cell">{{ item.gen }}</td>
-            <td class="name-cell">
-              <span class="name">{{ item.name }}</span>
-              {% if item.dates %}<span class="dates">{{ item.dates }}</span>{% endif %}
-            </td>
-            <td class="muted">{{ item.geography }}</td>
-            <td class="summary-cell">{{ item.summary }}</td>
-            <td class="muted catalog-detail-col">{{ item.notables }}</td>
-            <td class="muted catalog-detail-col">
-              {% if item.placeSummary %}<p class="place-summary">{{ item.placeSummary }}</p>{% endif %}
-              {% if item.landHoldings and item.landHoldings != "—" %}<p>{{ item.landHoldings }}</p>{% endif %}
-            </td>
-            <td class="catalog-detail-col">
-              {% set ls = item.lineageStatus | lower | replace(" ", "-") %}
-              <span class="lineage-badge ls-{{ ls }}">{{ item.lineageStatus }}</span>
-            </td>
-            <td>
-              {% if item.buttons and item.buttons.length %}
-                <div class="btns">
-                  {% for btn in item.buttons %}
-                    <a href="{{ btn.url }}" class="btn-{{ btn.style }}">{{ btn.label }}</a>
-                  {% endfor %}
-                </div>
-              {% endif %}
-            </td>
-          </tr>
+          <button type="button" data-era-filter="{{ item.cssClass }}">{{ item.label | truncate(18, true, "") }}</button>
         {% endif %}
       {% endfor %}
-    </tbody>
-  </table>
+    </div>
+    <div class="filter-group" role="group" aria-label="Lineage status filter">
+      <button type="button" class="is-active" data-status-filter="all">All status</button>
+      <button type="button" data-status-filter="Confirmed">Confirmed</button>
+      <button type="button" data-status-filter="Probable">Probable</button>
+      <button type="button" data-status-filter="Speculative">Speculative</button>
+    </div>
+    <div class="spacer"></div>
+    <span class="result-count" data-result-count></span>
+  </div>
+
+  <section class="explorer-layout" data-catalog-panel>
+    <aside class="ruler" aria-hidden="true">
+      <div>Now</div>
+      <div class="ruler-line">
+        <div class="ruler-tick" style="top:10%"><span class="year">1900</span><span class="mark"></span></div>
+        <div class="ruler-tick" style="top:24%"><span class="year">1700</span><span class="mark"></span></div>
+        <div class="ruler-tick" style="top:38%"><span class="year">1500</span><span class="mark"></span></div>
+        <div class="ruler-tick" style="top:52%"><span class="year">1300</span><span class="mark"></span></div>
+        <div class="ruler-tick" style="top:66%"><span class="year">1100</span><span class="mark"></span></div>
+        <div class="ruler-tick" style="top:80%"><span class="year">900</span><span class="mark"></span></div>
+      </div>
+      <div>Before</div>
+    </aside>
+
+    <section class="pedigree-spine" aria-label="Ancestor catalog">
+      {% for item in ancestors %}
+        {% if item.type == "era" %}
+          <div class="era-band" data-era-band style="--era-a:{{ item.colorFrom }};--era-b:{{ item.colorTo }}">
+            <span>{{ item.label }}</span>
+            <span class="era-range">{{ item.dates }}</span>
+          </div>
+        {% elif item.type == "ancestor" %}
+          <div class="pedigree-row"
+               data-pedigree-row
+               data-gen="{{ item.gen }}"
+               data-era="{{ item.eraClass }}"
+               data-status="{{ item.lineageStatus }}"
+               tabindex="0"
+               role="button"
+               style="--era-a:{{ item.colorFrom }};--era-b:{{ item.colorTo }}">
+            <div class="gen-badge">{{ item.gen }}</div>
+            <div class="timeline-dot"><span class="dot"></span></div>
+            <div>
+              <div class="name-text">{{ item.name }}</div>
+              <div class="dates-text">{{ item.dates }}</div>
+              <div class="geo-line">{{ item.placeSummary or item.geography }}</div>
+              <div class="summary-line">{{ item.summary }}</div>
+            </div>
+            <div class="row-meta">
+              <span class="status-tag{% if item.lineageStatus == 'Probable' %} probable{% endif %}">{{ item.lineageStatus }}</span>
+              <span aria-hidden="true">&gt;</span>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </section>
+
+    <aside class="detail-col">
+      {% for item in ancestors %}
+        {% if item.type == "ancestor" %}
+          <article class="detail-panel" data-detail-panel="{{ item.gen }}" style="--era-a:{{ item.colorFrom }};--era-b:{{ item.colorTo }}">
+            <header class="detail-head">
+              <div class="detail-eyebrow">{{ item.eraKey }} / {{ item.gen }}</div>
+              <h2 class="detail-name">{{ item.name }}</h2>
+              <div class="detail-dates">{{ item.dates }} / {{ item.geography }}</div>
+            </header>
+            <div class="detail-body">
+              {% if item.summary %}<p class="detail-summary">{{ item.summary }}</p>{% endif %}
+              {% if item.notables %}
+                <section class="detail-section">
+                  <h4>Notables</h4>
+                  <p class="detail-summary">{{ item.notables }}</p>
+                </section>
+              {% endif %}
+              {% if item.locations and item.locations.length %}
+                <section class="detail-section">
+                  <h4>Places</h4>
+                  <ul>
+                    {% for loc in item.locations %}
+                      <li>{{ loc.siteName or loc.place }}{% if loc.eventType %} - {{ loc.eventType }}{% endif %}</li>
+                    {% endfor %}
+                  </ul>
+                </section>
+              {% endif %}
+              {% if item.hasLandHoldings %}
+                <section class="detail-section">
+                  <h4>Places and holdings</h4>
+                  <p class="detail-summary">{{ item.landHoldings }}</p>
+                </section>
+              {% endif %}
+              {% if item.spouses and item.spouses.length %}
+                <section class="detail-section">
+                  <h4>Spouse</h4>
+                  <ul>
+                    {% for spouse in item.spouses %}
+                      <li>{{ spouse.name }}{% if spouse.dates %} - {{ spouse.dates }}{% endif %}</li>
+                    {% endfor %}
+                  </ul>
+                </section>
+              {% endif %}
+              {% if item.children and item.children.length %}
+                <section class="detail-section">
+                  <h4>Issue</h4>
+                  <ul>
+                    {% for child in item.children %}
+                      <li>{{ child.name }}{% if child.notes %} - {{ child.notes }}{% endif %}</li>
+                    {% endfor %}
+                  </ul>
+                </section>
+              {% endif %}
+              <div class="detail-actions">
+                {% if item.buttons and item.buttons.length %}
+                  {% for btn in item.buttons %}
+                    <a href="{{ btn.url }}" class="btn{% if btn.style == 'bio' %} primary{% endif %}">{{ btn.label }}</a>
+                  {% endfor %}
+                {% endif %}
+                <a href="/maps-and-lists/ancestor-map.html" class="btn">Map</a>
+              </div>
+            </div>
+          </article>
+        {% endif %}
+      {% endfor %}
+    </aside>
+  </section>
+
+  <section class="detailed-table-panel" data-table-panel>
+    <div class="catalog-table-wrap">
+      <table class="data-table styled-table dense-catalog-table">
+        <thead>
+          <tr>
+            <th>Gen.</th>
+            <th>Name and dates</th>
+            <th>Era</th>
+            <th>Geography</th>
+            <th>Summary</th>
+            <th>Notables</th>
+            <th>Places and holdings</th>
+            <th>Status</th>
+            <th>Links</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for item in ancestors %}
+            {% if item.type == "ancestor" %}
+              <tr data-table-row data-era="{{ item.eraClass }}" data-status="{{ item.lineageStatus }}">
+                <td class="gen-cell">{{ item.gen }}</td>
+                <td class="name-cell"><span class="name">{{ item.name }}</span>{% if item.dates %}<span class="dates">{{ item.dates }}</span>{% endif %}</td>
+                <td>{{ item.eraKey }}</td>
+                <td>{{ item.placeSummary or item.geography }}</td>
+                <td>{{ item.summary }}</td>
+                <td>{{ item.notables }}</td>
+                <td>{% if item.hasLandHoldings %}{{ item.landHoldings }}{% endif %}</td>
+                <td>{{ item.lineageStatus }}</td>
+                <td>
+                  {% if item.buttons and item.buttons.length %}
+                    <div class="btns">
+                      {% for btn in item.buttons %}
+                        <a href="{{ btn.url }}" class="btn-{{ btn.style }}">{{ btn.label }}</a>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </td>
+              </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <p class="muted catalog-source-note"><em>Data source: generated from <code>data/ancestors v26.json</code>, <code>data/places.json</code>, <code>data/places_detail.json</code>, root fact-sheet Markdown, and root research companion Markdown.</em></p>
+  </section>
 </div>
 
-<p class="muted catalog-source-note"><em>Data source: generated from <code>data/ancestors v26.json</code>, <code>data/places.json</code>, <code>data/places_detail.json</code>, root fact-sheet Markdown, and root research companion Markdown.</em></p>
-
-<script>
-(() => {
-  const table = document.querySelector("[data-catalog-table]");
-  const buttons = Array.from(document.querySelectorAll("[data-catalog-mode]"));
-  if (!table || !buttons.length) return;
-
-  function setMode(mode) {
-    const isDetailed = mode === "detailed";
-    table.classList.toggle("catalog-quick", !isDetailed);
-    table.classList.toggle("catalog-detailed", isDetailed);
-    buttons.forEach(button => {
-      const active = button.dataset.catalogMode === mode;
-      button.classList.toggle("is-active", active);
-      button.setAttribute("aria-pressed", active ? "true" : "false");
-    });
-    try {
-      window.localStorage.setItem("gurneyCatalogMode", mode);
-    } catch (err) {}
-  }
-
-  buttons.forEach(button => {
-    button.addEventListener("click", () => setMode(button.dataset.catalogMode));
-  });
-
-  let saved = "quick";
-  try {
-    saved = window.localStorage.getItem("gurneyCatalogMode") || "quick";
-  } catch (err) {}
-  setMode(saved === "detailed" ? "detailed" : "quick");
-})();
-</script>
+<script src="/assets/pedigree-explorer.js"></script>
