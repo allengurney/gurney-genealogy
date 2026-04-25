@@ -5,7 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ title }} | Gurney Genealogy Library</title>
   <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
+  <link rel="stylesheet" href="/assets/explorer.css">
   <link rel="stylesheet" href="/assets/refactor.css">
   {% if description %}<meta name="description" content="{{ description }}">{% endif %}
   <meta property="og:title" content="{{ title }} | Gurney Genealogy Library">
@@ -13,7 +17,7 @@
   <meta property="og:type" content="article">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 </head>
-<body class="{{ bodyClass }}">
+<body class="design-refresh {{ bodyClass }}">
 
   {% include "partials/siteheader.njk" %}
 

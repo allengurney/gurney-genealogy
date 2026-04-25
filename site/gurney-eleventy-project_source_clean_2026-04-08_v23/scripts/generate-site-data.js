@@ -21,7 +21,7 @@ function genNumber(gen) {
 }
 
 function compactEra(label) {
-  return String(label || "").split(" — ")[0].trim();
+  return String(label || "").split(/\s+(?:\u2014|\u00e2\u20ac\u201d|-)\s+/)[0].trim();
 }
 
 function confidenceFromPrecision(precision) {
@@ -44,6 +44,10 @@ function cleanButton(button) {
     url: button.url,
     style: button.style || "bio",
   };
+}
+
+function hasMeaningfulValue(value) {
+  return Boolean(value && !/^\s*(?:-|\u2014)\s*$/.test(String(value)));
 }
 
 function indexFactSheets() {
@@ -181,11 +185,17 @@ const generated = ancestors.map(item => {
     dates: item.dates || "",
     geography: item.geography || "",
     eraId: item.eraId || "",
+    eraLabel: era.label || "",
     eraKey: compactEra(era.label),
+    eraDates: era.dates || "",
+    eraClass: era.cssClass || "",
+    colorFrom: era.colorFrom || "",
+    colorTo: era.colorTo || "",
     lineageStatus: item.lineageStatus || "",
     summary: item.summary || "",
     notables: item.notables || "",
     landHoldings: item.landHoldings || "",
+    hasLandHoldings: hasMeaningfulValue(item.landHoldings),
     spouses: item.spouses || [],
     children: item.children || [],
     buttons,

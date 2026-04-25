@@ -5,47 +5,107 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gurney Genealogy Library</title>
   <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
+  <link rel="stylesheet" href="/assets/explorer.css">
+  <link rel="stylesheet" href="/assets/refactor.css">
   <meta name="description" content="Thirty-seven generations of Gurney ancestry, from the rise of the Vikings to modern America.">
   <meta property="og:title" content="Gurney Genealogy Library">
   <meta property="og:description" content="Thirty-seven generations of Gurney ancestry, from the rise of the Vikings to modern America.">
   <meta name="robots" content="index,follow">
-  <meta name="google-site-verification" content="R71OdVnnmA74iDpEVHbe2ldoMv-hyCpD7JZ9yr36ifA" />
+  <meta name="google-site-verification" content="R71OdVnnmA74iDpEVHbe2ldoMv-hyCpD7JZ9yr36ifA">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 </head>
-<body>
+<body class="design-refresh home-refresh">
 
   {% include "partials/siteheader.njk" %}
 
-  <main class="site-shell">
-    <section class="home-hero">
-      <h1>Thirty-seven generations of Gurney ancestry, from the rise of the Vikings to modern America.</h1>
-      <p class="subtitle">
-        This working library developed by amateur genealogist Allen Gurney
-        <a class="inline-contact-link"
-           href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAdNpQL5UQVNMT1AzQjZQUEJQRlZJVUc0NFgzWkg1QS4u"
-           target="_blank" rel="noopener">(contact me)</a>
-        organizes his direct Gurney line across eras, geographies, and supporting research artifacts.
-      </p>
+  <main class="site-shell refresh-shell">
+    <section class="refresh-hero">
+      <div>
+        <div class="hero-kicker">A Gurney family project - 2026 edition</div>
+        <h1><span>Thirty-seven generations</span> of Gurney ancestry, from the rise of the Vikings to modern America.</h1>
+        <p class="lead">
+          A working library of the Gurney direct male descent across eras, geographies, and supporting research artifacts.
+          Developed by amateur genealogist Allen Gurney
+          <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAdNpQL5UQVNMT1AzQjZQUEJQRlZJVUc0NFgzWkg1QS4u"
+             target="_blank" rel="noopener">contact me</a>.
+        </p>
+        <div class="cta-row">
+          <a class="btn primary" href="/maps-and-lists/ancestor-table.html">Open Pedigree Catalog</a>
+          <a class="btn" href="/maps-and-lists/ancestor-map.html">Open Ancestor Map</a>
+        </div>
+      </div>
+      <aside class="hero-art">
+        <h4>Featured slice - Generations 20-30</h4>
+        <div class="spine-preview">
+          {% for item in ancestors %}
+            {% if item.type == "ancestor" and item.genNumber >= 20 and item.genNumber <= 30 %}
+              <a class="spine-preview-row" href="/maps-and-lists/ancestor-table.html?gen={{ item.gen }}" style="--era-a:{{ item.colorFrom }};--era-b:{{ item.colorTo }}">
+                <span class="g">{{ item.gen }}</span>
+                <span>
+                  <span class="n">{{ item.name }}</span>
+                  <span class="d">{{ item.placeSummary or item.geography }}</span>
+                </span>
+                <span class="d">{{ item.dates }}</span>
+              </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </aside>
     </section>
 
-    <section class="home-layout">
-      <div class="data-table-wrap">
-        {{ content | safe }}
+    <section class="home-sections">
+      <div>
+        <h2 class="section-eyebrow">Latest research notes</h2>
+        <div class="highlight-list">
+          {% for item in researchHighlights %}
+            <div class="highlight-row">
+              <span class="date">{{ item.date }}</span>
+              <div>
+                <div class="title">{{ item.title }}</div>
+                <div class="desc">{{ item.desc }}</div>
+              </div>
+              {% if item.ancestor %}
+                <a class="highlight-chip" href="{{ item.link }}" style="--era-a:{{ item.ancestor.colorFrom }};--era-b:{{ item.ancestor.colorTo }}">
+                  <span class="g">{{ item.ancestor.gen }}</span>
+                  <span>
+                    <span class="label">{{ item.ancestor.name }}</span>
+                    <span class="sub">{{ item.ancestor.dates }}</span>
+                  </span>
+                </a>
+              {% else %}
+                <a class="highlight-chip" href="{{ item.link }}">
+                  <span class="icon">R</span>
+                  <span>
+                    <span class="label">{{ item.link_label or item.link }}</span>
+                    <span class="sub">{{ item.link_type | replace("-", " ") }}</span>
+                  </span>
+                </a>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
       </div>
-      <aside class="home-rail">
-        <a class="rail-card" href="/maps-and-lists/ancestor-map.html">
-          <picture>
-            <source srcset="/assets/ancestor-map-card.webp" type="image/webp">
-            <img src="/assets/ancestor-map-card.jpg" alt="Ancestor Map — open research artifact" width="640" height="640" loading="eager" decoding="async">
-          </picture>
-        </a>
-        <a class="rail-card" href="/maps-and-lists/ancestor-table.html">
-          <picture>
-            <source srcset="/assets/ancestor-table-card.webp" type="image/webp">
-            <img src="/assets/ancestor-table-card.jpg" alt="Ancestor Table — open research artifact" width="640" height="640" loading="eager" decoding="async">
-          </picture>
-        </a>
+      <aside>
+        <div class="aside-card">
+          <h3>What is here</h3>
+          <p>A living catalog of the Gurney father-to-son line, each ancestor with vitals, places, source trail, and companion research where available.</p>
+          <div class="era-pills">
+            {% for item in ancestors %}
+              {% if item.type == "era" %}
+                <span style="--era-a:{{ item.colorFrom }};--era-b:{{ item.colorTo }}">{{ item.label | truncate(18, true, "") }}</span>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+        <div class="aside-card">
+          <h3>Start here</h3>
+          <p>The catalog is the fastest way in: select a generation, open the fact sheet, then follow the companion research notes when available.</p>
+          <a class="btn primary" href="/maps-and-lists/ancestor-table.html">Open Pedigree Catalog</a>
+        </div>
       </aside>
     </section>
   </main>

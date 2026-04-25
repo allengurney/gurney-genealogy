@@ -26,7 +26,10 @@ This note captures the initial baseline for moving from the current Eleventy sit
 - `research/research.11tydata.js` and `layouts/research.njk` provide a lightweight default publishing path for research markdown.
 - `scripts/sync-site-content.js` refreshes site fact sheets from root `fact-sheets/` and publishes paired `research/people/*.research.md` companions.
 - `scripts/generate-site-data.js` regenerates site ancestor data from v26 and the place spine.
-- `/maps-and-lists/ancestor-table.html` is now the Pedigree Catalog with quick and detailed view modes.
+- `_data/researchHighlights.js` renders homepage highlights from `research/highlights.md`.
+- `assets/explorer.css` carries the scoped visual language from `site/New website design/`.
+- `/index.html` now uses the new design direction and server-rendered highlights.
+- `/maps-and-lists/ancestor-table.html` is now the Pedigree Catalog with catalog and detailed table modes.
 
 ## Refactor sequence
 1. Keep the existing Eleventy project as the production base.
