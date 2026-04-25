@@ -8,18 +8,25 @@
   const resultCount = page.querySelector("[data-result-count]");
   const modeButtons = Array.from(page.querySelectorAll("[data-catalog-mode]"));
   const eraButtons = Array.from(page.querySelectorAll("[data-era-filter]"));
-  const statusButtons = Array.from(page.querySelectorAll("[data-status-filter]"));
+  const relatedToggle = page.querySelector("[data-related-toggle]");
   const catalogPanel = page.querySelector("[data-catalog-panel]");
   const tablePanel = page.querySelector("[data-table-panel]");
+  const drawer = page.querySelector("[data-detail-drawer]");
+  const backdrop = page.querySelector("[data-detail-backdrop]");
+  const closeButton = page.querySelector("[data-detail-close]");
 
-  let activeGen = "";
+  let activeRecordId = "";
   let eraFilter = "all";
-  let statusFilter = "all";
+  let includeRelated = false;
+
+  function isRelated(row) {
+    return row.dataset.recordType === "related";
+  }
 
   function visibleByFilters(row) {
     const eraOk = eraFilter === "all" || row.dataset.era === eraFilter;
-    const statusOk = statusFilter === "all" || row.dataset.status === statusFilter;
-    return eraOk && statusOk;
+    const relatedOk = includeRelated || !isRelated(row);
+    return eraOk && relatedOk;
   }
 
   function updateEraBands() {
@@ -34,29 +41,53 @@
     });
   }
 
-  function selectGen(gen) {
-    const target = rows.find(row => row.dataset.gen === gen && !row.hidden) || rows.find(row => !row.hidden);
-    if (!target) return;
-    activeGen = target.dataset.gen;
-    try { window.localStorage.setItem("gurneyPedigreeGen", activeGen); } catch (err) {}
+  function updateResultCount() {
+    const visibleRows = rows.filter(row => !row.hidden);
+    const direct = visibleRows.filter(row => !isRelated(row)).length;
+    const related = visibleRows.length - direct;
+    if (!resultCount) return;
+    resultCount.textContent = includeRelated && related
+      ? `${direct} direct + ${related} related`
+      : `${direct} direct ancestor${direct === 1 ? "" : "s"}`;
+  }
 
-    rows.forEach(row => row.classList.toggle("is-active", row.dataset.gen === activeGen));
-    detailPanels.forEach(panel => panel.classList.toggle("is-active", panel.dataset.detailPanel === activeGen));
+  function closeDrawer() {
+    if (!drawer || !backdrop) return;
+    drawer.classList.remove("is-open");
+    backdrop.classList.remove("is-open");
+    drawer.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("drawer-open");
+    rows.forEach(row => row.classList.remove("is-active"));
+    detailPanels.forEach(panel => panel.classList.remove("is-active"));
+    activeRecordId = "";
+  }
+
+  function openDrawer(recordId) {
+    const target = rows.find(row => row.dataset.recordId === recordId && !row.hidden);
+    if (!target || !drawer || !backdrop) return;
+    activeRecordId = target.dataset.recordId;
+
+    rows.forEach(row => row.classList.toggle("is-active", row.dataset.recordId === activeRecordId));
+    detailPanels.forEach(panel => panel.classList.toggle("is-active", panel.dataset.detailPanel === activeRecordId));
+    drawer.classList.add("is-open");
+    backdrop.classList.add("is-open");
+    drawer.setAttribute("aria-hidden", "false");
+    document.body.classList.add("drawer-open");
+    if (closeButton) closeButton.focus({ preventScroll: true });
   }
 
   function applyFilters() {
-    let count = 0;
     rows.forEach(row => {
-      const visible = visibleByFilters(row);
-      row.hidden = !visible;
-      if (visible) count += 1;
+      row.hidden = !visibleByFilters(row);
     });
     tableRows.forEach(row => {
       row.hidden = !visibleByFilters(row);
     });
     updateEraBands();
-    if (resultCount) resultCount.textContent = `${count} ancestor${count === 1 ? "" : "s"}`;
-    selectGen(activeGen);
+    updateResultCount();
+
+    const activeRow = activeRecordId ? rows.find(row => row.dataset.recordId === activeRecordId) : null;
+    if (activeRow && activeRow.hidden) closeDrawer();
   }
 
   function setMode(mode) {
@@ -71,11 +102,21 @@
     try { window.localStorage.setItem("gurneyCatalogMode", mode); } catch (err) {}
   }
 
-  rows.forEach(row => row.addEventListener("click", () => selectGen(row.dataset.gen)));
+  function setRelated(value) {
+    includeRelated = Boolean(value);
+    if (relatedToggle) {
+      relatedToggle.classList.toggle("is-active", includeRelated);
+      relatedToggle.setAttribute("aria-pressed", includeRelated ? "true" : "false");
+    }
+    try { window.localStorage.setItem("gurneyIncludeRelated", includeRelated ? "true" : "false"); } catch (err) {}
+    applyFilters();
+  }
+
+  rows.forEach(row => row.addEventListener("click", () => openDrawer(row.dataset.recordId)));
   rows.forEach(row => row.addEventListener("keydown", event => {
     if (event.key === "Enter" || event.key === " ") {
       event.preventDefault();
-      selectGen(row.dataset.gen);
+      openDrawer(row.dataset.recordId);
     }
   }));
 
@@ -91,20 +132,78 @@
     });
   });
 
-  statusButtons.forEach(button => {
-    button.addEventListener("click", () => {
-      statusFilter = button.dataset.statusFilter;
-      statusButtons.forEach(item => item.classList.toggle("is-active", item === button));
-      applyFilters();
-    });
+  if (relatedToggle) {
+    relatedToggle.addEventListener("click", () => setRelated(!includeRelated));
+  }
+  if (closeButton) closeButton.addEventListener("click", closeDrawer);
+  if (backdrop) backdrop.addEventListener("click", closeDrawer);
+
+  document.addEventListener("keydown", event => {
+    if (event.key === "Escape") closeDrawer();
   });
 
-  try { activeGen = window.localStorage.getItem("gurneyPedigreeGen") || ""; } catch (err) {}
   const params = new URLSearchParams(window.location.search);
-  if (params.get("gen")) activeGen = params.get("gen");
-
   let mode = "catalog";
   try { mode = window.localStorage.getItem("gurneyCatalogMode") || "catalog"; } catch (err) {}
+  try { includeRelated = window.localStorage.getItem("gurneyIncludeRelated") === "true"; } catch (err) {}
+  if (params.get("related") === "1") includeRelated = true;
+
   setMode(mode === "table" ? "table" : "catalog");
-  applyFilters();
+  setRelated(includeRelated);
+
+  const requestedRecord = params.get("record");
+  const requestedGen = params.get("gen");
+  if (requestedRecord) {
+    openDrawer(requestedRecord);
+  } else if (requestedGen) {
+    const row = rows.find(item => item.dataset.gen === requestedGen && !item.hidden);
+    if (row) openDrawer(row.dataset.recordId);
+  }
+})();
+
+(function () {
+  const page = document.querySelector("[data-place-explorer]");
+  if (!page) return;
+
+  const rows = Array.from(page.querySelectorAll("[data-place-row]"));
+  const panels = Array.from(page.querySelectorAll("[data-place-panel]"));
+  const drawer = page.querySelector("[data-place-drawer]");
+  const backdrop = page.querySelector("[data-place-backdrop]");
+  const closeButton = page.querySelector("[data-place-close]");
+
+  function closeDrawer() {
+    if (!drawer || !backdrop) return;
+    drawer.classList.remove("is-open");
+    backdrop.classList.remove("is-open");
+    drawer.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("drawer-open");
+    rows.forEach(row => row.classList.remove("is-active"));
+    panels.forEach(panel => panel.classList.remove("is-active"));
+  }
+
+  function openDrawer(placeId) {
+    const target = rows.find(row => row.dataset.placeId === placeId);
+    if (!target || !drawer || !backdrop) return;
+    rows.forEach(row => row.classList.toggle("is-active", row.dataset.placeId === placeId));
+    panels.forEach(panel => panel.classList.toggle("is-active", panel.dataset.placePanel === placeId));
+    drawer.classList.add("is-open");
+    backdrop.classList.add("is-open");
+    drawer.setAttribute("aria-hidden", "false");
+    document.body.classList.add("drawer-open");
+    if (closeButton) closeButton.focus({ preventScroll: true });
+  }
+
+  rows.forEach(row => row.addEventListener("click", () => openDrawer(row.dataset.placeId)));
+  rows.forEach(row => row.addEventListener("keydown", event => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      openDrawer(row.dataset.placeId);
+    }
+  }));
+
+  if (closeButton) closeButton.addEventListener("click", closeDrawer);
+  if (backdrop) backdrop.addEventListener("click", closeDrawer);
+  document.addEventListener("keydown", event => {
+    if (event.key === "Escape") closeDrawer();
+  });
 })();
