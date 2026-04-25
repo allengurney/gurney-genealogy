@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pedigree Catalog — Gurney Genealogy Library</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/explorer.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<style>
+/* Leaflet-specific refinements to sit on the paper/era palette */
+.leaflet-container{font-family:var(--sans);background:#f1ece2}
+.leaflet-popup-content-wrapper{border-radius:10px;box-shadow:var(--shadow)}
+.leaflet-popup-content{font-family:var(--sans);font-size:12.5px;line-height:1.45;color:var(--ink);margin:10px 12px}
+.leaflet-popup-content .pop-title{font-family:var(--serif);font-size:1.02rem;font-weight:600;color:var(--ink);margin-bottom:2px}
+.leaflet-popup-content .pop-meta{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
+.leaflet-popup-content .pop-people{display:flex;flex-direction:column;gap:3px;margin-top:4px;font-size:12px;color:var(--ink-soft)}
+.leaflet-popup-content .pop-people .pg{display:inline-block;font-weight:700;font-size:10px;padding:1px 5px;border-radius:3px;background:#efe8d9;margin-right:6px;color:var(--ink)}
+
+/* Marker legend */
+.marker-legend{position:absolute;right:14px;bottom:14px;background:rgba(252,250,247,.96);border:1px solid var(--rule);border-radius:10px;padding:10px 12px;font-family:var(--sans);font-size:11.5px;color:var(--ink-soft);box-shadow:var(--shadow);z-index:500;max-width:220px}
+.marker-legend h5{margin:0 0 6px;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.marker-legend .row{display:flex;align-items:center;gap:8px;padding:2px 0}
+.marker-legend .glyph{width:14px;height:14px;display:inline-block;flex-shrink:0}
+.marker-legend .glyph.circle{border-radius:50%;background:#b46a3a;border:2px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.1)}
+.marker-legend .glyph.square{background:#6c3a12;border:2px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.1)}
+
+/* detail mini-map height */
+.mini-map-wrap{aspect-ratio:16/10;min-height:180px}
+.mini-map{border-radius:10px}
+
+/* full map view leaflet */
+.map-main .leaflet-container{position:absolute;inset:0;height:100%;width:100%}
+
+/* filter bar */
+.catalog-toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:14px}
+.catalog-toolbar .filter-group{display:flex;gap:4px;background:var(--paper);border:1px solid var(--rule);border-radius:999px;padding:3px}
+.catalog-toolbar .filter-group button{background:transparent;border:none;padding:5px 11px;border-radius:999px;font-family:var(--sans);font-size:12px;color:var(--muted);font-weight:600}
+.catalog-toolbar .filter-group button.active{background:var(--ink);color:var(--paper)}
+.catalog-toolbar .spacer{flex:1}
+.catalog-toolbar .result-count{font-family:var(--sans);font-size:11.5px;color:var(--muted)}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <div class="brand-block">
+      <span class="brand-title">Gurney Genealogy Library</span>
+      <span class="brand-meta">by Allen L. Gurney · Portland, OR</span>
+    </div>
+    <span class="pill">Direct male line · 37 generations</span>
+    <nav class="topnav">
+      <a href="index.html">Home</a>
+      <a href="#" class="active">Pedigree Catalog</a>
+      <a href="fact-sheet.html">Fact Sheets</a>
+      <a href="#">Key Research</a>
+      <a href="#">Maps &amp; Lists</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page" data-screen-label="Pedigree Catalog">
+  <p class="page-crumbs">Library · Pedigree Catalog</p>
+  <div class="page-header">
+    <div>
+      <h1 class="page-title">Pedigree Catalog <span style="color:var(--muted-2);font-weight:400">· Generations 20–30</span></h1>
+      <p class="page-subtitle">The Gurney direct male line, era-banded. Click any ancestor to read the dossier and see the places on the map. Toggle the full map to trace the line across Normandy and East Anglia.</p>
+    </div>
+    <div class="view-switch" role="tablist">
+      <button data-view="list" class="active" type="button">Catalog</button>
+      <button data-view="map" type="button">Map</button>
+    </div>
+  </div>
+
+  <div class="stats-strip">
+    <div class="stat"><span class="label">Generations</span><span class="value">11</span><span class="sub">G20 → G30, this slice</span></div>
+    <div class="stat"><span class="label">Span</span><span class="value">1070–1471</span><span class="sub">c. 400 years</span></div>
+    <div class="stat"><span class="label">Eras</span><span class="value">3</span><span class="sub">Norman · Medieval · Tudor</span></div>
+    <div class="stat"><span class="label">Places</span><span class="value" id="stat-places">—</span><span class="sub">across Normandy &amp; England</span></div>
+    <div class="stat"><span class="label">Holdings</span><span class="value" id="stat-holdings">—</span><span class="sub">manors &amp; principal residences</span></div>
+  </div>
+
+  <div class="catalog-toolbar">
+    <div class="filter-group" id="era-filter">
+      <button data-era="all" class="active" type="button">All eras</button>
+      <button data-era="era-tudor" type="button">Tudor</button>
+      <button data-era="era-medieval" type="button">Medieval</button>
+      <button data-era="era-norman" type="button">Norman</button>
+    </div>
+    <div class="filter-group" id="status-filter">
+      <button data-status="all" class="active" type="button">All status</button>
+      <button data-status="Confirmed" type="button">Confirmed</button>
+      <button data-status="Probable" type="button">Probable</button>
+    </div>
+    <div class="spacer"></div>
+    <span class="result-count" id="result-count"></span>
+  </div>
+
+  <!-- CATALOG VIEW -->
+  <div id="catalog-view" class="explorer-layout">
+    <!-- century ruler -->
+    <aside class="ruler" aria-hidden="true">
+      <div class="ruler-head">Now</div>
+      <div class="ruler-inner" id="ruler-inner"></div>
+      <div class="ruler-foot">1000</div>
+    </aside>
+
+    <!-- spine -->
+    <section class="spine-col">
+      <div class="spine" id="spine"></div>
+    </section>
+
+    <!-- detail -->
+    <aside class="detail-col">
+      <div class="detail-panel" id="detail-panel">
+        <div class="detail-empty">Select an ancestor to see vitals, land holdings, and a local map.</div>
+      </div>
+    </aside>
+  </div>
+
+  <!-- MAP VIEW -->
+  <div id="map-view" class="map-view">
+    <div class="map-main">
+      <div id="full-map" style="position:absolute;inset:0"></div>
+      <div class="marker-legend">
+        <h5>Marker key</h5>
+        <div class="row"><span class="glyph circle"></span>Residence / seat / role</div>
+        <div class="row"><span class="glyph square"></span>Land holding / manor</div>
+        <div class="row" style="margin-top:6px;font-size:11px;color:var(--muted)">Color = era · Click for people</div>
+      </div>
+    </div>
+    <aside class="map-side">
+      <h3>Ancestors on the map</h3>
+      <p class="map-caption">Click a row to zoom, or click markers on the map. Line shown is the father-to-son path, G30 → G20.</p>
+      <div id="map-people"></div>
+    </aside>
+  </div>
+
+  <div class="footnote" style="font-family:var(--sans);font-size:11.5px;color:var(--muted-2);text-align:center;padding:28px 0 8px;border-top:1px solid var(--rule);margin-top:28px">Map: Leaflet + CartoDB Positron · marker scheme adapts the v10 build method (circles = non-property roles, squares = land holdings).</div>
+</main>
+
+<script src="data/ancestors.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="assets/pedigree.js"></script>
+
+</body>
+</html>

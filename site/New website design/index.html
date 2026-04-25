@@ -1,0 +1,238 @@
+<!DOCTYPE html><html lang="en"><head>
+
+
+<meta charset="utf-8">
+<title>Gurney Genealogy Library — Home</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/explorer.css">
+<style>
+.hero{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:center;padding:44px 0 32px;border-bottom:1px solid var(--rule)}
+.hero h1{font-family:var(--serif);font-size:3.4rem;line-height:1;letter-spacing:-.028em;font-weight:600;margin:0 0 16px;color:var(--ink);text-wrap:balance}
+.hero h1 em{font-style:italic;color:var(--accent)}
+.hero p.lead{font-family:var(--serif);font-size:1.22rem;line-height:1.45;color:var(--ink-soft);max-width:540px;margin:0 0 20px;text-wrap:pretty}
+.hero-kicker{font-family:var(--sans);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:14px;font-weight:700}
+.cta-row{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap}
+.hero-art{background:var(--paper);border:1px solid var(--rule);border-radius:14px;padding:20px;box-shadow:var(--shadow)}
+.hero-art h4{font-family:var(--sans);font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);margin:0 0 12px;font-weight:700}
+.spine-preview{display:flex;flex-direction:column;gap:5px}
+.spine-preview .r{display:grid;grid-template-columns:34px 1fr auto;gap:10px;align-items:center;padding:7px 10px;border-radius:7px;border:1px solid var(--rule-2);background:#fdfbf6;font-family:var(--sans);font-size:12.5px}
+.spine-preview .r .g{font-weight:700;color:var(--ink);text-align:center;font-size:10.5px;padding:3px 0;background:#efe8d9;border-radius:4px}
+.spine-preview .r .n{font-family:var(--serif);font-size:14.5px;color:var(--ink);font-weight:500}
+.spine-preview .r .d{color:var(--muted);font-size:11px;font-style:italic}
+.spine-preview .r .bar{position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(180deg,var(--a),var(--b));border-radius:2px 0 0 2px}
+.spine-preview .r{position:relative;overflow:hidden}
+
+.sections{display:grid;grid-template-columns:1.3fr .9fr;gap:30px;padding:36px 0}
+.sec-head{font-family:var(--sans);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:0 0 14px}
+.card-list{display:flex;flex-direction:column;gap:0}
+.card-row{display:grid;grid-template-columns:80px 1fr auto;gap:18px;padding:16px 0;border-top:1px solid var(--rule-2);align-items:baseline}
+.card-row:first-child{border-top:1px solid var(--rule)}
+.card-row:last-child{border-bottom:1px solid var(--rule)}
+.card-row .yr{font-family:var(--mono);font-size:11.5px;color:var(--muted);letter-spacing:.03em}
+.card-row .tt{font-family:var(--serif);font-size:1.14rem;color:var(--ink);font-weight:500;letter-spacing:-.005em;line-height:1.25}
+.card-row .tt em{display:block;font-family:var(--sans);font-size:12.5px;font-style:normal;color:var(--muted);margin-top:4px;line-height:1.4}
+.card-row .meta{font-family:var(--sans);font-size:11px;color:var(--muted);letter-spacing:.05em;text-transform:uppercase;font-weight:600}
+.card-row:hover{background:#f9f4e9}
+
+.aside-card{background:var(--paper);border:1px solid var(--rule);border-radius:12px;padding:18px;box-shadow:var(--shadow);margin-bottom:14px}
+.aside-card h3{font-family:var(--serif);font-size:1.15rem;margin:0 0 6px;color:var(--ink);font-weight:600}
+.aside-card p{font-family:var(--sans);font-size:13px;color:var(--muted);line-height:1.5;margin:0 0 10px}
+.aside-card .eras{display:flex;flex-wrap:wrap;gap:6px}
+.aside-card .eras span{font-family:var(--sans);font-size:10.5px;padding:3px 8px;border-radius:999px;color:#fff;font-weight:600;letter-spacing:.02em;background:linear-gradient(90deg,var(--a),var(--b))}
+
+.footnote{font-family:var(--sans);font-size:11.5px;color:var(--muted-2);text-align:center;padding:28px 0 8px;border-top:1px solid var(--rule)}
+
+/* Research highlights table */
+.rh-row{display:grid;grid-template-columns:72px 1fr 260px;gap:20px;padding:16px 0;border-top:1px solid var(--rule-2);align-items:center}
+.rh-row:first-child{border-top:1px solid var(--rule)}
+.rh-row:last-child{border-bottom:1px solid var(--rule)}
+.rh-row .yr{font-family:var(--mono);font-size:11.5px;color:var(--muted);letter-spacing:.03em}
+.rh-row .body{min-width:0}
+.rh-row .body .tt{font-family:var(--serif);font-size:1.14rem;color:var(--ink);font-weight:500;letter-spacing:-.005em;line-height:1.25;text-wrap:pretty}
+.rh-row .body .desc{font-family:var(--sans);font-size:12.5px;color:var(--muted);margin-top:5px;line-height:1.45;text-wrap:pretty}
+
+/* Ancestor chip (matches explorer style) */
+.rh-chip{display:flex;align-items:center;gap:10px;padding:9px 10px;border:1px solid var(--rule-2);border-radius:8px;background:#fdfbf6;text-decoration:none;color:inherit;position:relative;overflow:hidden;transition:background .15s,border-color .15s}
+.rh-chip:hover{background:#f6efe0;border-color:var(--accent-2)}
+.rh-chip .bar{position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(180deg,var(--a),var(--b))}
+.rh-chip .g{font-family:var(--sans);font-weight:700;font-size:10.5px;color:var(--ink);text-align:center;padding:3px 6px;background:#efe8d9;border-radius:4px;margin-left:6px;letter-spacing:.02em;min-width:32px}
+.rh-chip .body2{min-width:0;flex:1}
+.rh-chip .n{font-family:var(--serif);font-size:.98rem;color:var(--ink);font-weight:500;line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rh-chip .d{font-family:var(--sans);font-size:11px;color:var(--muted);font-style:italic;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* Content chip (non-ancestor links) */
+.rh-chip.content{background:#fbf8f0}
+.rh-chip.content .bar{background:linear-gradient(180deg,#c0b28c,#a99368)}
+.rh-chip.content .icon{display:flex;align-items:center;justify-content:center;width:28px;height:28px;background:#f1e8d0;border-radius:6px;margin-left:6px;font-family:var(--sans);font-size:13px;color:var(--ink-soft)}
+.rh-chip.content .kind{font-family:var(--sans);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:2px}
+.rh-chip.content .label{font-family:var(--serif);font-size:.98rem;color:var(--ink);line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+</style>
+</head>
+<body data-cc-id="cc-72" style="cursor: crosshair;">
+
+<header class="site-header" data-cc-id="cc-5">
+  <div class="site-header-inner" data-cc-id="cc-1">
+    <div class="brand-block">
+      <span class="brand-title">Gurney Genealogy Library</span>
+      <span class="brand-meta">by Allen L. Gurney · Portland, OR</span>
+    </div>
+    <span class="pill" data-cc-id="cc-70">Direct male line · 37 generations</span>
+    <nav class="topnav" data-cc-id="cc-3">
+      <a href="#" class="active">Home</a>
+      <a href="pedigree.html" data-cc-id="cc-4">Pedigree Catalog</a>
+      <a href="fact-sheet.html" data-cc-id="cc-2">Fact Sheets</a>
+      <a href="#" data-cc-id="cc-65">Key Research</a>
+      <a href="#">Maps &amp; Lists</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page" data-screen-label="Home" data-cc-id="cc-25">
+
+  <section class="hero" data-cc-id="cc-6">
+    <div data-cc-id="cc-14">
+      <div class="hero-kicker" data-cc-id="cc-71">A Gurney family project · 2026 edition</div>
+      <h1 data-cc-id="cc-12"><span style="color:#9f5825" data-cc-id="cc-73">Thirty-seven generations</span> of Gurney ancestry, from the rise of the Vikings to modern America.</h1>
+      <p class="lead" data-cc-id="cc-13">A working library of the Gurney direct male descent across eras, geographies, and supporting research artifacts — built for cousins, researchers, and curious people. Developed by amateur genealogist Allen Gurney (<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAdNpQL5UQVNMT1AzQjZQUEJQRlZJVUc0NFgzWkg1QS4u" target="_blank" rel="noopener">contact me</a>).</p>
+      <div class="cta-row">
+        <a class="btn primary" href="pedigree.html" data-cc-id="cc-54">Open the Pedigree Catalog →</a>
+        <a class="btn" href="fact-sheet.html" data-cc-id="cc-15">Browse fact sheets</a>
+      </div>
+    </div>
+    <aside class="hero-art" data-cc-id="cc-7">
+      <h4 data-cc-id="cc-8">Featured slice · Generations 20–30</h4>
+      <div class="spine-preview" data-cc-id="cc-59">
+        <div class="r" style="--a:var(--era-tudor-a);--b:var(--era-tudor-b)" data-cc-id="cc-9"><div class="bar"></div><div class="g" data-cc-id="cc-11">G20</div><div><div class="n" data-cc-id="cc-10">Thomas Gournay II</div><div class="d" data-cc-id="cc-58">West Barsham, Norfolk</div></div><div class="d" data-cc-id="cc-57">c.1430–1471</div></div>
+        <div class="r" style="--a:var(--era-medieval-a);--b:var(--era-medieval-b)" data-cc-id="cc-61"><div class="bar" data-cc-id="cc-63"></div><div class="g" data-cc-id="cc-62">G23</div><div><div class="n" data-cc-id="cc-60">Sir Mathew de Gournay</div><div class="d">Stoke-sub-Hamdon, Somerset</div></div><div class="d">1310–1406</div></div>
+        <div class="r" style="--a:var(--era-medieval-a);--b:var(--era-medieval-b)" data-cc-id="cc-66"><div class="bar"></div><div class="g">G26</div><div><div class="n">Sir Hugh de Gournay VI</div><div class="d" data-cc-id="cc-67">Mappowder, Dorset</div></div><div class="d">c.1200–1274</div></div>
+        <div class="r" style="--a:var(--era-norman-a);--b:var(--era-norman-b)"><div class="bar"></div><div class="g">G29</div><div><div class="n" data-cc-id="cc-68">Hugh II de Gournay</div><div class="d">Gournay-en-Bray, Normandy</div></div><div class="d">c.1095–1180</div></div>
+        <div class="r" style="--a:var(--era-norman-a);--b:var(--era-norman-b)" data-cc-id="cc-51"><div class="bar"></div><div class="g">G30</div><div><div class="n" data-cc-id="cc-69">William de Gournay I</div><div class="d">Gournay-en-Bray, Normandy</div></div><div class="d">c.1070–c.1145</div></div>
+      </div>
+      <div style="font-family:var(--sans);font-size:11.5px;color:var(--muted);margin-top:12px;text-align:right" data-cc-id="cc-52"><a href="pedigree.html">See all 37 in the Catalog →</a></div>
+    </aside>
+  </section>
+
+  <section class="sections" data-cc-id="cc-16">
+    <div data-cc-id="cc-18" style="">
+      <h2 class="sec-head" data-cc-id="cc-17">Latest research notes</h2>
+      <div class="card-list" id="research-highlights">
+        <div class="card-row" style="color:var(--muted);font-family:var(--sans);font-size:12.5px;padding:14px 0">Loading highlights from <code>research/highlights.md</code>…</div>
+      </div>
+      <div style="font-family:var(--sans);font-size:11.5px;color:var(--muted);margin-top:10px"><a href="research/highlights.md">Edit highlights.md →</a></div>
+    </div>
+    <aside data-cc-id="cc-26">
+      <div class="aside-card" data-cc-id="cc-27">
+        <h3 data-cc-id="cc-53">What's here</h3>
+        <p data-cc-id="cc-29">A living catalog of the Gurney father-to-son line, each ancestor with vitals, land, spouses, issue, and source trail. Nine eras carry the line from Norman warlord to the American twentieth century.</p>
+        <div class="eras">
+          <span style="--a:var(--era-norman-a);--b:var(--era-norman-b)">Norman</span>
+          <span style="--a:var(--era-medieval-a);--b:var(--era-medieval-b)">Medieval</span>
+          <span style="--a:var(--era-tudor-a);--b:var(--era-tudor-b)" data-cc-id="cc-56">Tudor</span>
+          <span style="--a:var(--era-emigrant-a);--b:var(--era-emigrant-b)" data-cc-id="cc-28">Emigrant</span>
+          <span style="--a:var(--era-gilded-a);--b:var(--era-gilded-b)">Gilded</span>
+          <span style="--a:var(--era-modern-a);--b:var(--era-modern-b)">Modern</span>
+        </div>
+      </div>
+      <div class="aside-card" data-cc-id="cc-23">
+        <h3 data-cc-id="cc-49">Start here</h3>
+        <p style="margin-bottom:14px" data-cc-id="cc-50">If it's your first visit, the Catalog is the fastest way in — jump into the G20–G30 slice and walk the list.</p>
+        <a class="btn primary" href="pedigree.html" data-cc-id="cc-24">Open the Pedigree Catalog →</a>
+      </div>
+    </aside>
+  </section>
+
+  <div class="footnote" data-cc-id="cc-48">Built in Portland · © 2026 Allen L. Gurney · All ancestor data is sourced; corrections welcomed.</div>
+</main>
+
+<script src="data/ancestors.js"></script>
+<script>
+(function(){
+  const ERA_FALLBACK = { 'era-norman':'norman','era-medieval':'medieval','era-tudor':'tudor','era-emigrant':'emigrant','era-gilded':'gilded','era-modern':'modern' };
+
+  function parseMarkdown(md){
+    // Split on blank line + "- **date:**" markers to get entries
+    const entries = [];
+    const blocks = md.split(/\n-\s+\*\*date:\*\*/).slice(1);
+    blocks.forEach(block => {
+      block = '**date:**' + block;
+      const e = {};
+      const fields = ['date','title','desc','link','link_type','link_ref','link_label'];
+      fields.forEach(f => {
+        const re = new RegExp('\\*\\*' + f.replace('_','_') + ':\\*\\*\\s*([\\s\\S]*?)(?=\\n\\s*\\*\\*[a-z_]+:\\*\\*|$)','i');
+        const m = block.match(re);
+        if (m) e[f] = m[1].trim();
+      });
+      entries.push(e);
+    });
+    return entries;
+  }
+
+  function findAncestor(ref){
+    if (!window.ANCESTORS) return null;
+    return window.ANCESTORS.find(a => a.type === 'ancestor' && a.gen === ref);
+  }
+
+  function renderAncestorChip(entry){
+    const a = findAncestor(entry.link_ref);
+    if (!a) {
+      return `<a class="rh-chip content" href="${entry.link}"><span class="bar"></span><span class="icon">↗</span><div class="body2"><div class="kind">Ancestor · ${entry.link_ref}</div><div class="label">${entry.link_ref}</div></div></a>`;
+    }
+    const era = a.era || 'era-medieval';
+    const style = `--a:var(--${era}-a);--b:var(--${era}-b)`;
+    return `<a class="rh-chip" href="${entry.link}" style="${style}">
+      <span class="bar"></span>
+      <span class="g">${a.gen}</span>
+      <div class="body2">
+        <div class="n">${a.name}</div>
+        <div class="d">${a.dates}</div>
+      </div>
+    </a>`;
+  }
+
+  function renderContentChip(entry){
+    const icons = { place:'⚑', 'case-file':'§', map:'◎', external:'↗', source:'§' };
+    const icon = icons[entry.link_type] || '→';
+    const kindLabel = (entry.link_type || 'link').replace('-', ' ');
+    const label = entry.link_label || entry.link;
+    const isExternal = /^https?:/.test(entry.link);
+    return `<a class="rh-chip content" href="${entry.link}"${isExternal ? ' target="_blank" rel="noopener"' : ''}>
+      <span class="bar"></span>
+      <span class="icon">${icon}</span>
+      <div class="body2">
+        <div class="kind">${kindLabel}</div>
+        <div class="label">${label}</div>
+      </div>
+    </a>`;
+  }
+
+  async function load(){
+    const host = document.getElementById('research-highlights');
+    if (!host) return;
+    try {
+      const res = await fetch('research/highlights.md');
+      if (!res.ok) throw new Error('fetch failed');
+      const md = await res.text();
+      const entries = parseMarkdown(md);
+      if (!entries.length) { host.innerHTML = '<div class="rh-row" style="color:var(--muted)">No highlights yet.</div>'; return; }
+      host.innerHTML = entries.map(e => {
+        const chip = e.link_type === 'ancestor' ? renderAncestorChip(e) : renderContentChip(e);
+        return `<div class="rh-row">
+          <span class="yr">${e.date || ''}</span>
+          <div class="body">
+            <div class="tt">${e.title || ''}</div>
+            <div class="desc">${e.desc || ''}</div>
+          </div>
+          <div>${chip}</div>
+        </div>`;
+      }).join('');
+    } catch (err) {
+      host.innerHTML = `<div class="rh-row" style="color:var(--muted)">Could not load <code>research/highlights.md</code> — ${err.message}. (Serve the site over http:// to enable fetch.)</div>`;
+    }
+  }
+  load();
+})();
+</script>
+
+</body></html>
