@@ -1,13 +1,21 @@
 # Research Highlights
 
-Recent research notes and archival findings from the Gurney Genealogy Library.
+Short, editable highlights for the homepage.
 
-Each entry has a date, title, short description, and a link. Links to an ancestor can render as a small ancestor chip in the next homepage design. Other links can render as matching content chips.
+Use this exact structure for each entry:
+
+- `date`: short display date
+- `title`: highlight headline
+- `desc`: one-sentence description
+- `link`: destination URL
+- `link_type`: `ancestor`, `case-file`, `map`, or `place`
+- `link_ref`: optional generation such as `G20` when `link_type` is `ancestor`
+- `link_label`: optional display label for non-ancestor links
 
 ---
 
 - **date:** Apr 2026
-  **title:** The will of Thomas Gournay II, 1471 — full transcription
+  **title:** The will of Thomas Gournay II, 1471 - full transcription
   **desc:** New reading of the Norwich Consistory original; three bequests to St Gregory's clarified.
   **link:** /fact-sheets/g20-thomas-gournay-ii-fact-sheet.html
   **link_type:** ancestor
@@ -37,6 +45,6 @@ Each entry has a date, title, short description, and a link. Links to an ancesto
 - **date:** Dec 2025
   **title:** Harpley and West Barsham as linked family anchors
   **desc:** The v26 data model preserves multiple roles for places instead of treating holdings as one flat prose field.
-  **link:** /maps-and-lists/ancestor-table.html
+  **link:** /maps-and-lists/places.html
   **link_type:** place
-  **link_label:** Ancestor Table
+  **link_label:** Places Catalog
