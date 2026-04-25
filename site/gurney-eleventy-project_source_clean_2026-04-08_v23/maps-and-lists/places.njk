@@ -12,21 +12,18 @@ updated: 25 April 2026
 
 <div data-place-explorer>
   <p class="explorer-crumbs">Library / Places Catalog</p>
-  <header class="explorer-head">
+  <header class="explorer-head explorer-head-with-stats">
     <div>
       <h1 class="explorer-title">Places Catalog</h1>
       <p class="explorer-subtitle">A place-first view of the same structured spine: addresses, churches, manors, regions, and sites tied back to ancestor records.</p>
     </div>
-    <a class="btn" href="/maps-and-lists/ancestor-map.html">Map</a>
+    <div class="stats-strip compact-stats">
+      <div class="stat"><span class="label">Places</span><span class="value">{{ placesCatalog.length }}</span></div>
+      <div class="stat"><span class="label">Linked records</span><span class="value">{{ siteStats.placeLinkCount }}</span></div>
+      <div class="stat"><span class="label">Geocoded</span><span class="value">{{ siteStats.geocodedPlaceCount }}</span></div>
+      <div class="stat"><span class="label">Place types</span><span class="value">{{ siteStats.placeTypeCount }}</span></div>
+    </div>
   </header>
-
-  <div class="stats-strip">
-    <div class="stat"><span class="label">Places</span><span class="value">{{ placesCatalog.length }}</span><span class="sub">structured records</span></div>
-    <div class="stat"><span class="label">Linked records</span><span class="value">{{ siteStats.placeLinkCount }}</span><span class="sub">ancestor-place ties</span></div>
-    <div class="stat"><span class="label">Geocoded</span><span class="value">{{ siteStats.geocodedPlaceCount }}</span><span class="sub">mapped references</span></div>
-    <div class="stat"><span class="label">Place types</span><span class="value">{{ siteStats.placeTypeCount }}</span><span class="sub">addresses, sites, regions</span></div>
-    <div class="stat"><span class="label">Data source</span><span class="value">v26</span><span class="sub">places plus ancestor links</span></div>
-  </div>
 
   <section class="place-list" aria-label="Places catalog">
     {% for place in placesCatalog %}
@@ -59,6 +56,10 @@ updated: 25 April 2026
           <div class="detail-eyebrow">{{ place.placeType or "Place" }}{% if place.coordinatePrecision %} / {{ place.coordinatePrecision }} precision{% endif %}</div>
           <h2 class="detail-name">{{ place.title }}</h2>
           {% if place.region %}<div class="detail-dates">{{ place.region }}</div>{% endif %}
+          <div class="detail-actions">
+            <a href="/maps-and-lists/ancestor-map.html" class="btn primary">Map</a>
+            {% if place.siteUrl %}<a href="{{ place.siteUrl }}" class="btn">{{ place.siteLabel or "Site reference" }}</a>{% endif %}
+          </div>
         </header>
         <div class="detail-body">
           {% if place.longDescription %}<p class="detail-summary">{{ place.longDescription }}</p>{% endif %}
@@ -85,10 +86,6 @@ updated: 25 April 2026
               </ul>
             </section>
           {% endif %}
-          <div class="detail-actions">
-            <a href="/maps-and-lists/ancestor-map.html" class="btn primary">Map</a>
-            {% if place.siteUrl %}<a href="{{ place.siteUrl }}" class="btn">{{ place.siteLabel or "Site reference" }}</a>{% endif %}
-          </div>
         </div>
       </article>
     {% endfor %}
