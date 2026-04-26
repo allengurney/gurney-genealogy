@@ -466,7 +466,18 @@
       "corpusPath": "sources/corpus/agenealogical-history-gournay-extract.md",
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Book VII (pp. 474–533) covers the Gournay line as a branch of the House of Yvery. Primarily treats the Somerset/Harpetree Gournays. P. 474: confirms Hugh III's Domesday holdings and Bec retirement (pre-dating DG by 106 years). P. 478: brief aside on Norfolk Gournays with a DIFFERENT genealogy from DG — gives Matthew as the first Norfolk Gournay, with sons Thomas and William, not matching DG's Walter→William→Matthew sequence. The 1742 Norfolk pedigree is compressed and less well-sourced than DG (1848). Anderson died before completion; William Whiston Jr. revised. Passed the College of Arms."
+      "notes": "Book VII (pp. 474–533) covers the Gournay line as a branch of the House of Yvery. Primarily treats the Somerset/Harpetree Gournays. P. 474: confirms Hugh III's Domesday holdings and Bec retirement (pre-dating DG by 106 years). P. 478: brief aside on Norfolk Gournays with a DIFFERENT genealogy from DG — gives Matthew as the first Norfolk Gournay, with sons Thomas and William, not matching DG's Walter→William→Matthew sequence. The 1742 Norfolk pedigree is compressed and less well-sourced than DG (1848). Anderson died before completion; William Whiston Jr. revised. Passed the College of Arms. Vol. I (collateral Yvery/Perceval/Harpetre origins) is registered separately as sourceId anderson-yvery-1742-vol-i."
+    },
+    "anderson-yvery-1742-vol-i": {
+      "shortTitle": "Anderson, Genealogical History of the House of Yvery, Vol. I",
+      "citation": "Anderson, James. Genealogical History of the House of Yvery: In its Different Branches of Yvery, Luvel, Perceval, and Gournay. Vol. I. London: H. Woodfall, Jun., 1742.",
+      "archive": "Internet Archive (genealogicalhist01ande)",
+      "url": "https://archive.org/details/genealogicalhist01ande",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus/anderson-yvery-1742-vol-i-extract.md",
+      "mediaPath": "sources/media/anderson-yvery-1742-vol-i/",
+      "validationPath": "sources/validations/anderson-yvery-1742-vol-i.md",
+      "notes": "Vol. I covers the House of Yvery proper, with the Harpetre→Gournay surname-adoption material relevant to the collateral Somerset Gournays. Direct-line de Gournays of Normandy and Norfolk are treated in Vol. II (sourceId anderson-yvery-1742). Key pages: printed p. 4 (Ascelin's seven sons; John de Harpetre); p. 21 (surname progression Yvery/Gouel/Percheval/Lupus → Harpetre → Gournay); p. 39 (heraldry: sceptres saltier, then paley of six Or and Azure); p. 78 (Robert de Yvery's Somerset land cluster); pp. 191–193 (children of Ascelin and Isabella de Breteuil, including conjectural John de Yvery and Hugh de Yvery); pp. 199–200 (Stephen-period siege of Kary and Harpetre castles). Anderson died before completion; revised by William Whiston Jr. of the Exchequer. College of Arms attestation referenced in front matter."
     },
     "sprague-braintree": {
       "shortTitle": "Sprague, Genealogies of Braintree",
