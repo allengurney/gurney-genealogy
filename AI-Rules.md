@@ -19,7 +19,7 @@ User: Allen Lawrence Gurney, b. 1972, Portland OR. Dual projects: biography of B
 ## 2. Repo map
 
 ```
-data/            sources.json, places.json, places_detail.json, ancestors v24.json (canonical structured data)
+data/            sources.json, places.json, places_detail.json, ancestors v26.json (canonical structured data)
 fact-sheets/
   g{NN}-{slug}-fact-sheet.md    ← PUBLISHED narrative only (stable, polished, Allen's prose)
 research/
@@ -108,7 +108,7 @@ G0–G2 and living collaterals: minimize detail in public files. Birth year, gen
 - G1 = Allen. Numbers increase going back.
 - West Barsham entered via Wauncy inheritance (Edmund G23's wife Katherine); held until 1661.
 - Francis G14 = sixth son of Henry G15.
-- `data/ancestors v24.json` = current canonical ancestor data file. `ancestors v23.json` is legacy — DO NOT USE. See `research/topics/ancestors-json-audit.md` for known data-quality issues inherited from v23.
+- `data/ancestors v26.json` = current canonical ancestor data file. Older `ancestors v*.json` files are legacy — DO NOT USE for new work. See `research/topics/ancestors-json-audit.md` for known data-quality issues inherited from earlier versions.
 - `data/places.json` + `data/places_detail.json` = canonical two-layer place spine. `locations.json` was retired.
 
 ---

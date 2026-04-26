@@ -1,0 +1,310 @@
+---
+title: "John Gurney-1 (G13)"
+permalink: /research/companions/g13-john-gurney-fact-sheet.html
+eleventyExcludeFromCollections: true
+---
+# John Gurney-1 (G13)
+
+**Tailor. First Gurney in North America.** b. c. 1609–12 (AI-Rules §7 correction #6), probably East Anglia. Emigrated to New England by June 1641 at latest; Anderson assigns 1636 arrival (unresolved). d. 1662/3, Braintree, Massachusetts. Wife Mary (maiden name unknown — "Richards" is UNVERIFIED). Later married Grizzell Fletcher on 12 Nov 1661. Lineage status: **Probable** (Candidate B ~55–60%, son of Francis Gurney G14 Merchant Taylor + Margaret Rybett).
+
+Pre-fact-sheet. No published narrative yet. Active research lives in this file. It is currently paired with `research/case-files/john-gurney-case-file-v3.md` and may later migrate to `research/case-files/candidate-b.md` if the case-file structure is reorganized.
+
+Standing facts are in AI-Rules.md §7 (especially correction #6 on birth date, correction #7 on Peter naming absence, and the Candidate B / two-Francis framing). Do not re-derive them here; reference them.
+
+---
+
+## Working Notes
+
+### External compiler assessments (Anderson, Banks)
+
+2026-04-08 — Evaluated Anderson's *Great Migration Directory* p. 158 and Banks/Brownell's *Topographical Dictionary* (1937) p. 151 for their treatment of John Gurney-1. Source: chat 324600c7.
+
+**Anderson GMD p. 158 — exact entry:**
+
+> Gurney, John: Unknown; 1636; Boston, Braintree [WJ 2:422; MBCR 1:331; NEHGR 62:94; SPR Case #338; Weymouth Hist 3:251; TAG 10:70–73].
+
+Three observations:
+
+1. **Origin "Unknown."** Anderson had full access to Banks and routinely cites Banks-supported origins when the underlying evidence holds. His "Unknown" functions as implicit rejection of Banks's Bury St. Edmunds attribution under modern Great Migration standards. Not a positive rejection, but a clear signal that no primary record supports any specific parish. This is now a standing interpretive principle in AI-Rules §8.
+2. **Arrival 1636.** Earlier than the June 1641 Weymouth record that had been treated as John's first Massachusetts appearance. Discrepancy unresolved. TAG 10:70–73 is the most likely source feeding the 1636 date.
+3. **Settlements "Boston, Braintree."** Weymouth not credited as a settlement. Possible interpretations: (a) Anderson treated the 1641 Weymouth entry as transient, (b) a pre-Braintree Boston residence existed and has not yet been independently surfaced here, or (c) there is an unexamined two-Johns conflict.
+
+**Banks/Brownell p. 151 — exact entry:**
+
+> GURNEY, John | Bury St. Edmunds | [no ship] | Braintree, Massachusetts | Banks Mss.
+
+Sourced only to Banks's unpublished working notes — no ship, parish register, will, or apprenticeship indenture cited. By Banks's own standards elsewhere in the volume, an entry sourced only to "Banks Mss." is a lead, not a proof. Banks died before publication; Brownell edited the manuscripts and published them in 1937.
+
+**Bury St. Edmunds cluster analysis:** Banks placed John inside a dense Bury St. Edmunds emigration group. Surrounding names on p. 151 include John Newgate, Clement Chaplin, William Knapp, John Goodrich, Henry Bright, William Townsend, Theodore Atkinson, Peyton Cooke, and Samuel Wright — a genuine BSE emigration cohort, most well documented from primary sources. Banks was perceiving a real neighborhood-migration pattern and slotted Gurney into it.
+
+**Most probable mechanism for Banks's attribution:** an apprenticeship record of a John Gurney/Girney at Bury St. Edmunds c. 1620–1635, identifying John with the town where he trained rather than where he was born. A Norwich-born son of Francis Gurney apprenticed out to BSE would fit Banks's note and remains **consistent with Candidate B, not contradictory**.
+
+### Combined Anderson + Banks assessment
+
+Both major published compilations of New England emigrant origins examined so far leave Buckinghamshire weakly supported at best. Banks points Suffolk/Bury St. Edmunds, without a primary citation; Anderson lists origin as "Unknown."
+
+**Effect on candidate probabilities:**
+- **Candidate A** (Stewkley, Bucks): mild cumulative pressure against. Neither compiler saw a Bucks connection. Probability remains about **10–12%** pending better evidence.
+- **Candidate B** (son of Francis G14 + Margaret Rybett, Norfolk/Norwich): neutral-to-mildly supportive. Banks's East Anglian placement is geographically consistent. Probability remains about **55–60%**.
+- **Candidate C** (Berkhamsted, Herts): essentially unaffected; about **3–5%**.
+
+Neither source adds new primary evidence or, by itself, justifies a material probability-table revision.
+
+### The Newgate apprenticeship / 1636 record — de-conflated
+
+Multiple derivative sources describe a John Gurney, age 21, on 29 September 1636 with three more years to serve John Newgate, a hatter or feltmaker in Boston, Massachusetts. Derivative appearances include:
+- Lysander F. Gurney family manuscript
+- WikiTree Gurney-7
+- *Representative Men and Old Families of Southeastern Massachusetts*
+- Cutter-era genealogical compilations
+
+**Working assessment:** this record almost certainly belongs to a different John Gurney. Once the two-Johns problem was recognized, the record was de-conflated from the direct-line John. The estimated ages of John's children — especially Mary (likely born c. 1628–1632) and Richard (likely born c. 1630–1634) — make a 1615-born father implausibly young. A birth around 1609–12 fits far better, and also fits the 1653 deposition stating he was "aged about 50 years."
+
+Anderson's 1636 arrival may derive from this same record, or from a related interpretation. His settlement list of "Boston, Braintree" while omitting Weymouth may indicate a partially composite entry. The underlying original apprenticeship record has not yet been pulled.
+
+John Newgate himself is securely documented. A 1639 deed in the Winthrop Papers has Winthrop selling land to "John Newgate of Boston" described as a feltmaker.
+
+---
+
+## Known Facts
+
+| Fact | Source | Strength |
+|---|---|---|
+| Birth c. 1609–12 | AI-Rules §7 #6 (revised from c. 1603 after Francis + Margaret marriage confirmation) | Inferred from family chronology |
+| Occupation: tailor | Multiple New England records | Confirmed |
+| English origin not provably identified | Anderson GMD p. 158 ("Unknown") | Published negative |
+| Suffolk / Bury St. Edmunds attribution | Banks p. 151 ("Banks Mss.") | Lead, not proof |
+| First confirmed Massachusetts record: June 1641, Weymouth fine | Weymouth Hist 3:251 (not yet pulled); also referenced by Anderson | Confirmed in working chronology |
+| Anderson-assigned arrival: 1636 | Anderson GMD p. 158 | Published, source not yet examined |
+| Settlements per Anderson: Boston, Braintree | Anderson GMD p. 158 | Published |
+| May 1645 petition for a new plantation at Braintree | Colonial petition record | Confirmed |
+| 1653 deposition states he was "aged about 50 years" | Wilson v. Faxon deposition | Strong age evidence |
+| d. 1662/3, Braintree, MA | Working chronology | Confirmed |
+| First wife: Mary, maiden name unknown | Working chronology; "Richards" in derivative trees remains unverified | Maiden name open |
+| Second wife: Grizzell Fletcher, m. 12 Nov 1661 | Colonial record set | Confirmed |
+
+---
+
+## Colonial / New England Record Detail
+
+### Grizzell Fletcher (second wife)
+
+Grizzell was the daughter of Robert Fletcher of Chelmsford, Essex, England. John was her fourth husband:
+
+1. Thomas Jewell (m. c. 1639/40)
+2. Humphrey Greggs (m. 1655)
+3. Henry Kibby (m. 1657)
+4. John Gurney (m. 12 Nov 1661)
+
+The Chelmsford connection is purely colonial. There is no evidence linking John to Chelmsford, Essex as an English origin point. Grizzell became a Mendon proprietor and received a 20-acre allotment in December 1663. After John's death, she applied for his Mendon lot (NEHGR 22:44).
+
+*Note: "Mary Richards" appears in some derivative sources as the name of John's first wife, but that attribution remains unverified and has not been traced to a primary record.*
+
+### Land and property records
+
+| Date | Record | Detail | Source |
+|---|---|---|---|
+| c. 3 Feb 1651/52 | Weymouth land grants (retrospective) | East field, mill field, east side of Great Pond. Properties were later granted to others, suggesting John did not permanently settle at Weymouth. | History of Weymouth |
+| 25 May 1653 | Tyng inventory | 48 acres at Braintree "in the possession of John Gurney." He appears as tenant, not owner. | NEHGR 30:432 |
+| 12 Feb 1661 | Braintree land sale | Sold land in Braintree. Deed witnessed by son John Jr. | Braintree deed records |
+| Post-death | Mendon lot | Grizzell applied for John's Mendon lot after his death. | NEHGR 22:44 |
+
+John appears to have died with no land. The NPS Cultural Landscape Report for Adams National Historical Park identifies him among early Braintree tenants occupying land within the future park boundaries. His estate was valued at **£55.14.6**, a modest sum consistent with a working tradesman.
+
+### Deposition and court records
+
+**1653 deposition (Wilson v. Faxon):** John stated he was "aged about 50 years." The case context has not yet been fully examined. The full deposition file could contain origin clues and remains a research priority.
+
+**May 1645 petition:** John signed a petition for a new plantation at Braintree.
+
+### Children — working notes
+
+**Sarah:** No birth date recorded. Listed first by Sprague. No marriage or death record yet located.
+
+**Mary:** Married Daniel Shed. The Shed family was from Finchingfield, Essex, providing a family-level Essex connection in New England, but not evidence of John's own English origin.
+
+**Richard (G12):** Of Weymouth. Freeman 1681. Married Rebecca Taylor (named in Taylor's will, proved 1688). Died intestate October 1691. Children: John (killed in the Mendon massacre, 1675), Zachariah (served in a King Philip's War relief company), Joseph (b. 22 Feb 1664/65), Mary (b. 9 Sept 1667), Benjamin (G11, c. 1676). Land grants in Weymouth included East field, mill field, and the east side of Great Pond. In 1683 he received a 6-acre Town Common grant west of the pond. The John–Richard relationship remains plausible and traditional, but a surfaced primary statement of relationship is still lacking.
+
+**John Jr.:** Of Weymouth and Mendon. Killed at Mendon in July 1675 during King Philip's War. Witnessed his father's 1661 deed.
+
+**Peter:** There are zero Peter Gurney baptisms found England-wide in the working search set for 1620–1645. The name appears foreign to every documented Gurney branch reviewed so far and is therefore treated as a likely clue from wife Mary's family rather than the paternal Gurney line.
+
+**Isaac:** Attribution remains uncertain. Possibly born c. 1643 in Massachusetts.
+
+### Richard Gurney (G12) — land records
+
+| Date | Record | Detail | Source |
+|---|---|---|---|
+| Before 1642–44 | Weymouth grants | East field, mill field, east side of Great Pond | History of Weymouth |
+| 1683 | Town Common grant | 6 acres west side of Pond, voted by Weymouth town meeting "to build a house & fence" | History of Weymouth, p. 251 |
+| — | Braintree land | Land at Braintree on the Abington–Bridgewater line passed to son Benjamin (G11), likely inherited from John Gurney-1 | Deed records |
+
+---
+
+## Origin Analysis and Elimination Work
+
+### TNA probate — context records
+
+These are not John Gurney testators, but they help define surrounding family networks and eliminate or weaken alternate clusters:
+
+| Name / Record | Location | Date | Significance |
+|---|---|---|---|
+| Anne Gurney, widow (PROB 11/260/14) | Eythorne, Kent | Will 20 Nov 1656 | Sons Edward, John, William, Thomas; deceased Leonard. Helps confirm Kent as a separate cluster. |
+| Daniel Gurney (PROB 11/347/122) | Aylesbury, Bucks | Will 1669 | Wife Sarah; brother John; also Samuel, Edward, Elizabeth Smith, Hannah. Useful for Bucks cluster reconstruction. |
+| William Gurney (PROB 11/252/152) | London | Will 20 May 1655 | Citizen, perhaps chirurgeon; sons John, Abel, Walter. Possibly same William as St Stephen Coleman Street. |
+| Richard Gurney, labourer (PROB 11/338/493) | London | Will 1 Mar 1674/5 | Martha, Joan, and possibly John among kin. Separate London cluster. |
+| Sir Richard Gurney, knight (PROB 11/201/723) | Unknown | Mid-17th c. | Not Norfolk family; Daniel Gurney appendix says "Gurneys of Kendall." |
+| Tobias / Edward Gurney (PROB 11/54/173) | Unknown | 1577 | Too early for the emigrant problem; older-generation context only. |
+
+### Protestation Returns 1641–42
+
+#### County coverage (Gibson & Dell)
+
+| County | Coverage | Implication |
+|---|---|---|
+| London (City) | None | Francis's absence there is uninformative |
+| Essex | Slight | Absence largely meaningless |
+| Norfolk | None | Cannot test Norfolk directly through this series |
+| Suffolk | None | Cannot test Suffolk directly through this series |
+| Buckinghamshire | Slight | Stewkley cluster nevertheless appears reasonably well represented |
+| Kent | Substantial | Eythorne John is well grounded |
+| Middlesex | Near complete | Better suburban coverage |
+| Hertfordshire | Slight | Candidate C cannot be strongly tested here |
+
+#### Buckinghamshire Gurney cluster
+
+Stewkley: Anthony, Robert (x2), Thomas, Walter. Linslade: Ezekiel, Thomas (x2). Ivinghoe: Thomas. Soulbury: Thomas. Marsh Gibbon: Richard. Chedington: Isaac. Mentmore: Thomas. Marsworth: Richard (x2). **No John appears anywhere in Buckinghamshire in the working returns set.**
+
+Robert Gurney being alive at Stewkley in 1642 also weakens any adoption-style explanation for the absent John.
+
+#### London entries
+
+- **Abel Gurney** at St Pancras Soper Lane — biblical name, possibly the Abel son of William Gurney (PROB 11/252/152).
+- **William Gurney** at St Stephen Coleman Street — identity not yet certain; possibly the same William named above.
+
+These likely derive from London Metropolitan Archives material rather than Parliamentary Archives City returns.
+
+#### Sir Richard Gurney, Lord Mayor
+
+Daniel Gurney Appendix LXXXIX states: "Sir Richard Gurney was not related to the Norfolk family." The 1634 visitation traces him instead to the Gurneys of Kendall. He is therefore irrelevant to the direct-line John problem.
+
+### Naming-pattern analysis
+
+| Name | Norfolk Gurneys (Henry's 12) | Francis's SBF children | Bucks Gurneys | Verdict |
+|---|---|---|---|---|
+| Sarah | None | None | Sarah 1639 Aylesbury | Puritan/biblical; not diagnostic |
+| Mary | Mary (d. single) | None | Mary 1631 Hitcham | Very common; weak value |
+| Richard | None among 12 | None at SBF | Richard 1626 (Robert's son) | Could reflect Ryvett influence; not decisive |
+| John | None among 12 | None at SBF | John 1634, 1638 | Ubiquitous; not diagnostic |
+| Peter | None in the reviewed Gurney material | None | None | Strong anomaly; likely from Mary's family |
+
+**Key naming takeaway:** no child named Francis. That remains the strongest naming-pattern argument against Candidate B, though not a dispositive one.
+
+---
+
+## Sources Consulted
+
+| sourceId | Scope | Audit trail |
+|---|---|---|
+| `anderson-gmd-2015` | p. 158 entry | `sources/validations/anderson-gmd-2015.md` |
+| `banks-brownell-1937` | p. 151 entry and BSE cluster | `sources/validations/banks-brownell-1937.md` |
+
+---
+
+## Negative Results and Exclusions
+
+- **No ship record identified.** Neither Banks nor Anderson names a vessel for John's emigration.
+- **No direct published Bucks attribution from the main emigrant compilers.** Banks gives Suffolk/BSE; Anderson gives "Unknown."
+- **No Banks primary citation beyond "Banks Mss."** The BSE attribution remains a lead, not proof.
+- **No Peter Gurney baptism found** in the working England-wide search set for 1620–1645.
+- **No John Gurney in Buckinghamshire Protestation Returns** in the reviewed set.
+- **No Francis Gurnay located in London Apprenticeship Abstracts (Findmypast)** in the searched collection; Merchant Taylors material may simply be outside the indexed set.
+- **Francis Gurney will still not located.** Daniel Gurney reports both candidate wills as "unable to be discovered."
+
+---
+
+## Target Source Pulls / Not Yet Searched
+
+### Anderson citation pull list
+
+| Abbreviation | Full Reference | Status | Priority |
+|---|---|---|---|
+| WJ 2:422 | *Winthrop's Journal*, vol. 2, p. 422 | Not yet pulled | Medium |
+| MBCR 1:331 | *Massachusetts Bay Colony Records*, vol. 1, p. 331 | Not yet pulled | Medium |
+| NEHGR 62:94 | *New England Historical and Genealogical Register*, vol. 62, p. 94 | Not yet pulled | High |
+| SPR Case #338 | Suffolk Probate Records, Case #338 | Not yet pulled | High |
+| Weymouth Hist 3:251 | *History of Weymouth*, vol. 3, p. 251 | Not yet pulled | Medium |
+| TAG 10:70–73 | *The American Genealogist*, vol. 10, pp. 70–73 | Not yet pulled | **Highest** |
+
+### Broader source catalog
+
+#### Tier 1 — potentially definitive
+
+1. **Norwich parish baptisms c. 1612–1617** — a "John son of Francis Gurney" entry would nearly close the case.
+2. **TAG 10:70–73** — likely source of Anderson's 1636 date.
+3. **SPR Case #338** — probate file may name children or relationships.
+
+#### Tier 1B — strong supporting targets
+
+4. **Margaret Rybett burial** in Norwich-area parishes c. 1616–1617.
+5. **Ryvett / Rivett pedigrees** — Suffolk RO, HD2418/88.
+6. **PCC or London Commissary will for Francis Gurnay** c. 1646–1650.
+7. **St Ann Blackfriars register image** — verify whether the letter is actually "P" or "F" Gurney.
+8. **Haberdashers' Company 1632 detail record**.
+
+#### Tier 2 — enriching but less likely to decide the case
+
+9. St Stephen Coleman Street registers.
+10. St Pancras Soper Lane registers (Harleian Society vol. 45).
+11. Ship Money rolls, St Benet Fink, 1635–1638 (TNA SP 16/17).
+12. F.G. Gurney papers, Bucks Archaeological Society.
+13. Peter Walne, "Emigrants from Hertfordshire 1630–1640," NEHGR vol. 132 (1978).
+14. Berkhamsted marriage registers.
+15. East Dereham register burials section.
+
+---
+
+## Open Questions
+
+- [ ] Pull **TAG 10:70–73** and determine whether it is the real basis for Anderson's 1636 date.
+- [ ] Pull **NEHGR 62:94** and test whether it contains an early origin argument now obscured in later derivative work.
+- [ ] Pull **SPR Case #338** in case the probate material names children or other relationship evidence.
+- [ ] Reconcile **Anderson's 1636** with the **June 1641 Weymouth** appearance.
+- [ ] Determine whether Anderson's **"Boston"** implies a real pre-Braintree residence.
+- [ ] Test whether Anderson's omission of Weymouth points to a **two-Johns conflict** rather than mere transient residence.
+- [ ] Test the **Bury St. Edmunds apprenticeship hypothesis** at Suffolk Record Office.
+- [ ] Access the **Haberdashers' 1632 John Gurney detail record**; if it names Francis as father, the case changes materially.
+- [ ] Identify **Mary's maiden name**; a Peter in her family would be highly informative.
+- [ ] Determine what became of **Edward and Agnes**, the confirmed East Dereham children of Francis.
+- [ ] Reassess whether **Candidate C (Berkhamsted John)** can be tied to or excluded from the emigrant.
+- [ ] Clarify whether **St Ann Blackfriars "P Gurney"** is actually **"F Gurney."**
+
+---
+
+## Working Hypotheses
+
+- **Candidate B** (son of Francis G14 + Margaret Rybett, probably Norwich / East Dereham connected): **~55–60%**. Active working hypothesis.
+- **Candidate A** (Stewkley, Buckinghamshire): **~10–12%**. Weakened, but not eliminated.
+- **Candidate C** (Berkhamsted, Hertfordshire): **~3–5%**. Retained as a minor lead.
+- **Other origins:** **~20–25%** residual.
+
+---
+
+## Crosslinks
+
+- Father (if Candidate B): `fact-sheets/g14-francis-gurney-fact-sheet.md`
+- Current paired case file: `research/case-files/john-gurney-case-file-v3.md`
+- Possible future case-file location: `research/case-files/candidate-b.md`
+- Anderson audit trail: `sources/validations/anderson-gmd-2015.md`
+- Banks audit trail: `sources/validations/banks-brownell-1937.md`
+- Sources catalog entries: `data/sources.json` entries `anderson-gmd-2015`, `banks-brownell-1937`, `tag-10-70`, `nehgr-62-94`
+- Related places (to be built): `research/places/braintree-ma.md`, `research/places/weymouth-ma.md`, `research/places/bury-st-edmunds.md`, `research/places/east-dereham.md`
+
+---
+
+## Session Log (transcript migration)
+
+| Date | Source | Findings added | Chat |
+|---|---|---|---|
+| 2026-04-16 | Chat 2026-04-08 re-migrated (pilot v2) | Anderson + Banks evaluations; compiler combined assessment; open-item set established | 324600c7 |
+| 2026-04 | Research companion synthesis | Colonial detail, Newgate de-conflation, protestation returns, naming analysis, source-target list | merged into this file |

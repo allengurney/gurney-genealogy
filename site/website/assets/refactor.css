@@ -1,0 +1,38 @@
+.page-action-row{margin:.55rem 0 0 !important}
+.page-action-link{display:inline-flex;align-items:center;gap:6px;padding:.34rem .64rem;border:1px solid #d5c7b6;border-radius:999px;background:#fffaf2;color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:.78rem;font-weight:700;text-decoration:none}
+.page-action-link:hover{background:#fff4df;text-decoration:none}
+.research-companion-disclaimer{padding:.7rem .85rem;border:1px solid #d8cdbd;background:#fff8ec;border-radius:6px;font-family:Arial,Helvetica,sans-serif;font-size:.86rem;line-height:1.4;color:#574635}
+.btn-research{display:inline-block;font-size:10px;padding:2px 7px;border-radius:3px;white-space:nowrap;font-weight:600;background:#f7eadb;color:#744616;border:0.5px solid #c9a77d;text-decoration:none}
+.btn-research:hover{background:#f0dcc4;color:#744616;text-decoration:none}
+.data-table .era-junior-norfolk td{background:linear-gradient(90deg,#5f4a6f,#7d6690)}
+.ancestor-table-page .era-junior-norfolk td{background:linear-gradient(90deg,#5f4a6f,#7d6690)}
+
+.catalog-page .page-head h1{font-size:1.65rem}
+.catalog-toolbar{display:flex;align-items:center;gap:12px;justify-content:space-between;flex-wrap:wrap;margin:0 0 8px;font-family:Arial,Helvetica,sans-serif}
+.segmented-control{display:inline-flex;align-items:center;gap:3px;padding:3px;border:1px solid #d5c7b6;border-radius:999px;background:#fffaf2}
+.segmented-control button{appearance:none;border:0;border-radius:999px;background:transparent;color:#596475;font-family:Arial,Helvetica,sans-serif;font-size:.78rem;font-weight:700;line-height:1;padding:.36rem .7rem;cursor:pointer}
+.segmented-control button.is-active{background:#2f3a4a;color:#fff}
+.catalog-note{margin:0;color:var(--muted);font-size:.78rem;line-height:1.35}
+.catalog-table-wrap{overflow:auto;border:1px solid var(--rule);background:#fff}
+.catalog-table{margin:0 !important}
+.catalog-table .era-row .era-dates{font-weight:500;letter-spacing:0;text-transform:none;opacity:.84;margin-left:.35rem}
+.catalog-table .summary-cell{color:#3a3530}
+.catalog-table .place-summary{margin:0 0 .25rem;font-weight:700;color:#4e5968}
+.catalog-table .lineage-badge{display:inline-block;padding:.16rem .4rem;border-radius:999px;background:#f2eee7;border:1px solid #ded4c8;font-family:Arial,Helvetica,sans-serif;font-size:.68rem;font-weight:700;color:#4b5564}
+.catalog-table .btns{margin-top:0}
+.catalog-source-note{margin-top:.75rem !important;font-size:.76rem !important}
+.catalog-quick .catalog-detail-col,
+.catalog-quick col.catalog-col-detail{display:none}
+.ancestor-table-page .doc-content .catalog-table col.catalog-col-gen{width:4% !important}
+.ancestor-table-page .doc-content .catalog-table col.catalog-col-name{width:17% !important}
+.ancestor-table-page .doc-content .catalog-table col.catalog-col-geography{width:19% !important}
+.ancestor-table-page .doc-content .catalog-table col.catalog-col-summary{width:45% !important}
+.ancestor-table-page .doc-content .catalog-table col.catalog-col-links{width:15% !important}
+.ancestor-table-page .doc-content .catalog-detailed col.catalog-col-gen{width:3.5% !important}
+.ancestor-table-page .doc-content .catalog-detailed col.catalog-col-name{width:12.5% !important}
+.ancestor-table-page .doc-content .catalog-detailed col.catalog-col-geography{width:10.5% !important}
+.ancestor-table-page .doc-content .catalog-detailed col.catalog-col-summary{width:16% !important}
+.ancestor-table-page .doc-content .catalog-detailed col.catalog-col-notables{width:20% !important}
+.ancestor-table-page .doc-content .catalog-detailed col.catalog-col-places{width:25% !important}
+.ancestor-table-page .doc-content .catalog-detailed col.catalog-col-status{width:6% !important}
+.ancestor-table-page .doc-content .catalog-detailed col.catalog-col-links{width:6.5% !important}

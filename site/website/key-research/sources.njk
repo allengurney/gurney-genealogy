@@ -1,0 +1,43 @@
+---
+layout: layouts/base.njk
+permalink: /key-research/sources.html
+title: Sources
+pageHeading: Sources
+subtitle: "Primary and core reference sources used in the Gurney genealogy library."
+description: "Canonical source registry for the Gurney genealogy library, generated from data/sources.json."
+bodyClass: explorer-page sources-page
+activeNav: research
+updated: 25 April 2026
+---
+
+<header class="explorer-head explorer-head-with-stats">
+  <div>
+    <p class="explorer-crumbs explorer-page-title">Library / Sources</p>
+    <p class="explorer-subtitle">A generated bibliography of the source registry behind the fact sheets, case files, research notes, and structured data.</p>
+  </div>
+  <div class="stats-strip compact-stats">
+    <div class="stat"><span class="label">Sources</span><span class="value">{{ sourceStats.sourceCount }}</span></div>
+    <div class="stat"><span class="label">Full corpus</span><span class="value">{{ sourceStats.fullCorpusCount }}</span></div>
+    <div class="stat"><span class="label">External links</span><span class="value">{{ sourceStats.externalLinkCount }}</span></div>
+    <div class="stat"><span class="label">Validations</span><span class="value">{{ sourceStats.validationCount }}</span></div>
+  </div>
+</header>
+
+<section class="sources-list" aria-label="Source registry">
+  {% for source in sourcesCatalog %}
+    <article class="source-card" id="{{ source.sourceId }}">
+      <div class="source-id">{{ source.sourceId }}</div>
+      <h2>{{ source.shortTitle }}</h2>
+      {% if source.citation %}<p class="source-citation">{{ source.citation }}</p>{% endif %}
+      <dl class="source-meta">
+        {% if source.archive %}<dt>Archive</dt><dd>{{ source.archive }}</dd>{% endif %}
+        {% if source.corpusStatus %}<dt>Corpus</dt><dd>{{ source.corpusStatus }}</dd>{% endif %}
+        {% if source.corpusPath %}<dt>Corpus path</dt><dd><code>{{ source.corpusPath }}</code></dd>{% endif %}
+        {% if source.mediaPath %}<dt>Media path</dt><dd><code>{{ source.mediaPath }}</code></dd>{% endif %}
+        {% if source.validationPath %}<dt>Validation</dt><dd><code>{{ source.validationPath }}</code></dd>{% endif %}
+      </dl>
+      {% if source.notes %}<p class="source-notes">{{ source.notes }}</p>{% endif %}
+      {% if source.url %}<a class="btn" href="{{ source.url }}" target="_blank" rel="noopener">Open source</a>{% endif %}
+    </article>
+  {% endfor %}
+</section>

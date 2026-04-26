@@ -1,0 +1,25 @@
+{
+  "name": "gurney-eleventy",
+  "version": "1.0.0",
+  "description": "Gurney Genealogy Library Eleventy site",
+  "main": "index.js",
+  "scripts": {
+    "sync:content": "node scripts/sync-site-content.js",
+    "data:generate": "node scripts/generate-site-data.js",
+    "clean": "node scripts/clean-site.js",
+    "build": "npm run sync:content && npm run data:generate && npm run clean && eleventy",
+    "watch": "npm run sync:content && npm run data:generate && npm run clean && eleventy --watch",
+    "serve": "npm run sync:content && npm run data:generate && npm run clean && eleventy --serve",
+    "validate:site": "node scripts/validate-site.js",
+    "validate": "npm run sync:content && npm run data:generate && npm run validate:site",
+    "package": "npm run validate && npm run clean && eleventy && node scripts/package-site.js"
+  },
+  "keywords": [],
+  "author": "Allen Lawrence Gurney",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.5",
+    "markdown-it-attrs": "^4.3.1",
+    "markdown-it-footnote": "^4.0.0"
+  }
+}

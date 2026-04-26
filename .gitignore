@@ -146,6 +146,8 @@ vite.config.ts.timestamp-*
 # we never commit the generated site to git.
 site/_site/
 site/dist/
+site/**/_site/
+site/**/dist/
 _site/
 
 # Editor / OS artifacts
