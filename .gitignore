@@ -144,6 +144,16 @@ vite.config.ts.timestamp-*
 
 # Eleventy build output — Cloudflare Pages generates this on deploy;
 # we never commit the generated site to git.
+# Local AI-agent scratch worktrees.
+.claude/worktrees/
+
+# Local package cache used when npm is unavailable in the sandbox.
+site/website/.pkg-cache/
+
+# Historical exported site bundles kept for local reference only.
+site/gurney-eleventy-project_source_clean_*.zip
+site/gurney-eleventy-project_source_clean_*/
+
 site/_site/
 site/dist/
 site/**/_site/

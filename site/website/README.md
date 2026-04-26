@@ -27,6 +27,8 @@ The site has seven published pages plus one non-published template:
 
 ## Architecture overview
 
+> **Priority refactor:** The website currently syncs canonical repo content into `site/website/` before building. A future cleanup should make Eleventy read directly from the canonical root files (`data/`, `fact-sheets/`, and `research/people/`) so generated/synced duplicate Markdown no longer creates Git noise or stale-copy risk.
+
 ```
 _data/
   ancestors.json       ← SINGLE SOURCE OF TRUTH for all ancestor data
