@@ -1,3 +1,8 @@
+---
+title: "Edmund Gurney (1577-1648) — Research Notes"
+permalink: /research/companions/edmund-gurney-divine.html
+eleventyExcludeFromCollections: true
+---
 # Edmund Gurney (1577-1648) — Research Notes
 
 Collateral Gurney subject. Edmund Gurney, also printed as Edmond Gourney or Edmund Gurnay, was the third son of Henry Gurney (G15) and Ellen Blennerhasset, and brother of Francis Gurney (G14) in the direct line.
@@ -24,7 +29,7 @@ Sir Nicholas L'Estrange's collection preserves Edmund's satirical definition of 
 
 ## Research use
 
-This item should be linked back to Henry Gurney (G15)'s companion as a fuller collateral note for Henry's son Edmund. It is probably too long for Henry's published fact sheet, but a short published line could mention that L'Estrange preserved Edmund's joke defining a mathematician as someone who buys an axe to break an egg.
+This item is linked back to Henry Gurney (G15)'s companion and now has a related G14 fact sheet for the website's related-person table. The fuller extract belongs here because it is longer than a compact fact-sheet note.
 
 [^thoms-identity]: William J. Thoms, ed., *Anecdotes and Traditions, Illustrative of Early English History and Literature, Derived from MS. Sources*, Camden Society, old series, vol. 5 (London: Camden Society, 1839), pp. xviii-xx and p. 6, Internet Archive, https://archive.org/details/anecdotestraditi00thomrich/. The introductory notice identifies Parson Edmund Gurney as brother to Francis and gives Edgefield and Harpley livings; p. 6 supplies Fuller's account. Source ID: `thoms-anecdotes-traditions-1839`.
 [^thoms-anecdote]: Thoms, ed., *Anecdotes and Traditions* (1839), p. 6, no. XI, "A Mathematician Defined," from L'Estrange no. 30. Internet Archive, https://archive.org/details/anecdotestraditi00thomrich/page/6/mode/1up. Source ID: `thoms-anecdotes-traditions-1839`.

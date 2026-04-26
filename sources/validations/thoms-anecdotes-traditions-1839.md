@@ -13,7 +13,7 @@
 
 ## Research placement
 
-The relevant person is Edmund Gurney (1577-1648), Puritan divine, third son of Henry Gurney (G15) and brother of Francis Gurney (G14), not the later Edmund Gurney (1847-1888). The substantive note is in `research/people/edmund-gurney-divine.md`.
+The relevant person is Edmund Gurney (1577-1648), Puritan divine, third son of Henry Gurney (G15) and brother of Francis Gurney (G14), not the later Edmund Gurney (1847-1888). The substantive note is in `research/people/edmund-gurney-divine.research.md`.
 
 ## Source-catalog status
 

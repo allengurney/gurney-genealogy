@@ -2027,6 +2027,72 @@
     ]
   },
   {
+    "type": "related",
+    "isRelated": true,
+    "gen": "G14",
+    "genNumber": 14,
+    "name": "Edmund Gurney (Puritan Divine)",
+    "dates": "1577-1648",
+    "geography": "Norfolk; Cambridge; Edgefield; Harpley; Norwich",
+    "eraId": "era-tudor-england",
+    "eraLabel": "Tudor England — City of London & Norfolk",
+    "eraShortLabel": "Tudor England",
+    "eraKey": "Tudor England",
+    "eraDates": "late 15th–mid 17th centuries",
+    "eraClass": "era-tudor",
+    "colorFrom": "#874622",
+    "colorTo": "#ae6539",
+    "lineageStatus": "Related - brother of G14 Francis Gurney",
+    "displayLineageStatus": "Related - brother of G14 Francis Gurney",
+    "summary": "Collateral G14 figure, not a direct ancestor. Edmund Gurney was the third son of Henry Gurney (G15) and Ellen Blennerhasset, and brother of Francis Gurney (G14), the Merchant Taylor.",
+    "notables": "Cambridge-educated Puritan divine; Queens' College and Corpus Christi College, Cambridge; B.D. 1609; Rector of Edgefield 1614-1620 and Harpley 1620-1648. Author of anti-Catholic and anti-image works including Corpus Christi (1619), The Romish Chain (1624), and Toward the Vindication of the Second Commandment (1639). Sir Nicholas L'Estrange's anecdote collection preserves Edmund's dry definition of a mathematician as someone who goes to market to buy an axe to break an egg.",
+    "landHoldings": "Not a direct-line landholding figure in this project. Ecclesiastical geography: Rector of Edgefield and Harpley, Norfolk; buried at St Peter Mancroft, Norwich.",
+    "hasLandHoldings": true,
+    "spouses": [],
+    "children": [],
+    "buttons": [
+      {
+        "label": "Related fact sheet",
+        "url": "/fact-sheets/g14-edmund-gurney-divine-related-fact-sheet.html",
+        "style": "bio"
+      },
+      {
+        "label": "Research notes",
+        "url": "/research/companions/edmund-gurney-divine.html",
+        "style": "research"
+      },
+      {
+        "label": "Anecdotes source",
+        "url": "https://archive.org/details/anecdotestraditi00thomrich/page/6/mode/1up",
+        "style": "research"
+      }
+    ],
+    "recordId": "collateral-g14-edmund-gurney-divine",
+    "placeRefs": [
+      "place-harpley-norfolk-england"
+    ],
+    "placeSummary": "Harpley, Norfolk, England",
+    "locations": [
+      {
+        "placeId": "place-harpley-norfolk-england",
+        "place": "Harpley, Norfolk, England",
+        "siteName": "",
+        "region": "Norfolk, England",
+        "eventType": "landholding / property reference; individual geography",
+        "eventDate": "1577-1648",
+        "sourceQuote": "Gurney's manor in Harpley, acquired c.1183 through Rose de Burnham and the Hameline de Warenne connection.",
+        "lat": 52.8088,
+        "lng": 0.6486,
+        "geocodeBasis": "village centroid",
+        "confidence": "Medium",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459",
+        "siteLabel": "Blomefield: Harpley"
+      }
+    ]
+  },
+  {
     "type": "ancestor",
     "isRelated": false,
     "gen": "G15",
