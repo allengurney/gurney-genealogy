@@ -21,9 +21,9 @@ The two lists agree on Dorothy 1619 and Roger 1621 — both are firmly anchored 
 
 ## Parish context in the emigration period
 
-The parish sat in the Broad Street Ward. Immediately west lay the Coleman Street Ward, **London's most active Puritan emigration hub in the 1630s** — John Davenport preached at St Stephen Coleman Street until 1633, and the 1637 Hector voyage to New Haven was organized from that same ward. A William Gurney (identity unknown; possibly the William of PROB 11/252/152) appears in the 1641–42 Protestation Returns at St Stephen Coleman Street. The proximity of Francis G14's parish to this emigration infrastructure is a standing piece of context evidence in `research/case-files/john-gurney-case-file-v3.md` §10.4.[^colemans-st-context]
+The parish sat in the Broad Street Ward. Immediately west lay the Coleman Street Ward, **London's most active Puritan emigration hub in the 1630s** — John Davenport preached at St Stephen Coleman Street until 1633, and the 1637 Hector voyage to New Haven was organized from that same ward. A William Gurney (identity unknown; possibly the William of PROB 11/252/152) appears in the 1641–42 Protestation Returns at St Stephen Coleman Street. The proximity of Francis G14's parish to this emigration infrastructure is a standing piece of context evidence in `research/case-files/john-gurney-case-file-v4.md` §10.4.[^colemans-st-context]
 
-[^colemans-st-context]: `research/case-files/john-gurney-case-file-v3.md` §10.4 ("The Coleman Street Connection"); also discussed in the same file §10.2.
+[^colemans-st-context]: `research/case-files/john-gurney-case-file-v4.md` §10.4 ("The Coleman Street Connection"); also discussed in the same file §10.2.
 
 ## Primary register material
 
@@ -54,7 +54,7 @@ The parish sat in the Broad Street Ward. Immediately west lay the Coleman Street
 - Parent place aggregate (already exists): `research/places/city-of-london.md` — already names St Benet Fink as the "Site name" sub-reference.
 - Primary person file: `research/people/g14-francis-gurney-fact-sheet.research.md`
 - Published fact sheet (uses St Benet Fink as hero image): `fact-sheets/g14-francis-gurney-fact-sheet.md`
-- Active case file (Coleman Street / emigration corridor context): `research/case-files/john-gurney-case-file-v3.md` §10.4
+- Active case file (Coleman Street / emigration corridor context): `research/case-files/john-gurney-case-file-v4.md` §10.4
 - Source — Bernau 1913: `sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md`
 
 <!-- GENERATED:PLACE-REGISTRY:START -->

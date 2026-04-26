@@ -29,14 +29,14 @@ Bernau states that Francis G14 was "a member of the Merchant Taylors' Company, a
 
 ### Heralds' Visitation date — conflict flagged
 
-Bernau dates Francis's attestation of the Gourney pedigree to the **1634** Heralds' Visitation of London.[^bernau-visitation] The current fact sheet and `research/case-files/john-gurney-case-file-v3.md` both use **1633**.[^fs-visitation] The John Gurney Case File cites "Heralds' Visitation of London, 1633; DG Record" for Roger as "eldest sonne."
+Bernau dates Francis's attestation of the Gourney pedigree to the **1634** Heralds' Visitation of London.[^bernau-visitation] The current fact sheet and `research/case-files/john-gurney-case-file-v4.md` both use **1633**.[^fs-visitation] The John Gurney Case File cites "Heralds' Visitation of London, 1633; DG Record" for Roger as "eldest sonne."
 
 The two dates are not automatically incompatible. The London visitation of Henry St George and Sampson Lennard ran across 1633–1635, and contemporary and later citations vary in which campaign year they name. What matters for the Candidate B argument is that both "eldest sonne" wording and the set of children presented by Francis at the visitation were captured in a single sitting — whichever year that sitting was dated to. The practical effect on the case is zero; the date should be reconciled on the fact sheet with whatever primary visitation source is canonical (Harleian Society vol. XV or XVII).
 
 Open item: confirm the exact sitting date against the Harleian Society published transcript or MS in the College of Arms.
 
 [^bernau-visitation]: Bernau, *British Archivist* I.7, "His Parentage" section: "In 1634 Francis attested the GOURNAY pedigree in the Heralds' Visitation of London."
-[^fs-visitation]: `fact-sheets/g14-francis-gurney-fact-sheet.md`, Timeline and Highlights sections; `research/case-files/john-gurney-case-file-v3.md`, §2.4 and Master Timeline.
+[^fs-visitation]: `fact-sheets/g14-francis-gurney-fact-sheet.md`, Timeline and Highlights sections; `research/case-files/john-gurney-case-file-v4.md`, §2.4 and Master Timeline.
 
 ### Second wife's father located as William Browning of Norwich and Maldon
 
@@ -44,7 +44,7 @@ Bernau identifies Anne Browning's father as **William Browning, of Norwich, merc
 
 1. It fixes William Browning as a Norwich merchant whose career ended in Maldon — the same Norwich-to-Maldon trajectory that would reappear one generation down, when Anne's son Francis-the-younger married a Maldon Browning and settled in the town himself.
 2. It places a Browning mercantile household at Maldon in the 1620s–1640s, decades before Francis the younger's 1654 marriage to Anne daughter of Jeremiah Browning. Bernau takes this as strong circumstantial evidence that Francis-the-younger "probably married his cousin" — i.e., that Jeremiah was a relative of William.[^bernau-cousin]
-3. It is independently relevant to the Essex / Braintree Massachusetts social-network argument in `research/case-files/john-gurney-case-file-v3.md` §10.3, which notes the Browning surname recurring in Coleman Street emigrant contexts.
+3. It is independently relevant to the Essex / Braintree Massachusetts social-network argument in `research/case-files/john-gurney-case-file-v4.md` §10.3, which notes the Browning surname recurring in Coleman Street emigrant contexts.
 
 [^bernau-anne]: Bernau, *British Archivist* I.7: "In or before the year 1618 Francis Gournay married Anne, daughter of William BROWNING, of Norwich, merchant, and later of Maldon, Essex."
 [^bernau-cousin]: Bernau, *British Archivist* I.7, "His Marriage" section: "it is not too much to suppose that Francis GURNEY probably married his cousin, as his mother was Anne, daughter of William BROWNING, of Norwich, merchant, and afterwards of Maldon."
@@ -130,7 +130,7 @@ This John is **not** the Massachusetts emigrant. He lived in England continuousl
 
 His documentary interest is indirect but real: **it establishes that Francis G14 was willing to name a son John**. The current John Gurney Case File notes as a point against Candidate B that no child of John-1 was named Francis. The inverse concern — that Francis named no son John — is now answered by Bernau. Francis named a son John in his second marriage (no baptism located, probably London), and, if the Entry E reading at East Dereham is upheld, he had also named an older son John in his first marriage. Francis thus used the name John twice, consistent with Candidate B and with the Entry E paleographic reading.
 
-This second John is added as a row in the elimination table of `research/case-files/john-gurney-case-file-v3.md` §8.
+This second John is added as a row in the elimination table of `research/case-files/john-gurney-case-file-v4.md` §8.
 
 [^john-second-admin]: Bernau, *British Archivist* I.7, §"His Parents' Children," item 9: "in 1681 letters of administration of the goods of John GURNEY, of Maldon, a bachelor, were granted to his brother, Thomas GURNEY."
 [^john-second-hearths]: Bernau, *British Archivist* I.7, §"His Parents' Children," item 9, citing Lay Subsidy 246/22 (1674 Hearth Tax): "in 1674 John GURNEY, of St. Mary's Maldon, paid the tax on nine hearths."
@@ -162,7 +162,7 @@ Open items:
 
 ### Lineage status
 
-**Probable (per AI-Rules §5, contingent on resolution of East Dereham Entry E).** Francis G14's own identity, parentage, occupation, and death date are confirmed across Daniel Gurney (1848), Blomefield, the 1633/34 Visitation, Merchant Taylors' Company admission (16 June 1606), the Hunstanton Hall Lestrange account-book (1612–1636), Boyd's marriage index as corrected from FreeREG (9 January 1646/7 burial at St Botolph Bishopsgate, per AI-Rules §7 #1), and now Bernau (1913). Lineage *to John Gurney-1 of Massachusetts* remains Probable, not Confirmed, pending primary paleographic examination of East Dereham register NRO PD 86/41 Entry E and the searches enumerated in `research/case-files/john-gurney-case-file-v3.md` §12.
+**Probable (per AI-Rules §5, contingent on resolution of East Dereham Entry E).** Francis G14's own identity, parentage, occupation, and death date are confirmed across Daniel Gurney (1848), Blomefield, the 1633/34 Visitation, Merchant Taylors' Company admission (16 June 1606), the Hunstanton Hall Lestrange account-book (1612–1636), Boyd's marriage index as corrected from FreeREG (9 January 1646/7 burial at St Botolph Bishopsgate, per AI-Rules §7 #1), and now Bernau (1913). Lineage *to John Gurney-1 of Massachusetts* remains Probable, not Confirmed, pending primary paleographic examination of East Dereham register NRO PD 86/41 Entry E and the searches enumerated in `research/case-files/john-gurney-case-file-v4.md` §12.
 
 ### Sources consulted
 
@@ -194,6 +194,6 @@ Source entries align with `data/sources.json` where they exist. Bernau 1913 is p
 - Father: `research/people/g15-henry-gurney-fact-sheet.research.md` (Henry G15)
 - Probable son (direct line): `research/people/g13-john-gurney-fact-sheet.research.md` (John Gurney-1 of Massachusetts)
 - Younger son (collateral, subject of Bernau's article): `research/people/francis-gurney-of-maldon.md`
-- Active case file: `research/case-files/john-gurney-case-file-v3.md`
+- Active case file: `research/case-files/john-gurney-case-file-v4.md`
 - Corpus: `sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md`
 - Validation: `sources/validations/british-archivist-bernau-1913.md`

@@ -6,7 +6,7 @@ Approximate coordinate for structured display: **51.7307, 0.6820**.
 
 ## Why this parish matters to this project
 
-St Mary's Maldon is a **documented cluster of Gurney activity in the mid-to-late seventeenth century**, with at least three distinct Gurney heads of household present there within a thirty-year window. Its relevance spans both the direct-line John Gurney-1 problem (`research/case-files/john-gurney-case-file-v3.md`) and the collateral Maldon branch descended from Francis G14.
+St Mary's Maldon is a **documented cluster of Gurney activity in the mid-to-late seventeenth century**, with at least three distinct Gurney heads of household present there within a thirty-year window. Its relevance spans both the direct-line John Gurney-1 problem (`research/case-files/john-gurney-case-file-v4.md`) and the collateral Maldon branch descended from Francis G14.
 
 ### The documented Gurney presence at St Mary's Maldon
 
@@ -27,8 +27,8 @@ Three Gurney/Gurney-adjacent houses of substantial size (nine hearths for the ba
 Although no direct-line Gurney ancestor was based at St Mary's Maldon, the cluster matters for the G13 John Gurney-1 (Candidate B) case in several ways:
 
 1. **It is a documented Gurney-surname cluster in the right social register and the right decade.** Any surviving Maldon document referring generically to "Mr Gurney" or "Mr Gournay" in the 1650s–1680s is a candidate for disambiguation across three known Gurney households. That discipline is worth carrying into any future Maldon-area record pull.
-2. **It attaches a Browning/Gurney in-law network to a specific Essex town.** Anne Browning (Francis G14's second wife, per Bernau the daughter of William Browning "of Norwich, merchant, and later of Maldon") places a Browning mercantile household at Maldon by the 1620s–1630s. One generation down, the Browning intermarriages continue at Maldon through Francis Jr.'s 1654 marriage to Anne daughter of Jeremiah Browning, and possibly through the Dr. Thomas Browning / Anne Gurney hypothesis.[^browning-network] The Browning thread is the same surname that recurs in Coleman Street emigrant contexts in London, discussed in `research/case-files/john-gurney-case-file-v3.md` §10.4.
-3. **It is the specific Maldon parish to search first** if evidence ever surfaces suggesting the direct-line John Gurney-1 had Maldon connections — e.g., if the Essex social-network pattern catalogued in `research/case-files/john-gurney-case-file-v3.md` §10.3 (son-in-law Daniel Shed of Finchingfield; landlord William Tyng of Stanford Rivers; Braintree MA named for Braintree Essex) turns out to trace specifically to Maldon rather than generically to Essex. The 1628 Francis Jr.'s settlement at St Mary's was after G13's likely 1638–1641 emigration, but if William Browning's branch of the family was at Maldon from the 1620s, a pre-emigration Browning-in-law visit to Maldon by the older brother John would be entirely plausible.
+2. **It attaches a Browning/Gurney in-law network to a specific Essex town.** Anne Browning (Francis G14's second wife, per Bernau the daughter of William Browning "of Norwich, merchant, and later of Maldon") places a Browning mercantile household at Maldon by the 1620s–1630s. One generation down, the Browning intermarriages continue at Maldon through Francis Jr.'s 1654 marriage to Anne daughter of Jeremiah Browning, and possibly through the Dr. Thomas Browning / Anne Gurney hypothesis.[^browning-network] The Browning thread is the same surname that recurs in Coleman Street emigrant contexts in London, discussed in `research/case-files/john-gurney-case-file-v4.md` §10.4.
+3. **It is the specific Maldon parish to search first** if evidence ever surfaces suggesting the direct-line John Gurney-1 had Maldon connections — e.g., if the Essex social-network pattern catalogued in `research/case-files/john-gurney-case-file-v4.md` §10.3 (son-in-law Daniel Shed of Finchingfield; landlord William Tyng of Stanford Rivers; Braintree MA named for Braintree Essex) turns out to trace specifically to Maldon rather than generically to Essex. The 1628 Francis Jr.'s settlement at St Mary's was after G13's likely 1638–1641 emigration, but if William Browning's branch of the family was at Maldon from the 1620s, a pre-emigration Browning-in-law visit to Maldon by the older brother John would be entirely plausible.
 
 [^browning-network]: `research/people/g14-francis-gurney-fact-sheet.research.md` ("The Browning in-law network" subsection); `research/people/francis-gurney-of-maldon.md`, "Thomas Browning, D.D." section.
 
@@ -68,7 +68,7 @@ Per Bernau, Francis Jr.'s St Mary's house "was rented of the Corporation of that
 
 - Francis Jr. biography: `research/people/francis-gurney-of-maldon.md`
 - G14 research companion: `research/people/g14-francis-gurney-fact-sheet.research.md`
-- Case file (the Maldon cluster is discussed as a potential Essex-network anchor): `research/case-files/john-gurney-case-file-v3.md` §10.3
+- Case file (the Maldon cluster is discussed as a potential Essex-network anchor): `research/case-files/john-gurney-case-file-v4.md` §10.3
 - Source — Bernau 1913: `sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md`
 - Validation: `sources/validations/british-archivist-bernau-1913.md`
 - Parent region place file: `research/places/essex.md`

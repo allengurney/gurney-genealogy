@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
 
 **Tailor. First Gurney in North America.** b. c. 1609–12 (AI-Rules §7 correction #6), probably East Anglia. Emigrated to New England by June 1641 at latest; Anderson assigns 1636 arrival (unresolved). d. 1662/3, Braintree, Massachusetts. Wife Mary (maiden name unknown — "Richards" is UNVERIFIED). Later married Grizzell Fletcher on 12 Nov 1661. Lineage status: **Probable** (Candidate B ~55–60%, son of Francis Gurney G14 Merchant Taylor + Margaret Rybett).
 
-Pre-fact-sheet. No published narrative yet. Active research lives in this file. It is currently paired with `research/case-files/john-gurney-case-file-v3.md` and may later migrate to `research/case-files/candidate-b.md` if the case-file structure is reorganized.
+Pre-fact-sheet. No published narrative yet. Active research lives in this file. It is currently paired with `research/case-files/john-gurney-case-file-v4.md` and may later migrate to `research/case-files/candidate-b.md` if the case-file structure is reorganized.
 
 Standing facts are in AI-Rules.md §7 (especially correction #6 on birth date, correction #7 on Peter naming absence, and the Candidate B / two-Francis framing). Do not re-derive them here; reference them.
 
@@ -293,7 +293,7 @@ Daniel Gurney Appendix LXXXIX states: "Sir Richard Gurney was not related to the
 ## Crosslinks
 
 - Father (if Candidate B): `fact-sheets/g14-francis-gurney-fact-sheet.md`
-- Current paired case file: `research/case-files/john-gurney-case-file-v3.md`
+- Current paired case file: `research/case-files/john-gurney-case-file-v4.md`
 - Possible future case-file location: `research/case-files/candidate-b.md`
 - Anderson audit trail: `sources/validations/anderson-gmd-2015.md`
 - Banks audit trail: `sources/validations/banks-brownell-1937.md`
