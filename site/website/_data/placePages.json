@@ -4280,6 +4280,59 @@
     "researchMarkdown": "# Suffolk (county-level)\r\n\r\nHistoric county adjacent to Norfolk. Approximate county centroid used for structured display: **52.188, 1.005**.\r\n\r\n## Why this county matters\r\n\r\nSuffolk is a **mixed-type umbrella record** in the project. It matters for at least three different reasons:\r\n\r\n1. as the county of **Walter de Gournay's early English holdings** under **Manasser de Dampmartin** during the reign of Stephen; [DG-I]\r\n2. as a later county in which the family still possessed at least **one manor** by the death of Sir John Gurney in 1408; [HoP-Gurney]\r\n3. as the county of **Depden**, which entered the Gurney portfolio through the **Wauncy inheritance** that also brought West Barsham. [DG-II] [West Barsham file]\r\n\r\nThat means Suffolk is more historically layered than Essex, even though the place evidence is currently more dispersed and less well separated into specific manor files. [current file]\r\n\r\n## Walter de Gournay and the earliest Suffolk evidence\r\n\r\nThe earliest strong Suffolk connection belongs to **Walter de Gournay (G31)**. DG-I cites the **Liber Niger Scaccarii**, vol. i, p. 298, for Walter's holdings in Suffolk under **Manasser de Dampmartin**. This is one of the earliest documentary witnesses to Walter in England and one of the key reasons Suffolk must exist in the place library at all. [DG-I]\r\n\r\nAt present, however, the county file is standing in for more specific manors that have not yet been separated. Until the Liber Niger entry is pulled directly and the named Suffolk places identified, Suffolk should remain a **county-level placeholder for early holdings**, not a claim that the family held the whole county in any broad sense.\r\n\r\n## Later medieval Suffolk\r\n\r\nThe county reappears in the later medieval line in two ways.\r\n\r\nFirst, the **History of Parliament** biography of **Sir John Gurney (d. 1408)** notes that he died holding **one manor in Suffolk** in addition to his Norfolk property. [HoP-Gurney]\r\n\r\nSecond, **Depden, Suffolk** entered the family through the **Wauncy inheritance** that brought West Barsham into the line. This makes Suffolk part of the same inheritance geography that reshaped the family's fortunes in the late fourteenth century, even though the place-level Suffolk evidence has not yet been broken out in detail. [DG-II] [West Barsham file]\r\n\r\n## Bury St Edmunds — an important non-landholding Suffolk connection\r\n\r\nThe project also preserves a very different Suffolk association through **Bury St Edmunds** in the **Candidate B / John Gurney-1** research. That is not a documented landholding but rather a possible origin or apprenticeship setting derived from later genealogical tradition. It matters enough to note here as a **separate Suffolk connection of a different type**, while keeping it clearly distinct from the county's landed-history layer. [current file]\r\n\r\n## Interpretive note\r\n\r\nSuffolk is therefore one of the more complex county umbrellas in the library. It is neither a single clear Domesday cluster like Essex nor a full-spectrum family county like Norfolk. Instead it is a county of **scattered but important evidence points** that probably deserves eventual subdivision — especially if the Liber Niger place names and the later Suffolk manor can be identified directly. [DG-I] [HoP-Gurney] [DG-II]\r\n\r\n## Open items\r\n\r\n- [ ] Pull the **Liber Niger Scaccarii** entry and identify Walter's specific Suffolk holdings under Manasser de Dampmartin.\r\n- [ ] Identify the unnamed Suffolk manor in the 1408 estate of Sir John Gurney.\r\n- [ ] Consider a separate **Depden** place file once the Wauncy appendix is worked more fully into the library.\r\n- [ ] Keep Bury St Edmunds separate from the landed-history layer unless stronger evidence links it to property rather than apprenticeship/origin tradition.\r\n\r\n## Sources\r\n\r\n- Daniel Gurney, *Record of the House of Gournay*, Part I (1848), pp. 277–278. [DG-I]\r\n- DG-II Appendix LXIII (Wauncy family / Depden). [DG-II]\r\n- History of Parliament Online: Sir John Gurney, d. 1408. [HoP-Gurney]\r\n- `research/places/west-barsham.md`\r\n- `research/people/g31-walter-de-gournay-fact-sheet.research.md`\r\n- `research/people/g13-john-gurney-fact-sheet.research.md`"
   },
   {
+    "placeId": "place-tower-of-london-england",
+    "name": "Tower of London, London, England",
+    "title": "Tower of London",
+    "siteName": "Tower of London",
+    "streetAddress": "London EC3N 4AB",
+    "region": "London, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Tower of London",
+      "Tower Green",
+      "Chapel Royal of St Peter ad Vincula"
+    ],
+    "shortDescription": "Tower fortress, execution, and burial site associated with Queen Anne Boleyn.",
+    "longDescription": "Historic Royal Palace and fortress on the Thames. For this project, the Tower anchors Queen Anne Boleyn's arrest, imprisonment, execution on Tower Green on 19 May 1536, and burial in the Chapel Royal of St Peter ad Vincula.",
+    "placeType": "historic site",
+    "extantStatus": "extant",
+    "extantStatusDescription": "Historic Royal Palace and World Heritage Site.",
+    "coordinate": {
+      "lat": 51.5081,
+      "lng": -0.0759
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "site centroid",
+    "roles": [
+      "individual geography",
+      "burial place"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://www.hrp.org.uk/tower-of-london/",
+    "siteLabel": "Historic Royal Palaces",
+    "researchUrl": "",
+    "researchSlug": "",
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g17-queen-anne-boleyn",
+        "type": "related",
+        "gen": "G17",
+        "name": "Queen Anne Boleyn",
+        "dates": "c. 1501-19 May 1536",
+        "role": "execution and burial site",
+        "lineageStatus": "Related - second cousin, 16 times removed",
+        "displayLineageStatus": "Related - second cousin, 16 times removed",
+        "url": "/fact-sheets/g17-queen-anne-boleyn-related-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1,
+    "slug": "tower-of-london-england",
+    "url": "/research/places/tower-of-london-england.html",
+    "researchTitle": "",
+    "researchMarkdown": ""
+  },
+  {
     "placeId": "place-west-barsham-norfolk-england",
     "name": "West Barsham, Norfolk, England",
     "title": "West Barsham Hall",

@@ -295,6 +295,23 @@
     ]
   },
   {
+    "placeId": "place-tower-of-london-england",
+    "placeName": "Tower of London, London, England",
+    "longDescription": "Historic Royal Palace and fortress on the Thames. For this project, the Tower anchors Queen Anne Boleyn's arrest, imprisonment, execution on Tower Green on 19 May 1536, and burial in the Chapel Royal of St Peter ad Vincula.",
+    "siteName": "Tower of London",
+    "streetAddress": "London EC3N 4AB",
+    "extantStatus": "extant",
+    "extantStatusDescription": "Historic Royal Palace and World Heritage Site.",
+    "coordinateBasis": "site centroid",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "https://www.hrp.org.uk/tower-of-london/",
+    "heritageLabel": "Historic Royal Palaces",
+    "reviewNotes": [
+      "Added for Queen Anne Boleyn related G17 record; HRP Anne Boleyn page is catalogued as sourceId hrp-anne-boleyn."
+    ]
+  },
+  {
     "placeId": "place-cummington-massachusetts-usa",
     "placeName": "Cummington, Massachusetts, USA",
     "longDescription": "Cummington farm holdings associated with the Benjamin/Amos Gurney family after their move from Abington.",

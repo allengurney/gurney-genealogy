@@ -524,6 +524,33 @@
     "filename": "city-of-london.md"
   },
   {
+    "placeId": "place-tower-of-london-england",
+    "name": "Tower of London, London, England",
+    "aliases": [
+      "Tower of London",
+      "Tower Green",
+      "Chapel Royal of St Peter ad Vincula"
+    ],
+    "shortDescription": "Tower fortress, execution, and burial site associated with Queen Anne Boleyn.",
+    "placeType": "historic site",
+    "coordinate": {
+      "lat": 51.5081,
+      "lng": -0.0759
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "individual geography",
+      "burial place"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g17-queen-anne-boleyn",
+        "role": "execution and burial site"
+      }
+    ],
+    "filename": "tower-of-london.md"
+  },
+  {
     "placeId": "place-cummington-massachusetts-usa",
     "name": "Cummington, Massachusetts, USA",
     "aliases": [

@@ -4280,5 +4280,54 @@
       }
     ],
     "ancestorCount": 1
+  },
+  {
+    "placeId": "place-tower-of-london-england",
+    "name": "Tower of London, London, England",
+    "title": "Tower of London",
+    "siteName": "Tower of London",
+    "streetAddress": "London EC3N 4AB",
+    "region": "London, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Tower of London",
+      "Tower Green",
+      "Chapel Royal of St Peter ad Vincula"
+    ],
+    "shortDescription": "Tower fortress, execution, and burial site associated with Queen Anne Boleyn.",
+    "longDescription": "Historic Royal Palace and fortress on the Thames. For this project, the Tower anchors Queen Anne Boleyn's arrest, imprisonment, execution on Tower Green on 19 May 1536, and burial in the Chapel Royal of St Peter ad Vincula.",
+    "placeType": "historic site",
+    "extantStatus": "extant",
+    "extantStatusDescription": "Historic Royal Palace and World Heritage Site.",
+    "coordinate": {
+      "lat": 51.5081,
+      "lng": -0.0759
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "site centroid",
+    "roles": [
+      "individual geography",
+      "burial place"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://www.hrp.org.uk/tower-of-london/",
+    "siteLabel": "Historic Royal Palaces",
+    "researchUrl": "",
+    "researchSlug": "",
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g17-queen-anne-boleyn",
+        "type": "related",
+        "gen": "G17",
+        "name": "Queen Anne Boleyn",
+        "dates": "c. 1501-19 May 1536",
+        "role": "execution and burial site",
+        "lineageStatus": "Related - second cousin, 16 times removed",
+        "displayLineageStatus": "Related - second cousin, 16 times removed",
+        "url": "/fact-sheets/g17-queen-anne-boleyn-related-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
   }
 ]

@@ -276,6 +276,18 @@
     "notes": "Ann Gurney married John Gilman, 1 Oct 1626. Relationship to Francis G14's family unresolved."
   },
   {
+    "sourceId": "hrp-anne-boleyn",
+    "shortTitle": "Historic Royal Palaces, Anne Boleyn",
+    "citation": "Historic Royal Palaces. 'Anne Boleyn.' Tower of London.",
+    "archive": "Historic Royal Palaces",
+    "url": "https://www.hrp.org.uk/tower-of-london/history-and-stories/anne-boleyn/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/hrp-anne-boleyn.md",
+    "notes": "Public-history article on Queen Anne Boleyn. Supports the related G17 fact sheet: approximate birth year, parents, childhood and French education, marriage to Henry VIII, coronation, Elizabeth I's birth, arrest, execution at Tower Green, and burial at St Peter ad Vincula."
+  },
+  {
     "sourceId": "hop-gurney",
     "shortTitle": "History of Parliament Online — Gurney",
     "citation": "History of Parliament Trust. 'Sir John Gurney (d.1408).' The History of Parliament: the House of Commons. historyofparliamentonline.org.",

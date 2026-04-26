@@ -863,6 +863,48 @@
     ]
   },
   {
+    "type": "related",
+    "gen": "G17",
+    "name": "Queen Anne Boleyn",
+    "dates": "c. 1501-19 May 1536",
+    "geography": "Hever Castle; Tudor court; Tower of London",
+    "eraId": "era-tudor-england",
+    "lineageStatus": "Related - second cousin, 16 times removed",
+    "summary": "Collateral Boleyn cousin, not a direct ancestor. Queen Anne Boleyn was Anthony Gurney's second cousin through their shared great-grandparents Sir Geoffrey Boleyn and Anne Hoo.",
+    "notables": "Second wife of Henry VIII and mother of Elizabeth I. In this project she belongs at G17 as a same-generation second cousin of Anthony Gurney, not in the direct ancestor spine. The connection runs through Anthony's mother Anne Heydon: Anne Heydon was daughter of Anne Boleyn the elder of Blickling, sister of Sir William Boleyn, Queen Anne's paternal grandfather.",
+    "landHoldings": "Not a Gurney landholding figure. Royal/court context: Tower of London execution and burial site.",
+    "spouses": [
+      {
+        "name": "Henry VIII",
+        "dates": "m. January 1533",
+        "notes": "Anne was Henry VIII's second wife and was crowned queen on 1 June 1533."
+      }
+    ],
+    "children": [
+      {
+        "name": "Elizabeth I",
+        "dates": "b. 7 September 1533",
+        "notes": "Daughter of Henry VIII and Anne Boleyn; later Queen Elizabeth I."
+      }
+    ],
+    "buttons": [
+      {
+        "label": "Related fact sheet",
+        "url": "/fact-sheets/g17-queen-anne-boleyn-related-fact-sheet.html",
+        "style": "bio"
+      },
+      {
+        "label": "HRP source",
+        "url": "https://www.hrp.org.uk/tower-of-london/history-and-stories/anne-boleyn/",
+        "style": "research"
+      }
+    ],
+    "recordId": "collateral-g17-queen-anne-boleyn",
+    "placeRefs": [
+      "place-tower-of-london-england"
+    ]
+  },
+  {
     "type": "ancestor",
     "gen": "G18",
     "name": "William Gurney V",

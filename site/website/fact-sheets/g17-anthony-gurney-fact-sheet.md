@@ -174,6 +174,7 @@ Anthony's death came two months into Mary I's restoration of Catholicism. He was
     <a href="/fact-sheets/g15-henry-gurney-fact-sheet.html">G15 Henry Gurney</a>
     <a href="/fact-sheets/g16-francis-gurney-fact-sheet.html">G16 Francis Gurney</a>
     <a href="/fact-sheets/g18-william-gurney-v-fact-sheet.html">G18 William Gurney V</a>
+    <a href="/fact-sheets/g17-queen-anne-boleyn-related-fact-sheet.html">Related: Queen Anne Boleyn</a>
     <a href="https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp42-47">Blomefield: West Barsham</a>
     <a href="https://www.british-history.ac.uk/topographical-hist-norfolk/vol1/pp482-490">Blomefield: Great Ellingham</a>
   </div>
