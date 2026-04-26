@@ -1,0 +1,4284 @@
+[
+  {
+    "placeId": "place-harpley-norfolk-england",
+    "name": "Harpley, Norfolk, England",
+    "title": "Harpley, Norfolk, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Harpley, Norfolk"
+    ],
+    "shortDescription": "Junior-branch core manor",
+    "longDescription": "Gurney's manor in Harpley, acquired c.1183 through Rose de Burnham and the Hameline de Warenne connection.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 52.8088,
+      "lng": 0.6486
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "village centroid",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459",
+    "siteLabel": "Blomefield: Harpley",
+    "researchUrl": "/research/places/harpley.html",
+    "researchSlug": "harpley",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "type": "ancestor",
+        "gen": "G15",
+        "name": "Henry Gurney",
+        "dates": "21 Jan. 1548/9 (OS) — d. 1615/16 (will proved 1623)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g15-henry-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g20-thomas-gournay-ii",
+        "type": "ancestor",
+        "gen": "G20",
+        "name": "Thomas Gournay II",
+        "dates": "fl. c. 1430 — d. 1471",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g20-thomas-gournay-ii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g21-thomas-gournay-i",
+        "type": "ancestor",
+        "gen": "G21",
+        "name": "Thomas Gournay I",
+        "dates": "fl. c. 1408 — d. before 1444",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g21-thomas-gournay-i-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g23-edmund-gurney",
+        "type": "ancestor",
+        "gen": "G23",
+        "name": "Edmund Gurney",
+        "dates": "d. 1387",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g23-edmund-gurney",
+        "type": "ancestor",
+        "gen": "G23",
+        "name": "Edmund Gurney",
+        "dates": "d. 1387",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g24-john-de-gournay-iv",
+        "type": "ancestor",
+        "gen": "G24",
+        "name": "John de Gournay IV",
+        "dates": "fl. c. 1330–1370",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g24-john-de-gournay-iv-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g24-john-de-gournay-iv",
+        "type": "ancestor",
+        "gen": "G24",
+        "name": "John de Gournay IV",
+        "dates": "fl. c. 1330–1370",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g24-john-de-gournay-iv-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g25-john-de-gournay-iii",
+        "type": "ancestor",
+        "gen": "G25",
+        "name": "John de Gournay III",
+        "dates": "fl. c. 1300–1353",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g25-john-de-gournay-iii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g25-john-de-gournay-iii",
+        "type": "ancestor",
+        "gen": "G25",
+        "name": "John de Gournay III",
+        "dates": "fl. c. 1300–1353",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g25-john-de-gournay-iii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g26-sir-william-de-gournay-iii-knt",
+        "type": "ancestor",
+        "gen": "G26",
+        "name": "Sir William de Gournay III, Knt.",
+        "dates": "fl. c. 1260–1300",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g26-sir-william-de-gournay-iii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g26-sir-william-de-gournay-iii-knt",
+        "type": "ancestor",
+        "gen": "G26",
+        "name": "Sir William de Gournay III, Knt.",
+        "dates": "fl. c. 1260–1300",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g26-sir-william-de-gournay-iii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g27-sir-john-de-gournay-i-knt",
+        "type": "ancestor",
+        "gen": "G27",
+        "name": "Sir John de Gournay I, Knt.",
+        "dates": "fl. c. 1240–1280",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g27-sir-john-de-gournay-i-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g27-sir-john-de-gournay-i-knt",
+        "type": "ancestor",
+        "gen": "G27",
+        "name": "Sir John de Gournay I, Knt.",
+        "dates": "fl. c. 1240–1280",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g27-sir-john-de-gournay-i-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g28-william-de-gournay-ii",
+        "type": "ancestor",
+        "gen": "G28",
+        "name": "William de Gournay II",
+        "dates": "fl. c. 1210–1250",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g28-william-de-gournay-ii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g28-william-de-gournay-ii",
+        "type": "ancestor",
+        "gen": "G28",
+        "name": "William de Gournay II",
+        "dates": "fl. c. 1210–1250",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g28-william-de-gournay-ii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g29-matthew-de-gournay",
+        "type": "ancestor",
+        "gen": "G29",
+        "name": "Matthew de Gournay",
+        "dates": "fl. c. 1180 — living 1217",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g29-matthew-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g29-matthew-de-gournay",
+        "type": "ancestor",
+        "gen": "G29",
+        "name": "Matthew de Gournay",
+        "dates": "fl. c. 1180 — living 1217",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g29-matthew-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "type": "related",
+        "gen": "G23",
+        "name": "Sir John Gurney, Knt. (d.1408) — Related",
+        "dates": "d. 1408",
+        "role": "landholding / property reference",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "type": "related",
+        "gen": "G23",
+        "name": "Sir John Gurney, Knt. (d.1408) — Related",
+        "dates": "d. 1408",
+        "role": "individual geography",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g18-william-gurney-v",
+        "type": "ancestor",
+        "gen": "G18",
+        "name": "William Gurney V",
+        "dates": "c. 1465 – before 18 Jan. 1507/8 (vita patris)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g18-william-gurney-v-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 20
+  },
+  {
+    "placeId": "place-west-barsham-norfolk-england",
+    "name": "West Barsham, Norfolk, England",
+    "title": "West Barsham Hall",
+    "siteName": "West Barsham Hall",
+    "streetAddress": "",
+    "region": "Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "West Barsham, Norfolk"
+    ],
+    "shortDescription": "Principal family seat",
+    "longDescription": "Principal Gurney family seat from 1372 until Francis Gurney sold the Norfolk lands in 1634.",
+    "placeType": "locality",
+    "extantStatus": "extant",
+    "extantStatusDescription": "Surviving north wing of West Barsham Hall still marks the historic manor site.",
+    "coordinate": {
+      "lat": 52.867826,
+      "lng": 0.830094
+    },
+    "coordinatePrecision": "exact",
+    "coordinateBasis": "exact extant hall site",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/West_Barsham_Hall_-_geograph.org.uk_-_2122114.jpg",
+    "imageTitle": "West Barsham Hall",
+    "siteUrl": "https://www.geograph.org.uk/photo/2122114",
+    "siteLabel": "Photo / site reference",
+    "researchUrl": "/research/places/west-barsham.html",
+    "researchSlug": "west-barsham",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g14-francis-gurney",
+        "type": "ancestor",
+        "gen": "G14",
+        "name": "Francis Gurney",
+        "dates": "13 Sept. 1581 — d. 9 Jan. 1646/7",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/key-research/john-gurney-case-file.html"
+      },
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "type": "ancestor",
+        "gen": "G15",
+        "name": "Henry Gurney",
+        "dates": "21 Jan. 1548/9 (OS) — d. 1615/16 (will proved 1623)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g15-henry-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "type": "ancestor",
+        "gen": "G15",
+        "name": "Henry Gurney",
+        "dates": "21 Jan. 1548/9 (OS) — d. 1615/16 (will proved 1623)",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g15-henry-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g16-francis-gurney",
+        "type": "ancestor",
+        "gen": "G16",
+        "name": "Francis Gurney",
+        "dates": "20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g16-francis-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g16-francis-gurney",
+        "type": "ancestor",
+        "gen": "G16",
+        "name": "Francis Gurney",
+        "dates": "20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris)",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g16-francis-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g17-anthony-gurney",
+        "type": "ancestor",
+        "gen": "G17",
+        "name": "Anthony Gurney",
+        "dates": "b. c. 1499 — d. 4 Jan. 1555/6 (per Blomefield, vol. vii)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g17-anthony-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g17-anthony-gurney",
+        "type": "ancestor",
+        "gen": "G17",
+        "name": "Anthony Gurney",
+        "dates": "b. c. 1499 — d. 4 Jan. 1555/6 (per Blomefield, vol. vii)",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g17-anthony-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g19-william-gurney-iv",
+        "type": "ancestor",
+        "gen": "G19",
+        "name": "William Gurney IV",
+        "dates": "b. c. 1440–1450 — d. 18 Jan. 1507/8",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g19-william-gurney-iv-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g19-william-gurney-iv",
+        "type": "ancestor",
+        "gen": "G19",
+        "name": "William Gurney IV",
+        "dates": "b. c. 1440–1450 — d. 18 Jan. 1507/8",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g19-william-gurney-iv-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g20-thomas-gournay-ii",
+        "type": "ancestor",
+        "gen": "G20",
+        "name": "Thomas Gournay II",
+        "dates": "fl. c. 1430 — d. 1471",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g20-thomas-gournay-ii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g20-thomas-gournay-ii",
+        "type": "ancestor",
+        "gen": "G20",
+        "name": "Thomas Gournay II",
+        "dates": "fl. c. 1430 — d. 1471",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g20-thomas-gournay-ii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g21-thomas-gournay-i",
+        "type": "ancestor",
+        "gen": "G21",
+        "name": "Thomas Gournay I",
+        "dates": "fl. c. 1408 — d. before 1444",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g21-thomas-gournay-i-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g21-thomas-gournay-i",
+        "type": "ancestor",
+        "gen": "G21",
+        "name": "Thomas Gournay I",
+        "dates": "fl. c. 1408 — d. before 1444",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g21-thomas-gournay-i-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g23-edmund-gurney",
+        "type": "ancestor",
+        "gen": "G23",
+        "name": "Edmund Gurney",
+        "dates": "d. 1387",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "type": "related",
+        "gen": "G23",
+        "name": "Sir John Gurney, Knt. (d.1408) — Related",
+        "dates": "d. 1408",
+        "role": "landholding / property reference",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "type": "related",
+        "gen": "G23",
+        "name": "Sir John Gurney, Knt. (d.1408) — Related",
+        "dates": "d. 1408",
+        "role": "individual geography",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g18-william-gurney-v",
+        "type": "ancestor",
+        "gen": "G18",
+        "name": "William Gurney V",
+        "dates": "c. 1465 – before 18 Jan. 1507/8 (vita patris)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g18-william-gurney-v-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g18-william-gurney-v",
+        "type": "ancestor",
+        "gen": "G18",
+        "name": "William Gurney V",
+        "dates": "c. 1465 – before 18 Jan. 1507/8 (vita patris)",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g18-william-gurney-v-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 18
+  },
+  {
+    "placeId": "place-hardingham-norfolk-england",
+    "name": "Hardingham, Norfolk, England",
+    "title": "Hardingham, Norfolk, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Hardingham, Norfolk"
+    ],
+    "shortDescription": "Junior-branch core manor",
+    "longDescription": "Swathings in Hardingham, a long-running junior-line holding documented from the Henry II period onward.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 52.5708,
+      "lng": 0.8508
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "village centroid",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/hardingham.html",
+    "researchSlug": "hardingham",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g18-william-gurney-v",
+        "type": "ancestor",
+        "gen": "G18",
+        "name": "William Gurney V",
+        "dates": "c. 1465 – before 18 Jan. 1507/8 (vita patris)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g18-william-gurney-v-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g23-edmund-gurney",
+        "type": "ancestor",
+        "gen": "G23",
+        "name": "Edmund Gurney",
+        "dates": "d. 1387",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g23-edmund-gurney",
+        "type": "ancestor",
+        "gen": "G23",
+        "name": "Edmund Gurney",
+        "dates": "d. 1387",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g24-john-de-gournay-iv",
+        "type": "ancestor",
+        "gen": "G24",
+        "name": "John de Gournay IV",
+        "dates": "fl. c. 1330–1370",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g24-john-de-gournay-iv-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g25-john-de-gournay-iii",
+        "type": "ancestor",
+        "gen": "G25",
+        "name": "John de Gournay III",
+        "dates": "fl. c. 1300–1353",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g25-john-de-gournay-iii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g26-sir-william-de-gournay-iii-knt",
+        "type": "ancestor",
+        "gen": "G26",
+        "name": "Sir William de Gournay III, Knt.",
+        "dates": "fl. c. 1260–1300",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g26-sir-william-de-gournay-iii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g27-sir-john-de-gournay-i-knt",
+        "type": "ancestor",
+        "gen": "G27",
+        "name": "Sir John de Gournay I, Knt.",
+        "dates": "fl. c. 1240–1280",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g27-sir-john-de-gournay-i-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g28-william-de-gournay-ii",
+        "type": "ancestor",
+        "gen": "G28",
+        "name": "William de Gournay II",
+        "dates": "fl. c. 1210–1250",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g28-william-de-gournay-ii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g29-matthew-de-gournay",
+        "type": "ancestor",
+        "gen": "G29",
+        "name": "Matthew de Gournay",
+        "dates": "fl. c. 1180 — living 1217",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g29-matthew-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g29-matthew-de-gournay",
+        "type": "ancestor",
+        "gen": "G29",
+        "name": "Matthew de Gournay",
+        "dates": "fl. c. 1180 — living 1217",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g29-matthew-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g30-william-de-gournay-i",
+        "type": "ancestor",
+        "gen": "G30",
+        "name": "William de Gournay I",
+        "dates": "fl. c. 1150–1180",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g30-william-de-gournay-i-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g30-william-de-gournay-i",
+        "type": "ancestor",
+        "gen": "G30",
+        "name": "William de Gournay I",
+        "dates": "fl. c. 1150–1180",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g30-william-de-gournay-i-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g31-walter-de-gournay",
+        "type": "ancestor",
+        "gen": "G31",
+        "name": "Walter de Gournay",
+        "dates": "fl. c. 1108–1154",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g31-walter-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "type": "related",
+        "gen": "G23",
+        "name": "Sir John Gurney, Knt. (d.1408) — Related",
+        "dates": "d. 1408",
+        "role": "landholding / property reference",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "type": "related",
+        "gen": "G23",
+        "name": "Sir John Gurney, Knt. (d.1408) — Related",
+        "dates": "d. 1408",
+        "role": "individual geography",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 15
+  },
+  {
+    "placeId": "place-gournay-en-bray-normandy-france",
+    "name": "Gournay-en-Bray, Normandy, France",
+    "title": "Collégiale Saint-Hildevert",
+    "siteName": "Collégiale Saint-Hildevert",
+    "streetAddress": "",
+    "region": "Normandy, France",
+    "regionGroup": "europe",
+    "aliases": [
+      "Gournay",
+      "Gournay-en-Bray, Normandy"
+    ],
+    "shortDescription": "Ancestral fortress town",
+    "longDescription": "Ancestral fortress town and frontier seigneury of the Gournay family in the Pays de Bray.",
+    "placeType": "locality",
+    "extantStatus": "extant",
+    "extantStatusDescription": "Modern town survives; the church site is used as the best historic anchor for the lost fortress town.",
+    "coordinate": {
+      "lat": 49.483148,
+      "lng": 1.727303
+    },
+    "coordinatePrecision": "exact",
+    "coordinateBasis": "exact church site used as historic town anchor",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg",
+    "imageTitle": "Collégiale Saint-Hildevert, Gournay-en-Bray",
+    "siteUrl": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/",
+    "siteLabel": "Heritage page",
+    "researchUrl": "/research/places/gournay-en-bray.html",
+    "researchSlug": "gournay-en-bray",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g-37-eudes-odon-de-gournay",
+        "type": "ancestor",
+        "gen": "G~37",
+        "name": "Eudes (Odon) de Gournay",
+        "dates": "c. 860 — d. after 911",
+        "role": "landholding / property reference",
+        "lineageStatus": "Minimal historical record",
+        "displayLineageStatus": "Minimal historical record",
+        "url": "/fact-sheets/g37-eudes-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g-37-eudes-odon-de-gournay",
+        "type": "ancestor",
+        "gen": "G~37",
+        "name": "Eudes (Odon) de Gournay",
+        "dates": "c. 860 — d. after 911",
+        "role": "individual geography",
+        "lineageStatus": "Minimal historical record",
+        "displayLineageStatus": "Minimal historical record",
+        "url": "/fact-sheets/g37-eudes-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "type": "ancestor",
+        "gen": "G32",
+        "name": "Gerard de Gournay",
+        "dates": "c. 1040 — d. before 1104, Palestine",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "type": "ancestor",
+        "gen": "G32",
+        "name": "Gerard de Gournay",
+        "dates": "c. 1040 — d. before 1104, Palestine",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "type": "ancestor",
+        "gen": "G33",
+        "name": "Hugh de Gournay III",
+        "dates": "c. 1020 — d. c. 1093",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "type": "ancestor",
+        "gen": "G33",
+        "name": "Hugh de Gournay III",
+        "dates": "c. 1020 — d. c. 1093",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "type": "ancestor",
+        "gen": "G34",
+        "name": "Hugh de Gournay II",
+        "dates": "c. 985 — d. c. 1074",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g34-hugh-de-gournay-ii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "type": "ancestor",
+        "gen": "G34",
+        "name": "Hugh de Gournay II",
+        "dates": "c. 985 — d. c. 1074",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g34-hugh-de-gournay-ii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "type": "ancestor",
+        "gen": "G35",
+        "name": "Renaud de Gournay",
+        "dates": "c. 970 — dates uncertain",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g35-renaud-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "type": "ancestor",
+        "gen": "G35",
+        "name": "Renaud de Gournay",
+        "dates": "c. 970 — dates uncertain",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g35-renaud-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g36-hugh-de-gournay-i",
+        "type": "ancestor",
+        "gen": "G36",
+        "name": "Hugh de Gournay I",
+        "dates": "c. 945–950 — dates uncertain",
+        "role": "landholding / property reference",
+        "lineageStatus": "Limited Historical Record",
+        "displayLineageStatus": "Limited Historical Record",
+        "url": "/fact-sheets/g36-hugh-de-gournay-i-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g36-hugh-de-gournay-i",
+        "type": "ancestor",
+        "gen": "G36",
+        "name": "Hugh de Gournay I",
+        "dates": "c. 945–950 — dates uncertain",
+        "role": "individual geography",
+        "lineageStatus": "Limited Historical Record",
+        "displayLineageStatus": "Limited Historical Record",
+        "url": "/fact-sheets/g36-hugh-de-gournay-i-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay IV (Senior Baron Line)",
+        "dates": "c. 1098 — d. 1180",
+        "role": "landholding / property reference",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay V (Senior Baron Line)",
+        "dates": "c. 1148 — d. 25 Oct. 1214, Rouen",
+        "role": "landholding / property reference",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 14
+  },
+  {
+    "placeId": "place-norfolk-england",
+    "name": "Norfolk, England",
+    "title": "Norfolk, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "England",
+    "regionGroup": "england",
+    "aliases": [
+      "Norfolk"
+    ],
+    "shortDescription": "Regional holdings context",
+    "longDescription": "County-level umbrella record for dispersed Norfolk holdings; use individual manor and village files for site-specific work.",
+    "placeType": "region",
+    "extantStatus": "",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 52.675,
+      "lng": 1.289
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "county centroid",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/norfolk.html",
+    "researchSlug": "norfolk",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g22-robert-gournay",
+        "type": "ancestor",
+        "gen": "G22",
+        "name": "Robert Gournay",
+        "dates": "fl. c. 1370–1420",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g22-robert-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g22-robert-gournay",
+        "type": "ancestor",
+        "gen": "G22",
+        "name": "Robert Gournay",
+        "dates": "fl. c. 1370–1420",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g22-robert-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g31-walter-de-gournay",
+        "type": "ancestor",
+        "gen": "G31",
+        "name": "Walter de Gournay",
+        "dates": "fl. c. 1108–1154",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g31-walter-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "type": "ancestor",
+        "gen": "G32",
+        "name": "Gerard de Gournay",
+        "dates": "c. 1040 — d. before 1104, Palestine",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "type": "ancestor",
+        "gen": "G33",
+        "name": "Hugh de Gournay III",
+        "dates": "c. 1020 — d. c. 1093",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "type": "ancestor",
+        "gen": "G33",
+        "name": "Hugh de Gournay III",
+        "dates": "c. 1020 — d. c. 1093",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "type": "related",
+        "gen": "G23",
+        "name": "Sir John Gurney, Knt. (d.1408) — Related",
+        "dates": "d. 1408",
+        "role": "landholding / property reference",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "type": "related",
+        "gen": "G23",
+        "name": "Sir John Gurney, Knt. (d.1408) — Related",
+        "dates": "d. 1408",
+        "role": "individual geography",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay IV (Senior Baron Line)",
+        "dates": "c. 1098 — d. 1180",
+        "role": "landholding / property reference",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay IV (Senior Baron Line)",
+        "dates": "c. 1098 — d. 1180",
+        "role": "individual geography",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 10
+  },
+  {
+    "placeId": "place-cummington-massachusetts-usa",
+    "name": "Cummington, Massachusetts, USA",
+    "title": "Dawes Cemetery",
+    "siteName": "Dawes Cemetery",
+    "streetAddress": "",
+    "region": "Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Cummington, MA"
+    ],
+    "shortDescription": "Ancestral landholding",
+    "longDescription": "Cummington farm holdings associated with the Benjamin/Amos Gurney family after their move from Abington.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 42.45599577393482,
+      "lng": -72.90392454621967
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/cummington-ma.html",
+    "researchSlug": "cummington-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G10",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1704 — before 1772",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G10",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1704 — before 1772",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G11",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1676 — d. 1738/9",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G11",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1676 — d. 1738/9",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g7-willis-gurney",
+        "type": "ancestor",
+        "gen": "G7",
+        "name": "Willis Gurney",
+        "dates": "c. 1796–98 — before 1870",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g8-amos-gurney",
+        "type": "ancestor",
+        "gen": "G8",
+        "name": "Amos Gurney",
+        "dates": "1770 — before 1850",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g8-amos-gurney",
+        "type": "ancestor",
+        "gen": "G8",
+        "name": "Amos Gurney",
+        "dates": "1770 — before 1850",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G9",
+        "name": "Benjamin Gurney",
+        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G9",
+        "name": "Benjamin Gurney",
+        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      }
+    ],
+    "ancestorCount": 9
+  },
+  {
+    "placeId": "place-weymouth-massachusetts-usa",
+    "name": "Weymouth, Massachusetts, USA",
+    "title": "Great Pond",
+    "siteName": "Great Pond",
+    "streetAddress": "",
+    "region": "Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Weymouth, MA"
+    ],
+    "shortDescription": "Ancestral landholding",
+    "longDescription": "Early Massachusetts grants in Weymouth included the East Field, Mill Field, and land near Great Pond.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 42.22156410161514,
+      "lng": -70.94370054095724
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/weymouth-ma.html",
+    "researchSlug": "weymouth-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G10",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1704 — before 1772",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G11",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1676 — d. 1738/9",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g12-richard-gurney",
+        "type": "ancestor",
+        "gen": "G12",
+        "name": "Richard Gurney",
+        "dates": "c. 1630 England — d. Oct. 1691",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g12-richard-gurney",
+        "type": "ancestor",
+        "gen": "G12",
+        "name": "Richard Gurney",
+        "dates": "c. 1630 England — d. Oct. 1691",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "type": "ancestor",
+        "gen": "G13",
+        "name": "John Gurney",
+        "dates": "c. 1609-12 England — d. 1662/3",
+        "role": "landholding / property reference",
+        "lineageStatus": "Probable",
+        "displayLineageStatus": "Probable",
+        "url": "/key-research/john-gurney-case-file.html"
+      },
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "type": "ancestor",
+        "gen": "G13",
+        "name": "John Gurney",
+        "dates": "c. 1609-12 England — d. 1662/3",
+        "role": "individual geography",
+        "lineageStatus": "Probable",
+        "displayLineageStatus": "Probable",
+        "url": "/key-research/john-gurney-case-file.html"
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G9",
+        "name": "Benjamin Gurney",
+        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      }
+    ],
+    "ancestorCount": 7
+  },
+  {
+    "placeId": "place-middleborough-massachusetts-usa",
+    "name": "Middleborough, Massachusetts, USA",
+    "title": "Middleborough, Massachusetts, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Middleborough, MA",
+      "Middleboro, MA"
+    ],
+    "shortDescription": "Ancestral landholding",
+    "longDescription": "Middleborough land purchases and later sales associated with the Benjamin Gurney family in the 1730s and 1740s.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 41.8934,
+      "lng": -70.91657353836172
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/middleborough-ma.html",
+    "researchSlug": "middleborough-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G10",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1704 — before 1772",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G10",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1704 — before 1772",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G11",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1676 — d. 1738/9",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G11",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1676 — d. 1738/9",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G9",
+        "name": "Benjamin Gurney",
+        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G9",
+        "name": "Benjamin Gurney",
+        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      }
+    ],
+    "ancestorCount": 6
+  },
+  {
+    "placeId": "place-rochester-massachusetts-usa",
+    "name": "Rochester, Massachusetts, USA",
+    "title": "Rochester, Massachusetts, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Rochester, MA"
+    ],
+    "shortDescription": "Ancestral landholding",
+    "longDescription": "Homestead farm, Rochester, MA — sons Lemuel, Benjamin & Levi divided it 1 Jan. 1800 (Plym. Co. land deed 95:139, GS film 559,140).",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 41.7412,
+      "lng": -70.8128
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/rochester-ma.html",
+    "researchSlug": "rochester-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G10",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1704 — before 1772",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G10",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1704 — before 1772",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G11",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1676 — d. 1738/9",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G11",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1676 — d. 1738/9",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G9",
+        "name": "Benjamin Gurney",
+        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G9",
+        "name": "Benjamin Gurney",
+        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      }
+    ],
+    "ancestorCount": 6
+  },
+  {
+    "placeId": "place-bridgewater-massachusetts-usa",
+    "name": "Bridgewater, Massachusetts, USA",
+    "title": "Bridgewater, Massachusetts, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Bridgewater, MA"
+    ],
+    "shortDescription": "Ancestral landholding",
+    "longDescription": "Bridgewater-area holdings tied to the Benjamin/Richard Gurney line, including the Richard Williams farm and other town-level parcel references.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 41.9904,
+      "lng": -70.9759
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/bridgewater-ma.html",
+    "researchSlug": "bridgewater-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G10",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1704 — before 1772",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G11",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1676 — d. 1738/9",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g12-richard-gurney",
+        "type": "ancestor",
+        "gen": "G12",
+        "name": "Richard Gurney",
+        "dates": "c. 1630 England — d. Oct. 1691",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g8-amos-gurney",
+        "type": "ancestor",
+        "gen": "G8",
+        "name": "Amos Gurney",
+        "dates": "1770 — before 1850",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G9",
+        "name": "Benjamin Gurney",
+        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      }
+    ],
+    "ancestorCount": 5
+  },
+  {
+    "placeId": "place-great-ellingham-norfolk-england",
+    "name": "Great Ellingham, Norfolk, England",
+    "title": "Great Ellingham, Norfolk, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Great Ellingham, Norfolk"
+    ],
+    "shortDescription": "Lovell inheritance manor",
+    "longDescription": "Great Ellingham manor, later associated with the Lovell inheritance through Margaret Lovell.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 52.5453,
+      "lng": 1.0091774978679044
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "village centroid",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/great-ellingham.html",
+    "researchSlug": "great-ellingham",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "type": "ancestor",
+        "gen": "G15",
+        "name": "Henry Gurney",
+        "dates": "21 Jan. 1548/9 (OS) — d. 1615/16 (will proved 1623)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g15-henry-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "type": "ancestor",
+        "gen": "G15",
+        "name": "Henry Gurney",
+        "dates": "21 Jan. 1548/9 (OS) — d. 1615/16 (will proved 1623)",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g15-henry-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g16-francis-gurney",
+        "type": "ancestor",
+        "gen": "G16",
+        "name": "Francis Gurney",
+        "dates": "20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g16-francis-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g17-anthony-gurney",
+        "type": "ancestor",
+        "gen": "G17",
+        "name": "Anthony Gurney",
+        "dates": "b. c. 1499 — d. 4 Jan. 1555/6 (per Blomefield, vol. vii)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g17-anthony-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g17-anthony-gurney",
+        "type": "ancestor",
+        "gen": "G17",
+        "name": "Anthony Gurney",
+        "dates": "b. c. 1499 — d. 4 Jan. 1555/6 (per Blomefield, vol. vii)",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g17-anthony-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 5
+  },
+  {
+    "placeId": "place-irstead-norfolk-england",
+    "name": "Irstead, Norfolk, England",
+    "title": "Irstead, Norfolk, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Irstead, Norfolk"
+    ],
+    "shortDescription": "Later junior-line manor",
+    "longDescription": "Irstead manor, a primary documented later junior-line holding in Norfolk.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 52.707,
+      "lng": 1.471
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "village centroid",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/irstead.html",
+    "researchSlug": "irstead",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "type": "ancestor",
+        "gen": "G15",
+        "name": "Henry Gurney",
+        "dates": "21 Jan. 1548/9 (OS) — d. 1615/16 (will proved 1623)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g15-henry-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g16-francis-gurney",
+        "type": "ancestor",
+        "gen": "G16",
+        "name": "Francis Gurney",
+        "dates": "20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g16-francis-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g17-anthony-gurney",
+        "type": "ancestor",
+        "gen": "G17",
+        "name": "Anthony Gurney",
+        "dates": "b. c. 1499 — d. 4 Jan. 1555/6 (per Blomefield, vol. vii)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g17-anthony-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g18-william-gurney-v",
+        "type": "ancestor",
+        "gen": "G18",
+        "name": "William Gurney V",
+        "dates": "c. 1465 – before 18 Jan. 1507/8 (vita patris)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g18-william-gurney-v-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g18-william-gurney-v",
+        "type": "ancestor",
+        "gen": "G18",
+        "name": "William Gurney V",
+        "dates": "c. 1465 – before 18 Jan. 1507/8 (vita patris)",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g18-william-gurney-v-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 5
+  },
+  {
+    "placeId": "place-flushing-queens-new-york-usa",
+    "name": "Flushing, Queens, New York, USA",
+    "title": "Flushing, Queens, New York, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Queens, New York, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Flushing, NY",
+      "Flushing, Queens, NY",
+      "Flushing, Queens"
+    ],
+    "shortDescription": "Ancestral landholding",
+    "longDescription": "Probable residential base of the Willis/William Gurney family before later Manhattan addresses; ownership versus rental remains unresolved.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 40.7675,
+      "lng": -73.8278185347045
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/flushing-ny.html",
+    "researchSlug": "flushing-ny",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g6-brigadier-general-william-gurney",
+        "type": "ancestor",
+        "gen": "G6",
+        "name": "Brigadier General William Gurney",
+        "dates": "1821–1879",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/key-research/brigadier-general-william-gurney.html"
+      },
+      {
+        "recordId": "ancestor-g6-brigadier-general-william-gurney",
+        "type": "ancestor",
+        "gen": "G6",
+        "name": "Brigadier General William Gurney",
+        "dates": "1821–1879",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/key-research/brigadier-general-william-gurney.html"
+      },
+      {
+        "recordId": "ancestor-g7-willis-gurney",
+        "type": "ancestor",
+        "gen": "G7",
+        "name": "Willis Gurney",
+        "dates": "c. 1796–98 — before 1870",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g7-willis-gurney",
+        "type": "ancestor",
+        "gen": "G7",
+        "name": "Willis Gurney",
+        "dates": "c. 1796–98 — before 1870",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      }
+    ],
+    "ancestorCount": 4
+  },
+  {
+    "placeId": "place-normandy-france",
+    "name": "Normandy, France",
+    "title": "Normandy, France",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "France",
+    "regionGroup": "europe",
+    "aliases": [
+      "Normandy"
+    ],
+    "shortDescription": "Regional holdings context",
+    "longDescription": "Regional umbrella record for Norman holdings and priory contexts not yet assigned to a tighter single locality.",
+    "placeType": "region",
+    "extantStatus": "",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 49.654653,
+      "lng": 1.611621
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "regional centroid",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/normandy.html",
+    "researchSlug": "normandy",
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay IV (Senior Baron Line)",
+        "dates": "c. 1098 — d. 1180",
+        "role": "landholding / property reference",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay IV (Senior Baron Line)",
+        "dates": "c. 1098 — d. 1180",
+        "role": "individual geography",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay V (Senior Baron Line)",
+        "dates": "c. 1148 — d. 25 Oct. 1214, Rouen",
+        "role": "landholding / property reference",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay V (Senior Baron Line)",
+        "dates": "c. 1148 — d. 25 Oct. 1214, Rouen",
+        "role": "individual geography",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 4
+  },
+  {
+    "placeId": "place-city-of-london-england",
+    "name": "City of London, England",
+    "title": "St Benet Fink",
+    "siteName": "St Benet Fink",
+    "streetAddress": "",
+    "region": "England",
+    "regionGroup": "england",
+    "aliases": [
+      "City of London"
+    ],
+    "shortDescription": "Historic commercial site",
+    "longDescription": "City of London commercial context linked to St Benet Fink parish and the La Selde Coronata warehouse tradition.",
+    "placeType": "locality",
+    "extantStatus": "site only",
+    "extantStatusDescription": "St Benet Fink church is lost; the historic site lies within the modern Bank of England east-wing area.",
+    "coordinate": {
+      "lat": 51.51389,
+      "lng": -0.08611
+    },
+    "coordinatePrecision": "exact",
+    "coordinateBasis": "exact historical church site",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Benet_fink_godwin.jpg/250px-Benet_fink_godwin.jpg",
+    "imageTitle": "St Benet Fink (historic image)",
+    "siteUrl": "https://en.wikipedia.org/wiki/St_Benet_Fink",
+    "siteLabel": "Reference page",
+    "researchUrl": "/research/places/city-of-london.html",
+    "researchSlug": "city-of-london",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g14-francis-gurney",
+        "type": "ancestor",
+        "gen": "G14",
+        "name": "Francis Gurney",
+        "dates": "13 Sept. 1581 — d. 9 Jan. 1646/7",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/key-research/john-gurney-case-file.html"
+      },
+      {
+        "recordId": "ancestor-g14-francis-gurney",
+        "type": "ancestor",
+        "gen": "G14",
+        "name": "Francis Gurney",
+        "dates": "13 Sept. 1581 — d. 9 Jan. 1646/7",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/key-research/john-gurney-case-file.html"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "type": "related",
+        "gen": "G23",
+        "name": "Sir John Gurney, Knt. (d.1408) — Related",
+        "dates": "d. 1408",
+        "role": "landholding / property reference",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "type": "related",
+        "gen": "G23",
+        "name": "Sir John Gurney, Knt. (d.1408) — Related",
+        "dates": "d. 1408",
+        "role": "individual geography",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 4
+  },
+  {
+    "placeId": "place-abington-whitman-line-massachusetts-usa",
+    "name": "Abington–Whitman line, Massachusetts, USA",
+    "title": "Abington–Whitman line, Massachusetts, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Abington/Whitman line, Massachusetts, USA",
+      "Abington–Whitman line, MA"
+    ],
+    "shortDescription": "Associated ancestral place",
+    "longDescription": "Abington/Whitman, MA",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 42.0925,
+      "lng": -70.9413
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "inferred locality centroid",
+    "roles": [
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/abington-whitman-line-ma.html",
+    "researchSlug": "abington-whitman-line-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G10",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1704 — before 1772",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G11",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1676 — d. 1738/9",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G9",
+        "name": "Benjamin Gurney",
+        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      }
+    ],
+    "ancestorCount": 3
+  },
+  {
+    "placeId": "place-abington-massachusetts-usa",
+    "name": "Abington, Massachusetts, USA",
+    "title": "Abington, Massachusetts, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Abington, MA"
+    ],
+    "shortDescription": "Associated ancestral place",
+    "longDescription": "Abington, MA",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 42.1043,
+      "lng": -70.94130862327691
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/abington-ma.html",
+    "researchSlug": "abington-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G10",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1704 — before 1772",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G11",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1676 — d. 1738/9",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G9",
+        "name": "Benjamin Gurney",
+        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      }
+    ],
+    "ancestorCount": 3
+  },
+  {
+    "placeId": "place-hingham-norfolk-england",
+    "name": "Hingham, Norfolk, England",
+    "title": "Hingham, Norfolk, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Hingham, Norfolk"
+    ],
+    "shortDescription": "Ancient junior-line manor",
+    "longDescription": "Manor of Hingham-Gurneys, an ancient junior-line holding later held of the Bardolf and Morley interests.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 52.5764,
+      "lng": 0.9656821626060168
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/hingham-norfolk.html",
+    "researchSlug": "hingham-norfolk",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "type": "ancestor",
+        "gen": "G15",
+        "name": "Henry Gurney",
+        "dates": "21 Jan. 1548/9 (OS) — d. 1615/16 (will proved 1623)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g15-henry-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g17-anthony-gurney",
+        "type": "ancestor",
+        "gen": "G17",
+        "name": "Anthony Gurney",
+        "dates": "b. c. 1499 — d. 4 Jan. 1555/6 (per Blomefield, vol. vii)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g17-anthony-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g18-william-gurney-v",
+        "type": "ancestor",
+        "gen": "G18",
+        "name": "William Gurney V",
+        "dates": "c. 1465 – before 18 Jan. 1507/8 (vita patris)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g18-william-gurney-v-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 3
+  },
+  {
+    "placeId": "place-marion-indiana-usa",
+    "name": "Marion, Indiana, USA",
+    "title": "Marion, Indiana, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Indiana, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Marion, IN"
+    ],
+    "shortDescription": "Family residence site",
+    "longDescription": "From 1970 to 2020 Marion, IN",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 40.5584,
+      "lng": -85.6591
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "residence"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/marion-in.html",
+    "researchSlug": "marion-in",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g1-allen-lawrence-gurney",
+        "type": "ancestor",
+        "gen": "G1",
+        "name": "Allen Lawrence Gurney",
+        "dates": "Living",
+        "role": "residence",
+        "lineageStatus": "This Genealogist",
+        "displayLineageStatus": "This Genealogist",
+        "url": ""
+      },
+      {
+        "recordId": "collateral-g1-ken-gurney-allens-brother",
+        "type": "related",
+        "gen": "G1",
+        "name": "Ken Gurney (Allen's Brother)",
+        "dates": "1974-2013",
+        "role": "residence",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g2-lester-hayes-gurney",
+        "type": "ancestor",
+        "gen": "G2",
+        "name": "Lester Hayes Gurney",
+        "dates": "1945–2025",
+        "role": "residence",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      }
+    ],
+    "ancestorCount": 3
+  },
+  {
+    "placeId": "place-new-york-metropolitan-area-usa",
+    "name": "New York metropolitan area, USA",
+    "title": "New York metropolitan area, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "USA",
+    "regionGroup": "north-america",
+    "aliases": [],
+    "shortDescription": "Regional family geography",
+    "longDescription": "Regional umbrella record for the family's broader New York-area geography before and beyond specific city addresses.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 40.783,
+      "lng": -73.96571730235286
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "regional centroid",
+    "roles": [
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/new-york-metropolitan-area-ny.html",
+    "researchSlug": "new-york-metropolitan-area-ny",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g3-lester-sawyer-gurney-iii",
+        "type": "ancestor",
+        "gen": "G3",
+        "name": "Lester Sawyer Gurney III",
+        "dates": "1923–19 December 2011",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      },
+      {
+        "recordId": "ancestor-g4-lester-sawyer-gurney-jr",
+        "type": "ancestor",
+        "gen": "G4",
+        "name": "Lester Sawyer Gurney Jr.",
+        "dates": "1888–1958",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g04-lester-sawyer-gurney-jr-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g5-lester-sawyer-gurney",
+        "type": "ancestor",
+        "gen": "G5",
+        "name": "Lester Sawyer Gurney",
+        "dates": "1856–1899",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g05-lester-sawyer-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 3
+  },
+  {
+    "placeId": "place-oxfordshire-england",
+    "name": "Oxfordshire, England",
+    "title": "Oxfordshire, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "England",
+    "regionGroup": "england",
+    "aliases": [
+      "Oxfordshire"
+    ],
+    "shortDescription": "Regional holdings context",
+    "longDescription": "County-level umbrella record for scattered Oxfordshire holdings documented in exchequer and royal records.",
+    "placeType": "region",
+    "extantStatus": "",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 51.7612,
+      "lng": -1.2465
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "county centroid",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/oxfordshire.html",
+    "researchSlug": "oxfordshire",
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay IV (Senior Baron Line)",
+        "dates": "c. 1098 — d. 1180",
+        "role": "landholding / property reference",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay IV (Senior Baron Line)",
+        "dates": "c. 1098 — d. 1180",
+        "role": "individual geography",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay V (Senior Baron Line)",
+        "dates": "c. 1148 — d. 25 Oct. 1214, Rouen",
+        "role": "landholding / property reference",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 3
+  },
+  {
+    "placeId": "place-kings-lynn-norfolk-england",
+    "name": "King's Lynn, Norfolk, England",
+    "title": "St James's Chapel ruins",
+    "siteName": "St James's Chapel ruins",
+    "streetAddress": "",
+    "region": "Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Bishop's Lynn",
+      "Lynn",
+      "King's Lynn, Norfolk"
+    ],
+    "shortDescription": "Historic commercial site",
+    "longDescription": "St James's Chapel site in King's Lynn, leased for a failed textile-manufacture venture in the early seventeenth century.",
+    "placeType": "locality",
+    "extantStatus": "ruins",
+    "extantStatusDescription": "Ruins of St James's Chapel survive and provide the historic site anchor.",
+    "coordinate": {
+      "lat": 52.7515,
+      "lng": 0.401
+    },
+    "coordinatePrecision": "exact",
+    "coordinateBasis": "exact historical chapel ruins",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1298188",
+    "siteLabel": "Historic England",
+    "researchUrl": "/research/places/kings-lynn.html",
+    "researchSlug": "kings-lynn",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g14-francis-gurney",
+        "type": "ancestor",
+        "gen": "G14",
+        "name": "Francis Gurney",
+        "dates": "13 Sept. 1581 — d. 9 Jan. 1646/7",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/key-research/john-gurney-case-file.html"
+      },
+      {
+        "recordId": "ancestor-g23-edmund-gurney",
+        "type": "ancestor",
+        "gen": "G23",
+        "name": "Edmund Gurney",
+        "dates": "d. 1387",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g23-edmund-gurney",
+        "type": "ancestor",
+        "gen": "G23",
+        "name": "Edmund Gurney",
+        "dates": "d. 1387",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 3
+  },
+  {
+    "placeId": "place-54-hudson-street-manhattan-new-york-usa",
+    "name": "54 Hudson Street, Manhattan, New York, USA",
+    "title": "54 Hudson Street",
+    "siteName": "54 Hudson Street",
+    "streetAddress": "54 Hudson Street",
+    "region": "Manhattan, New York, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "54 Hudson Street"
+    ],
+    "shortDescription": "Historic street address",
+    "longDescription": "Commercial premises, Manhattan (Gurney & Underhill wholesale firm) — 54 Hudson Street, Manhattan, NY",
+    "placeType": "address",
+    "extantStatus": "site only",
+    "extantStatusDescription": "Commercial premises, Manhattan (Gurney & Underhill wholesale firm) — 54 Hudson Street, Manhattan, NY",
+    "coordinate": {
+      "lat": 40.7179,
+      "lng": -74.0086
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "modern street address (approximate building footprint)",
+    "roles": [
+      "landholding / property reference",
+      "address reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/54-hudson-street-ny.html",
+    "researchSlug": "54-hudson-street-ny",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g6-brigadier-general-william-gurney",
+        "type": "ancestor",
+        "gen": "G6",
+        "name": "Brigadier General William Gurney",
+        "dates": "1821–1879",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/key-research/brigadier-general-william-gurney.html"
+      },
+      {
+        "recordId": "ancestor-g6-brigadier-general-william-gurney",
+        "type": "ancestor",
+        "gen": "G6",
+        "name": "Brigadier General William Gurney",
+        "dates": "1821–1879",
+        "role": "address reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/key-research/brigadier-general-william-gurney.html"
+      }
+    ],
+    "ancestorCount": 2
+  },
+  {
+    "placeId": "place-braintree-massachusetts-usa",
+    "name": "Braintree, Massachusetts, USA",
+    "title": "Braintree, Massachusetts, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Braintree, MA"
+    ],
+    "shortDescription": "Ancestral landholding",
+    "longDescription": "Massachusetts town where immigrant John Gurney held land, including acreage noted in his possession in 1653, and sold property in 1661.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 42.2079,
+      "lng": -71.001
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/braintree-ma.html",
+    "researchSlug": "braintree-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "type": "ancestor",
+        "gen": "G13",
+        "name": "John Gurney",
+        "dates": "c. 1609-12 England — d. 1662/3",
+        "role": "landholding / property reference",
+        "lineageStatus": "Probable",
+        "displayLineageStatus": "Probable",
+        "url": "/key-research/john-gurney-case-file.html"
+      },
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "type": "ancestor",
+        "gen": "G13",
+        "name": "John Gurney",
+        "dates": "c. 1609-12 England — d. 1662/3",
+        "role": "individual geography",
+        "lineageStatus": "Probable",
+        "displayLineageStatus": "Probable",
+        "url": "/key-research/john-gurney-case-file.html"
+      }
+    ],
+    "ancestorCount": 2
+  },
+  {
+    "placeId": "place-burnham-thorpe-norfolk-england",
+    "name": "Burnham Thorpe, Norfolk, England",
+    "title": "Burnham Thorpe, Norfolk, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Burnham Thorpe, Norfolk"
+    ],
+    "shortDescription": "Later family locality",
+    "longDescription": "Burnham Thorpe, a later Norfolk locality associated with William Gurney IV and possible land interest.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 52.9015,
+      "lng": 0.727
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "village centroid",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/burnham-thorpe.html",
+    "researchSlug": "burnham-thorpe",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g19-william-gurney-iv",
+        "type": "ancestor",
+        "gen": "G19",
+        "name": "William Gurney IV",
+        "dates": "b. c. 1440–1450 — d. 18 Jan. 1507/8",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g19-william-gurney-iv-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g19-william-gurney-iv",
+        "type": "ancestor",
+        "gen": "G19",
+        "name": "William Gurney IV",
+        "dates": "b. c. 1440–1450 — d. 18 Jan. 1507/8",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g19-william-gurney-iv-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 2
+  },
+  {
+    "placeId": "place-caister-on-sea-norfolk-england",
+    "name": "Caister-on-Sea, Norfolk, England",
+    "title": "Caister-on-Sea, Norfolk, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Caister",
+      "Caister-on-Sea, Norfolk"
+    ],
+    "shortDescription": "Gerard de Gournay holding",
+    "longDescription": "Caister-on-Sea, one of the documented Norfolk holdings associated with Gerard de Gournay's English expansion.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 52.6488,
+      "lng": 1.7281
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/caister-on-sea.html",
+    "researchSlug": "caister-on-sea",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "type": "ancestor",
+        "gen": "G32",
+        "name": "Gerard de Gournay",
+        "dates": "c. 1040 — d. before 1104, Palestine",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "type": "ancestor",
+        "gen": "G32",
+        "name": "Gerard de Gournay",
+        "dates": "c. 1040 — d. before 1104, Palestine",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 2
+  },
+  {
+    "placeId": "place-dexter-michigan-usa",
+    "name": "Dexter, Michigan, USA",
+    "title": "Dexter, Michigan, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Michigan, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Dexter, MI"
+    ],
+    "shortDescription": "Family residence site",
+    "longDescription": "From 2000-2013 Dexter, MI",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 42.3387,
+      "lng": -83.8886
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "residence"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/dexter-mi.html",
+    "researchSlug": "dexter-mi",
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g0-soren-and-ebba-gurney",
+        "type": "related",
+        "gen": "G0",
+        "name": "Soren and Ebba Gurney",
+        "dates": "",
+        "role": "residence",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": ""
+      },
+      {
+        "recordId": "collateral-g1-ken-gurney-allens-brother",
+        "type": "related",
+        "gen": "G1",
+        "name": "Ken Gurney (Allen's Brother)",
+        "dates": "1974-2013",
+        "role": "residence",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": ""
+      }
+    ],
+    "ancestorCount": 2
+  },
+  {
+    "placeId": "place-east-dereham-norfolk-england",
+    "name": "East Dereham, Norfolk, England",
+    "title": "East Dereham Parish Church",
+    "siteName": "East Dereham Parish Church",
+    "streetAddress": "",
+    "region": "Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "East Dereham",
+      "Dereham"
+    ],
+    "shortDescription": "Baptism parish for Francis Gurney's children",
+    "longDescription": "Market town in central Norfolk. Site of the East Dereham parish church (NRO PD 86/41) where Francis Gurney (G14) and Margaret Rybett's children were baptized c.1609–1618, including the probable baptism of John Gurney-1 (G13, Entry E). The Rivett/Ryvett family — Margaret's kin — had a presence nearby at Gressenhall (3 mi) and Garveston (2 mi).",
+    "placeType": "locality",
+    "extantStatus": "extant",
+    "extantStatusDescription": "St Nicholas Church, East Dereham, remains an active parish church.",
+    "coordinate": {
+      "lat": 52.6819,
+      "lng": 0.9419
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "church site",
+    "roles": [
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "",
+    "researchSlug": "",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g14-francis-gurney",
+        "type": "ancestor",
+        "gen": "G14",
+        "name": "Francis Gurney",
+        "dates": "13 Sept. 1581 — d. 9 Jan. 1646/7",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/key-research/john-gurney-case-file.html"
+      },
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "type": "ancestor",
+        "gen": "G13",
+        "name": "John Gurney",
+        "dates": "c. 1609-12 England — d. 1662/3",
+        "role": "individual geography",
+        "lineageStatus": "Probable",
+        "displayLineageStatus": "Probable",
+        "url": "/key-research/john-gurney-case-file.html"
+      }
+    ],
+    "ancestorCount": 2
+  },
+  {
+    "placeId": "place-flegg-norfolk-england",
+    "name": "Flegg, Norfolk, England",
+    "title": "Flegg, Norfolk, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Flegg, Norfolk"
+    ],
+    "shortDescription": "District-level holdings context",
+    "longDescription": "Flegg district umbrella record for dispersed Norfolk manorial interests associated with the Gournay line.",
+    "placeType": "locality",
+    "extantStatus": "",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 52.668,
+      "lng": 1.61
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "regional centroid",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/flegg.html",
+    "researchSlug": "flegg",
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay V (Senior Baron Line)",
+        "dates": "c. 1148 — d. 25 Oct. 1214, Rouen",
+        "role": "landholding / property reference",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay V (Senior Baron Line)",
+        "dates": "c. 1148 — d. 25 Oct. 1214, Rouen",
+        "role": "individual geography",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 2
+  },
+  {
+    "placeId": "place-runhall-norfolk-england",
+    "name": "Runhall, Norfolk, England",
+    "title": "Runhall, Norfolk, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Runhall, Norfolk"
+    ],
+    "shortDescription": "Junior-line manor locality",
+    "longDescription": "Runhall manor, paired with Hardingham in the junior line's Norfolk holdings.",
+    "placeType": "locality",
+    "extantStatus": "approximate area",
+    "extantStatusDescription": "Modern village location is the best surviving anchor for the historic manor.",
+    "coordinate": {
+      "lat": 52.6195,
+      "lng": 1.01
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "approximate village centroid",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/runhall.html",
+    "researchSlug": "runhall",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g29-matthew-de-gournay",
+        "type": "ancestor",
+        "gen": "G29",
+        "name": "Matthew de Gournay",
+        "dates": "fl. c. 1180 — living 1217",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g29-matthew-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g30-william-de-gournay-i",
+        "type": "ancestor",
+        "gen": "G30",
+        "name": "William de Gournay I",
+        "dates": "fl. c. 1150–1180",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g30-william-de-gournay-i-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 2
+  },
+  {
+    "placeId": "place-scandinavia",
+    "name": "Scandinavia",
+    "title": "Scandinavia",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "",
+    "regionGroup": "europe",
+    "aliases": [],
+    "shortDescription": "Traditional origin region",
+    "longDescription": "Traditional Scandinavian origin context only; no specific Denmark-or-Norway locality is established, and Rollo's ancestry should not be treated as direct Gournay ancestry.",
+    "placeType": "region",
+    "extantStatus": "",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 60.5,
+      "lng": 14.49187691182128
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "regional centroid",
+    "roles": [
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/scandinavia.html",
+    "researchSlug": "scandinavia",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g-37-eudes-odon-de-gournay",
+        "type": "ancestor",
+        "gen": "G~37",
+        "name": "Eudes (Odon) de Gournay",
+        "dates": "c. 860 — d. after 911",
+        "role": "individual geography",
+        "lineageStatus": "Minimal historical record",
+        "displayLineageStatus": "Minimal historical record",
+        "url": "/fact-sheets/g37-eudes-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g-38-unknown-scandinavian-ancestors",
+        "type": "ancestor",
+        "gen": "G~38+",
+        "name": "Unknown Scandinavian ancestors",
+        "dates": "Before c. 860",
+        "role": "individual geography",
+        "lineageStatus": "End of Record",
+        "displayLineageStatus": "End of Record",
+        "url": ""
+      }
+    ],
+    "ancestorCount": 2
+  },
+  {
+    "placeId": "place-15-avenue-c-manhattan-new-york-usa",
+    "name": "15 Avenue C, Manhattan, New York, USA",
+    "title": "15 Avenue C",
+    "siteName": "15 Avenue C",
+    "streetAddress": "15 Avenue C",
+    "region": "Manhattan, New York, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "15 Avenue C"
+    ],
+    "shortDescription": "Historic street address",
+    "longDescription": "15 Avenue C, Manhattan, NY",
+    "placeType": "address",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 40.72119,
+      "lng": -73.98119
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "modern street address",
+    "roles": [
+      "address reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/15-avenue-c-ny.html",
+    "researchSlug": "15-avenue-c-ny",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g6-brigadier-general-william-gurney",
+        "type": "ancestor",
+        "gen": "G6",
+        "name": "Brigadier General William Gurney",
+        "dates": "1821–1879",
+        "role": "address reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/key-research/brigadier-general-william-gurney.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-155-henry-street-manhattan-new-york-usa",
+    "name": "155 Henry Street, Manhattan, New York, USA",
+    "title": "155 Henry Street",
+    "siteName": "155 Henry Street",
+    "streetAddress": "155 Henry Street",
+    "region": "Manhattan, New York, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "155 Henry Street"
+    ],
+    "shortDescription": "Historic street address",
+    "longDescription": "155 Henry Street, Manhattan, NY",
+    "placeType": "address",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 40.71361,
+      "lng": -73.989555
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "modern street address",
+    "roles": [
+      "address reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/155-henry-street-ny.html",
+    "researchSlug": "155-henry-street-ny",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g6-brigadier-general-william-gurney",
+        "type": "ancestor",
+        "gen": "G6",
+        "name": "Brigadier General William Gurney",
+        "dates": "1821–1879",
+        "role": "address reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/key-research/brigadier-general-william-gurney.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-177-west-48th-street-manhattan-new-york-usa",
+    "name": "177 West 48th Street, Manhattan, New York, USA",
+    "title": "177 West 48th Street",
+    "siteName": "177 West 48th Street",
+    "streetAddress": "177 West 48th Street",
+    "region": "Manhattan, New York, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "177 West 48th Street"
+    ],
+    "shortDescription": "Historic street address",
+    "longDescription": "177 West 48th Street, Manhattan, NY",
+    "placeType": "address",
+    "extantStatus": "site only",
+    "extantStatusDescription": "177 West 48th Street, Manhattan, NY",
+    "coordinate": {
+      "lat": 40.7602,
+      "lng": -73.9856
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "modern street address (approximate building footprint)",
+    "roles": [
+      "address reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/177-west-48th-street-ny.html",
+    "researchSlug": "177-west-48th-street-ny",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g6-brigadier-general-william-gurney",
+        "type": "ancestor",
+        "gen": "G6",
+        "name": "Brigadier General William Gurney",
+        "dates": "1821–1879",
+        "role": "address reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/key-research/brigadier-general-william-gurney.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-231-fifth-avenue-manhattan-new-york-usa",
+    "name": "231 Fifth Avenue, Manhattan, New York, USA",
+    "title": "231 Fifth Avenue",
+    "siteName": "231 Fifth Avenue",
+    "streetAddress": "231 Fifth Avenue",
+    "region": "Manhattan, New York, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "231 Fifth Avenue"
+    ],
+    "shortDescription": "Historic street address",
+    "longDescription": "231 Fifth Avenue, Manhattan, NY",
+    "placeType": "address",
+    "extantStatus": "site only",
+    "extantStatusDescription": "231 Fifth Avenue, Manhattan, NY",
+    "coordinate": {
+      "lat": 40.7446,
+      "lng": -73.988
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "modern street address (approximate building footprint)",
+    "roles": [
+      "address reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/231-fifth-avenue-ny.html",
+    "researchSlug": "231-fifth-avenue-ny",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g6-brigadier-general-william-gurney",
+        "type": "ancestor",
+        "gen": "G6",
+        "name": "Brigadier General William Gurney",
+        "dates": "1821–1879",
+        "role": "address reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/key-research/brigadier-general-william-gurney.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-55-pike-street-manhattan-new-york-usa",
+    "name": "55 Pike Street, Manhattan, New York, USA",
+    "title": "55 Pike Street",
+    "siteName": "55 Pike Street",
+    "streetAddress": "55 Pike Street",
+    "region": "Manhattan, New York, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "55 Pike Street"
+    ],
+    "shortDescription": "Historic street address",
+    "longDescription": "55 Pike Street, Manhattan, NY",
+    "placeType": "address",
+    "extantStatus": "site only",
+    "extantStatusDescription": "55 Pike Street, Manhattan, NY",
+    "coordinate": {
+      "lat": 40.712,
+      "lng": -73.9903
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "modern street address (approximate building footprint)",
+    "roles": [
+      "address reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/55-pike-street-ny.html",
+    "researchSlug": "55-pike-street-ny",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g6-brigadier-general-william-gurney",
+        "type": "ancestor",
+        "gen": "G6",
+        "name": "Brigadier General William Gurney",
+        "dates": "1821–1879",
+        "role": "address reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/key-research/brigadier-general-william-gurney.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-le-bec-hellouin-normandy-france",
+    "name": "Le Bec-Hellouin, Normandy, France",
+    "title": "Abbey of Bec",
+    "siteName": "Abbey of Bec",
+    "streetAddress": "",
+    "region": "Normandy, France",
+    "regionGroup": "europe",
+    "aliases": [
+      "Le Bec-Hellouin, Normandy"
+    ],
+    "shortDescription": "Abbey burial site",
+    "longDescription": "Abbey of Bec, endowed by the Gournays and associated with Hugh III's burial.",
+    "placeType": "locality",
+    "extantStatus": "extant",
+    "extantStatusDescription": "The abbey complex still stands and anchors the historic burial and endowment site.",
+    "coordinate": {
+      "lat": 49.2288,
+      "lng": 0.722
+    },
+    "coordinatePrecision": "exact",
+    "coordinateBasis": "exact abbey site",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg/500px-Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg",
+    "imageTitle": "Bec Abbey",
+    "siteUrl": "https://abbayedubec.org/",
+    "siteLabel": "Abbey site",
+    "researchUrl": "/research/places/le-bec-hellouin.html",
+    "researchSlug": "le-bec-hellouin",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "type": "ancestor",
+        "gen": "G33",
+        "name": "Hugh de Gournay III",
+        "dates": "c. 1020 — d. c. 1093",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-ardleigh-essex-england",
+    "name": "Ardleigh, Essex, England",
+    "title": "Ardleigh, Essex, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Essex, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Ardleigh, Essex"
+    ],
+    "shortDescription": "Domesday manor locality",
+    "longDescription": "Ardleigh, one of the Essex Domesday manors associated with Hugh de Gournay III.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 51.928,
+      "lng": 0.985
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "village centroid",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/ardleigh.html",
+    "researchSlug": "ardleigh",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "type": "ancestor",
+        "gen": "G33",
+        "name": "Hugh de Gournay III",
+        "dates": "c. 1020 — d. c. 1093",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-attleborough-norfolk-england",
+    "name": "Attleborough, Norfolk, England",
+    "title": "Attleborough, Norfolk, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Attleborough, Norfolk"
+    ],
+    "shortDescription": "Advowson locality",
+    "longDescription": "Attleborough church-advowson context associated with Henry Gurney.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 52.517,
+      "lng": 1.015
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/attleborough.html",
+    "researchSlug": "attleborough",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "type": "ancestor",
+        "gen": "G15",
+        "name": "Henry Gurney",
+        "dates": "21 Jan. 1548/9 (OS) — d. 1615/16 (will proved 1623)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g15-henry-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-bedfordshire-england",
+    "name": "Bedfordshire, England",
+    "title": "Bedfordshire, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "England",
+    "regionGroup": "england",
+    "aliases": [
+      "Bedfordshire"
+    ],
+    "shortDescription": "Regional holdings context",
+    "longDescription": "County-level umbrella record for scattered Bedfordshire holdings documented in exchequer and royal records.",
+    "placeType": "region",
+    "extantStatus": "",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 52.136,
+      "lng": -0.467
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "county centroid",
+    "roles": [
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/bedfordshire.html",
+    "researchSlug": "bedfordshire",
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay IV (Senior Baron Line)",
+        "dates": "c. 1098 — d. 1180",
+        "role": "individual geography",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-buckinghamshire-england",
+    "name": "Buckinghamshire, England",
+    "title": "Buckinghamshire, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "England",
+    "regionGroup": "england",
+    "aliases": [
+      "Buckinghamshire"
+    ],
+    "shortDescription": "Regional holdings context",
+    "longDescription": "County-level umbrella record for scattered Buckinghamshire holdings documented in exchequer and royal records.",
+    "placeType": "region",
+    "extantStatus": "",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 51.81,
+      "lng": -0.8
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "county centroid",
+    "roles": [
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/buckinghamshire.html",
+    "researchSlug": "buckinghamshire",
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay IV (Senior Baron Line)",
+        "dates": "c. 1098 — d. 1180",
+        "role": "individual geography",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-cantley-norfolk-england",
+    "name": "Cantley, Norfolk, England",
+    "title": "Cantley, Norfolk, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Cantley, Norfolk"
+    ],
+    "shortDescription": "Gerard de Gournay holding",
+    "longDescription": "Cantley, one of the documented Norfolk holdings associated with Gerard de Gournay's English expansion.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 52.562,
+      "lng": 1.513
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "village centroid",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/cantley.html",
+    "researchSlug": "cantley",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "type": "ancestor",
+        "gen": "G32",
+        "name": "Gerard de Gournay",
+        "dates": "c. 1040 — d. before 1104, Palestine",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-charleston-south-carolina-usa",
+    "name": "Charleston, South Carolina, USA",
+    "title": "Charleston, South Carolina, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "South Carolina, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Charleston, SC"
+    ],
+    "shortDescription": "Associated ancestral place",
+    "longDescription": "Charleston SC",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 32.7765,
+      "lng": -79.9311
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/charleston-sc.html",
+    "researchSlug": "charleston-sc",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g6-brigadier-general-william-gurney",
+        "type": "ancestor",
+        "gen": "G6",
+        "name": "Brigadier General William Gurney",
+        "dates": "1821–1879",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/key-research/brigadier-general-william-gurney.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-la-ferte-en-bray-normandy-france",
+    "name": "La Ferté-en-Bray, Normandy, France",
+    "title": "Église Saint-Pierre-et-Saint-Paul",
+    "siteName": "Église Saint-Pierre-et-Saint-Paul",
+    "streetAddress": "",
+    "region": "Normandy, France",
+    "regionGroup": "europe",
+    "aliases": [
+      "La Ferte-en-Bray",
+      "La Ferté-en-Bray, Normandy"
+    ],
+    "shortDescription": "Priory foundation locality",
+    "longDescription": "Priory foundation site whose 989–996 charter first names Renaud de Gournay, Alberade, Hugh, and Gautier.",
+    "placeType": "locality",
+    "extantStatus": "site only",
+    "extantStatusDescription": "Former priory no longer stands; the parish church of Saint-Pierre-et-Saint-Paul occupies or adjoins the historic core.",
+    "coordinate": {
+      "lat": 49.57795,
+      "lng": 1.527104
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "historic parish church / former La Ferté-en-Bray core",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://tourismedes4rivieresenbray.com/la-ferte-saint-samson/",
+    "siteLabel": "Local history page",
+    "researchUrl": "/research/places/la-ferte-en-bray.html",
+    "researchSlug": "la-ferte-en-bray",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "type": "ancestor",
+        "gen": "G35",
+        "name": "Renaud de Gournay",
+        "dates": "c. 970 — dates uncertain",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g35-renaud-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-essex-england",
+    "name": "Essex, England",
+    "title": "Essex, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "England",
+    "regionGroup": "england",
+    "aliases": [
+      "Essex"
+    ],
+    "shortDescription": "Regional holdings context",
+    "longDescription": "County-level umbrella record for Essex holdings including the Domesday manors of Ardleigh, Fordham, and Liston.",
+    "placeType": "region",
+    "extantStatus": "",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 51.776,
+      "lng": 0.6417
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "county centroid",
+    "roles": [
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/essex.html",
+    "researchSlug": "essex",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "type": "ancestor",
+        "gen": "G33",
+        "name": "Hugh de Gournay III",
+        "dates": "c. 1020 — d. c. 1093",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-fordham-essex-england",
+    "name": "Fordham, Essex, England",
+    "title": "Fordham, Essex, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Essex, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Fordham, Essex"
+    ],
+    "shortDescription": "Domesday manor locality",
+    "longDescription": "Fordham, one of the Essex Domesday manors associated with Hugh de Gournay III.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 51.917,
+      "lng": 0.801
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "village centroid",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/fordham.html",
+    "researchSlug": "fordham",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "type": "ancestor",
+        "gen": "G33",
+        "name": "Hugh de Gournay III",
+        "dates": "c. 1020 — d. c. 1093",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-fort-wayne-indiana-usa",
+    "name": "Fort Wayne, Indiana, USA",
+    "title": "Fort Wayne, Indiana, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Indiana, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Fort Wayne, IN"
+    ],
+    "shortDescription": "Family residence site",
+    "longDescription": "From 2020 to 2025 Fort Wayne, IN",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 41.0793,
+      "lng": -85.1394
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "residence"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/fort-wayne-in.html",
+    "researchSlug": "fort-wayne-in",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g2-lester-hayes-gurney",
+        "type": "ancestor",
+        "gen": "G2",
+        "name": "Lester Hayes Gurney",
+        "dates": "1945–2025",
+        "role": "residence",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-hellesdon-norfolk-england",
+    "name": "Hellesdon, Norfolk, England",
+    "title": "Hellesdon, Norfolk, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Hellesdon, Norfolk"
+    ],
+    "shortDescription": "Heylesdon inheritance manor",
+    "longDescription": "Hellesdon / Heylesdon manor context associated with the Alice Heylesdon inheritance.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 52.659,
+      "lng": 1.246
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "village centroid",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/hellesdon.html",
+    "researchSlug": "hellesdon",
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "type": "related",
+        "gen": "G23",
+        "name": "Sir John Gurney, Knt. (d.1408) — Related",
+        "dates": "d. 1408",
+        "role": "landholding / property reference",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-indianapolis-indiana-usa",
+    "name": "Indianapolis, Indiana, USA",
+    "title": "Indianapolis, Indiana, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Indiana, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Indianapolis, IN"
+    ],
+    "shortDescription": "Family residence site",
+    "longDescription": "From 1996-c 2000 Indianapolis, IN",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 39.7684,
+      "lng": -86.1581
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "residence"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/indianapolis-in.html",
+    "researchSlug": "indianapolis-in",
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g1-ken-gurney-allens-brother",
+        "type": "related",
+        "gen": "G1",
+        "name": "Ken Gurney (Allen's Brother)",
+        "dates": "1974-2013",
+        "role": "residence",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": ""
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-lessingham-norfolk-england",
+    "name": "Lessingham, Norfolk, England",
+    "title": "Lessingham, Norfolk, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Lessingham, Norfolk"
+    ],
+    "shortDescription": "Priory foundation locality",
+    "longDescription": "Lessingham Priory foundation linked to the Abbey of Bec.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 52.795,
+      "lng": 1.575
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "village centroid",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/lessingham.html",
+    "researchSlug": "lessingham",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "type": "ancestor",
+        "gen": "G32",
+        "name": "Gerard de Gournay",
+        "dates": "c. 1040 — d. before 1104, Palestine",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-lewes-sussex-england",
+    "name": "Lewes, Sussex, England",
+    "title": "Lewes, Sussex, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Sussex, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Lewes, Sussex"
+    ],
+    "shortDescription": "Battlefield locality",
+    "longDescription": "Lewes, associated with the 1264 battle in which Sir John de Gournay I was active.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 50.873,
+      "lng": 0.0087
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://en.wikipedia.org/wiki/Battle_of_Lewes",
+    "siteLabel": "Battle of Lewes",
+    "researchUrl": "/research/places/lewes.html",
+    "researchSlug": "lewes",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g27-sir-john-de-gournay-i-knt",
+        "type": "ancestor",
+        "gen": "G27",
+        "name": "Sir John de Gournay I, Knt.",
+        "dates": "fl. c. 1240–1280",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g27-sir-john-de-gournay-i-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-liston-essex-england",
+    "name": "Liston, Essex, England",
+    "title": "Liston, Essex, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Essex, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Liston, Essex"
+    ],
+    "shortDescription": "Domesday manor locality",
+    "longDescription": "Liston, one of the Essex Domesday manors associated with Hugh de Gournay III.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 51.95,
+      "lng": 0.64
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "village centroid",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/liston.html",
+    "researchSlug": "liston",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "type": "ancestor",
+        "gen": "G33",
+        "name": "Hugh de Gournay III",
+        "dates": "c. 1020 — d. c. 1093",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-mendon-massachusetts-usa",
+    "name": "Mendon, Massachusetts, USA",
+    "title": "Mendon, Massachusetts, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Mendon, MA"
+    ],
+    "shortDescription": "Ancestral landholding",
+    "longDescription": "Grissell applied for John's Mendon lot after his death (NEHGR 22:44).",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 42.1056,
+      "lng": -71.5523
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/mendon-ma.html",
+    "researchSlug": "mendon-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "type": "ancestor",
+        "gen": "G13",
+        "name": "John Gurney",
+        "dates": "c. 1609-12 England — d. 1662/3",
+        "role": "landholding / property reference",
+        "lineageStatus": "Probable",
+        "displayLineageStatus": "Probable",
+        "url": "/key-research/john-gurney-case-file.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-montigny-sur-andelle-normandy-france",
+    "name": "Montigny-sur-Andelle, Normandy, France",
+    "title": "Montigny-sur-Andelle, Normandy, France",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Normandy, France",
+    "regionGroup": "europe",
+    "aliases": [
+      "Montigny-sur-Andelle, Normandy"
+    ],
+    "shortDescription": "Parage tenure locality",
+    "longDescription": "Montigny-sur-Andelle parage tenure, cited as proof of junior-line descent from the Barons of Gournay.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 49.327,
+      "lng": 1.352
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/montigny-sur-andelle.html",
+    "researchSlug": "montigny-sur-andelle",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g30-william-de-gournay-i",
+        "type": "ancestor",
+        "gen": "G30",
+        "name": "William de Gournay I",
+        "dates": "fl. c. 1150–1180",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g30-william-de-gournay-i-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-port-washington-new-york-usa",
+    "name": "Port Washington, New York, USA",
+    "title": "Port Washington, New York, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "New York, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Port Washington, NY"
+    ],
+    "shortDescription": "Family residence site",
+    "longDescription": "until 1970 Port Washington, NY",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 40.8257,
+      "lng": -73.6982
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "residence"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/port-washington-ny.html",
+    "researchSlug": "port-washington-ny",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g2-lester-hayes-gurney",
+        "type": "ancestor",
+        "gen": "G2",
+        "name": "Lester Hayes Gurney",
+        "dates": "1945–2025",
+        "role": "residence",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": ""
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-portland-oregon-usa",
+    "name": "Portland, Oregon, USA",
+    "title": "Portland, Oregon, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Oregon, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Portland, OR"
+    ],
+    "shortDescription": "Family residence site",
+    "longDescription": "From 2006-current Portland, OR",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 45.5152,
+      "lng": -122.6784
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "residence"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/portland-or.html",
+    "researchSlug": "portland-or",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g1-allen-lawrence-gurney",
+        "type": "ancestor",
+        "gen": "G1",
+        "name": "Allen Lawrence Gurney",
+        "dates": "Living",
+        "role": "residence",
+        "lineageStatus": "This Genealogist",
+        "displayLineageStatus": "This Genealogist",
+        "url": ""
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-saxthorpe-norfolk-england",
+    "name": "Saxthorpe, Norfolk, England",
+    "title": "Saxthorpe, Norfolk, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Saxthorpe, Norfolk"
+    ],
+    "shortDescription": "Loundhall locality",
+    "longDescription": "Saxthorpe locality associated with the holding called Loundhall.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 52.8246,
+      "lng": 1.0927
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "village centroid",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/saxthorpe.html",
+    "researchSlug": "saxthorpe",
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",
+        "type": "related",
+        "gen": "G23",
+        "name": "Sir John Gurney, Knt. (d.1408) — Related",
+        "dates": "d. 1408",
+        "role": "landholding / property reference",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-st-louis-missouri-usa",
+    "name": "St. Louis, Missouri, USA",
+    "title": "St. Louis, Missouri, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Missouri, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "St. Louis, MO"
+    ],
+    "shortDescription": "Family residence site",
+    "longDescription": "from 1995-2006 St. Louis, MO",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 38.627,
+      "lng": -90.1994
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "residence"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/st-louis-mo.html",
+    "researchSlug": "st-louis-mo",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g1-allen-lawrence-gurney",
+        "type": "ancestor",
+        "gen": "G1",
+        "name": "Allen Lawrence Gurney",
+        "dates": "Living",
+        "role": "residence",
+        "lineageStatus": "This Genealogist",
+        "displayLineageStatus": "This Genealogist",
+        "url": ""
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-suffolk-england",
+    "name": "Suffolk, England",
+    "title": "Suffolk, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "England",
+    "regionGroup": "england",
+    "aliases": [
+      "Suffolk"
+    ],
+    "shortDescription": "Regional holdings context",
+    "longDescription": "County-level record for Suffolk holdings held under Manasser de Dampmartin.",
+    "placeType": "region",
+    "extantStatus": "",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 52.188,
+      "lng": 1.005
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "county centroid",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/suffolk.html",
+    "researchSlug": "suffolk",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g31-walter-de-gournay",
+        "type": "ancestor",
+        "gen": "G31",
+        "name": "Walter de Gournay",
+        "dates": "fl. c. 1108–1154",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g31-walter-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  }
+]

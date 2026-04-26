@@ -14,29 +14,29 @@ Use this exact structure for each entry:
 
 ---
 
-- **date:** April 2026
-  **title:** Which John Gurney Immigrated to Colonial America - Detailed Case File
-  **desc:** Detailed genealogy analysis of probable John Gurney from England
+- **date:** Apr 2026
+  **title:** Case File - Which John Gurney Immigrated to Colonial America
+  **desc:** Detailed genealogy analysis of probable John Gurney from England.
   **link:** /key-research/john-gurney-case-file.html
   **link_type:** case-file
   **link_label:** John Gurney Case File
 
-- **date:** March 2026
+- **date:** Mar 2026
   **title:** Biography of Brig. General William Gurney (1821-1879)
   **desc:** Full-length biography authored by Allen Gurney.
   **link:** /key-research/brigadier-general-william-gurney.html
   **link_type:** case-file
   **link_label:** William Gurney Biography
 
-- **date:** March 2026
-  **title:** Research Library Sources - 
-  **desc:** This library is based on dozens of global sources ranging from primary records, books, and modern references.
-  **link:** /key-research/sources.html
-  **link_type:** case-file
-  **link_label:** Master List of Sources
+- **date:** Jan 2026
+  **title:** Mapping ancestor places through the new place spine
+  **desc:** Places are now treated as structured records that can support both person-centered and place-centered browsing.
+  **link:** /maps-and-lists/ancestor-map.html
+  **link_type:** map
+  **link_label:** Ancestor Map
 
-- **date:** March 2026
-  **title:** Explore Gurney properties such as Harpley and West Barsham in Norfolk, England
+- **date:** Mar 2026
+  **title:** Explore Harpley and West Barsham in Norfolk, England
   **desc:** Key land holdings of the Gurney family.
   **link:** /maps-and-lists/places.html
   **link_type:** place

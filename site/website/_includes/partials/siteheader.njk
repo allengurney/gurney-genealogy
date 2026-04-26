@@ -1,0 +1,63 @@
+<header class="site-header compact">
+  <div class="site-shell compact-header">
+    <div class="brand-inline">
+      <span class="brand-title">Gurney Genealogy Library</span>
+      <span class="brand-meta">
+        Updated {{ updated }} by
+        <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAdNpQL5UQVNMT1AzQjZQUEJQRlZJVUc0NFgzWkg1QS4u"
+           target="_blank" rel="noopener">Allen Gurney</a>
+      </span>
+    </div>
+    <nav class="topnav multi-level" aria-label="Primary">
+      {% for item in navigation.items %}
+        {% if item.visible != false %}
+          {% if item.children and item.children | length %}
+            {% set parentActive = false %}
+            {% for child in item.children %}
+              {% if page.url == child.url %}{% set parentActive = true %}{% endif %}
+            {% endfor %}
+            <details class="topnav-group{% if activeNav == item.key or parentActive %} is-active{% endif %}">
+              <summary>{{ item.title }}</summary>
+              <div class="topnav-menu" role="menu">
+                {% for child in item.children %}
+                  {% if child.visible != false %}
+                    <a href="{{ child.url }}" role="menuitem" {% if page.url == child.url %}class="active"{% endif %}>{{ child.title }}</a>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </details>
+          {% else %}
+            <a href="{{ item.url }}" {% if activeNav == item.key or page.url == item.url %}class="active"{% endif %}>{{ item.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </nav>
+  </div>
+</header>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const nav = document.querySelector(".topnav.multi-level");
+      if (!nav) return;
+      const groups = Array.from(nav.querySelectorAll("details.topnav-group"));
+      const closeOthers = current => {
+        groups.forEach(group => { if (group !== current) group.removeAttribute("open"); });
+      };
+      groups.forEach(group => {
+        group.dataset.topnavSingleOpen = "true";
+        group.addEventListener("toggle", function () {
+          if (group.open) closeOthers(group);
+        });
+      });
+      document.addEventListener("click", function (event) {
+        if (!nav.contains(event.target)) {
+          groups.forEach(group => group.removeAttribute("open"));
+        }
+      });
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") {
+          groups.forEach(group => group.removeAttribute("open"));
+        }
+      });
+    });
+  </script>

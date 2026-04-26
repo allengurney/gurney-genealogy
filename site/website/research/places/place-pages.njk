@@ -1,0 +1,69 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: placePages
+  size: 1
+  alias: placePage
+permalink: "/research/places/{{ placePage.slug }}.html"
+title: "{{ placePage.title }}"
+pageHeading: "{{ placePage.title }}"
+subtitle: "Place research page generated from the structured place spine and the companion place markdown."
+description: "Research page for {{ placePage.title }} in the Gurney genealogy library."
+bodyClass: explorer-page place-research-page
+activeNav: maps
+updated: 25 April 2026
+---
+
+<section class="place-research-layout">
+  <aside class="place-research-card">
+    <p class="explorer-crumbs explorer-page-title">Library / Place</p>
+    <h2>{{ placePage.title }}</h2>
+    {% if placePage.region %}<p class="place-region">{{ placePage.region }}</p>{% endif %}
+    <dl class="place-facts">
+      {% if placePage.placeType %}<dt>Type</dt><dd>{{ placePage.placeType }}</dd>{% endif %}
+      {% if placePage.streetAddress %}<dt>Address</dt><dd>{{ placePage.streetAddress }}</dd>{% endif %}
+      {% if placePage.aliases and placePage.aliases.length %}<dt>Also known as</dt><dd>{{ placePage.aliases | join(", ") }}</dd>{% endif %}
+      {% if placePage.roles and placePage.roles.length %}<dt>Roles</dt><dd>{{ placePage.roles | join(", ") }}</dd>{% endif %}
+      {% if placePage.extantStatus %}<dt>Current site</dt><dd>{{ placePage.extantStatus }}{% if placePage.extantStatusDescription %} - {{ placePage.extantStatusDescription }}{% endif %}</dd>{% endif %}
+      {% if placePage.coordinate and placePage.coordinate.lat and placePage.coordinate.lng %}<dt>Coordinate</dt><dd>{{ placePage.coordinate.lat }}, {{ placePage.coordinate.lng }}{% if placePage.coordinatePrecision %} ({{ placePage.coordinatePrecision }}){% endif %}</dd>{% endif %}
+    </dl>
+    <div class="detail-actions">
+      <a class="btn primary" href="/maps-and-lists/places.html?place={{ placePage.placeId }}">Open in Places Catalog</a>
+      {% if placePage.siteUrl %}<a class="btn" href="{{ placePage.siteUrl }}" target="_blank" rel="noopener">{{ placePage.siteLabel or "Site reference" }}</a>{% endif %}
+    </div>
+  </aside>
+
+  <article class="place-research-main">
+    {% if placePage.imageUrl %}
+      <figure class="place-image">
+        <img src="{{ placePage.imageUrl }}" alt="{{ placePage.imageTitle or placePage.title }}">
+        {% if placePage.imageTitle %}<figcaption>{{ placePage.imageTitle }}</figcaption>{% endif %}
+      </figure>
+    {% endif %}
+
+    {% if placePage.longDescription %}
+      <p class="detail-summary">{{ placePage.longDescription }}</p>
+    {% endif %}
+
+    {% if placePage.ancestorLinks and placePage.ancestorLinks.length %}
+      <section class="detail-section">
+        <h4>Linked ancestors</h4>
+        <ul class="place-ancestor-links">
+          {% for ancestor in placePage.ancestorLinks %}
+            <li>
+              {% if ancestor.url %}<a href="{{ ancestor.url }}">{{ ancestor.gen }} {{ ancestor.name }}</a>{% else %}<span>{{ ancestor.gen }} {{ ancestor.name }}</span>{% endif %}
+              {% if ancestor.displayLineageStatus %}<span class="lineage-note">{{ ancestor.displayLineageStatus }}</span>{% endif %}
+              {% if ancestor.role %}<span class="place-role">{{ ancestor.role }}</span>{% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+
+    {% if placePage.researchMarkdown %}
+      <section class="detail-section markdown-place-research">
+        {{ placePage.researchMarkdown | markdown | safe }}
+      </section>
+    {% endif %}
+  </article>
+</section>

@@ -1,0 +1,86 @@
+---
+layout: layouts/base.njk
+permalink: /maps-and-lists/ancestor-map.html
+title: Ancestor Map
+pageHeading: Ancestor Map
+subtitle: "Mapped ancestor places generated from the current ancestor and place data."
+description: "Interactive Gurney ancestor map generated from the current structured people and places data."
+bodyClass: explorer-page map-page
+activeNav: maps
+updated: 25 April 2026
+---
+
+<div data-generated-map>
+  <header class="explorer-head explorer-head-with-stats">
+    <div>
+      <p class="explorer-crumbs explorer-page-title">Library / Ancestor Map</p>
+      <p class="explorer-subtitle">A generated map of places tied to direct ancestors and selected related records. Circles mark person geography; squares mark property or landholding references.</p>
+    </div>
+    <div class="stats-strip compact-stats">
+      <div class="stat"><span class="label">Mapped places</span><span class="value">{{ siteStats.geocodedPlaceCount }}</span></div>
+      <div class="stat"><span class="label">Place links</span><span class="value">{{ siteStats.placeLinkCount }}</span></div>
+      <div class="stat"><span class="label">Generations</span><span class="value">{{ siteStats.knownGenerationCount }}</span></div>
+      <div class="stat"><span class="label">Related records</span><span class="value">{{ siteStats.relatedAncestorCount }}</span></div>
+    </div>
+  </header>
+
+  <div class="catalog-toolbar map-toolbar">
+    <div class="filter-group" role="group" aria-label="Era filter">
+      <button type="button" class="is-active" data-map-era="all">All eras</button>
+      {% for item in ancestors %}
+        {% if item.type == "era" %}
+          <button type="button" data-map-era="{{ item.cssClass }}" style="--era-a:{{ item.colorFrom }};--era-b:{{ item.colorTo }}">{{ item.shortLabel }}</button>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="catalog-toolbar map-toolbar">
+    <div class="mode-switch" role="group" aria-label="Map people">
+      <button type="button" class="is-active" data-map-related="direct" aria-pressed="true">Direct ancestors only</button>
+      <button type="button" data-map-related="related" aria-pressed="false">Related ancestors</button>
+    </div>
+    <div class="mode-switch" role="group" aria-label="Map point types">
+      <button type="button" class="is-active" data-map-kind="all" aria-pressed="true">All places</button>
+      <button type="button" data-map-kind="person" aria-pressed="false">Person geography</button>
+      <button type="button" data-map-kind="property" aria-pressed="false">Properties</button>
+    </div>
+    <span class="result-count" data-map-count></span>
+  </div>
+
+  <section class="map-shell">
+    <div class="generated-map" data-map-canvas aria-label="Gurney ancestor map"></div>
+    <div class="map-data" hidden>
+      {% for item in ancestors %}
+        {% if item.type == "ancestor" or item.type == "related" %}
+          {% for loc in item.locations %}
+            {% if loc.lat and loc.lng %}
+              {% set eventType = loc.eventType | lower %}
+              <span data-map-point
+                    data-record-type="{{ item.type }}"
+                    data-kind="{% if 'landholding' in eventType or 'property' in eventType %}property{% else %}person{% endif %}"
+                    data-gen="{{ item.gen }}"
+                    data-name="{{ item.name }}"
+                    data-dates="{{ item.dates }}"
+                    data-era="{{ item.eraKey }}"
+                    data-era-class="{{ item.eraClass }}"
+                    data-color="{{ item.colorFrom }}"
+                    data-place="{{ loc.siteName or loc.place }}"
+                    data-region="{{ loc.region }}"
+                    data-event="{{ loc.eventType }}"
+                    data-description="{{ loc.sourceQuote }}"
+                    data-lat="{{ loc.lat }}"
+                    data-lng="{{ loc.lng }}"
+                    data-place-url="/maps-and-lists/places.html?place={{ loc.placeId }}"
+                    data-person-url="{% if item.buttons and item.buttons.length %}{{ item.buttons[0].url }}{% endif %}"></span>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+</div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="/assets/map-page.js"></script>

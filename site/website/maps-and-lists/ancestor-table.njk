@@ -1,0 +1,222 @@
+---
+layout: layouts/base.njk
+permalink: /maps-and-lists/ancestor-table.html
+title: Pedigree Catalog
+pageHeading: Pedigree Catalog
+subtitle: "The Gurney direct male line, era-banded and linked to fact sheets, research companions, and places."
+description: "Pedigree catalog for the direct Gurney line, with optional related ancestors and a detailed table view driven by the current ancestor data."
+bodyClass: explorer-page
+activeNav: maps
+updated: 25 April 2026
+---
+
+<div data-pedigree-explorer>
+  <header class="explorer-head explorer-head-with-stats">
+    <div>
+      <p class="explorer-crumbs explorer-page-title">Library / Pedigree Catalog</p>
+      <p class="explorer-subtitle">The Gurney direct male line from Allen Gurney, Portland, Oregon including some select related ancestors. Click an ancestor to see more details. For even more detail, explore the fact sheets, research notes, case files, places, and/or biographies all researched and drafted by Allen Gurney.</p>
+    </div>
+    <div class="stats-strip compact-stats">
+      <div class="stat"><span class="label">Known generations</span><span class="value">{{ siteStats.knownGenerationCount }}</span></div>
+      <div class="stat"><span class="label">Related records</span><span class="value">{{ siteStats.relatedAncestorCount }}</span></div>
+      <div class="stat"><span class="label">Places</span><span class="value">{{ siteStats.placeCount }}</span></div>
+      <div class="stat"><span class="label">Research notes</span><span class="value">{{ siteStats.researchCompanionCount }}</span></div>
+    </div>
+  </header>
+
+  <div class="catalog-toolbar">
+    <div class="mode-switch" role="group" aria-label="Catalog view">
+      <button type="button" class="is-active" data-catalog-mode="catalog" aria-pressed="true">Simple table</button>
+      <button type="button" data-catalog-mode="table" aria-pressed="false">Detailed table</button>
+    </div>
+    <div class="mode-switch related-switch" role="group" aria-label="Related ancestors display">
+      <button type="button" class="is-active" data-related-mode="direct" aria-pressed="true">Direct ancestors only</button>
+      <button type="button" data-related-mode="related" aria-pressed="false">Related ancestors</button>
+    </div>
+    <div class="spacer"></div>
+    <span class="result-count" data-result-count></span>
+  </div>
+
+  <div class="catalog-toolbar era-toolbar">
+    <div class="filter-group" role="group" aria-label="Era filter">
+      <button type="button" class="is-active" data-era-filter="all">All eras</button>
+      {% for item in ancestors %}
+        {% if item.type == "era" %}
+          <button type="button" data-era-filter="{{ item.cssClass }}" style="--era-a:{{ item.colorFrom }};--era-b:{{ item.colorTo }}">{{ item.shortLabel }}</button>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <section class="explorer-layout" data-catalog-panel>
+    <section class="pedigree-spine" aria-label="Ancestor catalog">
+      {% for item in ancestors %}
+        {% if item.type == "era" %}
+          <div class="era-band" data-era-band style="--era-a:{{ item.colorFrom }};--era-b:{{ item.colorTo }}">
+            <span>{{ item.label }}</span>
+            <span class="era-range">{{ item.dates }}</span>
+          </div>
+        {% elif item.type == "ancestor" or item.type == "related" %}
+          <div class="pedigree-row{% if item.isRelated %} related-row{% endif %}"
+               data-pedigree-row
+               data-record-id="{{ item.recordId }}"
+               data-record-type="{{ item.type }}"
+               data-gen="{{ item.gen }}"
+               data-era="{{ item.eraClass }}"
+               tabindex="0"
+               role="button"
+               {% if item.isRelated %}hidden{% endif %}
+               style="--era-a:{{ item.colorFrom }};--era-b:{{ item.colorTo }}">
+            <div class="gen-badge">{{ item.gen }}</div>
+            <div class="timeline-dot"><span class="dot"></span></div>
+            <div class="pedigree-content">
+              <div class="name-text">{{ item.name }}{% if item.displayLineageStatus %}<span class="lineage-note">{{ item.displayLineageStatus }}</span>{% endif %}</div>
+              <div class="dates-text">{{ item.dates }}</div>
+              <div class="geo-line">{{ item.placeSummary or item.geography }}</div>
+              <div class="summary-line">{{ item.summary }}</div>
+            </div>
+            <div class="row-meta">
+              <span aria-hidden="true">&gt;</span>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </section>
+  </section>
+
+  <div class="drawer-backdrop" data-detail-backdrop></div>
+  <aside class="detail-drawer" data-detail-drawer aria-hidden="true" aria-label="Ancestor detail drawer">
+    <button type="button" class="drawer-close" data-detail-close aria-label="Close detail">&times;</button>
+    {% for item in ancestors %}
+      {% if item.type == "ancestor" or item.type == "related" %}
+        <article class="detail-panel" data-detail-panel="{{ item.recordId }}" style="--era-a:{{ item.colorFrom }};--era-b:{{ item.colorTo }}">
+          <header class="detail-head">
+            <div class="detail-eyebrow">{{ item.eraKey }} / {{ item.gen }}</div>
+            <h2 class="detail-name">{{ item.name }}{% if item.displayLineageStatus %}<span class="lineage-note">{{ item.displayLineageStatus }}</span>{% endif %}</h2>
+            <div class="detail-dates">{{ item.dates }}{% if item.geography %} / {{ item.geography }}{% endif %}</div>
+            <div class="detail-actions">
+              {% if item.buttons and item.buttons.length %}
+                {% for btn in item.buttons %}
+                  <a href="{{ btn.url }}" class="btn{% if btn.style == 'bio' %} primary{% endif %}">{{ btn.label }}</a>
+                {% endfor %}
+              {% endif %}
+              <a href="/maps-and-lists/ancestor-map.html" class="btn">Map</a>
+            </div>
+          </header>
+          <div class="detail-body">
+            {% if item.summary %}<p class="detail-summary">{{ item.summary }}</p>{% endif %}
+            {% if item.locations and item.locations.length %}
+              <section class="detail-map-section">
+                <div class="ancestor-mini-map" data-ancestor-map aria-label="Map of places for {{ item.name }}">
+                  {% for loc in item.locations %}
+                    {% if loc.lat and loc.lng %}
+                      <span data-map-point
+                            data-lat="{{ loc.lat }}"
+                            data-lng="{{ loc.lng }}"
+                            data-title="{{ loc.siteName or loc.place }}"
+                            data-place-url="/maps-and-lists/places.html?place={{ loc.placeId }}"></span>
+                    {% endif %}
+                  {% endfor %}
+                </div>
+              </section>
+            {% endif %}
+            {% if item.notables %}
+              <section class="detail-section">
+                <h4>Notables</h4>
+                <p class="detail-summary">{{ item.notables }}</p>
+              </section>
+            {% endif %}
+            {% if item.spouses and item.spouses.length %}
+              <section class="detail-section">
+                <h4>Spouse</h4>
+                <ul>
+                  {% for spouse in item.spouses %}
+                    <li>{{ spouse.name }}{% if spouse.dates %} - {{ spouse.dates }}{% endif %}</li>
+                  {% endfor %}
+                </ul>
+              </section>
+            {% endif %}
+            {% if item.children and item.children.length %}
+              <section class="detail-section">
+                <h4>Children</h4>
+                <ul>
+                  {% for child in item.children %}
+                    <li>{{ child.name }}{% if child.notes %} - {{ child.notes }}{% endif %}</li>
+                  {% endfor %}
+                </ul>
+              </section>
+            {% endif %}
+            {% if item.locations and item.locations.length %}
+              <section class="detail-section">
+                <h4>Places</h4>
+                <ul>
+                  {% for loc in item.locations %}
+                    <li><a href="/maps-and-lists/places.html?place={{ loc.placeId }}">{{ loc.siteName or loc.place }}</a>{% if loc.eventType %} - {{ loc.eventType }}{% endif %}</li>
+                  {% endfor %}
+                </ul>
+              </section>
+            {% endif %}
+            {% if item.hasLandHoldings %}
+              <section class="detail-section">
+                <h4>Places and holdings</h4>
+                <p class="detail-summary">{{ item.landHoldings }}</p>
+              </section>
+            {% endif %}
+          </div>
+        </article>
+      {% endif %}
+    {% endfor %}
+  </aside>
+
+  <section class="detailed-table-panel" data-table-panel>
+    <div class="catalog-table-wrap">
+      <table class="data-table styled-table dense-catalog-table">
+        <thead>
+          <tr>
+            <th>Gen.</th>
+            <th>Name and dates</th>
+            <th>Era</th>
+            <th>Geography</th>
+            <th>Summary</th>
+            <th>Notables</th>
+            <th>Places and holdings</th>
+            <th>Links</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for item in ancestors %}
+            {% if item.type == "ancestor" or item.type == "related" %}
+              <tr data-table-row
+                  data-record-type="{{ item.type }}"
+                  data-era="{{ item.eraClass }}"
+                  class="{% if item.isRelated %}related-table-row{% endif %}"
+                  {% if item.isRelated %}hidden{% endif %}>
+                <td class="gen-cell">{{ item.gen }}</td>
+                <td class="name-cell"><span class="name">{{ item.name }}</span>{% if item.displayLineageStatus %}<span class="lineage-note">{{ item.displayLineageStatus }}</span>{% endif %}{% if item.dates %}<span class="dates">{{ item.dates }}</span>{% endif %}</td>
+                <td>{{ item.eraKey }}</td>
+                <td>{{ item.placeSummary or item.geography }}</td>
+                <td>{{ item.summary }}</td>
+                <td>{{ item.notables }}</td>
+                <td>{% if item.hasLandHoldings %}{{ item.landHoldings }}{% endif %}</td>
+                <td>
+                  {% if item.buttons and item.buttons.length %}
+                    <div class="btns">
+                      {% for btn in item.buttons %}
+                        <a href="{{ btn.url }}" class="btn-{{ btn.style }}">{{ btn.label }}</a>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </td>
+              </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <p class="muted catalog-source-note"><em>Data source: generated from <code>data/ancestors v26.json</code>, <code>data/places.json</code>, <code>data/places_detail.json</code>, root fact-sheet Markdown, and root research companion Markdown.</em></p>
+  </section>
+</div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="/assets/pedigree-explorer.js"></script>
