@@ -533,6 +533,39 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "County coverage chart used to assess significance of absences. London City = NONE, Norfolk = NONE, Suffolk = NONE, Essex = Slight, Bucks = Slight (but Stewkley well-represented)."
+    },
+    "fairhaven-lester-obituary": {
+      "shortTitle": "Lester Hayes Gurney Obituary (FairHaven, 2025)",
+      "citation": "\"Lester Hayes Gurney Obituary.\" FairHaven Funeral Home and Cremation Services, Fort Wayne, Indiana, 2025.",
+      "archive": "FairHaven Funeral Home and Cremation Services (online)",
+      "url": "https://www.fairhavenfortwayne.com/obituaries/lester-gurney",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Primary source for G2 fact sheet. Lester Hayes Gurney born 16 November 1945 NYC; died 16 December 2025 at The Towne House Retirement Community, Fort Wayne, IN, age 80. Parents: Lester Sawyer Gurney III (G3) and Edith Walberg. B.S. Electrical Engineering, Valparaiso University. \"Third-generation power engineer\" with Indiana & Michigan Electric Co. (later AEP). Married Dana Ault, 22 June 1968, Fulton, IN; met at Valparaiso. Master Mason, McCulloch Lodge No. 737 (Marion, IN); Scottish Rite; Salaam Shriners; \"five-generation family tradition in Freemasonry.\" 25-year Kiwanian (Secretary); Habitat for Humanity; BSA Troop 433 Treasurer; IEEE 50+ years. Westminster Presbyterian, Marion; later First Presbyterian, Fort Wayne. Survivors: son Allen Gurney and Beth Levy (Portland, OR); grandchildren Ebba and Soren Gurney (Ann Arbor, MI); brother-in-law Carl Ault and sister-in-law Rita Ault (Rochester, IN). Predeceased by wife Dana and son Kenneth. Celebration of Life, 17 January 2026, The Towne House Chapel, 2209 Saint Joe Center Road, Fort Wayne. Memorials directed to the Parkinson's Foundation. Accessed 25 April 2026."
+    },
+    "foster-streeter-cummington": {
+      "shortTitle": "Foster & Streeter, Only One Cummington (1974)",
+      "citation": "Foster, Helen Hunter, and William W. Streeter. Only One Cummington. Cummington, Massachusetts: Cummington Historical Commission, 1974.",
+      "archive": "Cummington Historical Commission; major regional libraries (Forbes Library, Northampton; Massachusetts Historical Society)",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Local town history of Cummington, Hampshire County, Massachusetts. Cited p. 390 for two G9 (Benjamin Gurney 1730–1805) land transactions: (1) Benjamin and Silas Reed purchased land in Town No. 5 (Cummington) at Springfield, Massachusetts records, 5 November 1770, after Benjamin sold his Abington land in June 1770; (2) Benjamin's 1787 farm exchange with Philip Shaw at Cummington. Standard reference for Cummington-resident Gurneys (G8, G9). Source for primary deeds not yet directly examined; deeds themselves should be accessible via Hampshire County / Springfield records."
+    },
+    "history-of-weymouth": {
+      "shortTitle": "History of Weymouth, Massachusetts (1923)",
+      "citation": "History of Weymouth, Massachusetts. 4 vols. Weymouth Historical Society, 1923.",
+      "archive": "Weymouth Public Library; Massachusetts town histories collection (HathiTrust, Internet Archive)",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Standard four-volume town history of Weymouth, Norfolk County, Massachusetts. Cited for G12 (Richard Gurney, c. 1630 – Oct. 1691): land grants in Weymouth before 1642–44 'in the East field,' 'in the mill field,' and 'on the east side of Great Pond'; admitted Freeman of Massachusetts Bay 1681; town meeting grant of six acres on the west side of Great Pond, voted 1683 to 'build a house & fence' (cited p. 251). Also relevant indirectly to G13 John Gurney-1 (his earliest documented New England property record was at Weymouth, granted retrospectively c. 3 Feb. 1651-52). Direct examination of the page references not yet captured."
     }
   }
 }

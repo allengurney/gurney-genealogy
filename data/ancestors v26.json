@@ -78,10 +78,16 @@
     "geography": "Port Washington NY → Marion, IN → Fort Wayne, IN",
     "eraId": "era-modern-america",
     "lineageStatus": "Confirmed",
-    "summary": "",
-    "notables": "",
+    "summary": "Born NYC 1945; son of Lester S. Gurney III (G3) and Edith Walberg. B.S. Electrical Engineering, Valparaiso Univ. Career power engineer at Indiana & Michigan Electric Co. (later AEP) — third generation in that role. Master Mason, McCulloch Lodge No. 737, Marion IN; Scottish Rite; Salaam Shriners (\"five-generation family tradition in Freemasonry\"). 25-year Kiwanian, Habitat for Humanity volunteer, BSA Troop 433 Treasurer, IEEE 50+ years. Westminster Presbyterian, Marion; later First Presbyterian, Fort Wayne. Married Dana Ault (1968, Fulton IN; predeceased). Died 16 Dec. 2025 at Fort Wayne, age 80.",
+    "notables": "Third-generation power engineer at Indiana & Michigan Electric Co. (later AEP). Master Mason, McCulloch Lodge No. 737 (Marion, IN); Scottish Rite; Salaam Shriners. \"Five-generation family tradition in Freemasonry\" connecting to G5 (Continental Lodge No. 287, NY) and G6 (founding \"Father\" of that lodge). Last of the direct line born in the New York metropolitan area where the family lived from G7 (Willis Gurney, Flushing) onward. Memorials directed to the Parkinson's Foundation; Celebration of Life held 17 Jan. 2026, The Towne House Chapel, Fort Wayne.",
     "landHoldings": "—",
-    "spouses": [],
+    "spouses": [
+      {
+        "name": "Dana Ault",
+        "dates": "m. 22 June 1968, Fulton, Indiana",
+        "notes": "Met at Valparaiso University; predeceased Lester"
+      }
+    ],
     "children": [
       {
         "name": "Allen Lawrence Gurney",
@@ -89,12 +95,18 @@
         "notes": "G1 in direct line"
       },
       {
-        "name": "Ken Gurney",
-        "dates": "b. 1974",
-        "notes": "Allen's brother"
+        "name": "Kenneth Gurney",
+        "dates": "1974-2013",
+        "notes": "Allen's brother; predeceased Lester; last residence Dexter, MI"
       }
     ],
-    "buttons": [],
+    "buttons": [
+      {
+        "label": "Fact sheet",
+        "url": "/fact-sheets/g02-lester-hayes-gurney-fact-sheet.html",
+        "style": "bio"
+      }
+    ],
     "recordId": "ancestor-g2-lester-hayes-gurney",
     "placeRefs": [
       "place-fort-wayne-indiana-usa",
@@ -324,7 +336,13 @@
         "dates": "b. c. 1844"
       }
     ],
-    "buttons": [],
+    "buttons": [
+      {
+        "label": "Fact sheet",
+        "url": "/fact-sheets/g07-willis-gurney-fact-sheet.html",
+        "style": "bio"
+      }
+    ],
     "recordId": "ancestor-g7-willis-gurney",
     "placeRefs": [
       "place-cummington-massachusetts-usa",
@@ -370,7 +388,13 @@
         "notes": "Specific names not yet established in sources consulted"
       }
     ],
-    "buttons": [],
+    "buttons": [
+      {
+        "label": "Fact sheet",
+        "url": "/fact-sheets/g08-amos-gurney-fact-sheet.html",
+        "style": "bio"
+      }
+    ],
     "recordId": "ancestor-g8-amos-gurney",
     "placeRefs": [
       "place-bridgewater-massachusetts-usa",
@@ -405,7 +429,13 @@
         "notes": "G8 in direct line"
       }
     ],
-    "buttons": [],
+    "buttons": [
+      {
+        "label": "Fact sheet",
+        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html",
+        "style": "bio"
+      }
+    ],
     "recordId": "ancestor-g9-benjamin-gurney",
     "placeRefs": [
       "place-abington-massachusetts-usa",
@@ -454,7 +484,13 @@
         "notes": "With brothers divided Rochester farm 1 Jan. 1800"
       }
     ],
-    "buttons": [],
+    "buttons": [
+      {
+        "label": "Fact sheet",
+        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html",
+        "style": "bio"
+      }
+    ],
     "recordId": "ancestor-g10-benjamin-gurney",
     "placeRefs": [
       "place-abington-massachusetts-usa",
@@ -490,7 +526,13 @@
         "notes": "G10 in direct line"
       }
     ],
-    "buttons": [],
+    "buttons": [
+      {
+        "label": "Fact sheet",
+        "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html",
+        "style": "bio"
+      }
+    ],
     "recordId": "ancestor-g11-benjamin-gurney",
     "placeRefs": [
       "place-abington-massachusetts-usa",
@@ -534,7 +576,13 @@
         "notes": "Served King Philip's War relief company"
       }
     ],
-    "buttons": [],
+    "buttons": [
+      {
+        "label": "Fact sheet",
+        "url": "/fact-sheets/g12-richard-gurney-fact-sheet.html",
+        "style": "bio"
+      }
+    ],
     "recordId": "ancestor-g12-richard-gurney",
     "placeRefs": [
       "place-bridgewater-massachusetts-usa",
