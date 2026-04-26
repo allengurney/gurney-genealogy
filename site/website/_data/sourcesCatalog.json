@@ -528,6 +528,18 @@
     "notes": "TIER 1 PULL — highest priority. Not yet obtained. Cited by Anderson (GMD p. 158) — almost certainly the source of his 1636 arrival date."
   },
   {
+    "sourceId": "thoms-anecdotes-traditions-1839",
+    "shortTitle": "Thoms, Anecdotes and Traditions",
+    "citation": "Thoms, William J., ed. Anecdotes and Traditions, Illustrative of Early English History and Literature, Derived from MS. Sources. Camden Society, old series, vol. 5. London: Printed for the Camden Society by J. B. Nichols and Son, 1839.",
+    "archive": "Internet Archive (anecdotestraditi00thomrich); Open Library OL13504024M",
+    "url": "https://archive.org/details/anecdotestraditi00thomrich/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/thoms-anecdotes-traditions-1839.md",
+    "notes": "Camden Society edition of anecdotes drawn from manuscript sources, including Sir Nicholas L'Estrange's Harleian MS 6395 material. pp. xviii-xx identify Parson Edmund Gurney as brother to Francis Gurney and trace the L'Estrange/Gurney context; p. 6 preserves Edmund's 'mathematician defined' anecdote and Fuller's account of him."
+  },
+  {
     "sourceId": "tna-pcc-probate",
     "shortTitle": "TNA PCC Probate Records",
     "citation": "The National Archives, Kew. Prerogative Court of Canterbury wills and probate acts.",

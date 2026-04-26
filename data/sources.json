@@ -94,6 +94,17 @@
       "validationPath": null,
       "notes": "Walter Rye's article on the Gurneys of Norwich. Critical for: (a) the multiple Gurney/Gurnell/Gurling/Garney name variants in Norwich registers, (b) plebeian Gurney lines in Norwich (shoemakers, cordwainers, lace weavers) from whom John the Quaker may have descended, (c) the disambiguation problem distinguishing related lines. Heavily relevant to John Gurney-1 research and the two-Francis problem."
     },
+    "thoms-anecdotes-traditions-1839": {
+      "shortTitle": "Thoms, Anecdotes and Traditions",
+      "citation": "Thoms, William J., ed. Anecdotes and Traditions, Illustrative of Early English History and Literature, Derived from MS. Sources. Camden Society, old series, vol. 5. London: Printed for the Camden Society by J. B. Nichols and Son, 1839.",
+      "archive": "Internet Archive (anecdotestraditi00thomrich); Open Library OL13504024M",
+      "url": "https://archive.org/details/anecdotestraditi00thomrich/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/thoms-anecdotes-traditions-1839.md",
+      "notes": "Camden Society edition of anecdotes drawn from manuscript sources, including Sir Nicholas L'Estrange's Harleian MS 6395 material. pp. xviii-xx identify Parson Edmund Gurney as brother to Francis Gurney and trace the L'Estrange/Gurney context; p. 6 preserves Edmund's 'mathematician defined' anecdote and Fuller's account of him."
+    },
     "three-hundred-years-norman-house": {
       "shortTitle": "Hannay, Three Hundred Years of a Norman House",
       "citation": "Hannay, James. Three Hundred Years of a Norman House: The Barons of Gournay from the Tenth to the Thirteenth Century. London: Tinsley Brothers, 1867.",
