@@ -250,11 +250,17 @@
     "colorTo": "#557aa3",
     "lineageStatus": "Confirmed",
     "displayLineageStatus": "",
-    "summary": "",
-    "notables": "",
+    "summary": "Born NYC 1945; son of Lester S. Gurney III (G3) and Edith Walberg. B.S. Electrical Engineering, Valparaiso Univ. Career power engineer at Indiana & Michigan Electric Co. (later AEP) — third generation in that role. Master Mason, McCulloch Lodge No. 737, Marion IN; Scottish Rite; Salaam Shriners (\"five-generation family tradition in Freemasonry\"). 25-year Kiwanian, Habitat for Humanity volunteer, BSA Troop 433 Treasurer, IEEE 50+ years. Westminster Presbyterian, Marion; later First Presbyterian, Fort Wayne. Married Dana Ault (1968, Fulton IN; predeceased). Died 16 Dec. 2025 at Fort Wayne, age 80.",
+    "notables": "Third-generation power engineer at Indiana & Michigan Electric Co. (later AEP). Master Mason, McCulloch Lodge No. 737 (Marion, IN); Scottish Rite; Salaam Shriners. \"Five-generation family tradition in Freemasonry\" connecting to G5 (Continental Lodge No. 287, NY) and G6 (founding \"Father\" of that lodge). Last of the direct line born in the New York metropolitan area where the family lived from G7 (Willis Gurney, Flushing) onward. Memorials directed to the Parkinson's Foundation; Celebration of Life held 17 Jan. 2026, The Towne House Chapel, Fort Wayne.",
     "landHoldings": "—",
     "hasLandHoldings": false,
-    "spouses": [],
+    "spouses": [
+      {
+        "name": "Dana Ault",
+        "dates": "m. 22 June 1968, Fulton, Indiana",
+        "notes": "Met at Valparaiso University; predeceased Lester"
+      }
+    ],
     "children": [
       {
         "name": "Allen Lawrence Gurney",
@@ -262,12 +268,23 @@
         "notes": "G1 in direct line"
       },
       {
-        "name": "Ken Gurney",
-        "dates": "b. 1974",
-        "notes": "Allen's brother"
+        "name": "Kenneth Gurney",
+        "dates": "1974-2013",
+        "notes": "Allen's brother; predeceased Lester; last residence Dexter, MI"
       }
     ],
-    "buttons": [],
+    "buttons": [
+      {
+        "label": "Fact sheet",
+        "url": "/fact-sheets/g02-lester-hayes-gurney-fact-sheet.html",
+        "style": "bio"
+      },
+      {
+        "label": "Research notes",
+        "url": "/research/companions/g02-lester-hayes-gurney-fact-sheet.html",
+        "style": "research"
+      }
+    ],
     "recordId": "ancestor-g2-lester-hayes-gurney",
     "placeRefs": [
       "place-fort-wayne-indiana-usa",
@@ -829,7 +846,18 @@
         "dates": "b. c. 1844"
       }
     ],
-    "buttons": [],
+    "buttons": [
+      {
+        "label": "Fact sheet",
+        "url": "/fact-sheets/g07-willis-gurney-fact-sheet.html",
+        "style": "bio"
+      },
+      {
+        "label": "Research notes",
+        "url": "/research/companions/g07-willis-gurney-fact-sheet.html",
+        "style": "research"
+      }
+    ],
     "recordId": "ancestor-g7-willis-gurney",
     "placeRefs": [
       "place-cummington-massachusetts-usa",
@@ -924,7 +952,18 @@
         "notes": "Specific names not yet established in sources consulted"
       }
     ],
-    "buttons": [],
+    "buttons": [
+      {
+        "label": "Fact sheet",
+        "url": "/fact-sheets/g08-amos-gurney-fact-sheet.html",
+        "style": "bio"
+      },
+      {
+        "label": "Research notes",
+        "url": "/research/companions/g08-amos-gurney-fact-sheet.html",
+        "style": "research"
+      }
+    ],
     "recordId": "ancestor-g8-amos-gurney",
     "placeRefs": [
       "place-bridgewater-massachusetts-usa",
@@ -1007,7 +1046,18 @@
         "notes": "G8 in direct line"
       }
     ],
-    "buttons": [],
+    "buttons": [
+      {
+        "label": "Fact sheet",
+        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html",
+        "style": "bio"
+      },
+      {
+        "label": "Research notes",
+        "url": "/research/companions/g09-benjamin-gurney-fact-sheet.html",
+        "style": "research"
+      }
+    ],
     "recordId": "ancestor-g9-benjamin-gurney",
     "placeRefs": [
       "place-abington-massachusetts-usa",
@@ -1189,7 +1239,18 @@
         "notes": "With brothers divided Rochester farm 1 Jan. 1800"
       }
     ],
-    "buttons": [],
+    "buttons": [
+      {
+        "label": "Fact sheet",
+        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html",
+        "style": "bio"
+      },
+      {
+        "label": "Research notes",
+        "url": "/research/companions/g10-benjamin-gurney-fact-sheet.html",
+        "style": "research"
+      }
+    ],
     "recordId": "ancestor-g10-benjamin-gurney",
     "placeRefs": [
       "place-abington-massachusetts-usa",
@@ -1358,7 +1419,18 @@
         "notes": "G10 in direct line"
       }
     ],
-    "buttons": [],
+    "buttons": [
+      {
+        "label": "Fact sheet",
+        "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html",
+        "style": "bio"
+      },
+      {
+        "label": "Research notes",
+        "url": "/research/companions/g11-benjamin-gurney-fact-sheet.html",
+        "style": "research"
+      }
+    ],
     "recordId": "ancestor-g11-benjamin-gurney",
     "placeRefs": [
       "place-abington-massachusetts-usa",
@@ -1535,7 +1607,18 @@
         "notes": "Served King Philip's War relief company"
       }
     ],
-    "buttons": [],
+    "buttons": [
+      {
+        "label": "Fact sheet",
+        "url": "/fact-sheets/g12-richard-gurney-fact-sheet.html",
+        "style": "bio"
+      },
+      {
+        "label": "Research notes",
+        "url": "/research/companions/g12-richard-gurney-fact-sheet.html",
+        "style": "research"
+      }
+    ],
     "recordId": "ancestor-g12-richard-gurney",
     "placeRefs": [
       "place-bridgewater-massachusetts-usa",
@@ -2351,6 +2434,79 @@
         "photoTitle": "West Barsham Hall",
         "siteUrl": "https://www.geograph.org.uk/photo/2122114",
         "siteLabel": "Photo / site reference"
+      }
+    ]
+  },
+  {
+    "type": "related",
+    "isRelated": true,
+    "gen": "G17",
+    "genNumber": 17,
+    "name": "Queen Anne Boleyn",
+    "dates": "c. 1501-19 May 1536",
+    "geography": "Hever Castle; Tudor court; Tower of London",
+    "eraId": "era-tudor-england",
+    "eraLabel": "Tudor England — City of London & Norfolk",
+    "eraShortLabel": "Tudor England",
+    "eraKey": "Tudor England",
+    "eraDates": "late 15th–mid 17th centuries",
+    "eraClass": "era-tudor",
+    "colorFrom": "#874622",
+    "colorTo": "#ae6539",
+    "lineageStatus": "Related - second cousin, 16 times removed",
+    "displayLineageStatus": "Related - second cousin, 16 times removed",
+    "summary": "Collateral Boleyn cousin, not a direct ancestor. Queen Anne Boleyn was Anthony Gurney's second cousin through their shared great-grandparents Sir Geoffrey Boleyn and Anne Hoo.",
+    "notables": "Second wife of Henry VIII and mother of Elizabeth I. In this project she belongs at G17 as a same-generation second cousin of Anthony Gurney, not in the direct ancestor spine. The connection runs through Anthony's mother Anne Heydon: Anne Heydon was daughter of Anne Boleyn the elder of Blickling, sister of Sir William Boleyn, Queen Anne's paternal grandfather.",
+    "landHoldings": "Not a Gurney landholding figure. Royal/court context: Tower of London execution and burial site.",
+    "hasLandHoldings": true,
+    "spouses": [
+      {
+        "name": "Henry VIII",
+        "dates": "m. January 1533",
+        "notes": "Anne was Henry VIII's second wife and was crowned queen on 1 June 1533."
+      }
+    ],
+    "children": [
+      {
+        "name": "Elizabeth I",
+        "dates": "b. 7 September 1533",
+        "notes": "Daughter of Henry VIII and Anne Boleyn; later Queen Elizabeth I."
+      }
+    ],
+    "buttons": [
+      {
+        "label": "Related fact sheet",
+        "url": "/fact-sheets/g17-queen-anne-boleyn-related-fact-sheet.html",
+        "style": "bio"
+      },
+      {
+        "label": "HRP source",
+        "url": "https://www.hrp.org.uk/tower-of-london/history-and-stories/anne-boleyn/",
+        "style": "research"
+      }
+    ],
+    "recordId": "collateral-g17-queen-anne-boleyn",
+    "placeRefs": [
+      "place-tower-of-london-england"
+    ],
+    "placeSummary": "Tower of London",
+    "locations": [
+      {
+        "placeId": "place-tower-of-london-england",
+        "place": "Tower of London, London, England",
+        "siteName": "Tower of London",
+        "region": "London, England",
+        "eventType": "execution and burial site",
+        "eventDate": "c. 1501-19 May 1536",
+        "sourceQuote": "Historic Royal Palace and fortress on the Thames. For this project, the Tower anchors Queen Anne Boleyn's arrest, imprisonment, execution on Tower Green on 19 May 1536, and burial in the Chapel Royal of St Peter ad Vincula.",
+        "lat": 51.5081,
+        "lng": -0.0759,
+        "geocodeBasis": "site centroid",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.hrp.org.uk/tower-of-london/",
+        "siteLabel": "Historic Royal Palaces"
       }
     ]
   },
@@ -4157,11 +4313,6 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html",
         "style": "bio"
-      },
-      {
-        "label": "Research notes",
-        "url": "/research/companions/g32-gerard-de-gournay-fact-sheet.html",
-        "style": "research"
       }
     ],
     "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
@@ -4314,11 +4465,6 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html",
         "style": "bio"
-      },
-      {
-        "label": "Research notes",
-        "url": "/research/companions/g32-gerard-de-gournay-fact-sheet.html",
-        "style": "research"
       }
     ],
     "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",

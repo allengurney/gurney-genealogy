@@ -124,7 +124,7 @@ function indexFactSheets() {
   if (!fs.existsSync(factSheetsDir)) return byGen;
 
   fs.readdirSync(factSheetsDir)
-    .filter(file => /^g\d+-.+\.md$/i.test(file))
+    .filter(file => /^g\d+-.+\.md$/i.test(file) && !/-related-/i.test(file))
     .forEach(file => {
       const num = genNumber(file);
       if (num === null) return;
@@ -362,11 +362,12 @@ const generated = ancestors.map(item => {
   const buttons = Array.isArray(item.buttons) ? item.buttons.map(cleanButton) : [];
   const factSheet = num === null ? null : factSheetsByGen.get(num);
   const companion = num === null ? null : companionsByGen.get(num);
+  const allowGeneratedButtons = item.type !== "related" || buttons.length === 0;
 
-  if (factSheet && !buttons.some(button => button.url === factSheet.url)) {
+  if (allowGeneratedButtons && factSheet && !buttons.some(button => button.url === factSheet.url)) {
     buttons.push(factSheet);
   }
-  if (companion && !buttons.some(button => button.url === companion.url)) {
+  if (allowGeneratedButtons && companion && !buttons.some(button => button.url === companion.url)) {
     buttons.push(companion);
   }
 

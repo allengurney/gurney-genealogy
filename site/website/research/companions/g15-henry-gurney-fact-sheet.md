@@ -11,6 +11,12 @@ Research companion for `g15-henry-gurney-fact-sheet.md`. See AI-Rules.md §3 for
 
 ## Working Notes
 
+### 2026-04-25 — L'Estrange anecdote: Edmund Gurney's mathematician joke
+
+Sir Nicholas L'Estrange's manuscript anecdote collection preserves a compact example of Henry Gurney's son Edmund in comic mode: "Edm. Gurney used to say that a mathematitian is like one that goes to markett to buy an axe to breake an egg." The Camden Society editor's introductory notice identifies this "Parson Edmund Gurney" as Francis Gurney's brother and places him in the Edgefield and Harpley livings, confirming that the anecdote belongs to Edmund Gurney (1577-1648), Henry's third son, not the later nineteenth-century Edmund Gurney. The full extract and identity note are now in `research/people/edmund-gurney-divine.md`.[^thoms-edmund]
+
+[^thoms-edmund]: William J. Thoms, ed., *Anecdotes and Traditions, Illustrative of Early English History and Literature, Derived from MS. Sources*, Camden Society, old series, vol. 5 (London: Printed for the Camden Society by J. B. Nichols and Son, 1839), pp. xviii-xx and p. 6, Internet Archive, https://archive.org/details/anecdotestraditi00thomrich/. Source ID: `thoms-anecdotes-traditions-1839`.
+
 ### 2026-04-23 — Bernau, *The British Archivist* (1913): new independent source for Henry's descendants
 
 Charles A. Bernau's 1913 article in *The British Archivist* on Francis Gurney of Maldon (b. 1628) opens with an independent re-attestation of Henry G15 as father of Francis G14: "a member of the Merchant Taylors' Company, and a merchant living in the parish of St. Benet Finck, London, the sixth son of Henry GOURNAY, of Great Ellingham and West Barsham, Norfolk."[^bernau-parentage] This adds a fourth independent published attestation of Henry's paternity of Francis G14 (the others being Daniel Gurney 1848, Blomefield, and the 1633/34 Heralds' Visitation of London). Bernau's source base at the Public Record Office and the St Benet Fink register is separate from Daniel Gurney's manuscript work.
@@ -85,6 +91,7 @@ Note: Blomefield's "Edm. Gurney" here is **Edward Gurney** (Henry G15's grandson
 - Thomas Fuller, <em>The History of the Worthies of England</em> (London, 1662), p. 258.
 - Robert Masters, <em>The History of the College of Corpus Christi and the B. Virgin Mary in the University of Cambridge</em> (rev. ed., Cambridge, 1831), p. 338.
 - Catalogue of English Literary Manuscripts (CELM), Folger Shakespeare Library, entry on Bodleian Tanner 175.
+- William J. Thoms, ed., <em>Anecdotes and Traditions, Illustrative of Early English History and Literature, Derived from MS. Sources</em>, Camden Society, old series, vol. 5 (London: Printed for the Camden Society by J. B. Nichols and Son, 1839), pp. xviii-xx and p. 6.
 
 **Genealogical and modern academic:**
 - Daniel Gurney, <em>The Record of the House of Gournay</em> (London, 1848), pp. 281–287, and <em>Supplement to the Record of the House of Gournay</em> (King's Lynn: Thew & Son, 1858), pp. 875–1014. Both digitised on the Internet Archive.

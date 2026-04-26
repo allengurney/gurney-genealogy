@@ -50,7 +50,7 @@ The entire article, all sections:
 |---|---|
 | All Francis G14 (elder) findings: parentage re-attestation; 1634 visitation date conflict; William Browning "later of Maldon" detail; Spelman pedigree lead; St Benet Fink children-list conflict with current fact sheet; the second John of Maldon (d. 1681 bachelor) and its implications for Candidate B; Thomas Browning brother-in-law hypothesis | `research/people/g14-francis-gurney-fact-sheet.research.md` |
 | Full biography of Francis Gurney the younger of Maldon (b. 1628, d. 1677): marriage; Maldon civic career; ten Maldon children; two Chancery lawsuits; death by drowning; Pepys caveat; Exchequer inquisition and estate schedule; "The Problem" (Norwich cordwainer identification) | `research/people/francis-gurney-of-maldon.md` |
-| Elimination row in the "Other John Gurneys" table for "John of Maldon, bachelor, d. 1681" | `research/case-files/john-gurney-case-file-v3.md` §8 |
+| Elimination row in the "Other John Gurneys" table for "John of Maldon, bachelor, d. 1681" | `research/case-files/john-gurney-case-file-v4.md` §8 |
 | Source catalog entry | `data/sources.json` (proposed addition — see `_CHANGES.md`) |
 
 ## Known issues

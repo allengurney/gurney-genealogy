@@ -9,6 +9,8 @@ bodyClass: case-page
 activeNav: research
 updated: 18 April 2026
 caseMeta: "<strong>Prepared by:</strong> Allen Lawrence Gurney, Portland, Oregon &nbsp;&nbsp; <strong>Date:</strong> April 2026 &nbsp;&nbsp; <strong>Version:</strong> 3.0"
+status: superseded
+supersededBy: research/case-files/john-gurney-case-file-v4.md
 caseNav:
   - { label: "Problem Statement", href: "#s2" }
   - { label: "Candidate", href: "#s3" }
@@ -25,6 +27,8 @@ caseNav:
   - { label: "Bibliography", href: "#notes" }
   - { label: "Citations", href: "#citation-index" }
 ---
+
+> **Superseded:** This V3 case file is retained for history. The active case file is `research/case-files/john-gurney-case-file-v4.md`, and the website page at `/key-research/john-gurney-case-file.html` now uses V4.
 
 <h2 id="s2">1. PROBLEM STATEMENT: WHAT WE KNOW ABOUT JOHN GURNEY-1</h2>
 
@@ -217,7 +221,7 @@ An exhaustive England-wide search found ZERO Peter Gurney baptisms 1620–1645 i
 
 ### 6.3 The Absence of "Francis"
 
-John-1 named no child Francis — the strongest naming-pattern argument against Candidate B. It was commonplace to name a child (typically first born) after a father. Possible explanations: estrangement after emigration; negative associations with the name after Francis's financial ruin; maternal priority (Richard may honor a Ryvett grandfather — Richard Ryvett of Gressenhall); or an earlier child named Francis who died. Or John and his siblings may have been estranged from their father (Francis) which also could account for them not being included in the 1630's Herald's Visitation report.  
+John-1 named no child Francis — the strongest naming-pattern argument against Candidate B. It was commonplace to name a child (typically first born) after a father. Possible explanations: estrangement after emigration; negative associations with the name after Francis's financial ruin; maternal priority (Richard may honor a Ryvett grandfather — Richard Ryvett of Gressenhall); or an earlier child named Francis who died. Or John and his siblings may have been estranged from their father (Francis) which also could account for them not being included in the 1630's Herald's Visitation report.
 
 
 
@@ -460,4 +464,4 @@ Davis, *Ancestry of Abel Lunt* (1963). • Laslett, *World We Have Lost* (1965).
     <li id="n65">Bernau, <em>British Archivist</em> vol. I, no. 7 (September 1913), "His Parents' Children" section, item 9, citing Lay Subsidy 246/22 (1674 Hearth Tax). Corpus extract at <code>sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md</code>. Source ID: <code>british-archivist-bernau-1913</code>. <a class="backref" href="#ref-65">↩</a></li>
 </ol>
 
-*Case File V3 — April 2026. Supersedes V2 (March 2026). Prepared by Allen Lawrence Gurney with AI research assistance.*
+*Case File V3 — April 2026. Superseded by V4 (April 2026). Prepared by Allen Lawrence Gurney with AI research assistance.*
