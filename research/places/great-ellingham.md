@@ -100,7 +100,7 @@ This file is one of the clearest examples of how the place library should distin
 - Coordinate: 52.5453, 1.0091774978679044 (medium)
 - Roles: landholding / property reference, individual geography
 - Detail: Great Ellingham manor, later associated with the Lovell inheritance through Margaret Lovell.
-- Current-site status: unknown
+- Current-site status: Old Hall (NHER 9108) is a medieval moated manorial site with a mid-16th-century great house, said to be 1573 by Henry Gurney; hall and barns listed Grade II.
 
 ### Linked ancestors
 

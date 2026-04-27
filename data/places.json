@@ -924,6 +924,40 @@
     "filename": "great-ellingham.md"
   },
   {
+    "placeId": "place-gurneys-manor-hingham-norfolk-england",
+    "name": "Gurney's Manor, Hingham, Norfolk, England",
+    "aliases": [
+      "Gurney's Manor",
+      "Gurneys Manor"
+    ],
+    "shortDescription": "Extant Gurney manor house",
+    "placeType": "building",
+    "coordinate": {
+      "lat": 52.571755298216836,
+      "lng": 0.9756833626995299
+    },
+    "coordinatePrecision": "medium",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g17-anthony-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g18-william-gurney-v",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "hingham-norfolk.md"
+  },
+  {
     "placeId": "place-hardingham-norfolk-england",
     "name": "Hardingham, Norfolk, England",
     "aliases": [
@@ -1635,6 +1669,42 @@
       }
     ],
     "filename": "normandy.md"
+  },
+  {
+    "placeId": "place-old-hall-great-ellingham-norfolk-england",
+    "name": "Old Hall, Great Ellingham, Norfolk, England",
+    "aliases": [
+      "Old Hall",
+      "Old Hall, Great Ellingham",
+      "NHER 9108",
+      "MNF9108"
+    ],
+    "shortDescription": "Gurney-built Old Hall site",
+    "placeType": "building",
+    "coordinate": {
+      "lat": 52.5319,
+      "lng": 0.9808
+    },
+    "coordinatePrecision": "medium",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "role": "individual geography"
+      },
+      {
+        "recordId": "ancestor-g17-anthony-gurney",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "great-ellingham.md"
   },
   {
     "placeId": "place-oxfordshire-england",

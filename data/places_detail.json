@@ -457,7 +457,7 @@
   {
     "placeId": "place-great-ellingham-norfolk-england",
     "placeName": "Great Ellingham, Norfolk, England",
-    "longDescription": "Great Ellingham manor, later associated with the Lovell inheritance through Margaret Lovell.",
+    "longDescription": "Great Ellingham manor, later associated with the Lovell inheritance through Margaret Lovell; Norfolk Heritage Explorer identifies Old Hall (NHER 9108) as a medieval moated manorial site with a mid-16th-century great house, said to be 1573 by Henry Gurney, on the site of an earlier moated manor.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
@@ -468,6 +468,24 @@
     "heritageUrl": "",
     "heritageLabel": "",
     "reviewNotes": []
+  },
+  {
+    "placeId": "place-gurneys-manor-hingham-norfolk-england",
+    "placeName": "Gurney's Manor, Hingham, Norfolk, England",
+    "longDescription": "Extant private Grade II country house at Hingham; DiCamillo dates it circa 1600 with circa 1700 and 1826 alterations/additions and earliest elements possibly in the 1570s. Distinct from Harpley.",
+    "siteName": "Gurney's Manor",
+    "streetAddress": "",
+    "extantStatus": "extant",
+    "extantStatusDescription": "Extant private Grade II country house; not open to public.",
+    "coordinateBasis": "user-supplied site coordinate",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "https://www.thedicamillo.com/house/gurneys-manor/",
+    "heritageLabel": "DiCamillo: Gurney's Manor",
+    "reviewNotes": [
+      "Hingham Gurney's Manor is distinct from Harpley.",
+      "Source: dicamillo-gurneys-manor."
+    ]
   },
   {
     "placeId": "place-hardingham-norfolk-england",
@@ -487,7 +505,7 @@
   {
     "placeId": "place-harpley-norfolk-england",
     "placeName": "Harpley, Norfolk, England",
-    "longDescription": "Gurney's manor in Harpley, acquired c.1183 through Rose de Burnham and the Hameline de Warenne connection.",
+    "longDescription": "Harpley manor, a major medieval Gurney holding acquired c.1183 through Rose de Burnham and the Hameline de Warenne connection; distinct from the extant Gurney's Manor at Hingham.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
@@ -760,6 +778,25 @@
     "heritageLabel": "",
     "reviewNotes": [
       "Regional umbrella record, not a single site."
+    ]
+  },
+  {
+    "placeId": "place-old-hall-great-ellingham-norfolk-england",
+    "placeName": "Old Hall, Great Ellingham, Norfolk, England",
+    "longDescription": "Norfolk Heritage Explorer identifies Old Hall as a medieval moated manorial site with a mid-16th-century great house inside the main moat, said to be 1573 by Henry Gurney, with fishponds, additional moated enclosures, barns, and Grade II listed hall and barns.",
+    "siteName": "Old Hall",
+    "streetAddress": "",
+    "extantStatus": "extant",
+    "extantStatusDescription": "NHER-recorded medieval moated manorial site and Grade II listed great-house/barn complex.",
+    "coordinateBasis": "NHER record site coordinate (TM 0161 9651)",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "https://www.heritage.norfolk.gov.uk/record-details?MNF9108",
+    "heritageLabel": "NHER MNF9108",
+    "reviewNotes": [
+      "Site coordinate, not the village centroid.",
+      "\"Said to be 1573, by Henry Gurney\" qualifier should be retained until S1/NHLE records are checked.",
+      "Sources: nher-mnf9108-old-hall-great-ellingham, nher-great-ellingham-parish-summary."
     ]
   },
   {

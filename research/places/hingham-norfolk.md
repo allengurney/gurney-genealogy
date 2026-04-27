@@ -61,10 +61,10 @@ Because Hingham is a surviving-place record rather than a lost-manor or region-l
 - Short description: Ancient junior-line manor
 - Place type: locality
 - Aliases: Hingham, Norfolk
-- Coordinate: 52.5764, 0.9656821626060168 (medium)
+- Coordinate: 52.571755298216836, 0.9756833626995299 (medium)
 - Roles: landholding / property reference
 - Detail: Manor of Hingham-Gurneys, an ancient junior-line holding later held of the Bardolf and Morley interests.
-- Current-site status: unknown
+- Current-site status: extant private Grade II country house; not open to public
 
 ### Linked ancestors
 

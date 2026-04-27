@@ -82,7 +82,7 @@ Harpley remains a major medieval and Tudor Gurney manor, but the phrase "Gurney'
 - Aliases: Harpley, Norfolk
 - Coordinate: 52.8088, 0.6486 (medium)
 - Roles: landholding / property reference, individual geography
-- Detail: Gurney's manor in Harpley, acquired c.1183 through Rose de Burnham and the Hameline de Warenne connection.
+- Detail: Harpley manor, a major medieval Gurney holding acquired c.1183 through Rose de Burnham and the Hameline de Warenne connection; do not conflate with the extant Gurney's Manor at Hingham.
 - Current-site status: unknown
 - Links: [Blomefield: Harpley](https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459)
 
