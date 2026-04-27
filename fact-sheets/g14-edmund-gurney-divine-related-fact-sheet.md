@@ -2,9 +2,9 @@
 layout: layouts/base.njk
 permalink: /fact-sheets/g14-edmund-gurney-divine-related-fact-sheet.html
 title: Edmund Gurney Related Fact Sheet
-pageHeading: Edmund Gurney (1577-1648)
-subtitle: "Related fact sheet for G14. Edmund Gurney was not a direct ancestor; he was Henry Gurney's third son and brother of Francis Gurney (G14), the Merchant Taylor."
-description: "Compact related-person fact sheet for Edmund Gurney, Puritan divine, brother of Francis Gurney (G14)."
+pageHeading: Edmund Gurney / Edmund Gurnay (c.1577/8-1648)
+subtitle: "Related fact sheet for G14. Edmund Gurney was not a direct ancestor; he was Henry Gurney's son and Francis Gurney's brother."
+description: "Related-person fact sheet for Edmund Gurney or Gurnay, Puritan-leaning divine, Cambridge B.D., Rector of Edgefield and Harpley, and brother of Francis Gurney (G14)."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
 updated: 26 April 2026
@@ -18,16 +18,16 @@ factsheet:
 {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
-  "name": "Edmund Gurney - Related Fact Sheet",
-  "description": "Related-person fact sheet for Edmund Gurney, Puritan divine and brother of Francis Gurney (G14).",
+  "name": "Edmund Gurney / Edmund Gurnay - Related Fact Sheet",
+  "description": "Related-person fact sheet for Edmund Gurney or Gurnay, Puritan-leaning divine and brother of Francis Gurney (G14).",
   "mainEntity": {
     "@type": "Person",
     "name": "Edmund Gurney",
-    "alternateName": ["Edmond Gourney", "Edmund Gurnay"],
+    "alternateName": ["Edmund Gurnay", "Edmond Gourney", "Edm: Gurnay"],
     "birthDate": "1577",
-    "deathDate": "1648",
-    "deathPlace": { "@type": "Place", "name": "Norwich, Norfolk, England" },
-    "description": "Cambridge-educated Puritan divine, Rector of Edgefield and Harpley, and collateral brother of Francis Gurney (G14)."
+    "deathDate": "1648-05-14",
+    "burialPlace": { "@type": "Place", "name": "St Peter Mancroft, Norwich, Norfolk, England" },
+    "description": "Cambridge-educated Norfolk clergyman, Bachelor of Divinity, Rector of Edgefield and Harpley, anti-Catholic and anti-image writer, and collateral brother of Francis Gurney (G14)."
   }
 }
 </script>
@@ -39,19 +39,27 @@ factsheet:
 <div class="facts-vitals-grid">
   <div class="fact-item">
     <div class="fact-label">Born</div>
-    <div class="fact-value">1577, into the Norfolk Gurney family of Henry Gurney (G15) and Ellen Blennerhasset. Daniel Gurney and the Dictionary of National Biography tradition identify him as Henry's third son. <sup class="fn"><a href="#n1" id="ref-1">1</a></sup></div>
+    <div class="fact-value">Probably c.1577/8. DNB gives no birth year but places him as son of Henry Gurney of West Barsham and Ellingham, Norfolk, and Ellen Blennerhasset; the Harpley rectors register gives 1578. Treat the exact year as approximate. <sup class="fn"><a href="#n1" id="ref-1">1</a></sup></div>
   </div>
   <div class="fact-item">
-    <div class="fact-label">Died</div>
-    <div class="fact-value">1648. Daniel Gurney's Supplement places his burial at St Peter Mancroft, Norwich, and notes that the next Harpley presentation followed immediately after Edmund's death. <sup class="fn"><a href="#n2" id="ref-2">2</a></sup></div>
+    <div class="fact-label">Died / Buried</div>
+    <div class="fact-value">Died in 1648 and was buried at St Peter Mancroft, Norwich, on 14 May 1648. His successor at Harpley was instituted the following day. <sup class="fn"><a href="#n2" id="ref-2">2</a></sup></div>
   </div>
   <div class="fact-item">
-    <div class="fact-label">Status</div>
-    <div class="fact-value">Cambridge-educated clergyman and Puritan divine; B.D.; Rector of Edgefield, then Rector of Harpley. <sup class="fn"><a href="#n3" id="ref-3">3</a></sup></div>
+    <div class="fact-label">Education</div>
+    <div class="fact-value">Queens' College, Cambridge; B.A. 1600; Norfolk fellow of Corpus Christi College in 1601; M.A. 1602; B.D. 1609. DNB notes a 1607 suspension from fellowship for not being in orders, followed by reinstatement. <sup class="fn"><a href="#n3" id="ref-3">3</a></sup></div>
+  </div>
+  <div class="fact-item">
+    <div class="fact-label">Livings</div>
+    <div class="fact-value">Rector of Edgefield, Norfolk, 1614-1620; Rector of Harpley, Norfolk, 1620-1648. <sup class="fn"><a href="#n4" id="ref-4">4</a></sup></div>
+  </div>
+  <div class="fact-item">
+    <div class="fact-label">Family</div>
+    <div class="fact-value">Married to Ellen. DNB says he apparently had a son called Protestant, who died young and had a monument at Harpley. The Harpley rectors register transcribes the surviving or formerly surviving stone as "Protestant [Gur]nay" and dates it 1623. <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></div>
   </div>
   <div class="fact-item">
     <div class="fact-label">Relationship</div>
-    <div class="fact-value"><strong>Collateral G14.</strong> Edmund was brother of Francis Gurney (G14), the Merchant Taylor and probable father of John Gurney-1. He is not in Allen's direct ancestor spine. <sup class="fn"><a href="#n4" id="ref-4">4</a></sup></div>
+    <div class="fact-value"><strong>Collateral G14.</strong> Edmund was brother of Francis Gurney (G14), the London Merchant Taylor in the candidate direct line. He is not himself in the direct ancestor spine. <sup class="fn"><a href="#n6" id="ref-6">6</a></sup></div>
   </div>
 </div>
 </section>
@@ -60,37 +68,57 @@ factsheet:
 <h2 class="unnumbered">Highlights</h2>
 
 <ul>
-  <li><strong>Francis Gurney's clerical brother.</strong> Edmund sits beside Francis Gurney (G14) in the pedigree: both were sons of Henry Gurney (G15) and Ellen Blennerhasset. Edmund's religious career helps explain the strongly Puritan atmosphere around this generation of the family. <sup class="fn"><a href="#n4" id="ref-4b">4</a></sup></li>
-  <li><strong>Cambridge and Norfolk livings.</strong> Edmund studied at Queens' College and Corpus Christi College, Cambridge, proceeded B.D. in 1609, became Rector of Edgefield in 1614, and then Rector of Harpley in 1620. Harpley was especially resonant for the family because earlier Gurneys had held and presented to the living. <sup class="fn"><a href="#n3" id="ref-3b">3</a></sup></li>
-  <li><strong>A Puritan writer.</strong> His published works included <em>Corpus Christi</em> (1619), <em>The Romish Chain</em> (1624), and <em>Toward the Vindication of the Second Commandment</em> (1639). Daniel Gurney read him as plainly Puritan in tendency. <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></li>
-  <li><strong>The mathematician anecdote.</strong> Sir Nicholas L'Estrange's anecdote collection preserves Edmund's definition of a mathematician as someone who goes to market to buy an axe to break an egg. Thomas Fuller's appended account remembered him as a learned Norfolk divine with a serious mind and dry humor. <sup class="fn"><a href="#n6" id="ref-6">6</a></sup></li>
-  <li><strong>Useful John Gurney-1 context.</strong> Edmund is not proof of John Gurney-1's origin, but he is strong context for the Candidate B world: Francis Gurney's immediate family included a militant Puritan clergyman in Norfolk, while Francis himself lived in the City of London near intense Puritan networks. <sup class="fn"><a href="#n7" id="ref-7">7</a></sup></li>
+  <li><strong>Name form:</strong> DNB says Edmund spells his own name <em>Gurnay</em> on his title pages, while members of his family are usually described as <em>Gurney</em>. The fact sheet should therefore index him under both forms. <sup class="fn"><a href="#n7" id="ref-7">7</a></sup></li>
+  <li><strong>Puritan-leaning cleric:</strong> DNB describes him as inclined to Puritanism. The evidence is not merely denominational labeling: his anti-image tracts, the surplice anecdote, and the Harpley tradition all place him among rigorous anti-ceremonial clergy. <sup class="fn"><a href="#n8" id="ref-8">8</a></sup></li>
+  <li><strong>Surplice anecdote:</strong> When cited for not using a surplice and told he was expected always to wear it, he reportedly "came home, and rode a journey with it on." The anecdote is evidence of sharp, literalizing wit rather than simple refusal to conform. <sup class="fn"><a href="#n8" id="ref-8b">8</a></sup></li>
+  <li><strong>Printed controversialist:</strong> His works include <em>Corpus Christi</em> (1619), <em>The Romish Chain</em> (1624), <em>The Demonstration of Antichrist</em> (1631), <em>Toward the Vindication of the Second Commandment</em> (1639), and the continuation later known as <em>Gurnay Redivivus</em>. <sup class="fn"><a href="#n9" id="ref-9">9</a></sup></li>
+  <li><strong>Bibliographic caution:</strong> DNB says the continuation appeared in 1641 and was republished in 1661 as <em>Gurnay Redivivus</em>; Folger catalog records identify a 1660 second edition / reissue. Record the source-level discrepancy rather than flattening it. <sup class="fn"><a href="#n10" id="ref-10">10</a></sup></li>
+  <li><strong>Harpley memorial clue:</strong> The possible son Protestant Gurnay is unusually important because his name and epitaph language embody the family's militant anti-Roman posture in stone. The Harpley rectors register says the stone may still be seen on the external south wall near the priest's door, but this needs physical or photographic validation. <sup class="fn"><a href="#n5" id="ref-5b">5</a></sup></li>
+  <li><strong>John Gurney-1 context:</strong> Edmund does not prove the immigrant line. He does, however, strengthen the contextual picture that Francis Gurney (G14)'s immediate family belonged to a Norfolk/London milieu in which Puritan and anti-Roman commitments were prominent. <sup class="fn"><a href="#n11" id="ref-11">11</a></sup></li>
 </ul>
 </section>
 
 <section class="fact-section fact-narrative" id="narrative">
 <h2 class="unnumbered">Narrative</h2>
 
-Edmund Gurney belongs in this library as a related G14 figure: important, memorable, and close to the direct line, but not himself a direct ancestor. He was the third son of Henry Gurney (G15) and Ellen Blennerhasset, and therefore the brother of Francis Gurney (G14), the Merchant Taylor whose son John is the likely immigrant ancestor in the Candidate B model. <sup class="fn"><a href="#n1" id="ref-1b">1</a></sup><sup class="fn"><a href="#n4" id="ref-4c">4</a></sup>
+Edmund Gurney, usually printed by himself as Edmund Gurnay, is a close collateral figure for the G14 generation. He was a son of Henry Gurney of West Barsham and Ellingham and Ellen Blennerhasset, and therefore brother of Francis Gurney (G14), the London Merchant Taylor in the candidate direct line. DNB and Daniel Gurney agree on this placement, and the Camden Society L'Estrange material independently identifies "Parson Edmund Gurney" as brother to Francis. <sup class="fn"><a href="#n1" id="ref-1b">1</a></sup><sup class="fn"><a href="#n6" id="ref-6b">6</a></sup>
 
-His career ran through Cambridge and the Norfolk church. Daniel Gurney's summary, drawing on Masters and other sources, places him at Queens' College and Corpus Christi College, Cambridge, gives his B.D. in 1609, and follows him into the rectories of Edgefield and Harpley. Harpley made the family connection visible: the Gurneys had long been associated with that manor and church, and Edmund's tenure there turned an old landed connection into a clerical one. <sup class="fn"><a href="#n3" id="ref-3c">3</a></sup>
+His education was unusually strong for a collateral Norfolk gentleman's son. DNB places him at Queens' College, Cambridge, on 30 October 1594, with B.A. in 1600; then as Norfolk fellow of Corpus Christi College in 1601; M.A. in 1602; and B.D. in 1609. The same account notes that he was suspended from fellowship in 1607 for not being in orders, but reinstated by the vice-chancellor. The Harpley rectors register adds ordination and Oxford-incorporation details that should be checked against primary clerical and university records. <sup class="fn"><a href="#n3" id="ref-3b">3</a></sup><sup class="fn"><a href="#n12" id="ref-12">12</a></sup>
 
-Edmund's temperament appears sharply in the sources. He wrote against transubstantiation and religious images, and Daniel Gurney concluded that his opinions "tended to Puritanism." The anecdotal tradition remembers the same edge in miniature. Sir Nicholas L'Estrange preserved Edmund's joke that a mathematician is like someone who goes to market to buy an axe to break an egg. Fuller's accompanying account presents him as an excellent scholar who could be humorous or serious as he chose, whose jokes were neither profane nor injurious. <sup class="fn"><a href="#n5" id="ref-5b">5</a></sup><sup class="fn"><a href="#n6" id="ref-6b">6</a></sup>
+His clerical career was entirely Norfolk-facing. He left Cambridge in 1614 for the rectory of Edgefield, held that living until 1620, and then received Harpley, where he remained until his death in 1648. Harpley was not merely a living: it was part of an older family geography, and the modern Harpley register remembers him as the "Puritan Rector." <sup class="fn"><a href="#n4" id="ref-4b">4</a></sup><sup class="fn"><a href="#n12" id="ref-12b">12</a></sup>
 
-For the Gurney migration problem, Edmund is not a standalone proof, but he is a meaningful part of the family weather. John Gurney-1's probable father Francis belonged to a family in which one brother was a committed Puritan minister, their father Henry warned his sons against "fantastical or erroneous opinions," and Francis later lived in the London parish world adjacent to Coleman Street Puritan networks. Edmund therefore helps make the religious and social setting of the possible emigrant line more intelligible. <sup class="fn"><a href="#n7" id="ref-7b">7</a></sup>
+His printed record is doctrinally coherent. <em>Corpus Christi</em> attacked transubstantiation; <em>The Romish Chain</em> attacked Roman claims; <em>The Demonstration of Antichrist</em> treated the Roman church through the Antichrist polemic; and the Second Commandment works argued against images in churches. These writings explain why DNB and later local tradition classify him as Puritan-leaning, even though he retained Harpley through the Civil War period. <sup class="fn"><a href="#n9" id="ref-9b">9</a></sup><sup class="fn"><a href="#n10" id="ref-10b">10</a></sup>
+
+The detail of his household is still thin. DNB says his wife's name was Ellen and that he apparently had a son called Protestant, who died young. Harpley's later register says the stone read "Protestant [Gur]nay" and included a confession defying Rome's "Heresy, Idolatrye, Bloodthirstness, and boundless soveraynty." This is genealogically secondary until the parish register and stone are checked, but it is too distinctive to omit. <sup class="fn"><a href="#n5" id="ref-5c">5</a></sup>
+</section>
+
+<section class="fact-section" id="research-cautions">
+<h2 class="unnumbered">Research Cautions</h2>
+
+<ul>
+  <li><strong>Birth year:</strong> Use c.1577/8. DNB gives no birth year in the entry title or body; local Harpley material gives 1578; the existing project file used 1577.</li>
+  <li><strong>Harpley patron:</strong> Thoms identifies Sir William Yelverton as the 1620 patron; the Harpley register's note also points to the Yelverton/Stubbe chain. The attached Grokipedia capture says Sir Robert Barker in one place, which conflicts and should not be used without primary support.</li>
+  <li><strong>Edgefield not Happisburgh:</strong> DNB, Thoms, and the Harpley register identify Edgefield. The attached Grokipedia capture contains one "Happisburgh" wording that appears to be an error.</li>
+  <li><strong>1660/1661 <em>Gurnay Redivivus</em> issue:</strong> DNB says 1661; Folger's catalog records the 1660 second edition / reissue. Treat as a bibliographic discrepancy to be validated against ESTC/Wing and the specific Internet Archive scan.</li>
+</ul>
 </section>
 
 <section class="fact-section" id="citations">
 <h2 class="unnumbered">Citations</h2>
 
 <ol class="citation-list">
-  <li id="n1">Daniel Gurney, <em>The Record of the House of Gournay</em>, Part II (London: J. B. Nichols and J. G. Nichols, 1848), pedigree and narrative for Henry Gurney's children; see also Daniel Gurney, <em>Supplement to the Record of the House of Gournay</em> (1858), pp. 1011 ff. Source IDs: <code>dg-rec-pt2</code>, <code>dg-rec-supp</code>. <a class="citation-back" href="#ref-1">return</a></li>
-  <li id="n2">Daniel Gurney, <em>Supplement</em> (1858), p. 1011 and following notes on Edmund Gurney's death, burial at St Peter Mancroft, Norwich, and the Harpley presentation after his death. Source ID: <code>dg-rec-supp</code>. <a class="citation-back" href="#ref-2">return</a></li>
-  <li id="n3">Daniel Gurney, <em>Record</em>, Part II, account of Edmund Gurney citing Masters' history: Cambridge education, B.D. 1609, Edgefield presentation in 1614, and Harpley presentation in 1620. Source ID: <code>dg-rec-pt2</code>. <a class="citation-back" href="#ref-3">return</a></li>
-  <li id="n4">Existing project spine in <code>data/ancestors v26.json</code> and the G15 Henry Gurney fact sheet: Henry Gurney (G15) -> Francis Gurney (G14), with Edmund as Henry's third son and Francis's brother. <a class="citation-back" href="#ref-4">return</a></li>
-  <li id="n5">Daniel Gurney, <em>Record</em>, Part II, discussion of Edmund's printed works and conclusion that his opinions tended to Puritanism. Source ID: <code>dg-rec-pt2</code>. <a class="citation-back" href="#ref-5">return</a></li>
-  <li id="n6">William J. Thoms, ed., <em>Anecdotes and Traditions, Illustrative of Early English History and Literature, Derived from MS. Sources</em>, Camden Society, old series, vol. 5 (London: Printed for the Camden Society by J. B. Nichols and Son, 1839), p. 6, no. XI, "A Mathematician Defined"; introductory identification of "Parson Edmund Gurney" at pp. xviii-xx. Internet Archive, https://archive.org/details/anecdotestraditi00thomrich/. Source ID: <code>thoms-anecdotes-traditions-1839</code>. <a class="citation-back" href="#ref-6">return</a></li>
-  <li id="n7">Contextual use in <code>research/case-files/john-gurney-case-file-v4.md</code>, section on the religious and London-network setting for Francis Gurney (G14) and John Gurney-1. <a class="citation-back" href="#ref-7">return</a></li>
+  <li id="n1">Charles Lethbridge Kingsford, "Gurney or Gurnay, Edmund (d. 1648)," in Sidney Lee, ed., <em>Dictionary of National Biography</em>, vol. 23 (London: Smith, Elder &amp; Co., 1890), Wikisource transcription, https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Gurney,_Edmund_(d.1648). Source ID: <code>dnb-edmund-gurney-1890</code>. <a class="citation-back" href="#ref-1">return</a></li>
+  <li id="n2">DNB, "Gurney or Gurnay, Edmund (d. 1648)," burial and successor-at-Harpley details. Source ID: <code>dnb-edmund-gurney-1890</code>. <a class="citation-back" href="#ref-2">return</a></li>
+  <li id="n3">DNB, "Gurney or Gurnay, Edmund (d. 1648)," Cambridge education and 1607 fellowship suspension. Source ID: <code>dnb-edmund-gurney-1890</code>. <a class="citation-back" href="#ref-3">return</a></li>
+  <li id="n4">DNB, "Gurney or Gurnay, Edmund (d. 1648)," Edgefield and Harpley livings; William J. Thoms, ed., <em>Anecdotes and Traditions</em> (1839), pp. xviii-xx. Source IDs: <code>dnb-edmund-gurney-1890</code>, <code>thoms-anecdotes-traditions-1839</code>. <a class="citation-back" href="#ref-4">return</a></li>
+  <li id="n5">DNB, "Gurney or Gurnay, Edmund (d. 1648)," wife Ellen and probable son Protestant; GGM Benefice, "Register of Rectors — Harpley," Edmund Gurnay entry, https://www.ggmbenefice.uk/our-churches/harpley/register-of-rectors/. Source IDs: <code>dnb-edmund-gurney-1890</code>, <code>ggm-benefice-harpley-rectors</code>. <a class="citation-back" href="#ref-5">return</a></li>
+  <li id="n6">Daniel Gurney, <em>The Record of the House of Gournay</em>, Part III (1848), pp. 523-524, Heralds' Visitation material for Francis Gurnay of London; Thoms, ed., <em>Anecdotes and Traditions</em> (1839), pp. xviii-xx. Source IDs: <code>dg-rec-pt3</code>, <code>thoms-anecdotes-traditions-1839</code>. <a class="citation-back" href="#ref-6">return</a></li>
+  <li id="n7">DNB, "Gurney or Gurnay, Edmund (d. 1648)," title-page spelling note. Source ID: <code>dnb-edmund-gurney-1890</code>. <a class="citation-back" href="#ref-7">return</a></li>
+  <li id="n8">DNB, "Gurney or Gurnay, Edmund (d. 1648)," Puritan leaning and surplice anecdote; GGM Benefice, "Register of Rectors — Harpley," Edmund Gurnay entry. Source IDs: <code>dnb-edmund-gurney-1890</code>, <code>ggm-benefice-harpley-rectors</code>. <a class="citation-back" href="#ref-8">return</a></li>
+  <li id="n9">DNB, "Gurney or Gurnay, Edmund (d. 1648)," works list; Folger Shakespeare Library catalog records for <em>Corpus Christi</em> (1619), <em>The Romish chaine</em> (1624), <em>The demonstration of Antichrist</em> (1631), and <em>Toward the vindication of the Second Commandment</em> (1639). Source IDs: <code>folger-corpus-christi-1619</code>, <code>folger-romish-chaine-1624</code>, <code>folger-demonstration-antichrist-1631</code>, <code>folger-second-commandment-1639</code>. <a class="citation-back" href="#ref-9">return</a></li>
+  <li id="n10">Folger Shakespeare Library, catalog record for <em>Gurnay redivivus, or an appendix unto the homily against images in churches</em> (London: J. Rothwel, 1660), including note that it was originally published in 1641 and was a second edition / reissue; DNB's 1661 note. Source IDs: <code>gurnay-redivivus-1660</code>, <code>dnb-edmund-gurney-1890</code>. <a class="citation-back" href="#ref-10">return</a></li>
+  <li id="n11">Contextual use in <code>research/case-files/john-gurney-case-file-v4.md</code>, where Francis Gurney (G14)'s London, family, and religious-network setting is evaluated. <a class="citation-back" href="#ref-11">return</a></li>
+  <li id="n12">GGM Benefice, "Register of Rectors — Harpley," Edmund Gurnay entry: local rector chronology, ordination note, Oxford incorporation note, Protestant Gurnay epitaph transcription, alehouse note, and Wren-visitation tradition. Source ID: <code>ggm-benefice-harpley-rectors</code>. <a class="citation-back" href="#ref-12">return</a></li>
 </ol>
 </section>
 
@@ -105,7 +133,10 @@ For the Gurney migration problem, Edmund is not a standalone proof, but he is a 
     <a href="/fact-sheets/g14-francis-gurney-fact-sheet.html">G14 Francis Gurney</a>
     <a href="/fact-sheets/g15-henry-gurney-fact-sheet.html">G15 Henry Gurney</a>
     <a href="/research/companions/edmund-gurney-divine.html">Research notes</a>
-    <a href="https://archive.org/details/anecdotestraditi00thomrich/page/6/mode/1up">Anecdotes and Traditions, p. 6</a>
+    <a href="https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Gurney,_Edmund_(d.1648)">DNB: Edmund Gurney</a>
+    <a href="https://www.ggmbenefice.uk/our-churches/harpley/register-of-rectors/">Harpley Register of Rectors</a>
+    <a href="https://archive.org/details/anecdotestraditi00thomrich/page/6/mode/1up">L'Estrange / Fuller anecdote</a>
+    <a href="https://catalog.folger.edu/record/154518">Folger: Gurnay Redivivus</a>
   </div>
 </div>
 
@@ -114,10 +145,10 @@ For the Gurney migration problem, Edmund is not a standalone proof, but he is a 
   <table class="fact-timeline-table">
     <tbody>
       <tr><th>Step</th><th>Line</th></tr>
-      <tr><td>Parent</td><td>Henry Gurney (G15) and Ellen Blennerhasset</td></tr>
+      <tr><td>Parents</td><td>Henry Gurney (G15) and Ellen Blennerhasset</td></tr>
       <tr><td>Direct-line child</td><td>Francis Gurney (G14), Merchant Taylor</td></tr>
-      <tr><td>Related child</td><td>Edmund Gurney, Puritan divine</td></tr>
-      <tr><td>Relationship</td><td>Brother of Allen's direct ancestor Francis Gurney (G14)</td></tr>
+      <tr><td>Collateral child</td><td>Edmund Gurney / Gurnay, Puritan-leaning divine</td></tr>
+      <tr><td>Relationship</td><td>Brother of Francis Gurney (G14)</td></tr>
     </tbody>
   </table>
 </div>
@@ -127,13 +158,17 @@ For the Gurney migration problem, Edmund is not a standalone proof, but he is a 
   <table class="fact-timeline-table">
     <tbody>
       <tr><th>Year</th><th>Event</th></tr>
-      <tr><td>1577</td><td>Born into the Norfolk Gurney family.</td></tr>
-      <tr><td>1594</td><td>Entered Queens' College, Cambridge.</td></tr>
-      <tr><td>1601</td><td>Became a Norfolk fellow of Corpus Christi College.</td></tr>
-      <tr><td>1609</td><td>Proceeded Bachelor of Divinity.</td></tr>
+      <tr><td>c.1577/8</td><td>Born into the Norfolk Gurney / Gurnay family.</td></tr>
+      <tr><td>1594</td><td>Matriculated at Queens' College, Cambridge, per DNB.</td></tr>
+      <tr><td>1601</td><td>Elected Norfolk fellow of Corpus Christi College.</td></tr>
+      <tr><td>1607</td><td>Suspended from fellowship for not being in orders; reinstated.</td></tr>
+      <tr><td>1609</td><td>Proceeded B.D.</td></tr>
       <tr><td>1614</td><td>Presented to Edgefield rectory.</td></tr>
-      <tr><td>1620</td><td>Presented to Harpley rectory.</td></tr>
-      <tr><td>1648</td><td>Died and was buried at St Peter Mancroft, Norwich.</td></tr>
+      <tr><td>1620</td><td>Received Harpley rectory.</td></tr>
+      <tr><td>1623/4</td><td>Possible son Protestant Gurnay died young; stone at Harpley requires validation.</td></tr>
+      <tr><td>1639</td><td><em>Toward the Vindication of the Second Commandment</em>.</td></tr>
+      <tr><td>1648</td><td>Buried 14 May at St Peter Mancroft, Norwich.</td></tr>
+      <tr><td>1660/1</td><td><em>Gurnay Redivivus</em> second-edition / reissue problem; Folger gives 1660, DNB gives 1661.</td></tr>
     </tbody>
   </table>
 </div>

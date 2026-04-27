@@ -68,6 +68,14 @@ This last entry is genealogically important — it shows the Harpley tenure chai
 
 After Evesham and the proclamation of peace, his estates were seized. The Crusade (1270) came five years later and effectively rehabilitated him — the King's own letters of protection restored his legal standing.
 
+### Anderson 1742 — Harpley advowson resolved by trial by battle, 3 Edw. I
+
+2026-04-26 — Anderson, *House of Yvery* Vol. II (1742), p. 478, records the Harpley advowson resolution under John (3 Edw. I = 1274/5):
+
+> "John de Gournay, who in the third of King Edward the First had a Suit with the Prior of Lewes, for the Right of Presentation to the Church of Harpeli, in the same County of Norfolk; whereupon a Trial by Battle was appointed, and the said John de Gournay and the Prior came armed into the Field, where the Prior yielded full Seizin of the said Advowson, to the said John de Gournay, for himself and his Successors for ever."
+
+Anderson cites *Placita de Banco*, Norfolk, 3 Edw. I, "de Ecclesia de Harpeli." This is independent 1742 print testimony predating DG by 106 years. It complements the Rotuli Hundredorum 1274 entry already on this file (which establishes the Harpley tenure chain King → Earl Warren → Caletorp → Gournay) by identifying the parallel ecclesiastical-patronage dispute and its resolution. The trial-by-battle resolution is striking — judicial combat for advowson disputes was already archaic by 1274/5, and its use here suggests both parties were prepared to press the matter to its medieval extreme. The Prior's yielding "in the field" gave John and his successors permanent right of presentation to Harpley church, which would have transmitted to G26, G25, G24, G23 Edmund and forward.
+
 ---
 
 ## Landholdings
@@ -88,6 +96,7 @@ After Evesham and the proclamation of peace, his estates were seized. The Crusad
 2. **South Wootton outcome:** The plea was remitted to a jury. What was the verdict? The outcome would show whether Alice recovered her property.
 3. **"Not being knighted" — 1257 presentment:** The fact sheet mentions John was "presented by jury of Mitford in 1257 for not being knighted." This refers to the distraint of knighthood — Henry III's policy of compelling wealthy landholders to take up knighthood (and its expensive obligations). John's resistance is politically suggestive — he may have been sympathetic to baronial opposition before Lewes.
 4. **Crusade itinerary:** Did John participate in the siege of Acre or other specific engagements? The letters of protection cover four years. Edward's Crusade (1270–1272) included stops in Tunisia, Sicily, and Acre.
+5. **Placita de Banco, Norfolk, 3 Edw. I, "de Ecclesia de Harpeli":** Anderson Vol. II p. 478 cites this primary source for the Harpley advowson trial-by-battle resolution between John and the Prior of Lewes. The original record, if it survives at TNA among the Common Pleas plea rolls (CP 40 series for Edward I), would provide the definitive primary text. Locating it would (a) confirm Anderson's account verbatim, (b) potentially resolve any remaining doubt about whether Anderson's "John" is G27 or a different figure, (c) document the specific procedural form (judicial duel, advowson dispute) used.
 
 ---
 
@@ -99,6 +108,11 @@ After Evesham and the proclamation of peace, his estates were seized. The Crusad
 - DG-Supp, Note 114 (pp. 786–787): Full Latin text of Crusade letters of protection (Rot. Patent 54 Hen. III, m. 15. d., 1270). Rotuli Hundredorum entries (1274). Harpley tenure chain. [DG-Supp]
 - Blomefield, *History of Norfolk* — cited in fact sheet for Harpley detail. Not yet extracted for G27 specifics. [Blomefield]
 - *Excerpta Historica* (ed. Bentley, 1831): list of Crusade protection recipients. [Excerpta-Hist]
+- Anderson, James, *Genealogical History of the House of Yvery*, Vol. II (London, 1742), p. 478: independent 1742 record of the Harpley advowson dispute between John de Gournay and the Prior of Lewes in 3 Edw. I (1274/5), settled by judicial combat with the Prior yielding the advowson to John "for himself and his Successors for ever." Cites *Placita de Banco*, Norfolk, 3 Edw. I, "de Ecclesia de Harpeli." Predates DG by 106 years. Source ID: `anderson-yvery-1742`. [Anderson-Yvery]
+
+### Sources to obtain
+
+- *Placita de Banco*, Norfolk, 3 Edw. I, "de Ecclesia de Harpeli" — the original Common Pleas record of the Harpley advowson dispute. TNA CP 40 series.
 
 ---
 
@@ -115,3 +129,4 @@ None identified for John himself. The Katherine Ingoldesthorpe/Baconsthorpe ques
 3. **Three engrailed crosses:** The Gournay, Ufford, and Ingoldesthorpe families all bore engrailed crosses and all went on the 1270 Crusade. DG's speculation that the arms "may have originated from that circumstance" is genealogically fascinating. Worth noting even if unprovable.
 4. **Norwich Cathedral tomb:** If the engrailed-cross coffin-lid survives, it deserves a mention — it could be the oldest physical Gournay memorial in England.
 5. **Harpley tenure chain:** The Rotuli Hundredorum entry showing King → Earl Warren → Caletorp → Gournay at Harpley connects to the original Rose de Burnham marriage (G29). The Warren overlordship persisted for nearly a century.
+6. **Harpley advowson trial-by-battle (Anderson Vol. II p. 478):** The 1274/5 judicial-combat resolution of the Lewes Priory dispute, with the Prior yielding the advowson "for himself and his Successors for ever," is a vivid and datable narrative anchor. It pairs naturally with the Rotuli Hundredorum 1274 tenure-chain entry to give a complete picture of John's Harpley position — landholding *and* ecclesiastical patronage, both secured in the same year.
