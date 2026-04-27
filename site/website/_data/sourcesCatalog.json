@@ -96,6 +96,18 @@
     "notes": "Records deaths of Basilia, Ansfride, and Eva at Bec on three consecutive Sundays in January 1099/1100. Primary source for Basilia's death date."
   },
   {
+    "sourceId": "decorde-essai-canton-gournay-1861",
+    "shortTitle": "Decorde, Essai historique et archeologique sur le Canton de Gournay (1861)",
+    "citation": "Decorde, J.-E. Essai historique et archeologique sur le Canton de Gournay. Paris: Derache and Didron; Rouen: Lebrument, 1861.",
+    "archive": "Google-digitized OCR text supplied to repo",
+    "url": "",
+    "corpusStatus": "full",
+    "corpusPath": "sources/corpus_supplement/essai-historique-archeologique-canton-de-gournay-decorde-1861.txt",
+    "mediaPath": "",
+    "validationPath": "sources/validations/decorde-essai-canton-gournay-1861.md",
+    "notes": "French local history and archaeology of the canton of Gournay. Important for Gournay-en-Bray, Beauvaisis frontier acquisitions, Boshyon/Bois-Hugues, Bremontier-Merval, Bellosanne, and local tradition around the medieval lords of Gournay. OCR text is useful but visibly noisy; cite exact passages only after checking page images or cleaner scans when claims are delicate."
+  },
+  {
     "sourceId": "dg-rec-pt1",
     "shortTitle": "DG Record, Part I",
     "citation": "Gurney, Daniel. The Record of the House of Gournay, Part I. London: J. B. Nichols and J. G. Nichols, 1848.",
@@ -168,6 +180,18 @@
     "notes": "Rye's additions to the Supplement. Distinct from rye-norfolk-antiquarian (Rye's separate 1893 article). Text extraction pending."
   },
   {
+    "sourceId": "dnb-edmund-gurney-1890",
+    "shortTitle": "DNB - Edmund Gurney (d.1648)",
+    "citation": "Kingsford, Charles Lethbridge. \"Gurney or Gurnay, Edmund (d. 1648).\" In Sidney Lee, ed., Dictionary of National Biography, vol. 23. London: Smith, Elder & Co., 1890.",
+    "archive": "Wikisource transcription of Dictionary of National Biography, 1885-1900, vol. 23",
+    "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Gurney,_Edmund_(d.1648)",
+    "corpusStatus": "full",
+    "corpusPath": "sources/corpus_supplement/dnb-edmund-gurney-1890.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/dnb-edmund-gurney-1890.md",
+    "notes": "Core public-domain biographical source for Edmund Gurney/Gurnay, d.1648: parentage, Cambridge chronology, Edgefield and Harpley livings, Puritan inclination, surplice anecdote, burial at St Peter Mancroft Norwich on 14 May 1648, wife Ellen, apparent son Protestant, works list, and Gurnay/Gurney spelling note."
+  },
+  {
     "sourceId": "domesday-1086",
     "shortTitle": "Domesday Book (1086)",
     "citation": "Domesday Book, 1086. National Archives.",
@@ -204,6 +228,54 @@
     "notes": "Standard charter collection for pre-Conquest ducal Normandy. Index search for Gournay/Gornai entries needed."
   },
   {
+    "sourceId": "folger-corpus-christi-1619",
+    "shortTitle": "Folger - Corpus Christi (1619)",
+    "citation": "Gurnay, Edmund. Corpus Christi. Cambridge: Cantrell Legge, printer to the University of Cambridge, 1619.",
+    "archive": "Folger Shakespeare Library catalog",
+    "url": "https://catalog.folger.edu/record/159988",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Bibliographic control for Edmund Gurnay's 1619 treatise against transubstantiation; sermon on Matthew 26:26; STC 12527."
+  },
+  {
+    "sourceId": "folger-demonstration-antichrist-1631",
+    "shortTitle": "Folger - Demonstration of Antichrist (1631)",
+    "citation": "Gurnay, Edmund. The demonstration of Antichrist. London: Printed by John Beale for James Boler, 1631.",
+    "archive": "Folger Shakespeare Library catalog",
+    "url": "https://catalog.folger.edu/record/168785",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Bibliographic control for Edmund Gurnay's 1631 anti-Roman tract; title identifies him as B.D. and parson of Harpley, Norfolk; STC 12529."
+  },
+  {
+    "sourceId": "folger-romish-chaine-1624",
+    "shortTitle": "Folger - The Romish chaine (1624)",
+    "citation": "Gurnay, Edmund. The Romish chaine. By Edmund Gurnay, parson of Harpley. London: Printed by Augustine Mathewes for Mathew Law, 1624.",
+    "archive": "Folger Shakespeare Library catalog",
+    "url": "https://catalog.folger.edu/record/401784",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Bibliographic control for Edmund Gurnay's 1624 anti-Roman tract; STC 12530; title identifies him as parson of Harpley."
+  },
+  {
+    "sourceId": "folger-second-commandment-1639",
+    "shortTitle": "Folger - Toward the vindication of the Second Commandment (1639)",
+    "citation": "Gurnay, Edmund. Toward the vindication of the Second Commandment. Cambridge: Thomas Buck, one of the printers to the University of Cambridge, 1639.",
+    "archive": "Folger Shakespeare Library catalog",
+    "url": "https://catalog.folger.edu/record/159994",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Bibliographic control for Edmund Gurnay's 1639 anti-image tract; title identifies him as Bachelor in Divinity and minister of God's word at Harpley in Norfolk; STC 12531."
+  },
+  {
     "sourceId": "foster-streeter-cummington",
     "shortTitle": "Foster & Streeter, Only One Cummington (1974)",
     "citation": "Foster, Helen Hunter, and William W. Streeter. Only One Cummington. Cummington, Massachusetts: Cummington Historical Commission, 1974.",
@@ -228,6 +300,18 @@
     "notes": "FreeREG confirmed Francis G14 burial 9 Jan 1646/7, St Botolph Bishopsgate. Corrected Boyd's 1641 misread."
   },
   {
+    "sourceId": "ggm-benefice-harpley-rectors",
+    "shortTitle": "GGM Benefice - Harpley Register of Rectors",
+    "citation": "\"Register of Rectors.\" GGM Benefice, Harpley, St Lawrence.",
+    "archive": "GGM Benefice website",
+    "url": "https://www.ggmbenefice.uk/our-churches/harpley/register-of-rectors/",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/ggm-benefice-harpley-rectors-edmund-gurnay.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Local Harpley rector list and biographical synthesis. Useful for Edmund Gurnay's 1620-1648 Harpley rectorship, local 'Puritan Rector' tradition, ordination and Oxford-incorporation leads, Protestant Gurnay epitaph transcription, alehouse note, and Wren-visitation/excommunication lead. Treat as secondary/local synthesis and verify contested details."
+  },
+  {
     "sourceId": "gibson-dell-protestation",
     "shortTitle": "Gibson & Dell, Protestation Returns guide",
     "citation": "Gibson, Jeremy, and Alan Dell. Protestation Returns 1641–1642, and Other Contemporary Listings. Federation of Family History Societies, 1995; revised 2004.",
@@ -238,6 +322,30 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "County coverage chart used to assess significance of absences. London City = NONE, Norfolk = NONE, Suffolk = NONE, Essex = Slight, Bucks = Slight (but Stewkley well-represented)."
+  },
+  {
+    "sourceId": "grokipedia-edmund-gurney-divine",
+    "shortTitle": "Grokipedia - Edmund Gurney (divine)",
+    "citation": "\"Edmund Gurney (divine).\" Grokipedia. User-supplied article capture, 2026-04-26.",
+    "archive": "User-supplied capture in ChatGPT conversation",
+    "url": "https://grokipedia.com/page/edmund_gurney_divine",
+    "corpusStatus": "captured",
+    "corpusPath": "sources/corpus_supplement/grokipedia-edmund-gurney-divine-capture.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/grokipedia-edmund-gurney-divine.md",
+    "notes": "Tertiary online encyclopedia article supplied by user and captured in corpus_supplement. Useful as a digest and claim checklist, but not as a core authority. Contains apparent conflicts or errors including a stray Happisburgh reference and a Harpley patron reference to Sir Robert Barker; validate each claim against DNB, Thoms, Folger/OTA, CCEd, parish, and diocesan sources before use."
+  },
+  {
+    "sourceId": "gurnay-redivivus-1660",
+    "shortTitle": "Gurnay Redivivus (1660)",
+    "citation": "Gurnay, Edmund. Gurnay redivivus, or an appendix unto the homily against images in churches. London: Printed for J. Rothwel at the Fountain in Goldsmiths-Row in Cheap-side, 1660.",
+    "archive": "Folger Shakespeare Library catalog / Internet Archive scan",
+    "url": "https://catalog.folger.edu/record/154518",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/deep-research-report-gurney-redivivus.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/gurnay-redivivus-1660.md",
+    "notes": "Primary printed anti-image tract by Edmund Gurnay, B.D., minister at Harpley. The corpus supplement path currently holds a deep-research report with title-page/dedication transcription, selected text extracts, and analysis; it is not a full diplomatic transcription of every page. Folger records the item as a 1660 second edition, originally published in 1641, with a same-year reissue/cancel title issue. DNB reports republication in 1661; preserve this bibliographic discrepancy pending ESTC/Wing and scan-level review."
   },
   {
     "sourceId": "three-hundred-years-norman-house",
@@ -454,6 +562,30 @@
     "mediaPath": "sources/media/parish-register/",
     "validationPath": "",
     "notes": "Systematically reviewed. Five Francis Gurney baptisms identified (Entries A–E). Entry E: 'John son of [ffrancis Gurnie?]' — four-test paleographic analysis supports ffrancis over Nicholas. Margaret Rybett death revised to c.1616–17 based on 9-month impossibility test."
+  },
+  {
+    "sourceId": "ota-corpus-christi-1619",
+    "shortTitle": "OTA - Corpus Christi (1619)",
+    "citation": "Gurnay, Edmund. Corpus Christi. Oxford Text Archive, OTA A02396.",
+    "archive": "Oxford Text Archive / Text Creation Partnership",
+    "url": "https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/A02396",
+    "corpusStatus": "available",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Publicly available text/corpus files for Corpus Christi, useful for future direct textual analysis."
+  },
+  {
+    "sourceId": "ota-romish-chaine-1624",
+    "shortTitle": "OTA - The Romish chaine (1624)",
+    "citation": "Gurnay, Edmund. The Romish chaine. Oxford Text Archive, OTA A02400.",
+    "archive": "Oxford Text Archive / Text Creation Partnership",
+    "url": "https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/A02400",
+    "corpusStatus": "available",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Publicly available text/corpus files for The Romish chaine, useful for future direct textual analysis."
   },
   {
     "sourceId": "pease-pennyghael",

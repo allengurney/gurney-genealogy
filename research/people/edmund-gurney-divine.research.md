@@ -111,6 +111,10 @@ Folger also records the edition as "[The second edition]," says the work was ori
 
 The tract's genealogical value is narrow but real. It confirms the printed surname form **Gurnay**, Edmund's B.D. status, his Harpley ministry, and his anti-image theology. It does **not** supply a pedigree or direct evidence for John Gurney-1.
 
+The fuller source report preserves two additional facts worth retaining. First, the dedication names "Sir John Hobart, Knight and Baronet" and "Lady Frances his Wife," which points to a Norfolk patronage or deference relationship but does not establish kinship. Second, the opening of the tract frames opposition to church images as both urgent and officially Anglican: images had to be opposed because of "the proneness of the times to advance them," and because the Church of England's homily against idolatry made it an act of authority rather than rashness to resist them.[^gurnay-redivivus-report]
+
+The report's selected extracts also sharpen the theological profile. Gurnay argues against images not only as devotional aids but also as church ornaments and monuments. In the monument section, the tract prefers written memory, inward virtue, and recorded deeds over bodily likenesses in stone. That is useful intellectual context for Edmund's anti-image stance, but it still remains contextual evidence: the tract does not name his parents, siblings, wife, children, or any link to the New England migration problem.[^gurnay-redivivus-report]
+
 ## DNB article: retained synthesis
 
 DNB is concise but unusually dense. The following claims should be retained in project prose, with DNB as the source ID:
@@ -214,7 +218,7 @@ No claim should be made that Edmund directly influenced John Gurney-1, assisted 
 | GGM Benefice, Harpley Register of Rectors | Local Harpley synthesis; Protestant stone; ordination and patronage leads; Wren-visitation lead | Add to `sources.json` as secondary/local source |
 | Folger catalog records | Bibliographic control for printed works | Add individual source entries or one grouped source note |
 | OTA records | Public text availability for <em>Corpus Christi</em> and <em>The Romish chaine</em> | Add if corpus ingestion is planned |
-| Grokipedia capture | Tertiary digest; source comparison and error quarantine | Add to `sources.json` as captured tertiary source, not a core authority |
+| Grokipedia capture | Tertiary digest; source comparison and error quarantine | Catalogued in `sources.json` as captured tertiary source, not a core authority |
 
 [^dnb-edmund]: Charles Lethbridge Kingsford, "Gurney or Gurnay, Edmund (d. 1648)," in Sidney Lee, ed., <em>Dictionary of National Biography</em>, vol. 23 (London: Smith, Elder & Co., 1890), Wikisource transcription, https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Gurney,_Edmund_(d.1648). Source ID: `dnb-edmund-gurney-1890`.
 
@@ -224,22 +228,24 @@ No claim should be made that Edmund directly influenced John Gurney-1, assisted 
 
 [^gurnay-redivivus-folger]: Folger Shakespeare Library, catalog record for <em>Gurnay redivivus, or an appendix unto the homily against images in churches</em> (London: Printed for J. Rothwel, 1660), https://catalog.folger.edu/record/154518. Source ID: `gurnay-redivivus-1660`.
 
-[^grokipedia-capture]: "Edmund Gurney (divine)," Grokipedia article text supplied by user in conversation attachment, 2026-04-26. Proposed source ID: `grokipedia-edmund-gurney-divine`. Treat as tertiary and validate against primary/older secondary sources before use for contested claims.
+[^gurnay-redivivus-report]: "Gurnay Redivivus and Its Actual Value for Gurney Genealogy Research," repo corpus supplement report, `sources/corpus_supplement/deep-research-report-gurney-redivivus.md`, especially title page, dedication, pp. 1, 53-57 working extracts, and intake-ready findings. Source ID: `gurnay-redivivus-1660`.
+
+[^grokipedia-capture]: "Edmund Gurney (divine)," Grokipedia article text supplied by user in conversation attachment, 2026-04-26. Source ID: `grokipedia-edmund-gurney-divine`. Treat as tertiary and validate against primary/older secondary sources before use for contested claims.
 
 [^ggm-harpley]: GGM Benefice, "Register of Rectors — Harpley," Edmund Gurnay entry, https://www.ggmbenefice.uk/our-churches/harpley/register-of-rectors/. Source ID: `ggm-benefice-harpley-rectors`.
 
-[^folger-corpus-1619]: Folger Shakespeare Library, catalog record for <em>Corpus Christi: by Edmund Gurnay</em> (Cambridge: Cantrell Legge, 1619), https://catalog.folger.edu/record/159988. Proposed source ID: `folger-corpus-christi-1619`.
+[^folger-corpus-1619]: Folger Shakespeare Library, catalog record for <em>Corpus Christi: by Edmund Gurnay</em> (Cambridge: Cantrell Legge, 1619), https://catalog.folger.edu/record/159988. Source ID: `folger-corpus-christi-1619`.
 
-[^ota-corpus-1619]: Oxford Text Archive, <em>Corpus Christi: by Edmund Gurnay</em>, OTA identifier `ota:A02396`, https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/A02396. Proposed source ID: `ota-corpus-christi-1619`.
+[^ota-corpus-1619]: Oxford Text Archive, <em>Corpus Christi: by Edmund Gurnay</em>, OTA identifier `ota:A02396`, https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/A02396. Source ID: `ota-corpus-christi-1619`.
 
 [^folger-corpus-1630]: Folger Shakespeare Library, catalog record for <em>Corpus Christi: by Edmund Gurnay, Bach. Theol. P. de Harpley Norfolc.</em> (London, 1630), https://catalog.folger.edu/record/165200. Proposed source ID: `folger-corpus-christi-1630`.
 
-[^folger-romish]: Folger Shakespeare Library, catalog record for <em>The Romish chaine. By Edmund Gurnay, parson of Harpley</em> (London, 1624), https://catalog.folger.edu/record/401784. Proposed source ID: `folger-romish-chaine-1624`.
+[^folger-romish]: Folger Shakespeare Library, catalog record for <em>The Romish chaine. By Edmund Gurnay, parson of Harpley</em> (London, 1624), https://catalog.folger.edu/record/401784. Source ID: `folger-romish-chaine-1624`.
 
-[^ota-romish]: Oxford Text Archive, <em>The Romish chaine. By Edmund Gurnay, parson of Harpley</em>, OTA identifier `ota:A02400`, https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/A02400. Proposed source ID: `ota-romish-chaine-1624`.
+[^ota-romish]: Oxford Text Archive, <em>The Romish chaine. By Edmund Gurnay, parson of Harpley</em>, OTA identifier `ota:A02400`, https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/A02400. Source ID: `ota-romish-chaine-1624`.
 
-[^folger-antichrist]: Folger Shakespeare Library, catalog record for <em>The demonstration of Antichrist. By Edmund Gurnay, Bach. Theol. p. of Harpley Norfolke</em> (London, 1631), https://catalog.folger.edu/record/168785. Proposed source ID: `folger-demonstration-antichrist-1631`.
+[^folger-antichrist]: Folger Shakespeare Library, catalog record for <em>The demonstration of Antichrist. By Edmund Gurnay, Bach. Theol. p. of Harpley Norfolke</em> (London, 1631), https://catalog.folger.edu/record/168785. Source ID: `folger-demonstration-antichrist-1631`.
 
-[^folger-second-commandment]: Folger Shakespeare Library, catalog record for <em>Toward the vindication of the Second Commandment: by Edm. Gurnay, Bachelour in Divinity, and minister of Gods word at Harpley in Norfolk</em> (Cambridge, 1639), https://catalog.folger.edu/record/159994. Proposed source ID: `folger-second-commandment-1639`.
+[^folger-second-commandment]: Folger Shakespeare Library, catalog record for <em>Toward the vindication of the Second Commandment: by Edm. Gurnay, Bachelour in Divinity, and minister of Gods word at Harpley in Norfolk</em> (Cambridge, 1639), https://catalog.folger.edu/record/159994. Source ID: `folger-second-commandment-1639`.
 
 [^thoms-anecdote]: Thoms, ed., <em>Anecdotes and Traditions</em> (1839), p. 6, no. XI, "A Mathematician Defined," from L'Estrange no. 30, with Fuller's account of Edmond Gourney. Internet Archive, https://archive.org/details/anecdotestraditi00thomrich/page/6/mode/1up. Source ID: `thoms-anecdotes-traditions-1839`.
