@@ -17,7 +17,7 @@ Change:
 to:
 
 ```json
-"lastUpdated": "2026-04-26"
+"lastUpdated": "2026-04-27"
 ```
 
 ### 2. Insert / update source entries
