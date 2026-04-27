@@ -20,7 +20,13 @@ The strongest independently reviewed witness currently in hand is **Henry Gurney
 
 ## Surviving physical site
 
-The greatest value of Hingham in the present project is the survival of **Gurney's Manor** itself. Henry Gurney's research companion identifies the building on Attleborough Road as a **Grade II listed** structure, with a later Georgian front but a rear wing dated by Historic England to about **1600**, plausibly connected to the family's tenure. That makes Hingham one of the rare places in the England set where the surviving built environment can still be tied closely to a named Gurney possession in the Tudor/Stuart transition. [Historic England] [Henry G15 companion]
+The greatest value of Hingham in the present project is the survival of **Gurney's Manor** itself. DiCamillo identifies Gurney's Manor as a fully extant Grade II country house at Hingham, Norfolk: circa 1600, with circa 1700 and 1826 alterations/additions, and with earliest elements possibly dating to the 1570s. The house is private, not open to the public, and now presents as a red-brick Georgian house.[^dicamillo-gurneys-manor]
+
+Use working coordinate **52.571755298216836, 0.9756833626995299** for the Gurney's Manor physical-site marker. This coordinate is close to Hingham and is not close to Harpley; therefore it should be treated as evidence that the DiCamillo/Historic England-style "Gurney's Manor" site belongs in the Hingham place file, not the Harpley place file.[^dicamillo-gurneys-manor]
+
+That makes Hingham one of the rare places in the England set where the surviving built environment can still be tied closely to a named Gurney possession in the Tudor/Stuart transition. It remains a built-site witness, not by itself a full manorial-descent proof; Blomefield and manorial records remain the better sources for ownership chronology.
+
+[^dicamillo-gurneys-manor]: Curt DiCamillo, "Gurney's Manor," *The DiCamillo Companion to British & Irish Country Houses*, https://www.thedicamillo.com/house/gurneys-manor/. Source ID: `dicamillo-gurneys-manor`.
 
 ## Interpretive note
 
@@ -29,7 +35,7 @@ Because Hingham is a surviving-place record rather than a lost-manor or region-l
 ## Open items
 
 - [ ] Pull the full Blomefield Hingham entry to clarify the descent of Gurney's Manor before Henry G15 and verify how far back Anthony G17 and William G18 can be placed explicitly.
-- [ ] Add the Historic England list entry number and full building description directly into this file.
+- [ ] Add the Historic England list entry number and full building description directly into this file, and reconcile it with the DiCamillo description.
 - [ ] Check whether Henry Gurney's commonplace book (MS Tanner 175) contains any direct reference to Hingham or to repairs/building work at Gurney's Manor.
 
 ## Sources
@@ -39,6 +45,7 @@ Because Hingham is a surviving-place record rather than a lost-manor or region-l
 - `research/people/g17-anthony-gurney-fact-sheet.research.md`
 - `research/people/g18-william-gurney-v-fact-sheet.research.md`
 - Historic England list entry for Gurney's Manor, Hingham (not yet pulled directly into this file).
+- Curt DiCamillo, "Gurney's Manor," *The DiCamillo Companion to British & Irish Country Houses*. [DiCamillo]
 
 ## Crosslinks
 
@@ -54,10 +61,10 @@ Because Hingham is a surviving-place record rather than a lost-manor or region-l
 - Short description: Ancient junior-line manor
 - Place type: locality
 - Aliases: Hingham, Norfolk
-- Coordinate: 52.5764, 0.9656821626060168 (medium)
+- Coordinate: 52.571755298216836, 0.9756833626995299 (medium)
 - Roles: landholding / property reference
 - Detail: Manor of Hingham-Gurneys, an ancient junior-line holding later held of the Bardolf and Morley interests.
-- Current-site status: unknown
+- Current-site status: extant private Grade II country house; not open to public
 
 ### Linked ancestors
 
