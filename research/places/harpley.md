@@ -43,12 +43,21 @@ Harpley is one of the strongest examples in the project of a place that should n
 1. the medieval junior-line core manor from Matthew through Thomas II;
 2. the later Tudor recovery and clerical reconnection through Henry G15 and Edmund.
 
+## Gurney's Manor name caution
+
+Do not conflate Harpley's medieval Gurney manor with **Gurney's Manor, Hingham**. The DiCamillo Companion's Gurney's Manor entry is explicitly for Hingham, Norfolk, gives a Hingham-area location, and describes a fully extant Grade II country house with earliest elements possibly dating to the 1570s. That site is geographically separate from Harpley and belongs in `research/places/hingham-norfolk.md`.[^dicamillo-gurneys-manor-harpley]
+
+Harpley remains a major medieval and Tudor Gurney manor, but the phrase "Gurney's manor in Harpley" should be used descriptively, not as a proper-name reference to the extant Hingham house.
+
+[^dicamillo-gurneys-manor-harpley]: Curt DiCamillo, "Gurney's Manor," *The DiCamillo Companion to British & Irish Country Houses*, https://www.thedicamillo.com/house/gurneys-manor/. Source ID: `dicamillo-gurneys-manor`.
+
 ## Open items
 
 - Pull Blomefield vol. viii, pp. 452–459 for a complete manorial descent.
 - Check BL Add. MSS. 8841 for other Harpley manorial records beyond the 1354 entry.
 - Confirm whether the 1294 conveyance deed survives in NRO collections.
 - Add the 1587 repurchase citation directly into this file.
+- Audit any generated display text that says "Gurney's manor in Harpley" so it cannot be mistaken for the extant Gurney's Manor at Hingham.
 
 ## Sources
 
@@ -73,7 +82,7 @@ Harpley is one of the strongest examples in the project of a place that should n
 - Aliases: Harpley, Norfolk
 - Coordinate: 52.8088, 0.6486 (medium)
 - Roles: landholding / property reference, individual geography
-- Detail: Gurney's manor in Harpley, acquired c.1183 through Rose de Burnham and the Hameline de Warenne connection.
+- Detail: Harpley manor, a major medieval Gurney holding acquired c.1183 through Rose de Burnham and the Hameline de Warenne connection; do not conflate with the extant Gurney's Manor at Hingham.
 - Current-site status: unknown
 - Links: [Blomefield: Harpley](https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459)
 

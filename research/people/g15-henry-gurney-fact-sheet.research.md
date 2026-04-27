@@ -63,6 +63,13 @@ This is the **single richest primary-source corpus for any ancestor in the Gurne
 - **West Barsham Hall** (surviving 16th-century north wing, Grade II listed) — the seat where Henry was born and (per Pease) was buried.
 - **St Lawrence Church, Harpley** — the medieval ancestral seat Henry repurchased in 1587, where his son Edmund was rector 1620–1648.
 
+### Built-site witnesses: Hingham and Great Ellingham
+
+Two later Norfolk place records now provide stronger built-environment anchors for Henry Gurney's world. DiCamillo identifies Gurney's Manor at Hingham as a fully extant Grade II private country house, circa 1600 with later alterations and earliest elements possibly dating to the 1570s. Norfolk Heritage Explorer identifies Old Hall, Great Ellingham (MNF9108 / NHER 9108), as a medieval moated manorial site with a mid-sixteenth-century great house inside the main moat, "said to be 1573, by Henry Gurney," with fishponds, additional moated enclosures, barns, and Grade II protected status.[^dicamillo-gurneys-manor-g15][^nher-old-hall-g15]
+
+[^dicamillo-gurneys-manor-g15]: Curt DiCamillo, "Gurney's Manor," *The DiCamillo Companion to British & Irish Country Houses*, https://www.thedicamillo.com/house/gurneys-manor/. Source ID: `dicamillo-gurneys-manor`.
+[^nher-old-hall-g15]: Norfolk Historic Environment Service, "MNF9108 — Old Hall, Great Ellingham," *Norfolk Heritage Explorer*, https://www.heritage.norfolk.gov.uk/record-details?MNF9108. Source ID: `nher-mnf9108-old-hall-great-ellingham`.
+
 ### Landholdings (per Blomefield's three independent parish surveys)
 - **West Barsham manor and Hall** — held by one knight's fee of the manor of Castleacre.
 - **Great Ellingham manor** — held of the heirs of Lord Bardolph.
