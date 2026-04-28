@@ -7,7 +7,7 @@ subtitle: "Places connected to the Gurney pedigree, generated from the current s
 description: "Places catalog for the Gurney genealogy library, linking places back to related ancestors and records."
 bodyClass: explorer-page places-page
 activeNav: maps
-updated: 25 April 2026
+updated: 28 April 2026
 ---
 
 <div data-place-explorer>
@@ -51,6 +51,36 @@ updated: 25 April 2026
             {% if place.region %}<span>{{ place.region }}</span>{% endif %}
             {% if place.coordinatePrecision %}<span>{{ place.coordinatePrecision }} precision</span>{% endif %}
           </div>
+        </div>
+        <div class="place-media" aria-label="Place previews">
+          {% if place.imageUrl %}
+            <a class="place-thumb place-image-thumb"
+               href="{{ place.imageUrl }}"
+               target="_blank"
+               rel="noopener"
+               aria-label="Open image for {{ place.title }}"
+               data-place-interactive>
+              <img src="{{ place.imageUrl }}" alt="{{ place.imageTitle or place.title }}" loading="lazy">
+            </a>
+          {% endif %}
+          {% if place.coordinate and place.coordinate.lat and place.coordinate.lng %}
+            <div class="place-map-thumb"
+                 data-place-map-thumb
+                 data-place-interactive
+                 data-lat="{{ place.coordinate.lat }}"
+                 data-lng="{{ place.coordinate.lng }}"
+                 data-place-id="{{ place.placeId }}"
+                 data-place-title="{{ place.title }}">
+              <button type="button" class="place-map-button" aria-label="Map actions for {{ place.title }}">
+                <span class="place-mini-map" data-place-mini-map></span>
+                <span class="place-map-attribution">&copy; OSM/CARTO</span>
+              </button>
+              <div class="place-map-popover" data-place-map-popover>
+                <a href="https://www.google.com/maps/search/?api=1&amp;query={{ place.coordinate.lat }},{{ place.coordinate.lng }}" target="_blank" rel="noopener">Google Maps</a>
+                <a href="/maps-and-lists/ancestor-map.html?place={{ place.placeId }}">Ancestor Map</a>
+              </div>
+            </div>
+          {% endif %}
         </div>
         <div class="place-count">{{ place.ancestorCount }} link{% if place.ancestorCount != 1 %}s{% endif %}</div>
       </article>
@@ -118,4 +148,7 @@ updated: 25 April 2026
   </aside>
 </div>
 
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 <script src="/assets/pedigree-explorer.js"></script>
+<script src="/assets/place-thumbnails.js"></script>

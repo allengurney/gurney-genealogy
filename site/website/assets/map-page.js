@@ -14,6 +14,7 @@
       eraClass: point.dataset.eraClass,
       color: point.dataset.color || "#8a4b1e",
       place: point.dataset.place,
+      placeId: point.dataset.placeId,
       region: point.dataset.region,
       event: point.dataset.event,
       description: point.dataset.description,
@@ -29,6 +30,8 @@
   const eraButtons = Array.from(page.querySelectorAll("[data-map-era]"));
   const countNode = page.querySelector("[data-map-count]");
   const markers = [];
+  const params = new URLSearchParams(window.location.search);
+  const requestedPlaceId = params.get("place");
   let includeRelated = false;
   let kind = "all";
   let era = "all";
@@ -55,6 +58,7 @@
   function groupKey(point) {
     return [
       point.kind,
+      point.placeId,
       point.placeUrl,
       point.place,
       point.lat.toFixed(6),
@@ -139,6 +143,15 @@
 
     if (countNode) countNode.textContent = `${visiblePoints.length} mapped record${visiblePoints.length === 1 ? "" : "s"} / ${groups.length} place${groups.length === 1 ? "" : "s"}`;
     if (bounds.length) map.fitBounds(bounds, { padding: [30, 30], maxZoom: 7 });
+
+    if (requestedPlaceId) {
+      const requestedMarker = markers.find(marker => marker.__point.placeId === requestedPlaceId);
+      if (requestedMarker) {
+        const point = requestedMarker.__point;
+        map.setView([point.lat, point.lng], 13);
+        requestedMarker.openPopup();
+      }
+    }
   }
 
   relatedButtons.forEach(button => {
@@ -176,6 +189,15 @@
       redraw();
     });
   });
+
+  if (requestedPlaceId) {
+    includeRelated = true;
+    relatedButtons.forEach(button => {
+      const active = button.dataset.mapRelated === "related";
+      button.classList.toggle("is-active", active);
+      button.setAttribute("aria-pressed", active ? "true" : "false");
+    });
+  }
 
   redraw();
 })();
