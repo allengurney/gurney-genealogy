@@ -325,6 +325,17 @@
       "validationPath": "sources/validations/nher-mnf9108-old-hall-great-ellingham.md",
       "notes": "Government historic-environment record for Old Hall, Great Ellingham. Describes a medieval moated manorial site with a mid-16th-century great house within the main moat, additional moated enclosures and fishponds, 16th-century and 17th/18th-century barns, Grade II listing, and the statement that the first-floor hall is mid-16th century, said to be 1573 by Henry Gurney. Coordinate: 52.5319 N, 0.9808 E."
     },
+    "historic-england-old-hall-farmhouse-1077566": {
+      "shortTitle": "Historic England - Old Hall Farmhouse (1077566)",
+      "citation": "Historic England. \"Old Hall Farmhouse.\" National Heritage List for England, List Entry Number 1077566.",
+      "archive": "Historic England, National Heritage List for England",
+      "url": "https://historicengland.org.uk/listing/the-list/list-entry/1077566",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/historic-england-old-hall-farmhouse-1077566.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/historic-england-old-hall-farmhouse-1077566.md",
+      "notes": "Grade II listing for Old Hall Farmhouse, Great Ellingham. Historic England describes the house as c.1570, timber framed with wattle and daub and some clay lump infill on a brick plinth, cross-wing plan, two storeys, central range flanked by gabled cross wings, and with original staircase surviving to attic. First listed 21 July 1951; most recent amendment 16 November 1983; NGR TM 01591 96491. Supports the extant-house component of the Great Ellingham current-site status."
+    },
     "nher-great-ellingham-parish-summary": {
       "shortTitle": "NHER Parish Summary — Great Ellingham",
       "citation": "Norfolk Historic Environment Service. \"Parish Summary: Great Ellingham.\" Norfolk Heritage Explorer. Piet Aldridge, 6 April 2006.",

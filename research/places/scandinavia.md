@@ -11,7 +11,7 @@ A second caution matters here: **Rollo's Scandinavian ancestry should not be tre
 ## Why this place file exists
 
 The structured library needs a place record for:
-- the traditional Scandinavian background attached to Eudes (G~37)
+- the traditional Scandinavian background attached to Eudes (G37)
 - the even earlier placeholder generation of unknown Scandinavian ancestors
 - map and navigation continuity when the research references the family's pre-Norman setting
 
@@ -47,7 +47,7 @@ But because the evidence is broad and traditional rather than site-specific, the
 
 ### Linked ancestors
 
-- G~37 Eudes (Odon) de Gournay — individual geography
+- G37 Eudes (Odon) de Gournay — individual geography
 - G~38+ Unknown Scandinavian ancestors — individual geography
 
 ### Review notes

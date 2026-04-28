@@ -36,15 +36,15 @@ Several ancestor entries in `data/ancestors v23.json` have **`sourceQuote` or `e
 | Hugh de Gournay II | G34 | Gournay-en-Bray landholding | Same seven-plus-generation concatenation |
 | Renaud de Gournay | G35 | Gournay-en-Bray landholding | Same seven-plus-generation concatenation |
 | Hugh de Gournay I | G36 | Gournay-en-Bray landholding | Same seven-plus-generation concatenation |
-| Eudes de Gournay | G~37 | Gournay-en-Bray landholding | Same seven-plus-generation concatenation |
+| Eudes de Gournay | G37 | Gournay-en-Bray landholding | Same seven-plus-generation concatenation |
 
 ### Pattern
 
-The Gournay-en-Bray entry is shared as a landholding across G~37 through G33 (six ancestors) and the concatenation appears to be the full chain of their `eventDate` values merged into one field, separated by ` | ` and truncated at the end with "…". The Norfolk, Harpley, and West Barsham entries show the same pattern at their respective generational depths.
+The Gournay-en-Bray entry is shared as a landholding across G37 through G33 (six ancestors) and the concatenation appears to be the full chain of their `eventDate` values merged into one field, separated by ` | ` and truncated at the end with "…". The Norfolk, Harpley, and West Barsham entries show the same pattern at their respective generational depths.
 
-### Incorrect landholding assignment — G~37 Eudes
+### Incorrect landholding assignment — G37 Eudes
 
-In addition to the concatenation bug, **G~37 Eudes has a landholding entry for West Barsham, Norfolk** (coordinates 52.867826, 0.830094). This is categorically wrong. West Barsham did not enter the Gurney family until 1372, via Katherine de Wauncy's marriage to Edmund (G23) — nearly 500 years after Eudes. This is a data error that needs removal, not just cleanup of the `eventDate` field.
+In addition to the concatenation bug, **G37 Eudes has a landholding entry for West Barsham, Norfolk** (coordinates 52.867826, 0.830094). This is categorically wrong. West Barsham did not enter the Gurney family until 1372, via Katherine de Wauncy's marriage to Edmund (G23) — nearly 500 years after Eudes. This is a data error that needs removal, not just cleanup of the `eventDate` field.
 
 ### Likely cause
 
@@ -61,7 +61,7 @@ When the site's build system or a future application consumes `landholding / pro
 
 Proposed fix:
 - Split each contaminated location record into one record per ancestor holding the place.
-- Remove the West Barsham entry from G~37 Eudes entirely.
+- Remove the West Barsham entry from G37 Eudes entirely.
 - Trim any `…` truncation artifacts from concatenated fields.
 
 This is a bulk-script job (not MCP) per AI-Rules §3 exception — 14+ locations across 8 ancestors.
@@ -71,11 +71,11 @@ This is a bulk-script job (not MCP) per AI-Rules §3 exception — 14+ locations
 ## Action
 
 - [x] Document the concatenation bug (this file).
-- [x] Document the West Barsham / G~37 incorrect-assignment bug.
+- [x] Document the West Barsham / G37 incorrect-assignment bug.
 - [x] Document the filename mismatch.
 - [ ] Decide: rename `ancestors v23.json` → `ancestors_v23.json`, or update AI-Rules.
 - [ ] Script to de-concatenate the `eventDate` / `sourceQuote` fields and split into per-ancestor location records.
-- [ ] Remove West Barsham landholding from G~37.
+- [ ] Remove West Barsham landholding from G37.
 - [ ] Verify the map visualization in `tools/pedigree-explorer.html` (or future map tool) renders correctly after cleanup.
 
 ## Related

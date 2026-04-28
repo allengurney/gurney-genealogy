@@ -102,7 +102,7 @@ G0–G2 and living collaterals: minimize detail in public files. Birth year, gen
 5. **Margaret Rybett died c.1616–17**, not c.1618.
 6. **John Gurney-1 born c.1609–12** (revised from c.1603).
 7. **"Peter"** absent from all Gurney families; from wife Mary's unknown family.
-8. **Eudes (G~37)** is Tradition, not Confirmed.
+8. **Eudes (G37)** is Tradition, not Confirmed.
 
 ### Structural facts
 - G1 = Allen. Numbers increase going back.

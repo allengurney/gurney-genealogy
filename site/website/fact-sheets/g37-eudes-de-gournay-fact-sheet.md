@@ -3,13 +3,13 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g37-eudes-de-gournay-fact-sheet.html
 title: Eudes (Odon) de Gournay Fact Sheet
 pageHeading: Eudes (Odon) de Gournay (c. 860 – d. after 911)
-subtitle: "Ancestor fact sheet for G~37 in the direct Gurney line. Viking warrior and traditional first lord of Gournay-en-Bray. Updated April 2026."
+subtitle: "Ancestor fact sheet for G37 in the direct Gurney line. Viking warrior and traditional first lord of Gournay-en-Bray. Updated April 2026."
 description: "Compact fact sheet for Eudes (Odon) de Gournay in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
 updated: 19 April 2026
 factsheet:
-  gen: G~37
+  gen: G37
   slug: g37-eudes-de-gournay-fact-sheet
   personName: Eudes (Odon) de Gournay
   heroImage: /media/factsheets/g37-eudes-de-gournay-hero.png

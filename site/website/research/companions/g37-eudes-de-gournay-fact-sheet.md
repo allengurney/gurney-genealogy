@@ -1,9 +1,9 @@
 ---
-title: "Eudes (Odon) de Gournay (G~37) — Research Companion"
+title: "Eudes (Odon) de Gournay (G37) — Research Companion"
 permalink: /research/companions/g37-eudes-de-gournay-fact-sheet.html
 eleventyExcludeFromCollections: true
 ---
-# Eudes (Odon) de Gournay (G~37) — Research Companion
+# Eudes (Odon) de Gournay (G37) — Research Companion
 
 Research companion for `g37-eudes-de-gournay-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
@@ -36,7 +36,7 @@ Research companion for `g37-eudes-de-gournay-fact-sheet.md`. See AI-Rules.md §3
 |---|---|---|
 | [Gournay-en-Bray, Normandy](../places/gournay-en-bray.md) | c. 911 onward | Founding grant from Rollo. The town and surrounding Pays de Bray. 49.483148, 1.727303 |
 
-**Note on JSON data pollution:** the `data/ancestors v23.json` G~37 entry also lists West Barsham, Norfolk, as a landholding. This is categorically wrong — West Barsham did not enter the family until 1372 (via Katherine de Wauncy's marriage to Edmund G23). Flagged for cleanup in `research/topics/ancestors-json-audit.md`. Corrected in `ancestors v24.json`.
+**Note on JSON data pollution:** the `data/ancestors v23.json` G37 entry also lists West Barsham, Norfolk, as a landholding. This is categorically wrong — West Barsham did not enter the family until 1372 (via Katherine de Wauncy's marriage to Edmund G23). Flagged for cleanup in `research/topics/ancestors-json-audit.md`. Corrected in `ancestors v24.json`.
 
 ---
 

@@ -891,10 +891,16 @@
     "shortDescription": "Lovell inheritance manor",
     "placeType": "locality",
     "coordinate": {
-      "lat": 52.5453,
-      "lng": 1.0091774978679044
+      "lat": 52.528994,
+      "lng": 0.970243
     },
-    "coordinatePrecision": "medium",
+    "coordinatePrecision": "high",
+    "currentSiteStatus": "house and two barns exist plus medieval-era moat and ponds",
+    "detail": "Current site / extant status: house and two barns exist plus medieval-era moat and ponds. Historic England 1077566 confirms Old Hall Farmhouse as Grade II and c.1570; NHER MNF9108 records the medieval moated manorial site, fishponds, and two barns.",
+    "sourceIds": [
+      "historic-england-old-hall-farmhouse-1077566",
+      "nher-mnf9108-old-hall-great-ellingham"
+    ],
     "roles": [
       "landholding / property reference",
       "individual geography"
@@ -1682,10 +1688,15 @@
     "shortDescription": "Gurney-built Old Hall site",
     "placeType": "building",
     "coordinate": {
-      "lat": 52.5319,
-      "lng": 0.9808
+      "lat": 52.528994,
+      "lng": 0.970243
     },
-    "coordinatePrecision": "medium",
+    "coordinatePrecision": "high",
+    "currentSiteStatus": "house and two barns exist plus medieval-era moat and ponds",
+    "sourceIds": [
+      "historic-england-old-hall-farmhouse-1077566",
+      "nher-mnf9108-old-hall-great-ellingham"
+    ],
     "roles": [
       "landholding / property reference",
       "individual geography"

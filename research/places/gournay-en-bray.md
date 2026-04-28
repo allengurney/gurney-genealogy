@@ -135,7 +135,7 @@ The local-history tradition that Eudes was **"le chevalier à l'écu noir"** —
 - G34 Hugh de Gournay II — landholding / property reference, individual geography
 - G35 Renaud de Gournay — landholding / property reference, individual geography
 - G36 Hugh de Gournay I — landholding / property reference, individual geography
-- G~37 Eudes (Odon) de Gournay — landholding / property reference, individual geography
+- G37 Eudes (Odon) de Gournay — landholding / property reference, individual geography
 
 ### Review notes
 

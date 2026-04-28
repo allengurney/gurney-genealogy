@@ -460,14 +460,16 @@
     "longDescription": "Great Ellingham manor, later associated with the Lovell inheritance through Margaret Lovell; Norfolk Heritage Explorer identifies Old Hall (NHER 9108) as a medieval moated manorial site with a mid-16th-century great house, said to be 1573 by Henry Gurney, on the site of an earlier moated manor.",
     "siteName": "",
     "streetAddress": "",
-    "extantStatus": "unknown",
-    "extantStatusDescription": "",
-    "coordinateBasis": "village centroid",
+    "extantStatus": "house and two barns exist plus medieval-era moat and ponds",
+    "extantStatusDescription": "Old Hall / Old Hall Farmhouse is the Gurney current-site anchor. Historic England 1077566 confirms Old Hall Farmhouse as a Grade II c.1570 timber-framed house / farmhouse. NHER MNF9108 records the wider medieval moated manorial site, surviving moats and fishponds, additional moated enclosures, and two barns.",
+    "coordinateBasis": "Historic England Old Hall Farmhouse listing coordinate",
     "imageUrl": "",
     "imageTitle": "",
-    "heritageUrl": "",
-    "heritageLabel": "",
-    "reviewNotes": []
+    "heritageUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1077566",
+    "heritageLabel": "Historic England 1077566",
+    "reviewNotes": [
+      "Current-site status updated from unknown using Historic England 1077566 and NHER MNF9108."
+    ]
   },
   {
     "placeId": "place-gurneys-manor-hingham-norfolk-england",
@@ -783,20 +785,20 @@
   {
     "placeId": "place-old-hall-great-ellingham-norfolk-england",
     "placeName": "Old Hall, Great Ellingham, Norfolk, England",
-    "longDescription": "Norfolk Heritage Explorer identifies Old Hall as a medieval moated manorial site with a mid-16th-century great house inside the main moat, said to be 1573 by Henry Gurney, with fishponds, additional moated enclosures, barns, and Grade II listed hall and barns.",
+    "longDescription": "Old Hall / Old Hall Farmhouse is a medieval moated manorial site with a mid-sixteenth-century great house inside the main moat, additional moated enclosures and fishponds, two listed barns, and Grade II listed Old Hall Farmhouse.",
     "siteName": "Old Hall",
     "streetAddress": "",
-    "extantStatus": "extant",
-    "extantStatusDescription": "NHER-recorded medieval moated manorial site and Grade II listed great-house/barn complex.",
-    "coordinateBasis": "NHER record site coordinate (TM 0161 9651)",
+    "extantStatus": "house and two barns exist plus medieval-era moat and ponds",
+    "extantStatusDescription": "Historic England 1077566 confirms Old Hall Farmhouse as a Grade II c.1570 timber-framed house / farmhouse. NHER MNF9108 records the wider medieval moated manorial site, surviving moats and fishponds, additional moated enclosures, and two barns.",
+    "coordinateBasis": "Historic England Old Hall Farmhouse listing coordinate",
     "imageUrl": "",
     "imageTitle": "",
-    "heritageUrl": "https://www.heritage.norfolk.gov.uk/record-details?MNF9108",
-    "heritageLabel": "NHER MNF9108",
+    "heritageUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1077566",
+    "heritageLabel": "Historic England 1077566",
     "reviewNotes": [
       "Site coordinate, not the village centroid.",
       "\"Said to be 1573, by Henry Gurney\" qualifier should be retained until S1/NHLE records are checked.",
-      "Sources: nher-mnf9108-old-hall-great-ellingham, nher-great-ellingham-parish-summary."
+      "Sources: historic-england-old-hall-farmhouse-1077566, nher-mnf9108-old-hall-great-ellingham, nher-great-ellingham-parish-summary."
     ]
   },
   {

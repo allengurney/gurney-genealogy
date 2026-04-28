@@ -2189,14 +2189,14 @@
         "eventType": "landholding / property reference; individual geography",
         "eventDate": "21 Jan. 1548/9 (OS) — d. 1615/16 (will proved 1623)",
         "sourceQuote": "Great Ellingham manor, later associated with the Lovell inheritance through Margaret Lovell; Norfolk Heritage Explorer identifies Old Hall (NHER 9108) as a medieval moated manorial site with a mid-16th-century great house, said to be 1573 by Henry Gurney, on the site of an earlier moated manor.",
-        "lat": 52.5453,
-        "lng": 1.0091774978679044,
-        "geocodeBasis": "village centroid",
-        "confidence": "Medium",
+        "lat": 52.528994,
+        "lng": 0.970243,
+        "geocodeBasis": "Historic England Old Hall Farmhouse listing coordinate",
+        "confidence": "High",
         "photoUrl": "",
         "photoTitle": "",
-        "siteUrl": "",
-        "siteLabel": ""
+        "siteUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1077566",
+        "siteLabel": "Historic England 1077566"
       },
       {
         "placeId": "place-harpley-norfolk-england",
@@ -2332,14 +2332,14 @@
         "eventType": "landholding / property reference",
         "eventDate": "20 Aug. 1521 — d. before 4 Jan. 1555/6 (vita patris)",
         "sourceQuote": "Great Ellingham manor, later associated with the Lovell inheritance through Margaret Lovell; Norfolk Heritage Explorer identifies Old Hall (NHER 9108) as a medieval moated manorial site with a mid-16th-century great house, said to be 1573 by Henry Gurney, on the site of an earlier moated manor.",
-        "lat": 52.5453,
-        "lng": 1.0091774978679044,
-        "geocodeBasis": "village centroid",
-        "confidence": "Medium",
+        "lat": 52.528994,
+        "lng": 0.970243,
+        "geocodeBasis": "Historic England Old Hall Farmhouse listing coordinate",
+        "confidence": "High",
         "photoUrl": "",
         "photoTitle": "",
-        "siteUrl": "",
-        "siteLabel": ""
+        "siteUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1077566",
+        "siteLabel": "Historic England 1077566"
       },
       {
         "placeId": "place-irstead-norfolk-england",
@@ -2441,14 +2441,14 @@
         "eventType": "landholding / property reference; individual geography",
         "eventDate": "b. c. 1499 — d. 4 Jan. 1555/6",
         "sourceQuote": "Great Ellingham manor, later associated with the Lovell inheritance through Margaret Lovell; Norfolk Heritage Explorer identifies Old Hall (NHER 9108) as a medieval moated manorial site with a mid-16th-century great house, said to be 1573 by Henry Gurney, on the site of an earlier moated manor.",
-        "lat": 52.5453,
-        "lng": 1.0091774978679044,
-        "geocodeBasis": "village centroid",
-        "confidence": "Medium",
+        "lat": 52.528994,
+        "lng": 0.970243,
+        "geocodeBasis": "Historic England Old Hall Farmhouse listing coordinate",
+        "confidence": "High",
         "photoUrl": "",
         "photoTitle": "",
-        "siteUrl": "",
-        "siteLabel": ""
+        "siteUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1077566",
+        "siteLabel": "Historic England 1077566"
       },
       {
         "placeId": "place-hingham-norfolk-england",
@@ -5025,7 +5025,7 @@
   {
     "type": "ancestor",
     "isRelated": false,
-    "gen": "G~37",
+    "gen": "G37",
     "genNumber": 37,
     "name": "Eudes (Odon) de Gournay",
     "dates": "c. 860 — d. after 911",
@@ -5145,7 +5145,7 @@
       {
         "name": "Eudes (Odon) de Gournay",
         "dates": "c. 860",
-        "notes": "G~37 in direct line"
+        "notes": "G37 in direct line"
       }
     ],
     "buttons": [],

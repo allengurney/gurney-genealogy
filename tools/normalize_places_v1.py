@@ -320,7 +320,7 @@ Updated:
 - `research/places/*.md` — generated blocks refreshed with cleaner linked-ancestor summaries and reduced noise
 
 Key cleanup actions:
-- removed the incorrect West Barsham landholding link from G~37 Eudes
+- removed the incorrect West Barsham landholding link from G37 Eudes
 - replaced merged/concatenated popup text for high-value places with cleaned canonical descriptions
 - converted several remaining records into explicit town-level or region-level umbrella notes where appropriate
 - suppressed review notes that no longer added value after cleanup

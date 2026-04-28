@@ -727,7 +727,7 @@
       {
         "recordId": "ancestor-g-37-eudes-odon-de-gournay",
         "type": "ancestor",
-        "gen": "G~37",
+        "gen": "G37",
         "name": "Eudes (Odon) de Gournay",
         "dates": "c. 860 — d. after 911",
         "role": "landholding / property reference",
@@ -738,7 +738,7 @@
       {
         "recordId": "ancestor-g-37-eudes-odon-de-gournay",
         "type": "ancestor",
-        "gen": "G~37",
+        "gen": "G37",
         "name": "Eudes (Odon) de Gournay",
         "dates": "c. 860 — d. after 911",
         "role": "individual geography",
@@ -1585,22 +1585,22 @@
     "shortDescription": "Lovell inheritance manor",
     "longDescription": "Great Ellingham manor, later associated with the Lovell inheritance through Margaret Lovell; Norfolk Heritage Explorer identifies Old Hall (NHER 9108) as a medieval moated manorial site with a mid-16th-century great house, said to be 1573 by Henry Gurney, on the site of an earlier moated manor.",
     "placeType": "locality",
-    "extantStatus": "unknown",
-    "extantStatusDescription": "",
+    "extantStatus": "house and two barns exist plus medieval-era moat and ponds",
+    "extantStatusDescription": "Old Hall / Old Hall Farmhouse is the Gurney current-site anchor. Historic England 1077566 confirms Old Hall Farmhouse as a Grade II c.1570 timber-framed house / farmhouse. NHER MNF9108 records the wider medieval moated manorial site, surviving moats and fishponds, additional moated enclosures, and two barns.",
     "coordinate": {
-      "lat": 52.5453,
-      "lng": 1.0091774978679044
+      "lat": 52.528994,
+      "lng": 0.970243
     },
-    "coordinatePrecision": "medium",
-    "coordinateBasis": "village centroid",
+    "coordinatePrecision": "high",
+    "coordinateBasis": "Historic England Old Hall Farmhouse listing coordinate",
     "roles": [
       "landholding / property reference",
       "individual geography"
     ],
     "imageUrl": "",
     "imageTitle": "",
-    "siteUrl": "",
-    "siteLabel": "",
+    "siteUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1077566",
+    "siteLabel": "Historic England 1077566",
     "researchUrl": "/research/places/great-ellingham.html",
     "researchSlug": "great-ellingham",
     "ancestorLinks": [
@@ -2419,24 +2419,24 @@
       "MNF9108"
     ],
     "shortDescription": "Gurney-built Old Hall site",
-    "longDescription": "Norfolk Heritage Explorer identifies Old Hall as a medieval moated manorial site with a mid-16th-century great house inside the main moat, said to be 1573 by Henry Gurney, with fishponds, additional moated enclosures, barns, and Grade II listed hall and barns.",
+    "longDescription": "Old Hall / Old Hall Farmhouse is a medieval moated manorial site with a mid-sixteenth-century great house inside the main moat, additional moated enclosures and fishponds, two listed barns, and Grade II listed Old Hall Farmhouse.",
     "placeType": "building",
-    "extantStatus": "extant",
-    "extantStatusDescription": "NHER-recorded medieval moated manorial site and Grade II listed great-house/barn complex.",
+    "extantStatus": "house and two barns exist plus medieval-era moat and ponds",
+    "extantStatusDescription": "Historic England 1077566 confirms Old Hall Farmhouse as a Grade II c.1570 timber-framed house / farmhouse. NHER MNF9108 records the wider medieval moated manorial site, surviving moats and fishponds, additional moated enclosures, and two barns.",
     "coordinate": {
-      "lat": 52.5319,
-      "lng": 0.9808
+      "lat": 52.528994,
+      "lng": 0.970243
     },
-    "coordinatePrecision": "medium",
-    "coordinateBasis": "NHER record site coordinate (TM 0161 9651)",
+    "coordinatePrecision": "high",
+    "coordinateBasis": "Historic England Old Hall Farmhouse listing coordinate",
     "roles": [
       "landholding / property reference",
       "individual geography"
     ],
     "imageUrl": "",
     "imageTitle": "",
-    "siteUrl": "https://www.heritage.norfolk.gov.uk/record-details?MNF9108",
-    "siteLabel": "NHER MNF9108",
+    "siteUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1077566",
+    "siteLabel": "Historic England 1077566",
     "researchUrl": "",
     "researchSlug": "",
     "ancestorLinks": [
@@ -3112,7 +3112,7 @@
       {
         "recordId": "ancestor-g-37-eudes-odon-de-gournay",
         "type": "ancestor",
-        "gen": "G~37",
+        "gen": "G37",
         "name": "Eudes (Odon) de Gournay",
         "dates": "c. 860 — d. after 911",
         "role": "individual geography",

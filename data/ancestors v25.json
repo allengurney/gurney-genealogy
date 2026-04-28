@@ -1699,7 +1699,7 @@
   },
   {
     "type": "ancestor",
-    "gen": "G~37",
+    "gen": "G37",
     "name": "Eudes (Odon) de Gournay",
     "dates": "c. 860 — d. after 911",
     "geography": "Scandinavia → Gournay-en-Bray, Normandy (Seine-Maritime dept., France)",
@@ -1753,7 +1753,7 @@
       {
         "name": "Eudes (Odon) de Gournay",
         "dates": "c. 860",
-        "notes": "G~37 in direct line"
+        "notes": "G37 in direct line"
       }
     ],
     "buttons": [],
