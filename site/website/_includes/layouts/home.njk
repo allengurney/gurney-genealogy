@@ -24,8 +24,6 @@
   {% include "partials/siteheader.njk" %}
 
   <main class="site-shell refresh-shell">
-    {% set featuredStart = 30 %}
-    {% set featuredEnd = 37 %}
     <section class="refresh-hero">
       <div>
         <div class="hero-kicker">A Gurney family project - 2026 edition</div>
@@ -43,19 +41,17 @@
           </div>
       </div>
       <aside class="hero-art">
-        <h4>Featured slice - Generations {{ featuredStart }}-{{ featuredEnd }}</h4>
+        <h4>FEATURED GENERATIONS</h4>
         <div class="spine-preview">
-          {% for item in ancestors %}
-            {% if item.type == "ancestor" and item.genNumber >= featuredStart and item.genNumber <= featuredEnd %}
-              <a class="spine-preview-row" href="/maps-and-lists/ancestor-table.html?gen={{ item.gen }}" style="--era-a:{{ item.colorFrom }};--era-b:{{ item.colorTo }}">
-                <span class="g">{{ item.gen }}</span>
-                <span>
-                  <span class="n">{{ item.name }}</span>
-                  <span class="d">{{ item.placeSummary or item.geography }}</span>
-                </span>
-                <span class="d">{{ item.dates }}</span>
-              </a>
-            {% endif %}
+          {% for item in featuredAncestors %}
+            <a class="spine-preview-row" href="/maps-and-lists/ancestor-table.html?gen={{ item.gen }}" style="--era-a:{{ item.colorFrom }};--era-b:{{ item.colorTo }}">
+              <span class="g">{{ item.gen }}</span>
+              <span>
+                <span class="n">{{ item.name }}</span>
+                <span class="d">{{ item.feature }}</span>
+              </span>
+              <span class="d">{{ item.dates }}</span>
+            </a>
           {% endfor %}
         </div>
       </aside>
