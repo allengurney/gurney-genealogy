@@ -55,8 +55,8 @@ body.design-refresh{
 .hero-art h4,.section-eyebrow,.aside-card .eyebrow{font-family:var(--explorer-sans);font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--explorer-muted);margin:0 0 12px;font-weight:700}
 .spine-preview{display:flex;flex-direction:column;gap:5px}
 .spine-preview-row{position:relative;display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:10px;align-items:center;padding:7px 10px;border-radius:7px;border:1px solid var(--explorer-rule-2);background:#fdfbf6;font-family:var(--explorer-sans);font-size:12.5px;overflow:hidden}
-.spine-preview-row::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(180deg,var(--era-a),var(--era-b))}
-.spine-preview-row .g{font-weight:700;color:var(--explorer-ink);text-align:center;font-size:10.5px;padding:3px 0;background:#efe8d9;border-radius:4px}
+.spine-preview-row::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--era-a)}
+.spine-preview-row .g{font-weight:700;color:#fff;text-align:center;font-size:10.5px;padding:3px 0;background:var(--era-a);border-radius:4px}
 .spine-preview-row .n{font-family:var(--explorer-serif);font-size:14.5px;color:var(--explorer-ink);font-weight:600}
 .spine-preview-row .d{color:var(--explorer-muted);font-size:11px;font-style:italic}
 
