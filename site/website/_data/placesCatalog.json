@@ -11,7 +11,7 @@
       "Harpley, Norfolk"
     ],
     "shortDescription": "Junior-branch core manor",
-    "longDescription": "Gurney's manor in Harpley, acquired c.1183 through Rose de Burnham and the Hameline de Warenne connection.",
+    "longDescription": "Harpley manor, a major medieval Gurney holding acquired c.1183 through Rose de Burnham and the Hameline de Warenne connection; distinct from the extant Gurney's Manor at Hingham.",
     "placeType": "locality",
     "extantStatus": "unknown",
     "extantStatusDescription": "",
@@ -1583,7 +1583,7 @@
       "Great Ellingham, Norfolk"
     ],
     "shortDescription": "Lovell inheritance manor",
-    "longDescription": "Great Ellingham manor, later associated with the Lovell inheritance through Margaret Lovell.",
+    "longDescription": "Great Ellingham manor, later associated with the Lovell inheritance through Margaret Lovell; Norfolk Heritage Explorer identifies Old Hall (NHER 9108) as a medieval moated manorial site with a mid-16th-century great house, said to be 1573 by Henry Gurney, on the site of an earlier moated manor.",
     "placeType": "locality",
     "extantStatus": "unknown",
     "extantStatusDescription": "",
@@ -2133,6 +2133,76 @@
     "ancestorCount": 3
   },
   {
+    "placeId": "place-gurneys-manor-hingham-norfolk-england",
+    "name": "Gurney's Manor, Hingham, Norfolk, England",
+    "title": "Gurney's Manor",
+    "siteName": "Gurney's Manor",
+    "streetAddress": "",
+    "region": "Hingham, Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Gurney's Manor",
+      "Gurneys Manor"
+    ],
+    "shortDescription": "Extant Gurney manor house",
+    "longDescription": "Extant private Grade II country house at Hingham; DiCamillo dates it circa 1600 with circa 1700 and 1826 alterations/additions and earliest elements possibly in the 1570s. Distinct from Harpley.",
+    "placeType": "building",
+    "extantStatus": "extant",
+    "extantStatusDescription": "Extant private Grade II country house; not open to public.",
+    "coordinate": {
+      "lat": 52.571755298216836,
+      "lng": 0.9756833626995299
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "user-supplied site coordinate",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://www.thedicamillo.com/house/gurneys-manor/",
+    "siteLabel": "DiCamillo: Gurney's Manor",
+    "researchUrl": "",
+    "researchSlug": "",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "type": "ancestor",
+        "gen": "G15",
+        "name": "Henry Gurney",
+        "dates": "21 Jan. 1548/9 (OS) — d. 1615/16 (will proved 1623)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g15-henry-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g17-anthony-gurney",
+        "type": "ancestor",
+        "gen": "G17",
+        "name": "Anthony Gurney",
+        "dates": "b. c. 1499 — d. 4 Jan. 1555/6 (per Blomefield, vol. vii)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g17-anthony-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g18-william-gurney-v",
+        "type": "ancestor",
+        "gen": "G18",
+        "name": "William Gurney V",
+        "dates": "c. 1465 – before 18 Jan. 1507/8 (vita patris)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g18-william-gurney-v-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 3
+  },
+  {
     "placeId": "place-hingham-norfolk-england",
     "name": "Hingham, Norfolk, England",
     "title": "Hingham, Norfolk, England",
@@ -2330,6 +2400,78 @@
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
         "url": "/fact-sheets/g05-lester-sawyer-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 3
+  },
+  {
+    "placeId": "place-old-hall-great-ellingham-norfolk-england",
+    "name": "Old Hall, Great Ellingham, Norfolk, England",
+    "title": "Old Hall",
+    "siteName": "Old Hall",
+    "streetAddress": "",
+    "region": "Great Ellingham, Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Old Hall",
+      "Old Hall, Great Ellingham",
+      "NHER 9108",
+      "MNF9108"
+    ],
+    "shortDescription": "Gurney-built Old Hall site",
+    "longDescription": "Norfolk Heritage Explorer identifies Old Hall as a medieval moated manorial site with a mid-16th-century great house inside the main moat, said to be 1573 by Henry Gurney, with fishponds, additional moated enclosures, barns, and Grade II listed hall and barns.",
+    "placeType": "building",
+    "extantStatus": "extant",
+    "extantStatusDescription": "NHER-recorded medieval moated manorial site and Grade II listed great-house/barn complex.",
+    "coordinate": {
+      "lat": 52.5319,
+      "lng": 0.9808
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "NHER record site coordinate (TM 0161 9651)",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://www.heritage.norfolk.gov.uk/record-details?MNF9108",
+    "siteLabel": "NHER MNF9108",
+    "researchUrl": "",
+    "researchSlug": "",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "type": "ancestor",
+        "gen": "G15",
+        "name": "Henry Gurney",
+        "dates": "21 Jan. 1548/9 (OS) — d. 1615/16 (will proved 1623)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g15-henry-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g15-henry-gurney",
+        "type": "ancestor",
+        "gen": "G15",
+        "name": "Henry Gurney",
+        "dates": "21 Jan. 1548/9 (OS) — d. 1615/16 (will proved 1623)",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g15-henry-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g17-anthony-gurney",
+        "type": "ancestor",
+        "gen": "G17",
+        "name": "Anthony Gurney",
+        "dates": "b. c. 1499 — d. 4 Jan. 1555/6 (per Blomefield, vol. vii)",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g17-anthony-gurney-fact-sheet.html"
       }
     ],
     "ancestorCount": 3

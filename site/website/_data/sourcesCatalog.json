@@ -180,6 +180,18 @@
     "notes": "Rye's additions to the Supplement. Distinct from rye-norfolk-antiquarian (Rye's separate 1893 article). Text extraction pending."
   },
   {
+    "sourceId": "dicamillo-gurneys-manor",
+    "shortTitle": "DiCamillo — Gurney's Manor",
+    "citation": "DiCamillo, Curt. \"Gurney's Manor.\" The DiCamillo Companion to British & Irish Country Houses.",
+    "archive": "The DiCamillo Companion online house entry",
+    "url": "https://www.thedicamillo.com/house/gurneys-manor/",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/dicamillo-gurneys-manor.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/dicamillo-gurneys-manor.md",
+    "notes": "Country-house entry for Gurney's Manor, Hingham, Norfolk. DiCamillo identifies the house as fully extant, Grade II, private, circa 1600 with circa 1700 and 1826 alterations/additions, with earliest elements possibly dating to the 1570s. Useful to correct any conflation between Hingham Gurney's Manor and Harpley."
+  },
+  {
     "sourceId": "dnb-edmund-gurney-1890",
     "shortTitle": "DNB - Edmund Gurney (d.1648)",
     "citation": "Kingsford, Charles Lethbridge. \"Gurney or Gurnay, Edmund (d. 1648).\" In Sidney Lee, ed., Dictionary of National Biography, vol. 23. London: Smith, Elder & Co., 1890.",
@@ -526,6 +538,30 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "TIER 1 PULL — highest priority. Not yet obtained. Cited by Anderson (GMD p. 158)."
+  },
+  {
+    "sourceId": "nher-mnf9108-old-hall-great-ellingham",
+    "shortTitle": "NHER MNF9108 — Old Hall, Great Ellingham",
+    "citation": "Norfolk Historic Environment Service. \"MNF9108 — Old Hall, Great Ellingham.\" Norfolk Heritage Explorer.",
+    "archive": "Norfolk Heritage Explorer / Norfolk Historic Environment Record",
+    "url": "https://www.heritage.norfolk.gov.uk/record-details?MNF9108",
+    "corpusStatus": "full",
+    "corpusPath": "sources/corpus_supplement/nher-mnf9108-old-hall-great-ellingham.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/nher-mnf9108-old-hall-great-ellingham.md",
+    "notes": "Government historic-environment record for Old Hall, Great Ellingham. Describes a medieval moated manorial site with a mid-16th-century great house within the main moat, additional moated enclosures and fishponds, 16th-century and 17th/18th-century barns, Grade II listing, and the statement that the first-floor hall is mid-16th century, said to be 1573 by Henry Gurney. Coordinate: 52.5319 N, 0.9808 E."
+  },
+  {
+    "sourceId": "nher-great-ellingham-parish-summary",
+    "shortTitle": "NHER Parish Summary — Great Ellingham",
+    "citation": "Norfolk Historic Environment Service. \"Parish Summary: Great Ellingham.\" Norfolk Heritage Explorer. Piet Aldridge, 6 April 2006.",
+    "archive": "Norfolk Heritage Explorer parish summary",
+    "url": "https://www.heritage.norfolk.gov.uk/record-details?TNF342-Parish-Summary-Great-Ellingham-(Parish-Summary)",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/nher-great-ellingham-parish-summary.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/nher-great-ellingham-parish-summary.md",
+    "notes": "Norfolk Heritage Explorer parish summary for Great Ellingham. Important contextual source for Great Ellingham's long occupation history, medieval church and residential buildings, and Old Hall (NHER 9108), described as a mid-16th-century house built for one of the Gurney family on the site of an earlier moated manor."
   },
   {
     "sourceId": "nps-adams-nhp",
