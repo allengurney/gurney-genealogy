@@ -23,7 +23,7 @@ body.design-refresh{
 .design-refresh .brand-inline .brand-title{font-size:15px;color:var(--explorer-ink)}
 .design-refresh .brand-inline .brand-meta{font-size:12px;color:var(--explorer-muted)}
 .design-refresh .badge{font-family:var(--explorer-sans);font-size:10px;letter-spacing:.08em;padding:4px 9px;border-radius:999px;background:#f4ead2;color:#7b581e;border:1px solid #c9b180}
-.design-refresh .topnav.multi-level{margin-left:auto;display:flex;gap:6px;align-items:center;font-family:var(--explorer-sans)}
+.design-refresh .topnav.multi-level{display:flex;gap:6px;align-items:center;font-family:var(--explorer-sans)}
 .design-refresh .topnav.multi-level > a,
 .design-refresh .topnav.multi-level > .topnav-group > summary{font-family:var(--explorer-sans);font-size:13px;color:#4a5265;padding:6px 10px;border-radius:7px}
 .design-refresh .topnav.multi-level > a:hover,
