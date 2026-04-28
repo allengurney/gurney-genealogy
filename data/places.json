@@ -1044,13 +1044,13 @@
     "aliases": [
       "Harpley, Norfolk"
     ],
-    "shortDescription": "Junior-branch core manor",
+    "shortDescription": "Junior-branch manor for 5+ generations",
     "placeType": "locality",
     "coordinate": {
-      "lat": 52.8088,
-      "lng": 0.6486
+      "lat": 52.801715,
+      "lng": 0.649154
     },
-    "coordinatePrecision": "medium",
+    "coordinatePrecision": "exact",
     "roles": [
       "landholding / property reference",
       "individual geography"
