@@ -44,7 +44,7 @@ The following colonial-era facts serve as the baseline for identifying which Eng
 | **Estate** | £55.14.6; died intestate; inventory 16 Mar 1662/63 | SPR Case #338 |
 | **Religion** | Settled in Puritan community | Context |
 
-**Key identifiers for matching:** Any English candidate must plausibly account for a tailor named John Gurney, married to a woman named Mary, with children including Sarah, Mary, Richard, John, and Peter, born c.1600–1612, who disappeared from English records by c.1641.
+**Key identifiers for matching:** Any English candidate must plausibly account for a tailor named John Gurney, married to a woman named Mary, with children including Sarah, Mary, Richard, John, and Peter, born in England c.1600–1612, who disappeared from English records by c.1641.
 
 ### The Central Question
 
@@ -82,7 +82,7 @@ Genealogist Daniel Gurney noted that Francis's "commercial life began at Norwich
 This marriage record, discovered in March 2026 in the Norfolk Record Office parish register PD 12/1, is the single most important primary source finding of this research project. Genealogist Daniel Gurney, despite decades of family research in the 1800's, never found this record. The discovery confirms:
 
 1. Francis had a first wife before Anne Browning — resolving the unexplained thirteen-year gap between his freedom (1606) and the first recorded child at St. Benet Fink, London (1619).
-2. The marriage was at Norwich, confirming Daniel Gurney's statement about Francis's Norwich commercial origins.
+2. The marriage was at Norwich, in the geographic corridor of Francis Gurney's family and strong alignment with genealogist Daniel Gurney's statement about Francis's Norwich commercial origins.
 3. The Pease genealogy's claim of a "Margaret Ryvett" first marriage, transmitted from an American researcher (Philis Wainford) through Sir Joseph Gurney Pease, Bt., is now validated by primary source evidence.
 
 </div>
@@ -163,7 +163,7 @@ A comprehensive review of the East Dereham parish register (NRO PD 86/41, coveri
 | **D** | Marye | 25 May 1618 | 00736 | Confirmed |
 | **E** | **John** | **c.1609/10** | **00715** | **Probable** |
 
-**These dates should be understood as estimates with a margin of approximately ±2–3 years.** Year dating was not readily apparent on the individual pages. In contemporary handwriting, one page in the range had a year date listed (accuracy unknown) which was leveraged to estimate the year for that page and based on chronological progression dated the surrounding pages
+**These dates should be understood as estimates with a margin of approximately ±2–3 years.** Year dating was not readily apparent on the individual pages. In contemporary handwriting, one page in the range had a year date listed (accuracy unknown) which was leveraged to estimate the year for that page and the surrounding pages are based on estimated chronological progression.
 
 ### 4.3 The Entry E Complication: Before or After the Marriage?
 
@@ -206,10 +206,12 @@ The ages of the colonial John Gurney's children meant they were most probably bo
 
 | Parish | County | Gurney Baptism records | Father | Mother | Assessment |
 |---|---|---|---|---|---|
-| **Berkhamsted** | Herts | Richard 1626, Sara 1634 (2/5) | John Gurnie | Unknown | **Low probability** |
-| **Aylesbury/Hitcham** | Bucks | Mary 1631, John 1638, Sarah 1639 (3/5) | John Gurney | Unknown | **Low probability** |
-| **Eythorne** | Kent | John 1638, Edward 1641 | John | Mary Marsh | **Low probability** |
-| **Toddington** | Beds | John 1630 | John | Elizabeth Moreton | **Low probability** |
+| **Berkhamsted** | Herts | Richard 1626, Sara 1634 | John Gurnie | Unknown | (2/5)* **Low probability** |
+| **Aylesbury/Hitcham** | Bucks | Mary 1631, John 1638, Sarah 1639 | John Gurney | Unknown | (3/5)* **Low probability** |
+| **Eythorne** | Kent | John 1638, Edward 1641 | John | Mary Marsh | (2/5)* **Low probability** |
+| **Toddington** | Beds | John 1630 | John | Elizabeth Moreton | (1/5)* **Low probability** |
+
+. * Note: Dates of birth +/- > 2 years from targets. Very common first names.    
 
 ### 6.2 The Peter Anomaly
 
@@ -319,7 +321,7 @@ Charles Edward Banks (1937) placed John at Bury St. Edmunds, Suffolk, within a d
 | 5 | ★ Margaret Rybett marriage confirmed | Strong | Francis had a first wife — children from this 1611 marriage are exactly the right generation for the emigrant. |
 | 6 | ★ John Gurney baptism record (Francis Gurney) | Moderate-strong | Primary source record of a John born to Francis Gurney in the target community. |
 | 7 | Historical record stating Francis had "several children" unrecorded | Opens possibility | Daniel Gurney explicitly acknowledged gaps in his documentation — room exists for a son John from the first marriage. |
-| 8 | Ann Gurney / Gilman connection at Hingham | Moderate | A probable sister married into a Norfolk textile family at Hingham — ancient Gurney family territory. Her son emigrated to New England. |
+| 8 | Ann Gurney / Gilman connection at Hingham | Moderate | A probable sister to John married into a Norfolk textile family at Hingham — ancient Gurney family territory. Her son emigrated to New England. |
 | 9 | Essex social network | Strong (cumulative) | John-1's colonial world (son-in-law Shed from Essex, landlord Tyng from Essex, Braintree MA named for Braintree Essex) maps to Francis's second wife's family connections. |
 | 10 | Coleman Street emigrant hub | Strong (context) | Francis's parish adjoined London's most active Puritan emigration center — Davenport, Eaton, and the Hector voyage originated yards from St Benet Fink. |
 | 11 | William Gurney at Coleman Street | Moderate-suggestive | A Gurney living in the radical Puritan parish next to Francis's own — identity unknown but notable proximity. |
@@ -339,6 +341,7 @@ Charles Edward Banks (1937) placed John at Bury St. Edmunds, Suffolk, within a d
 | 4 | No child of John-1 named Francis | Moderate negative | The strongest naming-pattern argument against the hypothesis. |
 | 5 | Peter absent from all Gurney families | Neutral-to-weak negative | The name is foreign to every Gurney branch — but it likely comes from wife Mary's unknown family, not necessarily a disproof of Candidate B. |
 | 6 | No record in England of John's marriage to Mary | Moderate negative | Marriage record would significantly strengthen probability |
+| 7 | Lack of known baptism records for John's children born in England | Moderate-suggestive | Records may exist but have not been located. |
 
 
 <h2 id="s12">11. PROBABILITY ASSESSMENT</h2>
@@ -360,10 +363,9 @@ Charles Edward Banks (1937) placed John at Bury St. Edmunds, Suffolk, within a d
 
 ### For Strong Supporting Evidence
 
-1. **Haberdashers' Company 1632 apprentice detail record.** Father's name for John Gurney.
-2. **Margaret Rybett burial.** East Dereham, Norwich, Garveston, Gressenhall, or Shipdham c.1616–1617.
-3. **Ryvett/Rivett pedigrees.** Suffolk Record Office, HD2418/88.
-4. **Francis Gurney's will or administration.** PCC indexes 1637–1660; Archdeaconry of Norwich; London Commissary Court.
+1. **Margaret Rybett burial.** East Dereham, Norwich, Garveston, Gressenhall, or Shipdham c.1616–1617.
+2. **Ryvett/Rivett pedigrees.** Suffolk Record Office, HD2418/88.
+3. **Francis Gurney's will or administration.** PCC indexes 1637–1660; Archdeaconry of Norwich; London Commissary Court.
 
 ### Other Leads
 
