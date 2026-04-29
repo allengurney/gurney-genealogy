@@ -13,9 +13,9 @@ factsheet:
   slug: g31-walter-de-gournay-fact-sheet
   personName: Walter de Gournay
   heroImage: /media/factsheets/g31-walter-de-gournay-hero.png
-  heroAlt: Harpley Church, Norfolk — the manor that would define the family for the next two centuries
-  heroCaption: St. Lawrence Church, Harpley, Norfolk — the manor church of the Gournay junior branch that Walter's descendants would hold for nearly two centuries.
-  heroCredit: Geograph / CC BY-SA.
+  heroAlt: Walter de Gournay appears as an Anglo-Norman on his lands.
+  heroCaption: Walter de Gournay appears as an Anglo-Norman on his lands.
+  heroCredit: Historical interpretation by the site author.
 ---
 
 <script type="application/ld+json">

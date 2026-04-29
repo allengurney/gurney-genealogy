@@ -13,9 +13,9 @@ factsheet:
   slug: g37-eudes-de-gournay-fact-sheet
   personName: Eudes (Odon) de Gournay
   heroImage: /media/factsheets/g37-eudes-de-gournay-hero.png
-  heroAlt: Mounted horsemen vignette from Daniel Gurney's Part I title page, evoking the Norman settlement generation
-  heroCaption: Mounted horsemen vignette from the title page of Part I, "The Gournays in Normandy," standing in for the Norman settlement generation associated with Rollo and Eudes.
-  heroCredit: Excerpted from Daniel Gurney, The Record of the House of Gournay (1848), public domain.
+  heroAlt: Eudes de Gournay stands with twelve knights, bearing a plain black shield in Viking-era Normandy
+  heroCaption: Eudes de Gournay stands with twelve knights, bearing a plain black shield in Viking-era Normandy.
+  heroCredit: Historical interpretation by the site author.
 ---
 
 <script type="application/ld+json">
