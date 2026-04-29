@@ -108,21 +108,19 @@ Of the surviving post medieval buildings in the parish, probably the oldest is O
 - Aliases: Great Ellingham, Norfolk
 - Coordinate: 52.528994, 0.970243 (high)
 - Roles: landholding / property reference, individual geography
-- Detail: Great Ellingham manor, later associated with the Lovell inheritance through Margaret Lovell.
-- Current-site status: house and two barns exist plus medieval-era moat and ponds
+- Detail: Great Ellingham manor, later associated with the Lovell inheritance through Margaret Lovell; Norfolk Heritage Explorer identifies Old Hall (NHER 9108) as a medieval moated manorial site with a mid-16th-century great house, said to be 1573 by Henry Gurney, on the site of an earlier moated manor.
 
 ### Linked ancestors
 
-- G15 Henry Gurney — landholding / property reference, individual geography
-- G16 Francis Gurney — landholding / property reference
-- G17 Anthony Gurney — landholding / property reference, individual geography
+- G15 Henry Gurney - landholding / property reference, individual geography
+- G16 Francis Gurney - landholding / property reference
+- G17 Anthony Gurney - landholding / property reference, individual geography
 
 ### Review notes
 
-- None in cleanup pass 3b.
+- Current-site status updated from unknown using Historic England 1077566 and NHER MNF9108.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->
-
 [^nher-mnf9108-old-hall]: Norfolk Historic Environment Service, "MNF9108 - Old Hall, Great Ellingham," Norfolk Heritage Explorer, https://www.heritage.norfolk.gov.uk/record-details?MNF9108. Source ID: `nher-mnf9108-old-hall-great-ellingham`.
 
 [^historic-england-old-hall-1077566]: Historic England, "Old Hall Farmhouse," *National Heritage List for England*, List Entry Number 1077566, https://historicengland.org.uk/listing/the-list/list-entry/1077566. Source ID: `historic-england-old-hall-farmhouse-1077566`.

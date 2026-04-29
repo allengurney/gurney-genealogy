@@ -1044,11 +1044,11 @@
     "extantStatus": "unknown",
     "extantStatusDescription": "",
     "coordinate": {
-      "lat": 42.22156410161514,
-      "lng": -70.94370054095724
+      "lat": 42.15831,
+      "lng": -70.969252
     },
     "coordinatePrecision": "high",
-    "coordinateBasis": "town centroid",
+    "coordinateBasis": "Great Pond geolocation; other Weymouth landholdings not individually geolocated",
     "roles": [
       "individual geography",
       "landholding / property reference"
@@ -1343,8 +1343,8 @@
       "landholding / property reference",
       "individual geography"
     ],
-    "imageUrl": "",
-    "imageTitle": "",
+    "imageUrl": "/media/places/Great Ellingham.png",
+    "imageTitle": "Great Ellingham",
     "siteUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1077566",
     "siteLabel": "Historic England 1077566",
     "researchUrl": "/research/places/great-ellingham.html",

@@ -467,8 +467,8 @@
     "extantStatus": "house and two barns exist plus medieval-era moat and ponds",
     "extantStatusDescription": "Old Hall / Old Hall Farmhouse is the Gurney current-site anchor. Historic England 1077566 confirms Old Hall Farmhouse as a Grade II c.1570 timber-framed house / farmhouse. NHER MNF9108 records the wider medieval moated manorial site, surviving moats and fishponds, additional moated enclosures, and two barns.",
     "coordinateBasis": "Historic England Old Hall Farmhouse listing coordinate",
-    "imageUrl": "",
-    "imageTitle": "",
+    "imageUrl": "/media/places/Great Ellingham.png",
+    "imageTitle": "Great Ellingham",
     "heritageUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1077566",
     "heritageLabel": "Historic England 1077566",
     "reviewNotes": [
@@ -972,13 +972,13 @@
     "streetAddress": "",
     "extantStatus": "unknown",
     "extantStatusDescription": "",
-    "coordinateBasis": "town centroid",
+    "coordinateBasis": "Great Pond geolocation; other Weymouth landholdings not individually geolocated",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
     "reviewNotes": [
-      "Town-level record aggregates early Gurney grants and family-origin context; G9 was removed from this place link because the Harden-line Benjamin is better placed at Abington/Little Comfort and Cummington."
+      "Great Pond is geolocated at high precision; the East Field, Mill Field, and other Weymouth landholding references remain aggregated and are not individually geolocated."
     ]
   }
 ]

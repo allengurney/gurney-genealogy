@@ -2064,8 +2064,8 @@
     "shortDescription": "Ancestral landholding",
     "placeType": "locality",
     "coordinate": {
-      "lat": 42.22156410161514,
-      "lng": -70.94370054095724
+      "lat": 42.15831,
+      "lng": -70.969252
     },
     "coordinatePrecision": "high",
     "roles": [
