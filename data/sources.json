@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.5.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-04-27",
+    "lastUpdated": "2026-04-28",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
@@ -742,6 +742,72 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "Standard four-volume town history of Weymouth, Norfolk County, Massachusetts. Cited for G12 (Richard Gurney, c. 1630 – Oct. 1691): land grants in Weymouth before 1642–44 'in the East field,' 'in the mill field,' and 'on the east side of Great Pond'; admitted Freeman of Massachusetts Bay 1681; town meeting grant of six acres on the west side of Great Pond, voted 1683 to 'build a house & fence' (cited p. 251). Also relevant indirectly to G13 John Gurney-1 (his earliest documented New England property record was at Weymouth, granted retrospectively c. 3 Feb. 1651-52). Direct examination of the page references not yet captured."
+    },
+    "plymouth-probate-john-harden-1751-will": {
+      "shortTitle": "Plymouth Probate - John Harden will (1751)",
+      "citation": "Massachusetts. Probate Court (Plymouth County). Probate records, 1686-1903; with index and docket, 1685-1967. Plymouth County Probate Court record book, manuscript pp. 383-384, will of John Harden of Bridgewater, Plymouth County, Massachusetts, blacksmith, dated 17 September 1751, proved 7 October 1751.",
+      "archive": "FamilySearch / microfilm of Plymouth County Probate Court records filmed by the Genealogical Society of Utah",
+      "url": "https://www.familysearch.org/en/search/catalog/277512",
+      "corpusStatus": "full",
+      "corpusPath": "sources/corpus_supplement/plymouth-probate-john-harden-1751-will.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/plymouth-probate-john-harden-1751-will.md",
+      "notes": "Primary probate record-book copy of John Harden's will. Key evidence for Benjamin Gurney G9: names John Harden's wife Mary, daughter Mary Hobert/Hobart, daughter Sarah Gurney, daughter Jane Spear, the children of deceased daughter Rebecca Noyes, daughter Lydia Dawes, son John Harden, and grandson Benjamin Gurney. Elizabeth Harden appears as a witness, not as a daughter or heir. Images: p. 383 https://www.familysearch.org/ark:/61903/3:1:3QSQ-G97D-F6PW; p. 384 https://www.familysearch.org/ark:/61903/3:1:3QS7-897D-FXDF."
+    },
+    "abington-vr-1850-vol1": {
+      "shortTitle": "Abington Vital Records to 1850, vol. 1",
+      "citation": "Vital Records of Abington, Massachusetts, to the Year 1850. Volume 1: Births. Boston: New England Historic Genealogical Society, 1912.",
+      "archive": "Internet Archive / Wikimedia Commons PDF; MassachusettsGenealogy transcription used for abbreviation explanation",
+      "url": "https://commons.wikimedia.org/wiki/File:Vital_records_of_Abington,_Massachusetts,_to_the_year_1850_.._(IA_vitalrecordsofab02abing).pdf",
+      "corpusStatus": "partial",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/benjamin-gurney-harden-research-tables-2026-04.md",
+      "notes": "Primary-derived town vital-record compilation. Important entries include Benjamin under Harden/Hardin variant as 'Benjamin, s. Jean, bp. May 30, 1730. C.R.1.' The abbreviation 'bp.' means baptized; C.R.1 identifies First Church of Abington. Also provides the John and Mary Harden child sequence including Mary, Sarah, Jean, Rebecca/Rebacka, Lydia, and John."
+    },
+    "hobart-abington-1839": {
+      "shortTitle": "Hobart, Historical Sketch of Abington (1839)",
+      "citation": "Hobart, Aaron. Historical Sketch of Abington, Plymouth County, Massachusetts; with an Appendix. Boston: Samuel N. Dickinson, 1839.",
+      "archive": "LDSGenealogy online transcription",
+      "url": "https://ldsgenealogy.com/MA/books/Historical-sketch-of-Abington-Plymouth-County-Massachusetts-With-an-appendix-part-2.htm",
+      "corpusStatus": "partial",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/benjamin-gurney-harden-research-tables-2026-04.md",
+      "notes": "Secondary local history for old Abington and Little Comfort. Useful for John Harden's Little Comfort context and the 22 February 1711 baptism of Jane Harden, daughter of John Harden of Little Comfort, as recorded by Mr. Niles of Braintree. Hobart-derived wording about an Elizabeth should be treated cautiously because the original John Harden will shows Elizabeth Harden as a witness, not as a daughter/heir."
+    },
+    "neverending-hobby-john-gurney-us-1636": {
+      "shortTitle": "The Neverending Hobby - John Gurney, US 1636",
+      "citation": "\"John Gurney, US 1636.\" The Neverending Hobby.",
+      "archive": "Public compiled genealogy website",
+      "url": "https://sites.google.com/site/theneverendinghobby/home/those-connected-to-more-than-one-family/john-gurney-us-1636",
+      "corpusStatus": "partial",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/benjamin-gurney-harden-research-tables-2026-04.md",
+      "notes": "Secondary compiled genealogy. Relevant for the Benjamin Gurney G10 / Jane Harden non-marital relationship, the identification of Benjamin Gurney G10 as father of Benjamin G9, Jane's reported return to Braintree with her parents, Sarah Harden's marriage to Nathan Gurney, and the later Sarah Morse child set including a second Benjamin. Use as corroborating secondary evidence, not as primary proof."
+    },
+    "middleborough-marriages-by-mens-name": {
+      "shortTitle": "Middleborough marriages by men's name",
+      "citation": "Middleborough Public Library. \"Marriages by Men's Name.\" Middleborough, Massachusetts marriage index PDF.",
+      "archive": "Middleborough Public Library online PDF",
+      "url": "https://midlib.org/sites/midlib.org/files/images/marriages%20by%20mens%20name.pdf",
+      "corpusStatus": "partial",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/benjamin-gurney-harden-research-tables-2026-04.md",
+      "notes": "Marriage index source for Benjamin Gurney and Sarah Morse, 14 June 1731, and a later Benjamin Gurney and Thankfull Ellis, 23 August 1781. Use as an index until the original register image is obtained."
+    },
+    "benjamin-gurney-harden-research-tables-2026-04": {
+      "shortTitle": "Benjamin Gurney / Harden research tables (2026-04)",
+      "citation": "Allen Gurney research intake. Benjamin Gurney, Jane/Jean Harden, and Related Harden-Gurney Research Tables. Updated April 2026.",
+      "archive": "Project intake attachment",
+      "url": null,
+      "corpusStatus": "captured",
+      "corpusPath": "sources/corpus_supplement/benjamin-gurney-harden-research-tables-2026-04.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/benjamin-gurney-harden-research-tables-2026-04.md",
+      "notes": "Synthesis table prepared from public-source research and the located John Harden probate-record images. Use as a research crosswalk and not as a substitute for citing the underlying primary or secondary sources."
     }
   }
 }

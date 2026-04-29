@@ -1,70 +1,84 @@
 # Benjamin Gurney (G10) — Research Companion
 
-Research companion for `g10-benjamin-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research companion for `g10-benjamin-gurney-fact-sheet.md`.
 
 ---
 
-## Working Notes
+## Current evidence summary
 
-### The "two Benjamins" problem
+Benjamin Gurney G10 remains the best-supported father of Benjamin Gurney G9, but the evidence must be described carefully. The new John Harden will evidence confirms that Benjamin Gurney G9 was John Harden's grandson, and the Abington baptismal entry identifies G9 as Benjamin, son of Jean, baptized 30 May 1730.[^john-harden-will][^abington-baptism]
 
-G10's sons by his two relationships include two boys both named Benjamin: G9 (b. 1730, by Jane Harden, who later moved to Cummington) and a Benjamin (b. unknown, by Sarah Morse, who shared in the 1 January 1800 Rochester homestead division with brothers Lemuel and Levi). The same-name half-brothers are a known disambiguation hazard in Plymouth County records. The 1800 deed (Plymouth County land deed 95:139) is decisive evidence that they are different individuals — G9 cannot have been a recipient of the Rochester homestead in 1800, because by then he was a settled landholder at Cummington, Massachusetts.
+The baptismal entry does **not** name G10 as father. The father identification comes from secondary compiled genealogy and from the coherence of the surrounding Harden/Gurney evidence chain: Jane/Jean Harden as likely mother, John Harden as confirmed grandfather, a 1730 baptism before G10's 1731 marriage to Sarah Morse, and the later two-Benjamin problem created by the Sarah Morse child set.[^neverending-hobby][^middleborough-marriage]
 
-This issue should propagate into any narrative or descendant chart for G10 — labeling the two Benjamins by mother, not by birth-order alone, is the cleanest convention.
+The fact sheet should therefore say that G10 is **identified by secondary compiled genealogy** as the father of G9 through a likely non-marital relationship with Jane/Jean Harden. It should not imply that the Abington baptism or the John Harden will directly names G10 as father.
 
-### The 1730 / 1731 chronology
+## The 1730 / 1731 sequence
 
-The sequence is tight and worth preserving:
+The chronology is now sharper:
 
-- **1730, before May**: Benjamin (G9) born, bpt. 30 May 1730 at Abington — the son of G10 and Jane Harden.
-- **28 October 1730**: G10 buys the Tinkham Middleboro land jointly with his father (G11) — Plymouth Registry 39:79.
-- **1731** (date not yet captured): G10 marries Sarah Morse at Middleboro.
-- **7 November 1731**: G10 buys 8 acres at Middleboro from Sam Eddy Jr.
+- **30 May 1730:** Benjamin, son of Jean, baptized at Abington, C.R.1 / First Church of Abington.[^abington-baptism]
+- **28 October 1730:** Benjamin Gurney G10 and his father G11 are reported in secondary genealogy as buying Samuel Tinkham's Middleborough land.[^neverending-hobby]
+- **14 June 1731:** Benjamin Gurney married Sarah Morse at Middleborough, according to the located Middleborough marriage index.[^middleborough-marriage]
+- **7 November 1731:** G10 is reported in existing project data as buying eight acres at Middleborough from Sam Eddy Jr.
 
-The order suggests that the G10 / Jane Harden child was born and baptized in the spring of 1730; that G10 then acquired Middleboro land later that fall as a young man preparing to start his own household; and that the formal marriage to Sarah Morse followed in 1731 with the matched purchase from Sam Eddy Jr. The Middleboro purchases are clearly tied to the Sarah Morse household, not the Jane Harden situation.
+This sequence supports a pre-marital chronology if G10 is the father. Benjamin G9 was baptized about a year before the Sarah Morse marriage. The Middleborough land context belongs to G10's transition into his married household, not to proof of the Jane Harden relationship.
 
-### The Rochester homestead
+## Jane / Jean Harden relationship
 
-The 1 January 1800 division (Plymouth County 95:139) names Lemuel, Benjamin, and Levi. These are evidently sons of Sarah Morse — the Rochester homestead is their inheritance, not G9's. This is consistent with G9 having been raised separately by his maternal aunt and treated as outside the Sarah Morse household's inheritance line.
+The secondary compiled genealogy at *The Neverending Hobby* is the clearest current source saying that Benjamin Gurney G10 had a non-marital relationship with Jane Harden and fathered Benjamin in Abington. It also states that Jane returned to Braintree with her parents while Benjamin moved to Middleborough with his parents.[^neverending-hobby]
 
-### The Tinkham–Middleboro land "after his father's death"
+This source should be used as corroborating secondary genealogy, not as a primary record. The primary-derived records now available are stronger on the Harden side than on the Gurney-father side:
 
-The G10 entry in <code>data/ancestors v26.json</code> says the Tinkham land was sold 3 May 1749 "after his father's death" (G11 d. 1738/9). The eleven-year delay between G11's death and the 1749 sale suggests the property was held jointly under some kind of post-mortem arrangement (probate, joint-tenant survivor right) before G10 sold it.
+- Abington baptism: Benjamin, son of Jean.[^abington-baptism]
+- John Harden will: grandson Benjamin Gurney; daughter Jane Spear; daughter Sarah Gurney; Elizabeth Harden as witness.[^john-harden-will]
 
-### Negative results
+Those records make Jane/Jean Harden Spear the best-supported maternal candidate, but they do not independently name G10.
 
-- Specific marriage record for G10 + Sarah Morse, Middleboro 1731, not yet directly examined.
-- No will or probate for G10 himself (d. before December 1772, Rochester) captured here.
-- Other children, beyond Lemuel / Benjamin (by Sarah Morse) / Levi, not yet identified — Sarah and G10 may have had several other children given the forty-year span of their marriage.
+## Sarah Morse marriage and later household
+
+Benjamin Gurney married Sarah Morse at Middleborough on 14 June 1731, per the Middleborough marriage index.[^middleborough-marriage] The original marriage register should still be obtained before treating the index as final.
+
+The Sarah Morse household is genealogically important because it apparently included a later son also named Benjamin. The secondary compiled genealogy lists a later Benjamin, born about 1743, in the Benjamin Gurney / Sarah Morse child set.[^neverending-hobby] Existing project data also records a Rochester homestead division dated 1 January 1800 among sons Lemuel, Benjamin, and Levi, which fits the Sarah Morse child set rather than G9.[^rochester-deed]
+
+## The two-Benjamins problem
+
+The direct line includes Benjamin G9, baptized in 1730 as son of Jean/Jane Harden, and a later Benjamin in the Sarah Morse child set. The two should be kept explicitly distinct in all data and narrative:
+
+- **Benjamin Gurney G9** — baptized 30 May 1730, son of Jean/Jane Harden; John Harden's grandson; direct line; later Cummington.[^abington-baptism][^john-harden-will]
+- **Benjamin Gurney, son of Sarah Morse** — later same-name half-brother, probably the Benjamin in the Rochester homestead division and likely the better fit for later Middleborough/Rochester same-name records.[^neverending-hobby][^rochester-deed]
+
+This is the most important G10 disambiguation issue. Any mid-eighteenth-century record simply naming Benjamin Gurney in Abington, Middleborough, Rochester, or Plymouth County could refer to either man depending on date, location, and kinship context.
+
+## Rochester homestead and Sarah Morse sons
+
+Existing project data cites a 1 January 1800 Plymouth County deed, 95:139, GS film 559,140, by which Lemuel, Benjamin, and Levi divided the Rochester homestead farm.[^rochester-deed] The new Harden evidence does not change that deed's importance. It does, however, sharpen the interpretation: the Benjamin in that division should be treated as the Sarah Morse son unless direct deed language proves otherwise.
+
+Because G9 was already established in Cummington by 1800 and descended through the Harden/Jean line, he should not be casually folded into the Rochester homestead inheritance narrative.
+
+## G11 context
+
+The secondary compiled genealogy also supports the three-Benjamin sequence: G11 Benjamin Gurney, G10 Benjamin Gurney, and G9 Benjamin Gurney.[^neverending-hobby] This intake does not require a G11 fact-sheet update. G11's existing companion should still obtain his original Plymouth probate image and deed records as a separate task.
+
+## Open questions
+
+1. **Primary proof of G10 as father.** Search Abington church discipline records, court records, bastardy/support proceedings, guardianships, or town records for a direct father identification.
+2. **Original Middleborough marriage register.** Confirm the G10/Sarah Morse marriage date from the register, not only the index.
+3. **G10 probate or administration.** A Rochester/Plymouth County estate file could clarify all Sarah Morse children and whether G9 was excluded or treated separately.
+4. **Rochester homestead deed image.** Directly examine Plymouth County 95:139 to confirm the identities and relationships of Lemuel, Benjamin, and Levi.
+5. **Second Benjamin's life course.** The later Benjamin likely fits some later Middleborough/Rochester records, possibly including the 1781 Thankfull Ellis marriage, but this requires direct disambiguation.
 
 ---
 
-## Open Questions
+## Sources consulted
 
-1. **Names and dates of G10's other children by Sarah Morse.** Middleboro and Rochester VR; Plymouth County probate.
-2. **Probate of G10's estate, c. 1770–1772.** Should clarify the children list and any specific bequests separating G9 from the Sarah Morse children.
-3. **Specific Middleboro VR entry for the 1731 marriage.** Currently captured only as "1731, Middleboro" — needs the actual date.
-4. **Jane Harden's later life.** "Of Little Comfort" baptism 1711 is the only firm record; what happened to Jane after 1730?
-5. **Direct examination of Plymouth County land deed 95:139.** This deed is the keystone document for G10's Rochester homestead and for the names of his Sarah Morse sons.
+- John Harden 1751 will.[^john-harden-will]
+- Abington vital-record entry for Benjamin, son of Jean.[^abington-baptism]
+- Middleborough marriage index for Benjamin Gurney and Sarah Morse.[^middleborough-marriage]
+- *The Neverending Hobby — John Gurney, US 1636*.[^neverending-hobby]
+- Existing project-cited Plymouth County deed references for G10.
 
----
-
-## Sources Consulted
-
-- <code>data/ancestors v26.json</code>, G10 entry.
-- Plymouth Registry 39:79 (Tinkham purchase, 28 October 1730 — cited via JSON, not directly examined here).
-- Plymouth County land deed 95:139, GS film 559,140 (1800 Rochester division — cited via JSON).
-
-### Sources to obtain
-
-- Middleboro and Rochester, Massachusetts Vital Records.
-- Plymouth County probate — Benjamin Gurney G10, d. before 1772.
-- Plymouth County deeds — direct examination of Registry 39:79; Eddy 1731; deed 95:139 (1800 division).
-- "Granny Gurney's Swamp" tradition — see G11 entry; whether the Rochester homestead included this site is worth checking.
-
----
-
-## Notes for Future Drafting
-
-- The fact sheet is candid about the Jane Harden / Sarah Morse split. This matches the project's editorial preference for not sanitizing genealogical fact in pursuit of a tidier narrative.
-- The "two Benjamins" issue is the most critical research caveat for any future user of these records. The fact sheet flags it; the companion preserves the analysis. Any sustained future revision should keep both.
+[^john-harden-will]: Massachusetts. Probate Court (Plymouth County), *Probate records, 1686–1903; with index and docket, 1685–1967*, Plymouth County Probate Court record book, manuscript pp. 383–384, will of John Harden of Bridgewater, Plymouth County, Massachusetts, blacksmith, dated 17 September 1751, proved 7 October 1751; FamilySearch catalog https://www.familysearch.org/en/search/catalog/277512; p. 383 image https://www.familysearch.org/ark:/61903/3:1:3QSQ-G97D-F6PW; p. 384 image https://www.familysearch.org/ark:/61903/3:1:3QS7-897D-FXDF. Source ID: `plymouth-probate-john-harden-1751-will`.
+[^abington-baptism]: *Vital Records of Abington, Massachusetts, to the Year 1850*, vol. 1, Births (Boston: New England Historic Genealogical Society, 1912), Harden/Hardin/Hardeng entry for Benjamin, son of Jean, baptized 30 May 1730, C.R.1; PDF at https://commons.wikimedia.org/wiki/File:Vital_records_of_Abington,_Massachusetts,_to_the_year_1850_.._(IA_vitalrecordsofab02abing).pdf. Source ID: `abington-vr-1850-vol1`.
+[^middleborough-marriage]: Middleborough Public Library, "Marriages by Men's Name," marriage index PDF, entry for Benjamin Gurney and Sarah Morse, 14 June 1731; https://midlib.org/sites/midlib.org/files/images/marriages%20by%20mens%20name.pdf. Source ID: `middleborough-marriages-by-mens-name`.
+[^neverending-hobby]: "John Gurney, US 1636," *The Neverending Hobby*, public compiled genealogy, https://sites.google.com/site/theneverendinghobby/home/those-connected-to-more-than-one-family/john-gurney-us-1636. Use as secondary compiled genealogy. Source ID: `neverending-hobby-john-gurney-us-1636`.
+[^rochester-deed]: Plymouth County land deed 95:139, GS film 559,140, Rochester homestead farm divided among Lemuel, Benjamin, and Levi Gurney, 1 January 1800; currently cited through `data/ancestors v26.json`, G10 entry. Direct image still needed before finalizing all relationship language.

@@ -1028,141 +1028,6 @@
     "ancestorCount": 10
   },
   {
-    "placeId": "place-cummington-massachusetts-usa",
-    "name": "Cummington, Massachusetts, USA",
-    "title": "Dawes Cemetery",
-    "siteName": "Dawes Cemetery",
-    "streetAddress": "",
-    "region": "Massachusetts, USA",
-    "regionGroup": "north-america",
-    "aliases": [
-      "Cummington, MA"
-    ],
-    "shortDescription": "Ancestral landholding",
-    "longDescription": "Cummington farm holdings associated with the Benjamin/Amos Gurney family after their move from Abington.",
-    "placeType": "locality",
-    "extantStatus": "unknown",
-    "extantStatusDescription": "",
-    "coordinate": {
-      "lat": 42.45599577393482,
-      "lng": -72.90392454621967
-    },
-    "coordinatePrecision": "high",
-    "coordinateBasis": "town centroid",
-    "roles": [
-      "landholding / property reference",
-      "individual geography"
-    ],
-    "imageUrl": "",
-    "imageTitle": "",
-    "siteUrl": "",
-    "siteLabel": "",
-    "researchUrl": "/research/places/cummington-ma.html",
-    "researchSlug": "cummington-ma",
-    "ancestorLinks": [
-      {
-        "recordId": "ancestor-g10-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G10",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1704 — before 1772",
-        "role": "landholding / property reference",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g10-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G10",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1704 — before 1772",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g11-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G11",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1676 — d. 1738/9",
-        "role": "landholding / property reference",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g11-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G11",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1676 — d. 1738/9",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g7-willis-gurney",
-        "type": "ancestor",
-        "gen": "G7",
-        "name": "Willis Gurney",
-        "dates": "c. 1796–98 — before 1870",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g07-willis-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g8-amos-gurney",
-        "type": "ancestor",
-        "gen": "G8",
-        "name": "Amos Gurney",
-        "dates": "1770 — before 1850",
-        "role": "landholding / property reference",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g08-amos-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g8-amos-gurney",
-        "type": "ancestor",
-        "gen": "G8",
-        "name": "Amos Gurney",
-        "dates": "1770 — before 1850",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g08-amos-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g9-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G9",
-        "name": "Benjamin Gurney",
-        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
-        "role": "landholding / property reference",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g9-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G9",
-        "name": "Benjamin Gurney",
-        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
-      }
-    ],
-    "ancestorCount": 9
-  },
-  {
     "placeId": "place-weymouth-massachusetts-usa",
     "name": "Weymouth, Massachusetts, USA",
     "title": "Great Pond",
@@ -1185,8 +1050,8 @@
     "coordinatePrecision": "high",
     "coordinateBasis": "town centroid",
     "roles": [
-      "landholding / property reference",
-      "individual geography"
+      "individual geography",
+      "landholding / property reference"
     ],
     "imageUrl": "",
     "imageTitle": "",
@@ -1260,222 +1125,6 @@
         "lineageStatus": "Probable",
         "displayLineageStatus": "Probable",
         "url": "/key-research/john-gurney-case-file.html"
-      },
-      {
-        "recordId": "ancestor-g9-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G9",
-        "name": "Benjamin Gurney",
-        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
-      }
-    ],
-    "ancestorCount": 7
-  },
-  {
-    "placeId": "place-middleborough-massachusetts-usa",
-    "name": "Middleborough, Massachusetts, USA",
-    "title": "Middleborough, Massachusetts, USA",
-    "siteName": "",
-    "streetAddress": "",
-    "region": "Massachusetts, USA",
-    "regionGroup": "north-america",
-    "aliases": [
-      "Middleborough, MA",
-      "Middleboro, MA"
-    ],
-    "shortDescription": "Ancestral landholding",
-    "longDescription": "Middleborough land purchases and later sales associated with the Benjamin Gurney family in the 1730s and 1740s.",
-    "placeType": "locality",
-    "extantStatus": "unknown",
-    "extantStatusDescription": "",
-    "coordinate": {
-      "lat": 41.8934,
-      "lng": -70.91657353836172
-    },
-    "coordinatePrecision": "high",
-    "coordinateBasis": "town centroid",
-    "roles": [
-      "landholding / property reference",
-      "individual geography"
-    ],
-    "imageUrl": "",
-    "imageTitle": "",
-    "siteUrl": "",
-    "siteLabel": "",
-    "researchUrl": "/research/places/middleborough-ma.html",
-    "researchSlug": "middleborough-ma",
-    "ancestorLinks": [
-      {
-        "recordId": "ancestor-g10-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G10",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1704 — before 1772",
-        "role": "landholding / property reference",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g10-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G10",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1704 — before 1772",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g11-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G11",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1676 — d. 1738/9",
-        "role": "landholding / property reference",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g11-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G11",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1676 — d. 1738/9",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g9-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G9",
-        "name": "Benjamin Gurney",
-        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
-        "role": "landholding / property reference",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g9-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G9",
-        "name": "Benjamin Gurney",
-        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
-      }
-    ],
-    "ancestorCount": 6
-  },
-  {
-    "placeId": "place-rochester-massachusetts-usa",
-    "name": "Rochester, Massachusetts, USA",
-    "title": "Rochester, Massachusetts, USA",
-    "siteName": "",
-    "streetAddress": "",
-    "region": "Massachusetts, USA",
-    "regionGroup": "north-america",
-    "aliases": [
-      "Rochester, MA"
-    ],
-    "shortDescription": "Ancestral landholding",
-    "longDescription": "Homestead farm, Rochester, MA — sons Lemuel, Benjamin & Levi divided it 1 Jan. 1800 (Plym. Co. land deed 95:139, GS film 559,140).",
-    "placeType": "locality",
-    "extantStatus": "unknown",
-    "extantStatusDescription": "",
-    "coordinate": {
-      "lat": 41.7412,
-      "lng": -70.8128
-    },
-    "coordinatePrecision": "high",
-    "coordinateBasis": "town centroid",
-    "roles": [
-      "landholding / property reference",
-      "individual geography"
-    ],
-    "imageUrl": "",
-    "imageTitle": "",
-    "siteUrl": "",
-    "siteLabel": "",
-    "researchUrl": "/research/places/rochester-ma.html",
-    "researchSlug": "rochester-ma",
-    "ancestorLinks": [
-      {
-        "recordId": "ancestor-g10-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G10",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1704 — before 1772",
-        "role": "landholding / property reference",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g10-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G10",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1704 — before 1772",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g11-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G11",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1676 — d. 1738/9",
-        "role": "landholding / property reference",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g11-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G11",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1676 — d. 1738/9",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g9-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G9",
-        "name": "Benjamin Gurney",
-        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
-        "role": "landholding / property reference",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g9-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G9",
-        "name": "Benjamin Gurney",
-        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
       }
     ],
     "ancestorCount": 6
@@ -1489,10 +1138,15 @@
     "region": "Massachusetts, USA",
     "regionGroup": "north-america",
     "aliases": [
-      "Bridgewater, MA"
+      "Bridgewater, MA",
+      "Bridgewater, Plymouth County, MA",
+      "Old Bridgewater",
+      "Bridgewater area",
+      "East Bridgewater line",
+      "Little Comfort boundary context"
     ],
-    "shortDescription": "Ancestral landholding",
-    "longDescription": "Bridgewater-area holdings tied to the Benjamin/Richard Gurney line, including the Richard Williams farm and other town-level parcel references.",
+    "shortDescription": "Bridgewater-area probate and landholding context",
+    "longDescription": "Bridgewater-area context for Plymouth County probate and landholding references, including John Harden of Bridgewater in the 1751 will and the older Abington/Little Comfort boundary setting.",
     "placeType": "locality",
     "extantStatus": "unknown",
     "extantStatusDescription": "",
@@ -1503,6 +1157,7 @@
     "coordinatePrecision": "high",
     "coordinateBasis": "town centroid",
     "roles": [
+      "maternal family context",
       "landholding / property reference",
       "individual geography"
     ],
@@ -1513,6 +1168,17 @@
     "researchUrl": "/research/places/bridgewater-ma.html",
     "researchSlug": "bridgewater-ma",
     "ancestorLinks": [
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G9",
+        "name": "Benjamin Gurney",
+        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "role": "maternal family context",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
+      },
       {
         "recordId": "ancestor-g10-benjamin-gurney",
         "type": "ancestor",
@@ -1556,6 +1222,75 @@
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
         "url": "/fact-sheets/g08-amos-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 5
+  },
+  {
+    "placeId": "place-cummington-massachusetts-usa",
+    "name": "Cummington, Massachusetts, USA",
+    "title": "Dawes Cemetery",
+    "siteName": "Dawes Cemetery",
+    "streetAddress": "",
+    "region": "Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Cummington, MA"
+    ],
+    "shortDescription": "G9 frontier farm and later family line",
+    "longDescription": "Cummington farm and burial context for Benjamin Gurney G9 after the 1770 move from Abington, with later Amos and Willis Gurney family continuity.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 42.45599577393482,
+      "lng": -72.90392454621967
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "individual geography",
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/cummington-ma.html",
+    "researchSlug": "cummington-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g7-willis-gurney",
+        "type": "ancestor",
+        "gen": "G7",
+        "name": "Willis Gurney",
+        "dates": "c. 1796–98 — before 1870",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g07-willis-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g8-amos-gurney",
+        "type": "ancestor",
+        "gen": "G8",
+        "name": "Amos Gurney",
+        "dates": "1770 — before 1850",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g08-amos-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g8-amos-gurney",
+        "type": "ancestor",
+        "gen": "G8",
+        "name": "Amos Gurney",
+        "dates": "1770 — before 1850",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g08-amos-gurney-fact-sheet.html"
       },
       {
         "recordId": "ancestor-g9-benjamin-gurney",
@@ -1564,6 +1299,17 @@
         "name": "Benjamin Gurney",
         "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
         "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G9",
+        "name": "Benjamin Gurney",
+        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "role": "individual geography",
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
         "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
@@ -1754,6 +1500,91 @@
     "ancestorCount": 5
   },
   {
+    "placeId": "place-braintree-massachusetts-usa",
+    "name": "Braintree, Massachusetts, USA",
+    "title": "Braintree, Massachusetts, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Braintree, MA",
+      "Braintree, Norfolk County, MA",
+      "Braintree First Church",
+      "Mr. Niles of Braintree"
+    ],
+    "shortDescription": "Early Gurney land and Harden/Gurney church-record context",
+    "longDescription": "Massachusetts town where immigrant John Gurney held land and where Braintree church context intersects the Harden/Gurney cluster: Benjamin Gurney G11 married Rebecca Staples at Braintree First Church, and Mr. Niles of Braintree recorded Jane Harden of Little Comfort in 1711.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 42.2079,
+      "lng": -71.001
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "maternal family context",
+      "church/vital-record context",
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/braintree-ma.html",
+    "researchSlug": "braintree-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G9",
+        "name": "Benjamin Gurney",
+        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "role": "maternal family context",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G11",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1676 — d. 1738/9",
+        "role": "church/vital-record context",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "type": "ancestor",
+        "gen": "G13",
+        "name": "John Gurney",
+        "dates": "b. c. 1609-12 — d. 1662/3",
+        "role": "landholding / property reference",
+        "lineageStatus": "Probable",
+        "displayLineageStatus": "Probable",
+        "url": "/key-research/john-gurney-case-file.html"
+      },
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "type": "ancestor",
+        "gen": "G13",
+        "name": "John Gurney",
+        "dates": "b. c. 1609-12 — d. 1662/3",
+        "role": "individual geography",
+        "lineageStatus": "Probable",
+        "displayLineageStatus": "Probable",
+        "url": "/key-research/john-gurney-case-file.html"
+      }
+    ],
+    "ancestorCount": 4
+  },
+  {
     "placeId": "place-flushing-queens-new-york-usa",
     "name": "Flushing, Queens, New York, USA",
     "title": "Flushing, Queens, New York, USA",
@@ -1831,6 +1662,87 @@
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
         "url": "/fact-sheets/g07-willis-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 4
+  },
+  {
+    "placeId": "place-middleborough-massachusetts-usa",
+    "name": "Middleborough, Massachusetts, USA",
+    "title": "Middleborough, Massachusetts, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Middleborough, MA",
+      "Middleboro, MA"
+    ],
+    "shortDescription": "G10/Sarah Morse marriage and G11/G10 land context",
+    "longDescription": "Middleborough land and marriage context for Benjamin Gurney G10 and Sarah Morse, including reported G11/G10 land transactions and the 1731 Middleborough marriage index. This should not be conflated with G9 Benjamin of the Cummington line without direct record evidence.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 41.8934,
+      "lng": -70.91657353836172
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/middleborough-ma.html",
+    "researchSlug": "middleborough-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G10",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1704 — before 1772",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G10",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1704 — before 1772",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G11",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1676 — d. 1738/9",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G11",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1676 — d. 1738/9",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
       }
     ],
     "ancestorCount": 4
@@ -1996,75 +1908,6 @@
     "ancestorCount": 4
   },
   {
-    "placeId": "place-abington-whitman-line-massachusetts-usa",
-    "name": "Abington–Whitman line, Massachusetts, USA",
-    "title": "Abington–Whitman line, Massachusetts, USA",
-    "siteName": "",
-    "streetAddress": "",
-    "region": "Massachusetts, USA",
-    "regionGroup": "north-america",
-    "aliases": [
-      "Abington/Whitman line, Massachusetts, USA",
-      "Abington–Whitman line, MA"
-    ],
-    "shortDescription": "Associated ancestral place",
-    "longDescription": "Abington/Whitman, MA",
-    "placeType": "locality",
-    "extantStatus": "unknown",
-    "extantStatusDescription": "",
-    "coordinate": {
-      "lat": 42.0925,
-      "lng": -70.9413
-    },
-    "coordinatePrecision": "low",
-    "coordinateBasis": "inferred locality centroid",
-    "roles": [
-      "individual geography"
-    ],
-    "imageUrl": "",
-    "imageTitle": "",
-    "siteUrl": "",
-    "siteLabel": "",
-    "researchUrl": "/research/places/abington-whitman-line-ma.html",
-    "researchSlug": "abington-whitman-line-ma",
-    "ancestorLinks": [
-      {
-        "recordId": "ancestor-g10-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G10",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1704 — before 1772",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g11-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G11",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1676 — d. 1738/9",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g9-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G9",
-        "name": "Benjamin Gurney",
-        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
-      }
-    ],
-    "ancestorCount": 3
-  },
-  {
     "placeId": "place-abington-massachusetts-usa",
     "name": "Abington, Massachusetts, USA",
     "title": "Abington, Massachusetts, USA",
@@ -2073,10 +1916,15 @@
     "region": "Massachusetts, USA",
     "regionGroup": "north-america",
     "aliases": [
-      "Abington, MA"
+      "Abington, MA",
+      "Old Abington, Plymouth County, Massachusetts",
+      "Abington, Plymouth County, MA",
+      "First Church of Abington",
+      "First Church of Abington (C.R.1)",
+      "C.R.1, First Church of Abington"
     ],
-    "shortDescription": "Associated ancestral place",
-    "longDescription": "Abington, MA",
+    "shortDescription": "Harden-Gurney baptism and old Abington record cluster",
+    "longDescription": "Old Abington vital and church-record locality where Benjamin, son of Jean, was baptized in the First Church of Abington record stream identified as C.R.1.",
     "placeType": "locality",
     "extantStatus": "unknown",
     "extantStatusDescription": "",
@@ -2087,6 +1935,7 @@
     "coordinatePrecision": "high",
     "coordinateBasis": "town centroid",
     "roles": [
+      "church/vital-record context",
       "individual geography"
     ],
     "imageUrl": "",
@@ -2096,6 +1945,17 @@
     "researchUrl": "/research/places/abington-ma.html",
     "researchSlug": "abington-ma",
     "ancestorLinks": [
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G9",
+        "name": "Benjamin Gurney",
+        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "role": "church/vital-record context",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
+      },
       {
         "recordId": "ancestor-g10-benjamin-gurney",
         "type": "ancestor",
@@ -2117,17 +1977,6 @@
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
         "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g9-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G9",
-        "name": "Benjamin Gurney",
-        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
       }
     ],
     "ancestorCount": 3
@@ -2266,6 +2115,83 @@
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
         "url": "/fact-sheets/g18-william-gurney-v-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 3
+  },
+  {
+    "placeId": "place-abington-whitman-line-massachusetts-usa",
+    "name": "Little Comfort / Abington-Bridgewater line, Massachusetts, USA",
+    "title": "Little Comfort / Abington-Bridgewater line, Massachusetts, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Abington/Whitman line, Massachusetts, USA",
+      "Abington-Whitman line, MA",
+      "Abington-Bridgewater line, Massachusetts, USA",
+      "Little Comfort",
+      "Little Comfort, old Abington",
+      "Little Comfort, Plymouth County, Massachusetts",
+      "East Bridgewater line",
+      "South Abington / Whitman area"
+    ],
+    "shortDescription": "Old Abington boundary district",
+    "longDescription": "Combined old-Abington boundary entry for Little Comfort, the Abington-Bridgewater/East Bridgewater line, and later South Abington/Whitman geography. Hobart places John Harden of Little Comfort near this boundary; the coordinate is an inferred midpoint between modern Abington and East Bridgewater, not a proved household site.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 42.0691,
+      "lng": -70.9523
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "inferred midpoint between Abington and East Bridgewater town coordinates",
+    "roles": [
+      "maternal family context",
+      "individual geography",
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/abington-whitman-line-ma.html",
+    "researchSlug": "abington-whitman-line-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G9",
+        "name": "Benjamin Gurney",
+        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "role": "maternal family context",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G10",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1704 — before 1772",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G11",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1676 — d. 1738/9",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
       }
     ],
     "ancestorCount": 3
@@ -2675,64 +2601,6 @@
     "ancestorCount": 2
   },
   {
-    "placeId": "place-braintree-massachusetts-usa",
-    "name": "Braintree, Massachusetts, USA",
-    "title": "Braintree, Massachusetts, USA",
-    "siteName": "",
-    "streetAddress": "",
-    "region": "Massachusetts, USA",
-    "regionGroup": "north-america",
-    "aliases": [
-      "Braintree, MA"
-    ],
-    "shortDescription": "Ancestral landholding",
-    "longDescription": "Massachusetts town where immigrant John Gurney held land, including acreage noted in his possession in 1653, and sold property in 1661.",
-    "placeType": "locality",
-    "extantStatus": "unknown",
-    "extantStatusDescription": "",
-    "coordinate": {
-      "lat": 42.2079,
-      "lng": -71.001
-    },
-    "coordinatePrecision": "high",
-    "coordinateBasis": "town centroid",
-    "roles": [
-      "landholding / property reference",
-      "individual geography"
-    ],
-    "imageUrl": "",
-    "imageTitle": "",
-    "siteUrl": "",
-    "siteLabel": "",
-    "researchUrl": "/research/places/braintree-ma.html",
-    "researchSlug": "braintree-ma",
-    "ancestorLinks": [
-      {
-        "recordId": "ancestor-g13-john-gurney-1",
-        "type": "ancestor",
-        "gen": "G13",
-        "name": "John Gurney",
-        "dates": "b. c. 1609-12 — d. 1662/3",
-        "role": "landholding / property reference",
-        "lineageStatus": "Probable",
-        "displayLineageStatus": "Probable",
-        "url": "/key-research/john-gurney-case-file.html"
-      },
-      {
-        "recordId": "ancestor-g13-john-gurney-1",
-        "type": "ancestor",
-        "gen": "G13",
-        "name": "John Gurney",
-        "dates": "b. c. 1609-12 — d. 1662/3",
-        "role": "individual geography",
-        "lineageStatus": "Probable",
-        "displayLineageStatus": "Probable",
-        "url": "/key-research/john-gurney-case-file.html"
-      }
-    ],
-    "ancestorCount": 2
-  },
-  {
     "placeId": "place-burnham-thorpe-norfolk-england",
     "name": "Burnham Thorpe, Norfolk, England",
     "title": "Burnham Thorpe, Norfolk, England",
@@ -3018,6 +2886,64 @@
         "lineageStatus": "Related",
         "displayLineageStatus": "Related",
         "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 2
+  },
+  {
+    "placeId": "place-rochester-massachusetts-usa",
+    "name": "Rochester, Massachusetts, USA",
+    "title": "Rochester, Massachusetts, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Rochester, MA"
+    ],
+    "shortDescription": "G10 later household and Rochester homestead context",
+    "longDescription": "Rochester context for Benjamin Gurney G10 and the later Sarah Morse household, including the 1800 homestead division among Lemuel, Benjamin, and Levi. The Benjamin in that division should be treated as the Sarah Morse son unless direct deed language proves otherwise.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 41.7412,
+      "lng": -70.8128
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/rochester-ma.html",
+    "researchSlug": "rochester-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G10",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1704 — before 1772",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G10",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1704 — before 1772",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html"
       }
     ],
     "ancestorCount": 2

@@ -3,7 +3,7 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g02-lester-hayes-gurney-fact-sheet.html
 title: Lester Hayes Gurney Fact Sheet
 pageHeading: Lester Hayes Gurney (1945–2025)
-subtitle: "Ancestor fact sheet for G02 in the direct Gurney line. Indiana power engineer, third-generation Indiana & Michigan Electric Company employee, Master Mason, Kiwanian, and lifelong Presbyterian. Initial draft, April 2026."
+subtitle: "Ancestor fact sheet for G02 in the direct Gurney line. Indiana power engineer, third-generation engineer, Master Mason, Kiwanian, and lifelong Presbyterian. Initial draft, April 2026."
 description: "Compact fact sheet for Lester Hayes Gurney in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
@@ -27,7 +27,7 @@ factsheet:
     "deathDate": "2025-12-16",
     "birthPlace": { "@type": "Place", "name": "New York City, New York" },
     "deathPlace": { "@type": "Place", "name": "Fort Wayne, Indiana" },
-    "description": "Third-generation power engineer with Indiana & Michigan Electric Company (AEP); Master Mason of McCulloch Lodge No. 737, Marion, Indiana."
+    "description": "Third-generation power engineer; Indiana & Michigan Electric Company (AEP); Master Mason of McCulloch Lodge No. 737, Marion, Indiana."
   }
 }
 </script>
@@ -50,7 +50,7 @@ factsheet:
   </div>
   <div class="fact-item">
     <div class="fact-label">Occupation</div>
-    <div class="fact-value">Career power engineer at Indiana &amp; Michigan Electric Company (later AEP) — the third generation of the family in that role. Member, IEEE, more than fifty years. <sup class="fn"><a href="#n4" id="ref-4">4</a></sup></div>
+    <div class="fact-value">Career power engineer at Indiana &amp; Michigan Electric Company (later AEP) — the third generation of the family in power-related engineering. Member, IEEE, more than fifty years. <sup class="fn"><a href="#n4" id="ref-4">4</a></sup></div>
   </div>
   <div class="fact-item">
     <div class="fact-label">Religion</div>
@@ -68,15 +68,17 @@ factsheet:
 </section>
 
 
+
 <section class="fact-panel fact-panel-highlights" id="highlights">
 <h2 class="unnumbered">Highlights</h2>
 <ul>
-  <li><strong>Third-generation power engineer at the same Indiana utility.</strong> Les spent his entire career at Indiana &amp; Michigan Electric Company (later absorbed into American Electric Power, AEP). He was a "third-generation power engineer" with the firm — a striking continuity of profession and employer across three Gurney generations. He is remembered for "his steady service and good humor." <sup class="fn"><a href="#n4" id="ref-4b">4</a></sup></li>
+  <li><strong>Third-generation power engineer.</strong> Les spent his entire career at Indiana &amp; Michigan Electric Company (later absorbed into American Electric Power, AEP). He was a "third-generation power engineer"- a striking continuity of profession across three Gurney generations. He is remembered for "his steady service and good humor." <sup class="fn"><a href="#n4" id="ref-4b">4</a></sup></li>
   <li><strong>Five-generation Masonic line — from a Civil War general's New York lodge to an Indiana utility engineer's.</strong> The obituary describes Les as part of "a five-generation family tradition in Freemasonry": Master Mason of McCulloch Lodge No. 737 (Marion, IN), with Scottish Rite and Salaam Shriners affiliations. The thread runs back through G5 Lester Sawyer Gurney (master of Continental Lodge No. 287, NY) to G6 Brig. Gen. William Gurney, remembered in lodge history as the "Father" of that same New York lodge. <sup class="fn"><a href="#n8" id="ref-8">8</a></sup></li>
   <li><strong>A long civic life in Marion, Indiana.</strong> Twenty-five years in the Kiwanis Club (including service as Secretary), volunteer with Habitat for Humanity, and Treasurer of Boy Scouts of America Troop 433 in Marion. <sup class="fn"><a href="#n9" id="ref-9">9</a></sup></li>
   <li><strong>Met his wife at college; remained married fifty-seven years.</strong> Les and Dana Ault met as students at Valparaiso University and married 22 June 1968 in Fulton, Indiana. Dana predeceased him. <sup class="fn"><a href="#n7" id="ref-7b">7</a></sup></li>
   <li><strong>The end of the family's New York chapter.</strong> Born in New York City in 1945, Les is the last of the direct line to be born in the New York/New Jersey metropolitan area where the family had lived continuously since Willis Gurney (G7) arrived in Flushing, Queens in the early nineteenth century. The line then moved decisively into Indiana through Les's adult life and Allen's birth in Marion. <sup class="fn"><a href="#n1" id="ref-1b">1</a></sup></li>
 </ul>
+
 
 </section>
 
@@ -101,10 +103,9 @@ factsheet:
 
 <section class="fact-section fact-narrative" id="narrative">
 <h2 class="unnumbered">Narrative</h2>
+<p>Lester Hayes Gurney's life recapitulates the geographic and professional arc of the twentieth-century Gurneys: born in New York City to a family whose roots in the New York area went back to Willis Gurney's arrival in Flushing in the early 1800s, but raised, married, and made his career in Indiana — first in Marion and finally in Fort Wayne. His father, Lester Sawyer Gurney III (G3), and grandfather, Lester Sawyer Gurney Jr. (G4), were the previous two generations of the family in power/civil engineering, and Les became the third when he completed his electrical-engineering degree at Valparaiso University and joined Indiana and Michigan Electric Company.</p>
 
-<p>Lester Hayes Gurney's life recapitulates the geographic and professional arc of the twentieth-century Gurneys: born in New York City to a family whose roots in the New York area went back to Willis Gurney's arrival in Flushing in the early 1800s, but raised, married, and made his career in Indiana — first in Marion and finally in Fort Wayne. His father, Lester Sawyer Gurney III (G3), and grandfather, Lester Sawyer Gurney Jr. (G4), were the previous two generations of the family in power/civil engineering, and Les became the third when he completed his electrical-engineering degree at Valparaiso University and joined the same firm.</p>
-
-<p>He met Dana Ault at Valparaiso, married her on 22 June 1968 at Fulton, Indiana, and the two of them built a family and a long life together in Marion. The Masonic identity in his obituary places him in a remarkable lineal continuity: he was a Master Mason of McCulloch Lodge No. 737 in Marion, with affiliations at the Scottish Rite and Salaam Shriners, and his obituary describes this as "a five-generation family tradition in Freemasonry." That same craft connection runs back through G5 Lester Sawyer Gurney (master of Continental Lodge No. 287 in New York) to G6 Brigadier General William Gurney, who is remembered in lodge history as the "Father" of Continental Lodge No. 287. The thread from a New York Civil War general's lodge to a 21st-century Indiana power engineer's lodge is one of the family's most durable continuities.</p>
+<p>He met Dana Ault at Valparaiso, married her on 22 June 1968 at Fulton, Indiana, and the two of them built a family and a long life together in Marion. The Masonic identity places him in a remarkable lineal continuity: he was a Master Mason of McCulloch Lodge No. 737 in Marion, with affiliations at the Scottish Rite and Salaam Shriners, and his obituary describes this as "a five-generation family tradition in Freemasonry." That same craft connection runs back through G5 Lester Sawyer Gurney (master of Continental Lodge No. 287 in New York) to G6 Brigadier General William Gurney, who is remembered in lodge history as the "Father" of Continental Lodge No. 287. The thread from a New York Civil War general's lodge to a 21st-century Indiana power engineer's lodge is one of the family's most durable continuities.</p>
 
 <p>His civic and faith life were deeply rooted. He was a Kiwanis Club member for twenty-five years and served as Secretary; he volunteered with Habitat for Humanity; he served as Treasurer for Boy Scouts of America Troop 433 in Marion; and his obituary notes his more than fifty-year membership in the Institute of Electrical and Electronics Engineers. He was for many years a member of Westminster Presbyterian Church in Marion, and at the time of his death a member of First Presbyterian Church in Fort Wayne. Dana predeceased him, as did his younger son Kenneth. Les was survived by his elder son Allen Gurney and Allen's wife Beth Levy of Portland, Oregon; by their children — his grandchildren Ebba and Soren Gurney of Ann Arbor, Michigan; by his brother-in-law Carl Ault and sister-in-law Rita Ault of Rochester, Indiana; and by several nieces, nephews, and their children.</p>
 </section>
@@ -139,7 +140,6 @@ factsheet:
     <a href="https://www.fairhavenfortwayne.com/obituaries/lester-gurney">FairHaven obituary</a>
   </div>
 </div>
-
 <div class="fact-panel">
   <h2>Timeline</h2>
   <table class="fact-timeline-table">
@@ -149,8 +149,8 @@ factsheet:
       <tr><td>1960s</td><td>Undergraduate at Valparaiso University, B.S. Electrical Engineering; meets Dana Ault.</td></tr>
       <tr><td>1968</td><td>Marries Dana Ault, 22 June, Fulton, Indiana.</td></tr>
       <tr><td>1972</td><td>Son Allen Lawrence Gurney (G1) born in Marion, Indiana.</td></tr>
-      <tr><td>1974</td><td>Son Kenneth Gurney born.</td></tr>
-      <tr><td>Career</td><td>Power engineer at Indiana &amp; Michigan Electric Company (later AEP); third generation of the family in that role.</td></tr>
+      <tr><td>1974</td><td>Son Kenneth Gurney born in Marion, Indiana.</td></tr>
+      <tr><td>Career</td><td>Power engineer at Indiana &amp; Michigan Electric Company (later AEP); third generation of the family in engineering.</td></tr>
       <tr><td>2013</td><td>Son Kenneth dies.</td></tr>
       <tr><td>2020s</td><td>Moves from Marion to Fort Wayne; member of First Presbyterian Church, Fort Wayne.</td></tr>
       <tr><td>2025</td><td>Dies 16 December at The Towne House Retirement Community, Fort Wayne, age 80.</td></tr>
@@ -158,6 +158,7 @@ factsheet:
     </tbody>
   </table>
 </div>
+
 
   </aside>
 </div>

@@ -92,7 +92,7 @@
   {
     "placeId": "place-abington-massachusetts-usa",
     "placeName": "Abington, Massachusetts, USA",
-    "longDescription": "Abington, MA",
+    "longDescription": "Old Abington vital and church-record locality where Benjamin, son of Jean, was baptized in the First Church of Abington record stream identified as C.R.1.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
@@ -102,22 +102,26 @@
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
-    "reviewNotes": []
+    "reviewNotes": [
+      "Use this town-level record for Abington vital/church records; use the Little Comfort / Abington-Bridgewater line record for the southerly boundary district."
+    ]
   },
   {
     "placeId": "place-abington-whitman-line-massachusetts-usa",
-    "placeName": "Abington–Whitman line, Massachusetts, USA",
-    "longDescription": "Abington/Whitman, MA",
+    "placeName": "Little Comfort / Abington-Bridgewater line, Massachusetts, USA",
+    "longDescription": "Combined old-Abington boundary entry for Little Comfort, the Abington-Bridgewater/East Bridgewater line, and later South Abington/Whitman geography. Hobart places John Harden of Little Comfort near this boundary; the coordinate is an inferred midpoint between modern Abington and East Bridgewater, not a proved household site.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
     "extantStatusDescription": "",
-    "coordinateBasis": "inferred locality centroid",
+    "coordinateBasis": "inferred midpoint between Abington and East Bridgewater town coordinates",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
-    "reviewNotes": []
+    "reviewNotes": [
+      "Low-precision aggregate chosen to avoid separate duplicate entries for Little Comfort, East Bridgewater line, and South Abington/Whitman until a tighter parcel or household coordinate is found."
+    ]
   },
   {
     "placeId": "place-ardleigh-essex-england",
@@ -169,7 +173,7 @@
   {
     "placeId": "place-braintree-massachusetts-usa",
     "placeName": "Braintree, Massachusetts, USA",
-    "longDescription": "Massachusetts town where immigrant John Gurney held land, including acreage noted in his possession in 1653, and sold property in 1661.",
+    "longDescription": "Massachusetts town where immigrant John Gurney held land and where Braintree church context intersects the Harden/Gurney cluster: Benjamin Gurney G11 married Rebecca Staples at Braintree First Church, and Mr. Niles of Braintree recorded Jane Harden of Little Comfort in 1711.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
@@ -180,13 +184,13 @@
     "heritageUrl": "",
     "heritageLabel": "",
     "reviewNotes": [
-      "Possession versus ownership should stay explicit in later source cleanup."
+      "Braintree is retained as a town-level aggregate for early Gurney land and church-record context; no separate church-site coordinate has been assigned."
     ]
   },
   {
     "placeId": "place-bridgewater-massachusetts-usa",
     "placeName": "Bridgewater, Massachusetts, USA",
-    "longDescription": "Bridgewater-area holdings tied to the Benjamin/Richard Gurney line, including the Richard Williams farm and other town-level parcel references.",
+    "longDescription": "Bridgewater-area context for Plymouth County probate and landholding references, including John Harden of Bridgewater in the 1751 will and the older Abington/Little Comfort boundary setting.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
@@ -197,7 +201,7 @@
     "heritageUrl": "",
     "heritageLabel": "",
     "reviewNotes": [
-      "Town-level record aggregates multiple parcels and named sub-places; parcel-level cleanup remains possible."
+      "Town-level record aggregates Bridgewater, East Bridgewater-line, and old proprietary boundary context; use Little Comfort / Abington-Bridgewater line for the more specific Harden neighborhood clue."
     ]
   },
   {
@@ -314,7 +318,7 @@
   {
     "placeId": "place-cummington-massachusetts-usa",
     "placeName": "Cummington, Massachusetts, USA",
-    "longDescription": "Cummington farm holdings associated with the Benjamin/Amos Gurney family after their move from Abington.",
+    "longDescription": "Cummington farm and burial context for Benjamin Gurney G9 after the 1770 move from Abington, with later Amos and Willis Gurney family continuity.",
     "siteName": "Dawes Cemetery",
     "streetAddress": "",
     "extantStatus": "unknown",
@@ -325,7 +329,7 @@
     "heritageUrl": "",
     "heritageLabel": "",
     "reviewNotes": [
-      "Town-level record aggregates several family-era parcels and later cemetery context."
+      "G10 and G11 were removed from this place link; Cummington belongs to the G9 frontier line rather than the G10/Sarah Morse Rochester homestead branch."
     ]
   },
   {
@@ -702,7 +706,7 @@
   {
     "placeId": "place-middleborough-massachusetts-usa",
     "placeName": "Middleborough, Massachusetts, USA",
-    "longDescription": "Middleborough land purchases and later sales associated with the Benjamin Gurney family in the 1730s and 1740s.",
+    "longDescription": "Middleborough land and marriage context for Benjamin Gurney G10 and Sarah Morse, including reported G11/G10 land transactions and the 1731 Middleborough marriage index. This should not be conflated with G9 Benjamin of the Cummington line without direct record evidence.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
@@ -713,7 +717,7 @@
     "heritageUrl": "",
     "heritageLabel": "",
     "reviewNotes": [
-      "Town-level record aggregates multiple deeded parcels."
+      "Town-level record aggregates G11/G10 land and G10/Sarah Morse marriage context; the 1730 Harden-line Benjamin G9 has been removed from this place link pending direct evidence."
     ]
   },
   {
@@ -851,7 +855,7 @@
   {
     "placeId": "place-rochester-massachusetts-usa",
     "placeName": "Rochester, Massachusetts, USA",
-    "longDescription": "Homestead farm, Rochester, MA — sons Lemuel, Benjamin & Levi divided it 1 Jan. 1800 (Plym. Co. land deed 95:139, GS film 559,140).",
+    "longDescription": "Rochester context for Benjamin Gurney G10 and the later Sarah Morse household, including the 1800 homestead division among Lemuel, Benjamin, and Levi. The Benjamin in that division should be treated as the Sarah Morse son unless direct deed language proves otherwise.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "unknown",
@@ -861,7 +865,9 @@
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
-    "reviewNotes": []
+    "reviewNotes": [
+      "Removed G9 from this place link to preserve the Cummington-line / Rochester-homestead split."
+    ]
   },
   {
     "placeId": "place-runhall-norfolk-england",
@@ -972,7 +978,7 @@
     "heritageUrl": "",
     "heritageLabel": "",
     "reviewNotes": [
-      "Town-level record aggregates multiple field and pond-side grants rather than a single parcel."
+      "Town-level record aggregates early Gurney grants and family-origin context; G9 was removed from this place link because the Harden-line Benjamin is better placed at Abington/Little Comfort and Cummington."
     ]
   }
 ]

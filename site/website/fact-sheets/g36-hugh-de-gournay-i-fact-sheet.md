@@ -13,9 +13,9 @@ factsheet:
   slug: g36-hugh-de-gournay-i-fact-sheet
   personName: Hugh de Gournay I
   heroImage: /media/factsheets/g36-hugh-de-gournay-i-hero.png
-  heroAlt: Frontispiece arch from Daniel Gurney's Record of the House of Gournay
-  heroCaption: Frontispiece arch to Daniel Gurney's Record of the House of Gournay, used here as a symbolic image for the earliest documented Gournay generation.
-  heroCredit: Excerpted from Daniel Gurney, The Record of the House of Gournay (1848), public domain.
+  heroAlt: Hugh de Gournay surveys his fortified stone citadel, later remembered as La Tour Hue
+  heroCaption: Hugh de Gournay surveys his fortified stone citadel, later remembered as La Tour Hue.
+  heroCredit: Historical interpretation by the site author.
 ---
 
 <script type="application/ld+json">

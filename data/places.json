@@ -152,9 +152,14 @@
     "placeId": "place-abington-massachusetts-usa",
     "name": "Abington, Massachusetts, USA",
     "aliases": [
-      "Abington, MA"
+      "Abington, MA",
+      "Old Abington, Plymouth County, Massachusetts",
+      "Abington, Plymouth County, MA",
+      "First Church of Abington",
+      "First Church of Abington (C.R.1)",
+      "C.R.1, First Church of Abington"
     ],
-    "shortDescription": "Associated ancestral place",
+    "shortDescription": "Harden-Gurney baptism and old Abington record cluster",
     "placeType": "locality",
     "coordinate": {
       "lat": 42.1043,
@@ -162,19 +167,20 @@
     },
     "coordinatePrecision": "high",
     "roles": [
+      "church/vital-record context",
       "individual geography"
     ],
     "ancestorLinks": [
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "role": "church/vital-record context"
+      },
       {
         "recordId": "ancestor-g10-benjamin-gurney",
         "role": "individual geography"
       },
       {
         "recordId": "ancestor-g11-benjamin-gurney",
-        "role": "individual geography"
-      },
-      {
-        "recordId": "ancestor-g9-benjamin-gurney",
         "role": "individual geography"
       }
     ],
@@ -182,33 +188,41 @@
   },
   {
     "placeId": "place-abington-whitman-line-massachusetts-usa",
-    "name": "Abington–Whitman line, Massachusetts, USA",
+    "name": "Little Comfort / Abington-Bridgewater line, Massachusetts, USA",
     "aliases": [
       "Abington/Whitman line, Massachusetts, USA",
-      "Abington–Whitman line, MA"
+      "Abington-Whitman line, MA",
+      "Abington-Bridgewater line, Massachusetts, USA",
+      "Little Comfort",
+      "Little Comfort, old Abington",
+      "Little Comfort, Plymouth County, Massachusetts",
+      "East Bridgewater line",
+      "South Abington / Whitman area"
     ],
-    "shortDescription": "Associated ancestral place",
+    "shortDescription": "Old Abington boundary district",
     "placeType": "locality",
     "coordinate": {
-      "lat": 42.0925,
-      "lng": -70.9413
+      "lat": 42.0691,
+      "lng": -70.9523
     },
     "coordinatePrecision": "low",
     "roles": [
-      "individual geography"
+      "maternal family context",
+      "individual geography",
+      "landholding / property reference"
     ],
     "ancestorLinks": [
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "role": "maternal family context"
+      },
       {
         "recordId": "ancestor-g10-benjamin-gurney",
         "role": "individual geography"
       },
       {
         "recordId": "ancestor-g11-benjamin-gurney",
-        "role": "individual geography"
-      },
-      {
-        "recordId": "ancestor-g9-benjamin-gurney",
-        "role": "individual geography"
+        "role": "landholding / property reference"
       }
     ],
     "filename": "abington-whitman-line-ma.md"
@@ -289,9 +303,12 @@
     "placeId": "place-braintree-massachusetts-usa",
     "name": "Braintree, Massachusetts, USA",
     "aliases": [
-      "Braintree, MA"
+      "Braintree, MA",
+      "Braintree, Norfolk County, MA",
+      "Braintree First Church",
+      "Mr. Niles of Braintree"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Early Gurney land and Harden/Gurney church-record context",
     "placeType": "locality",
     "coordinate": {
       "lat": 42.2079,
@@ -299,10 +316,20 @@
     },
     "coordinatePrecision": "high",
     "roles": [
+      "maternal family context",
+      "church/vital-record context",
       "landholding / property reference",
       "individual geography"
     ],
     "ancestorLinks": [
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "role": "maternal family context"
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "role": "church/vital-record context"
+      },
       {
         "recordId": "ancestor-g13-john-gurney-1",
         "role": "landholding / property reference"
@@ -318,9 +345,14 @@
     "placeId": "place-bridgewater-massachusetts-usa",
     "name": "Bridgewater, Massachusetts, USA",
     "aliases": [
-      "Bridgewater, MA"
+      "Bridgewater, MA",
+      "Bridgewater, Plymouth County, MA",
+      "Old Bridgewater",
+      "Bridgewater area",
+      "East Bridgewater line",
+      "Little Comfort boundary context"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Bridgewater-area probate and landholding context",
     "placeType": "locality",
     "coordinate": {
       "lat": 41.9904,
@@ -328,10 +360,15 @@
     },
     "coordinatePrecision": "high",
     "roles": [
+      "maternal family context",
       "landholding / property reference",
       "individual geography"
     ],
     "ancestorLinks": [
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "role": "maternal family context"
+      },
       {
         "recordId": "ancestor-g10-benjamin-gurney",
         "role": "landholding / property reference"
@@ -347,10 +384,6 @@
       {
         "recordId": "ancestor-g8-amos-gurney",
         "role": "individual geography"
-      },
-      {
-        "recordId": "ancestor-g9-benjamin-gurney",
-        "role": "landholding / property reference"
       }
     ],
     "filename": "bridgewater-ma.md"
@@ -556,7 +589,7 @@
     "aliases": [
       "Cummington, MA"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "G9 frontier farm and later family line",
     "placeType": "locality",
     "coordinate": {
       "lat": 42.45599577393482,
@@ -564,26 +597,10 @@
     },
     "coordinatePrecision": "high",
     "roles": [
-      "landholding / property reference",
-      "individual geography"
+      "individual geography",
+      "landholding / property reference"
     ],
     "ancestorLinks": [
-      {
-        "recordId": "ancestor-g10-benjamin-gurney",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g10-benjamin-gurney",
-        "role": "individual geography"
-      },
-      {
-        "recordId": "ancestor-g11-benjamin-gurney",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g11-benjamin-gurney",
-        "role": "individual geography"
-      },
       {
         "recordId": "ancestor-g7-willis-gurney",
         "role": "individual geography"
@@ -1485,7 +1502,7 @@
       "Middleborough, MA",
       "Middleboro, MA"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "G10/Sarah Morse marriage and G11/G10 land context",
     "placeType": "locality",
     "coordinate": {
       "lat": 41.8934,
@@ -1511,14 +1528,6 @@
       },
       {
         "recordId": "ancestor-g11-benjamin-gurney",
-        "role": "individual geography"
-      },
-      {
-        "recordId": "ancestor-g9-benjamin-gurney",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g9-benjamin-gurney",
         "role": "individual geography"
       }
     ],
@@ -1804,7 +1813,7 @@
     "aliases": [
       "Rochester, MA"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "G10 later household and Rochester homestead context",
     "placeType": "locality",
     "coordinate": {
       "lat": 41.7412,
@@ -1822,22 +1831,6 @@
       },
       {
         "recordId": "ancestor-g10-benjamin-gurney",
-        "role": "individual geography"
-      },
-      {
-        "recordId": "ancestor-g11-benjamin-gurney",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g11-benjamin-gurney",
-        "role": "individual geography"
-      },
-      {
-        "recordId": "ancestor-g9-benjamin-gurney",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g9-benjamin-gurney",
         "role": "individual geography"
       }
     ],
@@ -2076,8 +2069,8 @@
     },
     "coordinatePrecision": "high",
     "roles": [
-      "landholding / property reference",
-      "individual geography"
+      "individual geography",
+      "landholding / property reference"
     ],
     "ancestorLinks": [
       {
@@ -2102,10 +2095,6 @@
       },
       {
         "recordId": "ancestor-g13-john-gurney-1",
-        "role": "individual geography"
-      },
-      {
-        "recordId": "ancestor-g9-benjamin-gurney",
         "role": "individual geography"
       }
     ],

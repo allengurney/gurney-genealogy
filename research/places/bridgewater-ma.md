@@ -4,23 +4,23 @@
 ## Place registry
 
 - `placeId`: `place-bridgewater-massachusetts-usa`
-- Short description: Ancestral landholding
+- Short description: Bridgewater-area probate and landholding context
 - Place type: locality
-- Aliases: Bridgewater, MA
+- Aliases: Bridgewater, MA, Bridgewater, Plymouth County, MA, Old Bridgewater, Bridgewater area, East Bridgewater line, Little Comfort boundary context
 - Coordinate: 41.9904, -70.9759 (high)
-- Roles: landholding / property reference, individual geography
-- Detail: Bridgewater-area holdings tied to the Benjamin/Richard Gurney line, including the Richard Williams farm and other town-level parcel references.
+- Roles: maternal family context, landholding / property reference, individual geography
+- Detail: Bridgewater-area context for Plymouth County probate and landholding references, including John Harden of Bridgewater in the 1751 will and the older Abington/Little Comfort boundary setting.
 
 ### Linked ancestors
 
-- G10 Benjamin Gurney — landholding / property reference
-- G11 Benjamin Gurney — landholding / property reference
-- G12 Richard Gurney — landholding / property reference
-- G8 Amos Gurney — individual geography
-- G9 Benjamin Gurney — landholding / property reference
+- G9 Benjamin Gurney - maternal family context
+- G10 Benjamin Gurney - landholding / property reference
+- G11 Benjamin Gurney - landholding / property reference
+- G12 Richard Gurney - landholding / property reference
+- G8 Amos Gurney - individual geography
 
 ### Review notes
 
-- Town-level record aggregates multiple parcels and named sub-places; parcel-level cleanup remains possible.
+- Town-level record aggregates Bridgewater, East Bridgewater-line, and old proprietary boundary context; use Little Comfort / Abington-Bridgewater line for the more specific Harden neighborhood clue.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

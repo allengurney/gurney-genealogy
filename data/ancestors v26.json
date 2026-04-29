@@ -409,8 +409,8 @@
     "geography": "Abington, MA → Cummington, Hampshire Co., MA",
     "eraId": "era-massachusetts-farming-generations",
     "lineageStatus": "Confirmed",
-    "summary": "Plymouth County farmer born of an unmarried liaison and raised by his maternal aunt; in 1770 he sold his Abington land and bought into the new frontier town of Cummington with Silas Reed, opening the family's western Massachusetts chapter.",
-    "notables": "Baptized at Abington 30 May 1730 — son of Benjamin G10 by Jane Harden, born before Benjamin's 1731 marriage to Sarah Morse; raised by Jane's sister and acknowledged in his maternal grandfather John Harden's 1751 will. Sold Abington land June 1770; on 5 Nov. 1770 purchased land in Town No. 5 (Cummington) with Silas Reed (Springfield records). 1787 farm exchange with Philip Shaw at Cummington (Foster & Streeter, *\"Only One Cummington,\"* 1974, p. 390). 1790 census: head of a six-person Cummington household (3-0-3). Two marriages — Elizabeth Harden, then Mercy Noyes. Buried Dawes Cemetery, Cummington — one of the few direct-line ancestors in the colonial Massachusetts generations whose burial place is firmly recorded.",
+    "summary": "Plymouth County farmer born of an unmarried liaison and reportedly raised by his maternal aunt; in 1770 he sold his Abington land and bought into the new frontier town of Cummington with Silas Reed, opening the family's western Massachusetts chapter.",
+    "notables": "Baptized at Abington 30 May 1730 in the Harden/Hardin entries as Benjamin, son of Jean; C.R.1 identifies the church source as First Church of Abington. John Harden's 1751 Plymouth County will names daughter Jane Spear and separately gives twenty shillings to \"my grandson Benjamin Gurney,\" confirming Benjamin's Harden-side kinship. Elizabeth Harden appears in the will as a witness, not as a daughter or heir, resolving the older Elizabeth-conflict in favor of Jane/Jean Harden Spear as the best-supported maternal candidate. The tradition that Benjamin was raised by his mother's sister remains plausible but unproved; Sarah Harden Gurney is the strongest aunt-household candidate, not a confirmed caregiver. Sold Abington land June 1770; on 5 Nov. 1770 purchased land in Town No. 5 (Cummington) with Silas Reed. 1787 farm exchange with Philip Shaw at Cummington (Foster & Streeter, *\"Only One Cummington,\"* 1974, p. 390). 1790 census: head of a six-person Cummington household (3-0-3). Two marriages: Elizabeth Harden, then Mercy Noyes. Buried Dawes Cemetery, Cummington.",
     "landHoldings": "Land in Abington, MA (sold June 1770 upon move to Cummington). Springfield, MA records: purchased land in Town #5 (Cummington) with Silas Reed, 5 Nov. 1770. In 1787 exchanged farms with Philip Shaw ('Only One Cummington,' Foster & Streeter 1974, p.390).",
     "spouses": [
       {
@@ -441,10 +441,8 @@
       "place-abington-massachusetts-usa",
       "place-abington-whitman-line-massachusetts-usa",
       "place-bridgewater-massachusetts-usa",
-      "place-cummington-massachusetts-usa",
-      "place-middleborough-massachusetts-usa",
-      "place-rochester-massachusetts-usa",
-      "place-weymouth-massachusetts-usa"
+      "place-braintree-massachusetts-usa",
+      "place-cummington-massachusetts-usa"
     ]
   },
   {
@@ -456,31 +454,40 @@
     "eraId": "era-massachusetts-farming-generations",
     "lineageStatus": "Confirmed",
     "summary": "Plymouth County farmer whose 1730 liaison with Jane Harden produced the direct-line son Benjamin (G9) one year before his 1731 marriage to Sarah Morse — a half-brother split that runs the Cummington line and the Rochester homestead in two directions for the next century.",
-    "notables": "Three traceable Plymouth County land transactions: with his father (G11) bought from Samuel Tinkham, Middleboro, 28 Oct. 1730 (Plym. Reg. 39:79), 3 lots upland + ~2 acres meadow, sold 3 May 1749; bought 8 acres at Middleboro from Sam Eddy Jr., 7 Nov. 1731 (Plym. Reg.); held a Rochester homestead farm later divided among sons Lemuel, Benjamin, and Levi by deed 1 Jan. 1800 (Plym. Co. 95:139, GS film 559,140). The 1800 division reveals he had a *second* Benjamin — son by Sarah Morse — distinct from G9 (son by Jane Harden); the two same-name half-brothers are a well-known confusion point in 18th-century Plymouth County records. Jane Harden's 1711 baptism \"of Little Comfort\" is the first reference to that local mill site. Died at Rochester before December 1772.",
+    "notables": "The Abington baptismal record for Benjamin G9 names only the mother, Jean, and records a baptism on 30 May 1730; it does not name the father. The identification of this Benjamin as son of Benjamin Gurney G10 and Jane/Jean Harden is supported by secondary compiled genealogy and strengthened indirectly by John Harden's 1751 will, which names \"my grandson Benjamin Gurney\" and daughter Jane Spear. G10 married Sarah Morse at Middleborough on 14 June 1731, about a year after the Abington baptism. Three traceable Plymouth County land transactions: with his father (G11) bought from Samuel Tinkham, Middleboro, 28 Oct. 1730 (Plym. Reg. 39:79), 3 lots upland + ~2 acres meadow, sold 3 May 1749; bought 8 acres at Middleboro from Sam Eddy Jr., 7 Nov. 1731 (Plym. Reg.); held a Rochester homestead farm later divided among sons Lemuel, Benjamin, and Levi by deed 1 Jan. 1800 (Plym. Co. 95:139, GS film 559,140). The 1800 division and secondary genealogy preserve the two-Benjamin problem: G9, baptized in 1730 as son of Jean/Jane Harden, is distinct from the later Benjamin in the Sarah Morse child set. Died at Rochester before December 1772.",
     "landHoldings": "• With father (Gen.11), bought land from Samuel Tinkham, Middleboro, 28 Oct. 1730 — 3 lots of upland + 1 lot meadow ~2 acres (Plym. Reg. 39:79). Sold 3 May 1749 after father's death. • 8 acres Middleboro from Sam Eddy Jr., 7 Nov. 1731 (Plym. Reg.). • Homestead farm, Rochester, MA — sons Lemuel, Benjamin & Levi divided it 1 Jan. 1800 (Plym. Co. land deed 95:139, GS film 559,140).",
     "spouses": [
       {
-        "name": "Jane Harden",
-        "notes": "Liaison prior to marriage; mother of Benjamin G9"
+        "name": "Jane / Jean Harden",
+        "notes": "Likely non-marital partner; best-supported mother of Benjamin G9. Abington baptism names Benjamin as son of Jean; John Harden's will confirms grandson Benjamin Gurney and daughter Jane Spear."
       },
       {
         "name": "Sarah Morse",
-        "dates": "m. 1731, Middleboro"
+        "dates": "m. 14 June 1731, Middleborough",
+        "notes": "Marriage date from Middleborough marriage index; original register still preferred."
       }
     ],
     "children": [
       {
         "name": "Benjamin Gurney",
         "dates": "bpt. 30 May 1730",
-        "mother": "Jane Harden",
-        "notes": "G9 in direct line"
+        "mother": "Jane / Jean Harden",
+        "notes": "G9 in direct line; baptism names mother Jean but not father; father identification supported by secondary compiled genealogy and broader Harden/Gurney evidence chain."
       },
       {
         "name": "Lemuel Gurney",
+        "mother": "Sarah Morse",
         "notes": "With brothers divided Rochester farm 1 Jan. 1800"
       },
       {
+        "name": "Benjamin Gurney",
+        "dates": "b. c. 1743",
+        "mother": "Sarah Morse",
+        "notes": "Later same-name half-brother; likely distinct from G9 and relevant to the two-Benjamin disambiguation problem."
+      },
+      {
         "name": "Levi Gurney",
+        "mother": "Sarah Morse",
         "notes": "With brothers divided Rochester farm 1 Jan. 1800"
       }
     ],
@@ -496,7 +503,6 @@
       "place-abington-massachusetts-usa",
       "place-abington-whitman-line-massachusetts-usa",
       "place-bridgewater-massachusetts-usa",
-      "place-cummington-massachusetts-usa",
       "place-middleborough-massachusetts-usa",
       "place-rochester-massachusetts-usa",
       "place-weymouth-massachusetts-usa"
@@ -538,9 +544,8 @@
       "place-abington-massachusetts-usa",
       "place-abington-whitman-line-massachusetts-usa",
       "place-bridgewater-massachusetts-usa",
-      "place-cummington-massachusetts-usa",
+      "place-braintree-massachusetts-usa",
       "place-middleborough-massachusetts-usa",
-      "place-rochester-massachusetts-usa",
       "place-weymouth-massachusetts-usa"
     ]
   },

@@ -4,21 +4,19 @@
 ## Place registry
 
 - `placeId`: `place-rochester-massachusetts-usa`
-- Short description: Ancestral landholding
+- Short description: G10 later household and Rochester homestead context
 - Place type: locality
 - Aliases: Rochester, MA
 - Coordinate: 41.7412, -70.8128 (high)
 - Roles: landholding / property reference, individual geography
-- Detail: Homestead farm, Rochester, MA — sons Lemuel, Benjamin & Levi divided it 1 Jan. 1800 (Plym. Co. land deed 95:139, GS film 559,140).
+- Detail: Rochester context for Benjamin Gurney G10 and the later Sarah Morse household, including the 1800 homestead division among Lemuel, Benjamin, and Levi. The Benjamin in that division should be treated as the Sarah Morse son unless direct deed language proves otherwise.
 
 ### Linked ancestors
 
-- G10 Benjamin Gurney — landholding / property reference, individual geography
-- G11 Benjamin Gurney — landholding / property reference, individual geography
-- G9 Benjamin Gurney — landholding / property reference, individual geography
+- G10 Benjamin Gurney - landholding / property reference, individual geography
 
 ### Review notes
 
-- None in cleanup pass 2.
+- Removed G9 from this place link to preserve the Cummington-line / Rochester-homestead split.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->
