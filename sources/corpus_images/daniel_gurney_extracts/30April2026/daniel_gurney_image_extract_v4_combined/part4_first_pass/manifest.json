@@ -1,0 +1,662 @@
+{
+  "created": "2026-04-30T17:59:34Z",
+  "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf",
+  "source_citation": "Daniel Gurney, *The Record of the House of Gournay*, Part IV / later lines and appendix (London/privately printed edition represented by uploaded logical Part III/Part IV PDF), printed pages 606-699 for this first image pass.",
+  "processing": {
+    "render_dpi": 300,
+    "image_format": "PNG",
+    "color_mode": "grayscale",
+    "post_processing": "Pillow grayscale conversion and light autocontrast; no OCR edits, no binarization, no generative enhancement",
+    "crop_basis": "Manual/visual crop boxes derived from rendered pages, checked against page text and illustration list"
+  },
+  "items": [
+    {
+      "id": "dg_pt4_p606_fitzharding_arms",
+      "pdf_page": 1,
+      "printed_page": "606",
+      "crop150": [
+        679,
+        435,
+        889,
+        676
+      ],
+      "caption": "Arms of Fitz-Harding / Berkeley: gules, a chevron between ten crosslets pattée.",
+      "type": "heraldic arms",
+      "people": "Robert Fitz-Harding; Robert de Were/Fitz-Harding; Hawisa de Gournay; Eva de Gournay; Robert de Gournay II",
+      "generation": "Collateral/ancestral-background branch; no direct-line generation assigned in current registry for this item",
+      "places": "Beverstone; King's Weston; Berkeley; Inglishcombe/Barew-Gournay context",
+      "scope": "Related / contextual",
+      "description": "On the opening Hawisa de Gournay page, Daniel Gurney uses the Fitz-Harding shield while explaining the descent of the Fitz-Harding inheritance through Hawisa de Gournay and Eva de Gournay to Robert de Gournay. The arms support the narrative that Robert de Gournay II inherited Fitz-Harding interests through his mother Eva.",
+      "filename": "images/dg_pt4_p606_fitzharding_arms.png",
+      "image_pixels": {
+        "width": 460,
+        "height": 491
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p606_gaunt_arms",
+      "pdf_page": 1,
+      "printed_page": "606",
+      "crop150": [
+        279,
+        998,
+        487,
+        1236
+      ],
+      "caption": "Arms of Gaunt: barry of eight, or and azure, over all a bend sinister gules.",
+      "type": "heraldic arms",
+      "people": "Maurice de Gaunt; Alice de Gaunt; Robert de Gournay II",
+      "generation": "Collateral/related branch; no direct-line generation assigned in current registry for this item",
+      "places": "Folkingham; Fitz-Harding/Gaunt inheritance context",
+      "scope": "Related / contextual",
+      "description": "The Gaunt shield appears in the discussion of Maurice de Gaunt, half-brother of Eva de Gournay. The adjacent text explains why Robert de Gournay inherited the Fitz-Harding estate but not the Gaunt or Paganell inheritances, clarifying the family-relationship logic behind the Somersetshire Gournay descent.",
+      "filename": "images/dg_pt4_p606_gaunt_arms.png",
+      "image_pixels": {
+        "width": 423,
+        "height": 486
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p613_boshyon_church_side_view_contextual",
+      "pdf_page": 8,
+      "printed_page": "613",
+      "crop150": [
+        183,
+        564,
+        930,
+        1366
+      ],
+      "caption": "Large architectural plate appearing on printed p. 613; the list of illustrations identifies Boshyon side view at p. 613.",
+      "type": "architectural plate",
+      "people": "William Fitz-John / Harptree context on surrounding page; plate itself likely belongs to the broader Gournay architectural illustration set",
+      "generation": "Cataloged as contextual; no direct-line generation assigned",
+      "places": "Boshyon; Harptree discussion on same page",
+      "scope": "Cataloged / retained, lower-confidence relevance",
+      "description": "This plate is embedded in the Harptree appendix page. The surrounding text is about William Fitz-John of Harptree and a seal associated with William son of William son of John de Harptree; however the global list of illustrations separately identifies a Boshyon side view on p. 613. Retained because it is a Daniel Gurney illustration in the relevant Part IV PDF, but the image-to-text alignment is less certain than the other entries.",
+      "filename": "images/dg_pt4_p613_boshyon_church_side_view_contextual.png",
+      "image_pixels": {
+        "width": 1534,
+        "height": 1610
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p614_robert_de_gournay_somerset_arms",
+      "pdf_page": 9,
+      "printed_page": "614",
+      "crop150": [
+        263,
+        993,
+        473,
+        1233
+      ],
+      "caption": "Robert de Gournay II seal/arms: paly of six with a label as eldest son.",
+      "type": "heraldic arms / seal-derived shield",
+      "people": "Robert de Gournay II, son of Eva de Gournay and Thomas de Harptree",
+      "generation": "Related Somersetshire branch; not assigned a direct-line generation in the current registry",
+      "places": "Inglishcombe; Barew-Gournay; Beverstone; King's Weston; Harptree",
+      "scope": "Related",
+      "description": "Daniel Gurney introduces Robert de Gournay II as heir of Eva de Gournay and Thomas de Harptree. The adjacent paragraph describes an original British Museum letter of Robert de Gournay, with seal appended, and states the seal is paly of six - the Somersetshire Gournay bearing - with a label as eldest son.",
+      "filename": "images/dg_pt4_p614_robert_de_gournay_somerset_arms.png",
+      "image_pixels": {
+        "width": 429,
+        "height": 482
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p614_robert_de_gournay_letter_facsimile",
+      "pdf_page": 10,
+      "printed_page": "614",
+      "crop150": [
+        150,
+        120,
+        1085,
+        1460
+      ],
+      "caption": "Letter of Robert de Gurnay in the British Museum, Harl. MSS. Cart. Antiq. 43 B.17.",
+      "type": "document facsimile and seal",
+      "people": "Robert de Gournay II",
+      "generation": "Related Somersetshire branch; not assigned a direct-line generation in the current registry",
+      "places": "British Museum; Hydon; Bruerne/Brueria Abbey; Harptree/Priddy context",
+      "scope": "Related",
+      "description": "Full facsimile of Robert de Gournay's letter with pendant seal. The following page translates the letter as a request that named men witness an exchange with the monks of Bruerne for part of Hydon held of Robert by the Templars. The accompanying note says the document was probably written during Eva de Gournay's lifetime, before 1230.",
+      "filename": "images/dg_pt4_p614_robert_de_gournay_letter_facsimile.png",
+      "image_pixels": {
+        "width": 1910,
+        "height": 2695
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p615_beverstone_castle",
+      "pdf_page": 12,
+      "printed_page": "615",
+      "crop150": [
+        18,
+        263,
+        1109,
+        873
+      ],
+      "caption": "Beverstone Castle, Gloucestershire.",
+      "type": "castle / architectural landscape",
+      "people": "Robert de Gournay II; Thomas Lord Berkeley",
+      "generation": "Related Somersetshire branch",
+      "places": "Beverstone Castle, Gloucestershire",
+      "scope": "Related",
+      "description": "The adjacent text states that Beverstone was among the principal castles of the Somersetshire Gournays and that Thomas Lord Berkeley later enlarged it using ransom money from prisoners taken at Poitiers. It belongs to the landed estate complex inherited through Eva de Gournay/Fitz-Harding.",
+      "filename": "images/dg_pt4_p615_beverstone_castle.png",
+      "image_pixels": {
+        "width": 2157,
+        "height": 1252
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p617_richemounte_castle_east_harptree_1814",
+      "pdf_page": 14,
+      "printed_page": "617",
+      "crop150": [
+        274,
+        248,
+        867,
+        718
+      ],
+      "caption": "Remains of Richemounte Castle in East Harptree (1814).",
+      "type": "castle ruin / landscape",
+      "people": "Robert de Gournay II; Harptrees and Gournays of East Harptree",
+      "generation": "Related Somersetshire branch",
+      "places": "Richemounte Castle; East Harptree; Mendip",
+      "scope": "Related",
+      "description": "The image is paired with Leland's statement that 'noble Gurney' often lay at Richemonte and with Collinson's description of the old fortress of the Harptrees and Gournays about half a mile northwest of the church, near a wooded glen. This gives strong setting and landscape context for future reconstruction.",
+      "filename": "images/dg_pt4_p617_richemounte_castle_east_harptree_1814.png",
+      "image_pixels": {
+        "width": 1164,
+        "height": 949
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p620_effigies_robert_de_gournay_maurice_de_gaunt",
+      "pdf_page": 17,
+      "printed_page": "620",
+      "crop150": [
+        420,
+        550,
+        900,
+        1285
+      ],
+      "caption": "Effigies of Robert de Gournay and Maurice de Gaunt, on their monument in St. Mark's Chapel, Bristol.",
+      "type": "monumental effigies",
+      "people": "Robert de Gournay II; Maurice de Gaunt",
+      "generation": "Related Somersetshire branch",
+      "places": "St. Mark's Chapel, Bristol; Gaunt's Hospital",
+      "scope": "Related",
+      "description": "The text says Robert de Gournay's heart was buried with the Friars Preachers at Bristol and his body in St. Mark's Chapel, connected with the hospital he and Maurice de Gaunt founded. The cross-legged chain-armour effigy is said to imply that he had assumed the cross.",
+      "filename": "images/dg_pt4_p620_effigies_robert_de_gournay_maurice_de_gaunt.png",
+      "image_pixels": {
+        "width": 1000,
+        "height": 1510
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p623_st_marks_chapel_monument",
+      "pdf_page": 19,
+      "printed_page": "623",
+      "crop150": [
+        240,
+        267,
+        1057,
+        1293
+      ],
+      "caption": "Aisle of St. Mark's Chapel, with Gournay and Gaunt's monument.",
+      "type": "chapel interior / tomb monument",
+      "people": "Robert de Gournay II; Maurice de Gaunt; Henry de Gaunt",
+      "generation": "Related Somersetshire branch",
+      "places": "St. Mark's Chapel / Mayor's Chapel, Bristol; Gaunt's Hospital",
+      "scope": "Related",
+      "description": "This interior plate follows the discussion of Gaunt's Hospital and the Gournay/Gaunt tombs. It provides spatial setting for the monument and chapel associated with Robert de Gournay's burial and the religious foundation linked to the family.",
+      "filename": "images/dg_pt4_p623_st_marks_chapel_monument.png",
+      "image_pixels": {
+        "width": 1606,
+        "height": 2060
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p621_gournay_arms_st_marks",
+      "pdf_page": 20,
+      "printed_page": "621",
+      "crop150": [
+        170,
+        319,
+        378,
+        556
+      ],
+      "caption": "Arms of Gournay in St. Mark's Church: paly of six, or and azure.",
+      "type": "heraldic arms",
+      "people": "Gournays of Somersetshire; Robert de Gournay II",
+      "generation": "Related Somersetshire branch",
+      "places": "St. Mark's Chapel, Bristol",
+      "scope": "Related",
+      "description": "The adjacent text explicitly identifies the arms of Gournay in St. Mark's windows as paly of six, or and azure. This is an important heraldic reference for the Somersetshire branch and matches the seal discussion on Robert de Gournay's letter.",
+      "filename": "images/dg_pt4_p621_gournay_arms_st_marks.png",
+      "image_pixels": {
+        "width": 435,
+        "height": 514
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p621_berkeley_quartered_shield",
+      "pdf_page": 20,
+      "printed_page": "621",
+      "crop150": [
+        338,
+        645,
+        804,
+        1059
+      ],
+      "caption": "Shield on Berkeley monument: Berkeley quartering Berkeley-differenced, Gournay, and Gaunt, impaling Botetourt.",
+      "type": "quartered heraldic shield",
+      "people": "Maurice de Berkeley; Katharine de Botetourt; Gournay and Gaunt quarterings",
+      "generation": "Related / contextual",
+      "places": "St. Mark's Chapel, Bristol",
+      "scope": "Related / contextual",
+      "description": "Daniel Gurney says the shield appears on a Berkeley monument, probably Maurice de Berkeley's, and shows Berkeley quarterings with Gournay and Gaunt, impaling Botetourt. He notes he cannot explain the quarterings, making this a useful but interpretively uncertain heraldic clue.",
+      "filename": "images/dg_pt4_p621_berkeley_quartered_shield.png",
+      "image_pixels": {
+        "width": 909,
+        "height": 840
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p630_byvon_arms",
+      "pdf_page": 29,
+      "printed_page": "630",
+      "crop150": [
+        253,
+        630,
+        462,
+        866
+      ],
+      "caption": "Arms of Byvon/Vivonia: gules, a chevron or between three leopards' faces argent.",
+      "type": "heraldic arms",
+      "people": "Sibilla de Byvon; Anselm de Gournay",
+      "generation": "Related Somersetshire branch",
+      "places": "East Harptree; Chewton; Curry Mallet; Langport",
+      "scope": "Related",
+      "description": "The adjacent Anselm de Gournay section identifies Sibilla as daughter of Hugh Byvon, lord of several Somerset manors, and widow of Guy de Rochford before her marriage to Anselm. The arms anchor her maternal/in-law context in the Gournay of East Harptree descent.",
+      "filename": "images/dg_pt4_p630_byvon_arms.png",
+      "image_pixels": {
+        "width": 431,
+        "height": 512
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p632_sibilla_de_gournay_silver_seal",
+      "pdf_page": 31,
+      "printed_page": "632",
+      "crop150": [
+        422,
+        383,
+        903,
+        1172
+      ],
+      "caption": "Silver seal of Sibilla de Gournay, found at East Harptree.",
+      "type": "seal matrix / figure",
+      "people": "Sibilla de Gournay (née de Byvon), wife of Anselm de Gournay",
+      "generation": "Related Somersetshire branch",
+      "places": "East Harptree",
+      "scope": "Related",
+      "description": "The text says Sibilla's silver seal was found by a labourer at East Harptree and was in perfect preservation. It describes a robed female figure with a hawk on the wrist, a hound at her feet, and a legend naming Sibilla de Gournay. This is one of the most valuable human-figure images in the set.",
+      "filename": "images/dg_pt4_p632_sibilla_de_gournay_silver_seal.png",
+      "image_pixels": {
+        "width": 1002,
+        "height": 1618
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p633_sibilla_seal_reverse_or_inscription",
+      "pdf_page": 32,
+      "printed_page": "633",
+      "crop150": [
+        150,
+        280,
+        390,
+        650
+      ],
+      "caption": "Detail associated with Sibilla de Gournay seal; legend and suspension arrangement context.",
+      "type": "seal detail",
+      "people": "Sibilla de Gournay",
+      "generation": "Related Somersetshire branch",
+      "places": "East Harptree",
+      "scope": "Related",
+      "description": "This smaller seal-related crop is retained with the Sibilla seal entry because the adjacent text describes the seal's size, pierced top, and chain/ring arrangement used to suspend it. Use with caution; it is a supporting detail rather than a standalone scene.",
+      "filename": "images/dg_pt4_p633_sibilla_seal_reverse_or_inscription.png",
+      "image_pixels": {
+        "width": 469,
+        "height": 778
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p635_langley_abbey",
+      "pdf_page": 34,
+      "printed_page": "635",
+      "crop150": [
+        192,
+        559,
+        922,
+        1139
+      ],
+      "caption": "Langley Abbey.",
+      "type": "abbey / architectural landscape",
+      "people": "Anselm de Gournay and related charter context nearby",
+      "generation": "Related / contextual",
+      "places": "Langley Abbey",
+      "scope": "Contextual / retained",
+      "description": "The global list of illustrations identifies Langley at p. 635. The image sits in the appendix material following Anselm de Gournay. Retained as a contextual religious-house illustration from the Part IV span; its direct genealogical value is lower than the Gournay arms, seals, castles, and monuments.",
+      "filename": "images/dg_pt4_p635_langley_abbey.png",
+      "image_pixels": {
+        "width": 1451,
+        "height": 1164
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p636_ap_adam_arms",
+      "pdf_page": 35,
+      "printed_page": "636",
+      "crop150": [
+        288,
+        989,
+        497,
+        1230
+      ],
+      "caption": "Small arms figure in the John de Gournay / Ap-Adam context.",
+      "type": "heraldic arms",
+      "people": "John de Gournay of East Harptree; family of Ap-Adam",
+      "generation": "Related Somersetshire branch",
+      "places": "East Harptree",
+      "scope": "Related / contextual",
+      "description": "The surrounding page begins the account of John de Gournay of East Harptree, eldest son of Anselm de Gournay and Sibilla de Byvon, and the following page discusses the family of Ap-Adam. Retained because the shield sits directly in the East Harptree branch narrative.",
+      "filename": "images/dg_pt4_p636_ap_adam_arms.png",
+      "image_pixels": {
+        "width": 432,
+        "height": 513
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p646_berkeley_castle",
+      "pdf_page": 45,
+      "printed_page": "646",
+      "crop150": [
+        19,
+        257,
+        1244,
+        853
+      ],
+      "caption": "Berkeley Castle.",
+      "type": "castle / architectural landscape",
+      "people": "Thomas de Gournay the Regicide; Edward II; Mortimer/Isabella context",
+      "generation": "Related Somersetshire branch",
+      "places": "Berkeley Castle, Gloucestershire",
+      "scope": "Related / historical context",
+      "description": "The image appears at the opening of the murder-of-Edward-II section for Thomas de Gournay the Regicide. It anchors the Berkeley Castle setting of the 1327 event and the subsequent narrative of Gournay's flight, pursuit, capture, and death.",
+      "filename": "images/dg_pt4_p646_berkeley_castle.png",
+      "image_pixels": {
+        "width": 2429,
+        "height": 1201
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p680_talbot_arms",
+      "pdf_page": 79,
+      "printed_page": "680",
+      "crop150": [
+        369,
+        244,
+        580,
+        487
+      ],
+      "caption": "Talbot of Ricard's Castle: gules, a lion rampant within a bordure engrailed or.",
+      "type": "heraldic arms",
+      "people": "Matthew de Gournay; Talbot of Ricard's Castle",
+      "generation": "Related Somersetshire branch",
+      "places": "Stoke-under-Hamden / Matthew de Gournay context",
+      "scope": "Related / contextual",
+      "description": "This shield appears in the Matthew de Gournay section among allied or connected arms. It helps establish heraldic context around Matthew's marriages and noble connections.",
+      "filename": "images/dg_pt4_p680_talbot_arms.png",
+      "image_pixels": {
+        "width": 462,
+        "height": 497
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p680_tiptoft_arms",
+      "pdf_page": 79,
+      "printed_page": "680",
+      "crop150": [
+        766,
+        246,
+        975,
+        486
+      ],
+      "caption": "Tiptoft: argent, a saltier engrailed gules.",
+      "type": "heraldic arms",
+      "people": "Matthew de Gournay; Tiptoft family",
+      "generation": "Related Somersetshire branch",
+      "places": "Stoke-under-Hamden / Matthew de Gournay context",
+      "scope": "Related / contextual",
+      "description": "This shield appears with other heraldic references in the Matthew de Gournay section and is retained as part of the armorial environment around Sir Matthew's family and marital connections.",
+      "filename": "images/dg_pt4_p680_tiptoft_arms.png",
+      "image_pixels": {
+        "width": 458,
+        "height": 489
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p682_matthew_de_gournay_seal",
+      "pdf_page": 81,
+      "printed_page": "682",
+      "crop150": [
+        720,
+        260,
+        1070,
+        820
+      ],
+      "caption": "Seal of Sir Matthew de Gournay, with crest a Moor's head crowned, dated 18 Richard II (1394).",
+      "type": "seal / heraldic crest",
+      "people": "Sir Matthew de Gournay, Baron of Guyenne",
+      "generation": "Related Somersetshire branch",
+      "places": "Guyenne; Dax; Stoke-under-Hamden context",
+      "scope": "Related",
+      "description": "The surrounding text explicitly says the engraving shows Sir Matthew de Gournay's seal with crest, a crowned Moor's head, dated 18 Richard II (1394). This is a high-value heraldic image for later visual reconstruction.",
+      "filename": "images/dg_pt4_p682_matthew_de_gournay_seal.png",
+      "image_pixels": {
+        "width": 666,
+        "height": 1160
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p683_chateau_de_normanville",
+      "pdf_page": 82,
+      "printed_page": "683",
+      "crop150": [
+        240,
+        606,
+        952,
+        1109
+      ],
+      "caption": "Chateau de Normanville.",
+      "type": "chateau / architectural landscape",
+      "people": "Matthew de Gournay section context",
+      "generation": "Contextual",
+      "places": "Normanville",
+      "scope": "Contextual / retained",
+      "description": "This image appears in the Matthew de Gournay appendix area and is also listed in the global illustration list. Retained as a related Norman/feudal-place image, though not as tightly tied to a direct ancestor as the Gournay seals and monuments.",
+      "filename": "images/dg_pt4_p683_chateau_de_normanville.png",
+      "image_pixels": {
+        "width": 1398,
+        "height": 985
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p692_caldicot_arms",
+      "pdf_page": 91,
+      "printed_page": "692",
+      "crop150": [
+        256,
+        354,
+        467,
+        1097
+      ],
+      "caption": "Caldicot arms: sable, on a chevron or between three roses argent, three mullets gules.",
+      "type": "heraldic arms",
+      "people": "Joanna de Gournay; Walter de Caldicot",
+      "generation": "Related Somersetshire branch",
+      "places": "East Harptree",
+      "scope": "Related",
+      "description": "The Joanna de Gournay section states that Joanna, daughter and heiress of Thomas de Gournay of East Harptree, married Walter de Caldicot. The adjacent image gives the Caldicot arms and supports the descent of the East Harptree/Gournay lands through an heiress.",
+      "filename": "images/dg_pt4_p692_caldicot_arms.png",
+      "image_pixels": {
+        "width": 462,
+        "height": 1526
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p694_sir_john_newton_monument_east_harptree",
+      "pdf_page": 93,
+      "printed_page": "694",
+      "crop150": [
+        390,
+        270,
+        934,
+        713
+      ],
+      "caption": "Monument of Sir John Newton at East Harptree.",
+      "type": "monumental brass/effigy",
+      "people": "Sir John Newton; Joanna de Gournay/Caldicot descent context",
+      "generation": "Related descendant/heir context",
+      "places": "East Harptree",
+      "scope": "Related / downstream",
+      "description": "The Newtons or Caradocs section follows Joanna de Gournay's inheritance. This monument is included because Sir John Newton belongs to the downstream family context at East Harptree, after the Gournay estate passed through Joanna and later lines.",
+      "filename": "images/dg_pt4_p694_sir_john_newton_monument_east_harptree.png",
+      "image_pixels": {
+        "width": 1128,
+        "height": 926
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p694_sir_thomas_newton_monument_bristol_cathedral",
+      "pdf_page": 93,
+      "printed_page": "694",
+      "crop150": [
+        484,
+        796,
+        849,
+        1321
+      ],
+      "caption": "Monument of Sir Thomas Newton in Bristol Cathedral.",
+      "type": "monumental effigy / tomb",
+      "people": "Sir Thomas Newton; Newton/Caradoc heirs of Gournay-related East Harptree context",
+      "generation": "Related descendant/heir context",
+      "places": "Bristol Cathedral; Barr's Court/Barris Court context",
+      "scope": "Related / downstream",
+      "description": "The paired Newton monuments document the later family context attached to East Harptree and the Gournay-connected estate descent. The Bristol Cathedral monument provides additional visual material for the post-Gournay heir narrative.",
+      "filename": "images/dg_pt4_p694_sir_thomas_newton_monument_bristol_cathedral.png",
+      "image_pixels": {
+        "width": 770,
+        "height": 1090
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p696_richemounte_castle_later_view",
+      "pdf_page": 95,
+      "printed_page": "696",
+      "crop150": [
+        367,
+        586,
+        962,
+        1059
+      ],
+      "caption": "Richemounte Castle, East Harptree - later view.",
+      "type": "castle ruin / landscape",
+      "people": "Gournays of East Harptree; Newton/Caradoc heirs",
+      "generation": "Related Somersetshire branch / downstream place context",
+      "places": "Richemounte Castle; East Harptree",
+      "scope": "Related",
+      "description": "This second Richemounte image appears in the Newtons or Caradocs section and reinforces the same East Harptree setting as the earlier 1814 plate. It is retained because the place remains central to the Gournay-of-Harptree collateral narrative.",
+      "filename": "images/dg_pt4_p696_richemounte_castle_later_view.png",
+      "image_pixels": {
+        "width": 1164,
+        "height": 953
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p698_barew_court_somersetshire",
+      "pdf_page": 97,
+      "printed_page": "698",
+      "crop150": [
+        171,
+        238,
+        1137,
+        895
+      ],
+      "caption": "Barew Court, Somersetshire.",
+      "type": "manor house / architectural landscape",
+      "people": "Gournays of Somersetshire; Justinian Gournay context",
+      "generation": "Related Somersetshire branch",
+      "places": "Barew Court; Barew/Barrow Gurney, Somersetshire",
+      "scope": "Related",
+      "description": "The conclusion to the Somersetshire Gournays states that the branches appear extinct by the late seventeenth century but notes later documents and Justinian Gournay. Barew Court is retained as a central place image for the Barew-Gournay manor context.",
+      "filename": "images/dg_pt4_p698_barew_court_somersetshire.png",
+      "image_pixels": {
+        "width": 1909,
+        "height": 1323
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    },
+    {
+      "id": "dg_pt4_p699_church_barew_gurney",
+      "pdf_page": 98,
+      "printed_page": "699",
+      "crop150": [
+        42,
+        263,
+        1098,
+        974
+      ],
+      "caption": "Church, Barew Gurney.",
+      "type": "church / architectural landscape",
+      "people": "Gournays of Somersetshire; Justinian Gournay context",
+      "generation": "Related Somersetshire branch",
+      "places": "Barew/Barrow Gurney Church, Somersetshire",
+      "scope": "Related",
+      "description": "The adjacent text states that Inglishcombe and Barew Gurney were among the most ancient possessions of the Somersetshire branch of the Gournays. The church image is therefore a high-value place illustration for the branch narrative.",
+      "filename": "images/dg_pt4_p699_church_barew_gurney.png",
+      "image_pixels": {
+        "width": 2085,
+        "height": 1430
+      },
+      "source_pdf": "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf"
+    }
+  ]
+}

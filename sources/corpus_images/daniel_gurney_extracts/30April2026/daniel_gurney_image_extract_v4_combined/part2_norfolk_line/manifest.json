@@ -1,0 +1,634 @@
+{
+  "entries": [
+    {
+      "id": "p2_title_heraldic_devices",
+      "src": "part2a",
+      "page": 16,
+      "printed": "Part II title",
+      "filename": "dg_part2_title_heraldic_devices.png",
+      "caption": "Part II title-page heraldic devices and Gurney quartered shield",
+      "scope": "Direct-line heraldic context",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        1363,
+        2055
+      ]
+    },
+    {
+      "id": "p2_front_west_barsham_hall",
+      "src": "part2a",
+      "page": 18,
+      "printed": "frontispiece",
+      "filename": "dg_part2_front_west_barsham_hall.png",
+      "caption": "West Barsham Hall, Norfolk",
+      "scope": "Direct ancestral place",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        1983,
+        989
+      ]
+    },
+    {
+      "id": "p279_gournay_arms_cross",
+      "src": "part2a",
+      "page": 22,
+      "printed": "279",
+      "filename": "dg_part2_p279_gournay_arms_cross.png",
+      "caption": "Norfolk Gurney arms - Argent, a cross engrailed gules",
+      "scope": "Direct-line heraldic context",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        498,
+        640
+      ]
+    },
+    {
+      "id": "p283_norfolk_gurney_arms",
+      "src": "part2a",
+      "page": 26,
+      "printed": "283",
+      "filename": "dg_part2_p283_norfolk_gurney_arms.png",
+      "caption": "Arms of the Gourneys of Norfolk - cross engrailed",
+      "scope": "Direct-line heraldic context",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        491,
+        545
+      ]
+    },
+    {
+      "id": "p284_gurney_crest_and_badge",
+      "src": "part2a",
+      "page": 27,
+      "printed": "284",
+      "filename": "dg_part2_p284_gurney_crest_badge_and_comparison_arms.png",
+      "caption": "Gurnard fish crest, wrestling collar badge, and Somersetshire arms comparison",
+      "scope": "Direct-line heraldic context",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        891,
+        1756
+      ]
+    },
+    {
+      "id": "p291_chapel_montigny",
+      "src": "part2a",
+      "page": 34,
+      "printed": "291",
+      "filename": "dg_part2_p291_chapel_at_montigny.png",
+      "caption": "Chapel at Montigny",
+      "scope": "Direct ancestral-place context",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        948,
+        770
+      ]
+    },
+    {
+      "id": "p294_mont_sauveur_argueil",
+      "src": "part2a",
+      "page": 37,
+      "printed": "294",
+      "filename": "dg_part2_p294_mont_sauveur_at_argueil.png",
+      "caption": "Mont Sauveur at Argueil",
+      "scope": "Direct ancestral-place context",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        1643,
+        1229
+      ]
+    },
+    {
+      "id": "p302_font_harpley",
+      "src": "part2a",
+      "page": 45,
+      "printed": "302",
+      "filename": "dg_part2_p302_font_harpley_church.png",
+      "caption": "Font, Harpley Church",
+      "scope": "Direct ancestral place",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        815,
+        720
+      ]
+    },
+    {
+      "id": "p302_hardingham_church",
+      "src": "part2a",
+      "page": 46,
+      "printed": "302 plate",
+      "filename": "dg_part2_p302_hardingham_church.png",
+      "caption": "Hardingham Church, Norfolk",
+      "scope": "Direct ancestral place",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        1508,
+        1394
+      ]
+    },
+    {
+      "id": "p302_hardingham_piscina_sedilia",
+      "src": "part2a",
+      "page": 46,
+      "printed": "302 plate",
+      "filename": "dg_part2_p302_hardingham_piscina_sedilia.png",
+      "caption": "Piscina and sedilia in Hardingham Church",
+      "scope": "Direct ancestral place",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        1189,
+        1069
+      ]
+    },
+    {
+      "id": "p319_spelman_pedigree_seal_notes",
+      "src": "part2a",
+      "page": 64,
+      "printed": "319",
+      "filename": "dg_part2_p319_spelman_gurney_pedigree_seal_notes.png",
+      "caption": "Spelman pedigree seal notes for Gurnay/Gurney",
+      "scope": "Direct-line evidence context",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        2130,
+        2312
+      ]
+    },
+    {
+      "id": "p321_walsingham_armorial_pedigree",
+      "src": "part2a",
+      "page": 66,
+      "printed": "321",
+      "filename": "dg_part2_p321_armorial_pedigree_walsingham.png",
+      "caption": "Armorial pedigree at Walsingham Abbey",
+      "scope": "Direct-line heraldic context",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        1930,
+        2220
+      ]
+    },
+    {
+      "id": "p328_south_wootton_font",
+      "src": "part2a",
+      "page": 73,
+      "printed": "328",
+      "filename": "dg_part2_p328_font_south_wootton.png",
+      "caption": "Font at South Wootton",
+      "scope": "Direct ancestral-place context",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        782,
+        589
+      ]
+    },
+    {
+      "id": "p344_harpley_porch",
+      "src": "part2a",
+      "page": 99,
+      "printed": "352",
+      "filename": "dg_part2_p352_porch_harpley_church.png",
+      "caption": "Porch, Harpley Church",
+      "scope": "Direct ancestral place",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        684,
+        1127
+      ]
+    },
+    {
+      "id": "p345_harpley_church",
+      "src": "part2a",
+      "page": 100,
+      "printed": "plate after p.352",
+      "filename": "dg_part2_p352_plate_harpley_church.png",
+      "caption": "Harpley Church, Norfolk",
+      "scope": "Direct ancestral place",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        2196,
+        1656
+      ]
+    },
+    {
+      "id": "p348_harpley_font",
+      "src": "part2a",
+      "page": 103,
+      "printed": "354",
+      "filename": "dg_part2_p354_font_harpley_church.png",
+      "caption": "Font, Harpley Church",
+      "scope": "Direct ancestral place",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        686,
+        993
+      ]
+    },
+    {
+      "id": "p354_harpley_south_chancel",
+      "src": "part2a",
+      "page": 109,
+      "printed": "356",
+      "filename": "dg_part2_p356_south_side_chancel_harpley.png",
+      "caption": "South side of chancel, Harpley Church",
+      "scope": "Direct ancestral place",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        1668,
+        1627
+      ]
+    },
+    {
+      "id": "p355_harpley_piscina_sedilia_chancel",
+      "src": "part2a",
+      "page": 110,
+      "printed": "plate after p.356",
+      "filename": "dg_part2_p356_plate_piscina_sedilia_chancel_harpley.png",
+      "caption": "Piscina and sedilia - chancel, Harpley Church",
+      "scope": "Direct ancestral place",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        1175,
+        1383
+      ]
+    },
+    {
+      "id": "p355_harpley_doorway_mural_monument",
+      "src": "part2a",
+      "page": 110,
+      "printed": "plate after p.356",
+      "filename": "dg_part2_p356_plate_doorway_mural_monument_chancel_harpley.png",
+      "caption": "Doorway and mural monument - chancel, Harpley Church",
+      "scope": "Direct ancestral place",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        1548,
+        1358
+      ]
+    },
+    {
+      "id": "p397_tomb_thomas_gurnay_harpley",
+      "src": "part2a",
+      "page": 152,
+      "printed": "plate after p.392",
+      "filename": "dg_part2_p392_plate_doorway_and_tomb_thomas_gurnay_harpley.png",
+      "caption": "Doorway and tomb probably of Thomas Gurnay in chancel of Harpley Church",
+      "scope": "Direct line / ancestral church",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        1706,
+        1031
+      ]
+    },
+    {
+      "id": "p400_house_st_gregory_norwich",
+      "src": "part2a",
+      "page": 155,
+      "printed": "394",
+      "filename": "dg_part2_p394_house_st_gregorys_parish_norwich.png",
+      "caption": "House in St. Gregory's Parish, Norwich",
+      "scope": "Direct ancestral-place context",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        1629,
+        1671
+      ]
+    },
+    {
+      "id": "p414_tomb_william_gurnay_west_barsham",
+      "src": "part2a",
+      "page": 169,
+      "printed": "408",
+      "filename": "dg_part2_p408_tomb_william_gurnay_v_west_barsham.png",
+      "caption": "Tomb of William Gurnay V at West Barsham",
+      "scope": "Direct line",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        1640,
+        2120
+      ]
+    },
+    {
+      "id": "p417_slab_west_barsham",
+      "src": "part2a",
+      "page": 172,
+      "printed": "410*",
+      "filename": "dg_part2_p410_slab_at_west_barsham.png",
+      "caption": "Slab at West Barsham",
+      "scope": "Direct-line ancestral church",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        1446,
+        1760
+      ]
+    },
+    {
+      "id": "p423_gurney_arms_quartered",
+      "src": "part2a",
+      "page": 178,
+      "printed": "415",
+      "filename": "dg_part2_p415_gurney_arms_quartered.png",
+      "caption": "Gurney arms quartered",
+      "scope": "Direct-line heraldic context",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        1623,
+        2257
+      ]
+    },
+    {
+      "id": "p426_gurney_impalements",
+      "src": "part2a",
+      "page": 181,
+      "printed": "418",
+      "filename": "dg_part2_p418_gurney_impalements.png",
+      "caption": "Gurney impaling Calthorpe, Heydon, Kerville and related quarterings",
+      "scope": "Direct-line heraldic context",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        2028,
+        2254
+      ]
+    },
+    {
+      "id": "p430_great_ellingham_hall",
+      "src": "part2a",
+      "page": 185,
+      "printed": "422",
+      "filename": "dg_part2_p422_great_ellingham_hall.png",
+      "caption": "Great Ellingham Hall",
+      "scope": "Direct ancestral place",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        1626,
+        1521
+      ]
+    },
+    {
+      "id": "p431_great_ellingham_hall_plate",
+      "src": "part2a",
+      "page": 186,
+      "printed": "423",
+      "filename": "dg_part2_p423_great_ellingham_hall_plate.png",
+      "caption": "Great Ellingham Hall",
+      "scope": "Direct ancestral place",
+      "source_pdf": "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+      "pixel_dimensions": [
+        1640,
+        2155
+      ]
+    },
+    {
+      "id": "p446_francis_gurney_arms_holdiche",
+      "src": "part2b",
+      "page": 11,
+      "printed": "446",
+      "filename": "dg_part2b_p446_francis_gurney_arms_holdiche.png",
+      "caption": "Francis Gurney arms and Holdiche arms",
+      "scope": "Direct line / direct spouse-line heraldry",
+      "source_pdf": "Record of the House of Gournay_logical_part_2-Norfolk Line.pdf",
+      "pixel_dimensions": [
+        715,
+        1139
+      ]
+    },
+    {
+      "id": "p447_irstead_hall_plate",
+      "src": "part2b",
+      "page": 12,
+      "printed": "447 plate",
+      "filename": "dg_part2b_p447_irstead_hall_plate.png",
+      "caption": "Irstead Hall, Norfolk",
+      "scope": "Direct ancestral place",
+      "source_pdf": "Record of the House of Gournay_logical_part_2-Norfolk Line.pdf",
+      "pixel_dimensions": [
+        1942,
+        2607
+      ]
+    },
+    {
+      "id": "p447_francis_tomb_irsted",
+      "src": "part2b",
+      "page": 14,
+      "printed": "447",
+      "filename": "dg_part2b_p447_francis_gurney_tomb_irsted.png",
+      "caption": "Francis Gurney tomb at Irsted",
+      "scope": "Direct line",
+      "source_pdf": "Record of the House of Gournay_logical_part_2-Norfolk Line.pdf",
+      "pixel_dimensions": [
+        1726,
+        995
+      ]
+    },
+    {
+      "id": "p448_francis_gurney_walsingham_arms",
+      "src": "part2b",
+      "page": 15,
+      "printed": "448",
+      "filename": "dg_part2b_p448_francis_gurney_walsingham_arms.png",
+      "caption": "Arms of Francis Gurney impaling Holdiche at Walsingham Abbey",
+      "scope": "Direct line / direct spouse-line heraldry",
+      "source_pdf": "Record of the House of Gournay_logical_part_2-Norfolk Line.pdf",
+      "pixel_dimensions": [
+        1042,
+        1035
+      ]
+    },
+    {
+      "id": "p466_chancel_harpley_edmund_gurnay",
+      "src": "part2b",
+      "page": 33,
+      "printed": "466",
+      "filename": "dg_part2b_p466_chancel_harpley_church.png",
+      "caption": "Chancel of Harpley Church",
+      "scope": "Related Gurnay / direct ancestral-place context",
+      "source_pdf": "Record of the House of Gournay_logical_part_2-Norfolk Line.pdf",
+      "pixel_dimensions": [
+        1624,
+        1222
+      ]
+    },
+    {
+      "id": "p493_great_ellingham_hall",
+      "src": "part2b",
+      "page": 56,
+      "printed": "487",
+      "filename": "dg_part2b_p487_great_ellingham_hall.png",
+      "caption": "Great Ellingham Hall",
+      "scope": "Direct ancestral place",
+      "source_pdf": "Record of the House of Gournay_logical_part_2-Norfolk Line.pdf",
+      "pixel_dimensions": [
+        1621,
+        1896
+      ]
+    },
+    {
+      "id": "p496_west_barsham_hall_church",
+      "src": "part2b",
+      "page": 59,
+      "printed": "490",
+      "filename": "dg_part2b_p490_west_barsham_hall_and_church.png",
+      "caption": "West Barsham Hall and West Barsham Church",
+      "scope": "Direct ancestral place",
+      "source_pdf": "Record of the House of Gournay_logical_part_2-Norfolk Line.pdf",
+      "pixel_dimensions": [
+        1954,
+        2293
+      ]
+    },
+    {
+      "id": "p497_porch_west_barsham",
+      "src": "part2b",
+      "page": 60,
+      "printed": "491",
+      "filename": "dg_part2b_p491_porch_west_barsham.png",
+      "caption": "Porch, West Barsham",
+      "scope": "Direct ancestral place",
+      "source_pdf": "Record of the House of Gournay_logical_part_2-Norfolk Line.pdf",
+      "pixel_dimensions": [
+        1612,
+        1212
+      ]
+    },
+    {
+      "id": "p529_st_benet_finck",
+      "src": "part2b",
+      "page": 106,
+      "printed": "527",
+      "filename": "dg_part3_p527_church_st_benet_finck.png",
+      "caption": "Church of St. Benet Finck",
+      "scope": "Direct/related London Gurney context",
+      "source_pdf": "Record of the House of Gournay_logical_part_2-Norfolk Line.pdf",
+      "pixel_dimensions": [
+        1622,
+        935
+      ]
+    },
+    {
+      "id": "p554_francis_gurney_house_maldon",
+      "src": "part2b",
+      "page": 117,
+      "printed": "536",
+      "filename": "dg_part3_p536_house_francis_gurney_maldon.png",
+      "caption": "House of Francis Gurney at Maldon",
+      "scope": "Direct/related Gurney place context",
+      "source_pdf": "Record of the House of Gournay_logical_part_2-Norfolk Line.pdf",
+      "pixel_dimensions": [
+        1951,
+        1167
+      ]
+    },
+    {
+      "id": "p556_gurney_house_all_saints_maldon",
+      "src": "part2b",
+      "page": 119,
+      "printed": "538",
+      "filename": "dg_part3_p538_gurney_house_all_saints_maldon.png",
+      "caption": "House of one of the Gurneys in All Saints' Parish, Maldon",
+      "scope": "Related Gurney place context",
+      "source_pdf": "Record of the House of Gournay_logical_part_2-Norfolk Line.pdf",
+      "pixel_dimensions": [
+        1852,
+        991
+      ]
+    },
+    {
+      "id": "p571_norwich_plan",
+      "src": "part2b",
+      "page": 134,
+      "printed": "plate after p.548",
+      "filename": "dg_part3_plate_after_p548_plan_of_norwich.png",
+      "caption": "Plan of Norwich",
+      "scope": "Direct/related Norfolk Gurney place context",
+      "source_pdf": "Record of the House of Gournay_logical_part_2-Norfolk Line.pdf",
+      "pixel_dimensions": [
+        2060,
+        2599
+      ]
+    },
+    {
+      "id": "p585_old_hall_keswick_original_state",
+      "src": "part2b",
+      "page": 148,
+      "printed": "557",
+      "filename": "dg_part3_p557_old_hall_keswick_original_state.png",
+      "caption": "Old Hall, Keswick, Norfolk, in its original state",
+      "scope": "Related Keswick branch place context",
+      "source_pdf": "Record of the House of Gournay_logical_part_2-Norfolk Line.pdf",
+      "pixel_dimensions": [
+        1561,
+        980
+      ]
+    },
+    {
+      "id": "p592_old_hall_keswick_south_side",
+      "src": "part2b",
+      "page": 155,
+      "printed": "562",
+      "filename": "dg_part3_p562_old_hall_keswick_south_side.png",
+      "caption": "Old Hall, Keswick - south side",
+      "scope": "Related Keswick branch place context",
+      "source_pdf": "Record of the House of Gournay_logical_part_2-Norfolk Line.pdf",
+      "pixel_dimensions": [
+        2171,
+        1265
+      ]
+    },
+    {
+      "id": "p593_old_hall_keswick_west_side",
+      "src": "part2b",
+      "page": 156,
+      "printed": "563",
+      "filename": "dg_part3_p563_old_hall_keswick_west_side.png",
+      "caption": "Old Hall, Keswick - west side",
+      "scope": "Related Keswick branch place context",
+      "source_pdf": "Record of the House of Gournay_logical_part_2-Norfolk Line.pdf",
+      "pixel_dimensions": [
+        2198,
+        1424
+      ]
+    },
+    {
+      "id": "p586_inglishcombe_castle_site",
+      "src": "part2b",
+      "page": 178,
+      "printed": "Part IV title plate before p.586",
+      "filename": "dg_part4early_title_plate_site_castle_gournays_inglishcombe.png",
+      "caption": "Site of the castle of the Gournays at Inglishcombe",
+      "scope": "Related Somersetshire Gournay place context",
+      "source_pdf": "Record of the House of Gournay_logical_part_2-Norfolk Line.pdf",
+      "pixel_dimensions": [
+        1627,
+        2014
+      ]
+    },
+    {
+      "id": "p594_inglishcombe_castle_site_text",
+      "src": "part2b",
+      "page": 189,
+      "printed": "594",
+      "filename": "dg_part4early_p594_site_castle_gournays_inglishcombe.png",
+      "caption": "Site of the castle of the Gournays at Inglishcombe",
+      "scope": "Related Somersetshire Gournay place context",
+      "source_pdf": "Record of the House of Gournay_logical_part_2-Norfolk Line.pdf",
+      "pixel_dimensions": [
+        1617,
+        1947
+      ]
+    },
+    {
+      "id": "p595_inglishcombe_church_arches",
+      "src": "part2b",
+      "page": 190,
+      "printed": "595",
+      "filename": "dg_part4early_p595_arches_inglishcombe_church.png",
+      "caption": "Arches in Inglishcombe Church",
+      "scope": "Related Somersetshire Gournay place context",
+      "source_pdf": "Record of the House of Gournay_logical_part_2-Norfolk Line.pdf",
+      "pixel_dimensions": [
+        1622,
+        1633
+      ]
+    }
+  ]
+}

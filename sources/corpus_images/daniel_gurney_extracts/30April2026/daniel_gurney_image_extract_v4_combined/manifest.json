@@ -1,0 +1,856 @@
+{
+  "generated_utc": "2026-04-30T19:11:06.607450Z",
+  "package_version": "v4_combined",
+  "summary": {
+    "new_part1_cropped_images": 38,
+    "new_part1_catalog_only_items": 10,
+    "prior_v3_cropped_images_carried_forward": 82,
+    "total_cropped_images_in_package": 120
+  },
+  "source_pdfs": [
+    "Daniel Gurney Complete in PDF first half.pdf",
+    "Record of the House of Gournay_logical_part_1-Norman Origins.pdf",
+    "Record of the House of Gournay_logical_part_2-Norfolk Line.pdf",
+    "Record of the House of Gournay_logical_part_3-Later Lines and Appendix.pdf",
+    "Record of the House of Gurney by Daniel Gurney-Supplement.pdf"
+  ],
+  "controlling_catalogs": [
+    "part1_norman_origins/catalog/daniel_gurney_part1_norman_origins_image_catalog.md",
+    "catalog/daniel_gurney_v3_repaired_catalog.md",
+    "part4_first_pass/catalog/daniel_gurney_part4_image_catalog.md",
+    "catalog/daniel_gurney_supplement_image_catalog.md",
+    "catalog/page_coverage_tracker_v4.md"
+  ],
+  "part1_manifest": {
+    "generated_utc": "2026-04-30T19:11:06.235633Z",
+    "package_version": "v4_part1_norman_origins",
+    "source_pdf": "Daniel Gurney Complete in PDF first half.pdf",
+    "rendering": {
+      "dpi_equivalent": 300,
+      "format": "PNG",
+      "color_mode": "grayscale",
+      "post_processing": "Pillow autocontrast; no generative enhancement"
+    },
+    "summary": {
+      "cropped_images": 38,
+      "catalog_only_items": 10,
+      "pages_covered": "PDF pages 1-288; focus on images and plates in Part I / printed pages 1-276 plus front matter"
+    },
+    "entries": [
+      {
+        "id": "p001_frontispiece_title_scene",
+        "page": 1,
+        "printed": "Frontispiece / title plate, before Introduction",
+        "box": [
+          220,
+          230,
+          1120,
+          1220
+        ],
+        "caption": "Frontispiece: The Record of the House of Gournay",
+        "ancestors": "Book-level artifact; early Gournay/Gurney line generally",
+        "places": "Gournay visual tradition; St Hildevert / medieval-ecclesiastical setting implied",
+        "scope": "Context image - book/frontispiece",
+        "desc": "The frontispiece frames the title within a medieval stone-arch setting, with armed and ecclesiastical figures and recumbent monumental forms. It is not tied to a single ancestor, but it visually announces Daniel Gurney's antiquarian framing of the family as a Norman, military, and ecclesiastical house. It can support future site imagery that introduces the whole Record rather than one specific generation.",
+        "filename": "part1_norman_origins/images/dg_part1_p001_frontispiece_title_scene.png",
+        "width_px": 2107,
+        "height_px": 2318
+      },
+      {
+        "id": "p007_part1_norman_warriors",
+        "page": 7,
+        "printed": "Part I title page / unnumbered plate before printed p.3",
+        "box": [
+          430,
+          790,
+          630,
+          380
+        ],
+        "caption": "Part I title vignette - Norman warriors / cavalry",
+        "ancestors": "Eudes of Gournay (working G37); early Norman Gournay line",
+        "places": "Normandy; Neustria; Gournay-en-Bray / Pays de Bray",
+        "scope": "Direct-line origin context",
+        "desc": "The Part I opening vignette accompanies Daniel's section on the Gournays in Normandy, from the settlement of the Normans in Neustria under Rollo to the loss of Normandy under King John. The surrounding introduction says tradition assigned Gournay and the Norman part of Le Bray to Eudes, a follower of Rollo, and that Hugh de Gournay and his son later accompanied William the Conqueror to England. The image is useful for future reconstruction of the early Norman-warrior setting.",
+        "filename": "part1_norman_origins/images/dg_part1_p007_part1_norman_warriors.png",
+        "width_px": 1235,
+        "height_px": 760
+      },
+      {
+        "id": "p011_map_pays_de_bray",
+        "page": 11,
+        "printed": "Map plate between printed pp.4-5",
+        "box": [
+          250,
+          130,
+          1660,
+          1430
+        ],
+        "caption": "Map of the Pays de Bray",
+        "ancestors": "Eudes (working G37); Renaud (working G36); Hugh I-III de Gournay (working G35-G33); Gerard de Gournay (G32)",
+        "places": "Pays de Bray; Gournay; La Ferte; Gaillefontaine; Argueil; Epte valley",
+        "scope": "Direct ancestral-region map",
+        "desc": "This map visualizes the Pays de Bray, the frontier territory Daniel identifies as the Norman base of the Lords of Gournay. Adjacent text describes the district as forest, bocage, pasture, arable land, and fortified frontier country bounded by the Pays de Caux, the Vexin, and France across the Epte. It is one of the most important locational images for the early direct line because it shows the territorial stage on which the family first appears.",
+        "filename": "part1_norman_origins/images/dg_part1_p011_map_pays_de_bray.png",
+        "width_px": 3203,
+        "height_px": 2815
+      },
+      {
+        "id": "p016_west_end_st_hildevert",
+        "page": 16,
+        "printed": "Printed p.8",
+        "box": [
+          430,
+          490,
+          660,
+          850
+        ],
+        "caption": "West end of the Church of St. Hildevert",
+        "ancestors": "Early Lords of Gournay generally; Hugh de Gournay III (working G33) and earlier tradition",
+        "places": "Church of St. Hildevert, Gournay-en-Bray",
+        "scope": "Direct ancestral-place / religious-house context",
+        "desc": "The adjacent text introduces St. Hildevert as the principal church at Gournay, both parochial and conventual. Daniel notes that the church foundation was traditionally very ancient and that the chapter was associated with Bref-Moutier before removal to Gournay. The west-end drawing is therefore central to the Gournay-en-Bray setting where the early lords exercised power and patronage.",
+        "filename": "part1_norman_origins/images/dg_part1_p016_west_end_st_hildevert.png",
+        "width_px": 1312,
+        "height_px": 1700
+      },
+      {
+        "id": "p017_south_side_st_hildevert",
+        "page": 17,
+        "printed": "Printed p.9",
+        "box": [
+          310,
+          575,
+          860,
+          720
+        ],
+        "caption": "South side of the Church of St. Hildevert",
+        "ancestors": "Early Lords of Gournay; Hugh de Gournay III (working G33) context",
+        "places": "Church of St. Hildevert, Gournay-en-Bray",
+        "scope": "Direct ancestral-place / religious-house context",
+        "desc": "The surrounding narrative states that tradition credited one of the later Hugh de Gournays with beginning the present church, while Daniel cautions that the architecture itself suggests portions were older. The image shows the south side of the church and is directly relevant to the family's ecclesiastical patronage and the relic cult of St. Hildevert at Gournay.",
+        "filename": "part1_norman_origins/images/dg_part1_p017_south_side_st_hildevert.png",
+        "width_px": 1638,
+        "height_px": 1419
+      },
+      {
+        "id": "p018_st_hildevert_capital_details",
+        "page": 18,
+        "printed": "Printed p.10",
+        "box": [
+          300,
+          500,
+          960,
+          270
+        ],
+        "caption": "St. Hildevert architectural capital details",
+        "ancestors": "Early Lords of Gournay; Gournay-en-Bray line generally",
+        "places": "Church of St. Hildevert, Gournay-en-Bray",
+        "scope": "Direct ancestral-place architectural detail",
+        "desc": "Daniel discusses the architecture of St. Hildevert and cautions that terms like \"rebuilt\" may mean repair rather than total reconstruction. The small drawings preserve architectural details from the church, supporting reconstruction of its Norman and early pointed features. These details are useful for image-generation prompts because they show stone-carving, capitals, and church ornament rather than only exterior massing.",
+        "filename": "part1_norman_origins/images/dg_part1_p018_st_hildevert_capital_details.png",
+        "width_px": 1792,
+        "height_px": 540
+      },
+      {
+        "id": "p019_st_hildevert_statue",
+        "page": 19,
+        "printed": "Plate between printed pp.10-12",
+        "box": [
+          500,
+          430,
+          540,
+          950
+        ],
+        "caption": "Figure/statue of St. Hildevert",
+        "ancestors": "Early Lords of Gournay; Hugh de Gournay III (working G33) context",
+        "places": "Church of St. Hildevert, Gournay-en-Bray",
+        "scope": "Direct ancestral-place religious context",
+        "desc": "This plate represents St. Hildevert, the saint whose relics were central to the Gournay church tradition. The adjacent account recounts the legend that the relics became immovable at Gournay and that the local lord Hugh and his wife were involved in the event, after which the church was re-consecrated under St. Hildevert's invocation. It is high-value narrative context for the family's religious identity at Gournay.",
+        "filename": "part1_norman_origins/images/dg_part1_p019_st_hildevert_statue.png",
+        "width_px": 1066,
+        "height_px": 1853
+      },
+      {
+        "id": "p020_st_hildevert_interior",
+        "page": 20,
+        "printed": "Printed p.12",
+        "box": [
+          500,
+          340,
+          540,
+          650
+        ],
+        "caption": "Interior of the Church of St. Hildevert",
+        "ancestors": "Early Lords of Gournay; Hugh de Gournay III (working G33) context",
+        "places": "Church of St. Hildevert, Gournay-en-Bray",
+        "scope": "Direct ancestral-place interior",
+        "desc": "The adjacent text describes the west front as early pointed architecture and notes alterations to portals, porches, windows, and towers. The interior view is useful for future reconstruction because it shows the spatial character of the church associated with Gournay lordship, relic translation, and monastic/collegiate worship.",
+        "filename": "part1_norman_origins/images/dg_part1_p020_st_hildevert_interior.png",
+        "width_px": 1080,
+        "height_px": 1300
+      },
+      {
+        "id": "p020_st_hildevert_capital_left",
+        "page": 20,
+        "printed": "Printed p.12",
+        "box": [
+          300,
+          960,
+          410,
+          360
+        ],
+        "caption": "St. Hildevert capital detail - left",
+        "ancestors": "Early Lords of Gournay; Gournay-en-Bray line generally",
+        "places": "Church of St. Hildevert, Gournay-en-Bray",
+        "scope": "Direct ancestral-place architectural detail",
+        "desc": "Daniel emphasizes that St. Hildevert contains remarkable sculptured capitals. This detail crop preserves one of those architectural motifs and should be useful for image prompts involving the church interior or Norman/early Gothic stonework connected to the Gournay foundation tradition.",
+        "filename": "part1_norman_origins/images/dg_part1_p020_st_hildevert_capital_left.png",
+        "width_px": 820,
+        "height_px": 720
+      },
+      {
+        "id": "p020_st_hildevert_capital_right",
+        "page": 20,
+        "printed": "Printed p.12",
+        "box": [
+          850,
+          1030,
+          340,
+          310
+        ],
+        "caption": "St. Hildevert capital detail - right",
+        "ancestors": "Early Lords of Gournay; Gournay-en-Bray line generally",
+        "places": "Church of St. Hildevert, Gournay-en-Bray",
+        "scope": "Direct ancestral-place architectural detail",
+        "desc": "This second capital detail belongs to the same St. Hildevert architectural discussion. The surrounding text explains that windows and towers were altered, while the interior retained older Norman elements. The carving details help ground future visuals in the actual antiquarian evidence Daniel reproduced.",
+        "filename": "part1_norman_origins/images/dg_part1_p020_st_hildevert_capital_right.png",
+        "width_px": 615,
+        "height_px": 620
+      },
+      {
+        "id": "p021_st_hildevert_capitals_group",
+        "page": 21,
+        "printed": "Printed p.13",
+        "box": [
+          280,
+          350,
+          940,
+          1050
+        ],
+        "caption": "Capitals and sculptural bands in St. Hildevert",
+        "ancestors": "Early Lords of Gournay; Gournay-en-Bray line generally",
+        "places": "Church of St. Hildevert, Gournay-en-Bray",
+        "scope": "Direct ancestral-place architectural detail",
+        "desc": "Daniel quotes Dawson Turner/Cotman to say that St. Hildevert has an unusually remarkable set of capitals, including repeated projecting rims with undulating lines that may represent water. This grouped crop captures several such motifs. It is especially valuable for reconstruction work because the text supplies an interpretive motif - water-like undulating carving - that can guide later images.",
+        "filename": "part1_norman_origins/images/dg_part1_p021_st_hildevert_capitals_group.png",
+        "width_px": 1831,
+        "height_px": 2100
+      },
+      {
+        "id": "p023_church_notre_dame_gournay",
+        "page": 23,
+        "printed": "Printed p.15",
+        "box": [
+          500,
+          390,
+          500,
+          530
+        ],
+        "caption": "Church of Notre Dame, Gournay",
+        "ancestors": "Early Lords of Gournay; Hugh de Gournay IV/V related elder line context",
+        "places": "Notre Dame, Gournay-en-Bray",
+        "scope": "Direct ancestral-town context",
+        "desc": "The adjacent text says the church of Notre Dame at Gournay was destroyed in the French Revolution, was said to have been built by the ancient lords of the place, and contained a monument to one of them and his wife. Although the monument is attributed by local history to Hugh IV and Milisandra - the elder related line after the direct split - the church itself belongs to the ancestral townscape of Gournay.",
+        "filename": "part1_norman_origins/images/dg_part1_p023_church_notre_dame_gournay.png",
+        "width_px": 1000,
+        "height_px": 1055
+      },
+      {
+        "id": "p027_norman_gournay_and_comparison_arms",
+        "page": 27,
+        "printed": "Printed p.19",
+        "box": [
+          300,
+          350,
+          900,
+          610
+        ],
+        "caption": "Arms of the Barons de Gournay and comparison shields",
+        "ancestors": "Norman Barons de Gournay; early direct Gournay line through Gerard (G32)",
+        "places": "Gournay-en-Bray; Normandy",
+        "scope": "Direct-line heraldic context",
+        "desc": "Daniel states that the Histoire MS. de Gournay reports the Norman Barons de Gournay bore a plain sable shield, then compares other families that bore plain shields. The image is directly relevant to the earliest family heraldic tradition and should be kept even though Daniel also notes uncertainty around very early hereditary coats of arms.",
+        "filename": "part1_norman_origins/images/dg_part1_p027_norman_gournay_and_comparison_arms.png",
+        "width_px": 1743,
+        "height_px": 1220
+      },
+      {
+        "id": "p028_arms_town_gournay",
+        "page": 28,
+        "printed": "Printed p.20",
+        "box": [
+          500,
+          340,
+          560,
+          660
+        ],
+        "caption": "Arms of the town of Gournay",
+        "ancestors": "Norman Barons de Gournay; related to Arthur of Brittany episode after conquest by Philip Augustus",
+        "places": "Town of Gournay-en-Bray",
+        "scope": "Direct ancestral-town heraldic context",
+        "desc": "Daniel explains that after Philip Augustus took Gournay, he conferred knighthood there upon Arthur, Duke of Brittany, and granted the town arms: sable, a knight fully armed on horseback, ermine, with a fleur-de-lis or in chief. The image is town heraldry rather than family arms, but it belongs to the Gournay civic identity created after the family lost Normandy.",
+        "filename": "part1_norman_origins/images/dg_part1_p028_arms_town_gournay.png",
+        "width_px": 988,
+        "height_px": 1320
+      },
+      {
+        "id": "p035_plan_gournay_fortress",
+        "page": 35,
+        "printed": "Printed p.25",
+        "box": [
+          270,
+          490,
+          760,
+          940
+        ],
+        "caption": "Plan of Gournay du temps de nos anciens contes",
+        "ancestors": "Eudes (working G37); early Lords of Gournay; Hugh traditional fortifier",
+        "places": "Gournay fortress; Tour Hue; Chateau; Porte de Ferrieres; Epte marsh setting",
+        "scope": "Direct ancestral-fortress plan",
+        "desc": "The surrounding text discusses the fortifications traditionally attributed to Hugh, son of Eudes, including a citadel near St. Hildevert, double or triple ditching, walls, and the Tour Hue. The plan shows the chateau, town gates, marsh/overflow defenses, and approaches. This is one of the strongest images for reconstructing Gournay as a frontier fortress rather than merely a town.",
+        "filename": "part1_norman_origins/images/dg_part1_p035_plan_gournay_fortress.png",
+        "width_px": 1507,
+        "height_px": 1880
+      },
+      {
+        "id": "p038_church_la_ferte",
+        "page": 38,
+        "printed": "Printed p.28",
+        "box": [
+          340,
+          340,
+          850,
+          550
+        ],
+        "caption": "Church of La Ferte",
+        "ancestors": "Renaud (working G36); Gautier de La Ferte, related younger line; Hugh I (working G35)",
+        "places": "La Ferte-en-Bray; Pays de Bray",
+        "scope": "Direct-family branch / ancestral-region context",
+        "desc": "Daniel treats La Ferte as a younger-branch Gournay fief held by Gautier de La Ferte, son of Renaud and brother of Hugh I. The adjacent narrative says Gautier founded the priory at La Ferte between 989 and 996, making this a very early documentary anchor for the family. It is not the main direct line after Renaud, but it is very close to the direct family origin.",
+        "filename": "part1_norman_origins/images/dg_part1_p038_church_la_ferte.png",
+        "width_px": 1598,
+        "height_px": 1100
+      },
+      {
+        "id": "p038_earthworks_castle_la_ferte",
+        "page": 38,
+        "printed": "Printed p.28",
+        "box": [
+          510,
+          900,
+          610,
+          400
+        ],
+        "caption": "Earthworks of the Castle of La Ferte",
+        "ancestors": "Renaud (working G36); Gautier de La Ferte branch; Hugh I (working G35)",
+        "places": "La Ferte-en-Bray; Pays de Bray",
+        "scope": "Direct-family branch / ancestral-region fortification",
+        "desc": "The La Ferte earthworks are tied to the same early branch as the church image. Daniel explains that the lordship and priory at La Ferte belong to the early family structure, with a younger son receiving La Ferte, Gaillefontaine, and smaller estates while the elder held Gournay. This supports future visuals of the wider Gournay territorial network.",
+        "filename": "part1_norman_origins/images/dg_part1_p038_earthworks_castle_la_ferte.png",
+        "width_px": 1143,
+        "height_px": 796
+      },
+      {
+        "id": "p039_gaillefontaine_church_and_chapel",
+        "page": 39,
+        "printed": "Printed p.29",
+        "box": [
+          330,
+          450,
+          860,
+          470
+        ],
+        "caption": "Church at Gaillefontaine and chapel of the Leproserie",
+        "ancestors": "Renaud (working G36); Gautier de La Ferte branch; early Gournay territorial network",
+        "places": "Gaillefontaine; Pays de Bray",
+        "scope": "Direct-family branch / ancestral-region context",
+        "desc": "Gaillefontaine appears in Daniel's description of the lands held by the La Ferte branch, a younger branch from the early Gournay house. The crop preserves ecclesiastical structures in that associated territory. It is useful as ancestral-region context, especially because La Ferte and Gaillefontaine were part of the early division of family power in the Pays de Bray.",
+        "filename": "part1_norman_origins/images/dg_part1_p039_gaillefontaine_church_and_chapel.png",
+        "width_px": 1604,
+        "height_px": 940
+      },
+      {
+        "id": "p039_earthworks_castle_gaillefontaine",
+        "page": 39,
+        "printed": "Printed p.29",
+        "box": [
+          480,
+          900,
+          570,
+          390
+        ],
+        "caption": "Earthworks of the Castle of Gaillefontaine",
+        "ancestors": "Renaud (working G36); Gautier de La Ferte branch; early Gournay territorial network",
+        "places": "Gaillefontaine; Pays de Bray",
+        "scope": "Direct-family branch / ancestral-region fortification",
+        "desc": "The Gaillefontaine earthworks illustrate another fortified place in the early Gournay territorial network. Although held in a collateral younger branch, the site helps show the pattern of family fortifications and smaller fiefs around Gournay and La Ferte during the 10th and 11th centuries.",
+        "filename": "part1_norman_origins/images/dg_part1_p039_earthworks_castle_gaillefontaine.png",
+        "width_px": 1110,
+        "height_px": 758
+      },
+      {
+        "id": "p063_abbey_of_bec",
+        "page": 63,
+        "printed": "Full plate between printed pp.52-54",
+        "box": [
+          180,
+          140,
+          1920,
+          1480
+        ],
+        "caption": "The Abbey of Bec",
+        "ancestors": "Hugh de Gournay III (working G33); Basilia Flaitel; Gerard de Gournay (G32)",
+        "places": "Abbey of Bec, Normandy",
+        "scope": "Direct-line monastic and burial context",
+        "desc": "The adjacent narrative says Hugh de Gournay III became a monk at Bec, Basilia retired there, and the pair were major benefactors. Daniel recounts St. Anselm's correspondence with Hugh and Basilia and states that Hugh and Basilia were buried at Bec. This image is high-priority for the direct line because it ties direct ancestors to monastic retirement, benefaction, correspondence, and burial.",
+        "filename": "part1_norman_origins/images/dg_part1_p063_abbey_of_bec.png",
+        "width_px": 3790,
+        "height_px": 2952
+      },
+      {
+        "id": "p085_warren_pedigree_context",
+        "page": 85,
+        "printed": "Appendix XIII, approx. printed p.73",
+        "box": [
+          300,
+          470,
+          870,
+          980
+        ],
+        "caption": "House of Warren pedigree / arms context",
+        "ancestors": "Editha de Warenne, wife of Gerard de Gournay (G32 spouse); Walter de Gournay (G31, son)",
+        "places": "Warenne/Varenne; Normandy; England",
+        "scope": "Direct spouse-line / maternal-line context",
+        "desc": "Gerard de Gournay married Editha/Ediva, daughter of William de Warenne and Gundred. Daniel uses the Warren appendix to explain this major alliance and the kinship context from which Walter de Gournay, the direct younger branch ancestor, descended. The plate is not a scene, but it is useful lineage context for the maternal side of Walter de Gournay.",
+        "filename": "part1_norman_origins/images/dg_part1_p085_warren_pedigree_context.png",
+        "width_px": 1604,
+        "height_px": 1954
+      },
+      {
+        "id": "p269_gournay_from_ernemont",
+        "page": 269,
+        "printed": "Printed p.255",
+        "box": [
+          230,
+          360,
+          1040,
+          670
+        ],
+        "caption": "Gournay from Ernemont",
+        "ancestors": "Early direct Gournay line generally; Eudes through Gerard de Gournay (working G37-G32)",
+        "places": "Gournay-en-Bray; Ernemont; Epte valley; Pays de Bray",
+        "scope": "Direct ancestral-town landscape",
+        "desc": "In Appendix XLIV Daniel reports his 1845 visit to Gournay and describes the surrounding country as fertile, wooded, hilly, and picturesque, with the Epte valley, pasture, orchards, cider/perry country, and striking views from heights. He specifically calls the view of Gournay from the chateau of Ernemont beautiful. This image is therefore strong environmental evidence for the ancestral landscape.",
+        "filename": "part1_norman_origins/images/dg_part1_p269_gournay_from_ernemont.png",
+        "width_px": 2024,
+        "height_px": 1340
+      },
+      {
+        "id": "p274_chapel_leproserie_gournay",
+        "page": 274,
+        "printed": "Printed p.260",
+        "box": [
+          400,
+          460,
+          760,
+          460
+        ],
+        "caption": "Chapel of the Leproserie at Gournay",
+        "ancestors": "Early Lords of Gournay; Gournay charitable/religious institutions",
+        "places": "Gournay-en-Bray; Leproserie chapel",
+        "scope": "Direct ancestral-town religious/charitable context",
+        "desc": "Daniel states earlier that the ancient lords of Gournay instituted a leper house and a Hotel Dieu or hospital in the town. This crop shows the chapel of the leproserie. It is not tied to one named direct ancestor, but it belongs to the family-created or family-associated institutional landscape of Gournay.",
+        "filename": "part1_norman_origins/images/dg_part1_p274_chapel_leproserie_gournay.png",
+        "width_px": 1287,
+        "height_px": 847
+      },
+      {
+        "id": "p274_wooden_porch_dampierre",
+        "page": 274,
+        "printed": "Printed p.260",
+        "box": [
+          390,
+          940,
+          780,
+          540
+        ],
+        "caption": "Wooden porch at Dampierre",
+        "ancestors": "Early Lords of Gournay territorial context",
+        "places": "Dampierre; Pays de Bray",
+        "scope": "Direct ancestral-region architectural context",
+        "desc": "Dampierre appears among the places illustrated in Daniel's Appendix XLIV tour of Gournay and the Pays de Bray. The wooden porch provides vernacular architectural context for the district around the ancestral town. It is useful for future image prompts involving the broader local environment rather than a named family event.",
+        "filename": "part1_norman_origins/images/dg_part1_p274_wooden_porch_dampierre.png",
+        "width_px": 1303,
+        "height_px": 1067
+      },
+      {
+        "id": "p275_church_brefmontier",
+        "page": 275,
+        "printed": "Printed p.261",
+        "box": [
+          500,
+          320,
+          500,
+          680
+        ],
+        "caption": "Church at Bref-Moutier / Brefmontier",
+        "ancestors": "Hugh de Gournay III (working G33); early Lords of Gournay",
+        "places": "Bref-Moutier / Brefmontier; Pays de Bray",
+        "scope": "Direct ancestral-region religious context",
+        "desc": "Daniel's earlier narrative says the chapter of St. Hildevert was traditionally first fixed in the neighboring village of Bref-Moutier and later removed to Gournay. He also describes Bref-Moutier as an ancient monastic site in the territory of Gournay. This image should be retained because it links the St. Hildevert story to a specific nearby place.",
+        "filename": "part1_norman_origins/images/dg_part1_p275_church_brefmontier.png",
+        "width_px": 988,
+        "height_px": 1360
+      },
+      {
+        "id": "p275_font_brefmontier",
+        "page": 275,
+        "printed": "Printed p.261",
+        "box": [
+          450,
+          980,
+          610,
+          560
+        ],
+        "caption": "Font at Bref-Moutier / Brefmontier",
+        "ancestors": "Early Lords of Gournay; St. Hildevert/Bref-Moutier context",
+        "places": "Bref-Moutier / Brefmontier; Pays de Bray",
+        "scope": "Direct ancestral-region church detail",
+        "desc": "This font detail belongs with the church at Bref-Moutier, the place Daniel associates with the early chapter before its transfer to Gournay. The font is useful for future reconstruction because it gives a concrete liturgical artifact from the local ecclesiastical landscape.",
+        "filename": "part1_norman_origins/images/dg_part1_p275_font_brefmontier.png",
+        "width_px": 1057,
+        "height_px": 1098
+      },
+      {
+        "id": "p276_west_end_boshyon",
+        "page": 276,
+        "printed": "Printed p.262",
+        "box": [
+          420,
+          450,
+          750,
+          990
+        ],
+        "caption": "West end of church and cross at Boshyon",
+        "ancestors": "Early Gournay territorial context",
+        "places": "Boshyon / Boshion; Pays de Bray",
+        "scope": "Direct ancestral-region place context",
+        "desc": "Boshyon is one of the Pays de Bray sites illustrated in Daniel's tour appendix. The image gives church architecture and a cross in a village landscape within the family's original regional setting. It is most valuable as environmental/architectural context rather than as proof of a single ancestor's act.",
+        "filename": "part1_norman_origins/images/dg_part1_p276_west_end_boshyon.png",
+        "width_px": 1439,
+        "height_px": 1980
+      },
+      {
+        "id": "p277_east_end_boshyon",
+        "page": 277,
+        "printed": "Printed p.263",
+        "box": [
+          330,
+          580,
+          850,
+          660
+        ],
+        "caption": "East end of church at Boshyon",
+        "ancestors": "Early Gournay territorial context",
+        "places": "Boshyon / Boshion; Pays de Bray",
+        "scope": "Direct ancestral-region place context",
+        "desc": "This companion view of Boshyon records another side of the same local church. Together with the west-end and tower-arch views, it gives a fuller architectural setting for one of the Pays de Bray places Daniel thought worth illustrating after his 1845 visit.",
+        "filename": "part1_norman_origins/images/dg_part1_p277_east_end_boshyon.png",
+        "width_px": 1539,
+        "height_px": 1252
+      },
+      {
+        "id": "p278_boshyon_tower_arches",
+        "page": 278,
+        "printed": "Printed p.264",
+        "box": [
+          380,
+          430,
+          800,
+          900
+        ],
+        "caption": "Side view from tower arches, Boshyon",
+        "ancestors": "Early Gournay territorial context",
+        "places": "Boshyon / Boshion; Pays de Bray",
+        "scope": "Direct ancestral-region church detail",
+        "desc": "This view from the tower arches at Boshyon provides interior/structural architectural detail from the same Pays de Bray church sequence. It can support future reconstruction of the local church environment around Gournay-en-Bray.",
+        "filename": "part1_norman_origins/images/dg_part1_p278_boshyon_tower_arches.png",
+        "width_px": 1561,
+        "height_px": 1723
+      },
+      {
+        "id": "p279_st_peter_dampierre",
+        "page": 279,
+        "printed": "Printed p.265",
+        "box": [
+          460,
+          320,
+          520,
+          600
+        ],
+        "caption": "Church of St. Peter in Vinculis at Dampierre",
+        "ancestors": "Early Gournay territorial context",
+        "places": "Dampierre; Pays de Bray",
+        "scope": "Direct ancestral-region church/place",
+        "desc": "This church image belongs to the Appendix XLIV visual tour of Gournay and the Pays de Bray. It is a place-context image for the ancestral region. The title identifies the church as St. Peter in Vinculis at Dampierre, supplementing the nearby wooden porch and arch details.",
+        "filename": "part1_norman_origins/images/dg_part1_p279_st_peter_dampierre.png",
+        "width_px": 1013,
+        "height_px": 1200
+      },
+      {
+        "id": "p279_dampierre_tower_arches",
+        "page": 279,
+        "printed": "Printed p.265",
+        "box": [
+          450,
+          880,
+          570,
+          570
+        ],
+        "caption": "Arches under the tower, Dampierre",
+        "ancestors": "Early Gournay territorial context",
+        "places": "Dampierre; Pays de Bray",
+        "scope": "Direct ancestral-region architectural detail",
+        "desc": "The tower-arch detail complements the exterior Dampierre church plate. It gives architectural evidence from a Pays de Bray site included in Daniel's 1845 tour appendix and is useful for future prompts involving local Norman/medieval church interiors.",
+        "filename": "part1_norman_origins/images/dg_part1_p279_dampierre_tower_arches.png",
+        "width_px": 1085,
+        "height_px": 1122
+      },
+      {
+        "id": "p283_mont_sauveur_argueil",
+        "page": 283,
+        "printed": "Printed p.269",
+        "box": [
+          340,
+          320,
+          870,
+          530
+        ],
+        "caption": "Mont Sauveur at Argueil",
+        "ancestors": "William de Gournay I / early younger branch context; Norman Gournay territorial division",
+        "places": "Argueil; Mont Sauveur; Pays de Bray",
+        "scope": "Direct ancestral-region / younger-branch fief context",
+        "desc": "Earlier Part II text says Argueil and Mont Sauveur were connected with the portion of the great fief of Bray severed for the younger branch, and that fragments of armour and utensils had been found on the castle site. Although this image appears in the Part I appendix, Argueil is relevant to the Norman fief context that proves the younger Norfolk branch's blood descent from the Barons of Gournay.",
+        "filename": "part1_norman_origins/images/dg_part1_p283_mont_sauveur_argueil.png",
+        "width_px": 1708,
+        "height_px": 1055
+      },
+      {
+        "id": "p283_church_sigi",
+        "page": 283,
+        "printed": "Printed p.269",
+        "box": [
+          330,
+          790,
+          890,
+          770
+        ],
+        "caption": "Church at Sigi",
+        "ancestors": "Renaud (working G36); Hugh de La Ferte branch; early Gournay family context",
+        "places": "Sigi / Sigy; Pays de Bray",
+        "scope": "Direct-family branch / ancestral-region religious context",
+        "desc": "Sigi is tied to Hugh de La Ferte's foundation of a priory before 1035 and to the early La Ferte branch. Daniel reproduces charters for Sigi in Appendix II. The church image is therefore relevant as a place of early family religious patronage, though through a related branch rather than the later Norfolk direct line itself.",
+        "filename": "part1_norman_origins/images/dg_part1_p283_church_sigi.png",
+        "width_px": 1696,
+        "height_px": 1533
+      },
+      {
+        "id": "p284_sigi_view",
+        "page": 284,
+        "printed": "Printed p.270",
+        "box": [
+          250,
+          350,
+          980,
+          540
+        ],
+        "caption": "Sigi",
+        "ancestors": "Renaud (working G36); Hugh de La Ferte branch; early Gournay family context",
+        "places": "Sigi / Sigy; Pays de Bray",
+        "scope": "Direct-family branch / ancestral-region context",
+        "desc": "This second Sigi image reinforces the setting of the priory founded by the La Ferte branch. The Sigi charters are among the earliest surviving or reported documents for the extended Gournay family, making the place useful for origin-period storytelling even if the specific branch is collateral.",
+        "filename": "part1_norman_origins/images/dg_part1_p284_sigi_view.png",
+        "width_px": 1743,
+        "height_px": 1080
+      },
+      {
+        "id": "p284_castle_neufmarche",
+        "page": 284,
+        "printed": "Printed p.270",
+        "box": [
+          240,
+          930,
+          1010,
+          560
+        ],
+        "caption": "Remains of castle at Neufmarche",
+        "ancestors": "Early Lords of Gournay; Pays de Bray frontier context",
+        "places": "Neufmarche; Pays de Bray; Normandy frontier",
+        "scope": "Direct ancestral-region fortification context",
+        "desc": "Neufmarche appears among the fortified sites around the Gournay frontier landscape. The remains-of-castle image helps reconstruct the military geography of the Pays de Bray and the neighboring Norman/French frontier, a recurring theme in Daniel's explanation of why Gournay mattered.",
+        "filename": "part1_norman_origins/images/dg_part1_p284_castle_neufmarche.png",
+        "width_px": 1824,
+        "height_px": 1120
+      },
+      {
+        "id": "p285_church_neufmarche",
+        "page": 285,
+        "printed": "Printed p.271",
+        "box": [
+          300,
+          520,
+          980,
+          760
+        ],
+        "caption": "Church at Neufmarche",
+        "ancestors": "Early Lords of Gournay; Pays de Bray frontier context",
+        "places": "Neufmarche; Pays de Bray",
+        "scope": "Direct ancestral-region church/place",
+        "desc": "The church at Neufmarche complements the castle-remains image and gives an ecclesiastical counterpart to the frontier setting. It belongs to Daniel's Appendix XLIV place tour and is useful for reconstructing the religious and village landscape surrounding Gournay.",
+        "filename": "part1_norman_origins/images/dg_part1_p285_church_neufmarche.png",
+        "width_px": 1864,
+        "height_px": 1497
+      },
+      {
+        "id": "p286_castle_gisors",
+        "page": 286,
+        "printed": "Printed p.272",
+        "box": [
+          80,
+          150,
+          650,
+          460
+        ],
+        "caption": "Castle of Gisors from the Prisoner's Tower",
+        "ancestors": "Early Lords of Gournay; Norman-French frontier context",
+        "places": "Gisors; Normandy frontier",
+        "scope": "Regional frontier context",
+        "desc": "Gisors was a major Norman-French frontier fortress, and Daniel includes it in the same Pays de Bray/Gournay regional appendix. It is somewhat broader than the direct Gournay holdings, but it helps explain the military frontier world in which the Lords of Gournay operated.",
+        "filename": "part1_norman_origins/images/dg_part1_p286_castle_gisors.png",
+        "width_px": 1218,
+        "height_px": 896
+      },
+      {
+        "id": "p286_interior_church_neufmarche",
+        "page": 286,
+        "printed": "Printed p.272",
+        "box": [
+          160,
+          560,
+          470,
+          540
+        ],
+        "caption": "Interior of church, Neufmarche",
+        "ancestors": "Early Lords of Gournay; Pays de Bray frontier context",
+        "places": "Neufmarche; Pays de Bray",
+        "scope": "Direct ancestral-region church detail",
+        "desc": "This interior view belongs with the Neufmarche church exterior and the castle-remains plate. It is useful as interior architectural evidence from the same regional setting, especially for later image-generation work requiring medieval church ambience.",
+        "filename": "part1_norman_origins/images/dg_part1_p286_interior_church_neufmarche.png",
+        "width_px": 919,
+        "height_px": 1016
+      }
+    ],
+    "catalog_only_entries": [
+      {
+        "label": "Talbot and related arms",
+        "page": 83,
+        "printed": "Printed p.71",
+        "scope": "Catalog-only - collateral branch",
+        "ancestors": "Richard Talbot / Talbot descendants of a Gournay marriage; not direct line",
+        "places": "Beaubec; Wales/Talbot context",
+        "desc": "The plate accompanies a discussion of Talbot branches after a Gournay/Talbot marriage. It is collateral to the direct line and was cataloged but not cropped."
+      },
+      {
+        "label": "Remains of Byland Abbey",
+        "page": 95,
+        "printed": "Printed p.83",
+        "scope": "Catalog-only - collateral Gournay daughter line",
+        "ancestors": "Gundred de Gournay, wife of Neil d'Albini; Mowbray/Byland context",
+        "places": "Byland Abbey; Yorkshire",
+        "desc": "Gundred is a related/collateral member of the family rather than the direct Norfolk line ancestor. The abbey is historically interesting but not cropped under the tightened selection policy."
+      },
+      {
+        "label": "Head of Robert le Bourguignon",
+        "page": 135,
+        "printed": "Printed p.123",
+        "scope": "Catalog-only - feudal tenant / Swathings context",
+        "ancestors": "Le Bourguignon family; indirect connection to Swathings and early Norfolk branch",
+        "places": "Swathings; St. Sauveur; Pays de Bray",
+        "desc": "The Bourguignon family is relevant to the Swathings transfer background but not itself direct-line Gournay ancestry. Cataloged for context, not cropped."
+      },
+      {
+        "label": "Pedigree of the Lords of Coucy",
+        "page": 141,
+        "printed": "Folded/landscape pedigree before Hugh V section",
+        "scope": "Catalog-only - related elder-line spouse family",
+        "ancestors": "Coucy family; spouse family of Hugh IV elder related line",
+        "places": "Coucy",
+        "desc": "The Coucy pedigree supports the elder branch after the direct line diverges through Walter de Gournay. It is useful related context but was not cropped."
+      },
+      {
+        "label": "Hugh de Gournay V from his seal",
+        "page": 143,
+        "printed": "Printed p.129",
+        "scope": "Catalog-only - related elder line",
+        "ancestors": "Hugh de Gournay V; elder Norman baronial line after direct split",
+        "places": "Acre; Gournay-en-Bray",
+        "desc": "The seal is valuable but belongs to the elder line descending from Gerard's son Hugh IV, while the user's direct line continues through Walter. Cataloged but not cropped."
+      },
+      {
+        "label": "Dammartin / Count of Boulogne visual material",
+        "page": 191,
+        "printed": "Printed p.177",
+        "scope": "Catalog-only - related elder-line spouse family",
+        "ancestors": "Julia de Dammartin and Dammartin family; spouse line of Hugh V",
+        "places": "Dammartin; Boulogne",
+        "desc": "Relevant to Hugh V's marriage but not direct to the Norfolk Gurney line. Cataloged but not cropped."
+      },
+      {
+        "label": "Dampmartin pedigree",
+        "page": 193,
+        "printed": "Printed p.179",
+        "scope": "Catalog-only - related elder-line spouse family",
+        "ancestors": "Dammartin family",
+        "places": "Dammartin; Boulogne",
+        "desc": "Pedigree context for Hugh V's spouse family. Cataloged but not cropped under direct-line-focused rules."
+      },
+      {
+        "label": "Saint Thomas of Cantelupe and Hereford shrine",
+        "page": 194,
+        "printed": "Printed p.180-182",
+        "scope": "Catalog-only - related spouse/kin context",
+        "ancestors": "Cantelupe family; related kin network",
+        "places": "Hereford Cathedral",
+        "desc": "Ecclesiastical and kin-network context for later related families, but not the direct line. Cataloged only."
+      },
+      {
+        "label": "Langley Abbey, Castle of Wormegay, Bardolf monument",
+        "page": 202,
+        "printed": "Printed pp.188-191",
+        "scope": "Catalog-only - post-elder-line inheritance context",
+        "ancestors": "Julia de Gournay and Bardolf descendants; not direct Norfolk Gurney line",
+        "places": "Langley Abbey; Wormegay; Shelford",
+        "desc": "These images relate to the descent of the elder barony after Hugh VI and Julia. They are related to the broader house but not the direct line through Walter, so they were cataloged only."
+      },
+      {
+        "label": "Unidentified final Appendix XLIV plate",
+        "page": 287,
+        "printed": "Printed p.273 or adjacent",
+        "scope": "Catalog-only - uncertain identification",
+        "ancestors": "Uncertain; likely Pays de Bray place context",
+        "places": "Uncertain",
+        "desc": "The image is in Appendix XLIV but the caption was not reliably captured. It should be revisited if a cleaner scan or manual page review is available."
+      }
+    ]
+  }
+}
