@@ -21,10 +21,26 @@ module.exports = function (eleventyConfig) {
   // Pass-through: raw research highlights feed used by the next homepage design.
   eleventyConfig.addPassthroughCopy("research/highlights.md");
 
-  // Pass-through: assets, media, favicon, crawler files.
+  // Pass-through: assets, media, favicons, crawler files.
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("media");
-  eleventyConfig.addPassthroughCopy("favicon.png");
+  [
+    "android-chrome-192x192.png",
+    "android-chrome-512x512.png",
+    "apple-touch-icon.png",
+    "favicon-128.png",
+    "favicon-16.png",
+    "favicon-180.png",
+    "favicon-192.png",
+    "favicon-32.png",
+    "favicon-48.png",
+    "favicon-512.png",
+    "favicon-64.png",
+    "favicon.ico",
+    "favicon.png",
+    "favicon.svg",
+    "site.webmanifest",
+  ].forEach(file => eleventyConfig.addPassthroughCopy(file));
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("sitemap.xml");
   eleventyConfig.addPassthroughCopy("llms.txt");
