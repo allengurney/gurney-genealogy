@@ -51,6 +51,28 @@ Harpley remains a major medieval and Tudor Gurney manor, but the phrase "Gurney'
 
 [^dicamillo-gurneys-manor-harpley]: Curt DiCamillo, "Gurney's Manor," *The DiCamillo Companion to British & Irish Country Houses*, https://www.thedicamillo.com/house/gurneys-manor/. Source ID: `dicamillo-gurneys-manor`.
 
+### St Lawrence: advowson, chancel, and visible Gurnay memory
+
+St Lawrence is not merely a parish backdrop for Harpley; it preserves the family as patrons, rectors, builders, and heraldic memory. Blomefield's Harpley descent places the manor in the Gurney line through Rose, daughter and heir of Reginald, who was married to Matthew de Gurney, lord in her right by about 30 Henry II. The same descent later records Edmund de Gurnay presenting to the church in 34 Edward III, John Gournay presenting in 1387, Thomas Gurnay presenting in 1443, William Gurnay in 1485, and Anthony Gurnay in 1511 before the manor was conveyed away from the family in the 1530s.[^blomefield-harpley]
+
+The church fabric itself carries the medieval patronage story. A local church-history page states that the church was enlarged in 1294-1332 during the incumbency of John de Gurnay, that the chancel was erected by him in the early fourteenth century, and that the chancel arch is thought to have been built by John de Gurnay, Rector 1294-1332.[^ggm-harpley-church] It also records the Latin marginal inscription formerly around the priest's brass in the chancel:
+
+> "Hic jacet corpus Joh'is de Gurnay quondam Rectoris Paronique hujus ecclesie cujus anime propicietur Deua. Amen"[^ggm-harpley-church]
+
+That reading is rough in the web transcription, but the substance is important: Harpley remembered John as both former rector and patron of the church. A chalice was reportedly found there in 1820.[^ggm-harpley-church]
+
+The modern visitor description independently preserves the same core tradition: the chancel is thought to have been built by Rector John de Gurnay, who held the living 1294-1332; his family had the advowson from 1184; the Gurnays/Gournays/Gurneys held a manor at Harpley from about 1153-1401; and later family members Christopher and Edmund also served as priests there.[^explore-harpley-st-lawrence] The same page notes that the Gurney shield, argent a cross engrailed gules, could be seen on shields held by angels in the nave roof and on the second shield from the west on the south aisle parapet.[^explore-harpley-st-lawrence]
+
+This makes Harpley a rare place where the direct line's manorial, ecclesiastical, and heraldic evidence remain mutually visible: manor descent, advowson, rectors, chancel memory, roof angels, and exterior shields all point to the same family presence. The National Churches Trust profile is briefer but corroborates the core architectural claim that the chancel was added in the early fourteenth century by John De Gurney.[^nct-harpley]
+
+The Gazetteer of Markets and Fairs adds one more administrative detail: on 5 June 1307 Edward I granted a fair at Harpley to John de Gurnay, parson of the church of Harpley, to be held at the manor on the vigil and feast of St Lawrence.[^gazetteer-harpley]
+
+[^blomefield-harpley]: Francis Blomefield, "Freebridge Hundred and Half: Harpley," in *An Essay Towards A Topographical History of the County of Norfolk*, vol. 8 (London, 1808), pp. 452-459, British History Online, https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459. Source ID: `blomefield-norfolk`.
+[^ggm-harpley-church]: "Harpley Church History," GGM Benefice, Harpley, St Lawrence, https://www.ggmbenefice.uk/our-churches/harpley/harpley-church-history/. Source ID: `ggm-benefice-harpley-church-history`.
+[^explore-harpley-st-lawrence]: "The Church of St. Lawrence, Harpley," Explore West Norfolk, https://www.explorewestnorfolk.co.uk/venues/the-church-of-st-lawrence-harpley-21/. Source ID: `explore-west-norfolk-harpley-st-lawrence`.
+[^nct-harpley]: "Harpley St Lawrence," National Churches Trust, https://www.nationalchurchestrust.org/church/harpley-st-lawrence. Source ID: `national-churches-trust-harpley-st-lawrence`.
+[^gazetteer-harpley]: Samantha Letters et al., *Gazetteer of Markets and Fairs in England and Wales to 1516*, Norfolk, Harpley entry, https://archives.history.ac.uk/gazetteer/norf.html#Harp. Source ID: `history-ac-uk-markets-fairs-gazetteer`.
+
 ## Open items
 
 - Pull Blomefield vol. viii, pp. 452–459 for a complete manorial descent.

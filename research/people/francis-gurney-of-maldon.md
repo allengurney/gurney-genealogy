@@ -188,6 +188,14 @@ The Norwich banking Gurneys — if the 1655 Maldon John did become John of St Gr
 
 ---
 
+### 1661 assessment commissioner lead
+
+The 1661 Charles II assessment act names a Francis Gurney among commissioners in the Essex/Harwich portion of the statute. This cannot be direct-line Francis Gurney (G14), who was buried in 1646/7, and is more plausibly Francis Gurney of Maldon or another same-name Essex figure.[^statutes-francis-1661]
+
+Treat this as a lead for Francis of Maldon's public standing after the Restoration. It should be reconciled with Bernau's Maldon civic chronology before being promoted into a firm biographical sentence.
+
+[^statutes-francis-1661]: "Charles II, 1661: An Act for granting unto the Kings Majestie twelve hundred and threescore thousand pounds...," *Statutes of the Realm*, vol. 5, British History Online, https://www.british-history.ac.uk/statutes-realm/vol5/pp325-348. Source ID: `bho-statutes-realm-1661-assessment`.
+
 ## Sources
 
 - **`british-archivist-bernau-1913`** (proposed): Bernau, *British Archivist* I.7 (September 1913). Primary source for this file. Corpus: `sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md`.

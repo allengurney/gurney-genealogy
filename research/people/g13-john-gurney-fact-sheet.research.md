@@ -197,6 +197,19 @@ Daniel Gurney Appendix LXXXIX states: "Sir Richard Gurney was not related to the
 
 ---
 
+### London St Augustine same-name lead, 1638
+
+The 1638 London inhabitants return for St Augustine lists a John Gurney in the rents section at 10 pounds. This is a same-name London lead only: the entry does not identify age, occupation, kinship, origin, wife, children, or whether this John is connected to the Norfolk/London Francis Gurney household.[^london-st-augustine-1638]
+
+Because John Gurney-1 is already believed to be in New England by this period, this entry is more likely an eliminator or a separate English John Gurney than a direct record of the emigrant. It still belongs in the research companion because the John problem depends on keeping same-name English men visible rather than silently discarding them.
+
+### Margaret Rovett / Rybett Ancestry death lead
+
+The Ancestry record URL supplied in the intake redirected to a join/login page in this pass, so no record image or indexed field was verified. Preserve this as an open lead only: the user note says the death was found in John Gurney research, but that the death would normally belong under Margaret Gurney and may or may not be the right candidate. Do not turn this into a fact until the record image or index fields are reviewed directly in Ancestry.[^ancestry-margaret-lead]
+
+[^london-st-augustine-1638]: T. C. Dale, "Inhabitants of London in 1638: St. Augustine," in *The Inhabitants of London in 1638* (Society of Genealogists, 1931), British History Online, https://www.british-history.ac.uk/no-series/london-inhabitants/1638/pp34-35. Source ID: `bho-london-inhabitants-st-augustine-1638`.
+[^ancestry-margaret-lead]: User-supplied Ancestry lead, Margaret Rovett/Rybett, collection 9840 record 18879163, https://www.ancestry.com/search/collections/9840/records/18879163. Login-gated in this pass; source ID not assigned pending record review.
+
 ## Sources Consulted
 
 | sourceId | Scope | Audit trail |

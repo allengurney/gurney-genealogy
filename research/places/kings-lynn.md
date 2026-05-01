@@ -35,6 +35,14 @@ Lynn should be treated as a **multi-phase urban place**:
 
 That is a better fit for the evidence than reducing the place to any one single anecdote.
 
+### Francis Gurney and the 1622 worsted-yarn scheme
+
+King's Lynn appears directly in Francis Gurney's working life through a 17 October 20 James I agreement between Francis Gurney, citizen and merchant-taylor of London, Ambrose Tompson of Thetford, Martin Hill of Ellingham, and the mayor and burgesses of Lynn. The agreement required them to teach poor children spinning worsted-yarn, provide the necessary wool, and employ the poor of Lynn in spinning worsted-yarn for wages once they were no longer mere learners.[^hmc-kings-lynn-place]
+
+This places Francis in a civic poor-employment and textile-production scheme rather than only in private Lestrange finance.
+
+[^hmc-kings-lynn-place]: Historical Manuscripts Commission, "The Borough of King's Lynn: Miscellaneous Writings," *Eleventh Report, Appendix, Part III*, British History Online, https://www.british-history.ac.uk/hist-mss-comm/vol11/pt3/pp235-247. Source ID: `bho-hmc-kings-lynn-misc-writings`.
+
 ## Open items
 
 - [ ] Pull the underlying source for Edmund's standing-counsel role more directly from borough or topographical records.

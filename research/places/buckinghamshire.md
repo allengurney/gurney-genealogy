@@ -22,6 +22,17 @@ It is easy for the family geography to collapse into a simplified story of Norma
 
 Buckinghamshire should remain a **cautious, provisional county record**. It is historically worth keeping, but not yet worth over-describing. In that sense it is a good test of discipline within the place library: a place file should be as rich as the evidence supports and no richer. [DG-I]
 
+### Wendover and Bledlow in senior Gournay context
+
+The Cambridge Core Camden addenda and the IHR Gazetteer both connect the senior Gurnay/Gournay line to Buckinghamshire. The Camden note says Bledlow had been parcel of Hugh de Gournay's land and was given by him in alms, with the church, to the Abbey of Bec-Hellouin in Normandy, citing Testa de Nevill: "Abbas del BekHarlewyne tenet in elemosinam de feodo Hugonis de Gurnay." It also says lands in Wendover came to the Bardolfs from the same family.[^camden-bledlow-wendover]
+
+The Gazetteer gives the administrative market/fair side of Wendover: in 1209 Hugh de Gurnai owed 700 marks to have the manor of Wendover; a mid-thirteenth-century Missenden cartulary memorandum says Hugh de Gurnay established the market at Wendover in King John's time; and a fair on the vigil and feast of John the Baptist was granted before 23 June 1214 to Hugh de Gornay, with a notice on 27 July 1214 to cause Hugh de Gurnay to have that fair.[^gazetteer-wendover]
+
+This is senior-line place context, not a direct junior Norfolk branch holding. It belongs here because it explains how the Gournay/Bardolf inheritance spread beyond Norfolk and Normandy.
+
+[^camden-bledlow-wendover]: "Preface and Addenda," *Camden Old Series*, Cambridge Core, https://www.cambridge.org/core/journals/camden-old-series/article/abs/preface-and-addenda/9ECB73C6D0A44B4E1340ED99760B58C2. Source ID: `cambridge-core-camden-preface-addenda`.
+[^gazetteer-wendover]: Samantha Letters et al., *Gazetteer of Markets and Fairs in England and Wales to 1516*, Buckinghamshire, Wendover entry, https://archives.history.ac.uk/gazetteer/bucks.html#Wen. Source ID: `history-ac-uk-markets-fairs-gazetteer`.
+
 ## Open items
 
 - [ ] Identify the exact Buckinghamshire references underlying the current structured entry.

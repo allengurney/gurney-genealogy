@@ -8,6 +8,21 @@ Francis G14 (1581 – 9 January 1646/7) was the Merchant Taylor of St Benet Fink
 
 ## Working Notes
 
+### King's Lynn worsted-yarn venture, 1622
+
+A British History Online HMC calendar entry supplies an additional source for Francis's King's Lynn textile project. On 17 October, 20 James I, Francis Gurney, citizen and merchant-taylor of London, Ambrose Tompson of Thetford, glover, and Martin Hill of Ellingham, woolchapman, entered an agreement with the mayor and burgesses of King's Lynn. They agreed to teach poor children of the town the art of spinning worsted-yarn, provide the wool needed for instruction, and employ the poor of Lynn in the same industry, paying proper wages to those who were not mere learners.[^hmc-kings-lynn-francis]
+
+This source is valuable because it names Francis by London civic/trade identity and links him directly to a Norfolk poor-employment textile scheme. It supports the existing picture of Francis as a London Merchant Taylor operating in Norfolk commercial and civic networks before the family's later financial contraction.
+
+### Lestrange household references
+
+The Camden/Thoms notice of Sir Nicholas Lestrange's anecdote manuscript identifies several Gurney relatives in the Lestrange family context, including Ed. Gurney, N. Gurney, Ned Gurney, Fra. Gurney, Tho. Gurney, and Dorothy/Dol. Gurney. It identifies Francis Gurney as an uncle of Edward and "a merchant in London," with frequent mention of "Francis Gurney the merchant" in a Hunstanton account-book apparently written by Alice Lady Lestrange.[^thoms-lestrange-g14]
+
+That notice strengthens the social setting already known from Daniel Gurney: Francis's agency for the Lestranges was not an isolated employment relationship but sat inside a dense cousinage linking the Gurneys, Lewkenors, Lestranges, Stubb(e)s, Calthorpes, and Heydons.
+
+[^hmc-kings-lynn-francis]: Historical Manuscripts Commission, "The Borough of King's Lynn: Miscellaneous Writings," *Eleventh Report, Appendix, Part III*, British History Online, https://www.british-history.ac.uk/hist-mss-comm/vol11/pt3/pp235-247. Source ID: `bho-hmc-kings-lynn-misc-writings`.
+[^thoms-lestrange-g14]: William J. Thoms, ed., *Anecdotes and Traditions, Illustrative of Early English History and Literature, Derived from MS. Sources* (Camden Society, old series, vol. 5, 1839), prefatory notice, pp. xviii-xx; Internet Archive PDF lead, https://ia800805.us.archive.org/view_archive.php?archive=/13/items/crossref-pre-1909-scholarly-works/10.1017%252Fs1816968600039876.zip&file=10.1017%252Fs2042169900000870.pdf. Source ID: `thoms-anecdotes-traditions-1839`.
+
 ### Bernau, *The British Archivist* (September 1913)
 
 Charles A. Bernau's 1913 article in *The British Archivist* I.7 is primarily a biography of **Francis Gurney the younger of Maldon** (born 1628 — Francis G14's son, Allen's collateral), but the opening section gives the fullest pre-Daniel-Gurney account of **Francis G14 himself** currently in the corpus.[^bernau-1913-source] Bernau wrote from the Public Record Office and London parish registers rather than from Daniel Gurney's manuscripts, and he contradicts or supplements the existing fact sheet on several points. The findings below are drawn from that article unless otherwise noted.
