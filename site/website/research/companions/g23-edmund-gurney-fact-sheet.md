@@ -81,6 +81,15 @@ DG-Supp Note 117 also notes the Saxthorpe (Loundhall) manor: "John de Mereworthe
 
 DG adds: "John De Gurnai was escheator for Norfolk, 2nd Henry 4th, the year after his shrievalty." This is Sir John (collateral, d.1408), not G24, but confirms the family's continued Walsingham patronage and administrative prominence in Norfolk.
 
+### Norwich civic counsel and North Barsham corroboration
+
+Blomefield's Norwich Richard II chapter gives Edmund an independent civic role: the city paid "Edm. Gournay" 20s. yearly as one of its counsellors. This aligns with the existing profile of Edmund as a legal/stewardship figure and should be treated as a direct city-account corroboration rather than only later genealogical narrative.[^blomefield-norwich-richard-ii-g23]
+
+Blomefield's North Barsham entry adds another landholding context: in Edward III's reign North Barsham came to Edmund Gurney by his marriage with Catherine, daughter of Sir William and sister of Sir Edward Wauci, and remained in the family.[^blomefield-north-barsham-g23]
+
+[^blomefield-norwich-richard-ii-g23]: Francis Blomefield, "The city of Norwich, chapter 16: Of the city in Richard II's time," *History of Norfolk*, vol. 3, pp. 102-117, British History Online, https://www.british-history.ac.uk/topographical-hist-norfolk/vol3/pp102-117. Source ID: `blomefield-norfolk`.
+[^blomefield-north-barsham-g23]: Francis Blomefield, "Gallow and Brothercross Hundreds: North-Barsham," *History of Norfolk*, vol. 7, pp. 47-52, British History Online, https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp47-52. Source ID: `blomefield-norfolk`.
+
 ---
 
 ## Landholdings

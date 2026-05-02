@@ -157,6 +157,14 @@ These are plausible, but they should be verified through CCEd, diocesan register
 - It names **Sir Robert Barker** as the Harpley patron. Thoms gives Sir William Yelverton, and the Harpley register's patronage note points to the Stubbe/Yelverton chain.
 - It offers extended causal/philosophical summaries of Edmund's anti-Catholic arguments. Those may be useful prose prompts, but they need confirmation from the texts themselves.
 
+### Camden/Thoms notice: Edmund in the Lestrange anecdote network
+
+The Camden/Thoms prefatory notice identifies "Parson Edmund Gurney" as brother to Francis Gurney the London merchant and connects him to Sir Nicholas Lestrange's anecdote manuscript. The notice says Edmund's "facetiousness" appears in Anecdotes xi and cv; it identifies his presentation to Edgefield in 1614 by Richard Stubbe, his move to Harpley in 1620 on presentation of Sir William Yelverton, and his apparent holding of Harpley until 1648.[^thoms-lestrange-edmund]
+
+This is a compact but useful independent bridge between Edmund's clerical biography and the Lestrange/Gurney kin network. It also explains why Edmund appears in a manuscript of jokes and family anecdotes rather than only in formal clerical sources.
+
+[^thoms-lestrange-edmund]: William J. Thoms, ed., *Anecdotes and Traditions, Illustrative of Early English History and Literature, Derived from MS. Sources* (Camden Society, old series, vol. 5, 1839), prefatory notice, pp. xviii-xx; Internet Archive PDF lead, https://ia800805.us.archive.org/view_archive.php?archive=/13/items/crossref-pre-1909-scholarly-works/10.1017%252Fs1816968600039876.zip&file=10.1017%252Fs2042169900000870.pdf. Source ID: `thoms-anecdotes-traditions-1839`.
+
 ## L'Estrange and West Barsham network
 
 The Camden Society introduction to L'Estrange's anecdotes remains worth retaining because it ties Edmund and Francis into the same Hunstanton/L'Estrange documentary world:

@@ -48,6 +48,18 @@
     "notes": "John Gurney-1 entry (p. 158). Assigns 'Unknown' English origin = implicit rejection of Banks's BSE attribution. Arrival 1636. Settlements: Boston, Braintree only (Weymouth excluded). Six sources cited: WJ 2:422; MBCR 1:331; NEHGR 62:94; SPR Case #338; Weymouth Hist 3:251; TAG 10:70-73. 2025 edition consulted April 2026."
   },
   {
+    "sourceId": "archiuk-attleborough-nr17-domesday-search",
+    "shortTitle": "ARCHI UK - NR17 local-history search",
+    "citation": "ARCHI UK. Local history and archaeology search results for NR17 1QJ / Attleborough area.",
+    "archive": "ARCHI UK website",
+    "url": "https://www.archiuk.com/cgi-bin/archi_new_search_engine.pl?search_location=NR17%201QJ&keyterms=local-history-archaeology&subject=metal-detecting-sites&country=united-kingdom&bot=googlebotsearch&pwd=&search_range=10000",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/archiuk-attleborough-nr17-domesday-search.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/archiuk-attleborough-nr17-domesday-search.md",
+    "notes": "Tertiary local-history search page preserving Domesday name snippets for Great Ellingham/Helincham, Hingham/Haincham, and Attleborough/Atlebur/Baconstorp. Use as a lead only; prefer OpenDomesday/NHER/Blomefield for final claims."
+  },
+  {
     "sourceId": "banks-brownell-1937",
     "shortTitle": "Banks/Brownell, Topographical Dictionary (1937)",
     "citation": "Banks, Charles Edward. Topographical Dictionary of 2885 English Emigrants to New England, 1620–1650. Ed. Elijah Ellsworth Brownell. Philadelphia: Bertram Press, 1937.",
@@ -70,6 +82,90 @@
     "mediaPath": "",
     "validationPath": "sources/validations/benjamin-gurney-harden-research-tables-2026-04.md",
     "notes": "Synthesis table prepared from public-source research and the located John Harden probate-record images. Use as a research crosswalk and not as a substitute for citing the underlying primary or secondary sources."
+  },
+  {
+    "sourceId": "bho-livery-haberdashers-gournay-charity",
+    "shortTitle": "BHO - Haberdashers' Company Gournay's Charity",
+    "citation": "\"Report on the Charities of the Haberdashers' Company: Part I.\" City of London Livery Companies Commission, vol. 4. British History Online.",
+    "archive": "British History Online",
+    "url": "https://www.british-history.ac.uk/livery-companies-commission/vol4/pp420-456#h3-s47",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/bho-haberdashers-gournays-charity.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/bho-livery-haberdashers-gournay-charity.md",
+    "notes": "Charity Commission description of Richard Gournay's 300 pound Haberdashers' Company loan charity. Relevant to London Gournay/Gurney civic and mercantile context; identity relationship unresolved."
+  },
+  {
+    "sourceId": "bho-london-inhabitants-st-augustine-1638",
+    "shortTitle": "BHO - Inhabitants of London 1638, St Augustine",
+    "citation": "Dale, T. C. \"Inhabitants of London in 1638: St. Augustine.\" In The Inhabitants of London in 1638. Society of Genealogists, 1931. British History Online.",
+    "archive": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/london-inhabitants/1638/pp34-35",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/bho-london-inhabitants-st-augustine-1638.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/bho-london-inhabitants-st-augustine-1638.md",
+    "notes": "Lists John Gurney in the St Augustine parish/rents return in 1638. Treat as a London John Gurney same-name lead, not as an identification of John Gurney-1."
+  },
+  {
+    "sourceId": "bho-hmc-kings-lynn-misc-writings",
+    "shortTitle": "BHO HMC - King's Lynn Miscellaneous Writings",
+    "citation": "Historical Manuscripts Commission. \"The Borough of King's Lynn: Miscellaneous Writings.\" Eleventh Report, Appendix, Part III. British History Online.",
+    "archive": "British History Online",
+    "url": "https://www.british-history.ac.uk/hist-mss-comm/vol11/pt3/pp235-247",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/bho-hmc-kings-lynn-francis-gurney-1622.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/bho-hmc-kings-lynn-misc-writings.md",
+    "notes": "HMC calendar entry for the 17 October 20 James I agreement involving Francis Gurney, citizen and merchant-taylor of London, Ambrose Tompson, and Martin Hill to teach King's Lynn poor children spinning worsted-yarn and employ the poor in that industry."
+  },
+  {
+    "sourceId": "bho-ipm-edward-iii-file31-gournay-harpetree",
+    "shortTitle": "BHO IPM Edward III File 31 - Thomas Gournay of Harpetree",
+    "citation": "\"Inquisitions Post Mortem, Edward III, File 31.\" Calendar of Inquisitions Post Mortem, vol. 7. British History Online.",
+    "archive": "British History Online",
+    "url": "https://www.british-history.ac.uk/inquis-post-mortem/vol7/pp301-312",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/bho-ipm-edward-iii-file31-gournay-harpetree.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/bho-ipm-edward-iii-file31-gournay-harpetree.md",
+    "notes": "IPM entry mentioning Dorset holdings held of Thomas Gournay of Harpetree by 1d yearly service. Collateral/Somerset Gournay evidence, not direct Norfolk-line proof."
+  },
+  {
+    "sourceId": "bho-ipm-edward-iii-file35-gournay-inglescombe",
+    "shortTitle": "BHO IPM Edward III File 35 - Thomas Gournay of Inglescombe",
+    "citation": "\"Inquisitions Post Mortem, Edward III, File 35.\" Calendar of Inquisitions Post Mortem, vol. 7. British History Online.",
+    "archive": "British History Online",
+    "url": "https://www.british-history.ac.uk/inquis-post-mortem/vol7/pp352-371",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/bho-ipm-edward-iii-file35-gournay-inglescombe.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/bho-ipm-edward-iii-file35-gournay-inglescombe.md",
+    "notes": "IPM entry mentioning land held of the demise of Thomas de Gournay of Inglescombe. Collateral/Somerset Gournay evidence."
+  },
+  {
+    "sourceId": "bho-ipm-vol16-index-gournay",
+    "shortTitle": "BHO IPM vol. 16 Index - Gournay/Gurney",
+    "citation": "\"Index of Persons and Places: G.\" Calendar of Inquisitions Post Mortem, vol. 16. British History Online.",
+    "archive": "British History Online",
+    "url": "https://www.british-history.ac.uk/inquis-post-mortem/vol16/pp508-513",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/bho-ipm-vol16-index-gournay.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/bho-ipm-vol16-index-gournay.md",
+    "notes": "Index references for Gournay/Gornay/Gurney, including Matthew de Gournay, Philippa wife of Matthew, Roger, and Thomas de Gournay. Use as a finding aid, not as a standalone proof."
+  },
+  {
+    "sourceId": "bho-statutes-realm-1661-assessment",
+    "shortTitle": "BHO Statutes - 1661 Assessment Act",
+    "citation": "\"Charles II, 1661: An Act for granting unto the Kings Majestie twelve hundred and threescore thousand pounds...\" Statutes of the Realm, vol. 5. British History Online.",
+    "archive": "British History Online",
+    "url": "https://www.british-history.ac.uk/statutes-realm/vol5/pp325-348",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/bho-statutes-1661-francis-gurney.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/bho-statutes-realm-1661-assessment.md",
+    "notes": "Lists a Francis Gurney among named Essex/Harwich assessment commissioners in 1661. Likely relevant to Francis Gurney of Maldon rather than direct-line Francis G14, who was dead by 1646/7."
   },
   {
     "sourceId": "blomefield-norfolk",
@@ -108,6 +204,18 @@
     "notes": "Brief secondary heraldic-genealogical pamphlet. Arms: Argent, a cross engrailed gules, quartering Gournay, Warren, and Barclay."
   },
   {
+    "sourceId": "cambridge-core-camden-preface-addenda",
+    "shortTitle": "Camden Old Series - Preface and Addenda",
+    "citation": "\"Preface and Addenda.\" Camden Old Series, Cambridge Core.",
+    "archive": "Cambridge Core / Camden Old Series",
+    "url": "https://www.cambridge.org/core/journals/camden-old-series/article/abs/preface-and-addenda/9ECB73C6D0A44B4E1340ED99760B58C2",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/cambridge-core-camden-preface-addenda-gournay-bardolf.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/cambridge-core-camden-preface-addenda.md",
+    "notes": "Camden Old Series preface/addenda material. Relevant to Juliana de Gurnay, William/Hugh Bardolf, Mapledurham, Bledlow, Wendover, Hulcott, Cantley, Caistor, Strumpshaw, and the barony of Gournay."
+  },
+  {
     "sourceId": "chronicon-beccensis",
     "shortTitle": "Chronicon Beccensis Abbatiæ",
     "citation": "Chronicon Beccensis Abbatiæ (Chronicle of Bec Abbey).",
@@ -118,6 +226,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Records deaths of Basilia, Ansfride, and Eva at Bec on three consecutive Sundays in January 1099/1100. Primary source for Basilia's death date."
+  },
+  {
+    "sourceId": "cleveland-battle-abbey-roll-v2-gurnay",
+    "shortTitle": "Cleveland, Battle Abbey Roll - Gurnay",
+    "citation": "Cleveland, Duchess of. The Battle Abbey Roll, with Some Account of the Norman Lineages. Vol. 2. London: John Murray, 1889.",
+    "archive": "Belnap PDF / 1066.co.nz transcription",
+    "url": "https://www.1066.co.nz/Mosaic%20DVD/library/Battle%20Roll/battleabbeyroll%20vol2.html",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/cleveland-battle-abbey-roll-v2-gurnay.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/cleveland-battle-abbey-roll-v2-gurnay.md",
+    "notes": "Late-19th-century derivative account of the Gurnay/Gournay lineage. Useful as a synthesis and cross-check, not primary authority. Belnap PDF OCR was usable mainly for index; 1066.co.nz HTML exposed the Gurnay entry."
   },
   {
     "sourceId": "decorde-essai-canton-gournay-1861",
@@ -252,6 +372,30 @@
     "notes": "Earliest Norman chronicle. Hagiographic propaganda for the ducal line — not reliable for early events. The 'funiculo divisit' passage (land division by rope) is cited in G37 fact sheet but does not name Eudes."
   },
   {
+    "sourceId": "eaa-occasional-paper-2-ellingham-kiln-1997",
+    "shortTitle": "EAA Occasional Paper 2 - Ellingham Kiln",
+    "citation": "Hartley, Kay, and David Gurney. A Mortarium Kiln at Ellingham, Norfolk. East Anglian Archaeology Occasional Paper no. 2. Norfolk Museums Service, 1997.",
+    "archive": "Archaeology Data Service / East Anglian Archaeology",
+    "url": "https://archaeologydataservice.ac.uk/archiveDS/archiveDownload?t=arch-2304-1/dissemination/pdf/eaa_occ_pap/OCCASIONAL_PAPER_2.pdf",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/eaa-occasional-paper-2-ellingham-kiln-1997.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/eaa-occasional-paper-2-ellingham-kiln-1997.md",
+    "notes": "Resolved from the Yumpu East Anglian Archaeology lead. Place-context source for the Roman mortarium kiln at Dairy Farm, Ellingham; not genealogical evidence despite coauthor David Gurney being named."
+  },
+  {
+    "sourceId": "explore-west-norfolk-harpley-st-lawrence",
+    "shortTitle": "Explore West Norfolk - St Lawrence, Harpley",
+    "citation": "\"The Church of St. Lawrence, Harpley.\" Explore West Norfolk.",
+    "archive": "Explore West Norfolk website",
+    "url": "https://www.explorewestnorfolk.co.uk/venues/the-church-of-st-lawrence-harpley-21/",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/explore-west-norfolk-harpley-st-lawrence.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/explore-west-norfolk-harpley-st-lawrence.md",
+    "notes": "Current visitor/history page for St Lawrence, Harpley. Corroborates Gurnay/Gurney visible church memory, advowson tradition, manor date range, John de Gurnay brass/chancel context, and later rectors Christopher and Edmund."
+  },
+  {
     "sourceId": "fauroux-recueil",
     "shortTitle": "Fauroux, Recueil des actes des ducs de Normandie",
     "citation": "Fauroux, Marie. Recueil des actes des ducs de Normandie de 911 à 1066. Mémoires de la Société des Antiquaires de Normandie, tome XXXVI. Caen, 1961.",
@@ -336,6 +480,42 @@
     "notes": "FreeREG confirmed Francis G14 burial 9 Jan 1646/7, St Botolph Bishopsgate. Corrected Boyd's 1641 misread."
   },
   {
+    "sourceId": "history-ac-uk-markets-fairs-gazetteer",
+    "shortTitle": "Gazetteer of Markets and Fairs to 1516",
+    "citation": "Letters, Samantha, et al. Gazetteer of Markets and Fairs in England and Wales to 1516. Institute of Historical Research / history.ac.uk.",
+    "archive": "Institute of Historical Research website",
+    "url": "https://archives.history.ac.uk/gazetteer/",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/history-ac-uk-markets-fairs-gurnay.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/history-ac-uk-markets-fairs-gurnay.md",
+    "notes": "Gazetteer entries for Hugh de Gurnay at Cantley and Wendover, John de Gurnay at Harpley, and Robert de Gurnay at Weare; useful as charter/market/fair index evidence."
+  },
+  {
+    "sourceId": "genuki-hardingham-white-1845",
+    "shortTitle": "GENUKI - Hardingham, White 1845",
+    "citation": "White, William. \"Hardingham.\" History, Gazetteer, and Directory of Norfolk (1845), transcribed at GENUKI by Pat Newby.",
+    "archive": "GENUKI transcription",
+    "url": "https://www.genuki.org.uk/big/eng/NFK/Hardingham/White1845",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/genuki-hardingham-white-1845.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/genuki-hardingham-white-1845.md",
+    "notes": "White's 1845 directory entry for Hardingham. Corroborates Flockthorpe, Low Street, and the manors of Camois, Gurneys, and Swathings."
+  },
+  {
+    "sourceId": "ggm-benefice-harpley-church-history",
+    "shortTitle": "GGM Benefice - Harpley Church History",
+    "citation": "\"Harpley Church History.\" GGM Benefice, Harpley, St Lawrence.",
+    "archive": "GGM Benefice website",
+    "url": "https://www.ggmbenefice.uk/our-churches/harpley/harpley-church-history/",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/ggm-benefice-harpley-church-history.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/ggm-benefice-harpley-church-history.md",
+    "notes": "Local church-history page for St Lawrence, Harpley. Useful for John de Gurnay's 1294-1332 incumbency, chancel and brass memory, Gurnay arms, later Gurney rectors, Edward de Gurnay anti-image tradition, and visible church fabric. Treat as local synthesis and corroborate with Blomefield/DG where needed."
+  },
+  {
     "sourceId": "ggm-benefice-harpley-rectors",
     "shortTitle": "GGM Benefice - Harpley Register of Rectors",
     "citation": "\"Register of Rectors.\" GGM Benefice, Harpley, St Lawrence.",
@@ -358,6 +538,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "County coverage chart used to assess significance of absences. London City = NONE, Norfolk = NONE, Suffolk = NONE, Essex = Slight, Bucks = Slight (but Stewkley well-represented)."
+  },
+  {
+    "sourceId": "great-ellingham-manor-farmhouse-hingham-road",
+    "shortTitle": "Great Ellingham - Manor Farmhouse in Hingham Road",
+    "citation": "\"An Ornate Timber-Framed Farmhouse in Hingham Road.\" Great Ellingham local history website.",
+    "archive": "Great Ellingham local history website",
+    "url": "https://greatellingham.org/people/an-ornate-timber-framed-farmhouse-in-hingham-road/",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/great-ellingham-manor-farmhouse-hingham-road.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/great-ellingham-manor-farmhouse-hingham-road.md",
+    "notes": "Local-history page for Manor Farmhouse, Great Ellingham, previously known as Ellingham Farm. Useful as Great Ellingham place context and as a guard against conflating Great Ellingham Manor Farmhouse with Gurney's Manor, Hingham."
   },
   {
     "sourceId": "grokipedia-edmund-gurney-divine",
@@ -394,6 +586,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Independent Victorian secondary source on the Gournay barons (10th–13th c.), parallel to but not derived from Daniel Gurney. Useful for cross-checking DG's Norman-period claims (G37–G33) against a separate scholarly tradition. Title page typo on file: 'THEEE HUNDRED YEAES' = OCR misread of 'THREE HUNDRED YEARS.'"
+  },
+  {
+    "sourceId": "hardingham-parish-history-2026",
+    "shortTitle": "Hardingham Parish - History of Hardingham",
+    "citation": "\"A History of Hardingham.\" Hardingham Parish Council / Hardingham Parish website.",
+    "archive": "Hardingham Parish website",
+    "url": "https://hardinghamparish.wixsite.com/home/history-of-hardingham-1",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/hardingham-parish-history-2026.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/hardingham-parish-history-2026.md",
+    "notes": "Local Hardingham history page. Useful for the statement that Swathing is now Low Street and for local memory of the Manor of Gurneys & Swathing."
   },
   {
     "sourceId": "nichols-herald-v3",
@@ -586,6 +790,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Vol. ii, p. 31: Hugh de Gournai's Essex Domesday entries referenced to Little Domesday vol. ii, p. 89."
+  },
+  {
+    "sourceId": "national-churches-trust-harpley-st-lawrence",
+    "shortTitle": "National Churches Trust - Harpley St Lawrence",
+    "citation": "\"Harpley St Lawrence.\" National Churches Trust.",
+    "archive": "National Churches Trust website",
+    "url": "https://www.nationalchurchestrust.org/church/harpley-st-lawrence",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/national-churches-trust-harpley-st-lawrence.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/national-churches-trust-harpley-st-lawrence.md",
+    "notes": "Current church-profile page for St Lawrence, Harpley. Supports chancel attribution to John De Gurney and gives modern address/coordinate context for the church."
   },
   {
     "sourceId": "nehgr-62-94",
