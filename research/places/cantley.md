@@ -28,6 +28,19 @@ At present the file preserves Cantley as a documented holding but not yet as a f
 
 As with Caister, Cantley passed to the senior baron line after Gerard's death before 1104. The junior Norfolk branch did not retain Cantley; its subsequent descent falls outside Allen's direct line.
 
+### Cantley after Gerard: senior Gournay and Bardolf descent
+
+Blomefield gives Cantley a much fuller senior-line history than the current place file preserves. In the Nether-Hall, alias Bardolf's Manor descent, Blomefield says the manor was granted from the Crown to the family of de Gournay soon after Domesday. Hugh de Gournay, described as a Norman baron, witnessed the foundation deed of the Abbey of Caen in 1084, and Hugh de Gournay was lord of Cantley in 7 Richard I. Julian, daughter and heir of Lord Hugh de Gournay, carried the manor by marriage to William Lord Bardolf of Wormegay.[^blomefield-cantley]
+
+The same Cantley descent also matters for subordinate tenure. Uphall Manor took rise from Hugh de Gourney's grant of land and rent to Roger Botetourt; Blomefield says Sir Guy de Botetourt held it of Lord Bardolf as part of the honour of Gournay.[^blomefield-cantley]
+
+The Gazetteer of Markets and Fairs gives a sharper administrative date: on 19 March 1235 Henry III granted Hugh de Gurnay a Tuesday market and a fair at Cantley, both to be held at the manor, and on 29 May 1284 Edward I granted William Bardolf a fair there on the vigil, feast, and morrow of St Margaret.[^gazetteer-cantley]
+
+Together these sources make Cantley more than a one-line Gerard holding. It is a senior Gournay seat whose later Bardolf descent explains why the junior Norfolk branch could still be described in relation to the old Gournay/Bardolf honour centuries later.
+
+[^blomefield-cantley]: Francis Blomefield, "Blofield Hundred: Cantley," in *An Essay Towards A Topographical History of the County of Norfolk*, vol. 7 (London, 1807), pp. 228-231, British History Online, https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp228-231. Source ID: `blomefield-norfolk`.
+[^gazetteer-cantley]: Samantha Letters et al., *Gazetteer of Markets and Fairs in England and Wales to 1516*, Norfolk, Cantley entry, https://archives.history.ac.uk/gazetteer/norf.html#Can. Source ID: `history-ac-uk-markets-fairs-gazetteer`.
+
 ## Open items
 
 - [ ] Blomefield's Cantley entry — does it preserve the Gournay tenure in the manorial descent?

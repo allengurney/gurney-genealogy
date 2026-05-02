@@ -30,6 +30,44 @@ Vol. I p. 78 lists the Yvery/Harpetre Somerset estate cluster: Kary, Ferentone, 
 
 Anderson names six children of Ascelin Gouel de Perceval and Isabella de Breteuil - Robert, William (Lupellus), Roger (Balbus), John (de Harpetre), and a daughter married to Radulfus Rufus - then explicitly says "Three sons more issued from this marriage ... but of these we do not certainly know the names. It is only presumed, that John de Yvery ... was one of them. Hugh de Yvery ... is likewise supposed to be another of them." These are Anderson's own 18th-c. hypotheses. Preserve the lead; do not promote either name to a stated relationship without contemporary documentation.
 
+## Additional senior and collateral Gournay leads from Future Research URLs
+
+Several leads in the Future Research URL batch strengthen the senior/collateral Gournay geography without changing the direct Norfolk junior-branch descent.
+
+### Cantley, Bardolf, and the senior Gournay inheritance
+
+Blomefield's Cantley entry says Nether-Hall, alias Bardolf's Manor, was granted from the Crown to the de Gournay family soon after the survey; Hugh de Gournay was a Norman baron and lord in Cantley in 7 Richard I; and Juliana, daughter and heir of Lord Hugh de Gournay, brought it by marriage to William Lord Bardolf of Wormegay. The Gazetteer adds that Hugh de Gurnay received a Tuesday market and St Margaret fair at Cantley in 1235, and William Bardolf received a fair there in 1284.[^topic-blomefield-cantley][^topic-gazetteer-cantley]
+
+### Bledlow, Wendover, and Mapledurham
+
+The Camden Old Series addenda says Bledlow had been parcel of Hugh de Gournay's land and was given with the church to Bec-Hellouin, with the Testa de Nevill formula that the abbot of Bec held in alms of Hugh de Gurnay's fee. It also says Wendover lands came to the Bardolfs from the same family. The same article identifies Mapledurham as a manor derived from Hugh de Gournay's marriage with Edith Warenne and granted to Sir John Bardolf, son of William Bardolf and Juliana de Gournay.[^topic-camden-addenda]
+
+The IHR Gazetteer independently gives Wendover administrative detail: Hugh de Gurnai owed 700 marks in 1209 for Wendover; Hugh de Gurnay established the market there in King John's time; and a fair was granted to Hugh de Gornay before 23 June 1214.[^topic-gazetteer-wendover]
+
+### Bedingham and Stuteville
+
+Blomefield's Bedingham entry says Hugh de Gournay was lord there in Henry II's reign and gave Bedingham with his daughter Gunnora in marriage to Nicholas de Stuteville early in King John's reign. The same descent later says the lordship was held of Lord Bardolf as heir to the Gournays.[^topic-blomefield-bedingham]
+
+### Somerset Gournays and IPM leads
+
+Two Edward III IPM entries add collateral Somerset/Dorset Gournay context: Stoure Payn and Edmondesham in Dorset were held of Thomas Gournay of Harpetree by 1d yearly service; another entry mentions land held by demise of Thomas de Gournay of Inglescombe.[^topic-ipm31][^topic-ipm35] The IPM vol. 16 index is a finding aid for later follow-up, listing Matthew de Gournay, Philippa his wife, Roger, and Thomas de Gournay under Gournay/Gornay/Gurney.[^topic-ipm-index]
+
+### Cleveland's Battle Abbey Roll as derivative synthesis
+
+The Duchess of Cleveland's *Battle Abbey Roll* is derivative and should not override DG or primary records, but it is useful as a concise late-Victorian synthesis. It states that the Gournays held the Pays de Bray and Gournay as their barony, that Gerard de Gournay married Edith Warenne and died on pilgrimage, that the senior line ended through Julian/Juliana's marriage to William Bardolf, and that the Norfolk Gurneys were originally mesne-lords under their baronial cousins and first appear in Norfolk in Henry II's time. It also repeats the Harpley/Rose de Burnham or Warenne and West Barsham/Wauncy summaries.[^topic-cleveland]
+
+Use Cleveland as a comparison source only. Where it conflicts with DG or primary records, preserve the conflict and pursue the primary record.
+
+[^topic-blomefield-cantley]: Francis Blomefield, "Blofield Hundred: Cantley," *History of Norfolk*, vol. 7, pp. 228-231, British History Online, https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp228-231. Source ID: `blomefield-norfolk`.
+[^topic-gazetteer-cantley]: Samantha Letters et al., *Gazetteer of Markets and Fairs in England and Wales to 1516*, Norfolk, Cantley entry, https://archives.history.ac.uk/gazetteer/norf.html#Can. Source ID: `history-ac-uk-markets-fairs-gazetteer`.
+[^topic-camden-addenda]: "Preface and Addenda," *Camden Old Series*, Cambridge Core, https://www.cambridge.org/core/journals/camden-old-series/article/abs/preface-and-addenda/9ECB73C6D0A44B4E1340ED99760B58C2. Source ID: `cambridge-core-camden-preface-addenda`.
+[^topic-gazetteer-wendover]: Samantha Letters et al., *Gazetteer of Markets and Fairs in England and Wales to 1516*, Buckinghamshire, Wendover entry, https://archives.history.ac.uk/gazetteer/bucks.html#Wen. Source ID: `history-ac-uk-markets-fairs-gazetteer`.
+[^topic-blomefield-bedingham]: Francis Blomefield, "Loddon Hundred: Bedingham," *History of Norfolk*, vol. 10, pp. 100-105, British History Online, https://www.british-history.ac.uk/topographical-hist-norfolk/vol10/pp100-105. Source ID: `blomefield-norfolk`.
+[^topic-ipm31]: "Inquisitions Post Mortem, Edward III, File 31," *Calendar of Inquisitions Post Mortem*, vol. 7, British History Online, https://www.british-history.ac.uk/inquis-post-mortem/vol7/pp301-312. Source ID: `bho-ipm-edward-iii-file31-gournay-harpetree`.
+[^topic-ipm35]: "Inquisitions Post Mortem, Edward III, File 35," *Calendar of Inquisitions Post Mortem*, vol. 7, British History Online, https://www.british-history.ac.uk/inquis-post-mortem/vol7/pp352-371. Source ID: `bho-ipm-edward-iii-file35-gournay-inglescombe`.
+[^topic-ipm-index]: "Index of Persons and Places: G," *Calendar of Inquisitions Post Mortem*, vol. 16, British History Online, https://www.british-history.ac.uk/inquis-post-mortem/vol16/pp508-513. Source ID: `bho-ipm-vol16-index-gournay`.
+[^topic-cleveland]: Duchess of Cleveland, *The Battle Abbey Roll, with Some Account of the Norman Lineages*, vol. 2 (London: John Murray, 1889), Gurnay entry, 1066.co.nz transcription, https://www.1066.co.nz/Mosaic%20DVD/library/Battle%20Roll/battleabbeyroll%20vol2.html. Source ID: `cleveland-battle-abbey-roll-v2-gurnay`.
+
 ## Sources
 
 - Vol. I extract: `sources/corpus/anderson-yvery-1742-vol-i-extract.md` (sourceId `anderson-yvery-1742-vol-i`).

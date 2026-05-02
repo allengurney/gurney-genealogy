@@ -32,6 +32,16 @@ That makes Hingham one of the rare places in the England set where the surviving
 
 Because Hingham is a surviving-place record rather than a lost-manor or region-level abstraction, it deserves special weight for future visual and map work. It may ultimately become one of the best England hero-image candidates for the later pre-Quaker Gurney line.
 
+### Blomefield's Hingham descent and the younger-branch manor
+
+Blomefield's Hingham entry adds a useful manorial explanation for why the Hingham place file should remain distinct from Harpley and Great Ellingham. In the wider Hingham descent, Hugh Gournay appears as a lord connected with the barony of Rye; after his forfeiture under King John, John Marshall received the lands and advowsons that had been Hugh Gournay's and Hugh de Ayer's, including Cantley and Caster.[^blomefield-hingham]
+
+Blomefield then treats "Gurney's Manor" at Hingham separately. He says it was part of the great manor and had been granted to a younger branch of the family before the forfeiture. It continued in the Gurneys resident at Barsham and Great Ellingham; Henry Gurney was lord in 1572; by 1715 it was owned by Mr. Larwood of Norwich, merchant.[^blomefield-hingham]
+
+This passage reinforces the working model already in this file: Hingham Gurney's Manor is a later-line Norfolk manor with a surviving physical identity, not another name for medieval Harpley manor and not the Great Ellingham Manor Farmhouse/Ellingham Farm discussed in modern Great Ellingham local history.
+
+[^blomefield-hingham]: Francis Blomefield, "Hundred of Forehoe: Hingham," in *An Essay Towards A Topographical History of the County of Norfolk*, vol. 2 (London, 1805), pp. 422-445, British History Online, https://www.british-history.ac.uk/topographical-hist-norfolk/vol2/pp422-445. Source ID: `blomefield-norfolk`.
+
 ## Open items
 
 - [ ] Pull the full Blomefield Hingham entry to clarify the descent of Gurney's Manor before Henry G15 and verify how far back Anthony G17 and William G18 can be placed explicitly.
