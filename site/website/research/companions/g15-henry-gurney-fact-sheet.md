@@ -52,8 +52,26 @@ Henry's father, grandfather, wife, and most of his twelve children are documente
 3. **Number of children.** JSON says 12; the epitaph verse counts 13 born and 12 surviving. Both correct depending on what is counted.
 4. **"Harpham" should be "Harpley".** The JSON references "Harpham, Norfolk" — there is no Harpham in north-west Norfolk; the source is clearly Harpley.
 
+### Henry Gurney's manuscripts, library, and poetic circulation
+
+Steven W. May's article on Henry Gurney and Bodleian MS Tanner 175 remains the central modern scholarly source for Henry's literary life. The supplied abstract describes Henry as a previously unknown Elizabethan poet, critic, and bibliophile at Great Ellingham, Norfolk. In the last decade of Elizabeth's reign he entered into Tanner 175 both an inventory of his library and more than 600 of his own poems. Several poems explain his standards for judging good and bad poetry, and he transcribed verse "censures" of more than twenty borrowed books, including works by John Foxe, Robert Southwell, Richard Hakluyt, Edmund Spenser's *The Faerie Queene*, and "Mother Hubberds Tale."[^may-spenser]
+
+The article metadata needs reconciliation rather than simplification. The user-supplied ResearchGate/DOI lead gives January 2004, *Spenser Studies: A Renaissance Poetry Annual* 19:183-216, DOI 10.1086/SPSv20p183. The existing companion and Swann's bibliography cite May 2005, *Spenser Studies* 20:183-223. Preserve both metadata variants until the DOI/full article is checked; do not drop the finding while resolving the citation.[^may-spenser]
+
+Joel Swann's article on Chetham's Library MS A.4.15 adds a second modern manuscript context for Henry's poems. MC15 contains Henry Gurney's poetry on folios 69r-80r in the main poetry section, where the anthology shifts from metropolitan, witty, and Inns-of-Court-associated material to didactic, practical, rural poems on household, family, conduct, seasons, animals, wives, and agriculture. Swann identifies Henry as an amateur poet/farmer, born 1549 and died 1616.[^swann-chetham]
+
+Swann summarizes May's findings in geographic and social terms: Henry began writing poetry in the 1590s at age 43, from the manor of Great Ellingham, just under 20 miles southwest of Norwich and about 100 miles northeast of London. He circulated poems and lent books to a circle of at least two dozen nearby people, with the most distant about 30 miles away in Suffolk. Outside MC15, the poems survive only in Henry's own notebook, though other copies were made, and Henry himself prepared copies for friends and relatives.[^swann-chetham]
+
+The MC15 copies are themselves important. Swann says the Chetham manuscript preserves thirteen of the seventeen agricultural poems found in Henry's own anthology, drawing from poems scattered through Bodleian MS Tanner 175, folios 49v-232v. The MC15 versions are more coherent and organized than their Tanner 175 originals, suggesting at least one intermediary stage between Henry's notebook and the Chetham manuscript. Swann also notes that Henry may have had a London correspondent, giving a plausible route for Great Ellingham verse to enter wider manuscript circulation.[^swann-chetham]
+
+MC15 also changes the scale of Henry's cultural setting. Swann argues that the manuscript should not be read as only an Inns of Court artifact: it has London, Inns, Norfolk, and East Anglian poles. The Gurney poems were copied by hand D, one of the important hands shaping the manuscript, and the ownership trail may point toward Norfolk book-trade or Norfolk ownership contexts before the manuscript reached Richard Farmer and then Chetham's Library. This makes Henry's rural Norfolk poetry part of the manuscript's social background, not merely an odd insertion into a London collection.[^swann-chetham]
+
+[^may-spenser]: Steven W. May, "Henry Gurney, A Norfolk Farmer, Reads Spenser and Others," *Spenser Studies: A Renaissance Poetry Annual*; user-supplied ResearchGate/DOI lead gives January 2004, vol. 19, pp. 183-216, DOI 10.1086/SPSv20p183; Swann bibliography and existing companion give vol. 20 (2005), pp. 183-223. Source ID: `may-henry-gurney-spenser-2005`.
+[^swann-chetham]: Joel Swann, "Chetham's Library MS A.4.15: an Inns of Court Manuscript?" *Journal of the Northern Renaissance*, 13 February 2016, paragraphs 2-4 and 20-38, https://jnr2.hcommons.org/2016/4231/; user-supplied markdown capture summarized at `sources/corpus_supplement/jnr-chethams-library-ms-a4-15-henry-gurney.md`. Source ID: `swann-chethams-library-ms-a4-15-2016`.
+[^tanner-175-marco]: Bodleian Library, MS Tanner 175, MARCO manuscript catalogue lead, https://marco.ox.ac.uk/ark:29072/x0n870zq56b5. Source ID: `bodleian-ms-tanner-175-marco`.
+
 ### What Bodleian MS Tanner 175 contains
-Per CELM and Steven W. May (2005): a small folio volume of 239 leaves, c. 1570s–1608, containing:
+Per Steven W. May's modern article, CELM, and the manuscript-catalogue lead for Bodleian MS Tanner 175, Henry's commonplace book is the central primary corpus for his literary life. The source set describes it as a small folio volume of 239 leaves, c. 1570s-1608, containing:[^may-spenser][^tanner-175-marco]
 - 600+ poems of Henry's own composition.
 - An inventory of his personal library — uncommonly detailed for a Norfolk country gentleman.
 - Verse "censures" (critical reviews in poetic form) of more than twenty borrowed books, including Spenser's <em>Faerie Queene</em> and "Mother Hubberds Tale," Nicholas Breton's <em>The Passions of the Spirit</em> (1599), John Foxe, Robert Southwell, and Richard Hakluyt.
@@ -102,7 +120,9 @@ Note: Blomefield's "Edm. Gurney" here is **Edward Gurney** (Henry G15's grandson
 
 **Genealogical and modern academic:**
 - Daniel Gurney, <em>The Record of the House of Gournay</em> (London, 1848), pp. 281–287, and <em>Supplement to the Record of the House of Gournay</em> (King's Lynn: Thew & Son, 1858), pp. 875–1014. Both digitised on the Internet Archive.
-- Steven W. May, "Henry Gurney, A Norfolk Farmer, Reads Spenser and Others," <em>Spenser Studies</em> 20 (2005), pp. 183–223 (DOI 10.1086/SPSv20p183).
+- Steven W. May, "Henry Gurney, A Norfolk Farmer, Reads Spenser and Others," <em>Spenser Studies</em> 20 (2005), pp. 183–223 (DOI 10.1086/SPSv20p183). Source-registry and metadata reconciliation target: `may-henry-gurney-spenser-2005`.
+- Joel Swann, "Chetham's Library MS A.4.15: an Inns of Court Manuscript?", *Journal of the Northern Renaissance* (2016). Source-registry target: `swann-chethams-library-ms-a4-15-2016`.
+- Bodleian Library, MS Tanner 175, MARCO manuscript-catalogue lead. Source-registry target: `bodleian-ms-tanner-175-marco`.
 - Verily Anderson, <em>Friends and Relations: Three Centuries of Quaker Families</em> (London: Hodder & Stoughton, 1980), p. 21.
 - Pease/Pennyghael Gurney genealogy (Charles E. G. Pease, 2016), http://www.pennyghael.org.uk/Gurney.pdf.
 - Charles A. Bernau, "Unrecorded Biographies: Francis Gournay (or Gurney), of Maldon, Essex," <em>The British Archivist</em> vol. I, no. 7 (September 1913), pp. 49 ff. — independent re-attestation of Henry's paternity of Francis G14 and documentation of Henry's descendants through that branch at St Benet Fink, London, and Maldon, Essex.
@@ -117,7 +137,7 @@ Note: Blomefield's "Edm. Gurney" here is **Edward Gurney** (Henry G15's grandson
 - Bodleian MS Tanner 175 has not been consulted directly.
 
 ### Open Questions for Future Research
-1. **Direct examination of Bodleian MS Tanner 175** — highest-value path. Potentially digitised through Digital Bodleian's Tanner collection.
+1. **Direct examination of Bodleian MS Tanner 175** — highest-value path. The MARCO catalogue lead is now captured as `bodleian-ms-tanner-175-marco`, but the manuscript record did not render during v08 intake; review the Bodleian catalogue and any digitized images directly.
 2. **Norwich Consistory Court will registers** at the Norfolk Record Office, for Henry's 1614 will.
 3. **Visit Gurney's Manor at Hingham** — the strongest physical link to Henry G15 of any building in Norfolk.
 4. **St James the Apostle, Great Ellingham, and All Saints, West Barsham** — physical inspection for surviving Gurney monuments. Walter Rye's <em>Church Heraldry of Norfolk</em> (1887) on the Internet Archive should be checked.

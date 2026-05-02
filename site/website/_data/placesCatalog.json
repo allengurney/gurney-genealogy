@@ -492,19 +492,25 @@
   {
     "placeId": "place-hardingham-norfolk-england",
     "name": "Hardingham, Norfolk, England",
-    "title": "Hardingham, Norfolk, England",
-    "siteName": "",
+    "title": "Hardingham / Low Street / Old Hall context",
+    "siteName": "Hardingham / Low Street / Old Hall context",
     "streetAddress": "",
     "region": "Norfolk, England",
     "regionGroup": "england",
     "aliases": [
-      "Hardingham, Norfolk"
+      "Hardingham, Norfolk",
+      "Swathing",
+      "Swathings",
+      "Low Street",
+      "Low Street, Hardingham",
+      "Manor of Gurneys & Swathing",
+      "Gurneys & Swathing"
     ],
     "shortDescription": "Junior-branch core manor",
-    "longDescription": "Swathings in Hardingham, a long-running junior-line holding documented from the Henry II period onward.",
+    "longDescription": "Hardingham parish in central Norfolk, including the Swathing / Swathings / Low Street place-memory and the Manor of Gurneys & Swathing. The parish history places Old Hall opposite St George's Church and treats the church/Old Hall area as the early village core.",
     "placeType": "locality",
-    "extantStatus": "unknown",
-    "extantStatusDescription": "",
+    "extantStatus": "village and historic landscape extant",
+    "extantStatusDescription": "Hardingham remains a parish village; Low Street survives as a hamlet name, and the local parish history identifies Old Hall opposite St George's Church as late 16th century.",
     "coordinate": {
       "lat": 52.5708,
       "lng": 0.8508
@@ -515,8 +521,8 @@
       "landholding / property reference",
       "individual geography"
     ],
-    "imageUrl": "",
-    "imageTitle": "",
+    "imageUrl": "/media/places/hardingham-faden-map.png",
+    "imageTitle": "Hardingham area on Faden's 1797 map of Norfolk",
     "siteUrl": "",
     "siteLabel": "",
     "researchUrl": "/research/places/hardingham.html",
@@ -1595,7 +1601,12 @@
     "aliases": [
       "Flushing, NY",
       "Flushing, Queens, NY",
-      "Flushing, Queens"
+      "Flushing, Queens",
+      "The Alley",
+      "Alley Creek",
+      "Alley Pond",
+      "Little Neck Bay",
+      "Ireland Road"
     ],
     "shortDescription": "Ancestral landholding",
     "longDescription": "Probable residential base of the Willis/William Gurney family before later Manhattan addresses; ownership versus rental remains unresolved.",
@@ -3470,6 +3481,54 @@
         "lineageStatus": "Related",
         "displayLineageStatus": "Related",
         "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-billerica-massachusetts-usa",
+    "name": "Billerica, Massachusetts, USA",
+    "title": "Billerica, Massachusetts, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Billerica, MA",
+      "Shawshin",
+      "Dudley Farm"
+    ],
+    "shortDescription": "Dudley Farm purchase-rate context",
+    "longDescription": "Town and Dudley Farm purchase context where John Gurney appears in Hazen's printed 1659 rate list for the half payment of the purchase.",
+    "placeType": "locality",
+    "extantStatus": "town extant",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 42.5584,
+      "lng": -71.2689
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/billerica-ma.html",
+    "researchSlug": "billerica-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "type": "ancestor",
+        "gen": "G13",
+        "name": "John Gurney",
+        "dates": "b. c. 1609-12 — d. 1662/3",
+        "role": "landholding / property reference",
+        "lineageStatus": "Probable",
+        "displayLineageStatus": "Probable",
+        "url": "/key-research/john-gurney-case-file.html"
       }
     ],
     "ancestorCount": 1

@@ -58,6 +58,7 @@ The 1726 purchase from a Staples and the 1701 marriage to a Staples almost certa
 ## Sources Consulted
 
 - <code>data/ancestors v26.json</code>, G11 entry.
+- Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius* (rev. and expanded ed., 1994). Key compiled genealogy for the G4-G13 direct line; source ID `rigler-gurney-family-aaron-zuinglius-1994`. Full page-level audit still pending.
 
 ### Sources to obtain
 

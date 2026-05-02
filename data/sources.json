@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.5.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-05-01",
+    "lastUpdated": "2026-05-02",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
@@ -459,14 +459,14 @@
     },
     "nehgr-62-94": {
       "shortTitle": "NEHGR 62:94",
-      "citation": "New England Historical and Genealogical Register, vol. 62, p. 94.",
-      "archive": null,
-      "url": null,
-      "corpusStatus": "none",
+      "citation": "\"Notes: Braintree, Mass., Items.\" New England Historical and Genealogical Register, vol. 62 (January 1908), p. 94.",
+      "archive": "Internet Archive / Wikimedia Commons scan",
+      "url": "https://archive.org/details/newenglandhisto19unkngoog/page/94/mode/2up",
+      "corpusStatus": "partial",
       "corpusPath": null,
       "mediaPath": null,
-      "validationPath": null,
-      "notes": "TIER 1 PULL — highest priority. Not yet obtained. Cited by Anderson (GMD p. 158)."
+      "validationPath": "sources/validations/nehgr-62-94.md",
+      "notes": "Pulled from the Braintree, Massachusetts notes on Suffolk Court Files item no. 188. The page lists John Gurney of Braintree as aged about 50 and dated 17-1-1652/3. This corrects the former not-yet-obtained status and the intake typo that read age 60."
     },
     "nichols-herald-v3": {
       "shortTitle": "Herald & Genealogist v3 p.9",
@@ -989,12 +989,12 @@
       "shortTitle": "Cleveland, Battle Abbey Roll - Gurnay",
       "citation": "Cleveland, Duchess of. The Battle Abbey Roll, with Some Account of the Norman Lineages. Vol. 2. London: John Murray, 1889.",
       "archive": "Belnap PDF / 1066.co.nz transcription",
-      "url": "https://www.1066.co.nz/Mosaic%20DVD/library/Battle%20Roll/battleabbeyroll%20vol2.html",
+      "url": "https://www.1066.co.nz/Mosaic%20DVD/library/Battle%20Roll/Gurnay.html",
       "corpusStatus": "partial",
       "corpusPath": "sources/corpus_supplement/cleveland-battle-abbey-roll-v2-gurnay.md",
       "mediaPath": null,
       "validationPath": "sources/validations/cleveland-battle-abbey-roll-v2-gurnay.md",
-      "notes": "Late-19th-century derivative account of the Gurnay/Gournay lineage. Useful as a synthesis and cross-check, not primary authority. Belnap PDF OCR was usable mainly for index; 1066.co.nz HTML exposed the Gurnay entry."
+      "notes": "Late-19th-century derivative account of the Gurnay/Gournay lineage. Useful as a synthesis and cross-check, not primary authority. The exact 1066.co.nz Gurnay entry was supplied in v08a and includes substantial detail on the Pays de Bray, Mortemar, Domesday Essex holdings, Gerard/Edith Warenne, the senior line's end, Somerset collateral Gournays, and the Norfolk mesne-lord branch."
     },
     "archiuk-attleborough-nr17-domesday-search": {
       "shortTitle": "ARCHI UK - NR17 local-history search",
@@ -1006,6 +1006,138 @@
       "mediaPath": null,
       "validationPath": "sources/validations/archiuk-attleborough-nr17-domesday-search.md",
       "notes": "Tertiary local-history search page preserving Domesday name snippets for Great Ellingham/Helincham, Hingham/Haincham, and Attleborough/Atlebur/Baconstorp. Use as a lead only; prefer OpenDomesday/NHER/Blomefield for final claims."
+    },
+    "faden-map-norfolk-1797-hardingham": {
+      "shortTitle": "Faden map of Norfolk - Hardingham extract",
+      "citation": "Faden, William. A Topographical Map of the County of Norfolk, surveyed by Thomas Donald and Thomas Milne, published London: W. Faden, 1797. Hardingham-area extract.",
+      "archive": "User-supplied local image from Faden's Map of Norfolk website",
+      "url": "http://www.fadensmapofnorfolk.co.uk/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": "sources/media/Hardingham c1790 Faden Map.png",
+      "validationPath": "sources/validations/faden-map-norfolk-1797-hardingham.md",
+      "notes": "Map extract shows Hardingham, Old Hall, Manson Green, Hardingham Low Common, and surrounding roads/watercourses. Use as visual place context, not as evidence for medieval Swathings identity by itself. Faden's Norfolk map was published in 1797 after surveying in the 1790s."
+    },
+    "munsell-history-queens-flushing-1882": {
+      "shortTitle": "Munsell, History of Queens County - Flushing",
+      "citation": "\"The Town and Village of Flushing.\" In History of Queens County, with illustrations, portraits & sketches of prominent families and individuals. New York: W. W. Munsell & Co., 1882, pp. 74-143.",
+      "archive": "Brooklyn Genealogy Information Page transcription",
+      "url": "https://bklyn-genealogy-info.stevemorse.org/Queens/history/flushing.html",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/munsell-history-queens-flushing-1882.md",
+      "notes": "Flushing local-history source. Relevant here for the statement that John Bird built and operated a woolen mill at the Alley until the 1850 fire, with a reported 10000 dollar loss."
+    },
+    "nfwf-little-neck-bay-history-ecology-2008": {
+      "shortTitle": "History and Ecology of Little Neck Bay",
+      "citation": "History and Ecology of Little Neck Bay. Final report hosted by the National Fish and Wildlife Foundation, 2008.",
+      "archive": "National Fish and Wildlife Foundation PDF",
+      "url": "https://www.nfwf.org/sites/default/files/finalreports1/7460_2008-0065-004_Report_History_and_Ecology_of_Little_Neck_Bay.pdf",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/nfwf-little-neck-bay-history-ecology-2008.md",
+      "notes": "Local environmental/history report. Page 13 provides compact context for Alley Creek/Little Neck Bay navigation, two mills, tavern, blacksmith, wheelwright, general store, first Flushing post office, Van Zandt's 1826 causeway, and the John Baird/Bird woolen mill fire."
+    },
+    "ny-state-military-museum-127th-infantry": {
+      "shortTitle": "NYS Military Museum - 127th Infantry Regiment",
+      "citation": "\"127th Infantry Regiment.\" New York State Military Museum and Veterans Research Center.",
+      "archive": "New York State Military Museum website",
+      "url": "https://museum.dmna.ny.gov/unit-history/infantry-2/127th-infantry-regiment",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/ny-state-military-museum-127th-infantry.md",
+      "notes": "Regimental summary drawing from Phisterer and The Union Army. Confirms William Gurney's authority to raise the regiment, 8 September 1862 muster-in, service in Washington/Virginia/South Carolina/Charleston, 30 June 1865 muster-out, and regimental losses."
+    },
+    "rigler-gurney-family-aaron-zuinglius-1994": {
+      "shortTitle": "Rigler, Gurney family from Aaron to Zuinglius",
+      "citation": "Rigler, Jean Gurney. The Gurney Family from Aaron to Zuinglius: A Genealogical Dictionary; Some Descendants of Richard Gurney Who Settled at Weymouth, MA before 1656. Rev. and expanded ed. Honolulu, Hawaii: J. G. Rigler, 1994.",
+      "archive": "Internet Archive / Open Library metadata",
+      "url": "https://archive.org/details/gurneyfamilyfrom00rigl",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/rigler-gurney-family-aaron-zuinglius-1994.md",
+      "notes": "Key compiled genealogy for descendants of Richard Gurney of Weymouth, Massachusetts. Treat as a standing key source for G4-G13 American-line research companions and the G6 William Gurney case file. Internet Archive item text was not readable in v08; use as a source-control and future-pull entry until pages are checked."
+    },
+    "anderson-great-migration-begins-v1-baxter": {
+      "shortTitle": "Anderson, Great Migration Begins vol. 1 - Gregory Baxter",
+      "citation": "Anderson, Robert Charles. The Great Migration Begins: Immigrants to New England, 1620-1633. Vol. 1. Boston: New England Historic Genealogical Society, 2012, Gregory Baxter profile, p. 138.",
+      "archive": "Internet Archive print-disabled item; user-supplied book-image crop",
+      "url": "https://archive.org/details/greatmigrationbe0001robe",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/anderson-great-migration-begins-v1-baxter-user-extract.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/anderson-great-migration-begins-v1-baxter.md",
+      "notes": "User-supplied image crop from the Gregory Baxter profile shows John Gurney as a witness to Baxter's 1659 will and as one of the 7 July 1659 inventory takers. No later book-image verification is required for the retained facts; quote wording should be checked against the supplied crop."
+    },
+    "hazen-billerica-1883": {
+      "shortTitle": "Hazen, History of Billerica",
+      "citation": "Hazen, Henry A. History of Billerica, Massachusetts, with a Genealogical Register. Boston: A. Williams and Co., 1883.",
+      "archive": "Internet Archive",
+      "url": "https://archive.org/details/historyofbilleri00hazen",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/hazen-billerica-1883.md",
+      "notes": "On historical p. 33 / image p. 54, Hazen prints the 10 September 1659 rate list for half payment of the Dudley Farm purchase; John Gurney appears with an assessment of 2-5-10."
+    },
+    "nehgr-49-genealogical-gleanings-john-lewis": {
+      "shortTitle": "NEHGR 49 - Genealogical Gleanings, John Lewis will",
+      "citation": "Waters, Henry F. \"Genealogical Gleanings in England.\" New England Historical and Genealogical Register, vol. 49, part 2, John Lewis of Nevis will abstract.",
+      "archive": "Internet Archive lead; user-supplied extract",
+      "url": "https://archive.org/details/newenglandhistorv49p2wate/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/nehgr-49-genealogical-gleanings-john-lewis.md",
+      "notes": "User-supplied extract from John Lewis of Nevis will, dated 21 December 1699 and proved 9 July 1701, includes a reference to Mary Gurney, daughter of John Gurney. Treat as a same-name/relationship lead until the page image and surrounding punctuation are checked."
+    },
+    "may-henry-gurney-spenser-2005": {
+      "shortTitle": "May, Henry Gurney reads Spenser",
+      "citation": "May, Steven W. \"Henry Gurney, A Norfolk Farmer, Reads Spenser and Others.\" Spenser Studies: A Renaissance Poetry Annual, vol. 20 (2005).",
+      "archive": "Spenser Online abstract / DOI and ResearchGate leads",
+      "url": "https://www.english.cam.ac.uk/spenseronline/spenserstudies/abstracts/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/may-henry-gurney-spenser-2005.md",
+      "notes": "Modern academic article on Henry Gurney and Bodleian MS Tanner 175. User-supplied ResearchGate metadata gives January 2004, Spenser Studies 19:183-216, DOI 10.1086/SPSv20p183. The existing companion and the Chetham/JNR bibliography give Spenser Studies 20 (2005), pp. 183-223. Do not drop either metadata variant; reconcile by DOI/full article before citation cleanup. The abstract says Henry was a poet, critic, and bibliophile at Great Ellingham; MS Tanner 175 preserves his library inventory, more than 600 poems, and verse censures of borrowed books including Foxe, Southwell, Hakluyt, The Faerie Queene, and Mother Hubberds Tale."
+    },
+    "bodleian-ms-tanner-175-marco": {
+      "shortTitle": "Bodleian MS Tanner 175 - MARCO",
+      "citation": "Bodleian Library, MS Tanner 175. MARCO manuscript catalogue record.",
+      "archive": "MARCO / Bodleian manuscript catalogue",
+      "url": "https://marco.ox.ac.uk/ark:29072/x0n870zq56b5",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/bodleian-ms-tanner-175-marco.md",
+      "notes": "Catalogue lead for Henry Gurney's manuscript commonplace book. The MARCO page did not render in this pass, but the URL should be retained as the direct manuscript-control lead for future review."
+    },
+    "mosaic-dvd-hugue-de-gournay": {
+      "shortTitle": "1066 Mosaic DVD - Hugue de Gournay",
+      "citation": "\"Hugue de Gournay.\" 1066 Mosaic DVD people text page.",
+      "archive": "1066.co.nz / user-supplied text",
+      "url": "https://www.1066.co.nz/Mosaic%20DVD/text/people/gournay.htm",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/mosaic-dvd-hugue-de-gournay-user-text.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/mosaic-dvd-hugue-de-gournay.md",
+      "notes": "Derivative people-page summary for Hugue/Hugo de Gournay, Battle Abbey Roll context, the senior Gournay line, and the Somerset and Norfolk younger branches. Use as corroborative derivative synthesis only."
+    },
+    "swann-chethams-library-ms-a4-15-2016": {
+      "shortTitle": "Swann, Chetham's Library MS A.4.15",
+      "citation": "Swann, Joel. \"Chetham's Library MS A.4.15: an Inns of Court Manuscript?\" Journal of the Northern Renaissance, 13 February 2016.",
+      "archive": "Journal of the Northern Renaissance / HCommons user-supplied capture",
+      "url": "https://jnr2.hcommons.org/2016/4231/",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/jnr-chethams-library-ms-a4-15-henry-gurney.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/swann-chethams-library-ms-a4-15-2016.md",
+      "notes": "Modern manuscript-culture article. Relevant to Henry Gurney's poetry in Chetham's Library MS A.4.15, MC15's Norfolk/East Anglian connections, and transmission between Great Ellingham and wider literary manuscript networks."
     }
   }
 }
