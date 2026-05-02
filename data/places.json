@@ -740,7 +740,12 @@
     "aliases": [
       "Flushing, NY",
       "Flushing, Queens, NY",
-      "Flushing, Queens"
+      "Flushing, Queens",
+      "The Alley",
+      "Alley Creek",
+      "Alley Pond",
+      "Little Neck Bay",
+      "Ireland Road"
     ],
     "shortDescription": "Ancestral landholding",
     "placeType": "locality",
@@ -984,7 +989,13 @@
     "placeId": "place-hardingham-norfolk-england",
     "name": "Hardingham, Norfolk, England",
     "aliases": [
-      "Hardingham, Norfolk"
+      "Hardingham, Norfolk",
+      "Swathing",
+      "Swathings",
+      "Low Street",
+      "Low Street, Hardingham",
+      "Manor of Gurneys & Swathing",
+      "Gurneys & Swathing"
     ],
     "shortDescription": "Junior-branch core manor",
     "placeType": "locality",
@@ -2099,5 +2110,31 @@
       }
     ],
     "filename": "weymouth-ma.md"
+  },
+  {
+    "placeId": "place-billerica-massachusetts-usa",
+    "name": "Billerica, Massachusetts, USA",
+    "aliases": [
+      "Billerica, MA",
+      "Shawshin",
+      "Dudley Farm"
+    ],
+    "shortDescription": "Dudley Farm purchase-rate context",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 42.5584,
+      "lng": -71.2689
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "billerica-ma.md"
   }
 ]

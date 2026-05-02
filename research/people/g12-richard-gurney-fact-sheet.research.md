@@ -54,6 +54,7 @@ Massachusetts Bay's Freeman lists are well preserved. Richard's 1681 admission c
 - <code>data/ancestors v26.json</code>, G12 entry.
 - Sprague, <em>Genealogies of Braintree</em> (Source ID <code>sprague-braintree</code>) — referenced indirectly via the John Gurney-1 family group on p. 695.
 - Anderson, <em>Great Migration Directory</em> (Source ID <code>anderson-gmd-2015</code>) — for G13 context.
+- Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius* (rev. and expanded ed., 1994). Key compiled genealogy for the G4-G13 direct line; source ID `rigler-gurney-family-aaron-zuinglius-1994`. Full page-level audit still pending.
 
 ### Sources to obtain
 

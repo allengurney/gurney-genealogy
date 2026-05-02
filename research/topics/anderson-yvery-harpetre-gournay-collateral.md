@@ -52,9 +52,11 @@ Blomefield's Bedingham entry says Hugh de Gournay was lord there in Henry II's r
 
 Two Edward III IPM entries add collateral Somerset/Dorset Gournay context: Stoure Payn and Edmondesham in Dorset were held of Thomas Gournay of Harpetree by 1d yearly service; another entry mentions land held by demise of Thomas de Gournay of Inglescombe.[^topic-ipm31][^topic-ipm35] The IPM vol. 16 index is a finding aid for later follow-up, listing Matthew de Gournay, Philippa his wife, Roger, and Thomas de Gournay under Gournay/Gornay/Gurney.[^topic-ipm-index]
 
-### Cleveland's Battle Abbey Roll as derivative synthesis
+### Cleveland and the 1066 Mosaic pages as derivative Gournay syntheses
 
 The Duchess of Cleveland's *Battle Abbey Roll* is derivative and should not override DG or primary records, but it is useful as a concise late-Victorian synthesis. It states that the Gournays held the Pays de Bray and Gournay as their barony, that Gerard de Gournay married Edith Warenne and died on pilgrimage, that the senior line ended through Julian/Juliana's marriage to William Bardolf, and that the Norfolk Gurneys were originally mesne-lords under their baronial cousins and first appear in Norfolk in Henry II's time. It also repeats the Harpley/Rose de Burnham or Warenne and West Barsham/Wauncy summaries.[^topic-cleveland]
+
+The separate 1066 Mosaic "Hugue de Gournay" page compresses the same tradition in a Battle Abbey Roll framing. It says Hugo de Gournay, lord of Gournay in Normandy, bore "pure sable," commanded at Mortemer in 1054, came to England with Duke William, participated at Hastings, and held Essex manors at Domesday. It makes Gerard de Gournay, baron of Gournay in Normandy and Yarmouth in England, husband of Editha, daughter of William de Warenne; gives their children as Hugh, Gundred wife of Nigel de Albini, and a daughter who married Richard de Talbot; and says the principal male line ended with Julia/Julian de Gournay's marriage to William Bardolph of Wormegay. For the Norfolk branch, it says the Norfolk Gournays held manors as mesne lords under the baronial Gournays and that the Gurneys of Harpley and West Barsham descended from this branch, with the Norfolk Gurneys represented in the nineteenth century by Hudson Gurney of Keswick.[^topic-mosaic-hugue]
 
 Use Cleveland as a comparison source only. Where it conflicts with DG or primary records, preserve the conflict and pursue the primary record.
 
@@ -66,7 +68,8 @@ Use Cleveland as a comparison source only. Where it conflicts with DG or primary
 [^topic-ipm31]: "Inquisitions Post Mortem, Edward III, File 31," *Calendar of Inquisitions Post Mortem*, vol. 7, British History Online, https://www.british-history.ac.uk/inquis-post-mortem/vol7/pp301-312. Source ID: `bho-ipm-edward-iii-file31-gournay-harpetree`.
 [^topic-ipm35]: "Inquisitions Post Mortem, Edward III, File 35," *Calendar of Inquisitions Post Mortem*, vol. 7, British History Online, https://www.british-history.ac.uk/inquis-post-mortem/vol7/pp352-371. Source ID: `bho-ipm-edward-iii-file35-gournay-inglescombe`.
 [^topic-ipm-index]: "Index of Persons and Places: G," *Calendar of Inquisitions Post Mortem*, vol. 16, British History Online, https://www.british-history.ac.uk/inquis-post-mortem/vol16/pp508-513. Source ID: `bho-ipm-vol16-index-gournay`.
-[^topic-cleveland]: Duchess of Cleveland, *The Battle Abbey Roll, with Some Account of the Norman Lineages*, vol. 2 (London: John Murray, 1889), Gurnay entry, 1066.co.nz transcription, https://www.1066.co.nz/Mosaic%20DVD/library/Battle%20Roll/battleabbeyroll%20vol2.html. Source ID: `cleveland-battle-abbey-roll-v2-gurnay`.
+[^topic-cleveland]: Duchess of Cleveland, *The Battle Abbey Roll, with Some Account of the Norman Lineages*, vol. 2 (London: John Murray, 1889), Gurnay entry, 1066.co.nz transcription, https://www.1066.co.nz/Mosaic%20DVD/library/Battle%20Roll/Gurnay.html. Source ID: `cleveland-battle-abbey-roll-v2-gurnay`.
+[^topic-mosaic-hugue]: "Hugue de Gournay," 1066 Mosaic / Battle Abbey Roll derivative page, https://www.1066.co.nz/Mosaic%20DVD/text/people/gournay.htm. Source ID: `mosaic-dvd-hugue-de-gournay`.
 
 ## Sources
 

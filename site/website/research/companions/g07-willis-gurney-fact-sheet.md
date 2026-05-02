@@ -49,6 +49,7 @@ The repetition of "tailor" between G13 (John Gurney-1, fl. 1641 Weymouth) and G7
 
 - <code>data/ancestors v26.json</code>, G7 entry (notables and landHoldings fields).
 - Federal census, Flushing, Queens County, New York: 1830, 1840, 1850 (cited in the JSON; not yet examined image-by-image in this companion).
+- Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius* (rev. and expanded ed., 1994). Key compiled genealogy for the G4-G13 direct line; source ID `rigler-gurney-family-aaron-zuinglius-1994`. Full page-level audit still pending.
 
 ### Sources to obtain
 

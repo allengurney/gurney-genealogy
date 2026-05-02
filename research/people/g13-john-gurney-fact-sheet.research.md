@@ -112,11 +112,31 @@ John appears to have died with no land. The NPS Cultural Landscape Report for Ad
 
 **May 1645 petition:** John signed a petition for a new plantation at Braintree.
 
+### Community and probate records in Braintree, Billerica, and Suffolk County
+
+The NEHGR 62:94 source pull gives a compact age and court-file anchor for John Gurney. Under Suffolk Court Files item no. 188, the printed note reads: "22d paper. John Gurney of Brayntree aged 50 Yeares or therea-abouts. Dated 17-1-[16]52-3." The age corrects the intake typo that read 60. If the court-file dating follows old-style month numbering, the date is 17 March 1652/3. The record is a strong chronological anchor for a birth around 1602/3 if the stated age was close, and at minimum a direct same-place age witness for John in Braintree in 1652/3.[^nehgr-62-94]
+
+The Gregory Baxter profile in Anderson's *Great Migration Begins* places John Gurney in a 1659 Suffolk probate context. Gregory Baxter's 19 June 1659 will/codicil sequence voided a bequest to "my son Dearing" and gave that land to Baxter's son John. John Gurney witnessed the will with Moses Payne and Richard Brackett; Payne and Brackett also witnessed the codicil. Anderson reports the will as sworn 14 [sic] June 1659, probably 24 June, citing Suffolk Probate Records 1:323.[^anderson-gmb-baxter]
+
+The same Baxter profile says the inventory was taken 7 July 1659 by John Gurney, Moses Paine, and Edmund Quinsey. It totaled 417 pounds 19 shillings, including 315 pounds in real estate: dwelling house, barn, orchard, and 2 1/2 acres of pasture; twenty acres of marsh; twenty-four acres of upland; six acres of plowland; and eighty acres of woodland. The inventory was sworn by Margaret Baxter, Gregory Baxter's widow, and John Baxter, their son, citing Suffolk Probate Records 3:146. For John Gurney, the value is not land ownership but community standing: he was trusted as both probate witness and inventory taker in another household's estate.[^anderson-gmb-baxter]
+
+Hazen's Billerica history gives a separate 1659 town-finance context. On the 10 September 1659 rate for the half payment of the Dudley Farm purchase, John Gurney appears with an assessment of 2-5-10. Hazen explains that the Dudley Farm price was 110 pounds and that the remaining balance of the 55-pound half payment was probably assessed on later town purchasers. This links John to the Billerica purchase-rate context, but it should not be inflated into proof of permanent Billerica residence without the underlying town and land records.[^hazen-billerica]
+
+[^nehgr-62-94]: "Notes: Braintree, Mass., Items," *New England Historical and Genealogical Register*, vol. 62 (January 1908), p. 94, Suffolk Court Files item no. 188, https://archive.org/details/newenglandhisto19unkngoog/page/94/mode/2up. Source ID: `nehgr-62-94`.
+[^anderson-gmb-baxter]: Robert Charles Anderson, *The Great Migration Begins: Immigrants to New England, 1620-1633*, vol. 1 (Boston: New England Historic Genealogical Society, 2012), Gregory Baxter profile, p. 138; user-supplied book-image crop transcribed at `sources/corpus_supplement/anderson-great-migration-begins-v1-baxter-user-extract.md`. Source ID: `anderson-great-migration-begins-v1-baxter`.
+[^hazen-billerica]: Henry A. Hazen, *History of Billerica, Massachusetts, with a Genealogical Register* (Boston: A. Williams and Co., 1883), historical p. 33 / image p. 54, Internet Archive, https://archive.org/details/historyofbilleri00hazen. Source ID: `hazen-billerica-1883`.
+
 ### Children — working notes
 
 **Sarah:** No birth date recorded. Listed first by Sprague. No marriage or death record yet located.
 
 **Mary:** Married Daniel Shed. The Shed family was from Finchingfield, Essex, providing a family-level Essex connection in New England, but not evidence of John's own English origin.
+
+### Mary Gurney / John Lewis of Nevis will lead
+
+The NEHGR vol. 49 "Genealogical Gleanings in England" extract for John Lewis of Nevis, merchant, preserves a same-name family lead that belongs in this companion even though the Mary is not yet identified. The will was dated 21 December 1699 and proved 9 July 1701. It names Lewis's sister Elizabeth Lewis, father Thomas Lewis, kinswoman Grisell Lloyd daughter of James Lloyd of New England, friends Arthur Plomer and William Ling of Nevis as executors in trust, Henry Lloyd of Bristol as sole executor, and witness Thomas Nowell. In the middle of that abstract appears the phrase "Mary Gurney the daughter of John Gurney." Keep this as an unresolved Mary Gurney lead, not as proof that she is John Gurney-1's daughter Mary Shed.[^nehgr-49-john-lewis]
+
+[^nehgr-49-john-lewis]: Henry F. Waters, "Genealogical Gleanings in England," *New England Historical and Genealogical Register*, vol. 49, part 2, John Lewis of Nevis will abstract; user-supplied extract from https://archive.org/details/newenglandhistorv49p2wate/. Source ID: `nehgr-49-genealogical-gleanings-john-lewis`.
 
 **Richard (G12):** Of Weymouth. Freeman 1681. Married Rebecca Taylor (named in Taylor's will, proved 1688). Died intestate October 1691. Children: John (killed in the Mendon massacre, 1675), Zachariah (served in a King Philip's War relief company), Joseph (b. 22 Feb 1664/65), Mary (b. 9 Sept 1667), Benjamin (G11, c. 1676). Land grants in Weymouth included East field, mill field, and the east side of Great Pond. In 1683 he received a 6-acre Town Common grant west of the pond. The John–Richard relationship remains plausible and traditional, but a surfaced primary statement of relationship is still lacking.
 
@@ -216,6 +236,11 @@ The Ancestry record URL supplied in the intake redirected to a join/login page i
 |---|---|---|
 | `anderson-gmd-2015` | p. 158 entry | `sources/validations/anderson-gmd-2015.md` |
 | `banks-brownell-1937` | p. 151 entry and BSE cluster | `sources/validations/banks-brownell-1937.md` |
+| `rigler-gurney-family-aaron-zuinglius-1994` | Key compiled genealogy for descendants of Richard Gurney of Weymouth, Massachusetts; full page-level audit still pending | `sources/validations/rigler-gurney-family-aaron-zuinglius-1994.md` |
+| `nehgr-62-94` | Suffolk Court Files item no. 188, Braintree age note | `sources/validations/nehgr-62-94.md` |
+| `anderson-great-migration-begins-v1-baxter` | Gregory Baxter profile, John Gurney probate roles | `sources/validations/anderson-great-migration-begins-v1-baxter.md` |
+| `hazen-billerica-1883` | Billerica Dudley Farm purchase-rate list | `sources/validations/hazen-billerica-1883.md` |
+| `nehgr-49-genealogical-gleanings-john-lewis` | John Lewis of Nevis will abstract, Mary Gurney lead | `sources/validations/nehgr-49-genealogical-gleanings-john-lewis.md` |
 
 ---
 
@@ -239,10 +264,14 @@ The Ancestry record URL supplied in the intake redirected to a join/login page i
 |---|---|---|---|
 | WJ 2:422 | *Winthrop's Journal*, vol. 2, p. 422 | Not yet pulled | Medium |
 | MBCR 1:331 | *Massachusetts Bay Colony Records*, vol. 1, p. 331 | Not yet pulled | Medium |
-| NEHGR 62:94 | *New England Historical and Genealogical Register*, vol. 62, p. 94 | Not yet pulled | High |
+| NEHGR 62:94 | *New England Historical and Genealogical Register*, vol. 62, p. 94 | Pulled in v08/v08a; underlying Suffolk Court Files paper still unpulled | High |
 | SPR Case #338 | Suffolk Probate Records, Case #338 | Not yet pulled | High |
 | Weymouth Hist 3:251 | *History of Weymouth*, vol. 3, p. 251 | Not yet pulled | Medium |
 | TAG 10:70–73 | *The American Genealogist*, vol. 10, pp. 70–73 | Not yet pulled | **Highest** |
+
+| Anderson GMB vol. 1, Gregory Baxter profile, p. 138 | *The Great Migration Begins*, vol. 1, Gregory Baxter profile | User-supplied book image captured in v08a; pull Suffolk Probate Records 1:323 and 3:146 when possible | Medium |
+| Hazen, Billerica, p. 33 | *History of Billerica*, historical p. 33 / image p. 54 | Pulled in v08; underlying town record still unpulled | Medium |
+| NEHGR 49 John Lewis of Nevis will abstract | *New England Historical and Genealogical Register*, vol. 49, part 2 | User extract captured in v08a; identify the Mary Gurney relationship if possible | Medium |
 
 ### Broader source catalog
 

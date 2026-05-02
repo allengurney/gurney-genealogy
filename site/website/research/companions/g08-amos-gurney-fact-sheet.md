@@ -50,6 +50,7 @@ The 1850 federal census, Flushing, Queens County, New York, should be examined f
 
 - <code>data/ancestors v26.json</code>, G8 entry.
 - Foster &amp; Streeter, <em>"Only One Cummington"</em> (1974), p. 390 — for Benjamin G9's land transactions, which bracket Amos's birth and family.
+- Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius* (rev. and expanded ed., 1994). Key compiled genealogy for the G4-G13 direct line; source ID `rigler-gurney-family-aaron-zuinglius-1994`. Full page-level audit still pending.
 
 ### Sources to obtain
 

@@ -76,6 +76,7 @@ The secondary compiled genealogy also supports the three-Benjamin sequence: G11 
 - Middleborough marriage index for Benjamin Gurney and Sarah Morse.[^middleborough-marriage]
 - *The Neverending Hobby — John Gurney, US 1636*.[^neverending-hobby]
 - Existing project-cited Plymouth County deed references for G10.
+- Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius* (rev. and expanded ed., 1994). Key compiled genealogy for the G4-G13 direct line; source ID `rigler-gurney-family-aaron-zuinglius-1994`. Full page-level audit still pending.
 
 [^john-harden-will]: Massachusetts. Probate Court (Plymouth County), *Probate records, 1686–1903; with index and docket, 1685–1967*, Plymouth County Probate Court record book, manuscript pp. 383–384, will of John Harden of Bridgewater, Plymouth County, Massachusetts, blacksmith, dated 17 September 1751, proved 7 October 1751; FamilySearch catalog https://www.familysearch.org/en/search/catalog/277512; p. 383 image https://www.familysearch.org/ark:/61903/3:1:3QSQ-G97D-F6PW; p. 384 image https://www.familysearch.org/ark:/61903/3:1:3QS7-897D-FXDF. Source ID: `plymouth-probate-john-harden-1751-will`.
 [^abington-baptism]: *Vital Records of Abington, Massachusetts, to the Year 1850*, vol. 1, Births (Boston: New England Historic Genealogical Society, 1912), Harden/Hardin/Hardeng entry for Benjamin, son of Jean, baptized 30 May 1730, C.R.1; PDF at https://commons.wikimedia.org/wiki/File:Vital_records_of_Abington,_Massachusetts,_to_the_year_1850_.._(IA_vitalrecordsofab02abing).pdf. Source ID: `abington-vr-1850-vol1`.

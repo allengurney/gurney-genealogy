@@ -496,17 +496,20 @@
   {
     "placeId": "place-hardingham-norfolk-england",
     "placeName": "Hardingham, Norfolk, England",
-    "longDescription": "Swathings in Hardingham, a long-running junior-line holding documented from the Henry II period onward.",
-    "siteName": "",
+    "longDescription": "Hardingham parish in central Norfolk, including the Swathing / Swathings / Low Street place-memory and the Manor of Gurneys & Swathing. The parish history places Old Hall opposite St George's Church and treats the church/Old Hall area as the early village core.",
+    "siteName": "Hardingham / Low Street / Old Hall context",
     "streetAddress": "",
-    "extantStatus": "unknown",
-    "extantStatusDescription": "",
+    "extantStatus": "village and historic landscape extant",
+    "extantStatusDescription": "Hardingham remains a parish village; Low Street survives as a hamlet name, and the local parish history identifies Old Hall opposite St George's Church as late 16th century.",
     "coordinateBasis": "village centroid",
-    "imageUrl": "",
-    "imageTitle": "",
+    "imageUrl": "/media/places/hardingham-faden-map.png",
+    "imageTitle": "Hardingham area on Faden's 1797 map of Norfolk",
     "heritageUrl": "",
     "heritageLabel": "",
-    "reviewNotes": []
+    "reviewNotes": [
+      "Do not treat the Hardingham village centroid as a precise coordinate for Swathing/Low Street or Old Hall.",
+      "Faden map extract is visual context; use parish history, White 1845, and Blomefield for the Swathing/Gurneys manorial claims."
+    ]
   },
   {
     "placeId": "place-harpley-norfolk-england",
@@ -979,6 +982,23 @@
     "heritageLabel": "",
     "reviewNotes": [
       "Great Pond is geolocated at high precision; the East Field, Mill Field, and other Weymouth landholding references remain aggregated and are not individually geolocated."
+    ]
+  },
+  {
+    "placeId": "place-billerica-massachusetts-usa",
+    "placeName": "Billerica, Massachusetts, USA",
+    "longDescription": "Town and Dudley Farm purchase context where John Gurney appears in Hazen's printed 1659 rate list for the half payment of the purchase.",
+    "siteName": "",
+    "streetAddress": "",
+    "extantStatus": "town extant",
+    "extantStatusDescription": "",
+    "coordinateBasis": "town centroid",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "",
+    "heritageLabel": "",
+    "reviewNotes": [
+      "Town-level aggregate only; the Dudley Farm rate-list entry does not by itself identify a precise John Gurney parcel or residence site."
     ]
   }
 ]

@@ -1,6 +1,8 @@
 # Hardingham, Norfolk
 
-Village in central Norfolk, England. Coordinates: **52.5708, 0.8508**.
+Village and civil parish in central Norfolk, England, about 12 miles west of Norwich. Coordinates: **52.5708, 0.8508**.
+
+Hardingham matters here as a layered place: the modern parish, the remembered outlier of Swathing or Swathings, the later hamlet name Low Street, and the Manor of Gurneys & Swathing all sit in the same local historical frame. The Hardingham parish history says Hardingham itself is not named in Domesday, while Flockthorpe is. It identifies the Domesday outlier "Mantatestone" with modern Manson Green, identifies "Swathing" with modern Low Street, and says that between 1066 and 1210 there were two lordships in the local frame: the De Camois manor of Flockthorpe and the Manor of Gurneys & Swathing. In 1210, Flockthorpe became Hardingham, and the page explains "ham" as a Saxon word for a small village or settlement.[^hardingham-parish]
 
 Location of Swathings manor, held for centuries by the junior Gournay line. Together with Harpley, it forms one of the two principal Norfolk manorial anchors of the branch before West Barsham rose to prominence.
 
@@ -37,7 +39,7 @@ Hardingham is especially useful because it bridges the early junior-line proof p
 
 ### Swathing, Low Street, and the Gurneys & Swathings manor
 
-The Hardingham tradition that Swathing survived as a local place-name is important because it ties the medieval Swathings evidence to modern settlement geography. The Hardingham parish history says that Domesday names Flockthorpe but not Hardingham, identifies an outlier "Mantatestone" with modern Manson Green, and identifies another outlier, "Swathing," with modern Low Street. It then places the "Manor of Gurneys & Swathing" alongside the De Camois manor of Flockthorpe before Flockthorpe became Hardingham in 1210.[^hardingham-parish]
+The Hardingham tradition that Swathing survived as a local place-name is important because it ties the medieval Swathings evidence to modern settlement geography. That makes Swathing/Swathings more than a loose alias. In the local-history layer, it is a remembered outlier or settlement name now associated with Low Street; in the manorial layer, it is paired with the Gurney name as the Manor of Gurneys & Swathing; and in the medieval evidence summarized by Blomefield, it appears in land, tenure, free-warren, mill, fold-course, pasture, and life-estate contexts tied to the Gurney descent.[^hardingham-parish][^blomefield-hardingham]
 
 White's 1845 directory gives a useful nineteenth-century corroboration of the same local geography: Hardingham was a parish of scattered houses including the hamlets of Flockthorpe and Low Street, and it had "the manors of Camois, Gurneys, and Swathings."[^genuki-hardingham-white]
 
@@ -47,15 +49,20 @@ The same descent records the tenure becoming locally concrete: in 52 Henry III W
 
 For the place file, this should be treated as a layered place-memory sequence: Swathing was not just a surname-like label in a pedigree; it was remembered locally as a Hardingham outlier, later Low Street, and as a manor paired with Gurneys in both local history and White's directory.
 
+Daniel Gurney's second part gives the broader medieval-geography claim directly: "the manor of Swathings was a Saxon parish, which is now divided; it consisted of part of Hardingham, Letton, and Cranworth. Runhall was a hamlet or beruite to it." This makes Swathings a cross-parish historical geography, not merely a Hardingham hamlet label.[^dg-swathings]
+
+The church/Old Hall setting gives the place a later built-landscape anchor. The parish history places Old Hall opposite St George's Church, considers it late sixteenth century, and says the village must originally have formed around that area. The Faden map extract adds visual context by showing Hardingham, Old Hall, Manson Green, Hardingham Low Common, the church symbol, roads, and watercourses in the late eighteenth-century landscape.[^hardingham-parish][^faden-hardingham]
+
 [^hardingham-parish]: "A History of Hardingham," Hardingham Parish Council / Hardingham Parish website, https://hardinghamparish.wixsite.com/home/history-of-hardingham-1. Source ID: `hardingham-parish-history-2026`.
 [^genuki-hardingham-white]: William White, "Hardingham," *History, Gazetteer, and Directory of Norfolk* (1845), transcribed at GENUKI by Pat Newby, https://www.genuki.org.uk/big/eng/NFK/Hardingham/White1845. Source ID: `genuki-hardingham-white-1845`.
 [^blomefield-hardingham]: Francis Blomefield, "Mitford Hundred and Half: Hardingham and Flockthorp," in *An Essay Towards A Topographical History of the County of Norfolk*, vol. 10 (London, 1809), pp. 221-227, British History Online, https://www.british-history.ac.uk/topographical-hist-norfolk/vol10/pp221-227. Source ID: `blomefield-norfolk`.
+[^dg-swathings]: Daniel Gurney, *The Record of the House of Gournay*, part 2 (1848), p. 278, corpus transcription at `sources/corpus/daniel-gurney-part-2.md`. Source ID: `daniel-gurney-part-2`.
+[^faden-hardingham]: William Faden, *A Topographical Map of the County of Norfolk*, surveyed by Thomas Donald and Thomas Milne, published London: W. Faden, 1797, Hardingham-area extract supplied at `sources/media/Hardingham c1790 Faden Map.png`; source website http://www.fadensmapofnorfolk.co.uk/. Source ID: `faden-map-norfolk-1797-hardingham`.
 
 ## Open items
 
 - Pull Harl. MSS. 970 via the British Library for the Hardingham tithe material.
-- Locate DG-I Appendix LIII in the project corpus.
-- Check Blomefield for the Hardingham entry and any additional Swathings manorial detail.
+- Review DG-I Appendix LIII directly for the Matthew v. Gilbert de Runhall legal text.
 - Add the later Tudor Hardingham witness from Blomefield directly into this file.
 
 ## Sources
