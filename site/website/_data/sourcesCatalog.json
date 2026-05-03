@@ -84,6 +84,18 @@
     "notes": "John Gurney-1 entry (p. 158). Assigns 'Unknown' English origin = implicit rejection of Banks's BSE attribution. Arrival 1636. Settlements: Boston, Braintree only (Weymouth excluded). Six sources cited: WJ 2:422; MBCR 1:331; NEHGR 62:94; SPR Case #338; Weymouth Hist 3:251; TAG 10:70-73. 2025 edition consulted April 2026."
   },
   {
+    "sourceId": "anderson-new-englands-generation-1991",
+    "shortTitle": "Anderson, New England's Generation",
+    "citation": "Anderson, Virginia DeJohn. New England's Generation: The Great Migration and the Formation of Society and Culture in the Seventeenth Century. Cambridge: Cambridge University Press, 1991.",
+    "archive": "Cambridge University Press / library catalog records",
+    "url": "https://www.cambridge.org/core/books/new-englands-generation/introduction/97EE111D72D2CF2617DF66FBF763C295",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Context source for the Great Migration cited in the John Gurney case file. Distinct from Robert Charles Anderson's Great Migration reference works."
+  },
+  {
     "sourceId": "archiuk-attleborough-nr17-domesday-search",
     "shortTitle": "ARCHI UK - NR17 local-history search",
     "citation": "ARCHI UK. Local history and archaeology search results for NR17 1QJ / Attleborough area.",
@@ -118,6 +130,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/benjamin-gurney-harden-research-tables-2026-04.md",
     "notes": "Synthesis table prepared from public-source research and the located John Harden probate-record images. Use as a research crosswalk and not as a substitute for citing the underlying primary or secondary sources."
+  },
+  {
+    "sourceId": "british-archivist-bernau-1913",
+    "shortTitle": "Bernau, British Archivist - Francis Gournay",
+    "citation": "Bernau, Charles A. \"Unrecorded Biographies: Francis Gournay (or Gurney), of Maldon, Essex.\" The British Archivist, vol. I, no. 7, September 1913, pp. 49 ff.",
+    "archive": "Google Books / project corpus extract",
+    "url": "https://www.google.com/books/edition/The_British_Archivist/4UhFAAAAYAAJ",
+    "corpusStatus": "full",
+    "corpusPath": "sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md",
+    "mediaPath": "sources/media/The_British_Archivist.pdf",
+    "validationPath": "sources/validations/british-archivist-bernau-1913.md",
+    "notes": "Article on Francis Gurney of Maldon with substantial opening evidence for Francis G14: parentage, Merchant Taylors/St Benet Fink context, 1634 London visitation note, Anne Browning of Norwich and Maldon, St Benet Fink children, bachelor John of Maldon, and Browning network. Use carefully: Bernau's cited archival references have not all been pulled at first hand."
   },
   {
     "sourceId": "bho-livery-haberdashers-gournay-charity",
@@ -252,6 +276,18 @@
     "notes": "Brief secondary heraldic-genealogical pamphlet. Arms: Argent, a cross engrailed gules, quartering Gournay, Warren, and Barclay."
   },
   {
+    "sourceId": "calder-new-haven-colony-1934",
+    "shortTitle": "Calder, New Haven Colony",
+    "citation": "Calder, Isabel MacBeath. The New Haven Colony. Yale Historical Publications, Miscellany, vol. 28. New Haven: Yale University Press, 1934.",
+    "archive": "Google Books / library catalog records",
+    "url": "https://books.google.com/books/about/The_New_Haven_Colony.html?id=q7R4AAAAMAAJ",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Context source for the St Stephen Coleman Street / New Haven migration network cited in the John Gurney case file. Page-level extraction has not been added to the corpus."
+  },
+  {
     "sourceId": "cambridge-core-camden-preface-addenda",
     "shortTitle": "Camden Old Series - Preface and Addenda",
     "citation": "\"Preface and Addenda.\" Camden Old Series, Cambridge Core.",
@@ -298,6 +334,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/cleveland-battle-abbey-roll-introduction.md",
     "notes": "Battle Abbey Roll introduction and list comparison. Relevant for Gournay/Gurnay/Gurney roll variants, duplicate Hue de Gourney/Hue earl of Gournay forms, and caution about roll incompleteness/interpolation."
+  },
+  {
+    "sourceId": "davis-abel-lunt-1963",
+    "shortTitle": "Davis, Ancestry of Abel Lunt",
+    "citation": "Davis, Walter Goodwin. The Ancestry of Abel Lunt, 1769–1806, of Newbury, Massachusetts. Portland, Maine: The Anthoensen Press, 1963.",
+    "archive": "FamilySearch Library catalog",
+    "url": "https://www.familysearch.org/search/catalog/28623",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Compiled genealogy source for the Gilman connection cited in the John Gurney case file. The case file uses pp. 155–160 for Ann Gurney, John Gilman, their children, textile context, and the New England migration link; page images should be checked before elevating claims."
   },
   {
     "sourceId": "decorde-essai-canton-gournay-1861",
@@ -490,6 +538,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Standard charter collection for pre-Conquest ducal Normandy. Index search for Gournay/Gornai entries needed."
+  },
+  {
+    "sourceId": "fischer-albions-seed-1989",
+    "shortTitle": "Fischer, Albion's Seed",
+    "citation": "Fischer, David Hackett. Albion's Seed: Four British Folkways in America. New York: Oxford University Press, 1989.",
+    "archive": "Library catalog records",
+    "url": "https://catalog.folger.edu/record/50478",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Context source for Puritan migration and regional folkways used in the John Gurney case file."
   },
   {
     "sourceId": "folger-corpus-christi-1619",
@@ -828,6 +888,18 @@
     "notes": "p. 126: Geoffrey Talebot identified as Hugh de Gournay's Essex tenant."
   },
   {
+    "sourceId": "laslett-world-we-have-lost-1965",
+    "shortTitle": "Laslett, World We Have Lost",
+    "citation": "Laslett, Peter. The World We Have Lost. London: Methuen, 1965.",
+    "archive": "Library catalog records",
+    "url": "https://catalog.folger.edu/record/35140",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Social-history context source cited in the John Gurney case file for marriage, courtship, and family-formation norms. Page-level extraction has not been added to the corpus."
+  },
+  {
     "sourceId": "les-olim",
     "shortTitle": "Les Olim (French legal records)",
     "citation": "Les Olim, ou Registres des arrêts rendus par la Cour du roi. Ed. A. Beugnot, 1839–1848.",
@@ -886,6 +958,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/may-henry-gurney-spenser-2005.md",
     "notes": "Modern academic article on Henry Gurney and Bodleian MS Tanner 175. User-supplied ResearchGate metadata gives January 2004, Spenser Studies 19:183-216, DOI 10.1086/SPSv20p183. The existing companion and the Chetham/JNR bibliography give Spenser Studies 20 (2005), pp. 183-223. Do not drop either metadata variant; reconcile by DOI/full article before citation cleanup. The abstract says Henry was a poet, critic, and bibliophile at Great Ellingham; MS Tanner 175 preserves his library inventory, more than 600 poems, and verse censures of borrowed books including Foxe, Southwell, Hakluyt, The Faerie Queene, and Mother Hubberds Tale."
+  },
+  {
+    "sourceId": "suffolk-visitations-metcalfe-1882",
+    "shortTitle": "Metcalfe, Visitations of Suffolk",
+    "citation": "Metcalfe, Walter C., ed. The Visitations of Suffolk: Made by Hervey, Clarenceux, 1561, Cooke, Clarenceux, 1577, and Raven, Richmond Herald, 1612, with Notes and an Appendix of Additional Suffolk Pedigrees. Exeter: privately printed for the editor by William Pollard, 1882.",
+    "archive": "FamilySearch / HathiTrust",
+    "url": "https://www.familysearch.org/library/books/idurl/1/106650",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Heraldic visitation source for Suffolk Ryvett/Rivett pedigrees and gentry context used in the John Gurney case file. Page-level Ryvett extraction remains to be added to the corpus."
   },
   {
     "sourceId": "middleborough-marriages-by-mens-name",
