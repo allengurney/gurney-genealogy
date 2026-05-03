@@ -36,6 +36,16 @@ The place also matters because it marks an early family branching-point. Gautier
 
 The evidence is especially valuable here because the charter shows both unity and division at once: the family is named together in the act, yet the younger son immediately becomes the root of a separate territorial identity.
 
+## Planché's La Ferté caution
+
+Planché repeats the early family structure: La Ferté belonged to a younger Gournay branch before the Conquest, and Gautier de la Ferté founded the priory around 990 in the Renaud/Alberada/Hugh family cluster. He also cautions that the Sire de la Ferté named by Wace at Hastings was not from this Gournay cadet line, because the last lord of that branch had died without issue as a monk at Saint-Ouen before the invasion. The point matters for this place file: La Ferté is a documentary cadet-line anchor, but it should not be used to turn Wace's Hastings Sire de la Ferté into an extra Gournay unless stronger evidence appears.[^planche-laferte]
+
+## Pettigrew on the La Ferte priory and its distinction from the Cistercian La Ferte
+
+Pettigrew sharpens the La Ferte file in two ways. First, he restates the family proof: Renaud married Alberarda and had sons Hugh and Gautier; Gautier's son Hugh de la Ferte founded Sigi; a later Hugh de la Ferte became a monk at St Ouen at Rouen, gave Sigi to that abbey, and confirmed his father's gifts, after which the seignories and lands of La Ferte reverted to the elder Gournay branch.[^pettigrew-laferte]
+
+Second, he distinguishes the early Gournay-related priory from a similarly named institution. He says a priory of canons and church dedicated to St Peter and St Paul were founded before 990; about 1151 the canons were transferred to St Laurent-en-Lions; and the ancient priory of La Ferte is not to be confused with the Cistercian monastery of La Ferte, founded in 1113, destroyed in 1567, and afterwards revived. That distinction should stay visible because otherwise a later Cistercian La Ferte can be accidentally substituted for the early Gournay document-place.[^pettigrew-laferte]
+
 ## Hannay's judgment on the gift
 
 Hannay's remark on the foundation is short but important: **"The donations were very considerable, and show that the house was great."** [Hannay] That sentence helps explain why La Ferté-en-Bray matters beyond genealogy. The priory endowment is one of the earliest signs that the family had already risen into real territorial magnitude by the late tenth century.
@@ -70,12 +80,17 @@ La Ferté-en-Bray is one of the most important **document places** in the entire
 
 - Daniel Gurney, *Record of the House of Gournay*, Part I (1848), pp. 23–25. [DG-I]
 - James Hannay, *Three Hundred Years of a Norman House* (1867), pp. 59–62. [Hannay]
+- J. R. Planché, *The Conqueror and His Companions* (1874), Hugh de Gournay section. [planche-conqueror-companions-1874]
+- T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (1871), pp. 180-181. [pettigrew-collectanea-house-gournay-1871]
 
 ## Crosslinks
 
 - `research/people/g35-renaud-de-gournay-fact-sheet.research.md`
 - `research/places/gournay-en-bray.md`
 - `research/places/normandy.md`
+
+[^planche-laferte]: J. R. Planché, *The Conqueror and His Companions*, vol. 1 (London: Tinsley Brothers, 1874), Hugh de Gournay section, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/conquerorcompanion/companion.htm. Source ID: `planche-conqueror-companions-1874`.
+[^pettigrew-laferte]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 180-181, Google Books, https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ. Source ID: `pettigrew-collectanea-house-gournay-1871`.
 
 <!-- GENERATED:PLACE-REGISTRY:START -->
 ## Place registry

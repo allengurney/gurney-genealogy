@@ -36,10 +36,13 @@ The same Cantley descent also matters for subordinate tenure. Uphall Manor took 
 
 The Gazetteer of Markets and Fairs gives a sharper administrative date: on 19 March 1235 Henry III granted Hugh de Gurnay a Tuesday market and a fair at Cantley, both to be held at the manor, and on 29 May 1284 Edward I granted William Bardolf a fair there on the vigil, feast, and morrow of St Margaret.[^gazetteer-cantley]
 
+Farrer adds the 1203 forfeiture frame. When Hugh de Gurnay withdrew from King John's service, writs were issued for seizure of his lands in Normandy and England. Hugh's land in Cantley and Caister, the land of Hugh de Agee in Norfolk, and all other lands of Hugh de Gurnay "betrayor" in Norfolk and Suffolk were committed to John Marshal, son of William Marshal, Earl of Pembroke. This turns Cantley into one of the named English places affected by the senior baron's break with John, just before the final loss of the Norman lordship.[^farrer-cantley-1203]
+
 Together these sources make Cantley more than a one-line Gerard holding. It is a senior Gournay seat whose later Bardolf descent explains why the junior Norfolk branch could still be described in relation to the old Gournay/Bardolf honour centuries later.
 
 [^blomefield-cantley]: Francis Blomefield, "Blofield Hundred: Cantley," in *An Essay Towards A Topographical History of the County of Norfolk*, vol. 7 (London, 1807), pp. 228-231, British History Online, https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp228-231. Source ID: `blomefield-norfolk`.
 [^gazetteer-cantley]: Samantha Letters et al., *Gazetteer of Markets and Fairs in England and Wales to 1516*, Norfolk, Cantley entry, https://archives.history.ac.uk/gazetteer/norf.html#Can. Source ID: `history-ac-uk-markets-fairs-gazetteer`.
+[^farrer-cantley-1203]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925), Mapledurham section, HathiTrust extract, https://hdl.handle.net/2027/mdp.39015032992151. Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
 
 ## Open items
 

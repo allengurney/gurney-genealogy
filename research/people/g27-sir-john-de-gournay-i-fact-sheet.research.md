@@ -19,6 +19,10 @@ The seized property was substantial: three horses (30s), four oxen (48s), fourte
 
 **Significance:** This plea proves John was actively "in arms against the King" — not merely a passive sympathizer. He fought at Lewes (May 1264) and continued resistance after it. His estates were seized as a direct consequence. The detail level — specific livestock, values, lease terms — gives an unusually vivid picture of a 13th-century Norfolk gentry estate.
 
+### Farrer corroboration: South Wootton, Evesham, and the rebel seizure
+
+Farrer gives a compact independent control for the South Wootton seizure. In his account of the Gurnai fee after Bardolf, he says that in 1265 John de Bulemer was attached to answer Alice de Balesham for taking her goods in Wootton. Bulemer answered that he went to the manor of John de Gurney in South Wootton and seized it because John "was in the conflict of Evesham against the king," treating the manor as that of the king's enemy. Farrer's wording names Evesham where DG's longer plea emphasizes Lewes and resistance after Lewes; together they show the same rebel arc from Montfortian conflict to post-Evesham forfeiture pressure.[^farrer-g27-wootton]
+
 ### Crusade letters of protection — full Latin text (DG-Supp Note 114)
 2026-04-18 — DG-Supp Note 114 (pp. 786–787) gives the complete Latin text of the royal letters of protection issued to John for the 1270 Crusade, from the Patent Rolls (Rot. Patent 54 Henry III, m. 15. d.):
 
@@ -101,6 +105,7 @@ Anderson cites *Placita de Banco*, Norfolk, 3 Edw. I, "de Ecclesia de Harpeli." 
 - DG-Supp, Note 112 (pp. 781–783): Full Latin text of South Wootton plea. Proves John "in conflictu de Lewes contra dominum Regem." [DG-Supp]
 - DG-Supp, Note 113 (pp. 784–786): Roll of Arms dating, three engrailed-cross families on 1270 Crusade, Norwich Cathedral tomb. [DG-Supp]
 - DG-Supp, Note 114 (pp. 786–787): Full Latin text of Crusade letters of protection (Rot. Patent 54 Hen. III, m. 15. d., 1270). Rotuli Hundredorum entries (1274). Harpley tenure chain. [DG-Supp]
+- Farrer, *Honors and Knights' Fees*, vol. 3, Honor of Arundel, p. 142. [farrer-honors-knights-fees-v3-gurnay-extracts]
 - Blomefield, *History of Norfolk* — cited in fact sheet for Harpley detail. Not yet extracted for G27 specifics. [Blomefield]
 - *Excerpta Historica* (ed. Bentley, 1831): list of Crusade protection recipients. [Excerpta-Hist]
 - Anderson, James, *Genealogical History of the House of Yvery*, Vol. II (London, 1742), p. 478: independent 1742 record of the Harpley advowson dispute between John de Gournay and the Prior of Lewes in 3 Edw. I (1274/5), settled by judicial combat with the Prior yielding the advowson to John "for himself and his Successors for ever." Cites *Placita de Banco*, Norfolk, 3 Edw. I, "de Ecclesia de Harpeli." Predates DG by 106 years. Source ID: `anderson-yvery-1742`. [Anderson-Yvery]
@@ -116,6 +121,8 @@ Anderson cites *Placita de Banco*, Norfolk, 3 Edw. I, "de Ecclesia de Harpeli." 
 None identified for John himself. The Katherine Ingoldesthorpe/Baconsthorpe question pertains to his father (G28) and/or son (G26).
 
 ---
+
+[^farrer-g27-wootton]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925), Honor of Arundel, p. 142, HathiTrust extract, https://hdl.handle.net/2027/mdp.39015032992151. Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
 
 ## Fact Sheet Improvement Notes
 

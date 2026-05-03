@@ -41,6 +41,21 @@ This is a rare glimpse of Gerard in a local political context — not as a dista
 
 This note also proposes the naming: "He might probably have been named by his father Gerard, after his near relation Walter Giffard, Earl of Buckingham" or "after Walter de la Ferté."
 
+### Planché collateral and Norman-command notes
+2026-05-02 — Planché adds several useful derivative anchors for Gerard. In the Evreux/Conches war he says William Rufus ordered Stephen of Aumale and Gerard de Gournay, with others commanding in Normandy, to support Raoul de Toeni and resupply his castles. In the Count of Evreux/Bertrade settlement, Ecouchi was excepted because it was held by Gerard de Gournay. These entries put Gerard in active Norman military-political command before his crusading identity dominates the narrative.[^planche-gerard-command]
+
+Planché also reinforces Gerard's marriage network. Gundred, daughter of Gerard, married Nigel de Albini and was mother of Roger, who assumed the Mowbray name, while Henri became ancestor of the Albini of Cainho. Edith de Warenne's second marriage is also repeated: Drogo/Dreux de Monceaux, her second husband after Gerard, or his son, witnessed Dunstable's foundation charter under Henry I.[^planche-gerard-kin]
+
+### Pettigrew on Gerard, Edith de Warenne, and the younger-son branch
+
+Pettigrew gives Gerard a fuller connective role between the senior Norman barons and the later Norfolk line. He says Gerard first appears in the 1082 foundation deed of Holy Trinity at Caen and made many donations to Bec. He married Editha or Ediva, daughter of William de Warenne, first Earl of Surrey, by Gundred. Pettigrew emphasizes the Warenne scale: William de Warenne held 296 manors at Domesday, including 139 in Norfolk, founded Lewes and Castle Acre priories, and died in 1089.[^pettigrew-gerard]
+
+For Gerard's death and children, Pettigrew follows DG's two-journey solution. Gerard joined the Crusade in September 1096, reached Jerusalem, returned to Normandy, was living in 1104, and died on a second journey to Jerusalem accompanied by Edith, who returned and married Dreux de Monceaux. Pettigrew names one son Hugh and two daughters, one married to Richard de Talbot and the other to Neil d'Albini, then adds that another son Renaud has been ascribed to him and that DG thought Walter de Gournai was another. That last sentence is the direct-line junction: Walter, holder of Suffolk lands in Stephen's reign, was ancestor of the Gurneys of West Barsham in Norfolk.[^pettigrew-gerard]
+
+### Farrer on Gerard, Edith, and the senior collateral inheritance
+
+Farrer agrees with the core Gerard/Edith framework but uses it to explain later feudal holdings rather than family narrative. He says Gerard and Edith had several children, including Hugh II in Farrer's numbering, and that Edith married Drew de Monceaux after Gerard died in the Crusades. The same section then follows the senior successor Hugh into Wendover, Houghton Regis, Mapledurham, Bledlow, Cantley, Caister, and Swathings. For this file, the point is that Gerard's Warenne marriage is the hinge between Hugh III's Domesday/Bec world and the later senior-line English fee descent; the detailed later holdings belong in the senior/collateral topic and place files rather than under Allen's direct G31-G27 line.[^farrer-gerard]
+
 ---
 
 ## Landholdings
@@ -79,6 +94,9 @@ This note also proposes the naming: "He might probably have been named by his fa
 - Loyd, *Origins of Some Anglo-Norman Families* (1999), p. 47. [Loyd]
 - French Wikipedia, "Famille de Gournay." [fr.wiki-Gournay]
 - Anderson, James, *Genealogical History of the House of Yvery*, Vol. II (London, 1742), pp. 475–476: independent 1742 account of Gerard. Confirms Crusade, Edith de Warenne marriage, death in Holy Land. Notes that "his Wife surviving him, who afterwards married Dru de Monceaux." Pre-dates DG by 106 years. [Anderson-Yvery]
+- Planché, *The Conqueror and His Companions* (1874), Grandmesnil, Albini, Monceaux, and related Gournay passages. [planche-conqueror-companions-1874]
+- Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (1871), pp. 185-186. [pettigrew-collectanea-house-gournay-1871]
+- Farrer, *Honors and Knights' Fees*, vol. 3, Mapledurham section. [farrer-honors-knights-fees-v3-gurnay-extracts]
 
 ### Sources to obtain
 - Cartulary of La Trinité de Rouen (ed. Deville, Tome III), Charter No. 94 — Gerard's seal.
@@ -95,6 +113,13 @@ This note also proposes the naming: "He might probably have been named by his fa
 | Gundred as Conqueror's daughter | Warren charters: yes | Modern historians: contested | Fact sheet caveats appropriately. |
 
 ---
+
+[^planche-gerard-command]: J. R. Planché, *The Conqueror and His Companions*, vol. 1 (London: Tinsley Brothers, 1874), Grandmesnil/Evreux-related passages, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/conquerorcompanion/companion.htm. Source ID: `planche-conqueror-companions-1874`.
+[^planche-gerard-kin]: Planché, *The Conqueror and His Companions*, Albini and Monceaux entries, same electronic edition. Source ID: `planche-conqueror-companions-1874`.
+
+[^pettigrew-gerard]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 185-186, Google Books, https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ. Source ID: `pettigrew-collectanea-house-gournay-1871`.
+
+[^farrer-gerard]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925), Mapledurham section, extracted PDF pp. 10-12, HathiTrust, https://hdl.handle.net/2027/mdp.39015032992151. Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
 
 ## Fact Sheet Improvement Notes
 

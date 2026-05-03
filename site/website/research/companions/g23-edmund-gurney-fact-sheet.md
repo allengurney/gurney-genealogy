@@ -136,11 +136,18 @@ Blomefield's North Barsham entry adds another landholding context: in Edward III
 
 ## Conflicting Information
 
+### Wansey pedigree conflict: Alice Bavard, Katherine's death date, and Sir John's regnal dates
+
+The Wansey/Wauncy pedigree lead preserves a close but conflicting collateral-line version of Edmund Gurney's family. It agrees with the settled frame that Edmund Gorney died in 1387 and that his son John died in 9 Henry IV, but it says Katherine survived Edmund until 3 Henry IV (1401/2), identifies John's wife as Alice Bavard, and says John was knight of the shire in 6 Henry IV. The wife's name is the material conflict: HoP identifies Sir John's wife as Alice Heylesdon, while the Wansey pedigree supplies Alice Bavard. Keep the Wansey form beside the HoP and DG material as a real pedigree witness, but do not replace Heylesdon unless the Bavard/Heylesdon discrepancy can be resolved by alias, remarriage, or a page-image transcription error.[^wansey-pedigree-g23]
+
+[^wansey-pedigree-g23]: "Genealogy of the ancient Family of the Wanseys olim Waunci," copied from William Wansey, F.S.A., manuscript books on the Wansey family, 1873, PDF hosted by Nick Delves, https://www.nickdelves.co.uk/wansey/wansey/1925_08Wansey_Family_Tree_Medieval_Genealogy.pdf; user-supplied transcription in `C:\Users\allen\Downloads\Future research urls3.md`. Source ID: `wansey-medieval-genealogy-1925`.
+
 | Claim | Source A | Source B | Status |
 |---|---|---|---|
 | Number of executors | DG-II p. 363: "Osbert de Mundeford and Thomas Kemp" | DG-Supp Note 118 (full Latin): Katherine, John, Osbert de Mundeford, Thomas Kempe | **Four executors, not two.** DG-II's summary omitted Katherine and John. The Supplement's full Latin text is authoritative. |
 | West Barsham flagstone | Traditionally attributed to William Gurnay V | DG-Supp Note 118: "I think it likely the flag stone... was in memory of this Edmund Gurnay" | DG favors Edmund attribution. Not definitively resolved. |
 | Sir John d.1408 death year | Blomefield: 1407 | DG-Supp Note 121 (IPM): 5 December 1408 | **DG corrects Blomefield.** IPM is primary source. |
+| Sir John Gurney's wife | HoP: Alice Heylesdon | Wansey pedigree: Alice Bavard | Preserve both. Check for alias/remarriage/transcription before changing the preferred HoP form. |
 
 ---
 

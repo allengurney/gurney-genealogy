@@ -21,6 +21,13 @@ Research companion for `g36-hugh-de-gournay-i-fact-sheet.md`. See AI-Rules.md §
 
 This note helps resolve the "two Hugh" fortifier confusion (see G34 companion). The "La Tour Hue" is specifically Hugh I's work — the name itself (*Hue* = *Hugh*) proves the attribution. Later fortification phases (triple wall, double ditch) may represent Hugh II's elaboration of Hugh I's original citadel.
 
+### Planché's independent fortification summary
+2026-05-02 — Planché independently repeats the fortification tradition in a compressed form: Hugh son of Eudes was first to make Gournay a place of strength; ancient family records credited him with a citadel, triple wall and fosse, and the tower later called "La Tour Hue," said still standing at the beginning of the seventeenth century. This is useful because it carries the same tradition outside DG, while still remaining derivative.[^planche-hugh1-fortification]
+
+### Pettigrew on La Tour Hue and the fortified town
+
+Pettigrew strengthens the existing Hugh I fortification note by placing the tower inside a broader town landscape. He says the town of Gournay was fortified by "Hugh son of Eudes" and that a citadel secured by the tower known as La Tour Hue continued as late as the seventeenth century. He also lists the defensive and religious geography associated with the lords of Gournay: La Ferte, Gaillefontaine, Argueil, Bref-Moutier, Beaubec, Bellozane, Chair-ruissel, St Aubin, Sigi, St Laurent, La Ferte, and religious houses in the town itself. The point for Hugh I is not that all later institutions belonged to his lifetime, but that the tradition remembered his work as the first fortification layer around which the later Gournay landscape grew.[^pettigrew-hugh1]
+
 ### William Brito's *Philippide* — the siege description
 2026-04-18 — DG-I p. 24 quotes William Brito (Guillaume le Breton, c. 1165–1226), the court poet of Philip Augustus, describing Gournay's fortifications. Brito's *Philippide* (completed c. 1224) is an epic poem celebrating Philip Augustus's reign. The relevant passage describes the siege or assessment of Gournay during Philip's campaigns. Brito wrote from firsthand observation of the late 12th/early 13th century defences — which by then included both Hugh I's original tower and any subsequent elaborations. The *Philippide* is published in full (ed. Delaborde, *Oeuvres de Rigord et de Guillaume le Breton*, 2 vols., Paris, 1882–1885). The specific passage could be located and verified against DG's quotation.
 
@@ -56,6 +63,8 @@ This note helps resolve the "two Hugh" fortifier confusion (see G34 companion). 
 - DG-I, pp. 23–24 (Hugh I chapter). [DG-I]
 - DG-Supp, Note 7 (fortifications, p. 730): L'Anglois's dissent on fortress extent; Philip Augustus repairs; La Tour Hue "entirely gone, although remaining a century ago." [DG-Supp]
 - Hannay, *Three Hundred Years* (1867), pp. 44–48 (Hugh as "The Fortifier," contemporary of William Longsword, Hugh/Eudes name equivalence). [Hannay]
+- Planché, *The Conqueror and His Companions* (1874), Hugh de Gournay section. [planche-conqueror-companions-1874]
+- Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (1871), pp. 176, 180. [pettigrew-collectanea-house-gournay-1871]
 - William Brito, *Philippide* (c. 1224). Ed. Delaborde, *Oeuvres de Rigord et de Guillaume le Breton* (Paris, 1882–1885). Passage on Gournay's defences cited in DG-I p. 24 but not located by page. [Brito]
 - *MS. Histoire de Gournay* — cited by DG; not independently verified. [MS-Gournay]
 
@@ -73,6 +82,9 @@ This note helps resolve the "two Hugh" fortifier confusion (see G34 companion). 
 | Birth date | Fact sheet: "c. 945–950" | Hannay: Hugh is "contemporary of William [Longsword]" (d. 942) | If Hugh was adult during Longsword's reign, birth c. 920–930 is more plausible. The "c. 945–950" date may be too late. |
 
 ---
+
+[^planche-hugh1-fortification]: J. R. Planché, *The Conqueror and His Companions*, vol. 1 (London: Tinsley Brothers, 1874), Hugh de Gournay section, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/conquerorcompanion/companion.htm. Source ID: `planche-conqueror-companions-1874`.
+[^pettigrew-hugh1]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 176, 180, Google Books, https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ. Source ID: `pettigrew-collectanea-house-gournay-1871`.
 
 ## Fact Sheet Improvement Notes
 

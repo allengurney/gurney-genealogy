@@ -53,11 +53,18 @@ Daniel Gurney's second part gives the broader medieval-geography claim directly:
 
 The church/Old Hall setting gives the place a later built-landscape anchor. The parish history places Old Hall opposite St George's Church, considers it late sixteenth century, and says the village must originally have formed around that area. The Faden map extract adds visual context by showing Hardingham, Old Hall, Manson Green, Hardingham Low Common, the church symbol, roads, and watercourses in the late eighteenth-century landscape.[^hardingham-parish][^faden-hardingham]
 
+### Farrer on Swathings in the senior Gurnay fee
+
+Farrer places Swathings within the senior Gurnay fee after the 1203 seizure of Hugh de Gurnay's lands. After naming Cantley and Caister among the lands committed to John Marshal, he adds that other land in Norfolk of this fee lay in Swathings, where Hugh de Gurnay II had given a manor to Robert de Burgeinuin and Hugh son of the donor confirmed it to Hugh son of Robert de Burguinuin. He also records a grant by Hugh de Gurnay II and Milicent his wife of five librates of land in Bledlow, witnessed by William de Merlo, Oliver de Age, Hodus de Brumustier, Hugh de Burgeinuin, and others.[^farrer-swathings]
+
+This does not displace the later junior-branch Hardingham/Swathings evidence. It adds an earlier senior-line fee layer showing why Swathings belongs in the broader Gurnay place network before the better documented G27-G23 Norfolk descent.
+
 [^hardingham-parish]: "A History of Hardingham," Hardingham Parish Council / Hardingham Parish website, https://hardinghamparish.wixsite.com/home/history-of-hardingham-1. Source ID: `hardingham-parish-history-2026`.
 [^genuki-hardingham-white]: William White, "Hardingham," *History, Gazetteer, and Directory of Norfolk* (1845), transcribed at GENUKI by Pat Newby, https://www.genuki.org.uk/big/eng/NFK/Hardingham/White1845. Source ID: `genuki-hardingham-white-1845`.
 [^blomefield-hardingham]: Francis Blomefield, "Mitford Hundred and Half: Hardingham and Flockthorp," in *An Essay Towards A Topographical History of the County of Norfolk*, vol. 10 (London, 1809), pp. 221-227, British History Online, https://www.british-history.ac.uk/topographical-hist-norfolk/vol10/pp221-227. Source ID: `blomefield-norfolk`.
 [^dg-swathings]: Daniel Gurney, *The Record of the House of Gournay*, part 2 (1848), p. 278, corpus transcription at `sources/corpus/daniel-gurney-part-2.md`. Source ID: `daniel-gurney-part-2`.
 [^faden-hardingham]: William Faden, *A Topographical Map of the County of Norfolk*, surveyed by Thomas Donald and Thomas Milne, published London: W. Faden, 1797, Hardingham-area extract supplied at `sources/media/Hardingham c1790 Faden Map.png`; source website http://www.fadensmapofnorfolk.co.uk/. Source ID: `faden-map-norfolk-1797-hardingham`.
+[^farrer-swathings]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925), Mapledurham section, HathiTrust extract, https://hdl.handle.net/2027/mdp.39015032992151. Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
 
 ## Open items
 

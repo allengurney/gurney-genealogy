@@ -330,6 +330,10 @@ Charles Edward Banks (1937) placed John at Bury St. Edmunds, Suffolk, within a d
 | 14 | Daniel Gurney hedged on "eldest" | Moderate | Daniel was uncertain whether Roger was truly Francis' firstborn — room for an older, unknown son from the first marriage. |
 | 15 | Rivett cluster near East Dereham | Moderate | Margaret's Ryvett family had a documented presence near East Dereham — Richard Ryvett of Gressenhall could be the source of John-1's son Richard's name. |
 | 16 | Pease genealogy claim confirmed | Moderate | The Margaret Ryvett claim, long unverified family tradition, has now been validated by primary source evidence from NRO PD 12/1. Lends credence to other details in genealogy that align to this case file. |
+| 17 | American Gurney arms | Moderate if early; weak if late | A 1926 American biographical entry says arms kept by American Gurneys connected them with the Norfolk Gurneys. The lead supports Candidate B only if an early American object or manuscript witness can be found. |
+
+<h4>Supplemental heraldic family-memory lead: American Gurney arms</h4>
+<p>A 1926 American biographical entry for David Allston Gurney repeats the colonial Gurney descent and states that arms kept by the American Gurneys connected the family with the Norfolk Gurneys. This is not parentage proof: the entry is derivative, repeats the problematic 1615/Southwark tradition, and the arms themselves have not yet been traced to an object, seal, bookplate, gravestone, Bible, or family paper. Still, if the American arms can be shown to descend from the Braintree/Weymouth line rather than from nineteenth-century antiquarian copying, they would be a moderate positive indicator for Candidate B because Francis Gurney's family belonged to the Norfolk line using the cross engrailed arms.<sup class="fn"><a href="#n66" id="ref-66">66</a></sup></p>
 
 #### Against Candidate B
 
@@ -366,6 +370,8 @@ Charles Edward Banks (1937) placed John at Bury St. Edmunds, Suffolk, within a d
 1. **Margaret Rybett burial.** East Dereham, Norwich, Garveston, Gressenhall, or Shipdham c.1616–1617.
 2. **Ryvett/Rivett pedigrees.** Suffolk Record Office, HD2418/88.
 3. **Francis Gurney's will or administration.** PCC indexes 1637–1660; Archdeaconry of Norwich; London Commissary Court.
+
+4. **American Gurney arms.** Locate the earliest object, seal, Bible, bookplate, gravestone, manuscript, or family paper preserving the arms used by the American Gurneys; determine the exact blazon and whether the usage predates printed antiquarian borrowing.
 
 ### Other Leads
 
@@ -460,6 +466,7 @@ Davis, *Ancestry of Abel Lunt* (1963). • Laslett, *World We Have Lost* (1965).
   <li id="n62">Protestation Returns 1641–42; Calder, <em>New Haven Colony</em> (1934). <a class="backref" href="#ref-62">↩</a></li>
   <li id="n64">Banks, <em>Topographical Dictionary</em> (1937), p. 151. <a class="backref" href="#ref-64">↩</a></li>
     <li id="n65">Bernau, <em>British Archivist</em> vol. I, no. 7 (September 1913), "His Parents' Children" section, item 9, citing Lay Subsidy 246/22 (1674 Hearth Tax). Corpus extract at <code>sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md</code>. Source ID: <code>british-archivist-bernau-1913</code>. <a class="backref" href="#ref-65">↩</a></li>
+  <li id="n66"><em>American Biography: A New Cyclopedia</em>, illustrated vol. 26 (New York: The American Historical Society, Inc., 1926), David Allston Gurney/Gurney family entry, pp. 230-255; Google Books, <a href="https://www.google.com/books/edition/American_Biography/tnkKAQAAMAAJ">https://www.google.com/books/edition/American_Biography/tnkKAQAAMAAJ</a>. Source ID: <code>american-biography-cyclopedia-v26-gurney-1926</code>. Pettigrew separately summarizes the Norfolk arms as argent, a cross engrailed gules: T. J. Pettigrew, "On the House of Gournay," <em>Collectanea Archaeologica</em>, vol. 2 (London: Longmans, Green, and Co., 1871), p. 206. Source ID: <code>pettigrew-collectanea-house-gournay-1871</code>. <a class="backref" href="#ref-66">â†©</a></li>
 </ol>
 
 *Case File V4 — April 2026. Supersedes V3 (April 2026). Prepared by Allen Lawrence Gurney with AI research assistance.*

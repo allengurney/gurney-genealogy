@@ -33,6 +33,21 @@ Both are published in *Regesta Regum Anglo-Normannorum* (ed. Bates, 1998) and in
 ### Siege of Gerberoi, 1079 — Hugh as mediator
 2026-04-18 — Hannay (p. 96, citing Ordericus Vitalis) records that Hugh was unhorsed by Robert Curthose at the siege of Gerberoi (1079), during Robert's rebellion against his father William I. After the siege, Hugh was one of four barons who mediated the reconciliation between William and Robert. The four: Roger Earl of Shrewsbury, Hugh de Grantmesnil, Roger de Beaumont, and Hugh de Gournay. This mediator role is politically significant — it places Hugh among the very top tier of Anglo-Norman barons trusted by both sides.
 
+2026-05-02 — Palgrave gives an independent 1864 narrative of Gerberoi: the castle lay about five miles from Gournay, Robert Curthose established headquarters there, and after the fighting the mediators between William and Robert included Roger de Montgomery, Hugh Lupus, Hugh de Gournay, Grantesmesnil, and Beaumont with his sons. This reinforces Hugh III's top-tier political role and adds useful geography: Gerberoi was a frontier threat close to the Gournay seat.[^palgrave-gerberoi]
+
+### Planché on Basilia and the Hastings-generation problem
+2026-05-02 — Planché's Hugh section assigns Basilia Flaitel to Hugh III, describing her as daughter of Gerard Flaitel, sister of Walter Giffard's wife, and widow of Raoul de Gacé. He places the younger Hugh at Hastings alongside his father and a Gournay/Brai relative, but the passage is one of the reasons to keep the "three Gournays at Hastings" issue open rather than flattening the roll forms.[^planche-hugh3]
+
+### Pettigrew on Basilia, Bec, and Hugh III's last years
+
+Pettigrew places Basilia in the same high Norman kin network used by DG: she was daughter of Gerard Flaitel or Flaiteaux, widow of Raoul de Vace or Gace, and sister of Walter Giffard's wife; William, Bishop of Evreux, and Anscherius were her brothers. Pettigrew also gives the monastic ending of the couple's life: Hugh became a monk at Bec, Basilia retired there and received the veil from the Archbishop of Rouen, Anselm held them in affection, and Hugh was buried in the abbey church with Basilia entombed near him. He notes DG's own caution that Hugh may not actually have been prior of St Nicaise de Meulan, because Anselm's letter to Basilia does not mention Hugh and he may already have died.[^pettigrew-hugh3-basilia]
+
+Pettigrew's account of Hugh's gifts to Bec is also useful for the place network. Hugh gave the church of Massy, the tithe of Gournay, Elboeuf, Brefmoutier, Merval, Laudencourt, the tithes of his three English manors, and half the *molta*, a tax paid by vassals for grinding corn at the lord's mill. These were confirmed by Basilia and their son Gerard. The three English manors are the same Domesday Essex cluster: Fordham, Liston, and Ardleigh.[^pettigrew-hugh3-basilia]
+
+### Farrer on Hugh III's English holdings and the Warenne connection
+
+Farrer's Mapledurham section independently controls the English-tenure side of the Hugh III file. He says the Gournay-sur-Epte family in the Pays de Bray held much of its English property through the marriage connection with Ediva/Edith de Warenne, but he first identifies Hugh as holder of the three Domesday Essex manors of Liston, Ardleigh, and Fordham, none of which descended in his line. Farrer also says Hugh became a monk at Bec, and assigns to Basilia and her son Hugh the gifts to Bec of a moiety of Longueil and Le Bois de Girard. This is useful because it separates Hugh III's Domesday Essex holdings from the later Mapledurham/Wendover/Houghton Regis senior-line descent.[^farrer-hugh3]
+
 ### Basilia's death — precise date from Chronicon Beccensis
 2026-04-18 — The *Chronicon Beccensis Abbatiæ* records the deaths of three noble women at Bec in three consecutive weeks: Ansfride (Basilia's niece, a virgin) on 2 January (IV Non Jan); Basilia herself on 16 January (XVII Kal Feb); and Eva, wife of William Crispin, on 23 January (X Kal Feb). DG dates this sequence to 1099/1100. This gives Basilia a specific death date of approximately 16 January 1099 or 1100 — far more precise than the fact sheet's "survived after Hugh's death."
 
@@ -88,6 +103,10 @@ Notably, William de Warenne (Basilia's first husband's father's family? — no, 
 - DG-I, pp. 25–27 (Hugh III chapter), pp. 55, 65 (Ecouche references). [DG-I]
 - DG-Supp, Notes 12–14 (pp. 732–735): 1076 Bec charter (full Latin text), Ausger de Gournay, Lessingham Priory, Bec endowments. [DG-Supp]
 - Hannay, *Three Hundred Years* (1867), pp. 91–100: "Hugh of Domesday," 24 villages, Anselm, Gerberoi, death. [Hannay]
+- Planché, *The Conqueror and His Companions* (1874), Hugh de Gournay section. [planche-conqueror-companions-1874]
+- Palgrave, *The History of England and Normandy* (1864), Gerberoi narrative. [palgrave-history-england-normandy-1864]
+- Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (1871), pp. 183-185. [pettigrew-collectanea-house-gournay-1871]
+- Farrer, *Honors and Knights' Fees*, vol. 3, Mapledurham section. [farrer-honors-knights-fees-v3-gurnay-extracts]
 - Domesday Book, Little Domesday vol. ii, p. 89 (Essex): Liston, Fordham, Ardleigh. Verified via Open Domesday (opendomesday.org). [Domesday]
 - *Chronicon Beccensis Abbatiæ* — Basilia's death date (16 January 1099/1100). Cited via geni.com/Richardson. [Chron-Bec]
 - Morant, *History and Antiquities of the County of Essex* (1768), vol. ii, p. 31. [Morant]
@@ -113,6 +132,13 @@ Notably, William de Warenne (Basilia's first husband's father's family? — no, 
 | Lessingham founder | DG-Supp Note 13: "Gerard de Gournay founded a priory there" | Fact sheet attributes to Gerard | Consistent. Hugh III gave tithes 1076; Gerard formalized the priory. |
 
 ---
+
+[^palgrave-gerberoi]: Francis Palgrave, *The History of England and Normandy* (London: Macmillan and Co., 1864), Gerberoi narrative, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/palgrave/palgrave.htm. Source ID: `palgrave-history-england-normandy-1864`.
+[^planche-hugh3]: J. R. Planché, *The Conqueror and His Companions*, vol. 1 (London: Tinsley Brothers, 1874), Hugh de Gournay section, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/conquerorcompanion/companion.htm. Source ID: `planche-conqueror-companions-1874`.
+
+[^pettigrew-hugh3-basilia]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 183-185, Google Books, https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ. Source ID: `pettigrew-collectanea-house-gournay-1871`.
+
+[^farrer-hugh3]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925), Mapledurham section, extracted PDF pp. 10-12, HathiTrust, https://hdl.handle.net/2027/mdp.39015032992151. Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
 
 ## Fact Sheet Improvement Notes
 

@@ -35,6 +35,14 @@ Bedfordshire should remain a **negative-space file** in the best sense: a place 
 - `research/places/gournay-en-bray.md`
 - `research/places/buckinghamshire.md`
 
+## Houghton Regis in senior Gournay tenure
+
+Farrer ties Houghton Regis to the same senior-line sequence as Wendover and Bledlow. In 1155 and 1156, Hugh de Gurnay's manors of Wendover and Houghton Regis were in the king's hands at a yearly farm of 60 pounds. At Midsummer 1173, Hugh de Gurnay the younger received lands in Houghton Regis and in Norfolk and Suffolk worth 50 pounds yearly, though the grant lasted only three months. Farrer's 1212 Great Inquest discussion says Henry II had confirmed to Milicent de Gurnay dower including the new land Stephen gave to Hugh in augmentation of his inheritance, namely Wendover and Houghton Regis. Richard I restored Houghton Regis to Hugh at his accession, and in 1201 Hugh held it as 40 librates of land.[^farrer-houghton-regis]
+
+This is senior collateral geography. It explains why Bedfordshire appears in the Gournay map, but it does not belong to the direct junior Norfolk line unless a later direct-branch record is found.
+
+[^farrer-houghton-regis]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925), Mapledurham section, HathiTrust extract, https://hdl.handle.net/2027/mdp.39015032992151. Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
+
 <!-- GENERATED:PLACE-REGISTRY:START -->
 ## Place registry
 
