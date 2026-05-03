@@ -10,6 +10,17 @@ const companionSource = path.join(repoRoot, "research", "people");
 const companionTarget = path.join(projectRoot, "research", "companions");
 const highlightsSource = path.join(repoRoot, "research", "highlights.md");
 const highlightsTarget = path.join(projectRoot, "research", "highlights.md");
+const keyResearchTarget = path.join(projectRoot, "key-research");
+const keyResearchSources = [
+  {
+    source: path.join(repoRoot, "research", "case-files", "john-gurney-case-file-v4.md"),
+    target: path.join(keyResearchTarget, "john-gurney-case-file.md"),
+  },
+  {
+    source: path.join(repoRoot, "research", "case-files", "brigadier-general-william-gurney.md"),
+    target: path.join(keyResearchTarget, "brigadier-general-william-gurney.md"),
+  },
+];
 
 function ensureDir(dir) {
   fs.mkdirSync(dir, { recursive: true });
@@ -87,7 +98,19 @@ function syncResearchHighlights() {
   return true;
 }
 
+function syncKeyResearch() {
+  ensureDir(keyResearchTarget);
+
+  return keyResearchSources
+    .filter(item => fs.existsSync(item.source))
+    .map(item => {
+      fs.copyFileSync(item.source, item.target);
+      return path.basename(item.target);
+    }).length;
+}
+
 const factCount = syncFactSheets();
 const companionCount = syncResearchCompanions();
 const highlightsSynced = syncResearchHighlights();
-console.log(`Synced ${factCount} fact sheets, ${companionCount} research companions, and ${highlightsSynced ? 1 : 0} highlights file into the site source.`);
+const keyResearchCount = syncKeyResearch();
+console.log(`Synced ${factCount} fact sheets, ${companionCount} research companions, ${highlightsSynced ? 1 : 0} highlights file, and ${keyResearchCount} key research files into the site source.`);

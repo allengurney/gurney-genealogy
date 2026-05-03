@@ -34,15 +34,15 @@ The following colonial-era facts serve as the baseline for identifying which Eng
 
 | Fact | Detail | Genealogy Source |
 |---|---|---|
-| **Occupation** | Tailor | Sprague, p. 695 |
-| **First recorded in <br />Colonial America** | June 1641, fined at Weymouth | MBCR 1:331 |
-| **Settlement** | Braintree, Massachusetts | Sprague; Anderson GMD |
-| **Birth estimate** | c.1603 (stated "aged about 50" in 1653 deposition) | Wilson v. Faxon, 1653 |
-| **Wife** | Mary (maiden name unknown), d. 20 Sept 1661 | Braintree vital records |
-| **Second wife** | Grizzell Fletcher, m. 12 Nov 1661 (her 4th husband) | Braintree vital records |
-| **Children** <br />(born in England) | Sarah (b unknown), Mary (bc.1628), Richard (bc.1630), John Jr. (bc.1633), Peter (bc.1635-40) + potentially Isaac (uncertain) | Sprague; compiled sources |
-| **Estate** | £55.14.6; died intestate; inventory 16 Mar 1662/63 | SPR Case #338 |
-| **Religion** | Settled in Puritan community | Context |
+| **Occupation** | Tailor | Sprague, p. 695<sup class="fn"><a href="#n2" id="ref-2">2</a></sup> |
+| **First recorded in <br />Colonial America** | June 1641, fined at Weymouth | MBCR 1:331<sup class="fn"><a href="#n3" id="ref-3">3</a></sup> |
+| **Settlement** | Braintree, Massachusetts | Sprague; Anderson GMD<sup class="fn"><a href="#n4" id="ref-4">4</a></sup> |
+| **Birth estimate** | c.1603 (stated "aged about 50" in 1653 deposition) | Wilson v. Faxon, 1653<sup class="fn"><a href="#n5" id="ref-5">5</a></sup> |
+| **Wife** | Mary (maiden name unknown), d. 20 Sept 1661 | Braintree vital records<sup class="fn"><a href="#n6" id="ref-6">6</a></sup> |
+| **Second wife** | Grizzell Fletcher, m. 12 Nov 1661 (her 4th husband) | Braintree vital records<sup class="fn"><a href="#n7" id="ref-7">7</a></sup> |
+| **Children** <br />(born in England) | Sarah (b unknown), Mary (bc.1628), Richard (bc.1630), John Jr. (bc.1633), Peter (bc.1635-40) + potentially Isaac (uncertain) | Sprague; compiled sources<sup class="fn"><a href="#n8" id="ref-8">8</a></sup> |
+| **Estate** | £55.14.6; died intestate; inventory 16 Mar 1662/63 | SPR Case #338<sup class="fn"><a href="#n9" id="ref-9">9</a></sup> |
+| **Religion** | Settled in Puritan community | Context<sup class="fn"><a href="#n10" id="ref-10">10</a></sup> |
 
 **Key identifiers for matching:** Any English candidate must plausibly account for a tailor named John Gurney, married to a woman named Mary, with children including Sarah, Mary, Richard, John, and Peter, born in England c.1600–1612, who disappeared from English records by c.1641.
 
@@ -211,7 +211,7 @@ The ages of the colonial John Gurney's children meant they were most probably bo
 | **Eythorne** | Kent | John 1638, Edward 1641 | John | Mary Marsh | (2/5)* **Low probability** |
 | **Toddington** | Beds | John 1630 | John | Elizabeth Moreton | (1/5)* **Low probability** |
 
-. * Note: Dates of birth +/- > 2 years from targets. Very common first names.    
+. * Note: Dates of birth +/- > 2 years from targets. Very common first names.
 
 ### 6.2 The Peter Anomaly
 
@@ -424,7 +424,16 @@ Davis, *Ancestry of Abel Lunt* (1963). • Laslett, *World We Have Lost* (1965).
 <h2 id="citation-index">CITATION INDEX</h2>
 
 <ol class="endnotes">
-  <li id="n1">Anderson, <em>Great Migration Directory</em> (2025), p. 158. <a class="backref" href="#ref-1">↩</a></li>
+  <li id="n1">Robert Charles Anderson, <em>The Great Migration Directory: Immigrants to New England, 1620–1640: A Concise Compendium</em>, 2nd ed. (Boston: New England Historic Genealogical Society, 2025), p. 158, entry for John Gurney: origin "Unknown," arrival 1636, settlements Boston and Braintree. Source ID: <code>anderson-gmd-2015</code>. <a class="backref" href="#ref-1">↩</a></li>
+  <li id="n2">Waldo Chamberlain Sprague, <em>Genealogies of the Families of Braintree, Mass., 1640–1850</em> (Boston: New England Historic Genealogical Society, 2001), p. 695, John Gurney entry; see also Samuel A. Bates, <em>The Ancient Iron Works at Braintree, Mass.: The First in America</em> (South Braintree, Mass.: Frank A. Bates, 1898), p. 10, 12 Feb. 1661 conveyance identifying "John Gurney, Taylor." Source ID: <code>sprague-braintree</code>. <a class="backref" href="#ref-2">↩</a></li>
+  <li id="n3">Nathaniel B. Shurtleff, ed., <em>Records of the Governor and Company of the Massachusetts Bay in New England</em>, vol. 1, 1628–1641 (Boston: William White, 1853), p. 331, June 1641 General Court record; cited for John Gurney by Anderson, <em>Great Migration Directory</em>, p. 158. Source ID: <code>anderson-gmd-2015</code>. <a class="backref" href="#ref-3">↩</a></li>
+  <li id="n4">Sprague, <em>Genealogies of the Families of Braintree</em>, p. 695; Anderson, <em>Great Migration Directory</em>, p. 158, entry listing John Gurney with settlements "Boston, Braintree." Source IDs: <code>sprague-braintree</code>; <code>anderson-gmd-2015</code>. <a class="backref" href="#ref-4">↩</a></li>
+  <li id="n5">"Notes: Braintree, Mass., Items," <em>New England Historical and Genealogical Register</em>, vol. 62 (January 1908), p. 94, Suffolk Court Files item no. 188, "John Gurney of Brayntree aged 50 Yeares or therea-abouts," dated 17-1-1652/3, https://archive.org/details/newenglandhisto19unkngoog/page/94/mode/2up. Source ID: <code>nehgr-62-94</code>. <a class="backref" href="#ref-5">↩</a></li>
+  <li id="n6">Braintree, Massachusetts, town vital records, death entry for Mary Gurney, 20 Sept. 1661; Sprague, <em>Genealogies of the Families of Braintree</em>, p. 695, John Gurney entry, treating Mary's maiden name as unknown. Source ID: <code>sprague-braintree</code>. <a class="backref" href="#ref-6">↩</a></li>
+  <li id="n7">Braintree, Massachusetts, town vital records, marriage entry for John Gurney and Grizzell Fletcher, 12 Nov. 1661; Mary Lovering Holman, "Grissell of the Many Marriages," <em>The American Genealogist</em>, vol. 10 (1933), pp. 70–73, for Grizzell's sequence of marriages and John as her fourth husband. Source ID: <code>tag-10-70</code>. <a class="backref" href="#ref-7">↩</a></li>
+  <li id="n8">Sprague, <em>Genealogies of the Families of Braintree</em>, p. 695, listing John Gurney's children Sarah, Mary, Richard, John, and Peter; <em>History of Weymouth, Massachusetts</em>, 4 vols. (Weymouth, Mass.: Weymouth Historical Society, 1923), vol. 3, p. 251, compiled John Gurney family entry. Source IDs: <code>sprague-braintree</code>; <code>history-of-weymouth</code>. <a class="backref" href="#ref-8">↩</a></li>
+  <li id="n9">Suffolk County, Massachusetts, Suffolk Probate Records, Case #338, John Gurney estate, inventory dated 16 Mar. 1662/63; cited in Anderson, <em>Great Migration Directory</em>, p. 158. Source ID: <code>anderson-gmd-2015</code>. <a class="backref" href="#ref-9">↩</a></li>
+  <li id="n10">David Hackett Fischer, <em>Albion's Seed: Four British Folkways in America</em> (New York: Oxford University Press, 1989), pp. 13–205, especially the Puritan migration context for Massachusetts Bay; Anderson, <em>Great Migration Directory</em>, p. 158, places John Gurney in the Great Migration-era Massachusetts settlements of Boston and Braintree. Source ID: <code>anderson-gmd-2015</code>. <a class="backref" href="#ref-10">↩</a></li>
   <li id="n11">Daniel Gurney, <em>Record</em>, Part III, pp. 525–526. <a class="backref" href="#ref-11">↩</a></li>
   <li id="n12">Daniel Gurney, <em>Record</em>, Part III. <a class="backref" href="#ref-12">↩</a></li>
   <li id="n13">DG Record, App. C. <a class="backref" href="#ref-13">↩</a></li>

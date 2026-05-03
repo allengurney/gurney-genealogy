@@ -34,17 +34,17 @@ The following colonial-era facts serve as the baseline for identifying which Eng
 
 | Fact | Detail | Genealogy Source |
 |---|---|---|
-| **Occupation** | Tailor | Sprague, p. 695 |
-| **First recorded in <br />Colonial America** | June 1641, fined at Weymouth | MBCR 1:331 |
-| **Settlement** | Braintree, Massachusetts | Sprague; Anderson GMD |
-| **Birth estimate** | c.1603 (stated "aged about 50" in 1653 deposition) | Wilson v. Faxon, 1653 |
-| **Wife** | Mary (maiden name unknown), d. 20 Sept 1661 | Braintree vital records |
-| **Second wife** | Grizzell Fletcher, m. 12 Nov 1661 (her 4th husband) | Braintree vital records |
-| **Children** <br />(born in England) | Sarah (b unknown), Mary (bc.1628), Richard (bc.1630), John Jr. (bc.1633), Peter (bc.1635-40) + potentially Isaac (uncertain) | Sprague; compiled sources |
-| **Estate** | £55.14.6; died intestate; inventory 16 Mar 1662/63 | SPR Case #338 |
-| **Religion** | Settled in Puritan community | Context |
+| **Occupation** | Tailor | Sprague, p. 695<sup class="fn"><a href="#n2" id="ref-2">2</a></sup> |
+| **First recorded in <br />Colonial America** | June 1641, fined at Weymouth | MBCR 1:331<sup class="fn"><a href="#n3" id="ref-3">3</a></sup> |
+| **Settlement** | Braintree, Massachusetts | Sprague; Anderson GMD<sup class="fn"><a href="#n4" id="ref-4">4</a></sup> |
+| **Birth estimate** | c.1603 (stated "aged about 50" in 1653 deposition) | Wilson v. Faxon, 1653<sup class="fn"><a href="#n5" id="ref-5">5</a></sup> |
+| **Wife** | Mary (maiden name unknown), d. 20 Sept 1661 | Braintree vital records<sup class="fn"><a href="#n6" id="ref-6">6</a></sup> |
+| **Second wife** | Grizzell Fletcher, m. 12 Nov 1661 (her 4th husband) | Braintree vital records<sup class="fn"><a href="#n7" id="ref-7">7</a></sup> |
+| **Children** <br />(born in England) | Sarah (b unknown), Mary (bc.1628), Richard (bc.1630), John Jr. (bc.1633), Peter (bc.1635-40) + potentially Isaac (uncertain) | Sprague; compiled sources<sup class="fn"><a href="#n8" id="ref-8">8</a></sup> |
+| **Estate** | £55.14.6; died intestate; inventory 16 Mar 1662/63 | SPR Case #338<sup class="fn"><a href="#n9" id="ref-9">9</a></sup> |
+| **Religion** | Settled in Puritan community | Context<sup class="fn"><a href="#n10" id="ref-10">10</a></sup> |
 
-**Key identifiers for matching:** Any English candidate must plausibly account for a tailor named John Gurney, married to a woman named Mary, with children including Sarah, Mary, Richard, John, and Peter, born c.1600–1612, who disappeared from English records by c.1641.
+**Key identifiers for matching:** Any English candidate must plausibly account for a tailor named John Gurney, married to a woman named Mary, with children including Sarah, Mary, Richard, John, and Peter, born in England c.1600–1612, who disappeared from English records by c.1641.
 
 ### The Central Question
 
@@ -82,7 +82,7 @@ Genealogist Daniel Gurney noted that Francis's "commercial life began at Norwich
 This marriage record, discovered in March 2026 in the Norfolk Record Office parish register PD 12/1, is the single most important primary source finding of this research project. Genealogist Daniel Gurney, despite decades of family research in the 1800's, never found this record. The discovery confirms:
 
 1. Francis had a first wife before Anne Browning — resolving the unexplained thirteen-year gap between his freedom (1606) and the first recorded child at St. Benet Fink, London (1619).
-2. The marriage was at Norwich, confirming Daniel Gurney's statement about Francis's Norwich commercial origins.
+2. The marriage was at Norwich, in the geographic corridor of Francis Gurney's family and strong alignment with genealogist Daniel Gurney's statement about Francis's Norwich commercial origins.
 3. The Pease genealogy's claim of a "Margaret Ryvett" first marriage, transmitted from an American researcher (Philis Wainford) through Sir Joseph Gurney Pease, Bt., is now validated by primary source evidence.
 
 </div>
@@ -163,7 +163,7 @@ A comprehensive review of the East Dereham parish register (NRO PD 86/41, coveri
 | **D** | Marye | 25 May 1618 | 00736 | Confirmed |
 | **E** | **John** | **c.1609/10** | **00715** | **Probable** |
 
-**These dates should be understood as estimates with a margin of approximately ±2–3 years.** Year dating was not readily apparent on the individual pages. In contemporary handwriting, one page in the range had a year date listed (accuracy unknown) which was leveraged to estimate the year for that page and based on chronological progression dated the surrounding pages
+**These dates should be understood as estimates with a margin of approximately ±2–3 years.** Year dating was not readily apparent on the individual pages. In contemporary handwriting, one page in the range had a year date listed (accuracy unknown) which was leveraged to estimate the year for that page and the surrounding pages are based on estimated chronological progression.
 
 ### 4.3 The Entry E Complication: Before or After the Marriage?
 
@@ -206,10 +206,12 @@ The ages of the colonial John Gurney's children meant they were most probably bo
 
 | Parish | County | Gurney Baptism records | Father | Mother | Assessment |
 |---|---|---|---|---|---|
-| **Berkhamsted** | Herts | Richard 1626, Sara 1634 (2/5) | John Gurnie | Unknown | **Low probability** |
-| **Aylesbury/Hitcham** | Bucks | Mary 1631, John 1638, Sarah 1639 (3/5) | John Gurney | Unknown | **Low probability** |
-| **Eythorne** | Kent | John 1638, Edward 1641 | John | Mary Marsh | **Low probability** |
-| **Toddington** | Beds | John 1630 | John | Elizabeth Moreton | **Low probability** |
+| **Berkhamsted** | Herts | Richard 1626, Sara 1634 | John Gurnie | Unknown | (2/5)* **Low probability** |
+| **Aylesbury/Hitcham** | Bucks | Mary 1631, John 1638, Sarah 1639 | John Gurney | Unknown | (3/5)* **Low probability** |
+| **Eythorne** | Kent | John 1638, Edward 1641 | John | Mary Marsh | (2/5)* **Low probability** |
+| **Toddington** | Beds | John 1630 | John | Elizabeth Moreton | (1/5)* **Low probability** |
+
+. * Note: Dates of birth +/- > 2 years from targets. Very common first names.
 
 ### 6.2 The Peter Anomaly
 
@@ -319,7 +321,7 @@ Charles Edward Banks (1937) placed John at Bury St. Edmunds, Suffolk, within a d
 | 5 | ★ Margaret Rybett marriage confirmed | Strong | Francis had a first wife — children from this 1611 marriage are exactly the right generation for the emigrant. |
 | 6 | ★ John Gurney baptism record (Francis Gurney) | Moderate-strong | Primary source record of a John born to Francis Gurney in the target community. |
 | 7 | Historical record stating Francis had "several children" unrecorded | Opens possibility | Daniel Gurney explicitly acknowledged gaps in his documentation — room exists for a son John from the first marriage. |
-| 8 | Ann Gurney / Gilman connection at Hingham | Moderate | A probable sister married into a Norfolk textile family at Hingham — ancient Gurney family territory. Her son emigrated to New England. |
+| 8 | Ann Gurney / Gilman connection at Hingham | Moderate | A probable sister to John married into a Norfolk textile family at Hingham — ancient Gurney family territory. Her son emigrated to New England. |
 | 9 | Essex social network | Strong (cumulative) | John-1's colonial world (son-in-law Shed from Essex, landlord Tyng from Essex, Braintree MA named for Braintree Essex) maps to Francis's second wife's family connections. |
 | 10 | Coleman Street emigrant hub | Strong (context) | Francis's parish adjoined London's most active Puritan emigration center — Davenport, Eaton, and the Hector voyage originated yards from St Benet Fink. |
 | 11 | William Gurney at Coleman Street | Moderate-suggestive | A Gurney living in the radical Puritan parish next to Francis's own — identity unknown but notable proximity. |
@@ -328,6 +330,10 @@ Charles Edward Banks (1937) placed John at Bury St. Edmunds, Suffolk, within a d
 | 14 | Daniel Gurney hedged on "eldest" | Moderate | Daniel was uncertain whether Roger was truly Francis' firstborn — room for an older, unknown son from the first marriage. |
 | 15 | Rivett cluster near East Dereham | Moderate | Margaret's Ryvett family had a documented presence near East Dereham — Richard Ryvett of Gressenhall could be the source of John-1's son Richard's name. |
 | 16 | Pease genealogy claim confirmed | Moderate | The Margaret Ryvett claim, long unverified family tradition, has now been validated by primary source evidence from NRO PD 12/1. Lends credence to other details in genealogy that align to this case file. |
+| 17 | American Gurney arms | Moderate if early; weak if late | A 1926 American biographical entry says arms kept by American Gurneys connected them with the Norfolk Gurneys. The lead supports Candidate B only if an early American object or manuscript witness can be found. |
+
+<h4>Supplemental heraldic family-memory lead: American Gurney arms</h4>
+<p>A 1926 American biographical entry for David Allston Gurney repeats the colonial Gurney descent and states that arms kept by the American Gurneys connected the family with the Norfolk Gurneys. This is not parentage proof: the entry is derivative, repeats the problematic 1615/Southwark tradition, and the arms themselves have not yet been traced to an object, seal, bookplate, gravestone, Bible, or family paper. Still, if the American arms can be shown to descend from the Braintree/Weymouth line rather than from nineteenth-century antiquarian copying, they would be a moderate positive indicator for Candidate B because Francis Gurney's family belonged to the Norfolk line using the cross engrailed arms.<sup class="fn"><a href="#n66" id="ref-66">66</a></sup></p>
 
 #### Against Candidate B
 
@@ -339,6 +345,7 @@ Charles Edward Banks (1937) placed John at Bury St. Edmunds, Suffolk, within a d
 | 4 | No child of John-1 named Francis | Moderate negative | The strongest naming-pattern argument against the hypothesis. |
 | 5 | Peter absent from all Gurney families | Neutral-to-weak negative | The name is foreign to every Gurney branch — but it likely comes from wife Mary's unknown family, not necessarily a disproof of Candidate B. |
 | 6 | No record in England of John's marriage to Mary | Moderate negative | Marriage record would significantly strengthen probability |
+| 7 | Lack of known baptism records for John's children born in England | Moderate-suggestive | Records may exist but have not been located. |
 
 
 <h2 id="s12">11. PROBABILITY ASSESSMENT</h2>
@@ -360,10 +367,11 @@ Charles Edward Banks (1937) placed John at Bury St. Edmunds, Suffolk, within a d
 
 ### For Strong Supporting Evidence
 
-1. **Haberdashers' Company 1632 apprentice detail record.** Father's name for John Gurney.
-2. **Margaret Rybett burial.** East Dereham, Norwich, Garveston, Gressenhall, or Shipdham c.1616–1617.
-3. **Ryvett/Rivett pedigrees.** Suffolk Record Office, HD2418/88.
-4. **Francis Gurney's will or administration.** PCC indexes 1637–1660; Archdeaconry of Norwich; London Commissary Court.
+1. **Margaret Rybett burial.** East Dereham, Norwich, Garveston, Gressenhall, or Shipdham c.1616–1617.
+2. **Ryvett/Rivett pedigrees.** Suffolk Record Office, HD2418/88.
+3. **Francis Gurney's will or administration.** PCC indexes 1637–1660; Archdeaconry of Norwich; London Commissary Court.
+
+4. **American Gurney arms.** Locate the earliest object, seal, Bible, bookplate, gravestone, manuscript, or family paper preserving the arms used by the American Gurneys; determine the exact blazon and whether the usage predates printed antiquarian borrowing.
 
 ### Other Leads
 
@@ -416,7 +424,16 @@ Davis, *Ancestry of Abel Lunt* (1963). • Laslett, *World We Have Lost* (1965).
 <h2 id="citation-index">CITATION INDEX</h2>
 
 <ol class="endnotes">
-  <li id="n1">Anderson, <em>Great Migration Directory</em> (2025), p. 158. <a class="backref" href="#ref-1">↩</a></li>
+  <li id="n1">Robert Charles Anderson, <em>The Great Migration Directory: Immigrants to New England, 1620–1640: A Concise Compendium</em>, 2nd ed. (Boston: New England Historic Genealogical Society, 2025), p. 158, entry for John Gurney: origin "Unknown," arrival 1636, settlements Boston and Braintree. Source ID: <code>anderson-gmd-2015</code>. <a class="backref" href="#ref-1">↩</a></li>
+  <li id="n2">Waldo Chamberlain Sprague, <em>Genealogies of the Families of Braintree, Mass., 1640–1850</em> (Boston: New England Historic Genealogical Society, 2001), p. 695, John Gurney entry; see also Samuel A. Bates, <em>The Ancient Iron Works at Braintree, Mass.: The First in America</em> (South Braintree, Mass.: Frank A. Bates, 1898), p. 10, 12 Feb. 1661 conveyance identifying "John Gurney, Taylor." Source ID: <code>sprague-braintree</code>. <a class="backref" href="#ref-2">↩</a></li>
+  <li id="n3">Nathaniel B. Shurtleff, ed., <em>Records of the Governor and Company of the Massachusetts Bay in New England</em>, vol. 1, 1628–1641 (Boston: William White, 1853), p. 331, June 1641 General Court record; cited for John Gurney by Anderson, <em>Great Migration Directory</em>, p. 158. Source ID: <code>anderson-gmd-2015</code>. <a class="backref" href="#ref-3">↩</a></li>
+  <li id="n4">Sprague, <em>Genealogies of the Families of Braintree</em>, p. 695; Anderson, <em>Great Migration Directory</em>, p. 158, entry listing John Gurney with settlements "Boston, Braintree." Source IDs: <code>sprague-braintree</code>; <code>anderson-gmd-2015</code>. <a class="backref" href="#ref-4">↩</a></li>
+  <li id="n5">"Notes: Braintree, Mass., Items," <em>New England Historical and Genealogical Register</em>, vol. 62 (January 1908), p. 94, Suffolk Court Files item no. 188, "John Gurney of Brayntree aged 50 Yeares or therea-abouts," dated 17-1-1652/3, https://archive.org/details/newenglandhisto19unkngoog/page/94/mode/2up. Source ID: <code>nehgr-62-94</code>. <a class="backref" href="#ref-5">↩</a></li>
+  <li id="n6">Braintree, Massachusetts, town vital records, death entry for Mary Gurney, 20 Sept. 1661; Sprague, <em>Genealogies of the Families of Braintree</em>, p. 695, John Gurney entry, treating Mary's maiden name as unknown. Source ID: <code>sprague-braintree</code>. <a class="backref" href="#ref-6">↩</a></li>
+  <li id="n7">Braintree, Massachusetts, town vital records, marriage entry for John Gurney and Grizzell Fletcher, 12 Nov. 1661; Mary Lovering Holman, "Grissell of the Many Marriages," <em>The American Genealogist</em>, vol. 10 (1933), pp. 70–73, for Grizzell's sequence of marriages and John as her fourth husband. Source ID: <code>tag-10-70</code>. <a class="backref" href="#ref-7">↩</a></li>
+  <li id="n8">Sprague, <em>Genealogies of the Families of Braintree</em>, p. 695, listing John Gurney's children Sarah, Mary, Richard, John, and Peter; <em>History of Weymouth, Massachusetts</em>, 4 vols. (Weymouth, Mass.: Weymouth Historical Society, 1923), vol. 3, p. 251, compiled John Gurney family entry. Source IDs: <code>sprague-braintree</code>; <code>history-of-weymouth</code>. <a class="backref" href="#ref-8">↩</a></li>
+  <li id="n9">Suffolk County, Massachusetts, Suffolk Probate Records, Case #338, John Gurney estate, inventory dated 16 Mar. 1662/63; cited in Anderson, <em>Great Migration Directory</em>, p. 158. Source ID: <code>anderson-gmd-2015</code>. <a class="backref" href="#ref-9">↩</a></li>
+  <li id="n10">David Hackett Fischer, <em>Albion's Seed: Four British Folkways in America</em> (New York: Oxford University Press, 1989), pp. 13–205, especially the Puritan migration context for Massachusetts Bay; Anderson, <em>Great Migration Directory</em>, p. 158, places John Gurney in the Great Migration-era Massachusetts settlements of Boston and Braintree. Source ID: <code>anderson-gmd-2015</code>. <a class="backref" href="#ref-10">↩</a></li>
   <li id="n11">Daniel Gurney, <em>Record</em>, Part III, pp. 525–526. <a class="backref" href="#ref-11">↩</a></li>
   <li id="n12">Daniel Gurney, <em>Record</em>, Part III. <a class="backref" href="#ref-12">↩</a></li>
   <li id="n13">DG Record, App. C. <a class="backref" href="#ref-13">↩</a></li>
@@ -458,6 +475,7 @@ Davis, *Ancestry of Abel Lunt* (1963). • Laslett, *World We Have Lost* (1965).
   <li id="n62">Protestation Returns 1641–42; Calder, <em>New Haven Colony</em> (1934). <a class="backref" href="#ref-62">↩</a></li>
   <li id="n64">Banks, <em>Topographical Dictionary</em> (1937), p. 151. <a class="backref" href="#ref-64">↩</a></li>
     <li id="n65">Bernau, <em>British Archivist</em> vol. I, no. 7 (September 1913), "His Parents' Children" section, item 9, citing Lay Subsidy 246/22 (1674 Hearth Tax). Corpus extract at <code>sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md</code>. Source ID: <code>british-archivist-bernau-1913</code>. <a class="backref" href="#ref-65">↩</a></li>
+  <li id="n66"><em>American Biography: A New Cyclopedia</em>, illustrated vol. 26 (New York: The American Historical Society, Inc., 1926), David Allston Gurney/Gurney family entry, pp. 230-255; Google Books, <a href="https://www.google.com/books/edition/American_Biography/tnkKAQAAMAAJ">https://www.google.com/books/edition/American_Biography/tnkKAQAAMAAJ</a>. Source ID: <code>american-biography-cyclopedia-v26-gurney-1926</code>. Pettigrew separately summarizes the Norfolk arms as argent, a cross engrailed gules: T. J. Pettigrew, "On the House of Gournay," <em>Collectanea Archaeologica</em>, vol. 2 (London: Longmans, Green, and Co., 1871), p. 206. Source ID: <code>pettigrew-collectanea-house-gournay-1871</code>. <a class="backref" href="#ref-66">â†©</a></li>
 </ol>
 
 *Case File V4 — April 2026. Supersedes V3 (April 2026). Prepared by Allen Lawrence Gurney with AI research assistance.*
