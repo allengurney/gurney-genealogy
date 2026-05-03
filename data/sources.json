@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.5.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-05-02",
+    "lastUpdated": "2026-05-03",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
@@ -1127,6 +1127,83 @@
       "mediaPath": null,
       "validationPath": "sources/validations/mosaic-dvd-hugue-de-gournay.md",
       "notes": "Derivative people-page summary for Hugue/Hugo de Gournay, Battle Abbey Roll context, the senior Gournay line, and the Somerset and Norfolk younger branches. Use as corroborative derivative synthesis only."
+    },
+    "planche-conqueror-companions-1874": {
+      "shortTitle": "Planche, The Conqueror and His Companions",
+      "citation": "Planche, J. R. The Conqueror and His Companions. Vol. 1. London: Tinsley Brothers, 1874.",
+      "archive": "1066.co.nz electronic edition / user-supplied markdown",
+      "url": "https://www.1066.co.nz/Mosaic%20DVD/library/conquerorcompanion/companion.htm",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/planche-conqueror-companions-hugh-de-gournay.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/planche-conqueror-companions-1874.md",
+      "notes": "Derivative nineteenth-century synthesis. Relevant for Hugh de Gournay section, 1035 expedition, Mortemer, Hastings variants, Cardiff death tradition, Gerard/Gundred/Monceaux collateral notes, and Gournay/Pays de Bray place context. Use as comparison source, not controlling proof over DG, Hannay, charter, Domesday, or Orderic."
+    },
+    "palgrave-history-england-normandy-1864": {
+      "shortTitle": "Palgrave, History of England and Normandy",
+      "citation": "Palgrave, Francis. The History of England and Normandy. London: Macmillan and Co., 1864.",
+      "archive": "1066.co.nz electronic edition / user-supplied markdown",
+      "url": "https://www.1066.co.nz/Mosaic%20DVD/library/palgrave/palgrave.htm",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/palgrave-history-england-normandy-gournay-extracts.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/palgrave-history-england-normandy-1864.md",
+      "notes": "Derivative narrative history. Relevant for Hugh Gournay at Mortemer, Pays de Bray geography, Gerberoi proximity to Gournay, and Hugh de Gournay as mediator between William I and Robert Curthose."
+    },
+    "cleveland-battle-abbey-roll-introduction": {
+      "shortTitle": "Cleveland, Battle Abbey Roll introduction",
+      "citation": "Cleveland, Duchess of. The Battle Abbey Roll, with Some Account of the Norman Lineages. Vol. 1, introduction.",
+      "archive": "1066.co.nz electronic edition / user-supplied markdown",
+      "url": "https://www.1066.co.nz/Mosaic%20DVD/library/Battle%20Roll/introduction.html",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/cleveland-battle-abbey-roll-introduction-gurnay.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/cleveland-battle-abbey-roll-introduction.md",
+      "notes": "Battle Abbey Roll introduction and list comparison. Relevant for Gournay/Gurnay/Gurney roll variants, duplicate Hue de Gourney/Hue earl of Gournay forms, and caution about roll incompleteness/interpolation."
+    },
+    "wansey-medieval-genealogy-1925": {
+      "shortTitle": "Wansey, ancient family of the Wanseys",
+      "citation": "\"Genealogy of the ancient Family of the Wanseys olim Waunci,\" copied from William Wansey, F.S.A., manuscript books on the Wansey family, 1873; PDF hosted by Nick Delves, 1925 file naming.",
+      "archive": "Nick Delves Wansey family site / local media",
+      "url": "https://www.nickdelves.co.uk/wansey/wansey/1925_08Wansey_Family_Tree_Medieval_Genealogy.pdf",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": "sources/media/1925_08Wansey_Family_Tree_Medieval_Genealogy.pdf",
+      "validationPath": "sources/validations/wansey-medieval-genealogy-1925.md",
+      "notes": "Image-only four-page Wansey/Wauncy pedigree PDF. User-supplied source-associated extract reports Edmund Gorney d. 1387; Katherine surviving until 3 Henry IV; son John Gurney married Alice Bavard, was knight of the shire in 6 Henry IV, and died in 9 Henry IV. Use as a direct conflict note against HoP/DG wife-name and date details."
+    },
+    "pettigrew-collectanea-house-gournay-1871": {
+      "shortTitle": "Pettigrew, On the House of Gournay",
+      "citation": "Pettigrew, T. J. \"On the House of Gournay.\" Collectanea Archaeologica: Communications Made to the British Archaeological Association, vol. 2. London: Longmans, Green, and Co., 1871, pp. 174-218.",
+      "archive": "Google Books / local media PDF",
+      "url": "https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/pettigrew-collectanea-house-gournay-1871.txt",
+      "mediaPath": "sources/media/Collectanea_Archaeologica.pdf",
+      "validationPath": "sources/validations/pettigrew-collectanea-house-gournay-1871.md",
+      "notes": "Public-domain British Archaeological Association paper reviewing Daniel Gurney's privately printed Record of the House of Gournay. Useful as an accessible page-scoped digest for the Gournay-en-Bray church/fortification landscape, La Ferte and Sigy charter complex, early G32-G37 genealogy, Norfolk merchant/Keswick line, heraldry, and the Somerset collateral Gournays."
+    },
+    "american-biography-cyclopedia-v26-gurney-1926": {
+      "shortTitle": "American Biography, vol. 26 - Gurney",
+      "citation": "American Biography: A New Cyclopedia. Illustrated vol. 26. New York: The American Historical Society, Inc., 1926, David Allston Gurney/Gurney family entry, pp. 230-255.",
+      "archive": "Google Books; user-supplied extract",
+      "url": "https://www.google.com/books/edition/American_Biography/tnkKAQAAMAAJ",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/american-biography-cyclopedia-v26-gurney-1926.md",
+      "notes": "Derivative American-line biographical/genealogical entry. User extract includes John Gurney of Braintree, a probable Southwark origin tradition, and the statement that arms kept by American Gurneys show connection with the Norfolk Gurneys. Use the arms statement as a moderate positive family-memory/heraldic lead for Candidate B; do not use the birth/Southwark assertions as controlling facts."
+    },
+    "farrer-honors-knights-fees-v3-gurnay-extracts": {
+      "shortTitle": "Farrer, Honors and Knights' Fees, vol. 3 - Gurnay extracts",
+      "citation": "Farrer, William. Honors and Knights' Fees: An Attempt to Identify the Component Parts of Certain Honors and to Trace the Descent of the Tenants of the Same Who Held by Knight's Service or Serjeanty from the Eleventh to the Fourteenth Century. Vol. 3. London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925, selected Gurnay/Gournay pages.",
+      "archive": "HathiTrust public-domain PDF extract",
+      "url": "https://hdl.handle.net/2027/mdp.39015032992151",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/farrer-honors-knights-fees-v3-gurnay-extracts.txt",
+      "mediaPath": "sources/media/mdp-39015032992151-158-312-314-333-406-407-436-439-1777765448.pdf",
+      "validationPath": "sources/validations/farrer-honors-knights-fees-v3-gurnay-extracts.md",
+      "notes": "Public-domain HathiTrust extract pages for Gurnay/Gournay/Gurney entries. Especially useful for the Stutevill/Gurnai fee in South Wootton, Bedingham, and Kimberley; John de Gurney at Evesham; Honor of Warenne tenant table; Mapledurham/Wendover/Houghton Regis/Bledlow/Cantley/Caister/Swathings evidence."
     },
     "swann-chethams-library-ms-a4-15-2016": {
       "shortTitle": "Swann, Chetham's Library MS A.4.15",

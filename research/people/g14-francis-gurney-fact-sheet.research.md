@@ -14,6 +14,12 @@ A British History Online HMC calendar entry supplies an additional source for Fr
 
 This source is valuable because it names Francis by London civic/trade identity and links him directly to a Norfolk poor-employment textile scheme. It supports the existing picture of Francis as a London Merchant Taylor operating in Norfolk commercial and civic networks before the family's later financial contraction.
 
+### Pettigrew on Francis Gurnay of London and the Keswick commercial line
+
+Pettigrew's digest of DG gives a useful public-domain restatement of Francis Gurnay of London's place in the later Norfolk/Keswick branch. Francis was the sixth son of Henry Gurnay of West Barsham and Great Ellingham by Ellen Blennerhassett, was admitted to the Merchant Taylors' Company on 16 June 1606, lived in St Benet Fink, and married a daughter of William Browning, merchant of Norwich. Pettigrew also prints the King's Lynn worsted-yarn enterprise terms, including the corporation's loan to Francis Gurnay of London, Ambrose Tompson of Thetford, and Martyne Hill of Ellingham to provide wool and materials and teach poor children and poor inhabitants to spin worsted yarn and do related work.[^pettigrew-francis-g14]
+
+The same section connects Francis to the later commercial Gurneys without making them part of the American-line proof. Francis's second son Francis of Maldon had an eldest son John, born in 1655, apprenticed to Daniel Gilman of Norwich, who entered the silk trade, married Elizabeth Swanton, became a Quaker, suffered imprisonment at Norwich in 1683/4, and laid the commercial foundation of the Gurneys of Keswick. This is useful background for the Norfolk textile/commercial world around Candidate B, but it is not direct evidence that John Gurney-1 of Braintree was Francis's son.[^pettigrew-francis-g14]
+
 ### Lestrange household references
 
 The Camden/Thoms notice of Sir Nicholas Lestrange's anecdote manuscript identifies several Gurney relatives in the Lestrange family context, including Ed. Gurney, N. Gurney, Ned Gurney, Fra. Gurney, Tho. Gurney, and Dorothy/Dol. Gurney. It identifies Francis Gurney as an uncle of Edward and "a merchant in London," with frequent mention of "Francis Gurney the merchant" in a Hunstanton account-book apparently written by Alice Lady Lestrange.[^thoms-lestrange-g14]
@@ -21,6 +27,7 @@ The Camden/Thoms notice of Sir Nicholas Lestrange's anecdote manuscript identifi
 That notice strengthens the social setting already known from Daniel Gurney: Francis's agency for the Lestranges was not an isolated employment relationship but sat inside a dense cousinage linking the Gurneys, Lewkenors, Lestranges, Stubb(e)s, Calthorpes, and Heydons.
 
 [^hmc-kings-lynn-francis]: Historical Manuscripts Commission, "The Borough of King's Lynn: Miscellaneous Writings," *Eleventh Report, Appendix, Part III*, British History Online, https://www.british-history.ac.uk/hist-mss-comm/vol11/pt3/pp235-247. Source ID: `bho-hmc-kings-lynn-misc-writings`.
+[^pettigrew-francis-g14]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 207-210, Google Books, https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ. Source ID: `pettigrew-collectanea-house-gournay-1871`.
 [^thoms-lestrange-g14]: William J. Thoms, ed., *Anecdotes and Traditions, Illustrative of Early English History and Literature, Derived from MS. Sources* (Camden Society, old series, vol. 5, 1839), prefatory notice, pp. xviii-xx; Internet Archive PDF lead, https://ia800805.us.archive.org/view_archive.php?archive=/13/items/crossref-pre-1909-scholarly-works/10.1017%252Fs1816968600039876.zip&file=10.1017%252Fs2042169900000870.pdf. Source ID: `thoms-anecdotes-traditions-1839`.
 
 ### Bernau, *The British Archivist* (September 1913)
@@ -183,6 +190,7 @@ Source entries align with `data/sources.json` where they exist. Bernau 1913 is p
 - `gournay-supp-reconstructed` — Bernau's 1858 loose supplement (reconstructed, `sources/corpus/gournay-supplement-reconstructed-v2.md`). Covers the London-to-Maldon branch.
 - `rye-norfolk-antiquarian` — Walter Rye, "The Gurneys of Norwich," *Norfolk Antiquarian Miscellany*. Foundational for the two-Francis problem and the Norwich plebeian lines (including the cordwainer / John-of-Norwich line that Bernau's "Problem" concerns).
 - **`british-archivist-bernau-1913`** (proposed) — Bernau's 1913 *British Archivist* article. Corpus at `sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md`. Validation at `sources/validations/british-archivist-bernau-1913.md`.
+- `pettigrew-collectanea-house-gournay-1871` - T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (1871), pp. 207-210. Public-domain digest of DG's Francis Gurnay of London, King's Lynn worsted-yarn, John Gurney of Norwich, and Keswick commercial-line material.
 
 ### Negative results and exclusions
 

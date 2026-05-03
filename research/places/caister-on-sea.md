@@ -43,6 +43,14 @@ Caister Castle (the fortified manor house built c. 1432–1446 by Sir John Fasto
 - Daniel Gurney, *Record of the House of Gournay*, Part I (1848), pp. 46–48. [DG-I]
 - `ancestors v23.json` G32 landholding entries.
 
+## Caister in the 1203 senior-line seizure
+
+Farrer gives Caister a precise King John-era seizure context. In May 1203, after Hugh de Gurnay withdrew from John's service, writs were issued to seize his lands in Normandy and England. Hugh's land in Cantley and Caister, the land of Hugh de Agee in Norfolk, and all other lands of Hugh de Gurnay "betrayor" in Norfolk and Suffolk were committed to John Marshal, son of William Marshal, Earl of Pembroke.[^farrer-caister-1203]
+
+The same Mapledurham section also records two marks of silver yearly from Caister as part of the gift to the Gaille-Fontaine/Clair-Ruissel nunnery by Hugh and Milicent, with the assent of their sons Gerard and Hugh. Caister therefore appears both as an income source in senior-line religious patronage and as a named place in the 1203 forfeiture crisis.[^farrer-caister-1203]
+
+[^farrer-caister-1203]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925), Mapledurham section, HathiTrust extract, https://hdl.handle.net/2027/mdp.39015032992151. Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
+
 ## Crosslinks
 
 - `research/people/g32-gerard-de-gournay-fact-sheet.research.md`

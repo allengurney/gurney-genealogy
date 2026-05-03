@@ -20,6 +20,13 @@ Research companion for `g37-eudes-de-gournay-fact-sheet.md`. See AI-Rules.md §3
 ### Dudo of Saint-Quentin — the "funiculo" passage
 2026-04-18 — The fact sheet quotes Dudo's phrase *terram fidelibus suis funiculo divisit* ("divided the land among his followers by the measurement of a rope"). Dudo's *De moribus et actis primorum Normanniae ducum* (c. 996–1015) is the earliest Norman chronicle but is hagiographic propaganda for the ducal line, not a reliable factual record. Modern scholars (Prentout 1916, Searle 1984, Shopkow 1989) have progressively reassessed Dudo's reliability. The "rope measurement" passage describes Rollo's land distribution but does not name specific recipients. No source contemporary with Eudes names him. The connection Eudes → Gournay rests entirely on later tradition transmitted through local Gournay histories (the *MS. Histoire des Seigneurs de Gournay*, cited repeatedly by DG and in the Supplement).
 
+### Planché on the Le Brai founding tradition
+2026-05-02 — Planché repeats the founding tradition in the language of Le Brai: the first Gournay was presumed to have been a follower of Rollo who received part of Le Brai after the Norse settlement, with Gournay, La Ferté, Lions, Charleval, and Fleury among the principal places. This does not make Eudes documentary, but it is a useful independent nineteenth-century witness to the same place-origin tradition preserved in DG and Hannay.[^planche-eudes-lebrai]
+
+### Pettigrew on Eudes, Le Bray, and the Rollo grant tradition
+
+Pettigrew repeats the same traditional origin frame as DG and Hannay but with useful place detail. In his summary, Rollo divided Neustria among his chieftains in return for homage and military service; Eudes was named as a leader in Rollo's army; and the town of Gournay with the Norman part of Le Bray was assigned to him. Pettigrew describes Le Bray as "for the most part of forest and morass," matching the marshy frontier landscape already attached to the Gournay name. This remains a nineteenth-century transmission of local/family tradition, not a contemporary charter for Eudes, but it is a clean additional witness to the same origin story.[^pettigrew-eudes]
+
 ### Eudes's death date
 2026-04-18 — The fact sheet gives "c. 912" for Eudes's death, which implies he died almost immediately after receiving Gournay. This seems arbitrary. DG-I p. 23 does not give a death date. The "c. 912" appears to be a rough inference (active at the 911 Treaty; succeeded by Hugh I who is placed c. 945–950). A gap of ~30 years between Eudes's grant (911) and Hugh I's estimated birth is plausible without requiring Eudes's death in 912. He may have lived decades longer. The death date should be softened to "after 911, date unknown" in any future revision.
 
@@ -48,6 +55,8 @@ Research companion for `g37-eudes-de-gournay-fact-sheet.md`. See AI-Rules.md §3
 - Daniel Gurney, *Record of the House of Gournay*, Part I (1848), pp. 3–4 (Preface), 23–24 (chapter on Eudes). [DG-I]
 - Daniel Gurney, *Supplement* (1858), Note 1 (name derivation, p. 725), Note 6 (Caistor, p. 729), Note 7 (fortifications, p. 730). [DG-Supp]
 - James Hannay, *Three Hundred Years of a Norman House* (1867), Chapter I, pp. 1–41. [Hannay]
+- Planché, *The Conqueror and His Companions* (1874), Hugh de Gournay section. [planche-conqueror-companions-1874]
+- Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (1871), pp. 176, 180. [pettigrew-collectanea-house-gournay-1871]
 - John Gough Nichols, ed., *Herald and Genealogist*, vol. 3 (1866), p. 9. [Nichols-H&G-v3]
 - Dudo of Saint-Quentin, *De moribus et actis primorum Normanniae ducum* (c. 996–1015). Ed. Lair (Caen, 1865). English trans. Christiansen (Woodbridge: Boydell Press, 1998). [Dudo]
 - French Wikipedia, "Famille de Gournay" — modern secondary synthesis citing Bauduin, Delisle. [fr.wiki-Gournay]
@@ -68,6 +77,10 @@ Research companion for `g37-eudes-de-gournay-fact-sheet.md`. See AI-Rules.md §3
 | Name etymology | DG-Supp: Saxon *Gorena-eye* ("muddy waters") | Modern scholarship: Celtic *gorn-acum* ("fishery") | Both plausible; neither proved. |
 
 ---
+
+[^planche-eudes-lebrai]: J. R. Planché, *The Conqueror and His Companions*, vol. 1 (London: Tinsley Brothers, 1874), Hugh de Gournay section, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/conquerorcompanion/companion.htm. Source ID: `planche-conqueror-companions-1874`.
+
+[^pettigrew-eudes]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 176, 180, Google Books, https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ. Source ID: `pettigrew-collectanea-house-gournay-1871`.
 
 ## Fact Sheet Improvement Notes
 

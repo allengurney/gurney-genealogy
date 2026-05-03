@@ -39,6 +39,15 @@ Sourced only to Banks's unpublished working notes — no ship, parish register, 
 
 **Most probable mechanism for Banks's attribution:** an apprenticeship record of a John Gurney/Girney at Bury St. Edmunds c. 1620–1635, identifying John with the town where he trained rather than where he was born. A Norwich-born son of Francis Gurney apprenticed out to BSE would fit Banks's note and remains **consistent with Candidate B, not contradictory**.
 
+### American Biography, colonial arms, and the Norfolk-line memory
+
+The 1926 *American Biography* entry for David Allston Gurney is derivative on colonial vital details, but it preserves one family-memory claim that belongs in the Candidate B evidence set: "The Gurney arms kept by the American Gurneys show connection with Norfolk (England) Gurneys." The same extract gives the familiar but problematic tradition that John Gurney was born in England on 29 September 1615, came "probably from Southwark, near London Bridge," settled at Braintree, died in 1663, and had sons Richard and John at Weymouth. Those vital and origin statements conflict with this file's older-father chronology and two-Johns/Newgate deconflation, so they should not be treated as controlling facts.[^american-biography-g13]
+
+The arms statement is different. It is not proof of parentage, but if the American arms can be traced to an early object, seal, Bible, bookplate, gravestone, manuscript, or family paper belonging to the Braintree/Weymouth line, it would be a moderate positive indicator for Candidate B. Francis Gurney's family belonged to the Norfolk line whose arms were argent, a cross engrailed gules; a genuinely inherited American use of that arms tradition would fit the Norfolk hypothesis better than the Bucks, Herts, Kent, or separate London same-name candidates. If the arms prove to be copied from Burke, Daniel Gurney, or late nineteenth-century antiquarian print, the evidentiary value drops to near zero.[^american-biography-g13][^pettigrew-heraldry-g13]
+
+[^american-biography-g13]: *American Biography: A New Cyclopedia*, illustrated vol. 26 (New York: The American Historical Society, Inc., 1926), David Allston Gurney/Gurney family entry, pp. 230-255; Google Books, https://www.google.com/books/edition/American_Biography/tnkKAQAAMAAJ; user-supplied extract in `C:\Users\allen\Downloads\Future research urls3.md`. Source ID: `american-biography-cyclopedia-v26-gurney-1926`.
+[^pettigrew-heraldry-g13]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), p. 206, Google Books, https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ. Source ID: `pettigrew-collectanea-house-gournay-1871`.
+
 ### Combined Anderson + Banks assessment
 
 Both major published compilations of New England emigrant origins examined so far leave Buckinghamshire weakly supported at best. Banks points Suffolk/Bury St. Edmunds, without a primary citation; Anderson lists origin as "Unknown."
@@ -277,6 +286,7 @@ The Ancestry record URL supplied in the intake redirected to a join/login page i
 | Anderson GMB vol. 1, Gregory Baxter profile, p. 138 | *The Great Migration Begins*, vol. 1, Gregory Baxter profile | User-supplied book image captured in v08a; pull Suffolk Probate Records 1:323 and 3:146 when possible | Medium |
 | Hazen, Billerica, p. 33 | *History of Billerica*, historical p. 33 / image p. 54 | Pulled in v08; underlying town record still unpulled | Medium |
 | NEHGR 49 John Lewis of Nevis will abstract | *New England Historical and Genealogical Register*, vol. 49, part 2 | User extract captured in v08a; identify the Mary Gurney relationship if possible | Medium |
+| American Gurney arms object or earliest citation | Locate the earliest physical or manuscript witness for the arms "kept by the American Gurneys"; record blazon, owner, date, and whether it predates Daniel Gurney/Burke-style antiquarian copying | High for Candidate B corroboration |
 
 ### Broader source catalog
 

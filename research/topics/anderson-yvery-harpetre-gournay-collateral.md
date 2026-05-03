@@ -60,6 +60,14 @@ The separate 1066 Mosaic "Hugue de Gournay" page compresses the same tradition i
 
 Use Cleveland as a comparison source only. Where it conflicts with DG or primary records, preserve the conflict and pursue the primary record.
 
+### Planché, Palgrave, and the Battle Roll introduction as additional 1066.co.nz comparison sources
+
+Planché's *Conqueror and His Companions* is a dense derivative source for the same senior-line problem. It is useful for preserving how nineteenth-century antiquaries handled the old-Hugh problem, the three Gournays at Hastings, the Cardiff death tradition, the La Ferté cadet-line caution, Gerard's Norman command and marriage network, and Stuteville/Monceaux collateral links. Use it as a comparison source beside DG and Hannay, not as controlling proof.[^topic-planche]
+
+Palgrave adds two contextual points: at Mortemer, Hugh Gournay appears as a major Pays de Bray power, and at Gerberoi the castle is placed about five miles from Gournay while Hugh de Gournay appears among the mediators between William I and Robert Curthose. This is best used for political/geographic context, not for pedigree proof.[^topic-palgrave]
+
+The Battle Abbey Roll introduction is valuable mainly as a roll-criticism and name-variant source. It says one list duplicated Hugh under forms including Hue de Gourney and Hue earl of Gournay, noting the latter as the only Earl form; its tables also preserve Gurnay/Gurney variants and `Gurnay et Greilly`. This supports caution around Battle Roll spelling and title variants rather than adding a new person.[^topic-cleveland-intro]
+
 [^topic-blomefield-cantley]: Francis Blomefield, "Blofield Hundred: Cantley," *History of Norfolk*, vol. 7, pp. 228-231, British History Online, https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp228-231. Source ID: `blomefield-norfolk`.
 [^topic-gazetteer-cantley]: Samantha Letters et al., *Gazetteer of Markets and Fairs in England and Wales to 1516*, Norfolk, Cantley entry, https://archives.history.ac.uk/gazetteer/norf.html#Can. Source ID: `history-ac-uk-markets-fairs-gazetteer`.
 [^topic-camden-addenda]: "Preface and Addenda," *Camden Old Series*, Cambridge Core, https://www.cambridge.org/core/journals/camden-old-series/article/abs/preface-and-addenda/9ECB73C6D0A44B4E1340ED99760B58C2. Source ID: `cambridge-core-camden-preface-addenda`.
@@ -70,6 +78,36 @@ Use Cleveland as a comparison source only. Where it conflicts with DG or primary
 [^topic-ipm-index]: "Index of Persons and Places: G," *Calendar of Inquisitions Post Mortem*, vol. 16, British History Online, https://www.british-history.ac.uk/inquis-post-mortem/vol16/pp508-513. Source ID: `bho-ipm-vol16-index-gournay`.
 [^topic-cleveland]: Duchess of Cleveland, *The Battle Abbey Roll, with Some Account of the Norman Lineages*, vol. 2 (London: John Murray, 1889), Gurnay entry, 1066.co.nz transcription, https://www.1066.co.nz/Mosaic%20DVD/library/Battle%20Roll/Gurnay.html. Source ID: `cleveland-battle-abbey-roll-v2-gurnay`.
 [^topic-mosaic-hugue]: "Hugue de Gournay," 1066 Mosaic / Battle Abbey Roll derivative page, https://www.1066.co.nz/Mosaic%20DVD/text/people/gournay.htm. Source ID: `mosaic-dvd-hugue-de-gournay`.
+[^topic-planche]: J. R. Planché, *The Conqueror and His Companions*, vol. 1 (London: Tinsley Brothers, 1874), Gournay-relevant sections, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/conquerorcompanion/companion.htm. Source ID: `planche-conqueror-companions-1874`.
+[^topic-palgrave]: Francis Palgrave, *The History of England and Normandy* (London: Macmillan and Co., 1864), Gournay-relevant sections, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/palgrave/palgrave.htm. Source ID: `palgrave-history-england-normandy-1864`.
+[^topic-cleveland-intro]: Duchess of Cleveland, *The Battle Abbey Roll, with Some Account of the Norman Lineages*, vol. 1 introduction, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/Battle%20Roll/introduction.html. Source ID: `cleveland-battle-abbey-roll-introduction`.
+
+## Pettigrew and Farrer additions from Future Research URLs 3
+
+### Pettigrew's Collectanea article as detailed DG digest
+
+Pettigrew's 1871 "On the House of Gournay" is a derivative article, but it is not disposable. It is an unusually dense public digest of Daniel Gurney's privately printed *Record*, preserving the sequence of early Norman places, religious houses, monuments, heraldry, and collateral branches in a form that can be cited page by page. It is especially useful for Gournay-en-Bray's St Hildevert church and La Tour Hue, the La Ferte/Sigy charter complex, the Basilia/Bec material, the Gerard/Edith de Warenne marriage network, and the Somerset collateral Gournays.[^topic-pettigrew-v10]
+
+For the direct line, Pettigrew maps cleanly onto the existing G37-G32 structure: Eudes as Rollo-era tradition; Hugh son of Eudes as the fortifier; Renaud with wife Alberarda and sons Hugh and Gautier; Hugh II as the 1035/1066 figure with the Cardiff/Norwich death problem; Hugh III as the Domesday Essex/Basilia/Bec figure; and Gerard as the Warenne-married Crusader whose probable younger son Walter begins the later West Barsham/Norfolk line. The senior collateral lords after Gerard belong in this topic file and place files, not in the direct-line person sequence.[^topic-pettigrew-v10]
+
+### Farrer as feudal-tenure control
+
+Farrer's *Honors and Knights' Fees*, vol. 3, gives a stronger control source for land descent than the narrative antiquaries. On the Honor of Arundel page, he treats the fee of Gurnai after Bardolf in South Wootton, Bedingham, and Kimberley, held by the Stutevills. The same section records the 1207 restoration of Kimberley and Bedingham to Nicholas de Stutevill, grandson of Hugh de Gurnai, and the 1265 South Wootton seizure against John de Gurney as a king's enemy after Evesham.[^topic-farrer-v10]
+
+In the Honor of Warenne material, Farrer connects Mapledurham to the Gournay-sur-Epte family and the Warenne marriage. He identifies Hugh's Domesday Essex manors of Liston, Ardleigh, and Fordham; Gerard and Edith de Warenne's children; Stephen's grant of Wendover to the senior successor Hugh; Houghton Regis and Wendover passing in and out of royal hands; Bledlow exchanged with Bec; Gaille-Fontaine, Bellozanne, and St Aubin foundations; the 1203 seizure of Cantley, Caister, and other Hugh de Gurnay lands after withdrawal from King John's service; Swathings as land of the same fee; and Juliana de Gurnay's Mapledurham inheritance passing to the Bardolfs.[^topic-farrer-mapledurham-v10]
+
+This source does not change the direct Norfolk junior-branch descent. It sharpens the distinction between inherited senior-line fees and the later junior Norfolk line. The South Wootton/Evesham item belongs with G27 because it is the same rebel-era John already documented by DG; the Mapledurham/Wendover/Houghton Regis/Cantley/Caister/Swathings sequence belongs primarily to the senior collateral topic and place files.
+
+### Pettigrew's Somerset Gournays as collateral comparison
+
+Pettigrew's Somerset section belongs here as collateral comparison, not in the direct line. It traces the Somerset Gournays from Nigellus de Gurnai in the Exon Domesday through Hawisa de Gournay, who held Barew and Inglishcombe in the reigns of Stephen and Henry II and retained her paternal surname through three marriages. Her daughter Eva, wife of Thomas son of William de Harptree, also retained and transmitted the Gournay name. Robert de Gournay then united the Somerset Gournay, Harptree, and FitzHarding of Weare inheritances, and Anselm's sons divided the houses of Harptree, Overwere, and Inglishcombe.[^topic-pettigrew-somerset-v10]
+
+The later collateral details are genealogically rich but separate: Sir Thomas de Gournay the regicide descends from the Inglishcombe branch; Joan his widow recovered Farington, Inglescombe, and West Harptree in 8 Edward III; Sir Matthew de Gournay, fourth son of the regicide, fought at Sluys, Crecy, Poitiers, and Najera, governed Brest, was imprisoned in the Tower in 1363 with John de St Lo, returned wealthy, and lived at Stoke Hamdon. Pettigrew also preserves Leland's description of the Stoke manor/castle, chapel tombs, and Matthew's long French epitaph. Keep these places together in `research/places/somerset-gournay-collateral.md` unless later work needs separate files.[^topic-pettigrew-somerset-v10]
+
+[^topic-pettigrew-v10]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 174-218, Google Books, https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ. Source ID: `pettigrew-collectanea-house-gournay-1871`.
+[^topic-farrer-v10]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925), Honor of Arundel, p. 142, HathiTrust extract, https://hdl.handle.net/2027/mdp.39015032992151. Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
+[^topic-farrer-mapledurham-v10]: Farrer, *Honors and Knights' Fees*, vol. 3, Mapledurham section, extracted PDF pp. 10-12. Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
+[^topic-pettigrew-somerset-v10]: Pettigrew, "On the House of Gournay," pp. 210-216. Source ID: `pettigrew-collectanea-house-gournay-1871`.
 
 ## Sources
 

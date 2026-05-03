@@ -23,6 +23,12 @@ This remains partly traditional rather than documentary history, but it is still
 - **traditional early founding matter** (Eudes, Rollo, black shield tradition), and
 - **firmer later documentary matter** (Renaud, Hugh II, Hugh III onward). [DG-I] [Hannay]
 
+## Planché and Palgrave on the Pays de Bray setting
+
+Planché and Palgrave both help with the regional setting, though both are derivative. Planché frames the first Gournay as a Rollo-era follower settled in Le Brai, naming Gournay, La Ferté, Lions, Charleval, and Fleury as principal places. Palgrave gives the 1054 landscape: Hugh Gournay is a major power in the region, a large portion of the Pays de Bray had been won by the Gournays, and the district was an essart from the ancient Forest of Lyons, fertile enough to support numerous towns and settlements.[^planche-gournay-place][^palgrave-pays-bray]
+
+This strengthens the file's current treatment of Gournay-en-Bray as a frontier honour, not merely a surname-place. The exact territorial limits still belong to DG, Decorde, and primary-source work, but these 1066.co.nz texts preserve the same marchland interpretation from independent Victorian narratives.
+
 ## Hugh I and the fortifications
 
 The line's second great association with Gournay-en-Bray is **Hugh de Gournay I**, remembered as "The Fortifier." The family tradition credits him with building the defensive works known as **"La Tour Hue"** and strengthening the frontier seat. [DG-I] Whether every detail of that tradition can now be independently confirmed is less important than the larger historical truth it preserves: Gournay was understood, even in family memory, as a **fortified marchland stronghold**, not merely a market town.
@@ -71,6 +77,12 @@ The file should continue to distinguish carefully between:
 - the **lost or transformed fortifications of the old honour**
 - and the **local tradition**, which remains valuable but should not be confused with fully verified archaeology. [DG-I] [Hannay]
 
+## St Hildevert, La Tour Hue, and the religious landscape in Pettigrew
+
+Pettigrew's *Collectanea* article makes the built and religious landscape of Gournay-en-Bray much more concrete. He repeats the tradition that Hugh son of Eudes fortified the town and that a citadel tower known as La Tour Hue survived into the seventeenth century. He also lists the wider Gournay lordship's fortifications and religious houses: La Ferte, Gaillefontaine, Argueil, Bref-Moutier, Beaubec, Bellozane, Chair-ruissel, St Aubin, Sigi, St Laurent, La Ferte, and houses in the town of Gournay itself.[^pettigrew-gournay-place]
+
+The article gives especially rich detail for St Hildevert. Pettigrew says no records of the church before 1180 were then known, but he places the standing fabric in a sequence of Gournay patronage: Hugh IV repaired and beautified the church; Hugh V took the lordship in 1180 as the pointed style was emerging; Walter, Archbishop of Rouen, and Hubert, Archbishop of Canterbury, attended the dedication and translation of St Hildevert's relics into a silver shrine around 1201; and Hugh's banishment/confiscation soon after deprived the canons of their protector and slowed the building campaign. This gives the church more than a generic site role: it is the visible monument of the senior barons' last Norman generation before the Capetian loss.[^pettigrew-gournay-place]
+
 ## Arms of the family and arms of the town
 
 The Barons of Gournay bore a **plain sable shield**, one of the starkest and most ancient-looking heraldic traditions in Norman genealogy. Daniel Gurney gives the family arms as plain black on p. 19 of Part I, and Hannay repeats the tradition in his own way. [DG-I] [Hannay] John Gough Nichols independently cited DG's statement in *The Herald and Genealogist*, which is useful as a contemporary nineteenth-century validation of DG's authority on the point. [Nichols-H&G-v3]
@@ -95,6 +107,9 @@ The local-history tradition that Eudes was **"le chevalier à l'écu noir"** —
 - John Gough Nichols, ed., *Herald and Genealogist*, vol. 3 (1866), p. 9. [Nichols-H&G-v3]
 - *Supplément aux recherches historiques sur la ville de Gournay-en-Bray* (1844) — French local history; see `sources/corpus/` and `data/sources.json` entry `gournay-en-bray-1844`.
 - Abbé J.-E. Decorde, *Essai historique et archéologique sur le Canton de Gournay* (1861). [Decorde 1861]
+- J. R. Planché, *The Conqueror and His Companions* (1874), Hugh de Gournay section. [planche-conqueror-companions-1874]
+- Francis Palgrave, *The History of England and Normandy* (1864), Mortemer/Pays de Bray narrative. [palgrave-history-england-normandy-1864]
+- T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (1871), pp. 176-179. [pettigrew-collectanea-house-gournay-1871]
 - Wikipedia, "Gournay-en-Bray" (secondary — population, cheese, church).
 - "Les remparts de Gournay-en-Bray" (remparts-de-normandie.eklablog.com) — local tradition.
 
@@ -111,6 +126,10 @@ The local-history tradition that Eudes was **"le chevalier à l'écu noir"** —
 - `research/places/le-bec-hellouin.md`
 - `research/places/normandy.md`
 - `research/places/beauvaisis-frontier-acquisitions.md`
+
+[^planche-gournay-place]: J. R. Planché, *The Conqueror and His Companions*, vol. 1 (London: Tinsley Brothers, 1874), Hugh de Gournay section, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/conquerorcompanion/companion.htm. Source ID: `planche-conqueror-companions-1874`.
+[^palgrave-pays-bray]: Francis Palgrave, *The History of England and Normandy* (London: Macmillan and Co., 1864), Mortemer/Pays de Bray narrative, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/palgrave/palgrave.htm. Source ID: `palgrave-history-england-normandy-1864`.
+[^pettigrew-gournay-place]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 176-179, Google Books, https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ. Source ID: `pettigrew-collectanea-house-gournay-1871`.
 
 <!-- GENERATED:PLACE-REGISTRY:START -->
 ## Place registry

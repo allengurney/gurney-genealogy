@@ -52,6 +52,10 @@ The place list preserved in that tradition is:
 
 This list is currently the best preserved historical clue to the territorial block, even though several names still need tighter modern identification. [Decorde 1861]
 
+### Planché / de la Marie wording
+
+Planché preserves a concise label for the acquisition block: certain parishes on the left bank of the Epte, annexed by Hugh de Gournay in the twelfth century, were known as the Conquets Hue de Gournay, citing De la Marie's historical researches. This is not as detailed as Decorde's twenty-four-place list, but it independently supports three elements already used by this file: the left-bank/eastern-Epte orientation, the conquest/acquisition language, and the association with a Hugh de Gournay.[^planche-conquets]
+
 ## Geographic interpretation now adopted in the library
 
 The uploaded reconstruction work divides the geography into two main polygons plus a schematic frontier line:
@@ -134,6 +138,7 @@ But at present, **one aggregate place note is cleaner than twenty-four thin vill
 
 - Daniel Gurney, *Record of the House of Gournay*, Part I (1848). [DG-I]
 - Abbé J.-E. Decorde, *Essai historique et archéologique sur le Canton de Gournay* (1861), especially the discussion of the **Conquêts Hue de Gournay** and the twenty-four-village list. [Decorde 1861]
+- J. R. Planché, *The Conqueror and His Companions* (1874), Hugh de Gournay / De la Marie reference. [planche-conqueror-companions-1874]
 - `research/geo/hugh_de_gournay_reconstruction_README.md` [Reconstruction README]
 - `research/geo/hugh_de_gournay_reconstruction_notes.json` [Reconstruction notes]
 
@@ -142,3 +147,5 @@ But at present, **one aggregate place note is cleaner than twenty-four thin vill
 - `research/places/gournay-en-bray.md`
 - `research/places/normandy.md`
 - `research/places/montigny-sur-andelle.md`
+
+[^planche-conquets]: J. R. Planché, *The Conqueror and His Companions*, vol. 1 (London: Tinsley Brothers, 1874), Gournay/De la Marie note, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/conquerorcompanion/companion.htm. Source ID: `planche-conqueror-companions-1874`.

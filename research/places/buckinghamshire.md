@@ -28,10 +28,17 @@ The Cambridge Core Camden addenda and the IHR Gazetteer both connect the senior 
 
 The Gazetteer gives the administrative market/fair side of Wendover: in 1209 Hugh de Gurnai owed 700 marks to have the manor of Wendover; a mid-thirteenth-century Missenden cartulary memorandum says Hugh de Gurnay established the market at Wendover in King John's time; and a fair on the vigil and feast of John the Baptist was granted before 23 June 1214 to Hugh de Gornay, with a notice on 27 July 1214 to cause Hugh de Gurnay to have that fair.[^gazetteer-wendover]
 
+### Farrer on Wendover and Bledlow
+
+Farrer gives the fuller tenure sequence behind the Wendover/Bledlow notes. He says Stephen granted Hugh de Gurnay the important crown manor of Wendover. In 1155 and 1156 Hugh's manors of Wendover and Houghton Regis were in the king's hands at a yearly farm of 60 pounds, and the king then granted Wendover away. In 1173 the king granted Hugh de Gurnay the younger lands in Houghton Regis and in Norfolk and Suffolk worth 50 pounds yearly, but that grant lasted only three months after Hugh's serjeants carried away stock and implements from Wickham and Hintlesham and the sheriff of Buckingham received the farm of Bledlow for the king.[^farrer-bucks]
+
+Farrer also explains the Bec exchange: because of Hugh's loss of Bledlow, Richard I in 1197 confirmed to St Mary of Bec an exchange made by Hugh de Gurnay of rent and tithe in Norman lands for land previously given in his manor of Bledlow. In 1202 King John restored Wendover to Hugh, saving the year's corn crop to Felicia widow of Ingram de Fiennes, and Hugh obtained a yearly fair at Wendover in 1214. This belongs to the senior collateral line and should not be treated as a junior Norfolk holding.[^farrer-bucks]
+
 This is senior-line place context, not a direct junior Norfolk branch holding. It belongs here because it explains how the Gournay/Bardolf inheritance spread beyond Norfolk and Normandy.
 
 [^camden-bledlow-wendover]: "Preface and Addenda," *Camden Old Series*, Cambridge Core, https://www.cambridge.org/core/journals/camden-old-series/article/abs/preface-and-addenda/9ECB73C6D0A44B4E1340ED99760B58C2. Source ID: `cambridge-core-camden-preface-addenda`.
 [^gazetteer-wendover]: Samantha Letters et al., *Gazetteer of Markets and Fairs in England and Wales to 1516*, Buckinghamshire, Wendover entry, https://archives.history.ac.uk/gazetteer/bucks.html#Wen. Source ID: `history-ac-uk-markets-fairs-gazetteer`.
+[^farrer-bucks]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925), Mapledurham section, HathiTrust extract, https://hdl.handle.net/2027/mdp.39015032992151. Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
 
 ## Open items
 

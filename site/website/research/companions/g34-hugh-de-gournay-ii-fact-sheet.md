@@ -50,6 +50,21 @@ This is significant: it means Hugh II had direct engagement with the English suc
 ### Mortemer — Rodolf de Toeny's night cry
 2026-04-18 — The Battle of Mortemer (1054) is Hugh II's signature military moment. Hannay quotes the *Roman de Rou*: after the Norman victory, William sent Rodolf de Toeny to cry in the darkness near the French king's camp: "Franceiz, Franceiz, levez, levez... Allez vos amis enterrer ki sunt occiz a Mortemer!" The fact sheet already handles this well. The Supplement adds no new material on Mortemer.
 
+### Planché and Palgrave on Hugh II's pre-Conquest role
+2026-05-02 — Planché adds a compact derivative synthesis that should be kept beside DG and Hannay. He identifies Hugh with Wace's old Hugh at Mortemer and treats the "old" epithet as possibly meaning the senior Hugh rather than simply a man past sixty. He also preserves the three-Gournay-at-Hastings problem: Hue de Gournay, the Sire de Brai, and the Seigneur de Gournay. In Planché's reading, Hugh II was the seigneur in the pre-Conquest period, while the younger Hugh, later husband of Basilia Flaitel, belongs to the next generation. This supports keeping the Hastings language generationally cautious rather than collapsing every roll-form into one Hugh.[^planche-hugh2]
+
+Planché also reinforces the pre-1035 English expedition and the 1054 Mortemer record. In the Giffard entry, Walter Giffard is first found as Hugh de Gournay's companion in the failed 1035 attempt by Edward, son of Ethelred, to recover England. In the Mortemer notice, Hugh de Gournay appears among the commanders sent against Count Eudes/Odo with Roger de Mortemer, Robert of Eu, Hugh de Montfort, William Crispin, and Walter Giffard.[^planche-giffard-mortemer]
+
+Palgrave's Mortemer narrative gives a useful place frame: Hugh Gournay appears as a major Pays de Bray power, and the Gournays are said to have won a large portion of that fertile essart from the ancient Forest of Lyons. Treat this as context for Hugh's regional weight at Mortemer, not as a primary boundary source.[^palgrave-mortemer]
+
+The Cardiff death tradition remains unresolved. Planché rejects the 1074 French chronicle version as garbled, but treats the Welsh/Powell form under 1094 as less easily dismissed: Hugh was reported wounded between Cardiff and Brecknock and to have died later in Normandy. Planché stresses that Hugh was not Earl of Gournay, but says that title error does not by itself defeat identity; the tradition can be reconciled with the separate notice that Hugh became a monk in Normandy after 1085 if he entered religion near death.[^planche-cardiff]
+
+### Pettigrew on Hugh II, 1035, Hastings, and the Cardiff/Norwich problem
+
+Pettigrew's Hugh II section tracks the same difficult evidence cluster already preserved from DG, Hannay, and Planché. He identifies Hugh de Gournay II as probably the son of Hugh I, one of the Norman leaders of the fleet of forty ships that accompanied Edward the Saxon prince to England on Canute's death in 1035, and the Gournay who accompanied William against Harold in 1066 with men of Bray. Pettigrew quotes the *Roman de Rou* passage for "le viel Hue de Gournai" and notes two charter appearances: one in April 1067 and another before 1066.[^pettigrew-hugh2]
+
+The value of Pettigrew here is not a new conclusion but a sharper statement of uncertainty. He repeats the manuscript tradition that this Hugh was wounded at Cardiff in 1074 and carried to Normandy, but immediately explains the chronological and source problems. He notes DG's lack of confidence in the story, the possibility that "Cardiff" could be "Nortwic" or Norwich, and the parallel suggestion that the event may belong near the rebellion of Ralf Guader and the eastern counties. Keep the fact-sheet line cautious: Hugh II is a pre-Conquest and Conquest-era Gournay, but the Cardiff/Norwich death tradition remains unresolved.[^pettigrew-hugh2]
+
 ### Manassès de Gournay — Archbishop of Reims
 2026-04-18 — French secondary sources (histoireeurope.fr) name a "Manassès I de Gournay" as son of Hugh II, who became Archbishop of Reims in 1070. If correct, this makes Hugh II the father of one of the most powerful churchmen in France — an extraordinary collateral connection. DG-I does not appear to mention Manassès explicitly. This needs verification against DG-I pp. 24–27. French Wikipedia confirms: "Manassès Ier de Gournay-en-Bray devient Archevêque de Reims en 1070."
 
@@ -80,6 +95,9 @@ This is significant: it means Hugh II had direct engagement with the English suc
 - DG-Supp, Note 9 (p. 731): Two specific charter witness references — Vaudreuil 1067, Bayeux pre-1066. [DG-Supp]
 - DG-Supp, Note 10 (pp. 731–732): "Battle of Cardiff" analysis; Danish incursion; Cardiff/Norwich confusion. [DG-Supp]
 - Hannay, *Three Hundred Years* (1867), Chapters II–III, pp. 71–91: "Old Hugh," *Roman de Rou* quotations, 1035 expedition, Mortemer, three Gournays at Hastings, death tradition. [Hannay]
+- Planché, *The Conqueror and His Companions* (1874), Giffard, Mortimer, and Hugh de Gournay sections. [planche-conqueror-companions-1874]
+- Palgrave, *The History of England and Normandy* (1864), Mortemer/Pays de Bray narrative. [palgrave-history-england-normandy-1864]
+- Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (1871), pp. 182-184. [pettigrew-collectanea-house-gournay-1871]
 - French Wikipedia, "Famille de Gournay" — Pierre Bauduin on Hugh III's La Ferté connection, Manassès of Reims. [fr.wiki-Gournay]
 - histoireeurope.fr — Manassès as Archbishop of Reims 1070, children of Hugh II. [histoireeurope]
 - Lewis C. Loyd, *The Origins of Some Anglo-Norman Families* (1951; repr. 1999), p. 47. Cited by multiple genealogical databases for Gournay pedigree. [Loyd]
@@ -102,6 +120,12 @@ This is significant: it means Hugh II had direct engagement with the English suc
 | Manassès = son of Hugh II | histoireeurope.fr, fr.wiki | DG: not mentioned | Needs verification. |
 
 ---
+
+[^planche-hugh2]: J. R. Planché, *The Conqueror and His Companions*, vol. 1 (London: Tinsley Brothers, 1874), Hugh de Gournay section, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/conquerorcompanion/companion.htm. Source ID: `planche-conqueror-companions-1874`.
+[^planche-giffard-mortemer]: Planché, *The Conqueror and His Companions*, Giffard and Mortimer entries, same electronic edition. Source ID: `planche-conqueror-companions-1874`.
+[^palgrave-mortemer]: Francis Palgrave, *The History of England and Normandy* (London: Macmillan and Co., 1864), Mortemer/Pays de Bray narrative, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/palgrave/palgrave.htm. Source ID: `palgrave-history-england-normandy-1864`.
+[^planche-cardiff]: Planché, *The Conqueror and His Companions*, Hugh de Gournay / Cardiff discussion, same electronic edition. Source ID: `planche-conqueror-companions-1874`.
+[^pettigrew-hugh2]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 182-184, Google Books, https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ. Source ID: `pettigrew-collectanea-house-gournay-1871`.
 
 ## Fact Sheet Improvement Notes
 
