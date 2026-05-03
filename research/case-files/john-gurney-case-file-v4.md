@@ -41,10 +41,10 @@ The following colonial-era facts serve as the baseline for identifying which Eng
 | **Wife** | Mary (maiden name unknown), d. 20 Sept 1661 | Braintree vital records<sup class="fn"><a href="#n6" id="ref-6">6</a></sup> |
 | **Second wife** | Grizzell Fletcher, m. 12 Nov 1661 (her 4th husband) | Braintree vital records<sup class="fn"><a href="#n7" id="ref-7">7</a></sup> |
 | **Children** <br />(born in England) | Sarah (b unknown), Mary (bc.1628), Richard (bc.1630), John Jr. (bc.1633), Peter (bc.1635-40) + potentially Isaac (uncertain) | Sprague; compiled sources<sup class="fn"><a href="#n8" id="ref-8">8</a></sup> |
-| **Estate** | £55.14.6; died intestate; inventory 16 Mar 1662/63 | SPR Case #338<sup class="fn"><a href="#n9" id="ref-9">9</a></sup> |
+| **Estate / Death** | £55.14.6; died intestate; inventory 16 Mar 1662/63 | SPR Case #338<sup class="fn"><a href="#n9" id="ref-9">9</a></sup> |
 | **Religion** | Settled in Puritan community | Context<sup class="fn"><a href="#n10" id="ref-10">10</a></sup> |
 
-**Key identifiers for matching:** Any English candidate must plausibly account for a tailor named John Gurney, married to a woman named Mary, with children including Sarah, Mary, Richard, John, and Peter, born in England c.1600–1612, who disappeared from English records by c.1641.
+**Key criteria for matching:** Any English candidate must plausibly account for a tailor named John Gurney, married to a woman named Mary, with children including Sarah, Mary, Richard, John, and Peter, born in England c.1600–1612, who disappeared from English records by c.1641.
 
 ### The Central Question
 
@@ -53,7 +53,7 @@ Who was John Gurney-1 before he appeared in Massachusetts in 1641? Where in Engl
 
 <h2 id="s3">2. THE CANDIDATE: JOHN GURNEY, SON OF FRANCIS GURNEY AND MARGARET RYBETT</h2>
 
-This case file argues that John Gurney-1 was the son of Francis Gurney, a Merchant Taylor of Norfolk and London, by his first wife Margaret Rybett. The case rests on two primary source discoveries and a web of circumstantial evidence:
+This case file argues that John Gurney-1 was the son of **Francis Gurney**, a Merchant Taylor of Norfolk and London, by his first wife Margaret Rybett. The case rests on two primary source discoveries and a web of circumstantial evidence:
 
 | Evidence Type | What It Shows |
 |---|---|
@@ -64,9 +64,9 @@ This case file argues that John Gurney-1 was the son of Francis Gurney, a Mercha
 | **Financial motive** | Francis sold ALL his lands in 1634, leaving older sons with nothing to inherit |
 | **Puritan connections** | John Gurney's uncle Edmund (Francis's brother) living in the area was a militant Puritan clergy; Francis's London parish adjoined the Coleman Street emigration hub |
 
-No other identified candidate matches more than one or two of these criteria. Candidate B matches all of them.
+No other identified candidate matches more than one or two of the criteria. Candidate B strongly matches nearly all of the key criteria. 
 
-### 2.1 Francis Gurney of West Barsham, Norwich, and London
+### 2.1 Who is Francis Gurney of West Barsham, Norwich, and London
 
 Francis Gurney (b. 13 September 1581, West Barsham Hall, Norfolk) was the sixth son of Henry de Gournay, Esquire, of Great Ellingham and West Barsham, by Ellen Blennerhassett his wife.<sup class="fn"><a href="#n11" id="ref-11">11</a></sup> Henry had twelve children; the family was ancient Norfolk gentry, but by the late sixteenth century the younger sons had limited prospects.<sup class="fn"><a href="#n12" id="ref-12">12</a></sup>
 
@@ -77,7 +77,8 @@ Genealogist Daniel Gurney noted that Francis's "commercial life began at Norwich
 ### 2.2 The First Marriage: Margaret Rybett (★ Primary Source Discovery)
 
 <div class="discovery">
-**★ PRIMARY SOURCE DISCOVERY:** On 23 September 1611, "Franc Gurny & Margaret Rybett" were married at St Martin at Palace, Norwich, Norfolk.<sup class="fn"><a href="#n17" id="ref-17">17</a></sup>
+    ★ <strong>PRIMARY SOURCE DISCOVERY:</strong> On 23 September 1611, "Franc Gurny & Margaret Rybett" were married at St Martin at Palace, Norwich, Norfolk.<sup class="fn"><a href="#n17" id="ref-17">17</a></sup>
+
 
 This marriage record, discovered in March 2026 in the Norfolk Record Office parish register PD 12/1, is the single most important primary source finding of this research project. Genealogist Daniel Gurney, despite decades of family research in the 1800's, never found this record. The discovery confirms:
 
@@ -98,9 +99,11 @@ This marriage record, discovered in March 2026 in the Norfolk Record Office pari
 
 Francis's London career was marked by expanding financial difficulty. A failed King's Lynn textile manufacturing venture (c.1622–1625) required Sir Hamon Lestrange to pay his £100 bond.<sup class="fn"><a href="#n23" id="ref-23">23</a></sup> On **11 July 1634**, Francis sold ALL his Norfolk and Suffolk lands for £1,000 — a forced liquidation through the Court of Wards.<sup class="fn"><a href="#n25" id="ref-25">25</a></sup> By 1638 he had left St Benet Fink.<sup class="fn"><a href="#n26" id="ref-26">26</a></sup> He was buried at St Botolph Bishopsgate, London, on **9 January 1646/7**.<sup class="fn"><a href="#n28" id="ref-28">28</a></sup>
 
+**Author's note:** It is difficult to estimate in today's terms the extent or impact of Francis' financial collapse but it is plausible to estimate that Francis lost the equivalent of $10+ million USD (his entire net worth) over a few short decades. We do not know the cause(s) of such a collapse but one could envision Francis wanting to publicly hide or minimize his personal decline during the the Heralds' Visitation (see next section below).  With John Gurney being ~23 of age at the time, the strain on family during financial struggles, and unknown father-son dynamics could all be interconnected factors. However, with minimal genealogical evidence (either in support or against), this is framed as more anecdotal than a factual genealogical finding.   
+
 ### 2.4 Room for an Older Son: What Daniel Gurney Didn't Know
 
-For John to be Francis's son, he must be older than Roger — whom the 1633 Heralds' Visitation called Francis's "eldest sonne."<sup class="fn"><a href="#n24" id="ref-24">24</a></sup> But the visitation recorded only the children Francis *presented*, not necessarily all who existed (The [Heralds' Visitation]: https://en.wikipedia.org/wiki/Heraldic_visitation were tours of inspection to register and regulate the [coats of arms](https://en.wikipedia.org/wiki/Coat_of_arms) of [nobility](https://en.wikipedia.org/wiki/Nobility), [gentry](https://en.wikipedia.org/wiki/Gentry) and [boroughs](https://en.wikipedia.org/wiki/Borough), and to record [pedigrees](https://en.wikipedia.org/wiki/Pedigree_chart). Three facts suggest it was incomplete:
+For John to be Francis's son, he must be older than Roger — whom the 1633 Heralds' Visitation called Francis's "eldest sonne."<sup class="fn"><a href="#n24" id="ref-24">24</a></sup> But the visitation recorded only the children Francis *presented*, not necessarily all who existed. [The Heralds' Visitation](https://en.wikipedia.org/wiki/Heraldic_visitation) were tours of inspection to register and regulate the [coats of arms](https://en.wikipedia.org/wiki/Coat_of_arms) of [nobility](https://en.wikipedia.org/wiki/Nobility), [gentry](https://en.wikipedia.org/wiki/Gentry) and [boroughs](https://en.wikipedia.org/wiki/Borough), and to record [pedigrees](https://en.wikipedia.org/wiki/Pedigree_chart). Three facts suggest it was incomplete:
 
 1. Genealogist **Daniel Gurney's limited source base.** In the 1858 Supplement (Note 181), Daniel framed Dorothy as the eldest child "mentioned in" the St Benet Fink register and stated that Roger, Francis's eldest son in that known London sequence, "probably died young."<sup class="fn"><a href="#n29" id="ref-29">29</a></sup>
 2. **Francis G14's child list was not closed.** Daniel's account added a possible son John of Maldon and a probable son George beyond the St Benet Fink register list, and Bernau later warned that the known record of Francis G14's children by Anne Browning was incomplete and fragmentary.<sup class="fn"><a href="#n30" id="ref-30">30</a></sup>
@@ -167,7 +170,7 @@ A comprehensive review of the East Dereham parish register (NRO PD 86/41, coveri
 
 ### 4.3 The Entry E Complication: Before or After the Marriage?
 
-Entry E (John, c.1609/10) potentially may predate the Margaret Rybett marriage (23 Sept 1611). Two explanations are possible: the estimated entry's date is wrong by 1–2 years (within the stated margin), or John was born before the marriage. Pre-marital conception was common in this period.<sup class="fn"><a href="#n45" id="ref-45">45</a></sup> Either scenario is consistent with John being Francis's son.
+Entry E (John, c.1609/10) potentially may predate the Margaret Rybett marriage (23 Sept 1611). Two explanations are possible: the estimated entry's date is wrong by 1–2 years (within the stated margin), or John was born before the marriage. Pre-marital conception was reasonably common in this period.<sup class="fn"><a href="#n45" id="ref-45">45</a></sup> Either scenario is consistent with John being Francis's son.
 
 ### 4.4 Margaret Rybett's Death and the Transition to Anne Browning
 
@@ -181,7 +184,8 @@ Ann Gurney married Peter Woodcocke at West Dereham, Norfolk, on 8 February 1618/
 <h2 id="s6">5. THE PROBABLE BAPTISM OF JOHN GURNEY-1</h2>
 
 <div class="discovery">
-**★ PRIMARY SOURCE DISCOVERY:** Structured paleographic analysis of a degraded entry in the East Dereham parish register (NRO PD 86/41) has identified the probable baptismal record of John Gurney-1. The entry, on image 00715, was indexed by Findmypast/FreeREG as "John the sonne of Nicholas Gorne." Comparative analysis against four confirmed "ffrancis Gurnie/Gurny" entries in the same register and hand indicates the entry more likely reads **"John the sonne of ffrancis Gurnie."**
+    ★ <strong>PRIMARY SOURCE DISCOVERY:</strong> Structured paleographic analysis of a degraded entry in the East Dereham parish register (NRO PD 86/41) has identified the probable baptismal record of John Gurney-1. The entry, on image 00715, was indexed by Findmypast/FreeREG as "John the sonne of Nicholas Gorne." Comparative analysis against four confirmed "ffrancis Gurnie/Gurny" entries in the same register and hand indicates the entry more likely reads <strong>"John the sonne of ffrancis Gurnie."</strong>
+
 
 If confirmed, this is the record that connects the Massachusetts emigrant to the Norfolk Gurney gentry line. Combined with the Margaret Rybett marriage discovery, it establishes John as the eldest known child of Francis Gurney, born at East Dereham before the family relocated to London.
 
@@ -363,7 +367,7 @@ Charles Edward Banks (1937) placed John at Bury St. Edmunds, Suffolk, within a d
 ### For Definitive Confirmation
 
 1. **Professional paleographic examination of Entry E.** NRO PD 86/41, image 00715.
-2. **Norwich parish baptisms c.1612–1617** — all ~30 parishes. "John son of Francis Gurney" would essentially close the case.
+2. **Norwich/Norfolk/London parish baptisms ** — Finding John's parish and baptism records of John's children would essentially cross-match the emigrant with the immigrant.
 
 ### For Strong Supporting Evidence
 
