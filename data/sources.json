@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.5.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-05-03",
+    "lastUpdated": "2026-05-04",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
@@ -534,6 +534,17 @@
       "validationPath": null,
       "notes": "TIER 1 PULL — highest priority. Not yet obtained. Cited by Anderson (GMD p. 158) — almost certainly the source of his 1636 arrival date."
     },
+    "torrey-new-england-marriages-prior-1700": {
+      "shortTitle": "Torrey, New England Marriages Prior to 1700",
+      "citation": "Torrey, Clarence Almon. New England Marriages Prior to 1700. Baltimore, MD: Genealogical Publishing Co., 2004. Page 331, Gurney entries. Accessed via Ancestry.com, U.S., New England Marriages Prior to 1700 (Provo, UT: Ancestry.com Operations Inc., 2012), database collection 3824.",
+      "archive": "Ancestry.com collection 3824 / Genealogical Publishing Co. print",
+      "url": "https://www.ancestry.com/imageviewer/collections/3824/images/gpc_newenglandmarriages-0347?pId=51825",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/torrey-new-england-marriages-prior-1700.md",
+      "notes": "Standard Torrey marriage compendium. Page 331 Gurney block: John (-1663) & 1/wf, b 1628 Weymouth; John (1603-1663) & 2/wf Grezell (Fletcher)(Jewell)(Griggs) Kibbee (-1669), w Thomas, w Humphrey, w Henry, m/5 John Burge 1667; 12 Nov 1661 Braintree; John (-1675?) & Ruth ?Retchell, m/2 John Bundy 1676, m/3 Guydo Bailey, b 1671(2?) Mendon (had John, Samuel, Mary); John3 & Elizabeth [Green] (1664-) b 1689 Weymouth; John3 (-1723) & Sarah (Thornton)[Fields] (-1714), w Zachariah, dates b 1701?/1706/aft 4 Feb 1696/b 1714 Providence; Richard (-1691) & Rebecca [Taylor] b 1656(7?) Weymouth; Samuel3 (1671-) & Sarah Atkins/Staples/Shapley dau Thomas, 26 Oct 1693 Boston/Little Compton RI; Zachariah3 & Mary [Benson] of Hull, MA, b 1695 Weymouth. Use as supplemental cross-check on the John1 family group, on Grezell Kibbee's marriage sequence, and on Richard's death year (Torrey: 1691)."
+    },
     "nehgr-62-94": {
       "shortTitle": "NEHGR 62:94",
       "citation": "\"Notes: Braintree, Mass., Items.\" New England Historical and Genealogical Register, vol. 62 (January 1908), p. 94.",
@@ -599,6 +610,28 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "Birth/baptism of John Gourney, 7 Oct / 30 Oct 1655. Ten children of Francis Gurney of Maldon listed in DG-III-537."
+    },
+    "lma-st-mary-harrow-register-dro003": {
+      "shortTitle": "St Mary, Harrow on the Hill, parish register (LMA DRO/003)",
+      "citation": "Parish register, St Mary, Harrow on the Hill, Middlesex. Burials 1668/9. London Metropolitan Archives, Reference Number DRO/003/A/01/005. Accessed via Ancestry.com, London, England, Church of England Baptisms, Marriages and Burials, 1538-1812 (Lehi, UT: Ancestry.com Operations, Inc., 2010), database collection 1624.",
+      "archive": "London Metropolitan Archives / Ancestry.com collection 1624",
+      "url": "https://www.ancestry.com/search/collections/1624/records/602728549?tid=181885695&pid=192416501054&ssrc=pt",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/lma-st-mary-harrow-register-dro003.md",
+      "notes": "Two Gurney burial entries on page 139, right-hand page, under heading 'Buryed 1668' (Old Style; modern year 1669): 'Janry 30 - Ann/Anne daughter of John & Mary Gurney of Okington' and 'Feby 8 - Isaac son of John & Mary Gurney of Okington.' Place name reads 'Okington' or possibly 'Oakington.' User-supplied ChatGPT page-image transcription only; original image not retrieved in phase 1. Use as English same-name elimination context (a John & Mary Gurney still active in England in early 1669, six years after John Gurney-1's 1662/3 Braintree death)."
+    },
+    "lma-st-giles-cripplegate-register-p69-gis-a-002": {
+      "shortTitle": "St Giles Cripplegate, parish register (LMA P69/GIS/A/002/MS06419/003)",
+      "citation": "Parish register, St Giles Cripplegate, City of London. Burials 1634-1646. London Metropolitan Archives, Reference Number P69/GIS/A/002/MS06419/003. Accessed via Ancestry.com, London, England, Church of England Baptisms, Marriages and Burials, 1538-1812 (Lehi, UT: Ancestry.com Operations, Inc., 2010), database collection 1624.",
+      "archive": "London Metropolitan Archives / Ancestry.com collection 1624",
+      "url": "https://www.ancestry.com/search/collections/1624/records/6607796",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/lma-st-giles-cripplegate-register-p69-gis-a-002.md",
+      "notes": "Page 77 burial entry, indexed Burial Date 16 Dec 1640, Mother 'Francis Garney.' User-supplied ChatGPT image assessment reads the entry as 'John sonne of ffrancis Garney Joyner - 15' under the heading 'Burials in December 1640,' with the date possibly 15 rather than 16 December. The 'mother' index field is almost certainly the father's name; the trailing 'Joyner/Joiner' is the father's occupation, not part of the surname. Use as an English same-name elimination candidate and as a clarification on the multiple London Francis Gurneys/Garneys in the Cripplegate area in the late 1630s and early 1640s. Garney is a plausible Gurney variant within the Gurney/Gurny/Gourney/Garney spelling cluster."
     },
     "dudo-historia": {
       "shortTitle": "Dudo of Saint-Quentin, Historia Normannorum",
@@ -811,14 +844,14 @@
     },
     "history-of-weymouth": {
       "shortTitle": "History of Weymouth, Massachusetts (1923)",
-      "citation": "History of Weymouth, Massachusetts. 4 vols. Weymouth Historical Society, 1923.",
-      "archive": "Weymouth Public Library; Massachusetts town histories collection (HathiTrust, Internet Archive)",
-      "url": null,
-      "corpusStatus": "none",
-      "corpusPath": null,
+      "citation": "History of Weymouth, Massachusetts. 4 vols. Weymouth, Mass.: Weymouth Historical Society, under direction of the town, 1923. Vol. 3: Genealogy of Weymouth families, John Gurney Sr. and Richard Gurney entries.",
+      "archive": "Weymouth Historical Society / Ancestry.com collection 21610 (database History of Weymouth, Massachusetts, Provo, UT: Ancestry.com Operations Inc., 2005)",
+      "url": "https://www.ancestry.com/imageviewer/collections/21610/images/dvm_LocHist007443-00634-1",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/history-of-weymouth-vol3-gurney.md",
       "mediaPath": null,
-      "validationPath": null,
-      "notes": "Standard four-volume town history of Weymouth, Norfolk County, Massachusetts. Cited for G12 (Richard Gurney, c. 1630 – Oct. 1691): land grants in Weymouth before 1642–44 'in the East field,' 'in the mill field,' and 'on the east side of Great Pond'; admitted Freeman of Massachusetts Bay 1681; town meeting grant of six acres on the west side of Great Pond, voted 1683 to 'build a house & fence' (cited p. 251). Also relevant indirectly to G13 John Gurney-1 (his earliest documented New England property record was at Weymouth, granted retrospectively c. 3 Feb. 1651-52). Direct examination of the page references not yet captured."
+      "validationPath": "sources/validations/history-of-weymouth.md",
+      "notes": "Standard four-volume town history of Weymouth, Norfolk County, Massachusetts. Vol. 3 'Genealogy of Weymouth families' provides the John Gurney Sr. and Richard Gurney family group used throughout the G13/G12 research. John Sr. b. c. 1603 (1653 deposition), Braintree before 1645, Weymouth land grants 'in the East field,' 'in the mill field,' and 'on the east side of Great Pond' as early as 3 Feb. 1651-52 later granted to others, sold Braintree land 12 Feb. 1661, wife (name unknown) d. Braintree 20 Sept. 1661, m. (2) Braintree 12 Nov. 1661 widow Grissell Kibbee successively widow of Thomas Jewell, Henry Griggs, Henry Kibbee of Dorchester (her fifth husband John Burge of Weymouth, Chelmsford, and Dorchester), d. 1662-63 inventory 16 Mar. 1662-63, tailor by trade. Children: Mary b. near 1628, m. Daniel Shed who called John Gurney father; Richard b. near 1630; John b. near 1633, settled in Mendon; Peter b. near 1635; Isaac b. near 1640. Richard2 m. Rebecca Taylor (probably daughter of John and Phebe Taylor of Weymouth), made freeman 1681, surname found Garey/Garry/Gerry/Gurny, d. Weymouth Oct. 1719 (conflicts with Torrey '-1691'). Richard's children at Weymouth: Richard3 b. 18 Jan. 1656; John b. near 1658; Zachariah b. near 1660. John3 (Richard,2 John1) m. Elizabeth Green dau. of Joseph and Elizabeth (Whitman) Green b. Weymouth 5 Oct. 1664 (Joseph's will dated 8 Sept. 1691 named her 'my daughter Elizabeth Gurney'); children Elizabeth b. 5 May 1689, John b. May 1699. Zachariah3 (Richard,2 John1) b. near 1660, d. Weymouth 27 Oct. 1732, m. Mary -- (perhaps Mary Gurney d. Weymouth 14 Feb. 1736); children Zachariah4 b. 19 Nov. 1695, Joseph b. 7 Mar. 1697-98, Nathan b. 15 Oct. 1702, Jacob b. 31 Oct. 1706, Mary b. 24 Nov. 1711 m. 3 Jan. 1733-34 John Pratt of Weymouth. Zachariah4 b. 19 Nov. 1695 m. Weymouth 26 Sept. 1726 Sarah Jackson (probably dau. of Edmund and Mary (-) Jackson); children Sarah b. 7 May 1727, Zachariah b. 7 Mar. 1729, Elisha b. 30 June 1731. Page numbers as transcribed; the existing G13/G12 references to 'Weymouth Hist 3:251' should be reconciled against the section's true paging when the page image is captured."
     },
     "plymouth-probate-john-harden-1751-will": {
       "shortTitle": "Plymouth Probate - John Harden will (1751)",
@@ -1270,6 +1303,17 @@
       "mediaPath": null,
       "validationPath": "sources/validations/american-biography-cyclopedia-v26-gurney-1926.md",
       "notes": "Derivative American-line biographical/genealogical entry. User extract includes John Gurney of Braintree, a probable Southwark origin tradition, and the statement that arms kept by American Gurneys show connection with the Norfolk Gurneys. Use the arms statement as a moderate positive family-memory/heraldic lead for Candidate B; do not use the birth/Southwark assertions as controlling facts."
+    },
+    "findagrave-john-gurney-252975617": {
+      "shortTitle": "Find a Grave memorial 252975617 - John Gurney, Braintree, MA",
+      "citation": "Find a Grave, memorial 252975617, John Gurney, Elm Street Cemetery, Braintree, Norfolk County, Massachusetts.",
+      "archive": "Find a Grave",
+      "url": "https://www.findagrave.com/memorial/252975617/john-gurney",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/findagrave-john-gurney-252975617.md",
+      "notes": "Derivative memorial. Birth: 29 Sep 1615, 'London Borough of Brent, Greater London, England' (anachronistic place name; Brent is a 1965 London borough). Death: 16 Mar 1663 (consistent with the SPR Case #338 inventory date 16 Mar 1662/63). Burial: Elm Street Cemetery, Braintree, Norfolk County, Massachusetts (https://www.findagrave.com/cemetery/1960540/elm-street-cemetery). Use as a derivative cross-check for the Elm Street Cemetery burial location (new datum for the G13 file) and as a second instance of the problematic 1615/London birth tradition already preserved from American Biography vol. 26."
     },
     "farrer-honors-knights-fees-v3-gurnay-extracts": {
       "shortTitle": "Farrer, Honors and Knights' Fees, vol. 3 - Gurnay extracts",

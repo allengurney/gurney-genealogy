@@ -41,10 +41,10 @@ The following colonial-era facts serve as the baseline for identifying which Eng
 | **Wife** | Mary (maiden name unknown), d. 20 Sept 1661 | Braintree vital records<sup class="fn"><a href="#n6" id="ref-6">6</a></sup> |
 | **Second wife** | Grizzell Fletcher, m. 12 Nov 1661 (her 4th husband) | Braintree vital records<sup class="fn"><a href="#n7" id="ref-7">7</a></sup> |
 | **Children** <br />(born in England) | Sarah (b unknown), Mary (bc.1628), Richard (bc.1630), John Jr. (bc.1633), Peter (bc.1635-40) + potentially Isaac (uncertain) | Sprague; compiled sources<sup class="fn"><a href="#n8" id="ref-8">8</a></sup> |
-| **Estate** | £55.14.6; died intestate; inventory 16 Mar 1662/63 | SPR Case #338<sup class="fn"><a href="#n9" id="ref-9">9</a></sup> |
+| **Estate / Death** | £55.14.6; died intestate; inventory 16 Mar 1662/63 | SPR Case #338<sup class="fn"><a href="#n9" id="ref-9">9</a></sup> |
 | **Religion** | Settled in Puritan community | Context<sup class="fn"><a href="#n10" id="ref-10">10</a></sup> |
 
-**Key identifiers for matching:** Any English candidate must plausibly account for a tailor named John Gurney, married to a woman named Mary, with children including Sarah, Mary, Richard, John, and Peter, born in England c.1600–1612, who disappeared from English records by c.1641.
+**Key criteria for matching:** Any English candidate must plausibly account for a tailor named John Gurney, married to a woman named Mary, with children including Sarah, Mary, Richard, John, and Peter, born in England c.1600–1612, who disappeared from English records by c.1641.
 
 ### The Central Question
 
@@ -53,7 +53,7 @@ Who was John Gurney-1 before he appeared in Massachusetts in 1641? Where in Engl
 
 <h2 id="s3">2. THE CANDIDATE: JOHN GURNEY, SON OF FRANCIS GURNEY AND MARGARET RYBETT</h2>
 
-This case file argues that John Gurney-1 was the son of Francis Gurney, a Merchant Taylor of Norfolk and London, by his first wife Margaret Rybett. The case rests on two primary source discoveries and a web of circumstantial evidence:
+This case file argues that John Gurney-1 was the son of **Francis Gurney**, a Merchant Taylor of Norfolk and London, by his first wife Margaret Rybett. The case rests on two primary source discoveries and a web of circumstantial evidence:
 
 | Evidence Type | What It Shows |
 |---|---|
@@ -64,9 +64,9 @@ This case file argues that John Gurney-1 was the son of Francis Gurney, a Mercha
 | **Financial motive** | Francis sold ALL his lands in 1634, leaving older sons with nothing to inherit |
 | **Puritan connections** | John Gurney's uncle Edmund (Francis's brother) living in the area was a militant Puritan clergy; Francis's London parish adjoined the Coleman Street emigration hub |
 
-No other identified candidate matches more than one or two of these criteria. Candidate B matches all of them.
+No other identified candidate matches more than one or two of the criteria. Candidate B strongly matches nearly all of the key criteria.
 
-### 2.1 Francis Gurney of West Barsham, Norwich, and London
+### 2.1 Who is Francis Gurney of West Barsham, Norwich, and London
 
 Francis Gurney (b. 13 September 1581, West Barsham Hall, Norfolk) was the sixth son of Henry de Gournay, Esquire, of Great Ellingham and West Barsham, by Ellen Blennerhassett his wife.<sup class="fn"><a href="#n11" id="ref-11">11</a></sup> Henry had twelve children; the family was ancient Norfolk gentry, but by the late sixteenth century the younger sons had limited prospects.<sup class="fn"><a href="#n12" id="ref-12">12</a></sup>
 
@@ -77,7 +77,8 @@ Genealogist Daniel Gurney noted that Francis's "commercial life began at Norwich
 ### 2.2 The First Marriage: Margaret Rybett (★ Primary Source Discovery)
 
 <div class="discovery">
-**★ PRIMARY SOURCE DISCOVERY:** On 23 September 1611, "Franc Gurny & Margaret Rybett" were married at St Martin at Palace, Norwich, Norfolk.<sup class="fn"><a href="#n17" id="ref-17">17</a></sup>
+    ★ <strong>PRIMARY SOURCE DISCOVERY:</strong> On 23 September 1611, "Franc Gurny & Margaret Rybett" were married at St Martin at Palace, Norwich, Norfolk.<sup class="fn"><a href="#n17" id="ref-17">17</a></sup>
+
 
 This marriage record, discovered in March 2026 in the Norfolk Record Office parish register PD 12/1, is the single most important primary source finding of this research project. Genealogist Daniel Gurney, despite decades of family research in the 1800's, never found this record. The discovery confirms:
 
@@ -98,9 +99,11 @@ This marriage record, discovered in March 2026 in the Norfolk Record Office pari
 
 Francis's London career was marked by expanding financial difficulty. A failed King's Lynn textile manufacturing venture (c.1622–1625) required Sir Hamon Lestrange to pay his £100 bond.<sup class="fn"><a href="#n23" id="ref-23">23</a></sup> On **11 July 1634**, Francis sold ALL his Norfolk and Suffolk lands for £1,000 — a forced liquidation through the Court of Wards.<sup class="fn"><a href="#n25" id="ref-25">25</a></sup> By 1638 he had left St Benet Fink.<sup class="fn"><a href="#n26" id="ref-26">26</a></sup> He was buried at St Botolph Bishopsgate, London, on **9 January 1646/7**.<sup class="fn"><a href="#n28" id="ref-28">28</a></sup>
 
+**Author's note:** It is difficult to estimate in today's terms the extent or impact of Francis' financial collapse but it is plausible to estimate that Francis lost the equivalent of $10+ million USD (his entire net worth) over a few short decades. We do not know the cause(s) of such a collapse but one could envision Francis wanting to publicly hide or minimize his personal decline during the the Heralds' Visitation (see next section below).  With John Gurney being ~23 of age at the time, the strain on family during financial struggles, and unknown father-son dynamics could all be interconnected factors. However, with minimal genealogical evidence (either in support or against), this is framed as more anecdotal than a factual genealogical finding.
+
 ### 2.4 Room for an Older Son: What Daniel Gurney Didn't Know
 
-For John to be Francis's son, he must be older than Roger — whom the 1633 Heralds' Visitation called Francis's "eldest sonne."<sup class="fn"><a href="#n24" id="ref-24">24</a></sup> But the visitation recorded only the children Francis *presented*, not necessarily all who existed (The [Heralds' Visitation]: https://en.wikipedia.org/wiki/Heraldic_visitation were tours of inspection to register and regulate the [coats of arms](https://en.wikipedia.org/wiki/Coat_of_arms) of [nobility](https://en.wikipedia.org/wiki/Nobility), [gentry](https://en.wikipedia.org/wiki/Gentry) and [boroughs](https://en.wikipedia.org/wiki/Borough), and to record [pedigrees](https://en.wikipedia.org/wiki/Pedigree_chart). Three facts suggest it was incomplete:
+For John to be Francis's son, he must be older than Roger — whom the 1633 Heralds' Visitation called Francis's "eldest sonne."<sup class="fn"><a href="#n24" id="ref-24">24</a></sup> But the visitation recorded only the children Francis *presented*, not necessarily all who existed. [The Heralds' Visitation](https://en.wikipedia.org/wiki/Heraldic_visitation) were tours of inspection to register and regulate the [coats of arms](https://en.wikipedia.org/wiki/Coat_of_arms) of [nobility](https://en.wikipedia.org/wiki/Nobility), [gentry](https://en.wikipedia.org/wiki/Gentry) and [boroughs](https://en.wikipedia.org/wiki/Borough), and to record [pedigrees](https://en.wikipedia.org/wiki/Pedigree_chart). Three facts suggest it was incomplete:
 
 1. Genealogist **Daniel Gurney's limited source base.** In the 1858 Supplement (Note 181), Daniel framed Dorothy as the eldest child "mentioned in" the St Benet Fink register and stated that Roger, Francis's eldest son in that known London sequence, "probably died young."<sup class="fn"><a href="#n29" id="ref-29">29</a></sup>
 2. **Francis G14's child list was not closed.** Daniel's account added a possible son John of Maldon and a probable son George beyond the St Benet Fink register list, and Bernau later warned that the known record of Francis G14's children by Anne Browning was incomplete and fragmentary.<sup class="fn"><a href="#n30" id="ref-30">30</a></sup>
@@ -167,7 +170,7 @@ A comprehensive review of the East Dereham parish register (NRO PD 86/41, coveri
 
 ### 4.3 The Entry E Complication: Before or After the Marriage?
 
-Entry E (John, c.1609/10) potentially may predate the Margaret Rybett marriage (23 Sept 1611). Two explanations are possible: the estimated entry's date is wrong by 1–2 years (within the stated margin), or John was born before the marriage. Pre-marital conception was common in this period.<sup class="fn"><a href="#n45" id="ref-45">45</a></sup> Either scenario is consistent with John being Francis's son.
+Entry E (John, c.1609/10) potentially may predate the Margaret Rybett marriage (23 Sept 1611). Two explanations are possible: the estimated entry's date is wrong by 1–2 years (within the stated margin), or John was born before the marriage. Pre-marital conception was reasonably common in this period.<sup class="fn"><a href="#n45" id="ref-45">45</a></sup> Either scenario is consistent with John being Francis's son.
 
 ### 4.4 Margaret Rybett's Death and the Transition to Anne Browning
 
@@ -181,7 +184,8 @@ Ann Gurney married Peter Woodcocke at West Dereham, Norfolk, on 8 February 1618/
 <h2 id="s6">5. THE PROBABLE BAPTISM OF JOHN GURNEY-1</h2>
 
 <div class="discovery">
-**★ PRIMARY SOURCE DISCOVERY:** Structured paleographic analysis of a degraded entry in the East Dereham parish register (NRO PD 86/41) has identified the probable baptismal record of John Gurney-1. The entry, on image 00715, was indexed by Findmypast/FreeREG as "John the sonne of Nicholas Gorne." Comparative analysis against four confirmed "ffrancis Gurnie/Gurny" entries in the same register and hand indicates the entry more likely reads **"John the sonne of ffrancis Gurnie."**
+    ★ <strong>PRIMARY SOURCE DISCOVERY:</strong> Structured paleographic analysis of a degraded entry in the East Dereham parish register (NRO PD 86/41) has identified the probable baptismal record of John Gurney-1. The entry, on image 00715, was indexed by Findmypast/FreeREG as "John the sonne of Nicholas Gorne." Comparative analysis against four confirmed "ffrancis Gurnie/Gurny" entries in the same register and hand indicates the entry more likely reads <strong>"John the sonne of ffrancis Gurnie."</strong>
+
 
 If confirmed, this is the record that connects the Massachusetts emigrant to the Norfolk Gurney gentry line. Combined with the Margaret Rybett marriage discovery, it establishes John as the eldest known child of Francis Gurney, born at East Dereham before the family relocated to London.
 
@@ -256,6 +260,8 @@ A central method in emigrant-identification is eliminating other John Gurneys wh
 | Cheddington, Bucks | Bucks | — | **ELIMINATED** | Father is Richard Gurney, not John. Part of Isaac Gurney clan. |
 | St Giles Cripplegate, London | London | — | **ELIMINATED** | Died age 2 days. Son of Francis B (the laceweaver). |
 | Maldon, Essex (bachelor)<br />2nd John son of Francis G14 | Maldon, Essex | (unmarried) | **ELIMINATED** | Bachelor; died 1681; Householder at St Mary's Maldon paying hearth tax on 9 hearths in 1674. <sup class="fn"><a href="#n65" id="ref-65">65</a></sup> |
+| Harrow on the Hill, Middlesex / "Okington" | Middlesex (residence "Okington/Oakington") | **Mary** | **ELIMINATED** | A John & Mary Gurney "of Okington" buried two children at St Mary Harrow on the Hill in early 1669 (Old Style 1668): Ann/Anne 30 Jan. 1668/9 and Isaac 8 Feb. 1668/9. Active in England in 1669, six years after John Gurney-1's 1662/3 Braintree death.<sup class="fn"><a href="#n69" id="ref-69">69</a></sup> |
+| St Giles Cripplegate, London (Francis Garney *joiner*) | London | — | **ELIMINATED** | Burial 15/16 Dec 1640 of "John sonne of ffrancis Garney Joyner." A London child burial; father's trade is joiner, distinct from the case file's existing Francis B "laceweaver" Cripplegate cluster.<sup class="fn"><a href="#n70" id="ref-70">70</a></sup> |
 
 
 
@@ -278,6 +284,8 @@ Multiple Gurney branches existed simultaneously in Buckinghamshire. The Aylesbur
 | **Death** | 9 Jan 1646/7, St Botolph Bishopsgate | Unknown |
 
 This distinction, first identified by Walter Rye, is essential for avoiding false attributions.<sup class="fn"><a href="#n53" id="ref-53">53</a></sup>
+
+<p>A 1640 St Giles Cripplegate burial entry adds a likely third Francis to the same parish neighborhood. The entry "John sonne of ffrancis Garney Joyner - 15" buries a London child of a Francis Garney whose trade is joiner, not laceweaver. The Garney spelling sits inside the Gurney/Gurny/Gourney/Garney cluster, and the trade difference means this Francis is not the laceweaver Francis B already eliminated above. Keep him visible as a separate Cripplegate-area Francis Gurney/Garney when searching London same-name households.<sup class="fn"><a href="#n71" id="ref-71">71</a></sup></p>
 
 
 <h2 id="s11">10. THE EVIDENCE: WHY JOHN-1 IS PROBABLY FRANCIS'S SON</h2>
@@ -331,9 +339,16 @@ Charles Edward Banks (1937) placed John at Bury St. Edmunds, Suffolk, within a d
 | 15 | Rivett cluster near East Dereham | Moderate | Margaret's Ryvett family had a documented presence near East Dereham — Richard Ryvett of Gressenhall could be the source of John-1's son Richard's name. |
 | 16 | Pease genealogy claim confirmed | Moderate | The Margaret Ryvett claim, long unverified family tradition, has now been validated by primary source evidence from NRO PD 12/1. Lends credence to other details in genealogy that align to this case file. |
 | 17 | American Gurney arms | Moderate if early; weak if late | A 1926 American biographical entry says arms kept by American Gurneys connected them with the Norfolk Gurneys. The lead supports Candidate B only if an early American object or manuscript witness can be found. |
+| 18 | Find a Grave 252975617 burial at Elm Street Cemetery, Braintree | Weak positive (location); weak negative (1615/Brent tradition) | Memorial gives Elm Street Cemetery as the burial place, a new datum to test against parish/town records. The same memorial repeats the problematic 1615/London tradition (anachronistic "Borough of Brent"), reinforcing that this tradition is derivative rather than primary. |
+
+<h4>Supplemental burial-place lead: Elm Street Cemetery, Braintree</h4>
+<p>Find a Grave memorial 252975617 records John Gurney's burial at Elm Street Cemetery, Braintree, Norfolk County, Massachusetts. This is a new datum for this case file; previously only the death year and the 16 Mar. 1662/63 inventory date were preserved. The same memorial gives a 29 September 1615 birth in "London Borough of Brent, Greater London, England," the same tradition repeated in <em>American Biography</em> vol. 26. The "Borough of Brent" place name is anachronistic (Brent is a 1965 London administrative creation) and the 1615 birth is incompatible with the older-father chronology developed in this case file from the 1653 "aged about 50" deposition. Treat the cemetery line as a citation-worthy lead for a Braintree town or burial-ground record search; treat the 1615/Brent line as a recurring derivative tradition rather than a controlling fact.<sup class="fn"><a href="#n68" id="ref-68">68</a></sup></p>
 
 <h4>Supplemental heraldic family-memory lead: American Gurney arms</h4>
 <p>A 1926 American biographical entry for David Allston Gurney repeats the colonial Gurney descent and states that arms kept by the American Gurneys connected the family with the Norfolk Gurneys. This is not parentage proof: the entry is derivative, repeats the problematic 1615/Southwark tradition, and the arms themselves have not yet been traced to an object, seal, bookplate, gravestone, Bible, or family paper. Still, if the American arms can be shown to descend from the Braintree/Weymouth line rather than from nineteenth-century antiquarian copying, they would be a moderate positive indicator for Candidate B because Francis Gurney's family belonged to the Norfolk line using the cross engrailed arms.<sup class="fn"><a href="#n66" id="ref-66">66</a></sup></p>
+
+<h4>Torrey and History of Weymouth: cross-checks on the John1 family group</h4>
+<p>Two compiled New England sources independently restate the John1 / Richard2 family group used in this case file. Torrey's <em>New England Marriages Prior to 1700</em>, p. 331, gives John (1603-1663) married 12 Nov. 1661 at Braintree to widow Grezell (Fletcher)(Jewell)(Griggs) Kibbee, with her later marrying John Burge in 1667. The same page lists John Jr. of Mendon (-1675?) married to Ruth, with three children John, Samuel, and Mary. The 1923 <em>History of Weymouth</em>, Vol. 3 "Genealogy of Weymouth families," gives John Sr. b. c. 1603, Braintree before 1645, the Weymouth land-grant cluster (East field, mill field, east side of Great Pond, dated as early as 3 Feb. 1651-52, later granted to others), the 12 Feb. 1661 Braintree land sale, the 20 Sept. 1661 death of his unnamed first wife at Braintree, the 12 Nov. 1661 marriage to widow Grissell Kibbee, the 1662-63 death and 16 Mar. 1662-63 inventory, and a five-child sequence: Mary b. near 1628 (m. Daniel Shed, who called John Gurney father); Richard b. near 1630; John b. near 1633, settled in Mendon; Peter b. near 1635; Isaac b. near 1640. Neither source identifies Mary's maiden name. Both are compiled, derivative cross-checks rather than primary record evidence, but together they confirm the family-group skeleton already in this case file. The Mary-Daniel Shed "called John Gurney father" detail is a small but useful relationship statement that should be preserved alongside the existing Sprague p. 695 family-group note.<sup class="fn"><a href="#n67" id="ref-67">67</a></sup></p>
 
 #### Against Candidate B
 
@@ -363,7 +378,7 @@ Charles Edward Banks (1937) placed John at Bury St. Edmunds, Suffolk, within a d
 ### For Definitive Confirmation
 
 1. **Professional paleographic examination of Entry E.** NRO PD 86/41, image 00715.
-2. **Norwich parish baptisms c.1612–1617** — all ~30 parishes. "John son of Francis Gurney" would essentially close the case.
+2. **Norwich/Norfolk/London parish baptisms ** — Finding John's parish and baptism records of John's children would essentially cross-match the emigrant with the immigrant.
 
 ### For Strong Supporting Evidence
 
@@ -415,6 +430,7 @@ Charles Edward Banks (1937) placed John at Bury St. Edmunds, Suffolk, within a d
 | 8 | TNA probate records (13 items, PCC) | The National Archives, Kew | Wills/probate acts |
 | 9 | Protestation Returns, 1641–42 | Parliamentary Archives; LMA | Loyalty oath |
 | 10 | Buckinghamshire Contributions for Ireland 1642 | BRS Vol. 21 | Tax assessment |
+| 11 | John Gurney burial - Elm Street Cemetery, Braintree | Find a Grave memorial 252975617 | Burial place lead |
 
 ### 13.3 Secondary Sources
 
@@ -476,6 +492,11 @@ Davis, *Ancestry of Abel Lunt* (1963). • Laslett, *World We Have Lost* (1965).
   <li id="n64" value="64">Charles Edward Banks, <em>Topographical Dictionary of 2885 English Emigrants to New England, 1620-1650</em>, ed. Elijah Ellsworth Brownell (Philadelphia: Bertram Press, 1937), p. 151, John Gurney entry placing him at Bury St Edmunds, Suffolk, sourced only to "Banks Mss."; see validation note at <code>sources/validations/banks-brownell-1937.md</code> for the limitation. Source ID: <code>banks-brownell-1937</code>. <a class="backref" href="#ref-64">↩</a></li>
   <li id="n65" value="65">Bernau, "Unrecorded Biographies: Francis Gournay (or Gurney), of Maldon, Essex," <em>The British Archivist</em>, vol. I, no. 7 (September 1913), "His Parents' Children" section, item 9, citing Lay Subsidy 246/22 (1674 Hearth Tax) and 1681 administration to brother Thomas; corpus extract at <code>sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md</code>. Source ID: <code>british-archivist-bernau-1913</code>. <a class="backref" href="#ref-65">↩</a></li>
   <li id="n66" value="66"><em>American Biography: A New Cyclopedia</em>, illustrated vol. 26 (New York: The American Historical Society, Inc., 1926), David Allston Gurney/Gurney family entry, pp. 230-255; Google Books, <a href="https://www.google.com/books/edition/American_Biography/tnkKAQAAMAAJ">https://www.google.com/books/edition/American_Biography/tnkKAQAAMAAJ</a>. Source ID: <code>american-biography-cyclopedia-v26-gurney-1926</code>. Pettigrew separately summarizes the Norfolk arms as argent, a cross engrailed gules: T. J. Pettigrew, "On the House of Gournay," <em>Collectanea Archaeologica</em>, vol. 2 (London: Longmans, Green, and Co., 1871), p. 206. Source ID: <code>pettigrew-collectanea-house-gournay-1871</code>. <a class="backref" href="#ref-66">↩</a></li>
+  <li id="n67" value="67">Clarence Almon Torrey, <em>New England Marriages Prior to 1700</em> (Baltimore: Genealogical Publishing Co., 2004), p. 331, Gurney entries; Ancestry.com collection 3824 image gpc_newenglandmarriages-0347, pId=51825, <a href="https://www.ancestry.com/imageviewer/collections/3824/images/gpc_newenglandmarriages-0347?pId=51825">https://www.ancestry.com/imageviewer/collections/3824/images/gpc_newenglandmarriages-0347?pId=51825</a>; <em>History of Weymouth, Massachusetts</em>, 4 vols. (Weymouth, Mass.: Weymouth Historical Society, 1923), Vol. 3, Genealogy of Weymouth families, John Gurney Sr. and Richard Gurney entries; Ancestry.com collection 21610 image dvm_LocHist007443-00634-1, <a href="https://www.ancestry.com/imageviewer/collections/21610/images/dvm_LocHist007443-00634-1">https://www.ancestry.com/imageviewer/collections/21610/images/dvm_LocHist007443-00634-1</a>; transcribed extracts at <code>sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md</code> and <code>sources/corpus_supplement/history-of-weymouth-vol3-gurney.md</code>. Source IDs: <code>torrey-new-england-marriages-prior-1700</code>; <code>history-of-weymouth</code>. <a class="backref" href="#ref-67">↩</a></li>
+  <li id="n68" value="68">Find a Grave, memorial 252975617, John Gurney, Elm Street Cemetery, Braintree, Norfolk County, Massachusetts, <a href="https://www.findagrave.com/memorial/252975617/john-gurney">https://www.findagrave.com/memorial/252975617/john-gurney</a>; cemetery page <a href="https://www.findagrave.com/cemetery/1960540/elm-street-cemetery">https://www.findagrave.com/cemetery/1960540/elm-street-cemetery</a>; cross-reference <em>American Biography: A New Cyclopedia</em>, illustrated vol. 26 (New York: The American Historical Society, Inc., 1926), David Allston Gurney/Gurney family entry, pp. 230-255. Source IDs: <code>findagrave-john-gurney-252975617</code>; <code>american-biography-cyclopedia-v26-gurney-1926</code>. <a class="backref" href="#ref-68">↩</a></li>
+  <li id="n69" value="69">Parish register, St Mary, Harrow on the Hill, Middlesex, burials 1668 (Old Style; modern year 1669), London Metropolitan Archives DRO/003/A/01/005, page 139; Ancestry.com collection 1624 record 602728549, <a href="https://www.ancestry.com/search/collections/1624/records/602728549?tid=181885695&amp;pid=192416501054&amp;ssrc=pt">https://www.ancestry.com/search/collections/1624/records/602728549</a>. Source ID: <code>lma-st-mary-harrow-register-dro003</code>. <a class="backref" href="#ref-69">↩</a></li>
+  <li id="n70" value="70">Parish register, St Giles Cripplegate, City of London, burials 1634-1646, London Metropolitan Archives P69/GIS/A/002/MS06419/003, page 77; Ancestry.com collection 1624 record 6607796, <a href="https://www.ancestry.com/search/collections/1624/records/6607796">https://www.ancestry.com/search/collections/1624/records/6607796</a>. Source ID: <code>lma-st-giles-cripplegate-register-p69-gis-a-002</code>. <a class="backref" href="#ref-70">↩</a></li>
+  <li id="n71" value="71">Parish register, St Giles Cripplegate, City of London, P69/GIS/A/002/MS06419/003, page 77, burial of "John sonne of ffrancis Garney Joyner" December 1640. Source ID: <code>lma-st-giles-cripplegate-register-p69-gis-a-002</code>. <a class="backref" href="#ref-71">↩</a></li>
 </ol>
 
 *Case File V4 — April 2026. Supersedes V3 (April 2026). Prepared by Allen Lawrence Gurney with AI research assistance.*
