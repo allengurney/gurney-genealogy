@@ -40,6 +40,11 @@ The 1926 *American Biography* entry for David Allston Gurney is derivative on co
 
 The arms statement is different. It is not proof of parentage, but if the American arms can be traced to an early object, seal, Bible, bookplate, gravestone, manuscript, or family paper belonging to the Braintree/Weymouth line, it would be a moderate positive indicator for Candidate B. Francis Gurney's family belonged to the Norfolk line whose arms were argent, a cross engrailed gules; a genuinely inherited American use of that arms tradition would fit the Norfolk hypothesis better than the Bucks, Herts, Kent, or separate London same-name candidates. If the arms prove to be copied from Burke, Daniel Gurney, or late nineteenth-century antiquarian print, the evidentiary value drops to near zero.[^american-biography-g13][^pettigrew-heraldry-g13]
 
+### Find a Grave memorial 252975617 - Elm Street Cemetery and the recurring 1615 tradition
+
+The Find a Grave memorial 252975617 for John Gurney records two things worth keeping. The new datum is the burial location: "Elm Street Cemetery, Braintree, Norfolk County, Massachusetts." That place was not previously named in this file or in the case file. The recurring datum is the same problematic origin tradition already preserved from *American Biography* vol. 26: birth 29 September 1615 in "London Borough of Brent, Greater London, England," and death 16 March 1663 at Braintree. The 1615 birth conflicts with the older-father chronology favored here; the "London Borough of Brent" place name is anachronistic, since Brent is a 1965 London administrative creation and cannot describe a seventeenth-century parish. Treat the cemetery line as a citation-worthy derivative datum to chase against parish or town records, and treat the 1615/Brent line as another instance of the late tradition rather than a controlling fact.[^findagrave-g13]
+
+[^findagrave-g13]: Find a Grave, memorial 252975617, John Gurney, Elm Street Cemetery, Braintree, Norfolk County, Massachusetts, https://www.findagrave.com/memorial/252975617/john-gurney; cemetery page https://www.findagrave.com/cemetery/1960540/elm-street-cemetery. Source ID: `findagrave-john-gurney-252975617`.
 [^american-biography-g13]: *American Biography: A New Cyclopedia*, illustrated vol. 26 (New York: The American Historical Society, Inc., 1926), David Allston Gurney/Gurney family entry, pp. 230-255; Google Books, https://www.google.com/books/edition/American_Biography/tnkKAQAAMAAJ; user-supplied extract in `C:\Users\allen\Downloads\Future research urls3.md`. Source ID: `american-biography-cyclopedia-v26-gurney-1926`.
 [^pettigrew-heraldry-g13]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), p. 206, Google Books, https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ. Source ID: `pettigrew-collectanea-house-gournay-1871`.
 
@@ -67,6 +72,18 @@ Multiple derivative sources describe a John Gurney, age 21, on 29 September 1636
 Anderson's 1636 arrival may derive from this same record, or from a related interpretation. His settlement list of "Boston, Braintree" while omitting Weymouth may indicate a partially composite entry. The underlying original apprenticeship record has not yet been pulled.
 
 John Newgate himself is securely documented. A 1639 deed in the Winthrop Papers has Winthrop selling land to "John Newgate of Boston" described as a feltmaker.
+
+### Torrey marriage compendium - John1 family group cross-check
+
+Torrey's *New England Marriages Prior to 1700*, page 331, gives a one-page cross-check of the John1 family group used in this file. The relevant Gurney lines on that page are:
+
+- "GURNEY, John' (-1663) & 1/wf ? (-1661); b 1628; Weymouth"
+- "GURNEY, John (1603-1663) & 2/wf Grezell (FLETCHER) (JEWELL) (GRIGGS) KIBBEE (-1669), w Thomas, w Humphrey, w Henry, m/5 John BURGE 1667; 12 Nov 1661; Braintree"
+- "GURNEY, John\" (-1675?) & Ruth ?RETCHELL, m/2 John BUNDY 1676, m/3 Guydo BAILEY; b 1671(2?); Menden (had John, Samuel, Mary)"
+
+The first two lines independently support the working chronology: John1 born about 1603, his unnamed first wife dying in 1661, his marriage to widow Grezell Kibbee on 12 November 1661 at Braintree, and his death in 1663. The Kibbee marriage chain is given here as Fletcher (maiden) - Jewell - Griggs - Kibbee - Burge (1667), with the Humphrey Griggs identification matching the form used elsewhere in this file rather than the older "Henry Greggs." The third line is the John Jr. who settled in Mendon; Torrey gives him a 1671/2 marriage to Ruth and three children John, Samuel, and Mary, which adds detail not previously preserved in this file's children section. Use Torrey as a supplemental compendium, not a primary record.[^torrey-g13]
+
+[^torrey-g13]: Clarence Almon Torrey, *New England Marriages Prior to 1700* (Baltimore: Genealogical Publishing Co., 2004), p. 331, Gurney entries; Ancestry.com collection 3824 image gpc_newenglandmarriages-0347 (pId=51825), https://www.ancestry.com/imageviewer/collections/3824/images/gpc_newenglandmarriages-0347?pId=51825; transcribed extract at `sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md`. Source ID: `torrey-new-england-marriages-prior-1700`.
 
 ---
 
@@ -236,6 +253,16 @@ Because John Gurney-1 is already believed to be in New England by this period, t
 
 The Ancestry record URL supplied in the intake redirected to a join/login page in this pass, so no record image or indexed field was verified. Preserve this as an open lead only: the user note says the death was found in John Gurney research, but that the death would normally belong under Margaret Gurney and may or may not be the right candidate. Do not turn this into a fact until the record image or index fields are reviewed directly in Ancestry.[^ancestry-margaret-lead]
 
+### English same-name elimination - St Mary Harrow 1668/9 and St Giles Cripplegate 1640
+
+Two London-area parish-register burial entries reinforce that several English John Gurneys with overlapping wife names continued to live, marry, and bury children in England well after the 1641 Massachusetts emigrant record. Each is a small but real elimination check rather than a candidate for the emigrant.
+
+St Mary, Harrow on the Hill (LMA DRO/003/A/01/005) records two burials in early 1669 (Old Style 1668) under the heading "Buryed 1668": "Janry 30 - Ann/Anne daughter of John & Mary Gurney of Okington" and "Feby 8 - Isaac son of John & Mary Gurney of Okington." A John Gurney with a wife named Mary, still parenting and burying children in England in early 1669, cannot be John Gurney-1, who died at Braintree in 1662/3. The "Okington/Oakington" residence is most likely Oakington, Cambridgeshire, but the second-syllable letters are partly obscured. Keep this John & Mary Gurney as a separate English household for any future Mary-named-wife John Gurney work.[^lma-harrow-1669]
+
+St Giles Cripplegate, City of London (LMA P69/GIS/A/002/MS06419/003) records a burial in December 1640: "John sonne of ffrancis Garney Joyner - 15," indexed as 16 December 1640 with "Mother: Francis Garney." The index field is almost certainly the father's name, and "Joyner/Joiner" is the father's occupation, not part of the surname. This is a London child burial of a John, son of Francis Garney, joiner, in the same St Giles Cripplegate parish where the case file already records a separate Francis B "the laceweaver" Cripplegate cluster active 1638-1640. The trade difference (joiner vs laceweaver) means this Francis Garney is almost certainly a third Cripplegate-area Gurney/Garney, not the same Francis B already eliminated in the case file. Garney sits inside the Gurney/Gurny/Gourney/Garney spelling cluster and should be retained when searching same-name London households.[^lma-cripplegate-1640]
+
+[^lma-harrow-1669]: Parish register, St Mary, Harrow on the Hill, Middlesex, burials 1668/9, London Metropolitan Archives DRO/003/A/01/005; Ancestry.com collection 1624 record 602728549, https://www.ancestry.com/search/collections/1624/records/602728549?tid=181885695&pid=192416501054&ssrc=pt; user-supplied page-image transcription. Source ID: `lma-st-mary-harrow-register-dro003`.
+[^lma-cripplegate-1640]: Parish register, St Giles Cripplegate, City of London, burials 1634-1646, London Metropolitan Archives P69/GIS/A/002/MS06419/003; Ancestry.com collection 1624 record 6607796, https://www.ancestry.com/search/collections/1624/records/6607796; user-supplied page-image assessment. Source ID: `lma-st-giles-cripplegate-register-p69-gis-a-002`.
 [^london-st-augustine-1638]: T. C. Dale, "Inhabitants of London in 1638: St. Augustine," in *The Inhabitants of London in 1638* (Society of Genealogists, 1931), British History Online, https://www.british-history.ac.uk/no-series/london-inhabitants/1638/pp34-35. Source ID: `bho-london-inhabitants-st-augustine-1638`.
 [^ancestry-margaret-lead]: User-supplied Ancestry lead, Margaret Rovett/Rybett, collection 9840 record 18879163, https://www.ancestry.com/search/collections/9840/records/18879163. Login-gated in this pass; source ID not assigned pending record review.
 
@@ -250,6 +277,11 @@ The Ancestry record URL supplied in the intake redirected to a join/login page i
 | `anderson-great-migration-begins-v1-baxter` | Gregory Baxter profile, John Gurney probate roles | `sources/validations/anderson-great-migration-begins-v1-baxter.md` |
 | `hazen-billerica-1883` | Billerica Dudley Farm purchase-rate list | `sources/validations/hazen-billerica-1883.md` |
 | `nehgr-49-genealogical-gleanings-john-lewis` | John Lewis of Nevis will abstract, Mary Gurney lead | `sources/validations/nehgr-49-genealogical-gleanings-john-lewis.md` |
+| `torrey-new-england-marriages-prior-1700` | Page 331 Gurney block | `sources/validations/torrey-new-england-marriages-prior-1700.md` |
+| `history-of-weymouth` | Vol. 3 Genealogy of Weymouth families, John1, Richard2, John3, Zachariah3, Zachariah4 entries | `sources/validations/history-of-weymouth.md` |
+| `lma-st-mary-harrow-register-dro003` | Burials 1668/9, John & Mary Gurney of Okington, two children | `sources/validations/lma-st-mary-harrow-register-dro003.md` |
+| `lma-st-giles-cripplegate-register-p69-gis-a-002` | Burial Dec 1640, John son of Francis Garney joiner | `sources/validations/lma-st-giles-cripplegate-register-p69-gis-a-002.md` |
+| `findagrave-john-gurney-252975617` | Memorial 252975617, Elm Street Cemetery and 1615/Brent tradition | `sources/validations/findagrave-john-gurney-252975617.md` |
 
 ---
 
@@ -262,6 +294,7 @@ The Ancestry record URL supplied in the intake redirected to a join/login page i
 - **No John Gurney in Buckinghamshire Protestation Returns** in the reviewed set.
 - **No Francis Gurnay located in London Apprenticeship Abstracts (Findmypast)** in the searched collection; Merchant Taylors material may simply be outside the indexed set.
 - **Francis Gurney will still not located.** Daniel Gurney reports both candidate wills as "unable to be discovered."
+- **No primary record yet supports the recurring 1615 birth tradition.** Both *American Biography* vol. 26 and Find a Grave memorial 252975617 give 29 September 1615; both are derivative; the 1653 deposition's "aged about 50 years" remains the controlling age evidence.
 
 ---
 

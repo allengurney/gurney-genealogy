@@ -37,6 +37,20 @@ Massachusetts Bay's Freeman lists are well preserved. Richard's 1681 admission c
 - Other children beyond Benjamin (G11), John Jr., and Zachariah not documented in this companion. Sprague's family group is the obvious source.
 - The full list of John Gurney-1's children that Sprague preserves on p. 695 is reproduced in <code>research/people/g13-john-gurney-fact-sheet.research.md</code> rather than here.
 
+### Children list and death-year conflict from History of Weymouth and Torrey
+
+The 1923 *History of Weymouth*, Vol. 3, "Genealogy of Weymouth families," gives Richard Gurney a children-list and a death year that both conflict with this file and with the G13 companion. Weymouth says Richard "died at Weymouth in Oct. 1719" and lists three Weymouth-born children: Richard3 b. 18 Jan. 1656; John b. near 1658; Zachariah b. near 1660. Torrey's *New England Marriages Prior to 1700*, page 331, gives Richard's death year as 1691 and his marriage to Rebecca Taylor "b 1656(7?), b 1654" at Weymouth.
+
+The conflicts are real and should be preserved rather than silently merged:
+
+- Death year. Torrey: -1691. *History of Weymouth*: Oct. 1719. The G13 companion currently follows Torrey ("Died intestate October 1691"). The Weymouth 1719 date may reflect the death of his son Richard3 (b. 18 Jan. 1656) being conflated with the father, or it may be a separate well-grounded town-record date. Plymouth County or Suffolk County probate is the right next step before changing the preferred year.
+- Children list. The G13 companion currently lists Richard's children as John (killed at the Mendon massacre 1675), Zachariah, Joseph (b. 22 Feb. 1664/65), Mary (b. 9 Sept. 1667), and Benjamin (G11, c. 1676). Weymouth gives only Richard, John, and Zachariah. Joseph, Mary, and Benjamin are absent from Weymouth's three-child list. Treat Weymouth as a confirmed-eldest-three sequence with explicit Weymouth-recorded birth dates rather than a closed list.
+- Surname spellings. Weymouth notes the surname "is found spelled Garey, Garry, Gerry, and Gurny." Use this when searching New England town and probate records for Richard.
+- Wife. Weymouth gives "Rebecca Taylor, probably daughter of John and Phebe Taylor of Weymouth." This is the first explicit Phebe Taylor parent name preserved here for Rebecca and matches the existing 1688 Taylor will lead.[^history-of-weymouth-g12][^torrey-g12]
+
+[^history-of-weymouth-g12]: *History of Weymouth, Massachusetts*, 4 vols. (Weymouth, Mass.: Weymouth Historical Society, 1923), Vol. 3, Genealogy of Weymouth families, Richard Gurney entry; Ancestry.com collection 21610 image dvm_LocHist007443-00634-1, https://www.ancestry.com/imageviewer/collections/21610/images/dvm_LocHist007443-00634-1; transcribed extract at `sources/corpus_supplement/history-of-weymouth-vol3-gurney.md`. Source ID: `history-of-weymouth`.
+[^torrey-g12]: Clarence Almon Torrey, *New England Marriages Prior to 1700* (Baltimore: Genealogical Publishing Co., 2004), p. 331, Richard Gurney entry; Ancestry.com collection 3824 image gpc_newenglandmarriages-0347 (pId=51825), https://www.ancestry.com/imageviewer/collections/3824/images/gpc_newenglandmarriages-0347?pId=51825; transcribed extract at `sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md`. Source ID: `torrey-new-england-marriages-prior-1700`.
+
 ---
 
 ## Open Questions
@@ -46,6 +60,8 @@ Massachusetts Bay's Freeman lists are well preserved. Richard's 1681 admission c
 3. **Rebecca Taylor's father's will, proved 1688** — Plymouth County or Suffolk County probate.
 4. **Massachusetts Bay Freeman admission, 1681** — confirmation in MBCR.
 5. **Mendon massacre primary records** — eyewitness accounts and the official town-meeting record naming the dead, if recoverable.
+6. **Reconcile Richard's death year**: Torrey gives -1691; *History of Weymouth* gives Oct. 1719. Plymouth County and Suffolk County probate, plus Weymouth town-meeting and vital records, are the right places to test which year belongs to Richard2 the father and which (if either) belongs to Richard3 his son b. 18 Jan. 1656.
+7. **Children of Richard2**: confirm whether Joseph (b. 22 Feb. 1664/65), Mary (b. 9 Sept. 1667), and Benjamin (G11, c. 1676) belong to Richard2 alongside the Weymouth-listed Richard3 (b. 18 Jan. 1656), John (b. near 1658), and Zachariah (b. near 1660); examine the underlying Weymouth town and church records.
 
 ---
 
@@ -55,6 +71,8 @@ Massachusetts Bay's Freeman lists are well preserved. Richard's 1681 admission c
 - Sprague, <em>Genealogies of Braintree</em> (Source ID <code>sprague-braintree</code>) — referenced indirectly via the John Gurney-1 family group on p. 695.
 - Anderson, <em>Great Migration Directory</em> (Source ID <code>anderson-gmd-2015</code>) — for G13 context.
 - Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius* (rev. and expanded ed., 1994). Key compiled genealogy for the G4-G13 direct line; source ID `rigler-gurney-family-aaron-zuinglius-1994`. Full page-level audit still pending.
+- *History of Weymouth, Massachusetts*, Vol. 3 Genealogy of Weymouth families, Richard Gurney entry. Source ID `history-of-weymouth`. Transcribed extract at `sources/corpus_supplement/history-of-weymouth-vol3-gurney.md`.
+- Clarence Almon Torrey, *New England Marriages Prior to 1700*, p. 331, Richard Gurney entry. Source ID `torrey-new-england-marriages-prior-1700`. Transcribed extract at `sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md`.
 
 ### Sources to obtain
 
