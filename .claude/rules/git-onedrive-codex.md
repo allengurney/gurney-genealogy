@@ -30,10 +30,10 @@ gitdir: C:/Users/allen/GitDirs/gurney-genealogy.git
 - Do not move Git internals back into the OneDrive working tree unless the user explicitly requests a new Git layout.
 - Do not reclone into a temporary workspace as a substitute for fixing the durable checkout.
 
-## Codex operating model
+## Claude and Codex AI operating model
 - Work from the durable checkout unless the user explicitly directs otherwise.
-- Do not modify `main` directly for substantive work; create a `codex/...` branch first.
-- Codex can fetch, inspect status, create local branches, and make local commits in this layout.
+- Do not modify `main` directly for substantive work; create a branch first.
+- AI can fetch, inspect status, create local branches, and make local commits in this layout.
 - Push is expected to happen through GitHub Desktop or the user's PowerShell unless credentials are deliberately reconfigured for Codex.
 - If Codex creates a local commit, tell the user the branch name and that GitHub Desktop should be used to push it.
 
