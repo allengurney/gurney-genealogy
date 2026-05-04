@@ -118,14 +118,25 @@
     "type": "ancestor",
     "gen": "G3",
     "name": "Lester Sawyer Gurney III",
-    "dates": "1923–19 December 2011",
-    "geography": "New York area; Morristown, New Jersey; Hackettstown, New Jersey",
+    "dates": "1923-2011",
+    "geography": "Wellesley Hills, MA; New York City; Robins Field, GA; Manila; New Jersey",
     "eraId": "era-modern-america",
     "lineageStatus": "Confirmed",
-    "summary": "",
-    "notables": "",
-    "landHoldings": "—",
-    "spouses": [],
+    "summary": "Wellesley Hills-born power engineer and wartime Army/Air Service Command officer; father of Lester Hayes Gurney (G2). Family notes place him with the Air Service Command at Robins Field when he married Edith Walberg Scott and with the 536th Signal Heavy Construction Company at Manila when G2 was born.",
+    "notables": "Born 10 June 1923 at Wellesley Hills, Massachusetts; died 19 December 2011. Married Edith Walberg Scott on 23 November 1942 in New York City; later married Dorothy Lillian Haben/Haden on 6 June 1965. Dana Gurney's notes identify him as a lieutenant, commissioned June or July 1944, formerly Norwich University class of 1945, and stationed at Manila with the 536th Signal Heavy Construction Company when Lester Hayes Gurney was born at St. Vincent's Hospital, New York City, on 16 November 1945. Family evidence also remembers his long McGraw Edison power-engineering career in New Jersey.",
+    "landHoldings": "-",
+    "spouses": [
+      {
+        "name": "Edith Walberg Scott",
+        "dates": "m. 23 November 1942, New York City; d. 27 December 1963, Chatham, New Jersey",
+        "notes": "Mother of Lester Hayes Gurney (G2); previously married to a man named Scott"
+      },
+      {
+        "name": "Dorothy Lillian Haben/Haden",
+        "dates": "m. 6 June 1965",
+        "notes": "Surname uncertain in family notes; verify by marriage record"
+      }
+    ],
     "children": [
       {
         "name": "Lester Hayes Gurney",
@@ -133,7 +144,13 @@
         "notes": "G2 in direct line"
       }
     ],
-    "buttons": [],
+    "buttons": [
+      {
+        "label": "Fact sheet",
+        "url": "/fact-sheets/g03-lester-sawyer-gurney-iii-fact-sheet.html",
+        "style": "bio"
+      }
+    ],
     "recordId": "ancestor-g3-lester-sawyer-gurney-iii",
     "placeRefs": [
       "place-new-york-metropolitan-area-usa"
