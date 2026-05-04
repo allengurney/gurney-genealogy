@@ -34,12 +34,12 @@ gitdir: C:/Users/allen/GitDirs/gurney-genealogy.git
 - Work from the durable checkout unless the user explicitly directs otherwise.
 - Do not modify `main` directly for substantive work; create a branch first.
 - AI can fetch, inspect status, create local branches, and make local commits in this layout.
-- Push is expected to happen through GitHub Desktop or the user's PowerShell unless credentials are deliberately reconfigured for Codex.
-- If Codex creates a local commit, tell the user the branch name and that GitHub Desktop should be used to push it.
-- Do not run `git push` from Codex by default, even when the user asks for "push/PR/etc." Treat that wording as permission to prepare the branch, commit, validation, and PR-ready summary; the remote push still belongs to GitHub Desktop or user PowerShell unless the user explicitly says to try Codex-managed credentials for this turn.
-- Do not repeatedly test remote push/auth from Codex. One failed remote authentication or GitHub CLI credential check is enough to stop and hand off.
-- If a Windows dialog appears or is reported for `git-remote-https.exe`, `git-credential-manager.exe`, GitHub CLI, or a similar Git authentication helper, stop all remote Git operations immediately. Do not retry with tracing, alternate shells, or repeated `git push`/`gh auth` probes.
-- After the user pushes the branch through GitHub Desktop or PowerShell, Codex may verify the remote branch and PR head SHA, and may use the GitHub connector to open or inspect a PR if the connector is available.
+- Push through local Git is expected to happen through GitHub Desktop or the user's PowerShell unless credentials are deliberately reconfigured for Codex.
+- If the user asks Codex to complete "push/PR/etc.", avoid local `git push` / `gh auth` first and prefer the GitHub connector/API publish path when available.
+- Connector-backed publish path: create or update the remote branch from the local committed tree using GitHub API objects/refs, then open the PR through the GitHub connector. Verify the remote branch or PR head SHA before reporting success.
+- Do not repeatedly test local remote push/auth from Codex. One failed local remote authentication or GitHub CLI credential check is enough to stop local Git/CLI remote operations and switch to the connector/API path.
+- If a Windows dialog appears or is reported for `git-remote-https.exe`, `git-credential-manager.exe`, GitHub CLI, or a similar Git authentication helper, stop all local remote Git/CLI operations immediately. Do not retry with tracing, alternate shells, or repeated `git push`/`gh auth` probes.
+- If the GitHub connector/API path is unavailable or fails, then hand off the already-created local branch and commit to GitHub Desktop or user PowerShell with exact branch and commit details.
 
 ## Health checks before blaming the repo
 If Git behaves strangely, check these in order:
@@ -52,9 +52,9 @@ If Git behaves strangely, check these in order:
 ## Credential note
 GitHub Desktop / user PowerShell is the preferred push path. A Codex-readable token or credential file should only be used if the user explicitly chooses that risk.
 
-## Remote handoff pattern
+## Remote completion pattern
 When work is complete and committed locally:
 1. Report the branch name, commit SHA, and validation result.
-2. Tell the user to push the current branch through GitHub Desktop or their own PowerShell session.
-3. If the user wants Codex to continue after the push, ask them to say when the branch is pushed.
-4. Then verify the remote branch or PR head matches the local commit before saying the PR is ready.
+2. If the user asked for push/PR completion, use the GitHub connector/API path to publish the committed tree and open the PR when available.
+3. Verify the remote branch or PR head matches the intended local commit/tree before saying the PR is ready.
+4. If connector/API publishing is unavailable or fails, tell the user to push the current branch through GitHub Desktop or their own PowerShell session, then ask them to say when the branch is pushed so Codex can verify the remote SHA and PR.
