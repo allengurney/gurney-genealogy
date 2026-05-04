@@ -14,11 +14,14 @@ Validation files record what source was examined, what portion was examined, and
 
 ## These files are deliberately thin
 They should answer:
+
 - what source was examined
 - what portion was examined
 - what remains unexamined or uncertain
 - where substantive findings were recorded
 - where the detailed execution trail lives, if a patchset exists
+
+Do **NOT** include detailed facts and findings which should live in research and fact sheets
 
 They should not become the main home for person/place/topic findings.
 

@@ -37,6 +37,7 @@ Not allowed here:
 - Edit only when a fact, citation, clarity issue, or structural improvement warrants it.
 - Prefer light-touch revision over stylistic churn.
 - Preserve the published feel.
+- For terms which require subject matter expertise the reader may not have (particularly pre-1900), hyperlink the term to a definition or reference such as wikipedia. No more than 10 such hyperlinks per fact sheet.
 
 ## Citation rigor
 - Every factual sentence or tight factual cluster should have a nearby footnote.

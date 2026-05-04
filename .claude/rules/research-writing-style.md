@@ -14,6 +14,9 @@ They are not workflow diaries.
 - Prefer direct declarative prose.
 - Keep entries compact.
 - Use headings only when they improve retrieval.
+- Include documented anecdotes and details which humanize and add detail and context.
+- Do not overly summarize as details provide value.
+- Include quotes and lengthy text extracts when high value.
 
 ## Keep process out of visible prose
 Do not mention the following in ordinary research prose unless the detail materially affects interpretation:
@@ -43,4 +46,4 @@ Put that detail in HTML comments, footnotes, validations, or processed patchsets
 Add analysis only when it identifies a person/place/relationship, sharpens chronology, links to an existing hypothesis, explains a conflict, or adds substantive context.
 
 ## Knowledge density preference
-When choosing between a sentence about process and a sentence that preserves a concrete historical fact, prefer the concrete historical content unless omitting the process note would materially mislead the reader.
+When choosing between a sentence about genealogy or AI process and a sentence that preserves a concrete historical fact, prefer the concrete historical content unless omitting the process note would materially mislead the reader.
