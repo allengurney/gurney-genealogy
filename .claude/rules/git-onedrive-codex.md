@@ -36,6 +36,10 @@ gitdir: C:/Users/allen/GitDirs/gurney-genealogy.git
 - AI can fetch, inspect status, create local branches, and make local commits in this layout.
 - Push is expected to happen through GitHub Desktop or the user's PowerShell unless credentials are deliberately reconfigured for Codex.
 - If Codex creates a local commit, tell the user the branch name and that GitHub Desktop should be used to push it.
+- Do not run `git push` from Codex by default, even when the user asks for "push/PR/etc." Treat that wording as permission to prepare the branch, commit, validation, and PR-ready summary; the remote push still belongs to GitHub Desktop or user PowerShell unless the user explicitly says to try Codex-managed credentials for this turn.
+- Do not repeatedly test remote push/auth from Codex. One failed remote authentication or GitHub CLI credential check is enough to stop and hand off.
+- If a Windows dialog appears or is reported for `git-remote-https.exe`, `git-credential-manager.exe`, GitHub CLI, or a similar Git authentication helper, stop all remote Git operations immediately. Do not retry with tracing, alternate shells, or repeated `git push`/`gh auth` probes.
+- After the user pushes the branch through GitHub Desktop or PowerShell, Codex may verify the remote branch and PR head SHA, and may use the GitHub connector to open or inspect a PR if the connector is available.
 
 ## Health checks before blaming the repo
 If Git behaves strangely, check these in order:
@@ -47,3 +51,10 @@ If Git behaves strangely, check these in order:
 
 ## Credential note
 GitHub Desktop / user PowerShell is the preferred push path. A Codex-readable token or credential file should only be used if the user explicitly chooses that risk.
+
+## Remote handoff pattern
+When work is complete and committed locally:
+1. Report the branch name, commit SHA, and validation result.
+2. Tell the user to push the current branch through GitHub Desktop or their own PowerShell session.
+3. If the user wants Codex to continue after the push, ask them to say when the branch is pushed.
+4. Then verify the remote branch or PR head matches the local commit before saying the PR is ready.
