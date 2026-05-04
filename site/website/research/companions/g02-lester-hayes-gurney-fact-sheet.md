@@ -29,6 +29,10 @@ Full obituary text preserved on <code>fairhaven-lester-obituary</code> entry in 
 - Predeceased: wife Dana Gurney; son Kenneth Gurney.
 - Memorial: Celebration of Life 17 January 2026, 2:00 PM, The Towne House Retirement Community Chapel, 2209 Saint Joe Center Road, Fort Wayne. Memorials to the Parkinson's Foundation. Arrangements by FairHaven Funeral Home.
 
+### Family handwritten notes - St. Vincent's Hospital and wartime birth context
+
+Dana Gurney's notes add a precise hospital-level birth detail for Lester Hayes Gurney: he was born 16 November 1945 in New York City at St. Vincent's Hospital, while his father, Lester Sawyer Gurney III, was stationed at Manila with the 536th Signal Heavy Construction Company. The note preserves a useful wartime family context: G3 was overseas/absent at G2's birth, and the family was still in the New York City orbit in November 1945.[^g02-family-notes]
+
 ### Three-generation continuity at Indiana & Michigan Electric Company
 
 The obituary's "third-generation power engineer" claim is genealogically significant. It implies that both G3 (Lester Sawyer Gurney III, 1923–2011) and G4 (Lester Sawyer Gurney Jr., 1888–1958) also worked for in the same lineage of mid-Atlantic / midwestern power-engineering practice. G4's published fact sheet records him as a civil engineer working the Cape Cod Canal and Cape Cod Construction Company before settling in Massachusetts, with later residences in Northfield, Wellesley, and Wellesley Hills.
@@ -76,3 +80,5 @@ Les is the last direct-line Gurney born in the New York metropolitan area. The f
 ## Notes on Confidence Conservation
 
 The fact sheet names Allen Gurney (G1, living), Beth Levy (Allen's wife), and the grandchildren Ebba and Soren Gurney, all of whom are living. This is consistent with Allen's instruction (April 2026 chat) to include the full obituary content. The published obituary is a public-facing document already naming these individuals; reproducing it on the fact sheet does not introduce private detail beyond what the family elected to publish at the time of the death.
+
+[^g02-family-notes]: Gurney family handwritten oral-history and research notes, revised findings memorandum v3 prepared 4 May 2026 from eight photographed notebook pages, Appendix A, Page 5 transcription in Dana Gurney's hand. Source ID: `gurney-family-handwritten-notes-1963`.
