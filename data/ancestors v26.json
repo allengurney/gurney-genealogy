@@ -149,8 +149,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g03-lester-sawyer-gurney-iii-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/L29M-Q32",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "L29M-Q32"
+    },
     "recordId": "ancestor-g3-lester-sawyer-gurney-iii",
     "placeRefs": [
       "place-new-york-metropolitan-area-usa"
@@ -185,7 +193,16 @@
         "notes": "G3 in direct line"
       }
     ],
-    "buttons": [],
+    "buttons": [
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/MB48-LHV",
+        "style": "family-search"
+      }
+    ],
+    "externalIds": {
+      "familySearch": "MB48-LHV"
+    },
     "recordId": "ancestor-g4-lester-sawyer-gurney-jr",
     "placeRefs": [
       "place-new-york-metropolitan-area-usa"
@@ -210,7 +227,16 @@
         "notes": "G4 in direct line"
       }
     ],
-    "buttons": [],
+    "buttons": [
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/9ZML-HC9",
+        "style": "family-search"
+      }
+    ],
+    "externalIds": {
+      "familySearch": "9ZML-HC9"
+    },
     "recordId": "ancestor-g5-lester-sawyer-gurney",
     "placeRefs": [
       "place-new-york-metropolitan-area-usa"
@@ -275,8 +301,16 @@
         "label": "Click for biography",
         "url": "/key-research/brigadier-general-william-gurney.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/KZH9-VYW",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "KZH9-VYW"
+    },
     "recordId": "ancestor-g6-brigadier-general-william-gurney",
     "placeRefs": [
       "place-15-avenue-c-manhattan-new-york-usa",
@@ -358,8 +392,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g07-willis-gurney-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/KLCF-L2M",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "KLCF-L2M"
+    },
     "recordId": "ancestor-g7-willis-gurney",
     "placeRefs": [
       "place-cummington-massachusetts-usa",
@@ -410,8 +452,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g08-amos-gurney-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/KLCF-L29",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "KLCF-L29"
+    },
     "recordId": "ancestor-g8-amos-gurney",
     "placeRefs": [
       "place-bridgewater-massachusetts-usa",
@@ -451,8 +501,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/L4B3-G3T",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "L4B3-G3T"
+    },
     "recordId": "ancestor-g9-benjamin-gurney",
     "placeRefs": [
       "place-abington-massachusetts-usa",
@@ -513,8 +571,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/KFZH-52G",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "KFZH-52G"
+    },
     "recordId": "ancestor-g10-benjamin-gurney",
     "placeRefs": [
       "place-abington-massachusetts-usa",
@@ -554,8 +620,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/KP3J-VG2",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "KP3J-VG2"
+    },
     "recordId": "ancestor-g11-benjamin-gurney",
     "placeRefs": [
       "place-abington-massachusetts-usa",
@@ -686,8 +760,16 @@
         "label": "Click for Case File",
         "url": "/key-research/john-gurney-case-file.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/LT9Z-KQ1",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "LT9Z-KQ1"
+    },
     "recordId": "ancestor-g13-john-gurney-1",
     "placeRefs": [
       "place-braintree-massachusetts-usa",
@@ -789,8 +871,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g14-francis-gurney-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/LC5Y-4HQ",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "LC5Y-4HQ"
+    },
     "recordId": "ancestor-g14-francis-gurney",
     "placeRefs": [
       "place-city-of-london-england",
@@ -877,8 +967,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g15-henry-gurney-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/MDR8-PDR",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "MDR8-PDR"
+    },
     "recordId": "ancestor-g15-henry-gurney",
     "placeRefs": [
       "place-attleborough-norfolk-england",
@@ -919,8 +1017,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g16-francis-gurney-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/G521-C8Q",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "G521-C8Q"
+    },
     "recordId": "ancestor-g16-francis-gurney",
     "placeRefs": [
       "place-great-ellingham-norfolk-england",
@@ -957,8 +1063,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g17-anthony-gurney-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/GV9D-VD2",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "GV9D-VD2"
+    },
     "recordId": "ancestor-g17-anthony-gurney",
     "placeRefs": [
       "place-great-ellingham-norfolk-england",
@@ -1038,8 +1152,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g18-william-gurney-v-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/GCSS-F8C",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "GCSS-F8C"
+    },
     "recordId": "ancestor-g18-william-gurney-v",
     "placeRefs": [
       "place-hardingham-norfolk-england",
@@ -1088,8 +1210,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g19-william-gurney-iv-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/LLCF-P32",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "LLCF-P32"
+    },
     "recordId": "ancestor-g19-william-gurney-iv",
     "placeRefs": [
       "place-burnham-thorpe-norfolk-england",
@@ -1125,8 +1255,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g20-thomas-gournay-ii-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/9ZHT-HRP",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "9ZHT-HRP"
+    },
     "recordId": "ancestor-g20-thomas-gournay-ii",
     "placeRefs": [
       "place-harpley-norfolk-england",
@@ -1162,8 +1300,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g21-thomas-gournay-i-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/KZ74-PR6",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "KZ74-PR6"
+    },
     "recordId": "ancestor-g21-thomas-gournay-i",
     "placeRefs": [
       "place-harpley-norfolk-england",
@@ -1199,8 +1345,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g22-robert-gournay-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/K8QC-7LY",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "K8QC-7LY"
+    },
     "recordId": "ancestor-g22-robert-gournay",
     "placeRefs": [
       "place-norfolk-england"
@@ -1240,8 +1394,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/K8MR-TT8",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "K8MR-TT8"
+    },
     "recordId": "ancestor-g23-edmund-gurney",
     "placeRefs": [
       "place-hardingham-norfolk-england",
@@ -1357,8 +1519,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g25-john-de-gournay-iii-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/9ZH8-98D",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "9ZH8-98D"
+    },
     "recordId": "ancestor-g25-john-de-gournay-iii",
     "placeRefs": [
       "place-hardingham-norfolk-england",
@@ -1398,8 +1568,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g26-sir-william-de-gournay-iii-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/9CQ1-LP7",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "9CQ1-LP7"
+    },
     "recordId": "ancestor-g26-sir-william-de-gournay-iii-knt",
     "placeRefs": [
       "place-hardingham-norfolk-england",
@@ -1430,8 +1608,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g27-sir-john-de-gournay-i-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/9ZHM-CX7",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "9ZHM-CX7"
+    },
     "recordId": "ancestor-g27-sir-john-de-gournay-i-knt",
     "placeRefs": [
       "place-hardingham-norfolk-england",
@@ -1468,8 +1654,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g28-william-de-gournay-ii-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/MVTV-YP3",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "MVTV-YP3"
+    },
     "recordId": "ancestor-g28-william-de-gournay-ii",
     "placeRefs": [
       "place-hardingham-norfolk-england",
@@ -1538,8 +1732,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g30-william-de-gournay-i-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/M4SW-X7R",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "M4SW-X7R"
+    },
     "recordId": "ancestor-g30-william-de-gournay-i",
     "placeRefs": [
       "place-hardingham-norfolk-england",
@@ -1571,8 +1773,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g31-walter-de-gournay-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/PMP1-5RR",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "PMP1-5RR"
+    },
     "recordId": "ancestor-g31-walter-de-gournay",
     "placeRefs": [
       "place-hardingham-norfolk-england",
@@ -1628,8 +1838,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/LBGV-H99",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "LBGV-H99"
+    },
     "recordId": "ancestor-g32-gerard-de-gournay",
     "placeRefs": [
       "place-caister-on-sea-norfolk-england",
@@ -1742,8 +1960,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/MZ68-VKD",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "MZ68-VKD"
+    },
     "recordId": "ancestor-g33-hugh-de-gournay-iii",
     "placeRefs": [
       "place-ardleigh-essex-england",
@@ -1779,8 +2005,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g34-hugh-de-gournay-ii-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/LVSH-KBM",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "LVSH-KBM"
+    },
     "recordId": "ancestor-g34-hugh-de-gournay-ii",
     "placeRefs": [
       "place-gournay-en-bray-normandy-france"
@@ -1815,8 +2049,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g35-renaud-de-gournay-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/GC1N-CQ3",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "GC1N-CQ3"
+    },
     "recordId": "ancestor-g35-renaud-de-gournay",
     "placeRefs": [
       "place-gournay-en-bray-normandy-france",
@@ -1847,8 +2089,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g36-hugh-de-gournay-i-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/PWPZ-VK1",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "PWPZ-VK1"
+    },
     "recordId": "ancestor-g36-hugh-de-gournay-i",
     "placeRefs": [
       "place-gournay-en-bray-normandy-france"
@@ -1888,8 +2138,16 @@
         "label": "Fact sheet",
         "url": "/fact-sheets/g37-eudes-de-gournay-fact-sheet.html",
         "style": "bio"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/P8MV-L5C",
+        "style": "family-search"
       }
     ],
+    "externalIds": {
+      "familySearch": "P8MV-L5C"
+    },
     "recordId": "ancestor-g-37-eudes-odon-de-gournay",
     "placeRefs": [
       "place-gournay-en-bray-normandy-france",

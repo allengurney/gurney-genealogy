@@ -277,7 +277,8 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g02-lester-hayes-gurney-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
@@ -391,12 +392,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g03-lester-sawyer-gurney-iii-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g03-lester-sawyer-gurney-iii-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/L29M-Q32",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g3-lester-sawyer-gurney-iii",
@@ -422,7 +430,10 @@
         "siteUrl": "",
         "siteLabel": ""
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "L29M-Q32"
+    }
   },
   {
     "type": "era",
@@ -475,6 +486,12 @@
         "label": "Research notes",
         "url": "/research/companions/g04-lester-sawyer-gurney-jr-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/MB48-LHV",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g4-lester-sawyer-gurney-jr",
@@ -500,7 +517,10 @@
         "siteUrl": "",
         "siteLabel": ""
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "MB48-LHV"
+    }
   },
   {
     "type": "ancestor",
@@ -542,6 +562,12 @@
         "label": "Research notes",
         "url": "/research/companions/g05-lester-sawyer-gurney-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/9ZML-HC9",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g5-lester-sawyer-gurney",
@@ -567,7 +593,10 @@
         "siteUrl": "",
         "siteLabel": ""
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "9ZML-HC9"
+    }
   },
   {
     "type": "ancestor",
@@ -638,7 +667,14 @@
       {
         "label": "Click for biography",
         "url": "/key-research/brigadier-general-william-gurney.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/KZH9-VYW",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g6-brigadier-general-william-gurney",
@@ -790,7 +826,10 @@
         "siteUrl": "",
         "siteLabel": ""
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "KZH9-VYW"
+    }
   },
   {
     "type": "era",
@@ -872,12 +911,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g07-willis-gurney-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g07-willis-gurney-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/KLCF-L2M",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g7-willis-gurney",
@@ -921,7 +967,10 @@
         "siteUrl": "",
         "siteLabel": ""
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "KLCF-L2M"
+    }
   },
   {
     "type": "era",
@@ -978,12 +1027,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g08-amos-gurney-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g08-amos-gurney-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/KLCF-L29",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g8-amos-gurney",
@@ -1027,7 +1083,10 @@
         "siteUrl": "",
         "siteLabel": ""
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "KLCF-L29"
+    }
   },
   {
     "type": "ancestor",
@@ -1072,12 +1131,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g09-benjamin-gurney-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/L4B3-G3T",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g9-benjamin-gurney",
@@ -1175,7 +1241,10 @@
         "siteUrl": "",
         "siteLabel": ""
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "L4B3-G3T"
+    }
   },
   {
     "type": "ancestor",
@@ -1238,12 +1307,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g10-benjamin-gurney-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/KFZH-52G",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g10-benjamin-gurney",
@@ -1359,7 +1435,10 @@
         "siteUrl": "",
         "siteLabel": ""
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "KFZH-52G"
+    }
   },
   {
     "type": "ancestor",
@@ -1400,12 +1479,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g11-benjamin-gurney-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/KP3J-VG2",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g11-benjamin-gurney",
@@ -1521,7 +1607,10 @@
         "siteUrl": "",
         "siteLabel": ""
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "KP3J-VG2"
+    }
   },
   {
     "type": "ancestor",
@@ -1570,7 +1659,8 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g12-richard-gurney-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
@@ -1707,12 +1797,19 @@
       {
         "label": "Click for Case File",
         "url": "/key-research/john-gurney-case-file.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g13-john-gurney-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/LT9Z-KQ1",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g13-john-gurney-1",
@@ -1792,7 +1889,10 @@
         "siteUrl": "",
         "siteLabel": ""
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "LT9Z-KQ1"
+    }
   },
   {
     "type": "era",
@@ -1893,17 +1993,25 @@
       {
         "label": "Case file",
         "url": "/key-research/john-gurney-case-file.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g14-francis-gurney-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g14-francis-gurney-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/LC5Y-4HQ",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g14-francis-gurney",
@@ -1983,7 +2091,10 @@
         "siteUrl": "https://www.geograph.org.uk/photo/2122114",
         "siteLabel": "Photo / site reference"
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "LC5Y-4HQ"
+    }
   },
   {
     "type": "related",
@@ -2013,17 +2124,20 @@
       {
         "label": "Related fact sheet",
         "url": "/fact-sheets/g14-edmund-gurney-divine-related-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/edmund-gurney-divine.html",
-        "style": "research"
+        "style": "research",
+        "isExternal": false
       },
       {
         "label": "Anecdotes source",
         "url": "https://archive.org/details/anecdotestraditi00thomrich/page/6/mode/1up",
-        "style": "research"
+        "style": "research",
+        "isExternal": true
       }
     ],
     "recordId": "collateral-g14-edmund-gurney-divine",
@@ -2104,12 +2218,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g15-henry-gurney-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g15-henry-gurney-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/MDR8-PDR",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g15-henry-gurney",
@@ -2225,7 +2346,10 @@
         "siteUrl": "https://www.geograph.org.uk/photo/2122114",
         "siteLabel": "Photo / site reference"
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "MDR8-PDR"
+    }
   },
   {
     "type": "ancestor",
@@ -2267,12 +2391,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g16-francis-gurney-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g16-francis-gurney-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/G521-C8Q",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g16-francis-gurney",
@@ -2334,7 +2465,10 @@
         "siteUrl": "https://www.geograph.org.uk/photo/2122114",
         "siteLabel": "Photo / site reference"
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "G521-C8Q"
+    }
   },
   {
     "type": "ancestor",
@@ -2375,12 +2509,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g17-anthony-gurney-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g17-anthony-gurney-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/GV9D-VD2",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g17-anthony-gurney",
@@ -2460,7 +2601,10 @@
         "siteUrl": "https://www.geograph.org.uk/photo/2122114",
         "siteLabel": "Photo / site reference"
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "GV9D-VD2"
+    }
   },
   {
     "type": "related",
@@ -2502,12 +2646,14 @@
       {
         "label": "Related fact sheet",
         "url": "/fact-sheets/g17-queen-anne-boleyn-related-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "HRP source",
         "url": "https://www.hrp.org.uk/tower-of-london/history-and-stories/anne-boleyn/",
-        "style": "research"
+        "style": "research",
+        "isExternal": true
       }
     ],
     "recordId": "collateral-g17-queen-anne-boleyn",
@@ -2574,12 +2720,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g18-william-gurney-v-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g18-william-gurney-v-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/GCSS-F8C",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g18-william-gurney-v",
@@ -2677,7 +2830,10 @@
         "siteUrl": "https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459",
         "siteLabel": "Blomefield: Harpley"
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "GCSS-F8C"
+    }
   },
   {
     "type": "era",
@@ -2729,12 +2885,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g19-william-gurney-iv-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g19-william-gurney-iv-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/LLCF-P32",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g19-william-gurney-iv",
@@ -2778,7 +2941,10 @@
         "siteUrl": "https://www.geograph.org.uk/photo/2122114",
         "siteLabel": "Photo / site reference"
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "LLCF-P32"
+    }
   },
   {
     "type": "ancestor",
@@ -2819,12 +2985,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g20-thomas-gournay-ii-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g20-thomas-gournay-ii-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/9ZHT-HRP",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g20-thomas-gournay-ii",
@@ -2868,7 +3041,10 @@
         "siteUrl": "https://www.geograph.org.uk/photo/2122114",
         "siteLabel": "Photo / site reference"
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "9ZHT-HRP"
+    }
   },
   {
     "type": "ancestor",
@@ -2909,12 +3085,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g21-thomas-gournay-i-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g21-thomas-gournay-i-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/KZ74-PR6",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g21-thomas-gournay-i",
@@ -2958,7 +3141,10 @@
         "siteUrl": "https://www.geograph.org.uk/photo/2122114",
         "siteLabel": "Photo / site reference"
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "KZ74-PR6"
+    }
   },
   {
     "type": "ancestor",
@@ -2999,12 +3185,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g22-robert-gournay-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g22-robert-gournay-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/K8QC-7LY",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g22-robert-gournay",
@@ -3030,7 +3223,10 @@
         "siteUrl": "",
         "siteLabel": ""
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "K8QC-7LY"
+    }
   },
   {
     "type": "ancestor",
@@ -3076,12 +3272,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g23-edmund-gurney-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/K8MR-TT8",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g23-edmund-gurney",
@@ -3161,7 +3364,10 @@
         "siteUrl": "https://www.geograph.org.uk/photo/2122114",
         "siteLabel": "Photo / site reference"
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "K8MR-TT8"
+    }
   },
   {
     "type": "related",
@@ -3388,7 +3594,8 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g24-john-de-gournay-iv-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
@@ -3478,12 +3685,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g25-john-de-gournay-iii-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g25-john-de-gournay-iii-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/9ZH8-98D",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g25-john-de-gournay-iii",
@@ -3527,7 +3741,10 @@
         "siteUrl": "https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459",
         "siteLabel": "Blomefield: Harpley"
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "9ZH8-98D"
+    }
   },
   {
     "type": "ancestor",
@@ -3572,12 +3789,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g26-sir-william-de-gournay-iii-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g26-sir-william-de-gournay-iii-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/9CQ1-LP7",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g26-sir-william-de-gournay-iii-knt",
@@ -3621,7 +3845,10 @@
         "siteUrl": "https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459",
         "siteLabel": "Blomefield: Harpley"
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "9CQ1-LP7"
+    }
   },
   {
     "type": "ancestor",
@@ -3657,12 +3884,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g27-sir-john-de-gournay-i-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g27-sir-john-de-gournay-i-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/9ZHM-CX7",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g27-sir-john-de-gournay-i-knt",
@@ -3724,7 +3958,10 @@
         "siteUrl": "https://en.wikipedia.org/wiki/Battle_of_Lewes",
         "siteLabel": "Battle of Lewes"
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "9ZHM-CX7"
+    }
   },
   {
     "type": "ancestor",
@@ -3765,12 +4002,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g28-william-de-gournay-ii-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g28-william-de-gournay-ii-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/MVTV-YP3",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g28-william-de-gournay-ii",
@@ -3814,7 +4058,10 @@
         "siteUrl": "https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459",
         "siteLabel": "Blomefield: Harpley"
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "MVTV-YP3"
+    }
   },
   {
     "type": "ancestor",
@@ -3855,7 +4102,8 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g29-matthew-de-gournay-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
@@ -3958,12 +4206,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g30-william-de-gournay-i-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g30-william-de-gournay-i-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/M4SW-X7R",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g30-william-de-gournay-i",
@@ -4025,7 +4280,10 @@
         "siteUrl": "",
         "siteLabel": ""
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "M4SW-X7R"
+    }
   },
   {
     "type": "ancestor",
@@ -4061,12 +4319,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g31-walter-de-gournay-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g31-walter-de-gournay-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/PMP1-5RR",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g31-walter-de-gournay",
@@ -4128,7 +4393,10 @@
         "siteUrl": "",
         "siteLabel": ""
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "PMP1-5RR"
+    }
   },
   {
     "type": "era",
@@ -4189,12 +4457,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g32-gerard-de-gournay-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/LBGV-H99",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g32-gerard-de-gournay",
@@ -4292,7 +4567,10 @@
         "siteUrl": "",
         "siteLabel": ""
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "LBGV-H99"
+    }
   },
   {
     "type": "related",
@@ -4337,7 +4615,8 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       }
     ],
     "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
@@ -4489,7 +4768,8 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       }
     ],
     "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
@@ -4605,12 +4885,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g33-hugh-de-gournay-iii-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/MZ68-VKD",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g33-hugh-de-gournay-iii",
@@ -4744,7 +5031,10 @@
         "siteUrl": "",
         "siteLabel": ""
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "MZ68-VKD"
+    }
   },
   {
     "type": "ancestor",
@@ -4780,12 +5070,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g34-hugh-de-gournay-ii-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g34-hugh-de-gournay-ii-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/LVSH-KBM",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g34-hugh-de-gournay-ii",
@@ -4811,7 +5108,10 @@
         "siteUrl": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/",
         "siteLabel": "Heritage page"
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "LVSH-KBM"
+    }
   },
   {
     "type": "ancestor",
@@ -4852,12 +5152,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g35-renaud-de-gournay-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g35-renaud-de-gournay-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/GC1N-CQ3",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g35-renaud-de-gournay",
@@ -4901,7 +5208,10 @@
         "siteUrl": "https://tourismedes4rivieresenbray.com/la-ferte-saint-samson/",
         "siteLabel": "Local history page"
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "GC1N-CQ3"
+    }
   },
   {
     "type": "ancestor",
@@ -4937,12 +5247,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g36-hugh-de-gournay-i-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g36-hugh-de-gournay-i-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/PWPZ-VK1",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g36-hugh-de-gournay-i",
@@ -4968,7 +5285,10 @@
         "siteUrl": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/",
         "siteLabel": "Heritage page"
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "PWPZ-VK1"
+    }
   },
   {
     "type": "era",
@@ -5015,12 +5335,19 @@
       {
         "label": "Fact sheet",
         "url": "/fact-sheets/g37-eudes-de-gournay-fact-sheet.html",
-        "style": "bio"
+        "style": "bio",
+        "isExternal": false
       },
       {
         "label": "Research notes",
         "url": "/research/companions/g37-eudes-de-gournay-fact-sheet.html",
         "style": "research"
+      },
+      {
+        "label": "FamilySearch",
+        "url": "https://www.familysearch.org/tree/person/details/P8MV-L5C",
+        "style": "family-search",
+        "isExternal": true
       }
     ],
     "recordId": "ancestor-g-37-eudes-odon-de-gournay",
@@ -5064,7 +5391,10 @@
         "siteUrl": "",
         "siteLabel": ""
       }
-    ]
+    ],
+    "externalIds": {
+      "familySearch": "P8MV-L5C"
+    }
   },
   {
     "type": "era",

@@ -130,7 +130,8 @@ This is the central data file. Every ancestor and era divider is one record in a
 | `landHoldings` | Ancestor table | Documented property and land holdings |
 | `spouses` | Research ref | Array of `{name, dates, notes}` objects |
 | `children` | Research ref | Array of `{name, dates, mother, notes}` objects |
-| `buttons` | Homepage | Array of `{label, url, style}` — style is `"bio"` (blue) or `"tree"` (green) |
+| `buttons` | Homepage / ancestor table | Array of `{label, url, style}`. Internal site links use `"bio"` or `"research"`; third-party links use `"external"`; FamilySearch links use `"family-search"`. |
+| `externalIds` | Generated data / future integrations | Compact cross-reference object for site IDs, currently `{ "familySearch": "ID" }` when known. |
 | `locations` | Map / research | Geographic points from the ancestor map CSV; `{place, siteName, eventType, eventDate, lat, lng, ...}` |
 
 **Adding new attributes to `ancestors.json` does not break anything.** Templates only reference the fields they use. New fields are silently ignored by existing templates until a template is written to use them.
@@ -142,7 +143,7 @@ This is the central data file. Every ancestor and era divider is one record in a
 ## Editing content
 
 ### Ancestor data (both tables update together)
-Edit `_data/ancestors.json` in any text editor or in Claude/ChatGPT. Find the ancestor by `gen` or `name`. Change any field. Rebuild.
+Edit the canonical root file `data/ancestors v26.json`, then run the data generation/build step. The generated `_data/ancestors.json` file is a site artifact and should not be hand-edited for canonical changes.
 
 ### Homepage and ancestor table layout
 Edit `index.njk` (homepage) or `maps-and-lists/ancestor-table.njk` (ancestor table). These are Nunjucks templates — the loop structure is at the bottom of each file.
@@ -291,13 +292,30 @@ Use two digits for the generation number so sorting remains stable.
 - Keep JSON concise; do not duplicate full page prose in the JSON.
 
 ### JSON button contract
-For any ancestor with a published fact sheet, add exactly one button:
+For any ancestor with a published fact sheet, add exactly one internal button:
 
 ```json
 {
   "label": "Fact sheet",
   "url": "/g##-normalized-name-fact-sheet.html",
   "style": "bio"
+}
+```
+
+For FamilySearch profile links, use the dedicated style and keep the ID in `externalIds`:
+
+```json
+{
+  "buttons": [
+    {
+      "label": "FamilySearch",
+      "url": "https://www.familysearch.org/tree/person/details/XXXX-XXX",
+      "style": "family-search"
+    }
+  ],
+  "externalIds": {
+    "familySearch": "XXXX-XXX"
+  }
 }
 ```
 

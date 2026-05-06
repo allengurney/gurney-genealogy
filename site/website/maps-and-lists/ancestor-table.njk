@@ -97,10 +97,12 @@ updated: 25 April 2026
             <div class="detail-actions">
               {% if item.buttons and item.buttons.length %}
                 {% for btn in item.buttons %}
-                  <a href="{{ btn.url }}" class="btn{% if btn.style == 'bio' %} primary{% endif %}">{{ btn.label }}</a>
+                  <a href="{{ btn.url }}"
+                     class="btn btn-{{ btn.style }}{% if btn.style == 'bio' or btn.style == 'research' %} primary{% endif %}"
+                     {% if btn.isExternal %}target="_blank" rel="noopener"{% endif %}>{{ btn.label }}{% if btn.isExternal %}<span class="external-link-mark" aria-hidden="true">↗</span><span class="visually-hidden"> opens external site</span>{% endif %}</a>
                 {% endfor %}
               {% endif %}
-              <a href="/maps-and-lists/ancestor-map.html" class="btn">Map</a>
+              <a href="/maps-and-lists/ancestor-map.html" class="btn btn-map primary">Map</a>
             </div>
           </header>
           <div class="detail-body">
@@ -202,7 +204,9 @@ updated: 25 April 2026
                   {% if item.buttons and item.buttons.length %}
                     <div class="btns">
                       {% for btn in item.buttons %}
-                        <a href="{{ btn.url }}" class="btn-{{ btn.style }}">{{ btn.label }}</a>
+                        <a href="{{ btn.url }}"
+                           class="btn-{{ btn.style }}"
+                           {% if btn.isExternal %}target="_blank" rel="noopener"{% endif %}>{{ btn.label }}{% if btn.isExternal %}<span class="external-link-mark" aria-hidden="true">↗</span><span class="visually-hidden"> opens external site</span>{% endif %}</a>
                       {% endfor %}
                     </div>
                   {% endif %}
