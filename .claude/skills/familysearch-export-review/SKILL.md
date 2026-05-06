@@ -16,14 +16,13 @@ The assessment is later the primary input to `research-intake-prep` (Phase 1).
 - `.claude/rules/citations.md`
 - `.claude/rules/sources-intake.md`
 - the target ancestor's `research/people/<g##>-...research.md` and `fact-sheets/<g##>-...md`
-- `data/familysearch-ids.csv` for the matching generation row
 - the target's record in `data/ancestors v26.json` and the immediately adjacent generations
-- any companion PDFs already grabbed under `sources/FS/<PID>/` (third-party docs collected during prior URL crawls)
+- any companion files already grabbed under `sources/FS/<PID>/` (third-party docs collected during prior URL crawls)
 
 ## What this skill does
 For one FamilySearch Family Group Record PDF:
 1. resolve the FS PID to its repo generation via `familysearch-ids.csv`
-2. parse the PDF in three layers (see "Three-layer PDF discipline" below)
+2. parse files in three layers (see "Three-layer PDF discipline" below)
 3. cross-walk the export against the repo's existing research companion, fact sheet, and structured ancestor row
 4. crawl every URL in the Sources sections (with triage; see "URL triage discipline" below) and incorporate net-new content
 5. produce the assessment MD covering: source-format anatomy, concordant facts, net-new content (with verbatim transcripts), FS conflicts, spurious-content findings, FS Tree update suggestions, URL triage, patchset-readiness sketch, and open items
@@ -31,7 +30,7 @@ For one FamilySearch Family Group Record PDF:
 ## What this skill does not do
 - do not modify `research/...`, `fact-sheets/...`, `data/...`, or `site/...`
 - do not write a Phase-1 patchset at `sources/intake/processed/vNN.patchset.md` (that is `research-intake-prep`)
-- do not move, rename, or delete the FS PDF or any companion file
+- do not move, rename, or delete files
 - do not stage, commit, or push
 
 ## Three-layer PDF discipline
@@ -39,7 +38,7 @@ A FamilySearch Family Group Record PDF bundles three content layers with very di
 
 | Layer | Trust | Treatment |
 |---|---|---|
-| Structured FGR table fields (husband/wife/children/dates/places/parents) | Low | Cross-walk for conflicts; surface conflicts even when our value is better, so the user can later update the FS tree |
+| Structured FGR table fields (husband/wife/children/dates/places/parents) | Low | Cross-walk for conflicts; surface conflicts even when our value is better, so the user can later update the FS tree. Identify whether claims are sourced. |
 | Sources sections per person (URLs + embedded notes) | High when the embedded note is a transcript from a scholarly source (FMG MedLands, charter editions, peer-reviewed articles); medium-low when it is a community-tree paste | Always crawl the URL list. Treat embedded scholarly transcripts as primary content for the cross-walk. |
 | Trailing Notes / free-form contributor pastes | Very low | Note presence, do not adopt as fact |
 
@@ -63,7 +62,7 @@ Even when the structured FGR fields are wrong, do not silently discard them. The
 Surface all of this as a top-level "FS Tree update suggestions" section in the assessment MD.
 
 ## URL triage discipline
-URLs in the Sources section must be **crawled, not skipped**. FS exports routinely cite Racines Histoire (Pattou), Geni, WikiTree, FMG MedLands, ThePeerage, HathiTrust, archive.org, FindAGrave, and FamilySearch image-server pages. These can carry material content beyond what the export embeds.
+URLs in the Sources section must be **crawled, not skipped**. FS exports routinely cite pages which carry material content beyond what the export embeds.
 
 Sort each URL in the assessment MD into one of three buckets:
 
@@ -76,12 +75,13 @@ When a URL matches an existing entry in `data/sources.json` (by `sourceId` or UR
 ## Detail-carrying discipline
 The assessment MD must carry detail forward, not summarize it away. Specifically:
 
+- entire passages and surrounding text where ancestors, places, and relevant content is mentioned 
 - reproduce Latin charter excerpts and primary-source quotations **verbatim** where they appear in the export, with numbered references preserved (e.g., FMG's `[875]`, `[893]`)
 - preserve specific dates (year, month, day where given), place spellings, witness lists, and chronological reasoning chains
 - when a scholarly source brackets a date or claim as uncertain (`[...]`), preserve the brackets in the MD
 - when an excerpt names multiple persons, preserve all names, not just the subject
 - when a Latin / Old French quotation is given, preserve original orthography
-- when Pattou or another scholar dissents from FMG, preserve **both** positions — do not pick a winner in the assessment MD
+- when there is scholar dissents from FMG, preserve **both** positions — do not pick a winner in the assessment MD
 
 A reader of the assessment MD should be able to draft the Phase-1 patchset using only the MD plus the original PDF — without re-reading PDF pages for ordinary structural cross-walk facts. They may reopen the PDF for very long charter texts, but not for the cross-walk.
 
@@ -110,7 +110,7 @@ When multiple FS exports are processed in series for a contiguous lineage segmen
 Recommended batch size is 3–5 contiguous ancestors in the same scholarly neighborhood. Beyond that, the cross-walk grows unwieldy for human review.
 
 ## Companion-file convention
-Companion documents collected from URL crawls during this skill (e.g., a downloaded Pattou PDF, a saved Geni page) live under `sources/FS/<PID>/` next to the originating FS export. They are committed alongside the export. The skill itself does not stage or commit; the user does that as a buttoning-up step.
+Companion documents collected from URL crawls during this skill (e.g., a downloaded research PDF, a saved Geni page) live under `sources/FS/<PID>/` next to the originating FS export. They are committed alongside the export. The skill itself does not stage or commit; the user does that as a buttoning-up step.
 
 ## Success condition
-The MD is good enough that a second pass (`research-intake-prep`) can produce a Phase-1 patchset using only the MD plus the original FS PDF, with the URL triage Bucket B already actioned by the user via interactive browser session.
+The MD is good enough that a second pass (`research-intake-prep`) can produce a Phase-1 patchset using only the MD, with the URL triage Bucket B already actioned by the user via interactive browser session.
