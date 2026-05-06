@@ -6,8 +6,8 @@ Site-generation layer for the public genealogy site.
 This directory is presentation-oriented. Canonical facts and canonical prose live upstream in `data/`, `fact-sheets/`, and `research/`.
 
 ## Active working directories
-- `gurney-eleventy-project_source_clean_2026-04-08_v23/` — current Eleventy source used to build deployable `_site/` output.
-- `New website design/` — static design prototype for the next website refactor.
+- `website/` — current Eleventy source used to build deployable `_site/` output and the manual upload package.
+- `New website design/` — static design prototype/archive for the baseline refactor.
 - `Map-Create-23April2026/` — map generation scripts and notes for the standalone ancestor map artifact.
 
 ## Data rule

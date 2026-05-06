@@ -81,11 +81,32 @@ function regionGroupFromPlace(place) {
 }
 
 function cleanButton(button) {
+  const url = button.url || "";
+  const style = button.style || "bio";
+  const isExternal = /^https?:\/\//i.test(url);
   return {
     label: button.label,
-    url: button.url,
-    style: button.style || "bio",
+    url,
+    style,
+    isExternal,
   };
+}
+
+function buttonRank(button) {
+  if (!button) return 99;
+  if (button.style === "bio") return 10;
+  if (button.style === "research") return 20;
+  if (button.style === "tree") return 30;
+  if (button.style === "family-search") return 80;
+  if (button.style === "external" || button.isExternal) return 90;
+  return 40;
+}
+
+function sortButtons(buttons) {
+  return buttons
+    .map((button, index) => ({ button, index }))
+    .sort((a, b) => buttonRank(a.button) - buttonRank(b.button) || a.index - b.index)
+    .map(item => item.button);
 }
 
 function hasMeaningfulValue(value) {
@@ -371,7 +392,7 @@ const generated = ancestors.map(item => {
     buttons.push(companion);
   }
 
-  return {
+  const output = {
     type: item.type,
     isRelated: item.type === "related",
     gen: item.gen,
@@ -395,12 +416,16 @@ const generated = ancestors.map(item => {
     hasLandHoldings: hasMeaningfulValue(item.landHoldings),
     spouses: item.spouses || [],
     children: item.children || [],
-    buttons,
+    buttons: sortButtons(buttons),
     recordId: item.recordId || "",
     placeRefs: item.placeRefs || [],
     placeSummary: placeSummary(locations),
     locations,
   };
+  if (item.externalIds && Object.keys(item.externalIds).length) {
+    output.externalIds = item.externalIds;
+  }
+  return output;
 });
 
 const placesCatalog = buildPlacesCatalog(places, placeDetails, generated, placeResearchById);

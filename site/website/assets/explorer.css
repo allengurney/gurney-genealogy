@@ -49,6 +49,17 @@ body.design-refresh{
 .design-refresh .btn:hover{background:#fbf0df;border-color:#d0b686;text-decoration:none}
 .design-refresh .btn.primary{background:var(--explorer-ink);color:var(--explorer-paper);border-color:var(--explorer-ink)}
 .design-refresh .btn.primary:hover{background:var(--explorer-accent);border-color:var(--explorer-accent)}
+.design-refresh .btn.btn-bio,
+.design-refresh .btn.btn-research,
+.design-refresh .btn.btn-map{background:#1267d8;color:#fff;border-color:#0d56b8}
+.design-refresh .btn.btn-bio:hover,
+.design-refresh .btn.btn-research:hover,
+.design-refresh .btn.btn-map:hover{background:#0d56b8;border-color:#0a4696;color:#fff}
+.design-refresh .btn.btn-family-search{background:#edf8f2;color:#17613e;border-color:#9bcbaa}
+.design-refresh .btn.btn-family-search:hover{background:#dff1e7;border-color:#6fb98e;color:#124c31}
+.design-refresh .btn.btn-external{background:#f7f8fa;color:#3d4655;border-color:#cfd5dd}
+.design-refresh .btn.btn-external:hover{background:#edf1f5;border-color:#b9c3cf;color:#2d3440}
+.external-link-mark{margin-left:2px;font-size:.9em;line-height:1}
 
 .hero-art,.aside-card,.explorer-panel,.detail-panel,.stats-strip,.catalog-table-wrap{background:var(--explorer-paper);border:1px solid var(--explorer-rule);border-radius:8px;box-shadow:var(--explorer-shadow)}
 .hero-art{padding:18px}
