@@ -1,0 +1,42 @@
+gen,type,name,dates,recordId,familysearch_id,familysearch_url,rm_personid,notes
+G3,ancestor,Lester Sawyer Gurney III,1923-2011,ancestor-g3-lester-sawyer-gurney-iii,L29M-Q32,https://www.familysearch.org/tree/person/details/L29M-Q32,7,clean match
+G4,ancestor,Lester Sawyer Gurney Jr.,1888-1958,ancestor-g4-lester-sawyer-gurney-jr,MB48-LHV,https://www.familysearch.org/tree/person/details/MB48-LHV,29,clean match
+G5,ancestor,Lester Sawyer Gurney,1856-1899,ancestor-g5-lester-sawyer-gurney,9ZML-HC9,https://www.familysearch.org/tree/person/details/9ZML-HC9,32,clean match
+G6,ancestor,Brigadier General William Gurney,1821-1879,ancestor-g6-brigadier-general-william-gurney,KZH9-VYW,https://www.familysearch.org/tree/person/details/KZH9-VYW,52,clean match
+G7,ancestor,Willis Gurney,c. 1796-98 -- before 1870,ancestor-g7-willis-gurney,KLCF-L2M,https://www.familysearch.org/tree/person/details/KLCF-L2M,102,date handling differs on FS but paternal chain match is strong
+G8,ancestor,Amos Gurney,1770 -- before 1850,ancestor-g8-amos-gurney,KLCF-L29,https://www.familysearch.org/tree/person/details/KLCF-L29,221,clean match
+G9,ancestor,Benjamin Gurney,bpt. 30 May 1730 -- d. 28 Sept. 1805,ancestor-g9-benjamin-gurney,L4B3-G3T,https://www.familysearch.org/tree/person/details/L4B3-G3T,461,clean match (RM lists as 'Benjamin Gurney III')
+G10,ancestor,Benjamin Gurney,c. 1704 -- before 1772,ancestor-g10-benjamin-gurney,KFZH-52G,https://www.familysearch.org/tree/person/details/KFZH-52G,848,clean match
+G11,ancestor,Benjamin Gurney,c. 1676 -- d. 1738/9,ancestor-g11-benjamin-gurney,KP3J-VG2,https://www.familysearch.org/tree/person/details/KP3J-VG2,1378,clean match
+G12,ancestor,Richard Gurney,c. 1630 England -- d. Oct. 1691,ancestor-g12-richard-gurney,,,,
+G13,ancestor,John Gurney,b. c. 1609-12 -- d. 1662/3,ancestor-g13-john-gurney-1,LT9Z-KQ1,https://www.familysearch.org/tree/person/details/LT9Z-KQ1,,FS shows birth 1603 (outdated; repo standing-fact #6: revised to c.1609-12)
+G14,ancestor,Francis Gurney,13 Sept. 1581 -- d. 9 Jan. 1646/7,ancestor-g14-francis-gurney,LC5Y-4HQ,https://www.familysearch.org/tree/person/details/LC5Y-4HQ,,FS shows death 1640 (incorrect; repo standing-fact #1: died 9 Jan 1646/7)
+G14,related,Edmund Gurney (Puritan Divine),1577-1648,collateral-g14-edmund-gurney-divine,,,,not yet collected
+G15,ancestor,Henry Gurney,21 Jan. 1548/9 (OS) -- d. 1615/16 (will proved 1623),ancestor-g15-henry-gurney,MDR8-PDR,https://www.familysearch.org/tree/person/details/MDR8-PDR,,FS death 1623 = will-proved date; repo: died 1615/16
+G16,ancestor,Francis Gurney,20 Aug. 1521 -- d. before 4 Jan. 1555/6,ancestor-g16-francis-gurney,G521-C8Q,https://www.familysearch.org/tree/person/details/G521-C8Q,,FS death 1571 incorrect; repo: vita patris died before 4 Jan 1555/6
+G17,ancestor,Anthony Gurney,b. c. 1499 -- d. 4 Jan. 1555/6,ancestor-g17-anthony-gurney,GV9D-VD2,https://www.familysearch.org/tree/person/details/GV9D-VD2,,clean match
+G17,related,Queen Anne Boleyn,c. 1501 -- 19 May 1536,collateral-g17-queen-anne-boleyn,,,,not yet collected
+G18,ancestor,William Gurney V,c. 1465 -- before 18 Jan. 1507/8,ancestor-g18-william-gurney-v,GCSS-F8C,https://www.familysearch.org/tree/person/details/GCSS-F8C,,FS birth 1457 slightly earlier than repo c.1465
+G19,ancestor,William Gurney IV,b. c. 1440-1450 -- d. 18 Jan. 1507/8,ancestor-g19-william-gurney-iv,LLCF-P32,https://www.familysearch.org/tree/person/details/LLCF-P32,,FS birth 1429 earlier than repo c.1440-1450
+G20,ancestor,Thomas Gournay II,fl. c. 1430 -- d. 1471,ancestor-g20-thomas-gournay-ii,9ZHT-HRP,https://www.familysearch.org/tree/person/details/9ZHT-HRP,,clean match
+G21,ancestor,Thomas Gournay I,fl. c. 1408 -- d. before 1444,ancestor-g21-thomas-gournay-i,KZ74-PR6,https://www.familysearch.org/tree/person/details/KZ74-PR6,,FS death 1465 conflicts with repo (before 1444); verify identity
+G22,ancestor,Robert Gournay,fl. c. 1370-1420,ancestor-g22-robert-gournay,K8QC-7LY,https://www.familysearch.org/tree/person/details/K8QC-7LY,,FS birth 1355 a bit early vs repo fl. 1370-1420
+G23,ancestor,Edmund Gurney,d. 1387,ancestor-g23-edmund-gurney,K8MR-TT8,https://www.familysearch.org/tree/person/details/K8MR-TT8,,clean match (death 1387)
+"G23",related,"Sir John Gurney, Knt. (d.1408) -- Related",d. 1408,collateral-g23-sir-john-gurney-knt-d-1408-collateral,,,,not yet collected
+G24,ancestor,John de Gournay IV,fl. c. 1330-1370,ancestor-g24-john-de-gournay-iv,,,,NOT FOUND on FS -- FS tree skips this generation between Edmund G23 and John III G25
+G25,ancestor,John de Gournay III,fl. c. 1300-1353,ancestor-g25-john-de-gournay-iii,9ZH8-98D,https://www.familysearch.org/tree/person/details/9ZH8-98D,,FS labels as 'John III' born 1300; matches repo G25 by name+date though FS links directly from Edmund (skipping repo G24)
+"G26",ancestor,"Sir William de Gournay III, Knt.",fl. c. 1260-1300,ancestor-g26-sir-william-de-gournay-iii-knt,9CQ1-LP7,https://www.familysearch.org/tree/person/details/9CQ1-LP7,,FS shows 'William De Gournay' 1247-1294; date fits repo G26
+"G27",ancestor,"Sir John de Gournay I, Knt.",fl. c. 1240-1280,ancestor-g27-sir-john-de-gournay-i-knt,9ZHM-CX7,https://www.familysearch.org/tree/person/details/9ZHM-CX7,,FS 'John De Gournay' 1215-1270; date overlaps repo G27 (fl. 1240-1280)
+"G28",ancestor,"Sir William de Gournay II, Knt.",fl. c. 1210-1250,ancestor-g28-william-de-gournay-ii,MVTV-YP3,https://www.familysearch.org/tree/person/details/MVTV-YP3,,clean match (William II 1181-1235)
+"G29",ancestor,"Sir Matthew de Gournay, Knt.",fl. c. 1180 -- living 1217,ancestor-g29-matthew-de-gournay,,,,NOT FOUND on FS -- FS tree skips Matthew between William II G28 and William I G30
+"G30",ancestor,"Sir William de Gournay I, Knt.",fl. c. 1150-1180,ancestor-g30-william-de-gournay-i,M4SW-X7R,https://www.familysearch.org/tree/person/details/M4SW-X7R,,FS 'William De Gournay' abt 1127; earlier than repo c.1150 but matches as William I by descent
+G31,ancestor,Walter de Gournay,fl. c. 1108-1154,ancestor-g31-walter-de-gournay,PMP1-5RR,https://www.familysearch.org/tree/person/details/PMP1-5RR,,clean match
+G32,ancestor,Gerard de Gournay,c. 1040 -- d. before 1104 Palestine,ancestor-g32-gerard-de-gournay,LBGV-H99,https://www.familysearch.org/tree/person/details/LBGV-H99,,clean match (FS adds 'en-Bray')
+G32,related,Hugh de Gournay IV (Senior Baron Line),c. 1098 -- d. 1180,collateral-g32-hugh-de-gournay-iv-senior-baron-line,,,,not yet collected
+G32,related,Hugh de Gournay V (Senior Baron Line),c. 1148 -- d. 25 Oct. 1214 Rouen,collateral-g32-hugh-de-gournay-v-senior-baron-line,,,,not yet collected
+G33,ancestor,Hugh de Gournay III,c. 1020 -- d. c. 1093,ancestor-g33-hugh-de-gournay-iii,MZ68-VKD,https://www.familysearch.org/tree/person/details/MZ68-VKD,,clean match
+G34,ancestor,Hugh de Gournay II,c. 985 -- d. c. 1074,ancestor-g34-hugh-de-gournay-ii,LVSH-KBM,https://www.familysearch.org/tree/person/details/LVSH-KBM,,clean match
+G35,ancestor,Renaud de Gournay,c. 970 -- dates uncertain,ancestor-g35-renaud-de-gournay,GC1N-CQ3,https://www.familysearch.org/tree/person/details/GC1N-CQ3,,clean match (FS labels 'premier Renaud' 961-1022)
+G36,ancestor,Hugh de Gournay I,c. 945-950 -- dates uncertain,ancestor-g36-hugh-de-gournay-i,PWPZ-VK1,https://www.familysearch.org/tree/person/details/PWPZ-VK1,,FS labels 'Eudes ou Hugues de Gournay en Bray' abt 930-995; FS conflates names; matches repo G36 by descent position
+G37,ancestor,Eudes (Odon) de Gournay,c. 860 -- d. after 911,ancestor-g-37-eudes-odon-de-gournay,P8MV-L5C,https://www.familysearch.org/tree/person/details/P8MV-L5C,,FS 'Eudes I de Gournay-en-Bray' abt 890; date later than repo c.860 but name matches
+G~38+,ancestor,Unknown Scandinavian ancestors,Before c. 860,ancestor-g-38-unknown-scandinavian-ancestors,,,,
