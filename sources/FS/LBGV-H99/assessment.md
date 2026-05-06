@@ -221,3 +221,156 @@ For sourced FS entries that conflict with repo (mainly Richardson positions hitt
 4. **Hugues III's death year**: c. 1093 (DG / FMG / repo), 1110 (Richardson via TNG p. 3). Richardson's 1110 looks like an outlier; should be flagged at G33 and resolved with a Richardson primary-text check.
 5. **Eldest-son Gerard who died vit. pat.**: present in DG-I p. 277 pedigree, absent from FS structured table, absent from Richardson summary. Whether to retain this collateral child in the fact-sheet's children table depends on how the repo wants to handle DG's pedigree-only attestations.
 6. **The "Robert d'Aubigny b. c 1115" entry on TNG p. 15**: a third son for Gundred + Nigel d'Aubigny that doesn't appear in FMG. Most likely a community-tree confabulation; verify against the Mowbray / d'Aubigny primary chronology if the lineage matters elsewhere in the repo.
+
+---
+
+## 7. Pattou Re-Read Addendum (after careful re-read with line-style attention)
+
+A careful re-read of Pattou's chart-genealogy with attention to line styles, color coding, and `?` markers surfaced several corrections and additions to the original ingestion above.
+
+### 7.1 Corrections to original Pattou ingestion
+
+1. **Pattou's Hawise placement** — the chart on p. 3 shows Hawise via a **dashed horizontal line** with the explicit annotation *"(peut-être fille d'Hugues IV)"* in BLUE (Pattou's cross-reference color). Translation: *"(perhaps daughter of Hugues IV)"*. So Pattou hedges Hawise's parentage between Hugues III and Hugues IV. The G33 assessment (corrected) reflects this. For G32: Hawise is **not** a child of Gerard in any reading (she is a generation up or sideways); she is not in the Gerard-children table.
+
+2. **Pattou's Amicie placement** — chart shows Amicie under "1)" (i.e., Girard's first marriage) with the annotation *"(peut-être fille d'Hugues III)"* in BLUE. Translation: *"(perhaps daughter of Hugues III)"*. So Pattou places her primarily as Girard's first-marriage daughter (not Edith de Warenne's), but explicitly entertains the FMG third-hypothesis (daughter of Hugues III) as alternative. **Pattou's preferred reading therefore matches FMG's "second hypothesis" preferred reading**: Amicie was daughter of Gerard by an earlier unrecorded marriage.
+
+3. **Pattou's Hugues IV–Henry I nephew annotation** (p. 3 right margin, in BLUE):
+   > *"Par sa mère Edith, Hugues IV de Gournay est le neveu du Roi Henry 1er d'Angleterre"*
+   Translation: *"Through his mother Edith, Hugues IV de Gournay is the nephew of King Henry I of England."*
+
+   This claim depends on the older view that **Gundred (Edith's mother) was a daughter of William the Conqueror** — making Edith his granddaughter and Hugues IV his great-grandnephew (Henry I being William's son). Modern Wikipedia (already fetched in §4) and modern scholarship reject this descent, identifying Gundred as sister of Gerbod the Fleming with no Conqueror connection. **Pattou retains the older view.** The repo's G32 fact sheet currently caveats this ("According to the Warren charters... though some modern historians dispute this descent") — this caveat should be strengthened to reflect modern consensus.
+
+4. **Gérard's birth year ~1073 in Pattou** is internally inconsistent with his 1082 charter signature (would be age 9). The most likely reading is that Pattou's "~1073" is a chart-typesetting error or extreme conjectural date. The c. 1040–1050 range remains the safest and is what the repo uses. Worth recording the disagreement but not adopting Pattou's date.
+
+### 7.2 Pattou's full chart entry on Gerard (verbatim French + English translation)
+
+> *"Girard de Gournay ° ~ 1073 + après 1104 (Palestine ou Nicée en Asie Mineure ?) seigneur de Gournay, soutient Raoul de Tosny avec Etienne d'Aumale contre Guillaume d'Evreux, croisé (1096) ép. 1) ? (possible mère d'Amicie, épouse de Richard Talbot) ép. 2?) entre 1084 & 1092 Edith (Edive) de Warenne ° entre 1072 & 1080 + après 1155 (fille de Sir William 1er, earl of Surrey, et de Gondrée/Gundred de Chester ; ép. 2) Dreu III, seigneur de Monchy) (richement dotée en Norfolk & Norwich)"*
+
+Translation: *"Girard de Gournay, born ~1073, died after 1104 (Palestine or Nicaea in Asia Minor?), lord of Gournay, supports Raoul de Tosny with Étienne d'Aumale against Guillaume d'Évreux, crusader (1096), married 1) ? (possible mother of Amicie, wife of Richard Talbot), married 2?) between 1084 and 1092 Edith (Edive) de Warenne, born between 1072 and 1080, died after 1155 (daughter of Sir William I, earl of Surrey, and of Gondrée/Gundred de Chester; married 2) Dreu III, lord of Monchy) (richly endowed in Norfolk and Norwich)."*
+
+**New details from Pattou not previously surfaced**:
+- *"Gondrée/Gundred de Chester"* — Pattou identifies Gundred as "of Chester" (referring to Gerbod the Fleming, 1st Earl of Chester, her brother). This matches modern scholarly consensus.
+- *"soutient Raoul de Tosny avec Etienne d'Aumale contre Guillaume d'Evreux"* — *"supports Raoul de Tosny [Ralph II of Tosny] together with Étienne d'Aumale [Stephen of Aumale] against Guillaume d'Évreux [William, Count of Évreux]"* — this is the political alignment around the Évreux–Conches war. The repo's G32 narrative captures the broad strokes via Hannay; Pattou names the specific alliance partners (Tosny + Aumale).
+- *"second husband Dreu III, seigneur de Monchy"* — Pattou specifies "III" (the third Drew of Monchy), not just "Drew" or "Drogo." This refines the second-husband identification.
+- *"richement dotée en Norfolk & Norwich"* — *"richly endowed in Norfolk and Norwich"* — Edith's dowry/inheritance specifically Norfolk and Norwich (the Warenne caput at Castle Acre is in Norfolk).
+
+### 7.3 Pattou's full chart entry on Edith de Warenne's children with Gerard
+
+(p. 3, central row under "ép. 2)" branch)
+
+> *"2) Gundred (alias Gondrée, Gundrade) de Gournay ° entre 1100 & 1105 + après 1155 ép. 06/1118 Nigel (Néel) d'Aubigny (Albini) + 21 ou 26/11/1129 (fils de Roger et d'Amicie ; veuf de Mathilde de L'Aigle ?) (richissime propriétaire de fiefs dans les comtés de Buckingham, Leicester (Egmanton), Bucks, Bedford et Warwick, et des terres confisquée à Robert de Stuteville en 1106 après la X de Tinchebray) postérité (dont Roger d'Aubigny dit «de Mowbray» + ~1188)"*
+
+Translation: *"2) Gundred (alias Gondrée, Gundrade) de Gournay, born between 1100 and 1105, died after 1155, married June 1118 Nigel (Néel) d'Aubigny (Albini), died 21 or 26 November 1129 (son of Roger and Amicie; widower of Mathilde de l'Aigle?) (extremely rich holder of fiefs in the counties of Buckingham, Leicester [Egmanton], Bucks, Bedford and Warwick, and of lands confiscated from Robert de Stuteville in 1106 after the battle of Tinchebray), posterity (including Roger d'Aubigny called 'de Mowbray', died ~1188)."*
+
+> *"2) Hugues IV de Gournay ° 1098/1100 (ou ° ~ 1116 (Norfolk)?) + 1180 (ou 1185 «dans la 30° année du règne du Roi Henry II») seigneur de Gournay, La Ferté, Beaussault et Gaillefontaine, croisé (Palestine, 1147) ép. 1) Béatrix de Vermandois ° ~1082 + après 1144 (fille d'Hugues 1er de France et d'Adélaïs, comtesse de Vermandois) ép. 2) après 1151 Mélisende de Marle-Coucy ° ~1120 + 1181 fille de Thomas de Marle, seigneur de Coucy, Marle & Boves, et de Mélisende de Crécy-sur-Serre ; veuve d'Adeleme, Châtelain d'Amiens) (fonde avec son époux l'Abbaye de Clair-Ruissel au Val-de-la-Bataille (Gaillefontaine))"*
+
+Translation: *"2) Hugues IV de Gournay, born 1098/1100 (or born ~1116 [Norfolk]?), died 1180 (or 1185 'in the 30th year of the reign of King Henry II'), lord of Gournay, La Ferté, Beaussault and Gaillefontaine, crusader (Palestine, 1147), married 1) Béatrix de Vermandois, born ~1082, died after 1144 (daughter of Hugues I of France and Adélaïs, countess of Vermandois), married 2) after 1151 Mélisende de Marle-Coucy, born ~1120, died 1181, daughter of Thomas de Marle, lord of Coucy, Marle and Boves, and of Mélisende de Crécy-sur-Serre; widow of Adeleme, Châtelain of Amiens) (founds with her husband the Abbey of Clair-Ruissel at Val-de-la-Bataille [Gaillefontaine])."*
+
+### 7.4 Source Materials — Full Verbatim Extracts
+
+#### 7.4.1 FMG MedLands — Gerard de Gournay (full)
+
+Reproduced verbatim from FS PDF pp. 4–6:
+
+> b) GERARD de Gournay (-Palestine after 1104). "Domino meo Hugone Gurnacensi et filio eius Girardo et uxore eius Basilia" consented to the donation by "Radulfus cognomine Havoth" to Jumièges by charter dated to [1040][875], although presumably the document is misdated. "Domino meo Hugone Gurnaiensi et filio eius Girardo et uxore eius Basilia" consented to a donation to Jumièges abbey by "Radulphus cognomina Havoth cum uxore mea" on his entering the abbey as a monk, by undated charter[876]. "…William de Gornai…Girard de Gornai…" witnessed the charter dated 1082 under which William I King of England donated property to the abbey of la Trinité de Caen[877]. "Odo comes et Stephanus filius eius"[878]. Orderic Vitalis records that "primus Normannorum Stephanus de Albamarla filius Odonis Campaniæ comitis" fortified "castellum suum super Aucium flumen" at the expense of William II King of England and placed there a garrison against "ducem" [Robert III Duke of Normandy] and that "Gornacensis Girardus" followed his example and delivered "Gornacum et Firmitatem et Goisleni Fontem" [Gournay, La Ferté-en-Brai, Gaillefontaine] to the king, dated to [1089/90][879]. Orderic Vitalis records that "comes Ebroicensis" requested Robert [III] Duke of Normandy to return "Bathventum et Nogionem, Vaceium et Craventionem, Scoceium [Bavent, near Troarn, Noyon-sur-Andelle, Gacé, Gravençon, Ecouché], aliosque fundos Radulfi patrui mei...Caput Asini" to him and grant "Pontem Sancti Petri" [Pont Saint-Pierre] to "nepoti...meo Guillelmo Bretoliensi", which the duke agreed to, except "Scoceium" which was held by "Girardus de Gornaco...qui de eadem parentela prodierat, filius...Basiliæ Girardi Fleitelli filiæ", dated to [1089][880].
+>
+> He and his wife participated in the First Crusade but he died before the capture of Jerusalem[881]. Albert of Aix names "…Gerardus de Gorna…" among those who took part in the siege of Nikaia, dated to mid-1097 from the context[882]. Baudry names "Girardus de Gornaio" among those on the First Crusade in 1097[883]. Guillaume of Jumièges records that "Giraldus" left for Jerusalem but died while away[884].
+>
+> Henry II King of England confirmed the possessions of the abbey of Bec, including donations by "Hugonis de Gornaco et Girardi filii…Girardi de Gornaio et Basilie matris sue", by charter dated to [1181/89][885]. This donation is by Gerard de Gournay ad Basilie, the parents of Gerard de Gournay.
+>
+> [m firstly ---. As discussed below, one possibility for the parentage of Amicie, wife of Richard Talbot, is that she was the daughter of Gérard de Gournay by an earlier otherwise unrecorded marriage.] m [secondly] ([1084/92]) as her first husband, EDIVE [Edith] de Warenne, daughter of WILLIAM [I] de Warenne Earl of Surrey & his first wife Gundred --- ([1072/80]-after 1155). Guillaume de Jumièges records that "Giraldus" left for Jerusalem "cum uxore sua Edithua sorore Willelmi comitis de Warenna", who married secondly "Drogoni de Monceio", by whom she had "unum filium...Drogonem"[886]. Her birth date is indicated bearing in mind that she had children by both her marriages. The date of her first marriage is estimated assuming that she was about 12 years old at the time. She married secondly Dreux [I] Seigneur de Moncy. Her second marriage is confirmed by Orderic Vitalis who names "Hugo filius Girardi de Gornaco" and "Drogo, vitricus eius"[887]. Gérard & his [first/second] wife had [one child]:
+>
+>  i) [AMICIE de Gournay (before [1085]-[after 1100]). [— the full Amicie/Talbot parentage discussion is reproduced at G33 §8.3.2; see there]
+>
+> Gérard & his [second] wife had two children:
+>
+>  ii) HUGUES [IV] de Gournay ([1098/1100]-1180). Orderic Vitalis names "Hugo filius Girardi de Gornaco" and "Drogo vitricus eius"[891]. — see below.
+>
+>  iii) GUNDRED de Gournay ([1100/1105]-after 1155). Guillaume of Jumièges records that "Nigello de Albinneio" married "Gundredam filiam Giraldi de Gornaco" by whom he had "filium...Rogerium de Moubraio"[892]. Orderic Vitalis records the marriage in Jun [1118] of "Hugo filius Girardi de Gornaco...sorore sua...Gundrea...consilio regis" to "Nigello de Albinneio"[893]. In another passage she is named as second wife of Nigel d'Aubigny[894]. The 1130 Pipe Roll records "Gunderede uxori Nig de Albin" in Leicestershire[895]. "Gundreda, uxor Nigelli de Albini" donated property to the Hospital of St Leonard, York by undated charter which names "Rogero de Molbray filio suo"[896]. An undated charter notes the donation of "Hospitale Sancti Michaelis Archangeli" to Whitby Monastery, at the request of "Dominam Gundredam uxorem Nigelli de Albini" for the soul of "Rogero de Moubray filio eorum"[897]. m (Jun [1118]) as his second wife, NELE de Albini, son of ROGER de Albini & his wife Amice --- (-21 or 26 Nov 1129).
+
+**Translation of key Latin charter excerpts**:
+
+- *"Domino meo Hugone Gurnacensi et filio eius Girardo et uxore eius Basilia"* — *"My lord Hugues of Gournay and his son Girard and his wife Basilia"* (Jumièges charter formula, dated [1040] presumed misdated, naming the Gournay family as overlords of Radulphus Havoth).
+- *"Radulphus cognomina Havoth cum uxore mea"* — *"Radulphus surnamed Havoth with my wife"* (the donor's self-identification on entry as a monk at Jumièges).
+- *"William de Gornai…Girard de Gornai"* — *"William of Gournay…Girard of Gournay"* (witness list of 1082 Trinité de Caen charter; both brother and son [if Pattou's chart structure of Guillaume + Girard as brothers is correct] / father and son [if William Sr. = Guillaume de Gournay attested elsewhere] appear together).
+- *"Odo comes et Stephanus filius eius"* — *"Count Odo and Stephen his son"* — Odo, Count of Champagne (or Aumale) and his son Stephen of Aumale.
+- *"primus Normannorum Stephanus de Albamarla filius Odonis Campaniæ comitis"* — *"The first of the Normans, Stephen of Aumale [Albamarla], son of Odo, count of Champagne"*.
+- *"castellum suum super Aucium flumen"* — *"his castle above the river Eu [Aucium]"* — Stephen of Aumale's castle on the River Eu (Eu and Aumale share the same river system).
+- *"ducem"* — *"the duke"* (here Robert III Curthose, Duke of Normandy).
+- *"Gornacensis Girardus"* — *"Girard of Gournay"*.
+- *"Gornacum et Firmitatem et Goisleni Fontem"* — *"Gournay and La Ferté[-en-Bray] and Gaillefontaine"* — the three places Gerard delivered to Rufus.
+- *"comes Ebroicensis"* — *"the count of Évreux"* (William, count of Évreux).
+- *"Bathventum et Nogionem, Vaceium et Craventionem, Scoceium…aliosque fundos Radulfi patrui mei…Caput Asini"* — *"Bavent and Noyon[-sur-Andelle], Vaceium [Gacé] and Craventionem [Gravençon], Scoceium [Écouché]…and other estates of my uncle Ralph…Caput Asini [Tête d'Asne]"*.
+- *"Pontem Sancti Petri"* — *"Pont Saint-Pierre"*.
+- *"nepoti…meo Guillelmo Bretoliensi"* — *"to my nephew William of Breteuil"*.
+- *"Girardus de Gornaco…qui de eadem parentela prodierat, filius…Basiliæ Girardi Fleitelli filiæ"* — *"Girard of Gournay…who came from the same kindred, son of Basilia, daughter of Gerard Flaitel"*. **This is the explicit primary-source identification of Gerard de Gournay as Basilia's son via Gerard Flaitel.**
+- *"Gerardus de Gorna"* — *"Gerard of Gournay"* (Albert of Aix's spelling at the siege of Nicaea, mid-1097).
+- *"Girardus de Gornaio"* — *"Girard of Gournay"* (Baudry's spelling, First Crusade 1097).
+- *"Giraldus"* — *"Giraldus"* (Guillaume of Jumièges's spelling).
+- *"cum uxore sua Edithua sorore Willelmi comitis de Warenna"* — *"with his wife Edithua [Edith], sister of William, count of Warenne"* — Edith identified as sister of the *count* (i.e., William II de Warenne, the second earl), not just daughter of the first earl.
+- *"Drogoni de Monceio"* — *"to Drogo of Monceaux/Monchy"* — Edith's second husband.
+- *"unum filium…Drogonem"* — *"one son, Drogo [Dreux]"* — Edith's son by her second marriage.
+- *"Hugo filius Girardi de Gornaco"* — *"Hugues, son of Girard of Gournay"* — i.e., Hugues IV.
+- *"Drogo, vitricus eius"* — *"Drogo, his step-father"* — Hugues IV's stepfather (since Edith remarried Drogo de Monchy).
+- *"Nigello de Albinneio"* — *"Nigel of Aubigny"*.
+- *"Gundredam filiam Giraldi de Gornaco"* — *"Gundred, daughter of Girard of Gournay"*.
+- *"filium…Rogerium de Moubraio"* — *"son…Roger of Mowbray"*.
+- *"sorore sua…Gundrea…consilio regis"* — *"his sister…Gundred…by the king's counsel"* — i.e., the marriage was arranged with Henry I's advice.
+- *"Gunderede uxori Nig de Albin"* — *"Gundred, wife of Nigel of Aubigny"* (1130 Pipe Roll, Leicestershire).
+- *"Gundreda, uxor Nigelli de Albini"* — *"Gundred, wife of Nigel of Aubigny"*.
+- *"Rogero de Molbray filio suo"* — *"Roger of Mowbray, her son"*.
+- *"Hospitale Sancti Michaelis Archangeli"* — *"Hospital of Saint Michael the Archangel"* (Whitby Monastery donation).
+- *"Dominam Gundredam uxorem Nigelli de Albini"* — *"Lady Gundred, wife of Nigel of Aubigny"*.
+- *"Rogero de Moubray filio eorum"* — *"Roger of Mowbray, their son"* — for whose soul the donation was made.
+
+#### 7.4.2 The Walter-as-son-of-Gerard dispute — full Richardson 2002 SGM post and bibliography
+
+Reproduced verbatim from FS PDF pp. 7, 13–14, 19–21:
+
+> Note: Gurney Rec. of the House of Gournay (): 286-289, 292-293, 776-777 [author alleges that Gerard de Gournay and his wife, Ediva, had a younger son, Walter de Gournay (living 1150), ancestor of the Gurnay family of Norfolk. Such an individual existed but he had no association in the records with the senior branch of the Gournay family. Rather, it appears that Walter was closely related to a Galiena de Gournay, born say 1120, living c. 1170, wife of Manasser de Dammartin (died 1178/9), of Mendlesham and Cotton, Suffolk, Norton Mandeville, Essex, etc. Surviving records show that Manasser de Dammartin enfeoffed Walter de Gumay with a 1/4 knight's fee in Suffolk during the Civil War between King Stephen and Empress Maud. In 1150 Walter de Gournay witnessed a charter to Missenden Abbey for Manasser and Galiena. Charter evidence proves that Galiena was the granddaughter of an unplaced William de Gumay, of Addington, Kent, whose gift to the see of Rochester she confirmed by her own undated charter. Given these facts, it is doubtful that Walter de Gournay was the son of Gerard de Gournay as alleged [see Hasted 4 (1798): 544-545; Copinger Manors of Suffolk 3 (1909): 277-278; Lewis C. Loyd and Doris M. Stenton, eds. Sir Christopher Hatton's Book of Seals (1958): 229-230, 239-240; VCH Essex, 4 (1956): 151-152; Genealogist, 15 (1965): 53-63 (article on Dammartin family); Jenkins Cartulary of Missenden Abbey, 1: 70-75; Gervers Cartulary of the Knights of St. John of Jerusalem in England: Secunda Camera/ Essex 1 (Recs. of Social & Econ. Hist. n.s. 6) (1982): 216.].
+>
+> Placitorum in Domo Capitulari Westmonasteriensi Asservatorum Abbrevatio (1811): 79. La Mairie Supp. aux Recherches historiques sur la Ville de Gournay (1844): 7-42. Lipscomb Hist. & Antiqs. of Buckingham 2 (1847): 468. Gurney Rec. of House of Gournay 1 (1848): 22 (chart), 63-72. Delisle & Berger Actes de Henry ll 1 (1916): 471-472. Bedfordshire Historical Rec. Soc. 7 (1922): 153-157; 19 (1937): charts fol. pg. 99. Oxfordshire Record Society 7 (1925): 7-15. C.R.R. 6 (1932): 272-273. Early Yorkshire Charters 8 (1949): 6-7. Paget (1957), 266: 1-4 (sub Gurnay); 569:1 (sub Warren). Power Norman Frontier in the 12th & Early 13th Cents. (2004): 355-357. Tanner Fams., Friends, & Allies (2004): 315 (Warenne ped.)."
+
+And the supporting Richardson SGM 2002 post (FS PDF pp. 19–21):
+
+> The following is excerpted from a post to SGM, 11 Sep 2002, by Douglas Richardson:
+>
+> From: Douglas Richardson (royalancestry@msn.com)
+> Subject: Re: Wife of Hugh II de Gournay
+> Newsgroups: soc.genealogy.medieval
+> Date: 2002-09-11 22:06:28 PST
+>
+> GOURNAY FAMILY
+>
+> 1. HUGH DE GOURNAY, of Caister, Norfolk, Mapledurham, co. Oxford, seigneur of Gournay-en-Brie, Gaillefontaine, etc., son and heir, born about 1091 (of full age in 1112). During his minority, he was raised by King Henry I and his lands were administered by Drew de Monceaux, his step-father. He married (1st) BEATRICE DE VERMANDOIS, daughter of Hugh le Grand, Count of Vermandois and Valois, Count of Amiens and Crepy, by Alix, daughter and heiress of Herbert IV, Count of Vermandois and Valois. They had one son, Hugh (d.y.). He joined Stephen, Count of Aumale, and others in 1118, in an attempt to place William Clito, son of Robert, Duke of Normandy, on the throne. He seised the castle of Plesssis and ravaged Norman territory. King Henry I crushed the revolt at Noyon in 1119, after which he submitted and was pardoned. In 1134 King Stephen granted him the manors of Wendover, co. Buckingham and Houghton Regis, co. Bedford. Beatrice was living 1144. In the period, 1147/55, he witnessed a charter for his nephew, Roger de Mowbray. In 1147 he accompanied King Louis VII of France to the Holy Land. This crusade was unsuccessful and returned in 1149. He married (2nd) MILLICENT (or MELISENDE) DE COUCY, widow of Aleaume Fitz Adam, Governor of the Citadel of Amiens, daughter of Thomas de Coucy (or de Marle) (descendant of Charlemagne), seigneur of Coucy, Marle, de la Fere and Boves, Count of Amiens, by his 2nd wife, Melisende de Crecy, daughter and heiress of Guy de Montlhery, Chatelain de la Ferte. They had two sons, Gerard and Hugh, and one daughter, Aidieve (wife of Nicholas de Stuteville, of Kimberley, Norfolk). He and his 2nd wife were benefactors of the Abbey of Bec. They founded the Abbey of Gaillefontaine in the period, 1144/64. HUGH DE GOURNAY died in 1181, said to be ;very old.; His wife survived him.
+
+This Richardson post is the substantive content the existing G32 research companion's "Open Question #2 (Two Gerards)" should be reading against. Note Richardson's focus on Hugues IV here — he gives Hugues IV birth "about 1091 (of full age in 1112)" which is tighter than FMG's [1098/1100] range.
+
+#### 7.4.3 TNG site (our-royal-titled-noble-and-commoner-ancestors.com) — Gerard de Gournay entry verbatim
+
+Reproduced from FS PDF p. 3:
+
+> Notes: Gerard de Gournay, Seigneur de Gourney-en-Brai1,2,3
+> Last Edited 4 Apr 2020
+> M, #5918, d. after 1104
+> FatherHugh III de Gournay, Seigneur de Gournay-en-Brie3 b. b 1044, d. 1110
+> MotherBasilia de Fleitel3 d. a 1093
+> ChartsSome Descendants of Charlemagne
+> Gerard de Gournay, Seigneur de Gourney-en-Brai was born at of Caistor, by Yarmouth, Norfolk, England. He married Edith de Warenne, daughter of William de Warren, 1st Earl of Surrey, Seigneur de Varennes and Gundred of England, before 1091; They had 1 son (Hugh) & 1 daughter (Gundred, wife of Nele/Nigel de Mowbray).3 Gerard de Gournay, Seigneur de Gourney-en-Brai died after 1104 at Holy Land; Died while on pilgrimage.3
+> Family
+> Edith de Warenne
+> Children
+> Gundred de Gournay+2
+> Hugh IV de Gournay, Seigenur de Gournay-en-Brie & Gaillefontaine, Lord of Houghton, Bledlow, Wentdover, Caister, & Mapledurham+3 b. c 1091, d. 1181
+
+Sources cited at the top of the entry (FS PDF p. 3):
+> Citation: 3: [S1461] Unknown author, Magna Charta Sureties, 1215, 4th Ed., by F. L. Weis, p. 158.
+> [S4] Douglas Richardson, Royal Ancestry, Vol. III, p. 62.
+> [S4] Douglas Richardson, Royal Ancestry, Vol. III, p. 92-93.
+
+**Issues with this TNG entry to flag**:
+- "Hugh III de Gournay…d. 1110" — out of range vs. FMG/DG (-[1093]).
+- "born at of Caistor, by Yarmouth, Norfolk" — chronologically impossible (Caister came into the family via Edith de Warenne, his wife — Gerard cannot have been born at his future wife's father's manor before the Conquest).
+- The TNG site is itself a Magna Charta / Royal Ancestry community-tree platform; it carries Richardson's content but with TNG-induced data errors.
+
+

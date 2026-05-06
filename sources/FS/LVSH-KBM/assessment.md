@@ -167,3 +167,144 @@
 4. **Wife of Hugh II**: the FS attribution (Berthilde de Gerberoy) is wrong but the question of who Hugh II actually married remains open. The repo's "unknown" verdict is the safest position. Hannay's *"Who his wife was — Frank or Norman — we cannot tell"* still stands.
 5. **Manassès of Reims as son of Hugh II**: still open from the existing companion's working notes. Not addressed by this export. Worth a separate French-Wikipedia or Geni follow-up.
 6. **The Néel/Nigel de Gournay chronology**: Pattou places him at 1066 Conquest and Domesday 1086. If Hugh II was at the 1035 expedition as an adult, his cadet son Néel could plausibly be born c. 1040–1050 and active in 1066 and 1086. Need to verify via the Somerset Domesday entries (Exon registry, per Pattou p. 12).
+
+---
+
+## 7. Pattou Re-Read Addendum (after careful re-read with line-style attention)
+
+### 7.1 Pattou's full chart entry on Hue (Hugues) II — verbatim French + English translation
+
+(p. 2)
+
+> *"Hue (Hugues) II de Gournay dit «L'Ancien» ou «Le Vieux» ou «Senex» & «Le Vieil Huon» en 1050) +X 1074 (Cardiff, de ses blessures) accompagne Edouard et Alfred en Angleterre (1049, avec Giffard de Longueville, Néel de Cotentin, Robert de Mortain dit «Taillefer» et du seigneur de Giourville) X à Mortemer-en-Lions (1050), participe à la conquête de l'Angleterre en 1066 (témoin d'une charte de donation du duc Guillaume à l'Abbaye de Bayeux en 1060)"*
+
+Translation: *"Hue (Hugues) II de Gournay called 'The Ancient' or 'The Old' or 'Senex' and 'le Vieil Huon' [Old Huon] in 1050, killed in battle 1074 (Cardiff, from his wounds), accompanies Edward and Alfred to England (1049, with Giffard de Longueville, Néel de Cotentin, Robert de Mortain called 'Taillefer' and the lord of Giourville [Guérarville]), fought at Mortemer-en-Lions (1050), participates in the conquest of England in 1066 (witness of a donation charter of Duke William to the Abbey of Bayeux in 1060)."*
+
+**Two notes on Pattou's dates**:
+- Pattou writes "1049" for the Edward/Alfred expedition; FMG and the repo say "1035" (after the death of Cnut). Pattou's 1049 is likely a typesetting error — the expedition is firmly 1035–1036 in standard chronology.
+- Pattou writes Mortemer "1050"; the standard date is 1054. Same likely typesetting error.
+
+**The four-name epithet stack** (`L'Ancien / Le Vieux / Senex / Le Vieil Huon`) is the most consequential Pattou claim for the repo's G33–G34 boundary. Translation:
+- *L'Ancien* = "the Elder/Ancient"
+- *Le Vieux* = "the Old"
+- *Senex* = "Old [Latin]"
+- *Le Vieil Huon* = "Old Hue/Huon" — the Roman de Rou form
+
+Pattou applies all four to **Hugh II**. The repo's G33 fact sheet currently attributes "Hugo Senex" to **Hugh III**. Resolution requires DG-I close re-read and Roman de Rou check.
+
+**The 1049 expedition companion list** is rich and worth recording in detail:
+- *Giffard de Longueville* = Walter Giffard, lord of Longueville-sur-Scie, the same Walter who married Basilia Flaitel's sister (Hugues III's brother-in-law a generation later).
+- *Néel de Cotentin* = Néel I or II, vicomte of the Cotentin (the western Norman peninsula, modern Cherbourg area).
+- *Robert de Mortain dit «Taillefer»* = Robert of Mortain "the Iron-Cleaver" (the famous epithet usually applied to Taillefer the bard at Hastings; Pattou applies it to a Robert de Mortain figure here, possibly a scribal confusion).
+- *seigneur de Giourville* = lord of Guérarville (one of the Pays de Bray seigneuries).
+
+Compare with FMG's parallel list (FS PDF p. 3): *"le Conte Neel de Coustantin…le sire de Guerarville, le sire de Gournay"* — Translation: *"Count Neel of Cotentin…the lord of Guérarville, the lord of Gournay"*. Both name Néel of Cotentin and the lord of Guérarville. FMG omits Giffard and Robert de Mortain; Pattou adds them.
+
+### 7.2 Pattou's full chart annotations on the Domesday-era Gournay rewards
+
+(p. 2 sidebar, blue text):
+
+> *"Les Gournay sont récompensés après la conquête : Hugues II reçoit des fiefs en Essex et en Suffolk ; Néel reçoit plusieurs domaines en Somerset près Bristol et Bath."*
+
+Translation: *"The Gournays are rewarded after the conquest: Hugues II receives fiefs in Essex and Suffolk; Néel receives several domains in Somerset near Bristol and Bath."*
+
+Pattou attributes the post-Conquest English rewards to Hugues II (not Hugues III as in the repo). The repo's reading is that Hugh III held the Essex Domesday manors directly; Pattou's reading is that Hugh II received them post-Conquest 1066, then died from Cardiff wounds 1074, and Hugh III inherited them by Domesday 1086. Both readings are compatible with the documentary record: Pattou's ties the chronology more tightly (1066 award to the Hastings veteran Hugh II → Domesday 1086 holdings as inheritance to Hugh III).
+
+> *"Domesday Book (1084): «XLVII. — Terra Hugonis de Gurnay, hundredum de Hidnigaforda. hundredum de Tendring. hundredum de Lessendena.»"*
+
+Translation: *"Domesday Book (1084): 'XLVII. — Land of Hugues de Gournay, hundred of Hinckford [Hidnigaforda], hundred of Tendring, hundred of Lexden [Lessendena].'"*
+
+The Latin entry header from Domesday (Little Domesday for Essex, vol. ii, the entry for Hugh's lands). The three Essex hundreds correspond to:
+- **Hinckford** (Hidnigaforda) — northern Essex, contained Liston manor
+- **Tendring** — eastern coastal Essex, contained Ardleigh manor
+- **Lexden** (Lessendena) — central Essex around Colchester, contained Fordham manor
+
+The Domesday roll-up "XLVII" identifies Hugh's chapter (chapter 47) in the Essex Domesday return.
+
+### 7.3 The 1335 Philippe de Valois charter connecting La Ferté and Gournay
+
+(p. 2 sidebar narrative — same passage already noted in G33 §8.2):
+
+> *"Hugues de La Ferté (Hugone) et Hugues de Gournay sont nommés dans une charte de Philippe de Valois de 1335 comme contemporains de Guillaume, comte d'Arques + après 1052"*
+
+Translation: *"Hugues de La Ferté (Hugone) and Hugues de Gournay are named in a charter of Philippe de Valois of 1335 as contemporaries of Guillaume, count of Arques [who died] after 1052"*
+
+For G34: the charter would situate **Hugues II** (the Hugh of Gournay contemporary with William of Arques d. after 1052) and an unrelated Hugues de La Ferté in a shared 11th-century context, retroactively documented by Philippe VI of France in 1335. Worth pursuing in the *Actes de Philippe VI* / Trésor des Chartes for the original.
+
+### 7.4 Source Materials — Full Verbatim Extracts
+
+#### 7.4.1 FMG MedLands — Hugues II de Gournay (full)
+
+Reproduced verbatim from FS PDF p. 3:
+
+> 4. HUGUES [II] de Gournay (-[killed in battle Cardiff 1074]). The Chronique Manuscrite de Normandie records that, after the death of Canute King of England in 1035, "le Conte Neel de Coustantin…le sire de Guerarville, le sire de Gournay" sailed from Harfleur to England with Edward Prince of England to claim the English throne[888]. Guillaume de Poitou records that "Hugonis Gornacensis" joined forces with "Roberti Aucensis comitis", dated to after 1053[889]. "…Hugo de Gornai…" witnessed the charter dated to [1060] under which Guillaume II Duke of Normandy granted "Brenerias" to the abbey of Bayeux[890]. The Chronique de Normandie, based on le Roman de Rou, names "Hue de Gournay sire de Bray" and "le Conte Hue de Gournay" among those who took part in the conquest of England in 1066, the two similar names suggesting that they were father and son[891]. [The Histoire et Chronique de Normandie, printed in 1610 at Rouen, records that "Hue de Gournay et le comte d'Evreux" died in Normandy from wounds received in battle at Cardiff in 1074, fighting an invasion led by "Canut [roi] de Norvège"[892]. The account must be garbled as there was no king named Canute in either Norway or Denmark at the time, nor has any record been found of a comte d'Evreux dying around that period. The historical basis of the account is uncertain.]
+
+**Translation of key Latin / Old French**:
+
+- *"le Conte Neel de Coustantin…le sire de Guerarville, le sire de Gournay"* — *"Count Néel of Cotentin…the lord of Guérarville, the lord of Gournay"* — the 1035 expedition companion list.
+- *"Hugonis Gornacensis"* — *"of Hugues Gornacensis [of Gournay]"*.
+- *"Roberti Aucensis comitis"* — *"of Robert, count of Eu [Aucensis = of Eu]"*.
+- *"Hugo de Gornai"* — *"Hugues of Gournay"* (witness to the [1060] Bayeux charter).
+- *"Brenerias"* — place name, possibly a variant of "Bernières" (a place near Bayeux); could also be a separate small estate. This is the same charter or a parallel charter to the *Liber niger capituli Baiocensis* No. 5 referenced in DG-Supp Note 9 (which uses spelling "Bernières").
+- *"Hue de Gournay sire de Bray"* — *"Hue de Gournay, lord of Bray"*.
+- *"le Conte Hue de Gournay"* — *"the Count Hue de Gournay"* — note the chronicler calls the second Hue a *count*, even though the Gournays were not formally counts — likely a courtesy title or a chronicler's title-promotion.
+- *"Hue de Gournay et le comte d'Evreux"* — *"Hue de Gournay and the count of Évreux"* — the disputed Cardiff death narrative.
+- *"Canut [roi] de Norvège"* — *"Cnut [king] of Norway"* — the chronological impossibility (no Cnut king of Norway in 1074).
+
+**FMG's verdict on the Cardiff tradition** is unambiguous (full quote):
+
+> The account must be garbled as there was no king named Canute in either Norway or Denmark at the time, nor has any record been found of a comte d'Evreux dying around that period. The historical basis of the account is uncertain.
+
+This is more emphatic than DG's careful "may be a scribal corruption for Norwich/Caistor" reading. The repo's G34 narrative should adopt FMG's verdict explicitly.
+
+#### 7.4.2 FS structured-field Berthilde de Gerberoy attribution — full
+
+Reproduced verbatim from FS PDF p. 1 (structured FGR table):
+
+> Wife: Berthilde de Gerberoy (PM9Z-R79)
+> Birth date: 7 July 1000
+> Birthplace: Gerberoy, Oise, Picardie, France
+> Christening date: [blank]
+> Christening place: [blank]
+> Death date: 25 January 1059
+> Death place: Gournay-en-Bray, Seine-Maritime, Duché de Normandie
+> Burial date: 1058
+> Burial place: Normandie
+> Wife's father: Hedouin er de Gerberoy (GYL7-YRW)
+> Wife's mother: Jehanne de Neufchatel en Bray (GYL7-PXZ)
+
+The internal inconsistency (burial **before** death, 1058 vs. 1059) is itself diagnostic of FS-tree-data corruption.
+
+**The note layer** (FS PDF p. 4, the only entry in the wife's Notes section):
+
+> Berthilde de Gerberoy (PM9Z-R79) (1000–1059): Notes
+> Title: (21) d.
+> (21) d.
+
+That's the entire Notes section content for Berthilde — a single bare two-character entry. **This confirms that the Berthilde attribution as Hugh II's wife rests on no source content within the export.** The structured-field attribution is purely from the FS Family Tree's accumulated user contributions with no documentary support inside the export.
+
+**Pattou and French Wikipedia place "Bathilde de Gerberoy" (d. 1059) at Hugues 1er level**, not Hugues II. The 1059 death year is consistent across both wrong-FS and right-Pattou attributions, suggesting the year itself comes from a deeper source. **Action**: detach PM9Z-R79 from G34's wife slot, reattach to G36 (Hugues 1er) with `?` qualifier per Pattou.
+
+#### 7.4.3 FS structured-field children of Hugh II — full with provenance analysis
+
+Children #1 Judith de Gournay (LRHN-FF2):
+> Birth date: 1017
+> Birthplace: Beaumont-les-Nonains, Oise, France
+> Christening date: 1037
+> Christening place: Beaumont-les-Nonains, Oise, France
+> Death date: 8 April 1099
+> Death place: Chateau de Beaumont sur, Val-d'Oise, Ile-de-France, France
+
+The 8 April 1099 death date matches **Adelais (not Judith)** per the FMG MedLands Beaumont-sur-Oise entry (embedded FS PDF p. 4): *"m secondly ADELAIS, daughter of --- (-8 Apr 1099)"*. So FS conflates Yves II de Beaumont's two wives — Judith (his first wife, named by Orderic Vitalis) and Adelais (his second wife, the speculative-Gournay-daughter per Depoin) — into a single FS record under PID LRHN-FF2.
+
+Children #2 Amicie de Gournay (G5KJ-1SF):
+> Birth date: 1023
+> Birthplace: Gournay-en-Bray, Seine-Maritime, Haute-Normandie, France
+> Marriage date: 1038
+> Spouse: Rigobert de Saint Saëns III (G7RD-RYZ)
+> Death date: 1075
+> Death place: Gournay-en-Bray, Seine-Maritime, Haute-Normandie, France
+
+This Amicie matches Pattou's "Non connectés" entry (p. 18): *"? Amicie de Gournay ° ~1023 + 1075 ép. Rigobert de Saint-Saëns, chevalier ° 998 + 1054"*. Pattou's `?` flags her as unconnected; FS over-claims by connecting her as a confirmed daughter of Hugues II. The marriage to Rigobert III de Saint-Saëns is plausible for a Pays-de-Bray family alliance c. 1038 but unsubstantiated by a primary source.
+
+

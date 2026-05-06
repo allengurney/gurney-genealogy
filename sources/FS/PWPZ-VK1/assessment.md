@@ -44,21 +44,37 @@ The FS PID "Eudes ou Hugues" conflation is **not just an FS-tree artifact** — 
 
    This is a **direct admission embedded in MedLands** that DG himself (in the 1845 *first* edition / Supplement) classified Eudes and Hugues as tradition rather than primary-source-attested. The repo's existing G36 companion (line 32, "the existence of Eudes and Hugues is 'a matter of tradition'") and G37 companion both already use language matching this. **Strengthens the existing classification.**
 
-2. **The Pattou chart structure for this generation** (companion p. 2):
+2. **The Pattou chart structure for this generation** (companion p. 2, corrected after careful re-read with line-style attention):
+
+   Pattou's chart uses **two distinct line styles** to encode certainty:
+   - **Solid-line main chain**: Eudes → "? Hugues de Gournay" (unnamed intermediate uncertain figure) → Hugues 1er (the fortifier, with wife Bathilde de Gerberoy in RED, also `?`) → Hue II → Hugues III
+   - **Dashed-line parallel branch**: Eudes → separate "?" marker → "? Renaud, seigneur de Gournay ép. Albérade" → solid line down to Gauthier de La Ferté
+
+   Verbatim text from chart (with translations):
    > "? Eudes (de Gournay) seigneur investi du pays de Gournay (-en-Bray, 76) par le duc Rollon (~912) ép. ? (Marthe de Foucarmont ?)"
-   > [...]
-   > "? Hugues de Gournay" (with question marks indicating uncertainty)
-   > [...]
+   > *(Translation: "? Eudes [of Gournay], lord invested with the country of Gournay-en-Bray [postal dept. 76] by Duke Rollon [~912], married ? [Marthe de Foucarmont?]")*
+
+   > "? Hugues de Gournay"
+   > *(Translation: "? Hugues de Gournay" — bare name only, no dates, all-uncertain marker)*
+
    > "Hugues 1er de Gournay + après 989 (1046 ?) seigneur de Gournay (fortifie Gournay dès 984) ép. ? Bathilde de Gerberoy + 1059"
+   > *(Translation: "Hugues I of Gournay, died after 989 [possibly 1046], lord of Gournay [fortifies Gournay from 984], married ? Bathilde de Gerberoy, died 1059")*
 
-   Pattou's chart structure: Eudes (`?`) → Hugues (`?`) → Hugues 1er → Hugues II → Hugues III. So Pattou treats:
-   - **Eudes** as *probably* the original Rollon investee, with `?` (parallel to FMG's brackets).
-   - **A "Hugues" of uncertain status** between Eudes and Hugues 1er, also with `?`.
-   - **Hugues 1er** as the *real* fortifier, with named wife Bathilde de Gerberoy (`?`), active 984.
+   So Pattou's solid main chain has **three uncertain generations** between Rollon and the documented Norman fortifier: Eudes (`?`) → ?Hugues de Gournay (an extra unnamed Hugues, `?`) → Hugues 1er (`?` on the wife). The repo's chain (G37 = Eudes c. 860; G36 = Hugh I c. 945–950, the fortifier) collapses Pattou's three-generation sequence into two. **Pattou's main-chain treatment implies a possible additional generation** — an unnamed "?Hugues de Gournay" between Eudes and the fortifying Hugues 1er — that the repo does not have. This is a structural finding Pattou explicitly diagrams via a separate boxed name with `?` marker.
 
-   The repo's chain (G37 = Eudes c. 860; G36 = Hugh I c. 945–950, the fortifier) collapses Pattou's three uncertain generations (Eudes, ?Hugues, Hugues 1er) into two (Eudes, Hugh I). Pattou implies a possible *fourth* generation — an unnamed/uncertain "Hugues" between Eudes and the fortifying Hugues 1er.
+   The dashed parallel branch — Eudes → ? → Renaud → Gauthier de La Ferté — is Pattou's encoding of DG's hypothesis (DG made Renaud and his sons a chain prior to Hugues de Gournay). Pattou shows it but tags every node with `?` and connects it via dashed lines, signalling that Pattou is presenting the hypothesis without endorsing it.
 
-   French Wikipedia mirrors Pattou: "Eudes de Gournay (existence contestée), cité vers 912, épouse Marthe de Foucarmont" → "Hugues (?)" → "Renaud (douteux)" → "Hugues Ier de Gournay, vivant en 984, décédé après 989 (peut-être en 1046)…" So French Wikipedia has *Eudes → Hugues(?) → Renaud(?) → Hugues 1er*. The Wikipedia structure shifts Renaud one generation later than the repo, and inserts an extra "Hugues(?)" between Eudes and Renaud.
+   French Wikipedia mirrors Pattou: *"Eudes de Gournay (existence contestée), cité vers 912, épouse Marthe de Foucarmont"* → *"Hugues (?)"* → *"Renaud (douteux), épouse Albérade"* → *"Hugues Ier de Gournay, vivant en 984, décédé après 989 (peut-être en 1046), épouse Bathilde de Gerberoy (morte en 1059)"*. (Translation: *"Eudes de Gournay [contested existence], cited around 912, married Marthe de Foucarmont"* → *"Hugues [?]"* → *"Renaud [doubtful], married Albérade"* → *"Hugues I of Gournay, living in 984, died after 989 [possibly in 1046], married Bathilde de Gerberoy [died 1059]"*.) French Wikipedia's structure includes ALL of: Eudes → ?Hugues → Renaud → Hugues 1er — collapsing what Pattou shows as solid-vs-dashed parallel options into a single linear sequence with `?`/"douteux" tags.
+
+   **Three structural views compared**:
+   | Source | Chain |
+   |---|---|
+   | Repo (FMG) | Eudes (G37) → Hugh I (G36) → Renaud (G35) → Hugh II (G34) |
+   | Pattou solid main | Eudes (?) → ?Hugues → Hugues 1er → Hue II |
+   | Pattou dashed alt | Eudes (?) → ? → Renaud (?) → Gauthier de La Ferté (sibling of fortifier?) |
+   | French Wikipedia | Eudes (contested) → Hugues (?) → Renaud (douteux) → Hugues 1er → Hugues II |
+
+   The repo's structure is closest to French Wikipedia minus the extra ?Hugues generation. Pattou's solid main chain and the repo disagree on whether Renaud is in the main chain at all (Pattou says no, Renaud is parallel-and-uncertain; repo says yes, Renaud is between Hugh I and Hugh II).
 
 3. **Marthe de Foucarmont** as wife of Eudes:
    > "Eudes de Gournay…He married Marthe de Foucarmont, daughter of Clothaire I de Foucarmont, Seigneur de Foucamont, circa 960." (TNG site via FS p. 2)
@@ -166,3 +182,134 @@ This PID is the FS-tree node most in need of restructuring of any in the batch.
 4. **Marthe de Foucarmont at Eudes / pre-Hugh-I level**: TNG and Pattou (with `?`) name her. The Foucarmont attribution is geographically plausible (Foucarmont is in the Pays de Bray near Gournay) and would give a sensible local-marriage explanation for the early Gournay establishment. Worth recording with `?`.
 5. **Birth date range for Hugh I**: c. 920–940 is now well-supported (FS 930, TNG 935, Hannay's Longsword-contemporary framing, the repo companion's own flag). The fact sheet's "c. 945–950" should be widened.
 6. **The 1750s "La Tour Hue" demolition date** (DG-Supp Note 7 already in the repo) is independently corroborated by Pattou and French Wikipedia, both of which describe Hugues 1er as the fortifier. The repo's narrative is well-supported on this point.
+
+---
+
+## 7. Pattou Re-Read Addendum (after careful re-read with line-style attention)
+
+### 7.1 The "écu noir" (black shield) origin legend (Pattou p. 2 sidebar narrative)
+
+> *"Selon la légende familiale, Rollon aurait confié le territoire de Gournay-en-Bray à un certain Eudes, chevalier à l'écu noir, point de départ de la lignée. Ceci n'est pas ou peu attesté."*
+
+Translation: *"According to family legend, Rollon would have entrusted the territory of Gournay-en-Bray to a certain Eudes, the knight with the black shield, starting point of the lineage. This is not or barely attested."*
+
+**This is the canonical statement of the Eudes legend** with an explicit Pattou caveat that it "is not or barely attested." Confirms the repo's G37 "Tradition" classification.
+
+The "écu noir" (black shield) detail is corroborated by the heraldic note on Pattou p. 1: *"Gournay (origine) : «De sable plein»"* (Translation: *"Gournay [origin]: 'Plain sable'"* — i.e., entirely black). The original Gournay arms were a plain black shield, matching the legend's description of Eudes as the "knight with the black shield."
+
+### 7.2 Pattou's full chart entry on Hugues 1er (the fortifier)
+
+> *"Hugues 1er de Gournay + après 989 (1046 ?) seigneur de Gournay (fortifie Gournay dès 984) ép. ? Bathilde de Gerberoy + 1059"*
+
+Translation: *"Hugues I of Gournay, died after 989 (possibly 1046), lord of Gournay (fortifies Gournay from 984), married ? Bathilde de Gerberoy, died 1059"*
+
+**Visual cues on this chart entry**:
+- **"Bathilde de Gerberoy" appears in red text** — Pattou's hypothesis-tagging color, marking the attribution as tentative.
+- **"+ 1059"** is the only specific date Pattou gives for Bathilde — the death year. The 1059 year is also the year FS attached to the (mis-placed) Berthilde at G34 level — suggesting the year traces to a deeper source even if the generational attribution shifted.
+- The `?` before "Bathilde" reinforces uncertainty.
+- "(fortifie Gournay dès 984)" — *"fortifies Gournay from 984"* — places Hugues 1er actively fortifying from age ~unknown (depends on his birth date) in 984. The 984 date matches French Wikipedia's *"Hugues Ier de Gournay, vivant en 984"*.
+- "(1046 ?)" — Pattou's `?` allows for an extended life to 1046, which would make Hugues 1er active for ~62 years from 984 to 1046. If this is the correct death year, Hugues 1er was the figure Hannay describes as contemporary of William Longsword (d. 942) only via youth — i.e., he was an old man who outlived multiple ducal generations.
+
+### 7.3 Pattou's chart entry on the Foucarmont marriage hypothesis
+
+> *"? Eudes (de Gournay) seigneur investi du pays de Gournay (-en-Bray, 76) par le duc Rollon (~912) ép. ? (Marthe de Foucarmont ?)"*
+
+Translation: *"? Eudes (de Gournay), lord invested with the country of Gournay-en-Bray (postal dept. 76) by Duke Rollon (~912), married ? (Marthe de Foucarmont?)"*
+
+The double `?` in *"ép. ? (Marthe de Foucarmont ?)"* is unusual — Pattou is doubly hedging: first `?` on whether Eudes had a wife at all (i.e., whether the marriage record exists), second `?` on whether that wife (if she existed) was Marthe de Foucarmont. So Pattou treats the Foucarmont attribution as **doubly tentative**.
+
+The TNG site (FS PDF p. 2) gives more specific dates for Marthe (b. c. 940, d. c. 1000) and identifies her father as Clothaire I de Foucarmont, Seigneur de Foucamont. These specifics come from GeneaNet [S59] (a community source per the TNG citation) and have no scholarly weight.
+
+### 7.4 The "Alix de Gournay m. Eudes de Foucarmont" sister attribution
+
+(p. 2, positioned at Hugues 1er sibling level with `?` markers)
+
+> *"? Alix de Gournay ép. ? Eudes de Foucarmont"*
+
+Translation: *"? Alix de Gournay married ? Eudes de Foucarmont"*
+
+Note again the double `?`: uncertain that Alix existed as a Gournay; uncertain that her husband Eudes de Foucarmont is correctly identified. The FS structured field at G35 (LVSH-KBM export, child #5 of Renaud) gave specific dates (Alix b. 0990, d. 1038 Foucarmont) and a specific PID for Eudes de Foucarmont (G52R-SJX) — these specifics are not in Pattou. The Foucarmont theme runs through both generations: Eudes (G37) possibly married Marthe de Foucarmont; Hugues 1er's possible sister Alix possibly married Eudes de Foucarmont. The repeated Foucarmont link is suggestive of a real Pays-de-Bray frontier alliance, but the multiplied `?` markers say Pattou is unwilling to commit.
+
+### 7.5 Source Materials — Full Verbatim Extracts
+
+#### 7.5.1 FMG MedLands — Eudes and Hugues bracketed entries (full)
+
+Reproduced verbatim from FS PDF p. 2:
+
+> [EUDES . According to Gurney, the town of Gournay and adjacent land were granted by Rollo to Eudes, in 912, but he adds in a later passage that the existence of Eudes and his supposed son Hugues "is a matter of tradition" and that there is no surviving contemporary document in which they are named[881]. m ---. The name of Eudes's wife is not known. Eudes & his wife had one child:]
+>
+>  a) [HUGUES de Gournay . According to Gurney, the existence of Eudes and his supposed son Hugues "is a matter of tradition" and no contemporary document survives in which they are named[882].]
+
+The square brackets `[...]` around the entire entry are FMG's standard convention for material whose existence FMG cannot directly substantiate — i.e., FMG explicitly tags both Eudes and Hugues as uncertain.
+
+**FMG footnote references** (verbatim from FS PDF p. 5 for the parallel Renaud entry; the [881] and [882] refs follow the same Gondeville-MS pattern):
+
+> [881] Gurney (1845), p. 26.
+> [882] Gurney (1845), pp. 26 and 31.
+
+The same Gondeville MS *Histoire de Gournay* admission applies: the original charter substantiating Eudes and his line is lost; what we have is DG's 1845 transcription.
+
+#### 7.5.2 TNG site (our-royal-titled-noble-and-commoner-ancestors.com) — Eudes entry (full)
+
+Reproduced from FS PDF p. 2:
+
+> Notes: Eudes de Gournay, Sire de Gournay-en-Bray1
+> Last Edited 1 Mar 2012
+> M, #149167, b. circa 935, d. 995
+>
+> Eudes de Gournay, Sire de Gournay-en-Bray was born circa 935 at of Gournay-en-Bray, Seine-Maritime, Upper Normandy, France.1 He married Marthe de Foucarmont, daughter of Clothaire I de Foucarmont, Seigneur de Foucamont, circa 960.1 Eudes de Gournay, Sire de Gournay-en-Bray died in 995.1
+>
+> Family
+> Marthe de Foucarmont b. c 940, d. c 1000
+> Child
+> Renaud de Gournay, Seigneur de Gournay-en-Bray+1 b. c 961, d. 1022
+
+Cited source (footnote 1):
+> [S59] GeneaNet.
+
+So the TNG entry rests on a single citation to "GeneaNet" — a community source. The specific dates (Eudes b. circa 935, d. 995; Marthe b. c. 940, d. c. 1000; Renaud b. c. 961, d. 1022) all come from GeneaNet and have no scholarly substantiation behind them.
+
+#### 7.5.3 The contributor exasperation note (verbatim, FS PDF p. 2)
+
+> Title: Eudes de Gournay
+> Please, please, PLEASE!!! Check your birth/death dates....a father cannot be 5 years older than his son!!!!!
+
+> Title: Maybe the father of GC1N-CQ3?
+> [no body]
+
+Two contributor flags. The first is a cri-de-coeur over chronologically impossible parent-child dates; the second is an explicit acknowledgment that even the parent-child link from this PID (PWPZ-VK1) to Renaud (GC1N-CQ3) is uncertain. **Reproducing verbatim because they document the FS-tree quality at this PID.**
+
+#### 7.5.4 Pattou's narrative on the Daniel Gurney / Delisle critique (full, with translation)
+
+> *"Selon la légende familiale, Rollon aurait confié le territoire de Gournay-en-Bray à un certain Eudes, chevalier à l'écu noir, point de départ de la lignée. Ceci n'est pas ou peu attesté. Au milieu du XIXe siècle, Daniel Gurney a établi une généalogie souvent reprise dans les ouvrages d'histoire sur la région mais ses travaux ont vite été critiqués par des érudits normands comme Léopold Delisle. Daniel Gurney suggère un lien familial entre les maisons de La Ferté et de Gournay. Il fait d'Hugues de Gournay un des descendants de Renaud et Aubrée (Alberade), parents du fondateur de la collégiale de La Ferté."*
+
+Translation: *"According to family legend, Rollon would have entrusted the territory of Gournay-en-Bray to a certain Eudes, the knight with the black shield, starting point of the lineage. This is not or barely attested. In the middle of the 19th century, Daniel Gurney established a genealogy often reprinted in regional history works, but his work was quickly criticized by Norman scholars such as Léopold Delisle. Daniel Gurney suggests a family link between the houses of La Ferté and Gournay. He makes Hugues de Gournay one of the descendants of Renaud and Aubrée (Alberade), parents of the founder of the collegiate church of La Ferté."*
+
+This passage condenses the entire scholarly critique of DG's genealogy into three sentences:
+1. The Eudes-Rollon foundation legend has weak attestation.
+2. DG's 19th-century reconstruction has been challenged (Delisle).
+3. DG specifically makes "Hugues de Gournay" a descendant of Renaud + Aubrée/Alberade — and Pattou flags this as DG's hypothesis rather than established fact. The English-language repo currently treats this chain (Eudes → Hugh I → Renaud → Hugh II) as confirmed; Pattou's framing is more cautious.
+
+### 7.6 Pattou's heraldic note on Gournay (origine) and what it implies for the écu noir legend
+
+(p. 1, sources/heraldry section)
+
+> *"Gournay (origine) : «De sable plein»."*
+> *"cité de Gournay (inspirées des armes des premiers seigneurs) : «De sable, au cavalier armé et contourné d'argent, caparaçonné d'hermines & tenant de la main dextre une lance d'argent, surmonté d'une fleur de lis d'or»."*
+> *"Hugues V adopte «D'argent, à une croix engrelée de gueules», continuées en Angleterre"*
+> *"Gournay (Somerset) : «Palé de six pièces d'or & d'azur»"*
+
+Translation:
+- *"Gournay (origin): 'Plain sable.'"* — fully black shield, matching the écu noir legend.
+- *"City of Gournay (inspired by the arms of the first lords): 'Sable, an armed and contoured knight of silver, caparisoned with ermine, holding a silver lance in the right hand, surmounted by a gold fleur-de-lis.'"* — the city arms preserve the black-shield base with an added knight figure.
+- *"Hugues V adopts 'Argent, an engrailed cross of gules,' continued in England"* — the famous engrailed-cross arms first appear with Hugues V (~1158–1223), three centuries after the legendary Eudes.
+- *"Gournay (Somerset): 'Paly of six pieces of gold and azure.'"* — the Somerset cadet (Néel's descendants) used different arms (paly of six gold and azure, matching Burke's *General Armory* entry: "Paly of six, or and az.").
+
+The **plain sable origin → engrailed cross at Hugues V** transition is heraldically significant: Hugues V (`Le Coucou`, the crusader with Richard the Lionheart, 1190s) adopted a new device probably inspired by the crusade context. The plain sable (Eudes's écu noir) was retained as the city of Gournay's escutcheon while the family's personal arms evolved. **This sequence supports the écu noir legend's plausibility** — the city arms preserve the family's original device long after the family adopted new arms.
+
+### 7.7 Cross-reference: the second-arms tradition
+
+The 1844 NRP de La Mairie *Recherches historiques* engraving series (Pattou pp. 16–17) includes:
+- **N° 5: "Secondes armoiries des Sires Normands de Gournay"** = "Second arms of the Norman lords of Gournay" — the engrailed cross. The "Secondes" (second) explicitly contrasts with the original sable arms — confirming that the Norman lords had a documented two-arms history with the black shield as primary/original and the engrailed cross as the second adoption.
+
+
