@@ -147,6 +147,9 @@ vite.config.ts.timestamp-*
 # Local AI-agent scratch worktrees.
 .claude/worktrees/
 
+# Per-user / per-machine Claude Code permission allowlist.
+.claude/settings.local.json
+
 # Local package cache used when npm is unavailable in the sandbox.
 site/website/.pkg-cache/
 
