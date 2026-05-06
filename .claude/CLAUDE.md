@@ -74,6 +74,7 @@ See `.claude/rules/citations.md`.
 - `README.md`
 - `.claude/rules/repo-file-resolution.md`
 - `.claude/rules/research-writing-style.md`
+- `.claude/skills/familysearch-export-review/SKILL.md`
 - `.claude/skills/research-intake-prep/SKILL.md`
 - `.claude/skills/research-intake-apply-patch/SKILL.md`
 - `.claude/skills/citation-rigour/SKILL.md`

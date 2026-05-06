@@ -37,6 +37,9 @@ Phase 2 = application.
 - update `research/...`
 - keep validations thin
 
+## FamilySearch exports — Phase 0
+FamilySearch Family Group Record PDF exports (under `sources/FS/`) get a content-evaluation pass before Phase 1. The output is an assessment MD attached to chat (not committed) that becomes the input to a Phase-1 patchset. See `.claude/skills/familysearch-export-review/SKILL.md`.
+
 ## Promotion writing standard
 - When promoting findings into `research/`, write ordinary research prose.
 - Lead with the knowledge.
