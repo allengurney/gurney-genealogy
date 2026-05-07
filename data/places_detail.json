@@ -446,17 +446,21 @@
   {
     "placeId": "place-gournay-en-bray-normandy-france",
     "placeName": "Gournay-en-Bray, Normandy, France",
-    "longDescription": "Ancestral fortress town and frontier seigneury of the Gournay family in the Pays de Bray.",
-    "siteName": "Collégiale Saint-Hildevert",
+    "longDescription": "Ancestral fortress town, seigneurial honor, and namesake of the Gournay family in the Pays de Bray. This record represents the town and lordship as a whole, not the Collégiale Saint-Hildevert church site or the Tour du Rempart fortification remnant alone.",
+    "siteName": "",
     "streetAddress": "",
-    "extantStatus": "extant",
-    "extantStatusDescription": "Modern town survives; the church site is used as the best historic anchor for the lost fortress town.",
-    "coordinateBasis": "exact church site used as historic town anchor",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg",
-    "imageTitle": "Collégiale Saint-Hildevert, Gournay-en-Bray",
-    "heritageUrl": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/",
-    "heritageLabel": "Heritage page",
-    "reviewNotes": []
+    "extantStatus": "extant town; medieval fortress fabric only partly survives",
+    "extantStatusDescription": "Modern Gournay-en-Bray survives as a town. The medieval defensive system is mostly lost or transformed; a separate Tour du Rempart record carries the surviving fortification-remnant detail, and a separate Collégiale Saint-Hildevert record carries the church-specific detail.",
+    "coordinateBasis": "historic town-core anchor; not a precise castle, tower, or church coordinate",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "https://www.gournay-en-bray.fr/",
+    "heritageLabel": "Gournay-en-Bray official town site",
+    "reviewNotes": [
+      "Split Collégiale Saint-Hildevert into its own place record.",
+      "Split Tour du Rempart / fortification-remnant context into its own place record.",
+      "Do not state that the exact G36 La Tour Hue survives. The Tour du Rempart is the best mapped fortification-remnant site, but its identity with La Tour Hue remains unproven."
+    ]
   },
   {
     "placeId": "place-great-ellingham-norfolk-england",
@@ -603,33 +607,40 @@
   },
   {
     "placeId": "place-la-ferte-en-bray-normandy-france",
-    "placeName": "La Ferté-en-Bray, Normandy, France",
-    "longDescription": "Priory foundation site whose 989–996 charter first names Renaud de Gournay, Alberade, Hugh, and Gautier.",
-    "siteName": "Église Saint-Pierre-et-Saint-Paul",
+    "placeName": "La Ferté-en-Bray / La Ferté-Saint-Samson, Normandy, France",
+    "longDescription": "Historic Gournay cadet-line fortress locality and priory-foundation place in the Pays de Bray. The locality should be treated separately from the specific castle/butte and the Saint-Pierre-et-Saint-Paul priory/church record.",
+    "siteName": "",
     "streetAddress": "",
-    "extantStatus": "site only",
-    "extantStatusDescription": "Former priory no longer stands; the parish church of Saint-Pierre-et-Saint-Paul occupies or adjoins the historic core.",
-    "coordinateBasis": "historic parish church / former La Ferté-en-Bray core",
+    "extantStatus": "extant commune / historic locality",
+    "extantStatusDescription": "Modern La Ferté-Saint-Samson survives. The medieval fortress is represented separately by the Butte féodale record; the church and priory foundation site are represented separately by the Saint-Pierre-et-Saint-Paul record.",
+    "coordinateBasis": "modern locality / historic core coordinate",
     "imageUrl": "",
     "imageTitle": "",
-    "heritageUrl": "https://tourismedes4rivieresenbray.com/la-ferte-saint-samson/",
-    "heritageLabel": "Local history page",
-    "reviewNotes": []
+    "heritageUrl": "https://www.lafertesaintsamson.com/decouvertes/histoire-de-la-ville/",
+    "heritageLabel": "La Ferté-Saint-Samson official history page",
+    "reviewNotes": [
+      "Keep this record as the locality / cadet-line seat.",
+      "Add separate records for the butte / castle and Saint-Pierre-et-Saint-Paul priory/church.",
+      "Do not confuse the early Gournay priory with the later Cistercian La Ferté."
+    ]
   },
   {
     "placeId": "place-le-bec-hellouin-normandy-france",
-    "placeName": "Le Bec-Hellouin, Normandy, France",
-    "longDescription": "Abbey of Bec, endowed by the Gournays and associated with Hugh III's burial.",
-    "siteName": "Abbey of Bec",
-    "streetAddress": "",
-    "extantStatus": "extant",
-    "extantStatusDescription": "The abbey complex still stands and anchors the historic burial and endowment site.",
-    "coordinateBasis": "exact abbey site",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg/500px-Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg",
-    "imageTitle": "Bec Abbey",
-    "heritageUrl": "https://abbayedubec.org/",
-    "heritageLabel": "Abbey site",
-    "reviewNotes": []
+    "placeName": "Abbey of Bec / Le Bec-Hellouin, Normandy, France",
+    "longDescription": "Abbey of Bec, burial and monastic-retirement place of Hugh de Gournay III and Basilia Flaitel, and recipient of Hugh's Essex tithes and Gournay-side donations. The abbey was founded in 1034 by Herluin and became one of the major intellectual centers of the medieval Latin West through Lanfranc and Anselm.",
+    "siteName": "Abbaye Notre-Dame du Bec",
+    "streetAddress": "3 place de l'Abbé Herluin, 27800 Le Bec-Hellouin",
+    "extantStatus": "extant abbey site; medieval and later fabric mixed",
+    "extantStatusDescription": "The abbey site survives and is visitable, but the fabric is not a simple 11th-century survival. The official abbey history and culture ministry sources describe a foundation in 1034 and major 11th-century intellectual importance. DRAC Normandie says the abbey was badly degraded in 1792, the church and chapter house were razed in 1809, and the current monastic buildings largely reflect later rebuilding. POP / Plan du Patrimoine identifies 12th, 15th, 17th, and 18th-century fabric, with the 15th-century Tour Saint-Nicolas as a key remnant.",
+    "coordinateBasis": "abbey site coordinate",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "https://abbayedubec.org/historique/",
+    "heritageLabel": "Abbaye Notre-Dame du Bec official history page",
+    "reviewNotes": [
+      "Treat this as the Abbey of Bec record, not only a locality record for Le Bec-Hellouin.",
+      "Use careful wording: Hugh III's Bec survives as an abbey site and institutional place, not as an intact 11th-century complex."
+    ]
   },
   {
     "placeId": "place-lessingham-norfolk-england",
@@ -726,17 +737,22 @@
   {
     "placeId": "place-montigny-sur-andelle-normandy-france",
     "placeName": "Montigny-sur-Andelle, Normandy, France",
-    "longDescription": "Montigny-sur-Andelle parage tenure, cited as proof of junior-line descent from the Barons of Gournay.",
+    "longDescription": "Montigny-sur-Andelle parage tenure, cited by Daniel Gurney and Hannay as strong legal proof that William de Gournay I and the junior Norfolk line were of the blood of the Barons of Gournay.",
     "siteName": "",
     "streetAddress": "",
-    "extantStatus": "unknown",
-    "extantStatusDescription": "",
-    "coordinateBasis": "town centroid",
+    "extantStatus": "historic fief / locality; exact modern site identity requires verification",
+    "extantStatusDescription": "The place is already represented in the repo as a medium-precision locality. Keep it as a proof-place but do not upgrade coordinate precision until the Registres Olim passage and modern place identity are verified.",
+    "coordinateBasis": "existing repo coordinate; modern identity and exact fief geography require verification",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
-    "reviewNotes": []
+    "reviewNotes": [
+      "High-priority existing place because of G30 parage tenure.",
+      "Do not duplicate this record.",
+      "Locate Beugnot's Registres Olim entry and verify modern Montigny-sur-Andelle identity before coordinate upgrade.",
+      "Bois Gautier near Montigny remains a candidate place but is not ready for canonical addition."
+    ]
   },
   {
     "placeId": "place-new-york-metropolitan-area-usa",
@@ -999,6 +1015,234 @@
     "heritageLabel": "",
     "reviewNotes": [
       "Town-level aggregate only; the Dudley Farm rate-list entry does not by itself identify a precise John Gurney parcel or residence site."
+    ]
+  },
+  {
+    "placeId": "place-collegiale-saint-hildevert-gournay-en-bray-normandy-france",
+    "placeName": "Collégiale Saint-Hildevert, Gournay-en-Bray, Normandy, France",
+    "longDescription": "Surviving collegiate church at Gournay-en-Bray and the most visible ecclesiastical monument of the Gournay family seat. The church is important both as a medieval architectural survivor and as the focal ecclesiastical site near the old seigneurial fortifications.",
+    "siteName": "Collégiale Saint-Hildevert",
+    "streetAddress": "Esplanade de l'Église, 76220 Gournay-en-Bray",
+    "extantStatus": "extant",
+    "extantStatusDescription": "The church survives as a major medieval monument. Normandie Tourisme describes a 12th-century Romanesque and Gothic church, burned in 1174, with the Saint-Joseph chapel preserving Romanesque nave walls, barrel vault, and painted capitals. Monumentum / Mérimée-derived data says the 12th-century church was built on the remains of a 10th- or 11th-century building. The surviving fabric is therefore mostly later than G36 but still medieval and highly relevant to the senior Gournay seat.",
+    "coordinateBasis": "church site coordinate",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg",
+    "imageTitle": "Collégiale Saint-Hildevert, Gournay-en-Bray",
+    "heritageUrl": "https://www.normandie-tourisme.fr/sites-lieux-de-visites/collegiale-saint-hildevert/",
+    "heritageLabel": "Normandie Tourisme: Collégiale Saint-Hildevert",
+    "reviewNotes": [
+      "Split from the Gournay-en-Bray town / honor record.",
+      "Use this record for church-specific architecture, dedication, relic, and surviving-monument context.",
+      "Keep broad seigneurial and frontier-honor narrative in `gournay-en-bray.md`."
+    ]
+  },
+  {
+    "placeId": "place-gournay-fortifications-tour-du-rempart-normandy-france",
+    "placeName": "Gournay fortifications / Tour du Rempart, Gournay-en-Bray, Normandy, France",
+    "longDescription": "Surviving remnant of the fortified medieval town and seigneurial defensive system at Gournay-en-Bray. Normandie Tourisme describes one surviving tower, the conical base of another, and the ditches as the remaining traces of the town's defensive work.",
+    "siteName": "La Tour du Rempart",
+    "streetAddress": "Rue du Rempart, 76220 Gournay-en-Bray",
+    "extantStatus": "partial extant remains",
+    "extantStatusDescription": "Partial medieval fortification remains survive at Rue du Rempart: one tower, the conical base of another tower, and ditches. Tourism sources describe the medieval system as both stronghold and seigneurial residence, but the gates and broader defensive system were successively destroyed after the Wars of Religion. The record should not identify the extant tower as La Tour Hue unless a stronger source is added.",
+    "coordinateBasis": "published tourism / Seine-Maritime Attractivité point for La Tour du Rempart",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "https://www.normandie-tourisme.fr/sites-lieux-de-visites/la-tour-du-rempart/",
+    "heritageLabel": "Normandie Tourisme: La Tour du Rempart",
+    "reviewNotes": [
+      "Use this as the mapped fortification-remnant record.",
+      "Keep La Tour Hue as an alias / interpretive context unless exact identification is proven.",
+      "Crosslink to `research/topics/gournay-tower-la-tour-hue.md`."
+    ]
+  },
+  {
+    "placeId": "place-la-ferte-butte-feodale-normandy-france",
+    "placeName": "Butte féodale / Château de La Ferté, La Ferté-Saint-Samson, Normandy, France",
+    "longDescription": "Motte / castle site of the La Ferté fortress locality. The official La Ferté-Saint-Samson history page states that the castle occupied the butte, existed by 981, and sat in a naturally strategic marsh-bordered position. This fortress context explains the place-name La Ferté and the site’s importance within the Gournay / La Ferté frontier network.",
+    "siteName": "Butte féodale de La Ferté-Saint-Samson",
+    "streetAddress": "Place de l'église, 76440 La Ferté-Saint-Samson",
+    "extantStatus": "earthwork / butte extant; medieval castle lost",
+    "extantStatusDescription": "The butte / motte survives as a landscape feature and viewpoint at Place de l'église. The medieval castle itself does not survive as a standing structure. Local history says a castle was already present on the butte by 981, and tourism descriptions describe later visible earthworks / ditches as fortified points.",
+    "coordinateBasis": "published tourism point for the Butte féodale",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "https://www.lafertesaintsamson.com/decouvertes/histoire-de-la-ville/",
+    "heritageLabel": "La Ferté-Saint-Samson official history page",
+    "reviewNotes": [
+      "Use this record for the fortress / motte, not for the priory church.",
+      "The site is closely adjacent to Saint-Pierre-et-Saint-Paul; keep the records linked but separate."
+    ]
+  },
+  {
+    "placeId": "place-priory-saint-pierre-saint-paul-la-ferte-en-bray-normandy-france",
+    "placeName": "Priory / Church of Saint-Pierre-et-Saint-Paul, La Ferté-en-Bray, Normandy, France",
+    "longDescription": "Church / priory foundation site tied to the 989–996 charter of Gautier de La Ferté, younger son of Renaud de Gournay. The charter names Renaud, Alberade, and Hugh and is the earliest surviving documentary anchor for the early Lords of Gournay.",
+    "siteName": "Église Saint-Pierre et Saint-Paul de La Ferté",
+    "streetAddress": "76440 La Ferté-Saint-Samson",
+    "extantStatus": "extant church; possible original apse",
+    "extantStatusDescription": "The church survives. MonVillageNormand states that the first edifice was built between 989 and 996 and that the apse remains from that first building. The official patrimony page says the church was founded in the 10th century, around 990, by Gautier, and that only the original apse remains; the rest of the building is mostly 16th century, with the nave from 1846.",
+    "coordinateBasis": "church / historic priory-site coordinate",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "https://www.lafertesaintsamson.com/decouvertes/patrimoine-%C3%A0-voir/",
+    "heritageLabel": "La Ferté-Saint-Samson patrimony page",
+    "reviewNotes": [
+      "Use for the 989–996 charter and priory/church narrative.",
+      "Keep separate from the locality record and the Butte féodale / castle record.",
+      "Do not confuse this early Gournay priory with the later Cistercian La Ferté."
+    ]
+  },
+  {
+    "placeId": "place-sigy-saint-martin-priory-normandy-france",
+    "placeName": "Sigy / Abbaye Saint-Martin, Sigy-en-Bray, Normandy, France",
+    "longDescription": "Early La Ferté / Gournay cadet-line ecclesiastical site. Pettigrew and later summaries place Sigy near La Ferté and tie its foundation to Hugues de La Ferté; Normandy Abbeys describes the abbey's history as closely tied to the lords of La Ferté, descendants of the Gournay family.",
+    "siteName": "Abbaye Saint-Martin / Église abbatiale Saint-Martin",
+    "streetAddress": "Rue de l'Abbaye, 76780 Sigy-en-Bray",
+    "extantStatus": "extant former abbey church / parish church",
+    "extantStatusDescription": "The former abbey church survives as a parish church and Monument Historique. Normandie Tourisme describes the visible building as a fine 13th-century former abbey church with early Gothic choir and seven-sided apse. Normandy Abbeys says the first church was probably burned in the 12th century and has not been preserved, while the local tourism office / MonVillageNormand states that the nave survives from the early abbey phase. Treat early-fabric survival as uncertain unless a stronger architectural source resolves the conflict.",
+    "coordinateBasis": "modern commune / church-locality coordinate; refine to exact church coordinate if found",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "https://www.normandie-tourisme.fr/sites-lieux-de-visites/abbaye-saint-martin/",
+    "heritageLabel": "Normandie Tourisme: Abbaye Saint-Martin",
+    "reviewNotes": [
+      "Research narrative already exists but lacks canonical JSON record.",
+      "Use for La Ferté cadet-line ecclesiastical history and reversion logic.",
+      "Do not collapse into La Ferté-en-Bray; Sigy is a separate place."
+    ]
+  },
+  {
+    "placeId": "place-fry-eglise-saint-martin-normandy-france",
+    "placeName": "Église Saint-Martin, Fry, Normandy, France",
+    "longDescription": "Church at Fry tied to the La Ferté / Sigy ecclesiastical network. Local history states that Gautier de La Ferté, son of Renaud de Gournay, ceded the church to the canons of La Ferté-en-Bray and that it returned to the Abbey of Sigy in 1040.",
+    "siteName": "Église Saint-Martin",
+    "streetAddress": "76780 Fry",
+    "extantStatus": "extant church; oldest visible fabric mostly later medieval",
+    "extantStatusDescription": "The church survives. Sauvegarde de l’Art Français describes a 13th-century choir, with other parts from the 16th and 18th centuries. MonVillageNormand gives the same broad fabric history and exact GPS coordinates. No source in this pass proves surviving 10th-century fabric.",
+    "coordinateBasis": "MonVillageNormand church coordinate",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "https://www.sauvegardeartfrancais.fr/projets/fry/",
+    "heritageLabel": "Sauvegarde de l’Art Français: Fry, Église Saint-Martin",
+    "reviewNotes": [
+      "Promoted to high priority in third pass.",
+      "Use as the first individual La Ferté endowment church record.",
+      "Do not claim the standing fabric is the exact church ceded by Gautier unless stronger architectural evidence is found."
+    ]
+  },
+  {
+    "placeId": "place-la-ferte-foundation-endowment-cluster-pays-de-bray-france",
+    "placeName": "La Ferté foundation endowment cluster, Pays de Bray, France",
+    "longDescription": "Aggregate record for the five churches / localities named in the La Ferté-en-Bray foundation charter: Fry, Argueil, Saint-Samson, Boulay, and Bruquedale. This record prevents loss of the endowment geography while individual place identifications are verified.",
+    "siteName": "",
+    "streetAddress": "",
+    "extantStatus": "aggregate historical endowment cluster; component localities vary",
+    "extantStatusDescription": "Fry has been promoted to its own high-priority record. Argueil appears identifiable but still needs a stronger source pull. Saint-Samson, Boulay, and Bruquedale need further identity review before precise individual records are created.",
+    "coordinateBasis": "approximate regional centroid near La Ferté / Fry / Argueil; not a single site coordinate",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "",
+    "heritageLabel": "",
+    "reviewNotes": [
+      "Use as first-wave aggregate for the five-church endowment list.",
+      "Fry is implemented separately.",
+      "Argueil should be next candidate after verification.",
+      "Saint-Samson needs careful distinction between La Ferté-Saint-Samson and Saint-Samson-la-Poterie / Thérain-side identities.",
+      "Boulay and Bruquedale remain unresolved."
+    ]
+  },
+  {
+    "placeId": "place-gaillefontaine-castle-domain-normandy-france",
+    "placeName": "Gaillefontaine castle / domain, Normandy, France",
+    "longDescription": "Pays de Bray frontier castle site and later domain associated with the Gournay-La Ferté-Gaillefontaine defensive triad. A heritage record describes the motte castrale as testimony to the site's importance on the old frontier between Normandy and the northern royal domain.",
+    "siteName": "Domaine de Gaillefontaine",
+    "streetAddress": "",
+    "extantStatus": "motte / heritage domain extant; medieval castle transformed or lost",
+    "extantStatusDescription": "The protected domain includes a motte castrale, which the POP / Mérimée notice says testifies to the site's importance on the old frontier between Normandy and the northern royal domain. The visible château and landscaped domain are largely 19th century, with major works from 1867, 1881, and 1903. Treat this as a medieval motte / site survival, not as an extant medieval castle.",
+    "coordinateBasis": "Monument Historique / POP-derived coordinate for Domaine de Gaillefontaine",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "https://www.plan-du-patrimoine.fr/monument-historique/76/gaillefontaine/domaine-de-gaillefontaine/PA00100670/",
+    "heritageLabel": "Plan du Patrimoine / POP: Domaine de Gaillefontaine",
+    "reviewNotes": [
+      "Use for Orderic's `Goisleni Fontem`.",
+      "Do not describe the 19th-century château as the medieval Gournay castle.",
+      "Good candidate for future map overlay of Gournay-La Ferté-Gaillefontaine frontier triad."
+    ]
+  },
+  {
+    "placeId": "place-pays-de-bray-normandy-picardy-france",
+    "placeName": "Pays de Bray, Normandy / Picardy frontier, France",
+    "longDescription": "Historic and natural region straddling Normandy and Picardy, forming the frontier landscape of the early Gournay lordship. Gournay-en-Bray, La Ferté, Gaillefontaine, Sigy, Montigny-sur-Andelle, and the Beauvaisis frontier acquisitions should be interpreted within this regional frame.",
+    "siteName": "",
+    "streetAddress": "",
+    "extantStatus": "extant historical / natural region",
+    "extantStatusDescription": "The Pays de Bray remains a recognized natural and historical region, not a single site or modern administrative unit.",
+    "coordinateBasis": "approximate regional centroid",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "https://en.wikipedia.org/wiki/Pays_de_Bray",
+    "heritageLabel": "Pays de Bray reference page",
+    "reviewNotes": [
+      "Use as a regional umbrella, not a substitute for precise place records.",
+      "Useful for maps that need the Gournay places to appear in their frontier landscape rather than as isolated pins."
+    ]
+  },
+  {
+    "placeId": "place-conquets-hue-de-gournay-beauvaisis-france",
+    "placeName": "Conquêts Hue de Gournay / Beauvaisis frontier acquisitions, France",
+    "longDescription": "Aggregate territorial place for the twenty-four parishes, hamlets, and villages beyond the Epte associated with the Conquêts Hue de Gournay. The current library should represent this as one territorial block rather than twenty-four separate records until the individual modern identifications are stable.",
+    "siteName": "",
+    "streetAddress": "",
+    "extantStatus": "historical territorial block; modern component villages survive in whole or part",
+    "extantStatusDescription": "Historical territorial block / local customary-law geography. The modern component villages and hamlets survive in whole or part, but the medieval jurisdictional boundary is reconstructed rather than surveyed. Projet ConDÉ preserves the customary-law heading listing the twenty-four parishes, hamlets, and villages beyond the Epte, under the jurisdiction of Gournay, called the Conquêts Hue de Gournay and specialties of Beauvaisis.",
+    "coordinateBasis": "approximate centroid of existing repo Beauvaisis-acquisitions reconstruction polygon; use `research/geo/hugh_de_gournay_reconstructed_holdings.geojson` for map polygon",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "https://pdn-lingua.unicaen.fr/coutumiers/conde/pesnelle_lighter.xml/pesnelle-lighter-beta-002-007.html",
+    "heritageLabel": "Projet ConDÉ: Coutumes et usages des Conquêts Hue de Gournay",
+    "reviewNotes": [
+      "Promote existing research file to canonical place registry.",
+      "Do not create twenty-four thin village records yet.",
+      "Reuse the existing geojson / vertex package.",
+      "Coordinate is an aggregate map anchor, not a medieval cadastral centroid."
+    ]
+  },
+  {
+    "placeId": "place-ecouche-normandy-france",
+    "placeName": "Écouché, Normandy, France",
+    "longDescription": "Norman locality / estate context tied to Basilia Flaitel and Gerard de Gournay. Orderic's Écouché passage identifies Gerard as son of Basilia, daughter of Gerard Flaitel, making the place an important maternal-line and pedigree-proof site.",
+    "siteName": "",
+    "streetAddress": "",
+    "extantStatus": "extant locality; medieval estate site unidentified",
+    "extantStatusDescription": "Modern Écouché survives as part of Écouché-les-Vallées and is classed as a Petite Cité de Caractère. The commune preserves medieval heritage including Notre-Dame church and older town fabric, but no exact Gournay / Flaitel castle or maritagium-site footprint has been identified in this pass.",
+    "coordinateBasis": "modern locality coordinate; not a verified medieval estate coordinate",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "https://www.ecouchelesvallees.fr/",
+    "heritageLabel": "Écouché-les-Vallées official site",
+    "reviewNotes": [
+      "High priority because it is a landholding / pedigree-proof place, not merely an event site.",
+      "Refine coordinate if a specific medieval castle or estate site is identified."
+    ]
+  },
+  {
+    "placeId": "place-g33-bec-gournay-endowment-cluster-pays-de-bray-france",
+    "placeName": "G33 Bec / Gournay endowment cluster, Pays de Bray, France",
+    "longDescription": "Aggregate record for the Pays de Bray / Gournay-side property, tithe, church, house, and milling-right geography associated with Hugh de Gournay III and Basilia Flaitel's donations to the Abbey of Bec.",
+    "siteName": "",
+    "streetAddress": "",
+    "extantStatus": "aggregate historical endowment cluster; component places vary",
+    "extantStatusDescription": "The cluster includes named towns, churches, tithes, houses, and milling rights. Some component localities survive clearly, while others require modern identification before precise place records are created.",
+    "coordinateBasis": "approximate regional map anchor in the Gournay / Pays de Bray area; not a single site coordinate",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "",
+    "heritageLabel": "",
+    "reviewNotes": [
+      "Newly promoted in third pass because it is property / revenue geography, not merely event context.",
+      "Do not add all components as separate files until individual identifications are stable.",
+      "Use this aggregate to preserve G33's Bec donation geography in the place library."
     ]
   }
 ]

@@ -831,75 +831,50 @@
     "name": "Gournay-en-Bray, Normandy, France",
     "aliases": [
       "Gournay",
-      "Gournay-en-Bray, Normandy"
+      "Gournay-en-Bray",
+      "Gournay-en-Bray, Normandy",
+      "Gornacum",
+      "Gornaio",
+      "Gournay honor",
+      "Seigneurie de Gournay"
     ],
-    "shortDescription": "Ancestral fortress town",
-    "placeType": "locality",
+    "shortDescription": "Ancestral fortress town and seigneurial honor",
+    "placeType": "locality / seigneurial honor",
     "coordinate": {
       "lat": 49.483148,
       "lng": 1.727303
     },
-    "coordinatePrecision": "exact",
+    "coordinatePrecision": "medium",
     "roles": [
+      "seigneurial seat",
       "landholding / property reference",
-      "individual geography"
+      "individual geography",
+      "frontier lordship"
     ],
     "ancestorLinks": [
       {
         "recordId": "ancestor-g-37-eudes-odon-de-gournay",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g-37-eudes-odon-de-gournay",
-        "role": "individual geography"
-      },
-      {
-        "recordId": "ancestor-g32-gerard-de-gournay",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g32-gerard-de-gournay",
-        "role": "individual geography"
-      },
-      {
-        "recordId": "ancestor-g33-hugh-de-gournay-iii",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g33-hugh-de-gournay-iii",
-        "role": "individual geography"
-      },
-      {
-        "recordId": "ancestor-g34-hugh-de-gournay-ii",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g34-hugh-de-gournay-ii",
-        "role": "individual geography"
-      },
-      {
-        "recordId": "ancestor-g35-renaud-de-gournay",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g35-renaud-de-gournay",
-        "role": "individual geography"
+        "role": "traditional first lord / landholding"
       },
       {
         "recordId": "ancestor-g36-hugh-de-gournay-i",
-        "role": "landholding / property reference"
+        "role": "fortifier / inherited lordship"
       },
       {
-        "recordId": "ancestor-g36-hugh-de-gournay-i",
-        "role": "individual geography"
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "role": "lordship / individual geography"
       },
       {
-        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
-        "role": "landholding / property reference"
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "role": "lordship / individual geography"
       },
       {
-        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
-        "role": "landholding / property reference"
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "role": "lordship / individual geography"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "role": "lordship / individual geography"
       }
     ],
     "filename": "gournay-en-bray.md"
@@ -1331,49 +1306,75 @@
   },
   {
     "placeId": "place-la-ferte-en-bray-normandy-france",
-    "name": "La Ferté-en-Bray, Normandy, France",
+    "name": "La Ferté-en-Bray / La Ferté-Saint-Samson, Normandy, France",
     "aliases": [
-      "La Ferte-en-Bray",
-      "La Ferté-en-Bray, Normandy"
+      "La Ferté-en-Bray",
+      "La Ferté-Saint-Samson",
+      "La Ferté",
+      "Firmitas",
+      "Firmitatem",
+      "La Ferté in Bray"
     ],
-    "shortDescription": "Priory foundation locality",
-    "placeType": "locality",
+    "shortDescription": "Gournay cadet-line fortress locality and priory-foundation place",
+    "placeType": "locality / seigneurial settlement",
     "coordinate": {
       "lat": 49.57795,
       "lng": 1.527104
     },
-    "coordinatePrecision": "high",
+    "coordinatePrecision": "medium",
     "roles": [
-      "landholding / property reference"
+      "cadet-line seat",
+      "landholding / property reference",
+      "fortress locality",
+      "charter foundation context"
     ],
     "ancestorLinks": [
       {
         "recordId": "ancestor-g35-renaud-de-gournay",
-        "role": "landholding / property reference"
+        "role": "family named in La Ferté foundation charter"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "role": "consenting brother in La Ferté charter context"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "role": "castle delivered in Gournay-La Ferté-Gaillefontaine triad"
       }
     ],
     "filename": "la-ferte-en-bray.md"
   },
   {
     "placeId": "place-le-bec-hellouin-normandy-france",
-    "name": "Le Bec-Hellouin, Normandy, France",
+    "name": "Abbey of Bec / Le Bec-Hellouin, Normandy, France",
     "aliases": [
-      "Le Bec-Hellouin, Normandy"
+      "Le Bec-Hellouin",
+      "Abbey of Bec",
+      "Abbaye Notre-Dame du Bec",
+      "Bec Abbey",
+      "Abbaye du Bec-Hellouin"
     ],
-    "shortDescription": "Abbey burial site",
-    "placeType": "locality",
+    "shortDescription": "Abbey burial, monastic-retirement, and endowment site",
+    "placeType": "abbey / ecclesiastical site",
     "coordinate": {
       "lat": 49.2288,
       "lng": 0.722
     },
-    "coordinatePrecision": "exact",
+    "coordinatePrecision": "high",
     "roles": [
-      "landholding / property reference"
+      "burial place",
+      "monastic retirement",
+      "ecclesiastical endowment",
+      "intellectual / religious center"
     ],
     "ancestorLinks": [
       {
         "recordId": "ancestor-g33-hugh-de-gournay-iii",
-        "role": "landholding / property reference"
+        "role": "monk / priorate network / burial / endowment donor"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "role": "inherited Bec patronage context"
       }
     ],
     "filename": "le-bec-hellouin.md"
@@ -1548,22 +1549,31 @@
     "placeId": "place-montigny-sur-andelle-normandy-france",
     "name": "Montigny-sur-Andelle, Normandy, France",
     "aliases": [
-      "Montigny-sur-Andelle, Normandy"
+      "Montigny-sur-Andelle",
+      "Montigny sur Andelle",
+      "Montigny, Normandy"
     ],
-    "shortDescription": "Parage tenure locality",
-    "placeType": "locality",
+    "shortDescription": "Parage tenure locality and junior-line proof-place",
+    "placeType": "historic fief / locality",
     "coordinate": {
       "lat": 49.327,
       "lng": 1.352
     },
     "coordinatePrecision": "medium",
     "roles": [
-      "landholding / property reference"
+      "landholding / property reference",
+      "parage tenure",
+      "pedigree proof",
+      "junior-line proof-place"
     ],
     "ancestorLinks": [
       {
         "recordId": "ancestor-g30-william-de-gournay-i",
-        "role": "landholding / property reference"
+        "role": "held in parage"
+      },
+      {
+        "recordId": "ancestor-g31-walter-de-gournay",
+        "role": "blood-descent proof context"
       }
     ],
     "filename": "montigny-sur-andelle.md"
@@ -2136,5 +2146,447 @@
       }
     ],
     "filename": "billerica-ma.md"
+  },
+  {
+    "placeId": "place-collegiale-saint-hildevert-gournay-en-bray-normandy-france",
+    "name": "Collégiale Saint-Hildevert, Gournay-en-Bray, Normandy, France",
+    "aliases": [
+      "Collégiale Saint-Hildevert",
+      "Saint-Hildevert, Gournay-en-Bray",
+      "Church of Saint-Hildevert",
+      "St Hildevert, Gournay",
+      "Église Saint-Hildebert"
+    ],
+    "shortDescription": "Surviving collegiate church at the Gournay family seat",
+    "placeType": "church / collegiate church",
+    "coordinate": {
+      "lat": 49.483016,
+      "lng": 1.728259
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "ecclesiastical site",
+      "architectural monument",
+      "family patronage context",
+      "historic town-core anchor"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g36-hugh-de-gournay-i",
+        "role": "nearby La Tour Hue / citadel context"
+      }
+    ],
+    "filename": "collegiale-saint-hildevert-gournay.md"
+  },
+  {
+    "placeId": "place-gournay-fortifications-tour-du-rempart-normandy-france",
+    "name": "Gournay fortifications / Tour du Rempart, Gournay-en-Bray, Normandy, France",
+    "aliases": [
+      "La Tour du Rempart",
+      "Tour du Rempart",
+      "Gournay fortifications",
+      "Gournay medieval walls",
+      "Gournay defensive works",
+      "La Tour Hue",
+      "Château de Gournay"
+    ],
+    "shortDescription": "Surviving remnant of the medieval Gournay fortifications",
+    "placeType": "fortification / tower remnant",
+    "coordinate": {
+      "lat": 49.48211,
+      "lng": 1.72608
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "fortification",
+      "frontier defense",
+      "seigneurial residence context",
+      "architectural survival"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g36-hugh-de-gournay-i",
+        "role": "traditional fortifier / La Tour Hue context"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "role": "inherited frontier stronghold"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "role": "castle delivered in Gournay-La Ferté-Gaillefontaine triad"
+      }
+    ],
+    "filename": "gournay-fortifications-tour-du-rempart.md"
+  },
+  {
+    "placeId": "place-la-ferte-butte-feodale-normandy-france",
+    "name": "Butte féodale / Château de La Ferté, La Ferté-Saint-Samson, Normandy, France",
+    "aliases": [
+      "Butte féodale de La Ferté-Saint-Samson",
+      "Château de La Ferté",
+      "La Ferté castle",
+      "Motte of La Ferté",
+      "Ferté fortress"
+    ],
+    "shortDescription": "Motte / castle site of the La Ferté cadet-line fortress",
+    "placeType": "castle / motte / fortification",
+    "coordinate": {
+      "lat": 49.578209,
+      "lng": 1.5265335
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "fortification",
+      "landholding / property reference",
+      "cadet-line seat",
+      "frontier defense"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "role": "father of Gautier de La Ferté / cadet-line context"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "role": "senior-line brother / charter consent context"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "role": "castle delivered in Gournay-La Ferté-Gaillefontaine triad"
+      }
+    ],
+    "filename": "la-ferte-butte-feodale.md"
+  },
+  {
+    "placeId": "place-priory-saint-pierre-saint-paul-la-ferte-en-bray-normandy-france",
+    "name": "Priory / Church of Saint-Pierre-et-Saint-Paul, La Ferté-en-Bray, Normandy, France",
+    "aliases": [
+      "Saint-Pierre-et-Saint-Paul, La Ferté-en-Bray",
+      "Église Saint-Pierre et Saint-Paul de La Ferté",
+      "Priory of La Ferté-en-Bray",
+      "La Ferté priory",
+      "Church of Saints Peter and Paul, La Ferté"
+    ],
+    "shortDescription": "Priory and church foundation site of the 989–996 Gournay charter",
+    "placeType": "priory / church",
+    "coordinate": {
+      "lat": 49.57795,
+      "lng": 1.527104
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "charter foundation site",
+      "ecclesiastical site",
+      "documentary pedigree anchor",
+      "cadet-line foundation"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "role": "named as father in foundation charter"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "role": "identified with the consenting brother Hugh in charter context"
+      }
+    ],
+    "filename": "priory-saint-pierre-saint-paul-la-ferte.md"
+  },
+  {
+    "placeId": "place-sigy-saint-martin-priory-normandy-france",
+    "name": "Sigy / Abbaye Saint-Martin, Sigy-en-Bray, Normandy, France",
+    "aliases": [
+      "Sigy",
+      "Sigi",
+      "Sigy-en-Bray",
+      "Abbaye Saint-Martin",
+      "Église abbatiale Saint-Martin",
+      "Priory of Sigy",
+      "Saint-Martin de Sigy",
+      "Saint-Vulgain"
+    ],
+    "shortDescription": "La Ferté cadet-line priory and church site",
+    "placeType": "abbey / priory / church",
+    "coordinate": {
+      "lat": 49.547222,
+      "lng": 1.491389
+    },
+    "coordinatePrecision": "medium",
+    "roles": [
+      "ecclesiastical site",
+      "cadet-line landholding context",
+      "charter / reversion context"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "role": "La Ferté cadet-line descendant context"
+      }
+    ],
+    "filename": "sigy-normandy.md"
+  },
+  {
+    "placeId": "place-fry-eglise-saint-martin-normandy-france",
+    "name": "Église Saint-Martin, Fry, Normandy, France",
+    "aliases": [
+      "Fry",
+      "Fry, Seine-Maritime",
+      "Church of Saint-Martin, Fry",
+      "Église Saint-Martin de Fry"
+    ],
+    "shortDescription": "La Ferté endowment church later tied to Sigy",
+    "placeType": "church / ecclesiastical endowment",
+    "coordinate": {
+      "lat": 49.530369,
+      "lng": 1.526414
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "ecclesiastical endowment",
+      "La Ferté foundation context",
+      "Sigy reversion context"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "role": "Gautier de La Ferté / church endowment context"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "role": "La Ferté charter family context"
+      }
+    ],
+    "filename": "fry-eglise-saint-martin.md"
+  },
+  {
+    "placeId": "place-la-ferte-foundation-endowment-cluster-pays-de-bray-france",
+    "name": "La Ferté foundation endowment cluster, Pays de Bray, France",
+    "aliases": [
+      "La Ferté charter church endowments",
+      "Fry, Argueil, Saint-Samson, Boulay, Bruquedale",
+      "Five churches of the La Ferté foundation"
+    ],
+    "shortDescription": "Five church endowments named in the La Ferté foundation charter",
+    "placeType": "aggregate ecclesiastical endowment",
+    "coordinate": {
+      "lat": 49.56,
+      "lng": 1.56
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "ecclesiastical endowment",
+      "charter foundation context",
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "role": "named family context in La Ferté charter"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "role": "consenting brother / charter context"
+      }
+    ],
+    "filename": "la-ferte-foundation-endowment-cluster.md"
+  },
+  {
+    "placeId": "place-gaillefontaine-castle-domain-normandy-france",
+    "name": "Gaillefontaine castle / domain, Normandy, France",
+    "aliases": [
+      "Gaillefontaine",
+      "Goisleni Fontem",
+      "Goisleni Fontem / Gaillefontaine",
+      "Domaine de Gaillefontaine",
+      "Château de Gaillefontaine",
+      "Gaillefontaine motte"
+    ],
+    "shortDescription": "Pays de Bray frontier castle and Gournay holding",
+    "placeType": "castle site / domain / motte",
+    "coordinate": {
+      "lat": 49.650477933144,
+      "lng": 1.62589488664005
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "frontier fortification",
+      "landholding / property reference",
+      "seigneurial title context",
+      "castle-triad context"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "role": "castle delivered to William II Rufus"
+      },
+      {
+        "recordId": "ancestor-g36-hugh-de-gournay-i",
+        "role": "frontier fortification tradition"
+      }
+    ],
+    "filename": "gaillefontaine.md"
+  },
+  {
+    "placeId": "place-pays-de-bray-normandy-picardy-france",
+    "name": "Pays de Bray, Normandy / Picardy frontier, France",
+    "aliases": [
+      "Pays de Bray",
+      "Bray",
+      "Le Bray",
+      "Brai",
+      "Gournay frontier region",
+      "Bray frontier"
+    ],
+    "shortDescription": "Regional frontier landscape of the early Gournay lordship",
+    "placeType": "region",
+    "coordinate": {
+      "lat": 49.55,
+      "lng": 1.55
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "regional context",
+      "frontier lordship",
+      "landholding / property reference",
+      "seigneurial geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g-37-eudes-odon-de-gournay",
+        "role": "traditional grant region"
+      },
+      {
+        "recordId": "ancestor-g36-hugh-de-gournay-i",
+        "role": "frontier fortification region"
+      },
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "role": "family lordship region"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "role": "military frontier region"
+      },
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "role": "Beauvaisis expansion frame"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "role": "castle-triad region"
+      },
+      {
+        "recordId": "ancestor-g30-william-de-gournay-i",
+        "role": "Montigny parage / Gournay blood-descent proof region"
+      }
+    ],
+    "filename": "pays-de-bray.md"
+  },
+  {
+    "placeId": "place-conquets-hue-de-gournay-beauvaisis-france",
+    "name": "Conquêts Hue de Gournay / Beauvaisis frontier acquisitions, France",
+    "aliases": [
+      "Conquêts Hue de Gournay",
+      "Les Conquêts Hue de Gournay",
+      "Beauvaisis frontier acquisitions",
+      "24 villages",
+      "twenty-four parishes",
+      "twenty-four villages",
+      "Conquests of Hugh de Gournay",
+      "Specialties of Beauvaisis",
+      "Speciautez de Beauvoisis",
+      "Vingt quatre Paroisses, Hameaux & Villages",
+      "Paroisses au-delà de l'Epte"
+    ],
+    "shortDescription": "Aggregate frontier-acquisition block east of the Epte",
+    "placeType": "territorial block / aggregate landholding",
+    "coordinate": {
+      "lat": 49.5556,
+      "lng": 1.7988
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "landholding / property reference",
+      "frontier acquisition",
+      "territorial expansion",
+      "dual-vassalage context",
+      "customary-law geography"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "role": "traditional acquirer of the 24 villages"
+      }
+    ],
+    "filename": "beauvaisis-frontier-acquisitions.md"
+  },
+  {
+    "placeId": "place-ecouche-normandy-france",
+    "name": "Écouché, Normandy, France",
+    "aliases": [
+      "Écouché",
+      "Ecouche",
+      "Scoceium",
+      "Écouché-les-Vallées"
+    ],
+    "shortDescription": "Basilia Flaitel maritagium and Gerard pedigree-proof place",
+    "placeType": "locality / estate context",
+    "coordinate": {
+      "lat": 48.717,
+      "lng": -0.125
+    },
+    "coordinatePrecision": "medium",
+    "roles": [
+      "maternal family context",
+      "landholding / property reference",
+      "pedigree proof",
+      "maritagium context"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "role": "held through Basilia / pedigree proof"
+      },
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "role": "Basilia Flaitel marriage / maritagium context"
+      }
+    ],
+    "filename": "ecouche.md"
+  },
+  {
+    "placeId": "place-g33-bec-gournay-endowment-cluster-pays-de-bray-france",
+    "name": "G33 Bec / Gournay endowment cluster, Pays de Bray, France",
+    "aliases": [
+      "Hugh III Bec endowment cluster",
+      "Gournay-Bec donation geography",
+      "Bosc-Girard, Braimontier, Elbeuf-en-Bray, La Rozière, Merval, Lodencourt",
+      "Bec tithes of Gournay, La Ferté, Gaillefontaine, Merval, Lodencourt"
+    ],
+    "shortDescription": "Aggregate property and tithe geography donated by Hugh III and Basilia to Bec",
+    "placeType": "aggregate ecclesiastical endowment",
+    "coordinate": {
+      "lat": 49.54,
+      "lng": 1.6
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "ecclesiastical endowment",
+      "tithe / revenue geography",
+      "landholding / property reference",
+      "monastic patronage"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "role": "donor / monastic patron"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "role": "inherited Bec patronage context"
+      }
+    ],
+    "filename": "g33-bec-gournay-endowment-cluster.md"
   }
 ]

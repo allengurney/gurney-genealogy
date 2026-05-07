@@ -69,6 +69,27 @@ The file should keep that distinction clear:
 
 La Ferté-en-Bray is one of the most important **document places** in the entire library. It should not be flattened into a generic landholding or a minor priory note. It is the place where the family first steps securely into the written historical record. [DG-I] [Hannay]
 
+## Place-model note: locality, fortress, and priory
+
+La Ferté-en-Bray should remain the locality and cadet-line place record. Two more specific records now sit beneath it:
+
+- `la-ferte-butte-feodale.md` — the fortress / motte / castle site.
+- `priory-saint-pierre-saint-paul-la-ferte.md` — the church / priory foundation site tied to the 989–996 charter.
+
+This split is important because La Ferté is both a place-name and a documentary anchor. The locality preserves the Gournay cadet-line geography; the butte preserves the defensive meaning of the name; and the church / priory preserves the charter that names Renaud, Alberade, Hugh, and Gautier.
+
+## Why this place needs three linked records
+
+La Ferté is not a single simple object. It needs three linked records:
+
+1. **La Ferté-en-Bray / La Ferté-Saint-Samson** — locality and cadet-line settlement.
+2. **Butte féodale / Château de La Ferté** — the fortress / motte site.
+3. **Saint-Pierre-et-Saint-Paul** — the priory / church foundation site.
+
+The official La Ferté-Saint-Samson history page explains the place-name from the idea of “fermeté,” a fortress, and says the commune takes its name from the château that occupied the butte. The same page preserves the local historical sequence: the place was offered to Eudes de Gournay by Rollo; Gautier de La Ferté founded a priory there in 990; Richard I attended the religious ceremony; and a castle was already on the butte by 981.
+
+This makes La Ferté a rare place where the local topography, the family genealogy, the castle landscape, and the foundation charter all converge.
+
 ## Open items
 
 - [ ] Locate the original or a cartulary copy of the La Ferté-en-Bray priory foundation charter. The Archives départementales de Seine-Maritime or the Bibliothèque nationale de France are the most probable repositories.
@@ -88,6 +109,11 @@ La Ferté-en-Bray is one of the most important **document places** in the entire
 - `research/people/g35-renaud-de-gournay-fact-sheet.research.md`
 - `research/places/gournay-en-bray.md`
 - `research/places/normandy.md`
+- `research/places/la-ferte-butte-feodale.md`
+- `research/places/priory-saint-pierre-saint-paul-la-ferte.md`
+- `research/places/sigy-normandy.md`
+- `research/places/fry-eglise-saint-martin.md`
+- `research/places/la-ferte-foundation-endowment-cluster.md`
 
 [^planche-laferte]: J. R. Planché, *The Conqueror and His Companions*, vol. 1 (London: Tinsley Brothers, 1874), Hugh de Gournay section, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/conquerorcompanion/companion.htm. Source ID: `planche-conqueror-companions-1874`.
 [^pettigrew-laferte]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 180-181, Google Books, https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ. Source ID: `pettigrew-collectanea-house-gournay-1871`.
@@ -96,22 +122,26 @@ La Ferté-en-Bray is one of the most important **document places** in the entire
 ## Place registry
 
 - `placeId`: `place-la-ferte-en-bray-normandy-france`
-- Short description: Priory foundation locality
-- Place type: locality
-- Aliases: La Ferte-en-Bray, La Ferté-en-Bray, Normandy
-- Coordinate: 49.57795, 1.527104 (high)
-- Roles: landholding / property reference
-- Site name: Église Saint-Pierre-et-Saint-Paul
-- Detail: Priory foundation site whose 989–996 charter first names Renaud de Gournay, Alberade, Hugh, and Gautier.
-- Current-site status: site only — Former priory no longer stands; the parish church of Saint-Pierre-et-Saint-Paul occupies or adjoins the historic core.
-- Links: [Local history page](https://tourismedes4rivieresenbray.com/la-ferte-saint-samson/)
+- Short description: Gournay cadet-line fortress locality and priory-foundation place
+- Place type: locality / seigneurial settlement
+- Aliases: La Ferté-en-Bray, La Ferté-Saint-Samson, La Ferté, Firmitas, Firmitatem, La Ferté in Bray
+- Coordinate: 49.57795, 1.527104 (medium)
+- Roles: cadet-line seat, landholding / property reference, fortress locality, charter foundation context
+- Detail: Historic Gournay cadet-line fortress locality and priory-foundation place in the Pays de Bray. The locality should be treated separately from the specific castle/butte and the Saint-Pierre-et-Saint-Paul priory/church record.
+- Current-site status: extant commune / historic locality - Modern La Ferté-Saint-Samson survives. The medieval fortress is represented separately by the Butte féodale record; the church and priory foundation site are represented separately by the Saint-Pierre-et-Saint-Paul record.
+- Coordinate basis: modern locality / historic core coordinate
+- Links: [La Ferté-Saint-Samson official history page](https://www.lafertesaintsamson.com/decouvertes/histoire-de-la-ville/)
 
 ### Linked ancestors
 
-- G35 Renaud de Gournay — landholding / property reference
+- G35 Renaud de Gournay - family named in La Ferté foundation charter
+- G34 Hugh de Gournay II - consenting brother in La Ferté charter context
+- G32 Gerard de Gournay - castle delivered in Gournay-La Ferté-Gaillefontaine triad
 
 ### Review notes
 
-- None in cleanup pass 3b.
+- Keep this record as the locality / cadet-line seat.
+- Add separate records for the butte / castle and Saint-Pierre-et-Saint-Paul priory/church.
+- Do not confuse the early Gournay priory with the later Cistercian La Ferté.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

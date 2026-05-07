@@ -127,6 +127,69 @@ Likely future crosslinks, if more place-specific evidence is developed:
 
 But at present, **one aggregate place note is cleaner than twenty-four thin village stubs**.
 
+## Place-model decision
+
+This file should now be treated as a canonical aggregate place, not only as a research note. The acquisition block is too important to remain outside `data/places.json`, but the individual villages should not all become separate place files until their modern identifications are ranked.
+
+## Legal / customary-law significance
+
+Projet ConDÉ preserves the heading of the local customs for the twenty-four parishes, hamlets, and villages “du ressort de Gournay,” seated beyond the river Epte and called the Conquêts Hue de Gournay and specialties of Beauvaisis. This is valuable because it shows the block was remembered as a jurisdictional / customary-law territory, not merely as a loose genealogical tradition.
+
+The same heading lists the component parishes, hamlets, and villages. This supports the file's current aggregate approach: the block should be a single canonical place record until individual modern identifications are stable.
+
+## Later legal memory
+
+A modern OpenEdition study of Norman frontier customs also treats the Conquêts Hue de Gournay as an example of frontier custom that survived into the later Norman customary-law tradition. It notes that these territories depended on the honor and were situated beyond the Epte in French territory.
+
+This is an important refinement: the Conquêts were not only a medieval military acquisition; they became a durable customary-law geography.
+
+## Geo package now canonical for this place
+
+The following files should be treated as the reusable geography package for the aggregate place:
+
+- `research/geo/hugh_de_gournay_reconstruction_README.md`
+- `research/geo/hugh_de_gournay_reconstructed_holdings.geojson`
+- `research/geo/hugh_de_gournay_reconstructed_vertices.csv`
+- `research/geo/hugh_de_gournay_reconstruction_notes.json`
+
+The GeoJSON includes:
+- an “Older Gournay core” polygon with medium-low certainty;
+- a “Beauvaisis acquisitions / 24 villages” polygon with medium certainty;
+- a schematic Epte frontier line;
+- modern anchor / listed-place points for Gournay-en-Bray, Ferrières-en-Bray, Molagnies, Cuy-Saint-Fiacre, Gancourt-Saint-Étienne, Saint-Quentin-des-Prés, Sully, Héricourt-sur-Thérain, Songeons, Loueuse, and Beauvais.
+
+The map coordinate in `data/places.json` is only a low-precision aggregate anchor. Use the GeoJSON polygon for any actual map rendering of the acquisition block.
+
+## Component-place tracking
+
+| Repo normalized name | ConDÉ / early form | GeoJSON / modern-anchor status | Immediate action |
+|---|---|---:|---|
+| Auchy | Anchy en partie | Listed but not anchor point | Defer |
+| Beaulevrier | Beaulevrier | Listed but not anchor point | Defer |
+| Beaumont | Beaumont | Listed but not anchor point; within Héricourt parish per ConDÉ | Defer |
+| Boimont | Boymont terroir de Ganicourt | Listed; tied to Gancourt territory | Defer |
+| Doudeauville | Doudeauville | Listed but not anchor point | Defer |
+| Ferrières | Ferriere | High; Ferrières-en-Bray is GeoJSON anchor | Candidate later |
+| Forêt | Forest | Listed but not anchor point | Defer |
+| Haincourt | Hincourt | Listed but not anchor point | Defer |
+| Hardencourt | Hardencourt | Listed but not anchor point | Defer |
+| Héricourt | Héricourt | High; Héricourt-sur-Thérain is GeoJSON anchor | Candidate later |
+| Houssoye | la Haus-saye | Listed but not anchor point | Defer |
+| Humermont | Humermont | Listed but not anchor point | Defer |
+| Hyancourt | Iencourt | Listed but not anchor point | Defer |
+| Laudencourt | Laudencourt la Forest | Appears also in G33 Bec donation cluster; needs disambiguation | Defer |
+| Loueuse | Loyenses | High; Loueuse is GeoJSON anchor | Candidate later |
+| Molagnies | Moullonguies | High; Molagnies is GeoJSON anchor | Candidate later |
+| Mothois | Monthois | Listed but not anchor point | Defer |
+| Renicourt | Raincourt | Listed but not anchor point | Defer |
+| Rosay | Royay | Listed but not anchor point | Defer |
+| Saint-Quentin-des-Prés | S. Quentin | High; GeoJSON anchor | Candidate later |
+| Saint-Samson | Saint-Sanson sous le Rain | Needs disambiguation against La Ferté-Saint-Samson / Saint-Samson-la-Poterie | Defer |
+| Songeons | Songeons | High; GeoJSON anchor | Candidate later |
+| Sully | Sullys | High; GeoJSON anchor | Candidate later |
+| Torcy | Torchy | Listed but not anchor point | Defer |
+| Gancourt-Saint-Étienne | Ganicourt | Anchor territory for Boimont | Candidate later |
+
 ## Open items
 
 - [ ] Pull more direct extract material from Decorde's *Essai historique et archéologique sur le Canton de Gournay* into this note or a source extract companion.
@@ -149,3 +212,30 @@ But at present, **one aggregate place note is cleaner than twenty-four thin vill
 - `research/places/montigny-sur-andelle.md`
 
 [^planche-conquets]: J. R. Planché, *The Conqueror and His Companions*, vol. 1 (London: Tinsley Brothers, 1874), Gournay/De la Marie note, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/conquerorcompanion/companion.htm. Source ID: `planche-conqueror-companions-1874`.
+
+<!-- GENERATED:PLACE-REGISTRY:START -->
+## Place registry
+
+- `placeId`: `place-conquets-hue-de-gournay-beauvaisis-france`
+- Short description: Aggregate frontier-acquisition block east of the Epte
+- Place type: territorial block / aggregate landholding
+- Aliases: Conquêts Hue de Gournay, Les Conquêts Hue de Gournay, Beauvaisis frontier acquisitions, 24 villages, twenty-four parishes, twenty-four villages, Conquests of Hugh de Gournay, Specialties of Beauvaisis, Speciautez de Beauvoisis, Vingt quatre Paroisses, Hameaux & Villages, Paroisses au-delà de l'Epte
+- Coordinate: 49.5556, 1.7988 (low)
+- Roles: landholding / property reference, frontier acquisition, territorial expansion, dual-vassalage context, customary-law geography
+- Detail: Aggregate territorial place for the twenty-four parishes, hamlets, and villages beyond the Epte associated with the Conquêts Hue de Gournay. The current library should represent this as one territorial block rather than twenty-four separate records until the individual modern identifications are stable.
+- Current-site status: historical territorial block; modern component villages survive in whole or part - Historical territorial block / local customary-law geography. The modern component villages and hamlets survive in whole or part, but the medieval jurisdictional boundary is reconstructed rather than surveyed. Projet ConDÉ preserves the customary-law heading listing the twenty-four parishes, hamlets, and villages beyond the Epte, under the jurisdiction of Gournay, called the Conquêts Hue de Gournay and specialties of Beauvaisis.
+- Coordinate basis: approximate centroid of existing repo Beauvaisis-acquisitions reconstruction polygon; use `research/geo/hugh_de_gournay_reconstructed_holdings.geojson` for map polygon
+- Links: [Projet ConDÉ: Coutumes et usages des Conquêts Hue de Gournay](https://pdn-lingua.unicaen.fr/coutumiers/conde/pesnelle_lighter.xml/pesnelle-lighter-beta-002-007.html)
+
+### Linked ancestors
+
+- G33 Hugh de Gournay III - traditional acquirer of the 24 villages
+
+### Review notes
+
+- Promote existing research file to canonical place registry.
+- Do not create twenty-four thin village records yet.
+- Reuse the existing geojson / vertex package.
+- Coordinate is an aggregate map anchor, not a medieval cadastral centroid.
+
+<!-- GENERATED:PLACE-REGISTRY:END -->

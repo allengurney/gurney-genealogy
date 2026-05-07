@@ -697,197 +697,6 @@
     "ancestorCount": 15
   },
   {
-    "placeId": "place-gournay-en-bray-normandy-france",
-    "name": "Gournay-en-Bray, Normandy, France",
-    "title": "Collégiale Saint-Hildevert",
-    "siteName": "Collégiale Saint-Hildevert",
-    "streetAddress": "",
-    "region": "Normandy, France",
-    "regionGroup": "europe",
-    "aliases": [
-      "Gournay",
-      "Gournay-en-Bray, Normandy"
-    ],
-    "shortDescription": "Ancestral fortress town",
-    "longDescription": "Ancestral fortress town and frontier seigneury of the Gournay family in the Pays de Bray.",
-    "placeType": "locality",
-    "extantStatus": "extant",
-    "extantStatusDescription": "Modern town survives; the church site is used as the best historic anchor for the lost fortress town.",
-    "coordinate": {
-      "lat": 49.483148,
-      "lng": 1.727303
-    },
-    "coordinatePrecision": "exact",
-    "coordinateBasis": "exact church site used as historic town anchor",
-    "roles": [
-      "landholding / property reference",
-      "individual geography"
-    ],
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg",
-    "imageTitle": "Collégiale Saint-Hildevert, Gournay-en-Bray",
-    "siteUrl": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/",
-    "siteLabel": "Heritage page",
-    "researchUrl": "/research/places/gournay-en-bray.html",
-    "researchSlug": "gournay-en-bray",
-    "ancestorLinks": [
-      {
-        "recordId": "ancestor-g-37-eudes-odon-de-gournay",
-        "type": "ancestor",
-        "gen": "G37",
-        "name": "Eudes (Odon) de Gournay",
-        "dates": "c. 860 — d. after 911",
-        "role": "landholding / property reference",
-        "lineageStatus": "Minimal historical record",
-        "displayLineageStatus": "Minimal historical record",
-        "url": "/fact-sheets/g37-eudes-de-gournay-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g-37-eudes-odon-de-gournay",
-        "type": "ancestor",
-        "gen": "G37",
-        "name": "Eudes (Odon) de Gournay",
-        "dates": "c. 860 — d. after 911",
-        "role": "individual geography",
-        "lineageStatus": "Minimal historical record",
-        "displayLineageStatus": "Minimal historical record",
-        "url": "/fact-sheets/g37-eudes-de-gournay-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g32-gerard-de-gournay",
-        "type": "ancestor",
-        "gen": "G32",
-        "name": "Gerard de Gournay",
-        "dates": "c. 1040 — d. before 1104, Palestine",
-        "role": "landholding / property reference",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g32-gerard-de-gournay",
-        "type": "ancestor",
-        "gen": "G32",
-        "name": "Gerard de Gournay",
-        "dates": "c. 1040 — d. before 1104, Palestine",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g33-hugh-de-gournay-iii",
-        "type": "ancestor",
-        "gen": "G33",
-        "name": "Hugh de Gournay III",
-        "dates": "c. 1020 — d. c. 1093",
-        "role": "landholding / property reference",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g33-hugh-de-gournay-iii",
-        "type": "ancestor",
-        "gen": "G33",
-        "name": "Hugh de Gournay III",
-        "dates": "c. 1020 — d. c. 1093",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g34-hugh-de-gournay-ii",
-        "type": "ancestor",
-        "gen": "G34",
-        "name": "Hugh de Gournay II",
-        "dates": "c. 985 — d. c. 1074",
-        "role": "landholding / property reference",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g34-hugh-de-gournay-ii-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g34-hugh-de-gournay-ii",
-        "type": "ancestor",
-        "gen": "G34",
-        "name": "Hugh de Gournay II",
-        "dates": "c. 985 — d. c. 1074",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g34-hugh-de-gournay-ii-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g35-renaud-de-gournay",
-        "type": "ancestor",
-        "gen": "G35",
-        "name": "Renaud de Gournay",
-        "dates": "c. 970 — dates uncertain",
-        "role": "landholding / property reference",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g35-renaud-de-gournay-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g35-renaud-de-gournay",
-        "type": "ancestor",
-        "gen": "G35",
-        "name": "Renaud de Gournay",
-        "dates": "c. 970 — dates uncertain",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g35-renaud-de-gournay-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g36-hugh-de-gournay-i",
-        "type": "ancestor",
-        "gen": "G36",
-        "name": "Hugh de Gournay I",
-        "dates": "c. 945–950 — dates uncertain",
-        "role": "landholding / property reference",
-        "lineageStatus": "Limited Historical Record",
-        "displayLineageStatus": "Limited Historical Record",
-        "url": "/fact-sheets/g36-hugh-de-gournay-i-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g36-hugh-de-gournay-i",
-        "type": "ancestor",
-        "gen": "G36",
-        "name": "Hugh de Gournay I",
-        "dates": "c. 945–950 — dates uncertain",
-        "role": "individual geography",
-        "lineageStatus": "Limited Historical Record",
-        "displayLineageStatus": "Limited Historical Record",
-        "url": "/fact-sheets/g36-hugh-de-gournay-i-fact-sheet.html"
-      },
-      {
-        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
-        "type": "related",
-        "gen": "G32",
-        "name": "Hugh de Gournay IV (Senior Baron Line)",
-        "dates": "c. 1098 — d. 1180",
-        "role": "landholding / property reference",
-        "lineageStatus": "Related",
-        "displayLineageStatus": "Related",
-        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
-      },
-      {
-        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
-        "type": "related",
-        "gen": "G32",
-        "name": "Hugh de Gournay V (Senior Baron Line)",
-        "dates": "c. 1148 — d. 25 Oct. 1214, Rouen",
-        "role": "landholding / property reference",
-        "lineageStatus": "Related",
-        "displayLineageStatus": "Related",
-        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
-      }
-    ],
-    "ancestorCount": 14
-  },
-  {
     "placeId": "place-norfolk-england",
     "name": "Norfolk, England",
     "title": "Norfolk, England",
@@ -969,7 +778,7 @@
         "type": "ancestor",
         "gen": "G33",
         "name": "Hugh de Gournay III",
-        "dates": "c. 1020 — d. c. 1093",
+        "dates": "c. 1020 — d. 1110",
         "role": "landholding / property reference",
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
@@ -980,7 +789,7 @@
         "type": "ancestor",
         "gen": "G33",
         "name": "Hugh de Gournay III",
-        "dates": "c. 1020 — d. c. 1093",
+        "dates": "c. 1020 — d. 1110",
         "role": "individual geography",
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
@@ -1032,6 +841,236 @@
       }
     ],
     "ancestorCount": 10
+  },
+  {
+    "placeId": "place-pays-de-bray-normandy-picardy-france",
+    "name": "Pays de Bray, Normandy / Picardy frontier, France",
+    "title": "Pays de Bray, Normandy / Picardy frontier, France",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Normandy / Picardy frontier, France",
+    "regionGroup": "europe",
+    "aliases": [
+      "Pays de Bray",
+      "Bray",
+      "Le Bray",
+      "Brai",
+      "Gournay frontier region",
+      "Bray frontier"
+    ],
+    "shortDescription": "Regional frontier landscape of the early Gournay lordship",
+    "longDescription": "Historic and natural region straddling Normandy and Picardy, forming the frontier landscape of the early Gournay lordship. Gournay-en-Bray, La Ferté, Gaillefontaine, Sigy, Montigny-sur-Andelle, and the Beauvaisis frontier acquisitions should be interpreted within this regional frame.",
+    "placeType": "region",
+    "extantStatus": "extant historical / natural region",
+    "extantStatusDescription": "The Pays de Bray remains a recognized natural and historical region, not a single site or modern administrative unit.",
+    "coordinate": {
+      "lat": 49.55,
+      "lng": 1.55
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "approximate regional centroid",
+    "roles": [
+      "regional context",
+      "frontier lordship",
+      "landholding / property reference",
+      "seigneurial geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://en.wikipedia.org/wiki/Pays_de_Bray",
+    "siteLabel": "Pays de Bray reference page",
+    "researchUrl": "/research/places/pays-de-bray.html",
+    "researchSlug": "pays-de-bray",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g-37-eudes-odon-de-gournay",
+        "type": "ancestor",
+        "gen": "G37",
+        "name": "Eudes (Odon) de Gournay",
+        "dates": "c. 860 — d. after 911, before c. 932",
+        "role": "traditional grant region",
+        "lineageStatus": "Minimal historical record",
+        "displayLineageStatus": "Minimal historical record",
+        "url": "/fact-sheets/g37-eudes-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g36-hugh-de-gournay-i",
+        "type": "ancestor",
+        "gen": "G36",
+        "name": "Hugh de Gournay I",
+        "dates": "c. 920–940 — dates uncertain",
+        "role": "frontier fortification region",
+        "lineageStatus": "Limited Historical Record",
+        "displayLineageStatus": "Limited Historical Record",
+        "url": "/fact-sheets/g36-hugh-de-gournay-i-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "type": "ancestor",
+        "gen": "G35",
+        "name": "Renaud de Gournay",
+        "dates": "c. 970 — dates uncertain",
+        "role": "family lordship region",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g35-renaud-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "type": "ancestor",
+        "gen": "G34",
+        "name": "Hugh de Gournay II",
+        "dates": "c. 985 — d. c. 1074",
+        "role": "military frontier region",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g34-hugh-de-gournay-ii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "type": "ancestor",
+        "gen": "G33",
+        "name": "Hugh de Gournay III",
+        "dates": "c. 1020 — d. 1110",
+        "role": "Beauvaisis expansion frame",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "type": "ancestor",
+        "gen": "G32",
+        "name": "Gerard de Gournay",
+        "dates": "c. 1040 — d. before 1104, Palestine",
+        "role": "castle-triad region",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g30-william-de-gournay-i",
+        "type": "ancestor",
+        "gen": "G30",
+        "name": "Sir William de Gournay I, Knt.",
+        "dates": "fl. c. 1150–1180",
+        "role": "Montigny parage / Gournay blood-descent proof region",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g30-william-de-gournay-i-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 7
+  },
+  {
+    "placeId": "place-gournay-en-bray-normandy-france",
+    "name": "Gournay-en-Bray, Normandy, France",
+    "title": "Gournay-en-Bray, Normandy, France",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Normandy, France",
+    "regionGroup": "europe",
+    "aliases": [
+      "Gournay",
+      "Gournay-en-Bray",
+      "Gournay-en-Bray, Normandy",
+      "Gornacum",
+      "Gornaio",
+      "Gournay honor",
+      "Seigneurie de Gournay"
+    ],
+    "shortDescription": "Ancestral fortress town and seigneurial honor",
+    "longDescription": "Ancestral fortress town, seigneurial honor, and namesake of the Gournay family in the Pays de Bray. This record represents the town and lordship as a whole, not the Collégiale Saint-Hildevert church site or the Tour du Rempart fortification remnant alone.",
+    "placeType": "locality / seigneurial honor",
+    "extantStatus": "extant town; medieval fortress fabric only partly survives",
+    "extantStatusDescription": "Modern Gournay-en-Bray survives as a town. The medieval defensive system is mostly lost or transformed; a separate Tour du Rempart record carries the surviving fortification-remnant detail, and a separate Collégiale Saint-Hildevert record carries the church-specific detail.",
+    "coordinate": {
+      "lat": 49.483148,
+      "lng": 1.727303
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "historic town-core anchor; not a precise castle, tower, or church coordinate",
+    "roles": [
+      "seigneurial seat",
+      "landholding / property reference",
+      "individual geography",
+      "frontier lordship"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://www.gournay-en-bray.fr/",
+    "siteLabel": "Gournay-en-Bray official town site",
+    "researchUrl": "/research/places/gournay-en-bray.html",
+    "researchSlug": "gournay-en-bray",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g-37-eudes-odon-de-gournay",
+        "type": "ancestor",
+        "gen": "G37",
+        "name": "Eudes (Odon) de Gournay",
+        "dates": "c. 860 — d. after 911, before c. 932",
+        "role": "traditional first lord / landholding",
+        "lineageStatus": "Minimal historical record",
+        "displayLineageStatus": "Minimal historical record",
+        "url": "/fact-sheets/g37-eudes-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g36-hugh-de-gournay-i",
+        "type": "ancestor",
+        "gen": "G36",
+        "name": "Hugh de Gournay I",
+        "dates": "c. 920–940 — dates uncertain",
+        "role": "fortifier / inherited lordship",
+        "lineageStatus": "Limited Historical Record",
+        "displayLineageStatus": "Limited Historical Record",
+        "url": "/fact-sheets/g36-hugh-de-gournay-i-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "type": "ancestor",
+        "gen": "G35",
+        "name": "Renaud de Gournay",
+        "dates": "c. 970 — dates uncertain",
+        "role": "lordship / individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g35-renaud-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "type": "ancestor",
+        "gen": "G34",
+        "name": "Hugh de Gournay II",
+        "dates": "c. 985 — d. c. 1074",
+        "role": "lordship / individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g34-hugh-de-gournay-ii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "type": "ancestor",
+        "gen": "G33",
+        "name": "Hugh de Gournay III",
+        "dates": "c. 1020 — d. 1110",
+        "role": "lordship / individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "type": "ancestor",
+        "gen": "G32",
+        "name": "Gerard de Gournay",
+        "dates": "c. 1040 — d. before 1104, Palestine",
+        "role": "lordship / individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 6
   },
   {
     "placeId": "place-weymouth-massachusetts-usa",
@@ -1993,6 +2032,81 @@
     "ancestorCount": 3
   },
   {
+    "placeId": "place-la-ferte-butte-feodale-normandy-france",
+    "name": "Butte féodale / Château de La Ferté, La Ferté-Saint-Samson, Normandy, France",
+    "title": "Butte féodale de La Ferté-Saint-Samson",
+    "siteName": "Butte féodale de La Ferté-Saint-Samson",
+    "streetAddress": "Place de l'église, 76440 La Ferté-Saint-Samson",
+    "region": "La Ferté-Saint-Samson, Normandy, France",
+    "regionGroup": "europe",
+    "aliases": [
+      "Butte féodale de La Ferté-Saint-Samson",
+      "Château de La Ferté",
+      "La Ferté castle",
+      "Motte of La Ferté",
+      "Ferté fortress"
+    ],
+    "shortDescription": "Motte / castle site of the La Ferté cadet-line fortress",
+    "longDescription": "Motte / castle site of the La Ferté fortress locality. The official La Ferté-Saint-Samson history page states that the castle occupied the butte, existed by 981, and sat in a naturally strategic marsh-bordered position. This fortress context explains the place-name La Ferté and the site’s importance within the Gournay / La Ferté frontier network.",
+    "placeType": "castle / motte / fortification",
+    "extantStatus": "earthwork / butte extant; medieval castle lost",
+    "extantStatusDescription": "The butte / motte survives as a landscape feature and viewpoint at Place de l'église. The medieval castle itself does not survive as a standing structure. Local history says a castle was already present on the butte by 981, and tourism descriptions describe later visible earthworks / ditches as fortified points.",
+    "coordinate": {
+      "lat": 49.578209,
+      "lng": 1.5265335
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "published tourism point for the Butte féodale",
+    "roles": [
+      "fortification",
+      "landholding / property reference",
+      "cadet-line seat",
+      "frontier defense"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://www.lafertesaintsamson.com/decouvertes/histoire-de-la-ville/",
+    "siteLabel": "La Ferté-Saint-Samson official history page",
+    "researchUrl": "/research/places/la-ferte-butte-feodale.html",
+    "researchSlug": "la-ferte-butte-feodale",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "type": "ancestor",
+        "gen": "G35",
+        "name": "Renaud de Gournay",
+        "dates": "c. 970 — dates uncertain",
+        "role": "father of Gautier de La Ferté / cadet-line context",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g35-renaud-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "type": "ancestor",
+        "gen": "G34",
+        "name": "Hugh de Gournay II",
+        "dates": "c. 985 — d. c. 1074",
+        "role": "senior-line brother / charter consent context",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g34-hugh-de-gournay-ii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "type": "ancestor",
+        "gen": "G32",
+        "name": "Gerard de Gournay",
+        "dates": "c. 1040 — d. before 1104, Palestine",
+        "role": "castle delivered in Gournay-La Ferté-Gaillefontaine triad",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 3
+  },
+  {
     "placeId": "place-gurneys-manor-hingham-norfolk-england",
     "name": "Gurney's Manor, Hingham, Norfolk, England",
     "title": "Gurney's Manor",
@@ -2126,6 +2240,159 @@
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
         "url": "/fact-sheets/g18-william-gurney-v-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 3
+  },
+  {
+    "placeId": "place-la-ferte-en-bray-normandy-france",
+    "name": "La Ferté-en-Bray / La Ferté-Saint-Samson, Normandy, France",
+    "title": "La Ferté-en-Bray / La Ferté-Saint-Samson, Normandy, France",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Normandy, France",
+    "regionGroup": "north-america",
+    "aliases": [
+      "La Ferté-en-Bray",
+      "La Ferté-Saint-Samson",
+      "La Ferté",
+      "Firmitas",
+      "Firmitatem",
+      "La Ferté in Bray"
+    ],
+    "shortDescription": "Gournay cadet-line fortress locality and priory-foundation place",
+    "longDescription": "Historic Gournay cadet-line fortress locality and priory-foundation place in the Pays de Bray. The locality should be treated separately from the specific castle/butte and the Saint-Pierre-et-Saint-Paul priory/church record.",
+    "placeType": "locality / seigneurial settlement",
+    "extantStatus": "extant commune / historic locality",
+    "extantStatusDescription": "Modern La Ferté-Saint-Samson survives. The medieval fortress is represented separately by the Butte féodale record; the church and priory foundation site are represented separately by the Saint-Pierre-et-Saint-Paul record.",
+    "coordinate": {
+      "lat": 49.57795,
+      "lng": 1.527104
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "modern locality / historic core coordinate",
+    "roles": [
+      "cadet-line seat",
+      "landholding / property reference",
+      "fortress locality",
+      "charter foundation context"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://www.lafertesaintsamson.com/decouvertes/histoire-de-la-ville/",
+    "siteLabel": "La Ferté-Saint-Samson official history page",
+    "researchUrl": "/research/places/la-ferte-en-bray.html",
+    "researchSlug": "la-ferte-en-bray",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "type": "ancestor",
+        "gen": "G35",
+        "name": "Renaud de Gournay",
+        "dates": "c. 970 — dates uncertain",
+        "role": "family named in La Ferté foundation charter",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g35-renaud-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "type": "ancestor",
+        "gen": "G34",
+        "name": "Hugh de Gournay II",
+        "dates": "c. 985 — d. c. 1074",
+        "role": "consenting brother in La Ferté charter context",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g34-hugh-de-gournay-ii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "type": "ancestor",
+        "gen": "G32",
+        "name": "Gerard de Gournay",
+        "dates": "c. 1040 — d. before 1104, Palestine",
+        "role": "castle delivered in Gournay-La Ferté-Gaillefontaine triad",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 3
+  },
+  {
+    "placeId": "place-gournay-fortifications-tour-du-rempart-normandy-france",
+    "name": "Gournay fortifications / Tour du Rempart, Gournay-en-Bray, Normandy, France",
+    "title": "La Tour du Rempart",
+    "siteName": "La Tour du Rempart",
+    "streetAddress": "Rue du Rempart, 76220 Gournay-en-Bray",
+    "region": "Gournay-en-Bray, Normandy, France",
+    "regionGroup": "europe",
+    "aliases": [
+      "La Tour du Rempart",
+      "Tour du Rempart",
+      "Gournay fortifications",
+      "Gournay medieval walls",
+      "Gournay defensive works",
+      "La Tour Hue",
+      "Château de Gournay"
+    ],
+    "shortDescription": "Surviving remnant of the medieval Gournay fortifications",
+    "longDescription": "Surviving remnant of the fortified medieval town and seigneurial defensive system at Gournay-en-Bray. Normandie Tourisme describes one surviving tower, the conical base of another, and the ditches as the remaining traces of the town's defensive work.",
+    "placeType": "fortification / tower remnant",
+    "extantStatus": "partial extant remains",
+    "extantStatusDescription": "Partial medieval fortification remains survive at Rue du Rempart: one tower, the conical base of another tower, and ditches. Tourism sources describe the medieval system as both stronghold and seigneurial residence, but the gates and broader defensive system were successively destroyed after the Wars of Religion. The record should not identify the extant tower as La Tour Hue unless a stronger source is added.",
+    "coordinate": {
+      "lat": 49.48211,
+      "lng": 1.72608
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "published tourism / Seine-Maritime Attractivité point for La Tour du Rempart",
+    "roles": [
+      "fortification",
+      "frontier defense",
+      "seigneurial residence context",
+      "architectural survival"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://www.normandie-tourisme.fr/sites-lieux-de-visites/la-tour-du-rempart/",
+    "siteLabel": "Normandie Tourisme: La Tour du Rempart",
+    "researchUrl": "/research/places/gournay-fortifications-tour-du-rempart.html",
+    "researchSlug": "gournay-fortifications-tour-du-rempart",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g36-hugh-de-gournay-i",
+        "type": "ancestor",
+        "gen": "G36",
+        "name": "Hugh de Gournay I",
+        "dates": "c. 920–940 — dates uncertain",
+        "role": "traditional fortifier / La Tour Hue context",
+        "lineageStatus": "Limited Historical Record",
+        "displayLineageStatus": "Limited Historical Record",
+        "url": "/fact-sheets/g36-hugh-de-gournay-i-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "type": "ancestor",
+        "gen": "G34",
+        "name": "Hugh de Gournay II",
+        "dates": "c. 985 — d. c. 1074",
+        "role": "inherited frontier stronghold",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g34-hugh-de-gournay-ii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "type": "ancestor",
+        "gen": "G32",
+        "name": "Gerard de Gournay",
+        "dates": "c. 1040 — d. before 1104, Palestine",
+        "role": "castle delivered in Gournay-La Ferté-Gaillefontaine triad",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
       }
     ],
     "ancestorCount": 3
@@ -2612,6 +2879,70 @@
     "ancestorCount": 2
   },
   {
+    "placeId": "place-le-bec-hellouin-normandy-france",
+    "name": "Abbey of Bec / Le Bec-Hellouin, Normandy, France",
+    "title": "Abbaye Notre-Dame du Bec",
+    "siteName": "Abbaye Notre-Dame du Bec",
+    "streetAddress": "3 place de l'Abbé Herluin, 27800 Le Bec-Hellouin",
+    "region": "Normandy, France",
+    "regionGroup": "europe",
+    "aliases": [
+      "Le Bec-Hellouin",
+      "Abbey of Bec",
+      "Abbaye Notre-Dame du Bec",
+      "Bec Abbey",
+      "Abbaye du Bec-Hellouin"
+    ],
+    "shortDescription": "Abbey burial, monastic-retirement, and endowment site",
+    "longDescription": "Abbey of Bec, burial and monastic-retirement place of Hugh de Gournay III and Basilia Flaitel, and recipient of Hugh's Essex tithes and Gournay-side donations. The abbey was founded in 1034 by Herluin and became one of the major intellectual centers of the medieval Latin West through Lanfranc and Anselm.",
+    "placeType": "abbey / ecclesiastical site",
+    "extantStatus": "extant abbey site; medieval and later fabric mixed",
+    "extantStatusDescription": "The abbey site survives and is visitable, but the fabric is not a simple 11th-century survival. The official abbey history and culture ministry sources describe a foundation in 1034 and major 11th-century intellectual importance. DRAC Normandie says the abbey was badly degraded in 1792, the church and chapter house were razed in 1809, and the current monastic buildings largely reflect later rebuilding. POP / Plan du Patrimoine identifies 12th, 15th, 17th, and 18th-century fabric, with the 15th-century Tour Saint-Nicolas as a key remnant.",
+    "coordinate": {
+      "lat": 49.2288,
+      "lng": 0.722
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "abbey site coordinate",
+    "roles": [
+      "burial place",
+      "monastic retirement",
+      "ecclesiastical endowment",
+      "intellectual / religious center"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://abbayedubec.org/historique/",
+    "siteLabel": "Abbaye Notre-Dame du Bec official history page",
+    "researchUrl": "/research/places/le-bec-hellouin.html",
+    "researchSlug": "le-bec-hellouin",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "type": "ancestor",
+        "gen": "G33",
+        "name": "Hugh de Gournay III",
+        "dates": "c. 1020 — d. 1110",
+        "role": "monk / priorate network / burial / endowment donor",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "type": "ancestor",
+        "gen": "G32",
+        "name": "Gerard de Gournay",
+        "dates": "c. 1040 — d. before 1104, Palestine",
+        "role": "inherited Bec patronage context",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 2
+  },
+  {
     "placeId": "place-burnham-thorpe-norfolk-england",
     "name": "Burnham Thorpe, Norfolk, England",
     "title": "Burnham Thorpe, Norfolk, England",
@@ -2786,6 +3117,71 @@
     "ancestorCount": 2
   },
   {
+    "placeId": "place-gaillefontaine-castle-domain-normandy-france",
+    "name": "Gaillefontaine castle / domain, Normandy, France",
+    "title": "Domaine de Gaillefontaine",
+    "siteName": "Domaine de Gaillefontaine",
+    "streetAddress": "",
+    "region": "Normandy, France",
+    "regionGroup": "europe",
+    "aliases": [
+      "Gaillefontaine",
+      "Goisleni Fontem",
+      "Goisleni Fontem / Gaillefontaine",
+      "Domaine de Gaillefontaine",
+      "Château de Gaillefontaine",
+      "Gaillefontaine motte"
+    ],
+    "shortDescription": "Pays de Bray frontier castle and Gournay holding",
+    "longDescription": "Pays de Bray frontier castle site and later domain associated with the Gournay-La Ferté-Gaillefontaine defensive triad. A heritage record describes the motte castrale as testimony to the site's importance on the old frontier between Normandy and the northern royal domain.",
+    "placeType": "castle site / domain / motte",
+    "extantStatus": "motte / heritage domain extant; medieval castle transformed or lost",
+    "extantStatusDescription": "The protected domain includes a motte castrale, which the POP / Mérimée notice says testifies to the site's importance on the old frontier between Normandy and the northern royal domain. The visible château and landscaped domain are largely 19th century, with major works from 1867, 1881, and 1903. Treat this as a medieval motte / site survival, not as an extant medieval castle.",
+    "coordinate": {
+      "lat": 49.650477933144,
+      "lng": 1.62589488664005
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "Monument Historique / POP-derived coordinate for Domaine de Gaillefontaine",
+    "roles": [
+      "frontier fortification",
+      "landholding / property reference",
+      "seigneurial title context",
+      "castle-triad context"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://www.plan-du-patrimoine.fr/monument-historique/76/gaillefontaine/domaine-de-gaillefontaine/PA00100670/",
+    "siteLabel": "Plan du Patrimoine / POP: Domaine de Gaillefontaine",
+    "researchUrl": "/research/places/gaillefontaine.html",
+    "researchSlug": "gaillefontaine",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "type": "ancestor",
+        "gen": "G32",
+        "name": "Gerard de Gournay",
+        "dates": "c. 1040 — d. before 1104, Palestine",
+        "role": "castle delivered to William II Rufus",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g36-hugh-de-gournay-i",
+        "type": "ancestor",
+        "gen": "G36",
+        "name": "Hugh de Gournay I",
+        "dates": "c. 920–940 — dates uncertain",
+        "role": "frontier fortification tradition",
+        "lineageStatus": "Limited Historical Record",
+        "displayLineageStatus": "Limited Historical Record",
+        "url": "/fact-sheets/g36-hugh-de-gournay-i-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 2
+  },
+  {
     "placeId": "place-east-dereham-norfolk-england",
     "name": "East Dereham, Norfolk, England",
     "title": "East Dereham Parish Church",
@@ -2844,6 +3240,195 @@
     "ancestorCount": 2
   },
   {
+    "placeId": "place-ecouche-normandy-france",
+    "name": "Écouché, Normandy, France",
+    "title": "Écouché, Normandy, France",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Normandy, France",
+    "regionGroup": "europe",
+    "aliases": [
+      "Écouché",
+      "Ecouche",
+      "Scoceium",
+      "Écouché-les-Vallées"
+    ],
+    "shortDescription": "Basilia Flaitel maritagium and Gerard pedigree-proof place",
+    "longDescription": "Norman locality / estate context tied to Basilia Flaitel and Gerard de Gournay. Orderic's Écouché passage identifies Gerard as son of Basilia, daughter of Gerard Flaitel, making the place an important maternal-line and pedigree-proof site.",
+    "placeType": "locality / estate context",
+    "extantStatus": "extant locality; medieval estate site unidentified",
+    "extantStatusDescription": "Modern Écouché survives as part of Écouché-les-Vallées and is classed as a Petite Cité de Caractère. The commune preserves medieval heritage including Notre-Dame church and older town fabric, but no exact Gournay / Flaitel castle or maritagium-site footprint has been identified in this pass.",
+    "coordinate": {
+      "lat": 48.717,
+      "lng": -0.125
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "modern locality coordinate; not a verified medieval estate coordinate",
+    "roles": [
+      "maternal family context",
+      "landholding / property reference",
+      "pedigree proof",
+      "maritagium context"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://www.ecouchelesvallees.fr/",
+    "siteLabel": "Écouché-les-Vallées official site",
+    "researchUrl": "/research/places/ecouche.html",
+    "researchSlug": "ecouche",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "type": "ancestor",
+        "gen": "G32",
+        "name": "Gerard de Gournay",
+        "dates": "c. 1040 — d. before 1104, Palestine",
+        "role": "held through Basilia / pedigree proof",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "type": "ancestor",
+        "gen": "G33",
+        "name": "Hugh de Gournay III",
+        "dates": "c. 1020 — d. 1110",
+        "role": "Basilia Flaitel marriage / maritagium context",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 2
+  },
+  {
+    "placeId": "place-fry-eglise-saint-martin-normandy-france",
+    "name": "Église Saint-Martin, Fry, Normandy, France",
+    "title": "Église Saint-Martin",
+    "siteName": "Église Saint-Martin",
+    "streetAddress": "76780 Fry",
+    "region": "Fry, Normandy, France",
+    "regionGroup": "europe",
+    "aliases": [
+      "Fry",
+      "Fry, Seine-Maritime",
+      "Church of Saint-Martin, Fry",
+      "Église Saint-Martin de Fry"
+    ],
+    "shortDescription": "La Ferté endowment church later tied to Sigy",
+    "longDescription": "Church at Fry tied to the La Ferté / Sigy ecclesiastical network. Local history states that Gautier de La Ferté, son of Renaud de Gournay, ceded the church to the canons of La Ferté-en-Bray and that it returned to the Abbey of Sigy in 1040.",
+    "placeType": "church / ecclesiastical endowment",
+    "extantStatus": "extant church; oldest visible fabric mostly later medieval",
+    "extantStatusDescription": "The church survives. Sauvegarde de l’Art Français describes a 13th-century choir, with other parts from the 16th and 18th centuries. MonVillageNormand gives the same broad fabric history and exact GPS coordinates. No source in this pass proves surviving 10th-century fabric.",
+    "coordinate": {
+      "lat": 49.530369,
+      "lng": 1.526414
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "MonVillageNormand church coordinate",
+    "roles": [
+      "ecclesiastical endowment",
+      "La Ferté foundation context",
+      "Sigy reversion context"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://www.sauvegardeartfrancais.fr/projets/fry/",
+    "siteLabel": "Sauvegarde de l’Art Français: Fry, Église Saint-Martin",
+    "researchUrl": "/research/places/fry-eglise-saint-martin.html",
+    "researchSlug": "fry-eglise-saint-martin",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "type": "ancestor",
+        "gen": "G35",
+        "name": "Renaud de Gournay",
+        "dates": "c. 970 — dates uncertain",
+        "role": "Gautier de La Ferté / church endowment context",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g35-renaud-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "type": "ancestor",
+        "gen": "G34",
+        "name": "Hugh de Gournay II",
+        "dates": "c. 985 — d. c. 1074",
+        "role": "La Ferté charter family context",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g34-hugh-de-gournay-ii-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 2
+  },
+  {
+    "placeId": "place-priory-saint-pierre-saint-paul-la-ferte-en-bray-normandy-france",
+    "name": "Priory / Church of Saint-Pierre-et-Saint-Paul, La Ferté-en-Bray, Normandy, France",
+    "title": "Église Saint-Pierre et Saint-Paul de La Ferté",
+    "siteName": "Église Saint-Pierre et Saint-Paul de La Ferté",
+    "streetAddress": "76440 La Ferté-Saint-Samson",
+    "region": "La Ferté-en-Bray, Normandy, France",
+    "regionGroup": "europe",
+    "aliases": [
+      "Saint-Pierre-et-Saint-Paul, La Ferté-en-Bray",
+      "Église Saint-Pierre et Saint-Paul de La Ferté",
+      "Priory of La Ferté-en-Bray",
+      "La Ferté priory",
+      "Church of Saints Peter and Paul, La Ferté"
+    ],
+    "shortDescription": "Priory and church foundation site of the 989–996 Gournay charter",
+    "longDescription": "Church / priory foundation site tied to the 989–996 charter of Gautier de La Ferté, younger son of Renaud de Gournay. The charter names Renaud, Alberade, and Hugh and is the earliest surviving documentary anchor for the early Lords of Gournay.",
+    "placeType": "priory / church",
+    "extantStatus": "extant church; possible original apse",
+    "extantStatusDescription": "The church survives. MonVillageNormand states that the first edifice was built between 989 and 996 and that the apse remains from that first building. The official patrimony page says the church was founded in the 10th century, around 990, by Gautier, and that only the original apse remains; the rest of the building is mostly 16th century, with the nave from 1846.",
+    "coordinate": {
+      "lat": 49.57795,
+      "lng": 1.527104
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "church / historic priory-site coordinate",
+    "roles": [
+      "charter foundation site",
+      "ecclesiastical site",
+      "documentary pedigree anchor",
+      "cadet-line foundation"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://www.lafertesaintsamson.com/decouvertes/patrimoine-%C3%A0-voir/",
+    "siteLabel": "La Ferté-Saint-Samson patrimony page",
+    "researchUrl": "/research/places/priory-saint-pierre-saint-paul-la-ferte.html",
+    "researchSlug": "priory-saint-pierre-saint-paul-la-ferte",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "type": "ancestor",
+        "gen": "G35",
+        "name": "Renaud de Gournay",
+        "dates": "c. 970 — dates uncertain",
+        "role": "named as father in foundation charter",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g35-renaud-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "type": "ancestor",
+        "gen": "G34",
+        "name": "Hugh de Gournay II",
+        "dates": "c. 985 — d. c. 1074",
+        "role": "identified with the consenting brother Hugh in charter context",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g34-hugh-de-gournay-ii-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 2
+  },
+  {
     "placeId": "place-flegg-norfolk-england",
     "name": "Flegg, Norfolk, England",
     "title": "Flegg, Norfolk, England",
@@ -2897,6 +3482,192 @@
         "lineageStatus": "Related",
         "displayLineageStatus": "Related",
         "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 2
+  },
+  {
+    "placeId": "place-g33-bec-gournay-endowment-cluster-pays-de-bray-france",
+    "name": "G33 Bec / Gournay endowment cluster, Pays de Bray, France",
+    "title": "G33 Bec / Gournay endowment cluster, Pays de Bray, France",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Pays de Bray, France",
+    "regionGroup": "europe",
+    "aliases": [
+      "Hugh III Bec endowment cluster",
+      "Gournay-Bec donation geography",
+      "Bosc-Girard, Braimontier, Elbeuf-en-Bray, La Rozière, Merval, Lodencourt",
+      "Bec tithes of Gournay, La Ferté, Gaillefontaine, Merval, Lodencourt"
+    ],
+    "shortDescription": "Aggregate property and tithe geography donated by Hugh III and Basilia to Bec",
+    "longDescription": "Aggregate record for the Pays de Bray / Gournay-side property, tithe, church, house, and milling-right geography associated with Hugh de Gournay III and Basilia Flaitel's donations to the Abbey of Bec.",
+    "placeType": "aggregate ecclesiastical endowment",
+    "extantStatus": "aggregate historical endowment cluster; component places vary",
+    "extantStatusDescription": "The cluster includes named towns, churches, tithes, houses, and milling rights. Some component localities survive clearly, while others require modern identification before precise place records are created.",
+    "coordinate": {
+      "lat": 49.54,
+      "lng": 1.6
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "approximate regional map anchor in the Gournay / Pays de Bray area; not a single site coordinate",
+    "roles": [
+      "ecclesiastical endowment",
+      "tithe / revenue geography",
+      "landholding / property reference",
+      "monastic patronage"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/g33-bec-gournay-endowment-cluster.html",
+    "researchSlug": "g33-bec-gournay-endowment-cluster",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "type": "ancestor",
+        "gen": "G33",
+        "name": "Hugh de Gournay III",
+        "dates": "c. 1020 — d. 1110",
+        "role": "donor / monastic patron",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "type": "ancestor",
+        "gen": "G32",
+        "name": "Gerard de Gournay",
+        "dates": "c. 1040 — d. before 1104, Palestine",
+        "role": "inherited Bec patronage context",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 2
+  },
+  {
+    "placeId": "place-la-ferte-foundation-endowment-cluster-pays-de-bray-france",
+    "name": "La Ferté foundation endowment cluster, Pays de Bray, France",
+    "title": "La Ferté foundation endowment cluster, Pays de Bray, France",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Pays de Bray, France",
+    "regionGroup": "europe",
+    "aliases": [
+      "La Ferté charter church endowments",
+      "Fry, Argueil, Saint-Samson, Boulay, Bruquedale",
+      "Five churches of the La Ferté foundation"
+    ],
+    "shortDescription": "Five church endowments named in the La Ferté foundation charter",
+    "longDescription": "Aggregate record for the five churches / localities named in the La Ferté-en-Bray foundation charter: Fry, Argueil, Saint-Samson, Boulay, and Bruquedale. This record prevents loss of the endowment geography while individual place identifications are verified.",
+    "placeType": "aggregate ecclesiastical endowment",
+    "extantStatus": "aggregate historical endowment cluster; component localities vary",
+    "extantStatusDescription": "Fry has been promoted to its own high-priority record. Argueil appears identifiable but still needs a stronger source pull. Saint-Samson, Boulay, and Bruquedale need further identity review before precise individual records are created.",
+    "coordinate": {
+      "lat": 49.56,
+      "lng": 1.56
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "approximate regional centroid near La Ferté / Fry / Argueil; not a single site coordinate",
+    "roles": [
+      "ecclesiastical endowment",
+      "charter foundation context",
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/la-ferte-foundation-endowment-cluster.html",
+    "researchSlug": "la-ferte-foundation-endowment-cluster",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "type": "ancestor",
+        "gen": "G35",
+        "name": "Renaud de Gournay",
+        "dates": "c. 970 — dates uncertain",
+        "role": "named family context in La Ferté charter",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g35-renaud-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "type": "ancestor",
+        "gen": "G34",
+        "name": "Hugh de Gournay II",
+        "dates": "c. 985 — d. c. 1074",
+        "role": "consenting brother / charter context",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g34-hugh-de-gournay-ii-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 2
+  },
+  {
+    "placeId": "place-montigny-sur-andelle-normandy-france",
+    "name": "Montigny-sur-Andelle, Normandy, France",
+    "title": "Montigny-sur-Andelle, Normandy, France",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Normandy, France",
+    "regionGroup": "europe",
+    "aliases": [
+      "Montigny-sur-Andelle",
+      "Montigny sur Andelle",
+      "Montigny, Normandy"
+    ],
+    "shortDescription": "Parage tenure locality and junior-line proof-place",
+    "longDescription": "Montigny-sur-Andelle parage tenure, cited by Daniel Gurney and Hannay as strong legal proof that William de Gournay I and the junior Norfolk line were of the blood of the Barons of Gournay.",
+    "placeType": "historic fief / locality",
+    "extantStatus": "historic fief / locality; exact modern site identity requires verification",
+    "extantStatusDescription": "The place is already represented in the repo as a medium-precision locality. Keep it as a proof-place but do not upgrade coordinate precision until the Registres Olim passage and modern place identity are verified.",
+    "coordinate": {
+      "lat": 49.327,
+      "lng": 1.352
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "existing repo coordinate; modern identity and exact fief geography require verification",
+    "roles": [
+      "landholding / property reference",
+      "parage tenure",
+      "pedigree proof",
+      "junior-line proof-place"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/montigny-sur-andelle.html",
+    "researchSlug": "montigny-sur-andelle",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g30-william-de-gournay-i",
+        "type": "ancestor",
+        "gen": "G30",
+        "name": "Sir William de Gournay I, Knt.",
+        "dates": "fl. c. 1150–1180",
+        "role": "held in parage",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g30-william-de-gournay-i-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g31-walter-de-gournay",
+        "type": "ancestor",
+        "gen": "G31",
+        "name": "Walter de Gournay",
+        "dates": "fl. c. 1108–1154",
+        "role": "blood-descent proof context",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g31-walter-de-gournay-fact-sheet.html"
       }
     ],
     "ancestorCount": 2
@@ -3051,7 +3822,7 @@
         "type": "ancestor",
         "gen": "G37",
         "name": "Eudes (Odon) de Gournay",
-        "dates": "c. 860 — d. after 911",
+        "dates": "c. 860 — d. after 911, before c. 932",
         "role": "individual geography",
         "lineageStatus": "Minimal historical record",
         "displayLineageStatus": "Minimal historical record",
@@ -3302,47 +4073,56 @@
     "ancestorCount": 1
   },
   {
-    "placeId": "place-le-bec-hellouin-normandy-france",
-    "name": "Le Bec-Hellouin, Normandy, France",
-    "title": "Abbey of Bec",
-    "siteName": "Abbey of Bec",
-    "streetAddress": "",
-    "region": "Normandy, France",
+    "placeId": "place-sigy-saint-martin-priory-normandy-france",
+    "name": "Sigy / Abbaye Saint-Martin, Sigy-en-Bray, Normandy, France",
+    "title": "Abbaye Saint-Martin / Église abbatiale Saint-Martin",
+    "siteName": "Abbaye Saint-Martin / Église abbatiale Saint-Martin",
+    "streetAddress": "Rue de l'Abbaye, 76780 Sigy-en-Bray",
+    "region": "Sigy-en-Bray, Normandy, France",
     "regionGroup": "europe",
     "aliases": [
-      "Le Bec-Hellouin, Normandy"
+      "Sigy",
+      "Sigi",
+      "Sigy-en-Bray",
+      "Abbaye Saint-Martin",
+      "Église abbatiale Saint-Martin",
+      "Priory of Sigy",
+      "Saint-Martin de Sigy",
+      "Saint-Vulgain"
     ],
-    "shortDescription": "Abbey burial site",
-    "longDescription": "Abbey of Bec, endowed by the Gournays and associated with Hugh III's burial.",
-    "placeType": "locality",
-    "extantStatus": "extant",
-    "extantStatusDescription": "The abbey complex still stands and anchors the historic burial and endowment site.",
+    "shortDescription": "La Ferté cadet-line priory and church site",
+    "longDescription": "Early La Ferté / Gournay cadet-line ecclesiastical site. Pettigrew and later summaries place Sigy near La Ferté and tie its foundation to Hugues de La Ferté; Normandy Abbeys describes the abbey's history as closely tied to the lords of La Ferté, descendants of the Gournay family.",
+    "placeType": "abbey / priory / church",
+    "extantStatus": "extant former abbey church / parish church",
+    "extantStatusDescription": "The former abbey church survives as a parish church and Monument Historique. Normandie Tourisme describes the visible building as a fine 13th-century former abbey church with early Gothic choir and seven-sided apse. Normandy Abbeys says the first church was probably burned in the 12th century and has not been preserved, while the local tourism office / MonVillageNormand states that the nave survives from the early abbey phase. Treat early-fabric survival as uncertain unless a stronger architectural source resolves the conflict.",
     "coordinate": {
-      "lat": 49.2288,
-      "lng": 0.722
+      "lat": 49.547222,
+      "lng": 1.491389
     },
-    "coordinatePrecision": "exact",
-    "coordinateBasis": "exact abbey site",
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "modern commune / church-locality coordinate; refine to exact church coordinate if found",
     "roles": [
-      "landholding / property reference"
+      "ecclesiastical site",
+      "cadet-line landholding context",
+      "charter / reversion context"
     ],
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg/500px-Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg",
-    "imageTitle": "Bec Abbey",
-    "siteUrl": "https://abbayedubec.org/",
-    "siteLabel": "Abbey site",
-    "researchUrl": "/research/places/le-bec-hellouin.html",
-    "researchSlug": "le-bec-hellouin",
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://www.normandie-tourisme.fr/sites-lieux-de-visites/abbaye-saint-martin/",
+    "siteLabel": "Normandie Tourisme: Abbaye Saint-Martin",
+    "researchUrl": "/research/places/sigy-normandy.html",
+    "researchSlug": "sigy-normandy",
     "ancestorLinks": [
       {
-        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "recordId": "ancestor-g35-renaud-de-gournay",
         "type": "ancestor",
-        "gen": "G33",
-        "name": "Hugh de Gournay III",
-        "dates": "c. 1020 — d. c. 1093",
-        "role": "landholding / property reference",
+        "gen": "G35",
+        "name": "Renaud de Gournay",
+        "dates": "c. 970 — dates uncertain",
+        "role": "La Ferté cadet-line descendant context",
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
-        "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html"
+        "url": "/fact-sheets/g35-renaud-de-gournay-fact-sheet.html"
       }
     ],
     "ancestorCount": 1
@@ -3384,7 +4164,7 @@
         "type": "ancestor",
         "gen": "G33",
         "name": "Hugh de Gournay III",
-        "dates": "c. 1020 — d. c. 1093",
+        "dates": "c. 1020 — d. 1110",
         "role": "landholding / property reference",
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
@@ -3672,48 +4452,114 @@
     "ancestorCount": 1
   },
   {
-    "placeId": "place-la-ferte-en-bray-normandy-france",
-    "name": "La Ferté-en-Bray, Normandy, France",
-    "title": "Église Saint-Pierre-et-Saint-Paul",
-    "siteName": "Église Saint-Pierre-et-Saint-Paul",
-    "streetAddress": "",
-    "region": "Normandy, France",
+    "placeId": "place-collegiale-saint-hildevert-gournay-en-bray-normandy-france",
+    "name": "Collégiale Saint-Hildevert, Gournay-en-Bray, Normandy, France",
+    "title": "Collégiale Saint-Hildevert",
+    "siteName": "Collégiale Saint-Hildevert",
+    "streetAddress": "Esplanade de l'Église, 76220 Gournay-en-Bray",
+    "region": "Gournay-en-Bray, Normandy, France",
     "regionGroup": "europe",
     "aliases": [
-      "La Ferte-en-Bray",
-      "La Ferté-en-Bray, Normandy"
+      "Collégiale Saint-Hildevert",
+      "Saint-Hildevert, Gournay-en-Bray",
+      "Church of Saint-Hildevert",
+      "St Hildevert, Gournay",
+      "Église Saint-Hildebert"
     ],
-    "shortDescription": "Priory foundation locality",
-    "longDescription": "Priory foundation site whose 989–996 charter first names Renaud de Gournay, Alberade, Hugh, and Gautier.",
-    "placeType": "locality",
-    "extantStatus": "site only",
-    "extantStatusDescription": "Former priory no longer stands; the parish church of Saint-Pierre-et-Saint-Paul occupies or adjoins the historic core.",
+    "shortDescription": "Surviving collegiate church at the Gournay family seat",
+    "longDescription": "Surviving collegiate church at Gournay-en-Bray and the most visible ecclesiastical monument of the Gournay family seat. The church is important both as a medieval architectural survivor and as the focal ecclesiastical site near the old seigneurial fortifications.",
+    "placeType": "church / collegiate church",
+    "extantStatus": "extant",
+    "extantStatusDescription": "The church survives as a major medieval monument. Normandie Tourisme describes a 12th-century Romanesque and Gothic church, burned in 1174, with the Saint-Joseph chapel preserving Romanesque nave walls, barrel vault, and painted capitals. Monumentum / Mérimée-derived data says the 12th-century church was built on the remains of a 10th- or 11th-century building. The surviving fabric is therefore mostly later than G36 but still medieval and highly relevant to the senior Gournay seat.",
     "coordinate": {
-      "lat": 49.57795,
-      "lng": 1.527104
+      "lat": 49.483016,
+      "lng": 1.728259
     },
     "coordinatePrecision": "high",
-    "coordinateBasis": "historic parish church / former La Ferté-en-Bray core",
+    "coordinateBasis": "church site coordinate",
     "roles": [
-      "landholding / property reference"
+      "ecclesiastical site",
+      "architectural monument",
+      "family patronage context",
+      "historic town-core anchor"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg",
+    "imageTitle": "Collégiale Saint-Hildevert, Gournay-en-Bray",
+    "siteUrl": "https://www.normandie-tourisme.fr/sites-lieux-de-visites/collegiale-saint-hildevert/",
+    "siteLabel": "Normandie Tourisme: Collégiale Saint-Hildevert",
+    "researchUrl": "/research/places/collegiale-saint-hildevert-gournay.html",
+    "researchSlug": "collegiale-saint-hildevert-gournay",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g36-hugh-de-gournay-i",
+        "type": "ancestor",
+        "gen": "G36",
+        "name": "Hugh de Gournay I",
+        "dates": "c. 920–940 — dates uncertain",
+        "role": "nearby La Tour Hue / citadel context",
+        "lineageStatus": "Limited Historical Record",
+        "displayLineageStatus": "Limited Historical Record",
+        "url": "/fact-sheets/g36-hugh-de-gournay-i-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-conquets-hue-de-gournay-beauvaisis-france",
+    "name": "Conquêts Hue de Gournay / Beauvaisis frontier acquisitions, France",
+    "title": "Conquêts Hue de Gournay / Beauvaisis frontier acquisitions, France",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "France",
+    "regionGroup": "europe",
+    "aliases": [
+      "Conquêts Hue de Gournay",
+      "Les Conquêts Hue de Gournay",
+      "Beauvaisis frontier acquisitions",
+      "24 villages",
+      "twenty-four parishes",
+      "twenty-four villages",
+      "Conquests of Hugh de Gournay",
+      "Specialties of Beauvaisis",
+      "Speciautez de Beauvoisis",
+      "Vingt quatre Paroisses, Hameaux & Villages",
+      "Paroisses au-delà de l'Epte"
+    ],
+    "shortDescription": "Aggregate frontier-acquisition block east of the Epte",
+    "longDescription": "Aggregate territorial place for the twenty-four parishes, hamlets, and villages beyond the Epte associated with the Conquêts Hue de Gournay. The current library should represent this as one territorial block rather than twenty-four separate records until the individual modern identifications are stable.",
+    "placeType": "territorial block / aggregate landholding",
+    "extantStatus": "historical territorial block; modern component villages survive in whole or part",
+    "extantStatusDescription": "Historical territorial block / local customary-law geography. The modern component villages and hamlets survive in whole or part, but the medieval jurisdictional boundary is reconstructed rather than surveyed. Projet ConDÉ preserves the customary-law heading listing the twenty-four parishes, hamlets, and villages beyond the Epte, under the jurisdiction of Gournay, called the Conquêts Hue de Gournay and specialties of Beauvaisis.",
+    "coordinate": {
+      "lat": 49.5556,
+      "lng": 1.7988
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "approximate centroid of existing repo Beauvaisis-acquisitions reconstruction polygon; use `research/geo/hugh_de_gournay_reconstructed_holdings.geojson` for map polygon",
+    "roles": [
+      "landholding / property reference",
+      "frontier acquisition",
+      "territorial expansion",
+      "dual-vassalage context",
+      "customary-law geography"
     ],
     "imageUrl": "",
     "imageTitle": "",
-    "siteUrl": "https://tourismedes4rivieresenbray.com/la-ferte-saint-samson/",
-    "siteLabel": "Local history page",
-    "researchUrl": "/research/places/la-ferte-en-bray.html",
-    "researchSlug": "la-ferte-en-bray",
+    "siteUrl": "https://pdn-lingua.unicaen.fr/coutumiers/conde/pesnelle_lighter.xml/pesnelle-lighter-beta-002-007.html",
+    "siteLabel": "Projet ConDÉ: Coutumes et usages des Conquêts Hue de Gournay",
+    "researchUrl": "/research/places/beauvaisis-frontier-acquisitions.html",
+    "researchSlug": "beauvaisis-frontier-acquisitions",
     "ancestorLinks": [
       {
-        "recordId": "ancestor-g35-renaud-de-gournay",
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
         "type": "ancestor",
-        "gen": "G35",
-        "name": "Renaud de Gournay",
-        "dates": "c. 970 — dates uncertain",
-        "role": "landholding / property reference",
+        "gen": "G33",
+        "name": "Hugh de Gournay III",
+        "dates": "c. 1020 — d. 1110",
+        "role": "traditional acquirer of the 24 villages",
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
-        "url": "/fact-sheets/g35-renaud-de-gournay-fact-sheet.html"
+        "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html"
       }
     ],
     "ancestorCount": 1
@@ -3755,7 +4601,7 @@
         "type": "ancestor",
         "gen": "G33",
         "name": "Hugh de Gournay III",
-        "dates": "c. 1020 — d. c. 1093",
+        "dates": "c. 1020 — d. 1110",
         "role": "individual geography",
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
@@ -3801,7 +4647,7 @@
         "type": "ancestor",
         "gen": "G33",
         "name": "Hugh de Gournay III",
-        "dates": "c. 1020 — d. c. 1093",
+        "dates": "c. 1020 — d. 1110",
         "role": "landholding / property reference",
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
@@ -4077,7 +4923,7 @@
         "type": "ancestor",
         "gen": "G33",
         "name": "Hugh de Gournay III",
-        "dates": "c. 1020 — d. c. 1093",
+        "dates": "c. 1020 — d. 1110",
         "role": "landholding / property reference",
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
@@ -4128,52 +4974,6 @@
         "lineageStatus": "Probable",
         "displayLineageStatus": "Probable",
         "url": "/key-research/john-gurney-case-file.html"
-      }
-    ],
-    "ancestorCount": 1
-  },
-  {
-    "placeId": "place-montigny-sur-andelle-normandy-france",
-    "name": "Montigny-sur-Andelle, Normandy, France",
-    "title": "Montigny-sur-Andelle, Normandy, France",
-    "siteName": "",
-    "streetAddress": "",
-    "region": "Normandy, France",
-    "regionGroup": "europe",
-    "aliases": [
-      "Montigny-sur-Andelle, Normandy"
-    ],
-    "shortDescription": "Parage tenure locality",
-    "longDescription": "Montigny-sur-Andelle parage tenure, cited as proof of junior-line descent from the Barons of Gournay.",
-    "placeType": "locality",
-    "extantStatus": "unknown",
-    "extantStatusDescription": "",
-    "coordinate": {
-      "lat": 49.327,
-      "lng": 1.352
-    },
-    "coordinatePrecision": "medium",
-    "coordinateBasis": "town centroid",
-    "roles": [
-      "landholding / property reference"
-    ],
-    "imageUrl": "",
-    "imageTitle": "",
-    "siteUrl": "",
-    "siteLabel": "",
-    "researchUrl": "/research/places/montigny-sur-andelle.html",
-    "researchSlug": "montigny-sur-andelle",
-    "ancestorLinks": [
-      {
-        "recordId": "ancestor-g30-william-de-gournay-i",
-        "type": "ancestor",
-        "gen": "G30",
-        "name": "Sir William de Gournay I, Knt.",
-        "dates": "fl. c. 1150–1180",
-        "role": "landholding / property reference",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g30-william-de-gournay-i-fact-sheet.html"
       }
     ],
     "ancestorCount": 1
