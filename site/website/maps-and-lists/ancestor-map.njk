@@ -89,6 +89,28 @@ updated: 25 April 2026
           {% endfor %}
         {% endif %}
       {% endfor %}
+      {% for place in placesCatalog %}
+        {% if place.coordinate and place.coordinate.lat and place.coordinate.lng and (place.regionGroup == "europe" or place.regionGroup == "england") %}
+          <span data-map-point
+                data-record-type="place"
+                data-kind="registry"
+                data-gen="Place"
+                data-name="Place inventory"
+                data-dates=""
+                data-era=""
+                data-era-class=""
+                data-color="#4d6f7f"
+                data-place="{{ place.siteName or place.title }}"
+                data-place-id="{{ place.placeId }}"
+                data-region="{{ place.region }}"
+                data-event="{{ place.roles | join('; ') or place.placeType }}"
+                data-description="{{ place.longDescription or place.shortDescription }}"
+                data-lat="{{ place.coordinate.lat }}"
+                data-lng="{{ place.coordinate.lng }}"
+                data-place-url="{% if place.researchUrl %}{{ place.researchUrl }}{% else %}/maps-and-lists/places.html{% endif %}"
+                data-person-url=""></span>
+        {% endif %}
+      {% endfor %}
     </div>
   </section>
 </div>

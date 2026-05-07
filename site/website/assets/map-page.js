@@ -3,7 +3,7 @@
   if (!page || !window.L) return;
 
   const canvas = page.querySelector("[data-map-canvas]");
-  const points = Array.from(page.querySelectorAll("[data-map-point]"))
+  const allPoints = Array.from(page.querySelectorAll("[data-map-point]"))
     .map(point => ({
       recordType: point.dataset.recordType,
       kind: point.dataset.kind,
@@ -24,6 +24,13 @@
       personUrl: point.dataset.personUrl,
     }))
     .filter(point => Number.isFinite(point.lat) && Number.isFinite(point.lng));
+  const mappedPlaceIds = new Set(
+    allPoints
+      .filter(point => point.recordType !== "place")
+      .map(point => point.placeId)
+      .filter(Boolean)
+  );
+  const points = allPoints.filter(point => point.recordType !== "place" || !mappedPlaceIds.has(point.placeId));
 
   const relatedButtons = Array.from(page.querySelectorAll("[data-map-related]"));
   const kindButtons = Array.from(page.querySelectorAll("[data-map-kind]"));
@@ -99,6 +106,15 @@
 
   function popup(group) {
     const placeLink = group.placeUrl ? `<a href="${escapeHtml(group.placeUrl)}">${escapeHtml(group.place)}</a>` : escapeHtml(group.place);
+    if (group.recordType === "place") {
+      return `<div class="map-popup">
+        <strong>${placeLink}</strong>
+        <span>${escapeHtml(group.region)}</span>
+        <span>${escapeHtml(group.event)}</span>
+        <p>${escapeHtml(group.description)}</p>
+      </div>`;
+    }
+
     const compactPeople = group.people.length > 2;
     const people = group.people
       .map(point => `<li>${personLine(point, compactPeople)}</li>`)
@@ -114,7 +130,16 @@
   }
 
   function makeMarker(group) {
-    const marker = group.kind === "property"
+    const marker = group.kind === "registry"
+      ? window.L.circleMarker([group.lat, group.lng], {
+          radius: 4.5,
+          color: "#2f5e74",
+          weight: 1.5,
+          fillColor: group.color,
+          fillOpacity: 0.62,
+          pane: "gurneyMarkerPane",
+        })
+      : group.kind === "property"
       ? window.L.marker([group.lat, group.lng], {
           pane: "gurneyMarkerPane",
           icon: window.L.divIcon({
@@ -133,7 +158,7 @@
           pane: "gurneyMarkerPane",
         });
     marker.bindPopup(popup(group));
-    marker.bindTooltip(group.people.length > 1 ? `${group.people.length} records: ${group.place}` : `${group.people[0].gen} ${group.place}`);
+    marker.bindTooltip(group.recordType === "place" ? group.place : group.people.length > 1 ? `${group.people.length} records: ${group.place}` : `${group.people[0].gen} ${group.place}`);
     marker.__point = group;
     return marker;
   }
