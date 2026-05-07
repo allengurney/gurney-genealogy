@@ -45,21 +45,18 @@ updated: 25 April 2026
       <button type="button" data-map-kind="person" aria-pressed="false">Person geography</button>
       <button type="button" data-map-kind="property" aria-pressed="false">Properties</button>
     </div>
-    <span class="result-count" data-map-count></span>
-  </div>
-
-  <div class="catalog-toolbar map-toolbar map-overlay-toolbar">
-    <div class="overlay-toggle-group" role="group" aria-label="Gournay holdings overlay layers">
-      <label><input type="checkbox" data-overlay-toggle="older-gournay-core" checked> Older Gournay core</label>
-      <label><input type="checkbox" data-overlay-toggle="beauvaisis-24-villages" checked> Beauvaisis / 24 villages</label>
-      <label><input type="checkbox" data-overlay-toggle="expanded-24-village-buffer" checked> Expanded 24-village buffer</label>
-      <label><input type="checkbox" data-overlay-toggle="frontier-corridor" checked> Frontier corridor</label>
-      <label><input type="checkbox" data-overlay-toggle="pays-de-bray-context" checked> Pays de Bray context</label>
-      <label><input type="checkbox" data-overlay-toggle="network-envelope" checked> Network envelope</label>
-      <label><input type="checkbox" data-overlay-toggle="individual-buffers" checked> Individual buffers</label>
-      <label><input type="checkbox" data-overlay-toggle="epte-frontier-line" checked> Epte frontier line</label>
-      <button type="button" class="overlay-toggle-action" data-overlay-zoom>Zoom to overlays</button>
+    <div class="map-overlay-menu" data-overlay-menu>
+      <button type="button" class="overlay-menu-button" data-overlay-menu-button aria-haspopup="true" aria-expanded="false">Overlays</button>
+      <div class="overlay-menu-panel" data-overlay-menu-panel hidden>
+        <label><input type="checkbox" data-overlay-toggle="older-gournay-core" checked> Older Gournay core</label>
+        <label><input type="checkbox" data-overlay-toggle="beauvaisis-24-villages" checked> Beauvaisis / 24 villages</label>
+        <label><input type="checkbox" data-overlay-toggle="frontier-corridor" checked> Frontier corridor</label>
+        <label><input type="checkbox" data-overlay-toggle="pays-de-bray-context" checked> Pays de Bray context</label>
+        <label><input type="checkbox" data-overlay-toggle="network-envelope" checked> Network envelope</label>
+        <label><input type="checkbox" data-overlay-toggle="epte-frontier-line" checked> Epte frontier line</label>
+      </div>
     </div>
+    <span class="result-count" data-map-count></span>
   </div>
 
   <section class="map-shell">

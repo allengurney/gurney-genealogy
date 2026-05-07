@@ -28,18 +28,19 @@
   const relatedButtons = Array.from(page.querySelectorAll("[data-map-related]"));
   const kindButtons = Array.from(page.querySelectorAll("[data-map-kind]"));
   const eraButtons = Array.from(page.querySelectorAll("[data-map-era]"));
+  const overlayMenu = page.querySelector("[data-overlay-menu]");
+  const overlayMenuButton = page.querySelector("[data-overlay-menu-button]");
+  const overlayMenuPanel = page.querySelector("[data-overlay-menu-panel]");
   const overlayToggles = Array.from(page.querySelectorAll("[data-overlay-toggle]"));
-  const overlayZoomButton = page.querySelector("[data-overlay-zoom]");
   const countNode = page.querySelector("[data-map-count]");
   const markers = [];
   const overlayLayers = new Map();
-  const overlayGeometries = new Set(["Polygon", "MultiPolygon", "LineString", "MultiLineString"]);
+  const overlayGeometries = new Set(["Polygon", "MultiPolygon", "LineString", "MultiLineString", "Point", "MultiPoint"]);
   const params = new URLSearchParams(window.location.search);
   const requestedPlaceId = params.get("place");
   let includeRelated = false;
   let kind = "all";
   let era = "all";
-  let overlayBounds = null;
 
   function escapeHtml(value) {
     return String(value || "")
@@ -57,6 +58,9 @@
 
   const holdingsPane = map.createPane("gournayHoldingsPane");
   holdingsPane.style.zIndex = 350;
+
+  const overlayPointPane = map.createPane("gournayOverlayPointPane");
+  overlayPointPane.style.zIndex = 575;
 
   const markerPane = map.createPane("gurneyMarkerPane");
   markerPane.style.zIndex = 650;
@@ -144,14 +148,57 @@
   function overlayGroup(feature) {
     const id = feature.id || "";
     const featureType = feature.properties && feature.properties.feature_type;
-    if (id === "older_gournay_core_repo") return "older-gournay-core";
-    if (id === "beauvaisis_24_villages_repo") return "beauvaisis-24-villages";
-    if (id === "beauvaisis_24_villages_expanded_3km") return "expanded-24-village-buffer";
-    if (id === "gournay_la_ferte_gaillefontaine_frontier_corridor") return "frontier-corridor";
-    if (id === "pays_de_bray_context_envelope") return "pays-de-bray-context";
-    if (id === "norman_gournay_landholding_network_envelope") return "network-envelope";
+
+    if ([
+      "older_gournay_core_repo",
+      "buffer_gournay_4km",
+      "point_gournay_en_bray",
+      "point_ferrieres_en_bray",
+      "point_cuy_saint_fiacre",
+    ].includes(id)) return "older-gournay-core";
+
+    if ([
+      "beauvaisis_24_villages_repo",
+      "beauvaisis_24_villages_expanded_3km",
+      "point_beauvaisis_acquisitions_centroid",
+      "point_molagnies",
+      "point_gancourt_saint_etienne",
+      "point_saint_quentin_des_pres",
+      "point_sully",
+      "point_hericourt_sur_therain",
+      "point_songeons",
+      "point_loueuse",
+      "point_beauvais",
+    ].includes(id)) return "beauvaisis-24-villages";
+
+    if ([
+      "gournay_la_ferte_gaillefontaine_frontier_corridor",
+      "buffer_la_ferte_3km",
+      "buffer_gaillefontaine_4km",
+      "buffer_sigy_2km",
+      "buffer_fry_1_5km",
+      "point_la_ferte_saint_samson_la_ferte_en_bray",
+      "point_gaillefontaine",
+      "point_sigy_abbaye_saint_martin",
+      "point_fry_eglise_saint_martin",
+    ].includes(id)) return "frontier-corridor";
+
+    if ([
+      "pays_de_bray_context_envelope",
+      "point_pays_de_bray_centroid",
+    ].includes(id)) return "pays-de-bray-context";
+
+    if ([
+      "norman_gournay_landholding_network_envelope",
+      "buffer_montigny_3km",
+      "buffer_ecouche_2_5km",
+      "point_montigny_sur_andelle",
+      "point_ecouche",
+      "point_abbey_of_bec_le_bec_hellouin",
+    ].includes(id)) return "network-envelope";
+
     if (id === "epte_frontier_line") return "epte-frontier-line";
-    if (featureType === "source_point_buffer" || id.startsWith("buffer_")) return "individual-buffers";
+    if (featureType === "source_point_buffer" || id.startsWith("buffer_")) return "network-envelope";
     return "";
   }
 
@@ -174,6 +221,25 @@
     }
 
     return style;
+  }
+
+  function overlayPointStyle(feature) {
+    const properties = feature.properties || {};
+    const sourceStyle = properties.style || {};
+    const color = sourceStyle.markerColor || sourceStyle.color || "#7a4b16";
+    const listedPlace = properties.feature_type === "listed_place";
+    const centroid = String(properties.feature_type || "").includes("centroid");
+
+    return {
+      pane: "gournayOverlayPointPane",
+      radius: centroid ? 4 : listedPlace ? 4.5 : 5.5,
+      color,
+      weight: centroid ? 1.5 : 2,
+      opacity: 0.9,
+      fillColor: "#ffffff",
+      fillOpacity: centroid ? 0.55 : 0.85,
+      dashArray: centroid ? "3 3" : null,
+    };
   }
 
   function overlayPopup(feature) {
@@ -216,6 +282,13 @@
     if (!enabled && map.hasLayer(layer)) map.removeLayer(layer);
   }
 
+  function setOverlayMenuOpen(open) {
+    if (!overlayMenu || !overlayMenuButton || !overlayMenuPanel) return;
+    overlayMenu.classList.toggle("is-open", open);
+    overlayMenuButton.setAttribute("aria-expanded", open ? "true" : "false");
+    overlayMenuPanel.hidden = !open;
+  }
+
   function renderHoldingOverlays(data) {
     const groups = Array.from(new Set(overlayToggles.map(toggle => toggle.dataset.overlayToggle)));
     groups.forEach(group => {
@@ -223,6 +296,7 @@
         pane: "gournayHoldingsPane",
         filter: feature => overlayGeometries.has(feature.geometry && feature.geometry.type) && overlayGroup(feature) === group,
         style: overlayStyle,
+        pointToLayer: (feature, latlng) => window.L.circleMarker(latlng, overlayPointStyle(feature)),
         onEachFeature: (feature, layer) => {
           const name = feature.properties && feature.properties.name;
           layer.bindPopup(overlayPopup(feature));
@@ -231,10 +305,6 @@
       });
 
       overlayLayers.set(group, layer);
-
-      if (layer.getBounds && layer.getBounds().isValid()) {
-        overlayBounds = overlayBounds ? overlayBounds.extend(layer.getBounds()) : layer.getBounds();
-      }
 
       const toggle = overlayToggles.find(item => item.dataset.overlayToggle === group);
       if (!toggle || toggle.checked) {
@@ -320,11 +390,15 @@
     });
   });
 
-  if (overlayZoomButton) {
-    overlayZoomButton.addEventListener("click", () => {
-      if (overlayBounds && overlayBounds.isValid()) {
-        map.fitBounds(overlayBounds, { padding: [34, 34], maxZoom: 10 });
-      }
+  if (overlayMenuButton && overlayMenuPanel) {
+    overlayMenuButton.addEventListener("click", event => {
+      event.stopPropagation();
+      setOverlayMenuOpen(overlayMenuPanel.hidden);
+    });
+    overlayMenuPanel.addEventListener("click", event => event.stopPropagation());
+    document.addEventListener("click", () => setOverlayMenuOpen(false));
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape") setOverlayMenuOpen(false);
     });
   }
 
