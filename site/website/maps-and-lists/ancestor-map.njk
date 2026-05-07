@@ -48,6 +48,20 @@ updated: 25 April 2026
     <span class="result-count" data-map-count></span>
   </div>
 
+  <div class="catalog-toolbar map-toolbar map-overlay-toolbar">
+    <div class="overlay-toggle-group" role="group" aria-label="Gournay holdings overlay layers">
+      <label><input type="checkbox" data-overlay-toggle="older-gournay-core" checked> Older Gournay core</label>
+      <label><input type="checkbox" data-overlay-toggle="beauvaisis-24-villages" checked> Beauvaisis / 24 villages</label>
+      <label><input type="checkbox" data-overlay-toggle="expanded-24-village-buffer" checked> Expanded 24-village buffer</label>
+      <label><input type="checkbox" data-overlay-toggle="frontier-corridor" checked> Frontier corridor</label>
+      <label><input type="checkbox" data-overlay-toggle="pays-de-bray-context" checked> Pays de Bray context</label>
+      <label><input type="checkbox" data-overlay-toggle="network-envelope" checked> Network envelope</label>
+      <label><input type="checkbox" data-overlay-toggle="individual-buffers" checked> Individual buffers</label>
+      <label><input type="checkbox" data-overlay-toggle="epte-frontier-line" checked> Epte frontier line</label>
+      <button type="button" class="overlay-toggle-action" data-overlay-zoom>Zoom to overlays</button>
+    </div>
+  </div>
+
   <section class="map-shell">
     <div class="generated-map" data-map-canvas aria-label="Gurney ancestor map"></div>
     <div class="map-data" hidden>

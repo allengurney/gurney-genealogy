@@ -4,6 +4,27 @@
 **Format:** RFC 7946 GeoJSON (`FeatureCollection`)  
 **Coordinate order:** `[longitude, latitude]`  
 **Primary file:** `gournay_norman_holdings_recommended_overlay.geojson`
+**Website asset:** `site/website/assets/data/gournay-norman-holdings-overlays.geojson`
+
+## Website map implementation
+
+**Implemented:** 2026-05-07
+
+The ancestor map now serves a frontend copy of the recommended overlay package from:
+
+```text
+site/website/assets/data/gournay-norman-holdings-overlays.geojson
+```
+
+The source-of-truth research artifact remains:
+
+```text
+research/geo/gournay_norman_holdings_recommended_overlay.geojson
+```
+
+All polygon and line overlay groups are visible by default for initial visual review, including derived buffers and low-confidence context envelopes. This first-pass visibility is intentional so the shapes can be evaluated in Leaflet before later reducing opacity, changing defaults, or hiding lower-confidence layers.
+
+These polygons are interpretive modern-reference approximations, not surveyed medieval cadastral or jurisdictional boundaries. The 24-village / Beauvaisis polygon builds on the existing Hugh de Gournay reconstruction package in `research/geo/Hugh_initial_analysis/hugh_de_gournay_reconstructed_holdings.geojson`.
 
 ## Purpose
 

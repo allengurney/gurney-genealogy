@@ -28,13 +28,18 @@
   const relatedButtons = Array.from(page.querySelectorAll("[data-map-related]"));
   const kindButtons = Array.from(page.querySelectorAll("[data-map-kind]"));
   const eraButtons = Array.from(page.querySelectorAll("[data-map-era]"));
+  const overlayToggles = Array.from(page.querySelectorAll("[data-overlay-toggle]"));
+  const overlayZoomButton = page.querySelector("[data-overlay-zoom]");
   const countNode = page.querySelector("[data-map-count]");
   const markers = [];
+  const overlayLayers = new Map();
+  const overlayGeometries = new Set(["Polygon", "MultiPolygon", "LineString", "MultiLineString"]);
   const params = new URLSearchParams(window.location.search);
   const requestedPlaceId = params.get("place");
   let includeRelated = false;
   let kind = "all";
   let era = "all";
+  let overlayBounds = null;
 
   function escapeHtml(value) {
     return String(value || "")
@@ -49,6 +54,12 @@
     attributionControl: true,
     scrollWheelZoom: true,
   });
+
+  const holdingsPane = map.createPane("gournayHoldingsPane");
+  holdingsPane.style.zIndex = 350;
+
+  const markerPane = map.createPane("gurneyMarkerPane");
+  markerPane.style.zIndex = 650;
 
   window.L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
     maxZoom: 18,
@@ -101,6 +112,7 @@
   function makeMarker(group) {
     const marker = group.kind === "property"
       ? window.L.marker([group.lat, group.lng], {
+          pane: "gurneyMarkerPane",
           icon: window.L.divIcon({
             className: "map-square-marker",
             html: `<span style="background:${escapeHtml(group.color)}"></span>`,
@@ -114,6 +126,7 @@
           weight: 2,
           fillColor: group.color,
           fillOpacity: 0.88,
+          pane: "gurneyMarkerPane",
         });
     marker.bindPopup(popup(group));
     marker.bindTooltip(group.people.length > 1 ? `${group.people.length} records: ${group.place}` : `${group.people[0].gen} ${group.place}`);
@@ -126,6 +139,124 @@
     const kindOk = kind === "all" || point.kind === kind;
     const eraOk = era === "all" || point.eraClass === era;
     return relatedOk && kindOk && eraOk;
+  }
+
+  function overlayGroup(feature) {
+    const id = feature.id || "";
+    const featureType = feature.properties && feature.properties.feature_type;
+    if (id === "older_gournay_core_repo") return "older-gournay-core";
+    if (id === "beauvaisis_24_villages_repo") return "beauvaisis-24-villages";
+    if (id === "beauvaisis_24_villages_expanded_3km") return "expanded-24-village-buffer";
+    if (id === "gournay_la_ferte_gaillefontaine_frontier_corridor") return "frontier-corridor";
+    if (id === "pays_de_bray_context_envelope") return "pays-de-bray-context";
+    if (id === "norman_gournay_landholding_network_envelope") return "network-envelope";
+    if (id === "epte_frontier_line") return "epte-frontier-line";
+    if (featureType === "source_point_buffer" || id.startsWith("buffer_")) return "individual-buffers";
+    return "";
+  }
+
+  function overlayStyle(feature) {
+    const properties = feature.properties || {};
+    const sourceStyle = properties.style || {};
+    const style = {
+      color: "#7a4b16",
+      weight: 2,
+      opacity: 0.65,
+      fillColor: "#c58a2b",
+      fillOpacity: 0.12,
+      ...sourceStyle,
+      pane: "gournayHoldingsPane",
+    };
+
+    if (feature.geometry && feature.geometry.type.includes("LineString")) {
+      style.fillOpacity = 0;
+      style.fill = false;
+    }
+
+    return style;
+  }
+
+  function overlayPopup(feature) {
+    const properties = feature.properties || {};
+    const rows = [
+      ["Type", properties.feature_type],
+      ["Certainty", properties.certainty],
+      ["Group", properties.display_group || properties.layer_group],
+      ["Buffer", properties.buffer_km ? `${properties.buffer_km} km` : properties.buffer_meters],
+      ["Basis", properties.historical_basis],
+      ["Note", properties.interpretation_note],
+    ]
+      .filter(([, value]) => value !== undefined && value !== null && value !== "")
+      .map(([label, value]) => `<dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value)}</dd>`)
+      .join("");
+
+    return `<div class="map-popup overlay-popup">
+      <strong>${escapeHtml(properties.name || feature.id || "Gournay holdings overlay")}</strong>
+      <dl>${rows}</dl>
+    </div>`;
+  }
+
+  function focusRequestedPlace() {
+    if (!requestedPlaceId) return;
+    const requestedMarker = markers.find(marker => marker.__point.placeId === requestedPlaceId);
+    if (requestedMarker) {
+      const point = requestedMarker.__point;
+      map.setView([point.lat, point.lng], 13);
+      requestedMarker.openPopup();
+    }
+  }
+
+  function setOverlayVisibility(group, enabled) {
+    const layer = overlayLayers.get(group);
+    if (!layer) return;
+    if (enabled && !map.hasLayer(layer)) {
+      layer.addTo(map);
+      layer.bringToBack();
+    }
+    if (!enabled && map.hasLayer(layer)) map.removeLayer(layer);
+  }
+
+  function renderHoldingOverlays(data) {
+    const groups = Array.from(new Set(overlayToggles.map(toggle => toggle.dataset.overlayToggle)));
+    groups.forEach(group => {
+      const layer = window.L.geoJSON(data, {
+        pane: "gournayHoldingsPane",
+        filter: feature => overlayGeometries.has(feature.geometry && feature.geometry.type) && overlayGroup(feature) === group,
+        style: overlayStyle,
+        onEachFeature: (feature, layer) => {
+          const name = feature.properties && feature.properties.name;
+          layer.bindPopup(overlayPopup(feature));
+          if (name) layer.bindTooltip(name, { sticky: true });
+        },
+      });
+
+      overlayLayers.set(group, layer);
+
+      if (layer.getBounds && layer.getBounds().isValid()) {
+        overlayBounds = overlayBounds ? overlayBounds.extend(layer.getBounds()) : layer.getBounds();
+      }
+
+      const toggle = overlayToggles.find(item => item.dataset.overlayToggle === group);
+      if (!toggle || toggle.checked) {
+        layer.addTo(map);
+        layer.bringToBack();
+      }
+    });
+
+    focusRequestedPlace();
+  }
+
+  function loadHoldingOverlays() {
+    if (!overlayToggles.length) return;
+    fetch("/assets/data/gournay-norman-holdings-overlays.geojson")
+      .then(response => {
+        if (!response.ok) throw new Error(`Overlay request failed: ${response.status}`);
+        return response.json();
+      })
+      .then(renderHoldingOverlays)
+      .catch(error => {
+        console.warn("Unable to load Gournay holdings overlays", error);
+      });
   }
 
   function redraw() {
@@ -144,14 +275,7 @@
     if (countNode) countNode.textContent = `${visiblePoints.length} mapped record${visiblePoints.length === 1 ? "" : "s"} / ${groups.length} place${groups.length === 1 ? "" : "s"}`;
     if (bounds.length) map.fitBounds(bounds, { padding: [30, 30], maxZoom: 7 });
 
-    if (requestedPlaceId) {
-      const requestedMarker = markers.find(marker => marker.__point.placeId === requestedPlaceId);
-      if (requestedMarker) {
-        const point = requestedMarker.__point;
-        map.setView([point.lat, point.lng], 13);
-        requestedMarker.openPopup();
-      }
-    }
+    focusRequestedPlace();
   }
 
   relatedButtons.forEach(button => {
@@ -190,6 +314,20 @@
     });
   });
 
+  overlayToggles.forEach(toggle => {
+    toggle.addEventListener("change", () => {
+      setOverlayVisibility(toggle.dataset.overlayToggle, toggle.checked);
+    });
+  });
+
+  if (overlayZoomButton) {
+    overlayZoomButton.addEventListener("click", () => {
+      if (overlayBounds && overlayBounds.isValid()) {
+        map.fitBounds(overlayBounds, { padding: [34, 34], maxZoom: 10 });
+      }
+    });
+  }
+
   if (requestedPlaceId) {
     includeRelated = true;
     relatedButtons.forEach(button => {
@@ -200,4 +338,5 @@
   }
 
   redraw();
+  loadHoldingOverlays();
 })();
