@@ -1,144 +1,264 @@
 # Hugh de Gournay III (G33) — Research Companion
 
-Research companion for `g33-hugh-de-gournay-iii-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research companion for `g33-hugh-de-gournay-iii-fact-sheet.md`. Synthesised v2 (May 2026) drawing on DG-I + DG-Supp, Hannay, Pettigrew, Planché, Palgrave, Farrer, Anderson 1742, Loyd, Keates-Rohan *Domesday People*, Richardson SGM 2002 / *Royal Ancestry* III, Pattou *Racines Histoire* (2025), FMG MedLands (Cawley), Potin 1842, NRP-I 1852, Painchault 2012, Normonde authority file, *Chronicon Beccensis Abbatiæ*, *Anselmi Cantuarensis Opera Omnia* (Schmitt), *Roman de Rou* (Wace), Domesday Book (Open Domesday verified).
+
+The full Phase-0 cross-walks live in `sources/FS/MZ68-VKD/assessment.md` (FS export, Pattou companion, Lorraine source) and `sources/FS/Norman_additions/assessment.md` (Recherches PDFs and URLs). What follows is a synthesis fit for re-evaluation without re-reading those Phase-0 files; verbatim primary-source extracts are preserved where they bear interpretive weight.
 
 ---
 
-## Working Notes
+## 1. Vital framework
 
-### 1076 Bec charter — primary source (DG-Supp Notes 13–14)
-2026-04-18 — DG-Supp Note 13 (pp. 732–734) preserves crucial primary source text. The *Paris MS. Histoire des Seigneurs de Gournay* records a 1076 charter (Cartulaire du Bec) in which Hugh III gave to the Abbey of Bec the tithes of three English parishes: "Fordham, Listhone, et Arlie" (Fordham, Liston, and Ardleigh in Essex), with patronage rights and all dependencies. Among the witnesses: "un nommé Augerius de Gournay" — a collateral whose relationship to Hugh is not specified but who was "sans doute" descended from the lords of Gournay.
-
-This 1076 charter is important because:
-- It is a datable primary source document naming Hugh III specifically.
-- It pre-dates Domesday by 10 years and proves Hugh held these three Essex manors by 1076.
-- It shows Hugh personally endowing Bec — consistent with his later retirement there.
-- Augerius (Ausger) de Gournay is independently attested as a collateral family member (DG-Supp Note 12).
-
-DG-Supp Note 14 adds that Hugh III and Basilia also gave to Bec: half the milling right of Bois Girard, the church and tithes of Braimontier, the church of Elboeuf, the church of La Rozière, tithes of La Ferté, Gaillefontaine, and Gournay, a house in Gournay, and a house in Gaillefontaine.
-
-### Specific Caen charter identifications
-2026-04-18 — The two Caen charters witnessed by Hugh III have been identified via online genealogical scholarship (Richardson, WikiTree, Geni):
-
-1. **1077:** Foundation charter of the monastery of Saint-Étienne (St. Stephens) at Caen by William I. This is one of the most important documents of William's reign — the foundation of the Abbaye-aux-Hommes.
-2. **1082:** Foundation charter of La Trinité (Holy Trinity) at Caen by William I and Queen Matilda. This is the Abbaye-aux-Dames.
-
-Both are published in *Regesta Regum Anglo-Normannorum* (ed. Bates, 1998) and in Gallia Christiana. Hugh's witness on both places him at the highest level of the Anglo-Norman establishment.
-
-### Siege of Gerberoi, 1079 — Hugh as mediator
-2026-04-18 — Hannay (p. 96, citing Ordericus Vitalis) records that Hugh was unhorsed by Robert Curthose at the siege of Gerberoi (1079), during Robert's rebellion against his father William I. After the siege, Hugh was one of four barons who mediated the reconciliation between William and Robert. The four: Roger Earl of Shrewsbury, Hugh de Grantmesnil, Roger de Beaumont, and Hugh de Gournay. This mediator role is politically significant — it places Hugh among the very top tier of Anglo-Norman barons trusted by both sides.
-
-2026-05-02 — Palgrave gives an independent 1864 narrative of Gerberoi: the castle lay about five miles from Gournay, Robert Curthose established headquarters there, and after the fighting the mediators between William and Robert included Roger de Montgomery, Hugh Lupus, Hugh de Gournay, Grantesmesnil, and Beaumont with his sons. This reinforces Hugh III's top-tier political role and adds useful geography: Gerberoi was a frontier threat close to the Gournay seat.[^palgrave-gerberoi]
-
-### Planché on Basilia and the Hastings-generation problem
-2026-05-02 — Planché's Hugh section assigns Basilia Flaitel to Hugh III, describing her as daughter of Gerard Flaitel, sister of Walter Giffard's wife, and widow of Raoul de Gacé. He places the younger Hugh at Hastings alongside his father and a Gournay/Brai relative, but the passage is one of the reasons to keep the "three Gournays at Hastings" issue open rather than flattening the roll forms.[^planche-hugh3]
-
-### Pettigrew on Basilia, Bec, and Hugh III's last years
-
-Pettigrew places Basilia in the same high Norman kin network used by DG: she was daughter of Gerard Flaitel or Flaiteaux, widow of Raoul de Vace or Gace, and sister of Walter Giffard's wife; William, Bishop of Evreux, and Anscherius were her brothers. Pettigrew also gives the monastic ending of the couple's life: Hugh became a monk at Bec, Basilia retired there and received the veil from the Archbishop of Rouen, Anselm held them in affection, and Hugh was buried in the abbey church with Basilia entombed near him. He notes DG's own caution that Hugh may not actually have been prior of St Nicaise de Meulan, because Anselm's letter to Basilia does not mention Hugh and he may already have died.[^pettigrew-hugh3-basilia]
-
-Pettigrew's account of Hugh's gifts to Bec is also useful for the place network. Hugh gave the church of Massy, the tithe of Gournay, Elboeuf, Brefmoutier, Merval, Laudencourt, the tithes of his three English manors, and half the *molta*, a tax paid by vassals for grinding corn at the lord's mill. These were confirmed by Basilia and their son Gerard. The three English manors are the same Domesday Essex cluster: Fordham, Liston, and Ardleigh.[^pettigrew-hugh3-basilia]
-
-### Farrer on Hugh III's English holdings and the Warenne connection
-
-Farrer's Mapledurham section independently controls the English-tenure side of the Hugh III file. He says the Gournay-sur-Epte family in the Pays de Bray held much of its English property through the marriage connection with Ediva/Edith de Warenne, but he first identifies Hugh as holder of the three Domesday Essex manors of Liston, Ardleigh, and Fordham, none of which descended in his line. Farrer also says Hugh became a monk at Bec, and assigns to Basilia and her son Hugh the gifts to Bec of a moiety of Longueil and Le Bois de Girard. This is useful because it separates Hugh III's Domesday Essex holdings from the later Mapledurham/Wendover/Houghton Regis senior-line descent.[^farrer-hugh3]
-
-### Basilia's death — precise date from Chronicon Beccensis
-2026-04-18 — The *Chronicon Beccensis Abbatiæ* records the deaths of three noble women at Bec in three consecutive weeks: Ansfride (Basilia's niece, a virgin) on 2 January (IV Non Jan); Basilia herself on 16 January (XVII Kal Feb); and Eva, wife of William Crispin, on 23 January (X Kal Feb). DG dates this sequence to 1099/1100. This gives Basilia a specific death date of approximately 16 January 1099 or 1100 — far more precise than the fact sheet's "survived after Hugh's death."
-
-### Basilia's maritagium — Ecouche castle
-2026-04-18 — Basilia Flaitel's marriage portion (maritagium) was the castle of Ecouche (Écouché), near Falaise in Normandy. This is a substantial military property, consistent with the Flaitel family's high status. DG-I p. 55 and 65 reference Ecouche. The DG Supplement (Note 13 footnote) says "Esthoci is Ecouche on the Orne."
-
-### "Hugo Senex" — the epithet
-2026-04-18 — Hugh was known as *Hugo Senex* ("Hugh the Old") in Norman records, reflecting his exceptional longevity. If born c. 1020 and still living c. 1093, he reached approximately 73 — remarkable for the era.
-
-### Lessingham Priory — detailed history (DG-Supp Note 13 footnote)
-2026-04-18 — DG-Supp Note 13 footnote (p. 733) on Lessingham: "Gerard de Gournay founded a priory there, attached to the abbey of Bec. Dugdale and Taylor in his Monasticon confirm this. The priory of Lessingham was made subject to the abbey of Okeburn in Wiltshire, a cell to that of Bec. It was seized with all alien lands in the wars of Henry V. with France. There are no traces now left of the existence of this priory at Lessingham."
-
-**Note:** Although DG attributes the founding to Gerard (G32), the tithes of the three Essex parishes (including Lessingham as a Norfolk holding) were given by Hugh III in 1076. The priory foundation may have been a two-stage process: Hugh III's endowment providing the economic base, Gerard's charter formally establishing the religious house.
-
-### Domesday folio reference
-2026-04-18 — Per Morant's *History of Essex* (vol. ii, p. 31): Hugh de Gournai's Essex entries are in Domesday Book vol. ii (Little Domesday), p. 89. Open Domesday (opendomesday.org) confirms:
-- **Liston:** Tenant-in-chief Hugh of Gournay. Sub-tenant Goisfredus Talbot.
-- **Fordham:** Tenant-in-chief Hugh of Gournay. Lord: Geoffrey. Pre-Conquest lord: Esbiorn.
-- **Ardleigh:** Tenant-in-chief Hugh of Gournay. Lord: Agnes. Pre-Conquest lord: Osbert.
-
-Notably, William de Warenne (Basilia's first husband's father's family? — no, Edith de Warenne's father) also held land in Fordham. This proximity may reflect the Gournay-Warenne connection even at the Domesday level.
-
-### Basilia Flaitel — "de Dammartin" alternative identification
-2026-04-18 — French Wikipedia and histoireeurope.fr name Hugh III's wife as "Basilie de Dammartin" rather than "Basilie Flaitel." This appears to be a different genealogical tradition. DG, Hannay, Richardson, and all English-language sources consistently use "Flaitel." The Dammartin identification may stem from confusion with a different generation or a different branch. The Flaitel identification is the more strongly sourced and should be retained. Flag as a discrepancy for awareness but no action needed.
+- **Born** c. 1020–1030. DG and the repo: c. 1020. Pattou: ~1030. FS: 1025. Three-way disagreement, all grounded in inference from his father's ([1074] death) and son's (1082 charter signature) chronologies. The c. 1020–1030 range is safe.
+- **Father**: Hugh de Gournay II (G34), the Mortemer 1054 commander.
+- **Mother**: Unknown. No spouse named for Hugh II in any source consulted (DG, Hannay, *MS. Histoire de Gournay*, Pattou, Potin 1842).
+- **Wife**: Basilea (Basilie / Basilée) Flaitel, daughter of Gerard Flaitel, previously widow of Raoul de Gacé / de Vassy / "Tête-dure." Marriage **after 1051** (FMG, post-Raoul de Gacé's death). The detailed pedigree of Basilea's first husband is in §3 below.
+- **Died** 1110, monk at Bec — see §2 below for the c. 1093 / 1110 reconciliation.
+- **Burial**: Abbey of Bec (Le Bec-Hellouin, Eure).
+- **Epithet**: not "Hugo Senex." The Senex / Le Vieil Huon / L'Ancien / Le Vieux stack belongs to Hugh II (G34); see §4.
 
 ---
 
-## Landholdings
+## 2. Death year — the c. 1093 / 1110 reconciliation
 
-| Place | Period | Notes |
+The repo previously had Hugh III dying c. 1093, following DG ("shorn a monk before the year 1093") and FMG ("-[1093]"). Potin 1842 p. 110 — the deepest French local-tradition source — gives the death year as **1110**:
+
+> "Le Hugues que nous nommons Hugues III, mourut en 1110, moine à l'abbaye du Bec." (Potin 1842 p. 110.)
+
+Translation: *"The Hugh whom we call Hugues III died in 1110, a monk at the abbey of Bec."*
+
+This is also Richardson's date in *Royal Ancestry* III (via TNG / Magna Charta Sureties, "d. 1110"), and the date the FS export carries through ThePeerage.
+
+The two dates are **reconcilable as different events in a thirty-year monastic career**:
+
+| Year | Event | Source |
 |---|---|---|
-| [Gournay-en-Bray, Normandy](../places/gournay-en-bray.md) | c. 1020 – c. 1093 | Inherited senior-line seat. Added 24 villages ("Conquêts Hue de Gournai") in the Beauvoisis c. 1078, making the Gournays vassals of France as well as Normandy. |
-| [Liston, Essex](../places/liston.md) | 1076+ (Domesday 1086) | Held directly of the king. Sub-tenant: Goisfredus Talbot. Tithes given to Bec in 1076 charter. Little Domesday, p. 89. |
-| [Fordham, Essex](../places/fordham.md) | 1076+ (Domesday 1086) | Lord: Geoffrey. Pre-Conquest lord: Esbiorn. Eleven *bordarii* and four *servi*. Tithes given to Bec in 1076 charter. |
-| [Ardleigh, Essex](../places/ardleigh.md) | 1076+ (Domesday 1086) | Lord: Agnes. Pre-Conquest lord: Osbert. Tithes given to Bec in 1076 charter. |
-| Norfolk manors (county-level) | post-Conquest | DG states properties in Norfolk but does not detail specific manors for Hugh III individually |
-| [Le Bec-Hellouin, Normandy](../places/le-bec-hellouin.md) | later life & burial c. 1093 | Retired to and buried in the Abbey Church of Bec; personal friend of Anselm |
-| Beauvoisis (24 villages) | c. 1078+ | See `research/places/beauvaisis-frontier-acquisitions.md` |
+| 1080 | Entered Bec as monk; donated tithes of three English manors (Liston, Fordham, Ardleigh) and half the moute of Bosc-Girard | Potin 1842 p. 108–109; *Neustria Pia* p. 478 |
+| 1092 | Became Prior of Saint-Nicaise de Meulan, replacing Guillaume de Montfort, abbé du Bec | Potin 1842 p. 109; Pattou companion p. 2 |
+| Before 1093 | "Shorn a monk" — DG's reading — i.e., last lay attestation before retreat to Bec | DG-I p. 27 |
+| After 1093 | Anselm's letter to Basilea ("Basiliæ amicæ Filiæ in Domino") — addressed to her, not to Hugh, taken as evidence Hugh was already dead by the date of the letter | DG-I p. 26; FMG MedLands |
+| 1110 | Death at Bec | Potin 1842 p. 110; Richardson via TNG |
+
+**The Anselm-letter "after 1093, addressed to Basilea not Hugh" reading is the locus of confusion**: Pettigrew (Collectanea Archaeologica vol. 2, p. 184) cautions DG's own doubt about whether Hugh was actually Prior of Saint-Nicaise de Meulan, on the grounds that "Anselm's letter to Basilia does not mention Hugh and he may already have died." Pattou and Potin both affirm the priorate (Saint-Nicaise 1092). Two readings of the Anselm letter:
+
+(a) The letter is dated to the period 1093–1110, when Hugh was a monk at Bec or Prior at Saint-Nicaise but not actively engaged with secular affairs. Anselm addressing Basilea alone was natural — she was the lay correspondent.
+
+(b) Hugh was already dead and the letter is a condolence / spiritual direction to the widow.
+
+Reading (a) is consistent with Potin's 1110 death. Reading (b) supports DG's pre-1093 death.
+
+**Repo position from this synthesis**: adopt the reconciliation (entered Bec 1080 → Prior 1092 → died 1110) and frame the fact sheet's earlier "c. 1093" as the year he was "shorn a monk" rather than the year of death. This better fits the Saint-Nicaise priorate evidence and the Anselm-Pettigrew dating logic.
 
 ---
 
-## Open Questions
+## 3. Wife and family connections
 
-1. **Ordericus Vitalis:** Does Orderic's *Historia Ecclesiastica* name Hugh III specifically? Orderic (1075–c.1142) is the most detailed Anglo-Norman chronicler and covered the Gerberoi siege and the 1082 Caen charter. A search of the published index would confirm.
-2. **Norfolk Domesday entries:** The fact sheet says "Norfolk manors" without specifics. The Domesday Book Norfolk entries for "Hugo de Gournai" should be searched in Open Domesday to identify which Norfolk manors, if any, are attributed to Hugh III vs. later family members.
-3. **The "two sons" question:** Richardson and Geni both say Hugh and Basilia "had two sons, Gerard and Hugh." DG-I pp. 27–29 treats only Gerard in the direct line. Is the second son "Hugh" documented in DG or is this from other sources?
-4. **Ecouche:** Basilia's maritagium (castle of Ecouche near Falaise). Was this property retained by the Gournays after her marriage, or did it revert?
+### 3.1 Basilea's first husband — full pedigree
+
+Potin 1842 p. 109 documents the chain from Richard I down to Basilea's first husband:
+
+| Generation | Person | Detail |
+|---|---|---|
+| Richard I, Duke of Normandy + Duchess Gunnor | parents of Robert | |
+| Robert, Archbishop of Rouen + Count of Évreux | by his concubine Hélène | per Moréri, three sons: Richard, **Radulphe**, Guillaume |
+| **Raoul de Gacé / Vassy / Tête-dure** ("Hard-head") | Basilea's first husband | died 1051; widow Basilea remarried Hugh III after 1051 |
+
+Robert Archbishop's secular career is documented in the *Histoire de la ville de Rouen*: *"…ce prélat n'avoit point eu d'abord les moeurs ecclésiastiques, puisque nous voyons qu'après la mort de son père, il quitta son église, et fut à Évreux où il se maria publiquement; mais son désordre n'avoit pas été long, et, depuis plusieurs années, il avait pris des sentiments dignes de son état."* — *"This prelate did not at first have ecclesiastical morals, since we see that after his father's death he quit his church and was at Évreux where he married publicly; but his disorder was not long, and for several years he had taken sentiments worthy of his state."*
+
+**Net for the repo**: Basilea's first marriage carried Norman ducal collateral blood — her son by Raoul (if any) and her *maritagium* were tied to the Évreux comté. The maritagium itself was the **castle of Écouché** near Falaise (DG-I pp. 55, 65; FMG [880] cites Orderic on the [1089] Écouché custody dispute, identifying Gerard de Gournay as held it through "Basiliæ Girardi Fleitelli filiæ").
+
+### 3.2 Basilea's siblings — the Flaitel network
+
+Per DG, Hannay, Pettigrew: Basilea was daughter of Gerard Flaitel and sister of:
+- **Agnes** Flaitel, wife of Walter Giffard (Earl of Buckingham) — making the Giffards the Gournays' brothers-in-law.
+- **William** Flaitel, Bishop of Évreux.
+- (per Pettigrew) **Anscherius** — possibly the same as Augerius/Ausger de Gournay attested in the 1076 Bec charter as collateral.
+
+### 3.3 Basilea's mother — the Anfrede / Ansfride tangle
+
+Two readings in the documentary tradition:
+
+(a) **Potin 1842 p. 110**: *"Basilée, quand Hugues III se fut retiré dans l'abbaye du Bec, choisit une retraite non loin de ce monastère; elle s'y mit sous la direction de l'abbé, avec **Anfrede, sa mère**, et Eve, femme de Guillaume Crespin."* — i.e., Anfrede was Basilea's *mother*.
+
+(b) **DG-I + the *Chronicon Beccensis Abbatiæ***: three deaths at Bec on three consecutive Sundays (DG dates the sequence to 1099/1100):
+- 2 January (IV Non Jan): **Ansfride, Basilea's niece, a virgin**.
+- 16 January (XVII Kal Feb): **Basilea**.
+- 23 January (X Kal Feb): **Eva, wife of William Crispin**.
+
+Two reconcilations are possible: (i) Potin misread the Chronicon (substituting "mère" for the niece-relationship); (ii) Anfrede the mother and Ansfride the niece are two distinct women whom local tradition merged. The names in early Latin (*Ansfrida* / *Anfreda* / *Anfrida*) are too close for coincidence.
+
+**Repo position**: hold both readings open. The Chronicon Beccensis sequence (Ansfride niece + Basilea + Eva) is the better-attested version per the Bec source itself; Potin's 1842 reading of the same event introduces a "mother" wrinkle that is more easily ascribed to garbling.
+
+**Basilea's death date from the Chronicon: ~16 January 1099/1100.**
 
 ---
 
-## Sources Consulted
+## 4. The Senex / Le Vieil Huon attribution — moved to G34
 
-- DG-I, pp. 25–27 (Hugh III chapter), pp. 55, 65 (Ecouche references). [DG-I]
-- DG-Supp, Notes 12–14 (pp. 732–735): 1076 Bec charter (full Latin text), Ausger de Gournay, Lessingham Priory, Bec endowments. [DG-Supp]
-- Hannay, *Three Hundred Years* (1867), pp. 91–100: "Hugh of Domesday," 24 villages, Anselm, Gerberoi, death. [Hannay]
-- Planché, *The Conqueror and His Companions* (1874), Hugh de Gournay section. [planche-conqueror-companions-1874]
-- Palgrave, *The History of England and Normandy* (1864), Gerberoi narrative. [palgrave-history-england-normandy-1864]
-- Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (1871), pp. 183-185. [pettigrew-collectanea-house-gournay-1871]
-- Farrer, *Honors and Knights' Fees*, vol. 3, Mapledurham section. [farrer-honors-knights-fees-v3-gurnay-extracts]
-- Domesday Book, Little Domesday vol. ii, p. 89 (Essex): Liston, Fordham, Ardleigh. Verified via Open Domesday (opendomesday.org). [Domesday]
-- *Chronicon Beccensis Abbatiæ* — Basilia's death date (16 January 1099/1100). Cited via geni.com/Richardson. [Chron-Bec]
-- Morant, *History and Antiquities of the County of Essex* (1768), vol. ii, p. 31. [Morant]
-- Keates-Rohan, *Domesday People* (1999), p. 126. Geoffrey Talebot identified as Hugh's Essex tenant. [Keates-Rohan]
-- Douglas Richardson, "Gournay Family Pedigree" (soc.genealogy.medieval, 19 Jan 2003). [Richardson-SGM]
-- Lewis C. Loyd, *The Origins of Some Anglo-Norman Families* (1951; repr. 1999), p. 47. [Loyd]
+Until this v2 synthesis, the G33 fact sheet attributed "Hugo Senex" to Hugh III. The evidence now consistently places the epithet stack at G34 (Hugh II):
 
-- Anderson, James, *Genealogical History of the House of Yvery*, Vol. II (London, 1742), pp. 474–475: independently confirms Hugh III's Domesday holdings ("Lisiune, Earley, and Forham"), marriage to "Basil, the Daughter of Giraldus Flatellus, and Widow of Ralf de Wacry," and monastic retirement at Bec. Pre-dates DG by 106 years. [Anderson-Yvery]
+- **Wace, *Roman de Rou* T. 2** (Hastings 1066, in Potin 1842 p. 105 verbatim): *"Et li vieil Hue de Gornai / Ensemble o li sa gent de Brai."* Translation: *"And the old Hue of Gournay / Together with him his men of Bray."*
+- **Pattou companion p. 2**: full epithet stack at "Hue (Hugues) II de Gournay dit «L'Ancien» ou «Le Vieux» ou «Senex» & «Le Vieil Huon» en 1050) +X 1074 (Cardiff)."
+- **Pettigrew 1871** (Collectanea Archaeologica vol. 2 pp. 182–184): cites the same Wace verse at Hugh II level.
+- **Potin 1842 p. 105** (Hugues II chapter, gloss): *"On le voit, à cette époque, Hugues de Gournay était vieux; le repos lui était nécessaire après d'aussi rudes travaux."* — *"At this period, Hugues de Gournay was old; rest was necessary to him after such rough labors."*
 
-### Sources to obtain
-- *Regesta Regum Anglo-Normannorum* (Bates, 1998) — verify the two Caen charter witness lists.
-- Orderic Vitalis, *Historia Ecclesiastica* — search for Hugh de Gournay entries.
-- Fauroux, *Recueil des actes* (1961) — any pre-1066 ducal acts naming Hugh III.
+The "Hugo Senex" attribution to Hugh III in the repo's earlier fact sheet was an artifact of nineteenth-century English-language summaries (especially Hannay) that compressed two generations of Hughs into one "Old Hugh" figure. The attribution is now relocated to G34.
 
 ---
 
-## Conflicting Information
+## 5. English landholdings
 
-| Claim | Source A | Source B | Status |
+### 5.1 Domesday Essex — three manors held in chief
+
+Per Open Domesday (verified) and Morant *History of Essex* vol. ii p. 31 (Little Domesday vol. ii p. 89):
+
+| Manor | Tenant-in-chief | Sub-tenant | Pre-Conquest lord |
 |---|---|---|---|
-| Basilia's family | DG, Hannay, Richardson: Basilia Flaitel | fr.wiki, histoireeurope: Basilie de Dammartin | Flaitel is the dominant, better-sourced identification. Dammartin may be a confusion. |
-| Number of sons | Richardson/Geni: "two sons, Gerard and Hugh" | DG-I: names only Gerard as son | Needs DG close-reading. A second son Hugh would be a collateral. |
-| Lessingham founder | DG-Supp Note 13: "Gerard de Gournay founded a priory there" | Fact sheet attributes to Gerard | Consistent. Hugh III gave tithes 1076; Gerard formalized the priory. |
+| **Liston** (Hidnigaforda hundred) | Hugh of Gournay | Goisfredus Talbot (Geoffrey Talbot — see Keates-Rohan *Domesday People* p. 126) | — |
+| **Fordham** (Lessendena hundred) | Hugh of Gournay | Geoffrey | Esbiorn (pre-Conquest); 11 *bordarii*, 4 *servi* |
+| **Ardleigh** (Tendring hundred) | Hugh of Gournay | Agnes | Osbert |
+
+Pattou's chart (companion p. 2) reproduces the Domesday entry header: *"XLVII. — Terra Hugonis de Gurnay, hundredum de Hidnigaforda. hundredum de Tendring. hundredum de Lessendena."* — *"Land of Hugues de Gournay, hundred of Hinckford [Hidnigaforda], hundred of Tendring, hundred of Lexden [Lessendena]."* Hugh's chapter in the Essex Little Domesday is **Chapter XLVII**.
+
+### 5.2 1076 Bec charter — pre-Domesday tithe grant
+
+The earliest datable English-side document for Hugh III:
+
+> "Hugues de Gournay gave to the Abbey of Bec the tithes of three English parishes: Fordham, Listhone, et Arlie [Fordham, Liston, and Ardleigh in Essex], with patronage rights and all dependencies. Among the witnesses: 'un nommé Augerius de Gournay' — a collateral whose relationship to Hugh is not specified but who was 'sans doute' descended from the lords of Gournay." (DG-Supp Note 13, pp. 732–734, citing the *Paris MS. Histoire des Seigneurs de Gournay*, recording the Cartulaire du Bec, dated 1076.)
+
+Augerius / Ausger de Gournay is independently attested as a collateral family member (DG-Supp Note 12). Pattou's "non connectés" annex includes a Hugh-era collateral consistent with Ausger.
+
+### 5.3 The Norfolk barony — Caister and the Saint-Hildevert link
+
+Potin 1842 p. 110 documents an English-Norman ecclesiastical tie not in the repo's earlier materials: **the tithes of Caister and Cantley (Norfolk) were given by Hugh de Gournay to the Saint-Hildevert chapter at Gournay-en-Bray**, with the grant confirmed by the Bishop of Norwich. Saint-Hildevert held these English-parish tithes through to the Hundred Years War.
+
+This binds the Norfolk barony (Caister, Cantley) to the home Norman collégiale ecclesiastically — a documented Channel-spanning link not surveyed in the repo's earlier G33 narrative. The Caister manor itself came into the family by 1075–1076 forfeiture redistribution after the East Anglian earls' revolt (Palmer's *Perlustration of Yarmouth* 1872; recorded in `sources/FS/LBGV-H99/assessment.md` §8.1 #7).
+
+The Lorraine source (G34 §8.1) calls Hugh II/III's Norfolk grant "the entire Bishopric of Norveck," which is anachronistic. Potin 1842 p. 105 — local-tradition French — calls it "le duché de Norwick." Both are local-tradition compressions of what was actually a barony cluster (Caister + Cantley + the manors forfeited from Ralph de Gaël) granted by tenure rather than as a formal duchy or bishopric.
+
+### 5.4 Other Bec endowments
+
+DG-Supp Note 14 lists the broader Bec donation programme (with Basilea):
+- Half the milling right of Bois Girard (= *Bosci Girardi*, with Latin from *Neustria Pia* p. 478: *"dimidiam moltam villæ quæ vocatur Bosci Girardi, quod postea concessit uxor ejus et filius. Cujus testes sunt Anfredus monachus, Rodulphus, filius Toraldi, Rogerius Cochelin et alii plures."*).
+- Church and tithes of Braimontier (Bremontier) — two-thirds of Bremontier's tithes still held by Bec in 1112.
+- Church of Elboeuf (-en-Bray) — confirmed 1141 by Hugues d'Amiens, archbishop of Rouen.
+- Church of La Rozière.
+- Tithes of La Ferté, Gaillefontaine, Gournay, Merval, Lodencourt.
+- House in Gournay; house in Gaillefontaine.
+- The manor of Lessingham (Norfolk) — Bec's English daughter-house at Lessingham was attached to the Okeburn (Wiltshire) priory, both subsumed under Bec's English alien-priory network. Dissolved as alien land at the Parliament of Leicester, 2 Henry V (1414).
+
+### 5.5 Additional Norman holdings
+
+- The **Beauvaisis 24 villages** ("*Conquêts Hue de Gournai*") added to the lordship c. 1078, making the Gournays vassals of France as well as Normandy. See `research/places/beauvaisis-frontier-acquisitions.md`. The Vallez 1970 article (*Revue historique de droit français et étranger* 4e série n° 48, p. 353) traces the *conquêts Hue de Gournay* as a recognised legal-historical institution in the *Coutume de Normandie* commentary tradition into the 19th century (Basnage, *Commentaire sur la coutume de Normandie* t. II, "Additions et usages locaux," p. 3–4, cited via Lemoine 2006).
 
 ---
 
-[^palgrave-gerberoi]: Francis Palgrave, *The History of England and Normandy* (London: Macmillan and Co., 1864), Gerberoi narrative, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/palgrave/palgrave.htm. Source ID: `palgrave-history-england-normandy-1864`.
-[^planche-hugh3]: J. R. Planché, *The Conqueror and His Companions*, vol. 1 (London: Tinsley Brothers, 1874), Hugh de Gournay section, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/conquerorcompanion/companion.htm. Source ID: `planche-conqueror-companions-1874`.
+## 6. Norman political activity
 
-[^pettigrew-hugh3-basilia]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 183-185, Google Books, https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ. Source ID: `pettigrew-collectanea-house-gournay-1871`.
+### 6.1 1066 — Battle of Hastings
 
-[^farrer-hugh3]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925), Mapledurham section, extracted PDF pp. 10-12, HathiTrust, https://hdl.handle.net/2027/mdp.39015032992151. Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
+Wace's *Roman de Rou* names three Gournays in the invasion fleet: Old Hugh (G34), his son Hugh III, and a collateral. The "three Gournays at Hastings" is corroborated by **Gabriel Dumoulin's *Histoire générale de Normandie* (1631) p. 185** which lists *both* "Hue de Gournay" *and* "le sieur de Gournay" among the invasion fleet — Potin 1842 (p. 71) uses this two-Gournays catalogue to argue Hugh II + Hugh III were father and son both at Hastings.
 
-## Fact Sheet Improvement Notes
+Hannay's "three Gournays" reading is consistent with this if a third collateral (perhaps the Ausger / Néel-of-Somerset cadet) is added.
 
-1. **Caen charter specifics:** Replace "Witnessed royal charters at Caen in 1077 and again in 1082" with the specific documents: the foundation of Saint-Étienne (1077) and La Trinité (1082). These are iconic Norman landmarks still standing today.
-2. **1076 Bec charter:** This pre-Domesday charter proving Hugh held the Essex manors by 1076 could be added as a highlight or narrative detail — it's earlier evidence than Domesday.
-3. **Gerberoi mediation:** The fact sheet doesn't mention the 1079 siege of Gerberoi or Hugh's mediator role. This is politically significant material.
-4. **Basilia's death date:** The Chronicon Beccensis gives ~16 January 1099/1100. The triple-death sequence (Ansfride, Basilia, Eva on three consecutive Sundays) is a striking narrative detail.
-5. **"Hugo Senex":** The Old Hugh epithet could be noted — it confirms his legendary longevity.
+### 6.2 1077 + 1082 — Caen foundation charters
+
+Two of William's most important documents:
+
+- **1077**: Foundation of Saint-Étienne (the Abbaye-aux-Hommes) at Caen — William's penance church for the consanguineous marriage. Hugh III among the witnesses. Published in *Regesta Regum Anglo-Normannorum* (ed. Bates, 1998).
+- **1082**: Foundation of La Trinité (the Abbaye-aux-Dames) at Caen — by William and Queen Matilda. Hugh III among the witnesses, alongside his brother William de Gornai and his son Gerard. Both abbey-churches survive in Caen.
+
+### 6.3 1079 — Siege of Gerberoi, Hugh III as mediator
+
+Hannay (p. 96, citing Orderic Vitalis) records that Hugh was unhorsed by Robert Curthose at the siege of Gerberoi (1079), during Robert's rebellion against William. After the siege, Hugh was one of four barons who mediated the reconciliation: **Roger Earl of Shrewsbury, Hugh de Grantmesnil, Roger de Beaumont, and Hugh de Gournay**.
+
+Palgrave 1864 (*History of England and Normandy*) gives an independent narrative: Gerberoi castle lay about five miles from Gournay; Robert Curthose established headquarters there; the mediators between William and Robert included Roger de Montgomery, Hugh Lupus, Hugh de Gournay, Grantmesnil, and Beaumont with his sons.
+
+This mediator role places Hugh III among the very top tier of Anglo-Norman barons trusted by both sides.
+
+### 6.4 1067 + 1073 — earlier ducal charter witnesses
+
+FMG MedLands (cited via the FS export) preserves earlier appearances:
+
+> "…Hugonis de Gornaio…" subscribed the charter dated Apr 1067 under which "Willelmus…dux Normannorum…Anglorum rex" confirmed rights to the abbey of Saint-Benoît-sur-Loire. (FMG [895])
+>
+> "…Hugo de Gurniaco, Ricardus de Curci, Rodulfus filius Herluini, Willelmus filius Hastenchi…" witnessed the charter dated to [1073] under which William I King of England confirmed the donation by "Nielli filii alterius Nielli" to the abbey of Marmoutier. (FMG [896])
+
+The 1067 Saint-Benoît-sur-Loire charter is **earlier than the 1076 Bec charter** previously treated as the earliest datable Hugh-III appearance.
+
+### 6.5 1089–1090 — bookended by the Évreux–Conches war
+
+Although the [1089/90] Orderic passage on castle delivery (Gournay/La Ferté/Gaillefontaine) is canonically Gerard's (G32), Hugh III is the family head this whole period and the "Hugh's continued tenure of his Beauvaisis 24 villages" frames the Conqueror-era political alignment.
+
+---
+
+## 7. Anselm friendship — primary citation
+
+The Anselm letter is preserved in *Anselmi Cantuarensis Opera Omnia* (Schmitt edition); DG-I p. 26 paraphrases. The text cited in the repo's existing companion was the addressee form ("Salute the Lord Hugh de Gournay, dilectissimum nostrum, and the Lady Basilia, on my part, as sweetly as you can.") Pattou companion p. 2 confirms Anselm "saepe commendat" (often commends) Hugh III. *Neustria Pia* p. 478 cites Anselmus lib. iv epist. 7 et 26.
+
+The friendship was **personal**, not merely institutional: Anselm wrote to the monks of Bec asking them to salute Hugh and Basilea "as sweetly as you can." The Saint-Nicaise de Meulan priorate (1092) places Hugh in the same Bec-Anselmian network: Guillaume de Montfort (the predecessor whom Hugh replaced as prior) was abbé of Bec when Anselm was its prior.
+
+---
+
+## 8. Children — synthesised
+
+| Name | Dates | Mother | Status | Notes |
+|---|---|---|---|---|
+| Gerard de Gournay | c. 1040–1050 – before 1104, Holy Land | Basilea Flaitel | **Confirmed; G32 in direct line** | Crusader. Married Edith de Warenne. See G32 fact sheet. |
+| Guillaume de Gournay | after 1082 | Basilea Flaitel | **Bracketed in FMG; corroborated by 1082 Caen witness** | "[William] de Gornai" co-witnessed the 1082 Trinité de Caen charter alongside "Girard de Gornai" — likely Gerard's brother. |
+| Hawise de Gournay | after 1112 | uncertain | **Bracketed in FMG; placement disputed** | Pattou: "(peut-être fille d'Hugues IV)" — Pattou hedges between Hugues III and Hugues IV daughter. The Annals of Bermondsey record the donation by "Hawisia de Gurnay" of "ecclesiam de Inglescombe in comitatu Somerset" to the abbey in 1112; this Hawise is likely the Somerset-cadet-line Hawise (Néel/Nigel's descendants), not Hugh III's daughter. |
+| Adélaïde / Adelais (Depoin's hypothesis) | – 8 Apr 1099 (per FMG Beaumont entry) | uncertain; Pattou places at Hugh II level | **Open** | Wife (second) of Yves II de Beaumont-sur-Oise. Depoin's hypothesis. FMG: "the data on which the hypothesis rests is too imprecise to suggest that it is probable." Pattou: "? Adélaïde de Gournay…(selon J. Depoin)" — possible sister of Hugh III, not daughter. |
+
+The FS structured table over-shares ten children (Hugues IV, Adelaide, Judith, Octave, Edwige, Hugh, Gunnora, Guillaume, Hawise, Gerard); only the FMG-bracketed three (Gerard, Guillaume, Hawise) are corroborated by primary or scholarly sources. Pattou main chart shows fewer.
+
+---
+
+## 9. Open questions
+
+1. **The death-year reconciliation (c. 1093 / 1110)**: this synthesis adopts the reconciliation (entered Bec 1080, Prior 1092, died 1110). Older repo language ("died c. 1093") should be revised to "shorn a monk before 1093; died at Bec 1110."
+
+2. **Anfrede / Ansfride**: Potin 1842 has Anfrede as Basilea's mother; *Chronicon Beccensis* has Ansfride as her niece. Hold both; mostly likely Potin garbled.
+
+3. **The Saint-Nicaise de Meulan priorate**: confirmed by Pattou + Potin 1842 (1092, replacing Guillaume de Montfort). Pettigrew's caution should be footnoted but not held back.
+
+4. **Adélaïde / Yves II de Beaumont**: open; Pattou places at Hugh II level (sister), Depoin at Hugh III (daughter), FMG rejects altogether.
+
+5. **Hawise of Inglishcombe**: more likely Somerset-cadet-line Hawise than Hugh III's daughter; should be footnoted in the Pattou annex Néel/Nigel pages, not this G33 file.
+
+6. **Three Gournays at Hastings**: the third name remains unidentified. Néel/Nigel (founder of Somerset cadet line per Pattou) is the strongest candidate for the third figure.
+
+7. **Manassès of Reims as son of Hugh II/III**: still open from earlier work; not a G33 issue per scholarly mainstream.
+
+---
+
+## 10. Sources consulted
+
+| Source | Citation handle |
+|---|---|
+| Daniel Gurney 1845/1848, *Record of the House of Gournay* Part I, pp. 25–27, 55, 65 | `dg-rec-pt1` |
+| DG-Supp (1858) Notes 12–14 (Bec endowments, Augerius, Lessingham) | `dg-rec-supp` |
+| Hannay 1867, ch. III pp. 91–100 | `hannay-three-hundred-years-1867` |
+| Pettigrew 1871, *Collectanea Archaeologica* vol. 2 pp. 183–185 | `pettigrew-collectanea-house-gournay-1871` |
+| Planché 1874, Hugh de Gournay section | `planche-conqueror-companions-1874` |
+| Palgrave 1864, Gerberoi narrative | `palgrave-history-england-normandy-1864` |
+| Anderson 1742, Vol. II pp. 474–475 | `anderson-yvery-1742` |
+| Farrer, Mapledurham section | `farrer-honors-knights-fees-v3-gurnay-extracts` |
+| Loyd 1951/1999 p. 47 | `loyd-anglo-norman-families` |
+| Keates-Rohan 1999 *Domesday People* p. 126 | `keates-rohan-domesday-people-1999` |
+| FMG MedLands (Cawley), Hugues III + collateral sections | `fmg-medlands-normacre` |
+| Pattou *Racines Histoire* (2025-08-11) | `pattou-racines-histoire-gournay-2025` |
+| Potin 1842 *Recherches…ville de Gournay* pp. 105, 108–110 | `dg-recherches-potin-1842` (proposed) |
+| NRP-I 1852 *Recherches…possessions des sires* | `nrp-recherches-vol1-1852` (proposed) |
+| Painchault 2012 (PURH) | `painchault-gaillefontaine-2012` (proposed) |
+| Normonde authority file (Caen), Hugues Ier de Gournay entry | `normonde-hugues-1er` (proposed) |
+| Richardson SGM 2002 / *Royal Ancestry* III | `richardson-royal-ancestry-v3` |
+| *Chronicon Beccensis Abbatiæ* (via DG and *Neustria Pia*) | `chron-beccensis-abbatiae` (proposed) |
+| *Anselmi Cantuarensis Opera Omnia* (Schmitt) lib. iv epist. 7 et 26 | `anselm-opera-schmitt` (proposed) |
+| Wace, *Roman de Rou* T. 2 | `wace-roman-de-rou` (proposed) |
+| Gabriel Dumoulin, *Histoire générale de Normandie* (1631) p. 185 | `dumoulin-histoire-generale-1631` (proposed) |
+| Open Domesday verifications (Liston, Fordham, Ardleigh) | (URLs) |
+| Morant, *History of Essex* (1768) vol. ii p. 31 | `morant-essex-1768` |
+| *Regesta Regum Anglo-Normannorum* ed. Bates 1998 (Caen 1077, 1082) | `regesta-bates-1998` (proposed) |
+| French Wikipedia, *Famille de Gournay* | (URL) |
+| Histoireeurope.fr (Manassès of Reims hypothesis) | (URL) |
+| Geni / WikiTree Gournay-10 | (URL) |
+| Lorraine *Histoire de Lorraine* (Calmet) — Maison de Gournay genealogy via M. Palain de Mongnigny + 1674 Metz judgment | `histoire-de-lorraine-calmet` (proposed) |
