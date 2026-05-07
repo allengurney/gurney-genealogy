@@ -70,7 +70,7 @@ factsheet:
 <h2 class="unnumbered">Highlights</h2>
 
 <ul>
-  <li><strong>The first confirmed ancestor.</strong> A charter of 989–996, preserved in connection with the priory of La Ferté-en-Bray, names "Renaud" and his wife "Alberarda" directly. Their son Gautier issued the document "*imperante fratre meo Hugone*" — "at the command of my brother Hugh." The charter was witnessed by Duke Richard I (Sans-Peur), his son Richard II, and Robert, Archbishop of Rouen — since Robert acquired his see in 989 and Richard I died in 996, the date window is firm. Hannay noted that "the donations were very considerable, and show that the house was great." <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></li>
+  <li><strong>The first ancestor named in a primary document.</strong> A charter of 989–996, preserved in connection with the priory of La Ferté-en-Bray, names "Renaud" and his wife "Alberarda" directly. Their son Gautier issued the document "*impetrante fratre meo Hugone*" — "at the entreaty of my brother Hugh." Witnesses: Duke Richard I (Sans-Peur), his son Richard II, Robert Archbishop of Rouen, a count also named Robert, and a dedicating Bishop named Hugues. Five churches given at foundation: Fry, Argueil, Saint-Samson, Boulay, Bruquedale. The dual presence of Richard I (d. 996) and Archbishop Robert (appointed 989) brackets the date 989–996. The charter survives only in transcription via M. de Gondeville's MS *Histoire de Gournay* — the original is lost; <a href="https://en.wikipedia.org/wiki/L%C3%A9opold_Delisle">Léopold Delisle</a> could not locate it in the Évreux archives. The charter remains the linchpin of Renaud's existence in the documentary record. <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></li>
   <li><strong>Two sons, two legacies.</strong> Son Gautier de la Ferté founded the priory. Son Hugh II (Renaud's heir as lord of Gournay) became one of the principal Norman commanders at the Battle of Mortemer in 1054 and went on to witness charters of Duke William of Normandy — who would conquer England in 1066. The family's trajectory from frontier warriors to players on the European stage accelerated sharply in Renaud's children's generation. <sup class="fn"><a href="#n6" id="ref-6">6</a></sup></li>
   <li><strong>His wife's name survives — nothing else about her does.</strong> "Alberarda" (or Alberade) appears only in the La Ferté charter. She is the first named woman in the Gurney line. <sup class="fn"><a href="#n4" id="ref-4b">4</a></sup></li>
   <li><strong>Living in the transition from Norse sea-king to Norman gentleman.</strong> Hannay placed Renaud "just into the transition time — the stage in which the Norman gentleman was developing out of the Norse sea-king." He would have spoken the Romance tongue, embraced the Church, encouraged architecture, and yet retained the martial habits of his ancestors. The Pays de Bray in his era was being transformed from frontier wildland into cultivated orchards and vineyards. <sup class="fn"><a href="#n5b" id="ref-5c">5</a></sup></li>
@@ -92,16 +92,22 @@ factsheet:
   </thead>
   <tbody>
     <tr>
-      <td>Hugh de Gournay II</td>
-      <td>c. 985 — d. c. 1074</td>
+      <td>Hugh de Gournay I</td>
+      <td>fl. c. 990s; died perhaps c. 1040</td>
       <td>Alberade</td>
-      <td>G34 in direct line. "The Fortifier." Commander at Battle of Mortemer 1054. Witnessed charters of Duke William from c. 1060. <sup class="fn"><a href="#n7" id="ref-7">7</a></sup></td>
+      <td>G36 in direct line. The "fratre Hugone" of the la Ferté foundation charter — confirmed elder brother. The standard repo numbering (G36 = Hugh I, the fortifier) follows DG, FMG, and Potin 1842. <sup class="fn"><a href="#n7" id="ref-7">7</a></sup></td>
     </tr>
     <tr>
       <td>Gautier de la Ferté</td>
       <td>fl. c. 989–996</td>
       <td>Alberade</td>
-      <td>Founded priory of La Ferté-en-Bray with consent of elder brother Hugh, naming their father Renaud and mother Alberade. COLLATERAL. <sup class="fn"><a href="#n5" id="ref-5b">5</a></sup></td>
+      <td>Founded priory of La Ferté-en-Bray with consent of elder brother Hugh, naming their father Renaud and mother Alberade. COLLATERAL. The la Ferté line ended with his great-grandson Hugues II de la Ferté (monk at Saint-Ouen 1060, no issue); the seigneurie reverted to the senior Gournay line. <sup class="fn"><a href="#n5" id="ref-5b">5</a></sup></td>
+    </tr>
+    <tr>
+      <td>Raoul (Radulphus)</td>
+      <td>—</td>
+      <td>Alberade</td>
+      <td>"Mort sans postérité" per Potin 1842 p. 65 / NRP-I 1852 p. 77. Local-tradition third son not in the la Ferté charter. COLLATERAL. <sup class="fn"><a href="#n4b" id="ref-4c">4</a></sup></td>
     </tr>
   </tbody>
 </table>
@@ -126,8 +132,9 @@ Renaud's lasting contribution to the family story was a son — Hugh II — who 
   <li id="n1">Dates estimated. Son Hugh II born c. 985; assuming Renaud fathered him c. 20–25 years of age gives a birth estimate of c. 960–965, but DG-I uses c. 970 as the conventional figure. No birth record. <a class="citation-back" href="#ref-1">↩</a></li>
   <li id="n2">Attested in charter of 989–996 (La Ferté-en-Bray priory). Death date unknown. DG-I, p. 25. <a class="citation-back" href="#ref-2">↩</a></li>
   <li id="n3">DG-I, pp. 23, 25. As lord of Gournay, Renaud held the same military obligation as his predecessors: furnishing twelve knights to the duke and defending the eastern marches. <a class="citation-back" href="#ref-3">↩</a></li>
-  <li id="n4">Charter of 989–996, La Ferté-en-Bray priory, naming "Renaud" and "Alberade." Cited DG-I, p. 25. No other information on Alberade survives in any source consulted. <a class="citation-back" href="#ref-4">↩</a></li>
-  <li id="n5">DG-I, p. 25: "Son Gautier de la Ferté founded priory of La Ferté-en-Bray (charter 989–996 names Renaud and his wife Alberade — primary source confirmation of Renaud's existence)." <a class="citation-back" href="#ref-5">↩</a></li>
+  <li id="n4">Charter of 989–996, La Ferté-en-Bray priory, naming "Renaud" and "Alberade." DG-I p. 25; FMG MedLands [883]–[885]. The "de Montdidier" surname sometimes attached to Alberade is community-tree extrapolation with no primary support. <a class="citation-back" href="#ref-4">↩</a></li>
+  <li id="n4b">Pierre Potin de la Mairie, *Recherches historiques sur la ville de Gournay-en-Bray* (1842), p. 65; N.-R. P. de la Mairie, *Recherches…sur les Possessions des Sires Normands de Gournay* Tome I (1852), p. 77. Both add a third son "Raoul (Radulphus), mort sans postérité" — local-tradition addition not in the la Ferté charter or FMG. <a class="citation-back" href="#ref-4c">↩</a></li>
+  <li id="n5">DG-I, p. 25; DG-Supp Note 8 p. 731 (Delisle's confirmation that the original charter is not in the Évreux archives); FMG MedLands [884]/[885] explicitly notes the original charter no longer exists. NRP-I 1852 p. 77–78 gives the fuller witness list: Richard I; Richard II; Robert Archbishop of Rouen; an unnamed Count Robert; and the dedicating Bishop Hugues, who consecrated the priory under the name of Saints Peter and Paul. Pattou (*Racines Histoire* p. 2) hedges with "ou cette fondation peut-être légèrement antérieure à 1026 sous Richard II?" but the dual presence of Richard I and Archbishop Robert ties the foundation to 989–996. <a class="citation-back" href="#ref-5">↩</a></li>
   <li id="n6">DG-I, pp. 25–26 (Hugh II at Mortemer; charter witness). <a class="citation-back" href="#ref-6">↩</a></li>
   <li id="n7">DG-I, pp. 25–26. <a class="citation-back" href="#ref-7">↩</a></li>
 </ol>

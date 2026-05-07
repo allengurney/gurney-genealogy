@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 permalink: /fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html
 title: Hugh de Gournay III Fact Sheet
-pageHeading: Hugh de Gournay III (c. 1020 — d. c. 1093)
+pageHeading: Hugh de Gournay III (c. 1020 — d. 1110)
 subtitle: "Ancestor fact sheet for G33 in the direct Gurney line. At the Battle of Hastings, 1066. Domesday landholder in Essex and Norfolk. Personal friend of St. Anselm. Buried Abbey of Bec. Updated April 2026."
 description: "Compact fact sheet for Hugh de Gournay III in the direct Gurney line."
 bodyClass: bio-page factsheet-page
@@ -28,7 +28,7 @@ factsheet:
     "@type": "Person",
     "name": "Hugh de Gournay III",
     "birthDate": "c. 1020",
-    "deathDate": "c. 1093",
+    "deathDate": "1110",
     "birthPlace": { "@type": "Place", "name": "Gournay-en-Bray, Normandy" },
     "deathPlace": { "@type": "Place", "name": "Normandy (Abbey of Bec)" },
     "description": "Norman knight. At Battle of Hastings 1066. Domesday landholder in Essex and Norfolk. Friend of St. Anselm. Buried Abbey of Bec."
@@ -47,7 +47,7 @@ factsheet:
   </div>
   <div class="fact-item">
     <div class="fact-label">Died</div>
-    <div class="fact-value">c. 1093, Normandy. Known as *Hugo Senex* ("Hugh the Old") for his remarkable longevity — reaching roughly seventy-three. Entered monastic life at the <a href="https://en.wikipedia.org/wiki/Bec_Abbey">Abbey of Bec</a> and was "shorn a monk" before his death. <sup class="fn"><a href="#n2" id="ref-2">2</a></sup></div>
+    <div class="fact-value">1110, <a href="https://en.wikipedia.org/wiki/Bec_Abbey">Abbey of Bec</a>, Normandy. Entered Bec as a monk in 1080, became Prior of Saint-Nicaise de Meulan in 1092, and died in monastic retirement at Bec in 1110 — a thirty-year religious career after some sixty years as a Norman lord. <sup class="fn"><a href="#n2" id="ref-2">2</a></sup></div>
   </div>
   <div class="fact-item">
     <div class="fact-label">Occupation / Status</div>
@@ -126,10 +126,10 @@ Hugh ended his life at the <a href="https://en.wikipedia.org/wiki/Bec_Abbey">Abb
 
 <ol class="citation-list">
   <li id="n1">DG-I, p. 25. Birth c. 1020 inferred from generational spacing and Domesday presence. <a class="citation-back" href="#ref-1">↩</a></li>
-  <li id="n2">DG-I, p. 27: "he was shorn a monk before the year 1093." *Hugo Senex* epithet attested in Norman records — reflecting his exceptional longevity (~73 years). <a class="citation-back" href="#ref-2">↩</a></li>
+  <li id="n2">Death in 1110 per Pierre Potin de la Mairie, *Recherches historiques sur la ville de Gournay-en-Bray* (1842), p. 110: *"Le Hugues que nous nommons Hugues III, mourut en 1110, moine à l'abbaye du Bec."* The repo's earlier "c. 1093" date was DG's reading of "shorn a monk before 1093"; both data points are reconciled by treating 1080 as the year he entered Bec, 1092 as the year he became Prior of Saint-Nicaise de Meulan in succession to Guillaume de Montfort (Pattou *Racines Histoire* p. 2; Potin 1842 p. 109), and 1110 as the year of his death. The "Hugo Senex" epithet earlier attached to this fact sheet has been moved to G34 (Hugh II), where Wace's *Roman de Rou* T. 2 verse "*Et li vieil Hue de Gornai / Ensemble o li sa gent de Brai*" places it. <a class="citation-back" href="#ref-2">↩</a></li>
   <li id="n3">DG-I, pp. 25–27 for charter witness and Domesday holdings. <a class="citation-back" href="#ref-3">↩</a></li>
   <li id="n4">Abbey of Bec (Abbaye Notre-Dame du Bec), commune of Le Bec-Hellouin, Eure. Founded 1034; Lanfranc joined c. 1042; Anselm c. 1059. Substantial ruins survive; the site is open to visitors. <a class="citation-back" href="#ref-4">↩</a></li>
-  <li id="n5">DG-I: Basilia Flaitel named as wife. Previous husband Raoul de Vace: grandson of Duke Richard I. Siblings: Agnes (wife of William Gifford, Earl of Buckingham) and William, Bishop of Évreux. Death date c. 16 January 1099/1100: *Chronicon Beccensis Abbatiæ*, recording three deaths at Bec on consecutive Sundays — Ansfride, Basilia, and Eva wife of William Crispin. <a class="citation-back" href="#ref-5">↩</a></li>
+  <li id="n5">DG-I: Basilia Flaitel named as wife. Previous husband Raoul de Gacé / de Vassy / "Tête-dure" was son of Robert Archbishop of Rouen and Count of Évreux (a son of Duke Richard I and Duchess Gunnor) by his concubine Hélène (Potin 1842 p. 109, citing Moréri); grandson of Richard I via this line. Siblings of Basilea: Agnes (wife of Walter Gifford, Earl of Buckingham) and William, Bishop of Évreux. Basilea's death date c. 16 January 1099/1100 per *Chronicon Beccensis Abbatiæ*: three deaths at Bec on consecutive Sundays — Ansfride (her niece), Basilia, and Eva wife of William Crispin. <a class="citation-back" href="#ref-5">↩</a></li>
   <li id="n6">DG-I, Introduction, p. i: "Hugh de Gournay and his son accompanied William the Conqueror to England, and were among the warriors present at the battle of Hastings." <a class="citation-back" href="#ref-6">↩</a></li>
   <li id="n7">Hannay, pp. 93–94: the "Conquêts Hue de Gournai" — 24 villages in the Beauvaisis creating dual feudal allegiance. <a class="citation-back" href="#ref-7">↩</a></li>
   <li id="n8">Caen charters identified via Richardson, WikiTree, Geni: (1) 1077 foundation of Saint-Étienne (Abbaye-aux-Hommes); (2) 1082 foundation of La Trinité (Abbaye-aux-Dames). Published in *Regesta Regum Anglo-Normannorum* (ed. Bates, 1998). <a class="citation-back" href="#ref-8">↩</a></li>
@@ -174,7 +174,10 @@ Hugh ended his life at the <a href="https://en.wikipedia.org/wiki/Bec_Abbey">Abb
       <tr><td>c. 1078</td><td>Acquires 24 villages in the Beauvaisis — the "Conquêts Hue de Gournai."</td></tr>
       <tr><td>1082</td><td>Witnesses foundation charter of La Trinité (Abbaye-aux-Dames), Caen.</td></tr>
       <tr><td>1086</td><td>Domesday Book records Essex manors: Liston, Fordham, Ardleigh.</td></tr>
-      <tr><td>Before 1093</td><td>Enters monastic life at Abbey of Bec; dies there.</td></tr>
+      <tr><td>1080</td><td>Enters monastic life at Abbey of Bec; donates the tithes of three English manors and half the moute of Bosc-Girard.</td></tr>
+      <tr><td>1092</td><td>Becomes Prior of Saint-Nicaise de Meulan, succeeding Guillaume de Montfort, abbé du Bec.</td></tr>
+      <tr><td>16 Jan 1099/1100</td><td>Wife Basilea dies at Bec, alongside Ansfride and Eva (Chronicon Beccensis triple-death sequence).</td></tr>
+      <tr><td>1110</td><td>Dies at the Abbey of Bec.</td></tr>
     </tbody>
   </table>
 </div>
