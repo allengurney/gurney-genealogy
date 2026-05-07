@@ -163,13 +163,15 @@ For sourced FS entries that conflict with repo (mainly Richardson positions hitt
 
 ### Bucket B — needs human / login (handoff list)
 
-| URL | Expected content | Failure mode | Suggested human action |
-|---|---|---|---|
-| https://www.geni.com/people/Gerard-de-Gournay-Baron-of-Gournay/6000000006582994318 | Geni community profile | Login wall | Browser visit while logged into Geni; paste any non-tree-derived primary citations into chat |
-| https://www.geni.com/people/Hugues-IV-Baron-de-Gournay/6000000002603390248 | Geni profile for Hugh IV | Login wall | Same — only worth opening if Pattou + Richardson don't cover. They do. |
-| https://familysearch.org/ark:/61903/3:1:3QS7-L9QB-X7F5?…&i=81 | FS image-server page for the 1942–1969 Family Group Records Collection card on Gerard de Gournay & Warren | Requires logged-in FS session for image viewer | Logged-in FS image fetch and screenshot to `sources/FS/LBGV-H99/fs-fgr-collection-1942-1969-img82.png` |
-| https://gw.geneanet.org/jeanlev?... and https://gw.geneanet.org/foullon?... | French Geneanet community trees | Geneanet account often required | Browser visit; only paste back if a primary source is cited |
-| https://familysearch.org/ark:/61903/1:1:Q23T-NJBG | Find a Grave Index for Gundred de Gournay/de Mowbray (FAGI 161656935) | FS index entry usable but full FindAGrave page may have more | Browser visit findagrave.com/memorial/161656935 directly |
+**Updated 2026-05-06 after first collaborative URL pass.** Items moved to Bucket A or C as noted.
+
+| URL | Status | Outcome |
+|---|---|---|
+| https://www.geni.com/people/Gerard-de-Gournay-Baron-of-Gournay/6000000006582994318 | **Moved to Bucket A** | Substantial yield — see §8 below. Includes full Daniel Gurney 1845 narrative on Gerard (pp. 67–70), Pam Wilson 2015 note, Perlustration of Yarmouth 1872, R Green / R.B. Stewart child lists. |
+| https://familysearch.org/ark:/61903/3:1:3QS7-L9QB-X7F5?…&i=81 | **Moved to Bucket C** | URL no longer exists (FS image-server returned 404 on 2026-05-06 collaborative pass). Skip. |
+| https://www.geni.com/people/Hugues-IV-Baron-de-Gournay/6000000002603390248 | Bucket B (deferred) | Geni profile for Hugh IV. Likely overlap with Geni Gerard content already retrieved. |
+| https://gw.geneanet.org/jeanlev?... and https://gw.geneanet.org/foullon?... | Bucket B (deferred) | French Geneanet community trees. Geneanet account often required. Only paste back if a primary source is cited. |
+| https://familysearch.org/ark:/61903/1:1:Q23T-NJBG | Bucket B (deferred) | Find a Grave Index for Gundred de Gournay/de Mowbray (FAGI 161656935). Browser visit findagrave.com/memorial/161656935 directly. |
 
 ### Bucket C — redundant / low-value (justified skips)
 
@@ -372,5 +374,148 @@ Sources cited at the top of the entry (FS PDF p. 3):
 - "Hugh III de Gournay…d. 1110" — out of range vs. FMG/DG (-[1093]).
 - "born at of Caistor, by Yarmouth, Norfolk" — chronologically impossible (Caister came into the family via Edith de Warenne, his wife — Gerard cannot have been born at his future wife's father's manor before the Conquest).
 - The TNG site is itself a Magna Charta / Royal Ancestry community-tree platform; it carries Richardson's content but with TNG-induced data errors.
+
+---
+
+## 8. First Bucket B Collaborative Pass — 2026-05-06
+
+### 8.1 Geni Gerard de Gournay profile (URL #2, moved Bucket B → A)
+
+URL: https://www.geni.com/people/Gerard-de-Gournay-Baron-of-Gournay/6000000006582994318
+
+**Highest-yield URL in the entire batch.** The profile aggregates: (a) the full FMG MedLands transcript on Gerard (including the unique-to-this-version `#GerardGournaydied1099` anchor); (b) a Pam Wilson 2015 curator note; (c) the **Perlustration of Yarmouth (1872)** by Charles John Palmer with the Bardolph pedigree; (d) the **full Daniel Gurney 1845 *Record of the House of Gournay* narrative on Gerard (pp. 67–70)** — extensive and a central source for the Walter-as-son-of-Gerard question; (e) the R Green and R.B. Stewart entries with conflicting children lists; (f) Richardson's 2003 SGM post.
+
+#### 8.1.1 Net-new findings
+
+1. **Daniel Gurney 1845 explicitly says Walter was a son of Gerard** (the Walter-as-son question is now grounded in DG's primary text). DG p. 70 verbatim:
+   > "Walter de Gournai was, I think, undoubtedly another son of Gerard; he held lands in Suffolk under the Dampmartins in the reign of Stephen; and was ancestor of the Gournays of West Barsham in Norfolk. It appears a portion of the great fief of Bray was severed, probably at the death of Gerard, in favour of his son Walter, and his descendants, to be held by the tenure called paragium, which I have before noticed."
+
+   Two new substantive details: (a) DG's confidence-level qualifier *"I think, undoubtedly"* — i.e., DG's own framing was confident-but-not-airtight; (b) the **paragium tenure** detail — Walter inherited a younger-son's portion under the medieval *paragium* tenure, a specific feudal arrangement where a younger son held land under his elder brother as feudal superior. This fits DG's broader generational argument (DG-Supp Note 104) and explains the structural relationship between the senior and Norfolk-junior branches.
+
+2. **DG's own analytical correction of the death-date tradition** (DG p. 68):
+   > "The historians of Gournay state that Gerard de Gournay died in this expedition on the 8th of the ides of May (7th May 1097); but I think erroneously as to the year; the day of the month is probably correct, as his obit was celebrated at Beauvais on that day; but Ordericus Vitalis expressly mentions Gerard de Gournay amongst the distinguished leaders who marched from Nice, in the month of June following, in that division of the Christian army headed by Boemond and Robert Curthose."
+
+   So DG himself argued in 1845 that the "8 May 1097 Nice" death date is **wrong as to year, right as to day**. The day of the month (8 May) traces to a Beauvais obituary entry. **The 1097 year is the elder son Gerard's, not the father's.** DG's reading remains the standard interpretation: father survived First Crusade, returned, then died on a second pilgrimage before 1104.
+
+3. **The Beauvais obituary entry — verbatim Latin and translation** (DG p. 68 footnote, citing M. de la Mairie's *Histoire de Gournay*):
+   > *"VIII Idus Maii ob. Girardus de Gornaco, cujus filius Hugo dedit nobis herbagium de Boimonte."*
+
+   Translation: *"On the 8th day before the Ides of May [= 8 May], died Girardus of Gournay, whose son Hugo [Hugues IV] gave us the herbage [pasturage rights] of Boimonte."*
+
+   **A new primary-source attestation**: Gerard's death on 8 May (year unspecified by the obit), with confirmation that his son Hugo gave Beauvais the pasturage rights of Boimonte (likely Beaumont) in his memory. This locates Gerard's death-anniversary commemoration at Beauvais cathedral or chapter, which Gerard had a documented relationship with through the "24 villages" Beauvaisis acquisitions of his father.
+
+4. **The St Sauveur cartulary evidence Gerard returned from Jerusalem** (DG p. 69):
+   > "The original rolls of St. Sauveur are in the possession of M. De Gerville of Valognes; the one referred to reads thus: 'Paganus de Guellebov, monachus noster, dedit terram de Novavilla, quae est in honore Girardi de Gornaiacho, Sancto Salvatori, Gaufrido sacerdote de Alvers, et Willelmo Gradario, et Willelmo Roillet et Gaufrido Pistore nostro testibus.' This donation is clearly made by the returned crusader in the lifetime of his lord, Gerard de Gournay, in the monastery itself, evidenced by the priest of Alvers, the next parish, and the baker of the monks. On the very same roll are two other grants to the abbey, to the last of which is the date 1104, in which year it is, therefore, evident that Gerard de Gournay was still living."
+
+   Translation of the Latin: *"Payn of Guellebov, our monk, gave the land of Novavilla, which is in the honor of Girard of Gournay, to Saint Sauveur, with Gaufrid priest of Alvers, William Gradarius, William Roillet, and Gaufrid our baker as witnesses."*
+
+   **The 1104 date as terminus post quem for Gerard's death** is therefore secured by the St Sauveur cartulary roll, not by the broader chronicle tradition. This is a key primary-source citation for the existing G32 fact-sheet's "before 1104" death.
+
+5. **The Counts of Évreux and Conches private war (DG pp. 67–68)** — vivid Norman-political backstory not in the existing repo:
+   > "From the misconduct and maladministration of Curthose, petty wars existed at this period throughout Normandy. One of these, between the Counts of Evreux and Conches, originated in some offensive words spoken by Isabella, the countess of the latter, against Heloise, the wife of the former. Each roused their friendly knights to assert their cause; and plundered and burnt each others' possessions. They were both spirited, loquacious, and beautiful, and governed their husbands, but they differed in temper; Heloise was cunning and persuasive, fierce and penurious; Isabella was liberal and courageous, good-humoured, merry, and convivial. She rode among the knights, armed as they were, and was as dexterous in the use of their weapons. The Count of Evreux being the most powerful, Ralph de Toni, Count of Conches, applied to William Rufus for assistance, who, rejoicing in this opportunity of interfering in the affairs of Normandy, commanded Stephen Count of Aumale, Gerard de Gournay, and other captains of troops, over whom he had control in the duchy, to assist the Count of Conches against him of Evreux. The result of which was that the siege of Conches was raised, and a peace concluded between the parties."
+
+   **Gerard's command role on William Rufus's behalf in the Évreux–Conches war** is now substantively documented. Cited via Ordericus Vitalis pp. 687, 688.
+
+6. **Pam Wilson 2015 curator note on the speculative first wife**:
+   > "Note from Pam Wilson (11/24/2015): Following the logic of Charles Cawley at FMG, I'm adding a first wife, name unknown, speculated to have been the mother of daughter Amicie since Edith would have been too young. See discussion below."
+
+   **The Geni profile has been updated to reflect FMG Cawley's preferred reading** (Amicie = daughter of Gerard's earlier unrecorded first marriage). Pam Wilson is a Geni curator who applied Cawley's hypothesis as the structural choice for the Geni profile.
+
+7. **Perlustration of Yarmouth (Charles John Palmer, 1872) on the Bardolph descent**:
+   > "Among the followers of William the Conqueror was a Norman knight, named De Gournay from his ancestral castle in France, who in reward for his services obtained large possessions in England. After the suppression of the revolt of Guader, the Saxon Earl of Norfolk in 1075, some of his forfeited estates passed to the Gournays, including the manor of Caister next Yarmouth, where the earl had built a house, called in Domesday book *manerium*. In a pedigree of the family of Bardolph or Bardolf (for the name is written either way), signed by William Dethick, Garter, and William Camden, Clarenceux, in the hand-writing of Sir Henry Spelman and now preserved at Keswick, it is stated that William, Lord Bardolf, married Julia, daughter of Hugh Gournay, and that she brought as her dower, with other possessions, *'the castle of Yarmouth.'* There is no record of the Gournays ever having had a castle at Caister, but merely a manor."
+
+   **The "Julia Gournay" attribution as wife of William Lord Bardolf** is the same "Julia / Julia Adela" name that appears in the Geni Hugh III profile (§9.1.4 of G33 assessment) as a daughter of Hugh III and Basilia. The Palmer 1872 source is a 17th-century pedigree (Spelman's hand, signed by William Dethick Garter and William Camden Clarenceux, both major heralds of the 1590s–1620s era). **Julia is the same person Pattou shows on p. 4 as "Juliane de Gournay" who married William Bardolf** — but Pattou places her four generations later (b. ~1242, d. 1295, daughter of Hugues VI of Mapledurham). The Palmer 1872 / Spelman pedigree compresses generations.
+
+   Palmer adds an interesting detail: *"the suppression of the revolt of Guader, the Saxon Earl of Norfolk in 1075"* — the East Anglian earls' revolt (Ralph de Gaël, the same revolt the Lorraine source garbles as "Conrad of Norveck"). After the revolt's suppression, "some of his forfeited estates passed to the Gournays, including the manor of Caister next Yarmouth." This **dates the Caister acquisition to 1075** — post-Conquest, post-East-Anglian-revolt — and identifies it as a **forfeiture redistribution** rather than an outright Conquest grant. New chronology detail.
+
+8. **Footnote on the Caister tithe donations to Saint-Hildevert** (Palmer 1872):
+   > "There was a donation of the tithes of Caister and Cantley to the chapter of St. Hildevert at Gournay; and Hugh de Gournay granted, by charter, the churches of those parishes to the canons of the same order, which grant was confirmed by the Bishop of Norwich. These documents are printed in the *Record of the House of Gournay*, where is also a copy of an agreement between the above chapter and William Rufus, dean of Flegg, concerning the tithes of Caister."
+
+   **The tithes of Caister and Cantley were granted to Saint-Hildevert at Gournay-en-Bray by Hugh de Gournay** (presumably Hugh III, given the 1075+ dating). The grant was confirmed by the Bishop of Norwich. Charters preserved in DG. **This connects the English Caister/Cantley parishes ecclesiastically back to Saint-Hildevert at Gournay** — the same Saint-Hildevert that the Lorraine source claims Hugh founded (p. 9.2.2 of G33 assessment).
+
+9. **R Green's full children list for Gerard and Edith** (six children, one more than Pattou):
+   > Children of Gerald and Edith
+   > 12...... Hugh IV b abt 1076 d 1180 (This death record is in my view doubtful, but he was said to be of great age)
+   > 13...... Gunnora (Gundred) b abt 1078 m Sir Richard TALBOT of Swanscombe
+   > 14...... Gundred b abt 1097 Northumberland m Neil d'AUBIGNY Jun 1118 Note: Neil was the son of Roger d'Aubigny and Amice de Mowbray
+   > 15...... Amice dob unknown m Richard de TALBOT aft 1181
+   > 16...... Haywise dob unknown The Annals of Bermondsey record the donation by "Hawisia de Gurnay" of "ecclesiam de Inglescombe in comitatu Somerset" to the abbey in 1112
+   > 17...... Walter dob unknown
+
+   Note R Green has TWO Gundred entries — likely a confabulation. The "Hawise donation of Inglescombe to Bermondsey 1112" entry matches Pattou's separate "Hawise dame de Barrow-Gurney et Inglishcombe" donation note (Pattou p. 12), suggesting **R Green's Hawise = Pattou's Hawise of the Somerset cadet line, not Hawise daughter of Hugh III**. Yet another generational confusion.
+
+10. **R.B. Stewart's "Five children" list** (different again from R Green):
+    > "Gerard de Gournay, Baron of Yarmouth, was a grand Seigneur. He married Edith, daughter of William, Earl of Varenne in France, and 1st Earl of Warren and Surrey, in England, so created by William, the Conqueror, with whom he came to England in 1066. They had five children: Hugues III, Gautier, Anseau, Gonnor and Gundred."
+
+    **"Hugues III, Gautier, Anseau, Gonnor and Gundred"** — Stewart names a son **"Gautier"** (= Walter, supporting DG) AND a son **"Anseau"** (= Anselm? — possibly the Anselme of Pattou's "non connectés" / Somerset line confusion). And he calls Gerard "Baron of Yarmouth" — no other source uses this title.
+
+11. **The Henry I taking-Gerard's-children narrative** (R.B. Stewart, citing Mellcene Smith):
+    > "He went on the First Crusade and died on the way home on the 8th of May, 1097. Edith, who had accompanied him, was taken back to Normandy by Drogon, a Chevallier and friend of Gerard, who after married her, and they had a son. Drogon had rich manoirs of his own, but Henry I, of England, under pretense of danger to Gerard's children, put senechals in all their manoirs, took their fortresses, and took Gerard's children to himself."
+
+    **The Henry I "taking Gerard's children to himself"** is the same wardship arrangement Richardson 2002 SGM describes ("During his minority, he was raised by King Henry I and his lands were administered by Drew de Monceaux, his step-father"). Stewart's framing emphasizes Henry I's coercive seizure under "pretense of danger to Gerard's children." Useful color for a fact-sheet narrative.
+
+#### 8.1.2 The full Daniel Gurney 1845 narrative on Gerard de Gournay (verbatim, pp. 67–70)
+
+Reproduced verbatim because this is the **single most substantive source on Gerard** in the entire batch and central to the Walter-as-son-of-Gerard question:
+
+> GERARD DE GOURNAY first occurs in the foundation deed of the Abbey of the Holy Trinity at Caen, by William the Conqueror and his Queen Matilda, in 1082. (Appendix IX.) About the same time, he, in conjunction with Hugh and Basilia, his father and mother, confirmed a donation from Ralf Havot, one of their vassals, of land at Bosc-Huon, a village near Gournay, to the abbey of Jumieges. See the charter. (Appendix VI.) In conjunction with his mother Basilia, he gave to the monastery of Bec half of the whole manor of Longueil, the church of Brefmoutier, with the land and tithe, and its appurtenances, as also the manor of Boisgerard; also the church of Massy, previously given to that abbey by his father. He also gave the manor of Lessingham, in Norfolk, to the same abbey, and founded a priory there. The abbey of Bec subjected this priory to that at Okeburn in Wiltshire, the chief of all the houses in England belonging to that foreign monastery. It was seized, in common with other alien lands, during the wars with France; and was, together with all alien priories, dissolved at the Parliament of Leicester, an. 2 Henry V.
+>
+> It is probable Gerard de Gournay and his father Hugh III. made other donations to the abbey of Bec, but it is uncertain what they were, as nearly all the muniments of that abbey have perished, a great loss in the documentary evidence of this part of our record.
+>
+> Gerard de Gournay married Editha, or Ediva, daughter of William de Warren, first Earl of Surrey, by Gundred, said by some authorities to be daughter of William the Conqueror. This William de Warren was Count of Guarenne in Normandy, a feoff situated near St. Aubin en Caux. He was related to the Dukes of Normandy through his mother, one of the nieces of the Countess Gunnora, wife of Richard I. and was in high favour with William the Conqueror, whom he accompanied to England. In 1073 he was made Grand Justiciary of England, jointly with Richard de Bienfaite; he was also one of the generals who assisted to suppress the rebellion of Ralph de Guaer, Earl of the East Angles, in 1074. Probably some of the estates of the latter were given to Earl Warren, as at the survey he held 296 manors, of which 139 were in Norfolk. He was much under the influence of Lanfranc Archbishop of Canterbury, and sided with William Rufus on the occasion of Odo's rebellion in favour of Curthose, partly through the persuasion of that prelate. The earldom of Surrey was conferred upon him in 1087 by William Rufus. He founded the priories of Lewes, in Sussex, and Castle-Acre, in Norfolk, near his castles at those places. The Lady Gundred his wife died at Castle-Acre in 1085, and he himself in 1089; they were both buried at Lewes Priory. (Appendix XIII.)
+>
+> Gerard de Gournay, by his wife Editha, daughter of this great and powerful earl, received, with her, estates both in Normandy and England, as appears by a law-suit undertaken by his grandson Hugh de Gournay V. in the reign of John. It is impossible, however, to trace what the estates were. Mapledurham-Gurney, in Oxfordshire, belonged at the survey to Earl Warren, and was afterwards in the Gournays, and therefore was doubtless part of the inheritance of this lady; indeed, in consequence of this marriage, and the great estates the Gournays acquired by it, Camden says that they came of the same stock as the Warrens, Earls of Surrey, and the Mortimers. Many of the fiefs of the Gournays, amongst others Caistor, had belonged to Ralf de Guader the Saxon Earl of Norfolk. It appears from Domesday Book that this Earl had built a manor-house at Caistor. At the survey most of his lands were in the king's hands, who afterwards gave them to various retainers (Appendix XIV.), and amongst others some to the Gournays. These English possessions of the Gournays formed together the English barony of Gournay, which as before stated was a barony by tenure. (Appendix XV.)
+>
+> Like his father-in-law William de Warren, Gerard de Gournay was a decided supporter of William Rufus, against Robert Curthose, in 1090, when the former prince sent over persons to tamper with the Norman barons, the subjects of his elder brother their Duke. On this occasion, Gerard placed in the hands of Rufus, Gournay, La Ferté, Gaillefontaine, and his other fortresses; of these the Castle of La Ferté was besieged by the forces of Duke Robert and the King of the French, who succeeded in taking it. Following the example of Gerard de Gournay, Robert Earl of Eu, Walter Giffard, Lord of Longueville, Ralph de Mortimer, and almost all the other barons of Caux and Brai went over to the same side. Curthose soon after called in the assistance of Fulke Count of Anjou, who gave it upon condition of obtaining in marriage the beautiful Beldrade, daughter of Simon de Montfort, and niece of William Count of Evreux, who consented to the marriage, provided certain manors of Raoul de Gacé, surnamed Tete d'Ane, were given to him and his nephew William de Breteul. This was agreed to, with the exception of the Castle of Escouche, possessed by Gerard de Gournay, who was a man of such power and valour that no one had the courage to dispossess him of it, more especially as he greatly delighted in the place, and frequently made his residence there; and considering also that he said he had a right to it, because of his mother Basilia, daughter of Gerard Flaitel.
+>
+> [The Évreux–Conches private war narrative on Heloise and Isabella, already extracted in §8.1.1 #5 above.]
+>
+> In the year 1090, the inhabitants of Rouen, principally the nobles, wished to take Rufus for their prince, Conan, son of Gilbert Pilate, being their head; upon which Conan sent to the garrison of Gournay, and the royal troops, and proposed that they should take possession of Rouen; but this scheme was not successful.
+>
+> Peace was at length made between the two brothers, Rufus and Curthose; amongst the articles of which the Duke gave up to his good brother the King of England the county of Eu, the castle of Aumale, the land and appurtenances of Gerard de Gournay and of Raoul de Conches, and the abbey of Fescamp, and all other places which he had taken. Accordingly we find that in 1091, the Count d'Eu, Stephen d'Aumale, Gerard de Gournay, Raoul de Conches, and a great many other Norman barons acknowledged William Rufus for their sovereign. At the same time prince Henry, youngest son of William the Conqueror, had possessed himself of the castle of Domfront, and almost all the Cotentin. In short, in a few years Normandy was reduced to such a state of disorganization by the laxity and feebleness of Duke Robert, that he determined to assume the cross; and, mortgaging his duchy to his brother the King of England for ten thousand marks of silver, he set out on this expedition to the Holy Land, accompanied by many Normans of high birth; among others by Gautier de St. Valery, Rotrou son of the Earl of Mortagne, Ralph de Guaer the banished Earl of the East Angles, Gerard de Gournay, and others: all of these the chronicler describes as *"eximiæ strenuitatis milites."*
+>
+> The Norman crusaders left their own country in the month of September 1096; they wintered in Apulia; and early in the next year, crossing the Adriatic to Durazzo, proceeded to Constantinople, where they did homage to the Emperor Alexius. Having passed the Bosphorus, they laid siege to Nice, in Asia Minor; at that time a place of great strength. Albert of Aix, who himself accompanied the expedition, mentions Gerard de Gournay as amongst the valiant knights who pitched their tents before this great fortress of the Infidels. The first assault was conducted on Ascension Day 1097 (14th April of that year). The sultan made a great effort to relieve his capital; and, descending from the mountains with 50,000 men, a bloody battle ensued between him and the Christian forces, in which the latter were victorious; and the crusaders, thus left at liberty, pushed their attack with vigour, and the place surrendered to them on the 20th June, after a siege of nearly two months. The historians of Gournay state that Gerard de Gournay died in this expedition on the 8th of the ides of May (7th May 1097); but I think erroneously as to the year; the day of the month is probably correct, as his obit was celebrated at Beauvais on that day; but Ordericus Vitalis expressly mentions Gerard de Gournay amongst the distinguished leaders who marched from Nice, in the month of June following, in that division of the Christian army headed by Boemond and Robert Curthose. The army of the crusaders had been divided into two on leaving Nice; the other division was led by the celebrated Godfrey of Bouillon; that under Boemond and Robert of Normandy was attacked by the Saracens, and in imminent peril, when Godfrey and his troops came to their assistance. It is recorded that Robert Curthose, supported by Gerard de Gournay, Robert de Barneville, and the rest of his renowned knights, received the charge of the Moslems with undaunted firmness; and, seizing the white standard, he rushed among the Turks with cries of *"Diex il volt,"* and thus restored the fortune of the fight until Godfrey came to his assistance.
+>
+> [Ascension Day correction: 14 April was Easter 1097; Ascension Day 1097 was 22 May. The "first assault on Ascension Day" likely refers to a different event in the siege of Nicaea timeline. DG's chronology may be off here.]
+>
+> I find no further mention of Gerard de Gournay, in the histories of the crusades; but he certainly accompanied Robert Curthose throughout the first crusade to Jerusalem, and probably returned into Normandy with him in 1099. The rolls of the abbey of St. Sauveur in the Cotentin afford positive evidence of his having reached Jerusalem, and returned into Normandy. Payn of Elbeuf, one of his vassals, accompanied him to the holy city; and on his return became a monk at St. Sauveur; he gave to that religious house all his land in Neuville sur Dieppe, which donation Gerard de Gournay his lord confirmed, and afterwards Hugh IV, his son, and it is expressly stated in the charter, that Payn of Elbeuf had accompanied Gerard to Jerusalem. (Appendix XXII.)
+>
+> [The St Sauveur cartulary roll citation already extracted in §8.1.1 #4 above.]
+>
+> From this it is certain that Gerard went to the Holy Land in the first crusade; and, although not fortunate enough to be immortalised by the muse of Tasso, he was the companion in arms of Godfrey and Boemond and Tancred, and, returning to Normandy, after a few years again attempted to visit the scenes of his former exploits; and, accompanied by his wife Editha, set out on a pilgrimage to Jerusalem; and died on the journey, on the 8th of the ides of May, but in what year does not appear. It is thus I interpret the words of William of Jumieges — *Giraldus tandem Hierusalem petens cum uxore sua Editha, in ipso itinere mortuus est.* (Appendix XVI.)
+>
+> [Translation: *"Giraldus, finally seeking Jerusalem with his wife Editha, died on the very journey."*]
+>
+> Upon this Editha, his widow, returned into Normandy, and remarried to Dreux de Monceaux, or de Moncy. By her second husband, Editha had a son, Dreux de Monceaux, who, or else his father, witnessed the foundation charter of the Abbey of Dunstable in England by Henry I. The name of their descendants frequently occurs in the Monasticon Anglicanum.
+>
+> Gerard de Gournay left issue by Editha de Warren his wife,
+>
+> 1. 1st. Hugh, his son and heir, of whom hereafter.
+> 2. 2nd. ——, a daughter, married to Richard de Talbot.
+> 3. 3rd. Gondree, married to Neil d'Albini.
+>
+> M. De La Mairie says, in his History of Gournay, that some authors give to Gerard another son, Renaud de Gournay, who had a son Hugh.
+>
+> Walter de Gournai was, I think, undoubtedly another son of Gerard; he held lands in Suffolk under the Dampmartins in the reign of Stephen; and was ancestor of the Gournays of West Barsham in Norfolk. It appears a portion of the great fief of Bray was severed, probably at the death of Gerard, in favour of his son Walter, and his descendants, to be held by the tenure called paragium, which I have before noticed. I shall give the details of this Norman fief in the Second Part of this Record, which treats of the descendants of Walter de Gournay.
+
+#### 8.1.3 The Walter-as-son-of-Gerard question — current state after this pass
+
+Three distinct positions, each with named primary-or-secondary backing, now documented:
+
+| Position | Source | Strength of backing |
+|---|---|---|
+| Walter is son of Gerard (DG view) | Daniel Gurney 1845 *Record* p. 70 ("I think, undoubtedly"); Pettigrew 1871 (summary); paragium-tenure inheritance pattern explained | DG's own confidence wording is qualified ("I think, undoubtedly"); pattern is plausible feudal logic but unsupported by named primary charter |
+| Walter is grandson of Gerard (Pattou view) | Pattou companion p. 5 ("possible petit-fils de Girard de Gournay et d'Edive de Warenne") | Pattou hedges with "possible" |
+| Walter is unrelated to senior Gournay line (Richardson view) | Richardson SGM 11 Sep 2002 post; bibliography includes Hasted 4, Copinger Manors of Suffolk 3, Loyd & Stenton, VCH Essex 4, *Genealogist* 15, Power *Norman Frontier*, Tanner *Fams., Friends, & Allies* | Richardson's bibliography is the most extensive; he cites multiple modern scholarly works against DG |
+
+**Bottom line**: the question is **unresolved in modern scholarship** with three positions and no decisive primary charter. The repo's direct line through Walter (G31) → Gerard (G32) currently follows DG. **A `research/case-files/walter-de-gournay-as-son-of-gerard.md` is the right destination** for this — collecting all three positions side by side, citing each scholar's exact wording, and documenting that the repo's adoption of position #1 (DG view) is a conscious editorial choice rather than a settled scholarly fact.
+
+#### 8.1.4 The Pam Wilson 2015 Geni curator note (verbatim)
+
+> Note from Pam Wilson (11/24/2015): Following the logic of Charles Cawley at FMG, I'm adding a first wife, name unknown, speculated to have been the mother of daughter Amicie since Edith would have been too young. See discussion below.
+
+This note is **a process artifact**: it documents that the Geni profile's structure as of 2015 shifted to align with FMG Cawley's preferred reading on Amicie. Useful for understanding the Geni profile's editorial history.
+
+
 
 

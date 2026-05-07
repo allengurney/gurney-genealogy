@@ -312,4 +312,59 @@ The **plain sable origin → engrailed cross at Hugues V** transition is heraldi
 The 1844 NRP de La Mairie *Recherches historiques* engraving series (Pattou pp. 16–17) includes:
 - **N° 5: "Secondes armoiries des Sires Normands de Gournay"** = "Second arms of the Norman lords of Gournay" — the engrailed cross. The "Secondes" (second) explicitly contrasts with the original sable arms — confirming that the Norman lords had a documented two-arms history with the black shield as primary/original and the engrailed cross as the second adoption.
 
+---
+
+## 8. First Bucket B Collaborative Pass — 2026-05-06
+
+### 8.1 Histoire de Lorraine — competing origin story (Vuldus de Gournay from Metz c. 960)
+
+The Calmet *Histoire de Lorraine* Maison de Gournay genealogy (companion artifact at `sources/FS/Histoire_de_Lorraine_depuis_l_entrée_de.pdf`, gitignored 116MB; text extract at `sources/FS/lorraine-maison-de-gournay-extract.txt`) was retrieved during the first collaborative URL pass. The genealogy is signed by **M. Palain de Mongnigny** and based on a 1674 Metz judgment by M. Poncet de la Riviere.
+
+**Critical for G36/G37**: the Lorraine source presents an **alternative origin story** that competes directly with the repo's Eudes / Hugh I tradition.
+
+#### 8.1.1 The Vuldus origin claim — verbatim and translation
+
+> *"Cette Maison est une des plus anciennes de la Ville de Metz, où elle a rempli les premières dignités militaires et civiles…*
+>
+> *Vuldus de Gournay partit de Metz vers l'an 960. pour aller trouver Guillaume le Conquérant, qu'il servit avec tant de courage et de fidélité, qu'il en reçut pour récompense la Ville de Gournay en Normandie, avec dix-huit Villages pour lui et Hugues de Gournay, son fils, qui suit."*
+
+Translation:
+
+> *"This House is one of the most ancient of the City of Metz, where it has filled the first military and civil dignities…*
+>
+> *Vuldus de Gournay left Metz around the year 960 to go find William the Conqueror, whom he served with such courage and fidelity that he received as reward the Town of Gournay in Normandy, with eighteen villages for himself and Hugues de Gournay, his son, who follows."*
+
+#### 8.1.2 Analysis of the Vuldus claim
+
+1. **Anachronism**: William the Conqueror was born c. 1028. There was no "William the Conqueror" in 960. The Lorraine source's chronology is **broken at its starting point**. Possible reconciliations:
+   - "Vuldus" left Metz c. 960 and was rewarded by **William Longsword** (d. 942) — but Longsword died ~20 years before the Vuldus departure date.
+   - "Vuldus" left Metz c. 960 and was rewarded by **Richard I** (d. 996) — chronologically possible but Richard I is not "the Conqueror."
+   - The Lorraine source has compressed multiple generations and confused dukes.
+
+2. **Conflict with the Eudes/Rollon tradition** (the repo's G37): the Eudes tradition places the original Gournay grant by **Rollo** (d. c. 932) c. 912 — i.e., 50 years before the Vuldus claim's "c. 960." The two foundation stories are mutually exclusive. The repo follows the Eudes/Rollon tradition (per DG, FMG, Pattou, French Wikipedia).
+
+3. **The "Vuldus" name** has no parallel in the Eudes/Rollon tradition. It may be:
+   - A genuine Metz-Lorraine ancestor independent of the Norman Gournays (whose family later borrowed the Gournay name for prestige).
+   - A garbled recollection of "Eudes" (the Norman founder per the Rollon tradition) processed through Lorraine oral tradition over 700 years.
+   - A 17th-century Metz fabrication for prestigious descent.
+
+4. **The "Hugues de Gournay, son fils, qui suit"** then leads into the Lorraine source's "Hugues, Comte de Gournay" (the 1074 Norveck/Norwich figure — see G34 §8.1) and the rest of the Norman line. So the Lorraine source's chain is: **Vuldus (c. 960) → Hugues (1074 Norveck) → Gerard → Hugues II [= repo's Hugh IV] → Thiedric (1106) → Metz line**. This compresses 5+ generations between "Vuldus c. 960" and "Hugues 1074" into a single father-son link, which is also chronologically impossible (a single 60-year father-son span doesn't cover 110 years).
+
+#### 8.1.3 Bottom line for G36/G37
+
+The Lorraine source's Vuldus claim is **not adoptable** as Norman-Gournay history. It is a 17th-century Metz family origin myth. **Do not incorporate Vuldus into the repo's G37 / G36 chain.**
+
+But the Vuldus claim is **worth recording as a documented competing tradition** because:
+- It demonstrates that 17th-century French genealogists were already aware of multiple alternative origin stories for the Gournay name.
+- It corroborates the existence of a separate Metz "Gournay or Gronaix" family with its own heraldry (gules, three towers of silver) — distinct from the Norman Gournays (sable plain → engrailed cross).
+- It illustrates the kind of compressed-chronology confabulation that arises when 700-year-old foundation legends are reconstructed by descendants seeking prestigious origins.
+
+The repo's G37 (Eudes c. 860 / c. 912) and G36 (Hugh I c. 945–950, the fortifier) chain — based on DG, FMG, Pattou, French Wikipedia — should be retained as-is. The Vuldus story is documented here for completeness but explicitly not adopted.
+
+### 8.2 The Foucarmont theme across multiple sources
+
+The repeated Foucarmont attributions (Marthe de Foucarmont as wife of Eudes; Alix de Gournay m. Eudes de Foucarmont as possible sister of Hugues 1er) gain some additional weight when read alongside the Lorraine source: a Pays-de-Bray frontier alliance pattern with the Foucarmont family is **structurally plausible** (Foucarmont is in the Pays de Bray near Eu/Aumale, ~30 km north of Gournay-en-Bray). But none of the Foucarmont attributions are documented by primary sources.
+
+**No update to repo's G36/G37 from the Foucarmont theme** — Pattou's `?` markers remain the right level of confidence.
+
 

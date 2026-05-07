@@ -307,4 +307,43 @@ Children #2 Amicie de Gournay (G5KJ-1SF):
 
 This Amicie matches Pattou's "Non connectés" entry (p. 18): *"? Amicie de Gournay ° ~1023 + 1075 ép. Rigobert de Saint-Saëns, chevalier ° 998 + 1054"*. Pattou's `?` flags her as unconnected; FS over-claims by connecting her as a confirmed daughter of Hugues II. The marriage to Rigobert III de Saint-Saëns is plausible for a Pays-de-Bray family alliance c. 1038 but unsubstantiated by a primary source.
 
+---
+
+## 8. First Bucket B Collaborative Pass — 2026-05-06
+
+### 8.1 Histoire de Lorraine — supporting evidence for the "Norwich, not Cardiff" hypothesis
+
+The Calmet *Histoire de Lorraine* Maison de Gournay genealogy (companion artifact at `sources/FS/Histoire_de_Lorraine_depuis_l_entrée_de.pdf`, gitignored 116MB; text extract at `sources/FS/lorraine-maison-de-gournay-extract.txt`) was retrieved during the first collaborative URL pass.
+
+The genealogy is signed by **M. Palain de Mongnigny** and based on a 1674 Metz judgment by M. Poncet de la Riviere. It documents a Metz / Lorraine "Gournay or Gronaix" family that claims Norman descent.
+
+**Critical for G34**: the Lorraine source identifies the 1074 conflict that traditionally killed Hugh II as being against **"Conrade Roi de Norveck"** — Conrad King of Norveck (Norwich/Norfolk):
+
+> *"Hugues de Gournay, premier Chef et Commandant l'Armée Navale de Guillaume, le Conquérant, contre Conrade Roi de Norveck en 1074. s'acquitta si dignement de cette charge, que Guillaume lui donna l'Évêché entier de Norveck, où il fonda la Collégiale de S. Hildebert de Gournay."*
+
+Translation: *"Hugues de Gournay, first Chief and Commander of the Naval Army of William the Conqueror, against Conrad King of Norveck in 1074, acquitted himself so worthily of this charge that William gave him the entire Bishopric of Norveck, where he founded the Collegiate Church of St. Hildebert of Gournay."*
+
+**Significance**: this is **a third independent source** that places the 1074 conflict in **Norfolk / Norwich** rather than Wales. The previous two were:
+- The DG/repo hypothesis: "Cardiff" = scribal corruption of "Norwich" (DG-Supp Note 10).
+- FMG MedLands: "the historical basis of the account is uncertain" (FS PDF p. 3).
+
+The Lorraine source provides "Conrade Roi de Norveck" as the proper-noun corruption pattern — "Conrade" replaces FMG's "Canut [roi] de Norvège," and "Norveck" replaces "Norvège." Both corruption patterns share the same underlying mistake: **a 1074 East-Anglian event got remembered as a foreign (Scandinavian / Welsh) king's invasion**. The 1075 East-Anglian rebellion of Earl Ralph de Gaël (with Danish reinforcement) is the most probable historical event being garbled.
+
+**Action for G34**: strengthen the existing companion's "Battle of Cardiff" working note (line 19) with this third corroboration. The repo's "possibly died from wounds received at an East-Anglian engagement, traditionally remembered as 'Cardiff'" framing is now triply supported (DG, MedLands, Lorraine).
+
+**Caveats on the Lorraine source**:
+- "Bishopric of Norveck" granted by William to a layman is anachronistic (William did not grant bishoprics as fiefs); this is confabulation.
+- "Comte de Gournay" — the Lorraine source elevates Hugues to Count, not just Lord/Sieur. No other source supports this title.
+- The Lorraine source is a 17th-century Metz family genealogy claiming prestigious Norman descent; it is full of confused conflations and should not be adopted as authoritative for any specific factual claim.
+
+### 8.2 Lorraine source — Hugues "Comte de Gournay" attribution
+
+> *"Ce Hugues, Comte de Gournay, épousa Basile de Flatelly, Comtesse de Varenne et de Sury en Angleterre, dont il eut Gerard de Gournay…"*
+
+Translation: *"This Hugues, Count of Gournay, married Basile de Flatelly, Countess of Warren and Surrey in England, of whom he had Gerard de Gournay…"*
+
+The Lorraine source **conflates Basilia (Hugh's wife) with Edith de Warenne (Hugh's daughter-in-law)** — treating Basilia as Countess of Warren/Surrey, which she was not. Edith was the Warenne; Basilia was Flaitel. **The Lorraine genealogy collapses two generations of women into one** — a recurring pattern in 17th-century French scholarship on Norman families.
+
+**Useful for G34 only as documentation of the kind of confusion that proliferates around the Hugues II / Hugues III junction.** Do not adopt.
+
 

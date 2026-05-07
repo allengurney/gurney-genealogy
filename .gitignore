@@ -150,6 +150,10 @@ vite.config.ts.timestamp-*
 # Per-user / per-machine Claude Code permission allowlist.
 .claude/settings.local.json
 
+# Large reference PDFs that exceed GitHub's 100MB file size limit.
+# Keep these locally; commit text extracts (e.g., *-extract.txt) instead.
+sources/FS/Histoire_de_Lorraine_*.pdf
+
 # Local package cache used when npm is unavailable in the sandbox.
 site/website/.pkg-cache/
 

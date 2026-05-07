@@ -194,16 +194,18 @@ For discrepancies where FS is sourced (not many in this export):
 
 ### Bucket B — needs human / login (handoff list)
 
-| URL | Expected content | Failure mode | Suggested human action |
-|---|---|---|---|
-| https://www.geni.com/people/Hugues-de-Gournay-III/6000000000154070463 | Geni community profile aggregating multiple trees | Login wall typical for full-profile data | Browser visit while logged into Geni; paste any non-Geni-tree-derived sources into chat |
-| https://www.thepeerage.com/p73110.htm | Lundy/Harmsen entry; relevant content already partially embedded in PDF p. 4 | Page may render but is mostly redundant with the embedded extract | Browser visit; only paste back if page contains content beyond the FS-embedded extract |
-| https://familysearch.org/ark:/61903/3:1:3QS7-L9QB-X7F5?cc=2060211&wc=WWF8-FW3:352086301,352553201&i=81 | "Family Group Records Collection 1942–1969" image 82 of 1330 — LDS Archives Section card on Gerard de Gourney/Warren | Requires authenticated FS session for image viewer | Logged-in FS image fetch; download as `sources/FS/MZ68-VKD/fs-fgr-collection-1942-1969-img82.png` (or PDF), document what is on the card |
-| http://familysearch.org/patron/source/photoId/203028445 | FamilySearch Memories upload of the Pattou PDF | Same FS auth path as above; redundant since we have the PDF directly | Skip — companion PDF already in `sources/FS/MZ68-VKD/` |
-| https://gw.geneanet.org/jeanlev?lang=en&pz=jean+arsene+henri&nz=levallois&p=hugues&n=de+gournay+en+bray | Jean Levallois's Geneanet tree | Geneanet usually requires account for full tree access | Browser visit; only worth pasting back if it cites a primary source not already in MedLands or Pattou |
-| http://search.ancestry.com/cgi-bin/sse.dll?dbid=70699&h=4725483 | Web International FindAGrave Index entry | Ancestry login required | Logged-in Ancestry visit; index entry only — likely redundant with the FS-side FindAGrave index already shown |
-| https://books.google.fr/books?id=Hp9rQFd3ILgC&hl=fr&pg=RA2-PR200 | Histoire de Lorraine Vol. V — Maison de Gournay introduction starting p. cxcix | Google Books may show snippet only depending on copyright | Browser visit; download/screenshot pp. cxcix–cciii if shown |
-| http://www.lewisfamilytree.com/suggest.php?enttype=I&ID=I345&tree=lewis | TNG-style "Lewis-Powers Family History" entry | TNG sites often work but may aggregate community sources | Browser visit; low priority, very unlikely to add primary-source value |
+**Updated 2026-05-06 after first collaborative URL pass.** Items moved to Bucket A or C as noted.
+
+| URL | Status | Outcome |
+|---|---|---|
+| https://www.geni.com/people/Hugues-de-Gournay-III/6000000000154070463 | **Moved to Bucket A** | See §9 below — substantial yield including new sibling claims, Mellcene Smith narrative, R.B. Stewart entry. |
+| https://familysearch.org/ark:/61903/3:1:3QS7-L9QB-X7F5?cc=2060211&wc=WWF8-FW3:352086301,352553201&i=81 | **Moved to Bucket C** | URL no longer exists (FS image-server returned 404). Skip. |
+| https://books.google.fr/books?id=Hp9rQFd3ILgC&hl=fr&pg=RA2-PR200 | **Moved to Bucket A** | Histoire de Lorraine downloaded as 116MB PDF at `sources/FS/Histoire_de_Lorraine_depuis_l_entrée_de.pdf` (gitignored due to GitHub size limit). Text extract committed at `sources/FS/lorraine-maison-de-gournay-extract.txt`. See §9 below. |
+| https://www.thepeerage.com/p73110.htm | Bucket B (deferred) | Lundy/Harmsen entry; relevant content already partially embedded in PDF p. 4 | Browser visit; only paste back if page contains content beyond the FS-embedded extract |
+| http://familysearch.org/patron/source/photoId/203028445 | Bucket C — skip | FamilySearch Memories upload of the Pattou PDF; companion PDF already in `sources/FS/MZ68-VKD/`. |
+| https://gw.geneanet.org/jeanlev?lang=en&pz=jean+arsene+henri&nz=levallois&p=hugues&n=de+gournay+en+bray | Bucket B (deferred) | Jean Levallois's Geneanet tree. Browser visit; only worth pasting back if it cites a primary source not already in MedLands or Pattou. |
+| http://search.ancestry.com/cgi-bin/sse.dll?dbid=70699&h=4725483 | Bucket B (deferred) | Web International FindAGrave Index entry. Ancestry login required. Likely redundant. |
+| http://www.lewisfamilytree.com/suggest.php?enttype=I&ID=I345&tree=lewis | Bucket B (deferred) | TNG-style "Lewis-Powers Family History" entry. Low priority. |
 
 ### Bucket C — redundant / low-value (justified skips)
 
@@ -538,5 +540,209 @@ And the family / issue section (FS PDF p. 10):
 > He had no issue by his second wife.
 
 **Note**: modern Wikipedia identifies Gundred as "sister of Gerbod the Fleming, 1st Earl of Chester," **not** as a daughter of William the Conqueror. This is the modern scholarly view (the older Conqueror-descent claim has been substantially abandoned). Pattou retains the older view via the annotation "Hugues IV de Gournay est le neveu du Roi Henry 1er d'Angleterre" through Edith. The repo's G32 fact sheet should be updated to reflect modern consensus.
+
+---
+
+## 9. First Bucket B Collaborative Pass — 2026-05-06
+
+### 9.1 Geni Hugh III profile (URL #1, moved Bucket B → A)
+
+URL: https://www.geni.com/people/Hugues-de-Gournay-III/6000000000154070463
+
+Substantial yield. The Geni profile aggregates four distinct narrative blocks plus a Find-a-Grave entry plus the FMG MedLands transcript. Several net-new claims, several confirmations, and several FS-tree-style noise items.
+
+#### 9.1.1 Net-new claims worth investigation
+
+1. **Basilia's mother named "Herleve d'EVEREAUX"** — i.e., Herleva of Évreux. This is a NEW maternal-line claim:
+   > "Basilia was the daughter of Gerald FLEITEL and Herleve d'EVEREAUX and widow of Raoul de GACE (b abt 1000), one of the tutors of Duke William in his youth"
+
+   FMG names Gerard Flaitel's wife only as "---" (unknown). The "Herleve d'Évreux" attribution would make Basilia's grandfather Robert, Count of Évreux (Archbishop of Rouen, son of Richard I of Normandy) — i.e., Basilia would be a great-granddaughter of Richard I and a first cousin once removed of Duke William the Conqueror. **This is a major collateral elevation.** Not in FMG, not in Pattou, not in DG. **Treat as candidate, do not adopt without primary citation.**
+
+   Consistent with this claim, the same Geni narrative says Raoul de Gacé (Basilia's first husband) was "one of the tutors of Duke William in his youth" — Raoul de Gacé is historically attested as William's guardian/tutor c. 1037–1040, so the chronological window is plausible.
+
+2. **Death dates: 1110 (per the Mellcene Smith narrative)** — matches Richardson's TNG entry (which §2.3 of this assessment had flagged as outlier vs. FMG's [1093]):
+   > "He died 1110 and was buried by the side of Basilia."
+
+   Two independent sources now give 1110: (a) Richardson via TNG's `our-royal-titled-noble-and-commoner-ancestors.com/p197.htm`; (b) Mellcene Thurman Smith, *Kin of* p. 469 (cited in the Geni profile). **The 1110 date is no longer a single-source outlier.** Resolution still requires a primary source — Anselm's letter to Basilia "after 1093" is the soft constraint; if Hugh died 1110 he survived until 17 years after Anselm became Archbishop of Canterbury (1093), which is internally consistent. Both 1093 and 1110 are now defensible scholarly positions.
+
+3. **Three-children claim from the Mellcene Smith narrative**:
+   > "They had Raoul, Gerard and Basilia."
+
+   Names two children unattested elsewhere: **Raoul** (a son named for Basilia's first husband) and **Basilia** (a daughter named for the mother). Plus Gerard (the documented heir). FMG names only Guillaume / Gerard / Hawise (latter two bracketed). **Smith's "Raoul, Gerard and Basilia" is novel.** Plausible as a pious Norman naming pattern (named for first-husband and for mother) but unattested in primary sources. Treat as candidate.
+
+4. **Find-a-Grave entry — birth 1030, death 18 Oct 1101**:
+   > "Birth 1030 Gournay-en-Bray, Departement de la Seine-Maritime, Haute-Normandie, France"
+   > "Death 18 Oct 1101 (aged 70–71) Le Bec-Hellouin, Departement de l'Eure, Haute-Normandie, France"
+   > "Burial Bec Abbey"
+   > "Memorial ID 99917539"
+
+   The 1030 birth matches Pattou's "° ~1030." The 18 Oct 1101 death matches Pattou's "(une source anglaise donne 18/10/1101)" — i.e., this Find-a-Grave entry is the "English source" Pattou himself referenced. So the 18/10/1101 date traces to Find-a-Grave Memorial 99917539 and back through whatever its contributor cited.
+
+5. **The 1080 retirement-to-Bec date** (Mellcene Smith narrative):
+   > "In 1080 he and his wife quit Gournay, took the habit of St. Benoit, and with two sisters of Basilia entered the Abbey of Bec."
+
+   Earlier than the c. 1082 / pre-1093 dates. Specifies "two sisters of Basilia" entered Bec with them — plausibly identifying Agnes (m. Walter Giffard) and the unnamed Pattou-claimed Anselme de Ribemont sister. Also explicit: "took the habit of St. Benoit" — i.e., Benedictine habit.
+
+6. **Hugues built a hermitage in the forest before becoming Prior of Saint-Nicaise de Meulan** (Mellcene Smith):
+   > "In their old age Basilia died and then Hugues built himself a hut deep in the forest until the Abbe ordained his obedience to leave his hermitage and become Prior of the monastery of St. Nicaise de Meulan. The monk Hugues bowed his head and went."
+
+   This is a vivid hagiographic detail. Pattou asserts the Prior of Saint-Nicaise de Meulan claim; Pettigrew is cautious. Smith's narrative is the most detailed account but is third-hand. **The "hermitage in the forest" detail is novel and worth tracking down to its primary source.**
+
+7. **R.B. Stewart "My Lines" curio** — Stewart's TNG entry includes the cryptic line:
+   > "Inexplicably, Hugh I was the son of Hugh II."
+
+   This sentence reads as a numbering joke or self-deprecating note about the contradictory generational labels in 19th-century sources. Not adoptable as content; useful as a marker of Stewart's self-awareness about the numbering chaos.
+
+#### 9.1.2 Specific FS-tree noise items in the Geni profile
+
+- **"Basilia (b abt 1025 Linton Herfordshire)"** — "Linton, Herefordshire" as Basilia's birthplace. There is no documentary basis for this. Linton is a small Herefordshire village. This is the kind of community-tree confabulation the FS-tree carries; do not adopt.
+- The R.B. Stewart entry gives Basilia three children "Raoul, Gerard and Basilia" but the Stewart entry header says "by Mellcene Thurman Smith, page 469" — i.e., the source is Smith's *Kin of* compilation, a 20th-century descendant pedigree. Smith's source for "Raoul" and "Basilia" as children is unstated.
+- The Geni profile lists three children with the heading "Children of Hugh and Basilia": **9a William, 10 Gerald, 11 Julia Adela**. The "Julia Adela" is novel and possibly identifies the same person as Pattou's bracketed "Adélaïde de Gournay" or Mellcene Smith's "Basilia" daughter. Multiple confabulations chasing the same hypothetical child.
+
+#### 9.1.3 Confirmations from the Geni profile
+
+- **1077 charter for St Stephens at Caen** (not 1067) — matches Richardson SGM 2003: "In 1077, he witnessed the foundation charter of the monastery of St. Stephens at Caen by King William the Conqueror."
+- **1082 charter for Holy Trinity Caen** — matches FMG.
+- **Letter from Anselm to Basilia preserved** — matches FMG [928].
+- **Both buried at Abbey of Bec** — matches FMG / Chronicon Beccensis.
+
+#### 9.1.4 Verbatim Geni content (key passages reproduced for fidelity)
+
+The Mellcene Smith narrative on the monastic retirement (verbatim):
+
+> Hugues II married Basilia, or Basille, daughter of Gerard de Flaitel and his wife, who was the daughter of Robert, Count of Evereux, who was son of Richard I, Duke of Normandy. Hugues II took part in the foundation of St. Etienne (Stephen) at Caen, established by William the Conqueror at his marriage to Matilda of Flanders. Hugues had been at Hastings in 1066. In 1080 he and his wife quit Gournay, took the habit of St. Benoit, and with two sisters of Basilia entered the Abbey of Bec. In their old age Basilia died and then Hugues built himself a hut deep in the forest until the Abbe ordained his obedience to leave his hermitage and become Prior of the monastery of St. Nicaise de Meulan. The monk Hugues bowed his head and went. He died 1110 and was buried by the side of Basilia. They had Raoul, Gerard and Basilia.
+>
+> (Kin of Mellcene Thurman Smith, page 469)
+
+The Find-a-Grave entry for Memorial 99917539 (verbatim):
+
+> Hugues III de Gournay
+> Birth 1030 Gournay-en-Bray, Departement de la Seine-Maritime, Haute-Normandie, France
+> Death 18 Oct 1101 (aged 70–71) Le Bec-Hellouin, Departement de l'Eure, Haute-Normandie, France
+> Burial Bec Abbey, Le Bec-Hellouin, Departement de l'Eure, Haute-Normandie, France
+> Memorial ID 99917539
+>
+> Hugh de Gournay was a man of high military renown and was very likely at the battle of Hastings since he was given lands by William the Conqueror. Some of these lands were the manors of Liston, Fordham, and Ardley in Essex, all of which appear in the Domesday Survey.
+>
+> He married Basile Flaitel, widow of Raoul de Gace, Constable of Normandy, and daughter of Gerard Flaitel. Her maritagium was the castle of Ecouche, near Falaise in Normandy. They had two sons, Gerard and Hugh. In 1077, he witnessed the foundation charter of the monastery of St. Stephens at Caen by King William the Conqueror and in 1082 the foundation charter of the nunnery of Holy Trinity Caen by King William the Conqueror and his wife, Queen Maud. Hugh and his wife, Basile, retired to the Abbey of Bec in France c. 1082 with her niece, Ansfride. They were still living c. 1093, when St. Anselm was consecrated Archbishop of Canterbury. A letter from Anselm to Basile has been preserved. Both are buried at the Abbey of Bec.
+
+The R.B. Stewart "My Lines" entry (verbatim, with Stewart's compiler attribution):
+
+> Hugh de Gournay was a man of high military renown. He married Basilia Flatel, and was very likely at the battle of Hastings since he was given lands by William the Conqueror. Some of these lands were the manors of Liston, Fordham, and Ardley in Essex, all of which appear in the Domesday Survey. [Morants's Essex, vol. ii p.31; Domesday, vol. ii. p. 89]. Afterwards, considerable estates in England were either given to the Gourney family or were acquired by marriage. Hugh de Gournay became a monk at Bec before 1093. ~ The Record of the House of Gournay, p. 16, 22
+>
+> From Gen-Medieval Archives. 193
+> From: royalancestryATmsn.com (Douglas Richardson)
+> Subject: Gournay Family Pedigree
+> Date: 19 Jan 2003 17:36:28 -0800
+>
+> Hugh de Gournay, seigneur of Gournay-en-Brie, Normandy, Domesday tenant of Liston, Ardley, and Fordham, Essex, son and heir. He married Basile Flaitel, widow of Raoul de Gace, Constable of Normandy, and daughter of Gerard Flaitel. Her maritagium was the castle of Ecouche, near Falaise in Normandy. They had two sons, Gerard and Hugh. In 1077, he witnessed the foundation charter of the monastery of St. Stephens at Caen by King William the Conqueror and in 1082 the foundation charter of the nunnery of Holy Trinity Caen by King William the Conqueror and his wife, Queen Maud. Hugh and his wife, Basile, retired to the Abbey of Bec in France c. 1082 with her niece, Ansfride. They were still living c. 1093, when St. Anselm was consecrated Archbishop of Canterbury. A letter from Anselm to Basile has been preserved. He predeceased his wife. Both are buried at the Abbey of Bec.
+>
+> [Sources cited by the author: Daniel Gurney, Record of the House of Gournay (1948), pp. 22 (chart), 46-62; Bedfordshire Historical Record Society 7 (1922): 153-157; 19 (1937): charts fol. pg. 99. Oxfordshire Record Society 7 (1925): 7-15. Paget (1957), 266: 1-4 (sub Gurnay).]
+
+The Compiler attribution: *R. B. Stewart, Evans, GA*, at `http://homepages.rootsweb.ancestry.com/~cousin/html/p353.htm#i19730`.
+
+The R Green ChildrenList (verbatim):
+> Children of Hugh and Basilia
+> 9a......William dob unknown William witnessed the charter dated 1082 under which William I King of England donated property to the abbey of la TrinitŽ de Caen
+> 10......Gerald b abt 1035 d 10 May 1097 Nice, Asia Minor on crusade
+> 11......Julia Adela dob unknown
+> http://www.rgreen.org.uk/Gournay.html#1
+
+Note: "Gerald b abt 1035 d 10 May 1097 Nice, Asia Minor on crusade" — this conflates the elder son Gerald (G32, b. ~1043, d. after 1104 in Palestine) with the younger Gerald who died at Nicaea 1097 (the *vit. pat.* son). DG-I p. 277 distinguishes them; R Green collapses them. This is the same Gerard-father-vs-Gerard-son confusion the existing G32 research companion (line 23) flags.
+
+### 9.2 Histoire de Lorraine (URL #4, moved Bucket B → A)
+
+URL: https://books.google.fr/books?id=Hp9rQFd3ILgC&hl=fr&pg=RA2-PR200
+
+The full multi-volume work has been downloaded as `sources/FS/Histoire_de_Lorraine_depuis_l_entrée_de.pdf` (116MB; gitignored due to GitHub's 100MB hard file size limit). The relevant Maison de Gournay introduction section has been extracted as committable text at `sources/FS/lorraine-maison-de-gournay-extract.txt`.
+
+The PDF is the Calmet *Histoire ecclésiastique et civile de Lorraine*, with the Maison de Gournay genealogy in the introductory matter (volume V or appendix). The genealogy is signed by **M. Palain de Mongnigny**.
+
+#### 9.2.1 The Lorraine Gournay genealogy — opening
+
+Verbatim French (from `lorraine-maison-de-gournay-extract.txt`, with normalized OCR spelling where the long-s "f" was misread):
+
+> *"Généalogie de la Maison de Gournay ou Gronaix.*
+>
+> *Par M. Palain de Mongnigny.*
+>
+> *La Maison de Gournay porte de gueules à trois tours d'argent, maçonnées de sable, posées en bande. Cimier un Croissant d'or, supporté d'un Anneau de gueules, et surmonté d'une queue de Paon au naturel.*
+>
+> *Cette Maison est une des plus anciennes de la Ville de Metz, où elle a rempli les premières dignités militaires et civiles ; et dans le temps que cet État était régi par ses propres Loix, ou gouverné sous l'autorité des Empereurs, la Maison de Gournay a eu la meilleure part dans l'administration de la Justice, et dans la conduite des Armées; deux fonctions qu'attiroit après soi la dignité de Maître-Échevin de Metz."*
+
+Translation:
+
+> *Genealogy of the House of Gournay or Gronaix.*
+>
+> *By M. Palain de Mongnigny.*
+>
+> *The House of Gournay bears: gules, three towers of silver, masoned of sable, set in bend. Crest: a crescent of gold, supported by a ring of gules, and surmounted by a peacock's tail in natural colours.*
+>
+> *This House is one of the most ancient of the City of Metz, where it has filled the first military and civil dignities; and during the time when this State was governed by its own Laws, or under the authority of the Emperors, the House of Gournay had the greatest share in the administration of Justice and in the conduct of Armies; two functions that the dignity of Maître-Échevin [chief magistrate] of Metz brought with it.*
+
+**This is a different Gournay family** — the **Metz / Lorraine Gournays** — with **different arms** (three silver towers on red, not the engrailed cross of the Norman Gournays or the plain sable of the Norman origin). Their genealogy claims descent from the Norman Gournays of Bray via a "Vuldus de Gournay" who left Metz c. 960 to serve William the Conqueror.
+
+#### 9.2.2 The Vuldus origin claim and Hugues "Comte de Gournay"
+
+> *"Vuldus de Gournay partit de Metz vers l'an 960. pour aller trouver Guillaume le Conquérant, qu'il servit avec tant de courage et de fidélité, qu'il en reçut pour récompense la Ville de Gournay en Normandie, avec dix-huit Villages pour lui et Hugues de Gournay, son fils, qui suit."*
+
+Translation:
+> *"Vuldus de Gournay left Metz around the year 960 to go find William the Conqueror, whom he served with such courage and fidelity that he received as reward the Town of Gournay in Normandy, with eighteen villages for himself and Hugues de Gournay, his son, who follows."*
+
+**Anachronism**: William the Conqueror was born c. 1028 — there was no "William the Conqueror" in 960. This is either a Lorraine-family confabulation of a prestigious Norman descent, or a confusion with William Longsword (d. 942) or Richard I (d. 996). The Lorraine source's foundation story is **chronologically broken** at its starting point. **Do not adopt the Vuldus claim.** But: it is interesting evidence of a Metz family asserting Norman Gournay ancestry in the 17th century.
+
+> *"Hugues de Gournay, premier Chef et Commandant l'Armée Navale de Guillaume, le Conquérant, contre Conrade Roi de Norveck en 1074. s'acquitta si dignement de cette charge, que Guillaume lui donna l'Évêché entier de Norveck, où il fonda la Collégiale de S. Hildebert de Gournay. Ce Hugues, Comte de Gournay, épousa Basile de Flatelly, Comtesse de Varenne et de Sury en Angleterre, dont il eut Gerard de Gournay…"*
+
+Translation:
+> *"Hugues de Gournay, first Chief and Commander of the Naval Army of William the Conqueror, against Conrad King of Norveck in 1074, acquitted himself so worthily of this charge that William gave him the entire Bishopric of Norveck, where he founded the Collegiate Church of St. Hildebert of Gournay. This Hugues, Count of Gournay, married Basile de Flatelly, Countess of Varenne and Surrey in England, of whom he had Gerard de Gournay…"*
+
+**Several material findings packed into this passage**:
+1. **"Conrade Roi de Norveck en 1074"** = Conrad King of Norwich/Norfolk in 1074 — **the Lorraine source explicitly identifies the 1074 conflict as being against a "Norveck" figure**, supporting the DG hypothesis that the "Cardiff" tradition is a corruption of "Norvic / Norwich / Norfolk." There was no King Conrad of Norwich in 1074, but there was a 1075 East Anglian rebellion (Earl Ralph de Gaël) involving Danish reinforcements; the Lorraine source has garbled this into "Conrad King of Norveck." This is the same kind of garbling FMG flags about "Canut roi de Norvège," but with a different proper-noun corruption pattern ("Conrad" instead of "Canut", "Norveck" instead of "Norvège").
+2. **"Comte de Gournay"** — the Lorraine source elevates Hugues to Count, not just Lord/Sieur. (FMG and Pattou treat him as Seigneur.)
+3. **"Bishopric of Norveck" granted by William** — historically impossible (William did not grant bishoprics to laymen as fiefs); this is more confabulation, possibly a confused recollection of the Norfolk fiefs Hugh actually received.
+4. **"Collégiale de S. Hildebert de Gournay"** — the **Saint-Hildevert collegiate church at Gournay-en-Bray** is a real church, traditionally associated with the Hugh-the-Fortifier of an earlier generation (G36 in the repo) — see DG-Supp Note 7. The Lorraine source attributes the foundation to *this* Hugues (the Conqueror-era one). Either a different Hildevert church or a confused attribution.
+5. **"Basile de Flatelly, Comtesse de Varenne et de Sury en Angleterre"** — the Lorraine source **conflates Basilia (Hugh's wife) with Edith de Warenne (Hugh's daughter-in-law)**, treating her as Countess of Warren and Surrey. This is a clear genealogical confusion — Basilia was a Norman of the Flaitel family; Edith was the Warenne. The Lorraine source has merged two generations of women into one.
+6. The "Bacoloin" abbey to which Gerard gave benefactions (in the next-generation paragraph) is almost certainly **Bec** (Bec-Hellouin) — the Lorraine source's spelling.
+
+#### 9.2.3 The Lorraine source on Hugues II (= repo's Hugh IV)
+
+> *"Hugues de Gournay II du nom, épousa la sœur de Rodolphe de Péronne, Comte de Vermandois, Princesse du sang Royal, fille de Hugues de France, dit le Grand, Comte de Vermandois, frere du Roi Philippe I. dont il eut Thiedric de Gournay…"*
+
+Translation:
+> *"Hugues de Gournay II of the name married the sister of Rodolphe de Péronne, Count of Vermandois, Princess of the Royal blood, daughter of Hugues of France called 'le Grand', Count of Vermandois, brother of King Philippe I, of whom he had Thiedric de Gournay…"*
+
+The Lorraine source's "Hugues II" is the repo's **Hugues IV** (the one who married Beatrice de Vermandois, daughter of Hugues le Grand). The Vermandois marriage matches Richardson and Pattou. The Lorraine source's numbering scheme:
+- Lorraine "Hugues I" = repo's Hugh III (the Conqueror-era figure, married Basile)
+- Lorraine "Hugues II" = repo's Hugh IV (married Vermandois)
+
+**Yet a third numbering scheme** — Pattou uses III and IV for the same two men; FMG uses [III] and [IV] with brackets. The Lorraine source's I/II scheme runs the documented Norman line from the Conqueror generation forward without numbering the three earlier (uncertain) generations.
+
+#### 9.2.4 Lorraine source structural finding — Thiedric de Gournay as Metz progenitor
+
+> *"Thiedric de Gournay, l'un des vingt- un Échevins nobles d'Etienne de Bar, Évêque de Metz. Il vivoit en 1106. et épousa N…. Il eut pour fils Nicolas de Gournay, dit le Viel, Maître Échevin de la Ville de Metz en 1230."*
+
+Translation:
+> *"Thiedric de Gournay, one of the twenty-one noble Échevins of Étienne de Bar, Bishop of Metz. He was living in 1106 and married [name unknown]. He had as son Nicolas de Gournay, called 'the Old', Maître-Échevin of the City of Metz in 1230."*
+
+The Lorraine source claims **Thiedric de Gournay** (active 1106 in Metz under Bishop Étienne de Bar) was the founder of the Metz Gournay line. He is presented as son of "Hugues II" (= repo's Hugh IV) and the Vermandois Princess. FMG and Richardson do not list a Thiedric among Hugues IV's children (they list only the children of his second marriage to Mélisende de Coucy: Gérard and Hugues). **The Thiedric attribution is a Lorraine-family claim of Norman descent that lacks corroboration in the Norman-side sources.**
+
+The Metz line then runs: Thiedric (1106) → Nicolas "le Viel" (1230) → Jacques (1285) → Nicolas II "le Géant" (1270) → Poince/Pierre des Changes (1290) → Baudouin → Poince II "l'Aveugle" (1348) → multiple generations through to 17th-century descendants. **None of this affects the repo's direct line** but documents that a 17th-century Metz family (the Lorraine Gournays / Gronaix) actively claimed Norman descent. **Worth flagging as a potential namesake-confusion source for any future Metz-area research.**
+
+#### 9.2.5 What the Lorraine source DOES NOT contradict the repo on
+
+- The Vermandois marriage of Hugues IV (matches Richardson, Pattou).
+- The general post-Conquest reward narrative (Gournay rewarded with lands).
+- The Bec abbey association (with the spelling "Bacoloin").
+
+#### 9.2.6 Bottom line on the Lorraine source
+
+The Calmet / Palain de Mongnigny *Maison de Gournay* genealogy is a **17th-century Metz family genealogy** (signed 1674 per the text reference: *"Jugement qui a été imprimé et rendu à Metz le II. Août 1674. par M. Poncet de la Riviere"*) claiming Norman descent. It contains:
+- **One materially useful corroboration**: the "Norveck" (Norwich) identification supporting the DG hypothesis that the 1074 Cardiff tradition is a name corruption.
+- **Several confused conflations**: Basilia confused with Edith de Warenne; Hugues "Comte" elevated above his actual rank; "Bishopric of Norveck" anachronism.
+- **A complete Metz-line genealogy** that the repo has no need to adopt but should be aware of as a parallel "Gournay" family.
+
+**Action**: do not adopt any Lorraine-source claim as a fact for the repo's direct-line ancestors. Use only as supporting evidence for the Norwich-corruption hypothesis and as documentation of a parallel Metz family.
+
+
 
 
