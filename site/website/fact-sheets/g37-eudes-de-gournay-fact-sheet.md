@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 permalink: /fact-sheets/g37-eudes-de-gournay-fact-sheet.html
 title: Eudes (Odon) de Gournay Fact Sheet
-pageHeading: Eudes (Odon) de Gournay (c. 860 – d. after 911)
+pageHeading: Eudes (Odon) de Gournay (c. 860 – d. after 911, before c. 932)
 subtitle: "Ancestor fact sheet for G37 in the direct Gurney line. Viking warrior and traditional first lord of Gournay-en-Bray. Updated April 2026."
 description: "Compact fact sheet for Eudes (Odon) de Gournay in the direct Gurney line."
 bodyClass: bio-page factsheet-page
@@ -28,7 +28,7 @@ factsheet:
     "@type": "Person",
     "name": "Eudes (Odon) de Gournay",
     "birthDate": "c. 860",
-    "deathDate": "after 911",
+    "deathDate": "after 911, before c. 932",
     "birthPlace": { "@type": "Place", "name": "Scandinavia (location unknown)" },
     "deathPlace": { "@type": "Place", "name": "Gournay-en-Bray, Normandy" },
     "description": "Viking warrior, companion of Rollo, traditional first lord of Gournay-en-Bray."
@@ -47,7 +47,7 @@ factsheet:
   </div>
   <div class="fact-item">
     <div class="fact-label">Died</div>
-    <div class="fact-value">After 911. No death date recorded; he is last attested at the <a href="https://en.wikipedia.org/wiki/Treaty_of_Saint-Clair-sur-Epte">Treaty of Saint-Clair-sur-Epte</a>. <sup class="fn"><a href="#n2" id="ref-2">2</a></sup></div>
+    <div class="fact-value">After 911, but before c. 932. The <em>MS. Histoire de Gournay</em> tradition (transmitted via Pierre Potin de la Mairie 1842, p. 65, citing "un vieux manuscrit") records that Eudes died before <a href="https://en.wikipedia.org/wiki/Rollo">Rollo</a>, who died c. 930–932. <sup class="fn"><a href="#n2" id="ref-2">2</a></sup></div>
   </div>
   <div class="fact-item">
     <div class="fact-label">Status / Faith</div>
@@ -123,7 +123,7 @@ It is important to be honest about what the sources can and cannot tell us. <a h
 
 <ol class="citation-list">
   <li id="n1">Birth date and location entirely unknown. Estimated c. 860 based on assumed generational spacing: if son Hugh I was born c. 945–950, a birth c. 860 is plausible but speculative. Daniel Gurney, <em>Record of the House of Gournay</em>, Part I (1848), p. 23 [hereafter DG-I]; no parentage or homeland specified. <a class="citation-back" href="#ref-1">↩</a></li>
-  <li id="n2">Death date unrecorded. Eudes is last attested at the 911 Treaty. DG-I, p. 23 gives no death date. Rollo himself died c. 930–931 according to Hannay, p. 44 — Eudes may have lived well beyond 911. <a class="citation-back" href="#ref-2">↩</a></li>
+  <li id="n2">Death date unrecorded; bracketed as "after 911, before c. 932" per Pierre Potin de la Mairie, *Recherches historiques sur la ville de Gournay-en-Bray* (1842), p. 65, citing a local manuscript tradition that "Eudes…mourut pourtant avant Rollon" — Rollo (whose death is variously dated 917 or 930–932) outlived Eudes per the Cordier MS chain. DG-I p. 23 gives no death date. <a class="citation-back" href="#ref-2">↩</a></li>
   <li id="n3">On Rollo's treaty stipulation requiring baptism of his followers: DG-I, Preface, pp. 3–4. The "funiculo divisit" quotation from Dudo of Saint-Quentin (c. 996–1015) is in Hannay, <em>Three Hundred Years of a Norman House</em> (1867), p. 34 [hereafter Hannay]. Modern scholars have progressively reassessed Dudo's reliability: his chronicle is propaganda, not neutral history, but the land-division tradition is broadly accepted. <a class="citation-back" href="#ref-3">↩</a></li>
   <li id="n4">No spouse named in DG or any other source consulted. <a class="citation-back" href="#ref-4">↩</a></li>
   <li id="n5">Allen Gurney, <em>Ancestor Table V3 with Land Holdings</em> (March 2026) — ~37 generations tabulated from Eudes to Allen Lawrence Gurney (b. 1972). Hannay, p. 4: the Gournay pedigree is "one of the longest Norse pedigrees." <a class="citation-back" href="#ref-5">↩</a></li>

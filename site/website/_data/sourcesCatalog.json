@@ -300,6 +300,18 @@
     "notes": "Context source for the St Stephen Coleman Street / New Haven migration network cited in the John Gurney case file. Page-level extraction has not been added to the corpus."
   },
   {
+    "sourceId": "histoire-de-lorraine-calmet",
+    "shortTitle": "Calmet, Histoire de Lorraine — Maison de Gournay genealogy",
+    "citation": "Calmet, Augustin. Histoire de Lorraine. Maison de Gournay genealogy by M. Palain de Mongnigny, based on a 1674 Metz judgment by M. Poncet de la Riviere.",
+    "archive": "PDF held at sources/FS/Histoire_de_Lorraine_depuis_l_entrée_de.pdf (gitignored 116MB); text extract at sources/FS/lorraine-maison-de-gournay-extract.txt",
+    "url": "https://books.google.fr/books?id=Hp9rQFd3ILgC",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/FS/lorraine-maison-de-gournay-extract.txt",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "17th-century Metz family genealogy claiming Norman descent. Vuldus de Gournay c. 960 origin story (anachronistic; rejected). 'Comte de Gournay' attribution (Hugues received Norfolk grant as 'Bishopric of Norveck' — local-tradition compression). Conflates Basilia Flaitel with Edith de Warenne. Useful as documentation of confusion that proliferates around the Gournay junction."
+  },
+  {
     "sourceId": "cambridge-core-camden-preface-addenda",
     "shortTitle": "Camden Old Series - Preface and Addenda",
     "citation": "\"Preface and Addenda.\" Camden Old Series, Cambridge Core.",
@@ -648,6 +660,18 @@
     "notes": "FreeREG confirmed Francis G14 burial 9 Jan 1646/7, St Botolph Bishopsgate. Corrected Boyd's 1641 misread."
   },
   {
+    "sourceId": "dumoulin-histoire-generale-normandie-1631",
+    "shortTitle": "Gabriel Dumoulin, Histoire générale de Normandie (1631)",
+    "citation": "Dumoulin, Gabriel. Histoire générale de Normandie, contenant les choses memorables qui se sont passées depuis l'arrivée des Normans, jusques à l'an 1500. Rouen: J. Osmont, 1631.",
+    "archive": "Cited via Potin 1842 pp. 95, 96, 185",
+    "url": "",
+    "corpusStatus": "partial",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "1631 Norman general history. Page 153 names the 1035 expedition captains. Page 185 lists 'Hue de Gournay et le sieur de Gournay' as TWO separate persons among the invasion fleet — third independent attestation of the 'two Gournays at Hastings' reading."
+  },
+  {
     "sourceId": "history-ac-uk-markets-fairs-gazetteer",
     "shortTitle": "Gazetteer of Markets and Fairs to 1516",
     "citation": "Letters, Samantha, et al. Gazetteer of Markets and Fairs in England and Wales to 1516. Institute of Historical Research / history.ac.uk.",
@@ -828,6 +852,18 @@
     "notes": "Ann Gurney married John Gilman, 1 Oct 1626. Relationship to Francis G14's family unresolved."
   },
   {
+    "sourceId": "histoire-chronique-normandie-1610",
+    "shortTitle": "Histoire et Chronique de Normandie (Rouen 1610)",
+    "citation": "Histoire et chronique de Normandie. Rouen: 1610. Anonymous compilation, drawing on Wace, Robert de Torigny, and earlier Norman chronicle traditions.",
+    "archive": "via Pierre Potin de la Mairie 1842 ff. 79-80, 117 quotations",
+    "url": "",
+    "corpusStatus": "partial",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "1610 printed Norman chronicle. Cited via Potin 1842 for the 1035 expedition captain list (ff. 79-80) and the 1074 Cardiff narrative (f. 117). One of the four traditions transmitting the Cardiff death legend; FMG MedLands judges 'the historical basis of the account is uncertain.'"
+  },
+  {
     "sourceId": "historic-england-old-hall-farmhouse-1077566",
     "shortTitle": "Historic England - Old Hall Farmhouse (1077566)",
     "citation": "Historic England. \"Old Hall Farmhouse.\" National Heritage List for England, List Entry Number 1077566.",
@@ -922,6 +958,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Social-history context source cited in the John Gurney case file for marriage, courtship, and family-formation norms. Page-level extraction has not been added to the corpus."
+  },
+  {
+    "sourceId": "delisle-critique-of-dg",
+    "shortTitle": "Léopold Delisle's critique of Daniel Gurney",
+    "citation": "Delisle, Léopold (1826-1910), director of the Bibliothèque nationale, leading 19th-century Norman charter scholar. Specific publication of his critique not yet located in the repo's pass; cited via DG-Supp Note 8 (la Ferté charter not in Évreux archives), Pattou Racines Histoire p. 2, and French Wikipedia (Famille de Gournay).",
+    "archive": "Specific publication TBD; possibly in Bibliothèque de l'École des chartes, the Recueil des actes de Henri II (with E. Berger 1909-1927), or a footnote in another charter edition.",
+    "url": "",
+    "corpusStatus": "minimal",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Falls heaviest on G37/G36 (no contemporary documents) and secondarily on G35 (la Ferté charter preserved only in transcription). See research/topics/dg-reception-delisle-critique.md for full apparatus."
   },
   {
     "sourceId": "les-olim",
@@ -1092,6 +1140,18 @@
     "notes": "Norfolk Heritage Explorer parish summary for Great Ellingham. Important contextual source for Great Ellingham's long occupation history, medieval church and residential buildings, and Old Hall (NHER 9108), described as a mid-16th-century house built for one of the Gurney family on the site of an earlier moated manor."
   },
   {
+    "sourceId": "normonde-hugues-1er-de-gournay",
+    "shortTitle": "Normonde authority file: Hugues Ier de Gournay",
+    "citation": "Université de Caen Normandie / Pôle de modélisation et numérisation. Normonde: Référentiel terminologique des prosopographies de Normandie médiévale. Entry: Hugues Ier de Gournay (= repo's G33 Hugh III by descent position).",
+    "archive": "Caen UnivCaen authority file",
+    "url": "https://thesauri.unicaen.fr/autorites/normonde/doc/pddn_p.1556113444892.html",
+    "corpusStatus": "partial",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Normonde uses Caen-numbering (Hugues 1er = Hastings/Domesday/Bec figure = repo's Hugh III). Cites Loyd 1951 p. 47, Scripta Acts 6511/151, Orderic Vital VIII p. 186, PASE Domesday Hugh 31, 1077 William the Conqueror confirmation to Bec. Authority-level confirmation of charter attestations."
+  },
+  {
     "sourceId": "nps-adams-nhp",
     "shortTitle": "NPS Adams National Historical Park CLR",
     "citation": "National Park Service. Cultural Landscape Report, Adams National Historical Park, Quincy, Massachusetts.",
@@ -1128,6 +1188,18 @@
     "notes": "Systematically reviewed. Five Francis Gurney baptisms identified (Entries A–E). Entry E: 'John son of [ffrancis Gurnie?]' — four-test paleographic analysis supports ffrancis over Nicholas. Margaret Rybett death revised to c.1616–17 based on 9-month impossibility test."
   },
   {
+    "sourceId": "nrp-recherches-possessions-1852",
+    "shortTitle": "NRP de la Mairie, Recherches…Possessions des Sires Normands (1852)",
+    "citation": "La Mairie, N.-R. P. de. Recherches Historiques, Archéologiques et Biographiques sur les Possessions des Sires Normands de Gournay, le Bray Normand et le Bray Picard, et sur toutes les communes de l'arrondissement de Neufchâtel, 2 vols. Gournay-en-Bray: Letailleur-Andrieux, 1852.",
+    "archive": "Google Books public-domain PDF (held in repo at sources/FS/Norman_additions/Recherches_historiques_archéologiques_e_volume{1,2}.pdf)",
+    "url": "https://books.google.com/",
+    "corpusStatus": "partial",
+    "corpusPath": "",
+    "mediaPath": "sources/FS/Norman_additions/Recherches_historiques_archéologiques_e_volume1.pdf",
+    "validationPath": "",
+    "notes": "NRP de la Mairie's expanded 1852 work covering all Gournay possessions plus the Bray Picard and Neufchâtel communes. Tome I p. 77 fuller la Ferté priory foundation witness list (Richard I, Richard II, Robert Archbishop of Rouen, an unnamed Comte Robert, dedicating Bishop Hugues; five churches given). Tome I p. 80 endorses Walter as son of Girard ('Gautier, tige de la branche des Gournay de Norfolk'). Renaud's three sons listed Tome I p. 77 (Hugues, Gauthier, Raoul mort sans posterité). Likely the work Pattou cites as '1844 NRP de La Mairie' (date approximate)."
+  },
+  {
     "sourceId": "ny-state-military-museum-127th-infantry",
     "shortTitle": "NYS Military Museum - 127th Infantry Regiment",
     "citation": "\"127th Infantry Regiment.\" New York State Military Museum and Veterans Research Center.",
@@ -1162,6 +1234,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Publicly available text/corpus files for The Romish chaine, useful for future direct textual analysis."
+  },
+  {
+    "sourceId": "painchault-gaillefontaine-2012",
+    "shortTitle": "Painchault, Gaillefontaine fortification (PURH 2012)",
+    "citation": "Painchault, Aude. \"Gaillefontaine (Seine-Maritime) : approche topographique d'une fortification du Pays de Bray.\" In Journées archéologiques de Haute-Normandie. Évreux 6-8 mai 2011, edited by Yves-Marie Adrian. Mont-Saint-Aignan: Presses universitaires de Rouen et du Havre, 2012, pp. 209-218.",
+    "archive": "OpenEdition Books / PURH",
+    "url": "https://books.openedition.org/purh/4538",
+    "corpusStatus": "partial",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Modern archaeological-topographical chapter. Frames Gournay-La Ferté-Gaillefontaine as a coordinated frontier-fortification triad at the head of the Bresle valley. References Orderic Vital [879] for the 1089 fortification by Gerard de Gournay for William II Rufus. Useful for G32 (1089 castle delivery) and G36 (Gournay fortification system context)."
   },
   {
     "sourceId": "palgrave-history-england-normandy-1864",
@@ -1222,6 +1306,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/plymouth-probate-john-harden-1751-will.md",
     "notes": "Primary probate record-book copy of John Harden's will. Key evidence for Benjamin Gurney G9: names John Harden's wife Mary, daughter Mary Hobert/Hobart, daughter Sarah Gurney, daughter Jane Spear, the children of deceased daughter Rebecca Noyes, daughter Lydia Dawes, son John Harden, and grandson Benjamin Gurney. Elizabeth Harden appears as a witness, not as a daughter or heir. Images: p. 383 https://www.familysearch.org/ark:/61903/3:1:3QSQ-G97D-F6PW; p. 384 https://www.familysearch.org/ark:/61903/3:1:3QS7-897D-FXDF."
+  },
+  {
+    "sourceId": "potin-recherches-ville-gournay-1842",
+    "shortTitle": "Potin de la Mairie, Recherches…ville de Gournay (1842)",
+    "citation": "Potin de la Mairie, Pierre. Recherches historiques sur la ville de Gournay-en-Bray, Tome Premier. Gournay: Imprimerie de veuve Folloppe, 1842.",
+    "archive": "Google Books public-domain PDF (held in repo at sources/FS/Norman_additions/Recherches_historiques_sur_la_ville_de_G.pdf)",
+    "url": "https://books.google.com/",
+    "corpusStatus": "partial",
+    "corpusPath": "",
+    "mediaPath": "sources/FS/Norman_additions/Recherches_historiques_sur_la_ville_de_G.pdf",
+    "validationPath": "",
+    "notes": "Local Gournay antiquarian history (Tome Premier 1842). Chapters on Eudes (p. 59), Renaud (p. 65), Hugues I (p. 75), Hugues II (p. 91+), Hugues III (p. 108), Girard, Hugues IV, Hugues V. Numbering-dispute resolution pp. 70–73. Cardiff narrative p. 105 (Hugh II). Hugh III death year 1110 p. 110. Beauvais obituary p. 124. Draws on Cordier MS, Langloys notes, René Potin notes. Predates DG 1845."
   },
   {
     "sourceId": "protestation-returns",
@@ -1452,6 +1548,18 @@
     "notes": "Stewkley manors. Used in Candidate A analysis."
   },
   {
+    "sourceId": "wace-roman-de-rou",
+    "shortTitle": "Wace, Roman de Rou",
+    "citation": "Wace. Le Roman de Rou. Edited by A. J. Holden, 3 vols. Société des anciens textes français, Paris, 1970-1973. English translation: G. S. Burgess, The History of the Norman People: Wace's Roman de Rou. Woodbridge: Boydell Press, 2004.",
+    "archive": "Standard modern editions",
+    "url": "",
+    "corpusStatus": "partial",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "12th-century Old French verse chronicle of the Normans. Tome 2 contains the 'Et li vieil Hue de Gornai / Ensemble o li sa gent de Brai' verses naming Hugh II at Hastings 1066. Cited via Potin 1842 p. 105."
+  },
+  {
     "sourceId": "wansey-medieval-genealogy-1925",
     "shortTitle": "Wansey, ancient family of the Wanseys",
     "citation": "\"Genealogy of the ancient Family of the Wanseys olim Waunci,\" copied from William Wansey, F.S.A., manuscript books on the Wansey family, 1873; PDF hosted by Nick Delves, 1925 file naming.",
@@ -1462,5 +1570,17 @@
     "mediaPath": "sources/media/1925_08Wansey_Family_Tree_Medieval_Genealogy.pdf",
     "validationPath": "sources/validations/wansey-medieval-genealogy-1925.md",
     "notes": "Image-only four-page Wansey/Wauncy pedigree PDF. User-supplied source-associated extract reports Edmund Gorney d. 1387; Katherine surviving until 3 Henry IV; son John Gurney married Alice Bavard, was knight of the shire in 6 Henry IV, and died in 9 Henry IV. Use as a direct conflict note against HoP/DG wife-name and date details."
+  },
+  {
+    "sourceId": "william-of-poitou-gesta-guillelmi",
+    "shortTitle": "William of Poitiers, Gesta Guillelmi",
+    "citation": "Guillaume de Poitiers (William of Poitiers). Gesta Guillelmi II Ducis Normannorum et Regis Anglorum. Edited by R. H. C. Davis and Marjorie Chibnall, Oxford Medieval Texts. Oxford: Clarendon Press, 1998.",
+    "archive": "Standard modern critical edition",
+    "url": "",
+    "corpusStatus": "partial",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "William the Conqueror's biographer. Cited via FMG [889] for the post-1053 alliance between 'Hugonis Gornacensis' (Hugh II) and 'Roberti Aucensis comitis' (Robert d'Eu)."
   }
 ]

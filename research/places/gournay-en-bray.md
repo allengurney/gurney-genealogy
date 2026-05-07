@@ -93,6 +93,29 @@ The **town arms** are a separate matter. Nichols records that Philip Augustus gr
 
 The local-history tradition that Eudes was **"le chevalier à l'écu noir"** — the knight with the black shield — neatly bridges the heraldic tradition and the origin story of the place. [current file] Even if that local formulation is much later than the events themselves, it is still worth retaining as a piece of place-memory because it shows how Gournay-en-Bray continued to remember the founder in essentially the same symbolic terms that the genealogical literature did.
 
+## Place-model note: town, church, and fortifications
+
+This record represents Gournay-en-Bray as the ancestral town, seigneurial honor, and frontier seat of the Gournay family. It should not be used as the sole place record for every built feature in the town.
+
+Three related but distinct records now belong in the library:
+
+- `gournay-en-bray.md` — the town / honor / seigneurial seat.
+- `collegiale-saint-hildevert-gournay.md` — the surviving collegiate church.
+- `gournay-fortifications-tour-du-rempart.md` — the surviving fortification remnant and defensive landscape.
+
+This separation matters because the town is the family's territorial identity; Saint-Hildevert is the church and visible ecclesiastical monument; and the Tour du Rempart / fortifications preserve the military architecture associated with the old seigneurial stronghold.
+
+## What remains from the medieval seat
+
+Gournay-en-Bray remains an extant town, but the medieval seat is fragmentary. The place library should avoid giving the impression that the original Gournay castle or La Tour Hue survives intact.
+
+The surviving town-core evidence belongs in two more specific records:
+
+- `collegiale-saint-hildevert-gournay.md` — the surviving collegiate church. Its main visible fabric is 12th–14th century, with Monumentum / Mérimée-derived data stating that the 12th-century church was built on the remains of a 10th- or 11th-century building.
+- `gournay-fortifications-tour-du-rempart.md` — the surviving defensive remnant at Rue du Rempart. Normandie Tourisme describes only one tower, the conical base of another tower, and ditches as remaining from the medieval defensive system.
+
+This is why Gournay-en-Bray itself should remain the town / honor / seigneurial-seat record rather than the church or tower record.
+
 ## Open items
 
 - [ ] Pull the relevant passages from the 1844 *Supplément aux recherches historiques sur la ville de Gournay-en-Bray* directly into this file or a source extract note.
@@ -126,6 +149,10 @@ The local-history tradition that Eudes was **"le chevalier à l'écu noir"** —
 - `research/places/le-bec-hellouin.md`
 - `research/places/normandy.md`
 - `research/places/beauvaisis-frontier-acquisitions.md`
+- `research/places/collegiale-saint-hildevert-gournay.md`
+- `research/places/gournay-fortifications-tour-du-rempart.md`
+- `research/places/pays-de-bray.md`
+- `research/places/gaillefontaine.md`
 
 [^planche-gournay-place]: J. R. Planché, *The Conqueror and His Companions*, vol. 1 (London: Tinsley Brothers, 1874), Hugh de Gournay section, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/conquerorcompanion/companion.htm. Source ID: `planche-conqueror-companions-1874`.
 [^palgrave-pays-bray]: Francis Palgrave, *The History of England and Normandy* (London: Macmillan and Co., 1864), Mortemer/Pays de Bray narrative, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/palgrave/palgrave.htm. Source ID: `palgrave-history-england-normandy-1864`.
@@ -135,29 +162,29 @@ The local-history tradition that Eudes was **"le chevalier à l'écu noir"** —
 ## Place registry
 
 - `placeId`: `place-gournay-en-bray-normandy-france`
-- Short description: Ancestral fortress town
-- Place type: locality
-- Aliases: Gournay, Gournay-en-Bray, Normandy
-- Coordinate: 49.483148, 1.727303 (exact)
-- Roles: landholding / property reference, individual geography
-- Site name: Collégiale Saint-Hildevert
-- Detail: Ancestral fortress town and frontier seigneury of the Gournay family in the Pays de Bray.
-- Current-site status: extant — Modern town survives; the church site is used as the best historic anchor for the lost fortress town.
-- Links: [Heritage page](https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/) · [Collégiale Saint-Hildevert, Gournay-en-Bray](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg)
+- Short description: Ancestral fortress town and seigneurial honor
+- Place type: locality / seigneurial honor
+- Aliases: Gournay, Gournay-en-Bray, Gournay-en-Bray, Normandy, Gornacum, Gornaio, Gournay honor, Seigneurie de Gournay
+- Coordinate: 49.483148, 1.727303 (medium)
+- Roles: seigneurial seat, landholding / property reference, individual geography, frontier lordship
+- Detail: Ancestral fortress town, seigneurial honor, and namesake of the Gournay family in the Pays de Bray. This record represents the town and lordship as a whole, not the Collégiale Saint-Hildevert church site or the Tour du Rempart fortification remnant alone.
+- Current-site status: extant town; medieval fortress fabric only partly survives - Modern Gournay-en-Bray survives as a town. The medieval defensive system is mostly lost or transformed; a separate Tour du Rempart record carries the surviving fortification-remnant detail, and a separate Collégiale Saint-Hildevert record carries the church-specific detail.
+- Coordinate basis: historic town-core anchor; not a precise castle, tower, or church coordinate
+- Links: [Gournay-en-Bray official town site](https://www.gournay-en-bray.fr/)
 
 ### Linked ancestors
 
-- G32 Gerard de Gournay — landholding / property reference, individual geography
-- G32 Hugh de Gournay IV (Senior Baron Line) — landholding / property reference
-- G32 Hugh de Gournay V (Senior Baron Line) — landholding / property reference
-- G33 Hugh de Gournay III — landholding / property reference, individual geography
-- G34 Hugh de Gournay II — landholding / property reference, individual geography
-- G35 Renaud de Gournay — landholding / property reference, individual geography
-- G36 Hugh de Gournay I — landholding / property reference, individual geography
-- G37 Eudes (Odon) de Gournay — landholding / property reference, individual geography
+- G37 Eudes (Odon) de Gournay - traditional first lord / landholding
+- G36 Hugh de Gournay I - fortifier / inherited lordship
+- G35 Renaud de Gournay - lordship / individual geography
+- G34 Hugh de Gournay II - lordship / individual geography
+- G33 Hugh de Gournay III - lordship / individual geography
+- G32 Gerard de Gournay - lordship / individual geography
 
 ### Review notes
 
-- None in cleanup pass 3b.
+- Split Collégiale Saint-Hildevert into its own place record.
+- Split Tour du Rempart / fortification-remnant context into its own place record.
+- Do not state that the exact G36 La Tour Hue survives. The Tour du Rempart is the best mapped fortification-remnant site, but its identity with La Tour Hue remains unproven.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->

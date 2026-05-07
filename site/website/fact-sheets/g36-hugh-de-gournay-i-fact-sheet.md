@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 permalink: /fact-sheets/g36-hugh-de-gournay-i-fact-sheet.html
 title: Hugh de Gournay I Fact Sheet
-pageHeading: Hugh de Gournay I (c. 945–950 — dates uncertain)
+pageHeading: Hugh de Gournay I (c. 920–940 — dates uncertain)
 subtitle: "Ancestor fact sheet for G36 in the direct Gurney line. First lord born in Gournay; builder of the fortress that defined the town. Updated April 2026."
 description: "Compact fact sheet for Hugh de Gournay I in the direct Gurney line."
 bodyClass: bio-page factsheet-page
@@ -27,7 +27,7 @@ factsheet:
   "mainEntity": {
     "@type": "Person",
     "name": "Hugh de Gournay I",
-    "birthDate": "c. 945",
+    "birthDate": "c. 920–940",
     "birthPlace": { "@type": "Place", "name": "Gournay-en-Bray, Normandy" },
     "description": "First lord of Gournay born in Normandy. Builder of the town's first major fortifications."
   }
@@ -41,7 +41,7 @@ factsheet:
 <div class="facts-vitals-grid">
   <div class="fact-item">
     <div class="fact-label">Born</div>
-    <div class="fact-value">c. 945–950, <a href="https://en.wikipedia.org/wiki/Gournay-en-Bray">Gournay-en-Bray</a>, <a href="https://en.wikipedia.org/wiki/Duchy_of_Normandy">Normandy</a>. First generation of the family to know no homeland but Normandy. <sup class="fn"><a href="#n1" id="ref-1">1</a></sup></div>
+    <div class="fact-value">c. 920–940, <a href="https://en.wikipedia.org/wiki/Gournay-en-Bray">Gournay-en-Bray</a>, <a href="https://en.wikipedia.org/wiki/Duchy_of_Normandy">Normandy</a>. First generation of the family to know no homeland but Normandy. <sup class="fn"><a href="#n1" id="ref-1">1</a></sup></div>
   </div>
   <div class="fact-item">
     <div class="fact-label">Died</div>
@@ -117,11 +117,11 @@ Very little else about Hugh survives. No wife is named in any source. His dates 
 <h2 class="unnumbered">Citations</h2>
 
 <ol class="citation-list">
-  <li id="n1">DG-I, p. 24: "Son of Eudes. First lord born in Gournay. First generation to know no homeland but Normandy." Dates estimated by generational spacing — Renaud (son) attested c. 989–996, suggesting Hugh active mid-to-late 10th century. <a class="citation-back" href="#ref-1">↩</a></li>
+  <li id="n1">DG-I, p. 24: "Son of Eudes. First lord born in Gournay. First generation to know no homeland but Normandy." Dates estimated by generational spacing — Renaud (son) attested c. 989–996, and Hannay (p. 45) frames Hugh as "contemporary of William Longsword" (d. 942), implying birth in the 920s–940s. The FS structured field gives "0930" and the TNG site (our-royal-titled-noble-and-commoner-ancestors.com) gives "circa 935," both at the earlier end and consistent with Hannay. Pattou *Racines Histoire* p. 2 dates Hugues 1er as "vivant en 984…+ après 989 (1046 ?)." <a class="citation-back" href="#ref-1">↩</a></li>
   <li id="n2">No death date in any source. Active generation estimated c. 960–1000 based on son Renaud's documented dates. <a class="citation-back" href="#ref-2">↩</a></li>
   <li id="n3">DG-I, p. 23: Red Book Roll establishes the military obligation of the Lords of Gournay. <a class="citation-back" href="#ref-3">↩</a></li>
   <li id="n4">No spouse named in DG or any other source consulted. <a class="citation-back" href="#ref-4">↩</a></li>
-  <li id="n5">DG-I, p. 24: "He built, near the present church of St. Hildevert, a citadel, surrounded by a double ditch, which rendered it inaccessible, and fortified it with a tower called after him, 'La Tour Hue.'" DG-I gives the demolition as "the beginning of the seventeenth century." However, Daniel Gurney, <em>Supplement</em> (1858), Note 7 (p. 730) revises this: "La Tour Hue was of course of an earlier date; it is now entirely gone, although remaining a century ago" — placing the final demolition around the 1750s, not the 1600s. Source for fortification description: <em>Histoire de Gournay</em> (MS), cited in DG-I, p. 24. <a class="citation-back" href="#ref-5">↩</a></li>
+  <li id="n5">DG-I, p. 24, citing William Brito (Guillaume le Breton) *Philippide* lib. xi (c. 1224): the citadel was "surrounded by a triple wall and a double ditch which rendered it inaccessible, and fortified with a tower called after him, 'La Tour Hue.'" The fullest local-tradition account is in Pierre Potin de la Mairie, *Recherches historiques sur la ville de Gournay-en-Bray* (1842), pp. 75–81, drawing on Père du Plessis's *Description de la Haute Normandie* and Nicolas Cordier's MS *Histoire de Gournay* (c. 1710–1738). Survival: Potin 1842 places the demolition "au commencement du siècle dernier" (early 1700s); DG-Supp Note 7 (p. 730, 1858) places it "a century ago" (= c. 1750s) — the two dates bracket an early-to-mid-18th-century final demolition. Painchault, *Gaillefontaine* (PURH 2012), frames Gournay-La Ferté-Gaillefontaine as a coordinated frontier-fortification triad at the head of the Bresle valley. <a class="citation-back" href="#ref-5">↩</a></li>
   <li id="n6">DG-I, p. 24; ancestral table cross-reference: Eudes arrived from Scandinavia c. 860; Hugh born in Gournay c. 945–950. Hannay, pp. 44–45, on the Hugh/Eudes name equivalence. <a class="citation-back" href="#ref-6">↩</a></li>
   <li id="n7">William Brito (13th-century court poet), quoted in DG-I, p. 24: Latin verse describing Gournay as "<em>munitum triplice muro … inexpugnabilis</em>." Classification "Uncertain" applied because Hugh is named in historical writing (Norman chronicles) and identifiable by the tower eponym, but no contemporary charter document names him directly. <a class="citation-back" href="#ref-7">↩</a></li>
   <li id="n8">Charter of 989–996 for the priory of La Ferté-en-Bray, naming Renaud de Gournay and his wife Alberade. Cited in DG-I, p. 25. This charter is the earliest contemporary document for the Lords of Gournay in project sources. <a class="citation-back" href="#ref-8">↩</a></li>
@@ -153,7 +153,7 @@ Very little else about Hugh survives. No wife is named in any source. His dates 
   <table class="fact-timeline-table">
     <tbody>
       <tr><th>Year</th><th>Event</th></tr>
-      <tr><td>c. 945–950</td><td>Born in Gournay-en-Bray — first of the line born in Normandy.</td></tr>
+      <tr><td>c. 920–940</td><td>Born in Gournay-en-Bray — first of the line born in Normandy.</td></tr>
       <tr><td>c. 960–990</td><td>Fortifies Gournay: citadel, double ditch, and tower ("La Tour Hue") constructed.</td></tr>
       <tr><td>c. 970</td><td>Son Renaud born.</td></tr>
       <tr><td>Dates uncertain</td><td>Death. No record.</td></tr>
