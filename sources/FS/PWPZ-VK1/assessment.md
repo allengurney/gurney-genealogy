@@ -367,4 +367,18 @@ The repeated Foucarmont attributions (Marthe de Foucarmont as wife of Eudes; Ali
 
 **No update to repo's G36/G37 from the Foucarmont theme** — Pattou's `?` markers remain the right level of confidence.
 
+---
+
+## 9. Phase-0 supplementary additions — 2026-05-06 (Norman additions pass)
+
+See `sources/FS/Norman_additions/assessment.md` for cross-cutting findings.
+
+**G36/G37-specific net-new findings from Norman_additions §1, §2.1, §2.3**:
+1. **Potin 1842's chronological argument against the one-Hugues structure** (pp. 70–71): *"Renaud vivait du temps de Rollon, mort en 917 ou en 932, et il est impossible que Hugues, son fils, ait vécu jusqu'en 1074."* This is the chronological reasoning that supports the repo's three-Hugues-pre-Girard structure (Hugh I + Hugh II + Hugh III) against Pillet (one Hugues) and Guilmeth (two Hugues). **Potin's chain matches the repo's: Eudes → Renaud → Hugues I (fortifier) → Hugues II (1074) → Hugues III (1110) → Girard.** This is a **fourth independent endorsement** of the repo's structure (alongside DG, FMG, the repo).
+2. **The Catalogue of Norman seigneurs at the Conquest**: Gabriel Dumoulin, *Histoire générale de Normandie* (1631), p. 185 lists *both* "Hue de Gournay" *and* "le sieur de Gournay" — i.e., **two Gournays among the invasion fleet**, which Potin uses to argue Hugh II and Hugh III were father and son both at Hastings. (The repo's "three Gournays at Hastings" reading via Hannay/Wace is consistent with this once you allow a third collateral.)
+3. **Hugh I's death year c. 1040 (Potin 1842 p. 88)**: editorial inference from the gap between Hugh I's last-attested fortification work and Hugh II's first-attested 1035/1045 expedition; not documented but a defensible terminus. Repo's G36 fact sheet "dates uncertain" is more conservative; Potin's 1040 is one option.
+4. **Hugh I → Hugh II succession is editorial inference, not documented**: Potin 1842 p. 89 — *"On ne sait pas non plus si son successeur fut son fils; je le pense, pourtant."* — *"Nor is it known whether his successor was his son; I [Potin] think so, however."* Worth noting in research as an *intra-family* uncertainty in the local Gournay tradition itself, not just modern editorial caution.
+5. **Eudes died before Rollo** (Potin 1842 p. 65): *"On ne trouve nulle part la date de la mort d'Eudes. Il mourut pourtant avant Rollon, s'il faut en croire un vieux manuscrit."* This narrows the existing G37 fact sheet's "after 911, date unknown" to "after 911 but before c. 932" — Rollon's traditional death year.
+6. **The fortification narrative**: Potin 1842 pp. 75–81 reproduces Père du Plessis's account of the fortification (citing William Brito *Philippide* lib. xi) at length, with Nicolas Cordier's c. 1710–1738 topographical description of the surviving fortifications (since demolished). This is the **deepest local-tradition** source for the Tour Hue narrative and supports a `research/topics/gournay-tower-la-tour-hue.md` topic file.
+7. **Recommendation**: do **not** adopt Pattou's extra "?Hugues de Gournay" between Eudes and Hugues 1er into the repo. Potin 1842 explicitly rejects it; NRP-I 1852 doesn't include it; FMG doesn't include it. Pattou's `?Hugues` is a chart-genealogy artifact of his hyper-cautious notation rather than a documented person.
 

@@ -346,4 +346,20 @@ The Lorraine source **conflates Basilia (Hugh's wife) with Edith de Warenne (Hug
 
 **Useful for G34 only as documentation of the kind of confusion that proliferates around the Hugues II / Hugues III junction.** Do not adopt.
 
+---
+
+## 9. Phase-0 supplementary additions — 2026-05-06 (Norman additions pass)
+
+See `sources/FS/Norman_additions/assessment.md` for cross-cutting findings.
+
+**G34-specific net-new findings from Norman_additions §1.3, §2.4**:
+1. **The "Le Vieil Huon" / "Senex" / "L'Ancien" / "Le Vieux" attribution is unambiguously G34's** per Potin 1842 p. 105: *"Et li vieil Hue de Gornai / Ensemble o li sa gent de Brai"* (Wace, *Roman de Rou* T. 2) is placed in Potin's Hugues II chapter (= repo G34), with the explicit gloss: *"On le voit, à cette époque, Hugues de Gournay était vieux; le repos lui était nécessaire après d'aussi rudes travaux."* This **resolves the long-running G33/G34 epithet-attribution question**: the epithet stack belongs at G34, not G33.
+2. **The 1035 expedition companion list, two parallel versions**:
+   - L'*Histoire et Chronique de Normandie* ff. 79–80 (cited via Potin 1842 p. 94): *"Guiffard, comte de Longueville, Néel le Vicomte, Taillefert, frère du duc par sa mère, le seigneur de Girarduille et de Gournay…s'embarquèrent à Barfleur, descendirent à Vicenezan."*
+   - Gabriel Dumoulin, *Histoire générale de Normandie* p. 153 (cited via Potin 1842 p. 95): *"Guiffard, Comte de Longueuille, Néel, Viconte de Costentin, Robert, Comte de Mortain, surnommé Taillefer, et des seigneurs de Giourville et Gournay."*
+   Two readings of "Taillefer": l'*Histoire et chronique* identifies him as the duke's brother by the mother (uncertain referent); Dumoulin identifies him as Robert Comte de Mortain. Embarkation port: **Barfleur** (in both versions; FMG/Pattou had "Harfleur" — Barfleur is the standard Cotentin port for English-bound fleets).
+3. **The Eulde / Hugues name equivalence in chronicles**: Potin 1842 p. 96–97 juxtaposes Dumoulin's *"Hugues de Gournay"* with l'*Histoire et chronique de Normandie*'s *"Eulde, seigneur de Gournay"* in the same Mortemer 1054 narrative — direct textual evidence for Hannay's observation that "Hugh's name was convertible with Eudes or Eude in the chronicles."
+4. **The 1074 "Cardiff" narrative, full version** per l'*Histoire et chronique* f. 117 (via Potin 1842 p. 105): *"Canut, accompagné de bien trois cent mille hommes…partant de Norwège, vint descendre au pays de Galles…lesquels il combattit à Cardif en Galles…Hue de Gournay et le Comte d'Evreux furent portez naurez en Normandie où ils décédèrent."* Adds named cast (Guillaume fils Auber, Roger de Montgommery — but Montgommery did not die until 1094, exposing the chronicle's structural unreliability). The "Norwège → Galles" geography is the same proper-noun tangle producing the Lorraine source's "Conrade Roi de Norveck" and DG's hypothesised Norwich/Caistor scribal corruption.
+5. **"Duché de Norwick" attribution**: Potin 1842 p. 105 — *"Hugues de Gournay obtint en Angleterre le duché de Norwick"* — local-tradition French summary of the post-Conquest Norfolk barony grant (Caister + Cantley + etc.).
+6. **Painchault 2012** confirms the strategic geography: Gournay-La Ferté-Gaillefontaine were a coordinated frontier triad at the head of the Bresle valley, the political stake of first order between the duchy and Capetian France.
 

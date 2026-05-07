@@ -516,6 +516,18 @@ Three distinct positions, each with named primary-or-secondary backing, now docu
 
 This note is **a process artifact**: it documents that the Geni profile's structure as of 2015 shifted to align with FMG Cawley's preferred reading on Amicie. Useful for understanding the Geni profile's editorial history.
 
+---
+
+## 9. Phase-0 supplementary additions — 2026-05-06 (Norman additions pass)
+
+See `sources/FS/Norman_additions/assessment.md` for cross-cutting findings from the four Recherches/PURH PDFs and the Normonde + PURH URLs.
+
+**G32-specific net-new findings from Norman_additions §2.6, §2.7**:
+1. **Walter-as-son-of-Gerard now has a fifth scholarly endorsement**: NRP-I 1852 p. 80 explicitly states *"Gautier, tige de la branche des Gournay de Norfolk"* — "Gautier, root of the branch of the Gournays of Norfolk." This joins DG 1845 (p. 70 verbatim), DG-Supp Note 104, Pettigrew 1871, and the Geni / R Green / R.B. Stewart citations in the local-tradition cluster supporting position #1.
+2. **A possible additional son named Renaud**: Potin 1842 p. 124 mentions *"Quelques historiens donnent à Girard un autre fils nommé Renaud de Gournay qui lui-même eut un fils du nom de Hugues"* — "Some historians give to Girard another son named Renaud de Gournay, who himself had a son named Hugues." Not adopted by FMG, Pattou, or DG, but worth noting in the children table.
+3. **Drogo de Moncey wardship reframing**: Potin 1842 p. 116 frames Henry I's wardship of Hugh IV as protective response to Drogo's "unfaithful depositary" attempts to usurp the inheritance — balancing the Stewart "coercive seizure" framing with a more sympathetic reading.
+4. **Painchault 2012** (PURH archaeological chapter on Gaillefontaine) provides modern archaeological context for the 1089 fortification triad of Gournay-La Ferté-Gaillefontaine that Gerard delivered to William Rufus per Orderic [879].
+5. **The Beauvais obituary entry** confirmed: Potin 1842 p. 124 reproduces the same *VIII. Idus Maii, ob. Girardus de Gornaco* entry already in the repo's G32 §8.1 #3 from Geni / DG. Source: an ancient obituary of the church of Beauvais.
 
 
 

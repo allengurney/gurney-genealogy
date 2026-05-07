@@ -218,6 +218,21 @@ For discrepancies where FS is sourced (not many in this export):
 | http://search.ancestry.com/cgi-bin/sse.dll?dbid=3599&h=2772993 (AGBI for Basila Flaitel) | American Genealogical-Biographical Index — too modern/derivative. |
 | http://search.ancestry.com/cgi-bin/sse.dll?dbid=60541&h=2813093 (Global FindAGrave for Basila) | Same as above. |
 
+## Phase-0 supplementary additions — 2026-05-06 (Norman additions pass)
+
+See `sources/FS/Norman_additions/assessment.md` for cross-cutting findings.
+
+**G33-specific net-new findings from Norman_additions §1.3, §2.5, §3**:
+1. **The "Senex / Le Vieil Huon / L'Ancien / Le Vieux" attribution belongs to G34, not G33**. Potin 1842 p. 105 explicitly attributes Wace's *"Et li vieil Hue de Gornai / Ensemble o li sa gent de Brai"* (Wace, *Roman de Rou* T. 2) to **Hugues II** (= repo G34). Pettigrew (already in repo) cites the same Wace passage at G34 level. Pattou (G33 §3.1 #2) places the entire epithet stack at G34. The G33 fact sheet's current "Hugo Senex" tag should be moved to G34 in Phase 2. The English-language compression (Hannay especially) folded two figures into one "Old Hugh."
+2. **Hugh III's death year 1110**: Potin 1842 p. 110 unambiguously gives 1110 — *"Le Hugues que nous nommons Hugues III, mourut en 1110, moine à l'abbaye du Bec."* This is the **deep source** of Richardson's 1110 via TNG/Magna Charta Sureties. Reconcilable with DG / FMG's c. 1093: he was *shorn a monk* before 1093 (last lay attestation), entered Bec in 1080, became Prior of Saint-Nicaise de Meulan in 1092 (Potin p. 109), and **died in monastic retirement at Bec in 1110**. The fact sheet should be rewritten to reflect both data points.
+3. **Saint-Nicaise de Meulan priorate (1092)** confirmed and dated: Hugh III replaced Guillaume de Montfort, abbé du Bec, as Prior in 1092. Pettigrew (in repo) was cautious about this; Pattou (G33 §3.1 #5) and Potin 1842 both confirm.
+4. **Bosc-Girard donation** added to Hugh III's Bec endowment list (Potin 1842 p. 108, Latin verbatim from *Neustria Pia* p. 478): *"Hugo de Gornaco, dimidiam moltam villæ quæ vocatur Bosci Girardi, quod postea concessit uxor ejus et filius. Cujus testes sunt Anfredus monachus, Rodulphus, filius Toraldi, Rogerius Cochelin et alii plures."*
+5. **Basilea's first husband's full pedigree**: Raoul de Gacé / de Vassy / Tête-dure was son of **Robert Archbishop of Rouen and Count of Évreux** (Richard I's son), by his concubine **Hélène**. Brothers (per Moréri): Richard, Radulphe (= Basilea's husband), Guillaume. Basilea's first marriage carried *ducal collateral* blood — grandson of Richard I.
+6. **Anfrede / Ansfride name conflict flagged**: Potin 1842 p. 110 names "Anfrede sa mère" (her mother) retiring with Basilea to Bec; DG / Chronicon Beccensis names "Ansfride her niece" who died on the first of three consecutive Sundays Jan 1099. Two transmission lines garbled; most likely Potin misread the Chronicon. Worth flagging in research.
+7. **"Duché de Norwick" attribution**: Potin 1842 p. 105 says *"Hugues de Gournay obtint en Angleterre le duché de Norwick"* — the local-tradition French summary of the Norfolk barony cluster (Caister, Cantley, etc.) granted by 1075 forfeiture redistribution after the Ralph de Gaël revolt.
+8. **Caister and Cantley tithes given to Saint-Hildevert at Gournay-en-Bray**: Potin 1842 p. 110 documents the trans-Channel ecclesiastical tie — English Norfolk parish tithes endowing the Norman Saint-Hildevert collégiale, confirmed by the Bishop of Norwich. Held by Saint-Hildevert into the Hundred Years War.
+
+
 ---
 
 ## 6. Combined disposition (Pass A + Pass B)

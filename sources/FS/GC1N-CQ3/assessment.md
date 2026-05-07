@@ -275,4 +275,16 @@ The FS structured table lists 5 children for Renaud (p. 1–2):
 
 Of the five FS children, only two (Hugues II and Gauthier) are corroborated by FMG. Two are spurious (Nocher, Blanche). One (Alix) is generationally misplaced.
 
+---
+
+## 8. Phase-0 supplementary additions — 2026-05-06 (Norman additions pass)
+
+See `sources/FS/Norman_additions/assessment.md` for cross-cutting findings.
+
+**G35-specific net-new findings from Norman_additions §2.2**:
+1. **Renaud had three sons, not two**: Potin 1842 p. 65 and NRP-I 1852 p. 77: *"Il épousa Aubrée ou Albérade (Albereda) dont il eut: 1° Huc ou Hugues de Gournay; 2° Gauthier de la Ferté; 3° Raoul (Radulphus), mort sans postérité."* The third son **Raoul, died without posterity**, is not in FMG/MedLands (which extracts only the two named in the la Ferté charter). Worth adding to children list with caveat as a local-tradition addition.
+2. **The la Ferté priory foundation witness list, fuller**: NRP-I 1852 p. 77–78 names: Richard I (duke); Richard, his son (= Richard II); Robert, archbishop of Rouen; **a count also named Robert** (unnamed by office; possibly Robert Comte d'Évreux, brother of the archbishop); and **a dedicating bishop named Hugues** (with consent of the archbishop of Rouen). The five churches given at foundation: **Fry, Argueil, Saint-Samson, Boulay, Bruquedale**.
+3. **Foundation date corroborated as 990**: NRP-I 1852 p. 77 explicitly dates the priory foundation to 990. The la Ferté château is documented standing by year 1000. This **brackets the la Ferté foundation tightly within 989/96** as FMG already has it, against Pattou's "ou cette fondation peut-être légèrement antérieure à 1026 sous Richard II?" hedge — the dedicating Bishop Hugues plus Archbishop Robert plus Duke Richard I all concur on a Richard-I-era foundation.
+4. **The local-tradition manuscript chain confirmed**: Potin 1842 (preface) explicitly says he draws on *"une Histoire manuscrite de Gournay qu'a laissée Messire Nicolas Cordier, Curé de Notre-Dame de cette ville de 1710 à 1738"* + Langloys's *Notes volumineuses* (late 17th c.) + **René Potin**'s notes. The *MS. de Gondeville Histoire de Gournay* citation chain (FMG [884]/[885]) traces through this Cordier → Langloys → Potin → DG line.
+5. **Renaud as third son's progeny** (Potin 1842 p. 124, in Girard chapter): *"Quelques historiens donnent à Girard un autre fils nommé Renaud de Gournay qui lui-même eut un fils du nom de Hugues."* — i.e., a different Renaud (Girard's collateral son, not the G35 ancestor). Worth flagging to avoid name-collision confusion in any G32-G35 cross-walk.
 
