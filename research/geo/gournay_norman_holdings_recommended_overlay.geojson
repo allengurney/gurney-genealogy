@@ -1,0 +1,2618 @@
+{
+  "type": "FeatureCollection",
+  "name": "gournay_norman_holdings_recommended_overlay",
+  "properties": {
+    "title": "Recommended reconstructed Norman Gournay holdings overlays",
+    "version": "2026-05-07",
+    "coordinate_reference_system": "WGS84 / RFC 7946 GeoJSON; coordinates are [longitude, latitude]",
+    "usage_note": "Historical research aid only. Polygons are interpretive, approximate modern-reference reconstructions; not surveyed medieval boundaries.",
+    "derivation_summary": "Built from the repo's Hugh de Gournay reconstruction plus additional point buffers for Gournay, La Ferté, Gaillefontaine, Sigy, Fry, Montigny-sur-Andelle, and Écouché. Buffers are deliberately conservative and labeled with confidence."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "older_gournay_core_repo",
+      "properties": {
+        "name": "Older Gournay core (repo reconstruction)",
+        "layer_group": "source_reconstruction",
+        "feature_type": "reconstructed_polygon",
+        "certainty": "medium-low",
+        "display_default": true,
+        "style": {
+          "color": "#7a4b16",
+          "weight": 2,
+          "opacity": 0.75,
+          "fillColor": "#b77724",
+          "fillOpacity": 0.16,
+          "dashArray": "4 4"
+        },
+        "historical_basis": "Existing repo reconstruction for older Gournay lordship west/immediately around the Epte.",
+        "interpretation_note": "Approximate modern-reference visualization; not a surveyed medieval boundary."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.69,
+              49.555
+            ],
+            [
+              1.685,
+              49.47
+            ],
+            [
+              1.76,
+              49.47
+            ],
+            [
+              1.75,
+              49.555
+            ],
+            [
+              1.69,
+              49.555
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "beauvaisis_24_villages_repo",
+      "properties": {
+        "name": "Beauvaisis acquisitions / Conquêts Hue de Gournay (repo reconstruction)",
+        "layer_group": "source_reconstruction",
+        "feature_type": "reconstructed_polygon",
+        "certainty": "medium",
+        "display_default": true,
+        "style": {
+          "color": "#5b6f2a",
+          "weight": 2,
+          "opacity": 0.8,
+          "fillColor": "#9ab04a",
+          "fillOpacity": 0.16
+        },
+        "historical_basis": "Existing repo reconstruction from preserved Conquêts Hue de Gournay place-list and modern commune anchors.",
+        "interpretation_note": "Core polygon for the 24-village customary-law/acquisition block; not cadastral."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.745,
+              49.61
+            ],
+            [
+              1.742,
+              49.512
+            ],
+            [
+              1.79,
+              49.505
+            ],
+            [
+              1.872,
+              49.545
+            ],
+            [
+              1.845,
+              49.606
+            ],
+            [
+              1.745,
+              49.61
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "beauvaisis_24_villages_expanded_3km",
+      "properties": {
+        "name": "Beauvaisis acquisitions expanded village-land buffer (3 km)",
+        "layer_group": "derived_buffers",
+        "feature_type": "buffered_polygon",
+        "certainty": "low-medium",
+        "display_default": false,
+        "buffer_meters": 3000,
+        "style": {
+          "color": "#5b6f2a",
+          "weight": 1,
+          "opacity": 0.55,
+          "fillColor": "#9ab04a",
+          "fillOpacity": 0.1,
+          "dashArray": "6 4"
+        },
+        "historical_basis": "Derived from existing 24-village polygon buffered by 3 km to represent village-field/parish/hamlet lands around listed settlements.",
+        "interpretation_note": "Use as expanded influence zone, not as a boundary."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.703521,
+              49.61053
+            ],
+            [
+              1.70072,
+              49.509892
+            ],
+            [
+              1.702528,
+              49.50386
+            ],
+            [
+              1.707094,
+              49.497501
+            ],
+            [
+              1.713043,
+              49.492731
+            ],
+            [
+              1.720495,
+              49.488961
+            ],
+            [
+              1.731655,
+              49.485893
+            ],
+            [
+              1.783647,
+              49.478357
+            ],
+            [
+              1.793247,
+              49.478121
+            ],
+            [
+              1.803974,
+              49.479621
+            ],
+            [
+              1.814834,
+              49.483429
+            ],
+            [
+              1.896819,
+              49.523414
+            ],
+            [
+              1.902802,
+              49.526971
+            ],
+            [
+              1.907607,
+              49.531218
+            ],
+            [
+              1.91105,
+              49.535992
+            ],
+            [
+              1.913,
+              49.541112
+            ],
+            [
+              1.91338,
+              49.54638
+            ],
+            [
+              1.911825,
+              49.552446
+            ],
+            [
+              1.883572,
+              49.615928
+            ],
+            [
+              1.876722,
+              49.623376
+            ],
+            [
+              1.866585,
+              49.629024
+            ],
+            [
+              1.858083,
+              49.631584
+            ],
+            [
+              1.848914,
+              49.632838
+            ],
+            [
+              1.747524,
+              49.636909
+            ],
+            [
+              1.738002,
+              49.636572
+            ],
+            [
+              1.725162,
+              49.633678
+            ],
+            [
+              1.713545,
+              49.627582
+            ],
+            [
+              1.706005,
+              49.619209
+            ],
+            [
+              1.703521,
+              49.61053
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gournay_la_ferte_gaillefontaine_frontier_corridor",
+      "properties": {
+        "name": "Gournay–La Ferté–Gaillefontaine frontier corridor estimate",
+        "layer_group": "derived_buffers",
+        "feature_type": "corridor_buffer",
+        "certainty": "low-medium",
+        "display_default": true,
+        "buffer_meters": "5000 along castle corridor; 2500 along Sigy/Fry ecclesiastical spur",
+        "style": {
+          "color": "#8a4b1e",
+          "weight": 2,
+          "opacity": 0.7,
+          "fillColor": "#c58a2b",
+          "fillOpacity": 0.14
+        },
+        "historical_basis": "Derived from high-priority castle/landholding nodes: Gournay, La Ferté, Gaillefontaine, plus Sigy and Fry as cadet-line ecclesiastical sites.",
+        "interpretation_note": "Best used as an estimated frontier-holdings corridor, not a contiguous legal boundary."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.674458,
+              49.563917
+            ],
+            [
+              1.629005,
+              49.585344
+            ],
+            [
+              1.678923,
+              49.621624
+            ],
+            [
+              1.686575,
+              49.628895
+            ],
+            [
+              1.691897,
+              49.636997
+            ],
+            [
+              1.694684,
+              49.645616
+            ],
+            [
+              1.694829,
+              49.654423
+            ],
+            [
+              1.692324,
+              49.66308
+            ],
+            [
+              1.688278,
+              49.669937
+            ],
+            [
+              1.681234,
+              49.677465
+            ],
+            [
+              1.672059,
+              49.683956
+            ],
+            [
+              1.663039,
+              49.688391
+            ],
+            [
+              1.653024,
+              49.691813
+            ],
+            [
+              1.640072,
+              49.694454
+            ],
+            [
+              1.626574,
+              49.695404
+            ],
+            [
+              1.615284,
+              49.694875
+            ],
+            [
+              1.604277,
+              49.69316
+            ],
+            [
+              1.59385,
+              49.690303
+            ],
+            [
+              1.586113,
+              49.687246
+            ],
+            [
+              1.577416,
+              49.682548
+            ],
+            [
+              1.469372,
+              49.603469
+            ],
+            [
+              1.462037,
+              49.594354
+            ],
+            [
+              1.458085,
+              49.584393
+            ],
+            [
+              1.457967,
+              49.572645
+            ],
+            [
+              1.459678,
+              49.566864
+            ],
+            [
+              1.463336,
+              49.560057
+            ],
+            [
+              1.458313,
+              49.552762
+            ],
+            [
+              1.457675,
+              49.544089
+            ],
+            [
+              1.46106,
+              49.537183
+            ],
+            [
+              1.467647,
+              49.531336
+            ],
+            [
+              1.507454,
+              49.511595
+            ],
+            [
+              1.51664,
+              49.508821
+            ],
+            [
+              1.527795,
+              49.507919
+            ],
+            [
+              1.538804,
+              49.509399
+            ],
+            [
+              1.547635,
+              49.512651
+            ],
+            [
+              1.694304,
+              49.44369
+            ],
+            [
+              1.708907,
+              49.439838
+            ],
+            [
+              1.724469,
+              49.438247
+            ],
+            [
+              1.740179,
+              49.439
+            ],
+            [
+              1.755217,
+              49.442057
+            ],
+            [
+              1.77058,
+              49.448164
+            ],
+            [
+              1.778746,
+              49.453224
+            ],
+            [
+              1.7843,
+              49.457855
+            ],
+            [
+              1.792409,
+              49.468328
+            ],
+            [
+              1.796084,
+              49.479812
+            ],
+            [
+              1.795767,
+              49.488619
+            ],
+            [
+              1.792078,
+              49.498606
+            ],
+            [
+              1.785001,
+              49.507785
+            ],
+            [
+              1.775432,
+              49.515339
+            ],
+            [
+              1.770661,
+              49.556029
+            ],
+            [
+              1.769077,
+              49.560264
+            ],
+            [
+              1.765937,
+              49.563617
+            ],
+            [
+              1.761999,
+              49.565991
+            ],
+            [
+              1.757255,
+              49.567627
+            ],
+            [
+              1.751353,
+              49.568451
+            ],
+            [
+              1.687968,
+              49.568415
+            ],
+            [
+              1.680258,
+              49.566898
+            ],
+            [
+              1.674458,
+              49.563917
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pays_de_bray_context_envelope",
+      "properties": {
+        "name": "Pays de Bray / Gournay frontier context envelope",
+        "layer_group": "context",
+        "feature_type": "context_envelope",
+        "certainty": "low",
+        "display_default": false,
+        "style": {
+          "color": "#6d5b3a",
+          "weight": 1,
+          "opacity": 0.45,
+          "fillColor": "#d6c087",
+          "fillOpacity": 0.08,
+          "dashArray": "8 6"
+        },
+        "historical_basis": "Convex/context envelope around Gournay frontier corridor and Beauvaisis acquisitions; provided only as a regional interpretive frame.",
+        "interpretation_note": "Do not use as a landholding boundary. Use to show the geographic relationship of the Bray frontier sites."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.726943,
+              49.420235
+            ],
+            [
+              1.742658,
+              49.421036
+            ],
+            [
+              1.757964,
+              49.423494
+            ],
+            [
+              1.771655,
+              49.427272
+            ],
+            [
+              1.785022,
+              49.432725
+            ],
+            [
+              1.920521,
+              49.513038
+            ],
+            [
+              1.931561,
+              49.522277
+            ],
+            [
+              1.938911,
+              49.53391
+            ],
+            [
+              1.94105,
+              49.545533
+            ],
+            [
+              1.938382,
+              49.557403
+            ],
+            [
+              1.909127,
+              49.622809
+            ],
+            [
+              1.904589,
+              49.628797
+            ],
+            [
+              1.899015,
+              49.634056
+            ],
+            [
+              1.892022,
+              49.638946
+            ],
+            [
+              1.884358,
+              49.642945
+            ],
+            [
+              1.873254,
+              49.647011
+            ],
+            [
+              1.658398,
+              49.709734
+            ],
+            [
+              1.643079,
+              49.712379
+            ],
+            [
+              1.629566,
+              49.71333
+            ],
+            [
+              1.613728,
+              49.712878
+            ],
+            [
+              1.599087,
+              49.710922
+            ],
+            [
+              1.587152,
+              49.708133
+            ],
+            [
+              1.575882,
+              49.704356
+            ],
+            [
+              1.557686,
+              49.695162
+            ],
+            [
+              1.454288,
+              49.620066
+            ],
+            [
+              1.444513,
+              49.611591
+            ],
+            [
+              1.434993,
+              49.598587
+            ],
+            [
+              1.43037,
+              49.585102
+            ],
+            [
+              1.429701,
+              49.546389
+            ],
+            [
+              1.432169,
+              49.536058
+            ],
+            [
+              1.438166,
+              49.526984
+            ],
+            [
+              1.447991,
+              49.518713
+            ],
+            [
+              1.494399,
+              49.495714
+            ],
+            [
+              1.684319,
+              49.426819
+            ],
+            [
+              1.705052,
+              49.42193
+            ],
+            [
+              1.726943,
+              49.420235
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "norman_gournay_landholding_network_envelope",
+      "properties": {
+        "name": "Norman Gournay landholding network envelope (low-confidence composite)",
+        "layer_group": "interpretive_composite",
+        "feature_type": "multipolygon_network_envelope",
+        "certainty": "low",
+        "display_default": false,
+        "style": {
+          "color": "#4e3b6f",
+          "weight": 2,
+          "opacity": 0.55,
+          "fillColor": "#7c6aa6",
+          "fillOpacity": 0.08,
+          "dashArray": "10 6"
+        },
+        "historical_basis": "Union of the Gournay frontier corridor, expanded Beauvaisis acquisitions, Montigny parage buffer, and Écouché maritagium/estate buffer.",
+        "interpretation_note": "This is not a claim of continuous landholding. It is a network envelope containing non-contiguous holdings and proof-places."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -0.091031,
+                48.716413
+              ],
+              [
+                -0.093275,
+                48.72506
+              ],
+              [
+                -0.100351,
+                48.732481
+              ],
+              [
+                -0.111183,
+                48.737544
+              ],
+              [
+                -0.12412,
+                48.739478
+              ],
+              [
+                -0.137192,
+                48.737989
+              ],
+              [
+                -0.148406,
+                48.733303
+              ],
+              [
+                -0.156053,
+                48.726135
+              ],
+              [
+                -0.15897,
+                48.717577
+              ],
+              [
+                -0.156715,
+                48.708931
+              ],
+              [
+                -0.149635,
+                48.701514
+              ],
+              [
+                -0.138806,
+                48.696454
+              ],
+              [
+                -0.125879,
+                48.694522
+              ],
+              [
+                -0.112817,
+                48.696009
+              ],
+              [
+                -0.101609,
+                48.700692
+              ],
+              [
+                -0.093958,
+                48.707856
+              ],
+              [
+                -0.091031,
+                48.716413
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                1.393217,
+                49.325791
+              ],
+              [
+                1.392788,
+                49.33107
+              ],
+              [
+                1.390791,
+                49.336193
+              ],
+              [
+                1.387303,
+                49.340963
+              ],
+              [
+                1.382457,
+                49.345196
+              ],
+              [
+                1.376439,
+                49.34873
+              ],
+              [
+                1.369481,
+                49.351428
+              ],
+              [
+                1.36185,
+                49.353188
+              ],
+              [
+                1.35384,
+                49.35394
+              ],
+              [
+                1.345759,
+                49.353657
+              ],
+              [
+                1.337918,
+                49.352348
+              ],
+              [
+                1.33062,
+                49.350066
+              ],
+              [
+                1.324144,
+                49.346896
+              ],
+              [
+                1.31874,
+                49.342962
+              ],
+              [
+                1.314615,
+                49.338414
+              ],
+              [
+                1.311928,
+                49.333428
+              ],
+              [
+                1.310781,
+                49.328195
+              ],
+              [
+                1.311218,
+                49.322916
+              ],
+              [
+                1.313223,
+                49.317794
+              ],
+              [
+                1.316716,
+                49.313027
+              ],
+              [
+                1.321565,
+                49.308796
+              ],
+              [
+                1.327582,
+                49.305265
+              ],
+              [
+                1.334536,
+                49.302569
+              ],
+              [
+                1.34216,
+                49.300811
+              ],
+              [
+                1.350162,
+                49.300059
+              ],
+              [
+                1.358235,
+                49.300342
+              ],
+              [
+                1.366068,
+                49.301649
+              ],
+              [
+                1.373361,
+                49.30393
+              ],
+              [
+                1.379835,
+                49.307097
+              ],
+              [
+                1.38524,
+                49.311029
+              ],
+              [
+                1.389369,
+                49.315574
+              ],
+              [
+                1.392062,
+                49.320559
+              ],
+              [
+                1.393217,
+                49.325791
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                1.703664,
+                49.612301
+              ],
+              [
+                1.702268,
+                49.56848
+              ],
+              [
+                1.684648,
+                49.568023
+              ],
+              [
+                1.679087,
+                49.56646
+              ],
+              [
+                1.674357,
+                49.563839
+              ],
+              [
+                1.629005,
+                49.585344
+              ],
+              [
+                1.677441,
+                49.620513
+              ],
+              [
+                1.685454,
+                49.627618
+              ],
+              [
+                1.691181,
+                49.635602
+              ],
+              [
+                1.694045,
+                49.642706
+              ],
+              [
+                1.695077,
+                49.651488
+              ],
+              [
+                1.693904,
+                49.658792
+              ],
+              [
+                1.689225,
+                49.668602
+              ],
+              [
+                1.682564,
+                49.676275
+              ],
+              [
+                1.672059,
+                49.683956
+              ],
+              [
+                1.659138,
+                49.689887
+              ],
+              [
+                1.644475,
+                49.693758
+              ],
+              [
+                1.631102,
+                49.695279
+              ],
+              [
+                1.615284,
+                49.694875
+              ],
+              [
+                1.600021,
+                49.69215
+              ],
+              [
+                1.586113,
+                49.687246
+              ],
+              [
+                1.575825,
+                49.681501
+              ],
+              [
+                1.474942,
+                49.608112
+              ],
+              [
+                1.468129,
+                49.602238
+              ],
+              [
+                1.461258,
+                49.592971
+              ],
+              [
+                1.457811,
+                49.582931
+              ],
+              [
+                1.458286,
+                49.571187
+              ],
+              [
+                1.463336,
+                49.560057
+              ],
+              [
+                1.458313,
+                49.552762
+              ],
+              [
+                1.45753,
+                49.544811
+              ],
+              [
+                1.460569,
+                49.537837
+              ],
+              [
+                1.467647,
+                49.531336
+              ],
+              [
+                1.50938,
+                49.510828
+              ],
+              [
+                1.518825,
+                49.508451
+              ],
+              [
+                1.528923,
+                49.50796
+              ],
+              [
+                1.538804,
+                49.509399
+              ],
+              [
+                1.547635,
+                49.512651
+              ],
+              [
+                1.692341,
+                49.444415
+              ],
+              [
+                1.702485,
+                49.441221
+              ],
+              [
+                1.713291,
+                49.439147
+              ],
+              [
+                1.724469,
+                49.438247
+              ],
+              [
+                1.735723,
+                49.438545
+              ],
+              [
+                1.753141,
+                49.441484
+              ],
+              [
+                1.763205,
+                49.444782
+              ],
+              [
+                1.77058,
+                49.448164
+              ],
+              [
+                1.780221,
+                49.454337
+              ],
+              [
+                1.787832,
+                49.461617
+              ],
+              [
+                1.793119,
+                49.469724
+              ],
+              [
+                1.795872,
+                49.478311
+              ],
+              [
+                1.805261,
+                49.479937
+              ],
+              [
+                1.81372,
+                49.482904
+              ],
+              [
+                1.900928,
+                49.525701
+              ],
+              [
+                1.906896,
+                49.530469
+              ],
+              [
+                1.91105,
+                49.535992
+              ],
+              [
+                1.913173,
+                49.541985
+              ],
+              [
+                1.913154,
+                49.548135
+              ],
+              [
+                1.883572,
+                49.615928
+              ],
+              [
+                1.875842,
+                49.624033
+              ],
+              [
+                1.869914,
+                49.627558
+              ],
+              [
+                1.863052,
+                49.630274
+              ],
+              [
+                1.855511,
+                49.632079
+              ],
+              [
+                1.847576,
+                49.632907
+              ],
+              [
+                1.747524,
+                49.636909
+              ],
+              [
+                1.738002,
+                49.636572
+              ],
+              [
+                1.725162,
+                49.633678
+              ],
+              [
+                1.714452,
+                49.628245
+              ],
+              [
+                1.707021,
+                49.620855
+              ],
+              [
+                1.703664,
+                49.612301
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "epte_frontier_line",
+      "properties": {
+        "name": "Epte frontier line (schematic)",
+        "layer_group": "orientation",
+        "feature_type": "schematic_line",
+        "certainty": "low-medium",
+        "display_default": true,
+        "style": {
+          "color": "#2a6f93",
+          "weight": 2,
+          "opacity": 0.65,
+          "dashArray": "5 5"
+        },
+        "historical_basis": "Existing repo schematic line for the Epte frontier.",
+        "interpretation_note": "Orientation feature only; not an exact river trace."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.715,
+            49.6
+          ],
+          [
+            1.708,
+            49.548
+          ],
+          [
+            1.724,
+            49.521
+          ],
+          [
+            1.725,
+            49.483
+          ],
+          [
+            1.705,
+            49.44
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "buffer_gournay_4km",
+      "properties": {
+        "name": "Gournay-en-Bray core buffer",
+        "layer_group": "individual_buffers",
+        "feature_type": "source_point_buffer",
+        "certainty": "medium-low",
+        "display_default": false,
+        "buffer_meters": 4000,
+        "style": {
+          "color": "#666666",
+          "weight": 1,
+          "opacity": 0.35,
+          "fillColor": "#aaaaaa",
+          "fillOpacity": 0.06,
+          "dashArray": "2 4"
+        },
+        "historical_basis": "Derived circular buffer around a high-priority point/site.",
+        "interpretation_note": "Estimated 4 km buffer around the town/honor anchor; reflects surrounding landholding context, not a boundary."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.782476,
+              49.483715
+            ],
+            [
+              1.781249,
+              49.490717
+            ],
+            [
+              1.777949,
+              49.497428
+            ],
+            [
+              1.772701,
+              49.503591
+            ],
+            [
+              1.765706,
+              49.508969
+            ],
+            [
+              1.757233,
+              49.513353
+            ],
+            [
+              1.747608,
+              49.516577
+            ],
+            [
+              1.737201,
+              49.518515
+            ],
+            [
+              1.726413,
+              49.519093
+            ],
+            [
+              1.715659,
+              49.518289
+            ],
+            [
+              1.705354,
+              49.516133
+            ],
+            [
+              1.695894,
+              49.512709
+            ],
+            [
+              1.687642,
+              49.508149
+            ],
+            [
+              1.680918,
+              49.502627
+            ],
+            [
+              1.675977,
+              49.496358
+            ],
+            [
+              1.673011,
+              49.48958
+            ],
+            [
+              1.672132,
+              49.482556
+            ],
+            [
+              1.673373,
+              49.475555
+            ],
+            [
+              1.676685,
+              49.468846
+            ],
+            [
+              1.681941,
+              49.462687
+            ],
+            [
+              1.688939,
+              49.457314
+            ],
+            [
+              1.697408,
+              49.452934
+            ],
+            [
+              1.707024,
+              49.449715
+            ],
+            [
+              1.717419,
+              49.447779
+            ],
+            [
+              1.728192,
+              49.447202
+            ],
+            [
+              1.738931,
+              49.448005
+            ],
+            [
+              1.749224,
+              49.450158
+            ],
+            [
+              1.758676,
+              49.453578
+            ],
+            [
+              1.766925,
+              49.458133
+            ],
+            [
+              1.773653,
+              49.46365
+            ],
+            [
+              1.778602,
+              49.469917
+            ],
+            [
+              1.781582,
+              49.476691
+            ],
+            [
+              1.782476,
+              49.483715
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "buffer_la_ferte_3km",
+      "properties": {
+        "name": "La Ferté castle/locality buffer",
+        "layer_group": "individual_buffers",
+        "feature_type": "source_point_buffer",
+        "certainty": "medium-low",
+        "display_default": false,
+        "buffer_meters": 3000,
+        "style": {
+          "color": "#666666",
+          "weight": 1,
+          "opacity": 0.35,
+          "fillColor": "#aaaaaa",
+          "fillOpacity": 0.06,
+          "dashArray": "2 4"
+        },
+        "historical_basis": "Derived circular buffer around a high-priority point/site.",
+        "interpretation_note": "Estimated 3 km buffer around the La Ferté motte/locality; represents local cadet-line seat context."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.567988,
+              49.578705
+            ],
+            [
+              1.567044,
+              49.583954
+            ],
+            [
+              1.564544,
+              49.588983
+            ],
+            [
+              1.560581,
+              49.593598
+            ],
+            [
+              1.55531,
+              49.597621
+            ],
+            [
+              1.548931,
+              49.600899
+            ],
+            [
+              1.54169,
+              49.603304
+            ],
+            [
+              1.533866,
+              49.604744
+            ],
+            [
+              1.525759,
+              49.605164
+            ],
+            [
+              1.517683,
+              49.604547
+            ],
+            [
+              1.509947,
+              49.602918
+            ],
+            [
+              1.50285,
+              49.600339
+            ],
+            [
+              1.496663,
+              49.59691
+            ],
+            [
+              1.491626,
+              49.592761
+            ],
+            [
+              1.487932,
+              49.588053
+            ],
+            [
+              1.485722,
+              49.582967
+            ],
+            [
+              1.48508,
+              49.577699
+            ],
+            [
+              1.486032,
+              49.57245
+            ],
+            [
+              1.488539,
+              49.567423
+            ],
+            [
+              1.492506,
+              49.56281
+            ],
+            [
+              1.497779,
+              49.558789
+            ],
+            [
+              1.504156,
+              49.555515
+            ],
+            [
+              1.511392,
+              49.553112
+            ],
+            [
+              1.519209,
+              49.551673
+            ],
+            [
+              1.527307,
+              49.551253
+            ],
+            [
+              1.535375,
+              49.551869
+            ],
+            [
+              1.543104,
+              49.553497
+            ],
+            [
+              1.550197,
+              49.556073
+            ],
+            [
+              1.556382,
+              49.559501
+            ],
+            [
+              1.561421,
+              49.563647
+            ],
+            [
+              1.56512,
+              49.568352
+            ],
+            [
+              1.567338,
+              49.573437
+            ],
+            [
+              1.567988,
+              49.578705
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "buffer_gaillefontaine_4km",
+      "properties": {
+        "name": "Gaillefontaine motte/domain buffer",
+        "layer_group": "individual_buffers",
+        "feature_type": "source_point_buffer",
+        "certainty": "medium-low",
+        "display_default": false,
+        "buffer_meters": 4000,
+        "style": {
+          "color": "#666666",
+          "weight": 1,
+          "opacity": 0.35,
+          "fillColor": "#aaaaaa",
+          "fillOpacity": 0.06,
+          "dashArray": "2 4"
+        },
+        "historical_basis": "Derived circular buffer around a high-priority point/site.",
+        "interpretation_note": "Estimated 4 km buffer around Gaillefontaine motte/domain; represents frontier castle/domain context."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.681246,
+              49.651091
+            ],
+            [
+              1.680002,
+              49.65809
+            ],
+            [
+              1.676678,
+              49.664798
+            ],
+            [
+              1.6714,
+              49.670955
+            ],
+            [
+              1.664372,
+              49.676326
+            ],
+            [
+              1.655863,
+              49.680703
+            ],
+            [
+              1.6462,
+              49.683917
+            ],
+            [
+              1.635755,
+              49.685846
+            ],
+            [
+              1.624931,
+              49.686415
+            ],
+            [
+              1.614144,
+              49.685602
+            ],
+            [
+              1.603809,
+              49.683438
+            ],
+            [
+              1.594324,
+              49.680007
+            ],
+            [
+              1.586055,
+              49.675441
+            ],
+            [
+              1.57932,
+              49.669915
+            ],
+            [
+              1.574376,
+              49.663642
+            ],
+            [
+              1.571413,
+              49.656863
+            ],
+            [
+              1.570545,
+              49.64984
+            ],
+            [
+              1.571804,
+              49.642841
+            ],
+            [
+              1.57514,
+              49.636136
+            ],
+            [
+              1.580426,
+              49.629983
+            ],
+            [
+              1.587456,
+              49.624617
+            ],
+            [
+              1.595962,
+              49.620245
+            ],
+            [
+              1.605616,
+              49.617034
+            ],
+            [
+              1.616048,
+              49.615107
+            ],
+            [
+              1.626858,
+              49.614539
+            ],
+            [
+              1.63763,
+              49.615351
+            ],
+            [
+              1.647953,
+              49.617512
+            ],
+            [
+              1.657429,
+              49.620939
+            ],
+            [
+              1.665696,
+              49.625501
+            ],
+            [
+              1.672435,
+              49.631023
+            ],
+            [
+              1.677388,
+              49.637292
+            ],
+            [
+              1.680363,
+              49.644068
+            ],
+            [
+              1.681246,
+              49.651091
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "buffer_sigy_2km",
+      "properties": {
+        "name": "Sigy abbey/church buffer",
+        "layer_group": "individual_buffers",
+        "feature_type": "source_point_buffer",
+        "certainty": "low",
+        "display_default": false,
+        "buffer_meters": 2000,
+        "style": {
+          "color": "#666666",
+          "weight": 1,
+          "opacity": 0.35,
+          "fillColor": "#aaaaaa",
+          "fillOpacity": 0.06,
+          "dashArray": "2 4"
+        },
+        "historical_basis": "Derived circular buffer around a high-priority point/site.",
+        "interpretation_note": "Estimated 2 km buffer around Sigy; ecclesiastical/cadet-line site context, not a secular jurisdiction."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.519454,
+              49.547709
+            ],
+            [
+              1.517153,
+              49.55456
+            ],
+            [
+              1.510996,
+              49.560317
+            ],
+            [
+              1.50192,
+              49.564102
+            ],
+            [
+              1.491307,
+              49.565339
+            ],
+            [
+              1.480774,
+              49.563839
+            ],
+            [
+              1.471927,
+              49.559831
+            ],
+            [
+              1.466113,
+              49.553926
+            ],
+            [
+              1.464216,
+              49.547022
+            ],
+            [
+              1.466523,
+              49.540172
+            ],
+            [
+              1.472683,
+              49.534417
+            ],
+            [
+              1.481756,
+              49.530634
+            ],
+            [
+              1.492362,
+              49.529398
+            ],
+            [
+              1.502888,
+              49.530896
+            ],
+            [
+              1.511732,
+              49.534902
+            ],
+            [
+              1.51755,
+              49.540806
+            ],
+            [
+              1.519454,
+              49.547709
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "buffer_fry_1_5km",
+      "properties": {
+        "name": "Fry Saint-Martin church buffer",
+        "layer_group": "individual_buffers",
+        "feature_type": "source_point_buffer",
+        "certainty": "low",
+        "display_default": false,
+        "buffer_meters": 1500,
+        "style": {
+          "color": "#666666",
+          "weight": 1,
+          "opacity": 0.35,
+          "fillColor": "#aaaaaa",
+          "fillOpacity": 0.06,
+          "dashArray": "2 4"
+        },
+        "historical_basis": "Derived circular buffer around a high-priority point/site.",
+        "interpretation_note": "Estimated 1.5 km buffer around Fry church; church/endowment context, not a confirmed parish boundary."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.547122,
+              49.530619
+            ],
+            [
+              1.545399,
+              49.535758
+            ],
+            [
+              1.540786,
+              49.540077
+            ],
+            [
+              1.533983,
+              49.542917
+            ],
+            [
+              1.526027,
+              49.543847
+            ],
+            [
+              1.51813,
+              49.542725
+            ],
+            [
+              1.511496,
+              49.539721
+            ],
+            [
+              1.507133,
+              49.535293
+            ],
+            [
+              1.505707,
+              49.530116
+            ],
+            [
+              1.507433,
+              49.524977
+            ],
+            [
+              1.512048,
+              49.52066
+            ],
+            [
+              1.518848,
+              49.51782
+            ],
+            [
+              1.5268,
+              49.516891
+            ],
+            [
+              1.534694,
+              49.518013
+            ],
+            [
+              1.541327,
+              49.521015
+            ],
+            [
+              1.545691,
+              49.525442
+            ],
+            [
+              1.547122,
+              49.530619
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "buffer_montigny_3km",
+      "properties": {
+        "name": "Montigny-sur-Andelle parage buffer",
+        "layer_group": "individual_buffers",
+        "feature_type": "source_point_buffer",
+        "certainty": "low",
+        "display_default": false,
+        "buffer_meters": 3000,
+        "style": {
+          "color": "#666666",
+          "weight": 1,
+          "opacity": 0.35,
+          "fillColor": "#aaaaaa",
+          "fillOpacity": 0.06,
+          "dashArray": "2 4"
+        },
+        "historical_basis": "Derived circular buffer around a high-priority point/site.",
+        "interpretation_note": "Estimated 3 km buffer around Montigny parage proof-place; modern identity/fief extent needs verification."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.393251,
+              49.327556
+            ],
+            [
+              1.392294,
+              49.332805
+            ],
+            [
+              1.389789,
+              49.337832
+            ],
+            [
+              1.38583,
+              49.342442
+            ],
+            [
+              1.38057,
+              49.346459
+            ],
+            [
+              1.374211,
+              49.349728
+            ],
+            [
+              1.366998,
+              49.352123
+            ],
+            [
+              1.359207,
+              49.353553
+            ],
+            [
+              1.351139,
+              49.353961
+            ],
+            [
+              1.343103,
+              49.353333
+            ],
+            [
+              1.335411,
+              49.351692
+            ],
+            [
+              1.328357,
+              49.349102
+            ],
+            [
+              1.322212,
+              49.345663
+            ],
+            [
+              1.317214,
+              49.341506
+            ],
+            [
+              1.313553,
+              49.336792
+            ],
+            [
+              1.311371,
+              49.331701
+            ],
+            [
+              1.31075,
+              49.32643
+            ],
+            [
+              1.311715,
+              49.321181
+            ],
+            [
+              1.314227,
+              49.316156
+            ],
+            [
+              1.31819,
+              49.311548
+            ],
+            [
+              1.323451,
+              49.307534
+            ],
+            [
+              1.329808,
+              49.304267
+            ],
+            [
+              1.337017,
+              49.301874
+            ],
+            [
+              1.344801,
+              49.300446
+            ],
+            [
+              1.352861,
+              49.300038
+            ],
+            [
+              1.360887,
+              49.300666
+            ],
+            [
+              1.368573,
+              49.302305
+            ],
+            [
+              1.375623,
+              49.304893
+            ],
+            [
+              1.381766,
+              49.30833
+            ],
+            [
+              1.386767,
+              49.312484
+            ],
+            [
+              1.390432,
+              49.317196
+            ],
+            [
+              1.392622,
+              49.322285
+            ],
+            [
+              1.393251,
+              49.327556
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "buffer_ecouche_2_5km",
+      "properties": {
+        "name": "Écouché maritagium/estate buffer",
+        "layer_group": "individual_buffers",
+        "feature_type": "source_point_buffer",
+        "certainty": "low",
+        "display_default": false,
+        "buffer_meters": 2500,
+        "style": {
+          "color": "#666666",
+          "weight": 1,
+          "opacity": 0.35,
+          "fillColor": "#aaaaaa",
+          "fillOpacity": 0.06,
+          "dashArray": "2 4"
+        },
+        "historical_basis": "Derived circular buffer around a high-priority point/site.",
+        "interpretation_note": "Estimated 2.5 km buffer around Écouché locality; exact Gournay/Flaitel estate footprint not identified."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.091045,
+              48.717885
+            ],
+            [
+              -0.094139,
+              48.726416
+            ],
+            [
+              -0.101934,
+              48.733514
+            ],
+            [
+              -0.113244,
+              48.738098
+            ],
+            [
+              -0.126345,
+              48.739468
+            ],
+            [
+              -0.139242,
+              48.737416
+            ],
+            [
+              -0.149967,
+              48.732256
+            ],
+            [
+              -0.156889,
+              48.724772
+            ],
+            [
+              -0.158954,
+              48.716106
+            ],
+            [
+              -0.15585,
+              48.707576
+            ],
+            [
+              -0.148051,
+              48.700481
+            ],
+            [
+              -0.136747,
+              48.695901
+            ],
+            [
+              -0.123656,
+              48.694532
+            ],
+            [
+              -0.11077,
+              48.696582
+            ],
+            [
+              -0.100047,
+              48.701739
+            ],
+            [
+              -0.09312,
+              48.709219
+            ],
+            [
+              -0.091045,
+              48.717885
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point_gournay_en_bray",
+      "properties": {
+        "name": "Gournay-en-Bray",
+        "layer_group": "source_points",
+        "feature_type": "anchor_town",
+        "certainty": "high",
+        "display_default": true,
+        "style": {
+          "markerColor": "#7a4b16"
+        },
+        "interpretation_note": "Town/honor anchor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.727303,
+          49.483148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point_la_ferte_saint_samson_la_ferte_en_bray",
+      "properties": {
+        "name": "La Ferté-Saint-Samson / La Ferté-en-Bray",
+        "layer_group": "source_points",
+        "feature_type": "anchor_castle",
+        "certainty": "high",
+        "display_default": true,
+        "style": {
+          "markerColor": "#7a4b16"
+        },
+        "interpretation_note": "Cadet-line fortress/locality anchor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.526533,
+          49.578209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point_gaillefontaine",
+      "properties": {
+        "name": "Gaillefontaine",
+        "layer_group": "source_points",
+        "feature_type": "anchor_castle",
+        "certainty": "high",
+        "display_default": true,
+        "style": {
+          "markerColor": "#7a4b16"
+        },
+        "interpretation_note": "Motte/domain anchor; Orderic triad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.625895,
+          49.650478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point_sigy_abbaye_saint_martin",
+      "properties": {
+        "name": "Sigy / Abbaye Saint-Martin",
+        "layer_group": "source_points",
+        "feature_type": "anchor_church",
+        "certainty": "high",
+        "display_default": true,
+        "style": {
+          "markerColor": "#7a4b16"
+        },
+        "interpretation_note": "Cadet-line abbey/priory site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.491835,
+          49.547368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point_fry_eglise_saint_martin",
+      "properties": {
+        "name": "Fry / Église Saint-Martin",
+        "layer_group": "source_points",
+        "feature_type": "anchor_church",
+        "certainty": "high",
+        "display_default": true,
+        "style": {
+          "markerColor": "#7a4b16"
+        },
+        "interpretation_note": "La Ferté endowment church"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.526414,
+          49.530369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point_montigny_sur_andelle",
+      "properties": {
+        "name": "Montigny-sur-Andelle",
+        "layer_group": "source_points",
+        "feature_type": "anchor_fief",
+        "certainty": "medium",
+        "display_default": true,
+        "style": {
+          "markerColor": "#7a4b16"
+        },
+        "interpretation_note": "G30 parage proof-place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.352,
+          49.327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point_ecouche",
+      "properties": {
+        "name": "Écouché",
+        "layer_group": "source_points",
+        "feature_type": "anchor_estate",
+        "certainty": "medium",
+        "display_default": true,
+        "style": {
+          "markerColor": "#7a4b16"
+        },
+        "interpretation_note": "G32/G33 maritagium/pedigree proof place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.125,
+          48.717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point_abbey_of_bec_le_bec_hellouin",
+      "properties": {
+        "name": "Abbey of Bec / Le Bec-Hellouin",
+        "layer_group": "source_points",
+        "feature_type": "institutional_anchor",
+        "certainty": "high",
+        "display_default": false,
+        "style": {
+          "markerColor": "#7a4b16"
+        },
+        "interpretation_note": "Monastic recipient/burial site, not landholding envelope"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.722,
+          49.2288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point_beauvaisis_acquisitions_centroid",
+      "properties": {
+        "name": "Beauvaisis acquisitions centroid",
+        "layer_group": "source_points",
+        "feature_type": "aggregate_centroid",
+        "certainty": "low",
+        "display_default": false,
+        "style": {
+          "markerColor": "#7a4b16"
+        },
+        "interpretation_note": "Low-precision aggregate map anchor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7988,
+          49.5556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point_pays_de_bray_centroid",
+      "properties": {
+        "name": "Pays de Bray centroid",
+        "layer_group": "source_points",
+        "feature_type": "regional_centroid",
+        "certainty": "low",
+        "display_default": false,
+        "style": {
+          "markerColor": "#7a4b16"
+        },
+        "interpretation_note": "Low-precision region context anchor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.55,
+          49.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point_ferrieres_en_bray",
+      "properties": {
+        "name": "Ferrières-en-Bray",
+        "layer_group": "24_villages_anchor_points",
+        "feature_type": "listed_place",
+        "certainty": "high",
+        "display_default": false,
+        "style": {
+          "markerColor": "#5b6f2a"
+        },
+        "interpretation_note": "Existing research/geo anchor/listed-place point for the Conquêts Hue de Gournay reconstruction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.748,
+          49.482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point_molagnies",
+      "properties": {
+        "name": "Molagnies",
+        "layer_group": "24_villages_anchor_points",
+        "feature_type": "listed_place",
+        "certainty": "medium",
+        "display_default": false,
+        "style": {
+          "markerColor": "#5b6f2a"
+        },
+        "interpretation_note": "Existing research/geo anchor/listed-place point for the Conquêts Hue de Gournay reconstruction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.724,
+          49.521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point_cuy_saint_fiacre",
+      "properties": {
+        "name": "Cuy-Saint-Fiacre",
+        "layer_group": "24_villages_anchor_points",
+        "feature_type": "anchor_town",
+        "certainty": "high",
+        "display_default": false,
+        "style": {
+          "markerColor": "#5b6f2a"
+        },
+        "interpretation_note": "Existing research/geo anchor/listed-place point for the Conquêts Hue de Gournay reconstruction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.699,
+          49.513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point_gancourt_saint_etienne",
+      "properties": {
+        "name": "Gancourt-Saint-Étienne",
+        "layer_group": "24_villages_anchor_points",
+        "feature_type": "anchor_town",
+        "certainty": "high",
+        "display_default": false,
+        "style": {
+          "markerColor": "#5b6f2a"
+        },
+        "interpretation_note": "Existing research/geo anchor/listed-place point for the Conquêts Hue de Gournay reconstruction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.708,
+          49.548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point_saint_quentin_des_pres",
+      "properties": {
+        "name": "Saint-Quentin-des-Prés",
+        "layer_group": "24_villages_anchor_points",
+        "feature_type": "listed_place",
+        "certainty": "medium",
+        "display_default": false,
+        "style": {
+          "markerColor": "#5b6f2a"
+        },
+        "interpretation_note": "Existing research/geo anchor/listed-place point for the Conquêts Hue de Gournay reconstruction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.755,
+          49.5211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point_sully",
+      "properties": {
+        "name": "Sully",
+        "layer_group": "24_villages_anchor_points",
+        "feature_type": "listed_place",
+        "certainty": "medium",
+        "display_default": false,
+        "style": {
+          "markerColor": "#5b6f2a"
+        },
+        "interpretation_note": "Existing research/geo anchor/listed-place point for the Conquêts Hue de Gournay reconstruction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7819,
+          49.5597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point_hericourt_sur_therain",
+      "properties": {
+        "name": "Héricourt-sur-Thérain",
+        "layer_group": "24_villages_anchor_points",
+        "feature_type": "listed_place",
+        "certainty": "medium",
+        "display_default": false,
+        "style": {
+          "markerColor": "#5b6f2a"
+        },
+        "interpretation_note": "Existing research/geo anchor/listed-place point for the Conquêts Hue de Gournay reconstruction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7614,
+          49.5831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point_songeons",
+      "properties": {
+        "name": "Songeons",
+        "layer_group": "24_villages_anchor_points",
+        "feature_type": "listed_place",
+        "certainty": "medium",
+        "display_default": false,
+        "style": {
+          "markerColor": "#5b6f2a"
+        },
+        "interpretation_note": "Existing research/geo anchor/listed-place point for the Conquêts Hue de Gournay reconstruction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8549,
+          49.5478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point_loueuse",
+      "properties": {
+        "name": "Loueuse",
+        "layer_group": "24_villages_anchor_points",
+        "feature_type": "listed_place",
+        "certainty": "medium",
+        "display_default": false,
+        "style": {
+          "markerColor": "#5b6f2a"
+        },
+        "interpretation_note": "Existing research/geo anchor/listed-place point for the Conquêts Hue de Gournay reconstruction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8261,
+          49.5997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point_beauvais",
+      "properties": {
+        "name": "Beauvais",
+        "layer_group": "24_villages_anchor_points",
+        "feature_type": "orientation_city",
+        "certainty": "high",
+        "display_default": false,
+        "style": {
+          "markerColor": "#5b6f2a"
+        },
+        "interpretation_note": "Existing research/geo anchor/listed-place point for the Conquêts Hue de Gournay reconstruction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0819,
+          49.43
+        ]
+      }
+    }
+  ]
+}

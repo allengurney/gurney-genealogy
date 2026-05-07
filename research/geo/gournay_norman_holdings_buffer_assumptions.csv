@@ -1,0 +1,8 @@
+feature_id,name,longitude,latitude,buffer_meters,confidence,interpretation_note
+buffer_gournay_4km,Gournay-en-Bray core buffer,1.727303,49.483148,4000,medium-low,"Estimated 4 km buffer around the town/honor anchor; reflects surrounding landholding context, not a boundary."
+buffer_la_ferte_3km,La Ferté castle/locality buffer,1.5265335,49.578209,3000,medium-low,Estimated 3 km buffer around the La Ferté motte/locality; represents local cadet-line seat context.
+buffer_gaillefontaine_4km,Gaillefontaine motte/domain buffer,1.62589488664005,49.650477933144,4000,medium-low,Estimated 4 km buffer around Gaillefontaine motte/domain; represents frontier castle/domain context.
+buffer_sigy_2km,Sigy abbey/church buffer,1.4918346,49.5473684,2000,low,"Estimated 2 km buffer around Sigy; ecclesiastical/cadet-line site context, not a secular jurisdiction."
+buffer_fry_1_5km,Fry Saint-Martin church buffer,1.526414,49.530369,1500,low,"Estimated 1.5 km buffer around Fry church; church/endowment context, not a confirmed parish boundary."
+buffer_montigny_3km,Montigny-sur-Andelle parage buffer,1.352,49.327,3000,low,Estimated 3 km buffer around Montigny parage proof-place; modern identity/fief extent needs verification.
+buffer_ecouche_2_5km,Écouché maritagium/estate buffer,-0.125,48.717,2500,low,Estimated 2.5 km buffer around Écouché locality; exact Gournay/Flaitel estate footprint not identified.
