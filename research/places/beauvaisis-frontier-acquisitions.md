@@ -160,7 +160,9 @@ The GeoJSON includes:
 
 The map coordinate in `data/places.json` is only a low-precision aggregate anchor. Use the GeoJSON polygon for any actual map rendering of the acquisition block.
 
-The ancestor map now includes a visual overlay sourced from `research/geo/gournay_norman_holdings_recommended_overlay.geojson`, with a website-facing copy at `site/website/assets/data/gournay-norman-holdings-overlays.geojson`. The overlay remains interpretive and approximate; it should be read as a visual research aid, not as a surveyed medieval boundary.
+## Map overlay note
+
+The ancestor map now uses `research/geo/gournay_norman_holdings_recommended_overlay_v5_source_informed.geojson` as the source-informed visual overlay for the Conquêts Hue de Gournay / Beauvaisis frontier acquisitions. The polygon is interpretive and schematic. It is based on the ConDÉ list, the existing repo geo reconstruction, and later online-source review of Ferrières, Gancourt, Saint-Quentin / Beaulévrier, Doudeauville, Molagnies / Humermont, Héricourt, and related neighboring communities. It should not be read as a surveyed medieval boundary.
 
 ## Component-place tracking
 
