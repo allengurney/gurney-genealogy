@@ -101,6 +101,9 @@ body.drawer-open{overflow:hidden}
 .overlay-popup dl{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 8px;margin:8px 0 0}
 .overlay-popup dt{font-weight:800;color:var(--explorer-muted);text-transform:uppercase;font-size:10px}
 .overlay-popup dd{margin:0;color:var(--explorer-soft)}
+.overlay-source-links{list-style:none;margin:0;padding:0}
+.overlay-source-links li{margin:0 0 4px;overflow-wrap:anywhere}
+.overlay-source-links li:last-child{margin-bottom:0}
 .place-region-toolbar{margin-bottom:10px}
 .place-research-layout{display:grid;grid-template-columns:minmax(260px,340px) minmax(0,1fr);gap:24px;align-items:start}
 .place-research-card,.place-research-main,.source-card{background:var(--explorer-paper);border:1px solid var(--explorer-rule);border-radius:8px;box-shadow:var(--explorer-shadow);padding:18px}

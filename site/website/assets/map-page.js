@@ -38,7 +38,7 @@
   const overlayMenu = page.querySelector("[data-overlay-menu]");
   const overlayMenuButton = page.querySelector("[data-overlay-menu-button]");
   const overlayMenuPanel = page.querySelector("[data-overlay-menu-panel]");
-  const overlayToggles = Array.from(page.querySelectorAll("[data-overlay-toggle]"));
+  let overlayToggles = Array.from(page.querySelectorAll("[data-overlay-toggle]"));
   const countNode = page.querySelector("[data-map-count]");
   const markers = [];
   const overlayLayers = new Map();
@@ -170,9 +170,29 @@
     return relatedOk && kindOk && eraOk;
   }
 
+  const overlayGroupLabels = {
+    older_gournay_core: "Older Gournay core",
+    frontier_context: "Epte frontier context",
+    direct_gournay_frontier_corridor: "Direct frontier corridor",
+    beauvaisis_24_villages: "Beauvaisis / 24 villages",
+    gournay_chatelainie_dependencies: "Gournay chatellenie dependencies",
+    gournay_western_dependency_context: "Avesnes / Ferrieres dependency",
+    northern_gournay_honor_context: "Northern honor context",
+    g33_bec_endowment_cluster: "G33 Bec endowment cluster",
+    later_gournay_institutional: "Later institutional context",
+    southern_boundary_context: "Southern boundary context",
+  };
+
+  function groupLabel(group) {
+    return overlayGroupLabels[group] || String(group || "Overlay").replace(/[_-]+/g, " ");
+  }
+
   function overlayGroup(feature) {
+    const properties = feature.properties || {};
+    if (properties.display_group) return properties.display_group;
+
     const id = feature.id || "";
-    const featureType = feature.properties && feature.properties.feature_type;
+    const featureType = properties.feature_type;
 
     if ([
       "older_gournay_core_repo",
@@ -180,7 +200,7 @@
       "point_gournay_en_bray",
       "point_ferrieres_en_bray",
       "point_cuy_saint_fiacre",
-    ].includes(id)) return "older-gournay-core";
+    ].includes(id)) return "older_gournay_core";
 
     if ([
       "beauvaisis_24_villages_repo",
@@ -194,7 +214,7 @@
       "point_songeons",
       "point_loueuse",
       "point_beauvais",
-    ].includes(id)) return "beauvaisis-24-villages";
+    ].includes(id)) return "beauvaisis_24_villages";
 
     if ([
       "gournay_la_ferte_gaillefontaine_frontier_corridor",
@@ -206,12 +226,12 @@
       "point_gaillefontaine",
       "point_sigy_abbaye_saint_martin",
       "point_fry_eglise_saint_martin",
-    ].includes(id)) return "frontier-corridor";
+    ].includes(id)) return "direct_gournay_frontier_corridor";
 
     if ([
       "pays_de_bray_context_envelope",
       "point_pays_de_bray_centroid",
-    ].includes(id)) return "pays-de-bray-context";
+    ].includes(id)) return "older_gournay_core";
 
     if ([
       "norman_gournay_landholding_network_envelope",
@@ -220,10 +240,10 @@
       "point_montigny_sur_andelle",
       "point_ecouche",
       "point_abbey_of_bec_le_bec_hellouin",
-    ].includes(id)) return "network-envelope";
+    ].includes(id)) return "g33_bec_endowment_cluster";
 
-    if (id === "epte_frontier_line") return "epte-frontier-line";
-    if (featureType === "source_point_buffer" || id.startsWith("buffer_")) return "network-envelope";
+    if (id === "epte_frontier_line") return "frontier_context";
+    if (featureType === "source_point_buffer" || id.startsWith("buffer_")) return "g33_bec_endowment_cluster";
     return "";
   }
 
@@ -267,13 +287,29 @@
     };
   }
 
+  function overlaySourceLinks(sourceUrls) {
+    if (!Array.isArray(sourceUrls) || !sourceUrls.length) return "";
+    const links = sourceUrls
+      .map(url => {
+        const safeUrl = escapeHtml(url);
+        if (/^https?:\/\//.test(url)) {
+          return `<li><a href="${safeUrl}" target="_blank" rel="noopener">${safeUrl}</a></li>`;
+        }
+        return `<li>${safeUrl}</li>`;
+      })
+      .join("");
+    return `<dt>Sources</dt><dd><ul class="overlay-source-links">${links}</ul></dd>`;
+  }
+
   function overlayPopup(feature) {
     const properties = feature.properties || {};
     const rows = [
       ["Type", properties.feature_type],
       ["Certainty", properties.certainty],
-      ["Group", properties.display_group || properties.layer_group],
+      ["Group", groupLabel(properties.display_group || properties.layer_group)],
       ["Buffer", properties.buffer_km ? `${properties.buffer_km} km` : properties.buffer_meters],
+      ["Status", properties.status],
+      ["Future default", properties.future_default_after_review === false ? "Off after review" : ""],
       ["Basis", properties.historical_basis],
       ["Note", properties.interpretation_note],
     ]
@@ -283,7 +319,7 @@
 
     return `<div class="map-popup overlay-popup">
       <strong>${escapeHtml(properties.name || feature.id || "Gournay holdings overlay")}</strong>
-      <dl>${rows}</dl>
+      <dl>${rows}${overlaySourceLinks(properties.source_urls)}</dl>
     </div>`;
   }
 
@@ -315,11 +351,17 @@
   }
 
   function renderHoldingOverlays(data) {
+    ensureOverlayControls(data);
     const groups = Array.from(new Set(overlayToggles.map(toggle => toggle.dataset.overlayToggle)));
     groups.forEach(group => {
       const layer = window.L.geoJSON(data, {
         pane: "gournayHoldingsPane",
-        filter: feature => overlayGeometries.has(feature.geometry && feature.geometry.type) && overlayGroup(feature) === group,
+        filter: feature => {
+          const properties = feature.properties || {};
+          return overlayGeometries.has(feature.geometry && feature.geometry.type)
+            && overlayGroup(feature) === group
+            && properties.display_default !== false;
+        },
         style: overlayStyle,
         pointToLayer: (feature, latlng) => window.L.circleMarker(latlng, overlayPointStyle(feature)),
         onEachFeature: (feature, layer) => {
@@ -339,6 +381,34 @@
     });
 
     focusRequestedPlace();
+  }
+
+  function bindOverlayToggle(toggle) {
+    toggle.addEventListener("change", () => {
+      setOverlayVisibility(toggle.dataset.overlayToggle, toggle.checked);
+    });
+  }
+
+  function ensureOverlayControls(data) {
+    if (!overlayMenuPanel) return;
+    const existingGroups = new Set(overlayToggles.map(toggle => toggle.dataset.overlayToggle));
+    const groups = Array.from(new Set((data.features || []).map(overlayGroup).filter(Boolean)));
+    groups.forEach(group => {
+      if (existingGroups.has(group)) return;
+      const groupFeatures = (data.features || []).filter(feature => overlayGroup(feature) === group);
+      const checked = groupFeatures.some(feature => (feature.properties || {}).display_default !== false);
+      const label = document.createElement("label");
+      const input = document.createElement("input");
+      input.type = "checkbox";
+      input.dataset.overlayToggle = group;
+      input.checked = checked;
+      label.appendChild(input);
+      label.append(` ${groupLabel(group)}`);
+      overlayMenuPanel.appendChild(label);
+      bindOverlayToggle(input);
+      overlayToggles.push(input);
+      existingGroups.add(group);
+    });
   }
 
   function loadHoldingOverlays() {
@@ -409,11 +479,7 @@
     });
   });
 
-  overlayToggles.forEach(toggle => {
-    toggle.addEventListener("change", () => {
-      setOverlayVisibility(toggle.dataset.overlayToggle, toggle.checked);
-    });
-  });
+  overlayToggles.forEach(bindOverlayToggle);
 
   if (overlayMenuButton && overlayMenuPanel) {
     overlayMenuButton.addEventListener("click", event => {

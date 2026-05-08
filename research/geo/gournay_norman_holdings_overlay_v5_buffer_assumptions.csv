@@ -1,0 +1,12 @@
+feature_id,center_or_basis,buffer_km,confidence,notes
+beauvaisis_24_villages_expanded_3km_v5,revised 24-village polygon,3,low-medium,Represents village lands / surrounding fields / hameaux beyond listed settlement points
+cuy_saint_fiacre_quesnoy_gournay_dependency,Cuy-Saint-Fiacre / Quesnoy,2.5,medium,Dependency connector only; not part of Conquets polygon
+avesnes_ferrieres_gournay_dependency_context,Avesnes-Ferrieres-Gournay corridor,3,low-medium,Western dependency context tied to Ferrieres and Gournay chatellenie
+gournay_la_ferte_gaillefontaine_frontier_corridor,Gournay-La Ferte-Gaillefontaine corridor,5,low-medium,Interpretive corridor around direct fortress / frontier geography
+la_ferte_sigy_fry_ecclesiastical_spur,La Ferte-Sigy-Fry,2.5,low-medium,Ecclesiastical/endowment spur from La Ferte
+gaillefontaine_castle_motte_buffer,Gaillefontaine castle/motte,4,medium-high,Castle/motte anchor; official history supports motte survival
+northern_gournay_honor_context_corridor,Gaillefontaine-Haucourt-Criquiers corridor,5,low-medium,Context layer for northern dependencies of Gournay honor
+g33_bec_gournay_endowment_cluster_envelope,G33/Bec donation geography,variable,low-medium,Use envelope around endowment points; keep visually distinct
+massy_morimont_bec_endowment_candidate,Massy/Morimont candidate point,3,medium-low,Candidate endowment site; not Conquets
+gournay_later_institutional_layer_bellozanne_beaubec,Bellozanne/Beaubec/Elbeuf/Bremontier-Merval,variable,low-medium,Later/collateral institutional layer; future default off
+southern_boundary_context_neuf_marche_lyons,Neuf-Marche/Lyons/Saint-Germer,variable,medium,Boundary-control layer; not holdings
