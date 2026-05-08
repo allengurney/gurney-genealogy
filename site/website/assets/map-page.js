@@ -287,6 +287,24 @@
     };
   }
 
+  function overlayPointLayer(feature, latlng) {
+    const properties = feature.properties || {};
+    const sourceStyle = properties.style || {};
+    const color = sourceStyle.markerColor || sourceStyle.color || "#446b58";
+    if (properties.feature_type === "overlay_place_anchor") {
+      return window.L.marker(latlng, {
+        pane: "gournayOverlayPointPane",
+        icon: window.L.divIcon({
+          className: "map-overlay-anchor-marker",
+          html: `<span style="--anchor-color:${escapeHtml(color)}"></span>`,
+          iconSize: [14, 14],
+          iconAnchor: [7, 7],
+        }),
+      });
+    }
+    return window.L.circleMarker(latlng, overlayPointStyle(feature));
+  }
+
   function overlaySourceLinks(sourceUrls) {
     if (!Array.isArray(sourceUrls) || !sourceUrls.length) return "";
     const links = sourceUrls
@@ -305,8 +323,10 @@
     const properties = feature.properties || {};
     const rows = [
       ["Type", properties.feature_type],
+      ["Role", properties.anchor_role],
       ["Certainty", properties.certainty],
       ["Group", groupLabel(properties.display_group || properties.layer_group)],
+      ["Precision", properties.coordinate_precision],
       ["Buffer", properties.buffer_km ? `${properties.buffer_km} km` : properties.buffer_meters],
       ["Status", properties.status],
       ["Future default", properties.future_default_after_review === false ? "Off after review" : ""],
@@ -354,16 +374,18 @@
     ensureOverlayControls(data);
     const groups = Array.from(new Set(overlayToggles.map(toggle => toggle.dataset.overlayToggle)));
     groups.forEach(group => {
+      const groupFeatures = (data.features || []).filter(feature => overlayGroup(feature) === group);
+      const groupHasDefaultFeatures = groupFeatures.some(feature => (feature.properties || {}).display_default !== false);
       const layer = window.L.geoJSON(data, {
         pane: "gournayHoldingsPane",
         filter: feature => {
           const properties = feature.properties || {};
           return overlayGeometries.has(feature.geometry && feature.geometry.type)
             && overlayGroup(feature) === group
-            && properties.display_default !== false;
+            && (!groupHasDefaultFeatures || properties.display_default !== false);
         },
         style: overlayStyle,
-        pointToLayer: (feature, latlng) => window.L.circleMarker(latlng, overlayPointStyle(feature)),
+        pointToLayer: overlayPointLayer,
         onEachFeature: (feature, layer) => {
           const name = feature.properties && feature.properties.name;
           layer.bindPopup(overlayPopup(feature));

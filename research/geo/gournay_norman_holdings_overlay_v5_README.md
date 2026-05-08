@@ -22,8 +22,14 @@ The overlay deliberately separates:
 - the Gournay-La Ferte-Gaillefontaine direct frontier corridor and La Ferte-Sigy-Fry ecclesiastical spur;
 - the northern Gournay-honor context around Gaillefontaine, Haucourt, and Criquiers;
 - the G33 Bec / Gournay endowment geography, including Massy / Morimont;
-- later institutional context for Bellozanne / Beaubec / Elbeuf / Bremontier-Merval;
+- later institutional context for Bellozanne / Beaubec / Elbeuf / Brémontier-Merval;
 - southern boundary-control context around Neuf-Marche / Lyons / Saint-Germer.
+
+## Overlay place anchors
+
+`overlay_place_anchor` features are explanatory map anchors for the interpretive overlay geometry. They make the source-backed reasons for outward corridors, lobes, and dependency fingers visible on the map.
+
+These anchors are not necessarily canonical place records and should not be read as proof of a discrete direct ancestor holding unless the feature metadata says so. In particular, the northern Gournay-honor anchors, Massy / Morimont endowment anchors, western dependency anchors, and later institutional anchors explain interpretive geography while remaining separate from direct G30-G37 landholding claims and from the Conquets Hue de Gournay polygon.
 
 ## Interpretation cautions
 
@@ -33,12 +39,12 @@ The v5 map is meant to make uncertainty visible. Each feature carries `certainty
 
 ## Display defaults
 
-All major layers are visible initially for visual review. Later institutional and southern boundary-control layers are also visible in the first review pass, but their metadata marks them as likely future-default-off layers.
+Most major layers remain visible for review, including the overlay place anchors that explain the outward lobes. The southern boundary context layer is now default-off because it served its purpose as a negative-control layer during review.
 
-Post-review likely defaults:
+Current defaults:
 
 - keep visible: older Gournay core, direct frontier corridor, Beauvaisis / 24 villages, Gournay chatellenie dependencies, Avesnes / Ferrieres context;
-- likely turn off: later institutional context and southern boundary-control context.
+- available but unchecked by default: southern boundary-control context.
 
 ## Source hierarchy
 

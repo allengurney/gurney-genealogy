@@ -14,6 +14,9 @@ This register supports `research/geo/gournay_norman_holdings_recommended_overlay
 | Archives 76, Avesnes-en-Bray | https://www.archivesdepartementales76.net/archive/catalogue/communes76/avesnes-en-bray/n%3A168 | Fiefs at Avesnes tied to Ferrieres and chatellenie of Gournay |
 | Archives 76, Gournay-en-Bray | https://www.archivesdepartementales76.net/archive/catalogue/communes76/gournay-en-bray | Gournay topographic forms, chatellenie references, and regional place names |
 | Archives 76, Ferrieres-en-Bray | https://www.archivesdepartementales76.net/archive/catalogue/communes76/ferrires-en-bray/n%3A168 | Ferrieres medieval forms and 1503 chatellenie de Gournay fief language |
+| Archives 76, Massy | https://www.archivesdepartementales76.net/archive/catalogue/communes76/massy/n%3A168 | Massy / Morimont Bec-endowment candidate anchor and medieval Gurney-linked forms |
+| Archives 76, Esclavelles | https://www.archivesdepartementales76.net/archive/catalogue/communes76/esclavelles | Morimont / Esclavelles endowment-context anchor |
+| Archives 76, Criquiers | https://www.archivesdepartementales76.net/archive/catalogue/communes76/criquiers/n%3A168 | Criquiers northern context anchor |
 
 ## Strong secondary / local-history sources
 
@@ -24,13 +27,23 @@ This register supports `research/geo/gournay_norman_holdings_recommended_overlay
 | Cuy-Saint-Fiacre history | https://fr.wikipedia.org/wiki/Cuy-Saint-Fiacre | Quesnoy full fief of haubert depended on the chatellenie of Gournay |
 | Cuy-Saint-Fiacre local heritage | https://seine76.fr/communes/communes_result.php?var=CUY-SAINT-FIACRE | Cuy / Quesnoy local heritage and dependency context |
 | Elbeuf-en-Bray tourism | https://tourismedes4rivieresenbray.com/elbeuf-en-bray/ | Parish-revenue / Bellozanne institutional context |
-| Bremontier-Merval official history | https://www.bremontier-merval.fr/vie-culturelle/histoire | Bellozanne / Bremontier / Merval / Elbeuf institutional context |
-| Bremontier-Merval geography | https://www.bremontier-merval.fr/situation-geographique | Spatial context for Bremontier-Merval |
+| Brémontier-Merval official history | https://www.bremontier-merval.fr/vie-culturelle/histoire | Bellozanne / Brémontier / Merval / Elbeuf institutional context |
+| Brémontier-Merval geography | https://www.bremontier-merval.fr/situation-geographique | Spatial context for Brémontier-Merval |
 | OpenEdition, Neuf-Marche chatellenie | https://books.openedition.org/purh/20171 | Boundary-control source south of Gournay |
 | OpenEdition, frontier customs | https://books.openedition.org/purh/6825?lang=en | Broader Norman frontier-custom context |
 | OpenEdition, Sigy foundation table | https://books.openedition.org/pur/49267 | Sigy / monastic foundation corroboration |
-| Beaubec-la-Rosiere locality | https://fr.wikipedia.org/wiki/Beaubec-la-Rosi%C3%A8re | Later Gournay institutional / collateral site |
+| Beaubec-la-Rosière locality | https://fr.wikipedia.org/wiki/Beaubec-la-Rosi%C3%A8re | Later Gournay institutional / collateral site |
 | Abbaye Notre-Dame de Bellozanne | https://fr.wikipedia.org/wiki/Abbaye_Notre-Dame_de_Bellozanne | Later Gournay institutional / collateral site |
+
+## Overlay place-anchor coverage
+
+The `overlay_place_anchor` points added in this pass are covered by the sources above:
+
+- Haucourt; Les Noyers / Gaillefontaine; Criquiers: Bauduin, Gaillefontaine official history, and Archives 76 Criquiers.
+- Massy; Morimont / Esclavelles: Archives 76 Massy and Esclavelles.
+- Avesnes-en-Bray and Ferrieres-en-Bray context: Archives 76 Avesnes, Archives 76 Ferrieres, and Ferrieres official history.
+- Brémontier-Merval / Bellozanne; Elbeuf-en-Bray; Beaubec-la-Rosière: Brémontier-Merval official history, Elbeuf-en-Bray tourism, Beaubec-la-Rosière locality, and Abbaye Notre-Dame de Bellozanne.
+- Cuy-Saint-Fiacre / Quesnoy: Cuy-Saint-Fiacre history and local heritage pages.
 
 ## Locator / supporting sources
 

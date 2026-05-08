@@ -6,7 +6,7 @@
     "coordinate_order": "[longitude, latitude]",
     "source_patchset": "research/geo/gournay_norman_holdings_overlay_v5_master_patchset_2026-05-07.md",
     "not_cadastral": true,
-    "initial_display_policy": "All major groups are visible for visual review; later institutional and southern boundary-control layers are marked future_default_after_review=false.",
+    "display_policy": "Major interpretive holdings groups remain visible by default; southern boundary-control context is available but default-off after review.",
     "unresolved_conde_names": [
       {
         "name": "Raincourt",
@@ -685,6 +685,434 @@
         "coordinates": [
           1.85,
           49.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "anchor_haucourt_northern_gournay_honor_context",
+      "properties": {
+        "id": "anchor_haucourt_northern_gournay_honor_context",
+        "name": "Haucourt",
+        "feature_type": "overlay_place_anchor",
+        "display_group": "northern_gournay_honor_context",
+        "display_default": true,
+        "certainty": "medium",
+        "historical_basis": "Pierre Bauduin places the Haucourt lineage on lands principally dependent on the honor of Gournay and describes Haucourt's fief as dependent on Gaillefontaine.",
+        "interpretation_note": "Anchor point explaining the northern Gournay-honor context corridor. This is contextual dependency geography, not a direct G30-G37 landholding point.",
+        "source_urls": [
+          "https://shs.cairn.info/revue-histoire-et-societes-rurales-2001-1-page-131?lang=fr"
+        ],
+        "buffer_km": null,
+        "source_iterations": [
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5"
+        ],
+        "style": {
+          "color": "#446b58",
+          "weight": 2,
+          "opacity": 0.5,
+          "fillColor": "#6d9a81",
+          "fillOpacity": 0.06,
+          "dashArray": "6 5",
+          "markerColor": "#446b58"
+        },
+        "anchor_role": "northern Gournay-honor dependency context"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6606,
+          49.6414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "anchor_les_noyers_gaillefontaine_vavassory",
+      "properties": {
+        "id": "anchor_les_noyers_gaillefontaine_vavassory",
+        "name": "Les Noyers / Gaillefontaine vavassory",
+        "feature_type": "overlay_place_anchor",
+        "display_group": "northern_gournay_honor_context",
+        "display_default": true,
+        "certainty": "medium-low",
+        "historical_basis": "Bauduin notes a vavassory at Les Noyers on the present commune of Gaillefontaine held from the lord of Gournay.",
+        "interpretation_note": "Use as an explanatory anchor for the northern context corridor. Refine coordinate if a stronger Les Noyers-specific point is found.",
+        "source_urls": [
+          "https://shs.cairn.info/revue-histoire-et-societes-rurales-2001-1-page-131?lang=fr",
+          "https://www.mairiegaillefontaine.fr/pages/decouvrir-et-bouger/histoire/historique.html"
+        ],
+        "buffer_km": null,
+        "source_iterations": [
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5"
+        ],
+        "style": {
+          "color": "#446b58",
+          "weight": 2,
+          "opacity": 0.5,
+          "fillColor": "#6d9a81",
+          "fillOpacity": 0.06,
+          "dashArray": "6 5",
+          "markerColor": "#446b58"
+        },
+        "anchor_role": "Gournay-honor dependency / vavassory context",
+        "coordinate_precision": "approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6259,
+          49.6505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "anchor_criquiers_northern_gournay_honor_context",
+      "properties": {
+        "id": "anchor_criquiers_northern_gournay_honor_context",
+        "name": "Criquiers",
+        "feature_type": "overlay_place_anchor",
+        "display_group": "northern_gournay_honor_context",
+        "display_default": true,
+        "certainty": "medium-low",
+        "historical_basis": "Criquiers belongs to the northern La Montagne / Gaillefontaine / Haucourt context discussed by Bauduin and appears in Archives 76 topography.",
+        "interpretation_note": "Context anchor for the northern corridor. Do not treat as a direct G30-G37 holding.",
+        "source_urls": [
+          "https://shs.cairn.info/revue-histoire-et-societes-rurales-2001-1-page-131?lang=fr",
+          "https://www.archivesdepartementales76.net/archive/catalogue/communes76/criquiers/n%3A168"
+        ],
+        "buffer_km": null,
+        "source_iterations": [
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5"
+        ],
+        "style": {
+          "color": "#446b58",
+          "weight": 2,
+          "opacity": 0.5,
+          "fillColor": "#6d9a81",
+          "fillOpacity": 0.06,
+          "dashArray": "6 5",
+          "markerColor": "#446b58"
+        },
+        "anchor_role": "northern frontier / institutional context"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7067,
+          49.6753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "anchor_massy_bec_endowment_candidate",
+      "properties": {
+        "id": "anchor_massy_bec_endowment_candidate",
+        "name": "Massy",
+        "feature_type": "overlay_place_anchor",
+        "display_group": "g33_bec_endowment_cluster",
+        "display_default": true,
+        "certainty": "medium",
+        "historical_basis": "Archives 76 Massy topography includes medieval Gurney-linked Massy forms, tithe/church/fief language, and later châtellenie de La Ferté-en-Bray references.",
+        "interpretation_note": "Anchor point explaining the Massy / Morimont Bec-endowment candidate lobe. Do not merge into the Conquets Hue de Gournay polygon.",
+        "source_urls": [
+          "https://www.archivesdepartementales76.net/archive/catalogue/communes76/massy/n%3A168"
+        ],
+        "buffer_km": null,
+        "source_iterations": [
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5"
+        ],
+        "style": {
+          "color": "#7a5963",
+          "weight": 2,
+          "opacity": 0.52,
+          "fillColor": "#b17b86",
+          "fillOpacity": 0.065,
+          "dashArray": "5 5",
+          "markerColor": "#7a5963"
+        },
+        "anchor_role": "Bec / Gournay endowment candidate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.399,
+          49.69
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "anchor_morimont_esclavelles_bec_endowment_candidate",
+      "properties": {
+        "id": "anchor_morimont_esclavelles_bec_endowment_candidate",
+        "name": "Morimont / Esclavelles",
+        "feature_type": "overlay_place_anchor",
+        "display_group": "g33_bec_endowment_cluster",
+        "display_default": true,
+        "certainty": "medium-low",
+        "historical_basis": "Archives 76 Esclavelles topography anchors Morimont / Mont-Remond across Esclavelles and Massy.",
+        "interpretation_note": "Candidate/context anchor for the Massy-Morimont endowment lobe. Refine coordinate if a precise Morimont point is found.",
+        "source_urls": [
+          "https://www.archivesdepartementales76.net/archive/catalogue/communes76/esclavelles"
+        ],
+        "buffer_km": null,
+        "source_iterations": [
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5"
+        ],
+        "style": {
+          "color": "#7a5963",
+          "weight": 2,
+          "opacity": 0.52,
+          "fillColor": "#b17b86",
+          "fillOpacity": 0.065,
+          "dashArray": "5 5",
+          "markerColor": "#7a5963"
+        },
+        "anchor_role": "Massy / Morimont endowment context",
+        "coordinate_precision": "approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.405,
+          49.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "anchor_avesnes_en_bray_gournay_dependency_context",
+      "properties": {
+        "id": "anchor_avesnes_en_bray_gournay_dependency_context",
+        "name": "Avesnes-en-Bray",
+        "feature_type": "overlay_place_anchor",
+        "display_group": "gournay_western_dependency_context",
+        "display_default": true,
+        "certainty": "medium-high",
+        "historical_basis": "Archives 76 Avesnes-en-Bray topography preserves 1503 fief language tying Avesnes to the full fief of Ferrières and the châtellenie of Gournay.",
+        "interpretation_note": "Anchor point explaining the Avesnes / Ferrieres western dependency context. This should remain separate from the Conquets Hue de Gournay polygon.",
+        "source_urls": [
+          "https://www.archivesdepartementales76.net/archive/catalogue/communes76/avesnes-en-bray/n%3A168"
+        ],
+        "buffer_km": null,
+        "source_iterations": [
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5"
+        ],
+        "style": {
+          "color": "#6b5a2a",
+          "weight": 2,
+          "opacity": 0.58,
+          "fillColor": "#b7a15a",
+          "fillOpacity": 0.08,
+          "dashArray": "6 4",
+          "markerColor": "#6b5a2a"
+        },
+        "anchor_role": "western Gournay dependency context"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6733,
+          49.4697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "anchor_bremontier_merval_bellozanne_institutional",
+      "properties": {
+        "id": "anchor_bremontier_merval_bellozanne_institutional",
+        "name": "Brémontier-Merval / Bellozanne",
+        "feature_type": "overlay_place_anchor",
+        "display_group": "later_gournay_institutional",
+        "display_default": true,
+        "certainty": "medium",
+        "historical_basis": "Brémontier-Merval official history ties Bellozanne to Hugues V de Gournay and to the later administration of Bellozanne, Brémontier, Merval, and Elbeuf-en-Bray.",
+        "interpretation_note": "Institutional / senior-collateral Gournay geography. Keep separate from direct G30-G37 holdings and the Conquets polygon.",
+        "source_urls": [
+          "https://www.bremontier-merval.fr/vie-culturelle/histoire",
+          "https://fr.wikipedia.org/wiki/Abbaye_Notre-Dame_de_Bellozanne"
+        ],
+        "buffer_km": null,
+        "source_iterations": [
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5"
+        ],
+        "style": {
+          "color": "#5b6f78",
+          "weight": 2,
+          "opacity": 0.48,
+          "fillColor": "#8ba5ad",
+          "fillOpacity": 0.05,
+          "dashArray": "4 6",
+          "markerColor": "#5b6f78"
+        },
+        "anchor_role": "later Gournay institutional geography",
+        "future_default_after_review": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6029,
+          49.514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "anchor_elbeuf_en_bray_bellozanne_institutional",
+      "properties": {
+        "id": "anchor_elbeuf_en_bray_bellozanne_institutional",
+        "name": "Elbeuf-en-Bray",
+        "feature_type": "overlay_place_anchor",
+        "display_group": "later_gournay_institutional",
+        "display_default": true,
+        "certainty": "medium",
+        "historical_basis": "Elbeuf-en-Bray tourism history says parish revenues were entrusted to Bellozanne in the 12th century.",
+        "interpretation_note": "Institutional / later-collateral geography. Keep visually distinct from direct landholding layers.",
+        "source_urls": [
+          "https://tourismedes4rivieresenbray.com/elbeuf-en-bray/"
+        ],
+        "buffer_km": null,
+        "source_iterations": [
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5"
+        ],
+        "style": {
+          "color": "#5b6f78",
+          "weight": 2,
+          "opacity": 0.48,
+          "fillColor": "#8ba5ad",
+          "fillOpacity": 0.05,
+          "dashArray": "4 6",
+          "markerColor": "#5b6f78"
+        },
+        "anchor_role": "Bellozanne / institutional geography",
+        "future_default_after_review": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.631,
+          49.498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "anchor_beaubec_la_rosiere_institutional",
+      "properties": {
+        "id": "anchor_beaubec_la_rosiere_institutional",
+        "name": "Beaubec-la-Rosière",
+        "feature_type": "overlay_place_anchor",
+        "display_group": "later_gournay_institutional",
+        "display_default": true,
+        "certainty": "medium-low",
+        "historical_basis": "Beaubec-la-Rosière is associated with a later Gournay institutional foundation, but should remain a later/collateral context anchor.",
+        "interpretation_note": "Do not merge into direct G30-G37 holdings or the Conquets polygon.",
+        "source_urls": [
+          "https://fr.wikipedia.org/wiki/Beaubec-la-Rosi%C3%A8re"
+        ],
+        "buffer_km": null,
+        "source_iterations": [
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5"
+        ],
+        "style": {
+          "color": "#5b6f78",
+          "weight": 2,
+          "opacity": 0.48,
+          "fillColor": "#8ba5ad",
+          "fillOpacity": 0.05,
+          "dashArray": "4 6",
+          "markerColor": "#5b6f78"
+        },
+        "anchor_role": "later Gournay institutional geography",
+        "future_default_after_review": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.55,
+          49.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "anchor_cuy_saint_fiacre_quesnoy_gournay_dependency",
+      "properties": {
+        "id": "anchor_cuy_saint_fiacre_quesnoy_gournay_dependency",
+        "name": "Cuy-Saint-Fiacre / Quesnoy",
+        "feature_type": "overlay_place_anchor",
+        "display_group": "gournay_chatelainie_dependencies",
+        "display_default": true,
+        "certainty": "medium-high",
+        "historical_basis": "Cuy-Saint-Fiacre history says the hameau of Quesnoy was the chief manor of a full fief of haubert dependent on the châtellenie of Gournay.",
+        "interpretation_note": "Connector between the Gournay core and the 24-village edge. Do not merge into the Conquets Hue de Gournay polygon.",
+        "source_urls": [
+          "https://fr.wikipedia.org/wiki/Cuy-Saint-Fiacre",
+          "https://seine76.fr/communes/communes_result.php?var=CUY-SAINT-FIACRE"
+        ],
+        "buffer_km": null,
+        "source_iterations": [
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5"
+        ],
+        "style": {
+          "color": "#76518c",
+          "weight": 2,
+          "opacity": 0.64,
+          "fillColor": "#8f6aa5",
+          "fillOpacity": 0.1,
+          "markerColor": "#76518c"
+        },
+        "anchor_role": "Gournay châtellenie dependency connector"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6986,
+          49.5133
         ]
       }
     },
@@ -2536,7 +2964,7 @@
         "name": "Southern boundary context: Neuf-Marche / Lyons / Saint-Germer-de-Fly",
         "feature_type": "boundary_context",
         "display_group": "southern_boundary_context",
-        "display_default": true,
+        "display_default": false,
         "certainty": "medium",
         "historical_basis": "Outward searches south/southeast of Gournay show important neighboring jurisdictions and abbey geography, but no strong direct Gournay holding evidence in this pass.",
         "interpretation_note": "Negative-control / boundary layer to prevent over-expanding the Gournay overlay southward.",
