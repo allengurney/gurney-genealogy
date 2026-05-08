@@ -32,8 +32,14 @@ This register supports `research/geo/gournay_norman_holdings_recommended_overlay
 | OpenEdition, Neuf-Marche chatellenie | https://books.openedition.org/purh/20171 | Boundary-control source south of Gournay |
 | OpenEdition, frontier customs | https://books.openedition.org/purh/6825?lang=en | Broader Norman frontier-custom context |
 | OpenEdition, Sigy foundation table | https://books.openedition.org/pur/49267 | Sigy / monastic foundation corroboration |
-| Beaubec-la-Rosière locality | https://fr.wikipedia.org/wiki/Beaubec-la-Rosi%C3%A8re | Later Gournay institutional / collateral site |
-| Abbaye Notre-Dame de Bellozanne | https://fr.wikipedia.org/wiki/Abbaye_Notre-Dame_de_Bellozanne | Later Gournay institutional / collateral site |
+| OpenEdition, Beaubec foundation table | https://books.openedition.org/pur/49267 | Saint-Laurent de Beaubec foundation by Hugues II de Gournay |
+| OpenEdition, Bellozanne benefices / regulars note | https://books.openedition.org/purh/12434?lang=en | Lists Bellozanne benefices, including Saint-Lucien, Le Thil, and Riberpré |
+| Beaubec-la-Rosière locality | https://fr.wikipedia.org/wiki/Beaubec-la-Rosi%C3%A8re | Later Gournay institutional / collateral site and Beaubec locality context |
+| Abbaye Notre-Dame de Bellozanne | https://fr.wikipedia.org/wiki/Abbaye_Notre-Dame_de_Bellozanne | Bellozanne foundation, location, and patronage network |
+| Abbaye Notre-Dame de Bellozanne dictionary mirror | https://fr-academic.com/dic.nsf/frwiki/1804352/ | Supplemental Bellozanne locality and patronage context |
+| Saint-Lucien locality | https://fr.wikipedia.org/wiki/Saint-Lucien_%28Seine-Maritime%29 | Saint-Lucien patronage and coordinate/locality context |
+| Le Thil-Riberpré tourism | https://tourismedes4rivieresenbray.com/le-thil-riberpre/ | Le Thil and Riberpré dependence on Bellozanne patronage |
+| Le Thil-Riberpré locality | https://fr.wikipedia.org/wiki/Le_Thil-Riberpr%C3%A9 | Le Thil / Riberpré patronage and commune-history context |
 
 ## Overlay place-anchor coverage
 
@@ -42,7 +48,7 @@ The `overlay_place_anchor` points added in this pass are covered by the sources 
 - Haucourt; Les Noyers / Gaillefontaine; Criquiers: Bauduin, Gaillefontaine official history, and Archives 76 Criquiers.
 - Massy; Morimont / Esclavelles: Archives 76 Massy and Esclavelles.
 - Avesnes-en-Bray and Ferrieres-en-Bray context: Archives 76 Avesnes, Archives 76 Ferrieres, and Ferrieres official history.
-- Brémontier-Merval / Bellozanne; Elbeuf-en-Bray; Beaubec-la-Rosière: Brémontier-Merval official history, Elbeuf-en-Bray tourism, Beaubec-la-Rosière locality, and Abbaye Notre-Dame de Bellozanne.
+- Brémontier-Merval / Bellozanne; Abbaye Notre-Dame de Bellozanne; Elbeuf-en-Bray; Saint-Lucien; Le Thil-Riberpré; Beaubec-la-Rosière / Saint-Laurent de Beaubec: Brémontier-Merval official history, Elbeuf-en-Bray tourism, Abbaye Notre-Dame de Bellozanne, OpenEdition Bellozanne benefices / regulars note, Saint-Lucien locality, Le Thil-Riberpré tourism/locality pages, Beaubec-la-Rosière locality, and OpenEdition Beaubec foundation table.
 - Cuy-Saint-Fiacre / Quesnoy: Cuy-Saint-Fiacre history and local heritage pages.
 
 ## Locator / supporting sources

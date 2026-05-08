@@ -325,7 +325,7 @@
       ["Type", properties.feature_type],
       ["Role", properties.anchor_role],
       ["Certainty", properties.certainty],
-      ["Group", groupLabel(properties.display_group || properties.layer_group)],
+      ["Display group", properties.display_group || properties.layer_group],
       ["Precision", properties.coordinate_precision],
       ["Buffer", properties.buffer_km ? `${properties.buffer_km} km` : properties.buffer_meters],
       ["Status", properties.status],

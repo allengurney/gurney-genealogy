@@ -31,6 +31,17 @@ The overlay deliberately separates:
 
 These anchors are not necessarily canonical place records and should not be read as proof of a discrete direct ancestor holding unless the feature metadata says so. In particular, the northern Gournay-honor anchors, Massy / Morimont endowment anchors, western dependency anchors, and later institutional anchors explain interpretive geography while remaining separate from direct G30-G37 landholding claims and from the Conquets Hue de Gournay polygon.
 
+## Later institutional overlay anchors
+
+The Bellozanne / Beaubec / Elbeuf / Brémontier-Merval layer includes explicit patronage-network anchors so the institutional/collateral finger has visible source-backed explanation points:
+
+- Abbaye Notre-Dame de Bellozanne;
+- Saint-Lucien;
+- Le Thil-Riberpré;
+- Beaubec-la-Rosière / Saint-Laurent de Beaubec.
+
+These are institutional/collateral overlay anchors, not direct G30-G37 landholding claims. Riberpré is covered by the Le Thil-Riberpré anchor because the commune-level point and the optional annex point are effectively overlapping at this map scale.
+
 ## Interpretation cautions
 
 All polygons are schematic and source-informed. They are not cadastral medieval boundaries, surveyed parish limits, or proof that every enclosed point was held by the same lord at the same date.

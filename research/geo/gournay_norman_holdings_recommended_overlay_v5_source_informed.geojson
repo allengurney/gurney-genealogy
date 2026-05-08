@@ -990,6 +990,139 @@
     },
     {
       "type": "Feature",
+      "id": "anchor_abbaye_notre_dame_de_bellozanne_institutional",
+      "properties": {
+        "id": "anchor_abbaye_notre_dame_de_bellozanne_institutional",
+        "name": "Abbaye Notre-Dame de Bellozanne",
+        "feature_type": "overlay_place_anchor",
+        "display_group": "later_gournay_institutional",
+        "display_default": true,
+        "certainty": "high",
+        "historical_basis": "Bellozanne was founded in 1198 by Hugues V de Gournay and had patronage over several parishes, including Brémontier/Merval, Elbeuf-en-Bray, Saint-Lucien, Le Thil, and Riberpré.",
+        "interpretation_note": "Institutional / senior-collateral Gournay geography. This is the central anchor for the Bellozanne patronage finger, not a direct G30-G37 landholding point.",
+        "source_urls": [
+          "https://fr.wikipedia.org/wiki/Abbaye_Notre-Dame_de_Bellozanne",
+          "https://fr-academic.com/dic.nsf/frwiki/1804352/"
+        ],
+        "buffer_km": null,
+        "source_iterations": [
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5"
+        ],
+        "style": {
+          "color": "#5b6f78",
+          "weight": 2,
+          "opacity": 0.48,
+          "fillColor": "#8ba5ad",
+          "fillOpacity": 0.05,
+          "dashArray": "4 6",
+          "markerColor": "#5b6f78"
+        },
+        "anchor_role": "Bellozanne institutional foundation and patronage center",
+        "future_default_after_review": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.611111,
+          49.505556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "anchor_saint_lucien_bellozanne_patronage",
+      "properties": {
+        "id": "anchor_saint_lucien_bellozanne_patronage",
+        "name": "Saint-Lucien",
+        "feature_type": "overlay_place_anchor",
+        "display_group": "later_gournay_institutional",
+        "display_default": true,
+        "certainty": "high",
+        "historical_basis": "Saint-Lucien's church patronage was given to the abbey of Bellozanne and confirmed by the archbishop of Rouen; Bellozanne's benefices also list Saint-Lucien.",
+        "interpretation_note": "Explains the institutional/collateral Bellozanne finger. Do not treat as a direct G30-G37 landholding point.",
+        "source_urls": [
+          "https://fr.wikipedia.org/wiki/Saint-Lucien_%28Seine-Maritime%29",
+          "https://books.openedition.org/purh/12434?lang=en"
+        ],
+        "buffer_km": null,
+        "source_iterations": [
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5"
+        ],
+        "style": {
+          "color": "#5b6f78",
+          "weight": 2,
+          "opacity": 0.48,
+          "fillColor": "#8ba5ad",
+          "fillOpacity": 0.05,
+          "dashArray": "4 6",
+          "markerColor": "#5b6f78"
+        },
+        "anchor_role": "Bellozanne patronage parish",
+        "future_default_after_review": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.448715,
+          49.508484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "anchor_le_thil_riberpre_bellozanne_patronage",
+      "properties": {
+        "id": "anchor_le_thil_riberpre_bellozanne_patronage",
+        "name": "Le Thil-Riberpré",
+        "feature_type": "overlay_place_anchor",
+        "display_group": "later_gournay_institutional",
+        "display_default": true,
+        "certainty": "high",
+        "historical_basis": "The patronage of the church of Le Thil and that of its Riberpré annex depended on the abbey of Bellozanne; Le Thil and Riberpré are also named in summaries of Bellozanne's benefices.",
+        "interpretation_note": "Explains the institutional/collateral Bellozanne finger. Do not treat as a direct G30-G37 landholding point.",
+        "source_urls": [
+          "https://tourismedes4rivieresenbray.com/le-thil-riberpre/",
+          "https://fr.wikipedia.org/wiki/Le_Thil-Riberpr%C3%A9",
+          "https://books.openedition.org/purh/12434?lang=en"
+        ],
+        "buffer_km": null,
+        "source_iterations": [
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5"
+        ],
+        "style": {
+          "color": "#5b6f78",
+          "weight": 2,
+          "opacity": 0.48,
+          "fillColor": "#8ba5ad",
+          "fillOpacity": 0.05,
+          "dashArray": "4 6",
+          "markerColor": "#5b6f78"
+        },
+        "anchor_role": "Bellozanne patronage parish and Riberpré annex context",
+        "future_default_after_review": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5797,
+          49.6439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "anchor_elbeuf_en_bray_bellozanne_institutional",
       "properties": {
         "id": "anchor_elbeuf_en_bray_bellozanne_institutional",
@@ -1033,17 +1166,18 @@
     },
     {
       "type": "Feature",
-      "id": "anchor_beaubec_la_rosiere_institutional",
+      "id": "anchor_beaubec_la_rosiere_gournay_foundation",
       "properties": {
-        "id": "anchor_beaubec_la_rosiere_institutional",
-        "name": "Beaubec-la-Rosière",
+        "id": "anchor_beaubec_la_rosiere_gournay_foundation",
+        "name": "Beaubec-la-Rosière / Saint-Laurent de Beaubec",
         "feature_type": "overlay_place_anchor",
         "display_group": "later_gournay_institutional",
         "display_default": true,
-        "certainty": "medium-low",
-        "historical_basis": "Beaubec-la-Rosière is associated with a later Gournay institutional foundation, but should remain a later/collateral context anchor.",
-        "interpretation_note": "Do not merge into direct G30-G37 holdings or the Conquets polygon.",
+        "certainty": "medium-high",
+        "historical_basis": "OpenEdition's monastic foundation table lists Saint-Laurent de Beaubec, 1127, founded by Hugues II de Gournay.",
+        "interpretation_note": "Institutional/collateral Gournay geography. Keep separate from direct G30-G37 holdings and the Conquêts polygon.",
         "source_urls": [
+          "https://books.openedition.org/pur/49267",
           "https://fr.wikipedia.org/wiki/Beaubec-la-Rosi%C3%A8re"
         ],
         "buffer_km": null,
@@ -1063,7 +1197,7 @@
           "dashArray": "4 6",
           "markerColor": "#5b6f78"
         },
-        "anchor_role": "later Gournay institutional geography",
+        "anchor_role": "Gournay institutional foundation",
         "future_default_after_review": false
       },
       "geometry": {
