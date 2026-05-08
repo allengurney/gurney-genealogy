@@ -42,6 +42,8 @@ The Bellozanne / Beaubec / Elbeuf / Brémontier-Merval layer includes explicit p
 
 These are institutional/collateral overlay anchors, not direct G30-G37 landholding claims. Riberpré is covered by the Le Thil-Riberpré anchor because the commune-level point and the optional annex point are effectively overlapping at this map scale.
 
+The later Gournay institutional layer was reshaped after visual review. Saint-Lucien was outside the earlier envelope, while the northern lobe around Ménonval / Auvilliers lacked a source-backed Gournay/Bellozanne/Beaubec anchor. The corrected model uses a Bellozanne patronage cluster plus a separate Beaubec institutional satellite rather than one broad hull.
+
 ## Interpretation cautions
 
 All polygons are schematic and source-informed. They are not cadastral medieval boundaries, surveyed parish limits, or proof that every enclosed point was held by the same lord at the same date.

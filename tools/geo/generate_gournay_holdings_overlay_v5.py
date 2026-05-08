@@ -142,6 +142,10 @@ def circle(center: list[float], radius_km: float, steps: int = 48) -> list[list[
     return coords
 
 
+def multipoint_buffers(points: list[list[float]], radius_km: float) -> list[list[list[list[float]]]]:
+    return [[circle(point, radius_km)] for point in points]
+
+
 def radial_expand_polygon(ring: list[list[float]], radius_km: float) -> list[list[float]]:
     origin = centroid(ring)
     expanded = []
@@ -596,18 +600,18 @@ def main() -> None:
         ),
         (
             "anchor_beaubec_la_rosiere_gournay_foundation",
-            "Beaubec-la-Rosière / Saint-Laurent de Beaubec",
+            "Abbaye Saint-Laurent de Beaubec / Beaubec-la-Rosière",
             "later_gournay_institutional",
-            [1.55, 49.62],
+            [1.500000, 49.633333],
             "medium-high",
             "Gournay institutional foundation",
-            "OpenEdition's monastic foundation table lists Saint-Laurent de Beaubec, 1127, founded by Hugues II de Gournay.",
+            "Beaubec-la-Rosière was founded in 1127 by a Hugues de Gournay; the abbey location is approximately 49°38'N, 1°30'E.",
             "Institutional/collateral Gournay geography. Keep separate from direct G30-G37 holdings and the Conquêts polygon.",
             [
-                "https://books.openedition.org/pur/49267",
-                "https://fr.wikipedia.org/wiki/Beaubec-la-Rosi%C3%A8re",
+                "https://en.wikipedia.org/wiki/Beaubec-la-Rosi%C3%A8re",
+                "https://commons.wikimedia.org/wiki/Category:Abbaye_Saint-Laurent_de_Beaubec",
             ],
-            {"future_default_after_review": False},
+            {"future_default_after_review": False, "coordinate_precision": "approximate abbey coordinate"},
         ),
         (
             "anchor_cuy_saint_fiacre_quesnoy_gournay_dependency",
@@ -809,7 +813,7 @@ def main() -> None:
             feature(
                 "gournay_later_institutional_layer_bellozanne_beaubec",
                 "Later Gournay institutional geography: Bellozanne / Beaubec / Elbeuf / Bremontier-Merval",
-                "institutional_context_envelope",
+                "institutional_context_envelope_deprecated",
                 "later_gournay_institutional",
                 {
                     "type": "Polygon",
@@ -826,7 +830,49 @@ def main() -> None:
                     "https://fr.wikipedia.org/wiki/Beaubec-la-Rosi%C3%A8re",
                     "https://www.bremontier-merval.fr/vie-culturelle/histoire",
                 ],
+                display_default=False,
                 buffer_km="variable",
+                future_default_after_review=False,
+                deprecated_by="gournay_later_institutional_layer_bellozanne_beaubec_v2",
+                status="deprecated after visual review",
+            ),
+            feature(
+                "gournay_later_institutional_layer_bellozanne_beaubec_v2",
+                "Later Gournay institutional geography: Bellozanne / Beaubec / Elbeuf / Bremontier-Merval",
+                "institutional_context_grouped_buffers",
+                "later_gournay_institutional",
+                {
+                    "type": "MultiPolygon",
+                    "coordinates": [
+                        *multipoint_buffers(
+                            [
+                                [1.611111, 49.505556],
+                                [1.6029, 49.514],
+                                [1.631, 49.498],
+                                [1.448715, 49.508484],
+                                [1.5797, 49.6439],
+                            ],
+                            3.5,
+                        ),
+                        *multipoint_buffers([[1.500000, 49.633333]], 2.5),
+                    ],
+                },
+                "medium",
+                "Bellozanne patronage geography is modeled from source-backed institutional anchors at Bellozanne, Brémontier-Merval, Elbeuf-en-Bray, Saint-Lucien, and Le Thil-Riberpré; Beaubec is modeled as a separate institutional satellite at the approximate abbey coordinate.",
+                "Grouped institutional buffers after visual review. Saint-Lucien is included, while the unsupported northern lobe around Ménonval / Auvilliers is not carried forward. This remains institutional / senior-collateral geography, not a direct G30-G37 landholding claim.",
+                [
+                    "https://fr.wikipedia.org/wiki/Abbaye_Notre-Dame_de_Bellozanne",
+                    "https://fr-academic.com/dic.nsf/frwiki/1804352/",
+                    "https://tourismedes4rivieresenbray.com/elbeuf-en-bray/",
+                    "https://www.bremontier-merval.fr/vie-culturelle/histoire",
+                    "https://fr.wikipedia.org/wiki/Saint-Lucien_%28Seine-Maritime%29",
+                    "https://tourismedes4rivieresenbray.com/le-thil-riberpre/",
+                    "https://fr.wikipedia.org/wiki/Le_Thil-Riberpr%C3%A9",
+                    "https://books.openedition.org/purh/12434?lang=en",
+                    "https://en.wikipedia.org/wiki/Beaubec-la-Rosi%C3%A8re",
+                    "https://commons.wikimedia.org/wiki/Category:Abbaye_Saint-Laurent_de_Beaubec",
+                ],
+                buffer_km="Bellozanne patronage anchors 3.5 km; Beaubec satellite 2.5 km",
                 future_default_after_review=False,
             ),
             feature(

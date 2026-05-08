@@ -388,7 +388,11 @@
         pointToLayer: overlayPointLayer,
         onEachFeature: (feature, layer) => {
           const name = feature.properties && feature.properties.name;
-          layer.bindPopup(overlayPopup(feature));
+          layer.bindPopup(overlayPopup(feature), {
+            className: "overlay-popup-shell",
+            minWidth: 280,
+            maxWidth: 380,
+          });
           if (name) layer.bindTooltip(name, { sticky: true });
         },
       });

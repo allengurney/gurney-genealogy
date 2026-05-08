@@ -35,6 +35,8 @@ This register supports `research/geo/gournay_norman_holdings_recommended_overlay
 | OpenEdition, Beaubec foundation table | https://books.openedition.org/pur/49267 | Saint-Laurent de Beaubec foundation by Hugues II de Gournay |
 | OpenEdition, Bellozanne benefices / regulars note | https://books.openedition.org/purh/12434?lang=en | Lists Bellozanne benefices, including Saint-Lucien, Le Thil, and Riberpré |
 | Beaubec-la-Rosière locality | https://fr.wikipedia.org/wiki/Beaubec-la-Rosi%C3%A8re | Later Gournay institutional / collateral site and Beaubec locality context |
+| Beaubec-la-Rosière locality, English | https://en.wikipedia.org/wiki/Beaubec-la-Rosi%C3%A8re | Beaubec abbey coordinate and foundation context |
+| Abbaye Saint-Laurent de Beaubec Commons category | https://commons.wikimedia.org/wiki/Category:Abbaye_Saint-Laurent_de_Beaubec | Abbaye Saint-Laurent de Beaubec coordinate/locality support |
 | Abbaye Notre-Dame de Bellozanne | https://fr.wikipedia.org/wiki/Abbaye_Notre-Dame_de_Bellozanne | Bellozanne foundation, location, and patronage network |
 | Abbaye Notre-Dame de Bellozanne dictionary mirror | https://fr-academic.com/dic.nsf/frwiki/1804352/ | Supplemental Bellozanne locality and patronage context |
 | Saint-Lucien locality | https://fr.wikipedia.org/wiki/Saint-Lucien_%28Seine-Maritime%29 | Saint-Lucien patronage and coordinate/locality context |
