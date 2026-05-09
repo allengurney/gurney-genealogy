@@ -1,0 +1,251 @@
+{
+  "type": "FeatureCollection",
+  "name": "west_and_north_barsham_former_parish_proxy_overlays_draft",
+  "metadata": {
+    "title": "West and North Barsham Former-Parish / Manor-Rights Proxy Overlays \u2014 Draft",
+    "created": "2026-05-08",
+    "purpose": "Draft proxy polygons for West Barsham and North Barsham only. West Barsham is modeled as the primary Gurney/Wauncy manor/parish rights proxy; North Barsham is modeled as a lower-certainty Wauncy-Gurney rights proxy.",
+    "important_warning": "These are not digitized historic parish boundaries, medieval manor boundaries, or legal/cadastral boundaries. They are initial proxy polygons for map review. Replace with digitized NLS/OS former parish boundaries when available.",
+    "crs": "EPSG:4326 GeoJSON coordinates",
+    "total_proxy_area_sq_km": 9.732,
+    "model_inputs": {
+      "modern_barsham_area_sq_km": 19.4,
+      "west_barsham_target_acres": 1571,
+      "east_barsham_seed_shift_m_for_calibration": 875.237,
+      "included_features": [
+        "west_barsham",
+        "north_barsham"
+      ],
+      "excluded_features": [
+        "east_barsham",
+        "houghton_st_giles"
+      ]
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "west_barsham_manor_parish_rights_proxy_draft",
+        "name": "West Barsham Manor / Former-Parish Rights Proxy",
+        "display_group": "barsham_former_parish_rights_proxies",
+        "display_default": true,
+        "gurney_rights_status": "direct Gurney/Wauncy rights proxy",
+        "certainty": "medium",
+        "right_type": [
+          "principal family seat",
+          "manor / estate rights proxy",
+          "church and burial context",
+          "estate administration"
+        ],
+        "date_range": "1372-1634 for direct-line Gurney association; later lordship continuity used only as boundary proxy",
+        "basis": "Draft non-cadastral proxy for the former West Barsham parish/manor-rights area. Area-calibrated to 1,571 acres from the pasted Claude analysis; geometry is a generalized cell, not a digitized historic boundary.",
+        "source_refs": [
+          "research/places/west-barsham.md",
+          "research/people/g23-edmund-gurney-fact-sheet.research.md",
+          "uploaded Claude analysis pasted text"
+        ],
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Barsham,_Norfolk",
+          "https://barsham.parish.uk/",
+          "https://en.wikipedia.org/wiki/West_Barsham",
+          "https://www.nationalchurchestrust.org/church/assumption-blessed-virgin-mary-west-barsham"
+        ],
+        "include_in_rights_map": true,
+        "feature_type": "draft_former_parish_proxy_polygon",
+        "geometry_method": "Generalized non-overlapping Voronoi-style split inside an area-calibrated modern Barsham proxy. West Barsham is area-calibrated to 1,571 acres. This is not a digitized NLS/OS historic parish boundary.",
+        "approx_area_sq_km": 6.358,
+        "approx_area_acres": 1571.0,
+        "center_lon_lat": [
+          0.830094,
+          52.867826
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.8458684624389579,
+              52.85328857813067
+            ],
+            [
+              0.8292736039013325,
+              52.85315319403169
+            ],
+            [
+              0.8222602509234603,
+              52.853931448036896
+            ],
+            [
+              0.8149726996207115,
+              52.85634623591077
+            ],
+            [
+              0.8115570897808531,
+              52.85835599037991
+            ],
+            [
+              0.808855984980772,
+              52.86073098238572
+            ],
+            [
+              0.806973635249627,
+              52.86337965953975
+            ],
+            [
+              0.8059827710984894,
+              52.86619990122647
+            ],
+            [
+              0.8059217786868558,
+              52.86908295152866
+            ],
+            [
+              0.8067931935127886,
+              52.8719176108352
+            ],
+            [
+              0.8104415477218919,
+              52.87643621364372
+            ],
+            [
+              0.8193855412245915,
+              52.88265077734895
+            ],
+            [
+              0.8460469060121866,
+              52.86835279052639
+            ],
+            [
+              0.8458684624389579,
+              52.85328857813067
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "north_barsham_wauncy_gurney_rights_proxy_draft",
+        "name": "North Barsham Wauncy-Gurney Former-Parish Rights Proxy",
+        "display_group": "barsham_former_parish_rights_proxies",
+        "display_default": true,
+        "gurney_rights_status": "direct Gurney/Wauncy rights proxy",
+        "certainty": "medium-low",
+        "right_type": [
+          "Wauncy-Gurney inherited holding proxy",
+          "former parish / manor-rights proxy"
+        ],
+        "date_range": "Edward III / Edmund Gurney period onward per repo note; exact tenure span requires source expansion",
+        "basis": "Repo note says North Barsham came to Edmund Gurney by marriage with Catherine/Wauncy. This draft uses a generalized former-parish cell around North Barsham as a non-cadastral rights proxy.",
+        "source_refs": [
+          "research/people/g23-edmund-gurney-fact-sheet.research.md"
+        ],
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Barsham,_Norfolk",
+          "https://barsham.parish.uk/",
+          "https://en.wikipedia.org/wiki/North_Barsham"
+        ],
+        "include_in_rights_map": true,
+        "feature_type": "draft_former_parish_proxy_polygon",
+        "geometry_method": "Generalized non-overlapping Voronoi-style split inside an area-calibrated modern Barsham proxy. West Barsham is area-calibrated to 1,571 acres. This is not a digitized NLS/OS historic parish boundary.",
+        "approx_area_sq_km": 3.374,
+        "approx_area_acres": 833.8,
+        "center_lon_lat": [
+          0.845,
+          52.878
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.8460469060121866,
+              52.86835279052639
+            ],
+            [
+              0.8193855412245915,
+              52.88265077734895
+            ],
+            [
+              0.8278197635777055,
+              52.88836949648884
+            ],
+            [
+              0.8353601759063887,
+              52.89246530481377
+            ],
+            [
+              0.8591853287851567,
+              52.876275710028835
+            ],
+            [
+              0.8460469060121866,
+              52.86835279052639
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "west_barsham_source_center_point",
+        "name": "West Barsham Manor / Former-Parish Rights Center",
+        "feature_type": "source_center_point",
+        "display_group": "barsham_former_parish_rights_proxies",
+        "display_default": false,
+        "gurney_rights_status": "direct Gurney/Wauncy rights proxy",
+        "include_in_rights_map": true,
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Barsham,_Norfolk",
+          "https://barsham.parish.uk/",
+          "https://en.wikipedia.org/wiki/West_Barsham",
+          "https://www.nationalchurchestrust.org/church/assumption-blessed-virgin-mary-west-barsham"
+        ],
+        "center_lon_lat": [
+          0.830094,
+          52.867826
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.830094,
+          52.867826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "north_barsham_source_center_point",
+        "name": "North Barsham Wauncy-Gurney Former-Parish Rights Center",
+        "feature_type": "source_center_point",
+        "display_group": "barsham_former_parish_rights_proxies",
+        "display_default": false,
+        "gurney_rights_status": "direct Gurney/Wauncy rights proxy",
+        "include_in_rights_map": true,
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Barsham,_Norfolk",
+          "https://barsham.parish.uk/",
+          "https://en.wikipedia.org/wiki/North_Barsham"
+        ],
+        "center_lon_lat": [
+          0.845,
+          52.878
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.845,
+          52.878
+        ]
+      }
+    }
+  ]
+}

@@ -43,6 +43,10 @@
   const markers = [];
   const overlayLayers = new Map();
   const overlayGeometries = new Set(["Polygon", "MultiPolygon", "LineString", "MultiLineString", "Point", "MultiPoint"]);
+  const overlaySources = [
+    "/assets/data/gournay-norman-holdings-overlays.geojson",
+    "/assets/data/west-north-barsham-rights-proxy-overlays.geojson",
+  ];
   const params = new URLSearchParams(window.location.search);
   const requestedPlaceId = params.get("place");
   let includeRelated = false;
@@ -181,6 +185,19 @@
     g33_bec_endowment_cluster: "G33 Bec endowment cluster",
     later_gournay_institutional: "Later institutional context",
     southern_boundary_context: "Southern boundary context",
+    barsham_former_parish_rights_proxies: "West / North Barsham rights proxies",
+  };
+
+  const overlayGroupStyles = {
+    barsham_former_parish_rights_proxies: {
+      color: "#28616d",
+      weight: 2,
+      opacity: 0.72,
+      fillColor: "#78b4a9",
+      fillOpacity: 0.16,
+      dashArray: "5 4",
+      markerColor: "#28616d",
+    },
   };
 
   function groupLabel(group) {
@@ -249,6 +266,7 @@
 
   function overlayStyle(feature) {
     const properties = feature.properties || {};
+    const groupStyle = overlayGroupStyles[overlayGroup(feature)] || {};
     const sourceStyle = properties.style || {};
     const style = {
       color: "#7a4b16",
@@ -256,6 +274,7 @@
       opacity: 0.65,
       fillColor: "#c58a2b",
       fillOpacity: 0.12,
+      ...groupStyle,
       ...sourceStyle,
       pane: "gournayHoldingsPane",
     };
@@ -319,27 +338,43 @@
     return `<dt>Sources</dt><dd><ul class="overlay-source-links">${links}</ul></dd>`;
   }
 
+  function overlayValue(value) {
+    if (Array.isArray(value)) return value.join("; ");
+    return value;
+  }
+
   function overlayPopup(feature) {
     const properties = feature.properties || {};
-    const rows = [
+    const isBarshamRightsProxy = (properties.display_group || properties.layer_group) === "barsham_former_parish_rights_proxies";
+    const area = properties.approx_area_acres ? `${properties.approx_area_acres} acres` : properties.approx_area_sq_km ? `${properties.approx_area_sq_km} sq km` : "";
+    const rows = (isBarshamRightsProxy ? [
+      ["Area", area],
+      ["Basis", properties.basis],
+    ] : [
       ["Type", properties.feature_type],
       ["Role", properties.anchor_role],
+      ["Rights", properties.gurney_rights_status],
+      ["Right type", properties.right_type],
+      ["Date range", properties.date_range],
       ["Certainty", properties.certainty],
       ["Display group", properties.display_group || properties.layer_group],
       ["Precision", properties.coordinate_precision],
+      ["Area", area],
       ["Buffer", properties.buffer_km ? `${properties.buffer_km} km` : properties.buffer_meters],
       ["Status", properties.status],
       ["Future default", properties.future_default_after_review === false ? "Off after review" : ""],
-      ["Basis", properties.historical_basis],
+      ["Basis", properties.historical_basis || properties.basis],
+      ["Method", properties.geometry_method],
       ["Note", properties.interpretation_note],
-    ]
+      ["Source refs", properties.source_refs],
+    ])
       .filter(([, value]) => value !== undefined && value !== null && value !== "")
-      .map(([label, value]) => `<dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value)}</dd>`)
+      .map(([label, value]) => `<dt>${escapeHtml(label)}</dt><dd>${escapeHtml(overlayValue(value))}</dd>`)
       .join("");
 
     return `<div class="map-popup overlay-popup">
       <strong>${escapeHtml(properties.name || feature.id || "Gournay holdings overlay")}</strong>
-      <dl>${rows}${overlaySourceLinks(properties.source_urls)}</dl>
+      <dl>${rows}${isBarshamRightsProxy ? "" : overlaySourceLinks(properties.source_urls)}</dl>
     </div>`;
   }
 
@@ -439,14 +474,23 @@
 
   function loadHoldingOverlays() {
     if (!overlayToggles.length) return;
-    fetch("/assets/data/gournay-norman-holdings-overlays.geojson")
-      .then(response => {
-        if (!response.ok) throw new Error(`Overlay request failed: ${response.status}`);
-        return response.json();
+    Promise.all(
+      overlaySources.map(source =>
+        fetch(source)
+          .then(response => {
+            if (!response.ok) throw new Error(`Overlay request failed: ${source} ${response.status}`);
+            return response.json();
+          })
+      )
+    )
+      .then(datasets => {
+        renderHoldingOverlays({
+          type: "FeatureCollection",
+          features: datasets.flatMap(dataset => dataset.features || []),
+        });
       })
-      .then(renderHoldingOverlays)
       .catch(error => {
-        console.warn("Unable to load Gournay holdings overlays", error);
+        console.warn("Unable to load map overlays", error);
       });
   }
 
