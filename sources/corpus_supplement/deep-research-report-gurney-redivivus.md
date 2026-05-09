@@ -1,5 +1,7 @@
 # Gurnay Redivivus and Its Actual Value for Gurney Genealogy Research
 
+**Source ID:** `gurnay-redivivus-1660`
+
 ## Executive summary
 
 **Full bibliographic citation.** *Gurnay Redivivus, or an Appendix unto the Homily against Images in Churches*. By **entity["people","Edmund Gurnay","norfolk minister d.1648"]**, “Bachelour in Divinity, and Minister of Gods Word at **entity["place","Harpley","norfolk, england"]** in Norfolk.” London: printed for J. Rothwel at the Fountain in Goldsmiths-Row in Cheap-side, 1660. The title page of the uploaded scan gives the author, title, place, printer/bookseller, and year; catalog records identify the 1660 printing as a reissue or second-edition state of a work first published in 1641 as an appendix to Gurnay’s *Toward the Vindication of the Second Commandment*. The Archive.org item is the same work as the uploaded PDF. fileciteturn1file0 citeturn1search0turn1search2

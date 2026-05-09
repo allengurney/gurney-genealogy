@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.5.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-05-04",
+    "lastUpdated": "2026-05-09",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
@@ -144,10 +144,10 @@
       "archive": "Folger Shakespeare Library catalog / Internet Archive scan",
       "url": "https://catalog.folger.edu/record/154518",
       "corpusStatus": "partial",
-      "corpusPath": "sources/corpus_supplement/deep-research-report-gurney-redivivus.md",
+      "corpusPath": "sources/corpus_supplement/gurnay-redivivus-1660-research-extract.md",
       "mediaPath": null,
       "validationPath": "sources/validations/gurnay-redivivus-1660.md",
-      "notes": "Primary printed anti-image tract by Edmund Gurnay, B.D., minister at Harpley. The corpus supplement path currently holds a deep-research report with title-page/dedication transcription, selected text extracts, and analysis; it is not a full diplomatic transcription of every page. Folger records the item as a 1660 second edition, originally published in 1641, with a same-year reissue/cancel title issue. DNB reports republication in 1661; preserve this bibliographic discrepancy pending ESTC/Wing and scan-level review."
+      "notes": "Primary printed anti-image tract by Edmund Gurnay, B.D., minister at Harpley. The corpus supplement path holds a concise extract from the original source metadata; sources/corpus_supplement/deep-research-report-gurney-redivivus.md remains a related working analysis with title-page/dedication transcription, selected text extracts, and commentary, not a full diplomatic transcription. Folger records the item as a 1660 second edition, originally published in 1641, with a same-year reissue/cancel title issue. DNB reports republication in 1661; preserve this bibliographic discrepancy pending ESTC/Wing and scan-level review."
     },
     "folger-corpus-christi-1619": {
       "shortTitle": "Folger - Corpus Christi (1619)",
@@ -428,12 +428,12 @@
       "shortTitle": "History of Parliament Online — Gurney",
       "citation": "History of Parliament Trust. 'Sir John Gurney (d.1408).' The History of Parliament: the House of Commons. historyofparliamentonline.org.",
       "archive": null,
-      "url": "https://www.historyofparliamentonline.org/volume/1386-1421/member/gurney-sir-john-1408",
-      "corpusStatus": "none",
-      "corpusPath": null,
+      "url": "https://www.historyofparliamentonline.org/volume/1386-1421/member/gurney-john-1408",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/John-Gurney-d1408-The-History-of-Parliamentx.md",
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Sir John Gurney d.1408 biography. Confirms collateral status: son Edmund died under age, estates to nephew Thomas (Robert's son). John of Gaunt stewardship to be verified here."
+      "notes": "Sir John Gurney d.1408 biography. Extract preserves family, offices, estates, biography, and source notes. Useful for Harpley, West Barsham, Hardingham, Hellesdon/Drayton, Wauncy and Heylesdon inheritance, Norfolk/Suffolk sheriff and JP service, Arundel/Lancastrian affinity, only son Edmund dying under age, and estates passing to nephew Thomas."
     },
     "hrp-anne-boleyn": {
       "shortTitle": "Historic Royal Palaces, Anne Boleyn",
@@ -1218,14 +1218,14 @@
     },
     "may-henry-gurney-spenser-2005": {
       "shortTitle": "May, Henry Gurney reads Spenser",
-      "citation": "May, Steven W. \"Henry Gurney, A Norfolk Farmer, Reads Spenser and Others.\" Spenser Studies: A Renaissance Poetry Annual, vol. 20 (2005).",
-      "archive": "Spenser Online abstract / DOI and ResearchGate leads",
+      "citation": "May, Steven W. \"Henry Gurney, A Norfolk Farmer, Reads Spenser and Others.\" Spenser Studies: A Renaissance Poetry Annual, vol. 20 (2005), pp. 183-223.",
+      "archive": "Multnomah County Library interlibrary loan article copy; ISSN/ISBN 0195-9468; PDF not retained in repo for copyright reasons. Spenser Online abstract / DOI and ResearchGate leads also retained.",
       "url": "https://www.english.cam.ac.uk/spenseronline/spenserstudies/abstracts/",
-      "corpusStatus": "none",
-      "corpusPath": null,
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/henry_gurney_g15_may_article_narrative.md",
       "mediaPath": null,
       "validationPath": "sources/validations/may-henry-gurney-spenser-2005.md",
-      "notes": "Modern academic article on Henry Gurney and Bodleian MS Tanner 175. User-supplied ResearchGate metadata gives January 2004, Spenser Studies 19:183-216, DOI 10.1086/SPSv20p183. The existing companion and the Chetham/JNR bibliography give Spenser Studies 20 (2005), pp. 183-223. Do not drop either metadata variant; reconcile by DOI/full article before citation cleanup. The abstract says Henry was a poet, critic, and bibliophile at Great Ellingham; MS Tanner 175 preserves his library inventory, more than 600 poems, and verse censures of borrowed books including Foxe, Southwell, Hakluyt, The Faerie Queene, and Mother Hubberds Tale."
+      "notes": "Modern academic article on Henry Gurney and Bodleian MS Tanner 175. The corpus supplement is a narrative research extraction from the ILL article copy, not the copyrighted PDF. User-supplied ResearchGate metadata gives January 2004, Spenser Studies 19:183-216, DOI 10.1086/SPSv20p183. The article-copy citation and the Chetham/JNR bibliography give Spenser Studies 20 (2005), pp. 183-223. Do not drop either metadata variant; reconcile by DOI/full article before citation cleanup. The article supports Henry as poet, critic, bibliophile, estate manager, and literary-network figure at Great Ellingham; MS Tanner 175 preserves estate notes, library inventory, more than 600 poems, and verse censures of borrowed books including Foxe, Southwell, Hakluyt, The Faerie Queene, and Mother Hubberds Tale."
     },
     "bodleian-ms-tanner-175-marco": {
       "shortTitle": "Bodleian MS Tanner 175 - MARCO",
@@ -1380,6 +1380,149 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "Modern archaeological-topographical chapter. Frames Gournay-La Ferté-Gaillefontaine as a coordinated frontier-fortification triad at the head of the Bresle valley. References Orderic Vital [879] for the 1089 fortification by Gerard de Gournay for William II Rufus. Useful for G32 (1089 castle delivery) and G36 (Gournay fortification system context)."
+    },
+    "projet-conde-conquets-hue-gournay": {
+      "shortTitle": "Projet ConDE, Conquets Hue de Gournay custom",
+      "citation": "Projet ConDE, Universite de Caen Normandie. \"Coutumes et usages locaux des vingt quatre Paroisses, Hameaux & Villages... Conquets Hue de Gournay.\" Digital edition of the Norman custom-law passage.",
+      "archive": "Projet ConDE / Universite de Caen Normandie",
+      "url": "https://pdn-lingua.unicaen.fr/coutumiers/conde/pesnelle_lighter.xml/pesnelle-lighter-beta-002-007.html",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Primary/customary-law style digital text for the twenty-four parishes, hamlets, and villages under the jurisdiction of Gournay beyond the Epte, called the Conquets Hue de Gournay and specialties of Beauvaisis. Promoted from the Norman geo overlay bundle because it supports ancestor-level treatment of G33 Hugh de Gournay III's Beauvaisis acquisition tradition."
+    },
+    "ferrieres-en-bray-official-history": {
+      "shortTitle": "Ferrieres-en-Bray official history",
+      "citation": "Commune de Ferrieres-en-Bray. \"Histoire de la ville.\" Municipal history page.",
+      "archive": "Commune de Ferrieres-en-Bray official website",
+      "url": "https://www.ferrieres-en-bray.fr/page/la-commune/l-histoire-de-ferrieres/histoire-de-la-ville",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Modern municipal history page. States that Ferrieres and nearby parishes Le Foret, Hardencourt, and Laudencourt formed part of the conquests of Hugues de Gournay; also notes Adam de Ferrieres as vassal of Hugues V de Gournay and signatory to the Bellozanne foundation. Promoted from the Norman geo overlay bundle for ancestor/place research use."
+    },
+    "gancourt-saint-etienne-bulletin-2023": {
+      "shortTitle": "Gancourt-Saint-Etienne municipal bulletin 2023",
+      "citation": "Commune de Gancourt-Saint-Etienne. Bulletin municipal 2023, \"Un peu d'historique de Gancourt-Saint-Etienne,\" source credited to research by Marjorie Thurin.",
+      "archive": "Gancourt-Saint-Etienne municipal website PDF",
+      "url": "https://gancourtsaintetienne.com/wp-content/uploads/2023/12/bm2023-1.pdf",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Municipal bulletin article. Gives historical forms for Gancourt/Ganicourt, places Gancourt among the twenty-four conquests of Hugues de Gournay, and says the commune depended on the high justice of Gournay before the Revolution. Promoted from the Norman geo overlay bundle for ancestor/place research use."
+    },
+    "gaillefontaine-official-history": {
+      "shortTitle": "Gaillefontaine official history",
+      "citation": "Commune de Gaillefontaine. \"Histoire de Gaillefontaine.\" Municipal history page.",
+      "archive": "Commune de Gaillefontaine official website",
+      "url": "https://www.mairiegaillefontaine.fr/pages/decouvrir-et-bouger/histoire/historique.html",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Modern municipal history page. Connects Gaillefontaine's medieval history to Gournay and La Ferte, describes a fortress probably built by Hugues I de la Ferte around 1050, visible motte remains, triple enceinte, and later destruction. Promoted from the Norman geo overlay bundle for G32/G36 place-context research use."
+    },
+    "bauduin-franchises-normandie-orientale-2001": {
+      "shortTitle": "Bauduin, Trois cas de peuplement en franchises",
+      "citation": "Bauduin, Pierre. \"Trois cas de peuplement en franchises en Normandie orientale: Villedieu-la-Montagne, Gourchelles et Criquiers.\" Histoire & Societes Rurales 15, no. 1 (2001): 131-176.",
+      "archive": "Cairn.info",
+      "url": "https://shs.cairn.info/revue-histoire-et-societes-rurales-2001-1-page-131?lang=fr",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Scholarly article on Villedieu-la-Montagne, Gourchelles, and Criquiers. Relevant to northern Gournay-honor dependency context: Haucourt lands principally depended on the honor of Gournay, and Hugues III de Gournay's Beaubec confirmation is cited in relation to Guillaume de Haucourt and Gila de Gourchelles."
+    },
+    "openedition-abbayes-seigneurs-normands-annexe": {
+      "shortTitle": "OpenEdition, abbeys founded by Norman lords",
+      "citation": "\"Annexe I. Abbayes fondees par des seigneurs normands (XIe-mi XIIIe siecles).\" In De gre ou de force. Presses universitaires de Rennes.",
+      "archive": "OpenEdition Books / Presses universitaires de Rennes",
+      "url": "https://books.openedition.org/pur/49267",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "OpenEdition table of abbeys founded by Norman lords. Lists Saint-Martin et Saint-Vulgain de Sigy, dated 1040, with Hugues de Gournay as founder; Saint-Laurent de Beaubec, dated 1127, with Hugues II de Gournay; and Notre-Dame de Bellozanne, dated 1198, with Hugues V de Gournay. Promoted from the Norman geo overlay bundle for ancestor/place research use."
+    },
+    "norman-geo-controlling-sources-2026": {
+      "shortTitle": "Norman geo overlay - controlling online sources",
+      "citation": "Collected online sources used for the Gournay Norman holdings overlay v5 controlling and scholarly geography.",
+      "archive": "Project source register at research/geo/gournay_norman_holdings_overlay_v5_sources.md",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Bundle, up to 8 items: Projet ConDE 24-village text (https://pdn-lingua.unicaen.fr/coutumiers/conde/pesnelle_lighter.xml/pesnelle-lighter-beta-002-007.html) - 24-village list; Ferrieres official history (https://www.ferrieres-en-bray.fr/page/la-commune/l-histoire-de-ferrieres/histoire-de-la-ville) - Conquets villages; Gancourt bulletin (https://gancourtsaintetienne.com/wp-content/uploads/2023/12/bm2023-1.pdf) - Gancourt/Gournay; Gaillefontaine official history (https://www.mairiegaillefontaine.fr/pages/decouvrir-et-bouger/histoire/historique.html) - motte/frontier; Bauduin article (https://shs.cairn.info/revue-histoire-et-societes-rurales-2001-1-page-131?lang=fr) - northern dependency context; OpenEdition Neuf-Marche (https://books.openedition.org/purh/20171) - southern boundary; OpenEdition frontier customs (https://books.openedition.org/purh/6825?lang=en) - border-law context; OpenEdition Sigy/Beaubec table (https://books.openedition.org/pur/49267) - monastic foundations."
+    },
+    "norman-geo-archives76-commune-dossiers-2026": {
+      "shortTitle": "Norman geo overlay - Archives 76 commune dossiers",
+      "citation": "Archives departementales de Seine-Maritime, online commune dossiers used for the Gournay Norman holdings overlay v5.",
+      "archive": "Project source register at research/geo/gournay_norman_holdings_overlay_v5_sources.md",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Bundle, up to 8 items: Avesnes-en-Bray (https://www.archivesdepartementales76.net/archive/catalogue/communes76/avesnes-en-bray/n%3A168) - Ferrieres/Gournay fiefs; Gournay-en-Bray (https://www.archivesdepartementales76.net/archive/catalogue/communes76/gournay-en-bray) - forms/chatellenie; Ferrieres-en-Bray (https://www.archivesdepartementales76.net/archive/catalogue/communes76/ferrires-en-bray/n%3A168) - 1503 fief language; Doudeauville (https://www.archivesdepartementales76.net/archive/catalogue/communes76/doudeauville/n%3A168) - locator support; Molagnies (https://www.archivesdepartementales76.net/archive/catalogue/communes76/molagnies/n%3A168) - locator support; Massy (https://www.archivesdepartementales76.net/archive/catalogue/communes76/massy/n%3A168) - Morimont anchor; Esclavelles (https://www.archivesdepartementales76.net/archive/catalogue/communes76/esclavelles) - endowment anchor; Criquiers (https://www.archivesdepartementales76.net/archive/catalogue/communes76/criquiers/n%3A168) - northern context."
+    },
+    "norman-geo-local-history-tourism-2026": {
+      "shortTitle": "Norman geo overlay - local history and tourism pages",
+      "citation": "Municipal, local-history, and tourism pages used for the Gournay Norman holdings overlay v5.",
+      "archive": "Project source register at research/geo/gournay_norman_holdings_overlay_v5_sources.md",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Bundle, up to 8 items: Ferrieres tourism (https://tourismedes4rivieresenbray.com/ferrieres-en-bray/) - Hugues/24 villages; Gancourt local history (https://gancourtsaintetienne.com/2017/12/21/un-peu-dhistoire-de-notre-village/) - seigneurie link; Cuy-Saint-Fiacre Wikipedia (https://fr.wikipedia.org/wiki/Cuy-Saint-Fiacre) - Quesnoy fief; Cuy local heritage (https://seine76.fr/communes/communes_result.php?var=CUY-SAINT-FIACRE) - dependency context; Elbeuf tourism (https://tourismedes4rivieresenbray.com/elbeuf-en-bray/) - Bellozanne revenues; Bremontier-Merval history (https://www.bremontier-merval.fr/vie-culturelle/histoire) - Bellozanne context; Bremontier-Merval geography (https://www.bremontier-merval.fr/situation-geographique) - spatial context; Molagnies tourism (https://tourismedes4rivieresenbray.com/molagnies/) - locator support."
+    },
+    "norman-geo-institutional-localities-2026": {
+      "shortTitle": "Norman geo overlay - institutional locality pages",
+      "citation": "Online locality pages used for later institutional and abbey geography in the Gournay Norman holdings overlay v5.",
+      "archive": "Project source register at research/geo/gournay_norman_holdings_overlay_v5_sources.md",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Bundle, up to 8 items: Beaubec-la-Rosiere French Wikipedia (https://fr.wikipedia.org/wiki/Beaubec-la-Rosi%C3%A8re) - locality/foundation; Beaubec-la-Rosiere English Wikipedia (https://en.wikipedia.org/wiki/Beaubec-la-Rosi%C3%A8re) - coordinates; Commons Beaubec category (https://commons.wikimedia.org/wiki/Category:Abbaye_Saint-Laurent_de_Beaubec) - abbey coordinate; Bellozanne Wikipedia (https://fr.wikipedia.org/wiki/Abbaye_Notre-Dame_de_Bellozanne) - abbey/patronage; Bellozanne dictionary mirror (https://fr-academic.com/dic.nsf/frwiki/1804352/) - supplemental locality; Saint-Lucien Wikipedia (https://fr.wikipedia.org/wiki/Saint-Lucien_%28Seine-Maritime%29) - patronage locality; Le Thil-Riberpre tourism (https://tourismedes4rivieresenbray.com/le-thil-riberpre/) - Bellozanne patronage; Le Thil-Riberpre Wikipedia (https://fr.wikipedia.org/wiki/Le_Thil-Riberpr%C3%A9) - commune context."
+    },
+    "norman-geo-locator-saint-quentin-hericourt-2026": {
+      "shortTitle": "Norman geo overlay - Saint-Quentin and Hericourt locators",
+      "citation": "Locator pages used for Saint-Quentin-des-Pres, Hericourt-sur-Therain, and Doudeauville in the Gournay Norman holdings overlay v5.",
+      "archive": "Project source register at research/geo/gournay_norman_holdings_overlay_v5_sources.md",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Bundle, up to 8 items: Saint-Quentin-des-Pres Wikipedia (https://fr.wikipedia.org/wiki/Saint-Quentin-des-Pr%C3%A9s) - commune locator; Villes de France Saint-Quentin (https://www.villes-de-france.eu/ville-saint-quentin-des-pres/) - locator; Annuaire-Mairie Saint-Quentin road (https://www.annuaire-mairie.fr/rue-saint-quentin-des-pres.html) - road-name lead; Mapcarta Saint-Quentin (https://mapcarta.com/18371570) - map locator; France Voyage Saint-Quentin (https://www.france-voyage.com/villes-villages/saint-quentin-des-pres-23044.htm) - place locator; Hericourt-sur-Therain Wikipedia (https://fr.wikipedia.org/wiki/H%C3%A9ricourt-sur-Th%C3%A9rain) - commune locator; Annuaire-Mairie Hericourt (https://www.annuaire-mairie.fr/mairie-hericourt-sur-therain.html) - locator; Doudeauville Wikipedia (https://fr.wikipedia.org/wiki/Doudeauville_%28Seine-Maritime%29) - commune locator."
+    },
+    "norman-geo-locator-criquiers-torchy-2026": {
+      "shortTitle": "Norman geo overlay - Criquiers and Torchy locators",
+      "citation": "Locator pages used for Doudeauville, Molagnies, Criquiers, Haucourt, Fontenay-Torcy, and Torchy leads in the Gournay Norman holdings overlay v5.",
+      "archive": "Project source register at research/geo/gournay_norman_holdings_overlay_v5_sources.md",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Bundle, up to 8 items: France Voyage Doudeauville (https://www.france-voyage.com/villes-villages/doudeauville-30210.htm) - locator; France Voyage Molagnies (https://www.france-voyage.com/villes-villages/molagnies-30430.htm) - locator; Seine76 Criquiers (https://seine76.fr/communes/communes_result.php?var=CRIQUIERS) - local context; Criquiers Wikipedia (https://fr.wikipedia.org/wiki/Criquiers) - commune locator; Haucourt Wikipedia (https://fr.wikipedia.org/wiki/Haucourt_%28Seine-Maritime%29) - commune locator; Fontenay-Torcy Wikipedia (https://fr.wikipedia.org/wiki/Fontenay-Torcy) - Torcy/Torchy lead; Cirkwi Ferme de Torchy (https://www.cirkwi.com/de/point-interet/3634214-scea-ferme-de-torchy) - Torchy locator lead; Saint-Germer-de-Fly Larousse (https://www.larousse.fr/encyclopedie/ville/Saint-Germer-de-Fly_60850/142355) - southern-control locator."
+    },
+    "norman-geo-locator-southern-boundary-2026": {
+      "shortTitle": "Norman geo overlay - southern boundary locators",
+      "citation": "Administrative locator pages used for southern boundary-control reference points in the Gournay Norman holdings overlay v5.",
+      "archive": "Project source register at research/geo/gournay_norman_holdings_overlay_v5_sources.md",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Bundle, up to 8 items: BANATIC Saint-Pierre-es-Champs (https://www.banatic.interieur.gouv.fr/commune/60592-Saint-Pierre-es-Champs) - southern locator; BANATIC Puiseux-en-Bray (https://www.banatic.interieur.gouv.fr/commune/60516-Puiseux-en-Bray) - southern locator. Kept separate because these are coordinate/administrative aids only, not substantive genealogy sources."
     },
     "normonde-hugues-1er-de-gournay": {
       "shortTitle": "Normonde authority file: Hugues Ier de Gournay",
