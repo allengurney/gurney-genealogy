@@ -35,6 +35,14 @@ See `.claude/rules/repo-file-resolution.md`.
 
 ## Core rules
 
+### Bind rules to nested artifacts and subtasks
+- A larger task can contain smaller artifacts or workflow steps with their own rules.
+- Apply the rule for the thing being authored or executed, even when it is embedded inside another deliverable.
+  - Proposed `sources/validations/*.md` content inside an intake patchset must follow the validation rules, not the patchset-writing style.
+  - Proposed `research/...` content inside an intake patchset must follow the relevant research rules, not validation or process-note style.
+  - Git, branch, commit, push, or PR work remains governed by `.claude/rules/git-onedrive-codex.md` even when publication is only the final subtask of a larger research or site task.
+- Do not let the outer task type override the inner artifact or workflow rule.
+
 ### Edit narrowly
 - Prefer targeted edits over wholesale rewrites.
 - Preserve established prose unless fact, citation, structure, or clarity requires change.
