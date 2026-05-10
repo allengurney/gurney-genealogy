@@ -16,4 +16,4 @@ This is a published transcript/abstract of proprietary records, not the original
 
 Substantive findings belong in `research/people/g13-john-gurney-fact-sheet.research.md` and `research/case-files/john-gurney-case-file-v4.md`. No corpus supplement is required for this patchset.
 
-Patchset: `sources/intake/processed/v18-john-gurney-colonial-baseline-source-research.patchset.md`.
+Patchsets: `sources/intake/processed/v18-john-gurney-colonial-baseline-source-research.patchset.md`; `sources/intake/processed/v20-john-gurney-tag-and-mendon-proprietors.patchset.md`.

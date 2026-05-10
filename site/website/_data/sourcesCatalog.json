@@ -1032,6 +1032,18 @@
     "notes": "Secondary local history for old Abington and Little Comfort. Useful for John Harden's Little Comfort context and the 22 February 1711 baptism of Jane Harden, daughter of John Harden of Little Comfort, as recorded by Mr. Niles of Braintree. Hobart-derived wording about an Elizabeth should be treated cautiously because the original John Harden will shows Elizabeth Harden as a witness, not as a daughter/heir."
   },
   {
+    "sourceId": "tag-10-70",
+    "shortTitle": "Holman, Grissell of the Many Marriages",
+    "citation": "Holman, Mary Lovering. \"Grissell of the Many Marriages.\" The American Genealogist, vol. 10, no. 2 (October 1933), pp. 70-73.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/sim_american-genealogist_1933-10_10_2",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Cited by Anderson in the John Gurney sketch. Obtained text confirms this is Mary Lovering Holman's Grissell Fletcher/Jewell/Griggs/Kibbee/Gurney/Burge marriage-chain article. It gives the 12 Nov. 1661 Braintree marriage by Peter Brackett and John Gurney Sr.'s 1662-63 death, but supplies no 1636 arrival or birth date for John Gurney; Anderson's 1636 date must derive from another citation, most likely WJ 2:422 / the Newgate apprentice tradition."
+  },
+  {
     "sourceId": "keates-rohan-domesday",
     "shortTitle": "Keates-Rohan, Domesday People",
     "citation": "Keates-Rohan, K. S. B. Domesday People: A Prosopography of Persons Occurring in English Documents, 1066–1166. Vol. 1. Woodbridge: Boydell Press, 1999.",
@@ -1524,6 +1536,18 @@
     "notes": "Public-domain British Archaeological Association paper reviewing Daniel Gurney's privately printed Record of the House of Gournay. Useful as an accessible page-scoped digest for the Gournay-en-Bray church/fortification landscape, La Ferte and Sigy charter complex, early G32-G37 genealogy, Norfolk merchant/Keswick line, heraldry, and the Somerset collateral Gournays."
   },
   {
+    "sourceId": "phillimore-bucks-marriages-vol1",
+    "shortTitle": "Phillimore Bucks parish registers, marriages, vol. 1",
+    "citation": "Phillimore, W. P. W., and Thomas M. Blagg, eds. Buckinghamshire Parish Registers: Marriages, Volume I. London: Phillimore & Co., 1902.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/buckinghamshirep01phil",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/phillimore-bucks-marriages-vol1.md",
+    "notes": "Marriages for Cheddington, Cholesbury, Edlesborough, Hawridge, Marsworth, Mentmore, Pitstone, Slapton, and Soulbury. Includes the 1660-1685 Edlesborough Gurney marriage cluster: Joh. Gurney and Mary Kidgell, 1661; Wm. Gurney and Martha Halsey, 1660; Saml. Gurney of Bierton and Elizab. Bunce of Padbury, 1662; Tho. Gurney of Hockliffe and Frances Norman of Houghton Regis, 1680; Geo. Hill of Chesham and Mary Gurney, 1685."
+  },
+  {
     "sourceId": "planche-conqueror-companions-1874",
     "shortTitle": "Planche, The Conqueror and His Companions",
     "citation": "Planche, J. R. The Conqueror and His Companions. Vol. 1. London: Tinsley Brothers, 1874.",
@@ -1750,18 +1774,6 @@
     "mediaPath": "",
     "validationPath": "sources/validations/swann-chethams-library-ms-a4-15-2016.md",
     "notes": "Modern manuscript-culture article. Relevant to Henry Gurney's poetry in Chetham's Library MS A.4.15, MC15's Norfolk/East Anglian connections, and transmission between Great Ellingham and wider literary manuscript networks."
-  },
-  {
-    "sourceId": "tag-10-70",
-    "shortTitle": "TAG 10:70–73",
-    "citation": "The American Genealogist, vol. 10, pp. 70–73.",
-    "archive": "",
-    "url": "",
-    "corpusStatus": "none",
-    "corpusPath": "",
-    "mediaPath": "",
-    "validationPath": "",
-    "notes": "Cited by Anderson in the John Gurney sketch. Article not yet obtained. Targeted title/content searches identify this as Mary Lovering Holman, 'Grissell of the Many Marriages,' The American Genealogist 10 (1933-34):70-73. Treat as a Grissell Fletcher/Jewell/Griggs/Kibbee/Gurney/Burge marriage-chain pull target, not as the likely source of Anderson's 1636 Newgate date unless the article itself proves otherwise."
   },
   {
     "sourceId": "neverending-hobby-john-gurney-us-1636",
