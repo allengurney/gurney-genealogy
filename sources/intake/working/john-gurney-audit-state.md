@@ -80,3 +80,8 @@ Updated: 2026-05-09
 
 - v21 candidate patchset is warranted: it would (a) add the obtained Edlesborough 1661 John Gurney + Mary Kidgell marriage to the case-file elimination table as a "John + Mary in Bucks 1661" eliminator with full Phillimore citation; (b) surface the TNA E 115/180/113 (1641) and Walgrave Northants 1650 datapoints in the case file's Cand A row, replacing the bare "Moved to Northants" phrase with the actual cited sources from the older research files; (c) add a thin source/validation for Phillimore Bucks vol. 1; (d) explicitly classify the Stewkley Dickson/Putnam 1897 register as a Tier-1 paywall pull with a stable Geneanet handle.
 - The probability table should be re-stated, not re-numbered, in v21. The Edlesborough 1661 finding is consistent with Cand A being eliminated outright, but the case file's own framing keeps Cand A at ~8-10% on the basis that the Stewkley/Edlesborough/Aylesbury/Walgrave Johns may not all be one person. Pull Stewkley register before re-scoring.
+
+## Phase 2 Application Notes
+
+- 2026-05-09: Applied `sources/intake/processed/v20-john-gurney-tag-and-mendon-proprietors.patchset.md` on branch `codex/intake-phase-2-v20-v21`. The Mendon proprietors source/validation already existed from v18, so Phase 2 reused the existing `mendon-proprietors-records-1899` source record and added the v20 patchset cross-reference rather than duplicating the source.
+- 2026-05-09: Applied `sources/intake/processed/v21-john-gurney-candidate-a-c-pressure.patchset.md` on branch `codex/intake-phase-2-v20-v21`. Added `phillimore-bucks-marriages-vol1`, created its validation note, surfaced the Edlesborough 1661 John Gurney and Mary Kidgell marriage, and strengthened the Candidate A Aylesbury/Northamptonshire eliminator notes.

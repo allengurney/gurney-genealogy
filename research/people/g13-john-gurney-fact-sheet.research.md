@@ -1,6 +1,6 @@
 # John Gurney-1 (G13)
 
-**Tailor. First Gurney in North America.** b. c. 1609–12 (AI-Rules §7 correction #6), probably East Anglia. Emigrated to New England by June 1641 at latest; Anderson assigns 1636 arrival, probably reflecting the John Newgate apprentice record rather than the first secure Braintree/Weymouth record. d. 1662/3, Braintree, Massachusetts. Wife Mary (maiden name unknown — "Richards" is UNVERIFIED). Later marriage to Grizzell Fletcher/Kidbee is traditionally placed at Braintree on 12 Nov 1661, but the accessible 1886 Braintree town-record transcription prints that marriage line under John Cheny Senior and Grizell Kidbee; treat the Braintree vital-record basis as a conflict until the town manuscript or TAG 10:70-73 is checked. Lineage status: **Probable** (Candidate B ~55–60%, son of Francis Gurney G14 Merchant Taylor + Margaret Rybett).
+**Tailor. First Gurney in North America.** b. c. 1609–12 (AI-Rules §7 correction #6), probably East Anglia. Emigrated to New England by June 1641 at latest; Anderson assigns 1636 arrival, probably reflecting the John Newgate apprentice record rather than the first secure Braintree/Weymouth record. d. 1662/3, Braintree, Massachusetts. Wife Mary (maiden name unknown — "Richards" is UNVERIFIED). Later marriage to Grizzell Fletcher/Kidbee is traditionally placed at Braintree on 12 Nov 1661, but the accessible 1886 Braintree town-record transcription prints that marriage line under John Cheny Senior and Grizell Kidbee; treat the Braintree vital-record basis as a conflict until the town manuscript is checked against the printed Cheny reading and the TAG/Torrey/Sprague Gurney tradition. Lineage status: **Probable** (Candidate B ~55–60%, son of Francis Gurney G14 Merchant Taylor + Margaret Rybett).
 
 Pre-fact-sheet. No published narrative yet. Active research lives in this file. It is currently paired with `research/case-files/john-gurney-case-file-v4.md` and may later migrate to `research/case-files/candidate-b.md` if the case-file structure is reorganized.
 
@@ -21,7 +21,7 @@ Standing facts are in AI-Rules.md §7 (especially correction #6 on birth date, c
 Three observations:
 
 1. **Origin "Unknown."** Anderson had full access to Banks and routinely cites Banks-supported origins when the underlying evidence holds. His "Unknown" functions as implicit rejection of Banks's Bury St. Edmunds attribution under modern Great Migration standards. Not a positive rejection, but a clear signal that no primary record supports any specific parish. This is now a standing interpretive principle in AI-Rules §8.
-2. **Arrival 1636.** Winthrop/Savage's Addenda gives a direct 21 July 1636 record in which John Newgate brought John Gurney, his apprentice, before the governor after Gurney had gotten away his indentures. The order set service until age 24, three years from the following 29 September. That record is the strongest visible source for Anderson's 1636 date, but it creates a chronology conflict if identified with the older Braintree John: the implied 29 September 1615 birth is difficult to reconcile with John Gurney of Braintree aged about 50 in 1652/3 and with the older-child chronology. TAG 10:70–73 appears instead to be the Grissell Fletcher marriage-chain article.[^winthrop-addenda-newgate][^tag-grissell-lead]
+2. **Arrival 1636.** Winthrop/Savage's Addenda gives a direct 21 July 1636 record in which John Newgate brought John Gurney, his apprentice, before the governor after Gurney had gotten away his indentures. The order set service until age 24, three years from the following 29 September. That record is the strongest visible source for Anderson's 1636 date, but it creates a chronology conflict if identified with the older Braintree John: the implied 29 September 1615 birth is difficult to reconcile with John Gurney of Braintree aged about 50 in 1652/3 and with the older-child chronology. TAG 10:70-73 has now been read in full from Internet Archive issue `sim_american-genealogist_1933-10_10_2`; Holman gives no 1636 arrival or birth date for John Gurney, so Anderson's 1636 cannot inherit from TAG and most plausibly inherits from WJ 2:422 / the Newgate-apprentice tradition already documented in this file.[^winthrop-addenda-newgate][^tag-grissell-lead]
 3. **Settlements "Boston, Braintree."** Weymouth not credited as a settlement. Possible interpretations: (a) Anderson treated the 1641 Weymouth entry as transient, (b) a pre-Braintree Boston residence existed and has not yet been independently surfaced here, or (c) there is an unexamined two-Johns conflict.
 
 **Banks/Brownell p. 151 — exact entry:**
@@ -71,7 +71,7 @@ That record explains the derivative tradition that John Gurney was age 21 on 29 
 John Newgate himself is securely documented in Boston. A 1639 Winthrop deed identifies him as "John Newgate of Boston in New England Feltmaker," which fits the hatter/feltmaker form in later derivative accounts.[^mhs-newgate-feltmaker]
 
 [^winthrop-addenda-newgate]: John Winthrop, *The History of New England from 1630 to 1649*, ed. James Savage, vol. 2 (Boston: Little, Brown and Company, 1853), Addenda, p. 422, 21 July 1636 John Newgate / John Gurney apprentice entry. Source ID: `winthrop-history-new-england-addenda-1636`.
-[^tag-grissell-lead]: `tag-10-70` remains a pull target. Targeted title/content searches identify it as Mary Lovering Holman, "Grissell of the Many Marriages," *The American Genealogist* 10 (1933-34):70-73, a Grissell Fletcher/Jewell/Griggs/Kibbee/Gurney/Burge article lead.
+[^tag-grissell-lead]: Mary Lovering Holman, "Grissell of the Many Marriages," *The American Genealogist*, vol. 10, no. 2 (October 1933), pp. 70-73, Internet Archive, https://archive.org/details/sim_american-genealogist_1933-10_10_2. Source ID: `tag-10-70`.
 [^mhs-newgate-feltmaker]: Massachusetts Historical Society, Winthrop Papers Digital Edition, Papers of the Winthrop Family, vol. 4, deed of John Winthrop to John Newgate, 18 Dec. 1639, https://www.masshist.org/publications/winthrop/index.php/view/PWF04p162. Source ID: `mhs-winthrop-papers-newgate-deed-1639`.
 
 ### Torrey marriage compendium - John1 family group cross-check
@@ -136,9 +136,9 @@ The Braintree evidence is leasehold and community-context evidence, not ownershi
 
 The 12 February 1661 Braintree conveyance printed by Samuel A. Bates identifies the grantor as John Gurney, tailor. Gurney conveyed to Richard Thayer, for fourteen pounds, a house and orchard, a five-acre parcel on the Monatiquot/Monoticot River, and an adjacent half-acre parcel. The record is useful for occupation, Braintree property, and neighborhood reconstruction; it is not English-origin evidence.[^bates-ironworks-gurney]
 
-The Mendon material shows recognized proprietary standing and later title survival. Ballou places John among the Braintree men accepted to allotments in 1662, while the Mendon proprietors' records list John Gurny and Grisel Gurney as separate twenty-acre lot holders. Grisel's copied will material ties her Mendon accommodation to Joseph Juell and the Juell/Kibbee/Burge network. Later references to John Gurny's house lot, meadow, and swamp lot preserve the land trail after title had passed to others; because John died in 1662/3, those later references should not be read as proof that he personally resided in Mendon after death.[^ballou-milford-1882][^mendon-proprietors-1899]
+The Mendon material shows recognized proprietary standing and later title survival. Ballou places John among the Braintree men accepted to allotments in 1662, while the Mendon proprietors' records list John Gurny and Grisel Gurney as separate twenty-acre lot holders. Grisel's copied will material ties her Mendon accommodation to Joseph Juell and the Juell/Kibbee/Burge network. Later references to John Gurny's house lot, meadow, and swamp lot preserve the land trail after title had passed to others. Because Mendon was not incorporated until 15 May 1667 and John died in 1662/3, John's name in the post-incorporation print stream is most plausibly an early grant carried into the proprietor list or a retrospective allottee record; preserve the chronology as a qualifier and pull the underlying manuscript proprietors' records before treating either reading as final.[^ballou-milford-1882][^mendon-proprietors-1899]
 
-John appears to have died with no land. His estate was valued at **£55.14.6**, a modest sum consistent with a working tradesman.
+John appears to have died with no land in the surviving estate framing. His estate was valued at **£55.14.6**, a modest sum consistent with a working tradesman.
 
 [^nash-weymouth-1885]: Gilbert Nash, *Historical Sketch of the Town of Weymouth, Massachusetts, from 1622 to 1884* (Weymouth, Mass.: Town of Weymouth, 1885), pp. 258, 270, 278, 281-282, 306, https://archive.org/details/historicalsketch00nash_0. Source ID: `nash-historical-sketch-weymouth-1885`.
 [^suffolk-deeds-liber-iv]: Thomas F. Temple, Register of Deeds, *Suffolk Deeds. Liber IV* (Boston: Rockwell and Churchill, City Printers, 1888), pp. 6, 89a-90, index p. 150; project extraction note at `research/case-files/John-gurney-research-to-be-assessed/deeds and misc/deeds318904_04_john_gurney_extracts.md`. Source ID: `suffolk-deeds-liber-iv-1888`.
@@ -216,6 +216,20 @@ These are not John Gurney testators, but they help define surrounding family net
 | Richard Gurney, labourer (PROB 11/338/493) | London | Will 1 Mar 1674/5 | Martha, Joan, and possibly John among kin. Separate London cluster. |
 | Sir Richard Gurney, knight (PROB 11/201/723) | Unknown | Mid-17th c. | Not Norfolk family; Daniel Gurney appendix says "Gurneys of Kendall." |
 | Tobias / Edward Gurney (PROB 11/54/173) | Unknown | 1577 | Too early for the emigrant problem; older-generation context only. |
+
+### Bucks Gurney marriage cluster, 1660-1685 (Phillimore vol. I)
+
+Phillimore *Buckinghamshire Parish Registers: Marriages*, vol. I, Edlesborough section, prints a tight cluster of Gurney marriages in the second half of the seventeenth century:
+
+- Wm. Gurney & Martha Halsey, 1660
+- Joh. Gurney & Mary Kidgell, 1661
+- Saml. Gurney, of Bierton, & Elizab. Bunce, of Padbury, 1662
+- Tho. Gurney, of Hockliffe, & Frances Norman, of Houghton Regis, 1680
+- Geo. Hill, of Chesham, & Mary Gurney, 1685
+
+The 1661 John-and-Mary marriage is materially incompatible with the colonial John Gurney-1: the colonial John buried his first wife Mary at Braintree on 20 September 1661 and married Grizzell Fletcher on 12 November 1661 at Braintree. Either this Edlesborough John is the same person as Candidate A, in which case Candidate A is eliminated outright by the 1661 Bucks marriage, or he is a separately documented Bucks John Gurney with a Mary wife, in which case he depletes the residual "Unknown other origin" bucket by accounting for one more Bucks "John + Mary" household. The cluster also corroborates the 1642 Bucks Contributions for Ireland reading of a continuing Edlesborough yeoman Gurney presence and is consistent with VCH Bucks vol. 3 Edlesborough showing zero Gurney landholders at the manorial level: the Edlesborough Gurneys were yeoman, not gentry.[^phillimore-bucks-vol1]
+
+[^phillimore-bucks-vol1]: W. P. W. Phillimore and Thomas M. Blagg, eds., *Buckinghamshire Parish Registers: Marriages, Volume I* (London: Phillimore & Co., 1902), Edlesborough section; Internet Archive, https://archive.org/details/buckinghamshirep01phil. Source ID: `phillimore-bucks-marriages-vol1`.
 
 ### Protestation Returns 1641–42
 
@@ -303,6 +317,9 @@ St Giles Cripplegate, City of London (LMA P69/GIS/A/002/MS06419/003) records a b
 | `lma-st-mary-harrow-register-dro003` | Burials 1668/9, John & Mary Gurney of Okington, two children | `sources/validations/lma-st-mary-harrow-register-dro003.md` |
 | `lma-st-giles-cripplegate-register-p69-gis-a-002` | Burial Dec 1640, John son of Francis Garney joiner | `sources/validations/lma-st-giles-cripplegate-register-p69-gis-a-002.md` |
 | `findagrave-john-gurney-252975617` | Memorial 252975617, Elm Street Cemetery and 1615/Brent tradition | `sources/validations/findagrave-john-gurney-252975617.md` |
+| `tag-10-70` | Holman, TAG 10:70-73, Grissell marriage-chain article and negative check for Anderson's 1636 date | none |
+| `mendon-proprietors-records-1899` | John Gurny and Grisel Gurney as separate twenty-acre proprietors, with later title references | `sources/validations/mendon-proprietors-records-1899.md` |
+| `phillimore-bucks-marriages-vol1` | Edlesborough Gurney marriage cluster, including Joh. Gurney & Mary Kidgell, 1661 | `sources/validations/phillimore-bucks-marriages-vol1.md` |
 
 ---
 
@@ -330,7 +347,7 @@ St Giles Cripplegate, City of London (LMA P69/GIS/A/002/MS06419/003) records a b
 | NEHGR 62:94 | *New England Historical and Genealogical Register*, vol. 62, p. 94 | Pulled in v08/v08a; underlying Suffolk Court Files paper still unpulled | High |
 | SPR Case #338 | Suffolk Probate Records, Case #338 | Probate index confirms case-number anchor; case file still unpulled | Highest |
 | Weymouth Hist 3:251 | *History of Weymouth*, vol. 3 | Already registered as derivative family/group source | Incorporated earlier |
-| TAG 10:70-73 | Mary Lovering Holman, "Grissell of the Many Marriages" | Not obtained; likely Grissell marriage-chain support, not 1636 source | High |
+| TAG 10:70-73 | Mary Lovering Holman, "Grissell of the Many Marriages" | Pulled 2026-05-09 from Internet Archive `sim_american-genealogist_1933-10_10_2`; Holman gives Peter Brackett officiant detail and no 1636 date | Resolved (low remaining priority) |
 
 | Anderson GMB vol. 1, Gregory Baxter profile, p. 138 | *The Great Migration Begins*, vol. 1, Gregory Baxter profile | User-supplied book image captured in v08a; pull Suffolk Probate Records 1:323 and 3:146 when possible | Medium |
 | Hazen, Billerica, p. 33 | *History of Billerica*, historical p. 33 / image p. 54 | Pulled in v08; underlying town record still unpulled | Medium |
@@ -343,7 +360,7 @@ St Giles Cripplegate, City of London (LMA P69/GIS/A/002/MS06419/003) records a b
 
 1. **Norwich parish baptisms c. 1612–1617** — a "John son of Francis Gurney" entry would nearly close the case.
 2. **Braintree town manuscript vital records, film 940974 / DGS 7009769** — check the original/copy manuscript pages behind the 7th month 20, 1661 wife-death entry and the 9th month 12, 1661 Grizell Kidbee marriage entry. The 1886 printed transcription reads Cheny/Cheney, not Gurney.
-3. **TAG 10:70-73** — pull Mary Lovering Holman's "Grissell of the Many Marriages" and extract only the Grissell/Gurney marriage-chain evidence it actually contains.
+3. **Braintree town manuscript vital records** — check the original/copy manuscript pages behind the 7th month 20, 1661 wife-death entry and the 9th month 12, 1661 Grizell Kidbee marriage entry against the printed Cheny/Cheney reading and the TAG/Torrey/Sprague Gurney tradition.
 4. **SPR Case #338** — probate index confirms the case-number anchor, but the file may contain inventory, administration, or relationship details.
 
 #### Tier 1B — strong supporting targets
@@ -353,22 +370,23 @@ St Giles Cripplegate, City of London (LMA P69/GIS/A/002/MS06419/003) records a b
 6. **PCC or London Commissary will for Francis Gurnay** c. 1646–1650.
 7. **St Ann Blackfriars register image** — verify whether the letter is actually "P" or "F" Gurney.
 8. **Haberdashers' Company 1632 detail record**.
+9. **Stewkley parish register (Dickson/Putnam 1897 print)** — Rev. R. Bruce Dickson, *The Parish Register of Stewkeley, Buckinghamshire, 1545-1653* (Salem, Mass.: Eben Putnam, 1897), covering baptisms 1545-1653, marriages 1599-1646, burials 1599-1653. Covers the entire Candidate A diagnostic window. Paywalled in this pass at Geneanet Premium (https://en.geneanet.org/library/doc/5574493/...) and at the Genealogy Store (https://www.thegenealogystore.co.uk/index.php?main_page=product_info&products_id=1204). Highest single discriminating pull for closing or strengthening Candidate A.
 
 #### Tier 2 — enriching but less likely to decide the case
 
-9. St Stephen Coleman Street registers.
-10. St Pancras Soper Lane registers (Harleian Society vol. 45).
-11. Ship Money rolls, St Benet Fink, 1635–1638 (TNA SP 16/17).
-12. F.G. Gurney papers, Bucks Archaeological Society.
-13. Peter Walne, "Emigrants from Hertfordshire 1630–1640," NEHGR vol. 132 (1978).
-14. Berkhamsted marriage registers.
-15. East Dereham register burials section.
+10. St Stephen Coleman Street registers.
+11. St Pancras Soper Lane registers (Harleian Society vol. 45).
+12. Ship Money rolls, St Benet Fink, 1635–1638 (TNA SP 16/17).
+13. F.G. Gurney papers, Bucks Archaeological Society.
+14. Peter Walne, "Emigrants from Hertfordshire 1630–1640," NEHGR vol. 132 (1978).
+15. Berkhamsted marriage registers.
+16. East Dereham register burials section.
 
 ---
 
 ## Open Questions
 
-- [ ] Pull **TAG 10:70-73** and extract only the Grissell/Gurney marriage-chain evidence it actually contains.
+- [ ] Check the original Braintree town manuscript or copy behind the 1661 wife-death and Grizell Kidbee marriage entries; TAG 10:70-73 has been pulled and supports the Grissell marriage chain, but the manuscript is still needed to test the Cheny/Gurney printed-record conflict.
 - [ ] Pull **SPR Case #338**; probate index confirms the case-number anchor, but the file may contain inventory, administration, or relationship details.
 - [ ] Reconcile **Anderson's 1636** with the **June 1641 court record** as a likely Newgate-apprentice/two-Johns issue.
 - [ ] Determine whether Anderson's **"Boston"** comes from the Newgate/Boston apprentice entry, a real pre-Braintree residence for the older John, or a composite entry.
@@ -377,7 +395,7 @@ St Giles Cripplegate, City of London (LMA P69/GIS/A/002/MS06419/003) records a b
 - [ ] Access the **Haberdashers' 1632 John Gurney detail record**; if it names Francis as father, the case changes materially.
 - [ ] Identify **Mary's maiden name**; a Peter in her family would be highly informative.
 - [ ] Determine what became of **Edward and Agnes**, the confirmed East Dereham children of Francis.
-- [ ] Reassess whether **Candidate C (Berkhamsted John)** can be tied to or excluded from the emigrant.
+- [ ] Pull Hertfordshire Archives / Findmypast Berkhamsted St Peter parish register for: (a) any John Gurney + Mary marriage 1620-1640; (b) burial of Richard Gurney baptised 1626; (c) burial of Sara Gurney baptised 1634; (d) any further John Gurney activity post-1641. FreeREG indexes the surname at St Peter Berkhamsted but did not surface the 1626/1634 baptisms or any post-1641 entries in the 2026-05-09 pass.
 - [ ] Clarify whether **St Ann Blackfriars "P Gurney"** is actually **"F Gurney."**
 
 ---
@@ -385,7 +403,7 @@ St Giles Cripplegate, City of London (LMA P69/GIS/A/002/MS06419/003) records a b
 ## Working Hypotheses
 
 - **Candidate B** (son of Francis G14 + Margaret Rybett, probably Norwich / East Dereham connected): **~55–60%**. Active working hypothesis.
-- **Candidate A** (Stewkley, Buckinghamshire): **~10–12%**. Weakened, but not eliminated.
+- **Candidate A** (Stewkley, Buckinghamshire): **~8-10%**. Weakened by the Aylesbury/Walgrave and Edlesborough 1661 evidence, but not fully closed until the Stewkley register is pulled.
 - **Candidate C** (Berkhamsted, Hertfordshire): **~3–5%**. Retained as a minor lead.
 - **Other origins:** **~20–25%** residual.
 
