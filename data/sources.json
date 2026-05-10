@@ -532,7 +532,128 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": null,
-      "notes": "TIER 1 PULL — highest priority. Not yet obtained. Cited by Anderson (GMD p. 158) — almost certainly the source of his 1636 arrival date."
+      "notes": "Cited by Anderson in the John Gurney sketch. Article not yet obtained. Targeted title/content searches identify this as Mary Lovering Holman, 'Grissell of the Many Marriages,' The American Genealogist 10 (1933-34):70-73. Treat as a Grissell Fletcher/Jewell/Griggs/Kibbee/Gurney/Burge marriage-chain pull target, not as the likely source of Anderson's 1636 Newgate date unless the article itself proves otherwise."
+    },
+    "winthrop-history-new-england-addenda-1636": {
+      "shortTitle": "Winthrop/Savage, History of New England Addenda",
+      "citation": "Winthrop, John. The History of New England from 1630 to 1649. Edited by James Savage. Vol. 2. Boston: Little, Brown and Company, 1853. Addenda, p. 422, 21 July 1636 John Newgate / John Gurney apprentice entry.",
+      "archive": "Internet Archive",
+      "url": "https://archive.org/details/historynewengla03savagoog",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/winthrop-history-new-england-addenda-1636.md",
+      "notes": "Direct published text of the 21 July 1636 John Newgate / John Gurney apprentice entry. Use for the Newgate-apprentice chronology and two-Johns/composite-source problem, not as proof that the apprentice was John Gurney of Braintree."
+    },
+    "massachusetts-bay-records-v1-1853": {
+      "shortTitle": "Massachusetts Bay Records, vol. 1",
+      "citation": "Shurtleff, Nathaniel B., ed. Records of the Governor and Company of the Massachusetts Bay in New England. Vol. 1, 1628-1641. Boston: William White, 1853.",
+      "archive": "Internet Archive",
+      "url": "https://archive.org/details/recordsofgoverno01mass",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/massachusetts-bay-records-v1-1853.md",
+      "notes": "Direct source for MBCR 1:331. The 1641 General Court record remits fines of John Gurney, James Ludden, and John Porter for want of gunpowder. Use as the controlling court citation; Weymouth identification depends on supporting local context."
+    },
+    "bates-ancient-iron-works-braintree-1898": {
+      "shortTitle": "Bates, Ancient Iron Works at Braintree",
+      "citation": "Bates, Samuel A. The Ancient Iron Works at Braintree, Mass.: The First in America. South Braintree, Mass.: Frank A. Bates, 1898.",
+      "archive": "Internet Archive",
+      "url": "https://archive.org/details/ancientironworks00bate",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/bates-ancient-iron-works-braintree-1898.md",
+      "notes": "Source for the page-10 12 February 1661 Braintree conveyance identifying John Gurney as tailor and describing the sale to Richard Thayer. Use for occupation, Braintree property, and neighborhood context, not English origin."
+    },
+    "accessgenealogy-lysander-franklin-gurney": {
+      "shortTitle": "AccessGenealogy, Lysander Franklin Gurney",
+      "citation": "AccessGenealogy. \"Ancestry of Lysander Franklin Gurney.\" Transcription from Representative Men and Old Families of Southeastern Massachusetts (Chicago: J. H. Beers & Co., 1912).",
+      "archive": "AccessGenealogy / Internet Archive cataloged original publication",
+      "url": "https://accessgenealogy.com/massachusetts/lysander-franklin-gurney.htm",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/accessgenealogy-lysander-franklin-gurney.md",
+      "notes": "Derivative transcription preserving a Lysander-family manuscript claim, American-branch arms tradition, and the Newgate/29 September 1615 conflict tradition. Use as a manuscript-pointer and conflict witness, not as primary proof."
+    },
+    "suffolk-probate-index-v2-1895": {
+      "shortTitle": "Suffolk Probate Index, vol. 2",
+      "citation": "George, Elijah, register. Index to the Probate Records of the County of Suffolk, Massachusetts, from the Year 1636 to and including the Year 1893. Vol. 2, G to O. Boston: Rockwell and Churchill, City Printers, 1895.",
+      "archive": "Internet Archive",
+      "url": "https://archive.org/details/indextoprobatere02geor",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/suffolk-probate-index-v2-1895.md",
+      "notes": "Index source for the Gurney/Gurny probate entries. Use to confirm the probate-index existence of John Gurney/Gurny administration case no. 338 in the 1663 context; the underlying Suffolk probate case file remains a necessary pull target."
+    },
+    "mhs-winthrop-papers-newgate-deed-1639": {
+      "shortTitle": "MHS Winthrop Papers, Newgate deed",
+      "citation": "Massachusetts Historical Society, Winthrop Papers Digital Edition, Papers of the Winthrop Family, vol. 4, deed of John Winthrop to John Newgate, 18 December 1639.",
+      "archive": "Massachusetts Historical Society",
+      "url": "https://www.masshist.org/publications/winthrop/index.php/view/PWF04p162",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/mhs-winthrop-papers-newgate-deed-1639.md",
+      "notes": "Context source identifying John Newgate of Boston as a feltmaker in a 1639 Winthrop deed. Use only for Newgate occupational/context discussion."
+    },
+    "suffolk-deeds-liber-iv-1888": {
+      "shortTitle": "Suffolk Deeds, Liber IV (1888)",
+      "citation": "Temple, Thomas F., Register of Deeds. Suffolk Deeds. Liber IV. Boston: Rockwell and Churchill, City Printers, 1888.",
+      "archive": "Suffolk County deed-record printed volume; project extraction note at research/case-files/John-gurney-research-to-be-assessed/deeds and misc/deeds318904_04_john_gurney_extracts.md from source filename deeds318904_04.pdf",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/suffolk-deeds-liber-iv-1888.md",
+      "notes": "Printed Suffolk County deed-record volume. John Gurney appears in the William Ting estate-division material on printed pp. 6 and 89a-90, with the printed index at p. 150 pointing to those references. The material identifies one of two Braintree messuages or tenements allotted to Bethia and Mercy Ting as being occupied by lease by John Gurney. Useful for Braintree tenancy and Ting/Tyng estate context; not a family-relationship record."
+    },
+    "mendon-proprietors-records-1899": {
+      "shortTitle": "Mendon Proprietors' Records (1899)",
+      "citation": "The Proprietors' Records of the Town of Mendon, Massachusetts: Incorporated May 15, 1667. Boston: Rockwell and Churchill Press, 1899.",
+      "archive": "Internet Archive; OpenLibrary; project extraction note at research/case-files/John-gurney-research-to-be-assessed/deeds and misc/proprietors_gurney_extracts.md",
+      "url": "https://archive.org/details/proprietorsrecor00mend",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/mendon-proprietors-records-1899.md",
+      "notes": "Published transcript/abstract of Mendon proprietary records. John Gurny and Grisel Gurney appear as separate twenty-acre lot holders; Grisel's will material links her Mendon accommodation to Joseph Juell and the Juell/Kibbee/Burge family network; later entries preserve John Gurny's house lot, meadow, and swamp-lot references. Useful for the John/Grisel Mendon property trail and for distinguishing proprietary/title survival from proof of John's later residence."
+    },
+    "ballou-history-of-milford-1882": {
+      "shortTitle": "Ballou, History of Milford (1882)",
+      "citation": "Ballou, Adin. History of the Town of Milford, Worcester County, Massachusetts, from Its First Settlement to 1881. In Two Parts. Part I. Strictly Historical; Part II. Biographico-Genealogical Register. Boston: Franklin Press, Rand, Avery, & Co., 1882.",
+      "archive": "Internet Archive; project extraction note at research/case-files/John-gurney-research-to-be-assessed/deeds and misc/milford_john_gurney_extract_pp27_33.md",
+      "url": "https://archive.org/details/historyoftownofm01ball",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/ballou-history-of-milford-1882.md",
+      "notes": "Milford/Mendon town history preserving the institutional context of the Netmooke/Mendham/Mendon plantation. The project extraction covers pp. 27-35, including the 1662 list of persons accepted to allotments, where John Gurney appears in the Braintree contingent, and nearby references to 1667 meadow division and pre-King Philip's War grants. Useful for Mendon proprietary context; later references require caution because John Gurney-1 died in 1662/3."
+    },
+    "nash-historical-sketch-weymouth-1885": {
+      "shortTitle": "Nash, Historical Sketch of Weymouth (1885)",
+      "citation": "Nash, Gilbert. Historical Sketch of the Town of Weymouth, Massachusetts, from 1622 to 1884. Weymouth, Massachusetts: Town of Weymouth, under the auspices of the Weymouth Historical Society, 1885. Printed by Alfred Mudge & Son, Boston.",
+      "archive": "Internet Archive; project extraction note at research/case-files/John-gurney-research-to-be-assessed/deeds and misc/john_gurney_extracts_historicalsketch00nash_0.md",
+      "url": "https://archive.org/details/historicalsketch00nash_0",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/nash-historical-sketch-weymouth-1885.md",
+      "notes": "Weymouth local history preserving early land-list material. John appears under variants Gurny/Gurnie/Gurney on pp. 258, 270, 278, and 282; the strongest entry is the 1651/2 lot-list entry on p. 282, with the index grouping Gurny/Gurnie/Gurney variants. Useful for Weymouth land-grant baseline and spelling-variant search terms."
+    },
+    "braintree-records-1640-1793-1886": {
+      "shortTitle": "Braintree town records, 1640-1793",
+      "citation": "Braintree (Mass.). Records of the Town of Braintree, 1640 to 1793. Edited by Samuel A. Bates. Randolph, Mass.: D. H. Huxford, printer, 1886.",
+      "archive": "Internet Archive; FamilySearch catalog also lists the printed volume",
+      "url": "https://archive.org/details/recordsoftownofb00brai",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/braintree-records-1640-1793-1886.md",
+      "notes": "Published Braintree town-record transcription. For the John Gurney case file, the important conflict is in the vital-record section: printed p. 638 gives the 20 Sept. 1661 wife-death line under John Cheny, and printed p. 717 gives the 12 Nov. 1661 marriage line as John Cheny Senior and Grizell Kidbee. Use as a conflict source against the current Braintree vital-record wording; the original town manuscript and TAG 10:70-73 remain necessary before treating the Cheny reading as final."
     },
     "torrey-new-england-marriages-prior-1700": {
       "shortTitle": "Torrey, New England Marriages Prior to 1700",
