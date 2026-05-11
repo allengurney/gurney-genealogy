@@ -193,7 +193,9 @@ The NEHGR vol. 49 "Genealogical Gleanings in England" extract for John Lewis of 
 
 **John Jr.:** Of Weymouth and Mendon. Killed at Mendon in July 1675 during King Philip's War. Witnessed his father's 1661 deed.
 
-**Peter:** There are zero Peter Gurney baptisms found England-wide in the working search set for 1620–1645. The name appears foreign to every documented Gurney branch reviewed so far and is therefore treated as a likely clue from wife Mary's family rather than the paternal Gurney line.
+**Peter:** An England-wide FamilySearch search found zero Peter Gurney baptisms in the working 1620-1645 set, but a later Findmypast UK Parish Baptisms search for 1632-1642 returned twelve Peter Gurney-variant results, including Peter G., christened 27 February 1641 at Smallburgh, Norfolk, father Peter G. (FMP transcript `R_880200102`; "G." is a partial surname index). The colonial John Gurney's son Peter remains distinctive because none of the FMP results match a John-Gurney-father pattern, but the name was not absolutely absent from Norfolk Gurney-variant households. Mary's maiden family remains the most likely source of the colonial son's name.[^fmp-peter-gurney-2026-05-09]
+
+[^fmp-peter-gurney-2026-05-09]: Findmypast UK Parish Baptisms search, first name Peter, surname Gurney with variants, year of birth 1632-1642, Britain-wide; transcript `R_880200102` for Peter G., christened 27 February 1641 at Smallburgh, Norfolk, father Peter G. Source ID: `findmypast-uk-parish-baptisms`.
 
 **Isaac:** Attribution remains uncertain. Possibly born c. 1643 in Massachusetts.
 
@@ -236,6 +238,60 @@ The 1661 John-and-Mary marriage is materially incompatible with the colonial Joh
 
 [^phillimore-bucks-vol1]: W. P. W. Phillimore and Thomas M. Blagg, eds., *Buckinghamshire Parish Registers: Marriages, Volume I* (London: Phillimore & Co., 1902), Edlesborough section; Internet Archive, https://archive.org/details/buckinghamshirep01phil. Source ID: `phillimore-bucks-marriages-vol1`.
 
+### Bucks Gurney household map (Findmypast indexes, 2026-05-09)
+
+A walk of the Buckinghamshire Marriage Index, Buckinghamshire Burial Index, and Buckinghamshire Baptism Index reveals at least five distinct seventeenth-century Bucks John Gurney households contemporary with the colonial John Gurney's New England career:
+
+- **Candidate A - John Gurney + Alice Oliffe**, married 24 Apr 1628, Bierton with Broughton (Bucks Archives PR16/1/1Q p. 30). No Bucks-indexed children of this marriage; family chronology continues with TNA E 115/180/113 (1641 cert of residence Aylesbury to Northants) and 1650 Walgrave Northants tenancy. The wife's surname Oliffe rewrites the older case-file "Alice Collindridge" identification.
+- **John Gurney + Elizabeth at East Claydon**, children Elinor 1632 and Samuel 1636 (Bucks Baptism Index). John Gurney of this household was buried at East Claydon 17 Apr 1654 (Bucks Burial Index, Bucks Archives PR51/1/1). Separate from Candidate A.
+- **John Gurney + Elizabeth at Chesham**, children Andtr and Martha (Bucks Baptism Index, register range 1576-1682). John Gurney burials at Chesham in July 1672 and on 11 June 1678 (Bucks Burial Index, Bucks Archives D/A/T/42). Separate household.
+- **John Gurney + Anne at Wing**, children James 1650 and Elizabeth 1652 (Bucks Baptism Index). Separate household.
+- **John Gurney + Mary at Cublington**, son Isaac baptized 1664 (three Bucks Baptism Index entries; possibly duplicate transcriptions). Most plausible identity for the John Gurney and son Isaac who held the Stewkley manor by 1687 and sold to Anne Robinson of Stepney in 1701 per VCH Bucks vol. 3 pp. 420-426; Cublington is about five miles SW of Stewkley. A Bucks "John + Mary" household post-dating the colonial John's death (16 Mar. 1662/3 inventory).
+
+Additionally, **Edward Gurny** was a separate Aylesbury Gurney head-of-household in the 1660s: son Jon Gurny was buried 2 Feb 1665 (Bucks Archives B24) and daughter Ann Gurny was baptized in 1666 (Bucks Baptism Index). The older case-file claim "Jonathan baptized Aylesbury 22 Nov 1647 son of John" should be qualified by source: the 1665 Aylesbury Jon was son of Edward, while FamilySearch separately verifies Jonathan son of John at Saint Mary Aylesbury in 1647.[^findmypast-bucks-2026-05-09]
+
+[^findmypast-bucks-2026-05-09]: Findmypast Buckinghamshire Marriage Index, Burial Index, and Baptism Index (Centre for Buckinghamshire Studies); subscription pulls executed 2026-05-09. Source IDs: `findmypast-bucks-marriage-index`, `findmypast-bucks-burial-index`, `findmypast-bucks-baptism-index`.
+
+### Candidate A Aylesbury family group (FS-verified 2026-05-09)
+
+FamilySearch England, Births and Christenings, 1538-1975 returns four directly relevant Candidate A children at Saint Mary, Aylesbury, all with father John Gurney:
+
+- Sarah Gurney, baptized 22 August 1639
+- Daniell Gurney, baptized 26 December 1645 (FS ID `JWN5-W5B`, attached tree `MSRS-B8Z`)
+- Jonathan Gurney, baptized 22 November 1647 (FS ID `JMBC-P2G`, attached tree `LBKR-M1H`)
+- Hannah Gurney, baptized 12 November 1653
+
+The 1639-1653 family group at Saint Mary Aylesbury is incompatible with the colonial John Gurney's continuous New England career (Weymouth fine June 1641; Wilson v. Faxon deposition 1653; Braintree death 1662/3). Candidate A is therefore the Aylesbury John, not the MA emigrant. Combined with the 1628 Bierton with Broughton marriage to Alice Oliffe, the repo-internal 1641 TNA E 115/180/113 cert of residence Aylesbury to Northants, and the 1650 Walgrave Northants tenancy, the Candidate A elimination is effectively complete. Only residual ambiguity is whether the Stewkley 1602/3 baptized John is the same individual; the Stewkley Dickson/Putnam 1897 register pull closes that gap.[^fs-aylesbury-2026-05-09]
+
+A separate FS Records entry surfaces John Gurney + Anne Cowheard, married 25 Oct 1638, Saint Mary, Aylesbury (FS ID `N2TD-Z9Z`, attached tree `M37F-R5D`). Either this is a separately documented Aylesbury John, or Candidate A remarried at Aylesbury after Alice Oliffe died, with the 1639-1653 Aylesbury children documented under the second marriage. Mother field is unindexed on the FS Records children entries, so the marriage-to-children link cannot be proven from FS alone. Retain as a Candidate A wife-uncertainty note rather than a controlling fact.
+
+[^fs-aylesbury-2026-05-09]: FamilySearch, "England, Births and Christenings, 1538-1975," index entries at FS IDs `JWN5-W5B` (Daniell Gurney 1645) and `JMBC-P2G` (Jonathan Gurney 1647); Sarah Gurney 1639 and Hannah Gurney 1653 surfaced in the same Aylesbury-John-father search. Source ID: `fs-england-births-christenings`.
+
+### Candidate C Berkhamsted family group (FMP Hertfordshire Baptisms, 2026-05-09)
+
+FMP Hertfordshire Baptism Index returns the following Candidate C Berkhamsted family group to John Gurney father 1610-1636 (mother unindexed):
+
+- Henry Gourney, 1610
+- Sara Gourney, 1615 (first daughter Sara; presumably died young, replaced)
+- Jhon Gourney, 1624
+- Richard Gourney, 1626 (case-file standing)
+- Elizabeth Gourney, 1629
+- Michael Gourney, 1631
+- Sarah Gourney, 1634 (case-file standing)
+- Francis Gurney, 1636
+
+Candidate C is effectively eliminated for three reasons taken together: (a) the 1610 Henry baptism requires Candidate C's John to be born about 1585-1590, older than the colonial John (b. about 1603); (b) a Francis son in 1636, while the colonial John named no child Francis; (c) no Mary and no Peter, the colonial John's distinctive children.[^findmypast-hertfordshire-2026-05-09]
+
+[^findmypast-hertfordshire-2026-05-09]: Findmypast Hertfordshire Baptisms (source ID `findmypast-hertfordshire-baptisms`); Findmypast Hertfordshire Burials (source ID `findmypast-hertfordshire-burials`); FamilySearch Records for the Ackworth Yorkshire null search (source ID `fs-england-births-christenings`). Pulls executed 2026-05-09.
+
+### Norfolk John Gurney household density (FMP UK Parish Baptisms, 2026-05-09)
+
+A Findmypast UK Parish Baptisms search restricted to Norfolk for surname Gurney + father John, year 1623-1643, returns 14 results across six distinct Norfolk parishes: Denton (John + Rachell, children Mary 1638, Thomas 1639, Sarah 1644), Hempnall (Anna 1640, Elizabeth 1641), Stanfield (Mary 1634), Norwich St Margaret & St Swithin (a 1630 child), North Runcton (Beniamin 1625, Frances 1628), and Earsham (already case-file eliminated; John + Elizabeth Singler).
+
+None of these Norfolk John Gurney households match the colonial John's full distinctive children pattern (Sarah + Mary + Richard + John Jr. + Peter + possibly Isaac) by name and date. The density of Norfolk John Gurney households is nevertheless consistent with Candidate B's geographic plausibility: Norfolk was a Gurney heartland with multiple parish-level Johns in the same decade.[^fmp-norfolk-cluster-2026-05-09]
+
+[^fmp-norfolk-cluster-2026-05-09]: Findmypast UK Parish Baptisms search 2026-05-09; FamilySearch Mary Gurney Denton 1638 (FS ID `NNDF-V9K`); source IDs `findmypast-uk-parish-baptisms` and `fs-england-births-christenings`.
+
 ### Protestation Returns 1641–42
 
 #### County coverage (Gibson & Dell)
@@ -276,7 +332,7 @@ Daniel Gurney Appendix LXXXIX states: "Sir Richard Gurney was not related to the
 | Mary | Mary (d. single) | None | Mary 1631 Hitcham | Very common; weak value |
 | Richard | None among 12 | None at SBF | Richard 1626 (Robert's son) | Could reflect Ryvett influence; not decisive |
 | John | None among 12 | None at SBF | John 1634, 1638 | Ubiquitous; not diagnostic |
-| Peter | None in the reviewed Gurney material | None | None | Strong anomaly; likely from Mary's family |
+| Peter | Smallburgh Peter G. 1641 shows the name in a Norfolk Gurney-variant household, though not with father John | None | None in the Bucks John-household set reviewed here | Still distinctive for John-1, but no longer an absolute surname-wide absence |
 
 **Key naming takeaway:** no child named Francis. That remains the strongest naming-pattern argument against Candidate B, though not a dispositive one.
 
@@ -325,6 +381,14 @@ St Giles Cripplegate, City of London (LMA P69/GIS/A/002/MS06419/003) records a b
 | `tag-10-70` | Holman, TAG 10:70-73, Grissell marriage-chain article and negative check for Anderson's 1636 date | none |
 | `mendon-proprietors-records-1899` | John Gurny and Grisel Gurney as separate twenty-acre proprietors, with later title references | `sources/validations/mendon-proprietors-records-1899.md` |
 | `phillimore-bucks-marriages-vol1` | Edlesborough Gurney marriage cluster, including Joh. Gurney & Mary Kidgell, 1661 | `sources/validations/phillimore-bucks-marriages-vol1.md` |
+| `findmypast-bucks-marriage-index` | Candidate A Bierton marriage to Alice Oliffe and Great Kimble same-name household | `sources/validations/findmypast-bucks-marriage-index.md` |
+| `findmypast-bucks-burial-index` | East Claydon, Chesham, and Aylesbury Edward Gurny burial checks | `sources/validations/findmypast-bucks-burial-index.md` |
+| `findmypast-bucks-baptism-index` | Bucks household map for East Claydon, Chesham, Wing, Cublington, and Aylesbury | `sources/validations/findmypast-bucks-baptism-index.md` |
+| `fs-england-births-christenings` | Candidate A Aylesbury family group; Ackworth null search; Denton Mary Gurney 1638 | `sources/validations/fs-england-births-christenings.md` |
+| `fs-suffolk-probate-1636-1915` | Suffolk Probate Case #338 cover and inventory image verification | `sources/validations/fs-suffolk-probate-1636-1915.md` |
+| `findmypast-hertfordshire-baptisms` | Candidate C Berkhamsted family group | `sources/validations/findmypast-hertfordshire-baptisms.md` |
+| `findmypast-hertfordshire-burials` | Hertfordshire John Gurney burial negative/supporting check for Candidate C | `sources/validations/findmypast-hertfordshire-burials.md` |
+| `findmypast-uk-parish-baptisms` | Peter anomaly qualification and Norfolk father-John cluster | `sources/validations/findmypast-uk-parish-baptisms.md` |
 
 ---
 
@@ -333,9 +397,10 @@ St Giles Cripplegate, City of London (LMA P69/GIS/A/002/MS06419/003) records a b
 - **No ship record identified.** Neither Banks nor Anderson names a vessel for John's emigration.
 - **No direct published Bucks attribution from the main emigrant compilers.** Banks gives Suffolk/BSE; Anderson gives "Unknown."
 - **No Banks primary citation beyond "Banks Mss."** The BSE attribution remains a lead, not proof.
-- **No Peter Gurney baptism found** in the working England-wide search set for 1620–1645.
+- **Peter anomaly qualified.** The FamilySearch-only working search found no Peter Gurney baptism in the 1620-1645 set, but Findmypast UK Parish Baptisms returned Peter Gurney-variant baptisms, including Peter G. at Smallburgh, Norfolk, in 1641.
+- **Ackworth Yorkshire "Mary Barton" claim unconfirmed in this pass.** FS Records search for John Gurney + spouse Barton in Yorkshire returned zero results on 2026-05-09. FS Records is one of several relevant indexes; FreeREG, Ancestry, FMP regional Yorkshire indexes, and Yorkshire Quaker monthly meeting records have not been walked. Do not treat the FS negative alone as elimination; the original source for the v2 "Mary Barton/Burton (m. 1636)" claim should be re-identified before further qualification.
 - **No John Gurney in Buckinghamshire Protestation Returns** in the reviewed set.
-- **No Francis Gurnay located in London Apprenticeship Abstracts (Findmypast)** in the searched collection; Merchant Taylors material may simply be outside the indexed set.
+- **No John or Francis Gurney/Gurnay located in London Apprenticeship Abstracts (Findmypast)** in the searched collection; Merchant Taylors and Haberdashers material may sit outside this indexed set or under a non-standard variant.
 - **Francis Gurney will still not located.** Daniel Gurney reports both candidate wills as "unable to be discovered."
 - **No primary record yet supports the recurring 1615 birth tradition.** Both *American Biography* vol. 26 and Find a Grave memorial 252975617 give 29 September 1615; both are derivative; the 1653 deposition's "aged about 50 years" remains the controlling age evidence.
 
@@ -350,7 +415,7 @@ St Giles Cripplegate, City of London (LMA P69/GIS/A/002/MS06419/003) records a b
 | WJ 2:422 | Winthrop/Savage Addenda, 21 July 1636 Newgate/Gurney apprentice entry | Direct source identified; use for Newgate/two-Johns pressure | Incorporated by v17 |
 | MBCR 1:331 | *Massachusetts Bay Records*, vol. 1, p. 331 | Direct source identified; controls 1641 court action | Incorporated by v17 |
 | NEHGR 62:94 | *New England Historical and Genealogical Register*, vol. 62, p. 94 | Pulled in v08/v08a; underlying Suffolk Court Files paper still unpulled | High |
-| SPR Case #338 | Suffolk Probate Records, Case #338 | Probate index confirms case-number anchor; case file still unpulled | Highest |
+| SPR Case #338 | Suffolk Probate Records, Case #338 | Pulled 2026-05-09 via FamilySearch DGS 102840311 (Box 003 Cases 250-399). Cover image 514 and inventory image 516 confirm the case-number anchor and "Boston March 16th 1663" inventory header. Full itemized transcription deferred. | Done (preliminary) |
 | Weymouth Hist 3:251 | *History of Weymouth*, vol. 3 | Already registered as derivative family/group source | Incorporated earlier |
 | TAG 10:70-73 | Mary Lovering Holman, "Grissell of the Many Marriages" | Pulled 2026-05-09 from Internet Archive `sim_american-genealogist_1933-10_10_2`; Holman gives Peter Brackett officiant detail and no 1636 date | Resolved (low remaining priority) |
 
@@ -366,16 +431,16 @@ St Giles Cripplegate, City of London (LMA P69/GIS/A/002/MS06419/003) records a b
 1. **Norwich parish baptisms c. 1612–1617** — a "John son of Francis Gurney" entry would nearly close the case.
 2. **Braintree town manuscript vital records, film 940974 / DGS 7009769** — check the original/copy manuscript pages behind the 7th month 20, 1661 wife-death entry and the 9th month 12, 1661 Grizell Kidbee marriage entry. The 1886 printed transcription reads Cheny/Cheney, not Gurney.
 3. **Braintree town manuscript vital records** — check the original/copy manuscript pages behind the 7th month 20, 1661 wife-death entry and the 9th month 12, 1661 Grizell Kidbee marriage entry against the printed Cheny/Cheney reading and the TAG/Torrey/Sprague Gurney tradition.
-4. **SPR Case #338** — probate index confirms the case-number anchor, but the file may contain inventory, administration, or relationship details.
+4. **SPR Case #338** — pulled preliminarily via FamilySearch DGS 102840311; full transcription of inventory items, administration, debts, and relationship details remains useful.
 
 #### Tier 1B — strong supporting targets
 
-4. **Margaret Rybett burial** in Norwich-area parishes c. 1616–1617.
-5. **Ryvett / Rivett pedigrees** — Suffolk RO, HD2418/88.
-6. **PCC or London Commissary will for Francis Gurnay** c. 1646–1650.
-7. **St Ann Blackfriars register image** — verify whether the letter is actually "P" or "F" Gurney.
-8. **Haberdashers' Company 1632 detail record**.
-9. **Stewkley parish register (Dickson/Putnam 1897 print)** — Rev. R. Bruce Dickson, *The Parish Register of Stewkeley, Buckinghamshire, 1545-1653* (Salem, Mass.: Eben Putnam, 1897), covering baptisms 1545-1653, marriages 1599-1646, burials 1599-1653. Covers the entire Candidate A diagnostic window. Paywalled in this pass at Geneanet Premium (https://en.geneanet.org/library/doc/5574493/...) and at the Genealogy Store (https://www.thegenealogystore.co.uk/index.php?main_page=product_info&products_id=1204). Highest single discriminating pull for closing or strengthening Candidate A.
+4. **Stewkley parish register (Dickson/Putnam 1897 print)** — Rev. R. Bruce Dickson, *The Parish Register of Stewkeley, Buckinghamshire, 1545-1653* (Salem, Mass.: Eben Putnam, 1897), covering baptisms 1545-1653, marriages 1599-1646, burials 1599-1653. Covers the entire Candidate A diagnostic window. Paywalled in this pass at Geneanet Premium (https://en.geneanet.org/library/doc/5574493/...) and at the Genealogy Store (https://www.thegenealogystore.co.uk/index.php?main_page=product_info&products_id=1204). Highest single discriminating pull for closing the Stewkley 1602/3 baptism question.
+5. **Margaret Rybett burial** in Norwich-area parishes c. 1616–1617.
+6. **Ryvett / Rivett pedigrees** — Suffolk RO, HD2418/88.
+7. **PCC or London Commissary will for Francis Gurnay** c. 1646–1650.
+8. **St Ann Blackfriars register image** — verify whether the letter is actually "P" or "F" Gurney.
+9. **Haberdashers' Company 1632 detail record**.
 
 #### Tier 2 — enriching but less likely to decide the case
 
@@ -392,12 +457,12 @@ St Giles Cripplegate, City of London (LMA P69/GIS/A/002/MS06419/003) records a b
 ## Open Questions
 
 - [ ] Check the original Braintree town manuscript or copy behind the 1661 wife-death and Grizell Kidbee marriage entries; TAG 10:70-73 has been pulled and supports the Grissell marriage chain, but the manuscript is still needed to test the Cheny/Gurney printed-record conflict.
-- [ ] Pull **SPR Case #338**; probate index confirms the case-number anchor, but the file may contain inventory, administration, or relationship details.
+- [ ] Transcribe **SPR Case #338** in full; cover and inventory header are now image-verified, but inventory items, administration, debts, and relationship details remain untranscribed.
 - [ ] Reconcile **Anderson's 1636** with the **June 1641 court record** as a likely Newgate-apprentice/two-Johns issue.
 - [ ] Determine whether Anderson's **"Boston"** comes from the Newgate/Boston apprentice entry, a real pre-Braintree residence for the older John, or a composite entry.
 - [ ] Test whether Anderson's omission of Weymouth points to a **two-Johns conflict** rather than mere transient residence.
 - [ ] Test the **Bury St. Edmunds apprenticeship hypothesis** at Suffolk Record Office.
-- [ ] Access the **Haberdashers' 1632 John Gurney detail record**; if it names Francis as father, the case changes materially.
+- [ ] Re-identify the original source for the **Haberdashers' 1632 John Gurney apprentice** lead; Findmypast London Apprenticeship Abstracts returned zero Gurney results in this pass.
 - [ ] Identify **Mary's maiden name**; a Peter in her family would be highly informative.
 - [ ] Determine what became of **Edward and Agnes**, the confirmed East Dereham children of Francis.
 - [ ] Pull Hertfordshire Archives / Findmypast Berkhamsted St Peter parish register for: (a) any John Gurney + Mary marriage 1620-1640; (b) burial of Richard Gurney baptised 1626; (c) burial of Sara Gurney baptised 1634; (d) any further John Gurney activity post-1641. FreeREG indexes the surname at St Peter Berkhamsted but did not surface the 1626/1634 baptisms or any post-1641 entries in the 2026-05-09 pass.
@@ -408,9 +473,9 @@ St Giles Cripplegate, City of London (LMA P69/GIS/A/002/MS06419/003) records a b
 ## Working Hypotheses
 
 - **Candidate B** (son of Francis G14 + Margaret Rybett, probably Norwich / East Dereham connected): **~55–60%**. Active working hypothesis.
-- **Candidate A** (Stewkley, Buckinghamshire): **~8-10%**. Weakened by the Aylesbury/Walgrave and Edlesborough 1661 evidence, but not fully closed until the Stewkley register is pulled.
-- **Candidate C** (Berkhamsted, Hertfordshire): **~3–5%**. Retained as a minor lead.
-- **Other origins:** **~20–25%** residual.
+- **Candidate A** (Stewkley bapt. 1602/3 -> Bierton with Broughton m. 1628 -> Aylesbury family group -> Northants): **~1-2% (effectively eliminated)**. Documented continuous English residence 1628-1653 incompatible with the MA emigrant. Pull Stewkley register (Dickson/Putnam 1897) to close the Stewkley 1602/3 question.
+- **Candidate C** (Berkhamsted, Hertfordshire): **~0-1% (effectively eliminated)**. Eight-child Berkhamsted family group 1610-1636 with age mismatch, Francis son 1636, and absent Mary/Peter.
+- **Other origins:** **~37-44%** residual after Candidate A and Candidate C re-scoring.
 
 ---
 
