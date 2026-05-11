@@ -413,3 +413,165 @@ The Ancestry user tree "Miner/Stemple/Flood/Hazeltine Family Tree" attributes "M
   - Memorialize the "Mary Richards" Ancestry tree attribution as a non-lead alongside the existing Puritan Great Migration Project non-lead.
 
 - **Probability table unchanged** by Pass 9. Cand B remains ~55-60%, Cand A ~1-2%, Cand C ~0-1%, Ackworth qualified, residual "Unknown other origin" ~37-44%. Pass 9 tightens the residual on the English-side John-Gurney-father baptism universe without shifting the candidate distribution.
+
+## 2026-05-11 Pass 10 (London corridor and §8 cleanup)
+
+User redirect: the colonial Richard cannot be Massachusetts-born; his son John died in the 1675 war, which back-projects Richard's birth to no later than about 1637 and the colonial John's residence-in-England through the late 1630s or about 1640. The colonial John and his eldest children are therefore English-born. The London Merchant Taylor corridor (Candidate B's framing) becomes the highest-value remaining English-side search direction.
+
+### London Gurney parish-register walk (FamilySearch, 1600-1640)
+
+The London Gurney cluster in this window is denser than the case file currently expresses, but no John Gurney father appears among the indexed London Gurney baptisms 1620-1645. Households surfaced:
+
+- Saint Stephen Coleman Street, London - **William Gurney + Tamazin** (sometimes Tamasin / Thamasin / Tomasin): Mary 1624, Fotheza 1626, Adeall 1628, Susan 1623 (per a separate spelling-variant index entry), Susanna 1630, Marke 1636. Five-to-six-child family group.
+- Saint Mary le Bow with Saint Pancras Soper Lane with All Hallows Honey Lane, London - **Abel / Abell Gurney**: Elizabeth 1629, Katherin 1630.
+- Saint Michael Paternoster Royal, London - **Abel Gurney**: Rebecca 1635. Most plausibly the same Abel after a parish move.
+- Saint Peter le Poer with Saint Benet Fink, London - **Frances / Frauncis Gurney + Ann / Ane**: Dorithy 1619, Roger 1621, Frances 1625. The Saint Benet Fink parish is the documented home parish of Francis Gurney G14 (Candidate B's putative father). The wife "Ann" name conflicts with the Candidate B framing (Margaret Ryvett) and should be reconciled in a future pass.
+- Blackfriars, London - **William Gurney + Margaret**: Nathaneell 1620, John 13 March 1615 (father Wm. Gurney), Sara 25 November 1618, Joseph 28 March 1624.
+- Saint Bride's Church Fleet Street, London - **George Gurney**: Caleb 1609; and **Roberte Gurney + Annis**: Elizabeth 1620.
+- Saint Bride's Church Fleet Street, London - **Edwarde Gurneye + Agnis**: William 12 June 1625.
+- Saint Martin Ludgate, London - **William Gurney**: Marye 24 May 1613.
+- Clerkenwell, London - **Henry Gurney**: Jane 31 January 1602; and **Robert Gurney + Sara**: Isabell 1640, Henry 1643.
+- Saint Botolph without Aldgate, London - **Thomas Gurney**: Edward December 1626.
+- Saint Giles without Cripplegate, London - **William Gurney**: William 22 November 1601 (son of a John Gurney; one of only two indexed John-Gurney-father baptisms in London 1600-1645), Katherine 1637, Anne 1640. The patriarch of this household is named John in the 1601 baptism record but his children are baptized in 1637 and 1640 to a William, suggesting either two generations using the same parish or the 1601 record is a separate household with John as patriarch.
+- Saint Giles without Cripplegate, London - **Francis Gurney**: Jonathan 1638, John 1640, Ann 1643. Already in the case file as the Francis Garney joiner household.
+
+The single indexed London "John Gurney father" baptism in this 50-year window is William Gurney 22 November 1601 Saint Giles Cripplegate son of John Gurney. There is no indexed second-generation baptism of a son John Jr. to that 1601 father in the same parish.
+
+### Bermondsey 1603 marriage of John Gurney + Tayler
+
+A FamilySearch England Marriages index entry records the marriage of John Gurney and Roase Tayler (alternate index reading: Elizabeth Tayler) at Bermondsey, London on 4 July 1603. The "Tayler" (Taylor) bride surname is suggestive given the colonial John's documented tailoring trade per Bates Iron Works at Braintree p. 10 (the 1661 "John Gurney, Taylor" deed). The 1603 marriage date is the same year as the colonial John's birth year per the 1653 deposition, so this John Gurney would be the colonial John's potential father or an unrelated London John of an earlier generation. No baptism of a son named John has been linked to this Bermondsey couple in the present pass.
+
+### Eythorne Kent John + Mary Marsh full family
+
+The case file's Eythorne row is corroborated by the primary marriage record: John Gurney and Mary Marsh married at Eythorne, Kent, 6 November 1632; children Thomas 1635 and John 13 May 1638 at Eythorne. The case file's standing "buried Eythorne 1648" claim was not surfaced in the present pass but is preserved as is. The Eythorne John remains a confirmed Kent John Gurney head of household; his child set (Thomas + John, no indexed Mary, Sarah, Richard, or Peter) does not match the colonial John's distinctive children.
+
+### Other findings
+
+- **Eaton Bray, Bedfordshire 26 September 1606**: John Gurney son of John Gurney. New John-Gurney-father baptism in Aylesbury Vale, ~5 miles from Stewkley and ~7 miles from Toddington.
+- **Hemel Hempstead, Hertfordshire 28 March 1608**: John Gurney son of William Gurney. Hertfordshire William Gurney household.
+- **Stewkley, Buckinghamshire 1 May 1611**: John Gurney son of Robert Gurney. A second Stewkley John, distinct from Candidate A's 1603 Stewkley John; most plausibly a cousin or elder brother of Candidate A.
+- **Weston Turville, Buckinghamshire 6 May 1604**: John Gurney son of Thomas Gurney. New Buckinghamshire John-from-Thomas baptism.
+
+### Strategic interpretation
+
+The London Gurney density 1600-1645 supports Candidate B's geographic plausibility but does not identify a London John Gurney + Mary household whose children match the colonial John's distinctive set. The Frances Gurney + Ann household at Saint Peter le Poer / Saint Benet Fink is the closest geographic match to Candidate B's framing but the wife "Ann" does not match the framing's "Margaret Ryvett." A future pass should:
+
+1. Look for a Francis Gurney + Margaret remarriage or second household in the London parish-register record set.
+2. Look for any London Saint Benet Fink Gurney baptism with father John 1620-1640 (would identify the colonial John's family group if Candidate B's premise is correct).
+3. Examine the Bermondsey 1603 John Gurney + Tayler marriage record and any associated baptism children.
+4. Examine the Ancestry-licensed London Metropolitan Archives parish register collection covering the 1538-1812 period (collection IDs other than 1558).
+
+### Section 8 cleanup commissioned by user
+
+User flagged that v28 added non-John Gurney rows to the §8 elimination table, which is restricted to John Gurney households. User also asked for: removal of acronyms from main body prose (FS, Findmypast (FMP), NRO, PCC, TNA), removal of process-logistics phrasing ("proven from FS alone," "image not yet pulled in this pass"), removal of jargon ("case-file standing"), addition of cluster reasoning for parishes with multiple Johns, careful framing of single-factor eliminators (e.g., "wife Elizabeth, not Mary" with remarriage caveats), and consideration of replacement-in-whole vs incremental patching.
+
+## Final Decisions (Pass 10)
+
+- **v29 candidate patchset is warranted as a full §8 replacement.** It:
+  - Removes ten Norfolk non-John households from the §8 table; relocates them into the John Gurney research companion's Norfolk Gurney density section under the heading "Norfolk Gurney households without a John as father (2026-05-11 pass)."
+  - Rewrites the §8 introduction and table cells in plain English without genealogy-platform acronyms in body text. Acronyms remain in footnotes.
+  - Adds explicit cluster reasoning for the two simultaneous Aylesbury Johns of 1638 (Candidate A continuing with Alice Oliffe and a second John marrying Anne Cowheard on 25 October 1638), keyed to the biological eight-week gap between the marriage and the 16 December 1638 baby John baptism.
+  - Adds an introductory paragraph to §8.3 that names the criteria for distinct Buckinghamshire John households (different parish, different wife where indexed, non-overlapping child sets, separate burials) and asserts these households are not the same person in different parishes.
+  - Tightens elimination reasons in the table by leading with positive evidence where available (will proved year, burial date, post-1641 residence) instead of wife-name-only framing.
+  - Tightens the body of endnotes n83, n88, n89 to remove process-mechanic phrasing without losing source citation.
+  - Surfaces the second Aylesbury John (married Anne Cowheard 25 October 1638) as its own row in the §8 elimination table; prior versions buried this John in the Candidate A subsection prose.
+- The Pass 10 London Gurney findings are recorded here in the working memo for inclusion in a future patchset; v29 itself does not add London Gurney material to the case file, since v29 is scoped to structural and stylistic cleanup of §8 rather than a new evidence pass.
+- Probability table is unchanged by v29.
+
+## 2026-05-11 Pass 11 (London, Toddington, Hempnall, Bury St Edmunds, FS Tree validation)
+
+User direction: continue with high-value research, with focus on §8 strengthening. The colonial Richard cannot be Massachusetts-born; his son John died in the 1675 war, back-projecting Richard's birth to no later than about 1637 and the colonial John's English residence through about 1640.
+
+### Toddington Bedfordshire - strong positive eliminator confirmed
+
+A John Gurney burial is indexed at Toddington, Bedfordshire in September 1641 (FamilySearch England, Deaths and Burials, 1538-1991). The Toddington John Gurnye and Elizabeth Moreton marriage is also confirmed at Toddington 12 October 1624. The Toddington family group includes children Elizabeth 1625, Anne 1628, John 13 February 1630, Audrey 1633. A second Toddington Gurney father, Thomas, baptizes a son John 5 October 1630 in the same parish, so Toddington has two Gurney fathers and at least two baby Johns in 1630. The September 1641 burial controlling-eliminates the Toddington John from being the Massachusetts emigrant, who continues in the Weymouth and Braintree record through 1662/3.
+
+### Hempnall Norfolk - cross-source verified in Norfolk Record Office
+
+Norfolk Record Office image-confirmed entry: Anna Gurney baptized 6 April 1640, Hempnall, with father indexed in Latin as "Johannis Gurney." The earlier Anna Gurney burial at Hempnall 6 April 1639 (Pass 9 finding) is most plausibly an earlier same-named child who died and was replaced by the 1640 Anna under standard replacement-naming. The Hempnall John household now has dual-source support (Findmypast UK Parish Baptisms plus the Norfolk Record Office collection).
+
+### Saint Peter le Poer with Saint Benet Fink, London - Francis Gurney + Anne (Anne Browning) household
+
+FamilySearch indexes seven children of a Francis Gurney + Ann/Anne at the combined Saint Peter le Poer with Saint Benet Fink, London 1619-1637: Dorithy 1619, Roger 1621, Frances (girl) 1625, Francis (boy) 1628, Lucretia 1630, Thomas 1636, Margaret 1637. Daniel Gurney's 1858 Supplement Note 181 description of the eldest Dorothy 1619 and Roger 1621 matches this household. The mother is Anne Browning per Bernau 1913. No indexed John Gurney child of this household appears in the Saint Benet Fink record set. If the case file's Candidate B premise is correct, the colonial John is a child of Francis G14's first marriage to Margaret Ryvett (East Dereham, Norfolk per primary record 3), not the London Anne Browning second marriage.
+
+### Aylesbury Luke Gurney household - fourth Aylesbury Gurney patriarch
+
+FamilySearch indexes a Luke Gurney household at Aylesbury 1621-1635 with children Thomas 1621, Elizabeth 1623, Luke 1624, Prudence 1635. Luke is not a John Gurney father, so this household does not appear in the §8 elimination table; it belongs in the research companion's Aylesbury Gurney cluster context. The Aylesbury Gurney cluster now contains at least four distinct patriarchs: Candidate A's John Gurney + Alice Oliffe (1638-1653 children), the second 1638 John who married Anne Cowheard, Luke Gurney (1621-1635 children), and Edward Gurny (1660s).
+
+### Hitcham Buckinghamshire - new south-Bucks John household (single record)
+
+FamilySearch England, Buckinghamshire, Church Records, 1217-1994 indexes a single 22 January 1631 baptism at Hitcham, Buckinghamshire of Mary Gurny to father John Gurny (mother unindexed). Hitcham is in south Buckinghamshire near Burnham, about 30 miles south of the Aylesbury Vale cluster. Treat as a distinct south-Bucks household rather than conflate with Aylesbury Vale Johns. Single-record source, no siblings indexed.
+
+### Norwich Saint Peter Mancroft John Gurny burial 10 February 1639
+
+FamilySearch England Deaths and Burials indexes the burial of John Gurny at Saint Peter Mancroft, Norwich, 10 February 1639, with relatives indexed as "John Gurny, Marg." (probably parents John Gurny and Margaret). This burial is two years before the Massachusetts emigrant's June 1641 Weymouth presence and is a distinct Norwich-side John Gurney elimination from the existing Earsham John and the Norwich Saint Benedict 1639 John + Jane Wright marriage.
+
+### Bury St Edmunds Suffolk - Banks's claim unsupported
+
+FamilySearch England Births and Christenings 1620-1645 returns one Bury St Edmunds Gurny baptism in the search window: Juda Gurny 23 February 1634, father Thomas Gurny (not John). Banks's deprecated Suffolk identification does not match any indexed Bury St Edmunds John Gurney father in the FamilySearch search set.
+
+### Bermondsey 4 July 1603 John Gurney + Roase Tayler marriage
+
+FamilySearch England Marriages confirms John Gurney + Roase Tayler at Saint Mary Magdalene, Bermondsey, London on 4 July 1603 (a second index transcription gives Elizabeth Tayler; both transcriptions point to the same Reference Item 2 record). No indexed children of this couple appear at Bermondsey 1603-1620. Lead does not yield further evidence in this pass.
+
+### FamilySearch Tree LT9Z-KQ1 colonial John profile - structural validation of user's correction
+
+FS Tree profile LT9Z-KQ1 represents the colonial John as: born 21 February 1603 Bury Saint Edmunds Suffolk (Banks reading); occupation Tailor; cause of death drowning 1663 Braintree (user-contributed Memory, "from memory"); married Mary Richards (L6Q5-QNR) about 1625 England; second wife Grissell Fletcher (LRR6-XBB) married 12 November 1661 Braintree. Children by Mary Richards: Mary 1626 (2W6M-YYJ), Sarah 1626 (PHXW-BS4), Richard 1630 (MV5M-CQ8), John II 1633 (LW7K-7Z1), Peter 1635 (GX5D-Y2T). Parents per FS Tree: Francis Gurney 1581-1640 (LC5Y-4HQ) + Anne Browning 1587-1660 (PH62-1GF). The FS Tree profile internally conflates three incompatible source claims: the Stewkley 1603 baptism (Candidate A in the case file), the Banks Bury St Edmunds birthplace, and parents Francis + Anne Browning (whose earliest indexed child Dorothy 1619 at Saint Benet Fink begins 16 years after the alleged colonial John's 1603 birth date). The three claims cannot all be correct; the FS Tree profile is a fusion of competing theories rather than a coherent source. The colonial John + Mary Richards marriage about 1625 England and the five English-born children 1626-1635 structurally validate the user's correction that the colonial John was in England through approximately 1640 with English-born children.
+
+### Richard Gurney FS Tree profile MV5M-CQ8
+
+FS Tree MV5M-CQ8 lists Richard Gurney born about 1630, died October 1691, married Rebecca Taylor (LC55-9QP) about 1654 Weymouth Massachusetts. Seven children including John Gurney 1655-1702 (G838-PF3) and Richard Gurney Jr. 1656-1719 (L7GS-MFH). The FS Tree's birthplace for Richard is Weymouth Massachusetts (not English-born), which contradicts the user's reading; the user has independent records (Richard's son John 1675 war death) that back-project an English birth no later than 1637. The FS Tree son John 1655-1702 death year 1702 also does not match the user's 1675 war death; this discrepancy should be investigated against the user's independent records.
+
+## Final Decisions (Pass 11)
+
+- **v30 incremental patchset is warranted.** It:
+  - Strengthens the §8 Toddington row eliminator with the September 1641 Toddington John Gurney burial.
+  - Upgrades the §8 Hempnall row from "Likely separate" to ELIMINATED on the basis of dual-source verification.
+  - Adds a §8 row for Hitcham Bucks (single-record lead).
+  - Adds a §8 row for Norwich Saint Peter Mancroft 1639 John Gurny burial.
+  - Adds the Saint Peter le Poer / Saint Benet Fink Francis + Anne Browning seven-child family group to the G13 research companion, reinforcing the case file's existing East Dereham first-marriage reading for the colonial John's origin (if Candidate B is correct).
+  - Adds the Aylesbury Luke Gurney household to the G13 Bucks Aylesbury cluster context.
+  - Adds the Toddington positive-eliminator note to G13.
+  - Qualifies Banks's deprecated Bury St Edmunds claim with the absence of an indexed John Gurney father at Bury St Edmunds.
+
+- **Probability table unchanged.** Cand B remains ~55-60%, Cand A ~1-2%, Cand C ~0-1%, residual ~37-44%. Pass 11 strengthens four §8 rows and reinforces the case file's existing reading for Candidate B without shifting the candidate distribution.
+
+- **FS Tree internal inconsistency documented.** The colonial John FS Tree profile LT9Z-KQ1 fuses three incompatible source claims (Stewkley 1603, Banks Bury St Edmunds, Francis + Anne Browning parents) and should not be relied upon as a coherent source. The case file's existing East Dereham reading (Francis G14's first marriage at Norwich 1611 to Margaret Ryvett, with John and other children at East Dereham) remains the most internally consistent Candidate B reading.
+
+- **Mary Richards memorialization preserved.** The FS Tree's "Mary Richards" maiden name for the colonial John's wife remains a non-lead per v28 §0.7; the user's correction does not change that status.
+
+## Operating Guideline (added 2026-05-11)
+
+**Avoid FamilySearch Tree profiles as case-file sources, particularly for the Richard / John Gurney generations.** FamilySearch user-contributed tree profiles are not grounded in primary records and frequently fuse incompatible source claims (the case file's existing LT9Z-KQ1 walk surfaced three incompatible parentages and birthplaces conflated into one profile). Tree profiles may appear in the working memo as research context but should not appear in the case file as evidence. Primary-source paths (parish registers, wills, probate, court records, contemporary published genealogies with cited records) are the controlling standard.
+
+## 2026-05-11 Pass 12 (Probability re-evaluation + Toddington rewrite + East Dereham verification)
+
+User direction: re-evaluate the sub-1 percent and 1-2 percent residual probabilities on Candidate A and Candidate C; rewrite the Toddington row to lead with the September 1641 burial; do not lean on FamilySearch Tree profiles in case-file content; continue with one more round of high-value research.
+
+### Probability re-evaluation
+
+Cand A and Cand C both currently carry fractional residual probabilities (~1-2% and ~0-1%) that are inconsistent with the explicit ELIMINATED status carried by other §8 rows that operate at the same evidentiary level (will proved, English burial, post-1641 residence, etc.). Objective re-evaluation:
+
+- **Cand A** has continuous English residence 1603-1653 documented across multiple primary records (Stewkley baptism, Bierton marriage to Alice Oliffe, five Aylesbury children, 1641 cert of residence, 1650 Walgrave tenancy). Either all five linkages are the same person (eliminated by continuous English residence) or some are not (in which case each separately documented adult is independently eliminated and the Stewkley 1603 baby alone is no stronger a candidate than any other Bucks baptism in the same window). Move to ELIMINATED.
+- **Cand C** has an eight-child Berkhamsted family group 1610-1636 fathered by a John born about 1585-1590, plus a Francis son 1636 and no Mary or Peter. No scenario keeps Cand C active. Move to ELIMINATED.
+
+The freed 1-3 percentage points go to "Unknown other origin," which now reads approximately 40-45 percent.
+
+### Toddington row rewrite
+
+Per user feedback, the v30 Toddington elimination reason ("Married Toddington 12 October 1624; family group baptized at Toddington 1625-1633; buried Toddington September 1641") is not persuasive on its own because the family-group framing could in principle accommodate John leaving Toddington mid-1635 to 1640. The September 1641 burial is the controlling positive eliminator, with wife Elizabeth Moreton (not Mary) and the non-matching children pattern (Elizabeth, Anne, John, Audrey vs the colonial Mary, Sarah, Richard, John Junior, Peter) as supporting evidence. Rewrite the Toddington row to lead with the burial.
+
+### Pass 12 supplementary research findings
+
+- **Ancestry / Norfolk Record Office collection 61045 Gurney baptisms 1605-1615.** Four indexed entries: Frant Gurney 23 Sep 1611 Norwich Saint Martin at Palace, John Turney 17 Apr 1608 Somerleyton (different surname), Brigitta Gurney 20 Sep 1607 Talconeston, James Garne 19 May 1611 Norwich All Saints. **No East Dereham John Gurney baptism is indexed.** The case file section 4 Entry E (Probable) John baptism remains the project's own AI paleographic re-reading, not externally corroborated by the Ancestry Norfolk Record Office collection. East Dereham parish appears to be partially or fully outside the 75 percent collection coverage; absence here does not refute the case file's reading but does not confirm it either.
+- **Frant Gurney 23 September 1611 Norwich Saint Martin at Palace** is indexed as a baptism event. The date and parish match Francis Gurney G14's 1611 marriage to Margaret Ryvett (case file primary record 1). Possible readings: pre-marital son legitimized concurrent with the marriage, Ancestry indexer error mislabeling the marriage as a baptism, or a coincident second Gurney family at the same parish. Logged for further work; no case-file edit in v31.
+- **John Gurney + Mary marriage 1620-1635 England-wide search** returns no English-side John Gurney + Mary marriage in the FamilySearch indexed marriage collections in this window. Recorded as a working observation; possible explanations include unindexed parish coverage or non-standard surname variant.
+
+## Final Decisions (Pass 12)
+
+- **v31 candidate patchset is warranted as a probability-and-language patchset.** It:
+  - Moves Cand A and Cand C from sub-2 percent residuals to explicit ELIMINATED status in the §8 table, in the §8.1 and §8.2 closing language, in the §11 Probability Assessment table, and in the G13 Working Hypotheses block.
+  - Rewrites the Toddington row to lead with the September 1641 burial.
+  - Records the FS Tree avoidance guideline in the working memo (above) and does not introduce FS Tree material into v31's case-file edits.
+  - Records the East Dereham and Frant Gurney findings in the working memo without case-file edits, pending further work.
+- **Probability table after v31:** Cand B ~55-60 percent (PROBABLE); all other named candidates ELIMINATED; Ackworth Yorkshire still "Unlikely" pending re-identification of the original Mary Barton source; Unknown other origin approximately 40-45 percent.
