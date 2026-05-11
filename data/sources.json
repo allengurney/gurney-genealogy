@@ -655,6 +655,94 @@
       "validationPath": "sources/validations/phillimore-bucks-marriages-vol1.md",
       "notes": "Marriages for Cheddington, Cholesbury, Edlesborough, Hawridge, Marsworth, Mentmore, Pitstone, Slapton, and Soulbury. Includes the 1660-1685 Edlesborough Gurney marriage cluster: Joh. Gurney and Mary Kidgell, 1661; Wm. Gurney and Martha Halsey, 1660; Saml. Gurney of Bierton and Elizab. Bunce of Padbury, 1662; Tho. Gurney of Hockliffe and Frances Norman of Houghton Regis, 1680; Geo. Hill of Chesham and Mary Gurney, 1685."
     },
+    "findmypast-bucks-marriage-index": {
+      "shortTitle": "Findmypast Buckinghamshire Marriage Index",
+      "citation": "Buckinghamshire Marriage Index, Centre for Buckinghamshire Studies, transcribed parish marriage records, Bucks Archives; served via Findmypast.",
+      "archive": "Findmypast / Centre for Buckinghamshire Studies",
+      "url": "https://search.findmypast.co.uk/search-world-records/buckinghamshire-marriage-index",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/findmypast-bucks-marriage-index.md",
+      "notes": "Subscription index of Bucks parish marriage records held at Bucks Archives. Candidate A entry: John Gurney and Alice Oliffe, 24 Apr 1628, Bierton with Broughton, PR16/1/1Q p. 30; also John Gurny and Alice Hewet, widow, 20 Oct 1619, Great Kimble, D/A/T/116."
+    },
+    "findmypast-bucks-burial-index": {
+      "shortTitle": "Findmypast Buckinghamshire Burial Index",
+      "citation": "Buckinghamshire Burial Index, Centre for Buckinghamshire Studies, transcribed parish burial records, Bucks Archives; served via Findmypast.",
+      "archive": "Findmypast / Centre for Buckinghamshire Studies",
+      "url": "https://search.findmypast.co.uk/search-world-records/buckinghamshire-burial-index",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/findmypast-bucks-burial-index.md",
+      "notes": "Subscription index. Key entries used: Jon Gurny son of Edward Gurny, Aylesbury, 2 Feb 1665, B24; John Gurney, East Claydon, 17 Apr 1654, PR51/1/1; John Gurney, Chesham, 11 Jun 1678, D/A/T/42."
+    },
+    "findmypast-bucks-baptism-index": {
+      "shortTitle": "Findmypast Buckinghamshire Baptism Index",
+      "citation": "Buckinghamshire Baptism Index, Centre for Buckinghamshire Studies, transcribed parish baptism records, Bucks Archives; served via Findmypast.",
+      "archive": "Findmypast / Centre for Buckinghamshire Studies",
+      "url": "https://search.findmypast.co.uk/search-world-records/buckinghamshire-baptism-index",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/findmypast-bucks-baptism-index.md",
+      "notes": "Subscription index. Key entries used: Elinor 1632 and Samuel 1636 Gurney at East Claydon, father John mother Elizabeth; Andtr and Martha Gurney at Chesham, father John mother Elizabeth, register range 1576-1682; James 1650 and Elizabeth 1652 Gurney at Wing, father John mother Ann; Isaac Gurney entries in 1664 at Cublington, father John mother Mary; Ann Gurny 1666 Aylesbury, father Edward; negative: no Jonathan Gurney baptisms 1645-1649 in Bucks."
+    },
+    "fs-england-births-christenings": {
+      "shortTitle": "FamilySearch England Births and Christenings",
+      "citation": "England, Births and Christenings, 1538-1975. FamilySearch indexed records.",
+      "archive": "FamilySearch International",
+      "url": "https://www.familysearch.org/search/collection/1473015",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/fs-england-births-christenings.md",
+      "notes": "Used 2026-05-09 to verify Candidate A's Aylesbury family group at Saint Mary Aylesbury: Sarah 1639, Daniell 1645 (JWN5-W5B), Jonathan 1647 (JMBC-P2G), Hannah 1653, all children of John Gurney; also reused for the Ackworth negative search and Denton Mary Gurney 1638 record."
+    },
+    "fs-suffolk-probate-1636-1915": {
+      "shortTitle": "FamilySearch Suffolk County probate records",
+      "citation": "Massachusetts, Suffolk County, probate and family court records, 1636-1915. Digital images from Massachusetts Supreme Judicial Court Archives & Records Preservation, Boston, via FamilySearch.",
+      "archive": "FamilySearch International / Massachusetts Supreme Judicial Court",
+      "url": "https://www.familysearch.org/en/search/catalog/olib:2822393",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/fs-suffolk-probate-1636-1915.md",
+      "notes": "Case #338, Gurney, John, 1663 Adm., in Probate FILE PAPERS Box 003, Cases 250-399, DGS 102840311. Cover image 514; inventory image 516, 'Boston March 16th 1663 An Inventory of the goods & estate of John Gurney late deceased.'"
+    },
+    "findmypast-hertfordshire-baptisms": {
+      "shortTitle": "Findmypast Hertfordshire Baptisms",
+      "citation": "Hertfordshire Baptisms, parish-register baptism records, Hertfordshire Archives and Local Studies; served via Findmypast.",
+      "archive": "Findmypast / Hertfordshire Archives",
+      "url": "https://search.findmypast.co.uk/search-world-records/hertfordshire-baptisms",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/findmypast-hertfordshire-baptisms.md",
+      "notes": "Used 2026-05-09 to assemble the Candidate C Berkhamsted family group: Henry 1610, Sara 1615, Jhon 1624, Richard 1626, Elizabeth 1629, Michael 1631, Sarah 1634, Francis 1636, all with father John."
+    },
+    "findmypast-hertfordshire-burials": {
+      "shortTitle": "Findmypast Hertfordshire Burials",
+      "citation": "Hertfordshire Burials, parish-register burial records, Hertfordshire Archives and Local Studies; served via Findmypast.",
+      "archive": "Findmypast / Hertfordshire Archives",
+      "url": "https://search.findmypast.co.uk/search-world-records/hertfordshire-burials",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/findmypast-hertfordshire-burials.md",
+      "notes": "Used 2026-05-09 for a John Gurney Hertfordshire burials walk. Forty-eight results across the full 1538-present span; only two seventeenth-century Berkhamsted entries, Jhon Gourney 1612 and 1620, both predating Candidate C's documented children. Zero John Gurney burials at Berkhamsted 1640-1700."
+    },
+    "findmypast-uk-parish-baptisms": {
+      "shortTitle": "Findmypast UK Parish Baptisms",
+      "citation": "Findmypast UK Parish Baptisms aggregated dataset within Birth, Marriage, Death and Parish Records.",
+      "archive": "Findmypast",
+      "url": "https://search.findmypast.co.uk/search-united-kingdom-records-in-birth-marriage-death-and-parish-records/and_parish-baptisms",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/findmypast-uk-parish-baptisms.md",
+      "notes": "Used 2026-05-09 for Peter Gurney 1632-1642 Britain-wide search, including Peter G. 1641 Smallburgh, Norfolk, transcript R_880200102, and for the Norfolk Gurney plus father John 1623-1643 cluster, including Denton, Hempnall, Stanfield, Norwich, North Runcton, and Earsham households."
+    },
     "braintree-records-1640-1793-1886": {
       "shortTitle": "Braintree town records, 1640-1793",
       "citation": "Braintree (Mass.). Records of the Town of Braintree, 1640 to 1793. Edited by Samuel A. Bates. Randolph, Mass.: D. H. Huxford, printer, 1886.",
