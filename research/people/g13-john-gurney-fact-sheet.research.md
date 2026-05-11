@@ -55,12 +55,12 @@ The Find a Grave memorial 252975617 for John Gurney records two things worth kee
 
 Both major published compilations of New England emigrant origins examined so far leave Buckinghamshire weakly supported at best. Banks points Suffolk/Bury St. Edmunds, without a primary citation; Anderson lists origin as "Unknown."
 
-**Effect on candidate probabilities:**
-- **Candidate A** (Stewkley, Bucks): mild cumulative pressure against. Neither compiler saw a Bucks connection. Probability remains about **10–12%** pending better evidence.
-- **Candidate B** (son of Francis G14 + Margaret Rybett, Norfolk/Norwich): neutral-to-mildly supportive. Banks's East Anglian placement is geographically consistent. Probability remains about **55–60%**.
-- **Candidate C** (Berkhamsted, Herts): essentially unaffected; about **3–5%**.
+**Effect on candidate probabilities (superseded by later elimination work):**
+- **Candidate A** (Stewkley -> Bierton -> Aylesbury -> Northants): now about **1-2%**, effectively eliminated by continuous English residence evidence.
+- **Candidate B** (son of Francis G14 + Margaret Rybett, Norfolk/Norwich): remains about **55-60%**.
+- **Candidate C** (Berkhamsted, Herts): now about **0-1%**, effectively eliminated by the Berkhamsted family group, age mismatch, and naming mismatch.
 
-Neither source adds new primary evidence or, by itself, justifies a material probability-table revision.
+The compiler discussion remains useful as provenance, but later primary-index work now controls the probabilities.
 
 ### The Newgate apprenticeship / 1636 record — de-conflated
 
@@ -138,7 +138,7 @@ The 12 February 1661 Braintree conveyance printed by Samuel A. Bates identifies 
 
 The Mendon material shows recognized proprietary standing and later title survival. Ballou places John among the Braintree men accepted to allotments in 1662, while the Mendon proprietors' records list John Gurny and Grisel Gurney as separate twenty-acre lot holders. Grisel's copied will material ties her Mendon accommodation to Joseph Juell and the Juell/Kibbee/Burge network. Later references to John Gurny's house lot, meadow, and swamp lot preserve the land trail after title had passed to others. Because Mendon was not incorporated until 15 May 1667 and John died in 1662/3, John's name in the post-incorporation print stream is most plausibly an early grant carried into the proprietor list or a retrospective allottee record; preserve the chronology as a qualifier and pull the underlying manuscript proprietors' records before treating either reading as final.[^ballou-milford-1882][^mendon-proprietors-1899]
 
-John appears to have died with no land in the surviving estate framing. His estate was valued at **£55.14.6**, a modest sum consistent with a working tradesman.
+John's 1663 probate inventory did not appraise ordinary Braintree real estate as a stable landholding, but it did note a land interest "layd out in land at Quinapaug wch we know not." Treat this as an unclarified or unvalued frontier proprietary interest rather than as ordinary appraised Braintree land. The NEHGR abstract gives the inventory amount as **£55 14s 6d**.[^spr-case-338-john-gurney-probate][^nehgr-12-suffolk-wills]
 
 [^nash-weymouth-1885]: Gilbert Nash, *Historical Sketch of the Town of Weymouth, Massachusetts, from 1622 to 1884* (Weymouth, Mass.: Town of Weymouth, 1885), pp. 258, 270, 278, 281-282, 306, https://archive.org/details/historicalsketch00nash_0. Source ID: `nash-historical-sketch-weymouth-1885`.
 [^suffolk-deeds-liber-iv]: Thomas F. Temple, Register of Deeds, *Suffolk Deeds. Liber IV* (Boston: Rockwell and Churchill, City Printers, 1888), pp. 6, 89a-90, index p. 150; project extraction note at `research/case-files/John-gurney-research-to-be-assessed/deeds and misc/deeds318904_04_john_gurney_extracts.md`. Source ID: `suffolk-deeds-liber-iv-1888`.
@@ -162,7 +162,13 @@ The Gregory Baxter profile in Anderson's *Great Migration Begins* places John Gu
 
 The same Baxter profile says the inventory was taken 7 July 1659 by John Gurney, Moses Paine, and Edmund Quinsey. It totaled 417 pounds 19 shillings, including 315 pounds in real estate: dwelling house, barn, orchard, and 2 1/2 acres of pasture; twenty acres of marsh; twenty-four acres of upland; six acres of plowland; and eighty acres of woodland. The inventory was sworn by Margaret Baxter, Gregory Baxter's widow, and John Baxter, their son, citing Suffolk Probate Records 3:146. For John Gurney, the value is not land ownership but community standing: he was trusted as both probate witness and inventory taker in another household's estate.[^anderson-gmb-baxter]
 
-The Suffolk probate index for vol. 2, G to O, identifies the Gurney/Gurny probate-index entry for John Gurney/Gurny administration case no. 338 in the 1663 context. This confirms the case-number anchor used by Anderson and the case file, but the underlying probate file is still needed for the inventory, administration details, and any relationship statements.[^suffolk-probate-index-gurney]
+The Suffolk probate index for vol. 2, G to O, identifies the Gurney/Gurny probate-index entry for John Gurney/Gurny administration case no. 338 in the 1663 context. That case-number lead is now supported by a manuscript image of SPR Case #338 and the NEHGR vol. 12 "Suffolk Wills" abstract.[^suffolk-probate-index-gurney][^spr-case-338-john-gurney-probate][^nehgr-12-suffolk-wills]
+
+The underlying Suffolk probate material for John Gurney is no longer merely an index lead. A manuscript image of SPR Case #338 and the NEHGR vol. 12 "Suffolk Wills" abstract show a Braintree probate inventory dated 16 March 1663 for "John Gurney senr, deceased." The inventory was taken by Gregory Belcher, Edmund Quincy, and Thomas Faxon, and NEHGR abstracts the amount as £55 14s 6d. The manuscript page includes clothing, bedding, household metalware, a musket, agricultural tools, grain, livestock, cart or wheel equipment, and a land-interest line reading approximately "An estate layd out in land at Quinapaug wch we know not." That Quinapaug line is not visible in the brief NEHGR abstract, but it is a significant new land clue and should be correlated with the Mendon/Nipmug/Quinshipaug proprietary record stream in which John Gurny and Grisel Gurney later appear as twenty-acre lot holders.[^spr-case-338-john-gurney-probate][^nehgr-12-suffolk-wills][^mendon-proprietors-1899]
+
+The debt section is genealogically useful because it maps John's creditor and obligation network across Braintree, Weymouth, Boston, and the Mendon frontier land orbit. NEHGR names debts due from the estate to Peter Brackett, Joseph Adams, Francis Nucomb, John Dassit Senr, Goodman King of Waymouth, Goodman Baly, John Mills, John Cleverly, Smith, and Collins at Boston. The manuscript also appears to include a substantial allowance to the widow "for goods impaired out of her estate," a debt to Francis Eliot, charges at Boston and funeral, Mr Alcocke and the Church of Braintree, and a later or separate Wharton-related notation. Peter Brackett is especially important because he was one of the Braintree men associated with the purchase of the Mendon/Nipmug tract; Goodman King of Weymouth is a useful bridge to the Weymouth land question; and the Boston names and "charges at Boston" show Boston-facing probate or commercial obligations without, by themselves, identifying John of Braintree with the 1636 John Newgate apprentice.[^spr-case-338-john-gurney-probate][^nehgr-12-suffolk-wills][^mendon-proprietors-1899]
+
+The same NEHGR page contains a separate "Widow Wilson" entry stating that £4 was "in hands of John Gurney" and that the Wilson children were to receive a due proportion of that £4 "with other creditors to ye late John Gurney's estate." This creates another Braintree estate-accounting tie involving Francis Eliot and shows John's estate as debtor or holder of funds for another local estate.[^nehgr-12-suffolk-wills]
 
 Hazen's Billerica history gives a separate 1659 town-finance context. On the 10 September 1659 rate for the half payment of the Dudley Farm purchase, John Gurney appears with an assessment of 2-5-10. Hazen explains that the Dudley Farm price was 110 pounds and that the remaining balance of the 55-pound half payment was probably assessed on later town purchasers. This links John to the Billerica purchase-rate context, but it should not be inflated into proof of permanent Billerica residence without the underlying town and land records.[^hazen-billerica]
 
@@ -170,6 +176,8 @@ Hazen's Billerica history gives a separate 1659 town-finance context. On the 10 
 [^nehgr-62-94]: "Notes: Braintree, Mass., Items," *New England Historical and Genealogical Register*, vol. 62 (January 1908), p. 94, Suffolk Court Files item no. 188, https://archive.org/details/newenglandhisto19unkngoog/page/94/mode/2up. Source ID: `nehgr-62-94`.
 [^anderson-gmb-baxter]: Robert Charles Anderson, *The Great Migration Begins: Immigrants to New England, 1620-1633*, vol. 1 (Boston: New England Historic Genealogical Society, 2012), Gregory Baxter profile, p. 138; user-supplied book-image crop transcribed at `sources/corpus_supplement/anderson-great-migration-begins-v1-baxter-user-extract.md`. Source ID: `anderson-great-migration-begins-v1-baxter`.
 [^suffolk-probate-index-gurney]: Elijah George, register, *Index to the Probate Records of the County of Suffolk, Massachusetts, from the Year 1636 to and including the Year 1893*, vol. 2, G to O (Boston: Rockwell and Churchill, City Printers, 1895), Gurney/Gurny entries. Source ID: `suffolk-probate-index-v2-1895`.
+[^spr-case-338-john-gurney-probate]: Suffolk County, Massachusetts, Probate Records, Case #338, John Gurney Senr probate inventory, Braintree, 16 March 1663; manuscript image supplied by Allen Gurney, file `102840311_00516.jpg`; project extract and analysis at `sources/corpus_supplement/john-gurney-probate-inventory-spr-case-338.md`. Source ID: `spr-case-338-john-gurney-probate-1663`.
+[^nehgr-12-suffolk-wills]: "Suffolk Wills," *New England Historical and Genealogical Register*, vol. 12 (Boston: New England Historic Genealogical Society, 1858), p. 53, Widow Wilson and John Gurney entries; Google Books, https://books.google.com/books/about/The_New_England_Historical_Genealogical.html?id=fMMMAAAAYAAJ; project extract at `sources/corpus_supplement/john-gurney-probate-inventory-spr-case-338.md`. Source ID: `nehgr-12-suffolk-wills-1858`.
 [^hazen-billerica]: Henry A. Hazen, *History of Billerica, Massachusetts, with a Genealogical Register* (Boston: A. Williams and Co., 1883), historical p. 33 / image p. 54, Internet Archive, https://archive.org/details/historyofbilleri00hazen. Source ID: `hazen-billerica-1883`.
 
 ### Children — working notes
@@ -205,6 +213,18 @@ The NEHGR vol. 49 "Genealogical Gleanings in England" extract for John Lewis of 
 ---
 
 ## Origin Analysis and Elimination Work
+
+### Child-cluster anchor walk: Richard and Isaac (2026-05-11)
+
+The colonial John's distinctive children are Sarah, Mary, Richard, John Jr., Peter, and possibly Isaac. Per user direction Pass 9 favored cluster matching over negative-result elimination by anchoring on the two rarer male names (Richard and Isaac) and looking for any English John Gurney household carrying a son with that name in the right window.
+
+**Richard Gurney + father John Gurney, England 1620-1645** (FamilySearch Records, all collections, 388 results filtered to "Principal" baptized child): only one Richard Gurney baptism with father John appears in the English-indexed record set in this window: Richard Gurnie, 15 December 1626, St Peter Hertfordshire, Candidate C's Richard 1626 Berkhamsted, already eliminated in v24.
+
+**Isaac Gurney + father John Gurney, England 1620-1650** (FamilySearch Records, all collections, 287 results): zero "Principal" Isaac Gurney baptisms with father John in England in this window. The Bucks Isaacs (Cublington 1664; Radclive 1710 Isaac Gurney + Mary Kempe marriage; Great Brickhill 1748; Etwall 1745) are all post-window.
+
+The cluster-anchor negative confirms that no English John Gurney household contains Richard, John Jr., Peter, or Isaac in any combination outside the already identified candidates: Candidate A Aylesbury, Candidate C Berkhamsted, Eythorne Kent, Toddington Beds, Denton Norfolk, East Claydon Bucks, and Earsham Norfolk. Per user direction this is not treated as definitive elimination; it is consistent with the colonial John fathering his distinctive children entirely in Massachusetts after his June 1641 emigration.[^cluster-anchor-2026-05-11]
+
+[^cluster-anchor-2026-05-11]: FamilySearch Records cluster-anchor searches 2026-05-11; source ID `fs-england-births-christenings` and ancillary FS collections.
 
 ### TNA probate — context records
 
@@ -256,11 +276,26 @@ FamilySearch England, Births and Christenings, 1538-1975 returns four directly r
 - Jonathan Gurney, baptized 22 November 1647 (FS ID `JMBC-P2G`, attached tree `LBKR-M1H`)
 - Hannah Gurney, baptized 12 November 1653
 
-The 1639-1653 family group at Saint Mary Aylesbury is incompatible with the colonial John Gurney's continuous New England career (Weymouth fine June 1641; Wilson v. Faxon deposition 1653; Braintree death 1662/3). Candidate A is therefore the Aylesbury John, not the MA emigrant. Combined with the 1628 Bierton with Broughton marriage to Alice Oliffe, the repo-internal 1641 TNA E 115/180/113 cert of residence Aylesbury to Northants, and the 1650 Walgrave Northants tenancy, the Candidate A elimination is effectively complete. Only residual ambiguity is whether the Stewkley 1602/3 baptized John is the same individual; the Stewkley Dickson/Putnam 1897 register pull closes that gap.[^fs-aylesbury-2026-05-09]
+The 1639-1653 family group at Saint Mary Aylesbury is incompatible with the colonial John Gurney's continuous New England career (Weymouth fine June 1641; Wilson v. Faxon deposition 1653; Braintree death 1662/3). Candidate A is therefore the Aylesbury John, not the MA emigrant. Combined with the 1628 Bierton with Broughton marriage to Alice Oliffe, the repo-internal 1641 TNA E 115/180/113 cert of residence Aylesbury to Northants, and the 1650 Walgrave Northants tenancy, the Candidate A elimination is effectively complete. The Stewkley 1603 baptism is now confirmed at primary-index level through FamilySearch England Births and Christenings (FS ID `JMRS-DX6`); the Stewkley Dickson/Putnam 1897 register remains useful for siblings, parents, later appearances, and burial context rather than as the highest discriminating pull for Candidate A.[^fs-aylesbury-2026-05-09]
 
 A separate FS Records entry surfaces John Gurney + Anne Cowheard, married 25 Oct 1638, Saint Mary, Aylesbury (FS ID `N2TD-Z9Z`, attached tree `M37F-R5D`). Either this is a separately documented Aylesbury John, or Candidate A remarried at Aylesbury after Alice Oliffe died, with the 1639-1653 Aylesbury children documented under the second marriage. Mother field is unindexed on the FS Records children entries, so the marriage-to-children link cannot be proven from FS alone. Retain as a Candidate A wife-uncertainty note rather than a controlling fact.
 
-[^fs-aylesbury-2026-05-09]: FamilySearch, "England, Births and Christenings, 1538-1975," index entries at FS IDs `JWN5-W5B` (Daniell Gurney 1645) and `JMBC-P2G` (Jonathan Gurney 1647); Sarah Gurney 1639 and Hannah Gurney 1653 surfaced in the same Aylesbury-John-father search. Source ID: `fs-england-births-christenings`.
+A FamilySearch England, Births and Christenings filter for father John Gurney at Aylesbury surfaces an additional 16 December 1638 son John Gurney baptism not previously documented in the case file. The 1638 baptism either extends Candidate A's family group earlier by one year (placing a son John Jr. about 10 years after the 1628 Bierton marriage to Alice Oliffe and about 10 months before the indexed Sarah 1639) or identifies a second contemporaneous Aylesbury John Gurney father. Mother field is unindexed on the 1638 record, so the marriage-to-child link cannot be proven from FS alone. Either reading independently reinforces, rather than weakens, Candidate A's effective elimination.[^aylesbury-1638-john]
+
+[^fs-aylesbury-2026-05-09]: FamilySearch, "England, Births and Christenings, 1538-1975," index entries at FS IDs `JMRS-DX6` (Jhon Gurney 1603, Stewkley), `JWN5-W5B` (Daniell Gurney 1645), and `JMBC-P2G` (Jonathan Gurney 1647); Sarah Gurney 1639 and Hannah Gurney 1653 surfaced in the same Aylesbury-John-father search. Source ID: `fs-england-births-christenings`.
+[^aylesbury-1638-john]: FamilySearch, "England, Births and Christenings, 1538-1975," John Gurney son of John Gurney bapt. 16 December 1638 Aylesbury, Buckinghamshire. Source ID: `fs-england-births-christenings`.
+
+### FS Tree profile LT9Z-KQ1 (colonial John Gurney) - 2026-05-09 walk
+
+A FamilySearch Tree search for John Gurney born 1600-1610 in England with spouse Mary surfaced profile LT9Z-KQ1 ("John Gurney, 21 Feb 1603 - 16 Mar 1663, born Bury Saint Edmunds Suffolk, died Braintree Norfolk Massachusetts"). Treat the tree profile as research context only, not as a citable source record. The attached primary indexed record that matters for Candidate A is the FamilySearch England Births and Christenings entry for Jhon Gurney, son of Jhon Gurney, christened 21 February 1603 at Stewkley, Buckinghamshire (FS ID `JMRS-DX6`).[^fs-aylesbury-2026-05-09]
+
+The tree profile is internally inconsistent: it states a Bury St Edmunds, Suffolk birthplace, matching Banks's manuscript-based attribution, while attaching the Stewkley, Buckinghamshire baptism source that belongs to the Candidate A line. That conflation is the same problem this case file has been disentangling: the Stewkley baptism, the Banks Bury St Edmunds attribution, and the Massachusetts John cannot simply be merged.
+
+The remaining LT9Z-KQ1 attached sources are mostly already represented in this file or in the case file source system: Pope's *Pioneers of Massachusetts*, *History of Weymouth*, Massachusetts town/vital material, Find a Grave, and Banks's *Topographical Dictionary*. The Puritan Great Migration Project attachment does not add a new academic source chain and should not be carried as an open lead unless a primary source behind it surfaces.
+
+One attached item does create a parked Bucks lead: a Medmenham, Buckinghamshire parish-register item titled *The Parsons and Parish Registers of Medmenham, Buckinghamshire*, with user note "Richard gurney marriage." The FamilySearch image was restricted in this pass, but F. T. Wethered's 1898 printed register is retrievable on Internet Archive. Medmenham is in southeast Buckinghamshire, about 30 miles from Stewkley, and the "Richard gurney marriage" note could point to a son of Candidate A or to an unrelated Bucks Richard. Keep it as a parked source-pull lead, not as evidence yet.
+
+A second derivative-tree non-lead is the Ancestry user tree "Miner/Stemple/Flood/Hazeltine Family Tree," which attributes the maiden name "Richards" to the colonial John's wife Mary and gives son Richard a 1630 birth at "Weymouth, Norfolk, Massachusetts, USA." The tree has no primary-record citation for the Richards surname; treat alongside the LT9Z-KQ1 Puritan Great Migration Project entry as a non-lead unless a primary source for the Richards surname surfaces.
 
 ### Candidate C Berkhamsted family group (FMP Hertfordshire Baptisms, 2026-05-09)
 
@@ -286,6 +321,25 @@ A Findmypast UK Parish Baptisms search restricted to Norfolk for surname Gurney 
 None of these Norfolk John Gurney households match the colonial John's full distinctive children pattern (Sarah + Mary + Richard + John Jr. + Peter + possibly Isaac) by name and date. The density of Norfolk John Gurney households is nevertheless consistent with Candidate B's geographic plausibility: Norfolk was a Gurney heartland with multiple parish-level Johns in the same decade.[^fmp-norfolk-cluster-2026-05-09]
 
 [^fmp-norfolk-cluster-2026-05-09]: Findmypast UK Parish Baptisms search 2026-05-09; FamilySearch Mary Gurney Denton 1638 (FS ID `NNDF-V9K`); source IDs `findmypast-uk-parish-baptisms` and `fs-england-births-christenings`.
+
+### NRO (Ancestry collection 61045) Norfolk Gurney baptism walk (2026-05-11)
+
+Ancestry's "Norfolk, England, Church of England Baptism, Marriages, and Burials, 1535-1812" (in partnership with Norfolk Record Office) is the most authoritative Norfolk parish-register index in subscription coverage. A full walk for surname Gurney plus variants 1615-1645 returns 14 baptisms across ten Norfolk households, none with father indexed as John Gurney:
+
+- Frances Garny at Gillingham (Mary 1624)
+- Thomas + Susanna Gurney at Horstead (Henricus 1626)
+- Edward + Anne Gurney at Great Yarmouth (Christian 1629, Wm 1631)
+- George + Mary Gurney at Longham (William 1629)
+- Robert Gurney at Saham Toney (Gulielmies 1629)
+- Robert Gurney at Old Hunstanton St Mary's (Johannie 1629)
+- William + Anne Gurney at Cawston (William 1630)
+- William Gurney at Norwich St Lawrence (Richard 1630, Martha 1633/4, Margaret 1635; William buried 24 Jan 1640)
+- Thomas + Elizabeth Gurney at Great Yarmouth (Mary 1632)
+- William + Sarah Gurney at Saxlingham Thorpe and Nethergate (Gulielmus 1635)
+
+Plus the previously noted Earsham John + Elizabeth Singler household and the Denton John/Josiah + Rachell/Rachelle household, whose father identification is unresolved between NRO and FS/FMP. The Norfolk Gurney density remains consistent with Candidate B's geographic plausibility but does not individually surface a "John Gurney + matching colonial children" cluster.[^nro-norfolk-2026-05-11]
+
+[^nro-norfolk-2026-05-11]: Ancestry collection 61045, Norfolk, England, Church of England Baptism, Marriages, and Burials, 1535-1812 (in partnership with Norfolk Record Office), walked 2026-05-11. Source ID: `ancestry-norfolk-1535-1812`.
 
 ### Protestation Returns 1641–42
 
@@ -384,6 +438,9 @@ St Giles Cripplegate, City of London (LMA P69/GIS/A/002/MS06419/003) records a b
 | `findmypast-hertfordshire-baptisms` | Candidate C Berkhamsted family group | `sources/validations/findmypast-hertfordshire-baptisms.md` |
 | `findmypast-hertfordshire-burials` | Hertfordshire John Gurney burial negative/supporting check for Candidate C | `sources/validations/findmypast-hertfordshire-burials.md` |
 | `findmypast-uk-parish-baptisms` | Peter anomaly qualification and Norfolk father-John cluster | `sources/validations/findmypast-uk-parish-baptisms.md` |
+| `ancestry-norfolk-1535-1812` | NRO Norfolk Gurney baptism roster and Denton father-name conflict | `sources/validations/ancestry-norfolk-1535-1812.md` |
+| `spr-case-338-john-gurney-probate-1663` | John Gurney Senr probate inventory manuscript image | `sources/corpus_supplement/john-gurney-probate-inventory-spr-case-338.md` |
+| `nehgr-12-suffolk-wills-1858` | NEHGR vol. 12 p. 53 Widow Wilson and John Gurney probate abstract | `sources/corpus_supplement/john-gurney-probate-inventory-spr-case-338.md` |
 
 ---
 
@@ -430,7 +487,7 @@ St Giles Cripplegate, City of London (LMA P69/GIS/A/002/MS06419/003) records a b
 
 #### Tier 1B — strong supporting targets
 
-4. **Stewkley parish register (Dickson/Putnam 1897 print)** — Rev. R. Bruce Dickson, *The Parish Register of Stewkeley, Buckinghamshire, 1545-1653* (Salem, Mass.: Eben Putnam, 1897), covering baptisms 1545-1653, marriages 1599-1646, burials 1599-1653. Covers the entire Candidate A diagnostic window. Paywalled in this pass at Geneanet Premium (https://en.geneanet.org/library/doc/5574493/...) and at the Genealogy Store (https://www.thegenealogystore.co.uk/index.php?main_page=product_info&products_id=1204). Highest single discriminating pull for closing the Stewkley 1602/3 baptism question.
+4. **Stewkley parish register (Dickson/Putnam 1897 print)** — Rev. R. Bruce Dickson, *The Parish Register of Stewkeley, Buckinghamshire, 1545-1653* (Salem, Mass.: Eben Putnam, 1897), covering baptisms 1545-1653, marriages 1599-1646, burials 1599-1653. Covers the entire Candidate A diagnostic window. Paywalled in this pass at Geneanet Premium (https://en.geneanet.org/library/doc/5574493/...) and at the Genealogy Store (https://www.thegenealogystore.co.uk/index.php?main_page=product_info&products_id=1204). Now a useful Tier 2 context pull because the 1603 baptism itself is confirmed through FamilySearch England Births and Christenings (`JMRS-DX6`); use Dickson/Putnam to confirm siblings, parents, later appearances, and burials.
 5. **Margaret Rybett burial** in Norwich-area parishes c. 1616–1617.
 6. **Ryvett / Rivett pedigrees** — Suffolk RO, HD2418/88.
 7. **PCC or London Commissary will for Francis Gurnay** c. 1646–1650.

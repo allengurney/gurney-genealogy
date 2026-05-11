@@ -697,7 +697,7 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": "sources/validations/fs-england-births-christenings.md",
-      "notes": "Used 2026-05-09 to verify Candidate A's Aylesbury family group at Saint Mary Aylesbury: Sarah 1639, Daniell 1645 (JWN5-W5B), Jonathan 1647 (JMBC-P2G), Hannah 1653, all children of John Gurney; also reused for the Ackworth negative search and Denton Mary Gurney 1638 record."
+      "notes": "Used 2026-05-09 to verify Candidate A's Stewkley 1603 baptism (JMRS-DX6) and Aylesbury family group at Saint Mary Aylesbury: John 1638, Sarah 1639, Daniell 1645 (JWN5-W5B), Jonathan 1647 (JMBC-P2G), Hannah 1653, all children of John Gurney; also reused for the Ackworth negative search, Denton Mary Gurney 1638 record, and 2026-05-11 cluster-anchor searches."
     },
     "fs-suffolk-probate-1636-1915": {
       "shortTitle": "FamilySearch Suffolk County probate records",
@@ -709,6 +709,36 @@
       "mediaPath": null,
       "validationPath": "sources/validations/fs-suffolk-probate-1636-1915.md",
       "notes": "Case #338, Gurney, John, 1663 Adm., in Probate FILE PAPERS Box 003, Cases 250-399, DGS 102840311. Cover image 514; inventory image 516, 'Boston March 16th 1663 An Inventory of the goods & estate of John Gurney late deceased.'"
+    },
+    "ancestry-norfolk-1535-1812": {
+      "shortTitle": "Ancestry / NRO, Norfolk Church of England Baptism, Marriages and Burials, 1535-1812",
+      "fullTitle": "Norfolk, England, Church of England Baptism, Marriages, and Burials, 1535-1812 (digital images and index from the Norfolk Record Office, published by Ancestry)",
+      "publisher": "Ancestry.com / Norfolk Record Office",
+      "type": "parish register index and images (subscription)",
+      "url": "https://www.ancestry.com/search/collections/61045/",
+      "notes": "Used 2026-05-11 for the Norfolk Gurney baptism roster 1615-1645 (14 baptisms across ten households) and to image-verify the Denton 12 Aug 1638 Mary Gurney baptism. NRO indexer reads the Denton 1638 father as Josiah Gurney, disagreeing with FS England B&C and Findmypast UK Parish Baptisms which read the same register entry as father John Gurney."
+    },
+    "spr-case-338-john-gurney-probate-1663": {
+      "shortTitle": "SPR Case #338 - John Gurney probate inventory",
+      "citation": "Suffolk County, Massachusetts, Probate Records, Case #338, John Gurney Senr probate inventory, Braintree, 16 March 1663; manuscript image supplied by Allen Gurney, file 102840311_00516.jpg.",
+      "archive": "Suffolk County probate records / user-supplied manuscript image",
+      "url": null,
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/john-gurney-probate-inventory-spr-case-338.md",
+      "mediaPath": "sources/media/John Gurney Probate/102840311_00516.jpg",
+      "validationPath": null,
+      "notes": "Primary probate image for John Gurney Senr of Braintree. Includes detailed inventory, debt list, appraisers Gregory Belcher, Edmund Quincy/Quinsey, and Thomas Faxon, a land-interest line at Quinapaug, and bottom legal notation. NEHGR vol. 12 p. 53 provides a supporting abstract but omits some inventory details."
+    },
+    "nehgr-12-suffolk-wills-1858": {
+      "shortTitle": "NEHGR 12 - Suffolk Wills - John Gurney probate abstract",
+      "citation": "New England Historic Genealogical Society. \"Suffolk Wills.\" The New England Historical and Genealogical Register, vol. 12 (Boston: New England Historic Genealogical Society, 1858), p. 53.",
+      "archive": "Google Books / public-domain volume",
+      "url": "https://books.google.com/books/about/The_New_England_Historical_Genealogical.html?id=fMMMAAAAYAAJ",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/john-gurney-probate-inventory-spr-case-338.md",
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Printed abstract of the Widow Wilson and John Gurney entries on p. 53 completed in 1858. Confirms John Gurney probate abstract: Braintree, 16 Mar. 1663; appraisers Gregory Belcher, Edmund Quincy, Thomas Faxon; inventory amount £55 14s 6d; debt names including Peter Brackett, Joseph Adams, Francis Nucomb, John Dassit Senr, Goodman King of Waymouth, Goodman Baly, John Mills, John Cleverly, Smith, Collins at Boston; bottom notation naming Mr Sam Broadstreet and Mr Richard Wharton as deponents. Also includes Widow Wilson entry reporting £4 in the hands of John Gurney."
     },
     "findmypast-hertfordshire-baptisms": {
       "shortTitle": "Findmypast Hertfordshire Baptisms",
