@@ -575,3 +575,9 @@ Per user feedback, the v30 Toddington elimination reason ("Married Toddington 12
   - Records the FS Tree avoidance guideline in the working memo (above) and does not introduce FS Tree material into v31's case-file edits.
   - Records the East Dereham and Frant Gurney findings in the working memo without case-file edits, pending further work.
 - **Probability table after v31:** Cand B ~55-60 percent (PROBABLE); all other named candidates ELIMINATED; Ackworth Yorkshire still "Unlikely" pending re-identification of the original Mary Barton source; Unknown other origin approximately 40-45 percent.
+
+## Application status (2026-05-11)
+
+- **v29 (section 8 cleanup):** Applied 2026-05-11. Full §8 replacement in `research/case-files/john-gurney-case-file-v4.md`; endnote bodies n83, n88, and n89 tightened; G13 Norfolk-without-John section reframed.
+- **v30 (Pass 11 incremental):** Applied 2026-05-11. §8 table rows for Toddington (strengthened), Hempnall (upgraded to ELIMINATED), Hitcham (added), Norwich Saint Peter Mancroft (added); §8.3 Hitcham bullet; §10.6 Bury St Edmunds qualifier; n88 footnote extended; G13 additions for Saint Peter le Poer / Saint Benet Fink Francis household, Aylesbury Luke household, Toddington burial.
+- **v31 (probability and language):** Applied 2026-05-11. Cand A and Cand C reclassified ELIMINATED in §8 table, §8.1 closing language, and §11 Probability Assessment table; Toddington row rewritten to lead with September 1641 burial; G13 Working Hypotheses updated; Unknown other origin residual moved to ~40-45 percent.
