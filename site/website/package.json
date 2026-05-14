@@ -7,12 +7,12 @@
     "sync:content": "node scripts/sync-site-content.js",
     "data:generate": "node scripts/generate-site-data.js",
     "clean": "node scripts/clean-site.js",
-    "build": "npm run sync:content && npm run data:generate && npm run clean && eleventy",
+    "build": "npm run sync:content && npm run data:generate && npm run clean && eleventy && node scripts/finalize-public-site.js",
     "watch": "npm run sync:content && npm run data:generate && npm run clean && eleventy --watch",
     "serve": "npm run sync:content && npm run data:generate && npm run clean && eleventy --serve",
     "validate:site": "node scripts/validate-site.js",
-    "validate": "npm run sync:content && npm run data:generate && npm run validate:site",
-    "package": "npm run validate && npm run clean && eleventy && node scripts/package-site.js"
+    "validate": "npm run build && npm run validate:site",
+    "package": "npm run validate && node scripts/package-site.js"
   },
   "keywords": [],
   "author": "Allen Lawrence Gurney",

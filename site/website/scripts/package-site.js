@@ -9,6 +9,9 @@ const stamp = new Date().toISOString().slice(0, 10);
 const zipPath = path.join(distDir, `gurney-genealogy-site-${stamp}.zip`);
 const requiredEntries = [
   "index.html",
+  "_redirects",
+  "sitemap.xml",
+  "llms.txt",
   "assets/site.css",
   "assets/explorer.css",
   "assets/refactor.css",

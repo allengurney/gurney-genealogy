@@ -61,7 +61,7 @@ function syncFactSheets() {
   removeMarkdownFiles(factSheetTarget);
 
   const copied = fs.readdirSync(factSheetSource, { withFileTypes: true })
-    .filter(entry => entry.isFile() && entry.name.endsWith(".md") && entry.name.toLowerCase() !== "readme.md")
+    .filter(entry => entry.isFile() && entry.name.endsWith(".md") && !["readme.md", "featured-ancestors.md"].includes(entry.name.toLowerCase()))
     .sort((a, b) => a.name.localeCompare(b.name))
     .map(entry => {
       fs.copyFileSync(path.join(factSheetSource, entry.name), path.join(factSheetTarget, entry.name));
