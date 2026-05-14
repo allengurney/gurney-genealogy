@@ -1,5 +1,7 @@
 # Robert Gurney will — full working transcription
 
+Citation: Robert Gurney, citizen and draper of London, will written 18 January 1621/2 and proved 23 September 1625, Archdeaconry Court of London; working transcription from user-supplied image 31787_A002570-00422.jpg. Source ID: acl-robert-gurney-will-1625.
+
 ## Source
 
 - **Record:** Robert Gurney, citizen and draper of London, will

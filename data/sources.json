@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.5.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-05-09",
+    "lastUpdated": "2026-05-14",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
@@ -739,6 +739,127 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "Printed abstract of the Widow Wilson and John Gurney entries on p. 53 completed in 1858. Confirms John Gurney probate abstract: Braintree, 16 Mar. 1663; appraisers Gregory Belcher, Edmund Quincy, Thomas Faxon; inventory amount £55 14s 6d; debt names including Peter Brackett, Joseph Adams, Francis Nucomb, John Dassit Senr, Goodman King of Waymouth, Goodman Baly, John Mills, John Cleverly, Smith, Collins at Boston; bottom notation naming Mr Sam Broadstreet and Mr Richard Wharton as deponents. Also includes Widow Wilson entry reporting £4 in the hands of John Gurney."
+    },
+    "findmypast-boyds-inhabitants-london-candidate-d-gurney-cards": {
+      "shortTitle": "Findmypast Boyd's Inhabitants - Candidate D Gurney cards",
+      "citation": "Boyd's Inhabitants of London & Family Units 1200-1946, selected Gurney/Garney/Gourney cards for John Gourney/Gurny, William Shipman with Mary Garney/Gurney, John Gurny/Gurney, and Robert Gurny/Gurney. Images GBOR/BIL/SOG25/0595, GBOR/BIL/SOG26/0392, GBOR/BIL/SOG36/0477, GBOR/BIL/SOG59/0240, and GBOR/BIL/SOG82/0603. Accessed via Findmypast from user-supplied image captures.",
+      "archive": "Findmypast; Society of Genealogists Boyd's Inhabitants of London images supplied in intake packet",
+      "url": "https://www.findmypast.com/",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/boyds-inhabitants-london-candidate-d-gurney-cards.md",
+      "mediaPath": "sources/media/findmypast-boyds-inhabitants-london-candidate-d-gurney-cards",
+      "validationPath": "sources/validations/findmypast-boyds-inhabitants-london-candidate-d-gurney-cards.md",
+      "notes": "Candidate D source foundation. Preserves five Boyd's card transcriptions from working packet sections 1-5, including the key Robert Gurny / John Gurny St Augustine / Anne Morris cross-reference and other London Gurney comparator cards. Use as card-transcription evidence; deeper identity analysis remains in the Candidate D working packet and later case-file updates."
+    },
+    "rollco-drapers-gurney-old-change-cluster": {
+      "shortTitle": "ROLLCO Drapers - Robert and John Gurney Old Change cluster",
+      "citation": "Records of London's Livery Companies Online (ROLLCO), Drapers' Company records for the Robert and John Gurney Old Change cluster: Robert Gurney as apprenticeship master, 1617; John Gurney freedom by redemption, 11 February 1623/4, father Robert Gurney; Robert Gurney as freedom-event master, 1629; John Gurney as apprenticeship master, 1630. Search results and record details supplied in the Candidate D working packet.",
+      "archive": "Records of London's Livery Companies Online (ROLLCO), public database at londonroll.org",
+      "url": "https://www.londonroll.org/",
+      "corpusStatus": "partial",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/rollco-drapers-gurney-old-change-cluster.md",
+      "notes": "Drapers' Company source spine for Candidate D. The 1623/4 freedom entry identifies John Gurney as new freeman by redemption and names father Robert Gurney. The 1617 result places Robert Gurney, tailor, Old Change, as a Drapers' apprenticeship master. Full ROLLCO exports or underlying Drapers/Boyd's Roll entries remain high-value follow-up."
+    },
+    "acl-robert-gurney-will-1625": {
+      "shortTitle": "Archdeaconry Court of London - Robert Gurney will (1625)",
+      "citation": "Robert Gurney, citizen and draper of London, will written 18 January 1621/2 and proved 23 September 1625, Archdeaconry Court of London; parish indexed as London. User-supplied Ancestry metadata: Name: Robert Gurney; Probate Date: 23 Sep 1625; Parish: London. Working transcription from supplied image 31787_A002570-00422.jpg.",
+      "archive": "Ancestry, London, England, Wills and Probate, 1507-1858; Archdeaconry Court of London probate image supplied in intake",
+      "url": null,
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/robert-gurney-1625-will-full-working-transcription.md",
+      "mediaPath": "sources/media/acl-robert-gurney-will-1625",
+      "validationPath": "sources/validations/acl-robert-gurney-will-1625.md",
+      "notes": "Key Candidate D primary source. Names Robert Gurney, citizen and draper of London; wife Anne; son John; Old Change dwelling/business premises; John as sole executor; and probate by John as son and executor. Working transcription is not a final diplomatic edition; shop/cellar/hall wording and some witness/probate formulae require high-resolution recheck."
+    },
+    "candidate-d-london-context-web-bundle": {
+      "shortTitle": "Candidate D London context web bundle",
+      "citation": "Public web-source bundle used in Candidate D working packet sections 9-10: Massachusetts Secretary of the Commonwealth, 'The Great Migration'; Britannica, 'Massachusetts Bay Colony'; London Online, 'Old Change'; London Museum, 'St Augustine's church from Old Change, Cheapside'; City of London, 'St Augustine Watling Street'; AIM25/The National Archives catalogue entries for St Augustine Watling Street (P69/AUG) and St Magnus the Martyr (P69/MAG); FamilySearch catalog entries for St Vedast Foster Lane and St Michael le Querne; The London Archives parish-register and pre-1858 wills guides.",
+      "archive": "Public web pages cited in the Candidate D working packet",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/candidate-d-london-context-web-bundle.md",
+      "notes": "Bundled context source for religious-background and Old Change/parish-record strategy. Use for locator/context claims only. Do not treat this bundle as primary evidence for Robert or John Gurney events; cite the will, ROLLCO, Boyd's cards, and parish-register sources for person facts."
+    },
+    "harleian-st-vedast-st-michael-le-quern-registers": {
+      "shortTitle": "Harleian Society - St Vedast and St Michael le Quern registers",
+      "citation": "Littledale, Willoughby A., ed. The Registers of St. Vedast, Foster Lane, and of St. Michael le Quern, London. Harleian Society Registers, vols. 29-30. London: Harleian Society, 1902-1903. User-supplied PDFs FL3830041_284895_29.pdf and FL3830150_284895_30.pdf searched in Candidate D packet.",
+      "archive": "FamilySearch catalog 284895 / user-supplied PDF copies",
+      "url": "https://www.familysearch.org/search/catalog/284895",
+      "corpusStatus": "partial",
+      "corpusPath": null,
+      "mediaPath": "sources/media/harleian-st-vedast-st-michael-le-quern-registers",
+      "validationPath": "sources/validations/harleian-st-vedast-st-michael-le-quern-registers.md",
+      "notes": "Candidate D collateral source. Packet search found no direct Robert/John Gurney, Anne Morris, Dunnell, or Henscott bridge, but it clarified poor pre-1666 St Michael le Quern register survival and preserved St Vedast same-neighborhood Gurney/Gourney comparator entries."
+    },
+    "lma-st-augustine-watling-register-candidate-d-images": {
+      "shortTitle": "LMA St Augustine Watling Street register - Candidate D images",
+      "citation": "Parish register, St Augustine Watling Street, City of London. London Metropolitan Archives, parish collection P69/AUG; selected user-supplied Ancestry images reviewed in the Candidate D packet, including 31281_a101009-00022.jpg through 31281_a101009-00030.jpg and burial images 31281_a101009-00121.jpg through 31281_a101009-00130.jpg.",
+      "archive": "London Metropolitan Archives parish registers via Ancestry, London, England, Church of England Baptisms, Marriages and Burials, 1538-1812; user-supplied images",
+      "url": null,
+      "corpusStatus": "partial",
+      "corpusPath": null,
+      "mediaPath": "sources/media/lma-st-augustine-watling-register-candidate-d-images",
+      "validationPath": "sources/validations/lma-st-augustine-watling-register-candidate-d-images.md",
+      "notes": "Core Candidate D parish-register source. Packet sections 14-17 confirm early Robert Gurny/Gorney child events at St Augustine, record a negative post-1601 replacement-John christening search through 1610, and record a negative 1601-1612 first-wife burial search in supplied images."
+    },
+    "lma-st-magnus-martyr-register-candidate-d-images": {
+      "shortTitle": "LMA St Magnus the Martyr register - Candidate D images",
+      "citation": "Parish register, St Magnus the Martyr, City of London. London Metropolitan Archives, parish collection P69/MAG; user-supplied Ancestry images reviewed in the Candidate D packet, including 31281_a101911-00014.jpg and 31281_a101911-00131.jpg.",
+      "archive": "London Metropolitan Archives parish registers via Ancestry, London, England, Church of England Baptisms, Marriages and Burials, 1538-1812; user-supplied images",
+      "url": null,
+      "corpusStatus": "partial",
+      "corpusPath": null,
+      "mediaPath": "sources/media/lma-st-magnus-martyr-register-candidate-d-images",
+      "validationPath": "sources/validations/lma-st-magnus-martyr-register-candidate-d-images.md",
+      "notes": "Candidate D source for the image-confirmed 4 April 1611 marriage of Robert Gourney of St Augustine in Watling Street and Anne Morris of St Michael in the Querne, by licence. Also preserves the likely false-positive/exclusionary John Grone burial at St Magnus, 5 July 1625."
+    },
+    "lma-st-swithin-london-stone-register-john-grine-1640": {
+      "shortTitle": "LMA St Swithin London Stone - John Grine marriage (1640/1)",
+      "citation": "Parish register, St Swithin, London Stone, City of London. London Metropolitan Archives, P69/SWI/A/001/MS04311. Ancestry.com, London, England, Church of England Baptisms, Marriages and Burials, 1538-1812, index reference 24930171 / additional reference 1888376; user-supplied image 31281_a102288-00110.jpg reviewed in the Candidate D packet.",
+      "archive": "London Metropolitan Archives parish registers via Ancestry; user-supplied image",
+      "url": null,
+      "corpusStatus": "partial",
+      "corpusPath": null,
+      "mediaPath": "sources/media/lma-st-swithin-london-stone-register-john-grine-1640",
+      "validationPath": "sources/validations/lma-st-swithin-london-stone-register-john-grine-1640.md",
+      "notes": "Broad-area comparator and possible false-positive source. Packet image review reads John Grine and Mary of the same parish, married 24 January 1640/1. Wife Mary and City geography are interesting, but the image does not strongly support Gurney and no Robert/Drapers/Old Change bridge is present."
+    },
+    "lma-st-giles-cripplegate-register-john-grone-1630": {
+      "shortTitle": "LMA St Giles Cripplegate - John Grone baptism (1630)",
+      "citation": "Parish register, St Giles Cripplegate, City of London. London Metropolitan Archives parish registers via Ancestry.com, London, England, Church of England Baptisms, Marriages and Burials, 1538-1812; user-supplied index reference 23300657 / additional reference 1813505 and image 31281_a101526-00185.jpg reviewed in the Candidate D packet.",
+      "archive": "London Metropolitan Archives parish registers via Ancestry; user-supplied image",
+      "url": null,
+      "corpusStatus": "partial",
+      "corpusPath": null,
+      "mediaPath": "sources/media/lma-st-giles-cripplegate-register-john-grone-1630",
+      "validationPath": "sources/validations/lma-st-giles-cripplegate-register-john-grone-1630.md",
+      "notes": "Broad-area comparator source. Indexed as John Grone, son of John Grone, baptized 4 August 1630 at St Giles Cripplegate. Packet notes the supplied image is not clear enough for confident surname correction and should not be treated as Candidate D without better image review."
+    },
+    "lma-st-mary-magdalen-old-fish-street-john-grene-1634": {
+      "shortTitle": "LMA St Mary Magdalen Old Fish Street - John Grene baptism (1634)",
+      "citation": "Parish register, St Mary Magdalen, Old Fish Street, City of London. London Metropolitan Archives parish registers via Ancestry.com, London, England, Church of England Baptisms, Marriages and Burials, 1538-1812; user-supplied index reference 24296258 / additional reference 1860129 and image 31281_a101952-00044.jpg reviewed in the Candidate D packet.",
+      "archive": "London Metropolitan Archives parish registers via Ancestry; user-supplied image",
+      "url": null,
+      "corpusStatus": "partial",
+      "corpusPath": null,
+      "mediaPath": "sources/media/lma-st-mary-magdalen-old-fish-street-john-grene-1634",
+      "validationPath": "sources/validations/lma-st-mary-magdalen-old-fish-street-john-grene-1634.md",
+      "notes": "Same-neighborhood comparator source. Image supports John Grene, son of Jeames/James Grene, baptized 16 November 1634. The parish is highly relevant to Old Change geography, but this record is not Candidate D without further evidence."
+    },
+    "candidate-d-london-grine-grene-index-leads-bundle": {
+      "shortTitle": "Candidate D London Grine/Grene index-lead bundle",
+      "citation": "Index-only comparator leads recorded in Candidate D packet sections 19.1, 22.2, and 23: Jhon Grine baptized 6 March 1603/4 at St Mary-at-Hill, FHL film 374485; John Grene, son of Robart Grene, baptized 31 August 1600 at All Hallows Bread Street, FHL film 94511; John Grene, son of Rich Grene, baptized 1 January 1610/11 at St Mary Whitechapel / Stepney, FHL film 94691. Index records supplied by user; original images not available in this pass.",
+      "archive": "User-supplied index records from Ancestry/FamilySearch-derived collections",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/candidate-d-london-grine-grene-index-leads-bundle.md",
+      "notes": "Bundled index-only false-positive/comparator leads. Use only as leads until original images are retrieved. The All Hallows Bread Street 1600 Robart Grene item is geographically and chronologically the most interesting of the three; the Whitechapel item is low value for Candidate D."
     },
     "findmypast-hertfordshire-baptisms": {
       "shortTitle": "Findmypast Hertfordshire Baptisms",
