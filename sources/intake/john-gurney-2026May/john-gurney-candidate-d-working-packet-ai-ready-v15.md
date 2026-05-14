@@ -14,7 +14,7 @@ phase_1_patchsets_to_apply_first:
 
 ## How to use this packet
 
-Read this packet first for the source map, triage framing, priority research plan, and unresolved issues. Use the original v13 packet for full transcriptions and detailed section text. The user intends to apply v32 and v33 before the deeper research pass, so the next researcher should assume source handles are in place once that application is complete and should not spend the main research turn re-solving repo logistics.
+Read this packet first for the source map, triage framing, priority research plan, and unresolved issues. Use the original v13 packet for full transcriptions and detailed section text. Patchsets v32 and v33 have been applied before this deeper research pass, so you should assume source handles are in place and should not spend the main research turn re-solving repo logistics.
 
 The central research question is whether Candidate D can be supported or eliminated as John Gurney of Braintree:
 
@@ -28,8 +28,6 @@ with John made free of the Drapers' Company by redemption on 11 Feb. 1623/4.
 Keep the analysis objective. Do not start with a probability matrix or a forced pro/con scoring table. Build findings from source results, preserve tension, and separate direct Candidate D evidence from broad same-name/comparator density.
 
 ## Repo source map
-
-The source IDs below are proposed by v32/v33 and should be treated as intended repo handles unless Phase 2 discovers an existing duplicate.
 
 | Packet section | Evidence block | Intended source ID |
 |---:|---|---|
