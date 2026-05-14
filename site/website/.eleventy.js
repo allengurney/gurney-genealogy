@@ -42,8 +42,6 @@ module.exports = function (eleventyConfig) {
     "site.webmanifest",
   ].forEach(file => eleventyConfig.addPassthroughCopy(file));
   eleventyConfig.addPassthroughCopy("robots.txt");
-  eleventyConfig.addPassthroughCopy("sitemap.xml");
-  eleventyConfig.addPassthroughCopy("llms.txt");
 
   // Published fact sheets should not expose source-only Research Appendix sections.
   // Authors may retain a Markdown section headed "Research Appendix" in the source file;

@@ -138,9 +138,8 @@ const requiredFiles = [
   "scripts/clean-site.js",
   "scripts/sync-site-content.js",
   "scripts/generate-site-data.js",
+  "scripts/finalize-public-site.js",
   "robots.txt",
-  "sitemap.xml",
-  "llms.txt",
 ];
 requiredFiles.forEach(file => {
   if (!exists(path.join(projectRoot, file))) errors.push(`required site file missing: ${file}`);

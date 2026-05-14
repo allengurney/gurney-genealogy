@@ -156,6 +156,7 @@ sources/FS/Histoire_de_Lorraine_*.pdf
 
 # Local package cache used when npm is unavailable in the sandbox.
 site/website/.pkg-cache/
+site/website/.npm-cache/
 
 # Historical exported site bundles kept for local reference only.
 site/gurney-eleventy-project_source_clean_*.zip
