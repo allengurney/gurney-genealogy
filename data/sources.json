@@ -753,14 +753,80 @@
     },
     "rollco-drapers-gurney-old-change-cluster": {
       "shortTitle": "ROLLCO Drapers - Robert and John Gurney Old Change cluster",
-      "citation": "Records of London's Livery Companies Online (ROLLCO), Drapers' Company records for the Robert and John Gurney Old Change cluster: Robert Gurney as apprenticeship master, 1617; John Gurney freedom by redemption, 11 February 1623/4, father Robert Gurney; Robert Gurney as freedom-event master, 1629; John Gurney as apprenticeship master, 1630. Search results and record details supplied in the Candidate D working packet.",
-      "archive": "Records of London's Livery Companies Online (ROLLCO), public database at londonroll.org",
+      "citation": "Records of London's Livery Companies Online (ROLLCO), Drapers' Company event records for Robert Gourney/Gurney (1581-1629) and John Gurney (1623/4-1630), captured by surname Gurney and surname Gourney variant sweeps 1580-1665.",
+      "archive": "ROLLCO; underlying data from P. Boyd, Roll of the Drapers' Company of London (1934)",
       "url": "https://www.londonroll.org/",
+      "corpusStatus": "full",
+      "corpusPath": "sources/corpus_supplement/rollco-drapers-gurney-old-change-cluster.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/rollco-drapers-gurney-old-change-cluster.md",
+      "notes": "Full ROLLCO Drapers' Gurney event corpus 1581-1654. Earliest Robert event is freedom by servitude 16 Dec 1581 (DREW4826) under master Robert Furnes, with Robert already styled 'Tailor, Old Change' at admission. Robert is recorded as Drapers' apprenticeship or freedom master in roughly 14 events between 1597 and 1622, with explicit 'tailor, Old Change' identifications in 1604, 1617, and 1622. John Gurney's 1623/4 freedom by redemption (DREW5638) names Robert Gurney as father in the same event row. The 1629 Marten Backhurst freedom-by-servitude event (DREB1311) names Robert as master without a deceased flag; given Robert's confirmed 1625 death this is a posthumous master-name record, not a second living Robert. John Gurney's 1630 apprenticeship-master event (DRLL2060) bound Henry Smith, son of late Thomas Smith yeoman of Kilton, Suffolk, for 7 years on 3 November 1630."
+    },
+    "rollco-stationers-hunscott-cluster": {
+      "shortTitle": "ROLLCO Stationers - Joseph Hunscott cluster",
+      "citation": "Records of London's Livery Companies Online (ROLLCO), Stationers' Company event records for Joseph Hunscott (1612-1646) and John Hunscott (1641), captured by surname Hunscott sweep 1600-1660.",
+      "archive": "ROLLCO; underlying data from Stationers' Company records",
+      "url": "https://www.londonroll.org/search?company=STN&surname=Hunscott",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/rollco-stationers-hunscott-cluster.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/rollco-stationers-hunscott-cluster.md",
+      "notes": "Joseph Hunscott appears as Stationers' apprenticeship master in events dated 1612, 1614, 1619, 1626, 1632 (turnover master), 1635, 1636, 1638 (×2), 1642, and 1646 (×2). His son John Hunscott was admitted Stationer by servitude in 1641 with Joseph as 'father of freeman'. The variant spellings Henscott (Robert Gurney's 1625 will), Huntscott (BHO 1638 St Augustine return), and Hunscott (ROLLCO and Wing H3728 1646 petition) are the same person."
+    },
+    "rollco-stationers-gurney-1613-1626": {
+      "shortTitle": "ROLLCO Stationers - John Gurney 1613 binding and Robert Gurney 1616-1626 apprenticeship sequence",
+      "citation": "Records of London's Livery Companies Online (ROLLCO), Stationers' Company event records: John Gurney, new apprentice to master James Boler, 25 March 1613 (STMM8981); Robert Gurney, new apprentice to master William Wrench, 2 September 1616 (STMM10464); Robert Gurney, new freeman by servitude, 15 June 1626 (STMM24305).",
+      "archive": "ROLLCO; underlying data from Stationers' Company records",
+      "url": "https://www.londonroll.org/search?company=STN&surname=Gurney",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/rollco-stationers-gurney-1613-1626.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/rollco-stationers-gurney-1613-1626.md",
+      "notes": "Two Stationers' Gurney threads relevant to Candidate D. (1) The 1613 John Gurney apprentice to James Boler has no recorded Stationers' freedom; he is a candidate for being the future Candidate D John, whose 1623/4 Drapers' freedom-by-redemption pathway would be explained by an earlier non-Drapers apprenticeship. (2) The 1616 Robert Gurney apprentice and 1626 Robert Gurney new freeman by servitude form one consistent ten-year apprenticeship under William Wrench; this Robert is a separate man from Robert of Old Change (d. 1625), resolving the so-called 'second Robert' puzzle."
+    },
+    "tna-e179-1661-london-poll-tax-deferred": {
+      "shortTitle": "TNA E179 - 1661 Free and Voluntary Present, City of London (deferred image-pull target)",
+      "citation": "England, Free and Voluntary Present, 1661 (13 Car. II), City of London ward/parish assessments. The National Archives, Kew, E179 series, especially E179/253 sequence for the City.",
+      "archive": "The National Archives, Kew",
+      "url": "https://www.nationalarchives.gov.uk/e179/",
+      "corpusStatus": "deferred",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/tna-e179-1661-london-poll-tax-deferred.md",
+      "notes": "Boyd's Inhabitants card for John Gurny of S Augustine carries a free-note '1661 poll tax... Old Change', which points to the 1660-1661 Free and Voluntary Present collection rather than the 1641 Poll Tax. If a Gurney entry can be confirmed at Old Change in 1661, Candidate D is effectively eliminated as the colonial John of Braintree, who died in Boston about March 1662/3. Online image access not currently established."
+    },
+    "bho-1640-principal-inhabitants-london-deferred": {
+      "shortTitle": "Harvey - List of the Principal Inhabitants of the City of London, 1640 (deferred)",
+      "citation": "Harvey, W. J., editor. List of the Principal Inhabitants of the City of London, 1640, from Returns Made by the Aldermen of the Several Wards. London: 1886; reprinted British Library Historical Print Editions, 2011. Original manuscript Lambeth Palace Library MS. 272.",
+      "archive": "Lambeth Palace Library MS. 272; printed reprint widely available",
+      "url": null,
+      "corpusStatus": "deferred",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/bho-1640-principal-inhabitants-london-deferred.md",
+      "notes": "1640 alderman-return inhabitants list covering 93 of 107 City parishes. A Gurney entry at St Augustine in 1640 would be a clean midpoint between the 1638 Dale return and the 1661 poll tax cue, strengthening the case for continued London residence. Full text not yet retrieved online; copy held at British Library, Bodleian, and major research libraries."
+    },
+    "arber-stationers-registers-1554-1640-deferred": {
+      "shortTitle": "Arber - Transcript of the Registers of the Stationers' Company 1554-1640 (deferred)",
+      "citation": "Arber, Edward, editor. A Transcript of the Registers of the Company of Stationers of London, 1554-1640. 5 vols. London: privately printed, 1875-1894.",
+      "archive": "Various; full-text scans intermittently available on Internet Archive and HathiTrust",
+      "url": "https://archive.org/details/transcriptofregi01statuoft",
+      "corpusStatus": "deferred",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/arber-stationers-registers-1554-1640-deferred.md",
+      "notes": "Underlying transcription used by ROLLCO for Stationers' apprenticeships and freedoms. ROLLCO shows the 25 March 1613 John Gurney binding to James Boler (STMM8981) without a father name; the Arber transcript volume 3 raw entry may preserve the father, place of origin, or bond detail that would prove or kill the H-D1 redemption-pathway hypothesis."
+    },
+    "arber-stationers-bsoc-petition-1646-hunscott": {
+      "shortTitle": "Hunscott - Humble Petition and Information, 1646 (Wing H3728)",
+      "citation": "Hunscot, Joseph. The Humble Petition and Information of Joseph Hunscot Stationer, To the Honourable Houses of Parliament Assembled. London, 1646. Wing H3728.",
+      "archive": "Early English Books Online; Wing Short Title Catalogue",
+      "url": null,
       "corpusStatus": "partial",
       "corpusPath": null,
       "mediaPath": null,
-      "validationPath": "sources/validations/rollco-drapers-gurney-old-change-cluster.md",
-      "notes": "Drapers' Company source spine for Candidate D. The 1623/4 freedom entry identifies John Gurney as new freeman by redemption and names father Robert Gurney. The 1617 result places Robert Gurney, tailor, Old Change, as a Drapers' apprenticeship master. Full ROLLCO exports or underlying Drapers/Boyd's Roll entries remain high-value follow-up."
+      "validationPath": "sources/validations/arber-stationers-bsoc-petition-1646-hunscott.md",
+      "notes": "Identifies Joseph Hunscott as an active Stationer petitioner in 1646. Used here to anchor the identity bridge from Robert Gurney's will overseer 'Joseph Henscott Stationer' (1625) through the BHO 1638 St Augustine 'Joseph Huntscott' (£12) to the named ROLLCO Stationer Joseph Hunscott (1612-1646)."
     },
     "acl-robert-gurney-will-1625": {
       "shortTitle": "Archdeaconry Court of London - Robert Gurney will (1625)",
@@ -1405,11 +1471,11 @@
       "citation": "Dale, T. C. \"Inhabitants of London in 1638: St. Augustine.\" In The Inhabitants of London in 1638. Society of Genealogists, 1931. British History Online.",
       "archive": "British History Online",
       "url": "https://www.british-history.ac.uk/no-series/london-inhabitants/1638/pp34-35",
-      "corpusStatus": "partial",
+      "corpusStatus": "full",
       "corpusPath": "sources/corpus_supplement/bho-london-inhabitants-st-augustine-1638.md",
       "mediaPath": null,
       "validationPath": "sources/validations/bho-london-inhabitants-st-augustine-1638.md",
-      "notes": "Lists John Gurney in the St Augustine parish/rents return in 1638. Treat as a London John Gurney same-name lead, not as an identification of John Gurney-1."
+      "notes": "St Augustine 1638 rents return, three manuscript pages (MS. 67, MS. 67a, MS. 68), £1,700 total assessed value yielding £233 5s tithe at 2/9 per £. John Gurney is in MS. 67a at £10, between Christopher Hunlock £2 and George Browne £10. Joseph Huntscott (= Joseph Henscott, will overseer of Robert Gurney 1625, and the well-documented Stationer) appears on MS. p. 68 at £12, anchoring parish-network continuity from Robert's death (1625) into 1638. Candidate D context now stronger than a generic same-name London lead."
     },
     "bho-hmc-kings-lynn-misc-writings": {
       "shortTitle": "BHO HMC - King's Lynn Miscellaneous Writings",
