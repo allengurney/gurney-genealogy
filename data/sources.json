@@ -949,6 +949,50 @@
       "validationPath": "sources/validations/findmypast-hertfordshire-burials.md",
       "notes": "Used 2026-05-09 for a John Gurney Hertfordshire burials walk. Forty-eight results across the full 1538-present span; only two seventeenth-century Berkhamsted entries, Jhon Gourney 1612 and 1620, both predating Candidate C's documented children. Zero John Gurney burials at Berkhamsted 1640-1700."
     },
+    "findmypast-ackworth-gurnoe-burton-marriage-1636": {
+      "shortTitle": "Findmypast England Marriages 1538-1973 - John Gurnoe + Mary Burton, Ackworth, 1636",
+      "citation": "England Marriages 1538-1973, Findmypast transcript record R_855220028: John Gurnoe and Mary Burton, marriage 6 June 1636, Ackworth, Yorkshire, England.",
+      "archive": "Findmypast",
+      "url": "https://www.findmypast.com/transcript?id=R_855220028&tab=this",
+      "corpusStatus": "transcript",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/findmypast-ackworth-gurnoe-burton-marriage-1636.md",
+      "notes": "Primary record reached for the Ackworth Yorkshire John Gurnoe + Mary Burton marriage previously known only as a claim in compiled genealogies. Surname is transcribed Gurnoe; Burton is the indexed spouse surname, not the older Barton variant carried in some compilations. Marriage date 6 June 1636. The household continued at Ackworth: see paired source `findmypast-ackworth-gurnoe-baptism-1637-john-thomas` for the 19 January 1637 baptism of John Thomas Gurnoe at the same parish."
+    },
+    "findmypast-ackworth-gurnoe-baptism-1637-john-thomas": {
+      "shortTitle": "Findmypast England Births & Baptisms 1538-1975 - John Thomas Gurnoe, Ackworth, 1637",
+      "citation": "England Births & Baptisms 1538-1975, Findmypast transcript record R_948023155: John Thomas Gurnoe, male, baptism 19 January 1637, Ackworth, Yorkshire, England; parents not transcribed.",
+      "archive": "Findmypast",
+      "url": "https://www.findmypast.com/transcript?id=R_948023155&tab=this",
+      "corpusStatus": "transcript",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/findmypast-ackworth-gurnoe-burton-marriage-1636.md",
+      "notes": "Ackworth parish baptism of John Thomas Gurnoe, 19 January 1637, the year after the John Gurnoe + Mary Burton marriage at the same parish (`findmypast-ackworth-gurnoe-burton-marriage-1636`). Father and mother are not in the transcript index but the household continuity is consistent. First child given a compound name John Thomas — not Sarah — which is the distinctive name discriminator against the colonial John Gurney's first-child Sarah."
+    },
+    "findmypast-bury-st-edmunds-st-mary-gurney-burials-1653-1656": {
+      "shortTitle": "Findmypast National Burial Index - Bury St Edmunds St Mary Gurney burials 1653-1656",
+      "citation": "National Burial Index for England & Wales (Findmypast). Three Gurney burials at St Mary, Bury St Edmunds, Suffolk: John Gurney 11 December 1653; [given name not transcribed] Gurney 6 April 1655; [given name not transcribed] Gurney 13 May 1656 (notes 'Wife'). Anglican denomination.",
+      "archive": "Findmypast / Federation of Family History Societies National Burial Index",
+      "url": "https://www.findmypast.com/search/results?sourcecategory=life+events+%28bmds%29&firstname=john&firstname_variants=true&lastname=gurney&lastname_variants=true&eventyear=1656&eventyear_offset=20&keywordsplace=hitcham%2C+buckinghamshire%2C+england&keywordsplace_proximity=10&sourcecountry=england&sid=999",
+      "corpusStatus": "transcript",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/findmypast-bury-st-edmunds-st-mary-gurney-burials-1653-1656.md",
+      "notes": "Three Gurney burials at the same Bury St Edmunds parish in a four-year window: John Gurney 11 Dec 1653; unnamed Gurney 6 Apr 1655; unnamed Gurney 13 May 1656 explicitly noted 'Wife'. Read as one continuing Bury household with the John male burial in 1653, a probable daughter or child in 1655, and the widow in 1656. Material to Section 10.6 of the John Gurney case file: a John Gurney was buried at Bury St Edmunds in December 1653 while the colonial John was deposing at Braintree in 1653. The case file does not currently fix the deposition's month, so the Bury burial does not conclusively eliminate the Bury-Boston identification but does tighten the priors against Banks's attribution. Bury parish register manuscript image not yet pulled; the National Burial Index transcript is the level reached in the present pass."
+    },
+    "findmypast-john-gurney-2026may-supplementary-same-name-sweep": {
+      "shortTitle": "Findmypast John Gurney same-name sweep, 12 May 2026 raw batch",
+      "citation": "Findmypast search-results bundle for John Gurney with surname variants (Gurney, Gurny, Gourney, Garney, Garnes, Garneys, Garrne, Gernne, Gerne, Girney, Girny, Guerne, Gourny, Gorme, Grune, Grone, Grine, Grene, Gurnoe), 1620-1680, across the following sets: England Births & Baptisms 1538-1975; England Deaths & Burials 1538-1991; England Marriages 1538-1973; National Burial Index for England & Wales; Bedfordshire Burials; Bedfordshire Baptisms; Bedfordshire Marriages; Buckinghamshire Burial Index; Buckinghamshire Baptism Index; Buckinghamshire Marriage Index; Berkshire Probate Index; Berkshire Baptisms Index; Britain Marriage Licences; Norfolk Burials; Norfolk Baptisms; Norfolk Monumental Inscriptions 1600-1900s Index; Norfolk Wills & Probate; Hertfordshire Banns & Marriages; Hertfordshire Probate Records Index; Yorkshire Burials; Westminster Burials; Northamptonshire And Rutland Probate Index; London Docklands and East End Baptisms.",
+      "archive": "Findmypast (subscription)",
+      "url": "https://www.findmypast.com/",
+      "corpusStatus": "transcript",
+      "corpusPath": null,
+      "mediaPath": "sources/intake/john-gurney-2026May/",
+      "validationPath": "sources/validations/findmypast-john-gurney-2026may-supplementary-same-name-sweep.md",
+      "notes": "Bundle source for the 12 May 2026 raw research batch supplementary same-name sweep. Carries the Findmypast index transcript content for the new Section 8 comparator rows added to the case file by patchset v38, plus the Section 8.3 Buckinghamshire same-county cluster expansion. Aylesbury area search screenshots (image-20260512084250360.png, image-20260512084825041.png, image-20260512084943795.png, image-20260512085055660.png) are retained at the intake media path. Use this bundle for comparator-row provenance; cite record-level sources for any household that is later promoted to deeper research."
+    },
     "findmypast-uk-parish-baptisms": {
       "shortTitle": "Findmypast UK Parish Baptisms",
       "citation": "Findmypast UK Parish Baptisms aggregated dataset within Birth, Marriage, Death and Parish Records.",

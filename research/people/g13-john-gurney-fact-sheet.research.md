@@ -270,6 +270,14 @@ Additionally, **Edward Gurny** was a separate Aylesbury Gurney head-of-household
 
 [^findmypast-bucks-2026-05-09]: Findmypast Buckinghamshire Marriage Index, Burial Index, and Baptism Index (Centre for Buckinghamshire Studies); subscription pulls executed 2026-05-09. Source IDs: `findmypast-bucks-marriage-index`, `findmypast-bucks-burial-index`, `findmypast-bucks-baptism-index`.
 
+### Ackworth, Yorkshire: Mary Burton marriage and 1637 baptism reach primary index (2026-05-12)
+
+The long-standing compiled-genealogy claim of a John Gurney + Mary Barton/Burton marriage at Ackworth in 1636 now reaches primary index level. Findmypast England Marriages 1538-1973 transcript R_855220028 records John Gurnoe and Mary Burton married at Ackworth 6 June 1636. The same Findmypast collection surfaces an England Births & Baptisms 1538-1975 transcript R_948023155 for John Thomas Gurnoe baptized at Ackworth 19 January 1637, the year after the marriage and consistent with a continuing Yorkshire household.
+
+The wife is in fact named Mary, and the marriage date sits inside the 1636-1638 emigration-cohort window, so the Ackworth household survives elimination by the wife-name test that disposes of most other same-name candidates. It still fails on the child-naming and geographic-corridor tests: the colonial John's first child is Sarah (about 1628) and the colonial John appears at Weymouth by June 1641 in the Massachusetts corridor that drew from East Anglia rather than the West Riding. Working notes for this household live in `research/people/john-gurnoe-ackworth-yorkshire.md`. The case-file Section 8 Ackworth row in `research/case-files/john-gurney-case-file-v4.md` has been updated to record the primary-record confirmation; probability remains Unlikely (about 2%).
+
+Open items: Ackworth parish-register image pull (West Yorkshire Archives or Borthwick) for the 1636 marriage and 1637 baptism father/mother fields; Ackworth burial-register check for either spouse; West Riding probate index search for a John Gurnoe/Gurney/Gurny death record 1636-1680. Source IDs: `findmypast-ackworth-gurnoe-burton-marriage-1636`, `findmypast-ackworth-gurnoe-baptism-1637-john-thomas`.
+
 ### Candidate A Aylesbury family group (FS-verified 2026-05-09)
 
 FamilySearch England, Births and Christenings, 1538-1975 returns four directly relevant Candidate A children at Saint Mary, Aylesbury, all with father John Gurney:
@@ -488,7 +496,7 @@ The Toddington Beds John Gurney + Elizabeth Moreton household has positive Engli
 - **No direct published Bucks attribution from the main emigrant compilers.** Banks gives Suffolk/BSE; Anderson gives "Unknown."
 - **No Banks primary citation beyond "Banks Mss."** The BSE attribution remains a lead, not proof.
 - **Peter anomaly qualified.** The FamilySearch-only working search found no Peter Gurney baptism in the 1620-1645 set, but Findmypast UK Parish Baptisms returned Peter Gurney-variant baptisms, including Peter G. at Smallburgh, Norfolk, in 1641.
-- **Ackworth Yorkshire "Mary Barton" claim unconfirmed in this pass.** FS Records search for John Gurney + spouse Barton in Yorkshire returned zero results on 2026-05-09. FS Records is one of several relevant indexes; FreeREG, Ancestry, FMP regional Yorkshire indexes, and Yorkshire Quaker monthly meeting records have not been walked. Do not treat the FS negative alone as elimination; the original source for the v2 "Mary Barton/Burton (m. 1636)" claim should be re-identified before further qualification.
+- **Ackworth Yorkshire image-level confirmation still open.** The 2026-05-12 Findmypast pass reached primary-index transcripts for John Gurnoe + Mary Burton at Ackworth in 1636 and John Thomas Gurnoe there in 1637, superseding the earlier 2026-05-09 FamilySearch null result. The parish-register image pull remains open for spelling, witness, and parent-field confirmation.
 - **No John Gurney in Buckinghamshire Protestation Returns** in the reviewed set.
 - **No John or Francis Gurney/Gurnay located in London Apprenticeship Abstracts (Findmypast)** in the searched collection; Merchant Taylors and Haberdashers material may sit outside this indexed set or under a non-standard variant.
 - **Francis Gurney will still not located.** Daniel Gurney reports both candidate wills as "unable to be discovered."
