@@ -55,7 +55,7 @@ factsheet:
   </div>
   <div class="fact-item">
     <div class="fact-label">Occupation / Education / Religion</div>
-    <div class="fact-value">Merchant Taylor. Admitted to the freedom of the Merchant Taylors' Company on 16 June 1606; later acted as a financial agent, described as “a sort of agent, or banker,” for the Lestrange family of Hunstanton Hall from 1612 to 1636. Apprenticed to Henry Tryme and assigned to William Smooth. Church of England, with documented Puritan family connections. <sup class="fn"><a href="#n4" id="ref-4">4</a></sup></div>
+    <div class="fact-value">Merchant Taylor. Bound apprentice in London on 14 May 1599 to Henry Tryme of the Merchant Taylors' Company at Near Ludgate for a seven-year term, transferred 3 February 1605 to William Smooth of Lothbury ahead of a documented six-month "journey into the north," and admitted to the freedom of the Company in June 1606. He later acted as a financial agent, described as "a sort of agent, or banker," for the Lestrange family of Hunstanton Hall from 1612 to 1636, and in 1616 took Francis Spelman, son of Sir Henry Spelman of Norfolk, as his own apprentice with a £100 bond. Church of England, with documented Puritan family connections. <sup class="fn"><a href="#n4" id="ref-4">4</a></sup></div>
   </div>
   <div class="fact-item">
     <div class="fact-label">Buried</div>
@@ -134,7 +134,7 @@ That contraction is central to the current argument about John Gurney-1 of Massa
   <li id="n1">Daniel Gurney, <em>Genealogical History of the House of Gournay</em>, vol. II (London, 1848), 524. <a class="citation-back" href="#ref-1">↩</a></li>
   <li id="n2">FreeREG, St Botolph Bishopsgate burial entry for Francis Gurney; Boyd's published index misread the year, corrected March 2026 by review of the register context. <a class="citation-back" href="#ref-2">↩</a></li>
   <li id="n3">St Botolph Bishopsgate parish burial entry, 9 January 1646/7. <a class="citation-back" href="#ref-3">↩</a></li>
-  <li id="n4">Merchant Taylors' Company freedom admission, 16 June 1606; Daniel Gurney, vol. II, 524–526; Hunstanton Hall / Lestrange references summarized in Daniel Gurney. <a class="citation-back" href="#ref-4">↩</a></li>
+  <li id="n4">Merchant Taylors' Company binding-book record: bound 14 May 1599 to Henry Tryme of Near Ludgate; transferred 3 February 1605 to William Smooth of Lothbury with the Court note "Tr with a report of good service from his first master on the grounds that he is due to take a journey into the north and not likely to return until Michaelmas"; freed June 1606. Primary transcription: M. Scott (2024), <em>Merchant Taylors' Company of London: Apprentices 1583-1800</em> [data collection], UK Data Service, SN 9263, <a href="https://datacatalogue.ukdataservice.ac.uk/studies/study/9263#details">https://datacatalogue.ukdataservice.ac.uk/studies/study/9263#details</a>, COMB row 1829 / Freedoms row 25149 (vol. 3a, no. 611, p. 37); Daniel Gurney, <em>Record</em>, Supplement (1858), Note 181, quoting the freedom record as 16 June 1606 (the binding-book transcription gives 30 June 1606; the two-week discrepancy is unresolved). Master role: same dataset, COMB row 24423 / Freedoms row 54113 (vol. 7, no. 2160, p. 256), Francis Spelman son of Sir Henry Spelman, Knight, of Middleton, Norfolk, bound to Francis Gurney "Near the hall" with a £100 bond from the father, 22 April 1616. Hunstanton Hall / Lestrange context: Daniel Gurney, <em>Record</em>, Part III (1848), pp. 524 and 529–532. <a class="citation-back" href="#ref-4">↩</a></li>
   <li id="n5">Norfolk Record Office, St Martin at Palace, Norwich, marriage register, 23 September 1611, Francis Gurney and Margaret Rybett; supporting Rybett/Ryvett family context from Norfolk and Suffolk gentry sources. <a class="citation-back" href="#ref-5">↩</a></li>
   <li id="n6">Daniel Gurney, vol. II; Browning family identification from Norwich and Maldon records summarized in the Francis research file. <a class="citation-back" href="#ref-6">↩</a></li>
   <li id="n7">March 2026 East Dereham / Norwich register review establishing the St Martin at Palace marriage as the best-supported first marriage for Francis. <a class="citation-back" href="#ref-7">↩</a></li>
@@ -187,8 +187,10 @@ That contraction is central to the current argument about John Gurney-1 of Massa
     <tbody>
       <tr><th>Year</th><th>Event</th></tr>
       <tr><td>1581</td><td>Born at West Barsham Hall in north Norfolk; twin with Anthony.</td></tr>
-      <tr><td>c. 1597</td><td>Apprenticed in London to Henry Tryme, Merchant Taylor.</td></tr>
-      <tr><td>1606</td><td>Admitted to the freedom of the Merchant Taylors' Company on 16 June.</td></tr>
+      <tr><td>1599</td><td>Bound apprentice on 14 May to Henry Tryme, Merchant Taylor of Near Ludgate, for seven years.</td></tr>
+      <tr><td>1605</td><td>Transferred 3 February to William Smooth of Lothbury ahead of a six-month "journey into the north."</td></tr>
+      <tr><td>1606</td><td>Admitted to the freedom of the Merchant Taylors' Company in June.</td></tr>
+      <tr><td>1616</td><td>Took Francis Spelman, son of Sir Henry Spelman of Norfolk, as his own apprentice (£100 bond).</td></tr>
       <tr><td>1611</td><td>Married Margaret Rybett at St Martin at Palace, Norwich.</td></tr>
       <tr><td>1612</td><td>First documented Lestrange agency payment.</td></tr>
       <tr><td>1609–1618</td><td>Children were baptized at East Dereham, linking Francis to Norfolk through the 1610s.</td></tr>

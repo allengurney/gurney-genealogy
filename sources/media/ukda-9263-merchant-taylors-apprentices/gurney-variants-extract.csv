@@ -1,0 +1,42 @@
+Sheet,RowIdx,V,No,Pg,Ap Fn,Ap Sn,Ap Norm,Column5,Father,Loc,Cty,Cit,Trade,Dec,Mr Fn,Mr Sn,Mr Norm,Mr loc,Yrs,Trade2,Mr status,Notes on binding,Bind d,Bind m,Bind y,V2,Tr d,Tr m,Tr y,Tr Fn,Tr Sn,Tr Sn Norm,Tr Tr,Loc2,Tr notes
+COMB,7404,3b,852,114,John,Gurney,Gurney,,William,Moborne,Wor,,Glover,D,James,Briggs,Briggs,Shoe Lane,8,,,,13,Sep,1602,,,,,,,,,,
+COMB,19439,19,3328,370,charles,gurney,Gurney,,jonathan,St Andrew Holborn,Lnd,,Sheriff's officer,,robert,featley,featley,,7,,,,4,Apr,1759,,,,,,,,,,
+COMB,22991,12,3046,354,william,gurney,Gurney,s,walter,Westminster,Lnd,,haberdasher,,robert,goodwyn,Goodwin,Whitechapel,8,,,,26,May,1646,,,,,,,,,,
+COMB,24423,7,2160,256,Francis,Spelman,Spelman,,Henry,Middleton,Nfk,,Knight,,Francis,Gurney,Gurney,Near the hall,7,,,,22,Apr,1616,,,,,,,,,,
+COMB,24424,19,687,77,william,bulford,bulford,s,william,London,Lnd,c,Glass seller,,ruben,gurney,Gurney,,7,,,,1,Apr,1724,,14,Sep,1724,William,Bulford,Bulford,Glass seller,,
+COMB,24425,19,299,34,john,towes,towes,,christopher,London,Lnd,c,haberdasher,d,ruben,gurney,Gurney,,7,,,,7,Dec,1720,,5,Nov,1726,Richard,Baylis,baylis,Grocer,,
+COMB,24426,15,953,111,john,tapping,Tapping,,peter,stepney,Lnd,,Farmer,,william,gurney,Gurney,Pettycoat Lane,7,Silk throwster,,,19,Jun,1661,,,,,,,,,,
+COMB,25472,14,514,67,john,gurny,Gurney,,john,Aylesbury,Bkm,,ironmonger,,alexander,harbin,harbin,Gracechurch Street,7,,,,30,May,1655,,,,,,,,,,
+COMB,27976,11,1139,134,William,gurney,Gurney,s,john,Ashperton,Hef,,Yeoman,d,arthur,higgins,Higgins,Newgate Market,7,,,,7,Feb,1637,,,,,,,,,,
+COMB,30648,6b,1046,124,Andrew,Gurney,Gurney,,William,Eccleston,Lan,,Yeoman,,Richard,Hull,Hull,Leadenhall Street,7,,,,23,Mar,1611,,,,,,,,,,
+COMB,33349,5,570,69,William,Girney,Girney,s,John,Bourton,Bkm,,Tailor,D,John,Juxon,Juxon,Walbrook,7,,,,19,Jan,1606,,,,,,,,,,
+COMB,35911,8b,250,31,William,Gurney,Gurney,s,Thomas,oakley,Bed,,Weaver,D,James,Linthwait,Linthwaite,Cornhill,8,,,,1,Aug,1620,,,,,,,,,,
+COMB,42599,12,1333,154,Thomas,henson,henson,s,phillip,colebrooke,Nth,,Yeoman,,edward,parkinson,Parkinson,Fleet Street,7,,,,22,Sep,1641,,,,,William,Gurney,Gurney,Barber surgeon,,
+COMB,51349,18,2226,248,ruben,gurney,Gurney,,william,Foxgrave,Nth,,gent,,john,simpson,Simpson,,7,,,,19,Sep,1709,,,,,,,,,,
+COMB,51705,19,2592,288,thomas,rowe,Rowe,s,william,Walthamstow,Ess,,Gent,d,james,slater,Slater,,7,,,,3,Jun,1747,,3,May,1750,Richard,Gurney,Gurney,Goldsmith,,"6 Feb 1752: tr to James Dennis, gold and silver wire drawer"
+COMB,56896,3a,611,37,Francis,gurney,Gurney,,Henry,Great Ellingham,Nfk,,Gent,,Henry,Tryme,Tryme,Near Ludgate,7,,,,14,May,1599,,3,Feb,1605,William,Smooth,Smooth,MT,Lothbury,Tr with a report of good service from his first master on the grounds that he is due to take a journey into the north and not likely to return until Michaelmas.
+COMB,57943,6b,750,89,William,Gurney,Gurney,s,William,Coventry,War,,Gent,,Hugh,Wale,Wale,St Thomas Apostle,9,,,,4,Nov,1611,,,,,,,,,,
+COMB,58524,20,1442,161,james,gurney,Gurney,,thomas,Winchendon,Bkm,,Farmer,,daniel,ward,Ward,"Callum Street, St Mary le Strand",7,tailor,,,6,Sep,1786,,,,,,,,,,
+Sheet,RowIdx,Column1,Column2,Column3,Column4,Column5,Column6,Column7,Column8,Column9
+Sheet,RowIdx,Column1,Column2,Column3,Column4,Column5,Column6,Column7,Column8,Column9,Column10,Column11
+Sheet,RowIdx,D,M,Y,Ap-Fn,Sn,Fa-Fn,Dead?,Column8,Column9,Column10,Column11,Column12,Column13,Column14,Column15,Column16,Column17,Column18,Column19,Column20,Column21,Column22
+Sheet,RowIdx,V,No,Pg,Ap Fn,Ap Sn,Ap Alt,Column5,Father,Barford,Cty,Cit,Trade,Dec,Mr Fn,Column12,Mr Sn,Mr Alt,Mr Norm,Mr loc,Yrs,Trade2,Notes on binding,L/A,St d,St m,St y,Bind d,Bind m,Bind y,V2,Bond fn,Bond Sn,Bond status,Bond Fn2,Bond Sn2,Bond Trade,Bond li,p,Tr V,Tr p,Tr d,Tr m,Tr y,Tr Fn,Tr Sn,Column9,Tr Tr,Column10,Tr notes,F day,F Mth,F Yr,F notes,Trade3,Loc,Wid Fn,Wid Sn,Column1,A/E,Yrs2,Rel,Ex Fn,Ex Sn,Ex Tr,W1 Fname,W1 Sname,W1 Trade,Loc2,W1 notes,W2 fname,W2 Sname,W2 trade,Loc3,W2 notes,W3 Fname,Column16,W3 Sname,W3 trade,Column3
+Freedoms,9030,19,687,77,william,bulford,,,william,London,lnd,c,Glass seller,,ruben,N24999,gurney,,,,7,,,,,,,1,April,1724,,,,,,,,,p,,,14,September,1724,William,Bulford,F00702,Glass seller,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Freedoms,23142,5,570,69,William,Girney,,,John,Bourton,BKM,,Tailor,D,John,N34207,Juxon,,Juxon,Walbrook,7,,,,2,February,1606,19,January,1606,,,,,,,,,p,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Freedoms,25149,3a,611,37,Francis,gurney,,,Henry,Great Ellingham,NFK,,Gent,,Henry,N58409,Tryme,,,Near Ludgate,7,,,,Pentecost last,,,14,May,1599,,,,,,,,,p,,,3,February,1605,William,Smooth,F02598,MT,Lothbury,Tr with a report of good service from his first master on the grounds that he is due to take a journey into the north and not likely to return until Michaelmas.,30,June,1606,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Freedoms,25150,11,1139,134,William,gurney,,,john,Ashperton,hef,,Yeoman,d,arthur,N28690,higgins,,higgins,Newgate Market,7,,,,,,,7,February,1637,,,,,,,,,p,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Freedoms,25151,12,3046,354,william,gurney,,,walter,Westminster,Lnd,,haberdasher,,robert,N23432,goodwyn,,goodwyn,Whitechapel,8,,,,,,,26,May,1646,,,,,,,,,p,,,,,,,,,,,,6,December,1654,,,,,,,,,,,,,David,Sandell,MT,,,,,,,,,,,,
+Freedoms,25152,18,2226,248,ruben,gurney,,,william,Foxgrave,nth,,gent,,john,N52569,simpson,,,,7,,,,,,,19,September,1709,,,,,,,,,,,,,,,,,,,,,5,December,1716,Mr also an oilman at Bread Street,Oilman,Bread Street,,,,,,,,,,,,,,,,,,,,,,,,
+Freedoms,25153,19,3328,370,charles,gurney,,,jonathan,St Andrew Holborn,lnd,,Sheriff's officer,,robert,N19905,featley,,,,7,,,,,,,4,April,1759,,,,,,,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Freedoms,25154,20,1442,161,james,gurney,,,thomas,Winchendon,bkm,,Farmer,,daniel,N60197,ward,,,"Callum Street, St Mary le Strand",7,tailor,,,,,,6,September,1786,,,,,,,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Freedoms,25155,3b,852,114,John,Gurney,,,Wiliam,Moborne,WOR,,Glover,D,James,N07614,Briggs,,Briggs,Shoe Lane,8,,,,29,September,1601,13,September,1602,,,,,,,,,p,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Freedoms,25156,6b,750,89,William,Gurney,,,William,Coventry,War,,Gent,,Hugh,N59511,Wale,,Wale,St Thomas Apostle,9,,,,25,December,1611,4,November,1611,,,,,,,,,p,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Freedoms,25157,6b,1046,124,Andrew,Gurney,,,William,Eccleston,LAN,,Yeoman,,Richard,N31383,Hull,,Hull,Leadenhall Street,7,,,,1,November,1611,23,March,1611,,,,,,,,,p,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Freedoms,25158,8b,250,31,William,Gurney,,,Thomas,oakley,BED,,Weaver,D,James,N36850,Linthwait,,Linthwait,Cornhill,8,,,,25,December,1619,1,August,1620,,,,,,,,,p,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Freedoms,25159,14,514,67,john,gurny,,,john,Aylesbury,bkm,,ironmonger,,alexander,N26035,harbin,,harbin,Gracechurch Street,7,,,,,,,30,May,1655,,,,,,,,,p,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Freedoms,28147,12,1333,154,Thomas,henson,,,phillip,colebrooke,nth,,Yeoman,,edward,N43708,parkinson,,parkinson,Fleet Street,7,,,,,,,22,September,1641,,,,,,,,,p,,,,,,William,Gurney,F00038,Barber surgeon,,,11,August,1652,,,,,,,,,,,,,William,Michell,Cordwainer,,,,,,,,,,,,
+Freedoms,38042,7,1234,147,Walter,Markham,,,Walter,Cottenham,CAM,,Farmer,,Thomas,N03211,Barnes,,Barnes,Shoreditch,7,,,,25,December,1614,21,November,1614,,,,,,,,,p,,,,,,,,,,,,20,October,1628,,,,,,,,,,,,,Henry,Fulshawe,Weaver,,,Edward,Gurney,Weaver,,,,,,,
+Freedoms,49690,19,2592,288,thomas,rowe,,,william,Walthamstow,ess,,Gent,d,james,N52918,slater,,,,7,,,,,,,3,June,1747,,,,,,,,,p,,,3,May,1750,Richard,Gurney,F00774,Goldsmith,,"6 Feb 1752: tr to James Dennis, gold and silver wire drawer",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Freedoms,54113,7,2160,256,Francis,Spelman,,,Henry,Middleton,NFK,,Knight,,Francis,N24996,Gurney,,Gurney,Near the hall,7,,,,Pentecost next,,,22,April,1616,,Henry,Spelman,Father of the apprentice,,,,100,p,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Freedoms,56281,15,953,111,john,tapping,,,peter,stepney,Lnd,,Farmer,,william,N24997,gurney,,gurney,Pettycoat Lane,7,Silk throwster,,,,,,19,June,1661,,,,,,,,,p,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Freedoms,57983,19,299,34,john,towes,,,christopher,London,lnd,c,haberdasher,d,ruben,N24998,gurney,,,,7,,,,,,,7,December,1720,,,,,,,,,p,,,5,November,1726,Richard,Baylis,F00813,Grocer,,,6,March,1733,,Tobacconist,With his master,,,,,,,,,,,,,,,,,,,,,,,,

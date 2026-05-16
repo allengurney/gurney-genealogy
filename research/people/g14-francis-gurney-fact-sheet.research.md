@@ -8,11 +8,95 @@ Francis G14 (1581 – 9 January 1646/7) was the Merchant Taylor of St Benet Fink
 
 ## Working Notes
 
+### Merchant Taylors' Company binding-book primary record
+
+The published transcription of the Merchant Taylors' Company binding books and freedom registers (Scott 2024, UKDA-SN-9263) supplies Francis G14's complete apprenticeship and freedom record at first hand — the same entry Daniel Gurney quoted at second hand in *Supplement* Note 181 (1858), now read directly from the Company source.[^mt-ukda]
+
+Volume 3a, binding number 611, page 37:
+
+| Field | Value |
+|---|---|
+| Apprentice | Francis Gurney, son of Henry Gurney |
+| Father's residence / status | Great Ellingham, Norfolk; Gent |
+| Master | Henry Tryme, Near Ludgate |
+| Term | 7 years |
+| Service started | "Pentecost last" (Whitsun 1599) |
+| Binding date | **14 May 1599** |
+| Transfer date | **3 February 1605** |
+| Transfer master | William Smooth, Merchant Taylor of Lothbury (freedom no. F02598) |
+| Transfer note (Court order) | "Tr with a report of good service from his first master on the grounds that he is due to take a journey into the north and not likely to return until Michaelmas." |
+| Freedom date | **30 June 1606** |
+
+Three findings carry forward from this entry.
+
+**(a) Parentage corroborated at the Company source.** Francis's parentage as "son of Henry Gurney of Great Ellingham, Norfolk, Gent" is captured in the binding book itself, independent of Daniel Gurney's transmission chain. This strengthens the standing parentage stack (Daniel Gurney 1848, Blomefield, the 1633/4 London Visitation, Pettigrew 1871, Bernau 1913) by adding the first-hand company record.[^mt-parentage]
+
+**(b) Date conflict on the freedom — 16 vs 30 June 1606.** Daniel Gurney's *Supplement* Note 181 (1858) quotes "16 June 1606" for Francis's admission to the freedom of the Merchant Taylors' Company; the binding book records **30 June 1606**.[^mt-freedom-date] The interval is two weeks. The simplest reading is a single-character transcription error in Daniel (16 ↔ 30); a less likely alternative is that the Court ordered admission on the earlier date and the swearing-in occurred on the later. The discrepancy should be reconciled against the Guildhall MS freedom register or the British Record Society print volumes 136–138. The current published fact sheet retains the 16 June 1606 reading as transmitted by Daniel Gurney and should be qualified to note the binding-book reading until the conflict is resolved.
+
+**(c) The "journey into the north," February 1605.** The Court's transfer note on 3 February 1605 is new biographical material. With about five and a half years of service complete, Francis was assigned over from Henry Tryme to William Smooth specifically because he was "due to take a journey into the north and not likely to return until Michaelmas." That is, Francis would be absent roughly February to September 1605 — well over the maximum personal absence permitted under a London apprenticeship — and the transfer protected both his service record and his masters' standing with the Company. The "journey into the north" is the earliest documented Norfolk re-engagement on Francis's timeline. Daniel Gurney noted that Francis's "commercial life began at Norwich" but produced no specific 1605 evidence;[^mt-dg-norwich] the transfer note now supplies precisely that, six years before his September 1611 marriage to Margaret Rybett at St Martin at Palace, Norwich.
+
+### Merchant Taylors' Company — Francis G14 as master, 1616 (Spelman binding)
+
+A second binding-book entry records Francis G14 on the master side. Volume 7, binding number 2160, page 256:[^mt-spelman]
+
+| Field | Value |
+|---|---|
+| Apprentice | Francis Spelman, son of Henry Spelman |
+| Father's residence / status | Middleton, Norfolk; Knight |
+| Master | Francis Gurney, "Near the hall" (Merchant Taylors' Hall, Threadneedle Street) |
+| Term | 7 years |
+| Bond | £100 from Henry Spelman, "Father of the apprentice" |
+| Service started | "Pentecost next" (Whitsun 1616) |
+| Binding date | 22 April 1616 |
+
+The £100 bond is heavy by MT standards (typical bonds for the period run £20–£50) and signals the apprentice's gentry rank. This is the earliest first-hand documentation of a Spelman–Gurney relationship and changes the Bernau (1913) "Spelman manuscript pedigree" lead from speculation into a documented master–apprentice tie.[^mt-bernau-spelman] Bernau's note read: "It is thought that he may have been identical with a Francis GOURNAY who gave Sir Henry SPELMAN a manuscript pedigree of the Gournay family." The Spelman household identification is most plausibly the antiquary Sir Henry Spelman (c. 1562–1641, knighted 1604) — a knight of West Norfolk with a son Francis Spelman of about the right age. The binding's "Middleton, Norfolk" attribution differs from Sir Henry's usual seat at Congham; the binding book records residence at the time of binding, not principal seat. No second contemporary Norfolk knight named Henry Spelman with a son Francis is in evidence for 1616. The apprentice Francis Spelman is the natural carrier of any Gourney pedigree manuscript that left his father's papers; the open repository search at the close of this file (Spelman papers at CUL, Bodleian, BL Add. MSS, College of Arms) now has a documented apprentice-identified vector.
+
+### Merchant Taylors' Company — negative results affecting Candidate B
+
+The dataset returns **no John Gurney son of Francis Gurney** at any binding 1583–1800 and **no Gurney patrimony freedom** anywhere in the 3,391-row Patrimony sheet. The two John Gurney apprentices that do appear are eliminable on parentage and date grounds (John Gurney son of William, Glover, of "Moborne" Worcestershire, bound 1602; John Gurny son of John, Ironmonger of Aylesbury, bound 1655).[^mt-no-john] If Candidate B holds, John G13's tailoring trade was not transmitted through the Merchant Taylors' Company — neither by formal apprenticeship to a fellow MT master nor by patrimony freedom after Francis's death. Pathways still consistent with Candidate B: an apprenticeship in a different London livery (Drapers, Clothworkers, Worsted Weavers), a Norwich or country apprenticeship, or informal household training. The negative result does not refute Candidate B; it sharpens the wording of the case file's §10.1 occupational-inheritance argument and is documented in `research/topics/merchant-taylors-1583-1800-gurney-analysis.md` §3.
+
 ### King's Lynn worsted-yarn venture, 1622
 
 A British History Online HMC calendar entry supplies an additional source for Francis's King's Lynn textile project. On 17 October, 20 James I, Francis Gurney, citizen and merchant-taylor of London, Ambrose Tompson of Thetford, glover, and Martin Hill of Ellingham, woolchapman, entered an agreement with the mayor and burgesses of King's Lynn. They agreed to teach poor children of the town the art of spinning worsted-yarn, provide the wool needed for instruction, and employ the poor of Lynn in the same industry, paying proper wages to those who were not mere learners.[^hmc-kings-lynn-francis]
 
 This source is valuable because it names Francis by London civic/trade identity and links him directly to a Norfolk poor-employment textile scheme. It supports the existing picture of Francis as a London Merchant Taylor operating in Norfolk commercial and civic networks before the family's later financial contraction.
+
+### East Dereham children — primary index expansion and Entries B/C reclassification (FS + image-walk, 2026-05-15)
+
+Two changes to Francis G14's documented East Dereham child set, both grounded in a 2026-05-15 image-walk of the parish-register crops at `sources/media/Parish_Register_East_Dereham/` cross-checked against FamilySearch index entries in the England, Norfolk, Parish Registers (County Record Office), 1510-1997 collection:
+
+1. **Entries B (Marye) and C (Agnes) are burials, not baptisms.** Page 00725 sits in a burial sequence. The Marye line (25 January, year not in register, FS index VNN2-WR2) reads "Marye ... of ffrancis Gurny" with the relationship word partly obscured by staining; the Agnes line (31 January, year not in register, FS index VNN2-WRG) reads "Agnes the daughter of ffrancis Gurny" with stronger comparative support. The Round 2 working hypothesis of a previously-undocumented daughter Susan is withdrawn: FS index VNN2-WRG transcribes "Susan Gurney" but the underlying register entry reads Agnes — an indexer mis-read. The case file's existing Entries B and C therefore remain confirmed children of Francis G14 with the original given names Marye and Agnes; only the event (baptism → burial) and source basis have changed.[^fs-east-dereham-children-2026]
+
+2. **New Entry F: Francis (probable son), burial 8 November 1633, East Dereham (FS index VNN2-H8S).** No parent in the index. The probable-son-of-Francis-G14 reading rests on Francis G14's documented East Dereham residence in those years; elimination of competing Francis Gurney identifications (Francis G14 himself died 1646/7 at St Botolph Bishopsgate London; Francis B "the laceweaver" was at Norwich St Peter Mountergate); and Francis G14's documented name-reuse for the 1628 St Benet Fink Francis baptism (Bernau 1913). Estimated age at death is ~15-22 if born East Dereham c.1611-1618.[^fs-east-dereham-children-2026]
+
+The FS-indexed date "27 May 1610" for the Edward baptism (case-file Entry A, FS ID VNN2-SCF) inherits its year from a modern margin annotation on the parish-register page rather than from a contemporaneous register-year heading. The case file's ±2-3 year margin on East Dereham dates remains the correct posture.[^fs-east-dereham-children-2026]
+
+Image-walk also surfaced a probable baptism of "Margaret, daughter of ffrancis Gurnoe/Gurney, May 25" on `crop_00732_enhanced.png` (page 00732 of the East Dereham register). This is preliminary, needs same-hand comparator review, and is held outside the case-file body pending confirmation. If confirmed, a daughter Margaret of Francis G14 would be a name-honoring entry consistent with the first wife Margaret Rybett dying before that baptism.[^east-dereham-margaret-bapt-lead]
+
+[^fs-east-dereham-children-2026]: FamilySearch England, Norfolk, Parish Registers (County Record Office), 1510-1997 index entries VNN2-SCF (Edward christening, FS-indexed 27 May 1610), VNN2-WR2 (Marye burial 25 January, year not indexed), VNN2-WRG (Agnes burial 31 January, year not indexed; FS-indexed as "Susan"), VNN2-H8S (Francis burial 8 November 1633). Source IDs `fs-vnn2-scf-edward-gurney-baptism-east-dereham`, `fs-vnn2-wr2-marye-gurney-burial-east-dereham`, `fs-vnn2-wrg-agnes-gurney-burial-east-dereham`, `fs-vnn2-h8s-francis-gurney-burial-east-dereham-1633`. Validation note `sources/validations/fs-east-dereham-francis-gurney-indexed-children.md`. Image-walk artifacts at `sources/media/Parish_Register_East_Dereham/burial-analysis.md`, `crop-index.md`, and `page-00725-deep-analysis.md`.
+[^east-dereham-margaret-bapt-lead]: Image-walk note in `sources/media/Parish_Register_East_Dereham/burial-analysis.md` flagging a probable baptism reading of "Margaret the daughter of ffrancis Gurnoe/Gurney bapt may 25" on `crop_00732_enhanced.png`. Held for confirmation; not promoted to the case-file body in v39.
+
+### East Dereham children — paleographic refinement (image sweeps, 2026-05-15)
+
+Three refinements to the V39 East Dereham child-cluster framing, all grounded in focused image sweeps under `sources/media/Parish_Register_East_Dereham/` and the chronology lattice in `sources/validations/east-dereham-pd-86-41-register-structure-and-chronology.md`:
+
+1. **Entry B (Marye, 00725 burial) — relationship class, not "daughter".** A 4x magnification of the relationship token between 'Marye' and 'of ffrancis Gurny' on the 00725 Marye burial line (`page_00725_marye_relationship_token_magnification_sweep.png`) shows a 4-5 character-width token whose opening-letter shape refutes 'daughter' and is class-consistent with niece/nephew family. The case-file Entry B should be read as a Francis G14 household-event entry (likely niece), not as a confirmed daughter. The Agnes line (Entry C) immediately below reads cleanly as "the daughter of ffrancis Gurny" and is unaffected by this refinement.[^east-dereham-paleographic-2026]
+
+2. **Entry D (Marye, 1618 baptism) — page attribution corrected to 00732.** Focused six-state sweep `page_00732_line_margaret_ffrancis_gurnoe_sweep.png` resolves the candidate line as "Marye the daughter of ffrancis Gurnoe bapt may 25". The case file's earlier 00736 page attribution reflects a pre-2026-05-15 working assumption; the actual 00736 page is the 1620 christenings page ("Billes Indented of all the Christnings, Marriages and Burialls in East Dereham 1620"). Page 00732 sits in the 1618 register year under the chronology lattice and the date locks to **25 May 1618** modern. Surname terminal is paleographically `Gurnoe` (open `-oe` form); `Gurney` is a downstream-normalization candidate. Source ID `fs-vnn2-4vc-marye-gurney-baptism-east-dereham` added.[^east-dereham-paleographic-2026]
+
+3. **Margaret-daughter-of-ffrancis-Gurnoe 00732 baptism lead — withdrawn.** The V39 held-review lead for a possible "Margaret daughter of ffrancis Gurnoe/Gurney bapt may 25" on `crop_00732_enhanced.png` is withdrawn. The focused sweep refutes 'Margaret' (word length and terminal incompatible) and replaces with the 'Marye' reading promoted to Entry D above. There is therefore no previously-undocumented daughter Margaret arising from the 00732 image; the original Margaret Rybett burial question remains open and unresolved by the East Dereham image set reviewed to date.
+
+Chronology context (all I-class except where noted):
+
+- Pages 00735 / 00736 = 1620 register year (D, in-parchment heading).
+- Pages 00726 / 00727 = 1616 register year (D, in-parchment "25 of March 1616 unto the 25 of March 1617" date span).
+- Page 00725 = 1615 register year burial subsection (I, derived by sequence from the 1616 anchor).
+- Entry B and Entry C (00725 burials) therefore sit in the 25 March 1615 - 25 March 1616 OS register year; the Agnes burial 31 January is **31 January 1616** modern. The Marye burial month token is 4 character widths and refutes spelled-out 'January'; compatible with abbreviated Iany/Jany (late January 1616 modern) or with mid-summer Iuny/Iuly (June/July 1615 modern).
+- Entry A (Edward, 00721 baptism) sits in the pre-00726 portion of the register and the lattice does not extend back with the same confidence; case-file ±2-3 year margin applies. The FS-indexed 1610 derives from a modern marginal annotation.
+
+Register layout note: from page 00726 the register is laid out as combined annual returns (christenings + marriages + burials per page), with an inline "Mariages" subsection header. The 1617 annual return marriages subsection (pages 00728-00730) does not contain a Gurney candidate; other annual returns' marriages subsections (1616, 1618, 1619, 1620, and any pre-00726 marriages) remain unscanned and are the most direct path for testing whether Francis G14 + Margaret Rybett married at East Dereham.[^east-dereham-paleographic-2026]
+
+[^east-dereham-paleographic-2026]: Paleographic analysis under `sources/media/Parish_Register_East_Dereham/`. Comprehensive deep-reference at `east-dereham-paleographic-analysis-comprehensive-2026-05-15.md`. Topic narrative at `research/topics/east-dereham-parish-register-paleography.md`. Validation note `sources/validations/east-dereham-pd-86-41-register-structure-and-chronology.md`. Tooling at `tools/east_dereham_image_sweeps.py`. Source IDs `fs-vnn2-4vc-marye-gurney-baptism-east-dereham`, `fs-vnn2-wr2-marye-gurney-burial-east-dereham`, `fs-vnn2-wrg-agnes-gurney-burial-east-dereham`, `fs-vnn2-scf-edward-gurney-baptism-east-dereham`.
 
 ### Pettigrew on Francis Gurnay of London and the Keswick commercial line
 
@@ -27,6 +111,13 @@ The Camden/Thoms notice of Sir Nicholas Lestrange's anecdote manuscript identifi
 That notice strengthens the social setting already known from Daniel Gurney: Francis's agency for the Lestranges was not an isolated employment relationship but sat inside a dense cousinage linking the Gurneys, Lewkenors, Lestranges, Stubb(e)s, Calthorpes, and Heydons.
 
 [^hmc-kings-lynn-francis]: Historical Manuscripts Commission, "The Borough of King's Lynn: Miscellaneous Writings," *Eleventh Report, Appendix, Part III*, British History Online, https://www.british-history.ac.uk/hist-mss-comm/vol11/pt3/pp235-247. Source ID: `bho-hmc-kings-lynn-misc-writings`.
+[^mt-ukda]: Scott, M. (2024), *Merchant Taylors' Company of London: Apprentices 1583–1800* [data collection], UK Data Service, SN 9263, DOI [10.5255/UKDA-SN-9263-1](https://doi.org/10.5255/UKDA-SN-9263-1), study catalogue [datacatalogue.ukdataservice.ac.uk/studies/study/9263#details](https://datacatalogue.ukdataservice.ac.uk/studies/study/9263#details). Francis Gurney binding at COMB sheet row 1829 / Freedoms row 25149 (volume 3a, binding no. 611, page 37). Source ID: `ukda-9263-mt-apprentices-scott-2024`. Cross-extract at `sources/media/ukda-9263-merchant-taylors-apprentices/gurney-variants-extract.csv`.
+[^mt-parentage]: Same MT binding entry as `mt-ukda` above; for the standing parentage stack, see Daniel Gurney, *Record*, Part III, pp. 523–526 (`dg-rec-pt3`); Blomefield's Norfolk topography (`blomefield-norfolk`); 1633/4 London Visitation; Pettigrew, *Collectanea Archaeologica*, vol. 2 (1871), pp. 207–210 (`pettigrew-collectanea-house-gournay-1871`); Bernau, *British Archivist* I.7 (September 1913), "His Parentage" section (`british-archivist-bernau-1913`).
+[^mt-freedom-date]: Daniel Gurney, *The Record of the House of Gournay, Supplement* (London: privately printed, 1858), Note 181, "Francis Gurney of London," quoting the Merchant Taylors' Company freedom record dated 16 June 1606. Source ID: `dg-rec-supp`. The UKDA-SN-9263 binding-book entry (volume 3a, binding no. 611, page 37) records 30 June 1606. Reconciliation pending against the Guildhall MS or the British Record Society print volumes 136–138.
+[^mt-dg-norwich]: Daniel Gurney, *Record*, Part III (1848), p. 524, Francis Gurnay of London entry. Source ID: `dg-rec-pt3`.
+[^mt-spelman]: UKDA-SN-9263, COMB sheet row 24423 and Freedoms sheet row 54113 (volume 7, binding no. 2160, page 256). Source ID: `ukda-9263-mt-apprentices-scott-2024`.
+[^mt-bernau-spelman]: Charles A. Bernau, "Unrecorded Biographies: Francis Gournay (or Gurney), of Maldon, Essex," *The British Archivist*, vol. I, no. 7 (September 1913), pp. 49 ff., "His Parentage" section: "It is thought that he may have been identical with a Francis GOURNAY who gave Sir Henry SPELMAN a manuscript pedigree of the Gournay family." Source ID: `british-archivist-bernau-1913`.
+[^mt-no-john]: UKDA-SN-9263, COMB rows 7404 and 25472 (volume 3b binding no. 852, page 114, John Gurney son of William Glover of "Moborne" Worcestershire, bound 13 September 1602 to James Briggs of Shoe Lane; volume 14 binding no. 514, page 67, John Gurny son of John Ironmonger of Aylesbury Bucks, bound 30 May 1655 to Alexander Harbin of Gracechurch Street). The Patrimony sheet (3,391 rows) contains no Gurney-variant occurrence. Source ID: `ukda-9263-mt-apprentices-scott-2024`. Analysis: `research/topics/merchant-taylors-1583-1800-gurney-analysis.md`.
 [^pettigrew-francis-g14]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 207-210, Google Books, https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ. Source ID: `pettigrew-collectanea-house-gournay-1871`.
 [^thoms-lestrange-g14]: William J. Thoms, ed., *Anecdotes and Traditions, Illustrative of Early English History and Literature, Derived from MS. Sources* (Camden Society, old series, vol. 5, 1839), prefatory notice, pp. xviii-xx; Internet Archive PDF lead, https://ia800805.us.archive.org/view_archive.php?archive=/13/items/crossref-pre-1909-scholarly-works/10.1017%252Fs1816968600039876.zip&file=10.1017%252Fs2042169900000870.pdf. Source ID: `thoms-anecdotes-traditions-1839`.
 
@@ -52,8 +143,11 @@ The two dates are not automatically incompatible. The London visitation of Henry
 
 Open item: confirm the exact sitting date against the Harleian Society published transcript or MS in the College of Arms.
 
+Walter Rye's *The Gurneys of Norwich* (Norfolk Antiquarian Miscellany, 1906) independently cites a 1664 Essex Visitation attestation of the Gurney pedigree at p. 537 in addition to the 1633 London Visitation. The 1664 Essex Visitation is most plausibly Francis G14's son Francis-the-younger of Maldon attesting the pedigree after his father's 1646/7 death; documenting the connection is useful for downstream Browning / Maldon work but does not change Francis G14's biography directly.[^rye-1664-essex-visitation]
+
 [^bernau-visitation]: Bernau, *British Archivist* I.7, "His Parentage" section: "In 1634 Francis attested the GOURNAY pedigree in the Heralds' Visitation of London."
 [^fs-visitation]: `fact-sheets/g14-francis-gurney-fact-sheet.md`, Timeline and Highlights sections; `research/case-files/john-gurney-case-file-v4.md`, §2.4 and Master Timeline.
+[^rye-1664-essex-visitation]: Walter Rye, "The Gurneys of Norwich," *Norfolk Antiquarian Miscellany* (Norwich: Gibbs and Waller, 1906), p. 285; corpus extract at `sources/corpus/norfolk-antiquarian-gurneys-of-norwich.md`. Source ID `rye-norfolk-antiquarian`.
 
 ### Second wife's father located as William Browning of Norwich and Maldon
 
@@ -100,6 +194,10 @@ Bernau explicitly warns that "there is no complete record of the children of Fra
 **Entries on the current fact sheet that do not appear in Bernau:**
 
 Deborah (21 August 1632), Elizabeth (10 February 1634/5), Mary (19 December 1637), and the 1625 "Francis" described above.[^fs-non-bernau]
+
+**Late correction to DNB / Bernau on Edmund the Divine.** A FamilySearch index entry shows Edmund Walker Gurney baptized 13 October 1644 at Norwich, father Edmund Gurney. This places at least one surviving son of Edmund Gurney G14b (the Divine, d. 1648) past the Protestant child of 1624 whom DNB and Bernau treat as Edmund's only known issue. Material to Edmund Gurney G14b's biography, not to Francis G14 directly.[^edmund-walker-gurney-1644]
+
+[^edmund-walker-gurney-1644]: FamilySearch index entry for Edmund Walker Gurney, christening 13 October 1644, Norwich, Norfolk, father Edmund Gurney. Sources `fs-england-births-christenings`.
 
 **Speculative additions in Bernau (flagged with "?"):**
 
