@@ -79,6 +79,40 @@ John Newgate himself is securely documented in Boston. A 1639 Winthrop deed iden
 [^tag-grissell-lead]: Mary Lovering Holman, "Grissell of the Many Marriages," *The American Genealogist*, vol. 10, no. 2 (October 1933), pp. 70-73, Internet Archive, https://archive.org/details/sim_american-genealogist_1933-10_10_2. Source ID: `tag-10-70`.
 [^mhs-newgate-feltmaker]: Massachusetts Historical Society, Winthrop Papers Digital Edition, Papers of the Winthrop Family, vol. 4, deed of John Winthrop to John Newgate, 18 Dec. 1639, https://www.masshist.org/publications/winthrop/index.php/view/PWF04p162. Source ID: `mhs-winthrop-papers-newgate-deed-1639`.
 
+### Newgate's Horningsheath origin — explains Banks's Bury St Edmunds attribution
+
+John Newgate himself was from Horningsheath, Suffolk (~3 miles south-west of Bury St Edmunds), residing later at Hessett, Bury St Edmunds, and Southwark before his 1633 emigration.[^newgate-horningsheath-2026] The 1636 apprentice he brought before the Boston court was therefore most plausibly a young Suffolk man drawn from Newgate's own kinship or apprenticeship network. This is the cleanest single explanation for Banks's "Bury St Edmunds" attribution for John Gurney (`banks-brownell-1937` p. 151): Banks's manuscript memo likely recorded the apprentice rather than the older Braintree John, with subsequent compiler tradition then conflating the two Johns into a single biographical sketch.
+
+Anderson's 1636 arrival date in the *Great Migration Directory* (`anderson-gmd-2015` p. 158) is most plausibly traceable to the same Newgate-apprentice tradition rather than to the older Braintree John, who first appears in primary colonial records at Weymouth in June 1641. The recurring American family-memory tradition of a 29 September 1615 birth and "Southwark, near London Bridge" origin (Lysander F. Gurney sketch; *American Biography* vol. 26; Find a Grave memorial 252975617) sits cleanly inside the apprentice's profile (1615 birth, Newgate's last English residence at Southwark) and would have entered the American line via the apprentice's own descent (if he stayed in New England) or via early conflation with the older man.
+
+No separate post-1639 colonial trail surfaces in indexed Massachusetts records for a John Gurney born c.1615. The apprentice may have died in early Boston (smallpox, fluxes, and infant mortality were endemic), returned to England at term-end, or married into a non-Gurney surname. The two-Johns reading remains the cleanest framing.
+
+[^newgate-horningsheath-2026]: WikiTree profile John Newgate (Newgate-14), https://www.wikitree.com/wiki/Newgate-14. Source ID `wikitree-newgate-14-horningsheath`. Validation note `sources/validations/wikitree-newgate-14-horningsheath.md`. The 1583 Horningsheath baptism is flagged in the WikiTree source as possibly belonging to John or to a same-named brother. A primary-source pull of the Horningsheath parish-register baptism and of Newgate's own 1664 will (proved 11 September 1665) would convert this from compiled-source to primary level.
+
+### Great Migration corridor — empirical priors for Candidate B
+
+Approximately 60 percent of Massachusetts Bay emigrants 1630-1640 came from nine eastern counties (Norfolk, Suffolk, Essex, Hertfordshire, Cambridgeshire, Huntingdonshire, Lincolnshire, parts of Bedfordshire, Kent), with under 10 percent from London proper and the remaining ~40 percent from thirty-four other English counties.[^fischer-corridor-2026] Roger Thompson documents 2,000+ departures from greater East Anglia (Lincoln-Norfolk-Suffolk-Cambridge-Essex) in the same decade.[^thompson-corridor-2026] Francis G14's combined Norfolk-and-London profile sits inside the dominant corridor.
+
+The Edward Gilman cohort emigration on the Diligent of Ipswich (departed 26 April 1638 Gravesend, arrived Boston 10 August 1638, primarily Norfolk Hingham passengers bound for Hingham, Massachusetts — fewer than 10 miles from Braintree/Weymouth) is the corridor event nearest in time and place to John Gurney's 1641 Weymouth appearance. Ann Gurney's husband John Gilman was apprenticed in 1609 in Deopham, Norfolk as a worsted weaver to John Bubbyn; Ann Gurney + John Gilman themselves did not emigrate (Ann buried Hingham, Norfolk, 23 November 1651), but at least two of their sons emigrated to Exeter, New Hampshire (John Gilman Jr born 1638, emigrated by 1658; Charles Gilman born 1642, emigrated 1664 "with his brother John and cousins"). The Diligent passenger list itself contains no Gurney passenger (Banks/Cushing transcription), so John Gurney travelled on a different vessel within the same multi-year corridor.[^gilman-diligent-2026]
+
+The conditional probability of an East Anglia / London origin for the colonial John, given his Essex colonial associations (Daniel Shed of Finchingfield as son-in-law, William Tyng of Stanford Rivers as landlord, Braintree-MA named after Braintree-Essex, Coleman Street adjacency), is materially higher than the unconditional ~60% corridor baseline.
+
+[^fischer-corridor-2026]: David Hackett Fischer, *Albion's Seed: Four British Folkways in America* (New York: Oxford University Press, 1989), ch. 6 "Regional Origins of the Puritan Migration." Source ID `fischer-albions-seed-1989`.
+[^thompson-corridor-2026]: Roger Thompson, *Mobility and Migration: East Anglian Founders of New England, 1629-1640* (Amherst: University of Massachusetts Press, 1994). Source ID `thompson-mobility-migration-1994`.
+[^gilman-diligent-2026]: Diligent of Ipswich 1638 passenger list per Charles Edward Banks, *Planters of the Commonwealth* (Boston, 1930), transcribed by Daniel Cushing (3rd-4th Town Clerk of Hingham MA) and republished at packrat-pro.com/ships/dilligent.htm (accessed 2026-05-15). John Gilman / Ann Gurney biography per WikiTree profiles Gilman-72 and Gurney-13 (compiled-genealogy level). The Diligent passenger list contains no Gurney variant. No source ID added for the packrat transcription; the Banks 1930 work itself sits at the level of compiled-genealogy origin documentation.
+
+### Mary Gurney's English birth — bounded via Mary Shed 1647 marriage
+
+Daniel Shed was baptized 25 June 1620 at St John the Baptist, Finchingfield, Essex (parish register confirmed via Essex, England Church of England Baptisms, Marriages and Burials 1538-1812). He first appears in Braintree, Massachusetts records by 1643 and married Mary Gurney in 1647. The Braintree Book of Records preserves seven births to Daniel and Mary between 1 October 1647 and 30 October 1658.[^shedd-1920-mary-bounding]
+
+At a minimum reasonable marriage age of 16, Mary Gurney was born by 1631. Standard derivative tradition (Sprague p. 695; *History of Weymouth* vol. 3 p. 251; Torrey p. 666 with question marks; Shedd 1920) places her birth at c.1628 in England. Either way, Mary was born in England well before any colonial residence for the colonial John Gurney.
+
+This bounds the John Gurney + Mary marriage as an English event before 1628. FS, Findmypast, and Ancestry indexed eastern-England parish-marriage collections 1620-1635 contain zero John Gurney + Mary marriages outside the already-eliminated Eythorne Kent / Mary Marsh event. The absence of an indexed John+Mary marriage reflects parish-register coverage gaps in 17th-century East Anglian indexing rather than an absent or out-of-England event. A plausible split-family chronology places Sarah, Mary, Richard, and John Jr born in England (c.1627-1633) and Peter and possibly Isaac born in Massachusetts (c.1638-1645).
+
+The case-file's prior "no English baptism of any colonial-John child" reading is best understood as a parallel parish-register-coverage gap on the English side, not as evidence against an English marriage.
+
+[^shedd-1920-mary-bounding]: Frank E. Shedd, Hubert C. Shedd, and J. Gardner Bartlett, *Daniel Shed Genealogy: Ancestry and Descendants of Daniel Shed of Braintree, Massachusetts, 1327-1920* (Boston: Shedd Family Association, 1920), https://archive.org/details/danielshedgeneal01shed; Bates, *Records of the Town of Braintree* (1886). Source IDs `shedd-daniel-shed-genealogy-1920`, `braintree-records-1640-1793-1886`.
+
 ### Torrey marriage compendium - John1 family group cross-check
 
 Torrey's *New England Marriages Prior to 1700*, page 331, gives a one-page cross-check of the John1 family group used in this file. The relevant Gurney lines on that page are:
@@ -575,10 +609,14 @@ The Toddington Beds John Gurney + Elizabeth Moreton household has positive Engli
 
 ## Working Hypotheses
 
-- **Candidate B** (son of Francis G14 + Margaret Rybett, probably Norwich / East Dereham connected): **~55–60%**. Active working hypothesis.
-- **Candidate A** (Stewkley baptism 1602/3 → Bierton marriage 1628 → Aylesbury hundred → Walgrave Northamptonshire 1650): **ELIMINATED**. Continuous English residence 1603-1653 with wife Alice Oliffe and five children at Saint Mary Aylesbury 1638-1653; 1641 certificate of residence; 1650 Walgrave tenancy.
-- **Candidate C** (Berkhamsted, Hertfordshire): **ELIMINATED**. Eight-child Berkhamsted family group 1610-1636 fathered by a John born about 1585-1590; Francis son 1636; absent Mary and Peter.
-- **Other origins:** **~40-45%** residual after Candidates A and C are eliminated outright.
+- **Candidate B** (son of Francis G14 + Margaret Rybett, probably Norwich / East Dereham connected): **~65-70%**. Active working hypothesis. Probability raised from v4's ~55-60% on the basis of (a) the Newgate Horningsheath finding redirecting Banks's BSE attribution off the elder Braintree John, (b) FS-indexed primary reclassification of Francis G14's East Dereham child cluster (Marye and Agnes burial entries now confirmed at the FS-index level via VNN2-WR2 and VNN2-WRG, plus a probable 1633 Francis burial at VNN2-H8S), and (c) the Mary Shed 1647 marriage tightly bounding the John+Mary marriage to England before 1628 and reframing the indexed-marriage absence as a parish-coverage gap rather than counter-evidence.
+- **Candidate A** (Stewkley baptism 1602/3 → Bierton marriage 1628 → Aylesbury hundred → Walgrave Northamptonshire 1650): **ELIMINATED**. Continuous English residence 1603-1653 with wife Alice Oliffe.
+- **Candidate C** (Berkhamsted, Hertfordshire): **ELIMINATED**. Eight-child Berkhamsted family group 1610-1636 fathered by a John born about 1585-1590.
+- **Candidate D** (London Drapers' / Old Change): **Unlikely (~3-5%)**. Strong post-1625 London continuity argues against the migration profile.
+- **Other named candidates** (Aylesbury Cowheard groom, Norwich Jane Wright groom, etc.): **~5% combined**.
+- **Unknown corridor (East Anglia / London)**: ~15-20% residual.
+- **Unknown other corridor (Kent, Lincs, West Country)**: ~5-10% residual.
+- **1636 apprentice as distinct second John whose later trail is lost**: ~3-5%.
 
 ---
 

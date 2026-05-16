@@ -852,6 +852,18 @@
     "notes": "Three Gurney burials at the same Bury St Edmunds parish in a four-year window: John Gurney 11 Dec 1653; unnamed Gurney 6 Apr 1655; unnamed Gurney 13 May 1656 explicitly noted 'Wife'. Read as one continuing Bury household with the John male burial in 1653, a probable daughter or child in 1655, and the widow in 1656. Material to Section 10.6 of the John Gurney case file: a John Gurney was buried at Bury St Edmunds in December 1653 while the colonial John was deposing at Braintree in 1653. The case file does not currently fix the deposition's month, so the Bury burial does not conclusively eliminate the Bury-Boston identification but does tighten the priors against Banks's attribution. Bury parish register manuscript image not yet pulled; the National Burial Index transcript is the level reached in the present pass."
   },
   {
+    "sourceId": "findmypast-norfolk-burials-index",
+    "shortTitle": "Findmypast Norfolk Burials index",
+    "citation": "Norfolk Burials, Findmypast (sid=103). Norfolk Record Office partnership index of parish burial registers.",
+    "archive": "Findmypast / Norfolk Record Office",
+    "url": "https://search.findmypast.com/search-world-records/norfolk-burials",
+    "corpusStatus": "transcript",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Used in negative-result mode for Margaret Rybett's burial 1614-1620: zero Margaret Gurney/Ryvett burials surface across Norfolk surname variants, including at East Dereham specifically. Burial therefore not in indexed Norfolk burials; future targets are Suffolk burials (Ryvett family geography) and the East Dereham parish-register burial-section image walk."
+  },
+  {
     "sourceId": "findmypast-uk-parish-baptisms",
     "shortTitle": "Findmypast UK Parish Baptisms",
     "citation": "Findmypast UK Parish Baptisms aggregated dataset within Birth, Marriage, Death and Parish Records.",
@@ -946,6 +958,78 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "FreeREG confirmed Francis G14 burial 9 Jan 1646/7, St Botolph Bishopsgate. Corrected Boyd's 1641 misread."
+  },
+  {
+    "sourceId": "fs-jw7y-c3b-john-gurney-baptism-st-ann-blackfriars",
+    "shortTitle": "FS index JW7Y-C3B — John Gurney baptism, St Ann Blackfriars, 1615, father Wm.",
+    "citation": "England, Births and Christenings, 1538-1975, FamilySearch entry for John Gurney, christening 13 March 1615, Saint Ann Blackfriars, London, father Wm. Gurney. FS index identifier JW7Y-C3B.",
+    "archive": "FamilySearch — England, Births and Christenings, 1538-1975",
+    "url": "https://www.familysearch.org/ark:/61903/1:1:JW7Y-C3B",
+    "corpusStatus": "transcript",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Image unavailable in FS at index level. Father is indexed as 'Wm.' (William) Gurney, not P or F. Resolves the case file's earlier 'P Gurney' lead. Consistent with the London William Gurney cluster (Coleman Street Protestation; PROB 11/252/152 barber-chirurgion William, sons John, Abel, Walter)."
+  },
+  {
+    "sourceId": "fs-vnn2-4vc-marye-gurney-baptism-east-dereham",
+    "shortTitle": "FS index VNN2-4VC — Marye Gurney baptism 25 May 1618, East Dereham, father Francis",
+    "citation": "England, Norfolk, Parish Registers (County Record Office), 1510-1997, FamilySearch entry for Mary Gurney, christening 25 May 1618, Dereham (East Dereham), Norfolk, father Francis Gurney. FS index identifier VNN2-4VC. The underlying register entry reads 'Marye the daughter of ffrancis Gurnoe bapt may 25' on PD 86/41 page 00732; the surname terminal is paleographically Gurnoe with downstream-normalized Gurney.",
+    "archive": "FamilySearch — Norfolk Record Office partnership collection",
+    "url": "https://www.familysearch.org/ark:/61903/1:1:VNN2-4VC",
+    "corpusStatus": "transcript",
+    "corpusPath": "",
+    "mediaPath": "sources/media/Parish_Register_East_Dereham/page_00732_line_margaret_ffrancis_gurnoe_sweep.png",
+    "validationPath": "sources/validations/fs-east-dereham-francis-gurney-indexed-children.md",
+    "notes": "Baptism entry for Marye daughter of ffrancis Gurnoe at East Dereham, 25 May 1618. Visual reading from the enhanced register page (gbprs_norfolk_pd_86-41_00732.jpg, line-level six-state sweep). Anchors case-file Entry D. Year is locked by the chronology lattice in sources/validations/east-dereham-pd-86-41-register-structure-and-chronology.md: pages 00731/00732 are the 1618 register year (25 March 1618 - 25 March 1619) under the combined-annual-return layout, two annual returns before the directly-anchored 1620 register year on 00735/00736. The earlier case-file attribution of this entry to page 00736 reflects a pre-2026-05-15 working assumption; the actual 00736 page is a 1620 christenings page (page title 'Billes Indented of all the Christnings, Marriages and Burialls in East Dereham 1620'). The 25 May 1618 Marye baptism is a separate, later child of the same name as the 25 January (year-unindexed) Marye burial on page 00725 — a name-reuse pattern consistent with the earlier Marye having died in infancy."
+  },
+  {
+    "sourceId": "fs-vnn2-h8s-francis-gurney-burial-east-dereham-1633",
+    "shortTitle": "FS index VNN2-H8S — Francis Gurney burial 8 November 1633, East Dereham",
+    "citation": "England, Norfolk, Parish Registers (County Record Office), 1510-1997, FamilySearch entry for Francis Gurney, burial 8 November 1633, Dereham (East Dereham), Norfolk. No parent in index. FS index identifier VNN2-H8S.",
+    "archive": "FamilySearch — Norfolk Record Office partnership collection",
+    "url": "https://www.familysearch.org/ark:/61903/1:1:VNN2-H8S",
+    "corpusStatus": "transcript",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/fs-east-dereham-francis-gurney-indexed-children.md",
+    "notes": "Francis Gurney burial 8 November 1633 at East Dereham, parent not in the index. The case file treats this as a probable son of Francis G14 born East Dereham c.1611-1618 who died young. Francis G14 himself died 1646/7 at St Botolph Bishopsgate London; Francis B 'the laceweaver' was a Norwich St Peter Mountergate household. Neither matches. Name-reuse for the 1628 St Benet Fink Francis (case file's Maldon Francis, Bernau 1913) is the corroborating pattern."
+  },
+  {
+    "sourceId": "fs-vnn2-scf-edward-gurney-baptism-east-dereham",
+    "shortTitle": "FS index VNN2-SCF — Edward Gurney baptism, East Dereham, father Francis",
+    "citation": "England, Norfolk, Parish Registers (County Record Office), 1510-1997, FamilySearch entry for Edward Gurney, christening 27 May 1610, Dereham (East Dereham), Norfolk, father Francis Gurney. FS index identifier VNN2-SCF.",
+    "archive": "FamilySearch — Norfolk Record Office partnership collection",
+    "url": "https://www.familysearch.org/ark:/61903/1:1:VNN2-SCF",
+    "corpusStatus": "transcript",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/fs-east-dereham-francis-gurney-indexed-children.md",
+    "notes": "Primary index entry for the East Dereham Edward baptism (case-file Entry A). The indexed date 27 May 1610 inherits its year from a modern margin annotation 'PD 86/41/6 1610' written on the page in the same recent hand as the modern parish-volume foliation; it is not a contemporaneous register-year heading. The case file's ±2-3 year margin on East Dereham dates remains the correct posture. Year is post-2026-05-15 understood as not directly anchored by an in-parchment heading on page 00721; the chronology lattice in sources/validations/east-dereham-pd-86-41-register-structure-and-chronology.md applies only from page 00726 onward (where the combined-annual-return layout begins). The case file's ±2-3 year margin therefore continues to apply to the Edward year specifically; the indexed 1610 date inherits from a modern marginal annotation. Plausible year range remains c.1610-1613."
+  },
+  {
+    "sourceId": "fs-vnn2-wr2-marye-gurney-burial-east-dereham",
+    "shortTitle": "FS index VNN2-WR2 — Marye Gurney burial, East Dereham, father Francis",
+    "citation": "England, Norfolk, Parish Registers (County Record Office), 1510-1997, FamilySearch entry for Mary Gurney, burial 25 January (year unspecified in index), Dereham (East Dereham), Norfolk, father Francis. FS index identifier VNN2-WR2. The underlying register entry reads as 'Marye ... of ffrancis Gurny' with relationship word damaged; reading is 'daughter of' by default given the same-line family-cluster context.",
+    "archive": "FamilySearch — Norfolk Record Office partnership collection",
+    "url": "https://www.familysearch.org/ark:/61903/1:1:VNN2-WR2",
+    "corpusStatus": "transcript",
+    "corpusPath": "",
+    "mediaPath": "sources/media/Parish_Register_East_Dereham/page_00725_line_marye_ffrancis_gurny_sweep.png",
+    "validationPath": "sources/validations/fs-east-dereham-francis-gurney-indexed-children.md",
+    "notes": "Burial entry for Marye daughter of ffrancis Gurny at East Dereham, 25 January (year not indexed). Visual reading from the enhanced register page (gbprs_norfolk_pd_86-41_00725.jpg, line-level crop). Resolves the case file's pre-existing Entry B (Marye c.1614-15 at image 00724/725) as a burial, not a baptism. The 25 May 1618 Marye baptism at the same parish (Entry D, FS index VNN2-4VC) is a separate, later child of the same name — a name-reuse pattern consistent with the earlier Marye having died in infancy. Post-2026-05-15 paleographic refinement: the relationship token between 'Marye' and 'of ffrancis Gurny' was magnified at 4x in sources/media/Parish_Register_East_Dereham/page_00725_marye_relationship_token_magnification_sweep.png. The token is 4-5 character widths with an opening-letter shape that refutes 'daughter' and is class-consistent with niece/nephew family. The default 'daughter of' framing in this notes field should be read as the V39 working assumption; the case-file Entry B framing in v4.1 carries the refined family-relation-class wording. The month token before '25' was magnified in sources/media/Parish_Register_East_Dereham/page_00725_marye_month_token_magnification_sweep.png and is 4 character widths, refuting spelled-out 'January'; compatible with abbreviated Iany/Jany (late January 1616 modern) or with mid-summer Iuny/Iuly (June/July 1615 modern). The chronology lattice in sources/validations/east-dereham-pd-86-41-register-structure-and-chronology.md anchors the 00725 burial year to 1615 (Old Style); the Agnes burial on 31 January is therefore 31 January 1616 modern; the Marye burial day-month is 25 of an ambiguous month in the same register year."
+  },
+  {
+    "sourceId": "fs-vnn2-wrg-agnes-gurney-burial-east-dereham",
+    "shortTitle": "FS index VNN2-WRG — Agnes (FS-indexed 'Susan') Gurney burial, East Dereham, father Francis",
+    "citation": "England, Norfolk, Parish Registers (County Record Office), 1510-1997, FamilySearch entry indexed as Susan Gurney, burial 31 January (year unspecified in index), Dereham (East Dereham), Norfolk, father Francis. FS index identifier VNN2-WRG. The underlying register entry reads 'Agnes the daughter of ffrancis Gurny'; the FS index 'Susan' is an indexer mis-read.",
+    "archive": "FamilySearch — Norfolk Record Office partnership collection",
+    "url": "https://www.familysearch.org/ark:/61903/1:1:VNN2-WRG",
+    "corpusStatus": "transcript",
+    "corpusPath": "",
+    "mediaPath": "sources/media/Parish_Register_East_Dereham/page_00725_line_agnes_ffrancis_gurny_sweep.png",
+    "validationPath": "sources/validations/fs-east-dereham-francis-gurney-indexed-children.md",
+    "notes": "Burial entry for Agnes the daughter of ffrancis Gurny at East Dereham. Visual reading from the enhanced register page (gbprs_norfolk_pd_86-41_00725.jpg, line-level crop) supports 'Agnes the daughter of ffrancis Gurny' with date 31 January; year is index-unspecified. The FS index 'Susan Gurney' is the indexer's mis-read. Resolves the case file's pre-existing Entry C (Agnes c.1614 at image 00724/725) as a burial, not a baptism. Sibling burial entry VNN2-WR2 (indexed Mary, 25 January) is on the same page (FS waypoint S3HT-65F5-TN, image 33 of 110). Post-2026-05-15 chronology-lattice work anchors this burial date to 31 January 1616 modern (25 March 1615 - 25 March 1616 register year on page 00725, immediately preceding the directly-anchored 25 March 1616 - 25 March 1617 annual return on pages 00726/00727; in-parchment date span at sources/media/Parish_Register_East_Dereham/page_00726_00727_heading_year_sweep.png)."
   },
   {
     "sourceId": "dumoulin-histoire-generale-normandie-1631",
@@ -2028,6 +2112,30 @@
     "notes": "Earliest comprehensive reference for John Gurney-1. Cites the 1653 deposition 'aged about 50.'"
   },
   {
+    "sourceId": "ukda-9263-mt-apprentices-scott-2024",
+    "shortTitle": "Scott, Merchant Taylors' Apprentices 1583-1800 (UKDA-SN-9263)",
+    "citation": "Scott, M. (2024). Merchant Taylors' Company of London: Apprentices 1583-1800 [data collection]. UK Data Service. SN 9263. DOI: 10.5255/UKDA-SN-9263-1. Print companion: M. Scott, The Merchant Taylors Company of London: Apprentices 1583-1800, British Record Society vols 136-138.",
+    "archive": "UK Data Service / Guildhall Library Manuscripts Section (primary registers)",
+    "url": "https://datacatalogue.ukdataservice.ac.uk/studies/study/9263#details",
+    "corpusStatus": "full",
+    "corpusPath": "",
+    "mediaPath": "sources/media/ukda-9263-merchant-taylors-apprentices/",
+    "validationPath": "sources/validations/ukda-9263-mt-apprentices-scott-2024.md",
+    "notes": "Published transcription of the Merchant Taylors' Company binding books and freedom registers, 1583-1800: 63,644 binding rows in COMB, 65,392 freedom rows, plus Court Appearances, Redemptions, and Patrimony sheets. CC BY-NC-SA 4.0. Primary first-hand evidence for Francis Gurney G14's apprenticeship (bound 14 May 1599 to Henry Tryme, transferred 3 Feb 1605 to William Smooth, freed 30 June 1606) and for Francis G14 as master taking Francis Spelman s. Sir Henry Spelman in 1616 with a £100 bond. Confirms no John Gurney son of Francis Gurney was bound or freed by patrimony in the MT 1583-1800 record. See research/topics/merchant-taylors-1583-1800-gurney-analysis.md."
+  },
+  {
+    "sourceId": "shedd-daniel-shed-genealogy-1920",
+    "shortTitle": "Shedd, Daniel Shed Genealogy (1920)",
+    "citation": "Shedd, Frank Edson, Hubert C. Shedd, and J. Gardner Bartlett. Daniel Shed Genealogy: Ancestry and Descendants of Daniel Shed of Braintree, Massachusetts, 1327-1920. Boston: Shedd Family Association, 1920.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/danielshedgeneal01shed",
+    "corpusStatus": "partial",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Daniel Shed (b. Finchingfield, Essex, baptized 25 June 1620; first in Braintree records 1643; married Mary Gurney 1647) and descendants. Records seven children of Daniel + Mary between 1 October 1647 and 30 October 1658 per Braintree Book of Records. Used in case-file §6 to bound Mary Gurney's English birth before 1628."
+  },
+  {
     "sourceId": "spr-case-338-john-gurney-probate-1663",
     "shortTitle": "SPR Case #338 - John Gurney probate inventory",
     "citation": "Suffolk County, Massachusetts, Probate Records, Case #338, John Gurney Senr probate inventory, Braintree, 16 March 1663; manuscript image supplied by Allen Gurney, file 102840311_00516.jpg.",
@@ -2160,6 +2268,18 @@
     "notes": "Secondary compiled genealogy. Relevant for the Benjamin Gurney G10 / Jane Harden non-marital relationship, the identification of Benjamin Gurney G10 as father of Benjamin G9, Jane's reported return to Braintree with her parents, Sarah Harden's marriage to Nathan Gurney, and the later Sarah Morse child set including a second Benjamin. Use as corroborating secondary evidence, not as primary proof."
   },
   {
+    "sourceId": "thompson-mobility-migration-1994",
+    "shortTitle": "Thompson, Mobility and Migration (1994)",
+    "citation": "Thompson, Roger. Mobility and Migration: East Anglian Founders of New England, 1629-1640. Amherst: University of Massachusetts Press, 1994.",
+    "archive": "",
+    "url": "",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Statistical study of the East Anglian Great Migration cohort. Documents 2,000+ individuals departing from greater East Anglia (Lincoln-Norfolk-Suffolk-Cambridge-Essex) 1630-1640 to New England. Used in case-file §10.2 corridor framing alongside Fischer (`fischer-albions-seed-1989`)."
+  },
+  {
     "sourceId": "thoms-anecdotes-traditions-1839",
     "shortTitle": "Thoms, Anecdotes and Traditions",
     "citation": "Thoms, William J., ed. Anecdotes and Traditions, Illustrative of Early English History and Literature, Derived from MS. Sources. Camden Society, old series, vol. 5. London: Printed for the Camden Society by J. B. Nichols and Son, 1839.",
@@ -2242,6 +2362,18 @@
     "mediaPath": "sources/media/1925_08Wansey_Family_Tree_Medieval_Genealogy.pdf",
     "validationPath": "sources/validations/wansey-medieval-genealogy-1925.md",
     "notes": "Image-only four-page Wansey/Wauncy pedigree PDF. User-supplied source-associated extract reports Edmund Gorney d. 1387; Katherine surviving until 3 Henry IV; son John Gurney married Alice Bavard, was knight of the shire in 6 Henry IV, and died in 9 Henry IV. Use as a direct conflict note against HoP/DG wife-name and date details."
+  },
+  {
+    "sourceId": "wikitree-newgate-14-horningsheath",
+    "shortTitle": "WikiTree Newgate-14 — John Newgate of Horningsheath, Suffolk",
+    "citation": "WikiTree profile John Newgate (Newgate-14): born about 1590 [uncertain], probably Horningsheath, Suffolk, England; resided Hessett (Suffolk), Bury St Edmunds, and Southwark; emigrated 1633 to Boston, Massachusetts; hatter, feltmaker, haberdasher; died before 8 September 1665, Boston; will dated 25 November 1664, proved 11 September 1665.",
+    "archive": "WikiTree.com",
+    "url": "https://www.wikitree.com/wiki/Newgate-14",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/wikitree-newgate-14-horningsheath.md",
+    "notes": "Compiled-genealogy source used in the case file solely for the John Newgate origin location (Horningsheath, Suffolk, ~3 miles from Bury St Edmunds). The Horningsheath origin is the cleanest explanation for Banks's 'Bury St Edmunds' attribution: the 1636 apprentice John Gurney whom Newgate brought before the governor would naturally have come from Newgate's own region. Treat as compiled-genealogy lead, not primary."
   },
   {
     "sourceId": "william-of-poitou-gesta-guillelmi",
