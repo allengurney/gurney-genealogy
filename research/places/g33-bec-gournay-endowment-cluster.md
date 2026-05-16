@@ -6,6 +6,18 @@ This aggregate place note preserves the Pays de Bray / Gournay-side property and
 
 Hugh III's relationship with Bec was not only personal and spiritual. It was also territorial. His Bec gifts included churches, tithes, houses, and milling rights in and around the Gournay lordship. This geography shows how the family converted seigneurial resources into monastic patronage.
 
+## Twelfth-century confirmation events
+
+Two later confirmations preserve the donation chain for this cluster:
+
+- **c. 1112 or 1122 — Hugues IV de Gournay's confirmation** records that Hugues IV confirmed gifts to Bec made by "his ancestors Hugues and Basilie, and by Gérard, his father," explicitly naming the Brémontier church and its tithes within the confirmed package. This is the earliest *familial* confirmation of the full Hugh III → Basilie → Gerard donation chain.[^decorde-hugues-iv-bec]
+- **[1181/89] — Henry II's royal confirmation** later restated the same chain at a royal level, naming "Hugonis de Gornaco et Girardi filii…Girardi de Gornaio et Basilie matris sue" and confirming the Bec possessions.[^fmg-henry-ii-bec]
+
+Together the two confirmations establish that the Gournay-Bec relationship was renewed at the family level within a single generation of Gerard's death and again at the royal level under Henry II, both with the explicit ancestor recitation that anchors Brémontier in the cluster.
+
+[^decorde-hugues-iv-bec]: J.-E. Decorde, *Essai historique et archéologique sur le Canton de Gournay* (1861); deep-research synthesis at `sources/corpus_supplement/deep-research-report-decorde-essai-gournay-ancestors.md`. Source ID: `decorde-essai-canton-gournay-1861`.
+[^fmg-henry-ii-bec]: Foundation for Medieval Genealogy, Norman Nobility — Hugh III de Gournay, citation [885] (Henry II's confirmation charter, [1181/89]). Already documented in `research/people/g32-gerard-de-gournay-fact-sheet.research.md` §2.9. Source ID: `fmg-medlands-normacre` (existing).
+
 ## Component places and rights
 
 The G33 research companion preserves the following donation geography:

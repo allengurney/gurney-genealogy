@@ -58,3 +58,12 @@ The `overlay_place_anchor` points added in this pass are covered by the sources 
 The v5 patchset also lists locator sources for modern commune, hameau, road-name, and place-identification support. These support coordinates and local context only; they should not carry major historical claims by themselves.
 
 Examples include Saint-Quentin-des-Pres locator pages, Hericourt-sur-Therain locator pages, Archives 76 commune dossiers for Doudeauville and Molagnies, Massy and Esclavelles dossiers, Criquiers / Haucourt / Fontenay-Torcy pages, Saint-Germer-de-Fly, Puiseux-en-Bray, and Saint-Pierre-es-Champs references.
+
+## Bosc-Hyons (medieval Boshyon / Boscus Hugonis) — direct Gournay landholding
+
+- Decorde 1861, Boshyon parish entry (OCR text at `sources/corpus_supplement/essai-historique-archeologique-canton-de-gournay-decorde-1861.txt`; source ID `decorde-essai-canton-gournay-1861`): records the 1082 Jumièges 190-arpent charter at Boshyon (*apud villam quae vocatur Hugonis silva*), the 1164 Hugues IV + Mélisende Gaillefontaine grain endowment (*apud Boscum Hugonis*), and the 1195 Manassès de Bully lamp endowment from the Boshyon mill.
+- Archives départementales 76 Bosc-Hyons commune dossier (`https://www.archivesdepartementales76.net/archive/catalogue/communes76/bosc-hyons/n:168`): modern commune identification.
+- Cartes France commune sheet for Bosc-Hyons (INSEE 76124, postal 76220, 49.446 N / 1.659 E): coordinate verification.
+- Canonical place record: `place-bosc-hyons-boshyon-normandy-france` in `data/places.json` / `data/places_detail.json` (added in v42).
+- Research narrative: `research/places/bosc-hyons.md`.
+

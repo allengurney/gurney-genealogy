@@ -10,6 +10,14 @@ Orderic Vitalis records that Gerard de Gournay delivered Gournay, La Ferté, and
 
 The heritage record for the Domaine de Gaillefontaine identifies the motte castrale as evidence of the site's importance in the Pays de Bray, on the old frontier between Normandy and the northern royal domain. This fits the broader Gournay pattern: fortified places guarding the eastern frontier and headwaters / valleys leading toward the royal sphere.
 
+## Hugues IV and Mélisende — the 1164 church endowment
+
+A separate dossier of Decorde-sourced material concerns the parish church rather than the motte. In 1164 Hugues IV de Gournay and his wife Mélisende — almost certainly Mélisende de Vermandois — endowed the newly built church of Gaillefontaine with *three boisseaux de froment et cinq boisseaux d'avoine* (three bushels of wheat and five of oats) taken at Boshyon (*Boscus Hugonis*, modern Bosc-Hyons, south-south-west of Gournay-en-Bray). The grant was ratified by Rotrou, archbishop of Rouen, in 1164. The endowment supports the dating of the church to the mid-twelfth century and confirms that the Gournay senior line, in the generation after the Crusader Gerard, was continuing the family's pattern of converting seigneurial revenues from named woodland holdings into parish-church support.[^decorde-gaillefontaine-1164]
+
+Gaillefontaine therefore sits in the place library under two distinct Gournay-relevance threads: a fortified motte delivered to William Rufus in 1089/90 by Gerard (§"Frontier geography"), and a parish church endowed by Gerard's eldest son Hugues IV and his wife Mélisende in 1164. The motte and the parish church are different aspects of the same place under Gournay influence across roughly seventy-five years.
+
+[^decorde-gaillefontaine-1164]: J.-E. Decorde, *Essai historique et archéologique sur le Canton de Gournay* (1861), Gaillefontaine parish entry; OCR text at `sources/corpus_supplement/essai-historique-archeologique-canton-de-gournay-decorde-1861.txt`. Source ID: `decorde-essai-canton-gournay-1861`. The Boshyon revenue base is documented in `research/places/bosc-hyons.md`.
+
 ## What remains from the medieval frontier site
 
 The strongest survival element is not the present château, but the motte castrale. The POP / Mérimée notice states that this motte testifies to the site's importance in the Pays de Bray, on the old frontier between Normandy and the northern royal domain.

@@ -10,6 +10,15 @@ The Gournay place model now needs to distinguish the town, the church, and the f
 
 Normandie Tourisme describes the church as a 12th-century Romanesque and Gothic building. It was burned in 1174; the Saint-Joseph chapel was spared, preserving Romanesque nave walls, barrel vaulting, and painted capitals. The rebuilt church was consecrated in 1192. Monument references also preserve its Monument Historique status.
 
+## Saint Hildevert's relics and the Brémontier translation
+
+Local tradition preserved by Decorde reports that the body of Saint Hildevert was translated from an earlier monastic site at Brémontier to the Gournay collegiate church in the twelfth century, in connection with the Brémontier community's reorganization as a collegiate body and its transfer to Gournay. Hugues IV de Gournay subsequently confirmed the Brémontier church and its tithes to the Abbey of Bec, with explicit reference to the saint's body. From this period forward the Gournay collegiate church is the regional pilgrimage focus for Hildevert.[^decorde-hildevert-translation]
+
+A later twelfth-century witness ties the relic into the local revenue economy. In 1195 Manassès de Bully — a neighbour of the Gournays at Boshyon (*Boscus Hugonis*) — endowed one *muid* of oats per year from the Boshyon mill to maintain a perpetual altar lamp before St Hildevert's relic in the Gournay church.[^decorde-manasses-lamp-1195]
+
+[^decorde-hildevert-translation]: J.-E. Decorde, *Essai historique et archéologique sur le Canton de Gournay* (1861); OCR text at `sources/corpus_supplement/essai-historique-archeologique-canton-de-gournay-decorde-1861.txt`. Source ID: `decorde-essai-canton-gournay-1861`.
+[^decorde-manasses-lamp-1195]: Decorde 1861, Boshyon parish entry. The Boshyon mill and surrounding holdings are documented in `research/places/bosc-hyons.md`. Source ID: `decorde-essai-canton-gournay-1861`.
+
 ## What remains from the Gournay period
 
 The standing church is not a surviving church of Eudes or Hugh I. The best current wording is more careful:

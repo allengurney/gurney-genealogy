@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.5.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-05-14",
+    "lastUpdated": "2026-05-16",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
@@ -257,7 +257,7 @@
       "corpusPath": "sources/corpus_supplement/essai-historique-archeologique-canton-de-gournay-decorde-1861.txt",
       "mediaPath": null,
       "validationPath": "sources/validations/decorde-essai-canton-gournay-1861.md",
-      "notes": "French local history and archaeology of the canton of Gournay. Important for Gournay-en-Bray, Beauvaisis frontier acquisitions, Boshyon/Bois-Hugues, Bremontier-Merval, Bellosanne, and local tradition around the medieval lords of Gournay. OCR text is useful but visibly noisy; cite exact passages only after checking page images or cleaner scans when claims are delicate."
+      "notes": "French local history and archaeology of the canton of Gournay. Important for Gournay-en-Bray, Beauvaisis frontier acquisitions, Boshyon/Bois-Hugues, Bremontier-Merval / Bellosanne, Gaillefontaine, the Collegiate Saint-Hildevert at Gournay, and Cottentray/Avesnes-en-Bray. Findings from the 2026 deep-research synthesis are now promoted into research/people/g33, research/people/g32, research/places/gournay-en-bray.md, research/places/collegiale-saint-hildevert-gournay.md, research/places/g33-bec-gournay-endowment-cluster.md, research/places/gaillefontaine.md, research/places/bosc-hyons.md, research/places/bellosanne-abbey.md, research/places/cottentray-avesnes-en-bray.md, and research/topics/senior-gournay-baron-line-collateral.md. The OCR text in sources/corpus_supplement is visibly noisy; cite exact French phrasing only after checking page images or cleaner scans for delicate claims."
     },
     "nro-pd-12-1": {
       "shortTitle": "NRO PD 12/1 (St Martin at Palace, Norwich)",
@@ -313,6 +313,39 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "Key parish entries: Harpley (vol. viii, pp.452–459), West Barsham (vol. vii, pp.42–47), Great Ellingham (vol. ii), Hardingham (vol. x, p. 224), Hingham (vol. ii, p. 445). Independently confirms multiple DG pedigree points. Priority corpus extraction candidate for Norfolk ancestors G20–G27."
+    },
+    "blomefield-norfolk-vol5-pp33-cringleford-berford": {
+      "shortTitle": "Blomefield, Norfolk vol. 5 (BHO) — Cringleford, Berford's Manor",
+      "citation": "Blomefield, Francis. An Essay Towards a Topographical History of the County of Norfolk. Vol. 5. London: W. Miller, 1806, pp. 33–39, \"Cringleford\" / \"Berford's Manor.\"",
+      "archive": "British History Online transcription",
+      "url": "https://www.british-history.ac.uk/topographical-hist-norfolk/vol5/pp33-39",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/blomefield-norfolk-vol5-pp33-cringleford-berford.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/blomefield-norfolk-vol5-pp33-cringleford-berford.md",
+      "notes": "Page-level Blomefield/BHO extract for Cringleford's Berford's Manor descent. Records that after the De la Poles obtained the manor in trust, they settled it on Edmund Gourney, William de Boyton, Thomas Spynk, and John le Latimer of Norwich as feoffees; the manor extended into Hethersett, Eaton, Earlham, Little Melton, Colney, and Cringleford watermill; by 1381 John le Latimer was sole lord with view of frankpledge, weyf, and strey; in the same year Gournay and the other De la Pole feoffees released their right to him. Adds Edmund Gurney (G23) to the documented De la Pole / Latimer feoffee network in the 1370s."
+    },
+    "nyclipper-1895-08-patchogue-fauntleroy": {
+      "shortTitle": "New York Clipper, August 1895 — Patchogue Lord Fauntleroy notice",
+      "citation": "\"Mabel Walsh is to appear in the title role.\" The New York Clipper, vol. 43 (August 1895). Internet Archive item clipper43-1895-08.",
+      "archive": "Internet Archive scan of The New York Clipper, vol. 43, August 1895",
+      "url": "https://archive.org/details/clipper43-1895-08",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/nyclipper-1895-08-patchogue-fauntleroy.md",
+      "mediaPath": "sources/media/nyclipper-1895-08-patchogue-fauntleroy/",
+      "validationPath": "sources/validations/nyclipper-1895-08-patchogue-fauntleroy.md",
+      "notes": "Trade-paper notice announcing a Mabel Walsh production of Little Lord Fauntleroy at the New Lyceum Theatre, Patchogue, Long Island, for 7 August 1895. Names Lester Gurney in the supporting company alongside J. D. Walsh, Charles Drake, Jerome Cammeyer, George Watson, Frank Heald, Annie L. Walsh, and Anna Morton. Earliest documented stage appearance for Lester Sawyer Gurney (G05); complements the September 1895 Clipper Helene Ransome / Margaret Mather notice already cited on the G05 fact sheet."
+    },
+    "ormerod-strigulensia-1861": {
+      "shortTitle": "Ormerod, Strigulensia (1861)",
+      "citation": "Ormerod, George. Strigulensia: Archaeological Memoirs Relating to the District Adjacent to the Confluence of the Severn and the Wye. London: T. Richards, 1861.",
+      "archive": "HathiTrust Digital Library / University of California copy (uc1.$b751193)",
+      "url": "https://hdl.handle.net/2027/uc1.$b751193",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/ormerod-strigulensia-1861-thomas-de-gournay-extract.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/ormerod-strigulensia-1861.md",
+      "notes": "Antiquarian topographic study of the lower Severn/Wye district. Page 103 catalogues Thomas ap Adam's alienations of his maternal inheritance. Item 4 of that list records a 4 June 1329 (3 Edward III) demise for life from Thomas ap Adam to 'Thomas son of Hugh de Gournay' of rents in Panbere and Willewe, the vill of Netherwere, the manor of Gorste near Strigoil (Chepstow), and the manor of East Harptree, in exchange for Thomas ap Adam's life interest in the manor of Dunheved, Somerset, and 'la Hamele de Beteslè, ensemblement ove le Passage' (the hamlet of Beachley with the Severn passage). Confirmed in Chancery 24 June 1329. Cites Rot. Claus. M. 18. Primary-derived datum naming the father of this Thomas de Gournay as Hugh, distinct from Pettigrew's Anselm → Thomas of Inglishcombe → Sir Thomas the regicide reconstruction."
     },
     "suffolk-visitations-metcalfe-1882": {
       "shortTitle": "Metcalfe, Visitations of Suffolk",

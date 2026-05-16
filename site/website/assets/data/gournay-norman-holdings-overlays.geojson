@@ -65,10 +65,12 @@
         "display_default": true,
         "certainty": "medium-low",
         "historical_basis": "Existing repo reconstruction of the older Gournay core around Gournay-en-Bray and the Epte frontier.",
-        "interpretation_note": "Approximate contextual reconstruction, not a surveyed medieval boundary.",
+        "interpretation_note": "Approximate contextual reconstruction, not a surveyed medieval boundary. v43 refresh: south-west corner moved from (1.685, 49.47) to (1.64, 49.43) to enclose the Bosc-Hyons (Boshyon / Boscus Hugonis) direct landholding documented by Decorde 1861. The redrawn polygon also encloses Avesnes-en-Bray as a side effect; Avesnes retains its separate point anchor in the western-dependency display group.",
         "source_urls": [
           "research/geo/Hugh_initial_analysis/hugh_de_gournay_reconstructed_holdings.geojson",
-          "research/geo/Hugh_initial_analysis/hugh_de_gournay_reconstruction_notes.json"
+          "research/geo/Hugh_initial_analysis/hugh_de_gournay_reconstruction_notes.json",
+          "sources/corpus_supplement/essai-historique-archeologique-canton-de-gournay-decorde-1861.txt",
+          "research/places/bosc-hyons.md"
         ],
         "buffer_km": null,
         "source_iterations": [
@@ -76,7 +78,8 @@
           "v2",
           "v3",
           "v4",
-          "v5"
+          "v5",
+          "v6_polygon_redraw_2026-05"
         ],
         "style": {
           "color": "#7a4b16",
@@ -96,22 +99,62 @@
               49.555
             ],
             [
-              1.685,
-              49.47
+              1.75,
+              49.555
             ],
             [
               1.76,
               49.47
             ],
             [
-              1.75,
-              49.555
+              1.64,
+              49.43
             ],
             [
               1.69,
               49.555
             ]
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "anchor_bosc_hyons_boshyon_direct_landholding",
+      "properties": {
+        "id": "anchor_bosc_hyons_boshyon_direct_landholding",
+        "name": "Bosc-Hyons (medieval Boshyon / Boscus Hugonis)",
+        "feature_type": "overlay_place_anchor",
+        "display_group": "older_gournay_core",
+        "display_default": true,
+        "certainty": "high",
+        "historical_basis": "Decorde 1861 records the medieval Boshyon (Boscus Hugonis, 'Hugues's wood') as a Gournay-family woodland, manor, and mill. Revenue base for three documented endowments: Hugh III + Basilie 1082 Jumièges 190-arpent charter (apud villam quae vocatur Hugonis silva); Hugues IV + Mélisende 1164 Gaillefontaine grain endowment ratified by Archbishop Rotrou of Rouen (apud Boscum Hugonis); Manassès de Bully 1195 one-muid-of-oats endowment from the Boshyon mill for a perpetual altar lamp before Saint Hildevert's relic at Gournay. The parish church of Saint-Michel was given by a sire de Gournay to the Gournay collegiate chapter in the twelfth century; chapter patronage continued until 1623.",
+        "interpretation_note": "Direct-line Gournay landholding anchor for the older core layer, south-south-west of Gournay-en-Bray. Modern commune of Bosc-Hyons (Seine-Maritime, INSEE 76124, postal 76220). Coordinate is the commune-level GPS point and lies just outside the existing older_gournay_core_repo polygon edge; whether to extend that polygon SSW to include Bosc-Hyons is queued as a separate polygon-review item.",
+        "source_urls": [
+          "https://www.archivesdepartementales76.net/archive/catalogue/communes76/bosc-hyons/n:168",
+          "research/places/bosc-hyons.md"
+        ],
+        "buffer_km": null,
+        "source_iterations": [
+          "v5"
+        ],
+        "style": {
+          "color": "#7a4b16",
+          "weight": 2,
+          "opacity": 0.75,
+          "fillColor": "#b77724",
+          "fillOpacity": 0.16,
+          "dashArray": "4 4",
+          "markerColor": "#7a4b16"
+        },
+        "anchor_role": "direct Gournay landholding anchor (Boshyon / Boscus Hugonis)",
+        "canonical_place_id": "place-bosc-hyons-boshyon-normandy-france"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.659,
+          49.446
         ]
       }
     },
@@ -934,7 +977,8 @@
           "dashArray": "6 4",
           "markerColor": "#6b5a2a"
         },
-        "anchor_role": "western Gournay dependency context"
+        "anchor_role": "western Gournay dependency context",
+        "canonical_place_id": "place-cottentray-avesnes-en-bray-normandy-france"
       },
       "geometry": {
         "type": "Point",
@@ -978,6 +1022,7 @@
           "markerColor": "#5b6f78"
         },
         "anchor_role": "later Gournay institutional geography",
+        "canonical_place_id": "place-bellosanne-abbey-bremontier-merval-normandy-france",
         "future_default_after_review": false
       },
       "geometry": {
@@ -1022,6 +1067,7 @@
           "markerColor": "#5b6f78"
         },
         "anchor_role": "Bellozanne institutional foundation and patronage center",
+        "canonical_place_id": "place-bellosanne-abbey-bremontier-merval-normandy-france",
         "future_default_after_review": false
       },
       "geometry": {

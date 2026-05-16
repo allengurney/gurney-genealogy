@@ -39,6 +39,20 @@ By the time of **Hugh de Gournay II**, the strategic role of the place is unmist
 
 That point is reinforced by the later fiscal/military evidence. The **Liber Niger Scaccarii** required the lord of Gournay to furnish **twelve knights** and defend the marches at his own expense, a burden entirely consistent with the honour's exposed border position. [DG-I]
 
+## Saint-Hildevert relics, *Chevaliers aux armes noires*, and the 1202 loss
+
+Three Gournay-en-Bray features sit naturally at the seat level rather than in a daughter file.
+
+**The arrival of Saint Hildevert's relics, twelfth century.** Decorde recounts that when an earlier monastic community at Brémontier was reorganized as a collegiate church, the canons were "transferred to Gournay, where the body of Saint Hildevert had just been brought," and that Hugues IV de Gournay then confirmed the Brémontier church to Bec, with explicit reference to Hildevert's body. The collégiale Notre-Dame at Gournay thereby acquired the relics for which it became the principal regional pilgrimage focus; the relics are still associated with the crypt of the surviving collegiate church.[^decorde-saint-hildevert-translation]
+
+**Black heraldry — *Chevaliers aux armes noires*.** Local tradition preserved by Decorde gave the senior barons of Gournay sable arms and the regional nickname *Chevaliers aux armes noires* — "knights of the black arms" — through the senior line. The black-shield tradition aligns with the earlier Eudes / Rollo black-shield motif already in this file as a foundation-myth element, and shows the same colour signature persisting in local memory through the senior line's twelfth-century floruit.[^decorde-armes-noires]
+
+**The 1202 loss and the silver-knight overlay.** Decorde describes the dramatic end of the senior baron line at Gournay: after Philippe Auguste's 1202 victory the arms of Gournay were reblazoned to include the figure of a silver knight, marking the Capetian conquest. Philippe's young daughter Marie, fiancée of Arthur of Brittany, was knighted in the Gournay collegiate church; thereafter Decorde says *"le pouvoir des premiers seigneurs de Gournay"* faded as the senior baron line lost the honour. The senior baron Hugues V, last "Hugues de Gournay" mentioned by Decorde at the seat, died in English exile in 1214.[^decorde-1202-silver-knight]
+
+[^decorde-saint-hildevert-translation]: J.-E. Decorde, *Essai historique et archéologique sur le Canton de Gournay* (Paris: Derache and Didron; Rouen: Lebrument, 1861); OCR text at `sources/corpus_supplement/essai-historique-archeologique-canton-de-gournay-decorde-1861.txt`. Source ID: `decorde-essai-canton-gournay-1861`. See also `research/places/collegiale-saint-hildevert-gournay.md` for the church-side detail.
+[^decorde-armes-noires]: Decorde 1861, same source. Cross-link: the black-shield foundation tradition already documented for Eudes / Rollo earlier in this file.
+[^decorde-1202-silver-knight]: Decorde 1861, same source. The full collateral senior-line narrative — Hugues IV (Mélisende), Hugues V (Bellosanne, Saint-Aubin, 1202 loss, 1214 death in English exile) — lives in `research/topics/senior-gournay-baron-line-collateral.md`.
+
 ## Hugh III and the Domesday generation
 
 With **Hugh de Gournay III**, the lordship moves from heroic frontier narrative into the more documentary world of Domesday and post-Conquest Anglo-Norman politics. Hugh III is the generation that links the Norman seat most visibly to English landed expansion, yet Gournay-en-Bray remains the centre of gravity. [DG-I] [Hannay]

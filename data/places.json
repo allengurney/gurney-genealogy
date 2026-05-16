@@ -2179,6 +2179,38 @@
     "filename": "collegiale-saint-hildevert-gournay.md"
   },
   {
+    "placeId": "place-bellosanne-abbey-bremontier-merval-normandy-france",
+    "name": "Notre-Dame de Bellozanne abbey, Brémontier-Merval, Normandy, France",
+    "aliases": [
+      "Bellosanne",
+      "Bellozanne",
+      "Notre-Dame de Bellozanne",
+      "Abbaye Notre-Dame de Bellozanne",
+      "Abbaye de Bellosanne",
+      "Brémontier-Merval abbey"
+    ],
+    "shortDescription": "Premonstratensian abbey founded by Hugues V de Gournay in 1198",
+    "placeType": "abbey / religious foundation",
+    "coordinate": {
+      "lat": 49.505556,
+      "lng": 1.611111
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "ecclesiastical foundation",
+      "monastic patronage",
+      "senior-line religious legacy",
+      "Pays de Bray institutional anchor"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
+        "role": "founder, 1198"
+      }
+    ],
+    "filename": "bellosanne-abbey.md"
+  },
+  {
     "placeId": "place-gournay-fortifications-tour-du-rempart-normandy-france",
     "name": "Gournay fortifications / Tour du Rempart, Gournay-en-Bray, Normandy, France",
     "aliases": [
@@ -2426,6 +2458,76 @@
       }
     ],
     "filename": "gaillefontaine.md"
+  },
+  {
+    "placeId": "place-bosc-hyons-boshyon-normandy-france",
+    "name": "Bosc-Hyons (medieval Boshyon / Boscus Hugonis), Seine-Maritime, Normandy, France",
+    "aliases": [
+      "Bosc-Hyons",
+      "Boshyon",
+      "Boscus Hugonis",
+      "Bosc-Hugon",
+      "Bois-Hugues",
+      "Bois Hugues",
+      "Boschyon",
+      "Bos-Huon",
+      "Bos-Hyon",
+      "Bos-Hyvon",
+      "Saint-Michel du Boschyon"
+    ],
+    "shortDescription": "Medieval Gournay-family woodland, manor, and mill commune south-south-west of Gournay-en-Bray",
+    "placeType": "commune / former manor and woodland",
+    "coordinate": {
+      "lat": 49.446,
+      "lng": 1.659
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "Gournay direct landholding",
+      "endowment revenue base",
+      "parish (continuing)",
+      "name etymology (Hugues's wood)"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "role": "1082 Jumièges 190-arpent endowment base"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "role": "1164 Gaillefontaine grain endowment from manor"
+      }
+    ],
+    "filename": "bosc-hyons.md"
+  },
+  {
+    "placeId": "place-cottentray-avesnes-en-bray-normandy-france",
+    "name": "Cottentray (Avesnes-en-Bray), Normandy, France",
+    "aliases": [
+      "Cottentray",
+      "Cottentray hamlet",
+      "Avesnes-en-Bray Cottentray quarter-fief",
+      "Clos des Anglais"
+    ],
+    "shortDescription": "Hamlet in Avesnes-en-Bray; medieval quarter-fief of Gournay surviving to 15th century",
+    "placeType": "hamlet / fief fragment",
+    "coordinate": {
+      "lat": 49.4697,
+      "lng": 1.6733
+    },
+    "coordinatePrecision": "medium",
+    "roles": [
+      "Gournay quarter-fief (medieval through 15c)",
+      "post-medieval Anglo-Norman tomb-discovery site",
+      "western Gournay dependency context"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g32-senior-gournay-baron-line",
+        "role": "quarter-fief held until 15c sale to Potin family"
+      }
+    ],
+    "filename": "cottentray-avesnes-en-bray.md"
   },
   {
     "placeId": "place-pays-de-bray-normandy-picardy-france",

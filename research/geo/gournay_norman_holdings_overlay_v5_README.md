@@ -31,6 +31,8 @@ The overlay deliberately separates:
 
 These anchors are not necessarily canonical place records and should not be read as proof of a discrete direct ancestor holding unless the feature metadata says so. In particular, the northern Gournay-honor anchors, Massy / Morimont endowment anchors, western dependency anchors, and later institutional anchors explain interpretive geography while remaining separate from direct G30-G37 landholding claims and from the Conquets Hue de Gournay polygon.
 
+One exception: the new `anchor_bosc_hyons_boshyon_direct_landholding` anchor is a direct-line Gournay landholding point, not interpretive geography. It records the medieval Boshyon (modern Bosc-Hyons commune, Seine-Maritime, INSEE 76124, 49.446 N / 1.659 E) — the *Boscus Hugonis* woodland, manor, and mill documented by Decorde 1861 as the revenue base for the 1082 Jumièges 190-arpent charter, the 1164 Gaillefontaine grain endowment, and the 1195 Manassès de Bully lamp endowment. It is cross-referenced to the canonical place record `place-bosc-hyons-boshyon-normandy-france` and to `research/places/bosc-hyons.md`. The `older_gournay_core_repo` polygon was redrawn in the v43 refresh so that its south-west corner now sits at (1.64, 49.43), enclosing both Bosc-Hyons and the existing Avesnes-en-Bray anchor while leaving the Bellosanne / Brémontier-Merval institutional anchors correctly outside.
+
 ## Later institutional overlay anchors
 
 The Bellozanne / Beaubec / Elbeuf / Brémontier-Merval layer includes explicit patronage-network anchors so the institutional/collateral finger has visible source-backed explanation points:

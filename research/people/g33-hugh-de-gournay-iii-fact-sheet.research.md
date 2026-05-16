@@ -50,6 +50,17 @@ Reading (a) is consistent with Potin's 1110 death. Reading (b) supports DG's pre
 
 ---
 
+### 2.13 1082 — Jumièges 190-arpent charter at Boshyon (Decorde 1861)
+
+Abbé J.-E. Decorde reports a separate Jumièges charter dated c. 1082 in which Hugh III de Gournay and his wife Basilie ratified the donation of one hundred and ninety arpents of land at **Boshyon** — the *Boscus Hugonis*, "Hugues's wood," lying south-south-west of Gournay-en-Bray (the modern commune of Bosc-Hyons, Seine-Maritime, INSEE 76124) — to the abbey of Jumièges, made by their vassal Raoul Havot. Decorde's text frames the place explicitly as *apud villam quæ vocatur Hugonis silva*.[^decorde-jumieges-1082-boshyon] This is the same charter as the undated Radulphus Havoth Jumièges charter preserved in the Rouen Archives paper cartulary (§2.2 above), now dated by Decorde to c. 1082 and located at Boshyon; the §2.2 entry's "undated" framing should be read against this Decorde dating and place-anchoring.
+
+Boshyon matters for the territorial reconstruction. It is the toponym from which the family's woodland holding takes its name (*Boscus Hugonis* = Hugues's wood, almost certainly Hugh I de Gournay), and the same place will reappear in two later Gournay-side endowments: in 1164 Hugues IV and Mélisende will assign three boisseaux of wheat and five of oats from their manor at Boshyon to the new church of Gaillefontaine, ratified by Archbishop Rotrou of Rouen; and in 1195 a neighbour, Manassès de Bully, will endow one *muid* of oats from the Boshyon mill for a perpetual altar lamp before St Hildevert's relic at the Gournay collegiate church. The 1082 charter is the earliest documented use of Boshyon as a Gournay-family endowment base. The detailed place narrative now lives at `research/places/bosc-hyons.md`.[^decorde-boshyon-endowment-chain]
+
+[^decorde-jumieges-1082-boshyon]: J.-E. Decorde, *Essai historique et archéologique sur le Canton de Gournay* (Paris: Derache and Didron; Rouen: Lebrument, 1861); OCR text at `sources/corpus_supplement/essai-historique-archeologique-canton-de-gournay-decorde-1861.txt`. 1082 charter recorded by Decorde in the Boshyon parish entry; the deep-research synthesis (`sources/corpus_supplement/deep-research-report-decorde-essai-gournay-ancestors.md`) cleans the citation. Source ID: `decorde-essai-canton-gournay-1861`.
+[^decorde-boshyon-endowment-chain]: Decorde 1861, Boshyon parish entry; same source. The 1195 lamp endowment is by Manassès de Bully, not by a Gournay; it is included here because the *Boshyon* mill remained the local revenue stock for Gournay-area ecclesiastical patronage well after the Gournay seigneurial gift sequence began. Source ID: `decorde-essai-canton-gournay-1861`.
+
+---
+
 ## 3. Wife and family connections
 
 ### 3.1 Basilea's first husband — full pedigree

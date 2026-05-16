@@ -1037,6 +1037,25 @@
     ]
   },
   {
+    "placeId": "place-bellosanne-abbey-bremontier-merval-normandy-france",
+    "placeName": "Notre-Dame de Bellozanne abbey, Brémontier-Merval, Normandy, France",
+    "longDescription": "Premonstratensian abbey founded by Hugues V de Gournay in 1198 at Brémontier (now Brémontier-Merval, Seine-Maritime), dedicated to Notre-Dame, sited between two former ponds on the Pays de Bray plateau. The signal religious foundation of the senior Gournay baron line in its last generation, and the most consequential Gournay-side ecclesiastical site after the Gournay collegiate church itself.",
+    "siteName": "Abbaye Notre-Dame de Bellozanne",
+    "streetAddress": "",
+    "extantStatus": "demolished; no medieval fabric on surface",
+    "extantStatusDescription": "Bellozanne was suppressed during the Revolution. By 1797 the church and cloister had been sold and a buyer had begun demolishing the buildings. In 1827 a new château erased what remained of the medieval ruins on the site. Modern archaeology locates the abbey between two former ponds on the plateau.",
+    "coordinateBasis": "Existing Gournay institutional overlay anchor point for Abbaye Notre-Dame de Bellozanne",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "https://fr.wikipedia.org/wiki/Abbaye_Notre-Dame_de_Bellozanne",
+    "heritageLabel": "Abbaye Notre-Dame de Bellozanne — French Wikipedia",
+    "reviewNotes": [
+      "Promote from overlay anchor to canonical place record; the v5 institutional overlay already carries the same coordinate.",
+      "Foundation date 1198 follows Decorde 1861 and OpenEdition; the parenthetical 1193 in Decorde is left unresolved.",
+      "Patronage cluster includes Brémontier-Merval, Elbeuf-en-Bray, Saint-Lucien, Le Thil, Riberpré — see existing overlay anchor metadata."
+    ]
+  },
+  {
     "placeId": "place-gournay-fortifications-tour-du-rempart-normandy-france",
     "placeName": "Gournay fortifications / Tour du Rempart, Gournay-en-Bray, Normandy, France",
     "longDescription": "Surviving remnant of the fortified medieval town and seigneurial defensive system at Gournay-en-Bray. Normandie Tourisme describes one surviving tower, the conical base of another, and the ditches as the remaining traces of the town's defensive work.",
@@ -1168,6 +1187,42 @@
       "Use for Orderic's `Goisleni Fontem`.",
       "Do not describe the 19th-century château as the medieval Gournay castle.",
       "Good candidate for future map overlay of Gournay-La Ferté-Gaillefontaine frontier triad."
+    ]
+  },
+  {
+    "placeId": "place-bosc-hyons-boshyon-normandy-france",
+    "placeName": "Bosc-Hyons (medieval Boshyon / Boscus Hugonis), Seine-Maritime, Normandy, France",
+    "longDescription": "Modern Bosc-Hyons (INSEE 76124, postal 76220), the medieval Boshyon / Boscus Hugonis — 'Hugues's wood,' almost certainly named for Hugh I de Gournay. A small commune in the canton of Gournay, south-south-west of Gournay-en-Bray. Decorde 1861 catalogues medieval spellings Boshyon, Boschyon, Bos-Huon, Bos-Hyon, Bos-Hyvon and the recommended modern French rendering Bois-Hugues or Bosc-Hugon. The medieval parish was the revenue base for at least three Gournay-area endowments — the 1082 Jumièges 190-arpent charter by Hugh III and Basilie, *apud villam quæ vocatur Hugonis silva*; the 1164 grain endowment by Hugues IV and Mélisende for the church of Gaillefontaine (three boisseaux of wheat, five of oats, *apud Boscum Hugonis*), ratified by Archbishop Rotrou of Rouen; and the 1195 Manassès de Bully one-*muid*-of-oats endowment from the Boshyon mill for a perpetual altar lamp before St Hildevert's relic at the Gournay collegiate church. The parish church of Saint-Michel was given to the Gournay chapter by a sire de Gournay in the twelfth century; the chapter held the patronage until 1623.",
+    "siteName": "Église Saint-Michel de Bosc-Hyons",
+    "streetAddress": "",
+    "extantStatus": "commune extant; church reduced to succursale in 1826",
+    "extantStatusDescription": "Bosc-Hyons remains a distinct commune in the canton of Gournay (Seine-Maritime). The medieval parish church of Saint-Michel was reduced to a succursale (subordinate parish chapel) in 1826 after a long medieval and early-modern history as an independent parish. Decorde reports the church under the patronage of Saint Michel, with the tower in twelfth-century Romanesque style: *'L'aspect du clocher annonce une construction du XIIe siècle.'* The medieval parish also contained the named hamlets *les Carreaux* and *le Bus*, plus the *grange du Mont-Rôti* — a farmstead owned by Mortemer Abbey, paying the Gournay chapter seven *muids* of grain (half wheat, half oats) until commuted in 1243 to seven *livres parisis* in cash.",
+    "coordinateBasis": "GPS coordinate for modern Bosc-Hyons (INSEE 76124); verified against Cartes France / db-city / Archives départementales 76",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "https://www.archivesdepartementales76.net/archive/catalogue/communes76/bosc-hyons/n:168",
+    "heritageLabel": "Archives départementales 76 — Bosc-Hyons commune dossier",
+    "reviewNotes": [
+      "The deep-research synthesis from 2026-04 misread 'Mont-Rôti' (a medieval Mortemer-abbey grange within the Boshyon parish, recorded by Decorde) as a modern locality 'Mont-Bôty / Mont-Bosy.' That misreading is corrected here; Boshyon's modern continuator is Bosc-Hyons commune, not an Ernemont-la-Villette / Avesnes-en-Bray sub-hamlet.",
+      "Bosc-Hyons is the most economically substantive direct-line Gournay landholding documented in Decorde for the eleventh and twelfth centuries; promote into the older Gournay core overlay layer in the v43 overlay refresh."
+    ]
+  },
+  {
+    "placeId": "place-cottentray-avesnes-en-bray-normandy-france",
+    "placeName": "Cottentray (Avesnes-en-Bray), Normandy, France",
+    "longDescription": "Hamlet in the modern commune of Avesnes-en-Bray, east of Gournay-en-Bray. Decorde 1861 records that until the fifteenth century the seigneury of Cottentray was held in parts and that one quarter-fief descended from the senior Gournay barons before Marie de Bourbon sold it to the Potin family. In 1682 labourers turned up eight to ten stone tombs in a Cottentray field known locally as the Clos des Anglais; no inscription survived.",
+    "siteName": "Cottentray (hamlet of Avesnes-en-Bray)",
+    "streetAddress": "",
+    "extantStatus": "hamlet / fields extant; tombs no longer locatable",
+    "extantStatusDescription": "The hamlet of Cottentray is preserved within Avesnes-en-Bray as fields and woods east of Gournay-en-Bray. The 1682 tomb discovery field has no surviving marker. The medieval Gournay quarter-fief is no longer a distinct holding; the Potin family of the fifteenth century later succeeded to the share.",
+    "coordinateBasis": "Same coordinate as the existing v5 overlay anchor anchor_avesnes_en_bray_gournay_dependency_context",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "https://www.archivesdepartementales76.net/archive/catalogue/communes76/avesnes-en-bray/n%3A168",
+    "heritageLabel": "Archives départementales 76 — Avesnes-en-Bray commune dossier",
+    "reviewNotes": [
+      "The coordinate is commune-level rather than hamlet-precise; consider tightening to the modern Cottentray hamlet location in a future overlay refresh.",
+      "The 1503 Avesnes fief language already noted on the Avesnes-en-Bray overlay anchor reinforces Cottentray as part of the wider Avesnes-Ferrières western dependency rather than a separate fief; the quarter-fief language belongs specifically to Cottentray."
     ]
   },
   {
