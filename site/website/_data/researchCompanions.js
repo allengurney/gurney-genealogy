@@ -14,6 +14,10 @@ function readTitle(markdown, fallback) {
   return match ? match[1].trim() : fallback;
 }
 
+function companionPublicSlug(slug) {
+  return slug.replace(/-fact-sheet$/i, "");
+}
+
 if (!fs.existsSync(companionsDir)) {
   module.exports = [];
 } else {
@@ -29,7 +33,7 @@ if (!fs.existsSync(companionsDir)) {
         genNum,
         gen: genNum === null ? "" : `G${genNum}`,
         title: readTitle(content, slug.replace(/-/g, " ")),
-        url: `/research/companions/${slug}.html`,
+        url: `/research/notes/${companionPublicSlug(slug)}.html`,
       };
     });
 }

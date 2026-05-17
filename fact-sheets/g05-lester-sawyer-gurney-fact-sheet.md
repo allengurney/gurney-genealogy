@@ -3,10 +3,9 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g05-lester-sawyer-gurney-fact-sheet.html
 title: Lester Sawyer Gurney Fact Sheet
 pageHeading: Lester Sawyer Gurney (1856–1899)
-subtitle: "Ancestor fact sheet for G05 in the direct Gurney line. New York postal clerk turned Actors’ Fund official, Patchogue summer resident, and master of Continental Lodge No. 287. Published April 2026."
+subtitle: "New York postal clerk turned Actors’ Fund official, Patchogue summer resident, and master of Continental Lodge No. 287."
 description: "Compact fact sheet for Lester Sawyer Gurney in the direct Gurney line."
 bodyClass: bio-page factsheet-page
-updated: 10 April 2026
 factsheet:
   gen: G05
   slug: g05-lester-sawyer-gurney-fact-sheet

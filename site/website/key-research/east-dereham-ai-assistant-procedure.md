@@ -2,6 +2,7 @@
 layout: layouts/base.njk
 permalink: /key-research/east-dereham-ai-assistant-procedure.html
 title: AI Assistant Procedure for Parish Record Analysis
+seoTitle: Parish Record AI Procedure
 pageHeading: AI Assistant Procedure for Parish Record Analysis
 subtitle: "East Dereham parish register workflow for the probable baptism of John Gurney. Completed in March 2026 using ChatGPT Thinking v 5.4, facilitated by Allen Gurney. Created post-analysis; some content was re-created to support record-keeping."
 description: "Technical procedure documenting the East Dereham parish-record analysis workflow used in the John Gurney case file."

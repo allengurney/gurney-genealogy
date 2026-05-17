@@ -1,11 +1,11 @@
 ---
-title: "William de Gournay II (G28) — Research Companion"
-permalink: /research/companions/g28-william-de-gournay-ii-fact-sheet.html
+title: "William de Gournay II (G28) Notes"
+description: "Research notes for William de Gournay II (G28) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g28-william-de-gournay-ii.html
 eleventyExcludeFromCollections: true
 ---
-# William de Gournay II (G28) — Research Companion
-
-Research companion for `g28-william-de-gournay-ii-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# William de Gournay II (G28) Notes
+Research notes for `g28-william-de-gournay-ii-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: "Amos Gurney (G08) — Research Companion"
-permalink: /research/companions/g08-amos-gurney-fact-sheet.html
+title: "Amos Gurney (G08) Notes"
+description: "Research notes for Amos Gurney (G08) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g08-amos-gurney.html
 eleventyExcludeFromCollections: true
 ---
-# Amos Gurney (G08) — Research Companion
-
-Research companion for `g08-amos-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# Amos Gurney (G08) Notes
+Research notes for `g08-amos-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: "William de Gournay I (G30) — Research Companion"
-permalink: /research/companions/g30-william-de-gournay-i-fact-sheet.html
+title: "William de Gournay I (G30) Notes"
+description: "Research notes for William de Gournay I (G30) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g30-william-de-gournay-i.html
 eleventyExcludeFromCollections: true
 ---
-# William de Gournay I (G30) — Research Companion
-
-Research companion for `g30-william-de-gournay-i-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# William de Gournay I (G30) Notes
+Research notes for `g30-william-de-gournay-i-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

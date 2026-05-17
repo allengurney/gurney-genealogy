@@ -1,11 +1,11 @@
 ---
-title: "Anthony Gurney (G17) — Research Companion"
-permalink: /research/companions/g17-anthony-gurney-fact-sheet.html
+title: "Anthony Gurney (G17) Notes"
+description: "Research notes for Anthony Gurney (G17) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g17-anthony-gurney.html
 eleventyExcludeFromCollections: true
 ---
-# Anthony Gurney (G17) — Research Companion
-
-Research companion for `g17-anthony-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# Anthony Gurney (G17) Notes
+Research notes for `g17-anthony-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

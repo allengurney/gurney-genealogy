@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g10-benjamin-gurney-fact-sheet.html
 title: Benjamin Gurney Fact Sheet
 pageHeading: Benjamin Gurney (c. 1704 – before 1772)
-subtitle: "Ancestor fact sheet for G10 in the direct Gurney line. Plymouth County farmer whose 1730 liaison with Jane Harden produced Benjamin (G9) before his 1731 marriage to Sarah Morse; the split sends Cummington and Rochester lines in different directions."
+subtitle: "Plymouth County farmer whose 1730 liaison with Jane Harden produced Benjamin (G9) before his 1731 marriage to Sarah Morse; the split sends Cummington and Rochester lines in different directions."
 description: "Compact fact sheet for Benjamin Gurney in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 28 April 2026
 factsheet:
   gen: G10
   slug: g10-benjamin-gurney-fact-sheet

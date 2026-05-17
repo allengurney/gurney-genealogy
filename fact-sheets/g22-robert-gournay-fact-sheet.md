@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g22-robert-gournay-fact-sheet.html
 title: Robert Gournay Fact Sheet
 pageHeading: Robert Gournay (fl. c. 1370–1420)
-subtitle: "Ancestor fact sheet for G22 in the direct Gurney line. Second son of Edmund Gurney; the line descends through him when his brother Sir John's son died without heirs. Published April 2026."
+subtitle: "Second son of Edmund Gurney; the line descends through him when his brother Sir John's son died without heirs."
 description: "Compact fact sheet for Robert Gournay in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 2 April 2026
 factsheet:
   gen: G22
   slug: g22-robert-gournay-fact-sheet

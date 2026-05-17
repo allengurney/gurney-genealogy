@@ -1,11 +1,11 @@
 ---
-title: "Renaud de Gournay (G35) — Research Companion"
-permalink: /research/companions/g35-renaud-de-gournay-fact-sheet.html
+title: "Renaud de Gournay (G35) Notes"
+description: "Research notes for Renaud de Gournay (G35) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g35-renaud-de-gournay.html
 eleventyExcludeFromCollections: true
 ---
-# Renaud de Gournay (G35) — Research Companion
-
-Research companion for `g35-renaud-de-gournay-fact-sheet.md`. Synthesised v2 (May 2026) drawing on DG-I + DG-Supp, Hannay, Pettigrew, Planché, Pattou *Racines Histoire* (2025), French Wikipedia *Famille de Gournay*, FMG MedLands (Cawley), Potin 1842, NRP-I 1852.
+# Renaud de Gournay (G35) Notes
+Research notes for `g35-renaud-de-gournay-fact-sheet.md`. Synthesised v2 (May 2026) drawing on DG-I + DG-Supp, Hannay, Pettigrew, Planché, Pattou *Racines Histoire* (2025), French Wikipedia *Famille de Gournay*, FMG MedLands (Cawley), Potin 1842, NRP-I 1852.
 
 The full Phase-0 cross-walks live in `sources/FS/GC1N-CQ3/assessment.md` and `sources/FS/Norman_additions/assessment.md`. This synthesis preserves the verbatim primary-source extracts.
 

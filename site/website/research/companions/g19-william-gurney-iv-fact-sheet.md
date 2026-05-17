@@ -1,11 +1,11 @@
 ---
-title: "William Gurney IV (G19) — Research Companion"
-permalink: /research/companions/g19-william-gurney-iv-fact-sheet.html
+title: "William Gurney IV (G19) Notes"
+description: "Research notes for William Gurney IV (G19) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g19-william-gurney-iv.html
 eleventyExcludeFromCollections: true
 ---
-# William Gurney IV (G19) — Research Companion
-
-Research companion for `g19-william-gurney-iv-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# William Gurney IV (G19) Notes
+Research notes for `g19-william-gurney-iv-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

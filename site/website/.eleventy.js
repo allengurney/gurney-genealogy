@@ -8,6 +8,12 @@ module.exports = function (eleventyConfig) {
     .use(markdownItFootnote);
   eleventyConfig.setLibrary("md", md);
   eleventyConfig.addFilter("markdown", value => md.render(value || ""));
+  eleventyConfig.addFilter("json", value => JSON.stringify(value || ""));
+  eleventyConfig.addFilter("stripFirstMarkdownHeading", value => {
+    return String(value || "")
+      .replace(/^\s*#\s+.*(?:\r?\n|$)/, "")
+      .replace(/^\s*\r?\n/, "");
+  });
 
   // {% figure "src", "alt", "caption", "cssClass" %}
   // CSS-floated <figure> beside following text.
@@ -39,6 +45,7 @@ module.exports = function (eleventyConfig) {
     "favicon.ico",
     "favicon.png",
     "favicon.svg",
+    "c92d52678d864c4bb06b70ef3c08f6f8.txt",
     "site.webmanifest",
   ].forEach(file => eleventyConfig.addPassthroughCopy(file));
   eleventyConfig.addPassthroughCopy("robots.txt");

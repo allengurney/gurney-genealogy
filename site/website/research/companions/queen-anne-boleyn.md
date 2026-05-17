@@ -1,10 +1,10 @@
 ---
-title: "Queen Anne Boleyn - Research Notes"
-permalink: /research/companions/queen-anne-boleyn.html
+title: "Queen Anne Boleyn Notes"
+description: "Research notes for Queen Anne Boleyn in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/queen-anne-boleyn.html
 eleventyExcludeFromCollections: true
 ---
-# Queen Anne Boleyn - Research Notes
-
+# Queen Anne Boleyn Notes
 Collateral / related G17 subject. Queen Anne Boleyn (c. 1501-1536) is not in Allen Gurney's direct ancestral line. She belongs beside Anthony Gurney (G17) as a Boleyn-Howard-Heydon cousin.
 
 ---

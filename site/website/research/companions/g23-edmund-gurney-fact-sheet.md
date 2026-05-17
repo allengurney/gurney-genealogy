@@ -1,11 +1,11 @@
 ---
-title: "Edmund Gurney (G23) — Research Companion"
-permalink: /research/companions/g23-edmund-gurney-fact-sheet.html
+title: "Edmund Gurney (G23) Notes"
+description: "Research notes for Edmund Gurney (G23) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g23-edmund-gurney.html
 eleventyExcludeFromCollections: true
 ---
-# Edmund Gurney (G23) — Research Companion
-
-Research companion for `g23-edmund-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# Edmund Gurney (G23) Notes
+Research notes for `g23-edmund-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 
@@ -89,6 +89,14 @@ Blomefield's North Barsham entry adds another landholding context: in Edward III
 
 [^blomefield-norwich-richard-ii-g23]: Francis Blomefield, "The city of Norwich, chapter 16: Of the city in Richard II's time," *History of Norfolk*, vol. 3, pp. 102-117, British History Online, https://www.british-history.ac.uk/topographical-hist-norfolk/vol3/pp102-117. Source ID: `blomefield-norfolk`.
 [^blomefield-north-barsham-g23]: Francis Blomefield, "Gallow and Brothercross Hundreds: North-Barsham," *History of Norfolk*, vol. 7, pp. 47-52, British History Online, https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp47-52. Source ID: `blomefield-norfolk`.
+
+### Berford's Manor, Cringleford — De la Pole feoffee, c. 1370
+
+Blomefield's Norfolk volume 5 records that after the Berford co-heirs released their rights in 1370, Berford's Manor at Cringleford was "absolutely vested in the De la Poles, who settled it soon after on Edmund Gourney, Will. de Boyton, Tho. Spynk, and John le Latimer of Norwich" as feoffees, the manor then extending into Hethersett, Eaton, Earlham, Little Melton, Colney, and the Cringleford watermill.[^blomefield-cringleford-berford] By 1381 John le Latimer of Norwich was sole lord with view of frankpledge, weyf, and strey, and Edmund Gurney with the other De la Pole feoffees released all right to him in the same year.[^blomefield-cringleford-berford]
+
+This is independent of the 1382 Close Rolls trust by John de Plays already documented here, and it predates it. It places Edmund in a De la Pole–linked Norfolk feoffee network in the early 1370s — the De la Poles being one of the dominant late-fourteenth-century magnate houses, with the merchant William de la Pole's son Michael soon to be created earl of Suffolk under Richard II — and ties him directly to John le Latimer of Norwich, who already appears in the manor of Berford's Manor before becoming sole lord in 1381. The Cringleford / Hethersett / Earlham cluster sits south-west of Norwich, broadening Edmund's documented service footprint beyond his Harpley, West Barsham, Hardingham, and King's Lynn principal-counsel work.
+
+[^blomefield-cringleford-berford]: Francis Blomefield, *An Essay Towards a Topographical History of the County of Norfolk*, vol. 5 (London: W. Miller, 1806), pp. 33–39, "Cringleford" / "Berford's Manor"; [British History Online transcription](https://www.british-history.ac.uk/topographical-hist-norfolk/vol5/pp33-39). Source ID: `blomefield-norfolk-vol5-pp33-cringleford-berford`.
 
 ---
 

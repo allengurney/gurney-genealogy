@@ -1,11 +1,11 @@
 ---
-title: "William Gurney V (G18) — Research Companion"
-permalink: /research/companions/g18-william-gurney-v-fact-sheet.html
+title: "William Gurney V (G18) Notes"
+description: "Research notes for William Gurney V (G18) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g18-william-gurney-v.html
 eleventyExcludeFromCollections: true
 ---
-# William Gurney V (G18) — Research Companion
-
-Research companion for `g18-william-gurney-v-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# William Gurney V (G18) Notes
+Research notes for `g18-william-gurney-v-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

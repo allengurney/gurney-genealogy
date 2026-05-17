@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g18-william-gurney-v-fact-sheet.html
 title: William Gurney V Fact Sheet
 pageHeading: William Gurney V (c. 1465 – before 1508)
-subtitle: "Ancestor fact sheet for G18 in the direct Gurney line. Eldest son and heir-apparent of William Gurney IV (G19); died vita patris before his father; husband of Anne Heydon, daughter of Sir Henry Heydon of Baconsthorpe Castle and Anne Boleyn the elder. Brought the Heydon-Boleyn-Howard cousinage into the family. Updated April 2026."
+subtitle: "Eldest son and heir-apparent of William Gurney IV (G19); died vita patris before his father; husband of Anne Heydon, daughter of Sir Henry Heydon of Baconsthorpe Castle and Anne Boleyn the elder. Brought the Heydon-Boleyn-Howard cousinage into the family."
 description: "Compact fact sheet for William Gurney V of Irstead, who married Anne Heydon and brought Boleyn descent into the Norfolk Gurneys."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 7 April 2026
 factsheet:
   gen: G18
   slug: g18-william-gurney-v-fact-sheet

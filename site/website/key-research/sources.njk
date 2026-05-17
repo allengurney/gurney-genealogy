@@ -7,7 +7,6 @@ subtitle: "Primary and core reference sources used in the Gurney genealogy libra
 description: "Canonical source registry for the Gurney genealogy library, generated from data/sources.json."
 bodyClass: explorer-page sources-page
 activeNav: research
-updated: 25 April 2026
 ---
 
 <header class="explorer-head explorer-head-with-stats">
@@ -16,10 +15,10 @@ updated: 25 April 2026
     <p class="explorer-subtitle">A generated bibliography of the source registry behind the fact sheets, case files, research notes, and structured data.</p>
   </div>
   <div class="stats-strip compact-stats">
-    <div class="stat"><span class="label">Sources</span><span class="value">{{ sourceStats.sourceCount }}</span></div>
-    <div class="stat"><span class="label">Full corpus</span><span class="value">{{ sourceStats.fullCorpusCount }}</span></div>
-    <div class="stat"><span class="label">External links</span><span class="value">{{ sourceStats.externalLinkCount }}</span></div>
-    <div class="stat"><span class="label">Validations</span><span class="value">{{ sourceStats.validationCount }}</span></div>
+    <div class="stat" title="Total source registry entries — every cited source tracked in the library, whether the artefact is held locally or only referenced externally."><span class="label">Sources</span><span class="value">{{ sourceStats.sourceCount }}</span></div>
+    <div class="stat" title="Full text of non-copyright works, text extracts, primary source imagery, and other media in the genealogy library."><span class="label">Library holdings</span><span class="value">{{ sourceStats.libraryHoldingsCount }}</span></div>
+    <div class="stat" title="Sources reachable through an external URL — a publisher, archive, or institutional host page."><span class="label">External links</span><span class="value">{{ sourceStats.externalLinkCount }}</span></div>
+    <div class="stat" title="Sources with a validation note in sources/validations/ recording what was examined and how identity was confirmed."><span class="label">Validations</span><span class="value">{{ sourceStats.validationCount }}</span></div>
   </div>
 </header>
 

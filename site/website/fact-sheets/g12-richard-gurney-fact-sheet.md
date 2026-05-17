@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g12-richard-gurney-fact-sheet.html
 title: Richard Gurney Fact Sheet
 pageHeading: Richard Gurney (c. 1630 – October 1691)
-subtitle: "Ancestor fact sheet for G12 in the direct Gurney line. Weymouth, Massachusetts proprietor and Freeman 1681; son of John Gurney-1, the colonial emigrant; one of his sons died at the Mendon massacre of 1675. Initial draft, April 2026."
+subtitle: "Weymouth, Massachusetts proprietor and Freeman 1681; son of John Gurney-1, the colonial emigrant; one of his sons died at the Mendon massacre of 1675."
 description: "Compact fact sheet for Richard Gurney in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 25 April 2026
 factsheet:
   gen: G12
   slug: g12-richard-gurney-fact-sheet

@@ -1,11 +1,11 @@
 ---
-title: "Gerard de Gournay (G32) — Research Companion"
-permalink: /research/companions/g32-gerard-de-gournay-fact-sheet.html
+title: "Gerard de Gournay (G32) Notes"
+description: "Research notes for Gerard de Gournay (G32) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g32-gerard-de-gournay.html
 eleventyExcludeFromCollections: true
 ---
-# Gerard de Gournay (G32) — Research Companion
-
-Research companion for `g32-gerard-de-gournay-fact-sheet.md`. Synthesised v2 (May 2026) drawing on DG-I + DG-Supp, Hannay, Pettigrew, Planché, Farrer, Anderson 1742, Loyd, Richardson SGM 2002, Pattou *Racines Histoire* (2025), Geni / Pam Wilson 2015 / Palmer *Perlustration of Yarmouth* 1872, Potin 1842 / NRP 1852, Painchault 2012, FMG MedLands (Cawley), Orderic Vitalis (Prévost ed., books VIII–IX), Albert of Aix and Baudry of Dol (RHC), Guillaume of Jumièges (Marx / van Houts).
+# Gerard de Gournay (G32) Notes
+Research notes for `g32-gerard-de-gournay-fact-sheet.md`. Synthesised v2 (May 2026) drawing on DG-I + DG-Supp, Hannay, Pettigrew, Planché, Farrer, Anderson 1742, Loyd, Richardson SGM 2002, Pattou *Racines Histoire* (2025), Geni / Pam Wilson 2015 / Palmer *Perlustration of Yarmouth* 1872, Potin 1842 / NRP 1852, Painchault 2012, FMG MedLands (Cawley), Orderic Vitalis (Prévost ed., books VIII–IX), Albert of Aix and Baudry of Dol (RHC), Guillaume of Jumièges (Marx / van Houts).
 
 The full Phase-0 source-by-source cross-walks live in `sources/FS/LBGV-H99/assessment.md` (FS export) and `sources/FS/Norman_additions/assessment.md` (Recherches PDFs and URLs). What follows is a synthesis fit for re-evaluation without re-reading those Phase-0 files, but it preserves verbatim the primary-source extracts that bear interpretive weight.
 
@@ -108,6 +108,14 @@ DG-Supp Note 16 (p. 735): "Signum Girardi de Gornaco" preserved in the Cartulary
 ### 2.12 c. 1125 — the William de Britolio dispute
 
 DG-Supp Note 18 (p. 736) transcribes a passage from a c. 1125 treatise on the miracles of St Nicholas (Évreux MS. 132) describing a *discordia* between William de Britolio (William of Breteuil, lord of Pont-Saint-Pierre) and Gerard de Gournay over a rebel knight Gerard sheltered. The dispute escalated to the point where the inhabitants of the town feared their homes would be burned. (Source MS preserved at Bibliothèque d'Évreux.)
+
+### 2.13 [c. 1112/22] — Hugues IV's Bec confirmation naming the ancestor chain (Decorde 1861)
+
+Decorde preserves an early-twelfth-century confirmation, dated c. 1112 or 1122 in the local tradition he transmits, in which "Hugues de Gournay" — i.e., Hugues IV, Gerard's eldest son and successor in the senior barony — confirmed gifts to the Abbey of Bec made by "his ancestors Hugues and Basilie, and by Gérard, his father," and explicitly included the church of **Brémontier** and its tithes in that confirmation.[^decorde-hugues-iv-bec-confirmation]
+
+This sits a generation earlier than the [1181/89] Henry II royal confirmation already recorded in §2.9, and it is independent of it. Together the two confirmations document the same donation chain — Hugh III → Basilie → Gerard → continued patronage under Hugues IV — in two distinct twelfth-century attestations, one familial (c. 1112/22) and one royal (1181/89). For the direct-line argument this strengthens Gerard's middle-generation role in the Gournay-Bec patronage relationship and supplies the immediate documentary context for §2.9 Henry II's later wholesale confirmation.
+
+[^decorde-hugues-iv-bec-confirmation]: J.-E. Decorde, *Essai historique et archéologique sur le Canton de Gournay* (Paris: Derache and Didron; Rouen: Lebrument, 1861); deep-research synthesis at `sources/corpus_supplement/deep-research-report-decorde-essai-gournay-ancestors.md`. Decorde's local-tradition dating is c. 1112 or 1122; the c. 1180s Henry II confirmation at §2.9 above is a distinct, later event. Source ID: `decorde-essai-canton-gournay-1861`.
 
 ---
 

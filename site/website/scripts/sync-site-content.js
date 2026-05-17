@@ -45,11 +45,49 @@ function companionSlug(filename) {
     .replace(/\.md$/i, "");
 }
 
-function frontMatter(title, slug) {
+function companionPublicSlug(slug) {
+  return slug.replace(/-fact-sheet$/i, "");
+}
+
+function noteBaseTitle(title, slug) {
+  const fallback = slug.replace(/-/g, " ");
+  let base = String(title || fallback)
+    .replace(/\s+[-\u2013\u2014]\s+Research (?:Companion|Notes)\s*$/i, "")
+    .replace(/\s+Research (?:Companion|Notes)\s*$/i, "")
+    .trim();
+
+  if (`${base} Notes`.length > 43) {
+    const compact = [
+      base.split(" / ")[0],
+      base.replace(/\s*\([^)]*\)/g, ""),
+    ].map(value => value.trim()).find(value => value && `${value} Notes`.length <= 43);
+    if (compact) base = compact;
+  }
+
+  return base || fallback;
+}
+
+function noteTitle(title, slug) {
+  return `${noteBaseTitle(title, slug)} Notes`;
+}
+
+function noteDescription(title, slug) {
+  const base = noteBaseTitle(title, slug);
+  return `Research notes for ${base} in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence.`;
+}
+
+function publicCompanionBody(markdown) {
+  return markdown
+    .replace(/^#\s+(.+?)(?:\s+[-\u2013\u2014]\s+Research (?:Companion|Notes))?\s*$/m, "# $1 Notes")
+    .replace(/\bResearch companion for\b/i, "Research notes for");
+}
+
+function frontMatter(title, publicSlug, description) {
   return [
     "---",
     `title: ${JSON.stringify(title)}`,
-    `permalink: /research/companions/${slug}.html`,
+    `description: ${JSON.stringify(description)}`,
+    `permalink: /research/notes/${publicSlug}.html`,
     "eleventyExcludeFromCollections: true",
     "---",
     "",
@@ -82,8 +120,12 @@ function syncResearchCompanions() {
       const sourcePath = path.join(companionSource, entry.name);
       const source = fs.readFileSync(sourcePath, "utf8");
       const slug = companionSlug(entry.name);
-      const title = readTitle(source, slug.replace(/-/g, " "));
-      const content = `${frontMatter(title, slug)}${source.replace(/^---[\s\S]*?---\s*/, "")}`;
+      const publicSlug = companionPublicSlug(slug);
+      const sourceTitle = readTitle(source, slug.replace(/-/g, " "));
+      const title = noteTitle(sourceTitle, slug);
+      const description = noteDescription(sourceTitle, slug);
+      const body = publicCompanionBody(source.replace(/^---[\s\S]*?---\s*/, ""));
+      const content = `${frontMatter(title, publicSlug, description)}${body}`;
       fs.writeFileSync(path.join(companionTarget, `${slug}.md`), content);
       return slug;
     });

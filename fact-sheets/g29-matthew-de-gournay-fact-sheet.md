@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g29-matthew-de-gournay-fact-sheet.html
 title: Matthew de Gournay Fact Sheet
 pageHeading: Sir Matthew de Gournay (fl. c. 1180–1220)
-subtitle: "Ancestor fact sheet for G29 in the direct Gurney line. Knight; acquired Harpley manor through a marriage arranged by Hameline Plantagenet, Earl Warren. Updated April 2026."
+subtitle: "Knight; acquired Harpley manor through a marriage arranged by Hameline Plantagenet, Earl Warren."
 description: "Compact fact sheet for Sir Matthew de Gournay in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 5 April 2026
 factsheet:
   gen: G29
   slug: g29-matthew-de-gournay-fact-sheet

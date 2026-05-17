@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g09-benjamin-gurney-fact-sheet.html
 title: Benjamin Gurney Fact Sheet
 pageHeading: Benjamin Gurney (1730–1805)
-subtitle: "Ancestor fact sheet for G09 in the direct Gurney line. Plymouth County farmer born of an unmarried liaison and reportedly raised by his maternal aunt; sold Abington land in 1770 and bought into Cummington with Silas Reed."
+subtitle: "Plymouth County farmer born of an unmarried liaison and reportedly raised by his maternal aunt; sold Abington land in 1770 and bought into Cummington with Silas Reed."
 description: "Compact fact sheet for Benjamin Gurney in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 28 April 2026
 factsheet:
   gen: G09
   slug: g09-benjamin-gurney-fact-sheet

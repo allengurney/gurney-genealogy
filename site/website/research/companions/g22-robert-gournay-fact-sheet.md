@@ -1,11 +1,11 @@
 ---
-title: "Robert Gournay (G22) — Research Companion"
-permalink: /research/companions/g22-robert-gournay-fact-sheet.html
+title: "Robert Gournay (G22) Notes"
+description: "Research notes for Robert Gournay (G22) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g22-robert-gournay.html
 eleventyExcludeFromCollections: true
 ---
-# Robert Gournay (G22) — Research Companion
-
-Research companion for `g22-robert-gournay-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# Robert Gournay (G22) Notes
+Research notes for `g22-robert-gournay-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

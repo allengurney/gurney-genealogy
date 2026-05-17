@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g14-edmund-gurney-divine-related-fact-sheet.html
 title: Edmund Gurney Related Fact Sheet
 pageHeading: Edmund Gurney / Edmund Gurnay (c.1577/8-1648)
-subtitle: "Related fact sheet for G14. Edmund Gurney was not a direct ancestor; he was Henry Gurney's son and Francis Gurney's brother."
+subtitle: "Edmund Gurney was not a direct ancestor; he was Henry Gurney's son and Francis Gurney's brother."
 description: "Related-person fact sheet for Edmund Gurney or Gurnay, Puritan-leaning divine, Cambridge B.D., Rector of Edgefield and Harpley, and brother of Francis Gurney (G14)."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 26 April 2026
 factsheet:
   gen: G14
   slug: g14-edmund-gurney-divine-related-fact-sheet

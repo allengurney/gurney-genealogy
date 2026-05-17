@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g15-henry-gurney-fact-sheet.html
 title: Henry Gurney Fact Sheet
 pageHeading: Henry Gurney (1548/49 – 1615/16)
-subtitle: "Ancestor fact sheet for G15 in the direct Gurney line. Last Gurney born Roman Catholic; Elizabethan poet and bibliophile of Great Ellingham; father of twelve, including Francis Gurney of London (G14) and Edmund Gurney the Puritan divine. Updated April 2026."
+subtitle: "Last Gurney born Roman Catholic; Elizabethan poet and bibliophile of Great Ellingham; father of twelve, including Francis Gurney of London (G14) and Edmund Gurney the Puritan divine."
 description: "Compact fact sheet for Henry Gurney of West Barsham and Great Ellingham, the last Gurney born a Roman Catholic and the Elizabethan poet whose 600-page commonplace book survives at the Bodleian."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 7 April 2026
 factsheet:
   gen: G15
   slug: g15-henry-gurney-fact-sheet

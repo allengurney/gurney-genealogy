@@ -1,11 +1,11 @@
 ---
-title: "John de Gournay IV (G24) — Research Companion"
-permalink: /research/companions/g24-john-de-gournay-iv-fact-sheet.html
+title: "John de Gournay IV (G24) Notes"
+description: "Research notes for John de Gournay IV (G24) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g24-john-de-gournay-iv.html
 eleventyExcludeFromCollections: true
 ---
-# John de Gournay IV (G24) — Research Companion
-
-Research companion for `g24-john-de-gournay-iv-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# John de Gournay IV (G24) Notes
+Research notes for `g24-john-de-gournay-iv-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

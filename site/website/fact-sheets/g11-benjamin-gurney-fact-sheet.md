@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g11-benjamin-gurney-fact-sheet.html
 title: Benjamin Gurney Fact Sheet
 pageHeading: Benjamin Gurney (c. 1676 – 1738/9)
-subtitle: "Ancestor fact sheet for G11 in the direct Gurney line. Married Rebecca Staples at the First Church of Braintree in 1701; landholder at the Abington–Bridgewater line; will proved 1739. Initial draft, April 2026."
+subtitle: "Married Rebecca Staples at the First Church of Braintree in 1701; landholder at the Abington–Bridgewater line; will proved 1739."
 description: "Compact fact sheet for Benjamin Gurney in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 25 April 2026
 factsheet:
   gen: G11
   slug: g11-benjamin-gurney-fact-sheet

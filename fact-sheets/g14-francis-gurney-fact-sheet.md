@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g14-francis-gurney-fact-sheet.html
 title: Francis Gurney Fact Sheet
 pageHeading: Francis Gurney (1581–1646/7)
-subtitle: "Ancestor fact sheet for G14 in the direct Gurney line. Merchant Taylor of London and probable father of John Gurney-1 of Massachusetts. Published 2 April 2026."
+subtitle: "Merchant Taylor of London and probable father of John Gurney-1 of Massachusetts."
 description: "Compact fact sheet for Francis Gurney, Merchant Taylor of London and probable father of John Gurney-1 of Massachusetts."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 2 April 2026
 factsheet:
   gen: G14
   slug: g14-francis-gurney-fact-sheet

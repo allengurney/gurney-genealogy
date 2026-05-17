@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g26-sir-william-de-gournay-iii-fact-sheet.html
 title: Sir William de Gournay III Fact Sheet
 pageHeading: Sir William de Gournay III (fl. c. 1260–1300)
-subtitle: "Ancestor fact sheet for G26 in the direct Gurney line. Last Harpley lord in the direct male line; sold all estates to his brother the Rector; his seal bears the first documented engrailed cross. Published April 2026."
+subtitle: "Last Harpley lord in the direct male line; sold all estates to his brother the Rector; his seal bears the first documented engrailed cross."
 description: "Compact fact sheet for Sir William de Gournay III in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 2 April 2026
 factsheet:
   gen: G26
   slug: g26-sir-william-de-gournay-iii-fact-sheet

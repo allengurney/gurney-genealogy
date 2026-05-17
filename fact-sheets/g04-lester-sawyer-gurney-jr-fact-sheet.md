@@ -3,10 +3,9 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g04-lester-sawyer-gurney-jr-fact-sheet.html
 title: Lester Sawyer Gurney Jr. Fact Sheet
 pageHeading: Lester Sawyer Gurney Jr. (1888–1958)
-subtitle: "Ancestor fact sheet for G04 in the direct Gurney line. Patchogue-raised civil engineer whose life ran from Long Island theatricals to Cape Cod construction work and a later Massachusetts chapter. Published April 2026."
+subtitle: "Patchogue-raised civil engineer whose life ran from Long Island theatricals to Cape Cod construction work and a later Massachusetts chapter."
 description: "Compact fact sheet for Lester Sawyer Gurney Jr. in the direct Gurney line."
 bodyClass: bio-page factsheet-page
-updated: 10 April 2026
 factsheet:
   gen: G04
   slug: g04-lester-sawyer-gurney-jr-fact-sheet

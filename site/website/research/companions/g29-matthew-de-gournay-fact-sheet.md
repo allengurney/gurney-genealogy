@@ -1,11 +1,11 @@
 ---
-title: "Matthew de Gournay (G29) — Research Companion"
-permalink: /research/companions/g29-matthew-de-gournay-fact-sheet.html
+title: "Matthew de Gournay (G29) Notes"
+description: "Research notes for Matthew de Gournay (G29) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g29-matthew-de-gournay.html
 eleventyExcludeFromCollections: true
 ---
-# Matthew de Gournay (G29) — Research Companion
-
-Research companion for `g29-matthew-de-gournay-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# Matthew de Gournay (G29) Notes
+Research notes for `g29-matthew-de-gournay-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: "Eudes (Odon) de Gournay (G37) — Research Companion"
-permalink: /research/companions/g37-eudes-de-gournay-fact-sheet.html
+title: "Eudes (Odon) de Gournay (G37) Notes"
+description: "Research notes for Eudes (Odon) de Gournay (G37) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g37-eudes-de-gournay.html
 eleventyExcludeFromCollections: true
 ---
-# Eudes (Odon) de Gournay (G37) — Research Companion
-
-Research companion for `g37-eudes-de-gournay-fact-sheet.md`. Synthesised v2 (May 2026) drawing on DG-I + DG-Supp, Hannay, Pettigrew, Planché, John Gough Nichols ed. *Herald and Genealogist* vol. 3 (1866), Pattou *Racines Histoire* (2025), French Wikipedia *Famille de Gournay*, FMG MedLands (Cawley), Potin 1842, NRP-I 1852, Dudo of Saint-Quentin (Lair / Christiansen), Calmet *Histoire de Lorraine* (via the M. Palain de Mongnigny 1674 Metz judgment).
+# Eudes (Odon) de Gournay (G37) Notes
+Research notes for `g37-eudes-de-gournay-fact-sheet.md`. Synthesised v2 (May 2026) drawing on DG-I + DG-Supp, Hannay, Pettigrew, Planché, John Gough Nichols ed. *Herald and Genealogist* vol. 3 (1866), Pattou *Racines Histoire* (2025), French Wikipedia *Famille de Gournay*, FMG MedLands (Cawley), Potin 1842, NRP-I 1852, Dudo of Saint-Quentin (Lair / Christiansen), Calmet *Histoire de Lorraine* (via the M. Palain de Mongnigny 1674 Metz judgment).
 
 The full Phase-0 cross-walks live in `sources/FS/PWPZ-VK1/assessment.md` (the FS PID labeled "Eudes ou Hugues de GOURNAY EN BRAY" — see G36 §6 for the name-equivalence framing) and `sources/FS/Norman_additions/assessment.md`. This synthesis preserves the verbatim primary-source extracts.
 

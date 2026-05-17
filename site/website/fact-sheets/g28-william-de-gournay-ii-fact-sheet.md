@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g28-william-de-gournay-ii-fact-sheet.html
 title: William de Gournay II Fact Sheet
 pageHeading: William de Gournay II (fl. c. 1210–1250)
-subtitle: "Ancestor fact sheet for G28 in the direct Gurney line. Knight; Lord of Harpley; father of the Crusader-turned-rebel Sir John de Gournay I. Published April 2026."
+subtitle: "Knight; Lord of Harpley; father of the Crusader-turned-rebel Sir John de Gournay I."
 description: "Compact fact sheet for William de Gournay II in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 2 April 2026
 factsheet:
   gen: G28
   slug: g28-william-de-gournay-ii-fact-sheet

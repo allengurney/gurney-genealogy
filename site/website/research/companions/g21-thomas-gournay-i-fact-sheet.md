@@ -1,11 +1,11 @@
 ---
-title: "Thomas Gournay I (G21) — Research Companion"
-permalink: /research/companions/g21-thomas-gournay-i-fact-sheet.html
+title: "Thomas Gournay I (G21) Notes"
+description: "Research notes for Thomas Gournay I (G21) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g21-thomas-gournay-i.html
 eleventyExcludeFromCollections: true
 ---
-# Thomas Gournay I (G21) — Research Companion
-
-Research companion for `g21-thomas-gournay-i-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# Thomas Gournay I (G21) Notes
+Research notes for `g21-thomas-gournay-i-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

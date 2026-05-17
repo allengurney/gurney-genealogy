@@ -1,11 +1,11 @@
 ---
-title: "Willis Gurney (G07) — Research Companion"
-permalink: /research/companions/g07-willis-gurney-fact-sheet.html
+title: "Willis Gurney (G07) Notes"
+description: "Research notes for Willis Gurney (G07) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g07-willis-gurney.html
 eleventyExcludeFromCollections: true
 ---
-# Willis Gurney (G07) — Research Companion
-
-Research companion for `g07-willis-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# Willis Gurney (G07) Notes
+Research notes for `g07-willis-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

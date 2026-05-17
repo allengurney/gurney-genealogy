@@ -3,6 +3,7 @@ const path = require("path");
 
 const projectRoot = path.resolve(__dirname, "..");
 const repoRoot = path.resolve(projectRoot, "..", "..");
+const siteOutputRoot = path.join(projectRoot, "_site");
 const errors = [];
 const warnings = [];
 
@@ -53,7 +54,7 @@ function routeCandidates(url) {
 function routeExists(url) {
   const candidates = routeCandidates(url);
   if (!candidates.length) return true;
-  return candidates.some(candidate => exists(path.join(projectRoot, candidate)));
+  return candidates.some(candidate => exists(path.join(projectRoot, candidate)) || exists(path.join(siteOutputRoot, candidate)));
 }
 
 function checkRoute(url, label) {

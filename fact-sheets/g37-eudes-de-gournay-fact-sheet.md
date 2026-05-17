@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g37-eudes-de-gournay-fact-sheet.html
 title: Eudes (Odon) de Gournay Fact Sheet
 pageHeading: Eudes (Odon) de Gournay (c. 860 – d. after 911, before c. 932)
-subtitle: "Ancestor fact sheet for G37 in the direct Gurney line. Viking warrior and traditional first lord of Gournay-en-Bray. Updated April 2026."
+subtitle: "Viking warrior and traditional first lord of Gournay-en-Bray."
 description: "Compact fact sheet for Eudes (Odon) de Gournay in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 19 April 2026
 factsheet:
   gen: G37
   slug: g37-eudes-de-gournay-fact-sheet
@@ -72,7 +71,7 @@ factsheet:
 <h2 class="unnumbered">Highlights</h2>
 
 <ul>
-  <li><strong>~1,160 years of documented family history start here.</strong> Eudes's grant of <a href="https://en.wikipedia.org/wiki/Gournay-en-Bray">Gournay-en-Bray</a> from Rollo c. 911 initiated a property-holding lineage that can be traced — with varying certainty — to Allen Gurney's own generation, approximately 37 generations later. <a href="https://en.wikipedia.org/wiki/James_Hannay_(journalist)">James Hannay</a>, writing in 1867, called the Gournay pedigree one of the longest Norse pedigrees extant: "its steps, like those of the ladder of Jacob, are lost in the ascent." <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></li>
+  <li><strong>~1,160 years of documented family history start here.</strong> Eudes's grant of <a href="https://en.wikipedia.org/wiki/Gournay-en-Bray">Gournay-en-Bray</a> from Rollo c. 911 initiated a property-holding lineage that can be traced — with varying certainty — to Allen Gurney's own generation, approximately 37 generations later. James Hannay, writing in 1867, called the Gournay pedigree one of the longest Norse pedigrees extant: "its steps, like those of the ladder of Jacob, are lost in the ascent." <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></li>
   <li><strong>The town still exists — and still makes cheese.</strong> Gournay-en-Bray (<a href="https://en.wikipedia.org/wiki/Seine-Maritime">Seine-Maritime</a>, pop. ~6,500) survives today ~50 km east of <a href="https://en.wikipedia.org/wiki/Rouen">Rouen</a>. The <a href="https://en.wikipedia.org/wiki/Pays_de_Bray">Pays de Bray</a> is celebrated for <a href="https://en.wikipedia.org/wiki/Neufch%C3%A2tel_cheese">Neufchâtel cheese</a> and butter — it was once called Normandy's "butter capital." The name itself likely derives from the landscape: either Saxon *Gorena-eye* ("muddy waters") or Celtic *gorn-acum* ("fishery"), both rooted in the marshy rivers that still wind through the Bray. <sup class="fn"><a href="#n6" id="ref-6">6</a></sup></li>
   <li><strong>"A name supplied by tradition to somebody whose existence is a matter of certainty."</strong> Hannay put the case for Eudes persuasively: no supernatural heroism is attributed to him, no legendary feats — he is simply made what hundreds of Norman family founders were, "a follower of Rollo, sharing in his chieftain's fortunes." <a href="https://en.wikipedia.org/wiki/L%C3%A9opold_Delisle">Léopold Delisle</a>, the leading 19th-century Norman charter scholar, challenged Daniel Gurney's early genealogy — but the challenge itself confirms that no document survives. The name rests on tradition; the person behind it almost certainly existed. <sup class="fn"><a href="#n7" id="ref-7">7</a></sup></li>
   <li><strong>A frontier post given only to a trusted commander.</strong> The Pays de Bray was <a href="https://en.wikipedia.org/wiki/Duchy_of_Normandy">Normandy</a>'s most exposed eastern border — the gateway any French army would use to invade. The lord of Gournay was required by the <a href="https://en.wikipedia.org/wiki/Black_Book_of_the_Exchequer">Red Book Roll</a> to furnish the Duke with twelve knights and defend the marches at his own expense. As Hannay noted, this was "a most important" lordship that "would be established early, and given to some conspicuous and deserving fighting-man of the sea-king breed." <sup class="fn"><a href="#n8" id="ref-8">8</a></sup></li>

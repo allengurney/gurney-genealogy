@@ -1,11 +1,11 @@
 ---
-title: "Lester Hayes Gurney (G02) — Research Companion"
-permalink: /research/companions/g02-lester-hayes-gurney-fact-sheet.html
+title: "Lester Hayes Gurney (G02) Notes"
+description: "Research notes for Lester Hayes Gurney (G02) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g02-lester-hayes-gurney.html
 eleventyExcludeFromCollections: true
 ---
-# Lester Hayes Gurney (G02) — Research Companion
-
-Research companion for `g02-lester-hayes-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# Lester Hayes Gurney (G02) Notes
+Research notes for `g02-lester-hayes-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

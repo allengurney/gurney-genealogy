@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g21-thomas-gournay-i-fact-sheet.html
 title: Thomas Gournay I Fact Sheet
 pageHeading: Thomas Gournay I (fl. c. 1408 – c. 1450)
-subtitle: "Ancestor fact sheet for G21 in the direct Gurney line. Nephew and eventual heir of Sir John Gurney V, Sheriff of Norfolk and MP in the 1404 Coventry Parliament. Married Catherine Kerville of Watlington. Updated April 2026."
+subtitle: "Nephew and eventual heir of Sir John Gurney V, Sheriff of Norfolk and MP in the 1404 Coventry Parliament. Married Catherine Kerville of Watlington."
 description: "Compact fact sheet for Thomas Gournay I of West Barsham, who inherited collaterally from his uncle Sir John Gurney V."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 7 April 2026
 factsheet:
   gen: G21
   slug: g21-thomas-gournay-i-fact-sheet
@@ -89,13 +88,17 @@ factsheet:
   <thead>
     <tr>
       <th>Name</th>
+      <th>Dates</th>
+      <th>Mother</th>
       <th>Notes</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><strong>Thomas Gournay II</strong></td>
-      <td><strong>G20 in the direct line.</strong> Son and heir. Of West Barsham, Harpley, and a Norwich town house in St Gregory's parish. Married Margaret Jerningham of Somerleyton, Suffolk. Will proved 27 July 1471. <sup class="fn"><a href="#n10" id="ref-10">10</a></sup></td>
+      <td>c. 1430 – will proved 27 Jul 1471</td>
+      <td>Catherine Kerville</td>
+      <td><strong>G20 in the direct line.</strong> Son and heir. Of West Barsham, Harpley, and a Norwich town house in St Gregory's parish. Married Margaret Jerningham of Somerleyton, Suffolk. <sup class="fn"><a href="#n10" id="ref-10">10</a></sup></td>
     </tr>
   </tbody>
 </table>

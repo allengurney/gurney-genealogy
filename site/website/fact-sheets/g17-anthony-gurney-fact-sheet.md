@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g17-anthony-gurney-fact-sheet.html
 title: Anthony Gurney Fact Sheet
 pageHeading: Anthony Gurney (c. 1499 – 4 January 1555/6)
-subtitle: "Ancestor fact sheet for G17 in the direct Gurney line. Boy lord of West Barsham; second cousin of Anne Boleyn through his Heydon mother; brought Great Ellingham and the Mortimer of Attleborough lands into the family by marrying Margaret Lovell. Foreman of the Norfolk grand jury that indicted the Earl of Surrey in 1547. Updated April 2026."
+subtitle: "Boy lord of West Barsham; second cousin of Anne Boleyn through his Heydon mother; brought Great Ellingham and the Mortimer of Attleborough lands into the family by marrying Margaret Lovell. Foreman of the Norfolk grand jury that indicted the Earl of Surrey in 1547."
 description: "Compact fact sheet for Anthony Gurney of West Barsham and Great Ellingham, the Tudor Norfolk gentleman who bridged the medieval Gurneys and the Elizabethan Henry Gurney."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 7 April 2026
 factsheet:
   gen: G17
   slug: g17-anthony-gurney-fact-sheet

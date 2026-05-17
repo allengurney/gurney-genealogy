@@ -1,10 +1,10 @@
 ---
-title: "Edmund Gurney / Edmund Gurnay (c.1577/8-1648) — Research Notes"
-permalink: /research/companions/edmund-gurney-divine.html
+title: "Edmund Gurney Notes"
+description: "Research notes for Edmund Gurney in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/edmund-gurney-divine.html
 eleventyExcludeFromCollections: true
 ---
-# Edmund Gurney / Edmund Gurnay (c.1577/8-1648) — Research Notes
-
+# Edmund Gurney / Edmund Gurnay (c.1577/8-1648) Notes
 Collateral Gurney subject. Edmund Gurney, usually printed in his own books as **Edmund Gurnay**, was a Norfolk divine, Cambridge B.D., anti-Roman and anti-image writer, Rector of Edgefield and Harpley, son of Henry Gurney (G15) and Ellen Blennerhasset, and brother of Francis Gurney (G14). He is not a direct ancestor, but he is a high-value contextual figure for the Francis Gurney / John Gurney-1 research problem.[^dnb-edmund][^dg-francis-pedigree][^thoms-identity]
 
 ---

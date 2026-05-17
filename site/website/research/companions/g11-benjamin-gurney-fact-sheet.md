@@ -1,11 +1,11 @@
 ---
-title: "Benjamin Gurney (G11) — Research Companion"
-permalink: /research/companions/g11-benjamin-gurney-fact-sheet.html
+title: "Benjamin Gurney (G11) Notes"
+description: "Research notes for Benjamin Gurney (G11) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g11-benjamin-gurney.html
 eleventyExcludeFromCollections: true
 ---
-# Benjamin Gurney (G11) — Research Companion
-
-Research companion for `g11-benjamin-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# Benjamin Gurney (G11) Notes
+Research notes for `g11-benjamin-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

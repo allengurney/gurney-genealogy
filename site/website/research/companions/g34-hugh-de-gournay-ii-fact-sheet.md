@@ -1,11 +1,11 @@
 ---
-title: "Hugh de Gournay II (G34) — Research Companion"
-permalink: /research/companions/g34-hugh-de-gournay-ii-fact-sheet.html
+title: "Hugh de Gournay II (G34) Notes"
+description: "Research notes for Hugh de Gournay II (G34) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g34-hugh-de-gournay-ii.html
 eleventyExcludeFromCollections: true
 ---
-# Hugh de Gournay II (G34) — Research Companion
-
-Research companion for `g34-hugh-de-gournay-ii-fact-sheet.md`. Synthesised v2 (May 2026) drawing on DG-I + DG-Supp, Hannay, Pettigrew, Planché, Palgrave, Pattou *Racines Histoire* (2025), FMG MedLands (Cawley), Potin 1842, NRP-I 1852, the *Histoire de Lorraine* (Calmet) Maison de Gournay genealogy, Wace's *Roman de Rou*, William of Poitou's *Gesta Guillelmi*, the *Histoire et Chronique de Normandie* (printed Rouen 1610), Gabriel Dumoulin's *Histoire générale de Normandie* (1631), Orderic Vitalis, the Bayeux *Liber niger* (No. 5), and D. Martene's *Thesaurus Anecdotorum* t. i c. 196.
+# Hugh de Gournay II (G34) Notes
+Research notes for `g34-hugh-de-gournay-ii-fact-sheet.md`. Synthesised v2 (May 2026) drawing on DG-I + DG-Supp, Hannay, Pettigrew, Planché, Palgrave, Pattou *Racines Histoire* (2025), FMG MedLands (Cawley), Potin 1842, NRP-I 1852, the *Histoire de Lorraine* (Calmet) Maison de Gournay genealogy, Wace's *Roman de Rou*, William of Poitou's *Gesta Guillelmi*, the *Histoire et Chronique de Normandie* (printed Rouen 1610), Gabriel Dumoulin's *Histoire générale de Normandie* (1631), Orderic Vitalis, the Bayeux *Liber niger* (No. 5), and D. Martene's *Thesaurus Anecdotorum* t. i c. 196.
 
 The full Phase-0 cross-walks live in `sources/FS/LVSH-KBM/assessment.md` and `sources/FS/Norman_additions/assessment.md`. This synthesis preserves the verbatim primary-source extracts.
 

@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g02-lester-hayes-gurney-fact-sheet.html
 title: Lester Hayes Gurney Fact Sheet
 pageHeading: Lester Hayes Gurney (1945–2025)
-subtitle: "Ancestor fact sheet for G02 in the direct Gurney line. Indiana power engineer, third-generation engineer, Master Mason, Kiwanian, and lifelong Presbyterian. Initial draft, April 2026."
+subtitle: "Indiana power engineer, third-generation engineer, Master Mason, Kiwanian, and lifelong Presbyterian."
 description: "Compact fact sheet for Lester Hayes Gurney in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 25 April 2026
 factsheet:
   gen: G02
   slug: g02-lester-hayes-gurney-fact-sheet

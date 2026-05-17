@@ -1,11 +1,11 @@
 ---
-title: "Sir William de Gournay III (G26) — Research Companion"
-permalink: /research/companions/g26-sir-william-de-gournay-iii-fact-sheet.html
+title: "Sir William de Gournay III (G26) Notes"
+description: "Research notes for Sir William de Gournay III (G26) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g26-sir-william-de-gournay-iii.html
 eleventyExcludeFromCollections: true
 ---
-# Sir William de Gournay III (G26) — Research Companion
-
-Research companion for `g26-sir-william-de-gournay-iii-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# Sir William de Gournay III (G26) Notes
+Research notes for `g26-sir-william-de-gournay-iii-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

@@ -172,12 +172,31 @@ function indexCompanions() {
       const slug = file.replace(/\.md$/i, "");
       byGen.set(num, {
         label: "Research notes",
-        url: `/research/companions/${slug}.html`,
+        url: `/research/notes/${slug.replace(/-fact-sheet$/i, "")}.html`,
         style: "research",
       });
     });
 
   return byGen;
+}
+
+function compactSeoTitle(title) {
+  const maxTitleLength = 43;
+  const raw = String(title || "").replace(/\s+/g, " ").trim();
+  if (raw.length <= maxTitleLength) return raw;
+
+  const candidates = [
+    raw.split(" / ")[0],
+    raw.split(",")[0],
+    raw.replace(/,\s*(USA|France|England)$/i, ""),
+  ].map(value => value.trim()).filter(Boolean);
+
+  const candidate = candidates.find(value => value.length <= maxTitleLength);
+  if (candidate) return candidate;
+
+  const slice = raw.slice(0, maxTitleLength + 1);
+  const wordBreak = slice.lastIndexOf(" ");
+  return raw.slice(0, wordBreak > 20 ? wordBreak : maxTitleLength).trim();
 }
 
 function buildLocations(item, placesById, detailsById, eraById) {
@@ -283,6 +302,7 @@ function buildPlacesCatalog(places, placeDetails, generatedAncestors, placeResea
       placeId: place.placeId,
       name: place.name || detail.placeName || "",
       title: detail.siteName || place.name || detail.placeName || "",
+      seoTitle: compactSeoTitle(detail.siteName || place.name || detail.placeName || ""),
       siteName: detail.siteName || "",
       streetAddress: detail.streetAddress || "",
       region: regionFromPlaceName(place.name || detail.placeName || ""),

@@ -1,11 +1,11 @@
 ---
-title: "Hugh de Gournay III (G33) — Research Companion"
-permalink: /research/companions/g33-hugh-de-gournay-iii-fact-sheet.html
+title: "Hugh de Gournay III (G33) Notes"
+description: "Research notes for Hugh de Gournay III (G33) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g33-hugh-de-gournay-iii.html
 eleventyExcludeFromCollections: true
 ---
-# Hugh de Gournay III (G33) — Research Companion
-
-Research companion for `g33-hugh-de-gournay-iii-fact-sheet.md`. Synthesised v2 (May 2026) drawing on DG-I + DG-Supp, Hannay, Pettigrew, Planché, Palgrave, Farrer, Anderson 1742, Loyd, Keates-Rohan *Domesday People*, Richardson SGM 2002 / *Royal Ancestry* III, Pattou *Racines Histoire* (2025), FMG MedLands (Cawley), Potin 1842, NRP-I 1852, Painchault 2012, Normonde authority file, *Chronicon Beccensis Abbatiæ*, *Anselmi Cantuarensis Opera Omnia* (Schmitt), *Roman de Rou* (Wace), Domesday Book (Open Domesday verified).
+# Hugh de Gournay III (G33) Notes
+Research notes for `g33-hugh-de-gournay-iii-fact-sheet.md`. Synthesised v2 (May 2026) drawing on DG-I + DG-Supp, Hannay, Pettigrew, Planché, Palgrave, Farrer, Anderson 1742, Loyd, Keates-Rohan *Domesday People*, Richardson SGM 2002 / *Royal Ancestry* III, Pattou *Racines Histoire* (2025), FMG MedLands (Cawley), Potin 1842, NRP-I 1852, Painchault 2012, Normonde authority file, *Chronicon Beccensis Abbatiæ*, *Anselmi Cantuarensis Opera Omnia* (Schmitt), *Roman de Rou* (Wace), Domesday Book (Open Domesday verified).
 
 The full Phase-0 cross-walks live in `sources/FS/MZ68-VKD/assessment.md` (FS export, Pattou companion, Lorraine source) and `sources/FS/Norman_additions/assessment.md` (Recherches PDFs and URLs). What follows is a synthesis fit for re-evaluation without re-reading those Phase-0 files; verbatim primary-source extracts are preserved where they bear interpretive weight.
 
@@ -52,6 +52,17 @@ The two dates are **reconcilable as different events in a thirty-year monastic c
 Reading (a) is consistent with Potin's 1110 death. Reading (b) supports DG's pre-1093 death.
 
 **Repo position from this synthesis**: adopt the reconciliation (entered Bec 1080 → Prior 1092 → died 1110) and frame the fact sheet's earlier "c. 1093" as the year he was "shorn a monk" rather than the year of death. This better fits the Saint-Nicaise priorate evidence and the Anselm-Pettigrew dating logic.
+
+---
+
+### 2.13 1082 — Jumièges 190-arpent charter at Boshyon (Decorde 1861)
+
+Abbé J.-E. Decorde reports a separate Jumièges charter dated c. 1082 in which Hugh III de Gournay and his wife Basilie ratified the donation of one hundred and ninety arpents of land at **Boshyon** — the *Boscus Hugonis*, "Hugues's wood," lying south-south-west of Gournay-en-Bray (the modern commune of Bosc-Hyons, Seine-Maritime, INSEE 76124) — to the abbey of Jumièges, made by their vassal Raoul Havot. Decorde's text frames the place explicitly as *apud villam quæ vocatur Hugonis silva*.[^decorde-jumieges-1082-boshyon] This is the same charter as the undated Radulphus Havoth Jumièges charter preserved in the Rouen Archives paper cartulary (§2.2 above), now dated by Decorde to c. 1082 and located at Boshyon; the §2.2 entry's "undated" framing should be read against this Decorde dating and place-anchoring.
+
+Boshyon matters for the territorial reconstruction. It is the toponym from which the family's woodland holding takes its name (*Boscus Hugonis* = Hugues's wood, almost certainly Hugh I de Gournay), and the same place will reappear in two later Gournay-side endowments: in 1164 Hugues IV and Mélisende will assign three boisseaux of wheat and five of oats from their manor at Boshyon to the new church of Gaillefontaine, ratified by Archbishop Rotrou of Rouen; and in 1195 a neighbour, Manassès de Bully, will endow one *muid* of oats from the Boshyon mill for a perpetual altar lamp before St Hildevert's relic at the Gournay collegiate church. The 1082 charter is the earliest documented use of Boshyon as a Gournay-family endowment base. The detailed place narrative now lives at `research/places/bosc-hyons.md`.[^decorde-boshyon-endowment-chain]
+
+[^decorde-jumieges-1082-boshyon]: J.-E. Decorde, *Essai historique et archéologique sur le Canton de Gournay* (Paris: Derache and Didron; Rouen: Lebrument, 1861); OCR text at `sources/corpus_supplement/essai-historique-archeologique-canton-de-gournay-decorde-1861.txt`. 1082 charter recorded by Decorde in the Boshyon parish entry; the deep-research synthesis (`sources/corpus_supplement/deep-research-report-decorde-essai-gournay-ancestors.md`) cleans the citation. Source ID: `decorde-essai-canton-gournay-1861`.
+[^decorde-boshyon-endowment-chain]: Decorde 1861, Boshyon parish entry; same source. The 1195 lamp endowment is by Manassès de Bully, not by a Gournay; it is included here because the *Boshyon* mill remained the local revenue stock for Gournay-area ecclesiastical patronage well after the Gournay seigneurial gift sequence began. Source ID: `decorde-essai-canton-gournay-1861`.
 
 ---
 

@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g36-hugh-de-gournay-i-fact-sheet.html
 title: Hugh de Gournay I Fact Sheet
 pageHeading: Hugh de Gournay I (c. 920–940 — dates uncertain)
-subtitle: "Ancestor fact sheet for G36 in the direct Gurney line. First lord born in Gournay; builder of the fortress that defined the town. Updated April 2026."
+subtitle: "First lord born in Gournay; builder of the fortress that defined the town."
 description: "Compact fact sheet for Hugh de Gournay I in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 19 April 2026
 factsheet:
   gen: G36
   slug: g36-hugh-de-gournay-i-fact-sheet
@@ -71,9 +70,9 @@ factsheet:
 
 <ul>
   <li><strong>He built the tower that bore his name for eight centuries.</strong> Hugh erected a <a href="https://en.wikipedia.org/wiki/Motte-and-bailey_castle">citadel</a> near the site of the future church of <a href="https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/">Saint-Hildevert</a>, surrounding it with a double ditch and fortifying it with a tower known ever after as "La Tour Hue" — <em>Hue</em> being the <a href="https://en.wikipedia.org/wiki/Old_French">Old French</a> form of Hugh. Hannay described how "feudalism could do nothing without castles. They kept foreign enemies out, and domestic turbulence under some restraint." Daniel Gurney's 1858 Supplement confirms the tower was still standing "a century ago" — roughly the 1750s — meaning it survived for approximately 800 years before finally being demolished. <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></li>
-  <li><strong>First of the line born in Normandy.</strong> While his father Eudes came from <a href="https://en.wikipedia.org/wiki/Scandinavia">Scandinavia</a> as a warrior in <a href="https://en.wikipedia.org/wiki/Rollo">Rollo</a>'s company, Hugh was the first Lord of Gournay to grow up in his family's new homeland — contemporary with Duke <a href="https://en.wikipedia.org/wiki/William_I,_Duke_of_Normandy_(Longsword)">William Longsword</a> (d. 942), Rollo's son. Hannay noted that Hugh's name was "convertible with Eudes or Eude" in the chronicles, suggesting both names derive from a common Norse root. <sup class="fn"><a href="#n6" id="ref-6">6</a></sup></li>
+  <li><strong>First of the line born in Normandy.</strong> While his father Eudes came from <a href="https://en.wikipedia.org/wiki/Scandinavia">Scandinavia</a> as a warrior in <a href="https://en.wikipedia.org/wiki/Rollo">Rollo</a>'s company, Hugh was the first Lord of Gournay to grow up in his family's new homeland — contemporary with Duke <a href="https://en.wikipedia.org/wiki/William_Longsword">William Longsword</a> (d. 942), Rollo's son. Hannay noted that Hugh's name was "convertible with Eudes or Eude" in the chronicles, suggesting both names derive from a common Norse root. <sup class="fn"><a href="#n6" id="ref-6">6</a></sup></li>
   <li><strong>The lineage status is Uncertain, not Tradition.</strong> Unlike Eudes (who rests on tradition alone), Hugh's existence is slightly better attested — he is named in Norman historical writing as the fortifier of Gournay, and the tower bearing his name is described by the 13th-century court poet <a href="https://en.wikipedia.org/wiki/William_the_Breton">William Brito</a>, who wrote that Gournay was so well-fortified it could resist assault even without defenders. He is still not confirmed by contemporary document, but the evidence is a step closer. <sup class="fn"><a href="#n7" id="ref-7">7</a></sup></li>
-  <li><strong>He lived through William Longsword's assassination.</strong> The reign of <a href="https://en.wikipedia.org/wiki/William_I,_Duke_of_Normandy_(Longsword)">William Longsword</a> (c. 927–942) was "a troublous time," ending when the duke was murdered on an island in the <a href="https://en.wikipedia.org/wiki/Somme_(river)">Somme</a>. Hannay imagined "Hugh de Gournay's horror, in that rude but pious time, when the news reached him amidst his architectural and other labours." Hugh would have been responsible for defending the eastern frontier during the chaos that followed. <sup class="fn"><a href="#n8b" id="ref-8b">8</a></sup></li>
+  <li><strong>He lived through William Longsword's assassination.</strong> The reign of <a href="https://en.wikipedia.org/wiki/William_Longsword">William Longsword</a> (c. 927–942) was "a troublous time," ending when the duke was murdered on an island in the <a href="https://en.wikipedia.org/wiki/Somme_(river)">Somme</a>. Hannay imagined "Hugh de Gournay's horror, in that rude but pious time, when the news reached him amidst his architectural and other labours." Hugh would have been responsible for defending the eastern frontier during the chaos that followed. <sup class="fn"><a href="#n8b" id="ref-8b">8</a></sup></li>
 </ul>
 </section>
 

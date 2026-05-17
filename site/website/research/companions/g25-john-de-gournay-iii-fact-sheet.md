@@ -1,11 +1,11 @@
 ---
-title: "John de Gournay III (G25) — Research Companion"
-permalink: /research/companions/g25-john-de-gournay-iii-fact-sheet.html
+title: "John de Gournay III (G25) Notes"
+description: "Research notes for John de Gournay III (G25) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g25-john-de-gournay-iii.html
 eleventyExcludeFromCollections: true
 ---
-# John de Gournay III (G25) — Research Companion
-
-Research companion for `g25-john-de-gournay-iii-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# John de Gournay III (G25) Notes
+Research notes for `g25-john-de-gournay-iii-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

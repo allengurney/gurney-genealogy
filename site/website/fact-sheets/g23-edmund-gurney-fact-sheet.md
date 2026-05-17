@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g23-edmund-gurney-fact-sheet.html
 title: Edmund Gurney Fact Sheet
 pageHeading: Edmund Gurney (d. 1387)
-subtitle: "Ancestor fact sheet for G23 in the direct Gurney line. Lawyer of eminence; steward of John of Gaunt's East Anglian estates; standing counsel to the city of Norwich; husband of the heiress who brought West Barsham into the family. Published April 2026."
+subtitle: "Lawyer of eminence; steward of John of Gaunt's East Anglian estates; standing counsel to the city of Norwich; husband of the heiress who brought West Barsham into the family."
 description: "Compact fact sheet for Edmund Gurney, d. 1387, in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 2 April 2026
 factsheet:
   gen: G23
   slug: g23-edmund-gurney-fact-sheet
@@ -146,6 +145,7 @@ He died in May 1387 at West Barsham, directing his burial in the parish church. 
   <li id="n11">Daniel Gurney, <em>Supplement</em> (1858), p. 374 (John V chapter); History of Parliament Online (John Gurney, d. 1408). <a class="citation-back" href="#ref-11">↩</a></li>
   <li id="n12">Daniel Gurney, <em>Supplement</em> (1858), p. 363: "a second son, whom we believe was named Robert." Pedigree by Cook, Clarenceux, 1622. See G22 fact sheet. <a class="citation-back" href="#ref-12">↩</a></li>
   <li id="n13">Daniel Gurney, <em>Supplement</em> (1858), p. 363: "also a daughter Jeanne, married to Osbert Mundeford of Hockwold, Esq. who was one of the executors of his will." Source: Pedigree by Cook, Clarenceux, 1622. <a class="citation-back" href="#ref-13">↩</a></li>
+  <li id="n14">Francis Blomefield, <em>An Essay Towards a Topographical History of the County of Norfolk</em>, vol. 5 (London: W. Miller, 1806), pp. 33–39, "Cringleford" / "Berford's Manor"; <a href="https://www.british-history.ac.uk/topographical-hist-norfolk/vol5/pp33-39">British History Online</a>. Source ID: <code>blomefield-norfolk-vol5-pp33-cringleford-berford</code>. <a class="citation-back" href="#ref-14">↩</a></li>
 </ol>
 </section>
 
@@ -180,6 +180,7 @@ He died in May 1387 at West Barsham, directing his burial in the parish church. 
       <tr><td>1357</td><td>Father-in-law Sir William de Wauncy settles 100 marks per year from West Barsham and Denver on Edmund and Katherine.</td></tr>
       <tr><td>1360</td><td>Presents Hugh de Wauncy to the living of Harpley (34 Edw. III).</td></tr>
       <tr><td>1367</td><td>Fine levied re West Barsham moiety (41 Edw. III).</td></tr>
+      <tr><td>c. 1370</td><td>Named as one of four De la Pole feoffees of Berford's Manor in Cringleford, with William de Boyton, Thomas Spynk, and John le Latimer of Norwich; released his right to John le Latimer in 1381. <sup class="fn"><a href="#n14" id="ref-14">14</a></sup></td></tr>
       <tr><td>1372</td><td>Sir Edmund de Wauncy dies; infant son also dies; West Barsham comes to Edmund in right of Katherine.</td></tr>
       <tr><td>1372–1387</td><td>Steward of John of Gaunt's East Anglian estates.</td></tr>
       <tr><td>1375</td><td>Leases West Barsham manor (180-year indenture); seals with engrailed cross.</td></tr>

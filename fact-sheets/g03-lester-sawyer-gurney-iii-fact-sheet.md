@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g03-lester-sawyer-gurney-iii-fact-sheet.html
 title: Lester Sawyer Gurney III Fact Sheet
 pageHeading: Lester Sawyer Gurney III (1923-2011)
-subtitle: "Ancestor fact sheet for G03 in the direct Gurney line. Wellesley Hills-born power engineer, wartime lieutenant, and father of Lester Hayes Gurney. Initial draft, May 2026."
+subtitle: "Wellesley Hills-born power engineer, wartime lieutenant, and father of Lester Hayes Gurney."
 description: "Compact fact sheet for Lester Sawyer Gurney III in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 4 May 2026
 factsheet:
   gen: G03
   slug: g03-lester-sawyer-gurney-iii-fact-sheet

@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g19-william-gurney-iv-fact-sheet.html
 title: William Gurney IV Fact Sheet
 pageHeading: William Gurney IV (c. 1450 – 18 January 1508)
-subtitle: "Ancestor fact sheet for G19 in the direct Gurney line. Of West Barsham and Pockthorpe; Escheator for Norfolk; of council to the Duke of Norfolk 1477; the lord whose 1507 will required 700 sheep to remain at West Barsham. Updated April 2026."
+subtitle: "Of West Barsham and Pockthorpe; Escheator for Norfolk; of council to the Duke of Norfolk 1477; the lord whose 1507 will required 700 sheep to remain at West Barsham."
 description: "Compact fact sheet for William Gurney IV, escheator for Norfolk, of West Barsham and Pockthorpe, who left 700 sheep to his son in his 1507 will."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 7 April 2026
 factsheet:
   gen: G19
   slug: g19-william-gurney-iv-fact-sheet
@@ -90,52 +89,76 @@ factsheet:
   <thead>
     <tr>
       <th>Name</th>
+      <th>Dates</th>
+      <th>Mother</th>
       <th>Notes</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><strong>William Gurney V</strong></td>
-      <td><strong>G18 in the direct line.</strong> Eldest son. Of Irstead. Married Anne Heydon of Baconsthorpe Castle, bringing Boleyn descent into the family. Died <em>vita patris</em> before his father. <sup class="fn"><a href="#n11" id="ref-11">11</a></sup></td>
+      <td>fl. late 15th c. – d. <em>vita patris</em> before 1508</td>
+      <td>Anne Calthorpe</td>
+      <td><strong>G18 in the direct line.</strong> Eldest son. Of Irstead. Married Anne Heydon of Baconsthorpe Castle, bringing Boleyn descent into the family. <sup class="fn"><a href="#n11" id="ref-11">11</a></sup></td>
     </tr>
     <tr>
       <td>John Gurney</td>
+      <td>—</td>
+      <td>Anne Calthorpe</td>
       <td>Named in Daniel Gurney, <em>Record</em> (1848), pedigree p. 287. <sup class="fn"><a href="#n12" id="ref-12">12</a></sup></td>
     </tr>
     <tr>
       <td>Edmund Gurney</td>
+      <td>—</td>
+      <td>Anne Calthorpe</td>
       <td>Named in Daniel Gurney, <em>Record</em> (1848), pedigree p. 287. <sup class="fn"><a href="#n12" id="ref-12b">12</a></sup></td>
     </tr>
     <tr>
       <td>Walter Gurney of Cley-by-the-Sea</td>
+      <td>—</td>
+      <td>Anne Calthorpe</td>
       <td>Norfolk. Per DG, "ancestor of the Gurneys of Gawston and Aylsham." Founder of an extant collateral cadet branch. <sup class="fn"><a href="#n13" id="ref-13">13</a></sup></td>
     </tr>
     <tr>
       <td>Thomas Gurney</td>
+      <td>—</td>
+      <td>Anne Calthorpe</td>
       <td>Per DG: "his father's executor, ancestor of the Gurneys of Dartmouth, London, and Essex temp. Elizabeth, 1590; his grandson, Richard Gurney, was Sheriff of London." A significant collateral line. <sup class="fn"><a href="#n13" id="ref-13b">13</a></sup></td>
     </tr>
     <tr>
       <td>Christopher Gurney</td>
+      <td>—</td>
+      <td>Anne Calthorpe</td>
       <td>A priest, rector of Harpley. <sup class="fn"><a href="#n12" id="ref-12c">12</a></sup></td>
     </tr>
     <tr>
       <td>Constance Gurney</td>
+      <td>—</td>
+      <td>Anne Calthorpe</td>
       <td>Married (1) Ralf Blundeville, (2) William Bokenham. <sup class="fn"><a href="#n12" id="ref-12d">12</a></sup></td>
     </tr>
     <tr>
       <td>Frances Gurney</td>
+      <td>—</td>
+      <td>Anne Calthorpe</td>
       <td>Married a Gascoigne of Yorkshire. <sup class="fn"><a href="#n12" id="ref-12e">12</a></sup></td>
     </tr>
     <tr>
       <td>Alice Gurney</td>
+      <td>—</td>
+      <td>Anne Calthorpe</td>
       <td>Married Henry Dengaine, Esq., of Brunstead, Norfolk. <sup class="fn"><a href="#n12" id="ref-12f">12</a></sup></td>
     </tr>
     <tr>
       <td>Amy Gurney</td>
+      <td>—</td>
+      <td>Anne Calthorpe</td>
       <td>Married John Sybsey, Gent. <sup class="fn"><a href="#n12" id="ref-12g">12</a></sup></td>
     </tr>
     <tr>
       <td>Elizabeth Gurney</td>
+      <td>fl. 1518</td>
+      <td>Anne Calthorpe</td>
       <td><strong>Prioress of Thetford, 1518.</strong> A significant ecclesiastical position — Thetford had been one of the great Norfolk monastic houses. Her election to the prioress role on the eve of the Henrician dissolutions is the most distinguished individual achievement of any of William IV's children. <sup class="fn"><a href="#n12" id="ref-12h">12</a></sup></td>
     </tr>
   </tbody>

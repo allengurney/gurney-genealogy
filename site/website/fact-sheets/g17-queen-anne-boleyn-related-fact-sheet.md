@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g17-queen-anne-boleyn-related-fact-sheet.html
 title: Queen Anne Boleyn Related Fact Sheet
 pageHeading: Queen Anne Boleyn (c. 1501 - 19 May 1536)
-subtitle: "Related fact sheet for G17. Queen Anne Boleyn was not a direct ancestor in this line; she was Anthony Gurney's second cousin through the Heydon-Boleyn branch, making her Allen Gurney's second cousin, 16 times removed."
+subtitle: "Queen Anne Boleyn was not a direct ancestor in this line; she was Anthony Gurney's second cousin through the Heydon-Boleyn branch, making her Allen Gurney's second cousin, 16 times removed."
 description: "Compact related-person fact sheet for Queen Anne Boleyn, second cousin of Anthony Gurney (G17) through the shared Boleyn ancestors Sir Geoffrey Boleyn and Anne Hoo."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 26 April 2026
 factsheet:
   gen: G17
   slug: g17-queen-anne-boleyn-related-fact-sheet

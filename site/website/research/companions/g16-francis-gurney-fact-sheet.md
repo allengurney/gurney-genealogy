@@ -1,11 +1,11 @@
 ---
-title: "Francis Gurney (G16) — Research Companion"
-permalink: /research/companions/g16-francis-gurney-fact-sheet.html
+title: "Francis Gurney (G16) Notes"
+description: "Research notes for Francis Gurney (G16) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g16-francis-gurney.html
 eleventyExcludeFromCollections: true
 ---
-# Francis Gurney (G16) — Research Companion
-
-Research companion for `g16-francis-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# Francis Gurney (G16) Notes
+Research notes for `g16-francis-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

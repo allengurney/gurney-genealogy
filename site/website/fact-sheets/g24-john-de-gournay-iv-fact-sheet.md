@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g24-john-de-gournay-iv-fact-sheet.html
 title: John de Gournay IV Fact Sheet
 pageHeading: John de Gournay IV (fl. c. 1330–1370)
-subtitle: "Ancestor fact sheet for G24 in the direct Gurney line. Lord of Harpley 1354; father of Edmund Gurney, steward of John of Gaunt. Published April 2026."
+subtitle: "Lord of Harpley 1354; father of Edmund Gurney, steward of John of Gaunt."
 description: "Compact fact sheet for John de Gournay IV in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 2 April 2026
 factsheet:
   gen: G24
   slug: g24-john-de-gournay-iv-fact-sheet

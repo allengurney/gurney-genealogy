@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g07-willis-gurney-fact-sheet.html
 title: Willis Gurney Fact Sheet
 pageHeading: Willis Gurney (c. 1796/98 – before 1870)
-subtitle: "Ancestor fact sheet for G07 in the direct Gurney line. Tailor; first Gurney of the line to leave Massachusetts for New York; settled in Flushing, Queens. Initial draft, April 2026."
+subtitle: "Tailor; first Gurney of the line to leave Massachusetts for New York; settled in Flushing, Queens."
 description: "Compact fact sheet for Willis Gurney in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 25 April 2026
 factsheet:
   gen: G07
   slug: g07-willis-gurney-fact-sheet

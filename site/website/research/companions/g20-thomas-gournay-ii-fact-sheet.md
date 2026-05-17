@@ -1,11 +1,11 @@
 ---
-title: "Thomas Gournay II (G20) — Research Companion"
-permalink: /research/companions/g20-thomas-gournay-ii-fact-sheet.html
+title: "Thomas Gournay II (G20) Notes"
+description: "Research notes for Thomas Gournay II (G20) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g20-thomas-gournay-ii.html
 eleventyExcludeFromCollections: true
 ---
-# Thomas Gournay II (G20) — Research Companion
-
-Research companion for `g20-thomas-gournay-ii-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# Thomas Gournay II (G20) Notes
+Research notes for `g20-thomas-gournay-ii-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

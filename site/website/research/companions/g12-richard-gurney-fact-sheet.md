@@ -1,11 +1,11 @@
 ---
-title: "Richard Gurney (G12) — Research Companion"
-permalink: /research/companions/g12-richard-gurney-fact-sheet.html
+title: "Richard Gurney (G12) Notes"
+description: "Research notes for Richard Gurney (G12) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g12-richard-gurney.html
 eleventyExcludeFromCollections: true
 ---
-# Richard Gurney (G12) — Research Companion
-
-Research companion for `g12-richard-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# Richard Gurney (G12) Notes
+Research notes for `g12-richard-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

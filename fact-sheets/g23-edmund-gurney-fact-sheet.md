@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g23-edmund-gurney-fact-sheet.html
 title: Edmund Gurney Fact Sheet
 pageHeading: Edmund Gurney (d. 1387)
-subtitle: "Ancestor fact sheet for G23 in the direct Gurney line. Lawyer of eminence; steward of John of Gaunt's East Anglian estates; standing counsel to the city of Norwich; husband of the heiress who brought West Barsham into the family. Published April 2026."
+subtitle: "Lawyer of eminence; steward of John of Gaunt's East Anglian estates; standing counsel to the city of Norwich; husband of the heiress who brought West Barsham into the family."
 description: "Compact fact sheet for Edmund Gurney, d. 1387, in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 2 April 2026
 factsheet:
   gen: G23
   slug: g23-edmund-gurney-fact-sheet

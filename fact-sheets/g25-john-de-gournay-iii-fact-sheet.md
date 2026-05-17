@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g25-john-de-gournay-iii-fact-sheet.html
 title: John de Gournay III Fact Sheet
 pageHeading: John de Gournay III (fl. c. 1300–1353)
-subtitle: "Ancestor fact sheet for G25 in the direct Gurney line. Recovered the family estates from his uncle the Rector; Lord of Harpley 1332–c.1353. Published April 2026."
+subtitle: "Recovered the family estates from his uncle the Rector; Lord of Harpley 1332–c.1353."
 description: "Compact fact sheet for John de Gournay III in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 2 April 2026
 factsheet:
   gen: G25
   slug: g25-john-de-gournay-iii-fact-sheet

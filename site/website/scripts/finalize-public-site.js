@@ -4,6 +4,7 @@ const path = require("path");
 const projectRoot = path.resolve(__dirname, "..");
 const siteDir = path.join(projectRoot, "_site");
 const redirectsDir = path.join(projectRoot, "redirects");
+const researchCompanionsDir = path.join(projectRoot, "research", "companions");
 const siteData = require(path.join(projectRoot, "_data", "site.json"));
 const siteUrl = String(siteData.url || "https://genealogy.allengurney.com").replace(/\/$/, "");
 
@@ -115,6 +116,25 @@ function parseRedirectSource(file) {
   };
 }
 
+function companionPublicSlug(slug) {
+  return slug.replace(/-fact-sheet$/i, "");
+}
+
+function addLegacyResearchNoteRedirects(rules) {
+  if (!fs.existsSync(researchCompanionsDir)) return;
+
+  fs.readdirSync(researchCompanionsDir)
+    .filter(file => file.endsWith(".md"))
+    .forEach(file => {
+      const slug = file.replace(/\.md$/i, "");
+      const oldPath = `/research/companions/${slug}`;
+      const newPath = `/research/notes/${companionPublicSlug(slug)}`;
+      if (oldPath === newPath) return;
+      rules.set(oldPath, newPath);
+      rules.set(`${oldPath}.html`, newPath);
+    });
+}
+
 function buildRedirectRules(publicHtmlFiles) {
   const rules = new Map();
 
@@ -128,6 +148,8 @@ function buildRedirectRules(publicHtmlFiles) {
       if (htmlAlias !== parsed.from) rules.set(htmlAlias, parsed.to);
     });
   }
+
+  addLegacyResearchNoteRedirects(rules);
 
   rules.set("/index.html", "/");
 
@@ -244,6 +266,15 @@ function validatePublicOutput(publicHtmlFiles) {
     const html = fs.readFileSync(file, "utf8");
     if (/http-equiv=["']refresh["']/i.test(html)) {
       errors.push(`public HTML contains meta refresh redirect: ${rel}`);
+    }
+
+    if (/[{][{][\s\S]*?[}][}]|[{]%[\s\S]*?%[}]/.test(html)) {
+      errors.push(`public HTML contains unresolved template syntax: ${rel}`);
+    }
+
+    const h1Count = (html.match(/<h1\b/gi) || []).length;
+    if (h1Count !== 1) {
+      errors.push(`public HTML should have exactly one h1: ${rel} has ${h1Count}`);
     }
 
     const canonicalMatches = [...html.matchAll(/<link\b[^>]*\brel=["']canonical["'][^>]*\bhref=["']([^"']+)["'][^>]*>/gi)];

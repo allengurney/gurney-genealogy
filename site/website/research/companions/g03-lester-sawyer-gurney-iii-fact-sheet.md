@@ -1,11 +1,11 @@
 ---
-title: "Lester Sawyer Gurney III (G03) - Research Companion"
-permalink: /research/companions/g03-lester-sawyer-gurney-iii-fact-sheet.html
+title: "Lester Sawyer Gurney III (G03) Notes"
+description: "Research notes for Lester Sawyer Gurney III (G03) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g03-lester-sawyer-gurney-iii.html
 eleventyExcludeFromCollections: true
 ---
-# Lester Sawyer Gurney III (G03) - Research Companion
-
-Research companion for `g03-lester-sawyer-gurney-iii-fact-sheet.md`.
+# Lester Sawyer Gurney III (G03) Notes
+Research notes for `g03-lester-sawyer-gurney-iii-fact-sheet.md`.
 
 ---
 

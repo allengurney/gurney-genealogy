@@ -1,11 +1,11 @@
 ---
-title: "Sir John de Gournay I (G27) — Research Companion"
-permalink: /research/companions/g27-sir-john-de-gournay-i-fact-sheet.html
+title: "Sir John de Gournay I (G27) Notes"
+description: "Research notes for Sir John de Gournay I (G27) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g27-sir-john-de-gournay-i.html
 eleventyExcludeFromCollections: true
 ---
-# Sir John de Gournay I (G27) — Research Companion
-
-Research companion for `g27-sir-john-de-gournay-i-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# Sir John de Gournay I (G27) Notes
+Research notes for `g27-sir-john-de-gournay-i-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

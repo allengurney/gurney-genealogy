@@ -1,11 +1,11 @@
 ---
-title: "Walter de Gournay (G31) — Research Companion"
-permalink: /research/companions/g31-walter-de-gournay-fact-sheet.html
+title: "Walter de Gournay (G31) Notes"
+description: "Research notes for Walter de Gournay (G31) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g31-walter-de-gournay.html
 eleventyExcludeFromCollections: true
 ---
-# Walter de Gournay (G31) — Research Companion
-
-Research companion for `g31-walter-de-gournay-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# Walter de Gournay (G31) Notes
+Research notes for `g31-walter-de-gournay-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

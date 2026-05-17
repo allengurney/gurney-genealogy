@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g20-thomas-gournay-ii-fact-sheet.html
 title: Thomas Gournay II Fact Sheet
 pageHeading: Thomas Gournay II (fl. c. 1430 – d. 1471)
-subtitle: "Ancestor fact sheet for G20 in the direct Gurney line. Lord of West Barsham; married into the great recusant Jerningham family of Somerleyton; his will of 1471 survives. Updated April 2026."
+subtitle: "Lord of West Barsham; married into the great recusant Jerningham family of Somerleyton; his will of 1471 survives."
 description: "Compact fact sheet for Thomas Gournay II of West Barsham, whose 1471 will names his three residences and leaves his wife's own woollen cloth back to her."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 7 April 2026
 factsheet:
   gen: G20
   slug: g20-thomas-gournay-ii-fact-sheet
@@ -89,13 +88,17 @@ factsheet:
   <thead>
     <tr>
       <th>Name</th>
+      <th>Dates</th>
+      <th>Mother</th>
       <th>Notes</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><strong>William Gurney IV</strong></td>
-      <td><strong>G19 in the direct line.</strong> Son and heir. Of West Barsham and Pockthorpe-by-Norwich. Escheator for Norfolk under Edward IV; of council to the Duke of Norfolk 1477; married Anne Calthorpe, daughter of Sir William Calthorpe KB of Burnham Thorpe. Died 18 January 1508. <sup class="fn"><a href="#n11" id="ref-11">11</a></sup></td>
+      <td>c. 1450 – 18 Jan 1508</td>
+      <td>Margaret Jerningham</td>
+      <td><strong>G19 in the direct line.</strong> Son and heir. Of West Barsham and Pockthorpe-by-Norwich. Escheator for Norfolk under Edward IV; of council to the Duke of Norfolk 1477; married Anne Calthorpe, daughter of Sir William Calthorpe KB of Burnham Thorpe. <sup class="fn"><a href="#n11" id="ref-11">11</a></sup></td>
     </tr>
   </tbody>
 </table>

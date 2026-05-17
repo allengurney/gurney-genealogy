@@ -1,11 +1,11 @@
 ---
-title: "Henry Gurney (G15) — Research Companion"
-permalink: /research/companions/g15-henry-gurney-fact-sheet.html
+title: "Henry Gurney (G15) Notes"
+description: "Research notes for Henry Gurney (G15) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g15-henry-gurney.html
 eleventyExcludeFromCollections: true
 ---
-# Henry Gurney (G15) — Research Companion
-
-Research companion for `g15-henry-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# Henry Gurney (G15) Notes
+Research notes for `g15-henry-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

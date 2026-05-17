@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g35-renaud-de-gournay-fact-sheet.html
 title: Renaud de Gournay Fact Sheet
 pageHeading: Renaud de Gournay (c. 970 — dates uncertain)
-subtitle: "Ancestor fact sheet for G35 in the direct Gurney line. First Lord of Gournay confirmed in a surviving primary source document. Updated April 2026."
+subtitle: "First Lord of Gournay confirmed in a surviving primary source document."
 description: "Compact fact sheet for Renaud de Gournay in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 5 April 2026
 factsheet:
   gen: G35
   slug: g35-renaud-de-gournay-fact-sheet

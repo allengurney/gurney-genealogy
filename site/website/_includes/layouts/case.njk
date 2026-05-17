@@ -10,6 +10,7 @@
   <meta property="og:title" content="{{ title }} | Gurney Genealogy Library">
   {% if description %}<meta property="og:description" content="{{ description }}">{% endif %}
   <meta property="og:type" content="article">
+  <meta name="robots" content="index,follow">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 </head>
 <body class="{{ bodyClass }}">
@@ -24,7 +25,7 @@
 
   <div class="page" id="top">
     <h1>{{ pageTitle1 }}</h1>
-    <h1>{{ pageTitle2 }}</h1>
+    <p class="case-subtitle">{{ pageTitle2 }}</p>
     <h2 id="s1">A Research Case File</h2>
     <p>{{ caseMeta | safe }}</p>
 

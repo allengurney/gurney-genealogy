@@ -1,10 +1,10 @@
 ---
-title: "John Gurney-1 (G13)"
-permalink: /research/companions/g13-john-gurney-fact-sheet.html
+title: "John Gurney-1 (G13) Notes"
+description: "Research notes for John Gurney-1 (G13) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g13-john-gurney.html
 eleventyExcludeFromCollections: true
 ---
-# John Gurney-1 (G13)
-
+# John Gurney-1 (G13) Notes
 **Tailor. First Gurney in North America.** b. c. 1609–12 (AI-Rules §7 correction #6), probably East Anglia. Emigrated to New England by June 1641 at latest; Anderson assigns 1636 arrival, probably reflecting the John Newgate apprentice record rather than the first secure Braintree/Weymouth record. d. 1662/3, Braintree, Massachusetts. Wife Mary (maiden name unknown — "Richards" is UNVERIFIED). Later marriage to Grizzell Fletcher/Kidbee is traditionally placed at Braintree on 12 Nov 1661, but the accessible 1886 Braintree town-record transcription prints that marriage line under John Cheny Senior and Grizell Kidbee; treat the Braintree vital-record basis as a conflict until the town manuscript is checked against the printed Cheny reading and the TAG/Torrey/Sprague Gurney tradition. Lineage status: **Probable** (Candidate B ~55–60%, son of Francis Gurney G14 Merchant Taylor + Margaret Rybett).
 
 Pre-fact-sheet. No published narrative yet. Active research lives in this file. It is currently paired with `research/case-files/john-gurney-case-file-v4.md` and may later migrate to `research/case-files/candidate-b.md` if the case-file structure is reorganized.

@@ -5,13 +5,13 @@ pagination:
   size: 1
   alias: placePage
 permalink: "/research/places/{{ placePage.slug }}.html"
-title: "{{ placePage.title }}"
-pageHeading: "{{ placePage.title }}"
-subtitle: "Place research page generated from the structured place spine and the companion place markdown."
-description: "Research page for {{ placePage.title }} in the Gurney genealogy library."
 bodyClass: explorer-page place-research-page
 activeNav: maps
-updated: 25 April 2026
+subtitle: "Place research page generated from the structured place spine and the companion place markdown."
+eleventyComputed:
+  title: "{{ placePage.seoTitle or placePage.title }}"
+  pageHeading: "{{ placePage.title }}"
+  description: "Research page for {{ placePage.title }} in the Gurney genealogy library."
 ---
 
 <section class="place-research-layout">
@@ -62,7 +62,7 @@ updated: 25 April 2026
 
     {% if placePage.researchMarkdown %}
       <section class="detail-section markdown-place-research">
-        {{ placePage.researchMarkdown | markdown | safe }}
+        {{ placePage.researchMarkdown | stripFirstMarkdownHeading | markdown | safe }}
       </section>
     {% endif %}
   </article>

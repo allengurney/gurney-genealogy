@@ -68,7 +68,7 @@ a:hover{text-decoration:underline}
 .case-page .case-nav a.brand{color:var(--accent);font-weight:700;margin-right:1.5rem}
 .case-page .page{max-width:72rem;margin:0 auto;padding:1.35rem 1.35rem 4rem}
 .case-page h1{font-size:1.55rem;font-weight:700;line-height:1.28;margin:2rem 0 .3rem;text-align:center}
-.case-page h1+h1{font-size:1.2rem;font-weight:300;color:#6b6358;font-style:italic;margin-top:0}
+.case-page .case-subtitle{font-size:1.2rem;font-weight:300;color:#6b6358;font-style:italic;margin:.2rem 0 1rem;text-align:center}
 .case-page h2{font-size:1.3rem;font-weight:700;color:var(--accent);margin:2.5rem 0 .8rem;padding-top:1rem;border-top:1px solid #c8bfb0}
 .case-page h3{font-size:1.05rem;font-weight:600;margin:1.4rem 0 .5rem}
 .case-page h4{font-size:.93rem;font-weight:600;color:#6b6358;margin:1rem 0 .4rem}
@@ -255,7 +255,7 @@ a:hover{text-decoration:underline}
 .case-page .case-nav a:not(:last-child)::after{content:" |";margin-left:.45rem;color:#8d8577}
 .case-page .page{max-width:88rem;margin:0 auto;padding:.85rem .9rem 4rem}
 .case-page h1{font-size:1.45rem}
-.case-page h1+h1{font-size:1.08rem}
+.case-page .case-subtitle{font-size:1.08rem}
 .case-page .page > hr{display:none}
 .ancestor-table-page .doc-content .era-row td{text-align:left !important}
 .leaflet-control-layers-selector[type="radio"]{display:none !important}
@@ -379,7 +379,7 @@ a:hover{text-decoration:underline}
 .case-page .case-nav a{font-size:.63rem;letter-spacing:0}
 .case-page .page{max-width:88rem;margin:0 auto;padding:.55rem .9rem 4rem}
 .case-page .page h1{font-size:1.36rem}
-.case-page .page h1 + h1{font-size:1.02rem}
+.case-page .page .case-subtitle{font-size:1.02rem}
 .case-page .page > h2:first-of-type{margin-top:1.35rem}
 .case-page .case-nav + .page{margin-top:0;padding-top:.55rem}
 
@@ -624,6 +624,9 @@ a:hover{text-decoration:underline}
 .page-action-row{margin:.55rem 0 0 !important}
 .page-action-link{display:inline-flex;align-items:center;gap:6px;padding:.34rem .64rem;border:1px solid #d5c7b6;border-radius:999px;background:#fffaf2;color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:.78rem;font-weight:700;text-decoration:none}
 .page-action-link:hover{background:#fff4df;text-decoration:none}
+.gen-stack{display:flex;flex-direction:column;align-items:flex-end;gap:6px;margin-left:auto;min-width:0}
+.gen-stack .generation-nav{margin-left:0}
+.gen-stack .gen-action-link{font-size:.72rem;padding:.26rem .58rem;white-space:nowrap;max-width:100%}
 .btn-research{display:inline-block;font-size:10px;padding:2px 7px;border-radius:3px;white-space:nowrap;font-weight:600;background:#f7eadb;color:#744616;border:0.5px solid #c9a77d;text-decoration:none}
 .btn-research:hover{background:#f0dcc4;color:#744616;text-decoration:none}
 .data-table .era-junior-norfolk td{background:linear-gradient(90deg,#5f4a6f,#7d6690)}
@@ -664,4 +667,9 @@ a:hover{text-decoration:underline}
   .topnav.multi-level{gap:6px}
   .page-head-row{flex-direction:column;align-items:flex-start}
   .generation-nav{margin-left:0}
+  .gen-stack{align-items:flex-start;margin-left:0;width:100%}
+}
+@media (max-width: 540px){
+  .gen-stack{width:100%}
+  .gen-stack .gen-action-link{align-self:stretch;justify-content:center;text-align:center}
 }

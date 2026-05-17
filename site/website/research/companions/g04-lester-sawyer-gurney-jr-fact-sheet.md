@@ -1,11 +1,11 @@
 ---
-title: "Lester Sawyer Gurney Jr. (G04) — Research Companion"
-permalink: /research/companions/g04-lester-sawyer-gurney-jr-fact-sheet.html
+title: "Lester Sawyer Gurney Jr. (G04) Notes"
+description: "Research notes for Lester Sawyer Gurney Jr. (G04) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g04-lester-sawyer-gurney-jr.html
 eleventyExcludeFromCollections: true
 ---
-# Lester Sawyer Gurney Jr. (G04) — Research Companion
-
-Research companion for `g04-lester-sawyer-gurney-jr-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+# Lester Sawyer Gurney Jr. (G04) Notes
+Research notes for `g04-lester-sawyer-gurney-jr-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
 ---
 

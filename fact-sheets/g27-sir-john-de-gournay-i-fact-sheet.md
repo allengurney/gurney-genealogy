@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g27-sir-john-de-gournay-i-fact-sheet.html
 title: Sir John de Gournay I Fact Sheet
 pageHeading: Sir John de Gournay I (fl. c. 1240–1280)
-subtitle: "Ancestor fact sheet for G27 in the direct Gurney line. Rebel baron at Lewes, 1264. Crusader with Edward I, 1270. Established the family coat of arms still borne today. Published April 2026."
+subtitle: "Rebel baron at Lewes, 1264. Crusader with Edward I, 1270. Established the family coat of arms still borne today."
 description: "Compact fact sheet for Sir John de Gournay I, Knight, in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 2 April 2026
 factsheet:
   gen: G27
   slug: g27-sir-john-de-gournay-i-fact-sheet

@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g16-francis-gurney-fact-sheet.html
 title: Francis Gurney Fact Sheet
 pageHeading: Francis Gurney (c. 1521 – before December 1556)
-subtitle: "Ancestor fact sheet for G16 in the direct Gurney line. Eldest son of Anthony Gurney (G17); died vita patris before his father; husband of Helen Holdich of Ranworth; father of Henry Gurney (G15) the Elizabethan poet. Updated April 2026."
+subtitle: "Eldest son of Anthony Gurney (G17); died vita patris before his father; husband of Helen Holdich of Ranworth; father of Henry Gurney (G15) the Elizabethan poet."
 description: "Compact fact sheet for Francis Gurney of Irstead and West Barsham, who died young and vita patris in the mid-1550s."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 7 April 2026
 factsheet:
   gen: G16
   slug: g16-francis-gurney-fact-sheet

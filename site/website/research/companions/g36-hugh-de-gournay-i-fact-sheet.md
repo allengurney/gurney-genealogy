@@ -1,11 +1,11 @@
 ---
-title: "Hugh de Gournay I (G36) — Research Companion"
-permalink: /research/companions/g36-hugh-de-gournay-i-fact-sheet.html
+title: "Hugh de Gournay I (G36) Notes"
+description: "Research notes for Hugh de Gournay I (G36) in the Gurney genealogy library, with source analysis, context, open questions, and supporting evidence."
+permalink: /research/notes/g36-hugh-de-gournay-i.html
 eleventyExcludeFromCollections: true
 ---
-# Hugh de Gournay I (G36) — Research Companion
-
-Research companion for `g36-hugh-de-gournay-i-fact-sheet.md`. Synthesised v2 (May 2026) drawing on DG-I + DG-Supp, Hannay, Pettigrew, Planché, Pattou *Racines Histoire* (2025), French Wikipedia *Famille de Gournay*, FMG MedLands (Cawley), Potin 1842 *Recherches sur la ville de Gournay-en-Bray*, NRP-I 1852, Painchault 2012, William Brito's *Philippide* (c. 1224), Père du Plessis's *Description de la Haute Normandie* (early 18th c.), Nicolas Cordier's MS *Histoire de Gournay* (c. 1710–1738) via Potin 1842.
+# Hugh de Gournay I (G36) Notes
+Research notes for `g36-hugh-de-gournay-i-fact-sheet.md`. Synthesised v2 (May 2026) drawing on DG-I + DG-Supp, Hannay, Pettigrew, Planché, Pattou *Racines Histoire* (2025), French Wikipedia *Famille de Gournay*, FMG MedLands (Cawley), Potin 1842 *Recherches sur la ville de Gournay-en-Bray*, NRP-I 1852, Painchault 2012, William Brito's *Philippide* (c. 1224), Père du Plessis's *Description de la Haute Normandie* (early 18th c.), Nicolas Cordier's MS *Histoire de Gournay* (c. 1710–1738) via Potin 1842.
 
 The full Phase-0 cross-walks live in `sources/FS/PWPZ-VK1/assessment.md` and `sources/FS/Norman_additions/assessment.md`. This synthesis preserves the verbatim primary-source extracts.
 

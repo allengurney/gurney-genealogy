@@ -3,11 +3,10 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g08-amos-gurney-fact-sheet.html
 title: Amos Gurney Fact Sheet
 pageHeading: Amos Gurney (1770 – before 1850)
-subtitle: "Ancestor fact sheet for G08 in the direct Gurney line. Cummington, Massachusetts farmer; married Ruth Gilbert; widow Ruth later joined son Willis at Flushing. Initial draft, April 2026."
+subtitle: "Cummington, Massachusetts farmer; married Ruth Gilbert; widow Ruth later joined son Willis at Flushing."
 description: "Compact fact sheet for Amos Gurney in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
-updated: 25 April 2026
 factsheet:
   gen: G08
   slug: g08-amos-gurney-fact-sheet
