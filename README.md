@@ -2,7 +2,7 @@
 
 Genealogical research repository and website source material for the Gurney lineage.
 
-Published output: [](https://genealogy.allengurney.com/)
+Published output: [https://genealogy.allengurney.com/](https://genealogy.allengurney.com/)
 
 ## Repository structure
 - `data/` — canonical structured data for ancestors, places, and sources
