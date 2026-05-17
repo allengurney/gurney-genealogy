@@ -1,6 +1,6 @@
 # fact-sheets/
 
-Published-only ancestor narratives.
+Published-only ancestor narratives which get built into website: [https://genealogy.allengurney.com/](https://genealogy.allengurney.com/)
 
 ## What belongs here
 - polished narrative

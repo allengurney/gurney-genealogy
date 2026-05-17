@@ -1,6 +1,6 @@
 # site/
 
-Site-generation layer for the public genealogy site.
+Site-generation layer for the public genealogy site. Published output: [https://genealogy.allengurney.com/](https://genealogy.allengurney.com/)
 
 ## Principle
 This directory is presentation-oriented. Canonical facts and canonical prose live upstream in `data/`, `fact-sheets/`, and `research/`.
