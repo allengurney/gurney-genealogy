@@ -732,6 +732,50 @@
       "validationPath": "sources/validations/fs-england-births-christenings.md",
       "notes": "Used 2026-05-09 to verify Candidate A's Stewkley 1603 baptism (JMRS-DX6) and Aylesbury family group at Saint Mary Aylesbury: John 1638, Sarah 1639, Daniell 1645 (JWN5-W5B), Jonathan 1647 (JMBC-P2G), Hannah 1653, all children of John Gurney; also reused for the Ackworth negative search, Denton Mary Gurney 1638 record, and 2026-05-11 cluster-anchor searches."
     },
+    "fs-england-marriages-1538-1973": {
+      "shortTitle": "FamilySearch England Marriages, 1538-1973",
+      "citation": "England, Marriages, 1538-1973. FamilySearch indexed records.",
+      "archive": "FamilySearch International",
+      "url": "https://www.familysearch.org/search/collection/1473013",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "FamilySearch-indexed marriage collection. Used for parish-marriage entries where the underlying register has not been pulled at the image level."
+    },
+    "fs-england-deaths-burials-1538-1991": {
+      "shortTitle": "FamilySearch England Deaths and Burials, 1538-1991",
+      "citation": "England, Deaths and Burials, 1538-1991. FamilySearch indexed records.",
+      "archive": "FamilySearch International",
+      "url": "https://www.familysearch.org/search/collection/1538041",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "FamilySearch-indexed burial collection. Used for parish-burial entries where the underlying register has not been pulled at the image level."
+    },
+    "fs-england-norfolk-parish-registers-1510-1997": {
+      "shortTitle": "FamilySearch England, Norfolk, Parish Registers (County Record Office), 1510-1997",
+      "citation": "England, Norfolk, Parish Registers (County Record Office), 1510-1997. FamilySearch indexed records and images, drawn from the Norfolk Record Office collection.",
+      "archive": "FamilySearch International / Norfolk Record Office",
+      "url": "https://www.familysearch.org/search/collection/3957957",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Indexed and partly imaged Norfolk parish-register collection from NRO."
+    },
+    "fs-england-buckinghamshire-church-records-1217-1994": {
+      "shortTitle": "FamilySearch England, Buckinghamshire, Church Records, 1217-1994",
+      "citation": "England, Buckinghamshire, Church Records, 1217-1994. FamilySearch indexed records and images, drawn from the Centre for Buckinghamshire Studies.",
+      "archive": "FamilySearch International / Centre for Buckinghamshire Studies",
+      "url": "https://www.familysearch.org/search/collection/2376818",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Buckinghamshire baptisms, marriages, and burials indexed and partly imaged through FamilySearch from the Centre for Buckinghamshire Studies."
+    },
     "fs-suffolk-probate-1636-1915": {
       "shortTitle": "FamilySearch Suffolk County probate records",
       "citation": "Massachusetts, Suffolk County, probate and family court records, 1636-1915. Digital images from Massachusetts Supreme Judicial Court Archives & Records Preservation, Boston, via FamilySearch.",

@@ -584,6 +584,63 @@ The Toddington Beds John Gurney + Elizabeth Moreton household has positive Engli
 15. Berkhamsted marriage registers.
 16. East Dereham register burials section.
 
+### Highest-leverage targets (relocated from the case file)
+
+These targets sit beyond the freely-indexed online corpus and require paid pulls, archive visits, or research-services enquiries. Each item has the potential to materially move Candidate B above 80% confidence or to surface a competing positive attribution.
+
+1. **NRO Norwich Consistory Court / Archdeaconry Court catalogue.** Edmund Gurney G14b (the Divine) will, d. 14 May 1648 buried St Peter Mancroft, Norwich. Henry Gurney G15 will, d. 23 February 1615 (probate 1623 per Daniel Gurney). Either will, if extant, could name nephews or grandchildren in New England.
+2. **Commissary Court of London-Essex-Herts, 1681 admin file** for John Gurney of Maldon (Bernau's bachelor John, admin granted to brother Thomas). The grant may list other surviving siblings — including any reference to a previously-deceased "brother John of New England" if the Candidate B identification holds.
+3. **Suffolk Record Office HD2418/88** Ryvett family pedigrees, plus Suffolk wills 1620-1660 for Ryvett witnesses naming Gurney nieces or grandchildren.
+4. **East Dereham parish-register further image-walk.** Open items: year fields on the Marye and Agnes burials (year-truncated in the visible crop); Margaret Rybett burial 1615-1618 elsewhere in the register; confirmation of the preliminary "Margaret daughter of ffrancis Gurnoe/Gurney bapt may 25" reading.
+5. **TNA Star Chamber STAC 8/281/24** (Trentham v Withes, November 1620): the named defendants include Henry Reade, his sister Mary Reade, and Henry Gurney. Plaintiff is Staffordshire-based; the Henry Gurney involved is most plausibly a Midlands Henry. A paid PDF or in-person pull would identify the Henry Gurney definitively and test any Reade-family-Gurney-connection lead.
+6. **William Tyng probate** (d. 18 January 1653 Braintree, MA; will / inventory should be in Suffolk County MA Probate Liber 1). The inventory would itemize the Braintree leasehold to John Gurney as named tenant.
+7. **Sir Henry Spelman manuscript pedigree.** Bernau (1913) reports that "a Francis Gournay" gave Sir Henry Spelman a manuscript Gourney pedigree; the 1616 Francis Spelman apprenticeship to Francis G14 (Scott 2024 UKDA-9263) supplies a concrete vector. Candidate repositories: CUL MS Add. (Spelman collection), Bodleian MS Eng. hist., BL Add. MSS (Spelman transcripts), College of Arms.
+8. **NEHGR vol. 22 p. 44** John Gurney reference. Internet Archive coverage of NEHGR vol. 22 (1868) is patchy by web URL; a targeted FS-Library or Google Books pull should resolve it.
+9. **Mary Anne of Yarmouth 1637 + Susan & Ellen of Yarmouth 1635 passenger lists** for Gurney variants. These two Yarmouth, Norfolk → Massachusetts ships span the John Gurney emigration window and have partial surviving passenger lists not yet pulled.
+
+#### Strong supporting targets
+
+1. **Margaret Rybett burial.** East Dereham, Norwich, Garveston, Gressenhall, or Shipdham c.1616–1617.
+2. **Ryvett/Rivett pedigrees.** Suffolk Record Office, HD2418/88.
+3. **Francis Gurney's will or administration.** PCC indexes 1637–1660; Archdeaconry of Norwich; London Commissary Court.
+4. **American Gurney arms.** Locate the earliest object, seal, Bible, bookplate, gravestone, manuscript, or family paper preserving the arms used by the American Gurneys; determine the exact blazon and whether the usage predates printed antiquarian borrowing.
+
+#### Candidate D (London Drapers' / Old Change) — confirmation or kill targets
+
+1. **TNA E179 1661 Free and Voluntary Present, City of London.** Boyd's Inhabitants card carries the cue "1661 poll tax [unclear] Old Change" for John Gurny of S Augustine. A confirmed Gurney entry at Old Change in 1661 would essentially eliminate Candidate D, since the Massachusetts John died at Boston about March 1662/3.
+2. **W. J. Harvey, *List of the Principal Inhabitants of the City of London, 1640.*** Lambeth Palace Library MS. 272, reprinted British Library Historical Print Editions 2011.
+3. **Arber, *Transcript of the Registers of the Stationers' Company 1554-1640*, volume 3.** The raw 25 March 1613 entry binding John Gurney to master James Boler may preserve a father name not surfaced in the ROLLCO summary.
+4. **LMA P69/AUG St Augustine Watling Street parish-administrative records 1625-1665.** Vestry minutes, churchwardens' accounts, poor and tithe rate books, inhabitants lists.
+5. **Archdeaconry Court of London and Commissary Court of London admon/will indexes 1625-1670** for Anne Gurney widow of Robert and any London John Gurney draper/tailor.
+6. **Stationers' Court Books for John Gurney 1613-1625** beyond ROLLCO summary level.
+7. **27 April 1640 An Gurney + George Bucher marriage, Essex.** Image-level confirmation for the only Anne-aged Anne Gurney marriage indexed in the FamilySearch sweep that could plausibly correspond to a remarriage of Anne (Morris) Gurney, widow of Robert.
+
+#### Other leads
+
+1. **Haberdashers' Company 1632 apprentice.** A John Gurney was reportedly apprenticed to the Haberdashers' Company in 1632, but the Findmypast London Apprenticeship Abstracts walk returned zero Gurney results. Re-identify the original source.
+2. **St Ann Blackfriars baptism, 1615.** A John Gurney baptism lists the father as "P Gurney." In early 17th-century handwriting, F and P are easily confused; the original register image has not been examined.
+3. **Medmenham, Buckinghamshire parish register.** FamilySearch Tree profile LT9Z-KQ1 has a restricted attached item titled "The parsons and parish registers of Medmenham, Buckinghamshire" with user note "Richard gurney marriage."
+4. **Gillingham, Norfolk, 5 November 1624 — Mary Garny daughter of Frances Garny.** Pull the Gillingham parish register context (other Garny/Gurney baptisms 1620-1640 at Gillingham) to test whether Frances Garny's other children match Francis G14's known family.
+
+#### Non-leads
+
+1. **"Mary Richards" maiden-name attribution.** Ancestry user-tree attribution with no primary record. Do not carry as an open lead unless a primary source for the Richards surname surfaces.
+
+#### Enrichment
+
+1. **Braintree town manuscript vital records, film 940974 / DGS 7009769** — original/copy manuscript pages behind the 7th month 20, 1661 wife-death entry and the 9th month 12, 1661 Grizell Kidbee marriage entry.
+2. **Suffolk Probate Records Case #338** — full itemized inventory and debtor/creditor transcription.
+3. **Suffolk Court Files item no. 188** — underlying file behind the 1652/3 Braintree age note.
+4. **Original Braintree town/vital/deed entries** — especially the 1661 wife death/marriage context and the 12 Feb. 1661 Richard Thayer conveyance behind Bates.
+5. **Lysander-family manuscript / arms object** — the 1912/AccessGenealogy tradition points to family-held material.
+6. **St Stephen Coleman Street parish registers** — full Gurney search 1600–1660.
+7. **Berkhamsted marriage registers** — further register work may clarify Candidate C's wife and household.
+8. **Stewkley Dickson/Putnam 1897 register pull** — Tier 2 context.
+
+#### Anderson reference-control checklist
+
+Anderson's John Gurney sketch cites WJ 2:422, MBCR 1:331, NEHGR 62:94, SPR Case #338, Weymouth Hist 3:251, and TAG 10:70-73. WJ and MBCR are tied to Winthrop/Savage and Massachusetts Bay Records entries; Weymouth Hist and NEHGR 62:94 are partially incorporated; TAG 10:70-73 is Holman's Grissell marriage-chain article with no 1636 date for John Gurney; SPR Case #338 is image-verified at FamilySearch. Remaining pulls: full SPR Case #338 itemized transcription and the Braintree manuscript vital-record pages behind the 1661 wife-death and marriage conflict.
+
 ---
 
 ## Open Questions
