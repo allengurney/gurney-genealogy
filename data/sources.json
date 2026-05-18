@@ -636,10 +636,10 @@
     "suffolk-deeds-liber-iv-1888": {
       "shortTitle": "Suffolk Deeds, Liber IV (1888)",
       "citation": "Temple, Thomas F., Register of Deeds. Suffolk Deeds. Liber IV. Boston: Rockwell and Churchill, City Printers, 1888.",
-      "archive": "Suffolk County deed-record printed volume; project extraction note at research/case-files/John-gurney-research-to-be-assessed/deeds and misc/deeds318904_04_john_gurney_extracts.md from source filename deeds318904_04.pdf",
+      "archive": "Suffolk County deed-record printed volume.",
       "url": null,
-      "corpusStatus": "none",
-      "corpusPath": null,
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/suffolk-deeds-liber-iv-1888-gurney-extracts.md",
       "mediaPath": null,
       "validationPath": "sources/validations/suffolk-deeds-liber-iv-1888.md",
       "notes": "Printed Suffolk County deed-record volume. John Gurney appears in the William Ting estate-division material on printed pp. 6 and 89a-90, with the printed index at p. 150 pointing to those references. The material identifies one of two Braintree messuages or tenements allotted to Bethia and Mercy Ting as being occupied by lease by John Gurney. Useful for Braintree tenancy and Ting/Tyng estate context; not a family-relationship record."
@@ -647,10 +647,10 @@
     "mendon-proprietors-records-1899": {
       "shortTitle": "Mendon Proprietors' Records (1899)",
       "citation": "The Proprietors' Records of the Town of Mendon, Massachusetts: Incorporated May 15, 1667. Boston: Rockwell and Churchill Press, 1899.",
-      "archive": "Internet Archive; OpenLibrary; project extraction note at research/case-files/John-gurney-research-to-be-assessed/deeds and misc/proprietors_gurney_extracts.md",
+      "archive": "Internet Archive; OpenLibrary.",
       "url": "https://archive.org/details/proprietorsrecor00mend",
-      "corpusStatus": "none",
-      "corpusPath": null,
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/mendon-proprietors-records-1899-gurney-extracts.md",
       "mediaPath": null,
       "validationPath": "sources/validations/mendon-proprietors-records-1899.md",
       "notes": "Published transcript/abstract of Mendon proprietary records. John Gurny and Grisel Gurney appear as separate twenty-acre lot holders; Grisel's will material links her Mendon accommodation to Joseph Juell and the Juell/Kibbee/Burge family network; later entries preserve John Gurny's house lot, meadow, and swamp-lot references. Useful for the John/Grisel Mendon property trail and for distinguishing proprietary/title survival from proof of John's later residence."
@@ -658,10 +658,10 @@
     "ballou-history-of-milford-1882": {
       "shortTitle": "Ballou, History of Milford (1882)",
       "citation": "Ballou, Adin. History of the Town of Milford, Worcester County, Massachusetts, from Its First Settlement to 1881. In Two Parts. Part I. Strictly Historical; Part II. Biographico-Genealogical Register. Boston: Franklin Press, Rand, Avery, & Co., 1882.",
-      "archive": "Internet Archive; project extraction note at research/case-files/John-gurney-research-to-be-assessed/deeds and misc/milford_john_gurney_extract_pp27_33.md",
+      "archive": "Internet Archive.",
       "url": "https://archive.org/details/historyoftownofm01ball",
-      "corpusStatus": "none",
-      "corpusPath": null,
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/ballou-history-of-milford-1882-gurney-extracts.md",
       "mediaPath": null,
       "validationPath": "sources/validations/ballou-history-of-milford-1882.md",
       "notes": "Milford/Mendon town history preserving the institutional context of the Netmooke/Mendham/Mendon plantation. The project extraction covers pp. 27-35, including the 1662 list of persons accepted to allotments, where John Gurney appears in the Braintree contingent, and nearby references to 1667 meadow division and pre-King Philip's War grants. Useful for Mendon proprietary context; later references require caution because John Gurney-1 died in 1662/3."
@@ -669,13 +669,46 @@
     "nash-historical-sketch-weymouth-1885": {
       "shortTitle": "Nash, Historical Sketch of Weymouth (1885)",
       "citation": "Nash, Gilbert. Historical Sketch of the Town of Weymouth, Massachusetts, from 1622 to 1884. Weymouth, Massachusetts: Town of Weymouth, under the auspices of the Weymouth Historical Society, 1885. Printed by Alfred Mudge & Son, Boston.",
-      "archive": "Internet Archive; project extraction note at research/case-files/John-gurney-research-to-be-assessed/deeds and misc/john_gurney_extracts_historicalsketch00nash_0.md",
+      "archive": "Internet Archive.",
       "url": "https://archive.org/details/historicalsketch00nash_0",
-      "corpusStatus": "none",
-      "corpusPath": null,
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/nash-historical-sketch-weymouth-1885-gurney-extracts.md",
       "mediaPath": null,
       "validationPath": "sources/validations/nash-historical-sketch-weymouth-1885.md",
       "notes": "Weymouth local history preserving early land-list material. John appears under variants Gurny/Gurnie/Gurney on pp. 258, 270, 278, and 282; the strongest entry is the 1651/2 lot-list entry on p. 282, with the index grouping Gurny/Gurnie/Gurney variants. Useful for Weymouth land-grant baseline and spelling-variant search terms."
+    },
+    "porter-genealogy-richard-porter-1878": {
+      "shortTitle": "Porter, Genealogy of the Descendants of Richard Porter (1878)",
+      "citation": "Porter, Joseph W. A Genealogy of the Descendants of Richard Porter, Who Settled at Weymouth, Mass., 1635, and Allied Families: Also, Some Account of the Descendants of John Porter, Who Settled at Hingham, Mass., 1635, and Salem (Danvers) Mass., 1644. Bangor, [Maine], 1878, p. 225.",
+      "archive": "Internet Archive.",
+      "url": "https://archive.org/details/genealogyofdesce00port",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/porter-genealogy-richard-porter-1878-gurney-extract.md",
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Secondary attestation: places John Gurney at Weymouth on 2 June 1641, when the General Court remitted the fine of John Porter, James Ludden, and John Gurney 'for want of gunpowder.' The author glosses the quoted record 'Ludden and Gurney were of Weymouth.' Independent confirmation alongside MBCR 1:331 of John's June 1641 Weymouth presence."
+    },
+    "bartlett-bartletts-of-weymouth-1892": {
+      "shortTitle": "Bartlett, The Bartletts of Weymouth (1892)",
+      "citation": "Bartlett, Thomas Edward. The Bartletts: Ancestral, Genealogical, Biographical, Historical: Comprising an Account of the American Progenitors of the Bartlett Family, with Special Reference to the Descendants of John Bartlett, of Weymouth and Cumberland. New Haven, Conn.: Press of the Stafford Printing Co., 1892, pp. 14-15.",
+      "archive": "Reprint (Provo, Utah: J. Grant Stevenson, 1973).",
+      "url": null,
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/bartlett-bartletts-of-weymouth-1892-gurney-extract.md",
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Secondary attestation: lists John Gurney among the 'first settlers from Braintree' connected with the early Mendon plantation. The passage relates to the 1660 court action on Braintree's petition, the 1662 Indian deed, and the 30 October 1663 order; given the colonial John died early 1663 he probably did not personally remove to Mendon, but is named as part of the Braintree cohort connected with the grant."
+    },
+    "tna-pcc-gurney-elimination-corpus": {
+      "shortTitle": "TNA PCC Gurney probate corpus (1577-1682, elimination set)",
+      "citation": "The National Archives, Kew, Prerogative Court of Canterbury wills and related probate acts referencing Gurney testators or kin 1577-1682: PROB 11/382/271 (John Gurney, merchant, St Botolph without Aldgate, will 23 April 1666); PROB 11/372/123 (John Gurney, yeoman, Winkfield, Berkshire, will 7 November 1682); PROB 11/337/37 (sentence of John Gurney of Aylesbury, Buckinghamshire, later 17th c.); PROB 11/347/122 (Daniell Gurney of Aylesbury, Buckinghamshire, 1669); PROB 11/260/14 (Anne Gurney, widow of Eythorne, Kent, 20 November 1656, probate 1657/8); PROB 11/338/493 (Richard Gurney, labourer of London, 1 March 1674/5); PROB 11/252/319 (John Gurney, yeoman of East Grinstead, 24 February 1654/5); PROB 11/241/246 and PROB 11/242/723 (John Gurney, shepherd, of East Chilton / East Chiltington, Sussex, mid-1650s); PROB 11/252/152 (William Gurney, sons John, Abell, Walter, London, mid-1650s); PROB 11/335/425 (John Gurney, husbandman, of Albury, Hertfordshire, 1676); PROB 11/201/723 (Sir Richard Gurney, knight, mid-17th c.); PROB 11/54/173 (Tobias Gurney and Edward Gurney, 1577).",
+      "archive": "The National Archives, Kew (PROB 11 series, registered copy wills).",
+      "url": "https://www.nationalarchives.gov.uk/",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/tna-pcc-gurney-elimination-corpus.md",
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Eleven PCC wills and two probate acts. Underwrites the case file Section 8 elimination rows currently cited under footnote n60. Best-effort working analysis of supplied scans, not full diplomatic transcriptions; uncertain readings flagged in the corpus file. Five of the thirteen items (Anne Gurney widow Eythorne 1656; Richard Gurney labourer London 1674/5; Sir Richard Gurney knight; Tobias/Edward Gurney 1577; plus the Sussex item already covered) are not currently cited as standalone Section 8 rows; they are catalogued in the corpus file as supporting evidence and context."
     },
     "phillimore-bucks-marriages-vol1": {
       "shortTitle": "Phillimore Bucks parish registers, marriages, vol. 1",
@@ -1597,6 +1630,17 @@
       "mediaPath": null,
       "validationPath": "sources/validations/bho-london-inhabitants-st-augustine-1638.md",
       "notes": "St Augustine 1638 rents return, three manuscript pages (MS. 67, MS. 67a, MS. 68), £1,700 total assessed value yielding £233 5s tithe at 2/9 per £. John Gurney is in MS. 67a at £10, between Christopher Hunlock £2 and George Browne £10. Joseph Huntscott (= Joseph Henscott, will overseer of Robert Gurney 1625, and the well-documented Stationer) appears on MS. p. 68 at £12, anchoring parish-network continuity from Robert's death (1625) into 1638. Candidate D context now stronger than a generic same-name London lead."
+    },
+    "bho-london-hearth-tax-merry-2010": {
+      "shortTitle": "London Hearth Tax project database (Merry 2010)",
+      "citation": "Merry, Mark (2010). London Hearth Tax project database. Centre for Metropolitan History. Published online with London Hearth Tax: City of London and Middlesex, 1666 (2011) and London Hearth Tax: Westminster 1664 (2011) at British History Online.",
+      "archive": "British History Online; Centre for Metropolitan History; underlying manuscripts in TNA E 179 series (esp. E 179/252/27, E 179/367/8 Part 1, and the 1666 City and Middlesex hearth-tax returns).",
+      "url": "https://www.british-history.ac.uk/london-hearth-tax",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/london-hearth-tax-1662-1666-gurney-cluster.md",
+      "mediaPath": "sources/media/london-hearth-tax-merry-2010/London_Hearth_Tax_database.mdb",
+      "validationPath": null,
+      "notes": "Eleven strict-Gurney/Gurny entries 1662-1666 across the City of London, Westminster, and inner Middlesex. The decisive 1662 entry - John Gurney at 'In St Austins precinct,' Farringdon Within Ward, 1 hearth, assessed 'poore' (TNA E 179/252/27 rot 21) - confirms continuing London residence for the Candidate D Old Change John in the same calendar year the colonial John of Braintree died, eliminating Candidate D as the emigrant. Full cluster catalogued in the corpus_supplement file."
     },
     "bho-hmc-kings-lynn-misc-writings": {
       "shortTitle": "BHO HMC - King's Lynn Miscellaneous Writings",

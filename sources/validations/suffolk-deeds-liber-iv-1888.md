@@ -4,7 +4,7 @@ Source ID: `suffolk-deeds-liber-iv-1888`
 
 ## Scope Examined
 
-Examined the project extraction note at `research/case-files/John-gurney-research-to-be-assessed/deeds and misc/deeds318904_04_john_gurney_extracts.md`, drawn from source filename `deeds318904_04.pdf`.
+Examined the project extraction note at `sources/corpus_supplement/suffolk-deeds-liber-iv-1888-gurney-extracts.md`, drawn from source filename `deeds318904_04.pdf`.
 
 The relevant portions are printed pp. 6 and 89a-90, plus printed index p. 150.
 

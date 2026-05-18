@@ -15,6 +15,14 @@ Standing facts are in AI-Rules.md §7 (especially correction #6 on birth date, c
 
 ## Working Notes
 
+### Ryvett-centric parishes - John living with maternal kin after Margaret's death
+
+**Hypothesis.** Margaret Rybett, John's mother, died c.1616-1617. A son aged six to eight whose father was already engaged in commercial work between London and Norfolk might have been placed with maternal kin - particularly given the Ryvett/Rivett family's documented presence in parishes near East Dereham (Gressenhall, Garveston) and across Suffolk (Fritton, Rishangles, Rattlesden, Stowmarket, Bildeston). If so, indexed Gurney baptisms or burials in those Ryvett-centric parishes might surface in the 1610-1635 window.
+
+**Negative search result.** A FamilySearch indexed-records pass for Gurney surname in Gressenhall and Garveston (Norfolk Ryvett-proximate parishes) returns no early-17th-century Gurney baptisms; the only Gressenhall Gurney records are 1881 census entries. A FamilySearch and Findmypast Buckinghamshire-style search for Suffolk Gurney baptisms 1600-1640 across the named Ryvett parishes returns no clean cluster - the surviving Rattlesden Gurney family is a post-1700 lineage unrelated to Margaret Rybett's family. The hypothesis is consistent with parish-coverage gaps but is not supported by surfaced indexed records. Held as speculation; not added to the case-file body.
+
+The Section 2.2 mention "Richard Ryvett of Gressenhall could be the source of John's son Richard's name" stands on its own as a naming-source hypothesis, not as evidence that John lived with the Ryvetts.
+
 ### External compiler assessments (Anderson, Banks)
 
 2026-04-08 — Evaluated Anderson's *Great Migration Directory* p. 158 and Banks/Brownell's *Topographical Dictionary* (1937) p. 151 for their treatment of John Gurney-1. Source: chat 324600c7.
@@ -180,7 +188,7 @@ The Mendon material shows recognized proprietary standing and later title surviv
 John's 1663 probate inventory did not appraise ordinary Braintree real estate as a stable landholding, but it did note a land interest "layd out in land at Quinapaug wch we know not." Treat this as an unclarified or unvalued frontier proprietary interest rather than as ordinary appraised Braintree land. The NEHGR abstract gives the inventory amount as **£55 14s 6d**.[^spr-case-338-john-gurney-probate][^nehgr-12-suffolk-wills]
 
 [^nash-weymouth-1885]: Gilbert Nash, *Historical Sketch of the Town of Weymouth, Massachusetts, from 1622 to 1884* (Weymouth, Mass.: Town of Weymouth, 1885), pp. 258, 270, 278, 281-282, 306, https://archive.org/details/historicalsketch00nash_0. Source ID: `nash-historical-sketch-weymouth-1885`.
-[^suffolk-deeds-liber-iv]: Thomas F. Temple, Register of Deeds, *Suffolk Deeds. Liber IV* (Boston: Rockwell and Churchill, City Printers, 1888), pp. 6, 89a-90, index p. 150; project extraction note at `research/case-files/John-gurney-research-to-be-assessed/deeds and misc/deeds318904_04_john_gurney_extracts.md`. Source ID: `suffolk-deeds-liber-iv-1888`.
+[^suffolk-deeds-liber-iv]: Thomas F. Temple, Register of Deeds, *Suffolk Deeds. Liber IV* (Boston: Rockwell and Churchill, City Printers, 1888), pp. 6, 89a-90, index p. 150. Source ID: `suffolk-deeds-liber-iv-1888`.
 [^bates-ironworks-gurney]: Samuel A. Bates, *The Ancient Iron Works at Braintree, Mass.: The First in America* (South Braintree, Mass.: Frank A. Bates, 1898), p. 10. Source ID: `bates-ancient-iron-works-braintree-1898`.
 [^ballou-milford-1882]: Adin Ballou, *History of the Town of Milford, Worcester County, Massachusetts, from Its First Settlement to 1881. In Two Parts* (Boston: Franklin Press, Rand, Avery, & Co., 1882), pp. 27-35, https://archive.org/details/historyoftownofm01ball. Source ID: `ballou-history-of-milford-1882`.
 [^mendon-proprietors-1899]: *The Proprietors' Records of the Town of Mendon, Massachusetts: Incorporated May 15, 1667* (Boston: Rockwell and Churchill Press, 1899), pp. 13, 43, 46, 152-153 and related title/boundary entries, https://archive.org/details/proprietorsrecor00mend. Source ID: `mendon-proprietors-records-1899`.
@@ -457,7 +465,7 @@ John Gurney, son of Robert, was admitted to the Drapers' Company by redemption o
 
 The 1638 London Inhabitants return for St Augustine lists one John Gurney at £10 in MS. 67a (rents/tithe assessment, £1,700 total at 2/9 per £). On MS. p. 68 of the same return, Joseph Huntscott appears at £12. Joseph Huntscott is the same Joseph Hunscott who was an active Stationers' apprenticeship master 1612-1646 with a son John admitted Stationer 1641, and the same Joseph Hunscot who published the 1646 royalist Wing H3728 petition; he was the Henscott named in Robert Gurney's 1625 will. The 1638 entry therefore points to continuation of the Old Change Gurney - Hunscott will-network across the 13 years after Robert's death.[^candidate-d-bho-1638][^candidate-d-hunscott]
 
-The case-file Section 8.4 summary holds the tight version. The substantive next moves are: (1) the 1661 City of London poll-tax record at TNA E179 that Boyd's card cues as "1661 poll tax... Old Change", which if confirmed at image level would essentially eliminate Candidate D as the colonial John; (2) the 1640 Harvey Principal Inhabitants list at Lambeth MS. 272; (3) the Arber Stationers' Registers volume 3 raw entry for the 25 March 1613 binding to James Boler, which may name John's father; (4) walks through the LMA P69/AUG St Augustine vestry, churchwardens', and rate books 1625-1665; (5) Archdeaconry and Commissary of London admon/will indexes 1625-1670 for Anne Gurney widow and any London John Gurney draper/tailor.
+Merry 2010 London Hearth Tax project database resolves the key Old Change continuation question: John Gurney appears in 1662 at "In St Austins precinct," Farringdon Within Ward, 1 hearth, assessed "poore" (TNA E 179/252/27 rot 21), the same St Augustine parish where T.C. Dale placed John Gurney at GBP10 rent in 1638. Candidate D is therefore eliminated as the colonial John of Braintree. Remaining useful pulls are narrower context work: the 1640 Harvey Principal Inhabitants list at Lambeth MS. 272; the Arber Stationers' Registers volume 3 raw entry for the 25 March 1613 binding to James Boler, which may name John's father; walks through the LMA P69/AUG St Augustine vestry, churchwardens', and rate books 1625-1665; and Archdeaconry and Commissary of London admon/will indexes 1625-1670 for Anne Gurney widow and any London John Gurney draper/tailor.
 
 [^candidate-d-acl-will]: Robert Gurney, citizen and draper of London, will written 18 January 1621/2, proved 23 September 1625, Archdeaconry Court of London. Source ID: `acl-robert-gurney-will-1625`.
 [^candidate-d-rollco-1581]: ROLLCO Drapers' Company event DREW4826, 16 December 1581 freedom by servitude, new freeman Robert Gourney "Tailor, Old Change", master Robert Furnes. Source ID: `rollco-drapers-gurney-old-change-cluster`.
@@ -466,6 +474,18 @@ The case-file Section 8.4 summary holds the tight version. The substantive next 
 [^candidate-d-stationers-1613]: ROLLCO Stationers' Company event STMM8981, 25 March 1613 apprenticeship, master James Boler Co Stationer, new apprentice John Gurney, reference ST/1:0812; no father recorded; no subsequent Stationers' freedom record. Source ID: `rollco-stationers-gurney-1613-1626`.
 [^candidate-d-bho-1638]: T. C. Dale, "Inhabitants of London in 1638: St. Augustine," British History Online; John Gurney £10 in MS. 67a between Christopher Hunlock £2 and George Browne £10; Joseph Huntscott £12 on MS. p. 68. Source ID: `bho-london-inhabitants-st-augustine-1638`.
 [^candidate-d-hunscott]: ROLLCO Stationers' Company event corpus for Joseph Hunscott 1612-1646; and Joseph Hunscot, *The Humble Petition and Information of Joseph Hunscot Stationer* (London, 1646), Wing H3728. Source IDs: `rollco-stationers-hunscott-cluster`, `arber-stationers-bsoc-petition-1646-hunscott`.
+
+### London William Gurney cluster - hearth-tax expansion (1664-1666)
+
+Merry 2010 records the London William Gurney family network continuing into 1664-1666 across at least three households:
+
+- Walter Gurney, St Margaret's Westminster, Greene Dragon Court, 1 hearth, 1664 - most plausibly the Walter Gurney son of William in PROB 11/252/152.
+- William Gurny, St Bride Fleet Street, Southside Fleet Street, 7 hearths, 1666 "empty."
+- William Gurney, St Dunstan in the West, Cock & Key Alley, 3 hearths, 1666.
+- Ann Gurney, St Dunstan in the West, Two Crane Court, 5 hearths, 1666 - possibly Anne (Morris) Gurney, Robert's widow (Candidate D's mother), at ~73-80 years of age in 1666, or a widow of the William Gurney barber-chirurgion line, or a separate Ann. Identity not resolved.
+
+The cluster confirms continuing London residence for the William Gurney family network through the year of the Great Fire. Independent of Candidate B; supports the case file's reading that the William Gurney London household is distinct from Francis Gurney G14's family.
+
 
 ### Margaret Rovett / Rybett Ancestry death lead
 
@@ -612,7 +632,7 @@ These targets sit beyond the freely-indexed online corpus and require paid pulls
 
 #### Candidate D (London Drapers' / Old Change) — confirmation or kill targets
 
-1. **TNA E179 1661 Free and Voluntary Present, City of London.** Boyd's Inhabitants card carries the cue "1661 poll tax [unclear] Old Change" for John Gurny of S Augustine. A confirmed Gurney entry at Old Change in 1661 would essentially eliminate Candidate D, since the Massachusetts John died at Boston about March 1662/3.
+1. ~~TNA E179 1661 Free and Voluntary Present, City of London.~~ **RESOLVED via 1662 hearth tax.** Merry 2010 London Hearth Tax project database records John Gurney at "In St Austins precinct," Farringdon Within Ward, 1 hearth, assessed "poore," 1662 (TNA E 179/252/27 rot 21) - the same St Augustine Watling Street parish where T.C. Dale 1638 placed John Gurney at GBP10 rent. The 1661 poll-tax cue in Boyd's Inhabitants of London (GBOR/BIL/SOG59/0240) is corroborated as the 1662 hearth-tax assessment. Candidate D ELIMINATED.
 2. **W. J. Harvey, *List of the Principal Inhabitants of the City of London, 1640.*** Lambeth Palace Library MS. 272, reprinted British Library Historical Print Editions 2011.
 3. **Arber, *Transcript of the Registers of the Stationers' Company 1554-1640*, volume 3.** The raw 25 March 1613 entry binding John Gurney to master James Boler may preserve a father name not surfaced in the ROLLCO summary.
 4. **LMA P69/AUG St Augustine Watling Street parish-administrative records 1625-1665.** Vestry minutes, churchwardens' accounts, poor and tithe rate books, inhabitants lists.
@@ -621,6 +641,8 @@ These targets sit beyond the freely-indexed online corpus and require paid pulls
 7. **27 April 1640 An Gurney + George Bucher marriage, Essex.** Image-level confirmation for the only Anne-aged Anne Gurney marriage indexed in the FamilySearch sweep that could plausibly correspond to a remarriage of Anne (Morris) Gurney, widow of Robert.
 
 #### Other leads
+
+- **Mr. Gurney at Soper Lane, St Pancras parish, 1638.** T.C. Dale, *Inhabitants of London in 1638*, p. 173, lists a Mr. Gurney at GBP15 rent in the Soper Lane section of St Pancras parish - distinct from the John Gurney at St Augustine Watling Street at GBP10 rent already attributed to Candidate D. Forename indexed only as "Mr." Soper Lane runs north from Cheapside, roughly half a mile northeast of Old Change. Pull the Society of Genealogists or LMA copy of the Dale return for the Soper Lane forename and any companion entries.
 
 1. **Haberdashers' Company 1632 apprentice.** A John Gurney was reportedly apprenticed to the Haberdashers' Company in 1632, but the Findmypast London Apprenticeship Abstracts walk returned zero Gurney results. Re-identify the original source.
 2. **St Ann Blackfriars baptism, 1615.** A John Gurney baptism lists the father as "P Gurney." In early 17th-century handwriting, F and P are easily confused; the original register image has not been examined.
@@ -641,6 +663,17 @@ These targets sit beyond the freely-indexed online corpus and require paid pulls
 6. **St Stephen Coleman Street parish registers** — full Gurney search 1600–1660.
 7. **Berkhamsted marriage registers** — further register work may clarify Candidate C's wife and household.
 8. **Stewkley Dickson/Putnam 1897 register pull** — Tier 2 context.
+
+
+### Migrated from case-file body (v49)
+
+These pull-targets were stripped from the case-file body prose as action-item phrases inconsistent with the case file's timeless-evidence posture. They remain valid research targets.
+
+- **Hitcham, Buckinghamshire parish register, 1620-1665** (south Bucks). Pull the Centre for Buckinghamshire Studies register for Hitcham to test whether further Gurney baptisms, marriages, or burials surface alongside the lone indexed Mary Gurny baptism 22 January 1631 (father John Gurny, mother unindexed). Either further records confirm a continuing-residence household (move to ELIMINATED) or absence leaves the row at Unlikely.
+- **Ackworth, Yorkshire parish register, 1635-1665**. Pull the West Yorkshire Archive Service register for Ackworth to test for further John Gurnoe / Mary Burton household activity after the son John Thomas Gurnoe baptism 19 January 1637. Either a continuing Yorkshire household confirms ELIMINATED, or absence leaves Ackworth at Unlikely with the closest non-Candidate-B wife-name match still on the table.
+- **East Dereham parish register, Norfolk Record Office PD 86/41**. Professional paleographic examination of Entry E remains the canonical path for confirming the "John son of ffrancis Gurnie" reading, but does not resolve the more material chronological tension between Entry E's c.1609/10 date and the 1653 deposition's c.1602/3 birth implication (see Section 10.1 Against row 1).
+- **Bury St Mary parish register (FL 541/4), Suffolk Record Office Bury branch**. Pull the underlying register pages for the three 1653-1656 Bury Gurney burials (John 11 December 1653; Gurney 6 April 1655; widow 13 May 1656) cited under n93. The Section 10.6 reading that the household stayed at Bury rests on the indexed National Burial Index entries; a register-image pull confirms the household structure (forenames, ages, family relationships) one level deeper.
+- **St Benet Fink baptism register (LMA P69/BEN1/A/001 and /002), 1619-1638**. Pull to reconcile the children list across Daniel Gurney 1848, Bernau 1913, and the current G14 fact sheet. Open as a follow-up patchset once the LMA pull is in hand. Do not modify the G14 fact sheet without it.
 
 #### Anderson reference-control checklist
 
@@ -669,7 +702,7 @@ Anderson's John Gurney sketch cites WJ 2:422, MBCR 1:331, NEHGR 62:94, SPR Case 
 - **Candidate B** (son of Francis G14 + Margaret Rybett, probably Norwich / East Dereham connected): **~65-70%**. Active working hypothesis. Probability raised from v4's ~55-60% on the basis of (a) the Newgate Horningsheath finding redirecting Banks's BSE attribution off the elder Braintree John, (b) FS-indexed primary reclassification of Francis G14's East Dereham child cluster (Marye and Agnes burial entries now confirmed at the FS-index level via VNN2-WR2 and VNN2-WRG, plus a probable 1633 Francis burial at VNN2-H8S), and (c) the Mary Shed 1647 marriage tightly bounding the John+Mary marriage to England before 1628 and reframing the indexed-marriage absence as a parish-coverage gap rather than counter-evidence.
 - **Candidate A** (Stewkley baptism 1602/3 → Bierton marriage 1628 → Aylesbury hundred → Walgrave Northamptonshire 1650): **ELIMINATED**. Continuous English residence 1603-1653 with wife Alice Oliffe.
 - **Candidate C** (Berkhamsted, Hertfordshire): **ELIMINATED**. Eight-child Berkhamsted family group 1610-1636 fathered by a John born about 1585-1590.
-- **Candidate D** (London Drapers' / Old Change): **Unlikely (~3-5%)**. Strong post-1625 London continuity argues against the migration profile.
+- **Candidate D** (London Drapers' / Old Change): **ELIMINATED**. The 1662 hearth-tax entry at St Augustine Watling Street confirms continuing London residence in the same calendar year the colonial John was dying at Boston.
 - **Other named candidates** (Aylesbury Cowheard groom, Norwich Jane Wright groom, etc.): **~5% combined**.
 - **Unknown corridor (East Anglia / London)**: ~15-20% residual.
 - **Unknown other corridor (Kent, Lincs, West Country)**: ~5-10% residual.

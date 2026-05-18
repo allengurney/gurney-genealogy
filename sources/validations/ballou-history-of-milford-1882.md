@@ -4,7 +4,7 @@ Source ID: `ballou-history-of-milford-1882`
 
 ## Scope Examined
 
-Examined the project extraction note at `research/case-files/John-gurney-research-to-be-assessed/deeds and misc/milford_john_gurney_extract_pp27_33.md`, with online availability checked at Internet Archive: `https://archive.org/details/historyoftownofm01ball`.
+Examined the project extraction note at `sources/corpus_supplement/ballou-history-of-milford-1882-gurney-extracts.md`, with online availability checked at Internet Archive: `https://archive.org/details/historyoftownofm01ball`.
 
 The relevant portions are pp. 27-35, especially the 1662 accepted-allotments list and nearby 1667/pre-war land references.
 

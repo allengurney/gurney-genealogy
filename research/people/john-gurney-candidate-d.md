@@ -1,4 +1,10 @@
-# John Gurney - Candidate D - London draper of Old Change
+# Candidate D - Status: ELIMINATED (1662 hearth-tax confirmation)
+
+The Old Change John Gurney (son and executor of Robert Gurney, draper) is documented continuing at St Augustine Watling Street in 1662 (hearth tax: 1 hearth, "poore," TNA E 179/252/27 rot 21). The colonial John of Braintree was dying at Boston in the same year. They cannot be the same person.
+
+Detailed research follows; the file is preserved as the source-by-source record of how the Candidate D identification was developed and how it was finally eliminated.
+
+---
 
 This research file holds the depth and detail of the Candidate D investigation, kept out of the main John Gurney case file so that the case file's Section 8 stays tight. Candidate D is John Gurney, adult son and executor of Robert Gurney, citizen and draper of London / tailor of Old Change, with John made free of the Drapers' Company by redemption on 11 February 1623/4.
 

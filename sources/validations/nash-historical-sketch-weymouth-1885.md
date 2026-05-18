@@ -4,7 +4,7 @@ Source ID: `nash-historical-sketch-weymouth-1885`
 
 ## Scope Examined
 
-Examined the project extraction note at `research/case-files/John-gurney-research-to-be-assessed/deeds and misc/john_gurney_extracts_historicalsketch00nash_0.md`, with online availability checked at Internet Archive: `https://archive.org/details/historicalsketch00nash_0`.
+Examined the project extraction note at `sources/corpus_supplement/nash-historical-sketch-weymouth-1885-gurney-extracts.md`, with online availability checked at Internet Archive: `https://archive.org/details/historicalsketch00nash_0`.
 
 The relevant portions are printed pp. 258, 270, 278, 281-282, and index p. 306.
 
