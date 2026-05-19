@@ -625,6 +625,8 @@ These targets sit beyond the freely-indexed online corpus and require paid pulls
 
 #### Strong supporting targets
 
+- **Daniel Shed / Finchingfield and Braintree-Essex place-name page-level citations.** §10.1 row 7 "Essex social network" rests on the Shed (Finchingfield, Essex) son-in-law connection, William Tyng (Stanford Rivers, Essex) leasehold, and the Braintree-Massachusetts naming-from-Braintree-Essex transfer. Each currently cites Sprague p. 695 (Shed marriage) and the NPS Adams NHP Cultural Landscape Report (Tyng leasehold) generally; targeted page-level citations from Bates, *Records of the Town of Braintree* (1886), the Tyng probate (Suffolk County MA Probate Liber 1, deferred pull), and the Finchingfield, Essex parish register (Daniel Shed's June 1620 baptism) would tighten the row.
+
 1. **Margaret Rybett burial.** East Dereham, Norwich, Garveston, Gressenhall, or Shipdham c.1616–1617.
 2. **Ryvett/Rivett pedigrees.** Suffolk Record Office, HD2418/88.
 3. **Francis Gurney's will or administration.** PCC indexes 1637–1660; Archdeaconry of Norwich; London Commissary Court.

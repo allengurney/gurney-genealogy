@@ -31,17 +31,58 @@ John Gurney was an English emigrant who settled in Massachusetts Bay Colony circ
 
 The following colonial-era facts serve as the baseline for identifying which English John Gurney emigrated:
 
-| Fact | Detail | Genealogy Source |
-|---|---|---|
-| **Occupation** | Tailor | Sprague, p. 695<sup class="fn"><a href="#n2" id="ref-2">2</a></sup>; Bates, p. 10<sup class="fn"><a href="#n72" id="ref-72">72</a></sup> |
-| **First recorded in <br />Colonial America** | June 1641 General Court fine-remission record | MBCR 1:331; Porter, *Genealogy of the Descendants of Richard Porter* (1878), p. 225<sup class="fn"><a href="#n73" id="ref-73">73</a></sup> <sup class="fn"><a href="#n109" id="ref-109">109</a></sup> |
-| **Settlement** | Braintree, Massachusetts | Sprague; Anderson GMD<sup class="fn"><a href="#n4" id="ref-4">4</a></sup> |
-| **Birth estimate** | c.1603 (stated "aged about 50" in 1653 deposition) | Wilson v. Faxon, 1653<sup class="fn"><a href="#n5" id="ref-5">5</a></sup> |
-| **Wife** | Mary (maiden name unknown), d. 20 Sept 1661 | Bates, *Records of the Town of Braintree* (1886), p. 638; Sprague p. 695<sup class="fn"><a href="#n6" id="ref-6">6</a></sup> |
-| **Second wife** | Grizzell Fletcher/Kidbee, traditionally m. 12 Nov 1661; Braintree printed-record surname conflict | Bates, *Records of the Town of Braintree* (1886), p. 717; Holman, "Grissell of the Many Marriages," *The American Genealogist* 10 (1933), pp. 70-73<sup class="fn"><a href="#n7" id="ref-7">7</a></sup> |
-| **Children** <br />(born in England) | Sarah (b unknown), Mary (bc.1628), Richard (bc.1630), John Jr. (bc.1633), Peter (bc.1635-40) + potentially Isaac (uncertain) | Sprague, *Genealogies of the Families of Braintree* (2001), p. 695; *History of Weymouth, Massachusetts* (1923), vol. 3, p. 251<sup class="fn"><a href="#n8" id="ref-8">8</a></sup> |
-| **Estate / Death** | Inventory dated 16 Mar 1662/63; died intestate | SPR Case #338<sup class="fn"><a href="#n9" id="ref-9">9</a></sup>; Suffolk probate index<sup class="fn"><a href="#n74" id="ref-74">74</a></sup> |
-| **Religion** | Settled in Puritan community | Context<sup class="fn"><a href="#n10" id="ref-10">10</a></sup> |
+<table class="facts-baseline">
+<thead>
+<tr><th>Fact</th><th>Detail</th><th>Genealogy Source</th></tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>Occupation</strong></td>
+  <td>Tailor</td>
+  <td>Sprague, p. 695<sup class="fn"><a href="#n2" id="ref-2">2</a></sup>; Bates, p. 10<sup class="fn"><a href="#n72" id="ref-72">72</a></sup></td>
+</tr>
+<tr>
+  <td><strong>First recorded in <br>Colonial America</strong></td>
+  <td>June 1641 General Court fine-remission record</td>
+  <td>MBCR 1:331<sup class="fn"><a href="#n3" id="ref-3">3</a></sup>; Porter, <em>Genealogy of the Descendants of Richard Porter</em> (1878), p. 225<sup class="fn"><a href="#n73" id="ref-73">73</a></sup> <sup class="fn"><a href="#n109" id="ref-109">109</a></sup></td>
+</tr>
+<tr>
+  <td><strong>Settlement</strong></td>
+  <td>Braintree, Massachusetts</td>
+  <td>Sprague; Anderson GMD<sup class="fn"><a href="#n4" id="ref-4">4</a></sup></td>
+</tr>
+<tr>
+  <td><strong>Birth estimate</strong></td>
+  <td>c.1603 (stated "aged about 50" in 1653 deposition)</td>
+  <td>Wilson v. Faxon, 1653<sup class="fn"><a href="#n5" id="ref-5">5</a></sup></td>
+</tr>
+<tr>
+  <td><strong>Wife</strong></td>
+  <td>Mary (maiden name unknown), d. 20 Sept 1661</td>
+  <td>Bates, <em>Records of the Town of Braintree</em> (1886), p. 638; Sprague p. 695<sup class="fn"><a href="#n6" id="ref-6">6</a></sup></td>
+</tr>
+<tr>
+  <td><strong>Second wife</strong></td>
+  <td>Grizzell Fletcher/Kidbee, traditionally m. 12 Nov 1661; Braintree printed-record surname conflict</td>
+  <td>Bates, <em>Records of the Town of Braintree</em> (1886), p. 717; Holman, "Grissell of the Many Marriages," <em>The American Genealogist</em> 10 (1933), pp. 70-73<sup class="fn"><a href="#n7" id="ref-7">7</a></sup></td>
+</tr>
+<tr>
+  <td><strong>Children</strong> <br>(born in England)</td>
+  <td>Sarah (b unknown), Mary (bc.1628), Richard (bc.1630), John Jr. (bc.1633), Peter (bc.1635-40) + potentially Isaac (uncertain)</td>
+  <td>Sprague, <em>Genealogies of the Families of Braintree</em> (2001), p. 695; <em>History of Weymouth, Massachusetts</em> (1923), vol. 3, p. 251<sup class="fn"><a href="#n8" id="ref-8">8</a></sup></td>
+</tr>
+<tr>
+  <td><strong>Estate / Death</strong></td>
+  <td>Inventory dated 16 Mar 1662/63; died intestate</td>
+  <td>SPR Case #338<sup class="fn"><a href="#n9" id="ref-9">9</a></sup>; Suffolk probate index<sup class="fn"><a href="#n74" id="ref-74">74</a></sup></td>
+</tr>
+<tr>
+  <td><strong>Religion</strong></td>
+  <td>Settled in Puritan community</td>
+  <td>Context<sup class="fn"><a href="#n10" id="ref-10">10</a></sup></td>
+</tr>
+</tbody>
+</table>
 
 **Key criteria for matching:** Any English candidate must plausibly account for a tailor named John Gurney, married to a woman named Mary, with children including Sarah, Mary, Richard, John, and Peter, born in England c.1600–1610, who disappeared from English records by c.1641.
 
@@ -49,6 +90,7 @@ The following colonial-era facts serve as the baseline for identifying which Eng
 
 <div class="discovery">Who was John Gurney before he appeared in Massachusetts in 1641? Where in England was he born, who were his parents, and why did he emigrate?
 </div>
+
 
 <h2 id="s2">2. THE CANDIDATE: JOHN GURNEY, SON OF FRANCIS GURNEY AND MARGARET RYBETT</h2>
 
@@ -59,9 +101,9 @@ This case file argues that John Gurney was the son of **Francis Gurney**, a Merc
 | **★ Margaret Rybett marriage** (NRO PD 12/1) | **New Discovery** -- Francis Gurney had a first wife, married 1611 — children from this marriage would be born c.1609–1617, the right generation for the emigrant |
 | **★ John Gurney baptism** (NRO PD 86/41) | **New Discovery** -- A probable baptism record for "John son of ffrancis Gurnie" at East Dereham, c.1609/10 — re-read from an entry previously indexed as "Nicholas Gorne" |
 | **Occupational match** | John the immigrant was a tailor. We do not know John the emigrant's occupation but his father Francis was a Merchant Taylor and in this era sons frequently carried forward their father's occupation. Of the other named candidates, only Candidate D shares any textile-trade link but Candidate D stays in London (see §8.4) so is not a match. |
-| **Birth/age** | Born c.1607-1611 which is slightly older than "aged about 50" testimony would suggest (c.1603) but within plausibility. |
+| **Birth/age** | Born c.1607-1611, slightly **younger** than the 1653 "aged about 50" deposition would imply (c.1603), but within plausibility for a self-reported age estimate. |
 | **Emigration corridor** | Francis lived in precisely the Norfolk → London geography that produced the Great Migration |
-| **Financial motive** | John's father Francis sold ALL his lands in 1634, leaving sons with nothing to inherit |
+| **Financial motive** | John's father Francis sold ALL his lands in 1634, leaving elder sons with no land to expect |
 | **Puritan connections** | John Gurney's uncle Edmund (Francis's brother) living in the area was a militant Puritan clergy; Francis's London parish adjoined the Coleman Street emigration hub |
 
 No other identified candidate matches more than one or two of the criteria. Candidate B strongly matches nearly all of the key criteria.
@@ -99,7 +141,7 @@ This marriage record, discovered in March 2026 in the Norfolk Record Office pari
 
 Francis's London career was marked by expanding financial difficulty. A failed King's Lynn textile manufacturing venture (c.1622–1625) required Sir Hamon Lestrange to pay his £100 bond.<sup class="fn"><a href="#n23" id="ref-23">23</a></sup> On 11 July 1634, Francis sold ALL his Norfolk and Suffolk lands for £1,000 — a forced liquidation through the Court of Wards.<sup class="fn"><a href="#n25" id="ref-25">25</a></sup> By 1638 he had left St Benet Fink.<sup class="fn"><a href="#n26" id="ref-26">26</a></sup> He was buried at St Botolph Bishopsgate, London, on 9 January 1646/7.<sup class="fn"><a href="#n28" id="ref-28">28</a></sup>
 
-Francis's financial loss was substantial — plausibly the equivalent of $7+ million US dollars in today's value— his entire net worth over a few decades. This financial strain falls during John's late-teens-to-twenties, and any father-son dynamics around emigration would have been shaped by that backdrop of no inheritance.<sup class="fn"><a href="#nA1" id="ref-A1">A1</a></sup>
+Francis's financial loss was substantial — plausibly the equivalent of $7+ million US dollars in today's value— his entire net worth over a few decades. This financial strain falls during John's late-teens-to-twenties, and any father-son dynamics around emigration would have been shaped by that backdrop of no land to expect.<sup class="fn"><a href="#nA1" id="ref-A1">A1</a></sup>
 
 ### 2.4 Room for an Older Son: What Daniel Gurney Didn't Know
 
@@ -204,8 +246,7 @@ Four independent letterform tests favor "ffrancis" over "Nicholas": initial stro
 
 This is an AI-assisted paleographic analysis, not a professional examination of the physical register. Professional paleographic examination of the original register at the Norfolk Record Office, The Archive Centre, Martineau Lane, Norwich NR1 2DQ, is the canonical path for confirming Entry E.
 
-
-<h2 id="s6">6. JOHN-1'S FAMILY AND THE ENGLISH PARISH RECORD SEARCH</h2>
+<h2 id="s6">6. JOHN'S FAMILY AND THE ENGLISH PARISH RECORD SEARCH</h2>
 
 ### 6.1 The Children Search Matrix
 
@@ -217,22 +258,22 @@ The closest indexed clusters are weak matches on dates, mother's name, or both:
 
 | Parish | County | Indexed Gurney baptisms | Father | Mother | Assessment |
 |---|---|---|---|---|---|
-| **Berkhamsted** | Herts | Henry 1610, Sara 1615, John 1624, Richard 1626, Elizabeth 1629, Michael 1631, Sarah 1634, Francis 1636 | John | Unknown | (2/5 names; wrong dates; eight-child family, see Section 8.2) - **Low probability; Candidate C eliminated** |
-| **Aylesbury** | Bucks | John 1638, Sarah 1639, Daniell 1645, Jonathan 1647, Hannah 1653 | John | Alice Oliffe (per 1628 Bierton marriage) | (1/5 names; wrong dates; Candidate A continuing residence to 1650 Walgrave Northants) - **Low probability; Candidate A eliminated** |
+| **Berkhamsted** | Herts | Henry 1610, Sara 1615, John 1624, Richard 1626, Elizabeth 1629, Michael 1631, Sarah 1634, Francis 1636 | John | Unknown | (2/5 names; wrong dates; eight-child family, see Section 8.2) - **Not a match; Candidate C eliminated** |
+| **Aylesbury** | Bucks | John 1638, Sarah 1639, Daniell 1645, Jonathan 1647, Hannah 1653 | John | Alice Oliffe (per 1628 Bierton marriage) | (1/5 names; wrong dates; Candidate A continuing residence to 1650 Walgrave Northants) - **Not a match; Candidate A eliminated** |
 | **Hitcham** | Bucks | Mary 1631 | John | Unknown | (1/5 names; wrong date; single indexed event) - **Low probability; see Section 8 table** |
-| **Eythorne** | Kent | John 1638, Edward 1641 | John | Mary Marsh | (2/5 names; wrong dates; wife Mary; John buried Eythorne 1648) - **Low probability; eliminated** |
-| **Toddington** | Beds | Elizabeth 1625, Anne 1628, John 1630, Audrey 1633 | John | Elizabeth Moreton | (1/5 names; wrong dates; John buried Toddington 1641) - **Low probability; eliminated** |
-| **Ackworth** | Yorks | John Thomas 1637 | John Gurnoe | Mary Burton (per 1636 Ackworth marriage) | (1/5 names but wife is Mary in window; first child is John Thomas not Sarah; no Yorkshire continuation indexed) - **Low probability; see Section 8 table** |
+| **Eythorne** | Kent | John 1638, Edward 1641 | John | Mary Marsh | (2/5 names; wrong dates; wife Mary; John buried Eythorne 1648) - **Not a match; eliminated** |
+| **Toddington** | Beds | Elizabeth 1625, Anne 1628, John 1630, Audrey 1633 | John | Elizabeth Moreton | (1/5 names; wrong dates; John buried Toddington 1641) - **Not a match; eliminated** |
+| **Ackworth** | Yorks | John Thomas 1637 | John Gurnoe | Mary Burton (per 1636 Ackworth marriage) | (1/5 names but wife is Mary in window; first child is John Thomas not Sarah; **Low probability; see Section 8 table** |
 
 The Berkhamsted, Aylesbury, and Eythorne clusters are eliminated as the colonial emigrant on continuing-English-residence grounds (see Section 8). The Hitcham and Ackworth clusters are held at Unlikely on single-event-with-no-continuation reasoning (see Section 8). The colonial John's first three children (Sarah, Mary, Richard) most plausibly sit in an unindexed eastern-England parish marriage and baptism record set; the case file does not treat their absence from indexed collections as eliminating evidence for any specific origin hypothesis.<sup class="fn"><a href="#n97" id="ref-97c">97</a></sup>
 
 ### 6.2 The Peter Naming Gap
 
-Peter is rare first name across the wider Gurney record set under research. Of twelve indexed Peter-Gurney-variant baptisms 1632–1640 across Findmypast UK Parish Baptisms, none was fathered by a John Gurney. The name therefore did not enter the colonial son's branch through any indexed Gurney parallel; the most likely source is Mary's maiden family. Recovering Mary's surname and identifying a Peter in her kin would independently confirm John's origin regardless of his father's identity.<sup class="fn"><a href="#n55" id="ref-55">55</a></sup>
+Peter is a rare first name across the wider Gurney record set under research. Of twelve indexed Peter-Gurney-variant baptisms 1632–1640 across Findmypast UK Parish Baptisms, none was fathered by a John Gurney. The name therefore did not enter the colonial son's branch through any indexed Gurney parallel; the most likely source is Mary's maiden family. Recovering Mary's surname and identifying a Peter in her kin would independently confirm John's origin regardless of his father's identity.<sup class="fn"><a href="#n55" id="ref-55">55</a></sup>
 
 ### 6.3 The Absence of "Francis"
 
-John named no child Francis — the strongest naming-pattern argument against Candidate B. It was commonplace to name a child (typically first born) after a father. Possible explanations: estrangement between father-son; negative associations with the name after Francis's financial ruin; maternal priority (Richard may honor a Ryvett grandfather — Richard Ryvett of Gressenhall); or an earlier child named Francis who died. Or John and his siblings may have been estranged from their father, which could also account for their absence from the 1633 Heralds' Visitation.
+John named no child Francis, the strongest naming-pattern argument against Candidate B. It was commonplace to name a child (typically first born) after a father. Possible explanations: estrangement between father-son; negative associations with the name after Francis's financial ruin; maternal priority (Richard may honor a Ryvett grandfather, Richard Ryvett of Gressenhall); or an earlier child named Francis who died. Or John and his siblings may have been estranged from their father, which could also account for their absence from the 1633 Heralds' Visitation.
 
 
 
@@ -250,66 +291,370 @@ The Pease genealogy identifies Ann as Francis's daughter from his first marriage
 
 This case study also looked at eliminating other John Gurneys who remained in England or otherwise could be removed from candidacy. The following table lists every John Gurney household material to the case, with the strongest reason(s) each is not the Massachusetts emigrant.<sup class="fn"><a href="#n60" id="ref-60">60</a></sup>
 
-| John Gurney | Location | Wife | Status | Primary Elimination Reason |
-|---|---|---|---|---|
-| **Candidate B** <br />(this case file) | East Dereham, Norfolk | Unknown | **PROBABLE (~60%)** | Son of London Merchant Taylor; occupational, geographic, and financial match (see §10). |
-| **Candidate A** | Stewkley to Bierton to Aylesbury to Northamptonshire | **Alice** Oliffe | **ELIMINATED** | Alive in 1653 England; wife Alice Oliffe, not Mary (see section 8.1 below). |
-| **Candidate C** | Berkhamsted, Hertfordshire | Unknown | **ELIMINATED** | Wrong age. Eight-child family; five children mismatch with colonial John Gurney (see section 8.2 below). |
-| **Candidate D** | St Augustine Watling Street and Old Change, London | Unknown | **ELIMINATED** | Continuing London presence: 1638 T.C. Dale return at GBP10 rent and 1662 hearth tax at 1 hearth "poore" (TNA E 179/252/27 rot 21) at the same St Augustine precinct.<sup class="fn"><a href="#n92" id="ref-92a">92</a></sup> <sup class="fn"><a href="#n110" id="ref-110">110</a></sup> |
-| Aylesbury, Bucks (John + Anne Cowheard) | Buckinghamshire | **Anne** Cowheard | **Unlikely (~3%)** | Single indexed event: marriage 1638 at Saint Mary, Aylesbury; no continuation of household indexed and no emigration evidence.<sup class="fn"><a href="#n105" id="ref-105">105</a></sup> |
-| Amersham, Bucks (John + Avis Garter) | Buckinghamshire | **Avis** Garter | **Unlikely (~3%)** | Marriage 7 February 1638 Amersham; single indexed event; no continuation of this couple's household and no emigration evidence.<sup class="fn"><a href="#n94" id="ref-94p">94</a></sup> |
-| Cheddington, Bucks | Buckinghamshire | **Rebecka** Coker (Ivinghoe 1640) | **ELIMINATED** | Continuing Bucks household: Johannes Gurney b.1608, m. Rebecka Coker Ivinghoe 1640, buried Edlesborough 1688 (residence Northall).<sup class="fn"><a href="#n103" id="ref-103">103</a></sup> |
-| Hitcham, Bucks (John) | Buckinghamshire | Unknown | **Unlikely (~2%)** | Single indexed event: Mary Gurny bapt 1631 at Hitcham, father John Gurny; mother and siblings unindexed; no further Hitcham Gurney activity surfaces 1620–1665.<sup class="fn"><a href="#n88" id="ref-88c">88</a></sup> <sup class="fn"><a href="#n107" id="ref-107">107</a></sup> |
-| Norwich (m. 1639) | Norfolk | **Jane** Wright | **Unlikely (~3%)** | Single indexed event: marriage 1639 at Saint Benedict, Norwich; no continuation of a John + Jane Norwich household and no emigration evidence indexed.<sup class="fn"><a href="#n104" id="ref-104">104</a></sup> |
-| Ackworth, Yorkshire | Yorkshire | **Mary** Burton | **Unlikely (~2%)** | John Gurnoe + Mary Burton m. Ackworth 6 June 1636; son John Thomas bapt Ackworth 1637; first child is John Thomas not Sarah; no further indexed Yorkshire Gurnoe activity surfaces.<sup class="fn"><a href="#n93" id="ref-93a">93</a></sup> <sup class="fn"><a href="#n106" id="ref-106">106</a></sup> |
-| Toddington, Beds | Bedfordshire | **Elizabeth** Moreton | **ELIMINATED** | Died in England (buried Toddington September 1641); wife Elizabeth, not Mary; non-matching children.<sup class="fn"><a href="#n90" id="ref-90">90</a></sup> |
-| Winkfield, Berkshire | Berkshire | **Alice / Ellice** | **ELIMINATED** | Died in England (will proved 1682, PROB 11/372/123); yeoman.<sup class="fn"><a href="#n60" id="ref-60c">60</a></sup> |
-| Aylesbury, Bucks (probate) | Buckinghamshire | **Sarah** (probable) | **ELIMINATED** | Died in England (probate sentence PROB 11/337/37).<sup class="fn"><a href="#n60" id="ref-60d">60</a></sup> |
-| Chesham, Bucks (John + Elizabeth) | Buckinghamshire | **Elizabeth** | **ELIMINATED** | Died in England (buried Chesham July 1672 and 11 June 1678); wife Elizabeth (see 8.3). |
-| Cublington, Bucks (John + Mary) | Buckinghamshire | **Mary** | **ELIMINATED** | Alive in 1664 England (son Isaac baptized Cublington); held Stewkley manor by 1687 (see 8.3). |
-| East Claydon, Bucks (John + Elizabeth) | Buckinghamshire | **Elizabeth** | **ELIMINATED** | Died in England (buried East Claydon 17 April 1654); wife Elizabeth (see 8.3). |
-| Haddenham, Bucks (John) | Buckinghamshire | Unknown | **ELIMINATED** | Alive in 1620-1622 England (Haddenham parish baptisms); fathering in 1620 requires a birth by about 1600, while the colonial John was born about 1603 (aged about 50 in 1653), making him only about 17 in 1620 and biologically incompatible with fathering (see 8.3). |
-| Wing, Bucks (John + Anne) | Buckinghamshire | **Anne** | **ELIMINATED** | Alive in 1650-1652 England (Wing parish baptisms); wife Anne (see 8.3). |
-| Maldon, Essex (bachelor) | Essex | (unmarried) | **ELIMINATED** | Alive in 1674 England (Essex hearth tax); bachelor; died in England 1681.<sup class="fn"><a href="#n65" id="ref-65">65</a></sup> |
-| Albury, Herts | Hertfordshire | **Jane** | **ELIMINATED** | Died in England (will proved 1676, PROB 11/335/425); husbandman.<sup class="fn"><a href="#n60" id="ref-60f">60</a></sup> |
-| Eythorne, Kent | Kent | **Mary** Marsh | **ELIMINATED** | Died in England (buried Eythorne 1648); married Eythorne 6 November 1632. |
-| St Botolph Aldgate, London | London | **Mary** | **ELIMINATED** | Died in England (will proved 1666, PROB 11/382/271); merchant.<sup class="fn"><a href="#n60" id="ref-60b">60</a></sup> |
-| St Giles Cripplegate, London (Francis B) | London | - | **ELIMINATED** | Died in England (buried St Giles Cripplegate as an infant aged 2 days, son of Francis B the laceweaver). |
-| St Ann Blackfriars, London (John bapt 1615) | London | - | **ELIMINATED** | FS index reads father as Wm. (William), not P or F. Resolves the case file's earlier "P Gurney" lead. Most plausibly the London William Gurney cluster (Coleman Street area; PROB 11/252/152 barber-chirurgion William, sons John, Abel, Walter). The 1615 baptism date for this John (son of William) is also consistent with the 1636 Newgate apprentice's implied birth year under the two-Johns reading.<sup class="fn"><a href="#n98" id="ref-98a">98</a></sup> |
-| St Giles Cripplegate (Francis Garney joiner) | London | - | **ELIMINATED** | Died in England (buried St Giles Cripplegate December 1640, son of Francis Garney joiner).<sup class="fn"><a href="#n70" id="ref-70">70</a></sup> |
-| Harrow on the Hill / Okington | Middlesex | **Mary** | **ELIMINATED** | Alive in 1669 England (Saint Mary Harrow parish burials of children); wife Mary.<sup class="fn"><a href="#n69" id="ref-69">69</a></sup> |
-| Denton, Norfolk | Norfolk | **Rachell / Rachelle** | **ELIMINATED** | Continuing Denton, Norfolk household 1638–1644: children Mary 1638, Thomas 1639, Sarah 1644.<sup class="fn"><a href="#n87" id="ref-87a">87</a></sup> <sup class="fn"><a href="#n89" id="ref-89a">89</a></sup> |
-| Earsham, Norfolk | Norfolk | **Elizabeth** Singler | **ELIMINATED** | Died in England (will proved 1639).<sup class="fn"><a href="#n60" id="ref-60a">60</a></sup> |
-| Hempnall, Norfolk | Norfolk | Unknown | **ELIMINATED** | Alive in 1640-1641 England (Hempnall parish baptisms of Anna 1640 and Elizabeth 1641; earlier Anna buried Hempnall 6 April 1639).<sup class="fn"><a href="#n87" id="ref-87b">87</a></sup> |
-| Norwich, Saint Peter Mancroft | Norfolk | - | **ELIMINATED** | Died in England (buried Saint Peter Mancroft, Norwich 10 February 1639).<sup class="fn"><a href="#n91" id="ref-91">91</a></sup> |
-| Bury St Edmunds, Suffolk | Suffolk | Unknown (1656 widow burial) | **ELIMINATED** | Continuing Bury household across 1653-1656: John buried 1653, Gurney burial 1655, widow buried 1656. The Bury head was not the colonial John. Bears on Banks's Bury attribution; see §10.2 and §8.5.<sup class="fn"><a href="#n93" id="ref-93b">93</a></sup> |
-| Maldon, Essex (John, bachelor s/o Francis G14) | Essex | (unmarried) | **ELIMINATED** | Bachelor of St Mary's Maldon: 1674 hearth tax on nine hearths; letters of administration granted to brother Thomas Gurney 1681; second son named John in Francis G14's Anne Browning marriage.<sup class="fn"><a href="#n108" id="ref-108a">108</a></sup> |
-| East Chiltington, Sussex | Sussex | Unknown | **ELIMINATED** | Died in England (probate PROB 11/241/246 and PROB 11/242/723); shepherd.<sup class="fn"><a href="#n60" id="ref-60g">60</a></sup> |
-| East Grinstead, Sussex | Sussex | **Dorothy** | **ELIMINATED** | Died in England (will proved 1654, PROB 11/252/319); yeoman.<sup class="fn"><a href="#n60" id="ref-60e">60</a></sup> |
-| Stepney / Wapping, London (Mariner) | Middlesex | **Elizabeth** | **ELIMINATED** | Alive in 1633 England (John Garnes, mariner of "Nere Ye Hermitage," Wapping; son John baptized St John, Wapping, 6 January 1633, mother Elizabeth). Wife Elizabeth, not Mary; mariner trade.<sup class="fn"><a href="#n94" id="ref-94a">94</a></sup> |
-| Stepney, St Dunstan (John + Rose) | Middlesex | **Rose** | **ELIMINATED** | Alive in 1654 England (son John buried St Dunstan, Stepney, 21 January 1654, parents John and Rose Gurney). Wife Rose, not Mary.<sup class="fn"><a href="#n94" id="ref-94b">94</a></sup> |
-| St Gregory by St Paul's, London (licence) | London | **Jane** Underwood | **ELIMINATED** | Trade mismatch (yeoman of St Clement Danes, London) with the colonial tailor; 1626 marriage to Jane Underwood of St Andrew, Holborn.<sup class="fn"><a href="#n94" id="ref-94c">94</a></sup> |
-| St Dunstan in the West, London (Henry's son) | Middlesex | - | **ELIMINATED** | Died in England (infant son of Henry Gurney, buried St Dunstan in the West 26 March 1648). Father Henry Gurney is a separately documented London household; see held-review notes.<sup class="fn"><a href="#n94" id="ref-94d">94</a></sup> |
-| St Olave Old Jewry, London | London | Unknown | **ELIMINATED** | Died in England (Jn Gourny, buried St Olave Old Jewry 1665).<sup class="fn"><a href="#n94" id="ref-94e">94</a></sup> |
-| St Margaret, Westminster | Middlesex | Unknown | **ELIMINATED** | Died in England (John Gurney, buried St Margaret Westminster 11 September 1675).<sup class="fn"><a href="#n94" id="ref-94f">94</a></sup> |
-| Vintry 6th precinct, London (Edward) | London | Unknown | **ELIMINATED** | Edward Gurney, Vintry 6th precinct, 9 hearths, 1662 (TNA E 179/367/8 Part 1, m 16); substantial London merchant household continuing in England.<sup class="fn"><a href="#n110" id="ref-110a">110</a></sup> |
-| All Hallows Staining, London (Richard, wine cooper) | London | Unknown | **ELIMINATED** | Richard Gurney, wine cooper, All Hallows Staining, Elme Chapell Court, 3 hearths, 1666; continuing London residence.<sup class="fn"><a href="#n110" id="ref-110b">110</a></sup> |
-| St Alban Wood Street, London (Christopher) | London | Unknown | **ELIMINATED** | Christopher Gurney, St Alban Wood Street, Hobs Alley, 5 hearths, 1666; forename Christopher; continuing London residence.<sup class="fn"><a href="#n110" id="ref-110c">110</a></sup> |
-| St Bride Fleet Street, London (William, 7 hearths) | London | Unknown | **ELIMINATED** | William Gurny, St Bride Fleet Street, Southside Fleet Street, 7 hearths, 1666, "empty"; continuing London residence household within the London William Gurney cluster (see also Cock & Key Alley William and PROB 11/252/152).<sup class="fn"><a href="#n98" id="ref-98b">98</a></sup> <sup class="fn"><a href="#n110" id="ref-110d">110</a></sup> |
-| Stepney, Shadwell, Middlesex (Edward) | Middlesex | Unknown | **ELIMINATED** | Edward Gurney, Stepney, Hamlet of Shadwell, Cutthroat Lane, 2 hearths, 1666, "Em" (empty); continuing English residence. May be the same person as Vintry 1662 Edward in a downshifted household.<sup class="fn"><a href="#n110" id="ref-110e">110</a></sup> |
-| St Margaret's Westminster (Walter) | Middlesex | Unknown | **ELIMINATED** | Walter Gurney, St Margaret's Westminster, Greene Dragon Court, 1 hearth, 1664; most plausibly the Walter Gurney son of William Gurney in PROB 11/252/152 (see also n98).<sup class="fn"><a href="#n98" id="ref-98c">98</a></sup> <sup class="fn"><a href="#n110" id="ref-110f">110</a></sup> |
-| Lidlington, Beds | Bedfordshire | Unknown | **ELIMINATED** | Died in England (John Gurney "Senr.," buried Lidlington St Margaret 28 February 1674).<sup class="fn"><a href="#n94" id="ref-94g">94</a></sup> |
-| Houghton Regis, Beds | Bedfordshire | **Elizabeth** | **ELIMINATED** | Geographically incompatible with the colonial John's June 1641 Weymouth appearance: John Gurney + Elizabeth m. Houghton Regis All Saints, 23 June 1640/41.<sup class="fn"><a href="#n94" id="ref-94h">94</a></sup> |
-| Norwich, St Michael At Thorn (clergyman) | Norfolk | - | **ELIMINATED** | Died in England (Mr John Girny, occupation Clerke, monumental inscription 17 December 1640, Norwich St Michael At Thorn). Clergyman; no wife or child set in the indexed monumental record.<sup class="fn"><a href="#n94" id="ref-94i">94</a></sup> |
-| Norwich, St Lawrence | Norfolk | Unknown | **ELIMINATED** | Died in England (John Garrne, buried Norwich St Lawrence 27 November 1641).<sup class="fn"><a href="#n94" id="ref-94j">94</a></sup> |
-| Mickfield / Morningthorpe, Suffolk-Norfolk (Garneys gentry) | Suffolk | - | **ELIMINATED** | Garneys gentry: John Garneys gentleman of Mickfield, Suffolk, will 1675 (NCC Wiseman 196); John Garneys son of Charles Garneys, buried Morningthorpe with Fritton, Norfolk, 17 December 1661. Distinct gentry surname; not the Gurney emigrant household.<sup class="fn"><a href="#n94" id="ref-94k">94</a></sup> |
-| Warfield, Berks | Berkshire | - | **ELIMINATED** | Died in England (John Guerne, buried Warfield 1674, son of Francis Guerne). Father Francis, not the colonial John's profile.<sup class="fn"><a href="#n94" id="ref-94l">94</a></sup> |
-| Sulhamstead Bannister, Berks | Berkshire | Unknown | **ELIMINATED** | Alive in 1658 England (John Gurney baptized Sulhamstead Bannister 1658, father John Gurney). Father John of this household was still resident at Sulhamstead in 1658, after the colonial John's June 1641 Weymouth appearance.<sup class="fn"><a href="#n94" id="ref-94m">94</a></sup> |
-| Upton on Severn, Worcs | Worcestershire | Unknown | **ELIMINATED** | Died in England (John Gurney, buried Upton on Severn St Peter & St Paul 19 January 1666). Out of the Norfolk-to-Massachusetts emigration corridor.<sup class="fn"><a href="#n94" id="ref-94n">94</a></sup> |
-| Abthorpe, Northants (labourer) | Northamptonshire | Unknown | **ELIMINATED** | Died in England (John Gurney, labourer, will 1664, Archdeaconry Court of Northampton, Series 4TH, Book 6, fol. 260). Labourer trade; distinct from the Candidate A Northants tenancy at Walgrave.<sup class="fn"><a href="#n94" id="ref-94o">94</a></sup> |
-| **London Merchant Taylor apprentice (Moborne, Worcestershire 1602)** | London | — | **ELIMINATED** | John Gurney son of William, Glover deceased, of "Moborne," Worcestershire, bound 13 September 1602 to James Briggs of Shoe Lane (Merchant Taylor binding-book vol. 3b, no. 852, p. 114). Bound 1602 → would be too old by 1641 Weymouth; father William not Francis; not the Norfolk corridor.<sup class="fn"><a href="#n95" id="ref-95a">95</a></sup> |
-| **London Merchant Taylor apprentice (Aylesbury, Bucks 1655)** | London / Bucks | — | **ELIMINATED** | John Gurny son of John, Ironmonger of Aylesbury, Bucks, bound 30 May 1655 to Alexander Harbin of Gracechurch Street (Merchant Taylor binding-book vol. 14, no. 514, p. 67). Date too late for a 1641 Massachusetts emigrant; same Aylesbury Vale cluster as §8.1 / §8.3.<sup class="fn"><a href="#n95" id="ref-95b">95</a></sup> |
-| **1636 Newgate apprentice (Winthrop/Savage)** | Suffolk → Boston | — | **ELIMINATED** | Implied birth c.1615 (1636 court order, service to age 24). Chronologically incompatible with the colonial John's c.1602/3 (1653 deposition). See §8.5.<sup class="fn"><a href="#n99" id="ref-99a">99</a></sup> |
+<table class="candidates-table">
+<thead>
+<tr><th>John Gurney</th><th>Location</th><th>Wife</th><th>Status</th><th>Primary Elimination Reason</th></tr>
+</thead>
+<tbody>
+<tr class="status-probable">
+  <td><strong>Candidate B</strong> <br>(this case file)</td>
+  <td>East Dereham, Norfolk</td>
+  <td>Unknown</td>
+  <td><span class="badge-probable">PROBABLE (~60%)</span></td>
+  <td>Son of London Merchant Taylor; occupational, geographic, and financial match (see §10).</td>
+</tr>
+<tr>
+  <td><strong>Candidate A</strong></td>
+  <td>Stewkley to Bierton to Aylesbury to Northamptonshire</td>
+  <td><strong>Alice</strong> Oliffe</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Alive in 1653 England; wife Alice Oliffe, not Mary (see section 8.1 below).</td>
+</tr>
+<tr>
+  <td><strong>Candidate C</strong></td>
+  <td>Berkhamsted, Hertfordshire</td>
+  <td>Unknown</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Wrong age. Eight-child family; five children mismatch with colonial John Gurney (see section 8.2 below).</td>
+</tr>
+<tr>
+  <td><strong>Candidate D</strong></td>
+  <td>St Augustine Watling Street and Old Change, London</td>
+  <td>Unknown</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Continuing London presence: 1638 T.C. Dale return at GBP10 rent and 1662 hearth tax at 1 hearth "poore" at the same St Augustine precinct.<sup class="fn"><a href="#n92a" id="ref-92a">92</a></sup> <sup class="fn"><a href="#n110" id="ref-110">110</a></sup></td>
+</tr>
+<tr class="status-unlikely">
+  <td>Aylesbury, Bucks (John + Anne Cowheard)</td>
+  <td>Buckinghamshire</td>
+  <td><strong>Anne</strong> Cowheard</td>
+  <td><span class="badge-unlikely">Unlikely (~3%)</span></td>
+  <td>Single indexed event: marriage 1638 at Saint Mary, Aylesbury; no continuation of household indexed and no emigration evidence.<sup class="fn"><a href="#n105" id="ref-105">105</a></sup></td>
+</tr>
+<tr class="status-unlikely">
+  <td>Amersham, Bucks (John + Avis Garter)</td>
+  <td>Buckinghamshire</td>
+  <td><strong>Avis</strong> Garter</td>
+  <td><span class="badge-unlikely">Unlikely (~3%)</span></td>
+  <td>Marriage 7 February 1638 Amersham; single indexed event; no continuation of this couple's household and no emigration evidence.<sup class="fn"><a href="#n94" id="ref-94p">94</a></sup></td>
+</tr>
+<tr>
+  <td>Cheddington, Bucks</td>
+  <td>Buckinghamshire</td>
+  <td><strong>Rebecka</strong> Coker (Ivinghoe 1640)</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Continuing Bucks household: Johannes Gurney b.1608, m. Rebecka Coker Ivinghoe 1640, buried Edlesborough 1688 (residence Northall).<sup class="fn"><a href="#n103" id="ref-103">103</a></sup></td>
+</tr>
+<tr class="status-unlikely">
+  <td>Hitcham, Bucks (John)</td>
+  <td>Buckinghamshire</td>
+  <td>Unknown</td>
+  <td><span class="badge-unlikely">Unlikely (~2%)</span></td>
+  <td>Single indexed event: Mary Gurny bapt 1631 at Hitcham, father John Gurny; mother and siblings unindexed; no further Hitcham Gurney activity surfaces 1620–1665.<sup class="fn"><a href="#n88" id="ref-88d">88</a></sup> <sup class="fn"><a href="#n107" id="ref-107">107</a></sup></td>
+</tr>
+<tr class="status-unlikely">
+  <td>Norwich (m. 1639)</td>
+  <td>Norfolk</td>
+  <td><strong>Jane</strong> Wright</td>
+  <td><span class="badge-unlikely">Unlikely (~3%)</span></td>
+  <td>Single indexed event: marriage 1639 at Saint Benedict, Norwich; no continuation of a John + Jane Norwich household and no emigration evidence indexed.<sup class="fn"><a href="#n104" id="ref-104">104</a></sup></td>
+</tr>
+<tr class="status-unlikely">
+  <td>Ackworth, Yorkshire</td>
+  <td>Yorkshire</td>
+  <td><strong>Mary</strong> Burton</td>
+  <td><span class="badge-unlikely">Unlikely (~2%)</span></td>
+  <td>John Gurnoe + Mary Burton m. Ackworth 6 June 1636; son John Thomas bapt Ackworth 1637; first child is John Thomas not Sarah; no further indexed Yorkshire Gurnoe activity surfaces.<sup class="fn"><a href="#n93" id="ref-93a">93</a></sup> <sup class="fn"><a href="#n106" id="ref-106">106</a></sup></td>
+</tr>
+<tr>
+  <td>Toddington, Beds</td>
+  <td>Bedfordshire</td>
+  <td><strong>Elizabeth</strong> Moreton</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (buried Toddington September 1641); wife Elizabeth, not Mary; non-matching children.<sup class="fn"><a href="#n90" id="ref-90">90</a></sup></td>
+</tr>
+<tr>
+  <td>Winkfield, Berkshire</td>
+  <td>Berkshire</td>
+  <td><strong>Alice / Ellice</strong></td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (will 1682); yeoman.<sup class="fn"><a href="#n60" id="ref-60c">60</a></sup></td>
+</tr>
+<tr>
+  <td>Aylesbury, Bucks (probate)</td>
+  <td>Buckinghamshire</td>
+  <td><strong>Sarah</strong> (probable)</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (probate sentence).<sup class="fn"><a href="#n60" id="ref-60d">60</a></sup></td>
+</tr>
+<tr>
+  <td>Chesham, Bucks (John + Elizabeth)</td>
+  <td>Buckinghamshire</td>
+  <td><strong>Elizabeth</strong></td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (buried Chesham July 1672 and 11 June 1678); wife Elizabeth (see 8.3).</td>
+</tr>
+<tr>
+  <td>Cublington, Bucks (John + Mary)</td>
+  <td>Buckinghamshire</td>
+  <td><strong>Mary</strong></td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Alive in 1664 England (son Isaac baptized Cublington); held Stewkley manor by 1687 (see 8.3).</td>
+</tr>
+<tr>
+  <td>East Claydon, Bucks (John + Elizabeth)</td>
+  <td>Buckinghamshire</td>
+  <td><strong>Elizabeth</strong></td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (buried East Claydon 17 April 1654); wife Elizabeth (see 8.3).</td>
+</tr>
+<tr>
+  <td>Haddenham, Bucks (John)</td>
+  <td>Buckinghamshire</td>
+  <td>Unknown</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Not the correct age (see §8.3).<sup class="fn"><a href="#n88" id="ref-88e">88</a></sup></td>
+</tr>
+<tr>
+  <td>Wing, Bucks (John + Anne)</td>
+  <td>Buckinghamshire</td>
+  <td><strong>Anne</strong></td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Alive in 1650-1652 England (Wing parish baptisms); wife Anne (see 8.3).</td>
+</tr>
+<tr>
+  <td>Albury, Herts</td>
+  <td>Hertfordshire</td>
+  <td><strong>Jane</strong></td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (will 1676); husbandman.<sup class="fn"><a href="#n60" id="ref-60f">60</a></sup></td>
+</tr>
+<tr>
+  <td>Eythorne, Kent</td>
+  <td>Kent</td>
+  <td><strong>Mary</strong> Marsh</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (buried Eythorne 1648); married Eythorne 6 November 1632.</td>
+</tr>
+<tr>
+  <td>St Botolph Aldgate, London</td>
+  <td>London</td>
+  <td><strong>Mary</strong></td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (will 1666); merchant.<sup class="fn"><a href="#n60" id="ref-60b">60</a></sup></td>
+</tr>
+<tr>
+  <td>St Giles Cripplegate, London (Francis B)</td>
+  <td>London</td>
+  <td>-</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (buried St Giles Cripplegate as an infant aged 2 days, son of Francis B the laceweaver).</td>
+</tr>
+<tr>
+  <td>St Ann Blackfriars, London (John bapt 1615)</td>
+  <td>London</td>
+  <td>-</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Not the correct age (born 1615 vs. 1603).<sup class="fn"><a href="#n98" id="ref-98a">98</a></sup></td>
+</tr>
+<tr>
+  <td>St Giles Cripplegate (Francis Garney joiner)</td>
+  <td>London</td>
+  <td>-</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (buried St Giles Cripplegate December 1640, son of Francis Garney joiner).<sup class="fn"><a href="#n70" id="ref-70">70</a></sup></td>
+</tr>
+<tr>
+  <td>Harrow on the Hill / Okington</td>
+  <td>Middlesex</td>
+  <td><strong>Mary</strong></td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Alive in 1669 England (Saint Mary Harrow parish burials of children); wife Mary.<sup class="fn"><a href="#n69" id="ref-69">69</a></sup></td>
+</tr>
+<tr>
+  <td>Denton, Norfolk</td>
+  <td>Norfolk</td>
+  <td><strong>Rachell / Rachelle</strong></td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Continuing Denton, Norfolk household 1638–1644: children Mary 1638, Thomas 1639, Sarah 1644.<sup class="fn"><a href="#n87" id="ref-87a">87</a></sup> <sup class="fn"><a href="#n89" id="ref-89a">89</a></sup></td>
+</tr>
+<tr>
+  <td>Earsham, Norfolk</td>
+  <td>Norfolk</td>
+  <td><strong>Elizabeth</strong> Singler</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (will proved 1639).<sup class="fn"><a href="#n60" id="ref-60a">60</a></sup></td>
+</tr>
+<tr>
+  <td>Hempnall, Norfolk</td>
+  <td>Norfolk</td>
+  <td>Unknown</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Alive in 1640-1641 England (Hempnall parish baptisms of Anna 1640 and Elizabeth 1641; earlier Anna buried Hempnall 6 April 1639).<sup class="fn"><a href="#n87" id="ref-87b">87</a></sup></td>
+</tr>
+<tr>
+  <td>Norwich, Saint Peter Mancroft</td>
+  <td>Norfolk</td>
+  <td>-</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (buried Saint Peter Mancroft, Norwich 10 February 1639).<sup class="fn"><a href="#n91" id="ref-91">91</a></sup></td>
+</tr>
+<tr>
+  <td>Bury St Edmunds, Suffolk</td>
+  <td>Suffolk</td>
+  <td>Unknown (1656 widow burial)</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Continuing Bury household across 1653-1656: John buried 1653, Gurney burial 1655, widow buried 1656. The Bury head was not the colonial John. Bears on Banks's Bury attribution; see §10.2 and §8.5.<sup class="fn"><a href="#n93" id="ref-93b">93</a></sup></td>
+</tr>
+<tr>
+  <td>Maldon, Essex (John, bachelor s/o Francis G14)</td>
+  <td>Essex</td>
+  <td>(unmarried)</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Bachelor of St Mary's Maldon: 1674 hearth tax on nine hearths; letters of administration granted to brother Thomas Gurney 1681. Bernau documents this as Francis G14's son John from the Anne Browning marriage.<sup class="fn"><a href="#n65" id="ref-65">65</a></sup> <sup class="fn"><a href="#n108" id="ref-108a">108</a></sup></td>
+</tr>
+<tr>
+  <td>East Chiltington, Sussex</td>
+  <td>Sussex</td>
+  <td>Unknown</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (probate); shepherd.<sup class="fn"><a href="#n60" id="ref-60g">60</a></sup></td>
+</tr>
+<tr>
+  <td>East Grinstead, Sussex</td>
+  <td>Sussex</td>
+  <td><strong>Dorothy</strong></td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (will 1654); yeoman.<sup class="fn"><a href="#n60" id="ref-60e">60</a></sup></td>
+</tr>
+<tr>
+  <td>Stepney / Wapping, London (Mariner)</td>
+  <td>Middlesex</td>
+  <td><strong>Elizabeth</strong></td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Alive in 1633 England (John Garnes, mariner of "Nere Ye Hermitage," Wapping; son John baptized St John, Wapping, 6 January 1633, mother Elizabeth). Wife Elizabeth, not Mary; mariner trade.<sup class="fn"><a href="#n94" id="ref-94a">94</a></sup></td>
+</tr>
+<tr>
+  <td>Stepney, St Dunstan (John + Rose)</td>
+  <td>Middlesex</td>
+  <td><strong>Rose</strong></td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Alive in 1654 England (son John buried St Dunstan, Stepney, 21 January 1654, parents John and Rose Gurney). Wife Rose, not Mary.<sup class="fn"><a href="#n94" id="ref-94b">94</a></sup></td>
+</tr>
+<tr>
+  <td>St Gregory by St Paul's, London (licence)</td>
+  <td>London</td>
+  <td><strong>Jane</strong> Underwood</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Trade mismatch (yeoman of St Clement Danes, London) with the colonial tailor; 1626 marriage to Jane Underwood of St Andrew, Holborn.<sup class="fn"><a href="#n94" id="ref-94c">94</a></sup></td>
+</tr>
+<tr>
+  <td>St Dunstan in the West, London (Henry's son)</td>
+  <td>Middlesex</td>
+  <td>-</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (infant son of Henry Gurney, buried St Dunstan in the West 26 March 1648). Father Henry Gurney is a separately documented London household; see held-review notes.<sup class="fn"><a href="#n94" id="ref-94d">94</a></sup></td>
+</tr>
+<tr>
+  <td>St Olave Old Jewry, London</td>
+  <td>London</td>
+  <td>Unknown</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (Jn Gourny, buried St Olave Old Jewry 1665).<sup class="fn"><a href="#n94" id="ref-94e">94</a></sup></td>
+</tr>
+<tr>
+  <td>St Margaret, Westminster</td>
+  <td>Middlesex</td>
+  <td>Unknown</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (John Gurney, buried St Margaret Westminster 11 September 1675).<sup class="fn"><a href="#n94" id="ref-94f">94</a></sup></td>
+</tr>
+<tr>
+  <td>Lidlington, Beds</td>
+  <td>Bedfordshire</td>
+  <td>Unknown</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (John Gurney "Senr.," buried Lidlington St Margaret 28 February 1674).<sup class="fn"><a href="#n94" id="ref-94g">94</a></sup></td>
+</tr>
+<tr>
+  <td>Houghton Regis, Beds</td>
+  <td>Bedfordshire</td>
+  <td><strong>Elizabeth</strong></td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Wife Elizabeth, not Mary. Marriage in c.1640 (Houghton Regis All Saints, 23 June 1640/41).<sup class="fn"><a href="#n94" id="ref-94h">94</a></sup></td>
+</tr>
+<tr>
+  <td>Norwich, St Michael At Thorn (clergyman)</td>
+  <td>Norfolk</td>
+  <td>-</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (Mr John Girny, occupation Clerke, monumental inscription 17 December 1640, Norwich St Michael At Thorn). Clergyman.<sup class="fn"><a href="#n94" id="ref-94i">94</a></sup></td>
+</tr>
+<tr>
+  <td>Norwich, St Lawrence</td>
+  <td>Norfolk</td>
+  <td>Unknown</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (John Garrne, buried Norwich St Lawrence 27 November 1641).<sup class="fn"><a href="#n94" id="ref-94j">94</a></sup></td>
+</tr>
+<tr>
+  <td>Mickfield / Morningthorpe, Suffolk-Norfolk (Garneys gentry)</td>
+  <td>Suffolk</td>
+  <td>-</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England. Garneys gentry (distinct surname): will 1675; buried Morningthorpe with Fritton, Norfolk, 17 December 1661.<sup class="fn"><a href="#n94" id="ref-94k">94</a></sup></td>
+</tr>
+<tr>
+  <td>Warfield, Berks</td>
+  <td>Berkshire</td>
+  <td>-</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (John Guerne, buried Warfield 1674, son of Francis Guerne). Father Francis, not the colonial John's profile.<sup class="fn"><a href="#n94" id="ref-94l">94</a></sup></td>
+</tr>
+<tr>
+  <td>Sulhamstead Bannister, Berks</td>
+  <td>Berkshire</td>
+  <td>Unknown</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Alive in 1658 England (John Gurney baptized Sulhamstead Bannister 1658, father John Gurney). Father John of this household was still resident at Sulhamstead in 1658, after the colonial John's June 1641 Weymouth appearance.<sup class="fn"><a href="#n94" id="ref-94m">94</a></sup></td>
+</tr>
+<tr>
+  <td>Upton on Severn, Worcs</td>
+  <td>Worcestershire</td>
+  <td>Unknown</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (John Gurney, buried Upton on Severn St Peter & St Paul 19 January 1666). Out of the Norfolk-to-Massachusetts emigration corridor.<sup class="fn"><a href="#n94" id="ref-94n">94</a></sup></td>
+</tr>
+<tr>
+  <td>Abthorpe, Northants (labourer)</td>
+  <td>Northamptonshire</td>
+  <td>Unknown</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Died in England (will 1664). Labourer trade; distinct from the Candidate A Northants tenancy at Walgrave.<sup class="fn"><a href="#n94" id="ref-94o">94</a></sup></td>
+</tr>
+<tr>
+  <td>London Merchant Taylor apprentice (Moborne, Worcestershire 1602)</td>
+  <td>London</td>
+  <td>—</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>John Gurney son of William, Glover deceased, of "Moborne," Worcestershire, bound 13 September 1602 to James Briggs of Shoe Lane (Merchant Taylor binding-book vol. 3b, no. 852, p. 114). Bound 1602 → would be too old by 1641 Weymouth; father William not Francis; not the Norfolk corridor.<sup class="fn"><a href="#n95" id="ref-95a">95</a></sup></td>
+</tr>
+<tr>
+  <td>London Merchant Taylor apprentice (Aylesbury, Bucks 1655)</td>
+  <td>London / Bucks</td>
+  <td>—</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>John Gurny son of John, Ironmonger of Aylesbury, Bucks, bound 30 May 1655 to Alexander Harbin of Gracechurch Street (Merchant Taylor binding-book vol. 14, no. 514, p. 67). Date too late for a 1641 Massachusetts emigrant; same Aylesbury Vale cluster as §8.1 / §8.3.<sup class="fn"><a href="#n95" id="ref-95b">95</a></sup></td>
+</tr>
+<tr>
+  <td><strong>1636 Newgate apprentice (Winthrop/Savage)</strong></td>
+  <td>Suffolk → Boston</td>
+  <td>—</td>
+  <td><span class="badge-eliminated">ELIMINATED</span></td>
+  <td>Implied birth c.1615 (1636 court order, service to age 24). Chronologically incompatible with the colonial John's c.1602/3 (1653 deposition). See §8.5.<sup class="fn"><a href="#n99" id="ref-99a">99</a></sup></td>
+</tr>
+</tbody>
+</table>
 
 ### 8.1 Candidate A — Aylesbury hundred Buckinghamshire and Walgrave Northamptonshire
 
@@ -370,19 +715,19 @@ Buckinghamshire contains a dense cluster of other John Gurney households in the 
 
 Aylesbury parish records also show a separately documented Edward Gurny household active in the 1660s, with a son Jon buried 2 February 1665 and a daughter Ann baptized 1666. Edward Gurny is not a John Gurney head of household but is included here because the 1665 burial of a son named Jon has elsewhere been mis-attributed to Candidate A; the burial is of Edward's son, not of Candidate A.<sup class="fn"><a href="#n84" id="ref-84e">84</a></sup> The post-1660 Bucks and Herts John Gurney baptisms at Cublington 1666, Chenies 1644, Stone 1671 and 1673, High Wycombe 1671, Whitchurch 1671, Puttenham 1670, and the Northchurch 1661 probate are bundled here as Aylesbury Vale and Chiltern Gurney household expansion. None is independently a Massachusetts-emigration candidate; they are listed so the case file's Section 8 comparator coverage accounts for them.<sup class="fn"><a href="#n94" id="ref-94cc">94</a></sup>
 
-The Aylesbury Prerogative Court of Canterbury probate records show a further Buckinghamshire family with a Daniel Gurney who died 1669, a brother John, and a wife Sarah (PROB 11/347/122 and PROB 11/337/37). This family is distinct from Candidate A; no probate record directly names Stewkley, Edlesborough, or Alice Oliffe.
+The Aylesbury Prerogative Court of Canterbury probate records show a further Buckinghamshire family with a Daniel Gurney who died 1669, a brother John, and a wife Sarah. This family is distinct from Candidate A; no probate record directly names Stewkley, Edlesborough, or Alice Oliffe.
 
-### 8.4 Candidate D ? London Drapers' / Old Change
+### 8.4 Candidate D - London Drapers' / Old Change
 
-**Candidate D is eliminated.** John Gurney, son and executor of Robert Gurney, citizen and draper of Old Change, London, is documented continuing in London at the same St Augustine Watling Street parish across at least twenty-four years: a 1638 T.C. Dale return entry at GBP10 rent and a 1662 hearth-tax entry at 1 hearth assessed "poore" (TNA E 179/252/27 rotulus 21, "In St Austins precinct," Farringdon Within Ward). The 1662 entry falls in the same calendar year the colonial John of Braintree was dying at Boston about March 1662/3; Candidate D and the colonial John cannot be the same person.<sup class="fn"><a href="#n92" id="ref-92b">92</a></sup> <sup class="fn"><a href="#n110" id="ref-110g">110</a></sup>
+**Candidate D is eliminated.** John Gurney, son and executor of Robert Gurney, citizen and draper of Old Change, London, is documented continuing in London at the same St Augustine Watling Street parish across at least twenty-four years: a 1638 T.C. Dale return entry at GBP10 rent and a 1662 hearth-tax entry at 1 hearth assessed "poore" in the same St Augustine precinct. The 1662 entry falls in the same calendar year the colonial John of Braintree was dying at Boston about March 1662/3; Candidate D and the colonial John cannot be the same person.<sup class="fn"><a href="#n92a" id="ref-92b">92</a></sup> <sup class="fn"><a href="#n110" id="ref-110g">110</a></sup>
 
-He was admitted to the Drapers' Company by redemption on 11 February 1623/4 and proved his father Robert's will on 23 September 1625.<sup class="fn"><a href="#n92" id="ref-92c">92</a></sup> John's father Robert was a Drapers' freeman from 16 December 1581 and described as a tailor at Old Change from his admission; Robert married Anne Morris by licence at St Magnus the Martyr on 4 April 1611, after an earlier wife produced three children at St Augustine in the 1590s.<sup class="fn"><a href="#n92" id="ref-92d">92</a></sup>
+He was admitted to the Drapers' Company by redemption on 11 February 1623/4 and proved his father Robert's will on 23 September 1625. John's father Robert was a Drapers' freeman from 16 December 1581 and described as a tailor at Old Change from his admission; Robert married Anne Morris by licence at St Magnus the Martyr on 4 April 1611, after an earlier wife produced three children at St Augustine in the 1590s.<sup class="fn"><a href="#n92a" id="ref-92c">92</a></sup>
 
-John was admitted to the Drapers' by redemption rather than patrimony, despite Robert's long-standing Drapers' freedom. The cleanest explanation is that John served apprenticeship in a different company before taking up the family business - a 1613 Stationers' record places a John Gurney apprentice to master James Boler with no later Stationers' freedom, and if this is the same John, the 1623/4 Drapers' redemption is the natural consequence.<sup class="fn"><a href="#n92" id="ref-92e">92</a></sup>
+John was admitted to the Drapers' by redemption rather than patrimony, despite Robert's long-standing Drapers' freedom. The cleanest explanation is that John served apprenticeship in a different company before taking up the family business - a 1613 Stationers' record places a John Gurney apprentice to master James Boler with no later Stationers' freedom, and if this is the same John, the 1623/4 Drapers' redemption is the natural consequence.<sup class="fn"><a href="#n92b" id="ref-92d">92b</a></sup>
 
-On 3 November 1630 John bound Henry Smith of Kilton, Suffolk as a Drapers' apprentice for seven years; Smith does not surface as a freed Drapers' Smith 1635-1645, and no Drapers' turnover for any Gurney is recorded 1620-1670. The 1638 St Augustine return placing John at GBP10 rent (alongside Joseph Hunscott at GBP12 in the same parish - the Stationer overseer of Robert's 1625 will, the Robert Gurney will-network still in the same parish thirteen years after Robert's death) and the 1662 hearth-tax entry placing John at 1 hearth "poore" together describe a draper whose fortunes contracted sharply between 1638 and 1662.<sup class="fn"><a href="#n92" id="ref-92f">92</a></sup> <sup class="fn"><a href="#n110" id="ref-110h">110</a></sup>
+On 3 November 1630 John bound Henry Smith of Kilton, Suffolk as a Drapers' apprentice for seven years; Smith does not surface as a freed Drapers' Smith 1635-1645, and no Drapers' turnover for any Gurney is recorded 1620-1670. The 1638 St Augustine return placing John at GBP10 rent (alongside Joseph Hunscott at GBP12 in the same parish - the Stationer overseer of Robert's 1625 will, the Robert Gurney will-network still in the same parish thirteen years after Robert's death) and the 1662 hearth-tax entry placing John at 1 hearth "poore" together describe a draper whose fortunes contracted sharply between 1638 and 1662.<sup class="fn"><a href="#n92b" id="ref-92e">92b</a></sup> <sup class="fn"><a href="#n92c" id="ref-92f">92c</a></sup> <sup class="fn"><a href="#n110" id="ref-110h">110</a></sup>
 
-Robert's will preamble uses Reformed vocabulary ("elect children of God") consistent with a godly-Protestant milieu but too weak to prove nonconformity. No Puritan minister, lecturer, Coleman-Street-network associate, or Massachusetts bridge appears in the Old Change record set. No London-parish marriage of John Gurney to a wife named Mary, and no baptisms of Sarah, Mary, Richard, John, or Peter to a John Gurney + Mary household 1620-1641, have been located; the closest John Gurney + Mary marriage in window (Eythorne, Kent, 6 November 1632 to Mary Marsh) belongs to a Kent couple who stayed in Kent.<sup class="fn"><a href="#n92" id="ref-92g">92</a></sup>
+Robert's will preamble uses Reformed vocabulary ("elect children of God") consistent with a godly-Protestant milieu but too weak to prove nonconformity. No Puritan minister, lecturer, Coleman-Street-network associate, or Massachusetts bridge appears in the Old Change record set. No London-parish marriage of John Gurney to a wife named Mary, and no baptisms of Sarah, Mary, Richard, John, or Peter to a John Gurney + Mary household 1620-1641, have been located; the closest John Gurney + Mary marriage in window (Eythorne, Kent, 6 November 1632 to Mary Marsh) belongs to a Kent couple who stayed in Kent.<sup class="fn"><a href="#n92c" id="ref-92g">92c</a></sup>
 
 ### 8.5 The 1636 Newgate apprentice — a distinct second John, not the Braintree man
 
@@ -415,34 +760,34 @@ The For-and-Against tables below condense the argument; the narrative recap that
 
 ### 10.1 Evidence Summary
 
-#### For Candidate B
+#### Evidence in Support of Candidate B
 
 | # | Evidence | Weight | Explanation |
 |---|----------|--------|--------|
-| 1 | ? Margaret Rybett marriage confirmed | Strong | Francis had a first wife - children from this 1611 marriage are exactly the right generation for the emigrant. |
-| 2 | ? John Gurney baptism record (Francis Gurney) | Moderate-strong | Primary source record of a John born to Francis Gurney in the target community. |
+| 1 | Margaret Rybett marriage confirmed | Strong | Francis had a first wife - children from this 1611 marriage are exactly the right generation for the emigrant. |
+| 2 | John Gurney baptism record (Francis Gurney) | Moderate-strong | Primary source record of a John born to Francis Gurney in the target community. |
 | 3 | Occupation: Merchant Taylor father -> tailor son | Strong | Trades passed through family apprenticeship. Of the named candidates only Candidate D shares a textile-trade link, and D's continuing London residence to 1662 rules him out as the colonial John (see Section 8.4). |
 | 4 | Geography: Norfolk/London = emigrant corridor | Strong | Francis lived in the region that produced the Great Migration - the same counties that sent the most settlers to Massachusetts. |
 | 5 | 1634 forced sale of all lands | Strong | Francis sold everything through the Court of Wards. A son John would have had no inheritance to stay for. |
 | 6 | Puritan uncle Edmund | Strong | Francis's brother was a militant Puritan clergyman - direct family exposure to the religious movement driving emigration. |
 | 7 | Essex social network | Strong (cumulative) | John's colonial world (son-in-law Shed from Essex, landlord Ting/Tyng of Essex-connected property, Braintree MA named for Braintree Essex) maps to Francis's second wife's family connections. Suffolk Deeds adds a specific Braintree leasehold context for John in the Ting/Tyng estate. |
 | 8 | Coleman Street emigrant hub | Strong (context) | Francis's parish adjoined London's most active Puritan emigration center - Davenport, Eaton, and the Hector voyage originated yards from St Benet Fink. |
-| 9 | Francis named a second son John in the Anne Browning marriage (Maldon bachelor, d. 1681) | Moderate | Bernau documents a second John Gurney son of Francis G14, paying 1674 hearth tax on nine hearths at St Mary's Maldon and dying a bachelor 1681. Demonstrates that Francis used the name John for a son in his second marriage; rebuts the inverse of the "no son named Francis" naming-pattern concern.<sup class="fn"><a href="#n108" id="ref-108">108</a></sup> |
+| 9 | Francis named a second son John in the Anne Browning marriage | Moderate | Bernau documents that Francis G14 (d. 1646/7) named a son John in his second marriage to Anne Browning. This son — John of Maldon, distinct from Francis G14 himself — lived continuously at St Mary's Maldon, Essex through 1681 and died a bachelor (1674 hearth tax on nine hearths; letters of administration granted to brother Thomas Gurney 1681). Demonstrates that Francis used the name John for a son in his second marriage; rebuts the inverse of the "no son named Francis" naming-pattern concern.<sup class="fn"><a href="#n108" id="ref-108">108</a></sup> |
 | 10 | Ann Gurney / Gilman connection at Hingham | Moderate | A probable sister to John married into a Norfolk textile family at Hingham - ancient Gurney family territory. Her son emigrated to New England. |
 | 11 | Daniel Gurney hedged on "eldest" | Moderate | Daniel was uncertain whether Roger was truly Francis' firstborn - room for an older, unknown son from the first marriage. |
-| 12 | Pease genealogy claim confirmed | Moderate | The Margaret Ryvett claim, long unverified family tradition, has now been validated by primary source evidence from NRO PD 12/1. Lends credence to other details in the genealogy that align with this case file. |
+| 12 | Pease genealogy claim confirmed | Moderate | The Margaret Ryvett claim, long unverified family tradition, has now been validated by primary source evidence from NRO PD 12/1. Lends credence to other details in the genealogy that align with this case file such as John Gurney's 1610 birth (stated in genealogy and aligns to discovered baptism record). |
 | 13 | William Gurney at Coleman Street | Moderate-suggestive | A Gurney living in the radical Puritan parish next to Francis's own - identity unknown but notable proximity. |
 | 14 | Rivett cluster near East Dereham | Moderate | Margaret's Ryvett family had a documented presence near East Dereham - Richard Ryvett of Gressenhall could be the source of John's son Richard's name. |
 | 15 | Banks placed John in East Anglia | Weak positive | Genealogist Banks pointed to Bury St. Edmunds - possibly the wrong specific person, but the right geographic corridor. |
 | 16 | Child lists not exhaustive | Removes a negative | Daniel Gurney's *Record* (1848) and Bernau's *British Archivist* (1913) both note that the St Benet Fink / Anne Browning child list is fragmentary. Removes the argument-from-silence against an unrecorded first-marriage son.<sup class="fn"><a href="#n30" id="ref-30b">30</a></sup> |
 | 17 | City of London Returns don't survive | Removes a negative | Francis's absence from Protestation Returns is explained by non-survival of City returns, not by his absence. |
-| 18 | American Gurney arms | Weak | A 1926 American biographical entry reports that arms kept by American Gurneys connected them with the Norfolk Gurneys. Supports Candidate B only if an early American object or manuscript witness can be found. |
+| 18 | American Gurney arms | Weak | A 1926 American biographical entry reports that arms kept by American Gurneys connected them with the Norfolk Gurneys. Supports Candidate B only if an early American object or manuscript witness can be found.<sup class="fn"><a href="#n66" id="ref-66">66</a></sup> |
 
-#### Against Candidate B
+#### Evidence Against Candidate B
 
 | # | Evidence | Weight | Explanation |
 |---|----------|--------|--------|
-| 1 | Entry E's c.1609/10 date predates the 1653 deposition's "aged about 50" by 6-8 years | Moderate-strong negative | Wilson v. Faxon (1653) places the colonial John's birth at c.1602/3 (deponent "aged about 50 years"). Entry E reads as a c.1609/10 baptism. If both are correct as written, the East Dereham baby is roughly seven years too young to be the colonial John - surviving the "about 50" testimony only under a wide age-rounding reading or a deponent age error. Paleographic confirmation of the Entry E reading would tighten but not close this gap. |
+| 1 | Entry E's c.1609/10 date predates the 1653 deposition's "aged about 50" by 6-8 years | Moderate-strong negative | Wilson v. Faxon (1653) places the colonial John's birth at c.1602/3 (deponent "aged about 50 years"). Entry E reads as a c.1609/10 baptism. If both are correct as written, the East Dereham baby is roughly seven years too young to be the colonial John - surviving the "about 50" testimony only under a wide age-rounding reading and/or a deponent age exaggeration/boasting. |
 | 2 | No child of John named Francis | Moderate negative | The strongest naming-pattern argument against the hypothesis. |
 | 3 | No record in England of John's marriage to Mary | Moderate negative | A marriage record would significantly strengthen probability. |
 | 4 | Roger called "eldest sonne" in 1633 Visitation | Moderate negative | Visitation recorded only children Francis presented - but the record stands as written. |
@@ -471,7 +816,7 @@ Banks's Bury St Edmunds attribution is consistent with Candidate B rather than r
 | **B — Son of Francis & Margaret Rybett** | **~60%** | Margaret Rybett 1611 Norwich marriage primary; tailor-from-Merchant-Taylor trade match; Norfolk + London corridor (Fischer ~60% MA Bay from 9 eastern counties); Essex colonial associations (Daniel Shed, Tyng leasehold, Coleman Street adjacency); Ann Gurney / Gilman Norfolk-Hingham → MA-Hingham 1638 corridor; Francis Gurney's East Dereham child cluster reinforced by confirmed burial entries for Marye and Agnes and a probable 1633 burial for a younger Francis; Mary Shed's 1647 Braintree marriage bounds Mary Gurney's English birth before 1628; Entry E paleographic reading favors "ffrancis Gurnie."<sup class="fn"><a href="#n101" id="ref-101a">101</a></sup> |
 | **A — Stewkley / Bierton / Aylesbury → Northants** | **ELIMINATED** | Continuous English residence 1603-1653; wife Alice Oliffe; five Aylesbury children 1638-1653; 1641 cert of residence; 1650 Walgrave tenancy. |
 | **C — Berkhamsted, Herts** | **ELIMINATED** | Eight-child Berkhamsted family 1610-1636 fathered by a John born about 1585-1590; Francis son 1636; absent Mary and Peter. |
-| **D ? Son of Robert Gurney, draper of Old Change** | **ELIMINATED** | John Gurney documented at St Augustine Watling Street at GBP10 rent in 1638 (T.C. Dale) and at 1 hearth "poore" in 1662 (TNA E 179/252/27 rot 21), the same year the colonial John was dying at Boston. See Section 8.4. |
+| **D — Son of Robert Gurney, draper of Old Change** | **ELIMINATED** | John Gurney documented at St Augustine Watling Street at GBP10 rent in 1638 (T.C. Dale) and at 1 hearth "poore" in 1662, the same year the colonial John was dying at Boston. See Section 8.4. |
 | **Other named candidates (Unlikely / Lead)** | **~5% combined** | Aylesbury Cowheard groom 1638, Norwich m.1639 Jane Wright groom, Hitcham 1631, Ackworth Mary Burton 1636-1637, and similar single-attestation rows; each is a one-event household with no continuation and no positive emigration linkage to the colonial John. |
 | **Unknown corridor (East Anglia / London)** | **~20%** | Residual for an undiscovered candidate in the dominant emigration corridor. The London Gurney 1662-1666 hearth-tax cluster (eleven Gurney/Gurny households across the City, Westminster, and inner Middlesex) documents a denser London-area Gurney environment than previously surfaced, lifting the unknown-corridor prior. |
 | **Unknown other corridor (Kent, Lincs, West Country)** | **~10%** | Unchanged. |
@@ -528,7 +873,7 @@ Davis, *Ancestry of Abel Lunt* (1963). • Laslett, *World We Have Lost* (1965).
 <ol class="endnotes">
   <li id="n1" value="1">Robert Charles Anderson, <em>The Great Migration Directory: Immigrants to New England, 1620–1640: A Concise Compendium</em>, 2nd ed. (Boston: New England Historic Genealogical Society, 2025), p. 158, entry for John Gurney: origin "Unknown," arrival 1636, settlements Boston and Braintree. Source ID: <code>anderson-gmd-2015</code>. <a class="backref" href="#ref-1">↩</a></li>
   <li id="n2" value="2">Waldo Chamberlain Sprague, <em>Genealogies of the Families of Braintree, Mass., 1640-1850</em> (Boston: New England Historic Genealogical Society, 2001), p. 695, John Gurney entry. Source ID: <code>sprague-braintree</code>. <a class="backref" href="#ref-2">↩</a></li>
-  <li id="n3" value="3">Nathaniel B. Shurtleff, ed., <em>Records of the Governor and Company of the Massachusetts Bay in New England</em>, vol. 1, 1628–1641 (Boston: William White, 1853), p. 331, June 1641 General Court record; cited for John Gurney by Anderson, <em>Great Migration Directory</em>, p. 158. Source ID: <code>anderson-gmd-2015</code>.</li>
+  <li id="n3" value="3">Nathaniel B. Shurtleff, ed., <em>Records of the Governor and Company of the Massachusetts Bay in New England</em>, vol. 1, 1628–1641 (Boston: William White, 1853), p. 331, June 1641 General Court record; cited for John Gurney by Anderson, <em>Great Migration Directory</em>, p. 158. Source ID: <code>anderson-gmd-2015</code>. <a class="backref" href="#ref-3">↩</a></li>
   <li id="n4" value="4">Sprague, <em>Genealogies of the Families of Braintree</em>, p. 695; Anderson, <em>Great Migration Directory</em>, p. 158, entry listing John Gurney with settlements "Boston, Braintree." Source IDs: <code>sprague-braintree</code>; <code>anderson-gmd-2015</code>. <a class="backref" href="#ref-4">↩</a></li>
   <li id="n5" value="5">"Notes: Braintree, Mass., Items," <em>New England Historical and Genealogical Register</em>, vol. 62 (January 1908), p. 94, Suffolk Court Files item no. 188, "John Gurney of Brayntree aged 50 Yeares or therea-abouts," dated 17-1-1652/3, https://archive.org/details/newenglandhisto19unkngoog/page/94/mode/2up. Source ID: <code>nehgr-62-94</code>. <a class="backref" href="#ref-5">↩</a></li>
   <li id="n6" value="6">Braintree (Mass.), <em>Records of the Town of Braintree, 1640 to 1793</em>, ed. Samuel A. Bates (Randolph, Mass.: D. H. Huxford, printer, 1886), p. 638, death entry for Mary Gurney 7th month 20, 1661 (Old Style; 20 September 1661 New Style), <a href="https://archive.org/details/recordsoftownofb00brai">https://archive.org/details/recordsoftownofb00brai</a>; Sprague, <em>Genealogies of the Families of Braintree</em>, p. 695, John Gurney entry, treating Mary's maiden name as unknown. Source IDs: <code>braintree-records-1640-1793-1886</code>; <code>sprague-braintree</code>. <a class="backref" href="#ref-6">↩</a></li>
@@ -573,7 +918,7 @@ Davis, *Ancestry of Abel Lunt* (1963). • Laslett, *World We Have Lost* (1965).
   <li id="n57" value="57">City of London apprenticeship lead: a John Gurney was reportedly apprenticed to the Haberdashers' Company in 1632 per an earlier repo research note. A 2026-05-09 walk of the Findmypast "London Apprenticeship Abstracts, 1442-1850" dataset with surname Gurney and full name variants returned zero results across the entire 1442-1850 span. The repo's original lead therefore does not match this Findmypast dataset and may instead trace to a different printed source, such as Cliff Webb's Haberdashers' apprenticeship register transcripts, or to an indexing under a non-standard surname variant. Treat as an unconfirmed lead pending re-identification of the original source. <a class="backref" href="#ref-57">↩</a></li>
   <li id="n58" value="58">St Ann Blackfriars, City of London, baptism entry dated 13 March 1615, indexed with father as "P Gurney." The original register image has not yet been examined to test whether the initial could instead be "F"; retain as a paleography target only. <a class="backref" href="#ref-58">↩</a></li>
   <li id="n60" value="60">The National Archives, Kew, Prerogative Court of Canterbury wills and probate acts referencing Gurney testators or kin cited under Section 8 elimination rows: PROB 11/241/246 and PROB 11/242/723 (John Gurney, shepherd, East Chilton/East Chiltington, Sussex, mid-1650s); PROB 11/252/152 (William Gurney, sons John, Abell, Walter, London, mid-1650s); PROB 11/252/319 (John Gurney, yeoman, East Grinstead, 24 February 1654/5); PROB 11/335/425 (John Gurney, husbandman, Albury, Hertfordshire, 1676); PROB 11/337/37 (sentence of John Gurney of Aylesbury, Buckinghamshire, later 17th c.); PROB 11/347/122 (Daniell Gurney of Aylesbury, Buckinghamshire, brother John named, 1669); PROB 11/372/123 (John Gurney, yeoman of Winkfield, Berkshire, will 7 November 1682, wife Ellice/Alice, children including Benjamin, Henry, John, Richard, Mary, and Jonathan); PROB 11/382/271 (John Gurney, merchant, St Botolph without Aldgate, will 23 April 1666, declared "upon my voyage for my Native Country England"). Each item independently anchors a separately documented post-1637 English John Gurney household or family-network reference and cannot be the colonial John of Braintree. Source ID: <code>tna-pcc-gurney-elimination-corpus</code>. <a class="backref" href="#ref-60">↩</a> <a class="backref" href="#ref-60a">back</a> <a class="backref" href="#ref-60b">back</a> <a class="backref" href="#ref-60c">back</a> <a class="backref" href="#ref-60d">back</a> <a class="backref" href="#ref-60e">back</a> <a class="backref" href="#ref-60f">back</a> <a class="backref" href="#ref-60g">back</a></li>
-  <li id="n61" value="61">Sprague, <em>Genealogies of the Families of Braintree</em>, p. 695, for John Gurney's New England family framework; National Park Service, <em>Cultural Landscape Report, Adams National Historical Park, Quincy, Massachusetts</em>, for John Gurney's Braintree tenancy in the Tyng property context; Bernau, <em>British Archivist</em> I.7 (September 1913), "His Parentage" and Browning sections, for Anne Browning's Norwich/Maldon family context. The Daniel Shed/Finchingfield and Braintree-Essex place-name elements still need dedicated page-level citations. Source IDs: <code>sprague-braintree</code>; <code>nps-adams-nhp</code>; <code>british-archivist-bernau-1913</code>. <a class="backref" href="#ref-61">↩</a></li>
+  <li id="n61" value="61">Sprague, <em>Genealogies of the Families of Braintree</em>, p. 695, for John Gurney's New England family framework; National Park Service, <em>Cultural Landscape Report, Adams National Historical Park, Quincy, Massachusetts</em>, for John Gurney's Braintree tenancy in the Tyng property context; Bernau, <em>British Archivist</em> I.7 (September 1913), "His Parentage" and Browning sections, for Anne Browning's Norwich/Maldon family context. Source IDs: <code>sprague-braintree</code>; <code>nps-adams-nhp</code>; <code>british-archivist-bernau-1913</code>. <a class="backref" href="#ref-61">↩</a></li>
   <li id="n62" value="62">Protestation Returns, 1641-1642, Parliamentary Archives and London Metropolitan Archives City rolls, searched via Findmypast; Jeremy Gibson and Alan Dell, <em>Protestation Returns 1641-1642, and Other Contemporary Listings</em> (Federation of Family History Societies, 1995; rev. 2004), for county and City survival/coverage; Isabel MacBeath Calder, <em>The New Haven Colony</em> (New Haven: Yale University Press, 1934), St Stephen Coleman Street / Davenport migration context. Source IDs: <code>protestation-returns</code>; <code>gibson-dell-protestation</code>; <code>calder-new-haven-colony-1934</code>. <a class="backref" href="#ref-62">↩</a></li>
   <li id="n64" value="64">Charles Edward Banks, <em>Topographical Dictionary of 2885 English Emigrants to New England, 1620-1650</em>, ed. Elijah Ellsworth Brownell (Philadelphia: Bertram Press, 1937), p. 151, John Gurney entry placing him at Bury St Edmunds, Suffolk, sourced only to "Banks Mss."; see validation note at <code>sources/validations/banks-brownell-1937.md</code> for the limitation. Source ID: <code>banks-brownell-1937</code>. <a class="backref" href="#ref-64">↩</a></li>
   <li id="n65" value="65">Bernau, "Unrecorded Biographies: Francis Gournay (or Gurney), of Maldon, Essex," <em>The British Archivist</em>, vol. I, no. 7 (September 1913), "His Parents' Children" section, item 9, citing Lay Subsidy 246/22 (1674 Hearth Tax) and 1681 administration to brother Thomas; corpus extract at <code>sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md</code>. Source ID: <code>british-archivist-bernau-1913</code>. <a class="backref" href="#ref-65">↩</a></li>
@@ -594,25 +939,27 @@ Davis, *Ancestry of Abel Lunt* (1963). • Laslett, *World We Have Lost* (1965).
   <li id="n80" value="80"><em>The Proprietors' Records of the Town of Mendon, Massachusetts: Incorporated May 15, 1667</em> (Boston: Rockwell and Churchill Press, 1899), pp. 13, 43, 46, 152-153 and related title/boundary entries, <a href="https://archive.org/details/proprietorsrecor00mend">https://archive.org/details/proprietorsrecor00mend</a>. Source ID: <code>mendon-proprietors-records-1899</code>. <a class="backref" href="#ref-80">↩</a></li>
   <li id="n81" value="81">Braintree (Mass.), <em>Records of the Town of Braintree, 1640 to 1793</em>, ed. Samuel A. Bates (Randolph, Mass.: D. H. Huxford, printer, 1886), p. 638, wife-death line dated 7th month 20, 1661, and p. 717, marriage line dated 9th month 12, 1661, <a href="https://archive.org/details/recordsoftownofb00brai">https://archive.org/details/recordsoftownofb00brai</a>. Source ID: <code>braintree-records-1640-1793-1886</code>. The manuscript lead is Braintree Town Clerk, <em>Births, marriages, intentions of marriage, and deaths, 1640-1848 [Braintree, Massachusetts]</em>, FamilySearch catalog no. 399351, film 940974 / DGS 7009769. <a class="backref" href="#ref-81a">back</a> <a class="backref" href="#ref-81b">back</a> <a class="backref" href="#ref-81c">back</a></li>
   <li id="n82" value="82">Phillimore Bucks parish registers, marriages, vol. 1, Edlesborough section, marriage entry "Joh. Gurney &amp; Mary Kidgell" 1661; W. P. W. Phillimore and Thomas M. Blagg, eds., <em>Buckinghamshire Parish Registers: Marriages, Volume I</em> (London: Phillimore &amp; Co., 1902), Internet Archive, <a href="https://archive.org/details/buckinghamshirep01phil">https://archive.org/details/buckinghamshirep01phil</a>. Source ID: <code>phillimore-bucks-marriages-vol1</code>. <a class="backref" href="#ref-82">↩</a></li>
-  <li id="n83" value="83">The National Archives, Kew, E 115/180/113, certificate of residence for John Gurney moving from Aylesbury half-hundred to Northamptonshire, 1641; John Gurney recorded as tenant at Walgrave, Northamptonshire, 1650. The originating Aylesbury parish register, Buckinghamshire, baptism entry for Jonathan Gurney son of John Gurney, 22 November 1647 is recorded in the same foundation research notes. <a class="backref" href="#ref-83">↩</a><a class="backref" href="#ref-83b">back</a></li>
+  <li id="n83" value="83">The National Archives, Kew, E 115/180/113, certificate of residence for John Gurney moving from Aylesbury half-hundred to Northamptonshire, 1641. John Gurney also recorded as tenant at Walgrave, Northamptonshire, 1650. The Aylesbury parish register baptism entry for Jonathan Gurney son of John Gurney, 22 November 1647 is part of the same Candidate A household sequence (see also n85 and n88). <a class="backref" href="#ref-83">↩</a> <a class="backref" href="#ref-83b">back</a></li>
   <li id="n84" value="84">Findmypast Buckinghamshire Marriage Index, Burial Index, and Baptism Index, Centre for Buckinghamshire Studies; subscription pulls executed 2026-05-09. East Claydon burial: GBPRS/BUCKINGHAMSHIRE/BUR record for John Gurney 17 Apr 1654, Bucks Archives PR51/1/1. Chesham burials: D/A/T/42 (Bucks Archives), Jul 1672 and 11 Jun 1678. Aylesbury Edward Gurny burial: B24, 2 Feb 1665. Cublington 1664 Isaac baptisms: Bucks Baptism Index, three index entries, father John mother Mary, Cublington. East Claydon, Chesham, Wing, and Cublington baptisms: Bucks Baptism Index entries linked above. Source IDs: <code>findmypast-bucks-marriage-index</code>, <code>findmypast-bucks-burial-index</code>, <code>findmypast-bucks-baptism-index</code>. <a class="backref" href="#ref-84a">back</a> <a class="backref" href="#ref-84b">back</a> <a class="backref" href="#ref-84c">back</a> <a class="backref" href="#ref-84d">back</a> <a class="backref" href="#ref-84e">back</a></li>
   <li id="n85" value="85">FamilySearch, "England, Births and Christenings, 1538-1975," indexed records for Candidate A: Jhon Gurney, christened 21 Feb 1603, Stewkley, Buckinghamshire, son of Jhon Gurney, FS ID <code>JMRS-DX6</code>, <a href="https://www.familysearch.org/ark:/61903/1:1:JMRS-DX6">https://www.familysearch.org/ark:/61903/1:1:JMRS-DX6</a>; and the Saint Mary Aylesbury Gurney family group: Sarah Gurney bapt. 22 Aug 1639 daughter of John; Daniell Gurney bapt. 26 Dec 1645 son of John, <a href="https://www.familysearch.org/ark:/61903/1:1:JWN5-W5B">https://www.familysearch.org/ark:/61903/1:1:JWN5-W5B</a>; Jonathan Gurney bapt. 22 Nov 1647 son of John, <a href="https://www.familysearch.org/ark:/61903/1:1:JMBC-P2G">https://www.familysearch.org/ark:/61903/1:1:JMBC-P2G</a>; Hannah Gurney bapt. 12 Nov 1653 daughter of John. Source ID: <code>fs-england-births-christenings</code>. Findmypast Buckinghamshire Marriage Index, John Gurney and Alice Oliffe 24 Apr 1628, Bierton with Broughton, Bucks Archives PR16/1/1Q p. 30 (source ID <code>findmypast-bucks-marriage-index</code>). TNA E 115/180/113 and Walgrave Northants 1650 tenancy preserved in <code>research/case-files/Initial foundation work for john-gurney-case-file/Gurney_ProtestationReturns_Analysis.md</code> and <code>Gurney_Research_Findings_V7.md</code> respectively. <a class="backref" href="#ref-85">↩</a></li>
   <li id="n86" value="86">Candidate C: Findmypast Hertfordshire Baptisms search 2026-05-09, surname Gurney with variants, father John with variants, place Berkhamsted, baptism year 1610-1650, returning the eight-child Berkhamsted family group described above; source ID <code>findmypast-hertfordshire-baptisms</code>. Ackworth Yorkshire: the 2026-05-09 FamilySearch Records search and 2026-05-11 web pass returned no primary record at that time; the 2026-05-12 Findmypast England Marriages 1538-1973 and England Births &amp; Baptisms 1538-1975 search surfaced primary index transcripts for the marriage and a Yorkshire child (see n93). Source IDs <code>fs-england-births-christenings</code>, <code>findmypast-ackworth-gurnoe-burton-marriage-1636</code>, <code>findmypast-ackworth-gurnoe-baptism-1637-john-thomas</code>. <a class="backref" href="#ref-86a">back</a> <a class="backref" href="#ref-86b">back</a></li>
   <li id="n87" value="87">Findmypast UK Parish Baptisms, Norfolk-restricted search for Gurney with father John, 1623-1643. <strong>Hempnall parish:</strong> baptisms of Anna Gurney 1640 and Elizabeth Gurney 1641 to a John Gurney father (earlier Anna buried Hempnall 6 April 1639); neither Mary nor Peter appears among the indexed children. Hempnall lies outside the Norfolk Record Office collection (the quarter of Norfolk parishes not covered by NRO), so cross-source verification is unavailable in the present pass. <strong>Denton parish:</strong> baptisms of Mary Gurney 12 August 1638 (FamilySearch ID <code>NNDF-V9K</code>, <a href="https://www.familysearch.org/ark:/61903/1:1:NNDF-V9K">https://www.familysearch.org/ark:/61903/1:1:NNDF-V9K</a>) and Thomas Gurney 24 January 1639, both indexed with father John and mother Rachell; see n89 for the conflicting Norfolk Record Office image-confirmed reading. Source IDs: <code>findmypast-uk-parish-baptisms</code>; <code>fs-england-births-christenings</code>. <a class="backref" href="#ref-87a">back</a> <a class="backref" href="#ref-87b">back</a></li>
-  <li id="n88" value="88">FamilySearch, "England, Births and Christenings, 1538-1975," John Gurney son of John Gurney bapt. 16 December 1638 Aylesbury, Buckinghamshire. Source ID: <code>fs-england-births-christenings</code>. The 16 December 1638 child is treated here as Candidate A's eldest indexed child, ten years after the 1628 Bierton marriage to Alice Oliffe. FamilySearch, "England, Buckinghamshire, Church Records, 1217-1994," Haddenham baptisms: unnamed Gurney child to father John Gurney, 25 February 1620; Joane Gurney to father John Gurney, 26 January 1622, identifying a Buckinghamshire John Gurney household generationally earlier than Candidate A's 1628 marriage. Hitcham 1631 baptism: Mary Gurny baptized 22 January 1631 at Hitcham, Buckinghamshire, father John Gurny, mother unindexed; a single indexed record without indexed siblings. <a class="backref" href="#ref-88a">back</a> <a class="backref" href="#ref-88b">back</a> <a class="backref" href="#ref-88c">back</a></li>
+  <li id="n88" value="88">FamilySearch, "England, Births and Christenings, 1538-1975," John Gurney son of John Gurney bapt. 16 December 1638 Aylesbury, Buckinghamshire. Source ID: <code>fs-england-births-christenings</code>. The 16 December 1638 child is treated here as Candidate A's eldest indexed child, ten years after the 1628 Bierton marriage to Alice Oliffe. FamilySearch, "England, Buckinghamshire, Church Records, 1217-1994," Haddenham baptisms: unnamed Gurney child to father John Gurney, 25 February 1620; Joane Gurney to father John Gurney, 26 January 1622, identifying a Buckinghamshire John Gurney household generationally earlier than Candidate A's 1628 marriage. Hitcham 1631 baptism: Mary Gurny baptized 22 January 1631 at Hitcham, Buckinghamshire, father John Gurny, mother unindexed; a single indexed record without indexed siblings. The 1620 Haddenham fathering is biologically incompatible with the colonial John, who was about 17 then under the 1602/3 birth implied by the 1653 Wilson v. Faxon "aged about 50" deposition; this Haddenham household is generationally earlier than Candidate A's 1628 marriage. <a class="backref" href="#ref-88a">back</a> <a class="backref" href="#ref-88b">back</a> <a class="backref" href="#ref-88c">back</a> <a class="backref" href="#ref-88d">back</a> <a class="backref" href="#ref-88e">back</a></li>
   <li id="n89" value="89">Ancestry, "Norfolk, England, Church of England Baptism, Marriages, and Burials, 1535-1812" (in partnership with the Norfolk Record Office; Ancestry collection 61045). The Denton 12 August 1638 Mary Gurney baptism is image-confirmed in this collection with father Josiah Gurney and mother Rachelle, conflicting with the FamilySearch and Findmypast "John + Rachell" index reading (see n87). Mother name is consistent across all three indexes; father identification is unresolved. If father John, the child dates (Mary 1638, Thomas 1639) fall outside the colonial Mary's likely 1620s birth window. Source ID: <code>ancestry-norfolk-1535-1812</code>. <a class="backref" href="#ref-89a">back</a> <a class="backref" href="#ref-89b">back</a></li>
   <li id="n90" value="90">FamilySearch, "England, Deaths and Burials, 1538-1991," John Gurney burial September 1641, Toddington, Bedfordshire; FamilySearch, "England Marriages, 1538-1973," John Gurnye / Jn Gurney + Elizabeth / Eliz Moreton marriage 12 October 1624, Toddington, Bedfordshire; FamilySearch, "England, Births and Christenings, 1538-1975," Toddington baptisms 1625-1633 (Elizabeth 1625, Anne 1628, John 13 February 1630, Audrey 1633). Source ID: <code>fs-england-births-christenings</code>. <a class="backref" href="#ref-90">↩</a></li>
   <li id="n91" value="91">FamilySearch, "England, Deaths and Burials, 1538-1991," John Gurny burial 10 February 1639, Saint Peter Mancroft, Norwich, Norfolk, with relative field indexed "John Gurny, Marg." (most plausibly the deceased's parents). Source ID: <code>fs-england-births-christenings</code>. <a class="backref" href="#ref-91">↩</a></li>
-  <li id="n92" value="92">Robert Gurney, citizen and draper of London, will written 18 January 1621/2 and proved 23 September 1625, Archdeaconry Court of London; user-supplied image <code>31787_A002570-00422.jpg</code>; Source ID <code>acl-robert-gurney-will-1625</code>. ROLLCO Drapers' Company event DREW5638 (11 February 1623/4, John Gurney new freeman by redemption, Robert Gurney father of freeman); Robert Gurney Drapers' events 1581-1622 including DREW4826, DREB5398, DRLL837, DRHT1669, and DREW7982; John Gurney master event DRLL2060 (3 November 1630, Henry Smith of Kilton, Suffolk, seven-year bond); no Drapers' turnover events involving any Gurney 1620-1670; Source ID <code>rollco-drapers-gurney-old-change-cluster</code>. St Magnus the Martyr marriage register, 4 April 1611, Robert Gourney of St Augustine in Watling Street and Anne Morris of St Michael in the Querne by licence; Source ID <code>lma-st-magnus-martyr-register-candidate-d-images</code>. St Augustine Watling Street parish-register child events 1595-1601; Source ID <code>lma-st-augustine-watling-register-candidate-d-images</code>. ROLLCO Stationers' Company event STMM8981 (25 March 1613, John Gurney apprentice to James Boler, no later Stationers' freedom under Boler); Source ID <code>rollco-stationers-gurney-1613-1626</code>. Joseph Henscott / Hunscott was named overseer in Robert's will; the Stationers' event corpus records Joseph Hunscott 1612-1646 and son John Hunscott admitted Stationer 1641; Joseph Hunscot's 1646 royalist petition is Wing H3728; Source IDs <code>rollco-stationers-hunscott-cluster</code>, <code>arber-stationers-bsoc-petition-1646-hunscott</code>. T. C. Dale, "Inhabitants of London in 1638: St. Augustine," British History Online; the return is a rents/tithe assessment in three manuscript sections, with John Gurney in MS. 67a at £10 and Joseph Huntscott in MS. p. 68 at £12; Source ID <code>bho-london-inhabitants-st-augustine-1638</code>. Boyd's Inhabitants of London card <code>GBOR/BIL/SOG59/0240</code> (John Gurny of S Augustine) reads "1661 poll tax [unclear] Old Change    1638 rent £10"; the likely underlying 1660-1661 poll-tax source is The National Archives E179 series, not yet image-confirmed; Source IDs <code>findmypast-boyds-inhabitants-london-candidate-d-gurney-cards</code>, <code>tna-e179-1661-london-poll-tax-deferred</code>. Robert's will preamble uses the phrase "elect children of God"; the London John + Mary search found no matching London-parish marriage or child set 1620-1641, with the closest in-window match being John Gurney + Mary Marsh at Eythorne, Kent, 6 November 1632; Source ID <code>fs-england-births-christenings</code>. Depth-of-detail analysis: <code>research/people/john-gurney-candidate-d.md</code>. Research companion cross-link: <code>research/people/g13-john-gurney-fact-sheet.research.md</code>. Depth-of-detail file: <code>research/people/john-gurney-candidate-d.md</code> (full Drapers' corpus, Hunscott identity bridge, family reconstruction, and resolution path). <a class="backref" href="#ref-92a">back</a> <a class="backref" href="#ref-92b">back</a> <a class="backref" href="#ref-92c">back</a> <a class="backref" href="#ref-92d">back</a> <a class="backref" href="#ref-92e">back</a> <a class="backref" href="#ref-92f">back</a> <a class="backref" href="#ref-92g">back</a></li>
+  <li id="n92a" value="92">Robert Gurney, citizen and draper of London (St Augustine Watling Street and Old Change), the father of Candidate D John. Robert's will written 18 January 1621/2 and proved 23 September 1625, Archdeaconry Court of London; user-supplied image <code>31787_A002570-00422.jpg</code>; Source ID <code>acl-robert-gurney-will-1625</code>. Robert's Drapers' Company freedom 16 December 1581 (ROLLCO Drapers' event corpus including DREW4826, DREB5398, DRLL837, DRHT1669, DREW7982); described as a tailor at Old Change from his admission; Source ID <code>rollco-drapers-gurney-old-change-cluster</code>. Robert's St Magnus the Martyr marriage to Anne Morris by licence on 4 April 1611 (Source ID <code>lma-st-magnus-martyr-register-candidate-d-images</code>), after an earlier wife produced three children at St Augustine in the 1590s (Source ID <code>lma-st-augustine-watling-register-candidate-d-images</code>). Robert's will preamble uses the phrase "elect children of God" — Reformed-Protestant vocabulary, too weak to prove nonconformity. <a class="backref" href="#ref-92a">↩</a> <a class="backref" href="#ref-92b">back</a> <a class="backref" href="#ref-92c">back</a></li>
+  <li id="n92b" value="92b">Candidate D John Gurney's path into the Drapers' Company. ROLLCO Stationers' Company event STMM8981 (25 March 1613, John Gurney apprentice to James Boler, no later Stationers' freedom under Boler); Source ID <code>rollco-stationers-gurney-1613-1626</code>. ROLLCO Drapers' Company event DREW5638 (11 February 1623/4, John Gurney new freeman by redemption, Robert Gurney father of freeman); proved Robert's will 23 September 1625; John Gurney master event DRLL2060 (3 November 1630, Henry Smith of Kilton, Suffolk, bound seven years); Henry Smith does not surface as a freed Drapers' Smith 1635-1645, and no Drapers' turnover events involving any Gurney 1620-1670. Source ID <code>rollco-drapers-gurney-old-change-cluster</code>. The apprenticeship-via-Stationers-then-Drapers'-redemption reading is consistent with Joseph Hunscott (the Stationer named as overseer in Robert's 1625 will, and the case file's "will-network" bridge) — see also n92c. <a class="backref" href="#ref-92d">back</a> <a class="backref" href="#ref-92e">back</a></li>
+  <li id="n92c" value="92c">Candidate D John Gurney's continuation in London 1638–1662. T.C. Dale, "Inhabitants of London in 1638: St. Augustine," British History Online (Source ID <code>bho-london-inhabitants-st-augustine-1638</code>) — the return is a rents / tithe assessment in three manuscript sections, with John Gurney in MS. 67a at £10 and Joseph Huntscott (the Stationer Joseph Hunscott, 1612-1646 apprentice master, father of John Hunscott Stationer 1641, author of 1646 royalist petition Wing H3728) at £12 in MS. p. 68. The Robert Gurney will-network is still in the same parish thirteen years after Robert's death. Source IDs <code>rollco-stationers-hunscott-cluster</code>, <code>arber-stationers-bsoc-petition-1646-hunscott</code>. Boyd's Inhabitants of London card <code>GBOR/BIL/SOG59/0240</code> (John Gurny of S Augustine) reads "1661 poll tax [unclear] Old Change   1638 rent £10"; Source ID <code>findmypast-boyds-inhabitants-london-candidate-d-gurney-cards</code>. The 1661 poll-tax cue is now corroborated by the 1662 Lady Day hearth-tax entry at the same parish (see n110). No London-parish marriage of John Gurney to a wife named Mary, and no baptisms of Sarah, Mary, Richard, John, or Peter to a John Gurney + Mary household 1620-1641, have been located; the closest John Gurney + Mary marriage in window (Eythorne, Kent, 6 November 1632 to Mary Marsh) belongs to a Kent couple who stayed in Kent. Source ID <code>fs-england-births-christenings</code>. Depth-of-detail file: <code>research/people/john-gurney-candidate-d.md</code>; cross-link summary: <code>research/people/g13-john-gurney-fact-sheet.research.md</code>. <a class="backref" href="#ref-92f">back</a> <a class="backref" href="#ref-92g">back</a></li>
   <li id="n93" value="93">Ackworth, Yorkshire: Findmypast England Marriages 1538-1973 transcript R_855220028 (https://www.findmypast.com/transcript?id=R_855220028&amp;tab=this) for John Gurnoe + Mary Burton, 6 June 1636, Ackworth, Yorkshire; Findmypast England Births &amp; Baptisms 1538-1975 transcript R_948023155 (https://www.findmypast.com/transcript?id=R_948023155&amp;tab=this) for John Thomas Gurnoe, baptized 19 January 1637, Ackworth; source IDs <code>findmypast-ackworth-gurnoe-burton-marriage-1636</code>, <code>findmypast-ackworth-gurnoe-baptism-1637-john-thomas</code>; depth-of-detail file <code>research/people/john-gurnoe-ackworth-yorkshire.md</code>. Bury St Edmunds, Suffolk: Findmypast National Burial Index for England &amp; Wales, three Gurney burials at St Mary, Bury St Edmunds - John Gurney 11 December 1653; unnamed Gurney 6 April 1655; unnamed Gurney 13 May 1656 ("Wife"); source ID <code>findmypast-bury-st-edmunds-st-mary-gurney-burials-1653-1656</code>. Suffolk Record Office Bury branch holds the St Mary parish register (FL 541/4). <a class="backref" href="#ref-93a">back</a> <a class="backref" href="#ref-93b">back</a> <a class="backref" href="#ref-93c">back</a></li>
-  <li id="n94" value="94">Findmypast supplementary same-name sweep, 12 May 2026 raw research batch (`sources/intake/john-gurney-2026May/12May2026-John-Gurney-research-raw.md`). Surname variants Gurney, Gurny, Gourney, Garney, Garnes, Garneys, Garrne, Gernne, Girney, Girny, Guerne, Gourny across England Births & Baptisms 1538-1975; England Deaths & Burials 1538-1991; England Marriages 1538-1973; National Burial Index; Bedfordshire Burials and Baptisms and Marriages; Buckinghamshire Burial Index, Baptism Index, Marriage Index; Berkshire Probate Index; Berkshire Baptisms Index; Britain Marriage Licences; Norfolk Burials, Baptisms, and Monumental Inscriptions 1600-1900s Index; Norfolk Wills & Probate; Hertfordshire Banns & Marriages and Probate Records Index; Yorkshire Burials; Westminster Burials; Northamptonshire And Rutland Probate Index; London Docklands and East End Baptisms. Source ID <code>findmypast-john-gurney-2026may-supplementary-same-name-sweep</code>. Aylesbury area screenshots retained at `sources/intake/john-gurney-2026May/image-2026051208*.png`. Out-of-corridor Yorkshire/Lancashire/Cambs cluster (Calverley 1673 Judith Grune; Rochdale 1669 Susan Grune; Meldreth 1653 John Gorne; Bolton Percy 1637 John Gorme) and London Henry Gurney 1648 St Dunstan in the West infant burial are held in the patchset v38 validation note for future review. <a class="backref" href="#ref-94a">back</a> <a class="backref" href="#ref-94b">back</a> <a class="backref" href="#ref-94c">back</a> <a class="backref" href="#ref-94d">back</a> <a class="backref" href="#ref-94e">back</a> <a class="backref" href="#ref-94f">back</a> <a class="backref" href="#ref-94g">back</a> <a class="backref" href="#ref-94h">back</a> <a class="backref" href="#ref-94i">back</a> <a class="backref" href="#ref-94j">back</a> <a class="backref" href="#ref-94k">back</a> <a class="backref" href="#ref-94l">back</a> <a class="backref" href="#ref-94m">back</a> <a class="backref" href="#ref-94n">back</a> <a class="backref" href="#ref-94o">back</a> <a class="backref" href="#ref-94p">back</a> <a class="backref" href="#ref-94q">back</a> <a class="backref" href="#ref-94r">back</a> <a class="backref" href="#ref-94s">back</a> <a class="backref" href="#ref-94t">back</a> <a class="backref" href="#ref-94u">back</a> <a class="backref" href="#ref-94v">back</a> <a class="backref" href="#ref-94w">back</a> <a class="backref" href="#ref-94x">back</a> <a class="backref" href="#ref-94y">back</a> <a class="backref" href="#ref-94z">back</a> <a class="backref" href="#ref-94aa">back</a> <a class="backref" href="#ref-94bb">back</a> <a class="backref" href="#ref-94cc">back</a></li>
+  <li id="n94" value="94">Findmypast supplementary same-name sweep across surname variants Gurney, Gurny, Gourney, Garney, Garnes, Garneys, Garrne, Gernne, Girney, Girny, Guerne, Gourny across England Births & Baptisms 1538-1975; England Deaths & Burials 1538-1991; England Marriages 1538-1973; National Burial Index; Bedfordshire Burials and Baptisms and Marriages; Buckinghamshire Burial Index, Baptism Index, Marriage Index; Berkshire Probate Index; Berkshire Baptisms Index; Britain Marriage Licences; Norfolk Burials, Baptisms, and Monumental Inscriptions 1600-1900s Index; Norfolk Wills & Probate; Hertfordshire Banns & Marriages and Probate Records Index; Yorkshire Burials; Westminster Burials; Northamptonshire And Rutland Probate Index; London Docklands and East End Baptisms. Source ID <code>findmypast-john-gurney-2026may-supplementary-same-name-sweep</code>. Out-of-corridor Yorkshire/Lancashire/Cambs cluster (Calverley 1673 Judith Grune; Rochdale 1669 Susan Grune; Meldreth 1653 John Gorne; Bolton Percy 1637 John Gorme) and London Henry Gurney 1648 St Dunstan in the West infant burial are held in the patchset v38 validation note for future review. <a class="backref" href="#ref-94a">back</a> <a class="backref" href="#ref-94b">back</a> <a class="backref" href="#ref-94c">back</a> <a class="backref" href="#ref-94d">back</a> <a class="backref" href="#ref-94e">back</a> <a class="backref" href="#ref-94f">back</a> <a class="backref" href="#ref-94g">back</a> <a class="backref" href="#ref-94h">back</a> <a class="backref" href="#ref-94i">back</a> <a class="backref" href="#ref-94j">back</a> <a class="backref" href="#ref-94k">back</a> <a class="backref" href="#ref-94l">back</a> <a class="backref" href="#ref-94m">back</a> <a class="backref" href="#ref-94n">back</a> <a class="backref" href="#ref-94o">back</a> <a class="backref" href="#ref-94p">back</a> <a class="backref" href="#ref-94q">back</a> <a class="backref" href="#ref-94r">back</a> <a class="backref" href="#ref-94s">back</a> <a class="backref" href="#ref-94t">back</a> <a class="backref" href="#ref-94u">back</a> <a class="backref" href="#ref-94v">back</a> <a class="backref" href="#ref-94w">back</a> <a class="backref" href="#ref-94x">back</a> <a class="backref" href="#ref-94y">back</a> <a class="backref" href="#ref-94z">back</a> <a class="backref" href="#ref-94aa">back</a> <a class="backref" href="#ref-94bb">back</a> <a class="backref" href="#ref-94cc">back</a></li>
   <li id="n95" value="95">M. Scott (2024), <em>Merchant Taylors' Company of London: Apprentices 1583-1800</em> [data collection], UK Data Service, SN 9263, DOI <a href="https://doi.org/10.5255/UKDA-SN-9263-1">10.5255/UKDA-SN-9263-1</a>, study catalogue <a href="https://datacatalogue.ukdataservice.ac.uk/studies/study/9263#details">datacatalogue.ukdataservice.ac.uk/studies/study/9263#details</a>. Two-pass surname filter (narrow: Gurney, Gurnay, Gourney, Gournay, Gurnoe, Gurnie, Gurny, Gerney, Girney, Gyrney, plus de Gourn/de Gurn; wider g-vowel-(r/n) fishing pass: Garne, Garneys, Goney) over the COMB, Court Appearances, Redemptions, Patrimony, and Freedoms sheets. The two John Gurneys in the dataset (John Gurney son of William, Glover decd, of Moborne Worcestershire, bound 13 September 1602 to James Briggs of Shoe Lane, volume 3b binding 852 page 114; John Gurny son of John, Ironmonger of Aylesbury Bucks, bound 30 May 1655 to Alexander Harbin of Gracechurch Street, volume 14 binding 514 page 67) are eliminable on parentage and date. The Patrimony sheet (3,391 rows) returns zero Gurney-variant occurrences. Source ID: <code>ukda-9263-mt-apprentices-scott-2024</code>. Full analysis: <code>research/topics/merchant-taylors-1583-1800-gurney-analysis.md</code>; validation: <code>sources/validations/ukda-9263-mt-apprentices-scott-2024.md</code>; cross-extract: <code>sources/media/ukda-9263-merchant-taylors-apprentices/gurney-variants-extract.csv</code>. <a class="backref" href="#ref-95">↩</a> <a class="backref" href="#ref-95a">back</a> <a class="backref" href="#ref-95b">back</a></li>
   <li id="n96" value="96">East Dereham parish-register entries for Francis Gurney G14's children, as indexed at FamilySearch (England, Norfolk, Parish Registers (County Record Office), 1510-1997) and resolved against the underlying register page via a 2026-05-15 image-walk (<code>sources/media/Parish_Register_East_Dereham/page-00725-deep-analysis.md</code>): <code>fs-vnn2-scf-edward-gurney-baptism-east-dereham</code> (Edward, baptism; indexed date 27 May 1610 inherits its year from a modern margin annotation on the page, not from a contemporaneous register heading — the case file's ±2-3 year date margin remains the correct posture); <code>fs-vnn2-wr2-marye-gurney-burial-east-dereham</code> (Marye, burial 25 January, year not in register; "Marye ... of ffrancis Gurny" with relationship word damaged by staining; previously case-file Entry B "Marye c.1614-15," now reclassified as a burial); <code>fs-vnn2-wrg-agnes-gurney-burial-east-dereham</code> (Agnes, burial 31 January, year not in register; FS index reads "Susan" but the underlying register reads "Agnes the daughter of ffrancis Gurny"; previously case-file Entry C "Agnes c.1614," now reclassified as a burial; the Round 2 working hypothesis of a separate daughter Susan is withdrawn); <code>fs-vnn2-h8s-francis-gurney-burial-east-dereham-1633</code> (Francis, burial 8 November 1633, parent not indexed; the "probable son of Francis G14" reading rests on geographic and chronological elimination of competing Francis Gurney identifications and on Francis G14's documented name-reuse for the 1628 St Benet Fink Francis baptism per Bernau, <em>British Archivist</em> I.7, 1913). Validation note <code>sources/validations/fs-east-dereham-francis-gurney-indexed-children.md</code>. <a class="backref" href="#ref-96a">back</a> <a class="backref" href="#ref-96b">back</a> <a class="backref" href="#ref-96c">back</a> <a class="backref" href="#ref-96d">back</a> <a class="backref" href="#ref-96e">back</a></li>
   <li id="n97" value="97">Daniel Shed baptized 25 June 1620 at St John the Baptist, Finchingfield, Essex; first in Braintree, Massachusetts records by 1643; married Mary Gurney 1647 at Braintree. The Braintree Book of Records (Bates, <em>Records of the Town of Braintree</em>, 1886, p. 638 ff.) preserves seven births to Daniel and Mary between 1 October 1647 and 30 October 1658. Standard derivative tradition (Sprague p. 695; <em>History of Weymouth</em> vol. 3 p. 251; Torrey p. 666; Shedd 1920) places Mary's birth at c.1628 in England; even at a minimum reasonable marriage age of 16 she was born by 1631. The John Gurney + Mary marriage therefore took place in England before 1628. FS, Findmypast, and Ancestry indexed eastern-England parish-marriage collections 1620-1635 contain zero John Gurney + Mary marriages outside the already-eliminated Eythorne Kent / Mary Marsh event. The absence is best read as a parish-register coverage gap, not as evidence against an English marriage. Source IDs <code>shedd-daniel-shed-genealogy-1920</code>, <code>braintree-records-1640-1793-1886</code>. <a class="backref" href="#ref-97a">back</a> <a class="backref" href="#ref-97b">back</a> <a class="backref" href="#ref-97c">back</a></li>
-  <li id="n98" value="98">FamilySearch England, Births and Christenings, 1538-1975 index entry for John Gurney, christening 13 March 1615, Saint Ann Blackfriars, London, father Wm. (William) Gurney. FS identifier JW7Y-C3B. Image unavailable in FS at index level. Source ID <code>fs-jw7y-c3b-john-gurney-baptism-st-ann-blackfriars</code>. The 1615 baptism date for this John (son of William) is also consistent with the 1636 Newgate apprentice's implied birth year (29 September 1615) under the case file's two-Johns reading. <a class="backref" href="#ref-98a">back</a> <a class="backref" href="#ref-98b">back</a> <a class="backref" href="#ref-98c">back</a></li>
+  <li id="n98" value="98">FamilySearch England, Births and Christenings, 1538-1975 index entry for John Gurney, christening 13 March 1615, Saint Ann Blackfriars, London, father Wm. (William) Gurney. FS identifier JW7Y-C3B. Image unavailable in FS at index level. Source ID <code>fs-jw7y-c3b-john-gurney-baptism-st-ann-blackfriars</code>. The 1615 baptism date for this John (son of William) is also consistent with the 1636 Newgate apprentice's implied birth year (29 September 1615) under the case file's two-Johns reading. <a class="backref" href="#ref-98a">back</a></li>
   <li id="n99" value="99">John Newgate of Horningsheath, Suffolk (~3 miles south-west of Bury St Edmunds), residing later at Hessett, Bury St Edmunds, and Southwark before emigrating to Boston in 1633: WikiTree profile Newgate-14 (https://www.wikitree.com/wiki/Newgate-14), source ID <code>wikitree-newgate-14-horningsheath</code>, validation note <code>sources/validations/wikitree-newgate-14-horningsheath.md</code>. The 1636 court order requiring Newgate's apprentice John Gurney to serve until age 24, three years from the next 29 September, is recorded in Winthrop/Savage, <em>History of New England from 1630 to 1649</em>, vol. 2 Addenda p. 422 (source ID <code>winthrop-history-new-england-addenda-1636</code>). The American family-memory tradition of a 29 September 1615 birth and Southwark or "Borough of Brent" origin appears across the Lysander F. Gurney sketch (AccessGenealogy transcription of <em>Representative Men and Old Families of Southeastern Massachusetts</em>, 1912; source ID <code>accessgenealogy-lysander-franklin-gurney</code>); <em>American Biography</em> vol. 26 (1926; source ID <code>american-biography-cyclopedia-v26-gurney-1926</code>); and Find a Grave memorial 252975617 (source ID <code>findagrave-john-gurney-252975617</code>). Full deconflation of the Newgate-apprentice tradition from the colonial John of Braintree: <code>research/people/g13-john-gurney-fact-sheet.research.md</code>. <a class="backref" href="#ref-99a">back</a> <a class="backref" href="#ref-99b">back</a></li>
   <li id="n100" value="100">David Hackett Fischer, <em>Albion's Seed: Four British Folkways in America</em> (New York: Oxford University Press, 1989), ch. 6 "Regional Origins of the Puritan Migration"; Roger Thompson, <em>Mobility and Migration: East Anglian Founders of New England, 1629-1640</em> (Amherst: University of Massachusetts Press, 1994). Diligent of Ipswich 1638 passenger list per Charles Edward Banks, <em>Planters of the Commonwealth</em> (Boston, 1930), transcribed by Daniel Cushing (Hingham, MA town clerk) and republished at packrat-pro.com/ships/dilligent.htm; the passenger list contains no Gurney variant. The Edward Gilman group on the Diligent comprised Edward Sr, wife Mary Clark, sons Edward, Moses, and John, daughters Lydia and Sarah, and three servants. John Gilman + Ann Gurney themselves did not emigrate (Ann buried Hingham, Norfolk, 23 November 1651); at least two of their sons emigrated to Exeter, NH (John Gilman Jr born 1638, emigrated by 1658; Charles Gilman born 1642, emigrated 1664 "with his brother John and cousins"). Source IDs <code>fischer-albions-seed-1989</code>, <code>thompson-mobility-migration-1994</code>. <a class="backref" href="#ref-100a">back</a></li>
-  <li id="n101" value="101">Probability range ~65-70% for Candidate B is a Bayesian decomposition: corridor priors (~60% MA Bay emigrants from 9 eastern counties, &lt;10% from London proper) × trade-inheritance multiplier (~2-3x over baseline for tailor-from-Merchant-Taylor lineage given no other eliminated candidate matches this trade) × Margaret Rybett primary-record confirmation multiplier (~1.4x for resolving the multi-generation chronology gap) × Essex colonial-network multiplier (~1.4x for the Shed / Tyng / Coleman Street / Braintree-name cluster) × East Dereham Francis-G14 child cluster reinforcement (Marye + Agnes burial entries primary-record confirmed via FS index VNN2-WR2 and VNN2-WRG; probable 1633 Francis burial via VNN2-H8S), weighted against counter-factors (no indexed John+Mary marriage, ~0.6-0.7x; Roger called "eldest sonne" in 1633/4 Visitation, ~0.7x; no son named Francis or Henry, ~0.9x — qualified by Mary-family-name-dominance refinement). Detailed reasoning at <code>sources/intake/_workspace/round1-scratch/round5-findings.md</code> §D. The case-file's prior point estimate of ~55-60% (v4) reflected the state of evidence before the six-round 2026-05 research pass; the revised range raises Candidate B by ~10 percentage points primarily on the strength of (a) the Newgate Horningsheath finding explaining Banks's BSE attribution, (b) the FS-indexed primary records expanding Francis G14's East Dereham child cluster, and (c) Mary Shed's 1647 marriage tightly bounding the John+Mary marriage to England before 1628 and reframing the indexed-marriage absence as a parish-coverage gap rather than counter-evidence. <a class="backref" href="#ref-101a">back</a></li>
+  <li id="n101" value="101">The ~60% point estimate for Candidate B reflects the combined weight of the supporting evidence in §10.1 against the offsetting concerns in §10.1. Supporting weight: the primary-record-confirmed Margaret Rybett marriage at Norwich in 1611 (NRO PD 12/1, fitting the chronological window for a son born c.1609/10); a tailor-from-Merchant-Taylor trade match consistent with the 17th-century pattern of sons following father into the same trade; placement in the dominant East Anglia → London emigration corridor that produced roughly sixty percent of Massachusetts Bay emigrants in the 1630s; a documented financial motive (the 1634 Court of Wards land sale liquidating Francis's Norfolk and Suffolk holdings); a substantial Essex colonial network on John's Massachusetts side (Daniel Shed of Finchingfield as son-in-law, the William Tyng leasehold in Braintree, the Braintree-Massachusetts/Braintree-Essex name carry-over, Coleman Street parish adjacency to Francis's St Benet Fink); the Ann Gurney / Gilman Norfolk-Hingham → Massachusetts-Hingham emigration corridor; Francis G14's East Dereham child cluster reinforced by primary-record-confirmed burials for Marye and Agnes and a probable 1633 burial for a younger Francis; and Mary Shed's 1647 Braintree marriage bounding her English birth before 1628. Offsetting concerns: the age mismatch between Entry E (c.1609/10) and the 1653 deposition's "aged about 50" (implying birth c.1602/3) — 6 to 8 years that survive only under a wide reading of "about"; the absence of a son named Francis in the colonial John's family — the strongest single naming-pattern concern; the absence of any indexed John+Mary marriage in eastern-England parish-marriage collections 1620-1635 outside the eliminated Eythorne Kent / Mary Marsh event; and common-name density across English parishes 1600-1670, with parish-coverage gaps leaving room for unidentified candidates in the corridor. The 60% estimate is a working summary, not a calculated probability — it is rounded to the nearest 5% and should be read with that precision. <a class="backref" href="#ref-101a">↩</a></li>
   <li id="nA1">Authorial inference, not a sourced finding. The modern-dollar estimate is rough; £1,000 in 1634 has been variously equated to several million pounds sterling in 2020s purchasing-power terms, and Francis's total losses across the King's Lynn venture, the Lestrange bond, and the 1634 land sale together suggest a substantially higher figure. Included as context for father-son dynamics around emigration, not as a genealogical finding. <a class="backref" href="#ref-A1">↩</a></li>
   <li id="n102" value="102">East Dereham paleographic refinement, 2026-05-15. Comprehensive deep-reference at <code>sources/media/Parish_Register_East_Dereham/east-dereham-paleographic-analysis-comprehensive-2026-05-15.md</code>. Topic narrative at <code>research/topics/east-dereham-parish-register-paleography.md</code>. Validation note <code>sources/validations/east-dereham-pd-86-41-register-structure-and-chronology.md</code>. Marye relationship token magnification at <code>sources/media/Parish_Register_East_Dereham/page_00725_marye_relationship_token_magnification_sweep.png</code>; Marye month token magnification at <code>page_00725_marye_month_token_magnification_sweep.png</code>; 00732 Marye Gurnoe line sweep at <code>page_00732_line_margaret_ffrancis_gurnoe_sweep.png</code>; 00735/00736 1620 heading sweeps at <code>page_00735_heading_year_sweep.png</code> and <code>page_00736_marye_1618_source_mismatch_context.png</code>; 00726/00727 1616 heading sweep at <code>page_00726_00727_heading_year_sweep.png</code>. Source IDs <code>fs-vnn2-4vc-marye-gurney-baptism-east-dereham</code> (new in v40), <code>fs-vnn2-wr2-marye-gurney-burial-east-dereham</code> (v39 base; v40 notes-field appendix), <code>fs-vnn2-wrg-agnes-gurney-burial-east-dereham</code> (v39 base; v40 notes-field appendix), <code>fs-vnn2-scf-edward-gurney-baptism-east-dereham</code> (v39 base; v40 notes-field appendix). <a class="backref" href="#ref-102a">back</a> <a class="backref" href="#ref-102b">back</a> <a class="backref" href="#ref-102c">back</a> <a class="backref" href="#ref-102d">back</a></li>
 
@@ -628,7 +975,7 @@ Davis, *Ancestry of Abel Lunt* (1963). • Laslett, *World We Have Lost* (1965).
 
   <li id="n108" value="108">Bernau, Charles A. "Unrecorded Biographies: Francis Gournay (or Gurney), of Maldon, Essex." <em>The British Archivist</em>, vol. I, no. 7 (September 1913), "His Parents' Children" section, item 9: "in 1681 letters of administration of the goods of John GURNEY, of Maldon, a bachelor, were granted to his brother, Thomas GURNEY"; same section, item 9: "in 1674 John GURNEY, of St. Mary's Maldon, paid the tax on nine hearths" (citing Lay Subsidy 246/22). A second son named John in Francis G14's marriage to Anne Browning, born after the 1633/4 Heralds' Visitation, continuing English residence through 1674 and dying a bachelor 1681; independently eliminated as the Massachusetts emigrant by bachelor status and by continuing English residence. Source ID <code>british-archivist-bernau-1913</code>. <a class="backref" href="#ref-108a">back</a> <a class="backref" href="#ref-108">back</a></li>
   <li id="n109" value="109">Joseph W. Porter, <em>A Genealogy of the Descendants of Richard Porter, Who Settled at Weymouth, Mass., 1635, and Allied Families</em> (Bangor [Maine], 1878), p. 225, quoting and glossing the 2 June 1641 General Court fine-remission of John Porter, James Ludden, and John Gurney "for want of gunpowder" with the editorial note "Ludden and Gurney were of Weymouth." Independent secondary attestation of John Gurney at Weymouth in June 1641 alongside the primary record at MBCR 1:331. <a href="https://archive.org/details/genealogyofdesce00port">https://archive.org/details/genealogyofdesce00port</a>. Source ID: <code>porter-genealogy-richard-porter-1878</code>. <a class="backref" href="#ref-109">↩</a></li>
-  <li id="n110" value="110">Mark Merry, London Hearth Tax project database (2010), published online with <em>London Hearth Tax: City of London and Middlesex, 1666</em> (Centre for Metropolitan History, 2011) and <em>London Hearth Tax: Westminster 1664</em> (Centre for Metropolitan History, 2011) at British History Online, <a href="https://www.british-history.ac.uk/london-hearth-tax">https://www.british-history.ac.uk/london-hearth-tax</a>. Strict-Gurney/Gurny entries identified: John Gurney, "In St Austins precinct," Farringdon Within Ward, 1 hearth, 2s due, assessed "poore," 1662 (TNA E 179/252/27 rot 21) - confirmed continuation of the 1638 T.C. Dale St Augustine John (GBP10 rent), Candidate D; Edward Gurney, Vintry 6th precinct, 9 hearths, 1662 (TNA E 179/367/8 Part 1, m 16); Walter Gurney, St Margaret's Westminster, Greene Dragon Court, 1 hearth, 1664; Richard Gurney (wine cooper), All Hallows Staining, Elme Chapell Court, 3 hearths, 1666; Christopher Gurney, St Alban Wood Street, Hobs Alley, 5 hearths, 1666; William Gurny, St Bride Fleet Street, Southside Fleet Street, 7 hearths, 1666 "empty"; William Gurney, St Dunstan in the West, Cock & Key Alley, 3 hearths, 1666; Ann Gurney, St Dunstan in the West, Two Crane Court, 5 hearths, 1666; Richard Gurny, Clerkenwell St James, 1 hearth, 1666 "gone & Em:"; Edward Gurney, Stepney Shadwell, 2 hearths, 1666 "Em"; widow Gurney, Uxbridge, 1 hearth, 1666. Full cluster catalogued at <code>sources/corpus_supplement/london-hearth-tax-1662-1666-gurney-cluster.md</code>. Source ID: <code>bho-london-hearth-tax-merry-2010</code>. <a class="backref" href="#ref-110">↩</a> <a class="backref" href="#ref-110a">back</a> <a class="backref" href="#ref-110b">back</a> <a class="backref" href="#ref-110c">back</a> <a class="backref" href="#ref-110d">back</a> <a class="backref" href="#ref-110e">back</a> <a class="backref" href="#ref-110f">back</a> <a class="backref" href="#ref-110g">back</a> <a class="backref" href="#ref-110h">back</a></li>
+  <li id="n110" value="110">Mark Merry, London Hearth Tax project database (2010), published online with <em>London Hearth Tax: City of London and Middlesex, 1666</em> (Centre for Metropolitan History, 2011) and <em>London Hearth Tax: Westminster 1664</em> (Centre for Metropolitan History, 2011) at British History Online, <a href="https://www.british-history.ac.uk/london-hearth-tax">https://www.british-history.ac.uk/london-hearth-tax</a>. Strict-Gurney/Gurny entries identified: John Gurney, "In St Austins precinct," Farringdon Within Ward, 1 hearth, 2s due, assessed "poore," 1662 (TNA E 179/252/27 rot 21) - confirmed continuation of the 1638 T.C. Dale St Augustine John (GBP10 rent), Candidate D; Edward Gurney, Vintry 6th precinct, 9 hearths, 1662 (TNA E 179/367/8 Part 1, m 16); Walter Gurney, St Margaret's Westminster, Greene Dragon Court, 1 hearth, 1664; Richard Gurney (wine cooper), All Hallows Staining, Elme Chapell Court, 3 hearths, 1666; Christopher Gurney, St Alban Wood Street, Hobs Alley, 5 hearths, 1666; William Gurny, St Bride Fleet Street, Southside Fleet Street, 7 hearths, 1666 "empty"; William Gurney, St Dunstan in the West, Cock & Key Alley, 3 hearths, 1666; Ann Gurney, St Dunstan in the West, Two Crane Court, 5 hearths, 1666; Richard Gurny, Clerkenwell St James, 1 hearth, 1666 "gone & Em:"; Edward Gurney, Stepney Shadwell, 2 hearths, 1666 "Em"; widow Gurney, Uxbridge, 1 hearth, 1666. Full cluster catalogued at <code>sources/corpus_supplement/london-hearth-tax-1662-1666-gurney-cluster.md</code>. Source ID: <code>bho-london-hearth-tax-merry-2010</code>. <a class="backref" href="#ref-110">↩</a> <a class="backref" href="#ref-110g">back</a> <a class="backref" href="#ref-110h">back</a></li>
   <li id="n111" value="111">T.C. Dale, <em>Inhabitants of London in 1638</em> (London: Society of Genealogists, 1931), p. 173 (St Pancras Soper Lane section), "Mr. Gurney" at GBP15 rent. A second 1638 London Gurney inhabitant distinct from the John Gurney at St Augustine Watling Street at GBP10 rent (case file n92); forename indexed only as "Mr.". Identity unresolved; held as an open lead at <code>research/people/g13-john-gurney-fact-sheet.research.md</code>. Source ID: <code>bho-london-inhabitants-st-augustine-1638</code>. <a class="backref" href="#ref-111">↩</a></li>
 </ol>
 

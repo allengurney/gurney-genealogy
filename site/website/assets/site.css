@@ -77,6 +77,15 @@ a:hover{text-decoration:underline}
 .case-page li{margin-bottom:.25rem}
 .case-page blockquote{border-left:3px solid var(--accent);padding:.5rem 1.1rem;margin:1rem 0;background:#fdf3e7;font-style:italic}
 .case-page table{width:100%;border-collapse:collapse;margin:1rem 0 1.3rem;font-size:.88rem;line-height:1.5}
+.case-page table.facts-baseline{table-layout:fixed}
+.case-page table.facts-baseline th:nth-child(1),.case-page table.facts-baseline td:nth-child(1){width:16%}
+.case-page table.facts-baseline th:nth-child(2),.case-page table.facts-baseline td:nth-child(2){width:56%}
+.case-page table.facts-baseline th:nth-child(3),.case-page table.facts-baseline td:nth-child(3){width:28%}
+.case-page table.candidates-table tr.status-probable{background:#e8f1fa}
+.case-page table.candidates-table tr.status-unlikely{background:#f3f7fb}
+.case-page table.candidates-table .badge-probable{color:#1e5b8f;font-weight:700}
+.case-page table.candidates-table .badge-unlikely{color:#2f6fa6;font-weight:700}
+.case-page table.candidates-table .badge-eliminated{color:#6b6358;font-weight:600}
 .case-page th{background:#3d3229;color:#fff;padding:.5rem .65rem;text-align:left;font-family:Arial,Helvetica,sans-serif;font-weight:600;font-size:.8rem;letter-spacing:.03em;text-transform:uppercase}
 .case-page td{padding:.45rem .65rem;border-bottom:1px solid #c8bfb0;vertical-align:top}
 .case-page tr:nth-child(even){background:#f5f1ec}
