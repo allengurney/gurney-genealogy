@@ -40,6 +40,17 @@ This is senior-line place context, not a direct junior Norfolk branch holding. I
 [^gazetteer-wendover]: Samantha Letters et al., *Gazetteer of Markets and Fairs in England and Wales to 1516*, [Buckinghamshire, Wendover entry](https://archives.history.ac.uk/gazetteer/bucks.html#Wen). Source ID: `history-ac-uk-markets-fairs-gazetteer`.
 [^farrer-bucks]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925), Mapledurham section, [HathiTrust extract](https://hdl.handle.net/2027/mdp.39015032992151). Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
 
+## Later Buckinghamshire Gurney records (15th c.)
+
+Two later Buckinghamshire Gurney records carry forward from the senior-baron Wendover/Bledlow cluster into the fifteenth century, well after Hugh V's line ceased to hold the Bray seat. These are county-level collateral records, not extensions of the senior baron line, and they are preserved here as part of Buckinghamshire's distributed Gurney record-presence.
+
+Around 1404 a Feet of Fines entry records the settlement of an action by Richard Gurney and William Gurney against Robert Porter and his wife Christian, deforciants of a messuage, four tofts, eighty-six acres of land, ten acres of meadow, two acres of pasture, and twelve shillings of rent in Stone and Hartwell, Buckinghamshire.[^cp25-1-21-112-richard-william-gurney-stone-hartwell-1404]
+
+On 4 April 1483 John Ingram of Aylesbury and his wife Agnes granted lands, tenements and appurtenances in Aylesbury and Walton, near Aylesbury, to Richard Gourney and John Ingram of North Marston, with John Goodman and Henry Crowlond named as attorneys to deliver possession.[^tna-a2a-705-349-1483-richard-gourney-aylesbury] The Aylesbury connection is suggestive in light of the seventeenth-century Aylesbury Gurney cluster documented in the John Gurney case file (early-Stuart Aylesbury baptisms, marriages, and burials), but no direct descent has been established between the 1483 Richard Gourney and the 1640s-1660s Aylesbury Gurneys; the record is preserved as a continuity flag rather than as proven descent.
+
+[^cp25-1-21-112-richard-william-gurney-stone-hartwell-1404]: Abstract of Feet of Fines entry CP 25/1/21/112, c.1404, Richard Gurney and William Gurney v. Robert Porter and his wife Christian, settlement of an action concerning a messuage, four tofts, eighty-six acres of land, ten acres of meadow, two acres of pasture, and twelve shillings of rent in Stone and Hartwell, Buckinghamshire; published online by Chris Phillips at [www.medievalgenealogy.org.uk](https://www.medievalgenealogy.org.uk/fines/abstracts/CP_25_1_21_112.shtml). Discovered via the girders.net Medieval Gurneys compilation. Source ID: `medievalgenealogy-cp25-1-21-112-stone-hartwell`.
+[^tna-a2a-705-349-1483-richard-gourney-aylesbury]: The National Archives, Access to Archives (A2A) descriptive entry, reference 705:349/12946/495200, grant of 4 April 1483 by John Ingram of Aylesbury and his wife Agnes to Richard Gourney and John Ingram of North Marston, of lands, tenements and appurtenances in Aylesbury and Walton, near Aylesbury; [www.nationalarchives.gov.uk/a2a](https://www.nationalarchives.gov.uk/a2a/). Discovered via the girders.net Medieval Gurneys compilation. Source ID: `tna-a2a-705-349-aylesbury-1483-grant`.
+
 ## Open items
 
 - [ ] Identify the exact Buckinghamshire references underlying the current structured entry.

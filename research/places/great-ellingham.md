@@ -12,7 +12,9 @@ Great Ellingham is not a medieval origin-place of the junior line in the way Har
 
 The place also matters because the record remains unusually traceable after Henry Gurney (G15). Blomefield follows the manor forward through Henry's grandson **Edward Gurney**, then to the younger Henry who died without issue in 1661, and finally out of the surname through **Margaret Gurney Davy** and **Mary Davy Potts**. That makes Great Ellingham one of the clearest places in which the family can be seen both acquiring and eventually losing a manor through female-line succession. [Blomefield]
 
+A 1454 Norwich Consistory Court administration grant names a Thomas Gurnay "of Great Ellingham," more than a century before the documented Lovell inheritance through Margaret Lovell brings the manor into Anthony Gurney's (G17) household.[^nro-aleyn-19-thomas-gurnay-great-ellingham-1454] The Thomas concerned does not match G20 Thomas Gournay II (d.1471, Harpley/West Barsham seat) or G21 Thomas Gournay I (dead before 1444). The record is held here as an open lead for a pre-Lovell Gurney presence in the parish; identity, descent, and possible relationship to the later Lovell-inherited manor are not yet established.
 
+[^nro-aleyn-19-thomas-gurnay-great-ellingham-1454]: Norfolk Record Office, Norwich Consistory Court will register Aleyn, 19, administration of the goods and possessions of Thomas Gurnay of Great Ellingham, 1454. NRO online catalogue: http://nrocat.norfolk.gov.uk. Discovered via the girders.net Medieval Gurneys compilation. Source ID: `nro-ncc-wills-registers`.
 
 ## The Manor (current site)
 
