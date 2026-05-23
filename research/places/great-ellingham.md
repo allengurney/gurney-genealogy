@@ -87,10 +87,10 @@ The East Anglian Archaeology lead is not genealogical evidence, but it is useful
 
 ARCHI UK's search result is only a tertiary lead, but it preserves three useful Domesday-name prompts for later primary-source checking: Great Ellingham as Helincham, Hingham as Haincham, and Attleborough/Attleborough Minor as Atlebur with Baconsthorpe as Baconstorp.[^archiuk-nr17] Those should be verified against OpenDomesday or the Domesday text before becoming canonical place claims.
 
-[^blomefield-great-ellingham]: Francis Blomefield, "Hundred of Shropham: Great Elingham," in *An Essay Towards A Topographical History of the County of Norfolk*, vol. 1 (London, 1805), pp. 482-490, British History Online, https://www.british-history.ac.uk/topographical-hist-norfolk/vol1/pp482-490. Source ID: `blomefield-norfolk`.
-[^great-ellingham-manor-farmhouse]: "An Ornate Timber-Framed Farmhouse in Hingham Road," Great Ellingham local history website, https://greatellingham.org/people/an-ornate-timber-framed-farmhouse-in-hingham-road/. Source ID: `great-ellingham-manor-farmhouse-hingham-road`.
-[^eaa-ellingham-kiln]: Kay Hartley and David Gurney, *A Mortarium Kiln at Ellingham, Norfolk*, East Anglian Archaeology Occasional Paper no. 2 (Norfolk Museums Service, 1997), ADS PDF, https://archaeologydataservice.ac.uk/archiveDS/archiveDownload?t=arch-2304-1/dissemination/pdf/eaa_occ_pap/OCCASIONAL_PAPER_2.pdf. Source ID: `eaa-occasional-paper-2-ellingham-kiln-1997`.
-[^archiuk-nr17]: ARCHI UK, local history and archaeology search results for NR17 1QJ / Attleborough area, https://www.archiuk.com/cgi-bin/archi_new_search_engine.pl?search_location=NR17%201QJ&keyterms=local-history-archaeology&subject=metal-detecting-sites&country=united-kingdom&bot=googlebotsearch&pwd=&search_range=10000. Source ID: `archiuk-attleborough-nr17-domesday-search`.
+[^blomefield-great-ellingham]: Francis Blomefield, ["Hundred of Shropham: Great Elingham,"](https://www.british-history.ac.uk/topographical-hist-norfolk/vol1/pp482-490) in *An Essay Towards A Topographical History of the County of Norfolk*, vol. 1 (London, 1805), pp. 482-490, British History Online. Source ID: `blomefield-norfolk`.
+[^great-ellingham-manor-farmhouse]: ["An Ornate Timber-Framed Farmhouse in Hingham Road,"](https://greatellingham.org/people/an-ornate-timber-framed-farmhouse-in-hingham-road/) Great Ellingham local history website. Source ID: `great-ellingham-manor-farmhouse-hingham-road`.
+[^eaa-ellingham-kiln]: Kay Hartley and David Gurney, *A Mortarium Kiln at Ellingham, Norfolk*, East Anglian Archaeology Occasional Paper no. 2 (Norfolk Museums Service, 1997), [ADS PDF](https://archaeologydataservice.ac.uk/archiveDS/archiveDownload?t=arch-2304-1/dissemination/pdf/eaa_occ_pap/OCCASIONAL_PAPER_2.pdf). Source ID: `eaa-occasional-paper-2-ellingham-kiln-1997`.
+[^archiuk-nr17]: ARCHI UK, [local history and archaeology search results for NR17 1QJ / Attleborough area](https://www.archiuk.com/cgi-bin/archi_new_search_engine.pl?search_location=NR17%201QJ&keyterms=local-history-archaeology&subject=metal-detecting-sites&country=united-kingdom&bot=googlebotsearch&pwd=&search_range=10000). Source ID: `archiuk-attleborough-nr17-domesday-search`.
 
 ## Open items
 
@@ -136,6 +136,6 @@ ARCHI UK's search result is only a tertiary lead, but it preserves three useful 
 - Current-site status updated from unknown using Historic England 1077566 and NHER MNF9108.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->
-[^nher-mnf9108-old-hall]: Norfolk Historic Environment Service, "MNF9108 - Old Hall, Great Ellingham," Norfolk Heritage Explorer, https://www.heritage.norfolk.gov.uk/record-details?MNF9108. Source ID: `nher-mnf9108-old-hall-great-ellingham`.
+[^nher-mnf9108-old-hall]: Norfolk Historic Environment Service, ["MNF9108 - Old Hall, Great Ellingham,"](https://www.heritage.norfolk.gov.uk/record-details?MNF9108) Norfolk Heritage Explorer. Source ID: `nher-mnf9108-old-hall-great-ellingham`.
 
-[^historic-england-old-hall-1077566]: Historic England, "Old Hall Farmhouse," *National Heritage List for England*, List Entry Number 1077566, https://historicengland.org.uk/listing/the-list/list-entry/1077566. Source ID: `historic-england-old-hall-farmhouse-1077566`.
+[^historic-england-old-hall-1077566]: Historic England, ["Old Hall Farmhouse,"](https://historicengland.org.uk/listing/the-list/list-entry/1077566) *National Heritage List for England*, List Entry Number 1077566. Source ID: `historic-england-old-hall-farmhouse-1077566`.

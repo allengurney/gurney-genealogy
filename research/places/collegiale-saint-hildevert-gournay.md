@@ -37,9 +37,9 @@ The church is especially important because the old Gournay stronghold and La Tou
 
 ## Sources
 
-- Normandie Tourisme, “Collégiale Saint-Hildevert,” https://www.normandie-tourisme.fr/sites-lieux-de-visites/collegiale-saint-hildevert/
-- Monumentum / Mérimée-derived notice, “Église Saint-Hildebert à Gournay-en-Bray,” https://monumentum.fr/monument-historique/pa00100676/gournay-en-bray-eglise-saint-hildebert
-- Mondes Normands, “Collégiale Saint-Hildevert de Gournay-en-Bray,” https://mondes-normands.caen.fr/france/patrimoine_architectural/normandie/pays_bray/gournay_en_bray/0708gournay/index.htm
+- Normandie Tourisme, [“Collégiale Saint-Hildevert”](https://www.normandie-tourisme.fr/sites-lieux-de-visites/collegiale-saint-hildevert/)
+- Monumentum / Mérimée-derived notice, [“Église Saint-Hildebert à Gournay-en-Bray”](https://monumentum.fr/monument-historique/pa00100676/gournay-en-bray-eglise-saint-hildebert)
+- Mondes Normands, [“Collégiale Saint-Hildevert de Gournay-en-Bray”](https://mondes-normands.caen.fr/france/patrimoine_architectural/normandie/pays_bray/gournay_en_bray/0708gournay/index.htm)
 
 ## Crosslinks
 

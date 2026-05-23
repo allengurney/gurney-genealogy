@@ -60,7 +60,7 @@ This needs further investigation in the State Papers of Henry VIII (Letters and 
 
 **Genealogical and biographical:**
 - Daniel Gurney, <em>The Record of the House of Gournay</em> (London, 1848), pedigree p. 287, and <em>Supplement to the Record of the House of Gournay</em> (King's Lynn: Thew & Son, 1858), pp. 870 ff. Both digitised on the Internet Archive.
-- Pease/Pennyghael Gurney genealogy (Charles E. G. Pease, 2016), http://www.pennyghael.org.uk/Gurney.pdf.
+- Pease/Pennyghael Gurney genealogy (Charles E. G. Pease, 2016), [Gurney.pdf](http://www.pennyghael.org.uk/Gurney.pdf).
 - W. A. Sessions, <em>Henry Howard, the Poet Earl of Surrey: A Life</em> (Oxford: Oxford University Press, 1999).
 - Eric Ives, <em>The Life and Death of Anne Boleyn</em> (Oxford: Blackwell, 2004) — for the Heydon-Boleyn cousinage.
 - <em>Oxford Dictionary of National Biography</em>, online edition, s.v. "Lovell, Sir Thomas (c. 1449–1524)," and s.v. "Spelman, Sir Henry (1563/4–1641)."

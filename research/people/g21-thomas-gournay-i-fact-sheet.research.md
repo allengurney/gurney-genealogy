@@ -35,6 +35,24 @@ The Watlington branch (from which Catherine came) was a cadet with a difference 
 ### Historical context — Henry V and the Lancastrian zenith
 2026-04-18 — Thomas I's active years (c. 1408–1450) span Henry V's French campaigns (Agincourt 1415, Treaty of Troyes 1420) and Henry VI's minority. No record of Thomas in Crown office, Parliament, or military service. The fact sheet correctly notes he appears to have been "a private Norfolk gentleman consolidating a complicated collateral inheritance."
 
+**2026-05-22 update — military service confirmed.** The previous "no record … of military service" statement is superseded. Two record sets in the AHRC *Soldier in Later Medieval England* database, drawn directly from TNA Exchequer Accounts, place Thomas Gournay I in active military service in France:
+
+1. **1415 — Agincourt campaign, John Holland's retinue under Henry V.**
+   - Thomas Gourney, Man-at-Arms, in the retinue of John Holland (1395–1447, then earl of Huntingdon, later duke of Exeter), serving under Henry V. Retinue roll: TNA E101/45/7, m. 1.[^medievalsoldier-thomas-gournay-1415]
+   - The same individual is mustered as **Thomas Gournay, Man-at-Arms, Esquire** on 14 July 1415[^medievalsoldier-thomas-gournay-1415-muster-date] under the same captain. Muster roll: TNA E101/45/18, m. 2.[^medievalsoldier-thomas-gournay-1415-muster]
+
+2. **1441 — France expedition, John de Vere's retinue under Richard of York.**
+   - Thomas of Gourney, Man-at-Arms, in the retinue of John de Vere (1408–1462, earl of Oxford), serving under Richard of York (1411–1460, duke of York). Retinue roll: TNA E101/53/33, m. 1.[^medievalsoldier-thomas-gournay-1441]
+
+**Identification.** Thomas Gournay I was born c. 1390 (per the fact-sheet timeline), making him approximately 25 at the 1415 muster and approximately 51 at the 1441 muster — both ages consistent with a Man-at-Arms / Esquire serving in the field. The 1415 rank "Esquire" is precisely the rank a Norfolk gentry heir-presumptive would have held while his father Robert (G22) was still living. The Holland affinity in 1415 is consistent with the family's existing Lancastrian client relationship: John Holland's mother Elizabeth of Lancaster was John of Gaunt's daughter, and the Gurneys had been Gaunt clients through Edmund (G23). The Vere–York affinity in 1441 fits the East Anglian gentry military landscape of the period — the de Veres were the leading Essex magnates and recruited heavily from the Norfolk gentry. No other Thomas Gournay/Gurney of comparable rank and East Anglian provenance is known in the period.
+
+**Significance.** The 1415 Agincourt-campaign retinue place in John Holland's company puts Thomas I in the most famous English military engagement of the late medieval period, and means the senior Norfolk Gurney line preserved a real military tradition into the Lancastrian zenith. The 1441 service under Vere/York extends that into the next reign and places him in the orbit of the Duke of York at the start of Richard's first lieutenancy in France — the political ground from which the Wars of the Roses would later grow.
+
+[^medievalsoldier-thomas-gournay-1415]: Thomas Gourney, Man-at-Arms, Expedition, France, in the retinue of John Holland (1395–1447, earl of Huntingdon, later duke of Exeter), commander Henry V (1386–1422); Retinue roll TNA E101/45/7, m. 1, 1415. From the AHRC-funded *Soldier in Later Medieval England Online Database*, [www.medievalsoldier.org](https://www.medievalsoldier.org/), accessed 2026-05-22. Source ID: `medievalsoldier-database`.
+[^medievalsoldier-thomas-gournay-1415-muster-date]: Database entry shows service date "14150714 [?]" — i.e., 14 July 1415, with project-applied uncertainty marker. 14 July 1415 corresponds to the muster of English retinues at Swanwick Heath / Southampton during the gathering of Henry V's invasion force, which sailed from the Solent in August 1415.
+[^medievalsoldier-thomas-gournay-1415-muster]: Thomas Gournay, Man-at-Arms, Esquire, Expedition, France, in the retinue of John Holland (as above), commander Henry V; Muster Roll TNA E101/45/18, m. 2, 14 July 1415. From the AHRC-funded *Soldier in Later Medieval England Online Database*, [www.medievalsoldier.org](https://www.medievalsoldier.org/), accessed 2026-05-22. Source ID: `medievalsoldier-database`.
+[^medievalsoldier-thomas-gournay-1441]: Thomas of Gourney, Man-at-Arms, Expedition, France, in the retinue of John de Vere (1408–1462, earl of Oxford), commander Richard of York (1411–1460, duke of York); Retinue roll TNA E101/53/33, m. 1, 1441. From the AHRC-funded *Soldier in Later Medieval England Online Database*, [www.medievalsoldier.org](https://www.medievalsoldier.org/), accessed 2026-05-22. Source ID: `medievalsoldier-database`.
+
 ### Nine-manor portfolio
 2026-04-18 — The existing companion documents Thomas I's inheritance as approximately nine manors across Norfolk and Suffolk. The IPM of Sir John (DG-Supp Note 121) shows all lands were in feoffees' hands, complicating the transfer. Whether Thomas I had difficulty establishing his claim to the full portfolio is unknown but plausible — the feoffee mechanism could have created friction with a collateral heir.
 
@@ -62,6 +80,7 @@ The Watlington branch (from which Catherine came) was a cadet with a difference 
 2. **Keswick glass:** Does the Gurney-impales-Kerville glass at Keswick survive? DG says it shows Kerville *without difference*, suggesting the senior branch. This complicates the Watlington attribution.
 3. **Thomas I's death date:** Not established. He was succeeded by Thomas II (fl. c. 1430–d. 1471). Death c. 1440–1450?
 4. **DG-Supp Note 123 fine between Boking and Thomas Gurnay (p. 385):** DG says this fine was "probably" with Thomas II and Margaret Jernegan, not Thomas I, and that Thomas I "was dead before 1444, the date of the fine." This gives an approximate terminus ante quem.
+5. **Underlying muster rolls TNA E101/45/7, E101/45/18, E101/53/33:** Direct pulls of the original rolls would add detail beyond the database index — e.g. the full Latin clauses, neighbouring names in the retinue, and any wage and equipment particulars — but are not required to establish the identification.
 
 ---
 
@@ -71,6 +90,7 @@ The Watlington branch (from which Catherine came) was a cadet with a difference 
 - DG-Supp, Note 121 (pp. 793–794): Sir John d.1408 IPM — collateral succession proved. [DG-Supp]
 - DG-Supp, Note 123 (pp. 794–796): Catherine Kerville identity — four reasons supporting "Catharine" not "Margaret." Keswick glass complication. Delisle negative on Norman Kervilles. Kerville pedigree reprinted. [DG-Supp]
 - History of Parliament Online: Sir John Gurney d. 1408 — Thomas I's succession documented. [HoP]
+- *Soldier in Later Medieval England Online Database* (AHRC, Bell/Curry/King/Simpkin): G21 entries 1415 (Holland retinue, Henry V; TNA E101/45/7, m. 1 and E101/45/18, m. 2) and 1441 (Vere/York retinue; TNA E101/53/33, m. 1). See `medievalsoldier-database` in `data/sources.json`. [medievalsoldier-database]
 
 ---
 

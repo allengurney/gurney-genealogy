@@ -12,7 +12,7 @@ G12,ancestor,Richard Gurney,c. 1630 England -- d. Oct. 1691,ancestor-g12-richard
 G13,ancestor,John Gurney,b. c. 1609-12 -- d. 1662/3,ancestor-g13-john-gurney-1,LT9Z-KQ1,https://www.familysearch.org/tree/person/details/LT9Z-KQ1,,FS shows birth 1603 (outdated; repo standing-fact #6: revised to c.1609-12)
 G14,ancestor,Francis Gurney,13 Sept. 1581 -- d. 9 Jan. 1646/7,ancestor-g14-francis-gurney,LC5Y-4HQ,https://www.familysearch.org/tree/person/details/LC5Y-4HQ,,FS shows death 1640 (incorrect; repo standing-fact #1: died 9 Jan 1646/7)
 G14,related,Edmund Gurney (Puritan Divine),1577-1648,collateral-g14-edmund-gurney-divine,,,,not yet collected
-G15,ancestor,Henry Gurney,21 Jan. 1548/9 (OS) -- d. 1615/16 (will proved 1623),ancestor-g15-henry-gurney,MDR8-PDR,https://www.familysearch.org/tree/person/details/MDR8-PDR,,FS death 1623 = will-proved date; repo: died 1615/16
+G15,ancestor,Henry Gurnay,21 Jan. 1548/9 (OS) -- d. 1615/16 (will proved 1623),ancestor-g15-henry-gurney,MDR8-PDR,https://www.familysearch.org/tree/person/details/MDR8-PDR,,FS death 1623 = will-proved date; repo: died 1615/16
 G16,ancestor,Francis Gurney,20 Aug. 1521 -- d. before 4 Jan. 1555/6,ancestor-g16-francis-gurney,G521-C8Q,https://www.familysearch.org/tree/person/details/G521-C8Q,,FS death 1571 incorrect; repo: vita patris died before 4 Jan 1555/6
 G17,ancestor,Anthony Gurney,b. c. 1499 -- d. 4 Jan. 1555/6,ancestor-g17-anthony-gurney,GV9D-VD2,https://www.familysearch.org/tree/person/details/GV9D-VD2,,clean match
 G17,related,Queen Anne Boleyn,c. 1501 -- 19 May 1536,collateral-g17-queen-anne-boleyn,,,,not yet collected
@@ -21,7 +21,7 @@ G19,ancestor,William Gurney IV,b. c. 1440-1450 -- d. 18 Jan. 1507/8,ancestor-g19
 G20,ancestor,Thomas Gournay II,fl. c. 1430 -- d. 1471,ancestor-g20-thomas-gournay-ii,9ZHT-HRP,https://www.familysearch.org/tree/person/details/9ZHT-HRP,,clean match
 G21,ancestor,Thomas Gournay I,fl. c. 1408 -- d. before 1444,ancestor-g21-thomas-gournay-i,KZ74-PR6,https://www.familysearch.org/tree/person/details/KZ74-PR6,,FS death 1465 conflicts with repo (before 1444); verify identity
 G22,ancestor,Robert Gournay,fl. c. 1370-1420,ancestor-g22-robert-gournay,K8QC-7LY,https://www.familysearch.org/tree/person/details/K8QC-7LY,,FS birth 1355 a bit early vs repo fl. 1370-1420
-G23,ancestor,Edmund Gurney,d. 1387,ancestor-g23-edmund-gurney,K8MR-TT8,https://www.familysearch.org/tree/person/details/K8MR-TT8,,clean match (death 1387)
+G23,ancestor,Edmund Gournay,d. 1387,ancestor-g23-edmund-gurney,K8MR-TT8,https://www.familysearch.org/tree/person/details/K8MR-TT8,,clean match (death 1387); display name updated from Gurney to Gournay 2026-05-21 to align with G22/G24 documentary forms (Blomefield contemporary 'Edm. Gournay'); recordId/URL slug intentionally retained as 'edmund-gurney' to keep published URL stable
 "G23",related,"Sir John Gurney, Knt. (d.1408) -- Related",d. 1408,collateral-g23-sir-john-gurney-knt-d-1408-collateral,,,,not yet collected
 G24,ancestor,John de Gournay IV,fl. c. 1330-1370,ancestor-g24-john-de-gournay-iv,,,,NOT FOUND on FS -- FS tree skips this generation between Edmund G23 and John III G25
 G25,ancestor,John de Gournay III,fl. c. 1300-1353,ancestor-g25-john-de-gournay-iii,9ZH8-98D,https://www.familysearch.org/tree/person/details/9ZH8-98D,,FS labels as 'John III' born 1300; matches repo G25 by name+date though FS links directly from Edmund (skipping repo G24)

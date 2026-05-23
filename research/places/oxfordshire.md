@@ -12,8 +12,8 @@ The Bardolf succession is exact enough to retain. Matilda, late wife of Hugh de 
 
 This belongs in the Oxfordshire place file as collateral senior-line inheritance geography. It should not be used to alter the direct junior Norfolk branch unless a primary record is later added.
 
-[^camden-mapledurham]: "Preface and Addenda," *Camden Old Series*, Cambridge Core, https://www.cambridge.org/core/journals/camden-old-series/article/abs/preface-and-addenda/9ECB73C6D0A44B4E1340ED99760B58C2. Source ID: `cambridge-core-camden-preface-addenda`.
-[^farrer-mapledurham]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925), Mapledurham section, HathiTrust extract, https://hdl.handle.net/2027/mdp.39015032992151. Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
+[^camden-mapledurham]: ["Preface and Addenda,"](https://www.cambridge.org/core/journals/camden-old-series/article/abs/preface-and-addenda/9ECB73C6D0A44B4E1340ED99760B58C2) *Camden Old Series*, Cambridge Core. Source ID: `cambridge-core-camden-preface-addenda`.
+[^farrer-mapledurham]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925), Mapledurham section, [HathiTrust extract](https://hdl.handle.net/2027/mdp.39015032992151). Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
 
 <!-- GENERATED:PLACE-REGISTRY:START -->
 ## Place registry

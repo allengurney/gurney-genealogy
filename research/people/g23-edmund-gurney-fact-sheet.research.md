@@ -1,4 +1,4 @@
-# Edmund Gurney (G23) — Research Companion
+# Edmund Gournay (G23) — Research Companion
 
 Research companion for `g23-edmund-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
@@ -8,7 +8,7 @@ Research companion for `g23-edmund-gurney-fact-sheet.md`. See AI-Rules.md §3 fo
 
 ### Will details from DG-II p. 363 (added 2026-04-16 from chat bcb40001)
 
-The will of Edmund Gurney is dated more precisely than the fact sheet captures:
+The will of Edmund Gournay is dated more precisely than the fact sheet captures:
 
 - **Will date:** "Thursday the feast of the Ascension of our Lord in that year" (1387)
 - **Burial directive:** "his body to be buried in the church of the Assumption of the blessed Virgin in that town [West Barsham]"
@@ -46,7 +46,7 @@ DG's commentary: "This will, not being in the first person, must be considered n
 This places Edmund in elite Norfolk gentry company — the Calthorpes, Hales, and Sheltons were among the leading families of late 14th-century Norfolk.
 
 ### Feltwell and Mundford trusts (DG-Supp Note 117)
-2026-04-18 — Close Rolls, 5 Richard II (1382): John de Plays, knight, gave to a group of trustees including Edmund Gurney the manor of Feltwell in Norfolk and the manor of Mundford with the advowson. The co-trustees: William de Beauchamp, John Marmyon, John de Burgh, Stephen de Hales (all knights). This confirms Edmund's role as a legal trustee for major Norfolk landholders.
+2026-04-18 — Close Rolls, 5 Richard II (1382): John de Plays, knight, gave to a group of trustees including Edmund Gournay the manor of Feltwell in Norfolk and the manor of Mundford with the advowson. The co-trustees: William de Beauchamp, John Marmyon, John de Burgh, Stephen de Hales (all knights). This confirms Edmund's role as a legal trustee for major Norfolk landholders.
 
 DG-Supp Note 117 also notes the Saxthorpe (Loundhall) manor: "John de Mereworthe was lord of the manor of Saxthorpe, which had been held by John Gurnay II [Rector], as it afterwards was by John Gurnay V [Sir John, d.1408]." The £20/year annuity from Edmund to John de Mereworthe was "probably in consequence of some agreement between them" — likely a buyout or settlement related to Saxthorpe.
 
@@ -76,18 +76,34 @@ DG-Supp Note 117 also notes the Saxthorpe (Loundhall) manor: "John de Mereworthe
 
 DG adds: "John De Gurnai was escheator for Norfolk, 2nd Henry 4th, the year after his shrievalty." This is Sir John (collateral, d.1408), not G24, but confirms the family's continued Walsingham patronage and administrative prominence in Norfolk.
 
+### Sir John Gurney V — Aquitaine service under John of Gaunt, 1394
+
+2026-05-22 — The AHRC *Soldier in Later Medieval England* database records "John Gourney" granted letters of attorney for service in Gascony / Aquitaine on 20 October 1394, in the retinue (or under the commander) of John of Gaunt, then duke of Lancaster and lieutenant of Aquitaine. Reference: TNA C61/104, m. 7.[^medievalsoldier-john-gurney-v-1394]
+
+**Identification.** The 1394 entry is Sir John Gurney V (Edmund's eldest son, d. 4 December 1408). Three points converge:
+
+- **Affinity.** Edmund G23 served as steward of John of Gaunt's East Anglian estates 1372–1387 (per History of Parliament Online). Sir John V succeeded to that affinity in the next generation; service on Gaunt's 1394 Aquitaine expedition is a direct continuation of the family's Lancastrian client relationship.
+- **Rank and age.** Sir John V was a knight, sheriff of Norfolk and Suffolk 1399 and 1408, and MP for the Coventry parliament of 1404. Active military service in 1394 fits a man approaching 30, with a Crown career taking shape immediately after.
+- **Date pattern.** Gaunt led the principal English administrative expedition to Aquitaine in 1394 (he was created duke of Aquitaine in 1390 and crossed in 1394–95 to assert the title). Letters of attorney dated October 1394 are exactly the instrument issued to retainers preparing for that crossing.
+
+Several earlier 1370s–1380s "John Gournay" / "John Gourney" knight entries in the same database (France, Calais garrison under Calveley and Brocas, etc.) cluster around the right rank and theatre; some belong to Sir John V as a younger man, others to an earlier-generation knight John de Gournay — including the "John Gournay" / "John Gourneye" who appears as a captain in his own right in 1370 (the Knolles "Great Chevauchée" retinue lists, TNA E101/30/25), too senior to be the future Sir John V and therefore a separate, earlier knight John de Gournay.
+
+**No equivalent service entry for G23 Edmund himself.** Edmund Gournay was a lawyer and royal commissioner, not a soldier; consistent with that, no Edmund Gournay/Gurney appears in the *Soldier in Later Medieval England* database in the period of his career (1372–1387). This is a useful negative confirmation of his civilian profile.
+
+[^medievalsoldier-john-gurney-v-1394]: John Gourney, Gascony / Aquitaine, in the retinue of John of Gaunt (d. 1399), duke of Lancaster and Aquitaine; Letters of Attorney TNA C61/104, m. 7, 20 October 1394. From the AHRC-funded *Soldier in Later Medieval England Online Database*, [www.medievalsoldier.org](https://www.medievalsoldier.org/), accessed 2026-05-22. Source ID: `medievalsoldier-database`. The same database includes earlier 1370s–1380s "John Gournay" knight entries in France and the Calais garrison (e.g. TNA C76/59, C76/62, C76/65) attributable in part to Sir John V as a younger man and in part to an earlier-generation knight John de Gournay; the 1370 captaincy in the Knolles chevauchée (TNA E101/30/25) is too senior to be the future Sir John V.
+
 ### Norwich civic counsel and North Barsham corroboration
 
 Blomefield's Norwich Richard II chapter gives Edmund an independent civic role: the city paid "Edm. Gournay" 20s. yearly as one of its counsellors. This aligns with the existing profile of Edmund as a legal/stewardship figure and should be treated as a direct city-account corroboration rather than only later genealogical narrative.[^blomefield-norwich-richard-ii-g23]
 
-Blomefield's North Barsham entry adds another landholding context: in Edward III's reign North Barsham came to Edmund Gurney by his marriage with Catherine, daughter of Sir William and sister of Sir Edward Wauci, and remained in the family.[^blomefield-north-barsham-g23]
+Blomefield's North Barsham entry adds another landholding context: in Edward III's reign North Barsham came to Edmund Gournay by his marriage with Catherine, daughter of Sir William and sister of Sir Edward Wauci, and remained in the family.[^blomefield-north-barsham-g23]
 
-[^blomefield-norwich-richard-ii-g23]: Francis Blomefield, "The city of Norwich, chapter 16: Of the city in Richard II's time," *History of Norfolk*, vol. 3, pp. 102-117, British History Online, https://www.british-history.ac.uk/topographical-hist-norfolk/vol3/pp102-117. Source ID: `blomefield-norfolk`.
-[^blomefield-north-barsham-g23]: Francis Blomefield, "Gallow and Brothercross Hundreds: North-Barsham," *History of Norfolk*, vol. 7, pp. 47-52, British History Online, https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp47-52. Source ID: `blomefield-norfolk`.
+[^blomefield-norwich-richard-ii-g23]: Francis Blomefield, ["The city of Norwich, chapter 16: Of the city in Richard II's time,"](https://www.british-history.ac.uk/topographical-hist-norfolk/vol3/pp102-117) *History of Norfolk*, vol. 3, pp. 102-117, British History Online. Source ID: `blomefield-norfolk`.
+[^blomefield-north-barsham-g23]: Francis Blomefield, ["Gallow and Brothercross Hundreds: North-Barsham,"](https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp47-52) *History of Norfolk*, vol. 7, pp. 47-52, British History Online. Source ID: `blomefield-norfolk`.
 
 ### Berford's Manor, Cringleford — De la Pole feoffee, c. 1370
 
-Blomefield's Norfolk volume 5 records that after the Berford co-heirs released their rights in 1370, Berford's Manor at Cringleford was "absolutely vested in the De la Poles, who settled it soon after on Edmund Gourney, Will. de Boyton, Tho. Spynk, and John le Latimer of Norwich" as feoffees, the manor then extending into Hethersett, Eaton, Earlham, Little Melton, Colney, and the Cringleford watermill.[^blomefield-cringleford-berford] By 1381 John le Latimer of Norwich was sole lord with view of frankpledge, weyf, and strey, and Edmund Gurney with the other De la Pole feoffees released all right to him in the same year.[^blomefield-cringleford-berford]
+Blomefield's Norfolk volume 5 records that after the Berford co-heirs released their rights in 1370, Berford's Manor at Cringleford was "absolutely vested in the De la Poles, who settled it soon after on Edmund Gourney, Will. de Boyton, Tho. Spynk, and John le Latimer of Norwich" as feoffees, the manor then extending into Hethersett, Eaton, Earlham, Little Melton, Colney, and the Cringleford watermill.[^blomefield-cringleford-berford] By 1381 John le Latimer of Norwich was sole lord with view of frankpledge, weyf, and strey, and Edmund Gournay with the other De la Pole feoffees released all right to him in the same year.[^blomefield-cringleford-berford]
 
 This is independent of the 1382 Close Rolls trust by John de Plays already documented here, and it predates it. It places Edmund in a De la Pole–linked Norfolk feoffee network in the early 1370s — the De la Poles being one of the dominant late-fourteenth-century magnate houses, with the merchant William de la Pole's son Michael soon to be created earl of Suffolk under Richard II — and ties him directly to John le Latimer of Norwich, who already appears in the manor of Berford's Manor before becoming sole lord in 1381. The Cringleford / Hethersett / Earlham cluster sits south-west of Norwich, broadening Edmund's documented service footprint beyond his Harpley, West Barsham, Hardingham, and King's Lynn principal-counsel work.
 
@@ -117,6 +133,8 @@ This is independent of the 1382 Close Rolls trust by John de Plays already docum
 2. **West Barsham flagstone (DG-I p. 408):** DG thinks it memorializes Edmund, not William V. Can this flagstone be verified as still extant in the church?
 3. **Harl. MSS. 10, fol. 144:** The Dewes copy of the will — is this available through the BL digitized manuscripts? A photograph would be valuable.
 4. **The restitution clause:** Is this unusual for Norfolk wills of the 1380s, or was it a standard provision?
+5. **TNA C61/104, m. 7 (1394):** Direct pull of the Gascon Roll entry would capture the full Latin clause and any kinsman naming alongside Sir John Gurney V — useful background detail, not required for the identification.
+6. **Earlier 1370s–1380s "John Gournay" knight entries:** TNA C76/38 (1359, Reims expedition), C76/53–55 (early 1370s, France), C76/56–59 (mid-1370s, France and Calais garrison under Calveley), C76/62 (1378, Calais garrison under Brocas), C76/65 (1381). Some are Sir John V as a younger man; the 1359 Reims entry is too early and is an earlier knight John de Gournay. Pulling the individual rolls would separate the two Johns entry-by-entry.
 
 ---
 
@@ -130,10 +148,11 @@ This is independent of the 1382 Close Rolls trust by John de Plays already docum
 - DG-Supp, Note 119 (pp. 791–792): Robert de Wauncy — Richard I witness at Château-Gaillard (1198); custodian of princesses at Rouen. [DG-Supp]
 - DG-Supp, Note 120 (pp. 792–793): Patent Roll 1406 — Burnham land for Walsingham. Sir John as escheator and sheriff. [DG-Supp]
 - DG-Supp, Note 121 (pp. 793–794): **Sir John Gurney (d.1408) IPM** — death 5 Dec 1408; son Edmund heir aged 10, died sine prole. Thomas nephew and successor. Lost will (Register gap 1404–1419). [DG-Supp]
-- History of Parliament Online: Edmund Gurney, d. 1387. [HoP]
+- History of Parliament Online: Edmund Gurney, d. 1387 (HoP entry title preserves modern editorial form). [HoP]
 - Blomefield, *History of Norfolk*, vol. vii, pp. 42–47 (West Barsham). [Blomefield]
 - Reg. Harsyke, fol. 34 (will) — cited via DG. [Reg-Harsyke]
 - Patent Rolls, 36–50 Edw. III and Rich. II. [Pat-Rolls]
+- *Soldier in Later Medieval England Online Database* (AHRC, Bell/Curry/King/Simpkin): Sir John Gurney V entry, 1394 Aquitaine under John of Gaunt (TNA C61/104, m. 7); negative result for Edmund G23 himself, consistent with his civilian/legal career. See `medievalsoldier-database` in `data/sources.json`. [medievalsoldier-database]
 
 ---
 
@@ -141,9 +160,9 @@ This is independent of the 1382 Close Rolls trust by John de Plays already docum
 
 ### Wansey pedigree conflict: Alice Bavard, Katherine's death date, and Sir John's regnal dates
 
-The Wansey/Wauncy pedigree lead preserves a close but conflicting collateral-line version of Edmund Gurney's family. It agrees with the settled frame that Edmund Gorney died in 1387 and that his son John died in 9 Henry IV, but it says Katherine survived Edmund until 3 Henry IV (1401/2), identifies John's wife as Alice Bavard, and says John was knight of the shire in 6 Henry IV. The wife's name is the material conflict: HoP identifies Sir John's wife as Alice Heylesdon, while the Wansey pedigree supplies Alice Bavard. Keep the Wansey form beside the HoP and DG material as a real pedigree witness, but do not replace Heylesdon unless the Bavard/Heylesdon discrepancy can be resolved by alias, remarriage, or a page-image transcription error.[^wansey-pedigree-g23]
+The Wansey/Wauncy pedigree lead preserves a close but conflicting collateral-line version of Edmund Gournay's family. It agrees with the settled frame that Edmund Gorney died in 1387 and that his son John died in 9 Henry IV, but it says Katherine survived Edmund until 3 Henry IV (1401/2), identifies John's wife as Alice Bavard, and says John was knight of the shire in 6 Henry IV. The wife's name is the material conflict: HoP identifies Sir John's wife as Alice Heylesdon, while the Wansey pedigree supplies Alice Bavard. Keep the Wansey form beside the HoP and DG material as a real pedigree witness, but do not replace Heylesdon unless the Bavard/Heylesdon discrepancy can be resolved by alias, remarriage, or a page-image transcription error.[^wansey-pedigree-g23]
 
-[^wansey-pedigree-g23]: "Genealogy of the ancient Family of the Wanseys olim Waunci," copied from William Wansey, F.S.A., manuscript books on the Wansey family, 1873, PDF hosted by Nick Delves, https://www.nickdelves.co.uk/wansey/wansey/1925_08Wansey_Family_Tree_Medieval_Genealogy.pdf; user-supplied transcription in `C:\Users\allen\Downloads\Future research urls3.md`. Source ID: `wansey-medieval-genealogy-1925`.
+[^wansey-pedigree-g23]: "Genealogy of the ancient Family of the Wanseys olim Waunci," copied from William Wansey, F.S.A., manuscript books on the Wansey family, 1873, [PDF hosted by Nick Delves](https://www.nickdelves.co.uk/wansey/wansey/1925_08Wansey_Family_Tree_Medieval_Genealogy.pdf); user-supplied transcription in `C:\Users\allen\Downloads\Future research urls3.md`. Source ID: `wansey-medieval-genealogy-1925`.
 
 | Claim | Source A | Source B | Status |
 |---|---|---|---|

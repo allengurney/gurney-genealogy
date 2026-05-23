@@ -22,9 +22,9 @@ The modern locality survives, but the exact medieval estate, residence, or castl
 
 ## Sources
 
-- Écouché-les-Vallées official site, https://www.ecouchelesvallees.fr/
-- Écouché official page, https://www.ecouchelesvallees.fr/ecouche.html
-- IntraMuros, “Église Notre-Dame d’Écouché,” https://www.intramuros.org/ecouche-les-vallees/decouvrir/7543
+- [Écouché-les-Vallées official site](https://www.ecouchelesvallees.fr/)
+- [Écouché official page](https://www.ecouchelesvallees.fr/ecouche.html)
+- IntraMuros, [“Église Notre-Dame d’Écouché”](https://www.intramuros.org/ecouche-les-vallees/decouvrir/7543)
 - `research/people/g32-gerard-de-gournay-fact-sheet.research.md`
 - `research/people/g33-hugh-de-gournay-iii-fact-sheet.research.md`
 

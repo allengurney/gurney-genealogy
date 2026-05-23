@@ -54,10 +54,10 @@ The Lysander Franklin Gurney sketch in *Representative Men and Old Families of S
 
 The Find a Grave memorial 252975617 for John Gurney records two things worth keeping. The new datum is the burial location: "Elm Street Cemetery, Braintree, Norfolk County, Massachusetts." That place was not previously named in this file or in the case file. The recurring datum is the same problematic origin tradition already preserved from *American Biography* vol. 26: birth 29 September 1615 in "London Borough of Brent, Greater London, England," and death 16 March 1663 at Braintree. The 1615 birth conflicts with the older-father chronology favored here; the "London Borough of Brent" place name is anachronistic, since Brent is a 1965 London administrative creation and cannot describe a seventeenth-century parish. Treat the cemetery line as a citation-worthy derivative datum to chase against parish or town records, and treat the 1615/Brent line as another instance of the late tradition rather than a controlling fact.[^findagrave-g13]
 
-[^findagrave-g13]: Find a Grave, memorial 252975617, John Gurney, Elm Street Cemetery, Braintree, Norfolk County, Massachusetts, https://www.findagrave.com/memorial/252975617/john-gurney; cemetery page https://www.findagrave.com/cemetery/1960540/elm-street-cemetery. Source ID: `findagrave-john-gurney-252975617`.
-[^american-biography-g13]: *American Biography: A New Cyclopedia*, illustrated vol. 26 (New York: The American Historical Society, Inc., 1926), David Allston Gurney/Gurney family entry, pp. 230-255; Google Books, https://www.google.com/books/edition/American_Biography/tnkKAQAAMAAJ; user-supplied extract in `C:\Users\allen\Downloads\Future research urls3.md`. Source ID: `american-biography-cyclopedia-v26-gurney-1926`.
-[^pettigrew-heraldry-g13]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), p. 206, Google Books, https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ. Source ID: `pettigrew-collectanea-house-gournay-1871`.
-[^accessgenealogy-lysander]: AccessGenealogy, "Ancestry of Lysander Franklin Gurney," transcription from *Representative Men and Old Families of Southeastern Massachusetts* (Chicago: J. H. Beers & Co., 1912), https://accessgenealogy.com/massachusetts/lysander-franklin-gurney.htm. Source ID: `accessgenealogy-lysander-franklin-gurney`.
+[^findagrave-g13]: Find a Grave, [memorial 252975617, John Gurney, Elm Street Cemetery, Braintree, Norfolk County, Massachusetts](https://www.findagrave.com/memorial/252975617/john-gurney); [cemetery page](https://www.findagrave.com/cemetery/1960540/elm-street-cemetery). Source ID: `findagrave-john-gurney-252975617`.
+[^american-biography-g13]: *American Biography: A New Cyclopedia*, illustrated vol. 26 (New York: The American Historical Society, Inc., 1926), David Allston Gurney/Gurney family entry, pp. 230-255; [Google Books](https://www.google.com/books/edition/American_Biography/tnkKAQAAMAAJ); user-supplied extract in `C:\Users\allen\Downloads\Future research urls3.md`. Source ID: `american-biography-cyclopedia-v26-gurney-1926`.
+[^pettigrew-heraldry-g13]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), p. 206, [Google Books](https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ). Source ID: `pettigrew-collectanea-house-gournay-1871`.
+[^accessgenealogy-lysander]: AccessGenealogy, ["Ancestry of Lysander Franklin Gurney,"](https://accessgenealogy.com/massachusetts/lysander-franklin-gurney.htm) transcription from *Representative Men and Old Families of Southeastern Massachusetts* (Chicago: J. H. Beers & Co., 1912). Source ID: `accessgenealogy-lysander-franklin-gurney`.
 
 ### Combined Anderson + Banks assessment
 
@@ -79,8 +79,8 @@ That record explains the derivative tradition that John Gurney was age 21 on 29 
 John Newgate himself is securely documented in Boston. A 1639 Winthrop deed identifies him as "John Newgate of Boston in New England Feltmaker," which fits the hatter/feltmaker form in later derivative accounts.[^mhs-newgate-feltmaker]
 
 [^winthrop-addenda-newgate]: John Winthrop, *The History of New England from 1630 to 1649*, ed. James Savage, vol. 2 (Boston: Little, Brown and Company, 1853), Addenda, p. 422, 21 July 1636 John Newgate / John Gurney apprentice entry. Source ID: `winthrop-history-new-england-addenda-1636`.
-[^tag-grissell-lead]: Mary Lovering Holman, "Grissell of the Many Marriages," *The American Genealogist*, vol. 10, no. 2 (October 1933), pp. 70-73, Internet Archive, https://archive.org/details/sim_american-genealogist_1933-10_10_2. Source ID: `tag-10-70`.
-[^mhs-newgate-feltmaker]: Massachusetts Historical Society, Winthrop Papers Digital Edition, Papers of the Winthrop Family, vol. 4, deed of John Winthrop to John Newgate, 18 Dec. 1639, https://www.masshist.org/publications/winthrop/index.php/view/PWF04p162. Source ID: `mhs-winthrop-papers-newgate-deed-1639`.
+[^tag-grissell-lead]: Mary Lovering Holman, "Grissell of the Many Marriages," *The American Genealogist*, vol. 10, no. 2 (October 1933), pp. 70-73, [Internet Archive](https://archive.org/details/sim_american-genealogist_1933-10_10_2). Source ID: `tag-10-70`.
+[^mhs-newgate-feltmaker]: Massachusetts Historical Society, [Winthrop Papers Digital Edition, Papers of the Winthrop Family, vol. 4, deed of John Winthrop to John Newgate, 18 Dec. 1639](https://www.masshist.org/publications/winthrop/index.php/view/PWF04p162). Source ID: `mhs-winthrop-papers-newgate-deed-1639`.
 
 ### Newgate's Horningsheath origin — explains Banks's Bury St Edmunds attribution
 
@@ -90,7 +90,7 @@ Anderson's 1636 arrival date in the *Great Migration Directory* (`anderson-gmd-2
 
 No separate post-1639 colonial trail surfaces in indexed Massachusetts records for a John Gurney born c.1615. The apprentice may have died in early Boston (smallpox, fluxes, and infant mortality were endemic), returned to England at term-end, or married into a non-Gurney surname. The two-Johns reading remains the cleanest framing.
 
-[^newgate-horningsheath-2026]: WikiTree profile John Newgate (Newgate-14), https://www.wikitree.com/wiki/Newgate-14. Source ID `wikitree-newgate-14-horningsheath`. Validation note `sources/validations/wikitree-newgate-14-horningsheath.md`. The 1583 Horningsheath baptism is flagged in the WikiTree source as possibly belonging to John or to a same-named brother. A primary-source pull of the Horningsheath parish-register baptism and of Newgate's own 1664 will (proved 11 September 1665) would convert this from compiled-source to primary level.
+[^newgate-horningsheath-2026]: WikiTree profile [John Newgate (Newgate-14)](https://www.wikitree.com/wiki/Newgate-14). Source ID `wikitree-newgate-14-horningsheath`. Validation note `sources/validations/wikitree-newgate-14-horningsheath.md`. The 1583 Horningsheath baptism is flagged in the WikiTree source as possibly belonging to John or to a same-named brother. A primary-source pull of the Horningsheath parish-register baptism and of Newgate's own 1664 will (proved 11 September 1665) would convert this from compiled-source to primary level.
 
 ### Great Migration corridor — empirical priors for Candidate B
 
@@ -114,7 +114,7 @@ This bounds the John Gurney + Mary marriage as an English event before 1628. FS,
 
 The case-file's prior "no English baptism of any colonial-John child" reading is best understood as a parallel parish-register-coverage gap on the English side, not as evidence against an English marriage.
 
-[^shedd-1920-mary-bounding]: Frank E. Shedd, Hubert C. Shedd, and J. Gardner Bartlett, *Daniel Shed Genealogy: Ancestry and Descendants of Daniel Shed of Braintree, Massachusetts, 1327-1920* (Boston: Shedd Family Association, 1920), https://archive.org/details/danielshedgeneal01shed; Bates, *Records of the Town of Braintree* (1886). Source IDs `shedd-daniel-shed-genealogy-1920`, `braintree-records-1640-1793-1886`.
+[^shedd-1920-mary-bounding]: Frank E. Shedd, Hubert C. Shedd, and J. Gardner Bartlett, [*Daniel Shed Genealogy: Ancestry and Descendants of Daniel Shed of Braintree, Massachusetts, 1327-1920*](https://archive.org/details/danielshedgeneal01shed) (Boston: Shedd Family Association, 1920); Bates, *Records of the Town of Braintree* (1886). Source IDs `shedd-daniel-shed-genealogy-1920`, `braintree-records-1640-1793-1886`.
 
 ### Torrey marriage compendium - John1 family group cross-check
 
@@ -126,7 +126,7 @@ Torrey's *New England Marriages Prior to 1700*, page 331, gives a one-page cross
 
 The first two lines independently support the working chronology: John1 born about 1603, his unnamed first wife dying in 1661, his marriage to widow Grezell Kibbee on 12 November 1661 at Braintree, and his death in 1663. The Kibbee marriage chain is given here as Fletcher (maiden) - Jewell - Griggs - Kibbee - Burge (1667), with the Humphrey Griggs identification matching the form used elsewhere in this file rather than the older "Henry Greggs." The third line is the John Jr. who settled in Mendon; Torrey gives him a 1671/2 marriage to Ruth and three children John, Samuel, and Mary, which adds detail not previously preserved in this file's children section. Use Torrey as a supplemental compendium, not a primary record.[^torrey-g13]
 
-[^torrey-g13]: Clarence Almon Torrey, *New England Marriages Prior to 1700* (Baltimore: Genealogical Publishing Co., 2004), p. 331, Gurney entries; Ancestry.com collection 3824 image gpc_newenglandmarriages-0347 (pId=51825), https://www.ancestry.com/imageviewer/collections/3824/images/gpc_newenglandmarriages-0347?pId=51825; transcribed extract at `sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md`. Source ID: `torrey-new-england-marriages-prior-1700`.
+[^torrey-g13]: Clarence Almon Torrey, *New England Marriages Prior to 1700* (Baltimore: Genealogical Publishing Co., 2004), p. 331, Gurney entries; Ancestry.com collection 3824 [image gpc_newenglandmarriages-0347 (pId=51825)](https://www.ancestry.com/imageviewer/collections/3824/images/gpc_newenglandmarriages-0347?pId=51825); transcribed extract at `sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md`. Source ID: `torrey-new-england-marriages-prior-1700`.
 
 ---
 
@@ -161,7 +161,7 @@ The Chelmsford connection is purely colonial. There is no evidence linking John 
 
 *Note: "Mary Richards" appears in some derivative sources as the name of John's first wife, but that attribution remains unverified and has not been traced to a primary record.*
 
-[^braintree-records-1886]: Braintree (Mass.), *Records of the Town of Braintree, 1640 to 1793*, ed. Samuel A. Bates (Randolph, Mass.: D. H. Huxford, printer, 1886), pp. 638, 717, Internet Archive, https://archive.org/details/recordsoftownofb00brai. Source ID: `braintree-records-1640-1793-1886`.
+[^braintree-records-1886]: Braintree (Mass.), [*Records of the Town of Braintree, 1640 to 1793*](https://archive.org/details/recordsoftownofb00brai), ed. Samuel A. Bates (Randolph, Mass.: D. H. Huxford, printer, 1886), pp. 638, 717, Internet Archive. Source ID: `braintree-records-1640-1793-1886`.
 
 ### Land and property records
 
@@ -182,11 +182,11 @@ The Mendon material shows recognized proprietary standing and later title surviv
 
 John's 1663 probate inventory did not appraise ordinary Braintree real estate as a stable landholding, but it did note a land interest "layd out in land at Quinapaug wch we know not." Treat this as an unclarified or unvalued frontier proprietary interest rather than as ordinary appraised Braintree land. The NEHGR abstract gives the inventory amount as **£55 14s 6d**.[^spr-case-338-john-gurney-probate][^nehgr-12-suffolk-wills]
 
-[^nash-weymouth-1885]: Gilbert Nash, *Historical Sketch of the Town of Weymouth, Massachusetts, from 1622 to 1884* (Weymouth, Mass.: Town of Weymouth, 1885), pp. 258, 270, 278, 281-282, 306, https://archive.org/details/historicalsketch00nash_0. Source ID: `nash-historical-sketch-weymouth-1885`.
+[^nash-weymouth-1885]: Gilbert Nash, [*Historical Sketch of the Town of Weymouth, Massachusetts, from 1622 to 1884*](https://archive.org/details/historicalsketch00nash_0) (Weymouth, Mass.: Town of Weymouth, 1885), pp. 258, 270, 278, 281-282, 306. Source ID: `nash-historical-sketch-weymouth-1885`.
 [^suffolk-deeds-liber-iv]: Thomas F. Temple, Register of Deeds, *Suffolk Deeds. Liber IV* (Boston: Rockwell and Churchill, City Printers, 1888), pp. 6, 89a-90, index p. 150. Source ID: `suffolk-deeds-liber-iv-1888`.
 [^bates-ironworks-gurney]: Samuel A. Bates, *The Ancient Iron Works at Braintree, Mass.: The First in America* (South Braintree, Mass.: Frank A. Bates, 1898), p. 10. Source ID: `bates-ancient-iron-works-braintree-1898`.
-[^ballou-milford-1882]: Adin Ballou, *History of the Town of Milford, Worcester County, Massachusetts, from Its First Settlement to 1881. In Two Parts* (Boston: Franklin Press, Rand, Avery, & Co., 1882), pp. 27-35, https://archive.org/details/historyoftownofm01ball. Source ID: `ballou-history-of-milford-1882`.
-[^mendon-proprietors-1899]: *The Proprietors' Records of the Town of Mendon, Massachusetts: Incorporated May 15, 1667* (Boston: Rockwell and Churchill Press, 1899), pp. 13, 43, 46, 152-153 and related title/boundary entries, https://archive.org/details/proprietorsrecor00mend. Source ID: `mendon-proprietors-records-1899`.
+[^ballou-milford-1882]: Adin Ballou, [*History of the Town of Milford, Worcester County, Massachusetts, from Its First Settlement to 1881. In Two Parts*](https://archive.org/details/historyoftownofm01ball) (Boston: Franklin Press, Rand, Avery, & Co., 1882), pp. 27-35. Source ID: `ballou-history-of-milford-1882`.
+[^mendon-proprietors-1899]: [*The Proprietors' Records of the Town of Mendon, Massachusetts: Incorporated May 15, 1667*](https://archive.org/details/proprietorsrecor00mend) (Boston: Rockwell and Churchill Press, 1899), pp. 13, 43, 46, 152-153 and related title/boundary entries. Source ID: `mendon-proprietors-records-1899`.
 
 ### Deposition and court records
 
@@ -215,12 +215,12 @@ The same NEHGR page contains a separate "Widow Wilson" entry stating that £4 wa
 Hazen's Billerica history gives a separate 1659 town-finance context. On the 10 September 1659 rate for the half payment of the Dudley Farm purchase, John Gurney appears with an assessment of 2-5-10. Hazen explains that the Dudley Farm price was 110 pounds and that the remaining balance of the 55-pound half payment was probably assessed on later town purchasers. This links John to the Billerica purchase-rate context, but it should not be inflated into proof of permanent Billerica residence without the underlying town and land records.[^hazen-billerica]
 
 [^mbcr-gurney-1641]: Nathaniel B. Shurtleff, ed., *Records of the Governor and Company of the Massachusetts Bay in New England*, vol. 1, 1628-1641 (Boston: William White, 1853), p. 331. Source ID: `massachusetts-bay-records-v1-1853`.
-[^nehgr-62-94]: "Notes: Braintree, Mass., Items," *New England Historical and Genealogical Register*, vol. 62 (January 1908), p. 94, Suffolk Court Files item no. 188, https://archive.org/details/newenglandhisto19unkngoog/page/94/mode/2up. Source ID: `nehgr-62-94`.
+[^nehgr-62-94]: ["Notes: Braintree, Mass., Items,"](https://archive.org/details/newenglandhisto19unkngoog/page/94/mode/2up) *New England Historical and Genealogical Register*, vol. 62 (January 1908), p. 94, Suffolk Court Files item no. 188. Source ID: `nehgr-62-94`.
 [^anderson-gmb-baxter]: Robert Charles Anderson, *The Great Migration Begins: Immigrants to New England, 1620-1633*, vol. 1 (Boston: New England Historic Genealogical Society, 2012), Gregory Baxter profile, p. 138; user-supplied book-image crop transcribed at `sources/corpus_supplement/anderson-great-migration-begins-v1-baxter-user-extract.md`. Source ID: `anderson-great-migration-begins-v1-baxter`.
 [^suffolk-probate-index-gurney]: Elijah George, register, *Index to the Probate Records of the County of Suffolk, Massachusetts, from the Year 1636 to and including the Year 1893*, vol. 2, G to O (Boston: Rockwell and Churchill, City Printers, 1895), Gurney/Gurny entries. Source ID: `suffolk-probate-index-v2-1895`.
 [^spr-case-338-john-gurney-probate]: Suffolk County, Massachusetts, Probate Records, Case #338, John Gurney Senr probate inventory, Braintree, 16 March 1663; manuscript image supplied by Allen Gurney, file `102840311_00516.jpg`; project extract and analysis at `sources/corpus_supplement/john-gurney-probate-inventory-spr-case-338.md`. Source ID: `spr-case-338-john-gurney-probate-1663`.
-[^nehgr-12-suffolk-wills]: "Suffolk Wills," *New England Historical and Genealogical Register*, vol. 12 (Boston: New England Historic Genealogical Society, 1858), p. 53, Widow Wilson and John Gurney entries; Google Books, https://books.google.com/books/about/The_New_England_Historical_Genealogical.html?id=fMMMAAAAYAAJ; project extract at `sources/corpus_supplement/john-gurney-probate-inventory-spr-case-338.md`. Source ID: `nehgr-12-suffolk-wills-1858`.
-[^hazen-billerica]: Henry A. Hazen, *History of Billerica, Massachusetts, with a Genealogical Register* (Boston: A. Williams and Co., 1883), historical p. 33 / image p. 54, Internet Archive, https://archive.org/details/historyofbilleri00hazen. Source ID: `hazen-billerica-1883`.
+[^nehgr-12-suffolk-wills]: "Suffolk Wills," *New England Historical and Genealogical Register*, vol. 12 (Boston: New England Historic Genealogical Society, 1858), p. 53, Widow Wilson and John Gurney entries; [Google Books](https://books.google.com/books/about/The_New_England_Historical_Genealogical.html?id=fMMMAAAAYAAJ); project extract at `sources/corpus_supplement/john-gurney-probate-inventory-spr-case-338.md`. Source ID: `nehgr-12-suffolk-wills-1858`.
+[^hazen-billerica]: Henry A. Hazen, [*History of Billerica, Massachusetts, with a Genealogical Register*](https://archive.org/details/historyofbilleri00hazen) (Boston: A. Williams and Co., 1883), historical p. 33 / image p. 54, Internet Archive. Source ID: `hazen-billerica-1883`.
 
 ### Children — working notes
 
@@ -232,7 +232,7 @@ Hazen's Billerica history gives a separate 1659 town-finance context. On the 10 
 
 The NEHGR vol. 49 "Genealogical Gleanings in England" extract for John Lewis of Nevis, merchant, preserves a same-name family lead that belongs in this companion even though the Mary is not yet identified. The will was dated 21 December 1699 and proved 9 July 1701. It names Lewis's sister Elizabeth Lewis, father Thomas Lewis, kinswoman Grisell Lloyd daughter of James Lloyd of New England, friends Arthur Plomer and William Ling of Nevis as executors in trust, Henry Lloyd of Bristol as sole executor, and witness Thomas Nowell. In the middle of that abstract appears the phrase "Mary Gurney the daughter of John Gurney." Keep this as an unresolved Mary Gurney lead, not as proof that she is John Gurney-1's daughter Mary Shed.[^nehgr-49-john-lewis]
 
-[^nehgr-49-john-lewis]: Henry F. Waters, "Genealogical Gleanings in England," *New England Historical and Genealogical Register*, vol. 49, part 2, John Lewis of Nevis will abstract; user-supplied extract from https://archive.org/details/newenglandhistorv49p2wate/. Source ID: `nehgr-49-genealogical-gleanings-john-lewis`.
+[^nehgr-49-john-lewis]: Henry F. Waters, "Genealogical Gleanings in England," *New England Historical and Genealogical Register*, vol. 49, part 2, John Lewis of Nevis will abstract; user-supplied extract from [Internet Archive](https://archive.org/details/newenglandhistorv49p2wate/). Source ID: `nehgr-49-genealogical-gleanings-john-lewis`.
 
 **Richard (G12):** Of Weymouth. Freeman 1681. Married Rebecca Taylor (named in Taylor's will, proved 1688). Died intestate October 1691. Children: John (killed in the Mendon massacre, 1675), Zachariah (served in a King Philip's War relief company), Joseph (b. 22 Feb 1664/65), Mary (b. 9 Sept 1667), Benjamin (G11, c. 1676). Land grants in Weymouth included East field, mill field, and the east side of Great Pond. In 1683 he received a 6-acre Town Common grant west of the pond. The John–Richard relationship remains plausible and traditional, but a surfaced primary statement of relationship is still lacking.
 
@@ -293,7 +293,7 @@ Phillimore *Buckinghamshire Parish Registers: Marriages*, vol. I, Edlesborough s
 
 The 1661 John-and-Mary marriage is materially incompatible with the colonial John Gurney-1: the colonial John buried his first wife Mary at Braintree on 20 September 1661 and married Grizzell Fletcher on 12 November 1661 at Braintree. Either this Edlesborough John is the same person as Candidate A, in which case Candidate A is eliminated outright by the 1661 Bucks marriage, or he is a separately documented Bucks John Gurney with a Mary wife, in which case he depletes the residual "Unknown other origin" bucket by accounting for one more Bucks "John + Mary" household. The cluster also corroborates the 1642 Bucks Contributions for Ireland reading of a continuing Edlesborough yeoman Gurney presence and is consistent with VCH Bucks vol. 3 Edlesborough showing zero Gurney landholders at the manorial level: the Edlesborough Gurneys were yeoman, not gentry.[^phillimore-bucks-vol1]
 
-[^phillimore-bucks-vol1]: W. P. W. Phillimore and Thomas M. Blagg, eds., *Buckinghamshire Parish Registers: Marriages, Volume I* (London: Phillimore & Co., 1902), Edlesborough section; Internet Archive, https://archive.org/details/buckinghamshirep01phil. Source ID: `phillimore-bucks-marriages-vol1`.
+[^phillimore-bucks-vol1]: W. P. W. Phillimore and Thomas M. Blagg, eds., [*Buckinghamshire Parish Registers: Marriages, Volume I*](https://archive.org/details/buckinghamshirep01phil) (London: Phillimore & Co., 1902), Edlesborough section; Internet Archive. Source ID: `phillimore-bucks-marriages-vol1`.
 
 ### Bucks Gurney household map (Findmypast indexes, 2026-05-09)
 
@@ -498,10 +498,10 @@ The Toddington Beds John Gurney + Elizabeth Moreton household has positive Engli
 
 [^toddington-burial-2026-05-11]: FamilySearch, "England, Deaths and Burials, 1538-1991," John Gurney burial September 1641, Toddington, Bedfordshire; FamilySearch, "England Marriages, 1538-1973," John Gurnye / Jn Gurney + Elizabeth / Eliz Moreton marriage 12 October 1624, Toddington, Bedfordshire. Source ID: `fs-england-births-christenings`.
 
-[^lma-harrow-1669]: Parish register, St Mary, Harrow on the Hill, Middlesex, burials 1668/9, London Metropolitan Archives DRO/003/A/01/005; Ancestry.com collection 1624 record 602728549, https://www.ancestry.com/search/collections/1624/records/602728549?tid=181885695&pid=192416501054&ssrc=pt; user-supplied page-image transcription. Source ID: `lma-st-mary-harrow-register-dro003`.
-[^lma-cripplegate-1640]: Parish register, St Giles Cripplegate, City of London, burials 1634-1646, London Metropolitan Archives P69/GIS/A/002/MS06419/003; Ancestry.com collection 1624 record 6607796, https://www.ancestry.com/search/collections/1624/records/6607796; user-supplied page-image assessment. Source ID: `lma-st-giles-cripplegate-register-p69-gis-a-002`.
-[^london-st-augustine-1638]: T. C. Dale, "Inhabitants of London in 1638: St. Augustine," in *The Inhabitants of London in 1638* (Society of Genealogists, 1931), British History Online, https://www.british-history.ac.uk/no-series/london-inhabitants/1638/pp34-35. Source ID: `bho-london-inhabitants-st-augustine-1638`.
-[^ancestry-margaret-lead]: User-supplied Ancestry lead, Margaret Rovett/Rybett, collection 9840 record 18879163, https://www.ancestry.com/search/collections/9840/records/18879163. Login-gated in this pass; source ID not assigned pending record review.
+[^lma-harrow-1669]: Parish register, St Mary, Harrow on the Hill, Middlesex, burials 1668/9, London Metropolitan Archives DRO/003/A/01/005; [Ancestry.com collection 1624 record 602728549](https://www.ancestry.com/search/collections/1624/records/602728549?tid=181885695&pid=192416501054&ssrc=pt); user-supplied page-image transcription. Source ID: `lma-st-mary-harrow-register-dro003`.
+[^lma-cripplegate-1640]: Parish register, St Giles Cripplegate, City of London, burials 1634-1646, London Metropolitan Archives P69/GIS/A/002/MS06419/003; [Ancestry.com collection 1624 record 6607796](https://www.ancestry.com/search/collections/1624/records/6607796); user-supplied page-image assessment. Source ID: `lma-st-giles-cripplegate-register-p69-gis-a-002`.
+[^london-st-augustine-1638]: T. C. Dale, ["Inhabitants of London in 1638: St. Augustine,"](https://www.british-history.ac.uk/no-series/london-inhabitants/1638/pp34-35) in *The Inhabitants of London in 1638* (Society of Genealogists, 1931), British History Online. Source ID: `bho-london-inhabitants-st-augustine-1638`.
+[^ancestry-margaret-lead]: User-supplied Ancestry lead, Margaret Rovett/Rybett, [collection 9840 record 18879163](https://www.ancestry.com/search/collections/9840/records/18879163). Login-gated in this pass; source ID not assigned pending record review.
 
 ## Sources Consulted
 

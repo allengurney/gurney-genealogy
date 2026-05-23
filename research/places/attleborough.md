@@ -24,7 +24,7 @@ The obvious physical anchor for the place is **St Mary's, Attleborough**, one of
 
 ARCHI UK's local-history search result gives Attleborough/Attleborough Minor as "Atlebur" in Domesday and separately notes Baconsthorpe in Attleborough as "Baconstorp." This is useful only as a pointer; verify against OpenDomesday or the Domesday text before treating it as a canonical place-name statement.[^archiuk-attleborough]
 
-[^archiuk-attleborough]: ARCHI UK, local history and archaeology search results for NR17 1QJ / Attleborough area, https://www.archiuk.com/cgi-bin/archi_new_search_engine.pl?search_location=NR17%201QJ&keyterms=local-history-archaeology&subject=metal-detecting-sites&country=united-kingdom&bot=googlebotsearch&pwd=&search_range=10000. Source ID: `archiuk-attleborough-nr17-domesday-search`.
+[^archiuk-attleborough]: ARCHI UK, [local history and archaeology search results for NR17 1QJ / Attleborough area](https://www.archiuk.com/cgi-bin/archi_new_search_engine.pl?search_location=NR17%201QJ&keyterms=local-history-archaeology&subject=metal-detecting-sites&country=united-kingdom&bot=googlebotsearch&pwd=&search_range=10000). Source ID: `archiuk-attleborough-nr17-domesday-search`.
 
 ## Open items
 

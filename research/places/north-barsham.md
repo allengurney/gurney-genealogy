@@ -6,4 +6,4 @@ The same entry later records that in the 19th Richard II and 3 Henry IV, John so
 
 For the direct line, the first passage is the more important one: it is additional Blomefield support for Edmund Gurney's Wauncy/Wauci-linked land expansion in the generation that leads toward West Barsham. The second passage may belong to the later family and should be kept as a place-file note until the exact John Gurney is identified.
 
-[^blomefield-north-barsham]: Francis Blomefield, "Gallow and Brothercross Hundreds: North-Barsham," in *An Essay Towards A Topographical History of the County of Norfolk*, vol. 7 (London, 1807), pp. 47-52, British History Online, https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp47-52. Source ID: `blomefield-norfolk`.
+[^blomefield-north-barsham]: Francis Blomefield, ["Gallow and Brothercross Hundreds: North-Barsham,"](https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp47-52) in *An Essay Towards A Topographical History of the County of Norfolk*, vol. 7 (London, 1807), pp. 47-52, British History Online. Source ID: `blomefield-norfolk`.

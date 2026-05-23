@@ -46,7 +46,7 @@ factsheet:
 <div class="facts-vitals-grid">
   <div class="fact-item">
     <div class="fact-label">Born</div>
-    <div class="fact-value">13 September 1581, West Barsham Hall, Norfolk, England. Twin with Anthony; sixth son of Henry de Gournay and Ellen Blennerhassett. <sup class="fn"><a href="#n1" id="ref-1">1</a></sup></div>
+    <div class="fact-value">13 September 1581, West Barsham Hall, Norfolk, England. Twin with Anthony; sixth son of Henry Gurnay, Esq., and Ellen Blennerhassett. <sup class="fn"><a href="#n1" id="ref-1">1</a></sup></div>
   </div>
   <div class="fact-item">
     <div class="fact-label">Died</div>
@@ -119,7 +119,7 @@ factsheet:
 <section class="fact-section fact-narrative" id="narrative">
 <h2 class="unnumbered">Narrative</h2>
 
-Francis Gurney was born into the Norfolk gentry but made his career in trade rather than landholding. As a younger son of Henry de Gournay of West Barsham and Great Ellingham, he followed the standard path of apprenticeship and London company membership, entering the Merchant Taylors' Company and building a commercial life tied to both Norwich and the City of London. Daniel Gurney's nineteenth-century family history, reinforced by company and parish records, places him in the world of merchant capital, regional agency work, and urban parish networks rather than on a surviving landed estate.
+Francis Gurney was born into the Norfolk gentry but made his career in trade rather than landholding. As a younger son of Henry Gurnay, Esq., of West Barsham and Great Ellingham, he followed the standard path of apprenticeship and London company membership, entering the Merchant Taylors' Company and building a commercial life tied to both Norwich and the City of London. Daniel Gurney's nineteenth-century family history, reinforced by company and parish records, places him in the world of merchant capital, regional agency work, and urban parish networks rather than on a surviving landed estate.
 
 His adult life helps explain how a cadet branch of an old Norfolk family could produce descendants who later crossed the Atlantic. Francis married first Margaret Rybett in 1611, linking himself to established Norfolk and Suffolk gentry. The East Dereham baptisms then place the family back in Norfolk through the 1610s before the London baptisms at St Benet Fink begin in 1619. By the 1620s and 1630s, Francis appears to have been financially strained: a failed King's Lynn textile venture, continuing debts, and the 1634 sale of all his Norfolk and Suffolk lands suggest that the family's prospects had narrowed sharply.
 

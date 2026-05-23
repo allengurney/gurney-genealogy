@@ -215,7 +215,7 @@ The ancestor map now uses `research/geo/gournay_norman_holdings_recommended_over
 - `research/places/normandy.md`
 - `research/places/montigny-sur-andelle.md`
 
-[^planche-conquets]: J. R. Planché, *The Conqueror and His Companions*, vol. 1 (London: Tinsley Brothers, 1874), Gournay/De la Marie note, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/conquerorcompanion/companion.htm. Source ID: `planche-conqueror-companions-1874`.
+[^planche-conquets]: J. R. Planché, *The Conqueror and His Companions*, vol. 1 (London: Tinsley Brothers, 1874), Gournay/De la Marie note, [1066.co.nz electronic edition](https://www.1066.co.nz/Mosaic%20DVD/library/conquerorcompanion/companion.htm). Source ID: `planche-conqueror-companions-1874`.
 
 <!-- GENERATED:PLACE-REGISTRY:START -->
 ## Place registry

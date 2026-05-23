@@ -22,9 +22,9 @@ The G36 research companion and fact sheet discuss La Tour Hue, the tower associa
 
 ## Sources
 
-- Normandie Tourisme, “La Tour du Rempart,” https://www.normandie-tourisme.fr/sites-lieux-de-visites/la-tour-du-rempart/
-- Seine-Maritime Tourisme, “La Tour du Rempart,” https://www.seine-maritime-tourisme.com/offres/la-tour-du-rempart-gournay-en-bray-fr-5136708/
-- Cirkwi / Seine-Maritime Attractivité, “La Tour du Rempart,” https://www.cirkwi.com/en/point-interet/3017426-la-tour-du-rempart
+- Normandie Tourisme, [“La Tour du Rempart”](https://www.normandie-tourisme.fr/sites-lieux-de-visites/la-tour-du-rempart/)
+- Seine-Maritime Tourisme, [“La Tour du Rempart”](https://www.seine-maritime-tourisme.com/offres/la-tour-du-rempart-gournay-en-bray-fr-5136708/)
+- Cirkwi / Seine-Maritime Attractivité, [“La Tour du Rempart”](https://www.cirkwi.com/en/point-interet/3017426-la-tour-du-rempart)
 
 ## Crosslinks
 

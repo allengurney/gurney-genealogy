@@ -40,4 +40,4 @@ Sir Matthew de Gournay, fourth son of the regicide Sir Thomas, is a major collat
 - `research/topics/anderson-yvery-harpetre-gournay-collateral.md`
 - `research/places/weare-somerset.md`
 
-[^pettigrew-somerset-place]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 210-216, Google Books, https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ. Source ID: `pettigrew-collectanea-house-gournay-1871`.
+[^pettigrew-somerset-place]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 210-216, [Google Books](https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ). Source ID: `pettigrew-collectanea-house-gournay-1871`.

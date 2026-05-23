@@ -10,8 +10,8 @@ The two secondary accounts conflict on the woolen-mill fire. Munsell names John 
 
 The Little Neck Bay report also carries the Alley forward after the mill era. In 1858 William Buhrmann and his wife Mary Loweree bought the general store, which included the post office and an adjoining mill. The store could be reached by boat and by road, carried dry goods, grain, groceries, hardware, and small goods, and the Buhrmann Homestead stood on the west side of Alley Pond.[^nfwf-alley]
 
-[^munsell-alley]: "The Town and Village of Flushing," in *History of Queens County* (New York: W. W. Munsell & Co., 1882), Flushing section, Brooklyn Genealogy Information Page transcription, https://bklyn-genealogy-info.stevemorse.org/Queens/history/flushing.html. Source ID: `munsell-history-queens-flushing-1882`.
-[^nfwf-alley]: *History and Ecology of Little Neck Bay*, final report hosted by the National Fish and Wildlife Foundation, p. 13, https://www.nfwf.org/sites/default/files/finalreports1/7460_2008-0065-004_Report_History_and_Ecology_of_Little_Neck_Bay.pdf. Source ID: `nfwf-little-neck-bay-history-ecology-2008`.
+[^munsell-alley]: ["The Town and Village of Flushing,"](https://bklyn-genealogy-info.stevemorse.org/Queens/history/flushing.html) in *History of Queens County* (New York: W. W. Munsell & Co., 1882), Flushing section, Brooklyn Genealogy Information Page transcription. Source ID: `munsell-history-queens-flushing-1882`.
+[^nfwf-alley]: [*History and Ecology of Little Neck Bay*](https://www.nfwf.org/sites/default/files/finalreports1/7460_2008-0065-004_Report_History_and_Ecology_of_Little_Neck_Bay.pdf), final report hosted by the National Fish and Wildlife Foundation, p. 13. Source ID: `nfwf-little-neck-bay-history-ecology-2008`.
 
 <!-- GENERATED:PLACE-REGISTRY:START -->
 ## Place registry

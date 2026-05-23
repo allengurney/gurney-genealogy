@@ -580,7 +580,7 @@ Yet the surviving traces of his life argue otherwise. His name remained in regim
 | 15 Mar 1861 | Continental Lodge room at No. 8 Union Square destroyed by fire; lodge Bible survives, rebound 16 April 1861 | Manhattan |
 | 1859 | Residence at 177 West 48th Street | Manhattan |
 
-[^1]: https://www.loc.gov/resource/sn85042524/1874-01-01/ed-1/?sp=3&q=%22william+gurney%22
+[^1]: [Library of Congress, Chronicling America](https://www.loc.gov/resource/sn85042524/1874-01-01/ed-1/?sp=3&q=%22william+gurney%22)
 [^rigler-gurney]: Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius* (rev. and expanded ed., 1994). Source ID: `rigler-gurney-family-aaron-zuinglius-1994`.
 [^munsell-alley]: W. W. Munsell & Co., *History of Queens County, New York* (1882), Flushing Alley/Ireland Road/Bird mill passage. Source ID: `munsell-history-queens-flushing-1882`.
 [^nfwf-alley]: National Fish and Wildlife Foundation, *The Little Neck Bay Watershed: Historical Ecology and Habitat Restoration Opportunities* (2008), Alley Creek / Alley Pond / Little Neck Bay history. Source ID: `nfwf-little-neck-bay-history-ecology-2008`.

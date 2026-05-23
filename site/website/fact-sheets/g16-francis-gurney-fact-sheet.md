@@ -3,7 +3,7 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g16-francis-gurney-fact-sheet.html
 title: Francis Gurney Fact Sheet
 pageHeading: Francis Gurney (c. 1521 – before December 1556)
-subtitle: "Eldest son of Anthony Gurney (G17); died vita patris before his father; husband of Helen Holdich of Ranworth; father of Henry Gurney (G15) the Elizabethan poet."
+subtitle: "Eldest son of Anthony Gurney (G17); died vita patris before his father; husband of Helen Holdich of Ranworth; father of Henry Gurnay (G15) the Elizabethan poet."
 description: "Compact fact sheet for Francis Gurney of Irstead and West Barsham, who died young and vita patris in the mid-1550s."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
@@ -31,7 +31,7 @@ factsheet:
     "deathDate": "1556",
     "birthPlace": { "@type": "Place", "name": "Norfolk, England" },
     "deathPlace": { "@type": "Place", "name": "Irstead, Norfolk, England" },
-    "description": "Eldest son and heir-apparent of Anthony Gurney of West Barsham. Died vita patris before his father, leaving his young son Henry Gurney as eventual heir to the Norfolk Gurney estates. Husband of Helen Holdich of Ranworth."
+    "description": "Eldest son and heir-apparent of Anthony Gurney of West Barsham. Died vita patris before his father, leaving his young son Henry Gurnay as eventual heir to the Norfolk Gurney estates. Husband of Helen Holdich of Ranworth."
   }
 }
 </script>
@@ -93,7 +93,7 @@ factsheet:
   </thead>
   <tbody>
     <tr>
-      <td><strong>Henry Gurney</strong></td>
+      <td><strong>Henry Gurnay</strong></td>
       <td>21 January 1548/9 – 1615/16</td>
       <td><strong>G15 in the direct line.</strong> Eldest son and only Francis's child to leave issue. Inherited the Norfolk Gurney estates as grandson and heir of his grandfather Anthony Gurney, aged 21 at Anthony's death in January 1555/6 per Blomefield. The last Gurney born a Roman Catholic; later an Elizabethan poet and bibliophile whose 600-poem commonplace book survives as Bodleian MS Tanner 175. Father of twelve. <sup class="fn"><a href="#n10" id="ref-10">10</a></sup></td>
     </tr>
@@ -136,7 +136,7 @@ Francis's role in the line is therefore that of a hinge: he carries the inherita
 <h2 class="unnumbered">Citations</h2>
 
 <ol class="citation-list">
-  <li id="n1">Daniel Gurney, <em>The Record of the House of Gournay</em> (London: privately printed for the author by John Bowyer Nichols and Son, 1848), pedigree p. 287, "Francis Gurnay, Esq. of Irstead, eldest son of Anthony Gurnay." Birth date 20 August 1521 from the Pease/Pennyghael Gurney genealogy (Charles E. G. Pease, 2016, http://www.pennyghael.org.uk/Gurney.pdf). <a class="citation-back" href="#ref-1">↩</a></li>
+  <li id="n1">Daniel Gurney, <em>The Record of the House of Gournay</em> (London: privately printed for the author by John Bowyer Nichols and Son, 1848), pedigree p. 287, "Francis Gurnay, Esq. of Irstead, eldest son of Anthony Gurnay." Birth date 20 August 1521 from the Pease/Pennyghael Gurney genealogy (Charles E. G. Pease, 2016, <a href="http://www.pennyghael.org.uk/Gurney.pdf">Gurney.pdf</a>). <a class="citation-back" href="#ref-1">↩</a></li>
   <li id="n2">Francis Blomefield, <em>An Essay Towards a Topographical History of the County of Norfolk</em>, vol. vii (London: William Miller, 1807), "Gallow and Brothercross Hundreds: West-Barsham," pp. 42–47: "Frances Gournay, Esq. was son of Anthony; he died before his father, and by Helen, daughter Robert Holdich, of Ranworth, Esq. left Henry Gurney, Esq. his son and heir." Available via British History Online. Anthony's own death is independently fixed by Blomefield in the same passage to 4 January 1555 Old Style (= 1556 New Style); Francis must therefore have died before that date. <a class="citation-back" href="#ref-2">↩</a></li>
   <li id="n3">Daniel Gurney, <em>Record</em> (1848), pedigree p. 287. The "of Irstead" identification appears in Daniel Gurney's family papers and pedigree but is not specifically corroborated by Blomefield; see Research Appendix for the Irstead manor descent. <a class="citation-back" href="#ref-3">↩</a></li>
   <li id="n4">Daniel Gurney, <em>Record</em> (1848), pedigree p. 287. No surviving monument is recorded in Pevsner's <em>Norfolk</em> volume or in any source consulted. <a class="citation-back" href="#ref-4">↩</a></li>
@@ -145,7 +145,7 @@ Francis's role in the line is therefore that of a hinge: he carries the inherita
   <li id="n7">Blomefield, <em>History of Norfolk</em>, vol. vii (1807), pp. 42–47. The Holdich family of Ranworth: see also Blomefield, vol. xi (1810), under Ranworth in the Hundred of Walsham. <a class="citation-back" href="#ref-7">↩</a></li>
   <li id="n8">Daniel Gurney, <em>Record</em> (1848), pedigree p. 287, "Francis Gurnay, Esq. of Irstead." Irstead manor descent: Francis Blomefield, <em>An Essay Towards a Topographical History of the County of Norfolk</em>, vol. xi (London: William Miller, 1810), "Tunstede Hundred: Irstead," pp. 46–49 — recording John Groos's 1487 will conditionally bequeathing the manor to Sir Henry Heydon (Anne Heydon G18's father), and a 1540 grant of the manor to Sir Richard Southwell. Available via British History Online. <a class="citation-back" href="#ref-8">↩</a></li>
   <li id="n9">Anthony's death on 4 January 1555/6 confirmed by Blomefield, <em>History of Norfolk</em>, vol. vii (1807), pp. 42–47. Henry's age at inheritance ("aged twenty-one") in the same passage — though this conflicts with the modern reckoning of Henry as born January 1548/9, who would have been about seven at the date Blomefield gives. The "twenty-one" may reflect the age at which Henry took formal livery of the estate after his minority, rather than his age at his grandfather's death. Wardship details from Daniel Gurney, <em>Supplement to the Record of the House of Gournay</em> (King's Lynn: Thew & Son, 1858), pp. 875 ff., extracting Bodleian MS Tanner 175. <a class="citation-back" href="#ref-9">↩</a></li>
-  <li id="n10">See the G15 Henry Gurney fact sheet for full citation chain. <a class="citation-back" href="#ref-10">↩</a></li>
+  <li id="n10">See the G15 Henry Gurnay fact sheet for full citation chain. <a class="citation-back" href="#ref-10">↩</a></li>
   <li id="n11">Pease/Pennyghael Gurney genealogy (2016), naming six children: Henry, Anne, Thomas, Elizabeth, Frances, and one further child not named in the source consulted. Daniel Gurney's pedigree (1848) names only Henry as the heir who continued the line. <a class="citation-back" href="#ref-11">↩</a></li>
 </ol>
 </section>
@@ -165,7 +165,7 @@ Francis's role in the line is therefore that of a hinge: he carries the inherita
   <h2>Related Links</h2>
   <div class="fact-buttons">
     <a href="/maps-and-lists/ancestor-table.html">Ancestor Table</a>
-    <a href="/fact-sheets/g15-henry-gurney-fact-sheet.html">G15 Henry Gurney</a>
+    <a href="/fact-sheets/g15-henry-gurney-fact-sheet.html">G15 Henry Gurnay</a>
     <a href="/fact-sheets/g17-anthony-gurney-fact-sheet.html">G17 Anthony Gurney</a>
     <a href="https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp42-47">Blomefield: West Barsham</a>
     <a href="https://www.british-history.ac.uk/topographical-hist-norfolk/vol11/pp46-49">Blomefield: Irstead</a>

@@ -49,7 +49,7 @@ Farrer gives Caister a precise King John-era seizure context. In May 1203, after
 
 The same Mapledurham section also records two marks of silver yearly from Caister as part of the gift to the Gaille-Fontaine/Clair-Ruissel nunnery by Hugh and Milicent, with the assent of their sons Gerard and Hugh. Caister therefore appears both as an income source in senior-line religious patronage and as a named place in the 1203 forfeiture crisis.[^farrer-caister-1203]
 
-[^farrer-caister-1203]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925), Mapledurham section, HathiTrust extract, https://hdl.handle.net/2027/mdp.39015032992151. Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
+[^farrer-caister-1203]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925), Mapledurham section, [HathiTrust extract](https://hdl.handle.net/2027/mdp.39015032992151). Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
 
 ## Crosslinks
 

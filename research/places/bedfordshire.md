@@ -41,7 +41,7 @@ Farrer ties Houghton Regis to the same senior-line sequence as Wendover and Bled
 
 This is senior collateral geography. It explains why Bedfordshire appears in the Gournay map, but it does not belong to the direct junior Norfolk line unless a later direct-branch record is found.
 
-[^farrer-houghton-regis]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925), Mapledurham section, HathiTrust extract, https://hdl.handle.net/2027/mdp.39015032992151. Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
+[^farrer-houghton-regis]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925), Mapledurham section, [HathiTrust extract](https://hdl.handle.net/2027/mdp.39015032992151). Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
 
 <!-- GENERATED:PLACE-REGISTRY:START -->
 ## Place registry

@@ -41,7 +41,7 @@ King's Lynn appears directly in Francis Gurney's working life through a 17 Octob
 
 This places Francis in a civic poor-employment and textile-production scheme rather than only in private Lestrange finance.
 
-[^hmc-kings-lynn-place]: Historical Manuscripts Commission, "The Borough of King's Lynn: Miscellaneous Writings," *Eleventh Report, Appendix, Part III*, British History Online, https://www.british-history.ac.uk/hist-mss-comm/vol11/pt3/pp235-247. Source ID: `bho-hmc-kings-lynn-misc-writings`.
+[^hmc-kings-lynn-place]: Historical Manuscripts Commission, ["The Borough of King's Lynn: Miscellaneous Writings,"](https://www.british-history.ac.uk/hist-mss-comm/vol11/pt3/pp235-247) *Eleventh Report, Appendix, Part III*, British History Online. Source ID: `bho-hmc-kings-lynn-misc-writings`.
 
 ## Open items
 

@@ -22,8 +22,8 @@ For the Gournay project, this is the fortification half of the La Ferté story. 
 
 ## Sources
 
-- La Ferté-Saint-Samson official history page, https://www.lafertesaintsamson.com/decouvertes/histoire-de-la-ville/
-- Cirkwi / Office de Tourisme des 4 Rivières, “Butte féodale de La Ferté-Saint-Samson,” https://www.cirkwi.com/en/point-interet/4839237-butte-feodale-de-la-ferte-saint-samson
+- [La Ferté-Saint-Samson official history page](https://www.lafertesaintsamson.com/decouvertes/histoire-de-la-ville/)
+- Cirkwi / Office de Tourisme des 4 Rivières, [“Butte féodale de La Ferté-Saint-Samson”](https://www.cirkwi.com/en/point-interet/4839237-butte-feodale-de-la-ferte-saint-samson)
 
 ## Crosslinks
 

@@ -49,7 +49,7 @@ Do not conflate Harpley's medieval Gurney manor with **Gurney's Manor, Hingham**
 
 Harpley remains a major medieval and Tudor Gurney manor, but the phrase "Gurney's manor in Harpley" should be used descriptively, not as a proper-name reference to the extant Hingham house.
 
-[^dicamillo-gurneys-manor-harpley]: Curt DiCamillo, "Gurney's Manor," *The DiCamillo Companion to British & Irish Country Houses*, https://www.thedicamillo.com/house/gurneys-manor/. Source ID: `dicamillo-gurneys-manor`.
+[^dicamillo-gurneys-manor-harpley]: Curt DiCamillo, ["Gurney's Manor,"](https://www.thedicamillo.com/house/gurneys-manor/) *The DiCamillo Companion to British & Irish Country Houses*. Source ID: `dicamillo-gurneys-manor`.
 
 ### St Lawrence: advowson, chancel, and visible Gurnay memory
 
@@ -67,11 +67,11 @@ This makes Harpley a rare place where the direct line's manorial, ecclesiastical
 
 The Gazetteer of Markets and Fairs adds one more administrative detail: on 5 June 1307 Edward I granted a fair at Harpley to John de Gurnay, parson of the church of Harpley, to be held at the manor on the vigil and feast of St Lawrence.[^gazetteer-harpley]
 
-[^blomefield-harpley]: Francis Blomefield, "Freebridge Hundred and Half: Harpley," in *An Essay Towards A Topographical History of the County of Norfolk*, vol. 8 (London, 1808), pp. 452-459, British History Online, https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459. Source ID: `blomefield-norfolk`.
-[^ggm-harpley-church]: "Harpley Church History," GGM Benefice, Harpley, St Lawrence, https://www.ggmbenefice.uk/our-churches/harpley/harpley-church-history/. Source ID: `ggm-benefice-harpley-church-history`.
-[^explore-harpley-st-lawrence]: "The Church of St. Lawrence, Harpley," Explore West Norfolk, https://www.explorewestnorfolk.co.uk/venues/the-church-of-st-lawrence-harpley-21/. Source ID: `explore-west-norfolk-harpley-st-lawrence`.
-[^nct-harpley]: "Harpley St Lawrence," National Churches Trust, https://www.nationalchurchestrust.org/church/harpley-st-lawrence. Source ID: `national-churches-trust-harpley-st-lawrence`.
-[^gazetteer-harpley]: Samantha Letters et al., *Gazetteer of Markets and Fairs in England and Wales to 1516*, Norfolk, Harpley entry, https://archives.history.ac.uk/gazetteer/norf.html#Harp. Source ID: `history-ac-uk-markets-fairs-gazetteer`.
+[^blomefield-harpley]: Francis Blomefield, ["Freebridge Hundred and Half: Harpley,"](https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459) in *An Essay Towards A Topographical History of the County of Norfolk*, vol. 8 (London, 1808), pp. 452-459, British History Online. Source ID: `blomefield-norfolk`.
+[^ggm-harpley-church]: ["Harpley Church History,"](https://www.ggmbenefice.uk/our-churches/harpley/harpley-church-history/) GGM Benefice, Harpley, St Lawrence. Source ID: `ggm-benefice-harpley-church-history`.
+[^explore-harpley-st-lawrence]: ["The Church of St. Lawrence, Harpley,"](https://www.explorewestnorfolk.co.uk/venues/the-church-of-st-lawrence-harpley-21/) Explore West Norfolk. Source ID: `explore-west-norfolk-harpley-st-lawrence`.
+[^nct-harpley]: ["Harpley St Lawrence,"](https://www.nationalchurchestrust.org/church/harpley-st-lawrence) National Churches Trust. Source ID: `national-churches-trust-harpley-st-lawrence`.
+[^gazetteer-harpley]: Samantha Letters et al., *Gazetteer of Markets and Fairs in England and Wales to 1516*, [Norfolk, Harpley entry](https://archives.history.ac.uk/gazetteer/norf.html#Harp). Source ID: `history-ac-uk-markets-fairs-gazetteer`.
 
 ## Open items
 

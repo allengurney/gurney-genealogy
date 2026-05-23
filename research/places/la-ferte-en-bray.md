@@ -115,8 +115,8 @@ This makes La Ferté a rare place where the local topography, the family genealo
 - `research/places/fry-eglise-saint-martin.md`
 - `research/places/la-ferte-foundation-endowment-cluster.md`
 
-[^planche-laferte]: J. R. Planché, *The Conqueror and His Companions*, vol. 1 (London: Tinsley Brothers, 1874), Hugh de Gournay section, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/conquerorcompanion/companion.htm. Source ID: `planche-conqueror-companions-1874`.
-[^pettigrew-laferte]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 180-181, Google Books, https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ. Source ID: `pettigrew-collectanea-house-gournay-1871`.
+[^planche-laferte]: J. R. Planché, *The Conqueror and His Companions*, vol. 1 (London: Tinsley Brothers, 1874), Hugh de Gournay section, [1066.co.nz electronic edition](https://www.1066.co.nz/Mosaic%20DVD/library/conquerorcompanion/companion.htm). Source ID: `planche-conqueror-companions-1874`.
+[^pettigrew-laferte]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 180-181, [Google Books](https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ). Source ID: `pettigrew-collectanea-house-gournay-1871`.
 
 <!-- GENERATED:PLACE-REGISTRY:START -->
 ## Place registry

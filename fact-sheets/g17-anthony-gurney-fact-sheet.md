@@ -4,7 +4,7 @@ permalink: /fact-sheets/g17-anthony-gurney-fact-sheet.html
 title: Anthony Gurney Fact Sheet
 pageHeading: Anthony Gurney (c. 1499 – 4 January 1555/6)
 subtitle: "Boy lord of West Barsham; second cousin of Anne Boleyn through his Heydon mother; brought Great Ellingham and the Mortimer of Attleborough lands into the family by marrying Margaret Lovell. Foreman of the Norfolk grand jury that indicted the Earl of Surrey in 1547."
-description: "Compact fact sheet for Anthony Gurney of West Barsham and Great Ellingham, the Tudor Norfolk gentleman who bridged the medieval Gurneys and the Elizabethan Henry Gurney."
+description: "Compact fact sheet for Anthony Gurney of West Barsham and Great Ellingham, the Tudor Norfolk gentleman who bridged the medieval Gurneys and the Elizabethan Henry Gurnay."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
 factsheet:
@@ -12,9 +12,8 @@ factsheet:
   slug: g17-anthony-gurney-fact-sheet
   personName: Anthony Gurney
   heroImage: /media/factsheets/g17-anthony-gurney-hero.png
-  heroAlt: St James the Apostle, Great Ellingham, Norfolk — the church of the Lovell-Mortimer manor that came to Anthony Gurney through his wife Margaret Lovell
-  heroCaption: St James the Apostle, Great Ellingham, Norfolk — the parish church of the manor that came into the Gurney family through Anthony's marriage to Margaret Lovell, daughter and coheir of Sir Robert Lovell. Per Blomefield's parish entry (vol. i, pp. 482–490), the manor descended to Anthony Gourney "in right of Margaret his wife, one of the daughters and coheirs of Sir Robert Lovell, by Ela Conyers his wife" after Henry Spelman the elder of "Mickle Elyngham" died without issue in 1525. Anthony's grandson Henry G15 made Great Ellingham his principal residence and was buried with an epitaph verse here.
-  heroCredit: Photograph via Geograph / CC BY-SA.
+  heroAlt: Anthony Gurney as foreman of the 1546 Norfolk grand jury that returned a true bill against Henry Howard, Earl of Surrey
+  heroCaption: Depiction of Anthony Gurney as foreman of the 1546 Norfolk grand jury that returned a true bill against Henry Howard, Earl of Surrey. Illustrated by author.
 ---
 
 <script type="application/ld+json">
@@ -77,7 +76,7 @@ factsheet:
   <li><strong>"Gurney's Place" in Norwich — town house in St Julian's parish.</strong> Daniel Gurney records a Gurney town house in the parish of St Julian, Norwich, known as "Gurney's Place," held during Anthony's lifetime. The Gurneys had been holders of urban property in Norwich since the medieval period (Pockthorpe and the eastern suburbs); a town house in St Julian's, the parish associated with the Lady Julian of Norwich anchoress cell, would have been a notably central location. <sup class="fn"><a href="#n8" id="ref-8">8</a></sup></li>
   <li><strong>Foreman of the Norfolk grand jury that indicted the Earl of Surrey, January 1546/7.</strong> On 7 January 1546/7 Anthony Gurney sat as foreman of the Norfolk grand jury that returned a true bill against Henry Howard, Earl of Surrey — the poet, son of the Duke of Norfolk, and one of the great courtier-noblemen of Henry VIII's reign — for treason. Surrey was tried at the Guildhall on 13 January, condemned, and beheaded on Tower Hill on 19 January 1547. Henry VIII himself died nine days later. The indictment is documented in the State Papers and is one of the few moments when a Norfolk Gurney appears at a national level of political action. The political weight of Anthony's position — a relatively minor Norfolk gentleman foreman of a jury that destroyed England's premier earl, with the king dying within days — is hard to overstate. <sup class="fn"><a href="#n9" id="ref-9">9</a></sup></li>
   <li><strong>Hosted in the Lestrange of Hunstanton household accounts.</strong> Anthony appears in the famous Hunstanton household and privy purse accounts (kept by the Lestranges of Hunstanton, 1519–1578) — published by Daniel Gurney in <em>Archaeologia</em> vol. 25 (1832). The accounts identify "Anthony Gurney, Esq. of West Barsham and Great Ellingham" among the Lestranges' regular Norfolk visitors and dinner companions. The Lestranges were major north-Norfolk gentry; their accounts are one of the most detailed surviving records of early-Tudor East Anglian gentry sociability. <sup class="fn"><a href="#n10" id="ref-10">10</a></sup></li>
-  <li><strong>Died 4 January 1555/6, leaving his grandson Henry as heir.</strong> Anthony's eldest son Francis Gurney (G16) had died <em>vita patris</em> some months or years earlier. When Anthony died — Blomefield gives the precise day, 4 January 1555 Old Style — the inheritance passed to his grandson Henry Gurney (G15), a child of about seven. Blomefield's "aged twenty-one years" almost certainly refers not to Henry's actual age at the moment of inheritance but to the age at which Henry would later take formal livery of the estate after his minority. The death within months of Mary I's restoration of Catholicism made Anthony almost the last Gurney patriarch to die in a Catholic England. <sup class="fn"><a href="#n11" id="ref-11">11</a></sup></li>
+  <li><strong>Died 4 January 1555/6, leaving his grandson Henry as heir.</strong> Anthony's eldest son Francis Gurney (G16) had died <em>vita patris</em> some months or years earlier. When Anthony died — Blomefield gives the precise day, 4 January 1555 Old Style — the inheritance passed to his grandson Henry Gurnay (G15), a child of about seven. Blomefield's "aged twenty-one years" almost certainly refers not to Henry's actual age at the moment of inheritance but to the age at which Henry would later take formal livery of the estate after his minority. The death within months of Mary I's restoration of Catholicism made Anthony almost the last Gurney patriarch to die in a Catholic England. <sup class="fn"><a href="#n11" id="ref-11">11</a></sup></li>
 </ul>
 </section>
 
@@ -170,7 +169,7 @@ Anthony's death came two months into Mary I's restoration of Catholicism. He was
   <h2>Related Links</h2>
   <div class="fact-buttons">
     <a href="/maps-and-lists/ancestor-table.html">Ancestor Table</a>
-    <a href="/fact-sheets/g15-henry-gurney-fact-sheet.html">G15 Henry Gurney</a>
+    <a href="/fact-sheets/g15-henry-gurney-fact-sheet.html">G15 Henry Gurnay</a>
     <a href="/fact-sheets/g16-francis-gurney-fact-sheet.html">G16 Francis Gurney</a>
     <a href="/fact-sheets/g18-william-gurney-v-fact-sheet.html">G18 William Gurney V</a>
     <a href="/fact-sheets/g17-queen-anne-boleyn-related-fact-sheet.html">Related: Queen Anne Boleyn</a>

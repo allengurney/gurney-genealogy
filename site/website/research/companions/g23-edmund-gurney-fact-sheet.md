@@ -87,8 +87,8 @@ Blomefield's Norwich Richard II chapter gives Edmund an independent civic role: 
 
 Blomefield's North Barsham entry adds another landholding context: in Edward III's reign North Barsham came to Edmund Gurney by his marriage with Catherine, daughter of Sir William and sister of Sir Edward Wauci, and remained in the family.[^blomefield-north-barsham-g23]
 
-[^blomefield-norwich-richard-ii-g23]: Francis Blomefield, "The city of Norwich, chapter 16: Of the city in Richard II's time," *History of Norfolk*, vol. 3, pp. 102-117, British History Online, https://www.british-history.ac.uk/topographical-hist-norfolk/vol3/pp102-117. Source ID: `blomefield-norfolk`.
-[^blomefield-north-barsham-g23]: Francis Blomefield, "Gallow and Brothercross Hundreds: North-Barsham," *History of Norfolk*, vol. 7, pp. 47-52, British History Online, https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp47-52. Source ID: `blomefield-norfolk`.
+[^blomefield-norwich-richard-ii-g23]: Francis Blomefield, ["The city of Norwich, chapter 16: Of the city in Richard II's time,"](https://www.british-history.ac.uk/topographical-hist-norfolk/vol3/pp102-117) *History of Norfolk*, vol. 3, pp. 102-117, British History Online. Source ID: `blomefield-norfolk`.
+[^blomefield-north-barsham-g23]: Francis Blomefield, ["Gallow and Brothercross Hundreds: North-Barsham,"](https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp47-52) *History of Norfolk*, vol. 7, pp. 47-52, British History Online. Source ID: `blomefield-norfolk`.
 
 ### Berford's Manor, Cringleford — De la Pole feoffee, c. 1370
 
@@ -148,7 +148,7 @@ This is independent of the 1382 Close Rolls trust by John de Plays already docum
 
 The Wansey/Wauncy pedigree lead preserves a close but conflicting collateral-line version of Edmund Gurney's family. It agrees with the settled frame that Edmund Gorney died in 1387 and that his son John died in 9 Henry IV, but it says Katherine survived Edmund until 3 Henry IV (1401/2), identifies John's wife as Alice Bavard, and says John was knight of the shire in 6 Henry IV. The wife's name is the material conflict: HoP identifies Sir John's wife as Alice Heylesdon, while the Wansey pedigree supplies Alice Bavard. Keep the Wansey form beside the HoP and DG material as a real pedigree witness, but do not replace Heylesdon unless the Bavard/Heylesdon discrepancy can be resolved by alias, remarriage, or a page-image transcription error.[^wansey-pedigree-g23]
 
-[^wansey-pedigree-g23]: "Genealogy of the ancient Family of the Wanseys olim Waunci," copied from William Wansey, F.S.A., manuscript books on the Wansey family, 1873, PDF hosted by Nick Delves, https://www.nickdelves.co.uk/wansey/wansey/1925_08Wansey_Family_Tree_Medieval_Genealogy.pdf; user-supplied transcription in `C:\Users\allen\Downloads\Future research urls3.md`. Source ID: `wansey-medieval-genealogy-1925`.
+[^wansey-pedigree-g23]: "Genealogy of the ancient Family of the Wanseys olim Waunci," copied from William Wansey, F.S.A., manuscript books on the Wansey family, 1873, [PDF hosted by Nick Delves](https://www.nickdelves.co.uk/wansey/wansey/1925_08Wansey_Family_Tree_Medieval_Genealogy.pdf); user-supplied transcription in `C:\Users\allen\Downloads\Future research urls3.md`. Source ID: `wansey-medieval-genealogy-1925`.
 
 | Claim | Source A | Source B | Status |
 |---|---|---|---|

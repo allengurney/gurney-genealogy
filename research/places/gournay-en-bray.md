@@ -168,9 +168,9 @@ This is why Gournay-en-Bray itself should remain the town / honor / seigneurial-
 - `research/places/pays-de-bray.md`
 - `research/places/gaillefontaine.md`
 
-[^planche-gournay-place]: J. R. Planché, *The Conqueror and His Companions*, vol. 1 (London: Tinsley Brothers, 1874), Hugh de Gournay section, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/conquerorcompanion/companion.htm. Source ID: `planche-conqueror-companions-1874`.
-[^palgrave-pays-bray]: Francis Palgrave, *The History of England and Normandy* (London: Macmillan and Co., 1864), Mortemer/Pays de Bray narrative, 1066.co.nz electronic edition, https://www.1066.co.nz/Mosaic%20DVD/library/palgrave/palgrave.htm. Source ID: `palgrave-history-england-normandy-1864`.
-[^pettigrew-gournay-place]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 176-179, Google Books, https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ. Source ID: `pettigrew-collectanea-house-gournay-1871`.
+[^planche-gournay-place]: J. R. Planché, *The Conqueror and His Companions*, vol. 1 (London: Tinsley Brothers, 1874), Hugh de Gournay section, [1066.co.nz electronic edition](https://www.1066.co.nz/Mosaic%20DVD/library/conquerorcompanion/companion.htm). Source ID: `planche-conqueror-companions-1874`.
+[^palgrave-pays-bray]: Francis Palgrave, *The History of England and Normandy* (London: Macmillan and Co., 1864), Mortemer/Pays de Bray narrative, [1066.co.nz electronic edition](https://www.1066.co.nz/Mosaic%20DVD/library/palgrave/palgrave.htm). Source ID: `palgrave-history-england-normandy-1864`.
+[^pettigrew-gournay-place]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 176-179, [Google Books](https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ). Source ID: `pettigrew-collectanea-house-gournay-1871`.
 
 <!-- GENERATED:PLACE-REGISTRY:START -->
 ## Place registry

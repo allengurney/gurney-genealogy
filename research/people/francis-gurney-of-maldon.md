@@ -4,7 +4,7 @@ Research file for the younger Francis Gurney, merchant, Alderman and Bailiff of 
 
 Primary source for this file is Charles A. Bernau's 1913 *British Archivist* biography (`sourceId: british-archivist-bernau-1913`, proposed), supplemented by Daniel Gurney's *Record* and the reconstructed 1858 loose supplement. Full corpus extract at `sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md`.[^bernau-1913-source]
 
-[^bernau-1913-source]: Charles A. Bernau, "Unrecorded Biographies: Francis Gournay (or Gurney), of Maldon, Essex," *The British Archivist* vol. I, no. 7 (September 1913), pp. 49 ff. URL: https://www.google.com/books/edition/The_British_Archivist/4UhFAAAAYAAJ. Cited hereafter as *Bernau 1913*.
+[^bernau-1913-source]: Charles A. Bernau, "Unrecorded Biographies: Francis Gournay (or Gurney), of Maldon, Essex," *The British Archivist* vol. I, no. 7 (September 1913), pp. 49 ff., [Google Books](https://www.google.com/books/edition/The_British_Archivist/4UhFAAAAYAAJ). Cited hereafter as *Bernau 1913*.
 
 ---
 
@@ -194,7 +194,7 @@ The 1661 Charles II assessment act names a Francis Gurney among commissioners in
 
 Treat this as a lead for Francis of Maldon's public standing after the Restoration. It should be reconciled with Bernau's Maldon civic chronology before being promoted into a firm biographical sentence.
 
-[^statutes-francis-1661]: "Charles II, 1661: An Act for granting unto the Kings Majestie twelve hundred and threescore thousand pounds...," *Statutes of the Realm*, vol. 5, British History Online, https://www.british-history.ac.uk/statutes-realm/vol5/pp325-348. Source ID: `bho-statutes-realm-1661-assessment`.
+[^statutes-francis-1661]: ["Charles II, 1661: An Act for granting unto the Kings Majestie twelve hundred and threescore thousand pounds...,"](https://www.british-history.ac.uk/statutes-realm/vol5/pp325-348) *Statutes of the Realm*, vol. 5, British History Online. Source ID: `bho-statutes-realm-1661-assessment`.
 
 ## Sources
 

@@ -30,8 +30,8 @@ For the Gournay library, Gaillefontaine matters because Orderic places it in the
 
 ## Sources
 
-- Plan du Patrimoine / POP, “Domaine de Gaillefontaine,” https://www.plan-du-patrimoine.fr/monument-historique/76/gaillefontaine/domaine-de-gaillefontaine/PA00100670/
-- POP / Mérimée, “Domaine de Gaillefontaine,” https://pop.culture.gouv.fr/notice/merimee/PA00100670
+- Plan du Patrimoine / POP, [“Domaine de Gaillefontaine”](https://www.plan-du-patrimoine.fr/monument-historique/76/gaillefontaine/domaine-de-gaillefontaine/PA00100670/)
+- POP / Mérimée, [“Domaine de Gaillefontaine”](https://pop.culture.gouv.fr/notice/merimee/PA00100670)
 - Orderic Vitalis passage as summarized in `research/people/g32-gerard-de-gournay-fact-sheet.research.md`
 
 ## Crosslinks

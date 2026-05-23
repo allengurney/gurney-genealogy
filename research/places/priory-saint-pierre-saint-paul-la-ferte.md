@@ -26,8 +26,8 @@ This record should not be used for the castle / motte, even though the two place
 
 ## Sources
 
-- La Ferté-Saint-Samson patrimony page, https://www.lafertesaintsamson.com/decouvertes/patrimoine-%C3%A0-voir/
-- MonVillageNormand, “Église Saint-Pierre et Saint-Paul de La Ferté-en-Bray,” https://76.monvillagenormand.fr/Eglise.php?NumEglise=4761275
+- [La Ferté-Saint-Samson patrimony page](https://www.lafertesaintsamson.com/decouvertes/patrimoine-%C3%A0-voir/)
+- MonVillageNormand, [“Église Saint-Pierre et Saint-Paul de La Ferté-en-Bray”](https://76.monvillagenormand.fr/Eglise.php?NumEglise=4761275)
 
 ## Crosslinks
 

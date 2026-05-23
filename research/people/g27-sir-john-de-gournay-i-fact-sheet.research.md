@@ -122,7 +122,7 @@ None identified for John himself. The Katherine Ingoldesthorpe/Baconsthorpe ques
 
 ---
 
-[^farrer-g27-wootton]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925), Honor of Arundel, p. 142, HathiTrust extract, https://hdl.handle.net/2027/mdp.39015032992151. Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
+[^farrer-g27-wootton]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925), Honor of Arundel, p. 142, [HathiTrust extract](https://hdl.handle.net/2027/mdp.39015032992151). Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
 
 ## Fact Sheet Improvement Notes
 

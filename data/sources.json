@@ -141,24 +141,26 @@
     "gurnay-redivivus-1660": {
       "shortTitle": "Gurnay Redivivus (1660)",
       "citation": "Gurnay, Edmund. Gurnay redivivus, or an appendix unto the homily against images in churches. London: Printed for J. Rothwel at the Fountain in Goldsmiths-Row in Cheap-side, 1660.",
-      "archive": "Folger Shakespeare Library catalog / Internet Archive scan",
-      "url": "https://catalog.folger.edu/record/154518",
+      "archive": "Internet Archive (Early English Books 1641-1700) full-page scan; Folger Shakespeare Library catalog record (secondary).",
+      "url": "https://archive.org/details/bim_early-english-books-1641-1700_gurnay-redivivus-or-an-_gurnay-edmund_1660/",
+      "secondaryUrl": "https://catalog.folger.edu/record/154518",
       "corpusStatus": "partial",
       "corpusPath": "sources/corpus_supplement/gurnay-redivivus-1660-research-extract.md",
       "mediaPath": null,
       "validationPath": "sources/validations/gurnay-redivivus-1660.md",
-      "notes": "Primary printed anti-image tract by Edmund Gurnay, B.D., minister at Harpley. The corpus supplement path holds a concise extract from the original source metadata; sources/corpus_supplement/deep-research-report-gurney-redivivus.md remains a related working analysis with title-page/dedication transcription, selected text extracts, and commentary, not a full diplomatic transcription. Folger records the item as a 1660 second edition, originally published in 1641, with a same-year reissue/cancel title issue. DNB reports republication in 1661; preserve this bibliographic discrepancy pending ESTC/Wing and scan-level review."
+      "notes": "Primary printed anti-image tract by Edmund Gurnay, B.D., minister at Harpley. Online book scan: https://archive.org/details/bim_early-english-books-1641-1700_gurnay-redivivus-or-an-_gurnay-edmund_1660/ (Internet Archive, Early English Books 1641-1700). Folger catalog record (secondary bibliographic control): https://catalog.folger.edu/record/154518. The corpus supplement path holds a concise extract from the original source metadata; sources/corpus_supplement/deep-research-report-gurney-redivivus.md remains a related working analysis with title-page/dedication transcription, selected text extracts, and commentary, not a full diplomatic transcription. Folger records the item as a 1660 second edition, originally published in 1641, with a same-year reissue/cancel title issue. DNB reports republication in 1661; preserve this bibliographic discrepancy pending ESTC/Wing and scan-level review."
     },
     "folger-corpus-christi-1619": {
-      "shortTitle": "Folger - Corpus Christi (1619)",
+      "shortTitle": "Corpus Christi (1619) - Internet Archive / Folger",
       "citation": "Gurnay, Edmund. Corpus Christi. Cambridge: Cantrell Legge, printer to the University of Cambridge, 1619.",
-      "archive": "Folger Shakespeare Library catalog",
-      "url": "https://catalog.folger.edu/record/159988",
+      "archive": "Internet Archive (Early English Books 1475-1640) full-page scan; Folger Shakespeare Library catalog record (secondary).",
+      "url": "https://archive.org/details/bim_early-english-books-1475-1640_corpus-christi_gurnay-edmund_1619",
+      "secondaryUrl": "https://catalog.folger.edu/record/159988",
       "corpusStatus": "none",
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Bibliographic control for Edmund Gurnay's 1619 treatise against transubstantiation; sermon on Matthew 26:26; STC 12527."
+      "notes": "Edmund Gurnay's 1619 treatise against transubstantiation; sermon on Matthew 26:26; STC 12527. Online book scan: https://archive.org/details/bim_early-english-books-1475-1640_corpus-christi_gurnay-edmund_1619 (Internet Archive, Early English Books 1475-1640). Folger catalog record (secondary bibliographic control): https://catalog.folger.edu/record/159988."
     },
     "ota-corpus-christi-1619": {
       "shortTitle": "OTA - Corpus Christi (1619)",
@@ -172,15 +174,16 @@
       "notes": "Publicly available text/corpus files for Corpus Christi, useful for future direct textual analysis."
     },
     "folger-romish-chaine-1624": {
-      "shortTitle": "Folger - The Romish chaine (1624)",
+      "shortTitle": "The Romish chaine (1624) - Internet Archive / Folger",
       "citation": "Gurnay, Edmund. The Romish chaine. By Edmund Gurnay, parson of Harpley. London: Printed by Augustine Mathewes for Mathew Law, 1624.",
-      "archive": "Folger Shakespeare Library catalog",
-      "url": "https://catalog.folger.edu/record/401784",
+      "archive": "Internet Archive (Early English Books 1475-1640) full-page scan; Folger Shakespeare Library catalog record (secondary).",
+      "url": "https://archive.org/details/bim_early-english-books-1475-1640_the-romish-chaine_gurnay-edmund_1624",
+      "secondaryUrl": "https://catalog.folger.edu/record/401784",
       "corpusStatus": "none",
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Bibliographic control for Edmund Gurnay's 1624 anti-Roman tract; STC 12530; title identifies him as parson of Harpley."
+      "notes": "Edmund Gurnay's 1624 anti-Roman tract; STC 12530; title identifies him as parson of Harpley. Online book scan: https://archive.org/details/bim_early-english-books-1475-1640_the-romish-chaine_gurnay-edmund_1624 (Internet Archive, Early English Books 1475-1640). Folger catalog record (secondary bibliographic control): https://catalog.folger.edu/record/401784."
     },
     "ota-romish-chaine-1624": {
       "shortTitle": "OTA - The Romish chaine (1624)",
@@ -194,26 +197,28 @@
       "notes": "Publicly available text/corpus files for The Romish chaine, useful for future direct textual analysis."
     },
     "folger-demonstration-antichrist-1631": {
-      "shortTitle": "Folger - Demonstration of Antichrist (1631)",
+      "shortTitle": "Demonstration of Antichrist (1631) - Internet Archive / Folger",
       "citation": "Gurnay, Edmund. The demonstration of Antichrist. London: Printed by John Beale for James Boler, 1631.",
-      "archive": "Folger Shakespeare Library catalog",
-      "url": "https://catalog.folger.edu/record/168785",
+      "archive": "Internet Archive (Early English Books 1475-1640) full-page scan; Folger Shakespeare Library catalog record (secondary).",
+      "url": "https://archive.org/details/bim_early-english-books-1475-1640_the-demonstration-of-ant_gurnay-edmund_1631",
+      "secondaryUrl": "https://catalog.folger.edu/record/168785",
       "corpusStatus": "none",
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Bibliographic control for Edmund Gurnay's 1631 anti-Roman tract; title identifies him as B.D. and parson of Harpley, Norfolk; STC 12529."
+      "notes": "Edmund Gurnay's 1631 anti-Roman tract; title identifies him as B.D. and parson of Harpley, Norfolk; STC 12529. Online book scan: https://archive.org/details/bim_early-english-books-1475-1640_the-demonstration-of-ant_gurnay-edmund_1631 (Internet Archive, Early English Books 1475-1640). Folger catalog record (secondary bibliographic control): https://catalog.folger.edu/record/168785."
     },
     "folger-second-commandment-1639": {
-      "shortTitle": "Folger - Toward the vindication of the Second Commandment (1639)",
-      "citation": "Gurnay, Edmund. Toward the vindication of the Second Commandment. Cambridge: Thomas Buck, one of the printers to the University of Cambridge, 1639.",
-      "archive": "Folger Shakespeare Library catalog",
-      "url": "https://catalog.folger.edu/record/159994",
+      "shortTitle": "Toward the Vindication of the Second Commandment (1639/1661) - Internet Archive / Folger",
+      "citation": "Gurnay, Edmund. Toward the vindication of the Second Commandment. Cambridge: Thomas Buck, one of the printers to the University of Cambridge, 1639. (1661 republication scan available on Internet Archive.)",
+      "archive": "Internet Archive (Early English Books 1641-1700) full-page scan of the 1661 republication; Folger Shakespeare Library catalog record for the 1639 first edition (secondary).",
+      "url": "https://archive.org/details/bim_early-english-books-1641-1700_toward-the-vindication-o_gurnay-edmund_1661",
+      "secondaryUrl": "https://catalog.folger.edu/record/159994",
       "corpusStatus": "none",
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Bibliographic control for Edmund Gurnay's 1639 anti-image tract; title identifies him as Bachelor in Divinity and minister of God's word at Harpley in Norfolk; STC 12531."
+      "notes": "Edmund Gurnay's anti-image tract; title identifies him as Bachelor in Divinity and minister of God's word at Harpley in Norfolk; STC 12531 (first edition 1639). Online book scan (1661 republication): https://archive.org/details/bim_early-english-books-1641-1700_toward-the-vindication-o_gurnay-edmund_1661 (Internet Archive, Early English Books 1641-1700). Folger catalog record for the 1639 first edition (secondary bibliographic control): https://catalog.folger.edu/record/159994. The archive.org scan is the 1661 republication, not the 1639 Cambridge first edition the Folger record describes."
     },
     "grokipedia-edmund-gurney-divine": {
       "shortTitle": "Grokipedia - Edmund Gurney (divine)",
@@ -323,7 +328,7 @@
       "corpusPath": "sources/corpus_supplement/blomefield-norfolk-vol5-pp33-cringleford-berford.md",
       "mediaPath": null,
       "validationPath": "sources/validations/blomefield-norfolk-vol5-pp33-cringleford-berford.md",
-      "notes": "Page-level Blomefield/BHO extract for Cringleford's Berford's Manor descent. Records that after the De la Poles obtained the manor in trust, they settled it on Edmund Gourney, William de Boyton, Thomas Spynk, and John le Latimer of Norwich as feoffees; the manor extended into Hethersett, Eaton, Earlham, Little Melton, Colney, and Cringleford watermill; by 1381 John le Latimer was sole lord with view of frankpledge, weyf, and strey; in the same year Gournay and the other De la Pole feoffees released their right to him. Adds Edmund Gurney (G23) to the documented De la Pole / Latimer feoffee network in the 1370s."
+      "notes": "Page-level Blomefield/BHO extract for Cringleford's Berford's Manor descent. Records that after the De la Poles obtained the manor in trust, they settled it on Edmund Gourney, William de Boyton, Thomas Spynk, and John le Latimer of Norwich as feoffees; the manor extended into Hethersett, Eaton, Earlham, Little Melton, Colney, and Cringleford watermill; by 1381 John le Latimer was sole lord with view of frankpledge, weyf, and strey; in the same year Gournay and the other De la Pole feoffees released their right to him. Adds Edmund Gournay (G23) to the documented De la Pole / Latimer feoffee network in the 1370s."
     },
     "nyclipper-1895-08-patchogue-fauntleroy": {
       "shortTitle": "New York Clipper, August 1895 — Patchogue Lord Fauntleroy notice",
@@ -1423,7 +1428,7 @@
       "notes": "Primary source for G2 fact sheet. Lester Hayes Gurney born 16 November 1945 NYC; died 16 December 2025 at The Towne House Retirement Community, Fort Wayne, IN, age 80. Parents: Lester Sawyer Gurney III (G3) and Edith Walberg. B.S. Electrical Engineering, Valparaiso University. \"Third-generation power engineer\" with Indiana & Michigan Electric Co. (later AEP). Married Dana Ault, 22 June 1968, Fulton, IN; met at Valparaiso. Master Mason, McCulloch Lodge No. 737 (Marion, IN); Scottish Rite; Salaam Shriners; \"five-generation family tradition in Freemasonry.\" 25-year Kiwanian (Secretary); Habitat for Humanity; BSA Troop 433 Treasurer; IEEE 50+ years. Westminster Presbyterian, Marion; later First Presbyterian, Fort Wayne. Survivors: son Allen Gurney and Beth Levy (Portland, OR); grandchildren Ebba and Soren Gurney (Ann Arbor, MI); brother-in-law Carl Ault and sister-in-law Rita Ault (Rochester, IN). Predeceased by wife Dana and son Kenneth. Celebration of Life, 17 January 2026, The Towne House Chapel, 2209 Saint Joe Center Road, Fort Wayne. Memorials directed to the Parkinson's Foundation. Accessed 25 April 2026."
     },
     "gurney-family-handwritten-notes-1963": {
-      "shortTitle": "1963 Gurney family handwritten notes",
+      "shortTitle": "Gurney family handwritten notes 1963",
       "citation": "Gurney family handwritten oral-history and research notes, eight photographed notebook pages; revised findings memorandum v3 prepared 4 May 2026 from page photographs. Pages 1-4 are earlier loose family notes; pages 5-8 are later cleaner notes in the hand of Dana Gurney.",
       "archive": "Allen Gurney family papers / user-supplied revised findings memorandum",
       "url": null,
@@ -1827,7 +1832,7 @@
       "corpusPath": "sources/corpus_supplement/henry_gurney_g15_may_article_narrative.md",
       "mediaPath": null,
       "validationPath": "sources/validations/may-henry-gurney-spenser-2005.md",
-      "notes": "Modern academic article on Henry Gurney and Bodleian MS Tanner 175. The corpus supplement is a narrative research extraction from the ILL article copy, not the copyrighted PDF. User-supplied ResearchGate metadata gives January 2004, Spenser Studies 19:183-216, DOI 10.1086/SPSv20p183. The article-copy citation and the Chetham/JNR bibliography give Spenser Studies 20 (2005), pp. 183-223. Do not drop either metadata variant; reconcile by DOI/full article before citation cleanup. The article supports Henry as poet, critic, bibliophile, estate manager, and literary-network figure at Great Ellingham; MS Tanner 175 preserves estate notes, library inventory, more than 600 poems, and verse censures of borrowed books including Foxe, Southwell, Hakluyt, The Faerie Queene, and Mother Hubberds Tale."
+      "notes": "Modern academic article on Henry Gurnay and Bodleian MS Tanner 175. The corpus supplement is a narrative research extraction from the ILL article copy, not the copyrighted PDF. User-supplied ResearchGate metadata gives January 2004, Spenser Studies 19:183-216, DOI 10.1086/SPSv20p183. The article-copy citation and the Chetham/JNR bibliography give Spenser Studies 20 (2005), pp. 183-223. Do not drop either metadata variant; reconcile by DOI/full article before citation cleanup. The article supports Henry as poet, critic, bibliophile, estate manager, and literary-network figure at Great Ellingham; MS Tanner 175 preserves estate notes, library inventory, more than 600 poems, and verse censures of borrowed books including Foxe, Southwell, Hakluyt, The Faerie Queene, and Mother Hubberds Tale."
     },
     "bodleian-ms-tanner-175-marco": {
       "shortTitle": "Bodleian MS Tanner 175 - MARCO",
@@ -1838,10 +1843,10 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": "sources/validations/bodleian-ms-tanner-175-marco.md",
-      "notes": "Catalogue lead for Henry Gurney's manuscript commonplace book. The MARCO page did not render in this pass, but the URL should be retained as the direct manuscript-control lead for future review."
+      "notes": "Catalogue lead for Henry Gurnay's manuscript commonplace book. The MARCO page did not render in this pass, but the URL should be retained as the direct manuscript-control lead for future review."
     },
     "mosaic-dvd-hugue-de-gournay": {
-      "shortTitle": "1066 Mosaic DVD - Hugue de Gournay",
+      "shortTitle": "Mosaic DVD - Hugue de Gournay",
       "citation": "\"Hugue de Gournay.\" 1066 Mosaic DVD people text page.",
       "archive": "1066.co.nz / user-supplied text",
       "url": "https://www.1066.co.nz/Mosaic%20DVD/text/people/gournay.htm",
@@ -1948,7 +1953,7 @@
       "corpusPath": "sources/corpus_supplement/jnr-chethams-library-ms-a4-15-henry-gurney.md",
       "mediaPath": null,
       "validationPath": "sources/validations/swann-chethams-library-ms-a4-15-2016.md",
-      "notes": "Modern manuscript-culture article. Relevant to Henry Gurney's poetry in Chetham's Library MS A.4.15, MC15's Norfolk/East Anglian connections, and transmission between Great Ellingham and wider literary manuscript networks."
+      "notes": "Modern manuscript-culture article. Relevant to Henry Gurnay's poetry in Chetham's Library MS A.4.15, MC15's Norfolk/East Anglian connections, and transmission between Great Ellingham and wider literary manuscript networks."
     },
     "potin-recherches-ville-gournay-1842": {
       "shortTitle": "Potin de la Mairie, Recherches…ville de Gournay (1842)",
@@ -2323,6 +2328,17 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "Used in negative-result mode for Margaret Rybett's burial 1614-1620: zero Margaret Gurney/Ryvett burials surface across Norfolk surname variants, including at East Dereham specifically. Burial therefore not in indexed Norfolk burials; future targets are Suffolk burials (Ryvett family geography) and the East Dereham parish-register burial-section image walk."
+    },
+    "medievalsoldier-database": {
+      "shortTitle": "Soldier in Later Medieval England Online Database",
+      "citation": "Adrian R. Bell, Anne Curry, Andy King, and David Simpkin (eds.), The Soldier in Later Medieval England Online Database. AHRC-funded project (2006–2009, with subsequent additions), University of Reading and University of Southampton. Indexed from English military pay and protection records c. 1357–1453, primarily TNA series C61 (Gascon Rolls), C71 (Scotch Rolls), C76 (Treaty Rolls / French Rolls), and E101 (Exchequer Accounts Various: retinue rolls, muster rolls, counter rolls), plus BNF (Bibliothèque nationale de France) MS. Fr., MS. Clairambault, NAF, and Add. Ch. series for Lancastrian Normandy garrisons. Recommended citation per project: cite the underlying TNA/BNF reference followed by 'from the AHRC-funded The Soldier in Later Medieval England Online Database, www.medievalsoldier.org' with access date.",
+      "archive": "AHRC / University of Reading / University of Southampton",
+      "url": "https://www.medievalsoldier.org/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Searchable index of ~290,000 entries from English military pay records, letters of protection, letters of attorney, and muster rolls 1357–1453. Cites underlying TNA/BNF references directly so citations should be anchored to the primary record, with the database credited as the finding aid. Companion monograph: Adrian R. Bell, Anne Curry, Andy King, and David Simpkin, The Soldier in Later Medieval England (Oxford: Oxford University Press, 2013). Used 2026-05-22 to confirm G21 Thomas Gournay I service entries (1415 Agincourt campaign in John Holland's retinue under Henry V; 1441 France expedition in John de Vere's retinue under Richard of York), and a Sir John Gurney V (collateral, d. 1408) 1394 Aquitaine entry under John of Gaunt. Other Gournay/Gurney soldiers also appear in the database — most prominently Sir Matthew de Gournay (d. 1406) of the Somerset/regicide collateral branch — and can be distinguished by rank, place, and affinity."
     }
   }
 }

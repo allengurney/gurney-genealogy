@@ -8,7 +8,7 @@ Five Boyd's Inhabitants of London cards were transcribed in 2026-05 for the Cand
 
 ### John Gourney of S Dionis Backchurch, merchant, 1655
 
-Boyd card `GBOR/BIL/SOG25/0595`, indexed under GURNY John 1655 with internal reference number 11703. The body of the card spells the surname `Gourney`; the upper-right index box gives `GURNY`. Findmypast transcript URL `https://www.findmypast.com/transcript?id=GBPRS%2FBIL%2F00131781&tab=this`.[^boyd-cards-cd]
+Boyd card `GBOR/BIL/SOG25/0595`, indexed under GURNY John 1655 with internal reference number 11703. The body of the card spells the surname `Gourney`; the upper-right index box gives `GURNY`. [Findmypast transcript](https://www.findmypast.com/transcript?id=GBPRS%2FBIL%2F00131781&tab=this).[^boyd-cards-cd]
 
 | Field | Entry |
 |---|---|
@@ -25,7 +25,7 @@ This is a separate London Gurney trade household: John Gourney, merchant, of St 
 
 ### Mary Garney / Gurney, daughter of John Garney, wife of William Shipman, 1660
 
-Boyd card `GBOR/BIL/SOG26/0392`, indexed under SHIPMAN William 1660 with internal reference number 12337, and a free note at top center reading `see 18059`. The card is headed William Shipman of All Hallows Barking; the wife's surname on the card is most legible as `Garney`, though the Findmypast metadata associates the entry with `Gurney`. Findmypast transcript URL `https://www.findmypast.com/transcript?id=GBPRS%2FBIL%2F00138914&tab=this`.[^boyd-cards-cd]
+Boyd card `GBOR/BIL/SOG26/0392`, indexed under SHIPMAN William 1660 with internal reference number 12337, and a free note at top center reading `see 18059`. The card is headed William Shipman of All Hallows Barking; the wife's surname on the card is most legible as `Garney`, though the Findmypast metadata associates the entry with `Gurney`. [Findmypast transcript](https://www.findmypast.com/transcript?id=GBPRS%2FBIL%2F00138914&tab=this).[^boyd-cards-cd]
 
 | Field | Entry |
 |---|---|
@@ -44,7 +44,7 @@ A Mary Garney / Gurney as wife of William Shipman the merchant, daughter of a Jo
 
 ### John Gurney citizen and grocer, wife Jane / Joan Waring, 1640
 
-Boyd card `GBOR/BIL/SOG36/0477`, indexed under GURNY John 1640 with internal reference number `2054[?]`. The image is degraded; the parish after "of" reads most like S Botolph Aldgate. Findmypast record URL `https://search.findmypast.com/record?id=GBOR%2FBIL%2FSOG36%2F0477&parentid=GBPRS%2FBIL%2F00213440`.[^boyd-cards-cd]
+Boyd card `GBOR/BIL/SOG36/0477`, indexed under GURNY John 1640 with internal reference number `2054[?]`. The image is degraded; the parish after "of" reads most like S Botolph Aldgate. [Findmypast record](https://search.findmypast.com/record?id=GBOR%2FBIL%2FSOG36%2F0477&parentid=GBPRS%2FBIL%2F00213440).[^boyd-cards-cd]
 
 | Field | Entry |
 |---|---|

@@ -3,7 +3,7 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g14-edmund-gurney-divine-related-fact-sheet.html
 title: Edmund Gurney Related Fact Sheet
 pageHeading: Edmund Gurney / Edmund Gurnay (c.1577/8-1648)
-subtitle: "Edmund Gurney was not a direct ancestor; he was Henry Gurney's son and Francis Gurney's brother."
+subtitle: "Edmund Gurney was not a direct ancestor; he was Henry Gurnay's son and Francis Gurney's brother."
 description: "Related-person fact sheet for Edmund Gurney or Gurnay, Puritan-leaning divine, Cambridge B.D., Rector of Edgefield and Harpley, and brother of Francis Gurney (G14)."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
@@ -38,7 +38,7 @@ factsheet:
 <div class="facts-vitals-grid">
   <div class="fact-item">
     <div class="fact-label">Born</div>
-    <div class="fact-value">Probably c.1577/8. DNB gives no birth year but places him as son of Henry Gurney of West Barsham and Ellingham, Norfolk, and Ellen Blennerhasset; the Harpley rectors register gives 1578. Treat the exact year as approximate. <sup class="fn"><a href="#n1" id="ref-1">1</a></sup></div>
+    <div class="fact-value">Probably c.1577/8. DNB gives no birth year but places him as son of Henry Gurnay of West Barsham and Ellingham, Norfolk, and Ellen Blennerhasset; the Harpley rectors register gives 1578. Treat the exact year as approximate. <sup class="fn"><a href="#n1" id="ref-1">1</a></sup></div>
   </div>
   <div class="fact-item">
     <div class="fact-label">Died / Buried</div>
@@ -79,7 +79,7 @@ factsheet:
 <section class="fact-section fact-narrative" id="narrative">
 <h2 class="unnumbered">Narrative</h2>
 
-Edmund Gurney, usually printed by himself as Edmund Gurnay, is a close collateral figure for the G14 generation. He was a son of Henry Gurney of West Barsham and Ellingham and Ellen Blennerhasset, and therefore brother of Francis Gurney (G14), the London Merchant Taylor in the candidate direct line. DNB and Daniel Gurney agree on this placement, and the Camden Society L'Estrange material independently identifies "Parson Edmund Gurney" as brother to Francis. <sup class="fn"><a href="#n1" id="ref-1b">1</a></sup><sup class="fn"><a href="#n6" id="ref-6b">6</a></sup>
+Edmund Gurney, usually printed by himself as Edmund Gurnay, is a close collateral figure for the G14 generation. He was a son of Henry Gurnay of West Barsham and Ellingham and Ellen Blennerhasset, and therefore brother of Francis Gurney (G14), the London Merchant Taylor in the candidate direct line. DNB and Daniel Gurney agree on this placement, and the Camden Society L'Estrange material independently identifies "Parson Edmund Gurney" as brother to Francis. <sup class="fn"><a href="#n1" id="ref-1b">1</a></sup><sup class="fn"><a href="#n6" id="ref-6b">6</a></sup>
 
 His education was unusually strong for a collateral Norfolk gentleman's son. DNB places him at Queens' College, Cambridge, on 30 October 1594, with B.A. in 1600; then as Norfolk fellow of Corpus Christi College in 1601; M.A. in 1602; and B.D. in 1609. The same account notes that he was suspended from fellowship in 1607 for not being in orders, but reinstated by the vice-chancellor. The Harpley rectors register adds ordination and Oxford-incorporation details that should be checked against primary clerical and university records. <sup class="fn"><a href="#n3" id="ref-3b">3</a></sup><sup class="fn"><a href="#n12" id="ref-12">12</a></sup>
 
@@ -105,11 +105,11 @@ The detail of his household is still thin. DNB says his wife's name was Ellen an
 <h2 class="unnumbered">Citations</h2>
 
 <ol class="citation-list">
-  <li id="n1">Charles Lethbridge Kingsford, "Gurney or Gurnay, Edmund (d. 1648)," in Sidney Lee, ed., <em>Dictionary of National Biography</em>, vol. 23 (London: Smith, Elder &amp; Co., 1890), Wikisource transcription, https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Gurney,_Edmund_(d.1648). Source ID: <code>dnb-edmund-gurney-1890</code>. <a class="citation-back" href="#ref-1">return</a></li>
+  <li id="n1">Charles Lethbridge Kingsford, "Gurney or Gurnay, Edmund (d. 1648)," in Sidney Lee, ed., <em>Dictionary of National Biography</em>, vol. 23 (London: Smith, Elder &amp; Co., 1890), <a href="https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Gurney,_Edmund_(d.1648)">Wikisource transcription</a>. Source ID: <code>dnb-edmund-gurney-1890</code>. <a class="citation-back" href="#ref-1">return</a></li>
   <li id="n2">DNB, "Gurney or Gurnay, Edmund (d. 1648)," burial and successor-at-Harpley details. Source ID: <code>dnb-edmund-gurney-1890</code>. <a class="citation-back" href="#ref-2">return</a></li>
   <li id="n3">DNB, "Gurney or Gurnay, Edmund (d. 1648)," Cambridge education and 1607 fellowship suspension. Source ID: <code>dnb-edmund-gurney-1890</code>. <a class="citation-back" href="#ref-3">return</a></li>
   <li id="n4">DNB, "Gurney or Gurnay, Edmund (d. 1648)," Edgefield and Harpley livings; William J. Thoms, ed., <em>Anecdotes and Traditions</em> (1839), pp. xviii-xx. Source IDs: <code>dnb-edmund-gurney-1890</code>, <code>thoms-anecdotes-traditions-1839</code>. <a class="citation-back" href="#ref-4">return</a></li>
-  <li id="n5">DNB, "Gurney or Gurnay, Edmund (d. 1648)," wife Ellen and probable son Protestant; GGM Benefice, "Register of Rectors — Harpley," Edmund Gurnay entry, https://www.ggmbenefice.uk/our-churches/harpley/register-of-rectors/. Source IDs: <code>dnb-edmund-gurney-1890</code>, <code>ggm-benefice-harpley-rectors</code>. <a class="citation-back" href="#ref-5">return</a></li>
+  <li id="n5">DNB, "Gurney or Gurnay, Edmund (d. 1648)," wife Ellen and probable son Protestant; GGM Benefice, <a href="https://www.ggmbenefice.uk/our-churches/harpley/register-of-rectors/">"Register of Rectors — Harpley," Edmund Gurnay entry</a>. Source IDs: <code>dnb-edmund-gurney-1890</code>, <code>ggm-benefice-harpley-rectors</code>. <a class="citation-back" href="#ref-5">return</a></li>
   <li id="n6">Daniel Gurney, <em>The Record of the House of Gournay</em>, Part III (1848), pp. 523-524, Heralds' Visitation material for Francis Gurnay of London; Thoms, ed., <em>Anecdotes and Traditions</em> (1839), pp. xviii-xx. Source IDs: <code>dg-rec-pt3</code>, <code>thoms-anecdotes-traditions-1839</code>. <a class="citation-back" href="#ref-6">return</a></li>
   <li id="n7">DNB, "Gurney or Gurnay, Edmund (d. 1648)," title-page spelling note. Source ID: <code>dnb-edmund-gurney-1890</code>. <a class="citation-back" href="#ref-7">return</a></li>
   <li id="n8">DNB, "Gurney or Gurnay, Edmund (d. 1648)," Puritan leaning and surplice anecdote; GGM Benefice, "Register of Rectors — Harpley," Edmund Gurnay entry. Source IDs: <code>dnb-edmund-gurney-1890</code>, <code>ggm-benefice-harpley-rectors</code>. <a class="citation-back" href="#ref-8">return</a></li>
@@ -129,12 +129,12 @@ The detail of his household is still thin. DNB says his wife's name was Ellen an
   <div class="fact-buttons">
     <a href="/maps-and-lists/ancestor-table.html">Ancestor Table</a>
     <a href="/fact-sheets/g14-francis-gurney-fact-sheet.html">G14 Francis Gurney</a>
-    <a href="/fact-sheets/g15-henry-gurney-fact-sheet.html">G15 Henry Gurney</a>
+    <a href="/fact-sheets/g15-henry-gurney-fact-sheet.html">G15 Henry Gurnay</a>
     <a href="/research/companions/edmund-gurney-divine.html">Research notes</a>
     <a href="https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Gurney,_Edmund_(d.1648)">DNB: Edmund Gurney</a>
     <a href="https://www.ggmbenefice.uk/our-churches/harpley/register-of-rectors/">Harpley Register of Rectors</a>
     <a href="https://archive.org/details/anecdotestraditi00thomrich/page/6/mode/1up">L'Estrange / Fuller anecdote</a>
-    <a href="https://catalog.folger.edu/record/154518">Folger: Gurnay Redivivus</a>
+    <a href="https://archive.org/details/bim_early-english-books-1641-1700_gurnay-redivivus-or-an-_gurnay-edmund_1660/">Gurnay Redivivus (1660) - online book</a>
   </div>
 </div>
 
@@ -143,7 +143,7 @@ The detail of his household is still thin. DNB says his wife's name was Ellen an
   <table class="fact-timeline-table">
     <tbody>
       <tr><th>Step</th><th>Line</th></tr>
-      <tr><td>Parents</td><td>Henry Gurney (G15) and Ellen Blennerhasset</td></tr>
+      <tr><td>Parents</td><td>Henry Gurnay (G15) and Ellen Blennerhasset</td></tr>
       <tr><td>Direct-line child</td><td>Francis Gurney (G14), Merchant Taylor</td></tr>
       <tr><td>Collateral child</td><td>Edmund Gurney / Gurnay, Puritan-leaning divine</td></tr>
       <tr><td>Relationship</td><td>Brother of Francis Gurney (G14)</td></tr>

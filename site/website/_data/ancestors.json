@@ -2170,7 +2170,7 @@
     "isRelated": false,
     "gen": "G15",
     "genNumber": 15,
-    "name": "Henry Gurney",
+    "name": "Henry Gurnay",
     "dates": "21 Jan. 1548/9 (OS) — d. 1615/16 (will proved 1623)",
     "geography": "West Barsham Hall, Norfolk; Great Ellingham, Norfolk",
     "eraId": "era-tudor-england",
@@ -2251,7 +2251,7 @@
         "region": "Norfolk, England",
         "eventType": "landholding / property reference",
         "eventDate": "21 Jan. 1548/9 (OS) — d. 1615/16 (will proved 1623)",
-        "sourceQuote": "Attleborough church-advowson context associated with Henry Gurney.",
+        "sourceQuote": "Attleborough church-advowson context associated with Henry Gurnay.",
         "lat": 52.517,
         "lng": 1.015,
         "geocodeBasis": "town centroid",
@@ -2382,7 +2382,7 @@
     ],
     "children": [
       {
-        "name": "Henry de Gournay",
+        "name": "Henry Gurnay",
         "dates": "b. 21 Jan. 1548",
         "notes": "G15 in direct line"
       }
@@ -5338,8 +5338,8 @@
     "lineageStatus": "Minimal historical record",
     "displayLineageStatus": "Minimal historical record",
     "summary": "Origin of the line. A Viking warrior in Rollo's war-band who, at the Treaty of Saint-Clair-sur-Epte in 911, received Gournay-en-Bray and the Pays de Bray as his portion — beginning a documented property-holding lineage that runs ~37 generations and ~1,160 years to Allen Gurney.",
-    "notables": "Daniel Gurney himself acknowledged: \"the existence of Eudes... is a matter of tradition\" — no contemporary document survives. But James Hannay (1867) defended the tradition as credible precisely because it was modest: \"no supernatural feats of heroism are attributed to him; he does not scatter whole armies in the doubtful moments of great battles\" — he is simply made what hundreds of Norman family founders were, \"a follower of Rollo, sharing in his chieftain's fortunes.\" A French local tradition styles him *\"le chevalier à l'écu noir\"* — the knight with the black shield — consistent with the later Gournay arms (*pure sable*, a plain black shield), among the simplest and most ancient heraldic designs in Norman genealogy. The town of Gournay-en-Bray (Seine-Maritime, pop. ~6,500) survives today ~50 km east of Rouen, celebrated for Neufchâtel cheese — the Pays de Bray was once called Normandy's \"butter capital.\" The 12th-century Collégiale Saint-Hildevert, near where Eudes's grandson Hugh I built his tower, still stands. Léopold Delisle, the leading 19th-century Norman charter scholar, challenged Daniel Gurney's early genealogy, and the lineage status here remains *Minimal historical record* — but the founding land grant initiated a documented holding that lasted ~750 years (911 to 1661, when the West Barsham Gurneys went extinct in the direct male line in England).",
-    "landHoldings": "• Gournay-en-Bray and the Pays de Bray, Normandy — granted by Rollo c.911-912 as the founding land grant of the entire Gurney family story. • The town of Gournay-en-Bray survives today in Seine-Maritime, Normandy (~50 miles east of Rouen). 12th-century Collegiate Church of Saint-Hildevert still stands. • This single land grant initiated a documented property-holding lineage lasting ~750 years (911 to 1661 when the West Barsham Gurneys became extinct in the direct male line in England).",
+    "notables": "Daniel Gurney himself acknowledged: \"the existence of Eudes... is a matter of tradition\" — no contemporary document survives. But James Hannay (1867) defended the tradition as credible precisely because it was modest: \"no supernatural feats of heroism are attributed to him; he does not scatter whole armies in the doubtful moments of great battles\" — he is simply made what hundreds of Norman family founders were, \"a follower of Rollo, sharing in his chieftain's fortunes.\" A French local tradition styles him *\"le chevalier à l'écu noir\"* — the knight with the black shield — consistent with the later Gournay arms (*pure sable*, a plain black shield), among the simplest and most ancient heraldic designs in Norman genealogy. The town of Gournay-en-Bray (Seine-Maritime, pop. ~6,500) survives today ~50 km east of Rouen, celebrated for Neufchâtel cheese — the Pays de Bray was once called Normandy's \"butter capital.\" The 12th-century Collégiale Saint-Hildevert, near where Eudes's grandson Hugh I built his tower, still stands. Léopold Delisle, the leading 19th-century Norman charter scholar, challenged Daniel Gurney's early genealogy, and the lineage status here remains *Minimal historical record* — but the founding land grant initiated a landholding tradition that has now run more than 1,100 years — from the Pays de Bray under Rollo, through the medieval Norfolk seats, and on into England, America, and beyond.",
+    "landHoldings": "• Gournay-en-Bray and the Pays de Bray, Normandy — granted by Rollo c.911-912 as the founding land grant of the entire Gurney family story. • The town of Gournay-en-Bray survives today in Seine-Maritime, Normandy (~50 miles east of Rouen). 12th-century Collegiate Church of Saint-Hildevert still stands. • This single Norman land grant began a Gurney landholding tradition that has run more than 1,100 years — from the Pays de Bray under Rollo, through the medieval Norfolk seats at West Barsham, Harpley, and Hardingham, into modern landholding by descendants in England, America, and beyond.",
     "hasLandHoldings": true,
     "spouses": [],
     "children": [

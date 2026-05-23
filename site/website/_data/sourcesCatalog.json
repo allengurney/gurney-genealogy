@@ -1,29 +1,5 @@
 [
   {
-    "sourceId": "mosaic-dvd-hugue-de-gournay",
-    "shortTitle": "1066 Mosaic DVD - Hugue de Gournay",
-    "citation": "\"Hugue de Gournay.\" 1066 Mosaic DVD people text page.",
-    "archive": "1066.co.nz / user-supplied text",
-    "url": "https://www.1066.co.nz/Mosaic%20DVD/text/people/gournay.htm",
-    "corpusStatus": "partial",
-    "corpusPath": "sources/corpus_supplement/mosaic-dvd-hugue-de-gournay-user-text.md",
-    "mediaPath": "",
-    "validationPath": "sources/validations/mosaic-dvd-hugue-de-gournay.md",
-    "notes": "Derivative people-page summary for Hugue/Hugo de Gournay, Battle Abbey Roll context, the senior Gournay line, and the Somerset and Norfolk younger branches. Use as corroborative derivative synthesis only."
-  },
-  {
-    "sourceId": "gurney-family-handwritten-notes-1963",
-    "shortTitle": "1963 Gurney family handwritten notes",
-    "citation": "Gurney family handwritten oral-history and research notes, eight photographed notebook pages; revised findings memorandum v3 prepared 4 May 2026 from page photographs. Pages 1-4 are earlier loose family notes; pages 5-8 are later cleaner notes in the hand of Dana Gurney.",
-    "archive": "Allen Gurney family papers / user-supplied revised findings memorandum",
-    "url": "",
-    "corpusStatus": "partial",
-    "corpusPath": "sources/corpus_supplement/1963-gurney-family-handwritten-notes-transcription.md",
-    "mediaPath": "sources/media/gurney-family-handwritten-notes-1963/1963_gurney_family_handwritten_notes_revised_findings_v3.md",
-    "validationPath": "sources/validations/gurney-family-handwritten-notes-1963.md",
-    "notes": "Close-family handwritten notes and later revised findings for G2 Lester Hayes Gurney, G3 Lester Sawyer Gurney III, Edith Walberg Scott Gurney, G4 Lester Sawyer Gurney Jr., Ethel June Hayes, G5 Lester Sawyer Gurney, Helen Hill / Helene Ransome / Helen Gurney / Helen O'Brien, Lawrence Branch O'Brien, Edward Godfrey Walberg, Mildred Nora Thursby, and related family chronology. Key retained findings: G3 born 10 Jun 1923 Wellesley Hills; G3 and Edith married 23 Nov 1942 NYC; G3 was a lieutenant, commissioned Jun/Jul 1944, served with Air Service Command at Robins Field and 536th Signal Heavy Construction Company at Manila when G2 was born; G2 born 16 Nov 1945 at St. Vincent's Hospital, NYC; G3 second marriage to Dorothy Lillian Haben/Haden on 6 Jun 1965; Edith died 27 Dec 1963 Chatham NJ; Edith completed a New York Stock Exchange Institute course for 'Customers' Men' 8 Jun 1939; Edith's parents Edward Godfrey Walberg and Mildred Nora Thursby named; G4 date variants and 'dropped the S'; Ethel's father Albert C. Hayes, master car builder for Boston & Albany RR; Helen identity chain to Lawrence Branch O'Brien. Treat conflicts as family-note variants pending original-record review."
-  },
-  {
     "sourceId": "abington-vr-1850-vol1",
     "shortTitle": "Abington Vital Records to 1850, vol. 1",
     "citation": "Vital Records of Abington, Massachusetts, to the Year 1850. Volume 1: Births. Boston: New England Historic Genealogical Society, 1912.",
@@ -369,7 +345,7 @@
     "corpusPath": "",
     "mediaPath": "",
     "validationPath": "sources/validations/bodleian-ms-tanner-175-marco.md",
-    "notes": "Catalogue lead for Henry Gurney's manuscript commonplace book. The MARCO page did not render in this pass, but the URL should be retained as the direct manuscript-control lead for future review."
+    "notes": "Catalogue lead for Henry Gurnay's manuscript commonplace book. The MARCO page did not render in this pass, but the URL should be retained as the direct manuscript-control lead for future review."
   },
   {
     "sourceId": "braintree-records-1640-1793-1886",
@@ -504,6 +480,18 @@
     "notes": "Battle Abbey Roll introduction and list comparison. Relevant for Gournay/Gurnay/Gurney roll variants, duplicate Hue de Gourney/Hue earl of Gournay forms, and caution about roll incompleteness/interpolation."
   },
   {
+    "sourceId": "folger-corpus-christi-1619",
+    "shortTitle": "Corpus Christi (1619) - Internet Archive / Folger",
+    "citation": "Gurnay, Edmund. Corpus Christi. Cambridge: Cantrell Legge, printer to the University of Cambridge, 1619.",
+    "archive": "Internet Archive (Early English Books 1475-1640) full-page scan; Folger Shakespeare Library catalog record (secondary).",
+    "url": "https://archive.org/details/bim_early-english-books-1475-1640_corpus-christi_gurnay-edmund_1619",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Edmund Gurnay's 1619 treatise against transubstantiation; sermon on Matthew 26:26; STC 12527. Online book scan: https://archive.org/details/bim_early-english-books-1475-1640_corpus-christi_gurnay-edmund_1619 (Internet Archive, Early English Books 1475-1640). Folger catalog record (secondary bibliographic control): https://catalog.folger.edu/record/159988."
+  },
+  {
     "sourceId": "davis-abel-lunt-1963",
     "shortTitle": "Davis, Ancestry of Abel Lunt",
     "citation": "Davis, Walter Goodwin. The Ancestry of Abel Lunt, 1769–1806, of Newbury, Massachusetts. Portland, Maine: The Anthoensen Press, 1963.",
@@ -526,6 +514,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/decorde-essai-canton-gournay-1861.md",
     "notes": "French local history and archaeology of the canton of Gournay. Important for Gournay-en-Bray, Beauvaisis frontier acquisitions, Boshyon/Bois-Hugues, Bremontier-Merval / Bellosanne, Gaillefontaine, the Collegiate Saint-Hildevert at Gournay, and Cottentray/Avesnes-en-Bray. Findings from the 2026 deep-research synthesis are now promoted into research/people/g33, research/people/g32, research/places/gournay-en-bray.md, research/places/collegiale-saint-hildevert-gournay.md, research/places/g33-bec-gournay-endowment-cluster.md, research/places/gaillefontaine.md, research/places/bosc-hyons.md, research/places/bellosanne-abbey.md, research/places/cottentray-avesnes-en-bray.md, and research/topics/senior-gournay-baron-line-collateral.md. The OCR text in sources/corpus_supplement is visibly noisy; cite exact French phrasing only after checking page images or cleaner scans for delicate claims."
+  },
+  {
+    "sourceId": "folger-demonstration-antichrist-1631",
+    "shortTitle": "Demonstration of Antichrist (1631) - Internet Archive / Folger",
+    "citation": "Gurnay, Edmund. The demonstration of Antichrist. London: Printed by John Beale for James Boler, 1631.",
+    "archive": "Internet Archive (Early English Books 1475-1640) full-page scan; Folger Shakespeare Library catalog record (secondary).",
+    "url": "https://archive.org/details/bim_early-english-books-1475-1640_the-demonstration-of-ant_gurnay-edmund_1631",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Edmund Gurnay's 1631 anti-Roman tract; title identifies him as B.D. and parson of Harpley, Norfolk; STC 12529. Online book scan: https://archive.org/details/bim_early-english-books-1475-1640_the-demonstration-of-ant_gurnay-edmund_1631 (Internet Archive, Early English Books 1475-1640). Folger catalog record (secondary bibliographic control): https://catalog.folger.edu/record/168785."
   },
   {
     "sourceId": "dg-rec-pt1",
@@ -960,54 +960,6 @@
     "notes": "Context source for Puritan migration and regional folkways used in the John Gurney case file."
   },
   {
-    "sourceId": "folger-corpus-christi-1619",
-    "shortTitle": "Folger - Corpus Christi (1619)",
-    "citation": "Gurnay, Edmund. Corpus Christi. Cambridge: Cantrell Legge, printer to the University of Cambridge, 1619.",
-    "archive": "Folger Shakespeare Library catalog",
-    "url": "https://catalog.folger.edu/record/159988",
-    "corpusStatus": "none",
-    "corpusPath": "",
-    "mediaPath": "",
-    "validationPath": "",
-    "notes": "Bibliographic control for Edmund Gurnay's 1619 treatise against transubstantiation; sermon on Matthew 26:26; STC 12527."
-  },
-  {
-    "sourceId": "folger-demonstration-antichrist-1631",
-    "shortTitle": "Folger - Demonstration of Antichrist (1631)",
-    "citation": "Gurnay, Edmund. The demonstration of Antichrist. London: Printed by John Beale for James Boler, 1631.",
-    "archive": "Folger Shakespeare Library catalog",
-    "url": "https://catalog.folger.edu/record/168785",
-    "corpusStatus": "none",
-    "corpusPath": "",
-    "mediaPath": "",
-    "validationPath": "",
-    "notes": "Bibliographic control for Edmund Gurnay's 1631 anti-Roman tract; title identifies him as B.D. and parson of Harpley, Norfolk; STC 12529."
-  },
-  {
-    "sourceId": "folger-romish-chaine-1624",
-    "shortTitle": "Folger - The Romish chaine (1624)",
-    "citation": "Gurnay, Edmund. The Romish chaine. By Edmund Gurnay, parson of Harpley. London: Printed by Augustine Mathewes for Mathew Law, 1624.",
-    "archive": "Folger Shakespeare Library catalog",
-    "url": "https://catalog.folger.edu/record/401784",
-    "corpusStatus": "none",
-    "corpusPath": "",
-    "mediaPath": "",
-    "validationPath": "",
-    "notes": "Bibliographic control for Edmund Gurnay's 1624 anti-Roman tract; STC 12530; title identifies him as parson of Harpley."
-  },
-  {
-    "sourceId": "folger-second-commandment-1639",
-    "shortTitle": "Folger - Toward the vindication of the Second Commandment (1639)",
-    "citation": "Gurnay, Edmund. Toward the vindication of the Second Commandment. Cambridge: Thomas Buck, one of the printers to the University of Cambridge, 1639.",
-    "archive": "Folger Shakespeare Library catalog",
-    "url": "https://catalog.folger.edu/record/159994",
-    "corpusStatus": "none",
-    "corpusPath": "",
-    "mediaPath": "",
-    "validationPath": "",
-    "notes": "Bibliographic control for Edmund Gurnay's 1639 anti-image tract; title identifies him as Bachelor in Divinity and minister of God's word at Harpley in Norfolk; STC 12531."
-  },
-  {
     "sourceId": "foster-streeter-cummington",
     "shortTitle": "Foster & Streeter, Only One Cummington (1974)",
     "citation": "Foster, Helen Hunter, and William W. Streeter. Only One Cummington. Cummington, Massachusetts: Cummington Historical Commission, 1974.",
@@ -1227,13 +1179,25 @@
     "sourceId": "gurnay-redivivus-1660",
     "shortTitle": "Gurnay Redivivus (1660)",
     "citation": "Gurnay, Edmund. Gurnay redivivus, or an appendix unto the homily against images in churches. London: Printed for J. Rothwel at the Fountain in Goldsmiths-Row in Cheap-side, 1660.",
-    "archive": "Folger Shakespeare Library catalog / Internet Archive scan",
-    "url": "https://catalog.folger.edu/record/154518",
+    "archive": "Internet Archive (Early English Books 1641-1700) full-page scan; Folger Shakespeare Library catalog record (secondary).",
+    "url": "https://archive.org/details/bim_early-english-books-1641-1700_gurnay-redivivus-or-an-_gurnay-edmund_1660/",
     "corpusStatus": "partial",
     "corpusPath": "sources/corpus_supplement/gurnay-redivivus-1660-research-extract.md",
     "mediaPath": "",
     "validationPath": "sources/validations/gurnay-redivivus-1660.md",
-    "notes": "Primary printed anti-image tract by Edmund Gurnay, B.D., minister at Harpley. The corpus supplement path holds a concise extract from the original source metadata; sources/corpus_supplement/deep-research-report-gurney-redivivus.md remains a related working analysis with title-page/dedication transcription, selected text extracts, and commentary, not a full diplomatic transcription. Folger records the item as a 1660 second edition, originally published in 1641, with a same-year reissue/cancel title issue. DNB reports republication in 1661; preserve this bibliographic discrepancy pending ESTC/Wing and scan-level review."
+    "notes": "Primary printed anti-image tract by Edmund Gurnay, B.D., minister at Harpley. Online book scan: https://archive.org/details/bim_early-english-books-1641-1700_gurnay-redivivus-or-an-_gurnay-edmund_1660/ (Internet Archive, Early English Books 1641-1700). Folger catalog record (secondary bibliographic control): https://catalog.folger.edu/record/154518. The corpus supplement path holds a concise extract from the original source metadata; sources/corpus_supplement/deep-research-report-gurney-redivivus.md remains a related working analysis with title-page/dedication transcription, selected text extracts, and commentary, not a full diplomatic transcription. Folger records the item as a 1660 second edition, originally published in 1641, with a same-year reissue/cancel title issue. DNB reports republication in 1661; preserve this bibliographic discrepancy pending ESTC/Wing and scan-level review."
+  },
+  {
+    "sourceId": "gurney-family-handwritten-notes-1963",
+    "shortTitle": "Gurney family handwritten notes 1963",
+    "citation": "Gurney family handwritten oral-history and research notes, eight photographed notebook pages; revised findings memorandum v3 prepared 4 May 2026 from page photographs. Pages 1-4 are earlier loose family notes; pages 5-8 are later cleaner notes in the hand of Dana Gurney.",
+    "archive": "Allen Gurney family papers / user-supplied revised findings memorandum",
+    "url": "",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/1963-gurney-family-handwritten-notes-transcription.md",
+    "mediaPath": "sources/media/gurney-family-handwritten-notes-1963/1963_gurney_family_handwritten_notes_revised_findings_v3.md",
+    "validationPath": "sources/validations/gurney-family-handwritten-notes-1963.md",
+    "notes": "Close-family handwritten notes and later revised findings for G2 Lester Hayes Gurney, G3 Lester Sawyer Gurney III, Edith Walberg Scott Gurney, G4 Lester Sawyer Gurney Jr., Ethel June Hayes, G5 Lester Sawyer Gurney, Helen Hill / Helene Ransome / Helen Gurney / Helen O'Brien, Lawrence Branch O'Brien, Edward Godfrey Walberg, Mildred Nora Thursby, and related family chronology. Key retained findings: G3 born 10 Jun 1923 Wellesley Hills; G3 and Edith married 23 Nov 1942 NYC; G3 was a lieutenant, commissioned Jun/Jul 1944, served with Air Service Command at Robins Field and 536th Signal Heavy Construction Company at Manila when G2 was born; G2 born 16 Nov 1945 at St. Vincent's Hospital, NYC; G3 second marriage to Dorothy Lillian Haben/Haden on 6 Jun 1965; Edith died 27 Dec 1963 Chatham NJ; Edith completed a New York Stock Exchange Institute course for 'Customers' Men' 8 Jun 1939; Edith's parents Edward Godfrey Walberg and Mildred Nora Thursby named; G4 date variants and 'dropped the S'; Ethel's father Albert C. Hayes, master car builder for Boston & Albany RR; Helen identity chain to Lawrence Branch O'Brien. Treat conflicts as family-note variants pending original-record review."
   },
   {
     "sourceId": "three-hundred-years-norman-house",
@@ -1629,7 +1593,7 @@
     "corpusPath": "sources/corpus_supplement/henry_gurney_g15_may_article_narrative.md",
     "mediaPath": "",
     "validationPath": "sources/validations/may-henry-gurney-spenser-2005.md",
-    "notes": "Modern academic article on Henry Gurney and Bodleian MS Tanner 175. The corpus supplement is a narrative research extraction from the ILL article copy, not the copyrighted PDF. User-supplied ResearchGate metadata gives January 2004, Spenser Studies 19:183-216, DOI 10.1086/SPSv20p183. The article-copy citation and the Chetham/JNR bibliography give Spenser Studies 20 (2005), pp. 183-223. Do not drop either metadata variant; reconcile by DOI/full article before citation cleanup. The article supports Henry as poet, critic, bibliophile, estate manager, and literary-network figure at Great Ellingham; MS Tanner 175 preserves estate notes, library inventory, more than 600 poems, and verse censures of borrowed books including Foxe, Southwell, Hakluyt, The Faerie Queene, and Mother Hubberds Tale."
+    "notes": "Modern academic article on Henry Gurnay and Bodleian MS Tanner 175. The corpus supplement is a narrative research extraction from the ILL article copy, not the copyrighted PDF. User-supplied ResearchGate metadata gives January 2004, Spenser Studies 19:183-216, DOI 10.1086/SPSv20p183. The article-copy citation and the Chetham/JNR bibliography give Spenser Studies 20 (2005), pp. 183-223. Do not drop either metadata variant; reconcile by DOI/full article before citation cleanup. The article supports Henry as poet, critic, bibliophile, estate manager, and literary-network figure at Great Ellingham; MS Tanner 175 preserves estate notes, library inventory, more than 600 poems, and verse censures of borrowed books including Foxe, Southwell, Hakluyt, The Faerie Queene, and Mother Hubberds Tale."
   },
   {
     "sourceId": "mendon-proprietors-records-1899",
@@ -1690,6 +1654,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Vol. ii, p. 31: Hugh de Gournai's Essex Domesday entries referenced to Little Domesday vol. ii, p. 89."
+  },
+  {
+    "sourceId": "mosaic-dvd-hugue-de-gournay",
+    "shortTitle": "Mosaic DVD - Hugue de Gournay",
+    "citation": "\"Hugue de Gournay.\" 1066 Mosaic DVD people text page.",
+    "archive": "1066.co.nz / user-supplied text",
+    "url": "https://www.1066.co.nz/Mosaic%20DVD/text/people/gournay.htm",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/mosaic-dvd-hugue-de-gournay-user-text.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/mosaic-dvd-hugue-de-gournay.md",
+    "notes": "Derivative people-page summary for Hugue/Hugo de Gournay, Battle Abbey Roll context, the senior Gournay line, and the Somerset and Norfolk younger branches. Use as corroborative derivative synthesis only."
   },
   {
     "sourceId": "munsell-history-queens-flushing-1882",
@@ -2373,7 +2349,7 @@
     "corpusPath": "sources/corpus_supplement/jnr-chethams-library-ms-a4-15-henry-gurney.md",
     "mediaPath": "",
     "validationPath": "sources/validations/swann-chethams-library-ms-a4-15-2016.md",
-    "notes": "Modern manuscript-culture article. Relevant to Henry Gurney's poetry in Chetham's Library MS A.4.15, MC15's Norfolk/East Anglian connections, and transmission between Great Ellingham and wider literary manuscript networks."
+    "notes": "Modern manuscript-culture article. Relevant to Henry Gurnay's poetry in Chetham's Library MS A.4.15, MC15's Norfolk/East Anglian connections, and transmission between Great Ellingham and wider literary manuscript networks."
   },
   {
     "sourceId": "neverending-hobby-john-gurney-us-1636",
@@ -2386,6 +2362,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/benjamin-gurney-harden-research-tables-2026-04.md",
     "notes": "Secondary compiled genealogy. Relevant for the Benjamin Gurney G10 / Jane Harden non-marital relationship, the identification of Benjamin Gurney G10 as father of Benjamin G9, Jane's reported return to Braintree with her parents, Sarah Harden's marriage to Nathan Gurney, and the later Sarah Morse child set including a second Benjamin. Use as corroborating secondary evidence, not as primary proof."
+  },
+  {
+    "sourceId": "folger-romish-chaine-1624",
+    "shortTitle": "The Romish chaine (1624) - Internet Archive / Folger",
+    "citation": "Gurnay, Edmund. The Romish chaine. By Edmund Gurnay, parson of Harpley. London: Printed by Augustine Mathewes for Mathew Law, 1624.",
+    "archive": "Internet Archive (Early English Books 1475-1640) full-page scan; Folger Shakespeare Library catalog record (secondary).",
+    "url": "https://archive.org/details/bim_early-english-books-1475-1640_the-romish-chaine_gurnay-edmund_1624",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Edmund Gurnay's 1624 anti-Roman tract; STC 12530; title identifies him as parson of Harpley. Online book scan: https://archive.org/details/bim_early-english-books-1475-1640_the-romish-chaine_gurnay-edmund_1624 (Internet Archive, Early English Books 1475-1640). Folger catalog record (secondary bibliographic control): https://catalog.folger.edu/record/401784."
   },
   {
     "sourceId": "thompson-mobility-migration-1994",
@@ -2458,6 +2446,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/torrey-new-england-marriages-prior-1700.md",
     "notes": "Standard Torrey marriage compendium. Page 331 Gurney block: John (-1663) & 1/wf, b 1628 Weymouth; John (1603-1663) & 2/wf Grezell (Fletcher)(Jewell)(Griggs) Kibbee (-1669), w Thomas, w Humphrey, w Henry, m/5 John Burge 1667; 12 Nov 1661 Braintree; John (-1675?) & Ruth ?Retchell, m/2 John Bundy 1676, m/3 Guydo Bailey, b 1671(2?) Mendon (had John, Samuel, Mary); John3 & Elizabeth [Green] (1664-) b 1689 Weymouth; John3 (-1723) & Sarah (Thornton)[Fields] (-1714), w Zachariah, dates b 1701?/1706/aft 4 Feb 1696/b 1714 Providence; Richard (-1691) & Rebecca [Taylor] b 1656(7?) Weymouth; Samuel3 (1671-) & Sarah Atkins/Staples/Shapley dau Thomas, 26 Oct 1693 Boston/Little Compton RI; Zachariah3 & Mary [Benson] of Hull, MA, b 1695 Weymouth. Use as supplemental cross-check on the John1 family group, on Grezell Kibbee's marriage sequence, and on Richard's death year (Torrey: 1691)."
+  },
+  {
+    "sourceId": "folger-second-commandment-1639",
+    "shortTitle": "Toward the Vindication of the Second Commandment (1639/1661) - Internet Archive / Folger",
+    "citation": "Gurnay, Edmund. Toward the vindication of the Second Commandment. Cambridge: Thomas Buck, one of the printers to the University of Cambridge, 1639. (1661 republication scan available on Internet Archive.)",
+    "archive": "Internet Archive (Early English Books 1641-1700) full-page scan of the 1661 republication; Folger Shakespeare Library catalog record for the 1639 first edition (secondary).",
+    "url": "https://archive.org/details/bim_early-english-books-1641-1700_toward-the-vindication-o_gurnay-edmund_1661",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Edmund Gurnay's anti-image tract; title identifies him as Bachelor in Divinity and minister of God's word at Harpley in Norfolk; STC 12531 (first edition 1639). Online book scan (1661 republication): https://archive.org/details/bim_early-english-books-1641-1700_toward-the-vindication-o_gurnay-edmund_1661 (Internet Archive, Early English Books 1641-1700). Folger catalog record for the 1639 first edition (secondary bibliographic control): https://catalog.folger.edu/record/159994. The archive.org scan is the 1661 republication, not the 1639 Cambridge first edition the Folger record describes."
   },
   {
     "sourceId": "vch-bucks-v3",

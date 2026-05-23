@@ -47,7 +47,7 @@ This is an open research question. Blomefield's separate entry for Great Ellingh
 
 **Secondary:**
 - Daniel Gurney, <em>The Record of the House of Gournay</em> (London, 1848), pedigree p. 287.
-- Pease/Pennyghael Gurney genealogy (Charles E. G. Pease, 2016), http://www.pennyghael.org.uk/Gurney.pdf.
+- Pease/Pennyghael Gurney genealogy (Charles E. G. Pease, 2016), [Gurney.pdf](http://www.pennyghael.org.uk/Gurney.pdf).
 
 ### Negative Results
 - No will of Francis is recorded in the Norwich Consistory Court registers as far as currently known.

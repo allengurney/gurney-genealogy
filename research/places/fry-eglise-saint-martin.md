@@ -14,8 +14,8 @@ No source in this pass proves that fabric from Gautier's original 10th/11th-cent
 
 ## Sources
 
-- Sauvegarde de l’Art Français, “Fry, Église Saint-Martin,” https://www.sauvegardeartfrancais.fr/projets/fry/
-- MonVillageNormand, “Église Saint-Martin de Fry,” https://76.monvillagenormand.fr/Eglise.php?NumEglise=4760144
+- Sauvegarde de l’Art Français, [“Fry, Église Saint-Martin”](https://www.sauvegardeartfrancais.fr/projets/fry/)
+- MonVillageNormand, [“Église Saint-Martin de Fry”](https://76.monvillagenormand.fr/Eglise.php?NumEglise=4760144)
 
 ## Crosslinks
 

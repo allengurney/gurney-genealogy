@@ -27,7 +27,7 @@ Relationship path:
 
 Historic Royal Palaces' Tower of London article supplies a concise public-history anchor for Anne's standard life facts: approximate birth about 1501, parents Sir Thomas Boleyn and Elizabeth Howard, childhood at Hever, continental court education, marriage to Henry VIII in January 1533, coronation on 1 June 1533, Elizabeth's birth on 7 September 1533, arrest on 2 May 1536, execution at Tower Green on 19 May 1536, and burial in the Chapel Royal of St Peter ad Vincula.[^hrp]
 
-[^hrp]: Historic Royal Palaces, "Anne Boleyn," Tower of London, https://www.hrp.org.uk/tower-of-london/history-and-stories/anne-boleyn/, accessed 26 April 2026. Source ID: `hrp-anne-boleyn`.
+[^hrp]: Historic Royal Palaces, ["Anne Boleyn," Tower of London](https://www.hrp.org.uk/tower-of-london/history-and-stories/anne-boleyn/), accessed 26 April 2026. Source ID: `hrp-anne-boleyn`.
 
 ## Research Use
 
@@ -35,7 +35,7 @@ This related fact sheet should be used to make the Boleyn connection intelligibl
 
 ## Sources Consulted
 
-- Historic Royal Palaces, "Anne Boleyn," Tower of London, https://www.hrp.org.uk/tower-of-london/history-and-stories/anne-boleyn/.
+- Historic Royal Palaces, ["Anne Boleyn," Tower of London](https://www.hrp.org.uk/tower-of-london/history-and-stories/anne-boleyn/).
 - Daniel Gurney, *The Record of the House of Gournay* (London, 1848), pedigree p. 287.
 - Daniel Gurney, *Supplement to the Record of the House of Gournay* (King's Lynn: Thew & Son, 1858), pp. 868 ff.
 - Eric Ives, *The Life and Death of Anne Boleyn* (Oxford: Blackwell, 2004), genealogical chart appendix.

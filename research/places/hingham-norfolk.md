@@ -26,7 +26,7 @@ Use working coordinate **52.571755298216836, 0.9756833626995299** for the Gurney
 
 That makes Hingham one of the rare places in the England set where the surviving built environment can still be tied closely to a named Gurney possession in the Tudor/Stuart transition. It remains a built-site witness, not by itself a full manorial-descent proof; Blomefield and manorial records remain the better sources for ownership chronology.
 
-[^dicamillo-gurneys-manor]: Curt DiCamillo, "Gurney's Manor," *The DiCamillo Companion to British & Irish Country Houses*, https://www.thedicamillo.com/house/gurneys-manor/. Source ID: `dicamillo-gurneys-manor`.
+[^dicamillo-gurneys-manor]: Curt DiCamillo, ["Gurney's Manor,"](https://www.thedicamillo.com/house/gurneys-manor/) *The DiCamillo Companion to British & Irish Country Houses*. Source ID: `dicamillo-gurneys-manor`.
 
 ## Interpretive note
 
@@ -40,7 +40,7 @@ Blomefield then treats "Gurney's Manor" at Hingham separately. He says it was pa
 
 This passage reinforces the working model already in this file: Hingham Gurney's Manor is a later-line Norfolk manor with a surviving physical identity, not another name for medieval Harpley manor and not the Great Ellingham Manor Farmhouse/Ellingham Farm discussed in modern Great Ellingham local history.
 
-[^blomefield-hingham]: Francis Blomefield, "Hundred of Forehoe: Hingham," in *An Essay Towards A Topographical History of the County of Norfolk*, vol. 2 (London, 1805), pp. 422-445, British History Online, https://www.british-history.ac.uk/topographical-hist-norfolk/vol2/pp422-445. Source ID: `blomefield-norfolk`.
+[^blomefield-hingham]: Francis Blomefield, ["Hundred of Forehoe: Hingham,"](https://www.british-history.ac.uk/topographical-hist-norfolk/vol2/pp422-445) in *An Essay Towards A Topographical History of the County of Norfolk*, vol. 2 (London, 1805), pp. 422-445, British History Online. Source ID: `blomefield-norfolk`.
 
 ## Open items
 

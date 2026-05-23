@@ -37,7 +37,7 @@ The current coordinate should be treated as medium precision. It anchors Sigy-en
 - `research/places/priory-saint-pierre-saint-paul-la-ferte.md`
 - `research/places/fry-eglise-saint-martin.md`
 
-[^pettigrew-sigy]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 181-182, Google Books, https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ. Source ID: `pettigrew-collectanea-house-gournay-1871`.
+[^pettigrew-sigy]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 181-182, [Google Books](https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ). Source ID: `pettigrew-collectanea-house-gournay-1871`.
 
 <!-- GENERATED:PLACE-REGISTRY:START -->
 ## Place registry

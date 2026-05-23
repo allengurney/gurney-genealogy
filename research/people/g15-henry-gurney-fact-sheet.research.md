@@ -1,4 +1,4 @@
-# Henry Gurney (G15) — Research Companion
+# Henry Gurnay (G15) — Research Companion
 
 Research companion for `g15-henry-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
 
@@ -8,9 +8,9 @@ Research companion for `g15-henry-gurney-fact-sheet.md`. See AI-Rules.md §3 for
 
 ### 2026-04-25 — L'Estrange anecdote: Edmund Gurney's mathematician joke
 
-Sir Nicholas L'Estrange's manuscript anecdote collection preserves a compact example of Henry Gurney's son Edmund in comic mode: "Edm. Gurney used to say that a mathematitian is like one that goes to markett to buy an axe to breake an egg." The Camden Society editor's introductory notice identifies this "Parson Edmund Gurney" as Francis Gurney's brother and places him in the Edgefield and Harpley livings, confirming that the anecdote belongs to Edmund Gurney (1577-1648), Henry's third son, not the later nineteenth-century Edmund Gurney. The full extract and identity note are now in `research/people/edmund-gurney-divine.research.md`.[^thoms-edmund]
+Sir Nicholas L'Estrange's manuscript anecdote collection preserves a compact example of Henry Gurnay's son Edmund in comic mode: "Edm. Gurney used to say that a mathematitian is like one that goes to markett to buy an axe to breake an egg." The Camden Society editor's introductory notice identifies this "Parson Edmund Gurney" as Francis Gurney's brother and places him in the Edgefield and Harpley livings, confirming that the anecdote belongs to Edmund Gurney (1577-1648), Henry's third son, not the later nineteenth-century Edmund Gurney. The full extract and identity note are now in `research/people/edmund-gurney-divine.research.md`.[^thoms-edmund]
 
-[^thoms-edmund]: William J. Thoms, ed., *Anecdotes and Traditions, Illustrative of Early English History and Literature, Derived from MS. Sources*, Camden Society, old series, vol. 5 (London: Printed for the Camden Society by J. B. Nichols and Son, 1839), pp. xviii-xx and p. 6, Internet Archive, https://archive.org/details/anecdotestraditi00thomrich/. Source ID: `thoms-anecdotes-traditions-1839`.
+[^thoms-edmund]: William J. Thoms, ed., *Anecdotes and Traditions, Illustrative of Early English History and Literature, Derived from MS. Sources*, Camden Society, old series, vol. 5 (London: Printed for the Camden Society by J. B. Nichols and Son, 1839), pp. xviii-xx and p. 6, [Internet Archive](https://archive.org/details/anecdotestraditi00thomrich/). Source ID: `thoms-anecdotes-traditions-1839`.
 
 ### 2026-04-23 — Bernau, *The British Archivist* (1913): new independent source for Henry's descendants
 
@@ -27,7 +27,7 @@ Nothing in Bernau contradicts or revises any item in this companion's Research A
 ## Research Appendix
 
 ### Lineage Status
-**Confirmed by multiple independent witnesses.** Henry Gurney is documented across an exceptional range of independent sources for an Elizabethan Norfolk gentleman:
+**Confirmed by multiple independent witnesses.** Henry Gurnay is documented across an exceptional range of independent sources for an Elizabethan Norfolk gentleman:
 - **Francis Blomefield** (1705–1752), <em>An Essay Towards a Topographical History of the County of Norfolk</em>, vols. i (1805), ii (1805), and vii (1807) — the Great Ellingham, Hingham, and West Barsham parish entries respectively. Blomefield independently confirms Henry as lord in 1572, gives his complete tenurial structure, names his Holdich grandmother and Blennerhasset wife, and traces the descent of Great Ellingham forward through his grandson Edward to extinction in 1661 and Sir Roger Potts.
 - **Daniel Gurney** (1791–1880), <em>The Record of the House of Gournay</em> (1848), pp. 281–287, and the <em>Supplement</em> (1858), pp. 875–1014, including ~120 pages of extracts from Henry's own commonplace book.
 - **Bodleian Library MS Tanner 175** itself: Henry's personal commonplace book of 239 leaves, c. 1570s–1608.
@@ -47,13 +47,13 @@ Henry's father, grandfather, wife, and most of his twelve children are documente
 3. **Number of children.** JSON says 12; the epitaph verse counts 13 born and 12 surviving. Both correct depending on what is counted.
 4. **"Harpham" should be "Harpley".** The JSON references "Harpham, Norfolk" — there is no Harpham in north-west Norfolk; the source is clearly Harpley.
 
-### Henry Gurney's manuscripts, library, and poetic circulation
+### Henry Gurnay's manuscripts, library, and poetic circulation
 
-Steven W. May's article on Henry Gurney and Bodleian MS Tanner 175 remains the central modern scholarly source for Henry's literary life. The supplied abstract describes Henry as a previously unknown Elizabethan poet, critic, and bibliophile at Great Ellingham, Norfolk. In the last decade of Elizabeth's reign he entered into Tanner 175 both an inventory of his library and more than 600 of his own poems. Several poems explain his standards for judging good and bad poetry, and he transcribed verse "censures" of more than twenty borrowed books, including works by John Foxe, Robert Southwell, Richard Hakluyt, Edmund Spenser's *The Faerie Queene*, and "Mother Hubberds Tale."[^may-spenser]
+Steven W. May's article on Henry Gurnay and Bodleian MS Tanner 175 remains the central modern scholarly source for Henry's literary life. The supplied abstract describes Henry as a previously unknown Elizabethan poet, critic, and bibliophile at Great Ellingham, Norfolk. In the last decade of Elizabeth's reign he entered into Tanner 175 both an inventory of his library and more than 600 of his own poems. Several poems explain his standards for judging good and bad poetry, and he transcribed verse "censures" of more than twenty borrowed books, including works by John Foxe, Robert Southwell, Richard Hakluyt, Edmund Spenser's *The Faerie Queene*, and "Mother Hubberds Tale."[^may-spenser]
 
 The article metadata needs reconciliation rather than simplification. The user-supplied ResearchGate/DOI lead gives January 2004, *Spenser Studies: A Renaissance Poetry Annual* 19:183-216, DOI 10.1086/SPSv20p183. The existing companion and Swann's bibliography cite May 2005, *Spenser Studies* 20:183-223. Preserve both metadata variants until the DOI/full article is checked; do not drop the finding while resolving the citation.[^may-spenser]
 
-Joel Swann's article on Chetham's Library MS A.4.15 adds a second modern manuscript context for Henry's poems. MC15 contains Henry Gurney's poetry on folios 69r-80r in the main poetry section, where the anthology shifts from metropolitan, witty, and Inns-of-Court-associated material to didactic, practical, rural poems on household, family, conduct, seasons, animals, wives, and agriculture. Swann identifies Henry as an amateur poet/farmer, born 1549 and died 1616.[^swann-chetham]
+Joel Swann's article on Chetham's Library MS A.4.15 adds a second modern manuscript context for Henry's poems. MC15 contains Henry Gurnay's poetry on folios 69r-80r in the main poetry section, where the anthology shifts from metropolitan, witty, and Inns-of-Court-associated material to didactic, practical, rural poems on household, family, conduct, seasons, animals, wives, and agriculture. Swann identifies Henry as an amateur poet/farmer, born 1549 and died 1616.[^swann-chetham]
 
 Swann summarizes May's findings in geographic and social terms: Henry began writing poetry in the 1590s at age 43, from the manor of Great Ellingham, just under 20 miles southwest of Norwich and about 100 miles northeast of London. He circulated poems and lent books to a circle of at least two dozen nearby people, with the most distant about 30 miles away in Suffolk. Outside MC15, the poems survive only in Henry's own notebook, though other copies were made, and Henry himself prepared copies for friends and relatives.[^swann-chetham]
 
@@ -62,8 +62,8 @@ The MC15 copies are themselves important. Swann says the Chetham manuscript pres
 MC15 also changes the scale of Henry's cultural setting. Swann argues that the manuscript should not be read as only an Inns of Court artifact: it has London, Inns, Norfolk, and East Anglian poles. The Gurney poems were copied by hand D, one of the important hands shaping the manuscript, and the ownership trail may point toward Norfolk book-trade or Norfolk ownership contexts before the manuscript reached Richard Farmer and then Chetham's Library. This makes Henry's rural Norfolk poetry part of the manuscript's social background, not merely an odd insertion into a London collection.[^swann-chetham]
 
 [^may-spenser]: Steven W. May, "Henry Gurney, A Norfolk Farmer, Reads Spenser and Others," *Spenser Studies: A Renaissance Poetry Annual*; user-supplied ResearchGate/DOI lead gives January 2004, vol. 19, pp. 183-216, DOI 10.1086/SPSv20p183; Swann bibliography and existing companion give vol. 20 (2005), pp. 183-223. Source ID: `may-henry-gurney-spenser-2005`.
-[^swann-chetham]: Joel Swann, "Chetham's Library MS A.4.15: an Inns of Court Manuscript?" *Journal of the Northern Renaissance*, 13 February 2016, paragraphs 2-4 and 20-38, https://jnr2.hcommons.org/2016/4231/; user-supplied markdown capture summarized at `sources/corpus_supplement/jnr-chethams-library-ms-a4-15-henry-gurney.md`. Source ID: `swann-chethams-library-ms-a4-15-2016`.
-[^tanner-175-marco]: Bodleian Library, MS Tanner 175, MARCO manuscript catalogue lead, https://marco.ox.ac.uk/ark:29072/x0n870zq56b5. Source ID: `bodleian-ms-tanner-175-marco`.
+[^swann-chetham]: Joel Swann, ["Chetham's Library MS A.4.15: an Inns of Court Manuscript?"](https://jnr2.hcommons.org/2016/4231/) *Journal of the Northern Renaissance*, 13 February 2016, paragraphs 2-4 and 20-38; user-supplied markdown capture summarized at `sources/corpus_supplement/jnr-chethams-library-ms-a4-15-henry-gurney.md`. Source ID: `swann-chethams-library-ms-a4-15-2016`.
+[^tanner-175-marco]: Bodleian Library, MS Tanner 175, [MARCO manuscript catalogue lead](https://marco.ox.ac.uk/ark:29072/x0n870zq56b5). Source ID: `bodleian-ms-tanner-175-marco`.
 
 ### What Bodleian MS Tanner 175 contains
 Per Steven W. May's modern article, CELM, and the manuscript-catalogue lead for Bodleian MS Tanner 175, Henry's commonplace book is the central primary corpus for his literary life. The source set describes it as a small folio volume of 239 leaves, c. 1570s-1608, containing:[^may-spenser][^tanner-175-marco]
@@ -83,10 +83,10 @@ This is the **single richest primary-source corpus for any ancestor in the Gurne
 
 ### Built-site witnesses: Hingham and Great Ellingham
 
-Two later Norfolk place records now provide stronger built-environment anchors for Henry Gurney's world. DiCamillo identifies Gurney's Manor at Hingham as a fully extant Grade II private country house, circa 1600 with later alterations and earliest elements possibly dating to the 1570s. Norfolk Heritage Explorer identifies Old Hall, Great Ellingham (MNF9108 / NHER 9108), as a medieval moated manorial site with a mid-sixteenth-century great house inside the main moat, "said to be 1573, by Henry Gurney," with fishponds, additional moated enclosures, barns, and Grade II protected status.[^dicamillo-gurneys-manor-g15][^nher-old-hall-g15]
+Two later Norfolk place records now provide stronger built-environment anchors for Henry Gurnay's world. DiCamillo identifies Gurney's Manor at Hingham as a fully extant Grade II private country house, circa 1600 with later alterations and earliest elements possibly dating to the 1570s. Norfolk Heritage Explorer identifies Old Hall, Great Ellingham (MNF9108 / NHER 9108), as a medieval moated manorial site with a mid-sixteenth-century great house inside the main moat, "said to be 1573, by Henry Gurney," with fishponds, additional moated enclosures, barns, and Grade II protected status.[^dicamillo-gurneys-manor-g15][^nher-old-hall-g15]
 
-[^dicamillo-gurneys-manor-g15]: Curt DiCamillo, "Gurney's Manor," *The DiCamillo Companion to British & Irish Country Houses*, https://www.thedicamillo.com/house/gurneys-manor/. Source ID: `dicamillo-gurneys-manor`.
-[^nher-old-hall-g15]: Norfolk Historic Environment Service, "MNF9108 — Old Hall, Great Ellingham," *Norfolk Heritage Explorer*, https://www.heritage.norfolk.gov.uk/record-details?MNF9108. Source ID: `nher-mnf9108-old-hall-great-ellingham`.
+[^dicamillo-gurneys-manor-g15]: Curt DiCamillo, ["Gurney's Manor,"](https://www.thedicamillo.com/house/gurneys-manor/) *The DiCamillo Companion to British & Irish Country Houses*. Source ID: `dicamillo-gurneys-manor`.
+[^nher-old-hall-g15]: Norfolk Historic Environment Service, ["MNF9108 — Old Hall, Great Ellingham,"](https://www.heritage.norfolk.gov.uk/record-details?MNF9108) *Norfolk Heritage Explorer*. Source ID: `nher-mnf9108-old-hall-great-ellingham`.
 
 ### Landholdings (per Blomefield's three independent parish surveys)
 - **West Barsham manor and Hall** — held by one knight's fee of the manor of Castleacre.
@@ -119,7 +119,7 @@ Note: Blomefield's "Edm. Gurney" here is **Edward Gurney** (Henry G15's grandson
 - Joel Swann, "Chetham's Library MS A.4.15: an Inns of Court Manuscript?", *Journal of the Northern Renaissance* (2016). Source-registry target: `swann-chethams-library-ms-a4-15-2016`.
 - Bodleian Library, MS Tanner 175, MARCO manuscript-catalogue lead. Source-registry target: `bodleian-ms-tanner-175-marco`.
 - Verily Anderson, <em>Friends and Relations: Three Centuries of Quaker Families</em> (London: Hodder & Stoughton, 1980), p. 21.
-- Pease/Pennyghael Gurney genealogy (Charles E. G. Pease, 2016), http://www.pennyghael.org.uk/Gurney.pdf.
+- Pease/Pennyghael Gurney genealogy (Charles E. G. Pease, 2016), [Gurney.pdf](http://www.pennyghael.org.uk/Gurney.pdf).
 - Charles A. Bernau, "Unrecorded Biographies: Francis Gournay (or Gurney), of Maldon, Essex," <em>The British Archivist</em> vol. I, no. 7 (September 1913), pp. 49 ff. — independent re-attestation of Henry's paternity of Francis G14 and documentation of Henry's descendants through that branch at St Benet Fink, London, and Maldon, Essex.
 - Wikipedia, "Edmund Gurney (divine)" and "Gurney family (Norwich)."
 - Historic England, list entry 1170752 (Gurney's Manor, Hingham), and list entry 1248331 (St James, Great Ellingham).

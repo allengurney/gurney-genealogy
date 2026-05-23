@@ -8,7 +8,7 @@ Hazen's printed Billerica history gives the 10 September 1659 rate list for the 
 
 This is a useful expansion of John Gurney's Massachusetts geography, but it should be handled carefully. The printed list shows participation in a purchase-rate assessment connected to Billerica; it does not, without the underlying town record and related land records, prove that John permanently resided there or held a specific parcel.
 
-[^hazen-billerica]: Henry A. Hazen, *History of Billerica, Massachusetts, with a Genealogical Register* (Boston: A. Williams and Co., 1883), historical p. 33 / image p. 54, Internet Archive, https://archive.org/details/historyofbilleri00hazen. Source ID: `hazen-billerica-1883`.
+[^hazen-billerica]: Henry A. Hazen, *History of Billerica, Massachusetts, with a Genealogical Register* (Boston: A. Williams and Co., 1883), historical p. 33 / image p. 54, [Internet Archive](https://archive.org/details/historyofbilleri00hazen). Source ID: `hazen-billerica-1883`.
 
 ## Open items
 

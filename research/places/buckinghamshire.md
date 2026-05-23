@@ -36,9 +36,9 @@ Farrer also explains the Bec exchange: because of Hugh's loss of Bledlow, Richar
 
 This is senior-line place context, not a direct junior Norfolk branch holding. It belongs here because it explains how the Gournay/Bardolf inheritance spread beyond Norfolk and Normandy.
 
-[^camden-bledlow-wendover]: "Preface and Addenda," *Camden Old Series*, Cambridge Core, https://www.cambridge.org/core/journals/camden-old-series/article/abs/preface-and-addenda/9ECB73C6D0A44B4E1340ED99760B58C2. Source ID: `cambridge-core-camden-preface-addenda`.
-[^gazetteer-wendover]: Samantha Letters et al., *Gazetteer of Markets and Fairs in England and Wales to 1516*, Buckinghamshire, Wendover entry, https://archives.history.ac.uk/gazetteer/bucks.html#Wen. Source ID: `history-ac-uk-markets-fairs-gazetteer`.
-[^farrer-bucks]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925), Mapledurham section, HathiTrust extract, https://hdl.handle.net/2027/mdp.39015032992151. Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
+[^camden-bledlow-wendover]: ["Preface and Addenda,"](https://www.cambridge.org/core/journals/camden-old-series/article/abs/preface-and-addenda/9ECB73C6D0A44B4E1340ED99760B58C2) *Camden Old Series*, Cambridge Core. Source ID: `cambridge-core-camden-preface-addenda`.
+[^gazetteer-wendover]: Samantha Letters et al., *Gazetteer of Markets and Fairs in England and Wales to 1516*, [Buckinghamshire, Wendover entry](https://archives.history.ac.uk/gazetteer/bucks.html#Wen). Source ID: `history-ac-uk-markets-fairs-gazetteer`.
+[^farrer-bucks]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925), Mapledurham section, [HathiTrust extract](https://hdl.handle.net/2027/mdp.39015032992151). Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
 
 ## Open items
 
