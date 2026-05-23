@@ -21,7 +21,7 @@ It also has a second life in the project, because the structured layer correctly
 | John, Rector of Harpley | collateral | d. 1332 | Buried in the chancel of St Lawrence |
 | John de Gournay III | G25 | fl. c. 1300–1353 | Recovered Harpley as nephew-heir on Rector John's death |
 | John de Gournay IV | G24 | fl. c. 1330–1370 | Held the first recorded manorial court at Harpley in 1354 |
-| Edmund Gurney | G23 | d. 1387 | Held Harpley while establishing West Barsham via Katherine de Wauncy |
+| Edmund Gournay | G23 | d. 1387 | Held Harpley while establishing West Barsham via Katherine de Wauncy |
 | Thomas Gournay I | G21 | fl. c. 1408–1450 | Inherited by collateral succession |
 | Thomas Gournay II | G20 | d. 1471 | Named Harpley among his residences in his will |
 | Henry Gurney | G15 | d. 1615/16 | Repurchased Harpley manor in 1587 |
@@ -113,7 +113,7 @@ The Gazetteer of Markets and Fairs adds one more administrative detail: on 5 Jun
 - G15 Henry Gurney — landholding / property reference
 - G20 Thomas Gournay II — landholding / property reference
 - G21 Thomas Gournay I — landholding / property reference
-- G23 Edmund Gurney — landholding / property reference, individual geography
+- G23 Edmund Gournay — landholding / property reference, individual geography
 - G23 Sir John Gurney, Knt. (d.1408) — Collateral — landholding / property reference, individual geography
 - G24 John de Gournay IV — landholding / property reference, individual geography
 - G25 John de Gournay III — landholding / property reference, individual geography

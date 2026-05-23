@@ -22,7 +22,7 @@ Norfolk in this period is not just a map of scattered places. It is the medium t
 
 ## Phase 3 — the rise of West Barsham
 
-The third phase begins when **Edmund Gurney (G23)** acquired **West Barsham** through the **Wauncy inheritance** in 1372. That event transformed the family's geography. Norfolk ceased to be only a county of older junior-line manors and became the county of a major later-medieval and early-modern seat. From Edmund through Thomas I, Thomas II, William IV, Anthony, Henry, and Francis, Norfolk remained the family's principal English stage. [DG-II] [West Barsham file]
+The third phase begins when **Edmund Gournay (G23)** acquired **West Barsham** through the **Wauncy inheritance** in 1372. That event transformed the family's geography. Norfolk ceased to be only a county of older junior-line manors and became the county of a major later-medieval and early-modern seat. From Edmund through Thomas I, Thomas II, William IV, Anthony, Henry, and Francis, Norfolk remained the family's principal English stage. [DG-II] [West Barsham file]
 
 At this stage Norfolk also becomes a county of **parallel family geographies**:
 - **West Barsham** as the principal seat [West Barsham file]

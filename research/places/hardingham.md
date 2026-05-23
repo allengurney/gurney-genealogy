@@ -24,7 +24,7 @@ The later structured links to the Tudor family also matter here. Henry Gurney's 
 | Sir William de Gournay III | G26 | fl. c. 1260–1300 | |
 | John de Gournay III | G25 | fl. c. 1300–1353 | |
 | John de Gournay IV | G24 | fl. c. 1330–1370 | |
-| Edmund Gurney | G23 | d. 1387 | |
+| Edmund Gournay | G23 | d. 1387 | |
 | Henry Gurney | G15 | d. 1615/16 | Manor still associated with the family in 1572 |
 
 ## Primary-source hooks
@@ -45,7 +45,7 @@ White's 1845 directory gives a useful nineteenth-century corroboration of the sa
 
 Blomefield supplies the older manorial descent behind that local memory. Matthew de Gurnay demanded a carucate of land in Hardingham, Swathing, and Runhale in 8 King John, which William his father had held in Henry II's reign. Hugh de Gorney granted Robert the Burgundian the manor of Swathing in Hardingham with the church and appurtenances for 20s sterling per year and the gift of one horse, the grant being made at Ferretre before Hugh's men or tenants. Blomefield explicitly connects this to Gourney in Normandy, "from which they took their name."[^blomefield-hardingham]
 
-The same descent records the tenure becoming locally concrete: in 52 Henry III William de Swathyng held of John de Gurney a messuage, 54 acres of land, 3 acres of wood, free grinding at John's mill called Ravensholm, and associated fold-course and pasture rights. William de Gurnay claimed free warren in 15 Edward I; John Gurney was lord in 9 Edward II; and in 43 Edward III the manor was granted for life to Sir Hamon Felton with remainder to Edmund Gurney, Catherine his wife, and John their son in tail.[^blomefield-hardingham]
+The same descent records the tenure becoming locally concrete: in 52 Henry III William de Swathyng held of John de Gurney a messuage, 54 acres of land, 3 acres of wood, free grinding at John's mill called Ravensholm, and associated fold-course and pasture rights. William de Gurnay claimed free warren in 15 Edward I; John Gurney was lord in 9 Edward II; and in 43 Edward III the manor was granted for life to Sir Hamon Felton with remainder to Edmund Gournay, Catherine his wife, and John their son in tail.[^blomefield-hardingham]
 
 For the place file, this should be treated as a layered place-memory sequence: Swathing was not just a surname-like label in a pedigree; it was remembered locally as a Hardingham outlier, later Low Street, and as a manor paired with Gurneys in both local history and White's directory.
 
@@ -102,7 +102,7 @@ This does not displace the later junior-branch Hardingham/Swathings evidence. It
 ### Linked ancestors
 
 - G18 William Gurney V — landholding / property reference
-- G23 Edmund Gurney — landholding / property reference, individual geography
+- G23 Edmund Gournay — landholding / property reference, individual geography
 - G23 Sir John Gurney, Knt. (d.1408) — Collateral — landholding / property reference, individual geography
 - G24 John de Gournay IV — landholding / property reference
 - G25 John de Gournay III — landholding / property reference

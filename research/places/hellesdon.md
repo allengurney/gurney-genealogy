@@ -18,7 +18,7 @@ This is important because the family history in the late fourteenth and early fi
 
 ## Norwich context
 
-Because Hellesdon stands so close to Norwich, it also has contextual value beyond the inheritance itself. The later medieval Gurneys were deeply involved in Norwich-area legal, ecclesiastical, and property networks. **Edmund Gurney (G23)** had major legal and administrative prominence in Norfolk and Norwich, and the broader family maintained urban and near-urban interests around the city. Hellesdon therefore helps place the collateral branch within the same **Norfolk–Norwich world** rather than in a wholly separate rural sphere. [Edmund G23 companion]
+Because Hellesdon stands so close to Norwich, it also has contextual value beyond the inheritance itself. The later medieval Gurneys were deeply involved in Norwich-area legal, ecclesiastical, and property networks. **Edmund Gournay (G23)** had major legal and administrative prominence in Norfolk and Norwich, and the broader family maintained urban and near-urban interests around the city. Hellesdon therefore helps place the collateral branch within the same **Norfolk–Norwich world** rather than in a wholly separate rural sphere. [Edmund G23 companion]
 
 This matters because it keeps the family's geography from becoming too manor-centric. Hellesdon reminds us that proximity to Norwich — legal, social, and ecclesiastical — was part of the family's world as well.
 

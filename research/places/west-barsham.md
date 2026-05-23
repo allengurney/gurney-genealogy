@@ -2,7 +2,7 @@
 
 Village in north-west Norfolk, England. Coordinates: **52.867826, 0.830094**.
 
-**The principal Gurney family seat from 1372 until the Norfolk lands were sold in 1634** — nearly three centuries of continuous association in the direct line, followed by a short later survival of the broader senior West Barsham branch until 1661. The manor came into the family through the **Wauncy inheritance**, when Katherine de Wauncy, wife of Edmund Gurney (G23), became heir after the deaths of her brother Sir Edmund de Wauncy and his infant son. [DG-II] [Blom-WestBarsham]
+**The principal Gurney family seat from 1372 until the Norfolk lands were sold in 1634** — nearly three centuries of continuous association in the direct line, followed by a short later survival of the broader senior West Barsham branch until 1661. The manor came into the family through the **Wauncy inheritance**, when Katherine de Wauncy, wife of Edmund Gournay (G23), became heir after the deaths of her brother Sir Edmund de Wauncy and his infant son. [DG-II] [Blom-WestBarsham]
 
 ## Why West Barsham matters
 
@@ -15,15 +15,15 @@ For that reason, West Barsham should remain one of the most developed place file
 The Gurneys did not build West Barsham from nothing. They entered an already important manor through the **Wauncy** family. DG-II Appendix LXIII traces the Wauncys as an old Norman-connected family with holdings in both **West Barsham** and **Depden, Suffolk**. The key sequence, as preserved by DG and Blomefield, runs like this:
 
 - before Domesday and long afterwards, West Barsham belonged to the Wauncys [DG-II] [Blom-WestBarsham]
-- in **1357**, Sir William de Wauncy settled **100 marks per annum** from West Barsham and Denver upon **Edmund Gurney and Katherine** [DG-II]
+- in **1357**, Sir William de Wauncy settled **100 marks per annum** from West Barsham and Denver upon **Edmund Gournay and Katherine** [DG-II]
 - in **1367**, a fine again settled part of the West Barsham interest on Edmund and Katherine in tail [DG-II]
 - in **1372**, Katherine's brother Sir Edmund de Wauncy died; his infant son also died soon after, leaving Katherine as heir and bringing West Barsham decisively into the Gurney line [DG-II] [Edmund G23 companion]
 
 This chronology matters because it shows West Barsham as a place obtained through a **major inheritance event**, not through minor purchase. The manor marks the moment the family rose from a long-standing Norfolk junior line into possession of a first-rank seat. [DG-II]
 
-## Edmund Gurney and the making of the seat
+## Edmund Gournay and the making of the seat
 
-Edmund Gurney (G23) is the true founder of West Barsham as the family's central residence. His will, dated in **1387** and preserved in **Reg. Harsyke, fol. 34**, was made at West Barsham and directed burial in the **church of the Assumption of the Blessed Virgin** there, with a bequest of **£8 to the poor on his burial day**. DG-II also preserves the names of his executors, **Osbert de Mundeford** and **Thomas Kemp**. [DG-II] [Edmund G23 companion]
+Edmund Gournay (G23) is the true founder of West Barsham as the family's central residence. His will, dated in **1387** and preserved in **Reg. Harsyke, fol. 34**, was made at West Barsham and directed burial in the **church of the Assumption of the Blessed Virgin** there, with a bequest of **£8 to the poor on his burial day**. DG-II also preserves the names of his executors, **Osbert de Mundeford** and **Thomas Kemp**. [DG-II] [Edmund G23 companion]
 
 West Barsham was therefore not simply a nominal manor on parchment. By Edmund's time it had already become the place from which he dated legal instruments and where he expected his body to be buried. That is the clearest sign that the manor had become the family's principal domestic and symbolic centre. [DG-II]
 
@@ -69,9 +69,9 @@ That distinction is important enough to preserve explicitly, because otherwise t
 ## Sources
 
 - Daniel Gurney, *Record of the House of Gournay*, Part I (1848), p. 280. [DG-I]
-- DG-II, Appendix LXIII (Wauncy family), Appendix LXV (West Barsham lease), and Edmund Gurney chapter. [DG-II]
+- DG-II, Appendix LXIII (Wauncy family), Appendix LXV (West Barsham lease), and Edmund Gournay chapter. [DG-II]
 - Blomefield, *History of Norfolk*, vol. vii, pp. 42–47. [Blom-WestBarsham]
-- Reg. Harsyke, fol. 34 (Edmund Gurney's 1387 will), cited by DG-II. [DG-II]
+- Reg. Harsyke, fol. 34 (Edmund Gournay's 1387 will), cited by DG-II. [DG-II]
 - History of Parliament Online: Sir John Gurney, d. 1408. [HoP-Gurney]
 - `research/people/g23-edmund-gurney-fact-sheet.research.md`
 - `research/people/g19-william-gurney-iv-fact-sheet.research.md`
@@ -110,7 +110,7 @@ That distinction is important enough to preserve explicitly, because otherwise t
 - G19 William Gurney IV — landholding / property reference, individual geography
 - G20 Thomas Gournay II — landholding / property reference, individual geography
 - G21 Thomas Gournay I — landholding / property reference, individual geography
-- G23 Edmund Gurney — landholding / property reference
+- G23 Edmund Gournay — landholding / property reference
 - G23 Sir John Gurney, Knt. (d.1408) — Collateral — landholding / property reference, individual geography
 
 ### Review notes

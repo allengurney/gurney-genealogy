@@ -25,10 +25,10 @@ Several ancestor entries in `data/ancestors v23.json` have **`sourceQuote` or `e
 |---|---|---|---|
 | Thomas Gournay II | G20 | Harpley landholding | `eventDate` reads: "21 Jan. 1548/9 — d. 1615/16 \| c. 1430 – d. before 27 July 1471 \| d. 1408 \| d. 1387 \| fl. c. 1300–1360" — five generations concatenated |
 | Thomas Gournay II | G20 | West Barsham landholding | `eventDate` reads: seven-plus-generation concatenation ending with "…" truncation |
-| Edmund Gurney | G23 | Harpley landholding | Same five-generation concatenation as G20 Harpley |
-| Edmund Gurney | G23 | West Barsham landholding | Same seven-plus-generation concatenation as G20 West Barsham |
-| Edmund Gurney | G23 | King's Lynn landholding | `eventDate` reads: "13 Sept. 1581 — d. 1640 \| d. 1387" — Henry G15 dates concatenated with Edmund's |
-| Edmund Gurney | G23 | Hardingham landholding | `eventDate` reads: "c. 1465 – before 18 Jan. 1507/8 \| d. 1408 \| d. 1387 \| fl. c. 1300–1360" — William V and others concatenated |
+| Edmund Gournay | G23 | Harpley landholding | Same five-generation concatenation as G20 Harpley |
+| Edmund Gournay | G23 | West Barsham landholding | Same seven-plus-generation concatenation as G20 West Barsham |
+| Edmund Gournay | G23 | King's Lynn landholding | `eventDate` reads: "13 Sept. 1581 — d. 1640 \| d. 1387" — Henry G15 dates concatenated with Edmund's |
+| Edmund Gournay | G23 | Hardingham landholding | `eventDate` reads: "c. 1465 – before 18 Jan. 1507/8 \| d. 1408 \| d. 1387 \| fl. c. 1300–1360" — William V and others concatenated |
 | Gerard de Gournay | G32 | Norfolk landholding | `eventDate` reads: "d. 1408 \| c. 1098 — d. 1180 \| c. 1040 — d. before 1104, Palestine \| c. 1020 — d. c. 1093" — four generations |
 | Gerard de Gournay | G32 | Gournay-en-Bray landholding | Seven-plus-generation concatenation on the shared senior-line seat |
 | Hugh de Gournay III | G33 | Norfolk landholding | Same four-generation concatenation as G32 Norfolk |

@@ -6,7 +6,7 @@ Norwich appears in the Gurney/Gournay research library in several distinct ways:
 
 Blomefield's Richard II chapter records that in the relevant city account Norwich paid Edm. Gournay, one of the city counsellors, an annual salary of 20s. The same account paid another counsellor, Edm. de Clippesby, and includes other city expenses around royal loans and civic administration.[^blomefield-norwich-richard-ii]
 
-This is likely the direct-line Edmund Gurney/Gournay (G23), whose legal and stewardship profile is already central to the West Barsham transition. It should be treated as independent civic evidence for his Norwich legal role, not merely as a repeat of Daniel Gurney.
+This is likely the direct-line Edmund Gournay/Gournay (G23), whose legal and stewardship profile is already central to the West Barsham transition. It should be treated as independent civic evidence for his Norwich legal role, not merely as a repeat of Daniel Gurney.
 
 ## Gournay's Place in South Conisford
 

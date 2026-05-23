@@ -111,7 +111,7 @@ Output sections, in this order:
    - Each vital: before/after, FS-standardization status, full Reason text, conflicts dialog summary (if triggered).
    - Each new source: full citation, notes, reason, vital tags.
 4. **"What was NOT changed (intentionally)"**: explicit list of fields/relationships left alone.
-5. **"Open follow-ups discovered during pass"**: downstream FS data issues with PIDs and brief description.
+5. **"Open follow-ups discovered during pass"**: downstream FS data issues with PIDs and brief description. **Include structural attribution problems**, not only downstream-stale dates — when an FS field's value is internally consistent only if attached to a *different* ancestor (e.g. an IPM dated to a father appearing on the son's record), flag it as a structural follow-up rather than treating it as a stale-data conflict.
 
 ## Cadence and batching
 

@@ -52,9 +52,9 @@
     },
     "dg-rec-supp": {
       "shortTitle": "DG Record, Supplement (1858)",
-      "citation": "Gurney, Daniel. The Record of the House of Gournay, Supplement. London: Priv. print., 1858.",
-      "archive": "Google Books OCR scan",
-      "url": null,
+      "citation": "Gurney, Daniel. Supplement to the Record of the House of Gournay. King's Lynn: Thew & Son, 1858.",
+      "archive": "Internet Archive",
+      "url": "https://archive.org/details/recordhousegour02gurngoog",
       "corpusStatus": "full",
       "corpusPath": "sources/corpus/daniel-gurney-supplement.md",
       "mediaPath": null,

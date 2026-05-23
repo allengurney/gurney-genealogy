@@ -2,15 +2,15 @@
 
 Port town on the east coast of the Wash, Norfolk, England. Coordinates: **52.75776, 0.39430**.
 
-Known as **Bishop's Lynn** until 1537, when Henry VIII changed the name to **King's Lynn**. It was one of the great medieval English ports, heavily involved in wool, grain, timber, and overseas trade. For the Gurneys, Lynn is not a single-period place. It matters in at least two distinct eras: first as a **medieval legal and commercial setting** for Edmund Gurney (G23), and later as an **early modern property / enterprise site** for the seventeenth-century family. [DG-I] [DG-II] [Edmund G23 companion]
+Known as **Bishop's Lynn** until 1537, when Henry VIII changed the name to **King's Lynn**. It was one of the great medieval English ports, heavily involved in wool, grain, timber, and overseas trade. For the Gurneys, Lynn is not a single-period place. It matters in at least two distinct eras: first as a **medieval legal and commercial setting** for Edmund Gournay (G23), and later as an **early modern property / enterprise site** for the seventeenth-century family. [DG-I] [DG-II] [Edmund G23 companion]
 
 ## Why this place matters historically
 
-King's Lynn is one of the most interesting Norfolk urban places in the project because it keeps the family from being read only as rural manorial gentry. In Edmund Gurney's lifetime it shows the family participating in the legal and civic world of a major borough. In the early Stuart period it points toward a more entrepreneurial, semi-urban family geography tied to leases, industry, and market-town opportunity. That layered urban continuity is what makes Lynn historically richer than many of the purely rural place files. [DG-II]
+King's Lynn is one of the most interesting Norfolk urban places in the project because it keeps the family from being read only as rural manorial gentry. In Edmund Gournay's lifetime it shows the family participating in the legal and civic world of a major borough. In the early Stuart period it points toward a more entrepreneurial, semi-urban family geography tied to leases, industry, and market-town opportunity. That layered urban continuity is what makes Lynn historically richer than many of the purely rural place files. [DG-II]
 
-## Medieval Lynn: Edmund Gurney as standing counsel
+## Medieval Lynn: Edmund Gournay as standing counsel
 
-The clearest medieval connection is **Edmund Gurney (G23)**, whom DG-II describes as **standing counsel to the city of Bishop's Lynn**. This is one of the strongest urban-legal roles documented anywhere in the medieval family. It fits with Edmund's wider profile as a lawyer, commissioner, and regional administrator, and it helps explain why the family could accumulate the wealth and standing that later supported the West Barsham rise. [DG-II] [Edmund G23 companion]
+The clearest medieval connection is **Edmund Gournay (G23)**, whom DG-II describes as **standing counsel to the city of Bishop's Lynn**. This is one of the strongest urban-legal roles documented anywhere in the medieval family. It fits with Edmund's wider profile as a lawyer, commissioner, and regional administrator, and it helps explain why the family could accumulate the wealth and standing that later supported the West Barsham rise. [DG-II] [Edmund G23 companion]
 
 This Lynn role should not be understated. It marks Edmund not merely as a landholder near the town but as a working legal figure embedded in borough governance.
 
@@ -30,7 +30,7 @@ King's Lynn also matters in a third, commemorative sense: Daniel Gurney's 1858 *
 
 Lynn should be treated as a **multi-phase urban place**:
 1. early documentary perimeter through Gaywood and William I;
-2. medieval borough-law prominence through Edmund Gurney;
+2. medieval borough-law prominence through Edmund Gournay;
 3. early modern commercial/industrial experimentation through the St James's Chapel context.
 
 That is a better fit for the evidence than reducing the place to any one single anecdote.
@@ -52,7 +52,7 @@ This places Francis in a civic poor-employment and textile-production scheme rat
 ## Sources
 
 - Daniel Gurney, *Record of the House of Gournay*, Part I (1848), p. 278 (Gaywood / William I), p. 280. [DG-I]
-- DG-II, pp. 357–363 (Edmund Gurney chapter and Lynn counsel role). [DG-II]
+- DG-II, pp. 357–363 (Edmund Gournay chapter and Lynn counsel role). [DG-II]
 - `research/people/g23-edmund-gurney-fact-sheet.research.md`
 - Existing place file / normalized place registry for the St James's Chapel industrial note.
 
@@ -80,7 +80,7 @@ This places Francis in a civic poor-employment and textile-production scheme rat
 ### Linked ancestors
 
 - G14 Francis Gurney — landholding / property reference
-- G23 Edmund Gurney — landholding / property reference, individual geography
+- G23 Edmund Gournay — landholding / property reference, individual geography
 
 ### Review notes
 
