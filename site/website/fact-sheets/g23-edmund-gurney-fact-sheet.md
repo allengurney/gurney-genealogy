@@ -1,19 +1,19 @@
 ---
 layout: layouts/base.njk
 permalink: /fact-sheets/g23-edmund-gurney-fact-sheet.html
-title: Edmund Gurney Fact Sheet
-pageHeading: Edmund Gurney (d. 1387)
+title: Edmund Gournay Fact Sheet
+pageHeading: Edmund Gournay (d. 1387)
 subtitle: "Lawyer of eminence; steward of John of Gaunt's East Anglian estates; standing counsel to the city of Norwich; husband of the heiress who brought West Barsham into the family."
-description: "Compact fact sheet for Edmund Gurney, d. 1387, in the direct Gurney line."
+description: "Compact fact sheet for Edmund Gournay, d. 1387, in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
 factsheet:
   gen: G23
   slug: g23-edmund-gurney-fact-sheet
-  personName: Edmund Gurney
+  personName: Edmund Gournay
   heroImage: /media/factsheets/g23-edmund-gurney-hero.png
   heroAlt: West Barsham Hall, Norfolk — the manor Edmund acquired through his wife Katherine de Wauncy
-  heroCaption: West Barsham Hall, Norfolk — the manor Edmund de Gurney acquired through his wife Katherine de Wauncy after 1372, making the Gurneys "of West Barsham" for the next three centuries. The surviving 16th-century north wing is Grade II listed.
+  heroCaption: West Barsham Hall, Norfolk — the manor Edmund Gournay acquired through his wife Katherine de Wauncy after 1372, making the Gurneys "of West Barsham" for the next three centuries. The surviving 16th-century north wing is Grade II listed.
   heroCredit: Geograph / CC BY-SA.
 ---
 
@@ -21,11 +21,12 @@ factsheet:
 {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
-  "name": "Edmund Gurney — Fact Sheet",
-  "description": "Compact fact sheet for Edmund Gurney, d. 1387, in the direct Gurney line.",
+  "name": "Edmund Gournay — Fact Sheet",
+  "description": "Compact fact sheet for Edmund Gournay, d. 1387, in the direct Gurney line.",
   "mainEntity": {
     "@type": "Person",
-    "name": "Edmund Gurney",
+    "name": "Edmund Gournay",
+    "alternateName": ["Edmund Gurney", "Edmund de Gurney", "Edmund Gurnay", "Edmund Gourney"],
     "deathDate": "1387",
     "birthPlace": { "@type": "Place", "name": "Harpley, Norfolk, England" },
     "deathPlace": { "@type": "Place", "name": "West Barsham, Norfolk, England" },
@@ -59,7 +60,7 @@ factsheet:
     <div class="fact-label">Marriage(s)</div>
     <div class="fact-value">
       <div class="stacked-records">
-        <div><strong>Katherine de Wauncy</strong> — daughter of Sir William de Wauncy, Knt., of West Barsham, Lord of Depden (Suffolk) and Denver (Norfolk). Katherine was eventually sister and heir of Sir Edmund de Wauncy, who died in 1372 leaving only an infant son who also died soon after, bringing the entire West Barsham estate to Edmund Gurney in right of his wife. The marriage and the resulting Wauncy descent are independently confirmed by Francis Blomefield in his West Barsham parish entry: "this lordship came to Edmund Gurney, by the marriage of Catherine, daughter of Sir William, and sister of Sir Edward Wauci." A grant of 100 marks per year from the West Barsham and Denver manors was settled on Edmund and Katherine by her father, dated 31 Edward III (1357). <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></div>
+        <div><strong>Katherine de Wauncy</strong> — daughter of Sir William de Wauncy, Knt., of West Barsham, Lord of Depden (Suffolk) and Denver (Norfolk). Katherine was eventually sister and heir of Sir Edmund de Wauncy, who died in 1372 leaving only an infant son who also died soon after, bringing the entire West Barsham estate to Edmund Gournay in right of his wife. The marriage and the resulting Wauncy descent are independently confirmed by Francis Blomefield in his West Barsham parish entry: "this lordship came to Edmund Gurney, by the marriage of Catherine, daughter of Sir William, and sister of Sir Edward Wauci." A grant of 100 marks per year from the West Barsham and Denver manors was settled on Edmund and Katherine by her father, dated 31 Edward III (1357). <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></div>
       </div>
     </div>
   </div>
@@ -117,7 +118,7 @@ factsheet:
 <section class="fact-section fact-narrative" id="narrative">
 <h2 class="unnumbered">Narrative</h2>
 
-Edmund Gurney is the ancestor who transformed the family's position in Norfolk society. His predecessors at Harpley had been respectable minor gentry — knights and esquires of moderate standing. Edmund became something considerably more: a lawyer of county-wide reputation, retained by the city of Norwich, by the borough of Bishop's Lynn, and — most impressively of all — by John of Gaunt himself, as steward of the Duke's East Anglian estates.
+Edmund Gournay is the ancestor who transformed the family's position in Norfolk society. His predecessors at Harpley had been respectable minor gentry — knights and esquires of moderate standing. Edmund became something considerably more: a lawyer of county-wide reputation, retained by the city of Norwich, by the borough of Bishop's Lynn, and — most impressively of all — by John of Gaunt himself, as steward of the Duke's East Anglian estates.
 
 John of Gaunt needs context. In the 1370s and 1380s, as Edward III declined and the young Richard II struggled to establish himself, Gaunt was effectively the most powerful figure in English public life — controlling revenues, military resources, and political influence on a scale no other subject approached. To be his estate steward for any region was to operate at the highest level of administrative England. Edmund did this for East Anglia for fifteen years.
 

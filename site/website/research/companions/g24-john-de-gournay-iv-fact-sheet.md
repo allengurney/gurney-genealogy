@@ -17,7 +17,7 @@ Research notes for `g24-john-de-gournay-iv-fact-sheet.md`. See AI-Rules.md §3 f
 The passage records that in a charter of Richard II in favour of the Priory of Walsingham, "Edmond de Gournay" (G23 Edmund) is named among those who had given property to the priory. In a subsequent charter of Henry IV, "Jean de Gournay" (likely Sir John Gurney, d. 1408 — the collateral) appears among Walsingham's benefactors.
 
 DG identifies the relevant charters in the Monasticon Anglicanum (Vol. VI, p. 74):
-- Pat. 8 Richard II, p. 2, m. 15 (1385): Edmund Gurney named alongside Stephen de Hales, Oliver de Calthorpe, Ralph de Shelton (all knights), and William de Walsham (clerk), granting the manors of Great Riburgh and Little Riburgh (Woodhall) to the Prior and Convent of Walsingham.
+- Pat. 8 Richard II, p. 2, m. 15 (1385): Edmund Gournay named alongside Stephen de Hales, Oliver de Calthorpe, Ralph de Shelton (all knights), and William de Walsham (clerk), granting the manors of Great Riburgh and Little Riburgh (Woodhall) to the Prior and Convent of Walsingham.
 
 **Significance for G24:** This charter dates to 1385 — two years before Edmund's death. But John IV (G24) would have been Edmund's father. If John IV was "active 1354" and Edmund died 1387, John IV likely died c. 1370–1380. The Walsingham benefactions straddle the G24–G23 transition and confirm the family's connections to major Norfolk religious houses and to the Calthorpe and Hales families.
 

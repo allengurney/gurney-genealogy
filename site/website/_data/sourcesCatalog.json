@@ -168,6 +168,18 @@
     "notes": "John Gurney-1 on p. 151 (Suffolk — Bury St. Edmunds). Source: 'Banks Mss.' only — no primary citation. East Anglian placement weakens Candidate A (Stewkley) more than Candidate B."
   },
   {
+    "sourceId": "bardsley-english-welsh-surnames-1901",
+    "shortTitle": "Bardsley, Dictionary of English & Welsh Surnames",
+    "citation": "Charles Wareing Bardsley, A Dictionary of English & Welsh Surnames with Special American Instances (London: Henry Frowde; Oxford University Press, 1901), p. 344, s.v. \"Gurney, Gurnay, Gurnee.\"",
+    "archive": "Internet Archive (bwb_P9-CDP-537 copy)",
+    "url": "https://archive.org/details/bwb_P9-CDP-537/page/344/mode/2up",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Standard turn-of-the-20th-century surname etymology reference. The Gurney entry repeats the Norman-origin tradition (Gournai-en-Brai, two Hugh de Gournays at Hastings per Roman de Rou) and lists specimen medieval bearers from Rotuli Hundredorum 1273 (Milesenta fil. Hugh de Gorney co. Bedf.; John de Gurnay co. Norf.; Anselm de Gurney co. Glouc.; Robert de Gurnay co. Wilts., Hen. III - Edw. I), Kirby's Quest 1327 (John de Gorney co. Soms.), and one Norfolk clerical entry (Robert Gournay, rector of Hethel, co. Norf., 1438; abbreviation 'FF. v. 109' in Bardsley still to be resolved). Used in v52 only for the 1438 Hethel rector lead. Surname-etymology and Hastings-tradition material is already documented in the senior-line companion files (G33, G34) and the senior-baron-line topic file; no new prose is added for those."
+  },
+  {
     "sourceId": "bartlett-bartletts-of-weymouth-1892",
     "shortTitle": "Bartlett, The Bartletts of Weymouth (1892)",
     "citation": "Bartlett, Thomas Edward. The Bartletts: Ancestral, Genealogical, Biographical, Historical: Comprising an Account of the American Progenitors of the Bartlett Family, with Special Reference to the Descendants of John Bartlett, of Weymouth and Cumberland. New Haven, Conn.: Press of the Stafford Printing Co., 1892, pp. 14-15.",
@@ -252,6 +264,18 @@
     "notes": "St Augustine 1638 rents return, three manuscript pages (MS. 67, MS. 67a, MS. 68), £1,700 total assessed value yielding £233 5s tithe at 2/9 per £. John Gurney is in MS. 67a at £10, between Christopher Hunlock £2 and George Browne £10. Joseph Huntscott (= Joseph Henscott, will overseer of Robert Gurney 1625, and the well-documented Stationer) appears on MS. p. 68 at £12, anchoring parish-network continuity from Robert's death (1625) into 1638. Candidate D context now stronger than a generic same-name London lead."
   },
   {
+    "sourceId": "bho-ipm-edward-iii-vol12-sancto-omero-mulbarton-1366",
+    "shortTitle": "BHO Calendar of IPM, Edward III, vol. 12 — Thomas de Sancto Omero (1366)",
+    "citation": "\"Inquisitions Post Mortem, Edward III, File 188,\" Calendar of Inquisitions Post Mortem, vol. 12 (London: HMSO; published online at British History Online), entry 79, Thomas de Sancto Omero, 40 Edward III (1366).",
+    "archive": "TNA E. Inq. P.M. File 25 (13) and C. Edw. III File 188 (10); printed calendar published HMSO; available online via British History Online.",
+    "url": "https://www.british-history.ac.uk/inquis-post-mortem/vol12/pp51-65",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Assignment of dower and partition of the lands of Thomas de Sancto Omero, made at Mulkebertone (Mulbarton), Norfolk, 23-25 May 1366. The Mulbarton partition lists 'the services of Robert Gurnay, John Pigot and William Stalon' among the free tenants, and separately 'bondmen named Nicholas Elvard, Henry Isabel, Robert Gurnay, John Dobyn, Henry Short and Walter Smyht.' Two distinct Roberts named Gurnay are named in the same partition — one free tenant, one bondman. Neither is G22 Robert Gournay (gentry, fl. c.1370-1420)."
+  },
+  {
     "sourceId": "bho-hmc-kings-lynn-misc-writings",
     "shortTitle": "BHO HMC - King's Lynn Miscellaneous Writings",
     "citation": "Historical Manuscripts Commission. \"The Borough of King's Lynn: Miscellaneous Writings.\" Eleventh Report, Appendix, Part III. British History Online.",
@@ -333,7 +357,7 @@
     "corpusPath": "sources/corpus_supplement/blomefield-norfolk-vol5-pp33-cringleford-berford.md",
     "mediaPath": "",
     "validationPath": "sources/validations/blomefield-norfolk-vol5-pp33-cringleford-berford.md",
-    "notes": "Page-level Blomefield/BHO extract for Cringleford's Berford's Manor descent. Records that after the De la Poles obtained the manor in trust, they settled it on Edmund Gourney, William de Boyton, Thomas Spynk, and John le Latimer of Norwich as feoffees; the manor extended into Hethersett, Eaton, Earlham, Little Melton, Colney, and Cringleford watermill; by 1381 John le Latimer was sole lord with view of frankpledge, weyf, and strey; in the same year Gournay and the other De la Pole feoffees released their right to him. Adds Edmund Gurney (G23) to the documented De la Pole / Latimer feoffee network in the 1370s."
+    "notes": "Page-level Blomefield/BHO extract for Cringleford's Berford's Manor descent. Records that after the De la Poles obtained the manor in trust, they settled it on Edmund Gourney, William de Boyton, Thomas Spynk, and John le Latimer of Norwich as feoffees; the manor extended into Hethersett, Eaton, Earlham, Little Melton, Colney, and Cringleford watermill; by 1381 John le Latimer was sole lord with view of frankpledge, weyf, and strey; in the same year Gournay and the other De la Pole feoffees released their right to him. Adds Edmund Gournay (G23) to the documented De la Pole / Latimer feoffee network in the 1370s."
   },
   {
     "sourceId": "bodleian-ms-tanner-175-marco",
@@ -394,6 +418,42 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Context source for the St Stephen Coleman Street / New Haven migration network cited in the John Gurney case file. Page-level extraction has not been added to the corpus."
+  },
+  {
+    "sourceId": "cfr-henry-iv-1405-13",
+    "shortTitle": "Calendar of Fine Rolls, Henry IV, 1405-13",
+    "citation": "Calendar of the Fine Rolls Preserved in the Public Record Office, Henry IV, A.D. 1405-1413, vol. 13 (London: HMSO, 1934).",
+    "archive": "TNA / HMSO printed calendar; widely available in research libraries and via HathiTrust",
+    "url": "",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Henry IV Fine Rolls calendar volume. Used in v52 for the 16 Feb 1409 escheator order on the lands of John Gurnay (= collateral Sir John Gurney d. 4 Dec 1408), p. 123, and for the 5 Nov 1406 record that Sir Matthew de Gournay (Somerset/regicide collateral) had died by that date, p. 78."
+  },
+  {
+    "sourceId": "cpr-henry-iv-1399-1401",
+    "shortTitle": "Calendar of Patent Rolls, Henry IV, 1399-1401",
+    "citation": "Calendar of the Patent Rolls Preserved in the Public Record Office, Henry IV, A.D. 1399-1401, vol. 1 (London: HMSO, 1903).",
+    "archive": "TNA / HMSO printed calendar; HathiTrust and Internet Archive copies",
+    "url": "",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Henry IV Patent Rolls calendar volume. Used in v52 for Sir Matthew de Gournay's Somerset commissions of array (18 Dec 1399 p. 210, 25 Feb 1400 p. 267, 5 Jul 1400 p. 564) and his 300 marks/year Exchequer grant (12 Mar 1400 p. 208)."
+  },
+  {
+    "sourceId": "cpr-henry-vi-1422-29",
+    "shortTitle": "Calendar of Patent Rolls, Henry VI, 1422-29",
+    "citation": "Calendar of the Patent Rolls Preserved in the Public Record Office, Henry VI, A.D. 1422-1429, vol. 1 (London: HMSO, 1901).",
+    "archive": "TNA / HMSO printed calendar; HathiTrust and Internet Archive copies",
+    "url": "",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Henry VI Patent Rolls calendar volume. Used in v52 for the 1 Feb 1423 pardon of John Gurney, goldsmith of Little Walsingham, for non-appearance touching a plea of debt of 100s. by John Langholm (p. 26)."
   },
   {
     "sourceId": "histoire-de-lorraine-calmet",
@@ -578,9 +638,9 @@
   {
     "sourceId": "dg-rec-supp",
     "shortTitle": "DG Record, Supplement (1858)",
-    "citation": "Gurney, Daniel. The Record of the House of Gournay, Supplement. London: Priv. print., 1858.",
-    "archive": "Google Books OCR scan",
-    "url": "",
+    "citation": "Gurney, Daniel. Supplement to the Record of the House of Gournay. King's Lynn: Thew & Son, 1858.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/recordhousegour02gurngoog",
     "corpusStatus": "full",
     "corpusPath": "sources/corpus/daniel-gurney-supplement.md",
     "mediaPath": "",
@@ -1152,6 +1212,18 @@
     "notes": "County coverage chart used to assess significance of absences. London City = NONE, Norfolk = NONE, Suffolk = NONE, Essex = Slight, Bucks = Slight (but Stewkley well-represented)."
   },
   {
+    "sourceId": "girders-net-medieval-gurney-abstracts",
+    "shortTitle": "girders.net Medieval Gurney Abstracts",
+    "citation": "\"Medieval Gurneys,\" girders.net, accessed 22 May 2026, https://www.girders.net/.",
+    "archive": "girders.net (private compilation site)",
+    "url": "https://www.girders.net/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Compilation site of short Gurney/Gurnay/Gournay abstracts each citing an underlying primary source (NRO will register, Calendar of Fine Rolls, Calendar of Patent Rolls, TNA A2A, medievalgenealogy.org.uk fine abstract). Used as the discovery vector for the v52 batch of eight Norfolk/Bucks/Somerset abstracts. Cite the underlying primary source in footnotes; cite girders.net only when the underlying record has not been re-examined."
+  },
+  {
     "sourceId": "great-ellingham-manor-farmhouse-hingham-road",
     "shortTitle": "Great Ellingham - Manor Farmhouse in Hingham Road",
     "citation": "\"An Ornate Timber-Framed Farmhouse in Hingham Road.\" Great Ellingham local history website.",
@@ -1596,6 +1668,18 @@
     "notes": "Modern academic article on Henry Gurnay and Bodleian MS Tanner 175. The corpus supplement is a narrative research extraction from the ILL article copy, not the copyrighted PDF. User-supplied ResearchGate metadata gives January 2004, Spenser Studies 19:183-216, DOI 10.1086/SPSv20p183. The article-copy citation and the Chetham/JNR bibliography give Spenser Studies 20 (2005), pp. 183-223. Do not drop either metadata variant; reconcile by DOI/full article before citation cleanup. The article supports Henry as poet, critic, bibliophile, estate manager, and literary-network figure at Great Ellingham; MS Tanner 175 preserves estate notes, library inventory, more than 600 poems, and verse censures of borrowed books including Foxe, Southwell, Hakluyt, The Faerie Queene, and Mother Hubberds Tale."
   },
   {
+    "sourceId": "medievalgenealogy-cp25-1-21-112-stone-hartwell",
+    "shortTitle": "medievalgenealogy.org.uk — CP 25/1/21/112 fine, Stone and Hartwell, Bucks",
+    "citation": "Abstract of a Feet of Fines entry, CP 25/1/21/112, c.1404, Richard Gurney and William Gurney v. Robert Porter and his wife Christian, settlement of an action concerning a messuage, 4 tofts, 86 acres of land, 10 acres of meadow, 2 acres of pasture, and 12s. of rent in Stone and Hartwell, Buckinghamshire; published online by Chris Phillips, www.medievalgenealogy.org.uk.",
+    "archive": "TNA CP 25/1/21/112 (original); medievalgenealogy.org.uk transcript/abstract",
+    "url": "https://www.medievalgenealogy.org.uk/fines/abstracts/CP_25_1_21_112.shtml",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Used in v52 as a Buckinghamshire collateral Gurney record (Richard Gurney + William Gurney v. Robert and Christian Porter, c.1404). Re-verification of the abstract against the original TNA CP 25/1 series is the natural next step before any heavier interpretation is built on this fine."
+  },
+  {
     "sourceId": "mendon-proprietors-records-1899",
     "shortTitle": "Mendon Proprietors' Records (1899)",
     "citation": "The Proprietors' Records of the Town of Mendon, Massachusetts: Incorporated May 15, 1667. Boston: Rockwell and Churchill Press, 1899.",
@@ -1774,6 +1858,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/nher-great-ellingham-parish-summary.md",
     "notes": "Norfolk Heritage Explorer parish summary for Great Ellingham. Important contextual source for Great Ellingham's long occupation history, medieval church and residential buildings, and Old Hall (NHER 9108), described as a mid-16th-century house built for one of the Gurney family on the site of an earlier moated manor."
+  },
+  {
+    "sourceId": "nro-ncc-wills-registers",
+    "shortTitle": "Norfolk Record Office, NCC Will Registers",
+    "citation": "Norfolk Record Office, Norwich Consistory Court (NCC) will registers, including registers Doke (mid-15th c.), Aleyn (mid-15th c.), and Jekkys (later 15th c.).",
+    "archive": "Norfolk Record Office, The Archive Centre, Martineau Lane, Norwich",
+    "url": "http://nrocat.norfolk.gov.uk",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Umbrella entry for the NCC will and administration registers held at the Norfolk Record Office. v52 uses three entries discovered via girders.net: NCC will register Doke, 17 (administration of Henry Gurnay of Norwich, 1443); NCC will register Aleyn, 19 (administration of Thomas Gurnay of Great Ellingham, 1454); NCC will register Jekkys, 211 (will of Thomas Gurnay of Harpley, 1471 = G20 Thomas Gournay II). The Jekkys 211 will is the primary register copy of the will whose contents DG-I pp. 280-282 already extracts."
   },
   {
     "sourceId": "norman-geo-archives76-commune-dossiers-2026",
@@ -2232,6 +2328,18 @@
     "notes": "Daniel Shed (b. Finchingfield, Essex, baptized 25 June 1620; first in Braintree records 1643; married Mary Gurney 1647) and descendants. Records seven children of Daniel + Mary between 1 October 1647 and 30 October 1658 per Braintree Book of Records. Used in case-file §6 to bound Mary Gurney's English birth before 1628."
   },
   {
+    "sourceId": "medievalsoldier-database",
+    "shortTitle": "Soldier in Later Medieval England Online Database",
+    "citation": "Adrian R. Bell, Anne Curry, Andy King, and David Simpkin (eds.), The Soldier in Later Medieval England Online Database. AHRC-funded project (2006–2009, with subsequent additions), University of Reading and University of Southampton. Indexed from English military pay and protection records c. 1357–1453, primarily TNA series C61 (Gascon Rolls), C71 (Scotch Rolls), C76 (Treaty Rolls / French Rolls), and E101 (Exchequer Accounts Various: retinue rolls, muster rolls, counter rolls), plus BNF (Bibliothèque nationale de France) MS. Fr., MS. Clairambault, NAF, and Add. Ch. series for Lancastrian Normandy garrisons. Recommended citation per project: cite the underlying TNA/BNF reference followed by 'from the AHRC-funded The Soldier in Later Medieval England Online Database, www.medievalsoldier.org' with access date.",
+    "archive": "AHRC / University of Reading / University of Southampton",
+    "url": "https://www.medievalsoldier.org/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Searchable index of ~290,000 entries from English military pay records, letters of protection, letters of attorney, and muster rolls 1357–1453. Cites underlying TNA/BNF references directly so citations should be anchored to the primary record, with the database credited as the finding aid. Companion monograph: Adrian R. Bell, Anne Curry, Andy King, and David Simpkin, The Soldier in Later Medieval England (Oxford: Oxford University Press, 2013). Used 2026-05-22 to confirm G21 Thomas Gournay I service entries (1415 Agincourt campaign in John Holland's retinue under Henry V; 1441 France expedition in John de Vere's retinue under Richard of York), and a Sir John Gurney V (collateral, d. 1408) 1394 Aquitaine entry under John of Gaunt. Other Gournay/Gurney soldiers also appear in the database — most prominently Sir Matthew de Gournay (d. 1406) of the Somerset/regicide collateral branch — and can be distinguished by rank, place, and affinity."
+  },
+  {
     "sourceId": "spr-case-338-john-gurney-probate-1663",
     "shortTitle": "SPR Case #338 - John Gurney probate inventory",
     "citation": "Suffolk County, Massachusetts, Probate Records, Case #338, John Gurney Senr probate inventory, Braintree, 16 March 1663; manuscript image supplied by Allen Gurney, file 102840311_00516.jpg.",
@@ -2398,6 +2506,30 @@
     "mediaPath": "",
     "validationPath": "sources/validations/thoms-anecdotes-traditions-1839.md",
     "notes": "Camden Society edition of anecdotes drawn from manuscript sources, including Sir Nicholas L'Estrange's Harleian MS 6395 material. pp. xviii-xx identify Parson Edmund Gurney as brother to Francis Gurney and trace the L'Estrange/Gurney context; p. 6 preserves Edmund's 'mathematician defined' anecdote and Fuller's account of him."
+  },
+  {
+    "sourceId": "tna-a2a-705-349-aylesbury-1483-grant",
+    "shortTitle": "TNA A2A 705:349/12946/495200 — Aylesbury grant, 4 April 1483",
+    "citation": "The National Archives, Access to Archives (A2A), reference 705:349/12946/495200, grant of lands, tenements and appurtenances in Aylesbury and Walton-near-Aylesbury by John Ingram of Aylesbury and his wife Agnes to Richard Gourney and John Ingram of North Marston, 4 April 1483.",
+    "archive": "The National Archives (UK) — collection now searchable through Discovery; original held at a county record office (per A2A description, the depositing repository line should be re-verified at next pass).",
+    "url": "https://www.nationalarchives.gov.uk/a2a/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "A2A descriptive index entry only. The deed names John Goodman and Henry Crowlond as attorneys for delivery of possession. Used in v52 as a Buckinghamshire collateral Gurney record (Richard Gourney of Aylesbury, fl.1483). The A2A descriptive system is being progressively folded into TNA Discovery; the exact Discovery URL for this reference should be resolved when next examined."
+  },
+  {
+    "sourceId": "tna-dl-42-2-33-5-richard-i-canville-nicholaa-de-la-haye",
+    "shortTitle": "TNA DL 42/2/33/5 — Richard I grant to Gerard de Canville and Nicholaa de la Haye",
+    "citation": "The National Archives (UK), Duchy of Lancaster: Cartularies, Enrolments, Surveys and other Miscellaneous Books, DL 42/2/33/5, folio 476, 1189-1199.",
+    "archive": "The National Archives, Kew",
+    "url": "https://discovery.nationalarchives.gov.uk/details/r/C19720752",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Richard I grant to Gerard de Canville and his wife Nicholaa de la Haye of her right and inheritance in England and Normandy, with the custody and constableship of Lincoln castle and the manors of Puppeville and Warreville. Hugh de Gurnai [Gournay] is named in the witness list alongside John the king's brother count of Mortain, William de Hommet constable, Henry de Newburgh, Walkelin de Ferrers, Ralph Taissun, William de St John, Robert de Harcourt, William de Diva, and Hugh Bard the king's marshal. Dated by William the king's chancellor at Barfleur; undated, 1189-1199. Latin. The Discovery catalogue note reproduces a substantial English summary of the grant."
   },
   {
     "sourceId": "tna-e179-1661-london-poll-tax-deferred",

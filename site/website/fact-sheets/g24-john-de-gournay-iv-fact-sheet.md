@@ -3,7 +3,7 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g24-john-de-gournay-iv-fact-sheet.html
 title: John de Gournay IV Fact Sheet
 pageHeading: John de Gournay IV (fl. c. 1330–1370)
-subtitle: "Lord of Harpley 1354; father of Edmund Gurney, steward of John of Gaunt."
+subtitle: "Lord of Harpley 1354; father of Edmund Gournay, steward of John of Gaunt."
 description: "Compact fact sheet for John de Gournay IV in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
@@ -28,7 +28,7 @@ factsheet:
     "name": "John de Gournay IV",
     "birthDate": "c. 1330",
     "birthPlace": { "@type": "Place", "name": "Harpley, Norfolk, England" },
-    "description": "Lord of Harpley. Held manorial court at Harpley 1354. Father of Edmund Gurney, the lawyer-steward of John of Gaunt."
+    "description": "Lord of Harpley. Held manorial court at Harpley 1354. Father of Edmund Gournay, the lawyer-steward of John of Gaunt."
   }
 }
 </script>
@@ -44,7 +44,7 @@ factsheet:
   </div>
   <div class="fact-item">
     <div class="fact-label">Died</div>
-    <div class="fact-value">c. 1370 or later. Active as lord of Harpley in 1354 (28 Edw. III). Son Edmund Gurney (G23) died 1387. <sup class="fn"><a href="#n2" id="ref-2">2</a></sup></div>
+    <div class="fact-value">c. 1370 or later. Active as lord of Harpley in 1354 (28 Edw. III). Son Edmund Gournay (G23) died 1387. <sup class="fn"><a href="#n2" id="ref-2">2</a></sup></div>
   </div>
   <div class="fact-item">
     <div class="fact-label">Occupation / Status</div>
@@ -58,7 +58,7 @@ factsheet:
     <div class="fact-label">Marriage(s)</div>
     <div class="fact-value">
       <div class="stacked-records">
-        <div><strong>Unknown.</strong> No wife named in DG or any other source consulted. By an unnamed wife, father of Edmund Gurney (d. 1387) and at least two further children per the pedigree. <sup class="fn"><a href="#n4" id="ref-4">4</a></sup></div>
+        <div><strong>Unknown.</strong> No wife named in DG or any other source consulted. By an unnamed wife, father of Edmund Gournay (d. 1387) and at least two further children per the pedigree. <sup class="fn"><a href="#n4" id="ref-4">4</a></sup></div>
       </div>
     </div>
   </div>
@@ -90,7 +90,7 @@ factsheet:
   </thead>
   <tbody>
     <tr>
-      <td>Edmund Gurney</td>
+      <td>Edmund Gournay</td>
       <td>d. 1387</td>
       <td>Unknown</td>
       <td>G23 in direct line. Lawyer of eminence; steward of John of Gaunt's East Anglian estates. Married Katherine de Wauncy, heiress of West Barsham, Norfolk. History of Parliament entry. <sup class="fn"><a href="#n8" id="ref-8">8</a></sup></td>

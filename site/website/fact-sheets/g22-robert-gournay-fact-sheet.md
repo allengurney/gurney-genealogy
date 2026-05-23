@@ -3,7 +3,7 @@ layout: layouts/base.njk
 permalink: /fact-sheets/g22-robert-gournay-fact-sheet.html
 title: Robert Gournay Fact Sheet
 pageHeading: Robert Gournay (fl. c. 1370–1420)
-subtitle: "Second son of Edmund Gurney; the line descends through him when his brother Sir John's son died without heirs."
+subtitle: "Second son of Edmund Gournay; the line descends through him when his brother Sir John's son died without heirs."
 description: "Compact fact sheet for Robert Gournay in the direct Gurney line."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
@@ -28,7 +28,7 @@ factsheet:
     "name": "Robert Gournay",
     "birthDate": "c. 1370",
     "birthPlace": { "@type": "Place", "name": "Norfolk, England" },
-    "description": "Second son of Edmund Gurney (d.1387) and Katherine de Wauncy. Married Joan de Norwich. Father of Thomas Gournay I, who inherited when Sir John Gurney V's son died under age."
+    "description": "Second son of Edmund Gournay (d.1387) and Katherine de Wauncy. Married Joan de Norwich. Father of Thomas Gournay I, who inherited when Sir John Gurney V's son died under age."
   }
 }
 </script>
@@ -40,7 +40,7 @@ factsheet:
 <div class="facts-vitals-grid">
   <div class="fact-item">
     <div class="fact-label">Born</div>
-    <div class="fact-value">c. 1370, Norfolk. Second son of Edmund Gurney (G23) and Katherine de Wauncy. <sup class="fn"><a href="#n1" id="ref-1">1</a></sup></div>
+    <div class="fact-value">c. 1370, Norfolk. Second son of Edmund Gournay (G23) and Katherine de Wauncy. <sup class="fn"><a href="#n1" id="ref-1">1</a></sup></div>
   </div>
   <div class="fact-item">
     <div class="fact-label">Died</div>
@@ -69,7 +69,7 @@ factsheet:
 <h2 class="unnumbered">Highlights</h2>
 
 <ul>
-  <li><strong>His very name is uncertain — Daniel Gurney hedged it.</strong> In Edmund Gurney's will chapter, DG writes of "a second son, whom we believe was named Robert." This is an explicit editorial hedge in the primary compiled source: DG was not certain of the name. The only other source DG cites for the children of Edmund is the 1622 pedigree by Cook, Clarenceux King of Arms. The name Robert is treated as the most probable but not the confirmed identification. This fact sheet follows the project convention of using "Robert" while flagging the uncertainty prominently. <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></li>
+  <li><strong>His very name is uncertain — Daniel Gurney hedged it.</strong> In Edmund Gournay's will chapter, DG writes of "a second son, whom we believe was named Robert." This is an explicit editorial hedge in the primary compiled source: DG was not certain of the name. The only other source DG cites for the children of Edmund is the 1622 pedigree by Cook, Clarenceux King of Arms. The name Robert is treated as the most probable but not the confirmed identification. This fact sheet follows the project convention of using "Robert" while flagging the uncertainty prominently. <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></li>
   <li><strong>The direct line descends through him because his brother's son died young.</strong> Robert's elder brother Sir John Gurney V (d. 4 December 1408) inherited all the family estates, was sheriff of Norfolk and Suffolk in 1399 and again at his death in 1408, sat in Parliament for the Coventry parliament of 1404, and married Alice Heylesdon — daughter and eventual sole heir of the wealthy London mercer and former alderman John Heylesdon — bringing into the family the great London warehouse "La Selde Coronata." Sir John appeared to be the main line. But his only son Edmund, aged ten at his father's death, "followed him to the grave not long afterwards." The estates passed to Robert's son Thomas I — making Robert the pivotal ancestor through whom the entire subsequent West Barsham Gurney family (and through Francis Gurney, probably the American Gurneys) descend. The full sequence is documented in the History of Parliament Online biography of Sir John Gurney d. 1408. <sup class="fn"><a href="#n6" id="ref-6">6</a></sup></li>
   <li><strong>His father was one of the most connected men in East Anglia.</strong> Born into a family at the height of its social and professional reach — father steward of John of Gaunt, mother heiress of West Barsham, elder brother heading toward a knighthood and a parliamentary career — Robert would have grown up in the most prosperous and well-connected household the family had known. What he did with that inheritance, in personal terms, is unrecorded. <sup class="fn"><a href="#n7" id="ref-7">7</a></sup></li>
 </ul>
@@ -102,11 +102,11 @@ factsheet:
 <section class="fact-section fact-narrative" id="narrative">
 <h2 class="unnumbered">Narrative</h2>
 
-Robert Gournay is, genealogically, one of the most important figures in the junior Norfolk branch — and one of the most elusive. He is the man through whom every subsequent generation descends, yet Daniel Gurney himself was uncertain enough about his name to write only that Edmund Gurney had "a second son, whom we believe was named Robert." No deed bearing Robert's name, no court appearance, no will, no land transaction has been identified in the sources reviewed. He exists in the record almost entirely as a relationship — son of Edmund, brother of Sir John, father of Thomas, husband of Joan de Norwich.
+Robert Gournay is, genealogically, one of the most important figures in the junior Norfolk branch — and one of the most elusive. He is the man through whom every subsequent generation descends, yet Daniel Gurney himself was uncertain enough about his name to write only that Edmund Gournay had "a second son, whom we believe was named Robert." No deed bearing Robert's name, no court appearance, no will, no land transaction has been identified in the sources reviewed. He exists in the record almost entirely as a relationship — son of Edmund, brother of Sir John, father of Thomas, husband of Joan de Norwich.
 
 The situation of a younger son in a late 14th-century Norfolk gentry family was often comfortable but obscure. The eldest son — here, Sir John V — inherited the title, the manor, the legal and political career, and the documentary footprint. The younger son received a provision (a cash settlement, perhaps a small landholding), made a respectable marriage, and lived out a quiet life in the county. Robert's marriage to Joan de Norwich suggests at least a connection to the Norwich civic world — the family his father Edmund had served as standing counsel — but it could equally reflect simply a woman whose family happened to be based in or near Norwich, which was by far the largest urban centre in the region.
 
-The critical event of Robert's life — or rather of his family's life — was one over which he had no control: his nephew Edmund (son of Sir John V) died under age, leaving no heir. The History of Parliament biography of Sir John Gurney d. 1408 gives us the precise sequence: Sir John was reappointed sheriff of Norfolk and Suffolk on 15 November 1408, but died less than three weeks later, on 4 December 1408. His only son Edmund, then ten years old, followed him to the grave "not long afterwards." At that point the entire estate — West Barsham, Harpley, Hardingham, the Wauncy lands at Depden in Suffolk, the great London warehouse "La Selde Coronata" that Sir John had brought in by marriage to the wealthy mercer's daughter Alice Heylesdon, and the rest of the portfolio Edmund Gurney G23 had assembled — passed by right of inheritance to Robert's son Thomas I, as the surviving male-line heir. Robert may or may not have lived to see this; the dates are too uncertain to say. Sir John's widow Alice survived him by at least 25 years, sold "Loundhall" in Saxthorpe to John Wynter to pay her late husband's debts, then married twice more — first the Fitzalan retainer Sir John Wiltshire (d. 1428), then Richard Selling, esquire — and in 1433 sold the bulk of her Heylesdon inheritance to Sir John Fastolf KG, the Norfolk soldier-magnate of Caister Castle.
+The critical event of Robert's life — or rather of his family's life — was one over which he had no control: his nephew Edmund (son of Sir John V) died under age, leaving no heir. The History of Parliament biography of Sir John Gurney d. 1408 gives us the precise sequence: Sir John was reappointed sheriff of Norfolk and Suffolk on 15 November 1408, but died less than three weeks later, on 4 December 1408. His only son Edmund, then ten years old, followed him to the grave "not long afterwards." At that point the entire estate — West Barsham, Harpley, Hardingham, the Wauncy lands at Depden in Suffolk, the great London warehouse "La Selde Coronata" that Sir John had brought in by marriage to the wealthy mercer's daughter Alice Heylesdon, and the rest of the portfolio Edmund Gournay G23 had assembled — passed by right of inheritance to Robert's son Thomas I, as the surviving male-line heir. Robert may or may not have lived to see this; the dates are too uncertain to say. Sir John's widow Alice survived him by at least 25 years, sold "Loundhall" in Saxthorpe to John Wynter to pay her late husband's debts, then married twice more — first the Fitzalan retainer Sir John Wiltshire (d. 1428), then Richard Selling, esquire — and in 1433 sold the bulk of her Heylesdon inheritance to Sir John Fastolf KG, the Norfolk soldier-magnate of Caister Castle.
 
 What is clear is that the descent through Robert is confirmed by DG's pedigree, which states explicitly that when Sir John's son died under age, "the estates passed to nephew Thomas" (son of Robert) — a statement grounded in the legal logic of medieval inheritance. Robert is thus classified as **Confirmed** in lineage status, even though almost no personal documentation survives, because his position in the succession is established by the broader pedigree evidence.
 </section>
@@ -150,8 +150,8 @@ What is clear is that the descent through Robert is confirmed by DG's pedigree, 
   <table class="fact-timeline-table">
     <tbody>
       <tr><th>Year</th><th>Event</th></tr>
-      <tr><td>c. 1370</td><td>Born, Norfolk. Second son of Edmund Gurney and Katherine de Wauncy.</td></tr>
-      <tr><td>1387</td><td>Father Edmund Gurney dies; elder brother Sir John V succeeds to the estates.</td></tr>
+      <tr><td>c. 1370</td><td>Born, Norfolk. Second son of Edmund Gournay and Katherine de Wauncy.</td></tr>
+      <tr><td>1387</td><td>Father Edmund Gournay dies; elder brother Sir John V succeeds to the estates.</td></tr>
       <tr><td>c. 1390s</td><td>Marries Joan de Norwich.</td></tr>
       <tr><td>c. 1400–1410</td><td>Sir John V's son Edmond dies under age; estates pass to Robert's son Thomas I as nephew and heir.</td></tr>
       <tr><td>c. 1420</td><td>Probable death. Date unknown.</td></tr>

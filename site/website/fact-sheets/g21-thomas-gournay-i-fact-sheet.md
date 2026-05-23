@@ -43,7 +43,7 @@ factsheet:
 <div class="facts-vitals-grid">
   <div class="fact-item">
     <div class="fact-label">Born</div>
-    <div class="fact-value">c. 1390. Son of Robert Gurney (G22) by Joan de Norwich. Nephew of Sir John Gurney V (d. 1408). <sup class="fn"><a href="#n1" id="ref-1">1</a></sup></div>
+    <div class="fact-value">c. 1390. Son of Robert Gournay (G22) by Joan de Norwich. Nephew of Sir John Gurney V (d. 1408). <sup class="fn"><a href="#n1" id="ref-1">1</a></sup></div>
   </div>
   <div class="fact-item">
     <div class="fact-label">Died</div>
@@ -124,7 +124,7 @@ He died around 1450, leaving his only recorded son Thomas II to continue the lin
 <h2 class="unnumbered">Citations</h2>
 
 <ol class="citation-list">
-  <li id="n1">Daniel Gurney, <em>Record of the House of Gournay</em> (1848), pedigree p. 286: "Thomas Gournay, Esq. I. nephew and heir of Sir John Gournay V., his uncle, who was sheriff of Norfolk and Suffolk." Son of Robert Gurney (G22) by Joan de Norwich. <a class="citation-back" href="#ref-1">↩</a></li>
+  <li id="n1">Daniel Gurney, <em>Record of the House of Gournay</em> (1848), pedigree p. 286: "Thomas Gournay, Esq. I. nephew and heir of Sir John Gournay V., his uncle, who was sheriff of Norfolk and Suffolk." Son of Robert Gournay (G22) by Joan de Norwich. <a class="citation-back" href="#ref-1">↩</a></li>
   <li id="n2">Daniel Gurney, <em>Record</em> (1848) pedigree p. 286 gives neither a probate date nor a specific death year. Active period c. 1408 (when his uncle died) to c. 1450 (when his son Thomas II was approximately 20–25, preparing to succeed him within a generation). <a class="citation-back" href="#ref-2">↩</a></li>
   <li id="n3">Daniel Gurney, <em>Record</em> (1848), pp. 279–280, and pedigree p. 286. <a class="citation-back" href="#ref-3">↩</a></li>
   <li id="n4">Daniel Gurney, <em>Record</em> (1848) pedigree p. 286: "Catherine, dau. of — Kerville, of Watlington, Norfolk, Esq." Daniel Gurney, <em>Supplement to the Record of the House of Gournay</em> (King's Lynn: Thew & Son, 1858), p. 795 (Family of Kerville entry). <a class="citation-back" href="#ref-4">↩</a></li>
@@ -153,7 +153,7 @@ He died around 1450, leaving his only recorded son Thomas II to continue the lin
   <div class="fact-buttons">
     <a href="/maps-and-lists/ancestor-table.html">Ancestor Table</a>
     <a href="/fact-sheets/g20-thomas-gournay-ii-fact-sheet.html">G20 Thomas Gournay II</a>
-    <a href="/fact-sheets/g22-robert-gournay-fact-sheet.html">G22 Robert Gurney</a>
+    <a href="/fact-sheets/g22-robert-gournay-fact-sheet.html">G22 Robert Gournay</a>
     <a href="https://www.historyofparliamentonline.org/volume/1386-1421/member/gurney-john-1408">HoP: Sir John Gurney V (uncle)</a>
   </div>
 </div>
@@ -163,7 +163,7 @@ He died around 1450, leaving his only recorded son Thomas II to continue the lin
   <table class="fact-timeline-table">
     <tbody>
       <tr><th>Year</th><th>Event</th></tr>
-      <tr><td>c. 1390</td><td>Born, son of Robert Gurney (G22) and Joan de Norwich.</td></tr>
+      <tr><td>c. 1390</td><td>Born, son of Robert Gournay (G22) and Joan de Norwich.</td></tr>
       <tr><td>30 Sep 1399</td><td>Uncle Sir John Gurney V sits in the Parliament that deposed Richard II and acclaimed Henry IV; appointed Sheriff of Norfolk and Suffolk.</td></tr>
       <tr><td>Oct 1404</td><td>Uncle Sir John Gurney V sits in Henry IV's "Unlearned" Coventry Parliament as MP for Norfolk.</td></tr>
       <tr><td>1406</td><td>Uncle on commission of inquiry into the insurrection at Bishop's Lynn.</td></tr>

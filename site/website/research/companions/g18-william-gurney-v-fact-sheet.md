@@ -11,8 +11,11 @@ Research notes for `g18-william-gurney-v-fact-sheet.md`. See AI-Rules.md §3 for
 
 ## Working Notes
 
-### IPM — massive manor portfolio (DG-Supp Note 132, pp. 817–819)
-2026-04-18 — The Inquisition Post Mortem of William Gurney V ("Willelmi Gurney Senioris") is the most detailed estate inventory for any junior-branch Gournay. Taken at Norwich on 4 November 1532 (13 Henry VIII), by virtue of a brief dated Westminster 10 May 1532. The IPM covers both Norfolk and Suffolk.
+### IPM (DG-Supp Note 132, pp. 817–819) — decedent is William Gurnay senior (G19), not G18
+
+**Attribution correction, 22 May 2026, verified by direct page-image reading of DG-Supp Note 132 pp. 817–819 (Internet Archive scan of the 1858 Supplement).** The Inquisition Post Mortem titled "Willelmi Gurney Senioris" is the IPM of *William Gurnay senior*. DG-Supp Note 133 explicitly identifies the IPM decedent as "William Gurney IV" — therefore G19, not G18. The IPM material below — manor portfolio, two trust deeds, the 16 February 1507/8 death date — belongs to G19. It is preserved here in the G18 research companion because the IPM explicitly documents G18's place in the succession: G18 was William Gurnay junior, who married Anne Heydon and "dying in the life time of his father" caused the inheritance to descend after his father's death to the grandson Anthony.
+
+Taken at Norwich on 4 November 1532 (13 Henry VIII), by virtue of a brief dated Westminster 10 May 1532. The IPM covers both Norfolk and Suffolk.
 
 **Norfolk holdings at death:**
 
@@ -34,16 +37,16 @@ Research notes for `g18-william-gurney-v-fact-sheet.md`. See AI-Rules.md §3 for
 *Suffolk:*
 - Manor of **Depden** with advowson of St. Mary the Virgin. Held of Thomas Earl of Arundell as of Castle Acre, at one knight's fee. Valued at £20/year.
 
-**Death date:** "He died on the 16th day of February, A.D. 1507, the 23rd of Henry VII."
+**Death date of the IPM decedent:** "He died on the 16th day of February, A.D. 1507, the 23rd of Henry VII." This is the death date of the IPM decedent = William Gurnay senior = G19 William Gurney IV, not G18.
 
-**Heir:** "Anthony Gurnay is of blood and next heir, and of the age of thirty years and more at the date of this inquisition." Anthony was William V's grandson — William V's son (also William, "junior") had predeceased his father.
+**Heir:** "Anthony Gurnay is of blood and next heir, and of the age of thirty years and more at the date of this inquisition." Anthony was G19's grandson; G19's son and heir (this man, G18 William Gurney V / William Gurnay junior) had already died, so the estates descended to Anthony as grandson of the decedent.
 
 **The two trust deeds span two dynasties:** The 1485 trust was created under **Richard III** (2 Richard III), and the 1505 trust under **Henry VII** (21 Henry VII). This shows the family managing estate planning across the Yorkist-Tudor transition. The 1505 feoffees include **Edward Howard** (later Lord Admiral, killed at Brest 1513) — a Howard connection of the highest order.
 
-### Son William predeceased — the succession gap
-2026-04-18 — The IPM explicitly states: "William Gurnay, junior, and Anne, his wife, had issue Anthony Gurnay, and that the said William dying in the life time of his father, his rights descended, after the death of his said father, to Anthony Gurnay, his son and heir."
+### G18 identified as William Gurnay junior — predeceased his father
+2026-04-18 (revised 22 May 2026) — The IPM explicitly states: "William Gurnay, junior, and Anne, his wife, had issue Anthony Gurnay, and that the said William dying in the life time of his father, his rights descended, after the death of his said father, to Anthony Gurnay, his son and heir."
 
-This means William V outlived his son William junior. The estates therefore skipped a generation, passing directly from William V (G18) to grandson Anthony (G17). William junior's marriage to Anne Heydon is documented in the IPM, which states the marriage was arranged "by God's permission" under indentures dated 28 May 1484 (1 Richard III), between Henry Heydon Esq. and William Gurnay senior.
+This identifies G18 William Gurney V with William Gurnay junior: husband of Anne Heydon, father of Anthony, and predeceased son of William Gurnay senior (= G19 William Gurney IV). The estates therefore skipped a generation, passing from G19 William senior directly to grandson Anthony (G17), because the intervening G18 William junior was already dead by 16 February 1507/8. G18's own death date is not given in the consulted sources beyond "in the life time of his father" — sometime between the 28 May 1484 marriage indentures and 16 February 1507/8. The marriage to Anne Heydon was arranged "by God's permission" under indentures dated 28 May 1484 (1 Richard III), between Henry Heydon Esq. and William Gurnay senior (= G19).
 
 ### Anne Heydon's will — full English text (DG-Supp Note 133, pp. 820–822)
 2026-04-18 — DG-Supp Note 133 provides the complete text of Anne Heydon's will, extracted from the Registry of the Prerogative Court of Canterbury. Dated 29 March 1520/21, proved at Lambeth 8 May 1521.
