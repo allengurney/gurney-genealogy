@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.5.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-05-16",
+    "lastUpdated": "2026-05-23",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
@@ -2339,6 +2339,116 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "Searchable index of ~290,000 entries from English military pay records, letters of protection, letters of attorney, and muster rolls 1357–1453. Cites underlying TNA/BNF references directly so citations should be anchored to the primary record, with the database credited as the finding aid. Companion monograph: Adrian R. Bell, Anne Curry, Andy King, and David Simpkin, The Soldier in Later Medieval England (Oxford: Oxford University Press, 2013). Used 2026-05-22 to confirm G21 Thomas Gournay I service entries (1415 Agincourt campaign in John Holland's retinue under Henry V; 1441 France expedition in John de Vere's retinue under Richard of York), and a Sir John Gurney V (collateral, d. 1408) 1394 Aquitaine entry under John of Gaunt. Other Gournay/Gurney soldiers also appear in the database — most prominently Sir Matthew de Gournay (d. 1406) of the Somerset/regicide collateral branch — and can be distinguished by rank, place, and affinity."
+    },
+    "girders-net-medieval-gurney-abstracts": {
+      "shortTitle": "girders.net Medieval Gurney Abstracts",
+      "citation": "\"Medieval Gurneys,\" girders.net, accessed 22 May 2026, https://www.girders.net/.",
+      "archive": "girders.net (private compilation site)",
+      "url": "https://www.girders.net/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Compilation site of short Gurney/Gurnay/Gournay abstracts each citing an underlying primary source (NRO will register, Calendar of Fine Rolls, Calendar of Patent Rolls, TNA A2A, medievalgenealogy.org.uk fine abstract). Used as the discovery vector for the v52 batch of eight Norfolk/Bucks/Somerset abstracts. Cite the underlying primary source in footnotes; cite girders.net only when the underlying record has not been re-examined."
+    },
+    "cfr-henry-iv-1405-13": {
+      "shortTitle": "Calendar of Fine Rolls, Henry IV, 1405-13",
+      "citation": "Calendar of the Fine Rolls Preserved in the Public Record Office, Henry IV, A.D. 1405-1413, vol. 13 (London: HMSO, 1934).",
+      "archive": "TNA / HMSO printed calendar; widely available in research libraries and via HathiTrust",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Henry IV Fine Rolls calendar volume. Used in v52 for the 16 Feb 1409 escheator order on the lands of John Gurnay (= collateral Sir John Gurney d. 4 Dec 1408), p. 123, and for the 5 Nov 1406 record that Sir Matthew de Gournay (Somerset/regicide collateral) had died by that date, p. 78."
+    },
+    "cpr-henry-iv-1399-1401": {
+      "shortTitle": "Calendar of Patent Rolls, Henry IV, 1399-1401",
+      "citation": "Calendar of the Patent Rolls Preserved in the Public Record Office, Henry IV, A.D. 1399-1401, vol. 1 (London: HMSO, 1903).",
+      "archive": "TNA / HMSO printed calendar; HathiTrust and Internet Archive copies",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Henry IV Patent Rolls calendar volume. Used in v52 for Sir Matthew de Gournay's Somerset commissions of array (18 Dec 1399 p. 210, 25 Feb 1400 p. 267, 5 Jul 1400 p. 564) and his 300 marks/year Exchequer grant (12 Mar 1400 p. 208)."
+    },
+    "cpr-henry-vi-1422-29": {
+      "shortTitle": "Calendar of Patent Rolls, Henry VI, 1422-29",
+      "citation": "Calendar of the Patent Rolls Preserved in the Public Record Office, Henry VI, A.D. 1422-1429, vol. 1 (London: HMSO, 1901).",
+      "archive": "TNA / HMSO printed calendar; HathiTrust and Internet Archive copies",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Henry VI Patent Rolls calendar volume. Used in v52 for the 1 Feb 1423 pardon of John Gurney, goldsmith of Little Walsingham, for non-appearance touching a plea of debt of 100s. by John Langholm (p. 26)."
+    },
+    "nro-ncc-wills-registers": {
+      "shortTitle": "Norfolk Record Office, NCC Will Registers",
+      "citation": "Norfolk Record Office, Norwich Consistory Court (NCC) will registers, including registers Doke (mid-15th c.), Aleyn (mid-15th c.), and Jekkys (later 15th c.).",
+      "archive": "Norfolk Record Office, The Archive Centre, Martineau Lane, Norwich",
+      "url": "http://nrocat.norfolk.gov.uk",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Umbrella entry for the NCC will and administration registers held at the Norfolk Record Office. v52 uses three entries discovered via girders.net: NCC will register Doke, 17 (administration of Henry Gurnay of Norwich, 1443); NCC will register Aleyn, 19 (administration of Thomas Gurnay of Great Ellingham, 1454); NCC will register Jekkys, 211 (will of Thomas Gurnay of Harpley, 1471 = G20 Thomas Gournay II). The Jekkys 211 will is the primary register copy of the will whose contents DG-I pp. 280-282 already extracts."
+    },
+    "tna-dl-42-2-33-5-richard-i-canville-nicholaa-de-la-haye": {
+      "shortTitle": "TNA DL 42/2/33/5 — Richard I grant to Gerard de Canville and Nicholaa de la Haye",
+      "citation": "The National Archives (UK), Duchy of Lancaster: Cartularies, Enrolments, Surveys and other Miscellaneous Books, DL 42/2/33/5, folio 476, 1189-1199.",
+      "archive": "The National Archives, Kew",
+      "url": "https://discovery.nationalarchives.gov.uk/details/r/C19720752",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Richard I grant to Gerard de Canville and his wife Nicholaa de la Haye of her right and inheritance in England and Normandy, with the custody and constableship of Lincoln castle and the manors of Puppeville and Warreville. Hugh de Gurnai [Gournay] is named in the witness list alongside John the king's brother count of Mortain, William de Hommet constable, Henry de Newburgh, Walkelin de Ferrers, Ralph Taissun, William de St John, Robert de Harcourt, William de Diva, and Hugh Bard the king's marshal. Dated by William the king's chancellor at Barfleur; undated, 1189-1199. Latin. The Discovery catalogue note reproduces a substantial English summary of the grant."
+    },
+    "tna-a2a-705-349-aylesbury-1483-grant": {
+      "shortTitle": "TNA A2A 705:349/12946/495200 — Aylesbury grant, 4 April 1483",
+      "citation": "The National Archives, Access to Archives (A2A), reference 705:349/12946/495200, grant of lands, tenements and appurtenances in Aylesbury and Walton-near-Aylesbury by John Ingram of Aylesbury and his wife Agnes to Richard Gourney and John Ingram of North Marston, 4 April 1483.",
+      "archive": "The National Archives (UK) — collection now searchable through Discovery; original held at a county record office (per A2A description, the depositing repository line should be re-verified at next pass).",
+      "url": "https://www.nationalarchives.gov.uk/a2a/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "A2A descriptive index entry only. The deed names John Goodman and Henry Crowlond as attorneys for delivery of possession. Used in v52 as a Buckinghamshire collateral Gurney record (Richard Gourney of Aylesbury, fl.1483). The A2A descriptive system is being progressively folded into TNA Discovery; the exact Discovery URL for this reference should be resolved when next examined."
+    },
+    "medievalgenealogy-cp25-1-21-112-stone-hartwell": {
+      "shortTitle": "medievalgenealogy.org.uk — CP 25/1/21/112 fine, Stone and Hartwell, Bucks",
+      "citation": "Abstract of a Feet of Fines entry, CP 25/1/21/112, c.1404, Richard Gurney and William Gurney v. Robert Porter and his wife Christian, settlement of an action concerning a messuage, 4 tofts, 86 acres of land, 10 acres of meadow, 2 acres of pasture, and 12s. of rent in Stone and Hartwell, Buckinghamshire; published online by Chris Phillips, www.medievalgenealogy.org.uk.",
+      "archive": "TNA CP 25/1/21/112 (original); medievalgenealogy.org.uk transcript/abstract",
+      "url": "https://www.medievalgenealogy.org.uk/fines/abstracts/CP_25_1_21_112.shtml",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Used in v52 as a Buckinghamshire collateral Gurney record (Richard Gurney + William Gurney v. Robert and Christian Porter, c.1404). Re-verification of the abstract against the original TNA CP 25/1 series is the natural next step before any heavier interpretation is built on this fine."
+    },
+    "bho-ipm-edward-iii-vol12-sancto-omero-mulbarton-1366": {
+      "shortTitle": "BHO Calendar of IPM, Edward III, vol. 12 — Thomas de Sancto Omero (1366)",
+      "citation": "\"Inquisitions Post Mortem, Edward III, File 188,\" Calendar of Inquisitions Post Mortem, vol. 12 (London: HMSO; published online at British History Online), entry 79, Thomas de Sancto Omero, 40 Edward III (1366).",
+      "archive": "TNA E. Inq. P.M. File 25 (13) and C. Edw. III File 188 (10); printed calendar published HMSO; available online via British History Online.",
+      "url": "https://www.british-history.ac.uk/inquis-post-mortem/vol12/pp51-65",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Assignment of dower and partition of the lands of Thomas de Sancto Omero, made at Mulkebertone (Mulbarton), Norfolk, 23-25 May 1366. The Mulbarton partition lists 'the services of Robert Gurnay, John Pigot and William Stalon' among the free tenants, and separately 'bondmen named Nicholas Elvard, Henry Isabel, Robert Gurnay, John Dobyn, Henry Short and Walter Smyht.' Two distinct Roberts named Gurnay are named in the same partition — one free tenant, one bondman. Neither is G22 Robert Gournay (gentry, fl. c.1370-1420)."
+    },
+    "bardsley-english-welsh-surnames-1901": {
+      "shortTitle": "Bardsley, Dictionary of English & Welsh Surnames",
+      "citation": "Charles Wareing Bardsley, A Dictionary of English & Welsh Surnames with Special American Instances (London: Henry Frowde; Oxford University Press, 1901), p. 344, s.v. \"Gurney, Gurnay, Gurnee.\"",
+      "archive": "Internet Archive (bwb_P9-CDP-537 copy)",
+      "url": "https://archive.org/details/bwb_P9-CDP-537/page/344/mode/2up",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Standard turn-of-the-20th-century surname etymology reference. The Gurney entry repeats the Norman-origin tradition (Gournai-en-Brai, two Hugh de Gournays at Hastings per Roman de Rou) and lists specimen medieval bearers from Rotuli Hundredorum 1273 (Milesenta fil. Hugh de Gorney co. Bedf.; John de Gurnay co. Norf.; Anselm de Gurney co. Glouc.; Robert de Gurnay co. Wilts., Hen. III - Edw. I), Kirby's Quest 1327 (John de Gorney co. Soms.), and one Norfolk clerical entry (Robert Gournay, rector of Hethel, co. Norf., 1438; abbreviation 'FF. v. 109' in Bardsley still to be resolved). Used in v52 only for the 1438 Hethel rector lead. Surname-etymology and Hastings-tradition material is already documented in the senior-line companion files (G33, G34) and the senior-baron-line topic file; no new prose is added for those."
     }
   }
 }

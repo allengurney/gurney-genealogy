@@ -53,6 +53,17 @@ Norfolk is the county in which nearly every major kind of family evidence appear
 
 That is why the county deserves a richer umbrella file than Essex, Suffolk, or the more distant county-level records. It is the one English county that truly functions as a full-spectrum family landscape. [DG-I] [DG-II]
 
+## Distributed medieval collateral records
+
+Two fifteenth-century Norfolk Gurney records sit outside the manorial chain of the junior line and the cathedral-precinct cluster at Norwich, but belong to the county's distributed Gurney presence in the period.
+
+A John Gurney, goldsmith of Little Walsingham, was pardoned on 1 February 1423 for failing to appear to answer John Langholm touching a plea of a debt of 100s.[^cpr-1423-john-gurney-walsingham-goldsmith] The record is the only known fifteenth-century Norfolk Gurney explicitly named with a goldsmith occupation and an urban Walsingham address; no relationship to the West Barsham seat is established.
+
+A Robert Gournay served as rector of Hethel, Norfolk, in 1438 according to Bardsley's surname dictionary, citing "FF. v. 109."[^bardsley-1438-robert-gournay-hethel] The Bardsley abbreviation requires resolution at the primary-source layer (the citation form is consistent with a Feet of Fines or county-history volume), but the entry is preserved as a Norfolk clerical lead contemporary with G21 Thomas Gournay I.
+
+[^cpr-1423-john-gurney-walsingham-goldsmith]: *Calendar of the Patent Rolls Preserved in the Public Record Office, Henry VI, A.D. 1422-1429*, vol. 1 (London: HMSO, 1901), p. 26, pardon of 1 February 1423 to John Gurney, goldsmith of Little Walsingham, Norfolk, for non-appearance to answer John Langholm touching a plea of a debt of 100s. Discovered via the girders.net Medieval Gurneys compilation. Source ID: `cpr-henry-vi-1422-29`.
+[^bardsley-1438-robert-gournay-hethel]: Charles Wareing Bardsley, *A Dictionary of English & Welsh Surnames with Special American Instances* (London: Henry Frowde; Oxford University Press, 1901), p. 344, s.v. "Gurney, Gurnay, Gurnee," reproducing the entry "Robert Gournay, rector of Hethel, co. Norf., 1438: FF. v. 109." The "FF. v. 109" abbreviation should be resolved against the primary record. Source ID: `bardsley-english-welsh-surnames-1901`.
+
 ## Open items
 
 - [ ] Add a compact chronological table of Norfolk phases with links to key manor/place files.

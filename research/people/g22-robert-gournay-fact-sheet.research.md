@@ -40,6 +40,10 @@ A targeted external sweep produced no new primary records for Robert and confirm
 
 **History of Parliament Online "GURNEY, John (d.1408)".** The modern scholarly biography of Robert's elder brother references Robert only indirectly as the father of "John's nephew, Thomas" who inherited. Provides no biographical content on Robert himself.[^hop-john-gurney-1408]
 
+**1366 Mulbarton IPM — two contemporary Robert Gurnays at lower social levels.** The 1366 partition of the Norfolk lands of Thomas de Sancto Omero, made at Mulkebertone (Mulbarton) on 23-25 May 1366, lists "the services of Robert Gurnay, John Pigot and William Stalon" among the free tenants delivered to William de Hoo and his wife Alice, and separately names "bondmen named Nicholas Elvard, Henry Isabel, Robert Gurnay, John Dobyn, Henry Short and Walter Smyht" among the manor's villein tenants.[^bho-ipm-vol12-mulbarton-sancto-omero-1366] Two distinct men named Robert Gurnay are therefore visible in a single Norfolk partition four years before G22's traditional flourishing window (fl. c.1370-1420). Neither matches G22 — one is a free tenant of Mulbarton, the other a bondman of the same manor — but the entry sharpens DG-II p. 363's hedge on the name itself by confirming that the spelling "Robert Gurnay" was carried in 1360s Norfolk at multiple social levels, not only in the gentry line.
+
+[^bho-ipm-vol12-mulbarton-sancto-omero-1366]: "Inquisitions Post Mortem, Edward III, File 188," *Calendar of Inquisitions Post Mortem*, vol. 12 (London: HMSO; British History Online), entry 79, Thomas de Sancto Omero, partition of Norfolk lands, 23-25 May 1366; [www.british-history.ac.uk/inquis-post-mortem/vol12/pp51-65](https://www.british-history.ac.uk/inquis-post-mortem/vol12/pp51-65). Source ID: `bho-ipm-edward-iii-vol12-sancto-omero-mulbarton-1366`.
+
 ### Remaining open primary-source leads
 
 Three primary documents could in principle resolve the identification of Robert if examined:

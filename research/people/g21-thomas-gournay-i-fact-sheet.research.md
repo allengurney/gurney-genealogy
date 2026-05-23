@@ -32,6 +32,10 @@ The Watlington branch (from which Catherine came) was a cadet with a difference 
 ### Collateral succession mechanics
 2026-04-18 — Thomas I inherited as nephew of Sir John Gurney (d.1408). The HoP biography gives the sequence: Sir John reappointed sheriff 15 November 1408, died 4 December 1408, son Edmund aged 10 died shortly after without issue. Thomas "the nephew" succeeded. This is documented in the DG-Supp Note 121 IPM (already detailed in G23 companion) and confirmed by the Dodsworth collections pedigree (Bodleian Library, vol. 108).
 
+The 1409 Fine Rolls preserve the post-death administrative trace of Sir John's death directly. On 16 February 1409 the Escheator of Norfolk was ordered to take Sir John's lands into the King's hands following his death, the standard escheat-order step opening the inheritance process that the IPM (DG-Supp Note 121) then resolved.[^cfr-1409-sir-john-escheat]
+
+[^cfr-1409-sir-john-escheat]: *Calendar of the Fine Rolls Preserved in the Public Record Office, Henry IV, A.D. 1405-1413*, vol. 13 (London: HMSO, 1934), p. 123, entry of 16 February 1409 ordering the Escheator of Norfolk to take into the king's hands the lands of John Gurnay, deceased. Discovered via the girders.net Medieval Gurneys compilation. Source ID: `cfr-henry-iv-1405-13`.
+
 ### Historical context — Henry V and the Lancastrian zenith
 2026-04-18 — Thomas I's active years (c. 1408–1450) span Henry V's French campaigns (Agincourt 1415, Treaty of Troyes 1420) and Henry VI's minority. No record of Thomas in Crown office, Parliament, or military service. The fact sheet correctly notes he appears to have been "a private Norfolk gentleman consolidating a complicated collateral inheritance."
 

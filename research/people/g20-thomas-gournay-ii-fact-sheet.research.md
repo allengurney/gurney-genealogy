@@ -29,6 +29,10 @@ The deed survives in the charter room of Hunstanton Hall. This is a primary sour
 
 The will also shows Thomas II had three residences: West Barsham, Harpley, and a Norwich town house in St Gregory's parish. DG-I p. 280 explains: "every manor had a residence for the lord, where, before the existence of rents, he removed with his family to consume the produce of each estate."
 
+The will itself survives as a register copy at the Norfolk Record Office in the Norwich Consistory Court will register Jekkys, folio 211 — the primary-register text that lies behind DG-I's English extracts (pp. 280-282) of the three-residence and Margaret-textile-bequest clauses.[^nro-jekkys-211-thomas-ii-will]
+
+[^nro-jekkys-211-thomas-ii-will]: Norfolk Record Office, Norwich Consistory Court will register Jekkys, folio 211, will of Thomas Gurnay of Harpley, 1471. NRO online catalogue: http://nrocat.norfolk.gov.uk. Source ID: `nro-ncc-wills-registers`.
+
 ### Wars of the Roses context
 2026-04-18 — Thomas II died and was buried during the closing weeks of the Wars of the Roses. Will proved 27 July 1471 — about twelve weeks after Edward IV's decisive victory at Tewkesbury (4 May 1471). No record of Thomas's alignment. His son William IV served as Escheator under Edward IV (1466) and was feoffee for Lord Scales (1497) — both Yorkist connections (DG-Supp Note 129). This suggests the family was Yorkist, though Thomas II's own position is undocumented.
 
