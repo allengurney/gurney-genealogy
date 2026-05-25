@@ -72,10 +72,13 @@ Potin 1842 p. 109 documents the chain from Richard I down to Basilea's first hus
 | Richard I, Duke of Normandy + Duchess Gunnor | parents of Robert | |
 | Robert, Archbishop of Rouen + Count of Évreux | by his concubine Hélène | per Moréri, three sons: Richard, **Radulphe**, Guillaume |
 | **Raoul de Gacé / Vassy / Tête-dure** ("Hard-head") | Basilea's first husband | died 1051; widow Basilea remarried Hugh III after 1051 |
+| **Robert d'Évreux Seigneur de Gacé** | son of Raoul x Basilea | named heir of the Gacé seigneurie; Hugh III's stepson, carrying the Évreux-comté collateral blood forward after 1051[^robert-evreux-gace-son] |
 
 Robert Archbishop's secular career is documented in the *Histoire de la ville de Rouen*: *"…ce prélat n'avoit point eu d'abord les moeurs ecclésiastiques, puisque nous voyons qu'après la mort de son père, il quitta son église, et fut à Évreux où il se maria publiquement; mais son désordre n'avoit pas été long, et, depuis plusieurs années, il avait pris des sentiments dignes de son état."* — *"This prelate did not at first have ecclesiastical morals, since we see that after his father's death he quit his church and was at Évreux where he married publicly; but his disorder was not long, and for several years he had taken sentiments worthy of his state."*
 
 **Net for the repo**: Basilea's first marriage carried Norman ducal collateral blood — her son by Raoul (if any) and her *maritagium* were tied to the Évreux comté. The maritagium itself was the **castle of Écouché** near Falaise (DG-I pp. 55, 65; FMG [880] cites Orderic on the [1089] Écouché custody dispute, identifying Gerard de Gournay as held it through "Basiliæ Girardi Fleitelli filiæ").
+
+[^robert-evreux-gace-son]: Robert d'Évreux Seigneur de Gacé identified as son of Raoul de Gacé x Basilia Flaitel per Charles Cawley, *Medieval Lands* (Foundation for Medieval Genealogy), and corroborated by Douglas Richardson, soc.genealogy.medieval, 20 January 2003, and John Ravilious, soc.genealogy.medieval, 11 January 2003. The identification is captured in tertiary form at the buist-keatch.org Goring-line database, person 3162 (Basilie Flaitel), `https://buist-keatch.org/buist/goring/3162.html`, which was the retrieval point for this audit. Phase-2 direct verification against the Cawley MedLands entry for the Gacé seigneurie is the next step. Source ID: `fmg-medlands-normacre`.
 
 ### 3.2 Basilea's siblings — the Flaitel network
 

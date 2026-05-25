@@ -49,6 +49,82 @@ A targeted external sweep produced no new primary records for Robert and confirm
 
 [^bho-ipm-vol12-mulbarton-sancto-omero-1366]: "Inquisitions Post Mortem, Edward III, File 188," *Calendar of Inquisitions Post Mortem*, vol. 12 (London: HMSO; British History Online), entry 79, Thomas de Sancto Omero, partition of Norfolk lands, 23-25 May 1366; [www.british-history.ac.uk/inquis-post-mortem/vol12/pp51-65](https://www.british-history.ac.uk/inquis-post-mortem/vol12/pp51-65). Source ID: `bho-ipm-edward-iii-vol12-sancto-omero-mulbarton-1366`.
 
+<!-- intake:v56:item-01:start -->
+### Earliest Norfolk Robert Gurnay in G22's floruit window -- 1405 Cressingham-Parva fine
+
+A fine levied in 1405 at Little Cressingham, South Greenhoe Hundred, names "Robert Gurnay of Cressingham-Parva" and Thomas Stodhagh as querents against Edward Howard and Catherine his wife, deforciants, over "several parcels of land, and the liberty of a foldcourse here, and in Hopton."[^bho-blomefield-vol6-little-cressingham-1405-gurnay-fine] This is the earliest currently-identified Norfolk record naming a Robert Gurnay within G22's traditional floruit window (c. 1370-1420).
+
+Identification with G22 is not warranted on present evidence. The residence formula "of Cressingham-Parva" denotes permanent residence at a parish twenty-five miles south of West Barsham, in a cluster not previously associated with the Edmund-Gurney line. The Hopton/Cressingham foldcourse does not re-enter the West Barsham descent: when Anthony Gurnay obtained the fourth part of the manor of Hopton with messuages in Cressingham Magna and Parva, Hilburgh, Bodney, Threxton, and Hopton in 19 Henry VIII (1527/28), he did so by marriage to Margaret Lovel, daughter and heir of Sir Robert Lovel -- a fresh acquisition by marriage, not by inheritance traceable to a 1405 Robert.[^bho-blomefield-vol6-little-cressingham-anthony-1528] The 1366 Mulbarton partition independently shows the Robert-Gurnay name carried in 1360s Norfolk at multiple social levels (free tenant and bondman in the same partition).[^bho-ipm-edward-iii-vol12-sancto-omero-mulbarton-1366-cross]
+
+The fine itself would resolve the question. Walter Rye's *A Short Calendar of the Feet of Fines for Norfolk*, vol. 2 (Edward II through Richard III), indexes Norfolk fines for the reign of Henry IV and would supply the TNA CP 25/1 file/number reference; the AALT image archive at `aalt.law.uh.edu/CP25(1)b.html` holds page-image scans of the Norfolk Henry IV files. Recitals of parentage in feet of fines are not invariable but are common where the querent is a younger son recently of age; a parentage recital naming Edmund Gurney would confirm the identification, and a recital naming any other parent would close it negatively.
+
+[^bho-blomefield-vol6-little-cressingham-1405-gurnay-fine]: Francis Blomefield, *An Essay towards a Topographical History of the County of Norfolk*, vol. vi, "Hundred of South Greenhoe: Little-Cressingham," pp. 108-111, accessed via British History Online: [www.british-history.ac.uk/topographical-hist-norfolk/vol6/pp108-111](https://www.british-history.ac.uk/topographical-hist-norfolk/vol6/pp108-111). Source ID: `blomefield-norfolk`.
+
+[^bho-blomefield-vol6-little-cressingham-anthony-1528]: Same entry as preceding footnote, sub-passage giving the 19 Henry VIII fine between Christopher Jenney and Anthony Gurnay esq. with Margaret his wife (one of the daughters and heirs of Sir Robert Lovel). Source ID: `blomefield-norfolk`.
+
+[^bho-ipm-edward-iii-vol12-sancto-omero-mulbarton-1366-cross]: Cross-reference to the existing companion entry "1366 Mulbarton IPM -- two contemporary Robert Gurnays at lower social levels" and its footnote `[^bho-ipm-vol12-mulbarton-sancto-omero-1366]`. Source ID: `bho-ipm-edward-iii-vol12-sancto-omero-mulbarton-1366`.
+<!-- intake:v56:item-01:end -->
+
+<!-- intake:v56:item-02:start -->
+### Blomefield West Barsham descent -- Robert absent, Thomas I documented 1434/35
+
+Blomefield's manorial descent for West Barsham runs: Edmund Wauncy -> Edmund Gurney -> "John de Gourney ... died 9th Henry IV [1407/08] seised of the manors of West and North Barsham, Harpley, Denver, Depeden" -> "Thomas Gourney ... mentioned as feoffee in 13th Henry VI" [= 1434/35] -> Thomas senior (will 9 Edward IV, 1469) -> William -> William jr -> Anthony -> Frances -> Henry -> Edmund (d. 1641) -> Henry (sold to Calthorpe).[^bho-blomefield-vol7-west-barsham-descent]
+
+Robert is not named at any point in the chain. This is independent confirmation that he held no main estate at West Barsham, matching DG's portrait of a younger son with no documentary footprint as a manorial lord. The 1434/35 feoffee reference pins Thomas Gournay I (G21) as a documented active adult by 13 Henry VI -- 26 years after the 1408 inheritance crisis through which Thomas received the estates as Sir John V's nephew of blood.
+
+[^bho-blomefield-vol7-west-barsham-descent]: Francis Blomefield, *An Essay towards a Topographical History of the County of Norfolk*, vol. vii, "Gallow and Brothercross Hundreds: West-Barsham," pp. 42-47, accessed via British History Online: [www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp42-47](https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp42-47). Source ID: `blomefield-norfolk`.
+<!-- intake:v56:item-02:end -->
+
+<!-- intake:v56:item-03:start -->
+### Heylesdon settlement -- Hellesdon and Drayton manors, advowsons, chantries, Norwich houses
+
+Alice Heylesdon, daughter and eventual sole heir of John Heylesdon -- wealthy London mercer and former alderman -- brought to her marriage with Sir John Gurney V a substantially larger settlement than the single London warehouse "La Selde Coronata" that DG and the previous factsheet highlighted. The full settlement comprised the manors of Hellesdon and Drayton, the advowsons of both parish churches, the two chantries founded in her father's memory, houses in Norwich, and "La Selde Coronata."[^hop-gurney-heylesdon-settlement] When Sir John V's only son Edmund died sine prole under age c. 1409/10, this entire Heylesdon settlement entered the inheritance crisis that ultimately moved the estates to Robert's son Thomas I as Sir John V's nephew of blood.
+
+[^hop-gurney-heylesdon-settlement]: "GURNEY, John (d.1408), of Harpley and West Barsham, Norf.", in *The House of Commons 1386-1421*, ed. J. S. Roskell, L. Clark and C. Rawcliffe (1993), History of Parliament Online, [https://www.historyofparliamentonline.org/volume/1386-1421/member/gurney-john-1408](https://www.historyofparliamentonline.org/volume/1386-1421/member/gurney-john-1408), citing Calendar of Close Rolls 1405-9 pp. 385, 524 and 1409-13 passim. Source ID: `hop-gurney`.
+<!-- intake:v56:item-03:end -->
+
+<!-- intake:v56:item-04:start -->
+### Stirnet's "Jeanne Gurney m. Osbert Mundeford" -- disconfirmed on the Mundeford side
+
+Stirnet lists "Jeanne Gurney m. Osbert Mundeford of Hockwold" among Edmund Gurney's children.[^stirnet-gurney-pedigree-jeanne-mundeford] The marriage is not corroborated on the Mundeford side. Blomefield's Hockwold descent names three successive Osberts of the period with wives Alice, Elizabeth, and Margaret -- no Gurney bride at any generation.[^bho-blomefield-vol2-hockwold-mundeford] The Feltwell parish-history account of the Mundefords names Adam (d. 1463) m. Esselina; Osbert (d. 1479) m. Elizabeth; Francis (d. 1520) m. Margaret; and Osbert (d. 1580) m. Margaret Townshend then Bridget Spelman -- again no Gurney bride.[^feltwell-net-mundefords-of-feltwell-cite] On present evidence the Stirnet claim is treated as unsupported.
+
+[^stirnet-gurney-pedigree-jeanne-mundeford]: "Pedigree of the Gournays of Norfolk," Stirnet Genealogy, accessed 23 May 2026, [https://www.stirnet.com/genie/data/british/gg/gurney1.php](https://www.stirnet.com/genie/data/british/gg/gurney1.php). Source ID: `stirnet-gurney-pedigree`.
+
+[^bho-blomefield-vol2-hockwold-mundeford]: Francis Blomefield, *An Essay towards a Topographical History of the County of Norfolk*, vol. ii, "Hundred of Grimeshou: Hockwold," pp. 177-187, accessed via British History Online: [www.british-history.ac.uk/topographical-hist-norfolk/vol2/pp177-187](https://www.british-history.ac.uk/topographical-hist-norfolk/vol2/pp177-187). Source ID: `blomefield-norfolk`.
+
+[^feltwell-net-mundefords-of-feltwell-cite]: "The Mundefords of Feltwell," feltwell.net parish-history pages, accessed 23 May 2026, [https://www.feltwell.net/feltwell2/written/mundeford2.htm](https://www.feltwell.net/feltwell2/written/mundeford2.htm). Source ID: `feltwell-net-mundefords-of-feltwell`.
+<!-- intake:v56:item-04:end -->
+
+<!-- intake:v56:item-05:start -->
+### Stirnet's generation-flattening of Thomas Gournay I
+
+Stirnet's Norfolk Gournay pedigree page lists Thomas Gournay (G21) as a direct son of Edmund Gurney (d. 1387) -- a sibling of Sir John V and Robert -- rather than as Robert's son and Sir John V's nephew of blood.[^stirnet-gurney-pedigree-flattening] DG-Supp Note 121 (Sir John V's IPM proving collateral succession) and the History of Parliament biography of Sir John Gurney d. 1408 ("the family estates passed to John's nephew, Thomas") settle the generational placement against Stirnet. Stirnet's flattening appears to be the error; the DG and HoP placement is correct.
+
+[^stirnet-gurney-pedigree-flattening]: "Pedigree of the Gournays of Norfolk," Stirnet Genealogy, accessed 23 May 2026, [https://www.stirnet.com/genie/data/british/gg/gurney1.php](https://www.stirnet.com/genie/data/british/gg/gurney1.php). Source ID: `stirnet-gurney-pedigree`.
+<!-- intake:v56:item-05:end -->
+
+<!-- intake:v56:item-06:start -->
+### Sir John V's death -- Blomefield/HoP date triangulation
+
+Blomefield records Sir John V as having died "9th Henry IV" (regnal year running 30 September 1407 to 29 September 1408) "seised of the manors of West and North Barsham, Harpley, Denver, Depeden."[^bho-blomefield-vol7-west-barsham-descent-cross] The History of Parliament biography gives the specific date 4 December 1408 -- which falls in 10 Henry IV, not 9.[^hop-gurney-johnv-deathdate] DG-Supp Note 121 records Sir John's inquisition post mortem as "taken at Holt market, 10 Henry IV," siding with HoP's 10-Hen-IV / 4-Dec-1408 dating.[^dg-supp-ipm-johnv-10henryiv] Blomefield's "9 Henry IV" is most plausibly a regnal-year approximation or a copying slip; the HoP date is anchored to the escheator's writ.
+
+[^bho-blomefield-vol7-west-barsham-descent-cross]: Cross-reference to Item 02 footnote `[^bho-blomefield-vol7-west-barsham-descent]`. Source ID: `blomefield-norfolk`.
+
+[^hop-gurney-johnv-deathdate]: History of Parliament Online, biography of Sir John Gurney d. 1408, [https://www.historyofparliamentonline.org/volume/1386-1421/member/gurney-john-1408](https://www.historyofparliamentonline.org/volume/1386-1421/member/gurney-john-1408). Source ID: `hop-gurney`.
+
+[^dg-supp-ipm-johnv-10henryiv]: Daniel Gurney, *Supplement* (1858), Note 121 (pp. 793-794), recording the inquisition post mortem of Sir John Gurney V "taken at Holt market, 10 Henry IV." Source ID: `dg-rec-supp`.
+<!-- intake:v56:item-06:end -->
+
+<!-- intake:v56:item-07:start -->
+### Edmund G23's will -- Norwich Consistory Court, Register Harsyk
+
+Edmund Gurney G23's will, proved 1387 at the Norwich Consistory Court, is registered in *Register Harsyk* -- the largest single will-register in the NCC series for the 1370-1550 window.[^ncc-reg-harsyk-edmund-will] The HoP biography of Sir John Gurney d. 1408 cites the parallel *Register of Surflete* fol. 27 for the later Gurney probate context.[^hop-gurney-surflete] Edmund's will registration in Reg. Harsyk supplies a documentary anchor independent of Daniel Gurney for the 1387 death-date and for the lawyer-of-Norwich identification. Direct retrieval of the will text (FamilySearch microfilm scan; Norfolk Record Office; the printed Farrow index *Index of Wills proved in the Consistory Court of Norwich ... 1370-1550*) would be the natural next step for direct attestation of Edmund's children -- including, on the standing question, whether the second son is in fact named there.
+
+[^ncc-reg-harsyk-edmund-will]: Norwich Consistory Court probate register, *Reg. Harsyk*, fol. 34 (probate of Edmund Gurney, 1387). Holding: Norfolk Record Office, NCC will registers, 1370-1550; scans accessible on FamilySearch microfilm. Indexed in M. A. Farrow et al., *Index of Wills proved in the Consistory Court of Norwich ... 1370-1550, and Wills among the Norwich Enrolled Deeds, 1298-1508*. Source ID: `hop-gurney` (which provides the parallel Surflete citation; a direct NCC-Harsyk sourceId can be added if and when the will text itself is consulted).
+
+[^hop-gurney-surflete]: "GURNEY, John (d.1408)," History of Parliament Online, [https://www.historyofparliamentonline.org/volume/1386-1421/member/gurney-john-1408](https://www.historyofparliamentonline.org/volume/1386-1421/member/gurney-john-1408), citing among sources "Norfolk Record Office Register of Surflete, fol. 27." Source ID: `hop-gurney`.
+<!-- intake:v56:item-07:end -->
+
 ### Remaining open primary-source leads
 
 Three primary documents could in principle resolve the identification of Robert if examined:

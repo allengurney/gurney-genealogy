@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 permalink: /fact-sheets/g35-renaud-de-gournay-fact-sheet.html
 title: Renaud de Gournay Fact Sheet
-pageHeading: Renaud de Gournay (c. 970 — dates uncertain)
+pageHeading: Renaud de Gournay (c. 960–965 — dates uncertain)
 subtitle: "First Lord of Gournay confirmed in a surviving primary source document."
 description: "Compact fact sheet for Renaud de Gournay in the direct Gurney line."
 bodyClass: bio-page factsheet-page
@@ -26,7 +26,7 @@ factsheet:
   "mainEntity": {
     "@type": "Person",
     "name": "Renaud de Gournay",
-    "birthDate": "c. 970",
+    "birthDate": "c. 960-965",
     "birthPlace": { "@type": "Place", "name": "Gournay-en-Bray, Normandy" },
     "description": "Lord of Gournay-en-Bray. First of the direct line confirmed in a surviving primary document."
   }
@@ -40,7 +40,7 @@ factsheet:
 <div class="facts-vitals-grid">
   <div class="fact-item">
     <div class="fact-label">Born</div>
-    <div class="fact-value">c. 970, Gournay-en-Bray, Normandy. Date estimated from son Hugh II's approximate birth c. 985. <sup class="fn"><a href="#n1" id="ref-1">1</a></sup></div>
+    <div class="fact-value">c. 960–965, Gournay-en-Bray, Normandy. Estimated from son Hugh II's birth c. 985, allowing roughly 20–25 years between father and son. <sup class="fn"><a href="#n1" id="ref-1">1</a></sup></div>
   </div>
   <div class="fact-item">
     <div class="fact-label">Died</div>
@@ -69,10 +69,10 @@ factsheet:
 <h2 class="unnumbered">Highlights</h2>
 
 <ul>
-  <li><strong>The first ancestor named in a primary document.</strong> A charter of 989–996, preserved in connection with the priory of La Ferté-en-Bray, names "Renaud" and his wife "Alberarda" directly. Their son Gautier issued the document "*impetrante fratre meo Hugone*" — "at the entreaty of my brother Hugh." Witnesses: Duke Richard I (Sans-Peur), his son Richard II, Robert Archbishop of Rouen, a count also named Robert, and a dedicating Bishop named Hugues. Five churches given at foundation: Fry, Argueil, Saint-Samson, Boulay, Bruquedale. The dual presence of Richard I (d. 996) and Archbishop Robert (appointed 989) brackets the date 989–996. The charter survives only in transcription via M. de Gondeville's MS *Histoire de Gournay* — the original is lost; <a href="https://en.wikipedia.org/wiki/L%C3%A9opold_Delisle">Léopold Delisle</a> could not locate it in the Évreux archives. The charter remains the linchpin of Renaud's existence in the documentary record. <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></li>
-  <li><strong>Two sons, two legacies.</strong> Son Gautier de la Ferté founded the priory. Son Hugh II (Renaud's heir as lord of Gournay) became one of the principal Norman commanders at the Battle of Mortemer in 1054 and went on to witness charters of Duke William of Normandy — who would conquer England in 1066. The family's trajectory from frontier warriors to players on the European stage accelerated sharply in Renaud's children's generation. <sup class="fn"><a href="#n6" id="ref-6">6</a></sup></li>
+  <li><strong>The first ancestor named in a primary document.</strong> A charter of 989–996, preserved in connection with the priory of La Ferté-en-Bray, names "Renaud" and his wife "Alberarda" directly. Their son Gautier issued the document "*impetrante fratre meo Hugone*" — "at the entreaty of my brother Hugh." Witnesses: Duke Richard I (Sans-Peur), his son Richard II, Robert Archbishop of Rouen, a Count Robert (probably Robert, Count of Évreux, the Archbishop's brother in his secular role), and a dedicating Bishop named Hugues. Five churches given at foundation: Fry, Argueil, Saint-Samson, Boulay, Bruquedale. The dual presence of Richard I (d. 996) and Archbishop Robert (appointed 989) brackets the date 989–996. The charter survives only in transcription via M. de Gondeville's MS *Histoire de Gournay* — the original is lost; <a href="https://en.wikipedia.org/wiki/L%C3%A9opold_Delisle">Léopold Delisle</a> could not locate it in the Évreux archives. The charter remains the linchpin of Renaud's existence in the documentary record. <sup class="fn"><a href="#n6" id="ref-6">6</a></sup></li>
+  <li><strong>Two sons, two legacies.</strong> Son Gautier de la Ferté founded the priory. Son Hugh II (Renaud's heir as lord of Gournay) became one of the principal Norman commanders at the Battle of Mortemer in 1054 and went on to witness charters of Duke William of Normandy — who would conquer England in 1066. The family's trajectory from frontier warriors to players on the European stage accelerated sharply in Renaud's children's generation. <sup class="fn"><a href="#n7" id="ref-7">7</a></sup></li>
   <li><strong>His wife's name survives — nothing else about her does.</strong> "Alberarda" (or Alberade) appears only in the La Ferté charter. She is the first named woman in the Gurney line. <sup class="fn"><a href="#n4" id="ref-4b">4</a></sup></li>
-  <li><strong>Living in the transition from Norse sea-king to Norman gentleman.</strong> Hannay placed Renaud "just into the transition time — the stage in which the Norman gentleman was developing out of the Norse sea-king." He would have spoken the Romance tongue, embraced the Church, encouraged architecture, and yet retained the martial habits of his ancestors. The Pays de Bray in his era was being transformed from frontier wildland into cultivated orchards and vineyards. <sup class="fn"><a href="#n5b" id="ref-5c">5</a></sup></li>
+  <li><strong>Living in the transition from Norse sea-king to Norman gentleman.</strong> Hannay placed Renaud "just into the transition time — the stage in which the Norman gentleman was developing out of the Norse sea-king." He would have spoken the Romance tongue, embraced the Church, encouraged architecture, and yet retained the martial habits of his ancestors. The Pays de Bray in his era was being transformed from frontier wildland into cultivated orchards and vineyards. <sup class="fn"><a href="#n6" id="ref-6d">6</a></sup></li>
 </ul>
 </section>
 
@@ -91,22 +91,22 @@ factsheet:
   </thead>
   <tbody>
     <tr>
-      <td>Hugh de Gournay I</td>
-      <td>fl. c. 990s; died perhaps c. 1040</td>
+      <td>Hugh de Gournay II</td>
+      <td>c. 985 – d. c. 1074</td>
       <td>Alberade</td>
-      <td>G36 in direct line. The "fratre Hugone" of the la Ferté foundation charter — confirmed elder brother. The standard repo numbering (G36 = Hugh I, the fortifier) follows DG, FMG, and Potin 1842. <sup class="fn"><a href="#n7" id="ref-7">7</a></sup></td>
+      <td><strong>G34 in direct line.</strong> Named in the La Ferté foundation charter (989–996) as the "*fratre Hugone*" — the brother Hugh whose consent his brother Gautier obtained. Inherited the lordship of Gournay; later the Norman commander at Mortemer (1054) and a figure of the Hastings generation. <sup class="fn"><a href="#n6" id="ref-6b">6</a></sup></td>
     </tr>
     <tr>
       <td>Gautier de la Ferté</td>
       <td>fl. c. 989–996</td>
       <td>Alberade</td>
-      <td>Founded priory of La Ferté-en-Bray with consent of elder brother Hugh, naming their father Renaud and mother Alberade. COLLATERAL. The la Ferté line ended with his great-grandson Hugues II de la Ferté (monk at Saint-Ouen 1060, no issue); the seigneurie reverted to the senior Gournay line. <sup class="fn"><a href="#n5" id="ref-5b">5</a></sup></td>
+      <td>Founded the priory of La Ferté-en-Bray with the consent of his elder brother Hugh, naming their father Renaud and mother Alberade. His line ended with his great-grandson Hugues II de la Ferté (monk at Saint-Ouen, 1060, no issue); the seigneurie reverted to the senior Gournay line. <sup class="fn"><a href="#n6" id="ref-6c">6</a></sup><sup class="fn"><a href="#n8" id="ref-8">8</a></sup></td>
     </tr>
     <tr>
       <td>Raoul (Radulphus)</td>
       <td>—</td>
       <td>Alberade</td>
-      <td>"Mort sans postérité" per Potin 1842 p. 65 / NRP-I 1852 p. 77. Local-tradition third son not in the la Ferté charter. COLLATERAL. <sup class="fn"><a href="#n4b" id="ref-4c">4</a></sup></td>
+      <td>A third son known only through later local tradition; not named in the La Ferté charter. Said to have died <em>mort sans postérité</em> — without descendants. <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></td>
     </tr>
   </tbody>
 </table>
@@ -128,14 +128,14 @@ Renaud's lasting contribution to the family story was a son — Hugh II — who 
 <h2 class="unnumbered">Citations</h2>
 
 <ol class="citation-list">
-  <li id="n1">Dates estimated. Son Hugh II born c. 985; assuming Renaud fathered him c. 20–25 years of age gives a birth estimate of c. 960–965, but DG-I uses c. 970 as the conventional figure. No birth record. <a class="citation-back" href="#ref-1">↩</a></li>
-  <li id="n2">Attested in charter of 989–996 (La Ferté-en-Bray priory). Death date unknown. DG-I, p. 25. <a class="citation-back" href="#ref-2">↩</a></li>
-  <li id="n3">DG-I, pp. 23, 25. As lord of Gournay, Renaud held the same military obligation as his predecessors: furnishing twelve knights to the duke and defending the eastern marches. <a class="citation-back" href="#ref-3">↩</a></li>
-  <li id="n4">Charter of 989–996, La Ferté-en-Bray priory, naming "Renaud" and "Alberade." DG-I p. 25; FMG MedLands [883]–[885]. The "de Montdidier" surname sometimes attached to Alberade is community-tree extrapolation with no primary support. <a class="citation-back" href="#ref-4">↩</a></li>
-  <li id="n4b">Pierre Potin de la Mairie, *Recherches historiques sur la ville de Gournay-en-Bray* (1842), p. 65; N.-R. P. de la Mairie, *Recherches…sur les Possessions des Sires Normands de Gournay* Tome I (1852), p. 77. Both add a third son "Raoul (Radulphus), mort sans postérité" — local-tradition addition not in the la Ferté charter or FMG. <a class="citation-back" href="#ref-4c">↩</a></li>
-  <li id="n5">DG-I, p. 25; DG-Supp Note 8 p. 731 (Delisle's confirmation that the original charter is not in the Évreux archives); FMG MedLands [884]/[885] explicitly notes the original charter no longer exists. NRP-I 1852 p. 77–78 gives the fuller witness list: Richard I; Richard II; Robert Archbishop of Rouen; an unnamed Count Robert; and the dedicating Bishop Hugues, who consecrated the priory under the name of Saints Peter and Paul. Pattou (*Racines Histoire* p. 2) hedges with "ou cette fondation peut-être légèrement antérieure à 1026 sous Richard II?" but the dual presence of Richard I and Archbishop Robert ties the foundation to 989–996. <a class="citation-back" href="#ref-5">↩</a></li>
-  <li id="n6">DG-I, pp. 25–26 (Hugh II at Mortemer; charter witness). <a class="citation-back" href="#ref-6">↩</a></li>
-  <li id="n7">DG-I, pp. 25–26. <a class="citation-back" href="#ref-7">↩</a></li>
+  <li id="n1">Dates estimated. Son Hugh II born c. 985; assuming Renaud fathered him at roughly 20–25 years of age gives a birth estimate of c. 960–965. Daniel Gurney's pedigree uses c. 970 as a conventional round figure (Daniel Gurney, <em>The Record of the House of Gournay</em>, Part I (1848), pedigree p. 286). No birth record survives. <a class="citation-back" href="#ref-1">↩</a></li>
+  <li id="n2">Attested in the charter of 989–996 (priory of La Ferté-en-Bray). Death date unknown. Daniel Gurney, <em>The Record of the House of Gournay</em>, Part I (1848), p. 25. <a class="citation-back" href="#ref-2">↩</a></li>
+  <li id="n3">Daniel Gurney, <em>The Record of the House of Gournay</em>, Part I (1848), pp. 23, 25. As lord of Gournay, Renaud held the same military obligation as his predecessors: furnishing twelve knights to the duke and defending the eastern marches. <a class="citation-back" href="#ref-3">↩</a></li>
+  <li id="n4">Charter of 989–996, priory of La Ferté-en-Bray, naming "Renaud" and "Alberade." Daniel Gurney, <em>Record</em>, Part I (1848), p. 25; Foundation for Medieval Genealogy MedLands (Charles Cawley), entries [883]–[885]. The "de Montdidier" surname sometimes attached to Alberade is later community-tree extrapolation with no primary support. <a class="citation-back" href="#ref-4">↩</a></li>
+  <li id="n5">Pierre Potin de la Mairie, <em>Recherches historiques sur la ville de Gournay-en-Bray</em> (1842), p. 65; N.-R. P. de la Mairie, <em>Recherches…sur les Possessions des Sires Normands de Gournay</em>, Tome I (1852), p. 77. Both add a third son "Raoul (Radulphus), mort sans postérité" — a local-tradition addition not present in the La Ferté charter or in the Foundation for Medieval Genealogy MedLands entries. <a class="citation-back" href="#ref-5">↩</a></li>
+  <li id="n6">The La Ferté priory foundation charter (989–996) is the primary attestation for Renaud and his wife Alberade. The original is lost; the charter survives only in transcription via M. de Gondeville's MS <em>Histoire de Gournay</em>. Léopold Delisle (cited in Daniel Gurney, <em>Record of the House of Gournay, Supplement</em> (1858), Note 8, p. 731) confirmed the original is not in the Évreux archives. Daniel Gurney, <em>The Record of the House of Gournay</em>, Part I (1848), p. 25 (Source ID: <code>dg-rec-pt1</code>); Foundation for Medieval Genealogy MedLands entries [884]/[885] (Source ID: <code>fmg-medlands-normacre</code>); N.-R. P. de la Mairie, <em>Recherches…sur les Possessions des Sires Normands de Gournay</em>, Tome I (1852), pp. 77–78 (Source ID: <code>nrp-recherches-possessions-1852</code>) — together give the fuller witness list: Richard I, Duke of Normandy (d. 996); his son Richard II; Robert, Archbishop of Rouen (appointed 989); a count also named Robert (distinct from the Archbishop); and a dedicating Bishop Hugues, who consecrated the priory under Saints Peter and Paul. The dual presence of Richard I and Archbishop Robert brackets the date to 989–996. Étienne Pattou, <em>Racines Histoire</em>, "Seigneurs de Gournay," p. 2 (Source ID: <code>pattou-racines-histoire-gournay-2025</code>) hedges with "ou cette fondation peut-être légèrement antérieure à 1026 sous Richard II?" but the bracketed witness window is the better-supported reading. <a class="citation-back" href="#ref-6">↩</a></li>
+  <li id="n7">Daniel Gurney, <em>The Record of the House of Gournay</em>, Part I (1848), pp. 25–26 (Hugh II at Mortemer; charter witness). <a class="citation-back" href="#ref-7">↩</a></li>
+  <li id="n8">The La Ferté cadet line: Gauthier de la Ferté → Turold → Hugues I de la Ferté → Hugues II de la Ferté, who became a monk at Saint-Ouen de Rouen in 1060 and died before 1047 without issue. With his death the la Ferté seigneurie reverted to the senior Gournay line, passing first to Hugues III de Gournay (G33), then to his son Girard (G32), and onward into the medieval Gournay holdings. The cadet line thus reattached to the senior line after four generations. N.-R. P. de la Mairie, <em>Recherches…sur les Possessions des Sires Normands de Gournay</em>, Tome I (1852), pp. 79–80; the reversion is also discussed in Thomas Joseph Pettigrew, <em>Collectanea Archaeologica</em>, vol. 2 (1871), pp. 180–182. Source IDs: <code>nrp-recherches-possessions-1852</code>, <code>pettigrew-collectanea-house-gournay-1871</code>. <a class="citation-back" href="#ref-8">↩</a></li>
 </ol>
 </section>
 

@@ -840,6 +840,18 @@
     "notes": "Standard charter collection for pre-Conquest ducal Normandy. Index search for Gournay/Gornai entries needed."
   },
   {
+    "sourceId": "feltwell-net-mundefords-of-feltwell",
+    "shortTitle": "feltwell.net -- The Mundefords of Feltwell",
+    "citation": "\"The Mundefords of Feltwell.\" Feltwell parish history pages, feltwell.net. Compiled local-history account of the Mundeford family of Feltwell and Hockwold, Norfolk, naming each generation's head and wife.",
+    "archive": "feltwell.net parish-history website",
+    "url": "https://www.feltwell.net/feltwell2/written/mundeford2.htm",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Used as a Mundeford-side cross-check for Stirnet's unsupported claim that Jeanne Gurney (daughter of Edmund Gurney d. 1387) married Osbert Mundeford of Hockwold. Feltwell.net lists every named Osbert with his wife; no Gurney bride appears at any generation. Used in research/people/g22-robert-gournay-fact-sheet.research.md Item 04."
+  },
+  {
     "sourceId": "ferrieres-en-bray-official-history",
     "shortTitle": "Ferrieres-en-Bray official history",
     "citation": "Commune de Ferrieres-en-Bray. \"Histoire de la ville.\" Municipal history page.",
@@ -1018,6 +1030,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Context source for Puritan migration and regional folkways used in the John Gurney case file."
+  },
+  {
+    "sourceId": "fmg-medlands-normacre",
+    "shortTitle": "FMG MedLands -- Normandy (Cawley)",
+    "citation": "Cawley, Charles. Medieval Lands: a prosopography of medieval European noble and royal families, Normandy section (NORMANDY -- AUMALE, ROUEN, EU). Foundation for Medieval Genealogy.",
+    "archive": "fmg.ac (Foundation for Medieval Genealogy)",
+    "url": "https://fmg.ac/Projects/MedLands/normacre.htm",
+    "corpusStatus": "external",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Charles Cawley's encyclopaedia of medieval European noble families on the Foundation for Medieval Genealogy site. Contains the Seigneurs de Gournay section with bracketed primary-source citations [875]-[896] including Orderic Vitalis, Guillaume de Jumieges, Albert of Aix, Baudry of Dol, charters of William I and Henry II, the Chronicon Beccensis. Frequently referenced in research companions. URL above is the principal Normandy section; the Gournay subsection is at Chapter 3 Section E of that page."
   },
   {
     "sourceId": "foster-streeter-cummington",
@@ -1474,6 +1498,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Cited by Anderson in the John Gurney sketch. Obtained text confirms this is Mary Lovering Holman's Grissell Fletcher/Jewell/Griggs/Kibbee/Gurney/Burge marriage-chain article. It gives the 12 Nov. 1661 Braintree marriage by Peter Brackett and John Gurney Sr.'s 1662-63 death, but supplies no 1636 arrival or birth date for John Gurney; Anderson's 1636 date must derive from another citation, most likely WJ 2:422 / the Newgate apprentice tradition."
+  },
+  {
+    "sourceId": "history-of-parliament-online-gurney-1386-1421",
+    "shortTitle": "HoP Online -- Gurney John d.1408",
+    "citation": "Roskell, J. S., L. Clark, and C. Rawcliffe, eds. The House of Commons 1386-1421. The History of Parliament Trust. Biography of GURNEY, John (d.1408), of Harpley and West Barsham, Norf.",
+    "archive": "historyofparliamentonline.org",
+    "url": "https://www.historyofparliamentonline.org/volume/1386-1421/member/gurney-john-1408",
+    "corpusStatus": "external",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Principal modern scholarly biography of Sir John Gurney (d. 5 Dec 1408), the collateral son of Edmund Gournay (G23) and Katherine de Wauncy. Corroborates Edmund G23's 1387 death, his Harpley/Hardingham/Saxthorpe-Loundhall holdings, the Wauncy West Barsham inheritance, and the Gurney-family establishment in Norfolk since the 12th century. Distinct from existing sourceId `hop-gurney`; retained because v54 citations reference this exact sourceId."
   },
   {
     "sourceId": "arber-stationers-bsoc-petition-1646-hunscott",
@@ -2028,6 +2064,18 @@
     "notes": "Regimental summary drawing from Phisterer and The Union Army. Confirms William Gurney's authority to raise the regiment, 8 September 1862 muster-in, service in Washington/Virginia/South Carolina/Charleston, 30 June 1865 muster-out, and regimental losses."
   },
   {
+    "sourceId": "opendomesday-org",
+    "shortTitle": "Open Domesday",
+    "citation": "Powell-Smith, Anna. Open Domesday: a modern digital edition of the Domesday Book (1086). University of Hull / opendomesday.org.",
+    "archive": "Open Domesday (opendomesday.org)",
+    "url": "https://opendomesday.org/",
+    "corpusStatus": "external",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Free online edition of the Domesday Book with searchable place, person, and tenant indexes. Used for verifying Hugh of Gournai's Essex Domesday holdings: Liston (sub-tenant Geoffrey Talbot), Fordham, Ardleigh -- see https://opendomesday.org/place/TL9228/fordham/. Complements primary-source citation `domesday-1086`."
+  },
+  {
     "sourceId": "openedition-abbayes-seigneurs-normands-annexe",
     "shortTitle": "OpenEdition, abbeys founded by Norman lords",
     "citation": "\"Annexe I. Abbayes fondees par des seigneurs normands (XIe-mi XIIIe siecles).\" In De gre ou de force. Presses universitaires de Rennes.",
@@ -2098,6 +2146,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/palgrave-history-england-normandy-1864.md",
     "notes": "Derivative narrative history. Relevant for Hugh Gournay at Mortemer, Pays de Bray geography, Gerberoi proximity to Gournay, and Hugh de Gournay as mediator between William I and Robert Curthose."
+  },
+  {
+    "sourceId": "pattou-racines-histoire-gournay-2025",
+    "shortTitle": "Pattou Racines Histoire -- Gournay",
+    "citation": "Pattou, Etienne. Seigneurs de Gournay (-en-Bray) & Gurney, Normandie, Angleterre. Racines & Histoire chart genealogy, last updated 2025-08-11.",
+    "archive": "racineshistoire.free.fr",
+    "url": "http://racineshistoire.free.fr/LGN/PDF/Gournay.pdf",
+    "corpusStatus": "external",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Etienne Pattou's chart-genealogy of the Gournay seigneurial line and its Norfolk and Somerset cadet branches. Independent of DG and of Cawley's MedLands; draws on Potin 1842, NRP-I 1852, and modern French scholarship. Companion chart referenced extensively in research companions for G31-G37. Note TLS-certificate issue when fetching via WebFetch (ERR_TLS_CERT_ALTNAME_INVALID on 2026-05-23); browser download works."
   },
   {
     "sourceId": "pease-pennyghael",
@@ -2184,6 +2244,18 @@
     "notes": "Local Gournay antiquarian history (Tome Premier 1842). Chapters on Eudes (p. 59), Renaud (p. 65), Hugues I (p. 75), Hugues II (p. 91+), Hugues III (p. 108), Girard, Hugues IV, Hugues V. Numbering-dispute resolution pp. 70–73. Cardiff narrative p. 105 (Hugh II). Hugh III death year 1110 p. 110. Beauvais obituary p. 124. Draws on Cordier MS, Langloys notes, René Potin notes. Predates DG 1845."
   },
   {
+    "sourceId": "powell-historie-cambria-1584",
+    "shortTitle": "Powell -- Historie of Cambria (1584)",
+    "citation": "Powell, David. The Historie of Cambria, now called Wales: a part of the most famous Yland of Brytaine. London: Rafe Newberie and Henrie Denham, 1584. Continuing the unfinished English translation by Humphrey Llwyd of medieval Welsh chronicle material (principally Brut y Tywysogion). Standard modern re-edition: Wynne 1811.",
+    "archive": "Early English Books Online (STC 2nd ed. 20089) / British Library (G.6056); 1811 Wynne re-edition in print",
+    "url": "https://patp.us/reading/companions-of-the-conqueror/hugh-de-gournay",
+    "corpusStatus": "external",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Welsh-chronicle tradition dating the Cardiff engagement of Hugh de Gournay to 1094 (not 1074), between Cardiff and Brecknock, under William II Rufus's Welsh frontier campaigns. Powell's list of named wounded/killed is a near-perfect subset of the French Histoire et Chronique de Normandie list for the same engagement, with the dating offset twenty years. URL above is the patp.us mediating page where the verbatim 1094 entry was retrieved; direct verification against Powell 1584 or the 1811 Wynne re-edition is the next step."
+  },
+  {
     "sourceId": "projet-conde-conquets-hue-gournay",
     "shortTitle": "Projet ConDE, Conquets Hue de Gournay custom",
     "citation": "Projet ConDE, Universite de Caen Normandie. \"Coutumes et usages locaux des vingt quatre Paroisses, Hameaux & Villages... Conquets Hue de Gournay.\" Digital edition of the Norman custom-law passage.",
@@ -2230,6 +2302,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Standard edition of William I's acta. Contains the 1077 St-Étienne and 1082 La Trinité Caen charter witness lists. Also the 1067 Vaudreuil charter (No. 6a)."
+  },
+  {
+    "sourceId": "richardson-sgm-soc-genealogy-medieval-2002",
+    "shortTitle": "Richardson SGM 2002 -- Walter not son of Gerard",
+    "citation": "Richardson, Douglas. soc.genealogy.medieval (SGM) Usenet post, 11 September 2002. Corrected pedigree post archived in Google Groups thread cPiFbsyHAa8.",
+    "archive": "Google Groups soc.genealogy.medieval archive",
+    "url": "https://groups.google.com/g/soc.genealogy.medieval/c/cPiFbsyHAa8",
+    "corpusStatus": "external",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Douglas Richardson's SGM post argues, drawing on English-side feudal evidence, that Walter de Gournay (G31 in repo numbering) was not a son of Gerard de Gournay (G32) of the senior Norman baronial line. Richardson's pedigree starts from Hugh de Gournay III (G33) and treats earlier generations as tradition. The repo follows DG's contrary position; the dispute is documented at research/case-files/walter-de-gournay-as-son-of-gerard.md."
   },
   {
     "sourceId": "rigler-gurney-family-aaron-zuinglius-1994",
@@ -2410,6 +2494,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Birth/baptism of John Gourney, 7 Oct / 30 Oct 1655. Ten children of Francis Gurney of Maldon listed in DG-III-537."
+  },
+  {
+    "sourceId": "stirnet-gurney-pedigree",
+    "shortTitle": "Stirnet -- Pedigree of the Gournays of Norfolk",
+    "citation": "Stirnet Genealogy. \"Pedigree of the Gournays of Norfolk.\" Tertiary compiled-pedigree database, citing as its source Daniel Gurney, Record of the House of Gournay, vol. 1, pp. 286-287, and the Heralds' Visitations of Norfolk 1563/1589/1613.",
+    "archive": "Stirnet.com (subscription / public-access tertiary database)",
+    "url": "https://www.stirnet.com/genie/data/british/gg/gurney1.php",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Tertiary compiled pedigree. Useful as a cross-reference but contains at least two demonstrable errors at the late-14th-century junior-Norfolk branch: it places Thomas Gournay I (G21) as a direct son of Edmund Gurney d. 1387 rather than as Robert's son and Sir John V's nephew of blood, and it lists 'Jeanne Gurney m. Osbert Mundeford of Hockwold' which is unsupported on the Mundeford side. Used in research/people/g22-robert-gournay-fact-sheet.research.md Items 04 and 05."
   },
   {
     "sourceId": "suffolk-deeds-liber-iv-1888",
@@ -2626,6 +2722,30 @@
     "mediaPath": "sources/media/1925_08Wansey_Family_Tree_Medieval_Genealogy.pdf",
     "validationPath": "sources/validations/wansey-medieval-genealogy-1925.md",
     "notes": "Image-only four-page Wansey/Wauncy pedigree PDF. User-supplied source-associated extract reports Edmund Gorney d. 1387; Katherine surviving until 3 Henry IV; son John Gurney married Alice Bavard, was knight of the shire in 6 Henry IV, and died in 9 Henry IV. Use as a direct conflict note against HoP/DG wife-name and date details."
+  },
+  {
+    "sourceId": "wikipedia-en-hamelin-de-warenne",
+    "shortTitle": "Wikipedia -- Hamelin de Warenne",
+    "citation": "English Wikipedia, \"Hamelin de Warenne, Earl of Surrey.\"",
+    "archive": "en.wikipedia.org",
+    "url": "https://en.wikipedia.org/wiki/Hamelin_de_Warenne,_Earl_of_Surrey",
+    "corpusStatus": "external",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Independent encyclopaedic biography of Hamelin Plantagenet (c. 1130 - 7 May 1202), Earl Warren/Surrey. Confirms illegitimate son of Geoffrey of Anjou; elder half-brother of King Henry II; married Isabel de Warenne, 4th Countess of Surrey, April 1164. Used for G29 (Matthew de Gournay) marriage-arranger citation. Wikipedia is a tertiary source but the article itself cites Wace, Robert of Torigni, and modern Anglo-Norman scholarship."
+  },
+  {
+    "sourceId": "wikipedia-fr-famille-de-gournay",
+    "shortTitle": "Wikipedia FR -- Famille de Gournay",
+    "citation": "Wikipedia francais, \"Famille de Gournay.\"",
+    "archive": "fr.wikipedia.org",
+    "url": "https://fr.wikipedia.org/wiki/Famille_de_Gournay",
+    "corpusStatus": "external",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Modern French encyclopaedic summary of the Gournay seigneurial line. Notable for explicitly recording Leopold Delisle's critique of Daniel Gurney's 1848 early-generation claims (\"a vite ete critiquee par des erudits normands comme Leopold Delisle\"). Useful for non-DG parity at G37 and G36. The article carries the modern position rejecting Eudes as document-confirmed and treating Hugh I (G36) as tradition-only."
   },
   {
     "sourceId": "wikitree-newgate-14-horningsheath",

@@ -58,7 +58,7 @@ factsheet:
     <div class="fact-label">Marriage(s)</div>
     <div class="fact-value">
       <div class="stacked-records">
-        <div><strong>Katherine</strong> — surname uncertain; DG pedigree notes she was "probably a Baconsthorpe." No further details. By Katherine, William was father of Sir John de Gournay I (G27). <sup class="fn"><a href="#n4" id="ref-4">4</a></sup></div>
+        <div><strong>Katherine</strong> -- surname unresolved. DG pedigree p. 286 calls her "probably a Baconsthorpe"; DG-Supp Note 113 (1858) -- DG's later, more considered view -- proposes she was a daughter or sister of Thomas de Ingoldesthorpe, based on the fine at DG-I p. 325. The two identifications are not yet reconciled. By Katherine, William was father of Sir John de Gournay I (G27). <sup class="fn"><a href="#n4" id="ref-4">4</a></sup></div>
       </div>
     </div>
   </div>

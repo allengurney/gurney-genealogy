@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.5.0",
+    "version": "1.6.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-05-23",
+    "lastUpdated": "2026-05-24",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
@@ -1988,6 +1988,17 @@
       "validationPath": null,
       "notes": "Modern archaeological-topographical chapter. Frames Gournay-La Ferté-Gaillefontaine as a coordinated frontier-fortification triad at the head of the Bresle valley. References Orderic Vital [879] for the 1089 fortification by Gerard de Gournay for William II Rufus. Useful for G32 (1089 castle delivery) and G36 (Gournay fortification system context)."
     },
+    "palmer-perlustration-yarmouth-1872": {
+      "shortTitle": "Palmer, Perlustration of Great Yarmouth (1872)",
+      "citation": "Palmer, Charles John. The Perlustration of Great Yarmouth, with Gorleston and Southtown. 3 vols. Great Yarmouth: George Nall, 1872-1875.",
+      "archive": "Internet Archive / Google Books",
+      "url": "https://archive.org/details/perlustrationgr00palmgoog",
+      "corpusStatus": "partial",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Norfolk antiquarian survey. Dates the Caister-on-Sea manor's transfer into the Gournay family to the 1075-76 forfeiture redistribution after the East Anglian earls' revolt (Ralph de Gaël). Used for G33 (Hugh III's Norfolk barony cluster and the Caister/Cantley tithes given to the Saint-Hildevert chapter at Gournay-en-Bray) and as historical anchor for the otherwise-garbled 'Cardiff'/Norfolk death tradition at G34."
+    },
     "projet-conde-conquets-hue-gournay": {
       "shortTitle": "Projet ConDE, Conquets Hue de Gournay custom",
       "citation": "Projet ConDE, Universite de Caen Normandie. \"Coutumes et usages locaux des vingt quatre Paroisses, Hameaux & Villages... Conquets Hue de Gournay.\" Digital edition of the Norman custom-law passage.",
@@ -2449,6 +2460,215 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "Standard turn-of-the-20th-century surname etymology reference. The Gurney entry repeats the Norman-origin tradition (Gournai-en-Brai, two Hugh de Gournays at Hastings per Roman de Rou) and lists specimen medieval bearers from Rotuli Hundredorum 1273 (Milesenta fil. Hugh de Gorney co. Bedf.; John de Gurnay co. Norf.; Anselm de Gurney co. Glouc.; Robert de Gurnay co. Wilts., Hen. III - Edw. I), Kirby's Quest 1327 (John de Gorney co. Soms.), and one Norfolk clerical entry (Robert Gournay, rector of Hethel, co. Norf., 1438; abbreviation 'FF. v. 109' in Bardsley still to be resolved). Used in v52 only for the 1438 Hethel rector lead. Surname-etymology and Hastings-tradition material is already documented in the senior-line companion files (G33, G34) and the senior-baron-line topic file; no new prose is added for those."
+    },
+    "opendomesday-org": {
+      "shortTitle": "Open Domesday",
+      "citation": "Powell-Smith, Anna. Open Domesday: a modern digital edition of the Domesday Book (1086). University of Hull / opendomesday.org.",
+      "archive": "Open Domesday (opendomesday.org)",
+      "url": "https://opendomesday.org/",
+      "corpusStatus": "external",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Free online edition of the Domesday Book with searchable place, person, and tenant indexes. Used for verifying Hugh of Gournai's Essex Domesday holdings: Liston (sub-tenant Geoffrey Talbot), Fordham, Ardleigh -- see https://opendomesday.org/place/TL9228/fordham/. Complements primary-source citation `domesday-1086`."
+    },
+    "fmg-medlands-normacre": {
+      "shortTitle": "FMG MedLands -- Normandy (Cawley)",
+      "citation": "Cawley, Charles. Medieval Lands: a prosopography of medieval European noble and royal families, Normandy section (NORMANDY -- AUMALE, ROUEN, EU). Foundation for Medieval Genealogy.",
+      "archive": "fmg.ac (Foundation for Medieval Genealogy)",
+      "url": "https://fmg.ac/Projects/MedLands/normacre.htm",
+      "corpusStatus": "external",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Charles Cawley's encyclopaedia of medieval European noble families on the Foundation for Medieval Genealogy site. Contains the Seigneurs de Gournay section with bracketed primary-source citations [875]-[896] including Orderic Vitalis, Guillaume de Jumieges, Albert of Aix, Baudry of Dol, charters of William I and Henry II, the Chronicon Beccensis. Frequently referenced in research companions. URL above is the principal Normandy section; the Gournay subsection is at Chapter 3 Section E of that page."
+    },
+    "pattou-racines-histoire-gournay-2025": {
+      "shortTitle": "Pattou Racines Histoire -- Gournay",
+      "citation": "Pattou, Etienne. Seigneurs de Gournay (-en-Bray) & Gurney, Normandie, Angleterre. Racines & Histoire chart genealogy, last updated 2025-08-11.",
+      "archive": "racineshistoire.free.fr",
+      "url": "http://racineshistoire.free.fr/LGN/PDF/Gournay.pdf",
+      "corpusStatus": "external",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Etienne Pattou's chart-genealogy of the Gournay seigneurial line and its Norfolk and Somerset cadet branches. Independent of DG and of Cawley's MedLands; draws on Potin 1842, NRP-I 1852, and modern French scholarship. Companion chart referenced extensively in research companions for G31-G37. Note TLS-certificate issue when fetching via WebFetch (ERR_TLS_CERT_ALTNAME_INVALID on 2026-05-23); browser download works."
+    },
+    "history-of-parliament-online-gurney-1386-1421": {
+      "shortTitle": "HoP Online -- Gurney John d.1408",
+      "citation": "Roskell, J. S., L. Clark, and C. Rawcliffe, eds. The House of Commons 1386-1421. The History of Parliament Trust. Biography of GURNEY, John (d.1408), of Harpley and West Barsham, Norf.",
+      "archive": "historyofparliamentonline.org",
+      "url": "https://www.historyofparliamentonline.org/volume/1386-1421/member/gurney-john-1408",
+      "corpusStatus": "external",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Principal modern scholarly biography of Sir John Gurney (d. 5 Dec 1408), the collateral son of Edmund Gournay (G23) and Katherine de Wauncy. Corroborates Edmund G23's 1387 death, his Harpley/Hardingham/Saxthorpe-Loundhall holdings, the Wauncy West Barsham inheritance, and the Gurney-family establishment in Norfolk since the 12th century. Distinct from existing sourceId `hop-gurney`; retained because v54 citations reference this exact sourceId."
+    },
+    "wikipedia-en-hamelin-de-warenne": {
+      "shortTitle": "Wikipedia -- Hamelin de Warenne",
+      "citation": "English Wikipedia, \"Hamelin de Warenne, Earl of Surrey.\"",
+      "archive": "en.wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/Hamelin_de_Warenne,_Earl_of_Surrey",
+      "corpusStatus": "external",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Independent encyclopaedic biography of Hamelin Plantagenet (c. 1130 - 7 May 1202), Earl Warren/Surrey. Confirms illegitimate son of Geoffrey of Anjou; elder half-brother of King Henry II; married Isabel de Warenne, 4th Countess of Surrey, April 1164. Used for G29 (Matthew de Gournay) marriage-arranger citation. Wikipedia is a tertiary source but the article itself cites Wace, Robert of Torigni, and modern Anglo-Norman scholarship."
+    },
+    "wikipedia-fr-famille-de-gournay": {
+      "shortTitle": "Wikipedia FR -- Famille de Gournay",
+      "citation": "Wikipedia francais, \"Famille de Gournay.\"",
+      "archive": "fr.wikipedia.org",
+      "url": "https://fr.wikipedia.org/wiki/Famille_de_Gournay",
+      "corpusStatus": "external",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Modern French encyclopaedic summary of the Gournay seigneurial line. Notable for explicitly recording Leopold Delisle's critique of Daniel Gurney's 1848 early-generation claims (\"a vite ete critiquee par des erudits normands comme Leopold Delisle\"). Useful for non-DG parity at G37 and G36. The article carries the modern position rejecting Eudes as document-confirmed and treating Hugh I (G36) as tradition-only."
+    },
+    "richardson-sgm-soc-genealogy-medieval-2002": {
+      "shortTitle": "Richardson SGM 2002 -- Walter not son of Gerard",
+      "citation": "Richardson, Douglas. soc.genealogy.medieval (SGM) Usenet post, 11 September 2002. Corrected pedigree post archived in Google Groups thread cPiFbsyHAa8.",
+      "archive": "Google Groups soc.genealogy.medieval archive",
+      "url": "https://groups.google.com/g/soc.genealogy.medieval/c/cPiFbsyHAa8",
+      "corpusStatus": "external",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Douglas Richardson's SGM post argues, drawing on English-side feudal evidence, that Walter de Gournay (G31 in repo numbering) was not a son of Gerard de Gournay (G32) of the senior Norman baronial line. Richardson's pedigree starts from Hugh de Gournay III (G33) and treats earlier generations as tradition. The repo follows DG's contrary position; the dispute is documented at research/case-files/walter-de-gournay-as-son-of-gerard.md."
+    },
+    "powell-historie-cambria-1584": {
+      "shortTitle": "Powell -- Historie of Cambria (1584)",
+      "citation": "Powell, David. The Historie of Cambria, now called Wales: a part of the most famous Yland of Brytaine. London: Rafe Newberie and Henrie Denham, 1584. Continuing the unfinished English translation by Humphrey Llwyd of medieval Welsh chronicle material (principally Brut y Tywysogion). Standard modern re-edition: Wynne 1811.",
+      "archive": "Early English Books Online (STC 2nd ed. 20089) / British Library (G.6056); 1811 Wynne re-edition in print",
+      "url": "https://patp.us/reading/companions-of-the-conqueror/hugh-de-gournay",
+      "corpusStatus": "external",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Welsh-chronicle tradition dating the Cardiff engagement of Hugh de Gournay to 1094 (not 1074), between Cardiff and Brecknock, under William II Rufus's Welsh frontier campaigns. Powell's list of named wounded/killed is a near-perfect subset of the French Histoire et Chronique de Normandie list for the same engagement, with the dating offset twenty years. URL above is the patp.us mediating page where the verbatim 1094 entry was retrieved; direct verification against Powell 1584 or the 1811 Wynne re-edition is the next step."
+    },
+    "stirnet-gurney-pedigree": {
+      "shortTitle": "Stirnet -- Pedigree of the Gournays of Norfolk",
+      "citation": "Stirnet Genealogy. \"Pedigree of the Gournays of Norfolk.\" Tertiary compiled-pedigree database, citing as its source Daniel Gurney, Record of the House of Gournay, vol. 1, pp. 286-287, and the Heralds' Visitations of Norfolk 1563/1589/1613.",
+      "archive": "Stirnet.com (subscription / public-access tertiary database)",
+      "url": "https://www.stirnet.com/genie/data/british/gg/gurney1.php",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Tertiary compiled pedigree. Useful as a cross-reference but contains at least two demonstrable errors at the late-14th-century junior-Norfolk branch: it places Thomas Gournay I (G21) as a direct son of Edmund Gurney d. 1387 rather than as Robert's son and Sir John V's nephew of blood, and it lists 'Jeanne Gurney m. Osbert Mundeford of Hockwold' which is unsupported on the Mundeford side. Used in research/people/g22-robert-gournay-fact-sheet.research.md Items 04 and 05."
+    },
+    "feltwell-net-mundefords-of-feltwell": {
+      "shortTitle": "feltwell.net -- The Mundefords of Feltwell",
+      "citation": "\"The Mundefords of Feltwell.\" Feltwell parish history pages, feltwell.net. Compiled local-history account of the Mundeford family of Feltwell and Hockwold, Norfolk, naming each generation's head and wife.",
+      "archive": "feltwell.net parish-history website",
+      "url": "https://www.feltwell.net/feltwell2/written/mundeford2.htm",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Used as a Mundeford-side cross-check for Stirnet's unsupported claim that Jeanne Gurney (daughter of Edmund Gurney d. 1387) married Osbert Mundeford of Hockwold. Feltwell.net lists every named Osbert with his wife; no Gurney bride appears at any generation. Used in research/people/g22-robert-gournay-fact-sheet.research.md Item 04."
+    },
+    "gurney-drogo-pilgrimage-research-2026": {
+      "shortTitle": "Project research handoff -- Gerard de Gournay Drogo/pilgrimage/death window (2026)",
+      "citation": "Allen Gurney project. \"G32 Gerard de Gournay: Drogo, Edith, Pilgrimage, and Death-Date Window.\" AI-prepared research handoff, May 2026.",
+      "archive": "Project corpus_supplement",
+      "url": null,
+      "corpusStatus": "full",
+      "corpusPath": "sources/corpus_supplement/g32-gerard-de-gournay-drogo-edith-pilgrimage-death-window.md",
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "AI-prepared synthesis of Gerard de Gournay's later pilgrimage, the 8 May Beauvais obituary day, Edith de Warenne's remarriage to Drogo de Mouchy, the Henry I wardship sequence for Hugh de Gournay (IV), and the death-date bracket (8 May, after 1104 and before 1112; probably 1104 or 1105). Corrects the prior fact-sheet error placing Gerard's death 'before 1104' -- the St-Sauveur-en-Cotentin evidence is a terminus post quem. Cites Daniel Gurney 1845/1848 vol. 1 pp. 68-70, 111, 213-214, 216-217; Orderic Vitalis (Chibnall vols. 5 and 6); William of Tyre; Suger; Saint-Leu d'Esserent cartulary; Hurlock/Oldfield 2015; Park 2013; DHI Riley-Smith. Used as the primary anchor for the G32 fact sheet revision and the G32 research-companion §10-§14 additions."
+    },
+    "dhi-crusaders-leeds": {
+      "shortTitle": "DHI -- Database of Crusaders to the Holy Land, 1095-1149",
+      "citation": "Jonathan Riley-Smith et al. A Database of Crusaders to the Holy Land, 1095-1149. University of Leeds / Sheffield Humanities Research Institute (HRI).",
+      "archive": "DHI / University of Leeds",
+      "url": "https://www.dhi.ac.uk/crusaders/",
+      "corpusStatus": "external",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Online prosopography of First and early-Second Crusade participants. Gerard de Gournay-en-Bray (person id 287), Hugh II de Gournay-en-Bray (person id 1004), William III de Warenne (person id 1119), and the France country index identifying Drogo I de Mouchy-le-Chatel in Picardie/Oise as First Crusader and Hugh's stepfather. Used as a modern prosopographical synthesis pointing back to Orderic, Gesta Normannorum Ducum, and Van Houts; treat as derivative, not as an independent primary record."
+    },
+    "orderic-vitalis-chibnall-vol-5": {
+      "shortTitle": "Orderic Vitalis, Historia Aecclesiastica, ed./trans. Chibnall, vol. 5 (Books 9-10)",
+      "citation": "Orderic Vitalis. Historia Aecclesiastica. Edited and translated by Marjorie Chibnall. Vol. 5, Books 9-10. Oxford: Clarendon Press, 1975.",
+      "archive": "Oxford Medieval Texts (Clarendon Press); online mirror at dokumen.pub",
+      "url": "https://dokumen.pub/orderici-vitalis-historia-aecclesiastica-the-ecclesiastical-history-of-orderic-vitalis-vol-5-books-9-10-0198222327.html",
+      "corpusStatus": "external",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Standard modern critical edition (Latin + facing English). Vol. 5 (Books 9-10) covers First Crusade material relevant to Gerard de Gournay (pp. 34-35, 58-59) and Drogo de Monceio's participation among the First Crusaders. The Prévost 1838-1855 edition (already in the repo at orderic-vitalis-prevost-style) is the older standard; Chibnall is the modern reference."
+    },
+    "orderic-vitalis-chibnall-vol-6": {
+      "shortTitle": "Orderic Vitalis, Historia Aecclesiastica, ed./trans. Chibnall, vol. 6 (Books 11-13)",
+      "citation": "Orderic Vitalis. Historia Aecclesiastica. Edited and translated by Marjorie Chibnall. Vol. 6, Books 11-13. Oxford: Clarendon Press, 1978.",
+      "archive": "Oxford Medieval Texts (Clarendon Press); online mirror at dokumen.pub",
+      "url": "https://dokumen.pub/orderici-vitalis-historia-aecclesiastica-the-ecclesiastical-history-of-orderic-vitalis-vol-6-books-11-13-0198222424.html",
+      "corpusStatus": "external",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Vol. 6 (Books 11-13) covers the 1118 Norman rebellion narrative in which Orderic names Hugh son of Gerard de Gournay as raised by Henry I 'like a son,' armed as adult knight, restored to his paternal honor, with Drogo de Monchy named as Hugh's stepfather having governed the honor during Hugh's minority. The pre-eminent primary source for the Drogo/wardship sequence."
+    },
+    "william-of-tyre-historia": {
+      "shortTitle": "William of Tyre, Historia Rerum in Partibus Transmarinis Gestarum",
+      "citation": "William of Tyre. Historia Rerum in Partibus Transmarinis Gestarum, Liber VI. Latin Library text.",
+      "archive": "The Latin Library",
+      "url": "https://www.thelatinlibrary.com/williamtyre/6.html",
+      "corpusStatus": "external",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Twelfth-century crusade history. Names 'Drogo de Monci' in the Antioch context (First Crusade). Later source than Orderic but reinforces that Drogo I de Mouchy's crusader identity was independently attested in the chronicle tradition, not invented from his later marriage to Edith de Warenne."
+    },
+    "suger-vie-louis-le-gros": {
+      "shortTitle": "Suger, Vie de Louis le Gros",
+      "citation": "Suger. Vie de Louis le Gros. Remacle bilingual (French/Latin) edition.",
+      "archive": "Remacle.org",
+      "url": "https://remacle.org/bloodwolf/historiens/suger/vie1.htm",
+      "corpusStatus": "external",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Twelfth-century biography of Louis VI of France by Abbot Suger of Saint-Denis. Places Drogo de Mouchy (Monciacensis) in the early-1100s Montmorency/Beaumont conflict and records Louis's action for the church of Beauvais against Drogo. Anchors Drogo I de Mouchy in the Beauvais/Oise ecclesiastical orbit -- relevant because the Beauvais church preserved Gerard de Gournay's 8 May obituary, making the later Edith-Drogo remarriage regionally plausible."
+    },
+    "saint-leu-esserent-cartulary-muller": {
+      "shortTitle": "Cartulaire du prieure de Saint-Leu d'Esserent (1080-1538), ed. Muller",
+      "citation": "Eugene Muller, ed. Cartulaire du prieure de Saint-Leu d'Esserent (1080-1538). Pontoise: Societe historique du Vexin, 1900-1901.",
+      "archive": "Ecole nationale des chartes electronic edition",
+      "url": "https://elec.enc.sorbonne.fr/cartulaires/S-Leu-d-Esserent/",
+      "corpusStatus": "external",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Cartulary of the priory of Saint-Leu d'Esserent. Contains the editor's note distinguishing Dreux II de Mouchy (Second Crusader, died 1148) from his father Dreux I, and repeating the Jumieges-tradition sequence in which Gerard de Gournay sought Jerusalem with Edith, died on the journey, and Edith returned to marry Dreux de Mouchy. Used to disambiguate the two Drogos."
+    },
+    "hurlock-oldfield-crusading-pilgrimage-norman-2015": {
+      "shortTitle": "Hurlock and Oldfield, Crusading and Pilgrimage in the Norman World (2015)",
+      "citation": "Hurlock, Kathryn, and Paul Oldfield, eds. Crusading and Pilgrimage in the Norman World. Woodbridge: Boydell, 2015.",
+      "archive": "Boydell & Brewer / online mirror at dokumen.pub",
+      "url": "https://dokumen.pub/crusading-and-pilgrimage-in-the-norman-world-178327025x-9781783270255.html",
+      "corpusStatus": "external",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Modern edited volume on Norman crusading networks. Pages 92-93 identify Drogo II as son of Drogo I, Drogo I as First Crusader and stepfather of Hugh of Gournay, and Gerard as Hugh's natural father and First Crusader. Useful for the crusading-family-tradition framing across Gerard, Drogo I, Hugh, and Drogo II."
+    },
+    "park-royal-holloway-thesis-2013": {
+      "shortTitle": "Park, PhD thesis (Royal Holloway, 2013) -- crusading inheritance protection",
+      "citation": "C. Park. Under Our Protection, That of the Church and ... PhD thesis, Royal Holloway, University of London, 2013.",
+      "archive": "Royal Holloway research repository",
+      "url": "https://pure.royalholloway.ac.uk/files/17410925/phd2013parkdea.pdf",
+      "corpusStatus": "external",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "PhD thesis on crusader inheritance protection. Page 152 states Drogo II of Mouchy died on the Second Crusade in 1148 and discusses Louis VII's order to Suger to protect Drogo's inheritance during his absence. Used for the Drogo II death year and the Second Crusade connection."
     }
   }
 }

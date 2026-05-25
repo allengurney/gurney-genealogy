@@ -96,22 +96,16 @@ factsheet:
       <td>G25 in direct line. Married Jane de Lexham. Succeeded his uncle John (Rector of Harpley) in 1332. Living 27 Edward III (1353). <sup class="fn"><a href="#n8" id="ref-8">8</a></sup></td>
     </tr>
     <tr>
-      <td>John de Gurnay II (Rector of Harpley)</td>
-      <td>d. 1332</td>
-      <td>Katherine Baconsthorpe</td>
-      <td>Wait — correction: the Rector John is William III's brother (son of Sir John I), not his son. See Research Appendix. COLLATERAL relative. <sup class="fn"><a href="#n9" id="ref-9">9</a></sup></td>
-    </tr>
-    <tr>
-      <td>Edmund</td>
+      <td>Edmund de Gurnay</td>
       <td>fl. c. 1290s–1320s</td>
       <td>Katherine Baconsthorpe</td>
-      <td>Named in DG pedigree. Further details not documented in sources consulted. COLLATERAL. <sup class="fn"><a href="#n10" id="ref-10">10</a></sup></td>
+      <td>Named in DG pedigree p. 286 alongside John III. Further details not documented in sources consulted. COLLATERAL. <sup class="fn"><a href="#n10" id="ref-10">10</a></sup></td>
     </tr>
     <tr>
-      <td>William</td>
+      <td>William de Gurnay</td>
       <td>fl. c. 1290s–1320s</td>
       <td>Katherine Baconsthorpe</td>
-      <td>Named in DG pedigree. Further details not documented. COLLATERAL. <sup class="fn"><a href="#n10" id="ref-10b">10</a></sup></td>
+      <td>Named in DG pedigree p. 286 alongside John III. Further details not documented. COLLATERAL. <sup class="fn"><a href="#n10" id="ref-10b">10</a></sup></td>
     </tr>
   </tbody>
 </table>
@@ -136,12 +130,11 @@ The long-term result of the transfer was fortunate. When Rector John died in 133
   <li id="n1">Daniel Gurney, <em>Record</em> (1848), pedigree p. 286: "Sir WILLIAM DE GOURNAY, Knt. III. 1286, 14 Edw. I.; Lord of Gurnay's manor in Harpley, Hardingham, Hingham, &c." Son of Sir John I per pedigree continuity. <a class="citation-back" href="#ref-1">↩</a></li>
   <li id="n2">Attested 1286. Transferred estates 1294. Death date unknown. <a class="citation-back" href="#ref-2">↩</a></li>
   <li id="n3">Daniel Gurney, <em>Record</em> (1848), pedigree p. 286 as above. <a class="citation-back" href="#ref-3">↩</a></li>
-  <li id="n4">Daniel Gurney, <em>Record</em> (1848), pedigree p. 286: "KATHARINE, probably a Baconsthorpe" (for William II's wife); and for William III: "m. Katherine, dau. of Edmund Baconsthorpe." Daniel Gurney, <em>Record</em> (1848), p. 340: confirmed in context of the arms discussion. <a class="citation-back" href="#ref-4">↩</a></li>
+  <li id="n4">Daniel Gurney, <em>Record</em> (1848), pedigree p. 286: for William III, "m. Katherine, dau. of Edmund Baconsthorpe." DG p. 340: confirmed in context of the arms discussion. Independently corroborated by Blomefield, <em>Norfolk</em> vol. viii (Harpley entry, pp. 452–459) via British History Online: the 9 Edward II (1315/16) fine identifies John III (G25) as "(son of Catherine,)" -- naming William III's wife at the structured pedigree level. Source IDs: <code>dg-rec-pt1</code>, <code>blomefield-norfolk</code>. <a class="citation-back" href="#ref-4">↩</a></li>
   <li id="n5">Daniel Gurney, <em>Record</em> (1848), p. 339: "This instance of William de Gournay is the earliest on record of the use of the cross engrailed in a seal or document by any of the family; but this coat was borne by his father John de Gurney, as appears from an ancient roll of arms apparently cotemporary." <a class="citation-back" href="#ref-5">↩</a></li>
   <li id="n6">Daniel Gurney, <em>Record</em> (1848), p. 279: "William de Gournay was son of Sir John; he sold all his estates to his brother John de Gurnay, priest, rector of Harpley, who died in 1333 [sic — 1332 per pedigree], when John, his nephew (son of William), became his heir." Pedigree p. 286: "granted all his lands to his brother John, Rector of Harpley in 1294." <a class="citation-back" href="#ref-6">↩</a></li>
   <li id="n7">Daniel Gurney, <em>Record</em> (1848), p. 340, and pedigree p. 286. The Supplement (p. 786) notes: "From the wording of the fine given at p. 325, between William de Gurney II. and Thomas de Ingoldesthorpe, it is probable the former married Katharine, the daughter or sister of the latter" — suggesting the DG "probably a Baconsthorpe" inference for William II's wife may actually have been a separate inquiry. <a class="citation-back" href="#ref-7">↩</a></li>
   <li id="n8">Daniel Gurney, <em>Record</em> (1848), pedigree p. 286: "JOHN DE GURNEY, III. heir to his uncle John, Rector of Harpley, presented to that living in 1332; living 27 Edw. III." <a class="citation-back" href="#ref-8">↩</a></li>
-  <li id="n9">The Rector John is Sir John I's son (William III's brother), not William III's son. DG pedigree p. 286 is clear: Rector John and William III are siblings (both sons of Sir John I). The estates passed from William III → Rector John (his brother) → John III (his nephew, son of William III). See Research Appendix. <a class="citation-back" href="#ref-9">↩</a></li>
   <li id="n10">Daniel Gurney, <em>Record</em> (1848), pedigree p. 286: John III's siblings Edmund and William named; no further details. <a class="citation-back" href="#ref-10">↩</a></li>
 </ol>
 </section>

@@ -78,10 +78,17 @@ See `.claude/rules/citations.md`.
 - When a source-linked image, excerpt, or trustworthy associated metadata is supplied, write the finding directly.
 - Add a visible qualification only when the uncertainty materially changes the claim.
 
+### Continual improvement
+- When the user offers a critical correction or durable guidance, update the matching rule file in the same turn — no separate permission is required when the feedback itself is the rule.
+- Disclose the rule update plainly: which file, what changed, which feedback drove it.
+- While working a directed task, AI may correct narrow adjacent issues found in the same files (typos, broken anchors, acronym expansions, internal-mechanics vocabulary, citation placement) without separate permission, with disclosure.
+- See `.claude/rules/continual-improvement.md`.
+
 ## Related
 - `README.md`
 - `.claude/rules/repo-file-resolution.md`
 - `.claude/rules/research-writing-style.md`
+- `.claude/rules/continual-improvement.md`
 - `.claude/skills/familysearch-export-review/SKILL.md`
 - `.claude/skills/research-intake-prep/SKILL.md`
 - `.claude/skills/research-intake-apply-patch/SKILL.md`

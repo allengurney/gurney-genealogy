@@ -192,6 +192,20 @@ There was no "duché de Norwich" in the post-1066 English feudal scheme; what th
 
 The four traditions all transmit the same garbled memory: a Norman engagement in 1074–75 against a Scandinavian-led invasion, in which Hugh II was wounded, returned to Normandy, and died. The named details vary wildly (Wales / Norwich / "Norveck"; Canute / Conrad; Ralph de Gaël / Earls' Revolt obscured). Modern scholarship rejects the Cardiff specifically; the repo's framing is "wounded in an East Anglian engagement, traditionally remembered as 'Cardiff'."
 
+### 6.7 Welsh-Chronicle 1094 attestation -- Powell 1584
+
+A fifth tradition, textually independent of the four French/Norman/Lorraine traditions, places the same legendary content twenty years later, in 1094, on the Welsh frontier under William II Rufus. David Powell, *The Historie of Cambria, now called Wales* (London, 1584) -- continuing Humphrey Llwyd's English translation of medieval Welsh annal material (principally *Brut y Tywysogion*) -- records under the year 1094:
+
+> "About this time Roger Montgomery, Earl of Salop and Arundell, William Fitz-Eustace, Earl of Gloucester, Arnold de Harcourt and Neale le Vicount were slain between Cardiff and Brecknock by the Welshmen; also Walter Evereux, Earl of Sarum, and Hugh Earl Gourney were there hurt, and died after in Normandy."[^powell-1584-welsh-1094]
+
+The Powell name list is a near-perfect subset of the French *Histoire et Chronique de Normandie* (Rouen 1610) list at §6.1 of this companion, transposed to 1094 and a south-east Welsh setting (Cardiff-Brecknock): Roger of Montgomery, Néel le Vicomte, Arnoult de Harcourt, "Hue de Gournay" (wounded, dying in Normandy), and the Comte d'Évreux (wounded, dying in Normandy) all reappear. Powell uniquely glosses "Comte d'Évreux" as "Walter Evereux, Earl of Sarum" -- an Évreux/Salisbury confusion internal to the Welsh transmission; the French tradition has only the bare "Comte d'Évreux," which FMG [892] already flagged as historically unattested at any Évreux death in 1074.
+
+Powell's Welsh annal tradition and the French *Histoire et Chronique* Norman tradition are textually independent. Their convergence on the same name list at *different* dates is diagnostic: the legendary "Hugh wounded at a Welsh battle, died in Normandy" tale was free-floating, and each chronicle community attached it to the date most plausible in its own framing. The French chose 1074 (Earls' Revolt). The Welsh chose 1094 (Welsh revolt against William Rufus).
+
+**Effect on the repo position.** §6.6's tentative "1074-75 East Anglian engagement" framing was anchored by Palmer's *Perlustration of Yarmouth* (1872) dating the Caister forfeiture redistribution to 1075-76. That anchor remains. But Powell 1584 shows the East Anglian framing is *one* candidate host event, not the demonstrably correct one. The 1094 Welsh framing is the other principal candidate. The repo's framing is therefore best stated as: *the Cardiff narrative attaches a legendary tradition of Hugh II's mortal wounding to one of two historically plausible engagements -- the 1074-75 East Anglian Earls' Revolt or the 1093-95 Welsh frontier revolt under William II Rufus -- with no surviving documentary anchor strong enough to choose between them*. The chronological strain on the c. 985 birth-year framing is real either way (Hugh II would be c. 89 at the 1074 event, c. 109 at the 1094 event); the second is implausible for active combat, but Powell's text says "hurt, and died after in Normandy" -- survival-after-wounding remains consistent with any age, and Hugh III (G33) is independently documented from 1076 onwards as active head of the family in his father's stead.
+
+[^powell-1584-welsh-1094]: David Powell, *The Historie of Cambria, now called Wales: a part of the most famous Yland of Brytaine* (London: Rafe Newberie and Henrie Denham, 1584), continuing the unfinished English translation by Humphrey Llwyd of medieval Welsh chronicle material (principally *Brut y Tywysogion*). The passage is quoted in full at <https://patp.us/reading/companions-of-the-conqueror/hugh-de-gournay>. The Powell first edition is at Early English Books Online (STC 2nd ed. 20089) and at the British Library (shelfmark G.6056); the standard modern edition is the 1811 Wynne re-edition. Source ID: `powell-historie-cambria-1584`.
+
 ---
 
 ## 7. Wife — confirmed negative
@@ -251,6 +265,7 @@ Per the la Ferté charter logic of Renaud's three sons (Hugh, Gauthier, Raoul), 
 | Planché 1874, Hugh de Gournay / Giffard / Mortimer / Cardiff sections | `planche-conqueror-companions-1874` |
 | Palgrave 1864, Mortemer narrative | `palgrave-history-england-normandy-1864` |
 | Pattou *Racines Histoire* (2025-08-11) | `pattou-racines-histoire-gournay-2025` |
+| David Powell, *The Historie of Cambria, now called Wales* (London, 1584), continuing Humphrey Llwyd | `powell-historie-cambria-1584` |
 | FMG MedLands (Cawley), Hugues II section | `fmg-medlands-normacre` |
 | Potin 1842, pp. 70–71 (numbering), 94–105 (Hugues II chapter) | `dg-recherches-potin-1842` (proposed) |
 | NRP-I 1852 *Recherches…possessions* | `nrp-recherches-vol1-1852` (proposed) |

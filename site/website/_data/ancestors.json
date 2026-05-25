@@ -3781,8 +3781,14 @@
         "notes": "G25 in direct line"
       },
       {
-        "name": "John de Gournay II",
-        "notes": "Priest, Rector and Patron of Harpley; d. 1332. Received brother William's estates 1294. Buried Harpley chancel. COLLATERAL."
+        "name": "Edmund de Gurnay",
+        "dates": "fl. c. 1290s–1320s",
+        "notes": "Named in DG pedigree p. 286 alongside John III. COLLATERAL."
+      },
+      {
+        "name": "William de Gurnay",
+        "dates": "fl. c. 1290s–1320s",
+        "notes": "Named in DG pedigree p. 286 alongside John III. COLLATERAL."
       }
     ],
     "buttons": [
@@ -3878,6 +3884,10 @@
         "name": "Sir William de Gournay III",
         "dates": "fl. c. 1260–1300",
         "notes": "G26 in direct line"
+      },
+      {
+        "name": "John de Gurnay II",
+        "notes": "Priest, Rector and Patron of Harpley; d. 1332. Received brother William III's estates 1294 in exchange for a lifetime annuity; estates descended to nephew John III on Rector's death without heirs. Buried Harpley chancel. COLLATERAL."
       }
     ],
     "buttons": [
@@ -4447,6 +4457,10 @@
         "name": "Walter de Gournay",
         "dates": "fl. c. 1108–1154",
         "notes": "G31 in direct line. Youngest son. Ancestor of the entire Norfolk junior branch."
+      },
+      {
+        "name": "Gerard (eldest son)",
+        "notes": "Died vitae patris in 1104 per DG-I pedigree p. 277. Possibly at the siege of Nicaea (1097) -- DG's reading reconciles the conflicting '1097 Nicaea' death dates some secondary sources assign to the father. Not in FMG MedLands. COLLATERAL."
       },
       {
         "name": "Gundred de Gournay",
@@ -5082,6 +5096,11 @@
         "name": "Hugh de Gournay III",
         "dates": "c. 1020",
         "notes": "G33 in direct line"
+      },
+      {
+        "name": "Néel (Nigel) de Gournay",
+        "dates": "fl. 1066 – after 1086",
+        "notes": "Founder of the Somerset cadet line. Held Barrow-Gurney and Inglishcombe (Somerset) of the Bishop of Coutances at Domesday 1086 (Exon registry). Progenitor of Sir Thomas de Gournay (jailer of Edward II, 1327) and Sir Matthew of Crécy/Poitiers/Stoke-sub-Hamdon (b. 1310, d. 26 Sep 1406). Per Pattou Racines Histoire pp. 12-14. COLLATERAL."
       }
     ],
     "buttons": [
