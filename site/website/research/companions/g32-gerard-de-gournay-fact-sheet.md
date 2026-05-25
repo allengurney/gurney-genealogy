@@ -16,7 +16,7 @@ The full Phase-0 source-by-source cross-walks live in `sources/FS/LBGV-H99/asses
 - **Born** c. 1040–1050, Gournay-en-Bray. The 1082 charter signature for la Trinité de Caen is the chronological lower bound: Gerard must have been at least a young adult by 1082, so a birth before c. 1066 is required. DG and the repo use c. 1040; FS and Richardson via TNG say c. 1043; **Pattou's "~1073" is internally inconsistent with the 1082 attestation** (he would be 9) and should be treated as a chart-genealogy typesetting error.
 - **Father**: Hugh de Gournay III (G33). Verified by Orderic [879]–[880] which names *Gornacensis Girardus* and identifies him as *filius Basiliæ Girardi Fleitelli filiæ* (son of Basilea daughter of Gerard Flaitel) for the [1089] Écouché custody.
 - **Mother**: Basilea Flaitel.
-- **Wife**: Edith (Edive / Editha) de Warenne, daughter of William de Warenne 1st Earl of Surrey + his first wife Gundred. Marriage [1084/92] per FMG. The marriage assumption Edith was c. 12 at marriage is FMG's chronological estimate. Edith's birth: [1072/80]; death: after 1155.
+- **Wife**: Edith (Edive / Editha) de Warenne, daughter of William de Warenne 1st Earl of Surrey and his first wife Gundred, now best identified as sister of Gerbod the Fleming rather than as a daughter of William the Conqueror or Queen Matilda. Marriage [1084/92] per FMG. The marriage assumption Edith was c. 12 at marriage is FMG's chronological estimate. Edith's birth: [1072/80]; death: after 1155. See Section 2.7 for the Gundred parentage evidence.
 - **Possible first wife**: see §3 below.
 - **Died** **8 May, after 1104 and before 1112; probably 1104 or 1105**, on a second pilgrimage to the Holy Land with his wife Edith. The 1104 *terminus post quem* is secured by the St-Sauveur-en-Cotentin cartulary roll, which dates Gerard's confirmation of Payn of Elbeuf's donation to that year (DG 1845 p. 69, citing the original cartulary roll then in M. de Gerville of Valognes's possession). The earlier repo phrasing "before 1104" was backwards: St-Sauveur means Gerard was alive *in or about* 1104, so the death falls after. The 8 May day is preserved by the Beauvais church's anniversary list (Potin 1842 p. 124 / DG 1845 p. 68n.). The narrow 1104–1105 window inside the broader 1104–1112 bracket is supported by pilgrimage-duration comparators (see §11) and by the practical upper bound of Hugh IV's "full age" in 1112 (see §12).
 - **Edith's second husband**: Drogo (Dreux) de Mouchy / de Monceio — lord of Mouchy-le-Châtel and himself a First Crusader (see §10). Pattou's "Dreu III, seigneur de Monchy" appears to be a numbering preference; the man who married Edith is the First-Crusader Drogo I de Mouchy, identified across Orderic, William of Tyre, Suger, the Saint-Leu d'Esserent cartulary, and the DHI Database of Crusaders to the Holy Land. The son also named Drogo (Drogo II) was a Second Crusader who died in 1148.
@@ -75,7 +75,32 @@ The repo's earlier "Death date discrepancy" working note can now name the named-
 
 DG 1845, working from the same Latin (DG p. 70), translates: *"Giraldus tandem Hierusalem petens cum uxore sua Editha, in ipso itinere mortuus est"* — *"Giraldus, finally seeking Jerusalem with his wife Editha, died on the very journey."*
 
-### 2.7 St-Sauveur en Cotentin cartulary — the 1104 *terminus post quem*
+### 2.7 Edith's mother Gundred: parentage accounting
+
+**Best-current conclusion.** Edith de Warenne remains well supported as daughter of William de Warenne, 1st Earl of Surrey, and Gundred. Gundred should not be treated as a daughter of William the Conqueror or Queen Matilda. The best-supported identification is Gundred as sister of Gerbod the Fleming, briefly earl of Chester.
+
+**Direct G32 relevance.** The Gournay question only requires two steps: (1) Gerard's wife Edith was a Warenne; (2) Edith was a daughter of William de Warenne and Gundred. Guillaume de Jumièges gives the first step by calling Edith "sorore Willelmi comitis de Warenna" — sister of William, count of Warenne. Clay's *Early Yorkshire Charters*, vol. 8, pp. 6-7, gives the second step in a modern scholarly Warenne-charter edition: Edith/Ediva was daughter of William de Warenne and Gundreda, accompanied Gerard on the Jerusalem pilgrimage, then married Drew de Monchy.
+
+**Evidence for Gundred as sister of Gerbod.** Orderic Vitalis says William de Warenne had as wife Gundred, sister of Gerbod: "Gundredam sororem Gherbodi." The Hyde chronicle also places Gerbod and Gundred as siblings. Chris Phillips's source-document collection prints and contextualizes these passages, and Stewart Baldwin's Henry Project treats Gundred as a falsely attributed daughter of William the Conqueror and as sister of Gherbod/Gerbod.
+
+**Why the older royal-descent claim fails.** The positive case for making Gundred a daughter of William the Conqueror or Queen Matilda rests on weak Lewes material:
+
+- In a William I confirmation to Lewes, the phrase "filie mee" after Gundred appears in a later hand over an erasure. It cannot carry the weight of making Gundred the king's daughter.
+- A purported William de Warenne / Cluny charter appears to call Queen Matilda the mother of William de Warenne's wife, but Clay judged the charter spurious on stylistic grounds and because it contains statements contradicted by other evidence. Phillips summarizes Clay's conclusion that the charter was probably composed after 1201 and perhaps much later.
+- A Carlton/Lewes phrase can be read as Queen Matilda giving Carlton to Gundred, not as naming Gundred as Queen Matilda's daughter. Waters's reading, accepted in the later source criticism, removes the need for a mother-daughter relationship.
+- Later Lewes narrative pedigrees and cartulary notices calling Gundred daughter of the Conqueror are very late and internally problematic. One late notice also calls her countess of Surrey while placing her death before William de Warenne was made earl.
+
+**Anselm's letter is the strongest negative test.** Anselm objected to the proposed marriage of Gundred's son William de Warenne the younger to a daughter of Henry I because the pair were related in the fourth generation on one side and the sixth on the other. If Gundred were Henry I's sister or half-sister, the proposed bride and groom would have been first cousins. Anselm's stated objection therefore does not fit the royal-daughter theory.
+
+**How to treat Daniel Gurney.** Daniel Gurney repeats the older Warren-charter tradition at several points: Part I p. 27 says Edith was daughter of William de Warren by Gundred, "probably" daughter of William the Conqueror; the Part I pedigree p. 277 repeats Gundred as daughter of the Conqueror; and later notes explain that the claim rests chiefly on the Lewes Priory foundation material. Those passages should remain in the companion as a record of nineteenth-century reception and source transmission, not as the repo's adopted parentage.
+
+**How to treat Pattou.** Pattou's main Gournay chart entry identifies Edith as daughter of William I, earl of Surrey, and "Gondrée/Gundred de Chester," which aligns with the Gerbod/Chester identification. Pattou's marginal note making Hugh IV a nephew of Henry I conflicts with that main parentage and should be treated as an uncorrected survival of the older royal-descent theory, not as the controlling reading.
+
+**Repo consequence.** Edith's Warenne marriage remains important for Gerard's Norfolk endowment and for the social status of the Gournay children. It does not supply a William-the-Conqueror descent through Gundred.
+
+**Variant-name sweep within these sources.** The Henry Project William and Matilda pages and Phillips's Gerbod/Gundred source-document page were checked for Gournay/Gurney/Gourney/Gornay variant findings. They are parentage-evidence pages, not Gournay evidence pages, and no additional Gournay finding was found there. Clay's *Early Yorkshire Charters* vol. 8 remains the productive Gournay-specific source in this cluster: pp. 6-7 already support Edith/Ediva's marriage to Gerard, her Jerusalem pilgrimage, Gerard's death not earlier than 1104, her later Drew de Monchy marriage, and her daughter Gundreda's naming after grandmother Gundreda de Warenne.
+
+### 2.8 St-Sauveur en Cotentin cartulary — the 1104 *terminus post quem*
 
 DG 1845 p. 69 transcribes from M. de Gerville's then-extant Valognes original:
 
@@ -85,37 +110,37 @@ Translation: *"Payn of Guellebov, our monk, gave the land of Novavilla, which is
 
 DG: *"This donation is clearly made by the returned crusader in the lifetime of his lord, Gerard de Gournay, in the monastery itself…On the very same roll are two other grants to the abbey, to the last of which is the date 1104, in which year it is, therefore, evident that Gerard de Gournay was still living."*
 
-### 2.8 The Beauvais obituary — death-day commemoration
+### 2.9 The Beauvais obituary — death-day commemoration
 
 > "VIII Idus Maii ob. Girardus de Gornaco, cujus filius Hugo dedit nobis herbagium de Boimonte." (Potin 1842 p. 124, citing an "ancient obituary of the church of Beauvais"; reproduced verbatim in DG 1845 p. 68 footnote.)
 
 Translation: *"On the 8th day before the Ides of May [= 8 May], died Girardus of Gournay, whose son Hugo gave us the herbage of Boimonte."* The day (8 May) is documented; the year (1097 vs. before-1104) was disputed — DG himself argued in 1845 that the day is right but the year wrong as applied to the father, since Orderic places Gerard at Nicaea after 8 May 1097.
 
-### 2.9 [1181/89] — Henry II's Bec confirmation charter
+### 2.10 [1181/89] — Henry II's Bec confirmation charter
 
 > Henry II King of England confirmed the possessions of the abbey of Bec, including donations by "Hugonis de Gornaco et Girardi filii…Girardi de Gornaio et Basilie matris sue", by charter dated to [1181/89]. (FMG [885])
 
 Independent twelfth-century corroboration of the donation chain Hugh III → Gerard → Basilia.
 
-### 2.10 St-Wandrille charter — Gerard exercising seigneurial assent
+### 2.11 St-Wandrille charter — Gerard exercising seigneurial assent
 
 DG-Supp Note 17 (pp. 735–736) preserves the full Latin charter from the Chartulary of St-Wandrille (Caux archives Seine-Inférieure, f. 314, piece D, II, VI). Gerard is named as the lord whose assent (*annuente Girardo de Gournai*) was required for a land grant by Turchetillus, Willelmus, Godfridus, and "Hugo filius ejus" to the church of Saint-Wandrégisile at "la Corberere." The grantors and their heirs were admitted to the fraternity and society of the church, with right to enter as monks.
 
-### 2.11 Gerard's seal — physical evidence
+### 2.12 Gerard's seal — physical evidence
 
 DG-Supp Note 16 (p. 735): "Signum Girardi de Gornaco" preserved in the Cartulary of La Trinité de Rouen (ed. Deville, *Tome III de la collection des Cartulaires de France*, Charter No. 94). The charter itself has not been re-located by the repo; the cartulary edition is publicly accessible.
 
-### 2.12 c. 1125 — the William de Britolio dispute
+### 2.13 c. 1125 — the William de Britolio dispute
 
 DG-Supp Note 18 (p. 736) transcribes a passage from a c. 1125 treatise on the miracles of St Nicholas (Évreux MS. 132) describing a *discordia* between William de Britolio (William of Breteuil, lord of Pont-Saint-Pierre) and Gerard de Gournay over a rebel knight Gerard sheltered. The dispute escalated to the point where the inhabitants of the town feared their homes would be burned. (Source MS preserved at Bibliothèque d'Évreux.)
 
-### 2.13 [c. 1112/22] — Hugues IV's Bec confirmation naming the ancestor chain (Decorde 1861)
+### 2.14 [c. 1112/22] — Hugues IV's Bec confirmation naming the ancestor chain (Decorde 1861)
 
 Decorde preserves an early-twelfth-century confirmation, dated c. 1112 or 1122 in the local tradition he transmits, in which "Hugues de Gournay" — i.e., Hugues IV, Gerard's eldest son and successor in the senior barony — confirmed gifts to the Abbey of Bec made by "his ancestors Hugues and Basilie, and by Gérard, his father," and explicitly included the church of **Brémontier** and its tithes in that confirmation.[^decorde-hugues-iv-bec-confirmation]
 
-This sits a generation earlier than the [1181/89] Henry II royal confirmation already recorded in §2.9, and it is independent of it. Together the two confirmations document the same donation chain — Hugh III → Basilie → Gerard → continued patronage under Hugues IV — in two distinct twelfth-century attestations, one familial (c. 1112/22) and one royal (1181/89). For the direct-line argument this strengthens Gerard's middle-generation role in the Gournay-Bec patronage relationship and supplies the immediate documentary context for §2.9 Henry II's later wholesale confirmation.
+This sits a generation earlier than the [1181/89] Henry II royal confirmation already recorded in §2.10, and it is independent of it. Together the two confirmations document the same donation chain — Hugh III → Basilie → Gerard → continued patronage under Hugues IV — in two distinct twelfth-century attestations, one familial (c. 1112/22) and one royal (1181/89). For the direct-line argument this strengthens Gerard's middle-generation role in the Gournay-Bec patronage relationship and supplies the immediate documentary context for §2.10 Henry II's later wholesale confirmation.
 
-[^decorde-hugues-iv-bec-confirmation]: J.-E. Decorde, *Essai historique et archéologique sur le Canton de Gournay* (Paris: Derache and Didron; Rouen: Lebrument, 1861); deep-research synthesis at `sources/corpus_supplement/deep-research-report-decorde-essai-gournay-ancestors.md`. Decorde's local-tradition dating is c. 1112 or 1122; the c. 1180s Henry II confirmation at §2.9 above is a distinct, later event. Source ID: `decorde-essai-canton-gournay-1861`.
+[^decorde-hugues-iv-bec-confirmation]: J.-E. Decorde, *Essai historique et archéologique sur le Canton de Gournay* (Paris: Derache and Didron; Rouen: Lebrument, 1861); deep-research synthesis at `sources/corpus_supplement/deep-research-report-decorde-essai-gournay-ancestors.md`. Decorde's local-tradition dating is c. 1112 or 1122; the c. 1180s Henry II confirmation at §2.10 above is a distinct, later event. Source ID: `decorde-essai-canton-gournay-1861`.
 
 ---
 
@@ -169,7 +194,7 @@ The repo's existing narrative covers the Évreux–Conches private war and the W
 
 Translation: *"Girard de Gournay, born ~1073, died after 1104 (Palestine or Nicaea in Asia Minor?), lord of Gournay, supports Raoul de Tosny [Ralph II of Tosny] with Étienne d'Aumale [Stephen of Aumale] against Guillaume d'Évreux [William, Count of Évreux], crusader (1096), married 1) ? (possible mother of Amicie, wife of Richard Talbot), married 2?) between 1084 and 1092 Edith (Edive) de Warenne, born between 1072 and 1080, died after 1155 (daughter of Sir William I, earl of Surrey, and of Gondrée/Gundred de Chester; married 2) Dreu III, lord of Monchy) (richly endowed in Norfolk and Norwich)."*
 
-The "richement dotée en Norfolk & Norwich" places Edith's Norfolk endowment specifically. Pattou identifies Edith's mother as "Gondrée/Gundred de Chester" — i.e., sister of Gerbod the Fleming, 1st Earl of Chester. This matches modern scholarly consensus and rejects the older Warren-charters claim that Gundred was a daughter of William the Conqueror.
+The "richement dotée en Norfolk & Norwich" places Edith's Norfolk endowment specifically. Pattou identifies Edith's mother as "Gondrée/Gundred de Chester" — i.e., sister of Gerbod the Fleming, 1st Earl of Chester. This matches the modern scholarly reading followed here.
 
 **Pattou's marginal annotation** (p. 3, blue):
 
@@ -177,7 +202,7 @@ The "richement dotée en Norfolk & Norwich" places Edith's Norfolk endowment spe
 
 Translation: *"Through his mother Edith, Hugues IV de Gournay is the nephew of King Henry I of England."*
 
-This claim depends on the older view that Gundred was Conqueror's daughter — making Edith his granddaughter and Hugues IV great-grandnephew of Henry I. Modern Wikipedia and modern scholarship reject this descent. Pattou retains the older view; the repo follows the modern scholarly consensus.
+This marginal note conflicts with Pattou's own main-line parentage for Edith's mother. It appears to preserve the older Warenne/Lewes tradition that made Gundred a daughter of the Conqueror or of Queen Matilda. Do not adopt the marginal note as a relationship statement. The repo follows the source-critical reading in Clay, Baldwin, and Phillips: Gundred was sister of Gerbod the Fleming, not Henry I's sister.
 
 **The political alignment** per Pattou: Gerard supported Ralph II de Tosny (lord of Conches) and Stephen of Aumale against William, Count of Évreux. DG p. 67–68 places the conflict in 1090s and identifies Ralph de Toni's appeal to William Rufus as the trigger. The Heloise / Isabella feminine-feud framing (DG 1845 pp. 67–68) is colourful narrative but historical: Heloise was wife of William of Évreux, Isabella wife of Ralph of Conches, and the chronicler Orderic preserves the feud as the proximate cause of the war.
 
@@ -264,6 +289,12 @@ The bracket combines four pieces of evidence:
 | Day | Beauvais obituary: "VIII Idus Maii ob. Girardus de Gornaco" (Potin 1842 p. 124 / DG 1845 p. 68n.) | 8 May |
 | Year hint | DHI summary: "later pilgrimage in 1104" | Reinforces 1104–1105 window |
 
+**Independent modern scholarly confirmation** (added May 2026): Charles Travis Clay, ed., <em>Early Yorkshire Charters</em>, vol. 8: <em>The Honour of Warenne</em> (Yorkshire Archaeological Society Record Series, 1949), pp. 6–7, states without hedging:
+
+> "Subsequently Edith accompanied him on a pilgrimage to Jerusalem, on which he died not earlier than 1104; she then married Drew de Monchy, by whom she had a son Drew the younger."
+
+Same pages identify Edith as a daughter of William de Warenne 1st Earl of Surrey and Gundreda, and note that Edith named her own daughter Gundreda "after her grandmother Gundreda de Warenne." This corroborates: (1) the corrected "after 1104" reading of the death date; (2) the Drogo I (Edith's second husband) / Drogo II ("the younger" son) distinction; (3) Edith's presence on the pilgrimage; (4) the surviving daughter Gundred's naming.
+
 **Pilgrimage-duration analysis** — the closest western pilgrimage comparators of the era:
 
 - **Saewulf** sailed from Monopoli (Apulia) on 13 July 1102 and was on the return voyage from Jaffa on 17 May 1103. A roughly one-year round trip (Thomas Wright, ed., <em>Early Travels in Palestine</em>, 1848, Project Gutenberg).
@@ -307,8 +338,11 @@ Edith and Drogo I had a son also named Drogo (Drogo II / Dreux II de Mouchy-le-C
 
 - Saint-Leu d'Esserent cartulary (Muller ed., 1900–1901): note distinguishing Dreux II from his father Dreux I.
 - C. Park, PhD thesis (Royal Holloway, 2013), p. 152: Drogo II died on crusade in 1148; Louis VII ordered Suger to protect Drogo's inheritance during his absence.
+- **Primary source: <em>Recueil des historiens des Gaules et de la France</em>, tome 15 (1878 ed.), pp. 500–501, Epistolae Sugerii no. XLVII** (Chesne's edition: Epistola 48, p. 508). Louis VII to Suger of Saint-Denis, 1148: "<em>Ludovicus, Dei gratia Rex Francorum et Dux Aquitanorum, Sugerio, eadem gratia venerabili abbati S. Dionysii, salutem et gratiam. Super Reginaldo de Bulis, qui nobiscum ad Dei servitium et nostrum peragendum in Orientis partibus remansit, vobis mandamus quatinus terre sue, quam, defuncto fratre suo Manasse, jure patrimonii obtinere debet, et hominibus omnibus ad eum pertinentibus tamquam nostris propriis providentie curam adhibeatis; et si quis eos in aliquo infestare voluerit, vos pro posse vestro vestrum illis impertiamini auxilium. Super Drogone de Munci, qui mortuus est, similiter vobis mandamus quatinus hereditatem suam tamquam nostram propriam, ad nostram siquidem utilitatem, servari faciatis. Valete.</em>" Translation: *"Louis, by the grace of God King of the French and Duke of the Aquitanians, to Suger, by the same grace venerable abbot of Saint-Denis, greetings and grace. Concerning Reginald de Bulis, who remained with us in the East to perform God's service and ours, we order you to take provident care of his land, which he ought by right of patrimony to obtain on the death of his brother Manasses, and of all the men belonging to him, as if our own; and if anyone wishes to harm them in any way, you should provide them with your assistance as best you can. Concerning Drogo de Munci, who is dead, we likewise order you to keep his inheritance as if our own, indeed for our use, [and] preserve [it]. Farewell."* Editorial footnote (b) at the letter confirms Manasses de Bulis died in January 1148 ascending Mount Cadmus near Laodicea.
 - DHI Database of Crusaders to the Holy Land: Drogo II entry.
 - Hurlock and Oldfield 2015, pp. 92–93.
+
+**Additional finding from RHGF vol. 15:** the same volume contains Ivo of Chartres's letter CIX (c. 1107) condoling Geoffrey bishop of Beauvais about troubles caused by "Drogo de Monciaco" — i.e., **Drogo I** of Mouchy, then excommunicated. The editorial footnote (a) at this letter explicitly identifies "Drogoni de Monceio [de Monchy-le-Chatel]" and cross-references Suger's <em>Vita Ludovici Crassi</em> (RHGF tome 12, p. 413), where the young king Louis VI "by force of arms repressed Drogo, chiefly for injuries done to the church of Beauvais." This is a primary-source attestation that Drogo I was a documented antagonist of the Beauvais church in 1107 — the same Beauvais church that preserved Gerard de Gournay's 8 May obituary. The regional intersection between Gerard's commemoration site and Drogo's documented misbehaviour with that same church strengthens the case that the post-1104 Edith–Drogo marriage was a regional reattachment, not coincidence.
 
 Drogo II is not a Gournay by blood but he is half-brother to Hugh de Gournay (IV) through their mother Edith. The crusading-family pattern across three generations — Gerard (First Crusade, second pilgrimage death), Drogo I (First Crusade, stepfather, regional Beauvais/Oise figure), Drogo II (Second Crusade, died 1148), Hugh IV (Louis VII expedition 1147) — is one of the more striking continuities in the senior Gournay line.
 
@@ -326,13 +360,13 @@ Drogo II is not a Gournay by blood but he is half-brother to Hugh de Gournay (IV
 
 5. **Drogo I on Gerard's second pilgrimage remains unsupported.** Existing evidence places Drogo I as Edith's second husband after her return, not as a known fellow pilgrim on Gerard's fatal journey.
 
-6. **Highest-value next pulls** (to firm up the bracket):
-   - **St-Sauveur-en-Cotentin roll/cartulary**: determine whether Gerard is alive before or after 8 May 1104. Would tighten 1104 vs. 1105 question.
-   - **Van Houts, *Gesta Normannorum Ducum*, vol. 2, p. 214 and apparatus**: exact Latin and editorial dating/context for Gerard, Edith, and Drogo.
-   - **Early Yorkshire Charters, vol. 8, pp. 6–7**: verify Edith/Drogo/Warenne/Gournay relationship treatment.
-   - **Delisle and Berger, *Actes de Henri II*, vol. 1, no. 325**: Richardson reports it mentions "Edwa" corrected to Ediva — Edith's later English tenure.
-   - **Beauvais obituary source behind Potin/de la Mairie**: confirm whether any year was preserved in the original manuscript or only the day.
-   - **RHGF vol. 15, Louis VII/Suger letter no. 47**: primary support for Drogo II's 1148 death and inheritance protection.
+6. **Highest-value next pulls** (each tagged with online-availability per `.claude/rules/continual-improvement.md`):
+   - **St-Sauveur-en-Cotentin roll/cartulary** (the specific roll Gerville held at Valognes that Daniel Gurney 1845 cited) — **Not online**. The surviving Saint-Sauveur-le-Vicomte cartulary "Livre noir" (1201–1300) is at Archives départementales de la Manche, H 4838, with copy at BnF Lat. 17137; only partial editions exist (Delisle, "Une charte altérée…," <em>Annuaire de la Manche</em>, 1909). The 1104 roll Daniel Gurney used is not separately digitised. Would still tighten 1104 vs. 1105 if reachable in person.
+   - **Van Houts, *Gesta Normannorum Ducum*, vol. 2, p. 214 and apparatus** — **Not online (free)**. The Oxford Medieval Texts 1995 edition is behind the Oxford Scholarly Editions Online paywall; not on Internet Archive or HathiTrust. Library access required.
+   - **Early Yorkshire Charters, vol. 8, pp. 6–7** — **Available online** (Internet Archive: <https://archive.org/details/YASES6>). **Pursued May 2026; substantive finding landed at §11 above and in the G32 fact sheet footnote n2.** Clay 1949 directly states death "not earlier than 1104" and identifies the Drogo I/II distinction. Closed.
+   - **Delisle and Berger, *Actes de Henri II*, vol. 1, no. 325** — **Available online** (Internet Archive: <https://archive.org/details/recueildesactesd01grea>; Gallica). **Pursued May 2026 (user supplied PDF); both relevant acts located and landed.** Act CCCXXV (Delisle n° 196), before 1172–1173, confirms Mélisende de Gournay's dower at Gaillefontaine and in England, with the operative phrase "<em>omnem terram quam habuit mater Hugonis Edwa in Anglia</em>" — primary Latin royal-chancery attestation of "Edwa" = Edith de Warenne and her independent English landholding. A second bonus finding: act CCCCXXXIII (Delisle n° 289), 1166–1172/3 at Rouen, confirms the Abbey of Bec's holdings naming "Ex dono Hugonis de Gurnay [...] Ex dono Basilie de Gurnay [...] Et de dono Gerardi de Gornay, Lesingham" — third twelfth-century anchor for the Bec donation chain. Full extracted text at `sources/corpus_supplement/actes-henri-ii-delisle-berger-vol1-text.md`; PDF at `sources/media/recueildesactesd01grea.pdf`. Closed.
+   - **Beauvais obituary source behind Potin / de la Mairie** — **Not online** for the specific manuscript that preserved Gerard's 8 May entry. Leblond 1923 edited the obituaries of Saint-Nicolas and Saint-Michel de Beauvais (not the cathedral chapter). The cathedral chapter's medieval martyrologies with added obit notices are dispersed across BnF Latin holdings; a 14th-century calendar-obituary of Beauvais Cathedral was sold by Sotheby's in 1985 into a private collection. No single digital edition of the Beauvais cathedral obituary as a whole exists; locating the specific Gerard entry would require manuscript-level archival work.
+   - **RHGF vol. 15, Louis VII / Suger letter no. 47** — **Available online** (Internet Archive: <https://archive.org/details/sim_academie-des-inscriptions-et-belles-lettres-paris_1878_15>). **Pursued May 2026 (user supplied hOCR text and Internet Archive PDF); letter located and full Latin text landed.** Letter XLVII (RHGF pp. 500–501; Chesne's Epistola 48, p. 508), dated 1148, Louis VII to Suger: instructs Suger to preserve Drogo de Munci's inheritance after his death (almost certainly on the Second Crusade in 1148) and to protect Reginald de Bulis's land after his brother Manasses died in January 1148 ascending Mount Cadmus near Laodicea. The full Latin text and translation are landed in §13 above and abridged in G32 fact sheet footnote n13. Bonus finding from the same volume: Ivo of Chartres's letter CIX (c. 1107) documents Drogo I of Mouchy as excommunicated for actions against the Beauvais church — the same Beauvais church that preserved Gerard's 8 May obituary, strengthening the regional-reattachment reading of the Edith–Drogo remarriage. Closed. The corrupt Gallica `bpt6k501337.pdf` originally supplied was set aside (xref table unreadable); the Internet Archive `sim_academie-...` PDF and accompanying hOCR text were used instead and are now repo-canonical at `sources/media/rhgf-vol15-1878.pdf` and `sources/corpus_supplement/rhgf-vol15-1878-hocr-text.md`.
 
 ---
 
@@ -369,6 +403,9 @@ Drogo II is not a Gournay by blood but he is half-brother to Hugh de Gournay (IV
 | Richardson SGM 2002 (11 Sep), *Royal Ancestry* III pp. 62, 92–93 (via TNG) | `richardson-royal-ancestry-v3` / `richardson-sgm-2002` |
 | FMG MedLands (Cawley), Hugues IV / Gerard sections | `fmg-medlands-normacre` |
 | Pattou *Racines Histoire* (last update 2025-08-11) | `pattou-racines-histoire-gournay-2025` |
+| Stewart Baldwin, The Henry Project, William "the Conqueror" page — Gundred treated as falsely attributed daughter and as sister of Gherbod/Gerbod | `henry-project-william-conqueror-gundred` |
+| Stewart Baldwin, The Henry Project, Matilda of Flanders page — detailed source-critical discussion of Lewes charter problems and Anselm letter | `henry-project-matilda-flanders-gundred` |
+| Chris Phillips, "The family of Gerbod and Gundred: documents," *Some Notes on Medieval English Genealogy* | `medievalgenealogy-gerbod-gundred-documents` |
 | Geni profile, Pam Wilson curator note 2015; Palmer *Perlustration of Yarmouth* 1872; R Green; R.B. Stewart | (URLs) |
 | Potin 1842 *Recherches…ville de Gournay*, pp. 124, 110, 116 | `dg-recherches-potin-1842` (proposed) |
 | NRP-I 1852 *Recherches…possessions des sires*, p. 80 | `nrp-recherches-vol1-1852` (proposed) |
@@ -392,3 +429,6 @@ Drogo II is not a Gournay by blood but he is half-brother to Hugh de Gournay (IV
 | Eugène Muller, ed., *Cartulaire du prieuré de Saint-Leu d'Esserent (1080–1538)* (Pontoise, 1900–1901) | `saint-leu-esserent-cartulary-muller` |
 | Hurlock and Oldfield, eds., *Crusading and Pilgrimage in the Norman World* (Boydell, 2015) | `hurlock-oldfield-crusading-pilgrimage-norman-2015` |
 | C. Park, PhD thesis, Royal Holloway, *Under Our Protection, That of the Church and...* (2013) | `park-royal-holloway-thesis-2013` |
+| Clay, Charles Travis, ed., *Early Yorkshire Charters*, vol. 8: *The Honour of Warenne* (1949), pp. 6–7 — pursued May 2026 via archive.org/details/YASES6; direct quotation landed at §11 | `early-yorkshire-charters-vol-8-clay-1949` |
+| Delisle, Léopold, and Élie Berger, eds., *Recueil des actes de Henri II*, vol. 1 (1916) — acts CCCXXV and CCCCXXXIII; pursued May 2026 (user-supplied PDF); landed at fact-sheet n4 and n6 | `recueil-actes-henri-ii-delisle-berger-vol-1` |
+| *Recueil des historiens des Gaules et de la France*, tome 15 (1878 ed.) — Epistolae Sugerii no. XLVII (Louis VII to Suger, 1148, on Drogo de Munci's death); also Ivo of Chartres letter CIX on Drogo I and Beauvais. Pursued May 2026 (user-supplied hOCR + IA PDF); landed at §13 above and at fact-sheet n13 | `rhgf-vol-15-1878` |

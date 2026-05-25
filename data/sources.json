@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.6.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-05-24",
+    "lastUpdated": "2026-05-25",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
@@ -1680,6 +1680,28 @@
       "validationPath": "sources/validations/bho-livery-haberdashers-gournay-charity.md",
       "notes": "Charity Commission description of Richard Gournay's 300 pound Haberdashers' Company loan charity. Relevant to London Gournay/Gurney civic and mercantile context; identity relationship unresolved."
     },
+    "bho-port-trade-early-elizabethan-london-richard-gurney-1567-8": {
+      "shortTitle": "BHO - London Port Book 1567-8, Richard Gurney",
+      "citation": "Dietz, Brian, ed. The Port and Trade of Early Elizabethan London: Documents. London Record Society, vol. 8. London, 1972. British History Online.",
+      "archive": "British History Online",
+      "url": "https://www.british-history.ac.uk/london-record-soc/vol8/pp168-195",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/bho-port-trade-early-elizabethan-london-richard-gurney-1567-8.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/bho-port-trade-early-elizabethan-london-richard-gurney-1567-8.md",
+      "notes": "Index and selected 1568 London port-book entries for Richard Gurney, haberdasher. Indexed references include entries 13, 28, 510, 557, 563, 564, 583, 593, 617, 728 bis, 741, and 754. Selected May-July 1568 entries show Richard repeatedly importing Baltic/Danzig flax and related goods, plus Spanish iron and eels. Useful as pre-1581 London Gurney/Gournay mercantile context near the later Robert Gourney of Old Change and the Haberdashers' Gournay charity; no kinship to Robert or the direct line established."
+    },
+    "bho-beaven-aldermen-richard-gourney-1589-1597": {
+      "shortTitle": "BHO - Beaven aldermen, Richard Gourney",
+      "citation": "Beaven, Alfred P. \"Chronological list of aldermen: 1501-1600.\" In The Aldermen of the City of London Temp. Henry III - 1912. London, 1908. British History Online.",
+      "archive": "British History Online",
+      "url": "https://www.british-history.ac.uk/no-series/london-aldermen/hen3-1912/pp20-47",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/bho-beaven-aldermen-richard-gourney-1589-1597.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/bho-beaven-aldermen-richard-gourney-1589-1597.md",
+      "notes": "Chronological aldermen entry for Richard Gourney, Haberdasher: alderman for Portsoken 1589-1594 and Bridge 1594-1597; Sheriff 1589-1590; Auditor 1587-1589; Master of the Haberdashers' Company 1589-1590 and 1596-1597; died 5 March 1597; PCC will 35 Cobham dated 15 October 1596 and proved 8 April 1597. High-value identifier for the London Richard Gurney/Gourney haberdasher cluster; likely the same civic/mercantile figure as the 1567-1568 port-book haberdasher, but kinship to Robert Gourney of Old Change remains unproved."
+    },
     "bho-ipm-edward-iii-file31-gournay-harpetree": {
       "shortTitle": "BHO IPM Edward III File 31 - Thomas Gournay of Harpetree",
       "citation": "\"Inquisitions Post Mortem, Edward III, File 31.\" Calendar of Inquisitions Post Mortem, vol. 7. British History Online.",
@@ -2494,6 +2516,39 @@
       "validationPath": null,
       "notes": "Etienne Pattou's chart-genealogy of the Gournay seigneurial line and its Norfolk and Somerset cadet branches. Independent of DG and of Cawley's MedLands; draws on Potin 1842, NRP-I 1852, and modern French scholarship. Companion chart referenced extensively in research companions for G31-G37. Note TLS-certificate issue when fetching via WebFetch (ERR_TLS_CERT_ALTNAME_INVALID on 2026-05-23); browser download works."
     },
+    "henry-project-william-conqueror-gundred": {
+      "shortTitle": "Henry Project - William the Conqueror / Gundred",
+      "citation": "Baldwin, Stewart. The Henry Project: The Ancestors of King Henry II of England, William \"the Conqueror\" page. American Society of Genealogists.",
+      "archive": "fasg.org / The Henry Project",
+      "url": "https://fasg.org/projects/henryproject/data/willi001.htm",
+      "corpusStatus": "external",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Modern source-critical prosopography page identifying Gundred, wife of William de Warenne, as a falsely attributed daughter of William the Conqueror and instead as sister of Gherbod/Gerbod, earl of Chester. Used in G32 research companion to correct Edith de Warenne's maternal ancestry and remove the rejected Conqueror-descent claim from the fact sheet."
+    },
+    "henry-project-matilda-flanders-gundred": {
+      "shortTitle": "Henry Project - Matilda of Flanders / Gundred",
+      "citation": "Baldwin, Stewart. The Henry Project: The Ancestors of King Henry II of England, Matilda of Flanders page. American Society of Genealogists.",
+      "archive": "fasg.org / The Henry Project",
+      "url": "https://fasg.org/projects/henryproject/data/matil000.htm",
+      "corpusStatus": "external",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Detailed source-critical discussion rejecting Gundred as a daughter of Queen Matilda or William the Conqueror. Summarizes the late/interpolated Lewes evidence, the spurious Warenne charter, the Carlton wording, Orderic/Hyde evidence for the Gerbod sibling relationship, and Anselm's letter about William de Warenne the younger's proposed marriage to Henry I's daughter."
+    },
+    "medievalgenealogy-gerbod-gundred-documents": {
+      "shortTitle": "MedievalGenealogy.org.uk - Gerbod and Gundred documents",
+      "citation": "Phillips, Chris. \"The family of Gerbod and Gundred: documents.\" Some Notes on Medieval English Genealogy.",
+      "archive": "medievalgenealogy.org.uk",
+      "url": "https://www.medievalgenealogy.org.uk/families/gundred/gundocs.shtml",
+      "corpusStatus": "external",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Source-document collection for Gerbod, Gundred, and the early Warenne/Lewes evidence. Includes Orderic Vitalis naming Gundred as sister of Gerbod; Lewes Priory charter extracts; discussion of the later 'filie mee' insertion, the spurious Warenne/Cluny charter, the Carlton wording, Anselm's letter, late Lewes narrative pedigrees, and Clay's analysis in Early Yorkshire Charters vol. 8."
+    },
     "history-of-parliament-online-gurney-1386-1421": {
       "shortTitle": "HoP Online -- Gurney John d.1408",
       "citation": "Roskell, J. S., L. Clark, and C. Rawcliffe, eds. The House of Commons 1386-1421. The History of Parliament Trust. Biography of GURNEY, John (d.1408), of Harpley and West Barsham, Norf.",
@@ -2670,6 +2725,28 @@
       "validationPath": null,
       "notes": "PhD thesis on crusader inheritance protection. Page 152 states Drogo II of Mouchy died on the Second Crusade in 1148 and discusses Louis VII's order to Suger to protect Drogo's inheritance during his absence. Used for the Drogo II death year and the Second Crusade connection."
     },
+    "rhgf-vol-15-1878": {
+      "shortTitle": "Recueil des historiens des Gaules et de la France, tome 15 (1878 ed.)",
+      "citation": "Recueil des historiens des Gaules et de la France. Tome 15. Edited by Dom Martin Bouquet and continued under the direction of Léopold Delisle. Paris: Imprimerie Nationale, 1878 [new edition; original 18th-c. compilation by Dom Bouquet et al.]. Académie des Inscriptions et Belles-Lettres.",
+      "archive": "Internet Archive (sim_academie-des-inscriptions-et-belles-lettres-paris_1878_15); also Gallica (bpt6k501337)",
+      "url": "https://archive.org/details/sim_academie-des-inscriptions-et-belles-lettres-paris_1878_15",
+      "corpusStatus": "full",
+      "corpusPath": "sources/corpus_supplement/rhgf-vol15-1878-hocr-text.md",
+      "mediaPath": "sources/media/rhgf-vol15-1878.pdf",
+      "validationPath": null,
+      "notes": "Standard scholarly compilation of source documents for the reigns of Philippe I, Louis VI le Gros, and Louis VII le Jeune (c. 1060-1180). Tome 15 contains the EPISTOLAE SUGERII ABBATIS S. DIONYSII section (starting RHGF p. 483). Letter XLVII (Louis VII to Suger, dated 1148; Chesne's edition: Suger Epistola 48, p. 508) is the primary source for Drogo de Mouchy's death on the Second Crusade: 'Super Drogone de Munci, qui mortuus est, similiter vobis mandamus quatinus hereditatem suam tamquam nostram propriam, ad nostram siquidem utilitatem, servari faciatis' -- 'Concerning Drogo de Munci, who is dead, we likewise order you to keep his inheritance as if our own, indeed for our use.' The same letter directs Suger to protect the patrimony of Reginald de Bulis (still in the East). Footnote (b) at this letter confirms Manasses de Bulis 'died in January 1148 ascending Mount Cadmus near Laodicea' on Second Crusade. Letter XXXIX (Chesne 39) on RHGF p. 496 provides additional context. The volume also contains Ivo of Chartres's letter CIX (c. 1107) condoling the Beauvais church about troubles caused by 'Drogo de Monciaco' (Drogo I, then excommunicated), with editorial footnote linking him to Drogo de Monchy-le-Châtel. Full extracted text at sources/corpus_supplement/rhgf-vol15-1878-hocr-text.md."
+    },
+    "recueil-actes-henri-ii-delisle-berger-vol-1": {
+      "shortTitle": "Recueil des actes de Henri II, Delisle/Berger, vol. 1 (1916)",
+      "citation": "Delisle, Léopold, and Élie Berger, eds. Recueil des actes de Henri II, roi d'Angleterre et duc de Normandie, concernant les provinces françaises et les affaires de France. Vol. 1. Paris: Imprimerie nationale; librairie C. Klincksieck, 1916.",
+      "archive": "Internet Archive (recueildesactesd01grea); also Gallica",
+      "url": "https://archive.org/details/recueildesactesd01grea",
+      "corpusStatus": "full",
+      "corpusPath": "sources/corpus_supplement/actes-henri-ii-delisle-berger-vol1-text.md",
+      "mediaPath": "sources/media/recueildesactesd01grea.pdf",
+      "validationPath": null,
+      "notes": "Posthumous edition of Delisle's collection of Henry II's acts concerning the French provinces, completed by Élie Berger. Tome 1 covers acts I-CCCC and beyond from c. 1154 onward. Key entries for the Gournay direct line: (a) Act CCCXXV (Delisle n° 196), before 1172-1173 -- royal confirmation of Mélisende de Gournay's dower at Gaillefontaine and in England, including 'omnem terram quam habuit mater Hugonis Edwa in Anglia' (all the land that Hugh's mother Edwa had in England). This is the Latin royal-chancery attestation of 'Edwa' = Edith de Warenne and confirms her independent English landholding. Original lost; the act survives in transcription via Daniel Gurney, Record, vol. 1, p. 215. (b) Act CCCCXXXIII (Delisle n° 289), 1166-1172/3 at Rouen -- royal confirmation of the Abbey of Bec's holdings, listing gifts including 'Ex dono Hugonis de Gurnay' [Hugh III], 'Ex dono Basilie de Gurnay' [Basilia, Hugh III's wife], and 'Et de dono Gerardi de Gornay, Lesingham' [Lessingham, Norfolk, given by Gerard de Gournay G32]. Primary-source attestation of the three-generation Bec donation chain; sibling to the [1181/89] confirmation already cited via FMG [885]. Full extracted text at sources/corpus_supplement/actes-henri-ii-delisle-berger-vol1-text.md."
+    },
     "early-yorkshire-charters-vol-8-clay-1949": {
       "shortTitle": "Early Yorkshire Charters, vol. 8: The Honour of Warenne (Clay 1949)",
       "citation": "Clay, Charles Travis, ed. Early Yorkshire Charters, vol. 8: The Honour of Warenne. Yorkshire Archaeological Society Record Series, extra series 6. 1949. Reprinted: Cambridge Library Collection, Cambridge University Press, 2013.",
@@ -2679,7 +2756,7 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Modern scholarly edition of charters relating to the honour of Warenne. Pages 6-7 give an independent scholarly statement of Edith / Ediva de Warenne's two marriages: (1) Gerard de Gournay, on whose Jerusalem pilgrimage 'he died not earlier than 1104'; (2) 'Drew de Monchy, by whom she had a son Drew the younger.' This is the strongest modern third-party confirmation of the corrected G32 chronology (death after 1104, not before), the Drogo I/Drogo II distinction, and Edith's role on the pilgrimage. Also notes that Edith named her daughter Gundreda after her grandmother Gundreda de Warenne."
+      "notes": "Modern scholarly edition of charters relating to the honour of Warenne. Pages 6-7 give an independent scholarly statement of Edith / Ediva de Warenne's two marriages: (1) Gerard de Gournay, on whose Jerusalem pilgrimage 'he died not earlier than 1104'; (2) 'Drew de Monchy, by whom she had a son Drew the younger.' This is the strongest modern third-party confirmation of the corrected G32 chronology (death after 1104, not before), the Drogo I/Drogo II distinction, Edith's role on the pilgrimage, and Edith's placement as daughter of William de Warenne and Gundreda. Also notes that Edith named her daughter Gundreda after her grandmother Gundreda de Warenne. Pages 40-46 / 50-62 are also relevant to the Gundred parentage controversy, including the Lewes evidence, the Gerbod relationship, and the source-critical rejection of the older royal-descent theory."
     }
   }
 }

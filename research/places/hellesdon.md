@@ -16,6 +16,12 @@ The key fact to preserve is that the Gurney connection here is mediated through 
 
 This is important because the family history in the late fourteenth and early fifteenth centuries is full of similar property movements by marriage: **Wauncy**, **Heylesdon**, later **Calthorpe**, **Heydon**, and **Lovell**. Hellesdon belongs to that same pattern, even if the record is lighter here than in places like West Barsham or Great Ellingham. [West Barsham file] [Great Ellingham file]
 
+### Primary-source attestation (City of London, 1385–1392)
+
+The marriage and inheritance are documented directly in the *Calendar of the Plea and Memoranda Rolls of the City of London* (Roll A 27, membrane 21). John de Heylesdon, mercer of London, died by mid-1385 leaving £400 by will to his two orphan daughters Alice and Margaret. The City Chamberlain Richard Odyham arrested £178 16s ½d on 13 October 1384 in the hands of Robert Harengeye, mercer, who had bought 42 hundreds and 32½ ells of "Westvale large" at 50s the hundred and 48 hundreds and 90 ells of "Pitlyng large" at 30s the hundred from Heylesdon's executors on 15 August 1384. On 16 June 1385 Harengeye acknowledged the debt, entered into a recognisance for payment, and John Fressh stood surety. The orphans' fund was held in the City Chamber. The testator had directed that if one daughter died under age, £100 of her share should pass to her sister; Margaret so died, and **"John Gournay who had married Alice the other sister came before the Mayor and Aldermen on 27 Nov. 1392 and acknowledged receipt of £300 from John Chircheman."**[^letter-book-h-gurney-heylesdon-1392]
+
+This puts firm chronology and substance on the marriage: Sir John Gurney V was married to Alice Heylesdon and receiving the augmented £300 portion by 27 November 1392, with her father a wealthy London mercer rather than only a Norfolk landholder. The supporting City actors named — Richard Odyham (Chamberlain), John Chircheman, Thomas Rolf (skinner), Robert Harengeye and John Fressh (mercers) — situate the Heylesdon-Gurney match inside the late-fourteenth-century London mercantile network as well as the Norfolk Hellesdon manor.
+
 ## Norwich context
 
 Because Hellesdon stands so close to Norwich, it also has contextual value beyond the inheritance itself. The later medieval Gurneys were deeply involved in Norwich-area legal, ecclesiastical, and property networks. **Edmund Gournay (G23)** had major legal and administrative prominence in Norfolk and Norwich, and the broader family maintained urban and near-urban interests around the city. Hellesdon therefore helps place the collateral branch within the same **Norfolk–Norwich world** rather than in a wholly separate rural sphere. [Edmund G23 companion]
@@ -28,9 +34,9 @@ Hellesdon is a good example of why the place library needs to preserve **collate
 
 ## Open items
 
-- [ ] Pull the specific DG passage or pedigree note naming Alice Heylesdon and the Hellesdon connection directly into this file.
 - [ ] Check Blomefield's Hellesdon entry for any surviving Heylesdon or Gurney descent detail.
 - [ ] Determine whether the relevant property was the principal manor, a moiety, or a smaller local tenement.
+- [ ] Trace whether John de Heylesdon, mercer of London (d. by 1385), can be linked back to the Norfolk Hellesdon family, and whether Alice's £300+ London portion carried any Norfolk manorial inheritance with it.
 
 ## Sources
 
@@ -39,6 +45,8 @@ Hellesdon is a good example of why the place library needs to preserve **collate
 - `ancestors v23.json` / normalized place layer for the Alice Heylesdon inheritance note.
 - `research/places/west-barsham.md`
 - `research/places/great-ellingham.md`
+
+[^letter-book-h-gurney-heylesdon-1392]: A. H. Thomas, ed., ["Roll A 27: (ii) 1385–86,"](https://www.british-history.ac.uk/plea-memoranda-rolls/vol3/pp84-125) membrane 21, in *Calendar of the Plea and Memoranda Rolls of the City of London*, vol. 3, *1381–1412* (London, 1932), pp. 84–125, British History Online, accessed 25 May 2026. The bill was brought by Richard Odyham, Chamberlain of the City, on 16 June 1385; John Gurney's 27 November 1392 acknowledgement of receipt of £300 from John Chircheman is recorded as a later addition to the same entry.
 
 ## Crosslinks
 
