@@ -504,6 +504,18 @@
     "notes": "Bundled index-only false-positive/comparator leads. Use only as leads until original images are retrieved. The All Hallows Bread Street 1600 Robart Grene item is geographically and chronologically the most interesting of the three; the Whitechapel item is low value for Candidate D."
   },
   {
+    "sourceId": "saint-leu-esserent-cartulary-muller",
+    "shortTitle": "Cartulaire du prieure de Saint-Leu d'Esserent (1080-1538), ed. Muller",
+    "citation": "Eugene Muller, ed. Cartulaire du prieure de Saint-Leu d'Esserent (1080-1538). Pontoise: Societe historique du Vexin, 1900-1901.",
+    "archive": "Ecole nationale des chartes electronic edition",
+    "url": "https://elec.enc.sorbonne.fr/cartulaires/S-Leu-d-Esserent/",
+    "corpusStatus": "external",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Cartulary of the priory of Saint-Leu d'Esserent. Contains the editor's note distinguishing Dreux II de Mouchy (Second Crusader, died 1148) from his father Dreux I, and repeating the Jumieges-tradition sequence in which Gerard de Gournay sought Jerusalem with Edith, died on the journey, and Edith returned to marry Dreux de Mouchy. Used to disambiguate the two Drogos."
+  },
+  {
     "sourceId": "chronicon-beccensis",
     "shortTitle": "Chronicon Beccensis Abbatiæ",
     "citation": "Chronicon Beccensis Abbatiæ (Chronicle of Bec Abbey).",
@@ -658,6 +670,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Rye's additions to the Supplement. Distinct from rye-norfolk-antiquarian (Rye's separate 1893 article). Text extraction pending."
+  },
+  {
+    "sourceId": "dhi-crusaders-leeds",
+    "shortTitle": "DHI -- Database of Crusaders to the Holy Land, 1095-1149",
+    "citation": "Jonathan Riley-Smith et al. A Database of Crusaders to the Holy Land, 1095-1149. University of Leeds / Sheffield Humanities Research Institute (HRI).",
+    "archive": "DHI / University of Leeds",
+    "url": "https://www.dhi.ac.uk/crusaders/",
+    "corpusStatus": "external",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Online prosopography of First and early-Second Crusade participants. Gerard de Gournay-en-Bray (person id 287), Hugh II de Gournay-en-Bray (person id 1004), William III de Warenne (person id 1119), and the France country index identifying Drogo I de Mouchy-le-Chatel in Picardie/Oise as First Crusader and Hugh's stepfather. Used as a modern prosopographical synthesis pointing back to Orderic, Gesta Normannorum Ducum, and Van Houts; treat as derivative, not as an independent primary record."
   },
   {
     "sourceId": "dicamillo-gurneys-manor",
@@ -1524,6 +1548,18 @@
     "notes": "Identifies Joseph Hunscott as an active Stationer petitioner in 1646. Used here to anchor the identity bridge from Robert Gurney's will overseer 'Joseph Henscott Stationer' (1625) through the BHO 1638 St Augustine 'Joseph Huntscott' (£12) to the named ROLLCO Stationer Joseph Hunscott (1612-1646)."
   },
   {
+    "sourceId": "hurlock-oldfield-crusading-pilgrimage-norman-2015",
+    "shortTitle": "Hurlock and Oldfield, Crusading and Pilgrimage in the Norman World (2015)",
+    "citation": "Hurlock, Kathryn, and Paul Oldfield, eds. Crusading and Pilgrimage in the Norman World. Woodbridge: Boydell, 2015.",
+    "archive": "Boydell & Brewer / online mirror at dokumen.pub",
+    "url": "https://dokumen.pub/crusading-and-pilgrimage-in-the-norman-world-178327025x-9781783270255.html",
+    "corpusStatus": "external",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Modern edited volume on Norman crusading networks. Pages 92-93 identify Drogo II as son of Drogo I, Drogo I as First Crusader and stepfather of Hugh of Gournay, and Gerard as Hugh's natural father and First Crusader. Useful for the crusading-family-tradition framing across Gerard, Drogo I, Hugh, and Drogo II."
+  },
+  {
     "sourceId": "keates-rohan-domesday",
     "shortTitle": "Keates-Rohan, Domesday People",
     "citation": "Keates-Rohan, K. S. B. Domesday People: A Prosopography of Persons Occurring in English Documents, 1066–1166. Vol. 1. Woodbridge: Boydell Press, 1999.",
@@ -2088,6 +2124,30 @@
     "notes": "OpenEdition table of abbeys founded by Norman lords. Lists Saint-Martin et Saint-Vulgain de Sigy, dated 1040, with Hugues de Gournay as founder; Saint-Laurent de Beaubec, dated 1127, with Hugues II de Gournay; and Notre-Dame de Bellozanne, dated 1198, with Hugues V de Gournay. Promoted from the Norman geo overlay bundle for ancestor/place research use."
   },
   {
+    "sourceId": "orderic-vitalis-chibnall-vol-5",
+    "shortTitle": "Orderic Vitalis, Historia Aecclesiastica, ed./trans. Chibnall, vol. 5 (Books 9-10)",
+    "citation": "Orderic Vitalis. Historia Aecclesiastica. Edited and translated by Marjorie Chibnall. Vol. 5, Books 9-10. Oxford: Clarendon Press, 1975.",
+    "archive": "Oxford Medieval Texts (Clarendon Press); online mirror at dokumen.pub",
+    "url": "https://dokumen.pub/orderici-vitalis-historia-aecclesiastica-the-ecclesiastical-history-of-orderic-vitalis-vol-5-books-9-10-0198222327.html",
+    "corpusStatus": "external",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Standard modern critical edition (Latin + facing English). Vol. 5 (Books 9-10) covers First Crusade material relevant to Gerard de Gournay (pp. 34-35, 58-59) and Drogo de Monceio's participation among the First Crusaders. The Prévost 1838-1855 edition (already in the repo at orderic-vitalis-prevost-style) is the older standard; Chibnall is the modern reference."
+  },
+  {
+    "sourceId": "orderic-vitalis-chibnall-vol-6",
+    "shortTitle": "Orderic Vitalis, Historia Aecclesiastica, ed./trans. Chibnall, vol. 6 (Books 11-13)",
+    "citation": "Orderic Vitalis. Historia Aecclesiastica. Edited and translated by Marjorie Chibnall. Vol. 6, Books 11-13. Oxford: Clarendon Press, 1978.",
+    "archive": "Oxford Medieval Texts (Clarendon Press); online mirror at dokumen.pub",
+    "url": "https://dokumen.pub/orderici-vitalis-historia-aecclesiastica-the-ecclesiastical-history-of-orderic-vitalis-vol-6-books-11-13-0198222424.html",
+    "corpusStatus": "external",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Vol. 6 (Books 11-13) covers the 1118 Norman rebellion narrative in which Orderic names Hugh son of Gerard de Gournay as raised by Henry I 'like a son,' armed as adult knight, restored to his paternal honor, with Drogo de Monchy named as Hugh's stepfather having governed the honor during Hugh's minority. The pre-eminent primary source for the Drogo/wardship sequence."
+  },
+  {
     "sourceId": "ormerod-strigulensia-1861",
     "shortTitle": "Ormerod, Strigulensia (1861)",
     "citation": "Ormerod, George. Strigulensia: Archaeological Memoirs Relating to the District Adjacent to the Confluence of the Severn and the Wye. London: T. Richards, 1861.",
@@ -2146,6 +2206,30 @@
     "mediaPath": "",
     "validationPath": "sources/validations/palgrave-history-england-normandy-1864.md",
     "notes": "Derivative narrative history. Relevant for Hugh Gournay at Mortemer, Pays de Bray geography, Gerberoi proximity to Gournay, and Hugh de Gournay as mediator between William I and Robert Curthose."
+  },
+  {
+    "sourceId": "palmer-perlustration-yarmouth-1872",
+    "shortTitle": "Palmer, Perlustration of Great Yarmouth (1872)",
+    "citation": "Palmer, Charles John. The Perlustration of Great Yarmouth, with Gorleston and Southtown. 3 vols. Great Yarmouth: George Nall, 1872-1875.",
+    "archive": "Internet Archive / Google Books",
+    "url": "https://archive.org/details/perlustrationgr00palmgoog",
+    "corpusStatus": "partial",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Norfolk antiquarian survey. Dates the Caister-on-Sea manor's transfer into the Gournay family to the 1075-76 forfeiture redistribution after the East Anglian earls' revolt (Ralph de Gaël). Used for G33 (Hugh III's Norfolk barony cluster and the Caister/Cantley tithes given to the Saint-Hildevert chapter at Gournay-en-Bray) and as historical anchor for the otherwise-garbled 'Cardiff'/Norfolk death tradition at G34."
+  },
+  {
+    "sourceId": "park-royal-holloway-thesis-2013",
+    "shortTitle": "Park, PhD thesis (Royal Holloway, 2013) -- crusading inheritance protection",
+    "citation": "C. Park. Under Our Protection, That of the Church and ... PhD thesis, Royal Holloway, University of London, 2013.",
+    "archive": "Royal Holloway research repository",
+    "url": "https://pure.royalholloway.ac.uk/files/17410925/phd2013parkdea.pdf",
+    "corpusStatus": "external",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "PhD thesis on crusader inheritance protection. Page 152 states Drogo II of Mouchy died on the Second Crusade in 1148 and discusses Louis VII's order to Suger to protect Drogo's inheritance during his absence. Used for the Drogo II death year and the Second Crusade connection."
   },
   {
     "sourceId": "pattou-racines-histoire-gournay-2025",
@@ -2254,6 +2338,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Welsh-chronicle tradition dating the Cardiff engagement of Hugh de Gournay to 1094 (not 1074), between Cardiff and Brecknock, under William II Rufus's Welsh frontier campaigns. Powell's list of named wounded/killed is a near-perfect subset of the French Histoire et Chronique de Normandie list for the same engagement, with the dating offset twenty years. URL above is the patp.us mediating page where the verbatim 1094 entry was retrieved; direct verification against Powell 1584 or the 1811 Wynne re-edition is the next step."
+  },
+  {
+    "sourceId": "gurney-drogo-pilgrimage-research-2026",
+    "shortTitle": "Project research handoff -- Gerard de Gournay Drogo/pilgrimage/death window (2026)",
+    "citation": "Allen Gurney project. \"G32 Gerard de Gournay: Drogo, Edith, Pilgrimage, and Death-Date Window.\" AI-prepared research handoff, May 2026.",
+    "archive": "Project corpus_supplement",
+    "url": "",
+    "corpusStatus": "full",
+    "corpusPath": "sources/corpus_supplement/g32-gerard-de-gournay-drogo-edith-pilgrimage-death-window.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "AI-prepared synthesis of Gerard de Gournay's later pilgrimage, the 8 May Beauvais obituary day, Edith de Warenne's remarriage to Drogo de Mouchy, the Henry I wardship sequence for Hugh de Gournay (IV), and the death-date bracket (8 May, after 1104 and before 1112; probably 1104 or 1105). Corrects the prior fact-sheet error placing Gerard's death 'before 1104' -- the St-Sauveur-en-Cotentin evidence is a terminus post quem. Cites Daniel Gurney 1845/1848 vol. 1 pp. 68-70, 111, 213-214, 216-217; Orderic Vitalis (Chibnall vols. 5 and 6); William of Tyre; Suger; Saint-Leu d'Esserent cartulary; Hurlock/Oldfield 2015; Park 2013; DHI Riley-Smith. Used as the primary anchor for the G32 fact sheet revision and the G32 research-companion §10-§14 additions."
   },
   {
     "sourceId": "projet-conde-conquets-hue-gournay",
@@ -2532,6 +2628,18 @@
     "notes": "Index source for the Gurney/Gurny probate entries. Use to confirm the probate-index existence of John Gurney/Gurny administration case no. 338 in the 1663 context; the underlying Suffolk probate case file remains a necessary pull target."
   },
   {
+    "sourceId": "suger-vie-louis-le-gros",
+    "shortTitle": "Suger, Vie de Louis le Gros",
+    "citation": "Suger. Vie de Louis le Gros. Remacle bilingual (French/Latin) edition.",
+    "archive": "Remacle.org",
+    "url": "https://remacle.org/bloodwolf/historiens/suger/vie1.htm",
+    "corpusStatus": "external",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Twelfth-century biography of Louis VI of France by Abbot Suger of Saint-Denis. Places Drogo de Mouchy (Monciacensis) in the early-1100s Montmorency/Beaumont conflict and records Louis's action for the church of Beauvais against Drogo. Anchors Drogo I de Mouchy in the Beauvais/Oise ecclesiastical orbit -- relevant because the Beauvais church preserved Gerard de Gournay's 8 May obituary, making the later Edith-Drogo remarriage regionally plausible."
+  },
+  {
     "sourceId": "gournay-en-bray-1844",
     "shortTitle": "Supplément aux recherches historiques sur Gournay-en-Bray (1844)",
     "citation": "Supplément aux recherches historiques sur la ville de Gournay-en-Bray. 1844.",
@@ -2770,6 +2878,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "William the Conqueror's biographer. Cited via FMG [889] for the post-1053 alliance between 'Hugonis Gornacensis' (Hugh II) and 'Roberti Aucensis comitis' (Robert d'Eu)."
+  },
+  {
+    "sourceId": "william-of-tyre-historia",
+    "shortTitle": "William of Tyre, Historia Rerum in Partibus Transmarinis Gestarum",
+    "citation": "William of Tyre. Historia Rerum in Partibus Transmarinis Gestarum, Liber VI. Latin Library text.",
+    "archive": "The Latin Library",
+    "url": "https://www.thelatinlibrary.com/williamtyre/6.html",
+    "corpusStatus": "external",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Twelfth-century crusade history. Names 'Drogo de Monci' in the Antioch context (First Crusade). Later source than Orderic but reinforces that Drogo I de Mouchy's crusader identity was independently attested in the chronicle tradition, not invented from his later marriage to Edith de Warenne."
   },
   {
     "sourceId": "winthrop-history-new-england-addenda-1636",

@@ -18,8 +18,8 @@ The full Phase-0 source-by-source cross-walks live in `sources/FS/LBGV-H99/asses
 - **Mother**: Basilea Flaitel.
 - **Wife**: Edith (Edive / Editha) de Warenne, daughter of William de Warenne 1st Earl of Surrey + his first wife Gundred. Marriage [1084/92] per FMG. The marriage assumption Edith was c. 12 at marriage is FMG's chronological estimate. Edith's birth: [1072/80]; death: after 1155.
 - **Possible first wife**: see §3 below.
-- **Died** before 1104, Holy Land. The 1104 *terminus post quem* is **secured by the St-Sauveur en Cotentin cartulary roll** which dates Gerard's confirmation of Payn of Elbeuf's donation to that year (DG 1845 p. 69, citing the original cartulary roll then in M. de Gerville of Valognes's possession).
-- **Edith's second husband**: Drew/Drogo/Dreux de Monchy/Monceaux. Pattou specifies "Dreu III, seigneur de Monchy"; Wikitree dates the second marriage 1107. Their son Drogo is named in Orderic and Guillaume de Jumièges.
+- **Died** **8 May, after 1104 and before 1112; probably 1104 or 1105**, on a second pilgrimage to the Holy Land with his wife Edith. The 1104 *terminus post quem* is secured by the St-Sauveur-en-Cotentin cartulary roll, which dates Gerard's confirmation of Payn of Elbeuf's donation to that year (DG 1845 p. 69, citing the original cartulary roll then in M. de Gerville of Valognes's possession). The earlier repo phrasing "before 1104" was backwards: St-Sauveur means Gerard was alive *in or about* 1104, so the death falls after. The 8 May day is preserved by the Beauvais church's anniversary list (Potin 1842 p. 124 / DG 1845 p. 68n.). The narrow 1104–1105 window inside the broader 1104–1112 bracket is supported by pilgrimage-duration comparators (see §11) and by the practical upper bound of Hugh IV's "full age" in 1112 (see §12).
+- **Edith's second husband**: Drogo (Dreux) de Mouchy / de Monceio — lord of Mouchy-le-Châtel and himself a First Crusader (see §10). Pattou's "Dreu III, seigneur de Monchy" appears to be a numbering preference; the man who married Edith is the First-Crusader Drogo I de Mouchy, identified across Orderic, William of Tyre, Suger, the Saint-Leu d'Esserent cartulary, and the DHI Database of Crusaders to the Holy Land. The son also named Drogo (Drogo II) was a Second Crusader who died in 1148.
 
 ---
 
@@ -228,7 +228,115 @@ Palmer's *Perlustration of Yarmouth* (1872) dates the Caister acquisition to 107
 
 ---
 
-## 8. Open questions
+## 10. Drogo I de Mouchy — Edith's second husband, Hugh's stepfather
+
+Drogo (Dreux) I de Mouchy is the man Edith married after Gerard's death. The full crusader/Norman context for him changes the wardship picture for Hugh de Gournay (IV).
+
+**First Crusade attestations** — three independent traditions place Drogo on the First Crusade, anchoring his identity as a fellow Norman/Picard crusader and not merely as a later regional husband:
+
+- Orderic Vitalis, <em>Historia Aecclesiastica</em>, ed. Chibnall, vol. 5 (Oxford, 1975), names "Drogo de Monceio" among First Crusade participants.
+- William of Tyre, <em>Historia Rerum in Partibus Transmarinis Gestarum</em>, Liber VI, names "Drogo de Monci" in the Antioch army order. Later source than Orderic; should not outweigh Orderic but reinforces.
+- Jonathan Riley-Smith et al., <em>A Database of Crusaders to the Holy Land, 1095–1149</em> (University of Leeds / Sheffield HRI), France country index — lists Drogo I of Mouchy-le-Châtel in Picardie/Oise among First Crusaders.
+
+**Beauvais/Oise context, 1101–1103** — Drogo was active in the same regional ecclesiastical world that preserved Gerard's 8 May obituary:
+
+- Suger, <em>Vie de Louis le Gros</em> (Remacle ed.), records Louis VI acting for the church of Beauvais against "Drogo Monciacensis" in the Montmorency/Beaumont conflict.
+- The Saint-Martin de Pontoise cartulary (Joseph Depoin ed.) names "Drogo de Monceio" among witnesses at a 1103 Beauvais chapter diploma.
+- The same Beauvais church preserved Gerard's 8 May obituary. The Edith–Drogo remarriage was regionally plausible, not accidental.
+
+**Continuing presence in Henry I orbit**:
+
+- A Dunstable Priory acta witness list (Nicholas Vincent et al., *Acts of William II and Henry I* project) c. 1131–1133 includes "Drogo de Monceio." The underlying charter is treated as false, but the editor notes the witness list may derive from authentic acts.
+- Richardson's SGM pedigree also states Drogo de Monceaux was living 1131.
+
+**Reading taken**: Drogo I de Mouchy is the second husband of Edith de Warenne (after c. 1104–1105), stepfather of Hugh de Gournay (IV) per Orderic, and First Crusader. He was **not** a known companion on Gerard's fatal second pilgrimage; the surviving relationship evidence (Jumièges tradition + Saint-Leu d'Esserent note) makes him the post-return second husband, not the second-pilgrimage companion. A modern passage in Judith Green's <em>The Normans</em> (Yale, 2022) saying Edith went on crusade "with her husband Drogo de Mouchy" appears to be a conflation requiring source-apparatus check; do not adopt without verification.
+
+---
+
+## 11. The death-date bracket: 8 May, after 1104 and before 1112
+
+The bracket combines four pieces of evidence:
+
+| Bound | Evidence | Effect |
+|---|---|---|
+| Earliest possible | St-Sauveur-en-Cotentin cartulary roll dated 1104 confirms Gerard alive in/about that year (DG 1845 p. 69) | *Terminus post quem* — death after 1104 |
+| Latest possible | Hugh IV "of full age" in 1112 confirming his father's Bec donations (DG 1845 p. 111); Drogo's prior stewardship and Edith's prior remarriage all complete by then | Practical upper bound 1112 |
+| Day | Beauvais obituary: "VIII Idus Maii ob. Girardus de Gornaco" (Potin 1842 p. 124 / DG 1845 p. 68n.) | 8 May |
+| Year hint | DHI summary: "later pilgrimage in 1104" | Reinforces 1104–1105 window |
+
+**Pilgrimage-duration analysis** — the closest western pilgrimage comparators of the era:
+
+- **Saewulf** sailed from Monopoli (Apulia) on 13 July 1102 and was on the return voyage from Jaffa on 17 May 1103. A roughly one-year round trip (Thomas Wright, ed., <em>Early Travels in Palestine</em>, 1848, Project Gutenberg).
+- **Russian Abbot Daniel** made the pilgrimage in 1106–1107, with Easter 1107 in Jerusalem (Wilson ed., <em>The Pilgrimage of the Russian Abbot Daniel</em>, Palestine Pilgrims' Text Society, 1895).
+
+Pilgrimages of this period took **months, not years**. If Gerard and Edith left in 1104 and Gerard died "on the journey," 8 May 1104 or 1105 is the most natural reading. A death as late as 1111 would require either prolonged residence, capture, or some other unrecorded delay; no source supports such an extended absence for Gerard and Edith.
+
+**Open technical point**: whether the St-Sauveur 1104 evidence is dated *before* or *after* 8 May 1104 determines whether 8 May 1104 itself is excluded as the death day. If the St-Sauveur act is dated after 8 May 1104, then 8 May 1105 becomes the first plausible date; if it is only a terminal date in the cartulary roll without a precise day, 8 May 1104 remains possible. Resolution requires direct inspection of the cartulary roll (formerly held by M. de Gerville at Valognes); the Phase-2 verification pull is listed in §13 below.
+
+---
+
+## 12. The wardship sequence: Edith returns, Drogo administers, Henry I raises Hugh
+
+The full sequence, in order:
+
+1. Gerard dies on the second pilgrimage (8 May, c. 1104–1105).
+2. Edith returns to Normandy with the news.
+3. Edith remarries Drogo I de Mouchy.
+4. Drogo administers/governs the honour of Gournay during Hugh's minority — Orderic explicitly names him as Hugh's stepfather in this role.
+5. King Henry I of England takes Hugh to court, raises him "*ut filium*" (like a son), arms him as an adult knight, and restores him to his paternal honour.
+6. Hugh is of full age in 1112 and confirms his father's donations to the Abbey of Bec.
+
+**Primary source for the sequence**: Orderic Vitalis, <em>Historia Aecclesiastica</em>, ed. Chibnall, vol. 6, Books 11–13 (Oxford, 1978), Book XII, 1118 rebellion narrative — Orderic identifies Hugh as son of Gerard, raised by Henry I, with Drogo as stepfather.
+
+**Reconstruction**: Daniel Gurney, <em>Record</em>, Part I (1848), pp. 213–214, reconstructs the minority sequence from the 1118 Orderic narrative working backwards; same volume p. 111 places Hugh "of full age" in 1112.
+
+**Modern scholarly synthesis**: Hurlock and Oldfield, <em>Crusading and Pilgrimage in the Norman World</em> (Boydell, 2015), pp. 92–93, summarises the network: Gerard as natural father, Drogo I as stepfather, Hugh raised by Henry I, Drogo II son of Drogo I and Edith as Second Crusader dying 1148.
+
+**Chronological implications for Hugh's birth**: two birth models coexist:
+
+- **Richardson/SGM model**: Hugh born c. 1091, full age (~21) by 1112 — clean.
+- **FMG/transcript model**: Hugh born [1098/1100], full age by 1112 only if "full age" means under 21 or if Gerard's death is pushed earlier.
+
+The c. 1091 model is preferred for chronological cleanness. Either way, Hugh was a minor when Gerard died and the wardship sequence above followed.
+
+---
+
+## 13. Drogo II — Second Crusader, died 1148
+
+Edith and Drogo I had a son also named Drogo (Drogo II / Dreux II de Mouchy-le-Châtel). Drogo II took the cross during the Second Crusade and died on crusade in 1148. Sources:
+
+- Saint-Leu d'Esserent cartulary (Muller ed., 1900–1901): note distinguishing Dreux II from his father Dreux I.
+- C. Park, PhD thesis (Royal Holloway, 2013), p. 152: Drogo II died on crusade in 1148; Louis VII ordered Suger to protect Drogo's inheritance during his absence.
+- DHI Database of Crusaders to the Holy Land: Drogo II entry.
+- Hurlock and Oldfield 2015, pp. 92–93.
+
+Drogo II is not a Gournay by blood but he is half-brother to Hugh de Gournay (IV) through their mother Edith. The crusading-family pattern across three generations — Gerard (First Crusade, second pilgrimage death), Drogo I (First Crusade, stepfather, regional Beauvais/Oise figure), Drogo II (Second Crusade, died 1148), Hugh IV (Louis VII expedition 1147) — is one of the more striking continuities in the senior Gournay line.
+
+---
+
+## 14. Source tensions and cautions (updated)
+
+1. **The earlier fact-sheet phrase "before 1104" was backwards.** Now corrected to "8 May, after 1104 and before 1112; probably 1104 or 1105."
+
+2. **1097 must not be used for the elder Gerard's death.** It belongs to the eldest son Gerard, who died *vitae patris* possibly at the siege of Nicaea. Orderic places the father at Nicaea after May 1097.
+
+3. **Judith Green, *The Normans* (Yale, 2022).** The passage saying Edith went on crusade "with her husband Drogo de Mouchy" appears to conflate her later husband Drogo with her First Crusade husband Gerard. Do not adopt without verifying the author's source apparatus.
+
+4. **DHI's "pilgrimage in 1104" is useful but derivative.** Treat it as modern prosopographical synthesis pointing back to Orderic, Gesta Normannorum Ducum, Van Houts, and Gurney — not as an independent primary record.
+
+5. **Drogo I on Gerard's second pilgrimage remains unsupported.** Existing evidence places Drogo I as Edith's second husband after her return, not as a known fellow pilgrim on Gerard's fatal journey.
+
+6. **Highest-value next pulls** (to firm up the bracket):
+   - **St-Sauveur-en-Cotentin roll/cartulary**: determine whether Gerard is alive before or after 8 May 1104. Would tighten 1104 vs. 1105 question.
+   - **Van Houts, *Gesta Normannorum Ducum*, vol. 2, p. 214 and apparatus**: exact Latin and editorial dating/context for Gerard, Edith, and Drogo.
+   - **Early Yorkshire Charters, vol. 8, pp. 6–7**: verify Edith/Drogo/Warenne/Gournay relationship treatment.
+   - **Delisle and Berger, *Actes de Henri II*, vol. 1, no. 325**: Richardson reports it mentions "Edwa" corrected to Ediva — Edith's later English tenure.
+   - **Beauvais obituary source behind Potin/de la Mairie**: confirm whether any year was preserved in the original manuscript or only the day.
+   - **RHGF vol. 15, Louis VII/Suger letter no. 47**: primary support for Drogo II's 1148 death and inheritance protection.
+
+---
+
+## 15. Open questions
 
 1. **Walter-as-son-of-Gerard**: position 1 retained (DG view); the Richardson position is independent and the repo's adoption is a conscious editorial choice. Resolution would require new archival work in the Suffolk / Essex / Kent corpus Richardson cites (Hasted, Copinger, Loyd & Stenton, *VCH Essex*, *Genealogist*, Jenkins, Gervers, Power, Tanner).
 
@@ -246,7 +354,7 @@ Palmer's *Perlustration of Yarmouth* (1872) dates the Caister acquisition to 107
 
 ---
 
-## 9. Sources consulted (canonical bibliography)
+## 16. Sources consulted (canonical bibliography)
 
 | Source | Citation handle |
 |---|---|
@@ -275,3 +383,12 @@ Palmer's *Perlustration of Yarmouth* (1872) dates the Caister acquisition to 107
 | St-Wandrille chartulary, f. 314 (Caux archives Seine-Inférieure, piece D, II, VI) | via DG-Supp Note 17 |
 | c. 1125 miracles of St Nicholas (Évreux MS. 132) | via DG-Supp Note 18 |
 | French Wikipedia, *Famille de Gournay* | (URL) |
+| Project research handoff, *G32 Gerard de Gournay: Drogo, Edith, Pilgrimage, and Death-Date Window* (May 2026) | `gurney-drogo-pilgrimage-research-2026` |
+| Jonathan Riley-Smith et al., *A Database of Crusaders to the Holy Land, 1095–1149* (Univ. of Leeds / Sheffield HRI) | `dhi-crusaders-leeds` |
+| Orderic Vitalis, *Historia Aecclesiastica*, ed./trans. Marjorie Chibnall, vol. 5 (Books 9–10), Oxford 1975 | `orderic-vitalis-chibnall-vol-5` |
+| Orderic Vitalis, *Historia Aecclesiastica*, ed./trans. Marjorie Chibnall, vol. 6 (Books 11–13), Oxford 1978 | `orderic-vitalis-chibnall-vol-6` |
+| William of Tyre, *Historia Rerum in Partibus Transmarinis Gestarum*, Liber VI (Latin Library text) | `william-of-tyre-historia` |
+| Suger, *Vie de Louis le Gros* (Remacle ed.) | `suger-vie-louis-le-gros` |
+| Eugène Muller, ed., *Cartulaire du prieuré de Saint-Leu d'Esserent (1080–1538)* (Pontoise, 1900–1901) | `saint-leu-esserent-cartulary-muller` |
+| Hurlock and Oldfield, eds., *Crusading and Pilgrimage in the Norman World* (Boydell, 2015) | `hurlock-oldfield-crusading-pilgrimage-norman-2015` |
+| C. Park, PhD thesis, Royal Holloway, *Under Our Protection, That of the Church and...* (2013) | `park-royal-holloway-thesis-2013` |

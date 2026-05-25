@@ -259,6 +259,12 @@ The bracket combines four pieces of evidence:
 | Day | Beauvais obituary: "VIII Idus Maii ob. Girardus de Gornaco" (Potin 1842 p. 124 / DG 1845 p. 68n.) | 8 May |
 | Year hint | DHI summary: "later pilgrimage in 1104" | Reinforces 1104–1105 window |
 
+**Independent modern scholarly confirmation** (added May 2026): Charles Travis Clay, ed., <em>Early Yorkshire Charters</em>, vol. 8: <em>The Honour of Warenne</em> (Yorkshire Archaeological Society Record Series, 1949), pp. 6–7, states without hedging:
+
+> "Subsequently Edith accompanied him on a pilgrimage to Jerusalem, on which he died not earlier than 1104; she then married Drew de Monchy, by whom she had a son Drew the younger."
+
+Same pages identify Edith as a daughter of William de Warenne 1st Earl of Surrey and Gundreda, and note that Edith named her own daughter Gundreda "after her grandmother Gundreda de Warenne." This corroborates: (1) the corrected "after 1104" reading of the death date; (2) the Drogo I (Edith's second husband) / Drogo II ("the younger" son) distinction; (3) Edith's presence on the pilgrimage; (4) the surviving daughter Gundred's naming.
+
 **Pilgrimage-duration analysis** — the closest western pilgrimage comparators of the era:
 
 - **Saewulf** sailed from Monopoli (Apulia) on 13 July 1102 and was on the return voyage from Jaffa on 17 May 1103. A roughly one-year round trip (Thomas Wright, ed., <em>Early Travels in Palestine</em>, 1848, Project Gutenberg).
@@ -321,13 +327,13 @@ Drogo II is not a Gournay by blood but he is half-brother to Hugh de Gournay (IV
 
 5. **Drogo I on Gerard's second pilgrimage remains unsupported.** Existing evidence places Drogo I as Edith's second husband after her return, not as a known fellow pilgrim on Gerard's fatal journey.
 
-6. **Highest-value next pulls** (to firm up the bracket):
-   - **St-Sauveur-en-Cotentin roll/cartulary**: determine whether Gerard is alive before or after 8 May 1104. Would tighten 1104 vs. 1105 question.
-   - **Van Houts, *Gesta Normannorum Ducum*, vol. 2, p. 214 and apparatus**: exact Latin and editorial dating/context for Gerard, Edith, and Drogo.
-   - **Early Yorkshire Charters, vol. 8, pp. 6–7**: verify Edith/Drogo/Warenne/Gournay relationship treatment.
-   - **Delisle and Berger, *Actes de Henri II*, vol. 1, no. 325**: Richardson reports it mentions "Edwa" corrected to Ediva — Edith's later English tenure.
-   - **Beauvais obituary source behind Potin/de la Mairie**: confirm whether any year was preserved in the original manuscript or only the day.
-   - **RHGF vol. 15, Louis VII/Suger letter no. 47**: primary support for Drogo II's 1148 death and inheritance protection.
+6. **Highest-value next pulls** (each tagged with online-availability per `.claude/rules/continual-improvement.md`):
+   - **St-Sauveur-en-Cotentin roll/cartulary** (the specific roll Gerville held at Valognes that Daniel Gurney 1845 cited) — **Not online**. The surviving Saint-Sauveur-le-Vicomte cartulary "Livre noir" (1201–1300) is at Archives départementales de la Manche, H 4838, with copy at BnF Lat. 17137; only partial editions exist (Delisle, "Une charte altérée…," <em>Annuaire de la Manche</em>, 1909). The 1104 roll Daniel Gurney used is not separately digitised. Would still tighten 1104 vs. 1105 if reachable in person.
+   - **Van Houts, *Gesta Normannorum Ducum*, vol. 2, p. 214 and apparatus** — **Not online (free)**. The Oxford Medieval Texts 1995 edition is behind the Oxford Scholarly Editions Online paywall; not on Internet Archive or HathiTrust. Library access required.
+   - **Early Yorkshire Charters, vol. 8, pp. 6–7** — **Available online** (Internet Archive: <https://archive.org/details/YASES6>). **Pursued May 2026; substantive finding landed at §11 above and in the G32 fact sheet footnote n2.** Clay 1949 directly states death "not earlier than 1104" and identifies the Drogo I/II distinction. Closed.
+   - **Delisle and Berger, *Actes de Henri II*, vol. 1, no. 325** — **Available online** (Internet Archive: <https://archive.org/details/recueildesactesd01grea>; Gallica also hosts the volumes). Pursued May 2026 but the OCR'd full text returned only the front matter and acts I–XXI on first fetch; act 325 (CCCXXV) sits deeper in the volume and was not located via the truncated fetch. Recommend a focused pull on the page range containing acts CCC–CCCL in a later session. Richardson reports the act mentions "Edwa" corrected to Ediva, anchoring Edith's later English tenure.
+   - **Beauvais obituary source behind Potin / de la Mairie** — **Not online** for the specific manuscript that preserved Gerard's 8 May entry. Leblond 1923 edited the obituaries of Saint-Nicolas and Saint-Michel de Beauvais (not the cathedral chapter). The cathedral chapter's medieval martyrologies with added obit notices are dispersed across BnF Latin holdings; a 14th-century calendar-obituary of Beauvais Cathedral was sold by Sotheby's in 1985 into a private collection. No single digital edition of the Beauvais cathedral obituary as a whole exists; locating the specific Gerard entry would require manuscript-level archival work.
+   - **RHGF vol. 15, Louis VII / Suger letter no. 47** — **Available online** (Gallica: <https://gallica.bnf.fr/ark:/12148/bpt6k501337.image>; also an Internet Archive mirror at <https://archive.org/details/sim_academie-des-inscriptions-et-belles-lettres-paris_1878_15>). Pursued May 2026 but the first fetch returned only the platform interface — Gallica generally needs the in-platform viewer rather than a single-URL text dump. Recommend a focused page-range pull in a later session. The substantive finding on Drogo II's 1148 death and Louis VII's protection order is already adopted from Park's 2013 Royal Holloway thesis (<code>park-royal-holloway-thesis-2013</code>).
 
 ---
 
@@ -387,3 +393,4 @@ Drogo II is not a Gournay by blood but he is half-brother to Hugh de Gournay (IV
 | Eugène Muller, ed., *Cartulaire du prieuré de Saint-Leu d'Esserent (1080–1538)* (Pontoise, 1900–1901) | `saint-leu-esserent-cartulary-muller` |
 | Hurlock and Oldfield, eds., *Crusading and Pilgrimage in the Norman World* (Boydell, 2015) | `hurlock-oldfield-crusading-pilgrimage-norman-2015` |
 | C. Park, PhD thesis, Royal Holloway, *Under Our Protection, That of the Church and...* (2013) | `park-royal-holloway-thesis-2013` |
+| Clay, Charles Travis, ed., *Early Yorkshire Charters*, vol. 8: *The Honour of Warenne* (1949), pp. 6–7 — pursued May 2026 via archive.org/details/YASES6; direct quotation landed at §11 | `early-yorkshire-charters-vol-8-clay-1949` |
