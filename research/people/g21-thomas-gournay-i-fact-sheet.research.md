@@ -111,3 +111,21 @@ The 1409 Fine Rolls preserve the post-death administrative trace of Sir John's d
 1. **Kerville pedigree context:** The Kervilles were a substantial Norman-descended family holding two knight's fees in Wiggenhall from at least Henry III's reign. Catherine's father Robert (d. 1434) is documented in his own will. This is more detail than the current narrative provides.
 2. **Delisle negative:** Léopold Delisle finding nothing on the Kervilles in Norman records is a useful scholarly detail — the family was "more distinguished in England than in Normandy."
 3. **Death date:** DG-Supp Note 123 implies Thomas I was dead before 1444 (date of the Boking fine). This could narrow the timeline.
+
+### Third military attestation — 1418 Harfleur garrison, under Thomas Beaufort Duke of Exeter
+
+AHRC database entry: "Gournay, Thomas, Man-at-Arms, Garrison; mustered: Harfleur, Captain Thomas Beaufort (c. 1377-1426) earl of Dorset, duke of Exeter, Lieutenant Sir William Willoughby, 1418, Muster rolls, TNA E101/48/6."[^v61-medievalsoldier-thomas-gournay-1418]
+
+This fills the gap between the 1415 Agincourt-campaign Holland-retinue muster and the 1441 Vere/York France expedition. At Harfleur in 1418 the Duke of Exeter (Henry V's lieutenant of Normandy) was holding the bridgehead during Henry V's consolidation phase after Agincourt; service at this garrison station is the natural next phase for the man already mustered at Southampton in July 1415. The Holland-then-Beaufort sequence places Thomas I inside the Lancastrian military client network across two reigns — a continuation of the family's Gaunt-era patronage chain (Edmund G23 was steward of John of Gaunt's East Anglian estates 1372-1387; Sir John V served on Gaunt's 1394 Aquitaine expedition under letters of attorney TNA C61/104 m. 7, already documented in the G23 companion).
+
+[^v61-medievalsoldier-thomas-gournay-1418]: Thomas Gournay, Man-at-Arms, Garrison mustered at Harfleur, Captain Thomas Beaufort earl of Dorset (later duke of Exeter), Lieutenant Sir William Willoughby; 1418; Muster Roll The National Archives, E101/48/6. AHRC-funded *Soldier in Later Medieval England Online Database*: [www.medievalsoldier.org](https://www.medievalsoldier.org/). Source ID: `medievalsoldier-database`.
+
+### 1434-35 East Barsham feoffee — third Norfolk attestation
+
+Blomefield's East Barsham parish entry records that "Thomas Gournay, Esq. and John Hunt, son of William Hunt, of East-Barsham" confirmed Wolterton's Manor in East Barsham to John Wode in the 13th of Henry VI (1434-35).[^v61-blomefield-vol7-east-barsham-g21]
+
+This is the third documented attestation for Thomas I, alongside the 1445 Hunstanton seal (Daniel Gurney *Supplement* Note 126, p. 814) and the 1441 retinue service under John de Vere 13th Earl of Oxford. Together they give Thomas I a documented active-adult span of 1415 (Agincourt) – 1418 (Harfleur) – 1434-35 (East Barsham) – 1441 (Vere/York France) – 1445 (Hunstanton seal). The previous "no record" framing in the G21 companion should be retired.
+
+Full Blomefield East Barsham extract preserved at `sources/corpus_supplement/blomefield-norfolk-vol7-pp53-65-east-barsham.md`.
+
+[^v61-blomefield-vol7-east-barsham-g21]: Francis Blomefield, *History of Norfolk*, vol. vii, "East-Barsham," pp. 53-65, [British History Online](https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp53-65). Source ID: `blomefield-norfolk`. Full extract at `sources/corpus_supplement/blomefield-norfolk-vol7-pp53-65-east-barsham.md`.

@@ -45,6 +45,8 @@ Not allowed here:
 - When a meaningful ordering or naming choice needs to be explained, phrase it as a reader-facing convention (e.g., "Ordinal numbering of ancestors such as 'II' in 'Hugh II' on this site follows..."), not as a fact about the repository.
 - Do not use unexplained Latin or French quotations. Keep the original phrase when it adds flavor or fidelity, but follow it with a plain-English meaning ("*mort sans postérité* — died without descendants"; "*un vieux manuscrit* — an old manuscript").
 - Do not use acronyms or repo-internal shorthand on the visible page: spell out **Daniel Gurney's *Record of the House of Gournay*** rather than **DG-I**; **FamilySearch** rather than **FS**; **the family-tree compilation at our-royal-titled-noble-and-commoner-ancestors.com** rather than **TNG site**; **Foundation for Medieval Genealogy MedLands** rather than **FMG MedLands**. Existing acronyms in research files may stay; do not introduce new ones in fact sheets.
+- Non-English quotes and quotes that use terminology not in common modern usage should be explained or translated for plain English consumption.
+- Highly technical, genealogical, or historical terms which are not in common modern usage should either be a hyperlink to a definition or explanatory source (e.g. wikipedia.org), explained in the prose, a parenthetical synonym, or otherwise avoided for plain English consumption.
 
 ## Lineage-status vocabulary
 - Reader-facing status language should be plain. Prefer phrases like "historically recorded but limited," "confirmed by contemporary document," "rests on later tradition" over single-word labels like "Tradition" or "Uncertain" without context.
@@ -59,6 +61,16 @@ Not allowed here:
 - Footnotes are **source-heavy**, not content-heavy. They carry citations, provenance chains, exact quotations, page numbers, alternate readings, and the apparatus a curious reader needs to verify the finding. Substantive findings that arrived in research are not "buried" in footnotes during promotion.
 - Test for a candidate placement: if removing the footnote would leave the body text non-informative on a specific finding, the footnote is carrying the finding and should be partly lifted to the body.
 - For complex multi-source claims, it is acceptable for the body to assert the finding compactly and the footnote to carry the full apparatus — but the body must still assert.
+
+## Highlights block discipline
+- Highlights are reader-facing **headline bullets**, not paragraphs.
+- Target **4-6 bullets**. Three reads thin; seven or more reads overstuffed.
+- If a new finding genuinely warrants a seventh bullet, shorten or consolidate the others rather than adding indefinitely. Bullet count and bullet length move together — more bullets means each must be shorter.
+- Each bullet leads with a **bold headline phrase** (one short sentence or fragment) followed by one or two short evidence/context sentences. The bullet should read like a magazine pull-quote, not a research note.
+- Concrete, ancestor-specific punch beats generic historical context. Wars-of-the-Roses overviews and generic Henry-VI-minority framing belong in Narrative, not Highlights.
+- The **full story** — multi-step argument, source chain, supporting detail — belongs in the **Narrative** section, not in the Highlights bullet. Treat each bullet as a pointer into the Narrative for readers who want more.
+- No inline page numbers, manuscript shelfmarks, archive codes (e.g. "TNA E101/48/6"), or multi-source provenance chains inside a Highlights bullet. Those go in the footnote, per the Citation placement rule above.
+- See `sources/intake/processed/Ready/v05-patchset-highlight-updates.md` for the worked-example style across G16-G37.
 
 ## Vitals overflow goes to Narrative, not to footnote
 - Vitals cells stay short (one or two short sentences; three is the exception).
@@ -81,7 +93,7 @@ Not allowed here:
 ## Citation rigor
 - Every factual sentence or tight factual cluster should have a nearby footnote.
 - Use full-form footnotes, not cryptic abbreviations.
-- Include URL when available.
+- Include URL when available. URL to a website should be a hyperlink when possible.
 - Include all material supporting sources when a claim is supported by more than one source.
 - If a sentence is inferential rather than directly attested, make that visible in the prose and cite accordingly.
 

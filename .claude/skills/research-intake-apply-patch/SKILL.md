@@ -29,6 +29,8 @@ Do not redo OCR, extraction, destination analysis, or prose generation except fo
 - create thin `sources/validations/...` notes
 - archive the raw session bundle
 - create the next blank session file when instructed
+- add a brief `**Done:** YYYY-MM-DD HH:MM PT` top-line stamp to newly completed patchsets
+- move completed patchsets to `sources/intake/done/`
 
 ## Not allowed
 - no fresh content analysis
@@ -49,3 +51,4 @@ All explicit instructions in the patchset are applied, and the summary reports:
 - research files updated
 - validations created
 - archive and rollover actions completed
+- patchset moved to `sources/intake/done/`

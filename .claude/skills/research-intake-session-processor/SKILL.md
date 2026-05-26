@@ -21,13 +21,16 @@ Run the prep phase only:
 - inspect files and URLs
 - extract/OCR/retrieve as needed
 - decide outcome and destination
-- produce `sources/intake/processed/vNN.patchset.md`
+- use the current `sources/intake/processed/stub-vNN.md` as the patchset number
+- rename that stub to the real `sources/intake/processed/vNN-topic.patchset.md`
+- create the next incremented stub immediately
 - stop
 
 ## If given a reviewed patchset
 Run the apply phase only:
 - execute the explicit instructions in the patchset
 - do not do new content analysis except trivial path correction
+- move the completed patchset to `sources/intake/done/`
 - stop and report what changed
 
 ## Non-negotiables

@@ -70,6 +70,13 @@ Each footnote should generally include:
 - Prefer the page URL for the exact record, article, or source entry.
 - If a source is only reachable through a search-result flow, cite the stable collection or record URL if one exists.
 
+## Tertiary online sources (Wikipedia and similar)
+- Wikipedia and similar compiled-pedigree / encyclopedic sites are **collectors**, not authorities. They have value as quick orientation and as pointers to the underlying primary or secondary literature their references cite.
+- When a Wikipedia (or comparable tertiary) page is the proximate source for a finding, **trace it to the authority it cites** before publishing — the underlying History of Parliament biography, Calendar of Patent Rolls volume, parish-register entry, monograph, peer-reviewed article. Cite the authority, not the collector, in the fact-sheet footnote.
+- Keeping the collector URL in a research-companion note as a discovery trail is fine. Do not let a Wikipedia citation stand alone in a fact sheet when the underlying authority is reachable.
+- Same posture for Stirnet, FamilySearch Family Tree, Geni, WikiTree, Find a Grave memorial pages without primary documentation, and similar compiled-pedigree databases.
+- A Wikipedia URL is acceptable as a supplementary cross-reference link in the related-links sidebar (orienting the reader to a famous in-law's biography) but it should not be the sole citation for any substantive factual claim.
+
 ## Unsupported claims
 - If a claim cannot be sourced confidently, either:
   - remove it from the fact sheet, or

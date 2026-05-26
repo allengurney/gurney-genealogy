@@ -122,6 +122,18 @@ Translation: *"On the 8th day before the Ides of May [= 8 May], died Girardus of
 
 Independent twelfth-century corroboration of the donation chain Hugh III → Gerard → Basilia.
 
+### 2.10.1 The DCCXLIV (Delisle/Berger Tome II) Écouché continuity attestation
+
+The full 1181–89 Bec confirmation (DCCXLIV in Delisle and Berger, Tome II, p. 375; Delisle n° 552) preserves a fifth Gournay-related "Ex dono" clause beyond the four already recorded at §2.10:
+
+> "Ex dono Hugonis de Gornaio, decimam de prepositura et portione sua in villa de Escochei et pertinenciis suis."[^dccxliv-ecouche]
+
+Translation: *"From the gift of Hugh de Gournay, the tithe of his prevotage and his portion in the township of Écouché, with its appurtenances."*
+
+This "Hugues de Gournay" is Hugues IV — Gerard's senior-line heir — donating from the **same Écouché township** that Basilea Flaitel acquired as *maritagium* by her first marriage to Raoul de Gacé before 1051 (G33 §3.1), and that Gerard held in [1089] when the Évreux count's reclamation dispute placed the custody on Orderic's record (§2.4 above, naming "Girardus de Gornaco" as the holder via his Basilea-Flaitel descent). The 1181–89 royal confirmation preserves the Écouché-Gournay line **across three documented generations** — Basilea (post-1051 acquisition) → Gerard ([1089] custody) → Hugues IV (1181–89 Bec donation from a *portio* and the *prepositura*'s tithe). The maritagium did not pass out of the family after Gerard's death; a meaningful share of its revenue was still in Gournay hands a century later and was being given to Bec by Hugues IV alongside the older Gerard-and-Basilea donations.
+
+The DCCXLIV charter is the primary-source corroboration that the Écouché tenure recorded at §2.4 was durable, not contingent on Gerard's personal alignment with William Rufus in [1089/90]. It also strengthens the Bec donation chain at §2.10 with one further generation: Hugh III + Gerard + Basilea (§2.10) + Hugues IV (this §2.10.1), confirmed together in a single mid-1180s royal act.
+
 ### 2.11 St-Wandrille charter — Gerard exercising seigneurial assent
 
 DG-Supp Note 17 (pp. 735–736) preserves the full Latin charter from the Chartulary of St-Wandrille (Caux archives Seine-Inférieure, f. 314, piece D, II, VI). Gerard is named as the lord whose assent (*annuente Girardo de Gournai*) was required for a land grant by Turchetillus, Willelmus, Godfridus, and "Hugo filius ejus" to the church of Saint-Wandrégisile at "la Corberere." The grantors and their heirs were admitted to the fraternity and society of the church, with right to enter as monks.
@@ -170,7 +182,7 @@ FMG canvasses three options for Amicie (wife of Richard Talbot, mother of Hugh T
 
 (a) daughter of Gerard by Edith de Warenne — chronologically tight;
 (b) daughter of Gerard by an earlier unrecorded marriage (FMG's preferred reading; Pam Wilson 2015 endorsed for the Geni profile under Cawley's logic; Pattou's preferred reading too — chart shows Amicie under "1)" branch with `?`);
-(c) daughter of Hugues [III] de Gournay (more remote *nepos* sense).
+(c) daughter of Hugues [III] de Gournay (more remote *nepos* sense).[^amicie-talbot-tome-ii]
 
 > Henry II King of England confirmed the possessions of the abbey of Valmont, including donations by "…Richardi Tallebot et Amicie uxoris eius et Hugonis et Willelmi filiorum suorum…", by charter dated to [1181/83] (FMG [889]). Henry II King of England confirmed the possessions of the priory of Sainte-Foi de Longueville, including donations by "Ricardi Thalebot et Avitie uxoris sue et Hugonis filii sui", by charter dated to [Mar/Jun] 1189 (FMG [890]).
 
@@ -432,3 +444,5 @@ Drogo II is not a Gournay by blood but he is half-brother to Hugh de Gournay (IV
 | Clay, Charles Travis, ed., *Early Yorkshire Charters*, vol. 8: *The Honour of Warenne* (1949), pp. 6–7 — pursued May 2026 via archive.org/details/YASES6; direct quotation landed at §11 | `early-yorkshire-charters-vol-8-clay-1949` |
 | Delisle, Léopold, and Élie Berger, eds., *Recueil des actes de Henri II*, vol. 1 (1916) — acts CCCXXV and CCCCXXXIII; pursued May 2026 (user-supplied PDF); landed at fact-sheet n4 and n6 | `recueil-actes-henri-ii-delisle-berger-vol-1` |
 | *Recueil des historiens des Gaules et de la France*, tome 15 (1878 ed.) — Epistolae Sugerii no. XLVII (Louis VII to Suger, 1148, on Drogo de Munci's death); also Ivo of Chartres letter CIX on Drogo I and Beauvais. Pursued May 2026 (user-supplied hOCR + IA PDF); landed at §13 above and at fact-sheet n13 | `rhgf-vol-15-1878` |
+[^dccxliv-ecouche]: Léopold Delisle and Élie Berger, eds., *Recueil des actes de Henri II, roi d'Angleterre et duc de Normandie, concernant les provinces françaises et les affaires de France*, vol. 2 (Paris: Imprimerie nationale; librairie C. Klincksieck, 1920), act DCCXLIV at pp. 375–379 (the relevant Écouché clause at p. 379). Delisle's editorial number: n° 552. The charter is dated 1181–89, place "Apud Montem Fortem"; the original is lost, the text reconstructed by Delisle from multiple medieval copies (BnF lat. 13905 fol. 117, Rouen ms. 1235 fol. 26, Archives de l'Eure G 122–123, Monasticon Anglicanum t. VI p. 1067, Neustria Pia p. 484). PDF available at Internet Archive (`recueildesactesd02grea`). Source ID: `recueil-actes-henri-ii-delisle-berger-vol-2`.
+[^amicie-talbot-tome-ii]: The two FMG-quoted Henry II acts for Amicie Talbot's identification (FMG [889] = act DCXXXVI at Selvi castrum 1181–1183; FMG [890] = act DCCLXVIII at Le Mans 1188–1189) are now in repo via direct Tome II extraction. The primary texts confirm Cawley's reading: DCXXXVI names "Amicie, uxoris ejus" with sons Hugh and William; DCCLXVIII names "Avitie uxoris sue" with son Hugh (the "Avitia"/"Arilia" variant is internal to the Talbot acts and matches Cawley's [890] transcription). The Tome II texts add no new content beyond what Cawley quoted, but they elevate the FMG citation chain to primary-source via the Delisle-Berger critical edition. Source ID: `recueil-actes-henri-ii-delisle-berger-vol-2`.

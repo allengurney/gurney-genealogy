@@ -191,3 +191,55 @@ The Wansey/Wauncy pedigree lead preserves a close but conflicting collateral-lin
 ## Citation note (2026-04-16)
 
 Earlier version of this companion miscited DG-II references as "DG Supplement (1858)" — page numbers under p. 725 are below the Supplement's range. Corrected. See `research/topics/dg-citation-audit.md`.
+
+### History of Parliament biography — already preserved in corpus supplement
+
+The full text of L. S. Woodger, "GURNEY, John (d.1408), of Harpley and West Barsham, Norf.," in J. S. Roskell, L. Clark, and C. Rawcliffe, eds., *The History of Parliament: The House of Commons 1386-1421* (Cambridge: Cambridge University Press, 1993), is already preserved at `sources/corpus_supplement/John-Gurney-d1408-The-History-of-Parliamentx.md` (sourceId `hop-gurney`). That file is the authoritative copy of the biography and the place to consult when extending coverage of Sir John V into G22 / G23 research notes.
+
+Findings from the HoP biography that are still worth surfacing in this companion (not previously summarised here):
+
+- **1392 Edmund Clippesby murder and the death threat against Sir John.** "When, in 1392, Edmund Clippesby, a leading Norfolk lawyer who had acted with Gurney's father as joint steward of the duchy of Lancaster estates in the region, was murdered at his home, Gurney himself was threatened with death if he tried to open proceedings against the criminals, all of whom were servants of Bishop Despenser of Norwich. (The bishop was no friend of John of Gaunt.)" — places the Edmund-Gurney / Edmund-Clipesby joint Norwich retainer pair (Norwich Treasurers' fee paragraphs, see v63 + `sources/corpus_supplement/norwich-records-hudson-tingey-vol2-edmund-gornay-fees.md`) in a wider political context.
+- **1392 London Husting court payment.** Alice Heylesdon's late father had divided his property between Alice and her sister Margaret in 1384; Margaret died before majority; in 1392 Alice and John Gurney collected the £300 from the London civic authorities allotted to her by the Heylesdon will. The full Heylesdon will text is at `sources/corpus_supplement/husting-wills-london-vol2-john-heylesdon-1384.md` (via v63).
+- **1399 Nerford purchase at Houghton.** "Gurney increased his holdings still further through purchase, buying in 1399 a moiety of the Nerford manor at Houghton, which bordered on his own estate at Harpley."
+- **1408 Hellesdon bridge dispute with Norwich.** "Early in 1408 he instigated work at Hellesdon on the building of a bridge over the river Wensum, but the citizens of Norwich, apprehensive that this would result in their loss of revenue from tolls, procured a royal writ suspending the project until the matter had been discussed before the King's Council." A direct echo of Edmund's own friction with Norwich (his retainer status notwithstanding) a generation earlier.
+- **1406 Walsingham land grant in Sir Edmund Reynham's memory.** Sir John continued the family's Walsingham priory patronage that Edmund had begun (1385 Walsingham grant with Calthorpe / Hales / Shelton, per *Patent Roll* 8 Richard II, p. 2, m. 15) and that Thomas II (G20) would extend (1471 will gold-turquoise ring to the chapel of the Annunciation + £10 to the prior for a "new work").
+- **March 1408 Felton-Banham lease to John Spencer.** Last documented Gurney transaction before Sir John V's death on 4 December 1408.
+- **Edmund the heir** (Sir John V's only son) was 10 years old at the father's death and "followed him to the grave not long afterwards."
+- **Alice Heylesdon's three marriages and 1433 Heylesdon sale to Fastolf.** Alice survived Sir John V by at least 25 years. She sold Loundhall to John Wynter to pay her late husband's debts. She remarried twice: first the Fitzalan retainer Sir John Wiltshire (d. 1428), then Richard Selling esquire. In 1433 she sold the bulk of her Heylesdon inheritance to Sir John Fastolf KG. In 1450 Fastolf, securing the title deeds, also wanted copies of the wills of Gurney and Wiltshire (Paston Letters ed. Gairdner i. 164). The Heylesdon-Fastolf-Paston-Heydon chain that the G19 1472 Saxthorpe episode (v62 Item 01) sits inside begins here.
+
+### Norwich Treasurers' fee payments to Edmund — primary record
+
+The Norwich City Treasurers' accounts in *Records of the City of Norwich* vol. ii (Hudson and Tingey 1910), pp. 44 and 47, record two annual fee payments of 20 shillings each to "Edmund Gornay," paid in the same fee paragraph as the 20s paid to Edmund de Clipesby:
+
+> "Fees paid. First, paid to Edmund Gornay for his fee this year, 20s. To Edmund de Clipesby, 20s. To the said Treasurers for their fees this year, 40s." (p. 44)
+
+> "Fees Paid. To Edmund Gornay for his fee this year, 20s. To Edmund de Clipesby etc. 20s. To John Drake etc. 13s. 4d. To John de Tasburgh, Common Sergeant, etc. £5 12s." (p. 47)
+
+This is the direct primary attestation behind Blomefield's standing-counsel reference and the History of Parliament biography's phrasing. The retainer-pair detail with Edmund de Clipesby is the new content: Clipesby is the lawyer the History of Parliament biography identifies as joint Duchy of Lancaster steward with Edmund Gurney's father and as the man murdered at his home in 1392 by servants of Bishop Despenser, with Sir John V then threatened with death if he opened proceedings against the killers. Gornay and Clipesby were a documented retainer pair to the city for years before the killing.
+
+Full text of both paragraphs and the volume's later "Gurnay, John 245, 7" Norwich-tenant entry preserved at `sources/corpus_supplement/norwich-records-hudson-tingey-vol2-edmund-gornay-fees.md`.[^v63-norwich-records-edmund-gornay-fees]
+
+[^v63-norwich-records-edmund-gornay-fees]: William Hudson and John Cottingham Tingey, eds., *The Records of the City of Norwich* (Norwich and London: Jarrold, 1910), vol. ii, "Selected Records of the City of Norwich," City Treasurers' Accounts, pp. 44 and 47. Internet Archive: [archive.org/stream/recordsofcityofn02norwuoft/recordsofcityofn02norwuoft_djvu.txt](https://archive.org/stream/recordsofcityofn02norwuoft/recordsofcityofn02norwuoft_djvu.txt). Index of Names entry: "Gornay, Edmund, 44, 7." Source ID: `norwich-records-hudson-tingey-vol2`.
+
+### John Heylesdon's 1384 Husting will — foundation document for the Heylesdon settlement
+
+Append also under the existing Sir John V sub-section: Reginald R. Sharpe, *Calendar of Wills proved and enrolled in the Court of Husting, London* Part II (1890), pp. 241-243, Roll 113 (1), preserves the full Husting calendar text of John Heylesdon's will, dated London 14 April 1384 and proved at the Husting on Monday next before St Margaret the Virgin (20 July) 1384.
+
+Key provisions:
+
+- Buried at Hellesdon parish church "near the tomb of his father and mother" — anchoring two prior Heylesdon generations at the parish.
+- **Wife:** Johanna.
+- **Daughters:** Alice (the future wife of Sir John Gurney V) and Margaret (who died before majority per the History of Parliament biography).
+- **Brother:** Robert Heylesdon. **Sister:** Margaret Heylesdon.
+- **Two perpetual chantries** at Hellesdon parish church, endowed by 20 marks yearly quitrent of lands in the London parish of All Hallows de Graschirche. Trustees: John Chircheman and Sir Richard Tasburgh (then rector of Hellesdon). For the souls of John, Johanna, Walter de Berneye, Edmund de Alderford, John Chircheman and Emma wife of same, Thomas de Aldeburgh, and others.
+- Wife Johanna: life interest in the Hellesdon lands subject to the chantry charge; £200 sterling by way of dower of his movable goods; her entire chamber, ornaments, personal clothing.
+- After Johanna's decease, the Hellesdon lands to Margaret his daughter in tail; remainder in trust for sale for pious uses.
+- **To Alice his daughter** — lands and tenements in the city of Norwich in tail; and "under certain conditions," his tenements in Westcheap, London, called the "Crowned Seld" (*la Selde coronata*).
+- Other bequests: Agnes wife of Bartholomew Marche; poor lepers within three miles of London; redemption of poor prisoners in Ludgate and Newgate; poor kinsfolk in Hellesdon and elsewhere in Norfolk; poor scholars at school; two pilgrims to Rome for one Lent; the Carthusian monks near West Smithfield; the Nuns Minoresses without Aldgate; the nuns of Shouldham; William Reve, rector of the church of Drayton; John and Thomas Tasburgh; Margaret wife of Thomas Mounteneye. £40 on his funeral. Codicil annexed.
+- The Husting calendar notes the will was later made an exhibit in Chancery, *Attorney-General v. Fishmongers' Company* — almost certainly post-Reformation litigation over the chantry endowments after the Edward VI dissolutions.
+
+This is the document from which the entire downstream Heylesdon-Gurney property settlement flows. When Margaret died before majority, Alice inherited everything (Crowned Seld, Norwich tenements, the Hellesdon and Drayton manors, the chantry advowsons, and the Norfolk kinsfolk network). On her marriage to Sir John Gurney V it all entered the West Barsham Gurney portfolio.
+
+Full calendar text and the Stow / Crowned Seld identification preserved at `sources/corpus_supplement/husting-wills-london-vol2-john-heylesdon-1384.md`.[^v63-husting-heylesdon-1384]
+
+[^v63-husting-heylesdon-1384]: Reginald R. Sharpe, ed., *Calendar of Wills proved and enrolled in the Court of Husting, London, A.D. 1258-A.D. 1688*, Part II (London: J. C. Francis, 1890), pp. 241-243, Roll 113 (1). Internet Archive: [archive.org/stream/willshusting02sharuoft/willshusting02sharuoft_djvu.txt](https://archive.org/stream/willshusting02sharuoft/willshusting02sharuoft_djvu.txt). Source ID: `husting-wills-london-vol2-sharpe`.

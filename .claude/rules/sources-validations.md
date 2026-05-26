@@ -26,7 +26,7 @@ Do **NOT** include detailed facts and findings which should live in research and
 They should not become the main home for person/place/topic findings.
 
 ## Keep process centralized
-- If `sources/intake/processed/vNN.patchset.md` already records extraction method, triage, and exact file operations, validations may point to it rather than repeat it.
+- If an intake patchset already records extraction method, triage, and exact file operations, validations may point to it rather than repeat it. Completed patchsets live in `sources/intake/done/`; active patchsets awaiting application live in `sources/intake/processed/`.
 - Do not turn validations into mini research files or patch transcripts.
 
 ## Good content here

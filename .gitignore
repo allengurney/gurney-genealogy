@@ -154,6 +154,17 @@ vite.config.ts.timestamp-*
 # Keep these locally; commit text extracts (e.g., *-extract.txt) instead.
 sources/FS/Histoire_de_Lorraine_*.pdf
 
+# Local-only media: oversize (>35 MB), copyright-restricted, or privacy-sensitive
+# originals. See sources/media/_local/README.md and .claude/rules/sources-media.md.
+# Commit a stub in the parent folder describing what lives locally and where the
+# canonical master can be retrieved.
+# Ignore _local/ contents (not the directory itself, so README can be re-included).
+sources/media/_local/*
+sources/media/*/_local/*
+# But always commit the README that describes what's parked locally.
+!sources/media/_local/README.md
+!sources/media/*/_local/README.md
+
 # Local package cache used when npm is unavailable in the sandbox.
 site/website/.pkg-cache/
 site/website/.npm-cache/

@@ -181,3 +181,13 @@ The College of Arms 1622 pedigree is the highest-value lead. The IPM for Edmund 
 ## Citation note (2026-04-16)
 
 Earlier version miscited DG-II references as "DG Supplement" — corrected per `research/topics/dg-citation-audit.md`.
+
+### Heylesdon-aftermath continuation: Alice Heylesdon's three marriages and 1433 Fastolf sale
+
+Per the History of Parliament biography of Sir John Gurney V (full text at `sources/corpus_supplement/John-Gurney-d1408-The-History-of-Parliamentx.md`):
+
+> "Gurney's widow, Alice, survived him by at least 25 years. She sold 'Loundhall' to John Wynter in order to pay her late husband's debts, and then married twice more: first the Fitzalan retainer, Sir John Wiltshire (d.1428), and then Richard Selling, esquire. In 1433 she sold the bulk of her Heylesdon inheritance to Sir John Fastolf KG."
+>
+> Note 8: "Blomefield, x. 411, 426; Norf. RO, Reg. Surflete, f. 27. In 1450 Fastolf, anxious to secure the title deeds to the Heylesdon estates, also wanted copies of the wills of Gurney and Wiltshire: Paston Letters ed. Gairdner, i. 164."
+
+The 1433 Heylesdon sale to Fastolf is the upstream event for the entire downstream Saxthorpe / Titchwell / Paston / Heydon contest that William Gurney IV would walk into in 1472 (Saxthorpe Court showdown, v62 Item 01). When Fastolf died in 1459 he willed his Norfolk estates to Sir John Paston; the Pastons claimed Saxthorpe and Titchwell as Fastolf's heirs; Henry Heydon ultimately bought them from Bishop Waynflete of Winchester in 1472 over both parties' heads. The Heylesdon-Fastolf-Paston-Heydon chain that swept the v22 line's adjacent landholdings through three families and three crises in three generations begins with Robert's brother Sir John V's marriage to Alice Heylesdon (the 1384 Husting will of Alice's father John Heylesdon — full text at `sources/corpus_supplement/husting-wills-london-vol2-john-heylesdon-1384.md` via v63 — is the foundation document) and ends with the 1472 Saxthorpe episode that pulled William IV (Robert's great-grandson) into one of the most famous Norfolk gentry property disputes of the fifteenth century.

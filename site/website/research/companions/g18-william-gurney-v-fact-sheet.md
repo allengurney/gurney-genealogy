@@ -119,3 +119,15 @@ The material culture details (gold ring with turquoise, featherbeds, wainscot fu
 2. **Edward Howard:** A future Lord Admiral as feoffee shows the Gurney-Howard relationship was real and high-level.
 3. **Anne Heydon's will:** The material culture (turquoise ring, cypress coffer, damask gowns, gilt cup) paints the most vivid domestic picture of any Gurney source before the 17th century. Could be excerpted in the narrative.
 4. **Son predeceasing father:** The succession gap (William V → grandson Anthony, skipping son William junior) is genealogically important and should be clearly explained.
+
+### Heydon-Gurney alliance — operating in 1471, formally sealed by the 1484 marriage
+
+The 1484 marriage indentures between William V (G18) and Anne Heydon (granddaughter of John Heydon of Baconsthorpe) are conventionally framed as the moment the Heydon connection entered the Gurney line. The full record shows the alliance was operating thirteen years earlier:
+
+- **27 July 1471 — Thomas Gournay II's will probated.** John Heydon of Baconsthorpe is named as supervisor (the senior overseer of the executors). Heydon was the most powerful Norfolk lawyer of the mid-fifteenth century, the *Paston Letters* antagonist, William de la Pole's chief East Anglian agent, joint Duchy of Lancaster steward with Sir Thomas Tuddenham, and survivor of Tuddenham's 1462 execution by paying 500 marks for a Yorkist pardon. (Source: Blomefield, *History of Norfolk*, vol. vii, "West-Barsham," pp. 42-47, will text — see `sources/corpus_supplement/blomefield-norfolk-vol7-pp42-47-west-barsham.md`.)
+- **January–May 1472 — Saxthorpe Court showdown.** Henry Heydon (John Heydon's son) raises men-at-arms in William Gurney IV's support during William IV's two attempts to hold a manorial court at Saxthorpe against John Paston. Documented in the Gairdner Introduction to the *Paston Letters* — see v62 for the full extract.
+- **28 May 1484 — Marriage indentures.** Between Henry Heydon Esquire and William Gurnay senior (= G19 William IV), arranging the marriage of Henry's daughter Anne Heydon to G19's son and heir William junior (= G18 William V). Documented in Daniel Gurney *Supplement* Note 132, pp. 817-819 (within the 1485 trust deed recital).
+
+The 1484 marriage was the formal sealing of a Gurney-Heydon professional and military alliance that had already been operating in the field for thirteen years.[^v61-heydon-alliance-chronology]
+
+[^v61-heydon-alliance-chronology]: 1471 supervisor: Francis Blomefield, *History of Norfolk*, vol. vii, "West-Barsham," pp. 42-47, [British History Online](https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp42-47), Source ID `blomefield-norfolk`. 1472 Saxthorpe Court: James Gairdner, ed., *The Paston Letters* (1904), Introduction vol. I, Source ID `paston-letters-gairdner` (added to `data/sources.json` in v62). 1484 marriage indentures and 1485 trust deed: Daniel Gurney, *Supplement to the Record of the House of Gournay* (King's Lynn: Thew & Son, 1858), Note 132, pp. 817-819, Source ID `dg-rec-supp`.

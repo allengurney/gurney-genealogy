@@ -76,3 +76,13 @@ Hellesdon is a good example of why the place library needs to preserve **collate
 - None in cleanup pass 3b.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->
+
+## John Heylesdon's 1384 will and the two perpetual chantries
+
+The Hellesdon manor and the two perpetual chantries founded in the parish church entered the West Barsham Gurney portfolio through the marriage of Alice Heylesdon (daughter of John Heylesdon, d. 1384) to Sir John Gurney V (d. 1408). The foundation document is John Heylesdon's will of 14 April 1384, proved at the Court of Husting in London on 20 July 1384.
+
+The will directs burial at Hellesdon parish church "near the tomb of his father and mother," confirming at least two prior Heylesdon generations at the parish. Two perpetual chantries were endowed by 20 marks annual quitrent from London property in the parish of All Hallows de Graschirche, with John Chircheman and Sir Richard Tasburgh (then rector of Hellesdon) as the chantry trustees. The London Westcheap warehouse "Crowned Seld" (*la Selde coronata*) and lands and tenements in the city of Norwich were bequeathed specifically to Alice in tail.
+
+Full Husting calendar text and discussion preserved at `sources/corpus_supplement/husting-wills-london-vol2-john-heylesdon-1384.md`.[^v63-husting-heylesdon-1384-place]
+
+[^v63-husting-heylesdon-1384-place]: Reginald R. Sharpe, ed., *Calendar of Wills proved and enrolled in the Court of Husting, London, A.D. 1258-A.D. 1688*, Part II (London: J. C. Francis, 1890), pp. 241-243, Roll 113 (1). Internet Archive: [archive.org/stream/willshusting02sharuoft/willshusting02sharuoft_djvu.txt](https://archive.org/stream/willshusting02sharuoft/willshusting02sharuoft_djvu.txt). Source ID: `husting-wills-london-vol2-sharpe`.

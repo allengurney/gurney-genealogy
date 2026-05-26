@@ -369,7 +369,7 @@
     "corpusPath": "",
     "mediaPath": "",
     "validationPath": "",
-    "notes": "Key parish entries: Harpley (vol. viii, pp.452–459), West Barsham (vol. vii, pp.42–47), Great Ellingham (vol. ii), Hardingham (vol. x, p. 224), Hingham (vol. ii, p. 445). Independently confirms multiple DG pedigree points. Priority corpus extraction candidate for Norfolk ancestors G20–G27."
+    "notes": "Key parish entries: Harpley (vol. viii, pp.452–459), West Barsham (vol. vii, pp.42–47), Great Ellingham (vol. ii), Hardingham (vol. x, p. 224), Hingham (vol. ii, p. 445). Independently confirms multiple DG pedigree points. Priority corpus extraction candidate for Norfolk ancestors G20–G27. Per-parish extracts captured in `sources/corpus_supplement/` as separate files: `blomefield-norfolk-vol7-pp42-47-west-barsham.md` (West Barsham, Gurney manorial descent and 1471 will text); `blomefield-norfolk-vol7-pp53-65-east-barsham.md` (East Barsham, 1434-35 Thomas Gournay I feoffment and 1499 Earl of Oxford grant to William junior)."
   },
   {
     "sourceId": "blomefield-norfolk-vol5-pp33-cringleford-berford",
@@ -1536,6 +1536,18 @@
     "notes": "Local environmental/history report. Page 13 provides compact context for Alley Creek/Little Neck Bay navigation, two mills, tavern, blacksmith, wheelwright, general store, first Flushing post office, Van Zandt's 1826 causeway, and the John Baird/Bird woolen mill fire."
   },
   {
+    "sourceId": "hop-drury-robert-i-1456-1535",
+    "shortTitle": "History of Parliament -- DRURY, Sir Robert I (by 1456-1535)",
+    "citation": "L. M. Kirk, \"DRURY, Sir Robert I (by 1456-1535), of Hawstead, Suff. and London,\" in S. T. Bindoff, ed., The History of Parliament: The House of Commons 1509-1558 (London: Secker & Warburg, 1982).",
+    "archive": "History of Parliament Online",
+    "url": "https://www.historyofparliamentonline.org/volume/1509-1558/member/drury-sir-robert-i-1456-1535",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/hop-drury-robert-i-1456-1535.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Source-traceable authority for Sir Robert Drury (Speaker of the Commons 1495), feoffee on William Gurney IV's 1505 trust deed. Records two marriages: (1) Anne Calthorpe by Sir William's second wife Elizabeth Stapleton -- William IV's half-sister-in-law; (2) Anne Jerningham of Somerleyton -- same family as G20's wife Margaret Jerningham. Drury was therefore kin to the Gurneys via both Calthorpe and Jerningham marriages. Also records Blackheath 1497 service possibly under John de Vere 13th Earl of Oxford and subsequent role as the earl's deputy in the Duchy of Lancaster south-parts stewardship."
+  },
+  {
     "sourceId": "hop-gurney",
     "shortTitle": "History of Parliament Online — Gurney",
     "citation": "History of Parliament Trust. 'Sir John Gurney (d.1408).' The History of Parliament: the House of Commons. historyofparliamentonline.org.",
@@ -1594,6 +1606,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Principal modern scholarly biography of Sir John Gurney (d. 5 Dec 1408), the collateral son of Edmund Gournay (G23) and Katherine de Wauncy. Corroborates Edmund G23's 1387 death, his Harpley/Hardingham/Saxthorpe-Loundhall holdings, the Wauncy West Barsham inheritance, and the Gurney-family establishment in Norfolk since the 12th century. Distinct from existing sourceId `hop-gurney`; retained because v54 citations reference this exact sourceId."
+  },
+  {
+    "sourceId": "norwich-records-hudson-tingey-vol2",
+    "shortTitle": "Hudson and Tingey -- Records of the City of Norwich, vol. ii (1910)",
+    "citation": "William Hudson and John Cottingham Tingey, eds., The Records of the City of Norwich (Norwich and London: Jarrold, 1910), vol. ii.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/recordsofcityofn02norwuoft",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/norwich-records-hudson-tingey-vol2-edmund-gornay-fees.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Vol. ii of the Hudson-Tingey edition. Used in v63 for the City Treasurers' Accounts entries at pp. 44 and 47 recording two annual fee payments of 20 shillings each to 'Edmund Gornay', paid in the same fee paragraph as the 20s paid to Edmund de Clipesby. Direct primary attestation behind Blomefield's general standing-counsel reference and the History of Parliament biography of Sir John Gurney V."
   },
   {
     "sourceId": "arber-stationers-bsoc-petition-1646-hunscott",
@@ -2304,6 +2328,18 @@
     "notes": "PhD thesis on crusader inheritance protection. Page 152 states Drogo II of Mouchy died on the Second Crusade in 1148 and discusses Louis VII's order to Suger to protect Drogo's inheritance during his absence. Used for the Drogo II death year and the Second Crusade connection."
   },
   {
+    "sourceId": "paston-letters-gairdner",
+    "shortTitle": "Paston Letters -- Gairdner edition (1904)",
+    "citation": "James Gairdner, ed., The Paston Letters, A.D. 1422-1509, 6 vols. (London: Chatto and Windus, 1904).",
+    "archive": "Project Gutenberg + Internet Archive",
+    "url": "https://www.gutenberg.org/cache/epub/43348/pg43348.txt",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/paston-letters-gairdner-gurney-extracts.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Standard scholarly edition. Vol. I is the editorial Introduction; vols. II-VI carry the letters in numbered sequence. Gurney-related extracts captured: Saxthorpe Court 1472 episode (vol. I Introduction, narrating Paston letters Nos. 779, 796, 801 + Margaret Paston 5 June 1472); 23 April 1452 St George's Day petition signed by Thomas Gurnay (vol. II); Countess of Oxford to John Paston referencing Margaret Gurnay (vol. II, undated)."
+  },
+  {
     "sourceId": "pattou-racines-histoire-gournay-2025",
     "shortTitle": "Pattou Racines Histoire -- Gournay",
     "citation": "Pattou, Etienne. Seigneurs de Gournay (-en-Bray) & Gurney, Normandie, Angleterre. Racines & Histoire chart genealogy, last updated 2025-08-11.",
@@ -2472,6 +2508,18 @@
     "notes": "Posthumous edition of Delisle's collection of Henry II's acts concerning the French provinces, completed by Élie Berger. Tome 1 covers acts I-CCCC and beyond from c. 1154 onward. Key entries for the Gournay direct line: (a) Act CCCXXV (Delisle n° 196), before 1172-1173 -- royal confirmation of Mélisende de Gournay's dower at Gaillefontaine and in England, including 'omnem terram quam habuit mater Hugonis Edwa in Anglia' (all the land that Hugh's mother Edwa had in England). This is the Latin royal-chancery attestation of 'Edwa' = Edith de Warenne and confirms her independent English landholding. Original lost; the act survives in transcription via Daniel Gurney, Record, vol. 1, p. 215. (b) Act CCCCXXXIII (Delisle n° 289), 1166-1172/3 at Rouen -- royal confirmation of the Abbey of Bec's holdings, listing gifts including 'Ex dono Hugonis de Gurnay' [Hugh III], 'Ex dono Basilie de Gurnay' [Basilia, Hugh III's wife], and 'Et de dono Gerardi de Gornay, Lesingham' [Lessingham, Norfolk, given by Gerard de Gournay G32]. Primary-source attestation of the three-generation Bec donation chain; sibling to the [1181/89] confirmation already cited via FMG [885]. Full extracted text at sources/corpus_supplement/actes-henri-ii-delisle-berger-vol1-text.md."
   },
   {
+    "sourceId": "recueil-actes-henri-ii-delisle-berger-vol-2",
+    "shortTitle": "Recueil des actes de Henri II, Delisle/Berger, vol. 2 (1920)",
+    "citation": "Delisle, Léopold, and Élie Berger, eds. Recueil des actes de Henri II, roi d'Angleterre et duc de Normandie, concernant les provinces françaises et les affaires de France. Vol. 2. Paris: Imprimerie nationale; librairie C. Klincksieck, 1920.",
+    "archive": "Internet Archive (recueildesactesd02grea); also Gallica",
+    "url": "https://archive.org/details/recueildesactesd02grea",
+    "corpusStatus": "full",
+    "corpusPath": "sources/corpus_supplement/actes-henri-ii-delisle-berger-vol2-text.md",
+    "mediaPath": "sources/media/recueildesactesd02grea.pdf",
+    "validationPath": "",
+    "notes": "Posthumous edition of Delisle's collection of Henry II's acts concerning the French provinces, completed by Élie Berger. Tome 2 covers acts CCCCXLVIII (act 448) onward through DCCC+ range, all c. 1170s–1189. Key Gournay-related acts: (a) DXXXII (Delisle n° 365), 1172–1178, Bec Pré-de-Rouen confirmation subscribed by Hugues IV de Gournay (witness list: Hommet, Beaumont, Crispin, 'Hugone de Guurnayo et Roberto de Haricuria'); (b) DCXXXVI (Delisle n° 452–453), 1181–1183 at Selvi castrum, Valmont confirmation naming 'Ex dono Richardi Taliebot et Amicie, uxoris ejus, et Hugonis et Willelmi filiomm suorum' — Amicie Talbot primary attestation; (c) DCXXXVIII (Delisle n° 445 A), 20 January 1183 at Caen, fine between abbess of La Trinité de Caen and Robert de Scrotonia, witnessed by 'Hugone de Gornaiu' — latest dated Hugues IV witness attestation before death; (d) DCCXLIV (Delisle n° 552), 1181–1189 at Montfort, Bec confirmation listing five Gournay 'Ex dono' clauses including 'Ex dono Hugonis de Gornaio, decimam de prepositura et portione sua in villa de Escochei et pertinenciis suis' — primary-source attestation of Hugues IV's continuing Bec donation from Basilea Flaitel's Écouché maritagium, preserving the Gournay-Écouché tenure across three generations; (e) DCCL (Delisle n° 554), 1182–1189 at Rouen, Barbery confirmation witnessed by 'Hugone de Gurnai' (Hugues V); (f) DCCLII (Delisle n° 557), 1185–1189 at Argentan, Sigy priory confirmation naming 'Hugo Feriensis' as founder (= FMG's HUGUES [I] de la Ferté collateral) and listing the priory's six dependent churches including the Gaillefontaine church; (g) DCCLXVIII (Delisle n° 528), 1188–1189 probably March–June 1189 at Le Mans, Sainte-Foi de Longueville confirmation naming 'Ricardi Thalebot et Avitie uxoris sue et Hugonis filii sui' as donors of the church of Sainte Geneviève. Fetched 2026-05-25 from Internet Archive recueildesactesd02grea. Full Gournay-relevant Latin extracts at sources/corpus_supplement/actes-henri-ii-delisle-berger-vol2-text.md (Phase-2 to populate)."
+  },
+  {
     "sourceId": "rhgf-vol-15-1878",
     "shortTitle": "Recueil des historiens des Gaules et de la France, tome 15 (1878 ed.)",
     "citation": "Recueil des historiens des Gaules et de la France. Tome 15. Edited by Dom Martin Bouquet and continued under the direction of Léopold Delisle. Paris: Imprimerie Nationale, 1878 [new edition; original 18th-c. compilation by Dom Bouquet et al.]. Académie des Inscriptions et Belles-Lettres.",
@@ -2590,6 +2638,18 @@
     "mediaPath": "sources/media/ukda-9263-merchant-taylors-apprentices/",
     "validationPath": "sources/validations/ukda-9263-mt-apprentices-scott-2024.md",
     "notes": "Published transcription of the Merchant Taylors' Company binding books and freedom registers, 1583-1800: 63,644 binding rows in COMB, 65,392 freedom rows, plus Court Appearances, Redemptions, and Patrimony sheets. CC BY-NC-SA 4.0. Primary first-hand evidence for Francis Gurney G14's apprenticeship (bound 14 May 1599 to Henry Tryme, transferred 3 Feb 1605 to William Smooth, freed 30 June 1606) and for Francis G14 as master taking Francis Spelman s. Sir Henry Spelman in 1616 with a £100 bond. Confirms no John Gurney son of Francis Gurney was bound or freed by patrimony in the MT 1583-1800 record. See research/topics/merchant-taylors-1583-1800-gurney-analysis.md."
+  },
+  {
+    "sourceId": "husting-wills-london-vol2-sharpe",
+    "shortTitle": "Sharpe -- Calendar of Wills Court of Husting London Part II (1890)",
+    "citation": "Reginald R. Sharpe, ed., Calendar of Wills proved and enrolled in the Court of Husting, London, A.D. 1258-A.D. 1688, preserved among the Archives of the Corporation of the City of London, at the Guildhall, Part II (London: J. C. Francis, 1890).",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/willshusting02sharuoft",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/husting-wills-london-vol2-john-heylesdon-1384.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Part II covers A.D. 1358-1688. Used in v63 for the full Husting calendar text of John Heylesdon's 1384 will at pp. 241-243 (Roll 113 (1)), foundation document for the Heylesdon settlement that came into the Gurney line via Sir John V's marriage to Alice Heylesdon. Will dated 14 April 1384, proved 20 July 1384, 8 Richard II."
   },
   {
     "sourceId": "shedd-daniel-shed-genealogy-1920",
