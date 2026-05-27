@@ -7,13 +7,9 @@ paths:
 
 # Citation and sourcing rules
 
-Human-facing overview:
-- `fact-sheets/README.md`
-- `research/README.md`
-- `sources/validations/README.md`
+Human-facing overview: `fact-sheets/README.md`, `research/README.md`.
 
-## Purpose
-These rules apply whenever Claude edits or creates citation-bearing markdown in this repo.
+These rules apply whenever Claude edits or creates citation-bearing markdown.
 
 ## Core standard
 - Put the citation footnote as close as practical to the fact or finding it supports.
@@ -22,7 +18,7 @@ These rules apply whenever Claude edits or creates citation-bearing markdown in 
 
 ## Fact-sheet standard
 - Nearly every factual sentence should have a footnote or clearly share one with the immediately adjacent sentence.
-- Avoid omnibus end-of-paragraph notes unless the paragraph is genuinely one-source and one-claim.
+- **A footnote that supports more than three sentences of body text is omnibus; split it** unless every covered sentence cites the same source set.
 - When a sentence has multiple materially relevant sources, include multiple adjacent footnotes.
 
 ## Research-file standard
@@ -81,6 +77,7 @@ Each footnote should generally include:
 - If a claim cannot be sourced confidently, either:
   - remove it from the fact sheet, or
   - keep it in research only and mark it as unresolved.
+- Exception for citation-cleanup or user-directed restoration: do not silently remove or soften existing user-facing content merely because the citation is missing or weak. Preserve the claim, document the sourcing problem, and ask for direction rather than forcing a mismatched citation.
 
 ## Citation cleanup behavior
 When editing a file:
@@ -89,6 +86,14 @@ When editing a file:
 - collapse duplicate notes only when clarity improves
 - do not renumber gratuitously unless the file is already being normalized
 
-## Related skill
-For heavy citation audit or normalization, invoke:
-- `.claude/skills/citation-rigour/SKILL.md`
+For heavy citation audit or normalization, see `.claude/skills/citation-rigour/SKILL.md`.
+
+## Mandatory related rules (share path scope)
+- `.claude/rules/fact-sheets.md` — both scope `fact-sheets/*.md`; citation discipline applies inside fact-sheet edits
+- `.claude/rules/research-files.md` — both scope `research/**/*.md`; citation discipline applies inside research-companion edits
+- `.claude/rules/research-case-files.md` — both scope `research/**/*.md` (case-files subdir)
+- `.claude/rules/sources.md` — both scope `sources/validations/*.md`; citation discipline applies inside validation worksheets
+
+## See also
+- `.claude/skills/citation-rigour/SKILL.md` — audit and normalization workflow
+- `.claude/rules/research-writing-style.md` — finding-first prose discipline that pairs with citation discipline

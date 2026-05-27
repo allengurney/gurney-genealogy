@@ -1,6 +1,6 @@
 # Francis Gurney (G16) — Research Companion
 
-Research companion for `g16-francis-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research companion for `g16-francis-gurney-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
 ---
 

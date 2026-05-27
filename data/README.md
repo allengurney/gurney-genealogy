@@ -3,22 +3,15 @@
 Canonical structured data for the research spine.
 
 ## Files
-- `ancestors v26.json` — current canonical ancestor registry
-- `ancestors v25.json` — legacy ancestor registry; do not use for new work
-- `places.json` — primary canonical place registry
+- `ancestors.json` — canonical ancestor registry
+- `places.json` — canonical place registry
 - `places_detail.json` — supplemental place detail layer
 - `sources.json` — bibliography and citation registry
+- `familysearch-ids.csv` — FamilySearch PID-to-generation crosswalk
 
-## Version rule
-Use the most recent `ancestors vNN.json` file for new site and data work. As of this branch, that file is `ancestors v26.json`. If a newer version is added later, update this README and the matching `.claude` data rule in the same change.
-
-## Discipline
-- Keep this layer compact, canonical, and joinable.
-- Put narrative discussion, open questions, and long reasoning in `research/`.
-- Keep source references aligned with `sources.json`.
-- Treat site-local data files as generated or presentation-specific derivatives unless a task explicitly says otherwise.
+## Working principle
+This layer stays compact, canonical, and joinable. Narrative discussion, open questions, and long reasoning live in `research/`. Source references stay aligned with `sources.json`. Site-local JSON under `site/website/_data/` is generated from this directory by the build — not a source of truth.
 
 ## AI / automation guidance
-See:
-- `.claude/rules/data-json.md`
+- `.claude/rules/data-json.md` (edit discipline, source discipline, cross-file integrity, geography model)
 - `.claude/rules/citations.md`

@@ -37,3 +37,10 @@ paths:
 - Put new knowledge in `research/`, not in validations or logs.
 - Use validations for source/method notes.
 - Use intake patchsets for step-by-step execution instructions.
+
+## Mandatory related rules (share path scope)
+None — this rule is always-loaded; lookup discipline applies repo-wide.
+
+## See also
+- `AGENTS.md` §3 — explicit enumeration of every rule and skill
+- Directory READMEs (`research/README.md`, `sources/README.md`, `data/README.md`, `fact-sheets/README.md`) — destination guidance when a finding could land in more than one place

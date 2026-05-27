@@ -14,9 +14,9 @@ The assessment is later the primary input to `research-intake-prep` (Phase 1).
 - `.claude/rules/repo-file-resolution.md`
 - `.claude/rules/research-writing-style.md`
 - `.claude/rules/citations.md`
-- `.claude/rules/sources-intake.md`
+- `.claude/rules/sources.md` (intake + validations + media discipline, merged 2026-05-25)
 - the target ancestor's `research/people/<g##>-...research.md` and `fact-sheets/<g##>-...md`
-- the target's record in `data/ancestors v26.json` and the immediately adjacent generations
+- the target's record in `data/ancestors.json` and the immediately adjacent generations
 - any companion files already grabbed under `sources/FS/<PID>/` (third-party docs collected during prior URL crawls)
 
 ## What this skill does

@@ -1,6 +1,6 @@
 # Lester Sawyer Gurney Jr. (G04) — Research Companion
 
-Research companion for `g04-lester-sawyer-gurney-jr-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research companion for `g04-lester-sawyer-gurney-jr-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
 ---
 

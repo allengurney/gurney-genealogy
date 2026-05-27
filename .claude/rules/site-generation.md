@@ -34,8 +34,10 @@ Human-facing overview:
 - This directory is still placeholder-oriented until migration is complete.
 - Do not build assumptions into site files that conflict with upstream repo structure.
 
-## Cross-reference
-See also:
-- `site/README.md`
-- `.claude/rules/fact-sheets.md`
-- `.claude/rules/data-json.md`
+## Mandatory related rules (share path scope)
+None — `site/**/*` is scoped only by this rule.
+
+## See also
+- `.claude/rules/fact-sheets.md` — canonical published-prose origin (site mirrors from here)
+- `.claude/rules/data-json.md` — canonical structured-data origin (site renders from here)
+- `site/README.md` — human-facing overview

@@ -9,7 +9,7 @@ Use this skill when editing a person record on FamilySearch.org based on the can
 ## Read first
 - `.claude/CLAUDE.md`
 - `data/familysearch-ids.csv` for the FS PID and any known conflict notes
-- `data/ancestors v26.json` for the canonical name, dates, and relationships
+- `data/ancestors.json` for the canonical name, dates, and relationships
 - The ancestor's fact sheet under `fact-sheets/g{NN}-*.md`
 - The ancestor's research companion under `research/people/g{NN}-*.md`
 - The ancestor's footnote list (key sources to attach alongside the biography)

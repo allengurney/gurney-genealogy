@@ -14,8 +14,10 @@ Canonical place-memory files.
 - unresolved place-identity issues
 - links to affected people and topics
 
+## Where this fits
+See `research/README.md` for the cross-subdirectory destination guidance.
+
 ## AI / automation guidance
-See:
-- `.claude/rules/research-places.md`
+- `.claude/rules/research-files.md` (people, places, topics — shared and per-subdirectory discipline)
 - `.claude/rules/data-json.md`
 - `.claude/rules/citations.md`

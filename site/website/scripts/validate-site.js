@@ -71,7 +71,7 @@ const siteAncestors = readJson(path.join(projectRoot, "_data", "ancestors.json")
 const sitePlaces = readJson(path.join(projectRoot, "_data", "placesCatalog.json"), "site places catalog data");
 const placePages = readJson(path.join(projectRoot, "_data", "placePages.json"), "site place pages data");
 const sourcesCatalog = readJson(path.join(projectRoot, "_data", "sourcesCatalog.json"), "site sources catalog data");
-const canonicalAncestors = readJson(path.join(repoRoot, "data", "ancestors v26.json"), "canonical ancestors v26 data");
+const canonicalAncestors = readJson(path.join(repoRoot, "data", "ancestors.json"), "canonical ancestors data");
 readJson(path.join(repoRoot, "data", "places.json"), "canonical places data");
 readJson(path.join(repoRoot, "data", "places_detail.json"), "canonical places detail data");
 readJson(path.join(repoRoot, "data", "sources.json"), "canonical sources data");
@@ -115,7 +115,7 @@ if (Array.isArray(sourcesCatalog) && !sourcesCatalog.length) {
 
 if (Array.isArray(canonicalAncestors)) {
   const currentCount = canonicalAncestors.filter(item => item.type === "ancestor").length;
-  if (!currentCount) errors.push("data/ancestors v26.json has no ancestor records");
+  if (!currentCount) errors.push("data/ancestors.json has no ancestor records");
 }
 
 const requiredFiles = [

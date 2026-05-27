@@ -50,14 +50,20 @@ Make the file more rigorous without rewriting it unnecessarily.
 4. Improve or add footnotes.
 5. Tighten ambiguous placement.
 6. Normalize note style and completeness.
-7. Leave a brief summary of:
+7. For fact sheets, explicitly check the Narrative and Children sections:
+   - every factual narrative paragraph has sentence-level or tight-cluster citations
+   - every children-table row has a visible footnote
+   - any "no further children" statement has a visible footnote
+   - temporary handles such as `nNEW*`, `ref-NEW*`, or visible `NEW*` labels have been normalized
+   - all footnote/back-reference anchors resolve and IDs are unique
+8. Leave a brief summary of:
    - what was fixed
    - what remains unsupported
    - which claims still need source work
 
 ## Constraints
 - Do not invent support.
-- If support is weak or absent, mark it clearly.
+- If support is weak or absent during a citation-cleanup task, preserve the claim and ask for direction; do not silently remove or soften the user's content.
 - Do not turn a polished fact sheet into a research dump.
 - Do not delete meaningful caveats just to make the prose cleaner.
 

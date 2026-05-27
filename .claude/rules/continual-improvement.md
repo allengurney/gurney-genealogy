@@ -22,9 +22,19 @@ Treat as rule-worthy:
 - corrections to how AI should handle ambiguity, disclosure, or escalation
 
 Treat as **not** rule-worthy:
-- one-off content choices that depend on the specific ancestor
-- task-scoped routing decisions
-- transient operational preferences
+- one-off content choices that depend on the specific ancestor (e.g., "for G14 specifically, use the laceweaver framing in the Highlights bullet" — does not generalize)
+- task-scoped routing decisions ("put this finding under the John Gurney case file" — task-scoped, not a future rule)
+- transient operational preferences ("today, skip the Phase-2 done-stamp" — situational)
+- single-instance corrections that do not imply a pattern
+- the user's judgement call on a specific document where the same call could plausibly go the other way next time
+
+## Bias toward restraint
+When in doubt about rule-worthiness, default to **not** writing a rule. Two reasons:
+
+1. Reactive rules with absolutes cause oscillation (see "Avoid reactive absolutes" below) — a one-off feedback that becomes a rule often produces the opposite mistake on the next turn.
+2. Rule accretion is the dominant drift pressure. Each unnecessary rule adds reconciliation cost across the rule surface. A rule that fires once a year and is wrong half the time is a net loss.
+
+When unsure, capture the user's specific guidance in the work itself (the fact sheet, companion, or patchset), not in `.claude/rules/`. If the same correction recurs across multiple unrelated tasks, that recurrence is the signal it has become rule-worthy.
 
 ## Permission posture
 - The user does **not** need to re-grant permission for the rule update when the
@@ -61,6 +71,34 @@ When the user gives feedback on phrasing, vocabulary, footnote placement, or
 reader-facing tone, the corresponding rule (`fact-sheets.md`,
 `research-writing-style.md`, `citations.md`) should usually absorb it.
 
+## Avoid reactive absolutes — prefer target bands
+When the user gives directional feedback ("too long," "too short," "too much
+Wikipedia," "too operational"), the rule update should record a **target band
+with a soft heuristic**, not an absolute prohibition.
+
+Reactive absolutes cause oscillation: the next turn often produces the
+opposite mistake (purged context after "too long context"; purged Wikipedia
+after "too much Wikipedia"). Bands resist this by leaving judgment room.
+
+When phrasing a rule, ask: would acting on this rule in the most literal way
+produce a defect the user would flag next turn? If yes, soften to a band.
+
+## Consolidation passes
+Rule files accumulate by accretion. When a new rule duplicates or
+contradicts an existing one across files, or roughly every ~10 substantive
+rule updates, run a consolidation pass:
+
+- identify duplicated guidance across files (e.g., citation-placement rules
+  appearing in both `fact-sheets.md` and `citations.md`)
+- pick one canonical location for each piece of guidance
+- replace duplicates with cross-references
+- prune obsolete or contradictory rules
+
+Consolidation passes are explicitly in scope under continual improvement.
+They preserve the lessons accumulated in earlier updates while keeping the
+aggregate rule surface tractable. Disclose the consolidation as a single
+batched rule update.
+
 ## Classify every "pull" by online availability
 Whenever AI lists future research pulls (in a research file, a patchset, an
 open-questions section, a summary, or anywhere else), each pull must carry an
@@ -92,7 +130,7 @@ in the intake skills and rules.
 Before a direct substantive edit, AI should briefly reflect on:
 - `.claude/rules/citations.md` — citation placement and source alignment
 - `.claude/rules/fact-sheets.md` or the matching path-scoped rule for the file being edited
-- `.claude/rules/sources-intake.md` — even when not writing a patchset, the
+- `.claude/rules/sources.md` — even when not writing a patchset, the
   promotion-writing standard ("lead with the knowledge; keep intake/process
   mechanics out of visible prose") applies
 - `.claude/skills/research-intake-prep/SKILL.md` — the research-block style
@@ -103,8 +141,8 @@ The pre-edit reflection should be short — naming the relevant rule(s) in
 thought, not in the output — but it must happen. The goal is that a direct
 edit and an applied patchset produce indistinguishable prose quality.
 
-## Cross-reference
-- `.claude/CLAUDE.md`
-- `.claude/rules/fact-sheets.md`
-- `.claude/rules/research-writing-style.md`
-- `.claude/rules/citations.md`
+## Mandatory related rules (share path scope)
+None — this rule is always-loaded (`paths: **/*`); no other rule shares an equivalent universal scope.
+
+## See also
+This rule governs how all other rules change. The most active surfaces for continual improvement are `citations.md`, `fact-sheets.md`, `research-files.md`, `research-writing-style.md`, and `sources.md`.

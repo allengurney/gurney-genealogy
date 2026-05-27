@@ -16,7 +16,9 @@ They are not the main home for biographical or topical findings.
 ## Naming
 Match the `sourceId` in `data/sources.json`.
 
+## Where this fits
+See `sources/README.md` for the cross-subdirectory destination guidance and the default-on validation rule for new sourceIds.
+
 ## AI / automation guidance
-See:
-- `.claude/rules/sources-validations.md`
+- `.claude/rules/sources.md` (intake + validations + media discipline)
 - `.claude/rules/citations.md`

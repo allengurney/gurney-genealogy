@@ -23,7 +23,10 @@ Research files for people: ancestors, spouses, non-ancestor subjects, and candid
 - broad cross-cutting topic files
 - thin source-validation worksheets
 
+## Where this fits
+See `research/README.md` for the cross-subdirectory destination guidance (multi-destination cases, when to use places vs. people vs. topics).
+
 ## AI / automation guidance
-See:
-- `.claude/rules/research-people.md`
+- `.claude/rules/research-files.md` (people, places, topics — shared and per-subdirectory discipline)
+- `.claude/rules/research-writing-style.md`
 - `.claude/rules/citations.md`

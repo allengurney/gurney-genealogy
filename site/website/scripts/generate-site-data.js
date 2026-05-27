@@ -4,7 +4,7 @@ const path = require("path");
 const projectRoot = path.resolve(__dirname, "..");
 const repoRoot = path.resolve(projectRoot, "..", "..");
 
-const ancestorsPath = path.join(repoRoot, "data", "ancestors v26.json");
+const ancestorsPath = path.join(repoRoot, "data", "ancestors.json");
 const placesPath = path.join(repoRoot, "data", "places.json");
 const placeDetailsPath = path.join(repoRoot, "data", "places_detail.json");
 const sourcesPath = path.join(repoRoot, "data", "sources.json");
@@ -454,7 +454,7 @@ fs.writeFileSync(outputPath, `${JSON.stringify(generated, null, 2)}\n`);
 fs.writeFileSync(placesOutputPath, `${JSON.stringify(placesCatalog, null, 2)}\n`);
 fs.writeFileSync(placePagesOutputPath, `${JSON.stringify(buildPlacePages(placesCatalog, placeResearchById), null, 2)}\n`);
 fs.writeFileSync(sourcesOutputPath, `${JSON.stringify(buildSourcesCatalog(sources), null, 2)}\n`);
-console.log(`Generated ${path.relative(projectRoot, outputPath).replace(/\\/g, "/")} from data/ancestors v26.json.`);
+console.log(`Generated ${path.relative(projectRoot, outputPath).replace(/\\/g, "/")} from data/ancestors.json.`);
 console.log(`Generated ${path.relative(projectRoot, placesOutputPath).replace(/\\/g, "/")} from data/places.json.`);
 console.log(`Generated ${path.relative(projectRoot, placePagesOutputPath).replace(/\\/g, "/")} from research/places/*.md and place data.`);
 console.log(`Generated ${path.relative(projectRoot, sourcesOutputPath).replace(/\\/g, "/")} from data/sources.json.`);

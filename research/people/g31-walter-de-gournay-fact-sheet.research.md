@@ -1,6 +1,6 @@
 # Walter de Gournay (G31) — Research Companion
 
-Research companion for `g31-walter-de-gournay-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research companion for `g31-walter-de-gournay-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
 ---
 

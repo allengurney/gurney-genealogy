@@ -52,15 +52,11 @@ Not allowed here:
 - Reader-facing status language should be plain. Prefer phrases like "historically recorded but limited," "confirmed by contemporary document," "rests on later tradition" over single-word labels like "Tradition" or "Uncertain" without context.
 - "Direct line" is the right reader-facing tag for direct ancestors. Do not use "COLLATERAL" or other internal status labels in the children table; describe non-direct-line children in plain prose (e.g., "founder of the Somerset cadet line," "third son said to have died without descendants") and do not flag them with an all-caps label.
 
-## Citation placement
-- Page numbers, manuscript identifiers, and multi-source provenance chains belong in footnotes, not in the body.
-- Rule of thumb: if a sentence reaches the point of citing a page number or a manuscript shelfmark, that material should move to a footnote — even if the surrounding sentence already has another footnote, prefer a second adjacent footnote over an inline citation.
+## Citation placement (fact-sheet-specific)
+The general citation discipline lives in `citations.md`. Fact-sheet-specific additions:
 
-## Finding-in-main, sources-in-footnote
-- The **core finding** stays in the main content (Vitals, Highlights, Children table notes, or Narrative). A footnote can carry complex supporting detail to keep the primary read clean, but the finding itself — what a reader would describe as "the new thing learned" — must be visible on the page without expanding any footnote.
-- Footnotes are **source-heavy**, not content-heavy. They carry citations, provenance chains, exact quotations, page numbers, alternate readings, and the apparatus a curious reader needs to verify the finding. Substantive findings that arrived in research are not "buried" in footnotes during promotion.
-- Test for a candidate placement: if removing the footnote would leave the body text non-informative on a specific finding, the footnote is carrying the finding and should be partly lifted to the body.
-- For complex multi-source claims, it is acceptable for the body to assert the finding compactly and the footnote to carry the full apparatus — but the body must still assert.
+- **Finding-in-main, sources-in-footnote.** The core finding stays in the main content (Vitals, Highlights, Children table notes, or Narrative). Footnotes are source-heavy, not content-heavy — they carry citations, provenance chains, exact quotations, page numbers, alternate readings. Substantive findings that arrived in research are not "buried" in footnotes during promotion. Test: if removing the footnote leaves the body text non-informative on a specific finding, the footnote is carrying the finding and should be partly lifted to the body.
+- For complex multi-source claims, the body asserts the finding compactly while the footnote carries the full apparatus — but the body must still assert.
 
 ## Highlights block discipline
 - Highlights are reader-facing **headline bullets**, not paragraphs.
@@ -69,8 +65,7 @@ Not allowed here:
 - Each bullet leads with a **bold headline phrase** (one short sentence or fragment) followed by one or two short evidence/context sentences. The bullet should read like a magazine pull-quote, not a research note.
 - Concrete, ancestor-specific punch beats generic historical context. Wars-of-the-Roses overviews and generic Henry-VI-minority framing belong in Narrative, not Highlights.
 - The **full story** — multi-step argument, source chain, supporting detail — belongs in the **Narrative** section, not in the Highlights bullet. Treat each bullet as a pointer into the Narrative for readers who want more.
-- No inline page numbers, manuscript shelfmarks, archive codes (e.g. "TNA E101/48/6"), or multi-source provenance chains inside a Highlights bullet. Those go in the footnote, per the Citation placement rule above.
-- See `sources/intake/processed/Ready/v05-patchset-highlight-updates.md` for the worked-example style across G16-G37.
+- No inline page numbers, manuscript shelfmarks, archive codes (e.g. "TNA E101/48/6"), or multi-source provenance chains inside a Highlights bullet. Those go in the footnote.
 
 ## Vitals overflow goes to Narrative, not to footnote
 - Vitals cells stay short (one or two short sentences; three is the exception).
@@ -96,25 +91,22 @@ Not allowed here:
 - Include URL when available. URL to a website should be a hyperlink when possible.
 - Include all material supporting sources when a claim is supported by more than one source.
 - If a sentence is inferential rather than directly attested, make that visible in the prose and cite accordingly.
+- Narrative paragraphs must not rely on vitals/highlights citations alone. During any fact-sheet edit, audit the Narrative section sentence-by-sentence or tight-cluster-by-tight-cluster and add nearby source footnotes from the fact sheet, companion, source registry, or validation layer. If exact support cannot be found during a citation-cleanup task, preserve the claim and ask for direction rather than silently removing, softening, or forcing a citation.
+- Every children-table row, plus any "no further children" note, must carry a source footnote. If the table uses one pedigree source for multiple children, repeated references to the same footnote are acceptable, but each row still needs a visible citation.
+- Temporary footnote handles such as `nNEW1`, `ref-NEW1`, or visible labels like `NEW1` are patchset placeholders only. Never leave them in a completed fact sheet. Normalize them into ordinary numeric footnotes before validation.
+- Before completing a multi-fact-sheet citation batch, run a targeted footnote sweep: no `NEW` labels remain, all `href="#n..."` / `href="#ref-..."` anchors resolve, IDs are unique, visible footnote labels match their note numbers, and Narrative/Children sections have nearby citation coverage.
 
 ## Relationship to research files
-- Do not bury evidentiary detail in the fact sheet.
-- If a passage needs long support discussion, conflict resolution, or transcription detail, move that supporting material to the companion in `research/people/`.
+- Do not bury evidentiary detail in the fact sheet. If a passage needs long support discussion, conflict resolution, or transcription detail, move that supporting material to the companion in `research/people/`.
 - Fact-sheet edits should stay consistent with the corresponding research file.
+- For an ancestor with a fact sheet, there should normally also be a paired research companion in `research/people/`.
 
 ## Promotion standard
-Before adding a new claim to a fact sheet, ask:
-- Is this claim durable enough for publication?
-- Is the evidence strong enough or appropriately and objectively phrased?
-- Is the claim phrased at the right confidence level?
-- Would a future reader be able to trace the support quickly?
+Before adding a new claim to a fact sheet, ask: is this claim durable enough for publication? Is the evidence strong enough or appropriately and objectively phrased? Is the claim phrased at the right confidence level? Would a future reader be able to trace the support quickly? If not, keep it in research instead.
 
-If not, keep it in research instead.
+## Mandatory related rules (share path scope)
+- `.claude/rules/citations.md` — both scope `fact-sheets/*.md`; citation placement, footnote rigour, omnibus limit
 
-## Pairing rule
-For an ancestor with a fact sheet, there should normally also be a paired research companion in `research/people/`.
-
-## Cross-reference
-See also:
-- `.claude/rules/citations.md`
-- `.claude/rules/research-people.md`
+## See also
+- `.claude/rules/research-files.md` — the paired research companion in `research/people/` carries the supporting evidence
+- `fact-sheets/README.md` — human-facing overview of the directory

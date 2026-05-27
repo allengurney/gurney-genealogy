@@ -1,8 +1,8 @@
 # Francis Gurney (G14) — Research Companion
 
-Research companion for `fact-sheets/g14-francis-gurney-fact-sheet.md`. See `AI-Rules.md` §3 for the paired-file rule.
+Research companion for `fact-sheets/g14-francis-gurney-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
-Francis G14 (1581 – 9 January 1646/7) was the Merchant Taylor of St Benet Fink, London, sixth son of Henry Gurney G15 of Great Ellingham and West Barsham, and the probable father of John Gurney-1 of Massachusetts. Standing facts are in `AI-Rules.md` §7 (especially correction #1 on the death date, correction #4 on the two-Francis problem, and correction #7 on the Peter absence); they are referenced here, not re-derived.
+Francis G14 (1581 – 9 January 1646/7) was the Merchant Taylor of St Benet Fink, London, sixth son of Henry Gurney G15 of Great Ellingham and West Barsham, and the probable father of John Gurney-1 of Massachusetts. Standing facts are in `AGENTS.md` §6 (especially correction #1 on the death date, correction #4 on the two-Francis problem, and correction #7 on the Peter absence); they are referenced here, not re-derived.
 
 ---
 

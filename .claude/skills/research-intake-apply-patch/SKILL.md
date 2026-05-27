@@ -13,8 +13,7 @@ Use this skill for phase 2 of intake.
 - `.claude/rules/research-writing-style.md`
 - `.claude/rules/citations.md`
 - `.claude/rules/data-json.md`
-- `.claude/rules/sources-intake.md`
-- `.claude/rules/sources-validations.md`
+- `.claude/rules/sources.md` (intake + validations + media discipline, merged 2026-05-25)
 
 ## Core rule
 The patchset is the source of truth for this run.

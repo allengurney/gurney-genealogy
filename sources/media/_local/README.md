@@ -33,5 +33,5 @@ The repo stays self-describing — readers can see what exists locally even when
 | `recueildesactesd01grea.pdf` | 38 MB | Oversize | Léopold Delisle (ed.), *Recueil des actes de Henri II*, vol. 1 (Paris, Imprimerie nationale). Public domain. Available at archive.org (`recueildesactesd01grea`) and Gallica. |
 
 ## Cross-reference
-- `.claude/rules/sources-media.md`
+- `.claude/rules/sources.md` (intake + validations + media discipline)
 - `sources/media/README.md`

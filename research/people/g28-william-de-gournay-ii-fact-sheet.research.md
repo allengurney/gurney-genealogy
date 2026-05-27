@@ -1,6 +1,6 @@
 # William de Gournay II (G28) — Research Companion
 
-Research companion for `g28-william-de-gournay-ii-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research companion for `g28-william-de-gournay-ii-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
 ---
 

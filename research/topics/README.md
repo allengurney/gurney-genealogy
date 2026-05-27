@@ -14,7 +14,9 @@ Cross-cutting problems, methods, and analytical threads that span multiple peopl
 - implications
 - crosslinks
 
+## Where this fits
+See `research/README.md` for the cross-subdirectory destination guidance.
+
 ## AI / automation guidance
-See:
-- `.claude/rules/research-topics.md`
+- `.claude/rules/research-files.md` (people, places, topics — shared and per-subdirectory discipline)
 - `.claude/rules/citations.md`

@@ -47,3 +47,12 @@ Add analysis only when it identifies a person/place/relationship, sharpens chron
 
 ## Knowledge density preference
 When choosing between a sentence about genealogy or AI process and a sentence that preserves a concrete historical fact, prefer the concrete historical content unless omitting the process note would materially mislead the reader.
+
+## Mandatory related rules (share path scope)
+None — this rule is always-loaded; prose discipline applies to research and fact-sheet work alike.
+
+## See also
+- `.claude/rules/citations.md` — citation discipline that pairs with finding-first prose
+- `.claude/rules/research-files.md` — entry-level discipline for working notes
+- `.claude/rules/fact-sheets.md` — finding-in-main / sources-in-footnote discipline for published narrative
+- `.claude/rules/sources.md` — promotion writing standard ("lead with the knowledge") when intake content lands in research files

@@ -1,6 +1,6 @@
 # Francis Gurney of Maldon (1628–1677)
 
-Research file for the younger Francis Gurney, merchant, Alderman and Bailiff of Maldon, Essex, fourth documented child of Francis Gurney G14 and Anne Browning — and, therefore, a half-brother or brother of Allen's presumed G13 John Gurney-1 of Massachusetts (depending on whether the 1628 child is from the Margaret Rybett or Anne Browning marriage). Not in the direct line. Classified Related / Collateral per `AI-Rules.md` §5.
+Research file for the younger Francis Gurney, merchant, Alderman and Bailiff of Maldon, Essex, fourth documented child of Francis Gurney G14 and Anne Browning — and, therefore, a half-brother or brother of Allen's presumed G13 John Gurney-1 of Massachusetts (depending on whether the 1628 child is from the Margaret Rybett or Anne Browning marriage). Not in the direct line. Classified Related / Collateral per `AGENTS.md` §5.
 
 Primary source for this file is Charles A. Bernau's 1913 *British Archivist* biography (`sourceId: british-archivist-bernau-1913`, proposed), supplemented by Daniel Gurney's *Record* and the reconstructed 1858 loose supplement. Full corpus extract at `sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md`.[^bernau-1913-source]
 

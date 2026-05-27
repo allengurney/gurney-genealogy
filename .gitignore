@@ -155,7 +155,7 @@ vite.config.ts.timestamp-*
 sources/FS/Histoire_de_Lorraine_*.pdf
 
 # Local-only media: oversize (>35 MB), copyright-restricted, or privacy-sensitive
-# originals. See sources/media/_local/README.md and .claude/rules/sources-media.md.
+# originals. See sources/media/_local/README.md and .claude/rules/sources.md (sources/media/ section).
 # Commit a stub in the parent folder describing what lives locally and where the
 # canonical master can be retrieved.
 # Ignore _local/ contents (not the directory itself, so README can be re-included).

@@ -1,6 +1,6 @@
 # Matthew de Gournay (G29) — Research Companion
 
-Research companion for `g29-matthew-de-gournay-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research companion for `g29-matthew-de-gournay-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
 ---
 

@@ -1,6 +1,6 @@
 # William de Gournay I (G30) — Research Companion
 
-Research companion for `g30-william-de-gournay-i-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research companion for `g30-william-de-gournay-i-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
 ---
 

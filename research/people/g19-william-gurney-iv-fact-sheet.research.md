@@ -1,6 +1,6 @@
 # William Gurney IV (G19) — Research Companion
 
-Research companion for `g19-william-gurney-iv-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research companion for `g19-william-gurney-iv-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
 ---
 

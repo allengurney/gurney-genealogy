@@ -4,7 +4,7 @@
 
 Pre-fact-sheet. No published narrative yet. Active research lives in this file. It is currently paired with `research/case-files/john-gurney-case-file-v4.md` and may later migrate to `research/case-files/candidate-b.md` if the case-file structure is reorganized.
 
-Standing facts are in AI-Rules.md §7 (especially correction #6 on birth date, correction #7 on Peter naming absence, and the Candidate B / two-Francis framing). Do not re-derive them here; reference them.
+Standing facts are in AGENTS.md §6 (especially correction #6 on birth date, correction #7 on Peter naming absence, and the Candidate B / two-Francis framing). Do not re-derive them here; reference them.
 
 ---
 
