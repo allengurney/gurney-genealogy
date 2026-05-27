@@ -31,7 +31,3 @@ Person findings → `research/people/`. Place findings → `research/places/`. C
 
 ### Continual improvement
 When the user offers a critical correction or durable guidance, update the matching rule file in the same turn and disclose the update plainly. AI may correct narrow adjacent issues found in the same files (typos, broken anchors, acronym expansions, internal-mechanics vocabulary, citation placement) without separate permission, with disclosure. See `.claude/rules/continual-improvement.md` for the consolidation-pass discipline, avoid-reactive-absolutes guidance, and bias-toward-restraint check.
-
-## Multi-AI compatibility (repeated from AGENTS.md §Top-line concept)
-
-All rules and skills in this repo are AI-agnostic content. Path-scoping (`.claude/rules/*.md` with `paths:` frontmatter) is a Claude Code auto-load optimization; the canonical discovery mechanism for any AI is explicit cross-references in each rule file plus the enumeration in AGENTS.md §3. Do not introduce content described as "Claude-Code-specific architecture." Path-scoping is the only Claude-Code-specific behaviour in this repo, layered on universally-readable content.

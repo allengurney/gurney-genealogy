@@ -32,7 +32,7 @@ Not allowed here:
 
 ## Editorial posture
 - Respect Allen’s prose yet offer suggestions for improvement.
-- Fact sheets are engaging, insightful, and enjoyable to read. Readers are not subject matter experts.
+- **Fact sheets are engaging, insightful, and enjoyable to read. Readers are not subject matter experts.** Fact sheets should be narrated more like an enjoyable leisure biography than a dense academic paper. 
 - Fact sheets are concise yet include interesting anecdotes and stories, historically significant events and people, and unexpected findings.   
 - Edit only when a fact, citation, clarity issue, or structural improvement warrants it.
 - Prefer light-touch revision over stylistic churn.
@@ -83,7 +83,7 @@ The general citation discipline lives in `citations.md`. Fact-sheet-specific add
 - Keep each cell short. One or two short sentences is the norm; three is the exception.
 - Detail and color belong in Highlights or Narrative, not in vitals.
 - When a vital is genuinely uncertain or contested, summarise the bracket (e.g., "after 911, before c. 932") and put the apparatus in a footnote.
-- Internal consistency: if Born = c. 970 and a son is born c. 985, that implies fathering at 15. Adjust the parent's birth estimate or surface the conflict; do not publish an implausible age silently.
+- Internal consistency: if Born = c. 970 and a son is born c. 985, that implies fathering at 15; do not publish an implausible fact pattern silently.
 
 ## Citation rigor
 - Every factual sentence or tight factual cluster should have a nearby footnote.
@@ -102,7 +102,7 @@ The general citation discipline lives in `citations.md`. Fact-sheet-specific add
 - For an ancestor with a fact sheet, there should normally also be a paired research companion in `research/people/`.
 
 ## Promotion standard
-Before adding a new claim to a fact sheet, ask: is this claim durable enough for publication? Is the evidence strong enough or appropriately and objectively phrased? Is the claim phrased at the right confidence level? Would a future reader be able to trace the support quickly? If not, keep it in research instead.
+Before adding a new claim to a fact sheet, ask: is this claim durable enough backed by source evidence? Is the evidence strong enough or appropriately and objectively phrased? Is the claim phrased at the right confidence level? Would a future reader be able to trace the support quickly? If not, keep it in research instead.
 
 ## Mandatory related rules (share path scope)
 - `.claude/rules/citations.md` — both scope `fact-sheets/*.md`; citation placement, footnote rigour, omnibus limit
