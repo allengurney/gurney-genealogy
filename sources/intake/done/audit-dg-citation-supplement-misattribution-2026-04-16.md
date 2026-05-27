@@ -1,3 +1,7 @@
+**Done:** 2026-04-16 (G20–G37 sweep completed at the time; six research companions fixed; remaining sweep TODOs for G15–G19 and G04–G05 remain open but stale — to be picked up only if a future citation-rigour pass needs them). The evergreen rule from this audit (the Supplement page-range test: pp. 725–1096) is preserved in `AGENTS.md` §7. Moved from `research/topics/` to `sources/intake/done/` because the file is operational sweep content, not living research.
+
+---
+
 # DG Citation Style Audit
 
 Cross-cutting topic file. Tracks systematic citation issues identified across the repo for the Daniel Gurney *Record* and *Supplement* corpus.
@@ -10,7 +14,7 @@ Cross-cutting topic file. Tracks systematic citation issues identified across th
 
 **Pattern:** Several research companion files cite `Daniel Gurney, *Supplement* (1858), pp. NNN–NNN` where the actual reference should be `DG-II` (or in some cases DG-I or DG-III) — i.e., the published Parts of the 1848 *Record*, not the 1858 *Supplement*.
 
-**The page-range test:** The 1858 Supplement runs roughly pp. 725–1096 (per the corpus extraction). Any "Supplement" citation with a page number under 725 is almost certainly miscited. Per AI-Rules §4 and §8, citations to DG should use:
+**The page-range test:** The 1858 Supplement runs roughly pp. 725–1096 (per the corpus extraction). Any "Supplement" citation with a page number under 725 is almost certainly miscited. Per AGENTS.md §4 and §8, citations to DG should use:
 - `[DG-I-NNN]` for Part I
 - `[DG-II-NNN]` for Part II
 - `[DG-III-NNN]` for Part III
@@ -64,5 +68,5 @@ All narrative fact sheets in this range use the correct `DG-N` form — the erro
 
 ## Related
 
-- AI-Rules §4 (citation format) and §8 (DG source flags).
+- AGENTS.md §4 (citation format) and §8 (DG source flags).
 - `sources/corpus/daniel-gurney-readme.md` (pagination grammar).

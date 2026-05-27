@@ -185,7 +185,7 @@ The Wansey/Wauncy pedigree lead preserves a close but conflicting collateral-lin
 
 ## Citation note (2026-04-16)
 
-Earlier version of this companion miscited DG-II references as "DG Supplement (1858)" — page numbers under p. 725 are below the Supplement's range. Corrected. See `research/topics/dg-citation-audit.md`.
+Earlier version of this companion miscited DG-II references as "DG Supplement (1858)" — page numbers under p. 725 are below the Supplement's range. Corrected. See `sources/intake/done/audit-dg-citation-supplement-misattribution-2026-04-16.md`.
 
 ### History of Parliament biography — already preserved in corpus supplement
 

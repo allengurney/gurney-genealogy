@@ -11,7 +11,7 @@ The assessment is later the primary input to `research-intake-prep` (Phase 1).
 
 ## Read first
 - `.claude/CLAUDE.md`
-- `.claude/rules/repo-file-resolution.md`
+- `AGENTS.md` §4 (Repo file resolution — lookup order, direct-open known paths, destination discipline)
 - `.claude/rules/research-writing-style.md`
 - `.claude/rules/citations.md`
 - `.claude/rules/sources.md` (intake + validations + media discipline, merged 2026-05-25)

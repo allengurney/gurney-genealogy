@@ -56,7 +56,7 @@ When everything is `migrated`, this file can be archived or deleted.
 | cf816e20 | 2026-03-22 | Protestation Returns, Coleman Street | not started | | Children Matrix V1, V6 findings, county survival table, Coleman Street network |
 | 6fb94e9d | 2026-03-22 | Norwich searches, Francis death correction | not started | | FreeREG death confirmation, Gurley/Furrier lead, DG file mapping, 532a/b pages |
 | 9b85696c | 2026-03-23 | Birth date revision, children re-eval | not started | | Eliminated/restored candidates, revised c.1633–1640 window |
-| e98a0160 | 2026-04-02 | Main Thread (DG validation, East Dereham, CaseFile V2, **JSON landholdings**) | **partial** | Landholdings locations data (lat/lng) migrated 2026-04-16 into 17 `research/places/` files; data-pollution bugs logged in `research/topics/ancestors-json-audit.md` | Largest session. Paleography, Margaret Rybett, BRS tax, ancestors.json restructuring still pending in text form. |
+| e98a0160 | 2026-04-02 | Main Thread (DG validation, East Dereham, CaseFile V2, **JSON landholdings**) | **partial** | Landholdings locations data (lat/lng) migrated 2026-04-16 into 17 `research/places/` files; data-pollution bugs logged in `sources/intake/done/audit-ancestors-json-data-quality-2026-04-16.md` | Largest session. Paleography, Margaret Rybett, BRS tax, ancestors.json restructuring still pending in text form. |
 | **bcb40001** | **2026-04-03** | **Fact sheet batches 1–3 (G37–G22)** | **partial** | G29 (Hameline ID, 1204 hook, Pipe Roll), G23 (will details, Gaunt phrasing flag, citation fix), G22 (name uncertainty, Cook Clarenceux, citation fix); G24/G25/G26 citation fixes; topic file `dg-citation-audit.md`; **17 `research/places/` files + Landholdings tables in all 17 G20–G37 companions** | Row-by-row transcript-vs-fact-sheet compression review (where fact sheet narrative compresses transcript findings) still TODO. |
 | 324600c7 | 2026-04-08 | Source evaluations (Anderson, Banks, H&G) | migrated v2 | Findings on g13 research file; thin validation files; sources.json v1.3.0 | Pilot v1 corrected: findings now routed to subject (g13 research file) per AI-Rules §3 findings-vs-provenance rule. |
 | 317a1ade | 2026-04-14 | Mary Gurney, Haberdashers, case file v3.0 | not started | | Haberdashers 1632 (father William, laborer — eliminated), Mary deep dive, Westminster Gurley, BSE conflation, 66 footnotes |
@@ -72,7 +72,7 @@ When everything is `migrated`, this file can be archived or deleted.
 | **Sweep all research companions for "Supplement" miscitation pattern** | **partial** (G20–G37 complete; G15–G19 + G04–G05 still TODO) |
 | **G20–G37 Landholdings sections in research companions** | **complete** (2026-04-16) |
 | **`research/places/` files for G20–G37 holdings** | **complete** (17 files, 2026-04-16) |
-| **`data/ancestors v23.json` data-pollution cleanup** | **flagged** in `research/topics/ancestors-json-audit.md`; cleanup is a bulk-script job, not urgent |
+| **`data/ancestors v23.json` data-pollution cleanup** | **flagged** in `sources/intake/done/audit-ancestors-json-data-quality-2026-04-16.md`; cleanup is a bulk-script job, not urgent |
 | Verify all 8 critical corrections (AI-Rules §7) are reflected in target fact sheets | not started |
 | Retire this tracker when all rows are `migrated` or `superseded` | not started |
 
@@ -89,7 +89,7 @@ Allen correctly challenged the initial "nothing more to find" assessment: fact s
 
 - Created 17 place files in `research/places/` covering every G20–G37 landholding: Gournay-en-Bray, Montigny-sur-Andelle, La Ferté-en-Bray, Le Bec-Hellouin, Lessingham, Harpley, Hardingham, West Barsham, Runhall, King's Lynn, Liston, Fordham, Ardleigh, Suffolk, Lewes, Caister-on-Sea, Cantley.
 - Added a Landholdings section to all 17 G20–G37 research companions, each linking to the corresponding place files with period-held notes.
-- Logged JSON data-pollution bugs (concatenated `eventDate`/`sourceQuote` fields; incorrect West-Barsham-on-G~37 entry) in `research/topics/ancestors-json-audit.md`.
+- Logged JSON data-pollution bugs (concatenated `eventDate`/`sourceQuote` fields; incorrect West-Barsham-on-G~37 entry) in `sources/intake/done/audit-ancestors-json-data-quality-2026-04-16.md`.
 - Fixed AI-Rules filename reference `ancestors_v23.json` → `ancestors v23.json` (space).
 
 What's still TODO from bcb40001: the row-by-row narrative-vs-transcript compression review. Each fact sheet narrative is shorter than the transcript detail it drew on; systematic line-by-line review would surface further compressed detail for the companions. Not yet done.

@@ -1,3 +1,7 @@
+**Done:** 2026-04-16 (audit completed at the time; verified by re-inspection on 2026-05-25 that the JSON bugs no longer exist in current `data/ancestors.json` — resolved during the v23 → v26 migration). Moved from `research/topics/` to `sources/intake/done/` because the file is operational sweep content, not living research.
+
+---
+
 # ancestors v23.json — Data Audit
 
 Cross-cutting topic file. Tracks data-quality issues in `data/ancestors v23.json` identified during the G20–G37 transcript migration sweep.
@@ -6,7 +10,7 @@ Cross-cutting topic file. Tracks data-quality issues in `data/ancestors v23.json
 
 ## Filename mismatch — AI-Rules vs. actual
 
-**AI-Rules §2 and §7 reference `ancestors_v23.json` (underscore).**
+**AGENTS.md §2 and §7 reference `ancestors_v23.json` (underscore).**
 **Actual file: `data/ancestors v23.json` (space).**
 
 Either AI-Rules should be updated to match the actual filename, or the file should be renamed via the bulk-script exception in §3. Renaming is more aesthetic but requires Allen to run a local operation; updating AI-Rules is zero-friction via MCP.
@@ -64,7 +68,7 @@ Proposed fix:
 - Remove the West Barsham entry from G37 Eudes entirely.
 - Trim any `…` truncation artifacts from concatenated fields.
 
-This is a bulk-script job (not MCP) per AI-Rules §3 exception — 14+ locations across 8 ancestors.
+This is a bulk-script job (not MCP) per AGENTS.md §3 exception — 14+ locations across 8 ancestors.
 
 ---
 
@@ -80,6 +84,6 @@ This is a bulk-script job (not MCP) per AI-Rules §3 exception — 14+ locations
 
 ## Related
 
-- AI-Rules §2 (repo map) and §7 (structural facts — current ancestor data file reference).
+- AGENTS.md §2 (repo map) and §7 (structural facts — current ancestor data file reference).
 - `research/places/` — 17 place files created 2026-04-16; markdown-authoritative for per-ancestor landholding chronology.
 - `research/topics/dg-citation-audit.md` — companion citation-audit topic file.

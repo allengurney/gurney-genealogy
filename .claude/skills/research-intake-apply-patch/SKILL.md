@@ -9,7 +9,7 @@ Use this skill for phase 2 of intake.
 
 ## Read first
 - `.claude/CLAUDE.md`
-- `.claude/rules/repo-file-resolution.md`
+- `AGENTS.md` §4 (Repo file resolution — lookup order, direct-open known paths, destination discipline)
 - `.claude/rules/research-writing-style.md`
 - `.claude/rules/citations.md`
 - `.claude/rules/data-json.md`

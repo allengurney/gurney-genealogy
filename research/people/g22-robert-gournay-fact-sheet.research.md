@@ -175,7 +175,7 @@ The College of Arms 1622 pedigree is the highest-value lead. The IPM for Edmund 
 
 ## Citation note (2026-04-16)
 
-Earlier version miscited DG-II references as "DG Supplement" — corrected per `research/topics/dg-citation-audit.md`.
+Earlier version miscited DG-II references as "DG Supplement" — corrected per `sources/intake/done/audit-dg-citation-supplement-misattribution-2026-04-16.md`.
 
 ### Heylesdon-aftermath continuation: Alice Heylesdon's three marriages and 1433 Fastolf sale
 

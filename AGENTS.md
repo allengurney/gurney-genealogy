@@ -10,17 +10,19 @@
 
 Any AI reading a rule may consult its `paths:` field manually and observe the same convention: load the rule when working on a file matching one of those globs. The convention is just YAML — readable by any LLM.
 
-Do not introduce any rule, skill, file location, or convention described as "Claude-Code-specific architecture." Path-scoping is the *only* Claude-Code-specific behaviour in this repo, and it is an optimization layered on universally-readable content.
-
 ---
 
 ## 0. Session start
 
-On new session: read `AGENTS.md` and `README.md`. Check if `data/sources.json` changed since last reference. For a specific ancestor, read both `fact-sheets/g{NN}-{slug}-fact-sheet.md` and `research/people/g{NN}-{slug}-fact-sheet.research.md`.
+On new session: read `AGENTS.md` and `README.md`. For a specific ancestor, read both `fact-sheets/g{NN}-{slug}-fact-sheet.md` and `research/people/g{NN}-{slug}-fact-sheet.research.md`.
 
-## 0a. Do not over-read
+## 0a. Match context to task shape
 
-Open only files the task requires. Do not pre-load full source corpora, all fact sheets, all research companions, `research/log/*` (retired; see §2 repo map), or unrelated generations unless the task specifically calls for them. More context is not safer in this repo — extra context dilutes attention and increases the chance of mis-applied rules. When in doubt, open the target file first and let it tell you what adjacent files matter.
+For routine edits, open only files the task requires. Do not pre-load full source corpora, all fact sheets, all research companions, or unrelated generations unless the task specifically calls for them.
+
+For discovery and research tasks where exploring the repo *is* the work, breadth is appropriate — but use targeted search (Grep / Glob) to find candidates first, then read only the files that match. Sequential full-file reads of large directories should be rare.
+
+When in doubt for an edit task, open the target file first and let it tell you what adjacent files matter.
 
 ---
 
@@ -60,7 +62,7 @@ For destination guidance ("where does this finding go?"), see the directory READ
 
 ## 3. Rules and skills — explicit enumeration (cross-AI discovery)
 
-Any AI working in this repo should consult these files. Claude Code auto-loads matched files via `paths:` frontmatter; other AIs should read on demand based on the work being performed.
+Any AI working in this repo should consult these files based on the work being performed.
 
 ### Rules (`.claude/rules/`)
 
@@ -71,12 +73,13 @@ Any AI working in this repo should consult these files. Claude Code auto-loads m
 | `data-json.md` | `data/*.json` | Edit discipline for the structured data spine. |
 | `fact-sheets.md` | `fact-sheets/*.md` | Published-narrative discipline — plain-English contract, Highlights bullet shape, Vitals overflow, citation rigour, finding-in-main / sources-in-footnote. |
 | `git-onedrive-codex.md` | always-loaded | OneDrive working-tree health checks. |
-| `repo-file-resolution.md` | always-loaded | Lookup order for repo files, paths vs URLs. |
 | `research-case-files.md` | `research/case-files/*.md` | Case files are user-initiated in-depth publication artefacts; AI does not promote findings here without direction. |
 | `research-files.md` | `research/people/*.md`, `research/places/*.md`, `research/topics/*.md` | Shared research-file discipline plus per-subdirectory rules for people, places, topics. |
 | `research-writing-style.md` | always-loaded | Research prose style — lead with finding, compactness, caveat discipline. |
 | `site-generation.md` | `site/**/*` | Site is generated/presentation only; canonical content lives upstream. |
 | `sources.md` | `sources/intake/**`, `sources/validations/*.md`, `sources/media/**` | Intake (patchset standard), validation worksheets, media file discipline. |
+
+Repo file resolution (lookup order, direct-open known paths, destination discipline) is documented in §4 below rather than as a separate rule file.
 
 ### Skills (`.claude/skills/`)
 
@@ -94,13 +97,12 @@ Skills follow the Agent Skills open standard ([agentskills.io](https://agentskil
 
 ---
 
-## 4. Repo path resolution
+## 4. Repo file resolution
 
-- Work from exact repo-relative paths and the explicit branch/ref in play.
-- Prefer the local filesystem over public GitHub URLs when a file lives in the repo.
-- Do not search or hunt for a file when the exact path is already known.
-- Distinguish repo files, files attached to the current chat, files in another project/workspace, and external web sources.
-- Once a path is known, reuse it instead of searching again.
+1. **Lookup order:** exact repo-relative path → file attached to chat → file in another connected workspace → external URL. Distinguish these source types in any response.
+2. **Direct-open known paths.** Do not search to rediscover a file when the exact path is already known. Carry the working branch/ref through the whole task.
+3. **Resolve filename ambiguity once,** then reuse the exact path. When the same filename may exist in more than one place, say which one is in use.
+4. **Destination discipline:** put new knowledge in `research/`, not in validations or logs. Validations are thin source/method notes. Patchsets carry step-by-step execution instructions. Directory READMEs (`research/README.md`, `sources/README.md`, etc.) carry destination guidance when a finding could land in more than one place.
 
 ---
 
@@ -129,7 +131,7 @@ Skills follow the Agent Skills open standard ([agentskills.io](https://agentskil
 - G1 = Allen. Numbers increase going back.
 - West Barsham entered via Wauncy inheritance (Edmund G23's wife Katherine); held until 1661.
 - Francis G14 = sixth son of Henry G15.
-- `data/ancestors.json` = canonical ancestor data file (renamed 2026-05-25 from versioned `ancestors v26.json`). See `research/topics/ancestors-json-audit.md` for known data-quality issues inherited from earlier versions.
+- `data/ancestors.json` = canonical ancestor data file (renamed 2026-05-25 from versioned `ancestors v26.json`).
 - `data/places.json` + `data/places_detail.json` = canonical two-layer place spine. `locations.json` was retired.
 
 ---
@@ -139,14 +141,14 @@ Skills follow the Agent Skills open standard ([agentskills.io](https://agentskil
 ### Daniel Gurney, *Record* (1848)
 Primary secondary source G15–G35. Text in `sources/corpus/daniel-gurney-part-{1,2,3,4}.md`. OCR: "Wilham"/"William" ~6%, "Basiha"/"Basilia" ~16%. Page markers: `## p. N (#M) ##` (cite N). Supplement text extracted (Google Books OCR) into `sources/corpus/daniel-gurney-supplement.md` — OCR quality varies, especially for Latin passages and marginal notes. Rye appendix NOT yet in corpus.
 
-**Supplement vs. Parts I–III pagination test.** The 1858 Supplement runs pp. 725–1096. Any "Supplement" citation with a page number below 725 is miscited (should be DG-I, DG-II, or DG-III). See `research/topics/dg-citation-audit.md`.
+**Supplement vs. Parts I–III pagination test.** The 1858 Supplement runs pp. 725–1096. Any "Supplement" citation with a page number below 725 is miscited (should be DG-I, DG-II, or DG-III).
 
 ---
 
 ## 8. Verification order
 
 1. Primary source image — gold standard
-2. Primary source transcription (validated)
+2. Primary source transcription
 3. Scholarly compiled work (DG, Blomefield, HoP)
 4. Indexed databases (Anderson, Boyd, Ancestry — flag index-not-image)
 5. User-submitted trees — leads only, never citable
@@ -156,10 +158,10 @@ Primary secondary source G15–G35. Text in `sources/corpus/daniel-gurney-part-{
 ## 9. Evidence discipline
 
 - **Uncertainty is quantified, not hedged.** "Probable (~55–60%)" beats "fairly likely." Attach to specific claims, not whole documents.
-- **Negative results are first-class.** "Searched X, found nothing" is a finding. Log it on the subject's file, not on the source's.
+- **Negative results are first-class.** "Searched X, found nothing" can be a finding but also that it can be a result of source incompleteness. Log it on the subject's file, not on the source's.
 - **Conclusions don't outrun evidence.** Overclaiming is the cardinal sin.
 - **Conflicting sources exposed, not reconciled by fiat.** Document the conflict; preserve both positions until primary evidence resolves.
-- **Confidence conservation for living people.** G0–G2 and living collaterals: minimize detail in public files. Birth year, general geography OK; no addresses, no sensitive detail.
+- **Confidence conservation for living people.** living ancestors in G0–G1: minimize detail in public files. General geography OK; no addresses, no sensitive detail.
 
 Citation discipline lives in `.claude/rules/citations.md`. Research prose style in `.claude/rules/research-writing-style.md`. Both apply to all AI working in this repo.
 
