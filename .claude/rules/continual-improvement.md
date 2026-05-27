@@ -36,9 +36,13 @@ When in doubt about rule-worthiness, default to **not** writing a rule. Two reas
 
 When unsure, capture the user's specific guidance in the work itself (the fact sheet, companion, or patchset), not in `.claude/rules/`. If the same correction recurs across multiple unrelated tasks, that recurrence is the signal it has become rule-worthy.
 
+## Activation boundary — only in active repo-editing sessions
+Rule edits are mutations of the project's persistent guidance. Make them only during **active repo-editing tasks** where the user is asking AI to work on repo content. In **analysis-only sessions** (architectural reviews, "what do you think of X," reads of the framework, second-opinion passes), do not silently write a rule update — recommend the change in chat and ask before persisting.
+
+A session is analysis-only when the user's framing makes clear they are evaluating rather than directing work. When ambiguous, ask. Bias toward asking. Writing a rule during an analysis session is one of the easier ways for AI to overreach.
+
 ## Permission posture
-- The user does **not** need to re-grant permission for the rule update when the
-  feedback itself is the rule. Apply the update in the same turn.
+- During an active repo-editing task, the user does **not** need to re-grant permission for the rule update when the feedback itself is the rule. Apply the update in the same turn.
 - AI must **disclose** the rule update plainly in the response: which file
   changed, what the new guidance is, and which user feedback drove it.
 - If the feedback is ambiguous between "one-off" and "rule-worthy," ask before

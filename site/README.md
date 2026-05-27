@@ -11,7 +11,7 @@ This directory is presentation-oriented. Canonical facts and canonical prose liv
 - `Map-Create-23April2026/` — map generation scripts and notes for the standalone ancestor map artifact.
 
 ## Data rule
-Use the most recent canonical ancestor JSON from the repo root. As of this branch, that is `data/ancestors v26.json`, with places resolved through `data/places.json` and `data/places_detail.json`.
+Use the canonical ancestor JSON at `data/ancestors.json`, with places resolved through `data/places.json` and `data/places_detail.json`. Site-local JSON under `site/website/_data/` is generated/presentation output, not the source of truth.
 
 ## Current state
 Migration remains in progress. Avoid treating this folder as the authoritative content layer.

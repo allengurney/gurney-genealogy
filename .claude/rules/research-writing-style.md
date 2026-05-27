@@ -1,6 +1,6 @@
 ---
 paths:
-  - "research/**/*.md"
+  - "**/*"
 ---
 
 # Research writing style

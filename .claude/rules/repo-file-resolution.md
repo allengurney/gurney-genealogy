@@ -1,12 +1,6 @@
 ---
 paths:
-  - "README.md"
-  - "data/**/*"
-  - "fact-sheets/**/*"
-  - "research/**/*"
-  - "sources/**/*"
-  - "site/**/*"
-  - "tools/**/*"
+  - "**/*"
 ---
 
 # Repo file resolution

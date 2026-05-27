@@ -38,6 +38,8 @@ The raw queue for newly captured research awaiting triage and promotion.
 
 **FamilySearch exports — Phase 0:** FamilySearch Family Group Record PDF exports (under `sources/FS/`) get a content-evaluation pass before Phase 1. The output is an assessment MD attached to chat (not committed) that becomes the input to a Phase-1 patchset. See `.claude/skills/familysearch-export-review/SKILL.md`.
 
+**Patchset vs. direct edit — decision rule.** Use the intake/patchset workflow when (a) the task starts from newly captured source material that needs triage and staged review, (b) the work spans multiple destinations and benefits from explicit operational instructions, or (c) the user explicitly asks for a patchset. Use direct edits when the user asks for narrow modifications to known target files based on already-reviewed evidence, or for prose/style work that does not introduce new sourced claims. When unsure, ask — direct edits are faster but skip the audit trail; patchsets are heavier but preserve the operational history.
+
 **Patchset standard.** The patchset is an operational script that Phase 2 follows mechanically; it is also the traceability and audit record. Both purposes matter.
 
 - A patchset must contain explicit literal operations for each edit: `str_replace` with verbatim `old_string` and `new_string`, or `new file write` with the full content body. No "Phase 2 should locate…" detective work.

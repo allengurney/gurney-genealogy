@@ -16,7 +16,11 @@ Do not introduce any rule, skill, file location, or convention described as "Cla
 
 ## 0. Session start
 
-On new session: read `AGENTS.md`, `README.md`, most recent `research/log/*.md` if any. Check if `data/sources.json` changed since last reference. For a specific ancestor, read both `fact-sheets/g{NN}-{slug}-fact-sheet.md` and `research/people/g{NN}-{slug}-fact-sheet.research.md`.
+On new session: read `AGENTS.md` and `README.md`. Check if `data/sources.json` changed since last reference. For a specific ancestor, read both `fact-sheets/g{NN}-{slug}-fact-sheet.md` and `research/people/g{NN}-{slug}-fact-sheet.research.md`.
+
+## 0a. Do not over-read
+
+Open only files the task requires. Do not pre-load full source corpora, all fact sheets, all research companions, `research/log/*` (retired; see §2 repo map), or unrelated generations unless the task specifically calls for them. More context is not safer in this repo — extra context dilutes attention and increases the chance of mis-applied rules. When in doubt, open the target file first and let it tell you what adjacent files matter.
 
 ---
 
