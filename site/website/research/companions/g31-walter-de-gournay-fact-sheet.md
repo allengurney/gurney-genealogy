@@ -5,7 +5,7 @@ permalink: /research/notes/g31-walter-de-gournay.html
 eleventyExcludeFromCollections: true
 ---
 # Walter de Gournay (G31) Notes
-Research notes for `g31-walter-de-gournay-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research notes for `g31-walter-de-gournay-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
 ---
 

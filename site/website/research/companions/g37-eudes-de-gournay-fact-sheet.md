@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
 # Eudes (Odon) de Gournay (G37) Notes
 Research notes for `g37-eudes-de-gournay-fact-sheet.md`. Synthesised v2 (May 2026) drawing on DG-I + DG-Supp, Hannay, Pettigrew, Planché, John Gough Nichols ed. *Herald and Genealogist* vol. 3 (1866), Pattou *Racines Histoire* (2025), French Wikipedia *Famille de Gournay*, FMG MedLands (Cawley), Potin 1842, NRP-I 1852, Dudo of Saint-Quentin (Lair / Christiansen), Calmet *Histoire de Lorraine* (via the M. Palain de Mongnigny 1674 Metz judgment).
 
-The full Phase-0 cross-walks live in `sources/FS/PWPZ-VK1/assessment.md` (the FS PID labeled "Eudes ou Hugues de GOURNAY EN BRAY" — see G36 §6 for the name-equivalence framing) and `sources/FS/Norman_additions/assessment.md`. This synthesis preserves the verbatim primary-source extracts.
+The full Phase-0 cross-walks live in [`sources/FS/PWPZ-VK1/assessment.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/FS/PWPZ-VK1/assessment.md) (the FS PID labeled "Eudes ou Hugues de GOURNAY EN BRAY" — see G36 §6 for the name-equivalence framing) and [`sources/FS/Norman_additions/assessment.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/FS/Norman_additions/assessment.md). This synthesis preserves the verbatim primary-source extracts.
 
 ---
 
@@ -100,7 +100,7 @@ Translation: *"Vuldus de Gournay left Metz around the year 960 to go find Willia
 
 **The Lorraine source is not adopted**. It is a 17th-century Metz family origin myth, possibly intended to claim prestigious Norman descent for an unrelated Metz family. The repo retains the Eudes/Rollon tradition per DG, FMG, Pattou, French Wikipedia, Potin 1842, and NRP-I 1852.
 
-The Lorraine source is **worth recording as a documented competing tradition** for completeness, but the adoption decision is firm: Eudes/Rollon, not Vuldus/Conqueror. See `sources/FS/PWPZ-VK1/assessment.md` §8 for the full Lorraine-source apparatus.
+The Lorraine source is **worth recording as a documented competing tradition** for completeness, but the adoption decision is firm: Eudes/Rollon, not Vuldus/Conqueror. See [`sources/FS/PWPZ-VK1/assessment.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/FS/PWPZ-VK1/assessment.md) §8 for the full Lorraine-source apparatus.
 
 ---
 
@@ -158,7 +158,7 @@ The transformation from "simple ramparts of a feeble city" at Eudes's time to th
 
 3. **Marthe de Foucarmont**: Pattou's double `?` marking is the appropriate caution. Not a fact-sheet adoption.
 
-4. **The Lorraine "Vuldus" alternative**: not adopted. Documented for completeness in `sources/FS/PWPZ-VK1/assessment.md` §8 and the G37 case-file context if needed.
+4. **The Lorraine "Vuldus" alternative**: not adopted. Documented for completeness in [`sources/FS/PWPZ-VK1/assessment.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/FS/PWPZ-VK1/assessment.md) §8 and the G37 case-file context if needed.
 
 5. **The *funiculo* land-division detail**: Dudo's chronicle is hagiographic; the rope-measurement is a literary trope rather than a documented procedure.
 

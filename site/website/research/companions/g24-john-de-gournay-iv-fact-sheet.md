@@ -5,7 +5,7 @@ permalink: /research/notes/g24-john-de-gournay-iv.html
 eleventyExcludeFromCollections: true
 ---
 # John de Gournay IV (G24) Notes
-Research notes for `g24-john-de-gournay-iv-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research notes for `g24-john-de-gournay-iv-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
 ---
 

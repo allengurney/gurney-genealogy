@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
 # Renaud de Gournay (G35) Notes
 Research notes for `g35-renaud-de-gournay-fact-sheet.md`. Synthesised v2 (May 2026) drawing on DG-I + DG-Supp, Hannay, Pettigrew, Planché, Pattou *Racines Histoire* (2025), French Wikipedia *Famille de Gournay*, FMG MedLands (Cawley), Potin 1842, NRP-I 1852.
 
-The full Phase-0 cross-walks live in `sources/FS/GC1N-CQ3/assessment.md` and `sources/FS/Norman_additions/assessment.md`. This synthesis preserves the verbatim primary-source extracts.
+The full Phase-0 cross-walks live in [`sources/FS/GC1N-CQ3/assessment.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/FS/GC1N-CQ3/assessment.md) and [`sources/FS/Norman_additions/assessment.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/FS/Norman_additions/assessment.md). This synthesis preserves the verbatim primary-source extracts.
 
 ---
 
@@ -119,7 +119,7 @@ Translation: *"In the middle of the 19th century, Daniel Gurney established a ge
 
 Pattou here is presenting DG's chain (Eudes → Renaud → Hugues de Gournay) as a *hypothesis* DG advanced rather than a settled fact, with explicit citation to Delisle's critique.
 
-A topic file `research/topics/dg-reception-delisle-critique.md` is recommended for capturing this scholarly reception more fully (see cross-cutting work).
+A topic file [`research/topics/dg-reception-delisle-critique.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/topics/dg-reception-delisle-critique.md) is recommended for capturing this scholarly reception more fully (see cross-cutting work).
 
 ---
 

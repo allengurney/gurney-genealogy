@@ -5,7 +5,7 @@ permalink: /research/notes/g02-lester-hayes-gurney.html
 eleventyExcludeFromCollections: true
 ---
 # Lester Hayes Gurney (G02) Notes
-Research notes for `g02-lester-hayes-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research notes for `g02-lester-hayes-gurney-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
 ---
 

@@ -41,12 +41,12 @@ Not allowed here:
 
 ## Plain-English reader contract
 - Write for a general reader. Avoid jargon that requires subject-matter expertise unless it is glossed inline.
-- Do not use repository-internal vocabulary in reader-facing prose: "repo," "the repo's numbering," "FS structured field," "structured data," "intake," "patchset," and similar terms belong in research/validation/patchset files, not in fact sheets.
+- Do not use repository-internal vocabulary in reader-facing prose: "repo," "the repo's numbering," "FS structured field," "structured data," "intake," "patchset," "claim," and similar terms belong in research/validation/patchset files, not in fact sheets.
 - When a meaningful ordering or naming choice needs to be explained, phrase it as a reader-facing convention (e.g., "Ordinal numbering of ancestors such as 'II' in 'Hugh II' on this site follows..."), not as a fact about the repository.
 - Do not use unexplained Latin or French quotations. Keep the original phrase when it adds flavor or fidelity, but follow it with a plain-English meaning ("*mort sans postérité* — died without descendants"; "*un vieux manuscrit* — an old manuscript").
 - Do not use acronyms or repo-internal shorthand on the visible page: spell out **Daniel Gurney's *Record of the House of Gournay*** rather than **DG-I**; **FamilySearch** rather than **FS**; **the family-tree compilation at our-royal-titled-noble-and-commoner-ancestors.com** rather than **TNG site**; **Foundation for Medieval Genealogy MedLands** rather than **FMG MedLands**. Existing acronyms in research files may stay; do not introduce new ones in fact sheets.
 - Non-English quotes and quotes that use terminology not in common modern usage should be explained or translated for plain English consumption.
-- Highly technical, genealogical, or historical terms which are not in common modern usage should either be a hyperlink to a definition or explanatory source (e.g. wikipedia.org), explained in the prose, a parenthetical synonym, or otherwise avoided for plain English consumption.
+- Highly technical, genealogical, or historical terms which are not in common modern usage should either be a hyperlink to a definition or explanatory source (e.g. wikipedia.org), explained in the prose, a parenthetical synonym, or otherwise avoided for plain English consumption. Examples: "feoffee," "advowsons," "engrailed." 
 
 ## Lineage-status vocabulary
 - Reader-facing status language should be plain. Prefer phrases like "historically recorded but limited," "confirmed by contemporary document," "rests on later tradition" over single-word labels like "Tradition" or "Uncertain" without context.

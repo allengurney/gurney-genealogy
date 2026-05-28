@@ -5,7 +5,7 @@ permalink: /research/notes/g28-william-de-gournay-ii.html
 eleventyExcludeFromCollections: true
 ---
 # William de Gournay II (G28) Notes
-Research notes for `g28-william-de-gournay-ii-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research notes for `g28-william-de-gournay-ii-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
 ---
 

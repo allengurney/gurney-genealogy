@@ -5,7 +5,7 @@ permalink: /research/notes/g16-francis-gurney.html
 eleventyExcludeFromCollections: true
 ---
 # Francis Gurney (G16) Notes
-Research notes for `g16-francis-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research notes for `g16-francis-gurney-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
 ---
 

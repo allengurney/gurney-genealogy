@@ -5,7 +5,7 @@ permalink: /research/notes/g26-sir-william-de-gournay-iii.html
 eleventyExcludeFromCollections: true
 ---
 # Sir William de Gournay III (G26) Notes
-Research notes for `g26-sir-william-de-gournay-iii-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research notes for `g26-sir-william-de-gournay-iii-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
 ---
 

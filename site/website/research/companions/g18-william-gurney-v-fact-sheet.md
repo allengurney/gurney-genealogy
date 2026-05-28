@@ -5,7 +5,7 @@ permalink: /research/notes/g18-william-gurney-v.html
 eleventyExcludeFromCollections: true
 ---
 # William Gurney V (G18) Notes
-Research notes for `g18-william-gurney-v-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research notes for `g18-william-gurney-v-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
 ---
 
@@ -124,7 +124,7 @@ The material culture details (gold ring with turquoise, featherbeds, wainscot fu
 
 The 1484 marriage indentures between William V (G18) and Anne Heydon (granddaughter of John Heydon of Baconsthorpe) are conventionally framed as the moment the Heydon connection entered the Gurney line. The full record shows the alliance was operating thirteen years earlier:
 
-- **27 July 1471 — Thomas Gournay II's will probated.** John Heydon of Baconsthorpe is named as supervisor (the senior overseer of the executors). Heydon was the most powerful Norfolk lawyer of the mid-fifteenth century, the *Paston Letters* antagonist, William de la Pole's chief East Anglian agent, joint Duchy of Lancaster steward with Sir Thomas Tuddenham, and survivor of Tuddenham's 1462 execution by paying 500 marks for a Yorkist pardon. (Source: Blomefield, *History of Norfolk*, vol. vii, "West-Barsham," pp. 42-47, will text — see `sources/corpus_supplement/blomefield-norfolk-vol7-pp42-47-west-barsham.md`.)
+- **27 July 1471 — Thomas Gournay II's will probated.** John Heydon of Baconsthorpe is named as supervisor (the senior overseer of the executors). Heydon was the most powerful Norfolk lawyer of the mid-fifteenth century, the *Paston Letters* antagonist, William de la Pole's chief East Anglian agent, joint Duchy of Lancaster steward with Sir Thomas Tuddenham, and survivor of Tuddenham's 1462 execution by paying 500 marks for a Yorkist pardon. (Source: Blomefield, *History of Norfolk*, vol. vii, "West-Barsham," pp. 42-47, will text — see [`sources/corpus_supplement/blomefield-norfolk-vol7-pp42-47-west-barsham.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/blomefield-norfolk-vol7-pp42-47-west-barsham.md).)
 - **January–May 1472 — Saxthorpe Court showdown.** Henry Heydon (John Heydon's son) raises men-at-arms in William Gurney IV's support during William IV's two attempts to hold a manorial court at Saxthorpe against John Paston. Documented in the Gairdner Introduction to the *Paston Letters* — see v62 for the full extract.
 - **28 May 1484 — Marriage indentures.** Between Henry Heydon Esquire and William Gurnay senior (= G19 William IV), arranging the marriage of Henry's daughter Anne Heydon to G19's son and heir William junior (= G18 William V). Documented in Daniel Gurney *Supplement* Note 132, pp. 817-819 (within the 1485 trust deed recital).
 

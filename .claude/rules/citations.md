@@ -65,6 +65,7 @@ Each footnote should generally include:
 - Include URL when available and stable enough to be useful.
 - Prefer the page URL for the exact record, article, or source entry.
 - If a source is only reachable through a search-result flow, cite the stable collection or record URL if one exists.
+- Use citations to repo markdown artifacts only when necessary; include the visible path text and link it to the GitHub file when useful for readers. Never reference JSON files in fact sheets or research companions.
 
 ## Tertiary online sources (Wikipedia and similar)
 - Wikipedia and similar compiled-pedigree / encyclopedic sites are **collectors**, not authorities. They have value as quick orientation and as pointers to the underlying primary or secondary literature their references cite.

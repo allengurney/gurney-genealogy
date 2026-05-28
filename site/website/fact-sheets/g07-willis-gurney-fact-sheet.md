@@ -106,14 +106,14 @@ factsheet:
 <h2 class="unnumbered">Citations</h2>
 
 <ol class="citation-list">
-  <li id="n1">Approximate birth year derived from federal census ages and from family-tradition material in the Brigadier General William Gurney research file. See <code>data/ancestors v26.json</code>, G7 entry, and <code>research/people/g07-willis-gurney-fact-sheet.research.md</code>. <a class="citation-back" href="#ref-1">↩</a></li>
+  <li id="n1">Approximate birth year derived from federal census ages and from family-tradition material in the Brigadier General William Gurney research file. See <code>data/ancestors v26.json</code>, G7 entry, and <a href="https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g07-willis-gurney-fact-sheet.research.md"><code>research/people/g07-willis-gurney-fact-sheet.research.md</code></a>. <a class="citation-back" href="#ref-1">↩</a></li>
   <li id="n2">Absent from the 1870 federal census; widow Eliza is found with son Willis Jr. in the 1850 census household and continues to appear without Willis Sr. in later records. <a class="citation-back" href="#ref-2">↩</a></li>
   <li id="n3">Federal census, Flushing, Queens County, New York, 1830, 1840, and 1850 schedules (population, occupation: tailor). Family-tradition narrative on Eliza's church attendance preserved in the Brigadier General William Gurney research file. <a class="citation-back" href="#ref-3">↩</a></li>
   <li id="n4">Family-tradition narrative preserved in the Brigadier General William Gurney research file; St. George's Episcopal Church, Flushing, parish records not yet consulted. <a class="citation-back" href="#ref-4">↩</a></li>
   <li id="n5">Federal census, Flushing, Queens County, New York, 1830, 1840, and 1850 schedules. Patrick L. Cooney's history of Flushing for nineteenth-century context: <a href="https://history.queensny.org/flushing/">Flushing Historical Society</a>. <a class="citation-back" href="#ref-5">↩</a></li>
   <li id="n6">For John Gurney (G13) as tailor, see <a href="/key-research/john-gurney-case-file.html">John Gurney case file</a> and Anderson, <em>Great Migration Directory</em>, p. 158 (Source ID: <code>anderson-gmd-2015</code>). <a class="citation-back" href="#ref-6">↩</a></li>
   <li id="n7">For William Gurney's career, see <a href="/key-research/brigadier-general-william-gurney.html">Brigadier General William Gurney</a>, Gurney Genealogy Library. <a class="citation-back" href="#ref-7">↩</a></li>
-  <li id="n8">Negative result: Queens County / city register's office land records 1830–1870 not yet searched. See <code>research/people/g07-willis-gurney-fact-sheet.research.md</code>. <a class="citation-back" href="#ref-8">↩</a></li>
+  <li id="n8">Negative result: Queens County / city register's office land records 1830–1870 not yet searched. See <a href="https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g07-willis-gurney-fact-sheet.research.md"><code>research/people/g07-willis-gurney-fact-sheet.research.md</code></a>. <a class="citation-back" href="#ref-8">↩</a></li>
   <li id="n9">Family-tradition narrative preserved in the Brigadier General William Gurney research file. <a class="citation-back" href="#ref-9">↩</a></li>
 </ol>
 </section>

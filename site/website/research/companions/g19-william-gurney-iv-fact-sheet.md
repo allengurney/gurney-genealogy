@@ -5,7 +5,7 @@ permalink: /research/notes/g19-william-gurney-iv.html
 eleventyExcludeFromCollections: true
 ---
 # William Gurney IV (G19) Notes
-Research notes for `g19-william-gurney-iv-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research notes for `g19-william-gurney-iv-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
 ---
 
@@ -91,7 +91,7 @@ Blomefield's West Barsham parish entry preserves three pre-mortem chronology dat
 
 Blomefield's odd phrase "a knight eschaetor for Norfolk" may indicate William IV was knighted in his lifetime (a possibility not in Daniel Gurney), or may be a Blomefield slip for "knight escheator" / "escheator under a knight-service obligation." Not asserted in the fact sheet without independent corroboration.
 
-[^v61-blomefield-vol7-west-barsham-g19]: Francis Blomefield, *History of Norfolk*, vol. vii, "West-Barsham," pp. 42-47, [British History Online](https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp42-47). Source ID: `blomefield-norfolk`. Full extract at `sources/corpus_supplement/blomefield-norfolk-vol7-pp42-47-west-barsham.md`.
+[^v61-blomefield-vol7-west-barsham-g19]: Francis Blomefield, *History of Norfolk*, vol. vii, "West-Barsham," pp. 42-47, [British History Online](https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp42-47). Source ID: `blomefield-norfolk`. Full extract at [`sources/corpus_supplement/blomefield-norfolk-vol7-pp42-47-west-barsham.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/blomefield-norfolk-vol7-pp42-47-west-barsham.md).
 
 ### Pockthorpe-by-Norwich residence = brother-in-law William Calthorpe's manor house
 
@@ -110,7 +110,7 @@ Each feoffee's relationship to William IV:
 - **Sir Edward Howard** (1476/77 – 25 April 1513): son of Thomas Howard 2nd Duke of Norfolk; later Lord High Admiral of England; killed at Brest 25 April 1513. Source authority: Susan Doran, "Howard, Sir Edward (1476/7-1513)," *Oxford Dictionary of National Biography*, [oxforddnb.com](https://www.oxforddnb.com/view/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-13886).
 - **Sir Philip Calthorpe**: son of Sir William Calthorpe Knight of the Bath, probably by his second wife Elizabeth Stapleton — half-nephew of William IV's wife Anne Calthorpe. Source authority: Carr-Calthrop, *Notes on the Families of Calthorpe and Calthrop* (1933), Calthorpe pedigree.
 - **Sir Robert Clere** (c. 1444 – 1529) of Ormesby St Margaret, Norfolk: Howard-circle Norfolk knight. *Visitations of Norfolk* (Harleian Society, 1891).
-- **Sir Robert Drury** (c. 1456 – 1535), Speaker of the House of Commons 1495; Knight of the Body to Henry VII and Henry VIII; Privy Councillor. **Married, by 1494, Anne Calthorpe — daughter of Sir William Calthorpe Knight of the Bath by his second wife Elizabeth Stapleton.** Anne Calthorpe (wife of William IV) and Anne Calthorpe (wife of Sir Robert Drury) were both daughters of Sir William Calthorpe Knight of the Bath by his two different wives; the two women were therefore half-sisters. Sir Robert Drury was William IV's half-sister-in-law's husband. Source authority: HoP biography of Drury (full text at `sources/corpus_supplement/hop-drury-robert-i-1456-1535.md` via v62).
+- **Sir Robert Drury** (c. 1456 – 1535), Speaker of the House of Commons 1495; Knight of the Body to Henry VII and Henry VIII; Privy Councillor. **Married, by 1494, Anne Calthorpe — daughter of Sir William Calthorpe Knight of the Bath by his second wife Elizabeth Stapleton.** Anne Calthorpe (wife of William IV) and Anne Calthorpe (wife of Sir Robert Drury) were both daughters of Sir William Calthorpe Knight of the Bath by his two different wives; the two women were therefore half-sisters. Sir Robert Drury was William IV's half-sister-in-law's husband. Source authority: HoP biography of Drury (full text at [`sources/corpus_supplement/hop-drury-robert-i-1456-1535.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/hop-drury-robert-i-1456-1535.md) via v62).
 - **Nicholas Appleyard Esquire**: Appleyard family of Bracon Ash, Norfolk; allied with the Heydons through Heydon-Appleyard marriages. The same Appleyard family had a Nicholas Appleyard as a 1452 St George's Day petition co-signer alongside Thomas Gournay II — a 53-year continuity of the Gurney-Appleyard tie (Blomefield vol. v).
 - **William Calthorpe of Pockthorpe**: William IV's full brother-in-law (see above).
 - **Thomas Gurnay Esquire**: William IV's son, named in Daniel Gurney's pedigree at *Record* p. 287 as "Thomas Gurnet, his father's executor, ancestor of the Gurneys of Dartmouth, London, and Essex."
@@ -132,7 +132,7 @@ The G19 narrative line "the eldest son whose marriage would bring Boleyn descent
 - Sir Geoffrey Boleyn's other children included **Sir William Boleyn** (1451-1505), father of **Sir Thomas Boleyn 1st Earl of Wiltshire**, father of **Queen Anne Boleyn**.
 - Anthony Gurney G17 was therefore second cousin to Queen Anne Boleyn, second cousin once removed to Queen Elizabeth I.
 
-The G17 Queen Anne Boleyn related fact sheet at `fact-sheets/g17-queen-anne-boleyn-related-fact-sheet.md` carries the full chain. G19's narrative should cite that fact sheet specifically rather than leave "Boleyn descent" generic.
+The G17 Queen Anne Boleyn related fact sheet at [`fact-sheets/g17-queen-anne-boleyn-related-fact-sheet.md`](https://github.com/allengurney/gurney-genealogy/blob/main/fact-sheets/g17-queen-anne-boleyn-related-fact-sheet.md) carries the full chain. G19's narrative should cite that fact sheet specifically rather than leave "Boleyn descent" generic.
 
 ### Saxthorpe Court showdown, January–May 1472 — William Gurney IV vs. John Paston (Paston Letters)
 
@@ -144,11 +144,11 @@ Second attempt, Holy Rood Day (3 May) 1472: William IV had Henry Heydon (the son
 
 Within weeks, Henry Heydon bought Saxthorpe and Titchwell outright from Bishop Waynflete of Winchester, sidelining both the Pastons and the Gurneys. Margaret Paston wrote to her son on 5 June 1472: "We beat the bushes, and have the loss and the disworship, and other men have the birds."
 
-Full Gairdner Introduction extract preserved at `sources/corpus_supplement/paston-letters-gairdner-gurney-extracts.md` §1.[^v62-paston-saxthorpe-1472]
+Full Gairdner Introduction extract preserved at [`sources/corpus_supplement/paston-letters-gairdner-gurney-extracts.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/paston-letters-gairdner-gurney-extracts.md) §1.[^v62-paston-saxthorpe-1472]
 
 This is the second piece of evidence in 1471-72 for a working Gurney-Heydon military and political alliance, immediately following the 1471 will's choice of Henry's father John Heydon as supervisor. The 1484 marriage indentures between William IV's son William V (G18) and John Heydon's granddaughter Anne Heydon were the formal sealing of a relationship that had been operating in the field for at least thirteen years.
 
-[^v62-paston-saxthorpe-1472]: James Gairdner, ed., *The Paston Letters, A.D. 1422-1509*, 6 vols. (London: Chatto and Windus, 1904), Introduction in vol. I, narrating Paston letters Nos. 779, 796, 801 and Margaret Paston's letter of 5 June 1472. Project Gutenberg vol. I: [www.gutenberg.org/cache/epub/43348/pg43348.txt](https://www.gutenberg.org/cache/epub/43348/pg43348.txt). Source ID: `paston-letters-gairdner`. Full extract preserved at `sources/corpus_supplement/paston-letters-gairdner-gurney-extracts.md` §1.
+[^v62-paston-saxthorpe-1472]: James Gairdner, ed., *The Paston Letters, A.D. 1422-1509*, 6 vols. (London: Chatto and Windus, 1904), Introduction in vol. I, narrating Paston letters Nos. 779, 796, 801 and Margaret Paston's letter of 5 June 1472. Project Gutenberg vol. I: [www.gutenberg.org/cache/epub/43348/pg43348.txt](https://www.gutenberg.org/cache/epub/43348/pg43348.txt). Source ID: `paston-letters-gairdner`. Full extract preserved at [`sources/corpus_supplement/paston-letters-gairdner-gurney-extracts.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/paston-letters-gairdner-gurney-extracts.md) §1.
 
 ### Sir Robert Drury (1456-1535) — 1505 trust feoffee — HoP biography
 
@@ -159,6 +159,6 @@ Sir Robert Drury is named as a feoffee on William Gurney IV's 1505 trust deed (D
 
 Drury was knighted at Blackheath 17 June 1497 after fighting the Cornish rebels, possibly under John de Vere 13th Earl of Oxford, whose deputy he became in the stewardship of the south parts of the Duchy of Lancaster (c. 1498-1526). Under the 13th Earl's 1509 will Drury was an executor, with a £6 13s 4d annuity and the **Ellesmere Chaucer manuscript** (now Huntington Library, EL 26 C 9 — the most celebrated illuminated manuscript of Chaucer's *Canterbury Tales*), which bears the signatures of Drury and his son William.
 
-Full HoP biography preserved at `sources/corpus_supplement/hop-drury-robert-i-1456-1535.md`.[^v62-hop-drury]
+Full HoP biography preserved at [`sources/corpus_supplement/hop-drury-robert-i-1456-1535.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/hop-drury-robert-i-1456-1535.md).[^v62-hop-drury]
 
-[^v62-hop-drury]: L. M. Kirk, "DRURY, Sir Robert I (by 1456-1535), of Hawstead, Suff. and London," in S. T. Bindoff, ed., *The History of Parliament: The House of Commons 1509-1558* (London: Secker & Warburg, 1982). [historyofparliamentonline.org/volume/1509-1558/member/drury-sir-robert-i-1456-1535](https://www.historyofparliamentonline.org/volume/1509-1558/member/drury-sir-robert-i-1456-1535). Source ID: `hop-drury-robert-i-1456-1535`. Full text preserved at `sources/corpus_supplement/hop-drury-robert-i-1456-1535.md`.
+[^v62-hop-drury]: L. M. Kirk, "DRURY, Sir Robert I (by 1456-1535), of Hawstead, Suff. and London," in S. T. Bindoff, ed., *The History of Parliament: The House of Commons 1509-1558* (London: Secker & Warburg, 1982). [historyofparliamentonline.org/volume/1509-1558/member/drury-sir-robert-i-1456-1535](https://www.historyofparliamentonline.org/volume/1509-1558/member/drury-sir-robert-i-1456-1535). Source ID: `hop-drury-robert-i-1456-1535`. Full text preserved at [`sources/corpus_supplement/hop-drury-robert-i-1456-1535.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/hop-drury-robert-i-1456-1535.md).

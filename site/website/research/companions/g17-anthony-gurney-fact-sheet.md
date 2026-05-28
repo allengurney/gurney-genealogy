@@ -5,7 +5,7 @@ permalink: /research/notes/g17-anthony-gurney.html
 eleventyExcludeFromCollections: true
 ---
 # Anthony Gurney (G17) Notes
-Research notes for `g17-anthony-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research notes for `g17-anthony-gurney-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
 ---
 

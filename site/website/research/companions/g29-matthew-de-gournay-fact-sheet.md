@@ -5,7 +5,7 @@ permalink: /research/notes/g29-matthew-de-gournay.html
 eleventyExcludeFromCollections: true
 ---
 # Matthew de Gournay (G29) Notes
-Research notes for `g29-matthew-de-gournay-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research notes for `g29-matthew-de-gournay-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
 ---
 

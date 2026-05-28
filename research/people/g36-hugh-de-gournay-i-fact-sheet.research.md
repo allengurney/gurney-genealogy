@@ -2,7 +2,7 @@
 
 Research companion for `g36-hugh-de-gournay-i-fact-sheet.md`. Synthesised v2 (May 2026) drawing on DG-I + DG-Supp, Hannay, Pettigrew, Planché, Pattou *Racines Histoire* (2025), French Wikipedia *Famille de Gournay*, FMG MedLands (Cawley), Potin 1842 *Recherches sur la ville de Gournay-en-Bray*, NRP-I 1852, Painchault 2012, William Brito's *Philippide* (c. 1224), Père du Plessis's *Description de la Haute Normandie* (early 18th c.), Nicolas Cordier's MS *Histoire de Gournay* (c. 1710–1738) via Potin 1842.
 
-The full Phase-0 cross-walks live in `sources/FS/PWPZ-VK1/assessment.md` and `sources/FS/Norman_additions/assessment.md`. This synthesis preserves the verbatim primary-source extracts.
+The full Phase-0 cross-walks live in [`sources/FS/PWPZ-VK1/assessment.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/FS/PWPZ-VK1/assessment.md) and [`sources/FS/Norman_additions/assessment.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/FS/Norman_additions/assessment.md). This synthesis preserves the verbatim primary-source extracts.
 
 ---
 
@@ -38,7 +38,7 @@ Potin 1842 reproduces a long Cordier passage describing the surviving fortificat
 
 Translation (selective): *"These fortifications are heavy thick walls of hard grey stones, with parapets, flanked at intervals by round towers with crenellations, accompanied by wide deep ditches outside; the whole in the antique manner of fortification before the use of cannon-powder…For entering the town, there are four different gates, each garnished with a portcullis or 'sarrasine,' still visible [c. 1710] in the slots reserved in the body of the wall…Distinguish the town from the Château. The Château was the terrain forming the parish of Saint-Hildevert. It had three gates: one at the clock-tower…another in the rue de Cantemesle…the third gate was situated at the mill."*
 
-The Cordier MS is the deepest local-tradition source on the fortification topography. **A topic file `research/topics/gournay-tower-la-tour-hue.md` is recommended for fully integrating this material**.
+The Cordier MS is the deepest local-tradition source on the fortification topography. **A topic file [`research/topics/gournay-tower-la-tour-hue.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/topics/gournay-tower-la-tour-hue.md) is recommended for fully integrating this material**.
 
 ### 2.3 DG-Supp Note 7 (1858) — the survival date sharpened
 
@@ -88,7 +88,7 @@ French Wikipedia (Famille de Gournay): *"Hugues Ier de Gournay, vivant en 984, d
 
 The Gerberoy attribution is **structurally plausible**: Gerberoy is in the Bray-Picard, immediately south of the Gournay seigneurie, and a marriage between the lord of Gournay and a daughter of Gerberoy would be a natural Pays-de-Bray frontier alliance. But the attribution rests on local tradition with `?` markers, not on a primary-source attestation.
 
-**Note on the FS-tree displacement**: the FS PID PM9Z-R79 attaches "Berthilde de Gerberoy" to *Hugh II* (G34) as wife. This is two generations down from the correct level (per Pattou and French Wikipedia). The 1059 death year is consistent across both the misplaced FS attribution and the correct Pattou attribution at Hugues 1er. The FS Family Tree should be corrected (see `sources/FS/LVSH-KBM/assessment.md` §3).
+**Note on the FS-tree displacement**: the FS PID PM9Z-R79 attaches "Berthilde de Gerberoy" to *Hugh II* (G34) as wife. This is two generations down from the correct level (per Pattou and French Wikipedia). The 1059 death year is consistent across both the misplaced FS attribution and the correct Pattou attribution at Hugues 1er. The FS Family Tree should be corrected (see [`sources/FS/LVSH-KBM/assessment.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/FS/LVSH-KBM/assessment.md) §3).
 
 **Repo position**: record Bathilde de Gerberoy as a tentative candidate at G36 with `?` qualifier, not as a fact-sheet claim. The repo's existing "no spouse named in any surviving source" framing is the safest published position.
 

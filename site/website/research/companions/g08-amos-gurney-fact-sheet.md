@@ -5,7 +5,7 @@ permalink: /research/notes/g08-amos-gurney.html
 eleventyExcludeFromCollections: true
 ---
 # Amos Gurney (G08) Notes
-Research notes for `g08-amos-gurney-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research notes for `g08-amos-gurney-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
 ---
 

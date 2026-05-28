@@ -10,7 +10,7 @@ Research companion for `g12-richard-gurney-fact-sheet.md`. See `.claude/rules/re
 
 Richard's birth in England c. 1630–1634 places him in the cohort of small children brought across the Atlantic by parents arriving in the Great Migration window. His father John Gurney (G13) is first recorded in Massachusetts in June 1641 at Weymouth (per Anderson, <em>Great Migration Directory</em>, p. 158, Source ID <code>anderson-gmd-2015</code>); the children were already born in England. Sprague, <em>Genealogies of Braintree</em> (Source ID <code>sprague-braintree</code>), p. 695, lists Richard among John Gurney-1's children and is the principal published genealogical source for the family group.
 
-The Anderson Great Migration Directory entry treats John Gurney-1's English origin as "Unknown" — an implicit rejection of the older Banks attribution to Bury St. Edmunds, Suffolk. Until that question is resolved, Richard's English birthplace is genuinely unknown. The case is laid out in detail in <code>research/case-files/john-gurney-case-file-v4.md</code> and is the primary unresolved problem above this generation.
+The Anderson Great Migration Directory entry treats John Gurney-1's English origin as "Unknown" — an implicit rejection of the older Banks attribution to Bury St. Edmunds, Suffolk. Until that question is resolved, Richard's English birthplace is genuinely unknown. The case is laid out in detail in <a href="https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v4.md"><code>research/case-files/john-gurney-case-file-v4.md</code></a> and is the primary unresolved problem above this generation.
 
 ### Weymouth proprietor — "before 1642–44"
 
@@ -35,7 +35,7 @@ Massachusetts Bay's Freeman lists are well preserved. Richard's 1681 admission c
 - No will or probate for Richard (he died intestate in 1691, so administration only — the administrator's record may still be in Plymouth County probate).
 - Date of marriage to Rebecca Taylor not captured.
 - Other children beyond Benjamin (G11), John Jr., and Zachariah not documented in this companion. Sprague's family group is the obvious source.
-- The full list of John Gurney-1's children that Sprague preserves on p. 695 is reproduced in <code>research/people/g13-john-gurney-fact-sheet.research.md</code> rather than here.
+- The full list of John Gurney-1's children that Sprague preserves on p. 695 is reproduced in <a href="https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g13-john-gurney-fact-sheet.research.md"><code>research/people/g13-john-gurney-fact-sheet.research.md</code></a> rather than here.
 
 ### Children list and death-year conflict from History of Weymouth and Torrey
 
@@ -48,8 +48,8 @@ The conflicts are real and should be preserved rather than silently merged:
 - Surname spellings. Weymouth notes the surname "is found spelled Garey, Garry, Gerry, and Gurny." Use this when searching New England town and probate records for Richard.
 - Wife. Weymouth gives "Rebecca Taylor, probably daughter of John and Phebe Taylor of Weymouth." This is the first explicit Phebe Taylor parent name preserved here for Rebecca and matches the existing 1688 Taylor will lead.[^history-of-weymouth-g12][^torrey-g12]
 
-[^history-of-weymouth-g12]: *History of Weymouth, Massachusetts*, 4 vols. (Weymouth, Mass.: Weymouth Historical Society, 1923), Vol. 3, Genealogy of Weymouth families, Richard Gurney entry; Ancestry.com collection 21610 [image dvm_LocHist007443-00634-1](https://www.ancestry.com/imageviewer/collections/21610/images/dvm_LocHist007443-00634-1); transcribed extract at `sources/corpus_supplement/history-of-weymouth-vol3-gurney.md`. Source ID: `history-of-weymouth`.
-[^torrey-g12]: Clarence Almon Torrey, *New England Marriages Prior to 1700* (Baltimore: Genealogical Publishing Co., 2004), p. 331, Richard Gurney entry; Ancestry.com collection 3824 [image gpc_newenglandmarriages-0347 (pId=51825)](https://www.ancestry.com/imageviewer/collections/3824/images/gpc_newenglandmarriages-0347?pId=51825); transcribed extract at `sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md`. Source ID: `torrey-new-england-marriages-prior-1700`.
+[^history-of-weymouth-g12]: *History of Weymouth, Massachusetts*, 4 vols. (Weymouth, Mass.: Weymouth Historical Society, 1923), Vol. 3, Genealogy of Weymouth families, Richard Gurney entry; Ancestry.com collection 21610 [image dvm_LocHist007443-00634-1](https://www.ancestry.com/imageviewer/collections/21610/images/dvm_LocHist007443-00634-1); transcribed extract at [`sources/corpus_supplement/history-of-weymouth-vol3-gurney.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/history-of-weymouth-vol3-gurney.md). Source ID: `history-of-weymouth`.
+[^torrey-g12]: Clarence Almon Torrey, *New England Marriages Prior to 1700* (Baltimore: Genealogical Publishing Co., 2004), p. 331, Richard Gurney entry; Ancestry.com collection 3824 [image gpc_newenglandmarriages-0347 (pId=51825)](https://www.ancestry.com/imageviewer/collections/3824/images/gpc_newenglandmarriages-0347?pId=51825); transcribed extract at [`sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md). Source ID: `torrey-new-england-marriages-prior-1700`.
 
 ---
 
@@ -71,8 +71,8 @@ The conflicts are real and should be preserved rather than silently merged:
 - Sprague, <em>Genealogies of Braintree</em> (Source ID <code>sprague-braintree</code>) — referenced indirectly via the John Gurney-1 family group on p. 695.
 - Anderson, <em>Great Migration Directory</em> (Source ID <code>anderson-gmd-2015</code>) — for G13 context.
 - Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius* (rev. and expanded ed., 1994). Key compiled genealogy for the G4-G13 direct line; source ID `rigler-gurney-family-aaron-zuinglius-1994`. Full page-level audit still pending.
-- *History of Weymouth, Massachusetts*, Vol. 3 Genealogy of Weymouth families, Richard Gurney entry. Source ID `history-of-weymouth`. Transcribed extract at `sources/corpus_supplement/history-of-weymouth-vol3-gurney.md`.
-- Clarence Almon Torrey, *New England Marriages Prior to 1700*, p. 331, Richard Gurney entry. Source ID `torrey-new-england-marriages-prior-1700`. Transcribed extract at `sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md`.
+- *History of Weymouth, Massachusetts*, Vol. 3 Genealogy of Weymouth families, Richard Gurney entry. Source ID `history-of-weymouth`. Transcribed extract at [`sources/corpus_supplement/history-of-weymouth-vol3-gurney.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/history-of-weymouth-vol3-gurney.md).
+- Clarence Almon Torrey, *New England Marriages Prior to 1700*, p. 331, Richard Gurney entry. Source ID `torrey-new-england-marriages-prior-1700`. Transcribed extract at [`sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md).
 
 ### Sources to obtain
 
@@ -87,4 +87,4 @@ The conflicts are real and should be preserved rather than silently merged:
 
 - The Mendon massacre entry is one of the most powerful single facts in the whole colonial-American chapter and should be preserved in any future revision.
 - The "before 1642–44" land grants are the family's earliest documented New England property record. Resolving the apparent age inconsistency (Richard was a child in those years) is a research priority.
-- The Weymouth "east field / mill field / east side of Great Pond" geography deserves a place file and map note in <code>research/places/weymouth-ma.md</code> at some future point.
+- The Weymouth "east field / mill field / east side of Great Pond" geography deserves a place file and map note in <a href="https://github.com/allengurney/gurney-genealogy/blob/main/research/places/weymouth-ma.md"><code>research/places/weymouth-ma.md</code></a> at some future point.

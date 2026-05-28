@@ -5,9 +5,9 @@ permalink: /research/notes/g14-francis-gurney.html
 eleventyExcludeFromCollections: true
 ---
 # Francis Gurney (G14) Notes
-Research notes for `fact-sheets/g14-francis-gurney-fact-sheet.md`. See `AI-Rules.md` §3 for the paired-file rule.
+Research notes for [`fact-sheets/g14-francis-gurney-fact-sheet.md`](https://github.com/allengurney/gurney-genealogy/blob/main/fact-sheets/g14-francis-gurney-fact-sheet.md). See `.claude/rules/research-files.md` for the paired-file rule.
 
-Francis G14 (1581 – 9 January 1646/7) was the Merchant Taylor of St Benet Fink, London, sixth son of Henry Gurney G15 of Great Ellingham and West Barsham, and the probable father of John Gurney-1 of Massachusetts. Standing facts are in `AI-Rules.md` §7 (especially correction #1 on the death date, correction #4 on the two-Francis problem, and correction #7 on the Peter absence); they are referenced here, not re-derived.
+Francis G14 (1581 – 9 January 1646/7) was the Merchant Taylor of St Benet Fink, London, sixth son of Henry Gurney G15 of Great Ellingham and West Barsham, and the probable father of John Gurney-1 of Massachusetts. Standing facts are in `AGENTS.md` §6 (especially correction #1 on the death date, correction #4 on the two-Francis problem, and correction #7 on the Peter absence); they are referenced here, not re-derived.
 
 ---
 
@@ -58,7 +58,7 @@ The £100 bond is heavy by MT standards (typical bonds for the period run £20�
 
 ### Merchant Taylors' Company — negative results affecting Candidate B
 
-The dataset returns **no John Gurney son of Francis Gurney** at any binding 1583–1800 and **no Gurney patrimony freedom** anywhere in the 3,391-row Patrimony sheet. The two John Gurney apprentices that do appear are eliminable on parentage and date grounds (John Gurney son of William, Glover, of "Moborne" Worcestershire, bound 1602; John Gurny son of John, Ironmonger of Aylesbury, bound 1655).[^mt-no-john] If Candidate B holds, John G13's tailoring trade was not transmitted through the Merchant Taylors' Company — neither by formal apprenticeship to a fellow MT master nor by patrimony freedom after Francis's death. Pathways still consistent with Candidate B: an apprenticeship in a different London livery (Drapers, Clothworkers, Worsted Weavers), a Norwich or country apprenticeship, or informal household training. The negative result does not refute Candidate B; it sharpens the wording of the case file's §10.1 occupational-inheritance argument and is documented in `research/topics/merchant-taylors-1583-1800-gurney-analysis.md` §3.
+The dataset returns **no John Gurney son of Francis Gurney** at any binding 1583–1800 and **no Gurney patrimony freedom** anywhere in the 3,391-row Patrimony sheet. The two John Gurney apprentices that do appear are eliminable on parentage and date grounds (John Gurney son of William, Glover, of "Moborne" Worcestershire, bound 1602; John Gurny son of John, Ironmonger of Aylesbury, bound 1655).[^mt-no-john] If Candidate B holds, John G13's tailoring trade was not transmitted through the Merchant Taylors' Company — neither by formal apprenticeship to a fellow MT master nor by patrimony freedom after Francis's death. Pathways still consistent with Candidate B: an apprenticeship in a different London livery (Drapers, Clothworkers, Worsted Weavers), a Norwich or country apprenticeship, or informal household training. The negative result does not refute Candidate B; it sharpens the wording of the case file's §10.1 occupational-inheritance argument and is documented in [`research/topics/merchant-taylors-1583-1800-gurney-analysis.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/topics/merchant-taylors-1583-1800-gurney-analysis.md) §3.
 
 ### King's Lynn worsted-yarn venture, 1622
 
@@ -78,12 +78,12 @@ The FS-indexed date "27 May 1610" for the Edward baptism (case-file Entry A, FS 
 
 Image-walk also surfaced a probable baptism of "Margaret, daughter of ffrancis Gurnoe/Gurney, May 25" on `crop_00732_enhanced.png` (page 00732 of the East Dereham register). This is preliminary, needs same-hand comparator review, and is held outside the case-file body pending confirmation. If confirmed, a daughter Margaret of Francis G14 would be a name-honoring entry consistent with the first wife Margaret Rybett dying before that baptism.[^east-dereham-margaret-bapt-lead]
 
-[^fs-east-dereham-children-2026]: FamilySearch England, Norfolk, Parish Registers (County Record Office), 1510-1997 index entries VNN2-SCF (Edward christening, FS-indexed 27 May 1610), VNN2-WR2 (Marye burial 25 January, year not indexed), VNN2-WRG (Agnes burial 31 January, year not indexed; FS-indexed as "Susan"), VNN2-H8S (Francis burial 8 November 1633). Source IDs `fs-vnn2-scf-edward-gurney-baptism-east-dereham`, `fs-vnn2-wr2-marye-gurney-burial-east-dereham`, `fs-vnn2-wrg-agnes-gurney-burial-east-dereham`, `fs-vnn2-h8s-francis-gurney-burial-east-dereham-1633`. Validation note `sources/validations/fs-east-dereham-francis-gurney-indexed-children.md`. Image-walk artifacts at `sources/media/Parish_Register_East_Dereham/burial-analysis.md`, `crop-index.md`, and `page-00725-deep-analysis.md`.
-[^east-dereham-margaret-bapt-lead]: Image-walk note in `sources/media/Parish_Register_East_Dereham/burial-analysis.md` flagging a probable baptism reading of "Margaret the daughter of ffrancis Gurnoe/Gurney bapt may 25" on `crop_00732_enhanced.png`. Held for confirmation; not promoted to the case-file body in v39.
+[^fs-east-dereham-children-2026]: FamilySearch England, Norfolk, Parish Registers (County Record Office), 1510-1997 index entries VNN2-SCF (Edward christening, FS-indexed 27 May 1610), VNN2-WR2 (Marye burial 25 January, year not indexed), VNN2-WRG (Agnes burial 31 January, year not indexed; FS-indexed as "Susan"), VNN2-H8S (Francis burial 8 November 1633). Source IDs `fs-vnn2-scf-edward-gurney-baptism-east-dereham`, `fs-vnn2-wr2-marye-gurney-burial-east-dereham`, `fs-vnn2-wrg-agnes-gurney-burial-east-dereham`, `fs-vnn2-h8s-francis-gurney-burial-east-dereham-1633`. Validation note [`sources/validations/fs-east-dereham-francis-gurney-indexed-children.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/validations/fs-east-dereham-francis-gurney-indexed-children.md). Image-walk artifacts at [`sources/media/Parish_Register_East_Dereham/burial-analysis.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/media/Parish_Register_East_Dereham/burial-analysis.md), `crop-index.md`, and `page-00725-deep-analysis.md`.
+[^east-dereham-margaret-bapt-lead]: Image-walk note in [`sources/media/Parish_Register_East_Dereham/burial-analysis.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/media/Parish_Register_East_Dereham/burial-analysis.md) flagging a probable baptism reading of "Margaret the daughter of ffrancis Gurnoe/Gurney bapt may 25" on `crop_00732_enhanced.png`. Held for confirmation; not promoted to the case-file body in v39.
 
 ### East Dereham children — paleographic refinement (image sweeps, 2026-05-15)
 
-Three refinements to the V39 East Dereham child-cluster framing, all grounded in focused image sweeps under `sources/media/Parish_Register_East_Dereham/` and the chronology lattice in `sources/validations/east-dereham-pd-86-41-register-structure-and-chronology.md`:
+Three refinements to the V39 East Dereham child-cluster framing, all grounded in focused image sweeps under `sources/media/Parish_Register_East_Dereham/` and the chronology lattice in [`sources/validations/east-dereham-pd-86-41-register-structure-and-chronology.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/validations/east-dereham-pd-86-41-register-structure-and-chronology.md):
 
 1. **Entry B (Marye, 00725 burial) — relationship class, not "daughter".** A 4x magnification of the relationship token between 'Marye' and 'of ffrancis Gurny' on the 00725 Marye burial line (`page_00725_marye_relationship_token_magnification_sweep.png`) shows a 4-5 character-width token whose opening-letter shape refutes 'daughter' and is class-consistent with niece/nephew family. The case-file Entry B should be read as a Francis G14 household-event entry (likely niece), not as a confirmed daughter. The Agnes line (Entry C) immediately below reads cleanly as "the daughter of ffrancis Gurny" and is unaffected by this refinement.[^east-dereham-paleographic-2026]
 
@@ -101,7 +101,7 @@ Chronology context (all I-class except where noted):
 
 Register layout note: from page 00726 the register is laid out as combined annual returns (christenings + marriages + burials per page), with an inline "Mariages" subsection header. The 1617 annual return marriages subsection (pages 00728-00730) does not contain a Gurney candidate; other annual returns' marriages subsections (1616, 1618, 1619, 1620, and any pre-00726 marriages) remain unscanned and are the most direct path for testing whether Francis G14 + Margaret Rybett married at East Dereham.[^east-dereham-paleographic-2026]
 
-[^east-dereham-paleographic-2026]: Paleographic analysis under `sources/media/Parish_Register_East_Dereham/`. Comprehensive deep-reference at `east-dereham-paleographic-analysis-comprehensive-2026-05-15.md`. Topic narrative at `research/topics/east-dereham-parish-register-paleography.md`. Validation note `sources/validations/east-dereham-pd-86-41-register-structure-and-chronology.md`. Tooling at `tools/east_dereham_image_sweeps.py`. Source IDs `fs-vnn2-4vc-marye-gurney-baptism-east-dereham`, `fs-vnn2-wr2-marye-gurney-burial-east-dereham`, `fs-vnn2-wrg-agnes-gurney-burial-east-dereham`, `fs-vnn2-scf-edward-gurney-baptism-east-dereham`.
+[^east-dereham-paleographic-2026]: Paleographic analysis under `sources/media/Parish_Register_East_Dereham/`. Comprehensive deep-reference at `east-dereham-paleographic-analysis-comprehensive-2026-05-15.md`. Topic narrative at [`research/topics/east-dereham-parish-register-paleography.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/topics/east-dereham-parish-register-paleography.md). Validation note [`sources/validations/east-dereham-pd-86-41-register-structure-and-chronology.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/validations/east-dereham-pd-86-41-register-structure-and-chronology.md). Tooling at `tools/east_dereham_image_sweeps.py`. Source IDs `fs-vnn2-4vc-marye-gurney-baptism-east-dereham`, `fs-vnn2-wr2-marye-gurney-burial-east-dereham`, `fs-vnn2-wrg-agnes-gurney-burial-east-dereham`, `fs-vnn2-scf-edward-gurney-baptism-east-dereham`.
 
 ### Pettigrew on Francis Gurnay of London and the Keswick commercial line
 
@@ -122,7 +122,7 @@ That notice strengthens the social setting already known from Daniel Gurney: Fra
 [^mt-dg-norwich]: Daniel Gurney, *Record*, Part III (1848), p. 524, Francis Gurnay of London entry. Source ID: `dg-rec-pt3`.
 [^mt-spelman]: UKDA-SN-9263, COMB sheet row 24423 and Freedoms sheet row 54113 (volume 7, binding no. 2160, page 256). Source ID: `ukda-9263-mt-apprentices-scott-2024`.
 [^mt-bernau-spelman]: Charles A. Bernau, "Unrecorded Biographies: Francis Gournay (or Gurney), of Maldon, Essex," *The British Archivist*, vol. I, no. 7 (September 1913), pp. 49 ff., "His Parentage" section: "It is thought that he may have been identical with a Francis GOURNAY who gave Sir Henry SPELMAN a manuscript pedigree of the Gournay family." Source ID: `british-archivist-bernau-1913`.
-[^mt-no-john]: UKDA-SN-9263, COMB rows 7404 and 25472 (volume 3b binding no. 852, page 114, John Gurney son of William Glover of "Moborne" Worcestershire, bound 13 September 1602 to James Briggs of Shoe Lane; volume 14 binding no. 514, page 67, John Gurny son of John Ironmonger of Aylesbury Bucks, bound 30 May 1655 to Alexander Harbin of Gracechurch Street). The Patrimony sheet (3,391 rows) contains no Gurney-variant occurrence. Source ID: `ukda-9263-mt-apprentices-scott-2024`. Analysis: `research/topics/merchant-taylors-1583-1800-gurney-analysis.md`.
+[^mt-no-john]: UKDA-SN-9263, COMB rows 7404 and 25472 (volume 3b binding no. 852, page 114, John Gurney son of William Glover of "Moborne" Worcestershire, bound 13 September 1602 to James Briggs of Shoe Lane; volume 14 binding no. 514, page 67, John Gurny son of John Ironmonger of Aylesbury Bucks, bound 30 May 1655 to Alexander Harbin of Gracechurch Street). The Patrimony sheet (3,391 rows) contains no Gurney-variant occurrence. Source ID: `ukda-9263-mt-apprentices-scott-2024`. Analysis: [`research/topics/merchant-taylors-1583-1800-gurney-analysis.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/topics/merchant-taylors-1583-1800-gurney-analysis.md).
 [^pettigrew-francis-g14]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 207-210, [Google Books](https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ). Source ID: `pettigrew-collectanea-house-gournay-1871`.
 [^thoms-lestrange-g14]: William J. Thoms, ed., *Anecdotes and Traditions, Illustrative of Early English History and Literature, Derived from MS. Sources* (Camden Society, old series, vol. 5, 1839), prefatory notice, pp. xviii-xx; [Internet Archive PDF lead](https://ia800805.us.archive.org/view_archive.php?archive=/13/items/crossref-pre-1909-scholarly-works/10.1017%252Fs1816968600039876.zip&file=10.1017%252Fs2042169900000870.pdf). Source ID: `thoms-anecdotes-traditions-1839`.
 
@@ -130,9 +130,9 @@ That notice strengthens the social setting already known from Daniel Gurney: Fra
 
 Charles A. Bernau's 1913 article in *The British Archivist* I.7 is primarily a biography of **Francis Gurney the younger of Maldon** (born 1628 — Francis G14's son, Allen's collateral), but the opening section gives the fullest pre-Daniel-Gurney account of **Francis G14 himself** currently in the corpus.[^bernau-1913-source] Bernau wrote from the Public Record Office and London parish registers rather than from Daniel Gurney's manuscripts, and he contradicts or supplements the existing fact sheet on several points. The findings below are drawn from that article unless otherwise noted.
 
-Full biographical material on the younger Francis (Maldon, 1628–1677) — Alderman, Bailiff, merchant, Chancery litigant, and suicide whose estate was protected by Samuel Pepys — lives in `research/people/francis-gurney-of-maldon.md`.
+Full biographical material on the younger Francis (Maldon, 1628–1677) — Alderman, Bailiff, merchant, Chancery litigant, and suicide whose estate was protected by Samuel Pepys — lives in [`research/people/francis-gurney-of-maldon.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/francis-gurney-of-maldon.md).
 
-[^bernau-1913-source]: Charles A. Bernau, "Unrecorded Biographies: Francis Gournay (or Gurney), of Maldon, Essex," *The British Archivist* vol. I, no. 7 (September 1913), pp. 49 ff., [Google Books](https://www.google.com/books/edition/The_British_Archivist/4UhFAAAAYAAJ). Corpus extract at `sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md`. Proposed `sourceId`: `british-archivist-bernau-1913`.
+[^bernau-1913-source]: Charles A. Bernau, "Unrecorded Biographies: Francis Gournay (or Gurney), of Maldon, Essex," *The British Archivist* vol. I, no. 7 (September 1913), pp. 49 ff., [Google Books](https://www.google.com/books/edition/The_British_Archivist/4UhFAAAAYAAJ). Corpus extract at [`sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md). Proposed `sourceId`: `british-archivist-bernau-1913`.
 
 ### Parentage re-attested
 
@@ -142,7 +142,7 @@ Bernau states that Francis G14 was "a member of the Merchant Taylors' Company, a
 
 ### Heralds' Visitation date — conflict flagged
 
-Bernau dates Francis's attestation of the Gourney pedigree to the **1634** Heralds' Visitation of London.[^bernau-visitation] The current fact sheet and `research/case-files/john-gurney-case-file-v4.md` both use **1633**.[^fs-visitation] The John Gurney Case File cites "Heralds' Visitation of London, 1633; DG Record" for Roger as "eldest sonne."
+Bernau dates Francis's attestation of the Gourney pedigree to the **1634** Heralds' Visitation of London.[^bernau-visitation] The current fact sheet and [`research/case-files/john-gurney-case-file-v4.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v4.md) both use **1633**.[^fs-visitation] The John Gurney Case File cites "Heralds' Visitation of London, 1633; DG Record" for Roger as "eldest sonne."
 
 The two dates are not automatically incompatible. The London visitation of Henry St George and Sampson Lennard ran across 1633–1635, and contemporary and later citations vary in which campaign year they name. What matters for the Candidate B argument is that both "eldest sonne" wording and the set of children presented by Francis at the visitation were captured in a single sitting — whichever year that sitting was dated to. The practical effect on the case is zero; the date should be reconciled on the fact sheet with whatever primary visitation source is canonical (Harleian Society vol. XV or XVII).
 
@@ -151,8 +151,8 @@ Open item: confirm the exact sitting date against the Harleian Society published
 Walter Rye's *The Gurneys of Norwich* (Norfolk Antiquarian Miscellany, 1906) independently cites a 1664 Essex Visitation attestation of the Gurney pedigree at p. 537 in addition to the 1633 London Visitation. The 1664 Essex Visitation is most plausibly Francis G14's son Francis-the-younger of Maldon attesting the pedigree after his father's 1646/7 death; documenting the connection is useful for downstream Browning / Maldon work but does not change Francis G14's biography directly.[^rye-1664-essex-visitation]
 
 [^bernau-visitation]: Bernau, *British Archivist* I.7, "His Parentage" section: "In 1634 Francis attested the GOURNAY pedigree in the Heralds' Visitation of London."
-[^fs-visitation]: `fact-sheets/g14-francis-gurney-fact-sheet.md`, Timeline and Highlights sections; `research/case-files/john-gurney-case-file-v4.md`, §2.4 and Master Timeline.
-[^rye-1664-essex-visitation]: Walter Rye, "The Gurneys of Norwich," *Norfolk Antiquarian Miscellany* (Norwich: Gibbs and Waller, 1906), p. 285; corpus extract at `sources/corpus/norfolk-antiquarian-gurneys-of-norwich.md`. Source ID `rye-norfolk-antiquarian`.
+[^fs-visitation]: [`fact-sheets/g14-francis-gurney-fact-sheet.md`](https://github.com/allengurney/gurney-genealogy/blob/main/fact-sheets/g14-francis-gurney-fact-sheet.md), Timeline and Highlights sections; [`research/case-files/john-gurney-case-file-v4.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v4.md), §2.4 and Master Timeline.
+[^rye-1664-essex-visitation]: Walter Rye, "The Gurneys of Norwich," *Norfolk Antiquarian Miscellany* (Norwich: Gibbs and Waller, 1906), p. 285; corpus extract at [`sources/corpus/norfolk-antiquarian-gurneys-of-norwich.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus/norfolk-antiquarian-gurneys-of-norwich.md). Source ID `rye-norfolk-antiquarian`.
 
 ### Second wife's father located as William Browning of Norwich and Maldon
 
@@ -160,7 +160,7 @@ Bernau identifies Anne Browning's father as **William Browning, of Norwich, merc
 
 1. It fixes William Browning as a Norwich merchant whose career ended in Maldon — the same Norwich-to-Maldon trajectory that would reappear one generation down, when Anne's son Francis-the-younger married a Maldon Browning and settled in the town himself.
 2. It places a Browning mercantile household at Maldon in the 1620s–1640s, decades before Francis the younger's 1654 marriage to Anne daughter of Jeremiah Browning. Bernau takes this as strong circumstantial evidence that Francis-the-younger "probably married his cousin" — i.e., that Jeremiah was a relative of William.[^bernau-cousin]
-3. It is independently relevant to the Essex / Braintree Massachusetts social-network argument in `research/case-files/john-gurney-case-file-v4.md` §10.3, which notes the Browning surname recurring in Coleman Street emigrant contexts.
+3. It is independently relevant to the Essex / Braintree Massachusetts social-network argument in [`research/case-files/john-gurney-case-file-v4.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v4.md) §10.3, which notes the Browning surname recurring in Coleman Street emigrant contexts.
 
 [^bernau-anne]: Bernau, *British Archivist* I.7: "In or before the year 1618 Francis Gournay married Anne, daughter of William BROWNING, of Norwich, merchant, and later of Maldon, Essex."
 [^bernau-cousin]: Bernau, *British Archivist* I.7, "His Marriage" section: "it is not too much to suppose that Francis GURNEY probably married his cousin, as his mother was Anne, daughter of William BROWNING, of Norwich, merchant, and afterwards of Maldon."
@@ -175,7 +175,7 @@ Open item: locate a manuscript Gurney/Gournay pedigree among the Spelman papers.
 
 ### Children at St Benet Fink — Bernau's list vs. current fact sheet
 
-Bernau explicitly warns that "there is no complete record of the children of Francis Gournay and Anne BROWNING, and the information about those of whose existence we know is fragmentary."[^bernau-kids-caveat] His numbered list nevertheless differs substantially from the children table in `fact-sheets/g14-francis-gurney-fact-sheet.md`. The conflict is documented below; it is not reconciled here. Per AI-Rules §6, primary-register examination is the resolution path.
+Bernau explicitly warns that "there is no complete record of the children of Francis Gournay and Anne BROWNING, and the information about those of whose existence we know is fragmentary."[^bernau-kids-caveat] His numbered list nevertheless differs substantially from the children table in [`fact-sheets/g14-francis-gurney-fact-sheet.md`](https://github.com/allengurney/gurney-genealogy/blob/main/fact-sheets/g14-francis-gurney-fact-sheet.md). The conflict is documented below; it is not reconciled here. Per AI-Rules §6, primary-register examination is the resolution path.
 
 **Confirmed overlap (both sources agree on name, date, and parish):**
 
@@ -221,7 +221,7 @@ Bernau's reasoning for listing Richard and George as possible sons of Francis G1
 [^kid-margaret-1637]: Bernau, *British Archivist* I.7, §"His Parents' Children," item 7.
 [^kid-anne-eldest]: Bernau, *British Archivist* I.7, §"His Parents' Children," item 8.
 [^kid-john-second]: Bernau, *British Archivist* I.7, §"His Parents' Children," item 9. Supporting evidence from Lay Subsidy 246/22 (1674 Hearth Tax, nine hearths in St Mary's Maldon) is summarized below.
-[^fs-non-bernau]: `fact-sheets/g14-francis-gurney-fact-sheet.md`, children table.
+[^fs-non-bernau]: [`fact-sheets/g14-francis-gurney-fact-sheet.md`](https://github.com/allengurney/gurney-genealogy/blob/main/fact-sheets/g14-francis-gurney-fact-sheet.md), children table.
 [^kid-richard-speculative]: Bernau, *British Archivist* I.7, §"His Parents' Children," item 10.
 [^kid-george-speculative]: Bernau, *British Archivist* I.7, §"His Parents' Children," item 11.
 
@@ -250,7 +250,7 @@ This John is **not** the Massachusetts emigrant. He lived in England continuousl
 
 His documentary interest is indirect but real: **it establishes that Francis G14 was willing to name a son John**. The current John Gurney Case File notes as a point against Candidate B that no child of John-1 was named Francis. The inverse concern — that Francis named no son John — is now answered by Bernau. Francis named a son John in his second marriage (no baptism located, probably London), and, if the Entry E reading at East Dereham is upheld, he had also named an older son John in his first marriage. Francis thus used the name John twice, consistent with Candidate B and with the Entry E paleographic reading.
 
-This second John is added as a row in the elimination table of `research/case-files/john-gurney-case-file-v4.md` §8.
+This second John is added as a row in the elimination table of [`research/case-files/john-gurney-case-file-v4.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v4.md) §8.
 
 [^john-second-admin]: Bernau, *British Archivist* I.7, §"His Parents' Children," item 9: "in 1681 letters of administration of the goods of John GURNEY, of Maldon, a bachelor, were granted to his brother, Thomas GURNEY."
 [^john-second-hearths]: Bernau, *British Archivist* I.7, §"His Parents' Children," item 9, citing Lay Subsidy 246/22 (1674 Hearth Tax): "in 1674 John GURNEY, of St. Mary's Maldon, paid the tax on nine hearths."
@@ -282,7 +282,7 @@ Open items:
 
 ### Lineage status
 
-**Probable (per AI-Rules §5, contingent on resolution of East Dereham Entry E).** Francis G14's own identity, parentage, occupation, and death date are confirmed across Daniel Gurney (1848), Blomefield, the 1633/34 Visitation, Merchant Taylors' Company admission (16 June 1606), the Hunstanton Hall Lestrange account-book (1612–1636), Boyd's marriage index as corrected from FreeREG (9 January 1646/7 burial at St Botolph Bishopsgate, per AI-Rules §7 #1), and now Bernau (1913). Lineage *to John Gurney-1 of Massachusetts* remains Probable, not Confirmed, pending primary paleographic examination of East Dereham register NRO PD 86/41 Entry E and the searches enumerated in `research/case-files/john-gurney-case-file-v4.md` §12.
+**Probable (per AI-Rules §5, contingent on resolution of East Dereham Entry E).** Francis G14's own identity, parentage, occupation, and death date are confirmed across Daniel Gurney (1848), Blomefield, the 1633/34 Visitation, Merchant Taylors' Company admission (16 June 1606), the Hunstanton Hall Lestrange account-book (1612–1636), Boyd's marriage index as corrected from FreeREG (9 January 1646/7 burial at St Botolph Bishopsgate, per AI-Rules §7 #1), and now Bernau (1913). Lineage *to John Gurney-1 of Massachusetts* remains Probable, not Confirmed, pending primary paleographic examination of East Dereham register NRO PD 86/41 Entry E and the searches enumerated in [`research/case-files/john-gurney-case-file-v4.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v4.md) §12.
 
 ### Sources consulted
 
@@ -290,9 +290,9 @@ Source entries align with `data/sources.json` where they exist. Bernau 1913 is p
 
 - `dg-rec-pt3` — Daniel Gurney, *Record*, Part III (1848), pp. 525–526. Parentage, apprenticeship, Merchant Taylors' freedom, Lestrange agency, 1634 land sale.
 - `dg-rec-supp` — Daniel Gurney, *Supplement* (1858), Note 181. Hedged language on Roger as "eldest."
-- `gournay-supp-reconstructed` — Bernau's 1858 loose supplement (reconstructed, `sources/corpus/gournay-supplement-reconstructed-v2.md`). Covers the London-to-Maldon branch.
+- `gournay-supp-reconstructed` — Bernau's 1858 loose supplement (reconstructed, [`sources/corpus/gournay-supplement-reconstructed-v2.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus/gournay-supplement-reconstructed-v2.md)). Covers the London-to-Maldon branch.
 - `rye-norfolk-antiquarian` — Walter Rye, "The Gurneys of Norwich," *Norfolk Antiquarian Miscellany*. Foundational for the two-Francis problem and the Norwich plebeian lines (including the cordwainer / John-of-Norwich line that Bernau's "Problem" concerns).
-- **`british-archivist-bernau-1913`** (proposed) — Bernau's 1913 *British Archivist* article. Corpus at `sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md`. Validation at `sources/validations/british-archivist-bernau-1913.md`.
+- **`british-archivist-bernau-1913`** (proposed) — Bernau's 1913 *British Archivist* article. Corpus at [`sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md). Validation at [`sources/validations/british-archivist-bernau-1913.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/validations/british-archivist-bernau-1913.md).
 - `pettigrew-collectanea-house-gournay-1871` - T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (1871), pp. 207-210. Public-domain digest of DG's Francis Gurnay of London, King's Lynn worsted-yarn, John Gurney of Norwich, and Keswick commercial-line material.
 
 ### Negative results and exclusions
@@ -311,10 +311,10 @@ Source entries align with `data/sources.json` where they exist. Bernau 1913 is p
 
 ### Crosslinks
 
-- Fact sheet: `fact-sheets/g14-francis-gurney-fact-sheet.md`
-- Father: `research/people/g15-henry-gurney-fact-sheet.research.md` (Henry G15)
-- Probable son (direct line): `research/people/g13-john-gurney-fact-sheet.research.md` (John Gurney-1 of Massachusetts)
-- Younger son (collateral, subject of Bernau's article): `research/people/francis-gurney-of-maldon.md`
-- Active case file: `research/case-files/john-gurney-case-file-v4.md`
-- Corpus: `sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md`
-- Validation: `sources/validations/british-archivist-bernau-1913.md`
+- Fact sheet: [`fact-sheets/g14-francis-gurney-fact-sheet.md`](https://github.com/allengurney/gurney-genealogy/blob/main/fact-sheets/g14-francis-gurney-fact-sheet.md)
+- Father: [`research/people/g15-henry-gurney-fact-sheet.research.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g15-henry-gurney-fact-sheet.research.md) (Henry G15)
+- Probable son (direct line): [`research/people/g13-john-gurney-fact-sheet.research.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g13-john-gurney-fact-sheet.research.md) (John Gurney-1 of Massachusetts)
+- Younger son (collateral, subject of Bernau's article): [`research/people/francis-gurney-of-maldon.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/francis-gurney-of-maldon.md)
+- Active case file: [`research/case-files/john-gurney-case-file-v4.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v4.md)
+- Corpus: [`sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md)
+- Validation: [`sources/validations/british-archivist-bernau-1913.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/validations/british-archivist-bernau-1913.md)

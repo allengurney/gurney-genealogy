@@ -5,7 +5,7 @@ permalink: /research/notes/g21-thomas-gournay-i.html
 eleventyExcludeFromCollections: true
 ---
 # Thomas Gournay I (G21) Notes
-Research notes for `g21-thomas-gournay-i-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research notes for `g21-thomas-gournay-i-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
 ---
 
@@ -131,6 +131,6 @@ Blomefield's East Barsham parish entry records that "Thomas Gournay, Esq. and Jo
 
 This is the third documented attestation for Thomas I, alongside the 1445 Hunstanton seal (Daniel Gurney *Supplement* Note 126, p. 814) and the 1441 retinue service under John de Vere 13th Earl of Oxford. Together they give Thomas I a documented active-adult span of 1415 (Agincourt) – 1418 (Harfleur) – 1434-35 (East Barsham) – 1441 (Vere/York France) – 1445 (Hunstanton seal). The previous "no record" framing in the G21 companion should be retired.
 
-Full Blomefield East Barsham extract preserved at `sources/corpus_supplement/blomefield-norfolk-vol7-pp53-65-east-barsham.md`.
+Full Blomefield East Barsham extract preserved at [`sources/corpus_supplement/blomefield-norfolk-vol7-pp53-65-east-barsham.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/blomefield-norfolk-vol7-pp53-65-east-barsham.md).
 
-[^v61-blomefield-vol7-east-barsham-g21]: Francis Blomefield, *History of Norfolk*, vol. vii, "East-Barsham," pp. 53-65, [British History Online](https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp53-65). Source ID: `blomefield-norfolk`. Full extract at `sources/corpus_supplement/blomefield-norfolk-vol7-pp53-65-east-barsham.md`.
+[^v61-blomefield-vol7-east-barsham-g21]: Francis Blomefield, *History of Norfolk*, vol. vii, "East-Barsham," pp. 53-65, [British History Online](https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp53-65). Source ID: `blomefield-norfolk`. Full extract at [`sources/corpus_supplement/blomefield-norfolk-vol7-pp53-65-east-barsham.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/blomefield-norfolk-vol7-pp53-65-east-barsham.md).

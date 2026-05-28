@@ -5,7 +5,7 @@ permalink: /research/notes/g27-sir-john-de-gournay-i.html
 eleventyExcludeFromCollections: true
 ---
 # Sir John de Gournay I (G27) Notes
-Research notes for `g27-sir-john-de-gournay-i-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research notes for `g27-sir-john-de-gournay-i-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
 ---
 

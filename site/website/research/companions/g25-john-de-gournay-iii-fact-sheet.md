@@ -5,7 +5,7 @@ permalink: /research/notes/g25-john-de-gournay-iii.html
 eleventyExcludeFromCollections: true
 ---
 # John de Gournay III (G25) Notes
-Research notes for `g25-john-de-gournay-iii-fact-sheet.md`. See AI-Rules.md §3 for the paired-file rule.
+Research notes for `g25-john-de-gournay-iii-fact-sheet.md`. See `.claude/rules/research-files.md` for the paired-file rule.
 
 ---
 

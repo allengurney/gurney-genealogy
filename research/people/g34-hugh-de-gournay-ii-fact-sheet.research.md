@@ -2,7 +2,7 @@
 
 Research companion for `g34-hugh-de-gournay-ii-fact-sheet.md`. Synthesised v2 (May 2026) drawing on DG-I + DG-Supp, Hannay, Pettigrew, Planché, Palgrave, Pattou *Racines Histoire* (2025), FMG MedLands (Cawley), Potin 1842, NRP-I 1852, the *Histoire de Lorraine* (Calmet) Maison de Gournay genealogy, Wace's *Roman de Rou*, William of Poitou's *Gesta Guillelmi*, the *Histoire et Chronique de Normandie* (printed Rouen 1610), Gabriel Dumoulin's *Histoire générale de Normandie* (1631), Orderic Vitalis, the Bayeux *Liber niger* (No. 5), and D. Martene's *Thesaurus Anecdotorum* t. i c. 196.
 
-The full Phase-0 cross-walks live in `sources/FS/LVSH-KBM/assessment.md` and `sources/FS/Norman_additions/assessment.md`. This synthesis preserves the verbatim primary-source extracts.
+The full Phase-0 cross-walks live in [`sources/FS/LVSH-KBM/assessment.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/FS/LVSH-KBM/assessment.md) and [`sources/FS/Norman_additions/assessment.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/FS/Norman_additions/assessment.md). This synthesis preserves the verbatim primary-source extracts.
 
 ---
 
@@ -207,7 +207,7 @@ Powell's Welsh annal tradition and the French *Histoire et Chronique* Norman tra
 
 Hannay (p. 80): *"Who his wife was — Frank or Norman — we cannot tell."* No spouse named in any source consulted (DG, DG-Supp, Hannay, Pattou, Potin 1842).
 
-The FS-tree's **Berthilde de Gerberoy** attribution at this PID (LVSH-KBM) is misplaced. Pattou and French Wikipedia both place "Bathilde de Gerberoy (+1059)" at Hugues 1er level (= G36), tagged with `?`. The misplaced attribution should be moved up two generations in the FS Family Tree per `sources/FS/LVSH-KBM/assessment.md` §3.
+The FS-tree's **Berthilde de Gerberoy** attribution at this PID (LVSH-KBM) is misplaced. Pattou and French Wikipedia both place "Bathilde de Gerberoy (+1059)" at Hugues 1er level (= G36), tagged with `?`. The misplaced attribution should be moved up two generations in the FS Family Tree per [`sources/FS/LVSH-KBM/assessment.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/FS/LVSH-KBM/assessment.md) §3.
 
 ---
 
