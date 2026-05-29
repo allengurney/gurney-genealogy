@@ -43,10 +43,27 @@ Not allowed here:
 - Write for a general reader. Avoid jargon that requires subject-matter expertise unless it is glossed inline.
 - Do not use repository-internal vocabulary in reader-facing prose: "repo," "the repo's numbering," "FS structured field," "structured data," "intake," "patchset," "claim," and similar terms belong in research/validation/patchset files, not in fact sheets.
 - When a meaningful ordering or naming choice needs to be explained, phrase it as a reader-facing convention (e.g., "Ordinal numbering of ancestors such as 'II' in 'Hugh II' on this site follows..."), not as a fact about the repository.
-- Do not use unexplained Latin or French quotations. Keep the original phrase when it adds flavor or fidelity, but follow it with a plain-English meaning ("*mort sans postérité* — died without descendants"; "*un vieux manuscrit* — an old manuscript").
+- Do not use unexplained Latin or French quotations. Keep the original phrase when it adds flavor or fidelity, but follow it inline with a plain-English meaning ("*mort sans postérité* — died without descendants"; "*un vieux manuscrit* — an old manuscript"). Inline parenthetical is the default form for short phrases; a follow-sentence translation is acceptable for full lines of verse or charter text.
 - Do not use acronyms or repo-internal shorthand on the visible page: spell out **Daniel Gurney's *Record of the House of Gournay*** rather than **DG-I**; **FamilySearch** rather than **FS**; **the family-tree compilation at our-royal-titled-noble-and-commoner-ancestors.com** rather than **TNG site**; **Foundation for Medieval Genealogy MedLands** rather than **FMG MedLands**. Existing acronyms in research files may stay; do not introduce new ones in fact sheets.
 - Non-English quotes and quotes that use terminology not in common modern usage should be explained or translated for plain English consumption.
 - Highly technical, genealogical, or historical terms which are not in common modern usage should either be a hyperlink to a definition or explanatory source (e.g. wikipedia.org), explained in the prose, a parenthetical synonym, or otherwise avoided for plain English consumption. Examples: "feoffee," "advowsons," "engrailed." 
+
+## Read as if written all at once
+- Fact sheets are written as if all findings were in hand on day one. Do not signal the project's own discovery sequence: avoid "newly discovered," "recently identified," "now corrected," "previously thought," "what is new from [source] is," and similar framings. Findings-history framing belongs in the research companion.
+- Change-over-time *of history* is fine and often essential ("the manor later passed to," "the line eventually died out," "two centuries later"). The prohibition is specifically on signalling the project's research timeline.
+
+## Story-led, not source-led
+- The story carries the weight; the footnote carries the source. State the fact directly rather than framing it as what a source says. Avoid openings like "Holinshed credits Hugh with..." or "Pettigrew records that..."; put the action in the subject's hands and cite in the footnote.
+- Naming an author, historian, genealogist, antiquary, biographer, or chronicler in the body should be dialled back from default but is not eliminated. It is appropriate and effective when:
+  - the source's identity is itself part of the story (e.g., a family member who wrote the family's first published history; a primary contemporary biographer);
+  - footnotes cannot adequately differentiate similar facts within the same fact pattern, and naming the source in-line is the clearest way to keep them apart;
+  - experts have disagreed and showing the disagreement helps the reader understand the state of the evidence.
+- When a source is named in the body, include a one-word role modifier — "historian," "genealogist," "antiquary," "biographer," "chronicler" — for reader context. Fact-sheet prose is already dense with the subject's own name and the names of relatives, in-laws, and places; the modifier helps the reader place an unfamiliar surname without prior knowledge.
+
+## Dates in years
+- Use absolute years in fact-sheet body prose (e.g., 1229–30, not "14 Hen. III").
+- Regnal-year shorthand belongs only inside direct verbatim quotations from period sources, and should be followed by a bracketed absolute-year gloss on first use ("14 Hen. III [1229–30]").
+- This is a fact-sheet rule. Research companions may use regnal-year shorthand in context, but should always include the absolute year alongside for clarity.
 
 ## Lineage-status vocabulary
 - Reader-facing status language should be plain. Prefer phrases like "historically recorded but limited," "confirmed by contemporary document," "rests on later tradition" over single-word labels like "Tradition" or "Uncertain" without context.
