@@ -50,7 +50,7 @@ factsheet:
   </div>
   <div class="fact-item">
     <div class="fact-label">Occupation / Religion</div>
-    <div class="fact-value">Lawyer of eminence. Justice of the peace for Norfolk (44 and 49 Edw. III). Royal commissioner (multiple appointments). Steward of John of Gaunt's East Anglian estates, 1372–1387. Standing counsel to the city of Norwich and borough of Bishop's Lynn (King's Lynn). <sup class="fn"><a href="#n3" id="ref-3">3</a></sup></div>
+    <div class="fact-value">Lawyer of eminence. Justice of the peace for Norfolk (1370 and 1375). Royal commissioner (multiple appointments). Steward of John of Gaunt's East Anglian estates, 1372–1387. Standing counsel to the city of Norwich and borough of Bishop's Lynn (King's Lynn). <sup class="fn"><a href="#n3" id="ref-3">3</a></sup></div>
   </div>
   <div class="fact-item">
     <div class="fact-label">Buried</div>
@@ -72,10 +72,10 @@ factsheet:
 
 <ul>
   <li><strong>He acquired West Barsham — and made it the family's home for three centuries.</strong> Through Katherine de Wauncy, Edmund inherited the ancient manor of West Barsham when her brother's line failed in 1372. The estate had been in the Wauncy family since Domesday Book, when Hugo de Wanci held it under the Earl Warren. From Edmund's death in 1387 until the family became extinct in the direct male line in 1661, the Gurneys were the Gurneys of West Barsham. The hall that still stands — its 16th-century north wing Grade II listed — is the building that Edmund's descendants expanded and occupied. <sup class="fn"><a href="#n6" id="ref-6">6</a></sup></li>
-  <li><strong>Steward of John of Gaunt's East Anglian estates, 1372–1387.</strong> John of Gaunt — Duke of Lancaster, father of the future Henry IV, and the most powerful man in England after the king — retained Edmund as his steward for the East Anglian portion of his vast holdings. This is a History of Parliament attestation: Edmund was not merely a local gentleman; he was a trusted officer of the most powerful magnate in the realm, managing revenues and legal affairs on a scale that dwarfed anything the Norfolk gentry typically handled. <sup class="fn"><a href="#n7" id="ref-7">7</a></sup></li>
-  <li><strong>Counsel to both Norwich and Bishop's Lynn simultaneously.</strong> Daniel Gurney records that Edmund and his colleague Edmund de Clipesby "were the standing council for the city of Norwich, in the nature of recorder and steward." Bishop's Lynn (modern King's Lynn) also sought his counsel. This made him one of the most prominent legal figures in East Anglia — a man whose opinion two major urban corporations paid to retain. <sup class="fn"><a href="#n8" id="ref-8">8</a></sup></li>
-  <li><strong>His arms impaled the Wauncy coat — and the evidence survives.</strong> Edmund's arms (the engrailed cross, argent) impaling the Wauncy coat (gules, three dexter hand-gloves pointed downwards, argent) were visible in a window of "Gurney's Place" in St. Julian's parish, Norwich, when Mr. Norris recorded them. The same impaled coat was still visible in a window of Denton church, Norfolk, as of DG's writing in 1848. <sup class="fn"><a href="#n9" id="ref-9">9</a></sup></li>
-  <li><strong>The patent and close rolls are full of him.</strong> DG catalogues Edmund's appearances across at least fifteen separate royal instruments: justice of the peace, commissioner for forcible entry, commissioner for customs fraud, arbitrator between the prior of Norwich and the prioress of Carrow, special commissioner for Queen Philippa's manor, justice for piracy inquiry, and more. He is one of the most thoroughly documented ancestors in the entire lineage. <sup class="fn"><a href="#n10" id="ref-10">10</a></sup></li>
+  <li><strong>Steward of John of Gaunt's East Anglian estates, 1372–1387.</strong> John of Gaunt — Duke of Lancaster, father of the future Henry IV, and the most powerful man in England after the king — retained Edmund as his steward for the East Anglian portion of his vast holdings. Edmund was not merely a local gentleman; he was a trusted officer of the most powerful magnate in the realm, managing revenues and legal affairs on a scale that dwarfed anything the Norfolk gentry typically handled. <sup class="fn"><a href="#n7" id="ref-7">7</a></sup></li>
+  <li><strong>Counsel to both Norwich and Bishop's Lynn simultaneously.</strong> Edmund and his colleague Edmund de Clipesby served as "the standing council for the city of Norwich, in the nature of recorder and steward." Bishop's Lynn (modern King's Lynn) also sought his counsel. This made him one of the most prominent legal figures in East Anglia — a man whose opinion two major urban corporations paid to retain. <sup class="fn"><a href="#n8" id="ref-8">8</a></sup></li>
+  <li><strong>His arms impaled the Wauncy coat — and the evidence survives.</strong> Edmund's arms (an <a href="https://en.wikipedia.org/wiki/Engrailed">engrailed</a> cross, argent — that is, a silver cross with a scalloped edge) impaling the Wauncy coat (gules, three dexter hand-gloves pointed downwards, argent) were visible in a window of "Gurney's Place" in St. Julian's parish, Norwich, when Mr. Norris recorded them. The same impaled coat was still visible in a window of Denton church, Norfolk, as of Daniel Gurney's writing in 1848. <sup class="fn"><a href="#n9" id="ref-9">9</a></sup></li>
+  <li><strong>The patent and close rolls are full of him.</strong> Daniel Gurney catalogues Edmund's appearances across at least fifteen separate royal instruments: justice of the peace, commissioner for forcible entry, commissioner for customs fraud, arbitrator between the prior of Norwich and the prioress of Carrow, special commissioner for Queen Philippa's manor, justice for piracy inquiry, and more. He is one of the most thoroughly documented ancestors in the entire lineage. <sup class="fn"><a href="#n10" id="ref-10">10</a></sup></li>
 </ul>
 </section>
 
@@ -97,19 +97,19 @@ factsheet:
       <td>Sir John Gurney V, Knt.</td>
       <td>d. 1408</td>
       <td>Katherine de Wauncy</td>
-      <td>Eldest son. Sheriff of Norfolk and Suffolk 1400; steward to Earl of Arundel; returned to Parliament 1399; held 8 Norfolk manors + 1 Suffolk manor. His son Edmond died under age — line extinct. COLLATERAL. <sup class="fn"><a href="#n11" id="ref-11">11</a></sup></td>
+      <td>Eldest son. Sheriff of Norfolk and Suffolk 1400; steward to Earl of Arundel; returned to Parliament 1399; held 8 Norfolk manors + 1 Suffolk manor. His son Edmond died under age — line extinct. <sup class="fn"><a href="#n11" id="ref-11">11</a></sup></td>
     </tr>
     <tr>
       <td>Robert Gournay</td>
       <td>fl. c. 1370–1420</td>
       <td>Katherine de Wauncy</td>
-      <td><strong>G22 in direct line.</strong> Second son. DG notes "whom we believe was named Robert." Married Joan de Norwich. His son Thomas I (G21) inherited the estates after Sir John's line failed. <sup class="fn"><a href="#n12" id="ref-12">12</a></sup></td>
+      <td><strong>G22 in direct line.</strong> Second son. Daniel Gurney notes "whom we believe was named Robert." Married Joan de Norwich. His son Thomas I (G21) inherited the estates after Sir John's line failed. <sup class="fn"><a href="#n12" id="ref-12">12</a></sup></td>
     </tr>
     <tr>
       <td>Jeanne Gurney</td>
       <td>fl. c. 1370s</td>
       <td>Katherine de Wauncy</td>
-      <td>Married Osbert Mundeford of Hockwold, Esq., who was also one of Edmund's executors. COLLATERAL. <sup class="fn"><a href="#n13" id="ref-13">13</a></sup></td>
+      <td>Married Osbert Mundeford of Hockwold, Esq., who was also one of Edmund's executors. <sup class="fn"><a href="#n13" id="ref-13">13</a></sup></td>
     </tr>
   </tbody>
 </table>
@@ -126,7 +126,7 @@ At the same time, he was accumulating a dense record of royal commissions. The P
 
 His most consequential personal act was his marriage to Katherine de Wauncy. Her family had held West Barsham since before Domesday Book. Through a tragedy of infant mortality — her brother Sir Edmund de Wauncy died in 1372 leaving only a seven-year-old son who also died soon after — the entire West Barsham estate came to Edmund in right of his wife. He became lord of West Barsham and moved the family's primary seat there from Harpley. In 1357 his father-in-law had already settled 100 marks per year from the West Barsham and Denver manors on Edmund and Katherine; by 1375, Edmund was leasing out the manor in a 180-year indenture signed at West Barsham, sealing with the engrailed cross.<sup class="fn"><a href="#n5" id="ref-5b">5</a></sup><sup class="fn"><a href="#n6" id="ref-6b">6</a></sup>
 
-He died in 1387 at West Barsham, directing burial in the parish church of the Assumption of the Blessed Virgin. The fuller Latin copy of his will names four executors — Katherine his wife, John his son, Osbert de Mundeford, and Thomas Kempe — and adds a vivid burial scene: thirteen poor men in white vestments holding torches around his body, with alms distributed to the poor present at the funeral. It also includes a striking restitution clause directing his heirs to compensate anyone he had unjustly disseised, injured, extorted, or wrongfully detained property from.<sup class="fn"><a href="#n15" id="ref-15">15</a></sup> His son Sir John V succeeded and built further on Edmund's legal foundations. Edmund's second son Robert — the direct ancestor — would in due course inherit when Sir John's line failed.<sup class="fn"><a href="#n11" id="ref-11b">11</a></sup><sup class="fn"><a href="#n12" id="ref-12b">12</a></sup>
+He died in 1387 at West Barsham, directing burial in the parish church of the Assumption of the Blessed Virgin. The fuller Latin copy of his will names four executors — Katherine his wife, John his son, Osbert de Mundeford, and Thomas Kempe — and adds a vivid burial scene: thirteen poor men in white vestments holding torches around his body, with alms distributed to the poor present at the funeral. It also includes a striking restitution clause directing his heirs to compensate anyone he had unjustly dispossessed of land (disseised), injured, extorted, or wrongfully detained property from.<sup class="fn"><a href="#n15" id="ref-15">15</a></sup> His son Sir John V succeeded and built further on Edmund's legal foundations. Edmund's second son Robert — the direct ancestor — would in due course inherit when Sir John's line failed.<sup class="fn"><a href="#n11" id="ref-11b">11</a></sup><sup class="fn"><a href="#n12" id="ref-12b">12</a></sup>
 </section>
 
 <section class="fact-section" id="citations">

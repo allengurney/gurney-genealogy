@@ -69,9 +69,9 @@ factsheet:
 <h2 class="unnumbered">Highlights</h2>
 
 <ul>
-  <li><strong>First in the family to seal with the engrailed cross in a surviving document.</strong> The 1294 deed by which William transferred all his estates to his brother John, Rector of Harpley, was sealed by William with an engrailed cross. Daniel Gurney identified this as "the earliest on record of the use of the cross engrailed in a seal or document by any of the family" — though he also notes the arms had been borne by William's father Sir John I on an ancient roll of arms. The seal is thus the first physical object, as opposed to a roll entry, bearing the Gournay arms. <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></li>
+  <li><strong>First in the family to seal with the engrailed cross in a surviving document.</strong> The 1294 deed by which William transferred all his estates to his brother John, Rector of Harpley, was sealed by William with an <a href="https://en.wikipedia.org/wiki/Engrailed">engrailed</a> cross (a cross with a scalloped edge). The genealogist Daniel Gurney identified this as "the earliest on record of the use of the cross engrailed in a seal or document by any of the family" — though he also notes the arms had been borne by William's father Sir John I on an ancient roll of arms. The seal is thus the first physical object, as opposed to a roll entry, bearing the Gournay arms. <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></li>
   <li><strong>Sold all his estates to his brother for an annuity in 1294 — a remarkable act.</strong> In 14 Edward I (1286), William was lord of a portfolio of Norfolk manors. Eight years later, he conveyed every one of them to his clerical brother John in exchange for a lifetime annuity. Why he did so is unrecorded — financial distress, personal preference, a desire to secure his brother's position, or some combination. The result was that the estates passed through the clerical line and, on John's death in 1332 without clerical heirs, descended to William's son John III (G25), restoring the direct male line. <sup class="fn"><a href="#n6" id="ref-6">6</a></sup></li>
-  <li><strong>The Baconsthorpe marriage resolved a long-running puzzle.</strong> His father William II's wife was identified by DG only as "probably a Baconsthorpe." William III's wife Katherine is confirmed as "daughter of Edmund Baconsthorpe" — establishing a definite Baconsthorpe connection in this generation, and explaining why DG made the inference about the previous one. <sup class="fn"><a href="#n7" id="ref-7">7</a></sup></li>
+  <li><strong>A documented Baconsthorpe marriage.</strong> William III's wife Katherine is recorded as "daughter of Edmund Baconsthorpe," anchoring the family into the Baconsthorpe gentry. (For William's father William II, the genealogist Daniel Gurney could only suggest the wife was "probably a Baconsthorpe" — an inference the William III match helps to explain.) <sup class="fn"><a href="#n7" id="ref-7">7</a></sup></li>
 </ul>
 </section>
 
@@ -99,13 +99,13 @@ factsheet:
       <td>Edmund de Gurnay</td>
       <td>fl. c. 1290s–1320s</td>
       <td>Katherine Baconsthorpe</td>
-      <td>Named in DG pedigree p. 286 alongside John III. Further details not documented in sources consulted. COLLATERAL. <sup class="fn"><a href="#n10" id="ref-10">10</a></sup></td>
+      <td>Named in Daniel Gurney's pedigree alongside John III. Further details not documented in sources consulted. <sup class="fn"><a href="#n10" id="ref-10">10</a></sup></td>
     </tr>
     <tr>
       <td>William de Gurnay</td>
       <td>fl. c. 1290s–1320s</td>
       <td>Katherine Baconsthorpe</td>
-      <td>Named in DG pedigree p. 286 alongside John III. Further details not documented. COLLATERAL. <sup class="fn"><a href="#n10" id="ref-10b">10</a></sup></td>
+      <td>Named in Daniel Gurney's pedigree alongside John III. Further details not documented. <sup class="fn"><a href="#n10" id="ref-10b">10</a></sup></td>
     </tr>
   </tbody>
 </table>
@@ -114,9 +114,9 @@ factsheet:
 <section class="fact-section fact-narrative" id="narrative">
 <h2 class="unnumbered">Narrative</h2>
 
-Sir William de Gournay III inherited Harpley and its associated manors from his father Sir John I and held them as a conventional Norfolk knight of the late 13th century. Daniel Gurney's pedigree places him in 14 Edward I (1286) as lord of Gurney's manor in Harpley, Hardingham, and Hingham; the Supplement adds an earlier 1274 warren claim at Hardingham, showing him asserting manorial rights there while his father was still active.<sup class="fn"><a href="#n1" id="ref-1b">1</a></sup><sup class="fn"><a href="#n11" id="ref-11">11</a></sup>
+Sir William de Gournay III inherited Harpley and its associated manors from his father Sir John I and held them as a conventional Norfolk knight of the late 13th century. The genealogist Daniel Gurney's pedigree places him in 14 Edward I (1286) as lord of Gurney's manor in Harpley, Hardingham, and Hingham; the <em>Supplement</em> adds an earlier 1274 claim to free warren (the right to hunt small game) at Hardingham, showing him asserting manorial rights there while his father was still active.<sup class="fn"><a href="#n1" id="ref-1b">1</a></sup><sup class="fn"><a href="#n11" id="ref-11">11</a></sup>
 
-Then the story takes its odd turn. In 1294 William handed the whole landed package to his brother John, a priest and Rector of Harpley, in return for an annuity. That deed survives in Daniel Gurney's account, and it carries the detail that makes William memorable: his seal, an engrailed cross, the earliest surviving physical impression of the Gournay arms Daniel could identify. William's father Sir John I had already borne the same arms in an ancient roll, but William's seal is the first document Daniel found with the family cross pressed into wax.<sup class="fn"><a href="#n6" id="ref-6b">6</a></sup><sup class="fn"><a href="#n5" id="ref-5b">5</a></sup>
+Then the story takes its odd turn. In 1294 William handed the whole landed package to his brother John, a priest and Rector of Harpley, in return for an annuity. That deed survives in Daniel Gurney's account, and it carries the detail that makes William memorable: his seal, an engrailed cross, the earliest surviving physical impression of the Gournay arms. William's father Sir John I had already borne the same arms in an ancient roll, but William's seal is the earliest surviving document with the family cross pressed into wax.<sup class="fn"><a href="#n6" id="ref-6b">6</a></sup><sup class="fn"><a href="#n5" id="ref-5b">5</a></sup>
 
 The motivation for the transfer is unrecorded. Financial pressure remains plausible, but the surviving evidence is more precise than that: William retained an annuity, Rector John had no heirs of his own, and later settlements returned the estate path to William's son John III. The safest reading is therefore not simple failure but a family estate restructuring whose reasons are now lost.<sup class="fn"><a href="#n6" id="ref-6c">6</a></sup><sup class="fn"><a href="#n8" id="ref-8b">8</a></sup>
 

@@ -58,7 +58,7 @@ factsheet:
     <div class="fact-label">Marriage(s)</div>
     <div class="fact-value">
       <div class="stacked-records">
-        <div><strong>Unknown.</strong> No wife named in DG or any other source consulted. By an unnamed wife, father of Edmund Gournay (d. 1387) and at least two further children per the pedigree. <sup class="fn"><a href="#n4" id="ref-4">4</a></sup></div>
+        <div><strong>Unknown.</strong> No wife is named in any source consulted. By an unnamed wife, father of Edmund Gournay (d. 1387) and at least two further children per the pedigree. <sup class="fn"><a href="#n4" id="ref-4">4</a></sup></div>
       </div>
     </div>
   </div>
@@ -71,7 +71,7 @@ factsheet:
 <ul>
   <li><strong>His court roll survives — one of the earliest personal records for this generation.</strong> Daniel Gurney cites a manorial court record: John IV "kept his first court at Harpley on Friday the vigil of St. Laurence, 28th Edward III (1354)." The feast of St. Laurence is 10 August; the vigil would have been 9 August 1354. This is not merely an attestation that John IV existed — it is a specific day in his life, the first occasion on which he exercised the judicial authority of a lord over his tenants. <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></li>
   <li><strong>He is the last Harpley lord before the family's great transition.</strong> John IV is the final generation of the junior Gournay branch to be seated primarily at Harpley. His son Edmund (G23) married Katherine de Wauncy, heiress of West Barsham, thereby bringing that manor into the family — and from Edmund's generation onward the Gurneys are primarily described as the "Gurneys of West Barsham." Harpley remained in the portfolio but ceased to be the primary seat. <sup class="fn"><a href="#n6" id="ref-6">6</a></sup></li>
-  <li><strong>He also — possibly — presented to the church of Harpley in 1332.</strong> Daniel Gurney, <em>Supplement</em> (1858) p. 355 notes that in 1332 "either he or his father presented to the church of Harpley; but more probably this John de Gurney [IV], as he is called John de Gurney junior" in the deed. If so, John IV exercised advowson as a very young man (a child, effectively) immediately upon his grandfather's death — suggesting the 1332 presentation was made formally in his name even if his father managed the actual process. <sup class="fn"><a href="#n7" id="ref-7">7</a></sup></li>
+  <li><strong>He also — possibly — presented to the church of Harpley in 1332.</strong> In 1332, "either he or his father presented to the church of Harpley; but more probably this John de Gurney [IV], as he is called John de Gurney junior" in the deed. If so, John IV exercised the right of advowson (the right to nominate a parish clergyman) as a very young man (a child, effectively) immediately upon his grandfather's death — suggesting the 1332 presentation was made formally in his name even if his father managed the actual process. <sup class="fn"><a href="#n7" id="ref-7">7</a></sup></li>
 </ul>
 </section>
 
