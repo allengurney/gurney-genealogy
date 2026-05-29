@@ -99,3 +99,11 @@ Matthew's documented activity is entirely English after this date (the 1217 Fine
 2. **1217 Fine Roll:** The DG-Supp Note 109 correction should be incorporated. Matthew was alive in 1217, paying 20 marks for a writ concerning Swathings. This extends his documented life and shows him actively managing his estate deep into old age.
 3. **1204 context:** The loss of Normandy in 1204 effectively ended the family's cross-Channel identity. Matthew is the transitional figure — born Anglo-Norman, died purely English. This is a significant narrative moment.
 4. **Harpley significance:** The narrative could draw out that this one marriage (Matthew + Rose) established the Harpley connection that would define seven generations of Gurneys. It's the single most consequential marriage in the junior branch.
+
+---
+
+## Armstrong 1781 — third independent witness
+
+Mostyn John Armstrong, *The History and Antiquities of the County of Norfolk*, vol. 5 (Norwich, 1781), Gallow Hundred entry for West Barsham, opens its Harpley-rooted Gurney pedigree skeleton with "Matthew de Gourney lived in the reign of Henry II. and married Rose, daughter and heir of Reginald de Burnham." This is Armstrong's eighteenth-century printed witness to the Matthew + Rose de Burnham marriage already independently attested by Daniel Gurney *Record* (1848) pedigree p. 286 and Blomefield's Harpley entry. Useful as a third corroborating citation; no new fact.[^v71-armstrong-matthew-rose]
+
+[^v71-armstrong-matthew-rose]: Mostyn John Armstrong, *The History and Antiquities of the County of Norfolk*, vol. 5 (Norwich, 1781), Gallow Hundred, West Barsham pedigree-skeleton paragraph. Internet Archive item `bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_5`. Source ID: `armstrong-norfolk-1781`.

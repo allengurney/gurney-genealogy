@@ -120,3 +120,4 @@ The later collateral details are genealogically rich but separate: Sir Thomas de
 - Vol. I extract: `sources/corpus/anderson-yvery-1742-vol-i-extract.md` (sourceId `anderson-yvery-1742-vol-i`).
 - Vol. II extract: `sources/corpus/agenealogical-history-gournay-extract.md` (sourceId `anderson-yvery-1742`).
 - Daniel Gurney 1848: junior Norfolk branch in DG-II; Somerset Gournays in DG-IV (sourceIds `dg-rec-pt2`, `dg-rec-pt4`).
+- Mostyn John Armstrong, *History and Antiquities of the County of Norfolk* (1781): vol. 1 Cantley / Caister / Bedingham general descent; vol. 4 Kimberley (parallel-to-Bedingham Stuteville/Gunnora marriage); vol. 7 Lessingham (Gerard de Gournay's grant to Bec, corroborating the existing project documentation). All three corroborate the Anderson-Yvery / Cantley senior-collateral picture from an independent eighteenth-century printed witness. SourceId `armstrong-norfolk-1781`.

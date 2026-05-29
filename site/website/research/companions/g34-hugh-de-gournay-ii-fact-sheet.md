@@ -206,6 +206,15 @@ Powell's Welsh annal tradition and the French *Histoire et Chronique* Norman tra
 
 [^powell-1584-welsh-1094]: David Powell, *The Historie of Cambria, now called Wales: a part of the most famous Yland of Brytaine* (London: Rafe Newberie and Henrie Denham, 1584), continuing the unfinished English translation by Humphrey Llwyd of medieval Welsh chronicle material (principally *Brut y Tywysogion*). The passage is quoted in full at <https://patp.us/reading/companions-of-the-conqueror/hugh-de-gournay>. The Powell first edition is at Early English Books Online (STC 2nd ed. 20089) and at the British Library (shelfmark G.6056); the standard modern edition is the 1811 Wynne re-edition. Source ID: `powell-historie-cambria-1584`.
 
+### 6.8 Daniel 1613 -- Hugh de Gourney in the Conqueror's "especial actors" died-before-him list
+
+Samuel Daniel's *The First Part of the Historie of England* (London, 1613) at p. ~142 supplies a sixth named-source witness to the same Norman tradition. Daniel groups Hugh de Gourney with Beaumont, Harcourt, Vicount Neele, Hugh de Mortimer, and the Comte de Vennes as the "especial actors in [the Conquest]" who died "before" the Conqueror (d. 1087):
+
+> And this was in the fate of the Conquerour, to see most of all these men who had bene the especial actors in [the Conquest] ... extinct before him: As Beaumont, Harcourte, **Hugh de Gourney**, Vicount Neele, Hugh de Mortimer, Conte de Vennes, &c. And now [he] disposing [of his affairs] ended it [his life] in the 74. yeere of his age, and the 21. of his raigne.
+
+The Daniel list overlaps strongly with the French / Norman / Welsh tradition cluster already captured above: Neele le Vicomte, Harcourt, and the Comte de Vennes all reappear from the *Histoire et Chronique de Normandie* (Rouen 1610) and Powell 1584 readings, and Beaumont and Hugh de Mortimer are the standard Conquest-generation collaterals.[^v73-daniel-1613-conqueror-actors]
+
+[^v73-daniel-1613-conqueror-actors]: Samuel Daniel, *The First Part of the Historie of England* (London: Nicholas Okes, 1613), p. ~142. Verbatim extract in `sources/corpus_supplement/daniel-history-england-1613-pt1-gurney-extract.md`. Source ID: `daniel-history-england-1613-pt1`.
 ---
 
 ## 7. Wife — confirmed negative
@@ -252,10 +261,13 @@ Per the la Ferté charter logic of Renaud's three sons (Hugh, Gauthier, Raoul), 
 
 7. **The Eulde / Hugues name equivalence**: Potin's two-version juxtaposition (Dumoulin "Hugues" vs. *Histoire et Chronique* "Eulde") is direct textual evidence for Hannay's observation. Carries forward to G36/G37 where the same equivalence is the basis for the FS-tree's "Eudes ou Hugues" PID conflation.
 
+8. **Holinshed 1577 -- the "Geneuay" alias attached to Hue de Gourney in the Conquest-list (vol. 4 p. 291)**. Raphael Holinshed prints "Hue de Gourney, alias Geneuay" within his Conquest-actor catalogue and, separately, "Hue erle of Gournay" -- the only Earl form recorded. The alias `Geneuay` is otherwise unattested in the project's name-variant catalogue and is most plausibly an Elizabethan-era OCR/typographic corruption of an underlying source name. Captured as a documented variant in `sources/corpus_supplement/holinshed-1577-selected-gurney-references.md` but not promoted to a working alias.[^v73-holinshed-geneuay]
+
+[^v73-holinshed-geneuay]: Raphael Holinshed, *The laste volume of the Chronicles of England, Scotlande, and Irelande, with their descriptions*, vol. 2 (London, 1577), vol. 4 p. 291. Source ID: `holinshed-chronicles-1577`.
+
 ---
 
 ## 11. Sources consulted
-
 | Source | Citation handle |
 |---|---|
 | Daniel Gurney 1845/1848, *Record of the House of Gournay* Part I, pp. 24–28 | `dg-rec-pt1` |

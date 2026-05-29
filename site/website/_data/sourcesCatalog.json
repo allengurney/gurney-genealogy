@@ -1,5 +1,17 @@
 [
   {
+    "sourceId": "complete-history-england-1706-v1",
+    "shortTitle": "A Complete History of England, vol. 1 (1706)",
+    "citation": "A Complete History of England, with the Lives of all the Kings and Queens thereof, vol. 1 (London: Brab. Aylmer, A. and J. Churchill, etc., 1706).",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/bim_eighteenth-century_a-complete-history-of-en_1706_1",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/complete-history-england-1706-v1-gurney-extracts.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/complete-history-england-1706-v1.md",
+    "notes": "Three-volume compilation often associated with John Hughes and continuators (later editions incorporating White Kennett's continuation). Authorship of the early-medieval narrative chapters is unattributed in the volume. Used in v73 only as a Hanoverian-era corroborating-citation source for two known Gurney references: p. 158 (Hugh de Gourney in the Richard I Holy Land valorous-men list, same content as Holinshed 1577 vol. 4 p. 473) and p. 244 (Sir Mathew Gourney in the 1381 Portugal expedition under Edmund Earl of Cambridge, same content as the CPR Henry IV and Pettigrew). No new fact."
+  },
+  {
     "sourceId": "abington-vr-1850-vol1",
     "shortTitle": "Abington Vital Records to 1850, vol. 1",
     "citation": "Vital Records of Abington, Massachusetts, to the Year 1850. Volume 1: Births. Boston: New England Historic Genealogical Society, 1912.",
@@ -142,6 +154,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/archiuk-attleborough-nr17-domesday-search.md",
     "notes": "Tertiary local-history search page preserving Domesday name snippets for Great Ellingham/Helincham, Hingham/Haincham, and Attleborough/Atlebur/Baconstorp. Use as a lead only; prefer OpenDomesday/NHER/Blomefield for final claims."
+  },
+  {
+    "sourceId": "armstrong-norfolk-1781",
+    "shortTitle": "Armstrong, History and Antiquities of the County of Norfolk (1781)",
+    "citation": "Mostyn John Armstrong, The History and Antiquities of the County of Norfolk, 10 vols. (Norwich, 1781).",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_5/",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/armstrong-norfolk-1781-selected-gurney-references.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/armstrong-norfolk-1781.md",
+    "notes": "Pre-Blomefield-completion 10-volume antiquarian county history, issued one generation after Blomefield's first edition and three to four decades before the posthumous completion was reissued. 118 Gurney-variant hits across all ten volumes, transcribed in v69 by parish and theme. Per-volume IA item identifiers follow the pattern bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_N for N in 1..10; vol. 2 alone has no Gurney content. Substantively new findings include Edward Gourney's Aug 1641 death (West Barsham chancel monument); Edward's 1637 Justice-of-the-Peace attestation at Walsingham Parva; the full impaled/quartered arms list at West Barsham church including a probable Wentworth shield; Henry G15's lord-of-Hingham confirmation for 1572 and the 1715 post-Gurney successor at Hingham; G17 Anthony's 1541-42 Irstead purchase from Southwell + 1540 Merton sale to Southwell; the William Gurnay of Cawston 1578 gravestone; Sir John V's Hellesden/Drayton/Taverham/Heigham 1395-96 to 1401-02 attestations with his wife Alice; the Norwich Cathedral cloister Gournay-arms attestation; and the Cranworth/Swathing/Letton King-John-era junior-branch cluster including an undated Hugh de Gourney charter to Robert the Burgundian and a Saint-Hildevert-at-Gournay-tithes pattern extending to Hardingham. Volume-specific OCR / editorial caveats are documented in the corpus supplement."
   },
   {
     "sourceId": "ballou-history-of-milford-1882",
@@ -408,6 +432,18 @@
     "notes": "Published Braintree town-record transcription. For the John Gurney case file, the important conflict is in the vital-record section: printed p. 638 gives the 20 Sept. 1661 wife-death line under John Cheny, and printed p. 717 gives the 12 Nov. 1661 marriage line as John Cheny Senior and Grizell Kidbee. Use as a conflict source against the current Braintree vital-record wording; the original town manuscript and TAG 10:70-73 remain necessary before treating the Cheny reading as final."
   },
   {
+    "sourceId": "brooke-catalogue-succession-1619",
+    "shortTitle": "Brooke, Catalogue and Succession (1619)",
+    "citation": "Brooke, Ralph. A Catalogue and Succession of the Kings, Princes, Dukes, Marquesses, Earles, and Viscounts of this Realme of England, since the Norman Conquest, to this Present Yeare, 1619. London: William Jaggard, 1619.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/cataloguesuccess00broo",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/brooke-catalogue-succession-1619-selected-gurney-pages.md",
+    "mediaPath": "sources/media/brooke-catalogue-succession-1619/",
+    "validationPath": "sources/validations/brooke-catalogue-succession-1619.md",
+    "notes": "Public-domain early printed heraldic/genealogical catalogue. Selected page images transcribed in v67: page 92 naming Millicent as daughter of Hugh Gurney and Julian his wife; page 200 as setup for Patrick de Eureux / Salisbury; page 201 quoting Doctor Powell for Hugh Gurney wounded near Cardiff and later dying in Normandy. Use as early printed derivative evidence for senior Gournay-line traditions, not as primary proof."
+  },
+  {
     "sourceId": "brs-v21",
     "shortTitle": "BRS v21 (1642 Bucks tax)",
     "citation": "Buckinghamshire Record Society, vol. 21. 1642 Buckinghamshire tax records.",
@@ -586,6 +622,30 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Edmund Gurnay's 1619 treatise against transubstantiation; sermon on Matthew 26:26; STC 12527. Online book scan: https://archive.org/details/bim_early-english-books-1475-1640_corpus-christi_gurnay-edmund_1619 (Internet Archive, Early English Books 1475-1640). Folger catalog record (secondary bibliographic control): https://catalog.folger.edu/record/159988."
+  },
+  {
+    "sourceId": "daniel-history-england-1613-pt1",
+    "shortTitle": "Daniel, First Part of the Historie of England (1613)",
+    "citation": "Samuel Daniel, The First Part of the Historie of England (London: Nicholas Okes, 1613).",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/bim_early-english-books-1475-1640_the-first-part-of-the-hi_daniel-samuel_1613",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/daniel-history-england-1613-pt1-gurney-extract.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/daniel-history-england-1613-pt1.md",
+    "notes": "Early-17th-c. narrative history. The p. ~142 passage groups Hugh de Gourney with Beaumont, Harcourt, Vicount Neele, Hugh de Mortimer, and the Comte de Vennes as 'especial actors' of the Conquest who died before the Conqueror (d. 1087). One more printed witness to the same 'old Hugh died before the Conqueror' Norman tradition already tracked at G34 Hugh II companion section 6 across Powell 1584, the Histoire et Chronique de Normandie (printed Rouen 1610), Dumoulin 1631, and Calmet's Histoire de Lorraine."
+  },
+  {
+    "sourceId": "dashwood-visitation-norfolk-1563-vol1-1878",
+    "shortTitle": "Dashwood, Visitation of Norfolk 1563, vol. 1 (1878)",
+    "citation": "Harvey, William. The Visitation of Norfolk in the Year 1563, Taken by William Harvey, Clarenceux King of Arms. Edited by the Rev. G. H. Dashwood, F.S.A., and continued by Captain W. E. G. L. Bulwer, G. A. Carthew, Esq., F.S.A., Rev. W. Grigson, M.A., and Rev. Augustus Jessopp, D.D. Vol. I. Norwich: Miller and Leavins, 1878.",
+    "archive": "HathiTrust",
+    "url": "https://babel.hathitrust.org/cgi/pt?id=uc1.b4945929",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/dashwood-visitation-norfolk-1563-vol1-1878-kervile-p58.md",
+    "mediaPath": "sources/media/dashwood-visitation-norfolk-1563-vol1-1878/",
+    "validationPath": "sources/validations/dashwood-visitation-norfolk-1563-vol1-1878.md",
+    "notes": "Public-domain HathiTrust scan of vol. 1. Page 58 captured in v68: Kervile pedigree corroborating G21 Thomas Gournay I's marriage to Catherine Kerville of Watlington. Robert Kervile of Watlington (Catherine's father), will dated 19 Nov. 1434, proved at Norwich the following year. Independent visitation witness alongside DG-I 1848 pedigree p. 286 and DG-Supp 1858 p. 795."
   },
   {
     "sourceId": "davis-abel-lunt-1963",
@@ -1582,6 +1642,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/benjamin-gurney-harden-research-tables-2026-04.md",
     "notes": "Secondary local history for old Abington and Little Comfort. Useful for John Harden's Little Comfort context and the 22 February 1711 baptism of Jane Harden, daughter of John Harden of Little Comfort, as recorded by Mr. Niles of Braintree. Hobart-derived wording about an Elizabeth should be treated cautiously because the original John Harden will shows Elizabeth Harden as a witness, not as a daughter/heir."
+  },
+  {
+    "sourceId": "holinshed-chronicles-1577",
+    "shortTitle": "Holinshed, Chronicles of England, Scotlande, and Irelande (1577) -- laste volume",
+    "citation": "Raphael Holinshed, The laste volume of the Chronicles of England, Scotlande, and Irelande, with their descriptions (London, 1577), vol. 2.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/bim_early-english-books-1475-1640_the-laste-volume-of-the-_holinshed-raphael_1577",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/holinshed-1577-selected-gurney-references.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/holinshed-chronicles-1577.md",
+    "notes": "First edition of the laste volume; vol. 2 only. The IA copy lacks L3 of the index; pages torn and tightly bound with some loss of text; OCR (Tesseract, detected Fraktur/blackletter) is unreliable. The Oxford Holinshed Project's keyed 1577 transcription is the working searchable text layer. v73 captures 14 Gurney-variant loci under the spellings Gourney / Gournay / Gurnay / Gurney / Gorney / Geneuay (alias). Substantively new findings: Hugh de Gourney's castle 'Fert' (= La Ferte) burned by Duke Henry of Normandy mid-1150s; Hugh Gourney's lands as captivity site for Robert Earl of Leicester (Richard I era); Hugh's delivery of the castle of Mountfort to the French king after Chateau Gaillard 1204; the unusual alias 'Geneuay' attached to Hue de Gourney in the Conquest-list; Sir Mathew Gourney's procedural-legal role under the king (Salisbury vs Morley). Already-known content captured in the corpus supplement for completeness: the Thomas Gourney regicide narrative, Sir Mathew at Auray and Portugal, and the Gournay-en-Bray place references in the Henry V / Henry VI Norman/Vexin campaigns."
   },
   {
     "sourceId": "tag-10-70",
@@ -2604,6 +2676,18 @@
     "notes": "Joseph Hunscott appears as Stationers' apprenticeship master in events dated 1612, 1614, 1619, 1626, 1632 (turnover master), 1635, 1636, 1638 (×2), 1642, and 1646 (×2). His son John Hunscott was admitted Stationer by servitude in 1641 with Joseph as 'father of freeman'. The variant spellings Henscott (Robert Gurney's 1625 will), Huntscott (BHO 1638 St Augustine return), and Hunscott (ROLLCO and Wing H3728 1646 petition) are the same person."
   },
   {
+    "sourceId": "rudder-gloucestershire-1779",
+    "shortTitle": "Rudder, A New History of Gloucestershire (1779)",
+    "citation": "Samuel Rudder, A New History of Gloucestershire (Cirencester: printed by Samuel Rudder, 1779).",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/bim_eighteenth-century_a-new-history-of-glouces_rudder-samuel_1779",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/rudder-gloucestershire-1779-gurney-extracts.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/rudder-gloucestershire-1779.md",
+    "notes": "The standard pre-Bigland antiquarian county history of Gloucestershire, single folio volume. Substantively important for the senior-collateral Gloucestershire descent. The Almondsbury parish entries record: (a) Over manor descent from Maurice de A[wdele / Gaunt] d. 14 H. III via his sister's son Robert de Gourney (d. 53 H. III), then Anselm 14 Edw. I, then John d. 19 Edw. I, then Elizabeth and John ap Adam, then sale to Berkeley 4 Edw. III; (b) Gaunt's Urcot descent from Gilbert de Gaunt to his sister's son and heir Richard de Gourney, who founded an hospital at Bilswick (= Gaunt's Hospital, Bristol) for one hundred poor; (c) Redwick manor descent in the same Gaunt -> Gourney -> Elizabeth -> ap Adam chain, with the Redwick + Northwick fine levied 25 Edw. I. The Bristol Bilswick / Gaunt's Hospital founder named by Rudder as 'Richard de Gourney' conflicts with Pettigrew 1871's 'Robert de Gournay II' attribution; preserved as a documented name conflict pending primary-record check."
+  },
+  {
     "sourceId": "rye-norfolk-antiquarian",
     "shortTitle": "Rye, Norfolk Antiquarian — Gurneys of Norwich",
     "citation": "Rye, Walter. 'The Gurneys of Norwich.' The Norfolk Antiquarian Miscellany.",
@@ -2614,6 +2698,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Walter Rye's article on the Gurneys of Norwich. Critical for: (a) the multiple Gurney/Gurnell/Gurling/Garney name variants in Norwich registers, (b) plebeian Gurney lines in Norwich (shoemakers, cordwainers, lace weavers) from whom John the Quaker may have descended, (c) the disambiguation problem distinguishing related lines. Heavily relevant to John Gurney-1 research and the two-Francis problem."
+  },
+  {
+    "sourceId": "rye-visitacion-norffolk-1891",
+    "shortTitle": "Rye, Visitacion of Norffolk (1891)",
+    "citation": "Hervey, William; Cooke, Robert; and Raven, John. The Visitacion of Norffolk, Made and Taken by William Hervey, Clarencieux King of Arms, Anno 1563; Enlarged with Another Visitacion Made by Clarenceux Cooke, with Many Other Descents; and also the Vissitation Made by John Raven, Richmond, Anno 1613. Edited by Walter Rye. London: Harleian Society, 1891.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/visitacionnorff00ravegoog",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/rye-visitacion-norffolk-1891-gurney-selected-pages.md",
+    "mediaPath": "sources/media/rye-visitacion-norffolk-1891/",
+    "validationPath": "sources/validations/rye-visitacion-norffolk-1891.md",
+    "notes": "Harleian Society edition of the Norfolk visitations of 1563, 1589, and 1613. Selected Gurney/Gorney/Gourney pages transcribed in v67: printed pp. 40, 132, 140, and 141. High value for direct-line Francis G16, Henry G15, and Francis G14 parentage/sibling ordering; also useful for collateral Barsham/Cawston/Aylsham and Blundevill-alliance Gorney variants. Alternate Internet Archive item for the same Harleian Society edition: https://archive.org/details/visitacionievisi32ryew (intake encountered a less-clean scan duplicate of p. 132 from this item in v68; the v67 capture remains the project's working scan)."
   },
   {
     "sourceId": "savage-dictionary",
@@ -2950,6 +3046,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Edmund Gurnay's anti-image tract; title identifies him as Bachelor in Divinity and minister of God's word at Harpley in Norfolk; STC 12531 (first edition 1639). Online book scan (1661 republication): https://archive.org/details/bim_early-english-books-1641-1700_toward-the-vindication-o_gurnay-edmund_1661 (Internet Archive, Early English Books 1641-1700). Folger catalog record for the 1639 first edition (secondary bibliographic control): https://catalog.folger.edu/record/159994. The archive.org scan is the 1661 republication, not the 1639 Cambridge first edition the Folger record describes."
+  },
+  {
+    "sourceId": "tyrwhitt-canterbury-tales-1798-v2",
+    "shortTitle": "Tyrwhitt ed., Canterbury Tales of Chaucer, vol. ii Notes (1798)",
+    "citation": "Thomas Tyrwhitt, ed., The Canterbury Tales of Chaucer, vol. ii (London, 1798).",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/bim_eighteenth-century_the-canterbury-tales-of-_chaucer-geoffrey_1798_2",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/tyrwhitt-canterbury-tales-1798-v2-matheu-gourney-epitaph.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/tyrwhitt-canterbury-tales-1798-v2.md",
+    "notes": "Notes volume of Tyrwhitt's standard late-18th-c. critical edition of Chaucer. The note to General Prologue v. 43 (the Knight) at p. 392 reproduces the full French epitaph of Sir Matheu de Gourney from Leland's Itinerary (vol. iii p. xi), names the campaigns (Benamaryn, siege of Algezire, L'Escluse, Crefcy, Deyngeneffe, Peyteres, Nazare, Ozrey, et plusours autres batailles), and supplies the death year 1406 and age 96. Closer to Leland than Pettigrew's later paraphrase; supplies verbatim French text. Tyrwhitt frames Sir Matthew as a near-contemporary of Chaucer's fictional Knight and notes Chaucer's puzzling choice of Alexandria + Lettowe rather than Crecy + Poitiers as the Knight's listed campaigns."
   },
   {
     "sourceId": "vch-bucks-v3",

@@ -238,3 +238,57 @@ This is the document from which the entire downstream Heylesdon-Gurney property 
 Full calendar text and the Stow / Crowned Seld identification preserved at [`sources/corpus_supplement/husting-wills-london-vol2-john-heylesdon-1384.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/husting-wills-london-vol2-john-heylesdon-1384.md).[^v63-husting-heylesdon-1384]
 
 [^v63-husting-heylesdon-1384]: Reginald R. Sharpe, ed., *Calendar of Wills proved and enrolled in the Court of Husting, London, A.D. 1258-A.D. 1688*, Part II (London: J. C. Francis, 1890), pp. 241-243, Roll 113 (1). Internet Archive: [archive.org/stream/willshusting02sharuoft/willshusting02sharuoft_djvu.txt](https://archive.org/stream/willshusting02sharuoft/willshusting02sharuoft_djvu.txt). Source ID: `husting-wills-london-vol2-sharpe`.
+
+---
+
+## Armstrong 1781 — Sir John V additional attestations (Heigham, Drayton, Hellesden, Taverham, Denver, Saxthorpe) + Sir John Howard's silver-cup bequest
+
+Mostyn John Armstrong, *The History and Antiquities of the County of Norfolk* (1781), substantially extends the documented economic footprint of Sir John Gurney V — the d. 1408 sheriff / MP / HoP-entered figure — outside the West Barsham / Harpley / North Barsham core.
+
+### 1395-96 conveyance to John Winter
+
+Armstrong vol. 9 (Freebridge entry for Heigham next Norwich): "John Gournay, and Alice his wife, were in possession of [the Hellesden mediety] in the 19th of Richard II [1395-96], when they passed it, with the manor of Drayton, and the advowson of the two chantries in this town, to John Winter, &c."
+
+The same fine is recorded again at Drayton (vol. 9, Freebridge entry for Drayton): "But part of this lordship was alienated probably about the end of Edward III. by Sir John de la Pole, in the 19th of Richard II. John Gourney conveying it, with the advowson, to John Winter and his heirs, by fine."
+
+And again at Taverham (vol. 9, Freebridge entry for Taverham): "In 1395, the advowson of one of these portions was settled by fine on John Winter, &c. by John Gournay and Alice his wife, with Drayton and Hellesden manors."
+
+This is **John and Alice Gourney's coordinated 1395-96 alienation of the Norwich-adjacent Heigham / Hellesden / Drayton / Taverham cluster** — formerly the Hayleſdon family lands, now passing to John Winter (probably the same John Winter who was a major Norwich civic figure of the period). The named wife is Alice; the John Hayleſdon Husting will of 1384 (already in this companion) is the conveyance route by which these specific manors had come into Gurney hands. Armstrong's three-volume cross-attestation strongly supports the **Alice Heylesdon** identification over the Wansey-pedigree Alice Bavard variant.[^v71-armstrong-1395-heigham]
+
+### 1398 + 1401 Heigham advowson presentations
+
+Armstrong vol. 9 (continuation of the Heigham mediety entry): "yet in 1398, and 1401, John Gourney presented to this church as lord." Two further dated advowson presentations by Sir John V, between the 1395-96 conveyance to John Winter and the 1401-02 fee attestation below.[^v71-armstrong-1398-1401-heigham]
+
+### 1401-02 Drayton + Taverham fee attestation
+
+Armstrong vol. 9 (Drayton entry): "In the 3d of Henry IV. [1401-02] John Gournay held two fees here and in Drayton, sometime John Spring's, of the lord Morley, as part of the barony of Rye." Sir John V held two fees at Drayton + Taverham under the lord Morley as late as 1401-02 — six years before his 5 December 1408 death.[^v71-armstrong-1401-02-drayton]
+
+### 1407-08 Denver lord-at-death
+
+Armstrong vol. 1 (Loddon Hundred entry for Denver mediety): "In the 9th of Henry IV. John Gourney, esq. died lord, and of West Barsham." Independent corroboration of Sir John V's death year (9 Henry IV = 1407-08; DG-Supp Note 121 / HoP fix the date at 5 Dec 1408) and of his Denver tenure already in this companion's tenure table.[^v71-armstrong-1407-08-denver]
+
+### Saxthorpe c. 1411 — post-IPM Gurney holding
+
+Armstrong vol. 3 (North Erpingham Hundred entry for Saxthorpe): "[Saxthorpe manor descent:] ...In 1400 Henry, Alexander and Roger Groos held it, and about 1411 John Gurnay, of West Barsham; after this Sir John Fastolf, knight of the garter, was lord, and died seised of it." Sir John V died 5 Dec 1408. The c. 1411 actor is most parsimoniously **Edmund** (Sir John V's IPM-aged-10 son acting through guardians during minority) or the eventual nephew-successor **Thomas I** (G21). The 1411 attestation is distinct from the v62 Paston-Saxthorpe-1472 patchset's later Saxthorpe involvement.[^v71-armstrong-1411-saxthorpe]
+
+### Sir John Howard's silver-cup bequest
+
+Armstrong vol. 6 (South Erpingham Hundred entry for Walsingham priory area): Sir John Howard's will (late 14th / early 15th century — Howard's son John died on a journey to the Holy Land in 1410) leaves cups of plate to a named knightly circle: "to Sir William Beauchamp, and Sir John Marmion, knts. to each a silver cup with a cover, to be made new, weighing 10lb. in gross; to Sir Stephen Hales, John de Burgh, Richard de Sutton, knts. and [Sir John] Gurney, to each of them a new cup to be made of silver, with a cover, each of the weight of 10 marks in gross." This places **Sir John Gurney V in Sir John Howard's intimate gift circle** alongside Hales, Burgh, and Sutton — the same Howard / Plays / Heydon political network the project already documents at G18 / G19 / G20.[^v71-armstrong-howard-cup]
+
+### 1373 Wauci → Edmund Gurney West Barsham transfer date
+
+Armstrong vol. 5 (Gallow Hundred entry for West Barsham): "Hugo de Wauci held this manor of the Earl Warren, and it remained with his descendants till the **47th of Edw. III** [1373], when it came to Edmund Gurney by marriage." Sharpens the project's existing "after 1372" reading for the Wauncy → G23 West Barsham inheritance by one year.[^v71-armstrong-1373-west-barsham]
+
+[^v71-armstrong-1395-heigham]: Mostyn John Armstrong, *History and Antiquities of the County of Norfolk*, vol. 9 (Norwich, 1781), Freebridge Hundred — Heigham next Norwich, Drayton, and Taverham parish entries. Internet Archive item `bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_9`. Source ID: `armstrong-norfolk-1781`.
+
+[^v71-armstrong-1398-1401-heigham]: Armstrong, *Norfolk*, vol. 9, Heigham next Norwich. Source ID: `armstrong-norfolk-1781`.
+
+[^v71-armstrong-1401-02-drayton]: Armstrong, *Norfolk*, vol. 9, Drayton. Source ID: `armstrong-norfolk-1781`.
+
+[^v71-armstrong-1407-08-denver]: Armstrong, *Norfolk*, vol. 1, Loddon Hundred — Denver mediety. Internet Archive item `bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_1`. Source ID: `armstrong-norfolk-1781`.
+
+[^v71-armstrong-1411-saxthorpe]: Armstrong, *Norfolk*, vol. 3, North Erpingham — Saxthorpe. Internet Archive item `bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_3`. Source ID: `armstrong-norfolk-1781`.
+
+[^v71-armstrong-howard-cup]: Armstrong, *Norfolk*, vol. 6 (Norwich, 1781), South Erpingham Hundred — Walsingham priory area, Sir John Howard's will extract. Internet Archive item `bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_6`. Source ID: `armstrong-norfolk-1781`.
+
+[^v71-armstrong-1373-west-barsham]: Armstrong, *Norfolk*, vol. 5, Gallow — West Barsham parish entry. Internet Archive item `bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_5`. Source ID: `armstrong-norfolk-1781`.

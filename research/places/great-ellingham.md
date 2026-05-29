@@ -141,3 +141,24 @@ ARCHI UK's search result is only a tertiary lead, but it preserves three useful 
 [^nher-mnf9108-old-hall]: Norfolk Historic Environment Service, ["MNF9108 - Old Hall, Great Ellingham,"](https://www.heritage.norfolk.gov.uk/record-details?MNF9108) Norfolk Heritage Explorer. Source ID: `nher-mnf9108-old-hall-great-ellingham`.
 
 [^historic-england-old-hall-1077566]: Historic England, ["Old Hall Farmhouse,"](https://historicengland.org.uk/listing/the-list/list-entry/1077566) *National Heritage List for England*, List Entry Number 1077566. Source ID: `historic-england-old-hall-farmhouse-1077566`.
+
+## Armstrong 1781 — Great Ellingham 1525 inheritance + Conyers / Lovell / Spelman kinship + post-1641 Margaret Gurney → Henry Davy descent
+
+Mostyn John Armstrong, *The History and Antiquities of the County of Norfolk*, vol. 8 (Norwich, 1781), Shropham Hundred entry for Great Ellingham capital manor, supplies the most complete printed pre-Blomefield account of the manor's transit through the Gurney family.
+
+**1525 inheritance via Margaret Lovell.** After Henry Spelman the elder of Mickle Ellingham died without issue in 1525, the capital manor "went to Anthony Gurney, esq. of North Barsham, in right of Margaret his wife, one of the daughters and co-heiresses of Sir Robert Lovell, by Ela Conyers his wife, who was sister to Ann Conyers, mother to Henry Spelman." The kinship chain is:
+
+- **Ela Conyers** + Sir Robert Lovell → Margaret Lovell (m. G17 Anthony Gurney 1519).
+- **Ann Conyers** (Ela's sister) + Thomas Spelman → Henry Spelman the elder of Mickle Ellingham (d. 1525, s.p.).
+
+The two cousins — Margaret Lovell and Henry Spelman — were first cousins by Conyers; the Spelman lordship of Great Ellingham therefore passed to the surviving Conyers-blood line on Spelman's death s.p. This explanatory layer is in Armstrong but not in the present G17 fact-sheet narrative.
+
+**Post-1641 descent to Margaret Gurney → Henry Davy.** Armstrong continues: "After 1641 it went to **Margaret Gurney, his aunt**, who married Mr. Henry Davy, of Great Ellingham, whose sole daughter and heiress, Mary, married Sir Roger Potts, bart. of Great Ellingham and Mannington, who sold it to Mr. Francis Colman, of Norwich, the present lord."
+
+The "1641" trigger is Edward Gourney's August 1641 death (West Barsham chancel monument, see `research/places/west-barsham.md`). Edward's son Henry II inherited West Barsham (the senior seat); Great Ellingham, however, was diverted to **Margaret Gurney** — Edward's paternal aunt, daughter of G15 Henry Gurney, already named in the G15 fact-sheet child-table — who had married Henry Davy of Great Ellingham. Margaret's daughter Mary Davy married Sir Roger Potts, bart.; the Potts family sold the manor to Francis Colman of Norwich by Armstrong's 1781 visit.
+
+**The Great Ellingham rectory mediety follows the same chain.** Armstrong (vol. 8 continuation, p. ~261): "After the division of the Mortimer's estate this advowson was allotted to John Fitz-Ralph, as part of the inheritance of Margery Mortimer, his wife; and from that time it passed with the manor of Ellingham-hall, from Fitz-Ralph to Conyers, from them to the **Warners, so to the Gurnays, and Davys**, and after to the Potts, who sold it to Mrs. Windham." The "Warners → Gurnays" linkage is new — the Gurneys received the rectory mediety from a Warner predecessor (whose precise relationship to the Conyers line would require further checking), then onward Davys → Potts → Windhams.
+
+**Berryhall divergence in 1525.** Armstrong notes that at the 1525 division, "Berryhall went to the heirs of William De-Grey, of Merton, in right of Christian his wife, the daughter and co-heiress of Thomas Manning" — the Berryhall manor in Great Ellingham did not come to Anthony Gurney but went to the De-Grey of Merton line via a different Manning co-heiress, ending in 1474 with William De-Grey's death.[^v71-armstrong-great-ellingham]
+
+[^v71-armstrong-great-ellingham]: Mostyn John Armstrong, *The History and Antiquities of the County of Norfolk*, vol. 8 (Norwich, 1781), Shropham Hundred — Great Ellingham capital manor + rectory mediety entries. Internet Archive item `bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_8`. Source ID: `armstrong-norfolk-1781`.

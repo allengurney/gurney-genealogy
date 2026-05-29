@@ -46,8 +46,27 @@ Hugues V was the last "Hugues de Gournay" at the seat. His career maps onto the 
 
 Decorde preserves the regional epithet for the senior barons: *Chevaliers aux armes noires*, "knights of the black arms," from their sable (black) coat of arms. The epithet had passed into local memory by the nineteenth century and the post-1202 silver-knight overlay was understood as the heraldic mark of Capetian conquest. The black-arms tradition aligns with the earlier Eudes / Rollo black-shield foundation motif preserved in the seat file.[^decorde-armes-noires-topic]
 
-## Why this stays a topic, not a fact sheet
+## Holinshed 1577 -- mid-12th-c. La Ferte loss; Richard-I-era territorial markers; King-John-era Mountfort defection
 
+Raphael Holinshed's *laste volume of the Chronicles* (London, 1577), vol. 2 supplies three senior-line attestations across vol. 4 (the running division by reign).
+
+**Hugh de Gourney's castle "Fert" burned by Duke Henry of Normandy, mid-1150s (vol. 4 p. 364).** After Henry, Duke of Normandy, married Eleanor of Aquitaine, the French king made war on him; Henry retaliated by burning several castles, including one belonging to Hugh de Gourney named *Fert*: "Duke Henry entred into the territories of King Stephan, and brent certeine Castels that belonged to the sayde King, and also a Castell that belonged to Hugh de Gourney called Fert, but the French king tooke Vernon ..." The "Fert" reading most plausibly points to **La Ferte-en-Bray** (already a documented senior-collateral seat -- see `research/places/la-ferte-en-bray.md`). The Hugh in question is most parsimoniously **Hugh IV** (the post-Hugh-III senior baron, the Bec-educated figure already covered above in the Anderson Vol. II material).[^v73-holinshed-fert]
+
+**Hugh Gourney's lands as captivity site for Robert Earl of Leicester, Richard I era (vol. 4 p. 473).** "In the same season Robert Erle of Leicester, with a small companye of Souldiers, came unto the Castel of Passey, which Castel hee wanne ... and as he adventured himselfe somewhat unaduysedly in the landes of Hugh Gourney, he was taken prisoner ..." A late-12th-c. territorial-marker attestation: Hugh IV's Norman lands were a recognised zone of contested military movement during Richard I's conflict with Philip Augustus.[^v73-holinshed-leicester-captivity]
+
+**Hugh de Gourney's defection from King John -- the Mountfort delivery, 1203/4 (vol. 4 p. 557).** Holinshed credits Hugh with a stout month-long defence of Chateau Gaillard against the French king ("by the high valiancie of Hugh de Gourney the Captayne there, the French men were manfully beaten backe, and kept out for a month and more"), then says: "Hugh de Gourney revolteth from king John. And in the ende the sayde Hugh Gourney reuolted from his obedience, delivering also the **Castell of Mountforte** unto the Frenche King ..." This is **Hugh V** (forfeited 1205, d. 1214). The Chateau Gaillard defence and the eventual fall are already on the project's senior-line record (Farrer; Anderson Vol. II Book VII); the Mountfort delivery as a specific defection-act of Hugh V is new operational detail.[^v73-holinshed-mountfort]
+
+Holinshed also gives a Hugh-de-Gourney attestation in the Richard I Holy Land valorous-men list at vol. 4 p. 473; the same content is repeated at vol. 1 p. 158 of the anonymous *Complete History of England* (London, 1706), which adds nothing new but supplies a Hanoverian-era corroborating-citation source.[^v73-complete-history-1706-crusade]
+
+[^v73-holinshed-fert]: Raphael Holinshed, *The laste volume of the Chronicles of England, Scotlande, and Irelande, with their descriptions*, vol. 2 (London, 1577), vol. 4 p. 364. Verbatim extract in `sources/corpus_supplement/holinshed-1577-selected-gurney-references.md`. Source ID: `holinshed-chronicles-1577`.
+
+[^v73-holinshed-leicester-captivity]: Holinshed, *Chronicles* (1577), vol. 4 p. 473. Source ID: `holinshed-chronicles-1577`.
+
+[^v73-holinshed-mountfort]: Holinshed, *Chronicles* (1577), vol. 4 p. 557. Source ID: `holinshed-chronicles-1577`.
+
+[^v73-complete-history-1706-crusade]: *A Complete History of England, with the Lives of all the Kings and Queens thereof*, vol. 1 (London, 1706), p. 158. Hanoverian-era compilation; authorship of the early-medieval chapters unattributed. Source ID: `complete-history-england-1706-v1`.
+
+## Why this stays a topic, not a fact sheet
 Neither Hugues IV nor Hugues V is in the repo's direct line; the junction is at G32 Gerard, whose youngest son Walter G31 founds the Norfolk junior branch from which the published line descends. A topic file lets the place files (Gournay-en-Bray, Bellosanne, Gaillefontaine, Cottentray, Boshyon) crosslink to a single senior-line narrative without scattering it across collateral person files.
 
 ## Crosslinks
@@ -84,3 +103,27 @@ Neither Hugues IV nor Hugues V is in the repo's direct line; the junction is at 
 [^dcxxxviii-caen-fine]: Delisle and Berger, *Recueil des actes de Henri II*, vol. 2 (Paris, 1920), act DCXXXVIII at pp. 250–251. Charter dated 20 January 1183 at Caen. Source ID: `recueil-actes-henri-ii-delisle-berger-vol-2`.
 [^dccl-barbery]: Delisle and Berger, *Recueil des actes de Henri II*, vol. 2 (Paris, 1920), act DCCL at pp. 392–393. Charter dated 1182–1189 at Rouen. Source ID: `recueil-actes-henri-ii-delisle-berger-vol-2`.
 [^dcclii-sigy]: Delisle and Berger, *Recueil des actes de Henri II*, vol. 2 (Paris, 1920), act DCCLII at pp. 396–397. Charter dated 1185–1189 at Argentan; subscription of Walter of Coutances as archbishop of Rouen narrows to post-early-1185. Source ID: `recueil-actes-henri-ii-delisle-berger-vol-2`.
+
+## Armstrong 1781 — additional senior-collateral attestations
+
+Mostyn John Armstrong, *The History and Antiquities of the County of Norfolk* (1781), supplies four additional eighteenth-century attestations to the senior-collateral cluster already covered in this topic file.
+
+**Bastwick (Tunstead Hundred) — Henry I grant on Baynard rebellion (c. 1110–1115; G33 Hugh III).** Armstrong vol. 7: the Bastwick manor "was granted to Hugh de Gourney by Henry I. on the rebellion of lord Baynard, and by Julian, daughter and heiress of that family, came to William lord Bardolph; her husband." William Baynard's English honour was forfeited 1110; the Henry I grant to Hugh de Gourney is therefore datable c. 1110–1115. The recipient is most parsimoniously **G33 Hugh III**, who was raised at Henry I's court during minority per Orderic + the existing G33 companion. The eventual transmission to William Bardolph via Julian de Gournay matches the broader Bardolph-as-Gournay-heir pattern.[^v72-armstrong-bastwick-henry-i-1110]
+
+**Kimberley parallel to Bedingham — Stuteville / Gunnora marriage (Forehoe Hundred).** Armstrong vol. 4: the Kimberley lordship at the beginning of king John's reign was held by "Hugh de Gurnaco, or Gournay, a Norman, was possessed of it, and gave it to Nicholas de Stutevile with Gunnora, his daughter, in marriage; he was disseized of it at the time of the disseizing all the Normans from their lands, for their rebellion, which was in 1205, in the 7th of king John, who the next year directed his writ to the sheriff, to restore Nicholas de Stutevile to all his lands that Nicholas, his father, was disseized of." The 1206 restoration writ to the Stuteville son, the 1284 attestation that the Stuteville heir "held this town of the barony of Gournay," and the 1345 attestation that the Bardolph honour was "more rightly of Gournay" — independent senior-line attestations carried forward to the Edward III period via the Bardolph descent.
+
+The Kimberley parallel extends the Stuteville/Gunnora marriage already documented for Bedingham (Blomefield, Cantley/Bedingham; G33 companion) to a second Norfolk parish. The marriage carried two Norfolk manors at once.[^v72-armstrong-kimberley-stuteville-gunnora]
+
+**Cantley Uphall — Hugh de Gournay → Roger Botetourt 1229 (Loddon Hundred).** Armstrong vol. 1: "Uphall Manor took its rise from the grant of Hugh de Gournay, (capital lord of the town) to Roger Botetourt; which he held of Hugh in the 13th of Henry III. anno 1229." A second "Uphall" in the senior-line distribution pattern (the first being Harpley's Uphall transferred to Sir John de Gourney rector in 1325 — see `research/places/harpley.md`). The Cantley Uphall sub-infeudation predates the Harpley Uphall by approximately a century and reflects the senior-line continuing to fragment its Norfolk holdings through the mid-13th century. The grantor "Hugh de Gournay" at Cantley in 1229 (13 Henry III) is most parsimoniously a collateral or junior figure surviving from the 1205 forfeiture's aftermath.[^v72-armstrong-cantley-uphall-1229]
+
+**Langley Priory burial — "Sir Hugh Gourney" (collateral knight).** Armstrong vol. 7: among the burials in the church of Langley Priory are "Sir Robert Thurkelby, Sir Thomas Roscelyn, Sir Peter Roscelyn, **Sir Hugh Gourney**, Sir Jeffrey Say, Sir Henry [Wodehouse?], Sir Fulk Kerdeston, Sir William Kerdeston, and Margaret, his wife, who died in 1328..."
+
+A "Sir Hugh Gourney" buried at Langley Priory (Norfolk) in the late 13th / early 14th century is not currently identified in the project's senior or junior direct lines. Possibilities: (a) a younger son of one of the senior Hugues (IV or V); (b) a collateral figure of the la-Ferté line; (c) a knight of one of the Gurney junior-Norfolk subbranches who took the elder family name in religious-burial context. The Roscelyn / Say / Kerdeston co-burials place the burial in the Norfolk-knightly social network of the period. Carried forward as a research lead in `research/people/sir-hugh-gourney-langley-priory-burial.md`.[^v72-armstrong-langley-sir-hugh]
+
+[^v72-armstrong-bastwick-henry-i-1110]: Mostyn John Armstrong, *The History and Antiquities of the County of Norfolk*, vol. 7 (Norwich, 1781), Tunstead Hundred — Bastwick / D'Aggs entry. Internet Archive item `bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_7`. Source ID: `armstrong-norfolk-1781`.
+
+[^v72-armstrong-kimberley-stuteville-gunnora]: Armstrong, *Norfolk*, vol. 4 (Norwich, 1781), Forehoe Hundred — Kimberley parish entry. Internet Archive item `bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_4`. Source ID: `armstrong-norfolk-1781`.
+
+[^v72-armstrong-cantley-uphall-1229]: Armstrong, *Norfolk*, vol. 1 (Norwich, 1781), Loddon Hundred — Cantley parish entry, Uphall Manor section. Internet Archive item `bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_1`. Source ID: `armstrong-norfolk-1781`.
+
+[^v72-armstrong-langley-sir-hugh]: Armstrong, *Norfolk*, vol. 7 (Norwich, 1781), Tunstead / Walsham area — Langley Priory burial list. Internet Archive item `bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_7`. Source ID: `armstrong-norfolk-1781`.

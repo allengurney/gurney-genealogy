@@ -129,3 +129,13 @@ This is the third documented attestation for Thomas I, alongside the 1445 Hunsta
 Full Blomefield East Barsham extract preserved at [`sources/corpus_supplement/blomefield-norfolk-vol7-pp53-65-east-barsham.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/blomefield-norfolk-vol7-pp53-65-east-barsham.md).
 
 [^v61-blomefield-vol7-east-barsham-g21]: Francis Blomefield, *History of Norfolk*, vol. vii, "East-Barsham," pp. 53-65, [British History Online](https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp53-65). Source ID: `blomefield-norfolk`. Full extract at [`sources/corpus_supplement/blomefield-norfolk-vol7-pp53-65-east-barsham.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/blomefield-norfolk-vol7-pp53-65-east-barsham.md).
+
+---
+
+### 1440-04-02 East Barsham Woolterton's confirmation — fourth Norfolk attestation
+
+Mostyn John Armstrong, *The History and Antiquities of the County of Norfolk*, vol. 5 (Norwich, 1781), Gallow Hundred entry for East Barsham — Woolterton's Manor: "Thomas Gournay, esq. and John Hunt, son of William Hunt, of East Basham, confirmed to John Wode, of Briston, esq. and his heirs, &c. the manor of East Basham, formerly Roger de Woolterton's, and John de Bryston, of Bryston, esq. released to John Wode aforesaid, all his right in this manor, April 2, in the 18th of Henry VI. and Catherine, widow of William Hunt, released to him all her right."
+
+The 2 April 1440 (18 Henry VI) confirmation is the **fourth** dated active-adult attestation for Thomas I, adding a year between the 1434-35 Blomefield East Barsham entry already in this companion and the 1441 retinue service under the 13th Earl of Oxford. The five-attestation span 1415 – 1418 – 1434-35 – **1440** – 1441 – 1445 (the post-1444 1445 Hunstanton seal probably belongs to Thomas II, per DG-Supp's "Thomas I probably dead before 1444"). The recurring counter-party in the 1440 and 1447 East Barsham conveyances is the Hunt family — William Hunt's widow Catherine and her later second husband Robert Mompynson of Wisbich.[^v71-armstrong-1440-woolterton]
+
+[^v71-armstrong-1440-woolterton]: Mostyn John Armstrong, *The History and Antiquities of the County of Norfolk*, vol. 5 (Norwich, 1781), Gallow Hundred, East Barsham — Woolterton's Manor (full text quoted above). Internet Archive item `bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_5`. Source ID: `armstrong-norfolk-1781`.

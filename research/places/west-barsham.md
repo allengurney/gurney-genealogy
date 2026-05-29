@@ -118,3 +118,30 @@ That distinction is important enough to preserve explicitly, because otherwise t
 - None in cleanup pass 3b.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->
+
+## Armstrong 1781 — West Barsham church arms, chancel monument, 1373 Wauci → Gurney transfer, 1641–1661 sale window
+
+Mostyn John Armstrong, *The History and Antiquities of the County of Norfolk*, vol. 5 (Norwich, 1781), Gallow Hundred entry for West Barsham, supplies four specific findings for the parish.
+
+**1373 Wauci → Edmund Gurney transfer.** Armstrong: "Hugo de Wauci held this manor of the Earl Warren, and it remained with his descendants till the 47th of Edw. III, when it came to Edmund Gurney by marriage." The 47th of Edward III is 1373; the project's G23 Edmund Gurney fact-sheet establishes the marriage settlement of 100 marks p.a. by Catherine Wauncy's father in 1357 and the death of Sir Edmund de Wauncy (Catherine's brother) in 1372. Armstrong's 1373 transfer date is the seisin-conveyance date one year after Sir Edmund's death — sharpening the project's "after 1372" reading.
+
+**Eight-family impaled / quartered arms list at West Barsham church.** Armstrong: "The arms of Gurney were argent, a cross ingrailed, gules, and impaled the arms of Wauci, gules, three dexter hands erect, argent; also Calthorpe, Lovell, Holdich, Blennerhasset and Lewknor; also they impaled Jernegan, and sable, a chevron between three leopards heads, &c. probably Wentworth." The eight families correspond to:
+
+- **Wauci** — Catherine de Wauncy (wife of G23 Edmund Gourney).
+- **Calthorpe** — Anne Calthorpe (wife of G19 William Gurney IV; mother of G18 William V).
+- **Lovell** — Margaret Lovell (wife of G17 Anthony Gurney; brought Great Ellingham via the Lovell / Mortimer / Conyers / Spelman chain in 1525).
+- **Holdich** — Ellen Holdich of Ranworth (wife of G16 Francis Gurney).
+- **Blennerhasset** — Ellen Blennerhasset of Barsham (wife of G15 Henry Gurney).
+- **Lewknor** — Martha Lewknor of Denham (wife of Thomas Gurney III, G15's eldest son; mother of Edward Gourney d. 1641).
+- **Jernegan / Jerningham** — Margaret Jerningham of Somerleyton (wife of G20 Thomas II; the family was re-married to a generation later via Helen Holditch's c. 1560s second marriage).
+- **Wentworth (probable)** — "sable, a chevron between three leopards' heads." **No currently recorded Gurney-Wentworth marriage in the West Barsham line.** Open lead.
+
+The eight-family display gives an independent visual record of the family alliances preserved at the West Barsham church through to Armstrong's 1781 visit. Seven match already-known marriages; the eighth is a research lead carried forward to v72.
+
+**Edward Gourney chancel monument, d. August 1641.** Armstrong reproduces the brass-plate Latin epitaph: "Caducum hoc aeternat Marmor Edwardus Gourney, filius et heres Tho. Gourney Armig. et Marthe filie Edu. Lewkenor de Denham, in Com. Suff, Militis, obiit Aug. 1641." Translation: *"This marble eternalises the perishable Edward Gourney, son and heir of Thomas Gourney Esq. and of Martha daughter of Edward Lewkenor of Denham in the county of Suffolk, Knight; died August 1641."*
+
+Edward is the project's G15 Henry's grandson, the West Barsham heir who succeeded Henry G15 around 1615/16. His Aug 1641 death has not previously been in the project — the G15 Henry fact-sheet records his birth as 1608 and the eventual extinction of the line in 1661 in his son Henry II, but no date for Edward's own death. Armstrong supplies it.
+
+**1641–1661 Calthorpe sale window.** Armstrong: "Edmund died seised of it in the year 1641, and his son Henry sold it to the family of Calthorpe." Armstrong's "Edmund" is an editorial slip for "Edward" (the chancel monument names Edward). Edward's son Henry II therefore held West Barsham from 1641 to 1661 (the line's extinction); the Calthorpe purchase falls within that window. Post-Gurney descent: Calthorpes → Dr. Charles Morley MD (lord 1720) → Charles Morley jr. of Basham → John Balders, esq.[^v71-armstrong-west-barsham]
+
+[^v71-armstrong-west-barsham]: Mostyn John Armstrong, *The History and Antiquities of the County of Norfolk*, vol. 5 (Norwich, 1781), Gallow Hundred — West Barsham parish entry. Internet Archive item `bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_5`. Source ID: `armstrong-norfolk-1781`.

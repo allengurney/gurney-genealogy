@@ -87,3 +87,15 @@ This passage reinforces the working model already in this file: Hingham Gurney's
 - None in cleanup pass 3b.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->
+
+## Armstrong 1781 — Gurney's Manor 1572 lordship + post-1715 William Larwood successor
+
+Mostyn John Armstrong, *The History and Antiquities of the County of Norfolk*, vol. 4 (Norwich, 1781), Forehoe Hundred entry for Hingham, records that "Gurney's Manor was part of the great manor, granted to a younger branch of the family before the forfeiture; it continued always in the family of that name, residing at Barsham and Great Ellingham, in this county; **Henry Gurney was lord in 1572**; how it passed afterwards we do not find; but in 1715 it was owned by Mr. Larwood, of Norwich, merchant."
+
+Three points to record:
+
+- The "younger branch ... before the forfeiture" reading aligns with project standing-fact #2 — the junior Norfolk branch through G31 Walter de Gournay, sub-enfeoffed before Hugh V's 1205 forfeiture.
+- "Henry Gurney was lord in 1572" corroborates Blomefield's *History of Norfolk* vol. ii (1805), Forehoe entry for Hingham (already cited at G15 Henry's fact-sheet n3). G15 Henry held Hingham-Gurneys among his Norfolk tenures.
+- The **post-Gurney successor at Hingham — Mr. William Larwood of Norwich, merchant, by 1715** — is new. Armstrong notes only the surname Larwood; the merchant's full identification, the date of his acquisition, and the chain by which Hingham left the Gurneys c. 1641–1715 would require further work in the Larwood family records or in 17th-century Norfolk court rolls. Worth a research lead.[^v71-armstrong-hingham]
+
+[^v71-armstrong-hingham]: Mostyn John Armstrong, *The History and Antiquities of the County of Norfolk*, vol. 4 (Norwich, 1781), Forehoe Hundred — Hingham parish entry, Gurney's Manor section. Internet Archive item `bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_4`. Source ID: `armstrong-norfolk-1781`.

@@ -77,3 +77,11 @@ The church is especially important because the old Gournay stronghold and La Tou
 - Keep broad seigneurial and frontier-honor narrative in `gournay-en-bray.md`.
 
 <!-- GENERATED:PLACE-REGISTRY:END -->
+
+## Armstrong 1781 — Saint-Hildevert tithe-gift pattern extended to Hardingham church
+
+Mostyn John Armstrong, *The History and Antiquities of the County of Norfolk*, vol. 8 (Norwich, 1781), Mitford Hundred entry for the Hardingham / Swathing cluster, records that "Hugh [de Gurney] gave to the chapter of the church of St. Ildebert, of Gourney, in Normandy, the said church [i.e. Hardingham church]." The full passage is preserved at `research/places/hardingham.md` under the Armstrong 1781 section.
+
+This extends the project's existing Saint-Hildevert tithe-gift pattern — already documented for **Caister** and **Cantley** (Norfolk) via Potin 1842 and preserved on this place file as the senior-line collegiate-church relationship — to a **third Norfolk church**. Hugh's pattern was systematic: take English manorial advowsons and assign them to the Gournay-en-Bray collegiate chapter. Hardingham church joins Caister and Cantley as a documented Saint-Hildevert tithe-recipient, with the qualification that Hardingham was a junior-branch holding (G31 Walter's Swathings/Cranworth/Letton/Hardingham cluster) — meaning Hugh's tithe-gift discipline operated across both the senior and junior English-lands portfolios.
+
+The "Hugh" grantor in Armstrong's Hardingham passage is most parsimoniously **Hugh V de Gournay** (the senior-line baron forfeited 1205), giving the gift in the closing decade of pre-Capetian-conquest unity. The grant was made at "Ferretre" — most plausibly **La Ferté** (Normandy), the same la-Ferté collateral seat documented elsewhere on this place file. Source: `armstrong-norfolk-1781`; cross-reference: `research/places/hardingham.md`.

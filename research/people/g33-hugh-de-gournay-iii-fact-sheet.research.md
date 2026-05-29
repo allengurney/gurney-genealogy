@@ -276,3 +276,13 @@ The FS structured table over-shares ten children (Hugues IV, Adelaide, Judith, O
 | Histoireeurope.fr (Manassès of Reims hypothesis) | (URL) |
 | Geni / WikiTree Gournay-10 | (URL) |
 | Lorraine *Histoire de Lorraine* (Calmet) — Maison de Gournay genealogy via M. Palain de Mongnigny + 1674 Metz judgment | `histoire-de-lorraine-calmet` (proposed) |
+
+---
+
+## Armstrong 1781 — Bastwick manor granted by Henry I on the Baynard rebellion
+
+Mostyn John Armstrong, *The History and Antiquities of the County of Norfolk*, vol. 7 (Norwich, 1781), Tunstead Hundred entry for the Bastwick / D'Aggs manor, records that the lordship "was granted to Hugh de Gourney by Henry I. on the rebellion of lord Baynard, and by Julian, daughter and heiress of that family, came to William lord Bardolph; her husband. Thomas de Ages, or D'aggs, was lord in the 3d of Edward III. held of Thomas lord Bardolph."
+
+The William Baynard rebellion is the 1110 episode in which Baynard's English honour was forfeited to the Crown for treason and redistributed. The Henry I grant to "Hugh de Gourney" is therefore datable to c. 1110-1115. The recipient is most parsimoniously **G33 Hugh III** (b. c. 1075, fl. c. 1100-1135) — placing him in the Henry I tenant-in-chief grant circle in the years immediately after his minority court-fosterage (per the existing G33 companion's "raised at the king's court during minority" entry). The eventual transmission to William Bardolph via Julian de Gournay matches the existing Bardolph-as-Gournay-heir descent already in `research/topics/senior-gournay-baron-line-collateral.md`.[^v71-armstrong-bastwick]
+
+[^v71-armstrong-bastwick]: Mostyn John Armstrong, *The History and Antiquities of the County of Norfolk*, vol. 7 (Norwich, 1781), Tunstead Hundred — Bastwick / D'Aggs entry. Internet Archive item `bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_7`. Source ID: `armstrong-norfolk-1781`.

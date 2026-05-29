@@ -40,9 +40,58 @@ The Patent and Fine Rolls of Henry IV preserve four primary-source moments from 
 [^cpr-1399-1400-matthew-gournay-commissions]: *Calendar of the Patent Rolls Preserved in the Public Record Office, Henry IV, A.D. 1399-1401*, vol. 1 (London: HMSO, 1903), pp. 210 (commission of array, Somerset, 18 December 1399), 267 (Frome treasons/insurrections inquiry, 25 February 1400), 208 (300 marks/year Exchequer grant, 12 March 1400), 564 (commission of the peace, Somerset, 5 July 1400). Discovered via the girders.net Medieval Gurneys compilation. Source ID: `cpr-henry-iv-1399-1401`.
 [^cfr-1406-matthew-gournay-dead-by]: *Calendar of the Fine Rolls Preserved in the Public Record Office, Henry IV, A.D. 1405-1413*, vol. 13 (London: HMSO, 1934), p. 78, recording that Sir Matthew de Gournay had died by 5 November 1406. Source ID: `cfr-henry-iv-1405-13`.
 
-## Crosslinks
+### Tyrwhitt 1798 -- the verbatim Leland epitaph at Stoke-sub-Hamdon
 
+Tyrwhitt's notes to Chaucer's *Canterbury Tales* (London, 1798), vol. ii p. 392, in the note to *General Prologue* v. 43 (the Knight), prints the full French Leland-derived epitaph from the Stoke-sub-Hamdon monument:
+
+> Icy gist le noble et vaillant Chivaler Matheu de Gourney &c. -- qui en sa vie fu a la bajaille de Benamaryn, et ala apres a la siege d'Algezire sur les Sarazines et aussi a les batailles de L'Escluse, de Crefcy, de Deyngeneffe, de Peyteres, de Nazare, d'Ozrey et a plusours autres batailles et affeges en les quex il gaigna noblement graunt los et honour --, He died in 1406, at the age of 96.
+
+The eight named campaigns map to: **Benamaryn** = Marinid war c. 1340 (Castile-Marinid Battle of Rio Salado 30 Oct 1340); **siege d'Algezire** = siege of Algeciras 1342-44 under Alfonso XI of Castile; **L'Escluse** = Sluys 24 June 1340; **Crefcy** = Crecy 26 August 1346; **Deyngeneffe** = Winchelsea / Espagnols-sur-Mer 29 August 1350 (Leland-side garbled form); **Peyteres** = Poitiers 19 September 1356; **Nazare** = Najera 3 April 1367; **Ozrey** = Auray 29 September 1364. The closing "et a plusours autres batailles et affeges" acknowledges the eight named campaigns as an exemplary subset, not exhaustive.
+
+Tyrwhitt frames Sir Matthew as a near-contemporary of Chaucer's fictional Knight ("died in 1406, at the age of 96 ... Why Chaucer should have chosen to bring his Knight from Alexandria and Lettowe rather than from Cresfsy and Poitiers, is a problem difficult to resolve"). The age 96 implies a birth year of c. 1310 -- consistent with the project's identification of Sir Matthew as the fourth son of the regicide Sir Thomas de Gourney. Tyrwhitt's text is at one remove from Leland's *Itinerary* (vol. iii p. xi), one step closer than Pettigrew's 1871 paraphrase.[^v73-tyrwhitt-matheu-epitaph]
+
+### Holinshed 1577 -- Sir Mathew Gourney in a procedural / legal role under the king
+
+Holinshed (vol. 4 p. 1118) records Sir Mathew Gourney delivering a procedural ruling against the Earl of Salisbury in a Salisbury-vs-Morley protestation dispute: Salisbury cannot retroactively add a protestation that was not in his first answer.
+
+> Sir Mathew Gourney sitting under the king, said to the Erle of Salisbury, that sith hee had made no such protestation in his first answer ... he was now past the aduantage thereof ...
+
+A new later-career office attestation for Sir Matthew beyond the existing Pettigrew + CPR Henry IV military / commission-of-the-peace material. Suggests Sir Matthew held standing or judicial authority in a high-level proceeding -- consistent with the standing-counsel pattern of his post-1399 Henry IV commissions for Somerset already documented above.[^v73-holinshed-sir-matheu-procedural]
+
+### Holinshed 1577 and Complete History 1706 -- corroborations of already-known Sir Matthew campaign records
+
+Holinshed independently attests Sir Mathew at Auray (vol. 4 p. 884, in the second division under Clisson and Daubreticourt) and on the 1381 Portugal expedition under Edmund Earl of Cambridge (vol. 4 p. 1003, "with fiue hundred armed men, and fiue hundred Archers, to aide the king of Portugall against the king of Castile").[^v73-holinshed-sir-matheu-auray-portugal] The anonymous *Complete History of England* (London, 1706), vol. 1 p. 244, repeats the same Portugal-expedition content (with the spelling "Marthew" for Mathew); pure Hanoverian-era corroboration, no new fact.[^v73-complete-history-1706-portugal]
+
+[^v73-tyrwhitt-matheu-epitaph]: Thomas Tyrwhitt, ed., *The Canterbury Tales of Chaucer*, vol. ii (London, 1798), note to General Prologue v. 43 at p. 392, drawing on John Leland's *Itinerary*, vol. iii p. xi. Verbatim transcription and gloss at `sources/corpus_supplement/tyrwhitt-canterbury-tales-1798-v2-matheu-gourney-epitaph.md`. Source ID: `tyrwhitt-canterbury-tales-1798-v2`.
+
+[^v73-holinshed-sir-matheu-procedural]: Raphael Holinshed, *Chronicles* (1577), vol. 4 p. 1118. Verbatim extract in `sources/corpus_supplement/holinshed-1577-selected-gurney-references.md`. Source ID: `holinshed-chronicles-1577`.
+
+[^v73-holinshed-sir-matheu-auray-portugal]: Holinshed, *Chronicles* (1577), vol. 4 pp. 884 (Auray) and 1003 (Portugal). Source ID: `holinshed-chronicles-1577`.
+
+[^v73-complete-history-1706-portugal]: *A Complete History of England*, vol. 1 (London, 1706), p. 244. Source ID: `complete-history-england-1706-v1`.
+
+## Crosslinks
 - `research/topics/anderson-yvery-harpetre-gournay-collateral.md`
 - `research/places/weare-somerset.md`
 
 [^pettigrew-somerset-place]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 210-216, [Google Books](https://www.google.com/books/edition/Collectanea_Archaeologica/xjcGAAAAQAAJ). Source ID: `pettigrew-collectanea-house-gournay-1871`.
+
+## Rudder 1779 -- Gloucestershire-side descent of Almondsbury parish manors (Over, Redwick, Gaunt's Urcot)
+
+Samuel Rudder's *A New History of Gloucestershire* (Cirencester, 1779) supplies a Gloucestershire-side independent witness to the Maurice-de-Gaunt -> Robert/Anselm/John de Gourney -> Elizabeth -> John ap Adam descent already documented from the Somerset side by Pettigrew 1871. The relevant material lies in the Almondsbury parish entry; the verbatim extracts and a cross-reference table are preserved at `sources/corpus_supplement/rudder-gloucestershire-1779-gurney-extracts.md`.
+
+**Over (Almondsbury, Langley + Swineshead Hundred).** Rudder gives the post-Domesday descent of Over: "Maurice de A[wdele / Gaunt] died seized of Oure 14 H. [III] [1229/30], which afterwards came to Robert de Gourney, his sister's son, who died seized of it in the fifty-third year of that reign [53 H. III = 1268/9]. Anselm de Gourney held Over 14 E. 1 [1285/6], and John de Gourney died seized thereof 19 E. 1 [1290/1]. From him it went to John ap Adam, who had married Elizabeth, the daughter and heir of John de Gourney. Thomas ap Adam, his son, sold it to Thomas lord Berkeley, and Margaret his wife, 4 E. 3 [1330/1]." The John-de-Gourney d. seized 19 Edw. I = 1290/1 dating, applied specifically to Over, is **new** -- Pettigrew does not give this Gloucestershire-side waypoint.[^v73-rudder-over]
+
+**Redwick (Almondsbury proper, p. 493).** Rudder gives the descent of Redwick, a sub-member of the great Westbury manor: "Maurice de Gaunt died seized of the manor of Redwick, with markets and fairs, 6 H. 3 [1221/2], as did Robert de Gourney 53 H. 3 [1268/9], whose son Anselm was succeeded by John de Gourney, whose daughter, Elizabeth, was married to John Ap Adam, (sometimes called John de Badenham), which John and Elizabeth levied a fine of the manors of Redwick and Northwick 25 E. 1 [1296/7]." The Maurice de Gaunt d. seized of Redwick 6 H. III (1221/2) is earlier than the 14 H. III date applied to Over; the John ap Adam / Elizabeth fine of Redwick + Northwick 25 Edw. I (1296/7) dates the Elizabeth -> John ap Adam transmission for these specific manors. The alternative surname "John de Badenham" for John ap Adam is preserved verbatim from Rudder.[^v73-rudder-redwick]
+
+**Gaunt's Urcot (Almondsbury, Thornbury Hundred) and the Bristol Bilswick / Gaunt's Hospital foundation -- a named-actor conflict with Pettigrew.** Rudder says: "This manor anciently belonged to Gilbert de Gaunt, whose sister's son and heir, **Richard de Gourney**, founded an hospital in his manor-house called Bilswick, and gave this manor to it; which hospital being dissolved, the manor of Gaunt's Urcot was granted to the city of Bristol, for public uses, 33 H. 8 [1541/2], and the mayor and commonalty of that city are the present lords of this manor. The Gaunt's hospital was originally founded for a hundred poor people. It stands within the liberties of the city of Bristol, was refounded in the reign of queen Elizabeth, and now entertains the blue-coat-boys."
+
+Pettigrew 1871 (the existing Somerset-side narrative captured at the top of this file) attributes the foundation of the same Bristol Bilswick hospital -- known as Gaunt's Hospital, later St Mark's, later the Bristol Bluecoat school -- to **Robert de Gournay II**, with the further note that Robert's heart was buried at the Friars Preachers in Bristol and his body in St Mark's Chapel itself. Rudder 1779 gives the founder as Richard de Gourney; the founder-name conflict is **preserved as a documented antiquarian disagreement** pending primary-record check. Both writers are 18th- and 19th-c. compilations; the underlying primary record (the Gaunt's Hospital foundation charter, and the names "Richard" / "Robert" in surviving Bristol cartulary material) is the only authoritative tie-breaker. Plausible reconciliations include (a) Rudder confused Richard with Robert, the more famous mid-13th-c. principal Gournay heir; (b) Pettigrew telescoped Robert and an earlier or younger Richard; (c) two distinct foundation acts (an original Richard-de-Gournay foundation later refounded or substantially endowed by Robert II) collapsed in both compilations. **Availability tag: Available online -- archive.org for both Rudder and Pettigrew; the Gaunt's Hospital foundation charter survives in the Berkeley / Bristol cartulary material and would resolve the conflict.**[^v73-rudder-gaunts-urcot]
+
+These three Almondsbury extracts together constitute an **independent Gloucestershire-side 1779 witness** to Pettigrew's Somerset-side senior-collateral reconstruction, adding two specific Gloucestershire dated waypoints (John de Gourney d. 19 Edw. I; John ap Adam + Elizabeth fine of Redwick + Northwick 25 Edw. I) and one named-actor conflict (Bristol Gaunt's Hospital founder).
+
+[^v73-rudder-over]: Samuel Rudder, *A New History of Gloucestershire* (Cirencester, 1779), Almondsbury parish entry, tithing of Over (Langley + Swineshead Hundred). Internet Archive item `bim_eighteenth-century_a-new-history-of-glouces_rudder-samuel_1779`. Verbatim extract in `sources/corpus_supplement/rudder-gloucestershire-1779-gurney-extracts.md`. Source ID: `rudder-gloucestershire-1779`.
+
+[^v73-rudder-redwick]: Rudder, *Gloucestershire* (1779), Almondsbury parish entry, Redwick section, p. 493. Source ID: `rudder-gloucestershire-1779`.
+
+[^v73-rudder-gaunts-urcot]: Rudder, *Gloucestershire* (1779), Almondsbury parish entry, Gaunt's Urcot section (Thornbury Hundred). Compare T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London, 1871), pp. 210-216, which gives the same Bilswick / Gaunt's Hospital foundation under Robert de Gournay II rather than Richard de Gourney. Source IDs: `rudder-gloucestershire-1779`, `pettigrew-collectanea-house-gournay-1871`.
