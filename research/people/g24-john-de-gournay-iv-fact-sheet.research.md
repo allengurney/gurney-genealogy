@@ -24,6 +24,10 @@ The vigil of St. Laurence = 9 August 1354. This is the **first surviving manoria
 ### DG-II p. 356 — the 1331 deed
 2026-04-18 — John IV first appears in the 1331 deed of his great-uncle Rector John: "Son and heir of John de Gurney and Joan his wife, occurs in the deed of John, rector and patron of Harpley, 6th Edward III (1331)." This means John IV was alive (and presumably a child or young man) in 1331, and was recognized as the heir in the Rector's deed.
 
+The Rector independently surfaces in the Norfolk feet of fines: Rye's calendar, Part II, entry 489, names "John Gurnay, parson of the church of Harpele [Harpley]" as a querent.[^rye-fof-rector-john-harpley] This is an attestation of the Rector's Harpley incumbency and property activity beyond Daniel Gurney's account, and reinforces the picture of the Harpley advowson and manor sitting under Gurney control across the 1331–1354 transition from the Rector to John IV.
+
+[^rye-fof-rector-john-harpley]: Walter Rye, *A Short Calendar of the Feet of Fines for Norfolk*, Part II (Edward II–Richard III) (Norwich: Goose, 1886), entry 489 ("John Gurnay, parson of the church of Harpele"); Internet Archive `ashortcalendarf00ryegoog`. Source ID: `rye-feet-of-fines-norfolk`.
+
 ### No wife named
 2026-04-18 — Confirmed negative across all sources: DG-I, DG-II, DG-Supp, Blomefield (Harpley entry) — no wife is named for John IV. His son Edmund married Katherine de Wauncy, which is the pivotal marriage, but John IV's own wife is unknown.
 

@@ -1746,6 +1746,17 @@
       "validationPath": "sources/validations/bho-ipm-henry-iv-vol19-gournay-johnv.md",
       "notes": "Inquisition post mortem of John Gournay (Gurney) = Sir John V, entries 489-494 (TNA C 137/70/6). Writ 16 Feb 1409; inquisitions East Rudham 26 Mar, Holt 27 Mar, Attlebridge 28 Mar 1409; died 4 Dec 1408; heir Edmund his son aged 10 (b. c.1398); jurors found he 'held nothing in Norfolk' (nothing in chief of the Crown). Independent corroboration of Daniel Gurney Supplement Note 121; explains the absence of a royal IPM for Edmund G23 and the thin royal footprint of the West Barsham line. Resolves leads L-33/L-37."
     },
+    "rye-feet-of-fines-norfolk": {
+      "shortTitle": "Rye, Short Calendar of the Feet of Fines for Norfolk (Parts I-II)",
+      "citation": "Walter Rye, ed., A Short Calendar of the Feet of Fines for Norfolk. Part I: Richard I-Edward I (Norwich: Goose, 1885); Part II: Edward II-Richard III (Norwich: Goose, 1886).",
+      "archive": "Internet Archive",
+      "url": "https://archive.org/details/ashortcalendarf00ryegoog",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/rye-feet-of-fines-norfolk.md",
+      "notes": "Calendar of Norfolk feet of fines. Part I (Internet Archive ashortcalendarf02ryegoog) = Richard I-Edward I; Part II (ashortcalendarf00ryegoog) = Edward II-Richard III. Gurnay/Gurney appearances include: Robert Gurnay of Parva Cressingham (Pt II entry 64 = the 1405 fine v. Edward Howard, no parentage recital); John Gurnay parson of Harpley (Pt II entry 489 = the Rector John); William fil. Philip de Gurnay and Elena (Pt II entry 146); and early-reign entries (Hugh de Gurnay; William de Gurnay v. Ingaldesthorp; John de Gurnay v. Sarra wife of Roger de Cressingham; Gurney of the manor of Saxthorpe). Calendar abstracts only; consult AALT CP 25/1 scans for the manuscript image and exact file/number."
+    },
     "cleveland-battle-abbey-roll-v2-gurnay": {
       "shortTitle": "Cleveland, Battle Abbey Roll - Gurnay",
       "citation": "Cleveland, Duchess of. The Battle Abbey Roll, with Some Account of the Norman Lineages. Vol. 2. London: John Murray, 1889.",
