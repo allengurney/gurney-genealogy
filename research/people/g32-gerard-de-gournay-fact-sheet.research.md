@@ -133,9 +133,15 @@ The DCCXLIV charter is the primary-source corroboration that the Écouché tenur
 
 DG-Supp Note 17 (pp. 735–736) preserves the full Latin charter from the Chartulary of St-Wandrille (Caux archives Seine-Inférieure, f. 314, piece D, II, VI). Gerard is named as the lord whose assent (*annuente Girardo de Gournai*) was required for a land grant by Turchetillus, Willelmus, Godfridus, and "Hugo filius ejus" to the church of Saint-Wandrégisile at "la Corberere." The grantors and their heirs were admitted to the fraternity and society of the church, with right to enter as monks.
 
-### 2.12 Gerard's seal — physical evidence
+### 2.12 Gerard's *signum* — the located Charter XCIV (2026-05-29)
 
-DG-Supp Note 16 (p. 735): "Signum Girardi de Gornaco" preserved in the Cartulary of La Trinité de Rouen (ed. Deville, *Tome III de la collection des Cartulaires de France*, Charter No. 94). The charter itself has not been re-located by the repo; the cartulary edition is publicly accessible.
+DG-Supp Note 16 (p. 735) recorded "Signum Girardi de Gornaco" in the Cartulary of La Trinité de Rouen (ed. Deville, *Tome III de la Collection des cartulaires de France*, Charter No. 94), but noted the charter "had not been re-located by the repo." It has now been located and read (lead L-49): Deville's edition is on the Internet Archive (`cartulairedelab00frangoog`), the act standing as **Charter XCIV** at *Chartularium* p. 168. It is a grant by **Richard de Redvers** to the abbey of the Holy Trinity of the church and tithe of a vill (Latin *Opimensis*), Abbot Walter and the brethren paying him 15 *libri*; the attestation clause reads:
+
+> *"Signum Ricardi de Rethvers. Signum Girardi de Gornaco. Signum Hugonis de Bellebeuf. Testes ex nostris: Ricardus, senescal; Bernardus, cocus."*[^deville-charter-94]
+
+The "signum" is therefore a **subscription / attestation mark in the witness clause** — Gerard subscribing as a magnate witness to Richard de Redvers's benefaction, alongside Hugh de Bellebeuf — **not a described pictorial seal**; the earlier "seal / physical evidence" framing should be read in that light. The act carries no internal date but belongs to Abbot Walter's tenure and to Richard de Redvers's lifetime (d. 1107), consistent with Gerard's floruit in the late-1090s / early-1100s window before his death after 1104. The pairing with Richard de Redvers — one of the foremost Anglo-Norman magnates under Henry I — also places Gerard squarely among the first rank of the cross-Channel baronage.
+
+[^deville-charter-94]: Achille Deville, ed., *Cartulaire de l'abbaye de la Sainte-Trinité du Mont de Rouen* (in *Collection des cartulaires de France*), Charter XCIV, *Chartularium* p. 168; Internet Archive `cartulairedelab00frangoog`. Co-signatories Richard de Redvers and Hugh de Bellebeuf; abbey witnesses Richard the seneschal (*senescal*) and Bernard the cook (*cocus*). Resolves lead L-49 — the charter DG-Supp Note 16 had been unable to re-locate. Source ID: `deville-cartulaire-sainte-trinite-rouen`.
 
 ### 2.13 c. 1125 — the William de Britolio dispute
 

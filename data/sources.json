@@ -1757,6 +1757,28 @@
       "validationPath": "sources/validations/rye-feet-of-fines-norfolk.md",
       "notes": "Calendar of Norfolk feet of fines. Part I (Internet Archive ashortcalendarf02ryegoog) = Richard I-Edward I; Part II (ashortcalendarf00ryegoog) = Edward II-Richard III. Gurnay/Gurney appearances include: Robert Gurnay of Parva Cressingham (Pt II entry 64 = the 1405 fine v. Edward Howard, no parentage recital); John Gurnay parson of Harpley (Pt II entry 489 = the Rector John); William fil. Philip de Gurnay and Elena (Pt II entry 146); and early-reign entries (Hugh de Gurnay; William de Gurnay v. Ingaldesthorp; John de Gurnay v. Sarra wife of Roger de Cressingham; Gurney of the manor of Saxthorpe). Calendar abstracts only; consult AALT CP 25/1 scans for the manuscript image and exact file/number."
     },
+    "farrer-church-heraldry-norfolk": {
+      "shortTitle": "Farrer, Church Heraldry of Norfolk",
+      "citation": "Edmund Farrer, The Church Heraldry of Norfolk: A Description of all Coats of Arms on Brasses, Monuments, Slabs, Hatchments, &c., now to be found in the County (Norwich: Goose, 1885-1893).",
+      "archive": "Internet Archive",
+      "url": "https://archive.org/details/churchheraldryof01farr",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/farrer-church-heraldry-norfolk.md",
+      "notes": "Heraldic survey of Norfolk church arms. Vol. 1 (Internet Archive churchheraldryof01farr / churchheraldryn01farrgoog) and vol. 2 (churchheraldryn03farrgoog / churchheraldryn00farrgoog) consulted. Gournay arms (Argent, a cross engrailed gules) recorded at West Barsham (chancel brass of Edward Gournay d.1641) and at Harpley (with Blomefield manorial note, John de Gournay lord 35 Edw. I); West Barsham also shows De Warenne (chequy or and azure) in the East window. A modern Gurney monument (vol. 1) quarters Gurney + the 'Gournay ancient coat' (paly of six, or and azure) + De Warenne. Great Ellingham not present in vols 1-2 examined."
+    },
+    "deville-cartulaire-sainte-trinite-rouen": {
+      "shortTitle": "Deville, Cartulaire de la Sainte-Trinite du Mont de Rouen (1840)",
+      "citation": "Achille Deville, ed., Cartulaire de l'abbaye de la Sainte-Trinite du Mont de Rouen, bound with B. Guerard, Cartulaire de l'abbaye de Saint-Bertin, in Collection des cartulaires de France (Paris: Crapelet, 1840).",
+      "archive": "Internet Archive",
+      "url": "https://archive.org/details/cartulairedelab00frangoog",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/deville-cartulaire-sainte-trinite-rouen.md",
+      "notes": "Charter XCIV (94), Chartularium p. 168: Richard de Redvers' gift to the Holy Trinity of the church and tithe of a vill (Opimensis), Abbot Walter and the brethren paying him 15 livres. Attestation clause names 'Signum Girardi de Gornaco' (Gerard de Gournay, G32) with Hugh de Bellebeuf, plus the abbey's witnesses Richard the seneschal and Bernard the cook. The Gournay mark is a 'signum' (subscription), not a described pictorial seal. Late 11th / early 12th c. (Abbot Walter's tenure; Richard de Redvers d. 1107). Resolves lead L-49."
+    },
     "cleveland-battle-abbey-roll-v2-gurnay": {
       "shortTitle": "Cleveland, Battle Abbey Roll - Gurnay",
       "citation": "Cleveland, Duchess of. The Battle Abbey Roll, with Some Account of the Norman Lineages. Vol. 2. London: John Murray, 1889.",
