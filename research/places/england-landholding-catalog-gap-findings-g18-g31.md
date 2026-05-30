@@ -259,6 +259,22 @@ The second online pass improved the evidence most for **Hellesdon**, **Pockthorp
 
 ---
 
+## Rye's Feet of Fines — early Gurnay entries (attribution open, 2026-05-29)
+
+Walter Rye's *Short Calendar of the Feet of Fines for Norfolk* (Parts I–II) yields several brief Gurnay/Gournay fine entries that cannot be pinned to a single direct ancestor from the calendar text alone. They are gathered here — the cross-cutting landholding layer — pending closer dating against the G24–G31 floruits; each is a one-line calendar abstract, not the full fine.[^rye-fof-early-cluster]
+
+- **"Gurney of the manor of Saxthorp"** (Part I, 13th c.) — an early Gurnay association with **Saxthorpe / Loundhall**, the manor later held by the Rector John and Sir John V (d.1408); this entry predates the Rector and may signal an earlier family tenure there.
+- **"John de Gurnay v. Sarra, wife of Roger de Cressingham"** (Part I, entry 1059, 13th c.) — the only 13th-century direct-line John is **G27 Sir John de Gournay I** (fl. c. 1240–1280), the most plausible referent, though the calendar entry does not confirm identity.
+- **"William de Gurnay" v. Thomas de Ingaldesthorp** (Part I, entry 874, 13th c.) — fits the **G28 William II** (fl. c. 1210–1250) or **G26 Sir William III** (fl. c. 1260–1300) window; not distinguishable on the entry alone.
+- **Hugh de Gurnay** entering a claim concerning land at Carleton (Part I, 13th c.) — no Hugh sits in the 13th-century direct line (the Hughs are the Norman G33–G36), so most likely a collateral.
+- **"William, son of Philip de Gurnay, and Elena his wife"** (Part II, entry 146, Edward II era, early 14th c.) — no "Philip" appears as a father in the documented direct line; treat as a collateral Gurnay.
+
+These complement the **1405 Little Cressingham Robert Gurnay fine** (Part II entry 64) analysed in the [G22 Robert companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g22-robert-gournay-fact-sheet.research.md) (no parentage recital; does not advance the G22 identification), and the **Rector John "parson of Harpley" fine** (Part II entry 489) recorded on the [G24 companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g24-john-de-gournay-iv-fact-sheet.research.md).
+
+[^rye-fof-early-cluster]: Walter Rye, ed., *A Short Calendar of the Feet of Fines for Norfolk*, Part I: Richard I–Edward I (1885) and Part II: Edward II–Richard III (1886); Internet Archive `ashortcalendarf02ryegoog` (Pt I) and `ashortcalendarf00ryegoog` (Pt II). Calendar abstracts only; consult AALT CP 25/1 scans for the manuscript fines and exact references. Source ID: `rye-feet-of-fines-norfolk`.
+
+---
+
 ## Footnotes
 
 [^g23-north-barsham]: `research/people/g23-edmund-gurney-fact-sheet.research.md`, "Norwich civic counsel and North Barsham corroboration" and landholding notes. Underlying source: Francis Blomefield, "Gallow and Brothercross Hundreds: North-Barsham," *History of Norfolk*, vol. 7, pp. 47-52. Source ID: `blomefield-norfolk`.
