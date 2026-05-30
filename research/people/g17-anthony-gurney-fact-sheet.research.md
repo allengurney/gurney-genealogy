@@ -6,7 +6,11 @@ Research companion for `g17-anthony-gurney-fact-sheet.md`. See `.claude/rules/re
 
 ## Working Notes
 
-*No entries yet.*
+### 2026-05-29 — Visitation of Norfolk corroboration
+
+The Heralds' *Visitations of Norfolk, 1563/1589/1613* (Harleian Society vol. 32, p. 141) head the West Barsham Gurney pedigree with **Anthony Gurney**, father of **Francis of West Barsham** (G16, m. Ellen Holdich of Ranworth) and ancestor of **Henry of Great Ellingham** (G15) — an additional heraldic witness placing Anthony at the head of the recorded Tudor descent. The visitation does not repeat his Margaret Lovell marriage or his death in 1555/6 (Blomefield supplies those).[^vis-norfolk-g17]
+
+[^vis-norfolk-g17]: Walter Rye, ed., *The Visitations of Norfolk, 1563, 1589 and 1613* (Harleian Society, vol. 32, 1891), p. 141; Internet Archive `visitacionievisi32ryew`. Source ID: `visitations-norfolk-harleian-32`.
 
 ---
 

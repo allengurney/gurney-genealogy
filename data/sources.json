@@ -1779,6 +1779,17 @@
       "validationPath": "sources/validations/deville-cartulaire-sainte-trinite-rouen.md",
       "notes": "Charter XCIV (94), Chartularium p. 168: Richard de Redvers' gift to the Holy Trinity of the church and tithe of a vill (Opimensis), Abbot Walter and the brethren paying him 15 livres. Attestation clause names 'Signum Girardi de Gornaco' (Gerard de Gournay, G32) with Hugh de Bellebeuf, plus the abbey's witnesses Richard the seneschal and Bernard the cook. The Gournay mark is a 'signum' (subscription), not a described pictorial seal. Late 11th / early 12th c. (Abbot Walter's tenure; Richard de Redvers d. 1107). Resolves lead L-49."
     },
+    "visitations-norfolk-harleian-32": {
+      "shortTitle": "Visitations of Norfolk 1563/1589/1613 (Harleian Soc. 32)",
+      "citation": "Walter Rye, ed., The Visitacion of Norfolk, made and taken by William Hervey, Clarencieux, anno 1563, enlarged with another visitacion made by Clarenceux Cooke; with many other descents (Harleian Society, vol. 32, 1891).",
+      "archive": "Internet Archive",
+      "url": "https://archive.org/details/visitacionievisi32ryew",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/visitations-norfolk-harleian-32.md",
+      "notes": "Heralds' visitation pedigrees of Norfolk. p. 141 (from Harl. MS 1552 fo. 53/49) gives the West Barsham / Great Ellingham Gurney pedigree: arms 'Argent, a cross engrailed gules, in dexter chief point a cinquefoil azure'; Anthony (G17) -> Francis of West Barsham m. Ellen Holdich of Ranworth (G16) -> Henry of Great Ellingham m. Ellen Blennerhassett of Barsham (G15) -> sons incl. Thomas (heir, m. Martha Lewknor of Denham), Henry, Edward, Anthony, '6. Francis, of London' (= G14), Leonard, and Bassingbourne (ob. s.p.), plus daughters. Confirms the G15->G14 link from an authoritative heraldic source. Resolves lead L-24."
+    },
     "cleveland-battle-abbey-roll-v2-gurnay": {
       "shortTitle": "Cleveland, Battle Abbey Roll - Gurnay",
       "citation": "Cleveland, Duchess of. The Battle Abbey Roll, with Some Account of the Norman Lineages. Vol. 2. London: John Murray, 1889.",

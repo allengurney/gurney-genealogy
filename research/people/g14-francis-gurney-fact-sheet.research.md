@@ -8,6 +8,12 @@ Francis G14 (1581 – 9 January 1646/7) was the Merchant Taylor of St Benet Fink
 
 ## Working Notes
 
+### 2026-05-29 — Visitation of Norfolk confirms "6. Francis, of London"
+
+The Heralds' *Visitations of Norfolk, 1563/1589/1613* (Harleian Society vol. 32, p. 141) list Francis as **Henry G15's sixth son, "of London"** in the West Barsham / Great Ellingham Gurney pedigree — independently confirming both the *sixth-son* ordinal (also given by the Merchant Taylors' binding book and Bernau 1913) and the London residence, from the Norfolk-side heralds' record rather than the 1633/34 London visitation. The branch blazon is "Argent, a cross engrailed gules, in dexter chief point a cinquefoil azure." Henry's full child-set and the G16/G17 ascent are recorded on the [Henry G15 companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g15-henry-gurney-fact-sheet.research.md).[^vis-norfolk-g14]
+
+[^vis-norfolk-g14]: Walter Rye, ed., *The Visitations of Norfolk, 1563, 1589 and 1613* (Harleian Society, vol. 32, 1891), p. 141; Internet Archive `visitacionievisi32ryew`. Resolves lead L-24. Source ID: `visitations-norfolk-harleian-32`.
+
 ### Merchant Taylors' Company binding-book primary record
 
 The published transcription of the Merchant Taylors' Company binding books and freedom registers (Scott 2024, UKDA-SN-9263) supplies Francis G14's complete apprenticeship and freedom record at first hand — the same entry Daniel Gurney quoted at second hand in *Supplement* Note 181 (1858), now read directly from the Company source.[^mt-ukda]

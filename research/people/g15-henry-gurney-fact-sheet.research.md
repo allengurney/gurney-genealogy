@@ -6,6 +6,14 @@ Research companion for `g15-henry-gurney-fact-sheet.md`. See `.claude/rules/rese
 
 ## Working Notes
 
+### 2026-05-29 — Visitation of Norfolk pedigree (a fifth source for Henry → Francis "of London")
+
+The Heralds' *Visitations of Norfolk, 1563, 1589 and 1613* (Harleian Society vol. 32, p. 141, from Harl. MS 1552 fo. 53) print the West Barsham / Great Ellingham Gurney pedigree — an authoritative Norfolk-side enumeration of Henry G15's family, distinct from the 1633/34 London visitation already cited below. Henry ("Henry Gurney of Great Ellingham," married **Ellen, daughter of [a] Blennerhassett of Barsham**) is recorded as son of **Francis Gurney of West Barsham** and **Ellen Holdich of Ranworth** (G16), descending in turn from **Anthony Gurney** (G17). Henry's children, as the pedigree numbers them: **1. Thomas** of West Barsham (m. Martha, daughter of Sir Edward Lewkenor of Denham, Suffolk — the senior heir), **2. Henry**, **3. Edward**, **5. Anthony**, **6. Francis "of London"** (= G14, the Merchant Taylor), **7. Leonard**, and **Bassingbourne** (*ob. s.p.*); daughters **Elizabeth** (m. Golding of Fornham), **Mary**, **Anne** (m. Osborne of Mundham), and **Abigail**. The blazon carries a cadency mark: **"Argent, a cross engrailed gules, in dexter chief point a cinquefoil azure"** — the engrailed-cross Gournay arms differenced with a cinquefoil for this branch.[^vis-norfolk-g15]
+
+This is a **fifth** independent attestation of the G15 → G14 link (after Daniel Gurney 1848, Blomefield, the 1633/34 London visitation, and Bernau 1913), and the only one giving Henry's full child-set on the Norfolk side. It explicitly places Francis "of London" inside the armigerous family — consistent with the younger-son-into-London-trade reading, not estrangement-by-omission.
+
+[^vis-norfolk-g15]: Walter Rye, ed., *The Visitations of Norfolk, 1563, 1589 and 1613* (Harleian Society, vol. 32, 1891), p. 141 (from Harl. MS 1552, fo. 53 / pencil 49); Internet Archive `visitacionievisi32ryew`. Resolves lead L-24. Source ID: `visitations-norfolk-harleian-32`.
+
 ### 2026-04-25 — L'Estrange anecdote: Edmund Gurney's mathematician joke
 
 Sir Nicholas L'Estrange's manuscript anecdote collection preserves a compact example of Henry Gurnay's son Edmund in comic mode: "Edm. Gurney used to say that a mathematitian is like one that goes to markett to buy an axe to breake an egg." The Camden Society editor's introductory notice identifies this "Parson Edmund Gurney" as Francis Gurney's brother and places him in the Edgefield and Harpley livings, confirming that the anecdote belongs to Edmund Gurney (1577-1648), Henry's third son, not the later nineteenth-century Edmund Gurney. The full extract and identity note are now in [`research/people/edmund-gurney-divine.research.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/edmund-gurney-divine.research.md).[^thoms-edmund]
@@ -37,6 +45,7 @@ Nothing in Bernau contradicts or revises any item in this companion's Research A
 - **Verily Anderson**, <em>Friends and Relations</em> (1980), p. 21 — preserves the epitaph verse.
 - **Pease/Pennyghael Gurney genealogy** (Charles E. G. Pease, 2016).
 - **Charles A. Bernau, *The British Archivist* I.7 (1913)** — re-attests Henry's paternity of Francis G14 from Public Record Office material independently of Daniel Gurney.
+- **Visitations of Norfolk 1563/1589/1613 (Harleian Society vol. 32), p. 141** — the Norfolk-side heralds' pedigree, naming "6. Francis, of London" as Henry's son and giving Henry's full child-set, his Blennerhassett marriage, the Holdich (G16) and Anthony (G17) ascent, and the cinquefoil-differenced engrailed-cross arms.
 
 Henry's father, grandfather, wife, and most of his twelve children are documented across two or more of these sources independently of Daniel Gurney.
 

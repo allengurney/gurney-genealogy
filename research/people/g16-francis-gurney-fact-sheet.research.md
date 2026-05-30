@@ -6,7 +6,11 @@ Research companion for `g16-francis-gurney-fact-sheet.md`. See `.claude/rules/re
 
 ## Working Notes
 
-*No entries yet.*
+### 2026-05-29 — Visitation of Norfolk corroboration
+
+The Heralds' *Visitations of Norfolk, 1563/1589/1613* (Harleian Society vol. 32, p. 141) record Francis in the West Barsham Gurney pedigree as son of **Anthony Gurney** (G17), husband of **Ellen, daughter of … Holdich of Ranworth**, and father of **Henry of Great Ellingham** (G15) — an additional heraldic witness to the parentage and Holdich marriage already attested by Blomefield and Daniel Gurney. The branch arms are blazoned "Argent, a cross engrailed gules, in dexter chief point a cinquefoil azure."[^vis-norfolk-g16]
+
+[^vis-norfolk-g16]: Walter Rye, ed., *The Visitations of Norfolk, 1563, 1589 and 1613* (Harleian Society, vol. 32, 1891), p. 141; Internet Archive `visitacionievisi32ryew`. Source ID: `visitations-norfolk-harleian-32`.
 
 ---
 
