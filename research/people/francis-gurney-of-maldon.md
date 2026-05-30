@@ -196,6 +196,20 @@ Treat this as a lead for Francis of Maldon's public standing after the Restorati
 
 [^statutes-francis-1661]: ["Charles II, 1661: An Act for granting unto the Kings Majestie twelve hundred and threescore thousand pounds...,"](https://www.british-history.ac.uk/statutes-realm/vol5/pp325-348) *Statutes of the Realm*, vol. 5, British History Online. Source ID: `bho-statutes-realm-1661-assessment`.
 
+## FamilySearch Full-Text corroboration of the merchant / salt-refiner trade (2026-05-29)
+
+A FamilySearch Full-Text Search pass independently corroborates Bernau's biography from records he did not cite. The Maldon borough freemen / employment records (1661–1688) describe **"Francis Gurnay, merchant and salt refine[r], born in London"** — matching, point for point, the London-born son of Francis G14 who ran the Goldhanger salt works (salt-pans, salt tubs, saltcote leaseholds, and finished salt and coal in the 1677 estate schedule above). Two further Maldon series name him: the borough Account Records (1624–1678) and the Court Records, the latter in the same attachment-and-debt context as his 1676 *Gourney v. Dabbs* Chancery suit. This is the first non-Bernau primary corroboration of his London birth and his trade.[^fs-fulltext-maldon]
+
+The same pass returned a Gurney pedigree in **Burke's *Dictionary of the Landed Gentry* (1858)** placing "Gurney … of Maldon, in Essex" within the Norfolk Gurney / de Gournay descent (Runhall, Hardingham, Hingham, Swathing). Burke is a collector, not an authority — keep it as a discovery trail and trace the Maldon line to primary record before citing it for any fact.[^fs-fulltext-maldon]
+
+Three further English records surfaced but are viewable only at a FamilySearch Center or affiliate library, so they remain leads (availability: restricted-access online):
+
+- **Kent, England Probate 1633–1636** — a probate hit on "Francis Gurnay"; test whether it touches Francis G14 or this Maldon Francis.
+- **St Peter le Poer with St Benet Fink, London — Poor Rate** — Francis G14's own London parish; a rate naming Francis Gurnay could fix residence and civic standing.
+- **Norfolk, England History Records 1701, 1825** — later compiled Norfolk material naming a Francis Gurnay.
+
+[^fs-fulltext-maldon]: FamilySearch Full-Text Search (AI-transcribed manuscript images), searched 2026-05-29 for "Francis Gurnay" / "Francis Gurney." Maldon, Essex borough records — Employment/freemen 1661–1688 ("Francis Gurnay, merchant and salt refine[r], born in London"), Account Records 1624–1678, and Court Records — independently corroborate Bernau's Francis of Maldon; the same search surfaced Burke's *Landed Gentry* (1858) Gurney pedigree (tertiary, trace before citing) and three FamilySearch-Center-restricted records (Kent Probate 1633–1636; St Peter le Poer with St Benet Fink Poor Rate; Norfolk History Records 1701, 1825). Source ID: `familysearch-fulltext-search`.
+
 ## Sources
 
 - **`british-archivist-bernau-1913`** (proposed): Bernau, *British Archivist* I.7 (September 1913). Primary source for this file. Corpus: `sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md`.

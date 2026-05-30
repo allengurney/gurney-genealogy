@@ -1843,7 +1843,29 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": "sources/validations/nehgr-49-genealogical-gleanings-john-lewis.md",
-      "notes": "User-supplied extract from John Lewis of Nevis will, dated 21 December 1699 and proved 9 July 1701, includes a reference to Mary Gurney, daughter of John Gurney. Treat as a same-name/relationship lead until the page image and surrounding punctuation are checked."
+      "notes": "User-supplied extract from John Lewis of Nevis will, dated 21 December 1699 and proved 9 July 1701, includes a reference to Mary Gurney, daughter of John Gurney. Probate registration confirmed 2026-05-29 as PCC register Dyer, quire 99 (PROB 11/461) from the NEHGR vol. 49 abstract (Internet Archive scan newenglandhistor49wate). Treat as a same-name/relationship lead; the working hypothesis ties Mary to G13's son John Jr. (b. c.1633), unconfirmed."
+    },
+    "pcc-rivett-rattlesden-wills": {
+      "shortTitle": "PCC wills - Rivett/Ryvett of Rattlesden (1610, 1626)",
+      "citation": "Prerogative Court of Canterbury, registered wills: Thomas Rivett of Rattlesden, 1610 (PROB 11/116); Thomas Ryvett of Woodhall in Rattlesden, 1626 (PROB 11/148/688).",
+      "archive": "Ancestry 'England & Wales, Prerogative Court of Canterbury Wills, 1384-1858' (collection 5111); TNA PROB 11 equivalents",
+      "url": "https://www.ancestry.com/search/collections/5111/records/864421",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/pcc-rivett-rattlesden-wills.md",
+      "notes": "Both Rattlesden Rivett/Ryvett wills transcribed in full 2026-05-29 to test Margaret Rybett/Ryvett's parentage (lead L-7). Neither names a Gurney; the 1610 testator's children are Edward (sole executor), Thomas, and a married daughter Dame Anne Glascock, with no Margaret. Paywalled subscription images; not committed to repo."
+    },
+    "familysearch-fulltext-search": {
+      "shortTitle": "FamilySearch Full-Text Search (AI-transcribed images)",
+      "citation": "FamilySearch Full-Text Search, AI-transcribed manuscript image collections (deeds, probate, parish and borough records).",
+      "archive": "FamilySearch International (Full-Text Search)",
+      "url": "https://www.familysearch.org/search/full-text",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/familysearch-fulltext-search.md",
+      "notes": "Keyword search across AI-transcribed images. 2026-05-29 'Francis Gurnay' pass corroborated Francis Gurney of Maldon (Maldon borough Employment/freemen 1661-1688 'merchant and salt refiner, born in London'; Account Records 1624-1678; Court Records) and surfaced Burke's Landed Gentry 1858 Gurney pedigree plus three FamilySearch-Center-restricted records (Kent Probate 1633-36; St Peter le Poer w/ St Benet Fink Poor Rate; Norfolk History Records 1701, 1825). Machine transcriptions; verify against the image before quoting."
     },
     "may-henry-gurney-spenser-2005": {
       "shortTitle": "May, Henry Gurney reads Spenser",
