@@ -60,6 +60,15 @@ The 1409 Fine Rolls preserve the post-death administrative trace of Sir John's d
 ### Nine-manor portfolio
 2026-04-18 — The existing companion documents Thomas I's inheritance as approximately nine manors across Norfolk and Suffolk. The IPM of Sir John (DG-Supp Note 121) shows all lands were in feoffees' hands, complicating the transfer. Whether Thomas I had difficulty establishing his claim to the full portfolio is unknown but plausible — the feoffee mechanism could have created friction with a collateral heir.
 
+### Death-date termini and the gurnard crest (DG Record pedigree, p. 286)
+2026-05-29 — The *Record* (1848) pedigree, p. 286, styles Thomas I "nephew and heir of Sir John, 1437, of West Barsham," records that he "used a gurnard fish in pale for a crest," and states he "died before 1465."[^dg-rec-p286-gurnard]
+
+1. **Two Daniel Gurney death-termini.** "Died before 1465" is the pedigree's looser, earlier statement. The *Supplement* (1858) Note 123, p. 794, later tightened it to "dead before 1444" by reassigning the 1444 Boking fine to Thomas II and Margaret Jernegan (Open Question 4). The two are compatible — before 1444 implies before 1465 — and the fact sheet keeps the tighter "probably before 1444," with footnote n2 now recording both readings.
+2. **Canting crest.** The gurnard (a spiny sea-fish) is a visual pun on "Gurney." Not previously captured in the repo; now noted in the fact-sheet narrative (n12). The "1437" and Norwich styling on the same pedigree line are low-confidence OCR-bound details; the family's Norwich tie is independently anchored elsewhere (Heylesdon houses in Norwich, Gurney's Place in St Julian's).
+3. **The 1454 Great Ellingham record is a different man.** The Norwich Consistory Court administration of "Thomas Gurnay of Great Ellingham" (register Aleyn 19, 1454) does not belong to this Thomas: Great Ellingham is central Norfolk and only entered the family via the 1525 Lovell marriage (Anthony G17), whereas Thomas I was seated at West Barsham/Harpley. It is held as a pre-Lovell collateral lead in [`research/places/great-ellingham.md`](../places/great-ellingham.md).
+
+[^dg-rec-p286-gurnard]: Daniel Gurney, *Record of the House of Gournay* (1848), pedigree p. 286: "Thomas Gournay, Esq. I. nephew and heir of Sir John, 1437, of West Barsham ... used a gurnard fish in pale for a crest; died before 1465." Source ID: `dg-rec-pt2`.
+
 ---
 
 ## Landholdings
@@ -82,7 +91,7 @@ The 1409 Fine Rolls preserve the post-death administrative trace of Sir John's d
 
 1. **Watlington Kervilles in Blomefield:** Does Blomefield have a Watlington entry with Kerville family detail? Would confirm Robert Kerville (d. 1434) and daughter Catherine.
 2. **Keswick glass:** Does the Gurney-impales-Kerville glass at Keswick survive? DG says it shows Kerville *without difference*, suggesting the senior branch. This complicates the Watlington attribution.
-3. **Thomas I's death date:** Not established. He was succeeded by Thomas II (fl. c. 1430–d. 1471). Death c. 1440–1450?
+3. **Thomas I's death date:** No probate survives. Daniel Gurney gives two termini — "before 1465" (pedigree p. 286) and the tighter "before 1444" (Supplement Note 123, Boking fine). See "Death-date termini and the gurnard crest" above; the fact sheet uses "probably before 1444."
 4. **DG-Supp Note 123 fine between Boking and Thomas Gurnay (p. 385):** DG says this fine was "probably" with Thomas II and Margaret Jernegan, not Thomas I, and that Thomas I "was dead before 1444, the date of the fine." This gives an approximate terminus ante quem.
 5. **Underlying muster rolls TNA E101/45/7, E101/45/18, E101/53/33:** Direct pulls of the original rolls would add detail beyond the database index — e.g. the full Latin clauses, neighbouring names in the retinue, and any wage and equipment particulars — but are not required to establish the identification.
 

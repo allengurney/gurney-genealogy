@@ -18,6 +18,11 @@ The will of Edmund Gournay is dated more precisely than the fact sheet captures:
 
 These details (executors, exact bequest amount, the "Ascension" dating) didn't fit the fact sheet narrative but are useful for any biographical writing.
 
+### Independent will-index confirmation — NCC index entry (added 2026-05-29)
+The probate registration is independently confirmed by the printed/online Index to Wills, Consistory Court of Norwich 1370–1550 (Ancestry collection 1610; NRO online catalogue), which lists Edmund's 1387 will under register Harsyk.[^ncc-index-edmund-harsyk-1387] The index folio reference ("84") differs from the "fol. 34" cited via Daniel Gurney; the two simply reflect different foliations/index pagination of the same Register Harsyke entry. (The Ancestry collection mis-tags the record type as "Marriages"; it is a will index.) No new content beyond corroboration and an online finding-aid pointer.
+
+[^ncc-index-edmund-harsyk-1387]: Index to Wills, Consistory Court of Norwich, 1370–1550 (Ancestry.com collection 1610; underlying Norfolk Record Society / NRO online catalogue, http://nrocat.norfolk.gov.uk): "1387 Gurney, Gurnay, Edmund — 84 Harsyk." Confirms registration of Edmund Gournay's 1387 will in Norwich Consistory Court register Harsyke. Source ID: `nro-ncc-wills-registers`.
+
 ### John of Gaunt stewardship — phrasing flag (added 2026-04-16 from chat bcb40001)
 
 The DG-II passages reviewed in chat bcb40001 (pp. 357–363) **do not contain the phrase "John of Gaunt" directly.** They list Edmund's many royal commission appointments — entirely consistent with him holding that stewardship — but the explicit attribution comes from the History of Parliament Online entry. Open question 1 below tracks the verification need.
