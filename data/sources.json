@@ -1733,7 +1733,18 @@
       "corpusPath": "sources/corpus_supplement/bho-ipm-vol16-index-gournay.md",
       "mediaPath": null,
       "validationPath": "sources/validations/bho-ipm-vol16-index-gournay.md",
-      "notes": "Index references for Gournay/Gornay/Gurney, including Matthew de Gournay, Philippa wife of Matthew, Roger, and Thomas de Gournay. Use as a finding aid, not as a standalone proof."
+      "notes": "Index references for Gournay/Gornay/Gurney, including Matthew de Gournay, Philippa wife of Matthew, Roger, and Thomas de Gournay. Use as a finding aid, not as a standalone proof. No Edmund Gournay appears — consistent with Edmund G23 (d.1387) holding no land in chief and thus having no royal IPM."
+    },
+    "bho-ipm-henry-iv-vol19-gournay-johnv": {
+      "shortTitle": "BHO IPM vol. 19 (Henry IV) - John Gournay (Sir John V), d.1408",
+      "citation": "\"Inquisitions Post Mortem, Henry IV, Entries 452-501.\" Calendar of Inquisitions Post Mortem, vol. 19. British History Online.",
+      "archive": "British History Online",
+      "url": "https://www.british-history.ac.uk/inquis-post-mortem/vol19/pp170-185",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/bho-ipm-henry-iv-vol19-gournay-johnv.md",
+      "notes": "Inquisition post mortem of John Gournay (Gurney) = Sir John V, entries 489-494 (TNA C 137/70/6). Writ 16 Feb 1409; inquisitions East Rudham 26 Mar, Holt 27 Mar, Attlebridge 28 Mar 1409; died 4 Dec 1408; heir Edmund his son aged 10 (b. c.1398); jurors found he 'held nothing in Norfolk' (nothing in chief of the Crown). Independent corroboration of Daniel Gurney Supplement Note 121; explains the absence of a royal IPM for Edmund G23 and the thin royal footprint of the West Barsham line. Resolves leads L-33/L-37."
     },
     "cleveland-battle-abbey-roll-v2-gurnay": {
       "shortTitle": "Cleveland, Battle Abbey Roll - Gurnay",

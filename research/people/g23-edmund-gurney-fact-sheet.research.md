@@ -23,6 +23,11 @@ The probate registration is independently confirmed by the printed/online Index 
 
 [^ncc-index-edmund-harsyk-1387]: Index to Wills, Consistory Court of Norwich, 1370–1550 (Ancestry.com collection 1610; underlying Norfolk Record Society / NRO online catalogue, http://nrocat.norfolk.gov.uk): "1387 Gurney, Gurnay, Edmund — 84 Harsyk." Confirms registration of Edmund Gournay's 1387 will in Norwich Consistory Court register Harsyke. Source ID: `nro-ncc-wills-registers`.
 
+### No royal inquisition post mortem for Edmund (added 2026-05-29)
+Edmund's death is fixed by his will (proved 1 August 1387, Reg. Harsyke), not by an inquisition. The *Calendar of Inquisitions Post Mortem*, vol. 16 (Richard II, covering 1383–92), has **no Edmund Gournay** in its index of persons — only Matthew de Gournay (the Somerset collateral), Roger, and Thomas.[^cipm-vol16-no-edmund] This is consistent with Edmund holding his Norfolk lands of mesne lords rather than of the Crown in chief — the same pattern the 1409 inquisition of his son Sir John V makes explicit ("held nothing in Norfolk"; see the [G22 Robert companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g22-robert-gournay-fact-sheet.research.md)). The future-research lead for "an IPM for Edmund d.1387" is therefore a dead end as a royal record; the will is the death-date anchor.
+
+[^cipm-vol16-no-edmund]: "Index of Persons and Places: G," *Calendar of Inquisitions Post Mortem*, vol. 16 (Richard II), British History Online, [www.british-history.ac.uk/inquis-post-mortem/vol16/pp508-513](https://www.british-history.ac.uk/inquis-post-mortem/vol16/pp508-513): no Edmund Gournay/Gurnay entry. Source ID: `bho-ipm-vol16-index-gournay`.
+
 ### John of Gaunt stewardship — phrasing flag (added 2026-04-16 from chat bcb40001)
 
 The DG-II passages reviewed in chat bcb40001 (pp. 357–363) **do not contain the phrase "John of Gaunt" directly.** They list Edmund's many royal commission appointments — entirely consistent with him holding that stewardship — but the explicit attribution comes from the History of Parliament Online entry. Open question 1 below tracks the verification need.
