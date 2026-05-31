@@ -44,7 +44,7 @@ factsheet:
   </div>
   <div class="fact-item">
     <div class="fact-label">Died</div>
-    <div class="fact-value">Dates uncertain. No death record survives. Active generation c. 960–1000. <sup class="fn"><a href="#n2" id="ref-2">2</a></sup></div>
+    <div class="fact-value">Dates uncertain. No death record survives. Active generation c. 940–980. <sup class="fn"><a href="#n2" id="ref-2">2</a></sup></div>
   </div>
   <div class="fact-item">
     <div class="fact-label">Occupation / Status</div>
@@ -69,7 +69,7 @@ factsheet:
 <h2 class="unnumbered">Highlights</h2>
 
 <ul>
-  <li><strong>He built the tower that bore his name for eight centuries.</strong> Hugh erected a <a href="https://en.wikipedia.org/wiki/Motte-and-bailey_castle">citadel</a> near the site of the future church of <a href="https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/">Saint-Hildevert</a>, surrounding it with a double ditch and fortifying it with a tower known ever after as "La Tour Hue" — <em>Hue</em> being the <a href="https://en.wikipedia.org/wiki/Old_French">Old French</a> form of Hugh. Hannay described how "feudalism could do nothing without castles. They kept foreign enemies out, and domestic turbulence under some restraint." Daniel Gurney's 1858 Supplement confirms the tower was still standing "a century ago" — roughly the 1750s — meaning it survived for approximately 800 years before finally being demolished. <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></li>
+  <li><strong>He built the tower that bore his name for eight centuries.</strong> Hugh erected a <a href="https://en.wikipedia.org/wiki/Motte-and-bailey_castle">citadel</a> near the site of the future church of <a href="https://en.normandie-tourisme.fr/museums-and-heritage-sites/collegiale-saint-hildevert/">Saint-Hildevert</a>, surrounding it with a double ditch and fortifying it with a tower known ever after as "La Tour Hue" — <em>Hue</em> being the <a href="https://en.wikipedia.org/wiki/Old_French">Old French</a> form of Hugh. The historian Hannay described how "feudalism could do nothing without castles. They kept foreign enemies out, and domestic turbulence under some restraint." Genealogist Daniel Gurney's 1858 <em>Supplement</em> confirms the tower was still standing "a century ago" — roughly the 1750s — meaning it survived for approximately 800 years before finally being demolished. <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></li>
   <li><strong>One fortress of a frontier triad.</strong> Hugh's citadel at Gournay was not isolated. The family seigneurie controlled the head of the <a href="https://en.wikipedia.org/wiki/Bresle">Bresle valley</a> through a coordinated triad of fortresses — Gournay, La Ferté (built by his grandson Gautier's branch by year 1000), and Gaillefontaine (forteresse from c. 1050) — pinning the eastern Norman border against the kingdom of France. Modern archaeology frames the three together as "a political stake of the first order on both the French and the Norman side." <sup class="fn"><a href="#n5" id="ref-5c">5</a></sup></li>
   <li><strong>First of the line born in Normandy.</strong> While his father Eudes came from <a href="https://en.wikipedia.org/wiki/Scandinavia">Scandinavia</a> as a warrior in <a href="https://en.wikipedia.org/wiki/Rollo">Rollo</a>'s company, Hugh was the first Lord of Gournay to grow up in his family's new homeland — contemporary with Duke <a href="https://en.wikipedia.org/wiki/William_Longsword">William Longsword</a> (d. 942), Rollo's son. Hannay noted that Hugh's name was "convertible with Eudes or Eude" in the chronicles, suggesting both names derive from a common Norse root. <sup class="fn"><a href="#n6" id="ref-6">6</a></sup></li>
   <li><strong>The lineage is historically recorded but limited.</strong> Unlike his father Eudes, whose existence rests on later tradition alone, Hugh is named in Norman historical writing as the fortifier of Gournay, and the tower bearing his name is described by the 13th-century court poet <a href="https://en.wikipedia.org/wiki/William_the_Breton">William Brito</a>, who wrote that Gournay was so well-fortified it could resist assault even without defenders. No contemporary charter names Hugh directly, but the line of historical reporting around him is consistent. <sup class="fn"><a href="#n7" id="ref-7">7</a></sup></li>
@@ -93,7 +93,7 @@ factsheet:
   <tbody>
     <tr>
       <td>Renaud de Gournay</td>
-      <td>c. 970 — dates uncertain</td>
+      <td>c. 960–965 — dates uncertain</td>
       <td>Unknown</td>
       <td>G35 in direct line. His existence is confirmed by a charter of 989–996, making him the earliest Lord of Gournay attested in a surviving primary document. <sup class="fn"><a href="#n8" id="ref-8">8</a></sup></td>
     </tr>
@@ -118,7 +118,7 @@ Very little else about Hugh survives. No wife is named in any source. His dates 
 
 <ol class="citation-list">
   <li id="n1">Daniel Gurney, <em>The Record of the House of Gournay</em>, Part I (1848), p. 24: "Son of Eudes. First lord born in Gournay. First generation to know no homeland but Normandy." Dates estimated by generational spacing — Renaud (son) attested c. 989–996, and James Hannay, <em>Three Hundred Years of a Norman House</em> (1867), p. 45, frames Hugh as "contemporary of William Longsword" (d. 942), implying birth in the 920s–940s. FamilySearch's structured record gives "0930" and the family-tree compilation at our-royal-titled-noble-and-commoner-ancestors.com gives "circa 935," both at the earlier end and consistent with Hannay. Étienne Pattou, <em>Racines Histoire</em>, "Seigneurs de Gournay," p. 2, dates Hugues 1er as "vivant en 984…+ après 989 (1046 ?)." <a class="citation-back" href="#ref-1">↩</a></li>
-  <li id="n2">No death date in any source. Active generation estimated c. 960–1000 based on son Renaud's documented dates. <a class="citation-back" href="#ref-2">↩</a></li>
+  <li id="n2">No death date in any source. Active generation estimated c. 940–980, anchored by James Hannay's framing of Hugh as "contemporary of William Longsword" (d. 942) — which implies adult presence by the 940s — and by his son Renaud being born c. 960–965 and attested in the La Ferté-en-Bray charter of 989–996. A father active to c. 980 fits the natural 20–25-year spacing to a son born c. 960–965 better than the older c. 1000 terminus, which would push Hugh's adult life implausibly far past his son's own. <a class="citation-back" href="#ref-2">↩</a></li>
   <li id="n3">Daniel Gurney, <em>Record</em>, Part I (1848), p. 23: the Red Book Roll establishes the military obligation of the Lords of Gournay. <a class="citation-back" href="#ref-3">↩</a></li>
   <li id="n4">No spouse named in Daniel Gurney's <em>Record</em> or any other source consulted. <a class="citation-back" href="#ref-4">↩</a></li>
   <li id="n5">William Brito (Guillaume le Breton), <em>Philippide</em>, Liber xi (c. 1224), standard edition Delaborde, <em>Oeuvres de Rigord et de Guillaume le Breton</em>, 2 vols. (Paris 1882–1885): describes the Gournay citadel as "<em>munitum triplice muro ... inexpugnabilis</em>" — surrounded by a triple wall and double ditch, inaccessible, fortified with a tower "La Tour Hue." Daniel Gurney, <em>Record</em>, Part I (1848), p. 24, quotes the verse. The fullest local-tradition account is in Pierre Potin de la Mairie, <em>Recherches historiques sur la ville de Gournay-en-Bray</em> (1842), pp. 75–81 (Source ID: <code>potin-recherches-ville-gournay-1842</code>), drawing on Père du Plessis's <em>Description de la Haute Normandie</em> and Nicolas Cordier's manuscript <em>Histoire de Gournay</em> (c. 1710–1738). Survival: Potin 1842 places the demolition "<em>au commencement du siècle dernier</em>" (early 1700s); Daniel Gurney, <em>Supplement</em> (1858), Note 7, p. 730, places it "a century ago" (c. 1750s) — the two dates bracket an early-to-mid-18th-century final demolition. Aude Painchault, <em>Gaillefontaine</em> (PURH 2012), Source ID: <code>painchault-gaillefontaine-2012</code>, frames Gournay–La Ferté–Gaillefontaine as a coordinated frontier-fortification triad at the head of the Bresle valley. <a class="citation-back" href="#ref-5">↩</a></li>
@@ -154,8 +154,8 @@ Very little else about Hugh survives. No wife is named in any source. His dates 
     <tbody>
       <tr><th>Year</th><th>Event</th></tr>
       <tr><td>c. 920–940</td><td>Born in Gournay-en-Bray — first of the line born in Normandy.</td></tr>
-      <tr><td>c. 960–990</td><td>Fortifies Gournay: citadel, double ditch, and tower ("La Tour Hue") constructed.</td></tr>
-      <tr><td>c. 970</td><td>Son Renaud born.</td></tr>
+      <tr><td>c. 940–980</td><td>Fortifies Gournay: citadel, double ditch, and tower ("La Tour Hue") constructed.</td></tr>
+      <tr><td>c. 960–965</td><td>Son Renaud born.</td></tr>
       <tr><td>Dates uncertain</td><td>Death. No record.</td></tr>
     </tbody>
   </table>

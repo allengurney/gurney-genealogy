@@ -1,3 +1,5 @@
+**Done:** 2026-05-30 21:06 PT
+
 # v78 — Medieval-soldier discovery: G22 + G21 fact-sheet promotions (story-led)
 
 **Scope:** Phase 2 application. Rewrites the G22 Robert fact sheet's Highlights and Narrative into a plain-spoken, picture-painting account, and adds one affinity-continuity passage to G21. The aim for G22 (a lightly recorded younger son) is to *show the man through his context* rather than recite facts: that a second son's thin record is the normal shape of the evidence; that his exceptionally well-documented father, brother, and son let us see his world; that the family arms carry the line straight through him; and that the inter-family nexus (Lancaster + Arundel, Norwich + Lynn, soldiering, marriage, shared arms) is the genealogical foundation on which a sparsely recorded line rests securely.

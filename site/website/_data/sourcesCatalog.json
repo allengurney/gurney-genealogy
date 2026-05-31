@@ -369,7 +369,19 @@
     "corpusPath": "sources/corpus_supplement/bho-ipm-vol16-index-gournay.md",
     "mediaPath": "",
     "validationPath": "sources/validations/bho-ipm-vol16-index-gournay.md",
-    "notes": "Index references for Gournay/Gornay/Gurney, including Matthew de Gournay, Philippa wife of Matthew, Roger, and Thomas de Gournay. Use as a finding aid, not as a standalone proof."
+    "notes": "Index references for Gournay/Gornay/Gurney, including Matthew de Gournay, Philippa wife of Matthew, Roger, and Thomas de Gournay. Use as a finding aid, not as a standalone proof. No Edmund Gournay appears — consistent with Edmund G23 (d.1387) holding no land in chief and thus having no royal IPM."
+  },
+  {
+    "sourceId": "bho-ipm-henry-iv-vol19-gournay-johnv",
+    "shortTitle": "BHO IPM vol. 19 (Henry IV) - John Gournay (Sir John V), d.1408",
+    "citation": "\"Inquisitions Post Mortem, Henry IV, Entries 452-501.\" Calendar of Inquisitions Post Mortem, vol. 19. British History Online.",
+    "archive": "British History Online",
+    "url": "https://www.british-history.ac.uk/inquis-post-mortem/vol19/pp170-185",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/bho-ipm-henry-iv-vol19-gournay-johnv.md",
+    "notes": "Inquisition post mortem of John Gournay (Gurney) = Sir John V, entries 489-494 (TNA C 137/70/6). Writ 16 Feb 1409; inquisitions East Rudham 26 Mar, Holt 27 Mar, Attlebridge 28 Mar 1409; died 4 Dec 1408; heir Edmund his son aged 10 (b. c.1398); jurors found he 'held nothing in Norfolk' (nothing in chief of the Crown). Independent corroboration of Daniel Gurney Supplement Note 121; explains the absence of a royal IPM for Edmund G23 and the thin royal footprint of the West Barsham line. Resolves leads L-33/L-37."
   },
   {
     "sourceId": "bho-statutes-realm-1661-assessment",
@@ -684,6 +696,18 @@
     "notes": "Edmund Gurnay's 1631 anti-Roman tract; title identifies him as B.D. and parson of Harpley, Norfolk; STC 12529. Online book scan: https://archive.org/details/bim_early-english-books-1475-1640_the-demonstration-of-ant_gurnay-edmund_1631 (Internet Archive, Early English Books 1475-1640). Folger catalog record (secondary bibliographic control): https://catalog.folger.edu/record/168785."
   },
   {
+    "sourceId": "deville-cartulaire-sainte-trinite-rouen",
+    "shortTitle": "Deville, Cartulaire de la Sainte-Trinite du Mont de Rouen (1840)",
+    "citation": "Achille Deville, ed., Cartulaire de l'abbaye de la Sainte-Trinite du Mont de Rouen, bound with B. Guerard, Cartulaire de l'abbaye de Saint-Bertin, in Collection des cartulaires de France (Paris: Crapelet, 1840).",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/cartulairedelab00frangoog",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/deville-cartulaire-sainte-trinite-rouen.md",
+    "notes": "Charter XCIV (94), Chartularium p. 168: Richard de Redvers' gift to the Holy Trinity of the church and tithe of a vill (Opimensis), Abbot Walter and the brethren paying him 15 livres. Attestation clause names 'Signum Girardi de Gornaco' (Gerard de Gournay, G32) with Hugh de Bellebeuf, plus the abbey's witnesses Richard the seneschal and Bernard the cook. The Gournay mark is a 'signum' (subscription), not a described pictorial seal. Late 11th / early 12th c. (Abbot Walter's tenure; Richard de Redvers d. 1107). Resolves lead L-49."
+  },
+  {
     "sourceId": "dg-rec-pt1",
     "shortTitle": "DG Record, Part I",
     "citation": "Gurney, Daniel. The Record of the House of Gournay, Part I. London: J. B. Nichols and J. G. Nichols, 1848.",
@@ -924,6 +948,18 @@
     "notes": "Indexed and partly imaged Norfolk parish-register collection from NRO."
   },
   {
+    "sourceId": "familysearch-fulltext-search",
+    "shortTitle": "FamilySearch Full-Text Search (AI-transcribed images)",
+    "citation": "FamilySearch Full-Text Search, AI-transcribed manuscript image collections (deeds, probate, parish and borough records).",
+    "archive": "FamilySearch International (Full-Text Search)",
+    "url": "https://www.familysearch.org/search/full-text",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/familysearch-fulltext-search.md",
+    "notes": "Keyword search across AI-transcribed images. 2026-05-29 'Francis Gurnay' pass corroborated Francis Gurney of Maldon (Maldon borough Employment/freemen 1661-1688 'merchant and salt refiner, born in London'; Account Records 1624-1678; Court Records) and surfaced Burke's Landed Gentry 1858 Gurney pedigree plus three FamilySearch-Center-restricted records (Kent Probate 1633-36; St Peter le Poer w/ St Benet Fink Poor Rate; Norfolk History Records 1701, 1825). Machine transcriptions; verify against the image before quoting."
+  },
+  {
     "sourceId": "fs-suffolk-probate-1636-1915",
     "shortTitle": "FamilySearch Suffolk County probate records",
     "citation": "Massachusetts, Suffolk County, probate and family court records, 1636-1915. Digital images from Massachusetts Supreme Judicial Court Archives & Records Preservation, Boston, via FamilySearch.",
@@ -934,6 +970,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/fs-suffolk-probate-1636-1915.md",
     "notes": "Case #338, Gurney, John, 1663 Adm., in Probate FILE PAPERS Box 003, Cases 250-399, DGS 102840311. Cover image 514; inventory image 516, 'Boston March 16th 1663 An Inventory of the goods & estate of John Gurney late deceased.'"
+  },
+  {
+    "sourceId": "farrer-church-heraldry-norfolk",
+    "shortTitle": "Farrer, Church Heraldry of Norfolk",
+    "citation": "Edmund Farrer, The Church Heraldry of Norfolk: A Description of all Coats of Arms on Brasses, Monuments, Slabs, Hatchments, &c., now to be found in the County (Norwich: Goose, 1885-1893).",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/churchheraldryof01farr",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/farrer-church-heraldry-norfolk.md",
+    "notes": "Heraldic survey of Norfolk church arms. Vol. 1 (Internet Archive churchheraldryof01farr / churchheraldryn01farrgoog) and vol. 2 (churchheraldryn03farrgoog / churchheraldryn00farrgoog) consulted. Gournay arms (Argent, a cross engrailed gules) recorded at West Barsham (chancel brass of Edward Gournay d.1641) and at Harpley (with Blomefield manorial note, John de Gournay lord 35 Edw. I); West Barsham also shows De Warenne (chequy or and azure) in the East window. A modern Gurney monument (vol. 1) quarters Gurney + the 'Gournay ancient coat' (paly of six, or and azure) + De Warenne. Great Ellingham not present in vols 1-2 examined."
   },
   {
     "sourceId": "farrer-honors-knights-fees-v3-gurnay-extracts",
@@ -1608,6 +1656,30 @@
     "notes": "Source-traceable authority for Sir Robert Drury (Speaker of the Commons 1495), feoffee on William Gurney IV's 1505 trust deed. Records two marriages: (1) Anne Calthorpe by Sir William's second wife Elizabeth Stapleton -- William IV's half-sister-in-law; (2) Anne Jerningham of Somerleyton -- same family as G20's wife Margaret Jerningham. Drury was therefore kin to the Gurneys via both Calthorpe and Jerningham marriages. Also records Blackheath 1497 service possibly under John de Vere 13th Earl of Oxford and subsequent role as the earl's deputy in the Duchy of Lancaster south-parts stewardship."
   },
   {
+    "sourceId": "hop-berney",
+    "shortTitle": "History of Parliament — Berney, Sir Robert (c.1365-1415)",
+    "citation": "\"BERNEY, Sir Robert (c.1365-1415), of Reedham and Gunton, Norf.,\" in J. S. Roskell, L. Clark and C. Rawcliffe (eds.), The History of Parliament: The House of Commons 1386-1421 (1993), History of Parliament Online.",
+    "archive": "History of Parliament Trust",
+    "url": "https://www.historyofparliamentonline.org/volume/1386-1421/member/berney-sir-robert-1365-1415",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/hop-berney.md",
+    "notes": "Berney-side corroboration, independent of hop-gurney, of John Gurney V's place in the Lancastrian Norfolk affinity: Berney and Gurney as fellow Norfolk shire knights 1399, Erpingham co-trustees, and parties to the Saxthorpe/Loundhall feoffee circle (Erpingham/Wynter/Berney/Shelton). Also bears on whether the 'Sir Robert Gurney of Gunton, deputy at Dover 1400' phrasing is in fact Sir Robert Berney of Gunton. Full page text not yet captured (leads L-78, L-79)."
+  },
+  {
+    "sourceId": "hop-harling",
+    "shortTitle": "History of Parliament / biography — Sir Robert Harling (d.1435)",
+    "citation": "Sir Robert Harling of East Harling, Norfolk (d. 9 September 1435), soldier; History of Parliament Trust biography and the modern Wikipedia summary, https://en.wikipedia.org/wiki/Robert_Harling_(knight).",
+    "archive": "History of Parliament Trust / Wikipedia (orienting)",
+    "url": "https://en.wikipedia.org/wiki/Robert_Harling_(knight)",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/hop-harling.md",
+    "notes": "Network context for the cadet lead 'John Gurnay under Sir Robert Harling, 1422' (lead L-74): Harling was a Norfolk knight, nephew of Sir John Fastolf, captor of the bridge at Meulan in 1423, bailli of Alençon, killed at Saint-Denis 1435. Used only as orienting biography; any fact-sheet use should trace to the History of Parliament life or a primary record. Ties the cadet John into the Fastolf circle already woven through the repo's Heylesdon/Saxthorpe material."
+  },
+  {
     "sourceId": "hop-gurney",
     "shortTitle": "History of Parliament Online — Gurney",
     "citation": "History of Parliament Trust. 'Sir John Gurney (d.1408).' The History of Parliament: the House of Commons. historyofparliamentonline.org.",
@@ -1690,6 +1762,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Vol. ii of the Hudson-Tingey edition. Used in v63 for the City Treasurers' Accounts entries at pp. 44 and 47 recording two annual fee payments of 20 shillings each to 'Edmund Gornay', paid in the same fee paragraph as the 20s paid to Edmund de Clipesby. Direct primary attestation behind Blomefield's general standing-counsel reference and the History of Parliament biography of Sir John Gurney V."
+  },
+  {
+    "sourceId": "hull-thesis-english-way-of-war-1360-1399",
+    "shortTitle": "Hull PhD thesis — The English Way of War, 1360–1399",
+    "citation": "'The English Way of War, 1360–1399' (PhD thesis, University of Hull); content file hull_9036a.pdf, Hull institutional repository (Worktribe output 4216021). Author and award year to be confirmed from the repository record (lead L-76). A prosopographical study of English military service 1360–1399 with a biographical appendix and retinue tables (incl. Tables 4.2–4.3 for Sir Robert Knolles' 1370 expedition; source TNA E101/30/25).",
+    "archive": "University of Hull (institutional repository)",
+    "url": "https://hull-repository.worktribe.com/output/4216021",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/hull-thesis-english-way-of-war-1360-1399.md",
+    "notes": "Reviewed 2026-05-30 from the repository PDF (a copy was supplied to sources/intake/new/content-hull_9036a.pdf; not committed to corpus as a modern in-copyright thesis). Appendix p.340 identifies the soldier-database 'Sir John de Gourney' knight cluster (1359–1378) as Sir John de Gourney of Harptree, Somerset (owner of Harptree castle 1343 underage; m. Elizabeth widow of John Carew; Ireland 1363 under William de Windsor; Knolles 1370 captain, retinue of 3; Calais garrison 1376/1378). Also: Sir Thomas Trevet 'nephew of Sir Matthew Gournay' (p.351); Sir Matthew as banneret with a retinue of ~20 on the 1381 Iberian expedition. Used to exclude the knight cluster from the Norfolk direct line (G24). Full citation pending author confirmation."
   },
   {
     "sourceId": "arber-stationers-bsoc-petition-1646-hunscott",
@@ -1968,6 +2052,18 @@
     "notes": "Marriage index source for Benjamin Gurney and Sarah Morse, 14 June 1731, and a later Benjamin Gurney and Thankfull Ellis, 23 August 1781. Use as an index until the original register image is obtained."
   },
   {
+    "sourceId": "military-communities-knolles-1370",
+    "shortTitle": "Military Communities in Late Medieval England — Knolles 1370 chapter",
+    "citation": "Adrian R. Bell, Anne Curry, Andy King, and David Simpkin (eds.), Military Communities in Late Medieval England: Essays in Honour of Andrew Ayton (Woodbridge: Boydell & Brewer, 2018), ch. 8, 'Sir Robert Knolles' Expedition to France in 1370: New Perspectives.'",
+    "archive": "Boydell & Brewer / Cambridge Core",
+    "url": "https://www.cambridge.org/core/books/military-communities-in-late-medieval-england/sir-robert-knolles-expedition-to-france-in-1370-new-perspectives/6F33FEB10FAF2BCBC611C9746CCE8C12",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/military-communities-knolles-1370.md",
+    "notes": "Published analysis of Sir Robert Knolles' 1370 retinue (source TNA E101/30/25), the same data underlying the Hull thesis Tables 4.2-4.3 in which Sir John de Gourney appears as a captain. Corroborating source for the C11 knight-cluster identification. Abstract/preview consulted 2026-05-30; full chapter behind paywall."
+  },
+  {
     "sourceId": "morant-essex",
     "shortTitle": "Morant, History of Essex",
     "citation": "Morant, Philip. The History and Antiquities of the County of Essex. 2 vols. London, 1768.",
@@ -2049,7 +2145,7 @@
     "corpusPath": "",
     "mediaPath": "",
     "validationPath": "sources/validations/nehgr-49-genealogical-gleanings-john-lewis.md",
-    "notes": "User-supplied extract from John Lewis of Nevis will, dated 21 December 1699 and proved 9 July 1701, includes a reference to Mary Gurney, daughter of John Gurney. Treat as a same-name/relationship lead until the page image and surrounding punctuation are checked."
+    "notes": "User-supplied extract from John Lewis of Nevis will, dated 21 December 1699 and proved 9 July 1701, includes a reference to Mary Gurney, daughter of John Gurney. Probate registration confirmed 2026-05-29 as PCC register Dyer, quire 99 (PROB 11/461) from the NEHGR vol. 49 abstract (Internet Archive scan newenglandhistor49wate). Treat as a same-name/relationship lead; the working hypothesis ties Mary to G13's son John Jr. (b. c.1633), unconfirmed."
   },
   {
     "sourceId": "nehgr-62-94",
@@ -2268,6 +2364,18 @@
     "notes": "Regimental summary drawing from Phisterer and The Union Army. Confirms William Gurney's authority to raise the regiment, 8 September 1862 muster-in, service in Washington/Virginia/South Carolina/Charleston, 30 June 1865 muster-out, and regimental losses."
   },
   {
+    "sourceId": "odnb-matthew-gournay",
+    "shortTitle": "ODNB / DNB — Sir Matthew de Gournay (d. 1406), soldier",
+    "citation": "Oxford Dictionary of National Biography, s.v. 'Gournay [Gourney], Sir Matthew (d. 1406), soldier' (Oxford University Press); cf. Dictionary of National Biography, 1885-1900, s.v. 'Gourney, Mathew' (freely available on Wikisource).",
+    "archive": "Oxford University Press (ODNB) / Wikisource (DNB 1885-1900)",
+    "url": "https://www.oxforddnb.com/view/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-11163",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/odnb-matthew-gournay.md",
+    "notes": "Authoritative biography corroborating Sir Matthew de Gournay (d. 1406) as the fourth son of Sir Thomas Gurney of Englishcombe (a murderer of Edward II), of Stoke-sub-Hamdon, Somerset — the regicide/Somerset collateral branch, distinct from the Norfolk direct line and from Sir John de Gourney of Harptree. Adds an independent modern authority to the existing Pettigrew/Tyrwhitt/CPR material in research/places/somerset-gournay-collateral.md."
+  },
+  {
     "sourceId": "opendomesday-org",
     "shortTitle": "Open Domesday",
     "citation": "Powell-Smith, Anna. Open Domesday: a modern digital edition of the Domesday Book (1086). University of Hull / opendomesday.org.",
@@ -2422,6 +2530,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Etienne Pattou's chart-genealogy of the Gournay seigneurial line and its Norfolk and Somerset cadet branches. Independent of DG and of Cawley's MedLands; draws on Potin 1842, NRP-I 1852, and modern French scholarship. Companion chart referenced extensively in research companions for G31-G37. Note TLS-certificate issue when fetching via WebFetch (ERR_TLS_CERT_ALTNAME_INVALID on 2026-05-23); browser download works."
+  },
+  {
+    "sourceId": "pcc-rivett-rattlesden-wills",
+    "shortTitle": "PCC wills - Rivett/Ryvett of Rattlesden (1610, 1626)",
+    "citation": "Prerogative Court of Canterbury, registered wills: Thomas Rivett of Rattlesden, 1610 (PROB 11/116); Thomas Ryvett of Woodhall in Rattlesden, 1626 (PROB 11/148/688).",
+    "archive": "Ancestry 'England & Wales, Prerogative Court of Canterbury Wills, 1384-1858' (collection 5111); TNA PROB 11 equivalents",
+    "url": "https://www.ancestry.com/search/collections/5111/records/864421",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/pcc-rivett-rattlesden-wills.md",
+    "notes": "Both Rattlesden Rivett/Ryvett wills transcribed in full 2026-05-29 to test Margaret Rybett/Ryvett's parentage (lead L-7). Neither names a Gurney; the 1610 testator's children are Edward (sole executor), Thomas, and a married daughter Dame Anne Glascock, with no Margaret. Paywalled subscription images; not committed to repo."
   },
   {
     "sourceId": "pease-pennyghael",
@@ -2700,6 +2820,18 @@
     "notes": "Walter Rye's article on the Gurneys of Norwich. Critical for: (a) the multiple Gurney/Gurnell/Gurling/Garney name variants in Norwich registers, (b) plebeian Gurney lines in Norwich (shoemakers, cordwainers, lace weavers) from whom John the Quaker may have descended, (c) the disambiguation problem distinguishing related lines. Heavily relevant to John Gurney-1 research and the two-Francis problem."
   },
   {
+    "sourceId": "rye-feet-of-fines-norfolk",
+    "shortTitle": "Rye, Short Calendar of the Feet of Fines for Norfolk (Parts I-II)",
+    "citation": "Walter Rye, ed., A Short Calendar of the Feet of Fines for Norfolk. Part I: Richard I-Edward I (Norwich: Goose, 1885); Part II: Edward II-Richard III (Norwich: Goose, 1886).",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/ashortcalendarf00ryegoog",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/rye-feet-of-fines-norfolk.md",
+    "notes": "Calendar of Norfolk feet of fines. Part I (Internet Archive ashortcalendarf02ryegoog) = Richard I-Edward I; Part II (ashortcalendarf00ryegoog) = Edward II-Richard III. Gurnay/Gurney appearances include: Robert Gurnay of Parva Cressingham (Pt II entry 64 = the 1405 fine v. Edward Howard, no parentage recital); John Gurnay parson of Harpley (Pt II entry 489 = the Rector John); William fil. Philip de Gurnay and Elena (Pt II entry 146); and early-reign entries (Hugh de Gurnay; William de Gurnay v. Ingaldesthorp; John de Gurnay v. Sarra wife of Roger de Cressingham; Gurney of the manor of Saxthorpe). Calendar abstracts only; consult AALT CP 25/1 scans for the manuscript image and exact file/number."
+  },
+  {
     "sourceId": "rye-visitacion-norffolk-1891",
     "shortTitle": "Rye, Visitacion of Norffolk (1891)",
     "citation": "Hervey, William; Cooke, Robert; and Raven, John. The Visitacion of Norffolk, Made and Taken by William Hervey, Clarencieux King of Arms, Anno 1563; Enlarged with Another Visitacion Made by Clarenceux Cooke, with Many Other Descents; and also the Vissitation Made by John Raven, Richmond, Anno 1613. Edited by Walter Rye. London: Harleian Society, 1891.",
@@ -2916,6 +3048,18 @@
     "notes": "Modern manuscript-culture article. Relevant to Henry Gurnay's poetry in Chetham's Library MS A.4.15, MC15's Norfolk/East Anglian connections, and transmission between Great Ellingham and wider literary manuscript networks."
   },
   {
+    "sourceId": "gascon-rolls-project",
+    "shortTitle": "The Gascon Rolls Project (1317-1468)",
+    "citation": "The Gascon Rolls Project (1317-1468), eds. Universities of Oxford and Liverpool and King's College London, https://www.gasconrolls.org/. Calendar and edition of the Gascon Rolls (TNA C61).",
+    "archive": "University of Oxford / University of Liverpool / King's Digital Lab",
+    "url": "https://www.gasconrolls.org/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/gascon-rolls-project.md",
+    "notes": "Searchable calendar/edition of the C61 Gascon Rolls — the series behind the Gascony/Aquitaine letters of protection for Thomas de Gourney (1349, C61/61 m6), Sir Matthew de Gournay, and others in the soldier database. Finding aid for fuller calendared text of the Gascony protections (lead L-82); not yet systematically searched."
+  },
+  {
     "sourceId": "neverending-hobby-john-gurney-us-1636",
     "shortTitle": "The Neverending Hobby - John Gurney, US 1636",
     "citation": "\"John Gurney, US 1636.\" The Neverending Hobby.",
@@ -3048,6 +3192,18 @@
     "notes": "Edmund Gurnay's anti-image tract; title identifies him as Bachelor in Divinity and minister of God's word at Harpley in Norfolk; STC 12531 (first edition 1639). Online book scan (1661 republication): https://archive.org/details/bim_early-english-books-1641-1700_toward-the-vindication-o_gurnay-edmund_1661 (Internet Archive, Early English Books 1641-1700). Folger catalog record for the 1639 first edition (secondary bibliographic control): https://catalog.folger.edu/record/159994. The archive.org scan is the 1661 republication, not the 1639 Cambridge first edition the Folger record describes."
   },
   {
+    "sourceId": "trevor-john-erpingham-1970",
+    "shortTitle": "Trevor John, 'Sir Thomas Erpingham, East Anglian Society and the Dynastic Revolution of 1399' (1970)",
+    "citation": "Trevor John, 'Sir Thomas Erpingham, East Anglian Society and the Dynastic Revolution of 1399', Norfolk Archaeology 35, no. 1 (1970): 96-108. DOI 10.5284/1078024.",
+    "archive": "Norfolk and Norwich Archaeological Society / Archaeology Data Service",
+    "url": "https://doi.org/10.5284/1078024",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/trevor-john-erpingham-1970.md",
+    "notes": "Scholarly root of the Erpingham/Berney/Wynter/Shelton/Gurney Lancastrian Norfolk bloc and the likely source of the contested 'Sir Robert Gurney/Berney of Gunton, deputy at Dover 1400' reading. Registered as the cited authority for the network context; article not yet pulled (lead L-79)."
+  },
+  {
     "sourceId": "tyrwhitt-canterbury-tales-1798-v2",
     "shortTitle": "Tyrwhitt ed., Canterbury Tales of Chaucer, vol. ii Notes (1798)",
     "citation": "Thomas Tyrwhitt, ed., The Canterbury Tales of Chaucer, vol. ii (London, 1798).",
@@ -3072,6 +3228,18 @@
     "notes": "Stewkley manors. Used in Candidate A analysis."
   },
   {
+    "sourceId": "visitations-norfolk-harleian-32",
+    "shortTitle": "Visitations of Norfolk 1563/1589/1613 (Harleian Soc. 32)",
+    "citation": "Walter Rye, ed., The Visitacion of Norfolk, made and taken by William Hervey, Clarencieux, anno 1563, enlarged with another visitacion made by Clarenceux Cooke; with many other descents (Harleian Society, vol. 32, 1891).",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/visitacionievisi32ryew",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/visitations-norfolk-harleian-32.md",
+    "notes": "Heralds' visitation pedigrees of Norfolk. p. 141 (from Harl. MS 1552 fo. 53/49) gives the West Barsham / Great Ellingham Gurney pedigree: arms 'Argent, a cross engrailed gules, in dexter chief point a cinquefoil azure'; Anthony (G17) -> Francis of West Barsham m. Ellen Holdich of Ranworth (G16) -> Henry of Great Ellingham m. Ellen Blennerhassett of Barsham (G15) -> sons incl. Thomas (heir, m. Martha Lewknor of Denham), Henry, Edward, Anthony, '6. Francis, of London' (= G14), Leonard, and Bassingbourne (ob. s.p.), plus daughters. Confirms the G15->G14 link from an authoritative heraldic source. Resolves lead L-24."
+  },
+  {
     "sourceId": "wace-roman-de-rou",
     "shortTitle": "Wace, Roman de Rou",
     "citation": "Wace. Le Roman de Rou. Edited by A. J. Holden, 3 vols. Société des anciens textes français, Paris, 1970-1973. English translation: G. S. Burgess, The History of the Norman People: Wace's Roman de Rou. Woodbridge: Boydell Press, 2004.",
@@ -3082,6 +3250,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "12th-century Old French verse chronicle of the Normans. Tome 2 contains the 'Et li vieil Hue de Gornai / Ensemble o li sa gent de Brai' verses naming Hugh II at Hastings 1066. Cited via Potin 1842 p. 105."
+  },
+  {
+    "sourceId": "walker-lancastrian-affinity-1361-1399",
+    "shortTitle": "Walker, The Lancastrian Affinity 1361–1399",
+    "citation": "Simon Walker, The Lancastrian Affinity 1361–1399, Oxford Historical Monographs (Oxford: Clarendon Press, 1990).",
+    "archive": "Oxford University Press (Clarendon Press)",
+    "url": "https://academic.oup.com/book/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/walker-lancastrian-affinity-1361-1399.md",
+    "notes": "Standard study of John of Gaunt's affinity. Used 2026-05-30 (n.19) for the East Anglian legal-administrative retainer cohort: Edmund Gournay (G23) 'the principal legal adviser to the burgesses of Lynn' and a fee-taker from the abbey of St Benet's Holme, bracketed with John Winter (Wynter), Robert Cayley, Thomas Pinchbeck, John Methwold, Edmund Clippesby. Walker's note cites Staffordshire RO D.641/1/2/4 m.4; TNA E.403/478 m.16; HMC MSS of the Corporations of Southampton and King's Lynn (1887) pp.221-2; CPR 1381-5 p.380; KB 9/166/1 m.69 (lead L-77). Text consulted 2026-05-30 via a digital reproduction of the affinity prosopography; the underlying authority is Walker."
   },
   {
     "sourceId": "wansey-medieval-genealogy-1925",

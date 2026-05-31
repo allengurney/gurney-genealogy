@@ -1,3 +1,5 @@
+**Done:** 2026-05-30 21:06 PT
+
 # v79 — G24 fact sheet: the Arundel-tenure generational thread
 
 **Scope:** Phase 2 application. A light, evidence-grounded touch to `fact-sheets/g24-john-de-gournay-iv-fact-sheet.md` that surfaces the connective thread the user flagged: the family held Harpley *of* the FitzAlan earls of Arundel (and the Warenne earls before them) — a tenurial bond present in John IV's (G24's) own generation that his son Edmund (G23) turned into active service as steward of the earl of Arundel's Norfolk estates, and that Sir John Gurney V held again in G21's generation. This is not the medieval-soldier arc; it is the generational-affinity story made explicit at its tenurial root.

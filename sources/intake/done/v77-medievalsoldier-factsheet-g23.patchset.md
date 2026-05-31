@@ -1,3 +1,5 @@
+**Done:** 2026-05-30 21:06 PT
+
 # v77 — Medieval-soldier discovery: G23 Edmund fact-sheet promotion
 
 **Scope:** Phase 2 application. Closes the promotion stage of the 2026-05-30 medieval-soldier arc (v75 topic file + sources; v76 companion cross-links). Promotes the Walker finding — Edmund Gournay as a retained member of John of Gaunt's East Anglian affinity, with a fee from St Benet's Holme abbey — into `fact-sheets/g23-edmund-gurney-fact-sheet.md`. The evidence and full apparatus already live in the G23 companion (v76 Item 01) and the topic file; this is a promotion, not new research.
