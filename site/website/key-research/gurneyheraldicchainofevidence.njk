@@ -1,0 +1,467 @@
+---
+layout: layouts/base.njk
+permalink: /key-research/gurney-heraldic-chain-of-evidence.html
+title: A Heraldic Chain of Evidence for the Gurney Line
+pageHeading: A Heraldic Chain of Evidence for the Gurney Line
+subtitle: "How arms, seals, stained glass, visitations, and family-paper pedigrees corroborate the medieval-to-Tudor Gurney lineage."
+description: "Visual infographic mapping heraldic witnesses — Heralds' Visitations, West Barsham church arms, domestic shields, Walsingham Abbey stained glass, early seal evidence, and recurring Gurney arms — across sixteen generations G14–G29."
+bodyClass: heraldic-page
+activeNav: research
+---
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+:root {
+  --hc-navy: #2E3D63;
+  --hc-burgundy: #8C2B2B;
+  --hc-green: #3C6B47;
+  --hc-teal: #1F6F6A;
+  --hc-gold: #A6781F;
+  --hc-red: #A6281F;
+  --hc-parchment: #F3EAD3;
+  --hc-ink: #2B2620;
+  --hc-muted: #695B43;
+  --hc-rule: #C9B68C;
+  --hc-guide: #D8C8A0;
+}
+
+.heraldic-page .page-wrap { max-width: min(1680px, 100%); padding: 18px 14px 54px; }
+.heraldic-page .page-body { padding: 14px; }
+.heraldic-page .doc-content { max-width: none; }
+
+.hc-intro {
+  max-width: 1100px;
+  margin: 0 0 16px;
+  font-family: Inter, Arial, sans-serif;
+  font-size: .94rem;
+  line-height: 1.58;
+  color: #5b6575;
+}
+
+.hc-stage {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: radial-gradient(120% 120% at 50% 40%, #221d17, #0e0c0a);
+  border-radius: 14px;
+  box-shadow: 0 24px 64px rgba(0,0,0,.32);
+}
+
+#hc-canvas {
+  position: relative;
+  width: 2400px;
+  height: 1404px;
+  transform-origin: top left;
+  background: radial-gradient(140% 120% at 18% 8%, #F8F0DC 0%, #F3EAD3 42%, #ECE0C2 100%);
+  overflow: hidden;
+  font-family: 'EB Garamond', Georgia, serif;
+  color: var(--hc-ink);
+}
+
+#hc-canvas::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(60% 50% at 85% 95%, rgba(120,96,52,.07), transparent 70%),
+    radial-gradient(50% 40% at 8% 92%, rgba(120,96,52,.06), transparent 70%);
+  mix-blend-mode: multiply;
+  z-index: 0;
+}
+
+#hc-canvas::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  box-shadow: inset 0 0 0 14px rgba(255,255,255,.32), inset 0 0 0 16px rgba(150,124,78,.28);
+  z-index: 10;
+}
+
+/* masthead */
+.hc-masthead {
+  position: absolute;
+  left: 74px; top: 70px; width: 628px;
+  z-index: 1;
+}
+.hc-masthead h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.02;
+  letter-spacing: .2px;
+  color: var(--hc-ink);
+  margin: 0;
+}
+.hc-lead {
+  margin-top: 9px;
+  font-size: 24px;
+  line-height: 1.4;
+  color: var(--hc-muted);
+}
+
+/* zebra + guides */
+.hc-zebra {
+  position: absolute;
+  left: 64px; right: 64px;
+  background: rgba(120,96,52,.05);
+  z-index: 1;
+}
+.hc-guide {
+  position: absolute;
+  left: 64px; right: 70px;
+  height: 0;
+  border-top: 1.5px solid var(--hc-guide);
+  z-index: 1;
+}
+
+/* spine rows */
+.hc-srow {
+  position: absolute;
+  left: 74px; width: 628px;
+  display: flex; align-items: center; gap: 18px;
+  z-index: 2;
+}
+.hc-gtag {
+  flex: 0 0 auto;
+  min-width: 64px; height: 50px;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(43,38,32,.06);
+  border: 1.5px solid var(--hc-rule);
+  border-radius: 9px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600; font-size: 27px;
+  color: var(--hc-muted);
+  letter-spacing: .04em; padding: 0 12px;
+}
+.hc-sname {
+  font-size: 31px; font-weight: 600; line-height: 1.02;
+  color: var(--hc-ink); white-space: nowrap;
+}
+.hc-swife {
+  font-size: 22px; line-height: 1.1;
+  color: var(--hc-muted); font-style: italic;
+  margin-top: 3px; white-space: nowrap;
+}
+.hc-swife.unknown { color: #8C7C5B; }
+
+/* column headers */
+.hc-head {
+  position: absolute;
+  top: 50px;
+  text-align: center;
+  z-index: 2;
+}
+.hc-ico {
+  height: 60px;
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 12px;
+}
+.hc-ico svg { width: 56px; height: 56px; display: block; }
+.hc-htitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700; font-size: 29px; line-height: 1.05;
+  letter-spacing: .2px; min-height: 92px;
+}
+.hc-htitle::after {
+  content: "";
+  display: block; width: 50px; height: 2px;
+  background: currentColor; opacity: .5;
+  margin: 14px auto 0;
+}
+.hc-hdesc {
+  font-size: 23px; line-height: 1.36;
+  color: var(--hc-ink); margin-top: 14px;
+}
+
+/* ribbons + dots */
+.hc-ribbon {
+  position: absolute;
+  border-radius: 60px;
+  border: 1.5px solid;
+  z-index: 1;
+}
+.hc-dot {
+  position: absolute;
+  width: 30px; height: 30px;
+  border-radius: 50%;
+  z-index: 3;
+}
+.hc-dot.open {
+  background: transparent !important;
+  border: 4px solid;
+}
+
+/* sub-lane labels */
+.hc-sublabel {
+  position: absolute;
+  text-align: left;
+  z-index: 2;
+}
+.hc-sl-top { display: flex; align-items: center; gap: 9px; }
+.hc-sl-ico { width: 30px; height: 30px; flex: 0 0 auto; }
+.hc-sl-ico svg { width: 30px; height: 30px; }
+.hc-sl-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700; font-size: 22px; line-height: 1.02;
+  white-space: nowrap;
+}
+.hc-sl-desc {
+  font-size: 20px; line-height: 1.32;
+  color: var(--hc-ink); margin-top: 8px;
+}
+.hc-connector {
+  position: absolute; width: 0;
+  border-left: 2px dashed; opacity: .55;
+  z-index: 2;
+}
+
+/* summary block below infographic */
+.hc-summary {
+  max-width: 1100px;
+  margin: 16px 0 0;
+  padding: 1rem 1.1rem;
+  border: 1px solid #d9cfbf;
+  border-radius: 14px;
+  background: #fffaf0;
+  font-family: Inter, Arial, sans-serif;
+  font-size: .93rem;
+  line-height: 1.58;
+  color: #3d3229;
+}
+.hc-summary h2 {
+  margin: 0 0 .5rem;
+  font-family: 'Crimson Pro', Georgia, serif;
+  font-size: 1.25rem;
+  color: #2b2620;
+}
+.hc-summary ul { margin: .35rem 0 0 1.2rem; }
+</style>
+
+<p class="hc-intro"><strong>Visual reference.</strong> This page maps multiple independent heraldic evidence sources against the Gurney ancestor spine from G14 to G29. The infographic complements deeds, wills, and parish records — it does not replace them.</p>
+
+<div class="hc-stage" id="hc-stage">
+  <div id="hc-canvas">
+    <div class="hc-masthead">
+      <h1>A Heraldic Chain<br>of Evidence for<br>the Gurney Line</h1>
+      <div class="hc-lead">This infographic shows that the Gurney lineage is not supported only by written records. Across roughly fifteen generations, the same family shield and related heraldic displays appear again and again in seals, stained glass, churches, houses, monuments, and armorial pedigrees — creating a physical evidence chain that independently ties the Tudor Gurneys to the medieval Norfolk line.</div>
+    </div>
+    <div id="hc-layer"></div>
+  </div>
+</div>
+
+<section class="hc-summary" aria-label="Plain-text summary">
+  <h2>Reading this chart</h2>
+  <p>The visual tracks G14 through G29 across five categories of heraldic witness: Heralds&#8217; Visitations, West Barsham church arms, shields displayed in homes (with early arms &amp; seal evidence for the medieval line), Walsingham Abbey stained-glass arms, and the recurring Gurney arms. Solid dots mark direct anchors; open dots mark open or nuanced links.</p>
+  <ul>
+    <li><strong>Later Tudor bridge:</strong> Visitations and West Barsham evidence cluster around G14&#8211;G17.</li>
+    <li><strong>West Barsham marriage network:</strong> Church and house displays mark Wauncy, Calthorpe, Lovell, Holdich, Blennerhasset, Jerningham, Heydon, and related marriage/inheritance links.</li>
+    <li><strong>Medieval armorial continuity:</strong> Walsingham glass, early arms and seal evidence, and recurring Gurney arms extend the chain back through the medieval Norfolk line.</li>
+  </ul>
+</section>
+
+<script>
+(function () {
+  /* ── geometry ── */
+  const W = 2400, H = 1404;
+  let gridTop = 452, rowH = 58;
+  const NROWS = 16;
+  const evLeft = 716, evRight = 2330, colGap = 26, nCols = 5;
+  const colW = (evRight - evLeft - (nCols - 1) * colGap) / nCols;
+  const RB = 114;
+  const colX = k => evLeft + k * (colW + colGap);
+  const colCenter = k => colX(k) + colW / 2;
+  const rowTop = i => gridTop + i * rowH;
+  const rowCenter = i => gridTop + i * rowH + rowH / 2;
+  const fill = c => `color-mix(in srgb, ${c} 15%, transparent)`;
+  const edge = c => `color-mix(in srgb, ${c} 34%, transparent)`;
+
+  /* ── icons ── */
+  const I = {
+    scroll: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h10a2 2 0 0 1 2 2v12a3 3 0 0 0 3 3H8a2 2 0 0 1-2-2V3Z"/><path d="M6 3a2 2 0 0 0-2 2v2h2"/><path d="M9 8h6M9 11.5h6M9 15h4"/></svg>`,
+    church: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M10 4h4"/><path d="M12 6 5 11v10h14V11L12 6Z"/><path d="M9 21v-4a3 3 0 0 1 6 0v4"/><path d="M5 14H3v7h2M19 14h2v7h-2"/></svg>`,
+    shield4: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5 4.5 5v6c0 5 3.5 8 7.5 10.5C16 19 19.5 16 19.5 11V5L12 2.5Z"/><path d="M12 3v18M4.6 11.6h14.8"/></svg>`,
+    window: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 11a7 7 0 0 1 14 0v9a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-9Z"/><path d="M12 4v17M5 12h14"/></svg>`,
+    shieldcross: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5 4.5 5v6c0 5 3.5 8 7.5 10.5C16 19 19.5 16 19.5 11V5L12 2.5Z"/><path d="M12 6v11M7 11.3h10"/></svg>`,
+    seal: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9.5" r="6"/><path d="M12 6.3 13 8.4l2.3.3-1.7 1.6.4 2.3L12 11.8l-2 1.1.4-2.3-1.7-1.6 2.3-.3L12 6.3Z"/><path d="M9 14.6 8 22l4-2 4 2-1-7.4"/></svg>`,
+  };
+
+  /* ── data ── */
+  const GENS = [
+    { g: 'G14', name: 'Francis Gurney',        wife: 'm. Anne Browning' },
+    { g: 'G15', name: 'Henry Gurney',           wife: 'm. Ellen Blennerhasset' },
+    { g: 'G16', name: 'Francis Gurney',         wife: 'm. Ellen Holdich' },
+    { g: 'G17', name: 'Anthony Gurney',         wife: 'm. Margaret Lovell · Elizabeth Tyrrell' },
+    { g: 'G18', name: 'William Gurney V',       wife: 'm. Anne Heydon' },
+    { g: 'G19', name: 'William Gurney IV',      wife: 'm. Anne Calthorpe' },
+    { g: 'G20', name: 'Thomas Gournay II',      wife: 'm. Margaret Jerningham' },
+    { g: 'G21', name: 'Thomas Gournay I',       wife: 'm. Catherine Kerville' },
+    { g: 'G22', name: 'Robert Gournay',         wife: 'wife unknown', unk: true },
+    { g: 'G23', name: 'Edmund Gournay',         wife: 'm. Katherine Wauncy' },
+    { g: 'G24', name: 'John de Gournay IV',     wife: 'wife unknown', unk: true },
+    { g: 'G25', name: 'John de Gournay III',    wife: 'm. Jane de Lexham' },
+    { g: 'G26', name: 'William de Gournay III', wife: 'm. Katherine Baconsthorpe?' },
+    { g: 'G27', name: 'Sir John de Gournay I',  wife: 'wife unknown', unk: true },
+    { g: 'G28', name: 'William de Gournay II',  wife: 'm. Katherine Ingoldesthorpe' },
+    { g: 'G29', name: 'Matthew de Gournay',     wife: 'm. Rose de Burnham' },
+  ];
+
+  const COLS = [
+    {
+      color: 'var(--hc-navy)', icon: I.scroll,
+      title: 'Heralds’ Visitations',
+      desc: 'Formal Tudor pedigree reviews record the later Gurney branch — the documented bridge into the well-known London generations.',
+      ribbons: [{ first: 0, last: 3, dots: [0, 1, 2, 3] }]
+    },
+    {
+      color: 'var(--hc-burgundy)', icon: I.church,
+      title: 'West Barsham Church Arms',
+      desc: 'A public church display preserved this family’s marriage network in heraldic form.',
+      ribbons: [{ first: 1, last: 9, dots: [1, 2, 3, 5, 6, 9] }]
+    },
+    {
+      color: 'var(--hc-green)', icon: I.shield4,
+      title: 'Shields in Homes',
+      desc: 'Heraldic shields displayed inside family houses acted as a visible résumé of key marriages and inherited connections.',
+      ribbons: [{ first: 3, last: 9, dots: [3, 4, 5, 6, 9] }],
+      sub: {
+        color: 'var(--hc-teal)', icon: I.seal,
+        title: 'Early Arms &amp; Seal',
+        desc: 'A 1294 seal and early roll show these arms in the medieval line.',
+        first: 12, last: 13, dots: [12, 13], labelRow: 10.05, labelAbove: true
+      }
+    },
+    {
+      color: 'var(--hc-gold)', icon: I.window,
+      title: 'Walsingham Abbey Stained Glass Arms',
+      desc: 'A quartered shield in the abbey glass compresses several inherited family lines into one map of descent and inheritance.',
+      ribbons: [{ first: 3, last: 15, dots: [3, 9, 15], open: [12] }]
+    },
+    {
+      color: 'var(--hc-red)', icon: I.shieldcross,
+      title: 'Recurring Gurney Arms',
+      desc: 'The same red engrailed cross recurs across centuries and source types, tying the Tudor family back to the medieval Norfolk line.',
+      ribbons: [{ first: 0, last: 13, dots: [0, 1, 2, 3, 5, 7, 9, 12, 13] }]
+    },
+  ];
+
+  /* ── render helpers ── */
+  function mkDot(cx, cy, color, open) {
+    if (open) {
+      return `<div class="hc-dot open" style="left:${cx - 15}px;top:${cy - 15}px;border-color:${color};box-shadow:0 0 0 4px #F3EAD3"></div>`;
+    }
+    return `<div class="hc-dot" style="left:${cx - 15}px;top:${cy - 15}px;background:${color};box-shadow:0 0 0 4px #F3EAD3,0 1px 2px rgba(0,0,0,.3)"></div>`;
+  }
+
+  function mkRibbon(cx, first, last, color) {
+    const top = rowTop(first);
+    const h = rowTop(last + 1) - rowTop(first) - 10;
+    return `<div class="hc-ribbon" style="left:${cx - RB / 2}px;top:${top + 5}px;width:${RB}px;height:${h}px;background:${fill(color)};border-color:${edge(color)}"></div>`;
+  }
+
+  const layer = document.getElementById('hc-layer');
+
+  function build() {
+    /* column headers first — measure to set gridTop */
+    let headHtml = '';
+    COLS.forEach((c, k) => {
+      headHtml += `<div class="hc-head" style="left:${colX(k)}px;width:${colW}px;color:${c.color}">
+        <div class="hc-ico">${c.icon}</div>
+        <div class="hc-htitle"><span>${c.title}</span></div>
+        <div class="hc-hdesc">${c.desc}</div>
+      </div>`;
+    });
+    layer.innerHTML = headHtml;
+
+    const HEAD_TOP = 50;
+    const masthead = document.querySelector('.hc-masthead');
+    const mastheadBottom = 70 + (masthead ? masthead.offsetHeight : 300);
+    let maxHeadH = 0;
+    document.querySelectorAll('.hc-head').forEach(h => { maxHeadH = Math.max(maxHeadH, h.offsetHeight); });
+    const headBottom = HEAD_TOP + maxHeadH;
+    gridTop = Math.round(Math.max(mastheadBottom, headBottom) + 30);
+    rowH = Math.min(66, (H - gridTop - 40) / NROWS);
+
+    let html = '';
+
+    /* zebra bands */
+    for (let i = 0; i < NROWS; i++) {
+      if (i % 2 === 1) html += `<div class="hc-zebra" style="top:${rowTop(i)}px;height:${rowH}px"></div>`;
+    }
+    /* guide lines */
+    for (let i = 0; i < NROWS; i++) {
+      html += `<div class="hc-guide" style="top:${rowCenter(i)}px"></div>`;
+    }
+
+    /* ribbons + dots */
+    COLS.forEach((c, k) => {
+      const cx = colCenter(k);
+      c.ribbons.forEach(r => {
+        html += mkRibbon(cx, r.first, r.last, c.color);
+        r.dots.forEach(i => { html += mkDot(cx, rowCenter(i), c.color, false); });
+        (r.open || []).forEach(i => { html += mkDot(cx, rowCenter(i), c.color, true); });
+      });
+      if (c.sub) {
+        const s = c.sub;
+        html += mkRibbon(cx, s.first, s.last, s.color);
+        s.dots.forEach(i => { html += mkDot(cx, rowCenter(i), s.color, false); });
+      }
+    });
+
+    /* spine rows */
+    GENS.forEach((g, i) => {
+      html += `<div class="hc-srow" style="top:${rowTop(i)}px;height:${rowH}px">
+        <div class="hc-gtag">${g.g}</div>
+        <div>
+          <div class="hc-sname">${g.name}</div>
+          <div class="hc-swife${g.unk ? ' unknown' : ''}">${g.wife}</div>
+        </div>
+      </div>`;
+    });
+
+    /* sub-lane floating labels + connectors */
+    COLS.forEach((c, k) => {
+      if (!c.sub) return;
+      const s = c.sub, cx = colCenter(k);
+      const lblTop = rowTop(s.labelRow);
+      const lblLeft = colX(k);
+      html += `<div class="hc-sublabel" style="left:${lblLeft}px;top:${lblTop}px;width:${colW}px">
+        <div class="hc-sl-top">
+          <div class="hc-sl-ico" style="color:${s.color}">${s.icon}</div>
+          <div class="hc-sl-title" style="color:${s.color}">${s.title}</div>
+        </div>
+        <div class="hc-sl-desc">${s.desc}</div>
+      </div>`;
+      const segTop = rowTop(s.first);
+      if (s.labelAbove) {
+        html += `<div class="hc-connector" style="left:${cx}px;top:${rowTop(s.labelRow + 1.9)}px;height:${segTop - rowTop(s.labelRow + 1.9) + 5}px;border-color:${s.color}"></div>`;
+      } else {
+        html += `<div class="hc-connector" style="left:${cx}px;top:${rowCenter(s.first) + 16}px;height:${lblTop - rowCenter(s.first) - 18}px;border-color:${s.color}"></div>`;
+      }
+    });
+
+    layer.insertAdjacentHTML('beforeend', html);
+  }
+
+  function fit() {
+    const stage = document.getElementById('hc-stage');
+    const canvas = document.getElementById('hc-canvas');
+    if (!stage || !canvas) return;
+    const w = stage.offsetWidth;
+    const s = w / W;
+    canvas.style.transform = `scale(${s})`;
+    stage.style.height = (H * s) + 'px';
+  }
+
+  build();
+  fit();
+
+  window.addEventListener('resize', fit);
+
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(() => { build(); fit(); });
+  }
+})();
+</script>
