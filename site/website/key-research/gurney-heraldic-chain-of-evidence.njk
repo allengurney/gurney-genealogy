@@ -1,233 +1,312 @@
 ---
-layout: layouts/base.njk
 permalink: /key-research/gurney-heraldic-chain-of-evidence.html
-title: A Heraldic Chain of Evidence for the Gurney Line
-pageHeading: A Heraldic Chain of Evidence for the Gurney Line
-subtitle: "A visual reference showing how heraldic witnesses cluster across the Tudor and medieval Norfolk Gurney line."
-description: "Infographic-style reference mapping visitations, West Barsham arms, house shields, Walsingham Abbey glass, early seal evidence, and recurring Gurney arms across G14–G29."
-bodyClass: heraldic-page
-activeNav: research
-rows:
-  - gen: "G14"
-    name: "Francis Gurney"
-    wife: "m. Anne Browning"
-    wifeClass: ""
-    visitations: "active dot"
-    west: ""
-    homes: ""
-    walsingham: ""
-    recurring: "active dot"
-  - gen: "G15"
-    name: "Henry Gurney"
-    wife: "m. Ellen Blennerhasset"
-    wifeClass: ""
-    visitations: "active dot"
-    west: "active dot"
-    homes: ""
-    walsingham: ""
-    recurring: "active dot"
-  - gen: "G16"
-    name: "Francis Gurney"
-    wife: "m. Ellen Holdich"
-    wifeClass: ""
-    visitations: "active dot"
-    west: "active dot"
-    homes: ""
-    walsingham: ""
-    recurring: "active dot"
-  - gen: "G17"
-    name: "Anthony Gurney"
-    wife: "m. Margaret Lovell · Elizabeth Tyrrell"
-    wifeClass: ""
-    visitations: "active dot"
-    west: "active dot"
-    homes: "active dot"
-    walsingham: "active dot"
-    recurring: "active dot"
-  - gen: "G18"
-    name: "William Gurney V"
-    wife: "m. Anne Heydon"
-    wifeClass: ""
-    visitations: ""
-    west: "active"
-    homes: "active dot"
-    walsingham: "active"
-    recurring: "active"
-  - gen: "G19"
-    name: "William Gurney IV"
-    wife: "m. Anne Calthorpe"
-    wifeClass: ""
-    visitations: ""
-    west: "active dot"
-    homes: "active dot"
-    walsingham: "active"
-    recurring: "active dot"
-  - gen: "G20"
-    name: "Thomas Gournay II"
-    wife: "m. Margaret Jerningham"
-    wifeClass: ""
-    visitations: ""
-    west: "active dot"
-    homes: "active dot"
-    walsingham: "active"
-    recurring: "active"
-  - gen: "G21"
-    name: "Thomas Gournay I"
-    wife: "m. Catherine Kerville"
-    wifeClass: ""
-    visitations: ""
-    west: "active"
-    homes: "active"
-    walsingham: "active"
-    recurring: "active dot"
-  - gen: "G22"
-    name: "Robert Gournay"
-    wife: "wife unknown"
-    wifeClass: "unknown"
-    visitations: ""
-    west: "active"
-    homes: "active"
-    walsingham: "active"
-    recurring: "active"
-  - gen: "G23"
-    name: "Edmund Gournay"
-    wife: "m. Katherine Wauncy"
-    wifeClass: ""
-    visitations: ""
-    west: "active dot"
-    homes: "active dot"
-    walsingham: "active dot"
-    recurring: "active dot"
-  - gen: "G24"
-    name: "John de Gournay IV"
-    wife: "wife unknown"
-    wifeClass: "unknown"
-    visitations: ""
-    west: ""
-    homes: ""
-    walsingham: "active"
-    recurring: "active"
-  - gen: "G25"
-    name: "John de Gournay III"
-    wife: "m. Jane de Lexham"
-    wifeClass: ""
-    visitations: ""
-    west: ""
-    homes: ""
-    walsingham: "active"
-    recurring: "active"
-  - gen: "G26"
-    name: "William de Gournay III"
-    wife: "m. Katherine Baconsthorpe?"
-    wifeClass: ""
-    visitations: ""
-    west: ""
-    homes: "active dot early"
-    walsingham: "active open"
-    recurring: "active dot"
-  - gen: "G27"
-    name: "Sir John de Gournay I"
-    wife: "wife unknown"
-    wifeClass: "unknown"
-    visitations: ""
-    west: ""
-    homes: "active dot early"
-    walsingham: "active"
-    recurring: "active dot"
-  - gen: "G28"
-    name: "William de Gournay II"
-    wife: "m. Katherine Ingoldesthorpe"
-    wifeClass: ""
-    visitations: ""
-    west: ""
-    homes: ""
-    walsingham: "active"
-    recurring: ""
-  - gen: "G29"
-    name: "Matthew de Gournay"
-    wife: "m. Rose de Burnham"
-    wifeClass: ""
-    visitations: ""
-    west: ""
-    homes: ""
-    walsingham: "active dot"
-    recurring: ""
 ---
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>A Heraldic Chain of Evidence for the Gurney Line</title>
+<meta name="description" content="Infographic mapping heraldic witnesses — Heralds' Visitations, West Barsham church arms, domestic shields, Walsingham Abbey stained glass, early seal evidence, and recurring Gurney arms — across the medieval-to-Tudor Norfolk Gurney line, G14–G29." />
+<meta property="og:title" content="A Heraldic Chain of Evidence for the Gurney Line | Gurney Genealogy Library" />
+<meta property="og:type" content="article" />
+<meta name="robots" content="index,follow" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
 <style>
-.heraldic-page .page-wrap{max-width:min(1680px,100%);padding:18px 14px 54px}
-.heraldic-page .page-body{padding:18px}
-.heraldic-page .doc-content{max-width:none}
-.heraldic-chain{--parchment:#f3ead3;--parchment2:#ece0c2;--ink:#2b2620;--muted:#695b43;--rule:#c9b68c;--visit:#2e3d63;--church:#8c2b2b;--homes:#3c6b47;--early:#1f6f6a;--glass:#a6781f;--arms:#a6281f;color:var(--ink)}
-.heraldic-chain .intro{max-width:1120px;margin:0 auto 1.1rem;font-family:Inter,Arial,sans-serif;color:#5b6575;font-size:.96rem;line-height:1.55}
-.heraldic-chain .intro strong{color:var(--ink)}
-.heraldic-scroll{overflow:auto;padding:14px;border:1px solid #d2c4a2;border-radius:18px;background:radial-gradient(120% 120% at 50% 40%,#221d17,#0e0c0a);box-shadow:0 18px 44px rgba(29,33,41,.16)}
-.chain-board{min-width:1250px;padding:34px 34px 28px;border-radius:12px;background:radial-gradient(140% 120% at 18% 8%,#f8f0dc 0%,var(--parchment) 42%,var(--parchment2) 100%);box-shadow:inset 0 0 0 10px rgba(255,255,255,.28),inset 0 0 0 12px rgba(150,124,78,.22);font-family:"Crimson Pro",Georgia,serif}
-.chain-title{display:grid;grid-template-columns:370px 1fr;gap:28px;align-items:start;margin-bottom:26px}
-.chain-title h2{font-size:2.55rem;line-height:1.02;margin:0;color:var(--ink)}
-.chain-title p{font-size:1.35rem;line-height:1.38;margin:.35rem 0 0;color:var(--muted)}
-.chain-key{display:flex;gap:16px;flex-wrap:wrap;margin-top:12px;font-family:Inter,Arial,sans-serif;font-size:.82rem;color:var(--muted)}
-.chain-key span{display:inline-flex;align-items:center;gap:7px}
-.chain-key span::before{content:"";width:13px;height:13px;border-radius:50%;background:var(--arms);box-shadow:0 0 0 3px var(--parchment)}
-.chain-key span:nth-child(2)::before{background:transparent;border:2px solid var(--glass);box-shadow:none}
-.chain-head,.chain-row{display:grid;grid-template-columns:370px repeat(5,1fr);gap:10px;align-items:stretch}
-.chain-head{margin-bottom:10px}
-.evidence-head{text-align:center;padding:0 10px 12px;border-bottom:2px solid currentColor}
-.evidence-head h2{font-size:1.35rem;line-height:1.05;margin:.15rem 0 .55rem;color:currentColor}
-.evidence-head p{font-size:1.02rem;line-height:1.26;margin:0;color:var(--ink)}
-.evidence-icon{width:42px;height:42px;margin:0 auto .45rem;border:2px solid currentColor;border-radius:50%;position:relative}
-.evidence-icon::after{content:"";position:absolute;left:11px;right:11px;top:19px;border-top:2px solid currentColor}
-.visitations{color:var(--visit)}.west{color:var(--church)}.homes{color:var(--homes)}.walsingham{color:var(--glass)}.recurring{color:var(--arms)}
-.chain-row{min-height:58px;border-top:1px solid rgba(105,91,67,.24)}.chain-row:nth-child(even){background:rgba(120,96,52,.055)}
-.ancestor-cell{display:flex;align-items:center;gap:14px;padding:6px 10px}
-.gen{min-width:58px;text-align:center;padding:.28rem .45rem;border:1px solid var(--rule);border-radius:8px;background:rgba(43,38,32,.055);font-weight:700;color:var(--muted);font-size:1.05rem}
-.person strong{display:block;font-size:1.25rem;line-height:1.05;color:var(--ink);white-space:nowrap}.person em{display:block;font-size:1rem;line-height:1.15;color:var(--muted);white-space:nowrap}.person em.unknown{color:#8c7c5b}
-.evidence-cell{position:relative;display:flex;align-items:center;justify-content:center}.evidence-cell.active::before{content:"";position:absolute;top:-1px;bottom:-1px;width:56px;border-left:1px solid color-mix(in srgb,currentColor 34%,transparent);border-right:1px solid color-mix(in srgb,currentColor 34%,transparent);background:color-mix(in srgb,currentColor 15%,transparent);border-radius:8px}
-.evidence-cell.dot span{position:relative;z-index:1;width:20px;height:20px;border-radius:50%;background:currentColor;box-shadow:0 0 0 4px var(--parchment),0 1px 2px rgba(0,0,0,.25)}.evidence-cell.open span{background:transparent;border:3px solid currentColor;box-shadow:0 0 0 4px var(--parchment)}
-.evidence-cell.early{color:var(--early)}.evidence-cell.early::after{content:"Early arms & seal";position:absolute;left:calc(50% + 38px);top:50%;transform:translateY(-50%);font-family:Inter,Arial,sans-serif;font-size:.74rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;color:var(--early);white-space:nowrap}
-.chain-summary{max-width:1120px;margin:1.2rem auto 0;padding:1rem 1.1rem;border:1px solid #d9cfbf;border-radius:14px;background:#fffaf0;font-family:Inter,Arial,sans-serif;font-size:.94rem;line-height:1.58;color:#3d3229}
-.chain-summary h2{margin:0 0 .45rem;font-family:"Crimson Pro",Georgia,serif;font-size:1.35rem;color:var(--ink)}.chain-summary ul{margin:.35rem 0 0 1.2rem}
-@media(max-width:760px){.heraldic-page .page-body{padding:12px}.heraldic-scroll{padding:8px;border-radius:14px}.chain-board{min-width:1180px;padding:24px}.chain-title h2{font-size:2.1rem}}
-</style>
+  :root{
+    --bg:#F3EAD3;
+    --bg2:#ECE0C2;
+    --ink:#2B2620;
+    --ink2:#695B43;
+    --ink3:#8C7C5B;
+    --guide:#D8C8A0;
+    --rule:#C9B68C;
+    --navy:#2E3D63;
+    --purple:#6E4A86;
+    --burgundy:#8C2B2B;
+    --green:#3C6B47;
+    --teal:#1F6F6A;
+    --gold:#A6781F;
+    --sepia:#876843;
+    --red:#A6281F;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html,body{height:100%;}
+  body{
+    background:#171411;
+    font-family:'EB Garamond',Georgia,serif;
+    color:var(--ink);
+    overflow:hidden;
+  }
+  .stage{
+    position:fixed;inset:0;
+    display:flex;align-items:center;justify-content:center;
+    background:radial-gradient(120% 120% at 50% 40%,#221d17,#0e0c0a);
+  }
+  .canvas{
+    position:relative;
+    flex:0 0 auto;
+    width:2400px;height:1404px;
+    transform-origin:center center;
+    background:
+      radial-gradient(140% 120% at 18% 8%, #F8F0DC 0%, var(--bg) 42%, var(--bg2) 100%);
+    box-shadow:0 40px 120px rgba(0,0,0,.55);
+    overflow:hidden;
+  }
+  .canvas::before{
+    content:"";position:absolute;inset:0;pointer-events:none;
+    background:
+      radial-gradient(60% 50% at 85% 95%, rgba(120,96,52,.07), transparent 70%),
+      radial-gradient(50% 40% at 8% 92%, rgba(120,96,52,.06), transparent 70%);
+    mix-blend-mode:multiply;
+  }
+  .canvas::after{
+    content:"";position:absolute;inset:0;pointer-events:none;
+    box-shadow:inset 0 0 0 14px rgba(255,255,255,.32), inset 0 0 0 16px rgba(150,124,78,.28);
+  }
 
-<div class="heraldic-chain">
-  <p class="intro"><strong>Visual reference.</strong> This page adapts the Claude Design export into a static Eleventy-friendly infographic. The evidence map is presented as a reference visual, not as a replacement for the underlying research files and source analysis.</p>
-  <div class="heraldic-scroll" role="region" aria-label="Scrollable heraldic chain infographic">
-    <section class="chain-board" aria-label="Heraldic chain of evidence across G14 through G29">
-      <div class="chain-title">
-        <div>
-          <h2>A Heraldic Chain of Evidence for the Gurney Line</h2>
-          <div class="chain-key"><span>Documented marker</span><span>Open or inferential marker</span></div>
-        </div>
-        <p>This infographic shows that the Gurney lineage is not supported only by written records. Across roughly fifteen generations, the same family shield and related heraldic displays appear again and again in seals, stained glass, churches, houses, monuments, and armorial pedigrees — creating a physical evidence chain that independently ties the Tudor Gurneys to the medieval Norfolk line.</p>
+  /* ---- Masthead (left column) ---- */
+  .masthead{position:absolute;left:74px;top:70px;width:628px;}
+  .masthead h1{
+    font-family:'Cormorant Garamond',serif;font-weight:700;
+    font-size:48px;line-height:1.02;letter-spacing:.2px;color:var(--ink);
+  }
+  .masthead .lead{margin-top:9px;font-size:24px;line-height:1.4;color:var(--ink2);}
+  .dotkey{display:flex;flex-wrap:wrap;gap:8px 28px;margin-top:20px;}
+  .dotkey .ki{display:flex;align-items:center;gap:12px;font-size:19px;color:var(--ink);}
+  .dotkey .k-fill{width:24px;height:24px;border-radius:50%;background:var(--ink2);flex:0 0 auto;box-shadow:0 0 0 3px var(--bg);}
+  .dotkey .k-open{width:24px;height:24px;border-radius:50%;border:4px solid var(--ink2);flex:0 0 auto;box-shadow:0 0 0 3px var(--bg);}
+  .dirrow{display:flex;align-items:center;gap:13px;margin-top:24px;color:var(--ink3);font-size:16px;letter-spacing:.1em;text-transform:uppercase;}
+  .dirrow b{font-weight:600;color:var(--ink2);}
+
+  /* ---- Zebra + guides ---- */
+  .zebra{position:absolute;left:64px;right:64px;background:rgba(120,96,52,.05);}
+  .guide{position:absolute;left:64px;right:70px;height:0;border-top:1.5px solid var(--guide);}
+
+  /* ---- Spine rows ---- */
+  .srow{position:absolute;left:74px;width:628px;display:flex;align-items:center;gap:18px;}
+  .gtag{
+    flex:0 0 auto;min-width:64px;height:50px;display:flex;align-items:center;justify-content:center;
+    background:rgba(43,38,32,.06);border:1.5px solid var(--rule);border-radius:9px;
+    font-family:'Cormorant Garamond',serif;font-weight:600;font-size:27px;color:var(--ink2);
+    letter-spacing:.04em;padding:0 12px;
+  }
+  .sinfo{min-width:0;}
+  .sname{font-size:31px;font-weight:600;line-height:1.02;color:var(--ink);white-space:nowrap;}
+  .swife{font-size:22px;line-height:1.1;color:var(--ink2);font-style:italic;margin-top:3px;white-space:nowrap;}
+  .swife.unknown{color:var(--ink3);}
+
+  /* ---- Column headers ---- */
+  .head{position:absolute;top:50px;text-align:center;}
+  .ico{height:60px;display:flex;align-items:center;justify-content:center;margin-bottom:12px;}
+  .ico svg{width:56px;height:56px;display:block;}
+  .htitle{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:29px;line-height:1.05;letter-spacing:.2px;min-height:92px;}
+  .htitle::after{content:"";display:block;width:50px;height:2px;background:currentColor;opacity:.5;margin:14px auto 0;}
+  .hdesc{font-size:23px;line-height:1.36;color:var(--ink);margin-top:14px;}
+
+  /* ---- Ribbons + dots ---- */
+  .ribbon{position:absolute;border-radius:60px;border:1.5px solid;}
+  .dot{position:absolute;width:30px;height:30px;border-radius:50%;}
+  .dot.open{background:transparent;border:4px solid;}
+
+  /* ---- Sub-lane labels ---- */
+  .sublabel{position:absolute;text-align:left;}
+  .sublabel .sl-top{display:flex;align-items:center;gap:9px;}
+  .sublabel .sl-ico{width:30px;height:30px;flex:0 0 auto;}
+  .sublabel .sl-ico svg{width:30px;height:30px;}
+  .sublabel .sl-title{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:22px;line-height:1.02;white-space:nowrap;}
+  .sublabel .sl-desc{font-size:20px;line-height:1.32;color:var(--ink);margin-top:8px;}
+  .connector{position:absolute;width:0;border-left:2px dashed;opacity:.55;}
+</style>
+</head>
+<body>
+  <div class="stage">
+    <div class="canvas" id="canvas">
+      <div class="masthead">
+        <h1>A Heraldic Chain of Evidence for the Gurney Line</h1>
+        <div class="lead">This infographic shows that the Gurney lineage is not supported only by written records. Across roughly fifteen generations, the same family shield and related heraldic displays appear again and again in seals, stained glass, churches, houses, monuments, and armorial pedigrees — creating a physical evidence chain that independently ties the Tudor Gurneys to the medieval Norfolk line.</div>
       </div>
-      <div class="chain-head">
-        <div></div>
-        <div class="evidence-head visitations"><div class="evidence-icon"></div><h2>Heralds’ Visitations</h2><p>Formal Tudor pedigree reviews record the later Gurney branch — the bridge into the London generations.</p></div>
-        <div class="evidence-head west"><div class="evidence-icon"></div><h2>West Barsham Church Arms</h2><p>A public church display preserved this family’s marriage network in heraldic form.</p></div>
-        <div class="evidence-head homes"><div class="evidence-icon"></div><h2>Shields in Homes</h2><p>Heraldic shields displayed inside family houses acted as a visible résumé of key marriages and inherited connections.</p></div>
-        <div class="evidence-head walsingham"><div class="evidence-icon"></div><h2>Walsingham Abbey Glass</h2><p>A quartered shield in the abbey glass compresses several inherited family lines into one map of descent and inheritance.</p></div>
-        <div class="evidence-head recurring"><div class="evidence-icon"></div><h2>Recurring Gurney Arms</h2><p>The same red engrailed cross recurs across centuries and source types, tying the Tudor family back to the medieval Norfolk line.</p></div>
-      </div>
-      {% for row in rows %}
-      <div class="chain-row">
-        <div class="ancestor-cell"><span class="gen">{{ row.gen }}</span><span class="person"><strong>{{ row.name }}</strong><em class="{{ row.wifeClass }}">{{ row.wife }}</em></span></div>
-        <div class="evidence-cell visitations {{ row.visitations }}"><span></span></div>
-        <div class="evidence-cell west {{ row.west }}"><span></span></div>
-        <div class="evidence-cell homes {{ row.homes }}"><span></span></div>
-        <div class="evidence-cell walsingham {{ row.walsingham }}"><span></span></div>
-        <div class="evidence-cell recurring {{ row.recurring }}"><span></span></div>
-      </div>
-      {% endfor %}
-    </section>
+
+      <div id="layer"></div>
+    </div>
   </div>
-  <section class="chain-summary" aria-label="Plain text summary">
-    <h2>Plain text summary</h2>
-    <p>The visual tracks G14 through G29 and shows five categories of heraldic witness: formal Heralds’ Visitations, West Barsham church arms, shields displayed in homes, Walsingham Abbey stained-glass arms, and the recurring Gurney arms. The pattern presented is that multiple independent heraldic contexts cluster around the same Tudor and medieval Norfolk Gurney descent rather than relying on a single compiled pedigree.</p>
-    <ul>
-      <li><strong>Later Tudor bridge:</strong> Visitations and West Barsham evidence cluster around G14–G17.</li>
-      <li><strong>West Barsham marriage network:</strong> Church and house displays mark Wauncy, Calthorpe, Lovell, Holdich, Blennerhasset, Jerningham, Heydon, and related marriage/inheritance links.</li>
-      <li><strong>Medieval armorial continuity:</strong> Walsingham glass, early arms and seal evidence, and recurring Gurney arms extend the chain back through the medieval Norfolk line.</li>
-    </ul>
-  </section>
-</div>
+
+<script>
+{% raw %}
+/* ---------------- geometry ---------------- */
+const W=2400, H=1404;
+let gridTop=452, rowH=58;
+const NROWS=16;
+const evLeft=716, evRight=2330, colGap=26, nCols=5;
+const colW=(evRight-evLeft-(nCols-1)*colGap)/nCols;
+const RB=114;
+const colX=k=>evLeft+k*(colW+colGap);
+const colCenter=k=>colX(k)+colW/2;
+const rowTop=i=>gridTop+i*rowH;
+const rowCenter=i=>gridTop+i*rowH+rowH/2;
+const fill=c=>`color-mix(in srgb, ${c} 15%, transparent)`;
+const edge=c=>`color-mix(in srgb, ${c} 34%, transparent)`;
+
+/* ---------------- icons ---------------- */
+const I={
+  scroll:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h10a2 2 0 0 1 2 2v12a3 3 0 0 0 3 3H8a2 2 0 0 1-2-2V3Z"/><path d="M6 3a2 2 0 0 0-2 2v2h2"/><path d="M9 8h6M9 11.5h6M9 15h4"/></svg>`,
+  church:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M10 4h4"/><path d="M12 6 5 11v10h14V11L12 6Z"/><path d="M9 21v-4a3 3 0 0 1 6 0v4"/><path d="M5 14H3v7h2M19 14h2v7h-2"/></svg>`,
+  window:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 11a7 7 0 0 1 14 0v9a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-9Z"/><path d="M12 4v17M5 12h14"/></svg>`,
+  shield4:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5 4.5 5v6c0 5 3.5 8 7.5 10.5C16 19 19.5 16 19.5 11V5L12 2.5Z"/><path d="M12 3v18M4.6 11.6h14.8"/></svg>`,
+  manuscript:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h7l4 4v12a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z"/><path d="M14 3v4h4"/><path d="M8 12h8M8 15.5h8M8 8.5h3"/></svg>`,
+  shieldcross:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5 4.5 5v6c0 5 3.5 8 7.5 10.5C16 19 19.5 16 19.5 11V5L12 2.5Z"/><path d="M12 6v11M7 11.3h10"/></svg>`,
+  tree:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4.5" r="2.2"/><circle cx="6" cy="19" r="2.2"/><circle cx="18" cy="19" r="2.2"/><path d="M12 6.7V12M12 12H6.2v4.8M12 12h5.8v4.8"/></svg>`,
+  seal:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9.5" r="6"/><path d="M12 6.3 13 8.4l2.3.3-1.7 1.6.4 2.3L12 11.8l-2 1.1.4-2.3-1.7-1.6 2.3-.3L12 6.3Z"/><path d="M9 14.6 8 22l4-2 4 2-1-7.4"/></svg>`,
+};
+
+/* ---------------- data ---------------- */
+const GENS=[
+ {g:'G14',name:'Francis Gurney',wife:'m. Anne Browning'},
+ {g:'G15',name:'Henry Gurney',wife:'m. Ellen Blennerhasset'},
+ {g:'G16',name:'Francis Gurney',wife:'m. Ellen Holdich'},
+ {g:'G17',name:'Anthony Gurney',wife:'m. Margaret Lovell · Elizabeth Tyrrell'},
+ {g:'G18',name:'William Gurney V',wife:'m. Anne Heydon'},
+ {g:'G19',name:'William Gurney IV',wife:'m. Anne Calthorpe'},
+ {g:'G20',name:'Thomas Gournay II',wife:'m. Margaret Jerningham'},
+ {g:'G21',name:'Thomas Gournay I',wife:'m. Catherine Kerville'},
+ {g:'G22',name:'Robert Gournay',wife:'wife unknown',unk:true},
+ {g:'G23',name:'Edmund Gournay',wife:'m. Katherine Wauncy'},
+ {g:'G24',name:'John de Gournay IV',wife:'wife unknown',unk:true},
+ {g:'G25',name:'John de Gournay III',wife:'m. Jane de Lexham'},
+ {g:'G26',name:'William de Gournay III',wife:'m. Katherine Baconsthorpe?'},
+ {g:'G27',name:'Sir John de Gournay I',wife:'wife unknown',unk:true},
+ {g:'G28',name:'William de Gournay II',wife:'m. Katherine Ingoldesthorpe'},
+ {g:'G29',name:'Matthew de Gournay',wife:'m. Rose de Burnham'},
+];
+
+const COLS=[
+ {color:'var(--navy)',icon:I.scroll,title:'Heralds’ Visitations',
+  desc:'Formal Tudor pedigree reviews record the later Gurney branch — the documented bridge into the well-known London generations.',
+  ribbons:[{first:0,last:3,dots:[0,1,2,3]}]},
+
+ {color:'var(--burgundy)',icon:I.church,title:'West Barsham Church Arms',
+  desc:'A public church display preserved this family’s marriage network in heraldic form.',
+  ribbons:[{first:1,last:9,dots:[1,2,3,5,6,9]}]},
+
+ {color:'var(--green)',icon:I.shield4,title:'Shields in Homes',
+  desc:'Heraldic shields displayed inside family houses acted as a visible résumé of key marriages and inherited connections.',
+  ribbons:[{first:3,last:9,dots:[3,4,5,6,9]}],
+  sub:{color:'var(--teal)',icon:I.seal,title:'Early Arms &amp; Seal',
+       desc:'A 1294 seal and early roll show these arms in the medieval line.',
+       first:12,last:13,dots:[12,13],labelRow:10.05,labelAbove:true}},
+
+ {color:'var(--gold)',icon:I.window,title:'Walsingham Abbey Stained Glass Arms',
+  desc:'A quartered shield in the abbey glass compresses several inherited family lines into one map of descent and inheritance.',
+  ribbons:[{first:3,last:15,dots:[3,9,15],open:[12]}]},
+
+ {color:'var(--red)',icon:I.shieldcross,title:'Recurring Gurney Arms',
+  desc:'The same red engrailed cross recurs across centuries and source types, tying the Tudor family back to the medieval Norfolk line.',
+  ribbons:[{first:0,last:13,dots:[0,1,2,3,5,7,9,12,13]}]},
+];
+
+/* ---------------- render ---------------- */
+function dot(cx,cy,color,open){
+  if(open){
+    return `<div class="dot open" style="left:${cx-15}px;top:${cy-15}px;border-color:${color};box-shadow:0 0 0 4px var(--bg)"></div>`;
+  }
+  return `<div class="dot" style="left:${cx-15}px;top:${cy-15}px;background:${color};box-shadow:0 0 0 4px var(--bg),0 1px 2px rgba(0,0,0,.3)"></div>`;
+}
+function ribbon(cx,first,last,color){
+  const top=rowTop(first), h=rowTop(last+1)-rowTop(first)-10;
+  return `<div class="ribbon" style="left:${cx-RB/2}px;top:${top+5}px;width:${RB}px;height:${h}px;background:${fill(color)};border-color:${edge(color)}"></div>`;
+}
+
+const layer=document.getElementById('layer');
+
+function build(){
+/* column headers first — needed to measure the header band */
+let headHtml='';
+COLS.forEach((c,k)=>{
+  headHtml+=`<div class="head" style="left:${colX(k)}px;width:${colW}px;color:${c.color}">
+    <div class="ico">${c.icon}</div>
+    <div class="htitle"><span>${c.title}</span></div>
+    <div class="hdesc">${c.desc}</div>
+  </div>`;
+});
+layer.innerHTML=headHtml;
+
+/* derive grid start + row pitch from real measured heights so nothing overlaps */
+const HEAD_TOP=50;
+const mastheadBottom=70+document.querySelector('.masthead').offsetHeight;
+let maxHeadH=0;
+document.querySelectorAll('.head').forEach(h=>{maxHeadH=Math.max(maxHeadH,h.offsetHeight);});
+const headBottom=HEAD_TOP+maxHeadH;
+gridTop=Math.round(Math.max(mastheadBottom,headBottom)+30);
+rowH=Math.min(66,(H-gridTop-40)/NROWS);
+
+let html='';
+
+/* zebra */
+for(let i=0;i<NROWS;i++) if(i%2===1) html+=`<div class="zebra" style="top:${rowTop(i)}px;height:${rowH}px"></div>`;
+/* guides */
+for(let i=0;i<NROWS;i++) html+=`<div class="guide" style="top:${rowCenter(i)}px"></div>`;
+
+/* ribbons + dots */
+COLS.forEach((c,k)=>{
+  const cx=colCenter(k);
+  c.ribbons.forEach(r=>{
+    html+=ribbon(cx,r.first,r.last,c.color);
+    r.dots.forEach(i=>html+=dot(cx,rowCenter(i),c.color,false));
+    (r.open||[]).forEach(i=>html+=dot(cx,rowCenter(i),c.color,true));
+  });
+  if(c.sub){
+    const s=c.sub;
+    html+=ribbon(cx,s.first,s.last,s.color);
+    s.dots.forEach(i=>html+=dot(cx,rowCenter(i),s.color,false));
+  }
+});
+
+/* spine rows */
+GENS.forEach((g,i)=>{
+  html+=`<div class="srow" style="top:${rowTop(i)}px;height:${rowH}px">
+    <div class="gtag">${g.g}</div>
+    <div class="sinfo"><div class="sname">${g.name}</div><div class="swife${g.unk?' unknown':''}">${g.wife}</div></div>
+  </div>`;
+});
+
+/* sub-lane floating labels + connectors */
+COLS.forEach((c,k)=>{
+  if(!c.sub) return;
+  const s=c.sub, cx=colCenter(k);
+  const lblTop=rowTop(s.labelRow);
+  const lblLeft=colX(k);
+  html+=`<div class="sublabel" style="left:${lblLeft}px;top:${lblTop}px;width:${colW}px">
+    <div class="sl-top"><div class="sl-ico" style="color:${s.color}">${s.icon}</div><div class="sl-title" style="color:${s.color}">${s.title}</div></div>
+    <div class="sl-desc">${s.desc}</div>
+  </div>`;
+  const segTop=rowTop(s.first);
+  if(s.labelAbove){
+    html+=`<div class="connector" style="left:${cx}px;top:${rowTop(s.labelRow+1.9)}px;height:${segTop-rowTop(s.labelRow+1.9)+5}px;border-color:${s.color}"></div>`;
+  }else{
+    html+=`<div class="connector" style="left:${cx}px;top:${rowCenter(s.first)+16}px;height:${lblTop-rowCenter(s.first)-18}px;border-color:${s.color}"></div>`;
+  }
+});
+
+layer.insertAdjacentHTML('beforeend',html);
+}
+
+build();
+
+/* ---------------- scaling ---------------- */
+function fit(){
+  const s=Math.min(window.innerWidth/W, window.innerHeight/H);
+  document.getElementById('canvas').style.transform=`scale(${s})`;
+}
+window.addEventListener('resize',fit);
+fit();
+
+/* fonts change text metrics → remeasure once they load so the grid lands correctly */
+if(document.fonts && document.fonts.ready){
+  document.fonts.ready.then(()=>{ build(); fit(); });
+}
+{% endraw %}
+</script>
+</body>
+</html>
