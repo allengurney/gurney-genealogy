@@ -2450,6 +2450,94 @@
       "validationPath": null,
       "notes": "Searchable index of ~290,000 entries from English military pay records, letters of protection, letters of attorney, and muster rolls 1357–1453. Cites underlying TNA/BNF references directly so citations should be anchored to the primary record, with the database credited as the finding aid. Companion monograph: Adrian R. Bell, Anne Curry, Andy King, and David Simpkin, The Soldier in Later Medieval England (Oxford: Oxford University Press, 2013). Used 2026-05-22 to confirm G21 Thomas Gournay I service entries (1415 Agincourt campaign in John Holland's retinue under Henry V; 1441 France expedition in John de Vere's retinue under Richard of York), and a Sir John Gurney V (collateral, d. 1408) 1394 Aquitaine entry under John of Gaunt. Other Gournay/Gurney soldiers also appear in the database — most prominently Sir Matthew de Gournay (d. 1406) of the Somerset/regicide collateral branch — and can be distinguished by rank, place, and affinity."
     },
+    "hull-thesis-english-way-of-war-1360-1399": {
+      "shortTitle": "Hull PhD thesis — The English Way of War, 1360–1399",
+      "citation": "'The English Way of War, 1360–1399' (PhD thesis, University of Hull); content file hull_9036a.pdf, Hull institutional repository (Worktribe output 4216021). Author and award year to be confirmed from the repository record (lead L-76). A prosopographical study of English military service 1360–1399 with a biographical appendix and retinue tables (incl. Tables 4.2–4.3 for Sir Robert Knolles' 1370 expedition; source TNA E101/30/25).",
+      "archive": "University of Hull (institutional repository)",
+      "url": "https://hull-repository.worktribe.com/output/4216021",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/hull-thesis-english-way-of-war-1360-1399.md",
+      "notes": "Reviewed 2026-05-30 from the repository PDF (a copy was supplied to sources/intake/new/content-hull_9036a.pdf; not committed to corpus as a modern in-copyright thesis). Appendix p.340 identifies the soldier-database 'Sir John de Gourney' knight cluster (1359–1378) as Sir John de Gourney of Harptree, Somerset (owner of Harptree castle 1343 underage; m. Elizabeth widow of John Carew; Ireland 1363 under William de Windsor; Knolles 1370 captain, retinue of 3; Calais garrison 1376/1378). Also: Sir Thomas Trevet 'nephew of Sir Matthew Gournay' (p.351); Sir Matthew as banneret with a retinue of ~20 on the 1381 Iberian expedition. Used to exclude the knight cluster from the Norfolk direct line (G24). Full citation pending author confirmation."
+    },
+    "walker-lancastrian-affinity-1361-1399": {
+      "shortTitle": "Walker, The Lancastrian Affinity 1361–1399",
+      "citation": "Simon Walker, The Lancastrian Affinity 1361–1399, Oxford Historical Monographs (Oxford: Clarendon Press, 1990).",
+      "archive": "Oxford University Press (Clarendon Press)",
+      "url": "https://academic.oup.com/book/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/walker-lancastrian-affinity-1361-1399.md",
+      "notes": "Standard study of John of Gaunt's affinity. Used 2026-05-30 (n.19) for the East Anglian legal-administrative retainer cohort: Edmund Gournay (G23) 'the principal legal adviser to the burgesses of Lynn' and a fee-taker from the abbey of St Benet's Holme, bracketed with John Winter (Wynter), Robert Cayley, Thomas Pinchbeck, John Methwold, Edmund Clippesby. Walker's note cites Staffordshire RO D.641/1/2/4 m.4; TNA E.403/478 m.16; HMC MSS of the Corporations of Southampton and King's Lynn (1887) pp.221-2; CPR 1381-5 p.380; KB 9/166/1 m.69 (lead L-77). Text consulted 2026-05-30 via a digital reproduction of the affinity prosopography; the underlying authority is Walker."
+    },
+    "hop-berney": {
+      "shortTitle": "History of Parliament — Berney, Sir Robert (c.1365-1415)",
+      "citation": "\"BERNEY, Sir Robert (c.1365-1415), of Reedham and Gunton, Norf.,\" in J. S. Roskell, L. Clark and C. Rawcliffe (eds.), The History of Parliament: The House of Commons 1386-1421 (1993), History of Parliament Online.",
+      "archive": "History of Parliament Trust",
+      "url": "https://www.historyofparliamentonline.org/volume/1386-1421/member/berney-sir-robert-1365-1415",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/hop-berney.md",
+      "notes": "Berney-side corroboration, independent of hop-gurney, of John Gurney V's place in the Lancastrian Norfolk affinity: Berney and Gurney as fellow Norfolk shire knights 1399, Erpingham co-trustees, and parties to the Saxthorpe/Loundhall feoffee circle (Erpingham/Wynter/Berney/Shelton). Also bears on whether the 'Sir Robert Gurney of Gunton, deputy at Dover 1400' phrasing is in fact Sir Robert Berney of Gunton. Full page text not yet captured (leads L-78, L-79)."
+    },
+    "trevor-john-erpingham-1970": {
+      "shortTitle": "Trevor John, 'Sir Thomas Erpingham, East Anglian Society and the Dynastic Revolution of 1399' (1970)",
+      "citation": "Trevor John, 'Sir Thomas Erpingham, East Anglian Society and the Dynastic Revolution of 1399', Norfolk Archaeology 35, no. 1 (1970): 96-108. DOI 10.5284/1078024.",
+      "archive": "Norfolk and Norwich Archaeological Society / Archaeology Data Service",
+      "url": "https://doi.org/10.5284/1078024",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/trevor-john-erpingham-1970.md",
+      "notes": "Scholarly root of the Erpingham/Berney/Wynter/Shelton/Gurney Lancastrian Norfolk bloc and the likely source of the contested 'Sir Robert Gurney/Berney of Gunton, deputy at Dover 1400' reading. Registered as the cited authority for the network context; article not yet pulled (lead L-79)."
+    },
+    "military-communities-knolles-1370": {
+      "shortTitle": "Military Communities in Late Medieval England — Knolles 1370 chapter",
+      "citation": "Adrian R. Bell, Anne Curry, Andy King, and David Simpkin (eds.), Military Communities in Late Medieval England: Essays in Honour of Andrew Ayton (Woodbridge: Boydell & Brewer, 2018), ch. 8, 'Sir Robert Knolles' Expedition to France in 1370: New Perspectives.'",
+      "archive": "Boydell & Brewer / Cambridge Core",
+      "url": "https://www.cambridge.org/core/books/military-communities-in-late-medieval-england/sir-robert-knolles-expedition-to-france-in-1370-new-perspectives/6F33FEB10FAF2BCBC611C9746CCE8C12",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/military-communities-knolles-1370.md",
+      "notes": "Published analysis of Sir Robert Knolles' 1370 retinue (source TNA E101/30/25), the same data underlying the Hull thesis Tables 4.2-4.3 in which Sir John de Gourney appears as a captain. Corroborating source for the C11 knight-cluster identification. Abstract/preview consulted 2026-05-30; full chapter behind paywall."
+    },
+    "odnb-matthew-gournay": {
+      "shortTitle": "ODNB / DNB — Sir Matthew de Gournay (d. 1406), soldier",
+      "citation": "Oxford Dictionary of National Biography, s.v. 'Gournay [Gourney], Sir Matthew (d. 1406), soldier' (Oxford University Press); cf. Dictionary of National Biography, 1885-1900, s.v. 'Gourney, Mathew' (freely available on Wikisource).",
+      "archive": "Oxford University Press (ODNB) / Wikisource (DNB 1885-1900)",
+      "url": "https://www.oxforddnb.com/view/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-11163",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/odnb-matthew-gournay.md",
+      "notes": "Authoritative biography corroborating Sir Matthew de Gournay (d. 1406) as the fourth son of Sir Thomas Gurney of Englishcombe (a murderer of Edward II), of Stoke-sub-Hamdon, Somerset — the regicide/Somerset collateral branch, distinct from the Norfolk direct line and from Sir John de Gourney of Harptree. Adds an independent modern authority to the existing Pettigrew/Tyrwhitt/CPR material in research/places/somerset-gournay-collateral.md."
+    },
+    "gascon-rolls-project": {
+      "shortTitle": "The Gascon Rolls Project (1317-1468)",
+      "citation": "The Gascon Rolls Project (1317-1468), eds. Universities of Oxford and Liverpool and King's College London, https://www.gasconrolls.org/. Calendar and edition of the Gascon Rolls (TNA C61).",
+      "archive": "University of Oxford / University of Liverpool / King's Digital Lab",
+      "url": "https://www.gasconrolls.org/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/gascon-rolls-project.md",
+      "notes": "Searchable calendar/edition of the C61 Gascon Rolls — the series behind the Gascony/Aquitaine letters of protection for Thomas de Gourney (1349, C61/61 m6), Sir Matthew de Gournay, and others in the soldier database. Finding aid for fuller calendared text of the Gascony protections (lead L-82); not yet systematically searched."
+    },
+    "hop-harling": {
+      "shortTitle": "History of Parliament / biography — Sir Robert Harling (d.1435)",
+      "citation": "Sir Robert Harling of East Harling, Norfolk (d. 9 September 1435), soldier; History of Parliament Trust biography and the modern Wikipedia summary, https://en.wikipedia.org/wiki/Robert_Harling_(knight).",
+      "archive": "History of Parliament Trust / Wikipedia (orienting)",
+      "url": "https://en.wikipedia.org/wiki/Robert_Harling_(knight)",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/hop-harling.md",
+      "notes": "Network context for the cadet lead 'John Gurnay under Sir Robert Harling, 1422' (lead L-74): Harling was a Norfolk knight, nephew of Sir John Fastolf, captor of the bridge at Meulan in 1423, bailli of Alençon, killed at Saint-Denis 1435. Used only as orienting biography; any fact-sheet use should trace to the History of Parliament life or a primary record. Ties the cadet John into the Fastolf circle already woven through the repo's Heylesdon/Saxthorpe material."
+    },
     "girders-net-medieval-gurney-abstracts": {
       "shortTitle": "girders.net Medieval Gurney Abstracts",
       "citation": "\"Medieval Gurneys,\" girders.net, accessed 22 May 2026, https://www.girders.net/.",

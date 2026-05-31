@@ -1,3 +1,5 @@
+**Done:** 2026-05-30 16:18 PT
+
 # v75 — Medieval-soldier database evaluation + knight/affinity discovery
 
 **Scope:** Phase 2 application of the 2026-05-30 research arc evaluating the `gurney_medievalsoldier_results_analysis_2026-05-30_v4.xlsx` workbook (in `sources/intake/new/`) against the repo, plus the online discovery that resolved its key open clusters. This patchset lands the **cross-cutting analytical home** (new topic file), the two new sources, their validations, and the two highest-value subject-file additions (G22 companion, Somerset collateral).

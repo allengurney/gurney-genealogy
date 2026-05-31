@@ -1,0 +1,62 @@
+# Gurney / Gournay in the medieval soldier record (c. 1349–1450)
+
+Cross-cutting analysis of the Gurney/Gournay/Gurnay men in the *Soldier in Later Medieval England* database and adjacent military-prosopographical sources, evaluated for what they add to the direct Norfolk line (G24 John de Gournay IV → G23 Edmund → G22 Robert → G21 Thomas I → G20 Thomas II) and its collaterals. The companion data workbook is held at `sources/intake/new/gurney_medievalsoldier_results_analysis_2026-05-30_v4.xlsx`.
+
+The repo already records G21 Thomas Gournay I's confirmed service (1415 Holland retinue, 1418 Harfleur, 1441 Vere/York) and Sir John Gurney V's 1394 Gaunt service in the paired companions. This file consolidates the **new** findings and the disposition of every other Gournay/Gurney soldier in the dataset.
+
+## The "Sir John de Gourney" knight cluster is Somerset, not the Norfolk line
+
+The database carries a knight named John de Gournay/Gourney serving in arms across 1359–1378: letters of protection and attorney for the Reims theatre, the retinue of Sir Robert Knolles in 1370, and the Calais garrison under Sir Hugh Calveley (1376) and Sir Bernard Brocas (1378).[^msd] The retinue list for Knolles' 1370 expedition (TNA E101/30/25, mm.1–2) records him as a **captain of his own small retinue** (three men-at-arms), alongside Sir John Clanvowe, Sir Hugh le Despenser, Sir Thomas Fogg, and Sir Richard Fyton.[^hull-knolles]
+
+This man is **Sir John de Gourney of (East) Harptree, Somerset** — not the Norfolk direct line. The Hull prosopography of English soldiers 1360–1399 gives his biographical entry: "1343: became owner of Harptree castle, Somerset, while underage; 1363: protection … in the retinue of William de Windsor in Ireland; 1370: protection and attorney for service on Knolles' campaign … 1376: … Calais garrison under Sir Hugh de Calvelay … 1378: … Calais garrison under Sir Bernard Brocas." It adds that he was "from a large and important noble family," married Elizabeth, late wife of John Carew, and is to be distinguished from a separate, later "John Gurney … described as a London mercer" active on the Scottish march in the 1380s–90s.[^hull-john] Harptree is the principal Somerset Gournay seat; the Carew marriage is a West-Country alliance. The whole 1363–1378 military cluster is his.
+
+This resolves a tempting but false lead. The chronology of the Norfolk **G24 John de Gournay IV** (born c. 1330, lord of Harpley, holding his first manorial court there in 1354, death given as "c. 1370 or later") fits the cluster's dates almost exactly, and the family had a knightly tradition (G27 Sir John de Gournay I was a crusader). G24 being recorded only as a manorial lord does not by itself exclude military service. But the external prosopography anchors the soldier to Harptree, Somerset, by a defining property fact, and the cluster's theatre — Reims, Knolles in northern France, the Calais garrison — is the royal northern theatre, not the Gascony/Aquitaine theatre where the Somerset banneret Sir Matthew de Gournay operated. G24 therefore remains a Harpley manorial lord; he is **not** the soldier-database knight. The one residual ambiguity is the small set of 1359 Reims protections (TNA C76/38), which the Hull entry does not explicitly claim and which predate its 1363 starting point; they are most parsimoniously the same Harptree John (then ~30) but are not anchored to him by name.[^msd]
+
+Sir John de Gourney of Harptree is a documented 14th-century Somerset Gournay knight distinct from Sir Matthew (d. 1406); both are collateral. He is carried into `research/places/somerset-gournay-collateral.md`.
+
+## Edmund Gournay (G23) inside John of Gaunt's retained East Anglian affinity
+
+Simon Walker's study of the Lancastrian affinity places **Edmund Gournay (G23)** among John of Gaunt's retained East Anglian legal-administrative men, and supplies detail beyond the repo's existing "steward of Gaunt's East Anglian estates" framing. Edmund was "the principal legal adviser to the burgesses of Lynn," and — with Edmund Clippesby — "took fees from the abbey of St. Benet's, Holme." He is bracketed in the same passage with **John Winter** (the Wynter family later central to the Loundhall/Saxthorpe enfeoffment), Robert Cayley (Exchequer attorney for Norwich and steward to the bishop of Norwich), Thomas Pinchbeck (steward to the bishop of Ely), and John Methwold (agent for the canons of West Dereham).[^walker]
+
+Walker's note cites Staffordshire RO D.641/1/2/4 m.4; TNA E.403/478 m.16; HMC *MSS of the Corporations of Southampton and King's Lynn* (1887) pp.221–2; CPR 1381–5 p.380; and KB 9/166/1 m.69 — the primary records behind these fees, carried as lead L-77 for direct retrieval.
+
+## Two patronage axes scaffold the line
+
+The family sat on two overlapping magnate affinities, which is what makes the soldier records cohere rather than read as unrelated namesakes:
+
+- **Lancaster / John of Gaunt.** Edmund G23 retained (above); Sir John V's 1394 Aquitaine service under Gaunt (TNA C61/104 m.7);[^msd] the 1406 Loundhall enfeoffment with Wynter, Berney, Erpingham, Shelton; and Thomas G21's 1415 service under John Holland (Gaunt's son-in-law's house) and at Harfleur under Thomas Beaufort.
+- **FitzAlan / Arundel.** The Gurneys held Harpley from the earls of Arundel, and Edmund G23 was steward of Richard FitzAlan's Norfolk estates.[^hop-arundel] The cadet "Richard Gurney, esquire" served as a man-at-arms in Arundel's 1387 and 1388 naval expeditions (sub-captain Edward Courtenay, earl of Devon) — i.e. in his family's own patron's fleet.[^msd]
+
+The practical implication, against the project's standing puzzle that G22 Robert is almost documentarily invisible: the network around Robert — a Gaunt-retained father, an Arundel-steward father, a Lancastrian elder brother, a Holland-serving son — is dense and continuous. Thomas G21's military career is the family following an affinity path Edmund helped lay a generation earlier, not a one-off.
+
+## Candidate cohort and geography triage
+
+Method: use each soldier's first name + service date to set a window, then let the geography of any primary record include or exclude the man against the family's footprint — *our* axis (Harpley, West Barsham, North/East Barsham, Hardingham/Swathings, Saxthorpe, Norwich–Lynn), versus *collateral Norfolk* branches (Runhall, Cawston), versus exclusion zones (Somerset, Essex, London, Wiltshire, Normandy place-names).
+
+| Candidate (rank, date, reference) | Geography signal | Disposition for the direct line |
+|---|---|---|
+| Sir John de Gourney, knight (1359–78; C76/38–62, E101/30/25) | Harptree castle, Somerset; m. Carew[^hull-john] | **Excluded** — Somerset collateral |
+| Sir Matthew de Gournay, banneret (1359–1401; C61, E101/40/26) | Stoke-sub-Hamdon / Harptree, Somerset[^msd][^odnb-matthew-topic] | **Excluded** — Somerset collateral (d. 1406) |
+| John de Gourneye, mercer (1386; C71/66) | "of London"[^msd] | **Excluded** — London |
+| John Gournay (1390; C71/69) | "of Colchester, Essex," under Mowbray[^msd] | **Excluded** — Essex |
+| **Richard Gurney, esquire** (1387/88; E101/40/34, E101/41/5) | Unplaced in *both* the Norfolk and Somerset pedigrees; served under Arundel, the family's patron[^msd] | **Open — priority.** Gentry rank, right generation/affinity; if Daniel Gurney's hedged "Robert" for G22 is wrong, a Richard is conceivable. Needs the 1387/88 muster membrane (L-72). |
+| **John Gurnay, man-at-arms** (1422; BNF Fr 25766 no.816) | Retinue of Sir Robert Harling of **East Harling, Norfolk** (nephew of Sir John Fastolf, captor of Meulan 1423)[^msd][^harling] | **Open** — Norfolk gentry military network, but East Harling is the SE/Breckland zone, not our NW axis. Membrane test (L-74). |
+| John Gournay, man-at-arms (1417/18; E101/48/17, E101/48/19) | Harfleur garrison under Beaufort/Luttrell, alongside G21 Thomas I's own 1418 Harfleur service[^msd] | **Open** — possible brother/cousin/son in the same Lancastrian garrison (L-73). |
+| Robert Gurney, valet-archer (1415; E101/45/1 m14) | None; low status[^msd] | **Hold** — the only exact "Robert Gurney" in G22's window, but yeoman rank argues against the gentleman G22 (L-75). |
+
+Several of the workbook's louder leads (the Somerset knights, the London mercer, the Essex John) are thereby **excluded** as non-Norfolk, narrowing the genuine "undocumented child/relative" field to the Richard esquire and the cadet Johns. None is yet an identification; each turns on a manuscript membrane, carried as a dated lead.
+
+The "Robert Grene" surname leads (1373 Warwick/Gaunt; 1417 Holland; 1430 Avranches) remain held as surname-risk context only: Henry Grene (knight) is Sir Henry Green of Drayton, and Thomas Grene is the archdeacon of Sudbury, so "Grene" is a genuine surname in the same Gaunt orbit and not a safe misreading of Gournay absent a roll image.[^msd]
+
+## Sir Thomas Trevet — a Somerset-side kinship
+
+The Hull prosopography records Sir Thomas Trevet (c. 1350–1388) as "the brother of John Trivet and the nephew of Sir Matthew Gournay," a kinship not previously captured.[^hull-trevet] Carried to the Somerset collateral file.
+
+[^msd]: Soldier in Later Medieval England Online Database (AHRC, Bell/Curry/King/Simpkin), [www.medievalsoldier.org](https://www.medievalsoldier.org/); rows as compiled in `sources/intake/new/gurney_medievalsoldier_results_analysis_2026-05-30_v4.xlsx`. Underlying references cited per row (TNA C61/C71/C76/E101; BNF MS. Fr./Clairambault/NAF; BL Add. Ch.). Source ID: `medievalsoldier-database`.
+[^hull-knolles]: 'The English Way of War, 1360–1399' (PhD thesis, University of Hull), Table 4.2/4.3 and p.341, on Sir Robert Knolles' 1370 expedition (source TNA E101/30/25 mm.1–3, C76/53): "Sir John de Gourneye 3 3" among Knolles' sub-captains. The same expedition and its retinue structure are published in Adrian R. Bell, Anne Curry, Andy King and David Simpkin (eds.), *Military Communities in Late Medieval England* (Woodbridge: Boydell & Brewer, 2018), ch. 8, "Sir Robert Knolles' Expedition to France in 1370: New Perspectives." Source IDs: `hull-thesis-english-way-of-war-1360-1399`, `military-communities-knolles-1370`.
+[^hull-john]: Hull thesis, appendix p.340, entry "GOURNEYE John, Sir": owner of Harptree castle, Somerset, 1343 (underage); Ireland 1363 under William de Windsor; Knolles 1370; France 1371–74; Calais garrison 1376 (Calveley) and 1378 (Brocas); n.27 — "From a large and important noble family. Married Elizabeth, late wife of John Carreu (C.P.R. 1370-74, 21)"; distinguished from a London-mercer John Gurney on the Scottish march 1386–90. Source ID: `hull-thesis-english-way-of-war-1360-1399`.
+[^hull-trevet]: Hull thesis, p.351, on Sir Thomas Trevet (citing D. Green, 'The Household and Military Retinue of the Black Prince', Nottingham PhD 1998, ii.183): "brother of John Trivet and the nephew of Sir Matthew Gournay." Source ID: `hull-thesis-english-way-of-war-1360-1399`.
+[^walker]: Simon Walker, *The Lancastrian Affinity 1361–1399* (Oxford: Clarendon Press, 1990), n.19: Edmund Gournay "the principal legal adviser to the burgesses of Lynn," who "took fees from the abbey of St. Benet's, Holme," bracketed with John Winter, Robert Cayley, Thomas Pinchbeck, John Methwold, Edmund Clippesby; citing Staffordshire RO D.641/1/2/4 m.4; TNA E.403/478 m.16; HMC *MSS of the Corporations of Southampton and King's Lynn* (1887) pp.221–2; CPR 1381–5 p.380; KB 9/166/1 m.69. Source ID: `walker-lancastrian-affinity-1361-1399`.
+[^hop-arundel]: "GURNEY, John (d.1408), of Harpley and West Barsham, Norf.," *The House of Commons 1386–1421* (1993), History of Parliament Online — Edmund Gurney retained as steward of the Norfolk estates of Richard FitzAlan, earl of Arundel, "from whom the Gurneys held their manor at Harpley." Source ID: `hop-gurney`.
+[^harling]: Sir Robert Harling of East Harling, Norfolk (d. 9 Sept. 1435 at the siege of Saint-Denis), nephew of Sir John Fastolf, bailli of Alençon, captor of the bridge at Meulan 1423. Standard biography: the History of Parliament life of Robert Harling and the modern summary in his Wikipedia entry (orienting only). Source ID: `hop-harling`.
+[^odnb-matthew-topic]: Oxford Dictionary of National Biography, s.v. "Gournay [Gourney], Sir Matthew (d. 1406), soldier"; cf. DNB 1885-1900, "Gourney, Mathew" (Wikisource): fourth son of the regicide Sir Thomas Gurney of Englishcombe, of Stoke-sub-Hamdon, Somerset. Source ID: `odnb-matthew-gournay`.

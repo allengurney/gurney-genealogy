@@ -1,3 +1,5 @@
+**Done:** 2026-05-30 16:18 PT
+
 # v76 — Medieval-soldier discovery: research-companion cross-links
 
 **Scope:** Phase 2 application. Continues the 2026-05-30 medieval-soldier arc (see v75 for the topic file, the two new sources, and the G22/Somerset landings). This patchset lands the cross-links and resolutions in the three remaining direct-line companions: **G23 Edmund** (the Gaunt-affinity enrichment + resolution of the long-standing "separate earlier knight John de Gournay" question), **G24 John IV** (the soldier-database knight cluster is Somerset, not him), and **G21 Thomas I** (the Harfleur-parallel cadet cross-note).

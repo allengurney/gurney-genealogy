@@ -80,3 +80,11 @@ None identified for John IV directly.
 1. **1354 manorial court as primary source:** The fact sheet handles this well. Adding the BL manuscript reference (Add. MSS. 8841, fol. 112) as a footnote would strengthen the documentary basis.
 2. **Walsingham connection:** The family's benefactions to Walsingham Priory (G23 Edmund in 1385, collateral Sir John in 1406) show consistent Norfolk gentry piety. John IV's generation bridges the period.
 3. **Post-plague context:** A sentence noting that the 1354 court was held just five years after the Black Death would add historical weight.
+
+---
+
+### The soldier-database "Sir John de Gournay" knight is not G24 (added 2026-05-30)
+
+A knight named Sir John de Gournay served in arms across 1359–1378 (Reims protections, a retinue captaincy under Sir Robert Knolles in 1370, the Calais garrison under Calveley and Brocas) and appears in the *Soldier in Later Medieval England* database. The chronology is a near-perfect fit for G24 — born c. 1330, he would have been about 29 at Reims, 40 under Knolles, and 48 at Calais, and the fact sheet's "died c. 1370 or later" leaves room — and the family had a knightly tradition (G27 Sir John de Gournay I, the crusader). G24 being recorded only as a Harpley manorial lord does not by itself exclude military service. The identification is nonetheless **negative**: the soldier knight is Sir John de Gourney of (East) Harptree, Somerset (owner of Harptree castle 1343; m. Elizabeth widow of John Carew), and his theatre — Reims, Knolles' northern-France chevauchée, the Calais garrison — is the royal northern theatre, not the Gascony/Aquitaine theatre of the Somerset banneret Sir Matthew.[^v76-hull-harptree-g24] G24 therefore remains a Harpley manorial lord with no confirmed military record; the tempting soldier cluster belongs to the Somerset collateral. See [`research/topics/gurney-medieval-soldier-database.md`](../topics/gurney-medieval-soldier-database.md).
+
+[^v76-hull-harptree-g24]: 'The English Way of War, 1360–1399' (PhD thesis, University of Hull), appendix p.340, entry "GOURNEYE John, Sir." Source ID: `hull-thesis-english-way-of-war-1360-1399`. Full reasoning and the soldier-database row set in `research/topics/gurney-medieval-soldier-database.md` (sources `hull-thesis-english-way-of-war-1360-1399`, `medievalsoldier-database`).
