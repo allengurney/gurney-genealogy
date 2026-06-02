@@ -2737,14 +2737,32 @@
     ],
     "recordId": "ancestor-g18-william-gurney-v",
     "placeRefs": [
+      "place-baconsthorpe-castle-norfolk-england",
       "place-hardingham-norfolk-england",
       "place-hingham-norfolk-england",
       "place-irstead-norfolk-england",
       "place-west-barsham-norfolk-england",
       "place-harpley-norfolk-england"
     ],
-    "placeSummary": "Hardingham / Low Street / Old Hall context; Hingham, Norfolk, England; Irstead, Norfolk, England; +2 more",
+    "placeSummary": "Baconsthorpe Castle; Hardingham / Low Street / Old Hall context; Hingham, Norfolk, England; +3 more",
     "locations": [
+      {
+        "placeId": "place-baconsthorpe-castle-norfolk-england",
+        "place": "Baconsthorpe Castle, Baconsthorpe, Norfolk, England",
+        "siteName": "Baconsthorpe Castle",
+        "region": "Baconsthorpe, Norfolk, England",
+        "eventType": "spouse family seat",
+        "eventDate": "c. 1465 – died vita patris before father (exact date unknown; before 16 Feb. 1507/8)",
+        "sourceQuote": "Baconsthorpe Castle is the moated fortified manor house that became the Heydon family's principal seat from about 1450. It matters to the direct Gurney line through the Gurney-Heydon alliance: Thomas Gournay II named John Heydon of Baconsthorpe supervisor of his 1471 will; Henry Heydon backed William Gurney IV during the 1472 Saxthorpe dispute; and William Gurney V married Henry's daughter Anne Heydon shortly after 28 May 1484. English Heritage and Historic England also make it a useful place-context anchor for East Anglia's wool economy.",
+        "lat": 52.8985961,
+        "lng": 1.152825,
+        "geocodeBasis": "Historic England National Grid Reference TG 12157 38117, converted to WGS84 for latitude/longitude fields",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.english-heritage.org.uk/visit/places/baconsthorpe-castle/history/",
+        "siteLabel": "English Heritage: Baconsthorpe Castle history"
+      },
       {
         "placeId": "place-hardingham-norfolk-england",
         "place": "Hardingham, Norfolk, England",
@@ -2902,11 +2920,29 @@
     ],
     "recordId": "ancestor-g19-william-gurney-iv",
     "placeRefs": [
+      "place-baconsthorpe-castle-norfolk-england",
       "place-burnham-thorpe-norfolk-england",
       "place-west-barsham-norfolk-england"
     ],
-    "placeSummary": "Burnham Thorpe, Norfolk, England; West Barsham Hall",
+    "placeSummary": "Baconsthorpe Castle; Burnham Thorpe, Norfolk, England; West Barsham Hall",
     "locations": [
+      {
+        "placeId": "place-baconsthorpe-castle-norfolk-england",
+        "place": "Baconsthorpe Castle, Baconsthorpe, Norfolk, England",
+        "siteName": "Baconsthorpe Castle",
+        "region": "Baconsthorpe, Norfolk, England",
+        "eventType": "in-law alliance context",
+        "eventDate": "b. c. 1440–1450 — d. 16 Feb. 1507/8",
+        "sourceQuote": "Baconsthorpe Castle is the moated fortified manor house that became the Heydon family's principal seat from about 1450. It matters to the direct Gurney line through the Gurney-Heydon alliance: Thomas Gournay II named John Heydon of Baconsthorpe supervisor of his 1471 will; Henry Heydon backed William Gurney IV during the 1472 Saxthorpe dispute; and William Gurney V married Henry's daughter Anne Heydon shortly after 28 May 1484. English Heritage and Historic England also make it a useful place-context anchor for East Anglia's wool economy.",
+        "lat": 52.8985961,
+        "lng": 1.152825,
+        "geocodeBasis": "Historic England National Grid Reference TG 12157 38117, converted to WGS84 for latitude/longitude fields",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.english-heritage.org.uk/visit/places/baconsthorpe-castle/history/",
+        "siteLabel": "English Heritage: Baconsthorpe Castle history"
+      },
       {
         "placeId": "place-burnham-thorpe-norfolk-england",
         "place": "Burnham Thorpe, Norfolk, England",
@@ -3002,11 +3038,29 @@
     ],
     "recordId": "ancestor-g20-thomas-gournay-ii",
     "placeRefs": [
+      "place-baconsthorpe-castle-norfolk-england",
       "place-harpley-norfolk-england",
       "place-west-barsham-norfolk-england"
     ],
-    "placeSummary": "Harpley, Norfolk, England; West Barsham Hall",
+    "placeSummary": "Baconsthorpe Castle; Harpley, Norfolk, England; West Barsham Hall",
     "locations": [
+      {
+        "placeId": "place-baconsthorpe-castle-norfolk-england",
+        "place": "Baconsthorpe Castle, Baconsthorpe, Norfolk, England",
+        "siteName": "Baconsthorpe Castle",
+        "region": "Baconsthorpe, Norfolk, England",
+        "eventType": "in-law alliance context",
+        "eventDate": "fl. c. 1430 — d. 1471",
+        "sourceQuote": "Baconsthorpe Castle is the moated fortified manor house that became the Heydon family's principal seat from about 1450. It matters to the direct Gurney line through the Gurney-Heydon alliance: Thomas Gournay II named John Heydon of Baconsthorpe supervisor of his 1471 will; Henry Heydon backed William Gurney IV during the 1472 Saxthorpe dispute; and William Gurney V married Henry's daughter Anne Heydon shortly after 28 May 1484. English Heritage and Historic England also make it a useful place-context anchor for East Anglia's wool economy.",
+        "lat": 52.8985961,
+        "lng": 1.152825,
+        "geocodeBasis": "Historic England National Grid Reference TG 12157 38117, converted to WGS84 for latitude/longitude fields",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.english-heritage.org.uk/visit/places/baconsthorpe-castle/history/",
+        "siteLabel": "English Heritage: Baconsthorpe Castle history"
+      },
       {
         "placeId": "place-harpley-norfolk-england",
         "place": "Harpley, Norfolk, England",

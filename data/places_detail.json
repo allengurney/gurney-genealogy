@@ -154,6 +154,25 @@
     "reviewNotes": []
   },
   {
+    "placeId": "place-baconsthorpe-castle-norfolk-england",
+    "placeName": "Baconsthorpe Castle, Baconsthorpe, Norfolk, England",
+    "longDescription": "Baconsthorpe Castle is the moated fortified manor house that became the Heydon family's principal seat from about 1450. It matters to the direct Gurney line through the Gurney-Heydon alliance: Thomas Gournay II named John Heydon of Baconsthorpe supervisor of his 1471 will; Henry Heydon backed William Gurney IV during the 1472 Saxthorpe dispute; and William Gurney V married Henry's daughter Anne Heydon shortly after 28 May 1484. English Heritage and Historic England also make it a useful place-context anchor for East Anglia's wool economy.",
+    "siteName": "Baconsthorpe Castle",
+    "streetAddress": "",
+    "extantStatus": "ruins and earthworks extant",
+    "extantStatusDescription": "Historic England lists the site as a Scheduled Monument, with standing remains, buried remains, the moated fortified-house platform, outer gatehouse, courtyards, mere, and formal-garden earthworks. English Heritage manages the castle as extensive ruins. Much of the principal residence was demolished in the mid-17th century, but the outer gatehouse survived as Baconsthorpe Hall until 1920.",
+    "coordinateBasis": "Historic England National Grid Reference TG 12157 38117, converted to WGS84 for latitude/longitude fields",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "https://www.english-heritage.org.uk/visit/places/baconsthorpe-castle/history/",
+    "heritageLabel": "English Heritage: Baconsthorpe Castle history",
+    "reviewNotes": [
+      "Keep the later Heydon-led Baconsthorpe Castle context distinct from the earlier Bacon/Baconsthorpe family question around G26 Katherine Baconsthorpe.",
+      "Do not state that any named Gurney visit to Baconsthorpe Castle is directly recorded. Treat likely visits by William Gurney IV or William Gurney V as inference from the documented 1471-1484 alliance and marriage.",
+      "Source IDs: english-heritage-baconsthorpe-castle-history, english-heritage-baconsthorpe-castle-wool-factory, historic-england-baconsthorpe-castle-1013093."
+    ]
+  },
+  {
     "placeId": "place-bedfordshire-england",
     "placeName": "Bedfordshire, England",
     "longDescription": "County-level umbrella record for scattered Bedfordshire holdings documented in exchequer and royal records.",

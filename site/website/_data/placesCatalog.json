@@ -2049,6 +2049,81 @@
     "ancestorCount": 3
   },
   {
+    "placeId": "place-baconsthorpe-castle-norfolk-england",
+    "name": "Baconsthorpe Castle, Baconsthorpe, Norfolk, England",
+    "title": "Baconsthorpe Castle",
+    "seoTitle": "Baconsthorpe Castle",
+    "siteName": "Baconsthorpe Castle",
+    "streetAddress": "",
+    "region": "Baconsthorpe, Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Baconsthorpe Castle",
+      "Baconsthorpe Hall",
+      "Wood Hall, Baconsthorpe",
+      "Baconsthorpe Castle moated site with fortified house, gatehouse, courtyards and formal gardens"
+    ],
+    "shortDescription": "Heydon family fortified manor house and Gurney in-law site",
+    "longDescription": "Baconsthorpe Castle is the moated fortified manor house that became the Heydon family's principal seat from about 1450. It matters to the direct Gurney line through the Gurney-Heydon alliance: Thomas Gournay II named John Heydon of Baconsthorpe supervisor of his 1471 will; Henry Heydon backed William Gurney IV during the 1472 Saxthorpe dispute; and William Gurney V married Henry's daughter Anne Heydon shortly after 28 May 1484. English Heritage and Historic England also make it a useful place-context anchor for East Anglia's wool economy.",
+    "placeType": "historic site",
+    "extantStatus": "ruins and earthworks extant",
+    "extantStatusDescription": "Historic England lists the site as a Scheduled Monument, with standing remains, buried remains, the moated fortified-house platform, outer gatehouse, courtyards, mere, and formal-garden earthworks. English Heritage manages the castle as extensive ruins. Much of the principal residence was demolished in the mid-17th century, but the outer gatehouse survived as Baconsthorpe Hall until 1920.",
+    "coordinate": {
+      "lat": 52.8985961,
+      "lng": 1.152825
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "Historic England National Grid Reference TG 12157 38117, converted to WGS84 for latitude/longitude fields",
+    "roles": [
+      "spouse family seat",
+      "in-law alliance context",
+      "wool economy context",
+      "heritage site"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://www.english-heritage.org.uk/visit/places/baconsthorpe-castle/history/",
+    "siteLabel": "English Heritage: Baconsthorpe Castle history",
+    "researchUrl": "",
+    "researchSlug": "",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g18-william-gurney-v",
+        "type": "ancestor",
+        "gen": "G18",
+        "name": "William Gurney V",
+        "dates": "c. 1465 – died vita patris before father (exact date unknown; before 16 Feb. 1507/8)",
+        "role": "spouse family seat",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g18-william-gurney-v-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g19-william-gurney-iv",
+        "type": "ancestor",
+        "gen": "G19",
+        "name": "William Gurney IV",
+        "dates": "b. c. 1440–1450 — d. 16 Feb. 1507/8",
+        "role": "in-law alliance context",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g19-william-gurney-iv-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g20-thomas-gournay-ii",
+        "type": "ancestor",
+        "gen": "G20",
+        "name": "Thomas Gournay II",
+        "dates": "fl. c. 1430 — d. 1471",
+        "role": "in-law alliance context",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g20-thomas-gournay-ii-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 3
+  },
+  {
     "placeId": "place-la-ferte-butte-feodale-normandy-france",
     "name": "Butte féodale / Château de La Ferté, La Ferté-Saint-Samson, Normandy, France",
     "title": "Butte féodale de La Ferté-Saint-Samson",

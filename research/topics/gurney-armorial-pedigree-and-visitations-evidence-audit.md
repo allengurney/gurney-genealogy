@@ -92,6 +92,23 @@ Key Gurney items:
 
 The online check adds a point of method: do not search only the Gurney heading. Allied-family pages in the same visitation volume preserve additional collateral corroboration.
 
+### Index Rerum / Norfolk Pedigrees source-map leads
+
+The newly surfaced `Index Rerum to Norfolk Antiquities` and `Index to Norfolk Pedigrees` source-list material should be treated as a map of manuscript pedigree witnesses, not as genealogical evidence in itself. It adds several arms/pedigree leads that sit beside Rye and Dashwood:
+
+| Source-list item | Why it matters | Current status |
+|---|---|---|
+| Harl. MS 1552 p. 48, printed Harleian Society p. 132 | This is the Rye printed visitations source already used for the cadet / differentiated-arms Gurney heading. | Covered by `rye-visitacion-norffolk-1891`. |
+| Visitation of 1563 by Harvey, Harl. MS 4755, fo. 81 | Likely a manuscript control or variant of the Harvey 1563 visitation separate from the printed Dashwood page already used for Kerville. | New lead. |
+| MSS of the late John H. Gurney of Keswick, 12th Report of the Historical Manuscripts Commission, p. 116 | Potential family-paper or Keswick-glass source path, important because DG says Gurney's Place glass was preserved at Keswick. | New lead. |
+| Norris' MS folio pedigrees, pp. 553-556; Morant's MS folio pedigrees, p. 175 | Manuscript pedigree controls that may preserve variant Gurney arms/matches outside Rye. | New lead. |
+| Commonplace Book of Henry G., Tanner MSS, Bodleian Library, fo. 175 | Likely the same source-family as the existing Tanner 175/Henry Gurney lead; update that lead rather than duplicate it. | Existing lead refined. |
+| Dawson Turner's illustrated Blomefield, vol. xv, fo. 182 | Could preserve visual/pedigree material absent from printed Blomefield. | New lead. |
+| Ashmole MS 848, fo. 5, and Ashmole MS 792, vol. ii | Bodleian manuscript heraldic/pedigree leads. | New lead. |
+| King's College, Oxford, lxxix / clxvii, p. 21 | College manuscript pedigree lead needing catalogue identification. | New lead. |
+
+The value here is in triangulation. If any of these manuscript witnesses independently reproduce the Walsingham / West Barsham / Berryhall quarterings, they can either confirm DG's source chain or expose where a later reconstruction entered the tradition. Until inspected, they should stay in the leads CSV rather than in the evidence register.
+
 ### Dashwood / Harvey 1563 Norfolk visitation
 
 Dashwood p. 58 gives the Kerville pedigree and independently supports the Catherine Kerville marriage to Thomas Gournay I G21. The repo's v68 research already reframed that page as a third independent witness rather than a new lead: Robert Kerville of Watlington's will was dated 19 November 1434, Catherine was a legatee, and the page says she married Thomas Gurney.[^dashwood]
@@ -198,6 +215,8 @@ The best next research move is not a broader narrative. It is a tight evidence t
 [^rye-dengayne]: Rye, *Visitations of Norfolk*, D'Engayne pedigree, p. 104 area in OCR, Alice daughter of William Gorney.
 [^rye-stubbs]: Rye, *Visitations of Norfolk*, Stubbs pedigree, p. 266 area in OCR, Elizabeth daughter of Anthony Gorney.
 [^rye-wayte]: Rye, *Visitations of Norfolk*, Wayte pedigree, p. 299 area in OCR, Ann married William Gorney of Cawston.
+
+[^rye-index-pedigree-leads]: Walter Rye, `An Index Rerum to Norfolk Antiquities` (Norwich, 1910), Gurney entry in Index to Pedigrees; source ID `rye-index-rerum-norfolk-antiquities-1910`.
 [^dashwood]: `sources/intake/done/v68-dashwood-rye-gurney-pedigree-diagrams.patchset.md`; source ID `dashwood-visitation-norfolk-1563-vol1-1878`.
 [^dg-spelman-context]: Daniel Gurney, *Record*, Part II, p. 317, Appendix LV, Spelman pedigree context. Source ID: `dg-rec-pt2`.
 [^dg-spelman-matthew]: Daniel Gurney, *Record*, Part II, pp. 317–318, Matthew / Rose / Harpley pedigree text. Source ID: `dg-rec-pt2`.

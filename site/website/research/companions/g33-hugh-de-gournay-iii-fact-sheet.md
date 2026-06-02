@@ -36,7 +36,8 @@ This is also Richardson's date in *Royal Ancestry* III (via TNG / Magna Charta S
 The two dates are **reconcilable as different events in a thirty-year monastic career**:
 
 | Year | Event | Source |
-|---|---|---|
+|---|---|
+
 | 1080 | Entered Bec as monk; donated tithes of three English manors (Liston, Fordham, Ardleigh) and half the moute of Bosc-Girard | Potin 1842 p. 108–109; *Neustria Pia* p. 478 |
 | 1092 | Became Prior of Saint-Nicaise de Meulan, replacing Guillaume de Montfort, abbé du Bec | Potin 1842 p. 109; Pattou companion p. 2 |
 | Before 1093 | "Shorn a monk" — DG's reading — i.e., last lay attestation before retreat to Bec | DG-I p. 27 |
@@ -144,6 +145,10 @@ The earliest datable English-side document for Hugh III:
 
 > "Hugues de Gournay gave to the Abbey of Bec the tithes of three English parishes: Fordham, Listhone, et Arlie [Fordham, Liston, and Ardleigh in Essex], with patronage rights and all dependencies. Among the witnesses: 'un nommé Augerius de Gournay' — a collateral whose relationship to Hugh is not specified but who was 'sans doute' descended from the lords of Gournay." (DG-Supp Note 13, pp. 732–734, citing the *Paris MS. Histoire des Seigneurs de Gournay*, recording the Cartulaire du Bec, dated 1076.)
 
+SCRIPTA now gives two Bec-side controls that sharpen this section. First, the 1077 Bec pancarte names the father-son pair directly: Hugh de Gornaco and his son Gerard gave their domain in the same villa as Hugh de Bolbec's half milling right of Bois Girard, excepting the wood called Ramerius and the wood below Rodulf's house. The "same villa" wording makes Bois Girard / Bosc-Girard the contextual place, but the exact modern identification remains a place-file question.[^scripta-bec-6511]
+
+Second, William I's [1081-1087] confirmation of Bec's English holdings gives the fuller English-side wording: the king confirmed to Bec what Hugh de Gornaco had given, including "in London' quod ibi habebat de me" - whatever Hugh held there of the king - and, in Essex, Fordham's church and church land with all tithe and one villanus, Ardleigh's tithe and one villanus, and Liston's half-vill tithe, half church, and one villanus. The London clause is not visible in the current DG-Supp summary and should be treated as a new English-side holding/revenue lead for Hugh.[^scripta-bec-6512]
+
 Augerius / Ausger de Gournay is independently attested as a collateral family member (DG-Supp Note 12). Pattou's "non connectés" annex includes a Hugh-era collateral consistent with Ausger.
 
 ### 5.3 The Norfolk barony — Caister and the Saint-Hildevert link
@@ -184,7 +189,7 @@ Hannay's "three Gournays" reading is consistent with this if a third collateral 
 Two of William's most important documents:
 
 - **1077**: Foundation of Saint-Étienne (the Abbaye-aux-Hommes) at Caen — William's penance church for the consanguineous marriage. Hugh III among the witnesses. Published in *Regesta Regum Anglo-Normannorum* (ed. Bates, 1998).
-- **1082**: Foundation of La Trinité (the Abbaye-aux-Dames) at Caen — by William and Queen Matilda. Hugh III among the witnesses, alongside his brother William de Gornai and his son Gerard. Both abbey-churches survive in Caen.
+- **1082**: Foundation of La Trinite (the Abbaye-aux-Dames) at Caen - by William and Queen Matilda. Hugh III and Gerard appear among the Gournay witnesses in SCRIPTA's two-version text. This is a useful check against the older FMG/DG-derived "William de Gornai" reading: SCRIPTA's modern transcription has `[Hugonis] de Gornayo` / `Hugonis de Gornelio` plus `Girardi de Gornaio`, not a separate William de Gornai in the Gournay witness slot. The brother-William point should be held as unresolved unless the underlying edition behind the older reading is rechecked.[^scripta-caen-6472]
 
 ### 6.3 1079 — Siege of Gerberoi, Hugh III as mediator
 
@@ -223,7 +228,7 @@ The friendship was **personal**, not merely institutional: Anselm wrote to the m
 | Name | Dates | Mother | Status | Notes |
 |---|---|---|---|---|
 | Gerard de Gournay | c. 1040–1050 – before 1104, Holy Land | Basilea Flaitel | **Confirmed; G32 in direct line** | Crusader. Married Edith de Warenne. See G32 fact sheet. |
-| Guillaume de Gournay | after 1082 | Basilea Flaitel | **Bracketed in FMG; corroborated by 1082 Caen witness** | "[William] de Gornai" co-witnessed the 1082 Trinité de Caen charter alongside "Girard de Gornai" — likely Gerard's brother. |
+| Guillaume de Gournay | after 1082? | Basilea Flaitel? | **Bracketed in FMG; now needs recheck** | Older DG/FMG-derived summaries read a 1082 La Trinite witness as "[William] de Gornai" alongside Gerard, but SCRIPTA Act 6472 reads the Gournay witness pair as Hugh + Gerard. Keep Guillaume bracketed and unresolved pending direct check of the edition behind the older reading. |
 | Hawise de Gournay | after 1112 | uncertain | **Bracketed in FMG; placement disputed** | Pattou: "(peut-être fille d'Hugues IV)" — Pattou hedges between Hugues III and Hugues IV daughter. The Annals of Bermondsey record the donation by "Hawisia de Gurnay" of "ecclesiam de Inglescombe in comitatu Somerset" to the abbey in 1112; this Hawise is likely the Somerset-cadet-line Hawise (Néel/Nigel's descendants), not Hugh III's daughter. |
 | Adélaïde / Adelais (Depoin's hypothesis) | – 8 Apr 1099 (per FMG Beaumont entry) | uncertain; Pattou places at Hugh II level | **Open** | Wife (second) of Yves II de Beaumont-sur-Oise. Depoin's hypothesis. FMG: "the data on which the hypothesis rests is too imprecise to suggest that it is probable." Pattou: "? Adélaïde de Gournay…(selon J. Depoin)" — possible sister of Hugh III, not daughter. |
 
@@ -249,10 +254,15 @@ The FS structured table over-shares ten children (Hugues IV, Adelaide, Judith, O
 
 ---
 
+[^scripta-bec-6511]: SCRIPTA Act 6511, William I confirmation/pancarte for Bec, 1077: Hugh de Gornaco and his son Gerard give their domain in the same villa as the Bois Girard milling-right clause. Source ID: `unicaen-scripta-selected-gournay-acts`.
+[^scripta-bec-6512]: SCRIPTA Act 6512, William I confirmation of Bec's English holdings, [1081-1087], confirming Hugh de Gornaco's London holding from the king plus Fordham, Ardleigh, and Liston rights. Source ID: `unicaen-scripta-selected-gournay-acts`.
+[^scripta-caen-6472]: SCRIPTA Act 6472, William I / Matilda confirmation to La Trinite de Caen, 1082; two-version text gives Hugh/Gerard Gournay forms rather than a clean William/Gerard pair. Source ID: `unicaen-scripta-selected-gournay-acts`.
+
 ## 10. Sources consulted
 
 | Source | Citation handle |
 |---|---|
+| SCRIPTA selected Gournay acts, Acts 151, 6472, 6511, 6512, 6538, 6565 and related roster acts | `unicaen-scripta-selected-gournay-acts` |
 | Daniel Gurney 1845/1848, *Record of the House of Gournay* Part I, pp. 25–27, 55, 65 | `dg-rec-pt1` |
 | DG-Supp (1858) Notes 12–14 (Bec endowments, Augerius, Lessingham) | `dg-rec-supp` |
 | Hannay 1867, ch. III pp. 91–100 | `hannay-three-hundred-years-1867` |

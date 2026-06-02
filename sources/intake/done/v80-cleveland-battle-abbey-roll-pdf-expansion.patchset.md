@@ -1,3 +1,4 @@
+﻿**Done:** 2026-06-02 16:09 PT
 # Intake Phase 1 Patchset v80 - Cleveland Battle Abbey Roll PDF-backed expansion
 
 Prepared: 2026-06-01 PT

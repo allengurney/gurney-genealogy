@@ -276,6 +276,44 @@
     "filename": "attleborough.md"
   },
   {
+    "placeId": "place-baconsthorpe-castle-norfolk-england",
+    "name": "Baconsthorpe Castle, Baconsthorpe, Norfolk, England",
+    "aliases": [
+      "Baconsthorpe Castle",
+      "Baconsthorpe Hall",
+      "Wood Hall, Baconsthorpe",
+      "Baconsthorpe Castle moated site with fortified house, gatehouse, courtyards and formal gardens"
+    ],
+    "shortDescription": "Heydon family fortified manor house and Gurney in-law site",
+    "placeType": "historic site",
+    "coordinate": {
+      "lat": 52.8985961,
+      "lng": 1.152825
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "spouse family seat",
+      "in-law alliance context",
+      "wool economy context",
+      "heritage site"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g18-william-gurney-v",
+        "role": "spouse family seat"
+      },
+      {
+        "recordId": "ancestor-g19-william-gurney-iv",
+        "role": "in-law alliance context"
+      },
+      {
+        "recordId": "ancestor-g20-thomas-gournay-ii",
+        "role": "in-law alliance context"
+      }
+    ],
+    "filename": "baconsthorpe-castle.md"
+  },
+  {
     "placeId": "place-bedfordshire-england",
     "name": "Bedfordshire, England",
     "aliases": [

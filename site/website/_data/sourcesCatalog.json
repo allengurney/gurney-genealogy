@@ -603,13 +603,13 @@
     "sourceId": "cleveland-battle-abbey-roll-v2-gurnay",
     "shortTitle": "Cleveland, Battle Abbey Roll - Gurnay",
     "citation": "Cleveland, Duchess of. The Battle Abbey Roll, with Some Account of the Norman Lineages. Vol. 2. London: John Murray, 1889.",
-    "archive": "Belnap PDF / 1066.co.nz transcription",
+    "archive": "Local public-domain PDF / Google Books / 1066.co.nz transcription",
     "url": "https://www.1066.co.nz/Mosaic%20DVD/library/Battle%20Roll/Gurnay.html",
     "corpusStatus": "partial",
     "corpusPath": "sources/corpus_supplement/cleveland-battle-abbey-roll-v2-gurnay.md",
-    "mediaPath": "",
+    "mediaPath": "sources/media/cleveland-battle-abbey-roll-v2-gurnay/The_Battle_Abbey_Roll.pdf",
     "validationPath": "sources/validations/cleveland-battle-abbey-roll-v2-gurnay.md",
-    "notes": "Late-19th-century derivative account of the Gurnay/Gournay lineage. Useful as a synthesis and cross-check, not primary authority. The exact 1066.co.nz Gurnay entry was supplied in v08a and includes substantial detail on the Pays de Bray, Mortemar, Domesday Essex holdings, Gerard/Edith Warenne, the senior line's end, Somerset collateral Gournays, and the Norfolk mesne-lord branch."
+    "notes": "Late-19th-century derivative account of the Gurnay/Gournay lineage. Useful as a synthesis and cross-check, not primary authority. The source covers the senior Gournay barons, Somerset/Harptree collateral Gournays, and the Norfolk mesne-lord branch. Local PDF promoted in v80; 1066.co.nz remains the convenient searchable transcription; Google Books page URL supplied for image control. The Robert de Gournay in this source is the Somerset/Harptree collateral Robert, not a direct-line Robert."
   },
   {
     "sourceId": "cleveland-battle-abbey-roll-introduction",
@@ -622,6 +622,30 @@
     "mediaPath": "",
     "validationPath": "sources/validations/cleveland-battle-abbey-roll-introduction.md",
     "notes": "Battle Abbey Roll introduction and list comparison. Relevant for Gournay/Gurnay/Gurney roll variants, duplicate Hue de Gourney/Hue earl of Gournay forms, and caution about roll incompleteness/interpolation."
+  },
+  {
+    "sourceId": "cleveland-battle-abbey-roll-v1-crossrefs",
+    "shortTitle": "Cleveland, Battle Abbey Roll vol. 1 crossrefs",
+    "citation": "Cleveland, Duchess of. The Battle Abbey Roll, with Some Account of the Norman Lineages. Vol. 1. London: John Murray, 1889.",
+    "archive": "1066.co.nz electronic edition",
+    "url": "https://www.1066.co.nz/Mosaic%20DVD/library/Battle%20Roll/battleabbeyroll%20vol1.html",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/cleveland-battle-abbey-roll-v1-gurnay-crossrefs.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/cleveland-battle-abbey-roll-v1-crossrefs.md",
+    "notes": "Derivative cross-reference sweep of volume 1 for Gurnay/Gurney variants and related family/place entries. Useful for roll-list duplication of Gurnay/Gurney, Bardolf/Wormegay context, and Botetourt lands held of the honour of Gournay. Use as corroborative/lead material only."
+  },
+  {
+    "sourceId": "cleveland-battle-abbey-roll-v3-crossrefs",
+    "shortTitle": "Cleveland, Battle Abbey Roll vol. 3 crossrefs",
+    "citation": "Cleveland, Duchess of. The Battle Abbey Roll, with Some Account of the Norman Lineages. Vol. 3. London: John Murray, 1889.",
+    "archive": "1066.co.nz electronic edition",
+    "url": "https://www.1066.co.nz/Mosaic%20DVD/library/Battle%20Roll/battleabbeyroll%20vol3.html",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/cleveland-battle-abbey-roll-v3-gurnay-crossrefs.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/cleveland-battle-abbey-roll-v3-crossrefs.md",
+    "notes": "Derivative cross-reference sweep of volume 3 for Gournay/Gourney/Wauncy/Talbot/Gant/Vipont material. Most useful items: Talbot marriage to Gerard de Gournay's daughter; Emma de Gant's son Robert de Gournay as Maurice de Gant's heir; Wauncy-to-West Barsham descent through Katherine wife of Edmund de Gournay; and a King John/Mirabeau prisoner-custody lead involving Hugh de Gournay. Use as corroborative/lead material only."
   },
   {
     "sourceId": "folger-corpus-christi-1619",
@@ -862,6 +886,30 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Modern scholarly edition of charters relating to the honour of Warenne. Pages 6-7 give an independent scholarly statement of Edith / Ediva de Warenne's two marriages: (1) Gerard de Gournay, on whose Jerusalem pilgrimage 'he died not earlier than 1104'; (2) 'Drew de Monchy, by whom she had a son Drew the younger.' This is the strongest modern third-party confirmation of the corrected G32 chronology (death after 1104, not before), the Drogo I/Drogo II distinction, Edith's role on the pilgrimage, and Edith's placement as daughter of William de Warenne and Gundreda. Also notes that Edith named her daughter Gundreda after her grandmother Gundreda de Warenne. Pages 40-46 / 50-62 are also relevant to the Gundred parentage controversy, including the Lewes evidence, the Gerbod relationship, and the source-critical rejection of the older royal-descent theory."
+  },
+  {
+    "sourceId": "english-heritage-baconsthorpe-castle-history",
+    "shortTitle": "English Heritage - Baconsthorpe Castle history",
+    "citation": "English Heritage. \"History of Baconsthorpe Castle.\" English Heritage.",
+    "archive": "English Heritage site history",
+    "url": "https://www.english-heritage.org.uk/visit/places/baconsthorpe-castle/history/",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/english-heritage-baconsthorpe-castle-history.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/english-heritage-baconsthorpe-castle-history.md",
+    "notes": "Official English Heritage history page for Baconsthorpe Castle. Supports the Heydon residence chronology: Baconsthorpe acquired from the Bacon family by William Baxter/Heydon in the early 15th century; John Heydon d.1479 began the earliest castle building; Sir Henry Heydon d.1504 completed and extended the castle; the castle was the Heydons' main residence from about 1450; later wool wealth and debt led to partial demolition in 1650."
+  },
+  {
+    "sourceId": "english-heritage-baconsthorpe-castle-wool-factory",
+    "shortTitle": "English Heritage - Baconsthorpe Tudor wool factory",
+    "citation": "English Heritage. \"The Rise and Fall of a Tudor Wool Factory.\" English Heritage.",
+    "archive": "English Heritage site history",
+    "url": "https://www.english-heritage.org.uk/visit/places/baconsthorpe-castle/history/tudor-wool-factory/",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/english-heritage-baconsthorpe-castle-wool-factory.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/english-heritage-baconsthorpe-castle-wool-factory.md",
+    "notes": "Official English Heritage article on the Heydon family's Tudor wool economy at Baconsthorpe Castle. Supports contextual comparison with the Gurney wool economy: pasture surrounding the castle, major sheep flocks, mid-16th-century wool processing range, cloth sold in England and the Netherlands, and later debt-driven decline."
   },
   {
     "sourceId": "explore-west-norfolk-harpley-st-lawrence",
@@ -1608,6 +1656,18 @@
     "notes": "1610 printed Norman chronicle. Cited via Potin 1842 for the 1035 expedition captain list (ff. 79-80) and the 1074 Cardiff narrative (f. 117). One of the four traditions transmitting the Cardiff death legend; FMG MedLands judges 'the historical basis of the account is uncertain.'"
   },
   {
+    "sourceId": "historic-england-baconsthorpe-castle-1013093",
+    "shortTitle": "Historic England - Baconsthorpe Castle (1013093)",
+    "citation": "Historic England. \"Baconsthorpe Castle moated site with fortified house, gatehouse, courtyards and formal gardens.\" National Heritage List for England, List Entry Number 1013093.",
+    "archive": "Historic England, National Heritage List for England",
+    "url": "https://historicengland.org.uk/listing/the-list/list-entry/1013093",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/historic-england-baconsthorpe-castle-1013093.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/historic-england-baconsthorpe-castle-1013093.md",
+    "notes": "Official Historic England scheduled-monument entry for Baconsthorpe Castle. Supports precise current-site status and coordinates: Scheduled Monument, List Entry 1013093, first listed 4 Dec. 1924, amended 27 Sept. 1995, NGR TG 12157 38117. Describes the moated fortified house, remains, outer gatehouse, courtyards, mere, formal garden earthworks, and Wood Hall / Heydon acquisition context."
+  },
+  {
     "sourceId": "historic-england-old-hall-farmhouse-1077566",
     "shortTitle": "Historic England - Old Hall Farmhouse (1077566)",
     "citation": "Historic England. \"Old Hall Farmhouse.\" National Heritage List for England, List Entry Number 1077566.",
@@ -1798,6 +1858,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Modern edited volume on Norman crusading networks. Pages 92-93 identify Drogo II as son of Drogo I, Drogo I as First Crusader and stepfather of Hugh of Gournay, and Gerard as Hugh's natural father and First Crusader. Useful for the crusading-family-tradition framing across Gerard, Drogo I, Hugh, and Drogo II."
+  },
+  {
+    "sourceId": "rye-index-rerum-norfolk-antiquities-1910",
+    "shortTitle": "Index Rerum to Norfolk Antiquities (Rye, 1910)",
+    "citation": "Rye, Walter, comp. An Index Rerum to Norfolk Antiquities. Norwich: 1910.",
+    "archive": "Internet Archive / Wikimedia Commons PDF",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/An_index_rerum_to_Norfolk_antiquities_%28IA_indexrerumtonorf00ryewrich%29.pdf",
+    "corpusStatus": "partial",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/rye-index-rerum-norfolk-antiquities-1910.md",
+    "notes": "Norfolk antiquarian index source. Under Apocryphal Book of Dan it directs readers to the Gurney pedigree entry; under Gurney it lists Daniel Gurney's Record as otherwise known as the Apocryphal Book of Dan and collects manuscript pedigree leads including Harl. MS 4755 fo.81, Harl. MS 1552 p.48, and John H. Gurney of Keswick MSS."
   },
   {
     "sourceId": "keates-rohan-domesday",
@@ -2628,6 +2700,18 @@
     "notes": "Local Gournay antiquarian history (Tome Premier 1842). Chapters on Eudes (p. 59), Renaud (p. 65), Hugues I (p. 75), Hugues II (p. 91+), Hugues III (p. 108), Girard, Hugues IV, Hugues V. Numbering-dispute resolution pp. 70–73. Cardiff narrative p. 105 (Hugh II). Hugh III death year 1110 p. 110. Beauvais obituary p. 124. Draws on Cordier MS, Langloys notes, René Potin notes. Predates DG 1845."
   },
   {
+    "sourceId": "potts-monastic-revival-regional-identity-1997",
+    "shortTitle": "Potts, Monastic Revival and Regional Identity (1997)",
+    "citation": "Potts, Cassandra. Monastic Revival and Regional Identity in Early Normandy. Studies in the History of Medieval Religion 11. Woodbridge: Boydell Press, 1997.",
+    "archive": "published monograph; online snippet consulted",
+    "url": "",
+    "corpusStatus": "not-captured",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/potts-monastic-revival-regional-identity-1997.md",
+    "notes": "Modern scholarly control for the Montivilliers/Cauville transaction in SCRIPTA Act 6538. Potts pp. 42-43 treats the Cauville sale as an example of a sale later recast as ducal gift and cites Jean-Michel Bouvris, 'La renaissance de l'abbaye de Montivilliers autour de l'an mil,' in L'abbaye de Montivilliers a travers les ages (Montivilliers, 1988), pp. 67-84."
+  },
+  {
     "sourceId": "powell-historie-cambria-1584",
     "shortTitle": "Powell -- Historie of Cambria (1584)",
     "citation": "Powell, David. The Historie of Cambria, now called Wales: a part of the most famous Yland of Brytaine. London: Rafe Newberie and Henrie Denham, 1584. Continuing the unfinished English translation by Humphrey Llwyd of medieval Welsh chronicle material (principally Brut y Tywysogion). Standard modern re-edition: Wynne 1811.",
@@ -2844,6 +2928,18 @@
     "notes": "Harleian Society edition of the Norfolk visitations of 1563, 1589, and 1613. Selected Gurney/Gorney/Gourney pages transcribed in v67: printed pp. 40, 132, 140, and 141. High value for direct-line Francis G16, Henry G15, and Francis G14 parentage/sibling ordering; also useful for collateral Barsham/Cawston/Aylsham and Blundevill-alliance Gorney variants. Alternate Internet Archive item for the same Harleian Society edition: https://archive.org/details/visitacionievisi32ryew (intake encountered a less-clean scan duplicate of p. 132 from this item in v68; the v67 capture remains the project's working scan)."
   },
   {
+    "sourceId": "sanhs-excursions-1907-apocryphal-book-dan",
+    "shortTitle": "SANHS Excursions: Apocryphal Book of Dan note",
+    "citation": "Somerset Archaeological and Natural History Society, excursion report PDF, note on Daniel Gurney's mistaken use of a house as Sir Matthew Gournay's residence and the informal title 'Apocryphal Book of Dan.'",
+    "archive": "SANHS online PDF",
+    "url": "https://sanhs.org/wp-content/uploads/2020/08/02Excursions.pdf",
+    "corpusStatus": "partial",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/sanhs-excursions-1907-apocryphal-book-dan.md",
+    "notes": "Useful reception note: the report says Daniel Gurney's book was generally known among his friends as the 'Apocryphal Book of Dan,' citing The Bibliographer, I, 59. Treat as informal/friendly nickname, not as a separate edition or alternate text."
+  },
+  {
     "sourceId": "savage-dictionary",
     "shortTitle": "Savage, Genealogical Dictionary",
     "citation": "Savage, James. A Genealogical Dictionary of the First Settlers of New England. 4 vols. Boston: Little, Brown, 1860–1862.",
@@ -2866,6 +2962,18 @@
     "mediaPath": "sources/media/ukda-9263-merchant-taylors-apprentices/",
     "validationPath": "sources/validations/ukda-9263-mt-apprentices-scott-2024.md",
     "notes": "Published transcription of the Merchant Taylors' Company binding books and freedom registers, 1583-1800: 63,644 binding rows in COMB, 65,392 freedom rows, plus Court Appearances, Redemptions, and Patrimony sheets. CC BY-NC-SA 4.0. Primary first-hand evidence for Francis Gurney G14's apprenticeship (bound 14 May 1599 to Henry Tryme, transferred 3 Feb 1605 to William Smooth, freed 30 June 1606) and for Francis G14 as master taking Francis Spelman s. Sir Henry Spelman in 1616 with a £100 bond. Confirms no John Gurney son of Francis Gurney was bound or freed by patrimony in the MT 1583-1800 record. See research/topics/merchant-taylors-1583-1800-gurney-analysis.md."
+  },
+  {
+    "sourceId": "unicaen-scripta-selected-gournay-acts",
+    "shortTitle": "SCRIPTA selected Gournay acts",
+    "citation": "Universite de Caen Normandie / CRAHAM-MRSH, SCRIPTA: Base des actes normands medievaux, selected acts relating to Hugh de Gournay, Basilia, Gerard, and Gournay/Gornaco/Gurnai variants.",
+    "archive": "SCRIPTA online act records",
+    "url": "https://mrsh.unicaen.fr/scripta/",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/unicaen-scripta-selected-gournay-acts.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/unicaen-scripta-selected-gournay-acts.md",
+    "notes": "Selected SCRIPTA acts from the Normonde Hugues Ier de Gournay authority roster and follow-on act exploration. Includes Acts 151, 1633, 1661, 6458, 6463, 6466, 6467, 6472, 6511, 6512, 6520, 6523, 6538, and 6565. Key findings: Act 151 directly names Hugh, Basilia, and Gerard consenting to Raoul Havoth's Jumieges donation at Hugonis Silva/Boschyons; Act 6511 directly names Hugh de Gornaco and his son Gerard donating their domain in the same villa, contextually Bois Girard, to Bec; Act 6512 preserves William I's confirmation that Hugh gave Bec what he held of the king in London plus Fordham, Ardleigh, and Liston rights; Act 6538 provides modern SCRIPTA/Bates/Fauroux control for the Cauville/Montivilliers sale already printed by Daniel Gurney."
   },
   {
     "sourceId": "husting-wills-london-vol2-sharpe",

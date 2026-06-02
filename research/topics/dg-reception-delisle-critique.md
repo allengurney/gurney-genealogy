@@ -6,6 +6,14 @@ The *Record of the House of Gournay* by Daniel Gurney (1845, with Supplement 185
 
 ## 1. DG's project and its evidentiary base
 
+### 1.1 Informal nickname: "The Apocryphal Book of Dan"
+
+A new reception lead explains the alternative title found in Norfolk source lists. Walter Rye's `Index Rerum to Norfolk Antiquities` indexes "Apocryphal Book of Dan" to the Gurney pedigree entry, and the Gurney entry glosses Daniel Gurney's `Record of the House of Gournay` as "otherwise known as the Apocryphal Book of Dan."[^rye-index-apocryphal-dan]
+
+The stronger social-context note comes from the Somerset Archaeological and Natural History Society excursion report. In a footnote on Daniel Gurney's mistaken identification of a house as Sir Matthew Gournay's residence, the report says the book was generally known among his friends as the "Apocryphal Book of Dan," citing `The Bibliographer`, I, 59.[^sanhs-apocryphal-dan]
+
+Treat this as an informal or joke-name among family/friends and antiquarian readers, not as evidence for a separate edition, missing version, or variant text of Daniel Gurney's work. It does, however, nicely reflects the mixed reception captured elsewhere in this topic file: Daniel Gurney's work was foundational, ambitious, and beloved inside the family circle, while its early legendary strata were already treated with affectionate skepticism.
+
 Daniel Gurney (1791–1880), banker and antiquarian, published the four-volume *Record of the House of Gournay* between 1845 and c. 1858. The work draws on:
 
 - Norman archives at Évreux, Rouen, and elsewhere (DG describes archival visits in Volume I introduction).
@@ -151,10 +159,15 @@ This topic file is the central place in the repo where the critique is documente
 
 ---
 
+[^rye-index-apocryphal-dan]: Walter Rye, `An Index Rerum to Norfolk Antiquities` (Norwich, 1910), entries "Apocryphal Book of Dan" and "Gurney" in the Index to Pedigrees. Source ID: `rye-index-rerum-norfolk-antiquities-1910`.
+[^sanhs-apocryphal-dan]: Somerset Archaeological and Natural History Society excursion report PDF, footnote citing `The Bibliographer`, I, 59, for the note that Daniel Gurney's book was generally known among his friends as the "Apocryphal Book of Dan." Source ID: `sanhs-excursions-1907-apocryphal-book-dan`.
+
 ## 8. Sources
 
 | Source | Citation handle |
 |---|---|
+| Rye, `Index Rerum to Norfolk Antiquities` (1910), "Apocryphal Book of Dan" / Gurney entries | `rye-index-rerum-norfolk-antiquities-1910` |
+| SANHS excursion report note on "Apocryphal Book of Dan" | `sanhs-excursions-1907-apocryphal-book-dan` |
 | Daniel Gurney 1845/1848 *Record of the House of Gournay* | `dg-rec-pt1` to `dg-rec-pt4` |
 | DG-Supp 1858, Note 8 (Delisle's confirmation that la Ferté charter not in Évreux archives) | `dg-rec-supp` |
 | Pattou *Racines Histoire* (2025-08-11) p. 2 | `pattou-racines-histoire-gournay-2025` |

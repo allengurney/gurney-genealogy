@@ -27,11 +27,11 @@ The full Phase-0 source-by-source cross-walks live in [`sources/FS/LBGV-H99/asse
 
 The 1082 charter signature aside, Gerard's documentary footprint is unusually rich for a Norman baron of his era — eleven distinct primary-source extracts, in two languages, from six independent traditions (Orderic, Guillaume de Jumièges, Albert of Aix, Baudry of Dol, William of Poitou, the *Histoire et Chronique de Normandie*).
 
-### 2.1 1082 — la Trinité de Caen foundation charter
+### 2.1 1082 - la Trinite de Caen foundation charter
 
-> "…William de Gornai…Girard de Gornai…" witnessed the charter dated 1082 under which William I King of England donated property to the abbey of la Trinité de Caen. (FMG [877])
+SCRIPTA Act 6472 gives the La Trinite witness forms as `[Hugonis] de Gornayo` / `Hugonis de Gornelio` and `Girardi de Gornaio` in its two-version text.[^scripta-caen-6472-g32]
 
-William de Gornai is Gerard's brother (per Pattou) — or, in some readings, an older relative. Both DG and Pattou treat the two as concurrent witnesses, not father and son.
+This matters because the older FMG/DG tradition has been read in the repo as "William de Gornai ... Girard de Gornai." The modern SCRIPTA transcription does not show that William form in the Gournay witness slot; it supports Hugh + Gerard in the witness list and makes the brother-William inference unresolved pending a check of FMG's edition basis.
 
 ### 2.2 Undated Jumièges charter — Radulphus Havoth's entry
 
@@ -40,6 +40,12 @@ Independent attestation of the family triad Hugh III + Gerard + Basilea:
 > "Domino meo Hugone Gurnaiensi et filio eius Girardo et uxore eius Basilia" consented to a donation to Jumièges abbey by "Radulphus cognomina Havoth cum uxore mea" on his entering the abbey as a monk, by undated charter. (FMG [876])
 
 Source: Gurney 1845, p. 57, quoting "an old copy in a paper Cartulary of Jumièges," Rouen Archives. The earlier dated [1040] charter (FMG [875]) is presumed misdated — Gerard cannot have been adult in 1040 if he was witnessing in 1082.
+
+### 2.2.1 1077 Bec pancarte - Hugh and Gerard as father-son donors
+
+SCRIPTA Act 6511 gives a separate Bec-side father-son attestation: after Hugh de Bolbec's half milling right of Bois Girard, the act says Hugh de Gornaco and his son Gerard gave their domain in the same villa, except the wood called Ramerius and the wood below Rodulf's house.[^scripta-bec-6511-g32]
+
+This is important because it is not only a later royal recitation of earlier gifts. It directly names Hugh and Gerard in a donor clause and places Gerard inside the Bec patronage sequence before his later independent Lessingham and Bec-family role.
 
 ### 2.3 [1089/90] — Orderic Vitalis: Gerard delivers three castles to William Rufus
 
@@ -121,6 +127,8 @@ Translation: *"On the 8th day before the Ides of May [= 8 May], died Girardus of
 > Henry II King of England confirmed the possessions of the abbey of Bec, including donations by "Hugonis de Gornaco et Girardi filii…Girardi de Gornaio et Basilie matris sue", by charter dated to [1181/89]. (FMG [885])
 
 Independent twelfth-century corroboration of the donation chain Hugh III → Gerard → Basilia.
+
+Delisle and Berger's Tome II edition now supplies the critical-edition control for this confirmation: act DCCXLIV, Delisle no. 552, dated 1181-1189 at Montfort. The relevant Bec clauses preserve the same chain and add the Hugues IV Ecouche clause already extracted in section 2.10.1. Use the Delisle source ID for the primary text and FMG only as the finding path / prosopographical index.[^delisle-bec-dccxliv-g32]
 
 ### 2.10.1 The DCCXLIV (Delisle/Berger Tome II) Écouché continuity attestation
 
@@ -406,10 +414,15 @@ Drogo II is not a Gournay by blood but he is half-brother to Hugh de Gournay (IV
 
 ---
 
+[^scripta-caen-6472-g32]: SCRIPTA Act 6472, William I / Matilda confirmation to La Trinite de Caen, 1082. Source ID: `unicaen-scripta-selected-gournay-acts`.
+[^scripta-bec-6511-g32]: SCRIPTA Act 6511, William I confirmation/pancarte for Bec, 1077. Source ID: `unicaen-scripta-selected-gournay-acts`.
+[^delisle-bec-dccxliv-g32]: Leopold Delisle and Elie Berger, eds., `Recueil des actes de Henri II`, vol. 2, act DCCXLIV / Delisle no. 552, pp. 375-379. Source ID: `recueil-actes-henri-ii-delisle-berger-vol-2`.
+
 ## 16. Sources consulted (canonical bibliography)
 
 | Source | Citation handle |
 |---|---|
+| SCRIPTA selected Gournay acts, especially Acts 6472 and 6511 | `unicaen-scripta-selected-gournay-acts` |
 | Daniel Gurney 1845/1848, *Record of the House of Gournay* Part I, pp. 27–32, 67–70; pedigree p. 277 (Walter-youngest); pedigree p. 286 | `dg-rec-pt1` |
 | DG-Supp (1858) Notes 15 (Raoul / 1103 accord), 16 (Cartulary of La Trinité de Rouen), 17 (St-Wandrille), 18 (Britolio dispute), 104 (Walter-as-son generational proof) | `dg-rec-supp` |
 | Hannay 1867, *Three Hundred Years*, ch. III pp. 100–117 | `hannay-three-hundred-years-1867` |

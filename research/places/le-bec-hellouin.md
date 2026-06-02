@@ -6,7 +6,7 @@ Abbey of Bec — burial site of Hugh de Gournay III (G33) and his wife Basilia F
 
 Hugh III retired to the Abbey of Bec as a monk before 1093, where his friend Anselm (later Archbishop of Canterbury) greeted him as "*dilectissimum nostrum*." Both Hugh and Basilia were buried here. The *Chronicon Beccensis Abbatiæ* records the deaths of three noble women at Bec in January 1099/1100: Ansfride (Basilia's niece, a virgin) on 2 January; Basilia herself on approximately 16 January; and Eva, wife of William Crispin, on 23 January — three consecutive Sundays.
 
-In 1076, Hugh III gave the tithes of his three Essex parishes (Fordham, Liston, Ardleigh) to Bec, establishing an ongoing English revenue stream for the abbey. Gerard (G32) continued the family's connection to Bec by founding Lessingham Priory in Norfolk as a daughter house.
+In 1076/[1081-1087], Hugh III gave Bec an English revenue package: whatever he held of the king in London, plus Fordham's church and tithes, Ardleigh's tithe, and Liston's half-vill tithe and half church. Gerard (G32) continued the family's connection to Bec by founding Lessingham Priory in Norfolk as a daughter house.[^scripta-bec-english-le-bec]
 
 The Gournay family were among Bec's most important lay patrons across three generations: Hugh III (endowment and burial), Gerard (Lessingham priory foundation), and Hugh IV (confirmation charter of 1112).
 
@@ -53,6 +53,8 @@ The safest wording is: Hugh III's Bec survives as an abbey site and institutiona
 - `research/places/g33-bec-gournay-endowment-cluster.md`
 
 <!-- GENERATED:PLACE-REGISTRY:START -->
+[^scripta-bec-english-le-bec]: SCRIPTA Act 6512, William I confirmation of Bec's English holdings, [1081-1087]. Source ID: `unicaen-scripta-selected-gournay-acts`.
+
 ## Place registry
 
 - `placeId`: `place-le-bec-hellouin-normandy-france`

@@ -11,12 +11,15 @@ Hugh III's relationship with Bec was not only personal and spiritual. It was als
 Two later confirmations preserve the donation chain for this cluster:
 
 - **c. 1112 or 1122 — Hugues IV de Gournay's confirmation** records that Hugues IV confirmed gifts to Bec made by "his ancestors Hugues and Basilie, and by Gérard, his father," explicitly naming the Brémontier church and its tithes within the confirmed package. This is the earliest *familial* confirmation of the full Hugh III → Basilie → Gerard donation chain.[^decorde-hugues-iv-bec]
-- **[1181/89] — Henry II's royal confirmation** later restated the same chain at a royal level, naming "Hugonis de Gornaco et Girardi filii…Girardi de Gornaio et Basilie matris sue" and confirming the Bec possessions.[^fmg-henry-ii-bec]
+- **[1181/89] - Henry II's royal confirmation** later restated the same chain at a royal level. Delisle and Berger's Tome II edition (act DCCXLIV / Delisle no. 552) gives the critical text: the Bec holdings include gifts from the first Hugh de Gornaco and Gerard his son, from Gerard de Gornaio and Basilia his mother, and from Hugues IV at Ecouche. This raises the Henry II confirmation from an FMG-only pointer to a primary-text-controlled source in the repo.[^delisle-henry-ii-bec]
 
 Together the two confirmations establish that the Gournay-Bec relationship was renewed at the family level within a single generation of Gerard's death and again at the royal level under Henry II, both with the explicit ancestor recitation that anchors Brémontier in the cluster.
 
+SCRIPTA adds an earlier 1077 Bec pancarte control: Hugh de Gornaco and his son Gerard gave their domain in the same villa as Hugh de Bolbec's Bois Girard milling-right clause, excepting two woods. This places the Hugh-Gerard donor pair directly in the Bec endowment record rather than only in later confirmations.[^scripta-bec-6511-place]
+
 [^decorde-hugues-iv-bec]: J.-E. Decorde, *Essai historique et archéologique sur le Canton de Gournay* (1861); deep-research synthesis at `sources/corpus_supplement/deep-research-report-decorde-essai-gournay-ancestors.md`. Source ID: `decorde-essai-canton-gournay-1861`.
-[^fmg-henry-ii-bec]: Foundation for Medieval Genealogy, Norman Nobility — Hugh III de Gournay, citation [885] (Henry II's confirmation charter, [1181/89]). Already documented in `research/people/g32-gerard-de-gournay-fact-sheet.research.md` §2.9. Source ID: `fmg-medlands-normacre` (existing).
+[^delisle-henry-ii-bec]: Leopold Delisle and Elie Berger, eds., `Recueil des actes de Henri II`, vol. 2, act DCCXLIV / Delisle no. 552, pp. 375-379; source ID `recueil-actes-henri-ii-delisle-berger-vol-2`. FMG MedLands [885] remains the prosopographical finding path; source ID `fmg-medlands-normacre`.
+[^scripta-bec-6511-place]: SCRIPTA Act 6511, William I Bec confirmation/pancarte, 1077. Source ID: `unicaen-scripta-selected-gournay-acts`.
 
 ## Component places and rights
 

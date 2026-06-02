@@ -1,5 +1,9 @@
 # City of London, England
 
+### Hugh de Gournay III - Domesday-era London holding
+
+SCRIPTA Act 6512, William I's [1081-1087] confirmation of Bec's English holdings, says the king confirmed to Bec what Hugh de Gornaco had given, including "in London' quod ibi habebat de me" - whatever Hugh held there of the king - before listing the Essex church/tithe rights at Fordham, Ardleigh, and Liston. The clause does not identify the London site, but it gives the repo its earliest known Gurney/Gournay London holding or revenue reference, more than five centuries before the early-modern St Augustine / Old Change cluster.[^scripta-bec-london-place]
+
 ### St Augustine Watling Street and Old Change - Robert and John Gurney
 
 St Augustine Watling Street stood at the corner of Watling Street and Old Change in the City of London. Old Change ran from Cheapside to Knightrider Street; the parish was destroyed in the Great Fire 1666 and rebuilt by Wren, then united with St Faith under St Paul's in 1670 and ultimately united with St Mary le Bow in 1954. The 1638 T. C. Dale return surveyed by British History Online lists the parish's rents and tithe assessment in three sections (MS. 67, MS. 67a, MS. 68) totalling £1,700 yielding £233 5s tithe at 2/9 in the pound.[^bho-1638-place]
@@ -26,6 +30,8 @@ A later Charity Commission report on the Haberdashers' Company describes "Gourna
 [^haberdashers-gournay-charity]: ["Report on the Charities of the Haberdashers' Company: Part I,"](https://www.british-history.ac.uk/livery-companies-commission/vol4/pp420-456#h3-s47) *City of London Livery Companies Commission*, vol. 4, British History Online. Source ID: `bho-livery-haberdashers-gournay-charity`.
 
 <!-- GENERATED:PLACE-REGISTRY:START -->
+[^scripta-bec-london-place]: SCRIPTA Act 6512, William I confirmation of Bec's English holdings, [1081-1087]. Source ID: `unicaen-scripta-selected-gournay-acts`.
+
 ## Place registry
 
 - `placeId`: `place-city-of-london-england`

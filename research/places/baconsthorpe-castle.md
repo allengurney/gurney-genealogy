@@ -1,0 +1,27 @@
+# Baconsthorpe Castle, Norfolk
+
+Baconsthorpe Castle is the physical Heydon seat behind the late-15th-century Gurney-Heydon alliance. English Heritage describes the castle as the Heydons' main residence from about 1450: John Heydon, who died in 1479, began the earliest castle building, and his son Sir Henry Heydon, who died in 1504, completed and extended it.[^eh-baconsthorpe-history]
+
+The direct Gurney line intersects the place in three linked steps. Thomas Gournay II (G20) named John Heydon of Baconsthorpe supervisor of his 1471 will. Within a year, Henry Heydon was ready with men-at-arms to support William Gurney IV (G19) during the Saxthorpe Court dispute. In 1484, the alliance became a marriage connection when Henry Heydon arranged the marriage of his daughter Anne Heydon to William Gurney V (G18). No surviving source examined here records a named Gurney visit to Baconsthorpe Castle, but the documented 1471-1484 legal, military, and marriage sequence makes visits by William IV and William V a reasonable inference rather than a proved event.[^gurney-heydon-sequence]
+
+Anne Heydon is the direct-line wife most closely tied to the place. She was Sir Henry Heydon's daughter; Baconsthorpe was her father's principal family seat; and the castle was active as a high-status Heydon residence before her marriage to William Gurney V. It is therefore likely that Anne grew up with Baconsthorpe as part of her household world, although the surviving sources should not be made to say that she was born there or that she resided there continuously.[^eh-baconsthorpe-history][^g18-anne-heydon]
+
+The wool economy gives Baconsthorpe another useful Gurney-facing context. English Heritage presents the Tudor Heydons as major East Anglian wool producers: by the mid-16th century the castle lay at the centre of a large pastoral and wool-processing estate, with an east range adapted for wool work and cloth sold in England and the Netherlands. This should be compared to, not merged with, the Gurney evidence: Thomas Gournay II's 1471 will left Margaret Jerningham the household's woollen and linen cloths as her work and that of her servants, and William Gurney IV's 1507 will required 700 sheep to remain at West Barsham. Together the records show two allied north-Norfolk gentry houses participating in the same broader wool landscape, not a documented joint enterprise.[^eh-baconsthorpe-wool][^gurney-wool-economy]
+
+Historic England supplies the current-site anchor. Baconsthorpe Castle is a Scheduled Monument, List Entry 1013093, at National Grid Reference TG 12157 38117. The protected site includes the moated fortified-house remains, outer gatehouse, courtyards, mere, and formal-garden earthworks. Much of the principal residence was demolished in the mid-17th century, but ruins and earthworks remain extant.[^he-baconsthorpe-1013093]
+
+Keep this place distinct from the earlier Bacon/Baconsthorpe family question. The castle site was acquired from the Bacon family in the early 15th century and became a Heydon seat. That is later than the probable G26 marriage of Sir William de Gournay III to Katherine Bacon/Baconsthorpe, daughter of Edmund Baconsthorpe, and should not be used as proof for or against that earlier marriage.[^baconsthorpe-quarter]
+
+[^eh-baconsthorpe-history]: English Heritage, ["History of Baconsthorpe Castle"](https://www.english-heritage.org.uk/visit/places/baconsthorpe-castle/history/), English Heritage. Source ID: `english-heritage-baconsthorpe-castle-history`.
+
+[^gurney-heydon-sequence]: 1471 supervisor: Francis Blomefield, *History of Norfolk*, vol. vii, "West-Barsham," pp. 42-47, [British History Online](https://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp42-47), Source ID: `blomefield-norfolk`. 1472 Saxthorpe Court: James Gairdner, ed., *The Paston Letters* (1904), Introduction vol. I, Source ID: `paston-letters-gairdner`. 1484 marriage indentures and 1485 trust deed: Daniel Gurney, *Supplement to the Record of the House of Gournay* (King's Lynn: Thew & Son, 1858), Note 132, pp. 817-819, Source ID: `dg-rec-supp`.
+
+[^g18-anne-heydon]: Daniel Gurney, *Record of the House of Gournay* (1848), pedigree p. 287; Daniel Gurney, *Supplement* (1858), Notes 132-133, pp. 817-822; and the existing G18 fact sheet treatment of Anne Heydon's parentage and marriage sequence.
+
+[^eh-baconsthorpe-wool]: English Heritage, ["The Rise and Fall of a Tudor Wool Factory"](https://www.english-heritage.org.uk/visit/places/baconsthorpe-castle/history/tudor-wool-factory/), English Heritage. Source ID: `english-heritage-baconsthorpe-castle-wool-factory`.
+
+[^gurney-wool-economy]: Daniel Gurney, *Record of the House of Gournay* (1848), p. 282, on Thomas II's textile bequest to Margaret, William IV's 700 sheep at West Barsham, and the wider Norfolk wool economy. Source ID: `dg-rec-pt2`.
+
+[^he-baconsthorpe-1013093]: Historic England, ["Baconsthorpe Castle moated site with fortified house, gatehouse, courtyards and formal gardens"](https://historicengland.org.uk/listing/the-list/list-entry/1013093), *National Heritage List for England*, List Entry Number 1013093. Source ID: `historic-england-baconsthorpe-castle-1013093`.
+
+[^baconsthorpe-quarter]: See `research/topics/baconsthorpe-quarter-scenario-analysis.md` for the separate Bacon/Baconsthorpe-family quarter problem around G26 Katherine Baconsthorpe. That file treats the earlier Bacon/Baconsthorpe marriage question as distinct from the later Heydon-led Baconsthorpe Castle context.
