@@ -28,6 +28,25 @@ function readJson(file, label) {
   }
 }
 
+function walkFiles(dir, predicate, results = []) {
+  if (!exists(dir)) return results;
+  fs.readdirSync(dir, { withFileTypes: true }).forEach(entry => {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      walkFiles(full, predicate, results);
+    } else if (!predicate || predicate(full)) {
+      results.push(full);
+    }
+  });
+  return results;
+}
+
+function htmlMetaContent(html, name) {
+  const pattern = new RegExp(`<meta\\b[^>]*\\bname=["']${name}["'][^>]*\\bcontent=["']([^"']*)["'][^>]*>`, "i");
+  const match = html.match(pattern);
+  return match ? match[1].replace(/\s+/g, " ").trim() : "";
+}
+
 function routeCandidates(url) {
   if (!url || url === "#" || /^https?:\/\//i.test(url) || /^mailto:/i.test(url)) {
     return [];
@@ -180,6 +199,36 @@ try {
   walkNav(items);
 } catch (err) {
   errors.push(`navigation data could not be loaded: ${err.message}`);
+}
+
+if (exists(siteOutputRoot)) {
+  const htmlFiles = walkFiles(siteOutputRoot, file => file.endsWith(".html"));
+  const shortDescriptions = [];
+  const genericDescriptions = [];
+
+  htmlFiles.forEach(file => {
+    const html = fs.readFileSync(file, "utf8");
+    const description = htmlMetaContent(html, "description");
+    const relativeOutput = path.relative(siteOutputRoot, file).replace(/\\/g, "/");
+
+    if (!description) {
+      warnings.push(`missing meta description in built output: ${relativeOutput}`);
+      return;
+    }
+    if (description.length < 120) {
+      shortDescriptions.push(`${relativeOutput} (${description.length})`);
+    }
+    if (/^(Research page for|Compact (?:ancestor |related-person )?fact sheet for)\b/i.test(description)) {
+      genericDescriptions.push(relativeOutput);
+    }
+  });
+
+  if (shortDescriptions.length) {
+    warnings.push(`short meta descriptions under 120 chars: ${shortDescriptions.length} page(s); first examples: ${shortDescriptions.slice(0, 8).join(", ")}`);
+  }
+  if (genericDescriptions.length) {
+    warnings.push(`generic meta descriptions remain: ${genericDescriptions.length} page(s); first examples: ${genericDescriptions.slice(0, 8).join(", ")}`);
+  }
 }
 
 if (warnings.length) {

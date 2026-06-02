@@ -199,6 +199,67 @@ function compactSeoTitle(title) {
   return raw.slice(0, wordBreak > 20 ? wordBreak : maxTitleLength).trim();
 }
 
+function stripInlineMarkup(value) {
+  return String(value || "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/`([^`]+)`/g, "$1")
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/'/g, "’")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function trimSeoDescription(value, maxLength = 160) {
+  const clean = stripInlineMarkup(value);
+  if (clean.length <= maxLength) return clean;
+
+  const slice = clean.slice(0, maxLength + 1);
+  const wordBreak = slice.lastIndexOf(" ");
+  let trimmed = clean.slice(0, wordBreak > 120 ? wordBreak : maxLength).replace(/[,:;–-]\s*$/u, "").trim();
+  trimmed = trimmed.replace(/\s+\b(?:a|an|and|as|by|for|in|of|on|or|the|to|with)\b$/i, "").trim();
+  trimmed = trimmed.replace(/[,:;–-]\s*$/u, "").trim();
+  return /[.!?]$/.test(trimmed) ? trimmed : `${trimmed}.`;
+}
+
+function isAwkwardSeoDescription(value) {
+  return /(?:Research context|Region)\.$/i.test(String(value || ""));
+}
+
+function uniqueValues(values) {
+  return [...new Set(values.map(value => String(value || "").trim()).filter(Boolean))];
+}
+
+function buildPlaceSeoDescription(place) {
+  const linkedAncestors = uniqueValues(
+    (place.ancestorLinks || []).map(ancestor => [ancestor.gen, ancestor.name].filter(Boolean).join(" "))
+  ).slice(0, 2);
+  const roles = uniqueValues(place.roles || []).slice(0, 3);
+  const lead = place.longDescription || place.shortDescription || `${place.title} in the Gurney genealogy library.`;
+  const ancestorSentence = linkedAncestors.length ? `Linked to ${linkedAncestors.join(" and ")}.` : "";
+  const roleSentence = roles.length ? `Research context: ${roles.join(", ")}.` : "";
+  const regionSentence = place.region ? `Region: ${place.region}.` : "";
+  const candidates = [
+    [lead, ancestorSentence, roleSentence, regionSentence],
+    [lead, ancestorSentence, regionSentence],
+    [lead, ancestorSentence],
+    [lead, roleSentence],
+    [lead],
+  ]
+    .map(parts => trimSeoDescription(parts.filter(Boolean).join(" ")))
+    .filter(Boolean);
+  const readableCandidates = candidates.filter(candidate => !isAwkwardSeoDescription(candidate));
+
+  const description =
+    readableCandidates.find(candidate => candidate.length >= 145 && candidate.length <= 160) ||
+    readableCandidates.find(candidate => candidate.length >= 120) ||
+    candidates.find(candidate => candidate.length >= 120) ||
+    candidates[0] ||
+    "";
+  if (description.length >= 120) return description;
+
+  return trimSeoDescription(`${description} Part of the mapped ancestor-place index for residence, migration, property, and research context.`);
+}
+
 function buildLocations(item, placesById, detailsById, eraById) {
   const era = eraById.get(item.eraId) || {};
   const refs = Array.isArray(item.placeRefs) ? item.placeRefs : [];
@@ -341,6 +402,7 @@ function buildPlacePages(placesCatalog, placeResearchById) {
         ...place,
         slug: place.researchSlug || place.placeId.replace(/^place-/, ""),
         url: place.researchUrl || `/research/places/${place.placeId.replace(/^place-/, "")}.html`,
+        seoDescription: buildPlaceSeoDescription(place),
         researchTitle: research.title || "",
         researchMarkdown: research.markdown || "",
       };

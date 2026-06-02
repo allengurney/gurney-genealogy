@@ -4,7 +4,7 @@ permalink: /fact-sheets/g35-renaud-de-gournay-fact-sheet.html
 title: Renaud de Gournay Fact Sheet
 pageHeading: Renaud de Gournay (c. 960–965 — dates uncertain)
 subtitle: "First Lord of Gournay confirmed in a surviving primary source document."
-description: "Compact fact sheet for Renaud de Gournay in the direct Gurney line."
+description: "Renaud de Gournay (G35), first direct-line lord confirmed by a surviving charter, linking Gournay-en-Bray to La Ferte c. 989-996."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
 factsheet:
@@ -22,7 +22,7 @@ factsheet:
   "@context": "https://schema.org",
   "@type": "ProfilePage",
   "name": "Renaud de Gournay — Fact Sheet",
-  "description": "Compact fact sheet for Renaud de Gournay in the direct Gurney line.",
+  "description": "Renaud de Gournay (G35), first direct-line lord confirmed by a surviving charter, linking Gournay-en-Bray to La Ferte c. 989-996.",
   "mainEntity": {
     "@type": "Person",
     "name": "Renaud de Gournay",
