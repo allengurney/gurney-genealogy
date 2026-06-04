@@ -354,7 +354,7 @@
     "genNumber": 3,
     "name": "Lester Sawyer Gurney III",
     "dates": "1923-2011",
-    "geography": "Wellesley Hills, MA; New York City; Robins Field, GA; Manila; New Jersey",
+    "geography": "Springfield, MA; Wellesley Hills, MA; New York City; Fort Monmouth, NJ; Luzon, Philippines; Bristol, RI; New Jersey",
     "eraId": "era-modern-america",
     "eraLabel": "Modern America",
     "eraShortLabel": "Modern America",
@@ -365,8 +365,8 @@
     "colorTo": "#557aa3",
     "lineageStatus": "Confirmed",
     "displayLineageStatus": "",
-    "summary": "Wellesley Hills-born power engineer and wartime Army/Air Service Command officer; father of Lester Hayes Gurney (G2). Family notes place him with the Air Service Command at Robins Field when he married Edith Walberg Scott and with the 536th Signal Heavy Construction Company at Manila when G2 was born.",
-    "notables": "Born 10 June 1923 at Wellesley Hills, Massachusetts; died 19 December 2011. Married Edith Walberg Scott on 23 November 1942 in New York City; later married Dorothy Lillian Haben/Haden on 6 June 1965. Dana Gurney's notes identify him as a lieutenant, commissioned June or July 1944, formerly Norwich University class of 1945, and stationed at Manila with the 536th Signal Heavy Construction Company when Lester Hayes Gurney was born at St. Vincent's Hospital, New York City, on 16 November 1945. Family evidence also remembers his long McGraw Edison power-engineering career in New Jersey.",
+    "summary": "Springfield-born, Wellesley Hills-raised power engineer and wartime Signal Corps officer; father of Lester Hayes Gurney (G2). A Norwich University civil-engineering cadet, he was commissioned in the Signal Corps in 1944 and served as a first lieutenant with the 536th Signal Heavy Construction Company in the Western Pacific, directing telephone-line construction on Luzon, before a long power-engineering career.",
+    "notables": "Born 10 June 1923 at Springfield, Massachusetts (city-clerk certificate), raised in Wellesley Hills; died 19 December 2011. A Norwich University civil-engineering cadet (1941-1943), he was commissioned a Signal Corps second lieutenant on 25 November 1944 and served as a first lieutenant and outside-plant officer with the 536th Signal Heavy Construction Company, Army Forces Western Pacific, directing telephone-line construction on Luzon and supervising 75 enlisted men, prisoner-of-war labor, and 75 civilian linemen before separating in 1946. Before the war he was an assistant construction engineer for the New England Power Company in Boston; family evidence remembers a long later career with McGraw Edison in New Jersey. Junior deacon of St. Alban's Lodge No. 6, Bristol, Rhode Island, in 1955. Married Edith Walberg Scott on 23 November 1942 in Manhattan and Dorothy Lillian Hoben on 26 June 1965 at Elizabeth, New Jersey.",
     "landHoldings": "-",
     "hasLandHoldings": false,
     "spouses": [
@@ -376,9 +376,9 @@
         "notes": "Mother of Lester Hayes Gurney (G2); previously married to a man named Scott"
       },
       {
-        "name": "Dorothy Lillian Haben/Haden",
-        "dates": "m. 6 June 1965",
-        "notes": "Surname uncertain in family notes; verify by marriage record"
+        "name": "Dorothy Lillian Hoben",
+        "dates": "m. 26 June 1965, Elizabeth, New Jersey; d. 25 December 1994, Morristown, New Jersey",
+        "notes": "Marriage certificate and invitation establish surname and date; a family note gives a variant 6 June 1965."
       }
     ],
     "children": [
@@ -1245,6 +1245,117 @@
     "externalIds": {
       "familySearch": "L4B3-G3T"
     }
+  },
+  {
+    "type": "related",
+    "isRelated": true,
+    "gen": "G9",
+    "genNumber": 9,
+    "name": "Nathan Gurney (foster father of G9)",
+    "dates": "c. 1700 — after 1751",
+    "geography": "Weymouth → Little Comfort / South Abington (now Whitman), MA",
+    "eraId": "era-massachusetts-farming-generations",
+    "eraLabel": "Massachusetts Farming Generations — Cummington & Plymouth County",
+    "eraShortLabel": "Massachusetts",
+    "eraKey": "Massachusetts Farming Generations",
+    "eraDates": "17th–19th centuries",
+    "eraClass": "era-massachusetts",
+    "colorFrom": "#355642",
+    "colorTo": "#4b7456",
+    "lineageStatus": "Related - foster father of G9 Benjamin Gurney; first cousin of G10 Benjamin Gurney",
+    "displayLineageStatus": "Related - foster father of G9 Benjamin Gurney; first cousin of G10 Benjamin Gurney",
+    "summary": "Collateral figure tied to the direct line at G9. Nathan Gurney and his wife Sarah Harden raised the direct-line ancestor Benjamin Gurney (G9), baptized at Abington 30 May 1730. Nathan was doubly kin to the boy: a first cousin of G9's father, Benjamin Gurney (G10) - both grandsons of Richard Gurney (G12) - and the husband of G9's maternal aunt Sarah Harden.",
+    "notables": "Of the Little Comfort Gurneys of south Abington. His father, John Gurney, came from Weymouth about 1690, settled the south part of old Abington (within Bridgewater bounds, later South Abington / Whitman), and started the Little Comfort sawmill. Nathan married Sarah Harden (b. 9 Apr. 1707), daughter of John Harden of Little Comfort, blacksmith, on 12 May 1725. Benjamin Hobart's History of Abington (1866) records their nine children from town records: Rebecca (Oct. 1727), Lemuel (Oct. 1730), Elijah (1732), Noah (May 1735), Nathan (Nov. 1739), Silas (June 1743), Sarah (Mar. 1745), Jacob (Mar. 1748), John (May 1751). Benjamin G9, baptized 1730, grew up among them. Not to be confused with his great-grandson Nathan Gurney, Jr. (d. 1851), the long-serving selectman and legislator and namesake of the Whitman 'Nathan and Martha Pullman House' (MACRIS WHI.307).",
+    "landHoldings": "Little Comfort / south Abington (later Whitman), the Gurney family seat his father settled about 1690.",
+    "hasLandHoldings": true,
+    "spouses": [
+      {
+        "name": "Sarah Harden",
+        "dates": "b. 9 Apr. 1707; m. 12 May 1725",
+        "notes": "Daughter of John Harden of Little Comfort, blacksmith, and Mary Littlefield; sister of Jane Harden (mother of Benjamin G9); named 'daughter Sarah Gurney' in John Harden's 1751 will."
+      }
+    ],
+    "children": [
+      {
+        "name": "Benjamin Gurney (G9, fostered)",
+        "dates": "bpt. 30 May 1730",
+        "notes": "Direct-line ancestor; Nathan's wife's nephew and his own first cousin's son, raised in this household."
+      },
+      {
+        "name": "Rebecca Gurney",
+        "dates": "b. Oct. 1727"
+      },
+      {
+        "name": "Lemuel Gurney",
+        "dates": "b. Oct. 1730"
+      },
+      {
+        "name": "other children",
+        "notes": "Elijah (1732), Noah (1735), Nathan (1739), Silas (1743), Sarah (1745), Jacob (1748), John (1751), per Hobart's Abington Gurney register."
+      }
+    ],
+    "buttons": [
+      {
+        "label": "Related fact sheet",
+        "url": "/fact-sheets/g09-nathan-gurney-related-fact-sheet.html",
+        "style": "bio",
+        "isExternal": false
+      },
+      {
+        "label": "Research notes",
+        "url": "/research/companions/nathan-gurney-abington.html",
+        "style": "research",
+        "isExternal": false
+      },
+      {
+        "label": "Hobart, History of Abington (1866)",
+        "url": "https://archive.org/details/historyoftownofa00hoba/",
+        "style": "research",
+        "isExternal": true
+      }
+    ],
+    "recordId": "collateral-g9-nathan-gurney-abington",
+    "placeRefs": [
+      "place-abington-massachusetts-usa",
+      "place-abington-whitman-line-massachusetts-usa"
+    ],
+    "placeSummary": "Abington, Massachusetts, USA; Little Comfort / Abington-Bridgewater line, Massachusetts, USA",
+    "locations": [
+      {
+        "placeId": "place-abington-massachusetts-usa",
+        "place": "Abington, Massachusetts, USA",
+        "siteName": "",
+        "region": "Massachusetts, USA",
+        "eventType": "church/vital-record context; individual geography",
+        "eventDate": "c. 1700 — after 1751",
+        "sourceQuote": "Old Abington vital and church-record locality where Benjamin, son of Jean, was baptized in the First Church of Abington record stream identified as C.R.1.",
+        "lat": 42.1043,
+        "lng": -70.94130862327691,
+        "geocodeBasis": "town centroid",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "",
+        "siteLabel": ""
+      },
+      {
+        "placeId": "place-abington-whitman-line-massachusetts-usa",
+        "place": "Little Comfort / Abington-Bridgewater line, Massachusetts, USA",
+        "siteName": "",
+        "region": "Massachusetts, USA",
+        "eventType": "maternal family context; individual geography; landholding / property reference",
+        "eventDate": "c. 1700 — after 1751",
+        "sourceQuote": "Combined old-Abington boundary entry for Little Comfort, the Abington-Bridgewater/East Bridgewater line, and later South Abington/Whitman geography. Hobart places John Harden of Little Comfort near this boundary; the coordinate is an inferred midpoint between modern Abington and East Bridgewater, not a proved household site.",
+        "lat": 42.0691,
+        "lng": -70.9523,
+        "geocodeBasis": "inferred midpoint between Abington and East Bridgewater town coordinates",
+        "confidence": "Low",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "",
+        "siteLabel": ""
+      }
+    ]
   },
   {
     "type": "ancestor",

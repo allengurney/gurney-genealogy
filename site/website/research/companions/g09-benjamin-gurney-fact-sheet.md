@@ -71,6 +71,10 @@ Sarah is stronger than Mary, Rebecca, or Lydia as a reconstruction because she w
 
 The fact sheet should not say Benjamin was raised by his aunt as a proved fact. A durable phrasing is: **Family tradition says Benjamin was raised by a maternal aunt; Sarah Harden Gurney is the strongest candidate, but no guardianship or household record has yet been found.**
 
+### Hobart (1866) names the foster household
+
+Benjamin Hobart's *History of the Town of Abington* (1866) independently documents the household. Its Abington Gurney register makes Sarah Harden's husband **Nathan Gurney** a son of **John Gurney**, the Weymouth man who settled Little Comfort about 1690 and started its sawmill — i.e., the John Gurney-3 (son of Richard-2/G12) of Rigler's account, and a brother of the direct-line Benjamin Gurney-3 (G11). That makes Nathan a **first cousin of Benjamin's father, Benjamin Gurney G10**, as well as the husband of Benjamin's aunt: the boy was kept inside his Gurney kin and his Harden kin at once. Hobart gives Nathan and Sarah's children from town records — Rebecca (Oct. 1727), Lemuel (Oct. 1730), Elijah (1732), Noah (May 1735), Nathan (Nov. 1739), Silas (June 1743), Sarah (Mar. 1745), Jacob (Mar. 1748), John (May 1751) — so the household Benjamin grew up in can be reconstructed: he was the near-twin in age of Lemuel and grew up among roughly nine foster-siblings at Little Comfort. Rebecca's 1727 birth corroborates the 12 May 1725 marriage date the compiled genealogies give for Nathan and Sarah. The full collateral treatment is in `research/people/nathan-gurney-abington.research.md` and the related fact sheet `fact-sheets/g09-nathan-gurney-related-fact-sheet.md`.[^hobart-abington-1866]
+
 ## Father identification: Benjamin Gurney G10
 
 The Abington baptism does not name Benjamin Gurney G10 as father. The father identification currently rests on secondary compiled genealogy plus the broader record chain. The public compiled genealogy at *The Neverending Hobby* states that Benjamin Gurney G10 had a non-marital relationship with Jane Harden and fathered Benjamin in Abington; it also says Jane returned to Braintree with her parents while Benjamin moved to Middleborough with his parents.[^neverending-hobby]
@@ -100,14 +104,45 @@ The 1790 federal census summary for Cummington still requires image-level rechec
 
 ## Open questions
 
-1. **Direct aunt-household proof.** Search guardianship, church, deed, probate-distribution, and loose estate-file records for evidence that Sarah Harden Gurney, Mary Harden Hobart, or another aunt raised Benjamin.
+1. **Aunt-household — corroborated, not yet proved at primary level.** Rigler states directly that Benjamin "was raised in Abington by Nathan & Sarah (Harden) Gurney, his mother's sister," naming the household and matching the reconstruction here. A primary guardianship, church, or estate-distribution record would still upgrade it from compiled-genealogy statement to documented fact. (Unknown online.)
 2. **Loose John Harden estate file.** The record-book will has been located; the loose Plymouth County estate file may contain bonds, receipts, or distributions that further clarify relationships.
 3. **Original Abington church record.** The NEHGS town vital-record compilation is strong, but the original First Church of Abington register entry would be preferable for the exact wording around "Benjamin, son of Jean."
 4. **Original Middleborough marriage record.** The current 14 June 1731 Gurney/Morse date comes from a marriage index; obtain the original register page if possible.
-5. **G9 marriage records.** Elizabeth Harden and Mercy Noyes remain underdocumented in this companion.
+5. **G9 marriage records — dates recovered.** Rigler gives Elizabeth Harden (m. 1 Jan. 1752 Abington, daughter of Samuel Harden) and Mercy Noyes (m. 17 Nov. 1800 Cummington). The original Abington and Cummington marriage registers would confirm the compiled dates. (Unknown online.)
 6. **Cummington deeds and probate.** Direct deed citations for the 1770 sale/purchase and any 1805 estate settlement would strengthen the later-life section.
 
 ---
+
+## Rigler (1994) findings — direct page audit
+
+Rigler's Benjamin-5 (Benjamin-4,3, Richard-2) entry, transcribed at [`sources/corpus_supplement/rigler-gurney-aaron-zuinglius-g9-g12-extract.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/rigler-gurney-aaron-zuinglius-g9-g12-extract.md), corroborates the aunt-upbringing and supplies the marriages, the full child set, and several life details.
+
+**Aunt-upbringing corroborated by name.** "He was raised in Abington by Nathan-4 & Sarah (Harden) Gurney, his mother's sister." This is the same Sarah Harden Gurney this companion already identified as the strongest aunt-household candidate (b. 9 Apr. 1707; m. Nathan Gurney; "daughter Sarah Gurney" in John Harden's 1751 will). The tradition that Benjamin was raised by a maternal aunt now has a direct compiled-genealogy statement and a named household.[^rigler-g9]
+
+**Marriages.** First, 1 Jan. 1752 at Abington, Elizabeth Harden (b. c. 1730, d/o Samuel Harden), who died 30 July 1800 in her 70th year at Cummington, bur. Dawes Cem. Second, 17 Nov. 1800 at Cummington, Mercy Noyes (b. c. 1740/41), d. 28 Mar. 1813, bur. Dawes Cem. Note that G9's wife Elizabeth Harden, daughter of Samuel Harden, is a different Elizabeth from the witness in John Harden's will — the name recurs in the Harden family and should not be conflated.[^rigler-g9]
+
+**Children (by Elizabeth Harden).** Benjamin (b. 25 Aug. 1752 Bridgewater, d. 1804 Cummington, m. Esther Cole 1802; one daughter Clarissa, 1803–1813); Betty "Betsey" (b. 15 Nov. 1756, d. 12 May 1805 Cummington); Asa (b. 24 Oct. 1758, m. Molly Reed); Jane; and Amos (m. Ruth Gilbert) — G8.[^rigler-g9]
+
+**Residence and the Cummington move.** Benjamin lived at Northville, a small community between East Bridgewater and present Whitman. About June 1770 he sold his Abington land; Springfield records show he and Silas Reed bought land in Town No. 5 on 5 Nov. 1770, where the deed described him as "yeoman of Town # 5, formerly of Bridgewater." In 1787 he and Philip Shaw exchanged farms (Foster & Streeter, *Only One Cummington*, p. 390; *Hampshire Co. MA Biographies*, 1896, p. 196). The 1790 census gives 3-0-3.[^rigler-g9]
+
+**Death.** Died 28 Sept. 1805 in his 76th year, bur. Dawes Cem., Cummington.[^rigler-g9]
+
+[^rigler-g9]: Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius: A Genealogical Dictionary*, rev. ed. (Honolulu: J. G. Rigler, 1994), Benjamin-5 (Benjamin-4,3, Richard-2) entry (pp. 21–22). Transcribed at [`sources/corpus_supplement/rigler-gurney-aaron-zuinglius-g9-g12-extract.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/rigler-gurney-aaron-zuinglius-g9-g12-extract.md). Source ID: `rigler-gurney-family-aaron-zuinglius-1994`.
+
+---
+
+## Rigler worksheet (c. 1980) — corroboration, a date, and a one-year conflict
+
+The earlier Rigler family-group worksheet for Benjamin-5 confirms the core frame (bapt. 30 May 1730; m. 1 Jan. 1752 Elizabeth/Betsey Harden, daughter of Samuel Harden; 2) Mercy Noyes; d. 28 Sept. 1805 "in 76 yrs," bur. Dawes Cemetery, Cummington) and adds two things the 1994 entry does not:
+
+- **Asa's marriage date.** Son Asa (b. 24 Oct. 1758) married **Molly Reed on 30 Oct. 1782**; the 1994 entry names the marriage but not the date. Carry the date as provisional (worksheet-only delta).
+- **A cited authority and a repository.** The Sources box adds **Nahum Mitchell, *History of [the Early Settlement of] Bridgewater*** alongside the Bridgewater/Abington/Cummington vital records, and locates the **Anna Gurney Papers at the Dyer Memorial Library, Abington**.
+
+One conflict: the worksheet gives Elizabeth (Harden) Gurney's death as **30 July 1801** "in [the] 70th yr," while the 1994 edition gives **30 July 1800**. The published edition supersedes, so keep 1800; the 1801 reading is noted only as the earlier draft.
+
+The worksheet also restates the aunt-upbringing directly (on the Benjamin-4 sheet): Benjamin "was raised by Nathan-4 Gurney and his wife Sarah (Harden) Gurney, sister of Jean (Jane) Harden" — independent support for Sarah Harden Gurney as the caregiving aunt discussed above.[^rigler-ws-g9]
+
+[^rigler-ws-g9]: Robert G. Rigler, M.D., Gurney family-group worksheets for Benjamin⁵ and Benjamin⁴ Gurney, c. 1980 (Honolulu); the earlier working draft behind the 1994 edition, which supersedes it. Images local-only at `sources/media/rigler-genealogy-notes-c1980/_local/`; transcription at [`sources/corpus_supplement/rigler-genealogy-notes-c1980-worksheets-extract.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/rigler-genealogy-notes-c1980-worksheets-extract.md). Source ID: `rigler-genealogy-notes-c1980`.
 
 ## Sources consulted
 
@@ -117,7 +152,7 @@ The 1790 federal census summary for Cummington still requires image-level rechec
 - Middleborough marriage index.[^middleborough-marriage]
 - *The Neverending Hobby — John Gurney, US 1636*.[^neverending-hobby]
 - Foster and Streeter, *Only One Cummington*.[^foster-cummington]
-- Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius* (rev. and expanded ed., 1994). Key compiled genealogy for the G4-G13 direct line; source ID `rigler-gurney-family-aaron-zuinglius-1994`. Full page-level audit still pending.
+- Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius* (rev. and expanded ed., 1994), Benjamin-5 entry (pp. 21–22); audited — see the Rigler findings section above. Source ID `rigler-gurney-family-aaron-zuinglius-1994`. Transcribed extract at [`sources/corpus_supplement/rigler-gurney-aaron-zuinglius-g9-g12-extract.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/rigler-gurney-aaron-zuinglius-g9-g12-extract.md).
 
 [^john-harden-will]: Massachusetts. Probate Court (Plymouth County), *Probate records, 1686–1903; with index and docket, 1685–1967*, Plymouth County Probate Court record book, manuscript pp. 383–384, will of John Harden of Bridgewater, Plymouth County, Massachusetts, blacksmith, dated 17 September 1751, proved 7 October 1751; [FamilySearch catalog](https://www.familysearch.org/en/search/catalog/277512); [p. 383 image](https://www.familysearch.org/ark:/61903/3:1:3QSQ-G97D-F6PW); [p. 384 image](https://www.familysearch.org/ark:/61903/3:1:3QS7-897D-FXDF). Source ID: `plymouth-probate-john-harden-1751-will`.
 [^abington-baptism]: *Vital Records of Abington, Massachusetts, to the Year 1850*, vol. 1, Births (Boston: New England Historic Genealogical Society, 1912), Harden/Hardin/Hardeng entry for Benjamin, son of Jean, baptized 30 May 1730, C.R.1; [PDF on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Vital_records_of_Abington,_Massachusetts,_to_the_year_1850_.._(IA_vitalrecordsofab02abing).pdf). Source ID: `abington-vr-1850-vol1`.
@@ -129,3 +164,4 @@ The 1790 federal census summary for Cummington still requires image-level rechec
 [^neverending-hobby]: ["John Gurney, US 1636,"](https://sites.google.com/site/theneverendinghobby/home/those-connected-to-more-than-one-family/john-gurney-us-1636) *The Neverending Hobby*, public compiled genealogy. Use as secondary compiled genealogy. Source ID: `neverending-hobby-john-gurney-us-1636`.
 [^middleborough-marriage]: Middleborough Public Library, ["Marriages by Men's Name,"](https://midlib.org/sites/midlib.org/files/images/marriages%20by%20mens%20name.pdf) marriage index PDF, entry for Benjamin Gurney and Sarah Morse, 14 June 1731. Source ID: `middleborough-marriages-by-mens-name`.
 [^foster-cummington]: Foster and Streeter, *Only One Cummington* (1974), p. 390, Benjamin Gurney / Cummington land and farm-exchange context. Existing sourceId in repo may be `foster-streeter-cummington`; if absent, add a separate `data/sources.json` entry before citing.
+[^hobart-abington-1866]: Benjamin Hobart, *History of the Town of Abington, Plymouth County, Massachusetts, from its First Settlement* (Boston: T. H. Carter and Son, 1866), Appendix Gurney register, pp. 383–386; verbatim extract at `sources/corpus_supplement/hobart-1866-abington-gurney-register-extract.md`; [Internet Archive item historyoftownofa00hoba](https://archive.org/details/historyoftownofa00hoba/). Source ID: `hobart-benjamin-history-abington-1866`.

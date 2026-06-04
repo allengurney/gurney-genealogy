@@ -1482,6 +1482,17 @@
       "validationPath": "sources/validations/gurney-family-handwritten-notes-1963.md",
       "notes": "Close-family handwritten notes and later revised findings for G2 Lester Hayes Gurney, G3 Lester Sawyer Gurney III, Edith Walberg Scott Gurney, G4 Lester Sawyer Gurney Jr., Ethel June Hayes, G5 Lester Sawyer Gurney, Helen Hill / Helene Ransome / Helen Gurney / Helen O'Brien, Lawrence Branch O'Brien, Edward Godfrey Walberg, Mildred Nora Thursby, and related family chronology. Key retained findings: G3 born 10 Jun 1923 Wellesley Hills; G3 and Edith married 23 Nov 1942 NYC; G3 was a lieutenant, commissioned Jun/Jul 1944, served with Air Service Command at Robins Field and 536th Signal Heavy Construction Company at Manila when G2 was born; G2 born 16 Nov 1945 at St. Vincent's Hospital, NYC; G3 second marriage to Dorothy Lillian Haben/Haden on 6 Jun 1965; Edith died 27 Dec 1963 Chatham NJ; Edith completed a New York Stock Exchange Institute course for 'Customers' Men' 8 Jun 1939; Edith's parents Edward Godfrey Walberg and Mildred Nora Thursby named; G4 date variants and 'dropped the S'; Ethel's father Albert C. Hayes, master car builder for Boston & Albany RR; Helen identity chain to Lawrence Branch O'Brien. Treat conflicts as family-note variants pending original-record review."
     },
+    "gurney-family-papers-g3-to-g2-certificates-clippings": {
+      "shortTitle": "Gurney family papers from G3 to G2",
+      "citation": "Gurney family papers from Lester Sawyer Gurney III (G3), passed to Lester Hayes Gurney (G2), in possession of Allen Gurney (G1); certificates, clippings, military papers, Masonic correspondence, and related family documents scanned 3 June 2026.",
+      "archive": "Allen Gurney family papers",
+      "url": null,
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/2026-gurney-family-papers-g3-to-g2-certificates-clippings.md",
+      "mediaPath": "sources/media/gurney-family-papers-g3-to-g2-certificates-clippings/",
+      "validationPath": "sources/validations/gurney-family-papers-g3-to-g2-certificates-clippings.md",
+      "notes": "Thirty scanned family-paper pages. Major content: G3 Springfield birth certification (Wellesley Hills childhood home); G3 Norwich University civil-engineering attendance 1941-1943 and full wartime Signal Corps chronology, including outside-plant telephone-line construction on Luzon supervising 75 enlisted men, prisoner-of-war labor, and 75 civilian linemen; G3 pre-war employment as assistant construction engineer at New England Power Company, Boston; G3 St. Alban's Lodge No. 6 (Bristol, RI) junior-deacon notice and Bristol social life; G3 marriages to Edith W. Scott (1942) and Dorothy Lillian Hoben (1965); Dorothy Hoben birth/death/probate; G4 marriage to Ethel June Hayes (23 Apr. 1921); G4 1920 Worcester divorce from Nettie; G4 thirty-five-year New England Power System career and 1953 retirement; G5 marriage certificate to Helen Ransome Hill (1881); Helen Ransome Gurney-Lawrence Branch O'Brien marriage (1900); 1936 Masonic correspondence for G5/G6 Continental Lodge context. SAR chart includes G1 living-person details and is private/source context only."
+    },
     "foster-streeter-cummington": {
       "shortTitle": "Foster & Streeter, Only One Cummington (1974)",
       "citation": "Foster, Helen Hunter, and William W. Streeter. Only One Cummington. Cummington, Massachusetts: Cummington Historical Commission, 1974.",
@@ -1536,6 +1547,28 @@
       "mediaPath": null,
       "validationPath": "sources/validations/benjamin-gurney-harden-research-tables-2026-04.md",
       "notes": "Secondary local history for old Abington and Little Comfort. Useful for John Harden's Little Comfort context and the 22 February 1711 baptism of Jane Harden, daughter of John Harden of Little Comfort, as recorded by Mr. Niles of Braintree. Hobart-derived wording about an Elizabeth should be treated cautiously because the original John Harden will shows Elizabeth Harden as a witness, not as a daughter/heir."
+    },
+    "macris-mhc": {
+      "shortTitle": "MACRIS - Massachusetts Cultural Resource Information System",
+      "citation": "Massachusetts Cultural Resource Information System (MACRIS). Massachusetts Historical Commission.",
+      "archive": "MHC online inventory database",
+      "url": "https://mhc-macris.net/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "State inventory of historic properties. Gurney entries of interest: WHI.307 (Nathan and Martha Pullman House, Whitman) and WHI.325 (Jeremiah and Mary Fullerton House, Whitman) for the collateral Abington/Whitman Gurney descent; CUM.115 and CUM.151 (Asa Gurney houses, Cummington) as candidate seats of the direct line's Cummington branch; ROC.938 (East Rochester Cemetery, Benjamin Gurney stone, 1828) for the two-Benjamin half-brother line. Inventory 'B-form' PDFs frequently carry builder genealogies worth pulling."
+    },
+    "hobart-benjamin-history-abington-1866": {
+      "shortTitle": "Hobart, History of the Town of Abington (1866)",
+      "citation": "Hobart, Benjamin. History of the Town of Abington, Plymouth County, Massachusetts, from its First Settlement. Boston: T. H. Carter and Son, 1866.",
+      "archive": "Internet Archive, item historyoftownofa00hoba",
+      "url": "https://archive.org/details/historyoftownofa00hoba/",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/hobart-1866-abington-gurney-register-extract.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/hobart-benjamin-history-abington-1866.md",
+      "notes": "Benjamin Hobart's full town history of Abington (1866), distinct from Aaron Hobart's 1839 Historical Sketch (hobart-abington-1839). Its Appendix Gurney register (pp. 383-386) is the key content: 'John Gurney, the ancestor of most of the name in Abington, came from Weymouth and settled in the south part of this town... about 1690... died about 1715... intestate... children among whom were Richard, David and Nathan.' This John is the John-3 (son of Richard Gurney-2, G12) of Rigler's account, founder of the Little Comfort mill. His son Nathan (children Rebecca 1727, Lemuel 1730, Elijah 1732, Noah 1735, Nathan 1739, Silas 1743, Sarah 1745, Jacob 1748, John 1751) is the Nathan-4 who married Sarah Harden and raised the direct-line Benjamin Gurney (G9). The prominent 'Nathan Gurney, jr., Esq.' of the main text (selectman, legislator, d. 1851; MACRIS WHI.307) is a different, later Nathan (the foster-father's great-grandson). Public domain; the Internet Archive item is the canonical online copy."
     },
     "neverending-hobby-john-gurney-us-1636": {
       "shortTitle": "The Neverending Hobby - John Gurney, US 1636",
@@ -1905,11 +1938,22 @@
       "citation": "Rigler, Jean Gurney. The Gurney Family from Aaron to Zuinglius: A Genealogical Dictionary; Some Descendants of Richard Gurney Who Settled at Weymouth, MA before 1656. Rev. and expanded ed. Honolulu, Hawaii: J. G. Rigler, 1994.",
       "archive": "Internet Archive / Open Library metadata",
       "url": "https://archive.org/details/gurneyfamilyfrom00rigl",
-      "corpusStatus": "none",
-      "corpusPath": null,
-      "mediaPath": null,
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/rigler-gurney-aaron-zuinglius-g9-g12-extract.md",
+      "mediaPath": "sources/media/rigler-gurney-family-aaron-zuinglius-1994/",
       "validationPath": "sources/validations/rigler-gurney-family-aaron-zuinglius-1994.md",
-      "notes": "Key compiled genealogy for descendants of Richard Gurney of Weymouth, Massachusetts. Treat as a standing key source for G4-G13 American-line research companions and the G6 William Gurney case file. Internet Archive item text was not readable in v08; use as a source-control and future-pull entry until pages are checked."
+      "notes": "Key compiled genealogy for descendants of Richard Gurney of Weymouth, Massachusetts; compiled largely from primary records (town vital records, Suffolk and Plymouth probate and deeds, NEHGR). Standing key source for G4-G13 American-line research companions and the G6 William Gurney case file. The direct-line entries Richard-2 (G12) through Benjamin-5 (G9) are transcribed in the corpus supplement from 1994-edition page scans held local-only (copyright) under mediaPath. Internet Archive item gurneyfamilyfrom00rigl is an earlier edition."
+    },
+    "rigler-genealogy-notes-c1980": {
+      "shortTitle": "Rigler genealogy notes (worksheets, c. 1980)",
+      "citation": "Rigler, Robert G., M.D. Gurney family group record worksheets (Richard-2 through Amos Gurney), c. 1980. Honolulu, Hawaii. Unpublished manuscript worksheets; the earlier working draft behind Jean Gurney Rigler, The Gurney Family from Aaron to Zuinglius (rev. and expanded ed., 1994).",
+      "archive": "User-supplied scans of the physical worksheets",
+      "url": null,
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/rigler-genealogy-notes-c1980-worksheets-extract.md",
+      "mediaPath": "sources/media/rigler-genealogy-notes-c1980/",
+      "validationPath": "sources/validations/rigler-genealogy-notes-c1980.md",
+      "notes": "Five Family Group Record worksheets compiling the direct American line Richard-2 (G12) through Amos (G8), signed Robert G. Rigler, M.D., of Honolulu - the earlier working draft behind Jean Gurney Rigler's 1994 published edition (rigler-gurney-family-aaron-zuinglius-1994), which supersedes them where they differ. Page images held local-only (copyright) under mediaPath/_local; transcription including the worksheets' Sources-of-Information boxes at corpusPath. Worksheet-only details absent from the 1994 edition are carried at lower weight per the superseded-drafts citation rule. Sub-authorities the worksheets cite (Anna Gurney Papers at the Dyer Memorial Library, Abington; Nahum Mitchell, History of Bridgewater; town vital records) are cited through the worksheet, not minted separately."
     },
     "anderson-great-migration-begins-v1-baxter": {
       "shortTitle": "Anderson, Great Migration Begins vol. 1 - Gregory Baxter",

@@ -35,7 +35,7 @@ Dana Gurney's notes add a precise hospital-level birth detail for Lester Hayes G
 
 ### Three-generation continuity at Indiana & Michigan Electric Company
 
-The obituary's "third-generation power engineer" claim is genealogically significant. It implies that both G3 (Lester Sawyer Gurney III, 1923–2011) and G4 (Lester Sawyer Gurney Jr., 1888–1958) also worked for in the same lineage of mid-Atlantic / midwestern power-engineering practice. G4's published fact sheet records him as a civil engineer working the Cape Cod Canal and Cape Cod Construction Company before settling in Massachusetts, with later residences in Northfield, Wellesley, and Wellesley Hills.
+The obituary's "third-generation power engineer" claim is now documented at all three links. G4 (Lester Sawyer Gurney Jr., 1888–1958) spent some thirty-five years with the New England Power System, rising to Construction Manager before retiring in 1953 (1953 trade clippings). G3 (Lester Sawyer Gurney III, 1923–2011) was an assistant construction engineer for the New England Power Company in Boston in 1942 (his wartime Separation Qualification Record) before a later New Jersey career remembered as McGraw Edison. G2 worked for Indiana and Michigan Electric. The three generations therefore run New England Power (G4, G3) into Indiana and Michigan Electric (G2).
 
 ### Five-generation Masonic line
 
@@ -43,9 +43,10 @@ The obituary's "five-generation family tradition in Freemasonry" is the most con
 
 - **G6** Brig. Gen. William Gurney — organizer and "Father" of Continental Lodge No. 287, NY (lodge history; G5 fact sheet, citation n10).
 - **G5** Lester Sawyer Gurney — member and master, Continental Lodge No. 287, NY (1899 *Brooklyn Daily Eagle* obituary; G5 fact sheet).
+- **G3** Lester Sawyer Gurney III — junior deacon, St. Alban's Lodge No. 6, F. & A.M., Bristol, Rhode Island, December 1955 (2026 Gurney family-papers clipping).
 - **G2** Lester Hayes Gurney — Master Mason, McCulloch Lodge No. 737, Marion, IN; Scottish Rite; Salaam Shriners (FairHaven obituary).
 
-That accounts for three of the five generations. The remaining two are presumably G3 and G4. Pursuing Masonic-lodge records in Massachusetts (G4) and the New York / Indiana corridor (G3) would close the chain.
+That accounts for four of the five generations. The remaining likely missing link is G4, probably in a Massachusetts lodge during the Wellesley / Wellesley Hills years.
 
 ### The geographic transition: New York → Indiana
 
@@ -55,7 +56,7 @@ Les is the last direct-line Gurney born in the New York metropolitan area. The f
 
 ## Open Questions
 
-1. **The remaining two Masonic generations.** Is G3 documented at any specific lodge? Is G4 documented in any Massachusetts lodge during the Wellesley / Wellesley Hills years? Worth searching the *List of Lodges Masonic* annuals for the relevant years.
+1. **The remaining Masonic generation.** G3 is now documented as junior deacon of St. Alban's Lodge No. 6, Bristol, Rhode Island (December 1955). Is G4 documented in any Massachusetts lodge during the Wellesley / Wellesley Hills years? Worth searching the *List of Lodges Masonic* annuals for the relevant years.
 2. **Dana Ault's parentage and Ault family origins.** Brother-in-law Carl and sister-in-law Rita are Aults of Rochester, Indiana — Fulton County (where Les and Dana married) is the next county west. Ault genealogy in Fulton/Pulaski County, Indiana, is the next research target if Dana's line is to be developed.
 3. **G3's exact death date and location.** G3 entry in <code>data/ancestors v26.json</code> records "1923–19 December 2011," with geography "New York area; Morristown, NJ; Hackettstown, NJ" — but the obituary tells us G2 was born in NYC, not Indiana, suggesting the family was still in the NY/NJ area into 1945. The G3 → G2 geographic transition deserves a closer look.
 

@@ -12,6 +12,8 @@ Dana Gurney's notes identify Ethel June Hayes as the second wife of Lester S. Gu
 
 Earlier loose notes say Ethel's father died when she was about 20 and mention "Aunt C. Hayes" with "RR" and "sister." Preserve these as clues, but resolve them against census, death, obituary, and railroad employment records before using them as settled family structure.[^ethel-notes]
 
+The 1921 marriage certificate confirms the marriage to Lester Gurney on 23 April 1921 at Springfield, Massachusetts, and names Albert C. Hayes and Irving C. Hayes as witnesses — useful leads to Ethel's father and a likely brother. A SAR ancestor chart gives Ethel's birth as 10 February 1880 at Springfield and her death as 19 October 1951 at Wellesley Hills; a Brown & Son (Wellesley) funeral-directors statement for the funeral of Ethel J. Gurney, dated 1 November 1951 and addressed to Lester Gurney at 133 Abbott Road, Wellesley Hills, corroborates the death in autumn 1951. Treat the chart's exact dates as derivative pending a death record.[^ethel-family-papers]
+
 ### Research actions
 
 - Locate Ethel's birth record and reconcile February 1880 vs "born 1900."
@@ -22,3 +24,5 @@ Earlier loose notes say Ethel's father died when she was about 20 and mention "A
 - Identify "Aunt C. Hayes" and the railroad/sister note.
 
 [^ethel-notes]: Gurney family handwritten oral-history and research notes, revised findings memorandum v3 prepared 4 May 2026 from eight photographed notebook pages, Appendix A, Pages 2 and 6. Source ID: `gurney-family-handwritten-notes-1963`.
+
+[^ethel-family-papers]: Gurney family papers from Lester Sawyer Gurney III (G3), passed to Lester Hayes Gurney (G2), in possession of Allen Gurney (G1); especially the 23 April 1921 marriage certificate, the SAR ancestor chart, and the November 1951 Brown & Son funeral statement. Source ID: `gurney-family-papers-g3-to-g2-certificates-clippings`.

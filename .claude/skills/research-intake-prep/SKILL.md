@@ -7,6 +7,8 @@ disable-model-invocation: true
 
 Phase 1 of intake. Workflow + checklist. The patchset content rules (operational discipline, rich-content-must-land-in-repo, validation default-on, cadence, etc.) live canonically in `.claude/rules/sources.md` and auto-load when this skill writes a patchset file at `sources/intake/processed/`.
 
+**Derive structure from the rules, not from a prior patchset.** This skill is the primary authority for patchset shape. A completed patchset in `sources/intake/done/` may be consulted as secondary reference, but do not adopt its section taxonomy or prose as a template — iterative copying of earlier patchsets has historically drifted the standard. 
+
 ## Read first
 - `.claude/CLAUDE.md`
 - `sources/README.md` (destination decisions for the source-side layers)

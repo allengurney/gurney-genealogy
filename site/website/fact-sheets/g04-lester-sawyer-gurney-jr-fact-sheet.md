@@ -49,7 +49,7 @@ factsheet:
   </div>
   <div class="fact-item">
     <div class="fact-label">Occupation / Education / Religion</div>
-    <div class="fact-value">Civil engineer; documented in 1910 with Cape Cod Canal work, in 1911 with the Cape Cod Construction Company, and in later years in Massachusetts communities including Northfield and Wellesley Hills. <sup class="fn"><a href="#n3" id="ref-3">3</a></sup></div>
+    <div class="fact-value">Civil engineer; on the Cape Cod Canal by 1910 and with the Cape Cod Construction Company in 1911, he spent some thirty-five years with the New England Power System, rising to Construction Manager before retiring in 1953 to open a Boston consulting office. <sup class="fn"><a href="#n3" id="ref-3">3</a></sup><sup class="fn"><a href="#n20" id="ref-20">20</a></sup></div>
   </div>
   <div class="fact-item">
     <div class="fact-label">Buried</div>
@@ -60,7 +60,7 @@ factsheet:
     <div class="fact-value">
       <div class="stacked-records">
         <div><strong>Nettie Levada Smith</strong> — married 9 April 1911 at Rockville Centre, Nassau County, New York. <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></div>
-        <div><strong>Ethel June Hayes</strong> — married 26 April 1921 at Springfield, Hampden County, Massachusetts. <sup class="fn"><a href="#n6" id="ref-6">6</a></sup></div>
+        <div><strong>Ethel June Hayes</strong> — married 23 April 1921 at Springfield, Hampden County, Massachusetts. <sup class="fn"><a href="#n6" id="ref-6">6</a></sup></div>
         <div><strong>Grace Wilhelmina MacInnis</strong> — married 26 January 1952 in Connecticut. <sup class="fn"><a href="#n7" id="ref-7">7</a></sup></div>
       </div>
     </div>
@@ -75,8 +75,8 @@ factsheet:
   <li><strong>He grew up inside the same theatrical Patchogue world that shaped his father.</strong> In August 1898, while still a boy, he appeared alongside Lester Gurney in the cast of the Patchogue theatrical-colony production of <em>May Blossom</em>. <sup class="fn"><a href="#n8" id="ref-8">8</a></sup></li>
   <li><strong>His young adulthood mixed family upheaval with rapid professional formation.</strong> After his father’s death, he appears in 1910 living with step-parents Branch and Helen O’Brien, yet the same record already identifies him as a civil engineer connected to the Cape Cod Canal. <sup class="fn"><a href="#n9" id="ref-9">9</a></sup></li>
   <li><strong>Patchogue still claimed him as one of its own.</strong> Newspapers described both Lester and Nettie Smith as Patchogue High School graduates and as prominent in the social life of the village, a south-shore Long Island community on Great South Bay that had become both a rail-linked village center and a resort destination. <sup class="fn"><a href="#n10" id="ref-10">10</a></sup></li>
-  <li><strong>His 1911 record shows a civil engineer already in motion toward Cape Cod.</strong> The engagement notice said he had a position with the Cape Cod Construction Company and would live in Bourne, while the marriage affidavit calls him plainly a civil engineer from Patchogue. <sup class="fn"><a href="#n11" id="ref-11">11</a></sup></li>
-  <li><strong>He advertised himself as more than a desk engineer.</strong> In Buzzards Bay he offered property surveys, municipal engineering, roads, sub-divisions, estimates, and architectural drafting from the Linnell Building opposite the railroad station. <sup class="fn"><a href="#n12" id="ref-12">12</a></sup></li>
+  <li><strong>By 1911 he was a working Cape Cod engineer, not just a title on a tree.</strong> His engagement notice placed him with the Cape Cod Construction Company bound for Bourne, and a Cape Cod Magazine advertisement offered property surveys, municipal engineering, roads, sub-divisions, estimates, and architectural drafting from the Linnell Building in Buzzards Bay, opposite the railroad station. <sup class="fn"><a href="#n11" id="ref-11">11</a></sup><sup class="fn"><a href="#n12" id="ref-12">12</a></sup></li>
+  <li><strong>He spent thirty-five years building the New England power grid.</strong> From a 1906 start as a rodman on electric-railway work and chief-of-party on the Cape Cod Canal, he joined the New England Power System in 1918 and worked up to Construction Manager — resident engineer on hydroelectric developments at Searsburg, Harriman, Sherman, and Zoar and on generating plants at Salem and White River Junction — before retiring in 1953 to open his own Boston consulting practice. <sup class="fn"><a href="#n20" id="ref-20c">20</a></sup></li>
   <li><strong>His wedding entered village memory as a lively social escape.</strong> While friends waited at the front door with rice, the bride and groom slipped out the back gate and headed off by automobile for an Atlantic City honeymoon. <sup class="fn"><a href="#n13" id="ref-13">13</a></sup></li>
 </ul>
 </section>
@@ -110,6 +110,8 @@ factsheet:
 
 <p>His wedding coverage adds a welcome human note. Friends gathered at the front door with rice, expecting to celebrate the departure in the usual way, but the bride and groom slipped out the back gate, escaped by automobile, and headed for Atlantic City on honeymoon. The article also preserves the names of the officiant, the bride’s attendant, and the best man, which helps place him in a real social network rather than an abstract record. <sup class="fn"><a href="#n18" id="ref-18">18</a></sup></p>
 
+<p>Behind the Cape Cod beginnings lay a long career on the New England power grid. Gurney had entered construction in 1906 as a rodman and instrumentman on electric-railway work, rose within three years to chief-of-party on the Cape Cod Canal, and served as assistant engineer for the city of Springfield in 1917 before joining the New England Power System in 1918. Over the next thirty-five years he was assistant resident engineer on the Searsburg development and the Hoosac Tunnel railroad relocation, resident engineer for the Sherman development, a field surveyor for the Zoar development, and assistant to the chief engineer for the Bellows Falls and Comerford plants; by 1947 he had taken on the duties of Construction Manager of the New England Power Service Company, with the generating plants at Salem, Massachusetts, and White River Junction, Vermont, among the works of his tenure. A life member of the American Society of Civil Engineers, he retired on 1 June 1953 — feted with a luncheon and a pair of binoculars at the Engineers' Club — and at once opened a consulting construction-engineering office at 271 Dartmouth Street, Boston. An earlier chapter had closed in a Worcester courtroom in 1920, when he was granted a divorce from his first wife, Nettie, after she left to pursue a career on the stage. <sup class="fn"><a href="#n20" id="ref-20b">20</a></sup><sup class="fn"><a href="#n21" id="ref-21">21</a></sup></p>
+
 <p>Later records trace a steady Massachusetts chapter. FamilySearch places him in Northfield by 1920, in Wellesley by 1930, still there in 1940, and at 133 Abbott Road, Wellesley Hills, by 1942 and 1951. That long settled period contrasts with the more theatrical and mobile atmosphere of his childhood. The full arc is therefore distinctive: born into a New York-Patchogue family tied to actors, fraternal life, and summer society, Lester Jr. came of age as a civil engineer, built a career around Cape Cod and Massachusetts, and carried the line forward into a different, more technical twentieth-century world. <sup class="fn"><a href="#n19" id="ref-19">19</a></sup></p>
 </section>
 
@@ -122,7 +124,7 @@ factsheet:
   <li id="n3">FamilySearch print view, including 1910 “Civil Engineer, Cape Cod Canal,” 1917–1918 draft registration in Barnstable, 1920 residence in Northfield, and later Wellesley / Wellesley Hills entries. <a class="citation-back" href="#ref-3">↩</a></li>
   <li id="n4">FamilySearch, <em>Lester Sawyer Gurney Jr.</em> (ID MB48-LHV), print view, burial at Green-Wood Cemetery on 12 November 1958. <a class="citation-back" href="#ref-4">↩</a></li>
   <li id="n5">New York State affidavit for license to marry, Lester Gurney and Nettie Levada Smith, Hempstead, Nassau County, 7 April 1911; marriage record dated 9 April 1911, Rockville Centre. <a class="citation-back" href="#ref-5">↩</a></li>
-  <li id="n6">FamilySearch, <em>Lester Sawyer Gurney Jr.</em> (ID MB48-LHV), print view, marriage to Ethel June Hayes, 26 April 1921, Springfield, Massachusetts. <a class="citation-back" href="#ref-6">↩</a></li>
+  <li id="n6">Holy-matrimony certificate, Lester Gurney of Worcester and Ethel June Hayes of Springfield, married 23 April 1921 at Springfield, Massachusetts, witnesses Albert C. and Irving C. Hayes; a FamilySearch index entry (ID MB48-LHV) gives 26 April 1921. Source ID: <code>gurney-family-papers-g3-to-g2-certificates-clippings</code>. <a class="citation-back" href="#ref-6">↩</a></li>
   <li id="n7">FamilySearch, <em>Lester Sawyer Gurney Jr.</em> (ID MB48-LHV), print view, marriage to Grace Wilhelmina MacInnis, 26 January 1952, Connecticut. <a class="citation-back" href="#ref-7">↩</a></li>
   <li id="n8"><em>Brooklyn Daily Eagle</em> (Brooklyn, N.Y.), 16 August 1898, p. 11, cast list for the Patchogue theatrical-colony production of <em>May Blossom</em>. <a class="citation-back" href="#ref-8">↩</a></li>
   <li id="n9">FamilySearch print view, 1910 residence with step-parents Branch O’Brien and Helen O’Brien and occupational note “Civil Engineer, Cape Cod Canal.” <a class="citation-back" href="#ref-9">↩</a></li>
@@ -136,6 +138,8 @@ factsheet:
   <li id="n17"><em>Brooklyn Daily Eagle</em>, 21 January 1911, p. 7; New York State marriage affidavit, 7 April 1911; marriage register, 9 April 1911; <a href="https://archive.org/stream/capecodmagazinem16ware/capecodmagazinem16ware_djvu.txt">Cape Cod Magazine</a> advertising text for Lester Gurney Jr. in Buzzards Bay. <a class="citation-back" href="#ref-17">↩</a></li>
   <li id="n18"><em>Brooklyn Daily Eagle</em>, 11 April 1911, p. 6. <a class="citation-back" href="#ref-18">↩</a></li>
   <li id="n19">FamilySearch print view, residences in Northfield (1920), Wellesley (1930, 1935, 1940), and Wellesley Hills / 133 Abbott Road (1942, 1951); death in Bristol, Rhode Island. <a class="citation-back" href="#ref-19">↩</a></li>
+  <li id="n20"><em>New England Construction Magazine</em>, "Opens Private Office" (15 June 1953), and the Boston "Contact" column "Lester Gurney Retires" by Clifford A. Needham, recounting his career from 1906 electric-railway work and Cape Cod Canal chief-of-party through thirty-five years with the New England Power System — Searsburg, Harriman, Sherman, Zoar, Bellows Falls, Comerford, Salem, and White River Junction — to Construction Manager, retirement on 1 June 1953, and a new consulting office at 271 Dartmouth Street, Boston. Source ID: <code>gurney-family-papers-g3-to-g2-certificates-clippings</code>. <a class="citation-back" href="#ref-20">↩</a></li>
+  <li id="n21"><em>Worcester Daily Telegram</em> (Worcester, Mass.), 12 October 1920, "Wife Seeks Career, Husband Gets Divorce," reporting Lester Gurney's decree nisi of divorce from Nettie L. Gurney on the ground of desertion. Source ID: <code>gurney-family-papers-g3-to-g2-certificates-clippings</code>. <a class="citation-back" href="#ref-21">↩</a></li>
 </ol>
 </section>
 
@@ -169,7 +173,9 @@ factsheet:
       <tr><td>1910</td><td>Lives with step-parents; identified as a civil engineer connected to the Cape Cod Canal.</td></tr>
       <tr><td>1911</td><td>Marries Nettie Levada Smith and heads toward Bourne with the Cape Cod Construction Company.</td></tr>
       <tr><td>1915</td><td>Advertises engineering and drafting services in Buzzards Bay opposite the railroad station.</td></tr>
+      <tr><td>1918</td><td>Joins the New England Power System.</td></tr>
       <tr><td>1920–1951</td><td>Lives in Northfield and then Wellesley / Wellesley Hills, including 133 Abbott Road.</td></tr>
+      <tr><td>1953</td><td>Retires as Construction Manager of the New England Power Service Company; opens a Boston consulting office.</td></tr>
       <tr><td>1958</td><td>Dies in Bristol, Rhode Island; buried at Green-Wood Cemetery.</td></tr>
     </tbody>
   </table>

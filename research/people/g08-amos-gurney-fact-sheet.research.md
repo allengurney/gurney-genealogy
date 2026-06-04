@@ -22,6 +22,18 @@ This is family-tradition language inherited from <code>data/ancestors v26.json</
 
 The 1850 federal census, Flushing, Queens County, New York, should be examined for the Willis Gurney household to confirm Ruth's presence and her recorded age and birthplace. If her age in 1850 is consistent with a birth c. 1770, that anchors her marriage age (about 20 in 1790). Birthplace would clarify her own origins (Cummington? Plymouth County?).
 
+### Rigler worksheet (c. 1980): a named child set, a marriage date, and a Long Island destination
+
+An earlier Rigler family-group worksheet for Amos (signed Robert G. Rigler, M.D.) — the working draft behind the 1994 published genealogy — supplies the first compiled child set and a destination for the post-Cummington move. The 1994 edition's own Amos entry was not examined, so these cannot be tested against the published edition; treat them as a single compiled-source lead.[^rigler-ws-g8]
+
+- **Where Amos went after 1802.** The Sources box states he "moved from Cummington to Long Island NY after 1802 (probably Flushing)" — pointing the same direction as son Willis's later Flushing household and making Amos's own removal to Queens County the leading hypothesis for open questions 1 and 2.
+- **Marriage.** Amos married Ruth Gilbert (b. c. 1772) on **29 Dec. 1790** at Cummington, "some records give 1792."
+- **Children** (worksheet, all said b. Cummington): Amos (5 Nov. 1792, d. young 9 Nov. 1796); **Willis G.** (25 Feb. 1793, the direct line); Willard (6 Mar. 1794, d. the same day); Hannah (7 May 1795); Ruth (4 Jan. 1800); Nathan (2 Apr. 1802); "perhaps more." This names the five children beyond Willis that the fact sheet currently leaves as a placeholder.
+
+Caveats: the birth-years are internally inconsistent — Amos (5 Nov. 1792) and Willis (25 Feb. 1793) cannot both be birth children three months apart — and the worksheet's Willis-1793 conflicts with this companion's working estimate of Willis c. 1796–98. Carry the names as worksheet leads and the dates as suspect pending Cummington Vital Records.[^rigler-ws-g8]
+
+[^rigler-ws-g8]: Robert G. Rigler, M.D., Gurney family-group worksheet for Amos Gurney, c. 1980 (Honolulu); the earlier working draft behind Jean Gurney Rigler's 1994 edition. Image held local-only at `sources/media/rigler-genealogy-notes-c1980/_local/`; transcription at [`sources/corpus_supplement/rigler-genealogy-notes-c1980-worksheets-extract.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/rigler-genealogy-notes-c1980-worksheets-extract.md). Source ID: `rigler-genealogy-notes-c1980`.
+
 ### Negative results
 
 - No will, probate, or burial record for Amos identified to date.
@@ -45,7 +57,8 @@ The 1850 federal census, Flushing, Queens County, New York, should be examined f
 
 - <code>data/ancestors v26.json</code>, G8 entry.
 - Foster &amp; Streeter, <em>"Only One Cummington"</em> (1974), p. 390 — for Benjamin G9's land transactions, which bracket Amos's birth and family.
-- Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius* (rev. and expanded ed., 1994). Key compiled genealogy for the G4-G13 direct line; source ID `rigler-gurney-family-aaron-zuinglius-1994`. Full page-level audit still pending.
+- Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius* (rev. and expanded ed., 1994). Key compiled genealogy for the G4-G13 direct line; source ID `rigler-gurney-family-aaron-zuinglius-1994`. The 1994 Amos/G8 entry has not yet been examined.
+- Robert G. Rigler, M.D., Gurney family-group worksheet for Amos Gurney, c. 1980 — earlier working draft; names the child set and gives the post-1802 Long Island/Flushing destination. Source ID `rigler-genealogy-notes-c1980`. See the worksheet note above.
 
 ### Sources to obtain
 

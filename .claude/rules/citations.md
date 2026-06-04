@@ -74,6 +74,9 @@ Each footnote should generally include:
 - Same posture for Stirnet, FamilySearch Family Tree, Geni, WikiTree, Find a Grave memorial pages without primary documentation, and similar compiled-pedigree databases.
 - A Wikipedia URL is acceptable as a supplementary cross-reference link in the related-links sidebar (orienting the reader to a famous in-law's biography) but it should not be the sole citation for any substantive factual claim.
 
+## Superseded drafts vs. later editions (same compiler)
+When a source survives in both an earlier working form (manuscript, worksheet, draft) and a later published edition by the same compiler, the later edition normally supersedes, and where the two conflict the later edition wins. Treat a fact that appears in the earlier notes but is **absent from the later edition that covers the same subject** as lower-weight: the compiler may have dropped it as poorly founded or missing attributes, but the omission may equally be incompleteness or work-in-progress, so caveat the delta rather than assuming rejection — do not promote a worksheet-only "delta" fact to the same confidence as one the published edition confirms. Note the delta in the citation (e.g., "in Rigler's c. 1980 worksheet but not carried into the 1994 edition"). This test only applies when the later edition's coverage of that subject was actually examined; if the published entry for the person was not seen, say so rather than inferring an omission.
+
 ## Unsupported claims
 - If a claim cannot be sourced confidently, either:
   - remove it from the fact sheet, or

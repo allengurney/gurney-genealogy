@@ -4,7 +4,7 @@ permalink: /fact-sheets/g37-eudes-de-gournay-fact-sheet.html
 title: Eudes (Odon) de Gournay Fact Sheet
 pageHeading: Eudes (Odon) de Gournay (c. 860 – d. after 911, before c. 932)
 subtitle: "Viking warrior and traditional first lord of Gournay-en-Bray."
-description: "Compact fact sheet for Eudes (Odon) de Gournay in the direct Gurney line."
+description: "Fact sheet for Viking Eudes (Odon) de Gournay, earliest known ancestor in the Gurney lineage."
 bodyClass: bio-page factsheet-page
 activeNav: factsheets
 factsheet:
@@ -22,7 +22,7 @@ factsheet:
   "@context": "https://schema.org",
   "@type": "ProfilePage",
   "name": "Eudes (Odon) de Gournay — Fact Sheet",
-  "description": "Compact fact sheet for Eudes (Odon) de Gournay in the direct Gurney line.",
+  "description": "Fact sheet for Viking Eudes (Odon) de Gournay, earliest known ancestor in the Gurney lineage.",
   "mainEntity": {
     "@type": "Person",
     "name": "Eudes (Odon) de Gournay",
@@ -35,9 +35,9 @@ factsheet:
 }
 </script>
 
+
 <div class="factsheet-top">
   <div class="factsheet-main">
-
 <section class="fact-section fact-section-vitals" id="vital-records">
 <div class="facts-vitals-grid">
   <div class="fact-item">
@@ -49,8 +49,8 @@ factsheet:
     <div class="fact-value">After 911, but before c. 932. A later <em>Histoire de Gournay</em> tradition records that Eudes died before <a href="https://en.wikipedia.org/wiki/Rollo">Rollo</a>, who died c. 930–932. <sup class="fn"><a href="#n2" id="ref-2">2</a></sup></div>
   </div>
   <div class="fact-item">
-    <div class="fact-label">Status / Faith</div>
-    <div class="fact-value"><a href="https://en.wikipedia.org/wiki/Vikings">Viking</a> warrior; probable Christian convert after the 911 Treaty, when <a href="https://en.wikipedia.org/wiki/Rollo">Rollo</a> and his followers accepted <a href="https://en.wikipedia.org/wiki/Baptism">baptism</a> as a condition of the settlement with <a href="https://en.wikipedia.org/wiki/Charles_the_Simple">Charles the Simple</a>. <sup class="fn"><a href="#n3" id="ref-3">3</a></sup></div>
+    <div class="fact-label">Status / Occupation</div>
+    <div class="fact-value"><a href="https://en.wikipedia.org/wiki/Vikings">Viking</a> warrior; First lord of Gournay; probable Christian convert after the 911 Treaty, when <a href="https://en.wikipedia.org/wiki/Rollo">Rollo</a> and his followers accepted <a href="https://en.wikipedia.org/wiki/Baptism">baptism</a> as a condition of the settlement with <a href="https://en.wikipedia.org/wiki/Charles_the_Simple">Charles the Simple</a>. <sup class="fn"><a href="#n3" id="ref-3">3</a></sup></div>
   </div>
   <div class="fact-item">
     <div class="fact-label">Buried</div>
@@ -67,17 +67,18 @@ factsheet:
 </div>
 </section>
 
+
 <section class="fact-panel fact-panel-highlights" id="highlights">
 <h2 class="unnumbered">Highlights</h2>
-
 <ul>
-  <li><strong>~1,160 years of documented family history start here.</strong> Eudes's grant of <a href="https://en.wikipedia.org/wiki/Gournay-en-Bray">Gournay-en-Bray</a> from Rollo c. 911 initiated a property-holding lineage that can be traced — with varying certainty — to Allen Gurney's own generation, approximately 37 generations later. The historian James Hannay, writing in 1867, called the Gournay pedigree one of the longest Norse pedigrees extant: "its steps, like those of the ladder of Jacob, are lost in the ascent." <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></li>
+  <li><strong>~1,160 years of documented family history start here.</strong> Eudes's grant of <a href="https://en.wikipedia.org/wiki/Gournay-en-Bray">Gournay-en-Bray</a> from Rollo c. 911 initiated a property-holding lineage that can be traced to Allen Gurney's own generation, approximately 37 generations later. The historian James Hannay, writing in 1867, called the Gournay pedigree one of the longest Norse pedigrees extant: "its steps, like those of the ladder of Jacob, are lost in the ascent." <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></li>
   <li><strong>The town still exists — and still makes cheese.</strong> Gournay-en-Bray (<a href="https://en.wikipedia.org/wiki/Seine-Maritime">Seine-Maritime</a>, pop. ~6,500) survives today ~50 km east of <a href="https://en.wikipedia.org/wiki/Rouen">Rouen</a>. The <a href="https://en.wikipedia.org/wiki/Pays_de_Bray">Pays de Bray</a> is celebrated for <a href="https://en.wikipedia.org/wiki/Neufch%C3%A2tel_cheese">Neufchâtel cheese</a> and butter — it was once called Normandy's "butter capital." The name itself likely derives from the landscape: either Saxon *Gorena-eye* ("muddy waters") or Celtic *gorn-acum* ("fishery"), both rooted in the marshy rivers that still wind through the Bray. <sup class="fn"><a href="#n6" id="ref-6">6</a></sup></li>
-  <li><strong>"A name supplied by tradition to somebody whose existence is a matter of certainty."</strong> Hannay put the case for Eudes persuasively: no supernatural heroism is attributed to him, no legendary feats — he is simply made what hundreds of Norman family founders were, "a follower of Rollo, sharing in his chieftain's fortunes." <a href="https://en.wikipedia.org/wiki/L%C3%A9opold_Delisle">Léopold Delisle</a>, the leading 19th-century Norman charter scholar, challenged Daniel Gurney's early genealogy — but the challenge itself confirms that no document survives. The name rests on tradition; the person behind it almost certainly existed. <sup class="fn"><a href="#n7" id="ref-7">7</a></sup><sup class="fn"><a href="#n13" id="ref-13">13</a></sup></li>
+  <li><strong>"A name supplied by tradition to somebody whose existence is a matter of certainty."</strong> Historian Hannay put the case for Eudes persuasively: no supernatural heroism is attributed to him, no legendary feats — he is simply made what hundreds of Norman family founders were, "a follower of Rollo, sharing in his chieftain's fortunes." The specific name rests on tradition; the person behind it almost certainly existed. <sup class="fn"><a href="#n7" id="ref-7">7</a></sup><sup class="fn"><a href="#n13" id="ref-13">13</a></sup></li>
   <li><strong>One line, two names.</strong> The Norman chronicles tracked the lord of Gournay through interchangeable name-forms — <em>Hugues</em> and <em>Eulde</em> (Frankish for <em>Eudes</em>), variant renderings of the same Norse root. Two surviving 17th-century printed chronicles tell the same 1054 <a href="https://en.wikipedia.org/wiki/Battle_of_Mortemer">Battle of Mortemer</a> story but name the Gournay commander differently in each — "Eulde, seigneur de Gournay" in one, "Hugues de Gournay" in the other. The shared linguistic root is part of why later genealogists sometimes collapse the founder Eudes and the fortifier Hugh I (G36) into a single figure; the interchangeability is itself a sign that the chronicle tradition was tracking a continuous seigneurial line across generations, even when individual names blurred. <sup class="fn"><a href="#n12" id="ref-12">12</a></sup></li>
   <li><strong>A frontier post given only to a trusted commander.</strong> The Pays de Bray was <a href="https://en.wikipedia.org/wiki/Duchy_of_Normandy">Normandy</a>'s most exposed eastern border — the gateway any French army would use to invade. The lord of Gournay was required by the <a href="https://en.wikipedia.org/wiki/Black_Book_of_the_Exchequer">Red Book Roll</a> to furnish the Duke with twelve knights and defend the marches at his own expense. As Hannay noted, this was "a most important" lordship that "would be established early, and given to some conspicuous and deserving fighting-man of the sea-king breed." <sup class="fn"><a href="#n8" id="ref-8">8</a></sup></li>
   <li><strong>Eudes — "the knight with the black shield."</strong> A French local history tradition describes Eudes as <em>"le chevalier à l'écu noir"</em> — the knight with the black shield. The Gournay arms were later recorded as <em><a href="https://en.wikipedia.org/wiki/Sable_(heraldry)">pure sable</a></em> (a plain black shield), one of the simplest and most ancient <a href="https://en.wikipedia.org/wiki/Heraldry">heraldic</a> designs in Norman genealogy, consistent with an origin before the formalisation of heraldry. The original black shield remained on Gournay-en-Bray's civic arms even after the family itself adopted a new device — an engrailed red cross on silver — under Hugues V around the 1190s; the 1844 N.-R. P. de la Mairie engraving series explicitly contrasts the two phases as "Premières armoiries" (first arms) and "Secondes armoiries" (second arms). <sup class="fn"><a href="#n10" id="ref-10">10</a></sup></li>
 </ul>
+
 </section>
 
 
@@ -111,11 +112,11 @@ In the late summer of 911, a Viking warlord named <a href="https://en.wikipedia.
 
 Eudes — or Odon — de Gournay received as his share the town of <a href="https://en.wikipedia.org/wiki/Gournay-en-Bray">Gournay</a> and the adjoining territory of the <a href="https://en.wikipedia.org/wiki/Pays_de_Bray">Pays de Bray</a>, a marshy, well-watered landscape on Normandy's eastern frontier where the duchy pressed up against Frankish and then <a href="https://en.wikipedia.org/wiki/Capetian_dynasty">Capetian</a> France. It was a posting of real consequence. As Hannay observed in 1867, the lordship of Gournay, "by its position, on the frontier or marches of France Proper," was "a most important one, would be established early, and given to some conspicuous and deserving fighting-man." The Pays de Bray was no second prize; it was a linchpin of Norman frontier security. <sup class="fn"><a href="#n8" id="ref-8b">8</a></sup>
 
-Who Eudes was before 911 is beyond recovery. His Scandinavian origin is indicated by his name — Odon is a Frankish rendering of a Norse name — and by his association with Rollo's war-band, but his specific clan, homeland, and parentage are entirely unrecorded. As Hannay wrote: "From what breed of <a href="https://en.wikipedia.org/wiki/Jarl">jarls</a> or <a href="https://en.wikipedia.org/wiki/Vikings">vikings</a>, <a href="https://en.wikipedia.org/wiki/Odin">Odin</a>-worshippers, sea-rovers, fair-haired warriors, he drew his blood, who will ever know? Not a pedigree in Europe is perfectly ascertainable beyond his time." Yet Hannay also insisted that "Eudes was a reality as thoroughly as we — the root of soldiers, lords, crusaders, knights, who can be linked together life after life down through the feudal men and their country-gentlemen successors." <sup class="fn"><a href="#n11" id="ref-11">11</a></sup>
+Who Eudes was before 911 is beyond recovery. His Scandinavian origin is indicated by his name — Odon is a Frankish rendering of a Norse name — and by his association with Rollo's war-band, but his specific clan, homeland, and parentage are entirely unrecorded. As archivist Hannay wrote: "From what breed of <a href="https://en.wikipedia.org/wiki/Jarl">jarls</a> or <a href="https://en.wikipedia.org/wiki/Vikings">vikings</a>, <a href="https://en.wikipedia.org/wiki/Odin">Odin</a>-worshippers, sea-rovers, fair-haired warriors, he drew his blood, who will ever know? Not a pedigree in Europe is perfectly ascertainable beyond his time." Yet Hannay also insisted that "Eudes was a reality as thoroughly as we — the root of soldiers, lords, crusaders, knights, who can be linked together life after life down through the feudal men and their country-gentlemen successors." <sup class="fn"><a href="#n11" id="ref-11">11</a></sup>
 
 The early Norman charters of the Lords of Gournay make no reference to pagan practice, suggesting that Eudes or his immediate successors converted to Christianity as the Treaty required. Hannay supposed we may "safely fancy him baptized at <a href="https://en.wikipedia.org/wiki/Rouen">Rouen</a>; building up fortresses and walls; clearing woods and setting ploughs going; putting down thieves and disorderly irregular people in his own lordship; looking up to Rollo as his chief and example." <sup class="fn"><a href="#n11" id="ref-11b">11</a></sup>
 
-It is important to be honest about what the sources can and cannot tell us. The genealogist <a href="https://en.wikipedia.org/wiki/Daniel_Gurney">Daniel Gurney</a>, writing in 1848 after years of research in Norman archives, explicitly acknowledged that Eudes "rests upon traditional evidence only." Hannay went further in arguing that the tradition was credible precisely because it was modest — "No supernatural feats of heroism are attributed to him; he does not scatter whole armies in the doubtful moments of great battles." <a href="https://en.wikipedia.org/wiki/L%C3%A9opold_Delisle">Léopold Delisle</a>, the pre-eminent French archivist of the era, challenged Daniel Gurney's early genealogy — a reminder that these first generations rest on family tradition rather than charter evidence. Eudes's existence rests on later tradition rather than contemporary document, but the case for him as a real person is strong.
+It is important to be honest about what the sources can and cannot tell us. The genealogist <a href="https://en.wikipedia.org/wiki/Daniel_Gurney">Daniel Gurney</a>, writing in 1848 after years of research in Norman archives, explicitly acknowledged that Eudes "rests upon traditional evidence only." Hannay went further in arguing that the tradition was credible precisely because it was modest — "No supernatural feats of heroism are attributed to him; he does not scatter whole armies in the doubtful moments of great battles." <a href="https://en.wikipedia.org/wiki/L%C3%A9opold_Delisle">Léopold Delisle</a>, the pre-eminent French archivist of the 1800's, challenged some of Daniel Gurney's early genealogy — a reminder that these ancient generations rest on inference and secondary research rather than charter evidence. Eudes's existence rests on academic findings rather than on ancient documentation of the era, but the case for him as a real person is strong.
 </section>
 
 <section class="fact-section" id="citations">

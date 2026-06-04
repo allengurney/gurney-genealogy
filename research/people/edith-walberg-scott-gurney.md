@@ -18,6 +18,8 @@ Earlier loose notes add that Edith's hobbies included plants, gardening, and hou
 
 The earlier "died 82 years old" note probably does not refer to Edith. Page 8 gives Edith's death in 1963 at about age 42-43 if she was born in 1920-1921.[^edith-notes]
 
+A New York City certificate of marriage confirms that Edith W. Scott married Lester Gurney III on 23 November 1942 in the Borough of Manhattan, before Justice Emil W. Haas, license no. 29487. A SAR ancestor chart gives her birth as 15 February 1919 at New York and death as 27 December 1963 at Chatham, New Jersey — the 1919 birth would make her about three years older than the 1920-1921 estimate from the family notes; treat it as a derivative variant pending a birth record. Mid-1950s Bristol, Rhode Island, clippings show "Mrs. Lester Gurney 3rd" — Edith — active in village life: chairing the Bristol Parent-Teacher Association roundup committee, hosting the Bayberry Garden Club at the family home on Sowams Road, and, with Lester, elected president of the Co-Mar-Co Society.[^edith-family-papers]
+
 ### Research actions
 
 - Locate Edith birth record, about 1920-1921.
@@ -32,3 +34,5 @@ The earlier "died 82 years old" note probably does not refer to Edith. Page 8 gi
 - Search Walberg/Thursby marriage record and Mildred's death around 1932-1933.
 
 [^edith-notes]: Gurney family handwritten oral-history and research notes, revised findings memorandum v3 prepared 4 May 2026 from eight photographed notebook pages, Appendix A, Pages 1, 5, and 8. Source ID: `gurney-family-handwritten-notes-1963`.
+
+[^edith-family-papers]: Gurney family papers from Lester Sawyer Gurney III (G3), passed to Lester Hayes Gurney (G2), in possession of Allen Gurney (G1); especially the 23 November 1942 New York City marriage certificate, the SAR ancestor chart, and the mid-1950s Bristol, Rhode Island, social clippings. Source ID: `gurney-family-papers-g3-to-g2-certificates-clippings`.

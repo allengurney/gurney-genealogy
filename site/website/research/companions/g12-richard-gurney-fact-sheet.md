@@ -65,17 +65,41 @@ The conflicts are real and should be preserved rather than silently merged:
 3. **Rebecca Taylor's father's will, proved 1688** — Plymouth County or Suffolk County probate.
 4. **Massachusetts Bay Freeman admission, 1681** — confirmation in MBCR.
 5. **Mendon massacre primary records** — eyewitness accounts and the official town-meeting record naming the dead, if recoverable.
-6. **Reconcile Richard's death year**: Torrey gives -1691; *History of Weymouth* gives Oct. 1719. Plymouth County and Suffolk County probate, plus Weymouth town-meeting and vital records, are the right places to test which year belongs to Richard2 the father and which (if either) belongs to Richard3 his son b. 18 Jan. 1656.
+6. **Richard's death year — resolved (1691).** Rigler states the *History of Weymouth* 1719 date "was in error… which in fact, belonged to his son, Richard" (b. 18 Jan. 1656, d. Oct. 1719, unmarried). Richard-2 died Oct. 1691, intestate; the 1691 Suffolk Co. administration named sons Richard and Zachariah, with eldest son John refusing. See the Rigler findings section.
 7. **Children of Richard2**: confirm whether Joseph (b. 22 Feb. 1664/65), Mary (b. 9 Sept. 1667), and Benjamin (G11, c. 1676) belong to Richard2 alongside the Weymouth-listed Richard3 (b. 18 Jan. 1656), John (b. near 1658), and Zachariah (b. near 1660); examine the underlying Weymouth town and church records.
 
 ---
+
+## Rigler (1994) findings — direct page audit
+
+Jean Gurney Rigler's *Gurney Family from Aaron to Zuinglius* (1994) carries a full Richard-2 entry, transcribed at [`sources/corpus_supplement/rigler-gurney-aaron-zuinglius-g9-g12-extract.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/rigler-gurney-aaron-zuinglius-g9-g12-extract.md). It resolves several open points on this person.
+
+**Death year — 1691, not 1719.** Rigler: "Hist. of Weymouth was in error in stating his death date as 1719 which in fact, belonged to his son, Richard." Richard-2 died Oct. 1691, intestate; the 1719 date belongs to son Richard (b. 18 Jan. 1656, d. Oct. 1719, unmarried).[^rigler-g12]
+
+**Administration, 1691.** Suffolk Co. Probate, 1691; bond on the estate of Richard Gurney, Sr.; administrators were sons Richard and Zachariah Gurney, "John Gurney the eldest son refusing"; bondsmen Joseph Green and John Richards. The eldest son John being alive in 1691 is the key datum reattributing the Mendon death below.[^rigler-g12]
+
+**Mendon massacre reattributed off Richard's son.** Because the eldest son John (b. c. 1654, m. Elizabeth Green) was alive to refuse administration in 1691, the 1675 Mendon victim John was not Richard's son but a son of the emigrant John Gurney-1 (G13) — Richard's brother — as is Peter, "a soldier in Johnson's Co. Dec. 1675, killed in King Philip's War, Dec. 1676." This matches the G13 companion's lead L-17 note about the conflated Mendon-1675 John, and corrects the G12 fact sheet's earlier "his son John was killed at the Mendon massacre."[^rigler-g12]
+
+**Rebecca Taylor's parentage.** Daughter of John and Rebecca Taylor of Weymouth; John Taylor's will (Suffolk Prob. 6:13, written 6 Jan., proved 22 May 1688) names "his daughter Rebecca, wife of Richard Gurney," alongside wife Rebecca and son John Taylor. The mother's name conflicts with the *History of Weymouth* "Phebe Taylor" reading — Rebecca per the will, Phebe per Weymouth — so preserve both.[^rigler-g12][^history-of-weymouth-g12]
+
+**Children of Richard-2 (Weymouth VR).** A fuller, reconciled set, ending the Weymouth-vs-companion children conflict: John (b. c. 1654, m. Elizabeth Green); Richard (b. 18 Jan. 1656, d. 1719, unmarried); Zachariah (b. c. 1660, m. Mary Benson); Joseph (b. 22 Feb. 1664/5, d. 1739, unmarried); Mary (b. 9 Sept. 1667, d. 1736, unmarried); and Benjamin (G11, b. c. 1676, m. Rebecca Staples).[^rigler-g12]
+
+[^rigler-g12]: Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius: A Genealogical Dictionary*, rev. ed. (Honolulu: J. G. Rigler, 1994), Richard-2 entry (p. 203), with the adjacent John Gurney-1 children Peter and Sarah. Transcribed at [`sources/corpus_supplement/rigler-gurney-aaron-zuinglius-g9-g12-extract.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/rigler-gurney-aaron-zuinglius-g9-g12-extract.md). Source ID: `rigler-gurney-family-aaron-zuinglius-1994`.
+
+---
+
+## Rigler worksheet (c. 1980) — pre-revision draft of the Richard-2 entry
+
+An earlier Rigler family-group worksheet for Richard-2 (signed Robert G. Rigler, M.D.) predates the 1994 entry and shows the children before the reattribution: it lists **Peter** ("killed in King Phillips War, Dec. 1676") and **Sarah** (m. John Vinson) as Richard's *own* children, and tags Zachariah a King Philip's War soldier. The 1994 edition moves Peter and Sarah to the John Gurney-1 (G13) sibling set — so the worksheet captures the superseded arrangement and shows that the reattribution adopted above was the author's own later correction, not an outside emendation. The worksheet also calls eldest son John "of Little Comfort," Weymouth; its "Sources of Information" box is blank.[^rigler-ws-g12]
+
+[^rigler-ws-g12]: Robert G. Rigler, M.D., Gurney family-group worksheet for Richard² Gurney, c. 1980 (Honolulu); the earlier working draft behind the 1994 edition, which supersedes it. Image held local-only at `sources/media/rigler-genealogy-notes-c1980/_local/`; transcription at [`sources/corpus_supplement/rigler-genealogy-notes-c1980-worksheets-extract.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/rigler-genealogy-notes-c1980-worksheets-extract.md). Source ID: `rigler-genealogy-notes-c1980`.
 
 ## Sources Consulted
 
 - <code>data/ancestors v26.json</code>, G12 entry.
 - Sprague, <em>Genealogies of Braintree</em> (Source ID <code>sprague-braintree</code>) — referenced indirectly via the John Gurney-1 family group on p. 695.
 - Anderson, <em>Great Migration Directory</em> (Source ID <code>anderson-gmd-2015</code>) — for G13 context.
-- Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius* (rev. and expanded ed., 1994). Key compiled genealogy for the G4-G13 direct line; source ID `rigler-gurney-family-aaron-zuinglius-1994`. Full page-level audit still pending.
+- Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius* (rev. and expanded ed., 1994), Richard-2 entry (p. 203); audited — see the Rigler findings section above. Source ID `rigler-gurney-family-aaron-zuinglius-1994`. Transcribed extract at [`sources/corpus_supplement/rigler-gurney-aaron-zuinglius-g9-g12-extract.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/rigler-gurney-aaron-zuinglius-g9-g12-extract.md).
 - *History of Weymouth, Massachusetts*, Vol. 3 Genealogy of Weymouth families, Richard Gurney entry. Source ID `history-of-weymouth`. Transcribed extract at [`sources/corpus_supplement/history-of-weymouth-vol3-gurney.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/history-of-weymouth-vol3-gurney.md).
 - Clarence Almon Torrey, *New England Marriages Prior to 1700*, p. 331, Richard Gurney entry. Source ID `torrey-new-england-marriages-prior-1700`. Transcribed extract at [`sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md).
 
