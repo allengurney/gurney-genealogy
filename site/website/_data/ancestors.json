@@ -5149,13 +5149,14 @@
     "placeRefs": [
       "place-bedfordshire-england",
       "place-buckinghamshire-england",
+      "place-cottentray-avesnes-en-bray-normandy-france",
       "place-gournay-en-bray-normandy-france",
       "place-norfolk-england",
       "place-normandy-france",
       "place-oxfordshire-england",
       "place-bosc-hyons-boshyon-normandy-france"
     ],
-    "placeSummary": "Bedfordshire, England; Buckinghamshire, England; Gournay-en-Bray, Normandy, France; +4 more",
+    "placeSummary": "Bedfordshire, England; Buckinghamshire, England; Cottentray (hamlet of Avesnes-en-Bray); +5 more",
     "locations": [
       {
         "placeId": "place-bedfordshire-england",
@@ -5190,6 +5191,23 @@
         "photoTitle": "",
         "siteUrl": "",
         "siteLabel": ""
+      },
+      {
+        "placeId": "place-cottentray-avesnes-en-bray-normandy-france",
+        "place": "Cottentray (Avesnes-en-Bray), Normandy, France",
+        "siteName": "Cottentray (hamlet of Avesnes-en-Bray)",
+        "region": "Normandy, France",
+        "eventType": "senior-baron-line quarter-fief context",
+        "eventDate": "c. 1098 — d. 1180",
+        "sourceQuote": "Hamlet in the modern commune of Avesnes-en-Bray, east of Gournay-en-Bray. Decorde 1861 records that until the fifteenth century the seigneury of Cottentray was held in parts and that one quarter-fief descended from the senior Gournay barons before Marie de Bourbon sold it to the Potin family. In 1682 labourers turned up eight to ten stone tombs in a Cottentray field known locally as the Clos des Anglais; no inscription survived.",
+        "lat": 49.4697,
+        "lng": 1.6733,
+        "geocodeBasis": "Same coordinate as the existing v5 overlay anchor anchor_avesnes_en_bray_gournay_dependency_context",
+        "confidence": "Medium",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.archivesdepartementales76.net/archive/catalogue/communes76/avesnes-en-bray/n%3A168",
+        "siteLabel": "Archives départementales 76 — Avesnes-en-Bray commune dossier"
       },
       {
         "placeId": "place-gournay-en-bray-normandy-france",
@@ -5319,12 +5337,13 @@
     "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
     "placeRefs": [
       "place-flegg-norfolk-england",
+      "place-cottentray-avesnes-en-bray-normandy-france",
       "place-gournay-en-bray-normandy-france",
       "place-normandy-france",
       "place-oxfordshire-england",
       "place-bellosanne-abbey-bremontier-merval-normandy-france"
     ],
-    "placeSummary": "Flegg, Norfolk, England; Gournay-en-Bray, Normandy, France; Normandy, France; +2 more",
+    "placeSummary": "Flegg, Norfolk, England; Cottentray (hamlet of Avesnes-en-Bray); Gournay-en-Bray, Normandy, France; +3 more",
     "locations": [
       {
         "placeId": "place-flegg-norfolk-england",
@@ -5342,6 +5361,23 @@
         "photoTitle": "",
         "siteUrl": "",
         "siteLabel": ""
+      },
+      {
+        "placeId": "place-cottentray-avesnes-en-bray-normandy-france",
+        "place": "Cottentray (Avesnes-en-Bray), Normandy, France",
+        "siteName": "Cottentray (hamlet of Avesnes-en-Bray)",
+        "region": "Normandy, France",
+        "eventType": "senior-baron-line quarter-fief context before later 15c sale",
+        "eventDate": "c. 1148 — d. 25 Oct. 1214, Rouen",
+        "sourceQuote": "Hamlet in the modern commune of Avesnes-en-Bray, east of Gournay-en-Bray. Decorde 1861 records that until the fifteenth century the seigneury of Cottentray was held in parts and that one quarter-fief descended from the senior Gournay barons before Marie de Bourbon sold it to the Potin family. In 1682 labourers turned up eight to ten stone tombs in a Cottentray field known locally as the Clos des Anglais; no inscription survived.",
+        "lat": 49.4697,
+        "lng": 1.6733,
+        "geocodeBasis": "Same coordinate as the existing v5 overlay anchor anchor_avesnes_en_bray_gournay_dependency_context",
+        "confidence": "Medium",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.archivesdepartementales76.net/archive/catalogue/communes76/avesnes-en-bray/n%3A168",
+        "siteLabel": "Archives départementales 76 — Avesnes-en-Bray commune dossier"
       },
       {
         "placeId": "place-gournay-en-bray-normandy-france",

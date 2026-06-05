@@ -1669,8 +1669,31 @@
     "siteLabel": "Archives départementales 76 — Avesnes-en-Bray commune dossier",
     "researchUrl": "",
     "researchSlug": "",
-    "ancestorLinks": [],
-    "ancestorCount": 0,
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay IV (Senior Baron Line)",
+        "dates": "c. 1098 — d. 1180",
+        "role": "senior-baron-line quarter-fief context",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay V (Senior Baron Line)",
+        "dates": "c. 1148 — d. 25 Oct. 1214, Rouen",
+        "role": "senior-baron-line quarter-fief context before later 15c sale",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 2,
     "slug": "cottentray-avesnes-en-bray-normandy-france",
     "url": "/research/places/cottentray-avesnes-en-bray-normandy-france.html",
     "seoDescription": "Hamlet in the modern commune of Avesnes-en-Bray, east of Gournay-en-Bray. Decorde 1861 records that until the fifteenth century the seigneury of Cottentray was.",

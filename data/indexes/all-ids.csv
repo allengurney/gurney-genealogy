@@ -1,0 +1,436 @@
+id,idType,label,canonicalFile
+ancestor-g1-allen-lawrence-gurney,ancestor,Allen Lawrence Gurney,data/ancestors.json
+ancestor-g8-amos-gurney,ancestor,Amos Gurney,data/ancestors.json
+ancestor-g17-anthony-gurney,ancestor,Anthony Gurney,data/ancestors.json
+ancestor-g10-benjamin-gurney,ancestor,Benjamin Gurney,data/ancestors.json
+ancestor-g11-benjamin-gurney,ancestor,Benjamin Gurney,data/ancestors.json
+ancestor-g9-benjamin-gurney,ancestor,Benjamin Gurney,data/ancestors.json
+ancestor-g6-brigadier-general-william-gurney,ancestor,Brigadier General William Gurney,data/ancestors.json
+ancestor-g23-edmund-gurney,ancestor,Edmund Gournay,data/ancestors.json
+ancestor-g-37-eudes-odon-de-gournay,ancestor,Eudes (Odon) de Gournay,data/ancestors.json
+ancestor-g14-francis-gurney,ancestor,Francis Gurney,data/ancestors.json
+ancestor-g16-francis-gurney,ancestor,Francis Gurney,data/ancestors.json
+ancestor-g32-gerard-de-gournay,ancestor,Gerard de Gournay,data/ancestors.json
+ancestor-g15-henry-gurney,ancestor,Henry Gurnay,data/ancestors.json
+ancestor-g36-hugh-de-gournay-i,ancestor,Hugh de Gournay I,data/ancestors.json
+ancestor-g34-hugh-de-gournay-ii,ancestor,Hugh de Gournay II,data/ancestors.json
+ancestor-g33-hugh-de-gournay-iii,ancestor,Hugh de Gournay III,data/ancestors.json
+ancestor-g25-john-de-gournay-iii,ancestor,John de Gournay III,data/ancestors.json
+ancestor-g24-john-de-gournay-iv,ancestor,John de Gournay IV,data/ancestors.json
+ancestor-g13-john-gurney-1,ancestor,John Gurney,data/ancestors.json
+ancestor-g2-lester-hayes-gurney,ancestor,Lester Hayes Gurney,data/ancestors.json
+ancestor-g5-lester-sawyer-gurney,ancestor,Lester Sawyer Gurney,data/ancestors.json
+ancestor-g3-lester-sawyer-gurney-iii,ancestor,Lester Sawyer Gurney III,data/ancestors.json
+ancestor-g4-lester-sawyer-gurney-jr,ancestor,Lester Sawyer Gurney Jr.,data/ancestors.json
+ancestor-g35-renaud-de-gournay,ancestor,Renaud de Gournay,data/ancestors.json
+ancestor-g12-richard-gurney,ancestor,Richard Gurney,data/ancestors.json
+ancestor-g22-robert-gournay,ancestor,Robert Gournay,data/ancestors.json
+ancestor-g27-sir-john-de-gournay-i-knt,ancestor,"Sir John de Gournay I, Knt.",data/ancestors.json
+ancestor-g29-matthew-de-gournay,ancestor,"Sir Matthew de Gournay, Knt.",data/ancestors.json
+ancestor-g30-william-de-gournay-i,ancestor,"Sir William de Gournay I, Knt.",data/ancestors.json
+ancestor-g28-william-de-gournay-ii,ancestor,"Sir William de Gournay II, Knt.",data/ancestors.json
+ancestor-g26-sir-william-de-gournay-iii-knt,ancestor,"Sir William de Gournay III, Knt.",data/ancestors.json
+ancestor-g21-thomas-gournay-i,ancestor,Thomas Gournay I,data/ancestors.json
+ancestor-g20-thomas-gournay-ii,ancestor,Thomas Gournay II,data/ancestors.json
+ancestor-g-38-unknown-scandinavian-ancestors,ancestor,Unknown Scandinavian ancestors,data/ancestors.json
+ancestor-g31-walter-de-gournay,ancestor,Walter de Gournay,data/ancestors.json
+ancestor-g19-william-gurney-iv,ancestor,William Gurney IV,data/ancestors.json
+ancestor-g18-william-gurney-v,ancestor,William Gurney V,data/ancestors.json
+ancestor-g7-willis-gurney,ancestor,Willis Gurney,data/ancestors.json
+collateral-g14-edmund-gurney-divine,related,Edmund Gurney (Puritan Divine),data/ancestors.json
+collateral-g32-hugh-de-gournay-iv-senior-baron-line,related,Hugh de Gournay IV (Senior Baron Line),data/ancestors.json
+collateral-g32-hugh-de-gournay-v-senior-baron-line,related,Hugh de Gournay V (Senior Baron Line),data/ancestors.json
+collateral-g1-ken-gurney-allens-brother,related,Ken Gurney (Allen's Brother),data/ancestors.json
+collateral-g9-nathan-gurney-abington,related,Nathan Gurney (foster father of G9),data/ancestors.json
+collateral-g17-queen-anne-boleyn,related,Queen Anne Boleyn,data/ancestors.json
+collateral-g23-sir-john-gurney-knt-d-1408-collateral,related,"Sir John Gurney, Knt. (d.1408) — Related",data/ancestors.json
+collateral-g0-soren-and-ebba-gurney,related,Soren and Ebba Gurney,data/ancestors.json
+era-early-republic,era,"Early Republic — Flushing, Queens, New York",data/ancestors.json
+era-end-of-known-record,era,End of Known Record — The Wall of History,data/ancestors.json
+era-gilded-age-civil-war,era,Gilded Age & Civil War — New York,data/ancestors.json
+era-junior-norfolk-branch,era,Junior Norfolk Branch — Harpley & Hardingham,data/ancestors.json
+era-massachusetts-farming-generations,era,Massachusetts Farming Generations — Cummington & Plymouth County,data/ancestors.json
+era-medieval-norfolk-gurneys,era,Medieval Norfolk Gurneys — West Barsham & Great Ellingham,data/ancestors.json
+era-modern-america,era,Modern America,data/ancestors.json
+era-norman-barons-of-england,era,Norman Barons of England — Post-Conquest Settlement,data/ancestors.json
+era-emigrant-colonial-massachusetts,era,The Emigrant — Colonial Massachusetts,data/ancestors.json
+era-tudor-england,era,Tudor England — City of London & Norfolk,data/ancestors.json
+era-viking-origin,era,"Viking Origin — Gournay-en-Bray, Normandy",data/ancestors.json
+place-15-avenue-c-manhattan-new-york-usa,place,"15 Avenue C, Manhattan, New York, USA",data/places.json
+place-155-henry-street-manhattan-new-york-usa,place,"155 Henry Street, Manhattan, New York, USA",data/places.json
+place-177-west-48th-street-manhattan-new-york-usa,place,"177 West 48th Street, Manhattan, New York, USA",data/places.json
+place-231-fifth-avenue-manhattan-new-york-usa,place,"231 Fifth Avenue, Manhattan, New York, USA",data/places.json
+place-54-hudson-street-manhattan-new-york-usa,place,"54 Hudson Street, Manhattan, New York, USA",data/places.json
+place-55-pike-street-manhattan-new-york-usa,place,"55 Pike Street, Manhattan, New York, USA",data/places.json
+place-le-bec-hellouin-normandy-france,place,"Abbey of Bec / Le Bec-Hellouin, Normandy, France",data/places.json
+place-abington-massachusetts-usa,place,"Abington, Massachusetts, USA",data/places.json
+place-ardleigh-essex-england,place,"Ardleigh, Essex, England",data/places.json
+place-attleborough-norfolk-england,place,"Attleborough, Norfolk, England",data/places.json
+place-baconsthorpe-castle-norfolk-england,place,"Baconsthorpe Castle, Baconsthorpe, Norfolk, England",data/places.json
+place-bedfordshire-england,place,"Bedfordshire, England",data/places.json
+place-billerica-massachusetts-usa,place,"Billerica, Massachusetts, USA",data/places.json
+place-bosc-hyons-boshyon-normandy-france,place,"Bosc-Hyons (medieval Boshyon / Boscus Hugonis), Seine-Maritime, Normandy, France",data/places.json
+place-braintree-massachusetts-usa,place,"Braintree, Massachusetts, USA",data/places.json
+place-bridgewater-massachusetts-usa,place,"Bridgewater, Massachusetts, USA",data/places.json
+place-buckinghamshire-england,place,"Buckinghamshire, England",data/places.json
+place-burnham-thorpe-norfolk-england,place,"Burnham Thorpe, Norfolk, England",data/places.json
+place-la-ferte-butte-feodale-normandy-france,place,"Butte féodale / Château de La Ferté, La Ferté-Saint-Samson, Normandy, France",data/places.json
+place-caister-on-sea-norfolk-england,place,"Caister-on-Sea, Norfolk, England",data/places.json
+place-cantley-norfolk-england,place,"Cantley, Norfolk, England",data/places.json
+place-charleston-south-carolina-usa,place,"Charleston, South Carolina, USA",data/places.json
+place-chatham-new-jersey-usa,place,"Chatham, New Jersey, USA",data/places.json
+place-city-of-london-england,place,"City of London, England",data/places.json
+place-collegiale-saint-hildevert-gournay-en-bray-normandy-france,place,"Collégiale Saint-Hildevert, Gournay-en-Bray, Normandy, France",data/places.json
+place-conquets-hue-de-gournay-beauvaisis-france,place,"Conquêts Hue de Gournay / Beauvaisis frontier acquisitions, France",data/places.json
+place-cottentray-avesnes-en-bray-normandy-france,place,"Cottentray (Avesnes-en-Bray), Normandy, France",data/places.json
+place-cummington-massachusetts-usa,place,"Cummington, Massachusetts, USA",data/places.json
+place-dexter-michigan-usa,place,"Dexter, Michigan, USA",data/places.json
+place-east-dereham-norfolk-england,place,"East Dereham, Norfolk, England",data/places.json
+place-essex-england,place,"Essex, England",data/places.json
+place-flegg-norfolk-england,place,"Flegg, Norfolk, England",data/places.json
+place-flushing-queens-new-york-usa,place,"Flushing, Queens, New York, USA",data/places.json
+place-fordham-essex-england,place,"Fordham, Essex, England",data/places.json
+place-fort-wayne-indiana-usa,place,"Fort Wayne, Indiana, USA",data/places.json
+place-g33-bec-gournay-endowment-cluster-pays-de-bray-france,place,"G33 Bec / Gournay endowment cluster, Pays de Bray, France",data/places.json
+place-gaillefontaine-castle-domain-normandy-france,place,"Gaillefontaine castle / domain, Normandy, France",data/places.json
+place-gournay-fortifications-tour-du-rempart-normandy-france,place,"Gournay fortifications / Tour du Rempart, Gournay-en-Bray, Normandy, France",data/places.json
+place-gournay-en-bray-normandy-france,place,"Gournay-en-Bray, Normandy, France",data/places.json
+place-great-ellingham-norfolk-england,place,"Great Ellingham, Norfolk, England",data/places.json
+place-gurneys-manor-hingham-norfolk-england,place,"Gurney's Manor, Hingham, Norfolk, England",data/places.json
+place-hackettstown-new-jersey-usa,place,"Hackettstown, New Jersey, USA",data/places.json
+place-hardingham-norfolk-england,place,"Hardingham, Norfolk, England",data/places.json
+place-harpley-norfolk-england,place,"Harpley, Norfolk, England",data/places.json
+place-hellesdon-norfolk-england,place,"Hellesdon, Norfolk, England",data/places.json
+place-hingham-norfolk-england,place,"Hingham, Norfolk, England",data/places.json
+place-indianapolis-indiana-usa,place,"Indianapolis, Indiana, USA",data/places.json
+place-irstead-norfolk-england,place,"Irstead, Norfolk, England",data/places.json
+place-kings-lynn-norfolk-england,place,"King's Lynn, Norfolk, England",data/places.json
+place-la-ferte-foundation-endowment-cluster-pays-de-bray-france,place,"La Ferté foundation endowment cluster, Pays de Bray, France",data/places.json
+place-la-ferte-en-bray-normandy-france,place,"La Ferté-en-Bray / La Ferté-Saint-Samson, Normandy, France",data/places.json
+place-lessingham-norfolk-england,place,"Lessingham, Norfolk, England",data/places.json
+place-lewes-sussex-england,place,"Lewes, Sussex, England",data/places.json
+place-liston-essex-england,place,"Liston, Essex, England",data/places.json
+place-abington-whitman-line-massachusetts-usa,place,"Little Comfort / Abington-Bridgewater line, Massachusetts, USA",data/places.json
+place-marion-indiana-usa,place,"Marion, Indiana, USA",data/places.json
+place-mendon-massachusetts-usa,place,"Mendon, Massachusetts, USA",data/places.json
+place-middleborough-massachusetts-usa,place,"Middleborough, Massachusetts, USA",data/places.json
+place-montigny-sur-andelle-normandy-france,place,"Montigny-sur-Andelle, Normandy, France",data/places.json
+place-new-york-metropolitan-area-usa,place,"New York metropolitan area, USA",data/places.json
+place-norfolk-england,place,"Norfolk, England",data/places.json
+place-normandy-france,place,"Normandy, France",data/places.json
+place-bellosanne-abbey-bremontier-merval-normandy-france,place,"Notre-Dame de Bellozanne abbey, Brémontier-Merval, Normandy, France",data/places.json
+place-old-hall-great-ellingham-norfolk-england,place,"Old Hall, Great Ellingham, Norfolk, England",data/places.json
+place-oxfordshire-england,place,"Oxfordshire, England",data/places.json
+place-pays-de-bray-normandy-picardy-france,place,"Pays de Bray, Normandy / Picardy frontier, France",data/places.json
+place-port-washington-new-york-usa,place,"Port Washington, New York, USA",data/places.json
+place-portland-oregon-usa,place,"Portland, Oregon, USA",data/places.json
+place-priory-saint-pierre-saint-paul-la-ferte-en-bray-normandy-france,place,"Priory / Church of Saint-Pierre-et-Saint-Paul, La Ferté-en-Bray, Normandy, France",data/places.json
+place-rochester-massachusetts-usa,place,"Rochester, Massachusetts, USA",data/places.json
+place-runhall-norfolk-england,place,"Runhall, Norfolk, England",data/places.json
+place-saxthorpe-norfolk-england,place,"Saxthorpe, Norfolk, England",data/places.json
+place-scandinavia,place,Scandinavia,data/places.json
+place-sigy-saint-martin-priory-normandy-france,place,"Sigy / Abbaye Saint-Martin, Sigy-en-Bray, Normandy, France",data/places.json
+place-st-louis-missouri-usa,place,"St. Louis, Missouri, USA",data/places.json
+place-suffolk-england,place,"Suffolk, England",data/places.json
+place-tower-of-london-england,place,"Tower of London, London, England",data/places.json
+place-wellesley-massachusetts-usa,place,"Wellesley, Massachusetts, USA",data/places.json
+place-west-barsham-norfolk-england,place,"West Barsham, Norfolk, England",data/places.json
+place-weymouth-massachusetts-usa,place,"Weymouth, Massachusetts, USA",data/places.json
+place-ecouche-normandy-france,place,"Écouché, Normandy, France",data/places.json
+place-fry-eglise-saint-martin-normandy-france,place,"Église Saint-Martin, Fry, Normandy, France",data/places.json
+complete-history-england-1706-v1,source,"A Complete History of England, vol. 1 (1706)",data/sources.json
+abington-vr-1850-vol1,source,"Abington Vital Records to 1850, vol. 1",data/sources.json
+accessgenealogy-lysander-franklin-gurney,source,"AccessGenealogy, Lysander Franklin Gurney",data/sources.json
+american-biography-cyclopedia-v26-gurney-1926,source,"American Biography, vol. 26 - Gurney",data/sources.json
+ancestry-norfolk-1535-1812,source,"Ancestry / NRO, Norfolk Church of England Baptism, Marriages and Burials, 1535-1812",data/sources.json
+anderson-yvery-1742,source,"Anderson, Genealogical History of the House of Yvery",data/sources.json
+anderson-yvery-1742-vol-i,source,"Anderson, Genealogical History of the House of Yvery, Vol. I",data/sources.json
+anderson-great-migration-begins-v1-baxter,source,"Anderson, Great Migration Begins vol. 1 - Gregory Baxter",data/sources.json
+anderson-gmd-2015,source,"Anderson, Great Migration Directory",data/sources.json
+anderson-new-englands-generation-1991,source,"Anderson, New England's Generation",data/sources.json
+arber-stationers-registers-1554-1640-deferred,source,Arber - Transcript of the Registers of the Stationers' Company 1554-1640 (deferred),data/sources.json
+acl-robert-gurney-will-1625,source,Archdeaconry Court of London - Robert Gurney will (1625),data/sources.json
+archiuk-attleborough-nr17-domesday-search,source,ARCHI UK - NR17 local-history search,data/sources.json
+armstrong-norfolk-1781,source,"Armstrong, History and Antiquities of the County of Norfolk (1781)",data/sources.json
+ballou-history-of-milford-1882,source,"Ballou, History of Milford (1882)",data/sources.json
+banks-brownell-1937,source,"Banks/Brownell, Topographical Dictionary (1937)",data/sources.json
+bardsley-english-welsh-surnames-1901,source,"Bardsley, Dictionary of English & Welsh Surnames",data/sources.json
+bartlett-bartletts-of-weymouth-1892,source,"Bartlett, The Bartletts of Weymouth (1892)",data/sources.json
+bates-ancient-iron-works-braintree-1898,source,"Bates, Ancient Iron Works at Braintree",data/sources.json
+bauduin-franchises-normandie-orientale-2001,source,"Bauduin, Trois cas de peuplement en franchises",data/sources.json
+benjamin-gurney-harden-research-tables-2026-04,source,Benjamin Gurney / Harden research tables (2026-04),data/sources.json
+british-archivist-bernau-1913,source,"Bernau, British Archivist - Francis Gournay",data/sources.json
+bho-beaven-aldermen-richard-gourney-1589-1597,source,"BHO - Beaven aldermen, Richard Gourney",data/sources.json
+bho-livery-haberdashers-gournay-charity,source,BHO - Haberdashers' Company Gournay's Charity,data/sources.json
+bho-london-inhabitants-st-augustine-1638,source,"BHO - Inhabitants of London 1638, St Augustine",data/sources.json
+bho-port-trade-early-elizabethan-london-richard-gurney-1567-8,source,"BHO - London Port Book 1567-8, Richard Gurney",data/sources.json
+bho-ipm-edward-iii-vol12-sancto-omero-mulbarton-1366,source,"BHO Calendar of IPM, Edward III, vol. 12 — Thomas de Sancto Omero (1366)",data/sources.json
+bho-hmc-kings-lynn-misc-writings,source,BHO HMC - King's Lynn Miscellaneous Writings,data/sources.json
+bho-ipm-edward-iii-file31-gournay-harpetree,source,BHO IPM Edward III File 31 - Thomas Gournay of Harpetree,data/sources.json
+bho-ipm-edward-iii-file35-gournay-inglescombe,source,BHO IPM Edward III File 35 - Thomas Gournay of Inglescombe,data/sources.json
+bho-ipm-vol16-index-gournay,source,BHO IPM vol. 16 Index - Gournay/Gurney,data/sources.json
+bho-ipm-henry-iv-vol19-gournay-johnv,source,"BHO IPM vol. 19 (Henry IV) - John Gournay (Sir John V), d.1408",data/sources.json
+bho-statutes-realm-1661-assessment,source,BHO Statutes - 1661 Assessment Act,data/sources.json
+blomefield-norfolk,source,"Blomefield, History of Norfolk",data/sources.json
+blomefield-norfolk-vol5-pp33-cringleford-berford,source,"Blomefield, Norfolk vol. 5 (BHO) — Cringleford, Berford's Manor",data/sources.json
+bodleian-ms-tanner-175-marco,source,Bodleian MS Tanner 175 - MARCO,data/sources.json
+braintree-records-1640-1793-1886,source,"Braintree town records, 1640-1793",data/sources.json
+brooke-catalogue-succession-1619,source,"Brooke, Catalogue and Succession (1619)",data/sources.json
+brs-v21,source,BRS v21 (1642 Bucks tax),data/sources.json
+burke-ancient-family,source,"Burke, The Ancient Family of Gurney",data/sources.json
+calder-new-haven-colony-1934,source,"Calder, New Haven Colony",data/sources.json
+cfr-henry-iv-1405-13,source,"Calendar of Fine Rolls, Henry IV, 1405-13",data/sources.json
+cpr-henry-iv-1399-1401,source,"Calendar of Patent Rolls, Henry IV, 1399-1401",data/sources.json
+cpr-henry-vi-1422-29,source,"Calendar of Patent Rolls, Henry VI, 1422-29",data/sources.json
+histoire-de-lorraine-calmet,source,"Calmet, Histoire de Lorraine — Maison de Gournay genealogy",data/sources.json
+cambridge-core-camden-preface-addenda,source,Camden Old Series - Preface and Addenda,data/sources.json
+candidate-d-london-context-web-bundle,source,Candidate D London context web bundle,data/sources.json
+candidate-d-london-grine-grene-index-leads-bundle,source,Candidate D London Grine/Grene index-lead bundle,data/sources.json
+saint-leu-esserent-cartulary-muller,source,"Cartulaire du prieure de Saint-Leu d'Esserent (1080-1538), ed. Muller",data/sources.json
+chronicon-beccensis,source,Chronicon Beccensis Abbatiæ,data/sources.json
+cleveland-battle-abbey-roll-v2-gurnay,source,"Cleveland, Battle Abbey Roll - Gurnay",data/sources.json
+cleveland-battle-abbey-roll-introduction,source,"Cleveland, Battle Abbey Roll introduction",data/sources.json
+cleveland-battle-abbey-roll-v1-crossrefs,source,"Cleveland, Battle Abbey Roll vol. 1 crossrefs",data/sources.json
+cleveland-battle-abbey-roll-v3-crossrefs,source,"Cleveland, Battle Abbey Roll vol. 3 crossrefs",data/sources.json
+folger-corpus-christi-1619,source,Corpus Christi (1619) - Internet Archive / Folger,data/sources.json
+daniel-history-england-1613-pt1,source,"Daniel, First Part of the Historie of England (1613)",data/sources.json
+dashwood-visitation-norfolk-1563-vol1-1878,source,"Dashwood, Visitation of Norfolk 1563, vol. 1 (1878)",data/sources.json
+davis-abel-lunt-1963,source,"Davis, Ancestry of Abel Lunt",data/sources.json
+decorde-essai-canton-gournay-1861,source,"Decorde, Essai historique et archeologique sur le Canton de Gournay (1861)",data/sources.json
+folger-demonstration-antichrist-1631,source,Demonstration of Antichrist (1631) - Internet Archive / Folger,data/sources.json
+deville-cartulaire-sainte-trinite-rouen,source,"Deville, Cartulaire de la Sainte-Trinite du Mont de Rouen (1840)",data/sources.json
+dg-rec-pt1,source,"DG Record, Part I",data/sources.json
+dg-rec-pt2,source,"DG Record, Part II",data/sources.json
+dg-rec-pt3,source,"DG Record, Part III",data/sources.json
+dg-rec-pt4,source,"DG Record, Part IV",data/sources.json
+dg-rec-supp,source,"DG Record, Supplement (1858)",data/sources.json
+dg-rye-appendix,source,DG Rye Appendix,data/sources.json
+dhi-crusaders-leeds,source,"DHI -- Database of Crusaders to the Holy Land, 1095-1149",data/sources.json
+dicamillo-gurneys-manor,source,DiCamillo — Gurney's Manor,data/sources.json
+dnb-edmund-gurney-1890,source,DNB - Edmund Gurney (d.1648),data/sources.json
+domesday-1086,source,Domesday Book (1086),data/sources.json
+dudo-historia,source,"Dudo of Saint-Quentin, Historia Normannorum",data/sources.json
+eaa-occasional-paper-2-ellingham-kiln-1997,source,EAA Occasional Paper 2 - Ellingham Kiln,data/sources.json
+early-yorkshire-charters-vol-8-clay-1949,source,"Early Yorkshire Charters, vol. 8: The Honour of Warenne (Clay 1949)",data/sources.json
+elizabeth-stettler-walker-gurney-obituary,source,Elizabeth Stettler Walker Gurney Obituary (2013),data/sources.json
+english-heritage-baconsthorpe-castle-history,source,English Heritage - Baconsthorpe Castle history,data/sources.json
+english-heritage-baconsthorpe-castle-wool-factory,source,English Heritage - Baconsthorpe Tudor wool factory,data/sources.json
+explore-west-norfolk-harpley-st-lawrence,source,"Explore West Norfolk - St Lawrence, Harpley",data/sources.json
+faden-map-norfolk-1797-hardingham,source,Faden map of Norfolk - Hardingham extract,data/sources.json
+fs-england-births-christenings,source,FamilySearch England Births and Christenings,data/sources.json
+fs-england-deaths-burials-1538-1991,source,"FamilySearch England Deaths and Burials, 1538-1991",data/sources.json
+fs-england-marriages-1538-1973,source,"FamilySearch England Marriages, 1538-1973",data/sources.json
+fs-england-buckinghamshire-church-records-1217-1994,source,"FamilySearch England, Buckinghamshire, Church Records, 1217-1994",data/sources.json
+fs-england-norfolk-parish-registers-1510-1997,source,"FamilySearch England, Norfolk, Parish Registers (County Record Office), 1510-1997",data/sources.json
+familysearch-fulltext-search,source,FamilySearch Full-Text Search (AI-transcribed images),data/sources.json
+fs-suffolk-probate-1636-1915,source,FamilySearch Suffolk County probate records,data/sources.json
+farrer-church-heraldry-norfolk,source,"Farrer, Church Heraldry of Norfolk",data/sources.json
+farrer-honors-knights-fees-v3-gurnay-extracts,source,"Farrer, Honors and Knights' Fees, vol. 3 - Gurnay extracts",data/sources.json
+fauroux-recueil,source,"Fauroux, Recueil des actes des ducs de Normandie",data/sources.json
+feltwell-net-mundefords-of-feltwell,source,feltwell.net -- The Mundefords of Feltwell,data/sources.json
+ferrieres-en-bray-official-history,source,Ferrieres-en-Bray official history,data/sources.json
+findagrave-john-gurney-252975617,source,"Find a Grave memorial 252975617 - John Gurney, Braintree, MA",data/sources.json
+findmypast-boyds-inhabitants-london-candidate-d-gurney-cards,source,Findmypast Boyd's Inhabitants - Candidate D Gurney cards,data/sources.json
+findmypast-bucks-baptism-index,source,Findmypast Buckinghamshire Baptism Index,data/sources.json
+findmypast-bucks-burial-index,source,Findmypast Buckinghamshire Burial Index,data/sources.json
+findmypast-bucks-marriage-index,source,Findmypast Buckinghamshire Marriage Index,data/sources.json
+findmypast-ackworth-gurnoe-baptism-1637-john-thomas,source,"Findmypast England Births & Baptisms 1538-1975 - John Thomas Gurnoe, Ackworth, 1637",data/sources.json
+findmypast-ackworth-gurnoe-burton-marriage-1636,source,"Findmypast England Marriages 1538-1973 - John Gurnoe + Mary Burton, Ackworth, 1636",data/sources.json
+findmypast-hertfordshire-baptisms,source,Findmypast Hertfordshire Baptisms,data/sources.json
+findmypast-hertfordshire-burials,source,Findmypast Hertfordshire Burials,data/sources.json
+findmypast-john-gurney-2026may-supplementary-same-name-sweep,source,"Findmypast John Gurney same-name sweep, 12 May 2026 raw batch",data/sources.json
+findmypast-bury-st-edmunds-st-mary-gurney-burials-1653-1656,source,Findmypast National Burial Index - Bury St Edmunds St Mary Gurney burials 1653-1656,data/sources.json
+findmypast-norfolk-burials-index,source,Findmypast Norfolk Burials index,data/sources.json
+findmypast-uk-parish-baptisms,source,Findmypast UK Parish Baptisms,data/sources.json
+fischer-albions-seed-1989,source,"Fischer, Albion's Seed",data/sources.json
+fmg-medlands-normacre,source,FMG MedLands -- Normandy (Cawley),data/sources.json
+foster-streeter-cummington,source,"Foster & Streeter, Only One Cummington (1974)",data/sources.json
+freebmd-freereg,source,FreeREG / FreeBMD,data/sources.json
+fs-jw7y-c3b-john-gurney-baptism-st-ann-blackfriars,source,"FS index JW7Y-C3B — John Gurney baptism, St Ann Blackfriars, 1615, father Wm.",data/sources.json
+fs-vnn2-4vc-marye-gurney-baptism-east-dereham,source,"FS index VNN2-4VC — Marye Gurney baptism 25 May 1618, East Dereham, father Francis",data/sources.json
+fs-vnn2-h8s-francis-gurney-burial-east-dereham-1633,source,"FS index VNN2-H8S — Francis Gurney burial 8 November 1633, East Dereham",data/sources.json
+fs-vnn2-scf-edward-gurney-baptism-east-dereham,source,"FS index VNN2-SCF — Edward Gurney baptism, East Dereham, father Francis",data/sources.json
+fs-vnn2-wr2-marye-gurney-burial-east-dereham,source,"FS index VNN2-WR2 — Marye Gurney burial, East Dereham, father Francis",data/sources.json
+fs-vnn2-wrg-agnes-gurney-burial-east-dereham,source,"FS index VNN2-WRG — Agnes (FS-indexed 'Susan') Gurney burial, East Dereham, father Francis",data/sources.json
+dumoulin-histoire-generale-normandie-1631,source,"Gabriel Dumoulin, Histoire générale de Normandie (1631)",data/sources.json
+gaillefontaine-official-history,source,Gaillefontaine official history,data/sources.json
+gancourt-saint-etienne-bulletin-2023,source,Gancourt-Saint-Etienne municipal bulletin 2023,data/sources.json
+history-ac-uk-markets-fairs-gazetteer,source,Gazetteer of Markets and Fairs to 1516,data/sources.json
+genuki-hardingham-white-1845,source,"GENUKI - Hardingham, White 1845",data/sources.json
+ggm-benefice-harpley-church-history,source,GGM Benefice - Harpley Church History,data/sources.json
+ggm-benefice-harpley-rectors,source,GGM Benefice - Harpley Register of Rectors,data/sources.json
+gibson-dell-protestation,source,"Gibson & Dell, Protestation Returns guide",data/sources.json
+girders-net-medieval-gurney-abstracts,source,girders.net Medieval Gurney Abstracts,data/sources.json
+great-ellingham-manor-farmhouse-hingham-road,source,Great Ellingham - Manor Farmhouse in Hingham Road,data/sources.json
+grokipedia-edmund-gurney-divine,source,Grokipedia - Edmund Gurney (divine),data/sources.json
+gurnay-redivivus-1660,source,Gurnay Redivivus (1660),data/sources.json
+gurney-family-handwritten-notes-1963,source,Gurney family handwritten notes 1963,data/sources.json
+gurney-family-papers-g3-to-g2-certificates-clippings,source,Gurney family papers from G3 to G2,data/sources.json
+three-hundred-years-norman-house,source,"Hannay, Three Hundred Years of a Norman House",data/sources.json
+hardingham-parish-history-2026,source,Hardingham Parish - History of Hardingham,data/sources.json
+harleian-st-vedast-st-michael-le-quern-registers,source,Harleian Society - St Vedast and St Michael le Quern registers,data/sources.json
+bho-1640-principal-inhabitants-london-deferred,source,"Harvey - List of the Principal Inhabitants of the City of London, 1640 (deferred)",data/sources.json
+hazen-billerica-1883,source,"Hazen, History of Billerica",data/sources.json
+henry-project-matilda-flanders-gundred,source,Henry Project - Matilda of Flanders / Gundred,data/sources.json
+henry-project-william-conqueror-gundred,source,Henry Project - William the Conqueror / Gundred,data/sources.json
+nichols-herald-v3,source,Herald & Genealogist v3 p.9,data/sources.json
+heralds-visit-essex-1664,source,Heralds' Visitation Essex 1664,data/sources.json
+heralds-visit-london-1633,source,Heralds' Visitation London 1633,data/sources.json
+hingham-register,source,Hingham parish register,data/sources.json
+histoire-chronique-normandie-1610,source,Histoire et Chronique de Normandie (Rouen 1610),data/sources.json
+historic-england-baconsthorpe-castle-1013093,source,Historic England - Baconsthorpe Castle (1013093),data/sources.json
+historic-england-old-hall-farmhouse-1077566,source,Historic England - Old Hall Farmhouse (1077566),data/sources.json
+hrp-anne-boleyn,source,"Historic Royal Palaces, Anne Boleyn",data/sources.json
+nfwf-little-neck-bay-history-ecology-2008,source,History and Ecology of Little Neck Bay,data/sources.json
+hop-drury-robert-i-1456-1535,source,"History of Parliament -- DRURY, Sir Robert I (by 1456-1535)",data/sources.json
+hop-harling,source,History of Parliament / biography — Sir Robert Harling (d.1435),data/sources.json
+hop-gurney,source,History of Parliament Online — Gurney,data/sources.json
+hop-berney,source,"History of Parliament — Berney, Sir Robert (c.1365-1415)",data/sources.json
+history-of-weymouth,source,"History of Weymouth, Massachusetts (1923)",data/sources.json
+hobart-abington-1839,source,"Hobart, Historical Sketch of Abington (1839)",data/sources.json
+hobart-benjamin-history-abington-1866,source,"Hobart, History of the Town of Abington (1866)",data/sources.json
+holinshed-chronicles-1577,source,"Holinshed, Chronicles of England, Scotlande, and Irelande (1577) -- laste volume",data/sources.json
+tag-10-70,source,"Holman, Grissell of the Many Marriages",data/sources.json
+history-of-parliament-online-gurney-1386-1421,source,HoP Online -- Gurney John d.1408,data/sources.json
+norwich-records-hudson-tingey-vol2,source,"Hudson and Tingey -- Records of the City of Norwich, vol. ii (1910)",data/sources.json
+hull-thesis-english-way-of-war-1360-1399,source,"Hull PhD thesis — The English Way of War, 1360–1399",data/sources.json
+arber-stationers-bsoc-petition-1646-hunscott,source,"Hunscott - Humble Petition and Information, 1646 (Wing H3728)",data/sources.json
+hurlock-oldfield-crusading-pilgrimage-norman-2015,source,"Hurlock and Oldfield, Crusading and Pilgrimage in the Norman World (2015)",data/sources.json
+rye-index-rerum-norfolk-antiquities-1910,source,"Index Rerum to Norfolk Antiquities (Rye, 1910)",data/sources.json
+keates-rohan-domesday,source,"Keates-Rohan, Domesday People",data/sources.json
+laslett-world-we-have-lost-1965,source,"Laslett, World We Have Lost",data/sources.json
+les-olim,source,Les Olim (French legal records),data/sources.json
+fairhaven-lester-obituary,source,"Lester Hayes Gurney Obituary (FairHaven, 2025)",data/sources.json
+liber-niger,source,Liber Niger Scaccarii,data/sources.json
+lma-st-augustine-watling-register-candidate-d-images,source,LMA St Augustine Watling Street register - Candidate D images,data/sources.json
+lma-st-giles-cripplegate-register-john-grone-1630,source,LMA St Giles Cripplegate - John Grone baptism (1630),data/sources.json
+lma-st-magnus-martyr-register-candidate-d-images,source,LMA St Magnus the Martyr register - Candidate D images,data/sources.json
+lma-st-mary-magdalen-old-fish-street-john-grene-1634,source,LMA St Mary Magdalen Old Fish Street - John Grene baptism (1634),data/sources.json
+lma-st-swithin-london-stone-register-john-grine-1640,source,LMA St Swithin London Stone - John Grine marriage (1640/1),data/sources.json
+bho-london-hearth-tax-merry-2010,source,London Hearth Tax project database (Merry 2010),data/sources.json
+loyd-origins,source,"Loyd, Origins of Some Anglo-Norman Families",data/sources.json
+delisle-critique-of-dg,source,Léopold Delisle's critique of Daniel Gurney,data/sources.json
+macris-mhc,source,MACRIS - Massachusetts Cultural Resource Information System,data/sources.json
+massachusetts-bay-records-v1-1853,source,"Massachusetts Bay Records, vol. 1",data/sources.json
+may-henry-gurney-spenser-2005,source,"May, Henry Gurney reads Spenser",data/sources.json
+medievalgenealogy-gerbod-gundred-documents,source,MedievalGenealogy.org.uk - Gerbod and Gundred documents,data/sources.json
+medievalgenealogy-cp25-1-21-112-stone-hartwell,source,"medievalgenealogy.org.uk — CP 25/1/21/112 fine, Stone and Hartwell, Bucks",data/sources.json
+mendon-proprietors-records-1899,source,Mendon Proprietors' Records (1899),data/sources.json
+suffolk-visitations-metcalfe-1882,source,"Metcalfe, Visitations of Suffolk",data/sources.json
+mhs-winthrop-papers-newgate-deed-1639,source,"MHS Winthrop Papers, Newgate deed",data/sources.json
+middleborough-marriages-by-mens-name,source,Middleborough marriages by men's name,data/sources.json
+military-communities-knolles-1370,source,Military Communities in Late Medieval England — Knolles 1370 chapter,data/sources.json
+morant-essex,source,"Morant, History of Essex",data/sources.json
+mosaic-dvd-hugue-de-gournay,source,Mosaic DVD - Hugue de Gournay,data/sources.json
+munsell-history-queens-flushing-1882,source,"Munsell, History of Queens County - Flushing",data/sources.json
+nash-historical-sketch-weymouth-1885,source,"Nash, Historical Sketch of Weymouth (1885)",data/sources.json
+national-churches-trust-harpley-st-lawrence,source,National Churches Trust - Harpley St Lawrence,data/sources.json
+nehgr-12-suffolk-wills-1858,source,NEHGR 12 - Suffolk Wills - John Gurney probate abstract,data/sources.json
+nehgr-49-genealogical-gleanings-john-lewis,source,"NEHGR 49 - Genealogical Gleanings, John Lewis will",data/sources.json
+nehgr-62-94,source,NEHGR 62:94,data/sources.json
+nj-marriage-index-1901-2016,source,"New Jersey Marriage Index, 1901-2016",data/sources.json
+nyclipper-1895-08-patchogue-fauntleroy,source,"New York Clipper, August 1895 — Patchogue Lord Fauntleroy notice",data/sources.json
+nher-mnf9108-old-hall-great-ellingham,source,"NHER MNF9108 — Old Hall, Great Ellingham",data/sources.json
+nher-great-ellingham-parish-summary,source,NHER Parish Summary — Great Ellingham,data/sources.json
+nro-ncc-wills-registers,source,"Norfolk Record Office, NCC Will Registers",data/sources.json
+norman-geo-archives76-commune-dossiers-2026,source,Norman geo overlay - Archives 76 commune dossiers,data/sources.json
+norman-geo-controlling-sources-2026,source,Norman geo overlay - controlling online sources,data/sources.json
+norman-geo-locator-criquiers-torchy-2026,source,Norman geo overlay - Criquiers and Torchy locators,data/sources.json
+norman-geo-institutional-localities-2026,source,Norman geo overlay - institutional locality pages,data/sources.json
+norman-geo-local-history-tourism-2026,source,Norman geo overlay - local history and tourism pages,data/sources.json
+norman-geo-locator-saint-quentin-hericourt-2026,source,Norman geo overlay - Saint-Quentin and Hericourt locators,data/sources.json
+norman-geo-locator-southern-boundary-2026,source,Norman geo overlay - southern boundary locators,data/sources.json
+normonde-hugues-1er-de-gournay,source,Normonde authority file: Hugues Ier de Gournay,data/sources.json
+nps-adams-nhp,source,NPS Adams National Historical Park CLR,data/sources.json
+nro-pd-12-1,source,"NRO PD 12/1 (St Martin at Palace, Norwich)",data/sources.json
+nro-pd-86-41,source,NRO PD 86/41 (East Dereham register),data/sources.json
+nrp-recherches-possessions-1852,source,"NRP de la Mairie, Recherches…Possessions des Sires Normands (1852)",data/sources.json
+ny-state-military-museum-127th-infantry,source,NYS Military Museum - 127th Infantry Regiment,data/sources.json
+odnb-matthew-gournay,source,"ODNB / DNB — Sir Matthew de Gournay (d. 1406), soldier",data/sources.json
+opendomesday-org,source,Open Domesday,data/sources.json
+openedition-abbayes-seigneurs-normands-annexe,source,"OpenEdition, abbeys founded by Norman lords",data/sources.json
+orderic-vitalis-chibnall-vol-5,source,"Orderic Vitalis, Historia Aecclesiastica, ed./trans. Chibnall, vol. 5 (Books 9-10)",data/sources.json
+orderic-vitalis-chibnall-vol-6,source,"Orderic Vitalis, Historia Aecclesiastica, ed./trans. Chibnall, vol. 6 (Books 11-13)",data/sources.json
+ormerod-strigulensia-1861,source,"Ormerod, Strigulensia (1861)",data/sources.json
+ota-corpus-christi-1619,source,OTA - Corpus Christi (1619),data/sources.json
+ota-romish-chaine-1624,source,OTA - The Romish chaine (1624),data/sources.json
+painchault-gaillefontaine-2012,source,"Painchault, Gaillefontaine fortification (PURH 2012)",data/sources.json
+palgrave-history-england-normandy-1864,source,"Palgrave, History of England and Normandy",data/sources.json
+palmer-perlustration-yarmouth-1872,source,"Palmer, Perlustration of Great Yarmouth (1872)",data/sources.json
+park-royal-holloway-thesis-2013,source,"Park, PhD thesis (Royal Holloway, 2013) -- crusading inheritance protection",data/sources.json
+paston-letters-gairdner,source,Paston Letters -- Gairdner edition (1904),data/sources.json
+pattou-racines-histoire-gournay-2025,source,Pattou Racines Histoire -- Gournay,data/sources.json
+pcc-rivett-rattlesden-wills,source,"PCC wills - Rivett/Ryvett of Rattlesden (1610, 1626)",data/sources.json
+pease-pennyghael,source,Pease genealogy (Pennyghael),data/sources.json
+pettigrew-collectanea-house-gournay-1871,source,"Pettigrew, On the House of Gournay",data/sources.json
+phillimore-bucks-marriages-vol1,source,"Phillimore Bucks parish registers, marriages, vol. 1",data/sources.json
+planche-conqueror-companions-1874,source,"Planche, The Conqueror and His Companions",data/sources.json
+plymouth-probate-john-harden-1751-will,source,Plymouth Probate - John Harden will (1751),data/sources.json
+porter-genealogy-richard-porter-1878,source,"Porter, Genealogy of the Descendants of Richard Porter (1878)",data/sources.json
+potin-recherches-ville-gournay-1842,source,"Potin de la Mairie, Recherches…ville de Gournay (1842)",data/sources.json
+potts-monastic-revival-regional-identity-1997,source,"Potts, Monastic Revival and Regional Identity (1997)",data/sources.json
+powell-historie-cambria-1584,source,Powell -- Historie of Cambria (1584),data/sources.json
+gurney-drogo-pilgrimage-research-2026,source,Project research handoff -- Gerard de Gournay Drogo/pilgrimage/death window (2026),data/sources.json
+projet-conde-conquets-hue-gournay,source,"Projet ConDE, Conquets Hue de Gournay custom",data/sources.json
+protestation-returns,source,Protestation Returns 1641–42,data/sources.json
+gournay-supp-reconstructed,source,"Reconstructed Loose Supplement (Bernau, 1858)",data/sources.json
+recueil-actes-henri-ii-delisle-berger-vol-1,source,"Recueil des actes de Henri II, Delisle/Berger, vol. 1 (1916)",data/sources.json
+recueil-actes-henri-ii-delisle-berger-vol-2,source,"Recueil des actes de Henri II, Delisle/Berger, vol. 2 (1920)",data/sources.json
+rhgf-vol-15-1878,source,"Recueil des historiens des Gaules et de la France, tome 15 (1878 ed.)",data/sources.json
+regesta-rano,source,Regesta Regum Anglo-Normannorum (Bates),data/sources.json
+richardson-sgm-soc-genealogy-medieval-2002,source,Richardson SGM 2002 -- Walter not son of Gerard,data/sources.json
+rigler-genealogy-notes-c1980,source,"Rigler genealogy notes (worksheets, c. 1980)",data/sources.json
+rigler-gurney-family-aaron-zuinglius-1994,source,"Rigler, Gurney family from Aaron to Zuinglius",data/sources.json
+rollco-drapers-gurney-old-change-cluster,source,ROLLCO Drapers - Robert and John Gurney Old Change cluster,data/sources.json
+rollco-stationers-gurney-1613-1626,source,ROLLCO Stationers - John Gurney 1613 binding and Robert Gurney 1616-1626 apprenticeship sequence,data/sources.json
+rollco-stationers-hunscott-cluster,source,ROLLCO Stationers - Joseph Hunscott cluster,data/sources.json
+rudder-gloucestershire-1779,source,"Rudder, A New History of Gloucestershire (1779)",data/sources.json
+rye-norfolk-antiquarian,source,"Rye, Norfolk Antiquarian — Gurneys of Norwich",data/sources.json
+rye-feet-of-fines-norfolk,source,"Rye, Short Calendar of the Feet of Fines for Norfolk (Parts I-II)",data/sources.json
+rye-visitacion-norffolk-1891,source,"Rye, Visitacion of Norffolk (1891)",data/sources.json
+sanhs-excursions-1907-apocryphal-book-dan,source,SANHS Excursions: Apocryphal Book of Dan note,data/sources.json
+savage-dictionary,source,"Savage, Genealogical Dictionary",data/sources.json
+ukda-9263-mt-apprentices-scott-2024,source,"Scott, Merchant Taylors' Apprentices 1583-1800 (UKDA-SN-9263)",data/sources.json
+unicaen-scripta-selected-gournay-acts,source,SCRIPTA selected Gournay acts,data/sources.json
+husting-wills-london-vol2-sharpe,source,Sharpe -- Calendar of Wills Court of Husting London Part II (1890),data/sources.json
+shedd-daniel-shed-genealogy-1920,source,"Shedd, Daniel Shed Genealogy (1920)",data/sources.json
+medievalsoldier-database,source,Soldier in Later Medieval England Online Database,data/sources.json
+spr-case-338-john-gurney-probate-1663,source,SPR Case #338 - John Gurney probate inventory,data/sources.json
+sprague-braintree,source,"Sprague, Genealogies of Braintree",data/sources.json
+st-benet-fink-register,source,"St Benet Fink register, London",data/sources.json
+lma-st-giles-cripplegate-register-p69-gis-a-002,source,"St Giles Cripplegate, parish register (LMA P69/GIS/A/002/MS06419/003)",data/sources.json
+st-mary-maldon-register,source,St Mary's Maldon register,data/sources.json
+lma-st-mary-harrow-register-dro003,source,"St Mary, Harrow on the Hill, parish register (LMA DRO/003)",data/sources.json
+stirnet-gurney-pedigree,source,Stirnet -- Pedigree of the Gournays of Norfolk,data/sources.json
+suffolk-deeds-liber-iv-1888,source,"Suffolk Deeds, Liber IV (1888)",data/sources.json
+suffolk-probate-index-v2-1895,source,"Suffolk Probate Index, vol. 2",data/sources.json
+suger-vie-louis-le-gros,source,"Suger, Vie de Louis le Gros",data/sources.json
+gournay-en-bray-1844,source,Supplément aux recherches historiques sur Gournay-en-Bray (1844),data/sources.json
+swann-chethams-library-ms-a4-15-2016,source,"Swann, Chetham's Library MS A.4.15",data/sources.json
+gascon-rolls-project,source,The Gascon Rolls Project (1317-1468),data/sources.json
+neverending-hobby-john-gurney-us-1636,source,"The Neverending Hobby - John Gurney, US 1636",data/sources.json
+folger-romish-chaine-1624,source,The Romish chaine (1624) - Internet Archive / Folger,data/sources.json
+thompson-mobility-migration-1994,source,"Thompson, Mobility and Migration (1994)",data/sources.json
+thoms-anecdotes-traditions-1839,source,"Thoms, Anecdotes and Traditions",data/sources.json
+tna-a2a-705-349-aylesbury-1483-grant,source,"TNA A2A 705:349/12946/495200 — Aylesbury grant, 4 April 1483",data/sources.json
+tna-dl-42-2-33-5-richard-i-canville-nicholaa-de-la-haye,source,TNA DL 42/2/33/5 — Richard I grant to Gerard de Canville and Nicholaa de la Haye,data/sources.json
+tna-e179-1661-london-poll-tax-deferred,source,"TNA E179 - 1661 Free and Voluntary Present, City of London (deferred image-pull target)",data/sources.json
+tna-pcc-gurney-elimination-corpus,source,"TNA PCC Gurney probate corpus (1577-1682, elimination set)",data/sources.json
+tna-pcc-probate,source,TNA PCC Probate Records,data/sources.json
+torrey-new-england-marriages-prior-1700,source,"Torrey, New England Marriages Prior to 1700",data/sources.json
+folger-second-commandment-1639,source,Toward the Vindication of the Second Commandment (1639/1661) - Internet Archive / Folger,data/sources.json
+trevor-john-erpingham-1970,source,"Trevor John, 'Sir Thomas Erpingham, East Anglian Society and the Dynastic Revolution of 1399' (1970)",data/sources.json
+tyrwhitt-canterbury-tales-1798-v2,source,"Tyrwhitt ed., Canterbury Tales of Chaucer, vol. ii Notes (1798)",data/sources.json
+us-census-1940,source,"U.S. Federal Census, 1940",data/sources.json
+us-public-records-1970-2009,source,"U.S. Public Records, 1970-2009",data/sources.json
+vch-bucks-v3,source,VCH Bucks v3 (Stewkley manors),data/sources.json
+visitations-norfolk-harleian-32,source,Visitations of Norfolk 1563/1589/1613 (Harleian Soc. 32),data/sources.json
+wace-roman-de-rou,source,"Wace, Roman de Rou",data/sources.json
+walker-lancastrian-affinity-1361-1399,source,"Walker, The Lancastrian Affinity 1361–1399",data/sources.json
+wansey-medieval-genealogy-1925,source,"Wansey, ancient family of the Wanseys",data/sources.json
+wikipedia-en-hamelin-de-warenne,source,Wikipedia -- Hamelin de Warenne,data/sources.json
+wikipedia-fr-famille-de-gournay,source,Wikipedia FR -- Famille de Gournay,data/sources.json
+wikitree-newgate-14-horningsheath,source,"WikiTree Newgate-14 — John Newgate of Horningsheath, Suffolk",data/sources.json
+william-of-poitou-gesta-guillelmi,source,"William of Poitiers, Gesta Guillelmi",data/sources.json
+william-of-tyre-historia,source,"William of Tyre, Historia Rerum in Partibus Transmarinis Gestarum",data/sources.json
+winthrop-history-new-england-addenda-1636,source,"Winthrop/Savage, History of New England Addenda",data/sources.json
