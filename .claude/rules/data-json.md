@@ -17,6 +17,20 @@ Human-facing overview:
 - `places_detail.json` is supplemental.
 - `sources.json` is the source registry.
 
+## Generated ID indexes
+Generated lookup indexes live in `data/indexes/`:
+
+- `all-ids.csv` — compact locator for ancestor, related, era, place, and source IDs
+- `ancestor-ids.csv` — `recordId` lookup for `data/ancestors.json`
+- `place-ids.csv` — `placeId` lookup for `data/places.json`
+- `source-ids.csv` — source-key lookup for `data/sources.json`
+
+Use these indexes for ID discovery before opening large canonical JSON files. Search the relevant index first, then open only the canonical record or line range needed for the task.
+
+Do not edit generated index files by hand. Use `.\.venv\Scripts\python.exe tools\generate_id_indexes.py --check` for a lightweight freshness check. Use `.\.venv\Scripts\python.exe tools\generate_id_indexes.py --write` to run integrity validations and regenerate the index files.
+
+The indexes are locators only. Canonical facts remain in `data/*.json`; generated site data under `site/website/_data/` remains presentation output.
+
 ## Edit discipline
 - Make the smallest safe edit that solves the task.
 - Do not change schema casually.

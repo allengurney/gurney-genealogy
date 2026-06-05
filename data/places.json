@@ -2581,8 +2581,12 @@
     ],
     "ancestorLinks": [
       {
-        "recordId": "collateral-g32-senior-gournay-baron-line",
-        "role": "quarter-fief held until 15c sale to Potin family"
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "role": "senior-baron-line quarter-fief context"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
+        "role": "senior-baron-line quarter-fief context before later 15c sale"
       }
     ],
     "filename": "cottentray-avesnes-en-bray.md"

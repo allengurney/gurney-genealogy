@@ -3222,6 +3222,69 @@
     "ancestorCount": 2
   },
   {
+    "placeId": "place-cottentray-avesnes-en-bray-normandy-france",
+    "name": "Cottentray (Avesnes-en-Bray), Normandy, France",
+    "title": "Cottentray (hamlet of Avesnes-en-Bray)",
+    "seoTitle": "Cottentray (hamlet of Avesnes-en-Bray)",
+    "siteName": "Cottentray (hamlet of Avesnes-en-Bray)",
+    "streetAddress": "",
+    "region": "Normandy, France",
+    "regionGroup": "europe",
+    "aliases": [
+      "Cottentray",
+      "Cottentray hamlet",
+      "Avesnes-en-Bray Cottentray quarter-fief",
+      "Clos des Anglais"
+    ],
+    "shortDescription": "Hamlet in Avesnes-en-Bray; medieval quarter-fief of Gournay surviving to 15th century",
+    "longDescription": "Hamlet in the modern commune of Avesnes-en-Bray, east of Gournay-en-Bray. Decorde 1861 records that until the fifteenth century the seigneury of Cottentray was held in parts and that one quarter-fief descended from the senior Gournay barons before Marie de Bourbon sold it to the Potin family. In 1682 labourers turned up eight to ten stone tombs in a Cottentray field known locally as the Clos des Anglais; no inscription survived.",
+    "placeType": "hamlet / fief fragment",
+    "extantStatus": "hamlet / fields extant; tombs no longer locatable",
+    "extantStatusDescription": "The hamlet of Cottentray is preserved within Avesnes-en-Bray as fields and woods east of Gournay-en-Bray. The 1682 tomb discovery field has no surviving marker. The medieval Gournay quarter-fief is no longer a distinct holding; the Potin family of the fifteenth century later succeeded to the share.",
+    "coordinate": {
+      "lat": 49.4697,
+      "lng": 1.6733
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "Same coordinate as the existing v5 overlay anchor anchor_avesnes_en_bray_gournay_dependency_context",
+    "roles": [
+      "Gournay quarter-fief (medieval through 15c)",
+      "post-medieval Anglo-Norman tomb-discovery site",
+      "western Gournay dependency context"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://www.archivesdepartementales76.net/archive/catalogue/communes76/avesnes-en-bray/n%3A168",
+    "siteLabel": "Archives départementales 76 — Avesnes-en-Bray commune dossier",
+    "researchUrl": "",
+    "researchSlug": "",
+    "ancestorLinks": [
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay IV (Senior Baron Line)",
+        "dates": "c. 1098 — d. 1180",
+        "role": "senior-baron-line quarter-fief context",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay V (Senior Baron Line)",
+        "dates": "c. 1148 — d. 25 Oct. 1214, Rouen",
+        "role": "senior-baron-line quarter-fief context before later 15c sale",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 2
+  },
+  {
     "placeId": "place-dexter-michigan-usa",
     "name": "Dexter, Michigan, USA",
     "title": "Dexter, Michigan, USA",
@@ -5729,45 +5792,5 @@
       }
     ],
     "ancestorCount": 1
-  },
-  {
-    "placeId": "place-cottentray-avesnes-en-bray-normandy-france",
-    "name": "Cottentray (Avesnes-en-Bray), Normandy, France",
-    "title": "Cottentray (hamlet of Avesnes-en-Bray)",
-    "seoTitle": "Cottentray (hamlet of Avesnes-en-Bray)",
-    "siteName": "Cottentray (hamlet of Avesnes-en-Bray)",
-    "streetAddress": "",
-    "region": "Normandy, France",
-    "regionGroup": "europe",
-    "aliases": [
-      "Cottentray",
-      "Cottentray hamlet",
-      "Avesnes-en-Bray Cottentray quarter-fief",
-      "Clos des Anglais"
-    ],
-    "shortDescription": "Hamlet in Avesnes-en-Bray; medieval quarter-fief of Gournay surviving to 15th century",
-    "longDescription": "Hamlet in the modern commune of Avesnes-en-Bray, east of Gournay-en-Bray. Decorde 1861 records that until the fifteenth century the seigneury of Cottentray was held in parts and that one quarter-fief descended from the senior Gournay barons before Marie de Bourbon sold it to the Potin family. In 1682 labourers turned up eight to ten stone tombs in a Cottentray field known locally as the Clos des Anglais; no inscription survived.",
-    "placeType": "hamlet / fief fragment",
-    "extantStatus": "hamlet / fields extant; tombs no longer locatable",
-    "extantStatusDescription": "The hamlet of Cottentray is preserved within Avesnes-en-Bray as fields and woods east of Gournay-en-Bray. The 1682 tomb discovery field has no surviving marker. The medieval Gournay quarter-fief is no longer a distinct holding; the Potin family of the fifteenth century later succeeded to the share.",
-    "coordinate": {
-      "lat": 49.4697,
-      "lng": 1.6733
-    },
-    "coordinatePrecision": "medium",
-    "coordinateBasis": "Same coordinate as the existing v5 overlay anchor anchor_avesnes_en_bray_gournay_dependency_context",
-    "roles": [
-      "Gournay quarter-fief (medieval through 15c)",
-      "post-medieval Anglo-Norman tomb-discovery site",
-      "western Gournay dependency context"
-    ],
-    "imageUrl": "",
-    "imageTitle": "",
-    "siteUrl": "https://www.archivesdepartementales76.net/archive/catalogue/communes76/avesnes-en-bray/n%3A168",
-    "siteLabel": "Archives départementales 76 — Avesnes-en-Bray commune dossier",
-    "researchUrl": "",
-    "researchSlug": "",
-    "ancestorLinks": [],
-    "ancestorCount": 0
   }
 ]
