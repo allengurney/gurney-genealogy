@@ -179,6 +179,12 @@ site/**/_site/
 site/**/dist/
 _site/
 
+# Accidentally-rendered temp/preview HTML written to the repo root
+# (mangled OS temp paths leaked from local site previews). Real pages
+# live under site/, never at the repo root.
+/Usersallen*.html
+/*AppDataLocalTemp*
+
 # Editor / OS artifacts
 .DS_Store
 Thumbs.db

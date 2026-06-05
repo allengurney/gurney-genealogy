@@ -179,6 +179,14 @@ OneDrive is mandatory for the user's recovery/audit workflow. Git internals stay
 
 For health checks, branch-and-PR publish recipes, and Windows credential failure modes, see `.claude/rules/git-onedrive-codex.md` and `.claude/skills/connector-publish/SKILL.md`.
 
+### Shell and tooling (avoid known friction)
+
+- **Pick the shell deliberately.** Use the Bash tool for POSIX commands, the PowerShell tool for Windows cmdlets — don't mix them (running `Get-Content` or `grep` in the wrong tool is a recurring time-sink). The Bash tool runs an MSYS shell (`/usr/bin/bash`, with `/mingw64` on PATH).
+- **Python:** `python` (3.14) is on PATH, but **bare `pip` is not** — always invoke `python -m pip`. Installs persist to the user interpreter (`%LOCALAPPDATA%\Python\pythoncore-3.14-64`). The pinned working set is `tools/requirements.txt` (`python -m pip install -r tools/requirements.txt`).
+- **Pre-installed Python libraries:** Pillow, PyMuPDF (`fitz`), pypdf, pdfplumber (+ pdfminer.six), pypdfium2, lxml, beautifulsoup4, requests, openpyxl, cryptography. Add others with `python -m pip install <pkg>`.
+- **PDF / image command-line tools:** `pdftotext` is available; the rest of poppler (`pdfinfo`, `pdftoppm`, `pdfimages`), Tesseract OCR, ImageMagick, and Ghostscript are **not** installed. To render PDF pages to images, use PyMuPDF or pypdfium2 (neither needs poppler). Note: `convert` on PATH is the Windows disk utility, **not** ImageMagick.
+- **No local OCR.** If a scanned source needs OCR, flag it rather than assuming it can run locally — Tesseract is not installed (it can be added via `winget install UB-Mannheim.TesseractOCR`).
+
 ---
 
 ## 11. Tone
