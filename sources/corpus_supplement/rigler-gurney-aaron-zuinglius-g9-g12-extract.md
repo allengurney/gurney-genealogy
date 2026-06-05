@@ -76,6 +76,28 @@ Children:
 - Jane.
 - + Amos, m. Ruth Gilbert. [G8 in the direct line]
 
+## NATHAN GURNEY-4 (Zachariah-3, Richard-2) (p. 182) — collateral; foster father of Benjamin-5 (G9)
+
+NATHAN GURNEY-4 (Zachariah-3, Richard-2) was b. 15 Oct. 1702 Weymouth, Norfolk Co. MA, s/o Zachariah & Mary (Benson) Gurney. (Weymouth VR) Hobart's "History of Abington" indicates that he was the son of John, but that is incorrect. The error probably arose from confused wording on some transactions regarding the estate of John Gurney-3 of Little Comfort. However, Weymouth Vital Records, Cyrus Nash (G-III:87, G-IV:8), & the Anna Gurney papers conclusively prove that Nathan was the son of Zachariah Gurney.
+
+He moved from Weymouth to Abington, Plymouth Co. MA & apparently the church called Nathan to acknowledge the sin of fornication, subsequently he & Sarah Harden were m. 12 May 1725 in Abington & daughter Martha was born not quite 3 months later. Sarah was b. 9 Apr. 1707 in Abington, d/o John and Mary (Littlefield) Harden, & sister of Jane Harden. (Abington VR)
+
+On 20 Jan. 1720 he & his brother Joseph were 2 of 6 men who bought land in Abington, agreed in 1730 to build a saw mill and dam, & sold it in 1748. (Plym. Deeds 39:92, 31:194, 39:262, 38:223) On 14 Feb. 1727 he bought for £25 from his cousin David Gurney of Easton MA, the 1/6 part of the land or inheritance formerly belonging to David's deceased father, John-3 Gurney of Little Comfort. (Plym. Deed 37:85) He may possibly have bought an additional 1/6 share from his cousin John Gurney of CT. On 25 June 1733 he purchased for £428 a tract of about 107 acres from John Stowell on which he eventually settled; the tract contained part woodland, part swamp, and part meadow. (Plym. Deed 52:90) This farm adjoined that of his brother Joseph, near Plymouth St., now Whitman MA. He was called a housewright. It was from Nathan and his brothers, Zachariah & Joseph, that the Gurneys of Old Abington and Bridgewater descend.
+
+He died 17 Apr. 1786 and Sarah died 1788, both in Abington MA. (Abington VR)
+
+Children: (b. Abington MA VR)
+- Martha, b. 24 July 1725, m. 4 Sept. 1745 Second Church of Christ, Weymouth MA, Zachariah Shaw (1722–1791), s/o Zachariah & Phebe (Pratt) Shaw.
+- Rebecca, b. 4 Oct. 1727, m. 9 Jan. 1745/6 Abington, Joseph Tirrell.
+- + Lemuel, b. 11 July 1730, m. Rebecca Derby.
+- + Elijah, b. 15 May 1732 (Weymouth VR), m. 1. Mary Copeland, 2. Widow House.
+- + Noah, b. 4 May 1735, m. Ruth Pool.
+- + Nathan, b. 22 Nov. 1739, m. Mary "Molly" Palmer, sister of Ruth.
+- + Silas, b. 14 June 1743, m. Ruth Palmer, sister of Molly.
+- Sarah, b. 14 Mar. 1745/6, m. 27 Oct. 1763 John Tirrell, Jr., d. 1816.
+- + Jacob, b. 13 Mar. 1748, m. Elizabeth Keene (not Reese).
+- + John, b. 23 May 1751, m. Sarah Norton.
+
 ## The "second Benjamin" (collateral) — for the two-Benjamin disambiguation
 
 BENJAMIN GURNEY-5 (Benjamin-4,3, Richard-2) — the half-brother by Sarah Morse — was b.c. 1743–1745, Middleboro, Plymouth Co. MA, s/o Benjamin & Sarah (Morse) Gurney. Published 11 Aug. & m. 23 Aug. 1781 by Rev. Asa Hunt, Thankful Ellis (b. 1 Apr., bpt. 26 July 1761 Middleboro, d/o Mathias-5 & Rachel (Tupper) Ellis; NEHGR 121:40). He served in the War of the Revolution, Private, with several enlistments (Mass. Soldiers & Sailors; DAR Patriot Index 1:291); his pension file (W-14837) gives his age as 73 in 1818, and his widow Thankful received a pension. A yeoman of Rochester for more than 40 years; on 18 Sept. 1770 some 16 acres were laid out to Benjamin Gurney (father), Levi Gurney, Benjamin Gurney 2nd, & Lemuel Gurney (brothers). He wrote his will 16 Dec. 1826, proved 11 Aug. 1828, naming children Samuel, Heman, Hannah Briggs, Nancy Hathaway, Rachel White, & Thankful Tabor (Plym. Prob. 66:215). He d. 4 July 1828 in his 85th year; Thankful d. 19 June 1845 in her 84th year, bur. Pierceville (now Woodside) Cem., Rochester.

@@ -182,6 +182,10 @@
       {
         "recordId": "ancestor-g11-benjamin-gurney",
         "role": "individual geography"
+      },
+      {
+        "recordId": "collateral-g9-nathan-gurney-abington",
+        "role": "individual geography"
       }
     ],
     "filename": "abington-ma.md"
@@ -223,6 +227,10 @@
       {
         "recordId": "ancestor-g11-benjamin-gurney",
         "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g9-nathan-gurney-abington",
+        "role": "individual geography"
       }
     ],
     "filename": "abington-whitman-line-ma.md"
@@ -913,6 +921,14 @@
       {
         "recordId": "ancestor-g32-gerard-de-gournay",
         "role": "lordship / individual geography"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
+        "role": "lordship / individual geography"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "role": "lordship / individual geography"
       }
     ],
     "filename": "gournay-en-bray.md"
@@ -1182,6 +1198,10 @@
       {
         "recordId": "ancestor-g18-william-gurney-v",
         "role": "landholding / property reference"
+      },
+      {
+        "recordId": "collateral-g14-edmund-gurney-divine",
+        "role": "individual geography"
       }
     ],
     "filename": "harpley.md"
@@ -2728,5 +2748,78 @@
       }
     ],
     "filename": "g33-bec-gournay-endowment-cluster.md"
+  },
+  {
+    "placeId": "place-wellesley-massachusetts-usa",
+    "name": "Wellesley, Massachusetts, USA",
+    "aliases": [
+      "Wellesley, MA",
+      "Wellesley Hills"
+    ],
+    "shortDescription": "Family residence site",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 42.2968,
+      "lng": -71.2924
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "residence"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g3-lester-sawyer-gurney-iii",
+        "role": "residence"
+      }
+    ],
+    "filename": "wellesley-ma.md"
+  },
+  {
+    "placeId": "place-chatham-new-jersey-usa",
+    "name": "Chatham, New Jersey, USA",
+    "aliases": [
+      "Chatham, NJ"
+    ],
+    "shortDescription": "Family residence site",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 40.7407,
+      "lng": -74.3835
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "residence"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g3-lester-sawyer-gurney-iii",
+        "role": "residence"
+      }
+    ],
+    "filename": "chatham-nj.md"
+  },
+  {
+    "placeId": "place-hackettstown-new-jersey-usa",
+    "name": "Hackettstown, New Jersey, USA",
+    "aliases": [
+      "Hackettstown, NJ"
+    ],
+    "shortDescription": "Family residence site",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 40.854,
+      "lng": -74.829
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "residence"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g3-lester-sawyer-gurney-iii",
+        "role": "residence"
+      }
+    ],
+    "filename": "hackettstown-nj.md"
   }
 ]

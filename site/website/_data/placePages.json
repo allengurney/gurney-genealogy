@@ -585,9 +585,20 @@
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
         "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g9-nathan-gurney-abington",
+        "type": "related",
+        "gen": "G9",
+        "name": "Nathan Gurney (foster father of G9)",
+        "dates": "c. 1700 — after 1751",
+        "role": "individual geography",
+        "lineageStatus": "Related - foster father of G9 Benjamin Gurney; first cousin of G10 Benjamin Gurney",
+        "displayLineageStatus": "Related - foster father of G9 Benjamin Gurney; first cousin of G10 Benjamin Gurney",
+        "url": "/fact-sheets/g09-nathan-gurney-related-fact-sheet.html"
       }
     ],
-    "ancestorCount": 3,
+    "ancestorCount": 4,
     "slug": "abington-ma",
     "url": "/research/places/abington-ma.html",
     "seoDescription": "Old Abington vital and church-record locality where Benjamin, son of Jean, was baptized in the First Church of Abington record stream identified as C.R.1.",
@@ -1443,6 +1454,58 @@
     "seoDescription": "Charleston SC Linked to G6 Brigadier General William Gurney. Research context: individual geography. Region: South Carolina, USA.",
     "researchTitle": "Charleston, South Carolina, USA",
     "researchMarkdown": "# Charleston, South Carolina, USA"
+  },
+  {
+    "placeId": "place-chatham-new-jersey-usa",
+    "name": "Chatham, New Jersey, USA",
+    "title": "Chatham, New Jersey, USA",
+    "seoTitle": "Chatham, New Jersey, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "New Jersey, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Chatham, NJ"
+    ],
+    "shortDescription": "Family residence site",
+    "longDescription": "Morris County home of Lester Sawyer Gurney III (G3); his first wife Edith died here in 1963, public records place him at Chatham from 1975 to 1999, and he married Elizabeth Stettler Walker here in 1995.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 40.7407,
+      "lng": -74.3835
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "residence"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/chatham-nj.html",
+    "researchSlug": "chatham-nj",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g3-lester-sawyer-gurney-iii",
+        "type": "ancestor",
+        "gen": "G3",
+        "name": "Lester Sawyer Gurney III",
+        "dates": "1923-2011",
+        "role": "residence",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g03-lester-sawyer-gurney-iii-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1,
+    "slug": "chatham-nj",
+    "url": "/research/places/chatham-nj.html",
+    "seoDescription": "Morris County home of Lester Sawyer Gurney III (G3); his first wife Edith died here in 1963, public records place him at Chatham from 1975 to 1999, and he.",
+    "researchTitle": "Chatham, New Jersey, USA",
+    "researchMarkdown": "# Chatham, New Jersey, USA"
   },
   {
     "placeId": "place-collegiale-saint-hildevert-gournay-en-bray-normandy-france",
@@ -2681,9 +2744,31 @@
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
         "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay V (Senior Baron Line)",
+        "dates": "c. 1148 — d. 25 Oct. 1214, Rouen",
+        "role": "lordship / individual geography",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay IV (Senior Baron Line)",
+        "dates": "c. 1098 — d. 1180",
+        "role": "lordship / individual geography",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
       }
     ],
-    "ancestorCount": 6,
+    "ancestorCount": 8,
     "slug": "gournay-en-bray",
     "url": "/research/places/gournay-en-bray.html",
     "seoDescription": "Ancestral fortress town, seigneurial honor, and namesake of the Gournay family in the Pays de Bray. This record represents the town and lordship as a whole, not.",
@@ -3437,14 +3522,77 @@
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
         "url": "/fact-sheets/g18-william-gurney-v-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g14-edmund-gurney-divine",
+        "type": "related",
+        "gen": "G14",
+        "name": "Edmund Gurney (Puritan Divine)",
+        "dates": "1577-1648",
+        "role": "individual geography",
+        "lineageStatus": "Related - brother of G14 Francis Gurney",
+        "displayLineageStatus": "Related - brother of G14 Francis Gurney",
+        "url": "/fact-sheets/g14-edmund-gurney-divine-related-fact-sheet.html"
       }
     ],
-    "ancestorCount": 20,
+    "ancestorCount": 21,
     "slug": "harpley",
     "url": "/research/places/harpley.html",
     "seoDescription": "Harpley Manor (Harpley Hall), a major medieval Gurney holding acquired c.1183 through Rose de Burnham and the Hameline de Warenne connection; distinct from.",
     "researchTitle": "Harpley, Norfolk",
     "researchMarkdown": "# Harpley, Norfolk\n\nVillage in north-west Norfolk, England. Coordinates: **52.8088, 0.6486**.\n\nThe ancestral Norfolk seat of the junior Gournay line from about 1183 (Matthew's marriage to Rose de Burnham) through the mid-fifteenth century. Held across roughly 250 years of Gurney lordship.\n\n## Why this place matters historically\n\nHarpley is one of the two great core manorial records of the junior Norfolk line, paired with Hardingham. If Hardingham and Swathings help show the line's earliest separateness from the senior Barons of Gournay, Harpley shows the branch's long-lived consolidation into a recognizable Norfolk gentry house. In the normalized place set, Harpley therefore deserves treatment as more than a simple manor locality: it is one of the principal territorial anchors of the family's pre-West-Barsham identity. [DG-I] [DG-II] [Blomefield]\n\nIt also has a second life in the project, because the structured layer correctly preserves a later Tudor reconnection through Henry Gurney (G15). Henry's research companion notes that he repurchased Harpley manor in 1587, and his son Edmund later served as rector there. That means Harpley is not only a medieval junior-line seat but also a place of deliberate later family recovery and memory. [Henry G15 companion]\n\n## Gurney ancestors holding here\n\n| Ancestor | Gen | Period | Notes |\n|---|---|---|---|\n| Sir Matthew de Gournay | G29 | fl. c. 1180–1220 | Acquired through marriage to Rose de Burnham c. 1183 |\n| William de Gournay II | G28 | fl. c. 1210–1250 | Lord of Harpley; attested Norfolk records 1234, 1243 |\n| Sir John de Gournay I | G27 | fl. c. 1240–1280 | Rebel baron at Lewes 1264; crusader with Edward I 1270 |\n| Sir William de Gournay III | G26 | fl. c. 1260–1300 | Sold Harpley to brother John the rector in 1294 |\n| John, Rector of Harpley | collateral | d. 1332 | Buried in the chancel of St Lawrence |\n| John de Gournay III | G25 | fl. c. 1300–1353 | Recovered Harpley as nephew-heir on Rector John's death |\n| John de Gournay IV | G24 | fl. c. 1330–1370 | Held the first recorded manorial court at Harpley in 1354 |\n| Edmund Gournay | G23 | d. 1387 | Held Harpley while establishing West Barsham via Katherine de Wauncy |\n| Thomas Gournay I | G21 | fl. c. 1408–1450 | Inherited by collateral succession |\n| Thomas Gournay II | G20 | d. 1471 | Named Harpley among his residences in his will |\n| Henry Gurney | G15 | d. 1615/16 | Repurchased Harpley manor in 1587 |\n\n## Primary-source hooks\n\n- Manorial court roll 1354 — BL Add. MSS. 8841, fol. 112.\n- 1294 conveyance deed (William III to Rector John) — earliest surviving Gournay seal with the engrailed cross. [DG-I-339–341]\n- 1332 advowson presentation in Blomefield, *History of Norfolk*, vol. viii, p. 455.\n- 1587 repurchase by Henry Gurney — needs a direct topographical or deed citation. [Henry G15 companion]\n\n## St Lawrence Church\n\nSurviving parish church on the site the Gournays patronized for generations. Medieval bench-end carvings survive, and the engrailed-cross arms appear carved in stone. John, Rector of Harpley, was buried in the chancel. The church is the natural hero-image anchor for the medieval Harpley line and also keeps the later Tudor reconnection visible because Henry Gurney's son Edmund became rector there in 1620.\n\n## Interpretive note\n\nHarpley is one of the strongest examples in the project of a place that should not be flattened into one time-slice. It has at least two major Gurney phases:\n1. the medieval junior-line core manor from Matthew through Thomas II;\n2. the later Tudor recovery and clerical reconnection through Henry G15 and Edmund.\n\n## Gurney's Manor name caution\n\nDo not conflate Harpley's medieval Gurney manor with **Gurney's Manor, Hingham**. The DiCamillo Companion's Gurney's Manor entry is explicitly for Hingham, Norfolk, gives a Hingham-area location, and describes a fully extant Grade II country house with earliest elements possibly dating to the 1570s. That site is geographically separate from Harpley and belongs in `research/places/hingham-norfolk.md`.[^dicamillo-gurneys-manor-harpley]\n\nHarpley remains a major medieval and Tudor Gurney manor, but the phrase \"Gurney's manor in Harpley\" should be used descriptively, not as a proper-name reference to the extant Hingham house.\n\n[^dicamillo-gurneys-manor-harpley]: Curt DiCamillo, [\"Gurney's Manor,\"](https://www.thedicamillo.com/house/gurneys-manor/) *The DiCamillo Companion to British & Irish Country Houses*. Source ID: `dicamillo-gurneys-manor`.\n\n### St Lawrence: advowson, chancel, and visible Gurnay memory\n\nSt Lawrence is not merely a parish backdrop for Harpley; it preserves the family as patrons, rectors, builders, and heraldic memory. Blomefield's Harpley descent places the manor in the Gurney line through Rose, daughter and heir of Reginald, who was married to Matthew de Gurney, lord in her right by about 30 Henry II. The same descent later records Edmund de Gurnay presenting to the church in 34 Edward III, John Gournay presenting in 1387, Thomas Gurnay presenting in 1443, William Gurnay in 1485, and Anthony Gurnay in 1511 before the manor was conveyed away from the family in the 1530s.[^blomefield-harpley]\n\nThe church fabric itself carries the medieval patronage story. A local church-history page states that the church was enlarged in 1294-1332 during the incumbency of John de Gurnay, that the chancel was erected by him in the early fourteenth century, and that the chancel arch is thought to have been built by John de Gurnay, Rector 1294-1332.[^ggm-harpley-church] It also records the Latin marginal inscription formerly around the priest's brass in the chancel:\n\n> \"Hic jacet corpus Joh'is de Gurnay quondam Rectoris Paronique hujus ecclesie cujus anime propicietur Deua. Amen\"[^ggm-harpley-church]\n\nThat reading is rough in the web transcription, but the substance is important: Harpley remembered John as both former rector and patron of the church. A chalice was reportedly found there in 1820.[^ggm-harpley-church]\n\nThe modern visitor description independently preserves the same core tradition: the chancel is thought to have been built by Rector John de Gurnay, who held the living 1294-1332; his family had the advowson from 1184; the Gurnays/Gournays/Gurneys held a manor at Harpley from about 1153-1401; and later family members Christopher and Edmund also served as priests there.[^explore-harpley-st-lawrence] The same page notes that the Gurney shield, argent a cross engrailed gules, could be seen on shields held by angels in the nave roof and on the second shield from the west on the south aisle parapet.[^explore-harpley-st-lawrence]\n\nThis makes Harpley a rare place where the direct line's manorial, ecclesiastical, and heraldic evidence remain mutually visible: manor descent, advowson, rectors, chancel memory, roof angels, and exterior shields all point to the same family presence. The National Churches Trust profile is briefer but corroborates the core architectural claim that the chancel was added in the early fourteenth century by John De Gurney.[^nct-harpley]\n\nThe Gazetteer of Markets and Fairs adds one more administrative detail: on 5 June 1307 Edward I granted a fair at Harpley to John de Gurnay, parson of the church of Harpley, to be held at the manor on the vigil and feast of St Lawrence.[^gazetteer-harpley]\n\n[^blomefield-harpley]: Francis Blomefield, [\"Freebridge Hundred and Half: Harpley,\"](https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459) in *An Essay Towards A Topographical History of the County of Norfolk*, vol. 8 (London, 1808), pp. 452-459, British History Online. Source ID: `blomefield-norfolk`.\n[^ggm-harpley-church]: [\"Harpley Church History,\"](https://www.ggmbenefice.uk/our-churches/harpley/harpley-church-history/) GGM Benefice, Harpley, St Lawrence. Source ID: `ggm-benefice-harpley-church-history`.\n[^explore-harpley-st-lawrence]: [\"The Church of St. Lawrence, Harpley,\"](https://www.explorewestnorfolk.co.uk/venues/the-church-of-st-lawrence-harpley-21/) Explore West Norfolk. Source ID: `explore-west-norfolk-harpley-st-lawrence`.\n[^nct-harpley]: [\"Harpley St Lawrence,\"](https://www.nationalchurchestrust.org/church/harpley-st-lawrence) National Churches Trust. Source ID: `national-churches-trust-harpley-st-lawrence`.\n[^gazetteer-harpley]: Samantha Letters et al., *Gazetteer of Markets and Fairs in England and Wales to 1516*, [Norfolk, Harpley entry](https://archives.history.ac.uk/gazetteer/norf.html#Harp). Source ID: `history-ac-uk-markets-fairs-gazetteer`.\n\n## Open items\n\n- Pull Blomefield vol. viii, pp. 452–459 for a complete manorial descent.\n- Check BL Add. MSS. 8841 for other Harpley manorial records beyond the 1354 entry.\n- Confirm whether the 1294 conveyance deed survives in NRO collections.\n- Add the 1587 repurchase citation directly into this file.\n- Audit any generated display text that says \"Gurney's manor in Harpley\" so it cannot be mistaken for the extant Gurney's Manor at Hingham.\n\n## Sources\n\n- Daniel Gurney, *Record of the House of Gournay*, Part I (1848), pp. 277–279, 339–341. [DG-I]\n- DG-II, pp. 325–363 (Harpley church chapter and later family material). [DG-II]\n- Blomefield, *History of Norfolk*, vol. viii, pp. 452–459. [Blomefield]\n- `research/people/g15-henry-gurney-fact-sheet.research.md`\n\n## Crosslinks\n\n- `research/people/g29-matthew-de-gournay-fact-sheet.research.md`\n- `research/people/g15-henry-gurney-fact-sheet.research.md`\n- `research/places/west-barsham.md`\n- `research/places/hardingham.md`\n## Armstrong 1781 — Uphall Manor 1325 deed, 1332 nephew-grant, 1297 St James's Day fair, and the rector's stone in 1781\n\nMostyn John Armstrong, *The History and Antiquities of the County of Norfolk*, vol. 5 (Norwich, 1781), Freebridge Hundred and Half entry for Harpley, supplies four specific Gurney-era details for the parish that complement the medieval-descent narrative already on this file.\n\n**1297 (25 Edw. I) royal grant of an annual fair on St James's Day.** Armstrong records that the Harpley fair was \"granted in the 25th of Edward I. to John de Gourney, lord, patron and rector of the town; and it belongs to the rector for the time being.\" The fair was held on 25 July — the feast of St James the Apostle (matching the parish church's St Lawrence dedication via the medieval Norfolk pilgrim-route economy). This is the earliest specific royal grant of an economic right at Harpley to a Gurney rector-patron.\n\n**1325-11-26 Uphall Manor deed (verbatim witness list).** Armstrong reproduces a deed dated at Harpley on 26 November 18 Edward II (1325): \"Walter son of Robert de Meleford, grants to his lord, sir John de Gourney, rector of the church of Harpley, his messuage called Uphall, with all the homages, and services of his free tenants, view of frank-pledge, free bull and boar, all perquisites of court, and all other liberties late Ralph's, son of Walter de Manors, with wards, reliefs, escheats, &c. with all the lands that Mariona, late wife of the said Walter, holds for life... the said John de Gourney paying one clove per ann.\"\n\nThe named witnesses are: Sir Henry de Walpole; Thomas de Feltham; Edmund Laurence; Oliver de Massingham; Ralph de Walsingham; William de Harplee. These are the working witnesses of the rector John's economic acquisitions in the late 1320s — a working Walpole / Feltham / Massingham / Walsingham / Harplee circle.\n\n**1332-12-21 nephew-grant to John III + Jane.** Armstrong continues: \"And the said manor, tenements, &c. were by deed of the said John de Gourney, dated on Monday the feast of St. Thomas the Apostle, in the 6th year of king Edward III. granted to his nephew, John de Gourney, and Jane his wife, and their heirs.\" This is the conveyance that transfers Uphall (with the rest of the Harpley estate) into the lay nephew's line — the same nephew-heir already preserved on this file as G25 John de Gournay III. The date (Monday, 21 December 1332) is the same year the rector died (6 Edw. III), so the grant was either a pre-death transfer or a deathbed arrangement.\n\n**1297 + 1325 + 1332 dated chain.** The three Armstrong dates compress the Gurney-rector's economic-rights consolidation at Harpley into a 35-year window: 1297 fair grant; 1325 Uphall acquisition with full lord-tenant rights; 1332 transfer to the nephew.\n\n**1781 observation on the rector's chancel stone.** Armstrong's eye-on-the-stone record from 1781 adds physical-monument detail to the rector John's chancel-floor grave-stone already noted on this file. Armstrong: \"On the pavement of the chancel lies an old marble grave-stone, whereon was the portraiture or effigies of a priest, with **two shields and a rim of brass, now torn off**: by the incision of the stone made to let the letters in on the rim, it appears to be — 'Hic Jacet corpus Folas de Gournay, quonda' rectoris et patroni hujus ecclesie. cuj; a[ni]e p[ro]pitietur Deus, Amen.' — He died rector in the 6th of Edward III.\" The \"Folas\" reading is an Armstrong-side OCR or transcription error for the project's accepted \"Joh'is\" (Johannis = John) reading already preserved on this file; the substance — rector John, d. 6 Edw. III = 1332 — matches. The new observation is the **two shields and brass rim** that were already torn from the stone by 1781 (presumably during the Edwardian iconoclasm of the 1540s or the Civil War period).[^v71-armstrong-harpley]\n\n[^v71-armstrong-harpley]: Mostyn John Armstrong, *The History and Antiquities of the County of Norfolk*, vol. 5 (Norwich, 1781), Freebridge Hundred and Half — Harpley (Gourney's Manor, Uphall Manor, the church windows, the chancel grave-stone). Internet Archive item `bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_5`. Source ID: `armstrong-norfolk-1781`.\n\n## Farrer (1887) — Gournay arms in the county church-heraldry survey\n\nEdmund Farrer's *Church Heraldry of Norfolk* independently records the Gournay arms at Harpley — \"A cross engrailed (Gournay or Gurney, Argent, a cross engrailed gules)\" — with a manorial note that \"in the 35th of Edward I.\" (1306/7) \"John de Gournay was Lord,\" a cross-reference to Daniel Gurney's *Record of the House of Gournay*, p. 344, and the parish's \"manor of Gournays.\" This is a further independent witness (1887) to the engrailed-cross arms already attested at St Lawrence by the surviving roof-angel and south-aisle-parapet shields and the 1294 seal — useful for the arms-tradition question (the same arms the American Gurneys later claimed; lead L-10).[^farrer-harpley]\n\n[^farrer-harpley]: Edmund Farrer, *The Church Heraldry of Norfolk*, vol. 2 (Norwich: Goose, 1887), Harpley parish (Internet Archive `churchheraldryn03farrgoog`), citing Blomefield, *Norfolk*, viii. 454, and Daniel Gurney's *Record*, p. 344. Source ID: `farrer-church-heraldry-norfolk`."
+  },
+  {
+    "placeId": "place-hackettstown-new-jersey-usa",
+    "name": "Hackettstown, New Jersey, USA",
+    "title": "Heath Village retirement community",
+    "seoTitle": "Heath Village retirement community",
+    "siteName": "Heath Village retirement community",
+    "streetAddress": "",
+    "region": "New Jersey, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Hackettstown, NJ"
+    ],
+    "shortDescription": "Family residence site",
+    "longDescription": "Hackettstown-area home of Lester Sawyer Gurney III (G3) and his third wife Elizabeth Stettler Walker at the Heath Village retirement community (in Washington Township) from the late 1990s; public records place him here 1997-2006, and he died in 2011.",
+    "placeType": "locality",
+    "extantStatus": "extant",
+    "extantStatusDescription": "Heath Village retirement community, 430 Schooley's Mountain Road, Hackettstown.",
+    "coordinate": {
+      "lat": 40.854,
+      "lng": -74.829
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "residence"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/hackettstown-nj.html",
+    "researchSlug": "hackettstown-nj",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g3-lester-sawyer-gurney-iii",
+        "type": "ancestor",
+        "gen": "G3",
+        "name": "Lester Sawyer Gurney III",
+        "dates": "1923-2011",
+        "role": "residence",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g03-lester-sawyer-gurney-iii-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1,
+    "slug": "hackettstown-nj",
+    "url": "/research/places/hackettstown-nj.html",
+    "seoDescription": "Hackettstown-area home of Lester Sawyer Gurney III (G3) and his third wife Elizabeth Stettler Walker at the Heath Village retirement community (in Washington.",
+    "researchTitle": "Hackettstown, New Jersey, USA",
+    "researchMarkdown": "# Hackettstown, New Jersey, USA"
   },
   {
     "placeId": "place-hellesdon-norfolk-england",
@@ -4183,14 +4331,25 @@
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
         "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g9-nathan-gurney-abington",
+        "type": "related",
+        "gen": "G9",
+        "name": "Nathan Gurney (foster father of G9)",
+        "dates": "c. 1700 — after 1751",
+        "role": "individual geography",
+        "lineageStatus": "Related - foster father of G9 Benjamin Gurney; first cousin of G10 Benjamin Gurney",
+        "displayLineageStatus": "Related - foster father of G9 Benjamin Gurney; first cousin of G10 Benjamin Gurney",
+        "url": "/fact-sheets/g09-nathan-gurney-related-fact-sheet.html"
       }
     ],
-    "ancestorCount": 3,
+    "ancestorCount": 4,
     "slug": "abington-whitman-line-ma",
     "url": "/research/places/abington-whitman-line-ma.html",
     "seoDescription": "Combined old-Abington boundary entry for Little Comfort, the Abington-Bridgewater/East Bridgewater line, and later South Abington/Whitman geography. Hobart.",
     "researchTitle": "Little Comfort / Abington-Bridgewater line, Massachusetts, USA",
-    "researchMarkdown": "# Little Comfort / Abington-Bridgewater line, Massachusetts, USA\n## Gurney origins at Little Comfort\n\nLittle Comfort — the milling hamlet of south Abington, then within the bounds of Bridgewater and later South Abington / Whitman — was the seat of the Abington Gurneys. **John Gurney** came from Weymouth and settled here about 1690, dying about 1715, intestate; his estate was divided among his children, among whom were Richard, David, and Nathan. He is, on convergent evidence, the John Gurney-3 (son of Richard Gurney of Weymouth, G12) whom Rigler names as founder of the **Little Comfort sawmill** — the first of the three south-Abington mills, built about 1698. John's brother Benjamin (G11) is the direct ancestor, so the Little Comfort Gurneys and the direct line spring from the same Weymouth household.[^hobart-little-comfort][^rigler-little-comfort]\n\nJohn's son **Nathan Gurney** married **Sarah Harden** of Little Comfort (a blacksmith's daughter) about 1725 and raised here his wife's nephew **Benjamin Gurney (G9)**, baptized at Abington in 1730. While the direct line later moved west to Cummington, Nathan's descendants stayed: the Whitman Gurney houses recorded in the Massachusetts Cultural Resource Information System (e.g. the Nathan-and-Martha-Pullman house, WHI.307, and the Jeremiah-and-Mary-Fullerton house, WHI.325) mark their continued presence on this ground. See `research/people/nathan-gurney-abington.research.md`.[^hobart-little-comfort]\n\n[^hobart-little-comfort]: Benjamin Hobart, *History of the Town of Abington, Plymouth County, Massachusetts, from its First Settlement* (Boston: T. H. Carter and Son, 1866), Appendix Gurney register pp. 383–386 and main-text Little Comfort sawmill note p. 3; [Internet Archive item historyoftownofa00hoba](https://archive.org/details/historyoftownofa00hoba/). Source ID: `hobart-benjamin-history-abington-1866`.\n[^rigler-little-comfort]: Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius*, rev. ed. (Honolulu: J. G. Rigler, 1994), identifying John Gurney-3 (Richard-2) as founder of the Little Comfort mill. Source ID: `rigler-gurney-family-aaron-zuinglius-1994`."
+    "researchMarkdown": "# Little Comfort / Abington-Bridgewater line, Massachusetts, USA\n## Gurney origins at Little Comfort\n\nLittle Comfort — the milling hamlet of south Abington, then within the bounds of Bridgewater and later South Abington / Whitman — was the seat of the Abington Gurneys. **John Gurney** came from Weymouth and settled here about 1690, dying about 1715, intestate; his estate was divided among his children, among whom were Richard, David, and Nathan. He is, on convergent evidence, the John Gurney-3 (son of Richard Gurney of Weymouth, G12) whom Rigler names as founder of the **Little Comfort sawmill** — the first of the three south-Abington mills, built about 1698. John's brother Benjamin (G11) is the direct ancestor, so the Little Comfort Gurneys and the direct line spring from the same Weymouth household.[^hobart-little-comfort][^rigler-little-comfort]\n\nJohn's nephew **Nathan Gurney** — a son of John's brother Zachariah, not of John himself, as the compiled genealogist Jean Gurney Rigler establishes against an older reading in Hobart — married **Sarah Harden** of Little Comfort (a blacksmith's daughter) about 1725 and raised here his wife's nephew **Benjamin Gurney (G9)**, baptized at Abington in 1730. While the direct line later moved west to Cummington, Nathan's descendants stayed: the Whitman Gurney houses recorded in the Massachusetts Cultural Resource Information System (e.g. the Nathan-and-Martha-Pullman house, WHI.307, and the Jeremiah-and-Mary-Fullerton house, WHI.325) mark their continued presence on this ground. See `research/people/nathan-gurney-abington.research.md`.[^hobart-little-comfort]\n\n[^hobart-little-comfort]: Benjamin Hobart, *History of the Town of Abington, Plymouth County, Massachusetts, from its First Settlement* (Boston: T. H. Carter and Son, 1866), Appendix Gurney register pp. 383–386 and main-text Little Comfort sawmill note p. 3; [Internet Archive item historyoftownofa00hoba](https://archive.org/details/historyoftownofa00hoba/). Source ID: `hobart-benjamin-history-abington-1866`.\n[^rigler-little-comfort]: Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius*, rev. ed. (Honolulu: J. G. Rigler, 1994), identifying John Gurney-3 (Richard-2) as founder of the Little Comfort mill. Source ID: `rigler-gurney-family-aaron-zuinglius-1994`."
   },
   {
     "placeId": "place-marion-indiana-usa",
@@ -5727,6 +5886,59 @@
     "seoDescription": "Historic Royal Palace and fortress on the Thames. For this project, the Tower anchors Queen Anne Boleyn’s arrest, imprisonment, execution on Tower Green on 19.",
     "researchTitle": "",
     "researchMarkdown": ""
+  },
+  {
+    "placeId": "place-wellesley-massachusetts-usa",
+    "name": "Wellesley, Massachusetts, USA",
+    "title": "Wellesley, Massachusetts, USA",
+    "seoTitle": "Wellesley, Massachusetts, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Wellesley, MA",
+      "Wellesley Hills"
+    ],
+    "shortDescription": "Family residence site",
+    "longDescription": "Wellesley Hills childhood home of Lester Sawyer Gurney III (G3); the 1940 federal census recorded him there at sixteen in his parents' household.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 42.2968,
+      "lng": -71.2924
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "residence"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/wellesley-ma.html",
+    "researchSlug": "wellesley-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g3-lester-sawyer-gurney-iii",
+        "type": "ancestor",
+        "gen": "G3",
+        "name": "Lester Sawyer Gurney III",
+        "dates": "1923-2011",
+        "role": "residence",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g03-lester-sawyer-gurney-iii-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1,
+    "slug": "wellesley-ma",
+    "url": "/research/places/wellesley-ma.html",
+    "seoDescription": "Wellesley Hills childhood home of Lester Sawyer Gurney III (G3); the 1940 federal census recorded him there at sixteen in his parents’ household. Linked to G3.",
+    "researchTitle": "Wellesley, Massachusetts, USA",
+    "researchMarkdown": "# Wellesley, Massachusetts, USA"
   },
   {
     "placeId": "place-west-barsham-norfolk-england",

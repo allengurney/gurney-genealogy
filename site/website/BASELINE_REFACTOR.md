@@ -5,7 +5,7 @@ This note captures the initial baseline for moving from the current Eleventy sit
 ## Working decisions
 - Branch work only; do not modify `main` directly.
 - Keep the current manual Cloudflare Pages upload workflow for now.
-- Use `data/ancestors v26.json` as the canonical ancestor source.
+- Use `data/ancestors.json` as the canonical ancestor source. *(Renamed 2026-05-25 from the versioned `ancestors v26.json` referenced in earlier planning notes.)*
 - Use `data/places.json` and `data/places_detail.json` as the canonical place spine.
 - Treat `_data/ancestors.json` and prototype `data/ancestors.js` as presentation data until they are regenerated from canonical files.
 - Keep KISS: stabilize build, validation, and content mapping before visual replacement.
@@ -25,7 +25,7 @@ This note captures the initial baseline for moving from the current Eleventy sit
 - `research/highlights.md` provides the editable highlights source requested for the new homepage.
 - `research/research.11tydata.js` and `layouts/research.njk` provide a lightweight default publishing path for research markdown.
 - `scripts/sync-site-content.js` refreshes site fact sheets from root `fact-sheets/` and publishes paired `research/people/*.research.md` companions.
-- `scripts/generate-site-data.js` regenerates site ancestor data from v26 and the place spine.
+- `scripts/generate-site-data.js` regenerates site ancestor data from `data/ancestors.json` and the place spine.
 - `_data/researchHighlights.js` renders homepage highlights from `research/highlights.md`.
 - `assets/explorer.css` carries the scoped visual language from `site/New website design/`.
 - `/index.html` now uses the new design direction and server-rendered highlights.

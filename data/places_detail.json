@@ -1318,5 +1318,50 @@
       "Do not add all components as separate files until individual identifications are stable.",
       "Use this aggregate to preserve G33's Bec donation geography in the place library."
     ]
+  },
+  {
+    "placeId": "place-wellesley-massachusetts-usa",
+    "placeName": "Wellesley, Massachusetts, USA",
+    "longDescription": "Wellesley Hills childhood home of Lester Sawyer Gurney III (G3); the 1940 federal census recorded him there at sixteen in his parents' household.",
+    "siteName": "",
+    "streetAddress": "",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinateBasis": "town centroid",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "",
+    "heritageLabel": "",
+    "reviewNotes": []
+  },
+  {
+    "placeId": "place-chatham-new-jersey-usa",
+    "placeName": "Chatham, New Jersey, USA",
+    "longDescription": "Morris County home of Lester Sawyer Gurney III (G3); his first wife Edith died here in 1963, public records place him at Chatham from 1975 to 1999, and he married Elizabeth Stettler Walker here in 1995.",
+    "siteName": "",
+    "streetAddress": "",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinateBasis": "town centroid",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "",
+    "heritageLabel": "",
+    "reviewNotes": []
+  },
+  {
+    "placeId": "place-hackettstown-new-jersey-usa",
+    "placeName": "Hackettstown, New Jersey, USA",
+    "longDescription": "Hackettstown-area home of Lester Sawyer Gurney III (G3) and his third wife Elizabeth Stettler Walker at the Heath Village retirement community (in Washington Township) from the late 1990s; public records place him here 1997-2006, and he died in 2011.",
+    "siteName": "Heath Village retirement community",
+    "streetAddress": "",
+    "extantStatus": "extant",
+    "extantStatusDescription": "Heath Village retirement community, 430 Schooley's Mountain Road, Hackettstown.",
+    "coordinateBasis": "town centroid",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "",
+    "heritageLabel": "",
+    "reviewNotes": []
   }
 ]

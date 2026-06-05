@@ -354,7 +354,7 @@
     "genNumber": 3,
     "name": "Lester Sawyer Gurney III",
     "dates": "1923-2011",
-    "geography": "Springfield, MA; Wellesley Hills, MA; New York City; Fort Monmouth, NJ; Luzon, Philippines; Bristol, RI; New Jersey",
+    "geography": "Springfield, MA; Wellesley Hills, MA; New York City; Fort Monmouth, NJ; Luzon, Philippines; Bristol, RI; Chatham, NJ; Hackettstown, NJ",
     "eraId": "era-modern-america",
     "eraLabel": "Modern America",
     "eraShortLabel": "Modern America",
@@ -366,7 +366,7 @@
     "lineageStatus": "Confirmed",
     "displayLineageStatus": "",
     "summary": "Springfield-born, Wellesley Hills-raised power engineer and wartime Signal Corps officer; father of Lester Hayes Gurney (G2). A Norwich University civil-engineering cadet, he was commissioned in the Signal Corps in 1944 and served as a first lieutenant with the 536th Signal Heavy Construction Company in the Western Pacific, directing telephone-line construction on Luzon, before a long power-engineering career.",
-    "notables": "Born 10 June 1923 at Springfield, Massachusetts (city-clerk certificate), raised in Wellesley Hills; died 19 December 2011. A Norwich University civil-engineering cadet (1941-1943), he was commissioned a Signal Corps second lieutenant on 25 November 1944 and served as a first lieutenant and outside-plant officer with the 536th Signal Heavy Construction Company, Army Forces Western Pacific, directing telephone-line construction on Luzon and supervising 75 enlisted men, prisoner-of-war labor, and 75 civilian linemen before separating in 1946. Before the war he was an assistant construction engineer for the New England Power Company in Boston; family evidence remembers a long later career with McGraw Edison in New Jersey. Junior deacon of St. Alban's Lodge No. 6, Bristol, Rhode Island, in 1955. Married Edith Walberg Scott on 23 November 1942 in Manhattan and Dorothy Lillian Hoben on 26 June 1965 at Elizabeth, New Jersey.",
+    "notables": "Born 10 June 1923 at Springfield, Massachusetts (city-clerk certificate), raised in Wellesley Hills; died 19 December 2011. A Norwich University civil-engineering cadet (1941-1943), he was commissioned a Signal Corps second lieutenant on 25 November 1944 and served as a first lieutenant and outside-plant officer with the 536th Signal Heavy Construction Company, Army Forces Western Pacific, directing telephone-line construction on Luzon and supervising 75 enlisted men, prisoner-of-war labor, and 75 civilian linemen before separating in 1946. Before the war he was an assistant construction engineer for the New England Power Company in Boston; family evidence remembers a long later career with McGraw Edison in New Jersey. Junior deacon of St. Alban's Lodge No. 6, Bristol, Rhode Island, in 1955. Married Edith Walberg Scott on 23 November 1942 in Manhattan and Dorothy Lillian Hoben on 26 June 1965 at Elizabeth, New Jersey; after Dorothy's death he married Elizabeth Stettler Walker on 25 November 1995 at Chatham, New Jersey.",
     "landHoldings": "-",
     "hasLandHoldings": false,
     "spouses": [
@@ -379,6 +379,11 @@
         "name": "Dorothy Lillian Hoben",
         "dates": "m. 26 June 1965, Elizabeth, New Jersey; d. 25 December 1994, Morristown, New Jersey",
         "notes": "Marriage certificate and invitation establish surname and date; a family note gives a variant 6 June 1965."
+      },
+      {
+        "name": "Elizabeth Stettler Walker",
+        "dates": "m. 25 November 1995, Chatham, New Jersey; b. 8 June 1918; d. 11 June 2013, Washington Township, New Jersey",
+        "notes": "Third wife; lifelong Morris County schoolteacher and musician, widow of Alan Banham Walker (d. 1980). The couple lived at the Heath Village retirement community; Lester died in 2011 after sixteen years of marriage. New Jersey marriage index, FamilySearch public records, and her 2013 obituary."
       }
     ],
     "children": [
@@ -409,9 +414,12 @@
     ],
     "recordId": "ancestor-g3-lester-sawyer-gurney-iii",
     "placeRefs": [
-      "place-new-york-metropolitan-area-usa"
+      "place-new-york-metropolitan-area-usa",
+      "place-wellesley-massachusetts-usa",
+      "place-chatham-new-jersey-usa",
+      "place-hackettstown-new-jersey-usa"
     ],
-    "placeSummary": "New York metropolitan area, USA",
+    "placeSummary": "New York metropolitan area, USA; Wellesley, Massachusetts, USA; Chatham, New Jersey, USA; +1 more",
     "locations": [
       {
         "placeId": "place-new-york-metropolitan-area-usa",
@@ -425,6 +433,57 @@
         "lng": -73.96571730235286,
         "geocodeBasis": "regional centroid",
         "confidence": "Low",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "",
+        "siteLabel": ""
+      },
+      {
+        "placeId": "place-wellesley-massachusetts-usa",
+        "place": "Wellesley, Massachusetts, USA",
+        "siteName": "",
+        "region": "Massachusetts, USA",
+        "eventType": "residence",
+        "eventDate": "1923-2011",
+        "sourceQuote": "Wellesley Hills childhood home of Lester Sawyer Gurney III (G3); the 1940 federal census recorded him there at sixteen in his parents' household.",
+        "lat": 42.2968,
+        "lng": -71.2924,
+        "geocodeBasis": "town centroid",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "",
+        "siteLabel": ""
+      },
+      {
+        "placeId": "place-chatham-new-jersey-usa",
+        "place": "Chatham, New Jersey, USA",
+        "siteName": "",
+        "region": "New Jersey, USA",
+        "eventType": "residence",
+        "eventDate": "1923-2011",
+        "sourceQuote": "Morris County home of Lester Sawyer Gurney III (G3); his first wife Edith died here in 1963, public records place him at Chatham from 1975 to 1999, and he married Elizabeth Stettler Walker here in 1995.",
+        "lat": 40.7407,
+        "lng": -74.3835,
+        "geocodeBasis": "town centroid",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "",
+        "siteLabel": ""
+      },
+      {
+        "placeId": "place-hackettstown-new-jersey-usa",
+        "place": "Hackettstown, New Jersey, USA",
+        "siteName": "Heath Village retirement community",
+        "region": "New Jersey, USA",
+        "eventType": "residence",
+        "eventDate": "1923-2011",
+        "sourceQuote": "Hackettstown-area home of Lester Sawyer Gurney III (G3) and his third wife Elizabeth Stettler Walker at the Heath Village retirement community (in Washington Township) from the late 1990s; public records place him here 1997-2006, and he died in 2011.",
+        "lat": 40.854,
+        "lng": -74.829,
+        "geocodeBasis": "town centroid",
+        "confidence": "High",
         "photoUrl": "",
         "photoTitle": "",
         "siteUrl": "",
@@ -1326,7 +1385,7 @@
         "place": "Abington, Massachusetts, USA",
         "siteName": "",
         "region": "Massachusetts, USA",
-        "eventType": "church/vital-record context; individual geography",
+        "eventType": "individual geography",
         "eventDate": "c. 1700 — after 1751",
         "sourceQuote": "Old Abington vital and church-record locality where Benjamin, son of Jean, was baptized in the First Church of Abington record stream identified as C.R.1.",
         "lat": 42.1043,
@@ -1343,7 +1402,7 @@
         "place": "Little Comfort / Abington-Bridgewater line, Massachusetts, USA",
         "siteName": "",
         "region": "Massachusetts, USA",
-        "eventType": "maternal family context; individual geography; landholding / property reference",
+        "eventType": "individual geography",
         "eventDate": "c. 1700 — after 1751",
         "sourceQuote": "Combined old-Abington boundary entry for Little Comfort, the Abington-Bridgewater/East Bridgewater line, and later South Abington/Whitman geography. Hobart places John Harden of Little Comfort near this boundary; the coordinate is an inferred midpoint between modern Abington and East Bridgewater, not a proved household site.",
         "lat": 42.0691,
@@ -1928,9 +1987,10 @@
       "place-braintree-massachusetts-usa",
       "place-east-dereham-norfolk-england",
       "place-mendon-massachusetts-usa",
-      "place-weymouth-massachusetts-usa"
+      "place-weymouth-massachusetts-usa",
+      "place-billerica-massachusetts-usa"
     ],
-    "placeSummary": "Braintree, Massachusetts, USA; East Dereham Parish Church; Mendon, Massachusetts, USA; +1 more",
+    "placeSummary": "Braintree, Massachusetts, USA; East Dereham Parish Church; Mendon, Massachusetts, USA; +2 more",
     "locations": [
       {
         "placeId": "place-braintree-massachusetts-usa",
@@ -1995,6 +2055,23 @@
         "lng": -70.969252,
         "geocodeBasis": "Great Pond geolocation; other Weymouth landholdings not individually geolocated",
         "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "",
+        "siteLabel": ""
+      },
+      {
+        "placeId": "place-billerica-massachusetts-usa",
+        "place": "Billerica, Massachusetts, USA",
+        "siteName": "",
+        "region": "Massachusetts, USA",
+        "eventType": "landholding / property reference",
+        "eventDate": "b. c. 1609-12 — d. 1662/3",
+        "sourceQuote": "Town and Dudley Farm purchase context where John Gurney appears in Hazen's printed 1659 rate list for the half payment of the purchase.",
+        "lat": 42.5584,
+        "lng": -71.2689,
+        "geocodeBasis": "town centroid",
+        "confidence": "Low",
         "photoUrl": "",
         "photoTitle": "",
         "siteUrl": "",
@@ -2262,7 +2339,7 @@
         "place": "Harpley, Norfolk, England",
         "siteName": "",
         "region": "Norfolk, England",
-        "eventType": "landholding / property reference; individual geography",
+        "eventType": "individual geography",
         "eventDate": "1577-1648",
         "sourceQuote": "Harpley Manor (Harpley Hall), a major medieval Gurney holding acquired c.1183 through Rose de Burnham and the Hameline de Warenne connection; distinct from the extant Gurney's Manor at Hingham. The church, located about 500 feet from where the manor once stood, survives. https://www.ggmbenefice.uk/our-churches/harpley/harpley-church-history/",
         "lat": 52.801715,
@@ -2351,9 +2428,11 @@
       "place-harpley-norfolk-england",
       "place-hingham-norfolk-england",
       "place-irstead-norfolk-england",
-      "place-west-barsham-norfolk-england"
+      "place-west-barsham-norfolk-england",
+      "place-gurneys-manor-hingham-norfolk-england",
+      "place-old-hall-great-ellingham-norfolk-england"
     ],
-    "placeSummary": "Attleborough, Norfolk, England; Great Ellingham, Norfolk, England; Harpley, Norfolk, England; +3 more",
+    "placeSummary": "Attleborough, Norfolk, England; Great Ellingham, Norfolk, England; Harpley, Norfolk, England; +5 more",
     "locations": [
       {
         "placeId": "place-attleborough-norfolk-england",
@@ -2456,6 +2535,40 @@
         "photoTitle": "West Barsham Hall",
         "siteUrl": "https://www.geograph.org.uk/photo/2122114",
         "siteLabel": "Photo / site reference"
+      },
+      {
+        "placeId": "place-gurneys-manor-hingham-norfolk-england",
+        "place": "Gurney's Manor, Hingham, Norfolk, England",
+        "siteName": "Gurney's Manor",
+        "region": "Hingham, Norfolk, England",
+        "eventType": "landholding / property reference",
+        "eventDate": "21 Jan. 1548/9 (OS) — d. 1615/16 (will proved 1623)",
+        "sourceQuote": "Extant private Grade II country house at Hingham; DiCamillo dates it circa 1600 with circa 1700 and 1826 alterations/additions and earliest elements possibly in the 1570s. Distinct from Harpley.",
+        "lat": 52.571755298216836,
+        "lng": 0.9756833626995299,
+        "geocodeBasis": "user-supplied site coordinate",
+        "confidence": "Medium",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.thedicamillo.com/house/gurneys-manor/",
+        "siteLabel": "DiCamillo: Gurney's Manor"
+      },
+      {
+        "placeId": "place-old-hall-great-ellingham-norfolk-england",
+        "place": "Old Hall, Great Ellingham, Norfolk, England",
+        "siteName": "Old Hall",
+        "region": "Great Ellingham, Norfolk, England",
+        "eventType": "landholding / property reference; individual geography",
+        "eventDate": "21 Jan. 1548/9 (OS) — d. 1615/16 (will proved 1623)",
+        "sourceQuote": "Old Hall / Old Hall Farmhouse is a medieval moated manorial site with a mid-sixteenth-century great house inside the main moat, additional moated enclosures and fishponds, two listed barns, and Grade II listed Old Hall Farmhouse.",
+        "lat": 52.528994,
+        "lng": 0.970243,
+        "geocodeBasis": "Historic England Old Hall Farmhouse listing coordinate",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1077566",
+        "siteLabel": "Historic England 1077566"
       }
     ],
     "externalIds": {
@@ -2640,9 +2753,11 @@
       "place-great-ellingham-norfolk-england",
       "place-hingham-norfolk-england",
       "place-irstead-norfolk-england",
-      "place-west-barsham-norfolk-england"
+      "place-west-barsham-norfolk-england",
+      "place-gurneys-manor-hingham-norfolk-england",
+      "place-old-hall-great-ellingham-norfolk-england"
     ],
-    "placeSummary": "Great Ellingham, Norfolk, England; Hingham, Norfolk, England; Irstead, Norfolk, England; +1 more",
+    "placeSummary": "Great Ellingham, Norfolk, England; Hingham, Norfolk, England; Irstead, Norfolk, England; +3 more",
     "locations": [
       {
         "placeId": "place-great-ellingham-norfolk-england",
@@ -2711,6 +2826,40 @@
         "photoTitle": "West Barsham Hall",
         "siteUrl": "https://www.geograph.org.uk/photo/2122114",
         "siteLabel": "Photo / site reference"
+      },
+      {
+        "placeId": "place-gurneys-manor-hingham-norfolk-england",
+        "place": "Gurney's Manor, Hingham, Norfolk, England",
+        "siteName": "Gurney's Manor",
+        "region": "Hingham, Norfolk, England",
+        "eventType": "landholding / property reference",
+        "eventDate": "b. c. 1499 — d. 4 Jan. 1555/6",
+        "sourceQuote": "Extant private Grade II country house at Hingham; DiCamillo dates it circa 1600 with circa 1700 and 1826 alterations/additions and earliest elements possibly in the 1570s. Distinct from Harpley.",
+        "lat": 52.571755298216836,
+        "lng": 0.9756833626995299,
+        "geocodeBasis": "user-supplied site coordinate",
+        "confidence": "Medium",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.thedicamillo.com/house/gurneys-manor/",
+        "siteLabel": "DiCamillo: Gurney's Manor"
+      },
+      {
+        "placeId": "place-old-hall-great-ellingham-norfolk-england",
+        "place": "Old Hall, Great Ellingham, Norfolk, England",
+        "siteName": "Old Hall",
+        "region": "Great Ellingham, Norfolk, England",
+        "eventType": "landholding / property reference",
+        "eventDate": "b. c. 1499 — d. 4 Jan. 1555/6",
+        "sourceQuote": "Old Hall / Old Hall Farmhouse is a medieval moated manorial site with a mid-sixteenth-century great house inside the main moat, additional moated enclosures and fishponds, two listed barns, and Grade II listed Old Hall Farmhouse.",
+        "lat": 52.528994,
+        "lng": 0.970243,
+        "geocodeBasis": "Historic England Old Hall Farmhouse listing coordinate",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1077566",
+        "siteLabel": "Historic England 1077566"
       }
     ],
     "externalIds": {
@@ -2853,9 +3002,10 @@
       "place-hingham-norfolk-england",
       "place-irstead-norfolk-england",
       "place-west-barsham-norfolk-england",
-      "place-harpley-norfolk-england"
+      "place-harpley-norfolk-england",
+      "place-gurneys-manor-hingham-norfolk-england"
     ],
-    "placeSummary": "Baconsthorpe Castle; Hardingham / Low Street / Old Hall context; Hingham, Norfolk, England; +3 more",
+    "placeSummary": "Baconsthorpe Castle; Hardingham / Low Street / Old Hall context; Hingham, Norfolk, England; +4 more",
     "locations": [
       {
         "placeId": "place-baconsthorpe-castle-norfolk-england",
@@ -2958,6 +3108,23 @@
         "photoTitle": "Harpley Manor (Hall) no longer exists but the church survives. Built 13th century. Lawrence's Church, Harpley, Norfolk (© Copyright Borough Council of King's Lynn)",
         "siteUrl": "https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459",
         "siteLabel": "Blomefield: Harpley"
+      },
+      {
+        "placeId": "place-gurneys-manor-hingham-norfolk-england",
+        "place": "Gurney's Manor, Hingham, Norfolk, England",
+        "siteName": "Gurney's Manor",
+        "region": "Hingham, Norfolk, England",
+        "eventType": "landholding / property reference",
+        "eventDate": "c. 1465 – died vita patris before father (exact date unknown; before 16 Feb. 1507/8)",
+        "sourceQuote": "Extant private Grade II country house at Hingham; DiCamillo dates it circa 1600 with circa 1700 and 1826 alterations/additions and earliest elements possibly in the 1570s. Distinct from Harpley.",
+        "lat": 52.571755298216836,
+        "lng": 0.9756833626995299,
+        "geocodeBasis": "user-supplied site coordinate",
+        "confidence": "Medium",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.thedicamillo.com/house/gurneys-manor/",
+        "siteLabel": "DiCamillo: Gurney's Manor"
       }
     ],
     "externalIds": {
@@ -4400,9 +4567,10 @@
     "placeRefs": [
       "place-hardingham-norfolk-england",
       "place-montigny-sur-andelle-normandy-france",
-      "place-runhall-norfolk-england"
+      "place-runhall-norfolk-england",
+      "place-pays-de-bray-normandy-picardy-france"
     ],
-    "placeSummary": "Hardingham / Low Street / Old Hall context; Montigny-sur-Andelle, Normandy, France; Runhall, Norfolk, England",
+    "placeSummary": "Hardingham / Low Street / Old Hall context; Montigny-sur-Andelle, Normandy, France; Runhall, Norfolk, England; +1 more",
     "locations": [
       {
         "placeId": "place-hardingham-norfolk-england",
@@ -4454,6 +4622,23 @@
         "photoTitle": "",
         "siteUrl": "",
         "siteLabel": ""
+      },
+      {
+        "placeId": "place-pays-de-bray-normandy-picardy-france",
+        "place": "Pays de Bray, Normandy / Picardy frontier, France",
+        "siteName": "",
+        "region": "Normandy / Picardy frontier, France",
+        "eventType": "Montigny parage / Gournay blood-descent proof region",
+        "eventDate": "fl. c. 1150–1180",
+        "sourceQuote": "Historic and natural region straddling Normandy and Picardy, forming the frontier landscape of the early Gournay lordship. Gournay-en-Bray, La Ferté, Gaillefontaine, Sigy, Montigny-sur-Andelle, and the Beauvaisis frontier acquisitions should be interpreted within this regional frame.",
+        "lat": 49.55,
+        "lng": 1.55,
+        "geocodeBasis": "approximate regional centroid",
+        "confidence": "Low",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://en.wikipedia.org/wiki/Pays_de_Bray",
+        "siteLabel": "Pays de Bray reference page"
       }
     ],
     "externalIds": {
@@ -4513,9 +4698,10 @@
     "placeRefs": [
       "place-hardingham-norfolk-england",
       "place-norfolk-england",
-      "place-suffolk-england"
+      "place-suffolk-england",
+      "place-montigny-sur-andelle-normandy-france"
     ],
-    "placeSummary": "Hardingham / Low Street / Old Hall context; Norfolk, England; Suffolk, England",
+    "placeSummary": "Hardingham / Low Street / Old Hall context; Norfolk, England; Suffolk, England; +1 more",
     "locations": [
       {
         "placeId": "place-hardingham-norfolk-england",
@@ -4563,6 +4749,23 @@
         "lng": 1.005,
         "geocodeBasis": "county centroid",
         "confidence": "Low",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "",
+        "siteLabel": ""
+      },
+      {
+        "placeId": "place-montigny-sur-andelle-normandy-france",
+        "place": "Montigny-sur-Andelle, Normandy, France",
+        "siteName": "",
+        "region": "Normandy, France",
+        "eventType": "blood-descent proof context",
+        "eventDate": "fl. c. 1108–1154",
+        "sourceQuote": "Montigny-sur-Andelle parage tenure, cited by Daniel Gurney and Hannay as strong legal proof that William de Gournay I and the junior Norfolk line were of the blood of the Barons of Gournay.",
+        "lat": 49.327,
+        "lng": 1.352,
+        "geocodeBasis": "existing repo coordinate; modern identity and exact fief geography require verification",
+        "confidence": "Medium",
         "photoUrl": "",
         "photoTitle": "",
         "siteUrl": "",
@@ -4657,9 +4860,17 @@
       "place-cantley-norfolk-england",
       "place-gournay-en-bray-normandy-france",
       "place-lessingham-norfolk-england",
-      "place-norfolk-england"
+      "place-norfolk-england",
+      "place-ecouche-normandy-france",
+      "place-g33-bec-gournay-endowment-cluster-pays-de-bray-france",
+      "place-gaillefontaine-castle-domain-normandy-france",
+      "place-gournay-fortifications-tour-du-rempart-normandy-france",
+      "place-la-ferte-butte-feodale-normandy-france",
+      "place-la-ferte-en-bray-normandy-france",
+      "place-le-bec-hellouin-normandy-france",
+      "place-pays-de-bray-normandy-picardy-france"
     ],
-    "placeSummary": "Caister-on-Sea, Norfolk, England; Cantley, Norfolk, England; Gournay-en-Bray, Normandy, France; +2 more",
+    "placeSummary": "Caister-on-Sea, Norfolk, England; Cantley, Norfolk, England; Gournay-en-Bray, Normandy, France; +10 more",
     "locations": [
       {
         "placeId": "place-caister-on-sea-norfolk-england",
@@ -4745,6 +4956,142 @@
         "photoTitle": "",
         "siteUrl": "",
         "siteLabel": ""
+      },
+      {
+        "placeId": "place-ecouche-normandy-france",
+        "place": "Écouché, Normandy, France",
+        "siteName": "",
+        "region": "Normandy, France",
+        "eventType": "held through Basilia / pedigree proof",
+        "eventDate": "c. 1040 — d. before 1104, Palestine",
+        "sourceQuote": "Norman locality / estate context tied to Basilia Flaitel and Gerard de Gournay. Orderic's Écouché passage identifies Gerard as son of Basilia, daughter of Gerard Flaitel, making the place an important maternal-line and pedigree-proof site.",
+        "lat": 48.717,
+        "lng": -0.125,
+        "geocodeBasis": "modern locality coordinate; not a verified medieval estate coordinate",
+        "confidence": "Medium",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.ecouchelesvallees.fr/",
+        "siteLabel": "Écouché-les-Vallées official site"
+      },
+      {
+        "placeId": "place-g33-bec-gournay-endowment-cluster-pays-de-bray-france",
+        "place": "G33 Bec / Gournay endowment cluster, Pays de Bray, France",
+        "siteName": "",
+        "region": "Pays de Bray, France",
+        "eventType": "inherited Bec patronage context",
+        "eventDate": "c. 1040 — d. before 1104, Palestine",
+        "sourceQuote": "Aggregate record for the Pays de Bray / Gournay-side property, tithe, church, house, and milling-right geography associated with Hugh de Gournay III and Basilia Flaitel's donations to the Abbey of Bec.",
+        "lat": 49.54,
+        "lng": 1.6,
+        "geocodeBasis": "approximate regional map anchor in the Gournay / Pays de Bray area; not a single site coordinate",
+        "confidence": "Low",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "",
+        "siteLabel": ""
+      },
+      {
+        "placeId": "place-gaillefontaine-castle-domain-normandy-france",
+        "place": "Gaillefontaine castle / domain, Normandy, France",
+        "siteName": "Domaine de Gaillefontaine",
+        "region": "Normandy, France",
+        "eventType": "castle delivered to William II Rufus",
+        "eventDate": "c. 1040 — d. before 1104, Palestine",
+        "sourceQuote": "Pays de Bray frontier castle site and later domain associated with the Gournay-La Ferté-Gaillefontaine defensive triad. A heritage record describes the motte castrale as testimony to the site's importance on the old frontier between Normandy and the northern royal domain.",
+        "lat": 49.650477933144,
+        "lng": 1.62589488664005,
+        "geocodeBasis": "Monument Historique / POP-derived coordinate for Domaine de Gaillefontaine",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.plan-du-patrimoine.fr/monument-historique/76/gaillefontaine/domaine-de-gaillefontaine/PA00100670/",
+        "siteLabel": "Plan du Patrimoine / POP: Domaine de Gaillefontaine"
+      },
+      {
+        "placeId": "place-gournay-fortifications-tour-du-rempart-normandy-france",
+        "place": "Gournay fortifications / Tour du Rempart, Gournay-en-Bray, Normandy, France",
+        "siteName": "La Tour du Rempart",
+        "region": "Gournay-en-Bray, Normandy, France",
+        "eventType": "castle delivered in Gournay-La Ferté-Gaillefontaine triad",
+        "eventDate": "c. 1040 — d. before 1104, Palestine",
+        "sourceQuote": "Surviving remnant of the fortified medieval town and seigneurial defensive system at Gournay-en-Bray. Normandie Tourisme describes one surviving tower, the conical base of another, and the ditches as the remaining traces of the town's defensive work.",
+        "lat": 49.48211,
+        "lng": 1.72608,
+        "geocodeBasis": "published tourism / Seine-Maritime Attractivité point for La Tour du Rempart",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.normandie-tourisme.fr/sites-lieux-de-visites/la-tour-du-rempart/",
+        "siteLabel": "Normandie Tourisme: La Tour du Rempart"
+      },
+      {
+        "placeId": "place-la-ferte-butte-feodale-normandy-france",
+        "place": "Butte féodale / Château de La Ferté, La Ferté-Saint-Samson, Normandy, France",
+        "siteName": "Butte féodale de La Ferté-Saint-Samson",
+        "region": "La Ferté-Saint-Samson, Normandy, France",
+        "eventType": "castle delivered in Gournay-La Ferté-Gaillefontaine triad",
+        "eventDate": "c. 1040 — d. before 1104, Palestine",
+        "sourceQuote": "Motte / castle site of the La Ferté fortress locality. The official La Ferté-Saint-Samson history page states that the castle occupied the butte, existed by 981, and sat in a naturally strategic marsh-bordered position. This fortress context explains the place-name La Ferté and the site’s importance within the Gournay / La Ferté frontier network.",
+        "lat": 49.578209,
+        "lng": 1.5265335,
+        "geocodeBasis": "published tourism point for the Butte féodale",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.lafertesaintsamson.com/decouvertes/histoire-de-la-ville/",
+        "siteLabel": "La Ferté-Saint-Samson official history page"
+      },
+      {
+        "placeId": "place-la-ferte-en-bray-normandy-france",
+        "place": "La Ferté-en-Bray / La Ferté-Saint-Samson, Normandy, France",
+        "siteName": "",
+        "region": "Normandy, France",
+        "eventType": "castle delivered in Gournay-La Ferté-Gaillefontaine triad",
+        "eventDate": "c. 1040 — d. before 1104, Palestine",
+        "sourceQuote": "Historic Gournay cadet-line fortress locality and priory-foundation place in the Pays de Bray. The locality should be treated separately from the specific castle/butte and the Saint-Pierre-et-Saint-Paul priory/church record.",
+        "lat": 49.57795,
+        "lng": 1.527104,
+        "geocodeBasis": "modern locality / historic core coordinate",
+        "confidence": "Medium",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.lafertesaintsamson.com/decouvertes/histoire-de-la-ville/",
+        "siteLabel": "La Ferté-Saint-Samson official history page"
+      },
+      {
+        "placeId": "place-le-bec-hellouin-normandy-france",
+        "place": "Abbey of Bec / Le Bec-Hellouin, Normandy, France",
+        "siteName": "Abbaye Notre-Dame du Bec",
+        "region": "Normandy, France",
+        "eventType": "inherited Bec patronage context",
+        "eventDate": "c. 1040 — d. before 1104, Palestine",
+        "sourceQuote": "Abbey of Bec, burial and monastic-retirement place of Hugh de Gournay III and Basilia Flaitel, and recipient of Hugh's Essex tithes and Gournay-side donations. The abbey was founded in 1034 by Herluin and became one of the major intellectual centers of the medieval Latin West through Lanfranc and Anselm.",
+        "lat": 49.2288,
+        "lng": 0.722,
+        "geocodeBasis": "abbey site coordinate",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://abbayedubec.org/historique/",
+        "siteLabel": "Abbaye Notre-Dame du Bec official history page"
+      },
+      {
+        "placeId": "place-pays-de-bray-normandy-picardy-france",
+        "place": "Pays de Bray, Normandy / Picardy frontier, France",
+        "siteName": "",
+        "region": "Normandy / Picardy frontier, France",
+        "eventType": "castle-triad region",
+        "eventDate": "c. 1040 — d. before 1104, Palestine",
+        "sourceQuote": "Historic and natural region straddling Normandy and Picardy, forming the frontier landscape of the early Gournay lordship. Gournay-en-Bray, La Ferté, Gaillefontaine, Sigy, Montigny-sur-Andelle, and the Beauvaisis frontier acquisitions should be interpreted within this regional frame.",
+        "lat": 49.55,
+        "lng": 1.55,
+        "geocodeBasis": "approximate regional centroid",
+        "confidence": "Low",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://en.wikipedia.org/wiki/Pays_de_Bray",
+        "siteLabel": "Pays de Bray reference page"
       }
     ],
     "externalIds": {
@@ -4805,9 +5152,10 @@
       "place-gournay-en-bray-normandy-france",
       "place-norfolk-england",
       "place-normandy-france",
-      "place-oxfordshire-england"
+      "place-oxfordshire-england",
+      "place-bosc-hyons-boshyon-normandy-france"
     ],
-    "placeSummary": "Bedfordshire, England; Buckinghamshire, England; Gournay-en-Bray, Normandy, France; +3 more",
+    "placeSummary": "Bedfordshire, England; Buckinghamshire, England; Gournay-en-Bray, Normandy, France; +4 more",
     "locations": [
       {
         "placeId": "place-bedfordshire-england",
@@ -4848,7 +5196,7 @@
         "place": "Gournay-en-Bray, Normandy, France",
         "siteName": "",
         "region": "Normandy, France",
-        "eventType": "seigneurial seat; landholding / property reference; individual geography; frontier lordship",
+        "eventType": "lordship / individual geography",
         "eventDate": "c. 1098 — d. 1180",
         "sourceQuote": "Ancestral fortress town, seigneurial honor, and namesake of the Gournay family in the Pays de Bray. This record represents the town and lordship as a whole, not the Collégiale Saint-Hildevert church site or the Tour du Rempart fortification remnant alone.",
         "lat": 49.483148,
@@ -4910,6 +5258,23 @@
         "photoTitle": "",
         "siteUrl": "",
         "siteLabel": ""
+      },
+      {
+        "placeId": "place-bosc-hyons-boshyon-normandy-france",
+        "place": "Bosc-Hyons (medieval Boshyon / Boscus Hugonis), Seine-Maritime, Normandy, France",
+        "siteName": "Église Saint-Michel de Bosc-Hyons",
+        "region": "Seine-Maritime, Normandy, France",
+        "eventType": "1164 Gaillefontaine grain endowment from manor",
+        "eventDate": "c. 1098 — d. 1180",
+        "sourceQuote": "Modern Bosc-Hyons (INSEE 76124, postal 76220), the medieval Boshyon / Boscus Hugonis — 'Hugues's wood,' almost certainly named for Hugh I de Gournay. A small commune in the canton of Gournay, south-south-west of Gournay-en-Bray. Decorde 1861 catalogues medieval spellings Boshyon, Boschyon, Bos-Huon, Bos-Hyon, Bos-Hyvon and the recommended modern French rendering Bois-Hugues or Bosc-Hugon. The medieval parish was the revenue base for at least three Gournay-area endowments — the 1082 Jumièges 190-arpent charter by Hugh III and Basilie, *apud villam quæ vocatur Hugonis silva*; the 1164 grain endowment by Hugues IV and Mélisende for the church of Gaillefontaine (three boisseaux of wheat, five of oats, *apud Boscum Hugonis*), ratified by Archbishop Rotrou of Rouen; and the 1195 Manassès de Bully one-*muid*-of-oats endowment from the Boshyon mill for a perpetual altar lamp before St Hildevert's relic at the Gournay collegiate church. The parish church of Saint-Michel was given to the Gournay chapter by a sire de Gournay in the twelfth century; the chapter held the patronage until 1623.",
+        "lat": 49.446,
+        "lng": 1.659,
+        "geocodeBasis": "GPS coordinate for modern Bosc-Hyons (INSEE 76124); verified against Cartes France / db-city / Archives départementales 76",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.archivesdepartementales76.net/archive/catalogue/communes76/bosc-hyons/n:168",
+        "siteLabel": "Archives départementales 76 — Bosc-Hyons commune dossier"
       }
     ]
   },
@@ -4956,9 +5321,10 @@
       "place-flegg-norfolk-england",
       "place-gournay-en-bray-normandy-france",
       "place-normandy-france",
-      "place-oxfordshire-england"
+      "place-oxfordshire-england",
+      "place-bellosanne-abbey-bremontier-merval-normandy-france"
     ],
-    "placeSummary": "Flegg, Norfolk, England; Gournay-en-Bray, Normandy, France; Normandy, France; +1 more",
+    "placeSummary": "Flegg, Norfolk, England; Gournay-en-Bray, Normandy, France; Normandy, France; +2 more",
     "locations": [
       {
         "placeId": "place-flegg-norfolk-england",
@@ -4982,7 +5348,7 @@
         "place": "Gournay-en-Bray, Normandy, France",
         "siteName": "",
         "region": "Normandy, France",
-        "eventType": "seigneurial seat; landholding / property reference; individual geography; frontier lordship",
+        "eventType": "lordship / individual geography",
         "eventDate": "c. 1148 — d. 25 Oct. 1214, Rouen",
         "sourceQuote": "Ancestral fortress town, seigneurial honor, and namesake of the Gournay family in the Pays de Bray. This record represents the town and lordship as a whole, not the Collégiale Saint-Hildevert church site or the Tour du Rempart fortification remnant alone.",
         "lat": 49.483148,
@@ -5027,6 +5393,23 @@
         "photoTitle": "",
         "siteUrl": "",
         "siteLabel": ""
+      },
+      {
+        "placeId": "place-bellosanne-abbey-bremontier-merval-normandy-france",
+        "place": "Notre-Dame de Bellozanne abbey, Brémontier-Merval, Normandy, France",
+        "siteName": "Abbaye Notre-Dame de Bellozanne",
+        "region": "Brémontier-Merval, Normandy, France",
+        "eventType": "founder, 1198",
+        "eventDate": "c. 1148 — d. 25 Oct. 1214, Rouen",
+        "sourceQuote": "Premonstratensian abbey founded by Hugues V de Gournay in 1198 at Brémontier (now Brémontier-Merval, Seine-Maritime), dedicated to Notre-Dame, sited between two former ponds on the Pays de Bray plateau. The signal religious foundation of the senior Gournay baron line in its last generation, and the most consequential Gournay-side ecclesiastical site after the Gournay collegiate church itself.",
+        "lat": 49.505556,
+        "lng": 1.611111,
+        "geocodeBasis": "Existing Gournay institutional overlay anchor point for Abbaye Notre-Dame de Bellozanne",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://fr.wikipedia.org/wiki/Abbaye_Notre-Dame_de_Bellozanne",
+        "siteLabel": "Abbaye Notre-Dame de Bellozanne — French Wikipedia"
       }
     ]
   },
@@ -5088,9 +5471,13 @@
       "place-gournay-en-bray-normandy-france",
       "place-le-bec-hellouin-normandy-france",
       "place-liston-essex-england",
-      "place-norfolk-england"
+      "place-norfolk-england",
+      "place-conquets-hue-de-gournay-beauvaisis-france",
+      "place-ecouche-normandy-france",
+      "place-g33-bec-gournay-endowment-cluster-pays-de-bray-france",
+      "place-pays-de-bray-normandy-picardy-france"
     ],
-    "placeSummary": "Ardleigh, Essex, England; Église Saint-Michel de Bosc-Hyons; Essex, England; +5 more",
+    "placeSummary": "Ardleigh, Essex, England; Église Saint-Michel de Bosc-Hyons; Essex, England; +9 more",
     "locations": [
       {
         "placeId": "place-ardleigh-essex-england",
@@ -5227,6 +5614,74 @@
         "photoTitle": "",
         "siteUrl": "",
         "siteLabel": ""
+      },
+      {
+        "placeId": "place-conquets-hue-de-gournay-beauvaisis-france",
+        "place": "Conquêts Hue de Gournay / Beauvaisis frontier acquisitions, France",
+        "siteName": "",
+        "region": "France",
+        "eventType": "traditional acquirer of the 24 villages",
+        "eventDate": "c. 1020 — d. 1110",
+        "sourceQuote": "Aggregate territorial place for the twenty-four parishes, hamlets, and villages beyond the Epte associated with the Conquêts Hue de Gournay. The current library should represent this as one territorial block rather than twenty-four separate records until the individual modern identifications are stable.",
+        "lat": 49.5556,
+        "lng": 1.7988,
+        "geocodeBasis": "approximate centroid of existing repo Beauvaisis-acquisitions reconstruction polygon; use `research/geo/hugh_de_gournay_reconstructed_holdings.geojson` for map polygon",
+        "confidence": "Low",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://pdn-lingua.unicaen.fr/coutumiers/conde/pesnelle_lighter.xml/pesnelle-lighter-beta-002-007.html",
+        "siteLabel": "Projet ConDÉ: Coutumes et usages des Conquêts Hue de Gournay"
+      },
+      {
+        "placeId": "place-ecouche-normandy-france",
+        "place": "Écouché, Normandy, France",
+        "siteName": "",
+        "region": "Normandy, France",
+        "eventType": "Basilia Flaitel marriage / maritagium context",
+        "eventDate": "c. 1020 — d. 1110",
+        "sourceQuote": "Norman locality / estate context tied to Basilia Flaitel and Gerard de Gournay. Orderic's Écouché passage identifies Gerard as son of Basilia, daughter of Gerard Flaitel, making the place an important maternal-line and pedigree-proof site.",
+        "lat": 48.717,
+        "lng": -0.125,
+        "geocodeBasis": "modern locality coordinate; not a verified medieval estate coordinate",
+        "confidence": "Medium",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.ecouchelesvallees.fr/",
+        "siteLabel": "Écouché-les-Vallées official site"
+      },
+      {
+        "placeId": "place-g33-bec-gournay-endowment-cluster-pays-de-bray-france",
+        "place": "G33 Bec / Gournay endowment cluster, Pays de Bray, France",
+        "siteName": "",
+        "region": "Pays de Bray, France",
+        "eventType": "donor / monastic patron",
+        "eventDate": "c. 1020 — d. 1110",
+        "sourceQuote": "Aggregate record for the Pays de Bray / Gournay-side property, tithe, church, house, and milling-right geography associated with Hugh de Gournay III and Basilia Flaitel's donations to the Abbey of Bec.",
+        "lat": 49.54,
+        "lng": 1.6,
+        "geocodeBasis": "approximate regional map anchor in the Gournay / Pays de Bray area; not a single site coordinate",
+        "confidence": "Low",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "",
+        "siteLabel": ""
+      },
+      {
+        "placeId": "place-pays-de-bray-normandy-picardy-france",
+        "place": "Pays de Bray, Normandy / Picardy frontier, France",
+        "siteName": "",
+        "region": "Normandy / Picardy frontier, France",
+        "eventType": "Beauvaisis expansion frame",
+        "eventDate": "c. 1020 — d. 1110",
+        "sourceQuote": "Historic and natural region straddling Normandy and Picardy, forming the frontier landscape of the early Gournay lordship. Gournay-en-Bray, La Ferté, Gaillefontaine, Sigy, Montigny-sur-Andelle, and the Beauvaisis frontier acquisitions should be interpreted within this regional frame.",
+        "lat": 49.55,
+        "lng": 1.55,
+        "geocodeBasis": "approximate regional centroid",
+        "confidence": "Low",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://en.wikipedia.org/wiki/Pays_de_Bray",
+        "siteLabel": "Pays de Bray reference page"
       }
     ],
     "externalIds": {
@@ -5289,9 +5744,16 @@
     ],
     "recordId": "ancestor-g34-hugh-de-gournay-ii",
     "placeRefs": [
-      "place-gournay-en-bray-normandy-france"
+      "place-gournay-en-bray-normandy-france",
+      "place-fry-eglise-saint-martin-normandy-france",
+      "place-gournay-fortifications-tour-du-rempart-normandy-france",
+      "place-la-ferte-butte-feodale-normandy-france",
+      "place-la-ferte-en-bray-normandy-france",
+      "place-la-ferte-foundation-endowment-cluster-pays-de-bray-france",
+      "place-pays-de-bray-normandy-picardy-france",
+      "place-priory-saint-pierre-saint-paul-la-ferte-en-bray-normandy-france"
     ],
-    "placeSummary": "Gournay-en-Bray, Normandy, France",
+    "placeSummary": "Gournay-en-Bray, Normandy, France; Église Saint-Martin; La Tour du Rempart; +5 more",
     "locations": [
       {
         "placeId": "place-gournay-en-bray-normandy-france",
@@ -5309,6 +5771,125 @@
         "photoTitle": "",
         "siteUrl": "https://www.gournay-en-bray.fr/",
         "siteLabel": "Gournay-en-Bray official town site"
+      },
+      {
+        "placeId": "place-fry-eglise-saint-martin-normandy-france",
+        "place": "Église Saint-Martin, Fry, Normandy, France",
+        "siteName": "Église Saint-Martin",
+        "region": "Fry, Normandy, France",
+        "eventType": "La Ferté charter family context",
+        "eventDate": "c. 985 — d. c. 1074",
+        "sourceQuote": "Church at Fry tied to the La Ferté / Sigy ecclesiastical network. Local history states that Gautier de La Ferté, son of Renaud de Gournay, ceded the church to the canons of La Ferté-en-Bray and that it returned to the Abbey of Sigy in 1040.",
+        "lat": 49.530369,
+        "lng": 1.526414,
+        "geocodeBasis": "MonVillageNormand church coordinate",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.sauvegardeartfrancais.fr/projets/fry/",
+        "siteLabel": "Sauvegarde de l’Art Français: Fry, Église Saint-Martin"
+      },
+      {
+        "placeId": "place-gournay-fortifications-tour-du-rempart-normandy-france",
+        "place": "Gournay fortifications / Tour du Rempart, Gournay-en-Bray, Normandy, France",
+        "siteName": "La Tour du Rempart",
+        "region": "Gournay-en-Bray, Normandy, France",
+        "eventType": "inherited frontier stronghold",
+        "eventDate": "c. 985 — d. c. 1074",
+        "sourceQuote": "Surviving remnant of the fortified medieval town and seigneurial defensive system at Gournay-en-Bray. Normandie Tourisme describes one surviving tower, the conical base of another, and the ditches as the remaining traces of the town's defensive work.",
+        "lat": 49.48211,
+        "lng": 1.72608,
+        "geocodeBasis": "published tourism / Seine-Maritime Attractivité point for La Tour du Rempart",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.normandie-tourisme.fr/sites-lieux-de-visites/la-tour-du-rempart/",
+        "siteLabel": "Normandie Tourisme: La Tour du Rempart"
+      },
+      {
+        "placeId": "place-la-ferte-butte-feodale-normandy-france",
+        "place": "Butte féodale / Château de La Ferté, La Ferté-Saint-Samson, Normandy, France",
+        "siteName": "Butte féodale de La Ferté-Saint-Samson",
+        "region": "La Ferté-Saint-Samson, Normandy, France",
+        "eventType": "senior-line brother / charter consent context",
+        "eventDate": "c. 985 — d. c. 1074",
+        "sourceQuote": "Motte / castle site of the La Ferté fortress locality. The official La Ferté-Saint-Samson history page states that the castle occupied the butte, existed by 981, and sat in a naturally strategic marsh-bordered position. This fortress context explains the place-name La Ferté and the site’s importance within the Gournay / La Ferté frontier network.",
+        "lat": 49.578209,
+        "lng": 1.5265335,
+        "geocodeBasis": "published tourism point for the Butte féodale",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.lafertesaintsamson.com/decouvertes/histoire-de-la-ville/",
+        "siteLabel": "La Ferté-Saint-Samson official history page"
+      },
+      {
+        "placeId": "place-la-ferte-en-bray-normandy-france",
+        "place": "La Ferté-en-Bray / La Ferté-Saint-Samson, Normandy, France",
+        "siteName": "",
+        "region": "Normandy, France",
+        "eventType": "consenting brother in La Ferté charter context",
+        "eventDate": "c. 985 — d. c. 1074",
+        "sourceQuote": "Historic Gournay cadet-line fortress locality and priory-foundation place in the Pays de Bray. The locality should be treated separately from the specific castle/butte and the Saint-Pierre-et-Saint-Paul priory/church record.",
+        "lat": 49.57795,
+        "lng": 1.527104,
+        "geocodeBasis": "modern locality / historic core coordinate",
+        "confidence": "Medium",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.lafertesaintsamson.com/decouvertes/histoire-de-la-ville/",
+        "siteLabel": "La Ferté-Saint-Samson official history page"
+      },
+      {
+        "placeId": "place-la-ferte-foundation-endowment-cluster-pays-de-bray-france",
+        "place": "La Ferté foundation endowment cluster, Pays de Bray, France",
+        "siteName": "",
+        "region": "Pays de Bray, France",
+        "eventType": "consenting brother / charter context",
+        "eventDate": "c. 985 — d. c. 1074",
+        "sourceQuote": "Aggregate record for the five churches / localities named in the La Ferté-en-Bray foundation charter: Fry, Argueil, Saint-Samson, Boulay, and Bruquedale. This record prevents loss of the endowment geography while individual place identifications are verified.",
+        "lat": 49.56,
+        "lng": 1.56,
+        "geocodeBasis": "approximate regional centroid near La Ferté / Fry / Argueil; not a single site coordinate",
+        "confidence": "Low",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "",
+        "siteLabel": ""
+      },
+      {
+        "placeId": "place-pays-de-bray-normandy-picardy-france",
+        "place": "Pays de Bray, Normandy / Picardy frontier, France",
+        "siteName": "",
+        "region": "Normandy / Picardy frontier, France",
+        "eventType": "military frontier region",
+        "eventDate": "c. 985 — d. c. 1074",
+        "sourceQuote": "Historic and natural region straddling Normandy and Picardy, forming the frontier landscape of the early Gournay lordship. Gournay-en-Bray, La Ferté, Gaillefontaine, Sigy, Montigny-sur-Andelle, and the Beauvaisis frontier acquisitions should be interpreted within this regional frame.",
+        "lat": 49.55,
+        "lng": 1.55,
+        "geocodeBasis": "approximate regional centroid",
+        "confidence": "Low",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://en.wikipedia.org/wiki/Pays_de_Bray",
+        "siteLabel": "Pays de Bray reference page"
+      },
+      {
+        "placeId": "place-priory-saint-pierre-saint-paul-la-ferte-en-bray-normandy-france",
+        "place": "Priory / Church of Saint-Pierre-et-Saint-Paul, La Ferté-en-Bray, Normandy, France",
+        "siteName": "Église Saint-Pierre et Saint-Paul de La Ferté",
+        "region": "La Ferté-en-Bray, Normandy, France",
+        "eventType": "identified with the consenting brother Hugh in charter context",
+        "eventDate": "c. 985 — d. c. 1074",
+        "sourceQuote": "Church / priory foundation site tied to the 989–996 charter of Gautier de La Ferté, younger son of Renaud de Gournay. The charter names Renaud, Alberade, and Hugh and is the earliest surviving documentary anchor for the early Lords of Gournay.",
+        "lat": 49.57795,
+        "lng": 1.527104,
+        "geocodeBasis": "church / historic priory-site coordinate",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.lafertesaintsamson.com/decouvertes/patrimoine-%C3%A0-voir/",
+        "siteLabel": "La Ferté-Saint-Samson patrimony page"
       }
     ],
     "externalIds": {
@@ -5372,9 +5953,15 @@
     "recordId": "ancestor-g35-renaud-de-gournay",
     "placeRefs": [
       "place-gournay-en-bray-normandy-france",
-      "place-la-ferte-en-bray-normandy-france"
+      "place-la-ferte-en-bray-normandy-france",
+      "place-fry-eglise-saint-martin-normandy-france",
+      "place-la-ferte-butte-feodale-normandy-france",
+      "place-la-ferte-foundation-endowment-cluster-pays-de-bray-france",
+      "place-pays-de-bray-normandy-picardy-france",
+      "place-priory-saint-pierre-saint-paul-la-ferte-en-bray-normandy-france",
+      "place-sigy-saint-martin-priory-normandy-france"
     ],
-    "placeSummary": "Gournay-en-Bray, Normandy, France; La Ferté-en-Bray / La Ferté-Saint-Samson, Normandy, France",
+    "placeSummary": "Gournay-en-Bray, Normandy, France; La Ferté-en-Bray / La Ferté-Saint-Samson, Normandy, France; Église Saint-Martin; +5 more",
     "locations": [
       {
         "placeId": "place-gournay-en-bray-normandy-france",
@@ -5409,6 +5996,108 @@
         "photoTitle": "",
         "siteUrl": "https://www.lafertesaintsamson.com/decouvertes/histoire-de-la-ville/",
         "siteLabel": "La Ferté-Saint-Samson official history page"
+      },
+      {
+        "placeId": "place-fry-eglise-saint-martin-normandy-france",
+        "place": "Église Saint-Martin, Fry, Normandy, France",
+        "siteName": "Église Saint-Martin",
+        "region": "Fry, Normandy, France",
+        "eventType": "Gautier de La Ferté / church endowment context",
+        "eventDate": "c. 970 — dates uncertain",
+        "sourceQuote": "Church at Fry tied to the La Ferté / Sigy ecclesiastical network. Local history states that Gautier de La Ferté, son of Renaud de Gournay, ceded the church to the canons of La Ferté-en-Bray and that it returned to the Abbey of Sigy in 1040.",
+        "lat": 49.530369,
+        "lng": 1.526414,
+        "geocodeBasis": "MonVillageNormand church coordinate",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.sauvegardeartfrancais.fr/projets/fry/",
+        "siteLabel": "Sauvegarde de l’Art Français: Fry, Église Saint-Martin"
+      },
+      {
+        "placeId": "place-la-ferte-butte-feodale-normandy-france",
+        "place": "Butte féodale / Château de La Ferté, La Ferté-Saint-Samson, Normandy, France",
+        "siteName": "Butte féodale de La Ferté-Saint-Samson",
+        "region": "La Ferté-Saint-Samson, Normandy, France",
+        "eventType": "father of Gautier de La Ferté / cadet-line context",
+        "eventDate": "c. 970 — dates uncertain",
+        "sourceQuote": "Motte / castle site of the La Ferté fortress locality. The official La Ferté-Saint-Samson history page states that the castle occupied the butte, existed by 981, and sat in a naturally strategic marsh-bordered position. This fortress context explains the place-name La Ferté and the site’s importance within the Gournay / La Ferté frontier network.",
+        "lat": 49.578209,
+        "lng": 1.5265335,
+        "geocodeBasis": "published tourism point for the Butte féodale",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.lafertesaintsamson.com/decouvertes/histoire-de-la-ville/",
+        "siteLabel": "La Ferté-Saint-Samson official history page"
+      },
+      {
+        "placeId": "place-la-ferte-foundation-endowment-cluster-pays-de-bray-france",
+        "place": "La Ferté foundation endowment cluster, Pays de Bray, France",
+        "siteName": "",
+        "region": "Pays de Bray, France",
+        "eventType": "named family context in La Ferté charter",
+        "eventDate": "c. 970 — dates uncertain",
+        "sourceQuote": "Aggregate record for the five churches / localities named in the La Ferté-en-Bray foundation charter: Fry, Argueil, Saint-Samson, Boulay, and Bruquedale. This record prevents loss of the endowment geography while individual place identifications are verified.",
+        "lat": 49.56,
+        "lng": 1.56,
+        "geocodeBasis": "approximate regional centroid near La Ferté / Fry / Argueil; not a single site coordinate",
+        "confidence": "Low",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "",
+        "siteLabel": ""
+      },
+      {
+        "placeId": "place-pays-de-bray-normandy-picardy-france",
+        "place": "Pays de Bray, Normandy / Picardy frontier, France",
+        "siteName": "",
+        "region": "Normandy / Picardy frontier, France",
+        "eventType": "family lordship region",
+        "eventDate": "c. 970 — dates uncertain",
+        "sourceQuote": "Historic and natural region straddling Normandy and Picardy, forming the frontier landscape of the early Gournay lordship. Gournay-en-Bray, La Ferté, Gaillefontaine, Sigy, Montigny-sur-Andelle, and the Beauvaisis frontier acquisitions should be interpreted within this regional frame.",
+        "lat": 49.55,
+        "lng": 1.55,
+        "geocodeBasis": "approximate regional centroid",
+        "confidence": "Low",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://en.wikipedia.org/wiki/Pays_de_Bray",
+        "siteLabel": "Pays de Bray reference page"
+      },
+      {
+        "placeId": "place-priory-saint-pierre-saint-paul-la-ferte-en-bray-normandy-france",
+        "place": "Priory / Church of Saint-Pierre-et-Saint-Paul, La Ferté-en-Bray, Normandy, France",
+        "siteName": "Église Saint-Pierre et Saint-Paul de La Ferté",
+        "region": "La Ferté-en-Bray, Normandy, France",
+        "eventType": "named as father in foundation charter",
+        "eventDate": "c. 970 — dates uncertain",
+        "sourceQuote": "Church / priory foundation site tied to the 989–996 charter of Gautier de La Ferté, younger son of Renaud de Gournay. The charter names Renaud, Alberade, and Hugh and is the earliest surviving documentary anchor for the early Lords of Gournay.",
+        "lat": 49.57795,
+        "lng": 1.527104,
+        "geocodeBasis": "church / historic priory-site coordinate",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.lafertesaintsamson.com/decouvertes/patrimoine-%C3%A0-voir/",
+        "siteLabel": "La Ferté-Saint-Samson patrimony page"
+      },
+      {
+        "placeId": "place-sigy-saint-martin-priory-normandy-france",
+        "place": "Sigy / Abbaye Saint-Martin, Sigy-en-Bray, Normandy, France",
+        "siteName": "Abbaye Saint-Martin / Église abbatiale Saint-Martin",
+        "region": "Sigy-en-Bray, Normandy, France",
+        "eventType": "La Ferté cadet-line descendant context",
+        "eventDate": "c. 970 — dates uncertain",
+        "sourceQuote": "Early La Ferté / Gournay cadet-line ecclesiastical site. Pettigrew and later summaries place Sigy near La Ferté and tie its foundation to Hugues de La Ferté; Normandy Abbeys describes the abbey's history as closely tied to the lords of La Ferté, descendants of the Gournay family.",
+        "lat": 49.547222,
+        "lng": 1.491389,
+        "geocodeBasis": "modern commune / church-locality coordinate; refine to exact church coordinate if found",
+        "confidence": "Medium",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.normandie-tourisme.fr/sites-lieux-de-visites/abbaye-saint-martin/",
+        "siteLabel": "Normandie Tourisme: Abbaye Saint-Martin"
       }
     ],
     "externalIds": {
@@ -5466,9 +6155,13 @@
     ],
     "recordId": "ancestor-g36-hugh-de-gournay-i",
     "placeRefs": [
-      "place-gournay-en-bray-normandy-france"
+      "place-gournay-en-bray-normandy-france",
+      "place-collegiale-saint-hildevert-gournay-en-bray-normandy-france",
+      "place-gaillefontaine-castle-domain-normandy-france",
+      "place-gournay-fortifications-tour-du-rempart-normandy-france",
+      "place-pays-de-bray-normandy-picardy-france"
     ],
-    "placeSummary": "Gournay-en-Bray, Normandy, France",
+    "placeSummary": "Gournay-en-Bray, Normandy, France; Collégiale Saint-Hildevert; Domaine de Gaillefontaine; +2 more",
     "locations": [
       {
         "placeId": "place-gournay-en-bray-normandy-france",
@@ -5486,6 +6179,74 @@
         "photoTitle": "",
         "siteUrl": "https://www.gournay-en-bray.fr/",
         "siteLabel": "Gournay-en-Bray official town site"
+      },
+      {
+        "placeId": "place-collegiale-saint-hildevert-gournay-en-bray-normandy-france",
+        "place": "Collégiale Saint-Hildevert, Gournay-en-Bray, Normandy, France",
+        "siteName": "Collégiale Saint-Hildevert",
+        "region": "Gournay-en-Bray, Normandy, France",
+        "eventType": "nearby La Tour Hue / citadel context",
+        "eventDate": "c. 920–940 — dates uncertain",
+        "sourceQuote": "Surviving collegiate church at Gournay-en-Bray and the most visible ecclesiastical monument of the Gournay family seat. The church is important both as a medieval architectural survivor and as the focal ecclesiastical site near the old seigneurial fortifications.",
+        "lat": 49.483016,
+        "lng": 1.728259,
+        "geocodeBasis": "church site coordinate",
+        "confidence": "High",
+        "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Gournay-en-Bray_Coll%C3%A9giale_R01.jpg/330px-Gournay-en-Bray_Coll%C3%A9giale_R01.jpg",
+        "photoTitle": "Collégiale Saint-Hildevert, Gournay-en-Bray",
+        "siteUrl": "https://www.normandie-tourisme.fr/sites-lieux-de-visites/collegiale-saint-hildevert/",
+        "siteLabel": "Normandie Tourisme: Collégiale Saint-Hildevert"
+      },
+      {
+        "placeId": "place-gaillefontaine-castle-domain-normandy-france",
+        "place": "Gaillefontaine castle / domain, Normandy, France",
+        "siteName": "Domaine de Gaillefontaine",
+        "region": "Normandy, France",
+        "eventType": "frontier fortification tradition",
+        "eventDate": "c. 920–940 — dates uncertain",
+        "sourceQuote": "Pays de Bray frontier castle site and later domain associated with the Gournay-La Ferté-Gaillefontaine defensive triad. A heritage record describes the motte castrale as testimony to the site's importance on the old frontier between Normandy and the northern royal domain.",
+        "lat": 49.650477933144,
+        "lng": 1.62589488664005,
+        "geocodeBasis": "Monument Historique / POP-derived coordinate for Domaine de Gaillefontaine",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.plan-du-patrimoine.fr/monument-historique/76/gaillefontaine/domaine-de-gaillefontaine/PA00100670/",
+        "siteLabel": "Plan du Patrimoine / POP: Domaine de Gaillefontaine"
+      },
+      {
+        "placeId": "place-gournay-fortifications-tour-du-rempart-normandy-france",
+        "place": "Gournay fortifications / Tour du Rempart, Gournay-en-Bray, Normandy, France",
+        "siteName": "La Tour du Rempart",
+        "region": "Gournay-en-Bray, Normandy, France",
+        "eventType": "traditional fortifier / La Tour Hue context",
+        "eventDate": "c. 920–940 — dates uncertain",
+        "sourceQuote": "Surviving remnant of the fortified medieval town and seigneurial defensive system at Gournay-en-Bray. Normandie Tourisme describes one surviving tower, the conical base of another, and the ditches as the remaining traces of the town's defensive work.",
+        "lat": 49.48211,
+        "lng": 1.72608,
+        "geocodeBasis": "published tourism / Seine-Maritime Attractivité point for La Tour du Rempart",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://www.normandie-tourisme.fr/sites-lieux-de-visites/la-tour-du-rempart/",
+        "siteLabel": "Normandie Tourisme: La Tour du Rempart"
+      },
+      {
+        "placeId": "place-pays-de-bray-normandy-picardy-france",
+        "place": "Pays de Bray, Normandy / Picardy frontier, France",
+        "siteName": "",
+        "region": "Normandy / Picardy frontier, France",
+        "eventType": "frontier fortification region",
+        "eventDate": "c. 920–940 — dates uncertain",
+        "sourceQuote": "Historic and natural region straddling Normandy and Picardy, forming the frontier landscape of the early Gournay lordship. Gournay-en-Bray, La Ferté, Gaillefontaine, Sigy, Montigny-sur-Andelle, and the Beauvaisis frontier acquisitions should be interpreted within this regional frame.",
+        "lat": 49.55,
+        "lng": 1.55,
+        "geocodeBasis": "approximate regional centroid",
+        "confidence": "Low",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://en.wikipedia.org/wiki/Pays_de_Bray",
+        "siteLabel": "Pays de Bray reference page"
       }
     ],
     "externalIds": {
@@ -5555,9 +6316,10 @@
     "recordId": "ancestor-g-37-eudes-odon-de-gournay",
     "placeRefs": [
       "place-gournay-en-bray-normandy-france",
-      "place-scandinavia"
+      "place-scandinavia",
+      "place-pays-de-bray-normandy-picardy-france"
     ],
-    "placeSummary": "Gournay-en-Bray, Normandy, France; Scandinavia",
+    "placeSummary": "Gournay-en-Bray, Normandy, France; Scandinavia; Pays de Bray, Normandy / Picardy frontier, France",
     "locations": [
       {
         "placeId": "place-gournay-en-bray-normandy-france",
@@ -5592,6 +6354,23 @@
         "photoTitle": "",
         "siteUrl": "",
         "siteLabel": ""
+      },
+      {
+        "placeId": "place-pays-de-bray-normandy-picardy-france",
+        "place": "Pays de Bray, Normandy / Picardy frontier, France",
+        "siteName": "",
+        "region": "Normandy / Picardy frontier, France",
+        "eventType": "traditional grant region",
+        "eventDate": "c. 860 — d. after 911, before c. 932",
+        "sourceQuote": "Historic and natural region straddling Normandy and Picardy, forming the frontier landscape of the early Gournay lordship. Gournay-en-Bray, La Ferté, Gaillefontaine, Sigy, Montigny-sur-Andelle, and the Beauvaisis frontier acquisitions should be interpreted within this regional frame.",
+        "lat": 49.55,
+        "lng": 1.55,
+        "geocodeBasis": "approximate regional centroid",
+        "confidence": "Low",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://en.wikipedia.org/wiki/Pays_de_Bray",
+        "siteLabel": "Pays de Bray reference page"
       }
     ],
     "externalIds": {

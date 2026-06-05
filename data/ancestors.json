@@ -119,11 +119,11 @@
     "gen": "G3",
     "name": "Lester Sawyer Gurney III",
     "dates": "1923-2011",
-    "geography": "Springfield, MA; Wellesley Hills, MA; New York City; Fort Monmouth, NJ; Luzon, Philippines; Bristol, RI; New Jersey",
+    "geography": "Springfield, MA; Wellesley Hills, MA; New York City; Fort Monmouth, NJ; Luzon, Philippines; Bristol, RI; Chatham, NJ; Hackettstown, NJ",
     "eraId": "era-modern-america",
     "lineageStatus": "Confirmed",
     "summary": "Springfield-born, Wellesley Hills-raised power engineer and wartime Signal Corps officer; father of Lester Hayes Gurney (G2). A Norwich University civil-engineering cadet, he was commissioned in the Signal Corps in 1944 and served as a first lieutenant with the 536th Signal Heavy Construction Company in the Western Pacific, directing telephone-line construction on Luzon, before a long power-engineering career.",
-    "notables": "Born 10 June 1923 at Springfield, Massachusetts (city-clerk certificate), raised in Wellesley Hills; died 19 December 2011. A Norwich University civil-engineering cadet (1941-1943), he was commissioned a Signal Corps second lieutenant on 25 November 1944 and served as a first lieutenant and outside-plant officer with the 536th Signal Heavy Construction Company, Army Forces Western Pacific, directing telephone-line construction on Luzon and supervising 75 enlisted men, prisoner-of-war labor, and 75 civilian linemen before separating in 1946. Before the war he was an assistant construction engineer for the New England Power Company in Boston; family evidence remembers a long later career with McGraw Edison in New Jersey. Junior deacon of St. Alban's Lodge No. 6, Bristol, Rhode Island, in 1955. Married Edith Walberg Scott on 23 November 1942 in Manhattan and Dorothy Lillian Hoben on 26 June 1965 at Elizabeth, New Jersey.",
+    "notables": "Born 10 June 1923 at Springfield, Massachusetts (city-clerk certificate), raised in Wellesley Hills; died 19 December 2011. A Norwich University civil-engineering cadet (1941-1943), he was commissioned a Signal Corps second lieutenant on 25 November 1944 and served as a first lieutenant and outside-plant officer with the 536th Signal Heavy Construction Company, Army Forces Western Pacific, directing telephone-line construction on Luzon and supervising 75 enlisted men, prisoner-of-war labor, and 75 civilian linemen before separating in 1946. Before the war he was an assistant construction engineer for the New England Power Company in Boston; family evidence remembers a long later career with McGraw Edison in New Jersey. Junior deacon of St. Alban's Lodge No. 6, Bristol, Rhode Island, in 1955. Married Edith Walberg Scott on 23 November 1942 in Manhattan and Dorothy Lillian Hoben on 26 June 1965 at Elizabeth, New Jersey; after Dorothy's death he married Elizabeth Stettler Walker on 25 November 1995 at Chatham, New Jersey.",
     "landHoldings": "-",
     "spouses": [
       {
@@ -135,6 +135,11 @@
         "name": "Dorothy Lillian Hoben",
         "dates": "m. 26 June 1965, Elizabeth, New Jersey; d. 25 December 1994, Morristown, New Jersey",
         "notes": "Marriage certificate and invitation establish surname and date; a family note gives a variant 6 June 1965."
+      },
+      {
+        "name": "Elizabeth Stettler Walker",
+        "dates": "m. 25 November 1995, Chatham, New Jersey; b. 8 June 1918; d. 11 June 2013, Washington Township, New Jersey",
+        "notes": "Third wife; lifelong Morris County schoolteacher and musician, widow of Alan Banham Walker (d. 1980). The couple lived at the Heath Village retirement community; Lester died in 2011 after sixteen years of marriage. New Jersey marriage index, FamilySearch public records, and her 2013 obituary."
       }
     ],
     "children": [
@@ -161,7 +166,10 @@
     },
     "recordId": "ancestor-g3-lester-sawyer-gurney-iii",
     "placeRefs": [
-      "place-new-york-metropolitan-area-usa"
+      "place-new-york-metropolitan-area-usa",
+      "place-wellesley-massachusetts-usa",
+      "place-chatham-new-jersey-usa",
+      "place-hackettstown-new-jersey-usa"
     ]
   },
   {
@@ -835,7 +843,8 @@
       "place-braintree-massachusetts-usa",
       "place-east-dereham-norfolk-england",
       "place-mendon-massachusetts-usa",
-      "place-weymouth-massachusetts-usa"
+      "place-weymouth-massachusetts-usa",
+      "place-billerica-massachusetts-usa"
     ]
   },
   {
@@ -1044,7 +1053,9 @@
       "place-harpley-norfolk-england",
       "place-hingham-norfolk-england",
       "place-irstead-norfolk-england",
-      "place-west-barsham-norfolk-england"
+      "place-west-barsham-norfolk-england",
+      "place-gurneys-manor-hingham-norfolk-england",
+      "place-old-hall-great-ellingham-norfolk-england"
     ]
   },
   {
@@ -1138,7 +1149,9 @@
       "place-great-ellingham-norfolk-england",
       "place-hingham-norfolk-england",
       "place-irstead-norfolk-england",
-      "place-west-barsham-norfolk-england"
+      "place-west-barsham-norfolk-england",
+      "place-gurneys-manor-hingham-norfolk-england",
+      "place-old-hall-great-ellingham-norfolk-england"
     ]
   },
   {
@@ -1229,7 +1242,8 @@
       "place-hingham-norfolk-england",
       "place-irstead-norfolk-england",
       "place-west-barsham-norfolk-england",
-      "place-harpley-norfolk-england"
+      "place-harpley-norfolk-england",
+      "place-gurneys-manor-hingham-norfolk-england"
     ]
   },
   {
@@ -1819,7 +1833,8 @@
     "placeRefs": [
       "place-hardingham-norfolk-england",
       "place-montigny-sur-andelle-normandy-france",
-      "place-runhall-norfolk-england"
+      "place-runhall-norfolk-england",
+      "place-pays-de-bray-normandy-picardy-france"
     ]
   },
   {
@@ -1860,7 +1875,8 @@
     "placeRefs": [
       "place-hardingham-norfolk-england",
       "place-norfolk-england",
-      "place-suffolk-england"
+      "place-suffolk-england",
+      "place-montigny-sur-andelle-normandy-france"
     ]
   },
   {
@@ -1931,7 +1947,15 @@
       "place-cantley-norfolk-england",
       "place-gournay-en-bray-normandy-france",
       "place-lessingham-norfolk-england",
-      "place-norfolk-england"
+      "place-norfolk-england",
+      "place-ecouche-normandy-france",
+      "place-g33-bec-gournay-endowment-cluster-pays-de-bray-france",
+      "place-gaillefontaine-castle-domain-normandy-france",
+      "place-gournay-fortifications-tour-du-rempart-normandy-france",
+      "place-la-ferte-butte-feodale-normandy-france",
+      "place-la-ferte-en-bray-normandy-france",
+      "place-le-bec-hellouin-normandy-france",
+      "place-pays-de-bray-normandy-picardy-france"
     ]
   },
   {
@@ -1976,7 +2000,8 @@
       "place-gournay-en-bray-normandy-france",
       "place-norfolk-england",
       "place-normandy-france",
-      "place-oxfordshire-england"
+      "place-oxfordshire-england",
+      "place-bosc-hyons-boshyon-normandy-france"
     ]
   },
   {
@@ -2010,7 +2035,8 @@
       "place-flegg-norfolk-england",
       "place-gournay-en-bray-normandy-france",
       "place-normandy-france",
-      "place-oxfordshire-england"
+      "place-oxfordshire-england",
+      "place-bellosanne-abbey-bremontier-merval-normandy-france"
     ]
   },
   {
@@ -2056,7 +2082,11 @@
       "place-gournay-en-bray-normandy-france",
       "place-le-bec-hellouin-normandy-france",
       "place-liston-essex-england",
-      "place-norfolk-england"
+      "place-norfolk-england",
+      "place-conquets-hue-de-gournay-beauvaisis-france",
+      "place-ecouche-normandy-france",
+      "place-g33-bec-gournay-endowment-cluster-pays-de-bray-france",
+      "place-pays-de-bray-normandy-picardy-france"
     ]
   },
   {
@@ -2100,7 +2130,14 @@
     },
     "recordId": "ancestor-g34-hugh-de-gournay-ii",
     "placeRefs": [
-      "place-gournay-en-bray-normandy-france"
+      "place-gournay-en-bray-normandy-france",
+      "place-fry-eglise-saint-martin-normandy-france",
+      "place-gournay-fortifications-tour-du-rempart-normandy-france",
+      "place-la-ferte-butte-feodale-normandy-france",
+      "place-la-ferte-en-bray-normandy-france",
+      "place-la-ferte-foundation-endowment-cluster-pays-de-bray-france",
+      "place-pays-de-bray-normandy-picardy-france",
+      "place-priory-saint-pierre-saint-paul-la-ferte-en-bray-normandy-france"
     ]
   },
   {
@@ -2145,7 +2182,13 @@
     "recordId": "ancestor-g35-renaud-de-gournay",
     "placeRefs": [
       "place-gournay-en-bray-normandy-france",
-      "place-la-ferte-en-bray-normandy-france"
+      "place-la-ferte-en-bray-normandy-france",
+      "place-fry-eglise-saint-martin-normandy-france",
+      "place-la-ferte-butte-feodale-normandy-france",
+      "place-la-ferte-foundation-endowment-cluster-pays-de-bray-france",
+      "place-pays-de-bray-normandy-picardy-france",
+      "place-priory-saint-pierre-saint-paul-la-ferte-en-bray-normandy-france",
+      "place-sigy-saint-martin-priory-normandy-france"
     ]
   },
   {
@@ -2184,7 +2227,11 @@
     },
     "recordId": "ancestor-g36-hugh-de-gournay-i",
     "placeRefs": [
-      "place-gournay-en-bray-normandy-france"
+      "place-gournay-en-bray-normandy-france",
+      "place-collegiale-saint-hildevert-gournay-en-bray-normandy-france",
+      "place-gaillefontaine-castle-domain-normandy-france",
+      "place-gournay-fortifications-tour-du-rempart-normandy-france",
+      "place-pays-de-bray-normandy-picardy-france"
     ]
   },
   {
@@ -2234,7 +2281,8 @@
     "recordId": "ancestor-g-37-eudes-odon-de-gournay",
     "placeRefs": [
       "place-gournay-en-bray-normandy-france",
-      "place-scandinavia"
+      "place-scandinavia",
+      "place-pays-de-bray-normandy-picardy-france"
     ]
   },
   {

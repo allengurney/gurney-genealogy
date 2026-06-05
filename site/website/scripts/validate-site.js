@@ -91,7 +91,7 @@ const sitePlaces = readJson(path.join(projectRoot, "_data", "placesCatalog.json"
 const placePages = readJson(path.join(projectRoot, "_data", "placePages.json"), "site place pages data");
 const sourcesCatalog = readJson(path.join(projectRoot, "_data", "sourcesCatalog.json"), "site sources catalog data");
 const canonicalAncestors = readJson(path.join(repoRoot, "data", "ancestors.json"), "canonical ancestors data");
-readJson(path.join(repoRoot, "data", "places.json"), "canonical places data");
+const canonicalPlaces = readJson(path.join(repoRoot, "data", "places.json"), "canonical places data");
 readJson(path.join(repoRoot, "data", "places_detail.json"), "canonical places detail data");
 readJson(path.join(repoRoot, "data", "sources.json"), "canonical sources data");
 
@@ -135,6 +135,56 @@ if (Array.isArray(sourcesCatalog) && !sourcesCatalog.length) {
 if (Array.isArray(canonicalAncestors)) {
   const currentCount = canonicalAncestors.filter(item => item.type === "ancestor").length;
   if (!currentCount) errors.push("data/ancestors.json has no ancestor records");
+}
+
+// Bidirectional place<->ancestor link integrity (canonical data).
+// placeRefs (ancestors.json) drive map markers in the pedigree drawer and ancestor map;
+// ancestorLinks (places.json) drive the places catalog and place pages. Both sides should
+// name each other. Warnings (not errors) so a deliberate asymmetry does not block the build.
+if (Array.isArray(canonicalAncestors) && Array.isArray(canonicalPlaces)) {
+  const recordIds = new Set(canonicalAncestors.filter(item => item.type !== "era" && item.recordId).map(item => item.recordId));
+  const placeIds = new Set(canonicalPlaces.map(place => place.placeId));
+  const forward = new Map(); // recordId -> Set(placeId) from placeRefs
+  canonicalAncestors.forEach(item => {
+    if (item.type === "era" || !item.recordId) return;
+    forward.set(item.recordId, new Set(Array.isArray(item.placeRefs) ? item.placeRefs : []));
+  });
+  const reverse = new Map(); // recordId -> Set(placeId) from ancestorLinks
+  canonicalPlaces.forEach(place => {
+    (Array.isArray(place.ancestorLinks) ? place.ancestorLinks : []).forEach(link => {
+      if (!link || !link.recordId) return;
+      if (!reverse.has(link.recordId)) reverse.set(link.recordId, new Set());
+      reverse.get(link.recordId).add(place.placeId);
+    });
+  });
+
+  const danglingRefs = [];    // placeRef -> unknown placeId
+  const danglingLinks = [];   // ancestorLink -> unknown recordId
+  const missingReverse = [];  // in placeRefs, not in ancestorLinks (place catalog will not list ancestor)
+  const missingForward = [];  // in ancestorLinks, not in placeRefs (ancestor gets no map marker)
+  forward.forEach((pids, recordId) => {
+    pids.forEach(pid => {
+      if (!placeIds.has(pid)) danglingRefs.push(`${recordId} -> ${pid}`);
+      else if (!(reverse.get(recordId) || new Set()).has(pid)) missingReverse.push(`${recordId} -> ${pid}`);
+    });
+  });
+  reverse.forEach((pids, recordId) => {
+    if (!recordIds.has(recordId)) {
+      pids.forEach(pid => danglingLinks.push(`${recordId} -> ${pid}`));
+      return;
+    }
+    pids.forEach(pid => {
+      if (!(forward.get(recordId) || new Set()).has(pid)) missingForward.push(`${recordId} -> ${pid}`);
+    });
+  });
+
+  const reportDrift = (list, label) => {
+    if (list.length) warnings.push(`place-link ${label}: ${list.length} (e.g. ${list.slice(0, 5).join("; ")})`);
+  };
+  reportDrift(danglingRefs, "placeRefs reference an unknown placeId");
+  reportDrift(danglingLinks, "ancestorLinks reference an unknown ancestor recordId");
+  reportDrift(missingForward, "place lists ancestor but ancestor placeRefs omit it (no map marker)");
+  reportDrift(missingReverse, "ancestor placeRefs list place but place ancestorLinks omit it (absent from catalog)");
 }
 
 const requiredFiles = [

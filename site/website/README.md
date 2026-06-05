@@ -1,8 +1,10 @@
 # Gurney Genealogy Library — Project README
 
-**Version:** March 2026  
+**Version:** June 2026  
 **Developer:** Allen Lawrence Gurney, Portland, OR  
 **Stack:** [Eleventy (11ty)](https://www.11ty.dev/) static site generator, deployed to Cloudflare Pages
+
+> New here? Read [`SITE-GUIDE.md`](../../SITE-GUIDE.md) in the repo root first — it is the plain-English orientation. This file is the detailed developer reference.
 
 ---
 
@@ -10,18 +12,27 @@
 
 A static genealogy research site covering 37+ generations of the direct Gurney male line, from Allen Lawrence Gurney (b. 1972) back to Eudes de Gournay, a Viking companion of Rollo who received the Pays de Bray in Normandy at the Treaty of Saint-Clair-sur-Epte (c. 911 AD).
 
-The site has seven published pages plus one non-published template:
+The published page set, grouped as in the site menu (`_data/navigation.js`):
 
-| Page | Source file | Purpose |
-|---|---|---|
-| Homepage | `index.njk` | Dense ancestor spine table; entry point to all research |
-| William Gurney bio | `key-research/brigadier-general-william-gurney.md` | Full biography of the G6 ancestor |
-| John Gurney case file | `key-research/john-gurney-case-file.md` | Formal research case file for G13–G14 origin hypothesis |
-| Ancestor table | `maps-and-lists/ancestor-table.njk` | Full reference table with land holdings and lineage status |
-| Ancestor map | `maps-and-lists/ancestor-map.html` | Interactive Leaflet map passed through unchanged during deployment |
-| AI Assistant Procedure | `key-research/east-dereham-ai-assistant-procedure.md` | Technical workflow record supporting the John Gurney case file |
-| Francis Gurney fact sheet | `fact-sheets/g14-francis-gurney-fact-sheet.md` | Compact structured fact sheet exemplar for future ancestor fact sheets |
-| Fact sheet template (not published) | `templates/ancestor-factsheet-TEMPLATE.md` | Reusable Markdown starting point for future ancestor fact sheets |
+| Section | Page | Source file | Purpose |
+|---|---|---|---|
+| — | Homepage | `index.njk` | Hero + dense ancestor spine table; entry point to all research |
+| Key Research | John Gurney case file | `key-research/john-gurney-case-file.md` | Formal research case file for the G13–G14 origin hypothesis |
+| Key Research | Brig. Gen. William Gurney bio | `key-research/brigadier-general-william-gurney.md` | Full biography of the G6 ancestor |
+| Key Research | Heraldic Chain of Evidence | `key-research/gurney-heraldic-chain-of-evidence.njk` | Heraldic evidence chain for the medieval line |
+| Key Research | AI paleographic analysis | `key-research/east-dereham-ai-assistant-procedure.md` | Workflow record supporting the John Gurney case file |
+| Key Research | AI in genealogy | `key-research/using-gen-ai-in-genealogy.md` | Methodology essay on AI-assisted research |
+| Key Research | Sources | `key-research/sources.njk` | Source catalog, generated from `data/sources.json` |
+| Maps & Lists | Ancestor map | `maps-and-lists/ancestor-map.njk` | Interactive Leaflet map, generated from place/ancestor data via `assets/map-page.js` |
+| Maps & Lists | Pedigree catalog | `maps-and-lists/ancestor-table.njk` | Full reference table with quick and detailed modes |
+| Maps & Lists | Places catalog | `maps-and-lists/places.njk` | Browsable place index, generated from the place spine |
+| Fact Sheets | One page per ancestor | `fact-sheets/g##-*-fact-sheet.md` | Compact structured fact sheets (G02–G37 and related figures) |
+| Research notes | One page per fact sheet | generated from `research/people/*.research.md` | Public research companions at `/research/notes/` |
+| Place pages | One page per place | `research/places/place-pages.njk` + `research/places/*.md` | Per-place narrative at `/research/places/` |
+
+Fact sheets and research notes are generated in bulk during the build, so the
+published total grows as new ancestors are written; it is not a fixed count.
+A reusable, non-published starting point lives at `templates/ancestor-factsheet-TEMPLATE.md`.
 
 ---
 
@@ -30,8 +41,11 @@ The site has seven published pages plus one non-published template:
 > **Priority refactor:** The website currently syncs canonical repo content into `site/website/` before building. A future cleanup should make Eleventy read directly from the canonical root files (`data/`, `fact-sheets/`, and `research/people/`) so generated/synced duplicate Markdown no longer creates Git noise or stale-copy risk.
 
 ```
-_data/
-  ancestors.json       ← SINGLE SOURCE OF TRUTH for all ancestor data
+_data/                 ← GENERATED presentation data (do not hand-edit; rebuilt each build)
+  ancestors.json       ← built from canonical data/ancestors.json + the place spine
+  placesCatalog.json   ← built from data/places.json + data/places_detail.json
+  placePages.json      ← built from the place spine + research/places/*.md
+  sourcesCatalog.json  ← built from data/sources.json
 _includes/
   layouts/
     base.njk           ← Layout for bio + case file pages
@@ -51,8 +65,8 @@ key-research/east-dereham-ai-assistant-procedure.md   ← Technical workflow ref
 templates/ancestor-factsheet-TEMPLATE.md ← Non-published template for future fact sheets
 index.njk                             ← Homepage template (loops over ancestors.json)
 maps-and-lists/ancestor-table.njk                    ← Ancestor table template (loops over ancestors.json)
-maps-and-lists/ancestor-map.html                     ← Passthrough — replace directly, do not inspect or modify during deployment
-robots.txt / sitemap.xml / llms.txt   ← SEO and AI crawler files
+maps-and-lists/ancestor-map.njk                      ← Ancestor map template (generated; uses assets/map-page.js)
+robots.txt                            ← hand-kept crawler file; sitemap.xml / llms.txt are generated at build
 _site/                                ← BUILT OUTPUT — deploy this folder
 ```
 
@@ -118,7 +132,7 @@ This is the central data file. Every ancestor and era divider is one record in a
 
 | Field | Used by | Description |
 |---|---|---|
-| `type` | All templates | `"era"`, `"ancestor"`, or `"collateral"` |
+| `type` | All templates | `"era"`, `"ancestor"`, or `"related"` |
 | `gen` | Both tables | Generation number (G1, G6, G~31, etc.) |
 | `name` | Both tables | Full display name |
 | `dates` | Both tables | Birth–death or active dates |
@@ -136,14 +150,14 @@ This is the central data file. Every ancestor and era divider is one record in a
 
 **Adding new attributes to `ancestors.json` does not break anything.** Templates only reference the fields they use. New fields are silently ignored by existing templates until a template is written to use them.
 
-**Collateral entries** (`"type": "collateral"`) — Ken Gurney, Soren & Ebba — are in the JSON for map reference but are filtered out of both tables by the `{% elif item.type == "ancestor" %}` condition in the templates.
+**Related entries** (`"type": "related"`) are collateral or notable non-direct-line figures (e.g., Anne Boleyn at G17). They are carried in the JSON and rendered with a related-status marker; the generated data flags them with `isRelated: true`. Do not confuse this with direct-line lineage status — see `AGENTS.md` §5.
 
 ---
 
 ## Editing content
 
 ### Ancestor data (both tables update together)
-Edit the canonical root file `data/ancestors v26.json`, then run the data generation/build step. The generated `_data/ancestors.json` file is a site artifact and should not be hand-edited for canonical changes.
+Edit the canonical root file `data/ancestors.json`, then run the data generation/build step. The generated `_data/ancestors.json` file is a site artifact and should not be hand-edited for canonical changes.
 
 ### Homepage and ancestor table layout
 Edit `index.njk` (homepage) or `maps-and-lists/ancestor-table.njk` (ancestor table). These are Nunjucks templates — the loop structure is at the bottom of each file.
@@ -163,7 +177,7 @@ Add one JSON object to `ancestors.json` at the correct position in the array (be
 4. Use a local hero image under `media/` whenever possible; avoid remote hotlinked images so deployments stay stable
 5. Keep the page out of the main nav unless explicitly wanted; use ancestor-table/homepage buttons for access
 6. Add the new fact-sheet button in `_data/ancestors.json` for the relevant ancestor
-7. Update `sitemap.xml` and `llms.txt` when the page is published
+7. Rebuild — `sitemap.xml` and `llms.txt` regenerate automatically to include the new page
 
 ### Editing bio and case file prose
 Open the relevant `.md` file in **Typora** (Windows, $15). Tables render as visual grids. Two image placement patterns:
@@ -199,54 +213,55 @@ npm run watch        # rebuilds automatically as you edit
 
 Deploy: use `npm run package`, then upload the dated zip from `dist/` to Cloudflare Pages.
 
-The build is source-driven. Fact sheets are refreshed from root `fact-sheets/`, paired research companions are generated from `research/people/*.research.md`, and `_data/ancestors.json` is regenerated from `data/ancestors v26.json`, `data/places.json`, and `data/places_detail.json`.
+The build is source-driven. Fact sheets are refreshed from root `fact-sheets/`, paired research companions are generated from `research/people/*.research.md`, and `_data/ancestors.json` is regenerated from `data/ancestors.json`, `data/places.json`, and `data/places_detail.json`.
 
-**Note:** Update `sitemap.xml` and `robots.txt` with your actual Cloudflare Pages domain before deploying.
+**Note:** The public domain lives in `_data/site.json` (`url`). `sitemap.xml`,
+`llms.txt`, and `_redirects` are generated from that during the build — do not
+hand-maintain deployed copies. Only `robots.txt` is a hand-kept passthrough file.
 
 ---
 
 ## Full file map
 
+Files marked **(generated)** are produced by the build from upstream sources and
+should not be hand-edited. See §"Building and deploying" for how they are made.
+
 ```
 gurney-eleventy/
-├── _data/
-│   └── ancestors.json          ← All ancestor data; edit this for data changes
+├── _data/                      ← (generated) presentation data; see Architecture overview
+│   ├── ancestors.json          ← (generated) from canonical data/ancestors.json + place spine
+│   ├── placesCatalog.json      ← (generated) from the place spine
+│   ├── placePages.json         ← (generated) from the place spine + research/places/*.md
+│   ├── sourcesCatalog.json     ← (generated) from data/sources.json
+│   ├── navigation.js           ← menu structure (edit this for nav changes)
+│   └── site.json               ← site-wide settings incl. public URL
 ├── _includes/
-│   ├── layouts/
-│   │   ├── base.njk            ← Standard page layout (bio, case file, ancestor table)
-│   │   ├── home.njk            ← Homepage layout (hero + table)
-│   │   └── case.njk            ← Case file layout (dual titles, sidebar nav)
-│   └── partials/
-│       ├── siteheader.njk      ← Header/menu rendering loop
-│       └── sitefooter.njk      ← Footer
-├── assets/
-│   └── site.css                ← All styles (era colors, table, buttons, layout)
-├── media/
-│   └── *.png, *.jpg            ← Images for bio and case file pages
-├── key-research/brigadier-general-william-gurney.md   ← Biography prose (Markdown)
-├── key-research/john-gurney-case-file.md              ← Case file prose (Markdown)
-├── index.njk                             ← Homepage template
-├── maps-and-lists/ancestor-table.njk                    ← Ancestor table template
-├── maps-and-lists/ancestor-map.html                     ← Map page (passthrough, not managed here)
-├── favicon.png
-├── robots.txt                  ← Search and AI crawler permissions
-├── sitemap.xml                 ← Update domain before deploying
-├── llms.txt                    ← AI crawler content hints
-├── .eleventy.js                ← Eleventy config (shortcodes, passthroughs)
-├── .eleventyignore             ← Excludes README.md from processing
+│   ├── layouts/                ← base.njk, home.njk, case.njk, research.njk
+│   └── partials/               ← siteheader.njk (menu loop), sitefooter.njk, favicon-links.njk
+├── assets/                     ← site.css, explorer.css, refactor.css, phase2.css, *.js
+├── media/                      ← images referenced by pages and fact sheets
+├── scripts/                    ← build pipeline (see §Building and deploying)
+│   ├── sync-site-content.js    ← mirrors fact sheets / companions / case files in
+│   ├── generate-site-data.js   ← builds _data/*.json from canonical data/
+│   ├── clean-site.js           ← clears _site/
+│   ├── finalize-public-site.js ← URL/canonical fixup; generates sitemap, llms.txt, _redirects
+│   ├── validate-site.js        ← data + route + meta-description checks
+│   └── package-site.js         ← zips _site/ into dist/ for upload
+├── key-research/               ← case file, bios, AI pages, sources page (.md and .njk)
+├── fact-sheets/                ← (generated) copies synced from root fact-sheets/
+├── research/                   ← (generated) companions + place pages
+├── maps-and-lists/             ← ancestor-table.njk, ancestor-map.njk, places.njk
+├── index.njk                   ← Homepage template
+├── robots.txt                  ← Search and AI crawler permissions (hand-kept)
+├── .eleventy.js                ← Eleventy config (shortcodes, passthroughs, transforms)
+├── .eleventyignore             ← Excludes README.md etc. from processing
 ├── package.json
-└── _site/                      ← Built output — DEPLOY THIS FOLDER
-    ├── index.html
-    ├── brigadier-general-william-gurney.html
-    ├── john-gurney-case-file.html
-    ├── ancestor-table.html
-    ├── maps-and-lists/ancestor-map.html
-    ├── assets/
-    ├── media/
-    ├── favicon.png
-    ├── robots.txt
-    ├── sitemap.xml
-    └── llms.txt
+├── dist/                       ← (generated) dated upload zips from npm run package
+└── _site/                      ← (generated) BUILT OUTPUT — deploy this folder
+    ├── index.html, key-research/, maps-and-lists/, fact-sheets/, research/
+    ├── assets/, media/, favicon*, robots.txt
+    ├── sitemap.xml, llms.txt    ← (generated by finalize-public-site.js)
+    └── _redirects               ← (generated) Cloudflare 301 redirect rules
 ```
 
 ---
@@ -255,10 +270,10 @@ gurney-eleventy/
 
 The complete project source is self-contained. Key context for a new session:
 
-1. Root `data/ancestors v26.json`, `data/places.json`, and `data/places_detail.json` are authoritative. `_data/ancestors.json` is generated presentation data.
+1. Root `data/ancestors.json`, `data/places.json`, and `data/places_detail.json` are authoritative. `_data/ancestors.json` is generated presentation data.
 2. The site uses Eleventy. The data-driven pages (`index.njk`, `ancestor-table.njk`) loop over generated `ancestors.json` using Nunjucks `{% for item in ancestors %}`.
 3. The prose pages under `key-research/` are Markdown files with Nunjucks shortcodes. They do not pull from `ancestors.json`.
-4. `maps-and-lists/ancestor-map.html` is a pre-built Leaflet map that passes through unchanged. Do not modify it without explicit instruction.
+4. The ancestor map is generated from `maps-and-lists/ancestor-map.njk` and `assets/map-page.js`, reading the same place/ancestor data as the rest of the site. (A legacy standalone `ancestor-map.html` remains in the folder but is no longer built or deployed.)
 5. Navigation structure lives in `_data/navigation.js`. All era colors are CSS classes defined in `assets/site.css` (`.era-modern`, `.era-gilded`, etc.).
 6. To deploy: run `npm run package`, then upload the generated zip from `dist/` to Cloudflare Pages.
 
@@ -267,7 +282,7 @@ The complete project source is self-contained. Key context for a new session:
 ## SEO and AI crawler notes
 
 - `robots.txt` — permits all crawlers including GPTBot, ClaudeBot, and PerplexityBot
-- `sitemap.xml` — lists the current published pages with monthly changefreq
+- `sitemap.xml` — generated each build (`finalize-public-site.js`) listing every public page as a canonical extensionless URL
 - `llms.txt` — AI-readable site description following the emerging llms.txt standard
 - Schema.org `Person` JSON-LD — embedded in the William Gurney biography page
 - Open Graph tags — on all templated pages
@@ -343,8 +358,7 @@ factsheet:
 - page builds cleanly in Eleventy
 - no broken images
 - homepage row and ancestor-table row show the button
-- `sitemap.xml` updated
-- `llms.txt` updated
+- `npm run validate` passes (this also regenerates `sitemap.xml` and `llms.txt`)
 
 ### Drafting handoff
 See `templates/factsheet-drafting-handoff.md` for the clean handoff prompt and drafting rules for a separate chat session.
@@ -366,7 +380,7 @@ The site now uses a **multi-level menu** with always-visible top-level items and
 ### Source directory structure
 ```
 key-research/   ← case file, biographies, AI procedure, AI in genealogy page
-maps-and-lists/ ← ancestor table and passthrough ancestor map
+maps-and-lists/ ← pedigree catalog (ancestor table), generated ancestor map, places catalog
 fact-sheets/    ← all published ancestor fact-sheet Markdown files
 templates/      ← non-published reusable templates and drafting handoff docs
 redirects/      ← root-level backward-compatibility redirect pages
@@ -384,8 +398,13 @@ redirects/      ← root-level backward-compatibility redirect pages
 ### Fact-sheet headline navigation
 Fact sheets render an automatic right-justified generation navigator in the headline row. The left arrow points to the nearest built **earlier** generation fact sheet; the right arrow points to the nearest built **later** generation fact sheet. This is driven from `_data/factsheetIndex.js` and `fact-sheets/fact-sheets.11tydata.js`.
 
-### Passthrough map rule
-`maps-and-lists/ancestor-map.html` is a passthrough artifact. Copy/replace it directly and do not inspect or modify its internals during deployment unless explicitly requested.
+### Ancestor map
+The ancestor map at `/maps-and-lists/ancestor-map.html` is generated from
+`maps-and-lists/ancestor-map.njk` plus `assets/map-page.js`, drawing on the same
+place and ancestor data as the rest of the site (markers are built from
+`placeRefs`/`ancestorLinks` in the canonical data). A legacy standalone
+`maps-and-lists/ancestor-map.html` source file remains in the folder but is no
+longer built or deployed.
 
 
 ## Research Appendix rule for fact sheets

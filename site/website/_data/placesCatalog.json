@@ -252,9 +252,20 @@
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
         "url": "/fact-sheets/g18-william-gurney-v-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g14-edmund-gurney-divine",
+        "type": "related",
+        "gen": "G14",
+        "name": "Edmund Gurney (Puritan Divine)",
+        "dates": "1577-1648",
+        "role": "individual geography",
+        "lineageStatus": "Related - brother of G14 Francis Gurney",
+        "displayLineageStatus": "Related - brother of G14 Francis Gurney",
+        "url": "/fact-sheets/g14-edmund-gurney-divine-related-fact-sheet.html"
       }
     ],
-    "ancestorCount": 20
+    "ancestorCount": 21
   },
   {
     "placeId": "place-west-barsham-norfolk-england",
@@ -847,6 +858,139 @@
     "ancestorCount": 10
   },
   {
+    "placeId": "place-gournay-en-bray-normandy-france",
+    "name": "Gournay-en-Bray, Normandy, France",
+    "title": "Gournay-en-Bray, Normandy, France",
+    "seoTitle": "Gournay-en-Bray, Normandy, France",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Normandy, France",
+    "regionGroup": "europe",
+    "aliases": [
+      "Gournay",
+      "Gournay-en-Bray",
+      "Gournay-en-Bray, Normandy",
+      "Gornacum",
+      "Gornaio",
+      "Gournay honor",
+      "Seigneurie de Gournay"
+    ],
+    "shortDescription": "Ancestral fortress town and seigneurial honor",
+    "longDescription": "Ancestral fortress town, seigneurial honor, and namesake of the Gournay family in the Pays de Bray. This record represents the town and lordship as a whole, not the Collégiale Saint-Hildevert church site or the Tour du Rempart fortification remnant alone.",
+    "placeType": "locality / seigneurial honor",
+    "extantStatus": "extant town; medieval fortress fabric only partly survives",
+    "extantStatusDescription": "Modern Gournay-en-Bray survives as a town. The medieval defensive system is mostly lost or transformed; a separate Tour du Rempart record carries the surviving fortification-remnant detail, and a separate Collégiale Saint-Hildevert record carries the church-specific detail.",
+    "coordinate": {
+      "lat": 49.483148,
+      "lng": 1.727303
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "historic town-core anchor; not a precise castle, tower, or church coordinate",
+    "roles": [
+      "seigneurial seat",
+      "landholding / property reference",
+      "individual geography",
+      "frontier lordship"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://www.gournay-en-bray.fr/",
+    "siteLabel": "Gournay-en-Bray official town site",
+    "researchUrl": "/research/places/gournay-en-bray.html",
+    "researchSlug": "gournay-en-bray",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g-37-eudes-odon-de-gournay",
+        "type": "ancestor",
+        "gen": "G37",
+        "name": "Eudes (Odon) de Gournay",
+        "dates": "c. 860 — d. after 911, before c. 932",
+        "role": "traditional first lord / landholding",
+        "lineageStatus": "Minimal historical record",
+        "displayLineageStatus": "Minimal historical record",
+        "url": "/fact-sheets/g37-eudes-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g36-hugh-de-gournay-i",
+        "type": "ancestor",
+        "gen": "G36",
+        "name": "Hugh de Gournay I",
+        "dates": "c. 920–940 — dates uncertain",
+        "role": "fortifier / inherited lordship",
+        "lineageStatus": "Limited Historical Record",
+        "displayLineageStatus": "Limited Historical Record",
+        "url": "/fact-sheets/g36-hugh-de-gournay-i-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g35-renaud-de-gournay",
+        "type": "ancestor",
+        "gen": "G35",
+        "name": "Renaud de Gournay",
+        "dates": "c. 970 — dates uncertain",
+        "role": "lordship / individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g35-renaud-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g34-hugh-de-gournay-ii",
+        "type": "ancestor",
+        "gen": "G34",
+        "name": "Hugh de Gournay II",
+        "dates": "c. 985 — d. c. 1074",
+        "role": "lordship / individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g34-hugh-de-gournay-ii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g33-hugh-de-gournay-iii",
+        "type": "ancestor",
+        "gen": "G33",
+        "name": "Hugh de Gournay III",
+        "dates": "c. 1020 — d. 1110",
+        "role": "lordship / individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g32-gerard-de-gournay",
+        "type": "ancestor",
+        "gen": "G32",
+        "name": "Gerard de Gournay",
+        "dates": "c. 1040 — d. before 1104, Palestine",
+        "role": "lordship / individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-v-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay V (Senior Baron Line)",
+        "dates": "c. 1148 — d. 25 Oct. 1214, Rouen",
+        "role": "lordship / individual geography",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g32-hugh-de-gournay-iv-senior-baron-line",
+        "type": "related",
+        "gen": "G32",
+        "name": "Hugh de Gournay IV (Senior Baron Line)",
+        "dates": "c. 1098 — d. 1180",
+        "role": "lordship / individual geography",
+        "lineageStatus": "Related",
+        "displayLineageStatus": "Related",
+        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 8
+  },
+  {
     "placeId": "place-pays-de-bray-normandy-picardy-france",
     "name": "Pays de Bray, Normandy / Picardy frontier, France",
     "title": "Pays de Bray, Normandy / Picardy frontier, France",
@@ -966,117 +1110,6 @@
       }
     ],
     "ancestorCount": 7
-  },
-  {
-    "placeId": "place-gournay-en-bray-normandy-france",
-    "name": "Gournay-en-Bray, Normandy, France",
-    "title": "Gournay-en-Bray, Normandy, France",
-    "seoTitle": "Gournay-en-Bray, Normandy, France",
-    "siteName": "",
-    "streetAddress": "",
-    "region": "Normandy, France",
-    "regionGroup": "europe",
-    "aliases": [
-      "Gournay",
-      "Gournay-en-Bray",
-      "Gournay-en-Bray, Normandy",
-      "Gornacum",
-      "Gornaio",
-      "Gournay honor",
-      "Seigneurie de Gournay"
-    ],
-    "shortDescription": "Ancestral fortress town and seigneurial honor",
-    "longDescription": "Ancestral fortress town, seigneurial honor, and namesake of the Gournay family in the Pays de Bray. This record represents the town and lordship as a whole, not the Collégiale Saint-Hildevert church site or the Tour du Rempart fortification remnant alone.",
-    "placeType": "locality / seigneurial honor",
-    "extantStatus": "extant town; medieval fortress fabric only partly survives",
-    "extantStatusDescription": "Modern Gournay-en-Bray survives as a town. The medieval defensive system is mostly lost or transformed; a separate Tour du Rempart record carries the surviving fortification-remnant detail, and a separate Collégiale Saint-Hildevert record carries the church-specific detail.",
-    "coordinate": {
-      "lat": 49.483148,
-      "lng": 1.727303
-    },
-    "coordinatePrecision": "medium",
-    "coordinateBasis": "historic town-core anchor; not a precise castle, tower, or church coordinate",
-    "roles": [
-      "seigneurial seat",
-      "landholding / property reference",
-      "individual geography",
-      "frontier lordship"
-    ],
-    "imageUrl": "",
-    "imageTitle": "",
-    "siteUrl": "https://www.gournay-en-bray.fr/",
-    "siteLabel": "Gournay-en-Bray official town site",
-    "researchUrl": "/research/places/gournay-en-bray.html",
-    "researchSlug": "gournay-en-bray",
-    "ancestorLinks": [
-      {
-        "recordId": "ancestor-g-37-eudes-odon-de-gournay",
-        "type": "ancestor",
-        "gen": "G37",
-        "name": "Eudes (Odon) de Gournay",
-        "dates": "c. 860 — d. after 911, before c. 932",
-        "role": "traditional first lord / landholding",
-        "lineageStatus": "Minimal historical record",
-        "displayLineageStatus": "Minimal historical record",
-        "url": "/fact-sheets/g37-eudes-de-gournay-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g36-hugh-de-gournay-i",
-        "type": "ancestor",
-        "gen": "G36",
-        "name": "Hugh de Gournay I",
-        "dates": "c. 920–940 — dates uncertain",
-        "role": "fortifier / inherited lordship",
-        "lineageStatus": "Limited Historical Record",
-        "displayLineageStatus": "Limited Historical Record",
-        "url": "/fact-sheets/g36-hugh-de-gournay-i-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g35-renaud-de-gournay",
-        "type": "ancestor",
-        "gen": "G35",
-        "name": "Renaud de Gournay",
-        "dates": "c. 970 — dates uncertain",
-        "role": "lordship / individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g35-renaud-de-gournay-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g34-hugh-de-gournay-ii",
-        "type": "ancestor",
-        "gen": "G34",
-        "name": "Hugh de Gournay II",
-        "dates": "c. 985 — d. c. 1074",
-        "role": "lordship / individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g34-hugh-de-gournay-ii-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g33-hugh-de-gournay-iii",
-        "type": "ancestor",
-        "gen": "G33",
-        "name": "Hugh de Gournay III",
-        "dates": "c. 1020 — d. 1110",
-        "role": "lordship / individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g33-hugh-de-gournay-iii-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g32-gerard-de-gournay",
-        "type": "ancestor",
-        "gen": "G32",
-        "name": "Gerard de Gournay",
-        "dates": "c. 1040 — d. before 1104, Palestine",
-        "role": "lordship / individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
-      }
-    ],
-    "ancestorCount": 6
   },
   {
     "placeId": "place-weymouth-massachusetts-usa",
@@ -1556,6 +1589,92 @@
     "ancestorCount": 5
   },
   {
+    "placeId": "place-abington-massachusetts-usa",
+    "name": "Abington, Massachusetts, USA",
+    "title": "Abington, Massachusetts, USA",
+    "seoTitle": "Abington, Massachusetts, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Abington, MA",
+      "Old Abington, Plymouth County, Massachusetts",
+      "Abington, Plymouth County, MA",
+      "First Church of Abington",
+      "First Church of Abington (C.R.1)",
+      "C.R.1, First Church of Abington"
+    ],
+    "shortDescription": "Harden-Gurney baptism and old Abington record cluster",
+    "longDescription": "Old Abington vital and church-record locality where Benjamin, son of Jean, was baptized in the First Church of Abington record stream identified as C.R.1.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 42.1043,
+      "lng": -70.94130862327691
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "church/vital-record context",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/abington-ma.html",
+    "researchSlug": "abington-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G9",
+        "name": "Benjamin Gurney",
+        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "role": "church/vital-record context",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G10",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1704 — before 1772",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G11",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1676 — d. 1738/9",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g9-nathan-gurney-abington",
+        "type": "related",
+        "gen": "G9",
+        "name": "Nathan Gurney (foster father of G9)",
+        "dates": "c. 1700 — after 1751",
+        "role": "individual geography",
+        "lineageStatus": "Related - foster father of G9 Benjamin Gurney; first cousin of G10 Benjamin Gurney",
+        "displayLineageStatus": "Related - foster father of G9 Benjamin Gurney; first cousin of G10 Benjamin Gurney",
+        "url": "/fact-sheets/g09-nathan-gurney-related-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 4
+  },
+  {
     "placeId": "place-braintree-massachusetts-usa",
     "name": "Braintree, Massachusetts, USA",
     "title": "Braintree, Massachusetts, USA",
@@ -1725,6 +1844,95 @@
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
         "url": "/fact-sheets/g07-willis-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 4
+  },
+  {
+    "placeId": "place-abington-whitman-line-massachusetts-usa",
+    "name": "Little Comfort / Abington-Bridgewater line, Massachusetts, USA",
+    "title": "Little Comfort / Abington-Bridgewater line, Massachusetts, USA",
+    "seoTitle": "Little Comfort",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Abington/Whitman line, Massachusetts, USA",
+      "Abington-Whitman line, MA",
+      "Abington-Bridgewater line, Massachusetts, USA",
+      "Little Comfort",
+      "Little Comfort, old Abington",
+      "Little Comfort, Plymouth County, Massachusetts",
+      "East Bridgewater line",
+      "South Abington / Whitman area"
+    ],
+    "shortDescription": "Old Abington boundary district",
+    "longDescription": "Combined old-Abington boundary entry for Little Comfort, the Abington-Bridgewater/East Bridgewater line, and later South Abington/Whitman geography. Hobart places John Harden of Little Comfort near this boundary; the coordinate is an inferred midpoint between modern Abington and East Bridgewater, not a proved household site.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 42.0691,
+      "lng": -70.9523
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "inferred midpoint between Abington and East Bridgewater town coordinates",
+    "roles": [
+      "maternal family context",
+      "individual geography",
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/abington-whitman-line-ma.html",
+    "researchSlug": "abington-whitman-line-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G9",
+        "name": "Benjamin Gurney",
+        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "role": "maternal family context",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G10",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1704 — before 1772",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G11",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1676 — d. 1738/9",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "collateral-g9-nathan-gurney-abington",
+        "type": "related",
+        "gen": "G9",
+        "name": "Nathan Gurney (foster father of G9)",
+        "dates": "c. 1700 — after 1751",
+        "role": "individual geography",
+        "lineageStatus": "Related - foster father of G9 Benjamin Gurney; first cousin of G10 Benjamin Gurney",
+        "displayLineageStatus": "Related - foster father of G9 Benjamin Gurney; first cousin of G10 Benjamin Gurney",
+        "url": "/fact-sheets/g09-nathan-gurney-related-fact-sheet.html"
       }
     ],
     "ancestorCount": 4
@@ -1972,81 +2180,6 @@
       }
     ],
     "ancestorCount": 4
-  },
-  {
-    "placeId": "place-abington-massachusetts-usa",
-    "name": "Abington, Massachusetts, USA",
-    "title": "Abington, Massachusetts, USA",
-    "seoTitle": "Abington, Massachusetts, USA",
-    "siteName": "",
-    "streetAddress": "",
-    "region": "Massachusetts, USA",
-    "regionGroup": "north-america",
-    "aliases": [
-      "Abington, MA",
-      "Old Abington, Plymouth County, Massachusetts",
-      "Abington, Plymouth County, MA",
-      "First Church of Abington",
-      "First Church of Abington (C.R.1)",
-      "C.R.1, First Church of Abington"
-    ],
-    "shortDescription": "Harden-Gurney baptism and old Abington record cluster",
-    "longDescription": "Old Abington vital and church-record locality where Benjamin, son of Jean, was baptized in the First Church of Abington record stream identified as C.R.1.",
-    "placeType": "locality",
-    "extantStatus": "unknown",
-    "extantStatusDescription": "",
-    "coordinate": {
-      "lat": 42.1043,
-      "lng": -70.94130862327691
-    },
-    "coordinatePrecision": "high",
-    "coordinateBasis": "town centroid",
-    "roles": [
-      "church/vital-record context",
-      "individual geography"
-    ],
-    "imageUrl": "",
-    "imageTitle": "",
-    "siteUrl": "",
-    "siteLabel": "",
-    "researchUrl": "/research/places/abington-ma.html",
-    "researchSlug": "abington-ma",
-    "ancestorLinks": [
-      {
-        "recordId": "ancestor-g9-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G9",
-        "name": "Benjamin Gurney",
-        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
-        "role": "church/vital-record context",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g10-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G10",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1704 — before 1772",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g11-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G11",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1676 — d. 1738/9",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
-      }
-    ],
-    "ancestorCount": 3
   },
   {
     "placeId": "place-baconsthorpe-castle-norfolk-england",
@@ -2490,84 +2623,6 @@
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
         "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
-      }
-    ],
-    "ancestorCount": 3
-  },
-  {
-    "placeId": "place-abington-whitman-line-massachusetts-usa",
-    "name": "Little Comfort / Abington-Bridgewater line, Massachusetts, USA",
-    "title": "Little Comfort / Abington-Bridgewater line, Massachusetts, USA",
-    "seoTitle": "Little Comfort",
-    "siteName": "",
-    "streetAddress": "",
-    "region": "Massachusetts, USA",
-    "regionGroup": "north-america",
-    "aliases": [
-      "Abington/Whitman line, Massachusetts, USA",
-      "Abington-Whitman line, MA",
-      "Abington-Bridgewater line, Massachusetts, USA",
-      "Little Comfort",
-      "Little Comfort, old Abington",
-      "Little Comfort, Plymouth County, Massachusetts",
-      "East Bridgewater line",
-      "South Abington / Whitman area"
-    ],
-    "shortDescription": "Old Abington boundary district",
-    "longDescription": "Combined old-Abington boundary entry for Little Comfort, the Abington-Bridgewater/East Bridgewater line, and later South Abington/Whitman geography. Hobart places John Harden of Little Comfort near this boundary; the coordinate is an inferred midpoint between modern Abington and East Bridgewater, not a proved household site.",
-    "placeType": "locality",
-    "extantStatus": "unknown",
-    "extantStatusDescription": "",
-    "coordinate": {
-      "lat": 42.0691,
-      "lng": -70.9523
-    },
-    "coordinatePrecision": "low",
-    "coordinateBasis": "inferred midpoint between Abington and East Bridgewater town coordinates",
-    "roles": [
-      "maternal family context",
-      "individual geography",
-      "landholding / property reference"
-    ],
-    "imageUrl": "",
-    "imageTitle": "",
-    "siteUrl": "",
-    "siteLabel": "",
-    "researchUrl": "/research/places/abington-whitman-line-ma.html",
-    "researchSlug": "abington-whitman-line-ma",
-    "ancestorLinks": [
-      {
-        "recordId": "ancestor-g9-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G9",
-        "name": "Benjamin Gurney",
-        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
-        "role": "maternal family context",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g10-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G10",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1704 — before 1772",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g11-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G11",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1676 — d. 1738/9",
-        "role": "landholding / property reference",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
       }
     ],
     "ancestorCount": 3
@@ -4711,6 +4766,53 @@
     "ancestorCount": 1
   },
   {
+    "placeId": "place-chatham-new-jersey-usa",
+    "name": "Chatham, New Jersey, USA",
+    "title": "Chatham, New Jersey, USA",
+    "seoTitle": "Chatham, New Jersey, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "New Jersey, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Chatham, NJ"
+    ],
+    "shortDescription": "Family residence site",
+    "longDescription": "Morris County home of Lester Sawyer Gurney III (G3); his first wife Edith died here in 1963, public records place him at Chatham from 1975 to 1999, and he married Elizabeth Stettler Walker here in 1995.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 40.7407,
+      "lng": -74.3835
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "residence"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/chatham-nj.html",
+    "researchSlug": "chatham-nj",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g3-lester-sawyer-gurney-iii",
+        "type": "ancestor",
+        "gen": "G3",
+        "name": "Lester Sawyer Gurney III",
+        "dates": "1923-2011",
+        "role": "residence",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g03-lester-sawyer-gurney-iii-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
     "placeId": "place-collegiale-saint-hildevert-gournay-en-bray-normandy-france",
     "name": "Collégiale Saint-Hildevert, Gournay-en-Bray, Normandy, France",
     "title": "Collégiale Saint-Hildevert",
@@ -4962,6 +5064,53 @@
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
         "url": "/fact-sheets/g02-lester-hayes-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-hackettstown-new-jersey-usa",
+    "name": "Hackettstown, New Jersey, USA",
+    "title": "Heath Village retirement community",
+    "seoTitle": "Heath Village retirement community",
+    "siteName": "Heath Village retirement community",
+    "streetAddress": "",
+    "region": "New Jersey, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Hackettstown, NJ"
+    ],
+    "shortDescription": "Family residence site",
+    "longDescription": "Hackettstown-area home of Lester Sawyer Gurney III (G3) and his third wife Elizabeth Stettler Walker at the Heath Village retirement community (in Washington Township) from the late 1990s; public records place him here 1997-2006, and he died in 2011.",
+    "placeType": "locality",
+    "extantStatus": "extant",
+    "extantStatusDescription": "Heath Village retirement community, 430 Schooley's Mountain Road, Hackettstown.",
+    "coordinate": {
+      "lat": 40.854,
+      "lng": -74.829
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "residence"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/hackettstown-nj.html",
+    "researchSlug": "hackettstown-nj",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g3-lester-sawyer-gurney-iii",
+        "type": "ancestor",
+        "gen": "G3",
+        "name": "Lester Sawyer Gurney III",
+        "dates": "1923-2011",
+        "role": "residence",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g03-lester-sawyer-gurney-iii-fact-sheet.html"
       }
     ],
     "ancestorCount": 1
@@ -5529,6 +5678,54 @@
         "lineageStatus": "Related - second cousin, 16 times removed",
         "displayLineageStatus": "Related - second cousin, 16 times removed",
         "url": "/fact-sheets/g17-queen-anne-boleyn-related-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-wellesley-massachusetts-usa",
+    "name": "Wellesley, Massachusetts, USA",
+    "title": "Wellesley, Massachusetts, USA",
+    "seoTitle": "Wellesley, Massachusetts, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Wellesley, MA",
+      "Wellesley Hills"
+    ],
+    "shortDescription": "Family residence site",
+    "longDescription": "Wellesley Hills childhood home of Lester Sawyer Gurney III (G3); the 1940 federal census recorded him there at sixteen in his parents' household.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 42.2968,
+      "lng": -71.2924
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "residence"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/wellesley-ma.html",
+    "researchSlug": "wellesley-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g3-lester-sawyer-gurney-iii",
+        "type": "ancestor",
+        "gen": "G3",
+        "name": "Lester Sawyer Gurney III",
+        "dates": "1923-2011",
+        "role": "residence",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g03-lester-sawyer-gurney-iii-fact-sheet.html"
       }
     ],
     "ancestorCount": 1

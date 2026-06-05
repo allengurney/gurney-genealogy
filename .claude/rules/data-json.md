@@ -30,8 +30,9 @@ Human-facing overview:
 - If a new source is needed, add it to `sources.json` deliberately and then reference it.
 
 ## Cross-file integrity
-- When place references change, keep `places.json` and `places_detail.json` aligned.
-- When ancestor references change, keep relationships, placeRefs, and source references consistent.
+- When place references change, keep `places.json` and `places_detail.json` aligned (one row per `placeId` in each).
+- A place↔ancestor link is bidirectional — write it on **both** sides: `ancestorLinks[].recordId` in `places.json` (feeds the website places catalog and place pages) **and** that ancestor's `placeRefs` in `ancestors.json` (feeds the ancestor's map markers in the pedigree drawer and ancestor map). Updating only one side makes a place appear in the catalog but not on the maps, or the reverse. A new place also needs a `research/places/<filename>.md` companion to match its `filename`. The `site/website` validator (`npm run validate`) warns on either-side drift, dangling refs, and orphan links.
+- Keep ancestor relationships and source references consistent when records change.
 - Do not duplicate long narrative discussion inside JSON when it belongs in research markdown.
 
 ## Geography model
