@@ -38,6 +38,18 @@ Elizabeth (8 June 1918 – 11 June 2013) was a lifelong Morris County resident �
 
 Her birth date is given two ways: the obituary states 8 June 1918, while the FamilySearch public-records index gives 18 June 1918. The obituary (family-supplied) is the preferred reading; the index transposition is the likelier error, but the ten-day variance is unresolved without a primary birth or death record.[^g03-elizabeth-obituary][^g03-us-public-records]
 
+### Occupational and institutional context
+
+<!-- Institutional context gathered by online discovery, June 2026; collector/encyclopedic sources kept here as the discovery trail. Registry sourceIds to be added at promotion. -->
+
+**McGraw Edison.** The firm of G3's long New Jersey career was formed on 2 January 1957 by the merger of McGraw Electric (founded 1900 in Sioux City by Max McGraw) with Thomas A. Edison, Inc. (the Edison company rooted in West Orange, New Jersey), Charles Edison serving as the merged company's first board chairman. McGraw-Edison made a broad range of electrical goods; the side relevant to a "power engineer" was its Power Systems business — the Line Material / Kyle line of distribution transformers, circuit reclosers, sectionalizers, and switchgear (Kyle had merged into Line Material in 1947, which became part of McGraw Electric in 1949). That power-equipment heritage was sold to Cooper Power Systems in 1985. G3's New Jersey residence in Morris County fits an engineer in the company's New Jersey power-equipment orbit rather than its consumer-appliance (Toastmaster) side.[^g03-mcgraw-edison]
+
+**Norwich University.** G3 entered Norwich (Northfield, Vermont) as a civil-engineering cadet in 1941. Founded in 1819 by Captain Alden Partridge, a former superintendent of West Point, Norwich is the oldest private military college in the United States, is recognized by the Department of Defense as the "Birthplace of ROTC," and was the first private college in the nation to teach civil engineering — an apt formation for the third of three generations of Gurney power engineers. G3 left partway through his junior year, in March 1943, for the Army.[^g03-norwich]
+
+**New England Power Company (pre-war).** G3's 1942 civilian job as assistant construction engineer for the New England Power Company, Boston, was not only "his father's firm" but a post on the same Deerfield-River hydroelectric enterprise G4 had spent his career building; details of that enterprise are on G4's companion. The continuity of transmission-line and submarine-cable layout work between father and son is documented in G3's Separation Qualification Record.[^g03-family-papers]
+
+**536th Signal Heavy Construction Company (negative result).** A targeted search for a unit history of the 536th Signal Heavy Construction Company on Luzon (Army Forces Western Pacific, 1945–46) returned no unit-specific published history — only general accounts of the Luzon campaign and the rebuilding of the Philippine communications network. The unit-level record will need the National Personnel Records Center morning reports / unit files rather than a published source.[^g03-536th-negative]
+
 ### Research actions
 
 - Locate G3 full military personnel file (NPRC) for the 536th Signal Heavy Construction Company service and Luzon assignment dates. (Unknown online.)
@@ -69,3 +81,9 @@ Her birth date is given two ways: the obituary states 8 June 1918, while the Fam
 [^g03-census-1940]: "United States, Census, 1940," database with images, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:K4NN-ZHR), entry for Lester Gurney (age 16, son) in the household of Lester and Ethel Gurney, Wellesley Town, Norfolk County, Massachusetts; enumeration district 11-279. Source ID: `us-census-1940`.
 
 [^g03-elizabeth-obituary]: "Elizabeth Stettler Walker Gurney, formerly of Chatham," The Madison Eagle (New Jersey Hills Media Group), 20 June 2013 (https://www.newjerseyhills.com/chatham_courier/obituaries/elizabeth-stettler-walker-gurney-formerly-of-chatham/article_0dae63b8-dea1-11e2-bf91-001a4bcf887a.html). Source ID: `elizabeth-stettler-walker-gurney-obituary`.
+
+[^g03-mcgraw-edison]: "McGraw-Edison," Wikipedia ([en.wikipedia.org/wiki/McGraw-Edison](https://en.wikipedia.org/wiki/McGraw-Edison)); "Cooper power series product history," Eaton ([eaton.com](https://www.eaton.com/us/en-us/company/about-us/our-heritage/cooper-power-series.html)). 1957 McGraw Electric / Thomas A. Edison merger; Line Material / Kyle recloser-and-transformer heritage; 1985 sale of the power-systems business to Cooper. Encyclopedic/collector context; no `data/sources.json` entry yet.
+
+[^g03-norwich]: "Norwich University," Wikipedia ([en.wikipedia.org/wiki/Norwich_University](https://en.wikipedia.org/wiki/Norwich_University)); "University History," Norwich University Catalog ([catalog.norwich.edu/about/history](https://catalog.norwich.edu/about/history)). Founded 1819 by Alden Partridge; oldest private military college; DoD-recognized "Birthplace of ROTC"; first private U.S. college to teach civil engineering. Encyclopedic context; no `data/sources.json` entry yet.
+
+[^g03-536th-negative]: Negative result, online search June 2026: no published unit history located for the 536th Signal Heavy Construction Company, Army Forces Western Pacific, Luzon 1945–46; general Luzon-campaign and Philippine-communications accounts only (e.g., U.S. Army Center of Military History, [history.army.mil](https://www.history.army.mil/books/wwii/beachhd_btlefrnt/ChapterXXI.html)). Unit-level detail will require NPRC morning reports / unit files.
