@@ -1,0 +1,23 @@
+# Python toolchain for local genealogy / PDF / research work in this repo.
+#
+# The Bash tool's MSYS shell has `python` on PATH but NOT `pip` — install with:
+#     python -m pip install -r tools/requirements.txt
+# Installs persist to the user interpreter (%LOCALAPPDATA%\Python\pythoncore-3.14-64).
+
+# PDF text / structure extraction
+pypdf
+pdfplumber          # pulls in pdfminer.six
+PyMuPDF             # imported as `fitz`; also renders pages to images (no poppler needed)
+pypdfium2           # alternative pure-Python PDF renderer
+cryptography        # required by pypdf for encrypted PDFs
+
+# Images
+Pillow
+
+# Web research / scraping
+requests
+beautifulsoup4
+lxml
+
+# Spreadsheets
+openpyxl
