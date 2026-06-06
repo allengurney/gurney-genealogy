@@ -36,21 +36,21 @@ factsheet:
 <div class="facts-vitals-grid">
   <div class="fact-item">
     <div class="fact-label">Born</div>
-    <div class="fact-value">1770. Likely born in Plymouth County, Massachusetts (his father Benjamin G9 sold his Abington land in June 1770 and moved the household to Cummington late that year). Son of Benjamin Gurney (G9). <sup class="fn"><a href="#n1" id="ref-1">1</a></sup></div>
+    <div class="fact-value">About 1770, probably at Bridgewater in Plymouth County, Massachusetts. His father sold the family's Abington land that June and moved the household west to Cummington late in the year, so the precise birthplace sits right on the line between the old home and the new. Son of Benjamin Gurney (G9) and Elizabeth Harden. <sup class="fn"><a href="#n1" id="ref-1">1</a></sup></div>
   </div>
   <div class="fact-item">
     <div class="fact-label">Died</div>
-    <div class="fact-value">Before 1850 — by which date his widow Ruth had joined their son Willis at Flushing, Queens, New York. <sup class="fn"><a href="#n2" id="ref-2">2</a></sup></div>
+    <div class="fact-value">Before 1850 — by which year his widow Ruth had joined their son Willis at Flushing, Queens, New York. Where and exactly when Amos died is not known. <sup class="fn"><a href="#n2" id="ref-2">2</a></sup></div>
   </div>
   <div class="fact-item">
     <div class="fact-label">Occupation</div>
-    <div class="fact-value">Farmer, Cummington, Hampshire County, Massachusetts. Listed as head of household in the 1800 federal census (household structure 10010/20010, consistent with a young farmer's family). <sup class="fn"><a href="#n3" id="ref-3">3</a></sup></div>
+    <div class="fact-value">Farmer, Cummington, Hampshire County, Massachusetts. Head of household in the 1800 federal census, with a young family of several small children. <sup class="fn"><a href="#n3" id="ref-3">3</a></sup></div>
   </div>
   <div class="fact-item fact-item-span-2">
     <div class="fact-label">Marriage</div>
     <div class="fact-value">
       <div class="stacked-records">
-        <div><strong>Ruth Gilbert</strong> — married 29 December 1790, Cummington, Massachusetts. Recorded in the Cummington Vital Records. <sup class="fn"><a href="#n4" id="ref-4">4</a></sup></div>
+        <div><strong>Ruth Gilbert</strong> (born about 1772) — married 29 December 1790 at Cummington, Massachusetts. <sup class="fn"><a href="#n4" id="ref-4">4</a></sup></div>
       </div>
     </div>
   </div>
@@ -61,10 +61,10 @@ factsheet:
 <h2 class="unnumbered">Highlights</h2>
 
 <ul>
-  <li><strong>Born during the family's move to the Massachusetts hill country.</strong> His father Benjamin (G9) sold the Abington land in June 1770 and bought into Cummington (then "Town No. 5") with Silas Reed on 5 November 1770. Amos's birth in 1770 is therefore at the threshold of the family's transplant from old Plymouth County to the new western frontier of Massachusetts settlement. <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></li>
-  <li><strong>Six children born in Cummington — only Willis is documented in detail.</strong> The Cummington Vital Records preserve baptisms or births for six children of Amos and Ruth. The youngest five are not yet individually identified in sources consulted; the eldest, Willis (G7), is the bridge to the New York chapter of the family. <sup class="fn"><a href="#n6" id="ref-6">6</a></sup></li>
-  <li><strong>Left Cummington after 1802.</strong> Family-tradition material has Amos leaving Cummington after 1802, but the destination and circumstances of that move are not yet documented in this project. The widow Ruth's eventual residence with son Willis in Flushing in 1850 is the only firm later record. <sup class="fn"><a href="#n7" id="ref-7">7</a></sup></li>
-  <li><strong>His father's farm specifics are better preserved than his own.</strong> For Benjamin (G9), specific Cummington and Abington deeds survive (1770 sale to Silas Reed; 1787 farm exchange with Philip Shaw, recorded in Foster &amp; Streeter, <em>"Only One Cummington"</em>). Amos himself has left a thinner deed footprint in sources consulted; that is itself a research lead. <sup class="fn"><a href="#n8" id="ref-8">8</a></sup></li>
+  <li><strong>Born in the year the family moved to the Massachusetts hill country.</strong> His father sold the Abington land in June 1770 and bought into Cummington — then a raw frontier town called "Town No. 5" — with Silas Reed that November. Amos's birth fell almost exactly at the family's transplant from old Plymouth County to the western edge of settlement. <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></li>
+  <li><strong>Six children, recorded in the town books.</strong> Amos and Ruth had Amos (who died at four), Willard (who lived a single day), Hannah, Willis, Ruth, and Nathan, all entered in the Cummington town records between 1792 and 1802. The fourth, Willis (G7), carried the line on to New York. <sup class="fn"><a href="#n6" id="ref-6">6</a></sup></li>
+  <li><strong>He vanishes from the record after 1802.</strong> Amos left Cummington sometime after his youngest son was born; family memory points to Flushing on Long Island, but no Gurney appears in the 1820 Flushing census, and no deed, will, or death record for Amos has ever surfaced. He was gone before 1850. <sup class="fn"><a href="#n7" id="ref-7">7</a></sup></li>
+  <li><strong>His widow is the only firm later trace.</strong> By 1850 Ruth, then about 78, was living in Flushing in the household of their son Willis — the single record that shows where the family finally landed. <sup class="fn"><a href="#n8" id="ref-8">8</a></sup></li>
 </ul>
 </section>
 
@@ -80,8 +80,12 @@ factsheet:
     </tr>
   </thead>
   <tbody>
-    <tr><td>Willis Gurney</td><td>c. 1796–98 — before 1870</td><td>G7 in direct line; tailor of Flushing, Queens, NY. <sup class="fn"><a href="#n9" id="ref-9">9</a></sup></td></tr>
-    <tr><td>Five further children</td><td>born Cummington</td><td>Specific names and dates not yet established in sources consulted. <sup class="fn"><a href="#n6" id="ref-6b">6</a></sup></td></tr>
+    <tr><td>Amos Gurney</td><td>1792 – 1796</td><td>Died in childhood, age four. <sup class="fn"><a href="#n6" id="ref-6b">6</a></sup></td></tr>
+    <tr><td>Willard Gurney</td><td>1794</td><td>Born and died the same day, 6 March. <sup class="fn"><a href="#n6" id="ref-6c">6</a></sup></td></tr>
+    <tr><td>Hannah Gurney</td><td>b. 1795</td><td>Born 7 May. <sup class="fn"><a href="#n6" id="ref-6d">6</a></sup></td></tr>
+    <tr><td>Willis Gurney</td><td>c. 1793–96 — before 1870</td><td>Direct line (G7); tailor of Flushing, Queens, New York. The town clerk entered his birth out of order and marked the year "1793 (?)"; census ages point to the mid-1790s. <sup class="fn"><a href="#n9" id="ref-9">9</a></sup></td></tr>
+    <tr><td>Ruth Gurney</td><td>b. 1800</td><td>Born 4 January. <sup class="fn"><a href="#n6" id="ref-6e">6</a></sup></td></tr>
+    <tr><td>Nathan Gurney</td><td>b. 1802</td><td>Born 2 April. <sup class="fn"><a href="#n6" id="ref-6f">6</a></sup></td></tr>
   </tbody>
 </table>
 </section>
@@ -89,26 +93,26 @@ factsheet:
 <section class="fact-section fact-narrative" id="narrative">
 <h2 class="unnumbered">Narrative</h2>
 
-<p>Amos Gurney is the Cummington generation. His father Benjamin (G9) had sold Abington land in June 1770 and bought into Cummington — then a frontier town in the Massachusetts hill country, recently surveyed as "Town No. 5" of the Plantation grants — later that same year. Amos was born in 1770, so his birth and his father's move are essentially simultaneous events. The family-tradition language is that Amos was born in Bridgewater (his father's older Plymouth County connection), but the timing of the Abington-to-Cummington move makes the precise birthplace genuinely uncertain.</p>
+<p>Amos Gurney is the Cummington generation. His father had sold the Abington land in June 1770 and bought into Cummington — then a raw frontier town in the Massachusetts hill country, freshly surveyed as "Town No. 5" — later that same year, and Amos was born into the middle of that move. Family memory placed his birth at Bridgewater, his father's older Plymouth County home, but with the household in transit the precise birthplace is genuinely uncertain. <sup class="fn"><a href="#n1" id="ref-1b">1</a></sup></p>
 
-<p>What is certain is that Amos's adult life played out at Cummington. He married Ruth Gilbert there on 29 December 1790, and the Cummington Vital Records record six of their children born in the town. The 1800 federal census places Amos in Cummington as head of household with the structure 10010/20010 — a married man in his thirties with several young children — exactly what the marriage and birth records imply. Family-tradition material says he "left Cummington after 1802," but where he went is not yet established here.</p>
+<p>His adult life played out at Cummington. He married Ruth Gilbert there on 29 December 1790, and over the next dozen years the town books recorded six children — two of whom, a first son named Amos and an infant Willard, died young. The 1800 census shows him as a farmer in his thirties with a houseful of small children, exactly as the marriage and birth entries imply. <sup class="fn"><a href="#n4" id="ref-4b">4</a></sup><sup class="fn"><a href="#n6" id="ref-6g">6</a></sup></p>
 
-<p>The most concrete later record is indirect: by 1850, Ruth (now widowed) is found in the Flushing, Queens, household of her son Willis, the family's first move to New York. Whether Amos accompanied that move and died in New York, or died earlier in Massachusetts and Ruth joined Willis only after his death, is an open question. Either way, the New York Gurneys begin in Amos's generation.</p>
+<p>Then the record goes quiet. Sometime after his youngest son Nathan was born in 1802, Amos moved his family out of Cummington. Family tradition sends him to Flushing on Long Island, yet the 1820 census there lists no Gurney at all, and no deed, will, or grave has been found to mark where he went or when he died. The one firm later glimpse is indirect: by 1850 his widow Ruth, about seventy-eight, was living in Flushing with their son Willis — the tailor who had carried the family into New York. Whether Amos reached Flushing himself and died there, or died earlier in Massachusetts while Ruth followed Willis afterward, remains unsettled. Either way, the move that would shape the family's next century began in his generation. <sup class="fn"><a href="#n7" id="ref-7b">7</a></sup><sup class="fn"><a href="#n8" id="ref-8b">8</a></sup></p>
 </section>
 
 <section class="fact-section" id="citations">
 <h2 class="unnumbered">Citations</h2>
 
 <ol class="citation-list">
-  <li id="n1">Birth year 1770 from family-tradition material in <code>data/ancestors v26.json</code>, G8 entry. For Benjamin G9's June 1770 land sale at Abington and 5 November 1770 Cummington purchase, see Foster &amp; Streeter, <em>"Only One Cummington"</em> (1974), p. 390. Source ID for Foster &amp; Streeter: <code>foster-streeter-cummington</code>. <a class="citation-back" href="#ref-1">↩</a></li>
-  <li id="n2">Census evidence: Ruth Gurney is found "with son Willis in Flushing, 1850," and Amos is absent. <code>data/ancestors v26.json</code>, G8 entry. <a class="citation-back" href="#ref-2">↩</a></li>
-  <li id="n3">U.S. Federal Census, 1800, Cummington, Hampshire County, Massachusetts (household 10010/20010). <a class="citation-back" href="#ref-3">↩</a></li>
-  <li id="n4">Cummington Vital Records, marriage of Amos Gurney and Ruth Gilbert, 29 December 1790. <a class="citation-back" href="#ref-4">↩</a></li>
-  <li id="n5">Foster &amp; Streeter, <em>"Only One Cummington"</em> (1974), p. 390. Source ID: <code>foster-streeter-cummington</code>. <a class="citation-back" href="#ref-5">↩</a></li>
-  <li id="n6">Cummington Vital Records (six children of Amos Gurney and Ruth Gilbert). <a class="citation-back" href="#ref-6">↩</a></li>
-  <li id="n7">Family-tradition material in <code>data/ancestors v26.json</code>, G8 entry; primary source for the post-1802 Cummington departure not yet identified. <a class="citation-back" href="#ref-7">↩</a></li>
-  <li id="n8">Foster &amp; Streeter, <em>"Only One Cummington"</em> (1974), p. 390 (Benjamin's 1787 farm exchange with Philip Shaw). Source ID: <code>foster-streeter-cummington</code>. Amos-specific Cummington deeds not yet located. <a class="citation-back" href="#ref-8">↩</a></li>
-  <li id="n9">See <a href="/fact-sheets/g07-willis-gurney-fact-sheet.html">Willis Gurney (G7) fact sheet</a>. <a class="citation-back" href="#ref-9">↩</a></li>
+  <li id="n1">Parentage and probable Bridgewater birthplace: Jean Gurney Rigler, <em>The Gurney Family from Aaron to Zuinglius</em> (rev. ed., Honolulu, 1994), Amos Gurney entry — "b. probably in Bridgewater MA, s/o Benjamin &amp; Elizabeth (Harden) Gurney." For the June 1770 sale of the Abington land and the 5 November 1770 Cummington purchase that bracket his birth, see Helen H. Foster and William W. Streeter, <em>Only One Cummington</em> (Cummington Historical Commission, 1974), p. 390. <a class="citation-back" href="#ref-1">↩</a></li>
+  <li id="n2">Amos's widow Ruth is enumerated, aged about 78, in the household of her son Willis at Flushing in the 1850 federal census; Amos himself does not appear in any record after 1802, and his death date and place are unknown. Rigler, <em>Gurney Family from Aaron to Zuinglius</em> (1994), Amos Gurney entry: "He probably died before 1850 when Ruth, age 78 was shown living with her son Willis." <a class="citation-back" href="#ref-2">↩</a></li>
+  <li id="n3">U.S. Federal Census, 1800, Cummington, Hampshire County, Massachusetts — Amos Gurney, head of household. <a class="citation-back" href="#ref-3">↩</a></li>
+  <li id="n4">Marriage of Amos Gurney and Ruth Gilbert, 29 December 1790, Cummington, Massachusetts; Ruth born about 1772. Cummington town vital records; corroborated in Rigler, <em>Gurney Family from Aaron to Zuinglius</em> (1994). <a class="citation-back" href="#ref-4">↩</a></li>
+  <li id="n5">Foster and Streeter, <em>Only One Cummington</em> (1974), p. 390. <a class="citation-back" href="#ref-5">↩</a></li>
+  <li id="n6">Births and deaths of the six children are entered in the Cummington town vital records (indexed in "Massachusetts, Town Clerk, Vital and Town Records, 1626–2001," <a href="https://www.familysearch.org/">FamilySearch</a>) and are listed together in Rigler, <em>Gurney Family from Aaron to Zuinglius</em> (1994), Amos Gurney entry: Amos (1792–96), Willard (1794), Hannah (1795), Willis, Ruth (1800), Nathan (1802). <a class="citation-back" href="#ref-6">↩</a></li>
+  <li id="n7">Rigler, <em>Gurney Family from Aaron to Zuinglius</em> (1994), Amos Gurney entry: "He moved his family from Cummington after 1802 to somewhere &amp; perhaps afterwards to Flushing, Long Island, NY but there were no Gurneys listed in the Fed. Census of 1820 in Flushing." No deed, probate, or burial record for Amos has been located. <a class="citation-back" href="#ref-7">↩</a></li>
+  <li id="n8">U.S. Federal Census, 1850, Flushing, Queens County, New York — Ruth Gurney, aged 78, in the household of Willis Gurney. <a class="citation-back" href="#ref-8">↩</a></li>
+  <li id="n9">See the <a href="/fact-sheets/g07-willis-gurney-fact-sheet.html">Willis Gurney (G7) fact sheet</a>. The Cummington town register enters Willis out of sequence with the clerk's own question mark ("Feb. 23 1793 (?)"); the flagged year cannot stand beside elder brother Amos's birth on 5 November 1792, and the 1850 census age and Willis's 1814 militia service point to the mid-1790s, so the year is left open. <a class="citation-back" href="#ref-9">↩</a></li>
 </ol>
 </section>
 
@@ -130,11 +134,11 @@ factsheet:
   <table class="fact-timeline-table">
     <tbody>
       <tr><th>Year</th><th>Event</th></tr>
-      <tr><td>1770</td><td>Born; same year his father Benjamin sold Abington land and bought into Cummington.</td></tr>
+      <tr><td>c. 1770</td><td>Born; the same year his father sold the Abington land and bought into Cummington.</td></tr>
       <tr><td>1790</td><td>Married Ruth Gilbert at Cummington, 29 December.</td></tr>
-      <tr><td>1790s–1800s</td><td>Six children born to Amos and Ruth at Cummington.</td></tr>
-      <tr><td>1800</td><td>Listed as head of household, Cummington, in the federal census.</td></tr>
-      <tr><td>after 1802</td><td>Family tradition: left Cummington.</td></tr>
+      <tr><td>1792–1802</td><td>Six children born to Amos and Ruth, recorded in the Cummington town books.</td></tr>
+      <tr><td>1800</td><td>Head of household, Cummington, in the federal census.</td></tr>
+      <tr><td>after 1802</td><td>Left Cummington; no Gurney appears in the 1820 Flushing census.</td></tr>
       <tr><td>by 1850</td><td>Widow Ruth living with son Willis at Flushing, Queens, New York.</td></tr>
     </tbody>
   </table>

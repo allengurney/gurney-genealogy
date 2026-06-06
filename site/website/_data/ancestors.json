@@ -907,7 +907,7 @@
     "gen": "G7",
     "genNumber": 7,
     "name": "Willis Gurney",
-    "dates": "c. 1796–98 — before 1870",
+    "dates": "c. 1793–96 — before 1870",
     "geography": "Cummington, MA → Flushing, Queens NY",
     "eraId": "era-early-republic",
     "eraLabel": "Early Republic — Flushing, Queens, New York",
@@ -919,15 +919,15 @@
     "colorTo": "#65618f",
     "lineageStatus": "Confirmed",
     "displayLineageStatus": "",
-    "summary": "The hinge between the Massachusetts farming generations and the New York chapter: a Cummington-born tailor who, by 1830, had moved his family to Flushing, Queens — opening the New York century that would last to G2.",
-    "notables": "Tailor — same trade as the colonial emigrant John Gurney (G13) of Weymouth, six generations earlier — making both Gurney arrivals in America and the family's second migration from Massachusetts to New York occur via tailors named Gurney. Listed at Flushing in the 1830, 1840, and 1850 federal censuses. Married Elizabeth \"Eliza\" A. Lawrence (b. NY); Eliza was a communicant of St. George's Episcopal Church, Flushing, but Willis himself did not attend church. Eight known children, eldest of whom — William Gurney (b. 21 Aug. 1821, Flushing) — became the Civil War colonel of the 127th NY, Bvt. Brigadier General, and commandant of Charleston in 1865 (G6). Whether Willis owned or rented his Flushing premises is undetermined; Queens County deed records 1830–1870 not yet searched.",
+    "summary": "The hinge between the Massachusetts farming generations and the New York chapter: a Cummington-born tailor who, in New York by 1814 and settled at Flushing by the early 1820s, opened the New York century that would last to G2.",
+    "notables": "Tailor — same trade as the colonial emigrant John Gurney (G13) of Weymouth, six generations earlier — making both Gurney arrivals in America and the family's second migration from Massachusetts to New York occur via tailors named Gurney. Served as a private in Col. Edward W. Laight's regiment of New York State militia in 1814 (War of 1812), the family's earliest New York record. Listed at Flushing in the 1830, 1840, and 1850 federal censuses. Married Elizabeth \"Eliza\" A. Lawrence (b. NY); Eliza was a communicant of St. George's Episcopal Church, Flushing, but Willis himself did not attend church. Eight known children, eldest of whom — William Gurney (b. 21 Aug. 1821, Flushing) — became the Civil War colonel of the 127th NY, Bvt. Brigadier General, and commandant of Charleston in 1865 (G6). Whether Willis owned or rented his Flushing premises is undetermined; Queens County deed records 1830–1870 not yet searched.",
     "landHoldings": "Unknown whether owned or rented Flushing premises. Queens County deed records (city register's office, 1830–1870) not yet searched. No property transaction documented in sources consulted.",
     "hasLandHoldings": true,
     "spouses": [
       {
         "name": "Elizabeth 'Eliza' A. Lawrence",
-        "dates": "b. New York",
-        "notes": "Communicant, St. George's Episcopal Church, Flushing"
+        "dates": "b. c. 1799–1802, New York",
+        "notes": "Communicant, St. George's Episcopal Church, Flushing. Maiden name Lawrence supported by daughter Adelia's 1867 marriage record."
       }
     ],
     "children": [
@@ -942,7 +942,8 @@
       },
       {
         "name": "Elizabeth Ann Gurney",
-        "dates": "b. c. 1825"
+        "dates": "b. c. 1825",
+        "notes": "Probably m. — Barto; an 1891 New York death record for Elizabeth A. Barto names her father as Willis G. Gurney"
       },
       {
         "name": "Thomas Gurney",
@@ -955,11 +956,13 @@
       },
       {
         "name": "Ruth Louisa Gurney",
-        "dates": "b. Oct 1834"
+        "dates": "b. Oct 1834 (Rigler 1994 and 1850 census age imply 18 Oct 1837)",
+        "notes": "m. Edward Haight, 22 Apr. 1862; lived in New York City, d. 2 Sept. 1899"
       },
       {
         "name": "Adelia Gurney",
-        "dates": "b. c. 1845"
+        "dates": "b. c. 1845",
+        "notes": "m. Edwin Osborne Chapman, 25 Apr. 1867, New York City"
       },
       {
         "name": "Willis Gurney Jr.",
@@ -998,7 +1001,7 @@
         "siteName": "Dawes Cemetery",
         "region": "Massachusetts, USA",
         "eventType": "individual geography",
-        "eventDate": "c. 1796–98 — before 1870",
+        "eventDate": "c. 1793–96 — before 1870",
         "sourceQuote": "Cummington farm and burial context for Benjamin Gurney G9 after the 1770 move from Abington, with later Amos and Willis Gurney family continuity.",
         "lat": 42.45599577393482,
         "lng": -72.90392454621967,
@@ -1015,7 +1018,7 @@
         "siteName": "",
         "region": "Queens, New York, USA",
         "eventType": "landholding / property reference; individual geography",
-        "eventDate": "c. 1796–98 — before 1870",
+        "eventDate": "c. 1793–96 — before 1870",
         "sourceQuote": "Probable residential base of the Willis/William Gurney family before later Manhattan addresses; ownership versus rental remains unresolved.",
         "lat": 40.7675,
         "lng": -73.8278185347045,
@@ -1061,25 +1064,40 @@
     "lineageStatus": "Confirmed",
     "displayLineageStatus": "",
     "summary": "Cummington, Massachusetts farmer of the western-frontier generation; born in 1770 — the very year his father Benjamin sold Abington land and bought into \"Town No. 5\" with Silas Reed, transplanting the family from old Plymouth County to the Hampshire hills.",
-    "notables": "Married Ruth Gilbert at Cummington, 29 Dec. 1790 (Cummington Vital Records). 1800 federal census: head of household, structure 10010/20010 — a young farmer with several small children. Six children of Amos and Ruth recorded in the Cummington VR; only the eldest, Willis (G7), is documented in detail. Family-tradition material has Amos leaving Cummington after 1802; destination undocumented. By 1850 his widow Ruth is found in the Flushing, Queens household of son Willis — the only firm later record of the household. Whether Amos accompanied that move and died in New York, or died earlier in Massachusetts and Ruth followed Willis afterward, is unresolved.",
+    "notables": "Married Ruth Gilbert (b. c. 1772) at Cummington, 29 Dec. 1790 (Cummington Vital Records). 1800 federal census: head of household, structure 10010/20010 — a young farmer with several small children. Six children recorded in the Cummington town vital records: Amos (1792–96), Willard (1794), Hannah (1795), Willis (G7), Ruth (1800), and Nathan (1802). Left Cummington after 1802; Rigler's 1994 edition suggests 'perhaps Flushing' but notes no Gurneys in the 1820 Flushing census, so the destination is unproven. By 1850 his widow Ruth is found in the Flushing, Queens household of son Willis — the only firm later record of the household. Whether Amos accompanied that move and died in New York, or died earlier in Massachusetts and Ruth followed Willis afterward, is unresolved.",
     "landHoldings": "Farm land in Cummington, Hampshire Co., MA — specific parcel not documented. Family likely held modest farmstead consistent with 1800 census household size (10010/20010).",
     "hasLandHoldings": true,
     "spouses": [
       {
         "name": "Ruth Gilbert",
-        "dates": "m. 29 Dec. 1790, Cummington VR"
+        "dates": "b. c. 1772, MA; m. 29 Dec. 1790, Cummington VR"
       }
     ],
     "children": [
       {
-        "name": "Willis Gurney",
-        "dates": "",
-        "notes": "G7 in direct line"
+        "name": "Amos Gurney",
+        "dates": "b. 5 Nov. 1792, d. 9 Nov. 1796"
       },
       {
-        "name": "Five further children",
-        "dates": "born Cummington",
-        "notes": "Specific names not yet established in sources consulted"
+        "name": "Willard Gurney",
+        "dates": "b. & d. 6 Mar. 1794"
+      },
+      {
+        "name": "Hannah Gurney",
+        "dates": "b. 7 May 1795"
+      },
+      {
+        "name": "Willis Gurney",
+        "dates": "b. c. 1793–96",
+        "notes": "G7 in direct line; town register enters his birth out of sequence as 'Feb. 23 1793 (?)', Rigler 1994 gives c. 1796–98"
+      },
+      {
+        "name": "Ruth Gurney",
+        "dates": "b. 4 Jan. 1800"
+      },
+      {
+        "name": "Nathan Gurney",
+        "dates": "b. 2 Apr. 1802"
       }
     ],
     "buttons": [

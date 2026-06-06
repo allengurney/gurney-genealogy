@@ -59,6 +59,9 @@ body.design-refresh{
 .design-refresh .btn.btn-family-search:hover{background:#dff1e7;border-color:#6fb98e;color:#124c31}
 .design-refresh .btn.btn-external{background:#f7f8fa;color:#3d4655;border-color:#cfd5dd}
 .design-refresh .btn.btn-external:hover{background:#edf1f5;border-color:#b9c3cf;color:#2d3440}
+/* Drawer only: deepen the primary fact-sheet (bio) action so it leads the eye; research notes keep the lighter blue */
+.detail-drawer .detail-actions .btn.btn-bio{background:#0a3d8f;border-color:#07306f}
+.detail-drawer .detail-actions .btn.btn-bio:hover{background:#07306f;border-color:#052757;color:#fff}
 .external-link-mark{margin-left:2px;font-size:.9em;line-height:1}
 
 .hero-art,.aside-card,.explorer-panel,.detail-panel,.stats-strip,.catalog-table-wrap{background:var(--explorer-paper);border:1px solid var(--explorer-rule);border-radius:8px;box-shadow:var(--explorer-shadow)}

@@ -188,11 +188,14 @@ candidate-d-london-context-web-bundle,source,Candidate D London context web bund
 candidate-d-london-grine-grene-index-leads-bundle,source,Candidate D London Grine/Grene index-lead bundle,data/sources.json
 saint-leu-esserent-cartulary-muller,source,"Cartulaire du prieure de Saint-Leu d'Esserent (1080-1538), ed. Muller",data/sources.json
 chronicon-beccensis,source,Chronicon Beccensis Abbatiæ,data/sources.json
+weymouth-classified-record-births-nash,source,"Classified Record of Weymouth Births (Nash copy, 1879)",data/sources.json
+weymouth-classified-record-deaths-nash,source,"Classified Record of Weymouth Deaths (Nash copy, 1879)",data/sources.json
 cleveland-battle-abbey-roll-v2-gurnay,source,"Cleveland, Battle Abbey Roll - Gurnay",data/sources.json
 cleveland-battle-abbey-roll-introduction,source,"Cleveland, Battle Abbey Roll introduction",data/sources.json
 cleveland-battle-abbey-roll-v1-crossrefs,source,"Cleveland, Battle Abbey Roll vol. 1 crossrefs",data/sources.json
 cleveland-battle-abbey-roll-v3-crossrefs,source,"Cleveland, Battle Abbey Roll vol. 3 crossrefs",data/sources.json
 folger-corpus-christi-1619,source,Corpus Christi (1619) - Internet Archive / Folger,data/sources.json
+cummington-vital-records,source,"Cummington, Massachusetts, town vital records (births)",data/sources.json
 daniel-history-england-1613-pt1,source,"Daniel, First Part of the Historie of England (1613)",data/sources.json
 dashwood-visitation-norfolk-1563-vol1-1878,source,"Dashwood, Visitation of Norfolk 1563, vol. 1 (1878)",data/sources.json
 davis-abel-lunt-1963,source,"Davis, Ancestry of Abel Lunt",data/sources.json
@@ -312,6 +315,7 @@ loyd-origins,source,"Loyd, Origins of Some Anglo-Norman Families",data/sources.j
 delisle-critique-of-dg,source,Léopold Delisle's critique of Daniel Gurney,data/sources.json
 macris-mhc,source,MACRIS - Massachusetts Cultural Resource Information System,data/sources.json
 massachusetts-bay-records-v1-1853,source,"Massachusetts Bay Records, vol. 1",data/sources.json
+ma-wills-probate-records,source,"Massachusetts Wills and Probate Records, 1635-1991",data/sources.json
 may-henry-gurney-spenser-2005,source,"May, Henry Gurney reads Spenser",data/sources.json
 medievalgenealogy-gerbod-gundred-documents,source,MedievalGenealogy.org.uk - Gerbod and Gundred documents,data/sources.json
 medievalgenealogy-cp25-1-21-112-stone-hartwell,source,"medievalgenealogy.org.uk — CP 25/1/21/112 fine, Stone and Hartwell, Bucks",data/sources.json
@@ -330,6 +334,7 @@ nehgr-49-genealogical-gleanings-john-lewis,source,"NEHGR 49 - Genealogical Glean
 nehgr-62-94,source,NEHGR 62:94,data/sources.json
 nj-marriage-index-1901-2016,source,"New Jersey Marriage Index, 1901-2016",data/sources.json
 nyclipper-1895-08-patchogue-fauntleroy,source,"New York Clipper, August 1895 — Patchogue Lord Fauntleroy notice",data/sources.json
+ny-war-1812-payroll-abstracts,source,New York War of 1812 militia payroll abstracts,data/sources.json
 nher-mnf9108-old-hall-great-ellingham,source,"NHER MNF9108 — Old Hall, Great Ellingham",data/sources.json
 nher-great-ellingham-parish-summary,source,NHER Parish Summary — Great Ellingham,data/sources.json
 nro-ncc-wills-registers,source,"Norfolk Record Office, NCC Will Registers",data/sources.json
@@ -354,6 +359,7 @@ orderic-vitalis-chibnall-vol-6,source,"Orderic Vitalis, Historia Aecclesiastica,
 ormerod-strigulensia-1861,source,"Ormerod, Strigulensia (1861)",data/sources.json
 ota-corpus-christi-1619,source,OTA - Corpus Christi (1619),data/sources.json
 ota-romish-chaine-1624,source,OTA - The Romish chaine (1624),data/sources.json
+paige-list-freemen-massachusetts-1849,source,"Paige, List of Freemen of Massachusetts (1849)",data/sources.json
 painchault-gaillefontaine-2012,source,"Painchault, Gaillefontaine fortification (PURH 2012)",data/sources.json
 palgrave-history-england-normandy-1864,source,"Palgrave, History of England and Normandy",data/sources.json
 palmer-perlustration-yarmouth-1872,source,"Palmer, Perlustration of Great Yarmouth (1872)",data/sources.json

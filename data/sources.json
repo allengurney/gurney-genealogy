@@ -1999,6 +1999,39 @@
       "validationPath": "sources/validations/rigler-genealogy-notes-c1980.md",
       "notes": "Five Family Group Record worksheets compiling the direct American line Richard-2 (G12) through Amos (G8), signed Robert G. Rigler, M.D., of Honolulu - the earlier working draft behind Jean Gurney Rigler's 1994 published edition (rigler-gurney-family-aaron-zuinglius-1994), which supersedes them where they differ. Page images held local-only (copyright) under mediaPath/_local; transcription including the worksheets' Sources-of-Information boxes at corpusPath. Worksheet-only details absent from the 1994 edition are carried at lower weight per the superseded-drafts citation rule. Sub-authorities the worksheets cite (Anna Gurney Papers at the Dyer Memorial Library, Abington; Nahum Mitchell, History of Bridgewater; town vital records) are cited through the worksheet, not minted separately."
     },
+    "cummington-vital-records": {
+      "shortTitle": "Cummington, Massachusetts, town vital records (births)",
+      "citation": "Cummington, Hampshire County, Massachusetts. Town clerk's register of births, page 213 (births under 'G'). Image: 'Massachusetts, U.S., Town and Vital Records, 1620-1988' (Ancestry); index: 'Massachusetts, Town Clerk, Vital and Town Records, 1626-2001' (FamilySearch).",
+      "archive": "Massachusetts town/vital records; Ancestry image and FamilySearch index",
+      "url": "https://www.familysearch.org/ark:/61903/1:1:F4V6-Z38",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/cummington-vital-records-gurney-births.md",
+      "mediaPath": "sources/media/cummington-vital-records/",
+      "validationPath": "sources/validations/cummington-vital-records.md",
+      "notes": "Contemporary town register page 213 records the Cummington Gurney births under 'G,' including the five in-sequence children of Amos & Ruth Gurney (Amos 5 Nov 1792, Willard 6 Mar 1794, Hannah 7 May 1795, Ruth 4 Jan 1800, Nathan 2 Apr 1802) and a sixth, Willis, entered out of sequence at the foot of the section with the year flagged by the clerk's own question mark ('Feb 23 1793 (?)'). Confirms the Amos G8 child set and frames the contested Willis G7 birth. Page image supplied via chat (Ancestry), held local-only under mediaPath/_local."
+    },
+    "ny-war-1812-payroll-abstracts": {
+      "shortTitle": "New York War of 1812 militia payroll abstracts",
+      "citation": "War of 1812 abstracts of payrolls for New York State militia ('payroll cards'), 1812-1814. Series B0810, New York (State) Adjutant General's Office. New York State Archives, Albany. Database: Ancestry.com, 'New York, U.S., War of 1812 Payroll Abstracts for New York State Militia, 1812-1815' (Provo, UT, 2013).",
+      "archive": "New York State Archives, Albany (Series B0810); Ancestry database image",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": "sources/media/ny-war-1812-payroll-abstracts/",
+      "validationPath": "sources/validations/ny-war-1812-payroll-abstracts.md",
+      "notes": "Payroll card for Willis Gurney, Private, 10th Brigade, Capt. George Englehart's company, Col. Edward W. Laight's regiment of New York State militia; paid 2 Sept - 2 Oct 1814; remark 'Deserted and was recovered & discharged by Col. Laight Oct 8th'; signed J. T. Watson; Roll 2378. Places a Willis Gurney - almost certainly G7 - in New York militia service in 1814, the earliest documented New York presence of the family. Card image supplied via chat (Ancestry), held local-only under mediaPath/_local."
+    },
+    "ma-wills-probate-records": {
+      "shortTitle": "Massachusetts Wills and Probate Records, 1635-1991",
+      "citation": "Massachusetts, U.S., Wills and Probate Records, 1635-1991 (Ancestry.com, 2015). Original data: Massachusetts Probate Court records (Plymouth County), Probate Records, 1686-1903.",
+      "archive": "Plymouth County (Massachusetts) Probate Court; Ancestry database image",
+      "url": "https://www.ancestry.com/search/collections/9069/records/716357",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/plymouth-probate-benjamin-gurney-g11-will-1738.md",
+      "mediaPath": "sources/media/ma-wills-probate-records/",
+      "validationPath": "sources/validations/ma-wills-probate-records.md",
+      "notes": "Ancestry collection of Massachusetts probate images. Examined: the will of Benjamin Gurney Sen.r of Middleborough (G11; Rigler's Benjamin-3), Plymouth County Probate vol. 8, pp. 98-99 - dated 4 May 1738, proved 2 July 1739, signed by mark; executors wife Rebekah and son Benjamin (G10); legatees son Benjamin and daughter Rebeckah Taylor (wife of Daniel Taylor); witnesses James Whaley, Gershom Sa[m]son, Nehemiah Bennett; before John Cushing, Judge of Probate. Verbatim transcription at corpusPath; page image supplied via chat, held local-only under mediaPath/_local."
+    },
     "anderson-great-migration-begins-v1-baxter": {
       "shortTitle": "Anderson, Great Migration Begins vol. 1 - Gregory Baxter",
       "citation": "Anderson, Robert Charles. The Great Migration Begins: Immigrants to New England, 1620-1633. Vol. 1. Boston: New England Historic Genealogical Society, 2012, Gregory Baxter profile, p. 138.",
@@ -3263,6 +3296,37 @@
       "mediaPath": null,
       "validationPath": "sources/validations/tyrwhitt-canterbury-tales-1798-v2.md",
       "notes": "Notes volume of Tyrwhitt's standard late-18th-c. critical edition of Chaucer. The note to General Prologue v. 43 (the Knight) at p. 392 reproduces the full French epitaph of Sir Matheu de Gourney from Leland's Itinerary (vol. iii p. xi), names the campaigns (Benamaryn, siege of Algezire, L'Escluse, Crefcy, Deyngeneffe, Peyteres, Nazare, Ozrey, et plusours autres batailles), and supplies the death year 1406 and age 96. Closer to Leland than Pettigrew's later paraphrase; supplies verbatim French text. Tyrwhitt frames Sir Matthew as a near-contemporary of Chaucer's fictional Knight and notes Chaucer's puzzling choice of Alexandria + Lettowe rather than Crecy + Poitiers as the Knight's listed campaigns."
+    },
+    "paige-list-freemen-massachusetts-1849": {
+      "shortTitle": "Paige, List of Freemen of Massachusetts (1849)",
+      "citation": "Paige, Lucius R. List of Freemen of Massachusetts, 1630-1691. Boston: New England Historic Genealogical Society, 1849. Database: Ancestry.com, 'Massachusetts, U.S., Applications of Freemen, 1630-1691' (Provo, UT: Ancestry.com Operations Inc., 2000), collection 4296.",
+      "archive": "New England Historic Genealogical Society (Paige, 1849); Ancestry database, collection 4296",
+      "url": "https://www.ancestry.com/search/collections/4296/records/3598",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/paige-list-freemen-massachusetts-1849.md",
+      "notes": "Index of Massachusetts Bay freeman admissions/applications keyed to the Colony Records (C.R.). Richard Gurney, application 12 Oct 1681, residence Weymouth (C.R. Vol. V, pp. 320-321) confirms the G12 Richard freeman admission. A separate entry, John Gurnell, application 10 May 1643, residence Massachusetts (C.R. Vol. II, pp. 27-28), is a distinct surname (Gurnell) - corroborated by a 30 Jul 1675 Dorchester death entry reading Gurnell - not the emigrant John Gurney-1 (G13); see the G13 companion disambiguation note. Index-level transcription, not yet image-verified against the Colony Records."
+    },
+    "weymouth-classified-record-births-nash": {
+      "shortTitle": "Classified Record of Weymouth Births (Nash copy, 1879)",
+      "citation": "Town of Weymouth, Massachusetts. \"Classified Record of Weymouth Births to 1843-4,\" manuscript copied in 1879 by Gilbert Nash and purchased by the Town of Weymouth, March 1890; pp. 74-75 (Gurney). Database: Ancestry.com, 'Massachusetts, U.S., Town and Vital Records, 1620-1988' (Provo, UT: Ancestry.com Operations, Inc., 2011); original data: Town and City Clerks of Massachusetts, Massachusetts Vital and Town Records (Provo, UT: Holbrook Research Institute).",
+      "archive": "Town of Weymouth (Nash manuscript copy, 1879); Ancestry/Holbrook database, collection 2495",
+      "url": "https://www.ancestry.com/search/collections/2495/records/14720071",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": "sources/media/weymouth-classified-record-births-nash/",
+      "notes": "Manuscript vital register alphabetised by surname, the town-record layer underlying the printed History of Weymouth (history-of-weymouth) and distinct from Nash's printed Historical Sketch (nash-historical-sketch-weymouth-1885). The Gurney section (p. 75) registers thirteen births 1656-1732: children of Richard2 & Rebecca (Richard 18 Jan 1656; Joseph 22 Feb 1664; Mary 9 Sept 1667); Elizabeth d. John3 & Elizabeth 5 May 1689; children of Zachariah3 & Mary (Zechariah 19 Nov 1695; Joseph 7 Mar 1698; Jacob 31 Oct 1706; Mary 24 Nov 1711); Rebecca d. Benjamin (G11) & Rebecca 22 Nov 1702; children of Zachariah4 & Sarah (Sarah 7 May 1727; Zechariah 7 Mar 1729; Elisha 30 June 1731); Elijah s. Nathan & Sarah 15 May 1732. Provides town-record confirmation of birth dates otherwise carried from Rigler and the History of Weymouth. Page image (subscription) held local-only under mediaPath/_local; transcription on the G12 Richard companion. The eldest sons John (c.1654/8) and Zachariah3 (c.1660) and Benjamin G11 (c.1676) are not in the Gurney section."
+    },
+    "weymouth-classified-record-deaths-nash": {
+      "shortTitle": "Classified Record of Weymouth Deaths (Nash copy, 1879)",
+      "citation": "Town of Weymouth, Massachusetts. \"Classified Record of Weymouth Deaths,\" manuscript copied in 1879 by Gilbert Nash (companion volume to the Classified Record of Births; the title page notes '2 vols'), purchased by the Town of Weymouth, March 1890; pp. 208-209 (Gurney). Database: Ancestry.com, 'Massachusetts, U.S., Town and Vital Records, 1620-1988' (Provo, UT: Ancestry.com Operations, Inc., 2011); original data: Town and City Clerks of Massachusetts, Massachusetts Vital and Town Records (Provo, UT: Holbrook Research Institute).",
+      "archive": "Town of Weymouth (Nash manuscript copy, 1879); Ancestry/Holbrook database, collection 2495",
+      "url": "https://www.ancestry.com/search/collections/2495",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": "sources/media/weymouth-classified-record-deaths-nash/",
+      "notes": "Deaths companion volume to weymouth-classified-record-births-nash, same Nash 1879 classified-record project. The Gurney section (p. 208) records six deaths: Richard (Oct. 1719); Zechariah Senior (27 Oct. 1732); Mary (14 Feb. 1736); Joseph Senior (14 Dec. 1739); Jacob (1 Sept. 1793, aged 87); Elizabeth wife of Jacob (19 Sept. 1794, aged 78). 'Richard Oct. 1719' is the primary entry behind the History-of-Weymouth death-year error: it is Richard3 (b. 1656, unmarried), the son, not Richard2/G12 (d. Oct. 1691). Gives exact death dates for Richard2's children Joseph (b. 1664/5, d. 14 Dec. 1739, 'Senior' vs his nephew Joseph b. 1698) and Mary (b. 1667, d. 14 Feb. 1736 - the unmarried daughter on the no-'wife of' reading; History of Weymouth instead read this Mary as Zachariah3's wife Mary Benson) and confirms Zachariah3 (Senior) d. 27 Oct. 1732. Jacob (b. 1706) and his wife Elizabeth are later collateral. Page image (subscription) held local-only under mediaPath/_local; transcription on the G12 Richard companion."
     }
   }
 }

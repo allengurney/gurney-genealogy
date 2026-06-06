@@ -33,6 +33,10 @@ Hobart's Abington Gurney register gives Nathan and Sarah's children with birth m
 
 Rigler (p. 182) supplies the eldest child Martha and the marriages; Hobart's register, which begins at Rebecca, is the source of the older nine-child list. The two compiled accounts otherwise agree on the sequence.[^rigler-nathan][^hobart-register]
 
+One of the children, **Elijah (b. 15 May 1732)**, also surfaces in the **Weymouth** town birth register as "Elijah, s[on] of Nathan & Sarah," same date — a town-record confirmation of a birth otherwise carried only from the compiled Abington accounts. The Weymouth (not Abington) registration is a minor unresolved wrinkle: either the family still entered some births in their ancestral town after Nathan's 1725 Abington marriage, or Hobart's "Abington" attribution for the earliest children is looser than the register implies. Not resolved here.[^weymouth-births-nathan]
+
+[^weymouth-births-nathan]: "Classified Record of Weymouth Births [to 1843–4]," p. 75 (Gurney section), manuscript copied 1879 by Gilbert Nash, purchased by the Town of Weymouth March 1890; Ancestry, "Massachusetts, U.S., Town and Vital Records, 1620–1988" (Holbrook), [collection 2495, record 14720071](https://www.ancestry.com/search/collections/2495/records/14720071). Full Gurney-section transcription on the [G12 Richard companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g12-richard-gurney-fact-sheet.research.md); page image local-only at `sources/media/weymouth-classified-record-births-nash/_local/`. Source ID: `weymouth-classified-record-births-nash`.
+
 Benjamin G9 (bpt. 30 May 1730) was almost exactly the age of Lemuel and slightly younger than Rebecca; he grew up among ten Gurney foster-siblings at Little Comfort. The eldest, **Martha, born 24 July 1725** — just over two months after the **12 May 1725** marriage — both fixes the marriage date and explains the church's fornication citation that Rigler records.[^rigler-nathan]
 
 Nathan died at Abington on 17 April 1786; Sarah died in 1788.[^rigler-nathan]

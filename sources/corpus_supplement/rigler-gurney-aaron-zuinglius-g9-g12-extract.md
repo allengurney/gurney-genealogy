@@ -1,8 +1,8 @@
-# Rigler, *The Gurney Family from Aaron to Zuinglius* (1994) — direct-line entries G9–G12
+# Rigler, *The Gurney Family from Aaron to Zuinglius* (1994) — direct-line entries G7–G12
 
 Source ID: `rigler-gurney-family-aaron-zuinglius-1994`
 
-Working transcription of the four direct-line entries (Richard-2 → Benjamin-5) from Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius: A Genealogical Dictionary; Some Descendants of Richard Gurney Who Settled at Weymouth, MA before 1656*, rev. and expanded ed. (Honolulu: J. G. Rigler, 1994). Transcribed from page scans held local-only (copyright) at `sources/media/rigler-gurney-family-aaron-zuinglius-1994/_local/`. Rigler's in-line citations are preserved. Readings are faithful to the printed text; a handful of uncertain characters are marked `[?]`.
+Working transcription of the six direct-line entries (Richard-2 → Willis-7) from Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius: A Genealogical Dictionary; Some Descendants of Richard Gurney Who Settled at Weymouth, MA before 1656*, rev. and expanded ed. (Honolulu: J. G. Rigler, 1994). Transcribed from page scans held local-only (copyright) at `sources/media/rigler-gurney-family-aaron-zuinglius-1994/_local/`. Rigler's in-line citations are preserved. Readings are faithful to the printed text; a handful of uncertain characters are marked `[?]`.
 
 ---
 
@@ -75,6 +75,29 @@ Children:
 - + Asa, b. 24 Oct. 1758 Bridgewater, m. Molly Reed.
 - Jane.
 - + Amos, m. Ruth Gilbert. [G8 in the direct line]
+
+## AMOS GURNEY-6 (Benjamin-5,4,3, Richard-2) (pp. 9–10) — G8 in the direct line
+
+AMOS GURNEY-6 (Benjamin-5,4,3, Richard-2) was b. probably in Bridgewater MA, s/o Benjamin & Elizabeth (Harden) Gurney & moved with his parents to Town # 5, now Cummington, Hampshire Co. MA about 1770. He m. 29 Dec. 1790 Cummington, Ruth Gilbert, b.c. 1772 MA. (Cummington VR) He was listed in the 1800 Fed. Census, Cummington MA 10010/20010. He moved his family from Cummington after 1802 to somewhere & perhaps afterwards to Flushing, Long Island, NY but there were no Gurneys listed in the Fed. Census of 1820 in Flushing. He probably died before 1850 when Ruth, age 78 was shown living with her son Willis & his family in Flushing, Queens Co. NY. (1850 Fed. Census)
+
+Children: b. Cummington MA VR
+- Amos, b. 5 Nov. 1792, d. 9 Nov. 1796.
+- Willard, b. & d. 6 March 1794.
+- Hannah, b. 7 May 1795.
+- + Willis, b.c. 1796-98, m. Elizabeth. [G7 in the direct line]
+- Ruth, b. 4 Jan. 1800.
+- Nathan, b. 2 Apr. 1802.
+- perhaps more
+
+## WILLIS GURNEY-7 (Amos-6, Benjamin-5,4,3, Richard-2) (p. 9) — G7 in the direct line
+
+WILLIS GURNEY-7 (Amos-6, Benjamin-5,4,3, Richard-2) was b.c. 1796-98 in Cummington, Hampshire Co. MA, s/o Amos & Ruth (Gilbert) Gurney. He was a tailor & m. Elizabeth "Eliza" "Liza A.", b.c. 1799-1802 NY. He was listed in the 1830, 1840 & in the 1850 Fed. Census of Flushing, Queens Co. NY, age 55, with his wife Eliza age 48. Living with his family in 1850 was his mother, Ruth Gurney, age 78. He probably d. before 1870 when Liza A. Gurney, age 71 was listed alone in the census for Flushing, Queens Co. NY.
+
+Children:
+- + William, b. 21 Aug. 1821 Flushing NY, m. 1. Caroline E., 2. Mary Jane Fish/Fiske. [G6 in the direct line]
+- Ruth Louisa, b. 18 Oct. 1837 Flushing NY, m. 22 Apr. 1862, Edward Haight & lived in New York City where she d. 2 Sept. 1899.
+- Willis, b.c. 1844 Flushing.
+- Adelsia or Adelia, b.c. 1845 Flushing, m. perhaps Ed Chapman.
 
 ## NATHAN GURNEY-4 (Zachariah-3, Richard-2) (p. 182) — collateral; foster father of Benjamin-5 (G9)
 

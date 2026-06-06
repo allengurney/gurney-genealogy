@@ -660,6 +660,18 @@
     "notes": "Edmund Gurnay's 1619 treatise against transubstantiation; sermon on Matthew 26:26; STC 12527. Online book scan: https://archive.org/details/bim_early-english-books-1475-1640_corpus-christi_gurnay-edmund_1619 (Internet Archive, Early English Books 1475-1640). Folger catalog record (secondary bibliographic control): https://catalog.folger.edu/record/159988."
   },
   {
+    "sourceId": "cummington-vital-records",
+    "shortTitle": "Cummington, Massachusetts, town vital records (births)",
+    "citation": "Cummington, Hampshire County, Massachusetts. Town clerk's register of births, page 213 (births under 'G'). Image: 'Massachusetts, U.S., Town and Vital Records, 1620-1988' (Ancestry); index: 'Massachusetts, Town Clerk, Vital and Town Records, 1626-2001' (FamilySearch).",
+    "archive": "Massachusetts town/vital records; Ancestry image and FamilySearch index",
+    "url": "https://www.familysearch.org/ark:/61903/1:1:F4V6-Z38",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/cummington-vital-records-gurney-births.md",
+    "mediaPath": "sources/media/cummington-vital-records/",
+    "validationPath": "sources/validations/cummington-vital-records.md",
+    "notes": "Contemporary town register page 213 records the Cummington Gurney births under 'G,' including the five in-sequence children of Amos & Ruth Gurney (Amos 5 Nov 1792, Willard 6 Mar 1794, Hannah 7 May 1795, Ruth 4 Jan 1800, Nathan 2 Apr 1802) and a sixth, Willis, entered out of sequence at the foot of the section with the year flagged by the clerk's own question mark ('Feb 23 1793 (?)'). Confirms the Amos G8 child set and frames the contested Willis G7 birth. Page image supplied via chat (Ancestry), held local-only under mediaPath/_local."
+  },
+  {
     "sourceId": "daniel-history-england-1613-pt1",
     "shortTitle": "Daniel, First Part of the Historie of England (1613)",
     "citation": "Samuel Daniel, The First Part of the Historie of England (London: Nicholas Okes, 1613).",
@@ -2302,6 +2314,18 @@
     "mediaPath": "sources/media/nyclipper-1895-08-patchogue-fauntleroy/",
     "validationPath": "sources/validations/nyclipper-1895-08-patchogue-fauntleroy.md",
     "notes": "Trade-paper notice announcing a Mabel Walsh production of Little Lord Fauntleroy at the New Lyceum Theatre, Patchogue, Long Island, for 7 August 1895. Names Lester Gurney in the supporting company alongside J. D. Walsh, Charles Drake, Jerome Cammeyer, George Watson, Frank Heald, Annie L. Walsh, and Anna Morton. Earliest documented stage appearance for Lester Sawyer Gurney (G05); complements the September 1895 Clipper Helene Ransome / Margaret Mather notice already cited on the G05 fact sheet."
+  },
+  {
+    "sourceId": "ny-war-1812-payroll-abstracts",
+    "shortTitle": "New York War of 1812 militia payroll abstracts",
+    "citation": "War of 1812 abstracts of payrolls for New York State militia ('payroll cards'), 1812-1814. Series B0810, New York (State) Adjutant General's Office. New York State Archives, Albany. Database: Ancestry.com, 'New York, U.S., War of 1812 Payroll Abstracts for New York State Militia, 1812-1815' (Provo, UT, 2013).",
+    "archive": "New York State Archives, Albany (Series B0810); Ancestry database image",
+    "url": "",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "sources/media/ny-war-1812-payroll-abstracts/",
+    "validationPath": "sources/validations/ny-war-1812-payroll-abstracts.md",
+    "notes": "Payroll card for Willis Gurney, Private, 10th Brigade, Capt. George Englehart's company, Col. Edward W. Laight's regiment of New York State militia; paid 2 Sept - 2 Oct 1814; remark 'Deserted and was recovered & discharged by Col. Laight Oct 8th'; signed J. T. Watson; Roll 2378. Places a Willis Gurney - almost certainly G7 - in New York militia service in 1814, the earliest documented New York presence of the family. Card image supplied via chat (Ancestry), held local-only under mediaPath/_local."
   },
   {
     "sourceId": "nher-mnf9108-old-hall-great-ellingham",

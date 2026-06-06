@@ -163,6 +163,12 @@ The first two lines independently support the working chronology: John1 born abo
 
 [^torrey-g13]: Clarence Almon Torrey, *New England Marriages Prior to 1700* (Baltimore: Genealogical Publishing Co., 2004), p. 331, Gurney entries; Ancestry.com collection 3824 [image gpc_newenglandmarriages-0347 (pId=51825)](https://www.ancestry.com/imageviewer/collections/3824/images/gpc_newenglandmarriages-0347?pId=51825); transcribed extract at [`sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md). Source ID: `torrey-new-england-marriages-prior-1700`.
 
+### John Gurnell, freeman 1643 — a distinct surname, not John Gurney-1
+
+A separate "John Gurnell" admitted freeman in Massachusetts on **10 May 1643** is **not** the emigrant John Gurney-1. Because surviving 1600s Massachusetts Gurnell records are sparse, the spelling invites a Gurnell → Gurney reading; that reading does not hold. A **30 July 1675 Dorchester death entry, examined directly, reads "Gurnell"** — confirming Gurnell as a real, distinct surname rather than a clerk's variant of Gurney. The 1643 freeman therefore belongs to that family, not to John Gurney-1, who first appears at Weymouth in June 1641 and is consistently recorded under Gurney/Gurny/Garny variants, never Gurnell.[^paige-freemen-g13]
+
+[^paige-freemen-g13]: Lucius R. Paige, *List of Freemen of Massachusetts, 1630–1691* (Boston: New England Historic Genealogical Society, 1849), John Gurnell, application 10 May 1643, Massachusetts, keyed to Colony Records (C.R.) Vol. II, pp. 27–28; accessed via Ancestry.com, "Massachusetts, U.S., Applications of Freemen, 1630–1691," [collection 4296](https://www.ancestry.com/search/collections/4296). The corroborating 30 July 1675 Dorchester death entry reading "Gurnell" was examined directly from the record image; its Dorchester town/vital-record source is not separately registered here. Source ID: `paige-list-freemen-massachusetts-1849`.
+
 ---
 
 ## Known Facts

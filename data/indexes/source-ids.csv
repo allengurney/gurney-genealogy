@@ -54,6 +54,7 @@ cleveland-battle-abbey-roll-v3-crossrefs,"Cleveland, Battle Abbey Roll vol. 3 cr
 complete-history-england-1706-v1,"A Complete History of England, vol. 1 (1706)",supplement,sources/corpus_supplement/complete-history-england-1706-v1-gurney-extracts.md,,sources/validations/complete-history-england-1706-v1.md
 cpr-henry-iv-1399-1401,"Calendar of Patent Rolls, Henry IV, 1399-1401",none,,,
 cpr-henry-vi-1422-29,"Calendar of Patent Rolls, Henry VI, 1422-29",none,,,
+cummington-vital-records,"Cummington, Massachusetts, town vital records (births)",partial,sources/corpus_supplement/cummington-vital-records-gurney-births.md,sources/media/cummington-vital-records/,sources/validations/cummington-vital-records.md
 daniel-history-england-1613-pt1,"Daniel, First Part of the Historie of England (1613)",supplement,sources/corpus_supplement/daniel-history-england-1613-pt1-gurney-extract.md,,sources/validations/daniel-history-england-1613-pt1.md
 dashwood-visitation-norfolk-1563-vol1-1878,"Dashwood, Visitation of Norfolk 1563, vol. 1 (1878)",partial,sources/corpus_supplement/dashwood-visitation-norfolk-1563-vol1-1878-kervile-p58.md,sources/media/dashwood-visitation-norfolk-1563-vol1-1878/,sources/validations/dashwood-visitation-norfolk-1563-vol1-1878.md
 davis-abel-lunt-1963,"Davis, Ancestry of Abel Lunt",none,,,
@@ -173,6 +174,7 @@ lma-st-mary-harrow-register-dro003,"St Mary, Harrow on the Hill, parish register
 lma-st-mary-magdalen-old-fish-street-john-grene-1634,LMA St Mary Magdalen Old Fish Street - John Grene baptism (1634),partial,,sources/media/lma-st-mary-magdalen-old-fish-street-john-grene-1634,sources/validations/lma-st-mary-magdalen-old-fish-street-john-grene-1634.md
 lma-st-swithin-london-stone-register-john-grine-1640,LMA St Swithin London Stone - John Grine marriage (1640/1),partial,,sources/media/lma-st-swithin-london-stone-register-john-grine-1640,sources/validations/lma-st-swithin-london-stone-register-john-grine-1640.md
 loyd-origins,"Loyd, Origins of Some Anglo-Norman Families",none,,,
+ma-wills-probate-records,"Massachusetts Wills and Probate Records, 1635-1991",partial,sources/corpus_supplement/plymouth-probate-benjamin-gurney-g11-will-1738.md,sources/media/ma-wills-probate-records/,sources/validations/ma-wills-probate-records.md
 macris-mhc,MACRIS - Massachusetts Cultural Resource Information System,none,,,
 massachusetts-bay-records-v1-1853,"Massachusetts Bay Records, vol. 1",none,,,sources/validations/massachusetts-bay-records-v1-1853.md
 may-henry-gurney-spenser-2005,"May, Henry Gurney reads Spenser",partial,sources/corpus_supplement/henry_gurney_g15_may_article_narrative.md,,sources/validations/may-henry-gurney-spenser-2005.md
@@ -212,6 +214,7 @@ nro-pd-12-1,"NRO PD 12/1 (St Martin at Palace, Norwich)",none,,,
 nro-pd-86-41,NRO PD 86/41 (East Dereham register),none,,sources/media/parish-register/,
 nrp-recherches-possessions-1852,"NRP de la Mairie, Recherches…Possessions des Sires Normands (1852)",partial,,sources/FS/Norman_additions/Recherches_historiques_archéologiques_e_volume1.pdf,
 ny-state-military-museum-127th-infantry,NYS Military Museum - 127th Infantry Regiment,none,,,sources/validations/ny-state-military-museum-127th-infantry.md
+ny-war-1812-payroll-abstracts,New York War of 1812 militia payroll abstracts,none,,sources/media/ny-war-1812-payroll-abstracts/,sources/validations/ny-war-1812-payroll-abstracts.md
 nyclipper-1895-08-patchogue-fauntleroy,"New York Clipper, August 1895 — Patchogue Lord Fauntleroy notice",partial,sources/corpus_supplement/nyclipper-1895-08-patchogue-fauntleroy.md,sources/media/nyclipper-1895-08-patchogue-fauntleroy/,sources/validations/nyclipper-1895-08-patchogue-fauntleroy.md
 odnb-matthew-gournay,"ODNB / DNB — Sir Matthew de Gournay (d. 1406), soldier",none,,,sources/validations/odnb-matthew-gournay.md
 opendomesday-org,Open Domesday,external,,,
@@ -221,6 +224,7 @@ orderic-vitalis-chibnall-vol-6,"Orderic Vitalis, Historia Aecclesiastica, ed./tr
 ormerod-strigulensia-1861,"Ormerod, Strigulensia (1861)",partial,sources/corpus_supplement/ormerod-strigulensia-1861-thomas-de-gournay-extract.md,,sources/validations/ormerod-strigulensia-1861.md
 ota-corpus-christi-1619,OTA - Corpus Christi (1619),available,,,
 ota-romish-chaine-1624,OTA - The Romish chaine (1624),available,,,
+paige-list-freemen-massachusetts-1849,"Paige, List of Freemen of Massachusetts (1849)",none,,,sources/validations/paige-list-freemen-massachusetts-1849.md
 painchault-gaillefontaine-2012,"Painchault, Gaillefontaine fortification (PURH 2012)",partial,,,
 palgrave-history-england-normandy-1864,"Palgrave, History of England and Normandy",partial,sources/corpus_supplement/palgrave-history-england-normandy-gournay-extracts.md,,sources/validations/palgrave-history-england-normandy-1864.md
 palmer-perlustration-yarmouth-1872,"Palmer, Perlustration of Great Yarmouth (1872)",partial,,,
@@ -289,6 +293,8 @@ visitations-norfolk-harleian-32,Visitations of Norfolk 1563/1589/1613 (Harleian 
 wace-roman-de-rou,"Wace, Roman de Rou",partial,,,
 walker-lancastrian-affinity-1361-1399,"Walker, The Lancastrian Affinity 1361–1399",none,,,sources/validations/walker-lancastrian-affinity-1361-1399.md
 wansey-medieval-genealogy-1925,"Wansey, ancient family of the Wanseys",none,,sources/media/1925_08Wansey_Family_Tree_Medieval_Genealogy.pdf,sources/validations/wansey-medieval-genealogy-1925.md
+weymouth-classified-record-births-nash,"Classified Record of Weymouth Births (Nash copy, 1879)",none,,sources/media/weymouth-classified-record-births-nash/,
+weymouth-classified-record-deaths-nash,"Classified Record of Weymouth Deaths (Nash copy, 1879)",none,,sources/media/weymouth-classified-record-deaths-nash/,
 wikipedia-en-hamelin-de-warenne,Wikipedia -- Hamelin de Warenne,external,,,
 wikipedia-fr-famille-de-gournay,Wikipedia FR -- Famille de Gournay,external,,,
 wikitree-newgate-14-horningsheath,"WikiTree Newgate-14 — John Newgate of Horningsheath, Suffolk",none,,,sources/validations/wikitree-newgate-14-horningsheath.md
