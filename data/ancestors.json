@@ -865,6 +865,11 @@
     ],
     "buttons": [
       {
+        "label": "Fact sheet",
+        "url": "/fact-sheets/g13-john-gurney-fact-sheet.html",
+        "style": "bio"
+      },
+      {
         "label": "Click for Case File",
         "url": "/key-research/john-gurney-case-file.html",
         "style": "bio"

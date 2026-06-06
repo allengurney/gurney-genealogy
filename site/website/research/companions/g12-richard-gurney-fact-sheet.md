@@ -33,7 +33,9 @@ The 1688 reference is the only firm record of Rebecca Taylor's family. The will 
 
 ### Freeman 1681
 
-Massachusetts Bay's Freeman lists are well preserved. Richard's 1681 admission could be confirmed against the published <em>Records of the Governor and Company of Massachusetts Bay</em> (MBCR), which is the standard primary source for Freeman admissions.
+Richard's freeman admission is fixed to **12 October 1681**, his residence given as **Weymouth**. Paige's *List of Freemen of Massachusetts* keys the entry to the Colony Records, **Vol. V, pp. 320–321** — i.e. the published *Records of the Governor and Company of Massachusetts Bay* (MBCR), the standard primary source for Freeman admissions. This supplies the precise date the section previously lacked and locates the underlying record for image verification.[^paige-freemen-g12]
+
+[^paige-freemen-g12]: Lucius R. Paige, *List of Freemen of Massachusetts, 1630–1691* (Boston: New England Historic Genealogical Society, 1849), Richard Gurney, application 12 Oct. 1681, Weymouth, keyed to Colony Records (C.R.) Vol. V, pp. 320–321; accessed via Ancestry.com, "Massachusetts, U.S., Applications of Freemen, 1630–1691," [collection 4296, record 3598](https://www.ancestry.com/search/collections/4296/records/3598). Index-level; not yet image-verified against MBCR. Source ID: `paige-list-freemen-massachusetts-1849`.
 
 ### Negative results
 
@@ -56,6 +58,53 @@ The conflicts are real and should be preserved rather than silently merged:
 [^history-of-weymouth-g12]: *History of Weymouth, Massachusetts*, 4 vols. (Weymouth, Mass.: Weymouth Historical Society, 1923), Vol. 3, Genealogy of Weymouth families, Richard Gurney entry; Ancestry.com collection 21610 [image dvm_LocHist007443-00634-1](https://www.ancestry.com/imageviewer/collections/21610/images/dvm_LocHist007443-00634-1); transcribed extract at [`sources/corpus_supplement/history-of-weymouth-vol3-gurney.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/history-of-weymouth-vol3-gurney.md). Source ID: `history-of-weymouth`.
 [^torrey-g12]: Clarence Almon Torrey, *New England Marriages Prior to 1700* (Baltimore: Genealogical Publishing Co., 2004), p. 331, Richard Gurney entry; Ancestry.com collection 3824 [image gpc_newenglandmarriages-0347 (pId=51825)](https://www.ancestry.com/imageviewer/collections/3824/images/gpc_newenglandmarriages-0347?pId=51825); transcribed extract at [`sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md). Source ID: `torrey-new-england-marriages-prior-1700`.
 
+### Weymouth town birth register — primary confirmation of Richard²'s children and the Weymouth-era descendants
+
+The manuscript "Classified Record of Weymouth Births" (alphabetised by surname; copied 1879 by Gilbert Nash) registers the whole Weymouth Gurney family on a single page, 1656–1732 — the town-record layer beneath the printed *History of Weymouth*. Its Gurney section in full:
+
+| Child | Parents | Birth |
+|---|---|---|
+| Richard | Richard & Rebecca | 18 Jan. 1656 |
+| Joseph | Richard & Rebecca | 22 Feb. 1664 |
+| Mary | Richard & Rebecca | 9 Sept. 1667 |
+| Elizabeth | John & Elizabeth | 5 May 1689 |
+| Zechariah | Zechariah & Mary | 19 Nov. 1695 |
+| Joseph | Zechariah & Mary | 7 Mar. 1698 |
+| Jacob | Zechariah & Mary | 31 Oct. 1706 |
+| Mary | Zechariah & Mary | 24 Nov. 1711 |
+| Rebecca | Benjamin & Rebecca | 22 Nov. 1702 |
+| Sarah | Zechariah & Sarah | 7 May 1727 |
+| Zechariah | Zechariah & Sarah | 7 Mar. 1729 |
+| Elisha | Zechariah & Sarah | 30 June 1731 |
+| Elijah | Nathan & Sarah | 15 May 1732 |
+
+The first three are **Richard² Gurney (G12) and Rebecca (Taylor)**'s children, fixed to the day — **Richard³ 18 Jan. 1656, Joseph 22 Feb. 1664 (Rigler's 1664/5), Mary 9 Sept. 1667** — matching Rigler's reconciled set at the level of the original town record rather than the 1923 compilation. The rest are Richard²'s descendants through three of his sons: grandchildren via **John³ & Elizabeth (Green)** (Elizabeth 1689), via **Zachariah³ & Mary (Benson)** (Zechariah 1695, Joseph 1698, Jacob 1706, Mary 1711); and great-grandchildren via **Zachariah⁴ & Sarah (Jackson)** (Sarah 1727, Zechariah 1729, Elisha 1731). The single **Benjamin & Rebecca** entry is the direct line — Rebecca, daughter of **Benjamin Gurney (G11)** and Rebecca (Staples), 22 Nov. 1702, the same daughter (later Rebeckah Taylor) named in G11's will (see the [G11 companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g11-benjamin-gurney-fact-sheet.research.md)). The last entry, Elijah son of **Nathan & Sarah (Harden)**, 15 May 1732, is the foster-father Nathan's son (see the [Nathan companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/nathan-gurney-abington.research.md)).
+
+Two coverage notes. The Gurney section **ends in 1732**, consistent with the line's departure from Weymouth for Abington and Middleborough. And it does **not** list Richard²'s eldest sons **John** (b. c.1654/8) or **Zachariah³** (b. c.1660), nor son **Benjamin G11** (b. c.1676), though it carries their sibling Richard³ (1656) — a partial gap (pre-registration births, recording elsewhere, or omission) not resolved here.[^weymouth-births-g12]
+
+[^weymouth-births-g12]: "Classified Record of Weymouth Births [to 1843–4]," p. 75 (Gurney section), manuscript copied 1879 by Gilbert Nash, purchased by the Town of Weymouth March 1890; Ancestry, "Massachusetts, U.S., Town and Vital Records, 1620–1988" (Holbrook), [collection 2495, record 14720071](https://www.ancestry.com/search/collections/2495/records/14720071). Page image held local-only at `sources/media/weymouth-classified-record-births-nash/_local/`. Source ID: `weymouth-classified-record-births-nash`.
+
+### Weymouth town death register — death dates for Richard²'s children, and the primary entry behind the 1719/1691 confusion
+
+The companion deaths volume of the same Nash classified record (the title page notes "2 vols") carries the Gurney deaths on a single page:
+
+| Decedent | Death |
+|---|---|
+| Richard | Oct. 1719 |
+| Zechariah, Senior | 27 Oct. 1732 |
+| Mary | 14 Feb. 1736 |
+| Joseph, Senior | 14 Dec. 1739 |
+| Jacob | 1 Sept. 1793 (æ. 87) |
+| Elizabeth, wife of Jacob | 19 Sept. 1794 (æ. 78) |
+
+**"Richard, Oct. 1719" is the primary Weymouth entry behind the long-standing death-year confusion.** It is **Richard³** (b. 18 Jan. 1656, unmarried), the *son* — not Richard² Gurney (G12), who died in October 1691 (Suffolk Co. administration). The *History of Weymouth* misread this 1719 death as the father's; Rigler corrected it; this register is the underlying record and confirms the correction. Richard² himself is **not** in the Gurney death section, consistent with his 1691 death and Suffolk (not Weymouth) probate.
+
+The register also fixes exact death dates for two more of Richard²'s children, previously year-only in Rigler: **Joseph "Senior," 14 Dec. 1739** (b. 22 Feb. 1664/5, unmarried; "Senior" distinguishing him from his nephew Joseph, Zachariah³'s son, b. 1698), and **Mary, 14 Feb. 1736** (Rigler "d. 1736"). Mary's identity carries a genuine ambiguity: the absent "wife of" tag points to Richard²'s **unmarried daughter Mary** (b. 9 Sept. 1667), but the *History of Weymouth* read this same 14 Feb. 1736 Mary as **Zachariah³'s wife Mary (Benson)** — preserved here as a conflict, not resolved. **Zechariah "Senior," 27 Oct. 1732** is Richard²'s son Zachariah³ (b. c.1660, m. Mary Benson), confirming the *History of Weymouth* date. The last two — **Jacob** (d. 1793, æ. 87, so b. c.1706 = Zachariah³'s son Jacob, b. 31 Oct. 1706 in the birth register) and his wife **Elizabeth** (d. 1794, æ. 78) — are later collateral.
+
+Read with the birth register above, this fixes both ends of life at town-record level for three of Richard² G12's children: **Richard³ (1656–1719), Joseph (1664/5–1739), and Mary (1667–1736).**[^weymouth-deaths-g12]
+
+[^weymouth-deaths-g12]: "Classified Record of Weymouth Deaths," p. 208 (Gurney section), manuscript copied 1879 by Gilbert Nash, purchased by the Town of Weymouth March 1890 — the deaths companion volume to the births register; Ancestry, "Massachusetts, U.S., Town and Vital Records, 1620–1988" (Holbrook), [collection 2495](https://www.ancestry.com/search/collections/2495). Page image held local-only at `sources/media/weymouth-classified-record-deaths-nash/_local/`. Source ID: `weymouth-classified-record-deaths-nash`.
+
 ---
 
 ## Open Questions
@@ -63,9 +112,9 @@ The conflicts are real and should be preserved rather than silently merged:
 1. **Direct examination of <em>History of Weymouth</em>** for the "before 1642–44" land grants and the 1683 grant. Page numbers, editor, edition.
 2. **Plymouth County probate** — Richard Gurney administration, October 1691 forward.
 3. **Rebecca Taylor's father's will, proved 1688** — Plymouth County or Suffolk County probate.
-4. **Massachusetts Bay Freeman admission, 1681** — confirmation in MBCR.
+4. **Massachusetts Bay Freeman admission, 1681 — resolved (date and reference).** Paige's *List of Freemen* fixes the application to 12 Oct. 1681 at Weymouth, keyed to Colony Records Vol. V, pp. 320–321. The MBCR page image itself remains to be pulled for full verification.
 5. **Mendon massacre primary records** — eyewitness accounts and the official town-meeting record naming the dead, if recoverable.
-6. **Richard's death year — resolved (1691).** Rigler states the *History of Weymouth* 1719 date "was in error… which in fact, belonged to his son, Richard" (b. 18 Jan. 1656, d. Oct. 1719, unmarried). Richard-2 died Oct. 1691, intestate; the 1691 Suffolk Co. administration named sons Richard and Zachariah, with eldest son John refusing. See the Rigler findings section.
+6. **Richard's death year — resolved (1691).** Rigler states the *History of Weymouth* 1719 date "was in error… which in fact, belonged to his son, Richard" (b. 18 Jan. 1656, d. Oct. 1719, unmarried). Richard-2 died Oct. 1691, intestate; the 1691 Suffolk Co. administration named sons Richard and Zachariah, with eldest son John refusing. The Weymouth death register now supplies the primary entry behind the confusion — "Richard, Oct. 1719" — confirming the 1719 death was the son's (Richard³, unmarried), with Richard-2 himself absent from the Weymouth deaths; see the Weymouth death-register note above. See also the Rigler findings section.
 7. **Children of Richard2**: confirm whether Joseph (b. 22 Feb. 1664/65), Mary (b. 9 Sept. 1667), and Benjamin (G11, c. 1676) belong to Richard2 alongside the Weymouth-listed Richard3 (b. 18 Jan. 1656), John (b. near 1658), and Zachariah (b. near 1660); examine the underlying Weymouth town and church records.
 
 ---

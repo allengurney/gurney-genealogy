@@ -11,9 +11,20 @@ Research notes for `g11-benjamin-gurney-fact-sheet.md`. See `.claude/rules/resea
 
 ## Working Notes
 
-### Will of 1738/9 — the most actionable single source
+### Will of 1738/9 — examined (Plymouth Probate vol. 8, pp. 98–99)
 
-Plymouth Probate 8:98 (will proved 1739) is the single most actionable document for G11 not yet directly captured in this project. It should preserve the names of all surviving children (the published genealogies generally only carry the eldest son), the wife's named status, any specific named bequests of property, and a date (or year) of death sufficient to refine "1738/9." Direct examination is the next-priority research task on this person.
+The will image is now in hand and transcribed verbatim.[^g11-will-image] Benjamin Gurney Sen.r of Middleborough, "Very Sick and Weak in Body but of Perfect Mind and Memory," made it **4 May 1738**; it was proved **2 July 1739**, so he died between those dates. He **signed by mark**. The bequests:
+
+- to wife **Rebekah** — his half of the homestead held in partnership with son Benjamin, plus the dwelling house and barn, at her disposing; and all moveable estate after debts and funeral charges;
+- to son **Benjamin** (G10) — the parcel of land bought of Joseph Richards, in fee;
+- to daughter **Rebeckah Taylor**, wife of Daniel Taylor — £40, payable from the estate at her mother's decease;
+- to son-in-law **Daniel Taylor** — 20 shillings.
+
+Wife Rebekah and son Benjamin were named **executors**. Witnesses: **James Whaley, Gershom Sa[m]son, Nehemiah Bennett**; proved before **John Cushing, Judge of Probate**.
+
+The will names **only** son Benjamin and daughter Rebecca (Taylor) — it reveals no further surviving children, settling the long-standing "the will should reveal them" question in the negative. It also confirms the Joseph Richards land was *bought*, not bequeathed to G11.
+
+[^g11-will-image]: Will of Benjamin Gurney Sen.r of Middleborough, Plymouth County Probate vol. 8, pp. 98–99; made 4 May 1738, proved 2 July 1739. Image (Ancestry, "Massachusetts, U.S., Wills and Probate Records, 1635–1991," [collection 9069, record 716357](https://www.ancestry.com/search/collections/9069/records/716357)) held local-only at `sources/media/ma-wills-probate-records/_local/`; verbatim transcription at [`sources/corpus_supplement/plymouth-probate-benjamin-gurney-g11-will-1738.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/plymouth-probate-benjamin-gurney-g11-will-1738.md). Source ID: `ma-wills-probate-records`.
 
 ### The 1701 First Church Braintree marriage
 
@@ -51,9 +62,9 @@ The 1726 purchase from a Staples and the 1701 marriage to a Staples almost certa
 
 ## Open Questions
 
-1. **Direct examination of Plymouth Probate 8:98.** Will of Benjamin Gurney (1738/9). Likely available via FamilySearch / NEHGS / Plymouth County probate microfilm.
-2. **Other children.** The will should reveal them.
-3. **First Church Braintree register entry**, 30 December 1701 — direct examination.
+1. **Plymouth Probate 8:98 — resolved.** The will (1738, proved 1739) has been examined and transcribed verbatim; see the will section above. (Available online — Ancestry.)
+2. **Other children — resolved (none).** The will names only son Benjamin (G10) and daughter Rebecca Taylor; no further surviving children are revealed. An estate inventory or administration account, if filed separately, was not sought. (Unknown online.)
+3. **First Church Braintree register entry**, 30 December 1701 — direct examination. (Unknown online.)
 4. **"Granny Gurney's Swamp" — resolved (named source).** Cyrus Nash, quoted by Rigler ("D 1:13"). The underlying Nash text (a Weymouth/Abington local history) would be worth a direct pull, but the story now has a printed attribution. (Unknown online.)
 5. **The Joseph Richards land — resolved.** Not a bequest to G11. The will shows the parcel was "bought of Joseph Richards" and passed by G11 to his son Benjamin. Joseph Richards was the seller.
 6. **Rebecca Staples's family — resolved.** Daughter of John-2 and Sarah (Atkins) Staples, b. 1682; Samuel Staples of Scituate, the 1726 grantor, was her brother. The 1726 purchase was a within-family transfer. (NEHGR 59:155, 116:20, 121:244.)
@@ -74,7 +85,9 @@ Rigler's Benjamin-3 (Richard-2) entry, transcribed at [`sources/corpus_supplemen
 
 **"Granny Gurney's Swamp" — the named source.** Cyrus Nash (cited by Rigler as "D 1:13") is the printed source long sought for this story: Rebecca went looking for Benjamin, found him "lying asleep in a field," and "took the pipe out of her mouth & set fire to the grass around him to give him a good scare," starting "one of the biggest fires of the time, burning over many acres of low ground, which thereafter was known as Granny Gurney's Swamp." Full quote in the corpus extract.[^rigler-g11]
 
-**A daughter, Rebecca.** Rebecca Gurney, b. 22 Nov. 1702, m. 24 Aug. 1731 (by Joshua Cushing, J.P.) Daniel Taylor of Kingston (Kingston VR) — not previously recorded in this companion; the only sibling of G10 that Rigler carries.[^rigler-g11]
+**A daughter, Rebecca.** Rebecca Gurney, b. 22 Nov. 1702, m. 24 Aug. 1731 (by Joshua Cushing, J.P.) Daniel Taylor of Kingston (Kingston VR) — not previously recorded in this companion; the only sibling of G10 that Rigler carries.[^rigler-g11] The Weymouth town birth register independently confirms the birth at town-record level: "Rebecca, d[aughter] of Benjamin & Rebecca," 22 Nov. 1702 — placing G11 and Rebecca (Staples) at Weymouth in 1702, well before the move to Abington (c. 1707) and Middleborough (c. 1730). It is the only child of theirs in the Weymouth register (son Benjamin G10 is absent there).[^weymouth-births-g11]
+
+[^weymouth-births-g11]: "Classified Record of Weymouth Births [to 1843–4]," p. 75 (Gurney section), manuscript copied 1879 by Gilbert Nash, purchased by the Town of Weymouth March 1890; Ancestry, "Massachusetts, U.S., Town and Vital Records, 1620–1988" (Holbrook), [collection 2495, record 14720071](https://www.ancestry.com/search/collections/2495/records/14720071). Full Gurney-section transcription on the [G12 Richard companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g12-richard-gurney-fact-sheet.research.md); page image local-only at `sources/media/weymouth-classified-record-births-nash/_local/`. Source ID: `weymouth-classified-record-births-nash`.
 
 [^rigler-g11]: Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius: A Genealogical Dictionary*, rev. ed. (Honolulu: J. G. Rigler, 1994), Benjamin-3 (Richard-2) entry (p. 19), quoting Cyrus Nash for the Granny Gurney's Swamp story and the will of 4 May 1738 (Plymouth Probate 8:98). Transcribed at [`sources/corpus_supplement/rigler-gurney-aaron-zuinglius-g9-g12-extract.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/rigler-gurney-aaron-zuinglius-g9-g12-extract.md). Source ID: `rigler-gurney-family-aaron-zuinglius-1994`.
 
@@ -89,10 +102,10 @@ The earlier Rigler family-group worksheet for Benjamin-3 records **Rebecca (Stap
 ## Sources Consulted
 
 - Jean Gurney Rigler, *The Gurney Family from Aaron to Zuinglius* (rev. and expanded ed., 1994), Benjamin-3 entry (p. 19); audited — see the Rigler findings section above. Source ID `rigler-gurney-family-aaron-zuinglius-1994`. Transcribed extract at [`sources/corpus_supplement/rigler-gurney-aaron-zuinglius-g9-g12-extract.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/rigler-gurney-aaron-zuinglius-g9-g12-extract.md).
+- Will of Benjamin Gurney, Plymouth County Probate vol. 8, pp. 98–99 (image examined) — Source ID `ma-wills-probate-records`. Verbatim transcription at [`sources/corpus_supplement/plymouth-probate-benjamin-gurney-g11-will-1738.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/plymouth-probate-benjamin-gurney-g11-will-1738.md).
 
 ### Sources to obtain
 
-- Plymouth County Probate 8:98 — will of Benjamin Gurney, proved 1739.
 - Plymouth County Deeds 25:79 (1726 Williams farm purchase) — direct examination.
 - Plymouth Registry 31:69, 70 (1730 sale to Pierce) — direct examination.
 - First Church of Braintree (now First Church of Quincy) — marriage register entry, 30 December 1701.
