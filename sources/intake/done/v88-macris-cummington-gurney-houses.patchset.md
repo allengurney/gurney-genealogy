@@ -1,3 +1,5 @@
+**Done:** 2026-06-06 23:56 PT
+
 # v88 — MACRIS Cummington Gurney houses (CUM.151, CUM.115)
 
 Phase-1 patchset. Promotes two examined MACRIS Form B inventory records into the

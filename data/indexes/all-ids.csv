@@ -60,8 +60,10 @@ place-15-avenue-c-manhattan-new-york-usa,place,"15 Avenue C, Manhattan, New York
 place-155-henry-street-manhattan-new-york-usa,place,"155 Henry Street, Manhattan, New York, USA",data/places.json
 place-177-west-48th-street-manhattan-new-york-usa,place,"177 West 48th Street, Manhattan, New York, USA",data/places.json
 place-231-fifth-avenue-manhattan-new-york-usa,place,"231 Fifth Avenue, Manhattan, New York, USA",data/places.json
+place-51-main-street-cummington-massachusetts-usa,place,"51 Main Street, Cummington, Massachusetts, USA",data/places.json
 place-54-hudson-street-manhattan-new-york-usa,place,"54 Hudson Street, Manhattan, New York, USA",data/places.json
 place-55-pike-street-manhattan-new-york-usa,place,"55 Pike Street, Manhattan, New York, USA",data/places.json
+place-75-mount-road-cummington-massachusetts-usa,place,"75 Mount Road, Cummington, Massachusetts, USA",data/places.json
 place-le-bec-hellouin-normandy-france,place,"Abbey of Bec / Le Bec-Hellouin, Normandy, France",data/places.json
 place-abington-massachusetts-usa,place,"Abington, Massachusetts, USA",data/places.json
 place-ardleigh-essex-england,place,"Ardleigh, Essex, England",data/places.json
@@ -141,6 +143,8 @@ place-fry-eglise-saint-martin-normandy-france,place,"Église Saint-Martin, Fry, 
 complete-history-england-1706-v1,source,"A Complete History of England, vol. 1 (1706)",data/sources.json
 abington-vr-1850-vol1,source,"Abington Vital Records to 1850, vol. 1",data/sources.json
 accessgenealogy-lysander-franklin-gurney,source,"AccessGenealogy, Lysander Franklin Gurney",data/sources.json
+actors-fund-of-america-history,source,Actors' Fund of America history (Wikipedia; NYU finding aid),data/sources.json
+actors-order-of-friendship-history,source,Actors' Order of Friendship (Oxford Reference),data/sources.json
 american-biography-cyclopedia-v26-gurney-1926,source,"American Biography, vol. 26 - Gurney",data/sources.json
 ancestry-norfolk-1535-1812,source,"Ancestry / NRO, Norfolk Church of England Baptism, Marriages and Burials, 1535-1812",data/sources.json
 anderson-yvery-1742,source,"Anderson, Genealogical History of the House of Yvery",data/sources.json
@@ -173,6 +177,7 @@ bho-ipm-henry-iv-vol19-gournay-johnv,source,"BHO IPM vol. 19 (Henry IV) - John G
 bho-statutes-realm-1661-assessment,source,BHO Statutes - 1661 Assessment Act,data/sources.json
 blomefield-norfolk,source,"Blomefield, History of Norfolk",data/sources.json
 blomefield-norfolk-vol5-pp33-cringleford-berford,source,"Blomefield, Norfolk vol. 5 (BHO) — Cringleford, Berford's Manor",data/sources.json
+bodge-soldiers-king-philips-war-1891,source,"Bodge, Soldiers in King Philip's War (1891)",data/sources.json
 bodleian-ms-tanner-175-marco,source,Bodleian MS Tanner 175 - MARCO,data/sources.json
 braintree-records-1640-1793-1886,source,"Braintree town records, 1640-1793",data/sources.json
 brooke-catalogue-succession-1619,source,"Brooke, Catalogue and Succession (1619)",data/sources.json
@@ -186,6 +191,7 @@ histoire-de-lorraine-calmet,source,"Calmet, Histoire de Lorraine — Maison de G
 cambridge-core-camden-preface-addenda,source,Camden Old Series - Preface and Addenda,data/sources.json
 candidate-d-london-context-web-bundle,source,Candidate D London context web bundle,data/sources.json
 candidate-d-london-grine-grene-index-leads-bundle,source,Candidate D London Grine/Grene index-lead bundle,data/sources.json
+cape-cod-canal-history,source,Cape Cod Canal history (Mass.gov; Wikipedia),data/sources.json
 saint-leu-esserent-cartulary-muller,source,"Cartulaire du prieure de Saint-Leu d'Esserent (1080-1538), ed. Muller",data/sources.json
 chronicon-beccensis,source,Chronicon Beccensis Abbatiæ,data/sources.json
 weymouth-classified-record-births-nash,source,"Classified Record of Weymouth Births (Nash copy, 1879)",data/sources.json
@@ -248,6 +254,7 @@ findmypast-uk-parish-baptisms,source,Findmypast UK Parish Baptisms,data/sources.
 fischer-albions-seed-1989,source,"Fischer, Albion's Seed",data/sources.json
 fmg-medlands-normacre,source,FMG MedLands -- Normandy (Cawley),data/sources.json
 foster-streeter-cummington,source,"Foster & Streeter, Only One Cummington (1974)",data/sources.json
+comerford-dam-history,source,Frank D. Comerford Dam history (Wikipedia; North Star Monthly),data/sources.json
 freebmd-freereg,source,FreeREG / FreeBMD,data/sources.json
 fs-jw7y-c3b-john-gurney-baptism-st-ann-blackfriars,source,"FS index JW7Y-C3B — John Gurney baptism, St Ann Blackfriars, 1615, father Wm.",data/sources.json
 fs-vnn2-4vc-marye-gurney-baptism-east-dereham,source,"FS index VNN2-4VC — Marye Gurney baptism 25 May 1618, East Dereham, father Francis",data/sources.json
@@ -265,6 +272,7 @@ ggm-benefice-harpley-rectors,source,GGM Benefice - Harpley Register of Rectors,d
 gibson-dell-protestation,source,"Gibson & Dell, Protestation Returns guide",data/sources.json
 girders-net-medieval-gurney-abstracts,source,girders.net Medieval Gurney Abstracts,data/sources.json
 great-ellingham-manor-farmhouse-hingham-road,source,Great Ellingham - Manor Farmhouse in Hingham Road,data/sources.json
+great-river-hydro-deerfield-history,source,"Great River Hydro, 'Our History' (Deerfield/Connecticut developments)",data/sources.json
 grokipedia-edmund-gurney-divine,source,Grokipedia - Edmund Gurney (divine),data/sources.json
 gurnay-redivivus-1660,source,Gurnay Redivivus (1660),data/sources.json
 gurney-family-handwritten-notes-1963,source,Gurney family handwritten notes 1963,data/sources.json
@@ -294,6 +302,7 @@ hobart-abington-1839,source,"Hobart, Historical Sketch of Abington (1839)",data/
 hobart-benjamin-history-abington-1866,source,"Hobart, History of the Town of Abington (1866)",data/sources.json
 holinshed-chronicles-1577,source,"Holinshed, Chronicles of England, Scotlande, and Irelande (1577) -- laste volume",data/sources.json
 tag-10-70,source,"Holman, Grissell of the Many Marriages",data/sources.json
+hoosac-tunnel-wilmington-railroad,source,Hoosac Tunnel & Wilmington Railroad (Wikipedia),data/sources.json
 history-of-parliament-online-gurney-1386-1421,source,HoP Online -- Gurney John d.1408,data/sources.json
 norwich-records-hudson-tingey-vol2,source,"Hudson and Tingey -- Records of the City of Norwich, vol. ii (1910)",data/sources.json
 hull-thesis-english-way-of-war-1360-1399,source,"Hull PhD thesis — The English Way of War, 1360–1399",data/sources.json
@@ -314,9 +323,12 @@ bho-london-hearth-tax-merry-2010,source,London Hearth Tax project database (Merr
 loyd-origins,source,"Loyd, Origins of Some Anglo-Norman Families",data/sources.json
 delisle-critique-of-dg,source,Léopold Delisle's critique of Daniel Gurney,data/sources.json
 macris-mhc,source,MACRIS - Massachusetts Cultural Resource Information System,data/sources.json
+macris-cum-115-gurney-ase-house,source,"MACRIS CUM.115 - Gurney, Ase House (51 Main St, Cummington)",data/sources.json
+macris-cum-151-gurney-asa-house,source,"MACRIS CUM.151 - Gurney, Asa House (75 Mount Rd, Cummington)",data/sources.json
 massachusetts-bay-records-v1-1853,source,"Massachusetts Bay Records, vol. 1",data/sources.json
 ma-wills-probate-records,source,"Massachusetts Wills and Probate Records, 1635-1991",data/sources.json
 may-henry-gurney-spenser-2005,source,"May, Henry Gurney reads Spenser",data/sources.json
+mcgraw-edison-history,source,McGraw-Edison company history (Wikipedia; Eaton/Cooper heritage),data/sources.json
 medievalgenealogy-gerbod-gundred-documents,source,MedievalGenealogy.org.uk - Gerbod and Gundred documents,data/sources.json
 medievalgenealogy-cp25-1-21-112-stone-hartwell,source,"medievalgenealogy.org.uk — CP 25/1/21/112 fine, Stone and Hartwell, Bucks",data/sources.json
 mendon-proprietors-records-1899,source,Mendon Proprietors' Records (1899),data/sources.json
@@ -346,6 +358,7 @@ norman-geo-local-history-tourism-2026,source,Norman geo overlay - local history 
 norman-geo-locator-saint-quentin-hericourt-2026,source,Norman geo overlay - Saint-Quentin and Hericourt locators,data/sources.json
 norman-geo-locator-southern-boundary-2026,source,Norman geo overlay - southern boundary locators,data/sources.json
 normonde-hugues-1er-de-gournay,source,Normonde authority file: Hugues Ier de Gournay,data/sources.json
+norwich-university-history,source,Norwich University history (Wikipedia; Norwich catalog),data/sources.json
 nps-adams-nhp,source,NPS Adams National Historical Park CLR,data/sources.json
 nro-pd-12-1,source,"NRO PD 12/1 (St Martin at Palace, Norwich)",data/sources.json
 nro-pd-86-41,source,NRO PD 86/41 (East Dereham register),data/sources.json

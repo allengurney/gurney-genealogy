@@ -36,6 +36,30 @@
     "notes": "Derivative transcription preserving a Lysander-family manuscript claim, American-branch arms tradition, and the Newgate/29 September 1615 conflict tradition. Use as a manuscript-pointer and conflict witness, not as primary proof."
   },
   {
+    "sourceId": "actors-fund-of-america-history",
+    "shortTitle": "Actors' Fund of America history (Wikipedia; NYU finding aid)",
+    "citation": "\"Actors' Fund of America\" / \"Entertainment Community Fund,\" Wikipedia, with the Actors' Fund of America Records finding aid, NYU Special Collections; consulted June 2026.",
+    "archive": "Wikipedia; New York University Special Collections (online)",
+    "url": "https://en.wikipedia.org/wiki/Actors_Fund_of_America",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Contextual history of the Actors' Fund of America (now the Entertainment Community Fund), founded 1882 on the advocacy of the theatrical manager Harrison Grey Fiske; first officers Lester Wallack (president), A. M. Palmer (vice-president), Daniel Frohman (secretary), Theodore Moss (treasurer); relief, the Actors' Fund Home, and burial plots, much of it underwritten by the 1892 Actors' Fund Fair at Madison Square Garden. Context for G5 Lester Sawyer Gurney's assistant-secretaryship (1892). Tertiary/contextual source."
+  },
+  {
+    "sourceId": "actors-order-of-friendship-history",
+    "shortTitle": "Actors' Order of Friendship (Oxford Reference)",
+    "citation": "\"Actors' Order of Friendship,\" Oxford Reference; consulted June 2026.",
+    "archive": "Oxford Reference (online)",
+    "url": "https://www.oxfordreference.com/view/10.1093/oi/authority.20110803095349204",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Contextual history of the Actors' Order of Friendship, a theatrical fraternal benefit order chartered at Philadelphia in 1849 (first lodge the Shakespeare Lodge); its New York branch, the Edwin Forrest Lodge, was established in 1888 by Louis Aldrich, John Drew, and Otis Skinner; the order was the direct precursor of the Actors' Fund of America, which eclipsed it. Context for G5's secretaryship of the Actors' Order of Friendship. Tertiary/contextual source."
+  },
+  {
     "sourceId": "american-biography-cyclopedia-v26-gurney-1926",
     "shortTitle": "American Biography, vol. 26 - Gurney",
     "citation": "American Biography: A New Cyclopedia. Illustrated vol. 26. New York: The American Historical Society, Inc., 1926, David Allston Gurney/Gurney family entry, pp. 230-255.",
@@ -420,6 +444,18 @@
     "notes": "Page-level Blomefield/BHO extract for Cringleford's Berford's Manor descent. Records that after the De la Poles obtained the manor in trust, they settled it on Edmund Gourney, William de Boyton, Thomas Spynk, and John le Latimer of Norwich as feoffees; the manor extended into Hethersett, Eaton, Earlham, Little Melton, Colney, and Cringleford watermill; by 1381 John le Latimer was sole lord with view of frankpledge, weyf, and strey; in the same year Gournay and the other De la Pole feoffees released their right to him. Adds Edmund Gournay (G23) to the documented De la Pole / Latimer feoffee network in the 1370s."
   },
   {
+    "sourceId": "bodge-soldiers-king-philips-war-1891",
+    "shortTitle": "Bodge, Soldiers in King Philip's War (1891)",
+    "citation": "Bodge, George Madison. Soldiers in King Philip's War: Containing Lists of the Soldiers of Massachusetts Colony, Who Served in the Indian War of 1675-1677, with Sketches of the Principal Officers, and Copies of Ancient Documents and Records Relating to the War. Boston: Printed for the Author, 1891.",
+    "archive": "Internet Archive (Boston University copy).",
+    "url": "https://archive.org/details/soldiersinkingph00bodg",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/bodge-soldiers-king-philips-war-1891-gurney-extracts.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/bodge-soldiers-king-philips-war-1891.md",
+    "notes": "Massachusetts muster, pay, and casualty rolls of King Philip's War (1675-1677). Three Gurney references, all of Weymouth and all confirmed against the page images (the OCR text layer drops the p. 113 entry): Peeter Gurnay under Weymouth in Capt. Isaac Johnson's company, Dedham muster 10 Dec. 1675 (p. 114); Zachariah Gurny credited under Capt. Isaac Johnson's company, 24 July credit (p. 113); Zacha-ry Gorney of Weymouth among the men returned as not appearing at Capt. John Holbrooke's Concord muster, 29 Apr. 1676 (p. 236). Bodge's index (p. 364) groups the surname 'Gorney / Gurney' at pp. 113, 114, 236 and nowhere else. Peter is a son of John Gurney-1 (G13); Zachariah is a son of Richard Gurney (G12). First edition, 100 copies, printed by David Clapp & Son."
+  },
+  {
     "sourceId": "bodleian-ms-tanner-175-marco",
     "shortTitle": "Bodleian MS Tanner 175 - MARCO",
     "citation": "Bodleian Library, MS Tanner 175. MARCO manuscript catalogue record.",
@@ -574,6 +610,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/candidate-d-london-grine-grene-index-leads-bundle.md",
     "notes": "Bundled index-only false-positive/comparator leads. Use only as leads until original images are retrieved. The All Hallows Bread Street 1600 Robart Grene item is geographically and chronologically the most interesting of the three; the Whitechapel item is low value for Candidate D."
+  },
+  {
+    "sourceId": "cape-cod-canal-history",
+    "shortTitle": "Cape Cod Canal history (Mass.gov; Wikipedia)",
+    "citation": "\"History of the Cape Cod Canal and bridges,\" Commonwealth of Massachusetts (mass.gov), with \"Cape Cod Canal,\" Wikipedia; consulted June 2026.",
+    "archive": "Commonwealth of Massachusetts; Wikipedia (online)",
+    "url": "https://www.mass.gov/info-details/history-of-the-cape-cod-canal-and-bridges",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Contextual history of the Cape Cod Canal: planned and financed by August Belmont II's Boston, Cape Cod & New York Canal Company to designs by the engineer William Barclay Parsons (the Belmont-Parsons partnership that built New York City's first subway); construction 1909-1914, officially completed 1916; a privately operated sea-level toll waterway opened seventeen days ahead of the Panama Canal. Context for G4's 1906-1911 Cape Cod Canal and Cape Cod Construction Company work. Tertiary/contextual source."
   },
   {
     "sourceId": "saint-leu-esserent-cartulary-muller",
@@ -1320,6 +1368,18 @@
     "notes": "Local town history of Cummington, Hampshire County, Massachusetts. Cited p. 390 for two G9 (Benjamin Gurney 1730–1805) land transactions: (1) Benjamin and Silas Reed purchased land in Town No. 5 (Cummington) at Springfield, Massachusetts records, 5 November 1770, after Benjamin sold his Abington land in June 1770; (2) Benjamin's 1787 farm exchange with Philip Shaw at Cummington. Standard reference for Cummington-resident Gurneys (G8, G9). Source for primary deeds not yet directly examined; deeds themselves should be accessible via Hampshire County / Springfield records."
   },
   {
+    "sourceId": "comerford-dam-history",
+    "shortTitle": "Frank D. Comerford Dam history (Wikipedia; North Star Monthly)",
+    "citation": "\"Frank D. Comerford Dam,\" Wikipedia, with \"Comerford Dam: The Engine of New England's Power Grid,\" North Star Monthly; consulted June 2026.",
+    "archive": "Wikipedia; North Star Monthly (online)",
+    "url": "https://en.wikipedia.org/wiki/Frank_D._Comerford_Dam",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Contextual history of the Frank D. Comerford Dam at Fifteen Mile Falls on the Connecticut River (1930-31): the largest hydroelectric development in New England when completed; its first generator started remotely by President Herbert Hoover, six years before Hoover Dam. Context for G4's role as assistant to the chief engineer on the Comerford plant. Tertiary/contextual source."
+  },
+  {
     "sourceId": "freebmd-freereg",
     "shortTitle": "FreeREG / FreeBMD",
     "citation": "FreeREG (parish register transcription project). freereg.org.uk.",
@@ -1522,6 +1582,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/great-ellingham-manor-farmhouse-hingham-road.md",
     "notes": "Local-history page for Manor Farmhouse, Great Ellingham, previously known as Ellingham Farm. Useful as Great Ellingham place context and as a guard against conflating Great Ellingham Manor Farmhouse with Gurney's Manor, Hingham."
+  },
+  {
+    "sourceId": "great-river-hydro-deerfield-history",
+    "shortTitle": "Great River Hydro, 'Our History' (Deerfield/Connecticut developments)",
+    "citation": "\"Our History,\" Great River Hydro, LLC (greatriverhydro.com), consulted June 2026.",
+    "archive": "Great River Hydro (online)",
+    "url": "https://www.greatriverhydro.com/our-history/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Contextual/operator history of the Deerfield and Connecticut River hydroelectric developments built by the New England Power Company / New England Power System (Great River Hydro is a later owner; the corporate line runs to National Grid). Dated build-out: Somerset reservoir (1911), Deerfield Nos. 2-5 (1911-1915), Searsburg (1922; 18,412-ft wood-stave penstock), Harriman (1924, 'largest hydroelectric facility east of Niagara Falls at the time'; 12,812-ft bedrock tunnel; reservoir still the largest man-made lake in Vermont), Sherman (1927), Bellows Falls (1928), Comerford/Fifteen Mile Falls (1930). Project context for G4 Lester Sawyer Gurney Jr.'s resident-engineer roles. Tertiary/contextual source per the contextual-colour band in citations.md."
   },
   {
     "sourceId": "grokipedia-edmund-gurney-divine",
@@ -1872,6 +1944,18 @@
     "notes": "Cited by Anderson in the John Gurney sketch. Obtained text confirms this is Mary Lovering Holman's Grissell Fletcher/Jewell/Griggs/Kibbee/Gurney/Burge marriage-chain article. It gives the 12 Nov. 1661 Braintree marriage by Peter Brackett and John Gurney Sr.'s 1662-63 death, but supplies no 1636 arrival or birth date for John Gurney; Anderson's 1636 date must derive from another citation, most likely WJ 2:422 / the Newgate apprentice tradition."
   },
   {
+    "sourceId": "hoosac-tunnel-wilmington-railroad",
+    "shortTitle": "Hoosac Tunnel & Wilmington Railroad (Wikipedia)",
+    "citation": "\"Hoosac Tunnel and Wilmington Railroad,\" Wikipedia; consulted June 2026.",
+    "archive": "Wikipedia (online)",
+    "url": "https://en.wikipedia.org/wiki/Hoosac_Tunnel_and_Wilmington_Railroad",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Contextual history of the Hoosac Tunnel & Wilmington Railroad (the narrow-gauge 'Hoot, Toot & Whistle'), bought by the New England Power Company to haul dam materials; Searsburg/Harriman construction required relocating its right-of-way to the west side of the Deerfield, and the 1924 Harriman impoundment drowned the village of Mountain Mills. Explains the 'Hoosac Tunnel railroad relocation' named among G4's New England Power assignments. Tertiary/contextual source."
+  },
+  {
     "sourceId": "history-of-parliament-online-gurney-1386-1421",
     "shortTitle": "HoP Online -- Gurney John d.1408",
     "citation": "Roskell, J. S., L. Clark, and C. Rawcliffe, eds. The House of Commons 1386-1421. The History of Parliament Trust. Biography of GURNEY, John (d.1408), of Harpley and West Barsham, Norf.",
@@ -2109,7 +2193,31 @@
     "corpusPath": "",
     "mediaPath": "",
     "validationPath": "",
-    "notes": "State inventory of historic properties. Gurney entries of interest: WHI.307 (Nathan and Martha Pullman House, Whitman) and WHI.325 (Jeremiah and Mary Fullerton House, Whitman) for the collateral Abington/Whitman Gurney descent; CUM.115 and CUM.151 (Asa Gurney houses, Cummington) as candidate seats of the direct line's Cummington branch; ROC.938 (East Rochester Cemetery, Benjamin Gurney stone, 1828) for the two-Benjamin half-brother line. Inventory 'B-form' PDFs frequently carry builder genealogies worth pulling."
+    "notes": "State inventory of historic properties. Gurney entries of interest: WHI.307 (Nathan and Martha Pullman House, Whitman) and WHI.325 (Jeremiah and Mary Fullerton House, Whitman) for the collateral Abington/Whitman Gurney descent; CUM.115 and CUM.151 (Asa Gurney houses, Cummington) - examined and promoted, see child sources macris-cum-115-gurney-ase-house and macris-cum-151-gurney-asa-house; ROC.938 (East Rochester Cemetery, Benjamin Gurney stone, 1828) for the two-Benjamin half-brother line. Inventory 'B-form' PDFs frequently carry builder genealogies worth pulling."
+  },
+  {
+    "sourceId": "macris-cum-115-gurney-ase-house",
+    "shortTitle": "MACRIS CUM.115 - Gurney, Ase House (51 Main St, Cummington)",
+    "citation": "Massachusetts Historical Commission, Inventory of Historic Assets of the Commonwealth, Form B - Building, inventory no. CUM.115, 'Gurney, Ase House' (common name 'Mitchell, William Ward House'), 51 Main Street, Cummington Center, Hampshire County, Massachusetts (built 1816). Recorded by W.W.S. [William W. Streeter], Cummington Historical Commission, 14 November 1974. Massachusetts Cultural Resource Information System (MACRIS).",
+    "archive": "Massachusetts Historical Commission / MACRIS; scanned Form B PDF",
+    "url": "https://mhc-macris.net/",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/macris-cummington-gurney-houses-extract.md",
+    "mediaPath": "sources/media/macris-cum-115-gurney-ase-house/",
+    "validationPath": "sources/validations/macris-cum-115-gurney-ase-house.md",
+    "notes": "MHC Form B for Asa Gurney's village house, lookup key CUM.115 in MACRIS. Handwritten original owner Asa Gurney; the house sits on the Gurney Main Street land within the southerly Minot Grant parcel Benjamin Gurney G9 settled in 1787. Later home of Prof. William Ward Mitchell (President of the Day, Cummington Centennial 1879), source of the common name. Sources cited on the form: 'Only One Cummington,' History of the Connecticut Valley (1879), deeds."
+  },
+  {
+    "sourceId": "macris-cum-151-gurney-asa-house",
+    "shortTitle": "MACRIS CUM.151 - Gurney, Asa House (75 Mount Rd, Cummington)",
+    "citation": "Massachusetts Historical Commission, Inventory of Historic Assets of the Commonwealth, Form B - Building, inventory no. CUM.151, 'Gurney, Asa House,' 75 Mount Road, Cummington, Hampshire County, Massachusetts (built 1808). Recorded by W.W.S. [William W. Streeter], Cummington Historical Commission, 30 January 1975. Massachusetts Cultural Resource Information System (MACRIS).",
+    "archive": "Massachusetts Historical Commission / MACRIS; scanned Form B PDF",
+    "url": "https://mhc-macris.net/",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/macris-cummington-gurney-houses-extract.md",
+    "mediaPath": "sources/media/macris-cum-151-gurney-asa-house/",
+    "validationPath": "sources/validations/macris-cum-151-gurney-asa-house.md",
+    "notes": "MHC Form B for the Asa Gurney homestead, lookup key CUM.151 in MACRIS. The typed history page independently corroborates Benjamin Gurney G9's documented Cummington land transactions (Lot 59-1 purchase 5 Nov 1770; 1787 Philip Shaw farm exchange; move to the village/southerly Minot Grant) and dates son Asa's purchase of Lots 5 & 6 (1795) and the present house (1808). Sources cited on the form: 'Only One Cummington' (Foster & Streeter), deeds, tax records. Handwritten margin adds later family members John Wesley Gurney (Hillside Agricultural Society) and Ashley B. Gurney (USDA entomologist); homestead still in the family name (Harriet Gurney) at survey."
   },
   {
     "sourceId": "massachusetts-bay-records-v1-1853",
@@ -2146,6 +2254,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/may-henry-gurney-spenser-2005.md",
     "notes": "Modern academic article on Henry Gurnay and Bodleian MS Tanner 175. The corpus supplement is a narrative research extraction from the ILL article copy, not the copyrighted PDF. User-supplied ResearchGate metadata gives January 2004, Spenser Studies 19:183-216, DOI 10.1086/SPSv20p183. The article-copy citation and the Chetham/JNR bibliography give Spenser Studies 20 (2005), pp. 183-223. Do not drop either metadata variant; reconcile by DOI/full article before citation cleanup. The article supports Henry as poet, critic, bibliophile, estate manager, and literary-network figure at Great Ellingham; MS Tanner 175 preserves estate notes, library inventory, more than 600 poems, and verse censures of borrowed books including Foxe, Southwell, Hakluyt, The Faerie Queene, and Mother Hubberds Tale."
+  },
+  {
+    "sourceId": "mcgraw-edison-history",
+    "shortTitle": "McGraw-Edison company history (Wikipedia; Eaton/Cooper heritage)",
+    "citation": "\"McGraw-Edison,\" Wikipedia, with \"Cooper power series product history,\" Eaton; consulted June 2026.",
+    "archive": "Wikipedia; Eaton (online)",
+    "url": "https://en.wikipedia.org/wiki/McGraw-Edison",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Contextual corporate history of McGraw-Edison, formed 2 January 1957 by the merger of the McGraw Electric Company (Max McGraw, 1900) with Thomas A. Edison, Inc. (the Edison company rooted in West Orange, New Jersey); its power-systems business (Line Material / Kyle reclosers, transformers, switchgear) was sold to Cooper Power Systems in 1985. Context for G3 Lester Sawyer Gurney III's long New Jersey power-engineering career, remembered in family evidence as a McGraw Edison career. Tertiary/contextual source."
   },
   {
     "sourceId": "medievalgenealogy-gerbod-gundred-documents",
@@ -2494,6 +2614,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Normonde uses Caen-numbering (Hugues 1er = Hastings/Domesday/Bec figure = repo's Hugh III). Cites Loyd 1951 p. 47, Scripta Acts 6511/151, Orderic Vital VIII p. 186, PASE Domesday Hugh 31, 1077 William the Conqueror confirmation to Bec. Authority-level confirmation of charter attestations."
+  },
+  {
+    "sourceId": "norwich-university-history",
+    "shortTitle": "Norwich University history (Wikipedia; Norwich catalog)",
+    "citation": "\"Norwich University,\" Wikipedia, with \"University History,\" Norwich University Catalog; consulted June 2026.",
+    "archive": "Wikipedia; Norwich University (online)",
+    "url": "https://en.wikipedia.org/wiki/Norwich_University",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Contextual history of Norwich University, Northfield, Vermont: founded 1819 by Captain Alden Partridge, a former superintendent of West Point; the oldest private military college in the United States, recognized by the Department of Defense as the 'Birthplace of ROTC,' and the first private college in the nation to teach civil engineering. Context for G3's 1941-1943 attendance as a civil-engineering cadet. Tertiary/contextual source."
   },
   {
     "sourceId": "nps-adams-nhp",

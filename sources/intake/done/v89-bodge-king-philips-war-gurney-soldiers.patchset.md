@@ -1,3 +1,5 @@
+**Done:** 2026-06-06 23:56 PT
+
 # v89 — Bodge, *Soldiers in King Philip's War* (1891): the Weymouth Gurney soldiers Peter (G13's son) and Zachariah (G12's son)
 
 **Outcome:** promote.

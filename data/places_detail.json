@@ -352,6 +352,40 @@
     ]
   },
   {
+    "placeId": "place-75-mount-road-cummington-massachusetts-usa",
+    "placeName": "75 Mount Road, Cummington, Massachusetts, USA",
+    "longDescription": "Federal-era farmhouse built in 1808 by Asa Gurney (b. 24 Oct. 1758), son of the direct-line ancestor Benjamin Gurney (G9) and brother of Amos Gurney (G8). Asa bought the southerly half of Lot 5 and the northerly half of Lot 6 (Plymouth grant lots) from the Commonwealth in 1795, reportedly built a log cabin first, then the present house in 1808. The MACRIS Form B (CUM.151) calls it 'the oldest homestead in the town that is still in the original family name' and records the founding of the Cummington Gurney line: Benjamin Gurney (G9) first bought Lot 59-1 on 5 November 1770 and in 1787 exchanged farms with Philip Shaw, moving to 100 acres of the southerly Minot Grant in the village. The homestead remained Gurney-owned into the 1970s (Harriet Gurney); later family members noted on the form include John Wesley Gurney (Hillside Agricultural Society) and the USDA entomologist Ashley B. Gurney.",
+    "siteName": "Gurney, Asa House (MACRIS CUM.151)",
+    "streetAddress": "75 Mount Road, Cummington, MA 01026",
+    "extantStatus": "extant",
+    "extantStatusDescription": "Standing; recorded by MHC, not demolished.",
+    "coordinateBasis": "street-address geocode (Nominatim / OpenStreetMap), rooftop match",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "https://mhc-macris.net/",
+    "heritageLabel": "MACRIS CUM.151",
+    "reviewNotes": [
+      "House built by Asa Gurney (G9's son), not a direct-line ancestor; linked to G9 as the documented founder of the Cummington Gurney landholding the form narrates. Lots 5 & 6 were Asa's own 1795 Commonwealth purchase, distinct from G9's Lot 59-1 / village Minot Grant parcels."
+    ]
+  },
+  {
+    "placeId": "place-51-main-street-cummington-massachusetts-usa",
+    "placeName": "51 Main Street, Cummington, Massachusetts, USA",
+    "longDescription": "Federal two-story house built in 1816, original owner Asa Gurney (b. 1758), son of direct-line ancestor Benjamin Gurney (G9). It stands in Cummington Center on the Gurney village land - the 100 acres of the southerly Minot Grant that Benjamin Gurney (G9) moved to after the 1787 farm exchange with Philip Shaw; the family gave away free Main Street acre-lots to encourage building (reportedly houses Nos. 223, 226, 227, 228). Later the home of Prof. William Ward Mitchell - fifty-year teacher, selectman, state representative, and President of the Day for the Cummington Centennial (1879) - hence the MACRIS common name 'Mitchell, William Ward House.' Twentieth-century owners Franklin and Florence Strutton ran a trucking company and a Hereford cattle farm.",
+    "siteName": "Gurney, Ase House (MACRIS CUM.115)",
+    "streetAddress": "51 Main Street, Cummington, MA 01026",
+    "extantStatus": "extant",
+    "extantStatusDescription": "Standing; recorded by MHC, not demolished.",
+    "coordinateBasis": "street-address geocode (Nominatim / OpenStreetMap)",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "https://mhc-macris.net/",
+    "heritageLabel": "MACRIS CUM.115",
+    "reviewNotes": [
+      "House built 1816 by Asa Gurney (G9's son), not a direct-line ancestor; linked to G9 via the village Minot-Grant land he settled in 1787. Geocode returned two '51 Main Street' candidates; used the plain street match (42.4622397, -72.8991742) over the 'Cummington Farm Village' candidate (42.4622550, -72.8954650) - verify against deed/parcel if a tighter fix is wanted."
+    ]
+  },
+  {
     "placeId": "place-dexter-michigan-usa",
     "placeName": "Dexter, Michigan, USA",
     "longDescription": "From 2000-2013 Dexter, MI",

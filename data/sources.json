@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.6.0",
+    "version": "1.7.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-05-28",
+    "lastUpdated": "2026-06-04",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
@@ -736,6 +736,17 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "Secondary attestation: places John Gurney at Weymouth on 2 June 1641, when the General Court remitted the fine of John Porter, James Ludden, and John Gurney 'for want of gunpowder.' The author glosses the quoted record 'Ludden and Gurney were of Weymouth.' Independent confirmation alongside MBCR 1:331 of John's June 1641 Weymouth presence."
+    },
+    "bodge-soldiers-king-philips-war-1891": {
+      "shortTitle": "Bodge, Soldiers in King Philip's War (1891)",
+      "citation": "Bodge, George Madison. Soldiers in King Philip's War: Containing Lists of the Soldiers of Massachusetts Colony, Who Served in the Indian War of 1675-1677, with Sketches of the Principal Officers, and Copies of Ancient Documents and Records Relating to the War. Boston: Printed for the Author, 1891.",
+      "archive": "Internet Archive (Boston University copy).",
+      "url": "https://archive.org/details/soldiersinkingph00bodg",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/bodge-soldiers-king-philips-war-1891-gurney-extracts.md",
+      "mediaPath": "sources/media/bodge-soldiers-king-philips-war-1891/",
+      "validationPath": "sources/validations/bodge-soldiers-king-philips-war-1891.md",
+      "notes": "Massachusetts muster, pay, and casualty rolls of King Philip's War (1675-1677). Three Gurney references, all of Weymouth and all confirmed against the page images (the OCR text layer drops the p. 113 entry): Peeter Gurnay under Weymouth in Capt. Isaac Johnson's company, Dedham muster 10 Dec. 1675 (p. 114); Zachariah Gurny credited under Capt. Isaac Johnson's company, 24 July credit (p. 113); Zacha-ry Gorney of Weymouth among the men returned as not appearing at Capt. John Holbrooke's Concord muster, 29 Apr. 1676 (p. 236). Bodge's index (p. 364) groups the surname 'Gorney / Gurney' at pp. 113, 114, 236 and nowhere else. Peter is a son of John Gurney-1 (G13); Zachariah is a son of Richard Gurney (G12). First edition, 100 copies, printed by David Clapp & Son."
     },
     "bartlett-bartletts-of-weymouth-1892": {
       "shortTitle": "Bartlett, The Bartletts of Weymouth (1892)",
@@ -1526,6 +1537,94 @@
       "validationPath": null,
       "notes": "Obituary of Elizabeth Stettler Walker Gurney (8 June 1918 - 11 June 2013), G3's third wife. Lifelong Morris County resident, of Chatham until 1995; daughter of Charlie and Elsie Stettler; educated at Wheaton College and the New Jersey State Teachers College, Trenton; elementary-school and music teacher in Chatham and Livingston. Widow of Alan Banham Walker of Cambridge, England (d. 1980, after 34 years of marriage); married Lester Gurney III in 1995 before moving to the Heath Village retirement community, Washington Township; 'after 16 happy years, Mr. Gurney died in 2011.' Survived by daughter Martha Walker Jones and son Charles Derek Walker (children of her first marriage), five grandchildren, and three great-grandchildren. Active Episcopal churchwoman; accomplished pianist, organist, violinist, and chorister."
     },
+    "great-river-hydro-deerfield-history": {
+      "shortTitle": "Great River Hydro, 'Our History' (Deerfield/Connecticut developments)",
+      "citation": "\"Our History,\" Great River Hydro, LLC (greatriverhydro.com), consulted June 2026.",
+      "archive": "Great River Hydro (online)",
+      "url": "https://www.greatriverhydro.com/our-history/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Contextual/operator history of the Deerfield and Connecticut River hydroelectric developments built by the New England Power Company / New England Power System (Great River Hydro is a later owner; the corporate line runs to National Grid). Dated build-out: Somerset reservoir (1911), Deerfield Nos. 2-5 (1911-1915), Searsburg (1922; 18,412-ft wood-stave penstock), Harriman (1924, 'largest hydroelectric facility east of Niagara Falls at the time'; 12,812-ft bedrock tunnel; reservoir still the largest man-made lake in Vermont), Sherman (1927), Bellows Falls (1928), Comerford/Fifteen Mile Falls (1930). Project context for G4 Lester Sawyer Gurney Jr.'s resident-engineer roles. Tertiary/contextual source per the contextual-colour band in citations.md."
+    },
+    "cape-cod-canal-history": {
+      "shortTitle": "Cape Cod Canal history (Mass.gov; Wikipedia)",
+      "citation": "\"History of the Cape Cod Canal and bridges,\" Commonwealth of Massachusetts (mass.gov), with \"Cape Cod Canal,\" Wikipedia; consulted June 2026.",
+      "archive": "Commonwealth of Massachusetts; Wikipedia (online)",
+      "url": "https://www.mass.gov/info-details/history-of-the-cape-cod-canal-and-bridges",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Contextual history of the Cape Cod Canal: planned and financed by August Belmont II's Boston, Cape Cod & New York Canal Company to designs by the engineer William Barclay Parsons (the Belmont-Parsons partnership that built New York City's first subway); construction 1909-1914, officially completed 1916; a privately operated sea-level toll waterway opened seventeen days ahead of the Panama Canal. Context for G4's 1906-1911 Cape Cod Canal and Cape Cod Construction Company work. Tertiary/contextual source."
+    },
+    "hoosac-tunnel-wilmington-railroad": {
+      "shortTitle": "Hoosac Tunnel & Wilmington Railroad (Wikipedia)",
+      "citation": "\"Hoosac Tunnel and Wilmington Railroad,\" Wikipedia; consulted June 2026.",
+      "archive": "Wikipedia (online)",
+      "url": "https://en.wikipedia.org/wiki/Hoosac_Tunnel_and_Wilmington_Railroad",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Contextual history of the Hoosac Tunnel & Wilmington Railroad (the narrow-gauge 'Hoot, Toot & Whistle'), bought by the New England Power Company to haul dam materials; Searsburg/Harriman construction required relocating its right-of-way to the west side of the Deerfield, and the 1924 Harriman impoundment drowned the village of Mountain Mills. Explains the 'Hoosac Tunnel railroad relocation' named among G4's New England Power assignments. Tertiary/contextual source."
+    },
+    "comerford-dam-history": {
+      "shortTitle": "Frank D. Comerford Dam history (Wikipedia; North Star Monthly)",
+      "citation": "\"Frank D. Comerford Dam,\" Wikipedia, with \"Comerford Dam: The Engine of New England's Power Grid,\" North Star Monthly; consulted June 2026.",
+      "archive": "Wikipedia; North Star Monthly (online)",
+      "url": "https://en.wikipedia.org/wiki/Frank_D._Comerford_Dam",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Contextual history of the Frank D. Comerford Dam at Fifteen Mile Falls on the Connecticut River (1930-31): the largest hydroelectric development in New England when completed; its first generator started remotely by President Herbert Hoover, six years before Hoover Dam. Context for G4's role as assistant to the chief engineer on the Comerford plant. Tertiary/contextual source."
+    },
+    "mcgraw-edison-history": {
+      "shortTitle": "McGraw-Edison company history (Wikipedia; Eaton/Cooper heritage)",
+      "citation": "\"McGraw-Edison,\" Wikipedia, with \"Cooper power series product history,\" Eaton; consulted June 2026.",
+      "archive": "Wikipedia; Eaton (online)",
+      "url": "https://en.wikipedia.org/wiki/McGraw-Edison",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Contextual corporate history of McGraw-Edison, formed 2 January 1957 by the merger of the McGraw Electric Company (Max McGraw, 1900) with Thomas A. Edison, Inc. (the Edison company rooted in West Orange, New Jersey); its power-systems business (Line Material / Kyle reclosers, transformers, switchgear) was sold to Cooper Power Systems in 1985. Context for G3 Lester Sawyer Gurney III's long New Jersey power-engineering career, remembered in family evidence as a McGraw Edison career. Tertiary/contextual source."
+    },
+    "norwich-university-history": {
+      "shortTitle": "Norwich University history (Wikipedia; Norwich catalog)",
+      "citation": "\"Norwich University,\" Wikipedia, with \"University History,\" Norwich University Catalog; consulted June 2026.",
+      "archive": "Wikipedia; Norwich University (online)",
+      "url": "https://en.wikipedia.org/wiki/Norwich_University",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Contextual history of Norwich University, Northfield, Vermont: founded 1819 by Captain Alden Partridge, a former superintendent of West Point; the oldest private military college in the United States, recognized by the Department of Defense as the 'Birthplace of ROTC,' and the first private college in the nation to teach civil engineering. Context for G3's 1941-1943 attendance as a civil-engineering cadet. Tertiary/contextual source."
+    },
+    "actors-fund-of-america-history": {
+      "shortTitle": "Actors' Fund of America history (Wikipedia; NYU finding aid)",
+      "citation": "\"Actors' Fund of America\" / \"Entertainment Community Fund,\" Wikipedia, with the Actors' Fund of America Records finding aid, NYU Special Collections; consulted June 2026.",
+      "archive": "Wikipedia; New York University Special Collections (online)",
+      "url": "https://en.wikipedia.org/wiki/Actors_Fund_of_America",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Contextual history of the Actors' Fund of America (now the Entertainment Community Fund), founded 1882 on the advocacy of the theatrical manager Harrison Grey Fiske; first officers Lester Wallack (president), A. M. Palmer (vice-president), Daniel Frohman (secretary), Theodore Moss (treasurer); relief, the Actors' Fund Home, and burial plots, much of it underwritten by the 1892 Actors' Fund Fair at Madison Square Garden. Context for G5 Lester Sawyer Gurney's assistant-secretaryship (1892). Tertiary/contextual source."
+    },
+    "actors-order-of-friendship-history": {
+      "shortTitle": "Actors' Order of Friendship (Oxford Reference)",
+      "citation": "\"Actors' Order of Friendship,\" Oxford Reference; consulted June 2026.",
+      "archive": "Oxford Reference (online)",
+      "url": "https://www.oxfordreference.com/view/10.1093/oi/authority.20110803095349204",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Contextual history of the Actors' Order of Friendship, a theatrical fraternal benefit order chartered at Philadelphia in 1849 (first lodge the Shakespeare Lodge); its New York branch, the Edwin Forrest Lodge, was established in 1888 by Louis Aldrich, John Drew, and Otis Skinner; the order was the direct precursor of the Actors' Fund of America, which eclipsed it. Context for G5's secretaryship of the Actors' Order of Friendship. Tertiary/contextual source."
+    },
     "us-census-1940": {
       "shortTitle": "U.S. Federal Census, 1940",
       "citation": "\"United States, Census, 1940,\" database with images, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:K4NN-ZHR), entry for Lester Gurney (age 16) in the household of Lester and Ethel Gurney, Wellesley Town, Norfolk County, Massachusetts; enumeration district 11-279.",
@@ -1601,7 +1700,7 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": null,
-      "notes": "State inventory of historic properties. Gurney entries of interest: WHI.307 (Nathan and Martha Pullman House, Whitman) and WHI.325 (Jeremiah and Mary Fullerton House, Whitman) for the collateral Abington/Whitman Gurney descent; CUM.115 and CUM.151 (Asa Gurney houses, Cummington) as candidate seats of the direct line's Cummington branch; ROC.938 (East Rochester Cemetery, Benjamin Gurney stone, 1828) for the two-Benjamin half-brother line. Inventory 'B-form' PDFs frequently carry builder genealogies worth pulling."
+      "notes": "State inventory of historic properties. Gurney entries of interest: WHI.307 (Nathan and Martha Pullman House, Whitman) and WHI.325 (Jeremiah and Mary Fullerton House, Whitman) for the collateral Abington/Whitman Gurney descent; CUM.115 and CUM.151 (Asa Gurney houses, Cummington) - examined and promoted, see child sources macris-cum-115-gurney-ase-house and macris-cum-151-gurney-asa-house; ROC.938 (East Rochester Cemetery, Benjamin Gurney stone, 1828) for the two-Benjamin half-brother line. Inventory 'B-form' PDFs frequently carry builder genealogies worth pulling."
     },
     "hobart-benjamin-history-abington-1866": {
       "shortTitle": "Hobart, History of the Town of Abington (1866)",
@@ -2009,6 +2108,28 @@
       "mediaPath": "sources/media/cummington-vital-records/",
       "validationPath": "sources/validations/cummington-vital-records.md",
       "notes": "Contemporary town register page 213 records the Cummington Gurney births under 'G,' including the five in-sequence children of Amos & Ruth Gurney (Amos 5 Nov 1792, Willard 6 Mar 1794, Hannah 7 May 1795, Ruth 4 Jan 1800, Nathan 2 Apr 1802) and a sixth, Willis, entered out of sequence at the foot of the section with the year flagged by the clerk's own question mark ('Feb 23 1793 (?)'). Confirms the Amos G8 child set and frames the contested Willis G7 birth. Page image supplied via chat (Ancestry), held local-only under mediaPath/_local."
+    },
+    "macris-cum-151-gurney-asa-house": {
+      "shortTitle": "MACRIS CUM.151 - Gurney, Asa House (75 Mount Rd, Cummington)",
+      "citation": "Massachusetts Historical Commission, Inventory of Historic Assets of the Commonwealth, Form B - Building, inventory no. CUM.151, 'Gurney, Asa House,' 75 Mount Road, Cummington, Hampshire County, Massachusetts (built 1808). Recorded by W.W.S. [William W. Streeter], Cummington Historical Commission, 30 January 1975. Massachusetts Cultural Resource Information System (MACRIS).",
+      "archive": "Massachusetts Historical Commission / MACRIS; scanned Form B PDF",
+      "url": "https://mhc-macris.net/",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/macris-cummington-gurney-houses-extract.md",
+      "mediaPath": "sources/media/macris-cum-151-gurney-asa-house/",
+      "validationPath": "sources/validations/macris-cum-151-gurney-asa-house.md",
+      "notes": "MHC Form B for the Asa Gurney homestead, lookup key CUM.151 in MACRIS. The typed history page independently corroborates Benjamin Gurney G9's documented Cummington land transactions (Lot 59-1 purchase 5 Nov 1770; 1787 Philip Shaw farm exchange; move to the village/southerly Minot Grant) and dates son Asa's purchase of Lots 5 & 6 (1795) and the present house (1808). Sources cited on the form: 'Only One Cummington' (Foster & Streeter), deeds, tax records. Handwritten margin adds later family members John Wesley Gurney (Hillside Agricultural Society) and Ashley B. Gurney (USDA entomologist); homestead still in the family name (Harriet Gurney) at survey."
+    },
+    "macris-cum-115-gurney-ase-house": {
+      "shortTitle": "MACRIS CUM.115 - Gurney, Ase House (51 Main St, Cummington)",
+      "citation": "Massachusetts Historical Commission, Inventory of Historic Assets of the Commonwealth, Form B - Building, inventory no. CUM.115, 'Gurney, Ase House' (common name 'Mitchell, William Ward House'), 51 Main Street, Cummington Center, Hampshire County, Massachusetts (built 1816). Recorded by W.W.S. [William W. Streeter], Cummington Historical Commission, 14 November 1974. Massachusetts Cultural Resource Information System (MACRIS).",
+      "archive": "Massachusetts Historical Commission / MACRIS; scanned Form B PDF",
+      "url": "https://mhc-macris.net/",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/macris-cummington-gurney-houses-extract.md",
+      "mediaPath": "sources/media/macris-cum-115-gurney-ase-house/",
+      "validationPath": "sources/validations/macris-cum-115-gurney-ase-house.md",
+      "notes": "MHC Form B for Asa Gurney's village house, lookup key CUM.115 in MACRIS. Handwritten original owner Asa Gurney; the house sits on the Gurney Main Street land within the southerly Minot Grant parcel Benjamin Gurney G9 settled in 1787. Later home of Prof. William Ward Mitchell (President of the Day, Cummington Centennial 1879), source of the common name. Sources cited on the form: 'Only One Cummington,' History of the Connecticut Valley (1879), deeds."
     },
     "ny-war-1812-payroll-abstracts": {
       "shortTitle": "New York War of 1812 militia payroll abstracts",

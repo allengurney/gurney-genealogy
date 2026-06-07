@@ -1229,9 +1229,11 @@
       "place-abington-whitman-line-massachusetts-usa",
       "place-bridgewater-massachusetts-usa",
       "place-braintree-massachusetts-usa",
-      "place-cummington-massachusetts-usa"
+      "place-cummington-massachusetts-usa",
+      "place-75-mount-road-cummington-massachusetts-usa",
+      "place-51-main-street-cummington-massachusetts-usa"
     ],
-    "placeSummary": "Abington, Massachusetts, USA; Little Comfort / Abington-Bridgewater line, Massachusetts, USA; Bridgewater, Massachusetts, USA; +2 more",
+    "placeSummary": "Abington, Massachusetts, USA; Little Comfort / Abington-Bridgewater line, Massachusetts, USA; Bridgewater, Massachusetts, USA; +4 more",
     "locations": [
       {
         "placeId": "place-abington-massachusetts-usa",
@@ -1317,6 +1319,40 @@
         "photoTitle": "",
         "siteUrl": "",
         "siteLabel": ""
+      },
+      {
+        "placeId": "place-75-mount-road-cummington-massachusetts-usa",
+        "place": "75 Mount Road, Cummington, Massachusetts, USA",
+        "siteName": "Gurney, Asa House (MACRIS CUM.151)",
+        "region": "Cummington, Massachusetts, USA",
+        "eventType": "landholding / property reference",
+        "eventDate": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "sourceQuote": "Federal-era farmhouse built in 1808 by Asa Gurney (b. 24 Oct. 1758), son of the direct-line ancestor Benjamin Gurney (G9) and brother of Amos Gurney (G8). Asa bought the southerly half of Lot 5 and the northerly half of Lot 6 (Plymouth grant lots) from the Commonwealth in 1795, reportedly built a log cabin first, then the present house in 1808. The MACRIS Form B (CUM.151) calls it 'the oldest homestead in the town that is still in the original family name' and records the founding of the Cummington Gurney line: Benjamin Gurney (G9) first bought Lot 59-1 on 5 November 1770 and in 1787 exchanged farms with Philip Shaw, moving to 100 acres of the southerly Minot Grant in the village. The homestead remained Gurney-owned into the 1970s (Harriet Gurney); later family members noted on the form include John Wesley Gurney (Hillside Agricultural Society) and the USDA entomologist Ashley B. Gurney.",
+        "lat": 42.4418878,
+        "lng": -72.8810358,
+        "geocodeBasis": "street-address geocode (Nominatim / OpenStreetMap), rooftop match",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://mhc-macris.net/",
+        "siteLabel": "MACRIS CUM.151"
+      },
+      {
+        "placeId": "place-51-main-street-cummington-massachusetts-usa",
+        "place": "51 Main Street, Cummington, Massachusetts, USA",
+        "siteName": "Gurney, Ase House (MACRIS CUM.115)",
+        "region": "Cummington, Massachusetts, USA",
+        "eventType": "landholding / property reference",
+        "eventDate": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "sourceQuote": "Federal two-story house built in 1816, original owner Asa Gurney (b. 1758), son of direct-line ancestor Benjamin Gurney (G9). It stands in Cummington Center on the Gurney village land - the 100 acres of the southerly Minot Grant that Benjamin Gurney (G9) moved to after the 1787 farm exchange with Philip Shaw; the family gave away free Main Street acre-lots to encourage building (reportedly houses Nos. 223, 226, 227, 228). Later the home of Prof. William Ward Mitchell - fifty-year teacher, selectman, state representative, and President of the Day for the Cummington Centennial (1879) - hence the MACRIS common name 'Mitchell, William Ward House.' Twentieth-century owners Franklin and Florence Strutton ran a trucking company and a Hereford cattle farm.",
+        "lat": 42.4622397,
+        "lng": -72.8991742,
+        "geocodeBasis": "street-address geocode (Nominatim / OpenStreetMap)",
+        "confidence": "High",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "https://mhc-macris.net/",
+        "siteLabel": "MACRIS CUM.115"
       }
     ],
     "externalIds": {
@@ -2004,6 +2040,12 @@
       }
     ],
     "buttons": [
+      {
+        "label": "Fact sheet",
+        "url": "/fact-sheets/g13-john-gurney-fact-sheet.html",
+        "style": "bio",
+        "isExternal": false
+      },
       {
         "label": "Click for Case File",
         "url": "/key-research/john-gurney-case-file.html",

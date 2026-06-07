@@ -671,6 +671,59 @@
     "filename": "cummington-ma.md"
   },
   {
+    "placeId": "place-75-mount-road-cummington-massachusetts-usa",
+    "name": "75 Mount Road, Cummington, Massachusetts, USA",
+    "aliases": [
+      "Gurney, Asa House",
+      "75 Mount Rd, Cummington",
+      "MACRIS CUM.151"
+    ],
+    "shortDescription": "Asa Gurney homestead (1808); oldest Cummington house in the family name",
+    "placeType": "building",
+    "coordinate": {
+      "lat": 42.4418878,
+      "lng": -72.8810358
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "75-mount-rd-cummington-ma.md"
+  },
+  {
+    "placeId": "place-51-main-street-cummington-massachusetts-usa",
+    "name": "51 Main Street, Cummington, Massachusetts, USA",
+    "aliases": [
+      "Gurney, Ase House",
+      "Mitchell, William Ward House",
+      "51 Main St, Cummington",
+      "MACRIS CUM.115"
+    ],
+    "shortDescription": "Asa Gurney's village house (1816) on the Gurney Main Street land",
+    "placeType": "building",
+    "coordinate": {
+      "lat": 42.4622397,
+      "lng": -72.8991742
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "51-main-st-cummington-ma.md"
+  },
+  {
     "placeId": "place-dexter-michigan-usa",
     "name": "Dexter, Michigan, USA",
     "aliases": [

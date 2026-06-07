@@ -1198,7 +1198,7 @@
         "role": "landholding / property reference",
         "lineageStatus": "Probable",
         "displayLineageStatus": "Probable",
-        "url": "/key-research/john-gurney-case-file.html"
+        "url": "/fact-sheets/g13-john-gurney-fact-sheet.html"
       },
       {
         "recordId": "ancestor-g13-john-gurney-1",
@@ -1209,7 +1209,7 @@
         "role": "individual geography",
         "lineageStatus": "Probable",
         "displayLineageStatus": "Probable",
-        "url": "/key-research/john-gurney-case-file.html"
+        "url": "/fact-sheets/g13-john-gurney-fact-sheet.html"
       }
     ],
     "ancestorCount": 6
@@ -1744,7 +1744,7 @@
         "role": "landholding / property reference",
         "lineageStatus": "Probable",
         "displayLineageStatus": "Probable",
-        "url": "/key-research/john-gurney-case-file.html"
+        "url": "/fact-sheets/g13-john-gurney-fact-sheet.html"
       },
       {
         "recordId": "ancestor-g13-john-gurney-1",
@@ -1755,7 +1755,7 @@
         "role": "individual geography",
         "lineageStatus": "Probable",
         "displayLineageStatus": "Probable",
-        "url": "/key-research/john-gurney-case-file.html"
+        "url": "/fact-sheets/g13-john-gurney-fact-sheet.html"
       }
     ],
     "ancestorCount": 4
@@ -3462,7 +3462,7 @@
         "role": "individual geography",
         "lineageStatus": "Probable",
         "displayLineageStatus": "Probable",
-        "url": "/key-research/john-gurney-case-file.html"
+        "url": "/fact-sheets/g13-john-gurney-fact-sheet.html"
       }
     ],
     "ancestorCount": 2
@@ -4682,7 +4682,7 @@
         "role": "landholding / property reference",
         "lineageStatus": "Probable",
         "displayLineageStatus": "Probable",
-        "url": "/key-research/john-gurney-case-file.html"
+        "url": "/fact-sheets/g13-john-gurney-fact-sheet.html"
       }
     ],
     "ancestorCount": 1
@@ -5132,6 +5132,105 @@
     "ancestorCount": 1
   },
   {
+    "placeId": "place-75-mount-road-cummington-massachusetts-usa",
+    "name": "75 Mount Road, Cummington, Massachusetts, USA",
+    "title": "Gurney, Asa House (MACRIS CUM.151)",
+    "seoTitle": "Gurney, Asa House (MACRIS CUM.151)",
+    "siteName": "Gurney, Asa House (MACRIS CUM.151)",
+    "streetAddress": "75 Mount Road, Cummington, MA 01026",
+    "region": "Cummington, Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Gurney, Asa House",
+      "75 Mount Rd, Cummington",
+      "MACRIS CUM.151"
+    ],
+    "shortDescription": "Asa Gurney homestead (1808); oldest Cummington house in the family name",
+    "longDescription": "Federal-era farmhouse built in 1808 by Asa Gurney (b. 24 Oct. 1758), son of the direct-line ancestor Benjamin Gurney (G9) and brother of Amos Gurney (G8). Asa bought the southerly half of Lot 5 and the northerly half of Lot 6 (Plymouth grant lots) from the Commonwealth in 1795, reportedly built a log cabin first, then the present house in 1808. The MACRIS Form B (CUM.151) calls it 'the oldest homestead in the town that is still in the original family name' and records the founding of the Cummington Gurney line: Benjamin Gurney (G9) first bought Lot 59-1 on 5 November 1770 and in 1787 exchanged farms with Philip Shaw, moving to 100 acres of the southerly Minot Grant in the village. The homestead remained Gurney-owned into the 1970s (Harriet Gurney); later family members noted on the form include John Wesley Gurney (Hillside Agricultural Society) and the USDA entomologist Ashley B. Gurney.",
+    "placeType": "building",
+    "extantStatus": "extant",
+    "extantStatusDescription": "Standing; recorded by MHC, not demolished.",
+    "coordinate": {
+      "lat": 42.4418878,
+      "lng": -72.8810358
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "street-address geocode (Nominatim / OpenStreetMap), rooftop match",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://mhc-macris.net/",
+    "siteLabel": "MACRIS CUM.151",
+    "researchUrl": "/research/places/75-mount-rd-cummington-ma.html",
+    "researchSlug": "75-mount-rd-cummington-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G9",
+        "name": "Benjamin Gurney",
+        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-51-main-street-cummington-massachusetts-usa",
+    "name": "51 Main Street, Cummington, Massachusetts, USA",
+    "title": "Gurney, Ase House (MACRIS CUM.115)",
+    "seoTitle": "Gurney, Ase House (MACRIS CUM.115)",
+    "siteName": "Gurney, Ase House (MACRIS CUM.115)",
+    "streetAddress": "51 Main Street, Cummington, MA 01026",
+    "region": "Cummington, Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Gurney, Ase House",
+      "Mitchell, William Ward House",
+      "51 Main St, Cummington",
+      "MACRIS CUM.115"
+    ],
+    "shortDescription": "Asa Gurney's village house (1816) on the Gurney Main Street land",
+    "longDescription": "Federal two-story house built in 1816, original owner Asa Gurney (b. 1758), son of direct-line ancestor Benjamin Gurney (G9). It stands in Cummington Center on the Gurney village land - the 100 acres of the southerly Minot Grant that Benjamin Gurney (G9) moved to after the 1787 farm exchange with Philip Shaw; the family gave away free Main Street acre-lots to encourage building (reportedly houses Nos. 223, 226, 227, 228). Later the home of Prof. William Ward Mitchell - fifty-year teacher, selectman, state representative, and President of the Day for the Cummington Centennial (1879) - hence the MACRIS common name 'Mitchell, William Ward House.' Twentieth-century owners Franklin and Florence Strutton ran a trucking company and a Hereford cattle farm.",
+    "placeType": "building",
+    "extantStatus": "extant",
+    "extantStatusDescription": "Standing; recorded by MHC, not demolished.",
+    "coordinate": {
+      "lat": 42.4622397,
+      "lng": -72.8991742
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "street-address geocode (Nominatim / OpenStreetMap)",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "https://mhc-macris.net/",
+    "siteLabel": "MACRIS CUM.115",
+    "researchUrl": "/research/places/51-main-st-cummington-ma.html",
+    "researchSlug": "51-main-st-cummington-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G9",
+        "name": "Benjamin Gurney",
+        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
     "placeId": "place-hackettstown-new-jersey-usa",
     "name": "Hackettstown, New Jersey, USA",
     "title": "Heath Village retirement community",
@@ -5455,7 +5554,7 @@
         "role": "landholding / property reference",
         "lineageStatus": "Probable",
         "displayLineageStatus": "Probable",
-        "url": "/key-research/john-gurney-case-file.html"
+        "url": "/fact-sheets/g13-john-gurney-fact-sheet.html"
       }
     ],
     "ancestorCount": 1

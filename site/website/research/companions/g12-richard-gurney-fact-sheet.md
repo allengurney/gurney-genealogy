@@ -27,6 +27,12 @@ The 1683 town-meeting grant of six acres on the west side of the Pond "to build 
 
 The death of Richard's son John Gurney Jr. at the Mendon massacre is corroborated by multiple secondary sources — King Philip's War standard histories (Drake, Bourne, et al.) routinely list Mendon's casualties of 14 July 1675. The exact wording in <code>data/ancestors v26.json</code> says "Killed at Mendon massacre 1675"; Sprague, <em>Genealogies of Braintree</em>, p. 695, also lists this son in the John Gurney-1 family group ("of Weymouth/Mendon; killed at Mendon, July 1675").
 
+### Zachariah's King Philip's War service (Bodge, p. 113 and p. 236)
+
+Richard's son Zachariah (b. c. 1660, m. Mary Benson) appears by name in the 1676 muster rolls, supplying the primary record behind the "King Philip's War soldier" tag carried only as an unsourced note in Robert G. Rigler's c. 1980 worksheet. Bodge's *Soldiers in King Philip's War* records him twice: "Zachariah Gurny," credited under Captain Isaac Johnson's company (a pay credit dated 24 July, £2 14s, p. 113); and "Zacha-ry Gorney" of Weymouth, returned among the men who failed to appear at the Concord muster of Captain John Holbrooke's company on 29 April 1676 — the company Holbrooke raised that spring to "range the woods towards Hassanamesit" (p. 236). At roughly fifteen or sixteen he was a youth soldier; he survived the war, married Mary Benson, and was alive in 1691 to co-administer his father's estate. The same Captain Johnson's-company material carries his older uncle Peter on the facing page (p. 114; see the [G13 companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g13-john-gurney-fact-sheet.research.md)) — the grown uncle in the front-line December 1675 muster, the teenaged nephew only in the lighter 1676 records. Bodge's index (p. 364) groups the surname under "Gorney / Gurney" at pp. 113, 114, 236 — the book's only Gurney references.[^bodge-zachariah-g12]
+
+[^bodge-zachariah-g12]: George Madison Bodge, *Soldiers in King Philip's War* (Boston: Printed for the Author, 1891), p. 113 ("Zachariah Gurny," Captain Isaac Johnson's company credit roll, 24 July credit, £2 14s) and p. 236 ("Zacha-ry Gorney" of Weymouth, defaulter at the 29 April 1676 Concord muster of Captain John Holbrooke's company; Mass. Archives 69:12), with the name index at p. 364. The entries were confirmed against the page images; the OCR text layer drops the p. 113 entry. Provides the primary documentation for the soldier tag in Robert G. Rigler's c. 1980 worksheet (Source ID: `rigler-genealogy-notes-c1980`). Verbatim extracts at [`sources/corpus_supplement/bodge-soldiers-king-philips-war-1891-gurney-extracts.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/bodge-soldiers-king-philips-war-1891-gurney-extracts.md). Source ID: `bodge-soldiers-king-philips-war-1891`.
+
 ### Rebecca Taylor's father's will
 
 The 1688 reference is the only firm record of Rebecca Taylor's family. The will should be findable in Plymouth County or Suffolk County (Boston) probate, depending on Taylor's residence. Direct examination is the next research step on Rebecca's parentage.
@@ -157,7 +163,7 @@ An earlier Rigler family-group worksheet for Richard-2 (signed Robert G. Rigler,
 - <em>History of Weymouth</em>, Massachusetts (1923 four-volume town history). Direct text for p. 251 and the "before 1642–44" land entries.
 - Plymouth County, Massachusetts, probate records — Richard Gurney administration 1691; Rebecca Taylor's father's will 1688.
 - <em>Records of the Governor and Company of the Massachusetts Bay in New England</em> (Shurtleff ed.) — Freeman admissions 1681.
-- Drake, <em>The Book of the Indians</em>, or Bodge's <em>Soldiers in King Philip's War</em>, for the Mendon casualties of 14 July 1675.
+- Drake, <em>The Book of the Indians</em>, for the Mendon casualties of 14 July 1675. (Bodge, <em>Soldiers in King Philip's War</em>, now examined — see the Zachariah service note above and the [G13 companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g13-john-gurney-fact-sheet.research.md) for Peter; Source ID <code>bodge-soldiers-king-philips-war-1891</code>.)
 
 ---
 

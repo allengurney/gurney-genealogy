@@ -1,3 +1,5 @@
+**Done:** 2026-06-06 23:56 PT
+
 # v87 — G3–G5 occupational/institutional context: source registration + fact-sheet promotion
 
 **Type:** discovery-to-publication promotion (no new primary records; contextual/tertiary sourcing).
