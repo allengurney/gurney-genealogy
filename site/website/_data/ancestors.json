@@ -724,6 +724,12 @@
     ],
     "buttons": [
       {
+        "label": "Fact sheet",
+        "url": "/fact-sheets/g06-william-gurney-fact-sheet.html",
+        "style": "bio",
+        "isExternal": false
+      },
+      {
         "label": "Click for biography",
         "url": "/key-research/brigadier-general-william-gurney.html",
         "style": "bio",
