@@ -119,6 +119,28 @@ activeNav: maps
   </section>
 </div>
 
+<section class="map-place-index" aria-label="Places shown on this map, by region">
+  <h2>Places shown on this map</h2>
+  <p>This ancestor map plots {{ siteStats.geocodedPlaceCount }} geolocated places across {{ siteStats.knownGenerationCount }} documented generations, tracing the Gurney line&rsquo;s movement from the Pays de Bray in Normandy, across the manors and parishes of Norfolk and the neighbouring English counties, to its later homes in North America. Every mapped location is listed below by region, with the ancestor and generation it is tied to &mdash; a text index of the same data the map draws, readable without an interactive map.</p>
+
+  {% set regionSections = [["europe", "Normandy &amp; northern France"], ["england", "England"], ["north-america", "North America"]] %}
+  {% for section in regionSections %}
+    <h3>{{ section[1] | safe }}</h3>
+    <ul class="map-place-list">
+      {% for place in placesCatalog %}
+        {% if place.regionGroup == section[0] and place.coordinate.lat %}
+          <li>
+            {% if place.researchUrl %}<a href="{{ place.researchUrl }}">{{ place.title }}</a>{% else %}{{ place.title }}{% endif %}
+            {%- if place.siteName and place.siteName != place.name %} &mdash; {{ place.name }}{% endif %}
+            {%- set people = place.ancestorLinks | uniqueAncestors %}
+            {%- if people.length %} &mdash; {% for a in people %}{% if loop.index <= 3 %}{{ a.name }}{% if a.gen %} ({{ a.gen }}){% endif %}{% if not loop.last and loop.index < 3 %}, {% endif %}{% endif %}{% endfor %}{% if people.length > 3 %}, and {{ people.length - 3 }} more{% endif %}{% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</section>
+
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 <script src="/assets/map-page.js"></script>

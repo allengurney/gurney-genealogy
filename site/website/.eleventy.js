@@ -9,6 +9,19 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary("md", md);
   eleventyConfig.addFilter("markdown", value => md.render(value || ""));
   eleventyConfig.addFilter("json", value => JSON.stringify(value || ""));
+  // De-duplicate a place's ancestorLinks (a place can link the same person
+  // under several roles) into a distinct name+generation list for text indexes.
+  eleventyConfig.addFilter("uniqueAncestors", links => {
+    const out = [];
+    const seen = new Set();
+    (links || []).forEach(link => {
+      const key = `${link.name || ""}|${link.gen || ""}`;
+      if (seen.has(key)) return;
+      seen.add(key);
+      out.push({ name: link.name, gen: link.gen });
+    });
+    return out;
+  });
   eleventyConfig.addFilter("stripFirstMarkdownHeading", value => {
     return String(value || "")
       .replace(/^\s*#\s+.*(?:\r?\n|$)/, "")
@@ -24,8 +37,9 @@ module.exports = function (eleventyConfig) {
     return `<figure${cls}>\n  <img src="${src}" alt="${alt}">${cap}\n</figure>`;
   });
 
-  // Pass-through: raw research highlights feed used by the next homepage design.
-  eleventyConfig.addPassthroughCopy("research/highlights.md");
+  // research/highlights.md is a data feed for the homepage (read server-side by
+  // _data/researchHighlights.js), not a public page — it is excluded from output
+  // via .eleventyignore and is not passthrough-copied.
 
   // Pass-through: assets, media, favicons, crawler files.
   eleventyConfig.addPassthroughCopy("assets");

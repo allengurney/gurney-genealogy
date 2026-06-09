@@ -89,6 +89,14 @@ body.drawer-open{overflow:hidden}
 .dense-catalog-table th:first-child,.dense-catalog-table td:first-child{width:3.4rem;min-width:3.4rem;white-space:nowrap;text-align:center}
 .dense-catalog-table th:nth-child(6),.dense-catalog-table td:nth-child(6){width:24%;min-width:320px}
 .map-shell{border:1px solid var(--explorer-rule);border-radius:8px;overflow:hidden;background:var(--explorer-paper);box-shadow:var(--explorer-shadow)}
+.map-place-index{margin-top:28px}
+.map-place-index h2{font-family:var(--explorer-sans);font-size:18px;margin:0 0 6px}
+.map-place-index>p{font-family:var(--explorer-sans);font-size:13px;color:var(--explorer-muted);max-width:60rem;margin:0 0 14px}
+.map-place-index h3{font-family:var(--explorer-sans);font-size:14px;margin:18px 0 6px;color:var(--explorer-ink)}
+.map-place-list{list-style:none;margin:0;padding:0;columns:2;column-gap:34px;font-family:var(--explorer-sans);font-size:12.5px;line-height:1.5}
+.map-place-list li{break-inside:avoid;margin:0 0 3px;color:var(--explorer-muted)}
+.map-place-list li a{color:var(--explorer-ink)}
+@media (max-width:680px){.map-place-list{columns:1}}
 .generated-map{height:calc(100vh - 250px);min-height:520px;background:#eef1ee}
 .map-square-marker span{display:block;width:13px;height:13px;border:1.5px solid #333;transform:rotate(45deg);box-shadow:0 0 0 2px rgba(255,255,255,.8)}
 .map-overlay-anchor-marker{background:transparent;border:0}
