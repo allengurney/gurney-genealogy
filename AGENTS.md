@@ -125,7 +125,7 @@ Skills follow the Agent Skills open standard ([agentskills.io](https://agentskil
 3. **Sir John Gurney (d.1408)** is collateral. Direct: Edmund G23 → Robert G22 → Thomas I G21 → Thomas II G20.
 4. **Two Francis Gurneys** coexist: G14 Merchant Taylor (St Benet Fink) + laceweaver (St Giles Cripplegate, wife Mary). Costessey = laceweaver.
 5. **Margaret Rybett died c.1616–17**, not c.1618.
-6. **John Gurney-1 born c.1609–12** (revised from c.1603).
+6. **John Gurney-1 born c.1607–12, early edge favored** (revised from c.1603; Entry E baptism c.1609/10 ±2, with the 1653 deposition and the c.1627 marriage both favoring the early edge).
 
 ### Structural facts
 - G1 = Allen. Numbers increase going back.

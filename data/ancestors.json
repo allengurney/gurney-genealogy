@@ -747,7 +747,7 @@
     "eraId": "era-massachusetts-farming-generations",
     "lineageStatus": "Confirmed",
     "summary": "Brought to Massachusetts as a small child by his emigrant father John Gurney-1; one of the early proprietors of Weymouth from before 1642; lost his brother John at the Mendon massacre in the opening violence of King Philip's War, 1675.",
-    "notables": "Held Weymouth lands from before 1642–44 — \"in the East field,\" \"in the mill field,\" and \"on the east side of Great Pond\" (*History of Weymouth*) — and in 1683 the town meeting voted him 6 acres on the west side of Great Pond \"to build a house & fence\" (Hist. of Weymouth, p. 251). Admitted Freeman of Massachusetts Bay, 12 Oct. 1681 — requiring formal church membership, with the franchise it conferred. Married Rebecca Taylor (named in her father's will, proved 1688). His brother John Gurney was among the dead at the Mendon massacre, 14 July 1675 — the opening violence of King Philip's War — and a second brother, Peter, a soldier, was killed in the war in 1676; both were sons of the emigrant John Gurney-1, not Richard's children. Died intestate Oct. 1691, Weymouth. The Plymouth County land that anchored his grandson Benjamin G11 on the Abington–Bridgewater line was likely an inherited piece of John Gurney-1's New England estate, channelled through Richard.",
+    "notables": "Held Weymouth lands from before 1642–44 — \"in the East field,\" \"in the mill field,\" and \"on the east side of Great Pond\" (*History of Weymouth*) — and in 1683 the town meeting voted him 6 acres on the west side of Great Pond \"to build a house & fence\" (Hist. of Weymouth, p. 251). Admitted Freeman of Massachusetts Bay, 12 Oct. 1681 — requiring formal church membership, with the franchise it conferred. Married Rebecca Taylor (named in her father's will, proved 1688). His brother John Gurney was among the dead at the Mendon massacre, 14 July 1675 — the opening violence of King Philip's War — and a second brother, Peter, a soldier, was killed in the war in 1676; both were sons of the emigrant John Gurney-1, not Richard's children. Died intestate by 27 Oct. 1691, when administration was granted at Boston to sons Zachariah and Richard, the eldest son John declining. The Plymouth County land that anchored his grandson Benjamin G11 on the Abington–Bridgewater line was likely an inherited piece of John Gurney-1's New England estate, channelled through Richard.",
     "landHoldings": "• Lands granted in Weymouth before 1642–44: 'in the East field,' 'in the mill field,' 'on the east side of Great Pond' (Hist. of Weymouth). • Town Common grant: 6 acres west side of the Pond voted by Weymouth town meeting, 1683, to 'build a house & fence' (Hist. of Weymouth, p.251). • Land at Braintree on Abington-Bridgewater line passed to son Benjamin (Gen.11) — likely inherited from John Gurney-1.",
     "spouses": [
       {
@@ -835,9 +835,9 @@
     "children": [
       {
         "name": "Sarah Gurney",
-        "dates": "unknown (eldest?)",
+        "dates": "unknown",
         "mother": "Mary",
-        "notes": "Listed first by Sprague"
+        "notes": "Listed first by Sprague; no further record located"
       },
       {
         "name": "Mary Gurney",
@@ -855,7 +855,7 @@
         "name": "John Gurney Jr.",
         "dates": "c.1633–1636",
         "mother": "Mary",
-        "notes": "Of Weymouth/Mendon; killed at Mendon, July 1675 (King Philip's War)"
+        "notes": "Of Weymouth/Mendon; killed at Mendon, July 1675 (King Philip's War). Mendon household with wife Ruth; son Samuel b. 14 Mar. 1671 (Mendon town book)"
       },
       {
         "name": "Peter Gurney",
@@ -867,7 +867,7 @@
         "name": "Isaac Gurney",
         "dates": "c.1643",
         "mother": "Mary",
-        "notes": "Possibly born in Massachusetts; attribution uncertain"
+        "notes": "Probably born in Massachusetts. An Isaac Gurney is documented in Middlesex and Suffolk court records 1666–67 (Blue Hill/Ponkapoag area, Braintree's back country); the uncommon forename, the age fit, and the location — with no competing colonial Isaac Gurney documented in this generation — make the identification with this family highly probable, though no record yet states the parentage"
       }
     ],
     "buttons": [

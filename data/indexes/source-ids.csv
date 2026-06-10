@@ -37,7 +37,7 @@ bho-port-trade-early-elizabethan-london-richard-gurney-1567-8,"BHO - London Port
 bho-statutes-realm-1661-assessment,BHO Statutes - 1661 Assessment Act,partial,sources/corpus_supplement/bho-statutes-1661-francis-gurney.md,,sources/validations/bho-statutes-realm-1661-assessment.md
 blomefield-norfolk,"Blomefield, History of Norfolk",none,,,
 blomefield-norfolk-vol5-pp33-cringleford-berford,"Blomefield, Norfolk vol. 5 (BHO) — Cringleford, Berford's Manor",partial,sources/corpus_supplement/blomefield-norfolk-vol5-pp33-cringleford-berford.md,,sources/validations/blomefield-norfolk-vol5-pp33-cringleford-berford.md
-bodge-soldiers-king-philips-war-1891,"Bodge, Soldiers in King Philip's War (1891)",partial,sources/corpus_supplement/bodge-soldiers-king-philips-war-1891-gurney-extracts.md,,sources/validations/bodge-soldiers-king-philips-war-1891.md
+bodge-soldiers-king-philips-war-1891,"Bodge, Soldiers in King Philip's War (1891)",partial,sources/corpus_supplement/bodge-soldiers-king-philips-war-1891-gurney-extracts.md,sources/media/bodge-soldiers-king-philips-war-1891/,sources/validations/bodge-soldiers-king-philips-war-1891.md
 bodleian-ms-tanner-175-marco,Bodleian MS Tanner 175 - MARCO,none,,,sources/validations/bodleian-ms-tanner-175-marco.md
 braintree-records-1640-1793-1886,"Braintree town records, 1640-1793",none,,,sources/validations/braintree-records-1640-1793-1886.md
 british-archivist-bernau-1913,"Bernau, British Archivist - Francis Gournay",full,sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md,sources/media/The_British_Archivist.pdf,sources/validations/british-archivist-bernau-1913.md
@@ -100,6 +100,7 @@ findmypast-bucks-baptism-index,Findmypast Buckinghamshire Baptism Index,none,,,s
 findmypast-bucks-burial-index,Findmypast Buckinghamshire Burial Index,none,,,sources/validations/findmypast-bucks-burial-index.md
 findmypast-bucks-marriage-index,Findmypast Buckinghamshire Marriage Index,none,,,sources/validations/findmypast-bucks-marriage-index.md
 findmypast-bury-st-edmunds-st-mary-gurney-burials-1653-1656,Findmypast National Burial Index - Bury St Edmunds St Mary Gurney burials 1653-1656,transcript,,,sources/validations/findmypast-bury-st-edmunds-st-mary-gurney-burials-1653-1656.md
+findmypast-england-marriages-gurney-mary-wildcard-sweep-2026-06,"Findmypast England Marriages 1538-1973 - G*rn* + Mary wildcard sweep, June 2026",none,,,sources/validations/findmypast-england-marriages-gurney-mary-wildcard-sweep-2026-06.md
 findmypast-hertfordshire-baptisms,Findmypast Hertfordshire Baptisms,none,,,sources/validations/findmypast-hertfordshire-baptisms.md
 findmypast-hertfordshire-burials,Findmypast Hertfordshire Burials,none,,,sources/validations/findmypast-hertfordshire-burials.md
 findmypast-john-gurney-2026may-supplementary-same-name-sweep,"Findmypast John Gurney same-name sweep, 12 May 2026 raw batch",transcript,,sources/intake/john-gurney-2026May/,sources/validations/findmypast-john-gurney-2026may-supplementary-same-name-sweep.md
@@ -195,6 +196,7 @@ mendon-proprietors-records-1899,Mendon Proprietors' Records (1899),partial,sourc
 mhs-winthrop-papers-newgate-deed-1639,"MHS Winthrop Papers, Newgate deed",none,,,sources/validations/mhs-winthrop-papers-newgate-deed-1639.md
 middleborough-marriages-by-mens-name,Middleborough marriages by men's name,partial,,,sources/validations/benjamin-gurney-harden-research-tables-2026-04.md
 military-communities-knolles-1370,Military Communities in Late Medieval England — Knolles 1370 chapter,none,,,sources/validations/military-communities-knolles-1370.md
+millican-register-freemen-norwich-1934,"Millican, Register of the Freemen of Norwich, 1548-1713",partial,sources/corpus_supplement/millican-norwich-freemen-apprentices-gurney-extracts.md,,sources/validations/millican-norwich-freemen-and-apprentices-indexes.md
 morant-essex,"Morant, History of Essex",none,,,
 mosaic-dvd-hugue-de-gournay,Mosaic DVD - Hugue de Gournay,partial,sources/corpus_supplement/mosaic-dvd-hugue-de-gournay-user-text.md,,sources/validations/mosaic-dvd-hugue-de-gournay.md
 munsell-history-queens-flushing-1882,"Munsell, History of Queens County - Flushing",none,,,sources/validations/munsell-history-queens-flushing-1882.md
@@ -261,6 +263,7 @@ rhgf-vol-15-1878,"Recueil des historiens des Gaules et de la France, tome 15 (18
 richardson-sgm-soc-genealogy-medieval-2002,Richardson SGM 2002 -- Walter not son of Gerard,external,,,
 rigler-genealogy-notes-c1980,"Rigler genealogy notes (worksheets, c. 1980)",partial,sources/corpus_supplement/rigler-genealogy-notes-c1980-worksheets-extract.md,sources/media/rigler-genealogy-notes-c1980/,sources/validations/rigler-genealogy-notes-c1980.md
 rigler-gurney-family-aaron-zuinglius-1994,"Rigler, Gurney family from Aaron to Zuinglius",partial,sources/corpus_supplement/rigler-gurney-aaron-zuinglius-g9-g12-extract.md,sources/media/rigler-gurney-family-aaron-zuinglius-1994/,sources/validations/rigler-gurney-family-aaron-zuinglius-1994.md
+rising-millican-norwich-apprentices-index-nrs29-1959,"Rising & Millican, Index of Indentures of Norwich Apprentices (NRS 29)",partial,sources/corpus_supplement/millican-norwich-freemen-apprentices-gurney-extracts.md,,sources/validations/millican-norwich-freemen-and-apprentices-indexes.md
 rollco-drapers-gurney-old-change-cluster,ROLLCO Drapers - Robert and John Gurney Old Change cluster,full,sources/corpus_supplement/rollco-drapers-gurney-old-change-cluster.md,,sources/validations/rollco-drapers-gurney-old-change-cluster.md
 rollco-stationers-gurney-1613-1626,ROLLCO Stationers - John Gurney 1613 binding and Robert Gurney 1616-1626 apprenticeship sequence,partial,sources/corpus_supplement/rollco-stationers-gurney-1613-1626.md,,sources/validations/rollco-stationers-gurney-1613-1626.md
 rollco-stationers-hunscott-cluster,ROLLCO Stationers - Joseph Hunscott cluster,partial,sources/corpus_supplement/rollco-stationers-hunscott-cluster.md,,sources/validations/rollco-stationers-hunscott-cluster.md

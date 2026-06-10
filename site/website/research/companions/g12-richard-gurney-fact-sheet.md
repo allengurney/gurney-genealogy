@@ -23,9 +23,25 @@ The <em>History of Weymouth</em> (the 1923 four-volume town history) is cited vi
 
 The 1683 town-meeting grant of six acres on the west side of the Pond "to build a house &amp; fence" (<em>Hist. of Weymouth</em>, p. 251) is the firmest individual record — Richard would have been about fifty at the time, the right age for a settled household head being granted a building lot.
 
+### Richard's intestate administration found — County Court at Boston, 27 October 1691
+
+Richard's administration record, long an open item, is in Suffolk County probate. Working transcription from the registry copy: "At a County Court holden in Boston October 27. 1691 Full Power to administer all & singular the Goods, Chattels, rights & Creditts of the Estate of **Richard Gurney late of Waymouth decd intestate** is granted unto **Zechoriah Gurney & Richard Gurney two of the Sonnes of the decd, John Gurney the Eldest son refusing to administer**; they bringing in an Inventory of the sd decd Estate & giving bond to administer the same according to Law. Attest Joseph Webb Cler."[^richard-admon-1691]
+
+Three consequences:
+
+1. **Death by 27 October 1691 is confirmed**, settling the Torrey-1691 vs Weymouth-1719 conflict in Torrey's favour (the 1719 entry most plausibly belongs to son Richard³).
+2. **Richard's eldest son John was alive on 27 October 1691** — he declined administration. This contradicts the compiled tradition (Sprague p. 695; the project's earlier structured data) that Richard's son John was killed at the Mendon massacre in 1675. The Mendon casualty is therefore most plausibly **John Jr., G13's son** (of Weymouth and Mendon, witness to G13's 1661 deed), not Richard's son — see the next section and the disentanglement note in the [G13 companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g13-john-gurney-fact-sheet.research.md).
+3. The co-administrators were **Zachariah** and **Richard** — confirming Richard³ (b. 18 January 1656 in the Weymouth birth register) as a living adult son in 1691, alongside the Weymouth-recorded eldest three (Richard, John, Zachariah).
+
+A supporting trace for the eldest son: the Suffolk County (Boston-registry) deeds volume for 1678–1683 indexes a deed of **John Gourney at p. 80** and one of **Elizabeth Gourney at p. 343** — the right window and names for Richard's son John and his wife Elizabeth Green. Page-level pulls are lead L-99.[^suffolk-deeds-1678-83-gourney]
+
+[^suffolk-deeds-1678-83-gourney]: Suffolk County, Massachusetts, Deeds 1678–1683, volume index entries "Gourney, John, 80" and "[Gourney,] Elizabeth, 343," located 2026-06-09 via FamilySearch Full-Text Search ("Gourney," 1600s bucket); deed pages not yet read. Source ID: `familysearch-fulltext-search`.
+
+[^richard-admon-1691]: Suffolk County, Massachusetts, Probate Records 1636-1766 (registry copy volume), image 448 of 585, FamilySearch [ark:/61903/3:1:3Q9M-C9Y5-GKGB](https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9Y5-GKGB?view=fullText), administration entry for Richard Gurney late of Weymouth, County Court at Boston, 27 October 1691. Read against the page image at screen zoom 2026-06-09: the image confirms the operative clauses ("Estate of Richard Gurney late of Waymouth," "granted unto Zechariah Gurney & Richard Gurney two of the Sonns of the s'd dec'd," "John Gurney the Eldest son refusing to administer," "Attest Joseph Webb Cler"), including the parse making John the eldest son of the deceased Richard; marginal head "Gurney Adm," volume page 160. A full-resolution media capture remains optional. Source ID: `familysearch-fulltext-search`.
+
 ### Mendon massacre, 14 July 1675
 
-The death of Richard's son John Gurney Jr. at the Mendon massacre is corroborated by multiple secondary sources — King Philip's War standard histories (Drake, Bourne, et al.) routinely list Mendon's casualties of 14 July 1675. The exact wording in <code>data/ancestors v26.json</code> says "Killed at Mendon massacre 1675"; Sprague, <em>Genealogies of Braintree</em>, p. 695, also lists this son in the John Gurney-1 family group ("of Weymouth/Mendon; killed at Mendon, July 1675").
+The death of Richard's son John Gurney Jr. at the Mendon massacre is corroborated by multiple secondary sources — King Philip's War standard histories (Drake, Bourne, et al.) routinely list Mendon's casualties of 14 July 1675. The exact wording in <code>data/ancestors v26.json</code> says "Killed at Mendon massacre 1675"; Sprague, <em>Genealogies of Braintree</em>, p. 695, also lists this son in the John Gurney-1 family group ("of Weymouth/Mendon; killed at Mendon, July 1675"). **The attribution of the casualty to Richard's son is now contradicted by the 27 October 1691 administration above — Richard's eldest son John was alive and declined to administer. The Mendon casualty most plausibly belongs to G13's son John Jr., the secondary sources having merged the two same-named cousins.**
 
 ### Zachariah's King Philip's War service (Bodge, p. 113 and p. 236)
 

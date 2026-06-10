@@ -1248,6 +1248,18 @@
     "notes": "Ackworth parish baptism of John Thomas Gurnoe, 19 January 1637, the year after the John Gurnoe + Mary Burton marriage at the same parish (`findmypast-ackworth-gurnoe-burton-marriage-1636`). Father and mother are not in the transcript index but the household continuity is consistent. First child given a compound name John Thomas — not Sarah — which is the distinctive name discriminator against the colonial John Gurney's first-child Sarah."
   },
   {
+    "sourceId": "findmypast-england-marriages-gurney-mary-wildcard-sweep-2026-06",
+    "shortTitle": "Findmypast England Marriages 1538-1973 - G*rn* + Mary wildcard sweep, June 2026",
+    "citation": "England Marriages 1538-1973 (Findmypast), wildcard searches executed 9 June 2026: surname G*rn*, bride first name Mary with variants, marriage years 1620-1634, with and without groom first name John.",
+    "archive": "Findmypast (subscription)",
+    "url": "https://www.findmypast.com/search/results?datasetname=england+marriages+1538-1973&lastname=g*rn*&yearofmarriage=1627&yearofmarriage_offset=7&spousefirstname=mary&spousefirstname_variants=true",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/findmypast-england-marriages-gurney-mary-wildcard-sweep-2026-06.md",
+    "notes": "Wildcard-level verification of the case file's no-John+Mary-marriage negative, immune to forename mis-indexing and surname-variant gaps. John + G*rn* + Mary 1620-1632: 4 results, all either the eliminated Eythorne, Kent 1632 event (Gurne/Gurney readings) or John Garnsey + Mary, Uffculme, Devon 1622. Any-forename G*rn* + Mary(variants) 1620-1634: 33 results, none a John Gurney + Mary in East Anglia; only East Anglian Gurney-surname hit is Robert Gvrney + Mary, Norwich, 1622 (new comparator; parish not yet pulled from the transcript)."
+  },
+  {
     "sourceId": "findmypast-ackworth-gurnoe-burton-marriage-1636",
     "shortTitle": "Findmypast England Marriages 1538-1973 - John Gurnoe + Mary Burton, Ackworth, 1636",
     "citation": "England Marriages 1538-1973, Findmypast transcript record R_855220028: John Gurnoe and Mary Burton, marriage 6 June 1636, Ackworth, Yorkshire, England.",
@@ -2352,6 +2364,18 @@
     "notes": "Published analysis of Sir Robert Knolles' 1370 retinue (source TNA E101/30/25), the same data underlying the Hull thesis Tables 4.2-4.3 in which Sir John de Gourney appears as a captain. Corroborating source for the C11 knight-cluster identification. Abstract/preview consulted 2026-05-30; full chapter behind paywall."
   },
   {
+    "sourceId": "millican-register-freemen-norwich-1934",
+    "shortTitle": "Millican, Register of the Freemen of Norwich, 1548-1713",
+    "citation": "Millican, Percy, ed. The Register of the Freemen of Norwich, 1548-1713: A Transcript, with an Introduction, an Appendix to Those Freemen Whose Apprenticeship Indentures Are Enrolled in the City Records, and Indexes of Names and Places. Norwich: Jarrold & Sons, 1934.",
+    "archive": "HathiTrust (search-only, item uc1.b3259758); Norfolk Record Office proof copy JLD 3/4/40 (Box 357); printed copies widely held",
+    "url": "https://babel.hathitrust.org/cgi/pt?id=uc1.b3259758",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/millican-norwich-freemen-apprentices-gurney-extracts.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/millican-norwich-freemen-and-apprentices-indexes.md",
+    "notes": "Chronological transcript of Norwich freedom admissions with an alphabetical appendix of enrolled apprenticeship indentures. Gurney content is sparse: Elizabethan John Gurney entries (a non-apprenticeship freeman 3 Eliz. [1560/61], f. 57b; a cordwainer master dead by 1580, ff. 59b-59c) and one 17th-century freeman, James Gurny, admitted 8 January 1648 per apprenticeship under Henry Bond (f. 181a, asterisked as indenture-enrolled). Key negative for the John Gurney case file: no John Gurney freedom admission in the colonial-emigrant window c.1615-1660. HathiTrust search-only page hits: 'Gurney' p. 199, 'Gurny' p. 173; no Gurnay/Gournay/Garny/Gurnie hits. Page-level verification of pp. 173 and 199 and the ff. ~170-181 stretch remains an open pull."
+  },
+  {
     "sourceId": "morant-essex",
     "shortTitle": "Morant, History of Essex",
     "citation": "Morant, Philip. The History and Antiquities of the County of Essex. 2 vols. London, 1768.",
@@ -3118,6 +3142,18 @@
     "mediaPath": "sources/media/rigler-gurney-family-aaron-zuinglius-1994/",
     "validationPath": "sources/validations/rigler-gurney-family-aaron-zuinglius-1994.md",
     "notes": "Key compiled genealogy for descendants of Richard Gurney of Weymouth, Massachusetts; compiled largely from primary records (town vital records, Suffolk and Plymouth probate and deeds, NEHGR). Standing key source for G4-G13 American-line research companions and the G6 William Gurney case file. The direct-line entries Richard-2 (G12) through Benjamin-5 (G9) are transcribed in the corpus supplement from 1994-edition page scans held local-only (copyright) under mediaPath. Internet Archive item gurneyfamilyfrom00rigl is an earlier edition."
+  },
+  {
+    "sourceId": "rising-millican-norwich-apprentices-index-nrs29-1959",
+    "shortTitle": "Rising & Millican, Index of Indentures of Norwich Apprentices (NRS 29)",
+    "citation": "Rising, Winifred M., and Percy Millican. An Index of Indentures of Norwich Apprentices Enrolled with the Norwich Assembly, Henry VII-George II. Norfolk Record Society, vol. 29. Norwich: Norfolk Record Society, 1959.",
+    "archive": "HathiTrust (search-only, item mdp.39015072430187); Norfolk Record Society print; NRO",
+    "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072430187",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/millican-norwich-freemen-apprentices-gurney-extracts.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/millican-norwich-freemen-and-apprentices-indexes.md",
+    "notes": "Alphabetical index of apprenticeship indentures enrolled with the Norwich Assembly. HathiTrust search-only returns exactly one 'Gurney' page hit (scan 217, printed p. ~197) and no Gurny/Gurnay hits. The supplied extract 'GURNEY, James: son of Francis, of St Peter Permountergate, Norwich ... St. Mich. 1627, for 7 years. E. 17' is the apprenticeship-indenture entry for James Gurney (the 1648 Norwich freeman in `millican-register-freemen-norwich-1934`); whether the extract was read from this index or from Millican 1934's appendix needs page-level verification, as does the 'E. 17' Norwich city-records reference. Key negative: no John Gurney apprenticeship indenture enrolled at Norwich in the colonial-emigrant window."
   },
   {
     "sourceId": "rollco-drapers-gurney-old-change-cluster",

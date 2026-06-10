@@ -244,6 +244,7 @@ findmypast-bucks-baptism-index,source,Findmypast Buckinghamshire Baptism Index,d
 findmypast-bucks-burial-index,source,Findmypast Buckinghamshire Burial Index,data/sources.json
 findmypast-bucks-marriage-index,source,Findmypast Buckinghamshire Marriage Index,data/sources.json
 findmypast-ackworth-gurnoe-baptism-1637-john-thomas,source,"Findmypast England Births & Baptisms 1538-1975 - John Thomas Gurnoe, Ackworth, 1637",data/sources.json
+findmypast-england-marriages-gurney-mary-wildcard-sweep-2026-06,source,"Findmypast England Marriages 1538-1973 - G*rn* + Mary wildcard sweep, June 2026",data/sources.json
 findmypast-ackworth-gurnoe-burton-marriage-1636,source,"Findmypast England Marriages 1538-1973 - John Gurnoe + Mary Burton, Ackworth, 1636",data/sources.json
 findmypast-hertfordshire-baptisms,source,Findmypast Hertfordshire Baptisms,data/sources.json
 findmypast-hertfordshire-burials,source,Findmypast Hertfordshire Burials,data/sources.json
@@ -336,6 +337,7 @@ suffolk-visitations-metcalfe-1882,source,"Metcalfe, Visitations of Suffolk",data
 mhs-winthrop-papers-newgate-deed-1639,source,"MHS Winthrop Papers, Newgate deed",data/sources.json
 middleborough-marriages-by-mens-name,source,Middleborough marriages by men's name,data/sources.json
 military-communities-knolles-1370,source,Military Communities in Late Medieval England — Knolles 1370 chapter,data/sources.json
+millican-register-freemen-norwich-1934,source,"Millican, Register of the Freemen of Norwich, 1548-1713",data/sources.json
 morant-essex,source,"Morant, History of Essex",data/sources.json
 mosaic-dvd-hugue-de-gournay,source,Mosaic DVD - Hugue de Gournay,data/sources.json
 munsell-history-queens-flushing-1882,source,"Munsell, History of Queens County - Flushing",data/sources.json
@@ -400,6 +402,7 @@ regesta-rano,source,Regesta Regum Anglo-Normannorum (Bates),data/sources.json
 richardson-sgm-soc-genealogy-medieval-2002,source,Richardson SGM 2002 -- Walter not son of Gerard,data/sources.json
 rigler-genealogy-notes-c1980,source,"Rigler genealogy notes (worksheets, c. 1980)",data/sources.json
 rigler-gurney-family-aaron-zuinglius-1994,source,"Rigler, Gurney family from Aaron to Zuinglius",data/sources.json
+rising-millican-norwich-apprentices-index-nrs29-1959,source,"Rising & Millican, Index of Indentures of Norwich Apprentices (NRS 29)",data/sources.json
 rollco-drapers-gurney-old-change-cluster,source,ROLLCO Drapers - Robert and John Gurney Old Change cluster,data/sources.json
 rollco-stationers-gurney-1613-1626,source,ROLLCO Stationers - John Gurney 1613 binding and Robert Gurney 1616-1626 apprenticeship sequence,data/sources.json
 rollco-stationers-hunscott-cluster,source,ROLLCO Stationers - Joseph Hunscott cluster,data/sources.json
