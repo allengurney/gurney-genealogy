@@ -11,6 +11,32 @@ Research notes for `g17-anthony-gurney-fact-sheet.md`. See `.claude/rules/resear
 
 ## Working Notes
 
+### 2026-06-11 — Anthony's will found: made 6 December, proved 10 December 1557, Norwich
+
+**Anthony Gurney's will survives in the Norwich wills register, and it is transcribed in full** — "I Anthonie Gurney of greater Elingham in the countie of Norff Esquier," made 6 December 1557, proved at Norwich 10 December 1557. Full transcription at [`sources/corpus_supplement/ncc-will-1557-anthony-gurney-great-ellingham-transcription.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/ncc-will-1557-anthony-gurney-great-ellingham-transcription.md); page images at `sources/media/ncc-will-1557-anthony-gurney-great-ellingham/_local/`. The flagged result was supplied by Allen 2026-06-10; the transcription is an expert paleographic read, 2026-06-11.[^anthony-will-1557]
+
+The substance: burial in Great Ellingham church (2s 8d for tithes forgotten); a **fourteen-year executor trust** — the term reads "forte[n]e" at both occurrences, the will's hardest repeated word, with forty the alternative reading — over two-thirds of his knight-service manors and all his non-knight-service lands, for debts, legacies, and performance of the will; **£200 to "Elizabeth Gurney my dowter"** and **£20 to "Cicelie Gurney my dowter"**; the residue of the trust income to the **"educacion and bringing upp of Anthonye Gurney, Thomas Gurney, Elizabeth Gurney, ffrannces Gurney, Anne Gurney and Anthonye Drurye my Grandchildren,"** with the overplus at the trust's end divided among the grandchildren then living; executors **Sir Christopher Heydon, knight** (Baconsthorpe — the Heydon kinsman), and **Robert Notary, esquire**; witnesses Anthony [Twayghtes?], Thomas Flegge, John Cadie, and [Fannys?] Smyth; proved before Master **Michael Dunning, doctor of laws**. The fourteen-year reading carries its own corroboration: a trust running from December 1557 ends in 1571 — almost exactly when the heir Henry (G15, b. c. 1548–50) would come of age to take livery.
+
+Three consequences, two of them conflicts to preserve rather than resolve:
+
+1. **Death date conflict — the will vs Blomefield.** A will made 6 December and proved 10 December 1557 means Anthony died c. 6–10 December 1557. Blomefield (vol. vii) gives 4 January 1555[/6], the reading this companion previously preferred over the project JSON's "December 1556." The will is a primary record naming the same man, place, and status ("of greater Elingham … Esquier"), so it now carries the most weight — and curiously the JSON's discarded "December 1556" was closest in shape (December death, mid-1550s). Unless a second Anthony Gurney, Esq., of Great Ellingham existed in 1557 (no evidence of one), **the death date should move to early December 1557**. Fact-sheet and JSON implications flagged for review, not yet applied.
+2. **No living son named — and no Henry among the grandchildren.** The will names no wife and no son. The forty-year trust and the education clause imply the heirs were minors and that Anthony's son — the pedigree's **Francis (G16)** — was either already dead by December 1557 or (less likely, since he is wholly absent) provided for by separate settlement. The grandchildren named are Anthony, Thomas, Elizabeth, ffrances, and Anne Gurney, plus Anthony Drury (a daughter's Drury marriage). **Henry (G15), Blomefield's "grandson Henry" who succeeded to Great Ellingham, does not appear in the list.** If G15 Henry was born c. 1548–50 he should have been a minor grandchild in 1557 — his absence is a genuine puzzle: possibilities include birth after the will (making his traditional birth year too early), separate provision as the designated heir of the entailed third, or a pedigree wrinkle between Anthony and Henry not yet understood. Preserved as an open conflict.
+3. **The grandchild "ffrances Gurney"** may be Francis or Frances; either way the will places a ffrances in the generation *below* Anthony's children — worth holding against the visitation pedigree (Anthony → Francis of West Barsham → Henry of Great Ellingham) when the G16 generation is next reviewed.
+
+The daughters Elizabeth (£200 — a substantial marriage portion, suggesting unmarried in 1557) and Cicely (£20) are new names for the family group; neither appears in the current fact-sheet children list.
+
+[^anthony-will-1557]: Will of Anthony Gurney of Great Ellingham, Esq., 6 Dec. 1557, proved Norwich 10 Dec. 1557; Norwich wills register (FamilySearch film 008076312), images 145 ff., [ark:/61903/3:1:3Q9M-CSND-MSDX-K](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSND-MSDX-K?view=fullText) and [ark:/61903/3:1:3Q9M-CSND-MSDH-G](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSND-MSDH-G?view=fullText) (probate at register p. 137). Expert paleographic transcription 2026-06-11 from the full-resolution images; full text in the corpus supplement linked in the body. Source ID: `familysearch-fulltext-search`.
+
+### 2026-06-11 — Two earlier Gurney–Spelman documentary intersections (abstract volume)
+
+Two will abstracts in the typescript Norfolk wills abstract volume bear on this family's network a generation either side of Anthony:
+
+- **1524 — "Antony Gurney" executor to Henry Spilman, Esq.** Abstract: "HENRY SPILLMAN, Esquier, to be buried in the Church of St. James in [Great?] Ellingham … my wif, Antony Gurney and John Turrell, executors. D: 17 Feb — P. 1524" (register cited as "Cons: Alabaster: 1520-3: 231"). An Anthony Gurney standing executor to a Spelman esquire of the Ellingham orbit in 1524 — within G17 Anthony's adult lifetime and at his wife's manor — is a personal Gurney–Spelman bond a full century before the antiquary Sir Henry Spelman held the manuscript Gurney pedigree (lead L-5), and complements the Lovell–Conyers–Spelman cousinage below.[^spilman-1524]
+- **1475 — William Gurney among the Wymondham of Felbrigg feoffees.** The will of John Wymondham [Wyndham] the elder, Esq. (D: 26 April 1475) appoints "Richard Southwell, William Gurney, Edmund Bokenham Esq., Henry Spelman, Roger Townshend, and James Hobart to perform my will" — manors of Felbrigg, Aylmerton, Runton, Tottington, Banningham, Colby, Ingworth, Crownthorpe, Wicklewood. A William Gurney (the G18/G19 generation) standing with Southwell, Spelman, Townshend, and Hobart — the working core of the late-Yorkist/early-Tudor Norfolk establishment — is a status datum for the West Barsham line and a second early Gurney–Spelman pairing.[^wymondham-1475]
+
+[^spilman-1524]: Norfolk wills abstract volume ("Norfolk. Wills 1370–1763," typescript abstracts), FamilySearch film 008480295, image 149, [ark:/61903/3:1:3Q9M-C39V-K2VN](https://www.familysearch.org/ark:/61903/3:1:3Q9M-C39V-K2VN?view=fullText), abstract of Henry Spillman, Esq., D: 17 Feb., P. 1524, citing register "Cons: Alabaster: 1520-3: 231." Flagged by Allen 2026-06-10 (lead L-101). Source ID: `familysearch-fulltext-search`.
+[^wymondham-1475]: Same abstract volume, image 806, [ark:/61903/3:1:3Q9M-C39V-KLFM](https://www.familysearch.org/ark:/61903/3:1:3Q9M-C39V-KLFM?view=fullText), abstract of John Wymondham the elder, Esq., D: 26 April 1475. Source ID: `familysearch-fulltext-search`.
+
 ### 2026-05-29 — Visitation of Norfolk corroboration
 
 The Heralds' *Visitations of Norfolk, 1563/1589/1613* (Harleian Society vol. 32, p. 141) head the West Barsham Gurney pedigree with **Anthony Gurney**, father of **Francis of West Barsham** (G16, m. Ellen Holdich of Ranworth) and ancestor of **Henry of Great Ellingham** (G15) — an additional heraldic witness placing Anthony at the head of the recorded Tudor descent. The visitation does not repeat his Margaret Lovell marriage or his death in 1555/6 (Blomefield supplies those).[^vis-norfolk-g17]
@@ -76,13 +102,13 @@ This needs further investigation in the State Papers of Henry VIII (Letters and 
 
 ### Negative Results
 - No portrait of Anthony is known to survive.
-- No will of Anthony in the Norwich Consistory Court registers has yet been located in this research session.
+- ~~No will of Anthony in the Norwich Consistory Court registers has yet been located.~~ **Found 2026-06-10/11** — will made 6 Dec. 1557, proved Norwich 10 Dec. 1557; see the will entry in Working Notes above.
 - No surviving funeral monument is recorded.
 - The Letters and Papers of Henry VIII have not been directly consulted for the January 1547 grand jury foreman role.
 
 ### Open Questions for Future Research
 1. **State Papers / Letters and Papers, Foreign and Domestic, Henry VIII vol. 21 part 2** — direct consultation for the 7 January 1546/7 grand jury composition.
-2. **Norwich Consistory Court probate registers** for any will of Anthony Gurney dated 1555–1556.
+2. **Norwich Consistory Court probate registers — resolved.** Anthony's will found and transcribed (made 6 Dec. 1557, proved 10 Dec. 1557); see Working Notes. Remaining sub-questions: reconcile the December 1557 death with Blomefield's 4 January 1555/6; identify the grandchildren (whose children?) and the absent Henry G15; identify Robert Notary, esquire.
 3. **The Lestrange of Hunstanton archive** at the Norfolk Record Office — additional unpublished references to Anthony in the 1519–1578 accounts beyond what Daniel Gurney printed in <em>Archaeologia</em>.
 4. **Sir Henry Spelman's surviving correspondence** at the Bodleian and the British Library — any reference to his Gurney cousins?
 5. **W. A. Sessions's full Surrey biography** for any mention of the Norfolk grand jury composition.

@@ -11,3 +11,15 @@
 **Unexamined / uncertain (leads).** Burke's *Landed Gentry* (1858) Gurney pedigree (tertiary — trace before citing). Three FamilySearch-Center / affiliate-library-restricted records not yet viewable remotely: Kent Probate 1633–1636; St Peter le Poer with St Benet Fink Poor Rate; Norfolk History Records 1701, 1825.
 
 **Reliability note.** Transcriptions are AI-generated; verify any quoted wording against the underlying image before promoting to a fact sheet.
+
+---
+
+**Operational procedures** (query syntax, DGS film constructs, image-download API, browser extraction recipes) live in `.claude/skills/familysearch-fulltext-research/SKILL.md` — read that before any FTS task. This file keeps only the source-reliability record.
+
+## Transcript-quality failure modes (each cost real time; check before believing)
+- **Latin court hand transcribes as word salad**; only formulaic phrases and some names survive. A thin hit count on a Latin-era film is a transcription limit, not absence — the East Dereham 1623–1689 film yields 13 Gurney-family cards against a 17th-century reality that is certainly richer.
+- **Lookalike-name false positives are systematic, not random.** Confirmed cases: *Jernegan* (lords of Costessey) → "Gurny/Gurney"; *Atturney* → "At-Gurney"; *Gurnet's Nose* (Plymouth headland) → "Gurnet"; "given unto them as well lond" → "Gurney unto the well land"; *guns* → "Gurns"; *naturall* → "Gurnaturall." Distinct real surnames that ride the same wildcard: **Gurnell** (Dorchester MA, tanner family), **Garnsey/Guernsey** (Dorchester MA), **Garner**.
+- **Card year-lists mix document dates with stray numbers** (OCR-read folio numbers, "1890" for 1690, future years); treat them as hints. Internal date phrases can also mislead — a card's "22d Caroli" proved to be 1629 on image read.
+- **Forename reliability is low in Latin entries**: the machine's "Michie/Michael Gurney 1697" read as *Mathei* (Matthew) at expert level; machine "son of John" was *et Johannes Bower*. Promote no forename or kinship from a Latin-entry transcript without an image read.
+
+**Where campaign findings landed.** Method notes and per-pass results: `research/people/g13-john-gurney-fact-sheet.research.md` (2026-06-09/10/11 session entries). Expert image-read reports: `sources/corpus_supplement/paleo-2026-06-packet-*.md` (master images under `sources/media/*/_local/`). Subject files created from sweeps: Earsham, Costessey, Cawston, Providence, Isaac Gurney (all under `research/people/`).

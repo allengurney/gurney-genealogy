@@ -88,6 +88,7 @@ Skills follow the Agent Skills open standard ([agentskills.io](https://agentskil
 | Skill folder | Purpose |
 |---|---|
 | `familysearch-export-review/` | Phase 0 review of a FamilySearch Family Group Record PDF export against existing repo knowledge; produces an assessment MD as input to Phase 1. |
+| `familysearch-fulltext-research/` | Operational recipes for FamilySearch Full-Text Search: query syntax/URL parameters, DGS film constructs, full-resolution image download API (presigned S3 + TLS note), shadow-DOM extraction, failure modes. Read before any FTS task. |
 | `familysearch-tree-updates/` | Compose updates to push back to the FamilySearch tree based on repo findings. |
 | `research-intake-prep/` | Phase 1 of intake — analyze a session, produce a repo-ready patchset at `sources/intake/processed/`. |
 | `research-intake-apply-patch/` | Phase 2 — apply a reviewed patchset mechanically. |

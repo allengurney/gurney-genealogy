@@ -46,6 +46,12 @@ The **administration bond, 3 November 1691**, binds "Richard [Gurney] & Zecharia
 
 [^richard-bond-1691]: Administration bond of Richard and Zechariah Gurney with Joseph Green and John Richards, all of Weymouth, 3 Nov. 1691, Suffolk County Probate file papers no. 1890, FamilySearch image 471, [ark:/61903/3:1:3Q9M-CS6X-2S7K-X](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS6X-2S7K-X?view=fullText). Confirms the bondsmen named in Rigler (Source ID: `rigler-gurney-family-aaron-zuinglius-1994`). Source ID: `familysearch-fulltext-search`.
 
+### "John Gurney land" in a 1690 Weymouth abuttal — the Ludden inventory
+
+The inventory of **Benjamin Ludden of Weymouth** (died 25 November 1690; appraised 29 December 1690, brought in by his widow Eunice) lists his "pasture wood [lot] … [adjoining] to John Gurney['s] land," valued with the home parcels, plus "one acer of Salt medow at Brantry." In 1690 the live John Gurney at Weymouth is Richard's eldest son **John³** (m. Elizabeth Green), so the abuttal most plausibly names his land — or the family parcel still carrying the old name. The Luddens are the family whose James Ludden co-petitioned with John Gurney-1 on the Weymouth gunpowder fines in the 1640s; the two families were still neighbours two generations on.[^ludden-inventory-1690]
+
+[^ludden-inventory-1690]: Inventory of Benjamin Ludden of Weymouth, d. 25 Nov. 1690, appraised 29 Dec. 1690; Suffolk County, Massachusetts probate file papers, FamilySearch film 102907158, image 964, [ark:/61903/3:1:3Q9M-CS6K-NQFW-N](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS6K-NQFW-N?view=fullText). Machine transcript; flagged by Allen 2026-06-10 (lead L-102). Source ID: `familysearch-fulltext-search`.
+
 ### Mendon massacre, 14 July 1675
 
 The death of Richard's son John Gurney Jr. at the Mendon massacre is corroborated by multiple secondary sources — King Philip's War standard histories (Drake, Bourne, et al.) routinely list Mendon's casualties of 14 July 1675. The exact wording in <code>data/ancestors v26.json</code> says "Killed at Mendon massacre 1675"; Sprague, <em>Genealogies of Braintree</em>, p. 695, also lists this son in the John Gurney-1 family group ("of Weymouth/Mendon; killed at Mendon, July 1675"). **The attribution of the casualty to Richard's son is now contradicted by the 27 October 1691 administration above — Richard's eldest son John was alive and declined to administer. The Mendon casualty most plausibly belongs to G13's son John Jr., the secondary sources having merged the two same-named cousins.**

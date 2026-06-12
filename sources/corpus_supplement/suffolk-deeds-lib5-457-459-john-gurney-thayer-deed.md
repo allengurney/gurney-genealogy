@@ -1,0 +1,30 @@
+# Suffolk Deeds, Lib. V, pp. 457–459 — John Gurney to Richard Thayer, 12 February 1661/2
+
+Registry copy of John Gurney-1 (G13)'s conveyance of his Braintree homestead to Richard Thayer, as printed in *Suffolk Deeds, Liber V* (Boston: Rockwell & Churchill Press, printed transcription series of the Suffolk County, Massachusetts registry). Text assembled from the FamilySearch full-text machine transcript of the printed pages — printed-text OCR, high quality; long-s and obvious scanning artifacts retained as read. The deed begins at Lib. V p. 458 (FamilySearch film 007442495, image 499, [ark:/61903/3:1:3QS7-89ZS-BV46](https://www.familysearch.org/ark:/61903/3:1:3QS7-89ZS-BV46?view=fullText)) and concludes on p. 458–459 (image 500, [ark:/61903/3:1:3QS7-89ZS-BVQN](https://www.familysearch.org/ark:/61903/3:1:3QS7-89ZS-BVQN?view=fullText)). Source ID: `familysearch-fulltext-search`.
+
+The grantor index to the volume lists the instrument as "Gurney, John | Richard Thaire | Deed" (image 574); the registry copy's own attestation dates the recording to 12 June 1668 at Richard Thayer's request.
+
+---
+
+## Transcript
+
+> To all Xpian People, to whome this present wrighting shall come, John Gurney of Braintry Taylor in new England, sendeth Greeting Know yee that the said John Gurney for diuers good & ualluable Considerations him thereunto mooving & Especially for & in Consideration of the some of foureteene Pounds to him in hand paid by Richard Thaire of Braintry aforesaid Planter the receipt whereof hee doth Acknowledge by these presents & thereof & of euery part & parcell thereof, doth Exonnerate acquitt & discharge the said Richard Thaire his heires & assignes forever by these presents, Hath giuen granted bargained sold enfeofed & Confirmed, & by these presents doe giue grant bargaine Sell enfeoffe & Confirme, vnto the said Richard Thaire his heires & assignes foreuer, one house & Orchard on w[hi]ch the house standeth & fiue Acres of Land bee it more or less, lying & being in Braintry at Monotecott, being bounded w[i]th [the river?] monoticott south, & on ye Lands of Richard Thaire Nathaniell Mott, & John Hodman East, on the Lands of Symond Crosby north, & one the Lands of George Oldrage west, & also halfe an Acres more or less, lying to this fiue Acres west, on the River south, & On the highway north, & on the Lands of George Oldrige East, together w[i]th all the fences Trees & Timber, rights of Commons & all other priveledges, belonging or any ways appertaining thereunto, To haue & to hold the said house & ffiue Acres of Lands & the halfe Acree bee it more or less, as it is bounded w[i]th all the Trees & Timber, fences rights of Commons & all other Priueledges belonging or in any wayes appertaining thereunto, vnto the said Richard Thaire his heires & assignes forever, to bee houlden in free soccage & not in Capite nor by Knights seruice, And the said John Gurney doth Couenant promise & Grant by these presents y[a]t hee the said John Gurney, is the true & propper owner & proprietor of the said bargained pr[e]misses at the time of the bargaine & saile thereof, & that the sajd pr[e]misses are free & cleere & freely & cleerly acquitted Exonnorated & discharged of for & from all & all manner of former bargaines sailes guifts grants Titles, mortgages Actions suites, arrests. Attachments, judgments, Executions Extents & incumbrances whatsoeuer from the beginning of the world, untill the time of the bargaine & sale thereof, And shall & will deliuer or Cause to bee delivered all wrightings deeds & evidences Concerning the ye premises unto ye said Richard Thaire, faire & uncancelled, And the said John Gurney doth Couenant promise & grant by these presen[t]s, all & singular the sajd bargained premisses, w[i]th the Appurtenances to warrant acquitt & defend, [u]nto the said Richard Thaire his heires & assignes against any person or persons clayming [459.] any right Title or interest into the same or any part thereof by his meanes title or procurement forever by these presents, And that it shall & may bee lawfull to & for the said Richard Thaire, his heires & assignes to Reccord & enroule, or cause to bee recorded & enrowled the Title & Tennor of these presents, according to the true intent & meaning thereof, & according to the vsuall Order & manner of recording deeds & Evidences in such case made & prouided, In Wittnes whereof the said John Gurney haue sett to his hand & seale, this twelfth day of ffebruary, one thousand six hundred sixty one
+>
+> Signed sealed & deliuered & posses-sion giuen by turffe & Twigg, the 16th: of Aprill 1662; in the presents of vs.
+> Peter Brackett
+> John C. Rockwell [Rockwell's mark?]
+>
+> John J G Gurney ) & a seale
+> [by] his marke
+>
+> Entered & recorded word for word And Compared with the Originall this: 12th: of June: 1668: at Reques[t] of Rich Thayer As Attests. Edward Rawson Record[er].
+
+---
+
+## Reading notes
+
+- "John J G Gurney … his marke" — John signed with the mark "J G," not a signature; both witnesses attest the mark form.
+- Possession "by turffe & Twigg" (livery of seisin by turf and twig) was given 16 April 1662, two months after sealing — the practical handover date.
+- The bracketed "[459.]" is the printed edition's page-break marker within the warranty clause.
+- The same image 499 carries the end of the immediately preceding deed, George Oldredge (Oldrage) to Richard Thayer — house, two orchards, and eight acres bounded by Thayer east and west, Joseph Crosby north, the Monatiquot River south — the abutting parcel named as John Gurney's western boundary. Thayer was assembling a contiguous holding.
+- Later Thayer instruments in the same printed series recite "fiue Acres of Land bought by mee of John Gurney, as by deed bearing date the twelfth [of February 1661/2]" (film 007442495, e.g. images at arks 3:1:3QS7-L9ZS-BJRS and 3:1:3QS7-L9ZS-BJRJ). The grantor index line adjacent to the Gurney entry carries a date reading "Nov. 17, 1667" whose column alignment is uncertain in the machine transcript; the registry copy's own attestation (12 June 1668) is the reliable recording date.
