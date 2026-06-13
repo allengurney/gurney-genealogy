@@ -14,12 +14,12 @@ The will of Edmund Gournay is dated more precisely than the fact sheet captures:
 - **Burial directive:** "his body to be buried in the church of the Assumption of the blessed Virgin in that town [West Barsham]"
 - **Bequest:** "8l. to be distributed to the poor on his burial day"
 - **Executors named:** Osbert de Mundeford and Thomas Kemp
-- **Will register:** Reg. Harsyke, fol. 34, Bishop's office at Norwich
+- **Will register:** Reg. Harsyke, fol. 84, Bishop's office at Norwich (Daniel Gurney's "fol. 34" is a misprint — see the register-entry note below)
 
 These details (executors, exact bequest amount, the "Ascension" dating) didn't fit the fact sheet narrative but are useful for any biographical writing.
 
-### Independent will-index confirmation — NCC index entry (added 2026-05-29)
-The probate registration is independently confirmed by the printed/online Index to Wills, Consistory Court of Norwich 1370–1550 (Ancestry collection 1610; NRO online catalogue), which lists Edmund's 1387 will under register Harsyk.[^ncc-index-edmund-harsyk-1387] The index folio reference ("84") differs from the "fol. 34" cited via Daniel Gurney; the two simply reflect different foliations/index pagination of the same Register Harsyke entry. (The Ancestry collection mis-tags the record type as "Marriages"; it is a will index.) No new content beyond corroboration and an online finding-aid pointer.
+### The register entry and the lost folio — NCC index (added 2026-05-29; resolved 2026-06-13)
+The probate registration is confirmed by the Index to Wills, Consistory Court of Norwich 1370–1550 (Ancestry collection 1610; Norfolk Record Society vol. 16, A–Hi; NRO online catalogue), which lists the will as **"Gurney (Gurnay), Edmund, 1387 — Harsyk 84."**[^ncc-index-edmund-harsyk-1387] The authoritative folio is therefore **84**; Daniel Gurney's "Reg. Harsyke, fol. 34" is a misprint, not a separate foliation. The NRO catalogue marks the entry "**Index entry only. Folio missing — not to be produced to the searchroom**," and Daniel Gurney already recorded the loss: "in the time of Mr. Norris [the antiquary Anthony Norris, d. 1786] the part of the register which contained it was utterly rotted and destroyed" (Record, Part II, p. 363). The leaf has thus been gone since the eighteenth century, long before any microfilming — so no film (FamilySearch DGS 008076261, or the NRO's own MF 23 / MF/RO 137) can reproduce it; the text survives only through Sir Simonds Dewes's 1637 copy (below) and Blomefield. (The Ancestry collection mis-tags the record type as "Marriages"; it is a will index.)
 
 [^ncc-index-edmund-harsyk-1387]: Index to Wills, Consistory Court of Norwich, 1370–1550 (Ancestry.com collection 1610; underlying Norfolk Record Society / NRO online catalogue, http://nrocat.norfolk.gov.uk): "1387 Gurney, Gurnay, Edmund — 84 Harsyk." Confirms registration of Edmund Gournay's 1387 will in Norwich Consistory Court register Harsyke. Source ID: `nro-ncc-wills-registers`.
 
@@ -33,18 +33,23 @@ Edmund's death is fixed by his will (proved 1 August 1387, Reg. Harsyke), not by
 The DG-II passages reviewed in chat bcb40001 (pp. 357–363) **do not contain the phrase "John of Gaunt" directly.** They list Edmund's many royal commission appointments — entirely consistent with him holding that stewardship — but the explicit attribution comes from the History of Parliament Online entry. Open question 1 below tracks the verification need.
 
 ### Full Latin will text (DG-Supp Note 118, pp. 789–791)
-2026-04-18 — **This is the most important single document for any junior-branch Gournay.** DG-Supp Note 118 gives the complete Latin text of Edmund's will from a 1637 copy made by Sir Simonds Dewes (Harl. MSS. 10, fol. 144/pencil 148). The original in the Bishop's Register (Registrum Harsyke) was "almost illegible from decay," but the Dewes copy survives.
+2026-04-18 — **This is the most important single document for any junior-branch Gournay.** DG-Supp Note 118 gives the complete Latin text of Edmund's *ultima voluntas* from a 1637 copy made by Sir Simonds Dewes (British Museum, Harl. MSS. 10, fol. 144/pencil 148), "compared Dec. 22, Anno 1638." The Registrum Harsyke original (fol. 84) was already "almost illegible from decay" in Daniel Gurney's day and the leaf is now lost entirely (see the register-entry note above); the Dewes copy is the surviving witness.
 
-Key provisions extracted from the Latin:
+Provisions of the *ultima voluntas* (full re-read against the Latin, 2026-06-13):
 
-- **Executors:** Katherine his wife, John his son, Osbert de Mundeford, and Thomas Kempe. (Note: *four* executors, not two as the earlier note stated — the DG-II summary omits Katherine and John.)
-- **Burial:** Thirteen paupers in white vestments to hold thirteen torches around his body; black vestments for his family and kinsmen; each poor man present at the burial to receive one penny.
-- **Katherine's dower:** Full dower of all lands and tenements due by law, plus all household utensils and her share of all goods and chattels, "without contradiction or impediment from heirs or executors."
-- **Restitution clause:** If anyone can prove Edmund unjustly detained or extorted property from them, his heirs are directed to make restitution — "si aliquis bono et rationabili titulo eis ostendere poterit quod idem Edmundus eos disseisierit de aliqua terra."
-- **Distribution:** To religious houses and the four orders of friars, and to the poor, as the executors see fit.
-- **Proved:** 1 August 1387 at Norwich, with a codicil annexed.
+- **Made** at West Barsham on Thursday the feast of the Ascension 1387 (16 May 1387); **proved at Norwich 1 August 1387 with a codicil annexed**, administration committed to those named.
+- **Four executors:** "Katerina que fuit uxor predicti Edmundi, **Johannes filius eorundem Edmundi et Katerine**, Osbertus de Mundeford et Thomas Kempe" — his wife Katherine, his son John, Osbert de Mundeford, and Thomas Kempe. The DG-II English summary names only the two outsiders; the Latin confirms the heir **John (G24) as son of Edmund *and* Katherine** — primary confirmation that the heir was Katherine de Wauncy's son.
+- **"Other sons."** The mourning-array clause provides black vesture "pro eis, et **aliis filiis** et propinquis suis" — for the executors, and his *other sons* (*filiis*, plural) and kinsmen. This is primary-text confirmation that John was not Edmund's only son, corroborating and slightly enlarging the "second son, believed Robert" of the DG-II issue list (the will implies at least two sons besides the heir, or simply more than one).
+- **The funeral.** Thirteen paupers clad in white were to stand around the body holding thirteen torches, with **two tapers** also burning beside it; the executors, his other sons, and kinsmen wore black. Every poor man present (or who asked) on the burial day received **one penny** to pray for his soul.
+- **A funeral feast.** "Omnes, tum gentiles quam alii boni homines patrie ibidem circumstantes" — all the gentry and the good men of the surrounding country — were to convene at West Barsham on the burial day and be "honorably fed" (*honorifice … pascantur*) from Edmund's goods at the executors' direction: a public display of the family's standing as lords of West Barsham.
+- **Church bequests.** Payments both to the **high altar of West Barsham church** and toward the **repair (*emendatio*) of the church**, the amounts set in his separate *testamentum*.
+- **Katherine's dower:** her full dower of all lands and tenements due by law, **all** the household utensils, and her share of all his other goods and chattels, "sine contradictione vel impedimento heredum vel executorum" — without contradiction or impediment from heirs or executors.
+- **Debts and residue.** All his goods, chattels, and **debts owed to him** "in whosesoever hands found" pass to the executors to fulfil the will; distribution to religious houses, the friars of the four orders, and the poor, for the souls of Edmund, **his ancestors**, and those to whom he was bound.
+- **Restitution under his blessing.** His heirs, by the executors' counsel and "**according to his blessing**" (*secundum benedictionem suam*), are to restore and satisfy anyone who can prove by good title that Edmund disseised them of land or tenement or did them injury — "si aliquis bono et rationabili titulo eis ostendere poterit quod idem Edmundus eos disseisierit de aliqua terra vel de aliquo tenemento."
 
-DG's commentary: "This will, not being in the first person, must be considered not a complete copy, but a good summary of contents." The Dewes copy was "compared Dec. 22, Anno 1638." DG also notes: "I think it likely the flag stone, at West Barsham, engraved at page 408, was in memory of this Edmund Gurnay; and not of William Gurnay V. — who was probably buried at Irstead."
+**Two instruments — and why the bequest figures differ.** The surviving Dewes text is the *ultima voluntas* (lands, funeral, and conscience). A separate *testamentum* — carrying the money legacies and the witnesses **William de Mildenhall, vicar of West Barsham, and Nicholas de Barsham** (Blomefield, vol. vii, p. 43) — is referred to but was not in the Dewes copy and is lost with the register. This dissolves the apparent tension between the *voluntas*'s "one penny to each pauper" and the DG-II/Blomefield abstract's "£8 to the poor": the two figures sit in two different instruments, not in conflict.
+
+DG's commentary: "This will, not being in the first person, must be considered not a complete copy, but a good summary of contents." He adds that the West Barsham flag stone engraved at his p. 408 likely commemorates this Edmund, not William Gurnay V (who was probably buried at Irstead).
 
 **The restitution clause** is remarkable — Edmund directs his heirs to compensate anyone he wronged. This suggests either personal conscience or a legal culture where powerful local lawyers were expected to have enemies.
 
@@ -160,7 +165,7 @@ This is independent of the 1382 Close Rolls trust by John de Plays already docum
 - DG-Supp, Note 121 (pp. 793–794): **Sir John Gurney (d.1408) IPM** — death 5 Dec 1408; son Edmund heir aged 10, died sine prole. Thomas nephew and successor. Lost will (Register gap 1404–1419). [DG-Supp]
 - History of Parliament Online: Edmund Gurney, d. 1387 (HoP entry title preserves modern editorial form). [HoP]
 - Blomefield, *History of Norfolk*, vol. vii, pp. 42–47 (West Barsham). [Blomefield]
-- Reg. Harsyke, fol. 34 (will) — cited via DG. [Reg-Harsyke]
+- Reg. Harsyke, fol. 84 (will; folio now lost — text survives via the Dewes 1637 copy and Blomefield). Daniel Gurney cites it as "fol. 34," a misprint. [Reg-Harsyke]
 - Patent Rolls, 36–50 Edw. III and Rich. II. [Pat-Rolls]
 - *Soldier in Later Medieval England Online Database* (AHRC, Bell/Curry/King/Simpkin): Sir John Gurney V entry, 1394 Aquitaine under John of Gaunt (TNA C61/104, m. 7); negative result for Edmund G23 himself, consistent with his civilian/legal career. See `medievalsoldier-database` in `data/sources.json`. [medievalsoldier-database]
 

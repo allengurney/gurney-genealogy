@@ -51,6 +51,16 @@ function dT(root, depth) {
 - Tool results truncate long strings around ~1,000 characters — return transcripts in slices, or stash in `window.__x` and read in chunks.
 - Clicking the Information tab switches the view and unloads the transcript — extract the transcript *before* opening Information.
 
+**JSON API — batch many probes without the UI (added 2026-06-13).** The results page calls a clean JSON endpoint; hit it directly with `fetch(..., {credentials:'include'})` from any logged-in familysearch.org tab and skip the shadow-DOM entirely:
+
+```
+https://www.familysearch.org/service/search/fulltext/search?count=50&m.defaultFacets=on&m.queryRequireDefault=on&offset=0&q.text=<URL-encoded query>
+```
+
+Response shape: `results` = total hit count; `entries[]`, each with `id` (the `3:1:` ark), `collectionTitle`, and `content.{recordDate, recordType, recordPlace, title, textDocument (full machine transcript), highlightTexts (match snippets array)}`. One `javascript_tool` call can loop dozens of `q.text` probes (~400 ms apart), stash raw results in `window.__x`, and return a compact triage digest — far faster than navigating per query. Filter/triage client-side on `recordType` (e.g. Legal/Probate/Properties), `recordPlace`, and a parsed year from `recordDate`. `count` and `offset` paginate. Same `q.text` operators/`q.groupName` scoping as the URL form.
+
+**Co-occurrence caveat (calibrated 2026-06-13):** `+Gurn* +"<place>"` AND-probes do **not** surface corrupt-transcript manuscript records — place + surname only co-occur in *clean-OCR printed* books (Burke, Visitations, Blomefield) and cross-collection false positives (e.g. Liège "de Gurnay", a Walloon family). The high-yield FTS vector for a Norfolk surname is **typed abstract/index typescripts** (clean OCR), not place/Latin co-occurrence over manuscript films. See `sources/intake/.../extended-fts-discovery-campaign.md` (2026-06 batch) for the full probe matrix and negative.
+
 ## 3. Full-resolution image downloads (the das/v2 API)
 
 The viewer's own download dialog is unreliable under automation. The working path:
@@ -85,3 +95,16 @@ Full catalogue with examples in `sources/validations/familysearch-fulltext-searc
 - `sources/validations/familysearch-fulltext-search.md` — content-reliability notes and false-positive catalogue
 - `research/people/g13-john-gurney-fact-sheet.research.md` — campaign session entries (worked examples of every technique above)
 - `.claude/skills/familysearch-export-review/SKILL.md`, `.claude/skills/familysearch-tree-updates/SKILL.md` — the tree/export-side FamilySearch skills
+
+## Appendix: Codex access notes
+
+Codex can use the same authenticated-browser strategy, but the mechanics differ from Claude's browser tooling:
+
+- If a user says Chrome remote debugging is enabled, first probe `http://127.0.0.1:<port>/json/version`. A listening port that returns `404` for `/json/version` and `/json/list` is not a usable DevTools endpoint; do not keep retrying CDP against it.
+- A reliable fallback is a separate temporary Chrome profile, e.g. launch Chrome with `--remote-debugging-port=9223 --user-data-dir=%TEMP%\codex-familysearch-chrome-profile`, then have the user sign into FamilySearch in that window. Chrome may open first-run or Google sync pages; open a FamilySearch tab directly and wait for user authentication.
+- In Codex `node_repl`, attach with Playwright CDP (`chromium.connectOverCDP("http://127.0.0.1:9223")`) and run the recursive shadow-DOM text walker inside `page.evaluate`.
+- The Codex Node bridge may fail writing directly into the OneDrive checkout with `EPERM`. If so, write captures under `nodeRepl.tmpDir`, then copy the completed files into the repo with PowerShell.
+- In restricted-network sessions, Node/Playwright API requests to presigned S3 image URLs may fail with `EACCES`, even though the browser can expose the URL. Retrieve the presigned URL from CDP network events, then download it with PowerShell `Invoke-WebRequest` after setting TLS 1.2 if needed.
+- Do not keep signed S3 URL manifests as durable artefacts; the tokens expire and are sensitive-ish noise. Keep the downloaded JPGs plus ARK, DGS, image number, and citation in markdown/JSON manifests.
+- For neighbor pages, if Previous/Next buttons are not exposed in Codex automation, the standard viewer's grid buttons such as `Go to image 339` can be clicked to obtain the neighboring ARK.
+- Chunk long extraction runs and checkpoint after each record or small batch. Broad DGS sweeps can hit tool timeouts before any result is returned.

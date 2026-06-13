@@ -146,6 +146,7 @@ vite.config.ts.timestamp-*
 # we never commit the generated site to git.
 # Local AI-agent scratch worktrees.
 .claude/worktrees/
+.codex/
 
 # Per-user / per-machine Claude Code permission allowlist.
 .claude/settings.local.json

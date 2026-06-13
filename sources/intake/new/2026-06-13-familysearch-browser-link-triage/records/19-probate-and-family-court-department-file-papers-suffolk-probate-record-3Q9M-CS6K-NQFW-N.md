@@ -1,0 +1,17 @@
+# Probate and Family Court Department FILE PAPERS: Suffolk. Probate Records 1636–1894
+
+- URL: https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS6K-NQFW-N?view=fullText&keywords=Gurney&lang=en&groupId=
+- ARK: 3Q9M-CS6K-NQFW-N
+- Image number: 964
+- Image Group Number: 102907158
+- Source details: Title Probate and Family Court Department FILE PAPERS Volume Box 010 Cases 01626-01825, Box 10 Case 1626 to Case 1825 Language English Creator Massachusetts. Probate Court (Suffolk County) Suffolk County Custodian Massachusetts. Department of Archives Archival Reference Number Probate and Family Court Department FILE PAPERS_Box 10 Case 1626 to Case 1825_1 Jan 1636-31 Dec 1894 More Image Group Number 102907158 Film Item Notes -
+- Citation: "Suffolk, Massachusetts, United States records," images, FamilySearch (https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS6K-NQFW-N?view=explore : Jun 13, 2026), image 964 of 1153; Massachusetts. Department of Archives. Image Group Number: 102907158
+- User/context note: none
+
+## Match Snippets
+- of To housing and home lott Containing acres of land 10,000 to a pasture wood forced containing ; or thereabout to brother Lott souring to John Gurney land about 15 10 - 00 - 00 to one acer of Salt medow at Brantry of to Con . 210 I to thirteen sheep . 3 . and to one Mard : of - 00 - 00 to children bed & could & Clarion & other covering 3 - 00 - 00 to 3 old
+- o housing and home lott Containing acres of land 10,000 to a pasture wood forced containing ; or thereabout to brother Lott souring to John Gurney land about 15 10 - 00 - 00 to one acer of Salt medow at Brantry of to Con . 210 I to thirteen sheep . 3 . and to one Mard : of - 00 - 00 to children bed & could & Clarion & other covering 3 - 00 - 00 to 3 old shee
+
+## Machine Transcript
+
+Show Translation 2 . An Inventory of the Estate of Benjamen Ludden of Weymouth deceased the 25th day of November as it was brought by new by his widow Eunice Ludden and as it was prised by us whose names and under writen the 29th of December 1890 to of To housing and home lott Containing acres of land 10,000 to a pasture wood forced containing ; or thereabout to brother Lott souring to John Gurney land about 15 10 - 00 - 00 to one acer of Salt medow at Brantry of to Con . 210 I to thirteen sheep . 3 . and to one Mard : of - 00 - 00 to children bed & could & Clarion & other covering 3 - 00 - 00 to 3 old sheets and a napkins & a coverled of 15 - 00 3 - 00 - 00 to wearing Cloth at to 3 Small Remnants of home mad Cloth at 20000 00 - 18 - 00 to puter platter & bondage I cary with him and To a ward 2 feller one brass Kettle a barning par . 1 - 11 , 00 to 2 Iron potts and Iron Kettle at of 6 - 00 to Earthen ware & glass bottle : a smoothing Irons 6.00 to wooden dishes Ladle & trencher 00 - 00 to Ironward tramels fireper & tongs 2 pair pot hooks & frying , 16.00 Toatable & forme 15 2 chests : 2 boxes 4 and amale trow 301 - 12 - 00 to aspinning wheel and 5 Chairs to : and apersell of book 3 : 1 - 00 - 00 to corn & provision - --- - --- to Comber & old red & hols & pickforks of to a gun . 10.00 a bagaret --- 1900 Sum totall is 130 : 08.06 Ephraim Hunt Samuel King Boston , Jany . 28th 1690 Eunice Ludden made Oath in County Court that the above contains a just & true Inventory of the Estate of her late Ded husband Ben Ludden , so far as is come to her knowledge , & that when she knowes more the will cause the same to be added . attest Joseph Webb Cler Jany . 28. 1690 Sworn in Court of widow

@@ -6,6 +6,39 @@
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
+    "billerica-town-records-ms": {
+      "shortTitle": "Billerica town records (MS)",
+      "citation": "Billerica, Massachusetts. Town Records, 1653–1727 (manuscript). FamilySearch image group DGS 007466228.",
+      "archive": "FamilySearch (manuscript town book)",
+      "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-89Z8-T2GH",
+      "corpusStatus": "extract",
+      "corpusPath": "sources/corpus_supplement/billerica-town-records-gurney-1659-1660.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/billerica-town-records-ms.md",
+      "notes": "Manuscript town book behind Hazen's 1883 printed history (hazen-billerica-1883). Gurn* sweep 2026-06-12: John Gurney's 1659 grant, 26 Dec 1659 surrender, and 19 Mar 1659/60 re-grant of half the lot to John Hall; proprietor/rate/meadow entries. Machine-transcript level; 'Tanne'='Towne', 'Gurneyers'='Surveyors'."
+    },
+    "bury-st-james-registers": {
+      "shortTitle": "Bury St Edmunds, St James registers",
+      "citation": "Bury St Edmunds, St James, Suffolk, England. Parish Registers, 1561–1800. FamilySearch image group DGS 007413310.",
+      "archive": "FamilySearch (Suffolk Record Office, Bury branch, originals)",
+      "url": "https://www.familysearch.org/search/full-text/results?q.groupName=007413310",
+      "corpusStatus": "extract",
+      "corpusPath": "sources/corpus_supplement/bury-st-edmunds-gurney-registers-1561-1800.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/bury-st-james-registers.md",
+      "notes": "Gurn* sweep 2026-06-13 (20 cards). No 1630s John Gurney household — clears Bury as John Gurney-1's natal origin (bears on Banks's attribution). The Bury Gurneys are the Thomas x Lidda Broddish household (m. c.1633-35) and later. Machine-transcript level."
+    },
+    "edmund-divine-pcc-probate-negative": {
+      "shortTitle": "Edmund Gurney (Divine) probate search — negative",
+      "citation": "Probate search (negative result) for Edmund Gurney, clerk, rector of Harpley, d. 1648: Norwich Consistory registers, TNA PROB 11/PROB 6, Matthews Year Books, NRO catalogue. Searched 2026-06-12.",
+      "archive": "TNA Discovery; Norfolk Record Office; FamilySearch; Internet Archive",
+      "url": "https://discovery.nationalarchives.gov.uk/results/r?_q=%22Edmund+Gurney%22",
+      "corpusStatus": "extract",
+      "corpusPath": "sources/corpus_supplement/edmund-gurney-divine-pcc-probate-negative.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/edmund-divine-pcc-probate-negative.md",
+      "notes": "Documented negative: no will or admon for Edmund the Divine in any court 1648-1660 under any spelling. Incidental records: NRO BL/O/G/1 (1630 Harpley grant); TNA C 5/609/120 (Gurnay v Cocke, 1648, lead L-115). Auth-gated pulls outstanding (FS collection 3259459; Findmypast admons vol. VI)."
+    },
     "dg-rec-pt1": {
       "shortTitle": "DG Record, Part I",
       "citation": "Gurney, Daniel. The Record of the House of Gournay, Part I. London: J. B. Nichols and J. G. Nichols, 1848.",

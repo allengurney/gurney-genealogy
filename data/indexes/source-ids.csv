@@ -35,6 +35,7 @@ bho-london-hearth-tax-merry-2010,London Hearth Tax project database (Merry 2010)
 bho-london-inhabitants-st-augustine-1638,"BHO - Inhabitants of London 1638, St Augustine",full,sources/corpus_supplement/bho-london-inhabitants-st-augustine-1638.md,,sources/validations/bho-london-inhabitants-st-augustine-1638.md
 bho-port-trade-early-elizabethan-london-richard-gurney-1567-8,"BHO - London Port Book 1567-8, Richard Gurney",partial,sources/corpus_supplement/bho-port-trade-early-elizabethan-london-richard-gurney-1567-8.md,,sources/validations/bho-port-trade-early-elizabethan-london-richard-gurney-1567-8.md
 bho-statutes-realm-1661-assessment,BHO Statutes - 1661 Assessment Act,partial,sources/corpus_supplement/bho-statutes-1661-francis-gurney.md,,sources/validations/bho-statutes-realm-1661-assessment.md
+billerica-town-records-ms,Billerica town records (MS),extract,sources/corpus_supplement/billerica-town-records-gurney-1659-1660.md,,sources/validations/billerica-town-records-ms.md
 blomefield-norfolk,"Blomefield, History of Norfolk",none,,,
 blomefield-norfolk-vol5-pp33-cringleford-berford,"Blomefield, Norfolk vol. 5 (BHO) — Cringleford, Berford's Manor",partial,sources/corpus_supplement/blomefield-norfolk-vol5-pp33-cringleford-berford.md,,sources/validations/blomefield-norfolk-vol5-pp33-cringleford-berford.md
 bodge-soldiers-king-philips-war-1891,"Bodge, Soldiers in King Philip's War (1891)",partial,sources/corpus_supplement/bodge-soldiers-king-philips-war-1891-gurney-extracts.md,sources/media/bodge-soldiers-king-philips-war-1891/,sources/validations/bodge-soldiers-king-philips-war-1891.md
@@ -44,6 +45,7 @@ british-archivist-bernau-1913,"Bernau, British Archivist - Francis Gournay",full
 brooke-catalogue-succession-1619,"Brooke, Catalogue and Succession (1619)",partial,sources/corpus_supplement/brooke-catalogue-succession-1619-selected-gurney-pages.md,sources/media/brooke-catalogue-succession-1619/,sources/validations/brooke-catalogue-succession-1619.md
 brs-v21,BRS v21 (1642 Bucks tax),none,,,
 burke-ancient-family,"Burke, The Ancient Family of Gurney",none,,,
+bury-st-james-registers,"Bury St Edmunds, St James registers",extract,sources/corpus_supplement/bury-st-edmunds-gurney-registers-1561-1800.md,,sources/validations/bury-st-james-registers.md
 calder-new-haven-colony-1934,"Calder, New Haven Colony",none,,,
 cambridge-core-camden-preface-addenda,Camden Old Series - Preface and Addenda,partial,sources/corpus_supplement/cambridge-core-camden-preface-addenda-gournay-bardolf.md,,sources/validations/cambridge-core-camden-preface-addenda.md
 candidate-d-london-context-web-bundle,Candidate D London context web bundle,none,,,sources/validations/candidate-d-london-context-web-bundle.md
@@ -80,6 +82,7 @@ dudo-historia,"Dudo of Saint-Quentin, Historia Normannorum",none,,,
 dumoulin-histoire-generale-normandie-1631,"Gabriel Dumoulin, Histoire générale de Normandie (1631)",partial,,,
 eaa-occasional-paper-2-ellingham-kiln-1997,EAA Occasional Paper 2 - Ellingham Kiln,partial,sources/corpus_supplement/eaa-occasional-paper-2-ellingham-kiln-1997.md,,sources/validations/eaa-occasional-paper-2-ellingham-kiln-1997.md
 early-yorkshire-charters-vol-8-clay-1949,"Early Yorkshire Charters, vol. 8: The Honour of Warenne (Clay 1949)",external,,,
+edmund-divine-pcc-probate-negative,Edmund Gurney (Divine) probate search — negative,extract,sources/corpus_supplement/edmund-gurney-divine-pcc-probate-negative.md,,sources/validations/edmund-divine-pcc-probate-negative.md
 elizabeth-stettler-walker-gurney-obituary,Elizabeth Stettler Walker Gurney Obituary (2013),none,,,
 english-heritage-baconsthorpe-castle-history,English Heritage - Baconsthorpe Castle history,partial,sources/corpus_supplement/english-heritage-baconsthorpe-castle-history.md,,sources/validations/english-heritage-baconsthorpe-castle-history.md
 english-heritage-baconsthorpe-castle-wool-factory,English Heritage - Baconsthorpe Tudor wool factory,partial,sources/corpus_supplement/english-heritage-baconsthorpe-castle-wool-factory.md,,sources/validations/english-heritage-baconsthorpe-castle-wool-factory.md

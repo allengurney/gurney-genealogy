@@ -23,7 +23,7 @@ This chronology matters because it shows West Barsham as a place obtained throug
 
 ## Edmund Gournay and the making of the seat
 
-Edmund Gournay (G23) is the true founder of West Barsham as the family's central residence. His will, dated in **1387** and preserved in **Reg. Harsyke, fol. 34**, was made at West Barsham and directed burial in the **church of the Assumption of the Blessed Virgin** there, with a bequest of **£8 to the poor on his burial day**. DG-II also preserves the names of his executors, **Osbert de Mundeford** and **Thomas Kemp**. [DG-II] [Edmund G23 companion]
+Edmund Gournay (G23) is the true founder of West Barsham as the family's central residence. His will, made at West Barsham on Thursday the feast of the Ascension **1387** and registered in **Reg. Harsyke, fol. 84** (Norwich Consistory Court; Norfolk Record Society vol. 16, A–Hi — Daniel Gurney's "fol. 34" is a misprint), directed burial in the **church of the Assumption of the Blessed Virgin** there, with **£8 to the poor on his burial day**, a funeral feast for the gentry and country folk, and bequests to the high altar and the repair of the church. His executors were his wife **Katherine (de Wauncy)**, his son **John**, **Osbert de Mundeford**, and **Thomas Kempe**. The register leaf is now lost — "in the time of Mr. Norris [d. 1786] the part of the register which contained it was utterly rotted and destroyed" (Daniel Gurney, *Record* II, p. 363) — so the text survives only through Sir Simonds Dewes's 1637 copy (DG-Supplement Note 118) and Blomefield; no microfilm can reproduce it. [DG-II] [Edmund G23 companion]
 
 West Barsham was therefore not simply a nominal manor on parchment. By Edmund's time it had already become the place from which he dated legal instruments and where he expected his body to be buried. That is the clearest sign that the manor had become the family's principal domestic and symbolic centre. [DG-II]
 
@@ -71,7 +71,7 @@ That distinction is important enough to preserve explicitly, because otherwise t
 - Daniel Gurney, *Record of the House of Gournay*, Part I (1848), p. 280. [DG-I]
 - DG-II, Appendix LXIII (Wauncy family), Appendix LXV (West Barsham lease), and Edmund Gournay chapter. [DG-II]
 - Blomefield, *History of Norfolk*, vol. vii, pp. 42–47. [Blom-WestBarsham]
-- Reg. Harsyke, fol. 34 (Edmund Gournay's 1387 will), cited by DG-II. [DG-II]
+- Reg. Harsyke, fol. 84 (Edmund Gournay's 1387 will; folio now lost, text via the Dewes 1637 copy and Blomefield). Daniel Gurney cites it as "fol. 34," a misprint. [DG-II]
 - History of Parliament Online: Sir John Gurney, d. 1408. [HoP-Gurney]
 - `research/people/g23-edmund-gurney-fact-sheet.research.md`
 - `research/people/g19-william-gurney-iv-fact-sheet.research.md`

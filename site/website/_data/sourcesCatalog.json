@@ -420,6 +420,18 @@
     "notes": "Lists a Francis Gurney among named Essex/Harwich assessment commissioners in 1661. Likely relevant to Francis Gurney of Maldon rather than direct-line Francis G14, who was dead by 1646/7."
   },
   {
+    "sourceId": "billerica-town-records-ms",
+    "shortTitle": "Billerica town records (MS)",
+    "citation": "Billerica, Massachusetts. Town Records, 1653–1727 (manuscript). FamilySearch image group DGS 007466228.",
+    "archive": "FamilySearch (manuscript town book)",
+    "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-89Z8-T2GH",
+    "corpusStatus": "extract",
+    "corpusPath": "sources/corpus_supplement/billerica-town-records-gurney-1659-1660.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/billerica-town-records-ms.md",
+    "notes": "Manuscript town book behind Hazen's 1883 printed history (hazen-billerica-1883). Gurn* sweep 2026-06-12: John Gurney's 1659 grant, 26 Dec 1659 surrender, and 19 Mar 1659/60 re-grant of half the lot to John Hall; proprietor/rate/meadow entries. Machine-transcript level; 'Tanne'='Towne', 'Gurneyers'='Surveyors'."
+  },
+  {
     "sourceId": "blomefield-norfolk",
     "shortTitle": "Blomefield, History of Norfolk",
     "citation": "Blomefield, Francis. An Essay Towards a Topographical History of the County of Norfolk. 11 vols. London, 1805–1810.",
@@ -514,6 +526,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Brief secondary heraldic-genealogical pamphlet. Arms: Argent, a cross engrailed gules, quartering Gournay, Warren, and Barclay."
+  },
+  {
+    "sourceId": "bury-st-james-registers",
+    "shortTitle": "Bury St Edmunds, St James registers",
+    "citation": "Bury St Edmunds, St James, Suffolk, England. Parish Registers, 1561–1800. FamilySearch image group DGS 007413310.",
+    "archive": "FamilySearch (Suffolk Record Office, Bury branch, originals)",
+    "url": "https://www.familysearch.org/search/full-text/results?q.groupName=007413310",
+    "corpusStatus": "extract",
+    "corpusPath": "sources/corpus_supplement/bury-st-edmunds-gurney-registers-1561-1800.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/bury-st-james-registers.md",
+    "notes": "Gurn* sweep 2026-06-13 (20 cards). No 1630s John Gurney household — clears Bury as John Gurney-1's natal origin (bears on Banks's attribution). The Bury Gurneys are the Thomas x Lidda Broddish household (m. c.1633-35) and later. Machine-transcript level."
   },
   {
     "sourceId": "calder-new-haven-colony-1934",
@@ -970,6 +994,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Modern scholarly edition of charters relating to the honour of Warenne. Pages 6-7 give an independent scholarly statement of Edith / Ediva de Warenne's two marriages: (1) Gerard de Gournay, on whose Jerusalem pilgrimage 'he died not earlier than 1104'; (2) 'Drew de Monchy, by whom she had a son Drew the younger.' This is the strongest modern third-party confirmation of the corrected G32 chronology (death after 1104, not before), the Drogo I/Drogo II distinction, Edith's role on the pilgrimage, and Edith's placement as daughter of William de Warenne and Gundreda. Also notes that Edith named her daughter Gundreda after her grandmother Gundreda de Warenne. Pages 40-46 / 50-62 are also relevant to the Gundred parentage controversy, including the Lewes evidence, the Gerbod relationship, and the source-critical rejection of the older royal-descent theory."
+  },
+  {
+    "sourceId": "edmund-divine-pcc-probate-negative",
+    "shortTitle": "Edmund Gurney (Divine) probate search — negative",
+    "citation": "Probate search (negative result) for Edmund Gurney, clerk, rector of Harpley, d. 1648: Norwich Consistory registers, TNA PROB 11/PROB 6, Matthews Year Books, NRO catalogue. Searched 2026-06-12.",
+    "archive": "TNA Discovery; Norfolk Record Office; FamilySearch; Internet Archive",
+    "url": "https://discovery.nationalarchives.gov.uk/results/r?_q=%22Edmund+Gurney%22",
+    "corpusStatus": "extract",
+    "corpusPath": "sources/corpus_supplement/edmund-gurney-divine-pcc-probate-negative.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/edmund-divine-pcc-probate-negative.md",
+    "notes": "Documented negative: no will or admon for Edmund the Divine in any court 1648-1660 under any spelling. Incidental records: NRO BL/O/G/1 (1630 Harpley grant); TNA C 5/609/120 (Gurnay v Cocke, 1648, lead L-115). Auth-gated pulls outstanding (FS collection 3259459; Findmypast admons vol. VI)."
   },
   {
     "sourceId": "elizabeth-stettler-walker-gurney-obituary",

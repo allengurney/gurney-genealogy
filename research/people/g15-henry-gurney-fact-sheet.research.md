@@ -6,6 +6,10 @@ Research companion for `g15-henry-gurney-fact-sheet.md`. See `.claude/rules/rese
 
 ## Working Notes
 
+### Henry's succession — a minor heir under his grandfather's fourteen-year trust (lead L-112)
+
+Henry inherited West Barsham and Great Ellingham not from his father but from his grandfather **Anthony G17**, because his father **Francis (G16) had predeceased** Anthony. Anthony's will (made 6 Dec., proved 10 Dec. 1557) set up a **fourteen-year executor trust** over two-thirds of the knight-service manors; running from December 1557 it ended in **1571**, the year Henry (b. 21 Jan 1548/9) turned 21 and could take livery. This resolves Blomefield's otherwise impossible statement that Anthony "died January 4, 1555, leaving Henry, his grandson and heir, **aged twenty-one years**" (Henry was ~9 in 1557): the "aged twenty-one" is Henry's **livery age, c. 1570**, telescoped by Blomefield onto the (also mis-dated) death. As grandson-and-heir Henry took the descended third by law and so is unnamed in the will's legacies — the five Gurney grandchildren it funds are his own siblings (children of Francis G16). See the [G17](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g17-anthony-gurney-fact-sheet.research.md) and [G16](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g16-francis-gurney-fact-sheet.research.md) companions.
+
 ### 2026-06-11 — Henry's last will: made 1 May 1621, proved 23 October 1623 — the death date moves to 1621×1623
 
 **The question.** Henry's death has been published as 1615 or early 1616 (Pease gives 23 February 1615; the Catalogue of English Literary Manuscripts and Steven May give 1616), with the unexplained oddity that his will — known to Daniel Gurney only as a text "dated 1614" — was "proved 1623," eight or nine years after the supposed death. Lead L-111 sought the registered will itself in the digitised Norwich Consistory Court registers.
