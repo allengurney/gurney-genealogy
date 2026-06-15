@@ -114,6 +114,63 @@ promotable from the transcript. Triage by reading, dedup persons across pages, a
 for the Garner/Jernegan look-alikes before promoting. Good candidates to **fold into the
 paleography outsource alongside Bundle 01** once specific high-value pages are picked.
 
+## Round 3 — re-reading the sweep hits *by transcript context* (not binary match)
+
+Per Allen: don't treat the match string as a binary hit — read each hit's **full transcript
+(`content.textDocument`)** for buried place names, forenames, or associated families that
+signal relevance even amid garble. Implemented as a context-scan over the manuscript-film
+hits (mine the whole page text for `Barsham|Ellingham|Harpley|Hardingham|…` and
+`Lovell|Spelman|Calthorpe|Lestrange|Heydon|…`). Results:
+
+- **Manuscript Norwich court/deposition films: near-zero context signal.** Scanning 100
+  hits across the two big court films (004397070, 004397533) flagged only 2 pages; **both
+  were false positives on reading** — `S3HY-DRBC-LF` "Gornsey" = **Guernsey** (a Lyme-Regis
+  maritime entry), and `S3HY-DRBH-HM` "Hardingham" = a juror's **surname** ("Wm
+  Hardingham"), not the manor, with the G-token a garble ("Gornburgly"). The 1608
+  depositions film flagged **zero**. The lesson holds: salad transcripts rarely preserve a
+  clean place token, so context-mining can't rescue them — and **reading the context is
+  what catches the false positives** a binary place-match would mis-promote.
+- **Clean-OCR printed films light up.** All 19 context flags came from **DGS 004389182**,
+  which despite its "Norwich Deeds 1910" label is a **clean printed calendar/index** whose
+  *content* spans medieval–Tudor Norfolk. New leads it exposed:
+  - **Holkham MSS catalogue** entry: "...collections of Le Neve and the late **D. Gurney**...
+    3276 originals" — points to **Daniel Gurney's own manuscript collection** (with the Le
+    Neve papers) catalogued at Holkham. An archival lead beyond DG's *published* Record.
+    *Unknown online* (the Holkham MSS catalogue itself; this is the 1910 printed notice).
+  - A medieval Norfolk **name-list index** entry: "...Heydon ... Haveningham, **Gurnay** Elys
+    Stutevyle Jno of E. ..." — an index to older Norfolk deeds/charters naming a Gurnay in a
+    Heydon/Stuteville context. *Available online (this film).*
+
+**Takeaway:** context-reading is the correct triage discipline, but its *yield* tracks OCR
+quality — it rescues relevance from **clean** text (printed calendars/indexes) and exposes
+false positives in **manuscript** text. The actionable redirect: **DGS 004389182 is itself a
+clean-OCR Norfolk deeds calendar/index** (medieval–Tudor content) — a will-extracts-style
+sweep target in its own right, not the throwaway "1910 deeds" the first pass logged (item 15).
+
+### DGS 004389182 index sweep — Gurney content (context-read)
+
+30 hits; reading the Gurney-context windows:
+- **Medieval Gurnay deeds (line-relevant):** "...Heydon ... Haveningham, **Gurnay** Elys
+  Stutevyle Jno, of E[llingham], & ors., Trustees"; "of **John Gurnay** mentioned ... Blithe,
+  Multon [Moulton], Nolothe, Somerton" — Gurnay in medieval Norfolk trustee/deed contexts.
+- **Tudor:** "**Gurnell (orig. written Gurney) Jno** ... St. Jno. Sepulchre ... 1556" — a John
+  Gurney/Gurnell of St John Sepulchre, Norwich, 1556.
+- **Printed pedigree pointer:** "**The Gurneys of Norwich, pp. 68–96**" — a substantial
+  Norwich-Gurney section to identify and read (which volume?). *Unknown online.*
+- **Daniel Gurney's MSS:** "...the late **D. Gurney** ... 3276 original letters" (with the Le
+  Neve collection) — DG's own manuscript/letter collection catalogued at Holkham.
+
+### Third caution — large local surname populations (compounds the dictionary-snapping one)
+
+The later 004389182 entries are the **Norwich Quaker banking Gurneys** — "Hudson Gurney,"
+"John Gurney of Norwich, merchant," "May Gurney & Co." That family is large, famous, and
+exhaustively documented — and **entirely distinct from the West Barsham gentry line.** So in
+Norwich records a "Gurney" hit is *more* likely the Quaker family than ours. Combined with
+the dictionary-snapping caution, the rule for Norwich-geography hits is: **disambiguate the
+family (Quaker bankers vs. West Barsham line vs. unconnected townsfolk) before promoting** —
+period and parish help (the Quaker line rises in the later 17th c.; the medieval/Tudor
+entries above predate it).
+
 ## Productive next vectors (replacing the co-occurrence approach)
 
 1. **Pull the manuscript wills the catalogue already names** (forenames/kin the abstracts omit):

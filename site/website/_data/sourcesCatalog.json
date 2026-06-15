@@ -60,6 +60,18 @@
     "notes": "Contextual history of the Actors' Order of Friendship, a theatrical fraternal benefit order chartered at Philadelphia in 1849 (first lodge the Shakespeare Lodge); its New York branch, the Edwin Forrest Lodge, was established in 1888 by Louis Aldrich, John Drew, and Otis Skinner; the order was the direct precursor of the Actors' Fund of America, which eclipsed it. Context for G5's secretaryship of the Actors' Order of Friendship. Tertiary/contextual source."
   },
   {
+    "sourceId": "alumni-cantabrigienses-venn",
+    "shortTitle": "Alumni Cantabrigienses (Venn) — ACAD database",
+    "citation": "John Venn and J. A. Venn (comps.), Alumni Cantabrigienses: A Biographical List of All Known Students, Graduates and Holders of Office at the University of Cambridge, from the Earliest Times to 1900 (Cambridge: Cambridge University Press, 1922-1954); consulted via the online ACAD database (A Cambridge Alumni Database).",
+    "archive": "University of Cambridge (ACAD online); Cambridge University Press (print)",
+    "url": "https://venn.lib.cam.ac.uk/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/alumni-cantabrigienses-venn.md",
+    "notes": "Compiled Cambridge alumni authority. Cited for the entry on Edmund Gurney the Divine (son of Henry Gurney G15): Queens' adm. 1594 / matric. 1595, BA 1598/9, MA Corpus Christi 1602, BD 1609, ord. deacon Ely 18 Dec 1608, priest Norwich 1614, R. Edgefield 1614-20, R. Harpley 1620-48, bur. St Peter Mancroft 14 May 1648. A compiled register, not a primary record; it adjudicates the DNB/Harpley date splits and confirms the ordination dates."
+  },
+  {
     "sourceId": "american-biography-cyclopedia-v26-gurney-1926",
     "shortTitle": "American Biography, vol. 26 - Gurney",
     "citation": "American Biography: A New Cyclopedia. Illustrated vol. 26. New York: The American Historical Society, Inc., 1926, David Allston Gurney/Gurney family entry, pp. 230-255.",
@@ -1898,14 +1910,14 @@
   {
     "sourceId": "hop-berney",
     "shortTitle": "History of Parliament — Berney, Sir Robert (c.1365-1415)",
-    "citation": "\"BERNEY, Sir Robert (c.1365-1415), of Reedham and Gunton, Norf.,\" in J. S. Roskell, L. Clark and C. Rawcliffe (eds.), The History of Parliament: The House of Commons 1386-1421 (1993), History of Parliament Online.",
+    "citation": "\"BERNEY, Sir Robert (bef.1365-1415), of Great Witchingham and Gunton, Norf.,\" in J. S. Roskell, L. Clark and C. Rawcliffe (eds.), The History of Parliament: The House of Commons 1386-1421 (1993), History of Parliament Online.",
     "archive": "History of Parliament Trust",
     "url": "https://www.historyofparliamentonline.org/volume/1386-1421/member/berney-sir-robert-1365-1415",
     "corpusStatus": "none",
     "corpusPath": "",
     "mediaPath": "",
     "validationPath": "sources/validations/hop-berney.md",
-    "notes": "Berney-side corroboration, independent of hop-gurney, of John Gurney V's place in the Lancastrian Norfolk affinity: Berney and Gurney as fellow Norfolk shire knights 1399, Erpingham co-trustees, and parties to the Saxthorpe/Loundhall feoffee circle (Erpingham/Wynter/Berney/Shelton). Also bears on whether the 'Sir Robert Gurney of Gunton, deputy at Dover 1400' phrasing is in fact Sir Robert Berney of Gunton. Full page text not yet captured (leads L-78, L-79)."
+    "notes": "Berney-side corroboration, independent of hop-gurney, of John Gurney V's place in the Lancastrian Norfolk affinity: Berney and Gurney as fellow Norfolk shire knights 1399, Erpingham co-trustees, and parties to the Saxthorpe/Loundhall feoffee circle (Erpingham/Wynter/Berney/Shelton). Page text captured 2026-06-13: confirms John Gurney V as Berney's fellow shire knight of 1399 and co-trustee of Erpingham's lands, and identifies the 'Sir Robert of Gunton, deputy at Dover 1400' as Berney (deputy to Erpingham at Dover c. May 1400 to March 1406), not a Gurney."
   },
   {
     "sourceId": "hop-harling",
@@ -2134,6 +2146,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Primary source for G2 fact sheet. Lester Hayes Gurney born 16 November 1945 NYC; died 16 December 2025 at The Towne House Retirement Community, Fort Wayne, IN, age 80. Parents: Lester Sawyer Gurney III (G3) and Edith Walberg. B.S. Electrical Engineering, Valparaiso University. \"Third-generation power engineer\" with Indiana & Michigan Electric Co. (later AEP). Married Dana Ault, 22 June 1968, Fulton, IN; met at Valparaiso. Master Mason, McCulloch Lodge No. 737 (Marion, IN); Scottish Rite; Salaam Shriners; \"five-generation family tradition in Freemasonry.\" 25-year Kiwanian (Secretary); Habitat for Humanity; BSA Troop 433 Treasurer; IEEE 50+ years. Westminster Presbyterian, Marion; later First Presbyterian, Fort Wayne. Survivors: son Allen Gurney and Beth Levy (Portland, OR); grandchildren Ebba and Soren Gurney (Ann Arbor, MI); brother-in-law Carl Ault and sister-in-law Rita Ault (Rochester, IN). Predeceased by wife Dana and son Kenneth. Celebration of Life, 17 January 2026, The Towne House Chapel, 2209 Saint Joe Center Road, Fort Wayne. Memorials directed to the Parkinson's Foundation. Accessed 25 April 2026."
+  },
+  {
+    "sourceId": "letters-papers-henry-viii",
+    "shortTitle": "Letters and Papers, Foreign and Domestic, Henry VIII",
+    "citation": "Letters and Papers, Foreign and Domestic, of the Reign of Henry VIII, ed. J. S. Brewer, James Gairdner and R. H. Brodie, 21 vols. and addenda (London: HMSO, 1862-1932). Calendar of state papers; cite by volume, part, and entry number.",
+    "archive": "British History Online (full calendar text); The National Archives (originals)",
+    "url": "https://www.british-history.ac.uk/letters-papers-hen8",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/letters-papers-henry-viii.md",
+    "notes": "Calendar/abstract of the Henry VIII state papers (distinguish the abstract from the original instrument). Cited so far for vol. 21 pt 2 no. 697 (the indictment and trial of Henry Howard, Earl of Surrey, 13 Jan. 1547), whose sixteen-man Norfolk grand-jury panel opens with Anthony Gurney (G17) — corroborating Daniel Gurney's foreman claim. Read via British History Online 2026-06-13."
   },
   {
     "sourceId": "liber-niger",
@@ -2578,6 +2602,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Umbrella entry for the NCC will and administration registers held at the Norfolk Record Office. v52 uses three entries discovered via girders.net: NCC will register Doke, 17 (administration of Henry Gurnay of Norwich, 1443); NCC will register Aleyn, 19 (administration of Thomas Gurnay of Great Ellingham, 1454); NCC will register Jekkys, 211 (will of Thomas Gurnay of Harpley, 1471 = G20 Thomas Gournay II). The Jekkys 211 will is the primary register copy of the will whose contents DG-I pp. 280-282 already extracts."
+  },
+  {
+    "sourceId": "norfolk-wills-extracts-bradfer-lawrence",
+    "shortTitle": "Norfolk wills extracts, 1370-1763 (Bradfer-Lawrence)",
+    "citation": "Norfolk wills extracts, 1370-1763, from the Bradfer-Lawrence collection (typescript abstracts of Norfolk Record Office wills; GSU microfilm, 6 reels). FamilySearch catalog koha:1056823; surname-ordered DGS films 008100792, 008480297, 008176838, 008480296, 008085264, 008480295.",
+    "archive": "Norfolk Record Office (originals); FamilySearch International (GSU microfilm / Full-Text Search)",
+    "url": "https://www.familysearch.org/search/catalog/koha:1056823",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "sources/media/norfolk-wills-extracts-bradfer-lawrence/",
+    "validationPath": "sources/validations/norfolk-wills-extracts-bradfer-lawrence.md",
+    "notes": "Typed will-abstract series; clean OCR (unlike manuscript registers). Each entry abstracts one will and cites its source register. Swept for Gurney variants 2026-06-13 (Gurn*/Gourn*/Gorn*, all reels except 008100792 which is not FTS-indexed). Distinct from the generic 'familysearch-fulltext-search' handle; the G17 companion's spilman-1524 and wymondham-1475 footnotes cite the same volume and may be re-aligned to this sourceId in a later cleanup."
   },
   {
     "sourceId": "norman-geo-archives76-commune-dossiers-2026",

@@ -1,8 +1,7 @@
 # Python toolchain for local genealogy / PDF / research work in this repo.
 #
 # The Bash tool's MSYS shell has `python` on PATH but NOT `pip` — install with:
-#     python -m pip install -r tools/requirements.txt
-# Installs persist to the user interpreter (%LOCALAPPDATA%\Python\pythoncore-3.14-64).
+#     .\.venv\Scripts\python.exe -m pip install -r tools\requirements.txt
 
 # PDF text / structure extraction
 pypdf
@@ -13,6 +12,8 @@ cryptography        # required by pypdf for encrypted PDFs
 
 # Images
 Pillow
+numpy
+opencv-python-headless
 
 # Web research / scraping
 requests

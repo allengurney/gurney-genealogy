@@ -27,8 +27,10 @@ Do not mention the following in ordinary research prose unless the detail materi
 - review state
 - archival mechanics
 - workflow stage
+- live lead handles such as `L-112` in headings or visible body prose
 
 Put that detail in HTML comments, footnotes, validations, or processed patchsets.
+Lead handles may remain in footnotes or HTML comments as a discovery trail, especially after a lead closes.
 
 ## Caveat discipline
 - Trust the provided source association and metadata unless there is a concrete reason not to.

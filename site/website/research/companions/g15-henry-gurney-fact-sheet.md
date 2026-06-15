@@ -167,7 +167,7 @@ Note: Blomefield's "Edm. Gurney" here is **Edward Gurney** (Henry G15's grandson
 1. **Direct examination of Bodleian MS Tanner 175** — highest-value path. The MARCO catalogue lead is now captured as `bodleian-ms-tanner-175-marco`, but the manuscript record did not render during v08 intake; review the Bodleian catalogue and any digitized images directly.
 2. **Norwich Consistory Court will registers** at the Norfolk Record Office, for Henry's 1614 will.
 3. **Visit Gurney's Manor at Hingham** — the strongest physical link to Henry G15 of any building in Norfolk.
-4. **St James the Apostle, Great Ellingham, and All Saints, West Barsham** — physical inspection for surviving Gurney monuments. Walter Rye's <em>Church Heraldry of Norfolk</em> (1887) on the Internet Archive should be checked.
+4. **St James the Apostle, Great Ellingham, and All Saints, West Barsham** — physical inspection for surviving Gurney monuments. Rev. Edmund Farrer's <em>The Church Heraldry of Norfolk</em> (1887; the research-leads CSV's "Walter Rye" attribution is an error) on the Internet Archive should be checked for recorded Gurney shields — note its first volume covers only the Earsham and Diss hundreds, so the West Barsham (Gallow/Brothercross), Great Ellingham (Shropham), and Harpley (Freebridge-Lynn) entries sit in the later hundred-volumes.
 5. **Steven W. May's full 2005 article** through an academic library.
 6. **Lady Catherine Howard, Henry's godmother** — likely Catherine, daughter of the executed Earl of Surrey (later Countess of Berkeley). Worth resolving from MS Tanner 175.
 

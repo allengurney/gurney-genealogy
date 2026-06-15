@@ -34,6 +34,24 @@ The evidence does not prove the John Gurney-1 emigrant hypothesis. It does stren
 5. **Place evidence:** West Barsham, Harpley, and Norwich each preserve church, glass, or topographical heraldry references that connect the shield to actual family geography.[^west-barsham][^harpley][^norwich]
 6. **Image evidence:** the Daniel Gurney image extraction catalog already contains the key visual assets for pp. 279, 283, 284, 319, 321, 415, 418, 446, and 448.[^images]
 
+## Late-medieval gentry marriages — Calthorpe (1494) and L'Estrange (1505)
+
+Two contemporary wills place a Gurney, by marriage, inside the front rank of late-medieval Norfolk gentry in the G18–G20 window — reinforcing the marriage-network layer that the Heydon match at G18 already signals.
+
+**Sir William Calthorpe of Burnham Thorpe (d. 1494)** named a Gurney son-in-law among his executors. The Prerogative Court of Canterbury copy of his will abstracts as:
+
+> Sir William Calthorp, Knt — to be buried in the Church of the Whyte Friers in Norwich. Wife Dame Elizabeth. Cousin Philip. Sons, Francis, William, Edward; **Gurney and my dr [daughter] his wife**. Francis Hasilden and my dr his wife under 21. Robert Glore Esq. Walter Aslache Gent. Servant John Hasilden Esq. Dame Sibell Lowes. Master Richard Regill. (d: 31 May 1494. (P: 23 May 1495.)
+
+A daughter of Sir William Calthorpe — one of the great Norfolk knightly families of the period — had therefore married a Gurney before 1494, and that Gurney son-in-law was trusted enough to act as an executor (the Norwich Consistory copy adds him, with Walter Aslak, administering money for building the choir and presbytery at an abbey).[^calthorpe-1494]
+
+**Sir Roger L'Estrange of Hunstanton** (will proved 7 October 1505), directing burial in Hunstanton chancel, named a Gurnay among his sisters:
+
+> P.C.C. Adeane: 2. ROGER LESTRANGE Knt. to be buried in Hunstanton Chancel — sister Heydon, Mrs. Townsend, sister Ann, sister Margaret, **sister Gurnay**. (P: 7 Oct 1505.)
+
+A L'Estrange daughter had thus married a Gurnay by 1505 — a kinship distinct from the Gurney service relationship to the L'Estranges already documented in Daniel Gurney's printed Hunstanton household accounts.[^lestrange-1505]
+
+Both abstracts give the Gurney **surname only**, so the husband's forename is unresolved. The two marriages sit in the documented Gurney–Heydon–Calthorpe–L'Estrange–Townshend–Lovell cousinage that the G17 line's Lovell/Spelman/Conyers connections already run through; whether the Calthorpe and L'Estrange husbands are West Barsham direct-line Gurneys (G18 William Gurney V is here recorded married to Anne Heydon), their brothers, or near collaterals is the open question. Pulling the two full wills for the forenames is the resolving step (lead L-122).[^calthorpe-1494][^lestrange-1505]
+
 ## Recommendations
 
 - Build an arms-and-pedigree evidence register keyed by generation, evidence type, source, date, and image asset.
@@ -60,3 +78,5 @@ The heraldic material is strong enough to become a supporting architecture for G
 [^harpley]: `research/places/harpley.md`, especially the Harpley primary-source hooks and St Lawrence visible Gurnay memory section.
 [^norwich]: `research/places/norwich.md`, especially Gournay's Place and Norwich Cathedral cloister material.
 [^images]: `sources/corpus_images/daniel_gurney_extracts/30April2026/daniel_gurney_image_extract_v4_combined/part2_norfolk_line/catalog/daniel_gurney_part2_norfolk_line_image_catalog.md`.
+[^calthorpe-1494]: Will of Sir William Calthorpe, knight, of Burnham Thorpe, dated 31 May 1494, proved 23 May 1495, naming a Gurney son-in-law ("Son Gurney … and my dr his wife") executor; abstracted in *Norfolk wills extracts, 1370–1763* (Bradfer-Lawrence collection, typescript), at the Norwich Consistory Court register Wolman 1488–96, fol. 213 (FamilySearch film 008480297, image 489, [ark:/61903/3:1:3Q9M-C39V-FS5W-X](https://www.familysearch.org/ark:/61903/3:1:3Q9M-C39V-FS5W-X?view=fullText)) and the Prerogative Court of Canterbury register Vox, fol. 23 (image 490, [ark:/61903/3:1:3Q9M-C39V-FSPJ-W](https://www.familysearch.org/ark:/61903/3:1:3Q9M-C39V-FSPJ-W?view=fullText)). Page images: `sources/media/norfolk-wills-extracts-bradfer-lawrence/`. Source ID: `norfolk-wills-extracts-bradfer-lawrence`.
+[^lestrange-1505]: Will of Sir Roger L'Estrange, knight, of Hunstanton, proved 7 October 1505 (Prerogative Court of Canterbury register Adeane, fol. 2), naming "sister Gurnay" among his sisters; abstracted in *Norfolk wills extracts, 1370–1763* (Bradfer-Lawrence collection, typescript), FamilySearch film 008480295, image 251, [ark:/61903/3:1:3Q9M-C39V-KLZH](https://www.familysearch.org/ark:/61903/3:1:3Q9M-C39V-KLZH?view=fullText). Page image: `sources/media/norfolk-wills-extracts-bradfer-lawrence/`. Source ID: `norfolk-wills-extracts-bradfer-lawrence`.

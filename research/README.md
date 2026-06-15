@@ -7,6 +7,7 @@ Working knowledge: findings, extracts, analysis, negative results, and open ques
 - `places/` — place-memory narrative and analysis above the canonical place registry in `data/places.json` / `data/places_detail.json`.
 - `topics/` — cross-cutting analytical or methodological files that span multiple people, places, or sources.
 - `case-files/` — user-initiated in-depth publication artefacts (problem statements, biographies). A human determination; AI does not promote findings here without explicit direction.
+- `future-research/` — prioritized catalog of documented-but-unpursued leads (`research-leads.csv`) plus oversized single-subject lead inventories.
 - `log/` — short operational pointers to where substantive changes landed. Not a research-content layer.
 
 ## Destination guidance — where does a research finding live?

@@ -45,6 +45,7 @@ research/
   places/        one file per geographic locus, narrative above the data/places.json registry
   topics/        cross-cutting analytical or methodological files
   case-files/    user-initiated in-depth publication artefacts (problem statements, biographies)
+  future-research/  research-leads.csv master leads catalog + single-subject lead inventories
   log/           historical operational notes; not currently maintained
 sources/
   corpus/        full-text source extracts (text preferred over PDF)
@@ -90,6 +91,7 @@ Skills follow the Agent Skills open standard ([agentskills.io](https://agentskil
 | `familysearch-export-review/` | Phase 0 review of a FamilySearch Family Group Record PDF export against existing repo knowledge; produces an assessment MD as input to Phase 1. |
 | `familysearch-fulltext-research/` | Operational recipes for FamilySearch Full-Text Search: query syntax/URL parameters, DGS film constructs, full-resolution image download API (presigned S3 + TLS note), shadow-DOM extraction, failure modes. Read before any FTS task. |
 | `familysearch-tree-updates/` | Compose updates to push back to the FamilySearch tree based on repo findings. |
+| `paleography-analysis/` | Reusable paleographic image-analysis workflow: toolchain preflight, grid/crop/line-strip generation, enhancement sheets, transcription posture, and durable recognition notes. Read before manuscript transcription or paleographic crop work. |
 | `research-intake-prep/` | Phase 1 of intake — analyze a session, produce a repo-ready patchset at `sources/intake/processed/`. |
 | `research-intake-apply-patch/` | Phase 2 — apply a reviewed patchset mechanically. |
 | `research-intake-session-processor/` | Multi-entry intake-session helper. |

@@ -6,6 +6,12 @@ Research companion for `g17-anthony-gurney-fact-sheet.md`. See `.claude/rules/re
 
 ## Working Notes
 
+### 2026-06-13 — Anthony on the Surrey grand jury: the *Letters and Papers* indictment text
+
+The contemporary calendar confirms the family tradition that Anthony was foreman of the Norfolk grand jury that indicted Henry Howard, Earl of Surrey, for treason. *Letters and Papers, Foreign and Domestic, Henry VIII*, vol. 21 part 2, no. 697 (the indictment and trial record, 13 January 1547) lists the sixteen-man Norfolk jury empanelled at Norwich Castle on 7 January 1547 to find the true bill, opening: **"Anthony Gurney, William Brampton, John Berney, George Horsman, Ralph Shelton, Edmund Wode, Robert Rugge, William Rogers, Thomas Codde, Robert Lovedaie, Richard Sponer, William Drake, Thomas Aldriche, John Thetford, Thomas Hare and Henry Dengeyn."** Anthony Gurney heads the list — the first-named position that by convention identifies the foreman — corroborating Daniel Gurney's *Supplement* claim from the primary calendar; the calendar abstract itself lists the panel without printing the word "foreman," so the foremanship rests on that first-named convention rather than an explicit designation. The jury places Anthony in the front rank of mid-Tudor Norfolk gentry, returning a treason bill against the Duke of Norfolk's heir two weeks before Henry VIII's own death.[^anthony-lp-surrey-jury]
+
+[^anthony-lp-surrey-jury]: *Letters and Papers, Foreign and Domestic, of the Reign of Henry VIII*, vol. 21 part 2 (London: HMSO, 1910), no. 697 (indictment and trial of Henry Howard, Earl of Surrey, 13 Jan. 1547; Norfolk jury panel, m. 14), British History Online, [www.british-history.ac.uk/letters-papers-hen8/vol21/no2/pp362-378](https://www.british-history.ac.uk/letters-papers-hen8/vol21/no2/pp362-378). The jury opens "Anthony Gurney, William Brampton, John Berney …"; Anthony first-named (foreman by convention). Source ID: `letters-papers-henry-viii`.
+
 ### 2026-06-11 — Anthony's will found: made 6 December, proved 10 December 1557, Norwich
 
 **Anthony Gurney's will survives in the Norwich wills register, and it is transcribed in full** — "I Anthonie Gurney of greater Elingham in the countie of Norff Esquier," made 6 December 1557, proved at Norwich 10 December 1557. Full transcription at [`sources/corpus_supplement/ncc-will-1557-anthony-gurney-great-ellingham-transcription.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/ncc-will-1557-anthony-gurney-great-ellingham-transcription.md); page images at `sources/media/ncc-will-1557-anthony-gurney-great-ellingham/_local/`. The flagged result was supplied by Allen 2026-06-10; the transcription is an expert paleographic read, 2026-06-11.[^anthony-will-1557]
@@ -78,7 +84,7 @@ The 7 January 1546/7 indictment of Henry Howard, Earl of Surrey, is one of the g
 
 The Norfolk grand jury would have been drawn from the leading county gentry, and the foreman would have been by convention one of the senior gentlemen of the county. That Anthony Gurney sat in this role places him in the front rank of mid-Tudor Norfolk gentry — and the political weight of returning a treason indictment against the Duke of Norfolk's son and heir, two weeks before the king's own death, is hard to overstate. It would also have ended any prospect of continued Howard patronage of the Norfolk Gurneys for the rest of the 16th century.
 
-This needs further investigation in the State Papers of Henry VIII (Letters and Papers, Foreign and Domestic, vol. 21 part 2, December 1546 – January 1547). Modern Surrey biographies (W. A. Sessions 1999; Susan Brigden 2012) should also be checked for any mention of the Norfolk grand jury membership.
+The *Letters and Papers* indictment text has now been consulted (vol. 21 part 2, no. 697); it lists Anthony first among the sixteen Norfolk jurors — see the Working Notes entry above. The fuller setting remains in the State Papers (Letters and Papers, Foreign and Domestic, vol. 21 part 2, December 1546 – January 1547). Modern Surrey biographies (W. A. Sessions 1999; Susan Brigden 2012) should also be checked for any mention of the Norfolk grand jury membership.
 
 ### Sources Consulted
 **Primary topographical:**
@@ -100,10 +106,10 @@ This needs further investigation in the State Papers of Henry VIII (Letters and 
 - No portrait of Anthony is known to survive.
 - ~~No will of Anthony in the Norwich Consistory Court registers has yet been located.~~ **Found 2026-06-10/11** — will made 6 Dec. 1557, proved Norwich 10 Dec. 1557; see the will entry in Working Notes above.
 - No surviving funeral monument is recorded.
-- The Letters and Papers of Henry VIII have not been directly consulted for the January 1547 grand jury foreman role.
+- ~~The Letters and Papers of Henry VIII have not been directly consulted for the January 1547 grand jury foreman role.~~ **Consulted 2026-06-13** — vol. 21 pt 2, no. 697 lists Anthony Gurney first among the sixteen-man Norfolk grand jury; see Working Notes.
 
 ### Open Questions for Future Research
-1. **State Papers / Letters and Papers, Foreign and Domestic, Henry VIII vol. 21 part 2** — direct consultation for the 7 January 1546/7 grand jury composition.
+1. **State Papers / Letters and Papers, Foreign and Domestic, Henry VIII vol. 21 part 2** — RESOLVED 2026-06-13 — no. 697 lists the sixteen-man Norfolk jury (Anthony Gurney first); see Working Notes. Remaining: modern Surrey biographies (Sessions 1999; Brigden 2012) for any narrative on the jury's selection.
 2. **Norwich Consistory Court probate registers — resolved.** Anthony's will found and transcribed (made 6 Dec. 1557, proved 10 Dec. 1557); see Working Notes. Remaining sub-questions: reconcile the December 1557 death with Blomefield's 4 January 1555/6; identify the grandchildren (whose children?) and the absent Henry G15; identify Robert Notary, esquire.
 3. **The Lestrange of Hunstanton archive** at the Norfolk Record Office — additional unpublished references to Anthony in the 1519–1578 accounts beyond what Daniel Gurney printed in <em>Archaeologia</em>.
 4. **Sir Henry Spelman's surviving correspondence** at the Bodleian and the British Library — any reference to his Gurney cousins?

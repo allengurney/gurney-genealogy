@@ -2274,6 +2274,17 @@
       "validationPath": "sources/validations/familysearch-fulltext-search.md",
       "notes": "Keyword search across AI-transcribed images. 2026-05-29 'Francis Gurnay' pass corroborated Francis Gurney of Maldon (Maldon borough Employment/freemen 1661-1688 'merchant and salt refiner, born in London'; Account Records 1624-1678; Court Records) and surfaced Burke's Landed Gentry 1858 Gurney pedigree plus three FamilySearch-Center-restricted records (Kent Probate 1633-36; St Peter le Poer w/ St Benet Fink Poor Rate; Norfolk History Records 1701, 1825). Machine transcriptions; verify against the image before quoting."
     },
+    "norfolk-wills-extracts-bradfer-lawrence": {
+      "shortTitle": "Norfolk wills extracts, 1370-1763 (Bradfer-Lawrence)",
+      "citation": "Norfolk wills extracts, 1370-1763, from the Bradfer-Lawrence collection (typescript abstracts of Norfolk Record Office wills; GSU microfilm, 6 reels). FamilySearch catalog koha:1056823; surname-ordered DGS films 008100792, 008480297, 008176838, 008480296, 008085264, 008480295.",
+      "archive": "Norfolk Record Office (originals); FamilySearch International (GSU microfilm / Full-Text Search)",
+      "url": "https://www.familysearch.org/search/catalog/koha:1056823",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": "sources/media/norfolk-wills-extracts-bradfer-lawrence/",
+      "validationPath": "sources/validations/norfolk-wills-extracts-bradfer-lawrence.md",
+      "notes": "Typed will-abstract series; clean OCR (unlike manuscript registers). Each entry abstracts one will and cites its source register. Swept for Gurney variants 2026-06-13 (Gurn*/Gourn*/Gorn*, all reels except 008100792 which is not FTS-indexed). Distinct from the generic 'familysearch-fulltext-search' handle; the G17 companion's spilman-1524 and wymondham-1475 footnotes cite the same volume and may be re-aligned to this sourceId in a later cleanup."
+    },
     "may-henry-gurney-spenser-2005": {
       "shortTitle": "May, Henry Gurney reads Spenser",
       "citation": "May, Steven W. \"Henry Gurney, A Norfolk Farmer, Reads Spenser and Others.\" Spenser Studies: A Renaissance Poetry Annual, vol. 20 (2005), pp. 183-223.",
@@ -2868,16 +2879,38 @@
       "validationPath": "sources/validations/walker-lancastrian-affinity-1361-1399.md",
       "notes": "Standard study of John of Gaunt's affinity. Used 2026-05-30 (n.19) for the East Anglian legal-administrative retainer cohort: Edmund Gournay (G23) 'the principal legal adviser to the burgesses of Lynn' and a fee-taker from the abbey of St Benet's Holme, bracketed with John Winter (Wynter), Robert Cayley, Thomas Pinchbeck, John Methwold, Edmund Clippesby. Walker's note cites Staffordshire RO D.641/1/2/4 m.4; TNA E.403/478 m.16; HMC MSS of the Corporations of Southampton and King's Lynn (1887) pp.221-2; CPR 1381-5 p.380; KB 9/166/1 m.69 (lead L-77). Text consulted 2026-05-30 via a digital reproduction of the affinity prosopography; the underlying authority is Walker."
     },
+    "alumni-cantabrigienses-venn": {
+      "shortTitle": "Alumni Cantabrigienses (Venn) — ACAD database",
+      "citation": "John Venn and J. A. Venn (comps.), Alumni Cantabrigienses: A Biographical List of All Known Students, Graduates and Holders of Office at the University of Cambridge, from the Earliest Times to 1900 (Cambridge: Cambridge University Press, 1922-1954); consulted via the online ACAD database (A Cambridge Alumni Database).",
+      "archive": "University of Cambridge (ACAD online); Cambridge University Press (print)",
+      "url": "https://venn.lib.cam.ac.uk/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/alumni-cantabrigienses-venn.md",
+      "notes": "Compiled Cambridge alumni authority. Cited for the entry on Edmund Gurney the Divine (son of Henry Gurney G15): Queens' adm. 1594 / matric. 1595, BA 1598/9, MA Corpus Christi 1602, BD 1609, ord. deacon Ely 18 Dec 1608, priest Norwich 1614, R. Edgefield 1614-20, R. Harpley 1620-48, bur. St Peter Mancroft 14 May 1648. A compiled register, not a primary record; it adjudicates the DNB/Harpley date splits and confirms the ordination dates."
+    },
+    "letters-papers-henry-viii": {
+      "shortTitle": "Letters and Papers, Foreign and Domestic, Henry VIII",
+      "citation": "Letters and Papers, Foreign and Domestic, of the Reign of Henry VIII, ed. J. S. Brewer, James Gairdner and R. H. Brodie, 21 vols. and addenda (London: HMSO, 1862-1932). Calendar of state papers; cite by volume, part, and entry number.",
+      "archive": "British History Online (full calendar text); The National Archives (originals)",
+      "url": "https://www.british-history.ac.uk/letters-papers-hen8",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/letters-papers-henry-viii.md",
+      "notes": "Calendar/abstract of the Henry VIII state papers (distinguish the abstract from the original instrument). Cited so far for vol. 21 pt 2 no. 697 (the indictment and trial of Henry Howard, Earl of Surrey, 13 Jan. 1547), whose sixteen-man Norfolk grand-jury panel opens with Anthony Gurney (G17) — corroborating Daniel Gurney's foreman claim. Read via British History Online 2026-06-13."
+    },
     "hop-berney": {
       "shortTitle": "History of Parliament — Berney, Sir Robert (c.1365-1415)",
-      "citation": "\"BERNEY, Sir Robert (c.1365-1415), of Reedham and Gunton, Norf.,\" in J. S. Roskell, L. Clark and C. Rawcliffe (eds.), The History of Parliament: The House of Commons 1386-1421 (1993), History of Parliament Online.",
+      "citation": "\"BERNEY, Sir Robert (bef.1365-1415), of Great Witchingham and Gunton, Norf.,\" in J. S. Roskell, L. Clark and C. Rawcliffe (eds.), The History of Parliament: The House of Commons 1386-1421 (1993), History of Parliament Online.",
       "archive": "History of Parliament Trust",
       "url": "https://www.historyofparliamentonline.org/volume/1386-1421/member/berney-sir-robert-1365-1415",
       "corpusStatus": "none",
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": "sources/validations/hop-berney.md",
-      "notes": "Berney-side corroboration, independent of hop-gurney, of John Gurney V's place in the Lancastrian Norfolk affinity: Berney and Gurney as fellow Norfolk shire knights 1399, Erpingham co-trustees, and parties to the Saxthorpe/Loundhall feoffee circle (Erpingham/Wynter/Berney/Shelton). Also bears on whether the 'Sir Robert Gurney of Gunton, deputy at Dover 1400' phrasing is in fact Sir Robert Berney of Gunton. Full page text not yet captured (leads L-78, L-79)."
+      "notes": "Berney-side corroboration, independent of hop-gurney, of John Gurney V's place in the Lancastrian Norfolk affinity: Berney and Gurney as fellow Norfolk shire knights 1399, Erpingham co-trustees, and parties to the Saxthorpe/Loundhall feoffee circle (Erpingham/Wynter/Berney/Shelton). Page text captured 2026-06-13: confirms John Gurney V as Berney's fellow shire knight of 1399 and co-trustee of Erpingham's lands, and identifies the 'Sir Robert of Gunton, deputy at Dover 1400' as Berney (deputy to Erpingham at Dover c. May 1400 to March 1406), not a Gurney."
     },
     "trevor-john-erpingham-1970": {
       "shortTitle": "Trevor John, 'Sir Thomas Erpingham, East Anglian Society and the Dynastic Revolution of 1399' (1970)",

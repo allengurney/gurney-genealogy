@@ -27,7 +27,8 @@ For each intake entry:
 5. Decide one outcome per item: `promote` or `reject`. (No `hold-review`; see `sources.md`.)
 6. Determine the destination(s) for the finding. Multi-destination is normal — see `research/README.md` and `sources/README.md`.
 7. Reconcile an existing `sourceId` or propose a new compliant one per `data-json.md`.
-8. Use the current `sources/intake/processed/stub-vNN.md` as the next patchset number; rename it to `vNN-topic.patchset.md`; immediately create `stub-v(NN+1).md`.
+8. Register any newly surfaced, unpursued lead in `research/future-research/research-leads.csv` with the next free `L-` id, instead of leaving it only in patchset prose.
+9. Use the current `sources/intake/processed/stub-vNN.md` as the next patchset number; rename it to `vNN-topic.patchset.md`; immediately create `stub-v(NN+1).md`.
 
 ## Patchset-prep checklist (run before finalizing the patchset)
 - [ ] Did I check `sources/corpus_supplement/` and `sources/media/` for already-captured content?
@@ -35,6 +36,7 @@ For each intake entry:
 - [ ] For every new file, did I write an explicit `new file write` action with the full content body?
 - [ ] Does every quoted extract over ~150 words have a `sources/corpus_supplement/{slug}.md` file write action (not just a quote inside the patchset)?
 - [ ] Does every new `sourceId` have either a `sources/validations/{sourceId}.md` file write action or a brief justification for skipping?
+- [ ] Did I append every new unpursued research lead to `research/future-research/research-leads.csv` with `Online` set to `Y`, `Part`, `N`, or `Unk`?
 - [ ] Are all item outcomes `promote` or `reject` — no `hold-review`, no conditional language inside item bodies?
 - [ ] Is the patchset's context-to-action proportion within the ~1:2 to ~1:3 band? (Soft check; varies by patchset type.)
 - [ ] If a research arc spans 2-3 turns, am I bundling into one patchset rather than drafting prematurely?

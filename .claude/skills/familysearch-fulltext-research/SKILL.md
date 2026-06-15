@@ -83,6 +83,8 @@ The deepzoom tile URLs visible in the viewer (`.../deepzoomcloud/dz/v1/apid:TH-.
 
 ## 4. Paleography staging convention
 
+For crop generation, enhancement sheets, transcription posture, and durable handwriting lessons, also read `.claude/skills/paleography-analysis/SKILL.md`.
+
 For images needing expert transcription: stage under `sources/intake/paleography-staging/` — full-res JPGs in `images/`, one README with a TOC and per-packet briefs (citation + ark links, the machine-transcript snippet as a finding aid, position-targeting hints from §2, and the specific questions to answer). Results come back as `packet-NN-*.md` files in the same directory and are integrated into research companions.
 
 **Disposition when a batch completes** (treat `sources/intake/done/` as a recycle bin — nothing referenced long-term may live only there): packet reports → `sources/corpus_supplement/paleo-<YYYY-MM>-packet-NN-<slug>.md`; master images → `sources/media/<record-set-slug>/_local/` with a committed `README.md` stub per folder (filenames, FamilySearch-terms reason, retrieval arks); diagnostic crops (derivative, regenerable) → `sources/media/_local/<batch-slug>-working-crops/`; the briefs README → a dated folder under `sources/intake/done/`; then fix every repo reference from the staging paths to the durable ones (grep `paleography-staging`). Precedent: the 2026-06 batch (`paleo-2026-06-packet-01..09`).
@@ -91,20 +93,82 @@ For images needing expert transcription: stage under `sources/intake/paleography
 
 Full catalogue with examples in `sources/validations/familysearch-fulltext-search.md`. Headlines: Latin court hand transcribes as word salad (thin hit counts ≠ absence); lookalike names are systematic (*Jernegan*→"Gurney" at Costessey, *Atturney*→"At-Gurney", place-name *Gurnet's Nose*; real distinct surnames Gurnell/Garnsey/Garner ride the wildcards); card year-lists mix document dates with stray numbers; never promote a forename or kinship from a Latin-entry transcript without an image read.
 
+**Dictionary-snapped OCR + local surname populations (calibrated 2026-06-13).** These collections' handwriting OCR is **name-dictionary-aided**, so a poorly-read surname snaps to the nearest *dictionary* surname — one manuscript "Gurney" sprays across `Gorney/Gorne/Gorner/Gurnee/Gornesly/Gorness/Gorneses` on a single page. Two consequences for building a term set:
+- **Include snap-targets that are NOT an established surname in that geography** (Norfolk has no "Gorney" family, so `Gorn*` safely recovers mangled Gurneys) and **exclude snap-targets that have their own local population** (`Garn*` → the real Garner/Garnett family; this is why the long-standing `Gurn*/Gourn*/Gorn*` set is well-tuned and `Garn*` swamps). The safe set is **geography-specific** — re-judge it per county.
+- **Disambiguate large same-surname populations before promoting.** In Norwich, most "Gurney" hits are the famous **Quaker banking Gurneys** (Hudson Gurney, John Gurney merchant, "May Gurney & Co"), a family distinct from the West Barsham gentry line — so a Norwich hit is *more* likely them than the target line. Use period/parish to separate (the Quaker line rises in the later 17th c.).
+
+**Read the whole transcript for context, don't binary-match the surname.** The match string alone (`Gurney`) is a weak signal in salad; mine each hit's full `content.textDocument` for buried **place names, forenames, and associated families** (`+Barsham|Ellingham|Harpley|… | Lovell|Spelman|Calthorpe|Lestrange|…`) to judge relevance. This both rescues relevance the surname alone misses **and** exposes false positives a binary place-match would mis-promote (e.g. "Gornsey" = *Guernsey*, not Gurney; "Hardingham" as a juror's **surname**, not the manor). Yield tracks OCR quality: context-mining rescues **clean printed** calendars/indexes but rarely manuscript salad — and a "1910 deeds" film can in fact be a clean-OCR medieval–Tudor deeds *calendar* worth a full sweep (DGS 004389182).
+
 ## See also
 - `sources/validations/familysearch-fulltext-search.md` — content-reliability notes and false-positive catalogue
 - `research/people/g13-john-gurney-fact-sheet.research.md` — campaign session entries (worked examples of every technique above)
 - `.claude/skills/familysearch-export-review/SKILL.md`, `.claude/skills/familysearch-tree-updates/SKILL.md` — the tree/export-side FamilySearch skills
 
-## Appendix: Codex access notes
+## Appendix: Codex-specific access notes
 
-Codex can use the same authenticated-browser strategy, but the mechanics differ from Claude's browser tooling:
+Use this as the standard Codex path for FamilySearch browser work. Start here; do not spend time trying to attach to an arbitrary existing Chrome window unless the user has explicitly already opened a remote-debug Chrome.
 
-- If a user says Chrome remote debugging is enabled, first probe `http://127.0.0.1:<port>/json/version`. A listening port that returns `404` for `/json/version` and `/json/list` is not a usable DevTools endpoint; do not keep retrying CDP against it.
-- A reliable fallback is a separate temporary Chrome profile, e.g. launch Chrome with `--remote-debugging-port=9223 --user-data-dir=%TEMP%\codex-familysearch-chrome-profile`, then have the user sign into FamilySearch in that window. Chrome may open first-run or Google sync pages; open a FamilySearch tab directly and wait for user authentication.
-- In Codex `node_repl`, attach with Playwright CDP (`chromium.connectOverCDP("http://127.0.0.1:9223")`) and run the recursive shadow-DOM text walker inside `page.evaluate`.
-- The Codex Node bridge may fail writing directly into the OneDrive checkout with `EPERM`. If so, write captures under `nodeRepl.tmpDir`, then copy the completed files into the repo with PowerShell.
-- In restricted-network sessions, Node/Playwright API requests to presigned S3 image URLs may fail with `EACCES`, even though the browser can expose the URL. Retrieve the presigned URL from CDP network events, then download it with PowerShell `Invoke-WebRequest` after setting TLS 1.2 if needed.
-- Do not keep signed S3 URL manifests as durable artefacts; the tokens expire and are sensitive-ish noise. Keep the downloaded JPGs plus ARK, DGS, image number, and citation in markdown/JSON manifests.
-- For neighbor pages, if Previous/Next buttons are not exposed in Codex automation, the standard viewer's grid buttons such as `Go to image 339` can be clicked to obtain the neighboring ARK.
-- Chunk long extraction runs and checkpoint after each record or small batch. Broad DGS sweeps can hit tool timeouts before any result is returned.
+### Default access procedure
+
+1. Launch a dedicated Chrome profile on the default Codex port (`9223`) from PowerShell:
+
+```powershell
+$chrome = "$env:LOCALAPPDATA\Google\Chrome\Application\chrome.exe"
+$profile = Join-Path $env:TEMP "codex-familysearch-chrome-profile"
+Start-Process -FilePath $chrome -ArgumentList "--remote-debugging-port=9223 --user-data-dir=`"$profile`" --no-first-run --new-window https://www.familysearch.org/en/search/full-text"
+```
+
+2. Have the user sign into FamilySearch in that visible Chrome window. If Chrome opens a first-run or Google-sync page, open the FamilySearch URL in the same window and continue there.
+3. Verify the DevTools endpoint before any CDP work:
+
+```powershell
+Invoke-RestMethod http://127.0.0.1:9223/json/version
+Invoke-RestMethod http://127.0.0.1:9223/json/list
+```
+
+The endpoint is usable only if `/json/version` returns browser metadata. A visible Chrome window is not evidence of a usable DevTools listener.
+
+4. In Codex `node_repl`, attach with Playwright CDP:
+
+```js
+const { chromium } = await import("playwright");
+const browser = await chromium.connectOverCDP("http://127.0.0.1:9223");
+const context = browser.contexts()[0];
+const page = context.pages().find(p => p.url().includes("familysearch.org")) || context.pages()[0];
+```
+
+5. Run FamilySearch reads inside that authenticated page: use the recursive shadow-DOM walker from this skill for page text, use the JSON FTS endpoint with `credentials:'include'` for batch probes, and extract the transcript before opening the Information tab.
+
+### Bounded recovery
+
+- If `/json/version` or `/json/list` returns `404`, the port is not a DevTools endpoint. Do not retry CDP. Relaunch once with a fresh profile and port `9224`; if that also fails, stop and report the access problem.
+- If port `9223` is occupied, check `/json/version`. If it is usable, attach to it; if not, use `9224` with profile folder `codex-familysearch-chrome-profile-9224`.
+- If `Start-Process` opens Chrome but no listener appears, keep the Chrome flags as one explicit argument string as shown above; do not split them into a PowerShell array for this workflow.
+- If the Node bridge cannot write into the OneDrive checkout (`EPERM`), write captures to `nodeRepl.tmpDir`, then copy completed files into the repo with PowerShell.
+
+### Image downloads
+
+1. Trigger the DAS request from the authenticated FamilySearch tab:
+
+```js
+await page.evaluate(ark => fetch(`https://www.familysearch.org/das/v2/${ark}/dist.jpg`, { credentials: "include" }).catch(() => null), "3:1:ARK-HERE");
+```
+
+Use the full `3:1:` ARK prefix; omitting it can return `404`.
+
+2. Capture the redirected presigned S3 `dist.jpg` URL from CDP network events.
+3. Download that S3 URL with PowerShell:
+
+```powershell
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+Invoke-WebRequest -Uri $signedUrl -OutFile $outFile
+```
+
+If PowerShell cannot download it, open the captured S3 URL in the CDP-connected Chrome with `page.goto(...)`, read `response.body()`, write the bytes under `nodeRepl.tmpDir`, then copy the finished JPG into the repo.
+
+Do not keep signed S3 URL manifests as durable artefacts; the tokens expire and are sensitive-ish noise. Keep downloaded JPGs plus ARK, DGS, image number, and citation. Before keeping duplicate `fullres` files, compare byte sizes with existing JPGs; the existing browser capture may already be the same DAS-resolution image.
+
+### Navigation and batching
+
+- For neighbor pages, prefer the standard viewer. If Previous/Next buttons are awkward in Codex automation, click grid buttons such as `Go to image 339` to obtain the neighboring ARK.
+- Chunk long extraction runs and checkpoint after each record or small batch. Broad DGS sweeps can time out before returning any usable result.

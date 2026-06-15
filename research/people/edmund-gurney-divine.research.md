@@ -18,6 +18,14 @@ This replacement incorporates the now-accessible DNB/Wikisource entry and the us
 
 The user-supplied Grokipedia capture has been reviewed as a tertiary source. It is useful because it retains much of the DNB structure and adds interpretive summaries of Edmund's anti-Catholic and anti-image arguments, but it also contains apparent errors or unsupported details, including a stray reference to **Happisburgh** instead of Edgefield and a conflicting Harpley patron reference to **Sir Robert Barker**. It should be catalogued, but not used as sole evidence for any contested point.[^grokipedia-capture]
 
+## 2026-06-13 — Venn/ACAD confirms the academic and ordination chronology
+
+The *Alumni Cantabrigienses* (ACAD/Venn) record for Edmund Gurney adjudicates the small date discrepancies between DNB and the Harpley rectors' register and independently confirms the ordination dates that previously rested only on the tertiary Grokipedia capture. The entry: admitted pensioner at Queens' College **30 October 1594** (matriculated 1595), **son of Henry Gurney of West Barsham, Norfolk** (= G15); **B.A. 1598/9**; fellow of Corpus Christi **1601-14**; **M.A. (Corpus Christi) 1602**; **B.D. 1609**; **ordained deacon (Ely) 18 December 1608** and **priest (Norwich) 1614**; rector of **Edgefield 1614-20** and **Harpley 1620-48**; buried St Peter Mancroft, Norwich, **14 May 1648**; "author of anti-Romanist treatises" and "one of Fuller's Worthies."[^acad-edmund]
+
+Two reconciliations follow. The B.A. reads **1598/9** (with the Harpley register), not DNB's "1600"; and the matriculation splits cleanly into admission (30 Oct 1594, DNB) and formal matriculation (1595, Harpley register), so the two registers were recording different steps rather than conflicting. The **deacon-1608 / priest-1614** dates — earlier carried only from Grokipedia and explicitly quarantined — are now confirmed from a compiled scholarly authority. The parentage line ("son of Henry Gurney of West Barsham") re-confirms Edmund's place as Henry G15's son and Francis G14's brother, independently of DNB and Daniel Gurney.
+
+[^acad-edmund]: *Alumni Cantabrigienses*, comp. John Venn and J. A. Venn, Part I (to 1751), s.v. "Gurney, Edmund"; consulted via the online ACAD database (A Cambridge Alumni Database), [venn.lib.cam.ac.uk](https://venn.lib.cam.ac.uk/), 2026-06-13. Fields: matric. pens. Queens' (adm. 1594:10:30, matric. 1595), son of Henry Gurney of West Barsham; B.A. 1598/9; M.A. Corpus Christi 1602; Fellow Corpus Christi 1601-14; B.D. 1609; ord. deacon (Ely) 1608:12:18, priest (Norwich) 1614; R. Edgefield 1614-20, R. Harpley 1620-48; bur. St Peter Mancroft, Norwich, 1648:05:14. Source ID: `alumni-cantabrigienses-venn`.
+
 ## Identity boundary
 
 This file concerns **Edmund Gurney / Gurnay (d. 1648), the Norfolk divine**, not Edmund Gurney (1847-1888), the psychical researcher. The identity is anchored by DNB, Daniel Gurney, Thoms/L'Estrange, and Edmund's own title pages.[^dnb-edmund][^dg-francis-pedigree][^thoms-identity][^gurnay-redivivus-folger]
@@ -48,6 +56,12 @@ Working facts:
 | Date | 1623 or 1624 | DNB has 1624; Harpley stone transcription has 1623 |
 | Location | Harpley, St Lawrence church | Harpley register says external south wall near priest's door |
 | Parentage | Apparently Edmund's son | DNB cautious; needs register / monument validation |
+
+## Edmund and Ellen Gurnay named in the 1643 Smith of Great Massingham will
+
+An independent contemporary record corroborates the wife's name Ellen and dates the couple alive together in 1643. The will of **William Smith, esquire, of Great Massingham** — the parish adjoining Harpley, where Edmund held the rectory — names, after Smith's own wife Martha and brother, "Edm: Gurnay" and "Ellen Gournay" as a paired couple. The will is dated 19 June 1643 and was proved 19 August 1645 (Norwich Consistory Court, 1644–5 register, fol. 215).[^smith-massingham-1643]
+
+The identification with Edmund Gurnay the divine (d. May 1648, rector of Harpley) and his wife Ellen is very probable rather than certain: the forename pair Edmund + Ellen matches the household DNB attests exactly, and Great Massingham lies about five miles from Harpley.[^dnb-edmund] If correct, the entry independently confirms the wife Ellen that DNB reports and newly places her alive in 1643 — the first dated sighting of her outside the DNB notice — alongside a documented tie to the Smith family of Great Massingham. A different Edmund Gurnay of the wider Norfolk family cannot be fully excluded without the will body, which would also fix the relationship in which the Gurnays are named.
 
 ## Education and academic career
 
@@ -206,8 +220,8 @@ No claim should be made that Edmund directly influenced John Gurney-1, assisted 
 
 ## Open questions and next checks
 
-1. **Cambridge Alumni / Venn check.** Confirm DNB's dates and Harpley's alternate dates through <em>Alumni Cantabrigienses</em> or Cambridge records.
-2. **CCEd / diocesan ordination records.** Verify deaconing date, priesting date, and any 1608/1614 discrepancy.
+1. ~~**Cambridge Alumni / Venn check.**~~ **Resolved 2026-06-13** — the ACAD/Venn entry confirms the chronology and adjudicates the DNB/Harpley date splits (B.A. 1598/9; adm. 1594 / matric. 1595); see the Venn/ACAD section above.
+2. **CCEd / diocesan ordination records.** ACAD now supplies the ordination dates (deacon Ely 18 Dec 1608; priest Norwich 1614), confirming the formerly Grokipedia-only dates. A direct CCEd or Ely/Norwich diocesan-register pull would add the patron and document references but is confirmatory.
 3. **Edgefield institution record.** Confirm patron Richard Stubbe and exact institution date.
 4. **Harpley institution record.** Confirm patron Sir William Yelverton and exact institution date.
 5. **St Peter Mancroft burial register.** Verify 14 May 1648 burial entry.
@@ -257,3 +271,5 @@ No claim should be made that Edmund directly influenced John Gurney-1, assisted 
 [^folger-second-commandment]: Edmund Gurnay, <em>Toward the vindication of the Second Commandment: by Edm. Gurnay, Bachelour in Divinity, and minister of Gods word at Harpley in Norfolk</em> (Cambridge, 1639; 1661 republication). 1661 republication full-page scan at Internet Archive, [https://archive.org/details/bim_early-english-books-1641-1700_toward-the-vindication-o_gurnay-edmund_1661](https://archive.org/details/bim_early-english-books-1641-1700_toward-the-vindication-o_gurnay-edmund_1661); Folger Shakespeare Library catalog record for the 1639 first edition (secondary bibliographic control), [https://catalog.folger.edu/record/159994](https://catalog.folger.edu/record/159994). Source ID: `folger-second-commandment-1639`.
 
 [^thoms-anecdote]: Thoms, ed., <em>Anecdotes and Traditions</em> (1839), p. 6, no. XI, "A Mathematician Defined," from L'Estrange no. 30, with Fuller's account of Edmond Gourney. [Internet Archive](https://archive.org/details/anecdotestraditi00thomrich/page/6/mode/1up). Source ID: `thoms-anecdotes-traditions-1839`.
+
+[^smith-massingham-1643]: Will of William Smith, esquire, of Great Massingham, Norfolk, dated 19 June 1643, proved 19 August 1645 (Norwich Consistory Court register 1644–5, fol. 215), naming "Edm: Gurnay" and "Ellen Gournay"; abstracted in <em>Norfolk wills extracts, 1370–1763</em> (Bradfer-Lawrence collection, typescript), FamilySearch film 008480295, image 41, [ark:/61903/3:1:3Q9M-C39V-K2LV](https://www.familysearch.org/ark:/61903/3:1:3Q9M-C39V-K2LV?view=fullText); page image `sources/media/norfolk-wills-extracts-bradfer-lawrence/smith-massingham-1643-img41.jpg`. Source ID: `norfolk-wills-extracts-bradfer-lawrence`.

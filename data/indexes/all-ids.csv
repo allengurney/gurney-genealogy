@@ -145,6 +145,7 @@ abington-vr-1850-vol1,source,"Abington Vital Records to 1850, vol. 1",data/sourc
 accessgenealogy-lysander-franklin-gurney,source,"AccessGenealogy, Lysander Franklin Gurney",data/sources.json
 actors-fund-of-america-history,source,Actors' Fund of America history (Wikipedia; NYU finding aid),data/sources.json
 actors-order-of-friendship-history,source,Actors' Order of Friendship (Oxford Reference),data/sources.json
+alumni-cantabrigienses-venn,source,Alumni Cantabrigienses (Venn) — ACAD database,data/sources.json
 american-biography-cyclopedia-v26-gurney-1926,source,"American Biography, vol. 26 - Gurney",data/sources.json
 ancestry-norfolk-1535-1812,source,"Ancestry / NRO, Norfolk Church of England Baptism, Marriages and Burials, 1535-1812",data/sources.json
 anderson-yvery-1742,source,"Anderson, Genealogical History of the House of Yvery",data/sources.json
@@ -317,6 +318,7 @@ keates-rohan-domesday,source,"Keates-Rohan, Domesday People",data/sources.json
 laslett-world-we-have-lost-1965,source,"Laslett, World We Have Lost",data/sources.json
 les-olim,source,Les Olim (French legal records),data/sources.json
 fairhaven-lester-obituary,source,"Lester Hayes Gurney Obituary (FairHaven, 2025)",data/sources.json
+letters-papers-henry-viii,source,"Letters and Papers, Foreign and Domestic, Henry VIII",data/sources.json
 liber-niger,source,Liber Niger Scaccarii,data/sources.json
 lma-st-augustine-watling-register-candidate-d-images,source,LMA St Augustine Watling Street register - Candidate D images,data/sources.json
 lma-st-giles-cripplegate-register-john-grone-1630,source,LMA St Giles Cripplegate - John Grone baptism (1630),data/sources.json
@@ -355,6 +357,7 @@ ny-war-1812-payroll-abstracts,source,New York War of 1812 militia payroll abstra
 nher-mnf9108-old-hall-great-ellingham,source,"NHER MNF9108 — Old Hall, Great Ellingham",data/sources.json
 nher-great-ellingham-parish-summary,source,NHER Parish Summary — Great Ellingham,data/sources.json
 nro-ncc-wills-registers,source,"Norfolk Record Office, NCC Will Registers",data/sources.json
+norfolk-wills-extracts-bradfer-lawrence,source,"Norfolk wills extracts, 1370-1763 (Bradfer-Lawrence)",data/sources.json
 norman-geo-archives76-commune-dossiers-2026,source,Norman geo overlay - Archives 76 commune dossiers,data/sources.json
 norman-geo-controlling-sources-2026,source,Norman geo overlay - controlling online sources,data/sources.json
 norman-geo-locator-criquiers-torchy-2026,source,Norman geo overlay - Criquiers and Torchy locators,data/sources.json
