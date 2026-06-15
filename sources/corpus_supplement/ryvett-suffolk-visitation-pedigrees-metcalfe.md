@@ -81,7 +81,7 @@ Archive: `visitationsofsuf00harvuoft`.
 - **Correction flag:** the printed Visitation states **Myrable [Mirabella] Ryvett married
   William Burd, Customer of London** — *not* Sir John Heydon of Baconsthorpe as asserted in
   the G14 fact sheet and John Gurney case file. The Rivett–Heydon leg of the cousinage claim
-  is therefore in conflict with the primary Visitation and needs reconciliation (lead L-128);
+  is therefore in conflict with the primary Visitation;
   the Gurney–Heydon tie via Anne Heydon m. William Gurney V is independent and unaffected.
 - The Rishangles branch's Margaret is **age 3 in 1612** (b. ≈1609) — too young to be Francis
   Gurney's 1611 bride; the Rattlesden, Bricet, and Stowmarket branches have no Margaret of

@@ -47,6 +47,9 @@ Matthew's documented activity is entirely English after this date (the 1217 Fine
 ### Rose de Burnham — the Warren-Burnham descent
 2026-04-18 — Blomefield's Harpley entry (vol. viii, pp. 452–459) should contain independent detail on how Harpley passed from the Burnhams to the Gurneys via Rose's marriage. This is flagged as a priority Blomefield extraction in the places file for Harpley.
 
+### Blomefield's Harpley — extracted (2026-06-14)
+Blomefield's Harpley account (vol. 8, pp. 452–459) independently confirms the acquisition and traces the full descent. William de Burnham granted the moiety of his fee to his brother Reginald, whose "only daughter and heir, Rose … was given in marriage by **Hameline Plantagenet, Earl Warren** … to **Matthew de Gurney**, who was lord in her right, about the 30th of Henry II"; a fine of 30 Henry II settled the manor on Matthew and his heirs, to hold by half a fee. The line then runs William de Gournay (son of Matthew) → John de Gournay (son of William, "with Sir Henry Hastings at the battle of Lewes" [1264], recovered the advowson 3 Edw. I, granted a fair 35 Edw. I) → John de Gournoy (nephew, son of Catherine, held 27–34 Edw. III) → Edmund de Gurnay (presented and "lord and patron" 1360) → John Gournay (presented 1387) → John Gournay, Esq. (died 9 Hen. IV; widow Alice held a court 10 Hen. IV). The Tudor exit: "Thomas Gurnay presented to the church in 1443, and William Gurnay, Esq. in 1485, and **Anthony Gurnay, in 1511, who, with Elizabeth his wife, was living in 1535, and soon after conveyed it to Sir John Allen, Knt.**" — after which the manor passed through Curson, Stubbs, Yelverton, and Walpole. Harpley church preserved a Gournay rector's gravestone, "Hic jacet corpus Joh'is de Gournay, quonda' rectoris et patroni hujus ecclesie" (John de Gournay, rector, died 6 Edw. III), and the church windows displayed the arms **"Gournay, argent, a cross ingrailed gules."** The rector list also gives "Edmund Gurnay, B.D., presented 1620" — Edmund Gurney the Divine (rector of Harpley 1620–48). This independently corroborates Daniel Gurney and Armstrong (1781) on the Matthew + Rose de Burnham acquisition, supplies the engrailed-cross arms as a Harpley-church witness (relevant to the American-arms question), and fixes the manor's departure from the family c. 1535.[^blomefield-harpley-1810]
+
 ---
 
 ## Landholdings
@@ -61,7 +64,7 @@ Matthew's documented activity is entirely English after this date (the 1217 Fine
 
 ## Open Questions
 
-1. **Blomefield's Harpley:** The Harpley entry (vol. viii, pp. 452–459) should document the Burnham-to-Gurney descent through Rose. Priority extraction.
+1. **Blomefield's Harpley:** ~~The Harpley entry (vol. viii, pp. 452–459) should document the Burnham-to-Gurney descent through Rose. Priority extraction.~~ **Done 2026-06-14** — extracted (see Working Notes "Blomefield's Harpley — extracted"): confirms the Rose de Burnham / Hameline Warenne acquisition, the full medieval-Tudor descent to Anthony Gurnay (1511) → Sir John Allen (c. 1535), the rector's gravestone, and the engrailed-cross window arms.
 2. **Harl. MSS. 970:** The Hardingham tithe grant — can the British Library digitized Harleian manuscripts be searched for this?
 3. **DG-I Appendix XLIX (p. 308):** The c. 1160 deed — what does it establish? Full transcription needed.
 4. **DG-I Appendix LIII:** Matthew v. Gilbert de Runhall plea — what was the outcome? Was this a successful defense of Runhall?
@@ -78,7 +81,7 @@ Matthew's documented activity is entirely English after this date (the 1217 Fine
 - DG-Supp, Note 109 (p. 780): Death date correction — Matthew living 1217, Fine Roll 2 Henry III. [DG-Supp]
 - DG-II, p. 310: Matthew reference (per citation audit — correct as DG-II). [DG-II]
 - Harl. MSS. 970 (*Vitis Calthorpiana*): Hardingham tithe grant. Cited via DG. [Harl-970]
-- Blomefield, *History of Norfolk* (Harpley entry, vol. viii, pp. 452–459). Not yet extracted. [Blomefield]
+- Blomefield, *History of Norfolk* (Harpley entry, vol. viii, pp. 452–459). Extracted 2026-06-14: Rose de Burnham/Hameline Warenne acquisition; full medieval–Tudor manorial descent to Anthony Gurnay (1511) → Sir John Allen (c. 1535); rector's gravestone of John de Gournay; engrailed-cross window arms; Edmund Gurnay B.D. presented rector 1620. Source ID: `blomefield-norfolk`. [Blomefield]
 - Anderson, James, *Genealogical History of the House of Yvery*, Vol. II (London, 1742), p. 478: brief aside on Norfolk Gournays with a different pedigree from DG. Matthew placed "in the Time of Henry the First" with sons Thomas and William — does not match DG's more detailed and better-sourced Walter→William→Matthew sequence. [Anderson-Yvery]
 - *Supplément aux recherches historiques sur la ville de Gournay-en-Bray* (1844): examined. Primarily local town history; confirms Daniel Gurney as a subscriber (establishing 1840s transatlantic scholarly communication). No specific content on the Norfolk junior branch. [Gournay-1844]
 
@@ -107,3 +110,5 @@ Matthew's documented activity is entirely English after this date (the 1217 Fine
 Mostyn John Armstrong, *The History and Antiquities of the County of Norfolk*, vol. 5 (Norwich, 1781), Gallow Hundred entry for West Barsham, opens its Harpley-rooted Gurney pedigree skeleton with "Matthew de Gourney lived in the reign of Henry II. and married Rose, daughter and heir of Reginald de Burnham." This is Armstrong's eighteenth-century printed witness to the Matthew + Rose de Burnham marriage already independently attested by Daniel Gurney *Record* (1848) pedigree p. 286 and Blomefield's Harpley entry. Useful as a third corroborating citation; no new fact.[^v71-armstrong-matthew-rose]
 
 [^v71-armstrong-matthew-rose]: Mostyn John Armstrong, *The History and Antiquities of the County of Norfolk*, vol. 5 (Norwich, 1781), Gallow Hundred, West Barsham pedigree-skeleton paragraph. Internet Archive item `bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_5`. Source ID: `armstrong-norfolk-1781`.
+
+[^blomefield-harpley-1810]: Francis Blomefield, *An Essay Towards a Topographical History of the County of Norfolk*, vol. 8 (Freebridge Hundred and Half: "Harpley"), pp. 452–459, via British History Online (https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459); read 2026-06-14. Source ID: `blomefield-norfolk`.

@@ -254,6 +254,8 @@ findmypast-hertfordshire-baptisms,source,Findmypast Hertfordshire Baptisms,data/
 findmypast-hertfordshire-burials,source,Findmypast Hertfordshire Burials,data/sources.json
 findmypast-john-gurney-2026may-supplementary-same-name-sweep,source,"Findmypast John Gurney same-name sweep, 12 May 2026 raw batch",data/sources.json
 findmypast-bury-st-edmunds-st-mary-gurney-burials-1653-1656,source,Findmypast National Burial Index - Bury St Edmunds St Mary Gurney burials 1653-1656,data/sources.json
+findmypast-norfolk-banns-marriages-index,source,FindMyPast Norfolk Banns and Marriages index,data/sources.json
+findmypast-norfolk-baptisms-index,source,FindMyPast Norfolk Baptisms index,data/sources.json
 findmypast-norfolk-burials-index,source,Findmypast Norfolk Burials index,data/sources.json
 findmypast-uk-parish-baptisms,source,Findmypast UK Parish Baptisms,data/sources.json
 fischer-albions-seed-1989,source,"Fischer, Albion's Seed",data/sources.json
@@ -358,6 +360,7 @@ nher-mnf9108-old-hall-great-ellingham,source,"NHER MNF9108 — Old Hall, Great E
 nher-great-ellingham-parish-summary,source,NHER Parish Summary — Great Ellingham,data/sources.json
 nro-ncc-wills-registers,source,"Norfolk Record Office, NCC Will Registers",data/sources.json
 norfolk-wills-extracts-bradfer-lawrence,source,"Norfolk wills extracts, 1370-1763 (Bradfer-Lawrence)",data/sources.json
+norfolk-wills-probate-index-1371-1858,source,"Norfolk wills/probate index, 1371-1858",data/sources.json
 norman-geo-archives76-commune-dossiers-2026,source,Norman geo overlay - Archives 76 commune dossiers,data/sources.json
 norman-geo-controlling-sources-2026,source,Norman geo overlay - controlling online sources,data/sources.json
 norman-geo-locator-criquiers-torchy-2026,source,Norman geo overlay - Criquiers and Torchy locators,data/sources.json

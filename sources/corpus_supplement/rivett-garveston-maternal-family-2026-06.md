@@ -25,8 +25,8 @@ Captured from authenticated FindMyPast, Ancestry, and FamilySearch sessions, Jun
   (v/b, single/double t); see the marriage index entry below. The Garveston family spells
   itself **Rivet**.
 
-Status: **Probable, not proven** — this is an index-level christening (parish-register
-derived; mother not named). Confirming pulls: Francis Rivet of Garveston's will; the
+This is an index-level christening (parish-register derived; the mother is not named in the
+index). Primary documents bearing on the family: Francis Rivet of Garveston's will; the
 Garveston parish-register image for the 1586 entry and a c.1616–17 burial; the 1584
 Margaret Bate Rivett will (below).
 
@@ -61,9 +61,8 @@ Helen Rivett married there 8 July 1652; Sarah Rivett died ≈1652.[^anc-garvesto
 **"Rivett, Margaret Bate," death 1584, Garveston, Norfolk** — an entry in the Norfolk wills /
 probate index (and UK extracted probate records).[^probate-index] Predating the 1586
 baptism, she is the likely **namesake** of Margaret Rivet (1586); "Bate" reads as a maiden
-name (a Bate–Rivett marriage). The will, if pulled, should name the family head and tie
-Francis Rivet into the household. Garveston probate is the most direct unpulled lead to
-Margaret's grandparents' generation.
+name (a Bate–Rivett marriage). The will would name the family head and tie
+Francis Rivet into the household, reaching Margaret's grandparents' generation.
 
 ## The 1611 marriage as indexed
 
@@ -114,8 +113,7 @@ wife Faith's surname remain to be pulled.
   (father George, mother Maria/Alice).[^anc-garveston]
 - **Richard Gurney & wife Margaret, Carleton St Peter, 1595** (son Thomas).[^anc-garveston]
 - **Edward Gurney, son William baptized East Dereham 1595** — an Edward Gurney at East
-  Dereham predating Francis G14's residence there (bears on the East Dereham Gurney copyhold
-  puzzle, lead L-98).[^anc-garveston]
+  Dereham predating Francis G14's residence there.[^anc-garveston]
 
 ## Method note (reusable)
 

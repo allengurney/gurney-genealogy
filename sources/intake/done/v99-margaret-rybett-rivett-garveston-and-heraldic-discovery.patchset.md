@@ -1,3 +1,5 @@
+**Done:** 2026-06-15 07:53 PT
+
 # v99 — Margaret Rybett = Rivett of Garveston (maternal family of John G13) + heraldic/older-records discovery
 
 Phase-1 patchset bundling the June 2026 research arc across this session. **Headline (very
@@ -41,8 +43,8 @@ sweep across spellings found no in-window Margaret elsewhere and no Rivett famil
 city. "Rybett" was the 1611 clerk's one-off rendering (the family spells itself *Rivet*; the
 Suffolk gentry line *Ryvett*).[^fmpm]
 
-Status: **Probable, not proven** — an index-level christening (mother not named). The
-confirming pulls (lead L-124) are Francis Rivet of Garveston's will (a bequest to "daughter
+Status: **Possible, not proven** — an index-level christening (mother not named). The
+confirming pulls (lead L-128) are Francis Rivet of Garveston's will (a bequest to "daughter
 Margaret Gurney" or "son-in-law Francis Gurney" would be near-decisive), the Garveston
 parish-register image, and the 1584 Margaret Bate Rivett will.
 
@@ -72,7 +74,7 @@ the *Rivett* records above.
 Whether the mid-Norfolk Garveston/Gressenhall Rivetts are a cadet of the Suffolk gentry
 Ryvetts (Brandeston, Bricet, Rishangles, Rattlesden — see
 [`sources/corpus_supplement/ryvett-suffolk-visitation-pedigrees-metcalfe.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/ryvett-suffolk-visitation-pedigrees-metcalfe.md))
-or unconnected is unresolved (lead L-129). The Brandeston branch (John Ryvett × Ann Bacon)
+or unconnected is unresolved (lead L-133). The Brandeston branch (John Ryvett × Ann Bacon)
 has a daughter Margaret and a Gressenhall (Trench) marriage, but the Garveston Margaret is the
 stronger candidate for Francis Gurney's wife.
 
@@ -82,18 +84,18 @@ The G14 fact sheet and the John Gurney case file state that *Mirabella Ryvett ma
 Heydon of Baconsthorpe*, connecting the Rivetts to the Gurney–Heydon cousinage. The primary
 Visitation of Suffolk (Metcalfe, p. 63) instead records **Myrable Ryvett married William Burd,
 Customer of London**. The Rivett–Heydon leg is therefore in conflict with the primary source
-and should be reconciled/corrected (lead L-128); the Gurney–Heydon tie via Anne Heydon m.
+and should be reconciled/corrected (lead L-132); the Gurney–Heydon tie via Anne Heydon m.
 William Gurney V is independent and unaffected.
 
 ## Open questions / leads
 
-- L-124 (priority 95) — confirm Margaret = dau. of Francis Rivet of Garveston (Francis Rivet's
+- L-128 (priority 95) — confirm Margaret = dau. of Francis Rivet of Garveston (Francis Rivet's
   will; Garveston register image; 1584 Bate–Rivett will).
-- L-125 — map Francis Rivet's full child set (Margaret's siblings = John's maternal
+- L-129 — map Francis Rivet's full child set (Margaret's siblings = John's maternal
   aunts/uncles) and his wife.
-- L-126 — Richard Ryvett of Gressenhall's origin, wife Faith, and relation to the Garveston
+- L-130 — Richard Ryvett of Gressenhall's origin, wife Faith, and relation to the Garveston
   Rivetts.
-- L-127 — Margaret's burial c.1616–17 (Garveston/East Dereham register images).
+- L-131 — Margaret's burial c.1616–17 (Garveston/East Dereham register images).
 
 ## Crosslinks
 - Father of John: [`research/people/g14-francis-gurney-fact-sheet.research.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g14-francis-gurney-fact-sheet.research.md)
@@ -142,7 +144,7 @@ Gressenhall/Garveston. The Rivett records (Garveston christenings 1547–1620; t
 Bate Rivett probate; Richard Ryvett's 1602 Gressenhall marriage) are the actual evidence, and
 the Garveston family sits outside the FindMyPast Norfolk-FHS baptism index (a coverage gap),
 which is why it was missed before. Confirming pulls (Francis Rivet's will; Garveston register
-image; 1584 Bate–Rivett will) are lead L-124.
+image; 1584 Bate–Rivett will) are lead L-128.
 ```
 
 ---
@@ -171,7 +173,7 @@ where Francis then settled. Full treatment, evidence, and the controlling negati
 [`research/people/rivett-family-of-garveston.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/rivett-family-of-garveston.md);
 the marriage venue (St Martin at Palace) reflects neither family's baptismal parish in the
 indexes and is best read as a neutral Norwich church, not evidence of residence. Probable, not
-proven (lead L-124).
+proven (lead L-128).
 
 ### Lestrange household references
 
@@ -217,7 +219,7 @@ That notice strengthens the social setting already known from Daniel Gurney: Fra
   conflict: the Newton Flotman St Mary monument dates Ralph **†1541, aged 74** (b. ~1467),
   versus the Visitation's "ob. 1514" — almost certainly a 1514↔1541 digit transposition, with
   the tomb (primary) favouring 1541. This dates Constance's father, William Gurney of West
-  Barsham, to c. 1460–1500 (lead L-130).
+  Barsham, to c. 1460–1500 (lead L-134).
 
 ## Recommendations
 ```
@@ -302,7 +304,7 @@ New entries:
 - **Examined (June 2026):** surname Rivett at/near Garveston.
 - **Findings landed on:** `research/people/rivett-family-of-garveston.md`.
 - **Key entry:** Margaret Bate Rivett, probate 1584, Garveston.
-- **Unexamined:** the underlying NCC/Archdeaconry will texts (image/register level) — lead L-124.
+- **Unexamined:** the underlying NCC/Archdeaconry will texts (image/register level) — lead L-128.
 ```
 
 ---
@@ -336,13 +338,13 @@ L-123,40,Collateral,"Bradfer-Lawrence will-extracts — moderate Gurney mentions
 `new_string`:
 ```
 L-123,40,Collateral,"Bradfer-Lawrence will-extracts — moderate Gurney mentions","Norfolk wills extracts 1370-1763 (Bradfer-Lawrence; FamilySearch DGS 008176838, 008480296, 008480297)","Moderate one-line Gurney mentions from the will-extracts sweep to trace for kinship/line-relevance: 'sister Joan Gurney' (1606); 'brother John Gurney(s) of Kenton, Suffolk' executor (1514-17); 'Elizabeth Gournay' among a testator's sisters (1654); 'nephew Gourney Crowe' of East Bilney (1683, onomastic).",Y,"Promoted in draft patchset v96 2026-06-13 (logged as collateral sightings on great-ellingham.md); trace each for kinship",research/places/great-ellingham.md
-L-124,95,G13/G14,"Margaret Rybett parentage = Rivett of Garveston (TOP PRIORITY)","Will of Francis Rivet of Garveston (NCC/Archdeaconry of Norwich); Garveston parish register image; 1584 Margaret Bate Rivett will","Confirm the June-2026 identification: Margaret Rybett (wife of Francis G14, mother of John G13) = Margaret Rivet bp 21 May 1586 Garveston, dau of Francis Rivet. Francis Rivet's will naming 'daughter Margaret Gurney' or 'son-in-law Francis Gurney' would be near-proof; the Garveston register verifies the 1586 entry and may hold her c.1616-17 burial; the 1584 Bate-Rivett will fixes the family head.",Part,"Partial 2026-06-14 — identified at index level (fs-england-births-christenings); evidence dossier captured",research/people/rivett-family-of-garveston.md
-L-125,80,G13,"Francis Rivet of Garveston — full child set + wife","Garveston parish register / BT; FS-Ancestry IGI Births & Christenings","Map Francis Rivet of Garveston's complete children (Margaret's siblings = John G13's maternal aunts/uncles, the candidate foster-kin) and identify his wife (Margaret's mother). Index confirms Margaret 1586 and Grace 1603; >=2 Rivet households in the parish need register-level separation.",Y,Open,research/people/rivett-family-of-garveston.md
-L-126,65,G13/Related,"Richard Ryvett of Gressenhall","FMP Norfolk Banns & Marriages / Baptisms; Gressenhall register","Richard Ryvett m. Faith 1602 Gressenhall, dau Alice bp 1611 (~3mi from East Dereham); the documented 'Richard Ryvett of Gressenhall' = likely source of John G13's son Richard's name. Establish his origin, wife Faith's surname, and whether he was Margaret's brother/cousin.",Y,Open,research/people/rivett-family-of-garveston.md
-L-127,70,G13/G14,"Margaret (Gurney nee Rivett) burial c.1616-17","Garveston and East Dereham parish register images (NRO PD 86/41 + Garveston PD)","Locate Margaret's burial (~1616-17) to fix her death date and residence; not in the FMP Norfolk Burials index (image-level read needed). Bears on the John-stayed-with-maternal-kin timing.",Part,Open,research/people/rivett-family-of-garveston.md
-L-128,45,Related,"Mirabella Ryvett marriage conflict (published-claim correction)","Visitation of Suffolk (Metcalfe) p.63 vs G14 fact sheet & John Gurney case file","Primary Visitation: Myrable Ryvett m. William Burd, Customer of London. Fact sheet + case file assert Mirabella Ryvett m. Sir John Heydon of Baconsthorpe. Reconcile/correct the published Rivett-Heydon cousinage claim; the Gurney-Heydon tie via Anne Heydon m. William Gurney V is independent.",Y,Open,sources/corpus_supplement/ryvett-suffolk-visitation-pedigrees-metcalfe.md
-L-129,40,Related,"Suffolk Ryvett gentry vs Garveston Rivetts","Visitation of Suffolk (Metcalfe) pp.63,162-163; Muskett, Suffolk Manorial Families; Growse, History of Bildeston 1892","Test whether the mid-Norfolk Garveston/Gressenhall Rivetts are a cadet of the Suffolk gentry Ryvetts (Brandeston/Bricet/Rishangles/Rattlesden) or unconnected; the Brandeston line (John Ryvett x Ann Bacon) has a daughter Margaret and a Gressenhall (Trench) tie.",Y,Open,sources/corpus_supplement/ryvett-suffolk-visitation-pedigrees-metcalfe.md
-L-130,40,Heraldic,"Newton Flotman Blundeville monument — Constance Gurney + date conflict","St Mary Newton Flotman monument; Blomefield (Henstead hundred), British History Online","Confirm Constance Gurney (dau of William Gurney of West Barsham, G19) m. Ralph/Radulphus Blundeville; resolve the death-date conflict (tomb: Ralph d.1541 aged 74; Visitation: 'ob. 1514' — likely a 1514<->1541 transposition). Dates Constance's father to c.1460-1500.",Y,Open,sources/corpus_supplement/rye-visitacion-norffolk-1891-gurney-selected-pages.md
+L-128,95,G13/G14,"Margaret Rybett parentage = Rivett of Garveston (TOP PRIORITY)","Will of Francis Rivet of Garveston (NCC/Archdeaconry of Norwich); Garveston parish register image; 1584 Margaret Bate Rivett will","Confirm the June-2026 identification: Margaret Rybett (wife of Francis G14, mother of John G13) = Margaret Rivet bp 21 May 1586 Garveston, dau of Francis Rivet. Francis Rivet's will naming 'daughter Margaret Gurney' or 'son-in-law Francis Gurney' would be near-proof; the Garveston register verifies the 1586 entry and may hold her c.1616-17 burial; the 1584 Bate-Rivett will fixes the family head.",Part,"Partial 2026-06-14 — identified at index level (fs-england-births-christenings); evidence dossier captured",research/people/rivett-family-of-garveston.md
+L-129,80,G13,"Francis Rivet of Garveston — full child set + wife","Garveston parish register / BT; FS-Ancestry IGI Births & Christenings","Map Francis Rivet of Garveston's complete children (Margaret's siblings = John G13's maternal aunts/uncles, the candidate foster-kin) and identify his wife (Margaret's mother). Index confirms Margaret 1586 and Grace 1603; >=2 Rivet households in the parish need register-level separation.",Y,Open,research/people/rivett-family-of-garveston.md
+L-130,65,G13/Related,"Richard Ryvett of Gressenhall","FMP Norfolk Banns & Marriages / Baptisms; Gressenhall register","Richard Ryvett m. Faith 1602 Gressenhall, dau Alice bp 1611 (~3mi from East Dereham); the documented 'Richard Ryvett of Gressenhall' = likely source of John G13's son Richard's name. Establish his origin, wife Faith's surname, and whether he was Margaret's brother/cousin.",Y,Open,research/people/rivett-family-of-garveston.md
+L-131,70,G13/G14,"Margaret (Gurney nee Rivett) burial c.1616-17","Garveston and East Dereham parish register images (NRO PD 86/41 + Garveston PD)","Locate Margaret's burial (~1616-17) to fix her death date and residence; not in the FMP Norfolk Burials index (image-level read needed). Bears on the John-stayed-with-maternal-kin timing.",Part,Open,research/people/rivett-family-of-garveston.md
+L-132,45,Related,"Mirabella Ryvett marriage conflict (published-claim correction)","Visitation of Suffolk (Metcalfe) p.63 vs G14 fact sheet & John Gurney case file","Primary Visitation: Myrable Ryvett m. William Burd, Customer of London. Fact sheet + case file assert Mirabella Ryvett m. Sir John Heydon of Baconsthorpe. Reconcile/correct the published Rivett-Heydon cousinage claim; the Gurney-Heydon tie via Anne Heydon m. William Gurney V is independent.",Y,Open,sources/corpus_supplement/ryvett-suffolk-visitation-pedigrees-metcalfe.md
+L-133,40,Related,"Suffolk Ryvett gentry vs Garveston Rivetts","Visitation of Suffolk (Metcalfe) pp.63,162-163; Muskett, Suffolk Manorial Families; Growse, History of Bildeston 1892","Test whether the mid-Norfolk Garveston/Gressenhall Rivetts are a cadet of the Suffolk gentry Ryvetts (Brandeston/Bricet/Rishangles/Rattlesden) or unconnected; the Brandeston line (John Ryvett x Ann Bacon) has a daughter Margaret and a Gressenhall (Trench) tie.",Y,Open,sources/corpus_supplement/ryvett-suffolk-visitation-pedigrees-metcalfe.md
+L-134,40,Heraldic,"Newton Flotman Blundeville monument — Constance Gurney + date conflict","St Mary Newton Flotman monument; Blomefield (Henstead hundred), British History Online","Confirm Constance Gurney (dau of William Gurney of West Barsham, G19) m. Ralph/Radulphus Blundeville; resolve the death-date conflict (tomb: Ralph d.1541 aged 74; Visitation: 'ob. 1514' — likely a 1514<->1541 transposition). Dates Constance's father to c.1460-1500.",Y,Open,sources/corpus_supplement/rye-visitacion-norffolk-1891-gurney-selected-pages.md
 ```
 
 ---
@@ -375,5 +377,5 @@ folding into the familysearch-fulltext-research skill on a later pass. -->
 
 **Not done in this patchset (deliberately held):** no edits to the published G14 fact sheet or
 the John Gurney case file. The Mirabella Ryvett→Heydon correction and any promotion of the
-Margaret=Garveston identification to published narrative await user direction and the L-124
-confirming pulls (the identification is Probable, not proven). Logged as lead L-128.
+Margaret=Garveston identification to published narrative await user direction and the L-128
+confirming pulls (the identification is Possible, not proven). Logged as lead L-132.

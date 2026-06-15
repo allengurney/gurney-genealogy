@@ -1,3 +1,5 @@
+**Done:** 2026-06-15 07:53 PT
+
 # v98 — Blomefield Harpley + Gascon Rolls corroboration; NCC will-register 1624–1642 FTS discovery; leads + FTS-skill updates
 
 **Phase 1 patchset.** Covers the 2026-06-14 research thread: a web-leads round (Blomefield Harpley, Gascon Rolls, Burke, Rye) and three FamilySearch FTS rounds that swept the NCC Consistory will-register gap (1624–1651) and staged five paleography bundles (packets 13–17, 18 images, in `sources/intake/paleography-staging/`).

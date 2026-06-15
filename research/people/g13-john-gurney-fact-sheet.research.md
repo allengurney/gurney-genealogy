@@ -10,6 +10,14 @@ Standing facts are in AGENTS.md §6 (especially correction #6 on birth date, cor
 
 ## Working Notes
 
+### 2026-06-14 — NCC Consistory will-register gap (1624–1651) characterised; in-window Gurney sightings staged for paleography
+The Norwich Consistory Court registered-copy will registers for **1624–1637** (vols 119–130) — not previously mapped to FamilySearch image-group numbers — were resolved from the catalogue (record `koha:278818`) and swept for Gurn*/Gourn*/Gorn*, and the 1638–1651 volumes re-checked. Across the whole window the Consistory series carries **no Gurney testator of its own** beyond the already-known John Gurney of Earsham (will 1638, vol. 131–132 = DGS 008076858) — a useful bounding result: a humble Gurney testator in the emigrant's father's window is not in the Consistory registers, which redirects the search to the **Archdeaconry of Norwich** court (the lesser-estate jurisdiction; see leads). Three in-window Gurney *sightings* surfaced, each named inside another person's will and each a machine-transcript read with the full-resolution image staged for expert transcription:
+- **Clement Gurney, Gent** — a testator's will (NCC regd. wills 1631–32, vol. 124–125, DGS 008076514, [ark 3:1:3Q9M-CSN8-YRB3](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSN8-YRB3)) bequeaths a bond "bearing date the one and twentieth day of November Anno Dm 1622 … wherein [Clement] Gurne[y] Gent [was bound] … in the penal sum of forty pounds." A *gentleman* Gurney active c. 1622–31; the forename Clement is rare and recurs nowhere else in FamilySearch full-text before the 19th century, so this register page is its sole witness — image staged as paleography packet 16a for confirmation of the forename, the testator's identity, and any residence.
+- **John Gurney's house, Langley** — a 1634 will (NCC regd. wills vol. 127, DGS 008076861, [ark 3:1:3Q9M-CSND-T9KS-K](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSND-T9KS-K)) devising meadow "lying in Langley … next unto John Gurney's house," to the testator's son Robert Pagan after the death of Marion his wife. A John Gurney householder at/near Langley (south Norfolk, by Loddon) in 1634 — image staged as packet 16b.
+- **Ellingham poor-charity, 1630** — an original will of 1630 (DGS 008076513, [ark 3:1:3Q9M-CSN8-YF6X](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSN8-YF6X)) endowing the poor of Ellingham (the core Gurney locus); the Gurney surname token is low-confidence (likely OCR salad) — image staged as packet 16c for a read.
+
+Separately, the **1608 Norwich Consistory depositions** (DGS 004389252) carry several Gurney deponents whose depositions should state age, residence, and occupation — including a "Robertus Gurney," a Gurney styled "of London, yeoman" (1605), and a Gurney with a Suffolk tag — staged as paleography packet 14. Method note: the FamilySearch full-text JSON API caps a single request at ~100 results (count=300 returns empty); the 1624–37 register DGS map is recorded in the FamilySearch FTS skill.[^v98-ncc-window-fts]
+
 ### Colonial document follow-ups (2026-06-12/13) — Billerica re-grant, the Massachusetts "bill" and petition, Bury St Edmunds cleared
 
 Three colonial leads were run to ground at machine-transcript level; the full card tables and verbatim extracts are preserved durably in the corpus-supplement extracts cited below.
@@ -177,13 +185,24 @@ A pass through the high-priority, online-accessible G13-origin leads. The durabl
 [^l5-spelman-2026-05]: Provenance per Daniel Gurney, *The Record of the House of Gournay* (1848); Norfolk Record Office catalogue, "Miscellaneous MSS collections of Sir Henry Spelman" (MS 7197); University of Kansas, Kenneth Spencer Research Library, "Spelman-Macro miscellany" (MS E107); Folger Shakespeare Library "Macro Manuscripts" provenance notes; web research 2026-05-29. Discovery trail; the pedigree leaf's present shelfmark is unverified.
 [^l6-ncc-2026-05]: Edmund Gurney biography per *Dictionary of National Biography* (1885–1900), "Gurney, Edmund (d. 1648)"; NCC will-index availability per the Norfolk Record Society publications list and HathiTrust catalogue records for the Farrow/Barton indexes; FamilySearch Full-Text Search pass 2026-05-29. Source ID: `familysearch-fulltext-search`.
 
-### Ryvett-centric parishes - John living with maternal kin after Margaret's death
+### Maternal kin — Margaret's Rivett family of Garveston/Gressenhall (materially supported, June 2026)
 
-**Hypothesis.** Margaret Rybett, John's mother, died c.1616-1617. A son aged six to eight whose father was already engaged in commercial work between London and Norfolk might have been placed with maternal kin - particularly given the Ryvett/Rivett family's documented presence in parishes near East Dereham (Gressenhall, Garveston) and across Suffolk (Fritton, Rishangles, Rattlesden, Stowmarket, Bildeston). If so, indexed Gurney baptisms or burials in those Ryvett-centric parishes might surface in the 1610-1635 window.
+Margaret Rybett is now identified at index level as **Margaret Rivet, baptized 21 May 1586
+at Garveston, Norfolk, daughter of Francis Rivet** — full treatment and evidence on
+[`research/people/rivett-family-of-garveston.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/rivett-family-of-garveston.md).
+Garveston and Gressenhall both adjoin East Dereham (~3–4 miles), where Francis settled and
+John was born. This converts the long-held "John raised by local maternal kin" hypothesis
+from speculation into a materially supported reading: a motherless John (mother dead ~1616–17,
+father remarried and gone to London) had grandfather Francis Rivet and a wider Rivett family
+a few miles away, and **Richard Ryvett of Gressenhall** (m. Faith 1602; child 1611) supplies
+the documented source of John's son **Richard**'s name.
 
-**Negative search result.** A FamilySearch indexed-records pass for Gurney surname in Gressenhall and Garveston (Norfolk Ryvett-proximate parishes) returns no early-17th-century Gurney baptisms; the only Gressenhall Gurney records are 1881 census entries. A FamilySearch and Findmypast Buckinghamshire-style search for Suffolk Gurney baptisms 1600-1640 across the named Ryvett parishes returns no clean cluster - the surviving Rattlesden Gurney family is a post-1700 lineage unrelated to Margaret Rybett's family. The hypothesis is consistent with parish-coverage gaps but is not supported by surfaced indexed records. Held as speculation; not added to the case-file body.
-
-The Section 2.2 mention "Richard Ryvett of Gressenhall could be the source of John's son Richard's name" stands on its own as a naming-source hypothesis, not as evidence that John lived with the Ryvetts.
+The earlier negative here tested the wrong surname — it searched *Gurney* baptisms in
+Gressenhall/Garveston. The Rivett records (Garveston christenings 1547–1620; the 1584 Margaret
+Bate Rivett probate; Richard Ryvett's 1602 Gressenhall marriage) are the actual evidence, and
+the Garveston family sits outside the FindMyPast Norfolk-FHS baptism index (a coverage gap),
+which is why it was missed before. Confirming pulls (Francis Rivet's will; Garveston register
+image; 1584 Bate–Rivett will) are lead L-128.
 
 ### External compiler assessments (Anderson, Banks)
 
@@ -683,6 +702,8 @@ The Toddington Beds John Gurney + Elizabeth Moreton household has positive Engli
 [^lma-cripplegate-1640]: Parish register, St Giles Cripplegate, City of London, burials 1634-1646, London Metropolitan Archives P69/GIS/A/002/MS06419/003; [Ancestry.com collection 1624 record 6607796](https://www.ancestry.com/search/collections/1624/records/6607796); user-supplied page-image assessment. Source ID: `lma-st-giles-cripplegate-register-p69-gis-a-002`.
 [^london-st-augustine-1638]: T. C. Dale, ["Inhabitants of London in 1638: St. Augustine,"](https://www.british-history.ac.uk/no-series/london-inhabitants/1638/pp34-35) in *The Inhabitants of London in 1638* (Society of Genealogists, 1931), British History Online. Source ID: `bho-london-inhabitants-st-augustine-1638`.
 [^ancestry-margaret-lead]: User-supplied Ancestry lead, Margaret Rovett/Rybett, [collection 9840 record 18879163](https://www.ancestry.com/search/collections/9840/records/18879163). Login-gated in this pass; source ID not assigned pending record review.
+
+[^v98-ncc-window-fts]: FamilySearch Full-Text Search, Norwich Consistory Court registered-copy will registers, films/DGS resolved from catalogue record `koha:278818`: 1624–25 (vol. 119–120) = 008470970; 1626 (vol. 121) = 008219670; 1627–28 (vol. 122–123) = 008076511; 1629/1630 original wills = 008076512 / 008076513; 1631–32 (vol. 124–125) = 008076514; 1633 (vol. 126) = 008472222; 1634 (vol. 127) = 008076861; 1635 (vol. 128) = 008472223; 1636 (vol. 129) = 008076860; 1637 (vol. 130) = 008076859. Machine-transcript reads, 2026-06-14; full-resolution images staged in `sources/intake/paleography-staging/` (packets 14, 16). Source ID: `familysearch-fulltext-search`.
 
 ## Sources Consulted
 

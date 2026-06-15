@@ -110,11 +110,22 @@ Pettigrew's digest of DG gives a useful public-domain restatement of Francis Gur
 
 The same section connects Francis to the later commercial Gurneys without making them part of the American-line proof. Francis's second son Francis of Maldon had an eldest son John, born in 1655, apprenticed to Daniel Gilman of Norwich, who entered the silk trade, married Elizabeth Swanton, became a Quaker, suffered imprisonment at Norwich in 1683/4, and laid the commercial foundation of the Gurneys of Keswick. This is useful background for the Norfolk textile/commercial world around Candidate B, but it is not direct evidence that John Gurney-1 of Braintree was Francis's son.[^pettigrew-francis-g14]
 
+### First wife — Margaret Rybett = Margaret Rivet of Garveston (June 2026)
+
+Francis's first wife, married at St Martin at Palace, Norwich on 23 September 1611, is
+identified at index level as **Margaret Rivet, baptized 21 May 1586 at Garveston, Norfolk,
+daughter of Francis Rivet** — a mid-Norfolk family in the parishes adjoining East Dereham,
+where Francis then settled. Full treatment, evidence, and the controlling negatives are on
+[`research/people/rivett-family-of-garveston.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/rivett-family-of-garveston.md);
+the marriage venue (St Martin at Palace) reflects neither family's baptismal parish in the
+indexes and is best read as a neutral Norwich church, not evidence of residence. Probable, not
+proven (lead L-128).
+
 ### Lestrange household references
 
 The Camden/Thoms notice of Sir Nicholas Lestrange's anecdote manuscript identifies several Gurney relatives in the Lestrange family context, including Ed. Gurney, N. Gurney, Ned Gurney, Fra. Gurney, Tho. Gurney, and Dorothy/Dol. Gurney. It identifies Francis Gurney as an uncle of Edward and "a merchant in London," with frequent mention of "Francis Gurney the merchant" in a Hunstanton account-book apparently written by Alice Lady Lestrange.[^thoms-lestrange-g14]
 
-That notice strengthens the social setting already known from Daniel Gurney: Francis's agency for the Lestranges was not an isolated employment relationship but sat inside a dense cousinage linking the Gurneys, Lewkenors, Lestranges, Stubb(e)s, Calthorpes, and Heydons.
+That notice strengthens the social setting already known from Daniel Gurney: Francis's agency for the Lestranges was not an isolated employment relationship but sat inside a dense cousinage linking the Gurneys, Lewkenors, Lestranges, Stubb(e)s, Calthorpes, and Heydons. The numbered jests themselves (mined June 2026) name **Fra. Gurney** (No. 120, "an uncle of Edward, and a merchant in London" = Francis G14), **Ed./Ned Gurney** (Edward of West Barsham, d. 1641), **Tho. Gurney** (his brother), **Dol. Gurney** (Dorothy, his sister, died single), and **Ed. Gurney** the rector (Edmund the Divine); **no John Gurney appears**. Roster: [`sources/corpus_supplement/lestrange-anecdotes-gurney-roster-thoms-1839.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/lestrange-anecdotes-gurney-roster-thoms-1839.md).
 
 [^hmc-kings-lynn-francis]: Historical Manuscripts Commission, ["The Borough of King's Lynn: Miscellaneous Writings,"](https://www.british-history.ac.uk/hist-mss-comm/vol11/pt3/pp235-247) *Eleventh Report, Appendix, Part III*, British History Online. Source ID: `bho-hmc-kings-lynn-misc-writings`.
 [^mt-ukda]: Scott, M. (2024), *Merchant Taylors' Company of London: Apprentices 1583–1800* [data collection], UK Data Service, SN 9263, DOI [10.5255/UKDA-SN-9263-1](https://doi.org/10.5255/UKDA-SN-9263-1), study catalogue [datacatalogue.ukdataservice.ac.uk/studies/study/9263#details](https://datacatalogue.ukdataservice.ac.uk/studies/study/9263#details). Francis Gurney binding at COMB sheet row 1829 / Freedoms row 25149 (volume 3a, binding no. 611, page 37). Source ID: `ukda-9263-mt-apprentices-scott-2024`. Cross-extract at `sources/media/ukda-9263-merchant-taylors-apprentices/gurney-variants-extract.csv`.

@@ -52,6 +52,32 @@ A L'Estrange daughter had thus married a Gurnay by 1505 — a kinship distinct f
 
 Both abstracts give the Gurney **surname only**, so the husband's forename is unresolved. The two marriages sit in the documented Gurney–Heydon–Calthorpe–L'Estrange–Townshend–Lovell cousinage that the G17 line's Lovell/Spelman/Conyers connections already run through; whether the Calthorpe and L'Estrange husbands are West Barsham direct-line Gurneys (G18 William Gurney V is here recorded married to Anne Heydon), their brothers, or near collaterals is the open question. Pulling the two full wills for the forenames is the resolving step (lead L-122).[^calthorpe-1494][^lestrange-1505]
 
+## June 2026 web pass — Calthorpe forename, Farrer volumes, Blundeville date
+
+- **Calthorpe son-in-law (L-122).** Derivative compiled trees (WikiTree Calthorpe-7; Geni)
+  name Sir William Calthorpe's daughter **Anne as the wife of a William Gurney** — i.e. the
+  "Son Gurney" executor of the 1494 will. This is a hypothesis to test, not yet authority: the
+  PCC will (PROB 11/10/408, reg. Vox fol. 23) or a Calthorpe Visitation pedigree must confirm
+  the forename. If correct, the husband is most plausibly the **William Gurney of West Barsham
+  active c. 1460–1500** who also fathered Constance (below) — i.e. G19 William Gurney IV's
+  generation.
+- **Farrer, *Church Heraldry of Norfolk* — volume mapping (L-25/L-46).** The Gurney parishes
+  sit in **vol. II, pt. VI** (Hundreds incl. Gallow = West Barsham, Harpley); the Herward
+  parishes of South Erpingham (lead L-64) are in **vol. II, pt. V**. Harpley corroborated
+  (heraldryinnorfolk, citing Farrer): Sir John de Gournay, lord/patron/rector 1307, built the
+  chancel and was buried there 1332 under a marble in the chancel centre; arms *Argent a cross
+  engrailed gules* = GOURNAY — consistent with the Blomefield Harpley read.
+- **Herward impaling Gourney (L-64).** A full-text check of Rye's *Visitations of Norfolk*
+  (Harleian 32) confirms there is **no Herward–Gurney pedigree or impalement in the
+  Visitations**; the impalement is a church-monument item, so the resolving source is Farrer
+  vol. II pt. V (South Erpingham), not the Visitations.
+- **Blundeville–Gurney date conflict.** The already-held marriage (Constance, dau. of William
+  Gurney of West Barsham, m. Rafe/Radulphus Blundeville of Newton Flotman) carries a death-date
+  conflict: the Newton Flotman St Mary monument dates Ralph **†1541, aged 74** (b. ~1467),
+  versus the Visitation's "ob. 1514" — almost certainly a 1514↔1541 digit transposition, with
+  the tomb (primary) favouring 1541. This dates Constance's father, William Gurney of West
+  Barsham, to c. 1460–1500 (lead L-134).
+
 ## Recommendations
 
 - Build an arms-and-pedigree evidence register keyed by generation, evidence type, source, date, and image asset.

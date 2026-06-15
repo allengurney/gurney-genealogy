@@ -401,11 +401,11 @@
       "citation": "Metcalfe, Walter C., ed. The Visitations of Suffolk: Made by Hervey, Clarenceux, 1561, Cooke, Clarenceux, 1577, and Raven, Richmond Herald, 1612, with Notes and an Appendix of Additional Suffolk Pedigrees. Exeter: privately printed for the editor by William Pollard, 1882.",
       "archive": "FamilySearch / HathiTrust",
       "url": "https://www.familysearch.org/library/books/idurl/1/106650",
-      "corpusStatus": "none",
-      "corpusPath": null,
+      "corpusStatus": "extract",
+      "corpusPath": "sources/corpus_supplement/ryvett-suffolk-visitation-pedigrees-metcalfe.md",
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Heraldic visitation source for Suffolk Ryvett/Rivett pedigrees and gentry context used in the John Gurney case file. Page-level Ryvett extraction remains to be added to the corpus."
+      "notes": "Heraldic visitation source for Suffolk Ryvett/Rivett pedigrees and gentry context used in the John Gurney case file. Ryvett extraction added at `sources/corpus_supplement/ryvett-suffolk-visitation-pedigrees-metcalfe.md` in June 2026."
     },
     "davis-abel-lunt-1963": {
       "shortTitle": "Davis, Ancestry of Abel Lunt",
@@ -2834,6 +2834,39 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "Daniel Shed (b. Finchingfield, Essex, baptized 25 June 1620; first in Braintree records 1643; married Mary Gurney 1647) and descendants. Records seven children of Daniel + Mary between 1 October 1647 and 30 October 1658 per Braintree Book of Records. Used in case-file §6 to bound Mary Gurney's English birth before 1628."
+    },
+    "findmypast-norfolk-baptisms-index": {
+      "shortTitle": "FindMyPast Norfolk Baptisms index",
+      "citation": "Norfolk Baptisms (Norfolk Family History Society transcriptions), FindMyPast indexed collection. Authenticated session, June 2026.",
+      "archive": "FindMyPast (Norfolk FHS / Norfolk Record Office)",
+      "url": "https://search.findmypast.co.uk/search-world-records/norfolk-baptisms",
+      "corpusStatus": "extract",
+      "corpusPath": "sources/corpus_supplement/rivett-garveston-maternal-family-2026-06.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/findmypast-norfolk-baptisms-index.md",
+      "notes": "Parish-selective index (omits Garveston and Francis G14's East Dereham children). Used June 2026 for the Norfolk Rivett baptism map and Gurney baptism distribution."
+    },
+    "findmypast-norfolk-banns-marriages-index": {
+      "shortTitle": "FindMyPast Norfolk Banns and Marriages index",
+      "citation": "Norfolk Banns and Marriages, FindMyPast indexed collection. Authenticated session, June 2026.",
+      "archive": "FindMyPast (Norfolk FHS / Norfolk Record Office)",
+      "url": "https://search.findmypast.co.uk/search-world-records/norfolk-banns-and-marriages",
+      "corpusStatus": "extract",
+      "corpusPath": "sources/corpus_supplement/rivett-garveston-maternal-family-2026-06.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/findmypast-norfolk-banns-marriages-index.md",
+      "notes": "Indexes the 1611 marriage as Margaret Rybett x 'Frans', St Martin at Palace; Richard Ryvett x Faith 1602 Gressenhall. Corroborates NRO PD 12/1."
+    },
+    "norfolk-wills-probate-index-1371-1858": {
+      "shortTitle": "Norfolk wills/probate index, 1371-1858",
+      "citation": "Norfolk, England, Indexes to Wills, Probate, Administrations and Marriage Licence Bonds, 1371-1858; and UK, Extracted Probate Records, 1269-1975. Ancestry indexed collections. Authenticated session, June 2026.",
+      "archive": "Ancestry (Norfolk Record Office indexes)",
+      "url": "https://www.ancestry.co.uk/search/categories/34/",
+      "corpusStatus": "extract",
+      "corpusPath": "sources/corpus_supplement/rivett-garveston-maternal-family-2026-06.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/norfolk-wills-probate-index-1371-1858.md",
+      "notes": "Margaret Bate Rivett probate 1584, Garveston. Index level; underlying NCC/Archdeaconry wills not yet pulled."
     },
     "findmypast-norfolk-burials-index": {
       "shortTitle": "Findmypast Norfolk Burials index",

@@ -14,6 +14,8 @@ Human-facing overview:
 
 This rule governs three `sources/` subdirectories. `sources/corpus/` and `sources/corpus_supplement/` are searchable extract repositories — they hold the verbatim text of cited sources but do not require their own per-edit rule beyond the conventions described here.
 
+**Corpus and corpus_supplement files are timeless source material and must never reference research leads.** No `L-NNN` lead handles, and no lead / "next pull" / research-status framing (e.g. "Probable, not proven," "confirming pulls," "open question"). The extract states what the source says, plus neutral source caveats (OCR quality, index-vs-image level, what the source does/does not record) and — where useful — a neutral list of related primary documents. All confidence/status judgements, lead handles, and next-action framing belong in the research companion that cites the extract, never in the source layer.
+
 For destination decisions when a finding could land in more than one place, see `sources/README.md`.
 
 ## sources/intake/
