@@ -10,4 +10,6 @@ Full-resolution court-book page images behind the East Dereham copyhold-Gurney a
 | `dereham-1662-1665-margaret-qx9.jpg` | Courts of 21 Jul 1662 and 22 Jan 1665 — Margaret Gurney target unresolved (page degraded); film 004389483 | [ark:/61903/3:1:S3HY-D1S9-QX9](https://www.familysearch.org/ark:/61903/3:1:S3HY-D1S9-QX9) |
 | `dereham-1697-michael-kkl.jpg` | 13 May 1697 — "nup' in tenura **Mathei** Gurney" (Matthew, correcting the machine "Michael"); film 004389277 | [ark:/61903/3:1:S3HT-6179-KKL](https://www.familysearch.org/ark:/61903/3:1:S3HT-6179-KKL) |
 
+| `dereham-1758-michael-gurney-recital-2PP.jpg` | 31 Aug 1758 - recital for East Dereham copyhold "late in the Tenure of **Michael Gurney**"; film 004389277 image 867 | [ark:/61903/3:1:S3HT-6179-2PP](https://www.familysearch.org/ark:/61903/3:1:S3HT-6179-2PP) |
+
 Downloaded 2026-06-10 (signed-in session). Diagnostic crops local-only at `sources/media/_local/paleography-2026-06-working-crops/working/packet-07..09/` (derivative; regenerable from these masters).

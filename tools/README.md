@@ -6,7 +6,7 @@ Lineage-specific tools and interactive artifacts.
 This directory holds exploratory or utility artifacts that support the genealogy workflow but are not themselves canonical research content.
 
 ## Principle
-If a tool becomes broadly reusable, consider moving it to a more general repo or toolset.
+If a tool becomes broadly reusable, consider moving it to a more general repo or toolset. None meet this criteria.
 
 ## AI / automation guidance
 General repo behavior still applies.
