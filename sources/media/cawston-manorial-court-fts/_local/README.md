@@ -12,3 +12,5 @@ Full-resolution FamilySearch manuscript images for the Cawston, Norfolk manorial
 | `cawston-death-presentment-gurney-TC4.jpg` | S3HT-6S23-TC4 | "found by the homage … Gurney the 27th day of March…" (1649–1663) |
 | `cawston-1659-agnes-gurney-libertate-57P.jpg` | S3HT-6S23-57P | "Anno Dm 1659 Agnes Gurney to Libertate…" |
 | `cawston-1649-wyand-gurney-MFZ.jpg` | S3HT-6S2Q-MFZ | "Will Gurney, Wyand(?) Gurney…" (Aug 1649, image 85) |
+
+**Read status (June 2026, packet 24):** image read attempted; **unresolved.** The dense Latin manorial court hand blocked a confident read — the deceased Gurney's name, date of death, admitted heir, and heir's relationship were not safely recovered from any of the five pages, and the "Wyand" token (`MFZ`) could not be confirmed. The pages are the right targets but need a specialist line-by-line court-hand transcription around the name loci. See `research/people/gurney-family-cawston-manorial.md` (Open questions).

@@ -86,12 +86,40 @@ The Norfolk wills/probate index records the Garveston Rivetts who left probate. 
 Margaret, Widow, of Garveston," will 1584** — a widow's will, predating the 1586 baptism, and
 the likely namesake of Margaret Rivet (1586); the parallel UK extracted-probate index renders
 her maiden name *Bate* (a Bate–Rivett marriage). Her will survives as **NCC will register Bate,
-folio 399** (Norfolk Record Office microfilm MF 66) and is abstracted in **Norfolk Record
-Society vol. 21**.[^probate-index] **"Rivett, Robert, of Garveston, Norfolk," administration
-1597** — a household head of the same generation who died intestate; the grant is in the **NCC
-administration act book 1589–1605, folio 188** (NRO MF 170–171).[^probate-robert] Around them, in the index, sit mid-Norfolk Rivett wills of John
-(1585), James (1589), John (1592), Thomas (1596) and William (1636), with inventories of
-Edmund Rivett (1613–14) and Katherine Rivett (1626–27).[^probate-cluster]
+folio 399** (Norfolk Record Office microfilm MF 66; FamilySearch DGS 007904021, viewer image
+442) and is abstracted in **Norfolk Record Society vol. 21**.[^probate-bate-index] **"Rivett,
+Robert, of Garveston, Norfolk," administration 1597** — a household head of the same generation
+who died intestate; the grant is in the **NCC administration act book 1588–1605** (NRO MF
+170–171; FamilySearch DGS 008077845, act books vol. 8, image 204).[^probate-robert] Around
+them, in the index, sit mid-Norfolk Rivett wills of John (1585), James (1589), John (1592),
+Thomas (1596) and William (1636), with inventories of Edmund Rivett (1613–14) and Katherine
+Rivett (1626–27).[^probate-cluster]
+
+### Image reads of the two bridging wills
+
+Both probate documents were read from the register and act-book images.[^bate-will-p21]
+
+**Margaret Ryvett of Garveston, widow — will 5 June 1584.** The will opens at the foot of
+viewer image 442: *"In the name of god amen the five daye of June … in the yeare of the raigne
+of our Sovereigne Ladie Queene Elizabeth … I Margaret Ryvett of Garveston in the Countie of
+Norff widowe …"* The legatee network read from the continuation centres on **Wright, Clayton,
+Raymond, and Newton** kin: Thomas Wright (son of Robert Wright) and his wife; Grace Wright
+(daughter of Thomas); Robert Raymond and Elizabeth his wife; John, Margaret, Elizabeth, Frances,
+and Anthony Clayton (children of the said Elizabeth); Parnell and Edward Newton; and **"Marye
+Ryvett my daughter in lawe."** The reviewed pages name **no son or grandson Francis Rivet, no
+younger Margaret Rivet, and no Gurney** — so the hoped-for descent from the widow to Margaret
+Rivet (bp 1586, daughter of Francis) is **not present in the readable text**. "Marye Ryvett my
+daughter in lawe" is the will's one Rivett family-structure clue (a son's widow, or a
+step-relationship), not the Francis/Margaret link.
+
+**Robert Ryvett of Garveston — administration 1597.** The act reads: *"Comissa fuit
+administratio bonorum Roberti Ryvett nuper de Garveston defuncti Agneti Ryvett vid[uae] relictae
+dicti defuncti de bene et fideliter administrando eadem jurat"* — administration of the goods of
+Robert Ryvett, late of Garveston, deceased, was granted to **Agnes Ryvett, widow and relict** of
+the deceased, sworn to administer faithfully. The short act names **no children** (so neither a
+Francis nor a Margaret), but it fixes **Agnes** as Robert's widow — a household anchor for that
+Garveston Rivett line. The exact calendar day is not recoverable from the act alone (it reads
+*"Dicto die mensis et Anno"*); a marginal *xbr* may point to December 1597.
 
 **No Francis Rivett or Revett probate stands in the index between 1551 and 1770.** The only
 early Francis is a 1551 will indexed "Rivett, Francis, Clerk, of Hingham" — a clergyman of a
@@ -200,8 +228,10 @@ page 2 ark `3:1:3Q9M-CSJ6-9Q4F-M`.
 [^fmp-burial-neg]: FindMyPast "Norfolk Burials" index, Margaret Gurney: 7 results, all 1812 or later; none c.1616–17. Source ID: `findmypast-norfolk-burials-index`.
 [^fmp-gurney-norwich]: FindMyPast "Norfolk Baptisms" index, surname Gurney, 1590–1630: Norwich Gurneys at St Giles, St Lawrence, St Stephen (William & Robert families, 1619–29); none at St Martin at Palace. Source ID: `findmypast-norfolk-baptisms-index`.
 [^fts-neg]: FamilySearch Full-Text Search (JSON API, authenticated), co-occurrence probes `+Gurney +Rivett` (359), `+Revett +Gurney` (25), `+Gournay +Rivett` (2), `+Gurney +Brandeston` (18), `+Rivett +Garveston` (24), and Garveston/Gressenhall + surname probes: all relevant hits 19th–20th century (directories); zero pre-1700 printed pedigree or deed. A June 2026 re-sweep with the 1600s century filter (`f.recordYear0=1600`) over Gurney/Rivett × Dereham/Garveston/Gressenhall/Whinburgh/Mattishall returned only manorial-court salad in "England, Norfolk, Legal, from 1081 to 1925": 1648 Whinburgh court (ark 3:1:S3HT-6X4K-X5), 1677 Garveston/Rudston court (ark 3:1:S3HY-X3F2-HZ), 1640 Denver court (ark 3:1:S3HY-D1S9-7H8). Source ID: `familysearch-fulltext-search`.
+[^probate-bate-index]: Ancestry.co.uk, "Norfolk, England, Indexes to Wills, Probate, Administrations and Marriage Licence Bonds, 1371–1858" and the parallel "UK, Extracted Probate Records, 1269–1975," "Rivett, Margaret, Widow, of Garveston," will 1584; the maiden name *Bate* comes from the extracted-probate set. The register reference is NCC will register "Bate," folio 399, abstracted in Norfolk Record Society vol. 21 (Norwich Consistory Court will index 1550–1603). Authenticated session, June 2026. Source ID: `norfolk-wills-probate-index-1371-1858`.
 [^probate-robert]: Ancestry.co.uk, "Norfolk, England, Indexes to Wills, Probate, Administrations and Marriage Licence Bonds, 1371–1858," "Rivett, Robert, of Garveston, Norfolk," administration 1597. Authenticated session, June 2026. Source ID: `norfolk-wills-probate-index-1371-1858`.
+[^bate-will-p21]: Image reads, June 2026 (paleography packet 21). Margaret Ryvett of Garveston will (5 June 1584): Norwich Consistory Court registered-copy will register "Bate," vol. 83 (1583–84), folio 399 = FamilySearch DGS 007904021, viewer image 442 (will opening), continuing on image 443, ark `3:1:3Q9M-CSH9-GQ8V-R`; master image `sources/media/ncc-wills-registers/_local/bate-reg-fo399-img442-margaret-rivett-will.jpg`. Legatee/kin readings from the register continuation; the will was read for the packet crux (any Francis/Margaret Rivet or Gurney) and none appears. Robert Ryvett of Garveston administration (1597): Norwich Consistory Court administration act book vol. 8 (1588–1605), image 204, ark `3:1:3Q9M-CSN6-R9RK-L` = FamilySearch DGS 008077845 (British Film 173449); master `sources/media/ncc-wills-registers/_local/actbook-vol8-img204-robert-rivett-admon-3Q9M-CSN6-R9RK-L.jpg`. Source IDs: `ncc-will-1584-margaret-bate-rivett-garveston`; `familysearch-fulltext-search`.
 [^probate-cluster]: Ancestry.co.uk, same collection: wills of John Rivett (1585), James Rivett (1589), John Rivett (1592), Thomas Rivett (1596) and William Rivett (1636); inventories of Edmund Rivett (1613–14) and Katherine Rivett (1626–27). Authenticated session, June 2026. Source ID: `norfolk-wills-probate-index-1371-1858`.
 [^probate-francis]: Ancestry.co.uk, same collection, surname Rivett/Revett, forename Francis: four records 1371–1858 — a 1551 will indexed "Rivett, Francis, Clerk, of Hingham," a 1750 marriage licence, and wills of 1770 and 1848; none in the c.1600–1640 window. Authenticated session, June 2026. Source ID: `norfolk-wills-probate-index-1371-1858`.
 [^probate-gurney]: Ancestry.co.uk, same collection, surname Gurney: a Gurney + Garveston keyword search produces no Garveston-resident Gurney. John-era Gurney probate residences read from the index: "Gurney, John, of Ashwellthorpe" (administration 1615), "Gurney, Wolstan, of Aylsham" (administration 1607), "Gurney, John, Yeoman, of Earsham" (wills 1630 and 1639, inventory 1630–31), "Gurney (Gurnay), Henry, Esquire, of Gt Ellingham" (will 1623). Authenticated session, June 2026. Source ID: `norfolk-wills-probate-index-1371-1858`.
-[^ncc-1630]: Will of John Thornton of Gressenhall, husbandman, Norwich Consistory Court registered copy, dated 16 May 1629, proved 6 February 1630/31 before Thomas Browne, surrogate; FamilySearch film DGS 008098653, page 1 ark `3:1:3Q9M-CSJ6-9Q4B-D`, page 2 ark `3:1:3Q9M-CSJ6-9Q4F-M`. Surfaced via a `q.fullName=rivett` name-indexed sweep (1600–1638) and transcribed at image level (paleography packet 18, 2026-06-15): legatees son and heir Edward Thornton, daughter Elizabeth Blade, son John Thornton, "sonne in law Richard Ryvett and Marian his wife" (Richard made sole executor and a witness), Jane Blade, grandchild Susan Lowes, and a foster child Anne [Sitho/Sithe]. Source ID: `familysearch-fulltext-search`.
+[^ncc-1630]: Will of John Thornton of Gressenhall, husbandman, Norwich Consistory Court registered copy, dated 16 May 1629, proved 6 February 1630/31 before Thomas Browne, surrogate; FamilySearch film DGS 008098653, page 1 ark `3:1:3Q9M-CSJ6-9Q4B-D`, page 2 ark `3:1:3Q9M-CSJ6-9Q4F-M`; full working transcription in `sources/corpus_supplement/paleo-2026-06-packet-18-thornton-gressenhall-will.md`, masters in `sources/media/ncc-wills-registers/_local/`. Surfaced via a `q.fullName=rivett` name-indexed sweep (1600–1638) and transcribed at image level (paleography packet 18, 2026-06-15): legatees son and heir Edward Thornton, daughter Elizabeth Blade, son John Thornton, "sonne in law Richard Ryvett and Marian his wife" (Richard made sole executor and a witness), Jane Blade, grandchild Susan Lowes, and a foster child Anne [Sitho/Sithe]. Source ID: `familysearch-fulltext-search`.

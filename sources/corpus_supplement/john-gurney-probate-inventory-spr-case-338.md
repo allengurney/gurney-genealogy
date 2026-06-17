@@ -242,6 +242,8 @@ This supersedes an earlier working reading that treated the bottom block as an o
 
 The “Sam Broadstreet” form may represent **Samuel Bradstreet / Broadstreet** or a printed reading of a manuscript abbreviation. A later source check should compare the manuscript directly to Bradstreet/Broadstreet forms. Richard Wharton should be treated as a legal/probate deponent, not necessarily an ordinary estate creditor.
 
+An independent re-read of the manuscript image (June 2026) reached the same headline figures — goods/estate **£55 14s 6d**, debts **£37 12s** — and the same key negative: **no kin is named in the case papers.** The widow appears only as a creditor (“to the widow for goods impaired out of her estate,” ≈£12 18s 4d), never by name, and neither Grizell nor any child or relation is named anywhere in the inventory or the bottom note. That re-read tentatively rendered the bottom note as an administration grant **to Richard Wharton**; the NEHGR abstract's clearer “deposed to the Inventory” wording is preferred, so Wharton (with Bradstreet) is best read as a **deponent verifying the inventory**, not as the named administrator. The image confirms the document carries no relationship statement — the estate file does not, on its own, connect John Gurney Senr of Braintree to a named wife or heirs.
+
 ---
 
 ## Normalized abstract

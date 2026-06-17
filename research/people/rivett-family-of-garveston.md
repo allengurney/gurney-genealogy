@@ -6,24 +6,29 @@ and mother of John Gurney G13. Paired raw extracts and the controlling negatives
 
 ## Finding — Margaret's probable parentage
 
-Margaret Rybett is, at index level, **Margaret Rivet, baptized 21 May 1586 at Garveston,
-Norfolk, daughter of Francis Rivet**.[^fs] Born 1586, she was ~25 at her 23 September 1611
-marriage to Francis Gurney at St Martin at Palace, Norwich (NRO PD 12/1), and dead by
-~1616–17 — the chronology already established for Francis G14's first wife. She is the only
-Margaret Rivet/Rivett/Ryvett of the right age in the region; an exhaustive Norfolk-baptisms
-sweep across spellings found no in-window Margaret elsewhere and no Rivett family in Norwich
-city. "Rybett" was the 1611 clerk's one-off rendering (the family spells itself *Rivet*; the
-Suffolk gentry line *Ryvett*).[^fmpm]
+Margaret Rybett is **Margaret Rivet, baptized 21 May 1586 at Garveston, Norfolk, daughter of
+Francis Rivet** — now confirmed at register-image level: the Garveston register reads *"Margaret
+Rivet daughter of ffrancis christened the xxjth of May,"* naming the father but **not the
+mother**.[^fs][^reg-p19] Born 1586, she was ~25 at her 23 September 1611 marriage to Francis
+Gurney at St Martin at Palace, Norwich (NRO PD 12/1), and dead by ~1616–17 — the chronology
+already established for Francis G14's first wife. She is the only Margaret Rivet/Rivett/Ryvett
+of the right age in the region; an exhaustive Norfolk-baptisms sweep across spellings found no
+in-window Margaret elsewhere and no Rivett family in Norwich city. "Rybett" was the 1611 clerk's
+one-off rendering (the family spells itself *Rivet*; the Suffolk gentry line *Ryvett*).[^fmpm]
 
-Status: **Possible, not proven** — an index-level christening (mother not named). One
-hoped-for proof is now ruled out: **Francis Rivet of Garveston left no surviving will or
-administration.** The Norfolk probate index records no Francis Rivett/Revett between a 1551
-will — a clergyman, indexed "Rivett, Francis, Clerk, of Hingham," a different branch — and
-1770.[^probate-francis] Confirmation must instead come from the Garveston parish-register
-image (verifying the 1586 christening and locating a c.1616–17 burial) and from the wills of
-the older Garveston Rivetts who *did* leave probate — chiefly **Margaret Rivett, widow of
-Garveston (will, 1584)** and **Robert Rivett of Garveston (administration, 1597)** — whose
-bequests may name a son or grandson Francis and so bridge the generations.
+Status: **Possible, not proven.** The christening is now image-verified, but it names only the
+father, so it does not by itself fix which wife was Margaret's mother. Three would-be proofs are
+now exhausted without bridging the generations: **Francis Rivet of Garveston left no surviving
+will or administration** (the Norfolk probate index records no Francis Rivett/Revett between a
+1551 Hingham-clergyman will and 1770);[^probate-francis] and the wills of the two older
+Garveston Rivetts who *did* leave probate — **Margaret (Bate) Rivett, widow (will 1584)** and
+**Robert Rivett (administration 1597)** — have been read at image level and name **no son or
+grandson Francis, no younger Margaret, and no Gurney**. The 1584 will's legatees are Wright,
+Clayton, Raymond, and Newton kin, plus "Marye Ryvett my daughter in lawe"; the 1597 admon grants
+Robert's estate to his widow **Agnes Ryvett**.[^bridging-wills] The identification therefore now
+rests on chronology, geography, and the absence of any competing Margaret — strong
+circumstantial alignment, but no document yet names Margaret as Francis Gurney's wife or ties
+Francis Rivet's household to the older Rivett testators.
 
 ## The family and its geography
 
@@ -46,10 +51,16 @@ them sits a run of mid-Norfolk Rivett wills and inventories in John's grandparen
 window: wills of John (1585), James (1589), John (1592), Thomas (1596) and William (1636), and
 inventories of Edmund Rivett (1613–14) and Katherine Rivett (1626–27).[^probate-cluster] (Only
 Margaret 1584 and Robert 1597 are indexed *of Garveston*; the other testators' parishes are
-unconfirmed and may lie elsewhere in mid-Norfolk.) None
-of these is held on Ancestry as an image — the collection is an index compiled in association
-with the Norfolk Record Office — so their bequests (and any naming of Francis or his children)
-await the original wills at the Record Office or the registered copies on FamilySearch.
+unconfirmed and may lie elsewhere in mid-Norfolk.)
+
+The two Garveston wills have now been read from the FamilySearch register/act-book images, and
+**neither bridges to Margaret Rivet (bp 1586) or to a Gurney.** Margaret (Bate) Rivett's 1584
+will leaves to a Wright/Clayton/Raymond/Newton legatee network plus "Marye Ryvett my daughter in
+lawe," and names no Francis Rivet, no younger Margaret, and no Gurney; Robert Rivett's 1597
+administration grants his estate to his widow **Agnes Ryvett**, naming no children. So the older
+Garveston Rivett probate strengthens the household map (a new anchor, Agnes, for Robert's line)
+but does not supply the documentary link from Francis Rivet's household up to the parish
+matriarch.[^bridging-wills]
 
 ## Bearing on John Gurney G13
 
@@ -90,32 +101,27 @@ William Gurney V is independent and unaffected.
 
 ## Open questions / leads
 
-- L-128 (priority 95) — confirm Margaret = dau. of Francis Rivet of Garveston. Francis's own
-  will is no longer a route (he left none; see above). Two live tests, both now pinned to
-  online film:
-  - **The Garveston parish register, 1538–1675** (FamilySearch image film DGS 004033226, item 14
-    of 46, 69 images) — the single resource holding the 21 May 1586 christening of Margaret (test
-    whether the register names her mother as well as father Francis), Grace 1603, the rest of the
-    Rivett family, and Margaret's c.1616–17 burial. The register is **not** full-text indexed in
-    FamilySearch, so it needs a visual page browse / paleography read, not a keyword jump.
-    **Browse it for any Gurney entry in c.1617–1640 as well** (a burial, marriage, or
-    godparent/witness): if the motherless brothers John (b. c.1609/10) and **Edward** (b. c.1611)
-    were taken in by the Garveston Rivetts after their mother's death, one of them could surface
-    in this register — which would be direct evidence for the maternal-kin-fostering hypothesis,
-    and Edward (the rarer forename) is the better tracer.
-  - **The wills of the older Garveston Rivetts** — Margaret the widow (1584) and Robert (1597) —
-    which may name a son or grandson Francis. References fixed at the Norfolk Record Office:
-    Margaret's will is **NCC will register Bate (regd. copy wills vol. 83–84), folio 399** (1584;
-    FamilySearch film DGS 7904021; NRO microfilm MF 66); Robert's is the **NCC administration act
-    book 1589–1605, folio 188** (1597; NRO MF 170–171). Norfolk Record Society vol. 21 is the
-    consistory-court will *index* (1550–1603), not a full abstract, so it gives the reference but
-    not the legatees — the will image is needed for those. (All Available online via FamilySearch
-    image films, awaiting folio/page navigation; the admon-act-book DGS still to be located.)
-- L-129 — map Francis Rivet's full child set (Margaret's siblings = John's maternal
-  aunts/uncles) and his wife. The Garveston parish register (DGS 004033226, item 14, above) is
-  the primary spine; the Garveston Rivett probate (widow Margaret 1584, Robert 1597) is the
-  documentary backstop. (Register Available online via FamilySearch; not text-indexed — visual
-  browse.)
+- L-128 (priority 95) — confirm Margaret = dau. of Francis Rivet of Garveston. **Both image
+  routes are now worked, and both fall short of proof.** (1) The Garveston register confirms the
+  21 May 1586 christening of "Margaret Rivet daughter of ffrancis" at image level but **names no
+  mother**, so it cannot fix which wife was Margaret's mother; the c.1617–1640 pages were also
+  browsed for any Gurney entry (the maternal-kin-fostering tracer for the motherless brothers
+  John, b. c.1609/10, and Edward, b. c.1611) and **none was found**. (2) The two older Garveston
+  Rivett probates — Margaret (Bate) Rivett's 1584 will (NCC reg. "Bate," fo. 399, FamilySearch
+  DGS 007904021) and Robert Rivett's 1597 administration (NCC admon act book vol. 8, FamilySearch
+  DGS 008077845, image 204) — have been read and name **no Francis, no younger Margaret, and no
+  Gurney** (see the probate section above). Francis Rivet himself left no will. The
+  identification now stands on chronology, geography, and the absence of any competing Margaret,
+  not on a naming document.
+- L-129 — map Francis Rivet's full child set (Margaret's siblings) and his wife. The register
+  read separates **at least three Rivet households in the parental generation — Francis (Margaret
+  1586, Grace 1603), Edmund (Elen, bp 11 Apr 1593; likely the Edmund of the 1613–14 inventory),
+  and Robert (a child bp Oct 1571; likely the Robert of the 1597 admon, whose widow was Agnes
+  Ryvett)** — but **no register entry names a mother**, so Francis Rivet's wife (= Margaret's
+  mother) is still unidentified and Margaret's full sibling set is not separable from the
+  unattributed christenings. The batch-2 register (1627–1675) added no further Rivett entry and
+  no wife/mother name.[^reg-p19] (Register available online via FamilySearch; not text-indexed —
+  visual browse, now substantially worked.)
 - L-130 — Richard Ryvett of Gressenhall's origin, wives, and relation to the Garveston Rivetts.
   **An image read of the 1630/31 Gressenhall will (now transcribed) corrects the earlier
   inference.** The testator is **John Thornton of Gressenhall, husbandman** (will 16 May 1629,
@@ -130,11 +136,13 @@ William Gurney V is independent and unaffected.
   index holds no Rivett "of Gressenhall" — so his family is reachable only through the
   Gressenhall and Garveston parish registers and this Thornton will, not a will of his
   own.[^probate-gressenhall]
-- L-131 — Margaret's burial c.1616–17. The first place to look is the **Garveston register
-  1538–1675** (DGS 004033226, item 14) now pinned under L-128; failing that, the East Dereham
-  register (worked in the John Gurney case-file paleography). Fixing her death date and parish
-  bears on the timing of John's removal to maternal kin. (Available online — FamilySearch image
-  film; visual browse.)
+- L-131 — Margaret's burial c.1616–17. The Garveston register burial section (1561–1625) was
+  read and holds **no Margaret Rivet or Margaret Gurney burial** c.1616–17 (a per-pass negative);
+  the batch-2 pages added nothing.[^reg-p19] So if she died c.1616–17 her burial was **likely
+  elsewhere — most plausibly East Dereham**, where the family was then living (NRO PD 86/41,
+  worked in the case-file paleography). Fixing her death date and parish bears on the timing of
+  John's removal to maternal kin. (Garveston now read; East Dereham the remaining test —
+  available online.)
 
 ## Crosslinks
 - Father of John: [`research/people/g14-francis-gurney-fact-sheet.research.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g14-francis-gurney-fact-sheet.research.md)
@@ -142,6 +150,8 @@ William Gurney V is independent and unaffected.
 - Case file: [`research/case-files/john-gurney-case-file-v4.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v4.md)
 
 [^fs]: FamilySearch, "England, Births and Christenings, 1538–1975," Margaret Rivet christening 21 May 1586, Garveston, Norfolk, parents Francis Rivet; Grace Rivet christening 4 September 1603, parents Francis Rivet. Source ID: `fs-england-births-christenings`. Dossier: `sources/corpus_supplement/rivett-garveston-maternal-family-2026-06.md`.
+[^reg-p19]: Garveston parish register image read, June 2026 (FamilySearch image group DGS 004033226, item 14 of 46): "Margaret Rivet daughter of ffrancis christened the xxjth of May" (1586, father named, mother not); "Elen Rivet daughter of Edmund christened the xjth of Aprill" (1593); a Rivet child of Robert christened October 1571 (forename Miles/Milius, day uncertain). The burial section (1561–1625) and the c.1615–1640 pages held no Margaret Rivet/Gurney burial and no Gurney entry of any kind; the batch-2 pages (1627–1675) added no Rivett or Gurney entry. Full extract and household separation in [`sources/corpus_supplement/rivett-garveston-maternal-family-2026-06.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/rivett-garveston-maternal-family-2026-06.md). Source ID: `fs-england-births-christenings`.
+[^bridging-wills]: Image reads, June 2026. Margaret Ryvett of Garveston, widow, will 5 June 1584: NCC registered-copy will register "Bate" (vol. 83, 1583–84), folio 399 = FamilySearch DGS 007904021, viewer image 442 (opening), continuing image 443 (ark `3:1:3Q9M-CSH9-GQ8V-R`); legatees Wright/Clayton/Raymond/Newton kin and "Marye Ryvett my daughter in lawe," with no Francis/Margaret Rivet or Gurney named. Robert Ryvett of Garveston administration 1597: NCC administration act book vol. 8 (1588–1605), image 204, ark `3:1:3Q9M-CSN6-R9RK-L` = FamilySearch DGS 008077845; administration granted to "Agneti Ryvett vid[uae] relictae" (Agnes Ryvett, widow/relict), no children named. Full extracts in the dossier cited above. Source IDs: `ncc-will-1584-margaret-bate-rivett-garveston`; `familysearch-fulltext-search`.
 [^fmpm]: FindMyPast "Norfolk Banns and Marriages," Margaret Rybett m. "Frans" [Francis Gurney], 1611, Norwich St Martin At Palace; corroborates NRO PD 12/1. Source IDs: `findmypast-norfolk-banns-marriages-index`; `nro-pd-12-1`.
 [^prob]: Ancestry "UK, Extracted Probate Records, 1269–1975" / "Norfolk, England, Indexes to Wills, Probate, Administrations and Marriage Licence Bonds, 1371–1858," Margaret Bate Rivett, death 1584, Garveston. Source ID: `norfolk-wills-probate-index-1371-1858`.
 [^fmpr]: FindMyPast "Norfolk Banns and Marriages," Richard Ryvett m. Faith, 1602, Gressenhall; "Norfolk Baptisms," Alice Rivett, 1611, Gressenhall, father Richard. Source IDs: `findmypast-norfolk-banns-marriages-index`; `findmypast-norfolk-baptisms-index`.

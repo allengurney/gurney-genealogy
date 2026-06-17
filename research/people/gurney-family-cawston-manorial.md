@@ -35,6 +35,10 @@ A copyhold family at Cawston across at least three generations: William & Ann (1
 
 ## Open questions
 
-1. Image-read the death presentments (arks 3:1:S3HT-6S23-13K, 3:1:S3HT-6S23-6HZ, 3:1:S3HT-6S23-TC4) — they should name the deceased Gurney and the admitted heir. (Available online.)
-2. "Wyand Gurney" (1649) — an unusual forename token; verify against the image. (Available online.)
+The five target masters were pulled to `sources/media/cawston-manorial-court-fts/_local/` (death presentments `13K`/`6HZ`/`TC4`, Agnes 1659 `57P`, Wyand 1649 `MFZ`) and an image read was attempted (June 2026). The dense Latin manorial court hand **blocked a confident read**: the deceased Gurney's name, the date of death, the admitted heir, and the heir's stated relationship were not safely recovered from any of the five pages, and the unusual forename token "Wyand" (`MFZ`) could not be confirmed as Wyand, William, or another form. The pages are the right targets; the chain needs a specialist line-by-line Latin-court-hand transcription around the name loci, not a surname sweep.[^cawston-p24]
+
+1. Image-read the death presentments (arks 3:1:S3HT-6S23-13K, 3:1:S3HT-6S23-6HZ, 3:1:S3HT-6S23-TC4) — they should name the deceased Gurney and the admitted heir. Masters pulled; **read attempted and unresolved** — specialist Latin-court-hand pass needed. (Available online; masters in `_local`.)
+2. "Wyand Gurney" (1649, ark 3:1:S3HT-6S23-MFZ) — an unusual forename token; **not confirmed** against the image in the June 2026 pass. (Available online; master in `_local`.)
 3. Relationship, if any, to the Norwich-area or Earsham Gurney families. (Unknown online.)
+
+[^cawston-p24]: Paleography read attempt, June 2026 (packet 24), of the five Cawston masters from FamilySearch DGS 004389190 now in `sources/media/cawston-manorial-court-fts/_local/`. Dense Latin manorial court hand; the deceased/heir/relationship chain and the "Wyand" token were not safely recoverable in this bounded pass. Source ID: `familysearch-fulltext-search`.
