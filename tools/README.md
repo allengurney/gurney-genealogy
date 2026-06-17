@@ -5,6 +5,10 @@ Lineage-specific tools and interactive artifacts.
 ## Current use
 This directory holds exploratory or utility artifacts that support the genealogy workflow but are not themselves canonical research content.
 
+## Notable tools
+
+- **`research_leads.py`** — CLI for `research/future-research/research-leads.csv`: retrieve lead context by ID, list priority/online-reachable leads, search, validate, update, add, and close leads without reading or rewriting the full catalog manually.
+
 ## Principle
 If a tool becomes broadly reusable, consider moving it to a more general repo or toolset. None meet this criteria.
 

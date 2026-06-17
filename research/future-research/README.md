@@ -8,6 +8,24 @@ Planning layer for research that has been **documented as a lead** somewhere in 
 - **`research-leads-done.csv`** — thin archive of resolved or rejected lead IDs, with one-line dispositions only. Do not move fat research narratives here.
 - **`john-gurney-source-leads.md`** — the pre-existing John Gurney G13 lead notes from the v15 audit. Detail-level companion to the G13 rows in the catalog.
 
+## Tooling
+
+Use `tools/research_leads.py` for routine lead-catalog reads and writes. This keeps AI and human workflows from reading or rewriting the full CSV for single-lead work.
+
+Common commands:
+
+```bash
+python tools/research_leads.py priority
+python tools/research_leads.py priority --brief
+python tools/research_leads.py context L-123
+python tools/research_leads.py get L-123 --warnings
+python tools/research_leads.py list --online-reachable --min-priority 60
+python tools/research_leads.py search "Great Ellingham"
+python tools/research_leads.py update L-123 --status Partial --dry-run
+python tools/research_leads.py close L-123 --disposition "Resolved; companion updated." --dry-run
+python tools/research_leads.py validate
+```
+
 ## `research-leads.csv` columns
 
 | Column | Meaning |
@@ -19,7 +37,7 @@ Planning layer for research that has been **documented as a lead** somewhere in 
 | **Lead/Source** | The specific source, record series, or repository to pull. |
 | **Description** | One line: what the pull would establish and why it matters. |
 | **Online** | `Y` = known to be online; `Part` = partly online (e.g. index/calendar online, original image/manuscript not); `N` = known not online / archive-only / lost; `Unk` = not yet checked. See the availability triage below. |
-| **Status** | `Open` for all live leads. `Partial` = preliminarily pulled, work remaining. |
+| **Status** | Concise workflow state only. Prefer `Open` or `Partial`; do not use this field as a research log. Existing legacy narrative statuses may remain until touched, but new updates should keep narrative findings in the relevant companion/case file. |
 | **Source ref** | Where the lead is documented in the repo (traceability, in lieu of inline IDs in the companions). |
 
 ## Priority rubric (value/impact, independent of availability)
@@ -44,6 +62,7 @@ A lead in this catalog records that something was *flagged*, not that it is *unh
 ## Maintenance rules
 
 - **Open items only.** The catalog holds leads that are still live. When a lead reaches a disposition (resolved or rejected), move a thin row to `research-leads-done.csv` (`ID`, `Subject`, one-line disposition, date, companion/source ref) and trim it from `research-leads.csv`. Fat disposition narratives belong in the relevant companion/case file and the commit history, not either CSV.
+- **Keep CSV fields index-sized.** `Description` should state what the pull would establish and why it matters; `Status` should stay to `Open` / `Partial` or another short workflow note. Do not add long research findings, negative-search histories, or disposition narratives to the CSV; promote those to the relevant companion, case file, source supplement, or patchset.
 - **Close-out scrub.** On disposition, open the file named in `Source ref` and clear visible body/headings that describe the lead as open, sought, or pending. Keep `L-` handles only in footnotes or HTML comments when they are useful as a discovery trail.
 - **De-duplicate.** A source that surfaces on several companions gets **one** row; cite the best documenting file in `Source ref`. (Several G13 wills, the Spelman pedigree, St Benet Fink, and the Ryvett pedigrees were each consolidated this way.)
 - **Eliminated kill-targets are not leads.** Targets that only existed to test a now-eliminated hypothesis (e.g. Candidate D's London confirmation pulls) are excluded.
