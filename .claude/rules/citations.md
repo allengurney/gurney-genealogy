@@ -22,7 +22,10 @@ These rules apply whenever Claude edits or creates citation-bearing markdown.
 - When a sentence has multiple materially relevant sources, include multiple adjacent footnotes.
 
 ## Research-file standard
-- New findings, quotations, transcriptions, and inferential claims should be cited.
+- **Every discrete fact or finding carries an explicit source.** Maintain the trail from each fact/finding to its source — not only for headline findings. Aim for full coverage, not the roughly half-coverage that accretes when entries are added quickly; new findings, quotations, transcriptions, and inferential claims must each be cited.
+- **Show every aligned source, not just one.** When a fact is supported by three or more sources, cite all of them — adjacent footnotes, or a single footnote that names each witness — rather than citing one and leaving the rest implicit. A multiply-attested fact reads as stronger evidence when the reader can see the full stack; do not silently collapse a known 3+-source fact to a single citation.
+- A pre-existing **in-line** citation already in research prose (the source named in the body text rather than in a footnote) is acceptable and need not be converted to a footnote solely for form. The requirement is an explicit, traceable source per fact in whatever placement — not a particular footnote style.
+- **Never drop a fact or finding merely because its source is missing or weak.** Preserve it, flag the sourcing gap, and supply or strengthen the citation; do not delete under-cited but genuine content to tidy. (Restates the Unsupported-claims exception below for the research layer.)
 - Keep body prose focused on the finding.
 - Routine provenance mechanics should usually stay in the footnote rather than the body.
 - No research content should be inserted from intake unless it is tied to an existing or newly created `data/sources.json` entry.

@@ -13,7 +13,7 @@ The single most important caveat for this ancestor: Daniel Gurney himself was un
 ### The collateral succession — why Robert matters (DG-Supp Notes 118, 121)
 2026-04-18 — Robert is genealogically critical because the direct line passes through him, not through his elder brother Sir John Gurney (d.1408). DG-Supp Note 121 (the IPM) proves Sir John's son Edmund was heir aged 10 and "died sine prole, and probably under age." DG-Supp Note 118 (Edmund G23's will) names four executors including "John his son" — this is the elder brother Sir John, not G24.
 
-Robert's son Thomas I (G21) therefore inherited as Sir John's nephew. The full succession chain: Edmund G23 → [Robert G22] → Thomas I G21, bypassing Sir John V (collateral). This is AI-Rules §7 correction #3.
+Robert's son Thomas I (G21) therefore inherited as Sir John's nephew. The full succession chain: Edmund G23 → [Robert G22] → Thomas I G21, bypassing Sir John V (collateral). This is the standing direct-line correction — the line runs through Robert G22, not the collateral Sir John (d.1408).
 
 ### Joan de Norwich — Robert's wife
 2026-04-18 — DG-I pedigree p. 286 names Robert's wife as "Joan de Norwich." No further detail on Joan's family survives in DG or any other source consulted. The "de Norwich" surname suggests an urban family, possibly from the Norwich merchant class. This would be consistent with the family's legal and commercial connections in Norwich (Edmund G23 was standing counsel to the city).

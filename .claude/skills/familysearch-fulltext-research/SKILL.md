@@ -81,6 +81,25 @@ The deepzoom tile URLs visible in the viewer (`.../deepzoomcloud/dz/v1/apid:TH-.
 
 **Entering a film at image 1 (no search hit needed):** the Explore Images app result page `/records/images/search-results?imageGroupNumbers=<DGS>` carries a single `/ark:/61903/3:1:…` link — the film's FIRST image. Open it in the standard viewer and Next-click forward. This makes any film walkable from the front even when FTS returns no usable card (e.g., medieval Latin registers). Worked example: Register Harsyk (DGS 008076261) — entry ark 3:1:3Q9M-CSN8-1WMR-R; note its interleaved modern annotation pages (testator names + years per folio) index well in FTS even where the medieval text is salad.
 
+**Jump to a specific image NUMBER — the in-page image array (the fast unlock, added 2026-06-16).** When the target is "image N of a film" (a known image number / folio, e.g. an inventory at image 516, a will at a register folio) and you do NOT already have that image's ark, do NOT Next-walk hundreds of pages and do NOT reverse-engineer the viewer's network/Apollo layer. The standard viewer holds the film's **entire image list in memory** as a JS array of `{src, alt, id, p200, ark, index}` objects (one per image, in order). Recipe:
+1. Open the film's first image in the standard viewer (`/ark:/61903/3:1:<FIRST-ARK>?i=0`; get `<FIRST-ARK>` from the Explore results page above). Wait ~3 s for the viewer to hydrate.
+2. Walk the React fiber tree to find that array (it lives in a viewer component's `memoizedProps`/`memoizedState`) and stash it on `window.__imgs`:
+   ```js
+   (async()=>{ await new Promise(r=>setTimeout(r,3000));
+     const all=[]; (function dE(root,d){ if(d>18)return; root.querySelectorAll&&root.querySelectorAll('*').forEach(n=>{ all.push(n); if(n.shadowRoot) dE(n.shadowRoot,d+1); }); })(document,0);
+     const seen=new Set();
+     const looksImg=it=>{ if(!it||typeof it!=='object')return false; for(const k in it){ let v;try{v=it[k];}catch(e){continue;} if(typeof v==='string'&&(v.includes('3:1:')||v.includes('TH-')))return true; } return false; };
+     const find=(o,d)=>{ if(!o||typeof o!=='object'||d>7||seen.has(o))return null; seen.add(o);
+       if(Array.isArray(o)) return (o.length>=50&&o.length<5000&&looksImg(o[0]))?o:null;
+       for(const k in o){ let v;try{v=o[k];}catch(e){continue;} if(v&&typeof v==='object'){ const r=find(v,d+1); if(r)return r; } } return null; };
+     for(const el of all){ const fk=Object.keys(el).find(k=>k.startsWith('__reactFiber')); if(!fk)continue; let f=el[fk],h=0;
+       while(f&&h<50){ for(const o of [f.memoizedProps,f.memoizedState]){ seen.clear(); const arr=find(o,0); if(arr){ window.__imgs=arr; return JSON.stringify({len:arr.length, keys:Object.keys(arr[0]).slice(0,10)}); } } f=f.return; h++; } }
+     return 'no array'; })();
+   ```
+3. The array is **0-based and `index`-aligned: image *N* = `window.__imgs[N-1]`** (confirm once: `window.__imgs[0].ark` is the same first ark you opened). Read the target ark(s) directly, e.g. `window.__imgs[515].ark` for image 516. Then run the normal das/v2 → presigned-S3 download on those arks.
+
+This collapses "pull image 516" and "pull register folio 399" to two tool calls. Caveats: the privacy guard on the browser MCP blocks any tool RESULT containing query strings — when reading arks back, return only the bare `3:1:…` ark tokens (no URLs). For a **folio**-targeted pull (register page numbered by folio, not image), the array gives index↔ark but not the folio written on the page; pull one calibration image near your estimate, read its folio number, then interpolate — register imaging is often ~1 image per folio-opening, so image ≈ folio + a small front-matter offset, but confirm rather than assume.
+
 **Other operational notes:**
 - **Zero hits ≠ negative until coverage is confirmed.** A film absent from FTS returns zero for *every* query. Before logging a film-scoped negative, probe a common word (`%2Bwife`) scoped to the same DGS; a healthy hit list confirms coverage.
 - **One DGS can carry several collections** (e.g. 004389278 = Earsham + Docking + Diss court records). `q.groupName` scopes to the physical film, so triage cards by collection title.

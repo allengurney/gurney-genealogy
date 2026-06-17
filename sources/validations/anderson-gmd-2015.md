@@ -27,7 +27,7 @@ Corpus extract committed at `sources/corpus/The Great Migration Directory 2025 P
 ## Scope limitations
 
 - Only p. 158 has been examined. The directory's methodology sections and any other Gurney or Gourney entries have not been reviewed.
-- None of the six sources Anderson cites have been pulled. TAG 10:70–73 and NEHGR 62:94 are Tier 1 open items (AI-Rules §10); the other four are lower priority but also unreviewed.
+- All six sources Anderson cites have since been researched — see the "Anderson's cited sources — research outcomes" table in the G13 companion. Residual pulls (the full SPR #338 transcription; the Wilson v. Faxon deposition file behind NEHGR 62:94) are tracked as leads L-20 and L-147.
 - Anderson's "Banks Mss." context — whether Anderson examined Banks's original manuscripts or worked only from Brownell's 1937 edition — is not established.
 
 ## Where findings landed
@@ -35,5 +35,5 @@ Corpus extract committed at `sources/corpus/The Great Migration Directory 2025 P
 | Finding | Destination |
 |---|---|
 | All John Gurney-1 findings (origin "Unknown" as implicit Banks rejection; 1636 arrival discrepancy; Boston+Braintree settlements; pull list with priorities; 6 open items) | `research/people/g13-john-gurney-fact-sheet.research.md` |
-| Tier 1 pull priorities (TAG, NEHGR) | `research/people/g13-john-gurney-fact-sheet.research.md` and AI-Rules §10 |
-| Standing interpretive principles (Anderson "Unknown" = implicit Banks rejection; 1636 vs. 1641 discrepancy) | AI-Rules §8 and `data/sources.json` notes |
+| Anderson's cited-source research outcomes (TAG, NEHGR, etc.) | `research/people/g13-john-gurney-fact-sheet.research.md` |
+| Standing interpretive principles (Anderson "Unknown" = implicit Banks rejection; 1636 vs. 1641 discrepancy) | `research/people/g13-john-gurney-fact-sheet.research.md` and `data/sources.json` notes |

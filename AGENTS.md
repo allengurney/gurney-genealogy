@@ -121,26 +121,7 @@ Skills follow the Agent Skills open standard ([agentskills.io](https://agentskil
 
 ---
 
-## 6. Standing facts (don't re-derive)
-
-### Critical corrections
-1. Francis G14 died **9 Jan 1646/7** (FreeREG) — NOT 1641 (Boyd) or 1650.
-2. Junior Norfolk branch through **Walter (G31)** — NOT Hugh IV/V (collateral).
-3. **Sir John Gurney (d.1408)** is collateral. Direct: Edmund G23 → Robert G22 → Thomas I G21 → Thomas II G20.
-4. **Two Francis Gurneys** coexist: G14 Merchant Taylor (St Benet Fink) + laceweaver (St Giles Cripplegate, wife Mary). Costessey = laceweaver.
-5. **Margaret Rybett died c.1616–17**, not c.1618.
-6. **John Gurney-1 born c.1607–12, early edge favored** (revised from c.1603; Entry E baptism c.1609/10 ±2, with the 1653 deposition and the c.1627 marriage both favoring the early edge).
-
-### Structural facts
-- G1 = Allen. Numbers increase going back.
-- West Barsham entered via Wauncy inheritance (Edmund G23's wife Katherine); held until 1661.
-- Francis G14 = sixth son of Henry G15.
-- `data/ancestors.json` = canonical ancestor data file (renamed 2026-05-25 from versioned `ancestors v26.json`).
-- `data/places.json` + `data/places_detail.json` = canonical two-layer place spine. `locations.json` was retired.
-
----
-
-## 7. Source-specific flags
+## 6. Source-specific flags
 
 ### Daniel Gurney, *Record* (1848)
 Primary secondary source G15–G35. Text in `sources/corpus/daniel-gurney-part-{1,2,3,4}.md`. OCR: "Wilham"/"William" ~6%, "Basiha"/"Basilia" ~16%. Page markers: `## p. N (#M) ##` (cite N). Supplement text extracted (Google Books OCR) into `sources/corpus/daniel-gurney-supplement.md` — OCR quality varies, especially for Latin passages and marginal notes. Rye appendix NOT yet in corpus.
@@ -149,7 +130,7 @@ Primary secondary source G15–G35. Text in `sources/corpus/daniel-gurney-part-{
 
 ---
 
-## 8. Verification order
+## 7. Verification order
 
 1. Primary source image — gold standard
 2. Primary source transcription
@@ -159,7 +140,7 @@ Primary secondary source G15–G35. Text in `sources/corpus/daniel-gurney-part-{
 
 ---
 
-## 9. Evidence discipline
+## 8. Evidence discipline
 
 - **Uncertainty is quantified, not hedged.** "Probable (~55–60%)" beats "fairly likely." Attach to specific claims, not whole documents.
 - **Negative results are first-class.** "Searched X, found nothing" can be a finding but also that it can be a result of source incompleteness. Log it on the subject's file, not on the source's.
@@ -171,7 +152,7 @@ Citation discipline lives in `.claude/rules/citations.md`. Research prose style 
 
 ---
 
-## 10. Local environment — OneDrive + git layout
+## 9. Local environment — OneDrive + git layout
 
 This repository is intentionally split between a OneDrive working tree and a git directory outside OneDrive.
 
@@ -193,13 +174,13 @@ For health checks, branch-and-PR publish recipes, and Windows credential failure
 
 ---
 
-## 11. Tone
+## 10. Tone
 
 Concise, direct, honest. Pushback over sycophancy. "I was wrong" when wrong. No filler.
 
 ---
 
-## 12. Efficiency — don't over-engineer
+## 11. Efficiency — don't over-engineer
 
 ### Stop retrying
 If a tool call fails or produces an unexpected result, try **once** more with a clear correction. If the second attempt also fails, stop and surface the problem rather than grinding through attempts 3+. Allen's time is more valuable than the work being done.

@@ -77,4 +77,4 @@ When work is complete and committed locally:
 - `.claude/rules/git-onedrive-codex.md` — OneDrive working-tree health checks (always-loaded; pairs with this skill)
 
 ## See also
-- `AGENTS.md` §10 (Local environment — OneDrive + git layout) for the durable repo layout that motivates this skill
+- `AGENTS.md` §9 (Local environment — OneDrive + git layout) for the durable repo layout that motivates this skill

@@ -14,6 +14,14 @@ Batch opened **2026-06-14** (FamilySearch FTS image harvest, direct-line 1600–
 - **Packet 19 — Garveston parish register, batch 1 of 2 (1538–~1627)** (L-128/L-129/L-131 + Edward/John fostering tracer): 29 images (`images/packet19/`)
 - **Packet 20 — NCC will 1631/32 naming "Clement Gurney Gent" — full will (extends Packet 16a)** (L-138/L-125): 3 images (`images/packet20-clement-will/`)
 
+### Second batch — opened 2026-06-16 (packets 21–25)
+New un-prepped leads turned into briefs this session. Masters for packets 21, 23, 24, 25 are **not yet pulled** (need an authenticated FamilySearch session — see each brief's *Master status*); packet 22's first images are already on disk. See **[Cover index — 2026-06-16 batch](#cover-index--2026-06-16-batch-impact-ranking)** below for the impact ranking and the prepped-vs-pending map.
+- **Packet 21 — The two Garveston Rivett bridging wills** (L-128 / L-129): Margaret (Bate) Rivett 1584 will + Robert Rivett 1597 admon. *Master not pulled — folio-level image hunt.*
+- **Packet 22 — Garveston parish register, batch 2 (~1627–1675)** (L-129 / L-131): continues Packet 19. First pages on disk (`images/packet19/batch2/`); 1640–1675 tail still to pull.
+- **Packet 23 — East Dereham court: pre-1636 male Gurney + Matthew/Michael reconcile** (L-98): the genuine delta after Packets 07–09 already read the 1636/1662–65/1697 single entries. *Master not pulled — image hunt + 18th-c. recital pages.*
+- **Packet 24 — Cawston manorial death presentments** (L-108): name the deceased Gurney(s) + admitted heir. *Master not pulled — arks known.*
+- **Packet 25 — Suffolk Probate Case #338 — John Gurney inventory + administration** (L-20): the emigrant's own estate. *Master not pulled — image numbers known.*
+
 ---
 
 ## Packet 13 — East Dereham & Costessey manorial court rolls
@@ -232,6 +240,58 @@ What is already established from the machine transcript (to confirm/correct agai
 - **Questions — the genealogical crux:** (1) **Is "Clement my sonne" the same person as "Clement Gurney, Gent"?** — i.e. is the **testator himself a Gurney** (forgiving/assigning his son Clement Gurney the bond), or are these **two different Clements** (the testator's son Clement [other surname], and an unrelated gentleman debtor Clement Gurney)? Resolving this decides whether the will is a **Gurney testator's** will. (2) Any **residence or further style** for Clement Gurney, Gent (rare Gurney forename — high tracing value for the West Barsham / Great Ellingham Gurneys). (3) The probate clause (date/court) if it falls on this page.
 
 **Return format:** a `packet-20-clement-gurney-will.md` report transcribing the will across the three pages, answering 20a (testator name/parish) and the 20c crux (one Clement or two) explicitly.
+
+---
+
+## Cover index — 2026-06-16 batch (impact ranking)
+
+Ranked by genealogical impact. **All five need the paleographer** — none is a quick self-confirm this batch (the Dereham single-entry confirmations that *were* self-doable — the 1636/1662–65/1697 entries — were already read in the 2026-06 packets 07–09; what remains for L-98 is genuine hunt/transcription work). Packet 20 (Clement, L-138) from the first batch is the joint-top priority and is already staged and ready.
+
+| Rank | Packet | Lead (priority) | Master images | What the read must settle |
+|---|---|---|---|---|
+| 1 | **21** Garveston Rivett bridging wills | L-128 (95) / L-129 (80) | **21a downloaded** (Bate 1584 will, folios 397–399); **21b pending** (Robert 1597 admon — DGS not yet located) | Does Margaret (Bate) Rivett's 1584 will name a son/grandson **Francis** Rivet (→ bridges to Margaret Rivet bp 1586)? |
+| 2 | **25** Suffolk Probate Case #338 | L-20 (40, but direct-line) | **downloaded** (images 514, 516, 517, 518) | Full itemized inventory of **the emigrant John Gurney's** estate; the administration grant — does it name the widow/children/kin? |
+| 3 | **23** East Dereham court — pre-1636 male Gurney + Matthew/Michael | L-98 (80) | **pending** (content hunt — no single ark) | Name the **pre-1636 male Gurney** who left "Margarete Gurner" a widow (free-bench); reconcile Matthew (1697) vs Michael (18th-c. recitals) |
+| 4 | **24** Cawston death presentments | L-108 (45) | **downloaded** (5 arks) | Name the **deceased Gurney(s)** and the **admitted heir** in the 1640s–60s presentments; verify "Wyand Gurney" |
+| 5 | **22** Garveston register, batch 2 (~1627–1675) | L-129 (80) / L-131 (70) | **partial on disk** (`images/packet19/batch2/`, ~1626–1640); 1640–1675 tail not pulled | Any further Rivett entries / a wife-or-mother name; mostly past the window (lowest impact) |
+
+Master-image disposition for this batch follows the user's directive — masters staged directly to `sources/media/<id>/_local/` (off GitHub), not the staging `images/` folder. Each `_local/` has a committed `README.md` stub with arks + retrieval method.
+
+---
+
+## Packet 21 — The two Garveston Rivett bridging wills (L-128 / L-129)
+
+The maternal-kin proof route for **Margaret Rivet** (bp 21 May 1586 Garveston, wife of Francis Gurney G14, mother of the emigrant John G13). Francis Rivet of Garveston left no probate, so the bridging evidence is the wills of the *older* Garveston Rivetts, which may name a son/grandson Francis. Both are secretary/court hand; **full transcription** needed.
+
+### 21a — Margaret (Bate) Rivett, widow of Garveston — will proved 1584 *(MASTER DOWNLOADED)*
+- **Citation:** Norwich Consistory Court registered-copy wills, register **"Bate"**, vol. 83 (1583–1584), **folio 399**. FamilySearch image group **DGS 007904021**; NRO microfilm MF 66. Source ID (to mint at promotion): `ncc-will-1584-margaret-bate-rivett-garveston`.
+- **Masters:** `sources/media/ncc-wills-registers/_local/` — `bate-reg-fo399-img442-margaret-rivett-will.jpg` (folio 399 = viewer image 442, the target), with context folios on `…fo398-img441…`, `…fo397-img435-jt96…` and `…fo397-img440-jt97-reshoot…`, `…fo396-img434…`. (Folio→image is **not** 1:1: this DGS concatenates film rolls JT96/JT97 with title/continuation cards at images 436–439 and re-shoots folio 397, so folio 399 = image 442. Image→ark via the `window.__imgs` method now in the FTS skill §3.)
+- **Crux:** (1) The full will text of **Margaret Rivett, widow of Garveston** (the "Bate" maiden-name from the extracted-probate index — confirm). (2) **Does she name a son or grandson Francis Rivet, or a Margaret?** A named Francis/Margaret bridges her to Margaret Rivet (bp 1586, dau of Francis) — the L-128 proof. (3) Full legatee/kin list; any Gurney mention.
+
+### 21b — Robert Rivett of Garveston — administration 1597 *(MASTER PENDING — locate DGS first)*
+- **Citation:** Norwich Consistory Court **administration act book 1589–1605, folio 188** (1597); NRO microfilm MF 170–171. **DGS not yet identified** — Norfolk Record Society vol. 21 (the 1550–1603 consistory will/admon index) gives the reference but not the text.
+- **Download spec for the assistant:** resolve the act-book DGS via the FamilySearch catalogue (place → Norfolk; "Norwich Consistory Court … administration act books 1589–1605"), then enter the film and use the `window.__imgs` method (FTS skill §3) to reach folio 188. Stage to `sources/media/ncc-wills-registers/_local/`.
+- **Crux:** Admon acts are short Latin grants — **name the administrator and the stated relationship** (widow? son?) for Robert Rivett of Garveston, placing this household head in Margaret's parental generation.
+
+## Packet 22 — Garveston parish register, batch 2 (~1627–1675) (L-129 / L-131) *(PARTIAL on disk)*
+- **Citation:** Garveston parish register, NRO, FamilySearch **DGS 004033226, item 14 of 46** (69 images); continues Packet 19. Viewer pages ~1–30 (1538–~1627) were Packet 19; this is pages ~31–69.
+- **On disk:** `images/packet19/batch2/image (17)…(39).jpg` cover ~1626–1640 (Packet 19's forward sweep already read 17–21 to ~1640, Gurney-negative). The 1640–1675 tail (viewer pages ~46–69) is **not pulled**.
+- **Crux (low impact — mostly past the window):** any further **Rivett** entries 1627–1675 (a wife/mother name for Francis Rivet's household is the only real prize); confirm no Gurney burial/entry. Margaret died ~1616–17 so her burial is **not** expected here — this packet is a completeness sweep, ranked last.
+
+## Packet 23 — East Dereham court: pre-1636 male Gurney + Matthew/Michael reconcile (L-98) *(content hunt — spec only)*
+The 1636 "Margarete Gurner," 1662/65 Margaret, and 1697 entries are **already read** (corpus packets 07–09): the Oct 1636 court calls "quondam Margarete Gurner vid[uae]" a *former* tenure, so her husband died well before 1636; the 1697 page reads **Matthew** Gurney (a tenure recital, no Margery→Michael bridge). Two genuine gaps remain:
+- **23a — the pre-1636 male Gurney.** Hunt the **earlier courts in the 1623–1689 book** (FamilySearch **DGS 004389483**) *before* the Oct 1636 court for the admission/death that left Margaret a free-bench widow — name him (?Edward, or an older-generation Gurney), his copyhold, and the court date. This is a Latin-court-hand content hunt, not a known-ark pull → paleographer.
+- **23b — Matthew vs Michael.** Pull the 18th-c. "Michael Gurney 1697–1758 / Richard 1703–1837" recital pages from **DGS 004389277** to decide whether "Michael" is a real distinct later tenant or a mis-index, given the 1697 admission reads "Matthew."
+
+## Packet 24 — Cawston manorial death presentments (L-108) *(MASTERS DOWNLOADED)*
+- **Citation:** Cawston, Norfolk. Manorial Records 1641–1685. FamilySearch **DGS 004389190**. Source ID: `familysearch-fulltext-search` (mint a per-film sourceId at promotion).
+- **Masters:** `sources/media/cawston-manorial-court-fts/_local/` — five images (death presentments `…-13K`, `…-6HZ`, `…-TC4`; Agnes 1659 `…-57P`; Wyand 1649 `…-MFZ`). See that folder's README.
+- **Crux:** Transcribe the death presentments — **name the deceased Gurney(s) and the admitted heir** (structuring William & Ann 1648–50 → Emme 1655–95 / Agnes 1659–64 → Anne 1729). Verify the unusual forename "**Wyand Gurney**" (1649). Collateral/comparator — no emigrant link expected.
+
+## Packet 25 — Suffolk Probate Case #338, John Gurney inventory + administration (L-20) *(MASTERS DOWNLOADED)*
+- **Citation:** Massachusetts, Suffolk County, probate & family court records; FILE PAPERS Box 003, Cases 250–399, **DGS 102840311**. John Gurney of Braintree, d. 1662/3. Source ID: `fs-suffolk-probate-1636-1915`.
+- **Masters:** `sources/media/fs-suffolk-probate-1636-1915/_local/` — image 514 (cover), 516 ("Boston March 16th 1663 An Inventory of the goods & estate of John Gurney late deceased"), 517 (slip), 518 (continuation). See that folder's README. Hand is 1660s English secretary (more legible than the Norfolk Latin court hands).
+- **Crux:** (1) Full **itemized inventory** — goods, valuations, total. (2) The **administration grant** — administrator and stated relationship: does it name **Grizell** (the widow) and/or any **children/kin**? Relationship detail is the prize for this direct-line document; the inventory items are enrichment (cover already verified).
 
 ---
 

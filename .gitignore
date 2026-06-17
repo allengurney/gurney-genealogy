@@ -166,6 +166,13 @@ sources/media/*/_local/*
 !sources/media/_local/README.md
 !sources/media/*/_local/README.md
 
+# Paleography staging working-snippets: regenerable derivative crops, line strips,
+# enhancement sheets, and contact sheets. Local-only — they are reproducible from the
+# master image + the manifest coordinates. The durable keepers are the master images
+# (-> sources/media/<id>/_local/) and the packet reports (-> sources/corpus_supplement/).
+# See .claude/skills/paleography-analysis/SKILL.md.
+sources/intake/paleography-staging/working-snippets/
+
 # Local package cache used when npm is unavailable in the sandbox.
 site/website/.pkg-cache/
 site/website/.npm-cache/
