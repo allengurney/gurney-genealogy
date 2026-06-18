@@ -64,7 +64,7 @@ factsheet:
     <div class="fact-label">Marriage(s)</div>
     <div class="fact-value">
       <div class="stacked-records">
-        <div><strong>Margaret Rybett</strong> — married 23 September 1611 at St Martin at Palace, Norwich, Norfolk. Norfolk/Suffolk gentry; the Rybett/Ryvett family of Fritton, Rishangles, and Stowmarket. Mirabella Ryvett married Sir John Heydon of Baconsthorpe, connecting the family to the Gurneys. Margaret probably died c. 1616–1617; her burial has not yet been located. <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></div>
+        <div><strong>Margaret Rybett</strong> — married 23 September 1611 at St Martin at Palace, Norwich, Norfolk. Norfolk/Suffolk gentry; the Rybett/Ryvett family of Fritton, Rishangles, and Stowmarket. Margaret probably died c. 1616–1617; her burial has not yet been located. <sup class="fn"><a href="#n5" id="ref-5">5</a></sup></div>
         <div><strong>Anne Browning</strong> — married c. late 1617, probably at Norwich though the record has not yet been located. Daughter of William Browning, merchant of Norwich and later Maldon, Essex. <sup class="fn"><a href="#n6" id="ref-6">6</a></sup></div>
       </div>
     </div>

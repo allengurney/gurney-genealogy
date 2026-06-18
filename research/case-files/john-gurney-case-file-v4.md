@@ -134,7 +134,7 @@ This marriage record, discovered in March 2026 in the Norfolk Record Office pari
 </div>
 <sup class="fn"><a href="#n18" id="ref-18">18</a></sup>
 
-**The Rybett/Ryvett family** were established Norfolk and Suffolk gentry, documented at Fritton (Norfolk), Rishangles, Rattlesden, Stowmarket, and Bildeston (all Suffolk).<sup class="fn"><a href="#n19" id="ref-19">19</a></sup> The families moved in overlapping social circles: Mirabella Ryvett married Sir John Heydon of Baconsthorpe, and the Heydons were directly connected to the Gurneys through Anne Heydon's marriage to William Gurney V.<sup class="fn"><a href="#n20" id="ref-20">20</a></sup>
+**The Rybett/Ryvett family** were established Norfolk and Suffolk gentry, documented at Fritton (Norfolk), Rishangles, Rattlesden, Stowmarket, and Bildeston (all Suffolk).<sup class="fn"><a href="#n19" id="ref-19">19</a></sup> The Heydons of Baconsthorpe were directly connected to the Gurneys through Anne Heydon's marriage to William Gurney V; a separately reported marriage of Myrable Ryvett to Sir John Heydon is not borne out by the primary Visitation of Suffolk (Metcalfe, p. 63), which records her husband as William Burd, Customer of London.<sup class="fn"><a href="#n20" id="ref-20">20</a></sup>
 
 **The St Martin at Palace connection.** St Martin at Palace was the Rybett family's parish church, with Rivett entries spanning 1539–1603.<sup class="fn"><a href="#n21" id="ref-21">21</a></sup> Margaret almost certainly married at her own family's church, following standard practice.
 

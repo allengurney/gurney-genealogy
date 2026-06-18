@@ -48,3 +48,15 @@ Append durable, reusable paleography lessons here after manuscript-analysis task
 - Gurney/Gournay variants or false friends: `Syon`/`Sion` can be misread or pre-labeled as `Lyon` when the initial S is looped or faint.
 - Reading lesson: Treat `Lyon Gurney` labels in this Earsham context as a hypothesis until the initial letter is checked against same-page S forms; `Syon Gurney` is an image-supported form in both packets.
 - Avoid next time: Do not promote a rare-forename bridge from FTS snippets or packet labels alone; verify S/L against token crops from the source image.
+
+## 2026-06-18 - NCC registered wills, DGS 008076514
+
+- Scope: Packet 20, images 363-365, John Grobbe of Redlingfield will.
+- Source/image range: Arks `3:1:3Q9M-CSN8-YTWS`, `3:1:3Q9M-CSN8-YT9K`, and `3:1:3Q9M-CSN8-YRB3`.
+- Document type and date range: Registered-copy will, July 1632.
+- Hand or scribe: English secretary/register hand.
+- Useful enhancement: Full-page grid, then manual page-column boxes with evenly divided overlapping line strips; a 4x token crop settled `Grobbe` and `Redlingfeild`.
+- Comparator words: `Clement Grobbe`, `Clement Gurney gent`, repeated `my sonne`.
+- Gurney/Gournay variants or false friends: `Grobbe` is a distinct surname, not a Gurney form.
+- Reading lesson: When a clause repeats a rare forename, recover the testator's opening before collapsing identities. Here `the same Clement Gurney` and `the said Clement my sonne` are different men because the son is Clement Grobbe.
+- Avoid next time: Do not infer that a named debtor shares the testator's surname or kinship merely because the debtor and a legatee have the same forename.

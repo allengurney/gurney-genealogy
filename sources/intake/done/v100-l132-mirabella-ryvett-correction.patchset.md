@@ -1,3 +1,5 @@
+**Done:** 2026-06-18 19:50 PT
+
 # Patchset v100 — L-132: correct the Mirabella Ryvett marriage (William Burd, not Sir John Heydon)
 
 **Scope.** One bounded factual correction carried in two published-prose files, plus resolution of the matching research-companion flag. The primary **Visitation of Suffolk (Metcalfe, p. 63)** records **Myrable Ryvett married William Burd, Customer of London** — not Sir John Heydon of Baconsthorpe. The Gurney–Heydon kinship is independent and unaffected (Anne Heydon married William Gurney V). Each correction is made **in place / assimilated** — the false statement is revised where it stands, not annotated with a dated note — per the reinforced discipline in `.claude/rules/research-files.md` ("Synthesize by topic or finding … and assimilate") and `.claude/rules/sources.md` ("Promotions assimilate; they do not append"). The corpus extract behind the correction is `sources/corpus_supplement/ryvett-suffolk-visitation-pedigrees-metcalfe.md`.

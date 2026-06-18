@@ -1,3 +1,5 @@
+**Done:** 2026-06-18 19:50 PT
+
 # Patchset v101 — Gurney G13 direct-line discovery arc (Phase 1)
 
 Bundles the promotable findings of the June 2026 multi-turn research arc on the **John Gurney

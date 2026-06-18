@@ -35,7 +35,10 @@ Francis Rivet's household to the older Rivett testators.
 Garveston adjoins **East Dereham** (~4 miles), where Francis Gurney settled and John was
 born; the Rivett presence runs continuously there (christenings 1547–1620, two children
 attributed to Francis Rivet: Margaret 1586 and Grace 1603), with **Margaret Bate Rivett**
-dying at Garveston in 1584 (probate) — the likely namesake.[^fs][^prob] Three miles the other
+dying at Garveston in 1584 (probate) — the likely namesake.[^fs][^prob] The register separates
+at least **three** Rivet households in the parental generation: **Francis** (Margaret 1586,
+Grace 1603), **Edmund** (Elen, christened 11 April 1593), and **Robert** (a child christened
+October 1571); none of these entries names a mother.[^reg-p19] Three miles the other
 way, **Richard Ryvett of Gressenhall** married Faith in 1602 and had a daughter Alice baptized
 there in 1611 — the documented "Richard Ryvett of Gressenhall" long hypothesized as the source
 of John Gurney's son **Richard**'s name.[^fmpr]
@@ -90,14 +93,12 @@ or unconnected is unresolved (lead L-133). The Brandeston branch (John Ryvett ×
 has a daughter Margaret and a Gressenhall (Trench) marriage, but the Garveston Margaret is the
 stronger candidate for Francis Gurney's wife.
 
-## Correction flag — Mirabella Ryvett's marriage
+## Myrable Ryvett's marriage
 
-The G14 fact sheet and the John Gurney case file state that *Mirabella Ryvett married Sir John
-Heydon of Baconsthorpe*, connecting the Rivetts to the Gurney–Heydon cousinage. The primary
-Visitation of Suffolk (Metcalfe, p. 63) instead records **Myrable Ryvett married William Burd,
-Customer of London**. The Rivett–Heydon leg is therefore in conflict with the primary source
-and should be reconciled/corrected (lead L-132); the Gurney–Heydon tie via Anne Heydon m.
-William Gurney V is independent and unaffected.
+The primary Visitation of Suffolk (Metcalfe, p. 63) records **Myrable Ryvett married William
+Burd, Customer of London**, not Sir John Heydon of Baconsthorpe. The false Ryvett–Heydon
+marriage has been removed from the G14 fact sheet and corrected in the John Gurney case file;
+the Gurney–Heydon tie via Anne Heydon m. William Gurney V is independent and unaffected.
 
 ## Open questions / leads
 
