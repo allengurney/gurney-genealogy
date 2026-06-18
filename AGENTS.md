@@ -22,7 +22,7 @@ For routine edits, open only files the task requires. Do not pre-load full sourc
 
 For discovery and research tasks where exploring the repo *is* the work, breadth is appropriate — but use targeted search (Grep / Glob) to find candidates first, then read only the files that match. Sequential full-file reads of large directories should be rare.
 
-For `research/future-research/research-leads.csv`, do not read or rewrite the full CSV for single-lead work. Use `python tools/research_leads.py context L-123`, `priority`, `get`, `update`, or `close` instead. Read the full CSV only for broad catalog audits, schema changes, or when the lead CLI cannot answer the task.
+For `research/future-research/research-leads.csv`, do not read or rewrite the full CSV for single-lead work. Use `python tools/research_leads.py context L-123`, `priority`, `get`, `update`, `close`, or `audit` instead. Read the full CSV only for broad catalog audits, schema changes, or when the lead CLI cannot answer the task.
 
 When in doubt for an edit task, open the target file first and let it tell you what adjacent files matter.
 

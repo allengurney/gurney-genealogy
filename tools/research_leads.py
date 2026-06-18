@@ -49,8 +49,10 @@ REQUIRED_OPEN_FIELDS = [
     "Source ref",
 ]
 
-# Thin done archive. Do not put full research narratives here.
-STANDARD_DONE_FIELDS = ["ID", "Subject", "Disposition", "Date", "Source ref"]
+# Thin done archive. Do not put full research narratives here. The fifth column is
+# named "Companion ref" to match the existing research-leads-done.csv; the value is
+# carried over from the open row's "Source ref".
+STANDARD_DONE_FIELDS = ["ID", "Subject", "Disposition", "Date", "Companion ref"]
 
 # Controlled/recommended values. Existing CSV rows may be looser; new writes warn.
 ONLINE_VALUES = {"Y", "Part", "N", "Unk"}
@@ -71,6 +73,13 @@ FIELD_LENGTH_WARN = {
     "Source ref": 160,
 }
 ROW_LENGTH_WARN = 900
+
+# Columns the canonical CSV always quotes, even when the value needs no escaping.
+# This preserves the file's hand-authored quoting style so a single-field edit
+# diffs at one or two rows instead of reflowing every line. All other columns use
+# minimal quoting (quote only when the value contains a comma/quote/newline).
+ALWAYS_QUOTE_FIELDS = {"Subject", "Lead/Source", "Description"}
+_QUOTE_TRIGGER_CHARS = (",", '"', "\n", "\r")
 
 # Characters that are legal in CSV but risky for human/manual editing.
 RISKY_TEXT_CHARS = {
@@ -150,8 +159,8 @@ class LeadStore:
         source = list(self.rows if rows is None else rows)
         return sorted(source, key=lambda row: (-parse_priority(row.get("Priority", "")), id_sort_key(row.get("ID", ""))))
 
-    def write_open(self, rows: list[dict[str, str]], *, dry_run: bool, backup: bool) -> str | None:
-        return write_csv_atomic(self.open_path, self.headers, rows, dry_run=dry_run, backup=backup)
+    def write_open(self, rows: list[dict[str, str]], *, dry_run: bool, backup: bool, verbose: bool = False) -> str | None:
+        return write_csv_atomic(self.open_path, self.headers, rows, dry_run=dry_run, backup=backup, verbose=verbose)
 
 
 def find_repo_root(start: Path | None = None) -> Path:
@@ -222,11 +231,66 @@ def normalize_cell(value: Any) -> str:
     return str(value)
 
 
-def write_csv_atomic(path: Path, headers: Sequence[str], rows: Sequence[dict[str, str]], *, dry_run: bool, backup: bool) -> str | None:
+def _truncate(value: str, width: int = 100) -> str:
+    collapsed = " ".join((value or "").split())
+    return collapsed if len(collapsed) <= width else collapsed[: width - 1] + "…"
+
+
+def format_row_dry_run(path: Path, headers: Sequence[str], new_rows: Sequence[dict[str, str]]) -> str:
+    """Compact dry-run: report only the rows that change, field by field.
+
+    The full-file unified diff is hostile to review on this CSV (every row is one
+    long line), so by default a single-field edit prints just that row's deltas.
+    Pass --verbose to get the unified diff instead.
+    """
+
+    old_rows: list[dict[str, str]] = []
+    if path.exists():
+        _, old_rows, _ = read_csv_dicts(path)
+
+    def by_id(rows: Sequence[dict[str, str]]) -> dict[str, dict[str, str]]:
+        indexed: dict[str, dict[str, str]] = {}
+        for position, row in enumerate(rows):
+            indexed[row.get("ID") or f"__row{position}"] = row
+        return indexed
+
+    old, new = by_id(old_rows), by_id(new_rows)
+    added = [lead_id for lead_id in new if lead_id not in old]
+    removed = [lead_id for lead_id in old if lead_id not in new]
+    changed: list[tuple[str, list[tuple[str, str, str]]]] = []
+    for lead_id, row in new.items():
+        prior = old.get(lead_id)
+        if prior is None:
+            continue
+        deltas = [(name, prior.get(name, ""), row.get(name, "")) for name in headers if prior.get(name, "") != row.get(name, "")]
+        if deltas:
+            changed.append((lead_id, deltas))
+
+    lines = [
+        f"# dry-run: {len(changed)} changed, {len(added)} added, {len(removed)} removed; "
+        "no file written. Use --verbose for the full unified diff."
+    ]
+    for lead_id, deltas in changed:
+        lines.append(f"~ {lead_id}")
+        for name, old_value, new_value in deltas:
+            lines.append(f"    {name}: {_truncate(old_value)!r} -> {_truncate(new_value)!r}")
+    for lead_id in added:
+        row = new[lead_id]
+        priority = row.get("Priority", "")
+        label = f"P{priority}  " if priority else ""
+        lines.append(f"+ {lead_id}  {label}{_truncate(row.get('Subject', ''), 60)}")
+    for lead_id in removed:
+        lines.append(f"- {lead_id}  {_truncate(old[lead_id].get('Subject', ''), 60)}")
+    return "\n".join(lines)
+
+
+def write_csv_atomic(path: Path, headers: Sequence[str], rows: Sequence[dict[str, str]], *, dry_run: bool, backup: bool, verbose: bool = False) -> str | None:
     """Atomically rewrite a CSV file, optionally leaving a timestamped backup."""
 
     serialized = serialize_csv(headers, rows)
     if dry_run:
+        if not verbose:
+            return format_row_dry_run(path, headers, rows)
         before = path.read_text(encoding="utf-8-sig") if path.exists() else ""
         diff = difflib.unified_diff(
             before.splitlines(keepends=True),
@@ -234,7 +298,7 @@ def write_csv_atomic(path: Path, headers: Sequence[str], rows: Sequence[dict[str
             fromfile=str(path),
             tofile=f"{path} (proposed)",
         )
-        return "".join(diff)
+        return "# dry-run: full unified diff (--verbose)\n" + "".join(diff)
 
     path.parent.mkdir(parents=True, exist_ok=True)
     if backup and path.exists():
@@ -253,17 +317,29 @@ def write_csv_atomic(path: Path, headers: Sequence[str], rows: Sequence[dict[str
     return None
 
 
+def _serialize_cell(field_name: str, value: str, *, is_header: bool) -> str:
+    """Quote one cell, preserving the canonical CSV's per-column quoting style."""
+
+    always = (not is_header) and bool(value) and field_name in ALWAYS_QUOTE_FIELDS
+    if always or any(char in value for char in _QUOTE_TRIGGER_CHARS):
+        return '"' + value.replace('"', '""') + '"'
+    return value
+
+
 def serialize_csv(headers: Sequence[str], rows: Sequence[dict[str, str]]) -> str:
-    """Serialize rows using csv module so commas/quotes are correctly escaped."""
+    """Serialize rows with commas/quotes escaped, matching the canonical file's
+    per-column quoting (always-quote narrative columns, minimal elsewhere).
 
-    from io import StringIO
+    Output matches csv.writer escaping but keeps the always-quoted narrative
+    columns quoted so routine single-field edits produce a one-row diff instead
+    of reflowing the whole file. See ALWAYS_QUOTE_FIELDS.
+    """
 
-    buffer = StringIO()
-    writer = csv.DictWriter(buffer, fieldnames=list(headers), extrasaction="ignore", lineterminator="\n")
-    writer.writeheader()
+    header_names = list(headers)
+    lines = [",".join(_serialize_cell(name, name, is_header=True) for name in header_names)]
     for row in rows:
-        writer.writerow({header: row.get(header, "") for header in headers})
-    return buffer.getvalue()
+        lines.append(",".join(_serialize_cell(name, row.get(name, ""), is_header=False) for name in header_names))
+    return "\n".join(lines) + "\n"
 
 
 def ensure_done_file(path: Path, dry_run: bool) -> tuple[list[str], list[dict[str, str]], list[WarningMessage]]:
@@ -276,6 +352,17 @@ def ensure_done_file(path: Path, dry_run: bool) -> tuple[list[str], list[dict[st
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(",".join(STANDARD_DONE_FIELDS) + "\n", encoding="utf-8")
     return read_csv_dicts(path)
+
+
+# A lead is "stale-done" when its Status reads as a concluded disposition while
+# the row still sits in the OPEN csv (it should have been moved to the done csv).
+# The convention is that such a Status leads with the disposition verb, allowing a
+# couple of qualifying words ("Probate clause DONE", "Blomefield part DONE").
+STALE_DONE_RE = re.compile(r"^(?:\w+[\s\-]+){0,2}(done|resolved)\b", re.IGNORECASE)
+
+
+def is_stale_done(status: str) -> bool:
+    return bool(STALE_DONE_RE.match((status or "").strip()))
 
 
 def parse_priority(value: str) -> int:
@@ -410,7 +497,7 @@ def validate_catalog(store: LeadStore, done_path: Path) -> list[WarningMessage]:
         overlap = sorted(set(seen) & done_ids, key=id_sort_key)
         for lead_id in overlap:
             warnings.append(WarningMessage("open-done-overlap", f"Lead ID {lead_id} appears in both open and done CSVs.", lead_id=lead_id))
-        for field_name in ["ID", "Subject", "Disposition", "Date", "Source ref"]:
+        for field_name in STANDARD_DONE_FIELDS:
             if field_name not in done_headers:
                 warnings.append(WarningMessage("done-missing-column", f"Done CSV is missing expected column {field_name!r}.", field=field_name))
 
@@ -509,7 +596,9 @@ def format_markdown_table(rows: Sequence[dict[str, str]], fields: Sequence[str])
 def format_compact_row(row: dict[str, str]) -> str:
     priority = row.get("Priority", "")
     online = row.get("Online", "")
-    status = row.get("Status", "")
+    status = " ".join(row.get("Status", "").split())
+    if len(status) > 80:
+        status = status[:79] + "…"
     subject = " ".join(row.get("Subject", "").split())
     source = " ".join(row.get("Lead/Source", "").split())
     if len(source) > 120:
@@ -653,14 +742,36 @@ def command_priority(args: argparse.Namespace) -> int:
     else:
         allowed_online = ONLINE_REACHABLE_DEFAULT
 
-    rows = [row for row in store.rows if row.get("Online", "") in allowed_online]
-    status_values = args.status or ["Open", "Partial"]
-    rows = [row for row in rows if row.get("Status", "") in set(status_values)]
+    # Status filter: an explicit --status uses exact match (legacy behaviour); the
+    # default keeps every live lead and only drops concluded (stale-done) rows.
+    # Exact matching on {"Open","Partial"} silently hid the 42 leads whose Status is
+    # a narrative blob, which are exactly the highest-value in-flight ones.
+    status_filtered = list(store.rows)
+    if args.status:
+        wanted = set(args.status)
+        status_filtered = [row for row in status_filtered if row.get("Status", "") in wanted]
+    else:
+        status_filtered = [row for row in status_filtered if not is_stale_done(row.get("Status", ""))]
     if args.min_priority is not None:
-        rows = [row for row in rows if parse_priority(row.get("Priority", "")) >= args.min_priority]
+        status_filtered = [row for row in status_filtered if parse_priority(row.get("Priority", "")) >= args.min_priority]
+
+    rows = [row for row in status_filtered if row.get("Online", "") in allowed_online]
     rows = store.sorted_rows(rows)[: args.limit]
     fields = args.fields.split(",") if args.fields else ["ID", "Priority", "Gen", "Subject", "Lead/Source", "Online", "Status", "Source ref"]
     warnings = store.load_warnings if args.warnings else []
+
+    # One-line banner: surface high-value offline leads that this online-optimized
+    # view hides, so a quick `priority` triage does not silently miss them.
+    if not args.include_offline and args.format in {"compact", "markdown"}:
+        hidden = store.sorted_rows([row for row in status_filtered if row.get("Online", "") == "N"])
+        if hidden:
+            top = hidden[:2]
+            ids = ", ".join(f"{r.get('ID', '')} (P{r.get('Priority', '')})" for r in top)
+            print(
+                f"# Note: {len(hidden)} offline lead(s) hidden (Online=N), highest {ids}. "
+                "Use --include-offline to show."
+            )
+
     print(format_rows(rows, output_format=args.format, fields=fields, warnings=warnings))
     return 0
 
@@ -701,6 +812,45 @@ def command_validate(args: argparse.Namespace) -> int:
     return 1 if warnings and args.fail_on_warnings else 0
 
 
+def command_audit(args: argparse.Namespace) -> int:
+    _, open_path, done_path = resolve_paths(args)
+    store = LeadStore.load(open_path, done_path)
+    threshold = args.status_threshold
+
+    stale = store.sorted_rows([row for row in store.rows if is_stale_done(row.get("Status", ""))])
+    long_status = store.sorted_rows([row for row in store.rows if len(row.get("Status", "")) > threshold])
+
+    if args.format == "json":
+        print(
+            json.dumps(
+                {
+                    "threshold": threshold,
+                    "stale_done": [
+                        {"ID": r.get("ID", ""), "Priority": r.get("Priority", ""), "Status": r.get("Status", "")}
+                        for r in stale
+                    ],
+                    "long_status": [
+                        {"ID": r.get("ID", ""), "Priority": r.get("Priority", ""), "status_len": len(r.get("Status", "")), "Subject": r.get("Subject", "")}
+                        for r in long_status
+                    ],
+                },
+                ensure_ascii=False,
+                indent=2,
+            )
+        )
+        return 0
+
+    lines = [f"Stale-done — concluded Status still in open CSV (close these): {len(stale)}"]
+    for row in stale:
+        lines.append(f"  {row.get('ID', ''):6s} P{row.get('Priority', ''):<3} {_truncate(row.get('Status', ''), 90)}")
+    lines.append("")
+    lines.append(f"Over-length Status — > {threshold} chars, move narrative to the companion: {len(long_status)}")
+    for row in long_status:
+        lines.append(f"  {row.get('ID', ''):6s} P{row.get('Priority', ''):<3} len={len(row.get('Status', '')):5d}  {_truncate(row.get('Subject', ''), 50)}")
+    print("\n".join(lines))
+    return 0
+
+
 def command_add(args: argparse.Namespace) -> int:
     _, open_path, done_path = resolve_paths(args)
     store = LeadStore.load(open_path, done_path)
@@ -727,7 +877,7 @@ def command_add(args: argparse.Namespace) -> int:
     warnings = apply_text_validation_to_updates(row, allow_multiline=args.allow_multiline, lead_id=lead_id)
     warnings.extend(validate_row(row, existing=False))
     rows = store.rows + [row]
-    diff = store.write_open(rows, dry_run=args.dry_run, backup=not args.no_backup)
+    diff = store.write_open(rows, dry_run=args.dry_run, backup=not args.no_backup, verbose=getattr(args, "verbose", False))
 
     if args.format == "json":
         print(json.dumps({"action": "add", "id": lead_id, "dry_run": args.dry_run, "warnings": [w.as_dict() for w in warnings], "diff": diff}, ensure_ascii=False, indent=2))
@@ -763,7 +913,7 @@ def command_update(args: argparse.Namespace) -> int:
     warnings.extend(validate_row(updated_row, existing=False))
 
     new_rows = [updated_row if existing.get("ID") == lead_id else existing for existing in store.rows]
-    diff = store.write_open(new_rows, dry_run=args.dry_run, backup=not args.no_backup)
+    diff = store.write_open(new_rows, dry_run=args.dry_run, backup=not args.no_backup, verbose=getattr(args, "verbose", False))
 
     if args.format == "json":
         print(json.dumps({"action": "update", "id": lead_id, "dry_run": args.dry_run, "updates": updates, "warnings": [w.as_dict() for w in warnings], "diff": diff}, ensure_ascii=False, indent=2))
@@ -801,7 +951,7 @@ def command_close(args: argparse.Namespace) -> int:
             "Subject": row.get("Subject", ""),
             "Disposition": args.disposition,
             "Date": close_date,
-            "Source ref": row.get("Source ref", ""),
+            "Companion ref": row.get("Source ref", ""),
         }
     )
 
@@ -811,8 +961,9 @@ def command_close(args: argparse.Namespace) -> int:
     new_open_rows = [existing for existing in store.rows if existing.get("ID") != lead_id]
     new_done_rows = done_rows + [done_row]
 
-    open_diff = store.write_open(new_open_rows, dry_run=args.dry_run, backup=not args.no_backup)
-    done_diff = write_csv_atomic(done_path, done_headers, new_done_rows, dry_run=args.dry_run, backup=not args.no_backup)
+    verbose = getattr(args, "verbose", False)
+    open_diff = store.write_open(new_open_rows, dry_run=args.dry_run, backup=not args.no_backup, verbose=verbose)
+    done_diff = write_csv_atomic(done_path, done_headers, new_done_rows, dry_run=args.dry_run, backup=not args.no_backup, verbose=verbose)
 
     warnings = store.load_warnings + done_load_warnings + disposition_warnings
 
@@ -882,6 +1033,7 @@ def add_write_args(parser: argparse.ArgumentParser) -> None:
     parser.add_argument("--dry-run", action="store_true", help="Show a unified diff instead of writing files.")
     parser.add_argument("--no-backup", action="store_true", help="Do not create timestamped .bak files before writing.")
     parser.add_argument("--allow-multiline", action="store_true", help="Permit line breaks inside CSV fields. Not recommended for manual workflows.")
+    parser.add_argument("--verbose", action="store_true", help="With --dry-run, print the full unified diff instead of the compact per-row change summary.")
     parser.add_argument("--format", choices=["compact", "json"], default="compact", help="Output format.")
 
 
@@ -938,6 +1090,11 @@ def build_parser() -> argparse.ArgumentParser:
     p_validate.add_argument("--format", choices=["compact", "json"], default="compact", help="Output format.")
     p_validate.add_argument("--fail-on-warnings", action="store_true", help="Return exit code 1 if warnings exist. Default always exits 0.")
     p_validate.set_defaults(func=command_validate)
+
+    p_audit = sub.add_parser("audit", help="Health audit: stale-done leads still open + over-length Status fields.")
+    p_audit.add_argument("--status-threshold", type=int, default=FIELD_LENGTH_WARN["Status"], help=f"Flag Status longer than this many characters. Default {FIELD_LENGTH_WARN['Status']}.")
+    p_audit.add_argument("--format", choices=["compact", "json"], default="compact", help="Output format.")
+    p_audit.set_defaults(func=command_audit)
 
     p_add = sub.add_parser("add", help="Append a new open lead with the next ID unless --id is supplied.")
     p_add.add_argument("--id", help="Optional explicit lead ID. Normally omitted.")

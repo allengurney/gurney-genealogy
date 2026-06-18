@@ -15,16 +15,25 @@ Use `tools/research_leads.py` for routine lead-catalog reads and writes. This ke
 Common commands:
 
 ```bash
-python tools/research_leads.py priority
-python tools/research_leads.py priority --brief
+python tools/research_leads.py priority                 # top online leads; banner flags hidden Online=N
+python tools/research_leads.py priority --include-offline   # include Online=N (e.g. College-of-Arms pulls)
 python tools/research_leads.py context L-123
 python tools/research_leads.py get L-123 --warnings
 python tools/research_leads.py list --online-reachable --min-priority 60
 python tools/research_leads.py search "Great Ellingham"
-python tools/research_leads.py update L-123 --status Partial --dry-run
+python tools/research_leads.py update L-123 --status Partial --dry-run    # compact per-row change preview
+python tools/research_leads.py update L-123 --status Partial --dry-run --verbose   # full unified diff
 python tools/research_leads.py close L-123 --disposition "Resolved; companion updated." --dry-run
+python tools/research_leads.py audit                    # stale-done still-open + over-length Status
 python tools/research_leads.py validate
 ```
+
+Notes on `priority`: it is value-ranked and online-optimised — by default it shows
+`Online=Y`/`Part` and prints a one-line banner naming the highest hidden `Online=N`
+leads (use `--include-offline` to see them). It excludes only concluded
+(stale-done) rows, so high-value leads carrying a narrative `Status` still surface.
+`--dry-run` prints just the changed rows; add `--verbose` for the full unified diff.
+Writes preserve the file's per-column quoting so a single-field edit diffs at one row.
 
 ## `research-leads.csv` columns
 
@@ -42,7 +51,7 @@ python tools/research_leads.py validate
 
 ## Priority rubric (value/impact, independent of availability)
 
-Priority scores **genealogical impact only** — it deliberately ignores whether the source is online. That way, if a source's `Online` status later changes, the priority does not need recalculating. Use the `Online` column to triage *which* high-value leads are reachable now. Priority is a function of multiple factors including value, impact, importance, quality, reliability, novelty, scope, and others.
+Priority scores **genealogical impact only** — it deliberately ignores whether the source is online **and how far the lead has already been worked**. That way, if a source's `Online` status later changes, or a lead is partly resolved, the priority does not need recalculating: a partly-worked lead keeps its impact score, and its remaining work is tracked in `Status` / the companion (and surfaced by `audit`), not by demoting it. Use the `Online` column to triage *which* high-value leads are reachable now. Priority is a function of multiple factors including value, impact, importance, quality, reliability, novelty, scope, and others.
 
 - **85–100 — identity- or pedigree-resolving.** Would close a major open question (e.g. the G13 emigrant's origin, the G22 heralds' pedigree).
 - **60–84 — strongly anchoring.** Pins a death date, parentage, marriage, or manor descent at a documented transition.
