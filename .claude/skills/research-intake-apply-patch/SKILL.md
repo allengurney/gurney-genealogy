@@ -51,3 +51,9 @@ All explicit instructions in the patchset are applied, and the summary reports:
 - validations created
 - archive and rollover actions completed
 - patchset moved to `sources/intake/done/`
+
+After content, source, or research-path changes, run
+`.\.venv\Scripts\python.exe tools\repo_search.py index --update` followed by
+`.\.venv\Scripts\python.exe tools\repo_search.py index --check`. This refreshes
+the machine-local retrieval accelerator; exact repository-search completeness
+still comes from the tool's independent ripgrep ledger.

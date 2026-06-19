@@ -2649,7 +2649,7 @@
     "corpusPath": "sources/corpus_supplement/rivett-garveston-maternal-family-2026-06.md",
     "mediaPath": "",
     "validationPath": "sources/validations/norfolk-wills-probate-index-1371-1858.md",
-    "notes": "Margaret Bate Rivett probate 1584, Garveston. Index level; underlying NCC/Archdeaconry wills not yet pulled."
+    "notes": "Margaret Bate Rivett probate 1584, Garveston. Index level; the underlying NCC registered-copy will is now image-read — see sourceId ncc-will-1584-margaret-bate-rivett-garveston."
   },
   {
     "sourceId": "norman-geo-archives76-commune-dossiers-2026",
@@ -3862,6 +3862,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/wikitree-newgate-14-horningsheath.md",
     "notes": "Compiled-genealogy source used in the case file solely for the John Newgate origin location (Horningsheath, Suffolk, ~3 miles from Bury St Edmunds). The Horningsheath origin is the cleanest explanation for Banks's 'Bury St Edmunds' attribution: the 1636 apprentice John Gurney whom Newgate brought before the governor would naturally have come from Newgate's own region. Treat as compiled-genealogy lead, not primary."
+  },
+  {
+    "sourceId": "ncc-will-1584-margaret-bate-rivett-garveston",
+    "shortTitle": "Will of Margaret (Bate) Rivett of Garveston, widow, 1584",
+    "citation": "Will of Margaret Ryvett of Garveston, Norfolk, widow, dated 5 June 1584; Norwich Consistory Court registered-copy will register \"Bate\" (vol. 83, 1583-1584), folio 399. FamilySearch image group DGS 007904021 (viewer image 442, continuing image 443, ark 3:1:3Q9M-CSH9-GQ8V-R); Norfolk Record Office microfilm MF 66; abstracted in Norfolk Record Society vol. 21.",
+    "archive": "Norfolk Record Office (originals); FamilySearch International (registered-copy images)",
+    "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH9-GQ8V-R",
+    "corpusStatus": "extract",
+    "corpusPath": "sources/corpus_supplement/rivett-garveston-maternal-family-2026-06.md",
+    "mediaPath": "sources/media/ncc-wills-registers/_local/bate-reg-fo399-img442-margaret-rivett-will.jpg",
+    "validationPath": "sources/validations/ncc-will-1584-margaret-bate-rivett-garveston.md",
+    "notes": "Image-read June 2026 (paleography packet 21a). Legatee network: Wright, Clayton, Raymond, Newton kin plus 'Marye Ryvett my daughter in lawe'. Names no Francis/Margaret Rivet and no Gurney — does not bridge the widow to Margaret Rivet (bp 1586, dau of Francis). Master in _local (FamilySearch terms). The companion 1597 Robert Rivett administration (NCC admon act book vol. 8, DGS 008077845, image 204) is cited via familysearch-fulltext-search."
   },
   {
     "sourceId": "william-of-poitou-gesta-guillelmi",

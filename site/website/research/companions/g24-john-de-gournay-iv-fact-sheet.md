@@ -40,7 +40,7 @@ The Rector independently surfaces in the Norfolk feet of fines: Rye's calendar, 
 2026-04-18 — John IV's active years (c. 1330–1370) span two of the most traumatic events in medieval English history: the Black Death (1348–49) and the early victories of the Hundred Years' War (Crécy 1346, Poitiers 1356). No evidence places him at either event, but the manorial court of 1354 — just five years after the plague — shows him actively managing his estates through the post-pandemic landscape.
 
 ### Sir John Gurney (d. 1408) — the collateral
-2026-04-18 — The collateral Sir John Gurney (sometimes called "John V" in DG numbering) is *not* G24. He is classified as collateral in AI-Rules §7 correction #3: "Sir John Gurney (d.1408) is collateral. Direct: Edmund G23 → Robert G22 → Thomas I G21 → Thomas II G20." DG-Supp Note 121 provides the IPM (Inquisition Post Mortem) proving Sir John died 5 December 1408, with his son Edmund (aged 10) as heir — who then "died sine prole, and probably under age." Sir John's successor was therefore his nephew Thomas (G21).
+2026-04-18 — The collateral Sir John Gurney (sometimes called "John V" in DG numbering) is *not* G24. He is collateral, not the direct line: the direct succession is Edmund G23 → Robert G22 → Thomas I G21 → Thomas II G20. DG-Supp Note 121 provides the IPM (Inquisition Post Mortem) proving Sir John died 5 December 1408, with his son Edmund (aged 10) as heir — who then "died sine prole, and probably under age." Sir John's successor was therefore his nephew Thomas (G21).
 
 This is critical for the lineage: the direct line skips Sir John entirely, passing from G23 Edmund through Robert (G22) to Thomas I (G21).
 

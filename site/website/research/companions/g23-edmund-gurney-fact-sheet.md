@@ -89,7 +89,7 @@ DG-Supp Note 117 also notes the Saxthorpe (Loundhall) manor: "John de Mereworthe
 - Blomefield gives John's death as 1407 (one year earlier) — DG corrects this to 1408 based on the IPM.
 - Similar inquisitions were taken at Attlebridge and Rudham, both with the same findings.
 
-**This is the critical proof for AI-Rules §7 correction #3:** Sir John Gurney (d.1408) is collateral. His son Edmund died young without issue. The direct line passes through G23 Edmund's other son Robert (G22), whose son Thomas (G21) became Sir John's successor.
+**This is the critical proof of the direct-vs-collateral line:** Sir John Gurney (d.1408) is collateral. His son Edmund died young without issue. The direct line passes through G23 Edmund's other son Robert (G22), whose son Thomas (G21) became Sir John's successor.
 
 ### Patent Roll 1406 — Walsingham land grant (DG-Supp Note 120)
 2026-04-18 — Patent Roll Henry IV, p. 2, m. 29 (1406): "Johanni Gournay, Johanni Drew persona ecclesie de Harplee, Ricardo Creyk et Johanni Lynge seniori" licensed to grant 80 acres in Burnham to the Prior and Convent of Walsingham, for anniversaries of Edmund de Reynham, knight, and Cristiana his wife.

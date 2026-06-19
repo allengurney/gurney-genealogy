@@ -80,9 +80,9 @@ This maternal-kin route is not the only fostering candidate. If the first-marria
 stayed in Norfolk rather than joining the London household, the **paternal Gurney kin** are an
 equally live option: Francis's father Henry Gurnay (G15) lived at Great Ellingham until his
 death (1621×1623), and Francis's brothers — Thomas, Henry, Edward, and Anthony Gurnay — were
-the boys' uncles. The two routes can be tested in parallel; see leads L-136 (paternal fostering)
-and L-137 (the brother **Edward**, b. c. 1611, as the rarer-named tracer — find Edward in youth
-and John should be near).
+the boys' uncles. The indexed adult-trail search for John's brother **Edward** is exhausted
+without a candidate; the remaining paternal-fostering route is the targeted Great Ellingham
+and West Barsham manorial and probate work under L-136.
 
 ## Relationship to the Suffolk Ryvett gentry — open
 
