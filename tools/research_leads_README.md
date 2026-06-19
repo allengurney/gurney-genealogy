@@ -23,6 +23,8 @@ python tools/research_leads.py priority --brief
 python tools/research_leads.py get L-115 --format json --warnings
 python tools/research_leads.py update L-115 --status Partial --dry-run
 python tools/research_leads.py close L-115 --disposition "Resolved; companion updated." --dry-run
+python tools/research_leads.py audit
+python tools/research_leads.py audit --verbose
 python tools/research_leads.py validate
 ```
 
@@ -192,6 +194,20 @@ By default validation exits `0` even when warnings exist, because this repo alre
 ```bash
 python tools/research_leads.py validate --fail-on-warnings
 ```
+
+### Audit catalog health
+
+```bash
+python tools/research_leads.py audit
+python tools/research_leads.py audit --verbose
+python tools/research_leads.py audit --format json
+python tools/research_leads.py audit --format json --verbose
+```
+
+The default output reports only counts for stale-done leads and over-length
+`Status` fields. Add `--verbose` when the affected lead IDs and details are
+needed. JSON follows the same rule: counts by default, detailed arrays only
+with `--verbose`.
 
 ## Write commands
 

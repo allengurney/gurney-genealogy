@@ -821,10 +821,14 @@ def command_audit(args: argparse.Namespace) -> int:
     long_status = store.sorted_rows([row for row in store.rows if len(row.get("Status", "")) > threshold])
 
     if args.format == "json":
-        print(
-            json.dumps(
+        result: dict[str, object] = {
+            "threshold": threshold,
+            "stale_done_count": len(stale),
+            "long_status_count": len(long_status),
+        }
+        if args.verbose:
+            result.update(
                 {
-                    "threshold": threshold,
                     "stale_done": [
                         {"ID": r.get("ID", ""), "Priority": r.get("Priority", ""), "Status": r.get("Status", "")}
                         for r in stale
@@ -833,7 +837,11 @@ def command_audit(args: argparse.Namespace) -> int:
                         {"ID": r.get("ID", ""), "Priority": r.get("Priority", ""), "status_len": len(r.get("Status", "")), "Subject": r.get("Subject", "")}
                         for r in long_status
                     ],
-                },
+                }
+            )
+        print(
+            json.dumps(
+                result,
                 ensure_ascii=False,
                 indent=2,
             )
@@ -841,12 +849,20 @@ def command_audit(args: argparse.Namespace) -> int:
         return 0
 
     lines = [f"Stale-done — concluded Status still in open CSV (close these): {len(stale)}"]
-    for row in stale:
-        lines.append(f"  {row.get('ID', ''):6s} P{row.get('Priority', ''):<3} {_truncate(row.get('Status', ''), 90)}")
-    lines.append("")
     lines.append(f"Over-length Status — > {threshold} chars, move narrative to the companion: {len(long_status)}")
-    for row in long_status:
-        lines.append(f"  {row.get('ID', ''):6s} P{row.get('Priority', ''):<3} len={len(row.get('Status', '')):5d}  {_truncate(row.get('Subject', ''), 50)}")
+    if args.verbose:
+        if stale:
+            lines.append("")
+            lines.append("Stale-done details:")
+            for row in stale:
+                lines.append(f"  {row.get('ID', ''):6s} P{row.get('Priority', ''):<3} {_truncate(row.get('Status', ''), 90)}")
+        if long_status:
+            lines.append("")
+            lines.append("Over-length Status details:")
+            for row in long_status:
+                lines.append(f"  {row.get('ID', ''):6s} P{row.get('Priority', ''):<3} len={len(row.get('Status', '')):5d}  {_truncate(row.get('Subject', ''), 50)}")
+    elif stale or long_status:
+        lines.append("Use --verbose for lead details.")
     print("\n".join(lines))
     return 0
 
@@ -1094,6 +1110,7 @@ def build_parser() -> argparse.ArgumentParser:
     p_audit = sub.add_parser("audit", help="Health audit: stale-done leads still open + over-length Status fields.")
     p_audit.add_argument("--status-threshold", type=int, default=FIELD_LENGTH_WARN["Status"], help=f"Flag Status longer than this many characters. Default {FIELD_LENGTH_WARN['Status']}.")
     p_audit.add_argument("--format", choices=["compact", "json"], default="compact", help="Output format.")
+    p_audit.add_argument("--verbose", action="store_true", help="List affected leads. Default prints summary counts only.")
     p_audit.set_defaults(func=command_audit)
 
     p_add = sub.add_parser("add", help="Append a new open lead with the next ID unless --id is supplied.")

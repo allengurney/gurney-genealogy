@@ -24,7 +24,8 @@ python tools/research_leads.py search "Great Ellingham"
 python tools/research_leads.py update L-123 --status Partial --dry-run    # compact per-row change preview
 python tools/research_leads.py update L-123 --status Partial --dry-run --verbose   # full unified diff
 python tools/research_leads.py close L-123 --disposition "Resolved; companion updated." --dry-run
-python tools/research_leads.py audit                    # stale-done still-open + over-length Status
+python tools/research_leads.py audit                    # summary counts: stale-done + over-length Status
+python tools/research_leads.py audit --verbose          # list affected leads
 python tools/research_leads.py validate
 ```
 
