@@ -22,3 +22,6 @@ lxml
 
 # Spreadsheets
 openpyxl
+
+# Repository search entity resolution (bounded names/headings/filenames only)
+RapidFuzz

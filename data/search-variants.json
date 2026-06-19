@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "description": "Curated search expansions. Place aliases remain canonical in data/indexes/place-ids.csv. Conservative variants are normally safe automatic expansions; broad variants are source-, era-, OCR-, or transcription-sensitive.",
+  "variantSets": [
+    {
+      "id": "surname-gurney",
+      "canonical": "Gurney",
+      "kind": "surname",
+      "variants": [
+        {
+          "term": "Gournay",
+          "category": "attested-spelling",
+          "profile": "conservative",
+          "eras": ["medieval", "early-modern"],
+          "languages": ["English", "French"],
+          "note": "Common medieval, Anglo-Norman, and antiquarian form."
+        },
+        {
+          "term": "Gurnay",
+          "category": "attested-spelling",
+          "profile": "conservative",
+          "eras": ["medieval", "early-modern"]
+        },
+        {
+          "term": "Gourney",
+          "category": "attested-spelling",
+          "profile": "conservative",
+          "eras": ["medieval", "early-modern", "modern"]
+        },
+        {
+          "term": "Gurny",
+          "category": "attested-spelling",
+          "profile": "conservative",
+          "eras": ["early-modern", "colonial"]
+        },
+        {
+          "term": "Gurnie",
+          "category": "attested-spelling",
+          "profile": "conservative",
+          "eras": ["early-modern", "colonial"]
+        },
+        {
+          "term": "de Gournay",
+          "category": "language-form",
+          "profile": "conservative",
+          "eras": ["medieval"],
+          "languages": ["French", "Latin", "English"]
+        },
+        {
+          "term": "de Gurnay",
+          "category": "attested-spelling",
+          "profile": "conservative",
+          "eras": ["medieval"]
+        },
+        {
+          "term": "Gernay",
+          "category": "attested-spelling",
+          "profile": "broad",
+          "eras": ["medieval", "early-modern"]
+        },
+        {
+          "term": "Gernays",
+          "category": "attested-spelling",
+          "profile": "broad",
+          "eras": ["medieval"],
+          "note": "Documentary form; use cautiously outside medieval records."
+        },
+        {
+          "term": "Gornay",
+          "category": "attested-spelling",
+          "profile": "broad",
+          "eras": ["medieval", "early-modern"]
+        },
+        {
+          "term": "Gorney",
+          "category": "attested-spelling",
+          "profile": "broad",
+          "eras": ["early-modern", "modern"]
+        },
+        {
+          "term": "Gurne",
+          "category": "attested-spelling",
+          "profile": "broad",
+          "eras": ["early-modern"]
+        },
+        {
+          "term": "Gourne",
+          "category": "attested-spelling",
+          "profile": "broad",
+          "eras": ["medieval", "early-modern"]
+        },
+        {
+          "term": "Gvrney",
+          "category": "transcription-confusion",
+          "profile": "broad",
+          "eras": ["early-modern"],
+          "note": "Indexed or transcribed u-v confusion."
+        },
+        {
+          "term": "Gurney",
+          "category": "canonical",
+          "profile": "conservative",
+          "eras": ["medieval", "early-modern", "colonial", "modern"]
+        }
+      ]
+    },
+    {
+      "id": "daniel-gurney-william-ocr",
+      "canonical": "William",
+      "kind": "source-specific-ocr",
+      "sourcePaths": [
+        "sources/corpus/daniel-gurney-part-1.md",
+        "sources/corpus/daniel-gurney-part-2.md",
+        "sources/corpus/daniel-gurney-part-3.md",
+        "sources/corpus/daniel-gurney-part-4.md"
+      ],
+      "variants": [
+        {
+          "term": "Wilham",
+          "category": "ocr-confusion",
+          "profile": "broad",
+          "note": "Known Daniel Gurney OCR confusion."
+        }
+      ]
+    },
+    {
+      "id": "daniel-gurney-basilia-ocr",
+      "canonical": "Basilia",
+      "kind": "source-specific-ocr",
+      "sourcePaths": [
+        "sources/corpus/daniel-gurney-part-1.md",
+        "sources/corpus/daniel-gurney-part-2.md",
+        "sources/corpus/daniel-gurney-part-3.md",
+        "sources/corpus/daniel-gurney-part-4.md"
+      ],
+      "variants": [
+        {
+          "term": "Basiha",
+          "category": "ocr-confusion",
+          "profile": "broad",
+          "note": "Known Daniel Gurney OCR confusion."
+        }
+      ]
+    }
+  ]
+}

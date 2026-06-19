@@ -20,7 +20,11 @@ On new session: read `AGENTS.md` and `README.md`. For a specific ancestor, read 
 
 For routine edits, open only files the task requires. Do not pre-load full source corpora, all fact sheets, all research companions, or unrelated generations unless the task specifically calls for them.
 
-For discovery and research tasks where exploring the repo *is* the work, breadth is appropriate — but use targeted search (Grep / Glob) to find candidates first, then read only the files that match. Sequential full-file reads of large directories should be rare.
+For discovery and research tasks where exploring the repo *is* the work, breadth is appropriate. For broad, multi-file, or footnote-heavy discovery — "what does the repo know about X," grounding a subject before online work, negative-result checks — reach for `repo_search.py` (next paragraph) first, **not** raw Grep. Reserve Grep / Glob for narrow, known-target lookups: a specific symbol, a known path, an existence check. Sequential full-file reads of large directories should be rare.
+
+For context-heavy repository discovery, use `.\.venv\Scripts\python.exe tools\repo_search.py`: let local tools search, rank, group, and deduplicate broadly; read the compact manifest first, then expand the most relevant saved volumes or results. **Read a staged result — a top manifest locator or an `expand`ed volume — before reaching for raw Grep on the same question; the file you need is usually already staged (including the relevant place/topic companion, with its footnotes attached).** Efficiency must not reduce required scope, suppress conflicting or negative evidence, or substitute ranking for verification. Search packages preserve the exhaustive result and exact-match ledgers outside OneDrive.
+
+For canonical ancestor, place, source, or record-ID lookup, search `data/indexes/` before opening the larger canonical JSON files.
 
 For `research/future-research/research-leads.csv`, do not read or rewrite the full CSV for single-lead work. Use `python tools/research_leads.py context L-123`, `priority`, `get`, `update`, `close`, or `audit` instead. Read the full CSV only for broad catalog audits, schema changes, or when the lead CLI cannot answer the task.
 

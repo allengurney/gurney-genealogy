@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "cacheRoot": "%USERPROFILE%/GitDirs/gurney-genealogy-search-cache",
+  "cacheRetentionDays": 90,
+  "volumeTargetChars": 10000,
+  "manifestResultLimit": 12,
+  "excludedPaths": [
+    "site/**",
+    ".git/**",
+    ".codex/**",
+    ".claude/**",
+    "tools/**",
+    "tools/__pycache__/**",
+    "sources/media/**/_local/**",
+    "sources/media/_local/**"
+  ],
+  "textExtensions": [
+    ".md",
+    ".txt",
+    ".csv",
+    ".json",
+    ".html",
+    ".htm",
+    ".rtf"
+  ],
+  "objectRoots": {
+    "factSheets": "fact-sheets",
+    "researchPeople": "research/people",
+    "researchPlaces": "research/places",
+    "researchTopics": "research/topics",
+    "caseFiles": "research/case-files",
+    "futureResearch": "research/future-research",
+    "corpus": "sources/corpus",
+    "corpusSupplement": "sources/corpus_supplement",
+    "validations": "sources/validations",
+    "media": "sources/media",
+    "intake": "sources/intake",
+    "data": "data"
+  },
+  "specialPublications": [
+    {
+      "id": "william-gurney-biography",
+      "role": "biography",
+      "path": "research/case-files/brigadier-general-william-gurney.md",
+      "ancestor": "G6"
+    },
+    {
+      "id": "john-gurney-case-file",
+      "role": "case-file",
+      "path": "research/case-files/john-gurney-case-file-v4.md",
+      "ancestor": "G13"
+    }
+  ],
+  "danielGurney": {
+    "sourceIds": [
+      "dg-rec-pt1",
+      "dg-rec-pt2",
+      "dg-rec-pt3",
+      "dg-rec-pt4",
+      "dg-rec-supp"
+    ],
+    "paths": [
+      "sources/corpus/daniel-gurney-part-1.md",
+      "sources/corpus/daniel-gurney-part-2.md",
+      "sources/corpus/daniel-gurney-part-3.md",
+      "sources/corpus/daniel-gurney-part-4.md",
+      "sources/corpus/daniel-gurney-supplement.md"
+    ],
+    "supplementPath": "sources/corpus/daniel-gurney-supplement.md",
+    "supplementFirstPage": 725
+  }
+}
