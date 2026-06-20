@@ -449,77 +449,52 @@ Path:
 data/search-variants.json
 ```
 
-Proposed shape:
+Implemented shape:
 
 ```json
 {
-  "schemaVersion": 1,
-  "variantSets": [
+  "schemaVersion": 2,
+  "nameVariantFamilies": [
     {
-      "id": "surname-gurney",
-      "canonical": "Gurney",
+      "id": "modern",
+      "label": "Modern",
       "kind": "surname",
-      "variants": [
-        {
-          "term": "Gournay",
-          "category": "attested-spelling",
-          "profile": "conservative",
-          "eras": ["medieval", "early-modern"],
-          "languages": ["English", "French"],
-          "note": "Common medieval and Anglo-Norman form."
-        },
-        {
-          "term": "Gurnay",
-          "category": "attested-spelling",
-          "profile": "conservative",
-          "eras": ["medieval", "early-modern"]
-        },
-        {
-          "term": "Gernays",
-          "category": "attested-spelling",
-          "profile": "broad",
-          "eras": ["medieval"],
-          "note": "Documentary form; use cautiously outside medieval records."
-        },
-        {
-          "term": "Gvrney",
-          "category": "transcription-confusion",
-          "profile": "broad",
-          "eras": ["early-modern"],
-          "note": "Indexed/transcribed u-v confusion."
-        }
+      "generationRange": {"minimum": 1, "maximum": 13},
+      "conservative": [
+        {"term": "Gurney", "matchMode": "whole-token"}
+      ],
+      "broadAdditions": [
+        {"term": "Gurnoe", "matchMode": "whole-token",
+         "collisionWarning": "Frequently a distinct surname."}
       ]
     }
   ]
 }
 ```
 
-Potential categories:
+Three surname families are implemented:
 
-- `attested-spelling`
-- `language-form`
-- `scribal-form`
-- `abbreviation`
-- `ocr-confusion`
-- `transcription-confusion`
-- `typographical-error`
+- `Modern`, G1–G13.
+- `English`, G14–G28.
+- `Norman`, G29–G37.
 
-Optional fields:
+`--name-variants auto` infers the family for ancestor searches. Raw searches
+remain literal unless `modern`, `english`, `norman`, or `all` is explicitly
+selected. The expansion profile remains independent:
 
-- Era.
-- Language.
-- Geography.
-- Source scope.
-- Confidence.
-- Notes.
+- `conservative` uses the core family list.
+- `broad` is cumulative and adds OCR, transcription, rare documentary, and
+  collision-prone forms.
+- `none` disables expansion.
+
+Whole-token matching is the default for surname forms. Territorial names use
+phrase matching. Source-specific OCR variants carry path restrictions, and
+collision-prone forms emit manifest warnings.
 
 Place variants remain authoritative in `place-ids.csv`; the new file should not duplicate them.
 
-The initial file should remain small and curated around known high-value families:
-
-- Gurney/Gournay surname family.
-- Possibly recurring in-law surnames only where meaningful variants already exist.
-- Source-specific OCR patterns such as Daniel Gurney's `Wilham` and `Basiha`.
+Source-specific OCR patterns such as Daniel Gurney's `Wilham` and `Basiha`
+remain separate from surname families.
 
 ---
 

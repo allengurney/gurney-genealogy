@@ -1,8 +1,10 @@
 # Keep text files stable across Windows, macOS, Linux, and sandboxed builds.
 * text=auto
 
+.gitattributes text eol=lf
 *.css text eol=lf
 *.cjs text eol=lf
+*.csv text eol=lf
 *.html text eol=lf
 *.js text eol=lf
 *.json text eol=lf

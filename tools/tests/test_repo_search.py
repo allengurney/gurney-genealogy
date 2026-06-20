@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 import tempfile
 import unittest
 from pathlib import Path
@@ -68,8 +69,105 @@ class RepoSearchUnitTests(unittest.TestCase):
     def test_variant_registry_shape(self) -> None:
         repo_root = repo_search.find_repo_root(Path(__file__).resolve())
         data = json.loads((repo_root / repo_search.VARIANTS_REL).read_text(encoding="utf-8"))
-        self.assertEqual(data["schemaVersion"], 1)
-        self.assertTrue(any(group["id"] == "surname-gurney" for group in data["variantSets"]))
+        self.assertEqual(data["schemaVersion"], 2)
+        self.assertEqual(
+            [group["id"] for group in data["nameVariantFamilies"]],
+            ["modern", "english", "norman"],
+        )
+
+    def test_auto_family_selection_uses_ancestor_generation(self) -> None:
+        repo_root = repo_search.find_repo_root(Path(__file__).resolve())
+        entity = repo_search.Entity(
+            kind="ancestor",
+            id="ancestor-g32-gerard-de-gournay",
+            label="Gerard de Gournay",
+            generation="G32",
+        )
+        specs, expansions, selection = repo_search.expand_variants(
+            repo_root,
+            [],
+            "conservative",
+            "auto",
+            entity,
+        )
+        self.assertEqual(selection["selected"], "norman")
+        self.assertTrue(selection["inferred"])
+        self.assertIn("Gerard de Gournay", [spec.term for spec in specs])
+        self.assertTrue(any(item["family"] == "norman" for item in expansions))
+
+    def test_raw_auto_search_does_not_expand_name_variants(self) -> None:
+        repo_root = repo_search.find_repo_root(Path(__file__).resolve())
+        specs, expansions, selection = repo_search.expand_variants(
+            repo_root,
+            ["Gurney"],
+            "broad",
+            "auto",
+        )
+        self.assertEqual([spec.term for spec in specs], ["Gurney"])
+        self.assertEqual(expansions, [])
+        self.assertEqual(selection["selected"], "none")
+
+    def test_broad_family_is_cumulative_and_warns_on_collisions(self) -> None:
+        repo_root = repo_search.find_repo_root(Path(__file__).resolve())
+        specs, _expansions, selection = repo_search.expand_variants(
+            repo_root,
+            ["John Gurney"],
+            "broad",
+            "modern",
+        )
+        terms = {spec.term for spec in specs}
+        self.assertEqual(selection["selected"], "modern")
+        self.assertIn("John Gurnay", terms)
+        self.assertIn("John Gurnoe", terms)
+        gurnoe = next(spec for spec in specs if spec.term == "John Gurnoe")
+        self.assertTrue(gurnoe.collision_warning)
+        self.assertEqual(gurnoe.match_mode, "whole-token")
+
+    def test_source_specific_ocr_expansion_retains_path_scope(self) -> None:
+        repo_root = repo_search.find_repo_root(Path(__file__).resolve())
+        specs, _expansions, _selection = repo_search.expand_variants(
+            repo_root,
+            ["William"],
+            "broad",
+            "none",
+        )
+        wilham = next(spec for spec in specs if spec.term == "Wilham")
+        self.assertEqual(wilham.origin, "source-specific-ocr")
+        self.assertTrue(wilham.source_paths)
+        self.assertTrue(all("daniel-gurney-part-" in path for path in wilham.source_paths))
+        self.assertTrue(repo_search.spec_applies_to_path(wilham, wilham.source_paths[0]))
+        self.assertFalse(repo_search.spec_applies_to_path(wilham, "AGENTS.md"))
+
+    def test_whole_token_pattern_does_not_match_longer_name(self) -> None:
+        pcre_pattern = repo_search.term_pattern("Gurne", "whole-token")
+        pattern = re.compile(pcre_pattern.replace(r"[\p{L}\p{N}_]", r"\w"), re.I)
+        self.assertIsNotNone(pattern.search("John Gurne"))
+        self.assertIsNone(pattern.search("John Gurney"))
+
+    def test_stale_ranking_id_is_ignored(self) -> None:
+        class EmptyIndex:
+            def all_sections(self):
+                return []
+
+        results = repo_search.build_results(
+            EmptyIndex(),
+            exact_matches=[],
+            fts_scores={999: 10.0},
+            effective_terms=["Gurney"],
+            term_specs=[repo_search.SearchTermSpec("Gurney", "whole-token")],
+            entity=None,
+            entity_map=False,
+            config={},
+            lead_sections=[],
+            explicit_terms=["Gurney"],
+        )
+        self.assertEqual(results, [])
+
+    def test_name_variant_cli_is_case_insensitive(self) -> None:
+        args = repo_search.build_parser().parse_args(
+            ["search", "--terms", "Gurney", "--name-variants", "Modern"]
+        )
+        self.assertEqual(args.name_variants, "modern")
 
     def test_external_cache_configuration(self) -> None:
         repo_root = repo_search.find_repo_root(Path(__file__).resolve())

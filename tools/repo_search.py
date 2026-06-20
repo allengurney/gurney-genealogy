@@ -42,7 +42,7 @@ SOURCE_INDEX_REL = Path("data/indexes/source-ids.csv")
 LEADS_REL = Path("research/future-research/research-leads.csv")
 DONE_LEADS_REL = Path("research/future-research/research-leads-done.csv")
 INDEX_SCHEMA_VERSION = 1
-SEARCH_PACKAGE_VERSION = 1
+SEARCH_PACKAGE_VERSION = 2
 
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*$")
 PAGE_RE = re.compile(r"^##\s+p\.\s*(\d+)(?:\s+\(#(\d+)\))?", re.I)
@@ -103,6 +103,18 @@ class ExactMatch:
     line_number: int
     line: str
     terms: list[str]
+
+
+@dataclass
+class SearchTermSpec:
+    term: str
+    match_mode: str = "substring"
+    source_paths: list[str] = field(default_factory=list)
+    origin: str = "explicit"
+    family: str = ""
+    profile: str = ""
+    category: str = ""
+    collision_warning: str = ""
 
 
 @dataclass
@@ -745,53 +757,197 @@ def load_variants(repo_root: Path) -> dict[str, Any]:
     return load_json(repo_root / VARIANTS_REL)
 
 
-def expand_variants(repo_root: Path, terms: list[str], profile: str, entity: Entity | None = None) -> tuple[list[str], list[dict[str, str]]]:
-    if profile == "none":
-        combined = terms or ([entity.label] if entity and entity.label else [])
-        return list(dict.fromkeys(term for term in combined if term)), []
-    data = load_variants(repo_root)
-    effective = list(terms)
-    if entity and entity.label and not effective:
-        effective.append(entity.label)
-    expansions: list[dict[str, str]] = []
-    for group in data.get("variantSets", []):
-        canonical = group.get("canonical", "")
-        canonical_norm = normalize_text(canonical)
-        source_terms = list(effective)
-        matching_terms = [
-            term
-            for term in source_terms
-            if normalize_text(term) == canonical_norm
-            or re.search(rf"\b{re.escape(canonical)}\b", term, flags=re.I)
+def generation_number(entity: Entity | None) -> int | None:
+    if not entity or entity.kind != "ancestor":
+        return None
+    match = GEN_RE.match(entity.generation)
+    return int(match.group(1)) if match else None
+
+
+def select_name_variant_families(
+    data: dict[str, Any],
+    selection: str,
+    entity: Entity | None = None,
+) -> tuple[list[dict[str, Any]], str, bool]:
+    families = data.get("nameVariantFamilies", [])
+    by_id = {normalize_text(group.get("id", "")): group for group in families}
+    choice = normalize_text(selection or "auto")
+    inferred = False
+    if choice == "auto":
+        generation = generation_number(entity)
+        if generation is None:
+            return [], "none", False
+        matches = [
+            group
+            for group in families
+            if int(group.get("generationRange", {}).get("minimum", 0))
+            <= generation
+            <= int(group.get("generationRange", {}).get("maximum", -1))
         ]
-        if not matching_terms:
+        if len(matches) != 1:
+            raise SystemExit(f"No unique name-variant family covers {entity.generation}.")
+        return matches, normalize_text(matches[0].get("id", "")), True
+    if choice == "none":
+        return [], "none", False
+    if choice == "all":
+        return families, "all", False
+    if choice not in by_id:
+        raise SystemExit(f"Unknown name-variant family: {selection}")
+    return [by_id[choice]], choice, inferred
+
+
+def term_pattern(term: str, match_mode: str) -> str:
+    escaped = re.escape(term)
+    if match_mode == "phrase":
+        escaped = escaped.replace(r"\ ", r"\s+")
+    if match_mode in {"whole-token", "phrase"}:
+        return rf"(?<![\p{{L}}\p{{N}}_]){escaped}(?![\p{{L}}\p{{N}}_])"
+    return escaped
+
+
+def replace_name_form(source: str, old: str, new: str) -> str:
+    pattern = re.compile(
+        rf"(?<![\w]){re.escape(old)}(?![\w])",
+        flags=re.I,
+    )
+    return pattern.sub(new, source, count=1)
+
+
+def _append_term_spec(specs: list[SearchTermSpec], spec: SearchTermSpec) -> bool:
+    key = (normalize_text(spec.term), tuple(sorted(spec.source_paths)))
+    for existing in specs:
+        existing_key = (normalize_text(existing.term), tuple(sorted(existing.source_paths)))
+        if existing_key != key:
             continue
+        if existing.match_mode == "substring" and spec.match_mode != "substring":
+            existing.match_mode = spec.match_mode
+        if spec.collision_warning and not existing.collision_warning:
+            existing.collision_warning = spec.collision_warning
+        return False
+    specs.append(spec)
+    return True
+
+
+def expand_variants(
+    repo_root: Path,
+    terms: list[str],
+    profile: str,
+    name_variants: str = "auto",
+    entity: Entity | None = None,
+) -> tuple[list[SearchTermSpec], list[dict[str, Any]], dict[str, Any]]:
+    data = load_variants(repo_root)
+    base_terms = list(terms)
+    if entity and entity.label and not base_terms:
+        base_terms.append(entity.label)
+    if profile == "none":
+        specs = [SearchTermSpec(term=term) for term in base_terms if term]
+        return specs, [], {"requested": name_variants, "selected": "none", "inferred": False, "labels": []}
+
+    families, selected, inferred = select_name_variant_families(data, name_variants, entity)
+    specs: list[SearchTermSpec] = []
+    expansions: list[dict[str, Any]] = []
+    family_forms: list[tuple[dict[str, Any], dict[str, Any]]] = []
+    for family in families:
+        variants = list(family.get("conservative", []))
+        if profile == "broad":
+            variants.extend(family.get("broadAdditions", []))
+        all_forms = list(family.get("conservative", [])) + list(family.get("broadAdditions", []))
+        all_forms.sort(key=lambda item: len(item.get("term", "")), reverse=True)
+        family_forms.append((family, {"selected": variants, "recognition": all_forms}))
+
+    for source_term in base_terms:
+        recognized: list[tuple[dict[str, Any], dict[str, Any]]] = []
+        for family, forms in family_forms:
+            matched_form = next(
+                (
+                    form
+                    for form in forms["recognition"]
+                    if re.search(
+                        rf"(?<![\w]){re.escape(form.get('term', ''))}(?![\w])",
+                        source_term,
+                        flags=re.I,
+                    )
+                ),
+                None,
+            )
+            if matched_form:
+                recognized.append((family, matched_form))
+        _append_term_spec(
+            specs,
+            SearchTermSpec(
+                term=source_term,
+                match_mode="whole-token" if recognized else "substring",
+            ),
+        )
+        for family, matched_form in recognized:
+            selected_variants = next(forms["selected"] for candidate, forms in family_forms if candidate is family)
+            conservative_terms = {normalize_text(item.get("term", "")) for item in family.get("conservative", [])}
+            for variant in selected_variants:
+                variant_term = variant.get("term", "")
+                expanded_term = replace_name_form(source_term, matched_form.get("term", ""), variant_term)
+                variant_profile = "conservative" if normalize_text(variant_term) in conservative_terms else "broad"
+                spec = SearchTermSpec(
+                    term=expanded_term,
+                    match_mode=variant.get("matchMode", "whole-token"),
+                    origin="name-variant",
+                    family=family.get("id", ""),
+                    profile=variant_profile,
+                    category=variant.get("category", ""),
+                    collision_warning=variant.get("collisionWarning", ""),
+                )
+                if _append_term_spec(specs, spec):
+                    expansions.append(
+                        {
+                            "source": source_term,
+                            "term": expanded_term,
+                            "family": family.get("id", ""),
+                            "category": spec.category,
+                            "profile": variant_profile,
+                            "matchMode": spec.match_mode,
+                            "collisionWarning": spec.collision_warning,
+                        }
+                    )
+
+    # Source-specific OCR sets remain independent of surname-family selection.
+    for group in data.get("variantSets", []):
+        if group.get("kind") != "source-specific-ocr":
+            continue
+        canonical = group.get("canonical", "")
+        matching_terms = [term for term in base_terms if re.search(rf"(?<![\w]){re.escape(canonical)}(?![\w])", term, flags=re.I)]
         for variant in group.get("variants", []):
             variant_profile = variant.get("profile", "broad")
             if profile == "conservative" and variant_profile != "conservative":
                 continue
             variant_term = variant.get("term", "")
             for source_term in matching_terms:
-                if normalize_text(source_term) == canonical_norm:
-                    expanded_term = variant_term
-                else:
-                    expanded_term = re.sub(
-                        rf"\b{re.escape(canonical)}\b",
-                        variant_term,
-                        source_term,
-                        flags=re.I,
-                    )
-                if expanded_term and normalize_text(expanded_term) not in {normalize_text(item) for item in effective}:
-                    effective.append(expanded_term)
+                expanded_term = replace_name_form(source_term, canonical, variant_term)
+                spec = SearchTermSpec(
+                    term=expanded_term,
+                    match_mode=variant.get("matchMode", "whole-token"),
+                    source_paths=list(group.get("sourcePaths", [])),
+                    origin="source-specific-ocr",
+                    profile=variant_profile,
+                    category=variant.get("category", ""),
+                )
+                if expanded_term and _append_term_spec(specs, spec):
                     expansions.append(
                         {
-                            "canonical": canonical,
+                            "source": source_term,
                             "term": expanded_term,
+                            "family": group.get("id", ""),
                             "category": variant.get("category", ""),
                             "profile": variant_profile,
+                            "matchMode": spec.match_mode,
+                            "sourcePaths": ";".join(spec.source_paths),
                         }
                     )
-    return list(dict.fromkeys(term for term in effective if term)), expansions
+    selection = {
+        "requested": name_variants,
+        "selected": selected,
+        "inferred": inferred,
+        "labels": [family.get("label", family.get("id", "")) for family in families],
+    }
+    return specs, expansions, selection
 
 
 _RG_CACHE: str | None = None
@@ -871,7 +1027,7 @@ def find_ripgrep() -> str | None:
     return resolved
 
 
-def run_exact_rg(repo_root: Path, terms: list[str], config: dict[str, Any]) -> list[ExactMatch]:
+def run_exact_rg(repo_root: Path, term_specs: list[SearchTermSpec], config: dict[str, Any]) -> list[ExactMatch]:
     rg = find_ripgrep()
     if not rg:
         raise SystemExit(
@@ -880,45 +1036,103 @@ def run_exact_rg(repo_root: Path, terms: list[str], config: dict[str, Any]) -> l
             "macOS: brew install ripgrep; Linux: apt install ripgrep), or set "
             "GURNEY_REPO_SEARCH_RG to the full path of the rg executable."
         )
-    if not terms:
+    if not term_specs:
         return []
-    command = [rg, "--json", "-i", "-F", "--no-messages"]
-    for term in terms:
-        command.extend(["-e", term])
-    for ext in config["textExtensions"]:
-        command.extend(["--glob", f"*{ext}"])
-    for pattern in config["excludedPaths"]:
-        command.extend(["--glob", f"!{pattern}"])
-    command.extend(["--glob", "!research/future-research/research-leads*.csv", "."])
-    process = subprocess.Popen(command, cwd=repo_root, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, encoding="utf-8", errors="replace")
-    matches: list[ExactMatch] = []
-    assert process.stdout is not None
-    for line in process.stdout:
-        try:
-            event = json.loads(line)
-        except json.JSONDecodeError:
+
+    grouped: dict[tuple[str, ...], list[SearchTermSpec]] = {}
+    for spec in term_specs:
+        grouped.setdefault(tuple(sorted(spec.source_paths)), []).append(spec)
+    merged: dict[tuple[str, int, str], ExactMatch] = {}
+    for source_paths, specs in grouped.items():
+        command = [rg, "--json", "-i", "--pcre2", "--no-messages"]
+        for spec in specs:
+            command.extend(["-e", term_pattern(spec.term, spec.match_mode)])
+        for ext in config["textExtensions"]:
+            command.extend(["--glob", f"*{ext}"])
+        for pattern in config["excludedPaths"]:
+            command.extend(["--glob", f"!{pattern}"])
+        command.extend(["--glob", "!research/future-research/research-leads*.csv"])
+        targets = [path for path in source_paths if (repo_root / path).is_file()] if source_paths else ["."]
+        if not targets:
             continue
-        if event.get("type") != "match":
-            continue
-        data = event["data"]
-        path = data["path"]["text"].replace("\\", "/").lstrip("./")
-        line_data = data.get("lines", {})
-        if "text" in line_data:
-            line_text = line_data["text"].rstrip("\r\n")
-        elif "bytes" in line_data:
-            line_text = base64.b64decode(line_data["bytes"]).decode("utf-8", errors="replace").rstrip("\r\n")
-        else:
-            continue
-        matched = []
-        for submatch in data.get("submatches", []):
-            value = submatch.get("match", {}).get("text", "")
-            if value:
-                matched.append(value)
-        matches.append(ExactMatch(path=path, line_number=int(data["line_number"]), line=line_text, terms=sorted(set(matched))))
-    _stderr = process.communicate()[1]
-    if process.returncode not in (0, 1):
-        raise SystemExit(f"ripgrep failed with exit code {process.returncode}: {_stderr.strip()}")
-    return matches
+        command.extend(targets)
+        process = subprocess.Popen(
+            command,
+            cwd=repo_root,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+        )
+        assert process.stdout is not None
+        for line in process.stdout:
+            try:
+                event = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if event.get("type") != "match":
+                continue
+            data = event["data"]
+            path = data["path"]["text"].replace("\\", "/").lstrip("./")
+            line_data = data.get("lines", {})
+            if "text" in line_data:
+                line_text = line_data["text"].rstrip("\r\n")
+            elif "bytes" in line_data:
+                line_text = base64.b64decode(line_data["bytes"]).decode("utf-8", errors="replace").rstrip("\r\n")
+            else:
+                continue
+            matched = [
+                submatch.get("match", {}).get("text", "")
+                for submatch in data.get("submatches", [])
+                if submatch.get("match", {}).get("text", "")
+            ]
+            key = (path, int(data["line_number"]), line_text)
+            if key in merged:
+                merged[key].terms = sorted(set(merged[key].terms + matched))
+            else:
+                merged[key] = ExactMatch(
+                    path=path,
+                    line_number=int(data["line_number"]),
+                    line=line_text,
+                    terms=sorted(set(matched)),
+                )
+        _stderr = process.communicate()[1]
+        if process.returncode not in (0, 1):
+            raise SystemExit(f"ripgrep failed with exit code {process.returncode}: {_stderr.strip()}")
+    return sorted(merged.values(), key=lambda item: (item.path.casefold(), item.line_number, item.line))
+
+
+def lexical_search_specs(index: SearchIndex, specs: list[SearchTermSpec], broad: bool = False) -> dict[int, float]:
+    scores: dict[int, float] = {}
+    unrestricted = [spec.term for spec in specs if not spec.source_paths]
+    if unrestricted:
+        scores.update(index.lexical_search(unrestricted, broad=broad))
+    for spec in (item for item in specs if item.source_paths):
+        allowed = set(spec.source_paths)
+        for section_id, score in index.lexical_search([spec.term], broad=broad).items():
+            try:
+                section = index.get_section(section_id)
+            except KeyError:
+                continue
+            if section.path in allowed:
+                scores[section_id] = max(scores.get(section_id, 0.0), score)
+    return scores
+
+
+def text_matches_spec(text: str, spec: SearchTermSpec) -> bool:
+    normalized_text = normalize_text(text)
+    normalized_term = normalize_text(spec.term)
+    if spec.match_mode == "substring":
+        return normalized_term in normalized_text
+    pattern = re.escape(normalized_term)
+    if spec.match_mode == "phrase":
+        pattern = pattern.replace(r"\ ", r"\s+")
+    return re.search(rf"(?<!\w){pattern}(?!\w)", normalized_text, flags=re.I) is not None
+
+
+def spec_applies_to_path(spec: SearchTermSpec, path: str) -> bool:
+    return not spec.source_paths or path in spec.source_paths
 
 
 def load_lead_sections(repo_root: Path, terms: list[str], lead_id: str | None = None) -> list[Section]:
@@ -1009,6 +1223,7 @@ def build_results(
     exact_matches: list[ExactMatch],
     fts_scores: dict[int, float],
     effective_terms: list[str],
+    term_specs: list[SearchTermSpec],
     entity: Entity | None,
     entity_map: bool,
     config: dict[str, Any],
@@ -1029,7 +1244,11 @@ def build_results(
         section_cache[section_id] = section
         if section.path in exact_by_path and any(section.start_line <= match.line_number <= section.end_line for match in exact_by_path[section.path]):
             candidate_ids.add(section_id)
-        if any(normalize_text(term) in normalize_text(section.path + " " + section.heading) for term in effective_terms):
+        if any(
+            spec_applies_to_path(spec, section.path)
+            and text_matches_spec(section.path + " " + section.heading, spec)
+            for spec in term_specs
+        ):
             candidate_ids.add(section_id)
         if entity_map and section.path in direct_paths:
             candidate_ids.add(section_id)
@@ -1038,7 +1257,12 @@ def build_results(
 
     prelim: list[tuple[Section, float, list[str], list[str], list[int]]] = []
     for section_id in candidate_ids:
-        section = section_cache[section_id]
+        section = section_cache.get(section_id)
+        if section is None:
+            # Another process may refresh the shared accelerator between the
+            # FTS query and this snapshot. Exact ripgrep completeness remains
+            # intact; omit the stale ranking-only row.
+            continue
         local_matches = [match for match in exact_by_path.get(section.path, []) if section.start_line <= match.line_number <= section.end_line]
         exact_lines = sorted({match.line_number for match in local_matches})
         matched_terms = sorted({term for match in local_matches for term in match.terms})
@@ -1048,7 +1272,11 @@ def build_results(
             kinds.append("exact")
             score += 35.0 + min(30.0, len(local_matches) * 3.0)
         path_blob = normalize_text(section.path + " " + section.heading)
-        path_hits = sum(1 for term in effective_terms if normalize_text(term) in path_blob)
+        path_hits = sum(
+            1
+            for spec in term_specs
+            if spec_applies_to_path(spec, section.path) and text_matches_spec(path_blob, spec)
+        )
         if path_hits:
             kinds.append("path-or-heading")
             score += 12.0 + path_hits * 3.0
@@ -1309,6 +1537,19 @@ def write_package(
                 f"- Direct entity files represented: {len(direct_indexed)}/{len(direct_paths)}.",
             ]
         )
+    name_variants = query.get("nameVariants", {})
+    selected_labels = ", ".join(name_variants.get("labels", [])) or "None"
+    inferred_note = " (inferred from ancestor generation)" if name_variants.get("inferred") else ""
+    manifest_lines.extend(
+        [
+            f"- Name-variant family: {selected_labels}{inferred_note}.",
+            f"- Expansion profile: {query.get('variantProfile', 'none')}; "
+            f"{len(query.get('variantExpansions', []))} variant expansion(s).",
+        ]
+    )
+    collision_warnings = query.get("collisionWarnings", [])
+    if collision_warnings:
+        manifest_lines.extend(f"- Variant collision warning: {warning}" for warning in collision_warnings)
     manifest_lines.extend(["", "## Reading plan", ""])
     for bucket in bucket_order:
         volumes = [item for item in volume_entries if item["bucket"] == bucket]
@@ -1386,18 +1627,27 @@ def execute_search(args: argparse.Namespace, entity_map: bool = False) -> int:
         if args.lead:
             terms.append(args.lead.upper())
         variant_profile = "none" if args.exact else args.variants
-        effective_terms, expansions = expand_variants(repo_root, terms, variant_profile, entity)
+        name_variant_request = "none" if args.exact else args.name_variants
+        term_specs, expansions, name_variant_selection = expand_variants(
+            repo_root,
+            terms,
+            variant_profile,
+            name_variant_request,
+            entity,
+        )
+        effective_terms = [spec.term for spec in term_specs]
         if not effective_terms and not entity:
             raise SystemExit("Provide --terms or an entity selector.")
-        exact_terms = effective_terms
-        exact_matches = run_exact_rg(repo_root, exact_terms, config)
-        fts_scores = index.lexical_search(effective_terms, broad=variant_profile == "broad")
-        lead_sections = load_lead_sections(repo_root, effective_terms, args.lead)
+        exact_matches = run_exact_rg(repo_root, term_specs, config)
+        fts_scores = lexical_search_specs(index, term_specs, broad=variant_profile == "broad")
+        lead_terms = [spec.term for spec in term_specs if not spec.source_paths]
+        lead_sections = load_lead_sections(repo_root, lead_terms, args.lead)
         results = build_results(
             index,
             exact_matches,
             fts_scores,
             effective_terms,
+            term_specs,
             entity,
             entity_map,
             config,
@@ -1416,7 +1666,16 @@ def execute_search(args: argparse.Namespace, entity_map: bool = False) -> int:
             "originalTerms": terms,
             "effectiveTerms": effective_terms,
             "variantProfile": variant_profile,
+            "nameVariants": name_variant_selection,
             "variantExpansions": expansions,
+            "termSpecs": [asdict(spec) for spec in term_specs],
+            "collisionWarnings": sorted(
+                {
+                    spec.collision_warning
+                    for spec in term_specs
+                    if spec.collision_warning
+                }
+            ),
             "entity": asdict(entity) if entity else None,
             "entityMap": entity_map,
             "lead": args.lead,
@@ -1557,37 +1816,117 @@ def command_clean(args: argparse.Namespace) -> int:
 def command_variants(args: argparse.Namespace) -> int:
     repo_root = find_repo_root(Path(args.repo_root) if args.repo_root else None)
     data = load_variants(repo_root)
-    groups = data.get("variantSets", [])
+    families = data.get("nameVariantFamilies", [])
+    source_groups = [
+        group
+        for group in data.get("variantSets", [])
+        if group.get("kind") == "source-specific-ocr"
+    ]
     if args.variants_command == "validate":
-        seen = set()
-        errors = []
-        for group in groups:
+        errors: list[str] = []
+        seen: set[str] = set()
+        ranges: list[tuple[int, int, str]] = []
+        for family in families:
+            family_id = family.get("id", "")
+            if not family_id or family_id in seen:
+                errors.append(f"Missing or duplicate family id: {family_id!r}")
+            seen.add(family_id)
+            generation_range = family.get("generationRange", {})
+            minimum = generation_range.get("minimum")
+            maximum = generation_range.get("maximum")
+            if not isinstance(minimum, int) or not isinstance(maximum, int) or minimum > maximum:
+                errors.append(f"{family_id}: invalid generation range")
+            else:
+                ranges.append((minimum, maximum, family_id))
+            local_terms: set[str] = set()
+            for profile_key in ("conservative", "broadAdditions"):
+                for variant in family.get(profile_key, []):
+                    term = normalize_text(variant.get("term", ""))
+                    if not term or term in local_terms:
+                        errors.append(f"{family_id}: missing or duplicate term {variant.get('term')!r}")
+                    local_terms.add(term)
+                    if variant.get("matchMode") not in {"whole-token", "phrase", "substring"}:
+                        errors.append(f"{family_id}: invalid match mode for {variant.get('term')!r}")
+        ranges.sort()
+        if ranges and ranges != [(1, 13, "modern"), (14, 28, "english"), (29, 37, "norman")]:
+            errors.append(f"Unexpected name-variant generation ranges: {ranges!r}")
+        for group in source_groups:
             group_id = group.get("id")
             if not group_id or group_id in seen:
                 errors.append(f"Missing or duplicate id: {group_id!r}")
             seen.add(group_id)
+            if group.get("kind") == "source-specific-ocr" and not group.get("sourcePaths"):
+                errors.append(f"{group_id}: source-specific OCR set lacks sourcePaths")
             for variant in group.get("variants", []):
                 if variant.get("profile") not in {"conservative", "broad"}:
                     errors.append(f"{group_id}: invalid profile for {variant.get('term')!r}")
         if errors:
             print("\n".join(errors))
             return 1
-        print(f"OK: {len(groups)} variant set(s).")
+        print(f"OK: {len(families)} name-variant families and {len(source_groups)} source-specific set(s).")
         return 0
     if args.variants_command == "list":
-        for group in groups:
-            print(f"{group.get('id')}\t{group.get('canonical')}\t{len(group.get('variants', []))} variants")
+        for family in families:
+            generation_range = family.get("generationRange", {})
+            conservative = len(family.get("conservative", []))
+            broad_total = conservative + len(family.get("broadAdditions", []))
+            print(
+                f"{family.get('id')}\t{family.get('label')}\t"
+                f"G{generation_range.get('minimum')}–G{generation_range.get('maximum')}\t"
+                f"{conservative} conservative / {broad_total} broad total"
+            )
+        for group in source_groups:
+            print(f"{group.get('id')}\t{group.get('canonical')}\t{len(group.get('variants', []))} source-specific variant(s)")
+        return 0
+    if args.variants_command == "table":
+        wanted = normalize_text(args.name or "")
+        selected = [
+            family
+            for family in families
+            if not wanted or wanted in {normalize_text(family.get("id", "")), normalize_text(family.get("label", ""))}
+        ]
+        if not selected:
+            raise SystemExit(f"Name-variant family not found: {args.name}")
+        print("| Family | Generations | Conservative | Broad additions |")
+        print("|---|---:|---|---|")
+        for family in selected:
+            generation_range = family["generationRange"]
+            conservative = ", ".join(f"`{item['term']}`" for item in family.get("conservative", []))
+            broad = ", ".join(f"`{item['term']}`" for item in family.get("broadAdditions", []))
+            print(
+                f"| {family.get('label')} | G{generation_range['minimum']}–G{generation_range['maximum']} "
+                f"| {conservative} | {broad} |"
+            )
         return 0
     wanted = normalize_text(args.name)
-    matches = [group for group in groups if wanted in {normalize_text(group.get("id", "")), normalize_text(group.get("canonical", ""))}]
+    matches = [
+        group
+        for group in [*families, *source_groups]
+        if wanted
+        in {
+            normalize_text(group.get("id", "")),
+            normalize_text(group.get("label", "")),
+            normalize_text(group.get("canonical", "")),
+        }
+    ]
     if not matches:
         raise SystemExit(f"Variant set not found: {args.name}")
     if args.variants_command == "show":
         print(json.dumps(matches[0], ensure_ascii=False, indent=2))
         return 0
     profile = args.profile
-    values = [matches[0].get("canonical", "")]
-    values.extend(v.get("term", "") for v in matches[0].get("variants", []) if profile == "broad" or v.get("profile") == "conservative")
+    match = matches[0]
+    if "conservative" in match:
+        values = [item.get("term", "") for item in match.get("conservative", [])]
+        if profile == "broad":
+            values.extend(item.get("term", "") for item in match.get("broadAdditions", []))
+    else:
+        values = [match.get("canonical", "")]
+        values.extend(
+            item.get("term", "")
+            for item in match.get("variants", [])
+            if profile == "broad" or item.get("profile") == "conservative"
+        )
     print("\n".join(value for value in values if value))
     return 0
 
@@ -1600,6 +1939,13 @@ def add_search_arguments(parser: argparse.ArgumentParser) -> None:
     parser.add_argument("--lead", help="Live lead ID, e.g. L-138.")
     parser.add_argument("--terms", nargs="*", default=[], help="Search terms; quote phrases at the shell level.")
     parser.add_argument("--variants", choices=["none", "conservative", "broad"], default="conservative")
+    parser.add_argument(
+        "--name-variants",
+        type=str.casefold,
+        choices=["auto", "modern", "english", "norman", "all", "none"],
+        default="auto",
+        help="Surname family: auto infers from --ancestor; raw searches stay literal unless a family is selected.",
+    )
     parser.add_argument("--exact", action="store_true", help="Disable variants and stage only exact-hit/direct-object sections.")
     parser.add_argument("--require-all", action="store_true", help="Require every explicit term in a section, except direct entity objects.")
     parser.add_argument("--any", action="store_true", help="Explicitly document normal any-term retrieval semantics.")
@@ -1659,6 +2005,9 @@ def build_parser() -> argparse.ArgumentParser:
     v_test.add_argument("name")
     v_test.add_argument("--profile", choices=["conservative", "broad"], default="conservative")
     v_test.set_defaults(func=command_variants)
+    v_table = variants_sub.add_parser("table")
+    v_table.add_argument("name", nargs="?")
+    v_table.set_defaults(func=command_variants)
     v_validate = variants_sub.add_parser("validate")
     v_validate.set_defaults(func=command_variants)
     return parser

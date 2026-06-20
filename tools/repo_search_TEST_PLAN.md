@@ -235,8 +235,20 @@ Run:
 ```powershell
 .\.venv\Scripts\python.exe -m unittest tools.tests.test_repo_search
 .\.venv\Scripts\python.exe tools\repo_search.py variants validate
+.\.venv\Scripts\python.exe tools\repo_search.py variants table
 .\.venv\Scripts\python.exe tools\repo_search.py index --check
 ```
+
+Variant boundary and behavior checks:
+
+- G13 auto-selects `Modern`; G14 and G28 select `English`; G29 and G37 select
+  `Norman`.
+- A raw search with `--name-variants auto` remains literal.
+- `broad` contains the conservative family plus its broad additions.
+- Whole-token `Gurne` does not match `Gurney`.
+- Phrase forms such as `de Gournay` remain intact.
+- Collision-prone forms produce manifest warnings.
+- Daniel Gurney OCR variants are retrieved only from configured source paths.
 
 Also run normal repository validation after implementation:
 

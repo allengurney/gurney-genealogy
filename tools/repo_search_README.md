@@ -64,10 +64,28 @@ applicable volumes or inspect the exhaustive ledgers.
 
 Curated variants live in `data/search-variants.json`.
 
+The approved surname registry organizes variants into three descriptive
+families:
+
+| Family | Generations | Record environment |
+|---|---:|---|
+| `Modern` | G1–G13 | Modern American, colonial, and Massachusetts |
+| `English` | G14–G28 | Tudor and medieval English |
+| `Norman` | G29–G37 | Norman, Old French, Latin, and charter sources |
+
+The family data is stored in `nameVariantFamilies`. Ancestor searches infer the
+family from the generation, and explicit searches support
+`--name-variants modern|english|norman|all|none`, independently of the
+`conservative` or `broad` expansion profile.
+
+The complete conservative/broad review matrix is in
+`tools/evaluations/2026-06-19-search-variants-review.md`.
+
 ```powershell
 .\.venv\Scripts\python.exe tools\repo_search.py variants list
-.\.venv\Scripts\python.exe tools\repo_search.py variants show surname-gurney
-.\.venv\Scripts\python.exe tools\repo_search.py variants test surname-gurney --profile broad
+.\.venv\Scripts\python.exe tools\repo_search.py variants table
+.\.venv\Scripts\python.exe tools\repo_search.py variants show modern
+.\.venv\Scripts\python.exe tools\repo_search.py variants test norman --profile broad
 .\.venv\Scripts\python.exe tools\repo_search.py variants validate
 ```
 
@@ -75,10 +93,18 @@ Profiles:
 
 - `none`: explicit terms only.
 - `conservative`: attested forms suitable for normal expansion.
-- `broad`: OCR, transcription, scribal, and noisier forms.
+- `broad`: all conservative forms plus OCR, transcription, scribal, rare, and
+  collision-prone discovery forms.
+
+`--name-variants auto` is the default. It selects `Modern` for G1–G13,
+`English` for G14–G28, and `Norman` for G29–G37. Without `--ancestor`, `auto`
+does not expand a surname; choose a family or `all` explicitly.
 
 Multiword names are expanded as names (`John Gurney` to `John Gurnay`), not as
-bare surname sweeps. Place aliases remain canonical in `place-ids.csv`.
+bare surname sweeps. Variant spellings use whole-token matching, territorial
+forms such as `de Gournay` use phrase matching, and source-specific OCR forms
+remain restricted to their configured corpus paths. Place aliases remain
+canonical in `place-ids.csv`.
 
 ## Index maintenance
 
