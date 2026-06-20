@@ -1,109 +1,131 @@
 {
-  "schemaVersion": 1,
-  "description": "Curated search expansions. Place aliases remain canonical in data/indexes/place-ids.csv. Conservative variants are normally safe automatic expansions; broad variants are source-, era-, OCR-, or transcription-sensitive.",
-  "variantSets": [
+  "schemaVersion": 2,
+  "description": "Curated AI-agnostic search expansions. Name-variant families are generation-aware; broad is cumulative and includes conservative forms. Place aliases remain canonical in data/indexes/place-ids.csv.",
+  "implementationStatus": {
+    "nameVariantFamilies": "implemented",
+    "sourceSpecificVariantSets": "implemented"
+  },
+  "nameVariantFamilies": [
     {
-      "id": "surname-gurney",
-      "canonical": "Gurney",
+      "id": "modern",
+      "label": "Modern",
       "kind": "surname",
-      "variants": [
-        {
-          "term": "Gournay",
-          "category": "attested-spelling",
-          "profile": "conservative",
-          "eras": ["medieval", "early-modern"],
-          "languages": ["English", "French"],
-          "note": "Common medieval, Anglo-Norman, and antiquarian form."
-        },
-        {
-          "term": "Gurnay",
-          "category": "attested-spelling",
-          "profile": "conservative",
-          "eras": ["medieval", "early-modern"]
-        },
-        {
-          "term": "Gourney",
-          "category": "attested-spelling",
-          "profile": "conservative",
-          "eras": ["medieval", "early-modern", "modern"]
-        },
-        {
-          "term": "Gurny",
-          "category": "attested-spelling",
-          "profile": "conservative",
-          "eras": ["early-modern", "colonial"]
-        },
-        {
-          "term": "Gurnie",
-          "category": "attested-spelling",
-          "profile": "conservative",
-          "eras": ["early-modern", "colonial"]
-        },
-        {
-          "term": "de Gournay",
-          "category": "language-form",
-          "profile": "conservative",
-          "eras": ["medieval"],
-          "languages": ["French", "Latin", "English"]
-        },
-        {
-          "term": "de Gurnay",
-          "category": "attested-spelling",
-          "profile": "conservative",
-          "eras": ["medieval"]
-        },
-        {
-          "term": "Gernay",
-          "category": "attested-spelling",
-          "profile": "broad",
-          "eras": ["medieval", "early-modern"]
-        },
-        {
-          "term": "Gernays",
-          "category": "attested-spelling",
-          "profile": "broad",
-          "eras": ["medieval"],
-          "note": "Documentary form; use cautiously outside medieval records."
-        },
-        {
-          "term": "Gornay",
-          "category": "attested-spelling",
-          "profile": "broad",
-          "eras": ["medieval", "early-modern"]
-        },
-        {
-          "term": "Gorney",
-          "category": "attested-spelling",
-          "profile": "broad",
-          "eras": ["early-modern", "modern"]
-        },
-        {
-          "term": "Gurne",
-          "category": "attested-spelling",
-          "profile": "broad",
-          "eras": ["early-modern"]
-        },
-        {
-          "term": "Gourne",
-          "category": "attested-spelling",
-          "profile": "broad",
-          "eras": ["medieval", "early-modern"]
-        },
-        {
-          "term": "Gvrney",
-          "category": "transcription-confusion",
-          "profile": "broad",
-          "eras": ["early-modern"],
-          "note": "Indexed or transcribed u-v confusion."
-        },
-        {
-          "term": "Gurney",
-          "category": "canonical",
-          "profile": "conservative",
-          "eras": ["medieval", "early-modern", "colonial", "modern"]
-        }
+      "generationRange": {
+        "minimum": 1,
+        "maximum": 13
+      },
+      "description": "Modern American, colonial, and Massachusetts Gurney records.",
+      "conservative": [
+        {"term": "Gurney", "category": "canonical", "matchMode": "whole-token"},
+        {"term": "Gurnay", "category": "attested-spelling", "matchMode": "whole-token"},
+        {"term": "Gourney", "category": "attested-spelling", "matchMode": "whole-token"},
+        {"term": "Gurny", "category": "attested-spelling", "matchMode": "whole-token"},
+        {"term": "Gurnie", "category": "attested-spelling", "matchMode": "whole-token"},
+        {"term": "Gurnee", "category": "attested-spelling", "matchMode": "whole-token"}
+      ],
+      "broadAdditions": [
+        {"term": "Gurne", "category": "attested-or-indexed-spelling", "matchMode": "whole-token"},
+        {"term": "Gvrney", "category": "transcription-confusion", "matchMode": "whole-token", "note": "Indexed or transcribed u-v confusion."},
+        {"term": "Gerney", "category": "indexed-or-transcription-candidate", "matchMode": "whole-token"},
+        {"term": "Girney", "category": "indexed-or-transcription-candidate", "matchMode": "whole-token"},
+        {"term": "Gyrney", "category": "indexed-or-transcription-candidate", "matchMode": "whole-token"},
+        {"term": "Gurnoe", "category": "collision-prone-candidate", "matchMode": "whole-token", "collisionWarning": "Frequently a distinct surname; treat matches as leads rather than identity evidence."},
+        {"term": "Gorney", "category": "collision-prone-candidate", "matchMode": "whole-token", "collisionWarning": "Frequently a distinct surname; treat matches as leads rather than identity evidence."},
+        {"term": "Gurnney", "category": "transcription-or-ocr-candidate", "matchMode": "whole-token"}
       ]
     },
+    {
+      "id": "english",
+      "label": "English",
+      "kind": "surname",
+      "generationRange": {
+        "minimum": 14,
+        "maximum": 28
+      },
+      "description": "Tudor and medieval English records spanning the Gurney, Gurnay, and Gournay transition.",
+      "conservative": [
+        {"term": "Gurney", "category": "canonical-or-attested-spelling", "matchMode": "whole-token"},
+        {"term": "Gurnay", "category": "canonical-or-attested-spelling", "matchMode": "whole-token"},
+        {"term": "Gournay", "category": "canonical-or-attested-spelling", "matchMode": "whole-token"},
+        {"term": "de Gurnay", "category": "territorial-name-form", "matchMode": "phrase"},
+        {"term": "de Gournay", "category": "territorial-name-form", "matchMode": "phrase"},
+        {"term": "Gourney", "category": "attested-spelling", "matchMode": "whole-token"},
+        {"term": "Gurnaye", "category": "documentary-spelling", "matchMode": "whole-token"},
+        {"term": "Gornay", "category": "documentary-spelling", "matchMode": "whole-token"}
+      ],
+      "broadAdditions": [
+        {"term": "Gurny", "category": "attested-or-indexed-spelling", "matchMode": "whole-token"},
+        {"term": "Gurnie", "category": "attested-or-indexed-spelling", "matchMode": "whole-token"},
+        {"term": "Gurne", "category": "attested-or-indexed-spelling", "matchMode": "whole-token"},
+        {"term": "Gvrney", "category": "transcription-confusion", "matchMode": "whole-token", "note": "Indexed or transcribed u-v confusion."},
+        {"term": "Gerney", "category": "indexed-or-transcription-candidate", "matchMode": "whole-token"},
+        {"term": "Gernay", "category": "documentary-candidate", "matchMode": "whole-token"},
+        {"term": "Gernays", "category": "documentary-candidate", "matchMode": "whole-token"},
+        {"term": "Gerny", "category": "indexed-or-transcription-candidate", "matchMode": "whole-token"},
+        {"term": "Gerneye", "category": "indexed-or-transcription-candidate", "matchMode": "whole-token"},
+        {"term": "Girney", "category": "indexed-or-transcription-candidate", "matchMode": "whole-token"},
+        {"term": "Gyrney", "category": "indexed-or-transcription-candidate", "matchMode": "whole-token"},
+        {"term": "Gorney", "category": "collision-prone-candidate", "matchMode": "whole-token", "collisionWarning": "Frequently a distinct surname; treat matches as leads rather than identity evidence."},
+        {"term": "Gurnoe", "category": "collision-prone-candidate", "matchMode": "whole-token", "collisionWarning": "Frequently a distinct surname; treat matches as leads rather than identity evidence."},
+        {"term": "Gourny", "category": "documentary-or-index-candidate", "matchMode": "whole-token"},
+        {"term": "Gourne", "category": "documentary-or-ocr-candidate", "matchMode": "whole-token"},
+        {"term": "Gourneye", "category": "documentary-or-ocr-candidate", "matchMode": "whole-token"},
+        {"term": "Gournai", "category": "old-french-form", "matchMode": "whole-token", "languages": ["Old French", "French"]},
+        {"term": "Gornai", "category": "old-french-form", "matchMode": "whole-token", "languages": ["Old French", "French"]},
+        {"term": "Gurnney", "category": "transcription-or-ocr-candidate", "matchMode": "whole-token"}
+      ]
+    },
+    {
+      "id": "norman",
+      "label": "Norman",
+      "kind": "surname",
+      "generationRange": {
+        "minimum": 29,
+        "maximum": 37
+      },
+      "description": "Norman, Old French, Latin, charter, and cross-Channel records.",
+      "conservative": [
+        {"term": "Gournay", "category": "canonical-or-attested-spelling", "matchMode": "whole-token"},
+        {"term": "de Gournay", "category": "territorial-name-form", "matchMode": "phrase"},
+        {"term": "Gurnay", "category": "attested-spelling", "matchMode": "whole-token"},
+        {"term": "de Gurnay", "category": "territorial-name-form", "matchMode": "phrase"},
+        {"term": "Gurney", "category": "anglicized-or-antiquarian-form", "matchMode": "whole-token"},
+        {"term": "Gornay", "category": "documentary-spelling", "matchMode": "whole-token"},
+        {"term": "Gournai", "category": "old-french-form", "matchMode": "whole-token", "languages": ["Old French", "French"]},
+        {"term": "Gornai", "category": "old-french-form", "matchMode": "whole-token", "languages": ["Old French", "French"]},
+        {"term": "Gurnaye", "category": "documentary-spelling", "matchMode": "whole-token"}
+      ],
+      "broadAdditions": [
+        {"term": "Gourney", "category": "attested-or-antiquarian-spelling", "matchMode": "whole-token"},
+        {"term": "Gurny", "category": "documentary-or-index-candidate", "matchMode": "whole-token"},
+        {"term": "Gurne", "category": "documentary-or-index-candidate", "matchMode": "whole-token"},
+        {"term": "Gourny", "category": "documentary-or-index-candidate", "matchMode": "whole-token"},
+        {"term": "Gourne", "category": "documentary-or-ocr-candidate", "matchMode": "whole-token"},
+        {"term": "Gourneye", "category": "documentary-or-ocr-candidate", "matchMode": "whole-token"},
+        {"term": "Gernay", "category": "documentary-candidate", "matchMode": "whole-token"},
+        {"term": "Gernays", "category": "documentary-candidate", "matchMode": "whole-token"},
+        {"term": "Gerny", "category": "documentary-or-transcription-candidate", "matchMode": "whole-token"},
+        {"term": "Gerneye", "category": "documentary-or-transcription-candidate", "matchMode": "whole-token"},
+        {"term": "Gorney", "category": "collision-prone-candidate", "matchMode": "whole-token", "collisionWarning": "May identify a distinct surname; treat matches as leads rather than identity evidence."},
+        {"term": "Gournat", "category": "documentary-or-ocr-candidate", "matchMode": "whole-token"},
+        {"term": "Gournayy", "category": "documentary-or-ocr-candidate", "matchMode": "whole-token"},
+        {"term": "Gurnye", "category": "documentary-spelling", "matchMode": "whole-token"},
+        {"term": "Gurno", "category": "documentary-or-ocr-candidate", "matchMode": "whole-token"},
+        {"term": "Gornaco", "category": "latin-inflection", "matchMode": "whole-token", "languages": ["Latin"]},
+        {"term": "Gornaio", "category": "latin-inflection", "matchMode": "whole-token", "languages": ["Latin"]},
+        {"term": "Gornacensis", "category": "latin-adjectival-form", "matchMode": "whole-token", "languages": ["Latin"]},
+        {"term": "Gornacum", "category": "latin-inflection", "matchMode": "whole-token", "languages": ["Latin"]},
+        {"term": "Gornaium", "category": "latin-inflection", "matchMode": "whole-token", "languages": ["Latin"]},
+        {"term": "Gornaii", "category": "latin-inflection", "matchMode": "whole-token", "languages": ["Latin"]},
+        {"term": "Gornaci", "category": "latin-inflection", "matchMode": "whole-token", "languages": ["Latin"]},
+        {"term": "Gornayo", "category": "latin-or-documentary-form", "matchMode": "whole-token", "languages": ["Latin"]},
+        {"term": "Gorniaco", "category": "latin-inflection", "matchMode": "whole-token", "languages": ["Latin"]},
+        {"term": "Gurnaco", "category": "latin-inflection", "matchMode": "whole-token", "languages": ["Latin"]},
+        {"term": "Gurnaio", "category": "latin-inflection", "matchMode": "whole-token", "languages": ["Latin"]}
+      ]
+    }
+  ],
+  "variantSets": [
     {
       "id": "daniel-gurney-william-ocr",
       "canonical": "William",
