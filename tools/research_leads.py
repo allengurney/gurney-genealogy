@@ -642,7 +642,7 @@ def format_context(row: dict[str, str], *, output_format: str, warnings: Sequenc
                 "lead": row,
                 "pre_pull_checklist": [
                     "Check whether the source is already held in data/sources.json, data/indexes/source-ids.csv, sources/corpus, or sources/corpus_supplement.",
-                    "Read/grep the companion named in Source ref; the companion is more authoritative than stale CSV status.",
+                    "Ground first via repo_search + Read (not Grep): read the Source-ref companion AND the subject's ancestor/place companion before any online work; they are more authoritative than the CSV and usually already hold the answer or the exact delta.",
                     "Scope work to the delta only; do not rework already-held material.",
                     "If closing the lead, first promote facts/findings to the appropriate research companion/case file.",
                 ],
@@ -656,7 +656,7 @@ def format_context(row: dict[str, str], *, output_format: str, warnings: Sequenc
         [
             "### Pre-pull checklist",
             "- Check whether the source is already held in `data/sources.json`, `data/indexes/source-ids.csv`, `sources/corpus/`, or `sources/corpus_supplement/`.",
-            "- Read/grep the companion named in `Source ref`; the companion is more authoritative than stale CSV status.",
+            "- Ground first via repo_search + Read (not Grep): read the `Source ref` companion AND the subject's ancestor/place companion before any online work; they are more authoritative than the CSV and usually already hold the answer or the exact delta.",
             "- Scope work to the delta only; do not rework already-held material.",
             "- If closing the lead, first promote facts/findings to the appropriate research companion/case file.",
         ]

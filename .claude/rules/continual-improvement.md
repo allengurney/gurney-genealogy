@@ -103,28 +103,8 @@ They preserve the lessons accumulated in earlier updates while keeping the
 aggregate rule surface tractable. Disclose the consolidation as a single
 batched rule update.
 
-## Classify every "pull" by online availability
-Whenever AI lists future research pulls (in a research file, a patchset, an
-open-questions section, a summary, or anywhere else), each pull must carry an
-explicit availability tag — one of:
-
-- **Available online** — AI knows for sure the source is accessible online,
-  because AI has verified the URL, fetched the page, or has a recent reliable
-  pointer to a digitised copy (HathiTrust, Internet Archive, Gallica, archive
-  catalogue, university repository, etc.).
-- **Unknown online** — AI does not know whether the source is online. Use this
-  as the default when AI has not actually tried to find a digitised copy.
-- **Not online** — AI has explicitly looked and found references indicating
-  the source is not digitised, the manuscript is in private hands, the
-  archive has restricted access, or the only known copy is held in a physical
-  repository without a digital edition.
-
-The tag goes inline with each pull, e.g.: "EYC vol. 8, pp. 6–7 (Available
-online — archive.org)" or "Cordier MS *Histoire de Gournay* (Not online — held
-privately, never published in transcription beyond Potin 1842 extracts)."
-
-This lets the user decide which pulls AI can pursue immediately vs. which
-require library access or other manual work.
+## Tag every "pull" by online availability
+Whenever AI lists future pulls (research file, patchset, open-questions, summary), tag each inline as **Available online** (URL/digitised copy verified), **Unknown online** (default — not yet checked), or **Not online** (looked; only physical/restricted/un-digitised). Example: "EYC vol. 8, pp. 6–7 (Available online — archive.org)." This lets the user split pursue-now from needs-library-access.
 
 ## Direct edits still defer to intake-layer thinking
 Direct edits to `fact-sheets/`, `research/`, or `data/` (i.e., not going

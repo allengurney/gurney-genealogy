@@ -103,15 +103,10 @@ The general citation discipline lives in `citations.md`. Fact-sheet-specific add
 - Internal consistency: if Born = c. 970 and a son is born c. 985, that implies fathering at 15; do not publish an implausible fact pattern silently.
 
 ## Citation rigor
-- Every factual sentence or tight factual cluster should have a nearby footnote.
-- Use full-form footnotes, not cryptic abbreviations.
-- Include URL when available. URL to a website should be a hyperlink when possible.
-- Include all material supporting sources when a claim is supported by more than one source.
-- If a sentence is inferential rather than directly attested, make that visible in the prose and cite accordingly.
-- Narrative paragraphs must not rely on vitals/highlights citations alone. During any fact-sheet edit, audit the Narrative section sentence-by-sentence or tight-cluster-by-tight-cluster and add nearby source footnotes from the fact sheet, companion, source registry, or validation layer. If exact support cannot be found during a citation-cleanup task, preserve the claim and ask for direction rather than silently removing, softening, or forcing a citation.
-- Every children-table row, plus any "no further children" note, must carry a source footnote. If the table uses one pedigree source for multiple children, repeated references to the same footnote are acceptable, but each row still needs a visible citation.
-- Temporary footnote handles such as `nNEW1`, `ref-NEW1`, or visible labels like `NEW1` are patchset placeholders only. Never leave them in a completed fact sheet. Normalize them into ordinary numeric footnotes before validation.
-- Before completing a multi-fact-sheet citation batch, run a targeted footnote sweep: no `NEW` labels remain, all `href="#n..."` / `href="#ref-..."` anchors resolve, IDs are unique, visible footnote labels match their note numbers, and Narrative/Children sections have nearby citation coverage.
+General footnote discipline — every factual sentence/cluster cited, full-form footnotes, URLs as hyperlinks, all material supporting sources, inferential claims phrased visibly — lives in `citations.md` and applies here. Fact-sheet-specific additions:
+- Narrative paragraphs must not rely on vitals/highlights citations alone. During any edit, audit the Narrative sentence-by-sentence (or tight cluster) and add nearby footnotes; if support cannot be found, preserve the claim and ask rather than silently removing, softening, or forcing a citation.
+- Every children-table row, plus any "no further children" note, carries a visible source footnote (a shared pedigree footnote may repeat across rows).
+- Patchset placeholders (`nNEW1`, `ref-NEW1`, visible `NEW1`) never remain in a finished fact sheet. Before completing a citation batch, sweep: no `NEW` labels, all `href="#n..."`/`href="#ref-..."` anchors resolve, IDs unique, labels match numbers, Narrative/Children have coverage.
 
 ## Relationship to research files
 - Do not bury evidentiary detail in the fact sheet. If a passage needs long support discussion, conflict resolution, or transcription detail, move that supporting material to the companion in `research/people/`.
