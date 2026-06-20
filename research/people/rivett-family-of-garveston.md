@@ -9,7 +9,10 @@ and mother of John Gurney G13. Paired raw extracts and the controlling negatives
 Margaret Rybett is **Margaret Rivet, baptized 21 May 1586 at Garveston, Norfolk, daughter of
 Francis Rivet** — now confirmed at register-image level: the Garveston register reads *"Margaret
 Rivet daughter of ffrancis christened the xxjth of May,"* naming the father but **not the
-mother**.[^fs][^reg-p19] Born 1586, she was ~25 at her 23 September 1611 marriage to Francis
+mother**.[^fs][^reg-p19] Francis Rivet's own marriage most likely supplies her: **Francis Rivet
+married Elizabeth Podmer at Garveston on 2 July 1584**, twenty-two months before Margaret's 1586
+christening, so **Elizabeth Podmer is the probable mother of Margaret Rivet**.[^francis-podmer-1584]
+Born 1586, she was ~25 at her 23 September 1611 marriage to Francis
 Gurney at St Martin at Palace, Norwich (NRO PD 12/1), and dead by ~1616–17 — the chronology
 already established for Francis G14's first wife. She is the only Margaret Rivet/Rivett/Ryvett
 of the right age in the region; an exhaustive Norfolk-baptisms sweep across spellings found no
@@ -114,16 +117,24 @@ the Gurney–Heydon tie via Anne Heydon m. William Gurney V is independent and u
   Gurney** (see the probate section above). Francis Rivet himself left no will. The
   identification now stands on chronology, geography, and the absence of any competing Margaret,
   not on a naming document.
-- L-129 — map Francis Rivet's full child set (Margaret's siblings) and his wife. The register
-  read separates **at least three Rivet households in the parental generation — Francis (Margaret
-  1586, Grace 1603), Edmund (Elen, bp 11 Apr 1593; likely the Edmund of the 1613–14 inventory),
-  and Robert (a child bp Oct 1571; likely the Robert of the 1597 admon, whose widow was Agnes
-  Ryvett)** — but **no register entry names a mother**, so Francis Rivet's wife (= Margaret's
-  mother) is still unidentified and Margaret's full sibling set is not separable from the
-  unattributed christenings. The batch-2 register (1627–1675) added no further Rivett entry and
-  no wife/mother name.[^reg-p19] (Register available online via FamilySearch; not text-indexed —
-  visual browse, now substantially worked.)
+- L-129 — Francis Rivet's wife and child set. **Francis Rivet's wife is most likely Elizabeth
+  Podmer** (m. 2 July 1584 Garveston; see the Finding above). The IGI indexes attribute to Francis
+  Rivet of Garveston a child set of **Margaret (1586), Marye (1588), Elen (1593), Thomas (1595),
+  Grace (1603), Alice (1606), and Francis (1609)**, the last two explicitly to "Francis and
+  Elizabeth."[^francis-podmer-1584] **Conflict to resolve at image level:** the IGI gives **Elen
+  (1593)**'s father as Francis, whereas the repo's register image-read gives the Elen-1593 father
+  as **Edmund** — the image read controls until re-examined, so the remaining indexed child
+  assignments need image comparison before the full sibling set is fixed. The register's batch-2
+  pages (1627–1675) add no further Rivett entry.[^reg-p19] (IGI index level; the Garveston register
+  image is substantially worked and names no mother in the christening entries, so the Podmer
+  identification rests on the 1584 marriage, not the baptisms.)
 - L-130 — Richard Ryvett of Gressenhall's origin, wives, and relation to the Garveston Rivetts.
+  **His origin candidate is now identified: Richard Rivet, baptized 30 November 1575 at Garveston,
+  son of Robert** (IGI), who fits the 1602 Gressenhall marriage at age 27 and ties Richard of
+  Gressenhall back into the **Garveston Rivetts** — Robert's line beside Margaret's father
+  Francis's line. If Robert and Francis Rivet of Garveston were brothers, Richard of Gressenhall
+  and Margaret Rivet (Francis Gurney's wife) were **first cousins**, which would account for John
+  Gurney G13 naming a son **Richard** after his mother's Gressenhall kinsman.[^richard-rivet-1575]
   **An image read of the 1630/31 Gressenhall will (now transcribed) corrects the earlier
   inference.** The testator is **John Thornton of Gressenhall, husbandman** (will 16 May 1629,
   proved 6 February 1630/31 before surrogate Thomas Browne), and Richard Ryvett is his
@@ -158,5 +169,7 @@ the Gurney–Heydon tie via Anne Heydon m. William Gurney V is independent and u
 [^fmpr]: FindMyPast "Norfolk Banns and Marriages," Richard Ryvett m. Faith, 1602, Gressenhall; "Norfolk Baptisms," Alice Rivett, 1611, Gressenhall, father Richard. Source IDs: `findmypast-norfolk-banns-marriages-index`; `findmypast-norfolk-baptisms-index`.
 [^probate-francis]: Ancestry.co.uk, "Norfolk, England, Indexes to Wills, Probate, Administrations and Marriage Licence Bonds, 1371–1858" (in association with the Norfolk Record Office), surname Rivett/Revett, forename Francis: four records only across 1371–1858 — a will of 1551 (indexed "Rivett, Francis, Clerk, of Hingham"), a marriage licence (1750) and wills of 1770 and 1848; none in the c.1600–1640 window when Francis Rivet of Garveston (christened 1569) would have died. Authenticated session, June 2026. Source ID: `norfolk-wills-probate-index-1371-1858`.
 [^probate-cluster]: Ancestry.co.uk, "Norfolk, England, Indexes to Wills, Probate, Administrations and Marriage Licence Bonds, 1371–1858": "Rivett, Margaret, Widow, of Garveston," will 1584; "Rivett, Robert, of Garveston, Norfolk," administration 1597; with mid-Norfolk Rivett wills of John (1585), James (1589), John (1592), Thomas (1596) and William (1636) and inventories of Edmund (1613–14) and Katherine (1626–27). The maiden name *Bate* for the 1584 widow comes from the parallel "UK, Extracted Probate Records, 1269–1975." Index level (no will images in the collection). Authenticated session, June 2026. Source ID: `norfolk-wills-probate-index-1371-1858`.
+[^francis-podmer-1584]: Francis Rivet m. Elizabeth Podmer, 2 July 1584, Garveston, Norfolk — Ancestry "England, Select Marriages, 1538–1973" (IGI), record 33546675 (FHL film 1702622, item 11); the bride's surname "Podmer" from the FHL film index. The same IGI set carries children of Francis Rivet and Elizabeth at Garveston, incl. a son Francis christened 4 February 1609. Index level (no register image examined). Source IDs: `fs-england-marriages-1538-1973` (marriage); `fs-england-births-christenings` (christenings).
+[^richard-rivet-1575]: Richard Rivet, christened 30 November 1575, Garveston, Norfolk, father Robert — Ancestry "England, Select Births and Christenings, 1538–1975" (IGI). Index level. The Robert is plausibly the Robert Rivett of Garveston whose 1597 administration (widow Agnes Ryvett) is recorded above. Source ID: `fs-england-births-christenings`.
 [^thornton-will]: Will of John Thornton of Gressenhall, husbandman, dated 16 May 1629, proved 6 February 1630/31 before Thomas Browne, surrogate; Norwich Consistory Court registered copy, FamilySearch film DGS 008098653, page 1 ark `3:1:3Q9M-CSJ6-9Q4B-D`, page 2 ark `3:1:3Q9M-CSJ6-9Q4F-M`. Image-read transcription (paleography packet 18, 2026-06-15): bequests to son and heir Edward Thornton (the copyhold tenement in Gressenhall), daughter Elizabeth Blade, son John Thornton, and "my wellbeloved sonne in law Richard Ryvett and to Marian his wife"; Richard Ryvett made sole executor and a witness; further legatees Jane Blade and grandchild Susan Lowes; a foster child Anne [Sitho/Sithe] charged on the township. Source ID: `familysearch-fulltext-search`.
 [^probate-gressenhall]: Ancestry.co.uk, "Norfolk, England, Indexes to Wills, Probate, Administrations and Marriage Licence Bonds, 1371–1858," surname Rivett, keyword "Gressenhall": the keyword produces no re-ranking and no Rivett record noted "of Gressenhall" (whereas the same keyword "Garveston" lifts Margaret 1584 and Robert 1597 to the top), indicating no Gressenhall Rivett left probate in the Norwich courts. Authenticated session, June 2026. Source ID: `norfolk-wills-probate-index-1371-1858`.

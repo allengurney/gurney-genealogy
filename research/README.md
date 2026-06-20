@@ -30,3 +30,28 @@ Research-side rules: `.claude/rules/research-files.md` (people, places, topics �
 - Topical files hold the actual content. Logs point to those files. Findings belong on the relevant subject file, not buried in a source worksheet or log.
 - Research files read like research notes, not workflow logs. Lead with the finding. Keep intake / processing / OCR / normalization / archival mechanics out of visible prose.
 - Research files should still be source-traceable, especially for new findings, quotations, and inferential claims.
+
+## Name variants for discovery
+
+Before online or repository discovery work involving the Gurney/Gournay
+surname, consult `data/search-variants.json` rather than improvising a fresh
+variant list. It is the shared AI-agnostic registry for attested spellings,
+language forms, OCR errors, and transcription candidates used by
+`tools/repo_search.py`.
+
+The registry contains three approved generation-aware families:
+
+| Family | Generations | Typical material |
+|---|---:|---|
+| `Modern` | G1–G13 | Modern American, colonial, and Massachusetts records |
+| `English` | G14–G28 | Tudor and medieval English records |
+| `Norman` | G29–G37 | Norman, Old French, Latin, and charter sources |
+
+Use the conservative forms for normal discovery and add the broad forms for
+OCR-heavy, wildcard, transcription, or exhaustion searches. Broad candidates
+can include distinct but easily confused surnames; a search hit is a lead, not
+proof that two spellings identify the same family.
+
+The full conservative/broad table and its evidence review are maintained in
+`tools/evaluations/2026-06-19-search-variants-review.md`. The family data and
+generation-aware selection are implemented in `repo_search.py`.

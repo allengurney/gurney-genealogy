@@ -726,6 +726,17 @@
       "validationPath": "sources/validations/suffolk-deeds-liber-iv-1888.md",
       "notes": "Printed Suffolk County deed-record volume. John Gurney appears in the William Ting estate-division material on printed pp. 6 and 89a-90, with the printed index at p. 150 pointing to those references. The material identifies one of two Braintree messuages or tenements allotted to Bethia and Mercy Ting as being occupied by lease by John Gurney. Useful for Braintree tenancy and Ting/Tyng estate context; not a family-relationship record."
     },
+    "suffolk-deeds-liber-12-1902": {
+      "shortTitle": "Suffolk Deeds, Liber XII (1902)",
+      "citation": "Suffolk Deeds. Liber XII. Boston: Rockwell and Churchill, 1902.",
+      "archive": "Internet Archive",
+      "url": "https://archive.org/details/suffolkdeeds11suff",
+      "corpusStatus": "supplement",
+      "corpusPath": "sources/corpus_supplement/suffolk-deeds-liber-xii-gurnell-dorchester.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/suffolk-deeds-liber-12-1902.md",
+      "notes": "Printed edition of the manuscript Suffolk County registry deed book Liber XII, c. 1681–1684. The G-surname entries are for the distinct Gurnell family of Dorchester; the apparent FamilySearch full-text Gourney entries were machine-transcript artifacts."
+    },
     "mendon-proprietors-records-1899": {
       "shortTitle": "Mendon Proprietors' Records (1899)",
       "citation": "The Proprietors' Records of the Town of Mendon, Massachusetts: Incorporated May 15, 1667. Boston: Rockwell and Churchill Press, 1899.",
@@ -3417,6 +3428,17 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "Standard scholarly edition. Vol. I is the editorial Introduction; vols. II-VI carry the letters in numbered sequence. Gurney-related extracts captured: Saxthorpe Court 1472 episode (vol. I Introduction, narrating Paston letters Nos. 779, 796, 801 + Margaret Paston 5 June 1472); 23 April 1452 St George's Day petition signed by Thomas Gurnay (vol. II); Countess of Oxford to John Paston referencing Margaret Gurnay (vol. II, undated)."
+    },
+    "paston-letters-davis": {
+      "shortTitle": "Paston Letters and Papers -- Davis edition",
+      "citation": "Norman Davis, ed., Paston Letters and Papers of the Fifteenth Century.",
+      "archive": "Internet Archive",
+      "url": "https://archive.org/details/ThePastonLetters",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/paston-letters-davis.md",
+      "notes": "Editorial note identifies William Gurney, esquire, of Tharston as escheator of Norfolk and Suffolk in 1465–66, a retainer of the Duke of Norfolk, a commissioner in 1484 and 1491, and deceased in 1505. The death date conflicts with the primary inquisition post mortem and is retained as a secondary editorial date."
     },
     "hop-drury-robert-i-1456-1535": {
       "shortTitle": "History of Parliament -- DRURY, Sir Robert I (by 1456-1535)",

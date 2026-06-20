@@ -54,13 +54,19 @@ Both abstracts give the Gurney **surname only**, so the husband's forename is un
 
 ## June 2026 web pass — Calthorpe forename, Farrer volumes, Blundeville date
 
-- **Calthorpe son-in-law (L-122).** Derivative compiled trees (WikiTree Calthorpe-7; Geni)
-  name Sir William Calthorpe's daughter **Anne as the wife of a William Gurney** — i.e. the
-  "Son Gurney" executor of the 1494 will. This is a hypothesis to test, not yet authority: the
-  PCC will (PROB 11/10/408, reg. Vox fol. 23) or a Calthorpe Visitation pedigree must confirm
-  the forename. If correct, the husband is most plausibly the **William Gurney of West Barsham
-  active c. 1460–1500** who also fathered Constance (below) — i.e. G19 William Gurney IV's
-  generation.
+- **Calthorpe son-in-law — identified as G19 by inference.** The FamilySearch-reachable
+  abstracts of the 1494 Calthorpe and 1505 L'Estrange wills give the surname only ("Son Gurney …
+  and my dr his wife"; "sister Gurnay") with **no forename**, so neither names the Gurney husband
+  directly. The identification of the Calthorpe son-in-law as **William Gurney IV (G19)** rests on
+  the eight independent Calthorpe-side sources making **Anne Calthorpe** G19's wife (see the
+  [G19 companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g19-william-gurney-iv-fact-sheet.research.md)),
+  reinforced by the Paston/Davis evidence placing G19 squarely in the Calthorpe–Howard–Norfolk
+  magnate circle (escheator of Norfolk and Suffolk; retainer of the Duke of Norfolk). The literal
+  forename in the Calthorpe will, and the forename of the Gurnay who married a L'Estrange sister
+  by 1505, still require the **PCC register images** (PROB 11/10 reg. Vox fol. 23; reg. Adeane
+  fol. 2), which are not in FamilySearch full-text. Derivative compiled trees (WikiTree
+  Calthorpe-7; Geni) independently name the daughter Anne and her husband a William Gurney,
+  consistent with the inference.[^calthorpe-1494]
 - **Farrer, *Church Heraldry of Norfolk* — volume mapping (L-25/L-46).** The Gurney parishes
   sit in **vol. II, pt. VI** (Hundreds incl. Gallow = West Barsham, Harpley); the Herward
   parishes of South Erpingham (lead L-64) are in **vol. II, pt. V**. Harpley corroborated
@@ -71,12 +77,19 @@ Both abstracts give the Gurney **surname only**, so the husband's forename is un
   (Harleian 32) confirms there is **no Herward–Gurney pedigree or impalement in the
   Visitations**; the impalement is a church-monument item, so the resolving source is Farrer
   vol. II pt. V (South Erpingham), not the Visitations.
-- **Blundeville–Gurney date conflict.** The already-held marriage (Constance, dau. of William
-  Gurney of West Barsham, m. Rafe/Radulphus Blundeville of Newton Flotman) carries a death-date
-  conflict: the Newton Flotman St Mary monument dates Ralph **†1541, aged 74** (b. ~1467),
-  versus the Visitation's "ob. 1514" — almost certainly a 1514↔1541 digit transposition, with
-  the tomb (primary) favouring 1541. This dates Constance's father, William Gurney of West
-  Barsham, to c. 1460–1500 (lead L-134).
+- **Blundeville–Gurney marriage, resolved.** Constance Gurney, daughter of William Gurney of
+  West Barsham (G19), married **Ralph (Radulphus) Blundeville of Newton Flotman**. Blomefield's
+  transcription of the surviving St Mary chancel monument reads *"Radulphus Blondevile obiit Ano
+  Dni. 1514, Etatis sue 45"* — Ralph died **1514, aged 45** (b. c. 1469), confirming Rye's
+  Visitation "ob. 1514" and correcting the secondary "†1541, aged 74" reading; the husband is
+  **Ralph/Rafe**, not the "Robert" of some compiled pedigrees. The **Gurnay impalement** is
+  physically present among the church battlement arms ("Blundeville impaling Gurnay") and on the
+  monument itself ("Ditto [Blundeville] impales Gurnay"), pairing the marriage with Ralph among
+  the three commemorated generations. This dates Constance's father, William Gurney of West
+  Barsham, to c. 1440–1490. One internal conflict in Blomefield survives: his manor-descent
+  prose calls Richard (d. 1503) and Ralph (d. 1514) **brothers**, while the monument verse
+  styles the three men "the Grandsire, Father, and the Sone" (Richard → Ralph → Edward, three
+  generations) — preserve both rather than reconcile by fiat.[^blomefield-newton-flotman]
 
 ## Recommendations
 
@@ -99,6 +112,7 @@ The heraldic material is strong enough to become a supporting architecture for G
 [^dg-correction]: Daniel Gurney, *Record*, Part II, p. 410B, correcting the West Barsham slab attribution and warning that the Irstead monument attribution is uncertain. Source ID: `dg-rec-pt2`.
 [^g27]: `research/people/g27-sir-john-de-gournay-i-fact-sheet.research.md`, especially the DG-Supp Note 113 roll-of-arms section and Norwich Cathedral open question.
 [^g28]: `research/people/g28-william-de-gournay-ii-fact-sheet.research.md` and `research/people/g27-sir-john-de-gournay-i-fact-sheet.research.md`.
+[^blomefield-newton-flotman]: Francis Blomefield, *An Essay Towards a Topographical History of the County of Norfolk*, vol. 5 (London, 1806), "Hundred of Humble-Yard: Newton," pp. 63–70 (British History Online); the Newton Flotman St Mary chancel monument inscription and the Blundeville battlement/monument arms incl. "impaling Gurnay." Verbatim extract at [`sources/corpus_supplement/blomefield-norfolk-vol5-pp63-70-newton-flotman.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/blomefield-norfolk-vol5-pp63-70-newton-flotman.md). Source ID: `blomefield-norfolk`.
 [^rye]: William Hervey, Robert Cooke, and John Raven, *The Visitacion of Norffolk*, ed. Walter Rye (London: Harleian Society, 1891), pp. 132, 140–141. Corpus supplement: `sources/corpus_supplement/rye-visitacion-norffolk-1891-gurney-selected-pages.md`. Source ID: `rye-visitacion-norffolk-1891`.
 [^west-barsham]: `research/places/west-barsham.md`, especially the Armstrong 1781 and Farrer-derived church-heraldry material. Source IDs: `armstrong-norfolk-1781`; `farrer-church-heraldry-norfolk`.
 [^harpley]: `research/places/harpley.md`, especially the Harpley primary-source hooks and St Lawrence visible Gurnay memory section.

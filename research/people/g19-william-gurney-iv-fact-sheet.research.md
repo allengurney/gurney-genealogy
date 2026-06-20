@@ -51,7 +51,7 @@ This is significant because the fact sheet describes William IV as "of West Bars
 ## Open Questions
 
 1. **John Paston IPM (1466):** William IV presided as Escheator. Which John Paston was this — John I (d.1466) or John II? The Paston Letters are a major published source; cross-referencing could reveal additional Gurney mentions.
-2. **Council to Duke of Norfolk (1477):** The fact sheet mentions this. What is the source? DG-I or DG-Supp?
+2. **Council to / retainer of the Duke of Norfolk — resolved.** Norman Davis's Paston editorial note states William IV "was a retainer of the Duke of Norfolk" (see the Tharston subsection above), supplying the affinity source the fact-sheet line lacked.
 3. **Anne Calthorpe's death:** Not documented. Did she predecease or survive William IV?
 
 ---
@@ -116,7 +116,13 @@ This is a closed Calthorpe-Howard-Drury kinship-and-affinity circle — the inne
 
 Daniel Gurney *Supplement* Note 129, p. 816 records William IV presiding as Escheator of Norfolk over an Inquisition Post Mortem at Acle market on 13 October 1466, concerning "Johannes Paston." Disambiguation: John Paston I died on 22 May 1466 — well before the October inquisition. John Paston II died in November 1479; John Paston III in 1504. Only John Paston I died in 1466, so the Acle IPM is on his holdings.
 
-John Paston I was the husband of Margaret Paston (the most prolific letter-writer of the *Paston Letters*) and the central figure in the Paston-Heydon-Fastolf disputes of the 1460s. William IV's role in his IPM is therefore a high-prestige Norfolk gentry connection that the existing G19 fact-sheet Escheator highlight could be strengthened to surface, after a cross-check of the *Paston Letters* Gairdner edition (vol. IV/V) confirms no mention of William Gurney as escheator at the 1466 Paston inquisition. Deferred to a future patchset.
+John Paston I was the husband of Margaret Paston (the most prolific letter-writer of the *Paston Letters*) and the central figure in the Paston-Heydon-Fastolf disputes of the 1460s. William IV's role in his IPM is therefore a high-prestige Norfolk gentry connection that the existing G19 fact-sheet Escheator highlight could be strengthened to surface, after a cross-check of the *Paston Letters* Gairdner edition (vol. IV/V) confirms no mention of William Gurney as escheator at the 1466 Paston inquisition.
+
+### William Gurney of Tharston — the Paston correspondent identified as G19
+
+The "William Gurney, esq., of Tharston" who appears in the Paston correspondence is **William Gurney IV himself**. Norman Davis's edition identifies him in an editorial note: *"William Gurney, esq., of Tharston, 5 miles west of Topcroft. He was a retainer of the Duke of Norfolk. He had been escheator of Norfolk and Suffolk 1465–6, served on commissions in 1484 and 1491, and died in 1505."* The escheator-of-Norfolk-1465/6 office is the same one under which G19 took the John Paston I inquisition at Acle in October 1466 (above), fixing the identification. The note adds three facts to G19's record: a **Tharston** seat (south Norfolk, near Topcroft); service as **escheator of Suffolk** as well as Norfolk; and — answering the standing "Council to the Duke of Norfolk" question — that he was a **retainer of the Duke of Norfolk**, the affinity behind both the Saxthorpe episode and the family's Yorkist alignment. One conflict to preserve: Davis dates his death **1505**, whereas his inquisition post mortem (Daniel Gurney *Supplement* Note 132) records death **16 February 1507/8** — the IPM is the primary record and is preferred, with Davis's 1505 noted as a secondary editorial date.[^davis-tharston-g19]
+
+[^davis-tharston-g19]: Norman Davis, ed., *Paston Letters and Papers of the Fifteenth Century* (Internet Archive item `ThePastonLetters`, full text), editorial note: "William Gurney, esq., of Tharston, 5 miles west of Topcroft. He was a retainer of the Duke of Norfolk. He had been escheator of Norfolk and Suffolk 1465–6, served on commissions in 1484 and 1491, and died in 1505." The escheator-of-Norfolk-1465/6 office matches the 1466 Acle Paston IPM presided over by William Gurney IV (Daniel Gurney *Supplement* Note 129). Source ID: `paston-letters-davis`.
 
 ### G18 William V's marriage to Anne Heydon — the Boleyn-descent gateway
 

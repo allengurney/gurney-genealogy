@@ -16,6 +16,10 @@ Research notes for `g30-william-de-gournay-i-fact-sheet.md`. See `.claude/rules/
 
 DG-I p. 278 continues: "Of these fiefs the manor of Swathings was a Saxon parish, which is now divided; it consisted of part of Hardingham, Letton, and Cranworth. Runhall was a hamlet or beruite to it." This geographic detail — Swathings spanning three modern parishes — shows the holding was not a trivial plot but a genuine manorial estate.
 
+William's lordship of Runhall and Swathings does not rest on DG-I p. 278 alone. Blomefield records that Matthew de Gurnay (G29) demanded a carucate of land in Hardingham, Swathing, and Runhale in 8 King John (1206–07) "which William his father had held in Henry II's reign" — independent confirmation, from a near-contemporary plea, that William held the Hardingham/Swathings/Runhall estate. (Blomefield, *History of Norfolk*, Hardingham entry; transcribed on the [Hardingham place file](../places/hardingham.md).)
+
+The fuller manorial descent of Swathings — including an earlier senior-line layer, in which "Hugh senior of Gournay" (d. 1181) enfeoffed Robert le Bourguignon with a Swathings manor (DG-I Appendix XXI, pp. 122–123; Farrer, *Honors and Knights' Fees*, vol. 3, which numbers the donor "Hugh II" against DG's appendix heading "Hugh IV") — is treated on the [Hardingham place file](../places/hardingham.md). That senior-fee layer is earlier context and does not displace the junior-branch lordship. How the junior line's Swathings related to the le Bourguignon manor — one manor in a divided vill, or junior acquisition after the le Bourguignon forfeiture on the loss of Normandy in 1204 — is the open descent question (see [hardingham.md](../places/hardingham.md), [runhall.md](../places/runhall.md), and Open Questions). Source IDs: `dg-rec-pt1`, `farrer-honors-knights-fees-v3-gurnay-extracts`.
+
 ### Montigny-sur-Andelle — proof of Norman descent (DG-I p. 278)
 2026-04-18 — William's most important holding was Montigny-sur-Andelle in Normandy, held "in parage" — equal tenure as a cadet branch. DG-I p. 278 states this constitutes "incontestable proof of his descent in blood from the Barons of Gournay." Parage tenure meant that a younger son held his portion of the family fief on the same feudal terms as the elder brother, acknowledging common descent. This is not merely a claim in a pedigree — it is a legal status recognized by the Norman ducal/royal administration.
 
@@ -49,8 +53,8 @@ Source: Walter Map, *De Nugis Curialium* (published by the Camden Society, 1850,
 | Place | Period | Notes |
 |---|---|---|
 | [Runhall, Norfolk](../places/runhall.md) | fl. c. 1150–1180 | Lord of manor. "Hamlet or beruite" to Swathings. |
-| [Hardingham/Swathings, Norfolk](../places/hardingham.md) | fl. c. 1150–1180 | Lord of Swathings manor. Saxon parish spanning Hardingham, Letton, and Cranworth. |
-| Suffolk (quarter knight's fee) | fl. c. 1150–1180 | Inherited from father Walter. Under Dampmartin. |
+| [Hardingham/Swathings, Norfolk](../places/hardingham.md) | fl. c. 1150–1180 | Lord of Swathings manor (DG-I p. 278; corroborated by Blomefield via Matthew's 8 John claim). Saxon parish spanning Hardingham, Letton, and Cranworth. Fuller manorial descent (incl. the earlier senior-line le Bourguignon layer) on the [Hardingham place file](../places/hardingham.md). |
+| Suffolk (quarter knight's fee) | fl. c. 1150–1180 | Inherited from father Walter; held "the same" under Henry II (DG-I p. 278). Under Dampmartin. Attested via the *Liber Niger Scaccarii* — the "Living 1167" dating basis. *Not currently reflected in the structured `landHoldings`/`placeRefs` for G30 (see Fact Sheet Improvement Notes).* |
 | [Montigny-sur-Andelle, Normandy](../places/montigny-sur-andelle.md) | fl. c. 1150–1180 | Held in parage from the Dukes of Normandy. "Incontestable proof of descent in blood from the Barons of Gournay" (DG-I p. 278). |
 
 ---
@@ -61,6 +65,7 @@ Source: Walter Map, *De Nugis Curialium* (published by the Camden Society, 1850,
 2. **Provost William de Gurney:** Who was the William de Gurney serving as Provost of Paris under Louis VII? Walter Map's *De Nugis Curialium* (Camden Society, 1850, p. 213a) is the source. This is a separate person from G30 but the shared name in the same generation is interesting.
 3. **Wife:** No wife named. Son Matthew is documented, but the mother is unknown.
 4. **Montigny-sur-Andelle timing:** When exactly did this Norman parcel enter the junior line? Walter (G31) held Suffolk land; William holds Montigny-sur-Andelle in Normandy. Was Montigny inherited from Walter or acquired separately?
+5. **Swathings manorial descent:** How did the junior-branch lordship of Swathings (William, attested temp. Hen. II by DG-I p. 278 and Blomefield) relate to the earlier senior-line enfeoffment of Robert le Bourguignon with a Swathings manor (DG-I App. XXI; Farrer *HKF* vol. 3)? Two candidate explanations are already in the repo: one manor among several in a divided vill ([hardingham.md](../places/hardingham.md)), or junior acquisition after the le Bourguignon forfeiture on the loss of Normandy in 1204 ([runhall.md](../places/runhall.md)). Tracing the le Bourguignon descent and Lewis de Gournay's later tenure would settle it; reconcile the donor numbering (Farrer "Hugh II" vs DG "Hugh IV") in passing.
 
 ---
 
@@ -73,6 +78,7 @@ Source: Walter Map, *De Nugis Curialium* (published by the Camden Society, 1850,
 - De la Mairie, *Histoire de Gournay*, Vol. I, p. 183 (charter reference). Cited via DG-Supp. [De la Mairie]
 - Walter Map, *De Nugis Curialium* (Camden Society, 1850), p. 213a — the Provost verse. [Map]
 - Liber Niger Scaccarii — continued Suffolk tenure. [LNS]
+- Farrer, *Honors and Knights' Fees*, vol. 3 (1923–1925), Honour of Warenne / Gurnay extracts — Swathings as Norfolk land of the senior Gournay fee; Hugh de Gurnay II's grant of a Swathings manor to the Burgeinuin family. Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`. [Farrer-HKF]
 
 ---
 
@@ -90,3 +96,4 @@ Source: Walter Map, *De Nugis Curialium* (published by the Camden Society, 1850,
 2. **Henry II charter witness:** If confirmed as G30, this places William at the highest level of Norman administration — witnessing a royal charter at Rouen alongside other barons. Should be added to the timeline.
 3. **Provost of Paris anecdote:** The rhyme about three ministers of Louis VII, including a William de Gurney, is a delightful period detail even though it refers to a different man. Consider as a sidebar or narrative aside.
 4. **Swathings geography:** The detail that Swathings spanned three modern parishes (Hardingham, Letton, Cranworth) shows it was a genuine estate, not a token holding.
+5. **Layer-alignment gap — Suffolk quarter knight's fee.** The Suffolk quarter-fee (held "the same" under Henry II per DG-I p. 278; the attested "Living 1167" basis) is recorded here in Landholdings but is **absent from the structured ancestor record** (`landHoldings`, `geography`, and `placeRefs` list only Runhall, Swathings/Hardingham, and Montigny) and from the published fact sheet. The three manorial holdings are consistent across all three layers; the Suffolk fee is the lone gap. Recommend adding the Suffolk quarter-fee to the structured `landHoldings`, and a brief Vitals/Narrative mention on the fact sheet, unless its omission from the published narrative is a deliberate editorial choice (a fractional inherited fee versus the three manors). The structured `placeRefs` also carries `place-pays-de-bray-normandy-picardy-france`, which is regional context for Montigny (the honour of Bray), not a separate personal holding — benign, not a conflict.

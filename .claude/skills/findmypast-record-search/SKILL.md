@@ -22,6 +22,7 @@ https://www.findmypast.co.uk/search/results?datasetname=<slug>&sid=103&lastname=
 - `yearofbirth` + `yearofbirth_offset` (allowed offsets: 0,1,2,5,10,20,40). **±40 is the practical way to bound a surname sweep.** ⚠ The marriages set rejects `yearofbirth` (→500); omit it there (or use the form's Year field).
 - `page=<n>` paginates.
 - `spouselastname` (marriages set) — see §3.
+- ⚠ **`mothersfirstname` does not bind** on the baptisms results URL — a `mothersfirstname=` filter returns the full unfiltered result set (confirmed June 2026). Filter baptisms by reading the **Mother** column, or constrain via father's-first-name / year / place instead.
 
 ## 2. Names: wildcards beat the variants checkbox
 
