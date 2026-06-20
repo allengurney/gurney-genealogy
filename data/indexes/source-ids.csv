@@ -252,6 +252,7 @@ painchault-gaillefontaine-2012,"Painchault, Gaillefontaine fortification (PURH 2
 palgrave-history-england-normandy-1864,"Palgrave, History of England and Normandy",partial,sources/corpus_supplement/palgrave-history-england-normandy-gournay-extracts.md,,sources/validations/palgrave-history-england-normandy-1864.md
 palmer-perlustration-yarmouth-1872,"Palmer, Perlustration of Great Yarmouth (1872)",partial,,,
 park-royal-holloway-thesis-2013,"Park, PhD thesis (Royal Holloway, 2013) -- crusading inheritance protection",external,,,
+paston-letters-davis,Paston Letters and Papers -- Davis edition,none,,,sources/validations/paston-letters-davis.md
 paston-letters-gairdner,Paston Letters -- Gairdner edition (1904),supplement,sources/corpus_supplement/paston-letters-gairdner-gurney-extracts.md,,
 pattou-racines-histoire-gournay-2025,Pattou Racines Histoire -- Gournay,external,,,
 pcc-rivett-rattlesden-wills,"PCC wills - Rivett/Ryvett of Rattlesden (1610, 1626)",none,,,sources/validations/pcc-rivett-rattlesden-wills.md
@@ -291,6 +292,7 @@ sprague-braintree,"Sprague, Genealogies of Braintree",none,,,
 st-benet-fink-register,"St Benet Fink register, London",none,,,
 st-mary-maldon-register,St Mary's Maldon register,none,,,
 stirnet-gurney-pedigree,Stirnet -- Pedigree of the Gournays of Norfolk,none,,,
+suffolk-deeds-liber-12-1902,"Suffolk Deeds, Liber XII (1902)",supplement,sources/corpus_supplement/suffolk-deeds-liber-xii-gurnell-dorchester.md,,sources/validations/suffolk-deeds-liber-12-1902.md
 suffolk-deeds-liber-iv-1888,"Suffolk Deeds, Liber IV (1888)",partial,sources/corpus_supplement/suffolk-deeds-liber-iv-1888-gurney-extracts.md,,sources/validations/suffolk-deeds-liber-iv-1888.md
 suffolk-probate-index-v2-1895,"Suffolk Probate Index, vol. 2",none,,,sources/validations/suffolk-probate-index-v2-1895.md
 suffolk-visitations-metcalfe-1882,"Metcalfe, Visitations of Suffolk",extract,sources/corpus_supplement/ryvett-suffolk-visitation-pedigrees-metcalfe.md,,
