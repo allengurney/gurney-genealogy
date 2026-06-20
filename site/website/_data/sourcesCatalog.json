@@ -2988,6 +2988,18 @@
     "notes": "Standard scholarly edition. Vol. I is the editorial Introduction; vols. II-VI carry the letters in numbered sequence. Gurney-related extracts captured: Saxthorpe Court 1472 episode (vol. I Introduction, narrating Paston letters Nos. 779, 796, 801 + Margaret Paston 5 June 1472); 23 April 1452 St George's Day petition signed by Thomas Gurnay (vol. II); Countess of Oxford to John Paston referencing Margaret Gurnay (vol. II, undated)."
   },
   {
+    "sourceId": "paston-letters-davis",
+    "shortTitle": "Paston Letters and Papers -- Davis edition",
+    "citation": "Norman Davis, ed., Paston Letters and Papers of the Fifteenth Century.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/ThePastonLetters",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/paston-letters-davis.md",
+    "notes": "Editorial note identifies William Gurney, esquire, of Tharston as escheator of Norfolk and Suffolk in 1465–66, a retainer of the Duke of Norfolk, a commissioner in 1484 and 1491, and deceased in 1505. The death date conflicts with the primary inquisition post mortem and is retained as a secondary editorial date."
+  },
+  {
     "sourceId": "pattou-racines-histoire-gournay-2025",
     "shortTitle": "Pattou Racines Histoire -- Gournay",
     "citation": "Pattou, Etienne. Seigneurs de Gournay (-en-Bray) & Gurney, Normandie, Angleterre. Racines & Histoire chart genealogy, last updated 2025-08-11.",
@@ -3526,6 +3538,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/suffolk-deeds-liber-iv-1888.md",
     "notes": "Printed Suffolk County deed-record volume. John Gurney appears in the William Ting estate-division material on printed pp. 6 and 89a-90, with the printed index at p. 150 pointing to those references. The material identifies one of two Braintree messuages or tenements allotted to Bethia and Mercy Ting as being occupied by lease by John Gurney. Useful for Braintree tenancy and Ting/Tyng estate context; not a family-relationship record."
+  },
+  {
+    "sourceId": "suffolk-deeds-liber-12-1902",
+    "shortTitle": "Suffolk Deeds, Liber XII (1902)",
+    "citation": "Suffolk Deeds. Liber XII. Boston: Rockwell and Churchill, 1902.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/suffolkdeeds11suff",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/suffolk-deeds-liber-xii-gurnell-dorchester.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/suffolk-deeds-liber-12-1902.md",
+    "notes": "Printed edition of the manuscript Suffolk County registry deed book Liber XII, c. 1681–1684. The G-surname entries are for the distinct Gurnell family of Dorchester; the apparent FamilySearch full-text Gourney entries were machine-transcript artifacts."
   },
   {
     "sourceId": "suffolk-probate-index-v2-1895",

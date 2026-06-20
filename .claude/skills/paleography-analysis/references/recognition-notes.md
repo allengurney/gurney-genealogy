@@ -60,3 +60,15 @@ Append durable, reusable paleography lessons here after manuscript-analysis task
 - Gurney/Gournay variants or false friends: `Grobbe` is a distinct surname, not a Gurney form.
 - Reading lesson: When a clause repeats a rare forename, recover the testator's opening before collapsing identities. Here `the same Clement Gurney` and `the said Clement my sonne` are different men because the son is Clement Grobbe.
 - Avoid next time: Do not infer that a named debtor shares the testator's surname or kinship merely because the debtor and a legatee have the same forename.
+
+## 2026-06-20 - Maldon borough court books
+
+- Scope: Packet 31, Maldon borough court entries returned by FamilySearch Full-Text Search.
+- Source/image range: ARKs `3:1:9Q97-YSLK-YTV` and `3:1:9Q97-YSLZ-BQG`.
+- Document type and date range: Court baron / view of frankpledge and borough court openings, 1630 and 1676.
+- Hand or scribe: Latin borough court register hand.
+- Useful enhancement: Full-page grid followed by a 3x-4x heading sheet and a separate juror-list sheet.
+- Comparator words: `Franciscus Gournay gent.` in the 1630 juror list; `Francisco Gournay gent.` with `Ballivis` in 1676.
+- Gurney/Gournay variants or false friends: The surname is a clear `Gournay`; the major false signal was chronological, not nominal.
+- Reading lesson: FamilySearch's transcript reduced an explicit manuscript `1676` to `1636`. Read the court heading and regnal/date formula before assigning a same-name person to a generation.
+- Avoid next time: Do not build identity analysis from an FTS year label when one digit separates two plausible generations.
