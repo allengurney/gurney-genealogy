@@ -31,7 +31,12 @@ Clayton, Raymond, and Newton kin, plus "Marye Ryvett my daughter in lawe"; the 1
 Robert's estate to his widow **Agnes Ryvett**.[^bridging-wills] The identification therefore now
 rests on chronology, geography, and the absence of any competing Margaret — strong
 circumstantial alignment, but no document yet names Margaret as Francis Gurney's wife or ties
-Francis Rivet's household to the older Rivett testators.
+Francis Rivet's household to the older Rivett testators. The probate routes are now closed at
+national level too: a Prerogative Court of Canterbury / TNA Discovery search for any Rivet,
+Rivett, or Revett of Garveston, Dereham, or Norfolk in 1580–1640 returns nothing, so no PCC will
+supplements the Norfolk-index negative.[^pcc-rivett-negative] And the 1611 Gurney × Rybett
+marriage is indexed as a parish-register *marriage*, not a licence, so no marriage allegation
+survives that could have named Margaret's father.[^fmpm]
 
 ## The family and its geography
 
@@ -153,8 +158,11 @@ the Gurney–Heydon tie via Anne Heydon m. William Gurney V is independent and u
   the batch-2 pages added nothing.[^reg-p19] So if she died c.1616–17 her burial was **likely
   elsewhere — most plausibly East Dereham**, where the family was then living (NRO PD 86/41,
   worked in the case-file paleography). Fixing her death date and parish bears on the timing of
-  John's removal to maternal kin. (Garveston now read; East Dereham the remaining test —
-  available online.)
+  John's removal to maternal kin. The indexed route is now closed: the FindMyPast Norfolk Burials
+  set (Gurn*, 1608–1628) shows no Gurney/Rivet burial at East Dereham or West Barsham and, on a
+  place-column read, omits both parishes — so it cannot resolve her burial, and only the East
+  Dereham register image can.[^fmp-burials-coverage] (Garveston read; East Dereham the remaining
+  image test.)
 
 ## Crosslinks
 - Father of John: [`research/people/g14-francis-gurney-fact-sheet.research.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g14-francis-gurney-fact-sheet.research.md)
@@ -168,8 +176,10 @@ the Gurney–Heydon tie via Anne Heydon m. William Gurney V is independent and u
 [^prob]: Ancestry "UK, Extracted Probate Records, 1269–1975" / "Norfolk, England, Indexes to Wills, Probate, Administrations and Marriage Licence Bonds, 1371–1858," Margaret Bate Rivett, death 1584, Garveston. Source ID: `norfolk-wills-probate-index-1371-1858`.
 [^fmpr]: FindMyPast "Norfolk Banns and Marriages," Richard Ryvett m. Faith, 1602, Gressenhall; "Norfolk Baptisms," Alice Rivett, 1611, Gressenhall, father Richard. Source IDs: `findmypast-norfolk-banns-marriages-index`; `findmypast-norfolk-baptisms-index`.
 [^probate-francis]: Ancestry.co.uk, "Norfolk, England, Indexes to Wills, Probate, Administrations and Marriage Licence Bonds, 1371–1858" (in association with the Norfolk Record Office), surname Rivett/Revett, forename Francis: four records only across 1371–1858 — a will of 1551 (indexed "Rivett, Francis, Clerk, of Hingham"), a marriage licence (1750) and wills of 1770 and 1848; none in the c.1600–1640 window when Francis Rivet of Garveston (christened 1569) would have died. Authenticated session, June 2026. Source ID: `norfolk-wills-probate-index-1371-1858`.
+[^pcc-rivett-negative]: The National Archives, Discovery online catalogue (https://discovery.nationalarchives.gov.uk), search of surnames Rivet/Rivett/Revett with Garveston, Dereham, and Norfolk, record series PROB 11 and unrestricted, 1580–1640: no results (2026-06-20). Confirms that no Prerogative Court of Canterbury will or national-court probate exists for Francis Rivet or the Garveston Rivetts in the window, complementing the Norfolk diocesan-index negative recorded at `[^probate-francis]`. Source ID: `tna-pcc-probate` (the PCC record series searched; Discovery is the access route).
 [^probate-cluster]: Ancestry.co.uk, "Norfolk, England, Indexes to Wills, Probate, Administrations and Marriage Licence Bonds, 1371–1858": "Rivett, Margaret, Widow, of Garveston," will 1584; "Rivett, Robert, of Garveston, Norfolk," administration 1597; with mid-Norfolk Rivett wills of John (1585), James (1589), John (1592), Thomas (1596) and William (1636) and inventories of Edmund (1613–14) and Katherine (1626–27). The maiden name *Bate* for the 1584 widow comes from the parallel "UK, Extracted Probate Records, 1269–1975." Index level (no will images in the collection). Authenticated session, June 2026. Source ID: `norfolk-wills-probate-index-1371-1858`.
 [^francis-podmer-1584]: Francis Rivet m. Elizabeth Podmer, 2 July 1584, Garveston, Norfolk — Ancestry "England, Select Marriages, 1538–1973" (IGI), record 33546675 (FHL film 1702622, item 11); the bride's surname "Podmer" from the FHL film index. The same IGI set carries children of Francis Rivet and Elizabeth at Garveston, incl. a son Francis christened 4 February 1609. Index level (no register image examined). Source IDs: `fs-england-marriages-1538-1973` (marriage); `fs-england-births-christenings` (christenings).
 [^richard-rivet-1575]: Richard Rivet, christened 30 November 1575, Garveston, Norfolk, father Robert — Ancestry "England, Select Births and Christenings, 1538–1975" (IGI). Index level. The Robert is plausibly the Robert Rivett of Garveston whose 1597 administration (widow Agnes Ryvett) is recorded above. Source ID: `fs-england-births-christenings`.
 [^thornton-will]: Will of John Thornton of Gressenhall, husbandman, dated 16 May 1629, proved 6 February 1630/31 before Thomas Browne, surrogate; Norwich Consistory Court registered copy, FamilySearch film DGS 008098653, page 1 ark `3:1:3Q9M-CSJ6-9Q4B-D`, page 2 ark `3:1:3Q9M-CSJ6-9Q4F-M`. Image-read transcription (paleography packet 18, 2026-06-15): bequests to son and heir Edward Thornton (the copyhold tenement in Gressenhall), daughter Elizabeth Blade, son John Thornton, and "my wellbeloved sonne in law Richard Ryvett and to Marian his wife"; Richard Ryvett made sole executor and a witness; further legatees Jane Blade and grandchild Susan Lowes; a foster child Anne [Sitho/Sithe] charged on the township. Source ID: `familysearch-fulltext-search`.
 [^probate-gressenhall]: Ancestry.co.uk, "Norfolk, England, Indexes to Wills, Probate, Administrations and Marriage Licence Bonds, 1371–1858," surname Rivett, keyword "Gressenhall": the keyword produces no re-ranking and no Rivett record noted "of Gressenhall" (whereas the same keyword "Garveston" lifts Margaret 1584 and Robert 1597 to the top), indicating no Gressenhall Rivett left probate in the Norwich courts. Authenticated session, June 2026. Source ID: `norfolk-wills-probate-index-1371-1858`.
+[^fmp-burials-coverage]: FindMyPast "Norfolk Burials," surname `Gurn*`, year-of-death 1608–1628 (2026-06-20): 20 results, none at East Dereham or West Barsham; the place column across the result set carries neither parish, confirming the set's parish-selectivity (the same selectivity that omits East Dereham from the FMP "Norfolk Baptisms" set). A blank here is therefore not a true negative for Margaret's burial. Source ID: `findmypast-norfolk-burials-index`.

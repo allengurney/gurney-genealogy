@@ -1,3 +1,5 @@
+**Done:** 2026-06-20 20:29 PT
+
 # Patchset v106 — Medieval & pedigree direct line (soldier database, L'Estrange→William Gurney, 1463 Great Melton feoffment, Thomas Gurney III death)
 
 Bundles the medieval/pedigree findings of the 2026-06-18→20 discovery arc. Companion patchset **v107** carries the emigrant-John / G14-family findings from the same arc. Net-new raw source extracts were written directly to `sources/corpus_supplement/` during the arc (per maintainer instruction): `rye-norwich-free-library-calendar-gurnay-extracts.md` (used by Item 3 below), plus `rollco-other-companies-gurney-1573-1653.md` and `maldon-borough-court-gournay-fts-1630-1706.md` (used by v107).
@@ -21,8 +23,8 @@ old_string:
 
 new_string:
 ```
-| **Richard Gurney, esquire** (1387; E101/40/34 m1) | Unplaced in *both* the Norfolk and Somerset pedigrees; served under Arundel, the family's patron[^msd] | **Open — priority.** Index data confirmed 2026-06-20: man-at-arms, naval expedition, 13 March 1387, captain Edward Courtenay earl of Devon, commander Richard FitzAlan earl of Arundel. Gentry rank, right generation/affinity; if Daniel Gurney's hedged "Robert" for G22 is wrong, a Richard is conceivable. The database holds **no 1388 record** under any Gurney spelling, so the formerly-cited E101/41/5 m5 (1388) needs verifying against the original. Membrane read of E101/40/34 m1 carried as L-72. |
-| **John Gurnay, archer** (1385; E101/40/39 m2) | Naval expedition, retinue of Thomas Percy earl of Worcester[^msd] | **Open** — surfaced 2026-06-20; a second Gurney in royal naval service the same decade as Richard esq.'s 1387 service. No status/locative tag in the index; membrane read carried as L-154. |
+| **Richard Gurney, esquire** (1387; E101/40/34 m1) | Unplaced in *both* the Norfolk and Somerset pedigrees; served under Arundel, the family's patron[^msd] | **Open — low priority.** Index data confirmed 2026-06-20: man-at-arms, naval expedition, 13 March 1387, captain Edward Courtenay earl of Devon, commander Richard FitzAlan earl of Arundel. Gentry rank, right generation/affinity; if Daniel Gurney's hedged "Robert" for G22 is wrong, a Richard is conceivable. The database carries only this 1387 record (no 1388 entry under any Gurney spelling), so the formerly-paired E101/41/5 m5 (1388) is treated as a stray citation, not a second record — the indexed data is trusted, no membrane re-verification pursued. The membrane-neighbour read (L-72) is held at **low priority**. |
+| **John Gurnay, archer** (1385; E101/40/39 m2) | Naval expedition, retinue of Thomas Percy earl of Worcester[^msd] | **Comparator only — low priority.** Surfaced 2026-06-20. An *archer*, not a man-at-arms — a rank a direct-line gentry Gurney would not have held — so this is a same-name comparator, not a direct-line candidate (L-154, low priority). |
 ```
 
 **Action 1b — str_replace (add a dated sweep note after the candidate-cohort table's summary paragraph):**
@@ -36,7 +38,7 @@ new_string:
 ```
 Several of the workbook's louder leads (the Somerset knights, the London mercer, the Essex John) are thereby **excluded** as non-Norfolk, narrowing the genuine "undocumented child/relative" field to the Richard esquire and the cadet Johns. None is yet an identification; each turns on a manuscript membrane, carried as a dated lead.
 
-A direct re-query of the database (2026-06-20) confirmed the index data above and added the 1385 John Gurnay archer (E101/40/39 m2, Percy retinue) to the cohort; it also showed the database carries no Richard record for 1388, so the muster membranes themselves — E101/40/34 m1 (Richard, 1387) and E101/40/39 m2 (John, 1385) on the Norfolk-vs-West-Country question, and E101/48/17 & /19 (the Harfleur John, against G21 Thomas I's own 1418 service) — are the remaining step. They are AALT image reads (the AALT site was unreachable at the time of the sweep), staged as paleography briefs.[^msd]
+A direct re-query of the database (2026-06-20) confirmed the index data above. It also showed the database carries only the 1387 Richard record (no 1388 entry), and that the one genuinely new sighting — a 1385 John Gurnay — is an *archer*, a rank outside the direct line's gentry status. The earlier soldier-database review (which found no unusually-variant Gurney spellings) remains the controlling treatment and the indexed data is trusted; the AALT muster membranes would at most site these unplaced same-name men Norfolk-vs-West-Country, a marginal gain, so L-72/L-73/L-74/L-154 are held as **low-priority** leads, not an active step.[^msd]
 ```
 
 ---

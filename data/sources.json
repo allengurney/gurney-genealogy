@@ -976,6 +976,17 @@
       "validationPath": "sources/validations/rollco-drapers-gurney-old-change-cluster.md",
       "notes": "Full ROLLCO Drapers' Gurney event corpus 1581-1654. Earliest Robert event is freedom by servitude 16 Dec 1581 (DREW4826) under master Robert Furnes, with Robert already styled 'Tailor, Old Change' at admission. Robert is recorded as Drapers' apprenticeship or freedom master in roughly 14 events between 1597 and 1622, with explicit 'tailor, Old Change' identifications in 1604, 1617, and 1622. John Gurney's 1623/4 freedom by redemption (DREW5638) names Robert Gurney as father in the same event row. The 1629 Marten Backhurst freedom-by-servitude event (DREB1311) names Robert as master without a deceased flag; given Robert's confirmed 1625 death this is a posthumous master-name record, not a second living Robert. John Gurney's 1630 apprenticeship-master event (DRLL2060) bound Henry Smith, son of late Thomas Smith yeoman of Kilton, Suffolk, for 7 years on 3 November 1630."
     },
+    "rollco-other-companies-gurney-1573-1653": {
+      "shortTitle": "ROLLCO - Gurney events in Clothworkers, Tallow Chandlers, Mercers (1573-1653)",
+      "citation": "Records of London's Livery Companies Online (ROLLCO), Gurney event records in the Clothworkers', Tallow Chandlers', and Mercers' companies; surname Gurney all-company sweep, captured 2026-06-20.",
+      "archive": "ROLLCO (Records of London's Livery Companies Online)",
+      "url": "https://www.londonroll.org/search",
+      "corpusStatus": "full",
+      "corpusPath": "sources/corpus_supplement/rollco-other-companies-gurney-1573-1653.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/rollco-other-companies-gurney-1573-1653.md",
+      "notes": "Complements rollco-drapers-gurney-old-change-cluster and rollco-stationers-gurney-1613-1626 (the previously-held ROLLCO companies). Key finding: a 1622 Clothworkers' apprenticeship of Francis Gurney, son of Thomas Gurney, 'scissor' (tailor) of Weston Turville, Buckinghamshire (Aylesbury hundred, the Candidate-A region for the emigrant John G13). Also a London Edward Gurney, citizen and haberdasher (1641 Clothworkers); Richard Gurney (Clothworkers freeman 1635-36); a William/Ws (Clothworkers freeman 1573); a Tallow Chandlers Ralph/William/Christopher household (1650); Thomas/Francis Gurney bound to the Mercers (1653). ROLLCO event IDs not captured (the browser privacy guard strips the result-link query strings); rows identified by year/name/company/role. ROLLCO does not include the Merchant Taylors' Company (see ukda-9263-mt-apprentices-scott-2024)."
+    },
     "rollco-stationers-hunscott-cluster": {
       "shortTitle": "ROLLCO Stationers - Joseph Hunscott cluster",
       "citation": "Records of London's Livery Companies Online (ROLLCO), Stationers' Company event records for Joseph Hunscott (1612-1646) and John Hunscott (1641), captured by surname Hunscott sweep 1600-1660.",
@@ -1320,13 +1331,13 @@
     "st-benet-fink-register": {
       "shortTitle": "St Benet Fink register, London",
       "citation": "Parish register, St Benet Fink, City of London. Baptisms 1619–1637.",
-      "archive": "London Metropolitan Archives (presumed)",
-      "url": null,
+      "archive": "London Metropolitan Archives, P69/BEN1/A/001-002 (St Benet Fink, City of London)",
+      "url": "https://search.lma.gov.uk/",
       "corpusStatus": "none",
       "corpusPath": null,
       "mediaPath": null,
-      "validationPath": null,
-      "notes": "Children of Francis G14 + Anne Browning. Transcribed DG-III-525."
+      "validationPath": "sources/validations/st-benet-fink-register.md",
+      "notes": "Baptisms of Francis G14 + Anne Browning's children 1619-1637, transcribed by Bernau (British Archivist I.7, 1913; sourceId british-archivist-bernau-1913) and confirmed at FS-index level; the original register has not been examined at first hand. There is NO Harleian Society printed transcript of St Benet Fink - Harleian Register Series vol. 44 (Bannerman 1914) is St Mary le Bow / St Benet Sherehog, a different church - so any 'Harleian St Benet Fink' citation is a misattribution. Cite Bernau + this register."
     },
     "st-mary-maldon-register": {
       "shortTitle": "St Mary's Maldon register",
@@ -1524,7 +1535,7 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": null,
-      "notes": "13 probate items examined for John Gurney emigrant elimination. 7 John Gurneys confirmed in England post-1637 (St Botolph Aldgate, Winkfield, Aylesbury, East Grinstead, Albury, East Chiltington x2). 6 contextual records (Anne Gurney Eythorne, Daniel Gurney Aylesbury, William Gurney London, Richard Gurney London, Sir Richard Gurney, Tobias/Edward Gurney). Full analysis in research/case-files/john-gurney-case-file-v4.md."
+      "notes": "13 probate items examined for John Gurney emigrant elimination. 7 John Gurneys confirmed in England post-1637 (St Botolph Aldgate, Winkfield, Aylesbury, East Grinstead, Albury, East Chiltington x2). 6 contextual records (Anne Gurney Eythorne, Daniel Gurney Aylesbury, William Gurney London, Richard Gurney London, Sir Richard Gurney, Tobias/Edward Gurney). Full analysis in research/case-files/john-gurney-case-file-v4.md. 2026-06-20 (TNA Discovery online catalogue, https://discovery.nationalarchives.gov.uk): PROB 11 search for Rivet/Rivett/Revett of Garveston/Dereham/Norfolk 1580-1640 = nil (no PCC will for Francis Rivet or the Garveston Rivetts); Gourney/Maldon/Essex 1637-1665 = nil (no PCC will for Francis G14)."
     },
     "protestation-returns": {
       "shortTitle": "Protestation Returns 1641–42",
@@ -2898,8 +2909,8 @@
       "corpusStatus": "transcript",
       "corpusPath": null,
       "mediaPath": null,
-      "validationPath": null,
-      "notes": "Used in negative-result mode for Margaret Rybett's burial 1614-1620: zero Margaret Gurney/Ryvett burials surface across Norfolk surname variants, including at East Dereham specifically. Burial therefore not in indexed Norfolk burials; future targets are Suffolk burials (Ryvett family geography) and the East Dereham parish-register burial-section image walk."
+      "validationPath": "sources/validations/findmypast-norfolk-burials-index.md",
+      "notes": "Used in negative-result mode for Margaret Rybett's burial 1614-1620: zero Margaret Gurney/Ryvett burials surface across Norfolk surname variants. Re-confirmed 2026-06-20 with a Gurn* 1608-1628 sweep (20 results, none at East Dereham or West Barsham; the place column across the result set carries neither parish) - the set is parish-selective and omits both, so a blank is not a true negative. Future targets: Suffolk burials (Ryvett geography) and the East Dereham parish-register burial-section image walk."
     },
     "medievalsoldier-database": {
       "shortTitle": "Soldier in Later Medieval England Online Database",
