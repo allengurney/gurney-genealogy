@@ -59,6 +59,7 @@ cleveland-battle-abbey-roll-v1-crossrefs,"Cleveland, Battle Abbey Roll vol. 1 cr
 cleveland-battle-abbey-roll-v2-gurnay,"Cleveland, Battle Abbey Roll - Gurnay",partial,sources/corpus_supplement/cleveland-battle-abbey-roll-v2-gurnay.md,sources/media/cleveland-battle-abbey-roll-v2-gurnay/The_Battle_Abbey_Roll.pdf,sources/validations/cleveland-battle-abbey-roll-v2-gurnay.md
 cleveland-battle-abbey-roll-v3-crossrefs,"Cleveland, Battle Abbey Roll vol. 3 crossrefs",partial,sources/corpus_supplement/cleveland-battle-abbey-roll-v3-gurnay-crossrefs.md,,sources/validations/cleveland-battle-abbey-roll-v3-crossrefs.md
 comerford-dam-history,Frank D. Comerford Dam history (Wikipedia; North Star Monthly),none,,,
+commissary-court-london-testamentary-index-marc-fitch,commissary-court-london-testamentary-index-marc-fitch,extract,sources/corpus_supplement/commissary-court-london-gurney-testamentary-index-1626-1700.md,sources/media/commissary-court-london-testamentary-index-marc-fitch/,sources/validations/commissary-court-london-testamentary-index-marc-fitch.md
 complete-history-england-1706-v1,"A Complete History of England, vol. 1 (1706)",supplement,sources/corpus_supplement/complete-history-england-1706-v1-gurney-extracts.md,,sources/validations/complete-history-england-1706-v1.md
 cpr-henry-iv-1399-1401,"Calendar of Patent Rolls, Henry IV, 1399-1401",none,,,
 cpr-henry-vi-1422-29,"Calendar of Patent Rolls, Henry VI, 1422-29",none,,,
@@ -83,6 +84,7 @@ dudo-historia,"Dudo of Saint-Quentin, Historia Normannorum",none,,,
 dumoulin-histoire-generale-normandie-1631,"Gabriel Dumoulin, Histoire générale de Normandie (1631)",partial,,,
 eaa-occasional-paper-2-ellingham-kiln-1997,EAA Occasional Paper 2 - Ellingham Kiln,partial,sources/corpus_supplement/eaa-occasional-paper-2-ellingham-kiln-1997.md,,sources/validations/eaa-occasional-paper-2-ellingham-kiln-1997.md
 early-yorkshire-charters-vol-8-clay-1949,"Early Yorkshire Charters, vol. 8: The Honour of Warenne (Clay 1949)",external,,,
+ecipm-mapping-medieval-countryside,E-CIPM / Mapping the Medieval Countryside (digital Calendar of Inquisitions Post Mortem),partial,sources/corpus_supplement/ecipm-gournay-mentions-index-of-persons.md,,
 edmund-divine-pcc-probate-negative,Edmund Gurney (Divine) probate search — negative,extract,sources/corpus_supplement/edmund-gurney-divine-pcc-probate-negative.md,,sources/validations/edmund-divine-pcc-probate-negative.md
 elizabeth-stettler-walker-gurney-obituary,Elizabeth Stettler Walker Gurney Obituary (2013),none,,,
 english-heritage-baconsthorpe-castle-history,English Heritage - Baconsthorpe Castle history,partial,sources/corpus_supplement/english-heritage-baconsthorpe-castle-history.md,,sources/validations/english-heritage-baconsthorpe-castle-history.md
@@ -110,7 +112,7 @@ findmypast-hertfordshire-burials,Findmypast Hertfordshire Burials,none,,,sources
 findmypast-john-gurney-2026may-supplementary-same-name-sweep,"Findmypast John Gurney same-name sweep, 12 May 2026 raw batch",transcript,,sources/intake/john-gurney-2026May/,sources/validations/findmypast-john-gurney-2026may-supplementary-same-name-sweep.md
 findmypast-norfolk-banns-marriages-index,FindMyPast Norfolk Banns and Marriages index,extract,sources/corpus_supplement/rivett-garveston-maternal-family-2026-06.md,,sources/validations/findmypast-norfolk-banns-marriages-index.md
 findmypast-norfolk-baptisms-index,FindMyPast Norfolk Baptisms index,extract,sources/corpus_supplement/rivett-garveston-maternal-family-2026-06.md,,sources/validations/findmypast-norfolk-baptisms-index.md
-findmypast-norfolk-burials-index,Findmypast Norfolk Burials index,transcript,,,
+findmypast-norfolk-burials-index,Findmypast Norfolk Burials index,transcript,,,sources/validations/findmypast-norfolk-burials-index.md
 findmypast-uk-parish-baptisms,Findmypast UK Parish Baptisms,none,,,sources/validations/findmypast-uk-parish-baptisms.md
 fischer-albions-seed-1989,"Fischer, Albion's Seed",none,,,
 fmg-medlands-normacre,FMG MedLands -- Normandy (Cawley),external,,,
@@ -164,6 +166,7 @@ historic-england-old-hall-farmhouse-1077566,Historic England - Old Hall Farmhous
 history-ac-uk-markets-fairs-gazetteer,Gazetteer of Markets and Fairs to 1516,partial,sources/corpus_supplement/history-ac-uk-markets-fairs-gurnay.md,,sources/validations/history-ac-uk-markets-fairs-gurnay.md
 history-of-parliament-online-gurney-1386-1421,HoP Online -- Gurney John d.1408,external,,,
 history-of-weymouth,"History of Weymouth, Massachusetts (1923)",partial,sources/corpus_supplement/history-of-weymouth-vol3-gurney.md,,sources/validations/history-of-weymouth.md
+hmc-12th-report-appendix-ix-1891,hmc-12th-report-appendix-ix-1891,extract,sources/corpus_supplement/gurney-of-keswick-spelman-pedigree-hmc-1891.md,,sources/validations/hmc-12th-report-appendix-ix-1891.md
 hobart-abington-1839,"Hobart, Historical Sketch of Abington (1839)",partial,,,sources/validations/benjamin-gurney-harden-research-tables-2026-04.md
 hobart-benjamin-history-abington-1866,"Hobart, History of the Town of Abington (1866)",partial,sources/corpus_supplement/hobart-1866-abington-gurney-register-extract.md,,sources/validations/hobart-benjamin-history-abington-1866.md
 holinshed-chronicles-1577,"Holinshed, Chronicles of England, Scotlande, and Irelande (1577) -- laste volume",partial,sources/corpus_supplement/holinshed-1577-selected-gurney-references.md,,sources/validations/holinshed-chronicles-1577.md
@@ -188,6 +191,7 @@ lma-st-magnus-martyr-register-candidate-d-images,LMA St Magnus the Martyr regist
 lma-st-mary-harrow-register-dro003,"St Mary, Harrow on the Hill, parish register (LMA DRO/003)",none,,,sources/validations/lma-st-mary-harrow-register-dro003.md
 lma-st-mary-magdalen-old-fish-street-john-grene-1634,LMA St Mary Magdalen Old Fish Street - John Grene baptism (1634),partial,,sources/media/lma-st-mary-magdalen-old-fish-street-john-grene-1634,sources/validations/lma-st-mary-magdalen-old-fish-street-john-grene-1634.md
 lma-st-swithin-london-stone-register-john-grine-1640,LMA St Swithin London Stone - John Grine marriage (1640/1),partial,,sources/media/lma-st-swithin-london-stone-register-john-grine-1640,sources/validations/lma-st-swithin-london-stone-register-john-grine-1640.md
+london-archdeaconry-court-probate-index-brs-089,london-archdeaconry-court-probate-index-brs-089,none,,,sources/validations/london-archdeaconry-court-probate-index-brs-089.md
 loyd-origins,"Loyd, Origins of Some Anglo-Norman Families",none,,,
 ma-wills-probate-records,"Massachusetts Wills and Probate Records, 1635-1991",partial,sources/corpus_supplement/plymouth-probate-benjamin-gurney-g11-will-1738.md,sources/media/ma-wills-probate-records/,sources/validations/ma-wills-probate-records.md
 macris-cum-115-gurney-ase-house,"MACRIS CUM.115 - Gurney, Ase House (51 Main St, Cummington)",partial,sources/corpus_supplement/macris-cummington-gurney-houses-extract.md,sources/media/macris-cum-115-gurney-ase-house/,sources/validations/macris-cum-115-gurney-ase-house.md
@@ -276,6 +280,7 @@ rigler-genealogy-notes-c1980,"Rigler genealogy notes (worksheets, c. 1980)",part
 rigler-gurney-family-aaron-zuinglius-1994,"Rigler, Gurney family from Aaron to Zuinglius",partial,sources/corpus_supplement/rigler-gurney-aaron-zuinglius-g9-g12-extract.md,sources/media/rigler-gurney-family-aaron-zuinglius-1994/,sources/validations/rigler-gurney-family-aaron-zuinglius-1994.md
 rising-millican-norwich-apprentices-index-nrs29-1959,"Rising & Millican, Index of Indentures of Norwich Apprentices (NRS 29)",partial,sources/corpus_supplement/millican-norwich-freemen-apprentices-gurney-extracts.md,,sources/validations/millican-norwich-freemen-and-apprentices-indexes.md
 rollco-drapers-gurney-old-change-cluster,ROLLCO Drapers - Robert and John Gurney Old Change cluster,full,sources/corpus_supplement/rollco-drapers-gurney-old-change-cluster.md,,sources/validations/rollco-drapers-gurney-old-change-cluster.md
+rollco-other-companies-gurney-1573-1653,"ROLLCO - Gurney events in Clothworkers, Tallow Chandlers, Mercers (1573-1653)",full,sources/corpus_supplement/rollco-other-companies-gurney-1573-1653.md,,sources/validations/rollco-other-companies-gurney-1573-1653.md
 rollco-stationers-gurney-1613-1626,ROLLCO Stationers - John Gurney 1613 binding and Robert Gurney 1616-1626 apprenticeship sequence,partial,sources/corpus_supplement/rollco-stationers-gurney-1613-1626.md,,sources/validations/rollco-stationers-gurney-1613-1626.md
 rollco-stationers-hunscott-cluster,ROLLCO Stationers - Joseph Hunscott cluster,partial,sources/corpus_supplement/rollco-stationers-hunscott-cluster.md,,sources/validations/rollco-stationers-hunscott-cluster.md
 rudder-gloucestershire-1779,"Rudder, A New History of Gloucestershire (1779)",supplement,sources/corpus_supplement/rudder-gloucestershire-1779-gurney-extracts.md,,sources/validations/rudder-gloucestershire-1779.md
@@ -289,7 +294,7 @@ savage-dictionary,"Savage, Genealogical Dictionary",none,,,
 shedd-daniel-shed-genealogy-1920,"Shedd, Daniel Shed Genealogy (1920)",partial,,,
 spr-case-338-john-gurney-probate-1663,SPR Case #338 - John Gurney probate inventory,partial,sources/corpus_supplement/john-gurney-probate-inventory-spr-case-338.md,sources/media/John Gurney Probate/102840311_00516.jpg,
 sprague-braintree,"Sprague, Genealogies of Braintree",none,,,
-st-benet-fink-register,"St Benet Fink register, London",none,,,
+st-benet-fink-register,"St Benet Fink register, London",none,,,sources/validations/st-benet-fink-register.md
 st-mary-maldon-register,St Mary's Maldon register,none,,,
 stirnet-gurney-pedigree,Stirnet -- Pedigree of the Gournays of Norfolk,none,,,
 suffolk-deeds-liber-12-1902,"Suffolk Deeds, Liber XII (1902)",supplement,sources/corpus_supplement/suffolk-deeds-liber-xii-gurnell-dorchester.md,,sources/validations/suffolk-deeds-liber-12-1902.md

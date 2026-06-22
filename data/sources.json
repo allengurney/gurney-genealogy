@@ -2054,6 +2054,17 @@
       "validationPath": "sources/validations/bho-ipm-henry-iv-vol19-gournay-johnv.md",
       "notes": "Inquisition post mortem of John Gournay (Gurney) = Sir John V, entries 489-494 (TNA C 137/70/6). Writ 16 Feb 1409; inquisitions East Rudham 26 Mar, Holt 27 Mar, Attlebridge 28 Mar 1409; died 4 Dec 1408; heir Edmund his son aged 10 (b. c.1398); jurors found he 'held nothing in Norfolk' (nothing in chief of the Crown). Independent corroboration of Daniel Gurney Supplement Note 121; explains the absence of a royal IPM for Edmund G23 and the thin royal footprint of the West Barsham line. Resolves leads L-33/L-37."
     },
+    "ecipm-mapping-medieval-countryside": {
+      "shortTitle": "E-CIPM / Mapping the Medieval Countryside (digital Calendar of Inquisitions Post Mortem)",
+      "citation": "Mapping the Medieval Countryside: Properties, Places and People (digital edition of the Calendar of Inquisitions Post Mortem, c. 1399-1447 = CIPM vols 18-26), University of Winchester / King's College London.",
+      "archive": "Mapping the Medieval Countryside",
+      "url": "https://inquisitionspostmortem.ac.uk/",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/ecipm-gournay-mentions-index-of-persons.md",
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Digital CIPM, vols 18-26 (Henry IV-VI). No Gournay/Gurney is the SUBJECT (deceased tenant-in-chief) of any indexed IPM - the family held nothing in chief - so the quick-search box returns nothing; mentions are found via the Index of Persons (head-form 'Gournay' cross-referencing Gornay/Gourney/Gurnay/Gurney/Gourncoy) and the Index of Jurors. Norfolk/direct-line bearing: Edmund Gournay (prob. Edmund G23, d.1387) feoffee of the great manor of Hingham + hundred of Forehoe to the Morleys (Robert Lord Morley IPM 1442/43, vol.26 no.70, TNA C 139/110/38) = same transaction as Rye fine #1526; and Robert Gurnay of Norfolk as IPM juror 1400-1406 (vol.18 nos.70-71, 500; vol.19 nos.88, 79), seated in the Little Cressingham/Saham area = corroborates the 1405 Cressingham-fine Robert (candidate G22), though no record recites his parentage. Collateral: Sir Matthew d.1406 (13 entries), Thomas Gurney/Englishcombe Somerset (vol.25 no.325), Robert Gourncoy/Welwe Wilts (vol.23 no.283), Stephen Gornay/King's Stanley Glos (vol.19 no.677). Excluded: Bucks Gurney/Gorney of Stoke Mandeville; John Gourney smith of Wendover."
+    },
     "rye-feet-of-fines-norfolk": {
       "shortTitle": "Rye, Short Calendar of the Feet of Fines for Norfolk (Parts I-II)",
       "citation": "Walter Rye, ed., A Short Calendar of the Feet of Fines for Norfolk. Part I: Richard I-Edward I (Norwich: Goose, 1885); Part II: Edward II-Richard III (Norwich: Goose, 1886).",
@@ -3593,6 +3604,33 @@
       "mediaPath": null,
       "validationPath": "sources/validations/tyrwhitt-canterbury-tales-1798-v2.md",
       "notes": "Notes volume of Tyrwhitt's standard late-18th-c. critical edition of Chaucer. The note to General Prologue v. 43 (the Knight) at p. 392 reproduces the full French epitaph of Sir Matheu de Gourney from Leland's Itinerary (vol. iii p. xi), names the campaigns (Benamaryn, siege of Algezire, L'Escluse, Crefcy, Deyngeneffe, Peyteres, Nazare, Ozrey, et plusours autres batailles), and supplies the death year 1406 and age 96. Closer to Leland than Pettigrew's later paraphrase; supplies verbatim French text. Tyrwhitt frames Sir Matthew as a near-contemporary of Chaucer's fictional Knight and notes Chaucer's puzzling choice of Alexandria + Lettowe rather than Crecy + Poitiers as the Knight's listed campaigns."
+    },
+    "commissary-court-london-testamentary-index-marc-fitch": {
+      "citation": "Marc Fitch, ed., Index to the Testamentary Records in the Commissary Court of London (London Division) now preserved in the Guildhall Library, London, vol. IV: 1626–1649 and 1661–1700 (British Record Society, vols. 102, 108, 111)",
+      "archive": "Guildhall Library, London (printed index); Internet Archive digitisation",
+      "url": "https://archive.org/details/indextotestament0004chur",
+      "corpusStatus": "extract",
+      "corpusPath": "sources/corpus_supplement/commissary-court-london-gurney-testamentary-index-1626-1700.md",
+      "mediaPath": "sources/media/commissary-court-london-testamentary-index-marc-fitch/",
+      "validationPath": "sources/validations/commissary-court-london-testamentary-index-marc-fitch.md",
+      "notes": "Page 296 carries all five Gurney/Gourny entries for the volume's range (Daniel 1690, Miles 1636, Tho. Gourny 1676, Thomazine 1680, Wm. 1665); no Francis. Also searchable via FindMyPast 'England & Wales Published Wills & Probate Indexes 1300-1858' (record id OR/BRS/327/0310), whose transcription is incomplete vs the printed page."
+    },
+    "london-archdeaconry-court-probate-index-brs-089": {
+      "citation": "Index to the Probate Records of the Archdeaconry Court of London, 1363–1649 (British Record Society, vol. 89)",
+      "archive": "London Metropolitan Archives (originals); searched via FindMyPast 'England & Wales Published Wills & Probate Indexes, 1300–1858'",
+      "url": "https://search.findmypast.co.uk/search-world-records/england-and-wales-published-wills-and-probate-indexes-1300-1858",
+      "corpusStatus": "none",
+      "validationPath": "sources/validations/london-archdeaconry-court-probate-index-brs-089.md",
+      "notes": "June 2026: full variant net (gurn*/gourn*/gorn*, plus forename Francis) returns no Gurney/Gourney testator; the three 'Francis g*rn*' hits are Garner/Gerrard collisions. Negative for Francis Gurney G14."
+    },
+    "hmc-12th-report-appendix-ix-1891": {
+      "citation": "Historical Manuscripts Commission, Twelfth Report, Appendix, Part IX: The Manuscripts of the Duke of Beaufort, K.G., the Earl of Donoughmore, and Others (London: HMSO, 1891) — manuscripts of J. H. Gurney of Keswick Hall, Norfolk",
+      "archive": "Internet Archive; the manuscripts themselves in the Gurney-of-Keswick deposit (Norfolk Record Office)",
+      "url": "https://archive.org/details/manuscriptsduke00enggoog",
+      "corpusStatus": "extract",
+      "corpusPath": "sources/corpus_supplement/gurney-of-keswick-spelman-pedigree-hmc-1891.md",
+      "validationPath": "sources/validations/hmc-12th-report-appendix-ix-1891.md",
+      "notes": "pp. 116 (collection provenance: Cox Macro -> Hudson Gurney -> Keswick; 14 vols tied to Sir Henry Spelman) and 161 (MS 122/16, pp. 1-124: pedigrees with arms of Bardolf, Calthrop, Gurney, and especially Spelman; Spelman wills 1485-1641). Confirms the Spelman-circle Gurney pedigree survives. Page images supplied by Allen Gurney."
     },
     "paige-list-freemen-massachusetts-1849": {
       "shortTitle": "Paige, List of Freemen of Massachusetts (1849)",

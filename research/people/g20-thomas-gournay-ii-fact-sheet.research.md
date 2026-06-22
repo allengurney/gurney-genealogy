@@ -47,6 +47,9 @@ The will itself survives as a register copy at the Norfolk Record Office in the 
 | Norwich (St Gregory's parish) | c. 1430–1471 | Town house — one of three residences |
 | [Hardingham/Swathings, Norfolk](../places/hardingham.md) | c. 1430–1471 | Long-standing holding |
 | Depden, Suffolk | c. 1430–1471 | Wauncy inheritance |
+| West & East Lexham, Castleacre, Newton, Great Dunham, Norfolk | (feet-of-fines concord, 15th c.) | A final concord, **"Thomas Gurnay, Armiger, and Margaret his wife"** v. Nicholas Bokkyng and John Aleyn of Castleacre, in West Lexham, East Lexham, Castleacre, Newton, and Great Dunham (Rye, *Feet of Fines for Norfolk*, Pt II, entry 200). The rank "esquire," the named wife **Margaret**, and the West-Norfolk cluster on the West-Barsham/Harpley axis fit **Thomas II and Margaret Jerningham**; the fine's regnal year is unread, so the identification is provisional and a 14th-century Thomas namesake is not fully excluded (lead L-164).[^rye-thomas-margaret-2026] |
+
+[^rye-thomas-margaret-2026]: Walter Rye, *A Short Calendar of the Feet of Fines for Norfolk*, Part II (Internet Archive [`ashortcalendarf00ryegoog`](https://archive.org/details/ashortcalendarf00ryegoog)), entry 200; harvest at [`sources/corpus_supplement/norfolk-feet-of-fines-gurnay-entries-rye.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/norfolk-feet-of-fines-gurnay-entries-rye.md). Underlying TNA CP 25/1 (Norfolk), AALT. Source ID: `rye-feet-of-fines-norfolk`.
 
 ---
 

@@ -756,6 +756,18 @@
     "notes": "Derivative cross-reference sweep of volume 3 for Gournay/Gourney/Wauncy/Talbot/Gant/Vipont material. Most useful items: Talbot marriage to Gerard de Gournay's daughter; Emma de Gant's son Robert de Gournay as Maurice de Gant's heir; Wauncy-to-West Barsham descent through Katherine wife of Edmund de Gournay; and a King John/Mirabeau prisoner-custody lead involving Hugh de Gournay. Use as corroborative/lead material only."
   },
   {
+    "sourceId": "commissary-court-london-testamentary-index-marc-fitch",
+    "shortTitle": "commissary-court-london-testamentary-index-marc-fitch",
+    "citation": "Marc Fitch, ed., Index to the Testamentary Records in the Commissary Court of London (London Division) now preserved in the Guildhall Library, London, vol. IV: 1626–1649 and 1661–1700 (British Record Society, vols. 102, 108, 111)",
+    "archive": "Guildhall Library, London (printed index); Internet Archive digitisation",
+    "url": "https://archive.org/details/indextotestament0004chur",
+    "corpusStatus": "extract",
+    "corpusPath": "sources/corpus_supplement/commissary-court-london-gurney-testamentary-index-1626-1700.md",
+    "mediaPath": "sources/media/commissary-court-london-testamentary-index-marc-fitch/",
+    "validationPath": "sources/validations/commissary-court-london-testamentary-index-marc-fitch.md",
+    "notes": "Page 296 carries all five Gurney/Gourny entries for the volume's range (Daniel 1690, Miles 1636, Tho. Gourny 1676, Thomazine 1680, Wm. 1665); no Francis. Also searchable via FindMyPast 'England & Wales Published Wills & Probate Indexes 1300-1858' (record id OR/BRS/327/0310), whose transcription is incomplete vs the printed page."
+  },
+  {
     "sourceId": "folger-corpus-christi-1619",
     "shortTitle": "Corpus Christi (1619) - Internet Archive / Folger",
     "citation": "Gurnay, Edmund. Corpus Christi. Cambridge: Cantrell Legge, printer to the University of Cambridge, 1619.",
@@ -982,6 +994,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Earliest Norman chronicle. Hagiographic propaganda for the ducal line — not reliable for early events. The 'funiculo divisit' passage (land division by rope) is cited in G37 fact sheet but does not name Eudes."
+  },
+  {
+    "sourceId": "ecipm-mapping-medieval-countryside",
+    "shortTitle": "E-CIPM / Mapping the Medieval Countryside (digital Calendar of Inquisitions Post Mortem)",
+    "citation": "Mapping the Medieval Countryside: Properties, Places and People (digital edition of the Calendar of Inquisitions Post Mortem, c. 1399-1447 = CIPM vols 18-26), University of Winchester / King's College London.",
+    "archive": "Mapping the Medieval Countryside",
+    "url": "https://inquisitionspostmortem.ac.uk/",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/ecipm-gournay-mentions-index-of-persons.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Digital CIPM, vols 18-26 (Henry IV-VI). No Gournay/Gurney is the SUBJECT (deceased tenant-in-chief) of any indexed IPM - the family held nothing in chief - so the quick-search box returns nothing; mentions are found via the Index of Persons (head-form 'Gournay' cross-referencing Gornay/Gourney/Gurnay/Gurney/Gourncoy) and the Index of Jurors. Norfolk/direct-line bearing: Edmund Gournay (prob. Edmund G23, d.1387) feoffee of the great manor of Hingham + hundred of Forehoe to the Morleys (Robert Lord Morley IPM 1442/43, vol.26 no.70, TNA C 139/110/38) = same transaction as Rye fine #1526; and Robert Gurnay of Norfolk as IPM juror 1400-1406 (vol.18 nos.70-71, 500; vol.19 nos.88, 79), seated in the Little Cressingham/Saham area = corroborates the 1405 Cressingham-fine Robert (candidate G22), though no record recites his parentage. Collateral: Sir Matthew d.1406 (13 entries), Thomas Gurney/Englishcombe Somerset (vol.25 no.325), Robert Gourncoy/Welwe Wilts (vol.23 no.283), Stephen Gornay/King's Stanley Glos (vol.19 no.677). Excluded: Bucks Gurney/Gorney of Stoke Mandeville; John Gourney smith of Wendover."
   },
   {
     "sourceId": "eaa-occasional-paper-2-ellingham-kiln-1997",
@@ -1400,8 +1424,8 @@
     "corpusStatus": "transcript",
     "corpusPath": "",
     "mediaPath": "",
-    "validationPath": "",
-    "notes": "Used in negative-result mode for Margaret Rybett's burial 1614-1620: zero Margaret Gurney/Ryvett burials surface across Norfolk surname variants, including at East Dereham specifically. Burial therefore not in indexed Norfolk burials; future targets are Suffolk burials (Ryvett family geography) and the East Dereham parish-register burial-section image walk."
+    "validationPath": "sources/validations/findmypast-norfolk-burials-index.md",
+    "notes": "Used in negative-result mode for Margaret Rybett's burial 1614-1620: zero Margaret Gurney/Ryvett burials surface across Norfolk surname variants. Re-confirmed 2026-06-20 with a Gurn* 1608-1628 sweep (20 results, none at East Dereham or West Barsham; the place column across the result set carries neither parish) - the set is parish-selective and omits both, so a blank is not a true negative. Future targets: Suffolk burials (Ryvett geography) and the East Dereham parish-register burial-section image walk."
   },
   {
     "sourceId": "findmypast-uk-parish-baptisms",
@@ -1980,6 +2004,18 @@
     "notes": "Standard four-volume town history of Weymouth, Norfolk County, Massachusetts. Vol. 3 'Genealogy of Weymouth families' provides the John Gurney Sr. and Richard Gurney family group used throughout the G13/G12 research. John Sr. b. c. 1603 (1653 deposition), Braintree before 1645, Weymouth land grants 'in the East field,' 'in the mill field,' and 'on the east side of Great Pond' as early as 3 Feb. 1651-52 later granted to others, sold Braintree land 12 Feb. 1661, wife (name unknown) d. Braintree 20 Sept. 1661, m. (2) Braintree 12 Nov. 1661 widow Grissell Kibbee successively widow of Thomas Jewell, Henry Griggs, Henry Kibbee of Dorchester (her fifth husband John Burge of Weymouth, Chelmsford, and Dorchester), d. 1662-63 inventory 16 Mar. 1662-63, tailor by trade. Children: Mary b. near 1628, m. Daniel Shed who called John Gurney father; Richard b. near 1630; John b. near 1633, settled in Mendon; Peter b. near 1635; Isaac b. near 1640. Richard2 m. Rebecca Taylor (probably daughter of John and Phebe Taylor of Weymouth), made freeman 1681, surname found Garey/Garry/Gerry/Gurny, d. Weymouth Oct. 1719 (conflicts with Torrey '-1691'). Richard's children at Weymouth: Richard3 b. 18 Jan. 1656; John b. near 1658; Zachariah b. near 1660. John3 (Richard,2 John1) m. Elizabeth Green dau. of Joseph and Elizabeth (Whitman) Green b. Weymouth 5 Oct. 1664 (Joseph's will dated 8 Sept. 1691 named her 'my daughter Elizabeth Gurney'); children Elizabeth b. 5 May 1689, John b. May 1699. Zachariah3 (Richard,2 John1) b. near 1660, d. Weymouth 27 Oct. 1732, m. Mary -- (perhaps Mary Gurney d. Weymouth 14 Feb. 1736); children Zachariah4 b. 19 Nov. 1695, Joseph b. 7 Mar. 1697-98, Nathan b. 15 Oct. 1702, Jacob b. 31 Oct. 1706, Mary b. 24 Nov. 1711 m. 3 Jan. 1733-34 John Pratt of Weymouth. Zachariah4 b. 19 Nov. 1695 m. Weymouth 26 Sept. 1726 Sarah Jackson (probably dau. of Edmund and Mary (-) Jackson); children Sarah b. 7 May 1727, Zachariah b. 7 Mar. 1729, Elisha b. 30 June 1731. Page numbers as transcribed; the existing G13/G12 references to 'Weymouth Hist 3:251' should be reconciled against the section's true paging when the page image is captured."
   },
   {
+    "sourceId": "hmc-12th-report-appendix-ix-1891",
+    "shortTitle": "hmc-12th-report-appendix-ix-1891",
+    "citation": "Historical Manuscripts Commission, Twelfth Report, Appendix, Part IX: The Manuscripts of the Duke of Beaufort, K.G., the Earl of Donoughmore, and Others (London: HMSO, 1891) — manuscripts of J. H. Gurney of Keswick Hall, Norfolk",
+    "archive": "Internet Archive; the manuscripts themselves in the Gurney-of-Keswick deposit (Norfolk Record Office)",
+    "url": "https://archive.org/details/manuscriptsduke00enggoog",
+    "corpusStatus": "extract",
+    "corpusPath": "sources/corpus_supplement/gurney-of-keswick-spelman-pedigree-hmc-1891.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/hmc-12th-report-appendix-ix-1891.md",
+    "notes": "pp. 116 (collection provenance: Cox Macro -> Hudson Gurney -> Keswick; 14 vols tied to Sir Henry Spelman) and 161 (MS 122/16, pp. 1-124: pedigrees with arms of Bardolf, Calthrop, Gurney, and especially Spelman; Spelman wills 1485-1641). Confirms the Spelman-circle Gurney pedigree survives. Page images supplied by Allen Gurney."
+  },
+  {
     "sourceId": "hobart-abington-1839",
     "shortTitle": "Hobart, Historical Sketch of Abington (1839)",
     "citation": "Hobart, Aaron. Historical Sketch of Abington, Plymouth County, Massachusetts; with an Appendix. Boston: Samuel N. Dickinson, 1839.",
@@ -2266,6 +2302,18 @@
     "mediaPath": "sources/media/london-hearth-tax-merry-2010/London_Hearth_Tax_database.mdb",
     "validationPath": "",
     "notes": "Eleven strict-Gurney/Gurny entries 1662-1666 across the City of London, Westminster, and inner Middlesex. The decisive 1662 entry - John Gurney at 'In St Austins precinct,' Farringdon Within Ward, 1 hearth, assessed 'poore' (TNA E 179/252/27 rot 21) - confirms continuing London residence for the Candidate D Old Change John in the same calendar year the colonial John of Braintree died, eliminating Candidate D as the emigrant. Full cluster catalogued in the corpus_supplement file."
+  },
+  {
+    "sourceId": "london-archdeaconry-court-probate-index-brs-089",
+    "shortTitle": "london-archdeaconry-court-probate-index-brs-089",
+    "citation": "Index to the Probate Records of the Archdeaconry Court of London, 1363–1649 (British Record Society, vol. 89)",
+    "archive": "London Metropolitan Archives (originals); searched via FindMyPast 'England & Wales Published Wills & Probate Indexes, 1300–1858'",
+    "url": "https://search.findmypast.co.uk/search-world-records/england-and-wales-published-wills-and-probate-indexes-1300-1858",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/london-archdeaconry-court-probate-index-brs-089.md",
+    "notes": "June 2026: full variant net (gurn*/gourn*/gorn*, plus forename Francis) returns no Gurney/Gourney testator; the three 'Francis g*rn*' hits are Garner/Gerrard collisions. Negative for Francis Gurney G14."
   },
   {
     "sourceId": "loyd-origins",
@@ -3276,6 +3324,18 @@
     "notes": "Alphabetical index of apprenticeship indentures enrolled with the Norwich Assembly. HathiTrust search-only returns exactly one 'Gurney' page hit (scan 217, printed p. ~197) and no Gurny/Gurnay hits. The supplied extract 'GURNEY, James: son of Francis, of St Peter Permountergate, Norwich ... St. Mich. 1627, for 7 years. E. 17' is the apprenticeship-indenture entry for James Gurney (the 1648 Norwich freeman in `millican-register-freemen-norwich-1934`); whether the extract was read from this index or from Millican 1934's appendix needs page-level verification, as does the 'E. 17' Norwich city-records reference. Key negative: no John Gurney apprenticeship indenture enrolled at Norwich in the colonial-emigrant window."
   },
   {
+    "sourceId": "rollco-other-companies-gurney-1573-1653",
+    "shortTitle": "ROLLCO - Gurney events in Clothworkers, Tallow Chandlers, Mercers (1573-1653)",
+    "citation": "Records of London's Livery Companies Online (ROLLCO), Gurney event records in the Clothworkers', Tallow Chandlers', and Mercers' companies; surname Gurney all-company sweep, captured 2026-06-20.",
+    "archive": "ROLLCO (Records of London's Livery Companies Online)",
+    "url": "https://www.londonroll.org/search",
+    "corpusStatus": "full",
+    "corpusPath": "sources/corpus_supplement/rollco-other-companies-gurney-1573-1653.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/rollco-other-companies-gurney-1573-1653.md",
+    "notes": "Complements rollco-drapers-gurney-old-change-cluster and rollco-stationers-gurney-1613-1626 (the previously-held ROLLCO companies). Key finding: a 1622 Clothworkers' apprenticeship of Francis Gurney, son of Thomas Gurney, 'scissor' (tailor) of Weston Turville, Buckinghamshire (Aylesbury hundred, the Candidate-A region for the emigrant John G13). Also a London Edward Gurney, citizen and haberdasher (1641 Clothworkers); Richard Gurney (Clothworkers freeman 1635-36); a William/Ws (Clothworkers freeman 1573); a Tallow Chandlers Ralph/William/Christopher household (1650); Thomas/Francis Gurney bound to the Mercers (1653). ROLLCO event IDs not captured (the browser privacy guard strips the result-link query strings); rows identified by year/name/company/role. ROLLCO does not include the Merchant Taylors' Company (see ukda-9263-mt-apprentices-scott-2024)."
+  },
+  {
     "sourceId": "rollco-drapers-gurney-old-change-cluster",
     "shortTitle": "ROLLCO Drapers - Robert and John Gurney Old Change cluster",
     "citation": "Records of London's Livery Companies Online (ROLLCO), Drapers' Company event records for Robert Gourney/Gurney (1581-1629) and John Gurney (1623/4-1630), captured by surname Gurney and surname Gourney variant sweeps 1580-1665.",
@@ -3471,13 +3531,13 @@
     "sourceId": "st-benet-fink-register",
     "shortTitle": "St Benet Fink register, London",
     "citation": "Parish register, St Benet Fink, City of London. Baptisms 1619–1637.",
-    "archive": "London Metropolitan Archives (presumed)",
-    "url": "",
+    "archive": "London Metropolitan Archives, P69/BEN1/A/001-002 (St Benet Fink, City of London)",
+    "url": "https://search.lma.gov.uk/",
     "corpusStatus": "none",
     "corpusPath": "",
     "mediaPath": "",
-    "validationPath": "",
-    "notes": "Children of Francis G14 + Anne Browning. Transcribed DG-III-525."
+    "validationPath": "sources/validations/st-benet-fink-register.md",
+    "notes": "Baptisms of Francis G14 + Anne Browning's children 1619-1637, transcribed by Bernau (British Archivist I.7, 1913; sourceId british-archivist-bernau-1913) and confirmed at FS-index level; the original register has not been examined at first hand. There is NO Harleian Society printed transcript of St Benet Fink - Harleian Register Series vol. 44 (Bannerman 1914) is St Mary le Bow / St Benet Sherehog, a different church - so any 'Harleian St Benet Fink' citation is a misattribution. Cite Bernau + this register."
   },
   {
     "sourceId": "lma-st-giles-cripplegate-register-p69-gis-a-002",
@@ -3717,7 +3777,7 @@
     "corpusPath": "",
     "mediaPath": "",
     "validationPath": "",
-    "notes": "13 probate items examined for John Gurney emigrant elimination. 7 John Gurneys confirmed in England post-1637 (St Botolph Aldgate, Winkfield, Aylesbury, East Grinstead, Albury, East Chiltington x2). 6 contextual records (Anne Gurney Eythorne, Daniel Gurney Aylesbury, William Gurney London, Richard Gurney London, Sir Richard Gurney, Tobias/Edward Gurney). Full analysis in research/case-files/john-gurney-case-file-v4.md."
+    "notes": "13 probate items examined for John Gurney emigrant elimination. 7 John Gurneys confirmed in England post-1637 (St Botolph Aldgate, Winkfield, Aylesbury, East Grinstead, Albury, East Chiltington x2). 6 contextual records (Anne Gurney Eythorne, Daniel Gurney Aylesbury, William Gurney London, Richard Gurney London, Sir Richard Gurney, Tobias/Edward Gurney). Full analysis in research/case-files/john-gurney-case-file-v4.md. 2026-06-20 (TNA Discovery online catalogue, https://discovery.nationalarchives.gov.uk): PROB 11 search for Rivet/Rivett/Revett of Garveston/Dereham/Norfolk 1580-1640 = nil (no PCC will for Francis Rivet or the Garveston Rivetts); Gourney/Maldon/Essex 1637-1665 = nil (no PCC will for Francis G14)."
   },
   {
     "sourceId": "torrey-new-england-marriages-prior-1700",

@@ -203,6 +203,7 @@ cleveland-battle-abbey-roll-v2-gurnay,source,"Cleveland, Battle Abbey Roll - Gur
 cleveland-battle-abbey-roll-introduction,source,"Cleveland, Battle Abbey Roll introduction",data/sources.json
 cleveland-battle-abbey-roll-v1-crossrefs,source,"Cleveland, Battle Abbey Roll vol. 1 crossrefs",data/sources.json
 cleveland-battle-abbey-roll-v3-crossrefs,source,"Cleveland, Battle Abbey Roll vol. 3 crossrefs",data/sources.json
+commissary-court-london-testamentary-index-marc-fitch,source,commissary-court-london-testamentary-index-marc-fitch,data/sources.json
 folger-corpus-christi-1619,source,Corpus Christi (1619) - Internet Archive / Folger,data/sources.json
 cummington-vital-records,source,"Cummington, Massachusetts, town vital records (births)",data/sources.json
 daniel-history-england-1613-pt1,source,"Daniel, First Part of the Historie of England (1613)",data/sources.json
@@ -222,6 +223,7 @@ dicamillo-gurneys-manor,source,DiCamillo — Gurney's Manor,data/sources.json
 dnb-edmund-gurney-1890,source,DNB - Edmund Gurney (d.1648),data/sources.json
 domesday-1086,source,Domesday Book (1086),data/sources.json
 dudo-historia,source,"Dudo of Saint-Quentin, Historia Normannorum",data/sources.json
+ecipm-mapping-medieval-countryside,source,E-CIPM / Mapping the Medieval Countryside (digital Calendar of Inquisitions Post Mortem),data/sources.json
 eaa-occasional-paper-2-ellingham-kiln-1997,source,EAA Occasional Paper 2 - Ellingham Kiln,data/sources.json
 early-yorkshire-charters-vol-8-clay-1949,source,"Early Yorkshire Charters, vol. 8: The Honour of Warenne (Clay 1949)",data/sources.json
 edmund-divine-pcc-probate-negative,source,Edmund Gurney (Divine) probate search — negative,data/sources.json
@@ -305,6 +307,7 @@ hop-harling,source,History of Parliament / biography — Sir Robert Harling (d.1
 hop-gurney,source,History of Parliament Online — Gurney,data/sources.json
 hop-berney,source,"History of Parliament — Berney, Sir Robert (c.1365-1415)",data/sources.json
 history-of-weymouth,source,"History of Weymouth, Massachusetts (1923)",data/sources.json
+hmc-12th-report-appendix-ix-1891,source,hmc-12th-report-appendix-ix-1891,data/sources.json
 hobart-abington-1839,source,"Hobart, Historical Sketch of Abington (1839)",data/sources.json
 hobart-benjamin-history-abington-1866,source,"Hobart, History of the Town of Abington (1866)",data/sources.json
 holinshed-chronicles-1577,source,"Holinshed, Chronicles of England, Scotlande, and Irelande (1577) -- laste volume",data/sources.json
@@ -328,6 +331,7 @@ lma-st-magnus-martyr-register-candidate-d-images,source,LMA St Magnus the Martyr
 lma-st-mary-magdalen-old-fish-street-john-grene-1634,source,LMA St Mary Magdalen Old Fish Street - John Grene baptism (1634),data/sources.json
 lma-st-swithin-london-stone-register-john-grine-1640,source,LMA St Swithin London Stone - John Grine marriage (1640/1),data/sources.json
 bho-london-hearth-tax-merry-2010,source,London Hearth Tax project database (Merry 2010),data/sources.json
+london-archdeaconry-court-probate-index-brs-089,source,london-archdeaconry-court-probate-index-brs-089,data/sources.json
 loyd-origins,source,"Loyd, Origins of Some Anglo-Norman Families",data/sources.json
 delisle-critique-of-dg,source,Léopold Delisle's critique of Daniel Gurney,data/sources.json
 macris-mhc,source,MACRIS - Massachusetts Cultural Resource Information System,data/sources.json
@@ -413,6 +417,7 @@ richardson-sgm-soc-genealogy-medieval-2002,source,Richardson SGM 2002 -- Walter 
 rigler-genealogy-notes-c1980,source,"Rigler genealogy notes (worksheets, c. 1980)",data/sources.json
 rigler-gurney-family-aaron-zuinglius-1994,source,"Rigler, Gurney family from Aaron to Zuinglius",data/sources.json
 rising-millican-norwich-apprentices-index-nrs29-1959,source,"Rising & Millican, Index of Indentures of Norwich Apprentices (NRS 29)",data/sources.json
+rollco-other-companies-gurney-1573-1653,source,"ROLLCO - Gurney events in Clothworkers, Tallow Chandlers, Mercers (1573-1653)",data/sources.json
 rollco-drapers-gurney-old-change-cluster,source,ROLLCO Drapers - Robert and John Gurney Old Change cluster,data/sources.json
 rollco-stationers-gurney-1613-1626,source,ROLLCO Stationers - John Gurney 1613 binding and Robert Gurney 1616-1626 apprenticeship sequence,data/sources.json
 rollco-stationers-hunscott-cluster,source,ROLLCO Stationers - Joseph Hunscott cluster,data/sources.json

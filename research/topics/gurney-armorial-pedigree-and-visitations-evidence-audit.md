@@ -100,7 +100,7 @@ The newly surfaced `Index Rerum to Norfolk Antiquities` and `Index to Norfolk Pe
 |---|---|---|
 | Harl. MS 1552 p. 48, printed Harleian Society p. 132 | This is the Rye printed visitations source already used for the cadet / differentiated-arms Gurney heading. | Covered by `rye-visitacion-norffolk-1891`. |
 | Visitation of 1563 by Harvey, Harl. MS 4755, fo. 81 | Likely a manuscript control or variant of the Harvey 1563 visitation separate from the printed Dashwood page already used for Kerville. | New lead. |
-| MSS of the late John H. Gurney of Keswick, 12th Report of the Historical Manuscripts Commission, p. 116 | Potential family-paper or Keswick-glass source path, important because DG says Gurney's Place glass was preserved at Keswick. | New lead. |
+| MSS of the late John H. Gurney of Keswick, HMC 12th Report, App. IX (1891), pp. 116, **161** | **Read at description level (2026-06).** The collection (Cox Macro → Hudson Gurney → Keswick; fourteen volumes tied to Sir Henry Spelman) includes **MS 122/16, pp. 1–124 — "Numerous pedigrees, with arms … Bardolf, Calthrop, Gurney, and especially Spelman; Spelman wills 1485–1641"** — the surviving Spelman-circle Gurney pedigree, which corroborates DG's Spelman source-chain. | **Located; the pedigree's generations still need the NRO Keswick MS itself (lead L-85).**[^hmc-keswick-spelman-2026] |
 | Norris' MS folio pedigrees, pp. 553-556; Morant's MS folio pedigrees, p. 175 | Manuscript pedigree controls that may preserve variant Gurney arms/matches outside Rye. | New lead. |
 | Commonplace Book of Henry G., Tanner MSS, Bodleian Library, fo. 175 | Likely the same source-family as the existing Tanner 175/Henry Gurney lead; update that lead rather than duplicate it. | Existing lead refined. |
 | Dawson Turner's illustrated Blomefield, vol. xv, fo. 182 | Could preserve visual/pedigree material absent from printed Blomefield. | New lead. |
@@ -117,7 +117,9 @@ This is important because it fills a 1400s gap that Rye's Gurney heading does no
 
 ### Spelman 1639 family-paper pedigree
 
-Sir Henry Spelman's pedigree is not a formal visitation, but for this project it functions like a medieval bridge source. DG says it was transcribed by Spelman from one given to him by Francis Gurnay in 1639; it was compiled from original deeds then in the family possession, now lost; DG calls it valuable though imperfect.[^dg-spelman-context]
+Sir Henry Spelman's pedigree is not a formal visitation, but for this project it functions like a medieval bridge source. DG says it was transcribed by Spelman from one given to him by Francis Gurnay in 1639; it was compiled from original deeds then in the family possession, now lost; DG calls it valuable though imperfect.[^dg-spelman-context] The Spelman pedigree itself is now **located and confirmed extant**: it survives in the J. H. Gurney of Keswick deposit as **MS 122/16** (HMC 12th Report, App. IX, 1891, p. 161 — pedigrees with arms of Bardolf, Calthrop, Gurney, and especially Spelman, plus copies of Spelman wills 1485–1641). So the "now-lost original deeds" sit behind a pedigree compilation that does survive; reading its Gurney generations requires the NRO Keswick manuscript (lead L-85).[^hmc-keswick-spelman-2026]
+
+[^hmc-keswick-spelman-2026]: Historical Manuscripts Commission, *Twelfth Report, Appendix, Part IX: The Manuscripts of the Duke of Beaufort, K.G., the Earl of Donoughmore, and Others* (London: HMSO, 1891), pp. 116 (collection provenance) and 161 (MS 122/16); [Internet Archive](https://archive.org/details/manuscriptsduke00enggoog); page images supplied by Allen Gurney. Extract: [`sources/corpus_supplement/gurney-of-keswick-spelman-pedigree-hmc-1891.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/gurney-of-keswick-spelman-pedigree-hmc-1891.md). Source ID: `hmc-12th-report-appendix-ix-1891`.
 
 It preserves medieval evidence otherwise hard to reconstruct:
 
