@@ -166,6 +166,12 @@ sources/media/*/_local/*
 !sources/media/_local/README.md
 !sources/media/*/_local/README.md
 
+# Local retention stores. Lead-catalog backups are kept for 30 days by
+# tools/research_leads.py; paleography derivatives are kept for at least 7 days
+# unless intentionally culled by the creator.
+research/future-research/_local/
+sources/intake/paleography-staging/_local/
+
 # Paleography staging working-snippets: regenerable derivative crops, line strips,
 # enhancement sheets, and contact sheets. Local-only — they are reproducible from the
 # master image + the manifest coordinates. The durable keepers are the master images

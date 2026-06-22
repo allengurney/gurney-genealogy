@@ -433,7 +433,7 @@ class SearchIndex:
     def __init__(self, db_path: Path):
         db_path.parent.mkdir(parents=True, exist_ok=True)
         self.path = db_path
-        self.conn = sqlite3.connect(db_path)
+        self.conn = sqlite3.connect(db_path, timeout=10.0)
         self.conn.row_factory = sqlite3.Row
         self.trigram_available = False
         self._create_schema()

@@ -285,7 +285,7 @@ def format_row_dry_run(path: Path, headers: Sequence[str], new_rows: Sequence[di
 
 
 def write_csv_atomic(path: Path, headers: Sequence[str], rows: Sequence[dict[str, str]], *, dry_run: bool, backup: bool, verbose: bool = False) -> str | None:
-    """Atomically rewrite a CSV file, optionally leaving a timestamped backup."""
+    """Atomically rewrite a CSV file, optionally retaining local backups for 30 days."""
 
     serialized = serialize_csv(headers, rows)
     if dry_run:
@@ -303,8 +303,14 @@ def write_csv_atomic(path: Path, headers: Sequence[str], rows: Sequence[dict[str
     path.parent.mkdir(parents=True, exist_ok=True)
     if backup and path.exists():
         timestamp = _dt.datetime.now().strftime("%Y%m%d-%H%M%S")
-        backup_path = path.with_suffix(path.suffix + f".{timestamp}.bak")
+        backup_dir = path.parent / "_local" / "backups"
+        backup_dir.mkdir(parents=True, exist_ok=True)
+        backup_path = backup_dir / f"{path.name}.{timestamp}.bak"
         shutil.copy2(path, backup_path)
+        cutoff = _dt.datetime.now().timestamp() - (30 * 24 * 60 * 60)
+        for old_backup in backup_dir.glob(f"{path.name}.*.bak"):
+            if old_backup.stat().st_mtime < cutoff:
+                old_backup.unlink()
 
     fd, temp_name = tempfile.mkstemp(prefix=path.name + ".", suffix=".tmp", dir=str(path.parent))
     try:
