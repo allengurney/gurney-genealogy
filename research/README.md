@@ -17,7 +17,8 @@ Object-oriented. A finding about a person who lived somewhere will normally touc
 | Object | Primary home | Secondary touches |
 |---|---|---|
 | Direct ancestor — working research, source extracts, argument, open questions | `research/people/g{NN}-{slug}-fact-sheet.research.md` (paired companion to the fact sheet) | If durable enough for publication, the corresponding `fact-sheets/g{NN}-{slug}-fact-sheet.md`; if the place is significant in the ancestor's life, the relevant `research/places/{slug}.md` cross-links |
-| Non-ancestor person (spouse, in-law, candidate identity) | `research/people/{slug}.md` (no g{NN} prefix) | Crosslinks from the ancestor companion(s) that touch this person |
+| Non-ancestor person (spouse, in-law, collateral, active/plausible candidate identity) | `research/people/{slug}.md` (no g{NN} prefix) | Crosslinks from the ancestor companion(s) that touch this person |
+| **Low-probability alternative-candidate identity** for a direct ancestor (a same-name person set aside by the working argument) | `research/topics/{ancestor}-candidate-{descriptor}.md` (documented exception — see `research/topics/README.md`) | The ancestor's companion keeps a brief standing note + cross-link; publishable via `research/topics/_published-topics.csv` |
 | Place — significance, naming, events, record coverage | `research/places/{slug}.md` | `data/places.json` (canonical spine) + `data/places_detail.json` (rich descriptive fields); ancestor companions cross-link when the place matters to that ancestor's life |
 | Cross-cutting topical analysis or methodological frame | `research/topics/{slug}.md` | Affected research/people/*.research.md companions cross-link the topic file |
 | Sustained per-ancestor argument or competing hypotheses for one ancestor | Inside the ancestor's `research/people/g{NN}-{slug}.research.md` companion | — (a separate `research/case-files/` file is created only when the user directs an in-depth publication artefact) |

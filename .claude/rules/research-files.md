@@ -59,6 +59,10 @@ Cross-cutting problems, methods, and analytical frames that span multiple people
 
 **Boundary with people files:** if the issue is still narrow and person-specific, keep it in `research/people/`. If it becomes a sustained dispute or a user-directed publication artefact (problem statement, biography), see `research-case-files.md`.
 
+**Alternative-candidate identities (documented exception to the people↔topics boundary).** A *low-probability alternative-candidate identity for a direct ancestor* — a same-name person who is not a true direct ancestor in the narrowly defined tree and is unlikely enough that the working argument has set them aside — belongs in `research/topics/`, not `research/people/`. At low probability they are part of a research *question* about the ancestor's identity rather than a formalized person in the tree. Conventions: filename `{ancestor}-candidate-{descriptor}.md` and a "… Candidate — …" heading; a back-link banner to the ancestor's companion and case file; the ancestor's companion keeps only a brief standing note plus a cross-link, so it stays focused on the ancestor and the favored identity. Do **not** use this to move genuine ancestors, spouses, collaterals, or a *favored* identity hypothesis out of `research/people/` — only the low-probability alternatives.
+
+**Published topics.** Select topic files are published to the public site as lightly-formatted research notes (Key Research → Misc. Topics) — opt-in via `research/topics/_published-topics.csv` (`filename,displayName`), wrapped with front matter by `site/website/scripts/sync-site-content.js`. The published surface is intentionally lighter than fact-sheet/case-file polish; source topic files stay clean (no site front matter). See `.claude/rules/site-generation.md`.
+
 ## Mandatory related rules (share path scope)
 - `.claude/rules/citations.md` — both scope `research/**/*.md`; source-traceability for every new factual claim
 

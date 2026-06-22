@@ -151,8 +151,76 @@ function syncKeyResearch() {
     }).length;
 }
 
+// Published topic files: research/topics/_published-topics.csv designates which
+// topic files publish to the site as lightly-formatted research notes under
+// Key Research -> Misc. Topics. Each is wrapped with front matter (the source
+// topic files stay clean per the canonical/presentation split) and rendered
+// with the research layout (standard chrome + footnotes + the as-is disclaimer).
+const publishedTopicsCsv = path.join(repoRoot, "research", "topics", "_published-topics.csv");
+const topicsTarget = path.join(keyResearchTarget, "topics");
+
+function parsePublishedTopicsCsv(text) {
+  return text
+    .split(/\r?\n/)
+    .map(line => line.trim())
+    .filter(line => line && !/^filename\s*,/i.test(line))
+    .map(line => {
+      const idx = line.indexOf(",");
+      if (idx === -1) return null;
+      const filename = line.slice(0, idx).trim();
+      const displayName = line.slice(idx + 1).trim().replace(/^"|"$/g, "");
+      return filename && displayName ? { filename, displayName } : null;
+    })
+    .filter(Boolean);
+}
+
+function topicSlug(filename) {
+  return filename.replace(/\.md$/i, "");
+}
+
+function topicDescription(displayName) {
+  return `Working research notes on the ${displayName} analysis for John Gurney of Braintree, Massachusetts (G13) in the Gurney genealogy library: source-by-source alternative-candidate evidence, comparisons, and open questions.`;
+}
+
+function topicFrontMatter(title, slug, description) {
+  return [
+    "---",
+    `title: ${JSON.stringify(title)}`,
+    `description: ${JSON.stringify(description)}`,
+    `permalink: /key-research/topics/${slug}.html`,
+    "layout: layouts/research.njk",
+    "activeNav: research",
+    "eleventyExcludeFromCollections: true",
+    "---",
+    "",
+  ].join("\n");
+}
+
+function syncPublishedTopics() {
+  if (!fs.existsSync(publishedTopicsCsv)) return [];
+  ensureDir(topicsTarget);
+  removeMarkdownFiles(topicsTarget);
+
+  return parsePublishedTopicsCsv(fs.readFileSync(publishedTopicsCsv, "utf8"))
+    .map(row => {
+      const sourcePath = path.join(repoRoot, "research", "topics", row.filename);
+      if (!fs.existsSync(sourcePath)) {
+        console.warn(`published topic source missing, skipped: ${row.filename}`);
+        return null;
+      }
+      const slug = topicSlug(row.filename);
+      const body = fs.readFileSync(sourcePath, "utf8").replace(/^---[\s\S]*?---\s*/, "");
+      const description = topicDescription(row.displayName);
+      const content = `${topicFrontMatter(row.displayName, slug, description)}${body}`;
+      fs.writeFileSync(path.join(topicsTarget, `${slug}.md`), content);
+      return slug;
+    })
+    .filter(Boolean);
+}
+
 const factCount = syncFactSheets();
 const companionCount = syncResearchCompanions();
 const highlightsSynced = syncResearchHighlights();
 const keyResearchCount = syncKeyResearch();
-console.log(`Synced ${factCount} fact sheets, ${companionCount} research companions, ${highlightsSynced ? 1 : 0} highlights file, and ${keyResearchCount} key research files into the site source.`);
+const publishedTopics = syncPublishedTopics();
+console.log(`Synced ${factCount} fact sheets, ${companionCount} research companions, ${highlightsSynced ? 1 : 0} highlights file, ${keyResearchCount} key research files, and ${publishedTopics.length} published topics into the site source.`);

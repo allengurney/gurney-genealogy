@@ -12,7 +12,8 @@ module.exports = {
         { title: "Heraldic Chain of Evidence", url: "/key-research/gurney-heraldic-chain-of-evidence.html", key: "heraldic-chain" },
         { title: "AI Paleographic Analysis John Gurney baptism record", url: "/key-research/east-dereham-ai-assistant-procedure.html", key: "east-dereham" },
         { title: "AI in Genealogy", url: "/key-research/using-gen-ai-in-genealogy.html", key: "ai-genealogy" },
-        { title: "Sources", url: "/key-research/sources.html", key: "sources" }
+        { title: "Sources", url: "/key-research/sources.html", key: "sources" },
+        { title: "Misc. Topics", url: "/key-research/misc-topics.html", key: "misc-topics" }
       ]
     },
     {

@@ -23,6 +23,7 @@ The published page set, grouped as in the site menu (`_data/navigation.js`):
 | Key Research | AI paleographic analysis | `key-research/east-dereham-ai-assistant-procedure.md` | Workflow record supporting the John Gurney case file |
 | Key Research | AI in genealogy | `key-research/using-gen-ai-in-genealogy.md` | Methodology essay on AI-assisted research |
 | Key Research | Sources | `key-research/sources.njk` | Source catalog, generated from `data/sources.json` |
+| Key Research | Misc. Topics | `key-research/misc-topics.njk` + generated `key-research/topics/*` | Select working research topics, published from `research/topics/` via `research/topics/_published-topics.csv` |
 | Maps & Lists | Ancestor map | `maps-and-lists/ancestor-map.njk` | Interactive Leaflet map, generated from place/ancestor data via `assets/map-page.js` |
 | Maps & Lists | Pedigree catalog | `maps-and-lists/ancestor-table.njk` | Full reference table with quick and detailed modes |
 | Maps & Lists | Places catalog | `maps-and-lists/places.njk` | Browsable place index, generated from the place spine |
@@ -213,7 +214,7 @@ npm run watch        # rebuilds automatically as you edit
 
 Deploy: use `npm run package`, then upload the dated zip from `dist/` to Cloudflare Pages.
 
-The build is source-driven. Fact sheets are refreshed from root `fact-sheets/`, paired research companions are generated from `research/people/*.research.md`, and `_data/ancestors.json` is regenerated from `data/ancestors.json`, `data/places.json`, and `data/places_detail.json`.
+The build is source-driven. Fact sheets are refreshed from root `fact-sheets/`, paired research companions are generated from `research/people/*.research.md`, published topics are mirrored from the files listed in `research/topics/_published-topics.csv` into `key-research/topics/` (Misc. Topics), and `_data/ancestors.json` is regenerated from `data/ancestors.json`, `data/places.json`, and `data/places_detail.json`.
 
 **Note:** The public domain lives in `_data/site.json` (`url`). `sitemap.xml`,
 `llms.txt`, and `_redirects` are generated from that during the build — do not

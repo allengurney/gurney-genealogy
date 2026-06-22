@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+permalink: /key-research/misc-topics.html
+title: Misc. Topics
+pageHeading: Misc. Topics
+subtitle: "Selected working research topics, published from the Gurney genealogy library."
+description: "Miscellaneous research topics from the Gurney genealogy library: selected working analyses, alternative-candidate studies, and same-name comparators published as lightly-formatted research notes."
+bodyClass: explorer-page sources-page
+activeNav: research
+---
+
+<header class="explorer-head">
+  <div>
+    <p class="explorer-crumbs explorer-page-title">Library / Misc. Topics</p>
+    <p class="explorer-subtitle">Selected working research topics, published as lightly-formatted research notes. These are less polished than the fact sheets and case files — working evidence and analysis kept out of the published layers but made available so readers can follow the developing research.</p>
+  </div>
+</header>
+
+<section class="sources-list" aria-label="Published research topics">
+  {% for topic in publishedTopics %}
+    <article class="source-card">
+      <h2><a href="{{ topic.url }}">{{ topic.displayName }}</a></h2>
+      <a class="btn" href="{{ topic.url }}">Open topic</a>
+    </article>
+  {% else %}
+    <p>No topics are currently published.</p>
+  {% endfor %}
+</section>
