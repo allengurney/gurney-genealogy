@@ -5,6 +5,8 @@ description: Operational recipes for searching FindMyPast's indexed record sets 
 
 Proven procedures for working FindMyPast indexed collections via an authenticated Claude-in-Chrome session. Established during the June 2026 Margaret Rybett / Rivett-of-Garveston work (John Gurney G13). Companion full-text recipes for FamilySearch live in `.claude/skills/familysearch-fulltext-research/SKILL.md`; this skill is for FindMyPast's *indexed* (transcribed-field) collections.
 
+> **Search *strategy* (the objective/source gates, name variants, wildcarding, token/transitive anchoring) is source-agnostic and lives in [`online-discovery-strategy`](../online-discovery-strategy/SKILL.md) — read and apply that first.** This file is FindMyPast *mechanics* only: parameters, slugs, wildcards, read techniques, coverage caveats.
+
 ## 0. Session
 
 Authenticated FindMyPast (and Ancestry, FamilySearch) run in the user's Chrome. Connect with the Claude-in-Chrome MCP: `list_connected_browsers` → `select_browser` (deviceId) → `tabs_context_mcp{createIfEmpty:true}`. No FindMyPast login is performed by us — the session is already signed in.
@@ -63,6 +65,16 @@ https://www.ancestry.co.uk/search/collections/<dbid>/?name=<First>_<Last>&birth=
 - **Do NOT set exact flags when you want to see candidates.** Appending `_x=0-0-0` / `_x=...1` (the "Exact" toggles) makes Ancestry return *"zero good matches"* whenever nothing matches exactly — it fails closed. Search **non-exact** and filter the result table yourself by the Baptism/Marriage Place and Year columns.
 - The **place in `birth=`/`marriage=` does not hard-filter** — it only re-ranks; non-matching parishes still appear far down the list. Read the Place column to confirm, exactly as with FMP.
 - **Reading results:** `get_page_text` on the results tab returns the table cleanly (Name / Date / Place / Relatives / Primary). Right after `navigate`, the first `get_page_text` can return empty — wait ~2s and retry. The URL silently localizes to `.com`; that's fine.
+
+## 7. Published probate indexes dataset (BRS + Matthews)
+
+"England & Wales Published Wills & Probate Indexes, 1300-1858" behaves unlike the parish sets:
+
+- **Single "Name search" field → `keywords=`** (not `lastname`/`firstname`). The `*` wildcard works: `keywords=gurn*` returned 157 vs `gurney` 97 vs `francis gurney` 33 — always run the surname-variant wildcards (`gurn*`, `gourn*`, `gorn*`, `girn*`, `gern*`, `gvrn*`), not an exact name.
+- **`publicationtitle=` filters by volume.** Easiest path: set it via the sidebar autocomplete (type e.g. "Commissary" → pick the volume → Search); the chip writes the param. The autocomplete browse also confirms whether a court is even in the collection (the London Commissary Court vols are present; they cover City wills).
+- **Working results URL:** `/search/results?datasetname=england+%26+wales+published+wills+%26+probate+indexes%2c+1300-1858&sid=103&keywords=<q>` (note `%26`/`%2c`). A bad slug/sid 500s — recapture via a form search.
+- **Results table shows only Place / Page number / Source / Publication — no name or year inline,** and individual records are **paywalled even on this session** (bounce to /upgrade). Use this set to *locate the court + volume + page*, then read the **printed index image** (archive.org) for the actual forename/year/folio.
+- **FMP's transcription is partial vs the printed index:** `gurn*` in the London Commissary 1626-1649 & 1661-1700 volume returned 1 row, but the printed index page held 5 Gurney/Gourny entries. Treat an FMP count here as a floor, not a complete list — confirm against the book image.
 
 ## Continual improvement
 

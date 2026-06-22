@@ -18,9 +18,11 @@ On new session: read `AGENTS.md` and `README.md`. For a specific ancestor, read 
 
 ## 0a. Match context to task shape
 
-For routine edits, open only files the task requires. Do not pre-load full source corpora, all fact sheets, all research companions, or unrelated generations unless the task specifically calls for them.
+For routine edits, open only files the task requires. Do not pre-load full source corpora, all fact sheets, all research companions, or unrelated generations unless the task specifically calls for them. Read the relevant directory `README.md`. The READMEs carry destination guidance — where a finding belongs. Read the matching path-scoped rule(s) auto-load when you open a target file. Trust them; re-read only on a genuine question.
 
 **`repo_search.py` is the default — and first — tool for reading-in repo content; use it for any repo lookup.** Grep/Glob are the narrow, justify-it exception: only when you can name the exact literal target (a known symbol or path, or a yes/no existence check) and repo_search would add nothing. Reaching for grep across `research/`, `sources/`, or `fact-sheets/` is itself the signal you should have run repo_search. **Ground before acting:** before online discovery, drafting, editing, or auditing, first establish what the repo already knows about the subject with `repo_search.py` and the subject's companion/place/topic file; work the *delta after the known knowns*. This is the single biggest guard against duplicative work. Sequential full-file reads of large directories should be rare.
+
+**Design before searching — not optional.** For any non-trivial online (or repo) discovery, apply the two gates in `.claude/skills/online-discovery-strategy/SKILL.md` *before* running queries, then adapt as results return: (A) stay anchored to the objective, not the tool you are in, and treat a miss as a signal to pivot and widen outward, not a dead end; (B) characterise the source (capture fidelity × spelling/language × index model) and match terms to it — pulling name variants from `data/search-variants.json` (era-aware; conservative→broad→all as a scalpel), wildcarding where the rendering may break (internal/multi-position, geography-tuned), and dropping to token/transitive anchoring (parish + rare in-law co-occurrence, name omitted) when the name may not survive as a searchable string. Running one exact-name query and reading its count as truth is the failure this guards against; a low or zero result is unverified until breadth is confirmed.
 
 For context-heavy repository discovery, use `.\.venv\Scripts\python.exe tools\repo_search.py`: let local tools search, rank, group, and deduplicate broadly; read the compact manifest first, then expand the most relevant saved volumes or results. **Read a staged result — a top manifest locator or an `expand`ed volume — before reaching for raw Grep on the same question; the file you need is usually already staged (including the relevant place/topic companion, with its footnotes attached).** Efficiency must not reduce required scope, suppress conflicting or negative evidence, or substitute ranking for verification. Search packages preserve the exhaustive result and exact-match ledgers outside OneDrive.
 
@@ -49,7 +51,8 @@ research/
                  g{NN}-{slug}.md (pre-fact-sheet staging)
                  {descriptive-slug}.md (non-ancestor subjects)
   places/        one file per geographic locus, narrative above the data/places.json registry
-  topics/        cross-cutting analytical or methodological files
+  topics/        cross-cutting analytical/methodological files; also low-probability
+                 alternative-candidate identities; _published-topics.csv designates site-published topics
   case-files/    user-initiated in-depth publication artefacts (problem statements, biographies)
   future-research/  research-leads.csv master leads catalog + single-subject lead inventories
   log/           historical operational notes; not currently maintained
@@ -65,9 +68,17 @@ tools/           lineage-specific utilities and exploratory artifacts
 
 For destination guidance ("where does this finding go?"), see the directory README (`data/README.md`, `research/README.md`, `sources/README.md`, `fact-sheets/README.md`).
 
+## Canonical locations
+
+- `data/` = canonical structured spine (`ancestors.json`, `places.json`, `places_detail.json`, `sources.json`)
+- `fact-sheets/` = published ancestor narratives
+- `research/` = working knowledge layer — see `research/README.md` for destination guidance
+- `sources/` = source artefacts, intake queue, validations — see `sources/README.md` for destination guidance
+- `site/` = generated/presentation layer (do not hand-edit; the build mirrors from `fact-sheets/` and `data/`)
+
 ---
 
-## 3. Rules and skills — explicit enumeration (cross-AI discovery)
+## 3. Rules and skills — explicit enumeration
 
 Any AI working in this repo should consult these files based on the work being performed.
 
@@ -86,7 +97,11 @@ Any AI working in this repo should consult these files based on the work being p
 | `site-generation.md` | `site/**/*` | Site is generated/presentation only; canonical content lives upstream. |
 | `sources.md` | `sources/intake/**`, `sources/validations/*.md`, `sources/media/**` | Intake (patchset standard), validation worksheets, media file discipline. |
 
-Repo file resolution (lookup order, direct-open known paths, destination discipline) is documented in §4 below rather than as a separate rule file.
+Repo file resolution (lookup order, direct-open known paths, destination discipline) is documented in §4 below rather than as a separate rule file.Bind rules to nested artifacts and subtasks
+
+A larger task can contain smaller artefacts with their own rules. Apply the rule for the thing being authored, even when it is embedded inside another deliverable. Proposed `sources/validations/*.md` content inside an intake patchset follows the validation rules, not the patchset-writing style. Proposed `research/...` content inside an intake patchset follows the research rules. **Proposed `fact-sheets/*.md` content inside an intake patchset follows `.claude/rules/fact-sheets.md`** — including the Plain-English reader contract, the Read-as-if-written-all-at-once rule, the Story-led-not-source-led rule, and the Dates-in-years rule. Git, branch, commit, push, or PR work remains governed by `git-onedrive-codex.md` even when publication is only the final subtask of a larger task. Do not let the outer task type override the inner artefact or workflow rule.
+
+**Read the nested rule before drafting the nested content.** Path-scoped rules auto-load only when the file at the target path is opened. When a patchset (or any outer artefact) proposes content that will land in a path-scoped destination, the nested rule must be explicitly read at the start of the drafting step, not relied on from memory. This is the operational requirement behind the bind-to-nested-artefacts principle — a rule cannot be applied if it was never seen.
 
 ### Skills (`.claude/skills/`)
 
@@ -117,14 +132,7 @@ Skills follow the Agent Skills open standard ([agentskills.io](https://agentskil
 
 ---
 
-## 5. Lineage status values
-
-- **Direct** — G1 (Allen himself)
-- **Confirmed** — multiple independent primary or highly reliable sources
-- **Probable** — best-supported hypothesis; active case file. Lacks primary sources.
-- **Tradition** — transmitted family lore without sources
-- **End of Record** — explicitly beyond the knowable
-- **Related** — (also collateral) never confuse with direct-line status.
+## 5. not used
 
 ---
 
@@ -148,6 +156,10 @@ Primary secondary source G15–G35. Text in `sources/corpus/daniel-gurney-part-{
 ---
 
 ## 8. Evidence discipline
+
+- **Edit narrowly.** Prefer targeted edits over wholesale rewrites. Preserve established prose unless fact, citation, structure, or clarity requires change.
+
+- **Findings go on the subject file.** Person findings → `research/people/`. Place findings → `research/places/`. Cross-cutting analysis → `research/topics/`. Sustained per-ancestor argument → the ancestor's people-companion (not a case file). Case files are user-initiated publication artefacts only. Logs and validations stay thin. Detailed multi-destination guidance is in `research/README.md` and `sources/README.md`.
 
 - **Uncertainty is quantified, not hedged.** "Probable (~55–60%)" beats "fairly likely." Attach to specific claims, not whole documents.
 - **Negative results are first-class.** "Searched X, found nothing" can be a finding but also that it can be a result of source incompleteness. Log it on the subject's file, not on the source's.
@@ -177,7 +189,6 @@ For health checks, branch-and-PR publish recipes, and Windows credential failure
 - **Python:** `python` (3.14) is on PATH, but **bare `pip` is not** — always invoke `python -m pip`. Installs persist to the user interpreter (`%LOCALAPPDATA%\Python\pythoncore-3.14-64`). The pinned working set is `tools/requirements.txt` (`python -m pip install -r tools/requirements.txt`).
 - **Pre-installed Python libraries:** Pillow, PyMuPDF (`fitz`), pypdf, pdfplumber (+ pdfminer.six), pypdfium2, lxml, beautifulsoup4, requests, openpyxl, cryptography. Add others with `python -m pip install <pkg>`.
 - **PDF / image command-line tools:** `pdftotext` is available; the rest of poppler (`pdfinfo`, `pdftoppm`, `pdfimages`), Tesseract OCR, ImageMagick, and Ghostscript are **not** installed. To render PDF pages to images, use PyMuPDF or pypdfium2 (neither needs poppler). Note: `convert` on PATH is the Windows disk utility, **not** ImageMagick.
-- **No local OCR.** If a scanned source needs OCR, flag it rather than assuming it can run locally — Tesseract is not installed (it can be added via `winget install UB-Mannheim.TesseractOCR`).
 
 ---
 
@@ -194,3 +205,7 @@ If a tool call fails or produces an unexpected result, try **once** more with a 
 
 ### Directory listings
 Don't fetch full directory listings unless you actually need them. Knowing that `fact-sheets/` contains G04–G37 is sufficient for most tasks; the actual file list is only needed when looking for something specific.
+
+### Continual improvement
+
+When the user offers a critical correction or durable guidance, update the matching rule file in the same turn and disclose the update plainly. AI may correct narrow adjacent issues found in the same files (typos, broken anchors, acronym expansions, internal-mechanics vocabulary, citation placement) without separate permission, with disclosure. See `.claude/rules/continual-improvement.md` for the consolidation-pass discipline, avoid-reactive-absolutes guidance, and bias-toward-restraint check.

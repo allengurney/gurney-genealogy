@@ -103,9 +103,6 @@ They preserve the lessons accumulated in earlier updates while keeping the
 aggregate rule surface tractable. Disclose the consolidation as a single
 batched rule update.
 
-## Tag every "pull" by online availability
-Whenever AI lists future pulls (research file, patchset, open-questions, summary), tag each inline as **Available online** (URL/digitised copy verified), **Unknown online** (default — not yet checked), or **Not online** (looked; only physical/restricted/un-digitised). Example: "EYC vol. 8, pp. 6–7 (Available online — archive.org)." This lets the user split pursue-now from needs-library-access.
-
 ## Direct edits still defer to intake-layer thinking
 Direct edits to `fact-sheets/`, `research/`, or `data/` (i.e., not going
 through `sources/intake/`) do not exempt the work from the discipline encoded
@@ -127,6 +124,3 @@ edit and an applied patchset produce indistinguishable prose quality.
 
 ## Mandatory related rules (share path scope)
 None — this rule is always-loaded (`paths: **/*`); no other rule shares an equivalent universal scope.
-
-## See also
-This rule governs how all other rules change. The most active surfaces for continual improvement are `citations.md`, `fact-sheets.md`, `research-files.md`, `research-writing-style.md`, and `sources.md`.
