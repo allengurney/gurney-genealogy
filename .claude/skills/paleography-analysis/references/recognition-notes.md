@@ -72,3 +72,15 @@ Append durable, reusable paleography lessons here after manuscript-analysis task
 - Gurney/Gournay variants or false friends: The surname is a clear `Gournay`; the major false signal was chronological, not nominal.
 - Reading lesson: FamilySearch's transcript reduced an explicit manuscript `1676` to `1636`. Read the court heading and regnal/date formula before assigning a same-name person to a generation.
 - Avoid next time: Do not build identity analysis from an FTS year label when one digit separates two plausible generations.
+
+## 2026-06-22 - Great Dunham and Bawdeswell parish registers
+
+- Scope: Packets 32-33, Great Dunham marriages and Bawdeswell baptisms/marriage-section samples.
+- Source/image range: Great Dunham images 47-52; Bawdeswell images 20-27, 45-46, and structure samples.
+- Document type and date range: Parish-register marriages and baptisms, chiefly 1612-1656.
+- Hand or scribe: Mixed Latin marriage entries at Great Dunham; English baptism entries in several hands at Bawdeswell.
+- Useful enhancement: Full-page sheets for Great Dunham; 5x manual page-side line strips for the faded Bawdeswell openings.
+- Comparator words: Great Dunham annual headings and `matrimonio`; Bawdeswell manuscript page numbers 31-39 and explicit year headings 1619, 1621, and 1629-1631.
+- Gurney/Gournay variants or false friends: No secure Gurney form in the staged pages.
+- Reading lesson: Do not infer a baptism image range from opening numbers alone in a disordered composite. Anchor the range to manuscript folios and explicit year headings before predicting where an indexed entry should appear.
+- Avoid next time: Do not ask a second parish's image run to confirm an event indexed at the first parish, and do not turn a missing expected entry into a parish negative until its exact indexed record has been resolved back to a film image.

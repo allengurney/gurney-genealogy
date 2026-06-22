@@ -1,6 +1,6 @@
 # Paleography staging — open brief
 
-This folder stages manuscript-image briefs for outsourced transcription. 
+This folder stages manuscript-image briefs for outsourced transcription.
 
 > **Source terms:** all images are FamilySearch-sourced (17th-c. manuscript, public-domain content under FamilySearch viewing terms). Masters live in `sources/media/<set>/_local/` (off GitHub) or, for in-progress packets, in `images/`.
 
@@ -71,3 +71,16 @@ These four soldier packets share a source (medievalsoldier.org index → AALT me
 - **Index data (finding aid, machine transcript — salad, locator only):** 1630 (`YTV`): a court/jury list — "*…Quinto Anno Dm 1630 Thomas Brayley … John Rallingford Jur[ors] … Gournay … Samuel London … Robt Feninger …*". 1636 (`BQG`): names "**Francis Gournay**" explicitly — "*…Anno Dm 16[3]6 … Francis Gournay …*" (the OCR date digit is unreliable; confirm 1636 vs 1676 from the image, since 1676 would make it the son not G14). The forename and substance must come from the image.
 - **Questions:** (1) Who is the Gournay named in the **1630** and **1636** Maldon courts — forename, status, the matter (admission, presentment, debt, office)? (2) Is it **Francis Gournay (G14, the Merchant Taylor / John G13's father)**, who married Anne Browning of the Maldon Browning family — i.e. is he at Maldon by 1630, while his St Benet Fink (London) children still run to 1637? Or a distinct earlier Maldon Gournay?
 - **Why it matters:** Francis G14's post-1637 whereabouts and death are unlocated (lead L-8); the standing assumption is London or a Maldon move. A securely-read Francis Gournay in the 1630/1636 Maldon courts would place the direct line's G14 at Maldon a decade before his children's London baptisms end — reshaping where to hunt his will (Essex Commissary, not Norwich).
+
+---
+
+## Open packets — batch staged 2026-06-22
+
+### Packet 32 — Great Dunham (& Bawdeswell) marriages c.1624–1632: the Mary Wales test (lead L-161) — HIGHEST PRIORITY
+- **Processed 2026-06-22:** no Mary Wales, Wales-family, or Gurney-form marriage appears in Great Dunham's continuous 1623-1633 marriage run. Report: [`done/packet-32-great-dunham-bawdeswell-marriages.md`](done/packet-32-great-dunham-bawdeswell-marriages.md).
+- **Question:** is there a **Mary Wales × John [Gurney-variant]** marriage in the Great Dunham / Bawdeswell registers c.1624–1632, or does Mary Wales (chr. 1611 Gt Dunham, dau. Peter Wales) disappear after ~1627? Decisive test of the emigrant-John wife-Mary candidate; the marriage indexes do not cover these parishes (coverage gap), so only the register image resolves it.
+- **Target images:** `gd-img-048.jpg` (image 48, marriages 1623–1627) and `gd-img-049.jpg` (image 49, marriages 1628–1633) — the 1620s window; surrounded by marriage-section buffer (images 44–52) and baptism-section orientation pages. Great Dunham composite register "Baptisms, Marriages, Burials 1538–1658," FS collection 1416598.
+
+### Packet 33 — Bawdeswell, tracking Mary Wales c.1611–1635 (lead L-161, second parish)
+- **Processed 2026-06-22:** the 1583-1708 marriage gap is supported, but the staged baptism sequence reaches only about 1631 and does not image-confirm the expected Ann Wales (1618) or Peter Wales (1629) entries. Exact indexed-record waypoints are needed before treating their Bawdeswell presence as manuscript-confirmed. Report: [`done/packet-33-bawdeswell-wales-tracking.md`](done/packet-33-bawdeswell-wales-tracking.md).
+- **Key finding:** the Bawdeswell composite register (1557–1723) is **disordered** (faded, tight-bound, sections out of chronological order) and its marriage run **jumps 1582 → 1709** — so the 1620s–30s marriage of Mary Wales is likely **unrecorded** here, and the test shifts to the **baptisms**: the staged baptism run (`bw-img-020`–`027`, ~1610–1635) should hold Mary Wales chr. 1611, Ann 1618, Peter 1629, and answers whether a Mary Wales reappears as a *mother* after ~1627 (which would eliminate her). Harvest all Wales/Gurney-variant entries.
