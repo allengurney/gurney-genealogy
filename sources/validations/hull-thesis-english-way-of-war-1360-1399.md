@@ -2,7 +2,7 @@
 
 **Source ID:** `hull-thesis-english-way-of-war-1360-1399`
 
-**Examined:** appendix biographical entries (pp. 339–341) and Knolles 1370 retinue tables (Tables 4.2–4.3, pp.157–165), from the repository PDF `content-hull_9036a.pdf` (383 pp.), reviewed 2026-05-30.
+**Examined:** appendix biographical entries (pp. 339–341) and Knolles 1370 retinue tables (Tables 4.2–4.3, pp.157–165), from the locally retained repository PDF `sources/media/hull-thesis-english-way-of-war-1360-1399/_local/content-hull_9036a.pdf` (383 pp.), reviewed 2026-05-30.
 
 **What it establishes:** the soldier-database "Sir John de Gournay" knight cluster (1359–1378) is Sir John de Gourney of Harptree, Somerset (appendix p.340); Sir Thomas Trevet is named "nephew of Sir Matthew Gournay" (p.351); Sir Matthew appears as a banneret with a retinue of ~20 on the 1381 Iberian expedition.
 

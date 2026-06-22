@@ -1588,7 +1588,7 @@
       "url": null,
       "corpusStatus": "partial",
       "corpusPath": "sources/corpus_supplement/2026-gurney-family-papers-g3-to-g2-certificates-clippings.md",
-      "mediaPath": "sources/media/gurney-family-papers-g3-to-g2-certificates-clippings/",
+      "mediaPath": "sources/media/gurney-family-papers-g3-to-g2-certificates-clippings/_local/",
       "validationPath": "sources/validations/gurney-family-papers-g3-to-g2-certificates-clippings.md",
       "notes": "Thirty scanned family-paper pages. Major content: G3 Springfield birth certification (Wellesley Hills childhood home); G3 Norwich University civil-engineering attendance 1941-1943 and full wartime Signal Corps chronology, including outside-plant telephone-line construction on Luzon supervising 75 enlisted men, prisoner-of-war labor, and 75 civilian linemen; G3 pre-war employment as assistant construction engineer at New England Power Company, Boston; G3 St. Alban's Lodge No. 6 (Bristol, RI) junior-deacon notice and Bristol social life; G3 marriages to Edith W. Scott (1942) and Dorothy Lillian Hoben (1965); Dorothy Hoben birth/death/probate; G4 marriage to Ethel June Hayes (23 Apr. 1921); G4 1920 Worcester divorce from Nettie; G4 thirty-five-year New England Power System career and 1953 retirement; G5 marriage certificate to Helen Ransome Hill (1881); Helen Ransome Gurney-Lawrence Branch O'Brien marriage (1900); 1936 Masonic correspondence for G5/G6 Continental Lodge context. SAR chart includes G1 living-person details and is private/source context only."
     },
@@ -2941,9 +2941,9 @@
       "url": "https://hull-repository.worktribe.com/output/4216021",
       "corpusStatus": "none",
       "corpusPath": null,
-      "mediaPath": null,
+      "mediaPath": "sources/media/hull-thesis-english-way-of-war-1360-1399/_local/content-hull_9036a.pdf",
       "validationPath": "sources/validations/hull-thesis-english-way-of-war-1360-1399.md",
-      "notes": "Reviewed 2026-05-30 from the repository PDF (a copy was supplied to sources/intake/new/content-hull_9036a.pdf; not committed to corpus as a modern in-copyright thesis). Appendix p.340 identifies the soldier-database 'Sir John de Gourney' knight cluster (1359–1378) as Sir John de Gourney of Harptree, Somerset (owner of Harptree castle 1343 underage; m. Elizabeth widow of John Carew; Ireland 1363 under William de Windsor; Knolles 1370 captain, retinue of 3; Calais garrison 1376/1378). Also: Sir Thomas Trevet 'nephew of Sir Matthew Gournay' (p.351); Sir Matthew as banneret with a retinue of ~20 on the 1381 Iberian expedition. Used to exclude the knight cluster from the Norfolk direct line (G24). Full citation pending author confirmation."
+      "notes": "Reviewed 2026-05-30 from the locally retained repository PDF at sources/media/hull-thesis-english-way-of-war-1360-1399/_local/content-hull_9036a.pdf (not committed to corpus as a modern in-copyright thesis). Appendix p.340 identifies the soldier-database 'Sir John de Gourney' knight cluster (1359–1378) as Sir John de Gourney of Harptree, Somerset (owner of Harptree castle 1343 underage; m. Elizabeth widow of John Carew; Ireland 1363 under William de Windsor; Knolles 1370 captain, retinue of 3; Calais garrison 1376/1378). Also: Sir Thomas Trevet 'nephew of Sir Matthew Gournay' (p.351); Sir Matthew as banneret with a retinue of ~20 on the 1381 Iberian expedition. Used to exclude the knight cluster from the Norfolk direct line (G24). Full citation pending author confirmation."
     },
     "walker-lancastrian-affinity-1361-1399": {
       "shortTitle": "Walker, The Lancastrian Affinity 1361–1399",
@@ -3629,6 +3629,7 @@
       "url": "https://archive.org/details/manuscriptsduke00enggoog",
       "corpusStatus": "extract",
       "corpusPath": "sources/corpus_supplement/gurney-of-keswick-spelman-pedigree-hmc-1891.md",
+      "mediaPath": "sources/media/hmc-12th-report-appendix-ix-1891/_local/",
       "validationPath": "sources/validations/hmc-12th-report-appendix-ix-1891.md",
       "notes": "pp. 116 (collection provenance: Cox Macro -> Hudson Gurney -> Keswick; 14 vols tied to Sir Henry Spelman) and 161 (MS 122/16, pp. 1-124: pedigrees with arms of Bardolf, Calthrop, Gurney, and especially Spelman; Spelman wills 1485-1641). Confirms the Spelman-circle Gurney pedigree survives. Page images supplied by Allen Gurney."
     },

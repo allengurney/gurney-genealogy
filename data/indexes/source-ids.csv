@@ -150,7 +150,7 @@ grokipedia-edmund-gurney-divine,Grokipedia - Edmund Gurney (divine),captured,sou
 gurnay-redivivus-1660,Gurnay Redivivus (1660),partial,sources/corpus_supplement/gurnay-redivivus-1660-research-extract.md,,sources/validations/gurnay-redivivus-1660.md
 gurney-drogo-pilgrimage-research-2026,Project research handoff -- Gerard de Gournay Drogo/pilgrimage/death window (2026),full,sources/corpus_supplement/g32-gerard-de-gournay-drogo-edith-pilgrimage-death-window.md,,
 gurney-family-handwritten-notes-1963,Gurney family handwritten notes 1963,partial,sources/corpus_supplement/1963-gurney-family-handwritten-notes-transcription.md,sources/media/gurney-family-handwritten-notes-1963/1963_gurney_family_handwritten_notes_revised_findings_v3.md,sources/validations/gurney-family-handwritten-notes-1963.md
-gurney-family-papers-g3-to-g2-certificates-clippings,Gurney family papers from G3 to G2,partial,sources/corpus_supplement/2026-gurney-family-papers-g3-to-g2-certificates-clippings.md,sources/media/gurney-family-papers-g3-to-g2-certificates-clippings/,sources/validations/gurney-family-papers-g3-to-g2-certificates-clippings.md
+gurney-family-papers-g3-to-g2-certificates-clippings,Gurney family papers from G3 to G2,partial,sources/corpus_supplement/2026-gurney-family-papers-g3-to-g2-certificates-clippings.md,sources/media/gurney-family-papers-g3-to-g2-certificates-clippings/_local/,sources/validations/gurney-family-papers-g3-to-g2-certificates-clippings.md
 hardingham-parish-history-2026,Hardingham Parish - History of Hardingham,partial,sources/corpus_supplement/hardingham-parish-history-2026.md,,sources/validations/hardingham-parish-history-2026.md
 harleian-st-vedast-st-michael-le-quern-registers,Harleian Society - St Vedast and St Michael le Quern registers,partial,,sources/media/harleian-st-vedast-st-michael-le-quern-registers,sources/validations/harleian-st-vedast-st-michael-le-quern-registers.md
 hazen-billerica-1883,"Hazen, History of Billerica",none,,,sources/validations/hazen-billerica-1883.md
@@ -166,7 +166,7 @@ historic-england-old-hall-farmhouse-1077566,Historic England - Old Hall Farmhous
 history-ac-uk-markets-fairs-gazetteer,Gazetteer of Markets and Fairs to 1516,partial,sources/corpus_supplement/history-ac-uk-markets-fairs-gurnay.md,,sources/validations/history-ac-uk-markets-fairs-gurnay.md
 history-of-parliament-online-gurney-1386-1421,HoP Online -- Gurney John d.1408,external,,,
 history-of-weymouth,"History of Weymouth, Massachusetts (1923)",partial,sources/corpus_supplement/history-of-weymouth-vol3-gurney.md,,sources/validations/history-of-weymouth.md
-hmc-12th-report-appendix-ix-1891,hmc-12th-report-appendix-ix-1891,extract,sources/corpus_supplement/gurney-of-keswick-spelman-pedigree-hmc-1891.md,,sources/validations/hmc-12th-report-appendix-ix-1891.md
+hmc-12th-report-appendix-ix-1891,hmc-12th-report-appendix-ix-1891,extract,sources/corpus_supplement/gurney-of-keswick-spelman-pedigree-hmc-1891.md,sources/media/hmc-12th-report-appendix-ix-1891/_local/,sources/validations/hmc-12th-report-appendix-ix-1891.md
 hobart-abington-1839,"Hobart, Historical Sketch of Abington (1839)",partial,,,sources/validations/benjamin-gurney-harden-research-tables-2026-04.md
 hobart-benjamin-history-abington-1866,"Hobart, History of the Town of Abington (1866)",partial,sources/corpus_supplement/hobart-1866-abington-gurney-register-extract.md,,sources/validations/hobart-benjamin-history-abington-1866.md
 holinshed-chronicles-1577,"Holinshed, Chronicles of England, Scotlande, and Irelande (1577) -- laste volume",partial,sources/corpus_supplement/holinshed-1577-selected-gurney-references.md,,sources/validations/holinshed-chronicles-1577.md
@@ -176,7 +176,7 @@ hop-drury-robert-i-1456-1535,"History of Parliament -- DRURY, Sir Robert I (by 1
 hop-gurney,History of Parliament Online — Gurney,partial,sources/corpus_supplement/John-Gurney-d1408-The-History-of-Parliamentx.md,,
 hop-harling,History of Parliament / biography — Sir Robert Harling (d.1435),none,,,sources/validations/hop-harling.md
 hrp-anne-boleyn,"Historic Royal Palaces, Anne Boleyn",none,,,sources/validations/hrp-anne-boleyn.md
-hull-thesis-english-way-of-war-1360-1399,"Hull PhD thesis — The English Way of War, 1360–1399",none,,,sources/validations/hull-thesis-english-way-of-war-1360-1399.md
+hull-thesis-english-way-of-war-1360-1399,"Hull PhD thesis — The English Way of War, 1360–1399",none,,sources/media/hull-thesis-english-way-of-war-1360-1399/_local/content-hull_9036a.pdf,sources/validations/hull-thesis-english-way-of-war-1360-1399.md
 hurlock-oldfield-crusading-pilgrimage-norman-2015,"Hurlock and Oldfield, Crusading and Pilgrimage in the Norman World (2015)",external,,,
 husting-wills-london-vol2-sharpe,Sharpe -- Calendar of Wills Court of Husting London Part II (1890),supplement,sources/corpus_supplement/husting-wills-london-vol2-john-heylesdon-1384.md,,
 keates-rohan-domesday,"Keates-Rohan, Domesday People",none,,,

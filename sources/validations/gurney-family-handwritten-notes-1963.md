@@ -11,7 +11,7 @@ Patchset: `sources/intake/processed/v12-gurney-family-handwritten-notes-1963.pat
 
 ## Status
 
-Usable as close-family evidence and source-associated transcription. Original page photographs were not copied into the repo during phase 1; if available, they should be added later under `sources/media/gurney-family-handwritten-notes-1963/`.
+Usable as close-family evidence and source-associated transcription. The seven supplied page photographs are retained locally at `sources/media/gurney-family-handwritten-notes-1963/_local/`.
 
 ## Findings landed
 

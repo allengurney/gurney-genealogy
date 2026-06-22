@@ -6,7 +6,7 @@ Patchset: `sources/intake/done/v83-gurney-family-papers-g3-to-g2-certificates-cl
 
 ## Source examined
 
-Thirty scanned family-paper pages in `sources/intake/new/Family pages/`, `Scanned_20260603-2257-01.jpg` through `-30.jpg`, promoted to `sources/media/gurney-family-papers-g3-to-g2-certificates-clippings/`.
+Thirty scanned family-paper pages, `Scanned_20260603-2257-01.jpg` through `-30.jpg`, are retained locally at `sources/media/gurney-family-papers-g3-to-g2-certificates-clippings/_local/` because the set includes privacy-sensitive modern records.
 
 Source posture supplied by Allen: family papers from Lester Sawyer Gurney III (G3), passed to Lester Hayes Gurney (G2), in possession of Allen Gurney (G1).
 
