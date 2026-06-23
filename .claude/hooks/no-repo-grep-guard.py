@@ -4,9 +4,13 @@ grep/find/rg/Select-String, steering toward the repo's repo_search-first tooling
 
 Reads the hook JSON on stdin, inspects tool_input.command, and emits a PreToolUse
 "ask" decision (a confirm gate — grep remains a usable last resort, not blocked)
-when the command invokes a content/file search tool. Allows the command silently
-(exit 0, no output) when it explicitly targets a non-repo path (the ~/.claude
-auto-memory area) or carries the opt-out marker `#grepok`.
+when the command invokes a content/file search tool against the filesystem.
+Allows the command silently (exit 0, no output) when it explicitly targets a
+non-repo path (the ~/.claude auto-memory area), carries the opt-out marker
+`#grepok`, or **reads from a pipe** (`cmd | grep ...`) — a piped search filters
+another command's OUTPUT, not repo content, so it is not the behavior this guard
+exists to steer. Only a standalone search command (line start, or after ; && & (
+or xargs) is gated.
 
 Rule source: AGENTS.md s0a (repo_search-first). See .claude/CLAUDE.md.
 """
@@ -28,13 +32,16 @@ if not cmd:
 if re.search(r"\.claude[\\/]projects", cmd) or "#grepok" in cmd:
     sys.exit(0)
 
-# command-position prefix: start of line/command, or after a pipe/sep/xargs
-PRE = r"(?:^|[|&;(]|\n|\bxargs\s+)\s*"
+# command-position prefix: start of line/command, or after ; && & ( newline or
+# xargs — but NOT after a pipe. A search tool fed by a pipe ("cmd | grep foo")
+# is filtering command OUTPUT, not searching repo content, so it is intentionally
+# left silent (the common false-positive that prompted on benign output filtering).
+PRE = r"(?:^|[&;(]|\n|\bxargs\s+)\s*"
 patterns = [
     PRE + r"(?:grep|egrep|fgrep|rg|ripgrep)\b",
     PRE + r"find\b(?=[^|&;\n]*\s-(?:i?name|path|regex)\b)",
-    r"\bSelect-String\b",
-    r"(?:Get-ChildItem|gci)\b[^|&;\n]*\s-[Rr]ec(?:urse)?\b",
+    PRE + r"Select-String\b",
+    PRE + r"(?:Get-ChildItem|gci)\b[^|&;\n]*\s-[Rr]ec(?:urse)?\b",
 ]
 
 if any(re.search(p, cmd, re.IGNORECASE) for p in patterns):

@@ -184,6 +184,7 @@ bodleian-ms-tanner-175-marco,source,Bodleian MS Tanner 175 - MARCO,data/sources.
 braintree-records-1640-1793-1886,source,"Braintree town records, 1640-1793",data/sources.json
 brooke-catalogue-succession-1619,source,"Brooke, Catalogue and Succession (1619)",data/sources.json
 brs-v21,source,BRS v21 (1642 Bucks tax),data/sources.json
+burke-landed-gentry-gurney,source,Burke's Landed Gentry - Gurney of Maldon pedigree (tertiary),data/sources.json
 burke-ancient-family,source,"Burke, The Ancient Family of Gurney",data/sources.json
 bury-st-james-registers,source,"Bury St Edmunds, St James registers",data/sources.json
 calder-new-haven-colony-1934,source,"Calder, New Haven Colony",data/sources.json
@@ -220,6 +221,7 @@ dg-rec-supp,source,"DG Record, Supplement (1858)",data/sources.json
 dg-rye-appendix,source,DG Rye Appendix,data/sources.json
 dhi-crusaders-leeds,source,"DHI -- Database of Crusaders to the Holy Land, 1095-1149",data/sources.json
 dicamillo-gurneys-manor,source,DiCamillo — Gurney's Manor,data/sources.json
+dnb-bocking,source,DNB - Bocking (Nicholas Bocking / Fastolf service note),data/sources.json
 dnb-edmund-gurney-1890,source,DNB - Edmund Gurney (d.1648),data/sources.json
 domesday-1086,source,Domesday Book (1086),data/sources.json
 dudo-historia,source,"Dudo of Saint-Quentin, Historia Normannorum",data/sources.json
@@ -271,6 +273,7 @@ fs-vnn2-h8s-francis-gurney-burial-east-dereham-1633,source,"FS index VNN2-H8S �
 fs-vnn2-scf-edward-gurney-baptism-east-dereham,source,"FS index VNN2-SCF — Edward Gurney baptism, East Dereham, father Francis",data/sources.json
 fs-vnn2-wr2-marye-gurney-burial-east-dereham,source,"FS index VNN2-WR2 — Marye Gurney burial, East Dereham, father Francis",data/sources.json
 fs-vnn2-wrg-agnes-gurney-burial-east-dereham,source,"FS index VNN2-WRG — Agnes (FS-indexed 'Susan') Gurney burial, East Dereham, father Francis",data/sources.json
+ftdna-gurney-ydna,source,FTDNA Gurney Y-DNA project + Discover (public),data/sources.json
 dumoulin-histoire-generale-normandie-1631,source,"Gabriel Dumoulin, Histoire générale de Normandie (1631)",data/sources.json
 gaillefontaine-official-history,source,Gaillefontaine official history,data/sources.json
 gancourt-saint-etienne-bulletin-2023,source,Gancourt-Saint-Etienne municipal bulletin 2023,data/sources.json
@@ -314,6 +317,7 @@ holinshed-chronicles-1577,source,"Holinshed, Chronicles of England, Scotlande, a
 tag-10-70,source,"Holman, Grissell of the Many Marriages",data/sources.json
 hoosac-tunnel-wilmington-railroad,source,Hoosac Tunnel & Wilmington Railroad (Wikipedia),data/sources.json
 history-of-parliament-online-gurney-1386-1421,source,HoP Online -- Gurney John d.1408,data/sources.json
+hotten-original-lists-1874,source,"Hotten, Original Lists of Persons of Quality (1874)",data/sources.json
 norwich-records-hudson-tingey-vol2,source,"Hudson and Tingey -- Records of the City of Norwich, vol. ii (1910)",data/sources.json
 hull-thesis-english-way-of-war-1360-1399,source,"Hull PhD thesis — The English Way of War, 1360–1399",data/sources.json
 arber-stationers-bsoc-petition-1646-hunscott,source,"Hunscott - Humble Petition and Information, 1646 (Wing H3728)",data/sources.json

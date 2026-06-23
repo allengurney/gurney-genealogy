@@ -46,6 +46,7 @@ british-archivist-bernau-1913,"Bernau, British Archivist - Francis Gournay",full
 brooke-catalogue-succession-1619,"Brooke, Catalogue and Succession (1619)",partial,sources/corpus_supplement/brooke-catalogue-succession-1619-selected-gurney-pages.md,sources/media/brooke-catalogue-succession-1619/,sources/validations/brooke-catalogue-succession-1619.md
 brs-v21,BRS v21 (1642 Bucks tax),none,,,
 burke-ancient-family,"Burke, The Ancient Family of Gurney",none,,,
+burke-landed-gentry-gurney,Burke's Landed Gentry - Gurney of Maldon pedigree (tertiary),extract,sources/corpus_supplement/burke-landed-gentry-gurney-of-maldon.md,,
 bury-st-james-registers,"Bury St Edmunds, St James registers",extract,sources/corpus_supplement/bury-st-edmunds-gurney-registers-1561-1800.md,,sources/validations/bury-st-james-registers.md
 calder-new-haven-colony-1934,"Calder, New Haven Colony",none,,,
 cambridge-core-camden-preface-addenda,Camden Old Series - Preface and Addenda,partial,sources/corpus_supplement/cambridge-core-camden-preface-addenda-gournay-bardolf.md,,sources/validations/cambridge-core-camden-preface-addenda.md
@@ -75,9 +76,10 @@ dg-rec-pt2,"DG Record, Part II",full,sources/corpus/daniel-gurney-part-2.md,,
 dg-rec-pt3,"DG Record, Part III",full,sources/corpus/daniel-gurney-part-3.md,,
 dg-rec-pt4,"DG Record, Part IV",full,sources/corpus/daniel-gurney-part-4.md,,
 dg-rec-supp,"DG Record, Supplement (1858)",full,sources/corpus/daniel-gurney-supplement.md,,
-dg-rye-appendix,DG Rye Appendix,none,,,
+dg-rye-appendix,DG Rye Appendix,partial,sources/corpus_supplement/gascon-rolls-gournay-calendar.md,,
 dhi-crusaders-leeds,"DHI -- Database of Crusaders to the Holy Land, 1095-1149",external,,,
 dicamillo-gurneys-manor,DiCamillo — Gurney's Manor,partial,sources/corpus_supplement/dicamillo-gurneys-manor.md,,sources/validations/dicamillo-gurneys-manor.md
+dnb-bocking,DNB - Bocking (Nicholas Bocking / Fastolf service note),none,,,sources/validations/dnb-bocking.md
 dnb-edmund-gurney-1890,DNB - Edmund Gurney (d.1648),full,sources/corpus_supplement/dnb-edmund-gurney-1890.md,,sources/validations/dnb-edmund-gurney-1890.md
 domesday-1086,Domesday Book (1086),none,,,
 dudo-historia,"Dudo of Saint-Quentin, Historia Normannorum",none,,,
@@ -134,6 +136,7 @@ fs-vnn2-h8s-francis-gurney-burial-east-dereham-1633,"FS index VNN2-H8S — Franc
 fs-vnn2-scf-edward-gurney-baptism-east-dereham,"FS index VNN2-SCF — Edward Gurney baptism, East Dereham, father Francis",transcript,,,sources/validations/fs-east-dereham-francis-gurney-indexed-children.md
 fs-vnn2-wr2-marye-gurney-burial-east-dereham,"FS index VNN2-WR2 — Marye Gurney burial, East Dereham, father Francis",transcript,,sources/media/Parish_Register_East_Dereham/page_00725_line_marye_ffrancis_gurny_sweep.png,sources/validations/fs-east-dereham-francis-gurney-indexed-children.md
 fs-vnn2-wrg-agnes-gurney-burial-east-dereham,"FS index VNN2-WRG — Agnes (FS-indexed 'Susan') Gurney burial, East Dereham, father Francis",transcript,,sources/media/Parish_Register_East_Dereham/page_00725_line_agnes_ffrancis_gurny_sweep.png,sources/validations/fs-east-dereham-francis-gurney-indexed-children.md
+ftdna-gurney-ydna,FTDNA Gurney Y-DNA project + Discover (public),extract,sources/corpus_supplement/ftdna-gurney-ydna-braintree-line-2026.md,,sources/validations/ftdna-gurney-ydna.md
 gaillefontaine-official-history,Gaillefontaine official history,none,,,
 gancourt-saint-etienne-bulletin-2023,Gancourt-Saint-Etienne municipal bulletin 2023,none,,,
 gascon-rolls-project,The Gascon Rolls Project (1317-1468),none,,,sources/validations/gascon-rolls-project.md
@@ -150,7 +153,7 @@ grokipedia-edmund-gurney-divine,Grokipedia - Edmund Gurney (divine),captured,sou
 gurnay-redivivus-1660,Gurnay Redivivus (1660),partial,sources/corpus_supplement/gurnay-redivivus-1660-research-extract.md,,sources/validations/gurnay-redivivus-1660.md
 gurney-drogo-pilgrimage-research-2026,Project research handoff -- Gerard de Gournay Drogo/pilgrimage/death window (2026),full,sources/corpus_supplement/g32-gerard-de-gournay-drogo-edith-pilgrimage-death-window.md,,
 gurney-family-handwritten-notes-1963,Gurney family handwritten notes 1963,partial,sources/corpus_supplement/1963-gurney-family-handwritten-notes-transcription.md,sources/media/gurney-family-handwritten-notes-1963/1963_gurney_family_handwritten_notes_revised_findings_v3.md,sources/validations/gurney-family-handwritten-notes-1963.md
-gurney-family-papers-g3-to-g2-certificates-clippings,Gurney family papers from G3 to G2,partial,sources/corpus_supplement/2026-gurney-family-papers-g3-to-g2-certificates-clippings.md,sources/media/gurney-family-papers-g3-to-g2-certificates-clippings/_local/,sources/validations/gurney-family-papers-g3-to-g2-certificates-clippings.md
+gurney-family-papers-g3-to-g2-certificates-clippings,Gurney family papers from G3 to G2,partial,sources/corpus_supplement/2026-gurney-family-papers-g3-to-g2-certificates-clippings.md,sources/media/gurney-family-papers-g3-to-g2-certificates-clippings/,sources/validations/gurney-family-papers-g3-to-g2-certificates-clippings.md
 hardingham-parish-history-2026,Hardingham Parish - History of Hardingham,partial,sources/corpus_supplement/hardingham-parish-history-2026.md,,sources/validations/hardingham-parish-history-2026.md
 harleian-st-vedast-st-michael-le-quern-registers,Harleian Society - St Vedast and St Michael le Quern registers,partial,,sources/media/harleian-st-vedast-st-michael-le-quern-registers,sources/validations/harleian-st-vedast-st-michael-le-quern-registers.md
 hazen-billerica-1883,"Hazen, History of Billerica",none,,,sources/validations/hazen-billerica-1883.md
@@ -175,6 +178,7 @@ hop-berney,"History of Parliament — Berney, Sir Robert (c.1365-1415)",none,,,s
 hop-drury-robert-i-1456-1535,"History of Parliament -- DRURY, Sir Robert I (by 1456-1535)",supplement,sources/corpus_supplement/hop-drury-robert-i-1456-1535.md,,
 hop-gurney,History of Parliament Online — Gurney,partial,sources/corpus_supplement/John-Gurney-d1408-The-History-of-Parliamentx.md,,
 hop-harling,History of Parliament / biography — Sir Robert Harling (d.1435),none,,,sources/validations/hop-harling.md
+hotten-original-lists-1874,"Hotten, Original Lists of Persons of Quality (1874)",extract,sources/corpus_supplement/hotten-original-lists-gurney-search-2026.md,,sources/validations/hotten-original-lists-1874.md
 hrp-anne-boleyn,"Historic Royal Palaces, Anne Boleyn",none,,,sources/validations/hrp-anne-boleyn.md
 hull-thesis-english-way-of-war-1360-1399,"Hull PhD thesis — The English Way of War, 1360–1399",none,,sources/media/hull-thesis-english-way-of-war-1360-1399/_local/content-hull_9036a.pdf,sources/validations/hull-thesis-english-way-of-war-1360-1399.md
 hurlock-oldfield-crusading-pilgrimage-norman-2015,"Hurlock and Oldfield, Crusading and Pilgrimage in the Norman World (2015)",external,,,
@@ -284,7 +288,7 @@ rollco-other-companies-gurney-1573-1653,"ROLLCO - Gurney events in Clothworkers,
 rollco-stationers-gurney-1613-1626,ROLLCO Stationers - John Gurney 1613 binding and Robert Gurney 1616-1626 apprenticeship sequence,partial,sources/corpus_supplement/rollco-stationers-gurney-1613-1626.md,,sources/validations/rollco-stationers-gurney-1613-1626.md
 rollco-stationers-hunscott-cluster,ROLLCO Stationers - Joseph Hunscott cluster,partial,sources/corpus_supplement/rollco-stationers-hunscott-cluster.md,,sources/validations/rollco-stationers-hunscott-cluster.md
 rudder-gloucestershire-1779,"Rudder, A New History of Gloucestershire (1779)",supplement,sources/corpus_supplement/rudder-gloucestershire-1779-gurney-extracts.md,,sources/validations/rudder-gloucestershire-1779.md
-rye-feet-of-fines-norfolk,"Rye, Short Calendar of the Feet of Fines for Norfolk (Parts I-II)",none,,,sources/validations/rye-feet-of-fines-norfolk.md
+rye-feet-of-fines-norfolk,"Rye, Short Calendar of the Feet of Fines for Norfolk (Parts I-II)",extract,sources/corpus/rye-feet-of-fines-norfolk-part2.txt,,sources/validations/rye-feet-of-fines-norfolk.md
 rye-index-rerum-norfolk-antiquities-1910,"Index Rerum to Norfolk Antiquities (Rye, 1910)",partial,,,sources/validations/rye-index-rerum-norfolk-antiquities-1910.md
 rye-norfolk-antiquarian,"Rye, Norfolk Antiquarian — Gurneys of Norwich",full,sources/corpus/norfolk-antiquarian-gurneys-of-norwich.md,,
 rye-visitacion-norffolk-1891,"Rye, Visitacion of Norffolk (1891)",partial,sources/corpus_supplement/rye-visitacion-norffolk-1891-gurney-selected-pages.md,sources/media/rye-visitacion-norffolk-1891/,sources/validations/rye-visitacion-norffolk-1891.md

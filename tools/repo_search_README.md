@@ -47,6 +47,33 @@ Entity selectors disambiguate identity. An ambiguous ancestor name stops and
 lists generation choices; textual searching across names remains available by
 putting the name in `--terms` instead.
 
+## Locate (exact `path:line`) and scratch triage
+
+`search`/`map` rank *sections*; when you need the **exact `path:line`** of a known
+string (e.g. to build an edit), use `locate`. It is a live ripgrep wrapper that
+reuses the same text-extension and excluded-path filters, so it is the sanctioned
+replacement for raw `grep` on repo content.
+
+```powershell
+.\.venv\Scripts\python.exe tools\repo_search.py locate '"rye-feet-of-fines-norfolk": {'
+.\.venv\Scripts\python.exe tools\repo_search.py locate corpusPath --context 2   # ±2 verbatim lines
+```
+
+`--regex` (default is fixed-string), `--word`, `--case-sensitive` (default smart-case),
+`--glob` (repeatable), `--max` (default 200; `0` = unlimited). Paths print
+repo-relative with forward slashes.
+
+**Scratch/tmp triage (`--path <dir>`):** point `locate` at a scratch directory to
+triage a bulk download for just the hits you need instead of reading the whole blob
+into context. It searches the directory **live** — ripgrep reads current bytes, so
+results are always fresh (no persistent tmp index to stale, nothing to coordinate
+across tools, no "files just landed" race), and scratch content never appears in a
+normal repo search.
+
+```powershell
+.\.venv\Scripts\python.exe tools\repo_search.py locate Gurnay --path $env:TEMP\bulk --context 1
+```
+
 ## Reading saved results
 
 ```powershell

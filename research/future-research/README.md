@@ -8,6 +8,10 @@ Planning layer for research that has been **documented as a lead** somewhere in 
 - **`research-leads-done.csv`** — thin archive of resolved or rejected lead IDs, with one-line dispositions only. Do not move fat research narratives here.
 - **`john-gurney-source-leads.md`** — the pre-existing John Gurney G13 lead notes from the v15 audit. Detail-level companion to the G13 rows in the catalog.
 
+- **`l-46-blomefield-harpley.md`** and **`l-71-burke-landed-gentry-gurney.md`** — retained evidence and remaining deltas for those active leads.
+- **`daniel-gurney-holkham-manuscripts.md`** — archival context and remaining work for L-121.
+- **`repo-maintenance-tasks.md`** — durable context for maintenance-shaped catalog items such as the SSN history rewrite.
+
 ## Tooling
 
 Use `tools/research_leads.py` for routine lead-catalog reads and writes. This keeps AI and human workflows from reading or rewriting the full CSV for single-lead work.

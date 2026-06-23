@@ -110,8 +110,8 @@
       "citation": "Rye, Walter. Appendix to Daniel Gurney's Record of the House of Gournay.",
       "archive": "Project knowledge PDF (within Supplement file)",
       "url": null,
-      "corpusStatus": "none",
-      "corpusPath": null,
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/gascon-rolls-gournay-calendar.md",
       "mediaPath": null,
       "validationPath": null,
       "notes": "Rye's additions to the Supplement. Distinct from rye-norfolk-antiquarian (Rye's separate 1893 article). Text extraction pending."
@@ -170,6 +170,50 @@
       "mediaPath": null,
       "validationPath": "sources/validations/dnb-edmund-gurney-1890.md",
       "notes": "Core public-domain biographical source for Edmund Gurney/Gurnay, d.1648: parentage, Cambridge chronology, Edgefield and Harpley livings, Puritan inclination, surplice anecdote, burial at St Peter Mancroft Norwich on 14 May 1648, wife Ellen, apparent son Protestant, works list, and Gurnay/Gurney spelling note."
+    },
+    "dnb-bocking": {
+      "shortTitle": "DNB - Bocking (Nicholas Bocking / Fastolf service note)",
+      "citation": "\"Bocking, Edward (d. 1534).\" In Leslie Stephen, ed., Dictionary of National Biography, vol. 5. London: Smith, Elder & Co., 1886.",
+      "archive": "Wikisource transcription of Dictionary of National Biography, 1885-1900, vol. 5",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Bocking,_Edward",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/dnb-bocking.md",
+      "notes": "Dictionary of National Biography (1885-1900), vol. 5, 'Bocking, Edward' entry. Used only for its appended family note naming a Nicholas Bocking in Sir John Fastolf's service and the Bocking family's Longham (Norfolk) / Ash Bocking (Suffolk) holdings; the entry's main subject (Edward Bocking, the Canterbury monk) is unrelated. The one relevant sentence is quoted in the G20 companion footnote."
+    },
+    "hotten-original-lists-1874": {
+      "shortTitle": "Hotten, Original Lists of Persons of Quality (1874)",
+      "citation": "Hotten, John Camden, ed. The Original Lists of Persons of Quality; Emigrants; Religious Exiles ... Who Went from Great Britain to the American Plantations, 1600-1700. London: Chatto and Windus, 1874.",
+      "archive": "Internet Archive (originallistsofp00hottuoft)",
+      "url": "https://archive.org/details/originallistsofp00hottuoft",
+      "corpusStatus": "extract",
+      "corpusPath": "sources/corpus_supplement/hotten-original-lists-gurney-search-2026.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/hotten-original-lists-1874.md",
+      "notes": "Standard published transcription of the surviving 1600-1700 London port emigration / examination registers (TNA E157 and allied State Papers); records emigrants' names, ages, ships, destinations, and conformity certificates. Searched for the Gurney surname; the relied-on extracts (the 1635 America/Virginia list and the 1634 Dartmouth oath list) are captured in the corpus supplement."
+    },
+    "ftdna-gurney-ydna": {
+      "shortTitle": "FTDNA Gurney Y-DNA project + Discover (public)",
+      "citation": "FamilyTreeDNA, Gurney surname Y-DNA project (administrator Caroline Gurney) and public Discover Y-DNA haplogroup reports, familytreedna.com / discover.familytreedna.com. Consulted June 2026.",
+      "archive": "FamilyTreeDNA (public project results and Discover haplotree reports)",
+      "url": "https://discover.familytreedna.com/y-dna/R-FTD83678/tree",
+      "corpusStatus": "extract",
+      "corpusPath": "sources/corpus_supplement/ftdna-gurney-ydna-braintree-line-2026.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/ftdna-gurney-ydna.md",
+      "notes": "Public FamilyTreeDNA Gurney surname Y-DNA project and Discover haplotree reports; direct-paternal-line (Y-DNA) data for the Braintree Gurney line (project kit 576097, earliest known ancestor 'John Gurney b.1603 d.1663', terminal SNP R-FTD83678). The relied-on project and Discover data are captured in the corpus supplement."
+    },
+    "burke-landed-gentry-gurney": {
+      "shortTitle": "Burke's Landed Gentry - Gurney of Maldon pedigree (tertiary)",
+      "citation": "Burke, John, and John Bernard Burke. A Genealogical and Heraldic Dictionary of the Landed Gentry of Great Britain and Ireland. London: Henry Colburn / Harrison, editions 1850s-1870s. 'Gurney' pedigree, 'Gurney of Maldon' branch.",
+      "archive": "Consulted via FamilySearch Full-Text Search (digitised editions), June 2026",
+      "url": "",
+      "corpusStatus": "extract",
+      "corpusPath": "sources/corpus_supplement/burke-landed-gentry-gurney-of-maldon.md",
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Tertiary compiled pedigree (a collector, not a primary authority - trace to primary before citing for any genealogical fact): Burke's Landed Gentry 'Gurney' pedigree, including the 'Gurney of Maldon' branch. The relied-on extract is captured in the corpus supplement."
     },
     "ggm-benefice-harpley-rectors": {
       "shortTitle": "GGM Benefice - Harpley Register of Rectors",
@@ -1588,7 +1632,7 @@
       "url": null,
       "corpusStatus": "partial",
       "corpusPath": "sources/corpus_supplement/2026-gurney-family-papers-g3-to-g2-certificates-clippings.md",
-      "mediaPath": "sources/media/gurney-family-papers-g3-to-g2-certificates-clippings/_local/",
+      "mediaPath": "sources/media/gurney-family-papers-g3-to-g2-certificates-clippings/",
       "validationPath": "sources/validations/gurney-family-papers-g3-to-g2-certificates-clippings.md",
       "notes": "Thirty scanned family-paper pages. Major content: G3 Springfield birth certification (Wellesley Hills childhood home); G3 Norwich University civil-engineering attendance 1941-1943 and full wartime Signal Corps chronology, including outside-plant telephone-line construction on Luzon supervising 75 enlisted men, prisoner-of-war labor, and 75 civilian linemen; G3 pre-war employment as assistant construction engineer at New England Power Company, Boston; G3 St. Alban's Lodge No. 6 (Bristol, RI) junior-deacon notice and Bristol social life; G3 marriages to Edith W. Scott (1942) and Dorothy Lillian Hoben (1965); Dorothy Hoben birth/death/probate; G4 marriage to Ethel June Hayes (23 Apr. 1921); G4 1920 Worcester divorce from Nettie; G4 thirty-five-year New England Power System career and 1953 retirement; G5 marriage certificate to Helen Ransome Hill (1881); Helen Ransome Gurney-Lawrence Branch O'Brien marriage (1900); 1936 Masonic correspondence for G5/G6 Continental Lodge context. SAR chart includes G1 living-person details and is private/source context only."
     },
@@ -2070,11 +2114,11 @@
       "citation": "Walter Rye, ed., A Short Calendar of the Feet of Fines for Norfolk. Part I: Richard I-Edward I (Norwich: Goose, 1885); Part II: Edward II-Richard III (Norwich: Goose, 1886).",
       "archive": "Internet Archive",
       "url": "https://archive.org/details/ashortcalendarf00ryegoog",
-      "corpusStatus": "none",
-      "corpusPath": null,
+      "corpusStatus": "extract",
+      "corpusPath": "sources/corpus/rye-feet-of-fines-norfolk-part2.txt",
       "mediaPath": null,
       "validationPath": "sources/validations/rye-feet-of-fines-norfolk.md",
-      "notes": "Calendar of Norfolk feet of fines. Part I (Internet Archive ashortcalendarf02ryegoog) = Richard I-Edward I; Part II (ashortcalendarf00ryegoog) = Edward II-Richard III. Gurnay/Gurney appearances include: Robert Gurnay of Parva Cressingham (Pt II entry 64 = the 1405 fine v. Edward Howard, no parentage recital); John Gurnay parson of Harpley (Pt II entry 489 = the Rector John); William fil. Philip de Gurnay and Elena (Pt II entry 146); and early-reign entries (Hugh de Gurnay; William de Gurnay v. Ingaldesthorp; John de Gurnay v. Sarra wife of Roger de Cressingham; Gurney of the manor of Saxthorpe). Calendar abstracts only; consult AALT CP 25/1 scans for the manuscript image and exact file/number."
+      "notes": "Calendar of Norfolk feet of fines. Part I (Internet Archive ashortcalendarf02ryegoog) = Richard I-Edward I; Part II (ashortcalendarf00ryegoog) = Edward II-Richard III. Gurnay/Gurney appearances include: Robert Gurnay of Parva Cressingham (Pt II entry 64 = the 1405 fine v. Edward Howard, no parentage recital); John Gurnay parson of Harpley (Pt II entry 489 = the Rector John); William fil. Philip de Gurnay and Elena (Pt II entry 146); and early-reign entries (Hugh de Gurnay; William de Gurnay v. Ingaldesthorp; John de Gurnay v. Sarra wife of Roger de Cressingham; Gurney of the manor of Saxthorpe). Calendar abstracts only; consult AALT CP 25/1 scans for the manuscript image and exact file/number. The full Part II OCR text is now held locally at sources/corpus/rye-feet-of-fines-norfolk-part2.txt. Although the calendar is arranged by hundred/place, every entry sits under a regnal-year sub-header, so a fine's date is recoverable without the manuscript image; regnal years read 2026-06: entry 64 = 6 Hen IV (1405); 200 = 23 Hen VI (1444/45); 329 = 8 Edw III (1334/35); 432 = 9 Edw III (1335/36); 489 = 9 Edw II (1315/16)."
     },
     "farrer-church-heraldry-norfolk": {
       "shortTitle": "Farrer, Church Heraldry of Norfolk",
@@ -3031,7 +3075,7 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": "sources/validations/gascon-rolls-project.md",
-      "notes": "Searchable calendar/edition of the C61 Gascon Rolls — the series behind the Gascony/Aquitaine letters of protection for Thomas de Gourney (1349, C61/61 m6), Sir Matthew de Gournay, and others in the soldier database. Finding aid for fuller calendared text of the Gascony protections (lead L-82); not yet systematically searched."
+      "notes": "Searchable calendar/edition of the C61 Gascon Rolls — the series behind the Gascony/Aquitaine letters of protection for Thomas de Gourney, Sir Matthew de Gournay, and others in the soldier database. Systematically searched in June 2026 across Gournay/Gurney variants: 32 calendar entries on 17 rolls captured; the clearest Norfolk signal is John Gournay's 1394 appointment of John Dru, parson of Harpley, as attorney before Aquitaine service."
     },
     "hop-harling": {
       "shortTitle": "History of Parliament / biography — Sir Robert Harling (d.1435)",

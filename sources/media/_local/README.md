@@ -31,6 +31,7 @@ The repo stays self-describing — readers can see what exists locally even when
 | `rhgf-vol15-1878.pdf` | 459 MB | Oversize | *Recueil des historiens des Gaules et de la France*, vol. 15 (Paris, 1878). Public domain. Available at Gallica (BnF) and archive.org. |
 | `Collectanea_Archaeologica.pdf` | 55 MB | Oversize | *Collectanea Archaeologica: Communications made to the British Archaeological Association*. 19th-century, public domain. Available at archive.org / HathiTrust. |
 | `recueildesactesd01grea.pdf` | 38 MB | Oversize | Léopold Delisle (ed.), *Recueil des actes de Henri II*, vol. 1 (Paris, Imprimerie nationale). Public domain. Available at archive.org (`recueildesactesd01grea`) and Gallica. |
+| `packets-34-36-working-crops/` | folder | Regenerable paleography diagnostics | Contact sheets, enhancement sheets, and crops generated from FamilySearch Packet 34-36 masters. Durable source masters live under `sources/media/fs-england-norfolk-parish-registers-1510-1997/_local/` and `sources/media/familysearch-fulltext-search/_local/`; reports live in `sources/intake/paleography-staging/done/`. |
 
 ## Cross-reference
 - `.claude/rules/sources.md` (intake + validations + media discipline)

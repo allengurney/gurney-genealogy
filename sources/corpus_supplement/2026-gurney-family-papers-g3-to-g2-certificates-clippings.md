@@ -158,7 +158,7 @@ Additional information:
 
 ### Scanned_20260603-2257-12.jpg
 
-Separation Qualification Record. Lester Gurney III, O-1650561, 1st Lt., SSN 022-16-1233, permanent mailing address 506 W. 122 St., New York City 27, Manhattan County, New York. Entry into active service 25 November 1944; separation 8 September 1946; birth 10 June 1923; separation at Fort Dix, New Jersey.
+Separation Qualification Record. Lester Gurney III, O-1650561, 1st Lt.; Social Security number omitted as unnecessary personal identifier. Permanent mailing address 506 W. 122 St., New York City 27, Manhattan County, New York. Entry into active service 25 November 1944; separation 8 September 1946; birth 10 June 1923; separation at Fort Dix, New Jersey.
 
 Military occupation: 20 months, 1st Lt., Telephone & Telegraph Officer Outside Plant (0430).
 

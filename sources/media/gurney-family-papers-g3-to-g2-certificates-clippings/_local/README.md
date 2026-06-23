@@ -1,6 +1,7 @@
-# Local family-paper scans
+# Local family-paper exception
 
-This local-only folder holds `Scanned_20260603-2257-01.jpg` through `-30.jpg`.
-The set includes modern certificates and personally sensitive records, so the
-masters are intentionally excluded from GitHub. The searchable inventory and
-extract remain in `sources/corpus_supplement/2026-gurney-family-papers-g3-to-g2-certificates-clippings.md`.
+This local-only folder holds `Scanned_20260603-2257-12.jpg`, a military
+separation record displaying a Social Security number. The other 29
+family-paper scans are suitable for GitHub and remain in the parent media
+folder. The non-sensitive evidence from scan 12 is preserved in the corpus
+extract.

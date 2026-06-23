@@ -3595,7 +3595,7 @@
     "lineageStatus": "Confirmed",
     "displayLineageStatus": "",
     "summary": "He was born into the richest and most connected Gurney household yet, his father steward to John of Gaunt and his elder brother heading for a knighthood and Parliament. Yet Robert himself lived a life so quiet that genealogist Daniel Gurney could only guess at his first name. When his brother's only son died at the age of ten, the family inheritance redirected into Robert's branch by sheer accident.",
-    "notables": "Born into the most prosperous and well-connected household the family had yet produced — father Edmund (G23) was steward of John of Gaunt's East Anglian estates and counsel to Norwich and Bishop's Lynn; elder brother Sir John heading toward sheriffdom and a parliamentary career; mother Katherine de Wauncy the heiress of West Barsham. As a younger son Robert lived obscurely. No deed in his name, no court appearance, no will, no land transaction has been identified. He exists in the record almost entirely as a relationship — son, brother, husband, father. Yet because his nephew Edmund (Sir John V's only son) died as a minor, Robert's son Thomas I (G21) became, by collateral succession, lord of West Barsham — and through that single moment of dynastic luck, the entire subsequent Gurney line — including the West Barsham Gurneys, the banking Gurneys of Norwich, and through Francis Gurney's son John Gurney-1 the American Gurneys — descends from him. Source: Daniel Gurney, *Record*, Part I, p. 280; *Supplement*, p. 363.",
+    "notables": "Born into the most prosperous and well-connected household the family had yet produced — father Edmund (G23) was steward of John of Gaunt's East Anglian estates and counsel to Norwich and Bishop's Lynn; elder brother Sir John heading toward sheriffdom and a parliamentary career; mother Katherine de Wauncy the heiress of West Barsham. As a younger son Robert left only a faint documentary trail: he is identified with the Robert Gurnay recorded as a landholder and local juror around Little Cressingham, west Norfolk, 1400–1406, though no will or Crown office in his name survives. Yet because his nephew Edmund (Sir John V's only son) died as a minor, Robert's son Thomas I (G21) became, by collateral succession, lord of West Barsham — and through that single moment of dynastic luck, the entire subsequent Gurney line — including the West Barsham Gurneys, the banking Gurneys of Norwich, and through Francis Gurney's son John Gurney-1 the American Gurneys — descends from him. Source: Daniel Gurney, *Record*, Part I, p. 280, and Part II, p. 363.",
     "landHoldings": "• Specific holdings not individually documented. Inherited share of Edmund's Norfolk estate.",
     "hasLandHoldings": true,
     "spouses": [
@@ -3707,7 +3707,7 @@
       },
       {
         "label": "Research notes",
-        "url": "/research/notes/g23-edmund-gurney.html",
+        "url": "/research/notes/g23-sir-john-gurney-v-related.html",
         "style": "research"
       },
       {
@@ -3837,13 +3837,9 @@
     "buttons": [
       {
         "label": "Fact sheet",
-        "url": "/fact-sheets/g23-edmund-gurney-fact-sheet.html",
-        "style": "bio"
-      },
-      {
-        "label": "Research notes",
-        "url": "/research/notes/g23-edmund-gurney.html",
-        "style": "research"
+        "url": "/fact-sheets/g23-sir-john-gurney-v-related-fact-sheet.html",
+        "style": "bio",
+        "isExternal": false
       }
     ],
     "recordId": "collateral-g23-sir-john-gurney-knt-d-1408-collateral",

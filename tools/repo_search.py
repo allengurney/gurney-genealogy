@@ -1931,6 +1931,84 @@ def command_variants(args: argparse.Namespace) -> int:
     return 0
 
 
+def command_locate(args: argparse.Namespace) -> int:
+    """Exact literal/regex locator returning real ``path:line`` (+ optional context).
+
+    Two uses, one command:
+
+    * **Repo mode (default).** Live ripgrep over the repository's text files, with the
+      same text-extension and excluded-path filters as the staged search. Gives a true
+      ``path:line`` for a known string (the staged search ranks sections, not file lines),
+      so a known string can be found and read without reaching for raw grep.
+    * **Scratch/tmp mode (``--path <dir>``).** Searches a scratch directory **live** — ripgrep
+      reads current bytes, so results are always fresh: there is no persistent tmp index to
+      stale, nothing to coordinate across tools (pass whatever tmp path you used), and no
+      "files just landed" race. Scratch results never appear in a normal repo search; you only
+      get them by passing ``--path`` explicitly. Drop a bulk download in tmp, then triage it
+      here for just the hits you need instead of reading the whole blob into context.
+    """
+    rg = find_ripgrep()
+    if not rg:
+        raise SystemExit(
+            "ripgrep (rg) is required for locate but was not found. Install it "
+            "(Windows: winget install BurntSushi.ripgrep.MSVC), or set GURNEY_REPO_SEARCH_RG."
+        )
+    repo_root = find_repo_root(Path(args.repo_root) if args.repo_root else None)
+    config = load_config(repo_root)
+
+    scratch = Path(args.path).expanduser() if args.path else None
+    if scratch is not None:
+        if not scratch.exists():
+            raise SystemExit(f"--path not found: {scratch}")
+        cwd = scratch if scratch.is_dir() else scratch.parent
+        targets = ["."] if scratch.is_dir() else [scratch.name]
+        where = str(scratch)
+    else:
+        cwd = repo_root
+        targets = ["."]
+        where = "repo (all files)" if args.all else "repo"
+
+    command = [rg, "--line-number", "--no-heading", "--color", "never", "--no-messages", "--path-separator", "/"]
+    command.append("--case-sensitive" if args.case_sensitive else "--smart-case")
+    if not args.regex:
+        command.append("--fixed-strings")
+    if args.word:
+        command.append("--word-regexp")
+    if args.context:
+        command.extend(["--context", str(args.context)])
+    if scratch is None and not args.all:
+        for ext in config["textExtensions"]:
+            command.extend(["--glob", f"*{ext}"])
+        for pattern in config["excludedPaths"]:
+            command.extend(["--glob", f"!{pattern}"])
+        command.extend(["--glob", "!research/future-research/research-leads*.csv"])
+    for glob in args.glob or []:
+        command.extend(["--glob", glob])
+    command.extend(["-e", args.pattern, "--"])
+    command.extend(targets)
+
+    process = subprocess.run(
+        command, cwd=cwd, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+        text=True, encoding="utf-8", errors="replace",
+    )
+    if process.returncode not in (0, 1):
+        raise SystemExit(f"ripgrep failed ({process.returncode}): {process.stderr.strip()}")
+    out_lines = process.stdout.splitlines()
+    match_lines = sum(1 for line in out_lines if line and not line.startswith("--"))
+    limit = None if args.max == 0 else max(1, args.max)
+    capped = limit is not None and len(out_lines) > limit
+    shown = out_lines[:limit] if capped else out_lines
+    header = f"# locate {args.pattern!r} in {where}: {match_lines} matching line(s)"
+    if capped:
+        header += f" (showing first {limit} output lines; raise --max for more)"
+    print(header)
+    for line in shown:
+        print(line[2:] if line.startswith("./") else line)
+    if match_lines == 0:
+        print("(no matches)")
+    return 0
+
+
 def add_search_arguments(parser: argparse.ArgumentParser) -> None:
     group = parser.add_mutually_exclusive_group()
     group.add_argument("--ancestor", help="Generation, record ID, or unique ancestor name.")
@@ -2010,6 +2088,21 @@ def build_parser() -> argparse.ArgumentParser:
     v_table.set_defaults(func=command_variants)
     v_validate = variants_sub.add_parser("validate")
     v_validate.set_defaults(func=command_variants)
+
+    p_locate = sub.add_parser(
+        "locate",
+        help="Exact literal/regex locator: real path:line (+ optional context). Use --path to triage a scratch/tmp dir live.",
+    )
+    p_locate.add_argument("pattern", help="Literal string (default) or regex (with --regex) to find.")
+    p_locate.add_argument("--path", help="Search this scratch/tmp dir LIVE instead of the repo (always fresh; excluded from normal searches).")
+    p_locate.add_argument("--context", "-C", type=int, default=0, help="Lines of verbatim context around each match (for grabbing an edit block).")
+    p_locate.add_argument("--regex", action="store_true", help="Treat the pattern as a regex (default: fixed string).")
+    p_locate.add_argument("--word", "-w", action="store_true", help="Match whole words only.")
+    p_locate.add_argument("--case-sensitive", action="store_true", help="Disable smart-case (default: case-insensitive unless the pattern has uppercase).")
+    p_locate.add_argument("--glob", action="append", help="Extra ripgrep glob filter (repeatable).")
+    p_locate.add_argument("--all", action="store_true", help="Search ALL repo files incl. tools/, .claude/, site/ (default excludes them, matching genealogy search scope).")
+    p_locate.add_argument("--max", type=int, default=200, help="Cap output lines (0 = unlimited).")
+    p_locate.set_defaults(func=command_locate)
     return parser
 
 

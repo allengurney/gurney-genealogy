@@ -84,3 +84,15 @@ Append durable, reusable paleography lessons here after manuscript-analysis task
 - Gurney/Gournay variants or false friends: No secure Gurney form in the staged pages.
 - Reading lesson: Do not infer a baptism image range from opening numbers alone in a disordered composite. Anchor the range to manuscript folios and explicit year headings before predicting where an indexed entry should appear.
 - Avoid next time: Do not ask a second parish's image run to confirm an event indexed at the first parish, and do not turn a missing expected entry into a parish negative until its exact indexed record has been resolved back to a film image.
+
+## 2026-06-23 - Norfolk index reconciliation and Maldon court books
+
+- Scope: Packets 34-36, Bawdeswell/Great Dunham parish records and Maldon borough entries.
+- Source/image range: Bawdeswell images 18-35 and 46-52; Great Dunham images 53-77 plus `3:1:S3HY-61VS-VNK`; Maldon `3:1:9Q97-YSLK-24M` and associated targets.
+- Document type and date range: Parish baptisms, marriages, and burials, 1616-1658; borough meeting entry, 1677.
+- Hand or scribe: Faded English parish-register hands; English borough court/register hand.
+- Useful enhancement: A high-contrast enlargement recovered a marriage line that was nearly invisible in the ordinary full-opening view.
+- Comparator words: Great Dunham `George Hill`, `Mary Wallis`, and the 1628 heading; Maldon `his father deceased`, `freemen`, and `Corporation`.
+- Gurney/Gournay variants or false friends: Consecutive FTS target pages can be an unrelated deed containing historical Gournay property references rather than the named person's transaction.
+- Reading lesson: Always compare FamilySearch's normalized display place with `Event Place (Original)` and film metadata. Here three supposed Bawdeswell Wales events belonged to Shimpling. An indexed faint line should also be revisited from its direct original-image link before accepting a manuscript negative.
+- Avoid next time: Do not let a normalized place drive parish-image staging, and do not treat multiple FTS ARKs as duplicate hits until the named relationship is present on each image.

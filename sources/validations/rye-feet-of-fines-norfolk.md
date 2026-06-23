@@ -4,7 +4,7 @@
 
 **What was examined.** Walter Rye's calendar of Norfolk feet of fines, both parts, full text on Internet Archive: Part I (Richard I–Edward I, `ashortcalendarf02ryegoog`) and Part II (Edward II–Richard III, `ashortcalendarf00ryegoog`). Searched the OCR for Gurnay/Gurney/Gornay and related place-names.
 
-**Scope and method.** Calendar abstracts only (not the Latin fine text or the foot itself); brief one-line entries with party names, lands, and an entry number per reign section. The exact TNA CP 25/1 file/number and the regnal date require Rye's section apparatus and/or the AALT image scans.
+**Scope and method.** Calendar abstracts only (not the Latin fine text or the foot itself); brief one-line entries with party names, lands, and an entry number per reign section. The full Part II OCR text is now held locally at [`sources/corpus/rye-feet-of-fines-norfolk-part2.txt`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus/rye-feet-of-fines-norfolk-part2.txt). The exact TNA CP 25/1 file/number still requires the AALT image scans, but each entry's **regnal date is recoverable from its nearest preceding reign sub-header** — so the AALT image is no longer required merely to date a fine. Regnal years read 2026-06: #64 = 6 Hen IV (1405); #200 = 23 Hen VI (1444/45); #329 = 8 Edw III (1334/35); #432 = 9 Edw III (1335/36); #489 = 9 Edw II (1315/16).
 
 **Findings landed.**
 - **g22 Robert companion** — entry 64 (Pt II): "Robert Gurnay of Parva Cressyngham and Thomas Stodhagh v. Edward Howard and Katherine his wife, in Parva Cressyngham and Hopton" — the 1405 fine; **no parentage recital**, so it does not resolve the G22 identification (residence "of Parva Cressingham" still argues against).

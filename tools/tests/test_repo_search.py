@@ -175,6 +175,38 @@ class RepoSearchUnitTests(unittest.TestCase):
         self.assertNotIn("OneDrive", config["cacheRootResolved"])
         self.assertIn("GitDirs", config["cacheRootResolved"])
 
+    def test_locate_scratch_dir_live(self) -> None:
+        if not repo_search.find_ripgrep():
+            self.skipTest("ripgrep not available")
+        import contextlib
+        import io
+        with tempfile.TemporaryDirectory() as tmp:
+            scratch = Path(tmp)
+            (scratch / "bulk.txt").write_text(
+                "line one\nROBERT GURNAY of Parva Cressingham\nline three\n",
+                encoding="utf-8",
+            )
+            buffer = io.StringIO()
+            with contextlib.redirect_stdout(buffer):
+                rc = repo_search.main(["locate", "Cressingham", "--path", str(scratch)])
+            out = buffer.getvalue()
+        self.assertEqual(rc, 0)
+        self.assertIn("bulk.txt:2:", out)  # real path:line, forward-slash, live read
+        self.assertIn("1 matching line(s)", out)
+
+    def test_locate_no_match_reports_zero(self) -> None:
+        if not repo_search.find_ripgrep():
+            self.skipTest("ripgrep not available")
+        import contextlib
+        import io
+        with tempfile.TemporaryDirectory() as tmp:
+            (Path(tmp) / "f.txt").write_text("nothing here\n", encoding="utf-8")
+            buffer = io.StringIO()
+            with contextlib.redirect_stdout(buffer):
+                rc = repo_search.main(["locate", "zzzqxabsent", "--path", tmp])
+        self.assertEqual(rc, 0)
+        self.assertIn("0 matching line(s)", buffer.getvalue())
+
 
 if __name__ == "__main__":
     unittest.main()
