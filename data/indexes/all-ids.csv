@@ -173,6 +173,7 @@ bho-ipm-edward-iii-vol12-sancto-omero-mulbarton-1366,source,"BHO Calendar of IPM
 bho-hmc-kings-lynn-misc-writings,source,BHO HMC - King's Lynn Miscellaneous Writings,data/sources.json
 bho-ipm-edward-iii-file31-gournay-harpetree,source,BHO IPM Edward III File 31 - Thomas Gournay of Harpetree,data/sources.json
 bho-ipm-edward-iii-file35-gournay-inglescombe,source,BHO IPM Edward III File 35 - Thomas Gournay of Inglescombe,data/sources.json
+bho-ipm-henry-vii-townshend-gurnay-feoffee,source,BHO IPM Henry VII - William Gurnay feoffee of Sir Roger Townshend,data/sources.json
 bho-ipm-vol16-index-gournay,source,BHO IPM vol. 16 Index - Gournay/Gurney,data/sources.json
 bho-ipm-henry-iv-vol19-gournay-johnv,source,"BHO IPM vol. 19 (Henry IV) - John Gournay (Sir John V), d.1408",data/sources.json
 bho-statutes-realm-1661-assessment,source,BHO Statutes - 1661 Assessment Act,data/sources.json
@@ -188,6 +189,7 @@ burke-landed-gentry-gurney,source,Burke's Landed Gentry - Gurney of Maldon pedig
 burke-ancient-family,source,"Burke, The Ancient Family of Gurney",data/sources.json
 bury-st-james-registers,source,"Bury St Edmunds, St James registers",data/sources.json
 calder-new-haven-colony-1934,source,"Calder, New Haven Colony",data/sources.json
+cal-cecil-papers-hatfield,source,"Calendar of Cecil Papers, Hatfield House",data/sources.json
 cfr-henry-iv-1405-13,source,"Calendar of Fine Rolls, Henry IV, 1405-13",data/sources.json
 cpr-henry-iv-1399-1401,source,"Calendar of Patent Rolls, Henry IV, 1399-1401",data/sources.json
 cpr-henry-vi-1422-29,source,"Calendar of Patent Rolls, Henry VI, 1422-29",data/sources.json
@@ -465,7 +467,10 @@ trevor-john-erpingham-1970,source,"Trevor John, 'Sir Thomas Erpingham, East Angl
 tyrwhitt-canterbury-tales-1798-v2,source,"Tyrwhitt ed., Canterbury Tales of Chaucer, vol. ii Notes (1798)",data/sources.json
 us-census-1940,source,"U.S. Federal Census, 1940",data/sources.json
 us-public-records-1970-2009,source,"U.S. Public Records, 1970-2009",data/sources.json
+vch-bucks-vol2-bledlow,source,VCH Buckinghamshire vol. 2 - Bledlow,data/sources.json
 vch-bucks-v3,source,VCH Bucks v3 (Stewkley manors),data/sources.json
+vch-glos-vol2-gaunts-hospital,source,"VCH Gloucestershire vol. 2 - Gaunt's Hospital (St Mark, Billeswick)",data/sources.json
+vch-hants-vol4-wellow-gurnay,source,VCH Hampshire vol. 4 - East Wellow / Wellow Gurnay,data/sources.json
 visitations-norfolk-harleian-32,source,Visitations of Norfolk 1563/1589/1613 (Harleian Soc. 32),data/sources.json
 wace-roman-de-rou,source,"Wace, Roman de Rou",data/sources.json
 walker-lancastrian-affinity-1361-1399,source,"Walker, The Lancastrian Affinity 1361–1399",data/sources.json

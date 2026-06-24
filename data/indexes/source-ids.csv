@@ -30,6 +30,7 @@ bho-ipm-edward-iii-file31-gournay-harpetree,BHO IPM Edward III File 31 - Thomas 
 bho-ipm-edward-iii-file35-gournay-inglescombe,BHO IPM Edward III File 35 - Thomas Gournay of Inglescombe,partial,sources/corpus_supplement/bho-ipm-edward-iii-file35-gournay-inglescombe.md,,sources/validations/bho-ipm-edward-iii-file35-gournay-inglescombe.md
 bho-ipm-edward-iii-vol12-sancto-omero-mulbarton-1366,"BHO Calendar of IPM, Edward III, vol. 12 — Thomas de Sancto Omero (1366)",none,,,
 bho-ipm-henry-iv-vol19-gournay-johnv,"BHO IPM vol. 19 (Henry IV) - John Gournay (Sir John V), d.1408",none,,,sources/validations/bho-ipm-henry-iv-vol19-gournay-johnv.md
+bho-ipm-henry-vii-townshend-gurnay-feoffee,BHO IPM Henry VII - William Gurnay feoffee of Sir Roger Townshend,partial,sources/corpus_supplement/bho-ipm-henry-vii-townshend-gurnay-feoffee.md,,
 bho-ipm-vol16-index-gournay,BHO IPM vol. 16 Index - Gournay/Gurney,partial,sources/corpus_supplement/bho-ipm-vol16-index-gournay.md,,sources/validations/bho-ipm-vol16-index-gournay.md
 bho-livery-haberdashers-gournay-charity,BHO - Haberdashers' Company Gournay's Charity,partial,sources/corpus_supplement/bho-haberdashers-gournays-charity.md,,sources/validations/bho-livery-haberdashers-gournay-charity.md
 bho-london-hearth-tax-merry-2010,London Hearth Tax project database (Merry 2010),partial,sources/corpus_supplement/london-hearth-tax-1662-1666-gurney-cluster.md,sources/media/london-hearth-tax-merry-2010/London_Hearth_Tax_database.mdb,
@@ -48,6 +49,7 @@ brs-v21,BRS v21 (1642 Bucks tax),none,,,
 burke-ancient-family,"Burke, The Ancient Family of Gurney",none,,,
 burke-landed-gentry-gurney,Burke's Landed Gentry - Gurney of Maldon pedigree (tertiary),extract,sources/corpus_supplement/burke-landed-gentry-gurney-of-maldon.md,,
 bury-st-james-registers,"Bury St Edmunds, St James registers",extract,sources/corpus_supplement/bury-st-edmunds-gurney-registers-1561-1800.md,,sources/validations/bury-st-james-registers.md
+cal-cecil-papers-hatfield,"Calendar of Cecil Papers, Hatfield House",partial,sources/corpus_supplement/cecil-papers-vol18-edmund-gurnay-1606-cambridge.md,,
 calder-new-haven-colony-1934,"Calder, New Haven Colony",none,,,
 cambridge-core-camden-preface-addenda,Camden Old Series - Preface and Addenda,partial,sources/corpus_supplement/cambridge-core-camden-preface-addenda-gournay-bardolf.md,,sources/validations/cambridge-core-camden-preface-addenda.md
 candidate-d-london-context-web-bundle,Candidate D London context web bundle,none,,,sources/validations/candidate-d-london-context-web-bundle.md
@@ -324,6 +326,9 @@ unicaen-scripta-selected-gournay-acts,SCRIPTA selected Gournay acts,partial,sour
 us-census-1940,"U.S. Federal Census, 1940",none,,,
 us-public-records-1970-2009,"U.S. Public Records, 1970-2009",none,,,
 vch-bucks-v3,VCH Bucks v3 (Stewkley manors),none,,,
+vch-bucks-vol2-bledlow,VCH Buckinghamshire vol. 2 - Bledlow,none,,,sources/validations/vch-bucks-vol2-bledlow.md
+vch-glos-vol2-gaunts-hospital,"VCH Gloucestershire vol. 2 - Gaunt's Hospital (St Mark, Billeswick)",none,,,sources/validations/vch-glos-vol2-gaunts-hospital.md
+vch-hants-vol4-wellow-gurnay,VCH Hampshire vol. 4 - East Wellow / Wellow Gurnay,none,,,sources/validations/vch-hants-vol4-wellow-gurnay.md
 visitations-norfolk-harleian-32,Visitations of Norfolk 1563/1589/1613 (Harleian Soc. 32),none,,,sources/validations/visitations-norfolk-harleian-32.md
 wace-roman-de-rou,"Wace, Roman de Rou",partial,,,
 walker-lancastrian-affinity-1361-1399,"Walker, The Lancastrian Affinity 1361–1399",none,,,sources/validations/walker-lancastrian-affinity-1361-1399.md
