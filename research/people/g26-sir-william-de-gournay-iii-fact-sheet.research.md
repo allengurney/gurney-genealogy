@@ -11,6 +11,8 @@ Research companion for `g26-sir-william-de-gournay-iii-fact-sheet.md`. See `.cla
 
 His father John (G27) was making similar claims simultaneously (pp. 444, 515). The concurrent warren claims suggest both father and son were active at Hardingham in 1274, with John as the senior lord and William asserting rights on part of the estate.
 
+The direct online route is the Record Commission *Rotuli Hundredorum* volume at Internet Archive. Its OCR is noisy, so Daniel Gurney's Supplement remains the convenient quoted extract, but the online volume is a page-image control for p. 499 and the adjacent Hardingham/Harpley entries.[^rotuli-hundredorum-g26]
+
 ### Seal description — "seale manuelle" (DG-Supp Note 110)
 2026-04-18 — DG-Supp Note 110 (p. 780) clarifies that the Spelman MSS pedigree's description of William III's seal as "in an ovalle" is incorrect. Henry Gurney's own copy of the pedigree corrects this to "seale manuelle" — a portable, personal-use seal. The seal on the 1294 conveyance deed (DG-I pp. 339–341) bears the engrailed cross, making it the earliest surviving physical impression of the Gournay arms.
 
@@ -59,6 +61,9 @@ Or the Baconsthorpe identification for G26 may be a different person entirely. U
 - DG-Supp, Note 110 (p. 780): Seal = "seale manuelle," not "ovalle." [DG-Supp]
 - DG-Supp, Note 113 (p. 786): William III's warren claim in Hardingham 1274 (Rot. Hund. p. 499). [DG-Supp]
 - DG-Supp, Note 114 (p. 787): Rotuli Hundredorum references for the Gournay family. [DG-Supp]
+- Record Commission, *Rotuli Hundredorum*, vol. 1 (1812): direct online image route for the 1274 Hundred Rolls volume. [rotuli-hundredorum-record-commission-1812]
+
+[^rotuli-hundredorum-g26]: *Rotuli Hundredorum tempore Henrici III et Edwardi I*, vol. 1 (London: Record Commission, 1812), p. 499 and related Hardingham/Harpley entries; Internet Archive, https://archive.org/details/rotuli-hundredorum-volume-1. Source ID: `rotuli-hundredorum-record-commission-1812`.
 
 ---
 

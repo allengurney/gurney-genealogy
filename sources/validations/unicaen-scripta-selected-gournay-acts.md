@@ -21,6 +21,7 @@ This is a partial selected corpus, not a complete SCRIPTA harvest. It captures o
 - Act 6512 adds the London clause to Hugh's Bec gifts: whatever Hugh held of the king in London, plus Fordham, Ardleigh, and Liston rights.
 - Act 6472 requires caution: SCRIPTA's modern text reads Hugh and Gerard forms in the Gournay witness slots, not the older "William de Gornai" reading currently reflected in places in the repo.
 - Act 6538 is the modern SCRIPTA control for the Montivilliers/Cauville sale printed by Daniel Gurney.
+- Act 6538's SCRIPTA edition table corrects the Bouvris locator to Jean-Michel Bouvris, "La renaissance de l'abbaye de Montivilliers et son developpement jusqu'a la fin du XIe siecle," in *L'abbaye de Montivilliers a travers les ages* (Le Havre, 1988), pp. 17-84, with pp. 67-84 relevant to the act.
 
 ## Use notes
 

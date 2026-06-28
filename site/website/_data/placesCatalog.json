@@ -1112,207 +1112,6 @@
     "ancestorCount": 7
   },
   {
-    "placeId": "place-weymouth-massachusetts-usa",
-    "name": "Weymouth, Massachusetts, USA",
-    "title": "Great Pond",
-    "seoTitle": "Great Pond",
-    "siteName": "Great Pond",
-    "streetAddress": "",
-    "region": "Massachusetts, USA",
-    "regionGroup": "north-america",
-    "aliases": [
-      "Weymouth, MA"
-    ],
-    "shortDescription": "Ancestral landholding",
-    "longDescription": "Early Massachusetts grants in Weymouth included the East Field, Mill Field, and land near Great Pond.",
-    "placeType": "locality",
-    "extantStatus": "unknown",
-    "extantStatusDescription": "",
-    "coordinate": {
-      "lat": 42.15831,
-      "lng": -70.969252
-    },
-    "coordinatePrecision": "high",
-    "coordinateBasis": "Great Pond geolocation; other Weymouth landholdings not individually geolocated",
-    "roles": [
-      "individual geography",
-      "landholding / property reference"
-    ],
-    "imageUrl": "",
-    "imageTitle": "",
-    "siteUrl": "",
-    "siteLabel": "",
-    "researchUrl": "/research/places/weymouth-ma.html",
-    "researchSlug": "weymouth-ma",
-    "ancestorLinks": [
-      {
-        "recordId": "ancestor-g10-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G10",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1704 — before 13 Dec. 1771",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g11-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G11",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1676 — d. 1738/9",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g12-richard-gurney",
-        "type": "ancestor",
-        "gen": "G12",
-        "name": "Richard Gurney",
-        "dates": "c. 1630 England — d. Oct. 1691",
-        "role": "landholding / property reference",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g12-richard-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g12-richard-gurney",
-        "type": "ancestor",
-        "gen": "G12",
-        "name": "Richard Gurney",
-        "dates": "c. 1630 England — d. Oct. 1691",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g12-richard-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g13-john-gurney-1",
-        "type": "ancestor",
-        "gen": "G13",
-        "name": "John Gurney",
-        "dates": "b. c. 1609-12 — d. 1662/3",
-        "role": "landholding / property reference",
-        "lineageStatus": "Probable",
-        "displayLineageStatus": "Probable",
-        "url": "/fact-sheets/g13-john-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g13-john-gurney-1",
-        "type": "ancestor",
-        "gen": "G13",
-        "name": "John Gurney",
-        "dates": "b. c. 1609-12 — d. 1662/3",
-        "role": "individual geography",
-        "lineageStatus": "Probable",
-        "displayLineageStatus": "Probable",
-        "url": "/fact-sheets/g13-john-gurney-fact-sheet.html"
-      }
-    ],
-    "ancestorCount": 6
-  },
-  {
-    "placeId": "place-bridgewater-massachusetts-usa",
-    "name": "Bridgewater, Massachusetts, USA",
-    "title": "Bridgewater, Massachusetts, USA",
-    "seoTitle": "Bridgewater, Massachusetts, USA",
-    "siteName": "",
-    "streetAddress": "",
-    "region": "Massachusetts, USA",
-    "regionGroup": "north-america",
-    "aliases": [
-      "Bridgewater, MA",
-      "Bridgewater, Plymouth County, MA",
-      "Old Bridgewater",
-      "Bridgewater area",
-      "East Bridgewater line",
-      "Little Comfort boundary context"
-    ],
-    "shortDescription": "Bridgewater-area probate and landholding context",
-    "longDescription": "Bridgewater-area context for Plymouth County probate and landholding references, including John Harden of Bridgewater in the 1751 will and the older Abington/Little Comfort boundary setting.",
-    "placeType": "locality",
-    "extantStatus": "unknown",
-    "extantStatusDescription": "",
-    "coordinate": {
-      "lat": 41.9904,
-      "lng": -70.9759
-    },
-    "coordinatePrecision": "high",
-    "coordinateBasis": "town centroid",
-    "roles": [
-      "maternal family context",
-      "landholding / property reference",
-      "individual geography"
-    ],
-    "imageUrl": "",
-    "imageTitle": "",
-    "siteUrl": "",
-    "siteLabel": "",
-    "researchUrl": "/research/places/bridgewater-ma.html",
-    "researchSlug": "bridgewater-ma",
-    "ancestorLinks": [
-      {
-        "recordId": "ancestor-g9-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G9",
-        "name": "Benjamin Gurney",
-        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
-        "role": "maternal family context",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g10-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G10",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1704 — before 13 Dec. 1771",
-        "role": "landholding / property reference",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g11-benjamin-gurney",
-        "type": "ancestor",
-        "gen": "G11",
-        "name": "Benjamin Gurney",
-        "dates": "c. 1676 — d. 1738/9",
-        "role": "landholding / property reference",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g12-richard-gurney",
-        "type": "ancestor",
-        "gen": "G12",
-        "name": "Richard Gurney",
-        "dates": "c. 1630 England — d. Oct. 1691",
-        "role": "landholding / property reference",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g12-richard-gurney-fact-sheet.html"
-      },
-      {
-        "recordId": "ancestor-g8-amos-gurney",
-        "type": "ancestor",
-        "gen": "G8",
-        "name": "Amos Gurney",
-        "dates": "1770 — before 1850",
-        "role": "individual geography",
-        "lineageStatus": "Confirmed",
-        "displayLineageStatus": "",
-        "url": "/fact-sheets/g08-amos-gurney-fact-sheet.html"
-      }
-    ],
-    "ancestorCount": 5
-  },
-  {
     "placeId": "place-cummington-massachusetts-usa",
     "name": "Cummington, Massachusetts, USA",
     "title": "Dawes Cemetery",
@@ -1761,6 +1560,93 @@
     "ancestorCount": 4
   },
   {
+    "placeId": "place-bridgewater-massachusetts-usa",
+    "name": "Bridgewater, Massachusetts, USA",
+    "title": "Bridgewater, Massachusetts, USA",
+    "seoTitle": "Bridgewater, Massachusetts, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Bridgewater, MA",
+      "Bridgewater, Plymouth County, MA",
+      "Old Bridgewater",
+      "Bridgewater area",
+      "East Bridgewater line",
+      "Little Comfort boundary context"
+    ],
+    "shortDescription": "Bridgewater-area probate and landholding context",
+    "longDescription": "Bridgewater-area context for Plymouth County probate and landholding references, including John Harden of Bridgewater in the 1751 will and the older Abington/Little Comfort boundary setting.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 41.9904,
+      "lng": -70.9759
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "maternal family context",
+      "landholding / property reference",
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/bridgewater-ma.html",
+    "researchSlug": "bridgewater-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g9-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G9",
+        "name": "Benjamin Gurney",
+        "dates": "bpt. 30 May 1730 — d. 28 Sept. 1805",
+        "role": "maternal family context",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g09-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G10",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1704 — before 13 Dec. 1771",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G11",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1676 — d. 1738/9",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g8-amos-gurney",
+        "type": "ancestor",
+        "gen": "G8",
+        "name": "Amos Gurney",
+        "dates": "1770 — before 1850",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g08-amos-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 4
+  },
+  {
     "placeId": "place-flushing-queens-new-york-usa",
     "name": "Flushing, Queens, New York, USA",
     "title": "Flushing, Queens, New York, USA",
@@ -2177,6 +2063,86 @@
         "lineageStatus": "Related",
         "displayLineageStatus": "Related",
         "url": "/fact-sheets/g23-sir-john-gurney-v-related-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 4
+  },
+  {
+    "placeId": "place-weymouth-massachusetts-usa",
+    "name": "Weymouth, Massachusetts, USA",
+    "title": "Weymouth, Massachusetts, USA",
+    "seoTitle": "Weymouth, Massachusetts, USA",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Weymouth, MA"
+    ],
+    "shortDescription": "Multi-generational Gurney home town",
+    "longDescription": "South-shore town where four generations of the line lived: the emigrant John Gurney Sr. (G13) first recorded 1641, his son Richard (G12), and Richard's son and grandson Benjamin (G11, G10), both born here. Individual Gurney land grants are tracked as their own sub-places (Richard's Great Pond homestead; John Sr.'s East Field, Mill Field, and east-side-of-Great-Pond grants).",
+    "placeType": "locality",
+    "extantStatus": "town extant",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 42.218,
+      "lng": -70.94
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "town centroid",
+    "roles": [
+      "individual geography"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/weymouth-ma.html",
+    "researchSlug": "weymouth-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g10-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G10",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1704 — before 13 Dec. 1771",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g10-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g11-benjamin-gurney",
+        "type": "ancestor",
+        "gen": "G11",
+        "name": "Benjamin Gurney",
+        "dates": "c. 1676 — d. 1738/9",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g11-benjamin-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g12-richard-gurney",
+        "type": "ancestor",
+        "gen": "G12",
+        "name": "Richard Gurney",
+        "dates": "c. 1630 England — d. Oct. 1691",
+        "role": "individual geography",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g12-richard-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "type": "ancestor",
+        "gen": "G13",
+        "name": "John Gurney",
+        "dates": "b. c. 1609-12 — d. 1662/3",
+        "role": "individual geography",
+        "lineageStatus": "Probable",
+        "displayLineageStatus": "Probable",
+        "url": "/fact-sheets/g13-john-gurney-fact-sheet.html"
       }
     ],
     "ancestorCount": 4
@@ -3854,6 +3820,66 @@
     "ancestorCount": 2
   },
   {
+    "placeId": "place-gurney-homestead-great-pond-weymouth-massachusetts-usa",
+    "name": "Richard Gurney Homestead — Great Pond (west side), Weymouth, Massachusetts, USA",
+    "title": "Great Pond (west side)",
+    "seoTitle": "Great Pond (west side)",
+    "siteName": "Great Pond (west side)",
+    "streetAddress": "",
+    "region": "Weymouth, Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "West side of Great Pond, Weymouth",
+      "Richard Gurney homestead, Weymouth"
+    ],
+    "shortDescription": "Richard Gurney's 1683 grant and homestead",
+    "longDescription": "Richard Gurney's homestead. In 1683 the Weymouth town meeting voted him six acres of common land 'on the west side of Great Pond' to 'build a house & fence to dwell thereon with his family'; the dwelling and about six acres were inventoried at his death in 1691. By 1683 'Great Pond' denotes the large South Weymouth pond of that name (distinct from his father John Sr.'s earlier grants around Whitman's Pond / Fresh Pond in East Weymouth). The genealogist Jean Gurney Rigler noted a competing tradition placing the homestead 'on East Street towards Old Spain, and extending to Back River' in North Weymouth, so the precise site is unresolved.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 42.1586,
+      "lng": -70.9735
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "point on the west shore of the South Weymouth Great Pond, per the 1683 grant wording; parcel not surveyed",
+    "roles": [
+      "landholding / property reference",
+      "residence"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/gurney-homestead-great-pond-weymouth-ma.html",
+    "researchSlug": "gurney-homestead-great-pond-weymouth-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g12-richard-gurney",
+        "type": "ancestor",
+        "gen": "G12",
+        "name": "Richard Gurney",
+        "dates": "c. 1630 England — d. Oct. 1691",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g12-richard-gurney-fact-sheet.html"
+      },
+      {
+        "recordId": "ancestor-g12-richard-gurney",
+        "type": "ancestor",
+        "gen": "G12",
+        "name": "Richard Gurney",
+        "dates": "c. 1630 England — d. Oct. 1691",
+        "role": "residence",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g12-richard-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 2
+  },
+  {
     "placeId": "place-la-ferte-foundation-endowment-cluster-pays-de-bray-france",
     "name": "La Ferté foundation endowment cluster, Pays de Bray, France",
     "title": "La Ferté foundation endowment cluster, Pays de Bray, France",
@@ -4991,6 +5017,53 @@
     "ancestorCount": 1
   },
   {
+    "placeId": "place-east-field-weymouth-massachusetts-usa",
+    "name": "East Field, Weymouth, Massachusetts, USA",
+    "title": "East Field",
+    "seoTitle": "East Field",
+    "siteName": "East Field",
+    "streetAddress": "",
+    "region": "Weymouth, Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "The East Field, Weymouth"
+    ],
+    "shortDescription": "John Gurney Sr. land grant, 1651–52; parcel unlocated",
+    "longDescription": "An open-field division of early Weymouth in which John Gurney Sr. (G13) held a two-acre grant by 1642–44 (Nash, Historical Sketch of Weymouth, Appendix C, p. 258), later associated with Robert Randoll. The East Field lay in the original North/East Weymouth settlement: its lots are bounded in the records 'with the sea,' the Back River, and 'a greate pond' (Whitman's Pond), placing it east of the first settlement toward the water. The exact bounds are not established from sources to hand.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 42.23,
+      "lng": -70.938
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "general North/East Weymouth settlement area between Wessagusset and the Back River, per the field's bounding by the sea and Whitman's Pond; parcel unlocated",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/east-field-weymouth-ma.html",
+    "researchSlug": "east-field-weymouth-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "type": "ancestor",
+        "gen": "G13",
+        "name": "John Gurney",
+        "dates": "b. c. 1609-12 — d. 1662/3",
+        "role": "landholding / property reference",
+        "lineageStatus": "Probable",
+        "displayLineageStatus": "Probable",
+        "url": "/fact-sheets/g13-john-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
     "placeId": "place-essex-england",
     "name": "Essex, England",
     "title": "Essex, England",
@@ -5560,6 +5633,53 @@
     "ancestorCount": 1
   },
   {
+    "placeId": "place-mill-field-weymouth-massachusetts-usa",
+    "name": "Mill Field, Weymouth, Massachusetts, USA",
+    "title": "Mill Field",
+    "seoTitle": "Mill Field",
+    "siteName": "Mill Field",
+    "streetAddress": "",
+    "region": "Weymouth, Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "The Mill Field, Weymouth"
+    ],
+    "shortDescription": "John Gurney Sr. land grant, 1651–52; parcel unlocated",
+    "longDescription": "An open-field division of early Weymouth in which John Gurney Sr. (G13) held a four-acre grant by 1642–44, bounded east by Nicholas Norton, west by Richard Rawlings, north by John Giles, south by William Brandon (Nash, Historical Sketch of Weymouth, Appendix C, p. 278). The Mill Field lay in East Weymouth near Whitman's Pond and the early mills (the Bates Mill of 1640) and Mill River: a parallel grant to Matthew Pratt is described as 'in the mill field, now east of Weymouth' and 'on the west side of Mill River,' and another Mill Field lot is 'bounded on the East and South with Hingham Line.' The parcel's exact bounds are not established from sources to hand.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 42.205,
+      "lng": -70.93
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "general East Weymouth area near Whitman's Pond, Mill River, and the Hingham line, per neighboring Mill Field grants; parcel unlocated",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/mill-field-weymouth-ma.html",
+    "researchSlug": "mill-field-weymouth-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "type": "ancestor",
+        "gen": "G13",
+        "name": "John Gurney",
+        "dates": "b. c. 1609-12 — d. 1662/3",
+        "role": "landholding / property reference",
+        "lineageStatus": "Probable",
+        "displayLineageStatus": "Probable",
+        "url": "/fact-sheets/g13-john-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
     "placeId": "place-port-washington-new-york-usa",
     "name": "Port Washington, New York, USA",
     "title": "Port Washington, New York, USA",
@@ -5888,6 +6008,55 @@
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
         "url": "/fact-sheets/g03-lester-sawyer-gurney-iii-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-whitmans-pond-east-side-weymouth-massachusetts-usa",
+    "name": "Great Lots east of Whitman's Pond (Fresh Pond), Weymouth, Massachusetts, USA",
+    "title": "Whitman's Pond (Fresh Pond)",
+    "seoTitle": "Whitman's Pond (Fresh Pond)",
+    "siteName": "Whitman's Pond (Fresh Pond)",
+    "streetAddress": "",
+    "region": "Weymouth, Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "East side of Whitman's Pond, Weymouth",
+      "Fresh Pond, Weymouth",
+      "East side of Great Pond, Weymouth"
+    ],
+    "shortDescription": "John Gurney Sr. great lot no. 16, 1651–52",
+    "longDescription": "John Gurney Sr. (G13) was entitled to great lot no. 16 in the division ordered 2–3 February 1651–52, laid out on the east side of the pond 'next to Mrs Richards mill' and running east toward the Hingham line (Nash, Historical Sketch of Weymouth, Appendix C, p. 282). The pond is Whitman's Pond — called Fresh Pond when the town bounds were set in 1636 — in East Weymouth, near the early mills; the History of Weymouth's summary of this grant as 'east side of Great Pond' conflates it with the larger South Weymouth pond of that modern name.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 42.2055,
+      "lng": -70.928
+    },
+    "coordinatePrecision": "medium",
+    "coordinateBasis": "great-lot division east of Whitman's Pond running toward the Hingham line; John's lot no. 16 within it not individually surveyed",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/whitmans-pond-east-side-weymouth-ma.html",
+    "researchSlug": "whitmans-pond-east-side-weymouth-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "type": "ancestor",
+        "gen": "G13",
+        "name": "John Gurney",
+        "dates": "b. c. 1609-12 — d. 1662/3",
+        "role": "landholding / property reference",
+        "lineageStatus": "Probable",
+        "displayLineageStatus": "Probable",
+        "url": "/fact-sheets/g13-john-gurney-fact-sheet.html"
       }
     ],
     "ancestorCount": 1

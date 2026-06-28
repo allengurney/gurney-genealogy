@@ -175,6 +175,35 @@ class RepoSearchUnitTests(unittest.TestCase):
         self.assertNotIn("OneDrive", config["cacheRootResolved"])
         self.assertIn("GitDirs", config["cacheRootResolved"])
 
+    def test_repo_search_lock_releases(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            cache_root = Path(tmp)
+            lock_path = cache_root / repo_search.SEARCH_LOCK_NAME
+            with repo_search.acquire_repo_search_lock(cache_root, "test", max_waits=0, wait_seconds=0):
+                self.assertTrue(lock_path.exists())
+            self.assertFalse(lock_path.exists())
+
+    def test_repo_search_lock_times_out(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            cache_root = Path(tmp)
+            lock_path = cache_root / repo_search.SEARCH_LOCK_NAME
+            lock_path.write_text('{"pid": 123, "label": "existing"}\n', encoding="utf-8")
+            with self.assertRaises(SystemExit) as raised:
+                with repo_search.acquire_repo_search_lock(cache_root, "test", max_waits=0, wait_seconds=0):
+                    pass
+            message = str(raised.exception)
+            self.assertIn("repo_search is already running", message)
+            self.assertIn(str(lock_path), message)
+
+    def test_locate_tips_nudge_broad_search(self) -> None:
+        tips = repo_search.locate_followup_tips("Gurney probate", None, match_lines=6, capped=False)
+        self.assertTrue(any("broader context" in tip for tip in tips))
+        self.assertTrue(any("search --terms" in tip for tip in tips))
+
+    def test_locate_tips_source_id(self) -> None:
+        tips = repo_search.locate_followup_tips("dg-rec-pt2", None, match_lines=2, capped=False)
+        self.assertTrue(any("map --source" in tip for tip in tips))
+
     def test_locate_scratch_dir_live(self) -> None:
         if not repo_search.find_ripgrep():
             self.skipTest("ripgrep not available")

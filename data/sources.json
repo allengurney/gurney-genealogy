@@ -443,13 +443,13 @@
     "suffolk-visitations-metcalfe-1882": {
       "shortTitle": "Metcalfe, Visitations of Suffolk",
       "citation": "Metcalfe, Walter C., ed. The Visitations of Suffolk: Made by Hervey, Clarenceux, 1561, Cooke, Clarenceux, 1577, and Raven, Richmond Herald, 1612, with Notes and an Appendix of Additional Suffolk Pedigrees. Exeter: privately printed for the editor by William Pollard, 1882.",
-      "archive": "FamilySearch / HathiTrust",
+      "archive": "FamilySearch / HathiTrust / Internet Archive",
       "url": "https://www.familysearch.org/library/books/idurl/1/106650",
       "corpusStatus": "extract",
       "corpusPath": "sources/corpus_supplement/ryvett-suffolk-visitation-pedigrees-metcalfe.md",
       "mediaPath": null,
-      "validationPath": null,
-      "notes": "Heraldic visitation source for Suffolk Ryvett/Rivett pedigrees and gentry context used in the John Gurney case file. Ryvett extraction added at `sources/corpus_supplement/ryvett-suffolk-visitation-pedigrees-metcalfe.md` in June 2026."
+      "validationPath": "sources/validations/suffolk-visitations-metcalfe-1882.md",
+      "notes": "Heraldic visitation source for Suffolk Ryvett/Rivett pedigrees and gentry context used in the John Gurney case file. Ryvett extraction added at `sources/corpus_supplement/ryvett-suffolk-visitation-pedigrees-metcalfe.md` in June 2026. Rechecked 2026-06 for the West Barsham probable-Wentworth shield lead: OCR found no Gurney-Wentworth marriage; the Gurney hit was Frances Hovell/Hovell line marrying Edward Gurney of East Barsham/Barsham, Norfolk."
     },
     "davis-abel-lunt-1963": {
       "shortTitle": "Davis, Ancestry of Abel Lunt",
@@ -1515,6 +1515,28 @@
       "validationPath": null,
       "notes": "DG-I p. 293 cites Les Olim for proving the Gurneys of Swathings 'to be of the blood of the Lords of Gournay.' Key legal document linking the junior Norfolk branch to the senior baronial line."
     },
+    "rotuli-hundredorum-record-commission-1812": {
+      "shortTitle": "Rotuli Hundredorum, vol. 1",
+      "citation": "Rotuli Hundredorum tempore Henrici III et Edwardi I. Vol. 1. London: Record Commission, 1812.",
+      "archive": "Internet Archive",
+      "url": "https://archive.org/details/rotuli-hundredorum-volume-1",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/rotuli-hundredorum-record-commission-1812.md",
+      "notes": "Direct online page-image route for the 1274 Hundred Rolls volume used to control Daniel Gurney Supplement extracts on the Gournay/Gurney warren and tenure entries at Hardingham and Harpley. OCR is noisy; use page images, with DG-Supp as the convenient quoted extract."
+    },
+    "aalt-cp40-edward-i": {
+      "shortTitle": "AALT CP 40, Edward I",
+      "citation": "Anglo-American Legal Tradition (AALT), The National Archives CP 40 Common Pleas plea rolls, Edward I image sets.",
+      "archive": "AALT / University of Houston Law Center",
+      "url": "http://aalt.law.uh.edu/EdwardI.html",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/aalt-cp40-edward-i.md",
+      "notes": "AALT's Edward I page maps CP 40 plea-roll image folders by year/term. For Anderson's Harpley advowson trial-by-battle lead, cited as Placita de Banco, Norfolk, 3 Edw. I, candidate online image sets are CP40/5-6 (1274) and CP40/7-12 (1275); no searchable name/county index was found in the page structure."
+    },
     "anderson-yvery-1742": {
       "shortTitle": "Anderson, Genealogical History of the House of Yvery",
       "citation": "Anderson, James. Genealogical History of the House of Yvery: In its Different Branches of Yvery, Luvel, Perceval, and Gournay. Vol. II. London: H. Woodfall, Jun., 1742.",
@@ -1536,6 +1558,17 @@
       "mediaPath": "sources/media/anderson-yvery-1742-vol-i/",
       "validationPath": "sources/validations/anderson-yvery-1742-vol-i.md",
       "notes": "Vol. I covers the House of Yvery proper, with the Harpetre→Gournay surname-adoption material relevant to the collateral Somerset Gournays. Direct-line de Gournays of Normandy and Norfolk are treated in Vol. II (sourceId anderson-yvery-1742). Key pages: printed p. 4 (Ascelin's seven sons; John de Harpetre); p. 21 (surname progression Yvery/Gouel/Percheval/Lupus → Harpetre → Gournay); p. 39 (heraldry: sceptres saltier, then paley of six Or and Azure); p. 78 (Robert de Yvery's Somerset land cluster); pp. 191–193 (children of Ascelin and Isabella de Breteuil, including conjectural John de Yvery and Hugh de Yvery); pp. 199–200 (Stephen-period siege of Kary and Harpetre castles). Anderson died before completion; revised by William Whiston Jr. of the Exchequer. College of Arms attestation referenced in front matter."
+    },
+    "anselm-opera-schmitt": {
+      "shortTitle": "Anselm, Opera Omnia (Schmitt)",
+      "citation": "Franciscus Salesius Schmitt, ed., S. Anselmi Cantuariensis Archiepiscopi Opera Omnia, 6 vols. Edinburgh: Thomas Nelson and Sons, 1938-1961.",
+      "archive": "Internet Archive",
+      "url": "https://archive.org/details/sanselmicantuari03anse",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/anselm-opera-schmitt-gournay-basilia-locators.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/anselm-opera-schmitt.md",
+      "notes": "Critical edition of Anselm's letters and works. Vol. 3 (Internet Archive sanselmicantuari03anse) contains the Hugh de Gornaco and Basilia references in Ep. 68 and a Bec-monks salutation; vol. 5 (sanselmicantuari05anse) contains Ep. 420 addressed to Basilia. OCR locators inspected 2026-06; image text should control for final Latin quotation."
     },
     "sprague-braintree": {
       "shortTitle": "Sprague, Genealogies of Braintree",
@@ -2789,7 +2822,7 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": "sources/validations/potts-monastic-revival-regional-identity-1997.md",
-      "notes": "Modern scholarly control for the Montivilliers/Cauville transaction in SCRIPTA Act 6538. Potts pp. 42-43 treats the Cauville sale as an example of a sale later recast as ducal gift and cites Jean-Michel Bouvris, 'La renaissance de l'abbaye de Montivilliers autour de l'an mil,' in L'abbaye de Montivilliers a travers les ages (Montivilliers, 1988), pp. 67-84."
+      "notes": "Modern scholarly control for the Montivilliers/Cauville transaction in SCRIPTA Act 6538. Potts pp. 42-43 treats the Cauville sale as an example of a sale later recast as ducal gift. SCRIPTA's edition table gives the Bouvris locator as Jean-Michel Bouvris, 'La renaissance de l'abbaye de Montivilliers et son developpement jusqu'a la fin du XIe siecle,' in L'abbaye de Montivilliers a travers les ages, proceedings of the 8 March 1986 colloquium (Le Havre, 1988), pp. 17-84, especially pp. 67-84."
     },
     "histoire-chronique-normandie-1610": {
       "shortTitle": "Histoire et Chronique de Normandie (Rouen 1610)",

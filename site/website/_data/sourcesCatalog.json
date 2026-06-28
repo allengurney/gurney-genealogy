@@ -396,6 +396,18 @@
     "notes": "IPM entry mentioning land held of the demise of Thomas de Gournay of Inglescombe. Collateral/Somerset Gournay evidence."
   },
   {
+    "sourceId": "bho-ipm-henry-vii-townshend-gurnay-feoffee",
+    "shortTitle": "BHO IPM Henry VII - William Gurnay feoffee of Sir Roger Townshend",
+    "citation": "\"Inquisitions Post Mortem, Henry VII, Entries 1101-1150.\" Calendar of Inquisitions Post Mortem, Series 2, Volume 1, Henry VII (London: HMSO), pp. 469-504. British History Online.",
+    "archive": "British History Online",
+    "url": "https://www.british-history.ac.uk/inquis-post-mortem/series2-vol1/pp469-504",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/bho-ipm-henry-vii-townshend-gurnay-feoffee.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "William Gurnay, esq. (West Barsham family; most likely G19 William IV, escheator, d.1508, or his son William V) recurs as feoffee-to-uses in the IPMs of Sir Roger Townshend, knt., d. 9 Nov 1493 (9 Hen VII) - the Raynham manor 'Havyles', Helloughton, Whissonsett, Horningtoft, Gateley, and Hadleigh (Suffolk). Co-feoffees: William Pekenham (Archdeacon of Suffolk), Thomas Woodhouse, Edward Knyvet, John/Thomas Blakeney, Thomas Gygges. Primary-record evidence of the Gurney-Townshend-Heydon-Knyvet trust affinity (Townshend's wife Amy Heydon was sister to Anne Heydon, wife of G18 William V). Calendar abstract level. Surfaced via BHO full-text 'Gurnay' sweep, June 2026."
+  },
+  {
     "sourceId": "bho-ipm-vol16-index-gournay",
     "shortTitle": "BHO IPM vol. 16 Index - Gournay/Gurney",
     "citation": "\"Index of Persons and Places: G.\" Calendar of Inquisitions Post Mortem, vol. 16. British History Online.",
@@ -453,7 +465,7 @@
     "corpusPath": "",
     "mediaPath": "",
     "validationPath": "",
-    "notes": "Key parish entries: Harpley (vol. viii, pp.452–459), West Barsham (vol. vii, pp.42–47), Great Ellingham (vol. ii), Hardingham (vol. x, p. 224), Hingham (vol. ii, p. 445). Independently confirms multiple DG pedigree points. Priority corpus extraction candidate for Norfolk ancestors G20–G27. Per-parish extracts captured in `sources/corpus_supplement/` as separate files: `blomefield-norfolk-vol7-pp42-47-west-barsham.md` (West Barsham, Gurney manorial descent and 1471 will text); `blomefield-norfolk-vol7-pp53-65-east-barsham.md` (East Barsham, 1434-35 Thomas Gournay I feoffment and 1499 Earl of Oxford grant to William junior)."
+    "notes": "Key parish entries: Harpley (vol. viii, pp.452–459), West Barsham (vol. vii, pp.42–47), Great Ellingham (vol. ii), Hardingham (vol. x, p. 224), Hingham (vol. ii, p. 445). Independently confirms multiple DG pedigree points. Priority corpus extraction candidate for Norfolk ancestors G20–G27. Per-parish extracts captured in `sources/corpus_supplement/` as separate files: `blomefield-norfolk-vol7-pp42-47-west-barsham.md` (West Barsham, Gurney manorial descent and 1471 will text); `blomefield-norfolk-vol7-pp53-65-east-barsham.md` (East Barsham, 1434-35 Thomas Gournay I feoffment and 1499 Earl of Oxford grant to William junior); `blomefield-norfolk-vol10-pp221-227-hardingham-swathing.md` (Hardingham, the full 'Gurney's and Swathing's Manor' descent, Matthew de Gurnay temp. King John through the 1469 Thomas Gournay will and the Thwaytes succession)."
   },
   {
     "sourceId": "blomefield-norfolk-vol5-pp33-cringleford-berford",
@@ -574,6 +586,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Context source for the St Stephen Coleman Street / New Haven migration network cited in the John Gurney case file. Page-level extraction has not been added to the corpus."
+  },
+  {
+    "sourceId": "cal-cecil-papers-hatfield",
+    "shortTitle": "Calendar of Cecil Papers, Hatfield House",
+    "citation": "Calendar of the Cecil Papers in Hatfield House, ed. M. S. Giuseppi et al. (London: HMSO). Vol. 18 (1606), pp. 371-462, 'Cecil Papers: Miscellaneous 1605'.",
+    "archive": "British History Online",
+    "url": "https://www.british-history.ac.uk/cal-cecil-papers/vol18/pp371-462",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/cecil-papers-vol18-edmund-gurnay-1606-cambridge.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Calendar of the Hatfield House (Cecil/Salisbury) manuscripts. Holds Edmund Gurnay's 1606 letter to Robert Cecil, Earl of Salisbury, Chancellor of Cambridge, appealing his Corpus Christi College suspension under Master Thomas Jegon (brother of Bishop John Jegon of Norwich) -- primary witness to the Jegon dispute that Daniel Gurney's Record supplement narrates only secondarily. A second Edmund Gurnay entry falls in December 1602 (not yet extracted). Surfaced via BHO full-text variant search, June 2026."
   },
   {
     "sourceId": "cfr-henry-iv-1405-13",
@@ -3900,6 +3924,18 @@
     "notes": "FamilySearch public-records database covering two G3-household records. (1) Elizabeth Stettler Walker Gurney (G3's third wife; ark KPQN-KN9; household 51109209), corroborating her use of the Gurney surname after the 1995 marriage; aliases Elizabeth S Gurney / Elizabeth Walker Gurney / Elizabeth S Walker; birth date given as 18 Jun 1918 (the obituary gives 8 June 1918 — a ten-day variance noted on the G3 research companion); residence trail Chatham, NJ 07928 (Sep 1993-Nov 2000) then Hackettstown, NJ 07840 (Nov 1996-Oct 2005). (2) Lester L Gurney (G3 himself; ark KPQN-KNR; household 51109233; b. 10 Jun 1923), tracing his New Jersey residences: Chatham, NJ 07928 (Feb 1975-Nov 1999) then Hackettstown, NJ 07840 (Feb 1997-Oct 2006). Indexed records (accessed 21 November 2019 per the FamilySearch citation)."
   },
   {
+    "sourceId": "vch-bucks-vol2-bledlow",
+    "shortTitle": "VCH Buckinghamshire vol. 2 - Bledlow",
+    "citation": "\"The parishes of Risborough hundred: Bledlow.\" A History of the County of Buckingham, Volume 2 (London: VCH, 1908), pp. 247-253. British History Online.",
+    "archive": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/bucks/vol2/pp247-253",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/vch-bucks-vol2-bledlow.md",
+    "notes": "Bledlow manor: granted by Henry II to Hugh de Gurnay before 1177; exchanged 1198 to Bec-Hellouin abbey; retained tenements to his daughter Juliana (m. William Bardolf), who with her husband sought recovery from the Abbot of Bec in 1285-6; Bardolf rents to the early 15th c. Adds the Bec-exchange + recovery specifics to the known Juliana-de-Gournay/Bardolf descent. Senior line. Surfaced via BHO full-text 'Gurnay' sweep, June 2026 (lead L-177)."
+  },
+  {
     "sourceId": "vch-bucks-v3",
     "shortTitle": "VCH Bucks v3 (Stewkley manors)",
     "citation": "Victoria County History: A History of the County of Buckingham, vol. 3.",
@@ -3910,6 +3946,30 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Stewkley manors. Used in Candidate A analysis."
+  },
+  {
+    "sourceId": "vch-glos-vol2-gaunts-hospital",
+    "shortTitle": "VCH Gloucestershire vol. 2 - Gaunt's Hospital (St Mark, Billeswick)",
+    "citation": "\"Hospitals: St Mark, Billeswick, called Gaunt's Hospital.\" A History of the County of Gloucester, Volume 2 (London: VCH, 1907), pp. 114-118. British History Online.",
+    "archive": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/glos/vol2/pp114-118",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/vch-glos-vol2-gaunts-hospital.md",
+    "notes": "St Mark / Gaunt's Hospital, Bristol: Maurice de Gaunt (great-grandson of Robert Fitzharding) built the Billeswick almonry under St Augustine's; after his death 30 Apr 1230 his nephew and heir Robert de Gurnay confirmed it and refounded it as an independent hospital (master + 3 chaplains). No Richard de Gournay named. Adjudicates the Rudder (Richard) vs Pettigrew (Robert) founder conflict toward Robert de Gurnay as refounder, Maurice de Gaunt as original almonry founder. Collateral/West-Country Gournay. Surfaced via BHO full-text 'Gurnay' sweep, June 2026."
+  },
+  {
+    "sourceId": "vch-hants-vol4-wellow-gurnay",
+    "shortTitle": "VCH Hampshire vol. 4 - East Wellow / Wellow Gurnay",
+    "citation": "\"Parishes: East Wellow with Dunwood and Embley.\" A History of the County of Hampshire, Volume 4 (London: VCH, 1911), pp. 535-540. British History Online.",
+    "archive": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/hants/vol4/pp535-540",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/vch-hants-vol4-wellow-gurnay.md",
+    "notes": "West Wellow manor 'Wellow Gurnay': Robert de Gurnay held a quarter-fee c.1240, died 1269; manor passed with Hyde in South Damerham to his grandson John; settled 1296 on John ap Adam (John de Badeham) and Elizabeth his wife - the Hampshire limb of the Somerset Robert->John->Elizabeth->ap Adam transmission. Collateral/senior-line, not direct Norfolk. Surfaced via BHO full-text 'Gurnay' sweep, June 2026 (lead L-176)."
   },
   {
     "sourceId": "visitations-norfolk-harleian-32",

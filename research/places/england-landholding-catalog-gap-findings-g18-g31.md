@@ -217,6 +217,7 @@ The second online pass improved the evidence most for **Hellesdon**, **Pockthorp
 - **Status:** C/D — Probably collateral Rector John, not G25 John III.
 - **Ancestor(s):** G25 John de Gournay III only as a possible but uncertain attribution.
 - **Relationship:** G25's companion records a 1314 Escheat Roll entry naming John de Gurnay as feoffee of Bardolf baronial properties, including Winburgh/Quineborghe in Norfolk and Stoke Bardolf/Okebrook outside Norfolk. The companion says the date fits either G25 John III or Rector John, but Rector John is more likely as the more prominent John at that date.[^g25-bardolf]
+- **Online-route update:** The standard printed *Calendar of Inquisitions Post Mortem*, Edward II vol. 5, is online, but a target check did not locate this feoffment there. Keep the live path as Escheat Rolls 7 Edward II / Dodsworth MS 57 via DG-Supp rather than as a simple IPM-calendar pull.[^g25-bardolf]
 - **Phase 1 implication:** Hold out of Phase 1 catalog patch unless the primary Escheat Roll clarifies attribution.
 
 ### Dore Abbey, Herefordshire — G28 charter-witness context, not landholding
@@ -325,7 +326,7 @@ These complement the **1405 Little Cressingham Robert Gurnay fine** (Part II ent
 
 [^g22-cressingham]: `research/people/g22-robert-gournay-fact-sheet.research.md`, "Earliest Norfolk Robert Gurnay in G22's floruit window -- 1405 Cressingham-Parva fine." Underlying source: Blomefield, *History of Norfolk*, vol. vi, Little Cressingham entry.
 
-[^g25-bardolf]: `research/people/g25-john-de-gournay-iii-fact-sheet.research.md`, "Norfolk feodary -- Swathings under Bardolf" and 1314 Escheat Roll feoffment notes. Underlying source: DG-Supp Note 115; Escheat Rolls 7 Edward II; Dodsworth MS. 57.
+[^g25-bardolf]: `research/people/g25-john-de-gournay-iii-fact-sheet.research.md`, "Norfolk feodary -- Swathings under Bardolf" and 1314 Escheat Roll feoffment notes. Underlying source: DG-Supp Note 115; Escheat Rolls 7 Edward II; Dodsworth MS. 57. Online check: *Calendar of Inquisitions Post Mortem*, Edward II, vol. 5 (London: HMSO, 1908), Internet Archive, https://archive.org/details/cu31924011387838, did not surface the target feoffment.
 
 [^g28-dore]: `research/people/g28-william-de-gournay-ii-fact-sheet.research.md`, "Clifford charter witness, 1220 (DG-Supp Note 111)." Underlying sources: Dodsworth MS. 42; Dugdale, *Monasticon Anglicanum*, vol. V, p. 555.
 

@@ -5,6 +5,21 @@ keeping raw result volume out of an AI conversation. It is AI-agnostic and
 specific to this repository's ancestors, places, topics, sources, research,
 leads, citations, corpus files, and intake history.
 
+## Agent quickstart
+
+Choose the command by task shape:
+
+| Need | Use | Next step |
+|---|---|---|
+| Broad subject/source/place context | `search --ancestor G13 --terms ...`, `search --source <id> --terms ...`, or `map --ancestor/--place/--source ...` | Read the manifest, then `expand <search-id> --volume 01`. |
+| Whole registered source package | `map --source <sourceId>` | Check corpus, validation, media, and citing-path results before source-evidence conclusions. |
+| Exact edit anchor or known string | `locate "known string" --context 3` | Use the returned `path:line` for the edit block. |
+| Scratch/tmp bulk triage | `locate <term> --path <dir> --context 1` | This searches live bytes outside the normal repo index. |
+| Continue prior staged work | `runs`, then `resume <search-id>` or `expand <search-id> ...` | Avoid rerunning broad searches when a saved package already exists. |
+
+Do not read `repo_search_DESIGN.md` for routine research. Use it only when
+changing or auditing the search tool itself.
+
 ## Core guarantee
 
 Search and presentation are separate:
@@ -136,6 +151,12 @@ canonical in `place-ids.csv`.
 ## Index maintenance
 
 Every search refreshes changed files automatically.
+
+`search`, `map`, `index`, and `clean` use a simple cache-level lock so that one
+repo-search command owns the shared SQLite/package cache at a time. A second
+command waits twelve times in 5-second intervals; if the lock is still present,
+it exits with the lock path and the recorded command metadata. `locate`,
+`runs`, `resume`, and `expand` stay lightweight and do not take this queue lock.
 
 ```powershell
 .\.venv\Scripts\python.exe tools\repo_search.py index --status

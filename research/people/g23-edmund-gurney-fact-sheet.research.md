@@ -116,7 +116,7 @@ The 1370s "John de Gournay" knight entries — and in particular the 1370 captai
 
 ## Open Questions
 
-1. **West Barsham flagstone (Daniel Gurney, *Record*, Part I, p. 408):** Daniel Gurney thought it memorialises Edmund rather than William V. Is the stone still in the church, and whose is it? (Lead L-172.)
+1. **West Barsham flagstone (Daniel Gurney, *Record*, Part I, p. 408):** Daniel Gurney thought it memorialises Edmund rather than William V. The online route is only partial: the Norfolk Churches West Barsham page gives useful current church photographs and site access context, but open web searches for the flagstone under stone/ledger/floor slab/brass/memorial-inscription terms have not surfaced a transcription or close image identifying the stone. The remaining work is an interior/floor-image or local-church/parish inquiry, not another general web search.[^west-barsham-flagstone-route]
 2. **Harleian MS 10, fol. 144 — the Dewes 1637 copy of Edmund's will:** Is it among the British Library's digitised manuscripts? A page image would allow a fresh transcription against Daniel Gurney's printed text. (Lead L-173.)
 3. **The restitution clause:** Was a "make amends to anyone I wronged" clause unusual for Norfolk wills of the 1380s, or a standard provision?
 4. **TNA C61/104, m. 7 (1394):** A direct pull of the Gascon Roll entry would capture the full Latin clause and any kinsman named alongside Sir John Gurney V — background detail, not essential.
@@ -135,6 +135,8 @@ The Wansey/Wauncy pedigree lead preserves a close but partly conflicting collate
 | West Barsham flagstone | Traditionally attributed to William Gurnay V | *Supplement* Note 118: "I think it likely the flag stone … was in memory of this Edmund Gurnay" | Daniel Gurney favours the Edmund attribution. Not definitively resolved (Lead L-172). |
 | Sir John d. 1408 death year | Blomefield: 1407 | *Supplement* Note 121 (IPM): 1408 | **IPM corrects Blomefield.** Day is 4 December (History of Parliament, from the writ) or 5 December (Daniel Gurney's reading of the inquisition). |
 | Sir John Gurney's wife | History of Parliament + 1384 Husting will + 1395–96 feet of fines: Alice Heylesdon | Wansey pedigree: Alice Bavard | **Resolved: Alice Heylesdon.** Primary records (the Heylesdon will naming daughter Alice; fines of "John Gournay and Alice his wife" for the Heylesdon and Drayton manors) confirm Heylesdon; "Bavard" is a Wansey-pedigree error. |
+
+[^west-barsham-flagstone-route]: Norfolk Churches, ["West Barsham, St Mary,"](http://www.norfolkchurches.co.uk/westbarsham/westbarsham.htm) current church-photo route; discovery pass, 2026-06, also searched West Barsham + Gurney/Gourney/Gournay + flagstone, ledger stone, floor slab, brass, and memorial inscriptions without finding an online transcription or close image for Daniel Gurney's disputed Edmund/William flagstone.
 
 ---
 

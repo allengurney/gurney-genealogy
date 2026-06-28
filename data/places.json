@@ -424,10 +424,6 @@
         "role": "landholding / property reference"
       },
       {
-        "recordId": "ancestor-g12-richard-gurney",
-        "role": "landholding / property reference"
-      },
-      {
         "recordId": "ancestor-g8-amos-gurney",
         "role": "individual geography"
       }
@@ -2193,16 +2189,15 @@
     "aliases": [
       "Weymouth, MA"
     ],
-    "shortDescription": "Ancestral landholding",
+    "shortDescription": "Multi-generational Gurney home town",
     "placeType": "locality",
     "coordinate": {
-      "lat": 42.15831,
-      "lng": -70.969252
+      "lat": 42.218,
+      "lng": -70.94
     },
-    "coordinatePrecision": "high",
+    "coordinatePrecision": "low",
     "roles": [
-      "individual geography",
-      "landholding / property reference"
+      "individual geography"
     ],
     "ancestorLinks": [
       {
@@ -2215,15 +2210,7 @@
       },
       {
         "recordId": "ancestor-g12-richard-gurney",
-        "role": "landholding / property reference"
-      },
-      {
-        "recordId": "ancestor-g12-richard-gurney",
         "role": "individual geography"
-      },
-      {
-        "recordId": "ancestor-g13-john-gurney-1",
-        "role": "landholding / property reference"
       },
       {
         "recordId": "ancestor-g13-john-gurney-1",
@@ -2231,6 +2218,110 @@
       }
     ],
     "filename": "weymouth-ma.md"
+  },
+  {
+    "placeId": "place-gurney-homestead-great-pond-weymouth-massachusetts-usa",
+    "name": "Richard Gurney Homestead — Great Pond (west side), Weymouth, Massachusetts, USA",
+    "aliases": [
+      "West side of Great Pond, Weymouth",
+      "Richard Gurney homestead, Weymouth"
+    ],
+    "shortDescription": "Richard Gurney's 1683 grant and homestead",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 42.1586,
+      "lng": -70.9735
+    },
+    "coordinatePrecision": "medium",
+    "roles": [
+      "landholding / property reference",
+      "residence"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g12-richard-gurney",
+        "role": "landholding / property reference"
+      },
+      {
+        "recordId": "ancestor-g12-richard-gurney",
+        "role": "residence"
+      }
+    ],
+    "filename": "gurney-homestead-great-pond-weymouth-ma.md"
+  },
+  {
+    "placeId": "place-whitmans-pond-east-side-weymouth-massachusetts-usa",
+    "name": "Great Lots east of Whitman's Pond (Fresh Pond), Weymouth, Massachusetts, USA",
+    "aliases": [
+      "East side of Whitman's Pond, Weymouth",
+      "Fresh Pond, Weymouth",
+      "East side of Great Pond, Weymouth"
+    ],
+    "shortDescription": "John Gurney Sr. great lot no. 16, 1651–52",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 42.2055,
+      "lng": -70.928
+    },
+    "coordinatePrecision": "medium",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "whitmans-pond-east-side-weymouth-ma.md"
+  },
+  {
+    "placeId": "place-east-field-weymouth-massachusetts-usa",
+    "name": "East Field, Weymouth, Massachusetts, USA",
+    "aliases": [
+      "The East Field, Weymouth"
+    ],
+    "shortDescription": "John Gurney Sr. land grant, 1651–52; parcel unlocated",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 42.23,
+      "lng": -70.938
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "east-field-weymouth-ma.md"
+  },
+  {
+    "placeId": "place-mill-field-weymouth-massachusetts-usa",
+    "name": "Mill Field, Weymouth, Massachusetts, USA",
+    "aliases": [
+      "The Mill Field, Weymouth"
+    ],
+    "shortDescription": "John Gurney Sr. land grant, 1651–52; parcel unlocated",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 42.205,
+      "lng": -70.93
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "mill-field-weymouth-ma.md"
   },
   {
     "placeId": "place-billerica-massachusetts-usa",

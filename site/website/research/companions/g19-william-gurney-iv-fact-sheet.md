@@ -20,6 +20,14 @@ Research notes for `g19-william-gurney-iv-fact-sheet.md`. See `.claude/rules/res
 
 **Significance:** The Yorkist alignment explains the family's comfortable position under Edward IV and the early Tudors. Lord Scales (Anthony Woodville, 2nd Earl Rivers) was brother-in-law to Edward IV. Being trusted as a feoffee for Scales estates is a high-status Yorkist connection.
 
+### Townshend feoffee, 1493 (Calendar of Inquisitions Post Mortem, Henry VII)
+
+William Gurnay, esq., recurs as a feoffee-to-uses (trustee) throughout the estate of **Sir Roger Townshend, knight**, of Raynham, in Townshend's inquisitions post mortem; Townshend died 9 November, 9 Henry VII (1493), and the trust was still live at his death. The lands William helped hold to the family's use include the Townshend manor called "Havyles" in East, West, and South Raynham, with Helloughton, Toftes, Oxwick, Whissonsett, Horningtoft, and Gateley, and a messuage and land at Hadleigh in Suffolk. His co-feoffees are the top tier of late-fifteenth-century Norfolk society and church: William Pekenham, Archdeacon of Suffolk, Thomas Woodhouse, Edward Knyvet, John and Thomas Blakeney, Thomas Gygges, gent., Edmund Harberd (clerk), William Wayte, and John Pegeon.[^townshend-feoffee-1493]
+
+This puts the West Barsham line inside the Townshend–Heydon–Knyvet–Blakeney trust circle at primary-record level. The same affinity is documented on the marriage side: Sir Roger Townshend's wife Amy Heydon was the sister of Anne Heydon, wife of William IV's son William Gurney V (G18). The calendar abstract gives the family forename as "William Gurnay, esq." without a distinguishing descriptor — most economically William IV himself (the family head and escheator), though his same-named son William V was also living in 1493.[^townshend-feoffee-1493]
+
+[^townshend-feoffee-1493]: "Inquisitions Post Mortem, Henry VII, Entries 1101–1150," in *Calendar of Inquisitions Post Mortem: Series 2, Volume 1, Henry VII* (London: HMSO), pp. 469–504, British History Online, https://www.british-history.ac.uk/inquis-post-mortem/series2-vol1/pp469-504. William Gurnay, esq., named as feoffee in the IPMs of Sir Roger Townshend, knt. (d. 9 Nov. 1493); verbatim extracts and co-feoffee list at `sources/corpus_supplement/bho-ipm-henry-vii-townshend-gurnay-feoffee.md`. Surfaced via a BHO full-text "Gurnay" sweep, June 2026. Source ID: `bho-ipm-henry-vii-townshend-gurnay-feoffee`.
+
 ### Calthorpe residence — Pockthorpe (DG-Supp Note 131)
 2026-04-18 — DG-Supp Note 131 (p. 817) identifies the Calthorpe manor house in Pockthorpe as "the same as that afterwards inhabited by the Blennerhassets, and called Hassets' Hall" (Blomefield vol. iv, p. 428). DG adds: "I think it likely William Gurney had resided in this same manor house in Pockthorpe, called the Lathes, before the Calthorpes, or with them, having married a Calthorpe."
 

@@ -1,4 +1,5 @@
 sourceId,shortTitle,corpusStatus,corpusPath,mediaPath,validationPath
+aalt-cp40-edward-i,"AALT CP 40, Edward I",none,,,sources/validations/aalt-cp40-edward-i.md
 abington-vr-1850-vol1,"Abington Vital Records to 1850, vol. 1",partial,,,sources/validations/benjamin-gurney-harden-research-tables-2026-04.md
 accessgenealogy-lysander-franklin-gurney,"AccessGenealogy, Lysander Franklin Gurney",none,,,sources/validations/accessgenealogy-lysander-franklin-gurney.md
 acl-robert-gurney-will-1625,Archdeaconry Court of London - Robert Gurney will (1625),partial,sources/corpus_supplement/robert-gurney-1625-will-full-working-transcription.md,sources/media/acl-robert-gurney-will-1625,sources/validations/acl-robert-gurney-will-1625.md
@@ -12,6 +13,7 @@ anderson-great-migration-begins-v1-baxter,"Anderson, Great Migration Begins vol.
 anderson-new-englands-generation-1991,"Anderson, New England's Generation",none,,,
 anderson-yvery-1742,"Anderson, Genealogical History of the House of Yvery",full,sources/corpus/agenealogical-history-gournay-extract.md,,
 anderson-yvery-1742-vol-i,"Anderson, Genealogical History of the House of Yvery, Vol. I",partial,sources/corpus/anderson-yvery-1742-vol-i-extract.md,sources/media/anderson-yvery-1742-vol-i/,sources/validations/anderson-yvery-1742-vol-i.md
+anselm-opera-schmitt,"Anselm, Opera Omnia (Schmitt)",partial,sources/corpus_supplement/anselm-opera-schmitt-gournay-basilia-locators.md,,sources/validations/anselm-opera-schmitt.md
 arber-stationers-bsoc-petition-1646-hunscott,"Hunscott - Humble Petition and Information, 1646 (Wing H3728)",partial,,,sources/validations/arber-stationers-bsoc-petition-1646-hunscott.md
 arber-stationers-registers-1554-1640-deferred,Arber - Transcript of the Registers of the Stationers' Company 1554-1640 (deferred),deferred,,,sources/validations/arber-stationers-registers-1554-1640-deferred.md
 archiuk-attleborough-nr17-domesday-search,ARCHI UK - NR17 local-history search,partial,sources/corpus_supplement/archiuk-attleborough-nr17-domesday-search.md,,sources/validations/archiuk-attleborough-nr17-domesday-search.md
@@ -289,6 +291,7 @@ rollco-drapers-gurney-old-change-cluster,ROLLCO Drapers - Robert and John Gurney
 rollco-other-companies-gurney-1573-1653,"ROLLCO - Gurney events in Clothworkers, Tallow Chandlers, Mercers (1573-1653)",full,sources/corpus_supplement/rollco-other-companies-gurney-1573-1653.md,,sources/validations/rollco-other-companies-gurney-1573-1653.md
 rollco-stationers-gurney-1613-1626,ROLLCO Stationers - John Gurney 1613 binding and Robert Gurney 1616-1626 apprenticeship sequence,partial,sources/corpus_supplement/rollco-stationers-gurney-1613-1626.md,,sources/validations/rollco-stationers-gurney-1613-1626.md
 rollco-stationers-hunscott-cluster,ROLLCO Stationers - Joseph Hunscott cluster,partial,sources/corpus_supplement/rollco-stationers-hunscott-cluster.md,,sources/validations/rollco-stationers-hunscott-cluster.md
+rotuli-hundredorum-record-commission-1812,"Rotuli Hundredorum, vol. 1",none,,,sources/validations/rotuli-hundredorum-record-commission-1812.md
 rudder-gloucestershire-1779,"Rudder, A New History of Gloucestershire (1779)",supplement,sources/corpus_supplement/rudder-gloucestershire-1779-gurney-extracts.md,,sources/validations/rudder-gloucestershire-1779.md
 rye-feet-of-fines-norfolk,"Rye, Short Calendar of the Feet of Fines for Norfolk (Parts I-II)",extract,sources/corpus/rye-feet-of-fines-norfolk-part2.txt,,sources/validations/rye-feet-of-fines-norfolk.md
 rye-index-rerum-norfolk-antiquities-1910,"Index Rerum to Norfolk Antiquities (Rye, 1910)",partial,,,sources/validations/rye-index-rerum-norfolk-antiquities-1910.md
@@ -306,7 +309,7 @@ stirnet-gurney-pedigree,Stirnet -- Pedigree of the Gournays of Norfolk,none,,,
 suffolk-deeds-liber-12-1902,"Suffolk Deeds, Liber XII (1902)",supplement,sources/corpus_supplement/suffolk-deeds-liber-xii-gurnell-dorchester.md,,sources/validations/suffolk-deeds-liber-12-1902.md
 suffolk-deeds-liber-iv-1888,"Suffolk Deeds, Liber IV (1888)",partial,sources/corpus_supplement/suffolk-deeds-liber-iv-1888-gurney-extracts.md,,sources/validations/suffolk-deeds-liber-iv-1888.md
 suffolk-probate-index-v2-1895,"Suffolk Probate Index, vol. 2",none,,,sources/validations/suffolk-probate-index-v2-1895.md
-suffolk-visitations-metcalfe-1882,"Metcalfe, Visitations of Suffolk",extract,sources/corpus_supplement/ryvett-suffolk-visitation-pedigrees-metcalfe.md,,
+suffolk-visitations-metcalfe-1882,"Metcalfe, Visitations of Suffolk",extract,sources/corpus_supplement/ryvett-suffolk-visitation-pedigrees-metcalfe.md,,sources/validations/suffolk-visitations-metcalfe-1882.md
 suger-vie-louis-le-gros,"Suger, Vie de Louis le Gros",external,,,
 swann-chethams-library-ms-a4-15-2016,"Swann, Chetham's Library MS A.4.15",partial,sources/corpus_supplement/jnr-chethams-library-ms-a4-15-henry-gurney.md,,sources/validations/swann-chethams-library-ms-a4-15-2016.md
 tag-10-70,"Holman, Grissell of the Many Marriages",none,,,

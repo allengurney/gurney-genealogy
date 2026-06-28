@@ -746,9 +746,9 @@
     "geography": "Weymouth, MA",
     "eraId": "era-massachusetts-farming-generations",
     "lineageStatus": "Confirmed",
-    "summary": "Brought to Massachusetts as a small child by his emigrant father John Gurney-1; one of the early proprietors of Weymouth from before 1642; lost his brother John at the Mendon massacre in the opening violence of King Philip's War, 1675.",
-    "notables": "Held Weymouth lands from before 1642–44 — \"in the East field,\" \"in the mill field,\" and \"on the east side of Great Pond\" (*History of Weymouth*) — and in 1683 the town meeting voted him 6 acres on the west side of Great Pond \"to build a house & fence\" (Hist. of Weymouth, p. 251). Admitted Freeman of Massachusetts Bay, 12 Oct. 1681 — requiring formal church membership, with the franchise it conferred. Married Rebecca Taylor (named in her father's will, proved 1688). His brother John Gurney was among the dead at the Mendon massacre, 14 July 1675 — the opening violence of King Philip's War — and a second brother, Peter, a soldier, was killed in the war in 1676; both were sons of the emigrant John Gurney-1, not Richard's children. Died intestate by 27 Oct. 1691, when administration was granted at Boston to sons Zachariah and Richard, the eldest son John declining. The Plymouth County land that anchored his grandson Benjamin G11 on the Abington–Bridgewater line was likely an inherited piece of John Gurney-1's New England estate, channelled through Richard.",
-    "landHoldings": "• Lands granted in Weymouth before 1642–44: 'in the East field,' 'in the mill field,' 'on the east side of Great Pond' (Hist. of Weymouth). • Town Common grant: 6 acres west side of the Pond voted by Weymouth town meeting, 1683, to 'build a house & fence' (Hist. of Weymouth, p.251). • Land at Braintree on Abington-Bridgewater line passed to son Benjamin (Gen.11) — likely inherited from John Gurney-1.",
+    "summary": "Brought to Massachusetts as a small child by his emigrant father John Gurney-1; a settled Weymouth householder granted six acres of town common land in 1683; lost his brother John at the Mendon massacre in the opening violence of King Philip's War, 1675.",
+    "notables": "In 1683 the Weymouth town meeting voted Richard 6 acres on the west side of Great Pond \"to build a house & fence\" (Hist. of Weymouth, p. 251) — the homestead recorded at his death as \"a dwelling house & barne with about six acres of land adjoyning.\" The earlier \"East field,\" \"mill field,\" and \"east side of Great Pond\" grants (3 Feb. 1651–52, later regranted to others) were made to his father, John Gurney Sr., not to Richard. Admitted Freeman of Massachusetts Bay, 12 Oct. 1681 — requiring formal church membership, with the franchise it conferred. Married Rebecca Taylor (named in her father's will, proved 1688). His brother John Gurney was among the dead at the Mendon massacre, 14 July 1675 — the opening violence of King Philip's War — and a second brother, Peter, a soldier, was killed in the war in 1676; both were sons of the emigrant John Gurney-1, not Richard's children. Died intestate by 27 Oct. 1691, when administration was granted at Boston to sons Zachariah and Richard, the eldest son John declining. His son Benjamin (G11) carried the line south to the Abington–Bridgewater farms and Middleboro.",
+    "landHoldings": "• Town Common grant: 6 acres on the west side of Great Pond voted by Weymouth town meeting, 1683, to 'build a house & fence' (Hist. of Weymouth, p.251); the homestead inventoried at his death as 'a dwelling house & barne with about six acres of land adjoyning' (Suffolk Co. Probate, reg. vol. 21, p. 294). • The earlier 'East field / mill field / east side of Great Pond' grants (3 Feb. 1651–52, later regranted to others) were his father John Gurney Sr.'s, not Richard's (Hist. of Weymouth, John Gurney Sr. entry).",
     "spouses": [
       {
         "name": "Rebecca Taylor",
@@ -796,8 +796,8 @@
     ],
     "recordId": "ancestor-g12-richard-gurney",
     "placeRefs": [
-      "place-bridgewater-massachusetts-usa",
-      "place-weymouth-massachusetts-usa"
+      "place-weymouth-massachusetts-usa",
+      "place-gurney-homestead-great-pond-weymouth-massachusetts-usa"
     ]
   },
   {
@@ -896,7 +896,10 @@
       "place-east-dereham-norfolk-england",
       "place-mendon-massachusetts-usa",
       "place-weymouth-massachusetts-usa",
-      "place-billerica-massachusetts-usa"
+      "place-billerica-massachusetts-usa",
+      "place-whitmans-pond-east-side-weymouth-massachusetts-usa",
+      "place-east-field-weymouth-massachusetts-usa",
+      "place-mill-field-weymouth-massachusetts-usa"
     ]
   },
   {

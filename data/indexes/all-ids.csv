@@ -88,6 +88,7 @@ place-cottentray-avesnes-en-bray-normandy-france,place,"Cottentray (Avesnes-en-B
 place-cummington-massachusetts-usa,place,"Cummington, Massachusetts, USA",data/places.json
 place-dexter-michigan-usa,place,"Dexter, Michigan, USA",data/places.json
 place-east-dereham-norfolk-england,place,"East Dereham, Norfolk, England",data/places.json
+place-east-field-weymouth-massachusetts-usa,place,"East Field, Weymouth, Massachusetts, USA",data/places.json
 place-essex-england,place,"Essex, England",data/places.json
 place-flegg-norfolk-england,place,"Flegg, Norfolk, England",data/places.json
 place-flushing-queens-new-york-usa,place,"Flushing, Queens, New York, USA",data/places.json
@@ -98,6 +99,7 @@ place-gaillefontaine-castle-domain-normandy-france,place,"Gaillefontaine castle 
 place-gournay-fortifications-tour-du-rempart-normandy-france,place,"Gournay fortifications / Tour du Rempart, Gournay-en-Bray, Normandy, France",data/places.json
 place-gournay-en-bray-normandy-france,place,"Gournay-en-Bray, Normandy, France",data/places.json
 place-great-ellingham-norfolk-england,place,"Great Ellingham, Norfolk, England",data/places.json
+place-whitmans-pond-east-side-weymouth-massachusetts-usa,place,"Great Lots east of Whitman's Pond (Fresh Pond), Weymouth, Massachusetts, USA",data/places.json
 place-gurneys-manor-hingham-norfolk-england,place,"Gurney's Manor, Hingham, Norfolk, England",data/places.json
 place-hackettstown-new-jersey-usa,place,"Hackettstown, New Jersey, USA",data/places.json
 place-hardingham-norfolk-england,place,"Hardingham, Norfolk, England",data/places.json
@@ -116,6 +118,7 @@ place-abington-whitman-line-massachusetts-usa,place,"Little Comfort / Abington-B
 place-marion-indiana-usa,place,"Marion, Indiana, USA",data/places.json
 place-mendon-massachusetts-usa,place,"Mendon, Massachusetts, USA",data/places.json
 place-middleborough-massachusetts-usa,place,"Middleborough, Massachusetts, USA",data/places.json
+place-mill-field-weymouth-massachusetts-usa,place,"Mill Field, Weymouth, Massachusetts, USA",data/places.json
 place-montigny-sur-andelle-normandy-france,place,"Montigny-sur-Andelle, Normandy, France",data/places.json
 place-new-york-metropolitan-area-usa,place,"New York metropolitan area, USA",data/places.json
 place-norfolk-england,place,"Norfolk, England",data/places.json
@@ -127,6 +130,7 @@ place-pays-de-bray-normandy-picardy-france,place,"Pays de Bray, Normandy / Picar
 place-port-washington-new-york-usa,place,"Port Washington, New York, USA",data/places.json
 place-portland-oregon-usa,place,"Portland, Oregon, USA",data/places.json
 place-priory-saint-pierre-saint-paul-la-ferte-en-bray-normandy-france,place,"Priory / Church of Saint-Pierre-et-Saint-Paul, La Ferté-en-Bray, Normandy, France",data/places.json
+place-gurney-homestead-great-pond-weymouth-massachusetts-usa,place,"Richard Gurney Homestead — Great Pond (west side), Weymouth, Massachusetts, USA",data/places.json
 place-rochester-massachusetts-usa,place,"Rochester, Massachusetts, USA",data/places.json
 place-runhall-norfolk-england,place,"Runhall, Norfolk, England",data/places.json
 place-saxthorpe-norfolk-england,place,"Saxthorpe, Norfolk, England",data/places.json
@@ -141,6 +145,7 @@ place-weymouth-massachusetts-usa,place,"Weymouth, Massachusetts, USA",data/place
 place-ecouche-normandy-france,place,"Écouché, Normandy, France",data/places.json
 place-fry-eglise-saint-martin-normandy-france,place,"Église Saint-Martin, Fry, Normandy, France",data/places.json
 complete-history-england-1706-v1,source,"A Complete History of England, vol. 1 (1706)",data/sources.json
+aalt-cp40-edward-i,source,"AALT CP 40, Edward I",data/sources.json
 abington-vr-1850-vol1,source,"Abington Vital Records to 1850, vol. 1",data/sources.json
 accessgenealogy-lysander-franklin-gurney,source,"AccessGenealogy, Lysander Franklin Gurney",data/sources.json
 actors-fund-of-america-history,source,Actors' Fund of America history (Wikipedia; NYU finding aid),data/sources.json
@@ -153,6 +158,7 @@ anderson-yvery-1742-vol-i,source,"Anderson, Genealogical History of the House of
 anderson-great-migration-begins-v1-baxter,source,"Anderson, Great Migration Begins vol. 1 - Gregory Baxter",data/sources.json
 anderson-gmd-2015,source,"Anderson, Great Migration Directory",data/sources.json
 anderson-new-englands-generation-1991,source,"Anderson, New England's Generation",data/sources.json
+anselm-opera-schmitt,source,"Anselm, Opera Omnia (Schmitt)",data/sources.json
 arber-stationers-registers-1554-1640-deferred,source,Arber - Transcript of the Registers of the Stationers' Company 1554-1640 (deferred),data/sources.json
 acl-robert-gurney-will-1625,source,Archdeaconry Court of London - Robert Gurney will (1625),data/sources.json
 archiuk-attleborough-nr17-domesday-search,source,ARCHI UK - NR17 local-history search,data/sources.json
@@ -427,6 +433,7 @@ rollco-other-companies-gurney-1573-1653,source,"ROLLCO - Gurney events in Clothw
 rollco-drapers-gurney-old-change-cluster,source,ROLLCO Drapers - Robert and John Gurney Old Change cluster,data/sources.json
 rollco-stationers-gurney-1613-1626,source,ROLLCO Stationers - John Gurney 1613 binding and Robert Gurney 1616-1626 apprenticeship sequence,data/sources.json
 rollco-stationers-hunscott-cluster,source,ROLLCO Stationers - Joseph Hunscott cluster,data/sources.json
+rotuli-hundredorum-record-commission-1812,source,"Rotuli Hundredorum, vol. 1",data/sources.json
 rudder-gloucestershire-1779,source,"Rudder, A New History of Gloucestershire (1779)",data/sources.json
 rye-norfolk-antiquarian,source,"Rye, Norfolk Antiquarian — Gurneys of Norwich",data/sources.json
 rye-feet-of-fines-norfolk,source,"Rye, Short Calendar of the Feet of Fines for Norfolk (Parts I-II)",data/sources.json

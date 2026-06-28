@@ -180,7 +180,7 @@ Relevant Latin:
 
 English working extract: The abbess bought Cauville for 100 pounds from Normand de La Belliere, with Hugh de la Ferte, Hugh de Gournay, and Warnerius his kinsman consenting; the witnesses included William count of Arques and Hugh bishop of Lisieux.
 
-Research value: Modern SCRIPTA control for the Cauville/Montivilliers act printed by Daniel Gurney. The antecedent of "his kinsman" should not be overclaimed. Cassandra Potts uses this sale as an example of a transaction later recast as ducal gift and points to Bouvris 1988 for the Montivilliers revival context.
+Research value: Modern SCRIPTA control for the Cauville/Montivilliers act printed by Daniel Gurney. The antecedent of "his kinsman" should not be overclaimed. Cassandra Potts uses this sale as an example of a transaction later recast as ducal gift and points to Bouvris 1988 for the Montivilliers revival context. SCRIPTA's edition table identifies the relevant article as Jean-Michel Bouvris, "La renaissance de l'abbaye de Montivilliers et son developpement jusqu'a la fin du XIe siecle," in *L'abbaye de Montivilliers a travers les ages* (Le Havre, 1988), pp. 17-84, with pp. 67-84 relevant to the act.
 
 ## Act 6565 - Saint-Benoit-sur-Loire confirmation
 

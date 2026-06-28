@@ -135,6 +135,8 @@ The reason pp. **281-283** are worth reading together is contextual:
 
 So, in practical terms, the relevant John material in this page group is **the p. 281 heading/context plus the p. 282 line**.
 
+**Pond identity (geo reconciliation).** The p. 281 heading reads "East side of **Fresh Pond** next to Mrs Richard's mill … towards **Hingham line**"; another transcription of the same Appendix C passage (and the *History of Weymouth* summary of John's grant) reads "**Great Pond**." These name the same body of water: **Whitman's Pond**, which was called **Fresh Pond** when the town bounds were set in 1636 and took the Whitman name after John Whitman Jr. settled on it (the Bates Mill was built on it in 1640). It lies in **East Weymouth** near the Hingham line — matching the grant's "Mrs Richard's mill" and "Hingham line" landmarks. This is **not** the larger **South Weymouth** pond now called "Weymouth Great Pond" (which is well west of the Hingham line and has no early mill cluster). So John Gurney's three early grants — East Field, Mill Field, and great lot no. 16 east of the pond — all cluster in **East/North Weymouth around Whitman's Pond and the Back River**, not at the modern Great Pond reservoir. (Richard² Gurney's separate 1683 grant "west side of Great Pond" post-dates Whitman's renaming and does denote the South Weymouth pond.) These loci are tracked as place records in `research/places/`.
+
 ---
 
 ## 5) Additional John-related reference: the index

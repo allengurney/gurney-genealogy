@@ -17,6 +17,8 @@ Research companion for `g25-john-de-gournay-iii-fact-sheet.md`. See `.claude/rul
 
 **Question:** Which John is this? The 1314 date fits either the Rector John (collateral, d. 1332) or John III (G25, succeeded Rector in 1332). Most likely the Rector, as he was the more prominent John at that date.
 
+The online route is only partial. The printed *Calendar of Inquisitions Post Mortem*, Edward II vol. 5, is online at Internet Archive, but a target check did not surface this Bardolf/John de Gurnay feoffment there. The useful current trail remains Daniel Gurney's Supplement, citing Escheat Rolls 7 Edward II and Dodsworth MS 57; the primary-roll/Dodsworth route is the remaining control to identify which John.[^bardolf-feoffee-online-route]
+
 ### Saxthorpe — manor connection (DG-Supp Note 117)
 2026-04-18 — DG-Supp Note 117 (p. 789) notes: "John de Mereworthe was lord of the manor of Saxthorpe, which had been held by John Gurnay II. [the Rector], as it afterwards was by John Gurnay V. [Sir John, d. 1408]." Saxthorpe (Loundhall manor) was thus in the Gournay orbit across multiple generations. DG speculates the £20/year annuity granted by Edmund (G23) to John de Mereworthe was "probably in consequence of some agreement between them" regarding Saxthorpe.
 
@@ -60,6 +62,8 @@ This pertains to G23 Edmund specifically, not G25 John III, but confirms Edmund'
 - DG-Supp, Note 115 (pp. 787–788): Norfolk feodary (BM Add. MSS. 5522, Swathings under Bardolf). Escheat Rolls 7 Edward II (1314, Bardolf feoffment). [DG-Supp]
 - DG-Supp, Note 117 (p. 789): Saxthorpe manor connection; Feltwell trust (Close Rolls 5 Rich. II). [DG-Supp]
 - Blomefield, *History of Norfolk*, vol. viii, pp. 452–459 (Harpley). [Blomefield]
+
+[^bardolf-feoffee-online-route]: Daniel Gurney, *Supplement to the Record of the House of Gournay* (1858), Note 115, pp. 787-788; printed IPM-calendar route checked in *Calendar of Inquisitions Post Mortem*, Edward II, vol. 5 (London: HMSO, 1908), Internet Archive, https://archive.org/details/cu31924011387838, without locating the target Bardolf/John de Gurnay feoffment. The control trail remains Escheat Rolls 7 Edward II and Dodsworth MS 57.
 
 ---
 

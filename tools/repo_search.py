@@ -22,6 +22,7 @@ import sqlite3
 import subprocess
 import sys
 import textwrap
+import time
 import unicodedata
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
@@ -43,6 +44,9 @@ LEADS_REL = Path("research/future-research/research-leads.csv")
 DONE_LEADS_REL = Path("research/future-research/research-leads-done.csv")
 INDEX_SCHEMA_VERSION = 1
 SEARCH_PACKAGE_VERSION = 2
+SEARCH_LOCK_NAME = "repo-search.lock"
+SEARCH_LOCK_MAX_WAITS = 12
+SEARCH_LOCK_WAIT_SECONDS = 5.0
 
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*$")
 PAGE_RE = re.compile(r"^##\s+p\.\s*(\d+)(?:\s+\(#(\d+)\))?", re.I)
@@ -55,6 +59,86 @@ SOURCE_ID_RE = re.compile(r"(?:Source ID|Source IDs):\s*`?([a-z0-9][a-z0-9._-]*)
 GEN_RE = re.compile(r"^G~?(\d+)\+?$", re.I)
 LEAD_RE = re.compile(r"^L-\d+$", re.I)
 WORD_RE = re.compile(r"[\w'-]+", re.UNICODE)
+
+
+class RepoSearchLock:
+    def __init__(
+        self,
+        path: Path,
+        label: str,
+        max_waits: int = SEARCH_LOCK_MAX_WAITS,
+        wait_seconds: float = SEARCH_LOCK_WAIT_SECONDS,
+    ):
+        self.path = path
+        self.label = label
+        self.max_waits = max_waits
+        self.wait_seconds = wait_seconds
+        self.fd: int | None = None
+        self.token = f"{os.getpid()}-{time.time_ns()}"
+
+    def __enter__(self) -> "RepoSearchLock":
+        self.path.parent.mkdir(parents=True, exist_ok=True)
+        flags = os.O_CREAT | os.O_EXCL | os.O_WRONLY
+        for wait_index in range(self.max_waits + 1):
+            try:
+                self.fd = os.open(self.path, flags)
+                os.write(self.fd, self._payload().encode("utf-8"))
+                return self
+            except FileExistsError:
+                if wait_index >= self.max_waits:
+                    waited = self.max_waits * self.wait_seconds
+                    details = self._existing_details()
+                    raise SystemExit(
+                        f"repo_search is already running; waited {waited:.0f}s "
+                        f"({self.max_waits} wait(s)) for {self.label}.\n"
+                        f"Lock: {self.path}\n"
+                        f"{details}\n"
+                        "If no repo_search command is active, remove the stale lock file and retry."
+                    )
+                print(
+                    f"repo_search lock active; waiting {self.wait_seconds:g}s "
+                    f"({wait_index + 1}/{self.max_waits}) for {self.label}...",
+                    file=sys.stderr,
+                )
+                time.sleep(self.wait_seconds)
+        raise AssertionError("unreachable lock acquisition state")
+
+    def __exit__(self, exc_type: object, exc: object, traceback: object) -> None:
+        if self.fd is not None:
+            os.close(self.fd)
+            self.fd = None
+        try:
+            if self.token in self.path.read_text(encoding="utf-8"):
+                self.path.unlink()
+        except OSError:
+            pass
+
+    def _payload(self) -> str:
+        return json.dumps(
+            {
+                "token": self.token,
+                "pid": os.getpid(),
+                "label": self.label,
+                "startedAt": dt.datetime.now(dt.timezone.utc).isoformat(),
+                "command": " ".join(sys.argv),
+            },
+            indent=2,
+        ) + "\n"
+
+    def _existing_details(self) -> str:
+        try:
+            return "Existing lock:\n" + self.path.read_text(encoding="utf-8").strip()
+        except OSError as exc:
+            return f"Existing lock could not be read: {exc}"
+
+
+def acquire_repo_search_lock(
+    cache_root: Path,
+    label: str,
+    max_waits: int = SEARCH_LOCK_MAX_WAITS,
+    wait_seconds: float = SEARCH_LOCK_WAIT_SECONDS,
+) -> RepoSearchLock:
+    return RepoSearchLock(cache_root / SEARCH_LOCK_NAME, label, max_waits, wait_seconds)
 
 
 @dataclass
@@ -1423,6 +1507,48 @@ def write_json(path: Path, value: Any) -> None:
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def command_text(*parts: str) -> str:
+    return ".\\.venv\\Scripts\\python.exe tools\\repo_search.py " + " ".join(parts)
+
+
+def locate_followup_tips(pattern: str, path: str | None, match_lines: int, capped: bool) -> list[str]:
+    tips: list[str] = []
+    source_like = bool(re.fullmatch(r"[a-z0-9][a-z0-9._-]{2,}", pattern, flags=re.I) and "-" in pattern)
+    if path:
+        if capped or match_lines >= 25:
+            tips.append(
+                "Tip: many exact hits in this scoped path; for ranked repository sections with footnotes, "
+                f"try `{command_text('search', '--terms', quote_arg(pattern))}`."
+            )
+        elif source_like and "source" in path.replace("\\", "/").casefold():
+            tips.append(f"Tip: if this is a source ID, try `{command_text('map', '--source', quote_arg(pattern))}`.")
+        return tips
+    if match_lines == 0:
+        tips.append(
+            "Tip: no exact line hit. For broader discovery, try "
+            f"`{command_text('search', '--terms', quote_arg(pattern))}` and add `--ancestor`, `--place`, or `--source` when known."
+        )
+    elif capped or match_lines >= 25:
+        tips.append(
+            "Tip: many exact hits. For ranked sections, attached footnotes, and source grouping, try "
+            f"`{command_text('search', '--terms', quote_arg(pattern))}`."
+        )
+    else:
+        tips.append(
+            "Tip: `locate` is best for exact edit anchors. For broader context, use "
+            f"`search --terms {quote_arg(pattern)}` or `map --ancestor/--place/--source ...`."
+        )
+    if source_like and match_lines > 0:
+        tips.append(f"Tip: if `{pattern}` is a source ID, `map --source {quote_arg(pattern)}` shows the registered source package.")
+    return tips[:2]
+
+
+def quote_arg(value: str) -> str:
+    if re.fullmatch(r"[A-Za-z0-9._:/\\-]+", value):
+        return value
+    return '"' + value.replace('"', '\\"') + '"'
+
+
 def create_search_id(summary: str) -> str:
     stamp = dt.datetime.now().strftime("%Y%m%d-%H%M%S")
     return f"{stamp}-{slugify(summary)}"
@@ -1564,6 +1690,14 @@ def write_package(
                 f"- {bucket}: {len(volumes)} volumes, {total_chars} chars total "
                 f"(`{volumes[0]['file']}` through `{volumes[-1]['file']}`); {recommendation}."
             )
+    manifest_lines.extend(["", "## Next commands", ""])
+    if volume_entries:
+        first_volume = volume_entries[0]["file"].split("-", 1)[0]
+        manifest_lines.append(f"- Read first staged volume: `{command_text('expand', search_id, '--volume', first_volume)}`")
+    if shown:
+        manifest_lines.append(f"- Inspect top result only: `{command_text('expand', search_id, '--results', str(shown[0].result_id))}`")
+    manifest_lines.append(f"- Reopen this manifest later: `{command_text('resume', search_id)}`")
+    manifest_lines.append(f"- List recent saved runs: `{command_text('runs', '--limit', '10')}`")
     manifest_lines.extend(
         [
             "",
@@ -1612,80 +1746,82 @@ def execute_search(args: argparse.Namespace, entity_map: bool = False) -> int:
     config = load_config(repo_root)
     cache_root = Path(config["cacheRootResolved"])
     cache_root.mkdir(parents=True, exist_ok=True)
-    inventory = git_inventory(repo_root, config)
-    index = SearchIndex(cache_root / "index/repo-search.sqlite3")
-    try:
-        index_stats = index.refresh(repo_root, inventory)
-        entity: Entity | None = None
-        if args.ancestor:
-            entity = resolve_ancestor(repo_root, args.ancestor, config)
-        elif args.place:
-            entity = resolve_place(repo_root, args.place)
-        elif args.source:
-            entity = resolve_source(repo_root, args.source)
-        terms = terms_from_args(args.terms)
-        if args.lead:
-            terms.append(args.lead.upper())
-        variant_profile = "none" if args.exact else args.variants
-        name_variant_request = "none" if args.exact else args.name_variants
-        term_specs, expansions, name_variant_selection = expand_variants(
-            repo_root,
-            terms,
-            variant_profile,
-            name_variant_request,
-            entity,
-        )
-        effective_terms = [spec.term for spec in term_specs]
-        if not effective_terms and not entity:
-            raise SystemExit("Provide --terms or an entity selector.")
-        exact_matches = run_exact_rg(repo_root, term_specs, config)
-        fts_scores = lexical_search_specs(index, term_specs, broad=variant_profile == "broad")
-        lead_terms = [spec.term for spec in term_specs if not spec.source_paths]
-        lead_sections = load_lead_sections(repo_root, lead_terms, args.lead)
-        results = build_results(
-            index,
-            exact_matches,
-            fts_scores,
-            effective_terms,
-            term_specs,
-            entity,
-            entity_map,
-            config,
-            lead_sections,
-            explicit_terms=terms,
-            require_all=args.require_all,
-            exact_only=args.exact,
-            near=args.near,
-        )
-        summary_parts = []
-        if entity:
-            summary_parts.append(f"{entity.generation or entity.kind} {entity.label}")
-        summary_parts.extend(terms or ["repository map"])
-        query = {
-            "summary": " | ".join(summary_parts),
-            "originalTerms": terms,
-            "effectiveTerms": effective_terms,
-            "variantProfile": variant_profile,
-            "nameVariants": name_variant_selection,
-            "variantExpansions": expansions,
-            "termSpecs": [asdict(spec) for spec in term_specs],
-            "collisionWarnings": sorted(
-                {
-                    spec.collision_warning
-                    for spec in term_specs
-                    if spec.collision_warning
-                }
-            ),
-            "entity": asdict(entity) if entity else None,
-            "entityMap": entity_map,
-            "lead": args.lead,
-            "siteExcluded": True,
-        }
-        _search_id, _package, manifest = write_package(cache_root, query, inventory, exact_matches, results, config, index_stats, entity)
-        print(manifest, end="")
-        return 0
-    finally:
-        index.close()
+    command_label = "map" if entity_map else "search"
+    with acquire_repo_search_lock(cache_root, command_label):
+        inventory = git_inventory(repo_root, config)
+        index = SearchIndex(cache_root / "index/repo-search.sqlite3")
+        try:
+            index_stats = index.refresh(repo_root, inventory)
+            entity: Entity | None = None
+            if args.ancestor:
+                entity = resolve_ancestor(repo_root, args.ancestor, config)
+            elif args.place:
+                entity = resolve_place(repo_root, args.place)
+            elif args.source:
+                entity = resolve_source(repo_root, args.source)
+            terms = terms_from_args(args.terms)
+            if args.lead:
+                terms.append(args.lead.upper())
+            variant_profile = "none" if args.exact else args.variants
+            name_variant_request = "none" if args.exact else args.name_variants
+            term_specs, expansions, name_variant_selection = expand_variants(
+                repo_root,
+                terms,
+                variant_profile,
+                name_variant_request,
+                entity,
+            )
+            effective_terms = [spec.term for spec in term_specs]
+            if not effective_terms and not entity:
+                raise SystemExit("Provide --terms or an entity selector.")
+            exact_matches = run_exact_rg(repo_root, term_specs, config)
+            fts_scores = lexical_search_specs(index, term_specs, broad=variant_profile == "broad")
+            lead_terms = [spec.term for spec in term_specs if not spec.source_paths]
+            lead_sections = load_lead_sections(repo_root, lead_terms, args.lead)
+            results = build_results(
+                index,
+                exact_matches,
+                fts_scores,
+                effective_terms,
+                term_specs,
+                entity,
+                entity_map,
+                config,
+                lead_sections,
+                explicit_terms=terms,
+                require_all=args.require_all,
+                exact_only=args.exact,
+                near=args.near,
+            )
+            summary_parts = []
+            if entity:
+                summary_parts.append(f"{entity.generation or entity.kind} {entity.label}")
+            summary_parts.extend(terms or ["repository map"])
+            query = {
+                "summary": " | ".join(summary_parts),
+                "originalTerms": terms,
+                "effectiveTerms": effective_terms,
+                "variantProfile": variant_profile,
+                "nameVariants": name_variant_selection,
+                "variantExpansions": expansions,
+                "termSpecs": [asdict(spec) for spec in term_specs],
+                "collisionWarnings": sorted(
+                    {
+                        spec.collision_warning
+                        for spec in term_specs
+                        if spec.collision_warning
+                    }
+                ),
+                "entity": asdict(entity) if entity else None,
+                "entityMap": entity_map,
+                "lead": args.lead,
+                "siteExcluded": True,
+            }
+            _search_id, _package, manifest = write_package(cache_root, query, inventory, exact_matches, results, config, index_stats, entity)
+            print(manifest, end="")
+            return 0
+        finally:
+            index.close()
 
 
 def command_search(args: argparse.Namespace) -> int:
@@ -1766,51 +1902,56 @@ def command_resume(args: argparse.Namespace) -> int:
 def command_index(args: argparse.Namespace) -> int:
     repo_root = find_repo_root(Path(args.repo_root) if args.repo_root else None)
     config = load_config(repo_root)
-    inventory = git_inventory(repo_root, config)
-    index = SearchIndex(Path(config["cacheRootResolved"]) / "index/repo-search.sqlite3")
-    try:
-        if args.rebuild:
-            index.rebuild()
-            stats = index.refresh(repo_root, inventory, force=True)
-            print(json.dumps({"status": "rebuilt", **stats}, indent=2))
-        elif args.update:
-            stats = index.refresh(repo_root, inventory)
-            print(json.dumps({"status": "updated", **stats}, indent=2))
-        elif args.check:
-            stale = index.stale(inventory)
-            print(json.dumps({"status": "fresh" if not stale else "stale", "staleCount": len(stale), "stalePaths": stale[:50]}, indent=2))
-            return 1 if stale else 0
-        else:
-            stale = index.stale(inventory)
-            files = index.conn.execute("SELECT COUNT(*) FROM files").fetchone()[0]
-            sections = index.conn.execute("SELECT COUNT(*) FROM sections").fetchone()[0]
-            print(json.dumps({"database": str(index.path), "files": files, "sections": sections, "staleCount": len(stale), "trigram": index.trigram_available}, indent=2))
-        return 0
-    finally:
-        index.close()
+    cache_root = Path(config["cacheRootResolved"])
+    cache_root.mkdir(parents=True, exist_ok=True)
+    with acquire_repo_search_lock(cache_root, "index"):
+        inventory = git_inventory(repo_root, config)
+        index = SearchIndex(cache_root / "index/repo-search.sqlite3")
+        try:
+            if args.rebuild:
+                index.rebuild()
+                stats = index.refresh(repo_root, inventory, force=True)
+                print(json.dumps({"status": "rebuilt", **stats}, indent=2))
+            elif args.update:
+                stats = index.refresh(repo_root, inventory)
+                print(json.dumps({"status": "updated", **stats}, indent=2))
+            elif args.check:
+                stale = index.stale(inventory)
+                print(json.dumps({"status": "fresh" if not stale else "stale", "staleCount": len(stale), "stalePaths": stale[:50]}, indent=2))
+                return 1 if stale else 0
+            else:
+                stale = index.stale(inventory)
+                files = index.conn.execute("SELECT COUNT(*) FROM files").fetchone()[0]
+                sections = index.conn.execute("SELECT COUNT(*) FROM sections").fetchone()[0]
+                print(json.dumps({"database": str(index.path), "files": files, "sections": sections, "staleCount": len(stale), "trigram": index.trigram_available}, indent=2))
+            return 0
+        finally:
+            index.close()
 
 
 def command_clean(args: argparse.Namespace) -> int:
     repo_root = find_repo_root(Path(args.repo_root) if args.repo_root else None)
     config = load_config(repo_root)
     cache_root = Path(config["cacheRootResolved"])
-    runs_root = cache_root / "runs"
-    if not runs_root.exists():
-        print("No saved search runs.")
+    cache_root.mkdir(parents=True, exist_ok=True)
+    with acquire_repo_search_lock(cache_root, "clean"):
+        runs_root = cache_root / "runs"
+        if not runs_root.exists():
+            print("No saved search runs.")
+            return 0
+        cutoff = dt.datetime.now() - dt.timedelta(days=args.older_than)
+        removed = 0
+        for path in runs_root.iterdir():
+            if not path.is_dir():
+                continue
+            modified = dt.datetime.fromtimestamp(path.stat().st_mtime)
+            if args.all or modified < cutoff:
+                shutil.rmtree(path)
+                removed += 1
+        if args.all and (cache_root / "index").exists():
+            shutil.rmtree(cache_root / "index")
+        print(f"Removed {removed} saved search run(s)." + (" Index removed." if args.all else ""))
         return 0
-    cutoff = dt.datetime.now() - dt.timedelta(days=args.older_than)
-    removed = 0
-    for path in runs_root.iterdir():
-        if not path.is_dir():
-            continue
-        modified = dt.datetime.fromtimestamp(path.stat().st_mtime)
-        if args.all or modified < cutoff:
-            shutil.rmtree(path)
-            removed += 1
-    if args.all and (cache_root / "index").exists():
-        shutil.rmtree(cache_root / "index")
-    print(f"Removed {removed} saved search run(s)." + (" Index removed." if args.all else ""))
-    return 0
 
 
 def command_variants(args: argparse.Namespace) -> int:
@@ -2006,6 +2147,8 @@ def command_locate(args: argparse.Namespace) -> int:
         print(line[2:] if line.startswith("./") else line)
     if match_lines == 0:
         print("(no matches)")
+    for tip in locate_followup_tips(args.pattern, args.path, match_lines, capped):
+        print(tip)
     return 0
 
 
@@ -2031,7 +2174,22 @@ def add_search_arguments(parser: argparse.ArgumentParser) -> None:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser(
+        description=__doc__,
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog=textwrap.dedent(
+            f"""
+            Command choice:
+              Broad context:  {command_text('search', '--ancestor', 'G13', '--terms', 'Tyng', 'Braintree')}
+              Entity package: {command_text('map', '--source', '<sourceId>')}
+              Exact anchor:   {command_text('locate', '\"known string\"', '--context', '3')}
+              Read results:   {command_text('expand', '<search-id>', '--volume', '01')}
+              Continue work:  {command_text('runs', '--limit', '10')} then {command_text('resume', '<search-id>')}
+
+            Use tools/repo_search_README.md for the agent quickstart.
+            """
+        ).strip(),
+    )
     parser.add_argument("--repo-root", help="Override repository root.")
     sub = parser.add_subparsers(dest="command", required=True)
 

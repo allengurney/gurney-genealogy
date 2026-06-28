@@ -140,6 +140,7 @@ Note: Blomefield's "Edm. Gurney" here is **Edward Gurney** (Henry G15's grandson
 - Robert Masters, <em>The History of the College of Corpus Christi and the B. Virgin Mary in the University of Cambridge</em> (rev. ed., Cambridge, 1831), p. 338.
 - Catalogue of English Literary Manuscripts (CELM), Folger Shakespeare Library, entry on Bodleian Tanner 175.
 - William J. Thoms, ed., <em>Anecdotes and Traditions, Illustrative of Early English History and Literature, Derived from MS. Sources</em>, Camden Society, old series, vol. 5 (London: Printed for the Camden Society by J. B. Nichols and Son, 1839), pp. xviii-xx and p. 6.
+- Edmund Farrer, <em>The Church Heraldry of Norfolk</em> (Norwich: Goose, 1885-1893), Internet Archive volumes 1-2 examined for Gurney/Gournay heraldry; Harpley and West Barsham are productive, but no Great Ellingham Gurney monument entry was recovered in the examined volumes. Source ID: `farrer-church-heraldry-norfolk`.
 
 **Genealogical and modern academic:**
 - Daniel Gurney, <em>The Record of the House of Gournay</em> (London, 1848), pp. 281–287, and <em>Supplement to the Record of the House of Gournay</em> (King's Lynn: Thew & Son, 1858), pp. 875–1014. Both digitised on the Internet Archive.
@@ -158,12 +159,13 @@ Note: Blomefield's "Edm. Gurney" here is **Edward Gurney** (Henry G15's grandson
 - The full text of his 1614 will has not been recovered; needs Norfolk Record Office probate registers.
 - The exact location of the surviving epitaph verse (wall monument, ledger slab, lost brass) is not specified.
 - Bodleian MS Tanner 175 has not been consulted directly.
+- Farrer online OCR/search was productive for Harpley and West Barsham Gurney arms, but did not surface a Great Ellingham Gurney monument entry in the examined Internet Archive volumes.
 
 ### Open Questions for Future Research
 1. **Direct examination of Bodleian MS Tanner 175** — highest-value path. The MARCO catalogue lead is now captured as `bodleian-ms-tanner-175-marco`, but the manuscript record did not render during v08 intake; review the Bodleian catalogue and any digitized images directly.
 2. **Norwich Consistory Court will registers** at the Norfolk Record Office, for Henry's 1614 will.
 3. **Visit Gurney's Manor at Hingham** — the strongest physical link to Henry G15 of any building in Norfolk.
-4. **St James the Apostle, Great Ellingham, and All Saints, West Barsham** — physical inspection for surviving Gurney monuments. Rev. Edmund Farrer's <em>The Church Heraldry of Norfolk</em> (1887; the research-leads CSV's "Walter Rye" attribution is an error) on the Internet Archive should be checked for recorded Gurney shields — note its first volume covers only the Earsham and Diss hundreds, so the West Barsham (Gallow/Brothercross), Great Ellingham (Shropham), and Harpley (Freebridge-Lynn) entries sit in the later hundred-volumes.
+4. **St James the Apostle, Great Ellingham, and All Saints, West Barsham** - physical inspection for surviving Gurney monuments remains open. Farrer's <em>The Church Heraldry of Norfolk</em> has now been checked online: it is useful for Harpley and West Barsham Gurney arms, but it did not recover a Great Ellingham Gurney monument entry in the examined Internet Archive volumes.
 5. **Steven W. May's full 2005 article** through an academic library.
 6. **Lady Catherine Howard, Henry's godmother** — likely Catherine, daughter of the executed Earl of Surrey (later Countess of Berkeley). Worth resolving from MS Tanner 175.
 

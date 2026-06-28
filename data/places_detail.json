@@ -1039,18 +1039,86 @@
   {
     "placeId": "place-weymouth-massachusetts-usa",
     "placeName": "Weymouth, Massachusetts, USA",
-    "longDescription": "Early Massachusetts grants in Weymouth included the East Field, Mill Field, and land near Great Pond.",
-    "siteName": "Great Pond",
+    "longDescription": "South-shore town where four generations of the line lived: the emigrant John Gurney Sr. (G13) first recorded 1641, his son Richard (G12), and Richard's son and grandson Benjamin (G11, G10), both born here. Individual Gurney land grants are tracked as their own sub-places (Richard's Great Pond homestead; John Sr.'s East Field, Mill Field, and east-side-of-Great-Pond grants).",
+    "siteName": "",
     "streetAddress": "",
-    "extantStatus": "unknown",
+    "extantStatus": "town extant",
     "extantStatusDescription": "",
-    "coordinateBasis": "Great Pond geolocation; other Weymouth landholdings not individually geolocated",
+    "coordinateBasis": "town centroid",
     "imageUrl": "",
     "imageTitle": "",
     "heritageUrl": "",
     "heritageLabel": "",
     "reviewNotes": [
-      "Great Pond is geolocated at high precision; the East Field, Mill Field, and other Weymouth landholding references remain aggregated and are not individually geolocated."
+      "Town-level anchor for multi-generational residence (G10–G13). Specific landholdings are split into their own place records at the best available precision."
+    ]
+  },
+  {
+    "placeId": "place-gurney-homestead-great-pond-weymouth-massachusetts-usa",
+    "placeName": "Richard Gurney Homestead — Great Pond (west side), Weymouth, Massachusetts, USA",
+    "longDescription": "Richard Gurney's homestead. In 1683 the Weymouth town meeting voted him six acres of common land 'on the west side of Great Pond' to 'build a house & fence to dwell thereon with his family'; the dwelling and about six acres were inventoried at his death in 1691. By 1683 'Great Pond' denotes the large South Weymouth pond of that name (distinct from his father John Sr.'s earlier grants around Whitman's Pond / Fresh Pond in East Weymouth). The genealogist Jean Gurney Rigler noted a competing tradition placing the homestead 'on East Street towards Old Spain, and extending to Back River' in North Weymouth, so the precise site is unresolved.",
+    "siteName": "Great Pond (west side)",
+    "streetAddress": "",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinateBasis": "point on the west shore of the South Weymouth Great Pond, per the 1683 grant wording; parcel not surveyed",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "",
+    "heritageLabel": "",
+    "reviewNotes": [
+      "Medium precision: located to the west side of the South Weymouth Great Pond, not to a surveyed parcel. A competing tradition (Rigler, after the History of Weymouth) places the homestead in North Weymouth (Old Spain / Back River); see research lead."
+    ]
+  },
+  {
+    "placeId": "place-whitmans-pond-east-side-weymouth-massachusetts-usa",
+    "placeName": "Great Lots east of Whitman's Pond (Fresh Pond), Weymouth, Massachusetts, USA",
+    "longDescription": "John Gurney Sr. (G13) was entitled to great lot no. 16 in the division ordered 2–3 February 1651–52, laid out on the east side of the pond 'next to Mrs Richards mill' and running east toward the Hingham line (Nash, Historical Sketch of Weymouth, Appendix C, p. 282). The pond is Whitman's Pond — called Fresh Pond when the town bounds were set in 1636 — in East Weymouth, near the early mills; the History of Weymouth's summary of this grant as 'east side of Great Pond' conflates it with the larger South Weymouth pond of that modern name.",
+    "siteName": "Whitman's Pond (Fresh Pond)",
+    "streetAddress": "",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinateBasis": "great-lot division east of Whitman's Pond running toward the Hingham line; John's lot no. 16 within it not individually surveyed",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "",
+    "heritageLabel": "",
+    "reviewNotes": [
+      "Medium precision: located to the great-lot strip east of Whitman's (Fresh) Pond, near the Hingham line, not to a surveyed parcel. Sources conflict on the pond name (Nash p. 281 'Fresh Pond' = Whitman's; History of Weymouth 'Great Pond'); the East Weymouth geography (Mrs Richards mill, Hingham line) resolves it to Whitman's Pond, not the South Weymouth Great Pond reservoir."
+    ]
+  },
+  {
+    "placeId": "place-east-field-weymouth-massachusetts-usa",
+    "placeName": "East Field, Weymouth, Massachusetts, USA",
+    "longDescription": "An open-field division of early Weymouth in which John Gurney Sr. (G13) held a two-acre grant by 1642–44 (Nash, Historical Sketch of Weymouth, Appendix C, p. 258), later associated with Robert Randoll. The East Field lay in the original North/East Weymouth settlement: its lots are bounded in the records 'with the sea,' the Back River, and 'a greate pond' (Whitman's Pond), placing it east of the first settlement toward the water. The exact bounds are not established from sources to hand.",
+    "siteName": "East Field",
+    "streetAddress": "",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinateBasis": "general North/East Weymouth settlement area between Wessagusset and the Back River, per the field's bounding by the sea and Whitman's Pond; parcel unlocated",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "",
+    "heritageLabel": "",
+    "reviewNotes": [
+      "Low precision: coordinate is the field's general area (North/East Weymouth near the Back River), not a documented parcel. Locating it requires the Weymouth proprietors' land-grant records; see research lead."
+    ]
+  },
+  {
+    "placeId": "place-mill-field-weymouth-massachusetts-usa",
+    "placeName": "Mill Field, Weymouth, Massachusetts, USA",
+    "longDescription": "An open-field division of early Weymouth in which John Gurney Sr. (G13) held a four-acre grant by 1642–44, bounded east by Nicholas Norton, west by Richard Rawlings, north by John Giles, south by William Brandon (Nash, Historical Sketch of Weymouth, Appendix C, p. 278). The Mill Field lay in East Weymouth near Whitman's Pond and the early mills (the Bates Mill of 1640) and Mill River: a parallel grant to Matthew Pratt is described as 'in the mill field, now east of Weymouth' and 'on the west side of Mill River,' and another Mill Field lot is 'bounded on the East and South with Hingham Line.' The parcel's exact bounds are not established from sources to hand.",
+    "siteName": "Mill Field",
+    "streetAddress": "",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinateBasis": "general East Weymouth area near Whitman's Pond, Mill River, and the Hingham line, per neighboring Mill Field grants; parcel unlocated",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "",
+    "heritageLabel": "",
+    "reviewNotes": [
+      "Low precision: coordinate is the field's general area (East Weymouth, near Mill River and the Hingham line), not a documented parcel. Locating it requires the Weymouth proprietors' land-grant records; see research lead."
     ]
   },
   {
