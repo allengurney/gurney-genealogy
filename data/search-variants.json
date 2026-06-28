@@ -29,6 +29,8 @@
         {"term": "Gerney", "category": "indexed-or-transcription-candidate", "matchMode": "whole-token"},
         {"term": "Girney", "category": "indexed-or-transcription-candidate", "matchMode": "whole-token"},
         {"term": "Gyrney", "category": "indexed-or-transcription-candidate", "matchMode": "whole-token"},
+        {"term": "Girnye", "category": "documentary-spelling", "matchMode": "whole-token", "note": "Tudor/Stuart Norfolk and Bucks parish-register form (Hingham 1626; Stewkley); aids G13 English-origin searches that infer the Modern family but target early-modern parish material."},
+        {"term": "Garney", "category": "collision-prone-candidate", "matchMode": "whole-token", "collisionWarning": "Collides with Garner/Carney; a Norfolk parish-register Gurney form. Treat matches as leads rather than identity evidence."},
         {"term": "Gurnoe", "category": "collision-prone-candidate", "matchMode": "whole-token", "collisionWarning": "Frequently a distinct surname; treat matches as leads rather than identity evidence."},
         {"term": "Gorney", "category": "collision-prone-candidate", "matchMode": "whole-token", "collisionWarning": "Frequently a distinct surname; treat matches as leads rather than identity evidence."},
         {"term": "Gurnney", "category": "transcription-or-ocr-candidate", "matchMode": "whole-token"}
@@ -65,6 +67,9 @@
         {"term": "Gerneye", "category": "indexed-or-transcription-candidate", "matchMode": "whole-token"},
         {"term": "Girney", "category": "indexed-or-transcription-candidate", "matchMode": "whole-token"},
         {"term": "Gyrney", "category": "indexed-or-transcription-candidate", "matchMode": "whole-token"},
+        {"term": "Girnye", "category": "documentary-spelling", "matchMode": "whole-token", "note": "Tudor/Stuart parish-register form; attested at Hingham, Norfolk (Ann Girnye, 1626 marriage image) and Stewkley, Bucks."},
+        {"term": "Gurnye", "category": "documentary-spelling", "matchMode": "whole-token", "note": "Tudor/Stuart parish-register form; attested in the Stewkley, Bucks register."},
+        {"term": "Garney", "category": "collision-prone-candidate", "matchMode": "whole-token", "collisionWarning": "Collides with Garner/Carney; a Norfolk parish-register Gurney form (e.g. the West Dereham Wadcocke marriage index). Treat matches as leads rather than identity evidence."},
         {"term": "Gorney", "category": "collision-prone-candidate", "matchMode": "whole-token", "collisionWarning": "Frequently a distinct surname; treat matches as leads rather than identity evidence."},
         {"term": "Gurnoe", "category": "collision-prone-candidate", "matchMode": "whole-token", "collisionWarning": "Frequently a distinct surname; treat matches as leads rather than identity evidence."},
         {"term": "Gourny", "category": "documentary-or-index-candidate", "matchMode": "whole-token"},
@@ -93,6 +98,7 @@
         {"term": "Gornay", "category": "documentary-spelling", "matchMode": "whole-token"},
         {"term": "Gournai", "category": "old-french-form", "matchMode": "whole-token", "languages": ["Old French", "French"]},
         {"term": "Gornai", "category": "old-french-form", "matchMode": "whole-token", "languages": ["Old French", "French"]},
+        {"term": "Gurnai", "category": "manuscript-variant", "matchMode": "whole-token", "languages": ["Latin", "Old French"], "note": "Manuscript variant of Gornai recorded by Stubbs in Ralph de Diceto (MS D) for the 1173 capture of Hugh de Gournay."},
         {"term": "Gurnaye", "category": "documentary-spelling", "matchMode": "whole-token"}
       ],
       "broadAdditions": [
@@ -121,7 +127,9 @@
         {"term": "Gornayo", "category": "latin-or-documentary-form", "matchMode": "whole-token", "languages": ["Latin"]},
         {"term": "Gorniaco", "category": "latin-inflection", "matchMode": "whole-token", "languages": ["Latin"]},
         {"term": "Gurnaco", "category": "latin-inflection", "matchMode": "whole-token", "languages": ["Latin"]},
-        {"term": "Gurnaio", "category": "latin-inflection", "matchMode": "whole-token", "languages": ["Latin"]}
+        {"term": "Gurnaio", "category": "latin-inflection", "matchMode": "whole-token", "languages": ["Latin"]},
+        {"term": "Gurniaco", "category": "latin-inflection", "matchMode": "whole-token", "languages": ["Latin"], "note": "Latinized Gournay personal-name form (e.g. 'Hugo de Gurniaco'); attested in Round, Calendar of Documents Preserved in France."},
+        {"term": "Gournayo", "category": "latin-or-documentary-form", "matchMode": "whole-token", "languages": ["Latin"], "note": "Dative/ablative form (e.g. 'Hugone de Gournayo'); attested in Round, Calendar of Documents Preserved in France."}
       ]
     }
   ],

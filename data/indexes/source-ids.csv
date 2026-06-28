@@ -83,6 +83,7 @@ dg-rec-supp,"DG Record, Supplement (1858)",full,sources/corpus/daniel-gurney-sup
 dg-rye-appendix,DG Rye Appendix,partial,sources/corpus_supplement/gascon-rolls-gournay-calendar.md,,
 dhi-crusaders-leeds,"DHI -- Database of Crusaders to the Holy Land, 1095-1149",external,,,
 dicamillo-gurneys-manor,DiCamillo — Gurney's Manor,partial,sources/corpus_supplement/dicamillo-gurneys-manor.md,,sources/validations/dicamillo-gurneys-manor.md
+diceto-opera-historica-vol1-stubbs-1876,"Ralph de Diceto, Opera Historica, ed. Stubbs (Rolls Series 68, 1876)",partial,sources/corpus_supplement/diceto-opera-historica-gournay-1173.md,,
 dnb-bocking,DNB - Bocking (Nicholas Bocking / Fastolf service note),none,,,sources/validations/dnb-bocking.md
 dnb-edmund-gurney-1890,DNB - Edmund Gurney (d.1648),full,sources/corpus_supplement/dnb-edmund-gurney-1890.md,,sources/validations/dnb-edmund-gurney-1890.md
 domesday-1086,Domesday Book (1086),none,,,
@@ -172,7 +173,7 @@ historic-england-baconsthorpe-castle-1013093,Historic England - Baconsthorpe Cas
 historic-england-old-hall-farmhouse-1077566,Historic England - Old Hall Farmhouse (1077566),partial,sources/corpus_supplement/historic-england-old-hall-farmhouse-1077566.md,,sources/validations/historic-england-old-hall-farmhouse-1077566.md
 history-ac-uk-markets-fairs-gazetteer,Gazetteer of Markets and Fairs to 1516,partial,sources/corpus_supplement/history-ac-uk-markets-fairs-gurnay.md,,sources/validations/history-ac-uk-markets-fairs-gurnay.md
 history-of-parliament-online-gurney-1386-1421,HoP Online -- Gurney John d.1408,external,,,
-history-of-weymouth,"History of Weymouth, Massachusetts (1923)",partial,sources/corpus_supplement/history-of-weymouth-vol3-gurney.md,,sources/validations/history-of-weymouth.md
+history-of-weymouth,"History of Weymouth, Massachusetts (1923)",full,sources/corpus_supplement/history-of-weymouth-vol3-gurney.md,sources/media/history-of-weymouth/,sources/validations/history-of-weymouth.md
 hmc-12th-report-appendix-ix-1891,hmc-12th-report-appendix-ix-1891,extract,sources/corpus_supplement/gurney-of-keswick-spelman-pedigree-hmc-1891.md,sources/media/hmc-12th-report-appendix-ix-1891/_local/,sources/validations/hmc-12th-report-appendix-ix-1891.md
 hobart-abington-1839,"Hobart, Historical Sketch of Abington (1839)",partial,,,sources/validations/benjamin-gurney-harden-research-tables-2026-04.md
 hobart-benjamin-history-abington-1866,"Hobart, History of the Town of Abington (1866)",partial,sources/corpus_supplement/hobart-1866-abington-gurney-register-extract.md,,sources/validations/hobart-benjamin-history-abington-1866.md
@@ -206,6 +207,7 @@ macris-cum-115-gurney-ase-house,"MACRIS CUM.115 - Gurney, Ase House (51 Main St,
 macris-cum-151-gurney-asa-house,"MACRIS CUM.151 - Gurney, Asa House (75 Mount Rd, Cummington)",partial,sources/corpus_supplement/macris-cummington-gurney-houses-extract.md,sources/media/macris-cum-151-gurney-asa-house/,sources/validations/macris-cum-151-gurney-asa-house.md
 macris-mhc,MACRIS - Massachusetts Cultural Resource Information System,none,,,
 massachusetts-bay-records-v1-1853,"Massachusetts Bay Records, vol. 1",none,,,sources/validations/massachusetts-bay-records-v1-1853.md
+massachusetts-state-archives-colonial,"Massachusetts State Archives, colonial period (petition calendar)",,,sources/media/massachusetts-state-archives-colonial/,sources/validations/massachusetts-state-archives-colonial.md
 may-henry-gurney-spenser-2005,"May, Henry Gurney reads Spenser",partial,sources/corpus_supplement/henry_gurney_g15_may_article_narrative.md,,sources/validations/may-henry-gurney-spenser-2005.md
 mcgraw-edison-history,McGraw-Edison company history (Wikipedia; Eaton/Cooper heritage),none,,,
 medievalgenealogy-cp25-1-21-112-stone-hartwell,"medievalgenealogy.org.uk — CP 25/1/21/112 fine, Stone and Hartwell, Bucks",none,,,

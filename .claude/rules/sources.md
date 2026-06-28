@@ -16,6 +16,8 @@ This rule governs three `sources/` subdirectories. `sources/corpus/` and `source
 
 **Corpus and corpus_supplement files are timeless source material and must never reference research leads.** No `L-NNN` lead handles, and no lead / "next pull" / research-status framing (e.g. "Probable, not proven," "confirming pulls," "open question"). The extract states what the source says, plus neutral source caveats (OCR quality, index-vs-image level, what the source does/does not record) and — where useful — a neutral list of related primary documents. All confidence/status judgements, lead handles, and next-action framing belong in the research companion that cites the extract, never in the source layer.
 
+**A corpus/corpus_supplement file is a library entry, not a finding — adding one carries two obligations.** (1) **Register it.** It must tie to a `data/sources.json` sourceId; add or update that source entry in the same change (a corpus file is never committed without a registered source — the `familysearch-fulltext-search` catch-all is acceptable for FTS image reads, but the source object must exist and reference or account for the extract). (2) **Promote its findings.** Any fact or finding the extract surfaces must also be written into the research layer — the citing companion, topic file, or fact sheet — so it is visible to readers and researchers. An extract sitting only in the source library does not make its findings visible; the research layer is where findings live.
+
 For destination decisions when a finding could land in more than one place, see `sources/README.md`.
 
 ## sources/intake/

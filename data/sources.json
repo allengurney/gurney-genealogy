@@ -715,6 +715,16 @@
       "validationPath": "sources/validations/massachusetts-bay-records-v1-1853.md",
       "notes": "Direct source for MBCR 1:331. The 1641 General Court record remits fines of John Gurney, James Ludden, and John Porter for want of gunpowder. Use as the controlling court citation; Weymouth identification depends on supporting local context."
     },
+    "massachusetts-state-archives-colonial": {
+      "shortTitle": "Massachusetts State Archives, colonial period (petition calendar)",
+      "citation": "Massachusetts State Archives Collection, Colonial Period, 1622–1788. Boston: Massachusetts Archives. Digitized on FamilySearch, film/DGS 007702977.",
+      "archive": "Massachusetts Archives (Boston); FamilySearch",
+      "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9Y5-F9M1-4",
+      "corpusPath": null,
+      "mediaPath": "sources/media/massachusetts-state-archives-colonial/",
+      "validationPath": "sources/validations/massachusetts-state-archives-colonial.md",
+      "notes": "Calendar/index of colonial-period petitions and military papers. Image 947 (film 007702977, ark 3:1:3Q9M-C9Y5-F9M1-4) carries the entry dated 30 May 1641: 'Petition of John Gurny, Richard Porter, and James Ludden of Weymouth … remission of the fines laid upon them for [want of gunpowder].' Full-resolution read via das/v2, 2026-06-27: the forename plainly reads Richard — the petition tradition's counter-reading to the printed MBCR 1:331 'John Porter'. This is the calendar/index, not the petition document itself; the petition (the calendar's page reference into the Archives volume) is the remaining clincher. The same collection vol. 129:16 holds the 2 July 1688 Humphrey–Randall Wendover/Lee deposition (quoted via History of Weymouth)."
+    },
     "bates-ancient-iron-works-braintree-1898": {
       "shortTitle": "Bates, Ancient Iron Works at Braintree",
       "citation": "Bates, Samuel A. The Ancient Iron Works at Braintree, Mass.: The First in America. South Braintree, Mass.: Frank A. Bates, 1898.",
@@ -1814,14 +1824,14 @@
     },
     "history-of-weymouth": {
       "shortTitle": "History of Weymouth, Massachusetts (1923)",
-      "citation": "History of Weymouth, Massachusetts. 4 vols. Weymouth, Mass.: Weymouth Historical Society, under direction of the town, 1923. Vol. 3: Genealogy of Weymouth families, John Gurney Sr. and Richard Gurney entries.",
+      "citation": "Chamberlain, George Walter, and Channing Harris Cox, comps. History of Weymouth, Massachusetts. 4 vols. Published by the Weymouth Historical Society (Howard H. Joy, President), under direction of the town. Weymouth, Mass.: Weymouth Historical Society, 1923. Vol. 3 carries the Genealogy of Weymouth families (John Gurney Sr. and Richard Gurney entries).",
       "archive": "Weymouth Historical Society / Ancestry.com collection 21610 (database History of Weymouth, Massachusetts, Provo, UT: Ancestry.com Operations Inc., 2005)",
       "url": "https://www.ancestry.com/imageviewer/collections/21610/images/dvm_LocHist007443-00634-1",
-      "corpusStatus": "partial",
+      "corpusStatus": "full",
       "corpusPath": "sources/corpus_supplement/history-of-weymouth-vol3-gurney.md",
-      "mediaPath": null,
+      "mediaPath": "sources/media/history-of-weymouth/",
       "validationPath": "sources/validations/history-of-weymouth.md",
-      "notes": "Standard four-volume town history of Weymouth, Norfolk County, Massachusetts. Vol. 3 'Genealogy of Weymouth families' provides the John Gurney Sr. and Richard Gurney family group used throughout the G13/G12 research. John Sr. b. c. 1603 (1653 deposition), Braintree before 1645, Weymouth land grants 'in the East field,' 'in the mill field,' and 'on the east side of Great Pond' as early as 3 Feb. 1651-52 later granted to others, sold Braintree land 12 Feb. 1661, wife (name unknown) d. Braintree 20 Sept. 1661, m. (2) Braintree 12 Nov. 1661 widow Grissell Kibbee successively widow of Thomas Jewell, Henry Griggs, Henry Kibbee of Dorchester (her fifth husband John Burge of Weymouth, Chelmsford, and Dorchester), d. 1662-63 inventory 16 Mar. 1662-63, tailor by trade. Children: Mary b. near 1628, m. Daniel Shed who called John Gurney father; Richard b. near 1630; John b. near 1633, settled in Mendon; Peter b. near 1635; Isaac b. near 1640. Richard2 m. Rebecca Taylor (probably daughter of John and Phebe Taylor of Weymouth), made freeman 1681, surname found Garey/Garry/Gerry/Gurny, d. Weymouth Oct. 1719 (conflicts with Torrey '-1691'). Richard's children at Weymouth: Richard3 b. 18 Jan. 1656; John b. near 1658; Zachariah b. near 1660. John3 (Richard,2 John1) m. Elizabeth Green dau. of Joseph and Elizabeth (Whitman) Green b. Weymouth 5 Oct. 1664 (Joseph's will dated 8 Sept. 1691 named her 'my daughter Elizabeth Gurney'); children Elizabeth b. 5 May 1689, John b. May 1699. Zachariah3 (Richard,2 John1) b. near 1660, d. Weymouth 27 Oct. 1732, m. Mary -- (perhaps Mary Gurney d. Weymouth 14 Feb. 1736); children Zachariah4 b. 19 Nov. 1695, Joseph b. 7 Mar. 1697-98, Nathan b. 15 Oct. 1702, Jacob b. 31 Oct. 1706, Mary b. 24 Nov. 1711 m. 3 Jan. 1733-34 John Pratt of Weymouth. Zachariah4 b. 19 Nov. 1695 m. Weymouth 26 Sept. 1726 Sarah Jackson (probably dau. of Edmund and Mary (-) Jackson); children Sarah b. 7 May 1727, Zachariah b. 7 Mar. 1729, Elisha b. 30 June 1731. Page numbers as transcribed; the existing G13/G12 references to 'Weymouth Hist 3:251' should be reconciled against the section's true paging when the page image is captured."
+      "notes": "Full text of all four volumes is held at sources/corpus/history-of-weymouth-1923-vol{1-4}.txt (OCR text of the Google Books PDFs, https://www.google.com/books/edition/History_Of_Weymouth_Massachusetts/3vBytgAACAAJ); the volume PDFs are local-only under sources/media/history-of-weymouth/_local/. Curated Gurney extracts: sources/corpus_supplement/history-of-weymouth-vol3-gurney.md, sources/corpus_supplement/history-of-weymouth-bucks-cluster-extracts.md, and sources/corpus_supplement/history-of-weymouth-additional-gurney-references.md. Standard four-volume town history of Weymouth, Norfolk County, Massachusetts. Vol. 3 'Genealogy of Weymouth families' provides the John Gurney Sr. and Richard Gurney family group used throughout the G13/G12 research. John Sr. b. c. 1603 (1653 deposition), Braintree before 1645, Weymouth land grants 'in the East field,' 'in the mill field,' and 'on the east side of Great Pond' as early as 3 Feb. 1651-52 later granted to others, sold Braintree land 12 Feb. 1661, wife (name unknown) d. Braintree 20 Sept. 1661, m. (2) Braintree 12 Nov. 1661 widow Grissell Kibbee successively widow of Thomas Jewell, Henry Griggs, Henry Kibbee of Dorchester (her fifth husband John Burge of Weymouth, Chelmsford, and Dorchester), d. 1662-63 inventory 16 Mar. 1662-63, tailor by trade. Children: Mary b. near 1628, m. Daniel Shed who called John Gurney father; Richard b. near 1630; John b. near 1633, settled in Mendon; Peter b. near 1635; Isaac b. near 1640. Richard2 m. Rebecca Taylor (probably daughter of John and Phebe Taylor of Weymouth), made freeman 1681, surname found Garey/Garry/Gerry/Gurny, d. Weymouth Oct. 1719 (conflicts with Torrey '-1691'). Richard's children at Weymouth: Richard3 b. 18 Jan. 1656; John b. near 1658; Zachariah b. near 1660. John3 (Richard,2 John1) m. Elizabeth Green dau. of Joseph and Elizabeth (Whitman) Green b. Weymouth 5 Oct. 1664 (Joseph's will dated 8 Sept. 1691 named her 'my daughter Elizabeth Gurney'); children Elizabeth b. 5 May 1689, John b. May 1699. Zachariah3 (Richard,2 John1) b. near 1660, d. Weymouth 27 Oct. 1732, m. Mary -- (perhaps Mary Gurney d. Weymouth 14 Feb. 1736); children Zachariah4 b. 19 Nov. 1695, Joseph b. 7 Mar. 1697-98, Nathan b. 15 Oct. 1702, Jacob b. 31 Oct. 1706, Mary b. 24 Nov. 1711 m. 3 Jan. 1733-34 John Pratt of Weymouth. Zachariah4 b. 19 Nov. 1695 m. Weymouth 26 Sept. 1726 Sarah Jackson (probably dau. of Edmund and Mary (-) Jackson); children Sarah b. 7 May 1727, Zachariah b. 7 Mar. 1729, Elisha b. 30 June 1731. Page numbers as transcribed; the existing G13/G12 references to 'Weymouth Hist 3:251' should be reconciled against the section's true paging when the page image is captured."
     },
     "plymouth-probate-john-harden-1751-will": {
       "shortTitle": "Plymouth Probate - John Harden will (1751)",
@@ -2504,6 +2514,17 @@
       "mediaPath": null,
       "validationPath": "sources/validations/palgrave-history-england-normandy-1864.md",
       "notes": "Derivative narrative history. Relevant for Hugh Gournay at Mortemer, Pays de Bray geography, Gerberoi proximity to Gournay, and Hugh de Gournay as mediator between William I and Robert Curthose."
+    },
+    "diceto-opera-historica-vol1-stubbs-1876": {
+      "shortTitle": "Ralph de Diceto, Opera Historica, ed. Stubbs (Rolls Series 68, 1876)",
+      "citation": "Stubbs, William, ed. Radulfi de Diceto Decani Lundoniensis Opera Historica: The Historical Works of Master Ralph de Diceto, Dean of London. Vol. 1. Rolls Series 68. London: Longman & Co., 1876.",
+      "archive": "Internet Archive / Google Books (Rerum Britannicarum Medii Aevi Scriptores 68, vol. 1)",
+      "url": "https://www.google.com/books/edition/Rerum_Britannicarum_Medii_aevi_scriptore/NxdnAAAAMAAJ",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/diceto-opera-historica-gournay-1173.md",
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Chronicle (Imagines Historiarum). The A.D. 1173 entry 'Hugo de Gornai, tam pater quam filius' records the capture of both Hugues IV and Hugues V de Gournay, with eighty knights, by the Young King during the 1173 rebellion against Henry II (taken by stratagem; castle burned). Stubbs notes the manuscript spelling variant 'Gurnai'. Chronicle evidence for chronology and political alignment, not charter evidence for kinship or property. Extract at corpusPath; the same 1173 datum is catalogued in research/topics/medlands-gournay-source-leads.md (entry 8, the senior-line Diceto reference). Validation skipped: single-location citation, fully covered by the corpus extract."
     },
     "cleveland-battle-abbey-roll-introduction": {
       "shortTitle": "Cleveland, Battle Abbey Roll introduction",

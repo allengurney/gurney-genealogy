@@ -350,6 +350,7 @@ macris-mhc,source,MACRIS - Massachusetts Cultural Resource Information System,da
 macris-cum-115-gurney-ase-house,source,"MACRIS CUM.115 - Gurney, Ase House (51 Main St, Cummington)",data/sources.json
 macris-cum-151-gurney-asa-house,source,"MACRIS CUM.151 - Gurney, Asa House (75 Mount Rd, Cummington)",data/sources.json
 massachusetts-bay-records-v1-1853,source,"Massachusetts Bay Records, vol. 1",data/sources.json
+massachusetts-state-archives-colonial,source,"Massachusetts State Archives, colonial period (petition calendar)",data/sources.json
 ma-wills-probate-records,source,"Massachusetts Wills and Probate Records, 1635-1991",data/sources.json
 may-henry-gurney-spenser-2005,source,"May, Henry Gurney reads Spenser",data/sources.json
 mcgraw-edison-history,source,McGraw-Edison company history (Wikipedia; Eaton/Cooper heritage),data/sources.json
@@ -420,6 +421,7 @@ powell-historie-cambria-1584,source,Powell -- Historie of Cambria (1584),data/so
 gurney-drogo-pilgrimage-research-2026,source,Project research handoff -- Gerard de Gournay Drogo/pilgrimage/death window (2026),data/sources.json
 projet-conde-conquets-hue-gournay,source,"Projet ConDE, Conquets Hue de Gournay custom",data/sources.json
 protestation-returns,source,Protestation Returns 1641–42,data/sources.json
+diceto-opera-historica-vol1-stubbs-1876,source,"Ralph de Diceto, Opera Historica, ed. Stubbs (Rolls Series 68, 1876)",data/sources.json
 gournay-supp-reconstructed,source,"Reconstructed Loose Supplement (Bernau, 1858)",data/sources.json
 recueil-actes-henri-ii-delisle-berger-vol-1,source,"Recueil des actes de Henri II, Delisle/Berger, vol. 1 (1916)",data/sources.json
 recueil-actes-henri-ii-delisle-berger-vol-2,source,"Recueil des actes de Henri II, Delisle/Berger, vol. 2 (1920)",data/sources.json

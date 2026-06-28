@@ -10,7 +10,7 @@
 - Coordinate: 42.205, -70.93 (low)
 - Roles: landholding / property reference
 - Site name: Mill Field
-- Detail: An open-field division of early Weymouth in which John Gurney Sr. (G13) held a four-acre grant by 1642–44, bounded east by Nicholas Norton, west by Richard Rawlings, north by John Giles, south by William Brandon (Nash, Historical Sketch of Weymouth, Appendix C, p. 278). The Mill Field lay in East Weymouth near Whitman's Pond, Mill River, and the early mills, abutting the Hingham line.
+- Detail: An open-field division of early Weymouth in which John Gurney Sr. (G13) held a four-acre grant recorded in Nash's 1643 property list as "first giuen to John Gurnie" under the land of Thomas Richardes, bounded east by Nicholas Norton, west by Richard Rawlings, north by John Giles, south by William Brandon of Ashton Clinton, Bucks (Nash, Historical Sketch of Weymouth, Appendix C, p. 278). The Mill Field lay in East Weymouth near Whitman's Pond, Mill River, and the early mills, abutting the Hingham line.
 
 ### Linked ancestors
 
@@ -24,7 +24,7 @@
 
 ## Research notes
 
-**What we know.** John Gurney Sr. held a four-acre grant "in the mill field," bounded east by Nicholas Norton's land, west by Richard Rawlings, north by John Giles, south by William Brandon (Nash, *Historical Sketch of Weymouth*, Appendix C, p. 278). The Mill Field lay in **East Weymouth** near Whitman's Pond and the early mills (the Bates Mill of 1640) on Mill River, abutting the Hingham town line. A parallel grant to Matthew Pratt is described as "twenty acres … in the mill field," now "east of Weymouth," with eighteen acres "on the west side of Mill River"; another Mill Field lot is "bounded on the East and South with Hingham Line," confirming the field's position against the Hingham boundary.
+**What we know.** John Gurney Sr. held a four-acre grant "in the mill field," recorded in Nash's **1643** property list under "the land of Thomas Richardes" as "first giuen to John Gurnie," bounded east by Nicholas Norton's land, west by Richard Rawlings, north by John Giles, south by William Brandon (Nash, *Historical Sketch of Weymouth*, Appendix C, p. 278). The landholder Thomas Richards married his daughter to Ephraim Hunt of the Lee/Wendover Buckinghamshire group, and the south abutter William Brandon came from Ashton Clinton, Bucks — placing this parcel within the Aylesbury-Vale settler cluster analysed in `research/topics/g13-john-gurney-immigration-by-association.md`. The Mill Field lay in **East Weymouth** near Whitman's Pond and the early mills (the Bates Mill of 1640) on Mill River, abutting the Hingham town line. A parallel grant to Matthew Pratt is described as "twenty acres … in the mill field," now "east of Weymouth," with eighteen acres "on the west side of Mill River"; another Mill Field lot is "bounded on the East and South with Hingham Line," confirming the field's position against the Hingham boundary.
 
 **What we don't.** Which mill the field abutted and the parcel's exact bounds are not established from sources to hand; the grant was "subsequently granted to others." The coordinate is a low-precision placement in the East Weymouth mill area near the Hingham line. Locating it would require the Weymouth proprietors' land-grant book entries. Tracked as a research lead. <!-- lead L-182 -->
 

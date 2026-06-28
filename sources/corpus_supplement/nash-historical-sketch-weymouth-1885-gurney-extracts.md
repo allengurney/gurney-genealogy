@@ -13,6 +13,7 @@ Nash, Gilbert. *Historical Sketch of the Town of Weymouth, Massachusetts, from 1
 - The quotations below are reproduced **verbatim as they appear in the PDF text layer** except for the page 282 line, which was **transcribed from the page image** because that page's OCR/text layer was badly garbled.
 - The references on pp. 258, 270, and 278 are **not separate biographies**. They are land descriptions under other owners, preserving that a parcel had been **"first granted"** to John Gurny/Gurnie.
 - The reference on p. 282 is different: it is a **direct list entry** naming John Gurney among those entitled to lots in 1651-2.
+- **Appendix C structure and dating.** Nash's Appendix C is headed *"Property Owners and Description of Property in 1643… First Division, 1636; Second Division, 1651; List of 1663,"* and the text notes *"in 1643 a partial record of the then property owners was made which has been preserved."* The pp. 258, 270, and 278 land descriptions belong to that **1643** record — so the parcels "first granted to John Gurny/Gurnie" were, by 1643, already held by the named owners (Robert Randoll, Nathaniel Addames, Thomas Richardes). The p. 282 great-lot list is the **Second Division of 2 February 1651-2**. John is therefore an original (pre-1643) grantee of the East Field and Mill Field parcels and a direct 1651-2 great-lot grantee.
 
 ## Findings at a glance
 

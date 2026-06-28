@@ -1,0 +1,25 @@
+# Costessey court rolls — John Gurne entries, 1651–1674 (paleography packet 38)
+
+Image-level readings of John Gurne / Johannes Gurne entries in the Costessey, Norfolk manorial court material on FamilySearch film/DGS 004389191, analysed 2026-06-24. The film carries court material well beyond its 1633–35 catalogue label. Readings are from the staged court images; secretary-hand Latin and crowded list hands limit precision where noted. The film's lords were the Jernegan (Jerningham) baronets, whose name the machine transcript systematically misreads as a Gurney form, so each entry below rests on a direct image read rather than a result-card match.
+
+## Confirmed John Gurne entries
+
+**5 March 1651 — general court leet / view of frankpledge with court baron** ([ark 3:1:S3HT-6PNB-3J](https://www.familysearch.org/ark:/61903/3:1:S3HT-6PNB-3J?view=fullText)). The court opening reads Costessey, held Wednesday 5 March 1651, with grouped tenant/homage lists. In the lower-left grouping the heading reads **John Gurne**, distinct from the Jernegan lord-name form. The name stands as a list heading / grouping label, with no senior, junior, gentleman, occupation, wife, heir, or kinship descriptor attached.
+
+**22 October 1672 — general court** ([ark 3:1:S3HT-6PN5-9N](https://www.familysearch.org/ark:/61903/3:1:S3HT-6PN5-9N?view=fullText)). Costessey court held 22 October 1672, the roll continued to 10 November. The jury/homage list on the right page includes **Johannes Gurne**, followed by Johannes Somer, Francis Freeman, and Johannes Osborne; the paired list to the right carries William Lemon, William Clarke, Henry [—], and Edward Bellward. A genuine surname occurrence, not Jernegan; no descriptor attached.
+
+**20 September 1673 — court (active admittance)** ([ark 3:1:S3HT-6PNP-7X](https://www.familysearch.org/ark:/61903/3:1:S3HT-6PNP-7X?view=fullText)). Costessey court dated 20 September 1673. The upper right-page entry carries surrender/admittance language **`ad opus et usum Johannis Gurne`** ("to the use and behoof of John Gurne"), with a following line in which **Johannes Gurne** petitions for or receives the lord's grant. The full property description is not fully stabilised from the staged crop, but John Gurne is an active party in the court here, not merely a name preserved in a later abuttal.
+
+**21 January 1674 — copyhold/property description, John Gurne styled gentleman** ([ark 3:1:S3HT-6PNK-4C](https://www.familysearch.org/ark:/61903/3:1:S3HT-6PNK-4C?view=fullText)). In the 21 January 1674 court sequence, a property description reads approximately **`inter Cotagium Johannis Gurne gen[erosi]`** — the premises bounded by the cottage of **John Gurne, gentleman**, with an abuttal toward the east. A status reference (the `gen` abbreviation = *generosus*, gentleman); no wife or heir named with John in the block read.
+
+**21 January 1674 — Church House entry (property abuttal, not a burial)** (context image adjacent to [ark 3:1:S3HT-6PNG-Y4](https://www.familysearch.org/ark:/61903/3:1:S3HT-6PNG-Y4?view=fullText); see image note below). Court opening Costessey, 21 January 1674. The entry concerns a messuage/cottage and land in or near **Church House in Costessey**, described as lying **`inter Cotagium Johannis Gurne gen[erosi]`** and abutting the king's highway toward the east. The transacting parties are a Hopper/Hoppier and a Maria/Mary; John Gurne, gentleman, appears as the neighbouring-property reference. This is a copyhold/property description, **not** a burial entry.
+
+## Rejected and mismatched targets
+
+**Spencer entry — not a Gurney occurrence** ([ark 3:1:S3HT-6PNG-DF](https://www.familysearch.org/ark:/61903/3:1:S3HT-6PNG-DF?view=fullText)). Marked `Spencer` in the margin; the personal name near the opening reads **Johannes Spencer**, not John Gurne/Gurney. No secure Gurne/Gurney form is present. The page's date material includes 19 August 1641 with later 1643/1644 continuation. The earlier card-level "Spencer, John Gurnee" reading is a machine-transcript over-association of a neighbouring `John` with a Gurney form.
+
+**Image/ark note for the Church House entry.** The staged target image for [ark 3:1:S3HT-6PNG-Y4](https://www.familysearch.org/ark:/61903/3:1:S3HT-6PNG-Y4?view=fullText) opens on a **3 October 1633** page and does not itself carry the 1674 Church House / John Gurne entry; the relevant 1674 material is on the adjacent context leaf. The 3 October 1633 page should not be treated as a 1670s context image.
+
+## Descriptors and what is not recovered
+
+Across the confirmed 1651, 1672, 1673, and 1674 entries the only descriptor recovered for John Gurne is **gentleman** (`gen[erosi]`), in the 1674 property-boundary language. No `senior` or `junior` descriptor appears in any staged entry, and no wife, heir, or explicit father/son relation is named in the portions read. The 1670s John Gurne is a recurring, active Costessey copyholder styled gentleman; the staged set does not, on its own, identify a distinct John Gurne junior.
