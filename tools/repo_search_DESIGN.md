@@ -203,6 +203,35 @@ Read selected results or volumes from a saved package.
   --section "Land and property records"
 ```
 
+### `infile`
+
+Deep-read one or more **named files** rather than the whole repository, returning
+**fuzzy, context-windowed passages** instead of bare `path:line` rows. This is the
+file-scoped counterpart to `search` (whole-repo, staged package) and `locate` (exact
+`path:line`): point it at a corpus extract, intake transcript, or scratch download and
+read the matching passages in context.
+
+```powershell
+.\.venv\Scripts\python.exe tools\repo_search.py infile `
+  sources\corpus\daniel-gurney-part-2.md --terms Filby Harpley
+
+.\.venv\Scripts\python.exe tools\repo_search.py infile `
+  sources\intake\new\pdfs\historicalsketch00nash_0.txt --terms Gurnay --threshold 72
+```
+
+Behavior:
+
+- Targets accept repo-relative, cwd-relative, or absolute paths; a directory expands to
+  the text files beneath it (a corpus file may live outside the Git inventory).
+- Matching reuses the index's OCR-aware normalization; fuzzy scoring is RapidFuzz
+  `partial_ratio`, guarded so a haystack shorter than the term cannot score a false 100%.
+- Fuzzy is on by default (`--threshold`, default 80); `--no-fuzzy`/`--exact` restrict to
+  literal/substring hits. `--window` joins consecutive lines to catch wrapped or
+  hyphenated phrases; `--context` sets the lines shown around each passage.
+- Optional `--variants` + `--name-variants` apply the same curated expansion as `search`.
+- Output goes straight to stdout; no saved package is created, and (like `locate`) the
+  command does not take the cache lock.
+
 ### `map`
 
 Produce a compact repository map without requiring search terms.

@@ -13,6 +13,7 @@ Choose the command by task shape:
 |---|---|---|
 | Broad subject/source/place context | `search --ancestor G13 --terms ...`, `search --source <id> --terms ...`, or `map --ancestor/--place/--source ...` | Read the manifest, then `expand <search-id> --volume 01`. |
 | Whole registered source package | `map --source <sourceId>` | Check corpus, validation, media, and citing-path results before source-evidence conclusions. |
+| Go deep on one source file (corpus/transcript/OCR) | `infile <file> --terms ...` | Read the fuzzy, context-windowed passages; raise `--window`/lower `--threshold` to widen, `--exact` to tighten. |
 | Exact edit anchor or known string | `locate "known string" --context 3` | Use the returned `path:line` for the edit block. |
 | Scratch/tmp bulk triage | `locate <term> --path <dir> --context 1` | This searches live bytes outside the normal repo index. |
 | Continue prior staged work | `runs`, then `resume <search-id>` or `expand <search-id> ...` | Avoid rerunning broad searches when a saved package already exists. |
@@ -89,6 +90,41 @@ normal repo search.
 .\.venv\Scripts\python.exe tools\repo_search.py locate Gurnay --path $env:TEMP\bulk --context 1
 ```
 
+## Deep-read one file (`infile`)
+
+`infile` searches **within named file(s)** instead of the whole repo, and returns
+**fuzzy, context-windowed passages** rather than bare `path:line` rows. Use it to go
+deeper on a single source — a corpus extract, an intake transcript, a freshly OCR'd
+text — where you want to read the matching passages in context, not just locate a
+string. It is the right tool when the file is the corpus you are mining.
+
+```powershell
+# Fuzzy is on by default; OCR-garbled and line-wrapped forms still surface.
+.\.venv\Scripts\python.exe tools\repo_search.py infile `
+  sources\corpus\daniel-gurney-part-2.md --terms Filby Harpley
+
+# Search several files (or a whole directory of text files) at once.
+.\.venv\Scripts\python.exe tools\repo_search.py infile `
+  sources\intake\new\pdfs\historicalsketch00nash_0.txt --terms Gurnay Gurney
+
+# Tighten to literal hits only, or widen to catch worse OCR.
+.\.venv\Scripts\python.exe tools\repo_search.py infile <file> --terms Gurnay --exact
+.\.venv\Scripts\python.exe tools\repo_search.py infile <file> --terms Gurnay --threshold 72 --window 3
+```
+
+Targets may be repo-relative, cwd-relative, or absolute (a corpus file often lives in
+`sources/intake/` or a scratch directory, outside the Git inventory); a directory
+expands to the text files beneath it. Matching uses the same OCR-aware normalization as
+the index (NFKC, case-fold, soft-hyphen and line-break repair); fuzzy scoring is
+RapidFuzz `partial_ratio`.
+
+Options: `--context/-C` (lines around each passage, default 3), `--window` (consecutive
+lines joined per match test for wrapped phrases, default 2), `--threshold` (minimum fuzzy
+score, default 80), `--no-fuzzy` / `--exact` (literal only), `--variants` +
+`--name-variants` (optional curated term expansion, default off), `--max` (passages per
+file, default 60). `infile` prints straight to stdout and saves no package, so — like
+`locate` — it is lightweight and does not take the cache lock.
+
 ## Reading saved results
 
 ```powershell
@@ -156,7 +192,8 @@ Every search refreshes changed files automatically.
 repo-search command owns the shared SQLite/package cache at a time. A second
 command waits twelve times in 5-second intervals; if the lock is still present,
 it exits with the lock path and the recorded command metadata. `locate`,
-`runs`, `resume`, and `expand` stay lightweight and do not take this queue lock.
+`infile`, `runs`, `resume`, and `expand` stay lightweight and do not take this
+queue lock.
 
 ```powershell
 .\.venv\Scripts\python.exe tools\repo_search.py index --status

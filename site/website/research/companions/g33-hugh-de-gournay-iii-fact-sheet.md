@@ -191,6 +191,8 @@ Two of William's most important documents:
 - **1077**: Foundation of Saint-Étienne (the Abbaye-aux-Hommes) at Caen — William's penance church for the consanguineous marriage. Hugh III among the witnesses. Published in *Regesta Regum Anglo-Normannorum* (ed. Bates, 1998).
 - **1082**: Foundation of La Trinite (the Abbaye-aux-Dames) at Caen - by William and Queen Matilda. Hugh III and Gerard appear among the Gournay witnesses in SCRIPTA's two-version text. This is a useful check against the older FMG/DG-derived "William de Gornai" reading: SCRIPTA's modern transcription has `[Hugonis] de Gornayo` / `Hugonis de Gornelio` plus `Girardi de Gornaio`, not a separate William de Gornai in the Gournay witness slot. The brother-William point should be held as unresolved unless the underlying edition behind the older reading is rechecked.[^scripta-caen-6472]
 
+The online source state is now clear. SCRIPTA Act 6472 itself is directly online and supplies the modern Hugh/Gerard reading; it does not show a `Guillelmi de Gornai` or `William de Gornai` string in the Gournay witness slot. For Act 6538, SCRIPTA is also online and gives the Cauville/Montivilliers sale text plus the corrected Bouvris article locator, but the Bouvris article text has not been found as free full text. Use SCRIPTA/Potts for current analysis and leave Bouvris as an article-pull lead rather than as a cited authority for a new fact.[^scripta-caen-6472][^scripta-montivilliers-6538]
+
 ### 6.3 1079 — Siege of Gerberoi, Hugh III as mediator
 
 Hannay (p. 96, citing Orderic Vitalis) records that Hugh was unhorsed by Robert Curthose at the siege of Gerberoi (1079), during Robert's rebellion against William. After the siege, Hugh was one of four barons who mediated the reconciliation: **Roger Earl of Shrewsbury, Hugh de Grantmesnil, Roger de Beaumont, and Hugh de Gournay**.
@@ -217,9 +219,9 @@ Although the [1089/90] Orderic passage on castle delivery (Gournay/La Ferté/Gai
 
 ## 7. Anselm friendship — primary citation
 
-The Anselm letter is preserved in *Anselmi Cantuarensis Opera Omnia* (Schmitt edition); DG-I p. 26 paraphrases. The text cited in the repo's existing companion was the addressee form ("Salute the Lord Hugh de Gournay, dilectissimum nostrum, and the Lady Basilia, on my part, as sweetly as you can.") Pattou companion p. 2 confirms Anselm "saepe commendat" (often commends) Hugh III. *Neustria Pia* p. 478 cites Anselmus lib. iv epist. 7 et 26.
+Schmitt's *Anselmi Cantuariensis Opera Omnia* is now located online and supplies direct controls for the DG/Pattou/Neustria Pia summaries. Vol. 3 includes Ep. 68 to Gondulf, whose title and body connect Anselm's thanks with Hugh and Basilia, and a Bec-monks salutation letter naming Hugh de Gornaco and Basilia. Vol. 5 includes Ep. 420 addressed directly to Basilia; the volume index identifies her as wife of Hugh de Gornaco. DG-I p. 26 paraphrases part of this Anselm material, Pattou companion p. 2 confirms Anselm "saepe commendat" Hugh III, and *Neustria Pia* p. 478 cites Anselmus lib. iv epist. 7 et 26.[^anselm-schmitt-g33]
 
-The friendship was **personal**, not merely institutional: Anselm wrote to the monks of Bec asking them to salute Hugh and Basilea "as sweetly as you can." The Saint-Nicaise de Meulan priorate (1092) places Hugh in the same Bec-Anselmian network: Guillaume de Montfort (the predecessor whom Hugh replaced as prior) was abbé of Bec when Anselm was its prior.
+The friendship was **personal**, not merely institutional: Schmitt's locators show Anselm writing around Hugh and Basilia by name, not merely recording a house-to-house Bec connection. The Saint-Nicaise de Meulan priorate (1092) places Hugh in the same Bec-Anselmian network: Guillaume de Montfort (the predecessor whom Hugh replaced as prior) was abbe of Bec when Anselm was its prior.
 
 ---
 
@@ -257,6 +259,8 @@ The FS structured table over-shares ten children (Hugues IV, Adelaide, Judith, O
 [^scripta-bec-6511]: SCRIPTA Act 6511, William I confirmation/pancarte for Bec, 1077: Hugh de Gornaco and his son Gerard give their domain in the same villa as the Bois Girard milling-right clause. Source ID: `unicaen-scripta-selected-gournay-acts`.
 [^scripta-bec-6512]: SCRIPTA Act 6512, William I confirmation of Bec's English holdings, [1081-1087], confirming Hugh de Gornaco's London holding from the king plus Fordham, Ardleigh, and Liston rights. Source ID: `unicaen-scripta-selected-gournay-acts`.
 [^scripta-caen-6472]: SCRIPTA Act 6472, William I / Matilda confirmation to La Trinite de Caen, 1082; two-version text gives Hugh/Gerard Gournay forms rather than a clean William/Gerard pair. Source ID: `unicaen-scripta-selected-gournay-acts`.
+[^scripta-montivilliers-6538]: SCRIPTA Act 6538, Montivilliers / Cauville sale, https://mrsh.unicaen.fr/scripta/doc/sc_6538.html; SCRIPTA's edition table identifies Jean-Michel Bouvris, "La renaissance de l'abbaye de Montivilliers et son developpement jusqu'a la fin du XIe siecle," in *L'abbaye de Montivilliers a travers les ages* (Le Havre, 1988), pp. 17-84, especially pp. 67-84. Source IDs: `unicaen-scripta-selected-gournay-acts`; `potts-monastic-revival-regional-identity-1997`.
+[^anselm-schmitt-g33]: Franciscus Salesius Schmitt, ed., *S. Anselmi Cantuariensis Archiepiscopi Opera Omnia*, vols. 3 and 5 (Edinburgh: Thomas Nelson and Sons, 1938-1961), Internet Archive items `sanselmicantuari03anse` and `sanselmicantuari05anse`; locators summarized in `sources/corpus_supplement/anselm-opera-schmitt-gournay-basilia-locators.md`. Source ID: `anselm-opera-schmitt`.
 
 ## 10. Sources consulted
 
@@ -281,7 +285,7 @@ The FS structured table over-shares ten children (Hugues IV, Adelaide, Judith, O
 | Normonde authority file (Caen), Hugues Ier de Gournay entry | `normonde-hugues-1er` (proposed) |
 | Richardson SGM 2002 / *Royal Ancestry* III | `richardson-royal-ancestry-v3` |
 | *Chronicon Beccensis Abbatiæ* (via DG and *Neustria Pia*) | `chron-beccensis-abbatiae` (proposed) |
-| *Anselmi Cantuarensis Opera Omnia* (Schmitt) lib. iv epist. 7 et 26 | `anselm-opera-schmitt` (proposed) |
+| *Anselmi Cantuariensis Opera Omnia* (Schmitt), vols. 3 and 5: Ep. 68, Bec-monks salutation, Ep. 420 to Basilia | `anselm-opera-schmitt` |
 | Wace, *Roman de Rou* T. 2 | `wace-roman-de-rou` (proposed) |
 | Gabriel Dumoulin, *Histoire générale de Normandie* (1631) p. 185 | `dumoulin-histoire-generale-1631` (proposed) |
 | Open Domesday verifications (Liston, Fordham, Ardleigh) | (URLs) |

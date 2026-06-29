@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.7.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-06-04",
+    "lastUpdated": "2026-06-28",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
@@ -818,11 +818,11 @@
       "citation": "Nash, Gilbert. Historical Sketch of the Town of Weymouth, Massachusetts, from 1622 to 1884. Weymouth, Massachusetts: Town of Weymouth, under the auspices of the Weymouth Historical Society, 1885. Printed by Alfred Mudge & Son, Boston.",
       "archive": "Internet Archive.",
       "url": "https://archive.org/details/historicalsketch00nash_0",
-      "corpusStatus": "partial",
-      "corpusPath": "sources/corpus_supplement/nash-historical-sketch-weymouth-1885-gurney-extracts.md",
-      "mediaPath": null,
+      "corpusStatus": "full",
+      "corpusPath": "sources/corpus/nash-historical-sketch-weymouth-1885.txt",
+      "mediaPath": "sources/media/nash-historical-sketch-weymouth-1885/nash-historical-sketch-weymouth-1885.pdf",
       "validationPath": "sources/validations/nash-historical-sketch-weymouth-1885.md",
-      "notes": "Weymouth local history preserving early land-list material. John appears under variants Gurny/Gurnie/Gurney on pp. 258, 270, 278, and 282; the strongest entry is the 1651/2 lot-list entry on p. 282, with the index grouping Gurny/Gurnie/Gurney variants. Useful for Weymouth land-grant baseline and spelling-variant search terms."
+      "notes": "Weymouth local history preserving early land-list material. Full Internet Archive OCR text and the public-domain PDF are held locally; the earlier focused Gurney extract remains at sources/corpus_supplement/nash-historical-sketch-weymouth-1885-gurney-extracts.md. John appears under variants Gurny/Gurnie/Gurney on pp. 258, 270, 278, and 282; the strongest entry is the 1651/2 lot-list entry on p. 282, with the index grouping Gurny/Gurnie/Gurney variants. A broad exact variant sweep of the full text on 28 June 2026 found these known G13 land references, later Gurney military and church references, and no additional colonial John Gurney occurrence."
     },
     "porter-genealogy-richard-porter-1878": {
       "shortTitle": "Porter, Genealogy of the Descendants of Richard Porter (1878)",

@@ -12,6 +12,18 @@
     "notes": "Three-volume compilation often associated with John Hughes and continuators (later editions incorporating White Kennett's continuation). Authorship of the early-medieval narrative chapters is unattributed in the volume. Used in v73 only as a Hanoverian-era corroborating-citation source for two known Gurney references: p. 158 (Hugh de Gourney in the Richard I Holy Land valorous-men list, same content as Holinshed 1577 vol. 4 p. 473) and p. 244 (Sir Mathew Gourney in the 1381 Portugal expedition under Edmund Earl of Cambridge, same content as the CPR Henry IV and Pettigrew). No new fact."
   },
   {
+    "sourceId": "aalt-cp40-edward-i",
+    "shortTitle": "AALT CP 40, Edward I",
+    "citation": "Anglo-American Legal Tradition (AALT), The National Archives CP 40 Common Pleas plea rolls, Edward I image sets.",
+    "archive": "AALT / University of Houston Law Center",
+    "url": "http://aalt.law.uh.edu/EdwardI.html",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/aalt-cp40-edward-i.md",
+    "notes": "AALT's Edward I page maps CP 40 plea-roll image folders by year/term. For Anderson's Harpley advowson trial-by-battle lead, cited as Placita de Banco, Norfolk, 3 Edw. I, candidate online image sets are CP40/5-6 (1274) and CP40/7-12 (1275); no searchable name/county index was found in the page structure."
+  },
+  {
     "sourceId": "abington-vr-1850-vol1",
     "shortTitle": "Abington Vital Records to 1850, vol. 1",
     "citation": "Vital Records of Abington, Massachusetts, to the Year 1850. Volume 1: Births. Boston: New England Historic Genealogical Society, 1912.",
@@ -154,6 +166,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Context source for the Great Migration cited in the John Gurney case file. Distinct from Robert Charles Anderson's Great Migration reference works."
+  },
+  {
+    "sourceId": "anselm-opera-schmitt",
+    "shortTitle": "Anselm, Opera Omnia (Schmitt)",
+    "citation": "Franciscus Salesius Schmitt, ed., S. Anselmi Cantuariensis Archiepiscopi Opera Omnia, 6 vols. Edinburgh: Thomas Nelson and Sons, 1938-1961.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/sanselmicantuari03anse",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/anselm-opera-schmitt-gournay-basilia-locators.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/anselm-opera-schmitt.md",
+    "notes": "Critical edition of Anselm's letters and works. Vol. 3 (Internet Archive sanselmicantuari03anse) contains the Hugh de Gornaco and Basilia references in Ep. 68 and a Bec-monks salutation; vol. 5 (sanselmicantuari05anse) contains Ep. 420 addressed to Basilia. OCR locators inspected 2026-06; image text should control for final Latin quotation."
   },
   {
     "sourceId": "arber-stationers-registers-1554-1640-deferred",
@@ -2054,14 +2078,14 @@
   {
     "sourceId": "history-of-weymouth",
     "shortTitle": "History of Weymouth, Massachusetts (1923)",
-    "citation": "History of Weymouth, Massachusetts. 4 vols. Weymouth, Mass.: Weymouth Historical Society, under direction of the town, 1923. Vol. 3: Genealogy of Weymouth families, John Gurney Sr. and Richard Gurney entries.",
+    "citation": "Chamberlain, George Walter, and Channing Harris Cox, comps. History of Weymouth, Massachusetts. 4 vols. Published by the Weymouth Historical Society (Howard H. Joy, President), under direction of the town. Weymouth, Mass.: Weymouth Historical Society, 1923. Vol. 3 carries the Genealogy of Weymouth families (John Gurney Sr. and Richard Gurney entries).",
     "archive": "Weymouth Historical Society / Ancestry.com collection 21610 (database History of Weymouth, Massachusetts, Provo, UT: Ancestry.com Operations Inc., 2005)",
     "url": "https://www.ancestry.com/imageviewer/collections/21610/images/dvm_LocHist007443-00634-1",
-    "corpusStatus": "partial",
+    "corpusStatus": "full",
     "corpusPath": "sources/corpus_supplement/history-of-weymouth-vol3-gurney.md",
-    "mediaPath": "",
+    "mediaPath": "sources/media/history-of-weymouth/",
     "validationPath": "sources/validations/history-of-weymouth.md",
-    "notes": "Standard four-volume town history of Weymouth, Norfolk County, Massachusetts. Vol. 3 'Genealogy of Weymouth families' provides the John Gurney Sr. and Richard Gurney family group used throughout the G13/G12 research. John Sr. b. c. 1603 (1653 deposition), Braintree before 1645, Weymouth land grants 'in the East field,' 'in the mill field,' and 'on the east side of Great Pond' as early as 3 Feb. 1651-52 later granted to others, sold Braintree land 12 Feb. 1661, wife (name unknown) d. Braintree 20 Sept. 1661, m. (2) Braintree 12 Nov. 1661 widow Grissell Kibbee successively widow of Thomas Jewell, Henry Griggs, Henry Kibbee of Dorchester (her fifth husband John Burge of Weymouth, Chelmsford, and Dorchester), d. 1662-63 inventory 16 Mar. 1662-63, tailor by trade. Children: Mary b. near 1628, m. Daniel Shed who called John Gurney father; Richard b. near 1630; John b. near 1633, settled in Mendon; Peter b. near 1635; Isaac b. near 1640. Richard2 m. Rebecca Taylor (probably daughter of John and Phebe Taylor of Weymouth), made freeman 1681, surname found Garey/Garry/Gerry/Gurny, d. Weymouth Oct. 1719 (conflicts with Torrey '-1691'). Richard's children at Weymouth: Richard3 b. 18 Jan. 1656; John b. near 1658; Zachariah b. near 1660. John3 (Richard,2 John1) m. Elizabeth Green dau. of Joseph and Elizabeth (Whitman) Green b. Weymouth 5 Oct. 1664 (Joseph's will dated 8 Sept. 1691 named her 'my daughter Elizabeth Gurney'); children Elizabeth b. 5 May 1689, John b. May 1699. Zachariah3 (Richard,2 John1) b. near 1660, d. Weymouth 27 Oct. 1732, m. Mary -- (perhaps Mary Gurney d. Weymouth 14 Feb. 1736); children Zachariah4 b. 19 Nov. 1695, Joseph b. 7 Mar. 1697-98, Nathan b. 15 Oct. 1702, Jacob b. 31 Oct. 1706, Mary b. 24 Nov. 1711 m. 3 Jan. 1733-34 John Pratt of Weymouth. Zachariah4 b. 19 Nov. 1695 m. Weymouth 26 Sept. 1726 Sarah Jackson (probably dau. of Edmund and Mary (-) Jackson); children Sarah b. 7 May 1727, Zachariah b. 7 Mar. 1729, Elisha b. 30 June 1731. Page numbers as transcribed; the existing G13/G12 references to 'Weymouth Hist 3:251' should be reconciled against the section's true paging when the page image is captured."
+    "notes": "Full text of all four volumes is held at sources/corpus/history-of-weymouth-1923-vol{1-4}.txt (OCR text of the Google Books PDFs, https://www.google.com/books/edition/History_Of_Weymouth_Massachusetts/3vBytgAACAAJ); the volume PDFs are local-only under sources/media/history-of-weymouth/_local/. Curated Gurney extracts: sources/corpus_supplement/history-of-weymouth-vol3-gurney.md, sources/corpus_supplement/history-of-weymouth-bucks-cluster-extracts.md, and sources/corpus_supplement/history-of-weymouth-additional-gurney-references.md. Standard four-volume town history of Weymouth, Norfolk County, Massachusetts. Vol. 3 'Genealogy of Weymouth families' provides the John Gurney Sr. and Richard Gurney family group used throughout the G13/G12 research. John Sr. b. c. 1603 (1653 deposition), Braintree before 1645, Weymouth land grants 'in the East field,' 'in the mill field,' and 'on the east side of Great Pond' as early as 3 Feb. 1651-52 later granted to others, sold Braintree land 12 Feb. 1661, wife (name unknown) d. Braintree 20 Sept. 1661, m. (2) Braintree 12 Nov. 1661 widow Grissell Kibbee successively widow of Thomas Jewell, Henry Griggs, Henry Kibbee of Dorchester (her fifth husband John Burge of Weymouth, Chelmsford, and Dorchester), d. 1662-63 inventory 16 Mar. 1662-63, tailor by trade. Children: Mary b. near 1628, m. Daniel Shed who called John Gurney father; Richard b. near 1630; John b. near 1633, settled in Mendon; Peter b. near 1635; Isaac b. near 1640. Richard2 m. Rebecca Taylor (probably daughter of John and Phebe Taylor of Weymouth), made freeman 1681, surname found Garey/Garry/Gerry/Gurny, d. Weymouth Oct. 1719 (conflicts with Torrey '-1691'). Richard's children at Weymouth: Richard3 b. 18 Jan. 1656; John b. near 1658; Zachariah b. near 1660. John3 (Richard,2 John1) m. Elizabeth Green dau. of Joseph and Elizabeth (Whitman) Green b. Weymouth 5 Oct. 1664 (Joseph's will dated 8 Sept. 1691 named her 'my daughter Elizabeth Gurney'); children Elizabeth b. 5 May 1689, John b. May 1699. Zachariah3 (Richard,2 John1) b. near 1660, d. Weymouth 27 Oct. 1732, m. Mary -- (perhaps Mary Gurney d. Weymouth 14 Feb. 1736); children Zachariah4 b. 19 Nov. 1695, Joseph b. 7 Mar. 1697-98, Nathan b. 15 Oct. 1702, Jacob b. 31 Oct. 1706, Mary b. 24 Nov. 1711 m. 3 Jan. 1733-34 John Pratt of Weymouth. Zachariah4 b. 19 Nov. 1695 m. Weymouth 26 Sept. 1726 Sarah Jackson (probably dau. of Edmund and Mary (-) Jackson); children Sarah b. 7 May 1727, Zachariah b. 7 Mar. 1729, Elisha b. 30 June 1731. Page numbers as transcribed; the existing G13/G12 references to 'Weymouth Hist 3:251' should be reconciled against the section's true paging when the page image is captured."
   },
   {
     "sourceId": "hmc-12th-report-appendix-ix-1891",
@@ -2448,6 +2472,18 @@
     "notes": "Direct source for MBCR 1:331. The 1641 General Court record remits fines of John Gurney, James Ludden, and John Porter for want of gunpowder. Use as the controlling court citation; Weymouth identification depends on supporting local context."
   },
   {
+    "sourceId": "massachusetts-state-archives-colonial",
+    "shortTitle": "Massachusetts State Archives, colonial period (petition calendar)",
+    "citation": "Massachusetts State Archives Collection, Colonial Period, 1622–1788. Boston: Massachusetts Archives. Digitized on FamilySearch, film/DGS 007702977.",
+    "archive": "Massachusetts Archives (Boston); FamilySearch",
+    "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9Y5-F9M1-4",
+    "corpusStatus": "",
+    "corpusPath": "",
+    "mediaPath": "sources/media/massachusetts-state-archives-colonial/",
+    "validationPath": "sources/validations/massachusetts-state-archives-colonial.md",
+    "notes": "Calendar/index of colonial-period petitions and military papers. Image 947 (film 007702977, ark 3:1:3Q9M-C9Y5-F9M1-4) carries the entry dated 30 May 1641: 'Petition of John Gurny, Richard Porter, and James Ludden of Weymouth … remission of the fines laid upon them for [want of gunpowder].' Full-resolution read via das/v2, 2026-06-27: the forename plainly reads Richard — the petition tradition's counter-reading to the printed MBCR 1:331 'John Porter'. This is the calendar/index, not the petition document itself; the petition (the calendar's page reference into the Archives volume) is the remaining clincher. The same collection vol. 129:16 holds the 2 July 1688 Humphrey–Randall Wendover/Lee deposition (quoted via History of Weymouth)."
+  },
+  {
     "sourceId": "ma-wills-probate-records",
     "shortTitle": "Massachusetts Wills and Probate Records, 1635-1991",
     "citation": "Massachusetts, U.S., Wills and Probate Records, 1635-1991 (Ancestry.com, 2015). Original data: Massachusetts Probate Court records (Plymouth County), Probate Records, 1686-1903.",
@@ -2523,13 +2559,13 @@
     "sourceId": "suffolk-visitations-metcalfe-1882",
     "shortTitle": "Metcalfe, Visitations of Suffolk",
     "citation": "Metcalfe, Walter C., ed. The Visitations of Suffolk: Made by Hervey, Clarenceux, 1561, Cooke, Clarenceux, 1577, and Raven, Richmond Herald, 1612, with Notes and an Appendix of Additional Suffolk Pedigrees. Exeter: privately printed for the editor by William Pollard, 1882.",
-    "archive": "FamilySearch / HathiTrust",
+    "archive": "FamilySearch / HathiTrust / Internet Archive",
     "url": "https://www.familysearch.org/library/books/idurl/1/106650",
     "corpusStatus": "extract",
     "corpusPath": "sources/corpus_supplement/ryvett-suffolk-visitation-pedigrees-metcalfe.md",
     "mediaPath": "",
-    "validationPath": "",
-    "notes": "Heraldic visitation source for Suffolk Ryvett/Rivett pedigrees and gentry context used in the John Gurney case file. Ryvett extraction added at `sources/corpus_supplement/ryvett-suffolk-visitation-pedigrees-metcalfe.md` in June 2026."
+    "validationPath": "sources/validations/suffolk-visitations-metcalfe-1882.md",
+    "notes": "Heraldic visitation source for Suffolk Ryvett/Rivett pedigrees and gentry context used in the John Gurney case file. Ryvett extraction added at `sources/corpus_supplement/ryvett-suffolk-visitation-pedigrees-metcalfe.md` in June 2026. Rechecked 2026-06 for the West Barsham probable-Wentworth shield lead: OCR found no Gurney-Wentworth marriage; the Gurney hit was Frances Hovell/Hovell line marrying Edward Gurney of East Barsham/Barsham, Norfolk."
   },
   {
     "sourceId": "mhs-winthrop-papers-newgate-deed-1639",
@@ -2621,11 +2657,11 @@
     "citation": "Nash, Gilbert. Historical Sketch of the Town of Weymouth, Massachusetts, from 1622 to 1884. Weymouth, Massachusetts: Town of Weymouth, under the auspices of the Weymouth Historical Society, 1885. Printed by Alfred Mudge & Son, Boston.",
     "archive": "Internet Archive.",
     "url": "https://archive.org/details/historicalsketch00nash_0",
-    "corpusStatus": "partial",
-    "corpusPath": "sources/corpus_supplement/nash-historical-sketch-weymouth-1885-gurney-extracts.md",
-    "mediaPath": "",
+    "corpusStatus": "full",
+    "corpusPath": "sources/corpus/nash-historical-sketch-weymouth-1885.txt",
+    "mediaPath": "sources/media/nash-historical-sketch-weymouth-1885/nash-historical-sketch-weymouth-1885.pdf",
     "validationPath": "sources/validations/nash-historical-sketch-weymouth-1885.md",
-    "notes": "Weymouth local history preserving early land-list material. John appears under variants Gurny/Gurnie/Gurney on pp. 258, 270, 278, and 282; the strongest entry is the 1651/2 lot-list entry on p. 282, with the index grouping Gurny/Gurnie/Gurney variants. Useful for Weymouth land-grant baseline and spelling-variant search terms."
+    "notes": "Weymouth local history preserving early land-list material. Full Internet Archive OCR text and the public-domain PDF are held locally; the earlier focused Gurney extract remains at sources/corpus_supplement/nash-historical-sketch-weymouth-1885-gurney-extracts.md. John appears under variants Gurny/Gurnie/Gurney on pp. 258, 270, 278, and 282; the strongest entry is the 1651/2 lot-list entry on p. 282, with the index grouping Gurny/Gurnie/Gurney variants. A broad exact variant sweep of the full text on 28 June 2026 found these known G13 land references, later Gurney military and church references, and no additional colonial John Gurney occurrence."
   },
   {
     "sourceId": "national-churches-trust-harpley-st-lawrence",
@@ -3237,7 +3273,7 @@
     "corpusPath": "",
     "mediaPath": "",
     "validationPath": "sources/validations/potts-monastic-revival-regional-identity-1997.md",
-    "notes": "Modern scholarly control for the Montivilliers/Cauville transaction in SCRIPTA Act 6538. Potts pp. 42-43 treats the Cauville sale as an example of a sale later recast as ducal gift and cites Jean-Michel Bouvris, 'La renaissance de l'abbaye de Montivilliers autour de l'an mil,' in L'abbaye de Montivilliers a travers les ages (Montivilliers, 1988), pp. 67-84."
+    "notes": "Modern scholarly control for the Montivilliers/Cauville transaction in SCRIPTA Act 6538. Potts pp. 42-43 treats the Cauville sale as an example of a sale later recast as ducal gift. SCRIPTA's edition table gives the Bouvris locator as Jean-Michel Bouvris, 'La renaissance de l'abbaye de Montivilliers et son developpement jusqu'a la fin du XIe siecle,' in L'abbaye de Montivilliers a travers les ages, proceedings of the 8 March 1986 colloquium (Le Havre, 1988), pp. 17-84, especially pp. 67-84."
   },
   {
     "sourceId": "powell-historie-cambria-1584",
@@ -3286,6 +3322,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Searched via Findmypast. Key findings: No John Gurney in Buckinghamshire (15+ other Gurneys found). William Gurney at St Stephen Coleman Street. Abel Gurney at St Pancras Soper Lane. City of London returns do not survive (Gibson & Dell). Eythorne John confirmed alive."
+  },
+  {
+    "sourceId": "diceto-opera-historica-vol1-stubbs-1876",
+    "shortTitle": "Ralph de Diceto, Opera Historica, ed. Stubbs (Rolls Series 68, 1876)",
+    "citation": "Stubbs, William, ed. Radulfi de Diceto Decani Lundoniensis Opera Historica: The Historical Works of Master Ralph de Diceto, Dean of London. Vol. 1. Rolls Series 68. London: Longman & Co., 1876.",
+    "archive": "Internet Archive / Google Books (Rerum Britannicarum Medii Aevi Scriptores 68, vol. 1)",
+    "url": "https://www.google.com/books/edition/Rerum_Britannicarum_Medii_aevi_scriptore/NxdnAAAAMAAJ",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/diceto-opera-historica-gournay-1173.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Chronicle (Imagines Historiarum). The A.D. 1173 entry 'Hugo de Gornai, tam pater quam filius' records the capture of both Hugues IV and Hugues V de Gournay, with eighty knights, by the Young King during the 1173 rebellion against Henry II (taken by stratagem; castle burned). Stubbs notes the manuscript spelling variant 'Gurnai'. Chronicle evidence for chronology and political alignment, not charter evidence for kinship or property. Extract at corpusPath; the same 1173 datum is catalogued in research/topics/medlands-gournay-source-leads.md (entry 8, the senior-line Diceto reference). Validation skipped: single-location citation, fully covered by the corpus extract."
   },
   {
     "sourceId": "gournay-supp-reconstructed",
@@ -3442,6 +3490,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/rollco-stationers-hunscott-cluster.md",
     "notes": "Joseph Hunscott appears as Stationers' apprenticeship master in events dated 1612, 1614, 1619, 1626, 1632 (turnover master), 1635, 1636, 1638 (×2), 1642, and 1646 (×2). His son John Hunscott was admitted Stationer by servitude in 1641 with Joseph as 'father of freeman'. The variant spellings Henscott (Robert Gurney's 1625 will), Huntscott (BHO 1638 St Augustine return), and Hunscott (ROLLCO and Wing H3728 1646 petition) are the same person."
+  },
+  {
+    "sourceId": "rotuli-hundredorum-record-commission-1812",
+    "shortTitle": "Rotuli Hundredorum, vol. 1",
+    "citation": "Rotuli Hundredorum tempore Henrici III et Edwardi I. Vol. 1. London: Record Commission, 1812.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/rotuli-hundredorum-volume-1",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/rotuli-hundredorum-record-commission-1812.md",
+    "notes": "Direct online page-image route for the 1274 Hundred Rolls volume used to control Daniel Gurney Supplement extracts on the Gournay/Gurney warren and tenure entries at Hardingham and Harpley. OCR is noisy; use page images, with DG-Supp as the convenient quoted extract."
   },
   {
     "sourceId": "rudder-gloucestershire-1779",

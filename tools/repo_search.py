@@ -2072,6 +2072,200 @@ def command_variants(args: argparse.Namespace) -> int:
     return 0
 
 
+def collect_infile_targets(repo_root: Path, raw_paths: list[str], config: dict[str, Any]) -> list[Path]:
+    """Resolve ``infile`` file arguments to a concrete, de-duplicated file list.
+
+    Accepts repo-relative, cwd-relative, and absolute paths (a corpus file may
+    live in scratch or intake, outside the Git inventory). A directory expands to
+    the text files beneath it, using the same text extensions as the index.
+    """
+    extensions = {ext.casefold() for ext in config["textExtensions"]}
+    targets: list[Path] = []
+    for raw in raw_paths:
+        candidate = Path(raw).expanduser()
+        search_order = (
+            [candidate]
+            if candidate.is_absolute()
+            else [Path.cwd() / candidate, repo_root / candidate, candidate]
+        )
+        resolved = next((item for item in search_order if item.exists()), None)
+        if resolved is None:
+            raise SystemExit(f"infile target not found: {raw}")
+        if resolved.is_dir():
+            for path in sorted(resolved.rglob("*")):
+                if path.is_file() and path.suffix.casefold() in extensions:
+                    targets.append(path)
+        else:
+            targets.append(resolved)
+    seen: set[Path] = set()
+    unique: list[Path] = []
+    for path in targets:
+        key = path.resolve()
+        if key not in seen:
+            seen.add(key)
+            unique.append(path)
+    return unique
+
+
+def display_path(path: Path, repo_root: Path) -> str:
+    try:
+        return path.resolve().relative_to(repo_root).as_posix()
+    except ValueError:
+        return path.as_posix()
+
+
+def scan_lines_for_specs(
+    lines: list[str],
+    term_specs: list[SearchTermSpec],
+    fuzzy: bool,
+    threshold: int,
+    window: int,
+) -> dict[int, tuple[float, str, str]]:
+    """Best match per starting line index: ``{line_idx: (score, kind, term)}``.
+
+    Each window of ``window`` consecutive lines is normalised (the same OCR-aware
+    normalisation the index uses: NFKC, case-fold, soft-hyphen/line-break repair)
+    and tested against every term. An exact substring scores 100; otherwise
+    RapidFuzz ``partial_ratio`` supplies a fuzzy score, so an OCR-garbled or
+    line-wrapped form still surfaces. Matching and display stay separate: the raw
+    lines are what get shown.
+    """
+    normalized = [normalize_text(line) for line in lines]
+    total = len(lines)
+    hits: dict[int, tuple[float, str, str]] = {}
+    for spec in term_specs:
+        needle = normalize_text(spec.term)
+        if not needle:
+            continue
+        for index in range(total):
+            haystack = " ".join(normalized[index : index + window]).strip()
+            if not haystack:
+                continue
+            if needle in haystack:
+                score, kind = 100.0, "exact"
+            elif fuzzy and fuzz is not None and len(needle) >= 3 and len(haystack) >= len(needle):
+                # Guard the haystack length: partial_ratio treats a haystack
+                # shorter than the needle as a substring of it, so a stray "I"
+                # line would score 100% against a 5-letter surname.
+                ratio = fuzz.partial_ratio(needle, haystack)
+                if ratio < threshold:
+                    continue
+                score, kind = float(ratio), "fuzzy"
+            else:
+                continue
+            previous = hits.get(index)
+            if previous is None or score > previous[0]:
+                hits[index] = (score, kind, spec.term)
+    return hits
+
+
+def render_infile_regions(
+    disp_path: str,
+    lines: list[str],
+    hits: dict[int, tuple[float, str, str]],
+    context: int,
+    max_regions: int,
+) -> tuple[list[str], int]:
+    """Merge nearby hit lines into context windows and render them.
+
+    Returns the rendered lines (capped at ``max_regions`` passages) and the total
+    passage count so the caller can report any cap honestly.
+    """
+    ordered = sorted(hits)
+    regions: list[list[int]] = []
+    for index in ordered:
+        if regions and index - regions[-1][-1] <= context * 2 + 1:
+            regions[-1].append(index)
+        else:
+            regions.append([index])
+    output: list[str] = []
+    for region in regions[: max(1, max_regions)]:
+        start = max(0, region[0] - context)
+        end = min(len(lines), region[-1] + 1 + context)
+        best = max(region, key=lambda value: hits[value][0])
+        score, kind, term = hits[best]
+        label = "exact" if kind == "exact" else f"fuzzy {score:.0f}%"
+        output.append(f'## {disp_path}:{region[0] + 1} [{label}] term="{term}"')
+        hit_lines = set(region)
+        for line_index in range(start, end):
+            marker = ">" if line_index in hit_lines else " "
+            output.append(f"{marker} {line_index + 1:>6} | {lines[line_index]}")
+        output.append("")
+    return output, len(regions)
+
+
+def command_infile(args: argparse.Namespace) -> int:
+    """Deep, fuzzy, context-rich search *within* specified file(s).
+
+    Unlike ``locate`` (exact ``path:line``) and ``search`` (whole-repo staged
+    package), ``infile`` reads one or more named files — a corpus text, an intake
+    transcript, a scratch download — and returns context windows around exact and
+    fuzzy matches so an AI can go deeper on the source content itself. Output goes
+    straight to stdout; no saved package is created.
+    """
+    repo_root = find_repo_root(Path(args.repo_root) if args.repo_root else None)
+    config = load_config(repo_root)
+    terms = terms_from_args(args.terms)
+    if not terms:
+        raise SystemExit("Provide --terms to search within the file(s).")
+    fuzzy = False if args.exact else not args.no_fuzzy
+    if fuzzy and fuzz is None:
+        print(
+            "Note: RapidFuzz unavailable; falling back to exact/substring matching only.",
+            file=sys.stderr,
+        )
+        fuzzy = False
+    variant_profile = "none" if args.exact else args.variants
+    name_variant_request = "none" if args.exact else args.name_variants
+    term_specs, expansions, _selection = expand_variants(
+        repo_root, terms, variant_profile, name_variant_request, None
+    )
+    targets = collect_infile_targets(repo_root, args.file, config)
+    if not targets:
+        raise SystemExit("No readable text files among the given file targets.")
+    window = max(1, args.window)
+    context = max(0, args.context)
+    threshold = min(100, max(1, args.threshold))
+    match_mode = f"fuzzy >= {threshold}%" if fuzzy else "exact only"
+    print(
+        f"# infile: {len(term_specs)} term(s) across {len(targets)} file(s); "
+        f"{match_mode}, window {window}, context +/-{context}"
+    )
+    if expansions:
+        print(f"# variant expansions applied: {len(expansions)} (literal terms: {', '.join(terms)})")
+    total_lines = 0
+    files_with_hits = 0
+    for path in targets:
+        try:
+            text = path.read_text(encoding="utf-8-sig", errors="replace")
+        except OSError as exc:
+            print(f"# skip {display_path(path, repo_root)}: {exc}")
+            continue
+        lines = text.splitlines()
+        hits = scan_lines_for_specs(lines, term_specs, fuzzy, threshold, window)
+        if not hits:
+            continue
+        files_with_hits += 1
+        total_lines += len(hits)
+        disp = display_path(path, repo_root)
+        rendered, region_count = render_infile_regions(disp, lines, hits, context, args.max)
+        cap_note = f"; showing first {args.max}" if region_count > args.max else ""
+        print(f"\n### {disp} - {len(hits)} matching line(s) in {region_count} passage(s){cap_note}")
+        print("\n".join(rendered).rstrip())
+    if total_lines == 0:
+        print("\n(no matches in the given file(s))")
+        print(
+            "Tip: keep fuzzy on (the default), lower --threshold, or raise --window to catch wrapped/garbled forms; "
+            f"for whole-repo discovery use `{command_text('search', '--terms', quote_arg(terms[0]))}`."
+        )
+    else:
+        print(
+            f"\n# {total_lines} matching line(s) across {files_with_hits} file(s). "
+            "For whole-repo ranked context use `search`; for an exact path:line use `locate`."
+        )
+    return 0
+
+
 def command_locate(args: argparse.Namespace) -> int:
     """Exact literal/regex locator returning real ``path:line`` (+ optional context).
 
@@ -2261,6 +2455,42 @@ def build_parser() -> argparse.ArgumentParser:
     p_locate.add_argument("--all", action="store_true", help="Search ALL repo files incl. tools/, .claude/, site/ (default excludes them, matching genealogy search scope).")
     p_locate.add_argument("--max", type=int, default=200, help="Cap output lines (0 = unlimited).")
     p_locate.set_defaults(func=command_locate)
+
+    p_infile = sub.add_parser(
+        "infile",
+        help="Deep fuzzy, context-rich search WITHIN named file(s) (a corpus/transcript), not the whole repo.",
+    )
+    p_infile.add_argument(
+        "file",
+        nargs="+",
+        help="One or more files (or directories of text files) to search within; repo-relative, cwd-relative, or absolute.",
+    )
+    p_infile.add_argument("--terms", nargs="+", required=True, help="Search terms; quote phrases at the shell level.")
+    p_infile.add_argument("--context", "-C", type=int, default=3, help="Lines of context around each matched passage (default 3).")
+    p_infile.add_argument(
+        "--window",
+        type=int,
+        default=2,
+        help="Consecutive lines joined per match test, to catch wrapped/hyphenated phrases (default 2).",
+    )
+    p_infile.add_argument("--threshold", type=int, default=80, help="Minimum RapidFuzz partial-ratio score for a fuzzy hit (default 80).")
+    p_infile.add_argument("--no-fuzzy", action="store_true", help="Disable fuzzy matching; exact/substring only.")
+    p_infile.add_argument("--exact", action="store_true", help="Alias for --no-fuzzy plus literal terms (no variant expansion).")
+    p_infile.add_argument(
+        "--variants",
+        choices=["none", "conservative", "broad"],
+        default="none",
+        help="Optional curated variant expansion of terms (default none); needed for --name-variants to apply.",
+    )
+    p_infile.add_argument(
+        "--name-variants",
+        type=str.casefold,
+        choices=["modern", "english", "norman", "all", "none"],
+        default="none",
+        help="Surname-family expansion for terms (default none); requires --variants conservative|broad.",
+    )
+    p_infile.add_argument("--max", type=int, default=60, help="Cap rendered passages per file (default 60).")
+    p_infile.set_defaults(func=command_infile)
     return parser
 
 
