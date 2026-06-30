@@ -103,7 +103,7 @@ string. It is the right tool when the file is the corpus you are mining.
 .\.venv\Scripts\python.exe tools\repo_search.py infile `
   sources\corpus\daniel-gurney-part-2.md --terms Filby Harpley
 
-# Search several files (or a whole directory of text files) at once.
+# Search several files at once — and for a book too big to fetch inline, download its full text to scratch and infile it rather than making repeated partial web fetches.
 .\.venv\Scripts\python.exe tools\repo_search.py infile `
   sources\intake\new\pdfs\historicalsketch00nash_0.txt --terms Gurnay Gurney
 

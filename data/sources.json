@@ -6,6 +6,51 @@
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
+    "adams-genesis-massachusetts-town-1892": {
+      "shortTitle": "C. F. Adams, Genesis of the Massachusetts Town (1892)",
+      "citation": "Adams, Charles Francis. \"The Genesis of the Massachusetts Town, and the Development of Town-Meeting Government.\" Proceedings of the Massachusetts Historical Society, 2nd series, vol. 7 (1891–1892), pp. 172–263; Weymouth treatment pp. 190–192.",
+      "archive": "Internet Archive (item proceedingsofmass2v7mass).",
+      "url": "https://archive.org/details/proceedingsofmass2v7mass",
+      "corpusStatus": "extract",
+      "validationPath": "sources/validations/adams-genesis-massachusetts-town-1892.md",
+      "notes": "Land-system context for Weymouth: undated property records, no proprietor-body, the 6 April 1646 anti-stranger order, and the non-resident-proprietor doctrine. No Gurney named. Verbatim extract at sources/corpus_supplement/adams-genesis-massachusetts-town-1892-weymouth-land.md."
+    },
+    "adams-history-of-braintree-1891": {
+      "shortTitle": "C. F. Adams, History of Braintree (1891)",
+      "citation": "Adams, Charles Francis. History of Braintree, Massachusetts (1639–1708), the North Precinct of Braintree (1708–1792), and the Town of Quincy (1792–1889). Cambridge: Riverside Press, 1891.",
+      "archive": "Internet Archive (item historyofbraintr00adam).",
+      "url": "https://archive.org/details/historyofbraintr00adam",
+      "corpusStatus": "extract",
+      "validationPath": "sources/validations/adams-history-of-braintree-1891.md",
+      "notes": "North-Precinct/Quincy-scoped town history. Records Tyng's 1639 purchase of Mount Wollaston and \"large allotments, indicative of a non-resident ownership\" post-1637 (p. 5). Names no Gurney; John Gurney's freehold was in the South Precinct on the Monatiquot. Extract folded into sources/corpus_supplement/adams-genesis-massachusetts-town-1892-weymouth-land.md."
+    },
+    "history-of-town-of-hingham-1893": {
+      "shortTitle": "History of the Town of Hingham, Massachusetts (1893)",
+      "citation": "History of the Town of Hingham, Massachusetts. 3 vols. Hingham: published by the town, 1893. Vol. 1 (history, incl. Daniel Cushing's settler list, pp. 201–203); vol. 2 (genealogies, English parishes of origin).",
+      "archive": "Internet Archive (items historyoftownofh01hing, historyoftownofh02hing).",
+      "url": "https://archive.org/details/historyoftownofh01hing",
+      "corpusStatus": "extract",
+      "validationPath": "sources/validations/history-of-town-of-hingham-1893.md",
+      "notes": "Documents the Norfolk emigrant cohort (206 from Hingham, Norfolk and vicinity, 1633–39; Diligent 1638 = 133) that settled adjacent to Weymouth. No colonial Gurney at Hingham. Verbatim extract at sources/corpus_supplement/hingham-massachusetts-norfolk-emigrant-cohort-1633-1639.md."
+    },
+    "massachusetts-bay-records-v2-1853": {
+      "shortTitle": "Mass. Bay Records, vol. 2 (1642–1649), Shurtleff ed.",
+      "citation": "Shurtleff, Nathaniel B., ed. Records of the Governor and Company of the Massachusetts Bay in New England, vol. 2, 1642–1649. Boston: William White, 1853, p. 79.",
+      "archive": "Internet Archive (item cu31924091024582).",
+      "url": "https://archive.org/details/cu31924091024582",
+      "corpusStatus": "extract",
+      "validationPath": "sources/validations/massachusetts-bay-records-v2-1853.md",
+      "notes": "Printed record of the General Court session beginning 30 Oct 1644: \"John Gurny his byl for 3. 16. 4d & Tho: Lake his note for 1. 3. 8d are accepted for £5 fro Mr Ginner.\" Corrects the earlier machine-transcript reading of a \"16 March 1641/2\" date. Index renders the counterparty \"Ginner, Mr.\" = Rev. Thomas Jenner."
+    },
+    "nehgr-30-432": {
+      "shortTitle": "NEHGR vol. 30 (1876), p. 432 — Capt. William Tyng inventory",
+      "citation": "\"Abstracts of the Earliest Wills on Record in the County of Suffolk, Mass.\" New England Historical and Genealogical Register, vol. 30 (Boston: NEHGS, 1876), p. 432, inventory of Capt. William Tyng, made 25 May 1653 (abstracting Suffolk County, Mass., Probate Register vol. viii, p. 62).",
+      "archive": "Internet Archive (item newenglandhistor30wate).",
+      "url": "https://archive.org/details/newenglandhistor30wate",
+      "corpusStatus": "extract",
+      "validationPath": "sources/validations/nehgr-30-432.md",
+      "notes": "Tyng probate inventory abstract. Lists \"48 Akers land at Brantree, and Marsh in the possession of John Gurney,\" separate from the Tyng \"Salters Farme.\" Verbatim extract at sources/corpus_supplement/tyng-inventory-1653-nehgr-30-432-john-gurney.md."
+    },
     "billerica-town-records-ms": {
       "shortTitle": "Billerica town records (MS)",
       "citation": "Billerica, Massachusetts. Town Records, 1653–1727 (manuscript). FamilySearch image group DGS 007466228.",

@@ -96,3 +96,15 @@ Append durable, reusable paleography lessons here after manuscript-analysis task
 - Gurney/Gournay variants or false friends: Consecutive FTS target pages can be an unrelated deed containing historical Gournay property references rather than the named person's transaction.
 - Reading lesson: Always compare FamilySearch's normalized display place with `Event Place (Original)` and film metadata. Here three supposed Bawdeswell Wales events belonged to Shimpling. An indexed faint line should also be revisited from its direct original-image link before accepting a manuscript negative.
 - Avoid next time: Do not let a normalized place drive parish-image staging, and do not treat multiple FTS ARKs as duplicate hits until the named relationship is present on each image.
+
+## 2026-06-29 - Weymouth proprietors' Land Grants book, DGS 007009659
+
+- Scope: Packet 40, Weymouth ownership descriptions and early-grantee references.
+- Source/image range: `007009659_00128`–`00145`; substantive land series on manuscript pp. 9–32.
+- Document type and date range: Proprietors' land-description compilation with appended 1644 sales; proposed 1636 and 1651–52 lists were not in the staged range.
+- Hand or scribe: English secretary/register hand, often very faint.
+- Useful enhancement: Full-page halves for owner headings, followed by manual 600–900-pixel horizontal bands at 3x–4x; autocontrast and sharpen were most useful, while threshold usually destroyed faint strokes.
+- Comparator words: Repeated `first granted`, `first giuen`, `bounded`, `East ffield`, and owner headings.
+- Gurney/Gournay variants or false friends: Image-supported `John Gurny` on manuscript p. 12 and `John Gurnie` on pp. 23 and 31.
+- Reading lesson: Nash's printed page references are locator numbers, not manuscript foliation. In this film, the three early-grantee clauses are on manuscript pp. 12, 23, and 31; the staged run ends at p. 32 before the separate 1636 and 1651–52 lists.
+- Avoid next time: Do not infer a 1643 date from Nash's appendix heading or a 1651–52 entry from the printed edition when the manuscript heading and continuation images are absent.

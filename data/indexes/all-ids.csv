@@ -194,6 +194,8 @@ brs-v21,source,BRS v21 (1642 Bucks tax),data/sources.json
 burke-landed-gentry-gurney,source,Burke's Landed Gentry - Gurney of Maldon pedigree (tertiary),data/sources.json
 burke-ancient-family,source,"Burke, The Ancient Family of Gurney",data/sources.json
 bury-st-james-registers,source,"Bury St Edmunds, St James registers",data/sources.json
+adams-genesis-massachusetts-town-1892,source,"C. F. Adams, Genesis of the Massachusetts Town (1892)",data/sources.json
+adams-history-of-braintree-1891,source,"C. F. Adams, History of Braintree (1891)",data/sources.json
 calder-new-haven-colony-1934,source,"Calder, New Haven Colony",data/sources.json
 cal-cecil-papers-hatfield,source,"Calendar of Cecil Papers, Hatfield House",data/sources.json
 cfr-henry-iv-1405-13,source,"Calendar of Fine Rolls, Henry IV, 1405-13",data/sources.json
@@ -317,6 +319,7 @@ hop-drury-robert-i-1456-1535,source,"History of Parliament -- DRURY, Sir Robert 
 hop-harling,source,History of Parliament / biography — Sir Robert Harling (d.1435),data/sources.json
 hop-gurney,source,History of Parliament Online — Gurney,data/sources.json
 hop-berney,source,"History of Parliament — Berney, Sir Robert (c.1365-1415)",data/sources.json
+history-of-town-of-hingham-1893,source,"History of the Town of Hingham, Massachusetts (1893)",data/sources.json
 history-of-weymouth,source,"History of Weymouth, Massachusetts (1923)",data/sources.json
 hmc-12th-report-appendix-ix-1891,source,hmc-12th-report-appendix-ix-1891,data/sources.json
 hobart-abington-1839,source,"Hobart, Historical Sketch of Abington (1839)",data/sources.json
@@ -349,6 +352,7 @@ delisle-critique-of-dg,source,Léopold Delisle's critique of Daniel Gurney,data/
 macris-mhc,source,MACRIS - Massachusetts Cultural Resource Information System,data/sources.json
 macris-cum-115-gurney-ase-house,source,"MACRIS CUM.115 - Gurney, Ase House (51 Main St, Cummington)",data/sources.json
 macris-cum-151-gurney-asa-house,source,"MACRIS CUM.151 - Gurney, Asa House (75 Mount Rd, Cummington)",data/sources.json
+massachusetts-bay-records-v2-1853,source,"Mass. Bay Records, vol. 2 (1642–1649), Shurtleff ed.",data/sources.json
 massachusetts-bay-records-v1-1853,source,"Massachusetts Bay Records, vol. 1",data/sources.json
 massachusetts-state-archives-colonial,source,"Massachusetts State Archives, colonial period (petition calendar)",data/sources.json
 ma-wills-probate-records,source,"Massachusetts Wills and Probate Records, 1635-1991",data/sources.json
@@ -370,6 +374,7 @@ national-churches-trust-harpley-st-lawrence,source,National Churches Trust - Har
 nehgr-12-suffolk-wills-1858,source,NEHGR 12 - Suffolk Wills - John Gurney probate abstract,data/sources.json
 nehgr-49-genealogical-gleanings-john-lewis,source,"NEHGR 49 - Genealogical Gleanings, John Lewis will",data/sources.json
 nehgr-62-94,source,NEHGR 62:94,data/sources.json
+nehgr-30-432,source,"NEHGR vol. 30 (1876), p. 432 — Capt. William Tyng inventory",data/sources.json
 nj-marriage-index-1901-2016,source,"New Jersey Marriage Index, 1901-2016",data/sources.json
 nyclipper-1895-08-patchogue-fauntleroy,source,"New York Clipper, August 1895 — Patchogue Lord Fauntleroy notice",data/sources.json
 ny-war-1812-payroll-abstracts,source,New York War of 1812 militia payroll abstracts,data/sources.json
