@@ -1,10 +1,13 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import tempfile
+import time
 import unittest
 from pathlib import Path
+from unittest import mock
 
 from tools import repo_search
 
@@ -188,12 +191,88 @@ class RepoSearchUnitTests(unittest.TestCase):
             cache_root = Path(tmp)
             lock_path = cache_root / repo_search.SEARCH_LOCK_NAME
             lock_path.write_text('{"pid": 123, "label": "existing"}\n', encoding="utf-8")
-            with self.assertRaises(SystemExit) as raised:
-                with repo_search.acquire_repo_search_lock(cache_root, "test", max_waits=0, wait_seconds=0):
-                    pass
+            with mock.patch.object(repo_search, "process_exists", return_value=True):
+                with self.assertRaises(SystemExit) as raised:
+                    with repo_search.acquire_repo_search_lock(cache_root, "test", max_waits=0, wait_seconds=0):
+                        pass
             message = str(raised.exception)
             self.assertIn("repo_search is already running", message)
             self.assertIn(str(lock_path), message)
+
+    def test_repo_search_lock_recovers_dead_owner(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            cache_root = Path(tmp)
+            lock_path = cache_root / repo_search.SEARCH_LOCK_NAME
+            lock_path.write_text('{"pid": 123, "label": "dead"}\n', encoding="utf-8")
+            with mock.patch.object(repo_search, "process_exists", return_value=False):
+                with repo_search.acquire_repo_search_lock(cache_root, "test", max_waits=0, wait_seconds=0):
+                    payload = json.loads(lock_path.read_text(encoding="utf-8"))
+                    self.assertEqual(payload["pid"], os.getpid())
+            self.assertFalse(lock_path.exists())
+
+    def test_search_index_uses_section_ids_as_fts_rowids(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = root / "sample.md"
+            source.write_text("# One\n\nFirst.\n\n## Two\n\nSecond.\n", encoding="utf-8")
+            stat = source.stat()
+            record = repo_search.FileRecord(
+                path="sample.md",
+                layer="other",
+                object_type="text",
+                size=stat.st_size,
+                mtime_ns=stat.st_mtime_ns,
+            )
+            index = repo_search.SearchIndex(root / "index.sqlite3")
+            try:
+                index.refresh(root, [record])
+                section_ids = [row[0] for row in index.conn.execute("SELECT id FROM sections ORDER BY id")]
+                for table in ("sections_fts", "sections_tri"):
+                    if table == "sections_tri" and not index.trigram_available:
+                        continue
+                    fts_rows = [
+                        tuple(row)
+                        for row in index.conn.execute(f"SELECT rowid,section_id FROM {table} ORDER BY rowid")
+                    ]
+                    self.assertEqual(fts_rows, [(section_id, section_id) for section_id in section_ids])
+                traced: list[str] = []
+                index.conn.set_trace_callback(traced.append)
+                index._delete_file("sample.md")
+                self.assertTrue(any("DELETE FROM sections_fts WHERE rowid=" in sql for sql in traced))
+                if index.trigram_available:
+                    self.assertTrue(any("DELETE FROM sections_tri WHERE rowid=" in sql for sql in traced))
+            finally:
+                index.close()
+
+    def test_search_index_skips_reindex_for_mtime_only_change(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = root / "sample.md"
+            source.write_text("# One\n\nUnchanged.\n", encoding="utf-8")
+
+            def record() -> repo_search.FileRecord:
+                stat = source.stat()
+                return repo_search.FileRecord(
+                    path="sample.md",
+                    layer="other",
+                    object_type="text",
+                    size=stat.st_size,
+                    mtime_ns=stat.st_mtime_ns,
+                )
+
+            index = repo_search.SearchIndex(root / "index.sqlite3")
+            try:
+                index.refresh(root, [record()])
+                before = index.conn.execute("SELECT id FROM sections").fetchall()
+                future = time.time_ns() + 2_000_000_000
+                os.utime(source, ns=(future, future))
+                stats = index.refresh(root, [record()])
+                after = index.conn.execute("SELECT id FROM sections").fetchall()
+                self.assertEqual(stats["changed"], 0)
+                self.assertEqual(stats["metadataOnly"], 1)
+                self.assertEqual(before, after)
+            finally:
+                index.close()
 
     def test_locate_tips_nudge_broad_search(self) -> None:
         tips = repo_search.locate_followup_tips("Gurney probate", None, match_lines=6, capped=False)

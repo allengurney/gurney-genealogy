@@ -1647,16 +1647,38 @@
       "validationPath": null,
       "notes": "Earliest comprehensive reference for John Gurney-1. Cites the 1653 deposition 'aged about 50.'"
     },
-    "nps-adams-nhp": {
-      "shortTitle": "NPS Adams National Historical Park CLR",
-      "citation": "National Park Service. Cultural Landscape Report, Adams National Historical Park, Quincy, Massachusetts.",
-      "archive": "National Park Service",
-      "url": null,
+    "weymouth-land-grants-book-ms": {
+      "shortTitle": "Weymouth Land Grants book (MS)",
+      "citation": "Weymouth, Massachusetts. Proprietors' early Land Grants book (\"the old town book\"), manuscript. FamilySearch film/DGS 007009659.",
+      "archive": "FamilySearch",
+      "url": "https://www.familysearch.org/search/film/007009659",
+      "corpusStatus": "supplement",
+      "corpusPath": "sources/corpus_supplement/weymouth-land-grants-book-1643-gurney-manuscript-extracts.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/weymouth-land-grants-book-ms.md",
+      "notes": "Manuscript of the 1643 Weymouth possession survey transcribed in print by Nash (1885 App. C). Packet-40 image read (images 00128-00145, ms pp. 9-32) confirms John Gurney as original grantee of three parcels: two 2-acre East Field lots (p.12 under Robert Randoll, 'John Gurny'; p.23 under Nathaniel Addames, 'John Gurnie') and one 4-acre Mill Field lot (p.31 under Thomas Richardes, 'John Gurnie'). Grants undated; all reassigned to other men by the survey."
+    },
+    "boston-town-records-1634-1660": {
+      "shortTitle": "Boston Town Records 1634-1660 (Book of Possessions)",
+      "citation": "Second Report of the Record Commissioners of the City of Boston: Boston Town Records, 1634-1660, and the Book of Possessions. 2nd ed. Boston, 1881.",
+      "archive": "Internet Archive",
+      "url": "https://archive.org/details/secondreportofre00bost",
       "corpusStatus": "none",
       "corpusPath": null,
       "mediaPath": null,
-      "validationPath": null,
-      "notes": "Independent non-genealogical source identifying John Gurney among early Braintree tenants within the future park boundaries. Reports John died with no land."
+      "validationPath": "sources/validations/boston-town-records-1634-1660.md",
+      "notes": "Broad Gurney-variant sweep of the body (Modern set + OCR garbles, fuzzy), confirmed on two independent text copies (IA + sources/intake/new/pdfs/secondreportofre00bost.txt): NEGATIVE for Gurney in any spelling; body reaches 1659-1660, Book of Possessions present. The FS-index 'Garnsey' = the separate Garnsey/Guernsey family of Dorchester, not Gurney. William Tyng and John Newgate pervasive. Bears on Anderson's unverified 'Boston' settlement (lead L-193). FS manuscript film 007939452 not read directly."
+    },
+    "nps-adams-nhp": {
+      "shortTitle": "NPS Adams National Historical Park CLR",
+      "citation": "National Park Service. Cultural Landscape Report, Adams National Historic Site, Quincy, Massachusetts. 1997.",
+      "archive": "National Park Service (npshistory.com)",
+      "url": "https://npshistory.com/publications/adam/clr-1997.pdf",
+      "corpusStatus": "full",
+      "corpusPath": "sources/corpus/nps-adams-clr-1997.txt",
+      "mediaPath": "sources/media/nps-adams-nhp/",
+      "validationPath": "sources/validations/nps-adams-nhp.md",
+      "notes": "1997 Cultural Landscape Report, Adams National Historic Site (npshistory.com). Site Chronology pp. 12-13 and Figure 1 ('William Tyng's 45-acre farm, Braintree, 1649', by Ezekiel Sargent) record: 1647 Tyng leased John Gurney a 45-acre Braintree farm for ten years; Gurney continued leasing it from Tyng's daughters Bethia and Mercy until 1662; the northern portion of 'the Gurney farm' became the Adams Old House property (central Quincy). Authority = Ezekiel Sargent MSS, Quincy Historical Society, 'Land Formerly of William Tyng.'"
     },
     "tna-pcc-probate": {
       "shortTitle": "TNA PCC Probate Records",

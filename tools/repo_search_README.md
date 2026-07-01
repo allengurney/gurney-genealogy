@@ -191,9 +191,17 @@ Every search refreshes changed files automatically.
 `search`, `map`, `index`, and `clean` use a simple cache-level lock so that one
 repo-search command owns the shared SQLite/package cache at a time. A second
 command waits twelve times in 5-second intervals; if the lock is still present,
-it exits with the lock path and the recorded command metadata. `locate`,
+it exits with the lock path and the recorded command metadata. If the recorded
+owner PID is no longer active, the next lock-taking command removes that stale
+lock automatically and continues. Malformed locks and locks owned by active
+processes are never removed automatically. `locate`,
 `infile`, `runs`, `resume`, and `expand` stay lightweight and do not take this
 queue lock.
+
+Incremental refreshes key both FTS tables by the canonical section ID, so
+changed-file deletion uses indexed SQLite `rowid` lookups rather than scanning
+the full word and trigram tables. A modification-time-only change with identical
+content updates file metadata without reparsing or rebuilding its sections.
 
 ```powershell
 .\.venv\Scripts\python.exe tools\repo_search.py index --status

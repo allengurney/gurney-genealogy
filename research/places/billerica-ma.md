@@ -1,20 +1,10 @@
 # Billerica, Massachusetts, USA
 
-Billerica enters the John Gurney-1 research library through the Dudley Farm purchase-rate context rather than through a proved residence or family event.
+John Gurney's whole Billerica footprint falls in about seven months of 1659–60, always as "John Gurney of Braintree." He took up a proprietor's place in the new town's first land divisions, surrendered the house-lot within four months, and never moved there; nothing became a lasting Gurney holding.
 
-## John Gurney and the 1659 Dudley Farm rate
+## John Gurney at Billerica, 1659–1660
 
-Hazen's printed Billerica history gives the 10 September 1659 rate list for the half payment of the Dudley Farm purchase. John Gurney appears in the list with an assessment of 2-5-10. Hazen frames the list as fulfilling the agreement that later inhabitants should repay the original farm proprietors one-half of the farm's cost. The Dudley Farm price was 110 pounds, so the half-payment target was 55 pounds; Hazen adds that the balance of that 55 pounds was probably assessed on later town purchasers.[^hazen-billerica]
-
-This is a useful expansion of John Gurney's Massachusetts geography, but it should be handled carefully. The printed list shows participation in a purchase-rate assessment connected to Billerica; it does not, without the underlying town record and related land records, prove that John permanently resided there or held a specific parcel.
-
-[^hazen-billerica]: Henry A. Hazen, *History of Billerica, Massachusetts, with a Genealogical Register* (Boston: A. Williams and Co., 1883), historical p. 33 / image p. 54, [Internet Archive](https://archive.org/details/historyofbilleri00hazen). Source ID: `hazen-billerica-1883`.
-
-## Open items
-
-- [ ] Pull the underlying Billerica town record for the 10 September 1659 Dudley Farm rate.
-- [ ] Check whether John Gurney appears in any Billerica land, tax, or proprietors' records after the 1659 assessment.
-- [ ] Reconcile this Billerica lead with the existing Weymouth/Braintree chronology before adding stronger residence language.
+The manuscript town book and Hazen's printed history together give the full picture: a ten-acre house-lot granted 15 August 1659 on condition John settle it himself, with his son Richard accepted as a fellow inhabitant; a £3 house valuation, town charges of 10s 7d, and the £2 5s 10d Dudley-Farm rate of 10 September 1659; an absentee share in the November 1659 upland division, where Peter Brackett and Joseph Thompson held "the right of John Gurney, of Braintree"; two great-meadow lots (at James Paterson's bounds and the mouth of Horse Brook); and the surrender on 26 December 1659, when Daniel Shed — John's son-in-law — answered "for his father John Gurney," after which half the lot was re-granted to John Hall. Full treatment and citations on the [John Gurney (G13) companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g13-john-gurney-fact-sheet.research.md); manuscript extract at [`billerica-town-records-gurney-1659-1660.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/billerica-town-records-gurney-1659-1660.md).
 
 <!-- GENERATED:PLACE-REGISTRY:START -->
 ## Place registry

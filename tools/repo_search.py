@@ -61,6 +61,33 @@ LEAD_RE = re.compile(r"^L-\d+$", re.I)
 WORD_RE = re.compile(r"[\w'-]+", re.UNICODE)
 
 
+def process_exists(pid: int) -> bool:
+    if pid <= 0:
+        return False
+    if pid == os.getpid():
+        return True
+    if os.name == "nt":
+        import ctypes
+
+        process_query_limited_information = 0x1000
+        kernel32 = ctypes.WinDLL("kernel32", use_last_error=True)
+        kernel32.OpenProcess.argtypes = [ctypes.c_uint32, ctypes.c_int, ctypes.c_uint32]
+        kernel32.OpenProcess.restype = ctypes.c_void_p
+        kernel32.CloseHandle.argtypes = [ctypes.c_void_p]
+        handle = kernel32.OpenProcess(process_query_limited_information, False, pid)
+        if handle:
+            kernel32.CloseHandle(handle)
+            return True
+        return ctypes.get_last_error() == 5  # Access denied still means the process exists.
+    try:
+        os.kill(pid, 0)
+    except ProcessLookupError:
+        return False
+    except PermissionError:
+        return True
+    return True
+
+
 class RepoSearchLock:
     def __init__(
         self,
@@ -79,12 +106,15 @@ class RepoSearchLock:
     def __enter__(self) -> "RepoSearchLock":
         self.path.parent.mkdir(parents=True, exist_ok=True)
         flags = os.O_CREAT | os.O_EXCL | os.O_WRONLY
-        for wait_index in range(self.max_waits + 1):
+        wait_index = 0
+        while True:
             try:
                 self.fd = os.open(self.path, flags)
                 os.write(self.fd, self._payload().encode("utf-8"))
                 return self
             except FileExistsError:
+                if self._remove_dead_owner_lock():
+                    continue
                 if wait_index >= self.max_waits:
                     waited = self.max_waits * self.wait_seconds
                     details = self._existing_details()
@@ -100,8 +130,8 @@ class RepoSearchLock:
                     f"({wait_index + 1}/{self.max_waits}) for {self.label}...",
                     file=sys.stderr,
                 )
+                wait_index += 1
                 time.sleep(self.wait_seconds)
-        raise AssertionError("unreachable lock acquisition state")
 
     def __exit__(self, exc_type: object, exc: object, traceback: object) -> None:
         if self.fd is not None:
@@ -124,6 +154,26 @@ class RepoSearchLock:
             },
             indent=2,
         ) + "\n"
+
+    def _remove_dead_owner_lock(self) -> bool:
+        try:
+            original = self.path.read_text(encoding="utf-8")
+            payload = json.loads(original)
+            pid = int(payload["pid"])
+        except (OSError, ValueError, TypeError, KeyError, json.JSONDecodeError):
+            return False
+        if process_exists(pid):
+            return False
+        try:
+            if self.path.read_text(encoding="utf-8") != original:
+                return False
+            self.path.unlink()
+        except FileNotFoundError:
+            return True
+        except OSError:
+            return False
+        print(f"repo_search removed stale lock from inactive PID {pid}: {self.path}", file=sys.stderr)
+        return True
 
     def _existing_details(self) -> str:
         try:
@@ -573,16 +623,32 @@ class SearchIndex:
         current = {record.path: record for record in inventory}
         removed = sorted(set(existing) - set(current))
         changed: list[FileRecord] = []
+        metadata_only: list[FileRecord] = []
         unchanged = 0
         for record in inventory:
             old = existing.get(record.path)
-            if force or old is None or old["size"] != record.size or old["mtime_ns"] != record.mtime_ns:
+            if force or old is None or old["size"] != record.size:
                 changed.append(record)
-            else:
+            elif old["mtime_ns"] == record.mtime_ns:
                 unchanged += 1
+            elif old["content_hash"] == hash_file(repo_root / record.path):
+                metadata_only.append(record)
+                unchanged += 1
+            else:
+                changed.append(record)
         with self.conn:
             for path in removed:
                 self._delete_file(path)
+            for record in metadata_only:
+                self.conn.execute(
+                    "UPDATE files SET size=?,mtime_ns=?,indexed_at=? WHERE path=?",
+                    (
+                        record.size,
+                        record.mtime_ns,
+                        dt.datetime.now(dt.timezone.utc).isoformat(),
+                        record.path,
+                    ),
+                )
             for record in changed:
                 self._delete_file(record.path)
                 sections = parse_file(repo_root, record)
@@ -612,9 +678,15 @@ class SearchIndex:
                     )
                     section_id = cursor.lastrowid
                     values = (section_id, section.path, section.heading, section.body)
-                    self.conn.execute("INSERT INTO sections_fts(section_id,path,heading,body) VALUES(?,?,?,?)", values)
+                    self.conn.execute(
+                        "INSERT INTO sections_fts(rowid,section_id,path,heading,body) VALUES(?,?,?,?,?)",
+                        (section_id, *values),
+                    )
                     if self.trigram_available:
-                        self.conn.execute("INSERT INTO sections_tri(section_id,path,heading,body) VALUES(?,?,?,?)", values)
+                        self.conn.execute(
+                            "INSERT INTO sections_tri(rowid,section_id,path,heading,body) VALUES(?,?,?,?,?)",
+                            (section_id, *values),
+                        )
                 self.conn.execute(
                     "INSERT INTO files(path,layer,object_type,object_id,size,mtime_ns,content_hash,indexed_at) VALUES(?,?,?,?,?,?,?,?)",
                     (
@@ -628,14 +700,20 @@ class SearchIndex:
                         dt.datetime.now(dt.timezone.utc).isoformat(),
                     ),
                 )
-        return {"changed": len(changed), "removed": len(removed), "unchanged": unchanged, "files": len(inventory)}
+        return {
+            "changed": len(changed),
+            "metadataOnly": len(metadata_only),
+            "removed": len(removed),
+            "unchanged": unchanged,
+            "files": len(inventory),
+        }
 
     def _delete_file(self, path: str) -> None:
         ids = [row[0] for row in self.conn.execute("SELECT id FROM sections WHERE path=?", (path,))]
         for section_id in ids:
-            self.conn.execute("DELETE FROM sections_fts WHERE section_id=?", (section_id,))
+            self.conn.execute("DELETE FROM sections_fts WHERE rowid=?", (section_id,))
             if self.trigram_available:
-                self.conn.execute("DELETE FROM sections_tri WHERE section_id=?", (section_id,))
+                self.conn.execute("DELETE FROM sections_tri WHERE rowid=?", (section_id,))
         self.conn.execute("DELETE FROM sections WHERE path=?", (path,))
         self.conn.execute("DELETE FROM files WHERE path=?", (path,))
 

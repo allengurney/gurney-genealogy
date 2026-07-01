@@ -213,4 +213,5 @@ secrets.json
 
 # Ephemeral intake scratch and Python bytecode cache
 sources/intake/_workspace/
-tools/__pycache__/
+**/__pycache__/
+*.py[cod]

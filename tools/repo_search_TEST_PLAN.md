@@ -63,6 +63,12 @@ and, when a tokenizer is available, the tokenizer's actual count.
 ### Functionality and resilience
 
 - Incremental refresh indexes only changed/added/removed files.
+- FTS rows use canonical section IDs as SQLite rowids, and changed-file
+  deletion does not scan either complete FTS table.
+- A lock owned by an inactive PID is recovered automatically; an active or
+  unreadable owner is preserved.
+- Modification-time-only changes with identical content update index metadata
+  without replacing section rows.
 - `index --check` detects a changed file before refresh.
 - Exact ripgrep retrieval still works after deleting/rebuilding SQLite.
 - `runs`, `resume`, and `expand` work across new processes.

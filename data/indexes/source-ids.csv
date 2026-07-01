@@ -46,6 +46,7 @@ blomefield-norfolk,"Blomefield, History of Norfolk",none,,,
 blomefield-norfolk-vol5-pp33-cringleford-berford,"Blomefield, Norfolk vol. 5 (BHO) — Cringleford, Berford's Manor",partial,sources/corpus_supplement/blomefield-norfolk-vol5-pp33-cringleford-berford.md,,sources/validations/blomefield-norfolk-vol5-pp33-cringleford-berford.md
 bodge-soldiers-king-philips-war-1891,"Bodge, Soldiers in King Philip's War (1891)",partial,sources/corpus_supplement/bodge-soldiers-king-philips-war-1891-gurney-extracts.md,sources/media/bodge-soldiers-king-philips-war-1891/,sources/validations/bodge-soldiers-king-philips-war-1891.md
 bodleian-ms-tanner-175-marco,Bodleian MS Tanner 175 - MARCO,none,,,sources/validations/bodleian-ms-tanner-175-marco.md
+boston-town-records-1634-1660,Boston Town Records 1634-1660 (Book of Possessions),none,,,sources/validations/boston-town-records-1634-1660.md
 braintree-records-1640-1793-1886,"Braintree town records, 1640-1793",none,,,sources/validations/braintree-records-1640-1793-1886.md
 british-archivist-bernau-1913,"Bernau, British Archivist - Francis Gournay",full,sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md,sources/media/The_British_Archivist.pdf,sources/validations/british-archivist-bernau-1913.md
 brooke-catalogue-succession-1619,"Brooke, Catalogue and Succession (1619)",partial,sources/corpus_supplement/brooke-catalogue-succession-1619-selected-gurney-pages.md,sources/media/brooke-catalogue-succession-1619/,sources/validations/brooke-catalogue-succession-1619.md
@@ -250,7 +251,7 @@ norman-geo-locator-southern-boundary-2026,Norman geo overlay - southern boundary
 normonde-hugues-1er-de-gournay,Normonde authority file: Hugues Ier de Gournay,partial,,,
 norwich-records-hudson-tingey-vol2,"Hudson and Tingey -- Records of the City of Norwich, vol. ii (1910)",supplement,sources/corpus_supplement/norwich-records-hudson-tingey-vol2-edmund-gornay-fees.md,,
 norwich-university-history,Norwich University history (Wikipedia; Norwich catalog),none,,,
-nps-adams-nhp,NPS Adams National Historical Park CLR,none,,,
+nps-adams-nhp,NPS Adams National Historical Park CLR,full,sources/corpus/nps-adams-clr-1997.txt,sources/media/nps-adams-nhp/,sources/validations/nps-adams-nhp.md
 nro-ncc-wills-registers,"Norfolk Record Office, NCC Will Registers",none,,,
 nro-pd-12-1,"NRO PD 12/1 (St Martin at Palace, Norwich)",none,,,
 nro-pd-86-41,NRO PD 86/41 (East Dereham register),none,,sources/media/parish-register/,
@@ -345,6 +346,7 @@ walker-lancastrian-affinity-1361-1399,"Walker, The Lancastrian Affinity 1361–1
 wansey-medieval-genealogy-1925,"Wansey, ancient family of the Wanseys",none,,sources/media/1925_08Wansey_Family_Tree_Medieval_Genealogy.pdf,sources/validations/wansey-medieval-genealogy-1925.md
 weymouth-classified-record-births-nash,"Classified Record of Weymouth Births (Nash copy, 1879)",none,,sources/media/weymouth-classified-record-births-nash/,
 weymouth-classified-record-deaths-nash,"Classified Record of Weymouth Deaths (Nash copy, 1879)",none,,sources/media/weymouth-classified-record-deaths-nash/,
+weymouth-land-grants-book-ms,Weymouth Land Grants book (MS),supplement,sources/corpus_supplement/weymouth-land-grants-book-1643-gurney-manuscript-extracts.md,,sources/validations/weymouth-land-grants-book-ms.md
 wikipedia-en-hamelin-de-warenne,Wikipedia -- Hamelin de Warenne,external,,,
 wikipedia-fr-famille-de-gournay,Wikipedia FR -- Famille de Gournay,external,,,
 wikitree-newgate-14-horningsheath,"WikiTree Newgate-14 — John Newgate of Horningsheath, Suffolk",none,,,sources/validations/wikitree-newgate-14-horningsheath.md

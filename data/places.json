@@ -2281,7 +2281,7 @@
     "aliases": [
       "The East Field, Weymouth"
     ],
-    "shortDescription": "John Gurney Sr. land grant, 1651–52; parcel unlocated",
+    "shortDescription": "John Gurney Sr. original grantee of two East Field lots, c. 1639–41 (reassigned by 1643); parcels unlocated",
     "placeType": "locality",
     "coordinate": {
       "lat": 42.23,
@@ -2305,7 +2305,7 @@
     "aliases": [
       "The Mill Field, Weymouth"
     ],
-    "shortDescription": "John Gurney Sr. land grant, 1651–52; parcel unlocated",
+    "shortDescription": "John Gurney Sr. original grantee of a 4-acre Mill Field lot, c. 1639–41 (reassigned by 1643); parcel unlocated",
     "placeType": "locality",
     "coordinate": {
       "lat": 42.205,
@@ -2348,6 +2348,58 @@
       }
     ],
     "filename": "billerica-ma.md"
+  },
+  {
+    "placeId": "place-gurney-tyng-farm-quincy-massachusetts-usa",
+    "name": "John Gurney's leased Tyng farm (later the Adams Old House), Braintree/Quincy, Massachusetts, USA",
+    "aliases": [
+      "William Tyng's 45-acre farm, Braintree",
+      "the Gurney farm, Braintree",
+      "Adams Old House / Peace field",
+      "Mount Wollaston, Braintree"
+    ],
+    "shortDescription": "45-acre farm John Gurney leased from William Tyng 1647–1662; its northern part became the Adams family seat",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 42.239204,
+      "lng": -71.00361
+    },
+    "coordinatePrecision": "high",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "gurney-tyng-farm-quincy-ma.md"
+  },
+  {
+    "placeId": "place-gurney-monatiquot-freehold-braintree-massachusetts-usa",
+    "name": "John Gurney's Monatiquot River freehold, Braintree, Massachusetts, USA",
+    "aliases": [
+      "Gurney house and orchard, Monatiquot",
+      "Monotecott, Braintree"
+    ],
+    "shortDescription": "House, orchard, and ~5.5 acres on the Monatiquot River that John Gurney owned and sold to Richard Thayer, 1661/2",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 42.21,
+      "lng": -70.992
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "gurney-monatiquot-freehold-braintree-ma.md"
   },
   {
     "placeId": "place-collegiale-saint-hildevert-gournay-en-bray-normandy-france",

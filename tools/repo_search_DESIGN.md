@@ -625,6 +625,8 @@ search_runs
    - OCR fragments.
    - Filename fragments.
    - Joined/split text.
+   - Uses the canonical section ID as SQLite `rowid`, keeping incremental
+     changed-file deletion indexed in both FTS tables.
 
 3. Ripgrep backstop:
    - Exact literal and regex verification.
@@ -637,6 +639,12 @@ Git-aware inventory. The exact ripgrep ledger is then generated independently
 for the effective lexical terms. A stale or unavailable index may reduce
 ranking quality or speed, but must not silently reduce exact-match
 completeness.
+
+The cache-level lock records its owner PID. Lock-taking commands recover a lock
+whose owner process no longer exists, while retaining the normal wait-and-fail
+behavior for active or unreadable owners. Modification-time-only inventory
+changes are hash-checked so OneDrive timestamp churn does not force needless
+section deletion and reinsertion.
 
 ---
 

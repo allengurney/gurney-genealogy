@@ -108,6 +108,8 @@ place-hellesdon-norfolk-england,place,"Hellesdon, Norfolk, England",data/places.
 place-hingham-norfolk-england,place,"Hingham, Norfolk, England",data/places.json
 place-indianapolis-indiana-usa,place,"Indianapolis, Indiana, USA",data/places.json
 place-irstead-norfolk-england,place,"Irstead, Norfolk, England",data/places.json
+place-gurney-tyng-farm-quincy-massachusetts-usa,place,"John Gurney's leased Tyng farm (later the Adams Old House), Braintree/Quincy, Massachusetts, USA",data/places.json
+place-gurney-monatiquot-freehold-braintree-massachusetts-usa,place,"John Gurney's Monatiquot River freehold, Braintree, Massachusetts, USA",data/places.json
 place-kings-lynn-norfolk-england,place,"King's Lynn, Norfolk, England",data/places.json
 place-la-ferte-foundation-endowment-cluster-pays-de-bray-france,place,"La Ferté foundation endowment cluster, Pays de Bray, France",data/places.json
 place-la-ferte-en-bray-normandy-france,place,"La Ferté-en-Bray / La Ferté-Saint-Samson, Normandy, France",data/places.json
@@ -188,6 +190,7 @@ blomefield-norfolk,source,"Blomefield, History of Norfolk",data/sources.json
 blomefield-norfolk-vol5-pp33-cringleford-berford,source,"Blomefield, Norfolk vol. 5 (BHO) — Cringleford, Berford's Manor",data/sources.json
 bodge-soldiers-king-philips-war-1891,source,"Bodge, Soldiers in King Philip's War (1891)",data/sources.json
 bodleian-ms-tanner-175-marco,source,Bodleian MS Tanner 175 - MARCO,data/sources.json
+boston-town-records-1634-1660,source,Boston Town Records 1634-1660 (Book of Possessions),data/sources.json
 braintree-records-1640-1793-1886,source,"Braintree town records, 1640-1793",data/sources.json
 brooke-catalogue-succession-1619,source,"Brooke, Catalogue and Succession (1619)",data/sources.json
 brs-v21,source,BRS v21 (1642 Bucks tax),data/sources.json
@@ -489,6 +492,7 @@ visitations-norfolk-harleian-32,source,Visitations of Norfolk 1563/1589/1613 (Ha
 wace-roman-de-rou,source,"Wace, Roman de Rou",data/sources.json
 walker-lancastrian-affinity-1361-1399,source,"Walker, The Lancastrian Affinity 1361–1399",data/sources.json
 wansey-medieval-genealogy-1925,source,"Wansey, ancient family of the Wanseys",data/sources.json
+weymouth-land-grants-book-ms,source,Weymouth Land Grants book (MS),data/sources.json
 wikipedia-en-hamelin-de-warenne,source,Wikipedia -- Hamelin de Warenne,data/sources.json
 wikipedia-fr-famille-de-gournay,source,Wikipedia FR -- Famille de Gournay,data/sources.json
 wikitree-newgate-14-horningsheath,source,"WikiTree Newgate-14 — John Newgate of Horningsheath, Suffolk",data/sources.json

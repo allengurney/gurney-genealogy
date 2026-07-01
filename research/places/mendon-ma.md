@@ -9,7 +9,7 @@
 - Aliases: Mendon, MA
 - Coordinate: 42.1056, -71.5523 (high)
 - Roles: landholding / property reference
-- Detail: Grissell applied for John's Mendon lot after his death (NEHGR 22:44).
+- Detail: John Gurney was accepted to a Mendon allotment among Braintree men in 1662; Grissell applied for his Mendon lot after his death (NEHGR 22:44). Mendon was not incorporated until 15 May 1667, so the post-incorporation proprietor entries for John Gurny and Grisel Gurney are retrospective.
 
 ### Linked ancestors
 

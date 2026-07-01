@@ -4,7 +4,7 @@
 ## Place registry
 
 - `placeId`: `place-mill-field-weymouth-massachusetts-usa`
-- Short description: John Gurney Sr. land grant, 1651–52; parcel unlocated
+- Short description: John Gurney Sr. original grantee of a 4-acre Mill Field lot, c. 1639–41 (reassigned by 1643); parcel unlocated
 - Place type: locality
 - Aliases: The Mill Field, Weymouth
 - Coordinate: 42.205, -70.93 (low)
@@ -28,4 +28,4 @@
 
 **What we don't.** Which mill the field abutted and the parcel's exact bounds are not established from sources to hand; the grant was "subsequently granted to others." The coordinate is a low-precision placement in the East Weymouth mill area near the Hingham line. Locating it would require the Weymouth proprietors' land-grant book entries. Tracked as a research lead. <!-- lead L-182 -->
 
-See the [John Gurney (G13) case file](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v4.md) and verbatim extracts in [`nash-…-gurney-extracts.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/nash-historical-sketch-weymouth-1885-gurney-extracts.md).
+See the [John Gurney (G13) companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g13-john-gurney-fact-sheet.research.md), the printed extracts in [`nash-…-gurney-extracts.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/nash-historical-sketch-weymouth-1885-gurney-extracts.md), and the manuscript read in [`weymouth-land-grants-book-1643-gurney-manuscript-extracts.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/weymouth-land-grants-book-1643-gurney-manuscript-extracts.md) (film 007009659, ms p. 31; Source ID `weymouth-land-grants-book-ms`). Related place: [East Field](https://github.com/allengurney/gurney-genealogy/blob/main/research/places/east-field-weymouth-ma.md).
