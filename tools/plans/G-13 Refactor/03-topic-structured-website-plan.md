@@ -44,7 +44,7 @@ Nested routes:
 /research/notes/g13-john-gurney/colonial/arrival-chronology
 /research/notes/g13-john-gurney/colonial/weymouth-land-community
 /research/notes/g13-john-gurney/family/wives-and-grizzell
-/research/notes/g13-john-gurney/origin/candidate-b
+/research/notes/g13-john-gurney/identity/norfolk-parentage
 /research/notes/g13-john-gurney/identity/candidate-comparison
 /research/notes/g13-john-gurney/research/open-questions
 ```
@@ -58,8 +58,9 @@ The case file keeps:
 /key-research/john-gurney-case-file
 ```
 
-Published alternative-candidate topics keep their current URLs. The annex links
-them as related research rather than copying them.
+Published alternative-candidate topics move into the subject-owned annex at
+cutover. Their current URLs remain as pointer stubs and static redirects until
+inbound links are migrated; they do not remain a second canonical copy.
 
 ## 4. Non-destructive preview
 
@@ -222,6 +223,9 @@ Without graph capabilities:
 - Topic headings remain stable.
 
 This provides ordinary crawler discoverability without client-side rendering.
+`llms.txt` should enumerate the hub and topic routes with compact descriptions;
+it must not concatenate the full annex into one default AI payload. The hub
+remains the ordinary first grounding surface.
 
 ## 11. Accessibility and mobile validation
 

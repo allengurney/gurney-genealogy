@@ -12,7 +12,8 @@ thread.
    canonical store for structured graph content** (research items, relations,
    evidence links, dates, negative-result scope, entities). Prose research and
    source metadata/artifacts remain canonical files. The DB is edited through the
-   artifact and backed up via periodic derived export snapshots; there is no
+   artifact and backed up via automatic recovery exports plus versioned
+   milestone snapshots; there is no
    hand-authored JSON items layer. (Updated 2026-07-03 — supersedes the earlier
    derived/disposable-cache framing; see Plan 01 §1, §6.)
 2. Refactor the oversized G13 research companion into a topic-structured
@@ -27,13 +28,13 @@ thread.
 6. Allen expects Claude (Opus 4.8) to build a separate crisp artifact for viewing,
    navigating, and editing the graph. It is database-driven because it reads and
    writes the canonical SQLite directly — each validated save is a transactional
-   DB write with an in-model revision entry, plus a periodic export snapshot for
-   backup. No JSON import/export step.
+   DB write with an in-model revision entry, plus an automatic recovery export.
+   No JSON import/export step.
 
 ## Plans
 
 - [01-sqlite-context-graph-design.md](01-sqlite-context-graph-design.md) —
-  complete design and implementation plan for the derived SQLite graph,
+  complete design and implementation plan for the canonical SQLite graph,
   context compiler, validation, and graph-editing artifact contract.
 - [02-g13-research-refactor-plan.md](02-g13-research-refactor-plan.md) —
   complete design and migration plan for restructuring the companion and
@@ -66,26 +67,26 @@ Until an explicit cutover is approved:
 - Do not silently move findings between G13, G14, place, topic, case-file, or
   source layers.
 
-The staged implementation should be removable by deleting its staged files and
-generated cache. That operation must leave the current repository and website
-behavior unchanged.
+The staged implementation may be retired without affecting the current
+repository or website behavior, but the staged canonical DB is not disposable
+cache: create a current recovery export before archival/removal.
 
 ## Recommended implementation order
 
 1. Establish staging paths, manifests, identifiers, and coverage ledgers.
 2. Inventory every current companion section and every dump finding.
-3. Define and validate a small set of representative evidence, finding,
-   analysis, hypothesis, and project-statement records.
-4. Build the isolated SQLite schema, seed loader, validator, and context queries
-   — starting with a minimal harness for the colonial-arrival **pilot slice**
-   (Plan 01 Phase P) as an early go/no-go gate before the full plumbing.
-5. Refactor the research content into staged topic files, **co-authoring prose
+3. Complete the plumbing-only contract and minimal database foundation using
+   synthetic fixtures (Plan 01 G0/G1A). Do not assimilate research content yet.
+4. After independent review, run the colonial-arrival **pilot slice** (Plan 01
+   Phase P) as the first real-content touch and early go/no-go gate.
+5. Complete the remaining database/context plumbing only if the pilot passes.
+6. Refactor the research content into staged topic files, **co-authoring prose
    and research items per topic in one pass** (not two separate reads).
-6. Build the non-graph topic-structured website preview.
-7. Compare legacy and staged research for coverage, citations, and conclusions.
-8. Approve and execute the content/site cutover.
-9. Build the graph-editing artifact against the stable research-item contract.
-10. Design and implement the graph-enhanced public website experience.
+7. Build the non-graph topic-structured website preview.
+8. Compare legacy and staged research for coverage, citations, and conclusions.
+9. Approve and execute the content/site cutover.
+10. Build the graph-editing artifact against the stable research-item contract.
+11. Design and implement the graph-enhanced public website experience.
 
 Ownership and the Codex → Opus review/test-drive checkpoints are specified in
 Plan 01 §18. In brief: Codex builds the deterministic plumbing (each deliverable

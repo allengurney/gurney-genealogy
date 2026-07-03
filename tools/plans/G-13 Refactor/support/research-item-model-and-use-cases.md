@@ -10,6 +10,10 @@ layer, date model, analysis type, and AI context behavior.
 > artifact; see Plan 01 §1, §6, §14. The data model shown here is unchanged by
 > that storage decision.
 
+All new items default to `repo_only`. Public static export requires an explicit
+`public` visibility decision; evidence excerpts additionally require
+`excerptPublishable: true`.
+
 ## 1. Missing middle
 
 Current conceptual flow:
@@ -38,11 +42,14 @@ what narrative form?
 
 ## 2. Mock research items
 
-### G13-E001 — June 1641 source evidence
+Research-item IDs are deliberately kind-neutral. Item kind may change during
+review without changing the stable ID or breaking relations.
+
+### G13-RI-000001 — June 1641 source evidence
 
 ```json
 {
-  "id": "G13-E001",
+  "id": "G13-RI-000001",
   "kind": "source_evidence",
   "subjectEntityId": "ancestor-g13-john-gurney-1",
   "statement": "John Gurney was associated with Weymouth by 2 June 1641, when the Massachusetts General Court remitted his gunpowder fine.",
@@ -68,18 +75,18 @@ what narrative form?
       "alignmentNote": "Supports presence by this date; does not establish arrival year."
     }
   ],
-  "supports": ["G13-F004"]
+  "supports": ["G13-RI-000006"]
 }
 ```
 
 `researchLocation` is where the item is explained. The source link supplies
 evidentiary provenance.
 
-### G13-N002 — 1636 bounded negative result
+### G13-RI-000002 — 1636 bounded negative result
 
 ```json
 {
-  "id": "G13-N002",
+  "id": "G13-RI-000002",
   "kind": "negative_result",
   "statement": "John is absent from the reviewed 1636 Weymouth property list.",
   "status": "active",
@@ -88,37 +95,52 @@ evidentiary provenance.
     "The list is not proof of every resident.",
     "Absence supports an arrival bound but does not prove absence from every Weymouth record."
   ],
-  "supports": ["G13-F004"]
+  "supports": ["G13-RI-000006"]
 }
 ```
 
-### G13-E003 — Weymouth-parcel source evidence
+### G13-RI-000003 and G13-RI-000004 — Weymouth-parcel source evidence
 
 ```json
 {
-  "id": "G13-E003",
+  "id": "G13-RI-000003",
   "kind": "source_evidence",
-  "statement": "Three Weymouth parcels were recorded as first granted to John and were in later holders' hands by the c.1643 possession compilation.",
+  "statement": "The Weymouth manuscript records three parcels as first granted to John and in later holders' hands by the c.1643 possession compilation.",
   "status": "active",
   "assessmentConfidence": {"label": "high", "value": 0.95},
   "sourceLinks": [
-    {"sourceId": "weymouth-land-grants-book-ms", "role": "supports", "locator": "manuscript pages 12, 23, 31"},
-    {"sourceId": "nash-historical-sketch-weymouth-1885", "role": "supports", "locator": "pages 258, 270, 278, 281-282"}
+    {"sourceId": "weymouth-land-grants-book-ms", "role": "supports", "locator": "manuscript pages 12, 23, 31"}
   ],
-  "supports": ["G13-F004"]
+  "supports": ["G13-RI-000006"]
 }
 ```
 
-### G13-A006 — objective analysis
+```json
+{
+  "id": "G13-RI-000004",
+  "kind": "source_evidence",
+  "statement": "Nash's published treatment reproduces the three John Gurney parcel entries and the later-holder context.",
+  "status": "active",
+  "sourceLinks": [
+    {"sourceId": "nash-historical-sketch-weymouth-1885", "role": "supports", "locator": "pages 258, 270, 278, 281-282"}
+  ],
+  "supports": ["G13-RI-000006"]
+}
+```
+
+Separate items preserve source-atomic provenance while allowing both witnesses
+to support the same finding.
+
+### G13-RI-000005 — objective analysis
 
 ```json
 {
-  "id": "G13-A006",
+  "id": "G13-RI-000005",
   "kind": "analysis",
   "statement": "The 1636 property-list absence, June 1641 court appearance, and pre-1643 parcel history together create a bounded arrival window but do not identify an exact arrival year.",
   "status": "active",
-  "analyzes": ["G13-E001", "G13-N002", "G13-E003"],
-  "informs": ["G13-F004"],
+  "analyzes": ["G13-RI-000001", "G13-RI-000002", "G13-RI-000003", "G13-RI-000004"],
+  "informs": ["G13-RI-000006"],
   "promotesSpecificHypothesis": false
 }
 ```
@@ -126,11 +148,11 @@ evidentiary provenance.
 This is reasoning, not a hypothesis. It explains chronology and evidentiary
 effect without proposing a particular identity or causal explanation.
 
-### G13-F004 — arrival finding with two date ranges
+### G13-RI-000006 — arrival finding with two date ranges
 
 ```json
 {
-  "id": "G13-F004",
+  "id": "G13-RI-000006",
   "kind": "research_finding",
   "statement": "John plausibly arrived during 1636 to 1641, probably during 1638 to 1640, and lived at Weymouth before moving to Braintree.",
   "status": "active",
@@ -148,8 +170,8 @@ effect without proposing a particular identity or causal explanation.
     "basis": "probable_midpoint",
     "manualOverride": false
   },
-  "dependsOn": ["G13-E001", "G13-N002", "G13-E003", "G13-A006"],
-  "tensions": ["G13-S005"],
+  "dependsOn": ["G13-RI-000001", "G13-RI-000002", "G13-RI-000003", "G13-RI-000004", "G13-RI-000005"],
+  "tensions": ["G13-RI-000007"],
   "publicationLinks": [
     {"path": "fact-sheets/g13-john-gurney-fact-sheet.md", "status": "published"},
     {"path": "research/case-files/john-gurney-case-file-v4.md", "status": "published"}
@@ -161,11 +183,11 @@ The outer range is plausible; the nested range is probable. `chronologyKey`
 uses the probable midpoint solely to order timelines and lists. It must never be
 displayed as though John arrived in 1639.
 
-### G13-S005 — Anderson published-source statement
+### G13-RI-000007 — Anderson published-source statement
 
 ```json
 {
-  "id": "G13-S005",
+  "id": "G13-RI-000007",
   "kind": "published_source_statement",
   "statement": "Robert Charles Anderson assigns John an arrival year of 1636 and gives his English origin as unknown.",
   "status": "active-source-statement",
@@ -174,18 +196,18 @@ displayed as though John arrived in 1639.
   "relations": [
     {
       "type": "QUALIFIES",
-      "target": "G13-F004",
+      "target": "G13-RI-000006",
       "explanation": "The assigned year is in tension with the property-list reasoning but may not be a direct contradiction depending on list date and Anderson's basis."
     }
   ]
 }
 ```
 
-### G13-H001 — Candidate B identity hypothesis
+### G13-RI-000008 — Candidate B identity hypothesis
 
 ```json
 {
-  "id": "G13-H001",
+  "id": "G13-RI-000008",
   "kind": "identity_hypothesis",
   "statement": "The Massachusetts John Gurney was the son of Francis Gurney and Margaret Rybett.",
   "status": "active",
@@ -210,11 +232,11 @@ displayed as though John arrived in 1639.
 }
 ```
 
-### G13-X008 — Grizzell evidence conflict
+### G13-RI-000009 — Grizzell evidence conflict
 
 ```json
 {
-  "id": "G13-X008",
+  "id": "G13-RI-000009",
   "kind": "evidence_conflict",
   "statement": "The traditional Grizzell Gurney marriage corresponds to a printed Braintree entry naming John Cheny, while manuscript evidence favors a Girny/Gurney reading.",
   "status": "unresolved-but-reweighted",
@@ -261,14 +283,14 @@ parcels were granted before the c.1643 possession compilation and had passed to
 later holders by that compilation.
 
 DIRECT RESEARCH ITEMS
-G13-E001 — June 1641 gunpowder record. Source evidence.
-G13-N002 — Absent from reviewed 1636 property list. Bounded negative.
-G13-E003 — Three parcels first granted to John. Source evidence.
-G13-A006 — The evidence establishes a window, not an exact year. Analysis.
-G13-F004 — Plausible and probable arrival ranges. Finding.
+G13-RI-000001 — June 1641 gunpowder record. Source evidence.
+G13-RI-000002 — Absent from reviewed 1636 property list. Bounded negative.
+G13-RI-000003/000004 — Parcel manuscript and Nash witnesses. Source evidence.
+G13-RI-000005 — The evidence establishes a window, not an exact year. Analysis.
+G13-RI-000006 — Plausible and probable arrival ranges. Finding.
 
 TENSION
-G13-S005 — Anderson assigns 1636; underlying basis unresolved.
+G13-RI-000007 — Anderson assigns 1636; underlying basis unresolved.
 
 NOT EXPANDED
 Migration-association cluster; Buckinghamshire settler cohort; detailed
@@ -283,16 +305,16 @@ tokens, with exact routes to expand.
 New source evidence:
 
 ```text
-G13-E009 — John appears in a Weymouth record dated September 1638.
+G13-RI-000010 — John appears in a Weymouth record dated September 1638.
 ```
 
 Impact query:
 
 ```text
 DIRECTLY AFFECTED
-- G13-F004: revise the date envelope and derived chronology key.
-- G13-E001: remains valid but is no longer earliest known record.
-- G13-N002: remains compatible if the property list predates arrival.
+- G13-RI-000006: revise the date envelope and derived chronology key.
+- G13-RI-000001: remains valid but is no longer earliest known record.
+- G13-RI-000002: remains compatible if the property list predates arrival.
 
 PUBLICATION REVIEW
 - G13 fact sheet "first recorded June 1641."

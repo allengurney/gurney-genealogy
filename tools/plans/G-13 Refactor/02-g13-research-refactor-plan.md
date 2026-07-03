@@ -51,13 +51,16 @@ research/people/_staging/g13-john-gurney/
     origin/
     identity/
     research-state/
-  graph/
-    schema/                 # DDL + migrations (git-tracked)
-    seed/                   # one-time bootstrap fixture (NOT canonical)
-    exports/                # committed backup/audit snapshots
-    # live SQLite is the canonical structured store; it lives in a git-ignored,
-    # OneDrive-ignored cache — see Plan 01 §6-§7. Entities and items are DB rows,
-    # not JSON files.
+
+tools/g13_graph/            # CLI, modules, DDL, migrations, synthetic fixtures
+data/context-graphs/g13/
+  exports/
+    current.ndjson          # git-ignored, OneDrive-protected recovery
+    snapshots/              # versioned milestone exports, git-tracked
+  build-report.json
+
+# Live canonical SQLite is outside OneDrive/Git at the dedicated GitDirs path
+# in Plan 01 §7. It is not a cache. Entities and items are DB rows, not JSON.
 ```
 
 The existing companion stays untouched at its current path.
@@ -74,6 +77,9 @@ research/people/
     origin/
     identity/
     research-state/
+
+  # Tracked graph code/schema lives under tools/g13_graph/.
+  # Versioned G13 recovery exports live under data/context-graphs/g13/exports/.
 
   _legacy/g13-pre-refactor/
     g13-john-gurney-fact-sheet.research.md # exact preserved legacy copy
@@ -211,6 +217,9 @@ Graph relationships and manifests use `topicId`; the website uses
 `publicSlug`. Filenames may change freely during staging and later require only
 a manifest-path update plus raw-link maintenance. Public URLs need not change.
 
+Coverage and routing ledgers must also use `topicId`, not numbered shorthand,
+so renaming or reordering a file cannot silently change its destination.
+
 ## 6. The root hub
 
 `g13-john-gurney-fact-sheet.research.md` after cutover should contain:
@@ -336,10 +345,12 @@ identities.
 
 ### Required sequence
 
-1. Freeze an inventory and hashes against a **specific git commit ref** as a hard
-   cutoff; do not alter the dump. The dump is still changing (see the support
-   inventory); any dump material added after the cutoff is queued for a later
-   round, not folded into this refactor.
+1. Freeze an inventory and hashes against a **specific clean git commit ref** as
+   a hard cutoff; do not alter the dump. If the working tree is not clean, a
+   commit ref is insufficient because it omits modified and untracked inputs:
+   either commit the complete dump first or preserve a content-addressed
+   immutable inventory/copy of every input. Material added after the cutoff is
+   queued for a later round, not folded into this refactor.
 2. Identify duplicate and overlapping files.
 3. Extract every finding and negative-result ledger into the dump map.
 4. Mark later resolutions against earlier tentative findings.
@@ -365,8 +376,9 @@ identities.
 - Round 1's Cheny/Gurney conflict is materially advanced by the Braintree
   manuscript images and the "John Girny, Senior" reading.
 - Round 1's Arch. 45 petition lead is found and imaged in round 4.
-- `temp999.md` overlaps the named round-2 dump and also contains appended raw
-  material; compare at section level rather than treating either as disposable.
+- The former `temp999.md` was deliberately deleted after its useful material
+  was reconciled into the named dumps. Do not expect or recreate it; the frozen
+  inventory begins from the post-cleanup dump state.
 - Round-3 part 1 left some ledgers unpopulated; reconstruct them from its
   finding text before assimilation.
 - The Hobart journal transcription is a source/transcription artifact with
@@ -380,16 +392,16 @@ identities.
 
 | Dump theme | Likely canonical destination |
 |---|---|
-| Braintree Girny/Grizzell manuscript evidence | family/10 |
-| 1646 Braintree meadows petition | colonial/03 |
-| Complete MBCR/Boston record-class negatives | colonial/06 and research-state/40 |
-| Weymouth/Braintree associate networks | colonial/02–03 |
-| John Jr., Ruth Bundy, descendant disambiguation | family/12 |
-| Colonial Gurnell/Garnet/Gardner false friends | colonial/07 or cross-cutting topic |
-| Winthrop/Gurdon/wardship network | origin/24 and external G14/G15/place files |
-| Migration/reception network classes | origin/23 and immigration topic |
-| East Dereham/Bury/Boston conduit evidence | origin/21 and origin/25 |
-| Candidate-B probability synthesis | identity/30 |
+| Braintree Girny/Grizzell manuscript evidence | `g13-family-wives-marriages` |
+| 1646 Braintree meadows petition | `g13-colonial-braintree-community` |
+| Complete MBCR/Boston record-class negatives | `g13-colonial-record-coverage` and `g13-research-source-coverage` |
+| Weymouth/Braintree associate networks | `g13-colonial-weymouth-community` and `g13-colonial-braintree-community` |
+| John Jr., Ruth Bundy, descendant disambiguation | `g13-family-mendon-descendants` |
+| Colonial Gurnell/Garnet/Gardner false friends | Cross-cutting repository method, with only finding-specific warnings in affected G13 units |
+| Winthrop/Gurdon/wardship network | `g13-origin-wardship-network` and external G14/G15/place files |
+| Migration/reception network classes | `g13-origin-migration-network` and immigration topic |
+| East Dereham/Bury/Boston conduit evidence | `g13-origin-age-baptism`, `g13-origin-bury-connections`, and other affected units as warranted |
+| Candidate-B probability synthesis | `g13-identity-candidate-b` and `g13-identity-assessment` |
 | G14–G37 findings | their own people/place/topic destinations, with only G13 bearing summarized here |
 | OCR books and manuscript images | sources corpus/media after source review |
 | Gated or unfinished routes | research-state/41 and leads catalog |
@@ -438,11 +450,33 @@ Requirements:
 - Negative results use structured search scope.
 - Paragraph-level footnotes with uncertain fact/source alignment use collective
   evidence groups rather than invented direct edges.
+- Source-evidence items normally represent one identifiable source record or
+  witness. Multi-source synthesis is a finding or analysis, not one blended
+  source-evidence item.
 - Plausible and probable date ranges are both preserved. A derived
   `chronologyKey` may order items but is never displayed as historical evidence.
+- Research-item IDs are kind-neutral (`G13-RI-...`) so review may reclassify an
+  item without changing its identity.
+- Every item and evidence excerpt receives an explicit publication-visibility
+  decision before static export.
 
 The graph must not dictate prose structure. Topic files remain readable,
 finding-first research notes.
+
+### Topic-level cross-store checkpoint
+
+Markdown and SQLite cannot participate in one transaction. At the end of each
+co-authoring unit:
+
+1. Save the topic prose.
+2. Save the corresponding graph edits transactionally.
+3. Run topic-scoped research-location, source, relation, and citation validation.
+4. Atomically refresh the current recovery export.
+5. Record the topic/DB revision in the coverage ledger.
+6. Commit prose, ledger changes, schema changes if any, and the appropriate
+   versioned export snapshot together at the review milestone.
+
+A topic is not review-complete while either store is ahead of the checkpoint.
 
 ## 12. Leads management during assimilation
 
@@ -535,7 +569,8 @@ Cutover is a separate approved operation:
 4. Promote staged topics to `research/people/g13-john-gurney/`.
 5. Replace the root companion with the approved hub.
 6. Switch the website from legacy to package mode.
-7. Rebuild indexes and graph.
+7. Rebuild repository search indexes; migrate or repoint and validate the
+   canonical graph DB, then refresh only its derived FTS/context/site exports.
 8. Validate site, citations, links, research items, and source IDs.
 9. Keep rollback instructions and legacy content in place until Allen accepts
    the result.

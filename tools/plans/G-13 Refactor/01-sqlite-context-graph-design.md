@@ -29,9 +29,10 @@ content lives in a real database; prose and sources remain canonical files.
 >   narrative — text, in the repo, git-tracked.
 > - **`data/sources.json`** and `sources/` remain canonical for source metadata
 >   and artifacts.
-> - A **derived text export** (SQLite `.dump` and/or NDJSON snapshot) is produced
->   *from* the DB on a cadence/trigger and committed at milestones for **backup
->   and coarse audit history.** It is never hand-edited and never an edit surface.
+> - A **derived deterministic NDJSON export** is produced
+>   *from* the DB automatically after accepted editing batches and committed in
+>   versioned form at milestones for **backup and coarse audit history.** It is
+>   never hand-edited and never an edit surface.
 > - Relational integrity (primary keys, foreign keys, uniqueness) is enforced
 >   **by the database** — a primary reason for the change, since loose JSON
 >   cannot enforce it.
@@ -77,6 +78,7 @@ The implementation must support:
 - Historical event time distinct from project-knowledge/revision time.
 - Impact queries: "What must be reviewed if this finding changes?"
 - Static exports for the future website finding drawer.
+- Explicit publication visibility and excerpt-publishability controls.
 - A stable read/write contract for a Claude-built graph editor.
 - Deterministic schema rebuild, and exact content restore from the latest
   committed export snapshot (the DB content is not regenerated from prose).
@@ -191,8 +193,9 @@ negative result, question, or project statement.
 
 ### Derived
 
-- The **export snapshot** (SQLite `.dump` / NDJSON) — a backup and audit artifact
-  generated *from* the canonical DB, committed on a cadence, never hand-edited.
+- The **deterministic NDJSON export snapshot** — the authoritative logical
+  backup/audit format generated *from* the canonical DB, never hand-edited.
+  SQL dumps may be diagnostic conveniences but are not a second restore format.
 - FTS indexes and embeddings (rebuildable inside the DB).
 - Context packages.
 - Static finding JSON and generated finding pages.
@@ -221,34 +224,57 @@ During development:
 research/people/_staging/g13-john-gurney/
   manifest.json
   topics/                      # canonical prose (staged), git-tracked
-  graph/
-    schema/                    # DDL + migrations (git-tracked; the schema source of truth)
-    seed/                      # OPTIONAL one-time bootstrap input (see §11); NOT canonical
-    exports/                   # committed backup/audit snapshots (.sql / .ndjson)
-    build-report.json
+  coverage/
+
+tools/g13_graph/
+  schema/                      # DDL + migrations; schema source of truth
+  tests/fixtures/              # synthetic/bootstrap fixtures; NOT canonical
+
+data/context-graphs/g13/
+  exports/
+    current.ndjson             # atomically replaced, git-ignored, OneDrive recovery
+    snapshots/                 # versioned milestone exports, git-tracked
+  build-report.json
 ```
 
-Live database (git-ignored, OneDrive-ignored):
+Live canonical database (outside the OneDrive working tree and separate from
+all disposable search caches):
 
 ```text
-<repo>/.graph-cache/g13/g13-context.sqlite     # or any convenient excluded path
+C:\Users\allen\GitDirs\gurney-genealogy-g13-graph\g13-context.sqlite
 ```
 
 Storage rules:
 
-- The **live `.sqlite` is git-ignored and OneDrive-ignored.** A repo subdirectory
-  is fine — *exclusion*, not physical location, is what matters. OneDrive-ignoring
-  avoids the file-lock churn noted in AGENTS.md §9; git-ignoring avoids committing
-  a binary blob on every change.
+- The live database is **not a cache** and must never live under
+  `gurney-genealogy-search-cache`, `.graph-cache`, a temporary directory, or any
+  path that a cleanup command may remove.
+- The live `.sqlite` stays outside OneDrive and Git at the dedicated path above.
+  This avoids file-lock churn without requiring broad OneDrive extension
+  exclusions that might hide unrelated databases.
 - The thing that lives in git/OneDrive for recovery is the **export snapshot**
-  under `graph/exports/`, committed at milestones — not the live DB.
-- The **schema DDL and migrations** under `graph/schema/` are git-tracked text:
+  under `data/context-graphs/g13/exports/`: atomically replaced
+  `current.ndjson` after each accepted editing batch is git-ignored but protected
+  by OneDrive; versioned snapshots under `snapshots/` are committed at
+  milestones. Deterministic export content, revision metadata, and hashes make
+  the two tiers comparable.
+- The **schema DDL and migrations** under `tools/g13_graph/schema/` are
+  git-tracked text:
   the reproducible definition of the database structure.
 - There is **no `entities.json` / `items/*.json` canonical layer.** Entities and
   items are DB rows. (The earlier draft stored these as pretty-printed JSON
   grouped by topic; that is exactly the JSON-as-database pattern this project is
   moving away from — relational content with cross-references belongs in the
   relational store that can enforce integrity on it.)
+
+### OneDrive exclusion policy
+
+No new extension exclusions are needed while the live DB remains under the
+dedicated `GitDirs` path. Do **not** exclude `.sql`, `.ndjson`, `.json`, `.txt`,
+or `.md`; those are synchronized recovery, audit, source, and research material.
+If the live DB is ever moved inside OneDrive despite this design, exclude
+`.sqlite`, `.sqlite-wal`, `.sqlite-shm`, and `.sqlite-journal`—but moving it back
+to the dedicated external directory is preferred over a broad global exclusion.
 
 ## 8. Research-item model
 
@@ -283,7 +309,7 @@ Required:
 
 ```json
 {
-  "id": "G13-E001",
+  "id": "G13-RI-000001",
   "kind": "source_evidence",
   "subjectEntityId": "ancestor-g13-john-gurney-1",
   "statement": "John Gurney was associated with Weymouth by 2 June 1641.",
@@ -315,6 +341,9 @@ Optional fields:
 - `reviewedBy`
 - `reviewedAt`
 - `supersededBy`
+- `visibility`: `repo_only`, `public`, or `restricted`
+- `excerptPublishable`
+- `restrictionReason`
 - `notes`
 
 Do not overload one confidence value. At minimum distinguish:
@@ -387,7 +416,7 @@ Each source connection records:
 
 ```json
 {
-  "itemId": "G13-E001",
+  "itemId": "G13-RI-000001",
   "sourceId": "massachusetts-bay-records-v1-1853",
   "role": "supports",
   "locator": "volume 1, page 331",
@@ -406,6 +435,13 @@ Controlled roles:
 - `context_for`
 - `negative_within_scope`
 - `discovery_only`
+
+A `source_evidence` item should normally represent what one identifiable source
+record or witness explicitly says or shows. When two sources independently
+attest the same proposition, create separate source-evidence items and connect
+them to the same finding. A multi-source synthesis belongs as a
+`research_finding` or `analysis`. Use a soft evidence group only when the
+surviving prose/citation genuinely does not permit source-by-source alignment.
 
 ### 8.5 Soft evidence groups
 
@@ -488,8 +524,8 @@ Negative-result items require structured scope:
 }
 ```
 
-The importer must reject a `negative_result` item that lacks scope and
-limitations.
+The artifact and validator must reject a `negative_result` item that lacks scope
+and limitations.
 
 ## 9. Entity model
 
@@ -517,6 +553,12 @@ Aliases do not imply identity. For example, `Gurney`, `Gurny`, `Girny`, and
 `Gournet` may be names attached to one record or candidate without becoming
 global equivalence rules.
 
+Research-item IDs must not encode item kind. Initial review will reclassify some
+items, and reclassification must not change identity or break relations. Use a
+neutral sequence such as `G13-RI-000001`; derive reader-facing labels such as
+Evidence, Finding, and Analysis from `item_kind`. Kind-coded identifiers are
+not used as canonical IDs.
+
 ## 10. SQLite schema
 
 Conceptual tables:
@@ -524,9 +566,12 @@ Conceptual tables:
 ```sql
 graph_meta(
   schema_version,
-  built_at,
-  source_tree_hash,
-  importer_version
+  database_revision,
+  created_at,
+  updated_at,
+  source_registry_hash,
+  application_version,
+  latest_recovery_export_revision
 );
 
 research_units(
@@ -553,6 +598,9 @@ research_items(
   knowledge_valid_to,
   research_unit_id,
   superseded_by,
+  visibility,              -- repo_only | public | restricted
+  excerpt_publishable,
+  restriction_reason,
   review_state,
   created_at,
   updated_at,
@@ -583,6 +631,14 @@ entities(
   repo_record_id
 );
 
+source_registry(
+  source_id PRIMARY KEY,
+  display_title,
+  registry_entry_hash,
+  registry_source_path,    -- data/sources.json
+  synchronized_at
+);
+
 entity_aliases(
   entity_id,
   alias,
@@ -602,6 +658,7 @@ item_sources(
   role,
   locator,
   evidence_excerpt,
+  excerpt_publishable,
   alignment_note,
   verification_level
 );
@@ -689,9 +746,16 @@ Integrity and provenance notes:
 
 - Structural integrity is enforced **by the database** — primary keys, foreign
   keys, and uniqueness make duplicate/malformed IDs, missing relation endpoints,
-  and dangling source/entity references *unrepresentable*, not merely detected.
-  This is a core reason for the canonical-SQLite decision (§6); do not rely on
-  after-the-fact validation for what a constraint can prevent.
+  and dangling entity references *unrepresentable*, not merely detected. Every
+  connection must execute `PRAGMA foreign_keys=ON`. This is a core reason for
+  the canonical-SQLite decision (§6); do not rely on after-the-fact validation
+  for what a constraint can prevent.
+- Because source metadata remains canonical in external `data/sources.json`,
+  `source_registry` is a derived synchronized mirror. `item_sources`,
+  `evidence_group_sources`, and `source_content_hashes` foreign-key to that
+  mirror; validation fails when its recorded registry hash is stale. This makes
+  dangling source links unrepresentable without pretending SQLite owns source
+  metadata.
 - `item_revisions` is the **in-model audit trail** written on every accepted edit
   (§14). It, plus committed export snapshots, replaces git-`blame` history for
   structured content.
@@ -716,13 +780,14 @@ standalone modular CLI:
 
 ```powershell
 .\.venv\Scripts\python.exe tools\g13_graph.py init                                   # create/migrate schema
-.\.venv\Scripts\python.exe tools\g13_graph.py seed --file graph/seed/initial.ndjson  # one-time bootstrap load
-.\.venv\Scripts\python.exe tools\g13_graph.py export --to graph/exports/             # write backup/audit snapshot (.sql + .ndjson)
-.\.venv\Scripts\python.exe tools\g13_graph.py restore --from graph/exports/<snapshot> # rebuild DB content from a snapshot
+.\.venv\Scripts\python.exe tools\g13_graph.py seed --file tools/g13_graph/tests/fixtures/bootstrap.ndjson  # test/bootstrap only
+.\.venv\Scripts\python.exe tools\g13_graph.py export --recovery                                            # atomically replace current.ndjson
+.\.venv\Scripts\python.exe tools\g13_graph.py export --snapshot                                            # create versioned milestone NDJSON
+.\.venv\Scripts\python.exe tools\g13_graph.py restore --from data/context-graphs/g13/exports/<snapshot>     # restore DB content
 .\.venv\Scripts\python.exe tools\g13_graph.py validate
 .\.venv\Scripts\python.exe tools\g13_graph.py status
-.\.venv\Scripts\python.exe tools\g13_graph.py item G13-F004
-.\.venv\Scripts\python.exe tools\g13_graph.py impact G13-F004
+.\.venv\Scripts\python.exe tools\g13_graph.py item G13-RI-000006
+.\.venv\Scripts\python.exe tools\g13_graph.py impact G13-RI-000006
 .\.venv\Scripts\python.exe tools\g13_graph.py context --terms Weymouth arrival --budget 12000
 .\.venv\Scripts\python.exe tools\g13_graph.py export --format website
 ```
@@ -736,23 +801,40 @@ artifact. The durable round-trip is **DB → export snapshot**, never seed → D
 Do not turn `seed` into a de-facto canonical JSON layer.
 
 **Backup discipline is a hard requirement.** Because the DB is canonical (§6),
-`export` runs at milestones and before any risky operation, and the resulting
-snapshot is committed. A destructive `init`/migration must **refuse to run**
-unless a current export exists.
+the artifact atomically refreshes a current recovery export after every accepted
+editing batch or clean session close. Versioned snapshots are additionally
+committed at milestones and before risky operations. `status` reports the live
+DB revision, current recovery-export revision, and latest committed-snapshot
+revision. A destructive `init`/migration must **refuse to run** unless the
+recovery export matches the live DB revision; merely finding an older export is
+not sufficient.
+
+Use SQLite's online backup API or `VACUUM INTO` for binary safety checks; never
+copy a live database file directly. Text exports must be deterministic and
+atomically replaced. If a post-save recovery export fails, retain the committed
+content edit but show a prominent unsafe-backup state and block risky operations
+until recovery succeeds.
+
+NDJSON recovery exports begin with a manifest record containing schema version,
+database revision, export timestamp, table counts, source-registry hash, and
+content hash, followed by every canonical table in a fixed documented order and
+every row in primary-key order. Volatile FTS/index tables are omitted and rebuilt
+after restore. Restore must reject an incomplete or hash-mismatched export.
 
 For reversibility, the CLI is a standalone `tools/g13_graph.py` backed by modules
 under `tools/g13_graph/`. Any later `repo_search.py graph` entry is a thin,
 optional command-registration shim. Graph removal requires deleting only that
-module and the git-ignored live cache; ordinary `repo_search` behavior and its
-schema remain untouched. (Removing the live graph does not delete committed
-export snapshots or prose.)
+module after archiving the canonical DB through a current recovery export and
+committed snapshot; ordinary `repo_search` behavior and its schema remain
+untouched.
 
 ### Integrity: DB-enforced vs. validator-enforced
 
 Structural integrity is enforced by the **database** — primary keys, foreign
 keys, and uniqueness make duplicate/malformed IDs, missing relation endpoints,
-and dangling source/entity references *unrepresentable*. The `validate` command
-covers the **semantic** rules the schema cannot:
+dangling entity references, and source IDs absent from the synchronized
+`source_registry` mirror *unrepresentable*. The `validate` command covers the
+**semantic** rules the schema cannot:
 
 - Cycles in `SUPERSEDES`.
 - Active findings superseded by another active finding.
@@ -760,10 +842,13 @@ covers the **semantic** rules the schema cannot:
 - Probable date ranges outside plausible ranges.
 - Chronology keys without a declared basis.
 - Source connections without locators where locators should exist.
+- A stale or incomplete `source_registry` mirror of `data/sources.json`.
 - Research items whose `researchLocation` file or heading does not exist in the prose.
 - Publication mappings whose paths or headings do not exist.
 - Orphan research items not assigned to a research unit.
 - Machine-suggested items not yet human-reviewed.
+- Public items that link to restricted/repo-only items in a website export.
+- Public evidence excerpts not explicitly marked publishable.
 - **Source drift:** a cited source's content hash has changed since the item's
   last review (`source_content_hashes`), flagging the item for re-review.
 
@@ -868,14 +953,19 @@ The artifact must:
 - Never lose an accepted edit: an accepted, validated change commits to the DB
   transactionally; a later failure in a *derived* step (FTS reindex, export)
   marks the derived artifact stale but does not roll back the content edit.
-- Offer, and on a cadence or on demand **trigger, an export snapshot** so the
-  canonical DB has a committed backup. Prompt for an export when uncommitted
-  changes accumulate past a threshold.
+- Refresh the current recovery export after each accepted editing batch or clean
+  session close, and prompt for a versioned committed snapshot at milestones.
+- Display whether the DB is ahead of the current recovery export or latest
+  committed snapshot; a clean Git worktree must not conceal unsnapshotted
+  canonical database changes.
 
 **Editing constraints:**
 
 - Validate before saving; preserve stable IDs; allow a source connection only
   from a registered `sourceId` (autocomplete from `data/sources.json`).
+- Use kind-neutral stable research-item IDs; changing item kind never changes ID.
+- Require publication visibility and excerpt-publishability decisions before
+  including an item in static website exports.
 - Mark items stale on **source drift** (§11); never on cosmetic prose edits.
 - Provide pick lists for item kind, relation type, source role, confidence,
   review state, date precision, and date-envelope semantics; entity/source
@@ -897,7 +987,7 @@ Suggested interface boundary:
 artifact  <->  canonical SQLite (direct read/write, transactional saves)
                      |
                      +--> in-model item_revisions   (audit trail)
-                     +--> export snapshot on cadence (backup, committed to git/OneDrive)
+                     +--> automatic recovery export + milestone snapshot
                      +--> static website exports     (read-only, later)
 ```
 
@@ -906,7 +996,8 @@ static browser page. Target a small **local backend** (Python, reusing the repo
 `.venv`) that owns the SQLite connection, validation, and export, with a browser
 UI for the database-like experience — or an equivalent local host with the same
 guarantees. Final runtime is confirmed at Phase G4; the read/write contract
-above is fixed now.
+above is fixed now. Bind the local service to loopback only by default; do not
+expose the canonical editor on `0.0.0.0`.
 
 ## 15. Testing and acceptance
 
@@ -937,7 +1028,8 @@ above is fixed now.
 - A failed migration/import leaves the prior DB intact, or is recoverable from
   the latest export snapshot; destructive operations refuse to run without a
   current export.
-- Deleting the live cache loses no committed export snapshot and no prose.
+- Loss or retirement of the live canonical DB follows an explicit restore or
+  archive procedure; it is never treated as cache cleanup.
 
 ### Independent review
 
@@ -954,33 +1046,43 @@ to improve already-interactive response times.
 ## 16. Implementation phases
 
 Owners in brackets (see §18). Each Codex plumbing deliverable is followed by an
-Opus review + test drive before dependent phases proceed. **Phase P is an early
-pilot gate** that cuts a thin slice through the whole stack before the full
-plumbing is built. Plumbing precedes bulk item-authoring because items are DB
-rows that need the schema first — the pilot is the deliberate exception that
-validates the approach cheaply.
+Opus review + test drive before dependent phases proceed. The first work is
+strictly plumbing: contract, schema, lifecycle, and synthetic fixtures. **No
+legacy companion, dump, topic, source, fact-sheet, or case-file content is
+assimilated in G0/G1A.** Phase P is the first real-content touch and remains an
+early gate before full plumbing.
 
-### Phase G0 — Contract  [Opus]
+### Phase G0 — Plumbing contract  [Codex drafts → Opus reviews]
 
-- Finalize IDs, controlled vocabularies, schema versioning, staging paths, and
-  the export/backup format.
-- Prepare 10–15 reviewed items covering source evidence, finding, analysis,
-  hypothesis, conflict, collective evidence, negative result, and project impact,
-  as the seed/test fixture.
-- Hand-label the expected-answer (gold) set for the §13 representative queries;
-  retrieval acceptance (§15) is measured against it, so it must exist before G2.
+- Finalize kind-neutral IDs, controlled vocabularies, schema versioning, staging
+  and canonical storage paths, visibility rules, and recovery/export formats.
+- Define database constraints, source-registry synchronization, migration
+  safety, revision tracking, and DB-versus-snapshot status semantics.
+- Prepare synthetic or explicitly mocked fixtures covering each table and item
+  kind. Fixtures test structure only and are not approved G13 research content.
 
-### Phase P — Colonial-arrival vertical slice (pilot gate)  [Opus authors; Codex minimal harness]
+### Phase G1A — Minimal database foundation  [Codex builds → Opus reviews]
 
-Before committing to the full G1–G5 build, prove the two hardest questions on one
-domain. Author the colonial-arrival topic prose **and** its ~6 research items
-(the mock set G13-E001 / N002 / E003 / A006 / F004 / S005), load them via `seed`
-into a minimal DB, and run one context-compiler query. Codex builds only a
-**minimal schema/seed/one-query harness** here — a thin cut through G1–G2, not the
-full plumbing. This is **touch #1 of the real work, not a throwaway**: the content
-survives into the package.
+- Implement schema/migration bootstrap, source-registry synchronization,
+  synthetic seed loading, semantic validation, deterministic export/restore,
+  revision-aware `status`, and one basic read query.
+- Add automated tests for foreign keys, failed transactions, stale source
+  registry, kind reclassification without ID changes, backup refusal, and
+  export/restore equivalence.
+- Keep the implementation isolated from `repo_search` and all canonical research
+  prose.
+- **Opus review + test drive** of G0/G1A before Phase P.
 
-**Gate — proceed to full G1–G5 only if:**
+### Phase P — Colonial-arrival vertical slice (pilot gate)  [Opus authors; Codex supports]
+
+After the minimal foundation is accepted, prove the two hardest questions on one
+real domain. Author the colonial-arrival topic prose **and** approximately six
+kind-neutral research items, load them into the minimal DB, and run one
+context-compiler query. This is **touch #1 of the real research work, not a
+throwaway**: the content survives into the package. Hand-label the expected
+answer set for this query here; broader §13 gold sets expand before G2.
+
+**Gate — proceed to G1B–G5 only if:**
 
 - Co-authoring prose + items in one pass is sustainable in practice, and
 - The resulting context package is materially smaller than, and as complete as,
@@ -989,13 +1091,13 @@ survives into the package.
 If the gate fails, stop at the topic refactor and source/citation improvements
 (consistent with §17) rather than expanding graph machinery.
 
-### Phase G1 — Database  [Codex builds → Opus reviews]
+### Phase G1B — Complete database plumbing  [Codex builds → Opus reviews]
 
 - Implement schema + migrations, seed loader, exporter/restore, validation,
   build report, and basic queries.
 - Enforce integrity via DB constraints; keep the graph isolated from
   `repo_search` behavior.
-- **Opus review + test drive** of G1 before G2 proceeds.
+- **Opus review + test drive** of G1B before G2 proceeds.
 
 ### Phase G2 — Context compiler  [Codex builds → Opus reviews]
 
@@ -1012,19 +1114,24 @@ If the gate fails, stop at the topic refactor and source/citation improvements
 ### Phase G4 — Artifact  [Opus builds; Fable UI polish after the contract is met]
 
 - Build the editing/navigational artifact against the §14 contract (direct
-  SQLite, transactional saves, in-model revisions, export-on-cadence).
+  SQLite, transactional saves, in-model revisions, automatic recovery export).
 - Validate round-trip edits, revision logging, and export/restore behavior.
 
 ### Phase G5 — Static export  [Codex builds → Opus reviews]
 
 - Export finding pages/JSON and adjacency slices for the later graph-enhanced
   website.
+- Export only explicitly public items and publishable excerpts; include an edge
+  only when both endpoints are public, and test that restricted labels cannot
+  leak through adjacency data.
 
 ## 17. Go/no-go criteria
 
-The **first** gate is Phase P (§16): do not build the full G1–G5 plumbing unless
-the colonial-arrival pilot slice shows sustainable co-authoring and a materially
-smaller, complete context package.
+The first technical checkpoint is G0/G1A: do not touch real research content
+until the minimal database foundation passes review. The first research-value
+gate is Phase P (§16): do not build G1B–G5 unless the colonial-arrival pilot
+slice shows sustainable co-authoring and a materially smaller, complete context
+package.
 
 Proceed beyond the G13 pilot only if:
 
@@ -1045,7 +1152,7 @@ expensive (judgment, corpus-corrupting).
 
 | Work | Owner | Status | Rationale |
 |---|---|---|---|
-| Graph plumbing — schema, migrations, seed loader, exporter/restore, validator, context compiler, static export (§10–13, §15) | **Codex GPT-5** | Locked | Deterministic, testable Python; integrity is machine-checkable; cheapest tool for well-specified plumbing. |
+| Graph plumbing — contract, schema, migrations, seed loader, exporter/restore, validator, context compiler, static export (§10–13, §15) | **Codex GPT-5** | Locked | Deterministic, testable Python; integrity is machine-checkable; cheapest tool for well-specified plumbing. |
 | Graph-editing artifact core — architecture + transactional save/validate/diff/export path (§14) | **Opus 4.8** | Locked | Correctness-critical software touching the canonical store. |
 | Research synthesis — dump/companion inventory, classification, routing, topic synthesis, research-item authoring (Plan 02 §7–9, §11; Phase G3) | **Opus 4.8** | Recommended | Judgment- and repo-knowledge-heavy; a wrong disambiguation (e.g. Cheny/Girny) is expensive and hard to reverse. |
 | Mechanical passes — coverage-ledger rows from a frozen inventory, stub/manifest generation, link/footnote validation runs, artifact UI polish after the contract is fixed | **Fable 5** | Recommended | Well-specified, low-judgment work against a frozen spec; conserve scarce Fable for exactly this. |
@@ -1056,7 +1163,7 @@ are the default unless Allen redirects per task.
 ### Review and test-drive protocol
 
 Codex tests its own plumbing. **On top of that**, after each Codex deliverable
-(G1, G2, G5), Opus 4.8 performs an independent code review and functional test
+(G0/G1A, G1B, G2, G5), Opus 4.8 performs an independent code review and functional test
 drive before dependent phases proceed:
 
 - **Review:** schema/constraint correctness, integrity enforcement, validator
@@ -1064,6 +1171,7 @@ drive before dependent phases proceed:
   isolation from `repo_search`.
 - **Test drive:** seed → validate → query/compile → export → restore round-trip
   on the Phase G0 fixture; representative queries (§13) against the gold set;
-  confirm the backup-refusal guard fires when no current export exists.
+  confirm the backup-refusal guard fires when no recovery export matching the
+  live DB revision exists.
 - Findings are returned to Codex for correction, or accepted with noted
   follow-ups. A phase advances only after Opus sign-off.

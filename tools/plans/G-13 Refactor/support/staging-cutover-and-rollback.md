@@ -16,13 +16,15 @@ research/people/_staging/g13-john-gurney/
 The site and normal ancestor resolver ignore this path unless preview mode is
 explicitly enabled.
 
-### Generated graph
+### Canonical structured graph
 
 ```text
-C:\Users\allen\GitDirs\gurney-genealogy-search-cache\g13-graph\
+C:\Users\allen\GitDirs\gurney-genealogy-g13-graph\
 ```
 
-Deleting this directory removes the graph without touching research.
+This is durable canonical state, not a cache. It is separate from the
+repo-search cache and is retired or restored only through the documented graph
+lifecycle.
 
 ### Website preview
 
@@ -36,7 +38,9 @@ Preview mode is explicit, noindex, and excluded from public discovery files.
 
 Before implementation:
 
-- Record Git commit.
+- Record a clean Git commit containing every dump input. If that is impossible,
+  freeze an immutable content-addressed copy and manifest; a commit ref alone
+  does not capture modified or untracked files.
 - Hash current companion, case file, relevant topics, dump files, and media.
 - Record current word/line/heading/footnote counts.
 - Record current public routes and generated page hashes.
@@ -53,13 +57,15 @@ companion.
   during development.
 - Site legacy mode remains default.
 - No generated site mirror is treated as canonical.
-- The **live SQLite is git-ignored and OneDrive-ignored**; its committed **export
-  snapshot** under `graph/exports/` is the backup that lives in git/OneDrive. The
-  live DB binary itself is never committed. (See Plan 01 §6-§7.)
+- The **live SQLite is outside OneDrive and Git** at the dedicated GitDirs path.
+  Its atomically refreshed, git-ignored `current.ndjson` recovery export lives
+  in OneDrive, while versioned milestone snapshots under
+  `data/context-graphs/g13/exports/snapshots/` live in OneDrive and Git. The live
+  DB binary itself is never committed. (See Plan 01 §6–§7.)
 - No graph-editor save bypasses validation; every accepted save writes an
   `item_revisions` row.
-- An export snapshot exists (and destructive DB operations refuse to run without
-  one) before the DB holds anything valuable.
+- The current recovery export matches the live DB revision (and destructive DB
+  operations refuse to run otherwise) before the DB holds anything valuable.
 - No dump file is deleted after assimilation.
 - Cross-subject findings are routed through the coverage ledger.
 
@@ -108,13 +114,15 @@ Cutover should be one coherent reviewed patchset:
 4. Promote staged topics to:
    `research/people/g13-john-gurney/`.
 5. Replace the root companion with the approved hub.
-6. Migrate the staging graph DB content to its canonical location/config (export
-   from staging → restore into the canonical DB, or repoint config at it), and
-   commit a fresh export snapshot.
+6. Migrate the staging graph DB content to its dedicated canonical
+   location/config (export from staging → restore into the canonical DB, or
+   repoint config at it), refresh the current recovery export, and commit a
+   versioned snapshot.
 7. Change site default from legacy to package.
 8. Update the small number of entry links.
 9. Rebuild repository indexes.
-10. Rebuild graph.
+10. Validate the canonical graph and refresh only its derived FTS, context, and
+    website exports.
 11. Build and validate site.
 12. Run research-item/source/footnote/link validation.
 13. Review Git diff before commit.
@@ -136,9 +144,9 @@ the staged/package directory present but noncanonical.
 ### Level 3 — Full refactor
 
 Remove or quarantine the promoted package, restore the legacy companion, select
-legacy site mode, retire the canonical graph (its content preserved in the last
-committed export snapshot — not merely deleted), and rebuild repository/site
-indexes.
+   legacy site mode, retire the canonical graph through a current recovery export
+   plus a committed archive snapshot—not deletion—and rebuild repository/site
+   indexes.
 
 Raw dump and source artifacts are unchanged at every rollback level. Because the
 graph is canonical, "retire" means archive-via-export, not discard.
@@ -155,8 +163,9 @@ Keep:
 until Allen explicitly accepts the refactor and no longer needs immediate
 side-by-side comparison.
 
-Even after acceptance, Git history remains the final recovery mechanism. The
-legacy copy may later move to an archive location by a separate decision.
+Even after acceptance, committed graph export snapshots and Git history together
+provide durable recovery. The legacy copy may later move to an archive location
+by a separate decision.
 
 ## 9. Definition of easy transition
 

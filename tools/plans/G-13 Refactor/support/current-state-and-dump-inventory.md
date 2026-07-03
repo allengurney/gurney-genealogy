@@ -31,13 +31,15 @@ Known structural symptoms:
 | File | Words | Lines | Main scope |
 |---|---:|---:|---|
 | `dump-2026-07-01-g13-colonial-massbay-campaign.md` | 6,531 | 566 | Round 1 colonial campaign, Braintree manuscript, Winthrop/Gurdon, negatives |
-| `dump-2026-07-01-g13-colonial-round2-ward-county.md` | 4,099 | 360 | Wardship, county framing, colonial false friends |
+| `dump-2026-07-01-g13-colonial-round2-ward-county.md` | 4,884 | 466 | Wardship, county framing, colonial false friends; includes reconciled material formerly held in the temporary dump |
 | `dump-2026-07-02-g13-colonial-round3-english-network.md` | 2,215 | 197 | English ward/network findings |
 | `dump-2026-07-02-g13-colonial-round3-part2.md` | 2,953 | 264 | West Barsham, Crowe, L'Estrange, Bury conduit |
 | `dump-2026-07-02-g13-colonial-round4-arch45-and-network.md` | 8,562 | 681 | 1646 petition, Boston negative, network synthesis |
-| `dump-2026-07-03-round5-G-14-to-G-37.md` | 5,369 | 167 | Primarily G14–G37; route G13-bearing network material carefully |
+| `dump-2026-07-03-round5-G-14-to-G-37.md` | 10,533 | 322 | Primarily G14–G37; route G13-bearing network material carefully |
 | `hobart-journal-pages-8-24-transcription.md` | 3,114 | 1,173 | Source transcription and scoped variant review |
-| `temp999.md` | 4,870 | 465 | Overlaps round 2 and includes appended raw material |
+
+`temp999.md` was deliberately deleted after reconciliation. It is not part of
+the implementation baseline and must not be recreated.
 
 ## Dump media
 
@@ -123,17 +125,15 @@ because they are in the dump.
 
 1. Do not promote an early tentative finding when a later dump resolves it.
 2. Do not flatten source-coverage negatives into historical negatives.
-3. Do not treat `temp999.md` as disposable solely because a named round-2 file
-   exists.
-4. Do not route G14–G37 findings into G13 merely because the session began from
+3. Do not route G14–G37 findings into G13 merely because the session began from
    G13.
-5. Do not leave large OCR files in the research layer.
-6. Do not discard false-positive work that prevents expensive repeated
+4. Do not leave large OCR files in the research layer.
+5. Do not discard false-positive work that prevents expensive repeated
    searches; assimilate it into a compact false-friend/negative-search layer.
-7. Do not infer that an unregistered source is ready for citation.
-8. Do not extract facts while discarding analysis, theories, speculation, or
+6. Do not infer that an unregistered source is ready for citation.
+7. Do not extract facts while discarding analysis, theories, speculation, or
    user reasoning.
-9. Reconcile actionable open items against the leads catalog.
+8. Reconcile actionable open items against the leads catalog.
 
 ## Required inventory outputs during implementation
 

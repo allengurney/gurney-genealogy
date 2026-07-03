@@ -8,7 +8,8 @@ topic refactor, non-graph annex, and graph-editing artifact are stable.
 A sentence, clause, table row, or short prose cluster can display a restrained
 evidence marker:
 
-> John probably arrived at Weymouth between 1638 and early 1641.
+> John probably arrived at Weymouth during 1638–1640, within a wider plausible
+> range of 1636–1641.
 > **Evidence: 4 findings**
 
 Selecting the marker opens:
@@ -46,7 +47,7 @@ Confidence: Moderate-high
 Plausible range: 1636-1641
 Probable range: 1638-1640
 
-Supporting observations
+Supporting source evidence
   Confirmed — At Weymouth by 2 June 1641
   Bounded negative — Not in reviewed 1636 property list
   Confirmed — Original grantee of three pre-1643 parcels
@@ -74,8 +75,8 @@ All data can be generated at build time:
 ```text
 SQLite graph export
        |
-       +--> /research/findings/G13-F004/index.html
-       +--> /assets/findings/G13-F004.json
+       +--> /research/findings/g13-ri-000006/index.html
+       +--> /assets/findings/g13-ri-000006.json
        +--> page-specific research-item manifest
        +--> optional G13 adjacency export
 ```
@@ -100,8 +101,8 @@ Every marker is also a normal hyperlink:
 
 ```html
 <a class="evidence-link"
-   href="/research/findings/G13-F004/"
-   data-item-ids="G13-F004">
+   href="/research/findings/g13-ri-000006/"
+   data-item-ids="G13-RI-000006">
   Evidence: 4 findings
 </a>
 ```
@@ -142,6 +143,11 @@ Each finding page should include:
 - Research topic and publication appearances.
 - Working-research disclaimer.
 
+Only items explicitly marked `public` may be exported. Evidence excerpts require
+an additional affirmative publishability flag. Relationship exports include an
+edge only when both endpoints are public, so restricted/repo-only labels cannot
+leak through adjacency data.
+
 Finding pages provide:
 
 - No-JavaScript fallback.
@@ -173,7 +179,8 @@ simple breadcrumb/history stack.
 The Claude-built graph artifact is separate from the public website:
 
 - Artifact: authenticated/local authoring, editing, validation, graph
-  visualization, and Git diff.
+  visualization, before/after database diff, revision history, and snapshot
+  status.
 - Website: read-only, static, restrained evidence navigation.
 
 The website consumes validated static exports. It never writes graph data.
