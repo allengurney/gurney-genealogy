@@ -305,19 +305,22 @@ reading from round 1 stands.
    Anthony, direct ancestor); C 142/37/103 + /122 (William, direct line); comparators
    C 142/479/95 (Essex knight), C 142/524/88 (Mary, Middlesex). Also WARD 9 feodary surveys
    for the Edward Gournay wardship (user's WARD 9 search — capture any hits' references).
-3. **CCEd (theclergydatabase.org.uk), manual:** persons search "Warford" (all spellings,
+2. **CCEd (theclergydatabase.org.uk), manual:** persons search "Warford" (all spellings,
    1615–1640) AND appointment-evidence search with patron surname "Gurney/Gurnay" diocese
    Norwich 1615–1645 — the patron search may find the presentation even if Warford's name is
    mis-rendered. Also try Watford/Warforde/Wansford.
-4. **Winthrop Papers printed vol. I p. 29 area** (editors' footnotes to PWF01d256) — check
+
+--> See "User Provided Results for Section 5, #2" at bottom on this dump file.
+
+1. **Winthrop Papers printed vol. I p. 29 area** (editors' footnotes to PWF01d256) — check
    whether the print edition footnotes identify Warford or Mrs. Gurny (the digital edition
    notes only covered Sedley). Archive.org has Winthrop Papers vols.
-5. **Muskett p. 285** (cited by the editors for the Gurdon pedigree) — Gurdon of Assington
+2. **Muskett p. 285** (cited by the editors for the Gurdon pedigree) — Gurdon of Assington
    family detail; check for Gurney/Sedley/Lewkenor cross-references (Muskett, *Suffolk
    Manorial Families*, on archive.org — could be an AI task next thread).
-6. **Boston 9th report p. 209–210 year header** for Samuel×Shapley (or Torrey "GURNEY,
+3. **Boston 9th report p. 209–210 year header** for Samuel×Shapley (or Torrey "GURNEY,
    Samuel & Sarah SHAPLEY"); then Shapley family reconstruction.
-7. Carried from round 1 (still open, deprioritized per user: Arch-45 petition, Cheny/Girny
+4. Carried from round 1 (still open, deprioritized per user: Arch-45 petition, Cheny/Girny
    letterform packet, NEHGR 121 Hobart remainder, First Church Boston CSM 39–41).
 
 ## 6. Process/tooling assessment (light; user item F)
@@ -357,4 +360,107 @@ reading from round 1 stands.
 Gornet, Girny into Modern-broad with collision notes; false-friend table (Gurnell, Garnsey,
 Garnet/Gardner, Gurnet-place, Gorne=corn) as the companion control. "Gurner" NOT recommended
 (single Scots-POW instance, no colonial Gurney usage).
+
+----
+
+
+
+**User Provided Results for Section 5, #2**: 
+
+Gurnay, Edmund (1608-1608)
+
+- CCEd Person ID: 26318
+- Comments: VENN: Matric. pens. from QUEENS', 1595. Adm. Oct. 30, 1594. S. of Henry, of West Barsham, Norfolk. B.A. 1598-9; M.A. from Corpus Christi, 1602; B.D. 1609. Fellow of Corpus Christi, 1601-14. Incorp. at Oxford, 1606. Ord. priest (Norwich) 1614. R. of Edgefield, Norfolk, 1614-20. R. of Harpley, 1620-48. Author of anti-Romanist treatises. One of Fuller's Worthiss. Buried at St Peter Mancroft, Norwich, May 14, 1648. (House of Gournway, 287, 463; Masters, 301; Vis. of Norfolk, 1664.)
+  SEE OXFORD DNB
+
+[Ordination Record, ID 122593](https://theclergydatabase.org.uk/jsp/DisplayOrdination.jsp?CDBOrdRedID=122593)
+
+- CCEd Record ID: 122593
+- Linked to person: [Gurnay, Edmund 1608-1608](https://theclergydatabase.org.uk/jsp/persons/CreatePersonFrames.jsp?PersonID=26318)
+
+|       Surname | Gurnay                                                       |
+| ------------: | ------------------------------------------------------------ |
+|      Forename | Edmundus                                                     |
+|         Title |                                                              |
+| Qualification | [MA](https://theclergydatabase.org.uk/jsp/glossary.jsp?id=e275) |
+|    University | Cambridge                                                    |
+|       College | Corpus Christi                                               |
+|          Year |                                                              |
+
+|              Type | ordination      |
+| ----------------: | --------------- |
+|              Date | 18/12/1608      |
+|             Place | Downham         |
+|            Church | Bishop's Chapel |
+|   Clerical Status | deacon          |
+| Letters Dimissory | No              |
+
+Comment
+
+|                                                       Source | CUL, EDR G/1/9 (Register)                                    |
+| -----------------------------------------------------------: | ------------------------------------------------------------ |
+|                                                       Bishop | [Heton, Martin/Ely 1600-1609](https://theclergydatabase.org.uk/jsp/bishops/index.jsp?ordTenID=208) |
+| Fellow of Corpus Christi College, Cambridge. It is noted of all ordinations on 18 Dec. 1608 that they were performed in the Bishop's Chapel at Downham because of the Bishop's ill health ('propter ipsius infirmam valetudinem et aeris intemperien') |                                                              |
+
+***
+
+# Person: Warfilde, Roger (1628 - 1640)
+
+- CCEd Person ID: 91521 [CCED: Person Display](https://theclergydatabase.org.uk/jsp/persons/DisplayPerson.jsp?PersonID=91521)
+- Comments VENN (as WARFIELD): Matric. sizar from CLARE, Michs. 1611. Probably s. of Richard (above). B.A. from Jesus, 1614-5; M.A. 1618. Incorp. at Oxford, 1620. P.C. of St Benetfink, London, 1635-62. V. of Elmstead, Essex, 1643-62.
+
+## Appointment Events
+
+- ### Curate : **[St Benet Fink](https://theclergydatabase.org.uk/jsp/locations/index.jsp?locKey=11570)** (07/10/1628 - 00/00/1640 )
+
+  | Type | Name              | Date       | Office | Event | Location               | Full Record                                                  |
+  | :--- | :---------------- | :--------- | :----- | :---- | :--------------------- | :----------------------------------------------------------- |
+  | Libc | Warfeild, Rogerus | 07/10/1628 | Curate |       | St Benedict Finke/     | [View](https://theclergydatabase.org.uk/jsp/DisplayLibClDetail.jsp?CDBLibClDeID=12871) |
+  | Libc | Warfeild, Roger   | 00/00/1640 | Curate |       | St Benedict Ffrancke?/ | [View](https://theclergydatabase.org.uk/jsp/DisplayLibClDetail.jsp?CDBLibClDeID=72843) |
+
+- ### Curate : **[St Benet Fink](https://theclergydatabase.org.uk/jsp/locations/index.jsp?locKey=11570)** (10/01/1635 )
+
+  | Type | Name              | Date       | Office | Event     | Location          | Full Record                                                  |
+  | :--- | :---------------- | :--------- | :----- | :-------- | :---------------- | :----------------------------------------------------------- |
+  | Appt | Warfeild, Rogerus | 10/01/1635 | Curate | Licensing | St Benedict Fink/ | [View](https://theclergydatabase.org.uk/jsp/DisplayAppointment.jsp?CDBAppRedID=181990) |
+  | Sub  | Warfilde, Rogerus | 10/01/1635 | Curate |           | Benedict Finke/   | [View](https://theclergydatabase.org.uk/jsp/DisplaySubscription.jsp?CDBSubscrID=375) |
+
+- ### Preacher : **[St Benet Fink](https://theclergydatabase.org.uk/jsp/locations/index.jsp?locKey=11570)** (10/01/1635 )
+
+  | Type | Name              | Date       | Office   | Event     | Location          | Full Record                                                  |
+  | :--- | :---------------- | :--------- | :------- | :-------- | :---------------- | :----------------------------------------------------------- |
+  | Appt | Warfeild, Rogerus | 10/01/1635 | Preacher | Licensing | St Benedict Fink/ | [View](https://theclergydatabase.org.uk/jsp/DisplayAppointment.jsp?CDBAppRedID=181991) |
+  | Sub  | Warfilde, Rogerus | 10/01/1635 | Preacher |           | Benedict Finke/   | [View](https://theclergydatabase.org.uk/jsp/DisplaySubscription.jsp?CDBSubscrID=376) |
+
+****
+
+# Person: Warfeilde, Richard (1586 - 1633)
+
+- CCEd Person ID: 76236
+- [View Person Record for Warfeilde , Richard](https://theclergydatabase.org.uk/jsp/persons/DisplayCcePerson.jsp?PersonID=76236)
+
+## Education Events
+
+- ### MA
+
+  | Type | Name                 | Date       | Qualification | University | Full Record                                                  |
+  | :--- | :------------------- | :--------- | :------------ | :--------- | :----------------------------------------------------------- |
+  | Appt | Warfield, Richardus  | 14/04/1586 | MA            |            | [View](https://theclergydatabase.org.uk/jsp/DisplayAppointment.jsp?CDBAppRedID=236931) |
+  | Appt | Warfeilde, Richardus | 22/06/1592 | MA            |            | [View](https://theclergydatabase.org.uk/jsp/DisplayAppointment.jsp?CDBAppRedID=237004) |
+
+## Appointment Events
+
+- ### Vicar : **[Cambridge All Saints](https://theclergydatabase.org.uk/jsp/locations/index.jsp?locKey=868)** (14/04/1586 - 27/05/1592 )
+
+  | Type | Name                 | Date       | Office          | Event       | Location                     | Full Record                                                  |
+  | :--- | :------------------- | :--------- | :-------------- | :---------- | :--------------------------- | :----------------------------------------------------------- |
+  | Appt | Warfield, Richardus  | 14/04/1586 | Perpetual Vicar | Institution | Cambridge, Omnium Sanctorum/ | [View](https://theclergydatabase.org.uk/jsp/DisplayAppointment.jsp?CDBAppRedID=236931) |
+  | Vac  | Warfeilde, Richardus | 27/05/1592 | Perpetual Vicar | resignation | Cambridge, Omnium Sanctorum/ | [View](https://theclergydatabase.org.uk/jsp/DisplayVacancy.jsp?CDBAppRedID=236999) |
+
+- ### Rector : **[Dry Drayton](https://theclergydatabase.org.uk/jsp/locations/index.jsp?locKey=912)** (22/06/1592 - 16/09/1633 )
+
+  | Type | Name                 | Date       | Office | Event       | Location     | Full Record                                                  |
+  | :--- | :------------------- | :--------- | :----- | :---------- | :----------- | :----------------------------------------------------------- |
+  | Appt | Warfeilde, Richardus | 22/06/1592 | Rector | Institution | Dridraiton/  | [View](https://theclergydatabase.org.uk/jsp/DisplayAppointment.jsp?CDBAppRedID=237004) |
+  | Appt | Aungier, Eduardus    | 16/09/1633 | Rector | Institution | Dry Drayton/ | [View](https://theclergydatabase.org.uk/jsp/DisplayAppointment.jsp?CDBAppRedID=30945) |
 
