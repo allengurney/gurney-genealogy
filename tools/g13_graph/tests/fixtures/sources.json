@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "schema": "synthetic-test-source-registry",
+    "version": 1
+  },
+  "sources": {
+    "TEST-SOURCE-000001": {
+      "shortTitle": "Synthetic source one",
+      "citation": "Synthetic fixture; not research.",
+      "url": "fixture://source/one",
+      "corpusPath": "fixture://corpus/one",
+      "notes": "TEST fixture only."
+    },
+    "TEST-SOURCE-000002": {
+      "shortTitle": "Synthetic source two",
+      "citation": "Synthetic fixture; not research.",
+      "url": "fixture://source/two",
+      "validationPath": "fixture://validation/two",
+      "notes": "TEST fixture only."
+    },
+    "TEST-SOURCE-000003": {
+      "shortTitle": "Synthetic source three",
+      "citation": "Synthetic fixture; not research.",
+      "url": "fixture://source/three",
+      "mediaPath": "fixture://media/three",
+      "notes": "TEST fixture only."
+    }
+  }
+}

@@ -215,3 +215,7 @@ secrets.json
 sources/intake/_workspace/
 **/__pycache__/
 *.py[cod]
+
+# G13 canonical graph rolling recovery export (versioned snapshots stay tracked).
+/data/context-graphs/g13/exports/current.ndjson
+/data/context-graphs/g13/exports/current.ndjson.tmp-*
