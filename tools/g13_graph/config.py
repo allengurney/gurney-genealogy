@@ -40,6 +40,16 @@ class GraphConfig:
     def snapshots_dir(self) -> Path:
         return self.export_dir / "snapshots"
 
+    @property
+    def build_report_path(self) -> Path:
+        return (
+            self.repo_root
+            / "data"
+            / "context-graphs"
+            / "g13"
+            / "build-report.json"
+        )
+
 
 def load_config(
     *,

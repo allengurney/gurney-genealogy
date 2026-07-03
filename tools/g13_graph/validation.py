@@ -11,7 +11,10 @@ from typing import Any
 
 from .config import GraphConfig
 from .db import connect
-from .exporter import recovery_revision
+from .drift import source_hash_state
+from .exporter import export_identity
+from .indexes import derived_index_state
+from .schema_manager import current_schema_version
 from .sources import mirror_state
 
 
@@ -215,6 +218,41 @@ def validate_connection(
                 "source_registry does not match the configured sources.json.",
             )
 
+    hash_state = source_hash_state(connection, config)
+    for source in hash_state["sources"]:
+        if source["state"] == "missing_baseline":
+            _issue(
+                issues,
+                "source_hash_missing",
+                "Cited local source has no captured content-hash baseline.",
+                source["source_id"],
+                severity="warning",
+            )
+        elif source["state"] == "drifted":
+            _issue(
+                issues,
+                "source_content_drift",
+                "Cited source content changed after its hash baseline was captured.",
+                source["source_id"],
+                severity="warning",
+            )
+        elif source["state"] == "missing_file":
+            _issue(
+                issues,
+                "source_content_missing",
+                "Cited local source path does not resolve to a file.",
+                source["source_id"],
+                severity="warning",
+            )
+
+    index_state = derived_index_state(connection)
+    if index_state["state"] != "current":
+        _issue(
+            issues,
+            "derived_indexes_stale",
+            "Rebuildable FTS indexes do not match the live database revision.",
+        )
+
     for row in connection.execute(
         """
         SELECT item_id, research_unit_id
@@ -323,13 +361,18 @@ def validate_connection(
                 "SELECT database_revision FROM graph_meta WHERE singleton_id=1"
             ).fetchone()[0]
         )
-        exported_revision = recovery_revision(config.recovery_path)
-        if exported_revision != live_revision:
+        recovery = export_identity(config.recovery_path)
+        live_schema = current_schema_version(connection)
+        if (
+            recovery is None
+            or recovery["database_revision"] != live_revision
+            or recovery["schema_version"] != live_schema
+        ):
             _issue(
                 issues,
                 "recovery_export_stale",
-                f"Recovery export revision {exported_revision!r} does not match "
-                f"database revision {live_revision}.",
+                f"Recovery export identity {recovery!r} does not match "
+                f"schema/revision {live_schema}/{live_revision}.",
             )
     return sorted(
         issues,

@@ -80,7 +80,12 @@ def migrate_database(config: GraphConfig) -> int:
                     "SELECT database_revision FROM graph_meta WHERE singleton_id=1"
                 ).fetchone()[0]
             )
-            if recovery_revision(config.recovery_path) != live_revision:
+            if (
+                recovery_revision(
+                    config.recovery_path, expected_schema=current
+                )
+                != live_revision
+            ):
                 raise RuntimeError(
                     "Refusing migration: current recovery export does not match "
                     f"database revision {live_revision}."
@@ -123,6 +128,10 @@ def _apply_pending(connection: sqlite3.Connection) -> int:
                     """,
                     (version, now, APPLICATION_VERSION),
                 )
+            if version >= 2:
+                from .indexes import rebuild_derived_indexes
+
+                rebuild_derived_indexes(connection)
             connection.commit()
         except BaseException:
             connection.rollback()

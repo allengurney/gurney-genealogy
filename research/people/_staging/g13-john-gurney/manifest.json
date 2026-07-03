@@ -1,0 +1,22 @@
+{
+  "subject": "ancestor-g13-john-gurney-1",
+  "status": "staging",
+  "phase": "P",
+  "topics": [
+    {
+      "topicId": "g13-colonial-arrival-chronology",
+      "path": "research/people/_staging/g13-john-gurney/topics/colonial/01-arrival-chronology.md",
+      "headingId": "colonial-arrival-chronology",
+      "title": "Colonial arrival chronology",
+      "researchItemIds": [
+        "G13-RI-000001",
+        "G13-RI-000002",
+        "G13-RI-000003",
+        "G13-RI-000004",
+        "G13-RI-000005",
+        "G13-RI-000006",
+        "G13-RI-000007"
+      ]
+    }
+  ]
+}

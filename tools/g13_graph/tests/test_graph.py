@@ -3,13 +3,17 @@ from __future__ import annotations
 import json
 import shutil
 import sqlite3
+import subprocess
+import sys
 import tempfile
 import unittest
 from pathlib import Path
 from unittest import mock
 
 from tools.g13_graph.config import DEFAULT_DB, GraphConfig
+from tools.g13_graph.context import compile_context
 from tools.g13_graph.db import connect, transaction
+from tools.g13_graph.drift import capture_source_hashes, source_hash_state
 from tools.g13_graph.exporter import (
     ExportFormatError,
     build_export,
@@ -19,7 +23,14 @@ from tools.g13_graph.exporter import (
     restore_export,
 )
 from tools.g13_graph.mutations import update_item
-from tools.g13_graph.queries import get_item
+from tools.g13_graph.indexes import (
+    derived_index_state,
+    rebuild_database_indexes,
+    search_graph,
+)
+from tools.g13_graph.lifecycle import PostCommitRefreshError
+from tools.g13_graph.queries import get_impact, get_item, get_source, get_unit
+from tools.g13_graph.report import write_build_report
 from tools.g13_graph.schema_manager import (
     current_schema_version,
     initialize_database,
@@ -69,11 +80,45 @@ class GraphTestCase(unittest.TestCase):
 
 
 class SchemaAndTransactionTests(GraphTestCase):
+    def _create_schema_one_database(self, config: GraphConfig) -> None:
+        connection = connect(config.db_path)
+        try:
+            sql = (
+                Path(__file__).resolve().parents[1]
+                / "schema"
+                / "migrations"
+                / "0001_initial.sql"
+            ).read_text(encoding="utf-8")
+            connection.executescript("BEGIN IMMEDIATE;\n" + sql)
+            connection.execute(
+                """
+                INSERT INTO schema_migrations(version, name, applied_at)
+                VALUES (1, 'initial', '2026-07-03T00:00:00Z')
+                """
+            )
+            connection.execute(
+                """
+                INSERT INTO graph_meta(
+                    singleton_id, schema_version, database_revision,
+                    created_at, updated_at, application_version
+                ) VALUES (
+                    1, 1, 0, '2026-07-03T00:00:00Z',
+                    '2026-07-03T00:00:00Z', 'g0-g1a'
+                )
+                """
+            )
+            connection.commit()
+        except BaseException:
+            connection.rollback()
+            raise
+        finally:
+            connection.close()
+
     def test_schema_creation_migration_and_connection_contract(self) -> None:
         self.initialize()
         connection = connect(self.config.db_path)
         try:
-            self.assertEqual(current_schema_version(connection), 1)
+            self.assertEqual(current_schema_version(connection), 2)
             self.assertEqual(connection.execute("PRAGMA foreign_keys").fetchone()[0], 1)
             self.assertEqual(connection.execute("PRAGMA journal_mode").fetchone()[0], "wal")
         finally:
@@ -165,6 +210,25 @@ class SchemaAndTransactionTests(GraphTestCase):
         finally:
             connection.close()
 
+    def test_schema_one_migration_requires_and_accepts_current_recovery(self) -> None:
+        legacy = GraphConfig(
+            repo_root=self.config.repo_root,
+            db_path=self.root / "legacy.sqlite",
+            export_dir=self.root / "legacy-exports",
+            sources_path=self.sources,
+        )
+        self._create_schema_one_database(legacy)
+        with self.assertRaisesRegex(RuntimeError, "recovery export"):
+            migrate_database(legacy)
+        export_recovery(legacy)
+        self.assertEqual(migrate_database(legacy), 1)
+        connection = connect(legacy.db_path, read_only=True)
+        try:
+            self.assertEqual(current_schema_version(connection), 2)
+            self.assertEqual(derived_index_state(connection)["state"], "current")
+        finally:
+            connection.close()
+
 
 class SourceAndRevisionTests(GraphTestCase):
     def test_source_registry_sync_and_stale_hash_detection(self) -> None:
@@ -228,10 +292,10 @@ class SourceAndRevisionTests(GraphTestCase):
     def test_export_failure_leaves_committed_revision_visible_as_unsafe(self) -> None:
         self.seed()
         with mock.patch(
-            "tools.g13_graph.exporter._atomic_write",
+            "tools.g13_graph.exporter.atomic_write",
             side_effect=OSError("synthetic export failure"),
         ):
-            with self.assertRaises(OSError):
+            with self.assertRaises(PostCommitRefreshError):
                 update_item(
                     self.config,
                     "TEST-RI-000003",
@@ -448,6 +512,220 @@ class ExportRestoreAndStatusTests(GraphTestCase):
         self.assertNotEqual(self.config.db_path, DEFAULT_DB)
         self.assertTrue(self.config.db_path.is_relative_to(self.root))
         self.assertTrue(self.config.export_dir.is_relative_to(self.root))
+
+    def test_restore_rebuilds_derived_indexes(self) -> None:
+        self.seed()
+        snapshot = export_snapshot(self.config)
+        restored = GraphConfig(
+            repo_root=self.config.repo_root,
+            db_path=self.root / "indexed-restore.sqlite",
+            export_dir=self.root / "indexed-restore-exports",
+            sources_path=self.sources,
+        )
+        restore_export(restored, snapshot)
+        connection = connect(restored.db_path, read_only=True)
+        try:
+            self.assertEqual(derived_index_state(connection)["state"], "current")
+        finally:
+            connection.close()
+
+
+class CompletePlumbingTests(GraphTestCase):
+    def test_fts_search_and_stale_index_detection(self) -> None:
+        self.seed()
+        result = search_graph(self.config, ["synthetic", "negative"])
+        self.assertIn(
+            "TEST-RI-000005",
+            {row["record_id"] for row in result["results"]},
+        )
+        update_item(
+            self.config,
+            "TEST-RI-000005",
+            {"statement": "A changed synthetic negative statement."},
+            refresh_recovery=False,
+        )
+        self.assertIn(
+            "derived_indexes_stale",
+            self.issue_codes(include_recovery=False),
+        )
+        rebuild_database_indexes(self.config)
+        self.assertNotIn(
+            "derived_indexes_stale",
+            self.issue_codes(include_recovery=False),
+        )
+
+    def test_source_hash_capture_drift_and_review_acceptance(self) -> None:
+        artifact = self.root / "synthetic-source.txt"
+        artifact.write_text("synthetic source version one\n", encoding="utf-8")
+        registry = json.loads(self.sources.read_text(encoding="utf-8"))
+        registry["sources"]["TEST-SOURCE-000002"]["corpusPath"] = str(artifact)
+        self.sources.write_text(
+            json.dumps(registry, indent=2) + "\n", encoding="utf-8"
+        )
+        self.seed()
+        captured = capture_source_hashes(self.config)
+        self.assertEqual(captured["captured"], ["TEST-SOURCE-000002"])
+        connection = connect(self.config.db_path, read_only=True)
+        try:
+            self.assertEqual(
+                source_hash_state(connection, self.config)["counts"]["current"], 1
+            )
+        finally:
+            connection.close()
+        artifact.write_text("synthetic source version two\n", encoding="utf-8")
+        self.assertIn("source_content_drift", self.issue_codes())
+        accepted = capture_source_hashes(
+            self.config,
+            source_ids=["TEST-SOURCE-000002"],
+            replace=True,
+            changed_by="TEST-REVIEWER",
+        )
+        self.assertEqual(accepted["captured"], ["TEST-SOURCE-000002"])
+        self.assertNotIn("source_content_drift", self.issue_codes())
+        connection = connect(self.config.db_path, read_only=True)
+        try:
+            review = connection.execute(
+                """
+                SELECT * FROM item_revisions
+                WHERE item_id='TEST-RI-000007' AND change_kind='review'
+                ORDER BY revision_id DESC LIMIT 1
+                """
+            ).fetchone()
+            self.assertIsNotNone(review)
+        finally:
+            connection.close()
+
+    def test_build_report_is_deterministic(self) -> None:
+        self.seed()
+        first = self.root / "report-one.json"
+        second = self.root / "report-two.json"
+        write_build_report(self.config, first)
+        write_build_report(self.config, second)
+        self.assertEqual(first.read_bytes(), second.read_bytes())
+        report = json.loads(first.read_text(encoding="utf-8"))
+        self.assertEqual(report["schema_version"], 2)
+        self.assertEqual(
+            report["research_items"]["by_kind"]["negative_result"], 1
+        )
+        self.assertEqual(report["derived_indexes"]["state"], "current")
+
+    def test_basic_source_unit_and_impact_queries(self) -> None:
+        self.seed()
+        source = get_source(self.config, "TEST-SOURCE-000001")
+        self.assertEqual(source["items"][0]["item_id"], "TEST-RI-000001")
+        unit = get_unit(self.config, "TEST-UNIT-000001")
+        self.assertGreaterEqual(len(unit["items"]), 1)
+        impact = get_impact(self.config, "TEST-RI-000002")
+        self.assertEqual(impact["scope"], "direct-only")
+        self.assertIn(
+            "TEST-RI-000001",
+            {
+                relation["related_item_id"]
+                for relation in impact["direct_relations"]
+            },
+        )
+
+
+class ContextCompilerTests(GraphTestCase):
+    def test_seed_expands_one_hop_and_reports_ledger(self) -> None:
+        self.seed()
+        package = compile_context(self.config, ids=["TEST-RI-000002"])
+        included = {item["item_id"] for item in package["items"]}
+        # One incoming hop pulls the support/inform/qualify neighbours.
+        self.assertEqual(
+            included,
+            {"TEST-RI-000002", "TEST-RI-000001", "TEST-RI-000003", "TEST-RI-000007"},
+        )
+        ledger = package["coverage_ledger"]
+        self.assertEqual(ledger["seed_matched"], ["TEST-RI-000002"])
+        self.assertIn("TEST-RI-000001", ledger["expanded"])
+        # 'active' and 'open' items are considered; nothing else exists here.
+        self.assertEqual(ledger["considered_active_items"], 9)
+
+    def test_term_match_is_conjunctive(self) -> None:
+        self.seed()
+        package = compile_context(self.config, terms=["synthetic", "negative"])
+        self.assertIn(
+            "TEST-RI-000005",
+            {item["item_id"] for item in package["items"]},
+        )
+
+    def test_budget_never_drops_ids_and_protects_negative_scope(self) -> None:
+        self.seed()
+        package = compile_context(self.config, ids=["TEST-RI-000005"], budget=200)
+        ledger = package["coverage_ledger"]
+        # Budget is unreachable at this size, but ids/short statements survive.
+        self.assertFalse(ledger["within_budget"])
+        self.assertTrue(ledger["omitted_detail"])
+        self.assertIn("TEST-RI-000005", {i["item_id"] for i in package["items"]})
+        negative = next(
+            i for i in package["items"] if i["item_id"] == "TEST-RI-000005"
+        )
+        # Negative-result limitations are structural and never shed for budget.
+        self.assertIn("negative_result_scope", negative)
+        self.assertTrue(negative["negative_result_scope"]["limitations"])
+
+
+class CliSmokeTests(GraphTestCase):
+    def test_complete_g1b_cli_lifecycle(self) -> None:
+        script = self.config.repo_root / "tools" / "g13_graph.py"
+
+        def run(
+            *arguments: str,
+            db: Path | None = None,
+            exports: Path | None = None,
+        ) -> dict:
+            completed = subprocess.run(
+                [
+                    sys.executable,
+                    str(script),
+                    "--db",
+                    str(db or self.config.db_path),
+                    "--export-dir",
+                    str(exports or self.config.export_dir),
+                    "--sources",
+                    str(self.sources),
+                    *arguments,
+                ],
+                cwd=self.config.repo_root,
+                check=False,
+                capture_output=True,
+                text=True,
+                encoding="utf-8",
+            )
+            self.assertEqual(
+                completed.returncode,
+                0,
+                msg=f"{completed.stdout}\n{completed.stderr}",
+            )
+            return json.loads(completed.stdout)
+
+        run("init")
+        run("migrate")
+        run("sync-sources")
+        run("seed", "--file", str(FIXTURES / "synthetic-seed.ndjson"))
+        run("validate")
+        run("search", "--terms", "synthetic", "negative")
+        run("source", "TEST-SOURCE-000001")
+        run("unit", "TEST-UNIT-000001")
+        run("impact", "TEST-RI-000002")
+        run("hash-sources")
+        report = self.root / "cli-report.json"
+        run("report", "--output", str(report))
+        self.assertTrue(report.is_file())
+        snapshot = Path(run("export", "--snapshot")["export"])
+        restored_db = self.root / "cli-restored.sqlite"
+        restored_exports = self.root / "cli-restored-exports"
+        run(
+            "restore",
+            "--from",
+            str(snapshot),
+            db=restored_db,
+            exports=restored_exports,
+        )
+        status = run("status", db=restored_db, exports=restored_exports)
+        self.assertEqual(status["schema_version"], 2)
+        self.assertEqual(status["derived_index_state"], "current")
 
 
 if __name__ == "__main__":

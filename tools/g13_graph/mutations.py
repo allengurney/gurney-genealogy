@@ -77,7 +77,7 @@ def update_item(
     finally:
         connection.close()
     if refresh_recovery:
-        from .exporter import export_recovery
+        from .lifecycle import refresh_after_commit
 
-        export_recovery(config)
+        refresh_after_commit(config)
     return revision

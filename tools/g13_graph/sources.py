@@ -111,9 +111,9 @@ def sync_source_registry(config: GraphConfig, *, refresh_recovery: bool = True) 
         )["state"] == "current":
             revision = current_revision(connection)
             if refresh_recovery:
-                from .exporter import export_recovery
+                from .lifecycle import refresh_after_commit
 
-                export_recovery(config)
+                refresh_after_commit(config)
             return revision
         with transaction(connection):
             now = utc_now()
@@ -160,7 +160,7 @@ def sync_source_registry(config: GraphConfig, *, refresh_recovery: bool = True) 
     finally:
         connection.close()
     if refresh_recovery:
-        from .exporter import export_recovery
+        from .lifecycle import refresh_after_commit
 
-        export_recovery(config)
+        refresh_after_commit(config)
     return revision

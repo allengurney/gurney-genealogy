@@ -1,4 +1,4 @@
-# G13 SQLite context graph — Phase G0/G1A
+# G13 SQLite context graph — Phase G1B
 
 This standalone module implements the plumbing contract in
 `tools/plans/G-13 Refactor/01-sqlite-context-graph-design.md`. It does not read,
@@ -44,6 +44,11 @@ SQLite's online backup API before destructive replacement.
 - `current.ndjson` is atomically replaced through a narrowly ignored
   `current.ndjson.tmp-*` file.
 - Versioned snapshots are named `g13-context-rNNNNNN.ndjson`.
+- Cited local source artifacts can receive content-hash baselines. Validation
+  detects drift by comparing current artifact bytes to the stored baseline; it
+  never hashes prose research text.
+- FTS5 indexes for items, entities/aliases, and research units are derived,
+  revision-stamped, excluded from recovery exports, and rebuilt after restore.
 
 ## Recovery format
 
@@ -74,7 +79,18 @@ export is stale.
 .\.venv\Scripts\python.exe tools\g13_graph.py export --snapshot
 .\.venv\Scripts\python.exe tools\g13_graph.py restore --from <snapshot>
 .\.venv\Scripts\python.exe tools\g13_graph.py item <item-id>
+.\.venv\Scripts\python.exe tools\g13_graph.py source <source-id>
+.\.venv\Scripts\python.exe tools\g13_graph.py unit <unit-id>
+.\.venv\Scripts\python.exe tools\g13_graph.py impact <item-id>
+.\.venv\Scripts\python.exe tools\g13_graph.py search --terms <term> [...]
+.\.venv\Scripts\python.exe tools\g13_graph.py reindex
+.\.venv\Scripts\python.exe tools\g13_graph.py hash-sources
+.\.venv\Scripts\python.exe tools\g13_graph.py report [--output <path>]
+.\.venv\Scripts\python.exe tools\g13_graph.py context --ids <item-id> [--terms ...] [--budget N]
 ```
+
+Command output is written as UTF-8 regardless of the Windows console code page,
+so quoted transcriptions and en-dashes survive a redirect or pipe.
 
 Global `--db`, `--export-dir`, and `--sources` overrides are also available and
 must precede the subcommand.
@@ -83,7 +99,32 @@ The seed loader is one-time bootstrap input, not an editable JSON truth layer.
 Tests use only `tests/fixtures/synthetic-seed.ndjson` and its synthetic source
 registry.
 
-## G1A boundary
+## Minimal context compiler (Phase P)
 
-This phase does not implement a context compiler, relationship-budget
-expansion, FTS, the graph editor, website exports, or any real G13 content.
+`context` is the small read path Phase P needs to measure its gate: it seeds
+research items by `--terms` (conjunctive substring match) or explicit `--ids`,
+expands one relation hop, and emits a compact package with a coverage ledger
+(considered / seed-matched / expanded / omitted-detail) and review warnings.
+`--budget` sheds detail in a declared order — long evidence excerpts, then
+context-only detail, then source display metadata, then notes — and never drops
+an item id, short statement, evidence conflict, or negative-result limitation to
+meet a budget; when the budget is unreachable it reports `within_budget: false`
+rather than truncating. Full budget semantics, FTS ranking, and the §13 gold-set
+evaluation remain Phase G2 work.
+
+`hash-sources` captures only missing local-source baselines by default.
+`--accept-current` is an explicit reviewed-drift operation: it replaces changed
+baselines and writes `review` entries for directly citing research items.
+
+`report` writes a deterministic health/build report containing graph counts,
+validation issues, source-hash state, derived-index state, and backup-tier
+status. The default destination is `data/context-graphs/g13/build-report.json`;
+tests use `--output` in a temporary directory.
+
+## G1B boundary
+
+G1B completes database plumbing but does not expand the Phase P context compiler
+into the full G2 relationship-budget/coverage model. It also does not implement
+the graph editor, static website exports, or additional research assimilation.
+Real G13 content remains limited to the accepted Phase P colonial-arrival slice
+(`research/people/_staging/g13-john-gurney/`).

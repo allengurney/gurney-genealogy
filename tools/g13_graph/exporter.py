@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import json
-import os
 import sqlite3
 import uuid
 from dataclasses import dataclass
@@ -13,8 +12,8 @@ from typing import Any
 from .config import GraphConfig
 from .constants import LOGICAL_TABLE_ORDER, SCHEMA_VERSION
 from .db import connect, online_backup, transaction
-from .schema_manager import initialize_database
-from .util import canonical_json, sha256_json, utc_now
+from .schema_manager import current_schema_version, initialize_database
+from .util import atomic_write, canonical_json, sha256_json
 
 
 class ExportFormatError(ValueError):
@@ -111,29 +110,13 @@ def _document_bytes(document: ExportDocument) -> bytes:
     return ("\n".join(lines) + "\n").encode("utf-8")
 
 
-def _atomic_write(path: Path, content: bytes) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    temporary = path.with_name(
-        f"{path.name}.tmp-{os.getpid()}-{uuid.uuid4().hex}"
-    )
-    try:
-        with temporary.open("wb") as stream:
-            stream.write(content)
-            stream.flush()
-            os.fsync(stream.fileno())
-        os.replace(temporary, path)
-    finally:
-        if temporary.exists():
-            temporary.unlink()
-
-
 def export_recovery(config: GraphConfig) -> Path:
     connection = connect(config.db_path, read_only=True)
     try:
         document = build_export(connection)
     finally:
         connection.close()
-    _atomic_write(config.recovery_path, _document_bytes(document))
+    atomic_write(config.recovery_path, _document_bytes(document))
     return config.recovery_path
 
 
@@ -147,13 +130,21 @@ def export_snapshot(config: GraphConfig) -> Path:
     path = config.snapshots_dir / f"g13-context-r{revision:06d}.ndjson"
     content = _document_bytes(document)
     if path.exists() and path.read_bytes() != content:
-        raise RuntimeError(f"Snapshot revision collision: {path}")
+        schema_version = int(document.manifest["schema_version"])
+        path = (
+            config.snapshots_dir
+            / f"g13-context-s{schema_version:03d}-r{revision:06d}.ndjson"
+        )
+        if path.exists() and path.read_bytes() != content:
+            raise RuntimeError(f"Snapshot schema/revision collision: {path}")
     if not path.exists():
-        _atomic_write(path, content)
+        atomic_write(path, content)
     return path
 
 
-def read_export(path: Path) -> ExportDocument:
+def read_export(
+    path: Path, *, expected_schema: int | None = SCHEMA_VERSION
+) -> ExportDocument:
     try:
         lines = path.read_text(encoding="utf-8").splitlines()
     except OSError as exc:
@@ -171,10 +162,13 @@ def read_export(path: Path) -> ExportDocument:
         or manifest.get("format_version") != 1
     ):
         raise ExportFormatError("Missing or incompatible export manifest.")
-    if manifest.get("schema_version") != SCHEMA_VERSION:
+    if (
+        expected_schema is not None
+        and manifest.get("schema_version") != expected_schema
+    ):
         raise ExportFormatError(
             f"Export schema {manifest.get('schema_version')} is incompatible "
-            f"with schema {SCHEMA_VERSION}."
+            f"with schema {expected_schema}."
         )
     seen_order: list[str] = []
     counts = {table: 0 for table in LOGICAL_TABLE_ORDER}
@@ -219,24 +213,57 @@ def read_export(path: Path) -> ExportDocument:
     return ExportDocument(manifest, records)
 
 
-def recovery_revision(path: Path) -> int | None:
+def recovery_revision(
+    path: Path, *, expected_schema: int | None = None
+) -> int | None:
     if not path.exists():
         return None
     try:
-        return int(read_export(path).manifest["database_revision"])
+        return int(
+            read_export(path, expected_schema=expected_schema).manifest[
+                "database_revision"
+            ]
+        )
     except (ExportFormatError, TypeError, ValueError):
         return None
 
 
-def latest_snapshot_revision(directory: Path) -> int | None:
-    revisions: list[int] = []
+def export_identity(path: Path) -> dict[str, int] | None:
+    if not path.exists():
+        return None
+    try:
+        manifest = read_export(path, expected_schema=None).manifest
+        return {
+            "schema_version": int(manifest["schema_version"]),
+            "database_revision": int(manifest["database_revision"]),
+        }
+    except (ExportFormatError, TypeError, ValueError):
+        return None
+
+
+def latest_snapshot_identity(directory: Path) -> dict[str, int] | None:
+    identities: list[dict[str, int]] = []
     if directory.is_dir():
-        for path in directory.glob("g13-context-r*.ndjson"):
-            try:
-                revisions.append(int(read_export(path).manifest["database_revision"]))
-            except (ExportFormatError, TypeError, ValueError):
-                continue
-    return max(revisions) if revisions else None
+        for path in directory.glob("*.ndjson"):
+            identity = export_identity(path)
+            if identity is not None:
+                identities.append(identity)
+    return (
+        max(
+            identities,
+            key=lambda value: (
+                value["database_revision"],
+                value["schema_version"],
+            ),
+        )
+        if identities
+        else None
+    )
+
+
+def latest_snapshot_revision(directory: Path) -> int | None:
+    identity = latest_snapshot_identity(directory)
+    return None if identity is None else identity["database_revision"]
 
 
 def _insert_row(
@@ -270,11 +297,17 @@ def restore_export(config: GraphConfig, source: Path) -> Path | None:
                 "SELECT database_revision FROM graph_meta WHERE singleton_id=1"
             ).fetchone()[0]
         )
-        if existed and recovery_revision(config.recovery_path) != live_revision:
-            raise RuntimeError(
-                "Refusing restore: current recovery export does not match "
-                f"database revision {live_revision}."
-            )
+        if existed:
+            live_schema = current_schema_version(connection)
+            recovery = export_identity(config.recovery_path)
+            if recovery != {
+                "schema_version": live_schema,
+                "database_revision": live_revision,
+            }:
+                raise RuntimeError(
+                    "Refusing restore: current recovery export does not match "
+                    f"database schema/revision {live_schema}/{live_revision}."
+                )
         if incoming_revision < live_revision:
             raise RuntimeError(
                 "Refusing restore: database_revision cannot move backward "
@@ -310,5 +343,7 @@ def restore_export(config: GraphConfig, source: Path) -> Path | None:
         raise
     else:
         connection.close()
-    export_recovery(config)
+    from .lifecycle import refresh_after_commit
+
+    refresh_after_commit(config)
     return backup_path

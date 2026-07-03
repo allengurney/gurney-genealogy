@@ -2,8 +2,8 @@
 
 from __future__ import annotations
 
-SCHEMA_VERSION = 1
-APPLICATION_VERSION = "g0-g1a"
+SCHEMA_VERSION = 2
+APPLICATION_VERSION = "g1b"
 
 ITEM_KINDS = (
     "source_evidence",
@@ -74,4 +74,10 @@ SEEDABLE_TABLES = tuple(
     table
     for table in LOGICAL_TABLE_ORDER
     if table not in {"graph_meta", "source_registry", "item_revisions", "build_issues"}
+)
+
+DERIVED_INDEX_NAMES = (
+    "research_items_fts",
+    "entities_fts",
+    "research_units_fts",
 )
