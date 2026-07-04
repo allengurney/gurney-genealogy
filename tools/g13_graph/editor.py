@@ -677,6 +677,37 @@ def _op_remove_entity_link(
     )
 
 
+def _op_create_research_unit(
+    connection: sqlite3.Connection, params: dict[str, Any], ts: str, by: str
+) -> StagedChange:
+    unit = dict(params.get("unit") or {})
+    _require(unit, "unit_id", "path", "title")
+    unit.setdefault("review_state", "human_reviewed")
+    _insert_row(connection, "research_units", unit)
+    # Research units are reference rows, not items; no item_revisions row (like
+    # entities). The database_revision bump + recovery refresh record the change.
+    return StagedChange(summary=f"Create research unit {unit['unit_id']}")
+
+
+def _op_update_research_unit(
+    connection: sqlite3.Connection, params: dict[str, Any], ts: str, by: str
+) -> StagedChange:
+    _require(params, "unit_id")
+    fields = {
+        key: params[key]
+        for key in ("path", "heading_id", "title", "scope_summary", "review_state")
+        if key in params
+    }
+    if not fields:
+        raise ChangeError("update_research_unit requires at least one editable field.")
+    assignments = ", ".join(f'"{k}"=?' for k in fields)
+    connection.execute(
+        f"UPDATE research_units SET {assignments} WHERE unit_id=?",
+        (*fields.values(), params["unit_id"]),
+    )
+    return StagedChange(summary=f"Update research unit {params['unit_id']}")
+
+
 def _op_create_entity(
     connection: sqlite3.Connection, params: dict[str, Any], ts: str, by: str
 ) -> StagedChange:
@@ -849,6 +880,8 @@ OPS: dict[str, Callable[[sqlite3.Connection, dict[str, Any], str, str], StagedCh
     "remove_entity_link": _op_remove_entity_link,
     "create_entity": _op_create_entity,
     "update_entity": _op_update_entity,
+    "create_research_unit": _op_create_research_unit,
+    "update_research_unit": _op_update_research_unit,
     "set_dates": _op_set_dates,
     "set_negative_scope": _op_set_negative_scope,
     "add_publication": _op_add_publication,

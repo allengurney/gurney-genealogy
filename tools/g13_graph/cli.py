@@ -18,6 +18,8 @@ from .report import write_build_report
 from .schema_manager import initialize_database, migrate_database
 from .seed import seed_database
 from .sources import sync_source_registry
+from .authoring import author_batch, load_batch, preview_batch
+from .editor import ValidationBlocked
 from .status import graph_status
 from .validation import issues_as_dicts, validate_database
 from .website import export_website
@@ -49,6 +51,17 @@ def build_parser() -> argparse.ArgumentParser:
         help="Write the G5 static public export (public items + publishable excerpts only).",
     )
     website.add_argument("--out", type=Path, default=None)
+    author = subparsers.add_parser(
+        "author-batch",
+        help="Apply a topic-increment batch (units/entities/items/relations) in one transaction.",
+    )
+    author.add_argument("--file", required=True, type=Path)
+    author.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Stage + validate + diff, then roll back without committing.",
+    )
+    author.add_argument("--changed-by", default="g13-authoring")
     item = subparsers.add_parser("item", help="Read one joined research item.")
     item.add_argument("item_id")
     source = subparsers.add_parser("source", help="Read one source and graph uses.")
@@ -139,6 +152,16 @@ def main(argv: Sequence[str] | None = None) -> int:
         elif args.command == "export-website":
             path = export_website(config, args.out)
             _print({"website_export": str(path)})
+        elif args.command == "author-batch":
+            batch = load_batch(args.file)
+            if args.dry_run:
+                _print({"dry_run": True, **preview_batch(config, batch)})
+            else:
+                try:
+                    _print(author_batch(config, batch, changed_by=args.changed_by))
+                except ValidationBlocked as exc:
+                    _print({"committed": False, "blocking_errors": exc.blocking})
+                    return 1
         elif args.command == "item":
             item = get_item(config, args.item_id)
             if item is None:

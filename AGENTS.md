@@ -122,6 +122,7 @@ Skills follow the Agent Skills open standard ([agentskills.io](https://agentskil
 | `research-intake-session-processor/` | Multi-entry intake-session helper. |
 | `citation-rigour/` | Heavy citation audit and normalization. |
 | `connector-publish/` | GitHub Connector / API publish recipe for branch-and-PR work (Codex-driven flow, Windows ARM credential failure modes). |
+| `g13-graph-authoring/` | Author a bounded G13 research-topic increment (Plan 2 / Phase G3): staged topic prose co-authored with kind-neutral research items in the canonical SQLite context graph, via the transactional `author-batch` load. Read before adding or extending a G13 topic unit. |
 
 ---
 

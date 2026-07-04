@@ -1,0 +1,82 @@
+{
+  "_comment": "Reference shape for `g13_graph.py author-batch --file <this>`. Ops run in order units -> entities -> items -> relations, one transaction. Cite only registered data/sources.json sourceIds; keep probable dates inside plausible; the unit heading_id must slug-match the topic file H1. Always --dry-run first.",
+  "units": [
+    {
+      "unit_id": "g13-colonial-EXAMPLE",
+      "path": "research/people/_staging/g13-john-gurney/topics/colonial/NN-example.md",
+      "heading_id": "colonial-example",
+      "title": "Colonial example",
+      "scope_summary": "One-sentence scope of this topic unit."
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "place-example-massachusetts-usa",
+      "entity_type": "place",
+      "canonical_label": "Example, Massachusetts, USA",
+      "repo_record_id": "place-example-massachusetts-usa"
+    }
+  ],
+  "items": [
+    {
+      "item": {
+        "item_id": "G13-RI-000018",
+        "item_kind": "source_evidence",
+        "subject_entity_id": "ancestor-g13-john-gurney-1",
+        "statement": "What one identifiable record explicitly says.",
+        "short_label": "Short handle for the record",
+        "research_unit_id": "g13-colonial-EXAMPLE",
+        "assessment_confidence_label": "high",
+        "transcription_confidence_value": 0.9
+      },
+      "dates": [
+        {
+          "date_role": "event",
+          "plausible_start": "1650", "plausible_end": "1650",
+          "probable_start": "1650", "probable_end": "1650",
+          "precision": "year", "original_display": "1650",
+          "chronology_key": 1650.0, "chronology_key_basis": "stated_date"
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "some-registered-source-id",
+          "role": "supports",
+          "locator": "p. 1",
+          "evidence_excerpt": "optional short exact extract",
+          "verification_level": "printed-primary-transcription"
+        }
+      ],
+      "entities": [{"entity_id": "place-example-massachusetts-usa", "role": "location"}]
+    },
+    {
+      "item": {
+        "item_id": "G13-RI-000019",
+        "item_kind": "research_finding",
+        "subject_entity_id": "ancestor-g13-john-gurney-1",
+        "statement": "A supported conclusion (sourced via relations from the evidence item).",
+        "short_label": "The finding",
+        "research_unit_id": "g13-colonial-EXAMPLE",
+        "assessment_confidence_label": "moderate-high"
+      },
+      "publications": [
+        {
+          "publication_path": "fact-sheets/g13-john-gurney-fact-sheet.md",
+          "assertion_summary": "Where/how the published surface asserts this (verify it does).",
+          "status": "published",
+          "visibility": "public"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "from_item_id": "G13-RI-000018",
+      "relation_type": "SUPPORTS",
+      "to_item_id": "G13-RI-000019",
+      "bearing": "direct",
+      "strength": "strong",
+      "explanation": "Why the evidence supports the finding."
+    }
+  ]
+}

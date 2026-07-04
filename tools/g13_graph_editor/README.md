@@ -37,6 +37,43 @@ browser UI  ──HTTP/JSON──▶  tools/g13_graph_editor/server.py   (loopba
 
 ## Running
 
+### Double-click launcher (recommended)
+
+From the repository root, double-click:
+
+```text
+Launch-G13-Graph-Editor.cmd
+```
+
+The launcher checks the repository `.venv`, editor files, live database,
+recovery export, source mirror, validation state, derived indexes, recovery
+state, and port availability. It then opens the editor in the default browser
+after the loopback server answers. The visible console reports the selected
+database and remains the shutdown control: press `Ctrl+C` there to stop.
+
+Its menu offers:
+
+- **Staging / test** (default) — creates staging from the current live recovery
+  export when absent. If staging is behind live, it offers to archive the old
+  staging DB/export pair and refresh it.
+- **Refresh staging** — archives, rather than deletes, the current staging pair,
+  then restores a clean copy from live.
+- **Live / production** — requires typing `LIVE`; the editor still receives the
+  required `--allow-live` flag and the live DB/export paths explicitly.
+- **Status only** — compares live and staging without starting a server.
+
+For scripted checks:
+
+```powershell
+.\tools\launch_g13_graph_editor.ps1 -Mode Staging -CheckOnly
+.\tools\launch_g13_graph_editor.ps1 -Mode Status
+.\tools\launch_g13_graph_editor.ps1 -Mode Staging -Port 8766
+```
+
+The editor does not need a Windows tray process or background service. It is
+used intermittently, starts quickly, and its visible console makes the active
+database and shutdown state unambiguous.
+
 Development must run against a **staging copy**, never the live canonical DB.
 Seed a staging copy from the current recovery export/snapshot, then launch:
 
@@ -114,8 +151,10 @@ Supported ops: `create_item`, `update_item`, `supersede_item`, `retire_item`,
 `set_review_state`, `undo_item`, `add_relation` / `update_relation` /
 `remove_relation`, `add_source_link` / `update_source_link` /
 `remove_source_link`, `add_entity_link` / `remove_entity_link`, `create_entity` /
-`update_entity`, `set_dates`, `set_negative_scope`, `add_publication` /
-`remove_publication`.
+`update_entity`, `create_research_unit` / `update_research_unit`, `set_dates`,
+`set_negative_scope`, `add_publication` / `remove_publication`. Whole-topic
+increments (a unit + entities + items + relations in one transaction) go through
+`tools/g13_graph/authoring.py` / the `author-batch` CLI, which reuses these ops.
 
 ## Tests
 

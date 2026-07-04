@@ -79,6 +79,7 @@ export is stale.
 .\.venv\Scripts\python.exe tools\g13_graph.py export --snapshot
 .\.venv\Scripts\python.exe tools\g13_graph.py restore --from <snapshot>
 .\.venv\Scripts\python.exe tools\g13_graph.py export-website [--out <dir>]
+.\.venv\Scripts\python.exe tools\g13_graph.py author-batch --file <batch.json> [--dry-run]
 .\.venv\Scripts\python.exe tools\g13_graph.py item <item-id>
 .\.venv\Scripts\python.exe tools\g13_graph.py source <source-id>
 .\.venv\Scripts\python.exe tools\g13_graph.py unit <unit-id>
@@ -139,6 +140,36 @@ baselines and writes `review` entries for directly citing research items.
 validation issues, source-hash state, derived-index state, and backup-tier
 status. The default destination is `data/context-graphs/g13/build-report.json`;
 tests use `--output` in a temporary directory.
+
+## Batch authoring a topic increment (`author-batch`)
+
+`seed` is one-time bootstrap (it refuses a non-empty DB) and the editor's
+`commit_change` applies one op per transaction, so authoring a whole G3 topic
+increment at once uses `author-batch` (`tools/g13_graph/authoring.py`). It applies
+a JSON batch — a research unit, new entities, several items with their
+dates/sources/entities/publications, and the relations between them — in a
+**single transaction**, reusing the editor's op handlers, delta-blocking
+validation, `item_revisions` audit, and post-commit recovery refresh. Ops run in
+dependency order (units → entities → items → relations); any failure rolls the
+whole batch back. Batch shape:
+
+```json
+{
+  "units":     [{"unit_id": "...", "path": "research/.../topic.md", "heading_id": "...", "title": "...", "scope_summary": "..."}],
+  "entities":  [{"entity_id": "...", "entity_type": "place", "canonical_label": "..."}],
+  "items":     [{"item": {"item_id": "G13-RI-000018", "item_kind": "research_finding", "subject_entity_id": "...", "statement": "...", "research_unit_id": "..."},
+                 "dates": [...], "sources": [...], "entities": [...], "publications": [...]}],
+  "relations": [{"from_item_id": "...", "relation_type": "SUPPORTS", "to_item_id": "...", "bearing": "direct", "strength": "strong", "explanation": "..."}]
+}
+```
+
+**Always `--dry-run` first** (stage → validate → diff → roll back) before the real
+run; an ID collision or an introduced blocking validation error is reported
+without touching the DB. Cite only registered `sourceId`s, keep probable date
+ranges inside plausible ranges, and let the unit `heading_id` slug-match a real
+heading in the topic file. The editor also gained `create_research_unit` /
+`update_research_unit` ops so the artifact UI (and this batch path) can add the
+first unit of a new topic.
 
 ## Static website export (Phase G5)
 

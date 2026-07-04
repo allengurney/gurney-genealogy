@@ -425,6 +425,10 @@ This table is provisional. The coverage ledger records the final decision.
 
 ## 11. Research-item integration
 
+The paragraph/cluster-level bridge from narrative prose to research items,
+including Evidence markers and reader exploration, is specified in
+[Plan 2a](02a-narrative-graph-evidence-markers.md).
+
 Research items are **rows in the canonical SQLite graph** (Plan 01 §6), authored
 through the graph artifact or the one-time seed loader — not JSON files. Author
 prose and items **together, per topic, in a single pass**: read the source

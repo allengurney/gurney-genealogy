@@ -21,3 +21,11 @@ Canonical facts live upstream in `data/` and the research layer. Published narra
 - Directory READMEs (`data/README.md`, `research/README.md`, `sources/README.md`, `fact-sheets/README.md`) — destination guidance for what lives where.
 
 README files remain human-facing repository guides; rules and skills under `.claude/` are AI-centric.
+
+## Local G13 graph editor
+
+Double-click `Launch-G13-Graph-Editor.cmd` for a checked startup menu. Staging
+is the safe default; live/production mode requires explicit confirmation. The
+launcher verifies graph health, keeps each database paired with its correct
+recovery-export directory, opens the default browser, and uses the visible
+console for status and shutdown.

@@ -39,6 +39,9 @@ thread.
 - [02-g13-research-refactor-plan.md](02-g13-research-refactor-plan.md) —
   complete design and migration plan for restructuring the companion and
   assimilating the research dump without loss.
+- [02a-narrative-graph-evidence-markers.md](02a-narrative-graph-evidence-markers.md) —
+  narrative-to-graph marker contract, footnote/Evidence reader model,
+  non-linear source/place/person exploration, validation, and Braintree pilot.
 - [03-topic-structured-website-plan.md](03-topic-structured-website-plan.md) —
   complete design and implementation plan for publishing the refactored topic
   package without graph capabilities.
