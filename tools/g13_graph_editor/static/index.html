@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>G13 Context Graph Editor</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header id="statusbar">
+    <div class="brand">G13 Context Graph <span class="tag">editor</span></div>
+    <div id="status-metrics" class="metrics">loading…</div>
+    <div class="actions">
+      <button id="btn-refresh" title="Reload status and current view">Refresh</button>
+      <button id="btn-export-recovery" title="Rewrite the rolling recovery export">Refresh export</button>
+      <button id="btn-snapshot" title="Write a versioned milestone snapshot">Milestone snapshot</button>
+    </div>
+  </header>
+
+  <div id="banner" class="banner hidden"></div>
+
+  <main>
+    <section id="left">
+      <nav class="tabs">
+        <button data-tab="items" class="tab active">Items</button>
+        <button data-tab="queue" class="tab">Review queue</button>
+        <button data-tab="search" class="tab">Search</button>
+        <button data-tab="create" class="tab">New item</button>
+      </nav>
+
+      <div id="tab-items" class="tabpane active">
+        <form id="filters" class="filters"></form>
+        <div class="listmeta" id="items-meta"></div>
+        <ul id="item-list" class="itemlist"></ul>
+      </div>
+
+      <div id="tab-queue" class="tabpane">
+        <div class="queue-actions">
+          <button id="queue-accept" class="ok">Accept selected</button>
+          <button id="queue-reject" class="danger">Reject selected</button>
+          <span id="queue-meta"></span>
+        </div>
+        <ul id="queue-list" class="itemlist"></ul>
+      </div>
+
+      <div id="tab-search" class="tabpane">
+        <form id="search-form" class="filters">
+          <input type="text" id="search-terms" placeholder="FTS terms (space = AND)…" />
+          <button type="submit">Search</button>
+        </form>
+        <ul id="search-list" class="itemlist"></ul>
+      </div>
+
+      <div id="tab-create" class="tabpane">
+        <div id="create-form"></div>
+      </div>
+    </section>
+
+    <section id="right">
+      <div id="detail" class="detail empty">Select an item to view and edit it.</div>
+    </section>
+  </main>
+
+  <div id="modal-backdrop" class="modal-backdrop hidden">
+    <div class="modal">
+      <h3 id="modal-title">Confirm change</h3>
+      <div id="modal-body"></div>
+      <div class="modal-actions">
+        <button id="modal-commit" class="ok">Commit</button>
+        <button id="modal-cancel">Discard</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
