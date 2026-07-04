@@ -1,13 +1,14 @@
 {
   "subject": "ancestor-g13-john-gurney-1",
   "status": "staging",
-  "phase": "P",
+  "phase": "P + G3-increment",
   "topics": [
     {
       "topicId": "g13-colonial-arrival-chronology",
       "path": "research/people/_staging/g13-john-gurney/topics/colonial/01-arrival-chronology.md",
       "headingId": "colonial-arrival-chronology",
       "title": "Colonial arrival chronology",
+      "phase": "P",
       "researchItemIds": [
         "G13-RI-000001",
         "G13-RI-000002",
@@ -16,6 +17,25 @@
         "G13-RI-000005",
         "G13-RI-000006",
         "G13-RI-000007"
+      ]
+    },
+    {
+      "topicId": "g13-colonial-braintree-community",
+      "path": "research/people/_staging/g13-john-gurney/topics/colonial/03-braintree-community.md",
+      "headingId": "colonial-braintree-community",
+      "title": "Colonial Braintree community",
+      "phase": "G3-increment",
+      "researchItemIds": [
+        "G13-RI-000008",
+        "G13-RI-000009",
+        "G13-RI-000010",
+        "G13-RI-000011",
+        "G13-RI-000012",
+        "G13-RI-000013",
+        "G13-RI-000014",
+        "G13-RI-000015",
+        "G13-RI-000016",
+        "G13-RI-000017"
       ]
     }
   ]

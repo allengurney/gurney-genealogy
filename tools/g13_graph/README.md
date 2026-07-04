@@ -1,4 +1,4 @@
-# G13 SQLite context graph — Phase G1B
+# G13 SQLite context graph — core package (Phases G1B–G5)
 
 This standalone module implements the plumbing contract in
 `tools/plans/G-13 Refactor/01-sqlite-context-graph-design.md`. It does not read,
@@ -78,6 +78,7 @@ export is stale.
 .\.venv\Scripts\python.exe tools\g13_graph.py export --recovery
 .\.venv\Scripts\python.exe tools\g13_graph.py export --snapshot
 .\.venv\Scripts\python.exe tools\g13_graph.py restore --from <snapshot>
+.\.venv\Scripts\python.exe tools\g13_graph.py export-website [--out <dir>]
 .\.venv\Scripts\python.exe tools\g13_graph.py item <item-id>
 .\.venv\Scripts\python.exe tools\g13_graph.py source <source-id>
 .\.venv\Scripts\python.exe tools\g13_graph.py unit <unit-id>
@@ -86,7 +87,10 @@ export is stale.
 .\.venv\Scripts\python.exe tools\g13_graph.py reindex
 .\.venv\Scripts\python.exe tools\g13_graph.py hash-sources
 .\.venv\Scripts\python.exe tools\g13_graph.py report [--output <path>]
-.\.venv\Scripts\python.exe tools\g13_graph.py context --ids <item-id> [--terms ...] [--budget N]
+.\.venv\Scripts\python.exe tools\g13_graph.py context --terms earliest Weymouth presence --mode grounding --budget 12000
+.\.venv\Scripts\python.exe tools\g13_graph.py context --ids <item-id> --mode research --relation-types SUPPORTS DEPENDS_ON
+.\.venv\Scripts\python.exe tools\g13_graph.py context --entity-ids <entity-id> --mode audit
+.\.venv\Scripts\python.exe tools\g13_graph.py context --mode exhaustive
 ```
 
 Command output is written as UTF-8 regardless of the Windows console code page,
@@ -99,18 +103,33 @@ The seed loader is one-time bootstrap input, not an editable JSON truth layer.
 Tests use only `tests/fixtures/synthetic-seed.ndjson` and its synthetic source
 registry.
 
-## Minimal context compiler (Phase P)
+## Context compiler (Phase G2)
 
-`context` is the small read path Phase P needs to measure its gate: it seeds
-research items by `--terms` (conjunctive substring match) or explicit `--ids`,
-expands one relation hop, and emits a compact package with a coverage ledger
-(considered / seed-matched / expanded / omitted-detail) and review warnings.
-`--budget` sheds detail in a declared order — long evidence excerpts, then
-context-only detail, then source display metadata, then notes — and never drops
-an item id, short statement, evidence conflict, or negative-result limitation to
-meet a budget; when the budget is unreachable it reports `within_budget: false`
-rather than truncating. Full budget semantics, FTS ranking, and the §13 gold-set
-evaluation remain Phase G2 work.
+`context` seeds active/open research items by conjunctive `--terms`, explicit
+`--ids`, or `--entity-ids`, then traverses graph relations in both directions.
+`--relation-types` restricts both traversal and returned edges. Modes control
+scope:
+
+- `grounding` (default) — one relation hop.
+- `research` — two relation hops.
+- `audit` — the complete connected component.
+- `exhaustive` — every active/open item, including disconnected items.
+
+The coverage ledger names every active/open item considered, every seed and
+expanded item, every compactly included item, and every omitted item with a
+reason. It also reports unresolved explicit IDs, detail omissions, graph
+distance, and the route by which each item was expanded. Review-state,
+knowledge-window, relation-review, and source-hash warnings travel with the
+package.
+
+`--budget` is a character budget over deterministic compact JSON. Detail is
+shed only in the Plan 01 §12 order: evidence excerpts, context-only item detail,
+low-bearing related entities, then full source metadata already addressable by
+`sourceId`. Item IDs and short statements always survive. Evidence-conflict
+records, negative-result scope/limitations, and coverage/omission notices are
+protected. If the protected minimum exceeds the budget, the compiler returns
+the complete protected package with `within_budget: false`; it never silently
+truncates.
 
 `hash-sources` captures only missing local-source baselines by default.
 `--accept-current` is an explicit reviewed-drift operation: it replaces changed
@@ -121,10 +140,39 @@ validation issues, source-hash state, derived-index state, and backup-tier
 status. The default destination is `data/context-graphs/g13/build-report.json`;
 tests use `--output` in a temporary directory.
 
-## G1B boundary
+## Static website export (Phase G5)
 
-G1B completes database plumbing but does not expand the Phase P context compiler
-into the full G2 relationship-budget/coverage model. It also does not implement
-the graph editor, static website exports, or additional research assimilation.
-Real G13 content remains limited to the accepted Phase P colonial-arrival slice
-(`research/people/_staging/g13-john-gurney/`).
+`export-website` writes a deterministic, read-only public export for the future
+graph-enhanced website under `<export-dir>/website` (override with `--out`):
+`manifest.json`, a `findings.json` index, an `adjacency.json` node/edge slice,
+and one `findings/<item_id>.json` page per public item. It never mutates the
+database, prose, or source files.
+
+Publication safety is enforced at the export boundary (Plan 01 §14, §16 G5):
+
+- **Public items only** — only `visibility='public'` research items are emitted;
+  `repo_only`/`restricted` items and every repo-internal field (research
+  location, reviewer, notes, restriction reason, the numeric confidence mirror)
+  are omitted.
+- **Publishable excerpts only** — a source `evidence_excerpt` is emitted only
+  when `excerpt_publishable` is set; `sourceId` and locator are always safe.
+- **Edges only between public endpoints** — an adjacency edge is emitted only
+  when both items are public, so a restricted id/label cannot leak through a
+  relation; publication mappings are emitted only for `published` status.
+- **Band confidence only** — the confidence label is exported, never the numeric
+  value (§8.2).
+
+The export is byte-deterministic (item/edge ordering, sorted keys, revision-
+timestamped manifest), mirroring the recovery export. `test_website.py` proves
+the safety contract by injecting rows the validator would reject (public→
+non-public edge, non-publishable excerpt on a public item, retired publication)
+and asserting they are stripped. With the current staged graph carrying no public
+items yet, the live export is intentionally empty until items are marked public.
+
+## Phase boundary
+
+G2 (context compiler), G4 (graph editor, `tools/g13_graph_editor/`), and G5
+(static website export) are implemented. Real G13 content covers the accepted
+Phase P colonial-arrival slice plus the Phase G3 colonial-Braintree increment
+(`research/people/_staging/g13-john-gurney/`, items `G13-RI-000001..000017`);
+broader G3 research assimilation continues topic by topic.

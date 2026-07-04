@@ -1,31 +1,25 @@
-"""Minimal Phase P context compiler.
+"""Phase G2 context compiler for the canonical G13 graph.
 
-This is the deliberately small read path that Phase P needs to measure its gate
-(§16): seed items by term or explicit id, expand one relation hop, and emit a
-compact, budget-aware package with an explicit coverage ledger. The full budget
-model, FTS ranking, and §13 gold-set evaluation remain Phase G2 work; this
-module implements only what the colonial-arrival slice requires and shares the
-schema and read conventions of the accepted G1A plumbing.
-
-Guarantees kept from §12, even in this minimal form:
-
-- The package never silently truncates. Every in-scope item keeps its id and a
-  short statement; only detail is shed to meet a budget, in a declared order.
-- Conflicts, negative-result limitations, and omitted-coverage notices are never
-  dropped to meet a budget.
+The compiler selects active/open seed items, expands their graph
+neighbourhood deterministically, and emits a budget-aware package with a
+lossless coverage ledger. Budget pressure may remove detail, but never item
+identifiers, short statements, conflict records, negative-result limitations,
+or omission notices.
 """
 
 from __future__ import annotations
 
+import json
+from collections import deque
 from dataclasses import dataclass
-from typing import Any
+from typing import Any, Callable
 
 from .config import GraphConfig
+from .constants import RELATION_TYPES
 from .db import connect
+from .drift import source_hash_state
 from .util import canonical_json
 
-# Kinds that read as current conclusions rather than raw evidence. Used only to
-# order the package (conclusions first); it never filters items out.
 CONCLUSION_KINDS = (
     "research_finding",
     "analysis",
@@ -36,125 +30,393 @@ CONCLUSION_KINDS = (
     "open_question",
 )
 
-# Declared detail-shedding order (§12). Earlier tiers are dropped first. Item
-# ids, short statements, conflicts, negative-result limitations, and the
-# coverage ledger are never in this list — they are structural.
+# None means traverse the complete connected component.
+MODE_MAX_HOPS: dict[str, int | None] = {
+    "grounding": 1,
+    "research": 2,
+    "audit": None,
+    "exhaustive": None,
+}
+
+# Plan 01 §12. The order is part of the public compiler contract.
 TRIM_ORDER = (
-    "evidence_excerpts",   # long exact source extracts
-    "context_only_detail",  # detail on items included only as context
-    "source_detail",        # source display metadata already addressable by id
-    "notes",                # free-text notes/qualifiers on conclusion items
+    "evidence_excerpts",
+    "context_only_detail",
+    "low_bearing_related_entities",
+    "full_source_citations",
 )
+
+PROTECTED_KINDS = ("evidence_conflict", "negative_result")
 
 
 @dataclass(frozen=True)
-class _Scope:
+class _Selection:
     seeds: set[str]
-    expanded: dict[str, list[str]]  # item_id -> human reasons it was pulled in
+    included: set[str]
+    distances: dict[str, int]
+    expansion_reasons: dict[str, list[str]]
+    matched_entity_ids: set[str]
+    missing_item_ids: set[str]
+    inactive_item_ids: set[str]
+    missing_entity_ids: set[str]
+
+
+def _normalise_relation_types(values: list[str] | None) -> tuple[str, ...]:
+    if values is None:
+        return RELATION_TYPES
+    normalised = tuple(dict.fromkeys(value.strip().upper() for value in values if value.strip()))
+    unknown = sorted(set(normalised) - set(RELATION_TYPES))
+    if unknown:
+        raise ValueError("Unknown relation type(s): " + ", ".join(unknown))
+    return normalised
 
 
 def _matches(item: dict[str, Any], terms: list[str]) -> bool:
     haystack = " ".join(
         str(item.get(field) or "")
-        for field in ("statement", "short_label", "summary")
+        for field in (
+            "statement",
+            "short_label",
+            "summary",
+            "qualifiers_json",
+            "tags_json",
+        )
     ).casefold()
     return all(term.casefold() in haystack for term in terms)
 
 
-def _seed_scope(
-    connection: Any, terms: list[str], ids: list[str], relation_types: list[str] | None
-) -> tuple[_Scope, int]:
-    active_items = {
-        row["item_id"]: dict(row)
-        for row in connection.execute(
-            "SELECT * FROM research_items WHERE status IN ('active', 'open')"
-        )
+def _matching_entities(
+    connection: Any, terms: list[str], explicit_ids: list[str]
+) -> tuple[set[str], set[str]]:
+    known_ids = {
+        row["entity_id"]
+        for row in connection.execute("SELECT entity_id FROM entities")
     }
-    considered = len(active_items)
-
-    seeds: set[str] = {item_id for item_id in ids if item_id in active_items}
+    matched = set(explicit_ids) & known_ids
     if terms:
-        seeds |= {
-            item_id
-            for item_id, item in active_items.items()
-            if _matches(item, terms)
-        }
+        for row in connection.execute(
+            """
+            SELECT e.entity_id, e.canonical_label, e.description,
+                   group_concat(a.alias, ' ') AS aliases
+            FROM entities AS e
+            LEFT JOIN entity_aliases AS a ON a.entity_id=e.entity_id
+            GROUP BY e.entity_id
+            ORDER BY e.entity_id
+            """
+        ):
+            text = " ".join(
+                str(row[field] or "")
+                for field in ("canonical_label", "description", "aliases")
+            ).casefold()
+            if all(term.casefold() in text for term in terms):
+                matched.add(row["entity_id"])
+    return matched, set(explicit_ids) - known_ids
 
-    expanded: dict[str, list[str]] = {}
-    for row in connection.execute("SELECT * FROM item_relations"):
-        if relation_types and row["relation_type"] not in relation_types:
-            continue
-        src, dst, rel = row["from_item_id"], row["to_item_id"], row["relation_type"]
-        if src in seeds and dst in active_items and dst not in seeds:
-            expanded.setdefault(dst, []).append(f"{rel} from {src}")
-        if dst in seeds and src in active_items and src not in seeds:
-            expanded.setdefault(src, []).append(f"{rel} to {dst}")
-    return _Scope(seeds, expanded), considered
 
-
-def _item_record(connection: Any, item_id: str, *, is_seed: bool, reasons: list[str]) -> dict[str, Any]:
-    row = dict(
-        connection.execute(
-            "SELECT * FROM research_items WHERE item_id=?", (item_id,)
-        ).fetchone()
+def _items_for_entities(
+    connection: Any, entity_ids: set[str], active_ids: set[str]
+) -> set[str]:
+    if not entity_ids:
+        return set()
+    placeholders = ",".join("?" for _ in entity_ids)
+    values = tuple(sorted(entity_ids))
+    rows = connection.execute(
+        f"""
+        SELECT item_id FROM research_items
+        WHERE subject_entity_id IN ({placeholders})
+        UNION
+        SELECT item_id FROM item_entities
+        WHERE entity_id IN ({placeholders})
+        """,
+        values + values,
     )
+    return {row["item_id"] for row in rows} & active_ids
+
+
+def _select_scope(
+    connection: Any,
+    active_items: dict[str, dict[str, Any]],
+    *,
+    terms: list[str],
+    ids: list[str],
+    entity_ids: list[str],
+    relation_types: tuple[str, ...],
+    mode: str,
+) -> _Selection:
+    active_ids = set(active_items)
+    known_item_ids = {
+        row["item_id"]
+        for row in connection.execute("SELECT item_id FROM research_items")
+    }
+    explicit_seeds = set(ids) & active_ids
+    inactive_item_ids = (set(ids) & known_item_ids) - active_ids
+    term_seeds = {
+        item_id
+        for item_id, item in active_items.items()
+        if terms and _matches(item, terms)
+    }
+    matched_entities, missing_entities = _matching_entities(
+        connection, terms, entity_ids
+    )
+    entity_seeds = _items_for_entities(connection, matched_entities, active_ids)
+    seeds = explicit_seeds | term_seeds | entity_seeds
+
+    if mode == "exhaustive":
+        included = set(active_ids)
+    else:
+        included = set(seeds)
+
+    adjacency: dict[str, list[tuple[str, str, str, str]]] = {
+        item_id: [] for item_id in active_ids
+    }
+    allowed = set(relation_types)
+    for row in connection.execute(
+        """
+        SELECT from_item_id, relation_type, to_item_id, bearing, strength
+        FROM item_relations
+        WHERE review_state NOT IN ('rejected', 'superseded')
+        ORDER BY from_item_id, relation_type, to_item_id
+        """
+    ):
+        source = row["from_item_id"]
+        target = row["to_item_id"]
+        relation_type = row["relation_type"]
+        if source not in active_ids or target not in active_ids or relation_type not in allowed:
+            continue
+        adjacency[source].append(
+            (target, relation_type, "out", row["bearing"])
+        )
+        adjacency[target].append(
+            (source, relation_type, "in", row["bearing"])
+        )
+
+    distances = {item_id: 0 for item_id in seeds}
+    reasons: dict[str, list[str]] = {}
+    queue = deque(sorted(seeds))
+    maximum = MODE_MAX_HOPS[mode]
+    while queue:
+        current = queue.popleft()
+        distance = distances[current]
+        if maximum is not None and distance >= maximum:
+            continue
+        for other, relation_type, direction, bearing in adjacency[current]:
+            candidate_distance = distance + 1
+            explanation = (
+                f"hop {candidate_distance}: {relation_type} "
+                f"{'from' if direction == 'out' else 'to'} {current} "
+                f"({bearing})"
+            )
+            if other not in distances:
+                distances[other] = candidate_distance
+                reasons[other] = [explanation]
+                included.add(other)
+                queue.append(other)
+            elif distances[other] == candidate_distance and other not in seeds:
+                reasons.setdefault(other, []).append(explanation)
+
+    return _Selection(
+        seeds=seeds,
+        included=included,
+        distances=distances,
+        expansion_reasons={
+            item_id: sorted(set(values)) for item_id, values in reasons.items()
+        },
+        matched_entity_ids=matched_entities,
+        missing_item_ids=set(ids) - known_item_ids,
+        inactive_item_ids=inactive_item_ids,
+        missing_entity_ids=missing_entities,
+    )
+
+
+def _source_states(connection: Any, config: GraphConfig) -> dict[str, str]:
+    return {
+        row["source_id"]: row["state"]
+        for row in source_hash_state(connection, config)["sources"]
+    }
+
+
+def _item_record(
+    connection: Any,
+    item: dict[str, Any],
+    *,
+    role: str,
+    distance: int | None,
+    reasons: list[str],
+    included_ids: set[str],
+    relation_types: set[str],
+    source_states: dict[str, str],
+) -> dict[str, Any]:
+    item_id = item["item_id"]
     unit = connection.execute(
-        "SELECT path, heading_id FROM research_units WHERE unit_id=?",
-        (row["research_unit_id"],),
+        "SELECT * FROM research_units WHERE unit_id=?",
+        (item["research_unit_id"],),
     ).fetchone()
     sources = [
         {
-            "source_id": value["source_id"],
-            "role": value["role"],
-            "locator": value["locator"],
-            "evidence_excerpt": value["evidence_excerpt"],
+            "source_id": row["source_id"],
+            "role": row["role"],
+            "locator": row["locator"],
+            "display_title": row["display_title"],
+            "canonical_path": row["canonical_path"],
+            "evidence_excerpt": row["evidence_excerpt"],
+            "alignment_note": row["alignment_note"],
+            "verification_level": row["verification_level"],
+            "source_hash_state": source_states.get(row["source_id"], "not_cited"),
         }
-        for value in connection.execute(
-            "SELECT * FROM item_sources WHERE item_id=? ORDER BY source_id, role, locator",
+        for row in connection.execute(
+            """
+            SELECT s.*, r.display_title, r.canonical_path
+            FROM item_sources AS s
+            JOIN source_registry AS r ON r.source_id=s.source_id
+            WHERE s.item_id=?
+            ORDER BY s.source_id, s.role, s.locator
+            """,
             (item_id,),
         )
     ]
-    relations = [
-        {"direction": "out", "relation_type": r["relation_type"], "other": r["to_item_id"],
-         "bearing": r["bearing"], "strength": r["strength"], "explanation": r["explanation"]}
-        for r in connection.execute(
-            "SELECT * FROM item_relations WHERE from_item_id=? ORDER BY relation_type, to_item_id",
-            (item_id,),
+    relations: list[dict[str, Any]] = []
+    for row in connection.execute(
+        """
+        SELECT * FROM item_relations
+        WHERE (from_item_id=? OR to_item_id=?)
+          AND review_state NOT IN ('rejected', 'superseded')
+        ORDER BY relation_type, from_item_id, to_item_id
+        """,
+        (item_id, item_id),
+    ):
+        relation_type = row["relation_type"]
+        if relation_type not in relation_types:
+            continue
+        outgoing = row["from_item_id"] == item_id
+        other = row["to_item_id"] if outgoing else row["from_item_id"]
+        if other not in included_ids:
+            continue
+        relations.append(
+            {
+                "direction": "out" if outgoing else "in",
+                "relation_type": relation_type,
+                "other": other,
+                "bearing": row["bearing"],
+                "strength": row["strength"],
+                "explanation": row["explanation"],
+                "review_state": row["review_state"],
+            }
         )
-    ] + [
-        {"direction": "in", "relation_type": r["relation_type"], "other": r["from_item_id"],
-         "bearing": r["bearing"], "strength": r["strength"], "explanation": r["explanation"]}
-        for r in connection.execute(
-            "SELECT * FROM item_relations WHERE to_item_id=? ORDER BY relation_type, from_item_id",
+    entities = [
+        {
+            "entity_id": row["entity_id"],
+            "entity_type": row["entity_type"],
+            "canonical_label": row["canonical_label"],
+            "description": row["description"],
+            "role": row["role"],
+        }
+        for row in connection.execute(
+            """
+            SELECT e.*, links.role
+            FROM (
+                SELECT item_id, entity_id, role FROM item_entities
+                UNION
+                SELECT item_id, subject_entity_id, 'subject'
+                FROM research_items WHERE subject_entity_id IS NOT NULL
+            ) AS links
+            JOIN entities AS e ON e.entity_id=links.entity_id
+            WHERE links.item_id=?
+            ORDER BY e.entity_id, links.role
+            """,
             (item_id,),
         )
     ]
+    evidence_groups = []
+    for group in connection.execute(
+        """
+        SELECT g.*, gi.role AS item_role
+        FROM evidence_group_items AS gi
+        JOIN evidence_groups AS g ON g.evidence_group_id=gi.evidence_group_id
+        WHERE gi.item_id=?
+        ORDER BY g.evidence_group_id
+        """,
+        (item_id,),
+    ):
+        group_record = dict(group)
+        group_sources = []
+        for source in connection.execute(
+            """
+            SELECT * FROM evidence_group_sources
+            WHERE evidence_group_id=?
+            ORDER BY source_id, role, locator
+            """,
+            (group["evidence_group_id"],),
+        ):
+            registry = connection.execute(
+                """
+                SELECT display_title, canonical_path
+                FROM source_registry WHERE source_id=?
+                """,
+                (source["source_id"],),
+            ).fetchone()
+            group_sources.append(
+                {
+                    **dict(source),
+                    "display_title": registry["display_title"],
+                    "canonical_path": registry["canonical_path"],
+                    "source_hash_state": source_states.get(
+                        source["source_id"], "not_cited"
+                    ),
+                }
+            )
+        group_record["sources"] = group_sources
+        evidence_groups.append(group_record)
     record: dict[str, Any] = {
         "item_id": item_id,
-        "item_kind": row["item_kind"],
-        "role_in_context": "seed" if is_seed else "expanded",
-        "expansion_reasons": sorted(reasons),
-        "short_statement": row["short_label"] or row["statement"],
-        "statement": row["statement"],
-        "status": row["status"],
-        "confidence_label": row["assessment_confidence_label"],
-        "visibility": row["visibility"],
-        "review_state": row["review_state"],
+        "item_kind": item["item_kind"],
+        "role_in_context": role,
+        "graph_distance": distance,
+        "expansion_reasons": reasons,
+        "short_statement": item["short_label"] or item["statement"],
+        "statement": item["statement"],
+        "summary": item["summary"],
+        "status": item["status"],
+        "confidence_label": item["assessment_confidence_label"],
+        "visibility": item["visibility"],
+        "review_state": item["review_state"],
+        "reviewed_at": item["reviewed_at"],
+        "knowledge_valid_to": item["knowledge_valid_to"],
+        "qualifiers": json.loads(item["qualifiers_json"]),
+        "tags": json.loads(item["tags_json"]),
+        "notes": item["notes"],
         "research_location": {
+            "unit_id": item["research_unit_id"],
             "path": unit["path"] if unit else None,
             "heading_id": unit["heading_id"] if unit else None,
+            "title": unit["title"] if unit else None,
         },
+        "dates": [
+            dict(row)
+            for row in connection.execute(
+                "SELECT * FROM item_dates WHERE item_id=? ORDER BY date_role",
+                (item_id,),
+            )
+        ],
         "sources": sources,
+        "entities": entities,
         "relations": relations,
-        "notes": row["notes"],
+        "evidence_groups": evidence_groups,
+        "publications": [
+            dict(row)
+            for row in connection.execute(
+                """
+                SELECT * FROM item_publications
+                WHERE item_id=? ORDER BY publication_path, heading_id
+                """,
+                (item_id,),
+            )
+        ],
     }
-    if row["item_kind"] == "negative_result":
+    if item["item_kind"] == "negative_result":
         scope = connection.execute(
             "SELECT * FROM negative_result_scope WHERE item_id=?", (item_id,)
         ).fetchone()
         if scope is not None:
-            import json
-
             record["negative_result_scope"] = {
                 "provider": scope["provider"],
                 "collection_name": scope["collection_name"],
@@ -168,10 +430,20 @@ def _item_record(connection: Any, item_id: str, *, is_seed: bool, reasons: list[
     return record
 
 
-def _order_key(record: dict[str, Any]) -> tuple[int, int, str]:
-    kind_rank = CONCLUSION_KINDS.index(record["item_kind"]) if record["item_kind"] in CONCLUSION_KINDS else len(CONCLUSION_KINDS)
-    seed_rank = 0 if record["role_in_context"] == "seed" else 1
-    return (seed_rank, kind_rank, record["item_id"])
+def _order_key(record: dict[str, Any]) -> tuple[int, int, int, str]:
+    role_rank = {"seed": 0, "expanded": 1, "exhaustive": 2}[record["role_in_context"]]
+    kind_rank = (
+        CONCLUSION_KINDS.index(record["item_kind"])
+        if record["item_kind"] in CONCLUSION_KINDS
+        else len(CONCLUSION_KINDS)
+    )
+    distance = record["graph_distance"]
+    return (
+        kind_rank,
+        role_rank,
+        distance if distance is not None else 1_000_000,
+        record["item_id"],
+    )
 
 
 def _package_chars(package: dict[str, Any]) -> int:
@@ -179,28 +451,141 @@ def _package_chars(package: dict[str, Any]) -> int:
 
 
 def _protected(record: dict[str, Any]) -> bool:
-    """Records whose detail may never be shed to meet budget."""
-    return record["item_kind"] in ("evidence_conflict", "negative_result")
+    return record["item_kind"] in PROTECTED_KINDS
 
 
-def _apply_trim(records: list[dict[str, Any]], tier: str) -> None:
+def _trim_evidence_excerpts(records: list[dict[str, Any]]) -> list[str]:
+    changed: list[str] = []
     for record in records:
         if _protected(record):
             continue
-        if tier == "evidence_excerpts":
-            for source in record["sources"]:
-                if source.get("evidence_excerpt"):
-                    source["evidence_excerpt"] = None
-        elif tier == "context_only_detail" and record["role_in_context"] == "expanded":
-            record["statement"] = record["short_statement"]
-            record["notes"] = None
-        elif tier == "source_detail":
-            record["sources"] = [
-                {"source_id": s["source_id"], "role": s["role"], "locator": s["locator"]}
-                for s in record["sources"]
+        for source in record["sources"]:
+            if source.get("evidence_excerpt"):
+                source["evidence_excerpt"] = None
+                changed.append(record["item_id"])
+    return sorted(set(changed))
+
+
+def _trim_context_only_detail(records: list[dict[str, Any]]) -> list[str]:
+    changed: list[str] = []
+    for record in records:
+        if record["role_in_context"] != "expanded" or _protected(record):
+            continue
+        for field in ("statement", "summary", "qualifiers", "tags", "notes", "dates", "publications"):
+            record.pop(field, None)
+        changed.append(record["item_id"])
+    return sorted(changed)
+
+
+def _trim_low_bearing_entities(records: list[dict[str, Any]]) -> list[str]:
+    changed: list[str] = []
+    for record in records:
+        if _protected(record):
+            continue
+        retained = []
+        for entity in record["entities"]:
+            if entity["role"] == "subject":
+                retained.append(entity)
+            else:
+                changed.append(entity["entity_id"])
+        record["entities"] = retained
+    return sorted(set(changed))
+
+
+def _compact_source(source: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "source_id": source["source_id"],
+        "role": source["role"],
+        "locator": source["locator"],
+    }
+
+
+def _trim_full_source_citations(records: list[dict[str, Any]]) -> list[str]:
+    changed: list[str] = []
+    for record in records:
+        if _protected(record):
+            continue
+        if any(set(source) - {"source_id", "role", "locator"} for source in record["sources"]):
+            changed.append(record["item_id"])
+        record["sources"] = [_compact_source(source) for source in record["sources"]]
+        for group in record["evidence_groups"]:
+            if any(
+                set(source) - {"source_id", "role", "locator"}
+                for source in group["sources"]
+            ):
+                changed.append(record["item_id"])
+            group["sources"] = [
+                {
+                    "source_id": source["source_id"],
+                    "role": source["role"],
+                    "locator": source["locator"],
+                }
+                for source in group["sources"]
             ]
-        elif tier == "notes":
-            record["notes"] = None
+    return sorted(set(changed))
+
+
+TRIMMERS: dict[str, Callable[[list[dict[str, Any]]], list[str]]] = {
+    "evidence_excerpts": _trim_evidence_excerpts,
+    "context_only_detail": _trim_context_only_detail,
+    "low_bearing_related_entities": _trim_low_bearing_entities,
+    "full_source_citations": _trim_full_source_citations,
+}
+
+
+def _warnings(
+    records: list[dict[str, Any]], source_states: dict[str, str]
+) -> list[dict[str, str]]:
+    warnings: list[dict[str, str]] = []
+    for record in records:
+        item_id = record["item_id"]
+        if record["review_state"] != "human_reviewed":
+            warnings.append(
+                {
+                    "code": "item_review_needed",
+                    "record_id": item_id,
+                    "message": f"review_state={record['review_state']}",
+                }
+            )
+        if record.get("knowledge_valid_to"):
+            warnings.append(
+                {
+                    "code": "knowledge_window_closed",
+                    "record_id": item_id,
+                    "message": f"knowledge_valid_to={record['knowledge_valid_to']}",
+                }
+            )
+        for relation in record["relations"]:
+            if relation["direction"] == "out" and relation["review_state"] != "human_reviewed":
+                warnings.append(
+                    {
+                        "code": "relation_review_needed",
+                        "record_id": f"{item_id}->{relation['other']}",
+                        "message": f"{relation['relation_type']} review_state={relation['review_state']}",
+                    }
+                )
+    cited = {
+        source["source_id"]
+        for record in records
+        for source in record["sources"]
+    }
+    cited.update(
+        source["source_id"]
+        for record in records
+        for group in record["evidence_groups"]
+        for source in group["sources"]
+    )
+    for source_id in sorted(cited):
+        state = source_states.get(source_id)
+        if state in {"drifted", "missing_baseline", "missing_file"}:
+            warnings.append(
+                {
+                    "code": f"source_{state}",
+                    "record_id": source_id,
+                    "message": f"source hash state is {state}",
+                }
+            )
+    return sorted(warnings, key=lambda row: (row["code"], row["record_id"]))
 
 
 def compile_context(
@@ -208,57 +593,151 @@ def compile_context(
     *,
     terms: list[str] | None = None,
     ids: list[str] | None = None,
+    entity_ids: list[str] | None = None,
     budget: int | None = None,
     relation_types: list[str] | None = None,
+    mode: str = "grounding",
 ) -> dict[str, Any]:
-    terms = list(terms or [])
-    ids = list(ids or [])
+    """Compile a deterministic, coverage-accounted context package."""
+    terms = [term.strip() for term in (terms or []) if term.strip()]
+    ids = list(dict.fromkeys(ids or []))
+    entity_ids = list(dict.fromkeys(entity_ids or []))
+    mode = mode.strip().lower()
+    if mode not in MODE_MAX_HOPS:
+        raise ValueError(
+            f"Unknown context mode {mode!r}; choose from "
+            + ", ".join(MODE_MAX_HOPS)
+        )
+    if budget is not None and budget < 1:
+        raise ValueError("Budget must be a positive character count.")
+    selected_relations = _normalise_relation_types(relation_types)
+
     connection = connect(config.db_path, read_only=True)
     try:
-        scope, considered = _seed_scope(connection, terms, ids, relation_types)
-        included = sorted(scope.seeds | set(scope.expanded))
-        records = [
-            _item_record(
-                connection,
-                item_id,
-                is_seed=item_id in scope.seeds,
-                reasons=scope.expanded.get(item_id, []),
+        active_items = {
+            row["item_id"]: dict(row)
+            for row in connection.execute(
+                """
+                SELECT * FROM research_items
+                WHERE status IN ('active', 'open')
+                ORDER BY item_id
+                """
             )
-            for item_id in included
-        ]
+        }
+        selection = _select_scope(
+            connection,
+            active_items,
+            terms=terms,
+            ids=ids,
+            entity_ids=entity_ids,
+            relation_types=selected_relations,
+            mode=mode,
+        )
+        source_states = _source_states(connection, config)
+        records = []
+        for item_id in sorted(selection.included):
+            if item_id in selection.seeds:
+                role = "seed"
+            elif item_id in selection.distances:
+                role = "expanded"
+            else:
+                role = "exhaustive"
+            records.append(
+                _item_record(
+                    connection,
+                    active_items[item_id],
+                    role=role,
+                    distance=selection.distances.get(item_id),
+                    reasons=selection.expansion_reasons.get(item_id, []),
+                    included_ids=selection.included,
+                    relation_types=set(selected_relations),
+                    source_states=source_states,
+                )
+            )
     finally:
         connection.close()
     records.sort(key=_order_key)
 
-    warnings = sorted(
-        f"{record['item_id']}: review_state={record['review_state']}"
-        for record in records
-        if record["review_state"] != "human_reviewed"
+    outside = sorted(set(active_items) - selection.included)
+    omission_reason = (
+        "no_seed_match"
+        if not selection.seeds and mode != "exhaustive"
+        else f"outside_{mode}_subgraph"
     )
     ledger: dict[str, Any] = {
-        "considered_active_items": considered,
-        "seed_matched": sorted(scope.seeds),
-        "expanded": {item_id: sorted(reasons) for item_id, reasons in sorted(scope.expanded.items())},
+        # Compatibility summaries retained from the Phase P package.
+        "considered_active_items": len(active_items),
+        "seed_matched": sorted(selection.seeds),
+        "expanded": {
+            item_id: {
+                "distance": selection.distances[item_id],
+                "reasons": selection.expansion_reasons.get(item_id, []),
+            }
+            for item_id in sorted(selection.included - selection.seeds)
+            if item_id in selection.distances
+        },
         "included_total": len(records),
         "omitted_detail": [],
         "budget_chars": budget,
+        # Full G2 accounting.
+        "considered": {
+            "count": len(active_items),
+            "item_ids": sorted(active_items),
+            "scope": "status active/open",
+        },
+        "included_compactly": [record["item_id"] for record in records],
+        "omitted": [
+            {"item_id": item_id, "reason": omission_reason}
+            for item_id in outside
+        ],
+        "unresolved_inputs": {
+            "missing_item_ids": sorted(selection.missing_item_ids),
+            "inactive_item_ids": sorted(selection.inactive_item_ids),
+            "missing_entity_ids": sorted(selection.missing_entity_ids),
+        },
+        "matched_entity_ids": sorted(selection.matched_entity_ids),
+        "detail_omissions": [],
     }
+    warnings = _warnings(records, source_states)
     package: dict[str, Any] = {
-        "query": {"terms": terms, "ids": ids, "relation_types": relation_types},
+        "query": {
+            "terms": terms,
+            "ids": ids,
+            "entity_ids": entity_ids,
+            "relation_types": list(selected_relations),
+            "mode": mode,
+            "max_hops": MODE_MAX_HOPS[mode],
+        },
         "items": records,
         "coverage_ledger": ledger,
-        "review_warnings": warnings,
+        "warnings": warnings,
+        "review_warnings": [
+            f"{warning['record_id']}: {warning['message']}"
+            for warning in warnings
+        ],
     }
 
+    ledger["baseline_chars"] = _package_chars(package)
     if budget is not None:
         for tier in TRIM_ORDER:
             if _package_chars(package) <= budget:
                 break
-            _apply_trim(records, tier)
+            affected = TRIMMERS[tier](records)
             ledger["omitted_detail"].append(tier)
+            ledger["detail_omissions"].append(
+                {
+                    "tier": tier,
+                    "affected_ids": affected,
+                    "reason": "character budget exceeded",
+                }
+            )
+    # Stabilize the self-referential final character count and budget flag.
+    ledger["final_chars"] = 0
+    ledger["within_budget"] = budget is None
+    for _ in range(5):
         ledger["final_chars"] = _package_chars(package)
-        ledger["within_budget"] = ledger["final_chars"] <= budget
-    else:
-        ledger["final_chars"] = _package_chars(package)
-        ledger["within_budget"] = True
+        ledger["within_budget"] = (
+            budget is None or ledger["final_chars"] <= budget
+        )
+    ledger["final_chars"] = _package_chars(package)
     return package

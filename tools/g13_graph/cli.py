@@ -20,6 +20,7 @@ from .seed import seed_database
 from .sources import sync_source_registry
 from .status import graph_status
 from .validation import issues_as_dicts, validate_database
+from .website import export_website
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -43,6 +44,11 @@ def build_parser() -> argparse.ArgumentParser:
     export_mode.add_argument("--snapshot", action="store_true")
     restore = subparsers.add_parser("restore", help="Restore a validated NDJSON export.")
     restore.add_argument("--from", dest="source", required=True, type=Path)
+    website = subparsers.add_parser(
+        "export-website",
+        help="Write the G5 static public export (public items + publishable excerpts only).",
+    )
+    website.add_argument("--out", type=Path, default=None)
     item = subparsers.add_parser("item", help="Read one joined research item.")
     item.add_argument("item_id")
     source = subparsers.add_parser("source", help="Read one source and graph uses.")
@@ -70,12 +76,18 @@ def build_parser() -> argparse.ArgumentParser:
     report = subparsers.add_parser("report", help="Write deterministic build report.")
     report.add_argument("--output", type=Path)
     context = subparsers.add_parser(
-        "context", help="Compile a minimal budget-aware context package."
+        "context", help="Compile a G2 relationship- and budget-aware context package."
     )
     context.add_argument("--terms", nargs="*", default=[])
     context.add_argument("--ids", nargs="*", default=[])
+    context.add_argument("--entity-ids", nargs="*", default=[])
     context.add_argument("--budget", type=int, default=None)
     context.add_argument("--relation-types", nargs="*", default=None)
+    context.add_argument(
+        "--mode",
+        choices=("grounding", "research", "audit", "exhaustive"),
+        default="grounding",
+    )
     return parser
 
 
@@ -124,6 +136,9 @@ def main(argv: Sequence[str] | None = None) -> int:
         elif args.command == "restore":
             backup = restore_export(config, args.source)
             _print({"restored_from": str(args.source), "safety_backup": None if backup is None else str(backup)})
+        elif args.command == "export-website":
+            path = export_website(config, args.out)
+            _print({"website_export": str(path)})
         elif args.command == "item":
             item = get_item(config, args.item_id)
             if item is None:
@@ -169,8 +184,10 @@ def main(argv: Sequence[str] | None = None) -> int:
                     config,
                     terms=args.terms,
                     ids=args.ids,
+                    entity_ids=args.entity_ids,
                     budget=args.budget,
                     relation_types=args.relation_types,
+                    mode=args.mode,
                 )
             )
         else:

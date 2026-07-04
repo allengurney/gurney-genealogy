@@ -665,9 +665,201 @@ class ContextCompilerTests(GraphTestCase):
         self.assertIn("negative_result_scope", negative)
         self.assertTrue(negative["negative_result_scope"]["limitations"])
 
+    def test_research_mode_expands_two_hops_but_grounding_stops_at_one(self) -> None:
+        self.seed()
+        connection = connect(self.config.db_path)
+        try:
+            with transaction(connection):
+                connection.execute(
+                    """
+                    INSERT INTO item_relations(
+                        from_item_id, relation_type, to_item_id, bearing,
+                        strength, explanation, review_state
+                    ) VALUES (
+                        'TEST-RI-000002', 'SUMMARIZED_IN', 'TEST-RI-000008',
+                        'direct', 'strong', 'Synthetic first hop.',
+                        'human_reviewed'
+                    )
+                    """
+                )
+                connection.execute(
+                    """
+                    INSERT INTO item_relations(
+                        from_item_id, relation_type, to_item_id, bearing,
+                        strength, explanation, review_state
+                    ) VALUES (
+                        'TEST-RI-000008', 'REQUIRES_REVIEW_OF',
+                        'TEST-RI-000009', 'direct', 'strong',
+                        'Synthetic second hop.', 'human_reviewed'
+                    )
+                    """
+                )
+        finally:
+            connection.close()
+        grounding = compile_context(
+            self.config, ids=["TEST-RI-000002"], mode="grounding"
+        )
+        research = compile_context(
+            self.config, ids=["TEST-RI-000002"], mode="research"
+        )
+        grounding_ids = {item["item_id"] for item in grounding["items"]}
+        research_ids = {item["item_id"] for item in research["items"]}
+        self.assertIn("TEST-RI-000008", grounding_ids)
+        self.assertNotIn("TEST-RI-000009", grounding_ids)
+        self.assertIn("TEST-RI-000009", research_ids)
+        self.assertEqual(
+            research["coverage_ledger"]["expanded"]["TEST-RI-000009"]["distance"],
+            2,
+        )
+
+    def test_relation_filter_controls_expansion_and_output(self) -> None:
+        self.seed()
+        package = compile_context(
+            self.config,
+            ids=["TEST-RI-000002"],
+            relation_types=["supports"],
+        )
+        self.assertEqual(
+            {item["item_id"] for item in package["items"]},
+            {"TEST-RI-000001", "TEST-RI-000002"},
+        )
+        self.assertEqual(package["query"]["relation_types"], ["SUPPORTS"])
+        self.assertTrue(
+            all(
+                relation["relation_type"] == "SUPPORTS"
+                for item in package["items"]
+                for relation in item["relations"]
+            )
+        )
+
+    def test_rejected_relation_does_not_expand_context(self) -> None:
+        self.seed()
+        connection = connect(self.config.db_path)
+        try:
+            with transaction(connection):
+                connection.execute(
+                    """
+                    INSERT INTO item_relations(
+                        from_item_id, relation_type, to_item_id, bearing,
+                        strength, explanation, review_state
+                    ) VALUES (
+                        'TEST-RI-000008', 'PUBLISHED_AS', 'TEST-RI-000002',
+                        'direct', 'strong', 'Rejected synthetic edge.',
+                        'rejected'
+                    )
+                    """
+                )
+        finally:
+            connection.close()
+        package = compile_context(self.config, ids=["TEST-RI-000002"])
+        self.assertNotIn(
+            "TEST-RI-000008",
+            {item["item_id"] for item in package["items"]},
+        )
+
+    def test_exhaustive_mode_accounts_for_every_active_item(self) -> None:
+        self.seed()
+        package = compile_context(self.config, mode="exhaustive")
+        ledger = package["coverage_ledger"]
+        self.assertEqual(
+            set(ledger["considered"]["item_ids"]),
+            {item["item_id"] for item in package["items"]},
+        )
+        self.assertEqual(ledger["omitted"], [])
+        self.assertEqual(ledger["included_total"], 9)
+
+    def test_coverage_ledger_accounts_for_items_outside_subgraph(self) -> None:
+        self.seed()
+        package = compile_context(self.config, ids=["TEST-RI-000002"])
+        ledger = package["coverage_ledger"]
+        accounted = set(ledger["included_compactly"]) | {
+            row["item_id"] for row in ledger["omitted"]
+        }
+        self.assertEqual(accounted, set(ledger["considered"]["item_ids"]))
+        self.assertTrue(
+            all(
+                row["reason"] == "outside_grounding_subgraph"
+                for row in ledger["omitted"]
+            )
+        )
+
+    def test_entity_seed_and_unresolved_inputs_are_reported(self) -> None:
+        self.seed()
+        connection = connect(self.config.db_path)
+        try:
+            with transaction(connection):
+                connection.execute(
+                    """
+                    UPDATE research_items SET status='inactive'
+                    WHERE item_id='TEST-RI-000009'
+                    """
+                )
+        finally:
+            connection.close()
+        package = compile_context(
+            self.config,
+            entity_ids=["TEST-ENTITY-000002", "TEST-ENTITY-MISSING"],
+            ids=["TEST-RI-MISSING", "TEST-RI-000009"],
+        )
+        ledger = package["coverage_ledger"]
+        self.assertIn("TEST-RI-000001", ledger["seed_matched"])
+        self.assertEqual(
+            ledger["unresolved_inputs"]["missing_item_ids"],
+            ["TEST-RI-MISSING"],
+        )
+        self.assertEqual(
+            ledger["unresolved_inputs"]["missing_entity_ids"],
+            ["TEST-ENTITY-MISSING"],
+        )
+        self.assertEqual(
+            ledger["unresolved_inputs"]["inactive_item_ids"],
+            ["TEST-RI-000009"],
+        )
+
+    def test_review_warning_and_protected_conflict_survive_budget(self) -> None:
+        self.seed()
+        connection = connect(self.config.db_path)
+        try:
+            with transaction(connection):
+                connection.execute(
+                    """
+                    UPDATE research_items SET review_state='needs_revision'
+                    WHERE item_id='TEST-RI-000006'
+                    """
+                )
+        finally:
+            connection.close()
+        package = compile_context(
+            self.config,
+            ids=["TEST-RI-000004"],
+            mode="research",
+            budget=200,
+        )
+        self.assertFalse(package["coverage_ledger"]["within_budget"])
+        conflict = next(
+            item
+            for item in package["items"]
+            if item["item_id"] == "TEST-RI-000006"
+        )
+        self.assertIn("statement", conflict)
+        self.assertEqual(conflict["review_state"], "needs_revision")
+        self.assertIn(
+            "item_review_needed",
+            {warning["code"] for warning in package["warnings"]},
+        )
+
+    def test_invalid_mode_relation_and_budget_are_rejected(self) -> None:
+        self.seed()
+        with self.assertRaises(ValueError):
+            compile_context(self.config, mode="unknown")
+        with self.assertRaises(ValueError):
+            compile_context(self.config, relation_types=["NOT_A_RELATION"])
+        with self.assertRaises(ValueError):
+            compile_context(self.config, budget=0)
+
 
 class CliSmokeTests(GraphTestCase):
-    def test_complete_g1b_cli_lifecycle(self) -> None:
+    def test_complete_g2_cli_lifecycle(self) -> None:
         script = self.config.repo_root / "tools" / "g13_graph.py"
 
         def run(
@@ -709,6 +901,16 @@ class CliSmokeTests(GraphTestCase):
         run("source", "TEST-SOURCE-000001")
         run("unit", "TEST-UNIT-000001")
         run("impact", "TEST-RI-000002")
+        context = run(
+            "context",
+            "--ids",
+            "TEST-RI-000002",
+            "--mode",
+            "research",
+            "--relation-types",
+            "SUPPORTS",
+        )
+        self.assertEqual(context["query"]["mode"], "research")
         run("hash-sources")
         report = self.root / "cli-report.json"
         run("report", "--output", str(report))
