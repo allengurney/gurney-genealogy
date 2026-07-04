@@ -1,6 +1,7 @@
 # Plan 2a — Narrative-to-graph evidence markers and exploratory navigation
 
-Status: approved design direction; implementation not started.
+Status: approved design direction, revised 2026-07-04 after Opus review (see
+"Revisions" below); implementation not started.
 
 This plan extends:
 
@@ -21,6 +22,31 @@ Decisions accepted 2026-07-03:
    rather than every factual sentence or only whole headings.
 3. The visible link is the compact word **Evidence**. Counts and explanatory
    detail belong in its accessible label and opened view.
+
+## Revisions (2026-07-04, Opus review)
+
+These adjustments were made after the Phase G3 Braintree increment
+(`03-braintree-community.md`, items `G13-RI-000008..000017`) and the G5 static
+export were built and run. They refine the plan; they do not change its direction.
+
+1. **Retire the coarse item-range comment when a topic gets markers.** Each staged
+   topic currently opens with an HTML comment like `G13-RI-000008..000017 map
+   somewhere into this topic`. Once a topic has markers, that comment is **removed**
+   — markers become the passage→item map, so the mapping lives in exactly one place
+   (SQLite), not two (comment + markers). See §3.1.
+2. **Keep `contextual` membership genuinely exceptional.** Add a validator warning
+   when a `contextual` marker member is already reachable by a single relation hop
+   from the primary item — the relation graph already explains it. See §10.
+3. **A marker is an additional anchor, not a re-home.** `primary_item_id` is a finer
+   narrative anchor; it never replaces an item's `research_unit_id` assignment. See §3.2.
+4. **Stage the build; defer the reader/editor surfaces.** Implement **M0–M3 only**
+   now (canonical marker storage, validation, static `marker-bundles` export, and the
+   Braintree authoring pilot). **Defer the editor Narrative-Markers surface (§9) and
+   the reader drawer/pivot experience (M4–M5) until the topic-structured website
+   (Plan 03) is actually being built** — otherwise the drawer JS is written against a
+   site that does not yet exist. During G3, markers are authored **as each topic is
+   written**, via the `author-batch` load path (`tools/g13_graph/authoring.py`),
+   not through an editor UI. See §13.
 
 ## 1. Problem
 
@@ -114,6 +140,14 @@ The token is invisible in ordinary Markdown rendering. The package/site
 preprocessor replaces it with the reader-facing link only in graph-enabled
 preview or package builds.
 
+**Retire the coarse item-range comment.** A staged topic today opens with an
+HTML comment naming the topic's item-ID range (e.g. `G13-RI-000008..000017 map
+into this topic`). That comment proved topic-level coverage before markers
+existed. Once a topic has markers, **remove it**: the markers are the passage→item
+map, and keeping both invites a Markdown list drifting out of sync with SQLite.
+The topic's HTML comment header may still carry the `topicId` and a one-line note,
+but not a hand-maintained item list.
+
 ### 3.2 SQLite owns structured mapping
 
 Add canonical graph tables conceptually equivalent to:
@@ -162,6 +196,13 @@ The exact DDL belongs in a reviewed migration. The required semantics are:
 `item_publications` should not be overloaded for this purpose. It records
 publication impact or appearance; a prose marker identifies an exact narrative
 expression and may group several items.
+
+A marker is an **additional, finer narrative anchor** — it does not re-home an
+item. `primary_item_id` never replaces an item's `research_unit_id` assignment;
+an item still belongs to its research unit, and a marker points at the exact place
+in that unit's prose where the item is expressed. A marker's primary/expressed
+items should normally belong to the marker's `research_unit_id` (a cross-unit
+item requires an explicit reviewed reason — see §10).
 
 Initial IDs may use the G13 namespace (`G13-PM-000001`). The schema and tools
 must not assume that only G13 can own markers.
@@ -398,6 +439,11 @@ Marker validation must check:
 - Every primary/expressed item belongs to the same research unit, or carries an
   explicit reviewed cross-unit reason.
 - Every substantive active item is mapped or explicitly `context-only`.
+- **Warn (do not fail) when a `contextual` marker member is reachable by a single
+  relation hop from the marker's primary item** — the relation graph already
+  explains why it belongs in the opened view, so `contextual` membership is
+  redundant there. Reserve `contextual` for items the relation graph cannot
+  otherwise surface; this stops the escape hatch from accreting.
 - Public markers map only to public items.
 - Public marker exports contain no restricted/repo-only IDs, labels, counts, or
   relation endpoints.
@@ -456,11 +502,17 @@ bundle adds value rather than duplicate visual furniture.
 - Freeze marker vocabulary, ID format, and DDL.
 - Add synthetic marker fixtures and migration/recovery tests.
 
-### M1 — Canonical storage and editor
+### M1 — Canonical storage and validation
 
 - Add marker tables, constraints, revisions, and deterministic export/restore.
-- Add marker CRUD and unmapped-item views to the artifact.
-- Add topic-scoped marker validation.
+- Add topic-scoped marker validation (§10), including the `contextual`-redundancy
+  warning.
+- Extend the `author-batch` load path (`tools/g13_graph/authoring.py`) to accept
+  `markers` / `marker_items` in a batch, so markers are authored **as each topic is
+  written**, transactionally, alongside its items.
+- **Deferred to Plan 03 build (not M1):** the editor Narrative-Markers surface
+  (§9) and the reader drawer/pivot experience (M4–M5). During G3, markers are
+  created through `author-batch`, not an editor UI (Revision 4).
 
 ### M2 — Braintree authoring pilot
 
@@ -474,6 +526,11 @@ bundle adds value rather than duplicate visual furniture.
 - Export marker bundles and public neighborhoods.
 - Generate permanent marker and finding pages.
 - Test visibility and restricted-data non-leakage.
+
+> **M4–M5 are deferred until the Plan 03 topic-structured website is being built**
+> (Revision 4). The marker *data* (M0–M3) and per-topic authoring proceed now; the
+> reader-facing JavaScript below is designed and built against the real site, not
+> ahead of it.
 
 ### M4 — Annex preview experience
 

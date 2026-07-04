@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3
 APPLICATION_VERSION = "g1b"
 
 ITEM_KINDS = (
@@ -18,6 +18,9 @@ ITEM_KINDS = (
 )
 
 VISIBILITIES = ("repo_only", "public", "restricted")
+
+MARKER_ROLES = ("primary", "expressed", "contextual")
+MARKER_STATUSES = ("active", "suppressed", "retired")
 
 SOURCE_ROLES = (
     "supports",
@@ -55,6 +58,8 @@ LOGICAL_TABLE_ORDER = (
     "entities",
     "source_registry",
     "research_items",
+    "prose_markers",
+    "prose_marker_items",
     "item_dates",
     "entity_aliases",
     "item_entities",
@@ -66,6 +71,7 @@ LOGICAL_TABLE_ORDER = (
     "item_publications",
     "negative_result_scope",
     "item_revisions",
+    "marker_revisions",
     "source_content_hashes",
     "build_issues",
 )
@@ -73,7 +79,14 @@ LOGICAL_TABLE_ORDER = (
 SEEDABLE_TABLES = tuple(
     table
     for table in LOGICAL_TABLE_ORDER
-    if table not in {"graph_meta", "source_registry", "item_revisions", "build_issues"}
+    if table
+    not in {
+        "graph_meta",
+        "source_registry",
+        "item_revisions",
+        "marker_revisions",
+        "build_issues",
+    }
 )
 
 DERIVED_INDEX_NAMES = (

@@ -139,7 +139,7 @@ class SaveSemanticsTests(EditorTestCase):
             commit_change(self.config, change)
         # Commit rolled back completely: no revision bump, no orphan item.
         self.assertEqual(self._revision(), 2)
-        self.assertEqual(self.issue_codes(), set())
+        self.assertEqual(self.issue_codes(), {"marker_contextual_one_hop"})
 
     def test_integrity_error_rolls_back_transaction(self) -> None:
         change = {
@@ -244,7 +244,7 @@ class RoundTripTests(EditorTestCase):
         )
         self.assertEqual(detail["outgoing_relations"][0]["to_item_id"], "TEST-RI-000004")
         # The whole graph still validates.
-        self.assertEqual(self.issue_codes(), set())
+        self.assertEqual(self.issue_codes(), {"marker_contextual_one_hop"})
         # Two audited creates/updates now exist for the new item.
         self.assertTrue(any(r["change_kind"] == "create" for r in detail["revisions"]))
 

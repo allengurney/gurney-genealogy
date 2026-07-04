@@ -15,11 +15,13 @@ next well-bounded, low-disambiguation topic from the manifest gap">.
 Scope: <1 topic unit | 2 topic units>. Depth and correctness over breadth.
 
 Follow the skill: ground first (companion + dump + repo_search, work the delta),
-verify every sourceId is registered, co-author staged prose + kind-neutral items,
-dry-run the author-batch, then commit → hash-sources → snapshot → validate (0 errors)
-→ update the manifest. Non-destructive: staging only; do not touch the live companion,
-dump, or site. Stop and report if the increment can't be made materially smaller and
-as complete as loading the companion for the same task.
+verify every sourceId is registered, co-author staged prose + kind-neutral items +
+evidence markers (Plan 2a M1 is live — place a graph-marker token per cluster and load
+markers/marker_items in the same author-batch), dry-run the author-batch, then commit →
+hash-sources → snapshot → validate (0 errors) → add coverage-ledger rows + run
+g13_coverage_check.py → update the manifest. Non-destructive: staging only; do not touch
+the live companion, dump, or site. Stop and report if the increment can't be made
+materially smaller and as complete as loading the companion for the same task.
 ```
 
 Notes:

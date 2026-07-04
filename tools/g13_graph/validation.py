@@ -17,6 +17,11 @@ from .indexes import derived_index_state
 from .schema_manager import current_schema_version
 from .sources import mirror_state
 
+MARKER_ID_RE = re.compile(r"^[A-Z][A-Z0-9]*-PM-\d{6}$")
+MARKER_TOKEN_RE = re.compile(
+    r"<!--\s*graph-marker:\s*([A-Z][A-Z0-9]*-PM-\d{6})\s*-->"
+)
+
 
 @dataclass(frozen=True)
 class ValidationIssue:
@@ -96,6 +101,154 @@ def _repo_location_exists(repo_root: Path, path_value: str, heading_id: str | No
                 return True
         return False
     return True
+
+
+def _validate_prose_markers(
+    connection: sqlite3.Connection,
+    config: GraphConfig,
+    issues: list[ValidationIssue],
+) -> None:
+    """Validate only marker-bearing topic units.
+
+    The single-row probe is intentional: marker validation is an opt-in bridge
+    and adds no unit-file scans or graph joins to databases that have no marker
+    rows.
+    """
+    if connection.execute("SELECT 1 FROM prose_markers LIMIT 1").fetchone() is None:
+        return
+
+    markers = [
+        dict(row)
+        for row in connection.execute(
+            """
+            SELECT m.*, u.path
+            FROM prose_markers AS m
+            JOIN research_units AS u ON u.unit_id=m.research_unit_id
+            ORDER BY m.research_unit_id, m.marker_id
+            """
+        )
+    ]
+    marker_ids = {row["marker_id"] for row in markers}
+    members_by_marker: dict[str, list[dict[str, Any]]] = {
+        marker_id: [] for marker_id in marker_ids
+    }
+    for row in connection.execute(
+        """
+        SELECT mi.*, i.research_unit_id AS item_unit_id,
+               i.visibility AS item_visibility
+        FROM prose_marker_items AS mi
+        JOIN research_items AS i ON i.item_id=mi.item_id
+        ORDER BY mi.marker_id, mi.display_order, mi.item_id
+        """
+    ):
+        members_by_marker[row["marker_id"]].append(dict(row))
+    contextual_one_hop = {
+        (row["marker_id"], row["item_id"])
+        for row in connection.execute(
+            """
+            SELECT DISTINCT mi.marker_id, mi.item_id
+            FROM prose_marker_items AS mi
+            JOIN prose_markers AS m ON m.marker_id=mi.marker_id
+            JOIN item_relations AS r
+              ON (
+                  r.from_item_id=m.primary_item_id
+                  AND r.to_item_id=mi.item_id
+              )
+              OR (
+                  r.from_item_id=mi.item_id
+                  AND r.to_item_id=m.primary_item_id
+              )
+            WHERE mi.marker_role='contextual'
+            """
+        )
+    }
+    tokens_by_unit: dict[str, list[str]] = {}
+    for unit_id, path_value in sorted(
+        {(row["research_unit_id"], row["path"]) for row in markers}
+    ):
+        if path_value.startswith("fixture://"):
+            tokens_by_unit[unit_id] = []
+            continue
+        path = (config.repo_root / path_value).resolve()
+        try:
+            path.relative_to(config.repo_root)
+            text = path.read_text(encoding="utf-8")
+        except (OSError, UnicodeError, ValueError):
+            tokens_by_unit[unit_id] = []
+        else:
+            tokens_by_unit[unit_id] = MARKER_TOKEN_RE.findall(text)
+
+    for marker in markers:
+        marker_id = marker["marker_id"]
+        if MARKER_ID_RE.fullmatch(marker_id) is None:
+            _issue(
+                issues,
+                "marker_id_invalid",
+                "Marker ID must use the kind-neutral PREFIX-PM-000000 format.",
+                marker_id,
+            )
+        members = members_by_marker[marker_id]
+        primaries = [row for row in members if row["marker_role"] == "primary"]
+        if marker["status"] == "active" and (
+            len(primaries) != 1
+            or primaries[0]["item_id"] != marker["primary_item_id"]
+        ):
+            _issue(
+                issues,
+                "marker_primary_invalid",
+                "Active marker must have exactly one mapped primary matching primary_item_id.",
+                marker_id,
+            )
+        for member in members:
+            if (
+                member["marker_role"] in ("primary", "expressed")
+                and member["item_unit_id"] != marker["research_unit_id"]
+                and not (
+                    (member["cross_unit_reason"] or "").strip()
+                    and (member["cross_unit_reviewed_by"] or "").strip()
+                )
+            ):
+                _issue(
+                    issues,
+                    "marker_cross_unit_unreviewed",
+                    "Cross-unit primary/expressed member lacks a reviewed reason.",
+                    f"{marker_id}:{member['item_id']}",
+                )
+            if marker["visibility"] == "public" and member["item_visibility"] != "public":
+                _issue(
+                    issues,
+                    "public_marker_item_not_public",
+                    "Public marker maps to a non-public research item.",
+                    marker_id,
+                )
+            if member["marker_role"] == "contextual":
+                if (marker_id, member["item_id"]) in contextual_one_hop:
+                    _issue(
+                        issues,
+                        "marker_contextual_one_hop",
+                        "Contextual member is already reachable by one relation hop.",
+                        f"{marker_id}:{member['item_id']}",
+                        severity="warning",
+                    )
+        if marker["status"] == "active":
+            token_count = tokens_by_unit.get(marker["research_unit_id"], []).count(marker_id)
+            if token_count != 1:
+                _issue(
+                    issues,
+                    "marker_token_count_invalid",
+                    f"Active marker has {token_count} Markdown tokens in its research unit; expected 1.",
+                    marker_id,
+                )
+
+    for unit_id, tokens in tokens_by_unit.items():
+        for token_id in sorted(set(tokens)):
+            if token_id not in marker_ids:
+                _issue(
+                    issues,
+                    "marker_token_unknown",
+                    "Markdown marker token has no SQLite marker row.",
+                    f"{unit_id}:{token_id}",
+                )
 
 
 def validate_connection(
@@ -354,6 +507,8 @@ def validate_connection(
             row["item_id"],
             severity="warning",
         )
+
+    _validate_prose_markers(connection, config, issues)
 
     if include_recovery:
         live_revision = int(

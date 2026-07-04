@@ -29,7 +29,9 @@ byte-identical.
 from __future__ import annotations
 
 import json
+import shutil
 import sqlite3
+from html import escape
 from pathlib import Path
 from typing import Any
 
@@ -50,6 +52,17 @@ KIND_LABELS: dict[str, str] = {
     "project_statement": "Project statement",
     "open_question": "Open question",
 }
+
+
+class PublicMarkerExportError(RuntimeError):
+    """A public marker could not be emitted as one complete public bundle."""
+
+    def __init__(self, marker_ids: list[str]):
+        self.marker_ids = sorted(marker_ids)
+        super().__init__(
+            "Public marker export blocked; incomplete marker bundle(s): "
+            + ", ".join(self.marker_ids)
+        )
 
 
 def _public_item_ids(connection: sqlite3.Connection) -> set[str]:
@@ -231,6 +244,82 @@ def _finding(
     return finding
 
 
+def _public_marker_exports(
+    connection: sqlite3.Connection,
+    findings: list[dict[str, Any]],
+    unit_titles: dict[str, str],
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[str]]:
+    finding_by_id = {finding["id"]: finding for finding in findings}
+    index: list[dict[str, Any]] = []
+    bundles: list[dict[str, Any]] = []
+    blocked: list[str] = []
+    for marker in connection.execute(
+        """
+        SELECT * FROM prose_markers
+        WHERE visibility='public' AND status='active'
+        ORDER BY marker_id
+        """
+    ):
+        members = [
+            dict(row)
+            for row in connection.execute(
+                """
+                SELECT mi.*, i.visibility AS item_visibility
+                FROM prose_marker_items AS mi
+                JOIN research_items AS i ON i.item_id=mi.item_id
+                WHERE mi.marker_id=?
+                ORDER BY mi.display_order, mi.item_id
+                """,
+                (marker["marker_id"],),
+            )
+        ]
+        primaries = [row for row in members if row["marker_role"] == "primary"]
+        complete = (
+            len(primaries) == 1
+            and primaries[0]["item_id"] == marker["primary_item_id"]
+            and all(
+                row["item_visibility"] == "public"
+                and row["item_id"] in finding_by_id
+                for row in members
+            )
+        )
+        if not complete:
+            blocked.append(marker["marker_id"])
+            continue
+        public_members = [
+            {
+                "role": row["marker_role"],
+                "displayOrder": row["display_order"],
+                "finding": finding_by_id[row["item_id"]],
+            }
+            for row in members
+        ]
+        primary = finding_by_id[marker["primary_item_id"]]
+        url = f"/research/evidence/{marker['marker_id'].lower()}/"
+        bundle = {
+            "id": marker["marker_id"],
+            "url": url,
+            "unit": {
+                "id": marker["research_unit_id"],
+                "title": unit_titles.get(marker["research_unit_id"]),
+            },
+            "primary": primary,
+            "items": public_members,
+        }
+        bundles.append(bundle)
+        index.append(
+            {
+                "id": marker["marker_id"],
+                "url": url,
+                "primaryItemId": primary["id"],
+                "primaryLabel": primary["shortLabel"] or primary["statement"],
+                "itemCount": len(public_members),
+                "unit": bundle["unit"],
+            }
+        )
+    return index, bundles, blocked
+
+
 def build_website_export(connection: sqlite3.Connection) -> dict[str, Any]:
     """Assemble the deterministic public export document in memory (no file I/O)."""
     meta = dict(connection.execute("SELECT * FROM graph_meta WHERE singleton_id=1").fetchone())
@@ -251,6 +340,7 @@ def build_website_export(connection: sqlite3.Connection) -> dict[str, Any]:
     index = [
         {
             "id": f["id"],
+            "url": f"/research/findings/{f['id'].lower()}/",
             "kind": f["kind"],
             "kindLabel": f["kindLabel"],
             "shortLabel": f["shortLabel"],
@@ -261,7 +351,17 @@ def build_website_export(connection: sqlite3.Connection) -> dict[str, Any]:
         }
         for f in findings
     ]
-    content_hash = sha256_json({"findings": findings, "adjacency": edges})
+    marker_index, marker_bundles, blocked_markers = _public_marker_exports(
+        connection, findings, unit_titles
+    )
+    content_hash = sha256_json(
+        {
+            "findings": findings,
+            "adjacency": edges,
+            "markers": marker_index,
+            "marker_bundles": marker_bundles,
+        }
+    )
     manifest = {
         "format": "gurney-g13-website",
         "format_version": 1,
@@ -269,10 +369,69 @@ def build_website_export(connection: sqlite3.Connection) -> dict[str, Any]:
         "database_revision": meta["database_revision"],
         # Revision's committed timestamp → byte-stable re-exports.
         "generated_from_revision_at": meta["updated_at"],
-        "counts": {"public_findings": len(findings), "public_edges": len(edges)},
+        "counts": {
+            "public_findings": len(findings),
+            "public_edges": len(edges),
+            "public_markers": len(marker_index),
+        },
         "content_hash": content_hash,
     }
-    return {"manifest": manifest, "findings": findings, "index": index, "adjacency": edges}
+    return {
+        "manifest": manifest,
+        "findings": findings,
+        "index": index,
+        "adjacency": edges,
+        "markers": marker_index,
+        "marker_bundles": marker_bundles,
+        "blocked_markers": blocked_markers,
+    }
+
+
+def _finding_fallback(finding: dict[str, Any]) -> str:
+    title = finding["shortLabel"] or finding["statement"]
+    sources = "".join(
+        "<li>"
+        + escape(source["sourceId"])
+        + (f" — {escape(source['locator'])}" if source.get("locator") else "")
+        + "</li>"
+        for source in finding["sources"]
+    )
+    return (
+        "<!doctype html>\n"
+        '<html lang="en"><meta charset="utf-8">'
+        f"<title>{escape(title)}</title>"
+        f"<main><h1>{escape(title)}</h1>"
+        f"<p>{escape(finding['statement'])}</p>"
+        f"<p>Type: {escape(finding['kindLabel'])}</p>"
+        + (f"<h2>Sources</h2><ul>{sources}</ul>" if sources else "")
+        + "</main></html>\n"
+    )
+
+
+def _marker_fallback(bundle: dict[str, Any]) -> str:
+    primary = bundle["primary"]
+    title = primary["shortLabel"] or primary["statement"]
+    role_labels = {
+        "primary": "Primary finding",
+        "expressed": "Also expressed",
+        "contextual": "Additional context",
+    }
+    items = "".join(
+        "<li>"
+        f"<a href=\"/research/findings/{entry['finding']['id'].lower()}/\">"
+        f"{escape(entry['finding']['shortLabel'] or entry['finding']['statement'])}</a>"
+        f" — {escape(role_labels[entry['role']])}</li>"
+        for entry in bundle["items"]
+    )
+    return (
+        "<!doctype html>\n"
+        '<html lang="en"><meta charset="utf-8">'
+        f"<title>Evidence — {escape(title)}</title>"
+        f"<main><h1>Evidence — {escape(title)}</h1>"
+        f"<p>{escape(primary['statement'])}</p>"
+        f"<h2>Mapped findings</h2><ul>{items}</ul>"
+        "</main></html>\n"
+    )
 
 
 def export_website(config: GraphConfig, out_dir: Path | None = None) -> Path:
@@ -285,12 +444,27 @@ def export_website(config: GraphConfig, out_dir: Path | None = None) -> Path:
         document = build_website_export(connection)
     finally:
         connection.close()
+    if document["blocked_markers"]:
+        raise PublicMarkerExportError(document["blocked_markers"])
+
+    # These trees are wholly derived. Prune them only after the new build has
+    # passed fail-closed checks so visibility changes cannot leave stale pages.
+    for relative in (
+        Path("findings"),
+        Path("marker-bundles"),
+        Path("research") / "evidence",
+        Path("research") / "findings",
+    ):
+        path = target / relative
+        if path.exists():
+            shutil.rmtree(path)
 
     def write(rel: str, value: Any) -> None:
         atomic_write((target / rel), (canonical_json(value) + "\n").encode("utf-8"))
 
     write("manifest.json", document["manifest"])
     write("findings.json", document["index"])
+    write("markers.json", document["markers"])
     write("adjacency.json", {
         "nodes": [
             {"id": f["id"], "kind": f["kind"], "kindLabel": f["kindLabel"],
@@ -301,4 +475,14 @@ def export_website(config: GraphConfig, out_dir: Path | None = None) -> Path:
     })
     for finding in document["findings"]:
         write(f"findings/{finding['id']}.json", finding)
+        atomic_write(
+            target / "research" / "findings" / finding["id"].lower() / "index.html",
+            _finding_fallback(finding).encode("utf-8"),
+        )
+    for bundle in document["marker_bundles"]:
+        write(f"marker-bundles/{bundle['id']}.json", bundle)
+        atomic_write(
+            target / "research" / "evidence" / bundle["id"].lower() / "index.html",
+            _marker_fallback(bundle).encode("utf-8"),
+        )
     return target

@@ -7,10 +7,11 @@ Objective this turn: colonial-side discovery beyond the already-deep Weymouth/Br
 (3) Hingham-as-arrival delta; (4) broad name variants in colonial sources; (5) nearby-community
 arrival points; (6) less-traveled sites/collections.
 
-## 0. Scope map — what "county" means for these towns (write-up for the repo later)
+## 0. Scope map — what "county" means for these towns 
 
-Key correction to naive county-scoped searching (recommend adding to a topic file or the
-companion as a methods note):
+[AG][DIRECTIVE] Add this section to Weymouth Place file
+
+County-scoped searching (recommend adding to a topic file or the companion as a methods note):
 
 - **Suffolk County (created 1643)** contained Boston, Braintree, Weymouth, Hingham, Dorchester,
   Roxbury, Dedham, etc., for John's entire colonial life. All county-level court, deed, and probate

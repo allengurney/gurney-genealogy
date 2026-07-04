@@ -39,7 +39,7 @@ from tools.g13_graph.schema_manager import (
 from tools.g13_graph.seed import seed_database
 from tools.g13_graph.sources import load_source_registry, mirror_state, sync_source_registry
 from tools.g13_graph.status import graph_status
-from tools.g13_graph.validation import validate_database
+from tools.g13_graph.validation import validate_connection, validate_database
 
 
 FIXTURES = Path(__file__).with_name("fixtures")
@@ -114,11 +114,42 @@ class SchemaAndTransactionTests(GraphTestCase):
         finally:
             connection.close()
 
+    def _create_schema_two_database(self, config: GraphConfig) -> None:
+        self._create_schema_one_database(config)
+        connection = connect(config.db_path)
+        try:
+            sql = (
+                Path(__file__).resolve().parents[1]
+                / "schema"
+                / "migrations"
+                / "0002_derived_fts.sql"
+            ).read_text(encoding="utf-8")
+            connection.executescript("BEGIN IMMEDIATE;\n" + sql)
+            connection.execute(
+                """
+                INSERT INTO schema_migrations(version, name, applied_at)
+                VALUES (2, 'derived_fts', '2026-07-03T00:00:00Z')
+                """
+            )
+            connection.execute(
+                """
+                UPDATE graph_meta
+                SET schema_version=2, application_version='g1b'
+                WHERE singleton_id=1
+                """
+            )
+            connection.commit()
+        except BaseException:
+            connection.rollback()
+            raise
+        finally:
+            connection.close()
+
     def test_schema_creation_migration_and_connection_contract(self) -> None:
         self.initialize()
         connection = connect(self.config.db_path)
         try:
-            self.assertEqual(current_schema_version(connection), 2)
+            self.assertEqual(current_schema_version(connection), 3)
             self.assertEqual(connection.execute("PRAGMA foreign_keys").fetchone()[0], 1)
             self.assertEqual(connection.execute("PRAGMA journal_mode").fetchone()[0], "wal")
         finally:
@@ -221,11 +252,44 @@ class SchemaAndTransactionTests(GraphTestCase):
         with self.assertRaisesRegex(RuntimeError, "recovery export"):
             migrate_database(legacy)
         export_recovery(legacy)
+        self.assertEqual(migrate_database(legacy), 2)
+        connection = connect(legacy.db_path, read_only=True)
+        try:
+            self.assertEqual(current_schema_version(connection), 3)
+            self.assertEqual(derived_index_state(connection)["state"], "current")
+        finally:
+            connection.close()
+
+    def test_schema_two_migrates_to_reviewed_marker_schema(self) -> None:
+        legacy = GraphConfig(
+            repo_root=self.config.repo_root,
+            db_path=self.root / "legacy-v2.sqlite",
+            export_dir=self.root / "legacy-v2-exports",
+            sources_path=self.sources,
+        )
+        self._create_schema_two_database(legacy)
+        export_recovery(legacy)
         self.assertEqual(migrate_database(legacy), 1)
         connection = connect(legacy.db_path, read_only=True)
         try:
-            self.assertEqual(current_schema_version(connection), 2)
-            self.assertEqual(derived_index_state(connection)["state"], "current")
+            self.assertEqual(current_schema_version(connection), 3)
+            tables = {
+                row[0]
+                for row in connection.execute(
+                    """
+                    SELECT name FROM sqlite_master
+                    WHERE type='table'
+                    """
+                )
+            }
+            self.assertTrue(
+                {
+                    "prose_markers",
+                    "prose_marker_items",
+                    "marker_revisions",
+                }
+                <= tables
+            )
         finally:
             connection.close()
 
@@ -310,10 +374,141 @@ class SourceAndRevisionTests(GraphTestCase):
 class ValidationTests(GraphTestCase):
     def test_clean_fixture_validates_and_basic_query_is_joined(self) -> None:
         self.seed()
-        self.assertEqual(self.issue_codes(), set())
+        self.assertEqual(self.issue_codes(), {"marker_contextual_one_hop"})
         item = get_item(self.config, "TEST-RI-000001")
         self.assertEqual(item["sources"][0]["source_id"], "TEST-SOURCE-000001")
         self.assertEqual(item["entities"][0]["entity_id"], "TEST-ENTITY-000001")
+
+    def test_marker_validation_visibility_cross_unit_and_one_hop_warning(self) -> None:
+        self.seed()
+        self.assertIn(
+            "marker_contextual_one_hop",
+            self.issue_codes(include_recovery=False),
+        )
+        connection = connect(self.config.db_path)
+        try:
+            with transaction(connection):
+                connection.execute(
+                    """
+                    UPDATE research_items
+                    SET research_unit_id='TEST-UNIT-000002'
+                    WHERE item_id='TEST-RI-000003'
+                    """
+                )
+                connection.execute(
+                    """
+                    UPDATE research_items
+                    SET visibility='repo_only'
+                    WHERE item_id='TEST-RI-000001'
+                    """
+                )
+        finally:
+            connection.close()
+        codes = self.issue_codes(include_recovery=False)
+        self.assertIn("marker_cross_unit_unreviewed", codes)
+        self.assertIn("public_marker_item_not_public", codes)
+
+        connection = connect(self.config.db_path)
+        try:
+            with transaction(connection):
+                connection.execute(
+                    """
+                    UPDATE prose_marker_items
+                    SET cross_unit_reason='Reviewed synthetic cross-unit use.',
+                        cross_unit_reviewed_by='TEST-REVIEWER'
+                    WHERE marker_id='G13-PM-000003'
+                      AND item_id='TEST-RI-000003'
+                    """
+                )
+        finally:
+            connection.close()
+        self.assertNotIn(
+            "marker_cross_unit_unreviewed",
+            self.issue_codes(include_recovery=False),
+        )
+
+    def test_active_marker_requires_exact_matching_primary_in_database(self) -> None:
+        self.seed()
+        connection = connect(self.config.db_path)
+        try:
+            with self.assertRaises(sqlite3.IntegrityError):
+                with transaction(connection):
+                    connection.execute(
+                        """
+                        INSERT INTO prose_markers(
+                            marker_id, research_unit_id, primary_item_id,
+                            visibility, status, created_at, updated_at
+                        ) VALUES (
+                            'G13-PM-999999', 'TEST-UNIT-000001',
+                            'TEST-RI-000002', 'repo_only', 'active',
+                            '2026-07-04T00:00:00Z', '2026-07-04T00:00:00Z'
+                        )
+                        """
+                    )
+        finally:
+            connection.close()
+
+    def test_marker_token_validation_is_unit_scoped(self) -> None:
+        self.seed()
+        (self.root / "unit-one.md").write_text(
+            (
+                "<!-- graph-marker: G13-PM-000001 -->\n"
+                "<!-- graph-marker: G13-PM-000001 -->\n"
+                "<!-- graph-marker: G13-PM-000003 -->\n"
+                "<!-- graph-marker: G13-PM-999998 -->\n"
+            ),
+            encoding="utf-8",
+        )
+        (self.root / "unit-two.md").write_text(
+            "<!-- graph-marker: G13-PM-000002 -->\n",
+            encoding="utf-8",
+        )
+        connection = connect(self.config.db_path)
+        try:
+            with transaction(connection):
+                connection.execute(
+                    """
+                    UPDATE research_units SET path='unit-one.md'
+                    WHERE unit_id='TEST-UNIT-000001'
+                    """
+                )
+                connection.execute(
+                    """
+                    UPDATE research_units SET path='unit-two.md'
+                    WHERE unit_id='TEST-UNIT-000002'
+                    """
+                )
+        finally:
+            connection.close()
+        scoped = GraphConfig(
+            repo_root=self.root,
+            db_path=self.config.db_path,
+            export_dir=self.config.export_dir,
+            sources_path=self.sources,
+        )
+        codes = {
+            issue.code
+            for issue in validate_database(scoped, include_recovery=False)
+        }
+        self.assertIn("marker_token_count_invalid", codes)
+        self.assertIn("marker_token_unknown", codes)
+
+    def test_marker_validation_is_noop_without_marker_rows(self) -> None:
+        self.initialize()
+        sync_source_registry(self.config)
+        connection = connect(self.config.db_path, read_only=True)
+        statements: list[str] = []
+        connection.set_trace_callback(statements.append)
+        try:
+            issues = validate_connection(
+                connection, self.config, include_recovery=False
+            )
+        finally:
+            connection.close()
+        self.assertFalse(any(issue.code.startswith("marker_") for issue in issues))
+        self.assertFalse(
+            any("JOIN research_units AS u" in statement for statement in statements)
+        )
 
     def test_negative_result_validation(self) -> None:
         self.seed()
@@ -465,6 +660,40 @@ class ExportRestoreAndStatusTests(GraphTestCase):
                 build_export(original_connection).manifest["logical_content_hash"],
                 build_export(restored_connection).manifest["logical_content_hash"],
             )
+            self.assertEqual(
+                [
+                    tuple(row)
+                    for row in original_connection.execute(
+                        "SELECT * FROM prose_markers ORDER BY marker_id"
+                    )
+                ],
+                [
+                    tuple(row)
+                    for row in restored_connection.execute(
+                        "SELECT * FROM prose_markers ORDER BY marker_id"
+                    )
+                ],
+            )
+            self.assertEqual(
+                [
+                    tuple(row)
+                    for row in original_connection.execute(
+                        """
+                        SELECT * FROM prose_marker_items
+                        ORDER BY marker_id, display_order
+                        """
+                    )
+                ],
+                [
+                    tuple(row)
+                    for row in restored_connection.execute(
+                        """
+                        SELECT * FROM prose_marker_items
+                        ORDER BY marker_id, display_order
+                        """
+                    )
+                ],
+            )
         finally:
             original_connection.close()
             restored_connection.close()
@@ -603,7 +832,7 @@ class CompletePlumbingTests(GraphTestCase):
         write_build_report(self.config, second)
         self.assertEqual(first.read_bytes(), second.read_bytes())
         report = json.loads(first.read_text(encoding="utf-8"))
-        self.assertEqual(report["schema_version"], 2)
+        self.assertEqual(report["schema_version"], 3)
         self.assertEqual(
             report["research_items"]["by_kind"]["negative_result"], 1
         )
@@ -926,7 +1155,7 @@ class CliSmokeTests(GraphTestCase):
             exports=restored_exports,
         )
         status = run("status", db=restored_db, exports=restored_exports)
-        self.assertEqual(status["schema_version"], 2)
+        self.assertEqual(status["schema_version"], 3)
         self.assertEqual(status["derived_index_state"], "current")
 
 

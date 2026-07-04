@@ -38,6 +38,12 @@ SQLite's online backup API before destructive replacement.
   repository-relative when the configured registry is inside the checkout.
 - Every accepted content transaction increments `database_revision`.
 - Item changes write `item_revisions` in the same transaction.
+- Schema v3 adds kind-neutral marker IDs such as `G13-PM-000001`, marker roles
+  `primary | expressed | contextual`, visibility
+  `repo_only | public | restricted`, and status
+  `active | suppressed | retired`. Deferred foreign keys plus a unique
+  primary-role index require exactly one matching primary for every active
+  marker; `marker_revisions` audits accepted marker batches.
 - A committed content transaction is not rolled back if the subsequent
   recovery export fails. The command returns nonzero, `status` reports the DB
   ahead, and restore/migration safety checks require a current recovery export.
@@ -149,9 +155,9 @@ increment at once uses `author-batch` (`tools/g13_graph/authoring.py`). It appli
 a JSON batch — a research unit, new entities, several items with their
 dates/sources/entities/publications, and the relations between them — in a
 **single transaction**, reusing the editor's op handlers, delta-blocking
-validation, `item_revisions` audit, and post-commit recovery refresh. Ops run in
-dependency order (units → entities → items → relations); any failure rolls the
-whole batch back. Batch shape:
+validation, `item_revisions` / `marker_revisions` audit, and post-commit recovery
+refresh. Ops run in dependency order (units → entities → items → relations →
+markers → marker items); any failure rolls the whole batch back. Batch shape:
 
 ```json
 {
@@ -159,7 +165,9 @@ whole batch back. Batch shape:
   "entities":  [{"entity_id": "...", "entity_type": "place", "canonical_label": "..."}],
   "items":     [{"item": {"item_id": "G13-RI-000018", "item_kind": "research_finding", "subject_entity_id": "...", "statement": "...", "research_unit_id": "..."},
                  "dates": [...], "sources": [...], "entities": [...], "publications": [...]}],
-  "relations": [{"from_item_id": "...", "relation_type": "SUPPORTS", "to_item_id": "...", "bearing": "direct", "strength": "strong", "explanation": "..."}]
+  "relations": [{"from_item_id": "...", "relation_type": "SUPPORTS", "to_item_id": "...", "bearing": "direct", "strength": "strong", "explanation": "..."}],
+  "markers": [{"marker_id": "G13-PM-000018", "research_unit_id": "...", "primary_item_id": "...", "visibility": "repo_only", "status": "active"}],
+  "marker_items": [{"marker_id": "G13-PM-000018", "item_id": "...", "marker_role": "primary", "display_order": 0}]
 }
 ```
 
@@ -175,9 +183,11 @@ first unit of a new topic.
 
 `export-website` writes a deterministic, read-only public export for the future
 graph-enhanced website under `<export-dir>/website` (override with `--out`):
-`manifest.json`, a `findings.json` index, an `adjacency.json` node/edge slice,
-and one `findings/<item_id>.json` page per public item. It never mutates the
-database, prose, or source files.
+`manifest.json`, `findings.json` and `markers.json` indexes, an `adjacency.json`
+node/edge slice, one `findings/<item_id>.json` per public item, and one
+`marker-bundles/<marker_id>.json` per complete public marker. Permanent
+no-JavaScript fallback pages are emitted below `research/findings/` and
+`research/evidence/`. It never mutates the database, prose, or source files.
 
 Publication safety is enforced at the export boundary (Plan 01 §14, §16 G5):
 
@@ -192,6 +202,10 @@ Publication safety is enforced at the export boundary (Plan 01 §14, §16 G5):
   relation; publication mappings are emitted only for `published` status.
 - **Band confidence only** — the confidence label is exported, never the numeric
   value (§8.2).
+- **Complete marker bundles only** — if a public marker's primary or any mapped
+  member cannot be emitted publicly, export stops and reports the marker ID
+  before writing output; no partial marker, hidden count, label, or endpoint is
+  published.
 
 The export is byte-deterministic (item/edge ordering, sorted keys, revision-
 timestamped manifest), mirroring the recovery export. `test_website.py` proves

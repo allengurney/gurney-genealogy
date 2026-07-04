@@ -47,6 +47,12 @@ def _rows(connection: sqlite3.Connection, table: str) -> list[dict[str, Any]]:
     ]
 
 
+def _table_exists(connection: sqlite3.Connection, table: str) -> bool:
+    return connection.execute(
+        "SELECT 1 FROM sqlite_master WHERE type='table' AND name=?", (table,)
+    ).fetchone() is not None
+
+
 def _logical_hash_payload(
     *,
     schema_version: int,
@@ -73,7 +79,10 @@ def build_export(connection: sqlite3.Connection) -> ExportDocument:
     records: list[dict[str, Any]] = []
     counts: dict[str, int] = {}
     for table in LOGICAL_TABLE_ORDER:
-        table_rows = _rows(connection, table)
+        # A current recovery export is mandatory before an older schema can be
+        # migrated. Newly introduced logical tables therefore appear as zero
+        # counts when exporting that pre-migration database.
+        table_rows = _rows(connection, table) if _table_exists(connection, table) else []
         counts[table] = len(table_rows)
         records.extend(
             {"record_type": "row", "table": table, "row": row}

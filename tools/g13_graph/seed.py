@@ -11,6 +11,7 @@ from .config import GraphConfig
 from .constants import SEEDABLE_TABLES
 from .db import connect, transaction
 from .revisions import advance_revision, record_item_revision
+from .util import canonical_json
 
 
 def load_seed_records(path: Path) -> list[tuple[str, dict[str, Any]]]:
@@ -55,10 +56,13 @@ def seed_database(
             raise RuntimeError("Seed is one-time only: research_items is not empty.")
         with transaction(connection):
             inserted_items: list[dict[str, Any]] = []
+            inserted_markers: list[str] = []
             for table, row in records:
                 _insert_row(connection, table, row)
                 if table == "research_items":
                     inserted_items.append(row)
+                elif table == "prose_markers":
+                    inserted_markers.append(row["marker_id"])
             revision, timestamp = advance_revision(connection)
             for row in inserted_items:
                 stored = dict(
@@ -77,6 +81,33 @@ def seed_database(
                     before=None,
                     after=stored,
                     changed_at=timestamp,
+                )
+            for marker_id in inserted_markers:
+                marker = dict(
+                    connection.execute(
+                        "SELECT * FROM prose_markers WHERE marker_id=?",
+                        (marker_id,),
+                    ).fetchone()
+                )
+                marker["items"] = [
+                    dict(row)
+                    for row in connection.execute(
+                        """
+                        SELECT * FROM prose_marker_items
+                        WHERE marker_id=?
+                        ORDER BY display_order, item_id
+                        """,
+                        (marker_id,),
+                    )
+                ]
+                connection.execute(
+                    """
+                    INSERT INTO marker_revisions(
+                        marker_id, database_revision, changed_at, changed_by,
+                        change_kind, before_json, after_json
+                    ) VALUES (?, ?, ?, 'seed', 'create', NULL, ?)
+                    """,
+                    (marker_id, revision, timestamp, canonical_json(marker)),
                 )
     finally:
         connection.close()

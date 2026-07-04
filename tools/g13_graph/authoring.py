@@ -16,11 +16,16 @@ Batch shape (JSON)::
       "items":     [ {"item": {...}, "dates": [...], "sources": [...],
                       "entities": [...], "publications": [...],
                       "negative_result_scope": {...}}, ... ],
-      "relations": [ {from_item_id, relation_type, to_item_id, bearing?, strength?, explanation?}, ... ]
+      "relations": [ {from_item_id, relation_type, to_item_id, bearing?, strength?, explanation?}, ... ],
+      "markers": [ {marker_id, research_unit_id, primary_item_id,
+                     visibility?, status?}, ... ],
+      "marker_items": [ {marker_id, item_id, marker_role, display_order,
+                         cross_unit_reason?, cross_unit_reviewed_by?}, ... ]
     }
 
-Ops run in dependency order (units → entities → items → relations) inside one
-`BEGIN IMMEDIATE` transaction. Validation is delta-blocking exactly as in the
+Ops run in dependency order (units → entities → items → relations → markers →
+marker items) inside one `BEGIN IMMEDIATE` transaction. Validation is
+delta-blocking exactly as in the
 editor: only *newly introduced* blocking error codes abort the batch, and derived
 staleness never blocks. On any failure the whole batch rolls back. `preview_batch`
 runs the same staging and rolls back unconditionally — the built-in dry run.
@@ -32,6 +37,7 @@ from pathlib import Path
 from typing import Any
 
 from .config import GraphConfig
+from .constants import MARKER_ROLES, MARKER_STATUSES, VISIBILITIES
 from .db import connect
 from .editor import (
     OPS,
@@ -41,8 +47,8 @@ from .editor import (
 )
 from .lifecycle import PostCommitRefreshError, refresh_after_commit
 from .revisions import advance_revision, record_item_revision
-from .util import utc_now
-from .validation import issues_as_dicts, validate_connection
+from .util import canonical_json, utc_now
+from .validation import MARKER_ID_RE, issues_as_dicts, validate_connection
 
 
 def _batch_ops(batch: dict[str, Any]) -> list[tuple[str, dict[str, Any]]]:
@@ -55,9 +61,18 @@ def _batch_ops(batch: dict[str, Any]) -> list[tuple[str, dict[str, Any]]]:
         ops.append(("create_item", item))
     for relation in batch.get("relations", []):
         ops.append(("add_relation", relation))
-    if not ops:
-        raise ValueError("Batch contains no units, entities, items, or relations.")
     return ops
+
+
+def _batch_count(batch: dict[str, Any]) -> int:
+    count = len(_batch_ops(batch))
+    count += len(batch.get("markers", []))
+    count += len(batch.get("marker_items", []))
+    if count == 0:
+        raise ValueError(
+            "Batch contains no units, entities, items, relations, markers, or marker_items."
+        )
+    return count
 
 
 def _preflight_collisions(connection: Any, batch: dict[str, Any]) -> None:
@@ -80,8 +95,116 @@ def _preflight_collisions(connection: Any, batch: dict[str, Any]) -> None:
             "SELECT 1 FROM research_items WHERE item_id=?", (item_id,)
         ).fetchone():
             collisions.append(f"item {item_id}")
+    for marker in batch.get("markers", []):
+        marker_id = marker.get("marker_id")
+        if marker_id and connection.execute(
+            "SELECT 1 FROM prose_markers WHERE marker_id=?", (marker_id,)
+        ).fetchone():
+            collisions.append(f"marker {marker_id}")
+    for member in batch.get("marker_items", []):
+        marker_id = member.get("marker_id")
+        item_id = member.get("item_id")
+        if marker_id and item_id and connection.execute(
+            """
+            SELECT 1 FROM prose_marker_items
+            WHERE marker_id=? AND item_id=?
+            """,
+            (marker_id, item_id),
+        ).fetchone():
+            collisions.append(f"marker item {marker_id}:{item_id}")
     if collisions:
         raise ValueError("Batch IDs already exist: " + ", ".join(sorted(collisions)))
+
+
+def _insert_row(connection: Any, table: str, row: dict[str, Any]) -> None:
+    valid = {
+        value["name"]
+        for value in connection.execute(f'PRAGMA table_info("{table}")')
+    }
+    payload = {
+        key: value for key, value in row.items() if key in valid and value is not None
+    }
+    if not payload:
+        raise ValueError(f"No valid columns supplied for {table}.")
+    names = ", ".join(f'"{column}"' for column in payload)
+    placeholders = ", ".join("?" for _ in payload)
+    connection.execute(
+        f'INSERT INTO "{table}" ({names}) VALUES ({placeholders})',
+        tuple(payload.values()),
+    )
+
+
+def _marker_snapshot(connection: Any, marker_id: str) -> dict[str, Any]:
+    marker = connection.execute(
+        "SELECT * FROM prose_markers WHERE marker_id=?", (marker_id,)
+    ).fetchone()
+    if marker is None:
+        raise ValueError(f"Marker does not exist after staging: {marker_id}")
+    result = dict(marker)
+    result["items"] = [
+        dict(row)
+        for row in connection.execute(
+            """
+            SELECT * FROM prose_marker_items
+            WHERE marker_id=?
+            ORDER BY display_order, item_id
+            """,
+            (marker_id,),
+        )
+    ]
+    return result
+
+
+def _stage_markers(
+    connection: Any, batch: dict[str, Any], ts: str
+) -> list[tuple[str, dict[str, Any]]]:
+    marker_ids: list[str] = []
+    for raw in batch.get("markers", []):
+        marker = dict(raw)
+        missing = [
+            key
+            for key in ("marker_id", "research_unit_id", "primary_item_id")
+            if marker.get(key) in (None, "")
+        ]
+        if missing:
+            raise ValueError(f"Marker missing required field(s): {', '.join(missing)}")
+        if MARKER_ID_RE.fullmatch(marker["marker_id"]) is None:
+            raise ValueError(
+                f"Invalid marker ID {marker['marker_id']!r}; expected PREFIX-PM-000000."
+            )
+        marker.setdefault("visibility", "repo_only")
+        marker.setdefault("status", "active")
+        if marker["visibility"] not in VISIBILITIES:
+            raise ValueError(f"Invalid marker visibility: {marker['visibility']!r}")
+        if marker["status"] not in MARKER_STATUSES:
+            raise ValueError(f"Invalid marker status: {marker['status']!r}")
+        marker["created_at"] = ts
+        marker["updated_at"] = ts
+        _insert_row(connection, "prose_markers", marker)
+        marker_ids.append(marker["marker_id"])
+    for raw in batch.get("marker_items", []):
+        member = dict(raw)
+        missing = [
+            key
+            for key in ("marker_id", "item_id", "marker_role", "display_order")
+            if member.get(key) in (None, "")
+        ]
+        if missing:
+            raise ValueError(
+                f"Marker item missing required field(s): {', '.join(missing)}"
+            )
+        if member["marker_id"] not in marker_ids:
+            raise ValueError(
+                "author-batch marker_items must belong to a marker created "
+                f"in the same batch: {member['marker_id']}"
+            )
+        if member["marker_role"] not in MARKER_ROLES:
+            raise ValueError(f"Invalid marker role: {member['marker_role']!r}")
+        _insert_row(connection, "prose_marker_items", member)
+    return [
+        (marker_id, _marker_snapshot(connection, marker_id))
+        for marker_id in marker_ids
+    ]
 
 
 def _stage(connection: Any, config: GraphConfig, batch: dict[str, Any], ts: str, by: str):
@@ -89,12 +212,14 @@ def _stage(connection: Any, config: GraphConfig, batch: dict[str, Any], ts: str,
     for op, params in _batch_ops(batch):
         staged = OPS[op](connection, params, ts, by)
         intents.extend(staged.revisions)
-    return intents
+    marker_intents = _stage_markers(connection, batch, ts)
+    return intents, marker_intents
 
 
 def preview_batch(config: GraphConfig, batch: dict[str, Any]) -> dict[str, Any]:
     """Stage the whole batch, validate, compute the item diff, then roll back.
     Nothing is committed — the built-in dry run."""
+    op_count = _batch_count(batch)
     by = batch.get("changed_by", "g13-authoring")
     connection = connect(config.db_path)
     try:
@@ -103,7 +228,7 @@ def preview_batch(config: GraphConfig, batch: dict[str, Any]) -> dict[str, Any]:
         try:
             before = _blocking_error_keys(connection, config)
             ts = utc_now()
-            intents = _stage(connection, config, batch, ts, by)
+            intents, marker_intents = _stage(connection, config, batch, ts, by)
             issues = issues_as_dicts(validate_connection(connection, config, include_recovery=False))
             new_keys = _blocking_error_keys(connection, config) - before
             blocking = [dict(zip(("code", "record_id"), key)) for key in sorted(new_keys)]
@@ -117,9 +242,10 @@ def preview_batch(config: GraphConfig, batch: dict[str, Any]) -> dict[str, Any]:
     finally:
         connection.close()
     return {
-        "op_count": len(_batch_ops(batch)),
-        "would_write_revisions": len(intents),
+        "op_count": op_count,
+        "would_write_revisions": len(intents) + len(marker_intents),
         "affected_items": sorted({i.item_id for i in intents}),
+        "affected_markers": sorted(marker_id for marker_id, _ in marker_intents),
         "blocking_errors": blocking,
         "can_commit": not blocking,
         "diff": diff,
@@ -140,17 +266,19 @@ def author_batch(
     blocking validation errors, or ``ValueError`` on ID collisions / an empty
     batch. A post-commit refresh failure leaves the content committed and returns
     ``stale=True`` (mirrors the editor's never-lose-an-edit contract)."""
+    _batch_count(batch)
     by = changed_by or batch.get("changed_by", "g13-authoring")
     connection = connect(config.db_path)
     revision: int | None = None
     intents = []
+    marker_intents: list[tuple[str, dict[str, Any]]] = []
     try:
         _preflight_collisions(connection, batch)
         connection.execute("BEGIN IMMEDIATE")
         try:
             before = _blocking_error_keys(connection, config)
             revision, ts = advance_revision(connection)
-            intents = _stage(connection, config, batch, ts, by)
+            intents, marker_intents = _stage(connection, config, batch, ts, by)
             new_keys = _blocking_error_keys(connection, config) - before
             if new_keys:
                 raise ValidationBlocked(
@@ -167,6 +295,16 @@ def author_batch(
                     before=intent.before,
                     after=intent.after,
                     changed_at=ts,
+                )
+            for marker_id, after in marker_intents:
+                connection.execute(
+                    """
+                    INSERT INTO marker_revisions(
+                        marker_id, database_revision, changed_at, changed_by,
+                        change_kind, before_json, after_json
+                    ) VALUES (?, ?, ?, ?, 'create', NULL, ?)
+                    """,
+                    (marker_id, revision, ts, by, canonical_json(after)),
                 )
         except BaseException:
             connection.rollback()
@@ -187,8 +325,9 @@ def author_batch(
     return {
         "committed": True,
         "database_revision": revision,
-        "revisions_written": len(intents),
+        "revisions_written": len(intents) + len(marker_intents),
         "affected_items": sorted({i.item_id for i in intents}),
+        "affected_markers": sorted(marker_id for marker_id, _ in marker_intents),
         "units": [u.get("unit_id") for u in batch.get("units", [])],
         "stale": stale,
         "refresh_error": refresh_error,

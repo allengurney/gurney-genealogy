@@ -22,7 +22,11 @@ from tools.g13_graph.schema_manager import initialize_database
 from tools.g13_graph.seed import seed_database
 from tools.g13_graph.sources import sync_source_registry
 from tools.g13_graph.util import canonical_json
-from tools.g13_graph.website import build_website_export, export_website
+from tools.g13_graph.website import (
+    PublicMarkerExportError,
+    build_website_export,
+    export_website,
+)
 
 FIXTURES = Path(__file__).with_name("fixtures")
 
@@ -92,6 +96,27 @@ class WebsiteExportTestCase(unittest.TestCase):
 
     def test_deterministic_build(self) -> None:
         self.assertEqual(canonical_json(self._build()), canonical_json(self._build()))
+
+    def test_public_markers_are_complete_and_repo_only_markers_do_not_leak(self) -> None:
+        doc = self._build()
+        self.assertEqual(
+            [marker["id"] for marker in doc["markers"]],
+            ["G13-PM-000001", "G13-PM-000003"],
+        )
+        self.assertEqual(
+            [bundle["id"] for bundle in doc["marker_bundles"]],
+            ["G13-PM-000001", "G13-PM-000003"],
+        )
+        multi = next(
+            bundle
+            for bundle in doc["marker_bundles"]
+            if bundle["id"] == "G13-PM-000003"
+        )
+        self.assertEqual(
+            [entry["role"] for entry in multi["items"]],
+            ["primary", "expressed", "contextual"],
+        )
+        self.assertNotIn("G13-PM-000002", canonical_json(doc))
 
     def test_confidence_numeric_value_never_leaks(self) -> None:
         target = self._public_ids()[0]
@@ -199,18 +224,113 @@ class WebsiteExportTestCase(unittest.TestCase):
         out = self.root / "site"
         path = export_website(self.config, out)
         self.assertEqual(path, out)
-        for name in ("manifest.json", "findings.json", "adjacency.json"):
+        for name in ("manifest.json", "findings.json", "adjacency.json", "markers.json"):
             self.assertTrue((out / name).is_file(), name)
         for item_id in self._public_ids():
             self.assertTrue((out / "findings" / f"{item_id}.json").is_file(), item_id)
-        first = (out / "manifest.json").read_bytes()
+            self.assertTrue(
+                (
+                    out
+                    / "research"
+                    / "findings"
+                    / item_id.lower()
+                    / "index.html"
+                ).is_file(),
+                item_id,
+            )
+        for marker_id in ("G13-PM-000001", "G13-PM-000003"):
+            self.assertTrue(
+                (out / "marker-bundles" / f"{marker_id}.json").is_file(),
+                marker_id,
+            )
+            self.assertTrue(
+                (
+                    out
+                    / "research"
+                    / "evidence"
+                    / marker_id.lower()
+                    / "index.html"
+                ).is_file(),
+                marker_id,
+            )
+        first = {
+            path.relative_to(out).as_posix(): path.read_bytes()
+            for path in out.rglob("*")
+            if path.is_file()
+        }
         export_website(self.config, out)
-        self.assertEqual(first, (out / "manifest.json").read_bytes())
+        second = {
+            path.relative_to(out).as_posix(): path.read_bytes()
+            for path in out.rglob("*")
+            if path.is_file()
+        }
+        self.assertEqual(first, second)
         import json
 
-        manifest = json.loads(first)
+        manifest = json.loads(first["manifest.json"])
         self.assertEqual(manifest["counts"]["public_findings"], len(self._public_ids()))
+        self.assertEqual(manifest["counts"]["public_markers"], 2)
         self.assertEqual(manifest["format"], "gurney-g13-website")
+
+    def test_incomplete_public_marker_fails_closed_before_writing(self) -> None:
+        out = self.root / "site"
+        export_website(self.config, out)
+        before = (out / "marker-bundles" / "G13-PM-000001.json").read_bytes()
+        connection = self._conn(read_only=False)
+        try:
+            repo_item = connection.execute(
+                "SELECT item_id FROM research_items WHERE visibility='repo_only' LIMIT 1"
+            ).fetchone()["item_id"]
+            connection.execute(
+                """
+                INSERT INTO prose_marker_items(
+                    marker_id, item_id, marker_role, display_order
+                ) VALUES ('G13-PM-000001', ?, 'expressed', 1)
+                """,
+                (repo_item,),
+            )
+            connection.commit()
+        finally:
+            connection.close()
+        with self.assertRaises(PublicMarkerExportError) as caught:
+            export_website(self.config, out)
+        self.assertEqual(caught.exception.marker_ids, ["G13-PM-000001"])
+        self.assertEqual(
+            before,
+            (out / "marker-bundles" / "G13-PM-000001.json").read_bytes(),
+        )
+
+    def test_visibility_change_prunes_stale_marker_outputs(self) -> None:
+        out = self.root / "site"
+        export_website(self.config, out)
+        bundle = out / "marker-bundles" / "G13-PM-000001.json"
+        fallback = (
+            out
+            / "research"
+            / "evidence"
+            / "g13-pm-000001"
+            / "index.html"
+        )
+        self.assertTrue(bundle.is_file())
+        self.assertTrue(fallback.is_file())
+        connection = self._conn(read_only=False)
+        try:
+            connection.execute(
+                """
+                UPDATE prose_markers SET visibility='repo_only'
+                WHERE marker_id='G13-PM-000001'
+                """
+            )
+            connection.commit()
+        finally:
+            connection.close()
+        export_website(self.config, out)
+        self.assertFalse(bundle.exists())
+        self.assertFalse(fallback.exists())
+        self.assertNotIn(
+            "G13-PM-000001",
+            (out / "markers.json").read_text(encoding="utf-8"),
+        )
 
 
 if __name__ == "__main__":

@@ -18,9 +18,15 @@ otherwise — depth and correctness over breadth.
   fields, dates, evidence links, negative-result scope), §10 (schema).
 - `tools/plans/G-13 Refactor/02-g13-research-refactor-plan.md` §5 (single home per
   conclusion), §11 (research-item integration + the topic-level checkpoint).
+- `tools/plans/G-13 Refactor/02a-narrative-graph-evidence-markers.md` — the
+  passage→item marker contract (relevant once Plan 2a M1 is built; see "Markers" below).
 - `.claude/rules/research-files.md` + `.claude/rules/citations.md` — the prose you
   stage is `research/people/**` content and must follow them (finding-first,
   every fact cited, every aligned source shown).
+- `coverage/README.md` + the three ledgers (`legacy-companion-map.csv`,
+  `dump-findings-map.csv`, `source-and-citation-map.csv`) and the checker
+  `tools/g13_coverage_check.py` — you add rows to these every increment (step 9);
+  the cutover gate is zero un-dispositioned items + zero untracked citation gaps.
 
 ## Non-destructive invariant (Plan 02)
 Work only in `research/people/_staging/g13-john-gurney/`. Do **not** edit the live
@@ -67,8 +73,35 @@ expected; editing them is not (that happens only at an approved cutover).
 8. **Baseline + snapshot + validate:** `hash-sources` (baseline newly-cited local
    sources), `export --snapshot` (milestone), `validate` (**expect 0 errors**), `status`
    (all three backup tiers aligned; DB not ahead of recovery/snapshot).
-9. **Update `manifest.json`** (new topic + its `researchItemIds`) and the staging
+9. **Add coverage-ledger rows (do not skip — this is how the cutover gate closes).**
+   For each legacy companion block and each dump finding this topic assimilated, add a
+   row to `coverage/legacy-companion-map.csv` / `coverage/dump-findings-map.csv` with
+   its disposition, destination `topicId`, `G13-RI` ids, and source ids; add the unit's
+   cited `sourceId`s to `coverage/source-and-citation-map.csv` (Plan 02 §7, §11
+   checkpoint step 5). Then run `tools/g13_coverage_check.py` and confirm your rows land
+   and no new citation gap appears.
+10. **Update `manifest.json`** (new topic + its `researchItemIds`) and the staging
    `README.md`. Optionally show the increment through `context --terms <topic> --mode grounding`.
+
+## Markers (Plan 2a M1 is live as of 2026-07-03)
+
+Author markers **as you write each topic**, in the same pass — not as a later
+backfill. Marker storage plus the `author-batch` `markers`/`marker_items` extension
+have landed (migration `0003_prose_markers.sql`), so markers are **in scope for
+every increment**:
+- Identify **3–8 conceptual evidence clusters** per topic (Plan 2a §4) — a cluster
+  earns a marker only where the graph adds synthesis, analysis, qualification,
+  conflict, negative evidence, or a useful pivot; not after every sentence.
+- Place an invisible token `<!-- graph-marker: G13-PM-###### -->` at the **end** of
+  each cluster's prose (after its footnote refs, before the paragraph break). The
+  token carries only the marker ID — never a hand-maintained item list.
+- Add `markers` + `marker_items` to the same `author-batch` payload: one **primary**
+  item per marker, plus `expressed`/`contextual` members. Use `contextual` only when
+  a relation hop can't already surface the item (the validator warns otherwise).
+- **Retire the item-range HTML comment** in the topic header once markers exist —
+  keep only the `topicId` and a one-line note. Markers are now the passage→item map.
+- Markers default to `repo_only`; a public marker needs an explicit visibility
+  decision and all its primary/expressed items must be public (fail-closed).
 
 ## Guardrails / lessons
 - **Dry-run every batch first** — it is the cheap check that catches bad dates,

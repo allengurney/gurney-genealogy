@@ -93,6 +93,37 @@ class AuthoringTestCase(unittest.TestCase):
             }],
         }
 
+    def _marker_batch(self) -> dict:
+        return {
+            "units": [{
+                "unit_id": "BATCH-MARKER-UNIT",
+                "path": "tools/g13_graph/tests/fixtures/batch-marker-unit.md",
+                "title": "Synthetic marker batch unit",
+            }],
+            "items": [{
+                "item": {
+                    "item_id": "BATCH-MARKER-RI",
+                    "item_kind": "research_finding",
+                    "statement": "Synthetic marker batch finding.",
+                    "short_label": "Marker batch finding",
+                    "research_unit_id": "BATCH-MARKER-UNIT",
+                    "visibility": "public",
+                },
+            }],
+            "markers": [{
+                "marker_id": "G13-PM-000004",
+                "research_unit_id": "BATCH-MARKER-UNIT",
+                "primary_item_id": "BATCH-MARKER-RI",
+                "visibility": "public",
+            }],
+            "marker_items": [{
+                "marker_id": "G13-PM-000004",
+                "item_id": "BATCH-MARKER-RI",
+                "marker_role": "primary",
+                "display_order": 0,
+            }],
+        }
+
     def _count(self, table: str, where: str, arg) -> int:
         conn = connect(self.config.db_path, read_only=True)
         try:
@@ -128,6 +159,32 @@ class AuthoringTestCase(unittest.TestCase):
         status = graph_status(self.config)
         self.assertEqual(status["recovery_export_revision"], status["database_revision"])
         self.assertFalse(status["database_ahead_of_recovery"])
+
+    def test_markers_load_with_topic_batch_and_write_marker_revision(self) -> None:
+        preview = preview_batch(self.config, self._marker_batch())
+        self.assertTrue(preview["can_commit"])
+        self.assertEqual(preview["affected_markers"], ["G13-PM-000004"])
+        self.assertEqual(preview["would_write_revisions"], 2)
+        self.assertEqual(
+            self._count("prose_markers", "marker_id=?", "G13-PM-000004"),
+            0,
+        )
+
+        result = author_batch(self.config, self._marker_batch(), changed_by="TEST")
+        self.assertEqual(result["affected_markers"], ["G13-PM-000004"])
+        self.assertEqual(result["revisions_written"], 2)
+        self.assertEqual(
+            self._count("prose_markers", "marker_id=?", "G13-PM-000004"),
+            1,
+        )
+        self.assertEqual(
+            self._count("prose_marker_items", "marker_id=?", "G13-PM-000004"),
+            1,
+        )
+        self.assertEqual(
+            self._count("marker_revisions", "marker_id=?", "G13-PM-000004"),
+            1,
+        )
 
     def test_reapplying_batch_is_rejected(self) -> None:
         author_batch(self.config, self._valid_batch())
