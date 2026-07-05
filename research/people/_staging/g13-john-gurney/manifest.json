@@ -9,6 +9,7 @@
       "headingId": "colonial-arrival-chronology",
       "title": "Colonial arrival chronology",
       "phase": "P",
+      "coverageStatus": "increment-complete",
       "researchItemIds": [
         "G13-RI-000001",
         "G13-RI-000002",
@@ -16,7 +17,8 @@
         "G13-RI-000004",
         "G13-RI-000005",
         "G13-RI-000006",
-        "G13-RI-000007"
+        "G13-RI-000007",
+        "G13-RI-000043"
       ]
     },
     {
@@ -25,13 +27,17 @@
       "headingId": "colonial-weymouth-community",
       "title": "Colonial Weymouth community",
       "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
       "researchItemIds": [
         "G13-RI-000018",
         "G13-RI-000019",
         "G13-RI-000020",
         "G13-RI-000021",
         "G13-RI-000022",
-        "G13-RI-000023"
+        "G13-RI-000023",
+        "G13-RI-000044",
+        "G13-RI-000045",
+        "G13-RI-000046"
       ]
     },
     {
@@ -40,6 +46,7 @@
       "headingId": "colonial-braintree-community",
       "title": "Colonial Braintree community",
       "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
       "researchItemIds": [
         "G13-RI-000008",
         "G13-RI-000009",
@@ -50,7 +57,8 @@
         "G13-RI-000014",
         "G13-RI-000015",
         "G13-RI-000016",
-        "G13-RI-000017"
+        "G13-RI-000017",
+        "G13-RI-000047"
       ]
     },
     {
@@ -59,6 +67,7 @@
       "headingId": "colonial-frontier-rights",
       "title": "Colonial frontier rights",
       "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
       "researchItemIds": [
         "G13-RI-000024",
         "G13-RI-000025",
@@ -77,6 +86,7 @@
       "headingId": "colonial-material-life",
       "title": "Colonial material life",
       "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
       "researchItemIds": [
         "G13-RI-000033",
         "G13-RI-000034",
@@ -91,6 +101,7 @@
       "headingId": "colonial-record-coverage",
       "title": "Colonial record coverage",
       "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
       "researchItemIds": [
         "G13-RI-000038",
         "G13-RI-000039",

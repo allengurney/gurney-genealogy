@@ -16,7 +16,9 @@ from tools.g13_graph.editor import (
     ValidationBlocked,
     commit_change,
     get_item_detail,
+    get_marker,
     list_items,
+    lookup_ids,
     preview_change,
     review_queue,
 )
@@ -318,6 +320,195 @@ class ReviewQueueTests(EditorTestCase):
         self.assertEqual({i["item_id"] for i in result["items"]}, {"TEST-RI-000005"})
         conflicts = list_items(self.config, {"conflict": "1"})
         self.assertIn("TEST-RI-000006", {i["item_id"] for i in conflicts["items"]})
+
+
+class MarkerTests(EditorTestCase):
+    def test_item_detail_and_list_surface_markers(self) -> None:
+        detail = get_item_detail(self.config, "TEST-RI-000001")
+        by_marker = {m["marker_id"]: m for m in detail["markers"]}
+        self.assertEqual(
+            set(by_marker), {"G13-PM-000001", "G13-PM-000003"}
+        )
+        self.assertEqual(by_marker["G13-PM-000001"]["marker_role"], "primary")
+        self.assertEqual(by_marker["G13-PM-000003"]["marker_role"], "contextual")
+        self.assertEqual(
+            by_marker["G13-PM-000001"]["unit_path"],
+            "tools/g13_graph/tests/fixtures/marker-unit-one.md",
+        )
+        # A pasted marker id in the text filter finds its mapped items.
+        result = list_items(self.config, {"q": "G13-PM-000003"})
+        self.assertEqual(
+            {i["item_id"] for i in result["items"]},
+            {"TEST-RI-000001", "TEST-RI-000002", "TEST-RI-000003"},
+        )
+        self.assertTrue(all("marker_count" in i for i in result["items"]))
+        scoped = list_items(self.config, {"marker": "G13-PM-000001"})
+        self.assertEqual({i["item_id"] for i in scoped["items"]}, {"TEST-RI-000001"})
+
+    def test_get_marker_read_surface(self) -> None:
+        marker = get_marker(self.config, "G13-PM-000003")
+        self.assertEqual(marker["token"], "<!-- graph-marker: G13-PM-000003 -->")
+        self.assertEqual(
+            marker["unit_path"], "tools/g13_graph/tests/fixtures/marker-unit-one.md"
+        )
+        self.assertEqual(
+            [(m["item_id"], m["marker_role"]) for m in marker["items"]],
+            [
+                ("TEST-RI-000002", "primary"),
+                ("TEST-RI-000003", "expressed"),
+                ("TEST-RI-000001", "contextual"),
+            ],
+        )
+        self.assertIsNone(get_marker(self.config, "G13-PM-999999"))
+
+    def test_lookup_ids_finds_markers_and_items(self) -> None:
+        hits = lookup_ids(self.config, ["G13-PM-000002"])
+        self.assertEqual(
+            [(h["record_type"], h["record_id"]) for h in hits],
+            [("prose_marker", "G13-PM-000002")],
+        )
+        hits = lookup_ids(self.config, ["TEST-RI-000004"])
+        self.assertIn(
+            ("research_item", "TEST-RI-000004"),
+            {(h["record_type"], h["record_id"]) for h in hits},
+        )
+
+    def test_marker_membership_ops_round_trip_with_audit(self) -> None:
+        added = commit_change(
+            self.config,
+            {
+                "op": "add_marker_item",
+                "params": {
+                    "marker_id": "G13-PM-000002",
+                    "item_id": "TEST-RI-000005",
+                    "marker_role": "expressed",
+                },
+                "changed_by": "TEST",
+            },
+        )
+        self.assertTrue(added["committed"])
+        self.assertEqual(added["affected_markers"], ["G13-PM-000002"])
+
+        promoted = commit_change(
+            self.config,
+            {
+                "op": "set_marker_primary",
+                "params": {"marker_id": "G13-PM-000002", "item_id": "TEST-RI-000005"},
+                "changed_by": "TEST",
+            },
+        )
+        self.assertTrue(promoted["committed"])
+        marker = get_marker(self.config, "G13-PM-000002")
+        self.assertEqual(marker["primary_item_id"], "TEST-RI-000005")
+        roles = {m["item_id"]: m["marker_role"] for m in marker["items"]}
+        self.assertEqual(
+            roles, {"TEST-RI-000005": "primary", "TEST-RI-000004": "expressed"}
+        )
+
+        removed = commit_change(
+            self.config,
+            {
+                "op": "remove_marker_item",
+                "params": {"marker_id": "G13-PM-000002", "item_id": "TEST-RI-000004"},
+                "changed_by": "TEST",
+            },
+        )
+        self.assertTrue(removed["committed"])
+        marker = get_marker(self.config, "G13-PM-000002")
+        self.assertEqual([m["item_id"] for m in marker["items"]], ["TEST-RI-000005"])
+        # No new validation issues beyond the pre-existing baseline warning.
+        self.assertEqual(self.issue_codes(), {"marker_contextual_one_hop"})
+        # Each op wrote a marker_revisions audit row with before/after snapshots.
+        connection = connect(self.config.db_path, read_only=True)
+        try:
+            audits = connection.execute(
+                """
+                SELECT change_kind, before_json, after_json
+                FROM marker_revisions
+                WHERE marker_id='G13-PM-000002' AND change_kind='update'
+                ORDER BY revision_id
+                """
+            ).fetchall()
+        finally:
+            connection.close()
+        # Three editor ops → three update audit rows (the seed wrote 'create').
+        self.assertEqual(len(audits), 3)
+        self.assertTrue(all(a["before_json"] and a["after_json"] for a in audits))
+
+    def test_create_marker_blocked_without_prose_token(self) -> None:
+        change = {
+            "op": "create_marker",
+            "params": {
+                "marker": {
+                    "research_unit_id": "TEST-UNIT-000001",
+                    "primary_item_id": "TEST-RI-000007",
+                }
+            },
+        }
+        preview = preview_change(self.config, change)
+        self.assertFalse(preview["can_commit"])
+        self.assertIn(
+            "marker_token_count_invalid",
+            {b["code"] for b in preview["blocking_errors"]},
+        )
+        with self.assertRaises(ValidationBlocked):
+            commit_change(self.config, change)
+        self.assertEqual(self._revision(), 2)
+
+    def test_create_marker_with_prose_token_commits(self) -> None:
+        commit_change(
+            self.config,
+            {
+                "op": "create_research_unit",
+                "params": {
+                    "unit": {
+                        "unit_id": "BATCH-MARKER-UNIT",
+                        "path": "tools/g13_graph/tests/fixtures/batch-marker-unit.md",
+                        "title": "Editor marker round-trip unit",
+                    }
+                },
+            },
+        )
+        created_item = commit_change(
+            self.config,
+            {
+                "op": "create_item",
+                "params": {
+                    "item": {
+                        "item_kind": "research_finding",
+                        "statement": "Editor-created finding for the marker round trip.",
+                        "research_unit_id": "BATCH-MARKER-UNIT",
+                    }
+                },
+            },
+        )
+        item_id = created_item["affected_items"][0]
+        # The fixture file carries the G13-PM-000004 token, so the active
+        # marker validates on creation.
+        result = commit_change(
+            self.config,
+            {
+                "op": "create_marker",
+                "params": {
+                    "marker": {
+                        "marker_id": "G13-PM-000004",
+                        "research_unit_id": "BATCH-MARKER-UNIT",
+                        "primary_item_id": item_id,
+                    }
+                },
+                "changed_by": "TEST",
+            },
+        )
+        self.assertTrue(result["committed"])
+        self.assertEqual(result["affected_markers"], ["G13-PM-000004"])
+        marker = get_marker(self.config, "G13-PM-000004")
+        self.assertEqual(marker["primary_item_id"], item_id)
+        self.assertEqual(
+            [(m["item_id"], m["marker_role"]) for m in marker["items"]],
+            [(item_id, "primary")],
+        )
+        self.assertEqual(marker["revisions"][0]["change_kind"], "create")
+        self.assertEqual(self.issue_codes(), {"marker_contextual_one_hop"})
 
 
 if __name__ == "__main__":

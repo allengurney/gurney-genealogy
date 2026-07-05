@@ -670,5 +670,59 @@ class Plan2bPublicationAndFrictionTests(unittest.TestCase):
         self.assertFalse(report.ok)
 
 
+class CitedSourceIdExtraction(unittest.TestCase):
+    """Label-form coverage for the §8.2 extractor (Thread 2 fix, 2026-07-04):
+    the real surfaces cite multi-source footnotes with one plural label
+    (`Source IDs: \\`a\\`; \\`b\\``) and a few topic footnotes use a lowercase
+    colon-less label; the original singular/single-token regexes missed all
+    of these."""
+
+    def test_singular_forms_still_match(self) -> None:
+        self.assertEqual(
+            cov._cited_source_ids("Source ID: `src-alpha`."), {"src-alpha"}
+        )
+        self.assertEqual(
+            cov._cited_source_ids("Source ID: <code>src-alpha</code>."),
+            {"src-alpha"},
+        )
+
+    def test_plural_multi_id_markdown(self) -> None:
+        text = "Source IDs: `src-alpha`; `src-beta`, `src-gamma`."
+        self.assertEqual(
+            cov._cited_source_ids(text), {"src-alpha", "src-beta", "src-gamma"}
+        )
+
+    def test_plural_multi_id_html(self) -> None:
+        text = "Source IDs: <code>src-alpha</code>; <code>src-beta</code>."
+        self.assertEqual(cov._cited_source_ids(text), {"src-alpha", "src-beta"})
+
+    def test_lowercase_label_without_colon(self) -> None:
+        self.assertEqual(
+            cov._cited_source_ids("... noted; source ID `src-alpha`."),
+            {"src-alpha"},
+        )
+
+    def test_bare_code_without_label_is_ignored(self) -> None:
+        self.assertEqual(
+            cov._cited_source_ids("See <code>not-a-source</code> and `path/x.md`."),
+            set(),
+        )
+
+    def test_colocated_unreferenced_definition_not_credited(self) -> None:
+        # A shared footnote-definition block sitting inside a span must not
+        # credit the block with a neighboring block's citation; a definition
+        # the block actually references still resolves.
+        file_lines = [
+            "A finding.[^mine]",
+            "",
+            "[^mine]: My witness. Source ID: `src-alpha`.",
+            "[^other]: Neighbor's witness. Source ID: `src-beta`.",
+        ]
+        block_text = "\n".join(file_lines)  # span includes both definitions
+        self.assertEqual(
+            cov._block_source_ids(block_text, file_lines), {"src-alpha"}
+        )
+
+
 if __name__ == "__main__":
     unittest.main()

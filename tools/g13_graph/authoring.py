@@ -264,6 +264,9 @@ def preview_batch(config: GraphConfig, batch: dict[str, Any]) -> dict[str, Any]:
 
             class _S:
                 revisions = intents
+                # batch marker creates are summarised via affected_markers, not
+                # the field-level diff (their snapshots have no 'before' state)
+                marker_revisions = []
 
             diff = _diff_for_intents(_S())
         finally:

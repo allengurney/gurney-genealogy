@@ -82,6 +82,25 @@ function roleClass(role) {
   if (["qualifies", "negative_within_scope"].includes(role)) return "mid";
   return "";
 }
+// Reader-facing phrasing for the item-detail Sources card. The stored role
+// reads source → item ("the source supports this item"), but a chip in front
+// of the source id reads item → source, so the raw verb inverts the meaning.
+// The canonical vocabulary value stays visible in the tooltip.
+const SOURCE_ROLE_LABELS = {
+  supports: "supported by",
+  contradicts: "contradicted by",
+  qualifies: "qualified by",
+  mentions: "mentioned in",
+  context_for: "context from",
+  negative_within_scope: "negative within",
+  discovery_only: "found via",
+};
+function sourceRoleLabel(role) { return SOURCE_ROLE_LABELS[role] || role; }
+function markerRoleClass(role) {
+  if (role === "primary") return "pos";
+  if (role === "expressed") return "";
+  return "mid"; // contextual
+}
 
 async function copyText(text, label) {
   try {
@@ -213,8 +232,8 @@ function itemLi(it, onClick) {
       el("span", { class: "chip vis-" + it.visibility }, it.visibility),
       it.status && it.status !== "active" ? el("span", { class: "chip st-" + it.status }, it.status) : null,
       it.review_state === "machine_suggested" ? el("span", { class: "chip rev-machine_suggested" }, "machine") : null,
-      el("span", { class: "counts", title: "sources · relations · publications" },
-        `${it.source_count ?? 0}s · ${it.relation_count ?? 0}r · ${it.publication_count ?? 0}p`),
+      el("span", { class: "counts", title: "sources · relations · publications · prose markers" },
+        `${it.source_count ?? 0}s · ${it.relation_count ?? 0}r · ${it.publication_count ?? 0}p · ${it.marker_count ?? 0}m`),
     ]),
     el("div", { class: "stmt" }, short(it.short_label || it.statement)),
   ]);
@@ -314,6 +333,8 @@ function renderDetail(it) {
     root.appendChild(renderNegativeCard(it));
   // publications / impact
   root.appendChild(renderPublicationsCard(it));
+  // prose markers (Plan 2a: <!-- graph-marker: … --> tokens in topic files)
+  root.appendChild(renderMarkersCard(it));
   // duplicates
   if ((it.duplicate_candidates || []).length) root.appendChild(renderDuplicatesCard(it));
   // revisions
@@ -410,17 +431,25 @@ function buildAIContext(it) {
   if (dates.length) { add(""); add("**Dates:**"); for (const d of dates) add(`- [${d.date_role}] ${d.original_display || ""} [${d.precision}] plausible ${d.plausible_start || "?"}–${d.plausible_end || "?"}`); }
   const pubs = it.publications || [];
   if (pubs.length) { add(""); add("**Publication mappings:**"); for (const p of pubs) add(`- [${p.status}] ${p.publication_path}${p.heading_id ? " #" + p.heading_id : ""}${p.assertion_summary ? " — " + p.assertion_summary : ""}`); }
+  const marks = it.markers || [];
+  if (marks.length) {
+    add(""); add("**Prose markers (graph-marker tokens in topic files):**");
+    for (const m of marks) add(`- [${m.marker_role}] ${m.marker_id} in ${m.unit_path}${m.status !== "active" ? ` (${m.status})` : ""}`);
+  }
   const dups = it.duplicate_candidates || [];
   if (dups.length) { add(""); add("**Possible duplicates:**"); for (const d of dups) add(`- ${d.item_id} (${d.similarity}) ${d.short_label || short(d.statement, 80)}`); }
   add("");
-  add("Changes go through the transactional editor ops (update_item, supersede_item, create_item, add/remove_relation, add/remove_source_link, …) via `tools/g13_graph/editor.py` / `tools/g13_graph.py author-batch` against the database above — never by editing SQLite rows directly.");
+  add("Changes go through the transactional editor ops (update_item, supersede_item, create_item, add/remove_relation, add/remove_source_link, create_marker, add/remove_marker_item, set_marker_primary, …) via `tools/g13_graph/editor.py` / `tools/g13_graph.py author-batch` against the database above — never by editing SQLite rows directly.");
   return L.join("\n");
 }
 
 function renderSourcesCard(it) {
   const rows = (it.sources || []).map((s) =>
     el("div", { class: "src" }, [
-      el("span", { class: "chip " + roleClass(s.role) }, s.role),
+      el("span", {
+        class: "chip " + roleClass(s.role),
+        title: "canonical role: " + s.role + " (the source " + s.role.replaceAll("_", " ") + " this item)",
+      }, sourceRoleLabel(s.role)),
       el("a", { class: "link mono", onclick: () => openNeighborhood("source", s.source_id) }, s.source_id),
       s.locator ? el("span", { class: "muted" }, s.locator) : null,
       el("span", { class: "pushright" }),
@@ -505,6 +534,50 @@ function renderPublicationsCard(it) {
     : el("span", { class: "warnflag" }, "decisions pending");
   return card("Publication impact", [flag, el("button", { class: "small", onclick: () => addPublicationForm(it) }, "+ mapping")],
     rows.length ? rows : [el("div", { class: "muted" }, "No publication mappings.")]);
+}
+
+function renderMarkersCard(it) {
+  const rows = (it.markers || []).map((m) => el("div", { class: "pub" }, [
+    el("span", { class: "chip " + markerRoleClass(m.marker_role), title: "this item's role in the marker" }, m.marker_role),
+    el("a", { class: "link mono", title: "Open marker", onclick: () => openNeighborhood("marker", m.marker_id) }, m.marker_id),
+    m.status !== "active" ? el("span", { class: "chip st-" + m.status }, m.status) : null,
+    m.visibility !== "repo_only" ? el("span", { class: "chip vis-" + m.visibility }, m.visibility) : null,
+    el("span", { class: "muted mono" }, m.unit_path),
+    el("span", { class: "pushright" }),
+    el("a", {
+      class: "link", "aria-label": "Remove this item from marker " + m.marker_id,
+      onclick: () => stageChange({ op: "remove_marker_item", params: { marker_id: m.marker_id, item_id: it.item_id } }),
+    }, "remove"),
+  ]));
+  return card("Prose markers", el("button", { class: "small", onclick: () => createMarkerForm(it) }, "+ marker"),
+    rows.length ? rows : [el("div", { class: "muted" }, "No prose markers map this item.")]);
+}
+
+function createMarkerForm(it) {
+  const idInput = el("input", { type: "text", placeholder: "blank = next G13-PM-… id" });
+  const unitSel = el("select", {});
+  for (const u of state.units) {
+    const o = el("option", { value: u.unit_id }, u.title || u.unit_id);
+    if (u.unit_id === it.research_unit_id) o.selected = true;
+    unitSel.appendChild(o);
+  }
+  const statusSel = pick("marker_status", "active");
+  const visSel = pick("visibility", "repo_only");
+  subForm("Create prose marker (this item as primary)", [
+    ["marker id", idInput], ["research unit", unitSel],
+    ["status", statusSel], ["visibility", visSel],
+  ], () => stageChange({
+    op: "create_marker", params: {
+      marker: {
+        marker_id: idInput.value.trim() || null,
+        research_unit_id: unitSel.value,
+        primary_item_id: it.item_id,
+        status: statusSel.value || "active",
+        visibility: visSel.value || "repo_only",
+      },
+    },
+  }));
+  banner("Reminder: an active marker needs its <!-- graph-marker: … --> token in the unit's Markdown file first.", "warn");
 }
 
 function renderDuplicatesCard(it) {
@@ -738,6 +811,8 @@ function showModal(change, preview) {
     const pr = cur.publication_readiness || {};
     const notes = [];
     if (pubs.length) notes.push(`This item is mapped to ${pubs.length} publication location(s); check the prose still matches after this change.`);
+    const marks = cur.markers || [];
+    if (marks.length) notes.push(`This item is mapped by ${marks.length} prose marker(s) (${marks.map((m) => m.marker_id).join(", ")}); check the marked prose still matches after this change.`);
     if ((pr.export_blockers || []).length || pr.excerpt_decisions_pending) notes.push("Publication decisions are still pending for this item.");
     if (notes.length) body.appendChild(el("div", { class: "warnpanel" }, notes.join(" ")));
   }
@@ -811,9 +886,15 @@ function fmtVal(v) {
 async function afterCommit(res) {
   await refreshStatus();
   await loadUnits();
-  const focus = (res.affected_items && res.affected_items[0]) || state.selectedId;
   if (state.tab === "queue") await loadQueue();
   else await loadItems();
+  // stay on the marker view when the commit was staged from it
+  const markerHash = location.hash.match(/^#marker\/(.+)$/);
+  if (markerHash) {
+    await openNeighborhood("marker", decodeURIComponent(markerHash[1]));
+    return;
+  }
+  const focus = (res.affected_items && res.affected_items[0]) || state.selectedId;
   if (focus) { try { await selectItem(focus); } catch (_) {} }
 }
 
@@ -917,6 +998,8 @@ async function runSearch(ev) {
     if (r.record_type === "research_item") li.addEventListener("click", () => { switchTab("items"); selectItem(r.record_id); });
     else if (r.record_type === "entity") li.addEventListener("click", () => openNeighborhood("entity", r.record_id));
     else if (r.record_type === "research_unit") li.addEventListener("click", () => openNeighborhood("unit", r.record_id));
+    else if (r.record_type === "prose_marker") li.addEventListener("click", () => openNeighborhood("marker", r.record_id));
+    else if (r.record_type === "source") li.addEventListener("click", () => openNeighborhood("source", r.record_id));
     list.appendChild(li);
   }
   if (!(data.results || []).length) list.appendChild(el("li", { class: "emptylist" }, "No matches."));
@@ -940,6 +1023,12 @@ async function openNeighborhood(kind, id) {
   const root = $("#detail");
   root.className = "detail";
   root.innerHTML = "";
+  if (data.kind === "marker") {
+    renderMarkerDetail(data.marker);
+    if (location.hash !== "#marker/" + id) history.replaceState(null, "", "#marker/" + id);
+    $("#right").scrollTop = 0;
+    return;
+  }
   if (data.kind === "entity") {
     root.appendChild(el("h2", {}, data.entity.canonical_label));
     root.appendChild(el("div", { class: "sub" }, `${data.entity.entity_id} · ${data.entity.entity_type}`));
@@ -951,7 +1040,10 @@ async function openNeighborhood(kind, id) {
     root.appendChild(el("h2", {}, s.display_title));
     root.appendChild(el("div", { class: "sub" }, `${s.source_id}`));
     root.appendChild(card("Cited by", null, (s.items || []).map((i) =>
-      el("div", { class: "src" }, [el("span", { class: "chip" }, i.role), el("a", { class: "link mono", onclick: () => { switchTab("items"); selectItem(i.item_id); } }, i.item_id), short(i.statement, 60)]))));
+      el("div", { class: "src" }, [
+        // direction reads source → item here, so the raw verb is correct
+        el("span", { class: "chip " + roleClass(i.role), title: "this source " + i.role.replaceAll("_", " ") + " the item" }, i.role),
+        el("a", { class: "link mono", onclick: () => { switchTab("items"); selectItem(i.item_id); } }, i.item_id), short(i.statement, 60)]))));
   } else if (data.kind === "unit") {
     const u = data.unit;
     root.appendChild(el("h2", {}, u.title));
@@ -959,6 +1051,90 @@ async function openNeighborhood(kind, id) {
     root.appendChild(card("Items", null, (u.items || []).map((i) =>
       el("div", { class: "ent" }, [el("span", { class: "kind" }, i.item_kind), el("a", { class: "link mono", onclick: () => { switchTab("items"); selectItem(i.item_id); } }, i.item_id), short(i.statement, 70)]))));
   }
+}
+
+// ------------------------------------------------------------------ marker detail
+function renderMarkerDetail(m) {
+  const root = $("#detail");
+  root.appendChild(el("div", { class: "detail-head" }, [
+    el("h2", {}, m.marker_id),
+    el("div", { class: "headactions" }, [
+      el("button", { class: "small", title: "Copy the Markdown token to paste into the topic file", onclick: () => copyText(m.token, "Marker token") }, "Copy token"),
+      el("button", { class: "small", title: "Copy the marker id", onclick: () => copyText(m.marker_id, m.marker_id) }, "Copy id"),
+    ]),
+  ]));
+  root.appendChild(el("div", { class: "headchips" }, [
+    el("span", { class: "chip" }, "prose marker"),
+    el("span", { class: "chip" + (m.status !== "active" ? " st-" + m.status : "") }, m.status),
+    el("span", { class: "chip vis-" + m.visibility }, m.visibility),
+  ]));
+
+  root.appendChild(card("Prose location", null, [kv([
+    ["research unit", el("a", { class: "link", onclick: () => openNeighborhood("unit", m.research_unit_id) }, m.unit_title || m.research_unit_id)],
+    ["file", el("span", { class: "mono" }, m.unit_path + (m.unit_heading ? " #" + m.unit_heading : ""))],
+    ["token", el("span", { class: "mono muted" }, m.token)],
+  ])]));
+
+  const memberRows = (m.items || []).map((i) => el("div", { class: "pub" }, [
+    el("span", { class: "chip " + markerRoleClass(i.marker_role) }, i.marker_role),
+    el("span", { class: "kind " + kindClass(i.item_kind) }, i.item_kind),
+    el("a", { class: "link mono", onclick: () => { switchTab("items"); selectItem(i.item_id); } }, i.item_id),
+    el("span", { class: "muted" }, short(i.short_label || i.statement, 60)),
+    i.cross_unit_reason ? el("span", { class: "warnflag", title: i.cross_unit_reason }, "cross-unit") : null,
+    el("span", { class: "pushright" }),
+    i.marker_role !== "primary" ? el("a", {
+      class: "link", "aria-label": "Make " + i.item_id + " the primary of " + m.marker_id,
+      onclick: () => stageChange({ op: "set_marker_primary", params: { marker_id: m.marker_id, item_id: i.item_id } }),
+    }, "make primary") : null,
+    el("a", {
+      class: "link", "aria-label": "Remove " + i.item_id + " from " + m.marker_id,
+      onclick: () => stageChange({ op: "remove_marker_item", params: { marker_id: m.marker_id, item_id: i.item_id } }),
+    }, "remove"),
+  ]));
+  root.appendChild(card("Mapped items (display order)",
+    el("button", { class: "small", onclick: () => addMarkerItemForm(m) }, "+ member"),
+    memberRows.length ? memberRows : [el("div", { class: "muted" }, "No mapped items.")]));
+
+  // status / visibility edit
+  const statusSel = pick("marker_status", m.status);
+  const visSel = pick("visibility", m.visibility);
+  const save = el("button", { class: "ok" }, "Preview & save");
+  save.addEventListener("click", () => {
+    const changes = {};
+    if (statusSel.value && statusSel.value !== m.status) changes.status = statusSel.value;
+    if (visSel.value && visSel.value !== m.visibility) changes.visibility = visSel.value;
+    if (!Object.keys(changes).length) { banner("No field changes.", "warn"); return; }
+    stageChange({ op: "update_marker", params: { marker_id: m.marker_id, ...changes } });
+  });
+  const grid = el("div", { class: "formgrid" });
+  grid.appendChild(el("div", { class: "label" }, "status")); grid.appendChild(statusSel);
+  grid.appendChild(el("div", { class: "label" }, "visibility")); grid.appendChild(visSel);
+  root.appendChild(card("Edit marker", null, [grid, el("div", { class: "inline-actions" }, [save])]));
+
+  const revRows = (m.revisions || []).map((r) => el("div", { class: "revrow" }, [
+    el("span", { class: "mono muted" }, "r" + r.database_revision),
+    el("span", { class: "chip" }, r.change_kind),
+    el("span", { class: "muted", style: "margin-left:auto" }, `${r.changed_by} · ${(r.changed_at || "").slice(0, 19)}`),
+  ]));
+  root.appendChild(card("Revision history (marker audit)", null, revRows.length ? revRows : [el("div", { class: "muted" }, "None.")]));
+}
+
+function addMarkerItemForm(m) {
+  const idInput = el("input", { type: "text", placeholder: "item id (G13-RI-…)" });
+  const roleSel = pick("marker_role", "expressed");
+  const reason = el("input", { type: "text", placeholder: "cross-unit reason (only if the item is from another unit)" });
+  const reviewer = el("input", { type: "text", placeholder: "cross-unit reviewed by" });
+  subForm("Add mapped item to " + m.marker_id, [
+    ["item", idInput], ["role", roleSel],
+    ["cross-unit reason", reason], ["reviewed by", reviewer],
+  ], () => stageChange({
+    op: "add_marker_item", params: {
+      marker_id: m.marker_id, item_id: idInput.value.trim(),
+      marker_role: roleSel.value || "expressed",
+      cross_unit_reason: reason.value.trim() || null,
+      cross_unit_reviewed_by: reviewer.value.trim() || null,
+    },
+  }));
 }
 
 // ------------------------------------------------------------------ tabs + wiring
@@ -1026,10 +1202,12 @@ async function init() {
   renderFilters();
   await loadItems();
 
-  // deep link: #item/<id> selects that item on load and on hash change
+  // deep link: #item/<id> or #marker/<id> restores the view on load and on hash change
   const openFromHash = () => {
     const m = location.hash.match(/^#item\/(.+)$/);
-    if (m && decodeURIComponent(m[1]) !== state.selectedId) selectItem(decodeURIComponent(m[1]));
+    if (m && decodeURIComponent(m[1]) !== state.selectedId) { selectItem(decodeURIComponent(m[1])); return; }
+    const mk = location.hash.match(/^#marker\/(.+)$/);
+    if (mk) openNeighborhood("marker", decodeURIComponent(mk[1]));
   };
   window.addEventListener("hashchange", openFromHash);
   openFromHash();

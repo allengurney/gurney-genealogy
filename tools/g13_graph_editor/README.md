@@ -119,10 +119,23 @@ is passed explicitly. `GURNEY_G13_GRAPH_DB` / `GURNEY_G13_GRAPH_EXPORT_DIR` /
 - Item detail: statement, kind, status, confidence, visibility, excerpt
   publishability, provenance, research location, subject entity, sources with
   roles/locators/excerpts, incoming/outgoing relations, linked entities, dates,
-  negative-result scope, publication impact, revision history, duplicate warnings.
-- Navigate person/place/source/unit/item neighborhoods by clicking any linked id.
+  negative-result scope, publication impact, prose markers, revision history,
+  duplicate warnings.
+- Navigate person/place/source/unit/item/marker neighborhoods by clicking any
+  linked id.
+- Prose markers (Plan 2a `<!-- graph-marker: G13-PM-… -->` tokens in topic
+  files) are first-class: the item detail lists the markers that map an item;
+  the marker view shows the prose location + copyable token, the mapped items
+  in display order with roles, status/visibility editing, membership editing
+  (add / remove / make-primary), and the `marker_revisions` audit trail.
+  Marker edits are validated by the reused G1B marker validators — e.g. an
+  active marker cannot be created before its token exists in the unit's
+  Markdown file (`marker_token_count_invalid` blocks it).
 - Filter by kind, status, confidence, visibility, review state, unit, source,
   unresolved conflict, publication impact, and pending-publication-decision.
+  A `G13-PM-…` id pasted into the text filter matches the items that marker
+  maps; the Search tab resolves pasted ids (items, markers, entities, units,
+  sources) directly, ahead of FTS matches.
 - Pick lists for every controlled vocabulary; source/entity autocomplete
   (sources from the registered `source_registry`; entities from the `entities`
   table). Only registered `sourceId`s can be linked (DB-enforced).
@@ -139,12 +152,19 @@ is passed explicitly. `GURNEY_G13_GRAPH_DB` / `GURNEY_G13_GRAPH_EXPORT_DIR` /
 
 - Item kinds are color-coded (chip + list-row left border); source roles and
   relation types carry supports/contradicts/qualifies semantics in color.
+- Source-role chips on the item detail use reader-facing directional phrasing
+  ("supported by", "contradicted by", "mentioned in", …) because the stored
+  role reads source → item and a chip in front of the source id would invert
+  it; the canonical vocabulary value stays in the chip tooltip. The source
+  neighborhood's "Cited by" list keeps the raw verb (direction reads correctly
+  there).
 - Keyboard: `/` focuses the filter or search box, `↑`/`↓` move through result
   lists, `Enter` opens; `←`/`→` move between tabs; the confirm modal traps
   focus, defaults to **Commit** (or **Discard** when blocked) and closes on
   `Escape`. Blocking errors render as a red panel, advisory warnings as amber.
-- Selection is deep-linkable: `#item/<id>` in the URL restores the item on
-  reload (and tells a paired AI session what is on screen).
+- Selection is deep-linkable: `#item/<id>` or `#marker/<id>` in the URL
+  restores the view on reload (and tells a paired AI session what is on
+  screen).
 - **Copy AI context** on the item header copies a self-contained markdown
   block (statement, sources, relations, dates, publication mappings, DB path
   and revision, API/edit-tooling pointers) for pasting into a Claude session
@@ -153,9 +173,11 @@ is passed explicitly. `GURNEY_G13_GRAPH_DB` / `GURNEY_G13_GRAPH_EXPORT_DIR` /
 ## JSON API
 
 Read: `GET /api/status`, `/api/picklists`, `/api/items?<filters>`,
-`/api/item/<id>`, `/api/impact/<id>`, `/api/neighborhood?kind=&id=`,
+`/api/item/<id>`, `/api/marker/<id>`, `/api/impact/<id>`,
+`/api/neighborhood?kind=&id=` (kind: item | source | unit | entity | marker),
 `/api/review-queue`, `/api/sources?q=`, `/api/entities?q=`, `/api/units`,
-`/api/search?terms=`, `/api/source-hashes`.
+`/api/search?terms=` (direct id hits merged ahead of FTS matches),
+`/api/source-hashes`.
 
 Write: `POST /api/preview` (stage → validate → diff → rollback),
 `POST /api/commit` (validate → apply → audit → refresh),
@@ -168,17 +190,26 @@ Supported ops: `create_item`, `update_item`, `supersede_item`, `retire_item`,
 `remove_relation`, `add_source_link` / `update_source_link` /
 `remove_source_link`, `add_entity_link` / `remove_entity_link`, `create_entity` /
 `update_entity`, `create_research_unit` / `update_research_unit`, `set_dates`,
-`set_negative_scope`, `add_publication` / `remove_publication`. Whole-topic
-increments (a unit + entities + items + relations in one transaction) go through
-`tools/g13_graph/authoring.py` / the `author-batch` CLI, which reuses these ops.
+`set_negative_scope`, `add_publication` / `remove_publication`, `create_marker` /
+`update_marker` / `set_marker_primary`, `add_marker_item` /
+`update_marker_item` / `remove_marker_item`. Marker ops audit into
+`marker_revisions` (snapshots include the member rows); `set_marker_primary`
+performs the demote/promote/repoint atomically because the schema's deferred FK
+requires all three in one transaction. Whole-topic increments (a unit +
+entities + items + relations + markers in one transaction) go through
+`tools/g13_graph/authoring.py` / the `author-batch` CLI, which reuses these ops
+for creation; post-hoc marker maintenance is what the editor ops are for
+(author-batch only creates).
 
 ## Tests
 
 `tools/g13_graph/tests/test_editor.py` covers transactional save/rollback,
 revision logging, validate-before-save (delta blocking), post-save
 recovery-export refresh (including the derived-step-failure stale path),
-create/relation/source round-trips, unregistered-source rejection, and batch
-review-queue accept.
+create/relation/source round-trips, unregistered-source rejection, batch
+review-queue accept, and the marker surface (item-detail/marker reads, id
+lookup, membership ops with `marker_revisions` audit, token-gated marker
+creation).
 
 ```powershell
 .\.venv\Scripts\python.exe -m unittest tools.g13_graph.tests.test_editor

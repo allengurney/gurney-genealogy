@@ -83,8 +83,18 @@ DUMP_DISPOSITIONS = {
 # Publication surfaces (fact sheet, case file) use the HTML form
 # `Source ID: <code>x</code>` instead (Plan 2b §8.2); bare <code> tags also
 # carry non-source content, so both forms anchor on the `Source ID:` label.
-SOURCE_ID_RE = re.compile(r"Source ID:\s*`([^`]+)`")
-SOURCE_ID_HTML_RE = re.compile(r"Source ID:\s*<code>\s*([^<]+?)\s*</code>")
+# Multi-source footnotes across every surface write the label once, plural,
+# with several ids after it (`Source IDs: \`a\`; \`b\``); a few topic footnotes
+# use a lowercase label with no colon (`source ID \`x\``). The extractor
+# therefore matches a label run — `[Ss]ource ID(s)` + optional colon — and
+# consumes every backtick/<code> token that follows it (Thread 2 fix,
+# 2026-07-04: the original singular-label, single-token regexes silently
+# missed every plural-form citation).
+SOURCE_ID_RUN_RE = re.compile(
+    r"[Ss]ource\s+IDs?\s*:?\s*"
+    r"((?:(?:`[^`]+`|<code>\s*[^<]+?\s*</code>)\s*(?:[;,]|\band\b)?\s*)+)"
+)
+SOURCE_ID_TOKEN_RE = re.compile(r"`([^`]+)`|<code>\s*([^<]+?)\s*</code>")
 
 # A frozen-inventory table row carries a whole-file SHA-256 (64 lowercase hex).
 SHA256_RE = re.compile(r"\b([0-9a-f]{64})\b")
@@ -363,8 +373,12 @@ def _sources_index(sources_path: Path) -> set[str]:
 
 
 def _cited_source_ids(text: str) -> set[str]:
-    ids = {m.strip() for m in SOURCE_ID_RE.findall(text)}
-    ids.update(m.strip() for m in SOURCE_ID_HTML_RE.findall(text))
+    ids: set[str] = set()
+    for run in SOURCE_ID_RUN_RE.finditer(text):
+        for backtick, code in SOURCE_ID_TOKEN_RE.findall(run.group(1)):
+            token = (backtick or code).strip()
+            if token:
+                ids.add(token)
     return ids
 
 
@@ -421,13 +435,34 @@ def _html_anchor_defs(lines: list[str], anchor_ids: set[str]) -> dict[str, str]:
     return defs
 
 
-def _block_source_ids(block_text: str, file_lines: list[str]) -> set[str]:
-    """Source IDs cited by a block: inline (both syntaxes) plus the IDs in any
-    markdown/HTML footnote definitions the block references (Plan 2b §8.2 —
-    definitions usually live outside the block's line span)."""
-    ids = _cited_source_ids(block_text)
+def _strip_md_footnote_defs(block_text: str) -> str:
+    """Remove markdown footnote-definition lines (def line + indented/blank
+    continuations) from a block's text. The companion and dumps colocate
+    shared definition blocks inside some spans; scanning those lines inline
+    would credit the block with every neighboring block's citations (Thread 2
+    fix, 2026-07-04). Referenced definitions are still resolved separately."""
+    kept: list[str] = []
+    in_def = False
+    for line in block_text.splitlines():
+        if re.match(r"^\[\^([^\]]+)\]:", line):
+            in_def = True
+            continue
+        if in_def and (line.startswith(("    ", "\t")) or not line.strip()):
+            continue
+        in_def = False
+        kept.append(line)
+    return "\n".join(kept)
 
-    md_refs = set(MD_FOOTNOTE_REF_RE.findall(block_text))
+
+def _block_source_ids(block_text: str, file_lines: list[str]) -> set[str]:
+    """Source IDs cited by a block: inline (both syntaxes, with colocated
+    markdown footnote definitions masked) plus the IDs in any markdown/HTML
+    footnote definitions the block references (Plan 2b §8.2 — definitions
+    usually live outside the block's line span)."""
+    body = _strip_md_footnote_defs(block_text)
+    ids = _cited_source_ids(body)
+
+    md_refs = set(MD_FOOTNOTE_REF_RE.findall(body))
     if md_refs:
         defs = _md_footnote_defs(file_lines)
         for ref in md_refs:

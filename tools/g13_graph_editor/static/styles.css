@@ -147,7 +147,8 @@ main { display: grid; grid-template-columns: clamp(340px, 30vw, 460px) 1fr; heig
 }
 .vis-public { color: var(--ok); border-color: var(--ok); background: transparent; }
 .vis-restricted { color: var(--danger); border-color: var(--danger); background: transparent; }
-.st-open, .st-superseded, .st-rejected, .st-inactive { color: var(--warn); border-color: var(--warn); background: transparent; }
+.st-open, .st-superseded, .st-rejected, .st-inactive,
+.st-suppressed, .st-retired { color: var(--warn); border-color: var(--warn); background: transparent; }
 .rev-machine_suggested { color: var(--warn); border-color: var(--warn); background: transparent; }
 /* source-role and relation-type semantics */
 .chip.pos { color: var(--ok); border-color: var(--ok); background: transparent; }

@@ -37,8 +37,10 @@ from tools.g13_graph.editor import (
     autocomplete_sources,
     commit_change,
     get_item_detail,
+    get_marker,
     list_items,
     list_units,
+    lookup_ids,
     neighborhood,
     preview_change,
     review_queue,
@@ -235,7 +237,14 @@ class EditorHandler(BaseHTTPRequestHandler):
             if not terms:
                 self._send_json(400, {"error": "search requires terms."})
             else:
-                self._send_json(200, search_graph(config, terms))
+                self._send_json(200, self._search(terms))
+        elif path.startswith("/api/marker/"):
+            marker_id = unquote(path[len("/api/marker/") :])
+            marker = get_marker(config, marker_id)
+            if marker is None:
+                self._send_json(404, {"error": f"Marker not found: {marker_id}"})
+            else:
+                self._send_json(200, marker)
         elif path.startswith("/api/item/"):
             item_id = unquote(path[len("/api/item/") :])
             detail = get_item_detail(config, item_id)
@@ -252,6 +261,25 @@ class EditorHandler(BaseHTTPRequestHandler):
                 self._send_json(200, impact)
         else:
             self._send_json(404, {"error": f"Unknown API route: {path}"})
+
+    def _search(self, terms: list[str]) -> dict[str, Any]:
+        """Direct id hits (items, markers, entities, units, sources) merged
+        ahead of FTS matches; FTS indexes prose text only, so a pasted
+        G13-PM-… id would otherwise return nothing."""
+        id_hits = lookup_ids(self.config, terms)
+        try:
+            fts = search_graph(self.config, terms)
+        except RuntimeError as exc:  # stale derived indexes
+            if not id_hits:
+                raise
+            return {"terms": terms, "results": id_hits, "fts_error": str(exc)}
+        seen = {(hit["record_type"], hit["record_id"]) for hit in id_hits}
+        merged = id_hits + [
+            row
+            for row in fts["results"]
+            if (row["record_type"], row["record_id"]) not in seen
+        ]
+        return {"terms": terms, "results": merged, "result_count": len(merged)}
 
     def _source_hash_state(self) -> dict[str, Any]:
         from tools.g13_graph.db import connect

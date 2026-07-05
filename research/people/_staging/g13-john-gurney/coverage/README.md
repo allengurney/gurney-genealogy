@@ -37,6 +37,95 @@ committed, re-freeze that row against the new blob.
 
 The live companion and dump are **not** touched by this work.
 
+## Plan 2b frozen inventory — supplemental surfaces (§6.3, Thread 2, 2026-07-04)
+
+**Plan 2b cutoff commit ref:** `c9006ce6` (`misc pdf`, 2026-07-04). This is a
+**separate cutoff** from the original §8 step 1 freeze above; the supplemental
+surfaces were not part of that freeze and are not back-dated into it. The
+working tree was **clean** for every input below at this cutoff, so the commit
+blob and the working-tree content coincide.
+
+The seven G13/John topic files are the **explicit §3.3 enumeration** (the glob
+`research/topics/g13-john-gurney-*.md` matches only one of them). Word-count
+sanity check: the seven total 23,989 words by `wc -w` against Plan 02 §2's
+"~24,269 words" — within counter tolerance, no missing file. The §3.3 scan of
+`research/topics/` and its README found one additional file whose review showed
+a G13-specific source relationship held nowhere else: the Bevis/Diligent/
+Mary-Anne passenger-list topic carries the first-class negative *"no John
+Gurney variant appears on any of these lists"* on its own source stack
+(Banks's *Planters of the Commonwealth*, Drake). It is frozen as a tenth input
+with minimal rows; the file itself remains a cross-cutting method/collection
+topic, not a G13 subject file. No other `research/topics/` file has G13 John
+Gurney as its subject.
+
+| Input | Kind | Lines | State at cutoff | Frozen SHA-256 (whole file) |
+|---|---|---|---|---|
+| `fact-sheets/g13-john-gurney-fact-sheet.md` | fact_sheet | 176 | clean @ c9006ce6 | `da226091ed3346f2b732a3948f0429fd6aecdcb29b3e42fa5d652bccd137bd61` |
+| `research/case-files/john-gurney-case-file-v4.md` | case_file | 1007 | clean @ c9006ce6 | `4b392b34ade271228d2da6e3dba292ca1f28cf6580b019da0d6bf9d7ee3c7e93` |
+| `research/topics/g13-john-gurney-immigration-by-association.md` | existing_topic | 163 | clean @ c9006ce6 | `daf224d41e1b385202162f5a472f24dda17a367890c7e6d07141218e527ebaa5` |
+| `research/topics/john-gurney-candidate-aylesbury-buckinghamshire.md` | existing_topic | 62 | clean @ c9006ce6 | `a57093b226c3be5b1a26aca4d253aad873251544270e0c913be42985be20a7a7` |
+| `research/topics/john-gurney-candidate-berkhamsted-hertfordshire.md` | existing_topic | 21 | clean @ c9006ce6 | `48a4d4e36fc88f4aa097c6007982eaa11c598ea9999c4f6e874eeb9d2d41cdd2` |
+| `research/topics/john-gurney-candidate-ackworth-yorkshire.md` | existing_topic | 28 | clean @ c9006ce6 | `88bbb4de83959d3bf0e3c17a65e4651ffeaf4d7f7f8893fee51f56c1587a93f0` |
+| `research/topics/john-gurney-candidate-earsham-norfolk.md` | existing_topic | 57 | clean @ c9006ce6 | `1905273978b19bee38774544b1077078c24efd36f682e8ddb6679960047e1aa3` |
+| `research/topics/john-gurney-candidate-london-draper.md` | existing_topic | 293 | clean @ c9006ce6 | `2a80a373358da920c66a5514efabbaad4591b77a2400a2c6d70ab0c60a1f3c87` |
+| `research/topics/john-gurney-candidate-others.md` | existing_topic | 236 | clean @ c9006ce6 | `870960a6ca81f6de2ad4e22ef29ff691f821895b5218185f22d83cf25ff6e16c` |
+| `research/topics/massachusetts-bay-passenger-lists-bevis-diligent-mary-anne.md` | existing_topic | 993 | clean @ c9006ce6 | `ec305d20d1fb84edc5a0eb34df0d35bfb42a81341f636b4c813507f390ff9c49` |
+
+Material added to any of these files **after** this cutoff is queued for a
+later round, not folded into this refactor. The map **never authorizes edits
+to any origin surface** (Plan 2b §6.2).
+
+Block-anchoring notes for the checker (§8.2 tiers): the fact sheet has **no
+markdown headings** (pure HTML sections), so every fact-sheet row is
+`extraction_unanchored` by construction — its `source_ids` were populated
+mechanically at freeze (same parser, HTML footnote definitions resolved) and
+are trusted from the ledger. The case file uses HTML `<h2 id="sN">` section
+headings (also unanchorable) with markdown `###` subsections; rows are cut at
+the h2-section level, so case-file rows are likewise `extraction_unanchored`.
+Two mixed-scope case-file sections (s1, s10) are each split into two rows over
+the same span — a staged-colonial-scope row and a family/identity-scope row —
+whose `source_ids` partition the section's mechanically parsed set (asserted
+lossless at generation). Topic-file rows anchor on real markdown headings and
+gate normally; whole-file rows anchored on the `#` title deliberately carry
+the file's complete parsed source set.
+
+State at this freeze: **six topics staged** (arrival-chronology, weymouth,
+braintree, frontier-rights, material-life, record-coverage; items
+`G13-RI-000001..000042`), graph snapshot revision 17 — superseding the
+three-topic coverage snapshot recorded above at the §8 freeze.
+
+Thread 2 also mechanically completed `legacy-companion-map.csv` `source_ids`
+against the frozen block parses (18 rows; three dispositioned rows had
+genuinely missing cited ids, including the §4.2 `familysearch-fulltext-search`
+omission on the full-text-campaign row) and audited the dump map (zero
+mismatches; nine finding_ids are heading-unanchorable, non-gating). The
+destination-by-destination handoff for Threads 3–5 is
+[`plan2b-remediation-manifest.md`](plan2b-remediation-manifest.md). Checker
+state at handoff: `input_inventory_gaps=0`, `input_source_set_gaps=0`,
+`source_journey_gaps=12`, `topic_graph_source_gaps=7`,
+`publication_mapping_gaps=0`, `friction_needs_decision=0` (+14 recorded,
+non-gating), backlog 148.
+
+**Plan 2b Thread 6 closeout (2026-07-05, Opus).** The five-topic remediation is
+complete. Threads 3 (arrival + Weymouth, rev 21) and 5 (frontier, rev 23) had
+landed; **Thread 4 (Braintree + material-life) had not been run** — the audit
+found its 11 source-journey gaps and record-coverage's 6 prose↔graph parity gaps
+still open. Thread 6 closed both: (a) retagged the six record-coverage
+cross-links `context_for → cross_unit` so the §8.4 exemption applies (ledger
+only); (b) executed Thread 4 — new canonical occupation finding
+**G13-RI-000047** ("a tailor by trade, a husbandman by economy") + marker
+**G13-PM-000029** in Braintree, and six source links to existing items
+(familysearch-fulltext-search→RI-000013 Liber V registry copy; adams-history +
+adams-genesis→RI-000011 non-resident Tyng proprietorship; sprague-braintree→
+RI-000047; fs-suffolk-probate + suffolk-probate-index→RI-000033), plus the
+l.107 destination extended to material-life + frontier. Live DB **rev 35**,
+snapshot `g13-context-r000035.ndjson`, validate 0/0, all tiers aligned. **All
+Plan 2b categories now zero** (`source_journey_gaps=0`,
+`topic_graph_source_gaps=0`); backlog unchanged at 148 (the unauthored
+family/origin/identity/research-state topics — the expected whole-refactor
+`RESULT: FAIL`). All six colonial topics carry `coverageStatus:
+increment-complete`. **GO** for resuming normal G3 authoring.
+
 ## The four ledgers
 
 All ledgers use `topicId`, never numbered shorthand (§5) — a file rename cannot
@@ -70,9 +159,10 @@ silently change a destination.
   `duplicate_but_preserved`, `routed_elsewhere`, `needs_decision`), and optional
   `friction` values (§6.2 controlled set). `origin_anchor` is the block's heading
   text — the checker uses it to locate and mechanically re-parse the block's
-  cited sources. Header established by Plan 2b Thread 1 (2026-07-04); rows are
-  populated by Thread 2 (freeze + inventory). The map never authorizes edits to
-  any origin surface.
+  cited sources. Header established by Plan 2b Thread 1 (2026-07-04); populated
+  by Thread 2 (freeze + inventory, same day): 60 rows across the ten frozen
+  surfaces, 26 dispositioned at freeze. The map never authorizes edits to any
+  origin surface.
 
 The dump map also carries a Plan 2b `source_ids` column (empty until a finding
 is dispositioned): a dump finding cannot be dispositioned without recording its

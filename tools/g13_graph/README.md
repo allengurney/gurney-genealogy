@@ -179,6 +179,13 @@ heading in the topic file. The editor also gained `create_research_unit` /
 `update_research_unit` ops so the artifact UI (and this batch path) can add the
 first unit of a new topic.
 
+`author-batch` only *creates* markers. Post-hoc marker maintenance — changing
+status/visibility, adding/removing mapped items, repointing the primary — goes
+through the editor's marker ops (`create_marker`, `update_marker`,
+`set_marker_primary`, `add_marker_item`, `update_marker_item`,
+`remove_marker_item`), each audited in `marker_revisions` and delta-validated
+like any other editor change (see `tools/g13_graph_editor/README.md`).
+
 ## Static website export (Phase G5)
 
 `export-website` writes a deterministic, read-only public export for the future

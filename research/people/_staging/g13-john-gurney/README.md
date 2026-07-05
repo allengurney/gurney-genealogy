@@ -85,9 +85,84 @@ no-new-document, Providence/Garnet, dataset negatives) is **not** assimilated by
 bounded increment and remains backlog for a fuller `g13-research-source-coverage` /
 follow-up record-coverage pass.
 
+Plan 2b Thread 3 — source-lossless remediation (2026-07-05, bounded to
+`01-arrival-chronology.md` + `02-weymouth-community.md`): reconciled the routed
+fact-sheet, case-file, immigration-topic, and dump sources for the two units.
+**Arrival:** Anderson's *Great Migration Directory* p. 158 published assessment
+(arrival 1636, Boston/Braintree, origin "Unknown") is now carried in the arrival
+graph as `published_source_statement` **G13-RI-000043** (QUALIFIES the 1638–early-1641
+window RI-000006, DEPENDS_ON the 1641 court order RI-000001); the FamilySearch
+full-text-search image read of the 30 May 1641 petition is linked as a second
+representation on RI-000002 (supports) and RI-000007 (qualifies), resolving the
+`same_record_multiple_representations` friction; and the Phase-P unit was backfilled
+with four Plan 2a prose markers **G13-PM-000022..000025**. **Weymouth:** the
+immigration-topic analytical depth is assimilated as three items — the 1636 Fresh
+Pond great-lot absence negative **G13-RI-000044**, the 1651-52 proprietary-right-not-
+residence + John Read comparator analysis **G13-RI-000045**, and the Aylesbury-Vale
+Bucks neighbour-cluster reception analysis **G13-RI-000046** (Mass. Archives 129:16
+deposition, via `history-of-weymouth`) — with markers **G13-PM-000026..000028**.
+Loaded transactionally (arrival batch + two editor source-links + Weymouth batch)
+across database revisions 18–21; snapshot at revision 21
+(`data/context-graphs/g13/exports/snapshots/g13-context-r000021.ndjson`); validate 0/0.
+Both topics carry `coverageStatus: increment-complete` in `manifest.json` — their own
+journey/parity/friction gaps are zero; the residual gaps on shared multi-destination
+rows (Sprague, Adams, Suffolk probate index, FS Liber V) are Braintree/material/
+frontier-scoped (Threads 4–5). Dump findings F11 (Hingham arrival-vector) and F-R4.5
+(Jenner's Venn/Essex origin) were reviewed and explicitly retained as backlog to
+record-coverage / migration-network (their Weymouth bearing already carried in RI-000020/021).
+
 Leads bearing on this increment — **L-182** (Weymouth grants → RI-000019), **L-185**
 (Ludden Old-Planter reception → RI-000022), **L-190** (Jenner credit tie → RI-000020/021) —
 were tagged in the production catalog via `research_leads.py --append-status-note` with a
 `[G13-STAGING 2026-07-04: …]` note (append-only; `Source ref` left production; backup in
 `_local/backups/`). Find them with `research_leads.py search G13-STAGING`; at cutover, review
 each, finalize via `update`/`close`, and strip the tag.
+
+Plan 2b Thread 5 — source-lossless remediation (2026-07-05, bounded to
+`04-frontier-rights.md`): closed both frontier gaps without adding items (the unit's
+`G13-RI-000024..000032` identities were all sound). **Journey gap:** the Billerica block's
+`braintree-records-1640-1793-1886` — the primary Braintree town record of the 1647 Daniel
+Shed × Mary Gurney marriage (seven Shed births 1647–1658) that makes Daniel John's son-in-law,
+behind the "in answer for his father John Gurney" surrender — is now linked `context_for`
+**G13-RI-000029** as a second witness alongside the compiled `shedd-daniel-shed-genealogy-1920`;
+the frontier `[^shedd]` footnote was expanded to cite both. **Parity gap (§4.1):** Nash's
+Appendix C p.282 great lot no.16 (2 Feb 1651/2), cited in prose but linked to no item, is now
+linked `context_for` **G13-RI-000031** as the earliest instance of the proprietary-right-without-
+residence pattern (cross-unit comparator; its 1651-52 analysis home stays
+`02-weymouth-community.md` RI-000045, landholding-context home `01-arrival-chronology.md`).
+The John's-own-rights vs posthumous widow/descendant boundary is intact (1662 allotment RI-000026;
+post-1667 print-stream chronology as the `open_question` RI-000032; the widow/descendant stream
+stays backlog for `g13-family-mendon-descendants`). `suffolk-probate-index-v2-1895` (the Case #338
+discovery/index trail) is coordinated to material-life (Thread 4), not linked in frontier. Loaded
+as two `editor.commit_change add_source_link` transactions across database revisions 21→23;
+snapshot at revision 23 (`data/context-graphs/g13/exports/snapshots/g13-context-r000023.ndjson`);
+validate 0/0. `04-frontier-rights.md` carries `coverageStatus: increment-complete` in
+`manifest.json` — its own journey/parity/citation/source-set gaps are zero.
+
+Plan 2b Thread 4 + Thread 6 — source-lossless remediation of `03-braintree-community.md`
++ `05-material-life.md`, and Plan 2b closeout (2026-07-05). Thread 6's audit found Thread 4
+had not been run: the checker still reported 11 source-journey gaps (Braintree/material-life)
+and 6 record-coverage prose↔graph parity gaps. **Record-coverage parity:** the six
+"six-record-basis" cross-links (`massachusetts-bay-records-v1-1853`, `suffolk-deeds-liber-iv-1888`,
+`nehgr-62-94`, `spr-case-338…`, `nehgr-12-suffolk-wills-1858`, `anderson-great-migration-begins-v1-baxter`)
+were tagged `cited_role=context_for` rather than the §8.4 exemption keyword; retagged
+`→ cross_unit` (citation-ledger only). **Thread 4:** a new canonical occupation finding
+**G13-RI-000047** ("a tailor by trade, a husbandman by economy") + marker **G13-PM-000029**
+authored into **Braintree** — it DEPENDS_ON the 1661/2 tailor deed RI-000013 and, cross-unit,
+the material-life no-tools negative RI-000036 and husbandry finding RI-000034, and carries
+Sprague's compiled Braintree genealogy (`sprague-braintree`, supports) as published
+corroboration. Six source links to existing items: the Suffolk Deeds Liber V registry copy
+read via FamilySearch full-text (`familysearch-fulltext-search` → deed RI-000013, "John Gurney
+of Braintry Taylor"); Adams's *History of Braintree* (1891) and "Genesis of the Massachusetts
+Town" (1892) → Tyng-leasehold RI-000011 (Tyng's non-resident Mount Wollaston proprietorship);
+and the FamilySearch probate file-papers image (`fs-suffolk-probate-1636-1915`, supports) +
+George's 1895 Suffolk probate index (`suffolk-probate-index-v2-1895`, discovery_only) → the
+material-life inventory RI-000033. Legacy row l.107 destination extended to material-life +
+frontier to match the block's fan-out. Loaded across database revisions 24–35 (author-batch +
+5 source-links + 5 locator fixes + hash-sources); snapshot at revision 35
+(`data/context-graphs/g13/exports/snapshots/g13-context-r000035.ndjson`); validate 0/0, all
+tiers aligned. **All Plan 2b source-lossless categories are now zero** (journey 0, parity 0,
+publication 0, friction 0, inventory 0); backlog unchanged at 148 (the unauthored
+family/origin/identity/research-state topics — the expected whole-refactor `RESULT: FAIL`).
+All six colonial topics carry `coverageStatus: increment-complete`. **GO for resuming normal
+G3 topic authoring.**
