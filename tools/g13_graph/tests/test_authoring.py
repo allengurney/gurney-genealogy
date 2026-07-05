@@ -93,6 +93,69 @@ class AuthoringTestCase(unittest.TestCase):
             }],
         }
 
+    def _shared_from_item_batch(self) -> dict:
+        """A batch where one evidence item is the from_item of two SUPPORTS
+        relations — the shape that produced two colliding ("update", item_id)
+        item_revisions intents before coalescing."""
+        return {
+            "units": [{
+                "unit_id": "BATCH-UNIT-1",
+                "path": "fixture://batch/unit.md",
+                "title": "Batch unit",
+                "scope_summary": "A synthetic batch unit.",
+            }],
+            "entities": [{
+                "entity_id": "BATCH-ENT-1",
+                "entity_type": "person",
+                "canonical_label": "Batch Person",
+            }],
+            "items": [
+                {
+                    "item": {
+                        "item_id": "BATCH-RI-1", "item_kind": "research_finding",
+                        "subject_entity_id": "BATCH-ENT-1", "statement": "Finding one.",
+                        "short_label": "F1", "research_unit_id": "BATCH-UNIT-1",
+                        "assessment_confidence_label": "high",
+                    },
+                    "entities": [{"entity_id": "BATCH-ENT-1", "role": "subject"}],
+                },
+                {
+                    "item": {
+                        "item_id": "BATCH-RI-2", "item_kind": "research_finding",
+                        "subject_entity_id": "BATCH-ENT-1", "statement": "Finding two.",
+                        "short_label": "F2", "research_unit_id": "BATCH-UNIT-1",
+                        "assessment_confidence_label": "high",
+                    },
+                    "entities": [{"entity_id": "BATCH-ENT-1", "role": "subject"}],
+                },
+                {
+                    "item": {
+                        "item_id": "BATCH-RI-3", "item_kind": "source_evidence",
+                        "subject_entity_id": "BATCH-ENT-1", "statement": "Evidence three.",
+                        "short_label": "E3", "research_unit_id": "BATCH-UNIT-1",
+                        "assessment_confidence_label": "high",
+                    },
+                    "sources": [{
+                        "source_id": self._source_id(), "role": "supports",
+                        "locator": "p. 1", "verification_level": "printed-secondary",
+                    }],
+                    "entities": [{"entity_id": "BATCH-ENT-1", "role": "subject"}],
+                },
+            ],
+            "relations": [
+                {
+                    "from_item_id": "BATCH-RI-3", "relation_type": "SUPPORTS",
+                    "to_item_id": "BATCH-RI-1", "bearing": "direct", "strength": "strong",
+                    "explanation": "E3 supports F1.",
+                },
+                {
+                    "from_item_id": "BATCH-RI-3", "relation_type": "SUPPORTS",
+                    "to_item_id": "BATCH-RI-2", "bearing": "direct", "strength": "strong",
+                    "explanation": "E3 supports F2.",
+                },
+            ],
+        }
+
     def _marker_batch(self) -> dict:
         return {
             "units": [{
@@ -185,6 +248,43 @@ class AuthoringTestCase(unittest.TestCase):
             self._count("marker_revisions", "marker_id=?", "G13-PM-000004"),
             1,
         )
+
+    def test_shared_from_item_coalesces_revision_rows(self) -> None:
+        # Regression: one item as the from_item of two relations yields two
+        # ("update", item_id) revision intents that collide on
+        # item_revisions' UNIQUE(database_revision, item_id, change_kind).
+        # Dry-run must agree with commit, and the two intents must fold into one row.
+        preview = preview_batch(self.config, self._shared_from_item_batch())
+        self.assertTrue(preview["can_commit"])
+        self.assertEqual(preview["blocking_errors"], [])
+        # 3 item creates + 1 coalesced update for the shared from_item.
+        self.assertEqual(preview["would_write_revisions"], 4)
+
+        result = author_batch(self.config, self._shared_from_item_batch(), changed_by="TEST")
+        self.assertTrue(result["committed"])
+        self.assertFalse(result["stale"])
+        self.assertEqual(result["revisions_written"], 4)
+        revision = result["database_revision"]
+        # Both relations landed on the shared from_item.
+        self.assertEqual(self._count("item_relations", "from_item_id=?", "BATCH-RI-3"), 2)
+        # Exactly one coalesced 'update' row for the shared from_item at this revision
+        # (plus its 'create' row — two rows total, no collision).
+        conn = connect(self.config.db_path, read_only=True)
+        try:
+            update_rows = conn.execute(
+                "SELECT count(*) FROM item_revisions "
+                "WHERE item_id=? AND change_kind='update' AND database_revision=?",
+                ("BATCH-RI-3", revision),
+            ).fetchone()[0]
+            total_rows = conn.execute(
+                "SELECT count(*) FROM item_revisions "
+                "WHERE item_id=? AND database_revision=?",
+                ("BATCH-RI-3", revision),
+            ).fetchone()[0]
+        finally:
+            conn.close()
+        self.assertEqual(update_rows, 1)
+        self.assertEqual(total_rows, 2)
 
     def test_reapplying_batch_is_rejected(self) -> None:
         author_batch(self.config, self._valid_batch())

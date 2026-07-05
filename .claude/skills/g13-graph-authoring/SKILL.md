@@ -23,10 +23,15 @@ otherwise — depth and correctness over breadth.
 - `.claude/rules/research-files.md` + `.claude/rules/citations.md` — the prose you
   stage is `research/people/**` content and must follow them (finding-first,
   every fact cited, every aligned source shown).
-- `coverage/README.md` + the three ledgers (`legacy-companion-map.csv`,
-  `dump-findings-map.csv`, `source-and-citation-map.csv`) and the checker
-  `tools/g13_coverage_check.py` — you add rows to these every increment (step 9);
-  the cutover gate is zero un-dispositioned items + zero untracked citation gaps.
+- `tools/plans/G-13 Refactor/02b-source-lossless-topic-assimilation.md` — the
+  source-lossless contract (§2), the tiered checker (§8), and the revised
+  authoring checkpoint (§9) this skill implements.
+- `research/people/_staging/g13-john-gurney/coverage/README.md` + the **four**
+  ledgers there (`legacy-companion-map.csv`, `dump-findings-map.csv`,
+  `source-and-citation-map.csv`, `supplemental-surfaces-map.csv`) and the
+  checker `tools/g13_coverage_check.py` — you add rows to these every increment
+  (step 9); the cutover gate is zero un-dispositioned items, zero untracked
+  citation gaps, and zero Plan 2b source-journey/parity gaps.
 
 ## Non-destructive invariant (Plan 02)
 Work only in `research/people/_staging/g13-john-gurney/`. Do **not** edit the live
@@ -40,6 +45,12 @@ expected; editing them is not (that happens only at an approved cutover).
    knows: `repo_search.py infile research/people/g13-john-gurney-fact-sheet.research.md --terms ...`
    for the topic, plus the relevant place/topic companions and the dump. Read the
    `manifest.json` to see which topics + item IDs already exist — never duplicate.
+   **Plan 2b §9: identify every input block routed to this topic across ALL
+   source-bearing surfaces** — legacy companion, dumps, the published fact sheet,
+   the case file, and the pre-existing G13 topic files (enumerated in Plan 2b
+   §3.3) — and inventory each block's complete source set before designing items.
+   A source may not vanish because it is derivative, duplicate, superseded,
+   discovery-only, or attached to a publication surface (Plan 2b §2).
 2. **Pick a bounded, well-sourced topic.** Prefer property/civic/record-coverage
    material over identity disambiguation (Cheny/Girny and same-person questions are
    "expensive and hard to reverse" — §18; leave them for a dedicated, reviewed pass).
@@ -76,10 +87,15 @@ expected; editing them is not (that happens only at an approved cutover).
 9. **Add coverage-ledger rows (do not skip — this is how the cutover gate closes).**
    For each legacy companion block and each dump finding this topic assimilated, add a
    row to `coverage/legacy-companion-map.csv` / `coverage/dump-findings-map.csv` with
-   its disposition, destination `topicId`, `G13-RI` ids, and source ids; add the unit's
-   cited `sourceId`s to `coverage/source-and-citation-map.csv` (Plan 02 §7, §11
-   checkpoint step 5). Then run `tools/g13_coverage_check.py` and confirm your rows land
-   and no new citation gap appears.
+   its disposition, destination `topicId`, `G13-RI` ids, and **complete** source ids
+   (semicolon-separated — the checker mechanically compares them against what the
+   frozen block actually cites); for fact-sheet/case-file/existing-topic blocks in
+   scope, add rows to `coverage/supplemental-surfaces-map.csv` with disposition,
+   friction, and mapped items; add the unit's cited `sourceId`s to
+   `coverage/source-and-citation-map.csv` (Plan 02 §7; Plan 2b §6, §9). A prose
+   citation deliberately carried without an item link in this unit needs a
+   `context_only`/`cross_unit` role on its citation-map row, or parity fails.
+   Then run `tools/g13_coverage_check.py` and check the per-increment gates below.
 10. **Update `manifest.json`** (new topic + its `researchItemIds`) and the staging
    `README.md`. Optionally show the increment through `context --terms <topic> --mode grounding`.
 
@@ -115,6 +131,70 @@ every increment**:
 - If the gate question ("is this materially smaller and as complete as loading the
   companion for the same task?") fails for the topic, stop and report rather than
   padding the graph.
+- **One `from_item` may carry several relations in a batch — this is supported.**
+  `item_revisions` still has a UNIQUE key on `(database_revision, item_id, change_kind)`,
+  and each `add_relation` writes one `update` intent for its `from_item`, so two
+  relations sharing a `from_item` produce two `update` intents for the same item. Those
+  intents are now *coalesced* into a single audit row (earliest `before`, latest `after`,
+  merged summary) in both `author-batch` and `--dry-run`, so a topic whose one evidence
+  item SUPPORTS several findings commits cleanly. `--dry-run` mirrors the write exactly:
+  its `would_write_revisions` and diff reflect the coalesced rows, and it surfaces an
+  `item_revision_collision` blocking error if any residual collision ever escapes
+  coalescing — so dry-run and commit can no longer disagree. No need to flip edges or
+  split the batch anymore.
+- **Write the topic `.md` file — with its `graph-marker` tokens — before the batch.**
+  Marker validation reads the unit file and requires exactly one Markdown token per
+  active marker (a blocking `marker_token_count_invalid` error otherwise). Author the
+  prose first, then the batch that registers the markers.
+- **`negative_result` items need a structured `negative_result_scope` per item.** Add a
+  `negative_result_scope` object to the item wrapper (sibling of `item`/`sources`) or the
+  dry-run blocks with `negative_result_scope_missing`. Columns: `provider`,
+  `collection_name`, `date_start?`, `date_end?`, `query_description`, `results_reviewed?`,
+  `coverage_confirmed` (0/1), and `limitations_json` (non-empty array). The stager inserts
+  the dict verbatim, so **`limitations_json` must be a pre-encoded JSON *string*, not a JSON
+  array** — a Python list fails at commit with `Error binding parameter 8: type 'list' is
+  not supported`. The item `statement` may summarize the scope but does not substitute for
+  the structured object.
+- **Controlled vocabularies live in schema CHECK constraints, not just `constants.py`.**
+  `bearing` ∈ {`direct`,`indirect`,`contextual`,`methodological`}; `strength` is free-ish
+  (`strong`/`moderate`/…); `SOURCE_ROLES`, `RELATION_TYPES`, `ITEM_KINDS`, marker roles
+  are in `constants.py`; confidence is a band label (`high`/`moderate-high`/`moderate`/…),
+  never numeric. `--dry-run` catches a bad enum, but check these first to avoid a retry.
+- **Reuse existing entities; don't recreate them.** Query `entities` first — the John
+  Gurney subject and the common place rows (e.g. `place-weymouth-massachusetts-usa`)
+  already exist, and re-creating one collides. Add an `entities` row only for a genuinely
+  new place/person.
+- **Leads: update through the tool with a distinguishable staging tag; never hand-edit.**
+  `research/future-research/research-leads.csv` is production, but an increment often
+  *resolves or advances* a lead (promotes a Status "tail" into a topic finding, gives a lead a
+  topic home). The agreed interim process is **non-destructive-by-tag**, not defer-to-cutover:
+  append a bracketed, greppable note via
+  `research_leads.py update L-### --append-status-note "[G13-STAGING <date>: <what> → <topicId> <RI ids>; reconcile at cutover]"`.
+  Rules: (1) always `--dry-run` first; the tool keeps a timestamped backup in the gitignored
+  `research/future-research/_local/backups/` (30-day retention) and git is the ultimate fallback.
+  (2) **Append only** — never overwrite existing Status, and **do not repoint `Source ref`** at a
+  staged path (the staged destination goes *inside* the bracket; `Source ref` stays production).
+  (3) The `[G13-STAGING …]` prefix is the staging↔production marker: `research_leads.py search
+  G13-STAGING` lists every lead a refactor increment touched. (4) The tool warns on Status
+  length/commas — accepted in the interim (index gets heavier; risk stays low). (5) Never rewrite
+  the CSV by hand or with an ad-hoc script. **At cutover**, review each `G13-STAGING`-tagged lead
+  (original + bracketed note both present, so the digest is reliable), then finalize via
+  `update`/`close` and strip the tag. Also keep the `L-###` discovery trail in the staged topic
+  footnote/HTML comments.
+- **Coverage checker is whole-refactor, not per-increment.** `g13_coverage_check.py`
+  will keep reporting `RESULT: FAIL — N un-dispositioned` and
+  `SOURCE-LOSSLESS: PENDING` until every topic is authored and remediated; that
+  global backlog is expected mid-refactor. Per increment (Plan 2b §8.6), confirm:
+  **0 citation gaps**, **0 unregistered**, **0 inventory** problems, and — for the
+  topics you touched — **0 `input_source_set_gaps`**, **0 `source_journey_gaps`**,
+  **0 `topic_graph_source_gaps`**, **0 `publication_mapping_gaps`**, no new
+  `friction_needs_decision`, and no backlog increase. Journey rows whose
+  destination topic is not yet staged report as *deferred*, not failed. A topic is
+  `increment-complete` when only broader-refactor backlog remains and
+  `source-lossless` when every input routed to it passes — record the status as
+  `coverageStatus` on its `manifest.json` entry. Multi-destination legacy
+  rows that you only partly assimilate stay backlog — annotate the sub-part in `notes`
+  rather than false-closing the row.
 
 ## See also
 - `.claude/skills/online-discovery-strategy/SKILL.md` — if the increment needs new

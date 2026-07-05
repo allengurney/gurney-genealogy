@@ -1,0 +1,35 @@
+<!--
+Staged G13 topic unit (Phase G3 increment, bounded). Co-authored with the
+canonical SQLite context graph; not yet promoted to research/people/.
+topicId: g13-colonial-material-life. Passage->item mapping lives in the graph's
+prose markers (the inline graph-marker tokens below), not in a header item list.
+Scope: the material texture of John's life read from his 1663 estate inventory
+(SPR Case #338) — the size and shape of the movable estate, the husbandry that
+held its value, the household goods, and the absence of any tailoring tool. The
+Quinapaug land line (frontier-rights), the creditor network (braintree-community),
+and the Goodman King debt (weymouth-community) are the estate's other facets and
+are treated in those units, not restated here.
+-->
+
+# Colonial material life
+
+**John Gurney's 1663 estate inventory portrays a modest colonial husbandman-tradesman: appraised in all at £55 14s 6d, its value lay overwhelmingly in livestock and the gear of a working farm, its household was sparse but sufficient, and — tellingly — it held not one tool of the tailoring trade the Braintree deeds name him by.** Taken at Braintree on 16 March 1663 by Gregory Belcher, Edmund Quincy, and Thomas Faxon, the inventory is the fullest single picture of how John actually lived; read line by line, its goods describe a man whose day-to-day capital was in oxen, swine, and plough-irons rather than the needle.[^inv][^nehgr12]
+
+## A small movable estate
+
+The appraised estate was entirely movable goods. Its £55 14s 6d total carries no valued real estate at all — no dwelling, land, or acreage line — because by March 1663 John had no realty to appraise: his principal farm was the leased Tyng tenancy he never owned, and the one freehold he had held outright, the Monatiquot house and orchard, he had sold to Richard Thayer for fourteen pounds in February 1661/2, the year before he died.[^inv] The lone land entry the appraisers could find was the unvalued frontier interest "an estate layd out in land at Quinapaug wch we know not," which they recorded but could not price.[^inv] Against the £55 14s 6d of goods the estate owed roughly £37 12s in debts, so the net was small — the estate of a man of modest means, its whole worth in the animals, tools, grain, and household stuff the three neighbours walked through and valued.[^inv][^nehgr12]<!-- graph-marker: G13-PM-000014 -->
+
+## Wealth in livestock and the working farm
+
+Nearly two-thirds of the estate stood on four legs. The livestock alone came to £34 of the £55 14s 6d: a horse at £9 10s and a yoke of oxen at £12 10s (£22 together), three sows with six pigs at £6, and two young cattle — a heifer and a steer at £3 apiece — at another £6.[^inv] Around the animals stood the equipment of a mixed farm: a pair of plough-irons, a coulter, two axes, a mattock, and a chisel (£1 10s), and "a pair wheels with axeltree" and an old barrow for carting (6s 6d).[^inv] The barns were provisioned too — five bushels of wheat (£1 7s 6d) and twenty-five bushels of Indian corn (£3 3s), with grain-boxes, hoops, and old tubs to store them (17s).[^inv] Taken together the husbandry — beasts, plough-gear, cart, and stored grain — accounts for something close to three-quarters of the whole estate, the clearest measure that John's working wealth was in farming, whatever his nominal trade.[^inv]<!-- graph-marker: G13-PM-000015 -->
+
+## A sparse household
+
+Indoors the goods were modest and few. John's single most valuable possession was his own clothing — "wearing cloaths a pair boots & hat" at £4 5s, worth more than all his household metal and furniture combined.[^inv] The bedding came next: a bed with covering blanket, three pillows, and two cases at £2 12s.[^inv] Beyond that the house held little — a small stock of pewter with a brass skillet and kettle (and a pair of pincers) at 14s 6d, a single cupboard at 8s, "a chaire and other frame," two barrels, and a pair of trays at 16s 6d.[^inv] A musket valued at 12s hung among the household goods, the ordinary arms every colonial householder kept rather than any mark of service.[^inv] There is no plate, no glass, no books, no surplus furniture — a working household furnished to sufficiency and no further.[^inv]<!-- graph-marker: G13-PM-000016 -->
+
+## A tailor without tools
+
+The inventory's sharpest silence is occupational: it holds no tool of the tailoring trade. John is styled "John Gurney, tailor" in his own 1661/2 conveyance of the Monatiquot homestead, yet the appraisal taken two years later records no shears, needles, thimble, pressing- or goose-iron, yard-measure, or stock of cloth or fabric — none of the small, valuable, easily itemized equipment a working tailor's estate would carry.[^inv] (The "pincers" listed beside the pewter are a general household or smith's tool, not a tailor's implement.) The absence does not unsay the trade — the deed is direct evidence he was a tailor — but it qualifies how central the needle was to his late-life economy: by 1663 his capital sat in land-rights and livestock, and whatever trade equipment he once worked with had left the estate, whether sold with the Monatiquot house, passed to a son, worn out, or simply fallen below the appraisers' notice.[^inv] The material record of his last years is a farmer's, not a tailor's.[^inv]<!-- graph-marker: G13-PM-000017 -->
+
+[^inv]: Suffolk County, Massachusetts, Probate Records, Case #338, "An Inventory of the goods & estate of John Gurney Senr Deceased," Braintree, 16 March 1663; taken by Gregory Belcher, Edmund Quincy (Quinsey), and Thomas Faxon; manuscript image (file `102840311_00516.jpg`). Line values as transcribed: wearing clothes/boots/hat £4 5s; bedding, blanket, 3 pillows, 2 cases £2 12s; pewter, pincers, brass skillet & kettle 14s 6d; cupboard 8s & musket 12s; plough-irons, coulter, 2 axes, mattock, chisel £1 10s; chair & other frame, 2 barrels, pair trays 16s 6d; 5 bush. wheat £1 7s 6d; 16 bush. Indian at 2s 3d + 9 bush. at 3s = £3 3s; grain-boxes, hoops & 2 old tubs 17s; horse £9 10s & yoke of oxen £12 10s = £22; 3 sows with 6 pigs £6; 2 young cattle (heifer & steer at £3) £6; old barrow, pair wheels with axeltree 6s 6d; "an estate layd out in land at Quinapaug wch we know not" (unvalued); total £55 14s 6d. The "John Gurney, tailor" style is from his 12 February 1661/2 conveyance to Richard Thayer (treated in [03-braintree-community.md](03-braintree-community.md)). Working transcription and analysis at [`sources/corpus_supplement/john-gurney-probate-inventory-spr-case-338.md`](../../../../../../sources/corpus_supplement/john-gurney-probate-inventory-spr-case-338.md). Source ID: `spr-case-338-john-gurney-probate-1663`.
+[^nehgr12]: "Suffolk Wills," *New England Historical and Genealogical Register*, vol. 12 (1858), p. 53 (John Gurney estate abstract: appraisers Gregory Belcher, Edmund Quincy, Thomas Faxon; total £55 14s 6d; debts due from the estate). The printed abstract carries the total, the appraisers, and the debtor names but not the line-item goods or the Quinapaug land line, which survive only in the manuscript. Source ID: `nehgr-12-suffolk-wills-1858`.

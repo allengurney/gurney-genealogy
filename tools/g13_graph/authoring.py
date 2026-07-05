@@ -44,6 +44,7 @@ from .editor import (
     ValidationBlocked,
     _blocking_error_keys,
     _diff_for_intents,
+    coalesce_revision_intents,
 )
 from .lifecycle import PostCommitRefreshError, refresh_after_commit
 from .revisions import advance_revision, record_item_revision
@@ -216,6 +217,23 @@ def _stage(connection: Any, config: GraphConfig, batch: dict[str, Any], ts: str,
     return intents, marker_intents
 
 
+def _revision_collisions(intents: list[Any]) -> list[dict[str, Any]]:
+    """Report any residual ``(item_id, change_kind)`` collision in a coalesced
+    intent list. Coalescing guarantees uniqueness, so this normally returns
+    nothing — it exists so preview can never silently diverge from commit if a
+    future code path fails to coalesce."""
+    seen: set[tuple[str, str]] = set()
+    collisions: list[dict[str, Any]] = []
+    for intent in intents:
+        key = (intent.item_id, intent.change_kind)
+        if key in seen:
+            collisions.append(
+                {"code": "item_revision_collision", "record_id": intent.item_id}
+            )
+        seen.add(key)
+    return collisions
+
+
 def preview_batch(config: GraphConfig, batch: dict[str, Any]) -> dict[str, Any]:
     """Stage the whole batch, validate, compute the item diff, then roll back.
     Nothing is committed — the built-in dry run."""
@@ -232,6 +250,17 @@ def preview_batch(config: GraphConfig, batch: dict[str, Any]) -> dict[str, Any]:
             issues = issues_as_dicts(validate_connection(connection, config, include_recovery=False))
             new_keys = _blocking_error_keys(connection, config) - before
             blocking = [dict(zip(("code", "record_id"), key)) for key in sorted(new_keys)]
+
+            # Mirror the write path exactly: author_batch coalesces intents that
+            # share (item_id, change_kind) into one item_revisions row. Preview
+            # must fold them the same way, or the dry run reports a revision count
+            # and diff that commit never produces.
+            intents = coalesce_revision_intents(intents)
+            # Guard: after coalescing every (item_id, change_kind) must be unique
+            # within the revision, matching item_revisions' UNIQUE constraint. If a
+            # collision somehow survives, surface it as a blocking error so dry-run
+            # and commit can never disagree again.
+            blocking.extend(_revision_collisions(intents))
 
             class _S:
                 revisions = intents
@@ -284,6 +313,12 @@ def author_batch(
                 raise ValidationBlocked(
                     [dict(zip(("code", "record_id"), key)) for key in sorted(new_keys)]
                 )
+            # Fold intents sharing (item_id, change_kind) into one row so a topic
+            # whose evidence item supports several findings writes a single
+            # item_revisions row per item/kind instead of colliding on the UNIQUE
+            # (database_revision, item_id, change_kind) key. Delta-blocking above
+            # is unchanged; this only affects how the audit rows are recorded.
+            intents = coalesce_revision_intents(intents)
             for intent in intents:
                 record_item_revision(
                     connection,

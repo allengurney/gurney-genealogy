@@ -59,13 +59,52 @@ function banner(msg, kind) {
 }
 
 function pick(name, current, opts) {
-  const s = el("select", {}, [el("option", { value: "" }, "—")]);
+  const s = el("select", { "aria-label": name }, [el("option", { value: "" }, "—")]);
   for (const v of (opts || state.picklists[name] || [])) {
     const o = el("option", { value: v }, v);
     if (v === current) o.selected = true;
     s.appendChild(o);
   }
   return s;
+}
+
+// presentation-only class helpers (values come from fixed picklists)
+function kindClass(kind) { return "kind-" + String(kind || "").replace(/[^a-z_]/g, ""); }
+function relTypeClass(t) {
+  if (["SUPPORTS", "PUBLISHED_AS"].includes(t)) return "pos";
+  if (["CONTRADICTS", "ELIMINATES", "DISTINCT_FROM"].includes(t)) return "neg";
+  if (["QUALIFIES", "REQUIRES_REVIEW_OF", "SUPERSEDES"].includes(t)) return "mid";
+  return "neutral";
+}
+function roleClass(role) {
+  if (role === "supports") return "pos";
+  if (role === "contradicts") return "neg";
+  if (["qualifies", "negative_within_scope"].includes(role)) return "mid";
+  return "";
+}
+
+async function copyText(text, label) {
+  try {
+    await navigator.clipboard.writeText(text);
+    banner((label || "Copied") + " to clipboard.", "ok");
+  } catch (_) {
+    banner("Clipboard unavailable — select and copy manually.", "warn");
+  }
+}
+
+// arrow-key navigation within an item list; Enter/Space opens the focused row
+function listKeydown(e) {
+  const li = e.target.closest("li");
+  if (!li) return;
+  if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+    e.preventDefault();
+    const next = e.key === "ArrowDown" ? li.nextElementSibling : li.previousElementSibling;
+    if (next) next.focus();
+  } else if (e.key === "Enter" || e.key === " ") {
+    if (e.target.tagName === "INPUT") return; // let checkboxes toggle natively
+    e.preventDefault();
+    li.click();
+  }
 }
 
 // ------------------------------------------------------------------ status
@@ -89,8 +128,10 @@ function renderStatus() {
   if (s.database_ahead_of_recovery) notes.push("DB is AHEAD of the recovery export — unsafe-backup state; refresh the export.");
   if (s.database_ahead_of_snapshot) notes.push("DB is ahead of the latest milestone snapshot — consider a snapshot.");
   if (s.source_registry_state && s.source_registry_state !== "current") notes.push("source_registry is " + s.source_registry_state + ".");
+  // don't clobber a fresh success/error banner; the metrics chips carry the
+  // same state, so the note banner only fills an otherwise-empty slot
   const b = $("#banner");
-  if (notes.length && b.className.indexOf("err") === -1) {
+  if (notes.length && (b.classList.contains("hidden") || b.className.indexOf("warn") !== -1)) {
     b.className = "banner warn"; b.textContent = notes.join("  •  "); b.classList.remove("hidden");
   }
 }
@@ -112,8 +153,8 @@ function renderFilters() {
   const form = $("#filters");
   form.innerHTML = "";
   form.appendChild(el("input", {
-    class: "full", type: "text", placeholder: "text / id filter…",
-    value: state.filters.q || "",
+    class: "full", type: "text", placeholder: "text / id filter…  ( / )",
+    "aria-label": "Text or id filter", value: state.filters.q || "",
     oninput: (e) => { state.filters.q = e.target.value; debouncedLoad(); },
   }));
   for (const [key, plist] of FILTER_FIELDS) {
@@ -161,41 +202,54 @@ function queryString(obj) {
 }
 
 function itemLi(it, onClick) {
-  const li = el("li", { class: it.item_id === state.selectedId ? "selected" : "" }, [
+  const selected = it.item_id === state.selectedId;
+  const li = el("li", {
+    class: (selected ? "selected " : "") + kindClass(it.item_kind),
+    tabindex: "0", role: "option", "aria-selected": selected ? "true" : "false",
+  }, [
     el("div", { class: "row1" }, [
-      el("span", { class: "kind" }, it.item_kind),
+      el("span", { class: "kind " + kindClass(it.item_kind) }, it.item_kind),
       el("span", { class: "id" }, it.item_id),
       el("span", { class: "chip vis-" + it.visibility }, it.visibility),
       it.status && it.status !== "active" ? el("span", { class: "chip st-" + it.status }, it.status) : null,
       it.review_state === "machine_suggested" ? el("span", { class: "chip rev-machine_suggested" }, "machine") : null,
-      el("span", { class: "counts" },
+      el("span", { class: "counts", title: "sources · relations · publications" },
         `${it.source_count ?? 0}s · ${it.relation_count ?? 0}r · ${it.publication_count ?? 0}p`),
     ]),
     el("div", { class: "stmt" }, short(it.short_label || it.statement)),
   ]);
+  li.dataset.id = it.item_id;
   li.addEventListener("click", () => onClick(it.item_id));
   return li;
 }
 
 async function loadItems() {
-  const data = await apiGet("/api/items" + queryString(state.filters));
+  let data;
+  try { data = await apiGet("/api/items" + queryString(state.filters)); }
+  catch (e) { banner("Loading items failed: " + e.message, "err"); return; }
   $("#items-meta").textContent = `${data.count} of ${data.total_items} items`;
   const list = $("#item-list");
   list.innerHTML = "";
   for (const it of data.items) list.appendChild(itemLi(it, selectItem));
+  if (!data.items.length) list.appendChild(el("li", { class: "emptylist" }, "No items match the current filters."));
 }
 
 // ------------------------------------------------------------------ detail
 async function selectItem(id) {
   state.selectedId = id;
   document.querySelectorAll("#item-list li, #queue-list li, #search-list li")
-    .forEach((li) => li.classList.remove("selected"));
-  const detail = await apiGet("/api/item/" + encodeURIComponent(id));
+    .forEach((li) => { li.classList.remove("selected"); li.setAttribute("aria-selected", "false"); });
+  let detail;
+  try { detail = await apiGet("/api/item/" + encodeURIComponent(id)); }
+  catch (e) { banner("Loading " + id + " failed: " + e.message, "err"); return; }
   renderDetail(detail);
+  // deep-linkable selection (also lets an AI session see what is on screen)
+  if (location.hash !== "#item/" + id) history.replaceState(null, "", "#item/" + id);
   // reflect selection in visible lists
   document.querySelectorAll(".itemlist li").forEach((li) => {
-    if (li.dataset && li.dataset.id === id) li.classList.add("selected");
+    if (li.dataset && li.dataset.id === id) { li.classList.add("selected"); li.setAttribute("aria-selected", "true"); }
   });
+  $("#right").scrollTop = 0;
 }
 
 function card(title, extraHeader, body) {
@@ -213,23 +267,33 @@ function kv(pairs) {
 }
 
 function renderDetail(it) {
+  state.currentDetail = it;
   const root = $("#detail");
   root.className = "detail";
   root.innerHTML = "";
 
-  root.appendChild(el("h2", {}, it.short_label || short(it.statement, 90)));
-  root.appendChild(el("div", { class: "sub" }, [
-    it.item_id + " · " + it.item_kind,
-    el("span", {}, "  "),
-    el("a", { class: "link", onclick: () => undoItem(it.item_id) }, "undo last"),
-    el("span", {}, "  "),
-    el("a", { class: "link", onclick: () => retireItem(it.item_id) }, "retire"),
+  root.appendChild(el("div", { class: "detail-head" }, [
+    el("h2", {}, it.short_label || short(it.statement, 90)),
+    el("div", { class: "headactions" }, [
+      el("button", { class: "small", title: "Copy the item id", onclick: () => copyText(it.item_id, it.item_id) }, "Copy id"),
+      el("button", { class: "small", title: "Copy a self-contained context block for an AI session", onclick: () => copyText(buildAIContext(it), "AI context for " + it.item_id) }, "Copy AI context"),
+      el("button", { class: "small", title: "Revert this item to its previous audited state", onclick: () => undoItem(it.item_id) }, "Undo last"),
+      el("button", { class: "small danger", title: "Soft-delete: mark rejected, kept in the audit trail", onclick: () => retireItem(it.item_id) }, "Retire"),
+    ]),
+  ]));
+  root.appendChild(el("div", { class: "headchips" }, [
+    el("span", { class: "kind " + kindClass(it.item_kind) }, it.item_kind),
+    el("span", { class: "id" }, it.item_id),
+    el("span", { class: "chip vis-" + it.visibility }, it.visibility),
+    it.status && it.status !== "active" ? el("span", { class: "chip st-" + it.status }, it.status) : el("span", { class: "chip" }, it.status || "—"),
+    el("span", { class: "chip", title: "assessment confidence" }, it.assessment_confidence_label || "no confidence"),
+    el("span", { class: "chip" + (it.review_state === "machine_suggested" ? " rev-machine_suggested" : ""), title: "review state" }, it.review_state),
   ]));
 
   // publication readiness advisory
   const pr = it.publication_readiness || {};
   if ((pr.export_blockers || []).length || pr.excerpt_decisions_pending) {
-    root.appendChild(el("div", { class: "banner warn", style: "border-radius:6px;margin-bottom:10px" },
+    root.appendChild(el("div", { class: "advisory" },
       "Publication decisions pending before static export: " +
       ((pr.export_blockers || []).join(" ") || `${pr.excerpt_decisions_pending} excerpt decision(s).`)));
   }
@@ -313,36 +377,78 @@ function renderEditCard(it) {
   return card("Edit fields", null, [grid, el("div", { class: "inline-actions" }, [save])]);
 }
 
+// self-contained markdown block describing the on-screen item, for pasting
+// into an AI (Claude) session; presentation-only, built from /api/item data
+function buildAIContext(it) {
+  const L = [];
+  const add = (s) => L.push(s);
+  add(`## G13 graph item ${it.item_id} (${it.item_kind})`);
+  if (state.status) add(`Database: ${state.status.database_path} (rev ${state.status.database_revision})`);
+  add(`Editor: http://${location.host}/#item/${it.item_id} · JSON: GET http://${location.host}/api/item/${encodeURIComponent(it.item_id)}`);
+  add("");
+  add(`**Statement:** ${it.statement || "—"}`);
+  if (it.short_label) add(`**Short label:** ${it.short_label}`);
+  if (it.summary) add(`**Summary:** ${it.summary}`);
+  add(`**Status:** ${it.status} · confidence ${it.assessment_confidence_label || "—"} · visibility ${it.visibility} · review ${it.review_state} · provenance ${it.provenance_origin}`);
+  if (it.research_path) add(`**Research location:** ${it.research_path}${it.research_heading ? " #" + it.research_heading : ""}`);
+  if (it.subject_entity) add(`**Subject entity:** ${it.subject_entity_id} (${it.subject_entity.canonical_label})`);
+  if (it.notes) add(`**Notes:** ${it.notes}`);
+  const srcs = it.sources || [];
+  if (srcs.length) {
+    add("");
+    add("**Sources:**");
+    for (const s of srcs) add(`- [${s.role}] ${s.source_id}${s.locator ? " @ " + s.locator : ""}${s.evidence_excerpt ? ` — "${s.evidence_excerpt}"` : ""}`);
+  }
+  const rels = [
+    ...(it.outgoing_relations || []).map((r) => `- this → ${r.relation_type} → ${r.to_item_id}${r.explanation ? ` (${r.explanation})` : ""}`),
+    ...(it.incoming_relations || []).map((r) => `- ${r.from_item_id} → ${r.relation_type} → this${r.explanation ? ` (${r.explanation})` : ""}`),
+  ];
+  if (rels.length) { add(""); add("**Relations:**"); L.push(...rels); }
+  const ents = it.entities || [];
+  if (ents.length) { add(""); add("**Linked entities:**"); for (const e of ents) add(`- [${e.role}] ${e.entity_id} (${e.canonical_label || ""})`); }
+  const dates = it.dates || [];
+  if (dates.length) { add(""); add("**Dates:**"); for (const d of dates) add(`- [${d.date_role}] ${d.original_display || ""} [${d.precision}] plausible ${d.plausible_start || "?"}–${d.plausible_end || "?"}`); }
+  const pubs = it.publications || [];
+  if (pubs.length) { add(""); add("**Publication mappings:**"); for (const p of pubs) add(`- [${p.status}] ${p.publication_path}${p.heading_id ? " #" + p.heading_id : ""}${p.assertion_summary ? " — " + p.assertion_summary : ""}`); }
+  const dups = it.duplicate_candidates || [];
+  if (dups.length) { add(""); add("**Possible duplicates:**"); for (const d of dups) add(`- ${d.item_id} (${d.similarity}) ${d.short_label || short(d.statement, 80)}`); }
+  add("");
+  add("Changes go through the transactional editor ops (update_item, supersede_item, create_item, add/remove_relation, add/remove_source_link, …) via `tools/g13_graph/editor.py` / `tools/g13_graph.py author-batch` against the database above — never by editing SQLite rows directly.");
+  return L.join("\n");
+}
+
 function renderSourcesCard(it) {
   const rows = (it.sources || []).map((s) =>
     el("div", { class: "src" }, [
-      el("span", { class: "chip" }, s.role),
+      el("span", { class: "chip " + roleClass(s.role) }, s.role),
       el("a", { class: "link mono", onclick: () => openNeighborhood("source", s.source_id) }, s.source_id),
-      el("span", { class: "muted" }, s.locator || ""),
-      s.evidence_excerpt ? el("span", { class: "excerpt" }, "“" + short(s.evidence_excerpt, 80) + "”") : null,
-      s.evidence_excerpt && !s.excerpt_publishable ? el("span", { class: "warnflag" }, " (not publishable)") : null,
-      el("span", { class: "spacer", style: "margin-left:auto" }),
-      el("a", { class: "link", onclick: () => stageChange({ op: "remove_source_link", params: { item_source_id: s.item_source_id } }) }, "remove"),
+      s.locator ? el("span", { class: "muted" }, s.locator) : null,
+      el("span", { class: "pushright" }),
+      el("a", { class: "link", "aria-label": "Remove source link " + s.source_id, onclick: () => stageChange({ op: "remove_source_link", params: { item_source_id: s.item_source_id } }) }, "remove"),
+      s.evidence_excerpt ? el("div", { class: "excerpt-line" }, [
+        el("span", { class: "excerpt" }, "“" + short(s.evidence_excerpt, 220) + "”"),
+        !s.excerpt_publishable ? el("span", { class: "warnflag" }, " (excerpt not publishable)") : null,
+      ]) : null,
     ]));
-  return card("Sources", el("button", { onclick: () => addSourceForm(it) }, "+ source"),
+  return card("Sources", el("button", { class: "small", onclick: () => addSourceForm(it) }, "+ source"),
     rows.length ? rows : [el("div", { class: "muted" }, "No source links.")]);
 }
 
 function renderRelationsCard(it) {
   const mk = (r, dir) => el("div", { class: "rel" }, [
-    el("span", { class: "muted" }, dir === "out" ? "→" : "←"),
-    el("span", { class: "rtype" }, r.relation_type),
+    el("span", { class: "muted", title: dir === "out" ? "outgoing" : "incoming", "aria-label": dir === "out" ? "outgoing" : "incoming" }, dir === "out" ? "→" : "←"),
+    el("span", { class: "rtype " + relTypeClass(r.relation_type) }, r.relation_type),
     el("a", { class: "link mono", onclick: () => selectItem(dir === "out" ? r.to_item_id : r.from_item_id) },
       dir === "out" ? r.to_item_id : r.from_item_id),
     el("span", { class: "chip" }, r.strength),
-    r.explanation ? el("span", { class: "muted" }, short(r.explanation, 60)) : null,
-    el("span", { style: "margin-left:auto" }),
-    el("a", { class: "link", onclick: () => stageChange({ op: "remove_relation", params: { from_item_id: r.from_item_id, relation_type: r.relation_type, to_item_id: r.to_item_id } }) }, "remove"),
+    r.explanation ? el("span", { class: "muted" }, short(r.explanation, 80)) : null,
+    el("span", { class: "pushright" }),
+    el("a", { class: "link", "aria-label": "Remove relation " + r.relation_type, onclick: () => stageChange({ op: "remove_relation", params: { from_item_id: r.from_item_id, relation_type: r.relation_type, to_item_id: r.to_item_id } }) }, "remove"),
   ]);
   const out = (it.outgoing_relations || []).map((r) => mk(r, "out"));
   const inc = (it.incoming_relations || []).map((r) => mk(r, "in"));
   const body = [...out, ...inc];
-  return card("Relations", el("button", { onclick: () => addRelationForm(it) }, "+ relation"),
+  return card("Relations", el("button", { class: "small", onclick: () => addRelationForm(it) }, "+ relation"),
     body.length ? body : [el("div", { class: "muted" }, "No relations.")]);
 }
 
@@ -355,7 +461,7 @@ function renderEntitiesCard(it) {
       el("span", { style: "margin-left:auto" }),
       el("a", { class: "link", onclick: () => stageChange({ op: "remove_entity_link", params: { item_id: it.item_id, entity_id: e.entity_id, role: e.role } }) }, "remove"),
     ]));
-  return card("Linked entities", el("button", { onclick: () => addEntityForm(it) }, "+ entity"),
+  return card("Linked entities", el("button", { class: "small", onclick: () => addEntityForm(it) }, "+ entity"),
     rows.length ? rows : [el("div", { class: "muted" }, "No linked entities.")]);
 }
 
@@ -370,9 +476,9 @@ function renderDatesCard(it) {
 
 function renderNegativeCard(it) {
   const n = it.negative_result_scope;
-  if (!n) return card("Negative-result scope", el("button", { onclick: () => negativeScopeForm(it) }, "set scope"),
+  if (!n) return card("Negative-result scope", el("button", { class: "small", onclick: () => negativeScopeForm(it) }, "set scope"),
     [el("div", { class: "badflag" }, "No scope recorded — required for a negative_result.")]);
-  return card("Negative-result scope", el("button", { onclick: () => negativeScopeForm(it) }, "edit scope"), [
+  return card("Negative-result scope", el("button", { class: "small", onclick: () => negativeScopeForm(it) }, "edit scope"), [
     kv([
       ["provider", n.provider],
       ["collection", n.collection_name],
@@ -397,7 +503,7 @@ function renderPublicationsCard(it) {
   const flag = pr.export_ready
     ? el("span", { class: "goodflag" }, "export-ready")
     : el("span", { class: "warnflag" }, "decisions pending");
-  return card("Publication impact", [flag, el("button", { onclick: () => addPublicationForm(it) }, "+ mapping")],
+  return card("Publication impact", [flag, el("button", { class: "small", onclick: () => addPublicationForm(it) }, "+ mapping")],
     rows.length ? rows : [el("div", { class: "muted" }, "No publication mappings.")]);
 }
 
@@ -533,29 +639,54 @@ function retireItem(id) {
 
 // ------------------------------------------------------------------ autocomplete
 function autocompleteInput(endpoint, listKey, idKey, labelKey) {
-  const input = el("input", { type: "text", placeholder: "type to search…", autocomplete: "off" });
-  const listDiv = el("div", { class: "ac-list hidden" });
+  const input = el("input", {
+    type: "text", placeholder: "type to search…", autocomplete: "off",
+    role: "combobox", "aria-expanded": "false", "aria-autocomplete": "list",
+  });
+  const listDiv = el("div", { class: "ac-list hidden", role: "listbox" });
   const wrap = el("div", { class: "ac-wrap" }, [input, listDiv]);
   let chosen = "";
   let timer = null;
+  const hide = () => { listDiv.classList.add("hidden"); input.setAttribute("aria-expanded", "false"); };
+  const choose = (d) => { input.value = d.dataset.id; chosen = d.dataset.id; hide(); };
   input.addEventListener("input", () => {
     chosen = input.value.trim();
     clearTimeout(timer);
     timer = setTimeout(async () => {
-      if (input.value.trim().length < 1) { listDiv.classList.add("hidden"); return; }
+      if (input.value.trim().length < 1) { hide(); return; }
       const data = await apiGet(endpoint + "?q=" + encodeURIComponent(input.value.trim()));
       listDiv.innerHTML = "";
       for (const row of (data[listKey] || []).slice(0, 15)) {
-        const d = el("div", {}, `${row[idKey]} — ${short(row[labelKey] || "", 50)}`);
-        d.addEventListener("click", () => {
-          input.value = row[idKey]; chosen = row[idKey]; listDiv.classList.add("hidden");
-        });
+        const d = el("div", { role: "option" }, `${row[idKey]} — ${short(row[labelKey] || "", 50)}`);
+        d.dataset.id = row[idKey];
+        d.addEventListener("click", () => choose(d));
         listDiv.appendChild(d);
       }
-      listDiv.classList.toggle("hidden", listDiv.childElementCount === 0);
+      const open = listDiv.childElementCount > 0;
+      listDiv.classList.toggle("hidden", !open);
+      input.setAttribute("aria-expanded", open ? "true" : "false");
     }, 200);
   });
-  input.addEventListener("blur", () => setTimeout(() => listDiv.classList.add("hidden"), 200));
+  input.addEventListener("keydown", (e) => {
+    if (listDiv.classList.contains("hidden")) return;
+    const options = [...listDiv.children];
+    const activeIdx = options.findIndex((d) => d.classList.contains("active"));
+    if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+      e.preventDefault();
+      const next = e.key === "ArrowDown"
+        ? Math.min(activeIdx + 1, options.length - 1)
+        : Math.max(activeIdx - 1, 0);
+      options.forEach((d, i) => d.classList.toggle("active", i === next));
+      options[next].scrollIntoView({ block: "nearest" });
+    } else if (e.key === "Enter" && activeIdx >= 0) {
+      e.preventDefault();
+      choose(options[activeIdx]);
+    } else if (e.key === "Escape") {
+      e.stopPropagation();
+      hide();
+    }
+  });
+  input.addEventListener("blur", () => setTimeout(hide, 200));
   return { node: wrap, value: () => chosen || input.value.trim() };
 }
 
@@ -576,33 +707,59 @@ function showModal(change, preview) {
   const body = $("#modal-body");
   body.innerHTML = "";
 
-  if (preview.blocking_errors && preview.blocking_errors.length) {
-    const block = el("div", { class: "blocklist" }, [el("b", {}, "Blocked — this change introduces validation errors:")]);
+  const blocked = !!(preview.blocking_errors && preview.blocking_errors.length);
+  if (blocked) {
+    const block = el("div", { class: "blocklist", role: "alert" },
+      [el("b", {}, "✕ Blocked — this change introduces validation errors:")]);
     for (const b of preview.blocking_errors)
-      block.appendChild(el("div", {}, `• ${b.code}${b.record_id ? " (" + b.record_id + ")" : ""}`));
+      block.appendChild(el("div", {}, `• ${b.code}${b.record_id ? " (" + b.record_id + ")" : ""}${b.message ? " — " + b.message : ""}`));
     body.appendChild(block);
   }
 
   for (const d of preview.diff || []) {
-    body.appendChild(el("div", { class: "diffrow" }, [
-      el("b", {}, `${d.item_id} — ${d.change_kind}: `), d.summary || "",
+    body.appendChild(el("div", { class: "diffhead" }, [
+      el("span", { class: "mono" }, d.item_id), el("b", {}, ` ${d.change_kind}`),
+      d.summary ? el("span", { class: "muted" }, " — " + d.summary) : null,
     ]));
     for (const fc of d.field_changes || []) {
-      body.appendChild(el("div", { class: "diffrow diff-before" }, `− ${fc.field}: ${fmtVal(fc.before)}`));
-      body.appendChild(el("div", { class: "diffrow diff-after" }, `+ ${fc.field}: ${fmtVal(fc.after)}`));
+      body.appendChild(el("div", { class: "diffrow diff-before" }, `− ${fc.field}  ${fmtVal(fc.before)}`));
+      body.appendChild(el("div", { class: "diffrow diff-after" }, `+ ${fc.field}  ${fmtVal(fc.after)}`));
     }
   }
-  if (!(preview.diff || []).length && !(preview.blocking_errors || []).length)
+  if (!(preview.diff || []).length && !blocked)
     body.appendChild(el("div", { class: "muted" }, "No item-field changes (structural or reference-data edit)."));
+
+  // publication-readiness advisory: warn when the edited item is already
+  // mapped into published prose, so re-wording is a conscious decision
+  const cur = state.currentDetail;
+  const targetId = change.params ? change.params.item_id : null;
+  if (cur && targetId === cur.item_id) {
+    const pubs = cur.publications || [];
+    const pr = cur.publication_readiness || {};
+    const notes = [];
+    if (pubs.length) notes.push(`This item is mapped to ${pubs.length} publication location(s); check the prose still matches after this change.`);
+    if ((pr.export_blockers || []).length || pr.excerpt_decisions_pending) notes.push("Publication decisions are still pending for this item.");
+    if (notes.length) body.appendChild(el("div", { class: "warnpanel" }, notes.join(" ")));
+  }
 
   const errs = (preview.validation_issues || []).filter((i) => i.severity === "error");
   const warns = (preview.validation_issues || []).filter((i) => i.severity === "warning");
+  if (warns.length) {
+    const panel = el("div", { class: "warnpanel" }, [el("b", {}, `Advisory — ${warns.length} warning(s) after this change (do not block):`)]);
+    for (const w of warns.slice(0, 8))
+      panel.appendChild(el("div", {}, `• ${w.code}${w.record_id ? " (" + w.record_id + ")" : ""}`));
+    if (warns.length > 8) panel.appendChild(el("div", { class: "muted" }, `… and ${warns.length - 8} more`));
+    body.appendChild(panel);
+  }
   body.appendChild(el("div", { class: "issuelist", style: "margin-top:8px" },
-    `Post-change validation: ${errs.length} error(s), ${warns.length} warning(s).`));
+    `Post-change validation: ${errs.length} error(s)` +
+    (errs.length && !blocked ? " (pre-existing, not introduced by this change)" : "") +
+    `, ${warns.length} warning(s).`));
 
   const commitBtn = $("#modal-commit");
   commitBtn.disabled = !preview.can_commit;
   commitBtn.onclick = async () => {
+    commitBtn.disabled = true;
     try {
       const res = await apiPost("/api/commit", change);
       closeModal();
@@ -610,6 +767,7 @@ function showModal(change, preview) {
       else banner("Committed r" + res.database_revision + " · " + (res.summary || ""), "ok");
       await afterCommit(res);
     } catch (e) {
+      commitBtn.disabled = !preview.can_commit;
       if (e.status === 409) {
         banner("Commit blocked by validation.", "err");
       } else {
@@ -617,13 +775,37 @@ function showModal(change, preview) {
       }
     }
   };
-  $("#modal-backdrop").classList.remove("hidden");
+  openModal(blocked);
 }
-function closeModal() { $("#modal-backdrop").classList.add("hidden"); }
+
+let modalReturnFocus = null;
+function openModal(blocked) {
+  modalReturnFocus = document.activeElement;
+  $("#modal-backdrop").classList.remove("hidden");
+  // focus the safe default: Commit when allowed, Discard when blocked
+  (blocked ? $("#modal-cancel") : $("#modal-commit")).focus();
+}
+function closeModal() {
+  $("#modal-backdrop").classList.add("hidden");
+  if (modalReturnFocus && document.contains(modalReturnFocus)) modalReturnFocus.focus();
+  modalReturnFocus = null;
+}
+function modalKeydown(e) {
+  if ($("#modal-backdrop").classList.contains("hidden")) return;
+  if (e.key === "Escape") { e.preventDefault(); closeModal(); return; }
+  if (e.key !== "Tab") return;
+  // keep Tab cycling inside the dialog
+  const focusable = [...$("#modal-backdrop").querySelectorAll("button, [href], input, select, textarea, [tabindex]")]
+    .filter((n) => !n.disabled && n.offsetParent !== null);
+  if (!focusable.length) return;
+  const first = focusable[0], last = focusable[focusable.length - 1];
+  if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+  else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+}
 function fmtVal(v) {
   if (v === null || v === undefined) return "∅";
-  if (typeof v === "object") return short(JSON.stringify(v), 120);
-  return short(String(v), 120);
+  if (typeof v === "object") return short(JSON.stringify(v), 400);
+  return short(String(v), 400);
 }
 
 async function afterCommit(res) {
@@ -698,16 +880,17 @@ async function loadQueue() {
   list.innerHTML = "";
   state.queueSelection.clear();
   for (const it of data.queue) {
-    const cb = el("input", { type: "checkbox" });
+    const cb = el("input", { type: "checkbox", "aria-label": "Select " + it.item_id + " for batch review", style: "width:auto" });
     cb.addEventListener("click", (e) => { e.stopPropagation(); if (cb.checked) state.queueSelection.add(it.item_id); else state.queueSelection.delete(it.item_id); });
-    const li = el("li", {}, [
-      el("div", { class: "row1" }, [cb, el("span", { class: "kind" }, it.item_kind), el("span", { class: "id" }, it.item_id)]),
+    const li = el("li", { class: kindClass(it.item_kind), tabindex: "0", role: "option", "aria-selected": "false" }, [
+      el("div", { class: "row1" }, [cb, el("span", { class: "kind " + kindClass(it.item_kind) }, it.item_kind), el("span", { class: "id" }, it.item_id)]),
       el("div", { class: "stmt" }, short(it.short_label || it.statement)),
     ]);
     li.dataset.id = it.item_id;
     li.addEventListener("click", () => selectItem(it.item_id));
     list.appendChild(li);
   }
+  if (!data.queue.length) list.appendChild(el("li", { class: "emptylist" }, "Review queue is empty."));
 }
 async function queueReview(reviewState, status) {
   const ids = [...state.queueSelection];
@@ -726,15 +909,28 @@ async function runSearch(ev) {
   const list = $("#search-list");
   list.innerHTML = "";
   for (const r of data.results || []) {
-    const li = el("li", {}, [
-      el("div", { class: "row1" }, [el("span", { class: "kind" }, r.record_type), el("span", { class: "id" }, r.record_id)]),
-      el("div", { class: "stmt", html: (r.snippet || "").replace(/</g, "&lt;") }),
+    const li = el("li", { tabindex: "0", role: "option", "aria-selected": "false" }, [
+      el("div", { class: "row1" }, [el("span", { class: "chip" }, r.record_type), el("span", { class: "id" }, r.record_id)]),
+      snippetNode(r.snippet || ""),
     ]);
+    li.dataset.id = r.record_id;
     if (r.record_type === "research_item") li.addEventListener("click", () => { switchTab("items"); selectItem(r.record_id); });
     else if (r.record_type === "entity") li.addEventListener("click", () => openNeighborhood("entity", r.record_id));
     else if (r.record_type === "research_unit") li.addEventListener("click", () => openNeighborhood("unit", r.record_id));
     list.appendChild(li);
   }
+  if (!(data.results || []).length) list.appendChild(el("li", { class: "emptylist" }, "No matches."));
+}
+
+// FTS snippets mark hits as [term]; render them as highlights without innerHTML
+function snippetNode(snippet) {
+  const div = el("div", { class: "stmt" });
+  const parts = snippet.split(/\[([^\]]*)\]/);
+  parts.forEach((p, i) => {
+    if (!p) return;
+    div.appendChild(i % 2 ? el("mark", {}, p) : document.createTextNode(p));
+  });
+  return div;
 }
 
 async function openNeighborhood(kind, id) {
@@ -768,7 +964,11 @@ async function openNeighborhood(kind, id) {
 // ------------------------------------------------------------------ tabs + wiring
 function switchTab(name) {
   state.tab = name;
-  document.querySelectorAll(".tab").forEach((t) => t.classList.toggle("active", t.dataset.tab === name));
+  document.querySelectorAll(".tab").forEach((t) => {
+    const active = t.dataset.tab === name;
+    t.classList.toggle("active", active);
+    t.setAttribute("aria-selected", active ? "true" : "false");
+  });
   document.querySelectorAll(".tabpane").forEach((p) => p.classList.toggle("active", p.id === "tab-" + name));
   if (name === "queue") loadQueue();
   if (name === "create") renderCreateForm();
@@ -781,6 +981,29 @@ async function loadUnits() {
 
 async function init() {
   document.querySelectorAll(".tab").forEach((t) => t.addEventListener("click", () => switchTab(t.dataset.tab)));
+  // arrow keys move between tabs (roving focus)
+  $(".tabs").addEventListener("keydown", (e) => {
+    if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+    const tabs = [...document.querySelectorAll(".tab")];
+    const i = tabs.indexOf(document.activeElement);
+    if (i === -1) return;
+    e.preventDefault();
+    const next = tabs[(i + (e.key === "ArrowRight" ? 1 : tabs.length - 1)) % tabs.length];
+    next.focus();
+    switchTab(next.dataset.tab);
+  });
+  for (const id of ["#item-list", "#queue-list", "#search-list"])
+    $(id).addEventListener("keydown", listKeydown);
+  document.addEventListener("keydown", modalKeydown, true);
+  // "/" focuses the filter or search box of the active tab
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "/" || e.ctrlKey || e.metaKey || e.altKey) return;
+    const t = e.target;
+    if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.tagName === "SELECT")) return;
+    if (!$("#modal-backdrop").classList.contains("hidden")) return;
+    const target = state.tab === "search" ? $("#search-terms") : $("#filters input[type=text]");
+    if (target) { e.preventDefault(); target.focus(); target.select(); }
+  });
   $("#btn-refresh").addEventListener("click", async () => { await refreshStatus(); await loadItems(); });
   $("#btn-snapshot").addEventListener("click", async () => {
     try { const r = await apiPost("/api/snapshot", {}); banner("Snapshot written: " + r.snapshot, "ok"); await refreshStatus(); }
@@ -802,6 +1025,14 @@ async function init() {
   await refreshStatus();
   renderFilters();
   await loadItems();
+
+  // deep link: #item/<id> selects that item on load and on hash change
+  const openFromHash = () => {
+    const m = location.hash.match(/^#item\/(.+)$/);
+    if (m && decodeURIComponent(m[1]) !== state.selectedId) selectItem(decodeURIComponent(m[1]));
+  };
+  window.addEventListener("hashchange", openFromHash);
+  openFromHash();
 }
 
 init().catch((e) => banner("Init failed: " + e.message, "err"));

@@ -33,7 +33,6 @@ browser UI  ──HTTP/JSON──▶  tools/g13_graph_editor/server.py   (loopba
 - `editor.py` (in the core package) — the transactional save service and the
   read surface for the editing UI. This is the tested unit.
 - `static/` — `index.html`, `app.js`, `styles.css` (vanilla JS, no build step).
-  UI polish is a later, separate Fable pass; this delivers the functional contract.
 
 ## Running
 
@@ -132,7 +131,24 @@ is passed explicitly. `GURNEY_G13_GRAPH_DB` / `GURNEY_G13_GRAPH_EXPORT_DIR` /
   staged change in the modal). Retire = soft-delete (kept in the audit trail;
   hard delete is intentionally impossible once an item carries revisions).
 - Publication readiness advisory: visibility + excerpt-publishability decisions
-  are surfaced per item so they can be made before a future static export (G5).
+  are surfaced per item so they can be made before a future static export (G5);
+  the confirm modal also warns when the edited item is already mapped into
+  published prose.
+
+## UI affordances
+
+- Item kinds are color-coded (chip + list-row left border); source roles and
+  relation types carry supports/contradicts/qualifies semantics in color.
+- Keyboard: `/` focuses the filter or search box, `↑`/`↓` move through result
+  lists, `Enter` opens; `←`/`→` move between tabs; the confirm modal traps
+  focus, defaults to **Commit** (or **Discard** when blocked) and closes on
+  `Escape`. Blocking errors render as a red panel, advisory warnings as amber.
+- Selection is deep-linkable: `#item/<id>` in the URL restores the item on
+  reload (and tells a paired AI session what is on screen).
+- **Copy AI context** on the item header copies a self-contained markdown
+  block (statement, sources, relations, dates, publication mappings, DB path
+  and revision, API/edit-tooling pointers) for pasting into a Claude session
+  when a revision needs AI help.
 
 ## JSON API
 

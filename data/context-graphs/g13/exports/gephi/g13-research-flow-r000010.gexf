@@ -1,0 +1,793 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://gexf.net/1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3" xsi:schemaLocation="http://gexf.net/1.3 https://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-07-04">
+    <creator>gurney-genealogy</creator>
+    <description>G13 SQLite context graph; research-flow view; database revision 10; read-only derived export</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="G13 context graph — research-flow">
+    <attributes class="node" mode="static">
+      <attribute id="record_id" title="Record ID" type="string" />
+      <attribute id="node_type" title="Node type" type="string" />
+      <attribute id="item_kind" title="Item kind" type="string" />
+      <attribute id="entity_type" title="Entity type" type="string" />
+      <attribute id="status" title="Status" type="string" />
+      <attribute id="review_state" title="Review state" type="string" />
+      <attribute id="visibility" title="Visibility" type="string" />
+      <attribute id="confidence_label" title="Confidence band" type="string" />
+      <attribute id="research_unit_id" title="Research unit ID" type="string" />
+      <attribute id="research_unit_title" title="Research unit title" type="string" />
+      <attribute id="statement" title="Statement" type="string" />
+      <attribute id="description" title="Description" type="string" />
+      <attribute id="repo_path" title="Repository path" type="string" />
+      <attribute id="heading_id" title="Heading ID" type="string" />
+      <attribute id="canonical_path" title="Canonical source path" type="string" />
+      <attribute id="primary_item_id" title="Primary item ID" type="string" />
+      <attribute id="date_summary" title="Date summary" type="string" />
+      <attribute id="chronology_key" title="Chronology key" type="double" />
+      <attribute id="source_count" title="Linked source count" type="integer" />
+      <attribute id="entity_count" title="Linked entity count" type="integer" />
+      <attribute id="incoming_relation_count" title="Incoming relation count" type="integer" />
+      <attribute id="outgoing_relation_count" title="Outgoing relation count" type="integer" />
+      <attribute id="marker_count" title="Prose marker count" type="integer" />
+      <attribute id="publication_count" title="Publication mapping count" type="integer" />
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="edge_class" title="Edge class" type="string" />
+      <attribute id="relation_type" title="Relation type" type="string" />
+      <attribute id="role" title="Role" type="string" />
+      <attribute id="bearing" title="Bearing" type="string" />
+      <attribute id="strength" title="Strength" type="string" />
+      <attribute id="review_state" title="Review state" type="string" />
+      <attribute id="explanation" title="Explanation" type="string" />
+      <attribute id="locator" title="Source locator" type="string" />
+      <attribute id="verification_level" title="Verification level" type="string" />
+    </attributes>
+    <nodes count="23">
+      <node id="G13-RI-000001" label="MBCR 1:331 gunpowder-fine remission (2 June 1641)">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000001" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="source_evidence" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="high" />
+          <attvalue for="research_unit_id" value="g13-colonial-arrival-chronology" />
+          <attvalue for="research_unit_title" value="Colonial arrival chronology" />
+          <attvalue for="statement" value="The Massachusetts General Court order of 2 June 1641 remitted the fine of John Porter, James Ludden, and John Gurney, incurred &quot;for want of gunpowder.&quot;" />
+          <attvalue for="source_count" value="1" />
+          <attvalue for="entity_count" value="2" />
+          <attvalue for="incoming_relation_count" value="2" />
+          <attvalue for="outgoing_relation_count" value="2" />
+          <attvalue for="marker_count" value="0" />
+          <attvalue for="publication_count" value="0" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000002" label="MA Archives gunpowder petition (30 May 1641, 'of Weymouth')">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000002" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="source_evidence" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="high" />
+          <attvalue for="research_unit_id" value="g13-colonial-arrival-chronology" />
+          <attvalue for="research_unit_title" value="Colonial arrival chronology" />
+          <attvalue for="statement" value="The underlying petition, calendared in the Massachusetts State Archives colonial collection and dated 30 May 1641, names &quot;John Gurny, Richard Porter, and James Ludden of Weymouth&quot; seeking remission of the gunpowder fines." />
+          <attvalue for="source_count" value="1" />
+          <attvalue for="entity_count" value="2" />
+          <attvalue for="incoming_relation_count" value="1" />
+          <attvalue for="outgoing_relation_count" value="1" />
+          <attvalue for="marker_count" value="0" />
+          <attvalue for="publication_count" value="0" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000003" label="Porter (1878) gloss: 'Ludden and Gurney were of Weymouth'">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000003" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="source_evidence" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="high" />
+          <attvalue for="research_unit_id" value="g13-colonial-arrival-chronology" />
+          <attvalue for="research_unit_title" value="Colonial arrival chronology" />
+          <attvalue for="statement" value="Porter's Genealogy of the Descendants of Richard Porter (1878), p. 225, quotes the 1641 court order and glosses it &quot;Ludden and Gurney were of Weymouth.&quot;" />
+          <attvalue for="source_count" value="1" />
+          <attvalue for="entity_count" value="0" />
+          <attvalue for="incoming_relation_count" value="0" />
+          <attvalue for="outgoing_relation_count" value="1" />
+          <attvalue for="marker_count" value="0" />
+          <attvalue for="publication_count" value="0" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000004" label="Nash (1885): John an original Weymouth grantee before 1643">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000004" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="source_evidence" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="high" />
+          <attvalue for="research_unit_id" value="g13-colonial-arrival-chronology" />
+          <attvalue for="research_unit_title" value="Colonial arrival chronology" />
+          <attvalue for="statement" value="Nash's Historical Sketch of Weymouth (1885), Appendix C, records East Field (p. 258) and Mill Field (p. 278) parcels &quot;first granted to John Gurny/Gurnie&quot; but already held by other men by the 1643 partial property record." />
+          <attvalue for="source_count" value="1" />
+          <attvalue for="entity_count" value="0" />
+          <attvalue for="incoming_relation_count" value="0" />
+          <attvalue for="outgoing_relation_count" value="1" />
+          <attvalue for="marker_count" value="0" />
+          <attvalue for="publication_count" value="0" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000005" label="Earliest firm presence: Weymouth by 30 May/2 June 1641">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000005" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="research_finding" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="high" />
+          <attvalue for="research_unit_id" value="g13-colonial-arrival-chronology" />
+          <attvalue for="research_unit_title" value="Colonial arrival chronology" />
+          <attvalue for="statement" value="John Gurney was living at Weymouth, Massachusetts, by 30 May / 2 June 1641 — his earliest firm New England presence." />
+          <attvalue for="date_summary" value="event: 30 May–2 June 1641" />
+          <attvalue for="chronology_key" value="1641.0" />
+          <attvalue for="source_count" value="0" />
+          <attvalue for="entity_count" value="2" />
+          <attvalue for="incoming_relation_count" value="5" />
+          <attvalue for="outgoing_relation_count" value="0" />
+          <attvalue for="marker_count" value="0" />
+          <attvalue for="publication_count" value="0" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000006" label="Arrival window: 1638–early 1641">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000006" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="research_finding" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="moderate-high" />
+          <attvalue for="research_unit_id" value="g13-colonial-arrival-chronology" />
+          <attvalue for="research_unit_title" value="Colonial arrival chronology" />
+          <attvalue for="statement" value="John Gurney reached New England in 1638–early 1641: bounded below by his original (pre-1643) Weymouth grants and his 1641 presence, and above by the sharp post-1640 falloff of the Great Migration." />
+          <attvalue for="date_summary" value="event: 1638–early 1641" />
+          <attvalue for="chronology_key" value="1639.5" />
+          <attvalue for="source_count" value="2" />
+          <attvalue for="entity_count" value="2" />
+          <attvalue for="incoming_relation_count" value="2" />
+          <attvalue for="outgoing_relation_count" value="1" />
+          <attvalue for="marker_count" value="0" />
+          <attvalue for="publication_count" value="0" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000007" label="Porter forename: petition 'Richard … of Weymouth' vs printed 'John'">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000007" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="analysis" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="moderate" />
+          <attvalue for="research_unit_id" value="g13-colonial-arrival-chronology" />
+          <attvalue for="research_unit_title" value="Colonial arrival chronology" />
+          <attvalue for="statement" value="The petition's image-verified &quot;Richard Porter of Weymouth&quot; reading shifts weight from the printed order's &quot;John Porter,&quot; making John Gurney's cleanest 1641 associate a Weymouth/Hull-company comparator rather than a Hingham/Salem Porter." />
+          <attvalue for="source_count" value="2" />
+          <attvalue for="entity_count" value="1" />
+          <attvalue for="incoming_relation_count" value="0" />
+          <attvalue for="outgoing_relation_count" value="3" />
+          <attvalue for="marker_count" value="0" />
+          <attvalue for="publication_count" value="0" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000008" label="Braintree residence, c. 1645–1662/3">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000008" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="research_finding" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="high" />
+          <attvalue for="research_unit_id" value="g13-colonial-braintree-community" />
+          <attvalue for="research_unit_title" value="Colonial Braintree community" />
+          <attvalue for="statement" value="John Gurney lived at Braintree, Massachusetts, from about 1645 until his death in 1662/3 — his settled colonial home after leaving Weymouth." />
+          <attvalue for="date_summary" value="residence: c. 1645 – 1662/3" />
+          <attvalue for="chronology_key" value="1654.0" />
+          <attvalue for="source_count" value="0" />
+          <attvalue for="entity_count" value="2" />
+          <attvalue for="incoming_relation_count" value="4" />
+          <attvalue for="outgoing_relation_count" value="0" />
+          <attvalue for="marker_count" value="1" />
+          <attvalue for="publication_count" value="2" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000009" label="1645 Braintree plantation petition (signed)">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000009" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="source_evidence" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="moderate" />
+          <attvalue for="research_unit_id" value="g13-colonial-braintree-community" />
+          <attvalue for="research_unit_title" value="Colonial Braintree community" />
+          <attvalue for="statement" value="In May 1645 John Gurney signed the inhabitants' petition for the new plantation at Braintree (Mount Wollaston), as reported in the History of Weymouth." />
+          <attvalue for="date_summary" value="event: May 1645" />
+          <attvalue for="chronology_key" value="1645.0" />
+          <attvalue for="source_count" value="1" />
+          <attvalue for="entity_count" value="2" />
+          <attvalue for="incoming_relation_count" value="1" />
+          <attvalue for="outgoing_relation_count" value="2" />
+          <attvalue for="marker_count" value="1" />
+          <attvalue for="publication_count" value="1" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000010" label="1652/3 deposition: 'John Gurney of Brayntree'">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000010" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="source_evidence" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="high" />
+          <attvalue for="research_unit_id" value="g13-colonial-braintree-community" />
+          <attvalue for="research_unit_title" value="Colonial Braintree community" />
+          <attvalue for="statement" value="A Suffolk Court Files deposition of 17 March 1652/3 (Wilson v. Faxon) describes &quot;John Gurney of Brayntree aged 50 Yeares or thereabouts.&quot;" />
+          <attvalue for="date_summary" value="event: 17-1-[16]52-3 (17 March 1652/3)" />
+          <attvalue for="chronology_key" value="1653.0" />
+          <attvalue for="source_count" value="1" />
+          <attvalue for="entity_count" value="2" />
+          <attvalue for="incoming_relation_count" value="0" />
+          <attvalue for="outgoing_relation_count" value="1" />
+          <attvalue for="marker_count" value="1" />
+          <attvalue for="publication_count" value="0" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000011" label="Tyng farm lease, 1647–1662 (continuous tenancy)">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000011" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="source_evidence" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="high" />
+          <attvalue for="research_unit_id" value="g13-colonial-braintree-community" />
+          <attvalue for="research_unit_title" value="Colonial Braintree community" />
+          <attvalue for="statement" value="In 1647 William Tyng leased John Gurney a 45-acre Braintree farm for ten years; John continued to lease it from Tyng's daughters Bethia and Mercy until 1662, and the same farm is recorded in the 1653 Tyng inventory and the 28 March 1661 estate-division indenture." />
+          <attvalue for="date_summary" value="event: 1647–1662" />
+          <attvalue for="chronology_key" value="1654.5" />
+          <attvalue for="source_count" value="3" />
+          <attvalue for="entity_count" value="3" />
+          <attvalue for="incoming_relation_count" value="2" />
+          <attvalue for="outgoing_relation_count" value="2" />
+          <attvalue for="marker_count" value="1" />
+          <attvalue for="publication_count" value="0" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000012" label="Principal Braintree land was the leased Tyng farm (future Adams seat)">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000012" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="research_finding" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="moderate-high" />
+          <attvalue for="research_unit_id" value="g13-colonial-braintree-community" />
+          <attvalue for="research_unit_title" value="Colonial Braintree community" />
+          <attvalue for="statement" value="John Gurney's principal Braintree landholding was leasehold, not freehold: the Tyng farm he held continuously c. 1647–1662 was a tenancy, and the northern part of 'the Gurney farm' later became the Adams family seat (the Old House, Quincy)." />
+          <attvalue for="source_count" value="1" />
+          <attvalue for="entity_count" value="3" />
+          <attvalue for="incoming_relation_count" value="2" />
+          <attvalue for="outgoing_relation_count" value="1" />
+          <attvalue for="marker_count" value="1" />
+          <attvalue for="publication_count" value="1" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000013" label="1661/2 Gurney–Thayer deed ('John Gurney, tailor')">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000013" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="source_evidence" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="high" />
+          <attvalue for="research_unit_id" value="g13-colonial-braintree-community" />
+          <attvalue for="research_unit_title" value="Colonial Braintree community" />
+          <attvalue for="statement" value="On 12 February 1661/2 &quot;John Gurney, tailor&quot; conveyed to Richard Thayer, for £14, a Braintree house and orchard, a five-acre Monatiquot-River parcel, and an adjoining half-acre; possession given 16 April 1662, signed by mark, witnessed by Peter Brackett and John Rockwell." />
+          <attvalue for="date_summary" value="event: 12 February 1661/2 (possession 16 April 1662)" />
+          <attvalue for="chronology_key" value="1662.0" />
+          <attvalue for="source_count" value="2" />
+          <attvalue for="entity_count" value="2" />
+          <attvalue for="incoming_relation_count" value="1" />
+          <attvalue for="outgoing_relation_count" value="2" />
+          <attvalue for="marker_count" value="1" />
+          <attvalue for="publication_count" value="1" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000014" label="Two distinct Braintree properties: leased Tyng farm vs. Monatiquot freehold">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000014" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="analysis" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="moderate-high" />
+          <attvalue for="research_unit_id" value="g13-colonial-braintree-community" />
+          <attvalue for="research_unit_title" value="Colonial Braintree community" />
+          <attvalue for="statement" value="John held two distinct Braintree properties in his final years — the leased Tyng farm (the future Adams seat) and his own Monatiquot-River freehold sold to Thayer in 1661/2 — so the 'Gurney farm' of local tradition and his personal homestead are separate parcels." />
+          <attvalue for="source_count" value="0" />
+          <attvalue for="entity_count" value="2" />
+          <attvalue for="incoming_relation_count" value="0" />
+          <attvalue for="outgoing_relation_count" value="3" />
+          <attvalue for="marker_count" value="1" />
+          <attvalue for="publication_count" value="0" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000015" label="1659 Baxter estate: witness and inventory-taker">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000015" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="source_evidence" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="high" />
+          <attvalue for="research_unit_id" value="g13-colonial-braintree-community" />
+          <attvalue for="research_unit_title" value="Colonial Braintree community" />
+          <attvalue for="statement" value="John Gurney witnessed Gregory Baxter's Braintree will in 1659 (with Moses Payne and Richard Brackett) and helped take the estate inventory on 7 July 1659." />
+          <attvalue for="date_summary" value="event: will June 1659; inventory 7 July 1659" />
+          <attvalue for="chronology_key" value="1659.0" />
+          <attvalue for="source_count" value="1" />
+          <attvalue for="entity_count" value="2" />
+          <attvalue for="incoming_relation_count" value="0" />
+          <attvalue for="outgoing_relation_count" value="1" />
+          <attvalue for="marker_count" value="1" />
+          <attvalue for="publication_count" value="0" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000016" label="Recognised standing in the Braintree community">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000016" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="research_finding" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="moderate-high" />
+          <attvalue for="research_unit_id" value="g13-colonial-braintree-community" />
+          <attvalue for="research_unit_title" value="Colonial Braintree community" />
+          <attvalue for="statement" value="John Gurney held recognised standing in the Braintree community — signing the 1645 plantation petition, serving as probate witness and inventory-taker for Gregory Baxter (1659), and appearing across a dense Braintree creditor network in his own 1663 estate accounts." />
+          <attvalue for="source_count" value="2" />
+          <attvalue for="entity_count" value="2" />
+          <attvalue for="incoming_relation_count" value="3" />
+          <attvalue for="outgoing_relation_count" value="0" />
+          <attvalue for="marker_count" value="1" />
+          <attvalue for="publication_count" value="1" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000017" label="Open: pin the 1645 Braintree petition to its primary source">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000017" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="open_question" />
+          <attvalue for="status" value="open" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="research_unit_id" value="g13-colonial-braintree-community" />
+          <attvalue for="research_unit_title" value="Colonial Braintree community" />
+          <attvalue for="statement" value="Locate the primary page of the May 1645 Braintree (Mount Wollaston) plantation petition naming John Gurney; the current basis is the secondary History of Weymouth report (research lead L-191)." />
+          <attvalue for="source_count" value="1" />
+          <attvalue for="entity_count" value="2" />
+          <attvalue for="incoming_relation_count" value="0" />
+          <attvalue for="outgoing_relation_count" value="1" />
+          <attvalue for="marker_count" value="1" />
+          <attvalue for="publication_count" value="0" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000018" label="Admitted Weymouth inhabitant (c. 1638/9-1642/4)">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000018" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="research_finding" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="high" />
+          <attvalue for="research_unit_id" value="g13-colonial-weymouth-community" />
+          <attvalue for="research_unit_title" value="Colonial Weymouth community" />
+          <attvalue for="statement" value="John Gurney was an admitted, resident inhabitant of Weymouth c. 1638/9-c. 1642/4: early-Massachusetts town land divisions went only to admitted inhabitants, so his three original East/Mill-Field grants mark him as a recognised member of the Weymouth community before his removal to Braintree." />
+          <attvalue for="date_summary" value="event: c. 1638/9-c. 1642/4" />
+          <attvalue for="chronology_key" value="1640.0" />
+          <attvalue for="source_count" value="0" />
+          <attvalue for="entity_count" value="2" />
+          <attvalue for="incoming_relation_count" value="1" />
+          <attvalue for="outgoing_relation_count" value="1" />
+          <attvalue for="marker_count" value="1" />
+          <attvalue for="publication_count" value="0" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000019" label="Manuscript Land Grants book: John original grantee of 3 parcels">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000019" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="source_evidence" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="high" />
+          <attvalue for="research_unit_id" value="g13-colonial-weymouth-community" />
+          <attvalue for="research_unit_title" value="Colonial Weymouth community" />
+          <attvalue for="statement" value="The Weymouth proprietors' manuscript Land Grants book records John Gurney as original grantee of three parcels - two East Field lots (ms pp. 12, 23, under Robert Randoll and Nathaniel Addames) and one Mill Field lot (ms p. 31, under Thomas Richardes), about eight acres in all - each 'first granted/given to John Gurny/Gurnie.'" />
+          <attvalue for="source_count" value="1" />
+          <attvalue for="entity_count" value="2" />
+          <attvalue for="incoming_relation_count" value="0" />
+          <attvalue for="outgoing_relation_count" value="1" />
+          <attvalue for="marker_count" value="1" />
+          <attvalue for="publication_count" value="0" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000020" label="MBCR 2:79 - 1644 £5 'Mr Ginner' bill (Gurny + Lake)">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000020" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="source_evidence" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="high" />
+          <attvalue for="research_unit_id" value="g13-colonial-weymouth-community" />
+          <attvalue for="research_unit_title" value="Colonial Weymouth community" />
+          <attvalue for="statement" value="The Massachusetts Bay colony accounts for the General Court session beginning 30 October 1644 record: 'John Gurny his byl for 3. 16. 4d &amp; Tho: Lake his note for 1. 3. 8d are accepted for £5 fro Mr Ginner.'" />
+          <attvalue for="date_summary" value="event: session beginning 30 October 1644" />
+          <attvalue for="chronology_key" value="1644.0" />
+          <attvalue for="source_count" value="1" />
+          <attvalue for="entity_count" value="2" />
+          <attvalue for="incoming_relation_count" value="0" />
+          <attvalue for="outgoing_relation_count" value="1" />
+          <attvalue for="marker_count" value="1" />
+          <attvalue for="publication_count" value="0" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000021" label="Credit tie to Rev. Thomas Jenner, Weymouth's minister">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000021" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="research_finding" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="moderate-high" />
+          <attvalue for="research_unit_id" value="g13-colonial-weymouth-community" />
+          <attvalue for="research_unit_title" value="Colonial Weymouth community" />
+          <attvalue for="statement" value="John Gurney held a credit tie to Rev. Thomas Jenner ('Mr Ginner'), Weymouth's minister 1636-1640: the 1644 colony accounts accepted his bill and Thomas Lake's note as the £5 Jenner owed. The purpose of Gurney's bill is unstated - not evidence of tailoring, military supply, or a 1641/2 transaction." />
+          <attvalue for="date_summary" value="event: documented 30 October 1644 (Jenner's Weymouth ministry 1636-1640)" />
+          <attvalue for="chronology_key" value="1644.0" />
+          <attvalue for="source_count" value="2" />
+          <attvalue for="entity_count" value="2" />
+          <attvalue for="incoming_relation_count" value="1" />
+          <attvalue for="outgoing_relation_count" value="0" />
+          <attvalue for="marker_count" value="1" />
+          <attvalue for="publication_count" value="0" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000022" label="Weymouth associates: Ludden, Porter, Goodman King">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000022" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="research_finding" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="moderate" />
+          <attvalue for="research_unit_id" value="g13-colonial-weymouth-community" />
+          <attvalue for="research_unit_title" value="Colonial Weymouth community" />
+          <attvalue for="statement" value="John Gurney's documented Weymouth associates were fellow townsmen - his 1641 gunpowder-fine co-petitioners James Ludden and Richard Porter (Porter a 1635 Weymouth settler) and, persisting to his 1663 estate, the creditor 'Goodman King of Waymouth.'" />
+          <attvalue for="date_summary" value="event: 1641-1663 (gunpowder co-petition to 1663 estate debt)" />
+          <attvalue for="chronology_key" value="1641.0" />
+          <attvalue for="source_count" value="3" />
+          <attvalue for="entity_count" value="2" />
+          <attvalue for="incoming_relation_count" value="1" />
+          <attvalue for="outgoing_relation_count" value="0" />
+          <attvalue for="marker_count" value="1" />
+          <attvalue for="publication_count" value="0" />
+        </attvalues>
+      </node>
+      <node id="G13-RI-000023" label="Negative: no active military service">
+        <attvalues>
+          <attvalue for="record_id" value="G13-RI-000023" />
+          <attvalue for="node_type" value="research_item" />
+          <attvalue for="item_kind" value="negative_result" />
+          <attvalue for="status" value="active" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="visibility" value="repo_only" />
+          <attvalue for="confidence_label" value="moderate" />
+          <attvalue for="research_unit_id" value="g13-colonial-weymouth-community" />
+          <attvalue for="research_unit_title" value="Colonial Weymouth community" />
+          <attvalue for="statement" value="No record places John Gurney in active military service: the 1641 powder fine reflects only the ordinary readiness obligation, and a Gurn-variant sweep of the colony military/court records plus a full read of the printed colony records and the Military Company roll (1637-1652) finds him on no campaign, officer, volunteer, or membership list." />
+          <attvalue for="source_count" value="3" />
+          <attvalue for="entity_count" value="2" />
+          <attvalue for="incoming_relation_count" value="0" />
+          <attvalue for="outgoing_relation_count" value="1" />
+          <attvalue for="marker_count" value="1" />
+          <attvalue for="publication_count" value="0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges count="26">
+      <edge id="e000001" source="G13-RI-000001" target="G13-RI-000005" label="SUPPORTS">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="SUPPORTS" />
+          <attvalue for="bearing" value="direct" />
+          <attvalue for="strength" value="strong" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="Primary court order fixes John's 1641 presence." />
+        </attvalues>
+      </edge>
+      <edge id="e000002" source="G13-RI-000001" target="G13-RI-000022" label="SUPPORTS">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="SUPPORTS" />
+          <attvalue for="bearing" value="direct" />
+          <attvalue for="strength" value="moderate" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="The 1641 gunpowder record names Ludden and Porter as John's Weymouth co-petitioners (cross-topic)." />
+        </attvalues>
+      </edge>
+      <edge id="e000003" source="G13-RI-000002" target="G13-RI-000005" label="SUPPORTS">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="SUPPORTS" />
+          <attvalue for="bearing" value="direct" />
+          <attvalue for="strength" value="strong" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="Petition names him 'of Weymouth,' 30 May 1641." />
+        </attvalues>
+      </edge>
+      <edge id="e000004" source="G13-RI-000003" target="G13-RI-000005" label="SUPPORTS">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="SUPPORTS" />
+          <attvalue for="bearing" value="direct" />
+          <attvalue for="strength" value="moderate" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="Secondary gloss independently attests Weymouth." />
+        </attvalues>
+      </edge>
+      <edge id="e000005" source="G13-RI-000004" target="G13-RI-000006" label="SUPPORTS">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="SUPPORTS" />
+          <attvalue for="bearing" value="direct" />
+          <attvalue for="strength" value="strong" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="Original pre-1643 Weymouth grants bound arrival below." />
+        </attvalues>
+      </edge>
+      <edge id="e000006" source="G13-RI-000006" target="G13-RI-000005" label="DEPENDS_ON">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="DEPENDS_ON" />
+          <attvalue for="bearing" value="direct" />
+          <attvalue for="strength" value="strong" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="The arrival window rests on the 1641 presence datum." />
+        </attvalues>
+      </edge>
+      <edge id="e000007" source="G13-RI-000007" target="G13-RI-000001" label="WEIGHS">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="WEIGHS" />
+          <attvalue for="bearing" value="methodological" />
+          <attvalue for="strength" value="moderate" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="Analysis weighs the printed court order's 'John Porter.'" />
+        </attvalues>
+      </edge>
+      <edge id="e000008" source="G13-RI-000007" target="G13-RI-000002" label="WEIGHS">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="WEIGHS" />
+          <attvalue for="bearing" value="methodological" />
+          <attvalue for="strength" value="moderate" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="Analysis weighs the petition's 'Richard … of Weymouth.'" />
+        </attvalues>
+      </edge>
+      <edge id="e000009" source="G13-RI-000007" target="G13-RI-000005" label="CONTEXTUALIZES">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="CONTEXTUALIZES" />
+          <attvalue for="bearing" value="contextual" />
+          <attvalue for="strength" value="weak" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="Associate reading contextualizes the presence finding." />
+        </attvalues>
+      </edge>
+      <edge id="e000010" source="G13-RI-000009" target="G13-RI-000008" label="SUPPORTS">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="SUPPORTS" />
+          <attvalue for="bearing" value="direct" />
+          <attvalue for="strength" value="moderate" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="Petition attests established Braintree standing by 1645." />
+        </attvalues>
+      </edge>
+      <edge id="e000011" source="G13-RI-000009" target="G13-RI-000016" label="SUPPORTS">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="SUPPORTS" />
+          <attvalue for="bearing" value="direct" />
+          <attvalue for="strength" value="moderate" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="Petition signature evidences community standing." />
+        </attvalues>
+      </edge>
+      <edge id="e000012" source="G13-RI-000010" target="G13-RI-000008" label="SUPPORTS">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="SUPPORTS" />
+          <attvalue for="bearing" value="direct" />
+          <attvalue for="strength" value="strong" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="Deposition names John 'of Brayntree,' 1652/3." />
+        </attvalues>
+      </edge>
+      <edge id="e000013" source="G13-RI-000011" target="G13-RI-000008" label="SUPPORTS">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="SUPPORTS" />
+          <attvalue for="bearing" value="direct" />
+          <attvalue for="strength" value="strong" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="A continuous 1647–1662 Braintree tenancy." />
+        </attvalues>
+      </edge>
+      <edge id="e000014" source="G13-RI-000011" target="G13-RI-000012" label="SUPPORTS">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="SUPPORTS" />
+          <attvalue for="bearing" value="direct" />
+          <attvalue for="strength" value="strong" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="The lease record underpins the leasehold finding." />
+        </attvalues>
+      </edge>
+      <edge id="e000015" source="G13-RI-000012" target="G13-RI-000011" label="DEPENDS_ON">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="DEPENDS_ON" />
+          <attvalue for="bearing" value="direct" />
+          <attvalue for="strength" value="strong" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="The leasehold finding rests on the Tyng lease evidence." />
+        </attvalues>
+      </edge>
+      <edge id="e000016" source="G13-RI-000013" target="G13-RI-000008" label="SUPPORTS">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="SUPPORTS" />
+          <attvalue for="bearing" value="direct" />
+          <attvalue for="strength" value="strong" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="Owned and sold a Braintree freehold, 1661/2." />
+        </attvalues>
+      </edge>
+      <edge id="e000017" source="G13-RI-000013" target="G13-RI-000016" label="CONTEXTUALIZES">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="CONTEXTUALIZES" />
+          <attvalue for="bearing" value="contextual" />
+          <attvalue for="strength" value="weak" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="Deed associates (Brackett, Rockwell) show community ties." />
+        </attvalues>
+      </edge>
+      <edge id="e000018" source="G13-RI-000014" target="G13-RI-000011" label="SYNTHESIZES">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="SYNTHESIZES" />
+          <attvalue for="bearing" value="methodological" />
+          <attvalue for="strength" value="moderate" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="Weighs the leased Tyng farm as one of two distinct parcels." />
+        </attvalues>
+      </edge>
+      <edge id="e000019" source="G13-RI-000014" target="G13-RI-000012" label="CONTEXTUALIZES">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="CONTEXTUALIZES" />
+          <attvalue for="bearing" value="contextual" />
+          <attvalue for="strength" value="weak" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="Separates the 'Gurney farm' tradition from the personal homestead." />
+        </attvalues>
+      </edge>
+      <edge id="e000020" source="G13-RI-000014" target="G13-RI-000013" label="SYNTHESIZES">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="SYNTHESIZES" />
+          <attvalue for="bearing" value="methodological" />
+          <attvalue for="strength" value="moderate" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="Weighs the Monatiquot freehold as the second distinct parcel." />
+        </attvalues>
+      </edge>
+      <edge id="e000021" source="G13-RI-000015" target="G13-RI-000016" label="SUPPORTS">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="SUPPORTS" />
+          <attvalue for="bearing" value="direct" />
+          <attvalue for="strength" value="moderate" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="Serving as will witness and appraiser evidences trust." />
+        </attvalues>
+      </edge>
+      <edge id="e000022" source="G13-RI-000017" target="G13-RI-000009" label="QUALIFIES">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="QUALIFIES" />
+          <attvalue for="bearing" value="methodological" />
+          <attvalue for="strength" value="moderate" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="The petition datum rests on a secondary report; primary page unlocated (lead L-191)." />
+        </attvalues>
+      </edge>
+      <edge id="e000023" source="G13-RI-000018" target="G13-RI-000006" label="DEPENDS_ON">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="DEPENDS_ON" />
+          <attvalue for="bearing" value="direct" />
+          <attvalue for="strength" value="strong" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="The inhabitant-standing conclusion rests on John being an original pre-1643 Weymouth grantee (cross-topic); the manuscript grants (G13-RI-000019) reach the arrival finding through this hop." />
+        </attvalues>
+      </edge>
+      <edge id="e000024" source="G13-RI-000019" target="G13-RI-000018" label="SUPPORTS">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="SUPPORTS" />
+          <attvalue for="bearing" value="direct" />
+          <attvalue for="strength" value="strong" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="Manuscript grants evidence John's inhabitant standing at Weymouth." />
+        </attvalues>
+      </edge>
+      <edge id="e000025" source="G13-RI-000020" target="G13-RI-000021" label="SUPPORTS">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="SUPPORTS" />
+          <attvalue for="bearing" value="direct" />
+          <attvalue for="strength" value="strong" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="The 1644 colony bill is the evidence for the Jenner credit tie." />
+        </attvalues>
+      </edge>
+      <edge id="e000026" source="G13-RI-000023" target="G13-RI-000001" label="QUALIFIES">
+        <attvalues>
+          <attvalue for="edge_class" value="item_relation" />
+          <attvalue for="relation_type" value="QUALIFIES" />
+          <attvalue for="bearing" value="direct" />
+          <attvalue for="strength" value="moderate" />
+          <attvalue for="review_state" value="human_reviewed" />
+          <attvalue for="explanation" value="The service negative keeps the 1641 powder fine from being over-read as evidence of military service (cross-topic)." />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

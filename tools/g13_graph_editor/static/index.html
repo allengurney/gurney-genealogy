@@ -9,7 +9,7 @@
 <body>
   <header id="statusbar">
     <div class="brand">G13 Context Graph <span class="tag">editor</span></div>
-    <div id="status-metrics" class="metrics">loading…</div>
+    <div id="status-metrics" class="metrics" role="status" aria-label="Database status">loading…</div>
     <div class="actions">
       <button id="btn-refresh" title="Reload status and current view">Refresh</button>
       <button id="btn-export-recovery" title="Rewrite the rolling recovery export">Refresh export</button>
@@ -17,57 +17,58 @@
     </div>
   </header>
 
-  <div id="banner" class="banner hidden"></div>
+  <div id="banner" class="banner hidden" role="status" aria-live="polite"></div>
 
   <main>
-    <section id="left">
-      <nav class="tabs">
-        <button data-tab="items" class="tab active">Items</button>
-        <button data-tab="queue" class="tab">Review queue</button>
-        <button data-tab="search" class="tab">Search</button>
-        <button data-tab="create" class="tab">New item</button>
+    <section id="left" aria-label="Item lists and filters">
+      <nav class="tabs" role="tablist" aria-label="Panel views">
+        <button data-tab="items" class="tab active" role="tab" aria-selected="true" aria-controls="tab-items">Items</button>
+        <button data-tab="queue" class="tab" role="tab" aria-selected="false" aria-controls="tab-queue">Review queue</button>
+        <button data-tab="search" class="tab" role="tab" aria-selected="false" aria-controls="tab-search">Search</button>
+        <button data-tab="create" class="tab" role="tab" aria-selected="false" aria-controls="tab-create">New item</button>
       </nav>
 
-      <div id="tab-items" class="tabpane active">
-        <form id="filters" class="filters"></form>
+      <div id="tab-items" class="tabpane active" role="tabpanel" aria-label="Items">
+        <form id="filters" class="filters" aria-label="Item filters"></form>
         <div class="listmeta" id="items-meta"></div>
-        <ul id="item-list" class="itemlist"></ul>
+        <div class="hint"><kbd>/</kbd> filter · <kbd>↑</kbd><kbd>↓</kbd> move · <kbd>Enter</kbd> open</div>
+        <ul id="item-list" class="itemlist" role="listbox" aria-label="Research items"></ul>
       </div>
 
-      <div id="tab-queue" class="tabpane">
+      <div id="tab-queue" class="tabpane" role="tabpanel" aria-label="Review queue">
         <div class="queue-actions">
           <button id="queue-accept" class="ok">Accept selected</button>
           <button id="queue-reject" class="danger">Reject selected</button>
           <span id="queue-meta"></span>
         </div>
-        <ul id="queue-list" class="itemlist"></ul>
+        <ul id="queue-list" class="itemlist" role="listbox" aria-label="Machine-suggested items awaiting review"></ul>
       </div>
 
-      <div id="tab-search" class="tabpane">
+      <div id="tab-search" class="tabpane" role="tabpanel" aria-label="Search">
         <form id="search-form" class="filters">
-          <input type="text" id="search-terms" placeholder="FTS terms (space = AND)…" />
+          <input type="search" id="search-terms" placeholder="FTS terms (space = AND)…" aria-label="Full-text search terms" />
           <button type="submit">Search</button>
         </form>
-        <ul id="search-list" class="itemlist"></ul>
+        <ul id="search-list" class="itemlist" role="listbox" aria-label="Search results"></ul>
       </div>
 
-      <div id="tab-create" class="tabpane">
+      <div id="tab-create" class="tabpane" role="tabpanel" aria-label="New item">
         <div id="create-form"></div>
       </div>
     </section>
 
-    <section id="right">
+    <section id="right" aria-label="Item detail">
       <div id="detail" class="detail empty">Select an item to view and edit it.</div>
     </section>
   </main>
 
   <div id="modal-backdrop" class="modal-backdrop hidden">
-    <div class="modal">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
       <h3 id="modal-title">Confirm change</h3>
       <div id="modal-body"></div>
       <div class="modal-actions">
-        <button id="modal-commit" class="ok">Commit</button>
         <button id="modal-cancel">Discard</button>
+        <button id="modal-commit" class="ok">Commit</button>
       </div>
     </div>
   </div>

@@ -20,6 +20,21 @@
       ]
     },
     {
+      "topicId": "g13-colonial-weymouth-community",
+      "path": "research/people/_staging/g13-john-gurney/topics/colonial/02-weymouth-community.md",
+      "headingId": "colonial-weymouth-community",
+      "title": "Colonial Weymouth community",
+      "phase": "G3-increment",
+      "researchItemIds": [
+        "G13-RI-000018",
+        "G13-RI-000019",
+        "G13-RI-000020",
+        "G13-RI-000021",
+        "G13-RI-000022",
+        "G13-RI-000023"
+      ]
+    },
+    {
       "topicId": "g13-colonial-braintree-community",
       "path": "research/people/_staging/g13-john-gurney/topics/colonial/03-braintree-community.md",
       "headingId": "colonial-braintree-community",
@@ -36,6 +51,52 @@
         "G13-RI-000015",
         "G13-RI-000016",
         "G13-RI-000017"
+      ]
+    },
+    {
+      "topicId": "g13-colonial-frontier-rights",
+      "path": "research/people/_staging/g13-john-gurney/topics/colonial/04-frontier-rights.md",
+      "headingId": "colonial-frontier-rights",
+      "title": "Colonial frontier rights",
+      "phase": "G3-increment",
+      "researchItemIds": [
+        "G13-RI-000024",
+        "G13-RI-000025",
+        "G13-RI-000026",
+        "G13-RI-000027",
+        "G13-RI-000028",
+        "G13-RI-000029",
+        "G13-RI-000030",
+        "G13-RI-000031",
+        "G13-RI-000032"
+      ]
+    },
+    {
+      "topicId": "g13-colonial-material-life",
+      "path": "research/people/_staging/g13-john-gurney/topics/colonial/05-material-life.md",
+      "headingId": "colonial-material-life",
+      "title": "Colonial material life",
+      "phase": "G3-increment",
+      "researchItemIds": [
+        "G13-RI-000033",
+        "G13-RI-000034",
+        "G13-RI-000035",
+        "G13-RI-000036",
+        "G13-RI-000037"
+      ]
+    },
+    {
+      "topicId": "g13-colonial-record-coverage",
+      "path": "research/people/_staging/g13-john-gurney/topics/colonial/06-record-coverage.md",
+      "headingId": "colonial-record-coverage",
+      "title": "Colonial record coverage",
+      "phase": "G3-increment",
+      "researchItemIds": [
+        "G13-RI-000038",
+        "G13-RI-000039",
+        "G13-RI-000040",
+        "G13-RI-000041",
+        "G13-RI-000042"
       ]
     }
   ]

@@ -134,6 +134,49 @@ class StagedChange:
     summary: str = ""
 
 
+def coalesce_revision_intents(
+    intents: list[RevisionIntent],
+) -> list[RevisionIntent]:
+    """Merge intents that share ``(item_id, change_kind)`` into one, preserving
+    first-seen order.
+
+    ``item_revisions`` carries ``UNIQUE(database_revision, item_id, change_kind)``,
+    so a single batch (one ``database_revision``) may write at most one row per
+    ``(item_id, change_kind)``. But a legitimate batch can touch the same item
+    several times with the same kind — e.g. one evidence item that SUPPORTS
+    several findings produces one ``"update"`` intent per relation via
+    :func:`_op_add_relation`. Left as-is, the second write collides on the UNIQUE
+    key. Coalescing folds those into a single row whose ``before`` is the earliest
+    snapshot, ``after`` the latest (so the row reflects the item's final state),
+    and ``field_summary`` the concatenation of the distinct per-intent summaries.
+    """
+    order: list[tuple[str, str]] = []
+    merged: dict[tuple[str, str], RevisionIntent] = {}
+    summaries: dict[tuple[str, str], list[str]] = {}
+    for intent in intents:
+        key = (intent.item_id, intent.change_kind)
+        current = merged.get(key)
+        if current is None:
+            order.append(key)
+            merged[key] = RevisionIntent(
+                intent.item_id,
+                intent.change_kind,
+                intent.field_summary,
+                intent.before,
+                intent.after,
+            )
+            summaries[key] = [intent.field_summary] if intent.field_summary else []
+        else:
+            # Earliest ``before`` is kept (set on first sight); take the latest
+            # ``after`` so the coalesced row reflects the item's final state.
+            current.after = intent.after
+            if intent.field_summary and intent.field_summary not in summaries[key]:
+                summaries[key].append(intent.field_summary)
+    for key in order:
+        merged[key].field_summary = " ".join(summaries[key])
+    return [merged[key] for key in order]
+
+
 # --------------------------------------------------------------------------- #
 # Blocking-error delta
 # --------------------------------------------------------------------------- #
