@@ -2,6 +2,22 @@
   "subject": "ancestor-g13-john-gurney-1",
   "status": "staging",
   "phase": "P + G3-increment",
+  "website": {
+    "title": "John Gurney Research Library",
+    "hubSlug": "g13-john-gurney",
+    "introFile": "research/people/_staging/g13-john-gurney/topics/00-research-library.md",
+    "groups": [
+      { "id": "colonial", "title": "Colonial life", "order": 10 },
+      { "id": "family", "title": "Family", "order": 20 },
+      { "id": "research-state", "title": "Research state", "order": 50 }
+    ],
+    "related": {
+      "factSheetUrl": "/fact-sheets/g13-john-gurney-fact-sheet",
+      "factSheetTitle": "John Gurney fact sheet",
+      "caseFileUrl": "/key-research/john-gurney-case-file",
+      "caseFileTitle": "John Gurney identity case file"
+    }
+  },
   "topics": [
     {
       "topicId": "g13-colonial-arrival-chronology",
@@ -10,6 +26,11 @@
       "title": "Colonial arrival chronology",
       "phase": "P",
       "coverageStatus": "increment-complete",
+      "group": "colonial",
+      "order": 10,
+      "publicSlug": "colonial/arrival-chronology",
+      "publicationStatus": "public",
+      "summary": "The surviving evidence for when John Gurney reached New England: at Weymouth by 30 May / 2 June 1641, arrived 1638–early 1641, bounded below by his original Weymouth land grants and above by the post-1640 falloff of the Great Migration.",
       "researchItemIds": [
         "G13-RI-000001",
         "G13-RI-000002",
@@ -28,6 +49,11 @@
       "title": "Colonial Weymouth community",
       "phase": "G3-increment",
       "coverageStatus": "increment-complete",
+      "group": "colonial",
+      "order": 20,
+      "publicSlug": "colonial/weymouth-community",
+      "publicationStatus": "public",
+      "summary": "John's first New England years, roughly 1638/9–1642/4, as an admitted inhabitant of Weymouth: town-granted land in the East and Mill Fields, a credit tie to the town's minister, documented associates among the founding settlers, and the thin limit of his militia footprint.",
       "researchItemIds": [
         "G13-RI-000018",
         "G13-RI-000019",
@@ -47,6 +73,11 @@
       "title": "Colonial Braintree community",
       "phase": "G3-increment",
       "coverageStatus": "increment-complete",
+      "group": "colonial",
+      "order": 30,
+      "publicSlug": "colonial/braintree-community",
+      "publicationStatus": "public",
+      "summary": "John's settled colonial home from about 1645 to his death in 1662/3: the 1645 plantation petition, the fifteen-year tenancy of William Tyng's farm (the future Adams family seat), his own Monatiquot River freehold, his tailor's trade, and his standing among Braintree neighbours.",
       "researchItemIds": [
         "G13-RI-000008",
         "G13-RI-000009",
@@ -68,6 +99,11 @@
       "title": "Colonial frontier rights",
       "phase": "G3-increment",
       "coverageStatus": "increment-complete",
+      "group": "colonial",
+      "order": 40,
+      "publicSlug": "colonial/frontier-rights",
+      "publicationStatus": "public",
+      "summary": "The proprietary rights John took up in newly-forming inland plantations in his last years, 1659–1663 — a Billerica house-lot and proprietor's share, a Mendon allotment, and the unlocated Quinapaug interest carried into his estate — none of which became his residence.",
       "researchItemIds": [
         "G13-RI-000024",
         "G13-RI-000025",
@@ -87,6 +123,11 @@
       "title": "Colonial material life",
       "phase": "G3-increment",
       "coverageStatus": "increment-complete",
+      "group": "colonial",
+      "order": 50,
+      "publicSlug": "colonial/material-life",
+      "publicationStatus": "public",
+      "summary": "The material texture of John's life read from his 1663 estate inventory: an all-movable estate of £55 14s 6d held mostly in livestock and the gear of a working farm, a sparse but sufficient household, and not one tool of the tailoring trade his deeds name him by.",
       "researchItemIds": [
         "G13-RI-000033",
         "G13-RI-000034",
@@ -102,12 +143,79 @@
       "title": "Colonial record coverage",
       "phase": "G3-increment",
       "coverageStatus": "increment-complete",
+      "group": "colonial",
+      "order": 60,
+      "publicSlug": "colonial/record-coverage",
+      "publicationStatus": "public",
+      "summary": "The shape of John's surviving documentary footprint: a dense 1641–1663 civic, land, court, and probate trail across four towns, with no vital or church record fixing his own person and no surviving record stating his English origin, parentage, or prior residence.",
       "researchItemIds": [
         "G13-RI-000038",
         "G13-RI-000039",
         "G13-RI-000040",
         "G13-RI-000041",
         "G13-RI-000042"
+      ]
+    },
+    {
+      "topicId": "g13-family-wives-marriages",
+      "path": "research/people/_staging/g13-john-gurney/topics/family/10-wives-marriages.md",
+      "headingId": "family-wives-and-marriages",
+      "title": "Family — wives and marriages",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "family",
+      "order": 10,
+      "publicSlug": "family/wives-and-marriages",
+      "publicationStatus": "public",
+      "summary": "John's two marriages: Mary, married in England by the mid-1620s, mother of all his children, died at Braintree 20 September 1661; and the much-married widow Grizzell three weeks later — with the misread \"John Cheny\" Braintree town record resolved as John Gurney.",
+      "researchItemIds": [
+        "G13-RI-000058",
+        "G13-RI-000059",
+        "G13-RI-000060",
+        "G13-RI-000061",
+        "G13-RI-000062",
+        "G13-RI-000063",
+        "G13-RI-000064"
+      ]
+    },
+    {
+      "topicId": "g13-research-source-coverage",
+      "path": "research/people/_staging/g13-john-gurney/topics/research-state/40-source-coverage.md",
+      "headingId": "research-state-source-coverage",
+      "title": "Research-state source coverage",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "research-state",
+      "order": 10,
+      "publicSlug": "research-state/source-coverage",
+      "publicationStatus": "public",
+      "summary": "The state of the online search beyond the FamilySearch, Internet Archive, and Google corpus: the specialist emigrant compilations, digitized colonial-church indexes, and Massachusetts aggregators searched for John Gurney, and what each returned.",
+      "researchItemIds": [
+        "G13-RI-000048",
+        "G13-RI-000049",
+        "G13-RI-000050",
+        "G13-RI-000051",
+        "G13-RI-000052",
+        "G13-RI-000053"
+      ]
+    },
+    {
+      "topicId": "g13-research-open-questions",
+      "path": "research/people/_staging/g13-john-gurney/topics/research-state/41-open-questions.md",
+      "headingId": "research-state-open-questions",
+      "title": "Research-state open questions",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "research-state",
+      "order": 20,
+      "publicSlug": "research-state/open-questions",
+      "publicationStatus": "public",
+      "summary": "The standing unresolved questions of the John Gurney research program: his English origin and parentage, the identity and English marriage of his first wife Mary, and the untested Y-DNA discriminator — reconciled against the canonical research-leads catalogue.",
+      "researchItemIds": [
+        "G13-RI-000054",
+        "G13-RI-000055",
+        "G13-RI-000056",
+        "G13-RI-000057"
       ]
     }
   ]

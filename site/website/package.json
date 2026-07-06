@@ -12,7 +12,8 @@
     "serve": "npm run sync:content && npm run data:generate && npm run clean && eleventy --serve",
     "validate:site": "node scripts/validate-site.js",
     "validate": "npm run build && npm run validate:site",
-    "package": "npm run validate && node scripts/package-site.js"
+    "package": "npm run validate && node scripts/package-site.js",
+    "preview:g13": "node scripts/build-g13-preview.js"
   },
   "keywords": [],
   "author": "Allen Lawrence Gurney",

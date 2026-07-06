@@ -177,6 +177,18 @@ function indexCompanions() {
       });
     });
 
+  // G13 package mode (Plan 03): the annex hub replaces the flat companion at
+  // the same public route, so the ancestor record keeps its button.
+  const { getPackageConfig } = require("./sync-g13-package");
+  const g13Package = getPackageConfig();
+  if (g13Package.enabled && !byGen.has(13)) {
+    byGen.set(13, {
+      label: "Research notes",
+      url: `/research/notes/${g13Package.hubSlug}.html`,
+      style: "research",
+    });
+  }
+
   return byGen;
 }
 

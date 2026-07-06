@@ -1,0 +1,249 @@
+/*
+ * G13 research annex + evidence drawer (Plans 03/04).
+ * Self-contained: annex cards/navigation, item-kind chips (semantic palette
+ * from the graph editor, §6, re-derived for light surfaces with dark text so
+ * color never carries meaning alone — every chip also carries its label),
+ * permanent evidence/finding pages, and the drawer/bottom sheet.
+ */
+
+/* ------------------------------ annex hub ------------------------------ */
+.g13-breadcrumbs {
+  font-size: 0.85rem;
+  margin: 0 0 1rem;
+  color: #5a6672;
+}
+.g13-breadcrumbs a { text-decoration: none; }
+.g13-crumb-sep { margin: 0 0.35rem; }
+
+.g13-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: 0.9rem;
+  margin: 0.75rem 0 1.5rem;
+}
+.g13-card {
+  display: block;
+  border: 1px solid #d8dee5;
+  border-radius: 8px;
+  padding: 0.9rem 1rem;
+  text-decoration: none;
+  background: #fbfcfd;
+  color: inherit;
+}
+.g13-card:hover, .g13-card:focus-visible {
+  border-color: #7d8ea3;
+  background: #f2f6fa;
+}
+.g13-card-title {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+.g13-card-summary {
+  display: block;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: #46525e;
+}
+.g13-topic-index ul { margin: 0.25rem 0 0.75rem; }
+
+.g13-topic-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #d8dee5;
+  font-size: 0.9rem;
+}
+.g13-topic-nav a { min-height: 44px; display: inline-flex; align-items: center; }
+
+/* --------------------------- evidence links ---------------------------- */
+.evidence-link {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #9db4c9;
+  border-radius: 999px;
+  padding: 0 0.55em;
+  margin-left: 0.35em;
+  line-height: 1.6;
+  vertical-align: 0.12em;
+  color: #24587c;
+  background: #eef5fa;
+}
+.evidence-link:hover, .evidence-link:focus-visible {
+  background: #24587c;
+  color: #ffffff;
+}
+
+/* ---------------------------- kind chips ------------------------------- */
+.g13-chip-row { margin: 0 0 0.4rem; }
+.g13-kind {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  padding: 0.1em 0.5em;
+  border: 1px solid;
+  vertical-align: middle;
+}
+.g13-kind-source_evidence { color: #0e5b66; background: #e4f5f8; border-color: #56b6c2; }
+.g13-kind-research_finding { color: #0f6b47; background: #e4f8ef; border-color: #3ecf8e; }
+.g13-kind-analysis { color: #533d96; background: #f0ecfc; border-color: #a78bfa; }
+.g13-kind-identity_hypothesis { color: #8a3376; background: #fbecf7; border-color: #e08fd0; }
+.g13-kind-negative_result { color: #3d4c5c; background: #eef2f6; border-color: #8fa3b8; }
+.g13-kind-evidence_conflict { color: #8c4310; background: #fdf0e4; border-color: #f0883e; }
+.g13-kind-published_source_statement { color: #1c4f8f; background: #e9f2fe; border-color: #5aa9ff; }
+.g13-kind-project_statement { color: #444d57; background: #f0f2f4; border-color: #9aa5b1; }
+.g13-kind-open_question { color: #7a5410; background: #fbf3e0; border-color: #e5b567; }
+
+/* ------------------- evidence/finding page + drawer -------------------- */
+.g13-finding .g13-heading { margin-top: 0.1rem; }
+.g13-statement { font-size: 1.02rem; }
+.g13-summary { color: #46525e; }
+.g13-meta { font-size: 0.85rem; color: #5a6672; }
+.g13-dates { font-size: 0.85rem; color: #5a6672; }
+.g13-section h3 {
+  font-size: 0.92rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #5a6672;
+  margin: 1.4rem 0 0.4rem;
+}
+.g13-list { list-style: none; margin: 0; padding: 0; }
+.g13-list > li { padding: 0.3rem 0; }
+.g13-relation-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #5a6672;
+  margin-right: 0.25rem;
+}
+.g13-relation .g13-kind { margin-right: 0.3rem; }
+.g13-relation-note {
+  display: block;
+  font-size: 0.82rem;
+  color: #5a6672;
+  margin-top: 0.1rem;
+}
+.g13-excerpt {
+  margin: 0.35rem 0 0.2rem;
+  padding: 0.3rem 0.75rem;
+  border-left: 3px solid #d8dee5;
+  font-size: 0.9rem;
+  color: #46525e;
+  font-style: italic;
+  overflow-wrap: anywhere;
+}
+.g13-source { overflow-wrap: anywhere; }
+.g13-view-all { margin: 0.25rem 0 0; font-size: 0.88rem; }
+.g13-view-all summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; }
+.g13-treatment { margin-top: 1.4rem; font-weight: 600; }
+.g13-context-line { font-size: 0.9rem; color: #46525e; }
+.g13-technical {
+  margin-top: 1.6rem;
+  font-size: 0.82rem;
+  color: #5a6672;
+}
+.g13-technical summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; }
+.g13-technical code { overflow-wrap: anywhere; }
+
+/* ------------------------------- drawer -------------------------------- */
+/* The site header is sticky with z-index 2500; the drawer sits BELOW it
+   (top offset measured at open time) and under the header in stacking order,
+   so the menu bar stays visible and clickable. The utility FAB (z 2600) is
+   hidden while the drawer is open. */
+body.g13-drawer-open .utility-fab { display: none; }
+.g13-drawer-backdrop {
+  position: fixed;
+  top: var(--g13-drawer-top, 0);
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(15, 23, 32, 0.45);
+  z-index: 2400;
+}
+.g13-drawer {
+  position: fixed;
+  z-index: 2450;
+  top: var(--g13-drawer-top, 0);
+  right: 0;
+  bottom: 0;
+  width: min(34rem, 92vw);
+  background: #ffffff;
+  box-shadow: -6px 0 24px rgba(15, 23, 32, 0.25);
+  display: flex;
+  flex-direction: column;
+  transform: translateX(0);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .g13-drawer { transition: transform 0.18s ease-out; }
+  .g13-drawer[data-opening] { transform: translateX(100%); }
+}
+.g13-drawer-head {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid #d8dee5;
+  background: #f7f9fb;
+}
+.g13-drawer-trail {
+  flex: 1;
+  font-size: 0.82rem;
+  color: #5a6672;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.g13-drawer-back, .g13-drawer-close {
+  border: 1px solid #c6cfd8;
+  background: #ffffff;
+  border-radius: 6px;
+  font: inherit;
+  font-size: 0.85rem;
+  padding: 0.3rem 0.7rem;
+  min-height: 44px;
+  min-width: 44px;
+  cursor: pointer;
+}
+.g13-drawer-back:hover, .g13-drawer-close:hover,
+.g13-drawer-back:focus-visible, .g13-drawer-close:focus-visible {
+  background: #eef2f6;
+}
+.g13-drawer-body {
+  overflow-y: auto;
+  padding: 1rem 1.25rem 2rem;
+  -webkit-overflow-scrolling: touch;
+}
+.g13-drawer-body .g13-heading { font-size: 1.25rem; }
+.g13-drawer-foot {
+  border-top: 1px solid #d8dee5;
+  padding: 0.6rem 1.25rem;
+  font-size: 0.85rem;
+  background: #f7f9fb;
+}
+
+@media (max-width: 767px) {
+  .g13-drawer {
+    top: auto;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: 92dvh;
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 -6px 24px rgba(15, 23, 32, 0.25);
+  }
+}
+@media (max-width: 767px) and (prefers-reduced-motion: no-preference) {
+  .g13-drawer[data-opening] { transform: translateY(100%); }
+}
+
+/* keep long source strings and tables inside the viewport on small screens */
+.g13-finding table { display: block; overflow-x: auto; }

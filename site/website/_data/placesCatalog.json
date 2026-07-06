@@ -4524,6 +4524,56 @@
     "ancestorCount": 1
   },
   {
+    "placeId": "place-gurney-tyng-farm-quincy-massachusetts-usa",
+    "name": "John Gurney's leased Tyng farm (later the Adams Old House), Braintree/Quincy, Massachusetts, USA",
+    "title": "Adams Old House / 'the Gurney farm'",
+    "seoTitle": "Adams Old House / 'the Gurney farm'",
+    "siteName": "Adams Old House / 'the Gurney farm'",
+    "streetAddress": "",
+    "region": "Braintree/Quincy, Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "William Tyng's 45-acre farm, Braintree",
+      "the Gurney farm, Braintree",
+      "Adams Old House / Peace field",
+      "Mount Wollaston, Braintree"
+    ],
+    "shortDescription": "45-acre farm John Gurney leased from William Tyng 1647–1662; its northern part became the Adams family seat",
+    "longDescription": "In 1647 William Tyng leased John Gurney a 45-acre farm in Braintree (the Mount Wollaston / north-precinct area, now central Quincy) for ten years; Gurney continued leasing it from Tyng's daughters Bethia and Mercy until 1662. It is the holding in Tyng's 1653 probate inventory recorded as land 'in the possession of John Gurney' (45 acres per the NPS/Sargent reading, 48 acres per the NEHGR abstract). The northern portion of this 'Gurney farm' later became the Adams family seat: 'The Old House' (Peace field), first acquired by the Adams family in 1787, and the nearby Adams Birthplaces of John Adams and John Quincy Adams. Per the NPS Cultural Landscape Report (1997, citing the Ezekiel Sargent MSS). The same record stream notes the larger ~500-acre Tyng farm (Salter's Farm / Mount Wollaston) was leased to John Read then Gregory Belcher.",
+    "placeType": "locality",
+    "extantStatus": "site extant (Adams National Historical Park)",
+    "extantStatusDescription": "The northern end of the leased farm is now within Adams National Historical Park, Quincy.",
+    "coordinate": {
+      "lat": 42.239204,
+      "lng": -71.00361
+    },
+    "coordinatePrecision": "high",
+    "coordinateBasis": "northern end of the 45-acre Gurney/Tyng farm (Adams Birthplaces / Old House vicinity), per the NPS CLR and the Sargent map; high precision per supplied coordinate",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "Ezekiel Sargent, 'William Tyng's 45-acre farm, Braintree, 1649' (Quincy Historical Society)",
+    "siteUrl": "https://www.nps.gov/adam",
+    "siteLabel": "Adams National Historical Park",
+    "researchUrl": "/research/places/gurney-tyng-farm-quincy-ma.html",
+    "researchSlug": "gurney-tyng-farm-quincy-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "type": "ancestor",
+        "gen": "G13",
+        "name": "John Gurney",
+        "dates": "b. c. 1609-12 — d. 1662/3",
+        "role": "landholding / property reference",
+        "lineageStatus": "Probable",
+        "displayLineageStatus": "Probable",
+        "url": "/fact-sheets/g13-john-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
     "placeId": "place-ardleigh-essex-england",
     "name": "Ardleigh, Essex, England",
     "title": "Ardleigh, Essex, England",
@@ -5028,8 +5078,8 @@
     "aliases": [
       "The East Field, Weymouth"
     ],
-    "shortDescription": "John Gurney Sr. land grant, 1651–52; parcel unlocated",
-    "longDescription": "An open-field division of early Weymouth in which John Gurney Sr. (G13) held a two-acre grant recorded in Nash's 1643 property list (Historical Sketch of Weymouth, Appendix C, p. 258) as 'first granted to John Gurny' — by then held by Robert Randoll, a Wendover, Buckinghamshire emigrant. The East Field lay in the original North/East Weymouth settlement: its lots are bounded in the records 'with the sea,' the Back River, and 'a greate pond' (Whitman's Pond), placing it east of the first settlement toward the water. The exact bounds are not established from sources to hand.",
+    "shortDescription": "John Gurney Sr. original grantee of two East Field lots, c. 1639–41 (reassigned by 1643); parcels unlocated",
+    "longDescription": "An open-field division of early Weymouth in which John Gurney Sr. (G13) was the original grantee of two separate two-acre lots, confirmed by the manuscript Land Grants book (film 007009659): one (ms p. 12, 'John Gurny') by 1643 held by Robert Randoll of Wendover, Buckinghamshire, bounded east by Edmond Hart and the highway, west by Robert Cooke, north and south by Nathaniel Addames; a second (ms p. 23, 'John Gurnie') held by Nathaniel Addames, bounded east by Jeffery Staple, west by Robert Randoll, north by a cedar swamp, south by the highway. Both were 'first granted/given to' John and reassigned by the 1643 survey. The East Field lay in the original North/East Weymouth settlement, its lots bounded 'with the sea,' the Back River, and 'a greate pond' (Whitman's Pond). Exact bounds are not established from sources to hand.",
     "placeType": "locality",
     "extantStatus": "unknown",
     "extantStatusDescription": "",
@@ -5200,6 +5250,54 @@
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
         "url": "/fact-sheets/g02-lester-hayes-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-gurney-monatiquot-freehold-braintree-massachusetts-usa",
+    "name": "John Gurney's Monatiquot River freehold, Braintree, Massachusetts, USA",
+    "title": "Gurney house & orchard, Monatiquot",
+    "seoTitle": "Gurney house & orchard, Monatiquot",
+    "siteName": "Gurney house & orchard, Monatiquot",
+    "streetAddress": "",
+    "region": "Braintree, Massachusetts, USA",
+    "regionGroup": "north-america",
+    "aliases": [
+      "Gurney house and orchard, Monatiquot",
+      "Monotecott, Braintree"
+    ],
+    "shortDescription": "House, orchard, and ~5.5 acres on the Monatiquot River that John Gurney owned and sold to Richard Thayer, 1661/2",
+    "longDescription": "A house, orchard, a five-acre parcel on the Monatiquot River ('at Monotecott'), and an adjoining half-acre that John Gurney owned outright in the Braintree middle precinct (now Braintree center/East Braintree) and sold to Richard Thayer, planter, for £14 on 12 February 1661/2 (possession given 16 April 1662). The five-acre parcel was bounded by the Monatiquot River on the south and the lands of Richard Thayer, Nathaniel Mott, and John Hodman (east), Symond Crosby (north), and George Oldredge (west). This freehold was distinct from, and several miles from, the Tyng leasehold up at Mount Wollaston.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 42.21,
+      "lng": -70.992
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "north bank of the Monatiquot River in Braintree center/East Braintree, per the deed's 'at Monotecott' and the river as the parcel's south bound; parcel not surveyed",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/gurney-monatiquot-freehold-braintree-ma.html",
+    "researchSlug": "gurney-monatiquot-freehold-braintree-ma",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g13-john-gurney-1",
+        "type": "ancestor",
+        "gen": "G13",
+        "name": "John Gurney",
+        "dates": "b. c. 1609-12 — d. 1662/3",
+        "role": "landholding / property reference",
+        "lineageStatus": "Probable",
+        "displayLineageStatus": "Probable",
+        "url": "/fact-sheets/g13-john-gurney-fact-sheet.html"
       }
     ],
     "ancestorCount": 1
@@ -5644,7 +5742,7 @@
     "aliases": [
       "The Mill Field, Weymouth"
     ],
-    "shortDescription": "John Gurney Sr. land grant, 1651–52; parcel unlocated",
+    "shortDescription": "John Gurney Sr. original grantee of a 4-acre Mill Field lot, c. 1639–41 (reassigned by 1643); parcel unlocated",
     "longDescription": "An open-field division of early Weymouth in which John Gurney Sr. (G13) held a four-acre grant recorded in Nash's 1643 property list as 'first giuen to John Gurnie' under the land of Thomas Richardes, bounded east by Nicholas Norton, west by Richard Rawlings, north by John Giles, south by William Brandon of Ashton Clinton, Buckinghamshire (Nash, Historical Sketch of Weymouth, Appendix C, p. 278). The Mill Field lay in East Weymouth near Whitman's Pond and the early mills (the Bates Mill of 1640) and Mill River: a parallel grant to Matthew Pratt is described as 'in the mill field, now east of Weymouth' and 'on the west side of Mill River,' and another Mill Field lot is 'bounded on the East and South with Hingham Line.' The parcel's exact bounds are not established from sources to hand.",
     "placeType": "locality",
     "extantStatus": "unknown",

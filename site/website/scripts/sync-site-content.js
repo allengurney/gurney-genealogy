@@ -1,8 +1,13 @@
 const fs = require("fs");
 const path = require("path");
+const { getPackageConfig, syncG13Package } = require("./sync-g13-package");
 
 const projectRoot = path.resolve(__dirname, "..");
 const repoRoot = path.resolve(projectRoot, "..", "..");
+
+// G13 package mode (Plan 03): when enabled, the topic package claims the
+// canonical companion route, so the flat legacy G13 companion is suppressed.
+const g13Package = getPackageConfig();
 
 const factSheetSource = path.join(repoRoot, "fact-sheets");
 const factSheetTarget = path.join(projectRoot, "fact-sheets");
@@ -115,6 +120,10 @@ function syncResearchCompanions() {
 
   const copied = fs.readdirSync(companionSource, { withFileTypes: true })
     .filter(entry => entry.isFile() && entry.name.endsWith(".research.md"))
+    .filter(entry => {
+      if (!g13Package.enabled) return true;
+      return companionPublicSlug(companionSlug(entry.name)) !== g13Package.hubSlug;
+    })
     .sort((a, b) => a.name.localeCompare(b.name))
     .map(entry => {
       const sourcePath = path.join(companionSource, entry.name);
@@ -223,4 +232,10 @@ const companionCount = syncResearchCompanions();
 const highlightsSynced = syncResearchHighlights();
 const keyResearchCount = syncKeyResearch();
 const publishedTopics = syncPublishedTopics();
+const g13Result = syncG13Package();
 console.log(`Synced ${factCount} fact sheets, ${companionCount} research companions, ${highlightsSynced ? 1 : 0} highlights file, ${keyResearchCount} key research files, and ${publishedTopics.length} published topics into the site source.`);
+console.log(
+  g13Result.enabled
+    ? `G13 package mode '${g13Result.mode}': generated ${g13Result.pages} annex/evidence/finding pages.`
+    : "G13 package mode off: legacy companion build."
+);

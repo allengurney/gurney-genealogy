@@ -96,6 +96,42 @@
     "notes": "Derivative American-line biographical/genealogical entry. User extract includes John Gurney of Braintree, a probable Southwark origin tradition, and the statement that arms kept by American Gurneys show connection with the Norfolk Gurneys. Use the arms statement as a moderate positive family-memory/heraldic lead for Candidate B; do not use the birth/Southwark assertions as controlling facts."
   },
   {
+    "sourceId": "ancestry-child-apprentices-christs-hospital-1617-1778",
+    "shortTitle": "Ancestry / Coldham, Child Apprentices in America from Christ's Hospital, London, 1617–1778",
+    "citation": "Peter Wilson Coldham, Child Apprentices in America from Christ's Hospital, London, 1617–1778; database, Ancestry.com (database id 49104).",
+    "archive": "Ancestry.com (subscription); after Coldham",
+    "url": "https://www.ancestry.com/search/collections/49104/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/ancestry-child-apprentices-christs-hospital-1617-1778.md",
+    "notes": "Searched 2026-07-03, Gurn* wildcard (hits user-verified in session): four hits (Gurnell Mantle & Michael p.76; Gurney Ann & William p.67; Mary p.86; index p.147), all eighteenth-century; no John and none in the emigrant window. Part of lead L-170."
+  },
+  {
+    "sourceId": "ancestry-emigrants-in-bondage-1614-1775",
+    "shortTitle": "Ancestry / Coldham, Emigrants in Bondage, 1614–1775",
+    "citation": "Peter Wilson Coldham, The Complete Book of Emigrants in Bondage, 1614–1775 (transported felons and bonded servants); database, Ancestry.com (database id 61074).",
+    "archive": "Ancestry.com (subscription); after Coldham",
+    "url": "https://www.ancestry.com/search/collections/61074/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/ancestry-emigrants-in-bondage-1614-1775.md",
+    "notes": "Searched 2026-07-03, Gurn* wildcard: four Gurn-variant transportees across 1614–1775, earliest Mary Gurney (Middlesex, Mar 1683); no Gurney transportee in the 1614–1665 window. Bounds the 'not a bonded/transported man' reading for the G13 emigrant. Part of lead L-170."
+  },
+  {
+    "sourceId": "ancestry-english-adventurers-emigrants-1609-1660",
+    "shortTitle": "Ancestry / Coldham, English Adventurers and Emigrants, 1609–1660",
+    "citation": "Peter Wilson Coldham, English Adventurers and Emigrants, 1609–1660: Abstracts of Legal Proceedings in the High Court of Admiralty and Court of King's Bench; database, Ancestry.com (database id 49150).",
+    "archive": "Ancestry.com (subscription); after Coldham, from TNA High Court of Admiralty / King's Bench examinations",
+    "url": "https://www.ancestry.com/search/collections/49150/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/ancestry-english-adventurers-emigrants-1609-1660.md",
+    "notes": "Searched 2026-07-03 (authenticated) with surname wildcard Gurn* for a G13 John Gurney emigration record: two hits, both 'Gurnard's Head, Bermuda' (the ship Garland driven ashore, Oct 1619) — a place false friend, no Gurney person. Negative for the emigrant window. Reached via the Ancestry 'Coldham' card-catalog keyword sweep (13 databases; Coldham's Complete Book of Emigrants 1607–1660 is not among them). Part of lead L-170."
+  },
+  {
     "sourceId": "ancestry-norfolk-1535-1812",
     "shortTitle": "Ancestry / NRO, Norfolk Church of England Baptism, Marriages and Burials, 1535-1812",
     "citation": "",
@@ -528,6 +564,18 @@
     "notes": "Catalogue lead for Henry Gurnay's manuscript commonplace book. The MARCO page did not render in this pass, but the URL should be retained as the direct manuscript-control lead for future review."
   },
   {
+    "sourceId": "boston-town-records-1634-1660",
+    "shortTitle": "Boston Town Records 1634-1660 (Book of Possessions)",
+    "citation": "Second Report of the Record Commissioners of the City of Boston: Boston Town Records, 1634-1660, and the Book of Possessions. 2nd ed. Boston, 1881.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/secondreportofre00bost",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/boston-town-records-1634-1660.md",
+    "notes": "Broad Gurney-variant sweep of the body (Modern set + OCR garbles, fuzzy), confirmed on two independent text copies (IA + sources/intake/new/pdfs/secondreportofre00bost.txt): NEGATIVE for Gurney in any spelling; body reaches 1659-1660, Book of Possessions present. The FS-index 'Garnsey' = the separate Garnsey/Guernsey family of Dorchester, not Gurney. William Tyng and John Newgate pervasive. Bears on Anderson's unverified 'Boston' settlement (lead L-193). FS manuscript film 007939452 not read directly."
+  },
+  {
     "sourceId": "braintree-records-1640-1793-1886",
     "shortTitle": "Braintree town records, 1640-1793",
     "citation": "Braintree (Mass.). Records of the Town of Braintree, 1640 to 1793. Edited by Samuel A. Bates. Randolph, Mass.: D. H. Huxford, printer, 1886.",
@@ -598,6 +646,30 @@
     "mediaPath": "",
     "validationPath": "sources/validations/bury-st-james-registers.md",
     "notes": "Gurn* sweep 2026-06-13 (20 cards). No 1630s John Gurney household — clears Bury as John Gurney-1's natal origin (bears on Banks's attribution). The Bury Gurneys are the Thomas x Lidda Broddish household (m. c.1633-35) and later. Machine-transcript level."
+  },
+  {
+    "sourceId": "adams-genesis-massachusetts-town-1892",
+    "shortTitle": "C. F. Adams, Genesis of the Massachusetts Town (1892)",
+    "citation": "Adams, Charles Francis. \"The Genesis of the Massachusetts Town, and the Development of Town-Meeting Government.\" Proceedings of the Massachusetts Historical Society, 2nd series, vol. 7 (1891–1892), pp. 172–263; Weymouth treatment pp. 190–192.",
+    "archive": "Internet Archive (item proceedingsofmass2v7mass).",
+    "url": "https://archive.org/details/proceedingsofmass2v7mass",
+    "corpusStatus": "extract",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/adams-genesis-massachusetts-town-1892.md",
+    "notes": "Land-system context for Weymouth: undated property records, no proprietor-body, the 6 April 1646 anti-stranger order, and the non-resident-proprietor doctrine. No Gurney named. Verbatim extract at sources/corpus_supplement/adams-genesis-massachusetts-town-1892-weymouth-land.md."
+  },
+  {
+    "sourceId": "adams-history-of-braintree-1891",
+    "shortTitle": "C. F. Adams, History of Braintree (1891)",
+    "citation": "Adams, Charles Francis. History of Braintree, Massachusetts (1639–1708), the North Precinct of Braintree (1708–1792), and the Town of Quincy (1792–1889). Cambridge: Riverside Press, 1891.",
+    "archive": "Internet Archive (item historyofbraintr00adam).",
+    "url": "https://archive.org/details/historyofbraintr00adam",
+    "corpusStatus": "extract",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/adams-history-of-braintree-1891.md",
+    "notes": "North-Precinct/Quincy-scoped town history. Records Tyng's 1639 purchase of Mount Wollaston and \"large allotments, indicative of a non-resident ownership\" post-1637 (p. 5). Names no Gurney; John Gurney's freehold was in the South Precinct on the Monatiquot. Extract folded into sources/corpus_supplement/adams-genesis-massachusetts-town-1892-weymouth-land.md."
   },
   {
     "sourceId": "calder-new-haven-colony-1934",
@@ -1018,6 +1090,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/dicamillo-gurneys-manor.md",
     "notes": "Country-house entry for Gurney's Manor, Hingham, Norfolk. DiCamillo identifies the house as fully extant, Grade II, private, circa 1600 with circa 1700 and 1826 alterations/additions, with earliest elements possibly dating to the 1570s. Useful to correct any conflation between Hingham Gurney's Manor and Harpley."
+  },
+  {
+    "sourceId": "digital-commonwealth",
+    "shortTitle": "Digital Commonwealth: Massachusetts Collections Online",
+    "citation": "Digital Commonwealth: Massachusetts Collections Online (statewide digital-repository aggregator), Digital Commonwealth, Inc. / Boston Public Library.",
+    "archive": "Digital Commonwealth, Inc. / Boston Public Library",
+    "url": "https://www.digitalcommonwealth.org/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/digital-commonwealth.md",
+    "notes": "Searched 2026-07-03: keyword 'Gurney Braintree' returns zero items. The Massachusetts Archives Digital Repository (Preservica, digitalarchives.sec.state.ma.us) was not separately swept (low priority once the Massachusetts Archives vol.45 petition target was imaged). Negative for the G13 orbit."
   },
   {
     "sourceId": "dnb-bocking",
@@ -2076,6 +2160,18 @@
     "notes": "Sir John Gurney d.1408 biography. Extract preserves family, offices, estates, biography, and source notes. Useful for Harpley, West Barsham, Hardingham, Hellesdon/Drayton, Wauncy and Heylesdon inheritance, Norfolk/Suffolk sheriff and JP service, Arundel/Lancastrian affinity, only son Edmund dying under age, and estates passing to nephew Thomas."
   },
   {
+    "sourceId": "history-of-town-of-hingham-1893",
+    "shortTitle": "History of the Town of Hingham, Massachusetts (1893)",
+    "citation": "History of the Town of Hingham, Massachusetts. 3 vols. Hingham: published by the town, 1893. Vol. 1 (history, incl. Daniel Cushing's settler list, pp. 201–203); vol. 2 (genealogies, English parishes of origin).",
+    "archive": "Internet Archive (items historyoftownofh01hing, historyoftownofh02hing).",
+    "url": "https://archive.org/details/historyoftownofh01hing",
+    "corpusStatus": "extract",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/history-of-town-of-hingham-1893.md",
+    "notes": "Documents the Norfolk emigrant cohort (206 from Hingham, Norfolk and vicinity, 1633–39; Diligent 1638 = 133) that settled adjacent to Weymouth. No colonial Gurney at Hingham. Verbatim extract at sources/corpus_supplement/hingham-massachusetts-norfolk-emigrant-cohort-1633-1639.md."
+  },
+  {
     "sourceId": "history-of-weymouth",
     "shortTitle": "History of Weymouth, Massachusetts (1923)",
     "citation": "Chamberlain, George Walter, and Channing Harris Cox, comps. History of Weymouth, Massachusetts. 4 vols. Published by the Weymouth Historical Society (Howard H. Joy, President), under direction of the town. Weymouth, Mass.: Weymouth Historical Society, 1923. Vol. 3 carries the Genealogy of Weymouth families (John Gurney Sr. and Richard Gurney entries).",
@@ -2460,6 +2556,18 @@
     "notes": "MHC Form B for the Asa Gurney homestead, lookup key CUM.151 in MACRIS. The typed history page independently corroborates Benjamin Gurney G9's documented Cummington land transactions (Lot 59-1 purchase 5 Nov 1770; 1787 Philip Shaw farm exchange; move to the village/southerly Minot Grant) and dates son Asa's purchase of Lots 5 & 6 (1795) and the present house (1808). Sources cited on the form: 'Only One Cummington' (Foster & Streeter), deeds, tax records. Handwritten margin adds later family members John Wesley Gurney (Hillside Agricultural Society) and Ashley B. Gurney (USDA entomologist); homestead still in the family name (Harriet Gurney) at survey."
   },
   {
+    "sourceId": "massachusetts-bay-records-v2-1853",
+    "shortTitle": "Mass. Bay Records, vol. 2 (1642–1649), Shurtleff ed.",
+    "citation": "Shurtleff, Nathaniel B., ed. Records of the Governor and Company of the Massachusetts Bay in New England, vol. 2, 1642–1649. Boston: William White, 1853, p. 79.",
+    "archive": "Internet Archive (item cu31924091024582).",
+    "url": "https://archive.org/details/cu31924091024582",
+    "corpusStatus": "extract",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/massachusetts-bay-records-v2-1853.md",
+    "notes": "Printed record of the General Court session beginning 30 Oct 1644: \"John Gurny his byl for 3. 16. 4d & Tho: Lake his note for 1. 3. 8d are accepted for £5 fro Mr Ginner.\" Corrects the earlier machine-transcript reading of a \"16 March 1641/2\" date. Index renders the counterparty \"Ginner, Mr.\" = Rev. Thomas Jenner."
+  },
+  {
     "sourceId": "massachusetts-bay-records-v1-1853",
     "shortTitle": "Massachusetts Bay Records, vol. 1",
     "citation": "Shurtleff, Nathaniel B., ed. Records of the Governor and Company of the Massachusetts Bay in New England. Vol. 1, 1628-1641. Boston: William White, 1853.",
@@ -2479,7 +2587,7 @@
     "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9Y5-F9M1-4",
     "corpusStatus": "",
     "corpusPath": "",
-    "mediaPath": "sources/media/massachusetts-state-archives-colonial/",
+    "mediaPath": "",
     "validationPath": "sources/validations/massachusetts-state-archives-colonial.md",
     "notes": "Calendar/index of colonial-period petitions and military papers. Image 947 (film 007702977, ark 3:1:3Q9M-C9Y5-F9M1-4) carries the entry dated 30 May 1641: 'Petition of John Gurny, Richard Porter, and James Ludden of Weymouth … remission of the fines laid upon them for [want of gunpowder].' Full-resolution read via das/v2, 2026-06-27: the forename plainly reads Richard — the petition tradition's counter-reading to the printed MBCR 1:331 'John Porter'. This is the calendar/index, not the petition document itself; the petition (the calendar's page reference into the Archives volume) is the remaining clincher. The same collection vol. 129:16 holds the 2 July 1688 Humphrey–Randall Wendover/Lee deposition (quoted via History of Weymouth)."
   },
@@ -2712,6 +2820,30 @@
     "notes": "Pulled from the Braintree, Massachusetts notes on Suffolk Court Files item no. 188. The page lists John Gurney of Braintree as aged about 50 and dated 17-1-1652/3. This corrects the former not-yet-obtained status and the intake typo that read age 60."
   },
   {
+    "sourceId": "nehgr-30-432",
+    "shortTitle": "NEHGR vol. 30 (1876), p. 432 — Capt. William Tyng inventory",
+    "citation": "\"Abstracts of the Earliest Wills on Record in the County of Suffolk, Mass.\" New England Historical and Genealogical Register, vol. 30 (Boston: NEHGS, 1876), p. 432, inventory of Capt. William Tyng, made 25 May 1653 (abstracting Suffolk County, Mass., Probate Register vol. viii, p. 62).",
+    "archive": "Internet Archive (item newenglandhistor30wate).",
+    "url": "https://archive.org/details/newenglandhistor30wate",
+    "corpusStatus": "extract",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/nehgr-30-432.md",
+    "notes": "Tyng probate inventory abstract. Lists \"48 Akers land at Brantree, and Marsh in the possession of John Gurney,\" separate from the Tyng \"Salters Farme.\" Verbatim extract at sources/corpus_supplement/tyng-inventory-1653-nehgr-30-432-john-gurney.md."
+  },
+  {
+    "sourceId": "nehh-congregational-library-colonial-church-records",
+    "shortTitle": "New England's Hidden Histories (Congregational Library & Archives)",
+    "citation": "New England's Hidden Histories: Colonial-Era Church Records; digital collection, Congregational Library & Archives, Boston.",
+    "archive": "Congregational Library & Archives, Boston",
+    "url": "https://www.congregationallibrary.org/nehh/home",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/nehh-congregational-library-colonial-church-records.md",
+    "notes": "Holdings checked 2026-07-03 for John Gurney's towns: no pre-1690 material for the G13 orbit — Braintree First Church records begin 1697 (Samuel Niles journal), Boston First 1690+ (the 1630–87 book is the CSM 39 print), Dorchester First 1727+, no Weymouth, no Mendon. A genuinely different index from archive.org/Google; negative for John's era, consistent with the standing 'no Braintree church record for John's era' finding."
+  },
+  {
     "sourceId": "nj-marriage-index-1901-2016",
     "shortTitle": "New Jersey Marriage Index, 1901-2016",
     "citation": "New Jersey State Archives, Trenton, New Jersey; Marriage Indexes; Index Type: Bride; Year Range: 1995; Surname Range: M-Z. New Jersey, U.S., Marriage Index, 1901-2016 [database on-line]. Lehi, UT: Ancestry.com Operations, Inc., 2016. Entry for Lester Gurney III and Elizabeth L. Stettler, married 25 November 1995, Chatham, Morris County, New Jersey; certificate no. 0046950.",
@@ -2918,14 +3050,14 @@
   {
     "sourceId": "nps-adams-nhp",
     "shortTitle": "NPS Adams National Historical Park CLR",
-    "citation": "National Park Service. Cultural Landscape Report, Adams National Historical Park, Quincy, Massachusetts.",
-    "archive": "National Park Service",
-    "url": "",
-    "corpusStatus": "none",
-    "corpusPath": "",
-    "mediaPath": "",
-    "validationPath": "",
-    "notes": "Independent non-genealogical source identifying John Gurney among early Braintree tenants within the future park boundaries. Reports John died with no land."
+    "citation": "National Park Service. Cultural Landscape Report, Adams National Historic Site, Quincy, Massachusetts. 1997.",
+    "archive": "National Park Service (npshistory.com)",
+    "url": "https://npshistory.com/publications/adam/clr-1997.pdf",
+    "corpusStatus": "full",
+    "corpusPath": "sources/corpus/nps-adams-clr-1997.txt",
+    "mediaPath": "sources/media/nps-adams-nhp/",
+    "validationPath": "sources/validations/nps-adams-nhp.md",
+    "notes": "1997 Cultural Landscape Report, Adams National Historic Site (npshistory.com). Site Chronology pp. 12-13 and Figure 1 ('William Tyng's 45-acre farm, Braintree, 1649', by Ezekiel Sargent) record: 1647 Tyng leased John Gurney a 45-acre Braintree farm for ten years; Gurney continued leasing it from Tyng's daughters Bethia and Mercy until 1662; the northern portion of 'the Gurney farm' became the Adams Old House property (central Quincy). Authority = Ezekiel Sargent MSS, Quincy Historical Society, 'Land Formerly of William Tyng.'"
   },
   {
     "sourceId": "nro-pd-12-1",
@@ -3238,6 +3370,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/plymouth-probate-john-harden-1751-will.md",
     "notes": "Primary probate record-book copy of John Harden's will. Key evidence for Benjamin Gurney G9: names John Harden's wife Mary, daughter Mary Hobert/Hobart, daughter Sarah Gurney, daughter Jane Spear, the children of deceased daughter Rebecca Noyes, daughter Lydia Dawes, son John Harden, and grandson Benjamin Gurney. Elizabeth Harden appears as a witness, not as a daughter or heir. Images: p. 383 https://www.familysearch.org/ark:/61903/3:1:3QSQ-G97D-F6PW; p. 384 https://www.familysearch.org/ark:/61903/3:1:3QS7-897D-FXDF."
+  },
+  {
+    "sourceId": "pope-pioneers-of-massachusetts-1900",
+    "shortTitle": "Pope, The Pioneers of Massachusetts (1900)",
+    "citation": "Pope, Charles Henry. The Pioneers of Massachusetts, a Descriptive List, Drawn from Records of the Colonies, Towns and Churches, and Other Contemporaneous Documents. Boston: Charles H. Pope, 1900. GURNET/GORNET entry (print p. ~204).",
+    "archive": "Internet Archive (item pioneersofmassac00pope).",
+    "url": "https://archive.org/details/pioneersofmassac00pope",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/pope-pioneers-of-massachusetts-1900.md",
+    "notes": "Independent 1900 compiler of the Massachusetts founders drawn from colony, town, and church records. The main entry (head-form 'GURNET, GORNET') reads: 'John, Sen., tailor, Braintree. [N. B. He is called John Cheny, Sen., in the printed records of Braintree, by a typographical error.] Was an apprentice of John Newgate, 29 (7) 1636, ae. 21 years... Signed a petition about the meadows in 1646. [Arch. 45.] Sold land in Br. 12 Feb. 1661. His wife d. 20 (7) 1661, and he m. 12 (9) 1661, Grizzell, widow of Henry Kibbee. He d. in 1662-3; inv. March 16, 1663. [Reg. XII, 53.]' Two G13 bearings: (1) an explicit records-based ruling that the printed Braintree 'John Cheny, Sen.' is a typographical error for John Gurney, reading both the 1661 wife-death and Grizzell-marriage lines as the Gurney family (the wives-marriages Cheny/Girny question); (2) a new '[Arch. 45]' 1646 Braintree meadows petition lead (Massachusetts Archives vol. 45) routed to the colonial record classes, not assimilated here. Pope also conflates the 1636 Newgate apprentice with the Braintree John (the case-file two-Johns de-conflation argues against; Pope 1900 predates that analysis)."
   },
   {
     "sourceId": "porter-genealogy-richard-porter-1878",
@@ -4078,6 +4222,18 @@
     "mediaPath": "sources/media/1925_08Wansey_Family_Tree_Medieval_Genealogy.pdf",
     "validationPath": "sources/validations/wansey-medieval-genealogy-1925.md",
     "notes": "Image-only four-page Wansey/Wauncy pedigree PDF. User-supplied source-associated extract reports Edmund Gorney d. 1387; Katherine surviving until 3 Henry IV; son John Gurney married Alice Bavard, was knight of the shire in 6 Henry IV, and died in 9 Henry IV. Use as a direct conflict note against HoP/DG wife-name and date details."
+  },
+  {
+    "sourceId": "weymouth-land-grants-book-ms",
+    "shortTitle": "Weymouth Land Grants book (MS)",
+    "citation": "Weymouth, Massachusetts. Proprietors' early Land Grants book (\"the old town book\"), manuscript. FamilySearch film/DGS 007009659.",
+    "archive": "FamilySearch",
+    "url": "https://www.familysearch.org/search/film/007009659",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/weymouth-land-grants-book-1643-gurney-manuscript-extracts.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/weymouth-land-grants-book-ms.md",
+    "notes": "Manuscript of the 1643 Weymouth possession survey transcribed in print by Nash (1885 App. C). Packet-40 image read (images 00128-00145, ms pp. 9-32) confirms John Gurney as original grantee of three parcels: two 2-acre East Field lots (p.12 under Robert Randoll, 'John Gurny'; p.23 under Nathaniel Addames, 'John Gurnie') and one 4-acre Mill Field lot (p.31 under Thomas Richardes, 'John Gurnie'). Grants undated; all reassigned to other men by the survey."
   },
   {
     "sourceId": "wikipedia-en-hamelin-de-warenne",

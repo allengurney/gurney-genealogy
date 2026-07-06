@@ -6,6 +6,11 @@ module.exports = function (eleventyConfig) {
   // Markdown with html blocks enabled (used for image-float-right pattern)
   const md = markdownIt({ html: true, linkify: true, typographer: true })
     .use(markdownItFootnote);
+  // markdown-it-footnote's default caption renders repeat references as
+  // "[1:1]", "[1:2]" — readers should always see the plain footnote number.
+  // The :N suffix survives in the anchor ids, which keeps backlinks unique.
+  md.renderer.rules.footnote_caption = (tokens, idx) =>
+    `[${Number(tokens[idx].meta.id + 1)}]`;
   eleventyConfig.setLibrary("md", md);
   eleventyConfig.addFilter("markdown", value => md.render(value || ""));
   eleventyConfig.addFilter("json", value => JSON.stringify(value || ""));

@@ -222,3 +222,14 @@ sources/intake/_workspace/
 # G13 canonical graph rolling recovery export (versioned snapshots stay tracked).
 /data/context-graphs/g13/exports/current.ndjson
 /data/context-graphs/g13/exports/current.ndjson.tmp-*
+
+# G13 public website export: deterministic, regenerated from the live DB by
+# `g13_graph.py export-website` before a package-mode site build. Derived
+# output — excluded from git and (via git ls-files) from the repo_search index.
+/data/context-graphs/g13/exports/website/
+
+# G13 package-mode generated site inputs (Plan 03 adapter output): rewritten
+# annex/evidence/finding pages and copied graph JSON. Regenerated (and cleaned)
+# by scripts/sync-g13-package.js on every build.
+site/website/research/g13-annex/
+site/website/assets/g13-graph/

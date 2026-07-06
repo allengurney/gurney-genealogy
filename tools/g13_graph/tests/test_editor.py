@@ -510,6 +510,53 @@ class MarkerTests(EditorTestCase):
         self.assertEqual(marker["revisions"][0]["change_kind"], "create")
         self.assertEqual(self.issue_codes(), {"marker_contextual_one_hop"})
 
+    def test_set_visibility_batch_items_and_markers_one_revision(self) -> None:
+        # A partial flip whose relations cross the visibility boundary is
+        # blocked by public_relation_visibility_leak — so flip the whole
+        # fixture set, which is also the real bulk-publication shape.
+        connection = connect(self.config.db_path, read_only=True)
+        try:
+            item_ids = [
+                row["item_id"]
+                for row in connection.execute(
+                    "SELECT item_id FROM research_items ORDER BY item_id"
+                )
+            ]
+        finally:
+            connection.close()
+        result = commit_change(
+            self.config,
+            {
+                "op": "set_visibility",
+                "params": {
+                    "item_ids": item_ids,
+                    "marker_ids": ["G13-PM-000002"],
+                    "visibility": "public",
+                },
+                "changed_by": "TEST",
+            },
+        )
+        self.assertTrue(result["committed"])
+        self.assertEqual(result["affected_items"], item_ids)
+        self.assertEqual(result["affected_markers"], ["G13-PM-000002"])
+        self.assertEqual(
+            get_item(self.config, "TEST-RI-000003")["visibility"], "public"
+        )
+        self.assertEqual(get_marker(self.config, "G13-PM-000002")["visibility"], "public")
+        # One bulk decision advances the revision once.
+        self.assertEqual(self._revision(), 3)
+
+    def test_set_visibility_partial_flip_with_leaking_relation_blocks(self) -> None:
+        with self.assertRaises(ValidationBlocked):
+            commit_change(
+                self.config,
+                {
+                    "op": "set_visibility",
+                    "params": {"item_ids": ["TEST-RI-000004"], "visibility": "public"},
+                },
+            )
+        self.assertEqual(self._revision(), 2)
+
 
 if __name__ == "__main__":
     unittest.main()

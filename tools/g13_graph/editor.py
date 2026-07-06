@@ -512,6 +512,90 @@ def _op_set_review_state(
     return staged
 
 
+def _op_set_visibility(
+    connection: sqlite3.Connection, params: dict[str, Any], ts: str, by: str
+) -> StagedChange:
+    """Batch visibility change for items and/or markers in one audited revision.
+
+    Publication decisions often land in bulk (e.g. clearing a reviewed topic
+    set for the public website export); this op keeps that one decision one
+    ``database_revision`` instead of a hundred. ``excerpt_publishable`` stays
+    untouched by default — pass ``clear_excerpts: true`` to also mark the
+    flipped items' existing evidence excerpts publishable in the same decision
+    (required when going public, since ``public_excerpt_not_publishable``
+    blocks a public item carrying an undecided excerpt)."""
+    _require(params, "visibility")
+    visibility = params["visibility"]
+    if visibility not in VISIBILITIES:
+        raise ChangeError(
+            f"Invalid visibility {visibility!r}; expected one of {sorted(VISIBILITIES)}."
+        )
+    item_ids = list(
+        params.get("item_ids") or ([params["item_id"]] if params.get("item_id") else [])
+    )
+    marker_ids = list(params.get("marker_ids") or [])
+    if not item_ids and not marker_ids:
+        raise ChangeError("set_visibility requires item_ids and/or marker_ids.")
+    staged = StagedChange(
+        summary=(
+            f"Set visibility={visibility} on {len(item_ids)} item(s), "
+            f"{len(marker_ids)} marker(s)"
+        )
+    )
+    clear_excerpts = bool(params.get("clear_excerpts"))
+    for item_id in item_ids:
+        before, after = apply_item_update(
+            connection, item_id, {"visibility": visibility}, timestamp=ts
+        )
+        staged.revisions.append(
+            RevisionIntent(item_id, "update", f"visibility={visibility}", before, after)
+        )
+        if clear_excerpts:
+            pending = connection.execute(
+                """
+                SELECT count(*) FROM item_sources
+                WHERE item_id=? AND excerpt_publishable=0
+                  AND evidence_excerpt IS NOT NULL AND trim(evidence_excerpt)<>''
+                """,
+                (item_id,),
+            ).fetchone()[0]
+            if pending:
+                sources_before = _sources_snapshot(connection, item_id)
+                connection.execute(
+                    """
+                    UPDATE item_sources SET excerpt_publishable=1
+                    WHERE item_id=? AND excerpt_publishable=0
+                      AND evidence_excerpt IS NOT NULL AND trim(evidence_excerpt)<>''
+                    """,
+                    (item_id,),
+                )
+                sources_after = _sources_snapshot(connection, item_id)
+                staged.revisions.append(
+                    RevisionIntent(
+                        item_id,
+                        "update",
+                        f"excerpt_publishable=1 on {pending} source link(s)",
+                        sources_before,
+                        sources_after,
+                    )
+                )
+    staged.revisions = coalesce_revision_intents(staged.revisions)
+    for marker_id in marker_ids:
+        _require_marker(connection, marker_id)
+        before = _marker_snapshot(connection, marker_id)
+        connection.execute(
+            "UPDATE prose_markers SET visibility=?, updated_at=? WHERE marker_id=?",
+            (visibility, ts, marker_id),
+        )
+        after = _marker_snapshot(connection, marker_id)
+        staged.marker_revisions.append(
+            MarkerRevisionIntent(
+                marker_id, "update", f"visibility={visibility}", before, after
+            )
+        )
+    return staged
+
+
 def _op_undo_item(
     connection: sqlite3.Connection, params: dict[str, Any], ts: str, by: str
 ) -> StagedChange:
@@ -1217,6 +1301,7 @@ OPS: dict[str, Callable[[sqlite3.Connection, dict[str, Any], str, str], StagedCh
     "retire_item": _op_retire_item,
     "delete_item": _op_retire_item,
     "set_review_state": _op_set_review_state,
+    "set_visibility": _op_set_visibility,
     "undo_item": _op_undo_item,
     "add_relation": _op_add_relation,
     "update_relation": _op_update_relation,

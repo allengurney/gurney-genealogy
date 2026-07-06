@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="/assets/site.css">
   <link rel="stylesheet" href="/assets/explorer.css">
   <link rel="stylesheet" href="/assets/refactor.css">
+  {% if g13Annex %}<link rel="stylesheet" href="/assets/g13-annex.css">{% endif %}
   {% if description %}<meta name="description" content="{{ description }}">{% endif %}
   <meta property="og:title" content="{{ metaTitle }} | Gurney Genealogy Library">
   {% if description %}<meta property="og:description" content="{{ description }}">{% endif %}
@@ -55,5 +56,9 @@
 
   {% include "partials/sitefooter.njk" %}
 
+  {% if g13Annex %}
+  <script defer src="/assets/g13-graph-render.js"></script>
+  <script defer src="/assets/evidence-drawer.js"></script>
+  {% endif %}
 </body>
 </html>
