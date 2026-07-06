@@ -179,6 +179,25 @@
       ]
     },
     {
+      "topicId": "g13-family-family-group",
+      "path": "research/people/_staging/g13-john-gurney/topics/family/11-family-group.md",
+      "headingId": "family-the-children-as-a-family-group",
+      "title": "Family — the children as a family group",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "family",
+      "order": 20,
+      "publicSlug": "family/family-group",
+      "publicationStatus": "public",
+      "summary": "John Gurney's children reconstructed as a family group: a five-child roster — Sarah, Mary, Richard (the direct-line G12), John Jr., and Peter — with Isaac a probable but unproven sixth, all born to his first wife Mary, assembled from the compiled Braintree and Gurney genealogies, cross-checked against Torrey's marriage compendium, and anchored child by child in scattered land, court, and probate records.",
+      "researchItemIds": [
+        "G13-RI-000065",
+        "G13-RI-000066",
+        "G13-RI-000067",
+        "G13-RI-000068"
+      ]
+    },
+    {
       "topicId": "g13-research-source-coverage",
       "path": "research/people/_staging/g13-john-gurney/topics/research-state/40-source-coverage.md",
       "headingId": "research-state-source-coverage",

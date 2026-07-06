@@ -248,12 +248,23 @@ wildcard-level `negative_result` (**RI-000064**). One cross-unit edge: RI-000062
 record-coverage "no vital record" negative RI-000041 — two Braintree town-record vital lines
 do survive for John, under a misread surname. One new source registered
 (`pope-pioneers-of-massachusetts-1900`, `data/sources.json` v1.9.0 + validation worksheet) and
-baselined. Loaded across database revisions 41–43 (sync-sources + author-batch + hash-sources);
-milestone snapshot at revision 43
-(`data/context-graphs/g13/exports/snapshots/g13-context-r000043.ndjson`); validate 0/0, all
-tiers aligned. Per-increment gates hold: source-journey, topic-graph-source, publication, and
-input-source-set gaps all 0; no new friction; backlog 142 → 137 (five routed blocks
-dispositioned — the legacy Grizzell and Mary-English-birth blocks, dump F1/F7, and the
+baselined. Loaded across database revisions 41–43 (sync-sources + author-batch + hash-sources).
+An Allen-review correction pass then applied six fixes via `editor.commit_change` ops across
+revisions 45–53 (snapshot **r000053**): (1) topic file reordered so the wives read
+chronologically — first wife Mary before the widow Grizzell; (2) the first-wife **forename
+"Mary" sourced to Sprague's compiled Braintree genealogy**, with the primary death record and
+Torrey both leaving her unnamed ("the wife of John"); (3) the "mother of all his children"
+claim softened to a presumption, since no child's birth record survives; (4) the
+English-marriage negative reframed so the Findmypast wildcard sweep reads as one rigorous
+instance of a broader parish-collection search, not the whole of it; (5) the missing
+primary-record witness added — `braintree-records` (p. 717) now cites the second-marriage
+finding **RI-000062** directly, and Torrey added to first-wife **RI-000063**; (6) the confusing
+"will not be moved by mis-indexing" phrase rewritten in plain terms (and RI-000064 reconciled to
+the topic file's provider list). Milestone snapshot at revision 53
+(`data/context-graphs/g13/exports/snapshots/g13-context-r000053.ndjson`); validate 0/0, all tiers
+aligned. Per-increment gates hold: source-journey, topic-graph-source,
+publication, and input-source-set gaps all 0; no new friction; backlog 142 → 137 (five routed
+blocks dispositioned — the legacy Grizzell and Mary-English-birth blocks, dump F1/F7, and the
 fact-sheet Marriage(s) row). Lead **L-11** (Braintree manuscript vital records) advanced via
 `research_leads.py --append-status-note` `[G13-STAGING 2026-07-06: …]`. `coverageStatus:
 increment-complete` in `manifest.json`. Deliberately not poached: John's children as a group
@@ -263,3 +274,34 @@ window and the English-origin identity question (identity/origin units) — the 
 case-file s1/s6 rows are only partly borne here and stay backlog, annotated not false-closed.
 Also carried as backlog: Pope's "[Arch. 45]" 1646 Braintree meadows petition (dump F1), routed
 to braintree-community / record-coverage pending Massachusetts Archives vol. 45 registration.
+
+Phase G3 increment (2026-07-06, bounded): `topics/family/11-family-group.md`
+(topicId `g13-family-family-group` — the second **family** topic), co-authored with
+research items `G13-RI-000065..000068` and two prose evidence markers
+`G13-PM-000041..000042`. John Gurney's children reconstructed as a **family group**, depth
+over breadth — the roster itself, not the per-child biographies. The core finding
+(**RI-000065**, moderate-high) states a five-child group — Sarah, Mary, Richard (the
+direct-line G12), John Jr., and Peter — with Isaac a probable but unproven sixth, all born
+to first wife Mary, and no single colonial record enumerating the family: it is assembled
+from the compiled Braintree and Gurney genealogies (`sprague-braintree`, `history-of-weymouth`,
+`rigler-gurney-family-aaron-zuinglius-1994`) and per-child primary records. Torrey's one-page
+John1 family-group cross-check is carried as source_evidence **RI-000066** (SUPPORTS the
+roster). The unit's own depth is the **Isaac identification**: analysis **RI-000067**
+(moderate) argues the young *Isacke Gurney* of the 1663/4–1667 colonial court cluster is most
+plausibly John-1's son by elimination, QUALIFYING the roster, supported by the court-cluster
+source_evidence **RI-000068** (Plymouth 1663/4 Scituate; Suffolk County file no. 792, 1667,
+via FamilySearch full-text) — while the dedicated `research/people/isaac-gurney-scituate-boston.md`
+subject file still holds him cautiously as a distinct person. RI-000065 publication-maps to the
+fact-sheet Children section and case-file s1; RI-000067 to the fact-sheet Children note. No new
+sources or entities were registered; `rigler-gurney-family-aaron-zuinglius-1994` was baselined at
+hash-sources. Loaded across database revisions 54–55 (author-batch + hash-sources); milestone
+snapshot at revision 55 (`data/context-graphs/g13/exports/snapshots/g13-context-r000055.ndjson`);
+validate 0/0, all tiers aligned. Per-increment gates hold: source-journey, topic-graph-source,
+publication, and input-source-set gaps all 0 for the touched topic; no new friction; backlog not
+increased. `coverageStatus: increment-complete` in `manifest.json`. Deliberately not poached:
+Mary's 1647 Shed marriage and the couple's English-marriage window (`g13-family-wives-marriages`,
+`shedd` cited cross_unit); the post-1662 John-Jr./Ruth Mendon household, the descendant stream,
+and Peter's King Philip's War service (`g13-family-mendon-descendants`, `bodge` cited cross_unit);
+Richard's own line (the direct-line G12 subject, external); and the origin/identity use of the
+roster as a matching criterion (identity units). The multi-destination fact-sheet Children and
+case-file s1 rows are only partly borne here and stay backlog, annotated not false-closed.

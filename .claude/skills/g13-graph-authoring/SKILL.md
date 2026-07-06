@@ -99,6 +99,57 @@ expected; editing them is not (that happens only at an approved cutover).
 10. **Update `manifest.json`** (new topic + its `researchItemIds`) and the staging
    `README.md`. Optionally show the increment through `context --terms <topic> --mode grounding`.
 
+## Revising an already-committed increment (edits, not creation)
+
+Review corrections — a missing source witness, a softened claim, a reworded
+statement, a date/scope fix, a new cross-unit relation, marker maintenance — are a
+**recurring** second workflow, distinct from creation. `author-batch` only
+*creates* (it collides on an existing `item_id` and refuses); every edit to a live
+item goes through the editor's `commit_change` ops. Do **not** hand-write a one-off
+script each time — use the packaged runner.
+
+1. **Scope the edit against the publication surfaces, not just the graph.** For each
+   touched finding, list what the fact sheet / case file / companion footnotes
+   actually cite and confirm the item's **direct** `item_sources` carry every one of
+   those witnesses. A finding "sourced via relations" can silently omit a witness the
+   published surface names, and `g13_coverage_check.py` will **not** catch it — it
+   only checks each `sourceId` journeys *somewhere* in the unit, not per-finding
+   completeness. (This is the class of miss that a review pass usually surfaces.)
+2. **Look up current values first** — `item <id>`, or read `item_sources` for the
+   `item_source_id` that `update_source_link`/`remove_source_link` need. There is
+   **no dry-run** for editor ops, so a wrong id fails mid-run.
+3. **Write an ops JSON** (a list of `{op, params}`) and apply it:
+   `.\.venv\Scripts\python.exe .claude/skills/g13-graph-authoring/apply-graph-edits.py <ops.json> [--changed-by claude-...]`.
+   Common ops: `update_item` (`params.changes` = field→value over
+   `ALLOWED_ITEM_FIELDS`, incl. `statement`, `assessment_confidence_label`);
+   `add_source_link` / `update_source_link` (needs `item_source_id`) /
+   `remove_source_link`; `set_dates`; `set_negative_scope` (**`limitations` is a real
+   JSON list here** — the runner encodes it; unlike `author-batch`, where
+   `limitations_json` must be a pre-encoded string); `add_relation` /
+   `update_relation` / `remove_relation`; `add_publication` / `remove_publication`;
+   marker ops `create_marker` / `update_marker` / `set_marker_primary` /
+   `add_marker_item` / `update_marker_item` / `remove_marker_item`. Full param shapes
+   live in `tools/g13_graph/editor.py` (`_op_*`) and `tools/g13_graph_editor/README.md`.
+4. **Each op is its own transaction** — this is *not* atomic like `author-batch`. If
+   op N fails, ops 1..N-1 are already committed and the revision has advanced; order
+   ops so an earlier one can't strand a later one. `add_source_link` without a
+   `locator` raises a non-blocking `source_locator_missing` warning on
+   `source_evidence` items — pass `locator` in the same op.
+5. **Reconcile the paired `.md` file and the ledgers in the same pass.** The graph and
+   the topic prose are two representations of one edit: mirror every source
+   add/removal, statement change, and reordering into the topic `.md` footnotes/prose,
+   and update the affected `source-and-citation-map.csv` rows (findings_supported)
+   and, if scope/disposition changed, the other ledgers / `manifest.json` /
+   `README.md`. Reordering prose sections does not change the graph, but the marker
+   tokens move with their sections (still exactly one token per active marker).
+6. **Close out** exactly as for creation: `hash-sources` (only if new local sources
+   were cited), `export --snapshot`, `validate` (**0/0**), `status` (tiers aligned),
+   then re-run `g13_coverage_check.py` and confirm the per-increment gates still hold.
+
+*(Tooling note: the ideal permanent fix is a first-class `g13_graph.py edit --file`
+CLI with a `--dry-run` preview, mirroring `author-batch` — that is Codex plumbing
+(§18). Until it lands, `apply-graph-edits.py` is the supported path.)*
+
 ## Markers (Plan 2a M1 is live as of 2026-07-03)
 
 Author markers **as you write each topic**, in the same pass — not as a later
