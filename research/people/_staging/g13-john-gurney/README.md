@@ -166,3 +166,100 @@ publication 0, friction 0, inventory 0); backlog unchanged at 148 (the unauthore
 family/origin/identity/research-state topics — the expected whole-refactor `RESULT: FAIL`).
 All six colonial topics carry `coverageStatus: increment-complete`. **GO for resuming normal
 G3 topic authoring.**
+
+Phase G3 increment (2026-07-05, bounded): `topics/research-state/40-source-coverage.md`
+(topicId `g13-research-source-coverage` — the first **research-state** topic), co-authored
+with research items `G13-RI-000048..000053` and three prose evidence markers
+`G13-PM-000030..000032`. A non-identity meta-topic on the **research-state coverage of the
+online research infrastructure searched beyond the FamilySearch / Internet Archive / Google
+corpus** — distinct from `06-record-coverage.md` (the shape of the surviving *colonial* record).
+Assimilates the July 2026 full-text campaign's two single-home source-coverage findings (dump
+round 4): **F-R4.7** — three Coldham/Ancestry emigrant-compilation negatives, *English
+Adventurers and Emigrants 1609–1660* (RI-000048; only "Gurnard's Head" place hits), *Emigrants
+in Bondage 1614–1775* (RI-000049; earliest Gurney 1683, out of window), and *Child Apprentices
+… Christ's Hospital 1617–1778* (RI-000050; all 18th-c.) — and **F-R4.10** — New England's
+Hidden Histories (RI-000051; no pre-1690 church book for John's towns) and Digital Commonwealth
+(RI-000052; zero "Gurney Braintree"). All five `negative_within_scope` items SUPPORT the coverage
+synthesis **RI-000053**, which CONTEXTUALIZES the record-coverage origin-silence negative
+RI-000042 (cross-unit) and names the residual — Coldham's *Complete Book of Emigrants 1607–1660*
+(not on Ancestry) + TNA E 157/20 — as the outstanding emigrant-record pull (lead **L-170**,
+tagged via `research_leads.py --append-status-note` `[G13-STAGING 2026-07-05: …]`). Five new
+sources registered in `data/sources.json` (v1.8.0) with validation worksheets and baselined:
+`ancestry-english-adventurers-emigrants-1609-1660`, `ancestry-emigrants-in-bondage-1614-1775`,
+`ancestry-child-apprentices-christs-hospital-1617-1778`,
+`nehh-congregational-library-colonial-church-records`, `digital-commonwealth`. Loaded across
+database revisions 36–38 (sync-sources + author-batch + hash-sources); milestone snapshot at
+revision 38 (`data/context-graphs/g13/exports/snapshots/g13-context-r000038.ndjson`); validate
+0/0, all tiers aligned. Per-increment gates hold: source-journey, topic-graph-source, publication,
+and input-source-set gaps all 0; no new friction; backlog 148 → 146 (the two dump findings
+dispositioned). `coverageStatus: increment-complete` in `manifest.json`. The colony-level
+record-class negatives (Boston First Church, Book of Possessions, Providence/Garnet) and the
+legacy Sources-Consulted / Negative-Results catalogue remain backlog — their primary homes are
+`g13-colonial-record-coverage` and the identity/origin units, not this research-state topic.
+
+Phase G3 increment (2026-07-05, bounded): `topics/research-state/41-open-questions.md`
+(topicId `g13-research-open-questions` — the second **research-state** topic), co-authored
+with research items `G13-RI-000054..000057` and four prose evidence markers
+`G13-PM-000033..000036`. A non-identity meta-topic reconciling the **open research program**
+for John Gurney against the canonical `research-leads.csv` index. It states the small set of
+standing questions as `open_question` items — the English origin and parentage (RI-000054;
+DEPENDS_ON the record-coverage origin-silence RI-000042; no candidate advocacy — disambiguation
+stays with the dedicated identity/origin work), the first wife Mary's identity and English
+marriage (RI-000055), and the untested Y-DNA discriminator (RI-000056; carries
+`ftdna-gurney-ydna`, R1b-DF19 › R-Z27053 › R-FTD83678, kit 576097, discriminating test kit
+365744) — and a reconciliation `analysis` (RI-000057) that SYNTHESIZES the three and
+CONTEXTUALIZES the source-coverage emigrant residual RI-000053. The record-location residuals
+already homed elsewhere (the emigrant-record pulls in `40-source-coverage.md`; the 1645 Braintree
+petition primary source; the post-death Mendon stream) are cross-referenced, not re-homed. A
+value-add WIP-leads table groups the not-yet-assimilated leads by the question they serve, with a
+caveat lede that the leads catalogue is canonical and the table restates no lead detail. One new
+source baselined (`ftdna-gurney-ydna`); loaded across database revisions 39–40 (author-batch +
+hash-sources); milestone snapshot at revision 40
+(`data/context-graphs/g13/exports/snapshots/g13-context-r000040.ndjson`); validate 0/0, all tiers
+aligned. Per-increment gates hold: source-journey, topic-graph-source, publication, and
+input-source-set gaps all 0; no new friction; backlog 146 → 142 (four routed blocks dispositioned —
+the legacy Y-DNA block, dump §9.2, and the two immigration-topic next-work blocks). Prose cites
+`anderson-gmd-2015` (cross_unit) and `banks-brownell-1937` (context_only). Leads **L-139** (first
+wife Mary → RI-000055) and **L-145** (Y-DNA → RI-000056) tagged via `research_leads.py
+--append-status-note` `[G13-STAGING 2026-07-05: …]` (append-only; `Source ref` left production).
+`coverageStatus: increment-complete` in `manifest.json`. The multi-destination legacy blocks
+("Open Questions", "Target source pulls", "Online and full-text lead dispositions") and dump §9.3
+are only partly borne here and stay backlog (annotated, not false-closed); candidate
+disambiguation, the Cheny/Kidbee 1661 marriage line, and the Edward/Agnes and Haberdashers threads
+remain the identity/origin and G14 work.
+
+Phase G3 increment (2026-07-06, bounded): `topics/family/10-wives-marriages.md`
+(topicId `g13-family-wives-marriages` — the first **family** topic), co-authored with
+research items `G13-RI-000058..000064` and four prose evidence markers
+`G13-PM-000037..000040`. John Gurney's two marriages, depth over breadth. The evidential
+core resolves the century-old "Cheny/Girny" reading of the 1661 Braintree town record: the
+1886 print enters both John's second marriage and his first wife's death under a *Cheny*
+surname (source_evidence **RI-000058**), but the fair-copy manuscript read at image level
+(DGS 007009769) shows the groom in ink as "John Girny, Senior" with "Cheny/Kidbee" only a
+later pencil margin note (source_evidence **RI-000059**), and Pope's 1900 *Pioneers of
+Massachusetts* independently ruled the printed Cheny a typographical error
+(published_source_statement **RI-000060**) — together resolving "John Cheny" to John Gurney
+(research_finding **RI-000061**, ~85–90%; residual = the deaths-page letterform). The second
+marriage to the much-married widow Grizzell (12 Nov 1661, **RI-000062**) and the first wife
+Mary (maiden name unknown; married in England by the mid-1620s, bounded by daughter Mary's
+1647 Shed marriage; died Braintree 20 Sep 1661, **RI-000063**) are carried with their
+fact-sheet Vitals-Marriage(s) publication mappings; the unrecovered English marriage is a
+wildcard-level `negative_result` (**RI-000064**). One cross-unit edge: RI-000062 QUALIFIES the
+record-coverage "no vital record" negative RI-000041 — two Braintree town-record vital lines
+do survive for John, under a misread surname. One new source registered
+(`pope-pioneers-of-massachusetts-1900`, `data/sources.json` v1.9.0 + validation worksheet) and
+baselined. Loaded across database revisions 41–43 (sync-sources + author-batch + hash-sources);
+milestone snapshot at revision 43
+(`data/context-graphs/g13/exports/snapshots/g13-context-r000043.ndjson`); validate 0/0, all
+tiers aligned. Per-increment gates hold: source-journey, topic-graph-source, publication, and
+input-source-set gaps all 0; no new friction; backlog 142 → 137 (five routed blocks
+dispositioned — the legacy Grizzell and Mary-English-birth blocks, dump F1/F7, and the
+fact-sheet Marriage(s) row). Lead **L-11** (Braintree manuscript vital records) advanced via
+`research_leads.py --append-status-note` `[G13-STAGING 2026-07-06: …]`. `coverageStatus:
+increment-complete` in `manifest.json`. Deliberately not poached: John's children as a group
+(`g13-family-family-group`), the post-1662 Grizzell / John-Jr.-Ruth Mendon proprietary and
+descendant stream (`g13-family-mendon-descendants`), the daughter Mary's own English-birth
+window and the English-origin identity question (identity/origin units) — the multi-destination
+case-file s1/s6 rows are only partly borne here and stay backlog, annotated not false-closed.
+Also carried as backlog: Pope's "[Arch. 45]" 1646 Braintree meadows petition (dump F1), routed
+to braintree-community / record-coverage pending Massachusetts Archives vol. 45 registration.

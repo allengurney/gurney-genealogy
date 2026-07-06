@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.7.0",
+    "version": "1.9.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-06-28",
+    "lastUpdated": "2026-07-05",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
@@ -868,6 +868,17 @@
       "mediaPath": "sources/media/nash-historical-sketch-weymouth-1885/nash-historical-sketch-weymouth-1885.pdf",
       "validationPath": "sources/validations/nash-historical-sketch-weymouth-1885.md",
       "notes": "Weymouth local history preserving early land-list material. Full Internet Archive OCR text and the public-domain PDF are held locally; the earlier focused Gurney extract remains at sources/corpus_supplement/nash-historical-sketch-weymouth-1885-gurney-extracts.md. John appears under variants Gurny/Gurnie/Gurney on pp. 258, 270, 278, and 282; the strongest entry is the 1651/2 lot-list entry on p. 282, with the index grouping Gurny/Gurnie/Gurney variants. A broad exact variant sweep of the full text on 28 June 2026 found these known G13 land references, later Gurney military and church references, and no additional colonial John Gurney occurrence."
+    },
+    "pope-pioneers-of-massachusetts-1900": {
+      "shortTitle": "Pope, The Pioneers of Massachusetts (1900)",
+      "citation": "Pope, Charles Henry. The Pioneers of Massachusetts, a Descriptive List, Drawn from Records of the Colonies, Towns and Churches, and Other Contemporaneous Documents. Boston: Charles H. Pope, 1900. GURNET/GORNET entry (print p. ~204).",
+      "archive": "Internet Archive (item pioneersofmassac00pope).",
+      "url": "https://archive.org/details/pioneersofmassac00pope",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/pope-pioneers-of-massachusetts-1900.md",
+      "notes": "Independent 1900 compiler of the Massachusetts founders drawn from colony, town, and church records. The main entry (head-form 'GURNET, GORNET') reads: 'John, Sen., tailor, Braintree. [N. B. He is called John Cheny, Sen., in the printed records of Braintree, by a typographical error.] Was an apprentice of John Newgate, 29 (7) 1636, ae. 21 years... Signed a petition about the meadows in 1646. [Arch. 45.] Sold land in Br. 12 Feb. 1661. His wife d. 20 (7) 1661, and he m. 12 (9) 1661, Grizzell, widow of Henry Kibbee. He d. in 1662-3; inv. March 16, 1663. [Reg. XII, 53.]' Two G13 bearings: (1) an explicit records-based ruling that the printed Braintree 'John Cheny, Sen.' is a typographical error for John Gurney, reading both the 1661 wife-death and Grizzell-marriage lines as the Gurney family (the wives-marriages Cheny/Girny question); (2) a new '[Arch. 45]' 1646 Braintree meadows petition lead (Massachusetts Archives vol. 45) routed to the colonial record classes, not assimilated here. Pope also conflates the 1636 Newgate apprentice with the Braintree John (the case-file two-Johns de-conflation argues against; Pope 1900 predates that analysis)."
     },
     "porter-genealogy-richard-porter-1878": {
       "shortTitle": "Porter, Genealogy of the Descendants of Richard Porter (1878)",
@@ -3883,6 +3894,61 @@
       "corpusPath": null,
       "mediaPath": "sources/media/weymouth-classified-record-deaths-nash/",
       "notes": "Deaths companion volume to weymouth-classified-record-births-nash, same Nash 1879 classified-record project. The Gurney section (p. 208) records six deaths: Richard (Oct. 1719); Zechariah Senior (27 Oct. 1732); Mary (14 Feb. 1736); Joseph Senior (14 Dec. 1739); Jacob (1 Sept. 1793, aged 87); Elizabeth wife of Jacob (19 Sept. 1794, aged 78). 'Richard Oct. 1719' is the primary entry behind the History-of-Weymouth death-year error: it is Richard3 (b. 1656, unmarried), the son, not Richard2/G12 (d. Oct. 1691). Gives exact death dates for Richard2's children Joseph (b. 1664/5, d. 14 Dec. 1739, 'Senior' vs his nephew Joseph b. 1698) and Mary (b. 1667, d. 14 Feb. 1736 - the unmarried daughter on the no-'wife of' reading; History of Weymouth instead read this Mary as Zachariah3's wife Mary Benson) and confirms Zachariah3 (Senior) d. 27 Oct. 1732. Jacob (b. 1706) and his wife Elizabeth are later collateral. Page image (subscription) held local-only under mediaPath/_local; transcription on the G12 Richard companion."
+    },
+    "ancestry-english-adventurers-emigrants-1609-1660": {
+      "shortTitle": "Ancestry / Coldham, English Adventurers and Emigrants, 1609–1660",
+      "citation": "Peter Wilson Coldham, English Adventurers and Emigrants, 1609–1660: Abstracts of Legal Proceedings in the High Court of Admiralty and Court of King's Bench; database, Ancestry.com (database id 49150).",
+      "archive": "Ancestry.com (subscription); after Coldham, from TNA High Court of Admiralty / King's Bench examinations",
+      "url": "https://www.ancestry.com/search/collections/49150/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/ancestry-english-adventurers-emigrants-1609-1660.md",
+      "notes": "Searched 2026-07-03 (authenticated) with surname wildcard Gurn* for a G13 John Gurney emigration record: two hits, both 'Gurnard's Head, Bermuda' (the ship Garland driven ashore, Oct 1619) — a place false friend, no Gurney person. Negative for the emigrant window. Reached via the Ancestry 'Coldham' card-catalog keyword sweep (13 databases; Coldham's Complete Book of Emigrants 1607–1660 is not among them). Part of lead L-170."
+    },
+    "ancestry-emigrants-in-bondage-1614-1775": {
+      "shortTitle": "Ancestry / Coldham, Emigrants in Bondage, 1614–1775",
+      "citation": "Peter Wilson Coldham, The Complete Book of Emigrants in Bondage, 1614–1775 (transported felons and bonded servants); database, Ancestry.com (database id 61074).",
+      "archive": "Ancestry.com (subscription); after Coldham",
+      "url": "https://www.ancestry.com/search/collections/61074/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/ancestry-emigrants-in-bondage-1614-1775.md",
+      "notes": "Searched 2026-07-03, Gurn* wildcard: four Gurn-variant transportees across 1614–1775, earliest Mary Gurney (Middlesex, Mar 1683); no Gurney transportee in the 1614–1665 window. Bounds the 'not a bonded/transported man' reading for the G13 emigrant. Part of lead L-170."
+    },
+    "ancestry-child-apprentices-christs-hospital-1617-1778": {
+      "shortTitle": "Ancestry / Coldham, Child Apprentices in America from Christ's Hospital, London, 1617–1778",
+      "citation": "Peter Wilson Coldham, Child Apprentices in America from Christ's Hospital, London, 1617–1778; database, Ancestry.com (database id 49104).",
+      "archive": "Ancestry.com (subscription); after Coldham",
+      "url": "https://www.ancestry.com/search/collections/49104/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/ancestry-child-apprentices-christs-hospital-1617-1778.md",
+      "notes": "Searched 2026-07-03, Gurn* wildcard (hits user-verified in session): four hits (Gurnell Mantle & Michael p.76; Gurney Ann & William p.67; Mary p.86; index p.147), all eighteenth-century; no John and none in the emigrant window. Part of lead L-170."
+    },
+    "nehh-congregational-library-colonial-church-records": {
+      "shortTitle": "New England's Hidden Histories (Congregational Library & Archives)",
+      "citation": "New England's Hidden Histories: Colonial-Era Church Records; digital collection, Congregational Library & Archives, Boston.",
+      "archive": "Congregational Library & Archives, Boston",
+      "url": "https://www.congregationallibrary.org/nehh/home",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/nehh-congregational-library-colonial-church-records.md",
+      "notes": "Holdings checked 2026-07-03 for John Gurney's towns: no pre-1690 material for the G13 orbit — Braintree First Church records begin 1697 (Samuel Niles journal), Boston First 1690+ (the 1630–87 book is the CSM 39 print), Dorchester First 1727+, no Weymouth, no Mendon. A genuinely different index from archive.org/Google; negative for John's era, consistent with the standing 'no Braintree church record for John's era' finding."
+    },
+    "digital-commonwealth": {
+      "shortTitle": "Digital Commonwealth: Massachusetts Collections Online",
+      "citation": "Digital Commonwealth: Massachusetts Collections Online (statewide digital-repository aggregator), Digital Commonwealth, Inc. / Boston Public Library.",
+      "archive": "Digital Commonwealth, Inc. / Boston Public Library",
+      "url": "https://www.digitalcommonwealth.org/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/digital-commonwealth.md",
+      "notes": "Searched 2026-07-03: keyword 'Gurney Braintree' returns zero items. The Massachusetts Archives Digital Repository (Preservica, digitalarchives.sec.state.ma.us) was not separately swept (low priority once the Massachusetts Archives vol.45 petition target was imaged). Negative for the G13 orbit."
     }
   }
 }
