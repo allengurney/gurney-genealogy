@@ -59,6 +59,15 @@ expected; editing them is not (that happens only at an approved cutover).
    companion footnotes; confirm each exists in the `source_registry`. Register a
    genuinely new source in `data/sources.json` deliberately first (+ its
    `sources/validations/*.md` worksheet) — do not invent IDs.
+   **Registry `notes` are a catalogue annotation, not an evidence surface** — 2–4
+   sentences (soft target ≤500 chars; lint threshold 600) saying what the source is,
+   why it is relevant, and what kinds of information it carries. Transcriptions,
+   extracts, catalogue readings, negative-search results, and project-original
+   identifications go in the topic prose/footnotes (or `sources/corpus_supplement/`);
+   the validation worksheet records scope and where findings landed. A one-line
+   finding may appear in `notes` only when the same finding is already carried in a
+   research-plane file. After any registry edit, run
+   `.\.venv\Scripts\python.exe tools\lint_source_notes.py` (expect PASS).
 4. **Write the topic prose** in `topics/<group>/<nn>-<slug>.md`: finding-first lede,
    topical sections, footnotes local to the file, an HTML-comment header noting the
    `topicId` and the item-ID range. The H1 must slug-match the unit `heading_id`.
@@ -83,7 +92,8 @@ expected; editing them is not (that happens only at an approved cutover).
    `item_revisions`; refreshes the recovery export).
 8. **Baseline + snapshot + validate:** `hash-sources` (baseline newly-cited local
    sources), `export --snapshot` (milestone), `validate` (**expect 0 errors**), `status`
-   (all three backup tiers aligned; DB not ahead of recovery/snapshot).
+   (all three backup tiers aligned; DB not ahead of recovery/snapshot), and — if the
+   increment registered or edited any source — tools\lint_source_notes.py (PASS).
 9. **Add coverage-ledger rows (do not skip — this is how the cutover gate closes).**
    For each legacy companion block and each dump finding this topic assimilated, add a
    row to `coverage/legacy-companion-map.csv` / `coverage/dump-findings-map.csv` with
@@ -171,6 +181,11 @@ every increment**:
   decision and all its primary/expressed items must be public (fail-closed).
 
 ## Guardrails / lessons
+- **Never write evidence into `data/sources.json` `notes`.** The 2026-07 remediation
+  (plan 02c) relocated campaign findings that had accreted there. The registry note
+  states relevance and content-type only; `tools/lint_source_notes.py` enforces the
+  cap. If you are writing dates, quoted text, or reasoning into `notes`, stop — it
+  belongs in the topic file.
 - **Dry-run every batch first** — it is the cheap check that catches bad dates,
   unregistered sources, dangling FKs, and unresolved research locations before they
   touch the canonical DB.

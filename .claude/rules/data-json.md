@@ -42,6 +42,13 @@ The indexes are locators only. Canonical facts remain in `data/*.json`; generate
 - Every source-dependent fact in structured data should map to a valid `sourceId`.
 - Orphan facts and orphan sources are both defects.
 - If a new source is needed, add it to `sources.json` deliberately and then reference it.
+- `sources.json` `notes` fields are brief catalogue annotations (what the source is,
+  why it is relevant, what kinds of information it carries — roughly 2–4 sentences).
+  Evidence, extracts, negative-search results, and findings belong in research
+  markdown or `sources/corpus_supplement/`; a short finding may be duplicated into
+  `notes` only when it is already carried in a research file.
+  `tools/lint_source_notes.py` enforces a soft cap (600 chars) with a frozen
+  allowlist for grandfathered pre-existing entries.
 
 ## Cross-file integrity
 - When place references change, keep `places.json` and `places_detail.json` aligned (one row per `placeId` in each).
