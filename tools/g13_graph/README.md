@@ -90,14 +90,14 @@ export is stale.
 .\.venv\Scripts\python.exe tools\g13_graph.py source <source-id>
 .\.venv\Scripts\python.exe tools\g13_graph.py unit <unit-id>
 .\.venv\Scripts\python.exe tools\g13_graph.py impact <item-id>
-.\.venv\Scripts\python.exe tools\g13_graph.py search --terms <term> [...]
+.\.venv\Scripts\python.exe tools\g13_graph.py search --terms <term> [...] [--match any|all]
 .\.venv\Scripts\python.exe tools\g13_graph.py reindex
 .\.venv\Scripts\python.exe tools\g13_graph.py hash-sources
 .\.venv\Scripts\python.exe tools\g13_graph.py report [--output <path>]
-.\.venv\Scripts\python.exe tools\g13_graph.py context --terms earliest Weymouth presence --mode grounding --budget 12000
+.\.venv\Scripts\python.exe tools\g13_graph.py context --terms earliest Weymouth presence --match any --mode grounding --budget 12000
 .\.venv\Scripts\python.exe tools\g13_graph.py context --ids <item-id> --mode research --relation-types SUPPORTS DEPENDS_ON
 .\.venv\Scripts\python.exe tools\g13_graph.py context --entity-ids <entity-id> --mode audit
-.\.venv\Scripts\python.exe tools\g13_graph.py context --mode exhaustive
+.\.venv\Scripts\python.exe tools\g13_graph.py context --mode exhaustive --output raw
 ```
 
 Command output is written as UTF-8 regardless of the Windows console code page,
@@ -112,8 +112,10 @@ registry.
 
 ## Context compiler (Phase G2)
 
-`context` seeds active/open research items by conjunctive `--terms`, explicit
-`--ids`, or `--entity-ids`, then traverses graph relations in both directions.
+`context` seeds active/open research items by `--terms`, explicit `--ids`, or
+`--entity-ids`, then traverses graph relations in both directions. Term matching
+is controlled by `--match any|all`; `any` is the default for ordinary
+AI-grounding prompts, while `all` retains deliberate conjunctive precision.
 `--relation-types` restricts both traversal and returned edges. Modes control
 scope:
 
@@ -122,12 +124,17 @@ scope:
 - `audit` — the complete connected component.
 - `exhaustive` — every active/open item, including disconnected items.
 
-The coverage ledger names every active/open item considered, every seed and
-expanded item, every compactly included item, and every omitted item with a
-reason. It also reports unresolved explicit IDs, detail omissions, graph
-distance, and the route by which each item was expanded. Review-state,
-knowledge-window, relation-review, and source-hash warnings travel with the
-package.
+The default output is `--output ai-grounding`: a concise brief that leads with
+conclusion-grade items, then supporting items, each carrying item IDs, short
+statements, relation reasons, source IDs/locators, research location, and
+warnings. Use `--output raw` for the full deterministic package.
+
+Normal `grounding` and `research` coverage ledgers report counts, item-ID
+ranges, matched seed IDs, included IDs, omission categories, unresolved explicit
+inputs, and detail omissions without listing every active/open item considered.
+`audit` and `exhaustive` preserve the full considered-item listing for review.
+Review-state, knowledge-window, relation-review, and source-hash warnings travel
+with both output forms.
 
 `--budget` is a character budget over deterministic compact JSON. Detail is
 shed only in the Plan 01 §12 order: evidence excerpts, context-only item detail,
@@ -137,6 +144,47 @@ records, negative-result scope/limitations, and coverage/omission notices are
 protected. If the protected minimum exceeds the budget, the compiler returns
 the complete protected package with `within_budget: false`; it never silently
 truncates.
+
+### Current AI-grounding status
+
+As of the July 2026 G13 evaluation and follow-up revision, the graph is best
+understood as a reliable canonical structured store plus an improved
+AI-grounding compiler. It is still not a replacement for broad repo-search or
+topic-file reading when the task requires discovery outside the populated graph.
+
+What works well:
+
+- The graph stores reviewed research items, relations, source links, negative
+  result scope, research locations, source-hash state, publication mappings, and
+  marker mappings in queryable form.
+- Explicit `--ids` and `--terms --match any|all` queries can retrieve provenance-bearing
+  subgraphs that expose supporting, qualifying, dependency, and contextual
+  relationships without rereading the full monolithic companion.
+- The CLI default is the `ai-grounding` brief: concise conclusions first, then
+  item IDs, short statements, relation reasons, source IDs/locators, compact
+  coverage, and warnings.
+- The raw compiler package remains available with `--output raw`; `audit` and
+  `exhaustive` modes keep full considered-item detail.
+
+Current limits:
+
+- Broad terms can seed too many items and produce a package larger than the
+  requested budget. This is expected when protected details, negative-result
+  limits, and omission notices exceed the budget.
+- Topic prose remains the best human-readable entry point for many questions.
+  The graph is strongest after the relevant item, unit, source, or narrow
+  discriminating term is known.
+
+Recommended AI grounding process:
+
+1. Use `repo_search.py` and the relevant topic file when the task is broad
+   discovery or may depend on material not yet represented in the graph.
+2. Use `context --terms ... --match any --mode grounding` for ordinary
+   AI-grounding once the task terms are known.
+3. Use `context --ids ... --mode research` to expand a known item through nearby
+   relations and provenance.
+4. Use `--match all`, `--output raw`, `--mode audit`, or `--mode exhaustive`
+   only when precision or verification requires the heavier output.
 
 `hash-sources` captures only missing local-source baselines by default.
 `--accept-current` is an explicit reviewed-drift operation: it replaces changed

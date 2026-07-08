@@ -305,3 +305,431 @@ and Peter's King Philip's War service (`g13-family-mendon-descendants`, `bodge` 
 Richard's own line (the direct-line G12 subject, external); and the origin/identity use of the
 roster as a matching criterion (identity units). The multi-destination fact-sheet Children and
 case-file s1 rows are only partly borne here and stay backlog, annotated not false-closed.
+
+Phase G3 increment (2026-07-06, bounded): `topics/origin/20-age-baptism.md`
+(topicId `g13-origin-age-baptism` — the first **origin** topic; a new `origin` manifest
+group), co-authored with research items `G13-RI-000069..000071` and two prose evidence
+markers `G13-PM-000043..000044`. The chronology of John's own age and birth, depth over
+breadth — deliberately the age question, not the identity/parentage argument. The evidential
+anchor is his single primary same-person age datum: the 1652/3 *Wilson v. Faxon* Braintree
+deposition, "John Gurney of Brayntree aged 50 Yeares or thereabouts" (Suffolk Court Files
+no. 188), carried as source_evidence **RI-000069** and pointing to a birth c.1602/3. The
+birth-window finding **RI-000070** (moderate; born c.1602–1610, probably c.1603–1608) is
+SUPPORTED by the deposition and DEPENDS_ON the marriages-unit first-wife finding RI-000063
+(the marriage-by-later-1620s bound from daughter Mary's 1647 Shed marriage), and
+publication-maps to the fact-sheet Vitals-Born row (now its canonical home; the published
+c.1607–1612 bracket, the East Dereham-baptism end, sits inside the finding's window).
+Analysis **RI-000071** reconciles the deposition age against the identity work's probable
+East Dereham baptism (c.1609/10), QUALIFYING RI-000070 and ANALYZING RI-000069. The
+paleographic identification of Entry E and the whole Candidate-B parentage argument stay
+external (identity units + the G14 Francis companion); the register reading is cited
+`nro-pd-86-41` **cross_unit** with no in-unit item, as is `shedd` for the marriage bound.
+No new sources or entities registered (all three cited ids already baselined). Loaded
+transactionally at database revision 56; milestone snapshot at revision 56
+(`data/context-graphs/g13/exports/snapshots/g13-context-r000056.ndjson`); validate 0/0, all
+tiers aligned. Per-increment gates hold: source-journey, topic-graph-source, publication,
+and input-source-set gaps all 0 for the touched topic; no new friction; backlog not
+increased. `coverageStatus: increment-complete` in `manifest.json`. Deliberately not poached:
+the East Dereham register review and sibling structure and the paleographic identification
+(case-file s4/s5, identity/G14 — stay backlog, annotated not false-closed); daughter Mary's
+own English-birth window (`g13-family-wives-marriages`); the recurring Find-a-Grave "1615"
+memorial tradition (`g13-origin-traditions`); and the general colonial vital-/church-record
+silence (`g13-colonial-record-coverage` RI-000041).
+
+Phase G3 increment (2026-07-06, bounded): `topics/origin/21-trade-training.md`
+(topicId `g13-origin-trade-training` — the second **origin** topic), co-authored with
+research items `G13-RI-000072..000075` and four prose evidence markers
+`G13-PM-000045..000048`. The origin/formation bearing of John's tailoring trade, depth over
+breadth — what his trade says about his English training, not the occupation fact itself
+(that stays `g13-colonial-braintree-community` RI-000047, cross-referenced in prose without
+re-citing its deed/Sprague witnesses). The evidential core is a **double documentary silence
+across the two surviving formal trade-transmission pathways**: the Merchant Taylors' Company
+of London binding/freedom rolls 1583–1800 (Scott, UKDA-SN-9263) show no John-son-of-Francis
+binding and zero Gurney patrimony freedoms (`negative_result` **RI-000072**), and the Norwich
+freemen register (Millican 1934) and enrolled apprentice-indenture index (Rising & Millican,
+NRS 29, 1959) show no John Gurney freedom or enrolled apprenticeship c.1615–1660 — the sole
+17th-c Gurney being James, son of Francis of St Peter Parmentergate (bound 1627) — (`negative_result`
+**RI-000073**). The synthesis finding **RI-000074** (moderate) reads the trade as learned by
+informal or country training off the enrolled books, SYNTHESIZES both negatives, and DEPENDS_ON
+the Braintree occupation finding RI-000047 (cross-unit). Analysis **RI-000075** (moderate-high)
+carries the one enrolled "John Gurney" apprenticeship in the New England orbit — the 21 July 1636
+Newgate indenture — as a de-conflated younger man (birth ~1615 vs the deposition's c.1602/3),
+SUPPORTING RI-000074; the fuller two-Johns de-conflation stays with the identity work. Three
+sources journeyed here (`ukda-9263-mt-apprentices-scott-2024`, `millican-register-freemen-norwich-1934`,
+`rising-millican-norwich-apprentices-index-nrs29-1959`, `winthrop-history-new-england-addenda-1636`);
+`ukda-9263`'s `corpusPath` was repointed to its Gurney-variants extract CSV (`data/sources.json`
+v-bump) so the cited artifact resolves and hash-baselines. Loaded across database revisions 57–60
+(author-batch + hash-sources + sync-sources + hash-sources); milestone snapshot at revision 60
+(`data/context-graphs/g13/exports/snapshots/g13-context-r000060.ndjson`); validate 0/0, all tiers
+aligned. Per-increment gates hold: source-journey, topic-graph-source, publication, and
+input-source-set gaps all 0 for the touched topic; no new friction; backlog not increased.
+`coverageStatus: increment-complete` in `manifest.json`. Two frozen legacy blocks are partly borne
+here and stay backlog, annotated not false-closed: "The Newgate apprenticeship / 1636 record –
+de-conflated" (l.306; `winthrop-addenda` journeys, the Newgate-not-Gurney negatives remain →
+identity) and "Online and full-text lead dispositions" (l.393; the two Norwich sources journey,
+the other eight lead-search sources remain → identity/origin + source-coverage). Deliberately not
+poached: the colonial occupation fact and its deed/Sprague witnesses (`g13-colonial-braintree-community`
+RI-000047); the tailor-without-tools inventory negative (`g13-colonial-material-life` RI-000036);
+the Christ's Hospital emigrant-apprentice negative (`g13-research-source-coverage` RI-000050); and
+the Candidate-B parentage argument that Francis Gurney was himself a Merchant Taylor (case file /
+identity work, external-canonical). The Merchant Taylors' analysis file
+(`research/topics/merchant-taylors-1583-1800-gurney-analysis.md`) is outside the Plan 2b frozen
+inventory, so `ukda-9263` needs only a citation-map row, not a legacy/supplemental row.
+
+Phase G3 increment (2026-07-06, bounded): `topics/origin/22-migration-network.md`
+(topicId `g13-origin-migration-network` — the third **origin** topic; manifest `order` 40;
+heading_id `origin-migration-and-reception-network` slug-matches H1 "Origin — migration and
+reception network"), co-authored with research items `G13-RI-000076..000079` and three prose
+evidence markers `G13-PM-000049..000051`. **Depth over breadth on the non-identity
+reception-network reading of John's arrival — the §18 origin/parentage disambiguation stays
+external to the identity units.** Finding-first: John left no record of his Atlantic crossing,
+so his migration is knowable only as a reception pattern. Research finding **RI-000076**
+(moderate) reads his colonial debut as reception into an already-established Weymouth community
+(his 1641 co-named men Ludden and Richard Porter, and his residual creditor John King, were
+settlers of a half-generation's standing) — SYNTHESIZES the Weymouth associate reading RI-000022
+and DEPENDS_ON the arrival gunpowder record RI-000001, both cross-unit. Two first-class negatives
+bound the crossing: **RI-000077** (moderate-high), no John Gurney variant on the three surviving
+near-window passenger lists (Bevis 1638, Diligent 1638, Mary Anne 1637, via Banks and Drake), and
+**RI-000078** (moderate), no Gurney in the Hingham town records by full-text search (the Hobart
+journal untested/gated) — both SUPPORT RI-000076. Analysis **RI-000079** (moderate) QUALIFIES the
+finding: the reception network fixes the mode of settlement but is a weak lever for English origin
+(documented associates span Bucks/West-Country/Essex/Warwickshire/Suffolk/Norfolk), so the
+origin-corridor question is held to the identity work. **Two new sources registered**:
+`banks-planters-of-the-commonwealth-1930` and `drake-result-of-researches-1860` (`data/sources.json`
+v1.9.0→**1.10.0** + thin validation worksheets), both baselined and journeying via RI-000077.
+Loaded across database revisions 61–63 (sync-sources → author-batch r62 → hash-sources r63);
+milestone snapshot at revision 63
+(`data/context-graphs/g13/exports/snapshots/g13-context-r000063.ndjson`); validate 0/0, all tiers
+aligned. Per-increment gates hold: source-journey, topic-graph-source, publication, and
+input-source-set gaps all 0 for the touched topic; no new friction; backlog not increased.
+`coverageStatus: increment-complete` in `manifest.json`. Assimilated: the immigration-topic
+"Working interpretation" row (→ RI-000076/000079) and the Bevis/Diligent/Mary-Anne passenger-list
+negative (→ RI-000077); the dump F11 Hingham FTS negative facet (→ RI-000078, the Hobart-journal
+arrival-vector lead and record-coverage bearing stay backlog). Lead **L-188** advanced via
+`[G13-STAGING 2026-07-06 …]` append-only. Deliberately **not** poached (reviewed, held external,
+annotated not false-closed): the Candidate-B / Bucks-as-origin / Hingham-corridor-for-Candidate-B
+threads (immigration topic, case-file s7 Ann Gurney × Gilman, legacy corridor blocks →
+identity/origin units); the F-R5 English patronage/wardship-network class and F-R4.5 Jenner
+eastern-counties origin (→ `g13-origin-wardship-network` / identity); the Weymouth-reception slice
+already carried in `g13-colonial-weymouth-community` RI-000046. Cross-unit prose citations
+(`suffolk-deeds-liber-iv-1888`, `shedd-daniel-shed-genealogy-1920`) carried `cited_role=cross_unit`
+in the citation map (parity-exempt); no in-unit item link pulled for the colonial occupation/land
+witnesses.
+
+Phase G3 increment (2026-07-06, bounded): `topics/origin/23-wardship-network.md`
+(topicId `g13-origin-wardship-network` — the fourth **origin** topic; manifest `order` 50;
+heading_id `origin-wardship-and-patronage-network` slug-matches H1 "Origin — wardship and
+patronage network"), co-authored with research items `G13-RI-000080..000085` and five prose
+evidence markers `G13-PM-000052..000056`. This authors the F-R5 English patronage/wardship-network
+class the migration-network increment deferred. **Depth over breadth, strict non-advocacy: the
+unit assembles the ward-line network as origin-bearing context about the senior West Barsham
+branch, and explicitly does NOT connect John to it — the Candidate-B identity question is held to
+the case file (§18 "expensive and hard to reverse").** Finding-first: in John's emigration decade
+the senior branch stood inside the Massachusetts founders' Court-of-Wards circle. Evidence items:
+the 1627 Gurdon→Winthrop letter (**RI-000080**, the widowed "mrs. Gurny" presenting through
+Winthrop and Downing at the Court of Wards); the wardship structure (**RI-000081** — Edward Gournay
+a minor ward under his mother Martha Lewkenor, of age c.1628; Edward's 1641/2 IPM C 142/613/60);
+and the Gurdon–Sedley–Lewkenor puritan matrix (**RI-000082**, Muskett). Finding **RI-000083**
+(moderate-high) SYNTHESIZES 080/081/082; analysis **RI-000084** (moderate) QUALIFIES it as a weak
+lever for John's own origin; open_question **RI-000085** carries the unidentified clergyman
+"Warford" (Venn + Foster negatives; CCEd the remaining route), DEPENDS_ON 080. **Four new sources
+registered** (`data/sources.json` v1.10.0→**1.11.0** + thin validation worksheets):
+`mhs-winthrop-papers-gurdon-to-winthrop-1627`, `muskett-suffolk-manorial-families-v1-1900`,
+`tna-ward-c142-west-barsham-gurney-inquisitions`, `foster-alumni-oxonienses-1500-1714`; existing
+`armstrong-norfolk-1781`, `farrer-church-heraldry-norfolk`, `blomefield-norfolk`,
+`alumni-cantabrigienses-venn`, and `familysearch-fulltext-search` also linked. **Review catch
+(important):** the source dump read the WARD 7/57/157,/80 items (14–15 Jas I) as Thomas Gurney III's
+death IPMs, dating him c.1616/17 — this **conflicts with the repo's verified finding** (lead
+**L-113** / the G15 companion) that Thomas III was living in Henry G15's 1 May 1621 will and died
+1621×1623 *vita patris*. Corrected RI-000081/RI-000083, the prose, and the source/validation notes:
+Thomas III d. 1621×1623 (predeceasing Henry G15, d. 1623), Edward a minor at his 1623 succession;
+the early WARD items held as catalogue leads; `familysearch-fulltext-search` (Henry's 1621 will)
+added to RI-000081 as the chronology witness. Lead **L-113** advanced via `[G13-STAGING 2026-07-06 …]`
+append-only. Loaded across database revisions 64–77 (sync-sources → author-batch r65 → hash r66 →
+snapshot; Foster: sync r67 → add_source_link r68 → hash r69; corrections r70–75 → sync r76 →
+hash `--accept-current` r77); milestone snapshot at revision 77
+(`data/context-graphs/g13/exports/snapshots/g13-context-r000077.ndjson`); validate 0/0, all tiers
+aligned. Per-increment gates hold: source-journey, topic-graph-source, publication, and
+input-source-set gaps all 0 for the touched topic; no new friction; backlog **decreased** 132→127.
+`coverageStatus: increment-complete` in `manifest.json`. Assimilated dump findings: Input-4
+(TNA WARD → RI-000081), F-R3.1 (Muskett → RI-000082), F-R3.3 (Winthrop letter → RI-000080/000085),
+F-R7 and F-R4.8 (Warford negatives → RI-000085). Multi-destination partials kept in backlog,
+annotated not false-closed: F9 (Gurdon-letter flagship — Candidate-B identity bearing external),
+F-R1 (direct-ancestor IPMs → English-line files), F-R3.2 (Martha Heigham will — identity bearing
+external), F-R3.7 (Adam Winthrop diary detail not carried). **Visibility note for review:** items
+and markers were authored `public`, matching the sibling origin topics and the migration-network
+precedent for identity-adjacent-but-non-advocacy material; because the core finding is Candidate-B
+senior-branch substrate, this publication call should be confirmed at the dedicated identity pass
+and can be flipped to `repo_only` with one `set_visibility` batch if a review gate is preferred.
+
+---
+
+Phase G3 review-revision (2026-07-07, Opus): reworked the three already-authored
+origin topics `topics/origin/20-age-baptism.md`, `topics/origin/21-trade-training.md`,
+and `topics/origin/22-migration-network.md` after Allen's review, for cohesive plain-spoken
+narrative and to add material that had been lost. **Age-baptism** was rebuilt around four
+chronological handles of unequal strength: added a source_evidence item for the parents'
+marriage (Francis Gurney × Margaret Rybett, 23 Sep 1611, St Martin at Palace, Norwich, `nro-pd-12-1`
++ `findmypast-norfolk-banns-marriages-index`) as **G13-RI-000086**, and an analysis item on the
+decade-rounded ("age heaping") reading of the deposition age as **G13-RI-000087** (new source
+`shepard-spicksley-worth-age-2011` registered; `data/sources.json` v1.11.0→**1.12.0**); revised the
+birth-window finding RI-000070 and the reconciliation analysis RI-000071 to a probable (1604–1608)
+vs possible (1602–1610) framing; embedded Allen's evidence-range figure at
+`topics/origin/figures/john-gurney-birth-year-ranges.png`; markers **G13-PM-000057/000058** added,
+RI-000070 removed from PM-000043. **Trade-training** gained an orientation item **G13-RI-000088**
+(the father-son / family-textile expectation: Francis a Merchant Taylor, the 1622 King's Lynn
+worsted-yarn scheme via `bho-hmc-kings-lynn-misc-writings` and `ukda-9263`, the Gurney Norfolk wool
+setting) + marker **G13-PM-000059**, and plain-language cleanup throughout. (Note: Henry G15's 1621
+will carries **no** wool-trade content — a farmer's/gentleman's will — so that recollection was not
+asserted; the concrete textile links are Francis himself and the wider family setting.)
+**Migration-network** was substantially expanded from ~10% to a fuller synthesis with links out to
+`research/topics/g13-john-gurney-immigration-by-association.md` and
+`research/topics/massachusetts-bay-passenger-lists-bevis-diligent-mary-anne.md`: added
+**G13-RI-000089** (Great-Migration timing — passenger silence expected in the thin 1639–41 tail),
+**G13-RI-000090** (the Weymouth land-and-neighbour reception network / immigration by association),
+and **G13-RI-000091** (the Norfolk–Hingham reception corridor, the Diligent cohort out of the very
+Gurney parishes — Great Ellingham, Hingham, Dereham) + markers **G13-PM-000060/000061/000062**;
+RI-000078 moved from PM-000050 to PM-000062. Loaded across database revisions 78–86 (sync-sources
+r78 → age-baptism author-batch r79 → editor ops r80–82 → trade-training author-batch r83 →
+migration author-batch r84 → editor op r85 → hash-sources r86); milestone snapshot at revision 86
+(`data/context-graphs/g13/exports/snapshots/g13-context-r000086.ndjson`); validate **0/0**, all
+tiers aligned, `export-website` builds clean. Per-increment gates all 0 (source-journey, parity,
+publication, input-source-set, friction); backlog unchanged (127). All new items/markers authored
+`public`, matching the sibling origin topics. Deliberately not poached: the Candidate-B parentage
+argument and the East Dereham paleography (identity work + G14 companion, cited cross-unit); the
+Weymouth land-grant records (weymouth-community); the arrival dating (arrival-chronology).
+
+Phase G3 increment (2026-07-07, bounded): `topics/origin/24-bury-connections.md`
+(topicId `g13-origin-bury-connections` — the fifth **origin** topic; manifest `order` 60;
+heading_id `origin-bury-connections` slug-matches H1 "Origin — Bury connections"), co-authored
+with research items `G13-RI-000092..000097` and four prose evidence markers
+`G13-PM-000063..000066`. **Depth over breadth, one unit: Charles Banks's "Bury St Edmunds"
+origin attribution for John Gurney — the one specific English parish any published authority
+ever named — resolved, with the Candidate-B identity conclusion held to (and linked to) the
+case file, not advocated here.** Finding-first: the attribution rests only on "Banks Mss."
+(source_evidence **RI-000092**, `banks-brownell-1937` p.151, with the genuine Bury emigrant
+cohort); its cleanest mechanism is John Newgate of Horningsheath (~3 mi from Bury), master of
+the 1636 runaway apprentice John Gurney (source_evidence **RI-000093**, `wikitree-newgate-14-horningsheath`);
+and the Bury registers hold no natal Gurney household — the St James sweep finds only the too-late
+Thomas × Lidda Broddish household (source_evidence **RI-000094**, `bury-st-james-registers`) and
+the St Mary burials show a Bury "John Gurney" already buried in 1653 (source_evidence
+**RI-000095**, `findmypast-bury-st-edmunds-st-mary-gurney-burials-1653-1656`). Those two register
+searches SUPPORT the `negative_result` **RI-000096** clearing Bury as the emigrant's birthplace,
+and finding **RI-000097** (moderate-high) reads Banks's attribution as an unproven lead most
+plausibly tracking Newgate's apprentice and consistent with the favoured Norfolk origin —
+corroborated by Anderson's "Unknown" (`anderson-gmd-2015` p.158) and DEPENDING_ON, cross-unit,
+the trade-training de-conflation RI-000075. RI-000092/093/095/096/097 publication-map to the
+case file s8/s10 (which assert the Bury/Newgate/Banks readings); the published fact sheet carries
+no Bury claim, so nothing was mapped there. **No new sources registered** — all eight cited ids
+were already in `data/sources.json`; four were newly baselined at hash-sources
+(`banks-brownell-1937`, `bury-st-james-registers`, `findmypast-bury-st-edmunds-st-mary-gurney-burials-1653-1656`,
+`wikitree-newgate-14-horningsheath`). Loaded transactionally at database revision **88**
+(author-batch) → hash-sources r89; milestone snapshot at revision 89
+(`data/context-graphs/g13/exports/snapshots/g13-context-r000089.ndjson`); validate **0/0**, all
+tiers aligned. Per-increment gates hold: source-journey, topic-graph-source, publication, and
+input-source-set gaps all 0 for the touched topic; no new friction; backlog not increased.
+`coverageStatus: increment-complete` in `manifest.json`. Assimilated: the legacy "Newgate
+Horningsheath origin" block (→ RI-000093/000097), the Bury-St-James (L-96) sub-part of the
+"Online and full-text lead dispositions" block (→ RI-000094/000096), and the Banks facets of the
+"External compiler assessments" legacy block and case-file s8/s10 / candidate-others supplemental
+rows (annotated, multi-destination rows not false-closed). **Deferred / re-routed (backlog,
+annotated):** dump F-R3.11 (the Thomas Chaplin 1672 Bury will "Mary Gurney my servant" + Jeremy
+Houchin New-England debt) — a Bury⇄Boston conduit datum that does not connect to the emigrant's
+family — is deferred because its source is Muskett *Suffolk Manorial Families* **vol. 3**, and only
+vol. 1 is registered; assimilating it needs a `muskett-…-v3` source + worksheet (a bounded future
+increment). Dump F-R3.6 (West Barsham advowson) and F-R3.8 (Elizabeth Gournay × Bozoune Crowe) were
+re-routed off this topic to `g13-origin-wardship-network` / `g13-identity-candidate-b` as Norfolk
+senior-branch and new-person identity material, not Bury/Suffolk attribution content. Deliberately
+not poached: the whole English-origin identity conclusion (John = son of Francis Gurney and Margaret
+Rybett) stays in the [case file](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v4.md)
+§8.5/§10.2, linked from the topic prose; the maternal-Rivett and grandfather/great-uncle-wills legacy
+blocks stay backlog to migration-network / research-source-coverage.
+
+Phase G3 increment (2026-07-07, bounded): `topics/origin/25-origin-traditions.md`
+(topicId `g13-origin-traditions` — the sixth **origin** topic; manifest `order` 70; heading_id
+`origin-traditions` slug-matches H1 "Origin — traditions"), co-authored with research items
+`G13-RI-000098..000103` and six prose evidence markers `G13-PM-000067..000072`. **Depth over
+breadth, one unit: the American family-memory traditions about John Gurney, weighed for what
+they are worth rather than argued into the identity question.** Three American sources —
+*American Biography* (1926), the Lysander Franklin Gurney sketch (1912), and a Find a Grave
+memorial (no. 252975617) — repeat an identical 29 September 1615 birth with an English place
+name (source_evidence **RI-000098**, `american-biography-cyclopedia-v26-gurney-1926`;
+`accessgenealogy-lysander-franklin-gurney`; `findagrave-john-gurney-252975617`). Analysis
+**RI-000100** (moderate-high) shows the tradition is the true biography of the 1636 Newgate
+apprentice — read backward, the court order's age-24-in-1639 clause implies the same 29
+September 1615 birth — misattached to the older Braintree emigrant; it QUALIFIES RI-000098,
+DEPENDS_ON the trade-training de-conflation **RI-000075** (cross-unit), and CONTEXTUALIZES the
+age-baptism birth-window finding **RI-000070** (cross-unit). The same memorial supplies a
+distinct, separately checkable datum: source_evidence **RI-000099** places John's burial at Elm
+Street Cemetery, Braintree — a citation-worthy lead, publication-mapped to the fact sheet's
+Buried field. A second, separate tradition concerns arms: source_evidence **RI-000101** carries
+the American arms claim (`american-biography-cyclopedia-v26-gurney-1926`;
+`accessgenealogy-lysander-franklin-gurney`) alongside the same blazon's genuine in-situ Norfolk
+attestation (`pettigrew-collectanea-house-gournay-1871`; `farrer-church-heraldry-norfolk`;
+`armstrong-norfolk-1781`), and `negative_result` **RI-000102** records that no early American
+physical or manuscript witness has been found. RI-000101/RI-000102 publication-map to case file
+§10 (the "American Gurney arms" evidence-table row, "Weak," conditional on a witness being
+found); RI-000100 publication-maps to case file §8 (the elimination table's Newgate-apprentice
+row). Finding **RI-000103** (moderate) synthesizes all four — family/compiler memory about John
+tends to preserve real information misattached to the wrong subject rather than invent claims
+outright — and CONTEXTUALIZES the parallel Bury-connections finding **RI-000097** (cross-unit).
+**No new sources registered** — all seven cited ids were already in `data/sources.json`; four
+were newly baselined at hash-sources (`accessgenealogy-lysander-franklin-gurney`,
+`american-biography-cyclopedia-v26-gurney-1926`, `findagrave-john-gurney-252975617`,
+`pettigrew-collectanea-house-gournay-1871`). Loaded transactionally at database revision **91**
+(author-batch) → hash-sources r92; milestone snapshot at revision 92
+(`data/context-graphs/g13/exports/snapshots/g13-context-r000092.ndjson`); validate **0/0**, all
+tiers aligned. Per-increment gates hold: source-journey, topic-graph-source, publication, and
+input-source-set gaps all 0 for the touched topic; no new friction; backlog not increased.
+`coverageStatus: increment-complete` in `manifest.json`. Assimilated: the legacy "Find a Grave
+memorial 252975617" block (synthesized → RI-000098/000099/000100), the tradition facets of the
+"American Biography, colonial arms, and the Norfolk-line memory" legacy block (partial →
+RI-000098/000101/000102; the Candidate-B identity-weight facet stays backlog to
+`g13-identity-candidate-b`), the 1615-tradition sub-bullet of the "Negative Results and
+Exclusions" legacy block (partial), and the fact-sheet Buried supplemental row (incorporated) plus
+the case-file §8/§10 supplemental rows (partial, annotated). **Deferred/re-routed (backlog,
+annotated):** dump F-R3.9 (the L'Estrange jest-book anecdotes upgraded to kin-sourced via the
+Lewkenor tie) was re-routed to `g13-origin-wardship-network` — its substance is the West Barsham
+senior-branch kinship network, and assimilating it needs a new `muskett-…-v2` source registration
+(only vol. 1 is currently registered), a future bounded increment. Deliberately not poached: the
+Candidate-B identity weight of the arms tradition (case file, external); Banks's own "Bury St
+Edmunds" attribution and the Newgate-Horningsheath mechanism (`g13-origin-bury-connections`,
+cited cross-unit); the 1636 apprentice de-conflation itself (`g13-origin-trade-training`, cited
+cross-unit).
+
+Phase G3 increment (2026-07-07, bounded): `topics/identity/30-candidate-overview.md`
+(topicId `g13-identity-assessment` — the first **identity** topic; new manifest group
+`identity`, order 40, between `origin` and `research-state`), co-authored with research items
+`G13-RI-000104..000106` and three prose evidence markers `G13-PM-000073..000075`. **Depth over
+breadth, one unit: the shared matching-criteria profile and elimination scaffold case file §8
+applies across every alternative English John Gurney candidate — not the surviving candidate's
+own case, which stays external.** Finding-first: analysis **RI-000104** states the shared
+profile (tailor; wife Mary; children Sarah/Mary/Richard/John/Peter; birth c.1602–1610; gone from
+English records by June 1641) — SYNTHESIZES five already-homed cross-unit findings (occupation
+RI-000047, first-wife RI-000063, family roster RI-000065, birth window RI-000070, arrival window
+RI-000006) rather than re-sourcing them. Analysis **RI-000105** (DEPENDS_ON RI-000104) states the
+elimination scaffold itself — structural grounds (continuing English residence, wife-name
+mismatch, child-set/chronology mismatch, wrong generation) vs. a low residual for single-
+attestation households — SYNTHESIZES the Newgate-apprentice de-conflation already authored twice
+in this graph (trade-training RI-000075, traditions RI-000100) as the same standard applied to a
+same-name case. Finding **RI-000106** (moderate-high) SYNTHESIZES both and states the outcome: of
+51 same-name households in case file §8, three principal alternatives (A, C, D) plus 45 further
+clearance-sweep households are eliminated, five single-attestation households are held at a
+combined ~8% residual, and Candidate B is the sole survivor; it CONTEXTUALIZES the record-coverage
+origin-silence negative RI-000042 (elimination-by-profile is the only route to a candidate
+conclusion because no record states John's origin directly) and cites `anderson-gmd-2015`
+directly (p. 158's own bracketed documentary basis). **Per the explicit task instruction, the case
+file's own §11 probability model (~65% for Candidate B) is held external-canonical** — RI-000106
+publication-maps to case file §11 and cross-references it without restating the figure; the topic
+prose states the current ~65% (v4.3) for the reader with a footnote back to §11 as the canonical
+source, so a future case-file revision cannot go stale in the graph silently. RI-000104 and
+RI-000105 publication-map to case file §1 and §8 respectively. Two legacy-companion blocks
+dispositioned: "Combined Anderson + Banks assessment" (l.282, `synthesized` → RI-000106, the
+candidate-standing table + cross-links to the six existing per-candidate topic files) and "Working
+Hypotheses" (l.531, `external-canonical` — an exact duplicate of case-file §11's percentages,
+explicitly self-described as "case file v4.3 aligned"). Loaded transactionally at database
+revision 93 (author-batch; `anderson-gmd-2015` already baselined, no hash-sources needed);
+milestone snapshot at revision 93
+(`data/context-graphs/g13/exports/snapshots/g13-context-r000093.ndjson`); validate **0/0**, all
+tiers aligned. Per-increment gates hold: source-journey, topic-graph-source, publication, and
+input-source-set gaps all 0 for the touched topic; no new friction; backlog decreased.
+`coverageStatus: increment-complete` in `manifest.json`. Deliberately not poached (reserved for
+their own future dedicated identity increments, cross-referenced not restated): the per-candidate
+archival detail in the six existing `research/topics/john-gurney-candidate-*.md` files and the
+Bucks-cluster immigration-topic row (→ `g13-identity-candidate-a` / `g13-identity-london-candidate`
+/ their own case-file-s8-section rows); the Candidate B parentage argument itself — trade,
+corridor, motive, network, the East Dereham baptism reading, and its own probability synthesis
+(case file §2, §5, §9, §10, §11 → `g13-identity-candidate-b`, unstaged). The case-file s1
+family/religion partial row and s6/s10 identity partial rows are only partly borne here (the
+matching-criteria facet only) and stay backlog, annotated not false-closed.
+
+Phase G3 increment (2026-07-07, bounded): three dedicated identity topics —
+`topics/identity/31-candidate-a-aylesbury.md` (topicId `g13-identity-candidate-a`),
+`topics/identity/35-candidate-ackworth.md` (topicId `g13-identity-candidate-ackworth`, new),
+and `topics/identity/36-other-eliminations.md` (topicId `g13-identity-other-eliminations`, new,
+absorbing both the Earsham candidate file and the same-name clearance-sweep portion of the
+"others" comparator file) — co-authored with research items `G13-RI-000107..000120` and eight
+prose evidence markers `G13-PM-000076..000083`. **Depth over breadth, one bounded batch of three
+small eliminations, each absorbing its `research/topics/john-gurney-candidate-*.md` source file.**
+Aylesbury (Candidate A): source_evidence RI-000107 (the Stewkley-Bierton-Aylesbury family chain),
+RI-000108 (the wider five-plus-household Bucks map), and RI-000109 (the 1661 Edlesborough
+marriage) SYNTHESIZE into finding RI-000110 (Candidate A eliminated), which SYNTHESIZES
+cross-unit into the shared elimination scaffold RI-000105. Ackworth: source_evidence RI-000111
+(the 1636 marriage and 1637 baptism) grounds analysis RI-000112 (held at residual ~3%, capped by
+the naming/birth-order mismatch and the colonial John's own pre-1628 marriage bound — CONTEXTUALIZES
+cross-unit the five-child roster RI-000065) and open_question RI-000113 (the parish-register pull,
+burial search, and the Mary Barton/Burton tradition-provenance test). Other eliminations + Earsham:
+source_evidence RI-000114 (the 1638 Earsham will: wife Mary, son John a minor at fourteen, brother
+Syon/Lyon) grounds finding RI-000115 (testator and son both the wrong generation; the family's own
+forward-traced genealogy stays external-canonical on `research/people/john-gurney-earsham-will-1638.md`,
+a deliberate subject-boundary decision, not backlog); source_evidence RI-000116 (the Gurnell
+false-friend), RI-000117 (six-parish Norfolk household-density survey), negative_result RI-000118
+(the Richard/Isaac cluster-anchor search, with a structured `negative_result_scope`), and
+RI-000119 (the wider English parish/probate/muster clearance sweep — Harrow, Toddington,
+Cripplegate, the TNA PCC probate corpus, the Protestation Returns) all SYNTHESIZE into finding
+RI-000120 (the combined ~8% residual; Candidate B remains the sole survivor), which SYNTHESIZES
+cross-unit into RI-000105. All fourteen sourceIds cited were already registered (no new source
+registration this increment). Loaded transactionally at database revision 94 (author-batch);
+sources baselined at revision 95 (`hash-sources`); milestone snapshot at revision 95
+(`data/context-graphs/g13/exports/snapshots/g13-context-r000095.ndjson`); validate **0/0**, all
+tiers aligned. Per-increment gates hold for all three touched topics: source-journey,
+topic-graph-source, and publication-mapping gaps all 0; no new friction; backlog decreased
+(`supplemental-surfaces-map.csv` rows for the Aylesbury whole-file banner and its three sub-sections,
+the Ackworth whole-file row, the Earsham whole-file row, and the "same-name eliminators and
+comparators" section of the others file all move to `incorporated`, with new `source-and-citation-map.csv`
+rows for every cited sourceId). `coverageStatus: increment-complete` for all three in `manifest.json`.
+Deliberately not poached, left backlog for future passes: the Aylesbury FS-Tree-profile caution and
+its Medmenham/Richards non-leads; the others file's Costessey/Cawston/Providence/Isaac-Gurney/
+Francis-of-Maldon material (each already has its own dedicated `research/people/*.md` subject file,
+out of scope for this graph); the East Dereham copyhold-succession chain and NCC will sightings
+(external G14 orbit, leads L-5/L-6); and the Margaret Rovett/Rybett open lead (no source id, pending
+record review).
+
+Phase G3 increment (2026-07-07, bounded): `topics/identity/34-london-draper.md`
+(topicId `g13-identity-london-candidate`), absorbing the whole
+`research/topics/john-gurney-candidate-london-draper.md` working file — co-authored
+with research items `G13-RI-000121..000125` and four prose evidence markers
+`G13-PM-000084..000087`. **One unit, depth over breadth: Candidate D — John Gurney,
+son and executor of Robert Gurney, citizen and draper of Old Change — eliminated.**
+The identity anchor (source_evidence **RI-000121**) carries Robert's 1625 will naming
+John sole executor, Robert's Drapers' freedom since 1581, and John's own 1623/4
+Drapers' freedom by redemption (not patrimony); it also folds in Robert's earlier,
+pre-1611 St Augustine children, which weaken any assumption that Anne Morris (m. 1611)
+was John's mother. Continuing-London-presence evidence (source_evidence **RI-000122**)
+carries the 1638 St Augustine £10 rent return alongside the decisive 1662 hearth-tax
+entry (1 hearth, "poore," TNA E 179/252/27) and the corroborating Boyd's card. The
+elimination finding (**RI-000123**, SYNTHESIZES 121/122, cross-unit CONTEXTUALIZES the
+colonial John's 1663 estate inventory RI-000033, cross-unit SYNTHESIZES the shared
+elimination scaffold RI-000105) states the clean chronological ground: a London
+householder assessed too poor to pay hearth tax in 1662 cannot be the colonial John
+dying at Boston the same year. A `negative_result` (**RI-000124**) adds a second,
+independent ground — no wife Mary or matching children, and no Anne Gurney widow
+probate — and an `analysis` (**RI-000125**) explains the redemption-not-patrimony
+anomaly via a probable prior Stationers' Company apprenticeship (the H-D1 hypothesis).
+**Friction resolved:** the frozen working file hedged one citation to an unregistered
+`ancestry-pcc-wills-1384-1858` placeholder ("existing source if applicable"); it is now
+registered properly (`data/sources.json` v-bump + validation worksheet) and cited
+directly on RI-000124, rather than left unresolved or duplicated against the existing
+`tna-pcc-probate`/`tna-pcc-gurney-elimination-corpus` registrations. Two comparators
+kept out of the elimination proper (an unrelated Richard Gurney haberdasher/alderman,
+and the Hanging Houghton gentry family) and three still-unretrieved deferred pulls
+(the 1661 poll tax, the 1640 Harvey list, the Arber Stationers' Registers raw entry —
+no longer load-bearing since the 1662 hearth tax already confirms the elimination) are
+carried in prose and linked `mentions` onto the nearest item via a short post-commit
+editor pass, so every source_id the legacy file cites journeys into the graph. Loaded
+across database revisions 96–106 (sync-sources r95→96 for the new registration,
+author-batch r96, hash-sources r97, six editor source-link ops r98–105, hash-sources
+r106); milestone snapshot at revision 106
+(`data/context-graphs/g13/exports/snapshots/g13-context-r000106.ndjson`); validate
+**0 errors** (2 pre-existing, unrelated warnings — missing local image files for two
+already-registered LMA parish-register sources); all tiers aligned.
+`tools/lint_source_notes.py` PASS. Per-increment gates hold: source-journey,
+topic-graph-source, publication-mapping, and input-source-set gaps all 0 for the
+touched topic; no new friction (the one pre-existing friction flag on this row is
+resolved); backlog not increased (115, same as before this increment — six pre-existing
+gaps closed by this pass without adding any). `coverageStatus: increment-complete` in
+`manifest.json`. Assimilated: the whole `john-gurney-candidate-london-draper.md` file
+(main content row and its Cross-references row, both `incorporated`). Deliberately not
+poached, left backlog: the distinct William Gurney London hearth-tax cluster
+(1664–1666), which bears on the case file's own "unknown corridor" residual reading,
+not on Candidate D's elimination.

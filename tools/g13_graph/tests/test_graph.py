@@ -11,7 +11,7 @@ from pathlib import Path
 from unittest import mock
 
 from tools.g13_graph.config import DEFAULT_DB, GraphConfig
-from tools.g13_graph.context import compile_context
+from tools.g13_graph.context import compile_context, format_ai_grounding
 from tools.g13_graph.db import connect, transaction
 from tools.g13_graph.drift import capture_source_hashes, source_hash_state
 from tools.g13_graph.exporter import (
@@ -871,13 +871,20 @@ class ContextCompilerTests(GraphTestCase):
         # 'active' and 'open' items are considered; nothing else exists here.
         self.assertEqual(ledger["considered_active_items"], 9)
 
-    def test_term_match_is_conjunctive(self) -> None:
+    def test_term_match_defaults_to_any_and_can_require_all(self) -> None:
         self.seed()
-        package = compile_context(self.config, terms=["synthetic", "negative"])
-        self.assertIn(
-            "TEST-RI-000005",
-            {item["item_id"] for item in package["items"]},
+        any_package = compile_context(self.config, terms=["negative", "question"])
+        self.assertEqual(any_package["query"]["match"], "any")
+        self.assertTrue(
+            {"TEST-RI-000005", "TEST-RI-000009"}.issubset(
+                {item["item_id"] for item in any_package["items"]}
+            )
         )
+        all_package = compile_context(
+            self.config, terms=["negative", "question"], match="all"
+        )
+        self.assertEqual(all_package["query"]["match"], "all")
+        self.assertEqual(all_package["items"], [])
 
     def test_budget_never_drops_ids_and_protects_negative_scope(self) -> None:
         self.seed()
@@ -997,20 +1004,37 @@ class ContextCompilerTests(GraphTestCase):
         self.assertEqual(ledger["omitted"], [])
         self.assertEqual(ledger["included_total"], 9)
 
-    def test_coverage_ledger_accounts_for_items_outside_subgraph(self) -> None:
+    def test_grounding_ledger_summarizes_items_outside_subgraph(self) -> None:
         self.seed()
         package = compile_context(self.config, ids=["TEST-RI-000002"])
         ledger = package["coverage_ledger"]
-        accounted = set(ledger["included_compactly"]) | {
-            row["item_id"] for row in ledger["omitted"]
-        }
-        self.assertEqual(accounted, set(ledger["considered"]["item_ids"]))
-        self.assertTrue(
-            all(
-                row["reason"] == "outside_grounding_subgraph"
-                for row in ledger["omitted"]
-            )
+        self.assertNotIn("item_ids", ledger["considered"])
+        self.assertEqual(ledger["considered"]["count"], 9)
+        self.assertEqual(
+            ledger["omitted"],
+            [
+                {
+                    "reason": "outside_grounding_subgraph",
+                    "count": 5,
+                    "item_id_range": {
+                        "first": "TEST-RI-000004",
+                        "last": "TEST-RI-000009",
+                    },
+                }
+            ],
         )
+
+    def test_ai_grounding_output_leads_with_concise_items(self) -> None:
+        self.seed()
+        package = compile_context(self.config, ids=["TEST-RI-000002"])
+        grounding = format_ai_grounding(package)
+        self.assertEqual(grounding["query"]["mode"], "grounding")
+        self.assertEqual(grounding["conclusions"][0]["item_id"], "TEST-RI-000002")
+        finding = grounding["conclusions"][0]
+        self.assertEqual(finding["short_statement"], "Synthetic finding")
+        self.assertTrue(finding["relation_reasons"])
+        self.assertEqual(grounding["coverage"]["considered_active_items"], 9)
+        self.assertNotIn("considered", grounding)
 
     def test_entity_seed_and_unresolved_inputs_are_reported(self) -> None:
         self.seed()
@@ -1085,6 +1109,8 @@ class ContextCompilerTests(GraphTestCase):
             compile_context(self.config, relation_types=["NOT_A_RELATION"])
         with self.assertRaises(ValueError):
             compile_context(self.config, budget=0)
+        with self.assertRaises(ValueError):
+            compile_context(self.config, match="sometimes")
 
 
 class CliSmokeTests(GraphTestCase):
@@ -1126,7 +1152,8 @@ class CliSmokeTests(GraphTestCase):
         run("sync-sources")
         run("seed", "--file", str(FIXTURES / "synthetic-seed.ndjson"))
         run("validate")
-        run("search", "--terms", "synthetic", "negative")
+        search = run("search", "--terms", "synthetic", "negative")
+        self.assertEqual(search["match"], "any")
         run("source", "TEST-SOURCE-000001")
         run("unit", "TEST-UNIT-000001")
         run("impact", "TEST-RI-000002")
@@ -1140,6 +1167,15 @@ class CliSmokeTests(GraphTestCase):
             "SUPPORTS",
         )
         self.assertEqual(context["query"]["mode"], "research")
+        self.assertIn("conclusions", context)
+        raw_context = run(
+            "context",
+            "--ids",
+            "TEST-RI-000002",
+            "--output",
+            "raw",
+        )
+        self.assertIn("items", raw_context)
         run("hash-sources")
         report = self.root / "cli-report.json"
         run("report", "--output", str(report))

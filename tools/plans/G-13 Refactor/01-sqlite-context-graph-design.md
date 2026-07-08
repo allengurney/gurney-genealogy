@@ -12,6 +12,18 @@ AI to reconstruct the same evidence, findings, analyses, hypotheses, and
 relationships from prose. The graph makes those research items, conflicts,
 dependencies, and publication impacts explicit and queryable.
 
+**Revision note, 2026-07-08.** Early G13 use confirms that the canonical
+SQLite graph is meeting the structured-store part of this purpose better than
+the AI-grounding part. The database now holds reviewed items, relations,
+sources, negative-result scopes, publication mappings, and review/source-hash
+state in the intended representation. The follow-up retrieval revision added
+`context --output ai-grounding`, `--match any|all`, and compact normal grounding
+ledgers so ordinary AI use starts with conclusions, item IDs, relation reasons,
+source IDs/locators, and warnings rather than raw exhaustive JSON. The graph is
+therefore more effective as a grounding tool, while broad repo-search and topic
+files remain necessary when the task may depend on material outside the
+populated graph.
+
 This is an implementation of a **canonical-SQLite** model. Structured graph
 content lives in a real database; prose and sources remain canonical files.
 
@@ -873,6 +885,8 @@ Input:
 - Requested relation types.
 - Budget.
 - Optional mode: `grounding`, `research`, `audit`, or `exhaustive`.
+- Optional term matching: `any` for ordinary OR-style grounding, `all` for
+  deliberate conjunctive precision.
 
 Output:
 
@@ -900,6 +914,42 @@ omit detail in a declared order:
 
 Conflicts, negative-result limitations, and omitted-coverage notices may not be
 dropped to meet budget.
+
+### 2026-07-08 retrieval revision
+
+The first live evaluation showed a difference between graph content quality and
+AI-grounding ergonomics:
+
+- Natural multi-term prompts can over-constrain term seeding when matching is
+  conjunctive.
+- Broad single terms can seed too much and return a protected package larger
+  than the requested budget.
+- Exact item-ID queries expose useful relationships and provenance, but still
+  spend too much of a normal grounding response on raw JSON and full ledger
+  detail.
+- Topic files remain useful human-readable entry points; the graph adds a
+  structured retrieval layer over them, but does not replace repo/topic reading
+  when relevant material may not yet be represented as graph items.
+
+Implemented in the follow-up revision:
+
+1. An AI-facing grounding output mode: concise current conclusions first,
+   followed by item IDs, short statements, relation reasons, source IDs and
+   locators, review/source warnings, and omitted-coverage notices. The CLI
+   default is now `context --output ai-grounding`; `--output raw` keeps the full
+   deterministic package.
+2. Explicit term-match semantics, such as `--match any|all`, retaining
+   conjunctive matching for precision while using OR-style matching for ordinary
+   natural-language grounding requests.
+3. A compact ledger display for normal grounding that reports counts, seed IDs,
+   included IDs, expansion reasons, and omission categories, while reserving the
+   full considered-item listing for `audit` and `exhaustive` modes.
+
+Do not add a fixed common-task index, representative-query gold-set expansion,
+or budget-regression gate in this revision. Those remain useful later, but this
+iteration is about making the existing graph representation easier and more
+truthful for AI retrieval without letting an arbitrary budget override quality,
+comprehensiveness, or reliability.
 
 ## 13. Representative queries
 

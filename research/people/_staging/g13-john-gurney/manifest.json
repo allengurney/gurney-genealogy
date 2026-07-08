@@ -7,9 +7,31 @@
     "hubSlug": "g13-john-gurney",
     "introFile": "research/people/_staging/g13-john-gurney/topics/00-research-library.md",
     "groups": [
-      { "id": "colonial", "title": "Colonial life", "order": 10 },
-      { "id": "family", "title": "Family", "order": 20 },
-      { "id": "research-state", "title": "Research state", "order": 50 }
+      {
+        "id": "colonial",
+        "title": "Colonial life",
+        "order": 10
+      },
+      {
+        "id": "family",
+        "title": "Family",
+        "order": 20
+      },
+      {
+        "id": "origin",
+        "title": "Origin",
+        "order": 30
+      },
+      {
+        "id": "identity",
+        "title": "Identity",
+        "order": 40
+      },
+      {
+        "id": "research-state",
+        "title": "Research state",
+        "order": 50
+      }
     ],
     "related": {
       "factSheetUrl": "/fact-sheets/g13-john-gurney-fact-sheet",
@@ -195,6 +217,228 @@
         "G13-RI-000066",
         "G13-RI-000067",
         "G13-RI-000068"
+      ]
+    },
+    {
+      "topicId": "g13-origin-age-baptism",
+      "path": "research/people/_staging/g13-john-gurney/topics/origin/20-age-baptism.md",
+      "headingId": "origin-age-and-baptism",
+      "title": "Origin — age and baptism",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "origin",
+      "order": 20,
+      "publicSlug": "origin/age-and-baptism",
+      "publicationStatus": "public",
+      "summary": "The chronology of John's own age and birth, triangulated from four handles of unequal strength: his 1652/3 deposition 'aged 50 or thereabouts' (a decade-rounded self-report), the identity work's probable East Dereham baptism (c.1609/10), the bound set by his daughter Mary's 1647 marriage, and the September 1611 marriage of his likely parents — which sit in friction rather than agreement. The three birth-year estimators overlap around a probable window of 1604–1608 inside a possible 1602–1610, and his own baptism stays unproven on independent evidence.",
+      "researchItemIds": [
+        "G13-RI-000069",
+        "G13-RI-000070",
+        "G13-RI-000071",
+        "G13-RI-000086",
+        "G13-RI-000087"
+      ]
+    },
+    {
+      "topicId": "g13-origin-trade-training",
+      "path": "research/people/_staging/g13-john-gurney/topics/origin/21-trade-training.md",
+      "headingId": "origin-trade-and-training",
+      "title": "Origin — trade and training",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "origin",
+      "order": 30,
+      "publicSlug": "origin/trade-and-training",
+      "publicationStatus": "public",
+      "summary": "The origin bearing of John's tailoring trade. A tailor's craft usually passed father to son, and his likely father Francis Gurney was himself a Merchant Taylor from a Norfolk family long in the worsted-and-woollen economy — so his training should be traceable, yet both surviving formal pathways (the Merchant Taylors' Company of London and the Norwich freemen and apprentice registers) carry no John Gurney in the emigrant window. His craft was learned off the enrolled books, by informal or country training; the one enrolled 'John Gurney' apprenticeship in the New England orbit, the 1636 Newgate indenture, belongs to a de-conflated younger man. The trade points back toward a Norfolk textile family, strengthening without proving the association with Norfolk, the Gurneys, and Francis.",
+      "researchItemIds": [
+        "G13-RI-000072",
+        "G13-RI-000073",
+        "G13-RI-000074",
+        "G13-RI-000075",
+        "G13-RI-000088"
+      ]
+    },
+    {
+      "topicId": "g13-origin-migration-network",
+      "path": "research/people/_staging/g13-john-gurney/topics/origin/22-migration-network.md",
+      "headingId": "origin-migration-and-reception-network",
+      "title": "Origin — migration and reception network",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "origin",
+      "order": 40,
+      "publicSlug": "origin/migration-and-reception-network",
+      "publicationStatus": "public",
+      "summary": "How John Gurney reached and joined the New England community, read from the colonial record: reception into an already-settled Weymouth land-and-neighbour network rather than a documented shared voyage; an unrecorded crossing whose passenger-list silence is what Great-Migration timing (the thin 1639–41 tail) predicts; and the reception network as a weak lever for English origin — except for the geographic affinity that makes adjacent Hingham, settled from the Gurneys' own Norfolk parishes, the one reception corridor fitting the favoured origin, an argument held to the identity work.",
+      "researchItemIds": [
+        "G13-RI-000076",
+        "G13-RI-000077",
+        "G13-RI-000078",
+        "G13-RI-000079",
+        "G13-RI-000089",
+        "G13-RI-000090",
+        "G13-RI-000091"
+      ]
+    },
+    {
+      "topicId": "g13-origin-wardship-network",
+      "path": "research/people/_staging/g13-john-gurney/topics/origin/23-wardship-network.md",
+      "headingId": "origin-wardship-and-patronage-network",
+      "title": "Origin — wardship and patronage network",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "origin",
+      "order": 50,
+      "publicSlug": "origin/wardship-and-patronage-network",
+      "publicationStatus": "public",
+      "summary": "The English wardship-and-patronage network around the senior West Barsham branch in John's emigration decade: the branch as a Court of Wards minor-heir household (Edward Gournay a royal ward under his widowed mother Martha Lewkenor after Thomas Gurney III died c.1621×1623, predeceasing Henry G15), the 1627 Gurdon–Winthrop letter placing the widowed 'Mrs. Gurney' inside the Court of Wards circle of Winthrop and Downing, and the Gurdon–Sedley–Lewkenor puritan matrix behind it — read as origin-bearing context about the senior branch that neither connects John to it nor traces his crossing, with the identity question held to the case file.",
+      "researchItemIds": [
+        "G13-RI-000080",
+        "G13-RI-000081",
+        "G13-RI-000082",
+        "G13-RI-000083",
+        "G13-RI-000084",
+        "G13-RI-000085"
+      ]
+    },
+    {
+      "topicId": "g13-origin-bury-connections",
+      "path": "research/people/_staging/g13-john-gurney/topics/origin/24-bury-connections.md",
+      "headingId": "origin-bury-connections",
+      "title": "Origin — Bury connections",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "origin",
+      "order": 60,
+      "publicSlug": "origin/bury-connections",
+      "publicationStatus": "public",
+      "summary": "Charles Banks's 'Bury St Edmunds' origin attribution for John Gurney — the one specific English parish any published authority ever named for him — resolved: an unproven 'Banks Mss.' lead with no Bury natal record behind it, most plausibly tracking the Bury-area feltmaker John Newgate's 1636 runaway apprentice rather than the Braintree emigrant, and consistent with the favoured Norfolk (Candidate B) origin rather than evidence against it. The Bury St James and St Mary parish registers hold no Gurney household that could have fathered him, and Anderson's Great Migration Directory independently records the origin as 'Unknown'.",
+      "researchItemIds": [
+        "G13-RI-000092",
+        "G13-RI-000093",
+        "G13-RI-000094",
+        "G13-RI-000095",
+        "G13-RI-000096",
+        "G13-RI-000097"
+      ]
+    },
+    {
+      "topicId": "g13-origin-traditions",
+      "path": "research/people/_staging/g13-john-gurney/topics/origin/25-origin-traditions.md",
+      "headingId": "origin-traditions",
+      "title": "Origin — traditions",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "origin",
+      "order": 70,
+      "publicSlug": "origin/traditions",
+      "publicationStatus": "public",
+      "summary": "Two family traditions weighed for what they are worth: the American 1615-birth and Southwark-origin tradition, retold across three compilations a century apart, explained as the true biography of the 1636 Newgate apprentice misattached to the older Braintree emigrant, alongside a separate, uncorroborated Elm Street Cemetery burial-place lead; and the Gurney colonial-arms tradition, resting on a blazon genuinely attested in Norfolk itself but with no early American physical witness yet found.",
+      "researchItemIds": [
+        "G13-RI-000098",
+        "G13-RI-000099",
+        "G13-RI-000100",
+        "G13-RI-000101",
+        "G13-RI-000102",
+        "G13-RI-000103"
+      ]
+    },
+    {
+      "topicId": "g13-identity-assessment",
+      "path": "research/people/_staging/g13-john-gurney/topics/identity/30-candidate-overview.md",
+      "headingId": "identity-candidate-overview",
+      "title": "Identity — candidate overview",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "identity",
+      "order": 10,
+      "publicSlug": "identity/candidate-overview",
+      "publicationStatus": "public",
+      "summary": "The shared matching-criteria profile and elimination scaffold the case file applies across every alternative English John Gurney candidate: of 51 same-name households surveyed, three principal alternatives and 45 further households are eliminated on structural grounds and five are held to a low residual, leaving Candidate B the sole survivor. The case file's own probability model for Candidate B stays external-canonical there, cross-referenced rather than restated.",
+      "researchItemIds": [
+        "G13-RI-000104",
+        "G13-RI-000105",
+        "G13-RI-000106"
+      ]
+    },
+    {
+      "topicId": "g13-identity-candidate-a",
+      "path": "research/people/_staging/g13-john-gurney/topics/identity/31-candidate-a-aylesbury.md",
+      "headingId": "identity-candidate-a-aylesbury-buckinghamshire",
+      "title": "Identity — Candidate A: Aylesbury, Buckinghamshire",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "identity",
+      "order": 20,
+      "publicSlug": "identity/candidate-a-aylesbury",
+      "publicationStatus": "public",
+      "summary": "Candidate A's continuous Buckinghamshire/Northamptonshire chain — the 1603 Stewkley baptism, the 1628 Bierton marriage to Alice Oliffe, the 1638-1653 Aylesbury family group, and a 1641 move into Northamptonshire — places one Englishman in England across exactly the years the Massachusetts John Gurney was at Weymouth and Braintree. A wider Bucks Gurney household map and a 1661 Edlesborough marriage independently reinforce the elimination.",
+      "researchItemIds": [
+        "G13-RI-000107",
+        "G13-RI-000108",
+        "G13-RI-000109",
+        "G13-RI-000110"
+      ]
+    },
+    {
+      "topicId": "g13-identity-london-candidate",
+      "path": "research/people/_staging/g13-john-gurney/topics/identity/34-london-draper.md",
+      "headingId": "identity-candidate-d-london-draper-old-change",
+      "title": "Identity — Candidate D: London Draper, Old Change",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "identity",
+      "order": 40,
+      "publicSlug": "identity/candidate-d-london-draper",
+      "publicationStatus": "public",
+      "summary": "Candidate D — John Gurney, son and executor of Robert Gurney, citizen and draper of Old Change — is eliminated: the same John Gurney is documented continuously in the same St Augustine Watling Street parish from a 1638 rents return through a 1662 hearth-tax entry, the same year the colonial John of Braintree was dying at Boston; the missing wife Mary and matching children give the elimination a second, independent ground.",
+      "researchItemIds": [
+        "G13-RI-000121",
+        "G13-RI-000122",
+        "G13-RI-000123",
+        "G13-RI-000124",
+        "G13-RI-000125"
+      ]
+    },
+    {
+      "topicId": "g13-identity-candidate-ackworth",
+      "path": "research/people/_staging/g13-john-gurney/topics/identity/35-candidate-ackworth.md",
+      "headingId": "identity-ackworth-yorkshire",
+      "title": "Identity — Ackworth, Yorkshire",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "identity",
+      "order": 50,
+      "publicSlug": "identity/ackworth-yorkshire",
+      "publicationStatus": "public",
+      "summary": "The 1636 Ackworth marriage of John Gurnoe to Mary Burton is the only same-name comparator anywhere in the record sweeps whose wife is genuinely named Mary in roughly the right window — held at a residual ~3% rather than eliminated outright, capped by a naming/birth-order mismatch and the colonial John's own pre-1628 marriage bound.",
+      "researchItemIds": [
+        "G13-RI-000111",
+        "G13-RI-000112",
+        "G13-RI-000113"
+      ]
+    },
+    {
+      "topicId": "g13-identity-other-eliminations",
+      "path": "research/people/_staging/g13-john-gurney/topics/identity/36-other-eliminations.md",
+      "headingId": "identity-other-eliminations-and-earsham",
+      "title": "Identity — Other Eliminations and Earsham",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "identity",
+      "order": 60,
+      "publicSlug": "identity/other-eliminations",
+      "publicationStatus": "public",
+      "summary": "A 1638 Earsham, Norfolk Gurney yeoman family (wife Mary, son John too young to be the emigrant); the distinct Gurnell surname; a six-parish Norfolk household-density survey; a targeted Richard/Isaac negative search; and the wider English probate, parish, and muster comparators that clear the remaining same-name field, leaving Candidate B the sole surviving identity.",
+      "researchItemIds": [
+        "G13-RI-000114",
+        "G13-RI-000115",
+        "G13-RI-000116",
+        "G13-RI-000117",
+        "G13-RI-000118",
+        "G13-RI-000119",
+        "G13-RI-000120"
       ]
     },
     {

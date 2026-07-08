@@ -11,12 +11,14 @@ This directory holds exploratory or utility artifacts that support the genealogy
 - **`repo_search.py`** — lossless staged search across ancestors, places, topics, sources, research, leads, and intake history. It saves exhaustive local ledgers while returning compact manifests and paged, footnote-attached results for AI use; `locate` returns an exact `path:line`, and `infile` deep-reads a single named file with fuzzy, context-windowed passages. See `repo_search_README.md`.
 
 - **`g13_graph.py`** — standalone lifecycle CLI for the canonical G13 SQLite
-  context graph. Phase G2 provides schema migration, source-registry and
-  source-hash synchronization, synthetic seeding, validation, rebuildable FTS,
-  deterministic recovery export/restore, build reports, status, and basic
-  item/source/unit/impact reads plus multi-hop, budget-aware context compilation
-  with explicit coverage accounting, without changing `repo_search.py`. See
-  `g13_graph/README.md`.
+  context graph. It provides schema migration, source-registry and source-hash
+  synchronization, synthetic seeding, validation, rebuildable FTS,
+  deterministic recovery export/restore, build reports, status, item/source/
+  unit/impact reads, FTS `--match any|all`, and a multi-hop context compiler.
+  The compiler defaults to a concise `ai-grounding` output with conclusions,
+  item IDs, relation reasons, source IDs/locators, warnings, and compact
+  coverage accounting; `--output raw` preserves the full deterministic package.
+  See `g13_graph/README.md`.
 
 ## Principle
 If a tool becomes broadly reusable, consider moving it to a more general repo or toolset. None meet this criteria.

@@ -9,7 +9,11 @@ adams-genesis-massachusetts-town-1892,"C. F. Adams, Genesis of the Massachusetts
 adams-history-of-braintree-1891,"C. F. Adams, History of Braintree (1891)",extract,,,sources/validations/adams-history-of-braintree-1891.md
 alumni-cantabrigienses-venn,Alumni Cantabrigienses (Venn) — ACAD database,none,,,sources/validations/alumni-cantabrigienses-venn.md
 american-biography-cyclopedia-v26-gurney-1926,"American Biography, vol. 26 - Gurney",none,,,sources/validations/american-biography-cyclopedia-v26-gurney-1926.md
+ancestry-child-apprentices-christs-hospital-1617-1778,"Ancestry / Coldham, Child Apprentices in America from Christ's Hospital, London, 1617–1778",none,,,sources/validations/ancestry-child-apprentices-christs-hospital-1617-1778.md
+ancestry-emigrants-in-bondage-1614-1775,"Ancestry / Coldham, Emigrants in Bondage, 1614–1775",none,,,sources/validations/ancestry-emigrants-in-bondage-1614-1775.md
+ancestry-english-adventurers-emigrants-1609-1660,"Ancestry / Coldham, English Adventurers and Emigrants, 1609–1660",none,,,sources/validations/ancestry-english-adventurers-emigrants-1609-1660.md
 ancestry-norfolk-1535-1812,"Ancestry / NRO, Norfolk Church of England Baptism, Marriages and Burials, 1535-1812",,,,
+ancestry-pcc-wills-1384-1858,"Ancestry - PCC Wills, 1384-1858 (collection 5111)",none,,,sources/validations/ancestry-pcc-wills-1384-1858.md
 anderson-gmd-2015,"Anderson, Great Migration Directory",partial,sources/corpus/The Great Migration Directory 2025 Page 158.txt,,sources/validations/anderson-gmd-2015.md
 anderson-great-migration-begins-v1-baxter,"Anderson, Great Migration Begins vol. 1 - Gregory Baxter",partial,sources/corpus_supplement/anderson-great-migration-begins-v1-baxter-user-extract.md,,sources/validations/anderson-great-migration-begins-v1-baxter.md
 anderson-new-englands-generation-1991,"Anderson, New England's Generation",none,,,
@@ -22,6 +26,7 @@ archiuk-attleborough-nr17-domesday-search,ARCHI UK - NR17 local-history search,p
 armstrong-norfolk-1781,"Armstrong, History and Antiquities of the County of Norfolk (1781)",partial,sources/corpus_supplement/armstrong-norfolk-1781-selected-gurney-references.md,,sources/validations/armstrong-norfolk-1781.md
 ballou-history-of-milford-1882,"Ballou, History of Milford (1882)",partial,sources/corpus_supplement/ballou-history-of-milford-1882-gurney-extracts.md,,sources/validations/ballou-history-of-milford-1882.md
 banks-brownell-1937,"Banks/Brownell, Topographical Dictionary (1937)",none,,,sources/validations/banks-brownell-1937.md
+banks-planters-of-the-commonwealth-1930,"Banks, Planters of the Commonwealth (1930)",none,,,sources/validations/banks-planters-of-the-commonwealth-1930.md
 bardsley-english-welsh-surnames-1901,"Bardsley, Dictionary of English & Welsh Surnames",none,,,
 bartlett-bartletts-of-weymouth-1892,"Bartlett, The Bartletts of Weymouth (1892)",partial,sources/corpus_supplement/bartlett-bartletts-of-weymouth-1892-gurney-extract.md,,
 bates-ancient-iron-works-braintree-1898,"Bates, Ancient Iron Works at Braintree",none,,,sources/validations/bates-ancient-iron-works-braintree-1898.md
@@ -87,9 +92,11 @@ dg-rye-appendix,DG Rye Appendix,partial,sources/corpus_supplement/gascon-rolls-g
 dhi-crusaders-leeds,"DHI -- Database of Crusaders to the Holy Land, 1095-1149",external,,,
 dicamillo-gurneys-manor,DiCamillo — Gurney's Manor,partial,sources/corpus_supplement/dicamillo-gurneys-manor.md,,sources/validations/dicamillo-gurneys-manor.md
 diceto-opera-historica-vol1-stubbs-1876,"Ralph de Diceto, Opera Historica, ed. Stubbs (Rolls Series 68, 1876)",partial,sources/corpus_supplement/diceto-opera-historica-gournay-1173.md,,
+digital-commonwealth,Digital Commonwealth: Massachusetts Collections Online,none,,,sources/validations/digital-commonwealth.md
 dnb-bocking,DNB - Bocking (Nicholas Bocking / Fastolf service note),none,,,sources/validations/dnb-bocking.md
 dnb-edmund-gurney-1890,DNB - Edmund Gurney (d.1648),full,sources/corpus_supplement/dnb-edmund-gurney-1890.md,,sources/validations/dnb-edmund-gurney-1890.md
 domesday-1086,Domesday Book (1086),none,,,
+drake-result-of-researches-1860,"Drake, Result of Some Researches (1860)",none,,,sources/validations/drake-result-of-researches-1860.md
 dudo-historia,"Dudo of Saint-Quentin, Historia Normannorum",none,,,
 dumoulin-histoire-generale-normandie-1631,"Gabriel Dumoulin, Histoire générale de Normandie (1631)",partial,,,
 eaa-occasional-paper-2-ellingham-kiln-1997,EAA Occasional Paper 2 - Ellingham Kiln,partial,sources/corpus_supplement/eaa-occasional-paper-2-ellingham-kiln-1997.md,,sources/validations/eaa-occasional-paper-2-ellingham-kiln-1997.md
@@ -130,6 +137,7 @@ folger-corpus-christi-1619,Corpus Christi (1619) - Internet Archive / Folger,non
 folger-demonstration-antichrist-1631,Demonstration of Antichrist (1631) - Internet Archive / Folger,none,,,
 folger-romish-chaine-1624,The Romish chaine (1624) - Internet Archive / Folger,none,,,
 folger-second-commandment-1639,Toward the Vindication of the Second Commandment (1639/1661) - Internet Archive / Folger,none,,,
+foster-alumni-oxonienses-1500-1714,"Foster, Alumni Oxonienses 1500–1714",none,,,sources/validations/foster-alumni-oxonienses-1500-1714.md
 foster-streeter-cummington,"Foster & Streeter, Only One Cummington (1974)",none,,,
 freebmd-freereg,FreeREG / FreeBMD,none,,,
 fs-england-births-christenings,FamilySearch England Births and Christenings,none,,,sources/validations/fs-england-births-christenings.md
@@ -212,13 +220,14 @@ macris-cum-151-gurney-asa-house,"MACRIS CUM.151 - Gurney, Asa House (75 Mount Rd
 macris-mhc,MACRIS - Massachusetts Cultural Resource Information System,none,,,
 massachusetts-bay-records-v1-1853,"Massachusetts Bay Records, vol. 1",none,,,sources/validations/massachusetts-bay-records-v1-1853.md
 massachusetts-bay-records-v2-1853,"Mass. Bay Records, vol. 2 (1642–1649), Shurtleff ed.",extract,,,sources/validations/massachusetts-bay-records-v2-1853.md
-massachusetts-state-archives-colonial,"Massachusetts State Archives, colonial period (petition calendar)",,,sources/media/massachusetts-state-archives-colonial/,sources/validations/massachusetts-state-archives-colonial.md
+massachusetts-state-archives-colonial,"Massachusetts State Archives, colonial period (petition calendar)",,,,sources/validations/massachusetts-state-archives-colonial.md
 may-henry-gurney-spenser-2005,"May, Henry Gurney reads Spenser",partial,sources/corpus_supplement/henry_gurney_g15_may_article_narrative.md,,sources/validations/may-henry-gurney-spenser-2005.md
 mcgraw-edison-history,McGraw-Edison company history (Wikipedia; Eaton/Cooper heritage),none,,,
 medievalgenealogy-cp25-1-21-112-stone-hartwell,"medievalgenealogy.org.uk — CP 25/1/21/112 fine, Stone and Hartwell, Bucks",none,,,
 medievalgenealogy-gerbod-gundred-documents,MedievalGenealogy.org.uk - Gerbod and Gundred documents,external,,,
 medievalsoldier-database,Soldier in Later Medieval England Online Database,none,,,
 mendon-proprietors-records-1899,Mendon Proprietors' Records (1899),partial,sources/corpus_supplement/mendon-proprietors-records-1899-gurney-extracts.md,,sources/validations/mendon-proprietors-records-1899.md
+mhs-winthrop-papers-gurdon-to-winthrop-1627,"Brampton Gurdon to John Winthrop, 20 Oct. 1627 (Winthrop Papers I:363)",none,,,sources/validations/mhs-winthrop-papers-gurdon-to-winthrop-1627.md
 mhs-winthrop-papers-newgate-deed-1639,"MHS Winthrop Papers, Newgate deed",none,,,sources/validations/mhs-winthrop-papers-newgate-deed-1639.md
 middleborough-marriages-by-mens-name,Middleborough marriages by men's name,partial,,,sources/validations/benjamin-gurney-harden-research-tables-2026-04.md
 military-communities-knolles-1370,Military Communities in Late Medieval England — Knolles 1370 chapter,none,,,sources/validations/military-communities-knolles-1370.md
@@ -226,6 +235,7 @@ millican-register-freemen-norwich-1934,"Millican, Register of the Freemen of Nor
 morant-essex,"Morant, History of Essex",none,,,
 mosaic-dvd-hugue-de-gournay,Mosaic DVD - Hugue de Gournay,partial,sources/corpus_supplement/mosaic-dvd-hugue-de-gournay-user-text.md,,sources/validations/mosaic-dvd-hugue-de-gournay.md
 munsell-history-queens-flushing-1882,"Munsell, History of Queens County - Flushing",none,,,sources/validations/munsell-history-queens-flushing-1882.md
+muskett-suffolk-manorial-families-v1-1900,"Muskett, Suffolk Manorial Families, vol. 1 (1900)",none,,,sources/validations/muskett-suffolk-manorial-families-v1-1900.md
 nash-historical-sketch-weymouth-1885,"Nash, Historical Sketch of Weymouth (1885)",full,sources/corpus/nash-historical-sketch-weymouth-1885.txt,sources/media/nash-historical-sketch-weymouth-1885/nash-historical-sketch-weymouth-1885.pdf,sources/validations/nash-historical-sketch-weymouth-1885.md
 national-churches-trust-harpley-st-lawrence,National Churches Trust - Harpley St Lawrence,partial,sources/corpus_supplement/national-churches-trust-harpley-st-lawrence.md,,sources/validations/national-churches-trust-harpley-st-lawrence.md
 ncc-will-1584-margaret-bate-rivett-garveston,"Will of Margaret (Bate) Rivett of Garveston, widow, 1584",extract,sources/corpus_supplement/rivett-garveston-maternal-family-2026-06.md,sources/media/ncc-wills-registers/_local/bate-reg-fo399-img442-margaret-rivett-will.jpg,sources/validations/ncc-will-1584-margaret-bate-rivett-garveston.md
@@ -233,6 +243,7 @@ nehgr-12-suffolk-wills-1858,NEHGR 12 - Suffolk Wills - John Gurney probate abstr
 nehgr-30-432,"NEHGR vol. 30 (1876), p. 432 — Capt. William Tyng inventory",extract,,,sources/validations/nehgr-30-432.md
 nehgr-49-genealogical-gleanings-john-lewis,"NEHGR 49 - Genealogical Gleanings, John Lewis will",none,,,sources/validations/nehgr-49-genealogical-gleanings-john-lewis.md
 nehgr-62-94,NEHGR 62:94,partial,,,sources/validations/nehgr-62-94.md
+nehh-congregational-library-colonial-church-records,New England's Hidden Histories (Congregational Library & Archives),none,,,sources/validations/nehh-congregational-library-colonial-church-records.md
 neverending-hobby-john-gurney-us-1636,"The Neverending Hobby - John Gurney, US 1636",partial,,,sources/validations/benjamin-gurney-harden-research-tables-2026-04.md
 nfwf-little-neck-bay-history-ecology-2008,History and Ecology of Little Neck Bay,none,,,sources/validations/nfwf-little-neck-bay-history-ecology-2008.md
 nher-great-ellingham-parish-summary,NHER Parish Summary — Great Ellingham,partial,sources/corpus_supplement/nher-great-ellingham-parish-summary.md,,sources/validations/nher-great-ellingham-parish-summary.md
@@ -281,6 +292,7 @@ pettigrew-collectanea-house-gournay-1871,"Pettigrew, On the House of Gournay",pa
 phillimore-bucks-marriages-vol1,"Phillimore Bucks parish registers, marriages, vol. 1",none,,,sources/validations/phillimore-bucks-marriages-vol1.md
 planche-conqueror-companions-1874,"Planche, The Conqueror and His Companions",partial,sources/corpus_supplement/planche-conqueror-companions-hugh-de-gournay.md,,sources/validations/planche-conqueror-companions-1874.md
 plymouth-probate-john-harden-1751-will,Plymouth Probate - John Harden will (1751),full,sources/corpus_supplement/plymouth-probate-john-harden-1751-will.md,,sources/validations/plymouth-probate-john-harden-1751-will.md
+pope-pioneers-of-massachusetts-1900,"Pope, The Pioneers of Massachusetts (1900)",none,,,sources/validations/pope-pioneers-of-massachusetts-1900.md
 porter-genealogy-richard-porter-1878,"Porter, Genealogy of the Descendants of Richard Porter (1878)",partial,sources/corpus_supplement/porter-genealogy-richard-porter-1878-gurney-extract.md,,
 potin-recherches-ville-gournay-1842,"Potin de la Mairie, Recherches…ville de Gournay (1842)",partial,,sources/FS/Norman_additions/Recherches_historiques_sur_la_ville_de_G.pdf,
 potts-monastic-revival-regional-identity-1997,"Potts, Monastic Revival and Regional Identity (1997)",not-captured,,,sources/validations/potts-monastic-revival-regional-identity-1997.md
@@ -309,6 +321,7 @@ saint-leu-esserent-cartulary-muller,"Cartulaire du prieure de Saint-Leu d'Essere
 sanhs-excursions-1907-apocryphal-book-dan,SANHS Excursions: Apocryphal Book of Dan note,partial,,,sources/validations/sanhs-excursions-1907-apocryphal-book-dan.md
 savage-dictionary,"Savage, Genealogical Dictionary",none,,,
 shedd-daniel-shed-genealogy-1920,"Shedd, Daniel Shed Genealogy (1920)",partial,,,
+shepard-spicksley-worth-age-2011,"Shepard & Spicksley, Worth, age & social status (2011)",none,,,
 spr-case-338-john-gurney-probate-1663,SPR Case #338 - John Gurney probate inventory,partial,sources/corpus_supplement/john-gurney-probate-inventory-spr-case-338.md,sources/media/John Gurney Probate/102840311_00516.jpg,
 sprague-braintree,"Sprague, Genealogies of Braintree",none,,,
 st-benet-fink-register,"St Benet Fink register, London",none,,,sources/validations/st-benet-fink-register.md
@@ -329,10 +342,11 @@ tna-dl-42-2-33-5-richard-i-canville-nicholaa-de-la-haye,TNA DL 42/2/33/5 — Ric
 tna-e179-1661-london-poll-tax-deferred,"TNA E179 - 1661 Free and Voluntary Present, City of London (deferred image-pull target)",deferred,,,sources/validations/tna-e179-1661-london-poll-tax-deferred.md
 tna-pcc-gurney-elimination-corpus,"TNA PCC Gurney probate corpus (1577-1682, elimination set)",partial,sources/corpus_supplement/tna-pcc-gurney-elimination-corpus.md,,
 tna-pcc-probate,TNA PCC Probate Records,none,,,
+tna-ward-c142-west-barsham-gurney-inquisitions,TNA WARD 7 & C 142 inquisitions for the West Barsham Gurneys (catalogue level),none,,,sources/validations/tna-ward-c142-west-barsham-gurney-inquisitions.md
 torrey-new-england-marriages-prior-1700,"Torrey, New England Marriages Prior to 1700",partial,sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md,,sources/validations/torrey-new-england-marriages-prior-1700.md
 trevor-john-erpingham-1970,"Trevor John, 'Sir Thomas Erpingham, East Anglian Society and the Dynastic Revolution of 1399' (1970)",none,,,sources/validations/trevor-john-erpingham-1970.md
 tyrwhitt-canterbury-tales-1798-v2,"Tyrwhitt ed., Canterbury Tales of Chaucer, vol. ii Notes (1798)",supplement,sources/corpus_supplement/tyrwhitt-canterbury-tales-1798-v2-matheu-gourney-epitaph.md,,sources/validations/tyrwhitt-canterbury-tales-1798-v2.md
-ukda-9263-mt-apprentices-scott-2024,"Scott, Merchant Taylors' Apprentices 1583-1800 (UKDA-SN-9263)",full,,sources/media/ukda-9263-merchant-taylors-apprentices/,sources/validations/ukda-9263-mt-apprentices-scott-2024.md
+ukda-9263-mt-apprentices-scott-2024,"Scott, Merchant Taylors' Apprentices 1583-1800 (UKDA-SN-9263)",full,sources/media/ukda-9263-merchant-taylors-apprentices/gurney-variants-extract.csv,sources/media/ukda-9263-merchant-taylors-apprentices/,sources/validations/ukda-9263-mt-apprentices-scott-2024.md
 unicaen-scripta-selected-gournay-acts,SCRIPTA selected Gournay acts,partial,sources/corpus_supplement/unicaen-scripta-selected-gournay-acts.md,,sources/validations/unicaen-scripta-selected-gournay-acts.md
 us-census-1940,"U.S. Federal Census, 1940",none,,,
 us-public-records-1970-2009,"U.S. Public Records, 1970-2009",none,,,

@@ -183,19 +183,22 @@ def derived_index_state(connection: sqlite3.Connection) -> dict[str, Any]:
     }
 
 
-def _fts_query(terms: list[str]) -> str:
+def _fts_query(terms: list[str], *, match: str = "any") -> str:
     clean = [term.strip() for term in terms if term.strip()]
     if not clean:
         raise ValueError("At least one non-empty search term is required.")
-    return " AND ".join(f'"{term.replace(chr(34), chr(34) * 2)}"' for term in clean)
+    if match not in {"any", "all"}:
+        raise ValueError("Match must be 'any' or 'all'.")
+    operator = " OR " if match == "any" else " AND "
+    return operator.join(f'"{term.replace(chr(34), chr(34) * 2)}"' for term in clean)
 
 
 def search_graph(
-    config: GraphConfig, terms: list[str], *, limit: int = 25
+    config: GraphConfig, terms: list[str], *, limit: int = 25, match: str = "any"
 ) -> dict[str, Any]:
     if limit < 1:
         raise ValueError("Search limit must be positive.")
-    query = _fts_query(terms)
+    query = _fts_query(terms, match=match)
     connection = connect(config.db_path, read_only=True)
     try:
         state = derived_index_state(connection)
@@ -230,6 +233,7 @@ def search_graph(
         results.sort(key=lambda row: (row["rank"], row["record_type"], row["record_id"]))
         return {
             "terms": terms,
+            "match": match,
             "results": results[:limit],
             "result_count": min(len(results), limit),
         }

@@ -1735,6 +1735,17 @@
       "validationPath": null,
       "notes": "13 probate items examined for John Gurney emigrant elimination. 7 John Gurneys confirmed in England post-1637 (St Botolph Aldgate, Winkfield, Aylesbury, East Grinstead, Albury, East Chiltington x2). 6 contextual records (Anne Gurney Eythorne, Daniel Gurney Aylesbury, William Gurney London, Richard Gurney London, Sir Richard Gurney, Tobias/Edward Gurney). Full analysis in research/case-files/john-gurney-case-file-v4.md. 2026-06-20 (TNA Discovery online catalogue, https://discovery.nationalarchives.gov.uk): PROB 11 search for Rivet/Rivett/Revett of Garveston/Dereham/Norfolk 1580-1640 = nil (no PCC will for Francis Rivet or the Garveston Rivetts); Gourney/Maldon/Essex 1637-1665 = nil (no PCC will for Francis G14)."
     },
+    "ancestry-pcc-wills-1384-1858": {
+      "shortTitle": "Ancestry - PCC Wills, 1384-1858 (collection 5111)",
+      "citation": "Ancestry.com. England & Wales, Prerogative Court of Canterbury Wills, 1384-1858 [database online]. Collection 5111; underlying registered copy wills at The National Archives, Kew, PROB 11 series.",
+      "archive": "Ancestry.com; underlying record held at The National Archives, Kew (PROB 11 series)",
+      "url": "https://www.ancestry.com/search/collections/5111/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/ancestry-pcc-wills-1384-1858.md",
+      "notes": "Ancestry's searchable index/image collection of PCC registered copy wills (TNA PROB 11 equivalents), the access channel used for a Candidate D negative search for an Anne Gurney widow will or administration, 1625-1670. Distinct from the general tna-pcc-probate bucket and the itemized tna-pcc-gurney-elimination-corpus, which catalogue specific already-identified PCC items rather than naming the Ancestry collection itself."
+    },
     "protestation-returns": {
       "shortTitle": "Protestation Returns 1641–42",
       "citation": "Protestation Returns, 1641–1642. Parliamentary Archives; London Metropolitan Archives (City of London rolls).",

@@ -71,7 +71,19 @@ def _normalise_relation_types(values: list[str] | None) -> tuple[str, ...]:
     return normalised
 
 
-def _matches(item: dict[str, Any], terms: list[str]) -> bool:
+def _normalise_match(value: str) -> str:
+    match = value.strip().lower()
+    if match not in {"any", "all"}:
+        raise ValueError("Match must be 'any' or 'all'.")
+    return match
+
+
+def _term_match(haystack: str, terms: list[str], match: str) -> bool:
+    checks = [term.casefold() in haystack for term in terms]
+    return any(checks) if match == "any" else all(checks)
+
+
+def _matches(item: dict[str, Any], terms: list[str], match: str) -> bool:
     haystack = " ".join(
         str(item.get(field) or "")
         for field in (
@@ -82,11 +94,11 @@ def _matches(item: dict[str, Any], terms: list[str]) -> bool:
             "tags_json",
         )
     ).casefold()
-    return all(term.casefold() in haystack for term in terms)
+    return _term_match(haystack, terms, match)
 
 
 def _matching_entities(
-    connection: Any, terms: list[str], explicit_ids: list[str]
+    connection: Any, terms: list[str], explicit_ids: list[str], match: str
 ) -> tuple[set[str], set[str]]:
     known_ids = {
         row["entity_id"]
@@ -108,7 +120,7 @@ def _matching_entities(
                 str(row[field] or "")
                 for field in ("canonical_label", "description", "aliases")
             ).casefold()
-            if all(term.casefold() in text for term in terms):
+            if _term_match(text, terms, match):
                 matched.add(row["entity_id"])
     return matched, set(explicit_ids) - known_ids
 
@@ -142,6 +154,7 @@ def _select_scope(
     entity_ids: list[str],
     relation_types: tuple[str, ...],
     mode: str,
+    match: str,
 ) -> _Selection:
     active_ids = set(active_items)
     known_item_ids = {
@@ -153,10 +166,10 @@ def _select_scope(
     term_seeds = {
         item_id
         for item_id, item in active_items.items()
-        if terms and _matches(item, terms)
+        if terms and _matches(item, terms, match)
     }
     matched_entities, missing_entities = _matching_entities(
-        connection, terms, entity_ids
+        connection, terms, entity_ids, match
     )
     entity_seeds = _items_for_entities(connection, matched_entities, active_ids)
     seeds = explicit_seeds | term_seeds | entity_seeds
@@ -588,6 +601,124 @@ def _warnings(
     return sorted(warnings, key=lambda row: (row["code"], row["record_id"]))
 
 
+def _item_id_range(item_ids: list[str]) -> dict[str, str | None]:
+    if not item_ids:
+        return {"first": None, "last": None}
+    return {"first": item_ids[0], "last": item_ids[-1]}
+
+
+def _omitted_coverage(outside: list[str], reason: str, *, audit_detail: bool) -> list[dict[str, Any]]:
+    if audit_detail:
+        return [{"item_id": item_id, "reason": reason} for item_id in outside]
+    if not outside:
+        return []
+    return [
+        {
+            "reason": reason,
+            "count": len(outside),
+            "item_id_range": _item_id_range(outside),
+        }
+    ]
+
+
+def _relation_reason(record: dict[str, Any], relation: dict[str, Any]) -> str:
+    other = relation["other"]
+    direction = "to" if relation["direction"] == "out" else "from"
+    detail = relation.get("explanation") or relation["bearing"]
+    return (
+        f"{relation['relation_type']} {direction} {other} "
+        f"({relation['bearing']}, {relation['strength']}): {detail}"
+    )
+
+
+def _source_refs(record: dict[str, Any]) -> list[dict[str, Any]]:
+    refs: dict[tuple[str, str | None, str | None], dict[str, Any]] = {}
+    for source in record["sources"]:
+        key = (source["source_id"], source.get("locator"), source.get("role"))
+        refs[key] = {
+            "source_id": source["source_id"],
+            "locator": source.get("locator"),
+            "role": source.get("role"),
+        }
+    for group in record["evidence_groups"]:
+        for source in group["sources"]:
+            key = (source["source_id"], source.get("locator"), source.get("role"))
+            refs[key] = {
+                "source_id": source["source_id"],
+                "locator": source.get("locator"),
+                "role": source.get("role"),
+            }
+    return [refs[key] for key in sorted(refs)]
+
+
+def _ai_item_summary(record: dict[str, Any]) -> dict[str, Any]:
+    summary: dict[str, Any] = {
+        "item_id": record["item_id"],
+        "item_kind": record["item_kind"],
+        "short_statement": record["short_statement"],
+        "status": record["status"],
+        "confidence_label": record["confidence_label"],
+        "role_in_context": record["role_in_context"],
+        "graph_distance": record["graph_distance"],
+        "research_location": record["research_location"],
+        "relation_reasons": [
+            *record["expansion_reasons"],
+            *[_relation_reason(record, relation) for relation in record["relations"]],
+        ],
+        "sources": _source_refs(record),
+    }
+    if "negative_result_scope" in record:
+        scope = record["negative_result_scope"]
+        summary["negative_result_scope"] = {
+            "provider": scope["provider"],
+            "collection_name": scope["collection_name"],
+            "date_start": scope["date_start"],
+            "date_end": scope["date_end"],
+            "query_description": scope["query_description"],
+            "results_reviewed": scope["results_reviewed"],
+            "coverage_confirmed": scope["coverage_confirmed"],
+            "limitations": scope["limitations"],
+        }
+    return summary
+
+
+def format_ai_grounding(package: dict[str, Any]) -> dict[str, Any]:
+    """Return a concise AI-facing grounding brief from a raw context package."""
+    items = [_ai_item_summary(record) for record in package["items"]]
+    conclusion_ids = {
+        item["item_id"]
+        for item in items
+        if item["item_kind"] in CONCLUSION_KINDS
+    }
+    ledger = package["coverage_ledger"]
+    omitted = ledger.get("omitted", [])
+    omitted_count = sum(row.get("count", 1) for row in omitted)
+    return {
+        "query": package["query"],
+        "conclusions": [
+            item for item in items if item["item_id"] in conclusion_ids
+        ],
+        "supporting_items": [
+            item for item in items if item["item_id"] not in conclusion_ids
+        ],
+        "coverage": {
+            "considered_active_items": ledger["considered"]["count"],
+            "considered_item_id_range": ledger["considered"].get("item_id_range"),
+            "seed_matched": ledger["seed_matched"],
+            "included_total": ledger["included_total"],
+            "included_ids": ledger["included_compactly"],
+            "omitted_total": omitted_count,
+            "omitted": omitted,
+            "detail_omissions": ledger["detail_omissions"],
+            "unresolved_inputs": ledger["unresolved_inputs"],
+            "matched_entity_ids": ledger["matched_entity_ids"],
+            "within_budget": ledger["within_budget"],
+            "final_chars": ledger["final_chars"],
+        },
+        "warnings": package["warnings"],
+    }
+
+
 def compile_context(
     config: GraphConfig,
     *,
@@ -597,12 +728,14 @@ def compile_context(
     budget: int | None = None,
     relation_types: list[str] | None = None,
     mode: str = "grounding",
+    match: str = "any",
 ) -> dict[str, Any]:
     """Compile a deterministic, coverage-accounted context package."""
     terms = [term.strip() for term in (terms or []) if term.strip()]
     ids = list(dict.fromkeys(ids or []))
     entity_ids = list(dict.fromkeys(entity_ids or []))
     mode = mode.strip().lower()
+    match = _normalise_match(match)
     if mode not in MODE_MAX_HOPS:
         raise ValueError(
             f"Unknown context mode {mode!r}; choose from "
@@ -632,6 +765,7 @@ def compile_context(
             entity_ids=entity_ids,
             relation_types=selected_relations,
             mode=mode,
+            match=match,
         )
         source_states = _source_states(connection, config)
         records = []
@@ -664,6 +798,8 @@ def compile_context(
         if not selection.seeds and mode != "exhaustive"
         else f"outside_{mode}_subgraph"
     )
+    audit_detail = mode in {"audit", "exhaustive"}
+    active_item_ids = sorted(active_items)
     ledger: dict[str, Any] = {
         # Compatibility summaries retained from the Phase P package.
         "considered_active_items": len(active_items),
@@ -682,14 +818,11 @@ def compile_context(
         # Full G2 accounting.
         "considered": {
             "count": len(active_items),
-            "item_ids": sorted(active_items),
+            "item_id_range": _item_id_range(active_item_ids),
             "scope": "status active/open",
         },
         "included_compactly": [record["item_id"] for record in records],
-        "omitted": [
-            {"item_id": item_id, "reason": omission_reason}
-            for item_id in outside
-        ],
+        "omitted": _omitted_coverage(outside, omission_reason, audit_detail=audit_detail),
         "unresolved_inputs": {
             "missing_item_ids": sorted(selection.missing_item_ids),
             "inactive_item_ids": sorted(selection.inactive_item_ids),
@@ -698,6 +831,8 @@ def compile_context(
         "matched_entity_ids": sorted(selection.matched_entity_ids),
         "detail_omissions": [],
     }
+    if audit_detail:
+        ledger["considered"]["item_ids"] = active_item_ids
     warnings = _warnings(records, source_states)
     package: dict[str, Any] = {
         "query": {
@@ -706,6 +841,7 @@ def compile_context(
             "entity_ids": entity_ids,
             "relation_types": list(selected_relations),
             "mode": mode,
+            "match": match,
             "max_hops": MODE_MAX_HOPS[mode],
         },
         "items": records,

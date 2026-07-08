@@ -154,6 +154,10 @@ actors-fund-of-america-history,source,Actors' Fund of America history (Wikipedia
 actors-order-of-friendship-history,source,Actors' Order of Friendship (Oxford Reference),data/sources.json
 alumni-cantabrigienses-venn,source,Alumni Cantabrigienses (Venn) — ACAD database,data/sources.json
 american-biography-cyclopedia-v26-gurney-1926,source,"American Biography, vol. 26 - Gurney",data/sources.json
+ancestry-pcc-wills-1384-1858,source,"Ancestry - PCC Wills, 1384-1858 (collection 5111)",data/sources.json
+ancestry-child-apprentices-christs-hospital-1617-1778,source,"Ancestry / Coldham, Child Apprentices in America from Christ's Hospital, London, 1617–1778",data/sources.json
+ancestry-emigrants-in-bondage-1614-1775,source,"Ancestry / Coldham, Emigrants in Bondage, 1614–1775",data/sources.json
+ancestry-english-adventurers-emigrants-1609-1660,source,"Ancestry / Coldham, English Adventurers and Emigrants, 1609–1660",data/sources.json
 ancestry-norfolk-1535-1812,source,"Ancestry / NRO, Norfolk Church of England Baptism, Marriages and Burials, 1535-1812",data/sources.json
 anderson-yvery-1742,source,"Anderson, Genealogical History of the House of Yvery",data/sources.json
 anderson-yvery-1742-vol-i,source,"Anderson, Genealogical History of the House of Yvery, Vol. I",data/sources.json
@@ -166,6 +170,7 @@ acl-robert-gurney-will-1625,source,Archdeaconry Court of London - Robert Gurney 
 archiuk-attleborough-nr17-domesday-search,source,ARCHI UK - NR17 local-history search,data/sources.json
 armstrong-norfolk-1781,source,"Armstrong, History and Antiquities of the County of Norfolk (1781)",data/sources.json
 ballou-history-of-milford-1882,source,"Ballou, History of Milford (1882)",data/sources.json
+banks-planters-of-the-commonwealth-1930,source,"Banks, Planters of the Commonwealth (1930)",data/sources.json
 banks-brownell-1937,source,"Banks/Brownell, Topographical Dictionary (1937)",data/sources.json
 bardsley-english-welsh-surnames-1901,source,"Bardsley, Dictionary of English & Welsh Surnames",data/sources.json
 bartlett-bartletts-of-weymouth-1892,source,"Bartlett, The Bartletts of Weymouth (1892)",data/sources.json
@@ -192,6 +197,7 @@ bodge-soldiers-king-philips-war-1891,source,"Bodge, Soldiers in King Philip's Wa
 bodleian-ms-tanner-175-marco,source,Bodleian MS Tanner 175 - MARCO,data/sources.json
 boston-town-records-1634-1660,source,Boston Town Records 1634-1660 (Book of Possessions),data/sources.json
 braintree-records-1640-1793-1886,source,"Braintree town records, 1640-1793",data/sources.json
+mhs-winthrop-papers-gurdon-to-winthrop-1627,source,"Brampton Gurdon to John Winthrop, 20 Oct. 1627 (Winthrop Papers I:363)",data/sources.json
 brooke-catalogue-succession-1619,source,"Brooke, Catalogue and Succession (1619)",data/sources.json
 brs-v21,source,BRS v21 (1642 Bucks tax),data/sources.json
 burke-landed-gentry-gurney,source,Burke's Landed Gentry - Gurney of Maldon pedigree (tertiary),data/sources.json
@@ -234,9 +240,11 @@ dg-rec-supp,source,"DG Record, Supplement (1858)",data/sources.json
 dg-rye-appendix,source,DG Rye Appendix,data/sources.json
 dhi-crusaders-leeds,source,"DHI -- Database of Crusaders to the Holy Land, 1095-1149",data/sources.json
 dicamillo-gurneys-manor,source,DiCamillo — Gurney's Manor,data/sources.json
+digital-commonwealth,source,Digital Commonwealth: Massachusetts Collections Online,data/sources.json
 dnb-bocking,source,DNB - Bocking (Nicholas Bocking / Fastolf service note),data/sources.json
 dnb-edmund-gurney-1890,source,DNB - Edmund Gurney (d.1648),data/sources.json
 domesday-1086,source,Domesday Book (1086),data/sources.json
+drake-result-of-researches-1860,source,"Drake, Result of Some Researches (1860)",data/sources.json
 dudo-historia,source,"Dudo of Saint-Quentin, Historia Normannorum",data/sources.json
 ecipm-mapping-medieval-countryside,source,E-CIPM / Mapping the Medieval Countryside (digital Calendar of Inquisitions Post Mortem),data/sources.json
 eaa-occasional-paper-2-ellingham-kiln-1997,source,EAA Occasional Paper 2 - Ellingham Kiln,data/sources.json
@@ -278,6 +286,7 @@ findmypast-uk-parish-baptisms,source,Findmypast UK Parish Baptisms,data/sources.
 fischer-albions-seed-1989,source,"Fischer, Albion's Seed",data/sources.json
 fmg-medlands-normacre,source,FMG MedLands -- Normandy (Cawley),data/sources.json
 foster-streeter-cummington,source,"Foster & Streeter, Only One Cummington (1974)",data/sources.json
+foster-alumni-oxonienses-1500-1714,source,"Foster, Alumni Oxonienses 1500–1714",data/sources.json
 comerford-dam-history,source,Frank D. Comerford Dam history (Wikipedia; North Star Monthly),data/sources.json
 freebmd-freereg,source,FreeREG / FreeBMD,data/sources.json
 fs-jw7y-c3b-john-gurney-baptism-st-ann-blackfriars,source,"FS index JW7Y-C3B — John Gurney baptism, St Ann Blackfriars, 1615, father Wm.",data/sources.json
@@ -372,12 +381,14 @@ millican-register-freemen-norwich-1934,source,"Millican, Register of the Freemen
 morant-essex,source,"Morant, History of Essex",data/sources.json
 mosaic-dvd-hugue-de-gournay,source,Mosaic DVD - Hugue de Gournay,data/sources.json
 munsell-history-queens-flushing-1882,source,"Munsell, History of Queens County - Flushing",data/sources.json
+muskett-suffolk-manorial-families-v1-1900,source,"Muskett, Suffolk Manorial Families, vol. 1 (1900)",data/sources.json
 nash-historical-sketch-weymouth-1885,source,"Nash, Historical Sketch of Weymouth (1885)",data/sources.json
 national-churches-trust-harpley-st-lawrence,source,National Churches Trust - Harpley St Lawrence,data/sources.json
 nehgr-12-suffolk-wills-1858,source,NEHGR 12 - Suffolk Wills - John Gurney probate abstract,data/sources.json
 nehgr-49-genealogical-gleanings-john-lewis,source,"NEHGR 49 - Genealogical Gleanings, John Lewis will",data/sources.json
 nehgr-62-94,source,NEHGR 62:94,data/sources.json
 nehgr-30-432,source,"NEHGR vol. 30 (1876), p. 432 — Capt. William Tyng inventory",data/sources.json
+nehh-congregational-library-colonial-church-records,source,New England's Hidden Histories (Congregational Library & Archives),data/sources.json
 nj-marriage-index-1901-2016,source,"New Jersey Marriage Index, 1901-2016",data/sources.json
 nyclipper-1895-08-patchogue-fauntleroy,source,"New York Clipper, August 1895 — Patchogue Lord Fauntleroy notice",data/sources.json
 ny-war-1812-payroll-abstracts,source,New York War of 1812 militia payroll abstracts,data/sources.json
@@ -422,6 +433,7 @@ pettigrew-collectanea-house-gournay-1871,source,"Pettigrew, On the House of Gour
 phillimore-bucks-marriages-vol1,source,"Phillimore Bucks parish registers, marriages, vol. 1",data/sources.json
 planche-conqueror-companions-1874,source,"Planche, The Conqueror and His Companions",data/sources.json
 plymouth-probate-john-harden-1751-will,source,Plymouth Probate - John Harden will (1751),data/sources.json
+pope-pioneers-of-massachusetts-1900,source,"Pope, The Pioneers of Massachusetts (1900)",data/sources.json
 porter-genealogy-richard-porter-1878,source,"Porter, Genealogy of the Descendants of Richard Porter (1878)",data/sources.json
 potin-recherches-ville-gournay-1842,source,"Potin de la Mairie, Recherches…ville de Gournay (1842)",data/sources.json
 potts-monastic-revival-regional-identity-1997,source,"Potts, Monastic Revival and Regional Identity (1997)",data/sources.json
@@ -454,6 +466,7 @@ ukda-9263-mt-apprentices-scott-2024,source,"Scott, Merchant Taylors' Apprentices
 unicaen-scripta-selected-gournay-acts,source,SCRIPTA selected Gournay acts,data/sources.json
 husting-wills-london-vol2-sharpe,source,Sharpe -- Calendar of Wills Court of Husting London Part II (1890),data/sources.json
 shedd-daniel-shed-genealogy-1920,source,"Shedd, Daniel Shed Genealogy (1920)",data/sources.json
+shepard-spicksley-worth-age-2011,source,"Shepard & Spicksley, Worth, age & social status (2011)",data/sources.json
 medievalsoldier-database,source,Soldier in Later Medieval England Online Database,data/sources.json
 spr-case-338-john-gurney-probate-1663,source,SPR Case #338 - John Gurney probate inventory,data/sources.json
 sprague-braintree,source,"Sprague, Genealogies of Braintree",data/sources.json
@@ -478,6 +491,7 @@ tna-dl-42-2-33-5-richard-i-canville-nicholaa-de-la-haye,source,TNA DL 42/2/33/5 
 tna-e179-1661-london-poll-tax-deferred,source,"TNA E179 - 1661 Free and Voluntary Present, City of London (deferred image-pull target)",data/sources.json
 tna-pcc-gurney-elimination-corpus,source,"TNA PCC Gurney probate corpus (1577-1682, elimination set)",data/sources.json
 tna-pcc-probate,source,TNA PCC Probate Records,data/sources.json
+tna-ward-c142-west-barsham-gurney-inquisitions,source,TNA WARD 7 & C 142 inquisitions for the West Barsham Gurneys (catalogue level),data/sources.json
 torrey-new-england-marriages-prior-1700,source,"Torrey, New England Marriages Prior to 1700",data/sources.json
 folger-second-commandment-1639,source,Toward the Vindication of the Second Commandment (1639/1661) - Internet Archive / Folger,data/sources.json
 trevor-john-erpingham-1970,source,"Trevor John, 'Sir Thomas Erpingham, East Anglian Society and the Dynastic Revolution of 1399' (1970)",data/sources.json

@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Any, Sequence
 
 from .config import load_config
-from .context import compile_context
+from .context import compile_context, format_ai_grounding
 from .drift import capture_source_hashes
 from .exporter import export_recovery, export_snapshot, restore_export
 from .indexes import rebuild_database_indexes, search_graph
@@ -75,6 +75,7 @@ def build_parser() -> argparse.ArgumentParser:
     search = subparsers.add_parser("search", help="Search rebuildable FTS indexes.")
     search.add_argument("--terms", nargs="+", required=True)
     search.add_argument("--limit", type=int, default=25)
+    search.add_argument("--match", choices=("any", "all"), default="any")
     subparsers.add_parser("reindex", help="Rebuild all derived FTS indexes.")
     hashes = subparsers.add_parser(
         "hash-sources", help="Capture content hashes for cited local sources."
@@ -92,6 +93,7 @@ def build_parser() -> argparse.ArgumentParser:
         "context", help="Compile a G2 relationship- and budget-aware context package."
     )
     context.add_argument("--terms", nargs="*", default=[])
+    context.add_argument("--match", choices=("any", "all"), default="any")
     context.add_argument("--ids", nargs="*", default=[])
     context.add_argument("--entity-ids", nargs="*", default=[])
     context.add_argument("--budget", type=int, default=None)
@@ -100,6 +102,12 @@ def build_parser() -> argparse.ArgumentParser:
         "--mode",
         choices=("grounding", "research", "audit", "exhaustive"),
         default="grounding",
+    )
+    context.add_argument(
+        "--output",
+        choices=("ai-grounding", "raw"),
+        default="ai-grounding",
+        help="AI-facing concise brief by default; use raw for the full package.",
     )
     return parser
 
@@ -187,7 +195,7 @@ def main(argv: Sequence[str] | None = None) -> int:
                 return 1
             _print(impact)
         elif args.command == "search":
-            _print(search_graph(config, args.terms, limit=args.limit))
+            _print(search_graph(config, args.terms, limit=args.limit, match=args.match))
         elif args.command == "reindex":
             _print({"indexes": rebuild_database_indexes(config)})
         elif args.command == "hash-sources":
@@ -202,16 +210,20 @@ def main(argv: Sequence[str] | None = None) -> int:
         elif args.command == "report":
             _print({"report": str(write_build_report(config, args.output))})
         elif args.command == "context":
+            package = compile_context(
+                config,
+                terms=args.terms,
+                ids=args.ids,
+                entity_ids=args.entity_ids,
+                budget=args.budget,
+                relation_types=args.relation_types,
+                mode=args.mode,
+                match=args.match,
+            )
             _print(
-                compile_context(
-                    config,
-                    terms=args.terms,
-                    ids=args.ids,
-                    entity_ids=args.entity_ids,
-                    budget=args.budget,
-                    relation_types=args.relation_types,
-                    mode=args.mode,
-                )
+                format_ai_grounding(package)
+                if args.output == "ai-grounding"
+                else package
             )
         else:
             raise AssertionError(args.command)

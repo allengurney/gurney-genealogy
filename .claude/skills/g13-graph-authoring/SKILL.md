@@ -10,6 +10,19 @@ its research items in the canonical graph, authored together in one pass (Plan 0
 §16 Phase G3; Plan 02 §11). Keep each run to **1–2 topic units** unless directed
 otherwise — depth and correctness over breadth.
 
+## CLI invocation — read this before running anything
+Use the **PowerShell** tool, not Bash: the Bash tool silently mangles Windows
+paths like `.\.venv\Scripts\python.exe` (git-bash strips the backslashes, giving
+`..venvScriptspython.exe: command not found` without flagging it as an error).
+The entry point is the **top-level wrapper** `tools\g13_graph.py` — a sibling of
+the `tools\g13_graph\` package directory, not a file inside it. Running anything
+inside the package directly (`tools\g13_graph\cli.py`, or a guessed
+`tools\g13_graph\g13_graph.py`) fails: the former with
+`ImportError: attempted relative import with no known parent package`, the
+latter with `No such file or directory`. Example status check:
+`.\.venv\Scripts\python.exe tools\g13_graph.py status`. Full command list in
+`tools/g13_graph/README.md` §CLI.
+
 ## Read first
 - `tools/g13_graph/README.md` — tool mechanics: the `author-batch` batch shape,
   `validate` / `status` / `export --snapshot` / `hash-sources`, and the
