@@ -490,7 +490,7 @@ def _op_retire_item(
 def _op_set_review_state(
     connection: sqlite3.Connection, params: dict[str, Any], ts: str, by: str
 ) -> StagedChange:
-    """Batch accept/reject for the machine-suggested review queue."""
+    """Batch accept/reject for the item review queue."""
     item_ids = params.get("item_ids") or ([params["item_id"]] if params.get("item_id") else [])
     if not item_ids:
         raise ChangeError("set_review_state requires item_id or item_ids.")
@@ -1773,8 +1773,7 @@ def review_queue(config: GraphConfig) -> dict[str, Any]:
                 SELECT item_id, item_kind, short_label, statement, status,
                        provenance_origin, review_state, research_unit_id
                 FROM research_items
-                WHERE review_state='machine_suggested'
-                   OR (provenance_origin='machine_suggested' AND review_state<>'human_reviewed')
+                WHERE review_state IN ('machine_suggested', 'needs_revision')
                 ORDER BY item_id
                 """
             )

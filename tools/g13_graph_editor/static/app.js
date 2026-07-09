@@ -956,7 +956,7 @@ function scheduleDupCheck(statement, shortLabel, subj, box) {
 // ------------------------------------------------------------------ review queue
 async function loadQueue() {
   const data = await apiGet("/api/review-queue");
-  $("#queue-meta").textContent = `${data.count} machine-suggested item(s) awaiting review`;
+  $("#queue-meta").textContent = `${data.count} item(s) awaiting review`;
   const list = $("#queue-list");
   list.innerHTML = "";
   state.queueSelection.clear();

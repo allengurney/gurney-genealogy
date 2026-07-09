@@ -267,25 +267,36 @@ class RoundTripTests(EditorTestCase):
 
 
 class ReviewQueueTests(EditorTestCase):
-    def _make_machine_suggested(self, item_id: str) -> None:
+    def _set_review_fields(
+        self,
+        item_id: str,
+        *,
+        review_state: str,
+        provenance_origin: str | None = None,
+    ) -> None:
         connection = connect(self.config.db_path)
         try:
             with transaction(connection):
+                changes = ["review_state=?"]
+                args = [review_state]
+                if provenance_origin is not None:
+                    changes.append("provenance_origin=?")
+                    args.append(provenance_origin)
+                args.append(item_id)
                 connection.execute(
-                    """
-                    UPDATE research_items
-                    SET provenance_origin='machine_suggested',
-                        review_state='machine_suggested'
-                    WHERE item_id=?
-                    """,
-                    (item_id,),
+                    f"UPDATE research_items SET {', '.join(changes)} WHERE item_id=?",
+                    args,
                 )
         finally:
             connection.close()
 
     def test_batch_accept_clears_review_queue_and_audits(self) -> None:
-        self._make_machine_suggested("TEST-RI-000008")
-        self._make_machine_suggested("TEST-RI-000009")
+        self._set_review_fields(
+            "TEST-RI-000008",
+            review_state="machine_suggested",
+            provenance_origin="machine_suggested",
+        )
+        self._set_review_fields("TEST-RI-000009", review_state="needs_revision")
         self.assertIn("machine_item_unreviewed", self.issue_codes())
         queued = {row["item_id"] for row in review_queue(self.config)["queue"]}
         self.assertEqual(queued, {"TEST-RI-000008", "TEST-RI-000009"})

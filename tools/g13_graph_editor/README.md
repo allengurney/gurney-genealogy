@@ -139,7 +139,10 @@ is passed explicitly. `GURNEY_G13_GRAPH_DB` / `GURNEY_G13_GRAPH_EXPORT_DIR` /
 - Pick lists for every controlled vocabulary; source/entity autocomplete
   (sources from the registered `source_registry`; entities from the `entities`
   table). Only registered `sourceId`s can be linked (DB-enforced).
-- Machine-suggested **review queue** with batch accept/reject.
+- **Review queue** for `machine_suggested` and `needs_revision` items, with
+  batch accept/reject. Use `needs_revision` plus item notes for human-flagged
+  follow-up work that should stay visible until the item is corrected or
+  accepted.
 - Undo (revert an item to its previous audited state) and discard (cancel a
   staged change in the modal). Retire = soft-delete (kept in the audit trail;
   hard delete is intentionally impossible once an item carries revisions).

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 390" role="img" aria-labelledby="context-graph-figure-title" aria-describedby="context-graph-figure-desc">
+  <title id="context-graph-figure-title">Flat content compared with a context graph</title>
+  <desc id="context-graph-figure-desc">A flat table stores rows. A context graph stores connected research items with source, date, confidence, and question metadata.</desc>
+  <rect width="920" height="390" fill="#ffffff"/>
+  <text x="460" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700">Flat Content vs. Context Graph</text>
+
+  <g transform="translate(55 80)">
+    <text x="150" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700">Flat file, table, or notes</text>
+    <rect x="0" y="35" width="300" height="210" fill="#f8fafc" stroke="#111827" stroke-width="3"/>
+    <rect x="0" y="35" width="300" height="42" fill="#0ea5e9" stroke="#111827" stroke-width="3"/>
+    <line x1="78" y1="35" x2="78" y2="245" stroke="#111827" stroke-width="3"/>
+    <line x1="205" y1="35" x2="205" y2="245" stroke="#111827" stroke-width="3"/>
+    <line x1="0" y1="77" x2="300" y2="77" stroke="#111827" stroke-width="3"/>
+    <line x1="0" y1="112" x2="300" y2="112" stroke="#111827" stroke-width="2"/>
+    <line x1="0" y1="147" x2="300" y2="147" stroke="#111827" stroke-width="2"/>
+    <line x1="0" y1="182" x2="300" y2="182" stroke="#111827" stroke-width="2"/>
+    <line x1="0" y1="217" x2="300" y2="217" stroke="#111827" stroke-width="2"/>
+    <g stroke="#94a3b8" stroke-width="4" stroke-linecap="round">
+      <line x1="18" y1="96" x2="58" y2="96"/>
+      <line x1="96" y1="96" x2="178" y2="96"/>
+      <line x1="224" y1="96" x2="282" y2="96"/>
+      <line x1="18" y1="131" x2="58" y2="131"/>
+      <line x1="96" y1="131" x2="178" y2="131"/>
+      <line x1="224" y1="131" x2="282" y2="131"/>
+      <line x1="18" y1="166" x2="58" y2="166"/>
+      <line x1="96" y1="166" x2="178" y2="166"/>
+      <line x1="224" y1="166" x2="282" y2="166"/>
+      <line x1="18" y1="201" x2="58" y2="201"/>
+      <line x1="96" y1="201" x2="178" y2="201"/>
+      <line x1="224" y1="201" x2="282" y2="201"/>
+    </g>
+    <text x="150" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Good for storage and sorting</text>
+    <text x="150" y="307" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Weak at explaining relationships</text>
+  </g>
+
+  <g transform="translate(515 80)">
+    <text x="165" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700">Context graph</text>
+    <g stroke="#111827" stroke-width="4">
+      <line x1="165" y1="55" x2="70" y2="120"/>
+      <line x1="165" y1="55" x2="255" y2="120"/>
+      <line x1="70" y1="120" x2="165" y2="175"/>
+      <line x1="255" y1="120" x2="165" y2="175"/>
+      <line x1="70" y1="120" x2="70" y2="245"/>
+      <line x1="255" y1="120" x2="255" y2="245"/>
+      <line x1="70" y1="245" x2="165" y2="175"/>
+      <line x1="255" y1="245" x2="165" y2="175"/>
+      <line x1="70" y1="245" x2="255" y2="245"/>
+    </g>
+    <g fill="#ffffff" stroke="#111827" stroke-width="4">
+      <circle cx="165" cy="55" r="26"/>
+      <circle cx="70" cy="120" r="26"/>
+      <circle cx="255" cy="120" r="26"/>
+      <circle cx="165" cy="175" r="26"/>
+      <circle cx="70" cy="245" r="26"/>
+      <circle cx="255" cy="245" r="26"/>
+    </g>
+    <circle cx="165" cy="55" r="42" fill="#bfdbfe" stroke="#0284c7" stroke-width="5" opacity=".85"/>
+    <circle cx="255" cy="120" r="42" fill="#bbf7d0" stroke="#10b981" stroke-width="5" opacity=".85"/>
+    <circle cx="70" cy="245" r="42" fill="#ddd6fe" stroke="#8b5cf6" stroke-width="5" opacity=".85"/>
+    <circle cx="255" cy="245" r="42" fill="#fecaca" stroke="#ef4444" stroke-width="5" opacity=".85"/>
+    <g fill="#ffffff" stroke="#111827" stroke-width="4">
+      <circle cx="165" cy="55" r="22"/>
+      <circle cx="70" cy="120" r="22"/>
+      <circle cx="255" cy="120" r="22"/>
+      <circle cx="165" cy="175" r="22"/>
+      <circle cx="70" cy="245" r="22"/>
+      <circle cx="255" cy="245" r="22"/>
+    </g>
+    <g font-family="Arial, sans-serif" font-size="15">
+      <rect x="330" y="58" width="28" height="18" rx="8" fill="#bfdbfe" stroke="#0284c7" stroke-width="3"/>
+      <text x="368" y="73">date / time</text>
+      <rect x="330" y="90" width="28" height="18" rx="8" fill="#bbf7d0" stroke="#10b981" stroke-width="3"/>
+      <text x="368" y="105">confidence</text>
+      <rect x="330" y="122" width="28" height="18" rx="8" fill="#ddd6fe" stroke="#8b5cf6" stroke-width="3"/>
+      <text x="368" y="137">source</text>
+      <rect x="330" y="154" width="28" height="18" rx="8" fill="#fecaca" stroke="#ef4444" stroke-width="3"/>
+      <text x="368" y="169">open question</text>
+    </g>
+    <text x="165" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Good for following meaning</text>
+    <text x="165" y="307" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Shows evidence, questions, and why they connect</text>
+  </g>
+</svg>
