@@ -42,6 +42,10 @@ The indexes are locators only. Canonical facts remain in `data/*.json`; generate
 - Every source-dependent fact in structured data should map to a valid `sourceId`.
 - Orphan facts and orphan sources are both defects.
 - If a new source is needed, add it to `sources.json` deliberately and then reference it.
+- When repairing a missing `corpusPath` or `mediaPath`, first use `repo_search.py`
+  to find where the file or content moved, searching by filename, source ID, and
+  extrapolated source details before nulling the path or falling back to a
+  validation worksheet.
 - `sources.json` `notes` fields are brief catalogue annotations (what the source is,
   why it is relevant, what kinds of information it carries — roughly 2–4 sentences).
   Evidence, extracts, negative-search results, and findings belong in research

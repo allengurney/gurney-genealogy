@@ -2,7 +2,7 @@
 
 # Identity — Candidate D: London Draper, Old Change
 
-Candidate D is John Gurney, adult son and executor of Robert Gurney, citizen and draper of Old Change in the City of London, admitted to the Drapers' Company by redemption on 11 February 1623/4.[^s84] He is eliminated as the Braintree emigrant on a single clean chronological ground: the same John Gurney is documented still living in London, in the same St Augustine Watling Street parish, in 1662 — the very year the colonial John of Braintree was dying at Boston.[^hearth-tax]
+Candidate D is John Gurney, adult son and executor of Robert Gurney, citizen and draper of Old Change in the City of London, admitted to the Drapers' Company by redemption on 11 February 1623/4.[^will][^rollco-1624] He is eliminated as the Braintree emigrant on a single clean chronological ground: the same John Gurney is documented still living in London, in the same St Augustine Watling Street parish, in 1662 — the very year the colonial John of Braintree was dying at Boston.[^hearth-tax]
 
 ## Robert of Old Change and the 1623/4 freedom
 
@@ -28,13 +28,13 @@ Two further same-surname Londoners surface in the same record sweeps and are kep
 
 ## Standing
 
-Candidate D is eliminated. The 1638 and 1662 London tax returns place the same John Gurney continuously in the same St Augustine Watling Street household across at least twenty-four years, still on record there after the colonial John had already died in Massachusetts; the missing wife Mary and missing children give the same conclusion a second, independent ground. Candidate D was one of the three named "principal alternatives" the case file's matching-criteria profile weighs against every same-name Englishman, and is eliminated on the same structural ground — continuing English residence across the emigrant's own colonial years — as Candidates A and C.[^s84]
+Candidate D is eliminated. The 1638 and 1662 London tax returns place the same John Gurney continuously in the same St Augustine Watling Street household across at least twenty-four years, still on record there after the colonial John had already died in Massachusetts; the missing wife Mary and missing children give the same conclusion a second, independent ground. Candidate D is one of the three named principal alternatives the shared matching-criteria profile weighs against every same-name Englishman, and is eliminated on the same structural ground — continuing English residence across the emigrant's own colonial years — as Candidates A and C.[^cf-s84-xref]
 
 Three further London-record pulls remain open but are no longer load-bearing for the elimination itself, which now rests on the 1662 hearth tax: the 1660–61 Free and Voluntary Present return that may underlie the Boyd's card's "1661 poll tax" note, the 1640 Harvey list of Principal Inhabitants (a possible midpoint between the 1638 and 1662 returns), and the underlying Arber Stationers' Registers transcript that might name a father for the 1613 Boler apprentice and settle the redemption puzzle outright.[^deferred]
 
 ---
 
-[^s84]: [John Gurney identity case file](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v4.md), §8.4, "Candidate D - London Drapers' / Old Change." Depth-of-detail working file: `research/topics/john-gurney-candidate-london-draper.md`.
+[^cf-s84-xref]: Cross-reference, not a source. The evidence for the elimination is the 1638 and 1662 London tax returns cited at [^bho-1638] and [^hearth-tax]. The case file's own presentation of Candidate D is at [§8.4](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v4.md), "Candidate D — London Drapers' / Old Change"; the project's depth-of-detail working file is `research/topics/john-gurney-candidate-london-draper.md`.
 
 [^will]: Robert Gurney, citizen and draper of London, will written 18 January 1621/2, proved 23 September 1625, Archdeaconry Court of London; user-supplied image `31787_A002570-00422.jpg`; full transcription in `sources/intake/john-gurney-2026May/john-gurney-candidate-d-working-packet-audited-v13.md` §8. Source ID: `acl-robert-gurney-will-1625`.
 

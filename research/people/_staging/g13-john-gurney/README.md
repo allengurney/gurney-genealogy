@@ -733,3 +733,281 @@ gaps closed by this pass without adding any). `coverageStatus: increment-complet
 poached, left backlog: the distinct William Gurney London hearth-tax cluster
 (1664–1666), which bears on the case file's own "unknown corridor" residual reading,
 not on Candidate D's elimination.
+
+Phase G3 increment (2026-07-09, bounded): `topics/family/12-mendon-descendants.md`
+(topicId `g13-family-mendon-descendants` — the third **family** topic), co-authored with
+research items `G13-RI-000126..000135` and five prose evidence markers
+`G13-PM-000088..000092`. **One unit, depth over breadth: John Gurney Jr.'s Mendon household
+with his wife Ruth.** John Jr. had settled at Mendon by the early 1670s; the Mendon town book's
+birth entry for Samuel (14 March 1671, source_evidence **RI-000126**) fixes his wife's name, and
+the Plymouth Colony court's Taunton return plus the Taunton town's own vital records
+(source_evidence **RI-000127**, two new sources) give the primary record of Ruth's remarriage to
+John Bundy on 9 January 1676 — correcting Pope's misreading of the bride as "Jane." Finding
+**RI-000128** (high) states the household and John Jr.'s death in the 14 July 1675 Mendon
+massacre. A once-live ambiguity is resolved by analysis **RI-000129** (high): the 1675 casualty
+is John Jr., not the identically-named eldest son of his brother Richard (G12), who was still
+declining to administer Richard's estate in 1691 — the G12 companion's own primary record, cited
+cross-unit. The post-1667 Mendon proprietors' records separately preserve two Gurney lot-holders
+of the same generation — John Gurny, matching the resident John Jr. (source_evidence
+**RI-000130**, his lot sold to Josiah Thayer in 1692), and Grisel Gurny, John Sr.'s widow in her
+own right (source_evidence **RI-000131**, her will devising the lot to her son Joseph Juell,
+confirming she had become John Burge's wife) — synthesized as finding **RI-000132**
+(moderate-high), which CONTEXTUALIZES the wives-marriages Grizzell finding RI-000062 and the
+frontier-rights 1662 allotment RI-000026 (both cross-unit). Peter's King Philip's War service is
+carried in the same unit: source_evidence **RI-000133** (Bodge's muster/casualty-list entries)
+SUPPORTS finding **RI-000134** (high) — he survived the Great Swamp Fight and was killed later in
+the war, 1676. Open_question **RI-000135** carries two unresolved leads without advocacy: the
+1699/1701 Nevis will's "Mary Gurney the daughter of John Gurney" as a possible John-Jr.-line
+granddaughter, and the 1706 Taunton marriage of an Elizabeth Gurney to Timothy Cooper as a
+possible further descendant. **Two new sources registered** (`data/sources.json` v1.12.1→**1.13.0**
++ validation worksheets): `plymouth-colony-records-vol8-shurtleff-pulsifer-1857`,
+`taunton-vital-records-to-1850-vol2-marriages-1928`; both baselined at hash-sources. Loaded across
+database revisions 114–116 (sync-sources r114 → author-batch r115 → hash-sources r116); milestone
+snapshot at revision 116 (`data/context-graphs/g13/exports/snapshots/g13-context-r000116.ndjson`);
+validate **0/0**, all tiers aligned. `tools/lint_source_notes.py` PASS. Per-increment gates hold:
+source-journey, topic-graph-source, and publication-mapping gaps all 0 for the touched topic; no
+new friction; backlog decreased — five legacy-companion rows (Grizzell's Mendon-widow aside,
+the Billerica/Mendon/Jenner-debt block, the Suffolk-probate creditor-network block, the Nevis-will
+lead, the Torrey compendium cross-check note), both F2/F2-RESOLVED dump findings, and three
+supplemental-surfaces rows (fact-sheet Highlights, fact-sheet Children, case-file s1 and s10) all
+move to closed or partial-with-remaining-facet-explicit. `coverageStatus: increment-complete` in
+`manifest.json`. Deliberately not poached, left backlog: the "Jane Gurnet" 1664 Dorchester-will
+false-friend thread (dump F3/F3-VERBATIM, decoupled from this household during the same 2026-07-01
+campaign — routes to a future Dorchester-Gurnell collaterals topic); the Peter-as-reverse-tracer
+Norfolk marriage-search material adjacent to the Nevis-will legacy block (Mary's own English birth
+family, not the Mendon household — routes to origin/Mary's-origin work); and the `Surney`/`Garney`
+colonial-spelling-variant addition to `data/search-variants.json` (dump recommendation, tooling
+task, not a graph item).
+
+Phase G3 increment (2026-07-10, bounded): `topics/family/13-colonial-collaterals.md`
+(topicId `g13-family-colonial-collaterals` — the fourth **family** topic), co-authored with
+research items `G13-RI-000136..000144` and four prose evidence markers
+`G13-PM-000093..000096`. **One unit, depth over breadth: colonial-era same-surname
+Gurneys with no documented tie to John's family.** The Providence, Rhode Island John
+and Sarah Gurney (1695–1714) are a genuine but unconnected pair: source_evidence
+**RI-000136** (the 1695–96 warning-out of a stranger named John Gurney) and
+**RI-000137** (Sarah Gurney's 1714 will and inventory, her Gurney husband still
+living) SUPPORT finding **RI-000138** (high) — no record ties either spouse to
+John Gurney-1's children or grandchildren, and every one of Sarah's children carried
+her prior husband's surname, Field. Analysis **RI-000139** (low) weighs Torrey's
+independent "John3 ... Sarah (Thornton)[Fields] ... Providence" entry against a second
+John3 (Elizabeth Green, 1689 Weymouth) and the already-identified Samuel3 (Mendon-born
+son of John Jr. and Ruth, cross-unit CONTEXTUALIZES **RI-000128**): a plausible but
+unconfirmed grandson reading, not a finding. A single unread Suffolk Deeds Liber I
+index line, "Gurner, James, 5" (source_evidence **RI-000140**), stays exactly what it
+is — open_question **RI-000141**, pending a read of printed page 5. And the dump's
+long-carried "Jane Gurnet"/"Goodman Gurney of Dorchester" thread (F3/F3-VERBATIM/
+F10/Input-5/F-R3, backlog since the 2026-07-01 campaign) is finally closed: source_
+evidence **RI-000142** (Margery Laver's 1664 will) and **RI-000143** (the Dorchester
+town-book, First Church, and 1676/7 Suffolk County Court "Goodman Gurney" stream,
+three sources) SUPPORT negative_result **RI-000144** (high) — every Dorchester
+"Gurney"-form record belongs to the unrelated Gurnell family, confirmed independently
+across four printed sources. **Five new sources registered** (`data/sources.json`
+v1.13.0→**1.14.0** + validation worksheets): `suffolk-deeds-liber-i-1880`,
+`nehgr-13-abstracts-of-early-wills-1859`, `boston-record-commissioners-fourth-report-1880`,
+`records-first-church-dorchester-1891`, `suffolk-county-court-records-1671-1680-csm-29-30`;
+all baselined at hash-sources. Loaded across database revisions 117–119 (sync-sources
+r117 → author-batch r118 → hash-sources r119); milestone snapshot at revision 119
+(`data/context-graphs/g13/exports/snapshots/g13-context-r000119.ndjson`); validate
+**0/0**, all tiers aligned. `tools/lint_source_notes.py` PASS. Per-increment gates hold:
+source-journey, topic-graph-source, and publication-mapping gaps all 0 for the touched
+topic; no new friction; backlog decreased — six dump-findings rows (F3, F3-VERBATIM, F4,
+F10, the round-2 Input-5, and the round-2/round-3 F-R3) move to synthesized or partial-
+with-remaining-facet-explicit. `coverageStatus: increment-complete` in `manifest.json`.
+Deliberately not poached, left backlog: the cross-cutting "false-friends registry"
+artifact itself (F-R3's other routing target does not exist as a repo artifact yet;
+its content is fully discoverable via this topic and its sourceIds in the interim); the
+Dedham "Goodman Gurney of Dorchester, a Tanner" fourth witness (F-R3.5, routed to the
+same not-yet-built false-friends registry, not to this topic); and Isaac Gurney, already
+treated as a probable son of John's own household in `g13-family-family-group` rather
+than as a collateral.
+
+Phase G3 increment (2026-07-09, bounded): `topics/identity/32-norfolk-parentage.md`
+(topicId `g13-identity-candidate-b` — the sixth **identity** topic; manifest `order` 30;
+heading_id `identity-candidate-b-norfolk-parentage`), co-authored with research items
+`G13-RI-000145..000170` and eight prose evidence markers `G13-PM-000097..000104`.
+**One unit, depth over breadth: the surviving candidate's own parentage case**, which
+`30-candidate-overview.md` deliberately left external. The headline is
+`identity_hypothesis` **RI-000145** (moderate): John Gurney of Braintree was probably the
+son of Francis Gurney, Merchant Taylor of West Barsham, Norwich and London, by his first
+wife Margaret Rybett. Its two primary records are the 23 September 1611 St Martin at
+Palace marriage (source_evidence **RI-000151** → finding **RI-000152**, the first marriage
+neither Daniel Gurney nor Bernau ever found) and the East Dereham Entry E baptism
+(source_evidence **RI-000156**, re-read from the indexed "Nicholas Gorne" as "John the
+sonne of ffrancis Gurnie" → finding **RI-000157**), with open_question **RI-000158**
+holding the reading to a professional examination at the NRO and analysis **RI-000159**
+carrying the baptism-before-marriage tension. Francis himself is fixed by **RI-000146**
+(sixth son of Henry Gurnay of Great Ellingham and West Barsham), **RI-000147** (Merchant
+Taylors' binding 1599, freedom 1606), **RI-000148** (the Lestrange agency), **RI-000149**
+(the failed King's Lynn worsted venture), and **RI-000150** (the 11 July 1634 forced sale
+of every acre — the emigration motive). The bride's family is **RI-000153**, and finding
+**RI-000154** (moderate) puts her Rivett kin at Garveston and Gressenhall, two to three
+miles from East Dereham, supplying both the maternal-kin upbringing after 1616/17 and the
+name of John's son Richard. The sharpest objection is source_evidence **RI-000160** (the
+1633 Heralds' Visitation naming Roger "eldest sonne," CONTRADICTS RI-000145), rebutted —
+not dismissed — by finding **RI-000161** (the compilers' own child lists are fragmentary
+and neither knew of the 1611 marriage) and supported by negative_result **RI-000162** (no
+John among the seven St Benet Fink children of Francis and Anne Browning, 1619–1637: if a
+son John exists, he belongs to the first marriage). Source_evidence **RI-000163**/**000164**
+and finding **RI-000165** keep the claim attached to the right one of three same-named
+Francis Gurneys. New this increment: **RI-000166**/**000167** (Muskett vol. 2 — Elizabeth
+(Gournay) Crowe of East Bilney, five miles from East Dereham, and Frances Hovell as Edward
+Gournay's widow, "Cozen Gurney" in Mary Goodwin's 1647 will) supporting finding
+**RI-000168** (the senior West Barsham branch in the East Dereham orbit, its 1641
+inquisition taken *at* East Dereham), with open_question **RI-000169** on the unimaged
+Bozoune Crowe will (PROB 11/289/177, catalogued as "Bozann Crome"). Analysis **RI-000170**
+(WEIGHS RI-000145) sets the four supports against the four offsets. **One new source
+registered** (`data/sources.json` v-bump + validation worksheet):
+`muskett-suffolk-manorial-families-v2-1900`. Two registry repairs, disclosed: `nro-pd-86-41`
+had a `mediaPath` pointing at a nonexistent folder — repointed to its real validation
+worksheet so the cited artifact resolves and hash-baselines; and two committed
+citation-map rows carried an unquoted comma in `notes`, silently splitting the field —
+requoted. Loaded across database revisions 120–124 (sync-sources → author-batch r123 →
+hash-sources r124); milestone snapshot at revision 124
+(`data/context-graphs/g13/exports/snapshots/g13-context-r000124.ndjson`); validate **0/0**,
+all tiers aligned; `tools/lint_source_notes.py` PASS. Per-increment gates hold:
+source-journey, topic-graph-source, publication-mapping, and input-source-set gaps all 0
+for the touched topic; no new friction; backlog 103 → 92. `coverageStatus:
+increment-complete` in `manifest.json`. RI-000145 and RI-000170 publication-map to the
+fact sheet and case file §2/§10. **Retained friction (`confidence_mismatch`):** the fact
+sheet publishes "roughly a sixty percent probability" while case file §11 now carries ~65%;
+the unit states the lag plainly and leaves the publication decision open, since Plan 2b
+authorizes no edit to either surface. Three prose citations are carried `cross_unit` with
+no in-unit item link (`american-biography-cyclopedia-v26-gurney-1926`,
+`mhs-winthrop-papers-gurdon-to-winthrop-1627`,
+`tna-ward-c142-west-barsham-gurney-inquisitions`). Assimilated: legacy blocks l.219
+(maternal Rivett kin) and l.379 (St Benet Fink, no John); case-file s2, s4, s5, s9; both
+fact-sheet parentage rows; dump findings F-R3.8, F-R3.10, F-R4.4. Deliberately left
+backlog, annotated not false-closed: legacy l.330 (only the Fischer corridor prior is
+carried; the Hotten, Gilman/Diligent, Yarmouth, Shed-Finchingfield, and ROLLCO facets are
+not), legacy l.262 (the arms facet is a prose-only cross-unit carry), and dump F9 / F-R3.2
+/ F-R3.6 / F-R5, whose Candidate-B bearing — whether John emigrated *through* the
+Winthrop/Gurdon patronage network — is an assessment question for `37-identity-assessment`,
+not a parentage question. **Naming collision to resolve before E8:** `30-candidate-overview.md`
+holds the unit_id `g13-identity-assessment`, which is the natural id for the eventual
+synthesis unit; one of the two needs renaming. *(Resolved 2026-07-10 — see the next entry.)*
+
+Phase G3 increment (2026-07-10, bounded): `topics/identity/37-identity-assessment.md`
+(topicId `g13-identity-assessment` — the seventh and last **identity** topic; manifest
+`order` 70; heading_id `identity-assessment`), co-authored with research items
+`G13-RI-000171..000178` and six prose evidence markers `G13-PM-000105..000110`.
+**One unit, depth over breadth: what the identity work adds up to.** Finding-first: John's
+parentage is settled by elimination and circumstantial fit, not by a document — no record
+made in his lifetime names his father. Analysis **RI-000177** (moderate-high) states why the
+elimination is nonetheless stronger than most colonial origin attributions (every rival was
+actively disproved, and the colonial record shows exactly one adult Gurney household in
+Massachusetts before 1660) and why its weakness mirrors its strength (Candidate B predicts a
+man who would leave almost no English paper, so missing confirmation is what the hypothesis
+expects); it SYNTHESIZES RI-000106, RI-000145, and RI-000172, DEPENDS_ON the Dorchester-Gurnell
+negative RI-000144 and the Providence finding RI-000138, and publication-maps to the fact sheet
+and case-file §11.
+
+**Candidate C (Berkhamsted) is eliminated here** — the last principal alternative and, per Plan 02
+§4, the one with no unit of its own: source_evidence **RI-000171** (the eight indexed Berkhamsted
+baptisms 1610–1636, and no John Gurney burial there 1640–1700) supports finding **RI-000172**
+(high; wrong generation, three children with no colonial counterpart, no Mary or Peter, and three
+shared names that miss by six to nine years), publication-mapped to case-file §8 and §11. That
+absorbs `research/topics/john-gurney-candidate-berkhamsted-hertfordshire.md` whole.
+Source_evidence **RI-000173** (eleven Gurney/Gurny households in the 1662–1666 London hearth-tax
+returns) supports analysis **RI-000174** (moderate) — the unknown-corridor residual that the
+eliminations do *not* clear, and the reason the estimate sits in the sixties rather than the
+nineties. Open_question **RI-000175** carries the patronage question the wardship increment
+deferred: whether John emigrated *through* the Gurdon–Winthrop Court of Wards network, with the
+Norwich institution-book search named as the test that would close the chain. Analysis
+**RI-000176** (moderate-high) reads Anderson's "Boston" settlement attribution as the same
+conflation with the 1636 Newgate apprentice that produced the American 1615-birth tradition, and
+records the user's transient-lodging scenario as possible but invisible in principle. Analysis
+**RI-000178** (moderate) names the two realistic end-states (~85–90% on a Rivett-orbit marriage or
+a 1650s Norfolk kin-mention; a ~65–70% plateau otherwise), the three levers, and the published
+lag: the fact sheet still says "roughly a sixty percent probability" against the case file's ~65%.
+
+**Naming collision resolved (13 audited editor ops, database revisions 125–141, no raw SQL).**
+The overview unit at `30-candidate-overview.md` had been created under the unit_id
+`g13-identity-assessment`. The id now names this synthesis unit, and the overview carries its own
+id `g13-identity-candidate-overview`. Because a unique index forbids two units sharing a
+`(path, heading_id)`, and validation forbids both a cross-unit marker member without a reviewed
+reason and an active marker whose token count is not exactly one, the swap ran as: set a
+transitional `cross_unit_reason` on the three marker members → retire `G13-PM-000073..000075` →
+repoint `g13-identity-assessment` at the new file → create `g13-identity-candidate-overview` at the
+old file → move `G13-RI-000104..000106` → move and reactivate the three markers → clear the
+transitional reasons. The overview's own prose, manifest entry, ledger rows, and stale
+cross-references (which still described Candidates C, D, and B as unauthored) were reconciled in
+the same pass.
+
+**No new sources registered** — all eleven cited ids were already in `data/sources.json`; two were
+newly baselined at hash-sources (`findmypast-hertfordshire-baptisms`,
+`findmypast-hertfordshire-burials`). Loaded across database revisions 125–143 (17 editor ops
+r125–141 → author-batch r142 → hash-sources r143); milestone snapshot at revision 143
+(`data/context-graphs/g13/exports/snapshots/g13-context-r000143.ndjson`); validate **0/0**, all
+tiers aligned; `tools/lint_source_notes.py` PASS. Per-increment gates hold: input-source-set,
+source-journey, topic-graph-source, and publication-mapping gaps all 0; no new friction; backlog
+**92 → 85**. `coverageStatus: increment-complete` in `manifest.json` for both touched topics.
+Assimilated: dump findings Input-2, §9.1, §9.4, F9, and F-R5; the Berkhamsted whole-file and the
+London William Gurney hearth-tax supplemental rows; case-file s8 (the §8.2 facet) and s11; the
+legacy "Working Hypotheses" block's assessment bearing. Five prose citations are carried
+`cross_unit` with no in-unit item link (`findmypast-john-gurney-2026may-supplementary-same-name-sweep`,
+`tna-pcc-gurney-elimination-corpus`, `blomefield-norfolk`, `nro-pd-86-41`, `ftdna-gurney-ydna`).
+**Retained friction (`confidence_mismatch`, unchanged):** the fact sheet's sixty percent against the
+case file's ~65% — now stated plainly in RI-000178 rather than only recorded in a ledger; Plan 2b
+authorizes no edit to either published surface. Deliberately not poached, left backlog and
+annotated: dump F-R4.2 (the Boston First Church zero, which would close Anderson's "Boston" on the
+record rather than by inference — its home is `g13-colonial-record-coverage`, and it needs
+`csm-39-boston-first-church` registered first); dump F-R3.2 and F-R3.6 (the Martha Heigham will and
+the West Barsham advowson, both wardship-revision material); and the residual case-file s6/s10
+identity facets.
+
+**Two ledger regressions from the 2026-07-09 truncation repair were found and fixed** by diffing
+Allen's pre-truncation copies against the restored files: `source-and-citation-map.csv` had lost the
+`mentions` token from the Taunton vital-records row's `cited_role` (the graph carries both a
+`supports` link on RI-000127 and a `mentions` link on RI-000135), and
+`supplemental-surfaces-map.csv` had lost the case-file s10 annotation recording that the Nevis-will
+facet is authored as RI-000135. No rows were lost in the original repair, and one apparent
+discrepancy — the Pope row's `findings_contradicted` — was the repair *correcting* the pre-truncation
+file, which had filed a contradicting witness under `findings_supported`.
+
+## Case-file-as-source repair (2026-07-10, Opus; graph rev 144→160, snapshot r160)
+
+Allen flagged that staged topic footnotes were citing `research/case-files/john-gurney-case-file-v4.md`
+as the **source of truth** for evidence and findings. The case file is a publication surface, not a
+source: all evidence must cite third-party records. Cross-references to it, for reader convenience,
+are fine and are retained — now explicitly labelled.
+
+**Topic files repaired (10).** Seventeen footnotes across `identity/30`, `31`, `32`, `34`, `35`, `36`,
+`37`, `origin/24`, `origin/25`, and `research-state/41`. Every evidence footnote now leads with the
+underlying third-party record(s) and a `Source ID`; every remaining case-file footnote opens with
+"Cross-reference, not a source." Body prose that made the case file the grammatical actor of a
+finding ("the case file eliminates a household…") was rewritten to state the finding directly.
+
+**§8.6 collective-set exception (per Allen).** The dense clearance list of eliminated Johns is *not*
+replicated household by household. `30-candidate-overview`, `31-candidate-a-aylesbury`, and
+`36-other-eliminations` each carry the sweep as one collective finding, cite the record sweeps that
+produced it, and name the case file's §8.3/§8.6 tables as the **master list** in a footnote explicitly
+marked as a cross-reference.
+
+**Graph (5 statements, 8 new source links).** `RI-000104`, `RI-000105`, `RI-000106`, `RI-000120`, and
+`RI-000174` no longer name the case file as the authority for their own content. `RI-000106` and
+`RI-000174` now link `findmypast-john-gurney-2026may-supplementary-same-name-sweep` and
+`tna-pcc-gurney-elimination-corpus` directly; `RI-000120` links the sweep; `RI-000172` (Candidate C)
+now carries its two Hertfordshire index witnesses directly rather than only through the relation
+chain to `RI-000171`; `RI-000110` links the newly-registered certificate of residence.
+
+**One source registered.** `tna-e115-180-113-certificate-of-residence-1641` (sources.json 1.12.1→1.15.0,
+`corpusStatus: deferred`, not examined at image level), so Candidate A's 1641 move cites the archival
+record rather than the case file. Registry fix in passing: the dangling `mediaPath` on
+`findmypast-john-gurney-2026may-supplementary-same-name-sweep` pointed at an archived intake directory
+and raised a `source_content_missing` warning the moment the graph cited it; nulled, so `canonical_path`
+falls to the validation worksheet.
+
+**Two open sourcing gaps, recorded not dropped.** (1) The 1650 Walgrave, Northamptonshire tenancy has
+no located archival reference and no registered source; it is flagged in `31-candidate-a-aylesbury.md`
+and nothing depends on it. (2) The certificate of residence itself is an unverified reference awaiting
+a Discovery-catalogue confirmation.
+
+**Content gap analysis.** The case-file citations were *not* hiding unassimilated content, with two
+exceptions, both already scheduled: case file **§6** (children-search matrix, Peter naming gap, absence
+of a son named Francis) and **§7** (Ann Gurney × John Gilman at Hingham) have no staged home. They are
+Phase 2 items 5 and 6 in `tools/plans/G-13 Refactor/prompts/phase-1-and-2-prompts.md`.
+
+Gates after the pass: validate **0/0**, tiers aligned, `input_source_set_gaps`, `source_journey_gaps`,
+`topic_graph_source_gaps`, `publication_mapping_gaps`, `friction_needs_decision` all **0**; backlog
+unchanged at 85.

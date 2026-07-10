@@ -81,7 +81,7 @@
     "corpusPath": "",
     "mediaPath": "",
     "validationPath": "sources/validations/alumni-cantabrigienses-venn.md",
-    "notes": "Compiled Cambridge alumni authority. Cited for the entry on Edmund Gurney the Divine (son of Henry Gurney G15): Queens' adm. 1594 / matric. 1595, BA 1598/9, MA Corpus Christi 1602, BD 1609, ord. deacon Ely 18 Dec 1608, priest Norwich 1614, R. Edgefield 1614-20, R. Harpley 1620-48, bur. St Peter Mancroft 14 May 1648. A compiled register, not a primary record; it adjudicates the DNB/Harpley date splits and confirms the ordination dates."
+    "notes": "Compiled Cambridge alumni authority. Cited for the entry on Edmund Gurney the Divine (son of Henry Gurney G15): Queens' adm. 1594 / matric. 1595, BA 1598/9, MA Corpus Christi 1602, BD 1609, ord. deacon Ely 18 Dec 1608, priest Norwich 1614, R. Edgefield 1614-20, R. Harpley 1620-48, bur. St Peter Mancroft 14 May 1648. A compiled register, not a primary record; it adjudicates the DNB/Harpley date splits and confirms the ordination dates. Also cited for the Warford negative: no Warford of any spelling appears in the Alumni Cantabrigienses to 1751."
   },
   {
     "sourceId": "american-biography-cyclopedia-v26-gurney-1926",
@@ -94,6 +94,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/american-biography-cyclopedia-v26-gurney-1926.md",
     "notes": "Derivative American-line biographical/genealogical entry. User extract includes John Gurney of Braintree, a probable Southwark origin tradition, and the statement that arms kept by American Gurneys show connection with the Norfolk Gurneys. Use the arms statement as a moderate positive family-memory/heraldic lead for Candidate B; do not use the birth/Southwark assertions as controlling facts."
+  },
+  {
+    "sourceId": "ancestry-pcc-wills-1384-1858",
+    "shortTitle": "Ancestry - PCC Wills, 1384-1858 (collection 5111)",
+    "citation": "Ancestry.com. England & Wales, Prerogative Court of Canterbury Wills, 1384-1858 [database online]. Collection 5111; underlying registered copy wills at The National Archives, Kew, PROB 11 series.",
+    "archive": "Ancestry.com; underlying record held at The National Archives, Kew (PROB 11 series)",
+    "url": "https://www.ancestry.com/search/collections/5111/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/ancestry-pcc-wills-1384-1858.md",
+    "notes": "Ancestry's searchable index/image collection of PCC registered copy wills (TNA PROB 11 equivalents), the access channel used for a Candidate D negative search for an Anne Gurney widow will or administration, 1625-1670. Distinct from the general tna-pcc-probate bucket and the itemized tna-pcc-gurney-elimination-corpus, which catalogue specific already-identified PCC items rather than naming the Ancestry collection itself."
   },
   {
     "sourceId": "ancestry-child-apprentices-christs-hospital-1617-1778",
@@ -274,6 +286,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/ballou-history-of-milford-1882.md",
     "notes": "Milford/Mendon town history preserving the institutional context of the Netmooke/Mendham/Mendon plantation. The project extraction covers pp. 27-35, including the 1662 list of persons accepted to allotments, where John Gurney appears in the Braintree contingent, and nearby references to 1667 meadow division and pre-King Philip's War grants. Useful for Mendon proprietary context; later references require caution because John Gurney-1 died in 1662/3."
+  },
+  {
+    "sourceId": "banks-planters-of-the-commonwealth-1930",
+    "shortTitle": "Banks, Planters of the Commonwealth (1930)",
+    "citation": "Banks, Charles Edward. The Planters of the Commonwealth: A Study of the Emigrants and Emigration in Colonial Times, to Which Are Added Lists of Passengers to Boston and to the Bay Colony, the Ships Which Brought Them, Their English Homes, and the Places of Their Settlement in Massachusetts, 1620–1640. Boston: Houghton Mifflin, 1930.",
+    "archive": "Internet Archive (item plantersofcommon00bank).",
+    "url": "https://archive.org/details/plantersofcommon00bank",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/banks-planters-of-the-commonwealth-1930.md",
+    "notes": "Compiled and arranged Great Migration passenger/settler lists, reorganized from Drake and earlier transcripts into family groups with English homes and New England destinations. Searched for John Gurney across the three ship lists nearest his 1641 Weymouth appearance — Bevis (1638), Diligent of Ipswich (1638), Mary Anne of Yarmouth (1637): no Gurney/Gourney/Gurny variant present. Secondary reconstruction, imperfect OCR, not an original customs manifest. Working compilation at research/topics/massachusetts-bay-passenger-lists-bevis-diligent-mary-anne.md."
   },
   {
     "sourceId": "banks-brownell-1937",
@@ -564,6 +588,18 @@
     "notes": "Catalogue lead for Henry Gurnay's manuscript commonplace book. The MARCO page did not render in this pass, but the URL should be retained as the direct manuscript-control lead for future review."
   },
   {
+    "sourceId": "boston-record-commissioners-fourth-report-1880",
+    "shortTitle": "Boston Record Commissioners, Fourth Report - Dorchester Town Records (1880)",
+    "citation": "A Report of the Record Commissioners of the City of Boston, Containing the Dorchester Town Records. Boston: Rockwell and Churchill, City Printers, 1880. (Fourth Report of the Record Commissioners of the City of Boston.)",
+    "archive": "Internet Archive (item fourthreportofre04bost).",
+    "url": "https://archive.org/details/fourthreportofre04bost",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/boston-record-commissioners-fourth-report-1880.md",
+    "notes": "Printed Dorchester town-record volume, 1630s-1670s. Renders one Dorchester townsman, John Gurnell, under a dozen colonial spellings (Gornell, Gurnell, Gurnet, Gurnett, etc.), including 'John Gurnet' in a 1653 fence-viewers list, and its own editorial footnote identifies Jane Gornell, his son's widow, as the will-legatee elsewhere called 'Jane Gurnet.' No independent Gurney household appears in the volume."
+  },
+  {
     "sourceId": "boston-town-records-1634-1660",
     "shortTitle": "Boston Town Records 1634-1660 (Book of Possessions)",
     "citation": "Second Report of the Record Commissioners of the City of Boston: Boston Town Records, 1634-1660, and the Book of Possessions. 2nd ed. Boston, 1881.",
@@ -586,6 +622,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/braintree-records-1640-1793-1886.md",
     "notes": "Published Braintree town-record transcription. For the John Gurney case file, the important conflict is in the vital-record section: printed p. 638 gives the 20 Sept. 1661 wife-death line under John Cheny, and printed p. 717 gives the 12 Nov. 1661 marriage line as John Cheny Senior and Grizell Kidbee. Use as a conflict source against the current Braintree vital-record wording; the original town manuscript and TAG 10:70-73 remain necessary before treating the Cheny reading as final."
+  },
+  {
+    "sourceId": "mhs-winthrop-papers-gurdon-to-winthrop-1627",
+    "shortTitle": "Brampton Gurdon to John Winthrop, 20 Oct. 1627 (Winthrop Papers I:363)",
+    "citation": "Brampton Gurdon to John Winthrop, \"morly this 20 of 8ber [Oct.] 1627,\" in Winthrop Papers, vol. I, 1498-1628 (Boston: Massachusetts Historical Society, 1929), p. 363; Massachusetts Historical Society, Winthrop Family Papers Digital Edition, document PWF01d256.",
+    "archive": "Massachusetts Historical Society (Winthrop Papers, print vol. I, 1929; Winthrop Family Papers Digital Edition)",
+    "url": "https://www.masshist.org/publications/winthrop/index.php/view/PWF01d256",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/mhs-winthrop-papers-gurdon-to-winthrop-1627.md",
+    "notes": "Brampton Gurdon's 20 Oct. 1627 letter to John Winthrop (Winthrop Papers I:363; MHS digital edition PWF01d256) — the only Gurney-variant document in the Winthrop Family Papers, placing the widowed 'mrs. Gurny' and her near-of-age ward inside the Court of Wards circle of Winthrop and Downing. The full reading, the project's West Barsham identification, and its limits are carried in the wardship-network research topic; examination scope in the validation worksheet."
   },
   {
     "sourceId": "brooke-catalogue-succession-1619",
@@ -1140,6 +1188,18 @@
     "notes": "Hugh de Gournay III (G33): Liston, Fordham, Ardleigh (Essex); Norfolk properties. Little Domesday vol. ii, p. 89 (per Morant). Referenced in DG-I."
   },
   {
+    "sourceId": "drake-result-of-researches-1860",
+    "shortTitle": "Drake, Result of Some Researches (1860)",
+    "citation": "Drake, Samuel G. Result of Some Researches among the British Archives for Information Relative to the Founders of New England, Made in the Years 1858, 1859, and 1860. Boston: New England Historic-Genealogical Society, 1860 (reprinted from the New England Historical and Genealogical Register).",
+    "archive": "Internet Archive (item resultofsomerese00drak).",
+    "url": "https://archive.org/details/resultofsomerese00drak",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/drake-result-of-researches-1860.md",
+    "notes": "Near-primary transcripts of English emigration/passenger examinations, including the Bevis certificate, the Mary Anne examinations, and the Daniel Cushing Hingham/Diligent settler list. Searched for John Gurney across the three near-window ship lists: no New England Gurney passenger — the sole 'Gourney' hit is William Gourney, Mayor of Dartmouth, on an unrelated St Christopher (Caribbean) list. Transcript, not the manuscript; difficult OCR. Working compilation at research/topics/massachusetts-bay-passenger-lists-bevis-diligent-mary-anne.md."
+  },
+  {
     "sourceId": "dudo-historia",
     "shortTitle": "Dudo of Saint-Quentin, Historia Normannorum",
     "citation": "Dudo of Saint-Quentin. De moribus et actis primorum Normanniae ducum. c. 996–1015. Ed. Jules Lair (Caen, 1865). English trans.: Eric Christiansen (Woodbridge: Boydell Press, 1998).",
@@ -1630,6 +1690,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Local town history of Cummington, Hampshire County, Massachusetts. Cited p. 390 for two G9 (Benjamin Gurney 1730–1805) land transactions: (1) Benjamin and Silas Reed purchased land in Town No. 5 (Cummington) at Springfield, Massachusetts records, 5 November 1770, after Benjamin sold his Abington land in June 1770; (2) Benjamin's 1787 farm exchange with Philip Shaw at Cummington. Standard reference for Cummington-resident Gurneys (G8, G9). Source for primary deeds not yet directly examined; deeds themselves should be accessible via Hampshire County / Springfield records."
+  },
+  {
+    "sourceId": "foster-alumni-oxonienses-1500-1714",
+    "shortTitle": "Foster, Alumni Oxonienses 1500–1714",
+    "citation": "Joseph Foster, Alumni Oxonienses: The Members of the University of Oxford, 1500-1714, 4 vols. (Oxford: Parker & Co., 1891-1892).",
+    "archive": "Internet Archive; British History Online",
+    "url": "https://archive.org/details/alumnioxonienses04fostuoft",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/foster-alumni-oxonienses-1500-1714.md",
+    "notes": "Compiled Oxford alumni register, companion to Venn's Alumni Cantabrigienses. Cited for the Warford negative in the 1627 Gurdon-Winthrop letter: the only Warfordes are the Elizabethan Bristol men (William, the Jesuit; Henry, matric. 1581), too early to be the 'master of artes of 6 years standing' of 1627. Used with Venn to bound the standard Oxbridge search for the clergyman; the Norwich diocesan institution registers (CCEd) are the remaining route."
   },
   {
     "sourceId": "comerford-dam-history",
@@ -2431,7 +2503,7 @@
     "url": "",
     "corpusStatus": "partial",
     "corpusPath": "",
-    "mediaPath": "sources/media/lma-st-augustine-watling-register-candidate-d-images",
+    "mediaPath": "sources/intake/archive/john-gurney-2026May/john-gurney-candidate-d-working-packet-audited-v13.md",
     "validationPath": "sources/validations/lma-st-augustine-watling-register-candidate-d-images.md",
     "notes": "Core Candidate D parish-register source. Packet sections 14-17 confirm early Robert Gurny/Gorney child events at St Augustine, record a negative post-1601 replacement-John christening search through 1610, and record a negative 1601-1612 first-wife burial search in supplied images."
   },
@@ -2455,7 +2527,7 @@
     "url": "",
     "corpusStatus": "partial",
     "corpusPath": "",
-    "mediaPath": "sources/media/lma-st-magnus-martyr-register-candidate-d-images",
+    "mediaPath": "sources/intake/archive/john-gurney-2026May/john-gurney-candidate-d-working-packet-audited-v13.md",
     "validationPath": "sources/validations/lma-st-magnus-martyr-register-candidate-d-images.md",
     "notes": "Candidate D source for the image-confirmed 4 April 1611 marriage of Robert Gourney of St Augustine in Watling Street and Anne Morris of St Michael in the Querne, by licence. Also preserves the likely false-positive/exclusionary John Grone burial at St Magnus, 5 July 1625."
   },
@@ -2760,6 +2832,30 @@
     "notes": "Flushing local-history source. Relevant here for the statement that John Bird built and operated a woolen mill at the Alley until the 1850 fire, with a reported 10000 dollar loss."
   },
   {
+    "sourceId": "muskett-suffolk-manorial-families-v1-1900",
+    "shortTitle": "Muskett, Suffolk Manorial Families, vol. 1 (1900)",
+    "citation": "Joseph James Muskett, Suffolk Manorial Families, being the County Visitations and other Pedigrees, vol. 1 (Exeter: William Pollard & Co., 1900).",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/suffolkmanorialf01musk",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/muskett-suffolk-manorial-families-v1-1900.md",
+    "notes": "Muskett's Suffolk Manorial Families vol. 1: the Gurdon-of-Assington pedigree (pp. 285–288) and the 1591 Martha Heigham will (pp. 289–290), grounding the Gurdon–Sedley–Lewkenor puritan matrix behind the 1627 Gurdon–Winthrop letter. No early-modern Gurney appears in the volume. Findings are carried in the wardship-network research topic; sweep scope in the validation worksheet."
+  },
+  {
+    "sourceId": "muskett-suffolk-manorial-families-v2-1900",
+    "shortTitle": "Muskett, Suffolk Manorial Families, vol. 2 (1900)",
+    "citation": "Joseph James Muskett, Suffolk Manorial Families, being the County Visitations and other Pedigrees, vol. 2 (Exeter: William Pollard & Co., 1900).",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/suffolkmanorialf02john",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/muskett-suffolk-manorial-families-v2-1900.md",
+    "notes": "Companion volume to Muskett vol. 1, carrying the L'Estrange-of-Hunstanton/Bozoune and Hovell-of-Hillington pedigrees and abstracted wills. Relevant because those charts, unlike vol. 1, name West Barsham Gurneys by marriage — the volume is the source for the senior branch's daughters and in-laws. Content is compiled visitation pedigrees plus will abstracts, not original records. Findings are carried in the Candidate-B identity topic; sweep scope in the validation worksheet."
+  },
+  {
     "sourceId": "nash-historical-sketch-weymouth-1885",
     "shortTitle": "Nash, Historical Sketch of Weymouth (1885)",
     "citation": "Nash, Gilbert. Historical Sketch of the Town of Weymouth, Massachusetts, from 1622 to 1884. Weymouth, Massachusetts: Town of Weymouth, under the auspices of the Weymouth Historical Society, 1885. Printed by Alfred Mudge & Son, Boston.",
@@ -2794,6 +2890,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Printed abstract of the Widow Wilson and John Gurney entries on p. 53 completed in 1858. Confirms John Gurney probate abstract: Braintree, 16 Mar. 1663; appraisers Gregory Belcher, Edmund Quincy, Thomas Faxon; inventory amount £55 14s 6d; debt names including Peter Brackett, Joseph Adams, Francis Nucomb, John Dassit Senr, Goodman King of Waymouth, Goodman Baly, John Mills, John Cleverly, Smith, Collins at Boston; bottom notation naming Mr Sam Broadstreet and Mr Richard Wharton as deponents. Also includes Widow Wilson entry reporting £4 in the hands of John Gurney."
+  },
+  {
+    "sourceId": "nehgr-13-abstracts-of-early-wills-1859",
+    "shortTitle": "NEHGR 13 - Abstracts of Early Wills (Margery Laver, 1664)",
+    "citation": "\"Abstracts of Early Wills,\" The New England Historical and Genealogical Register, vol. 13 (Boston: New England Historic Genealogical Society, 1859), p. 13.",
+    "archive": "Internet Archive (item newenglandhistor1318unse).",
+    "url": "https://archive.org/details/newenglandhistor1318unse",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/nehgr-13-abstracts-of-early-wills-1859.md",
+    "notes": "Printed abstract of the 1664 Dorchester will of Margery Laver, which bequeaths 2 shillings 'to Jane Gurnet.' Dorchester's own town and church records independently identify this Jane as Jane Gornell (later Mrs. Burge) of the Gurnell family, not a Gurney."
   },
   {
     "sourceId": "nehgr-49-genealogical-gleanings-john-lewis",
@@ -3079,9 +3187,9 @@
     "url": "",
     "corpusStatus": "none",
     "corpusPath": "",
-    "mediaPath": "sources/media/parish-register/",
-    "validationPath": "",
-    "notes": "Systematically reviewed. Five Francis Gurney baptisms identified (Entries A–E). Entry E: 'John son of [ffrancis Gurnie?]' — four-test paleographic analysis supports ffrancis over Nicholas. Margaret Rybett death revised to c.1616–17 based on 9-month impossibility test."
+    "mediaPath": "",
+    "validationPath": "sources/validations/east-dereham-pd-86-41-register-structure-and-chronology.md",
+    "notes": "Microfilmed East Dereham parish register, 69 images, covering 1593–1641 baptisms, marriages, and burials in combined annual returns. Relevant because it carries the Francis Gurney child cluster and the disputed Entry E baptism read as \"John the sonne of ffrancis Gurnie.\" Much of the film is degraded, so most entry dates carry a ±2-year margin. The validation worksheet records the image set (under sources/media/Parish_Register_East_Dereham/), the register's structure, and where findings landed."
   },
   {
     "sourceId": "nrp-recherches-possessions-1852",
@@ -3360,6 +3468,18 @@
     "notes": "Derivative nineteenth-century synthesis. Relevant for Hugh de Gournay section, 1035 expedition, Mortemer, Hastings variants, Cardiff death tradition, Gerard/Gundred/Monceaux collateral notes, and Gournay/Pays de Bray place context. Use as comparison source, not controlling proof over DG, Hannay, charter, Domesday, or Orderic."
   },
   {
+    "sourceId": "plymouth-colony-records-vol8-shurtleff-pulsifer-1857",
+    "shortTitle": "Plymouth Colony Records, vol. 8 (Shurtleff & Pulsifer, 1855-1861)",
+    "citation": "Shurtleff, Nathaniel B., and David Pulsifer, eds. Records of the Colony of New Plymouth in New England, vol. 8 (Judicial Acts and Miscellaneous Records, 1636-1689). Boston: Press of William White, printer to the Commonwealth, 1857.",
+    "archive": "Internet Archive (item recordsofcolonyo0708newp, bound with vol. 7).",
+    "url": "https://archive.org/details/recordsofcolonyo0708newp",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/plymouth-colony-records-vol8-shurtleff-pulsifer-1857.md",
+    "notes": "Printed Plymouth Colony court and miscellaneous records, including the town clerks' returns of vital records the colony court required. Carries the Taunton return of the 9 January 1676 marriage of John Bundy to Ruth Surney (a colonial spelling variant of Gurney) of Mendon, the primary record resolving which Gurney widow John Bundy married. Also the sole other Plymouth-colony Gurney entry, Isaac Gurney's 1663/4 Scituate court matter."
+  },
+  {
     "sourceId": "plymouth-probate-john-harden-1751-will",
     "shortTitle": "Plymouth Probate - John Harden will (1751)",
     "citation": "Massachusetts. Probate Court (Plymouth County). Probate records, 1686-1903; with index and docket, 1685-1967. Plymouth County Probate Court record book, manuscript pp. 383-384, will of John Harden of Bridgewater, Plymouth County, Massachusetts, blacksmith, dated 17 September 1751, proved 7 October 1751.",
@@ -3381,7 +3501,7 @@
     "corpusPath": "",
     "mediaPath": "",
     "validationPath": "sources/validations/pope-pioneers-of-massachusetts-1900.md",
-    "notes": "Independent 1900 compiler of the Massachusetts founders drawn from colony, town, and church records. The main entry (head-form 'GURNET, GORNET') reads: 'John, Sen., tailor, Braintree. [N. B. He is called John Cheny, Sen., in the printed records of Braintree, by a typographical error.] Was an apprentice of John Newgate, 29 (7) 1636, ae. 21 years... Signed a petition about the meadows in 1646. [Arch. 45.] Sold land in Br. 12 Feb. 1661. His wife d. 20 (7) 1661, and he m. 12 (9) 1661, Grizzell, widow of Henry Kibbee. He d. in 1662-3; inv. March 16, 1663. [Reg. XII, 53.]' Two G13 bearings: (1) an explicit records-based ruling that the printed Braintree 'John Cheny, Sen.' is a typographical error for John Gurney, reading both the 1661 wife-death and Grizzell-marriage lines as the Gurney family (the wives-marriages Cheny/Girny question); (2) a new '[Arch. 45]' 1646 Braintree meadows petition lead (Massachusetts Archives vol. 45) routed to the colonial record classes, not assimilated here. Pope also conflates the 1636 Newgate apprentice with the Braintree John (the case-file two-Johns de-conflation argues against; Pope 1900 predates that analysis)."
+    "notes": "Independent 1900 compilation of Massachusetts founders from colony, town, and church records; the 'GURNET, GORNET' main entry covers John of Braintree. Chief value: an explicit records-based ruling that the printed Braintree 'John Cheny, Sen.' is a typographical error for John Gurney — carried, with the entry text, in the wives-and-marriages research topic — plus a Massachusetts Archives vol. 45 meadows-petition lead (research-leads catalogue). Pope conflates the 1636 Newgate apprentice with the Braintree John; the two-Johns de-conflation post-dates him."
   },
   {
     "sourceId": "porter-genealogy-richard-porter-1878",
@@ -3490,6 +3610,30 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Evidence-based reconstruction, not verbatim recovery. Covers the Gurneys of St. Benet Fink, London, and Maldon, Essex. Relevant primarily to G14 (Francis) and the London to Maldon to Norwich branch."
+  },
+  {
+    "sourceId": "records-first-church-dorchester-1891",
+    "shortTitle": "Records of the First Church at Dorchester, 1636-1734 (1891)",
+    "citation": "Records of the First Church at Dorchester in New England, 1636-1734. Boston: George H. Ellis, 1891.",
+    "archive": "Internet Archive (item recordsoffirstch00firs).",
+    "url": "https://archive.org/details/recordsoffirstch00firs",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/records-first-church-dorchester-1891.md",
+    "notes": "Printed First Church of Dorchester register and meeting record. Its 1709 entry records the church recovering a bequest 'by mrs. Burgesse alias Gurnet,' identifying the Gornell/Gurnell family's widow Jane as still known to the church by the 'Gurnet' form decades after her first husband's death. No independent Gurney household appears in the church's own index."
+  },
+  {
+    "sourceId": "suffolk-county-court-records-1671-1680-csm-29-30",
+    "shortTitle": "Records of the Suffolk County Court, 1671-1680 (CSM 29-30, 1933)",
+    "citation": "Records of the Suffolk County Court, 1671-1680. 2 vols. Publications of the Colonial Society of Massachusetts, vols. 29-30. Boston: Colonial Society of Massachusetts, 1933.",
+    "archive": "",
+    "url": "",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/suffolk-county-court-records-1671-1680-csm-29-30.md",
+    "notes": "Printed Suffolk County Court record series. Printed p. 481 names a 'Goodman Gurney of Dorchester' standing surety in a 1676/7 bastardy case; the court's own general index keeps this entry separate from its Gornell/Gurnell entries, but Dorchester's town and church records identify the same man as John Gurnell under ordinary clerk-level spelling drift."
   },
   {
     "sourceId": "recueil-actes-henri-ii-delisle-berger-vol-1",
@@ -3726,7 +3870,7 @@
     "archive": "UK Data Service / Guildhall Library Manuscripts Section (primary registers)",
     "url": "https://datacatalogue.ukdataservice.ac.uk/studies/study/9263#details",
     "corpusStatus": "full",
-    "corpusPath": "",
+    "corpusPath": "sources/media/ukda-9263-merchant-taylors-apprentices/gurney-variants-extract.csv",
     "mediaPath": "sources/media/ukda-9263-merchant-taylors-apprentices/",
     "validationPath": "sources/validations/ukda-9263-mt-apprentices-scott-2024.md",
     "notes": "Published transcription of the Merchant Taylors' Company binding books and freedom registers, 1583-1800: 63,644 binding rows in COMB, 65,392 freedom rows, plus Court Appearances, Redemptions, and Patrimony sheets. CC BY-NC-SA 4.0. Primary first-hand evidence for Francis Gurney G14's apprenticeship (bound 14 May 1599 to Henry Tryme, transferred 3 Feb 1605 to William Smooth, freed 30 June 1606) and for Francis G14 as master taking Francis Spelman s. Sir Henry Spelman in 1616 with a £100 bond. Confirms no John Gurney son of Francis Gurney was bound or freed by patrimony in the MT 1583-1800 record. See research/topics/merchant-taylors-1583-1800-gurney-analysis.md."
@@ -3766,6 +3910,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Daniel Shed (b. Finchingfield, Essex, baptized 25 June 1620; first in Braintree records 1643; married Mary Gurney 1647) and descendants. Records seven children of Daniel + Mary between 1 October 1647 and 30 October 1658 per Braintree Book of Records. Used in case-file §6 to bound Mary Gurney's English birth before 1628."
+  },
+  {
+    "sourceId": "shepard-spicksley-worth-age-2011",
+    "shortTitle": "Shepard & Spicksley, Worth, age & social status (2011)",
+    "citation": "Alexandra Shepard and Judith Spicksley, \"Worth, age, and social status in early modern England,\" Economic History Review 64, no. 2 (2011): 493–530. DOI 10.1111/j.1468-0289.2010.00533.x.",
+    "archive": "Wiley Online Library (Economic History Review); open-access eprint, University of Glasgow (eprints.gla.ac.uk/40177).",
+    "url": "https://doi.org/10.1111/j.1468-0289.2010.00533.x",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Methodological/contextual authority on the self-reported worth and age of the thousands of witnesses recorded in early-modern English church-court depositions. Cited in the G13 origin/age-baptism topic for the documented 'age heaping' tendency of period deponents to round stated ages to multiples of five and ten (widening a rounded 'about 50' into a band). Single methodological citation used in one research-topic footnote; per the sources rule, no per-source validation worksheet created."
   },
   {
     "sourceId": "medievalsoldier-database",
@@ -3862,6 +4018,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Tertiary compiled pedigree. Useful as a cross-reference but contains at least two demonstrable errors at the late-14th-century junior-Norfolk branch: it places Thomas Gournay I (G21) as a direct son of Edmund Gurney d. 1387 rather than as Robert's son and Sir John V's nephew of blood, and it lists 'Jeanne Gurney m. Osbert Mundeford of Hockwold' which is unsupported on the Mundeford side. Used in research/people/g22-robert-gournay-fact-sheet.research.md Items 04 and 05."
+  },
+  {
+    "sourceId": "suffolk-deeds-liber-i-1880",
+    "shortTitle": "Suffolk Deeds, Liber I (1880)",
+    "citation": "Suffolk Deeds. Liber I. Boston: Rockwell and Churchill, City Printers, 1880.",
+    "archive": "Internet Archive (item suffolkdeeds01suff).",
+    "url": "https://archive.org/details/suffolkdeeds01suff",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/suffolk-deeds-liber-i-1880.md",
+    "notes": "Printed Suffolk deed volume, 1640-1653. Its own index carries one unexplained line, 'Gurner, James, 5' (beside 'Gurdon, John, 5'), on printed p. 5; the body text has not yet been read to confirm whether this is a Gurney-variant colonial datum or a Garner/Gardner-type false friend."
   },
   {
     "sourceId": "suffolk-deeds-liber-iv-1888",
@@ -4056,6 +4224,18 @@
     "notes": "13 probate items examined for John Gurney emigrant elimination. 7 John Gurneys confirmed in England post-1637 (St Botolph Aldgate, Winkfield, Aylesbury, East Grinstead, Albury, East Chiltington x2). 6 contextual records (Anne Gurney Eythorne, Daniel Gurney Aylesbury, William Gurney London, Richard Gurney London, Sir Richard Gurney, Tobias/Edward Gurney). Full analysis in research/case-files/john-gurney-case-file-v4.md. 2026-06-20 (TNA Discovery online catalogue, https://discovery.nationalarchives.gov.uk): PROB 11 search for Rivet/Rivett/Revett of Garveston/Dereham/Norfolk 1580-1640 = nil (no PCC will for Francis Rivet or the Garveston Rivetts); Gourney/Maldon/Essex 1637-1665 = nil (no PCC will for Francis G14)."
   },
   {
+    "sourceId": "tna-ward-c142-west-barsham-gurney-inquisitions",
+    "shortTitle": "TNA WARD 7 & C 142 inquisitions for the West Barsham Gurneys (catalogue level)",
+    "citation": "The National Archives (Kew), Court of Wards and Liveries inquisitions post mortem (WARD 7) and Chancery inquisitions post mortem, Series II (C 142), for the Gurneys of West Barsham, Norfolk; consulted at catalogue-description level via TNA Discovery.",
+    "archive": "The National Archives (Kew); TNA Discovery online catalogue",
+    "url": "https://discovery.nationalarchives.gov.uk/details/r/C7742823",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/tna-ward-c142-west-barsham-gurney-inquisitions.md",
+    "notes": "Catalogue-level TNA Discovery descriptions of the Court of Wards (WARD 7) and Chancery (C 142) inquisitions post mortem for the Gurneys of West Barsham — the record class establishing the senior branch's tenure in capite and the minor-heir wardship. Key entry: Edward Gournay's inquisition C 142/613/60 (17 Chas I). Read at catalogue level only (2026-07-01); document pulls queued as offline follow-ups. Findings, including the unresolved earlier 'Thomas Gurney' attributions, are carried in the John Gurney wardship-network research topic."
+  },
+  {
     "sourceId": "torrey-new-england-marriages-prior-1700",
     "shortTitle": "Torrey, New England Marriages Prior to 1700",
     "citation": "Torrey, Clarence Almon. New England Marriages Prior to 1700. Baltimore, MD: Genealogical Publishing Co., 2004. Page 331, Gurney entries. Accessed via Ancestry.com, U.S., New England Marriages Prior to 1700 (Provo, UT: Ancestry.com Operations Inc., 2012), database collection 3824.",
@@ -4186,6 +4366,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/visitations-norfolk-harleian-32.md",
     "notes": "Heralds' visitation pedigrees of Norfolk. p. 141 (from Harl. MS 1552 fo. 53/49) gives the West Barsham / Great Ellingham Gurney pedigree: arms 'Argent, a cross engrailed gules, in dexter chief point a cinquefoil azure'; Anthony (G17) -> Francis of West Barsham m. Ellen Holdich of Ranworth (G16) -> Henry of Great Ellingham m. Ellen Blennerhassett of Barsham (G15) -> sons incl. Thomas (heir, m. Martha Lewknor of Denham), Henry, Edward, Anthony, '6. Francis, of London' (= G14), Leonard, and Bassingbourne (ob. s.p.), plus daughters. Confirms the G15->G14 link from an authoritative heraldic source. Resolves lead L-24."
+  },
+  {
+    "sourceId": "taunton-vital-records-to-1850-vol2-marriages-1928",
+    "shortTitle": "Vital Records of Taunton, Mass., to 1850, vol. 2 (Marriages, 1928)",
+    "citation": "Vital Records of Taunton, Massachusetts, to the Year 1850, vol. 2 (Marriages). Boston: New England Historic Genealogical Society, 1928.",
+    "archive": "Internet Archive (item vitalrecordsofta02unse, also catalogued as vitalrecordsoftataun_5).",
+    "url": "https://archive.org/details/vitalrecordsofta02unse",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/taunton-vital-records-to-1850-vol2-marriages-1928.md",
+    "notes": "NEHGS town-vital-records compilation, alphabetized from Taunton's manuscript town records, church registers, and Plymouth Colony Records. Duplicate entry for the 9 January 1676 Bundy-Gurney marriage under both spellings actually used in the town's own records (Garney/Gurney and the colony-record Surney), with editorial cross-references tying each to 'Ruth Gurney.' Also carries the 16 October 1706 marriage of Timothy Cooper to Elizabeth Gurney (Garney), an unplaced possible descendant of the John Jr./Ruth household."
   },
   {
     "sourceId": "wace-roman-de-rou",

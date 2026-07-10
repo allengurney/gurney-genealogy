@@ -46,6 +46,37 @@ Each footnote should generally include:
 - Short handles such as `sourceId` values are acceptable internally, but the footnote itself should normally expand to a human-readable citation.
 - If a repo-specific shorthand is helpful, expand it in full in the note.
 
+## Repo artifacts are never the source of truth
+Evidence and findings must cite **third-party** sources — the record, the printed work, the
+database, the archive. The repo's own artifacts are publication and working surfaces, not
+authorities, and must never occupy the source slot in a footnote:
+
+- case files (`research/case-files/*.md`)
+- fact sheets (`fact-sheets/*.md`)
+- research companions, topic files, and staged topic prose
+- validation worksheets, coverage ledgers, patchsets, and `data/*.json`
+
+**Cross-references to those artifacts are welcome** — they help a reader find the fuller
+treatment. Make the distinction explicit: open a cross-reference footnote with
+"Cross-reference, not a source." A cross-reference may sit alongside real sources in the same
+footnote, provided the third-party record comes first and carries the claim.
+
+When a repo artifact is where a claim currently lives and no third-party source has been
+recorded, that is a **sourcing gap**, not a citation. Follow the Unsupported-claims rule
+below: preserve the claim, flag the gap in the footnote, say plainly if nothing depends on
+it, and register the underlying record when it can be identified.
+
+Writing *about* a project surface — "the fact sheet says sixty percent, the case file says
+sixty-five" — is a legitimate statement about the project's own publications, not an
+evidentiary claim. Say so in the note.
+
+**Collective-set exception.** When a repo artifact publishes a long enumeration that the
+research plane deliberately carries as one collective finding (e.g. the case file's §8.6
+same-name clearance table of eliminated John Gurneys), cite the record sweeps that produced
+the enumeration as the source, and name the artifact as the **master list** in a footnote
+marked as a cross-reference. Do not expand the enumeration item by item, and do not let the
+artifact become the source.
+
 ## SourceId alignment
 - If a cited source exists in `data/sources.json`, the footnote must align with that source.
 - Prefer to include `Source ID: <sourceId>.` at the end of the footnote when it materially helps traceability.

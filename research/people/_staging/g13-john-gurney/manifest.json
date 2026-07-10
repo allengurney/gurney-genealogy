@@ -220,6 +220,55 @@
       ]
     },
     {
+      "topicId": "g13-family-mendon-descendants",
+      "path": "research/people/_staging/g13-john-gurney/topics/family/12-mendon-descendants.md",
+      "headingId": "family-mendon-john-jr-and-ruth-bundy",
+      "title": "Family — Mendon: John Jr. and Ruth Bundy",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "family",
+      "order": 30,
+      "publicSlug": "family/mendon-john-jr-and-ruth-bundy",
+      "publicationStatus": "public",
+      "summary": "John Gurney Jr.'s Mendon household with his wife Ruth and their children John, Samuel, and Mary: his death in the 1675 Mendon massacre, Ruth's swift remarriage to John Bundy of Taunton, the resolution of which same-named John cousin actually died there, the separate post-1667 Mendon proprietary lots of John Jr. and his father's widow Grisel, Peter's King Philip's War service and 1676 death, and two open leads on a further Taunton-area descendant trail.",
+      "researchItemIds": [
+        "G13-RI-000126",
+        "G13-RI-000127",
+        "G13-RI-000128",
+        "G13-RI-000129",
+        "G13-RI-000130",
+        "G13-RI-000131",
+        "G13-RI-000132",
+        "G13-RI-000133",
+        "G13-RI-000134",
+        "G13-RI-000135"
+      ]
+    },
+    {
+      "topicId": "g13-family-colonial-collaterals",
+      "path": "research/people/_staging/g13-john-gurney/topics/family/13-colonial-collaterals.md",
+      "headingId": "family-colonial-collaterals",
+      "title": "Family — colonial collaterals",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "family",
+      "order": 40,
+      "publicSlug": "family/colonial-collaterals",
+      "publicationStatus": "public",
+      "summary": "Colonial-era same-surname Gurneys outside John's documented family: the Providence, Rhode Island John and Sarah Gurney (1695-1714), real but unconnected by any surviving record, with Torrey's compendium offering a plausible but unconfirmed grandson reading; an unresolved Suffolk Deeds index entry for a James Gurner; and a third apparent thread at colonial Dorchester resolved as the unrelated Gurnell family, not a Gurney.",
+      "researchItemIds": [
+        "G13-RI-000136",
+        "G13-RI-000137",
+        "G13-RI-000138",
+        "G13-RI-000139",
+        "G13-RI-000140",
+        "G13-RI-000141",
+        "G13-RI-000142",
+        "G13-RI-000143",
+        "G13-RI-000144"
+      ]
+    },
+    {
       "topicId": "g13-origin-age-baptism",
       "path": "research/people/_staging/g13-john-gurney/topics/origin/20-age-baptism.md",
       "headingId": "origin-age-and-baptism",
@@ -345,7 +394,7 @@
       ]
     },
     {
-      "topicId": "g13-identity-assessment",
+      "topicId": "g13-identity-candidate-overview",
       "path": "research/people/_staging/g13-john-gurney/topics/identity/30-candidate-overview.md",
       "headingId": "identity-candidate-overview",
       "title": "Identity — candidate overview",
@@ -355,7 +404,7 @@
       "order": 10,
       "publicSlug": "identity/candidate-overview",
       "publicationStatus": "public",
-      "summary": "The shared matching-criteria profile and elimination scaffold the case file applies across every alternative English John Gurney candidate: of 51 same-name households surveyed, three principal alternatives and 45 further households are eliminated on structural grounds and five are held to a low residual, leaving Candidate B the sole survivor. The case file's own probability model for Candidate B stays external-canonical there, cross-referenced rather than restated.",
+      "summary": "The shared matching-criteria profile and elimination scaffold the case file applies across every alternative English John Gurney candidate: of 51 same-name households surveyed, three principal alternatives and 45 further households are eliminated on structural grounds and five are held to a low residual, leaving Candidate B the sole survivor. The case file's own probability model for Candidate B stays external-canonical there, cross-referenced rather than restated; what the elimination amounts to is the assessment unit.",
       "researchItemIds": [
         "G13-RI-000104",
         "G13-RI-000105",
@@ -379,6 +428,47 @@
         "G13-RI-000108",
         "G13-RI-000109",
         "G13-RI-000110"
+      ]
+    },
+    {
+      "topicId": "g13-identity-candidate-b",
+      "path": "research/people/_staging/g13-john-gurney/topics/identity/32-norfolk-parentage.md",
+      "headingId": "identity-candidate-b-norfolk-parentage",
+      "title": "Identity — Candidate B: Norfolk parentage",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "identity",
+      "order": 30,
+      "publicSlug": "identity/candidate-b-norfolk-parentage",
+      "publicationStatus": "public",
+      "summary": "The surviving candidate's own case: John Gurney of Braintree as the son of Francis Gurney, Merchant Taylor of West Barsham, Norwich and London, by his first wife Margaret Rybett. Two primary records carry it — the 1611 Norwich marriage no earlier genealogist found, and the East Dereham baptism entry indexed as \"Nicholas Gorne\" and re-read as \"John the sonne of ffrancis Gurnie\" — supported by a father-to-son trade, the East Anglia-to-London emigration corridor, Francis's 1634 forced sale of every acre, Margaret's Rivett kin two miles from the register, and a senior West Barsham branch keeping house five miles away. Against them: the 1633 Visitation's \"eldest sonne,\" no child named Francis, no English marriage record, and a deposition age five to eight years too old. Probable, not proven.",
+      "researchItemIds": [
+        "G13-RI-000145",
+        "G13-RI-000146",
+        "G13-RI-000147",
+        "G13-RI-000148",
+        "G13-RI-000149",
+        "G13-RI-000150",
+        "G13-RI-000151",
+        "G13-RI-000152",
+        "G13-RI-000153",
+        "G13-RI-000154",
+        "G13-RI-000155",
+        "G13-RI-000156",
+        "G13-RI-000157",
+        "G13-RI-000158",
+        "G13-RI-000159",
+        "G13-RI-000160",
+        "G13-RI-000161",
+        "G13-RI-000162",
+        "G13-RI-000163",
+        "G13-RI-000164",
+        "G13-RI-000165",
+        "G13-RI-000166",
+        "G13-RI-000167",
+        "G13-RI-000168",
+        "G13-RI-000169",
+        "G13-RI-000170"
       ]
     },
     {
@@ -439,6 +529,29 @@
         "G13-RI-000118",
         "G13-RI-000119",
         "G13-RI-000120"
+      ]
+    },
+    {
+      "topicId": "g13-identity-assessment",
+      "path": "research/people/_staging/g13-john-gurney/topics/identity/37-identity-assessment.md",
+      "headingId": "identity-assessment",
+      "title": "Identity — assessment",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "identity",
+      "order": 70,
+      "publicSlug": "identity/assessment",
+      "publicationStatus": "public",
+      "summary": "What the identity work adds up to: an identification reached by elimination and circumstantial fit rather than by any document naming John's father. Eliminates Candidate C (Berkhamsted), the last principal alternative without its own unit; states the unknown-corridor residual the eliminations do not clear, with the 1662–1666 London Gurney hearth-tax cluster as its density evidence; leaves open whether John emigrated through the Gurdon–Winthrop Court of Wards patronage network; reads Anderson's \"Boston\" settlement attribution as a conflation with the 1636 Newgate apprentice; and names the two realistic end-states for the estimate, the three levers that would move it, and the lag between the fact sheet's published sixty percent and the case file's current sixty-five.",
+      "researchItemIds": [
+        "G13-RI-000171",
+        "G13-RI-000172",
+        "G13-RI-000173",
+        "G13-RI-000174",
+        "G13-RI-000175",
+        "G13-RI-000176",
+        "G13-RI-000177",
+        "G13-RI-000178"
       ]
     },
     {

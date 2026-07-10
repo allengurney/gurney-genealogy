@@ -195,6 +195,7 @@ blomefield-norfolk,source,"Blomefield, History of Norfolk",data/sources.json
 blomefield-norfolk-vol5-pp33-cringleford-berford,source,"Blomefield, Norfolk vol. 5 (BHO) — Cringleford, Berford's Manor",data/sources.json
 bodge-soldiers-king-philips-war-1891,source,"Bodge, Soldiers in King Philip's War (1891)",data/sources.json
 bodleian-ms-tanner-175-marco,source,Bodleian MS Tanner 175 - MARCO,data/sources.json
+boston-record-commissioners-fourth-report-1880,source,"Boston Record Commissioners, Fourth Report - Dorchester Town Records (1880)",data/sources.json
 boston-town-records-1634-1660,source,Boston Town Records 1634-1660 (Book of Possessions),data/sources.json
 braintree-records-1640-1793-1886,source,"Braintree town records, 1640-1793",data/sources.json
 mhs-winthrop-papers-gurdon-to-winthrop-1627,source,"Brampton Gurdon to John Winthrop, 20 Oct. 1627 (Winthrop Papers I:363)",data/sources.json
@@ -225,6 +226,7 @@ cleveland-battle-abbey-roll-v1-crossrefs,source,"Cleveland, Battle Abbey Roll vo
 cleveland-battle-abbey-roll-v3-crossrefs,source,"Cleveland, Battle Abbey Roll vol. 3 crossrefs",data/sources.json
 commissary-court-london-testamentary-index-marc-fitch,source,commissary-court-london-testamentary-index-marc-fitch,data/sources.json
 folger-corpus-christi-1619,source,Corpus Christi (1619) - Internet Archive / Folger,data/sources.json
+csm-39-boston-first-church,source,"CSM 39 — Records of the First Church in Boston, vol. I (1961)",data/sources.json
 cummington-vital-records,source,"Cummington, Massachusetts, town vital records (births)",data/sources.json
 daniel-history-england-1613-pt1,source,"Daniel, First Part of the Historie of England (1613)",data/sources.json
 dashwood-visitation-norfolk-1563-vol1-1878,source,"Dashwood, Visitation of Norfolk 1563, vol. 1 (1878)",data/sources.json
@@ -365,6 +367,7 @@ macris-mhc,source,MACRIS - Massachusetts Cultural Resource Information System,da
 macris-cum-115-gurney-ase-house,source,"MACRIS CUM.115 - Gurney, Ase House (51 Main St, Cummington)",data/sources.json
 macris-cum-151-gurney-asa-house,source,"MACRIS CUM.151 - Gurney, Asa House (75 Mount Rd, Cummington)",data/sources.json
 massachusetts-bay-records-v2-1853,source,"Mass. Bay Records, vol. 2 (1642–1649), Shurtleff ed.",data/sources.json
+massachusetts-archives-vol-45-lands-1622-1726,source,"Massachusetts Archives, vol. 45 (Lands, 1622–1726)",data/sources.json
 massachusetts-bay-records-v1-1853,source,"Massachusetts Bay Records, vol. 1",data/sources.json
 massachusetts-state-archives-colonial,source,"Massachusetts State Archives, colonial period (petition calendar)",data/sources.json
 ma-wills-probate-records,source,"Massachusetts Wills and Probate Records, 1635-1991",data/sources.json
@@ -382,9 +385,12 @@ morant-essex,source,"Morant, History of Essex",data/sources.json
 mosaic-dvd-hugue-de-gournay,source,Mosaic DVD - Hugue de Gournay,data/sources.json
 munsell-history-queens-flushing-1882,source,"Munsell, History of Queens County - Flushing",data/sources.json
 muskett-suffolk-manorial-families-v1-1900,source,"Muskett, Suffolk Manorial Families, vol. 1 (1900)",data/sources.json
+muskett-suffolk-manorial-families-v2-1900,source,"Muskett, Suffolk Manorial Families, vol. 2 (1900)",data/sources.json
+muskett-suffolk-manorial-families-v3-1900,source,"Muskett, Suffolk Manorial Families, vol. 3 pt. 1 (1900)",data/sources.json
 nash-historical-sketch-weymouth-1885,source,"Nash, Historical Sketch of Weymouth (1885)",data/sources.json
 national-churches-trust-harpley-st-lawrence,source,National Churches Trust - Harpley St Lawrence,data/sources.json
 nehgr-12-suffolk-wills-1858,source,NEHGR 12 - Suffolk Wills - John Gurney probate abstract,data/sources.json
+nehgr-13-abstracts-of-early-wills-1859,source,"NEHGR 13 - Abstracts of Early Wills (Margery Laver, 1664)",data/sources.json
 nehgr-49-genealogical-gleanings-john-lewis,source,"NEHGR 49 - Genealogical Gleanings, John Lewis will",data/sources.json
 nehgr-62-94,source,NEHGR 62:94,data/sources.json
 nehgr-30-432,source,"NEHGR vol. 30 (1876), p. 432 — Capt. William Tyng inventory",data/sources.json
@@ -432,6 +438,7 @@ pease-pennyghael,source,Pease genealogy (Pennyghael),data/sources.json
 pettigrew-collectanea-house-gournay-1871,source,"Pettigrew, On the House of Gournay",data/sources.json
 phillimore-bucks-marriages-vol1,source,"Phillimore Bucks parish registers, marriages, vol. 1",data/sources.json
 planche-conqueror-companions-1874,source,"Planche, The Conqueror and His Companions",data/sources.json
+plymouth-colony-records-vol8-shurtleff-pulsifer-1857,source,"Plymouth Colony Records, vol. 8 (Shurtleff & Pulsifer, 1855-1861)",data/sources.json
 plymouth-probate-john-harden-1751-will,source,Plymouth Probate - John Harden will (1751),data/sources.json
 pope-pioneers-of-massachusetts-1900,source,"Pope, The Pioneers of Massachusetts (1900)",data/sources.json
 porter-genealogy-richard-porter-1878,source,"Porter, Genealogy of the Descendants of Richard Porter (1878)",data/sources.json
@@ -443,6 +450,8 @@ projet-conde-conquets-hue-gournay,source,"Projet ConDE, Conquets Hue de Gournay 
 protestation-returns,source,Protestation Returns 1641–42,data/sources.json
 diceto-opera-historica-vol1-stubbs-1876,source,"Ralph de Diceto, Opera Historica, ed. Stubbs (Rolls Series 68, 1876)",data/sources.json
 gournay-supp-reconstructed,source,"Reconstructed Loose Supplement (Bernau, 1858)",data/sources.json
+records-first-church-dorchester-1891,source,"Records of the First Church at Dorchester, 1636-1734 (1891)",data/sources.json
+suffolk-county-court-records-1671-1680-csm-29-30,source,"Records of the Suffolk County Court, 1671-1680 (CSM 29-30, 1933)",data/sources.json
 recueil-actes-henri-ii-delisle-berger-vol-1,source,"Recueil des actes de Henri II, Delisle/Berger, vol. 1 (1916)",data/sources.json
 recueil-actes-henri-ii-delisle-berger-vol-2,source,"Recueil des actes de Henri II, Delisle/Berger, vol. 2 (1920)",data/sources.json
 rhgf-vol-15-1878,source,"Recueil des historiens des Gaules et de la France, tome 15 (1878 ed.)",data/sources.json
@@ -475,6 +484,7 @@ lma-st-giles-cripplegate-register-p69-gis-a-002,source,"St Giles Cripplegate, pa
 st-mary-maldon-register,source,St Mary's Maldon register,data/sources.json
 lma-st-mary-harrow-register-dro003,source,"St Mary, Harrow on the Hill, parish register (LMA DRO/003)",data/sources.json
 stirnet-gurney-pedigree,source,Stirnet -- Pedigree of the Gournays of Norfolk,data/sources.json
+suffolk-deeds-liber-i-1880,source,"Suffolk Deeds, Liber I (1880)",data/sources.json
 suffolk-deeds-liber-iv-1888,source,"Suffolk Deeds, Liber IV (1888)",data/sources.json
 suffolk-deeds-liber-12-1902,source,"Suffolk Deeds, Liber XII (1902)",data/sources.json
 suffolk-probate-index-v2-1895,source,"Suffolk Probate Index, vol. 2",data/sources.json
@@ -488,6 +498,7 @@ thompson-mobility-migration-1994,source,"Thompson, Mobility and Migration (1994)
 thoms-anecdotes-traditions-1839,source,"Thoms, Anecdotes and Traditions",data/sources.json
 tna-a2a-705-349-aylesbury-1483-grant,source,"TNA A2A 705:349/12946/495200 — Aylesbury grant, 4 April 1483",data/sources.json
 tna-dl-42-2-33-5-richard-i-canville-nicholaa-de-la-haye,source,TNA DL 42/2/33/5 — Richard I grant to Gerard de Canville and Nicholaa de la Haye,data/sources.json
+tna-e115-180-113-certificate-of-residence-1641,source,"TNA E 115/180/113 - certificate of residence, John Gurney, 1641",data/sources.json
 tna-e179-1661-london-poll-tax-deferred,source,"TNA E179 - 1661 Free and Voluntary Present, City of London (deferred image-pull target)",data/sources.json
 tna-pcc-gurney-elimination-corpus,source,"TNA PCC Gurney probate corpus (1577-1682, elimination set)",data/sources.json
 tna-pcc-probate,source,TNA PCC Probate Records,data/sources.json
@@ -503,6 +514,7 @@ vch-bucks-v3,source,VCH Bucks v3 (Stewkley manors),data/sources.json
 vch-glos-vol2-gaunts-hospital,source,"VCH Gloucestershire vol. 2 - Gaunt's Hospital (St Mark, Billeswick)",data/sources.json
 vch-hants-vol4-wellow-gurnay,source,VCH Hampshire vol. 4 - East Wellow / Wellow Gurnay,data/sources.json
 visitations-norfolk-harleian-32,source,Visitations of Norfolk 1563/1589/1613 (Harleian Soc. 32),data/sources.json
+taunton-vital-records-to-1850-vol2-marriages-1928,source,"Vital Records of Taunton, Mass., to 1850, vol. 2 (Marriages, 1928)",data/sources.json
 wace-roman-de-rou,source,"Wace, Roman de Rou",data/sources.json
 walker-lancastrian-affinity-1361-1399,source,"Walker, The Lancastrian Affinity 1361–1399",data/sources.json
 wansey-medieval-genealogy-1925,source,"Wansey, ancient family of the Wanseys",data/sources.json

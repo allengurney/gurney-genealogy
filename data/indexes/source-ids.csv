@@ -51,6 +51,7 @@ blomefield-norfolk,"Blomefield, History of Norfolk",none,,,
 blomefield-norfolk-vol5-pp33-cringleford-berford,"Blomefield, Norfolk vol. 5 (BHO) — Cringleford, Berford's Manor",partial,sources/corpus_supplement/blomefield-norfolk-vol5-pp33-cringleford-berford.md,,sources/validations/blomefield-norfolk-vol5-pp33-cringleford-berford.md
 bodge-soldiers-king-philips-war-1891,"Bodge, Soldiers in King Philip's War (1891)",partial,sources/corpus_supplement/bodge-soldiers-king-philips-war-1891-gurney-extracts.md,sources/media/bodge-soldiers-king-philips-war-1891/,sources/validations/bodge-soldiers-king-philips-war-1891.md
 bodleian-ms-tanner-175-marco,Bodleian MS Tanner 175 - MARCO,none,,,sources/validations/bodleian-ms-tanner-175-marco.md
+boston-record-commissioners-fourth-report-1880,"Boston Record Commissioners, Fourth Report - Dorchester Town Records (1880)",none,,,sources/validations/boston-record-commissioners-fourth-report-1880.md
 boston-town-records-1634-1660,Boston Town Records 1634-1660 (Book of Possessions),none,,,sources/validations/boston-town-records-1634-1660.md
 braintree-records-1640-1793-1886,"Braintree town records, 1640-1793",none,,,sources/validations/braintree-records-1640-1793-1886.md
 british-archivist-bernau-1913,"Bernau, British Archivist - Francis Gournay",full,sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md,sources/media/The_British_Archivist.pdf,sources/validations/british-archivist-bernau-1913.md
@@ -76,6 +77,7 @@ commissary-court-london-testamentary-index-marc-fitch,commissary-court-london-te
 complete-history-england-1706-v1,"A Complete History of England, vol. 1 (1706)",supplement,sources/corpus_supplement/complete-history-england-1706-v1-gurney-extracts.md,,sources/validations/complete-history-england-1706-v1.md
 cpr-henry-iv-1399-1401,"Calendar of Patent Rolls, Henry IV, 1399-1401",none,,,
 cpr-henry-vi-1422-29,"Calendar of Patent Rolls, Henry VI, 1422-29",none,,,
+csm-39-boston-first-church,"CSM 39 — Records of the First Church in Boston, vol. I (1961)",none,,,sources/validations/csm-39-boston-first-church.md
 cummington-vital-records,"Cummington, Massachusetts, town vital records (births)",partial,sources/corpus_supplement/cummington-vital-records-gurney-births.md,sources/media/cummington-vital-records/,sources/validations/cummington-vital-records.md
 daniel-history-england-1613-pt1,"Daniel, First Part of the Historie of England (1613)",supplement,sources/corpus_supplement/daniel-history-england-1613-pt1-gurney-extract.md,,sources/validations/daniel-history-england-1613-pt1.md
 dashwood-visitation-norfolk-1563-vol1-1878,"Dashwood, Visitation of Norfolk 1563, vol. 1 (1878)",partial,sources/corpus_supplement/dashwood-visitation-norfolk-1563-vol1-1878-kervile-p58.md,sources/media/dashwood-visitation-norfolk-1563-vol1-1878/,sources/validations/dashwood-visitation-norfolk-1563-vol1-1878.md
@@ -126,7 +128,7 @@ findmypast-bury-st-edmunds-st-mary-gurney-burials-1653-1656,Findmypast National 
 findmypast-england-marriages-gurney-mary-wildcard-sweep-2026-06,"Findmypast England Marriages 1538-1973 - G*rn* + Mary wildcard sweep, June 2026",none,,,sources/validations/findmypast-england-marriages-gurney-mary-wildcard-sweep-2026-06.md
 findmypast-hertfordshire-baptisms,Findmypast Hertfordshire Baptisms,none,,,sources/validations/findmypast-hertfordshire-baptisms.md
 findmypast-hertfordshire-burials,Findmypast Hertfordshire Burials,none,,,sources/validations/findmypast-hertfordshire-burials.md
-findmypast-john-gurney-2026may-supplementary-same-name-sweep,"Findmypast John Gurney same-name sweep, 12 May 2026 raw batch",transcript,,sources/intake/john-gurney-2026May/,sources/validations/findmypast-john-gurney-2026may-supplementary-same-name-sweep.md
+findmypast-john-gurney-2026may-supplementary-same-name-sweep,"Findmypast John Gurney same-name sweep, 12 May 2026 raw batch",transcript,,,sources/validations/findmypast-john-gurney-2026may-supplementary-same-name-sweep.md
 findmypast-norfolk-banns-marriages-index,FindMyPast Norfolk Banns and Marriages index,extract,sources/corpus_supplement/rivett-garveston-maternal-family-2026-06.md,,sources/validations/findmypast-norfolk-banns-marriages-index.md
 findmypast-norfolk-baptisms-index,FindMyPast Norfolk Baptisms index,extract,sources/corpus_supplement/rivett-garveston-maternal-family-2026-06.md,,sources/validations/findmypast-norfolk-baptisms-index.md
 findmypast-norfolk-burials-index,Findmypast Norfolk Burials index,transcript,,,sources/validations/findmypast-norfolk-burials-index.md
@@ -205,10 +207,10 @@ laslett-world-we-have-lost-1965,"Laslett, World We Have Lost",none,,,
 les-olim,Les Olim (French legal records),none,,,
 letters-papers-henry-viii,"Letters and Papers, Foreign and Domestic, Henry VIII",none,,,sources/validations/letters-papers-henry-viii.md
 liber-niger,Liber Niger Scaccarii,none,,,
-lma-st-augustine-watling-register-candidate-d-images,LMA St Augustine Watling Street register - Candidate D images,partial,,sources/media/lma-st-augustine-watling-register-candidate-d-images,sources/validations/lma-st-augustine-watling-register-candidate-d-images.md
+lma-st-augustine-watling-register-candidate-d-images,LMA St Augustine Watling Street register - Candidate D images,partial,,sources/intake/archive/john-gurney-2026May/john-gurney-candidate-d-working-packet-audited-v13.md,sources/validations/lma-st-augustine-watling-register-candidate-d-images.md
 lma-st-giles-cripplegate-register-john-grone-1630,LMA St Giles Cripplegate - John Grone baptism (1630),partial,,sources/media/lma-st-giles-cripplegate-register-john-grone-1630,sources/validations/lma-st-giles-cripplegate-register-john-grone-1630.md
 lma-st-giles-cripplegate-register-p69-gis-a-002,"St Giles Cripplegate, parish register (LMA P69/GIS/A/002/MS06419/003)",none,,,sources/validations/lma-st-giles-cripplegate-register-p69-gis-a-002.md
-lma-st-magnus-martyr-register-candidate-d-images,LMA St Magnus the Martyr register - Candidate D images,partial,,sources/media/lma-st-magnus-martyr-register-candidate-d-images,sources/validations/lma-st-magnus-martyr-register-candidate-d-images.md
+lma-st-magnus-martyr-register-candidate-d-images,LMA St Magnus the Martyr register - Candidate D images,partial,,sources/intake/archive/john-gurney-2026May/john-gurney-candidate-d-working-packet-audited-v13.md,sources/validations/lma-st-magnus-martyr-register-candidate-d-images.md
 lma-st-mary-harrow-register-dro003,"St Mary, Harrow on the Hill, parish register (LMA DRO/003)",none,,,sources/validations/lma-st-mary-harrow-register-dro003.md
 lma-st-mary-magdalen-old-fish-street-john-grene-1634,LMA St Mary Magdalen Old Fish Street - John Grene baptism (1634),partial,,sources/media/lma-st-mary-magdalen-old-fish-street-john-grene-1634,sources/validations/lma-st-mary-magdalen-old-fish-street-john-grene-1634.md
 lma-st-swithin-london-stone-register-john-grine-1640,LMA St Swithin London Stone - John Grine marriage (1640/1),partial,,sources/media/lma-st-swithin-london-stone-register-john-grine-1640,sources/validations/lma-st-swithin-london-stone-register-john-grine-1640.md
@@ -218,6 +220,7 @@ ma-wills-probate-records,"Massachusetts Wills and Probate Records, 1635-1991",pa
 macris-cum-115-gurney-ase-house,"MACRIS CUM.115 - Gurney, Ase House (51 Main St, Cummington)",partial,sources/corpus_supplement/macris-cummington-gurney-houses-extract.md,sources/media/macris-cum-115-gurney-ase-house/,sources/validations/macris-cum-115-gurney-ase-house.md
 macris-cum-151-gurney-asa-house,"MACRIS CUM.151 - Gurney, Asa House (75 Mount Rd, Cummington)",partial,sources/corpus_supplement/macris-cummington-gurney-houses-extract.md,sources/media/macris-cum-151-gurney-asa-house/,sources/validations/macris-cum-151-gurney-asa-house.md
 macris-mhc,MACRIS - Massachusetts Cultural Resource Information System,none,,,
+massachusetts-archives-vol-45-lands-1622-1726,"Massachusetts Archives, vol. 45 (Lands, 1622–1726)",none,,,sources/validations/massachusetts-archives-vol-45-lands-1622-1726.md
 massachusetts-bay-records-v1-1853,"Massachusetts Bay Records, vol. 1",none,,,sources/validations/massachusetts-bay-records-v1-1853.md
 massachusetts-bay-records-v2-1853,"Mass. Bay Records, vol. 2 (1642–1649), Shurtleff ed.",extract,,,sources/validations/massachusetts-bay-records-v2-1853.md
 massachusetts-state-archives-colonial,"Massachusetts State Archives, colonial period (petition calendar)",,,,sources/validations/massachusetts-state-archives-colonial.md
@@ -236,10 +239,13 @@ morant-essex,"Morant, History of Essex",none,,,
 mosaic-dvd-hugue-de-gournay,Mosaic DVD - Hugue de Gournay,partial,sources/corpus_supplement/mosaic-dvd-hugue-de-gournay-user-text.md,,sources/validations/mosaic-dvd-hugue-de-gournay.md
 munsell-history-queens-flushing-1882,"Munsell, History of Queens County - Flushing",none,,,sources/validations/munsell-history-queens-flushing-1882.md
 muskett-suffolk-manorial-families-v1-1900,"Muskett, Suffolk Manorial Families, vol. 1 (1900)",none,,,sources/validations/muskett-suffolk-manorial-families-v1-1900.md
+muskett-suffolk-manorial-families-v2-1900,"Muskett, Suffolk Manorial Families, vol. 2 (1900)",none,,,sources/validations/muskett-suffolk-manorial-families-v2-1900.md
+muskett-suffolk-manorial-families-v3-1900,"Muskett, Suffolk Manorial Families, vol. 3 pt. 1 (1900)",none,,,sources/validations/muskett-suffolk-manorial-families-v3-1900.md
 nash-historical-sketch-weymouth-1885,"Nash, Historical Sketch of Weymouth (1885)",full,sources/corpus/nash-historical-sketch-weymouth-1885.txt,sources/media/nash-historical-sketch-weymouth-1885/nash-historical-sketch-weymouth-1885.pdf,sources/validations/nash-historical-sketch-weymouth-1885.md
 national-churches-trust-harpley-st-lawrence,National Churches Trust - Harpley St Lawrence,partial,sources/corpus_supplement/national-churches-trust-harpley-st-lawrence.md,,sources/validations/national-churches-trust-harpley-st-lawrence.md
 ncc-will-1584-margaret-bate-rivett-garveston,"Will of Margaret (Bate) Rivett of Garveston, widow, 1584",extract,sources/corpus_supplement/rivett-garveston-maternal-family-2026-06.md,sources/media/ncc-wills-registers/_local/bate-reg-fo399-img442-margaret-rivett-will.jpg,sources/validations/ncc-will-1584-margaret-bate-rivett-garveston.md
 nehgr-12-suffolk-wills-1858,NEHGR 12 - Suffolk Wills - John Gurney probate abstract,partial,sources/corpus_supplement/john-gurney-probate-inventory-spr-case-338.md,,
+nehgr-13-abstracts-of-early-wills-1859,"NEHGR 13 - Abstracts of Early Wills (Margery Laver, 1664)",none,,,sources/validations/nehgr-13-abstracts-of-early-wills-1859.md
 nehgr-30-432,"NEHGR vol. 30 (1876), p. 432 — Capt. William Tyng inventory",extract,,,sources/validations/nehgr-30-432.md
 nehgr-49-genealogical-gleanings-john-lewis,"NEHGR 49 - Genealogical Gleanings, John Lewis will",none,,,sources/validations/nehgr-49-genealogical-gleanings-john-lewis.md
 nehgr-62-94,NEHGR 62:94,partial,,,sources/validations/nehgr-62-94.md
@@ -265,7 +271,7 @@ norwich-university-history,Norwich University history (Wikipedia; Norwich catalo
 nps-adams-nhp,NPS Adams National Historical Park CLR,full,sources/corpus/nps-adams-clr-1997.txt,sources/media/nps-adams-nhp/,sources/validations/nps-adams-nhp.md
 nro-ncc-wills-registers,"Norfolk Record Office, NCC Will Registers",none,,,
 nro-pd-12-1,"NRO PD 12/1 (St Martin at Palace, Norwich)",none,,,
-nro-pd-86-41,NRO PD 86/41 (East Dereham register),none,,sources/media/parish-register/,
+nro-pd-86-41,NRO PD 86/41 (East Dereham register),none,,,sources/validations/east-dereham-pd-86-41-register-structure-and-chronology.md
 nrp-recherches-possessions-1852,"NRP de la Mairie, Recherches…Possessions des Sires Normands (1852)",partial,,sources/FS/Norman_additions/Recherches_historiques_archéologiques_e_volume1.pdf,
 ny-state-military-museum-127th-infantry,NYS Military Museum - 127th Infantry Regiment,none,,,sources/validations/ny-state-military-museum-127th-infantry.md
 ny-war-1812-payroll-abstracts,New York War of 1812 militia payroll abstracts,none,,sources/media/ny-war-1812-payroll-abstracts/,sources/validations/ny-war-1812-payroll-abstracts.md
@@ -291,6 +297,7 @@ pease-pennyghael,Pease genealogy (Pennyghael),none,,,
 pettigrew-collectanea-house-gournay-1871,"Pettigrew, On the House of Gournay",partial,sources/corpus_supplement/pettigrew-collectanea-house-gournay-1871.txt,sources/media/Collectanea_Archaeologica.pdf,sources/validations/pettigrew-collectanea-house-gournay-1871.md
 phillimore-bucks-marriages-vol1,"Phillimore Bucks parish registers, marriages, vol. 1",none,,,sources/validations/phillimore-bucks-marriages-vol1.md
 planche-conqueror-companions-1874,"Planche, The Conqueror and His Companions",partial,sources/corpus_supplement/planche-conqueror-companions-hugh-de-gournay.md,,sources/validations/planche-conqueror-companions-1874.md
+plymouth-colony-records-vol8-shurtleff-pulsifer-1857,"Plymouth Colony Records, vol. 8 (Shurtleff & Pulsifer, 1855-1861)",none,,,sources/validations/plymouth-colony-records-vol8-shurtleff-pulsifer-1857.md
 plymouth-probate-john-harden-1751-will,Plymouth Probate - John Harden will (1751),full,sources/corpus_supplement/plymouth-probate-john-harden-1751-will.md,,sources/validations/plymouth-probate-john-harden-1751-will.md
 pope-pioneers-of-massachusetts-1900,"Pope, The Pioneers of Massachusetts (1900)",none,,,sources/validations/pope-pioneers-of-massachusetts-1900.md
 porter-genealogy-richard-porter-1878,"Porter, Genealogy of the Descendants of Richard Porter (1878)",partial,sources/corpus_supplement/porter-genealogy-richard-porter-1878-gurney-extract.md,,
@@ -299,6 +306,7 @@ potts-monastic-revival-regional-identity-1997,"Potts, Monastic Revival and Regio
 powell-historie-cambria-1584,Powell -- Historie of Cambria (1584),external,,,
 projet-conde-conquets-hue-gournay,"Projet ConDE, Conquets Hue de Gournay custom",none,,,
 protestation-returns,Protestation Returns 1641–42,none,,,
+records-first-church-dorchester-1891,"Records of the First Church at Dorchester, 1636-1734 (1891)",none,,,sources/validations/records-first-church-dorchester-1891.md
 recueil-actes-henri-ii-delisle-berger-vol-1,"Recueil des actes de Henri II, Delisle/Berger, vol. 1 (1916)",full,sources/corpus_supplement/actes-henri-ii-delisle-berger-vol1-text.md,sources/media/recueildesactesd01grea.pdf,
 recueil-actes-henri-ii-delisle-berger-vol-2,"Recueil des actes de Henri II, Delisle/Berger, vol. 2 (1920)",full,sources/corpus_supplement/actes-henri-ii-delisle-berger-vol2-text.md,sources/media/recueildesactesd02grea.pdf,
 regesta-rano,Regesta Regum Anglo-Normannorum (Bates),none,,,
@@ -327,18 +335,22 @@ sprague-braintree,"Sprague, Genealogies of Braintree",none,,,
 st-benet-fink-register,"St Benet Fink register, London",none,,,sources/validations/st-benet-fink-register.md
 st-mary-maldon-register,St Mary's Maldon register,none,,,
 stirnet-gurney-pedigree,Stirnet -- Pedigree of the Gournays of Norfolk,none,,,
+suffolk-county-court-records-1671-1680-csm-29-30,"Records of the Suffolk County Court, 1671-1680 (CSM 29-30, 1933)",none,,,sources/validations/suffolk-county-court-records-1671-1680-csm-29-30.md
 suffolk-deeds-liber-12-1902,"Suffolk Deeds, Liber XII (1902)",supplement,sources/corpus_supplement/suffolk-deeds-liber-xii-gurnell-dorchester.md,,sources/validations/suffolk-deeds-liber-12-1902.md
+suffolk-deeds-liber-i-1880,"Suffolk Deeds, Liber I (1880)",none,,,sources/validations/suffolk-deeds-liber-i-1880.md
 suffolk-deeds-liber-iv-1888,"Suffolk Deeds, Liber IV (1888)",partial,sources/corpus_supplement/suffolk-deeds-liber-iv-1888-gurney-extracts.md,,sources/validations/suffolk-deeds-liber-iv-1888.md
 suffolk-probate-index-v2-1895,"Suffolk Probate Index, vol. 2",none,,,sources/validations/suffolk-probate-index-v2-1895.md
 suffolk-visitations-metcalfe-1882,"Metcalfe, Visitations of Suffolk",extract,sources/corpus_supplement/ryvett-suffolk-visitation-pedigrees-metcalfe.md,,sources/validations/suffolk-visitations-metcalfe-1882.md
 suger-vie-louis-le-gros,"Suger, Vie de Louis le Gros",external,,,
 swann-chethams-library-ms-a4-15-2016,"Swann, Chetham's Library MS A.4.15",partial,sources/corpus_supplement/jnr-chethams-library-ms-a4-15-henry-gurney.md,,sources/validations/swann-chethams-library-ms-a4-15-2016.md
 tag-10-70,"Holman, Grissell of the Many Marriages",none,,,
+taunton-vital-records-to-1850-vol2-marriages-1928,"Vital Records of Taunton, Mass., to 1850, vol. 2 (Marriages, 1928)",none,,,sources/validations/taunton-vital-records-to-1850-vol2-marriages-1928.md
 thompson-mobility-migration-1994,"Thompson, Mobility and Migration (1994)",none,,,
 thoms-anecdotes-traditions-1839,"Thoms, Anecdotes and Traditions",none,,,sources/validations/thoms-anecdotes-traditions-1839.md
 three-hundred-years-norman-house,"Hannay, Three Hundred Years of a Norman House",full,sources/corpus/threehundredyear00hann - THEEE HUNDRED YEAES OF A NORMAN HOUSE.txt,,
 tna-a2a-705-349-aylesbury-1483-grant,"TNA A2A 705:349/12946/495200 — Aylesbury grant, 4 April 1483",none,,,
 tna-dl-42-2-33-5-richard-i-canville-nicholaa-de-la-haye,TNA DL 42/2/33/5 — Richard I grant to Gerard de Canville and Nicholaa de la Haye,none,,,
+tna-e115-180-113-certificate-of-residence-1641,"TNA E 115/180/113 - certificate of residence, John Gurney, 1641",deferred,,,sources/validations/tna-e115-180-113-certificate-of-residence-1641.md
 tna-e179-1661-london-poll-tax-deferred,"TNA E179 - 1661 Free and Voluntary Present, City of London (deferred image-pull target)",deferred,,,sources/validations/tna-e179-1661-london-poll-tax-deferred.md
 tna-pcc-gurney-elimination-corpus,"TNA PCC Gurney probate corpus (1577-1682, elimination set)",partial,sources/corpus_supplement/tna-pcc-gurney-elimination-corpus.md,,
 tna-pcc-probate,TNA PCC Probate Records,none,,,
