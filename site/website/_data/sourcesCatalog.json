@@ -72,6 +72,18 @@
     "notes": "Contextual history of the Actors' Order of Friendship, a theatrical fraternal benefit order chartered at Philadelphia in 1849 (first lodge the Shakespeare Lodge); its New York branch, the Edwin Forrest Lodge, was established in 1888 by Louis Aldrich, John Drew, and Otis Skinner; the order was the direct precursor of the Actors' Fund of America, which eclipsed it. Context for G5's secretaryship of the Actors' Order of Friendship. Tertiary/contextual source."
   },
   {
+    "sourceId": "mhs-winthrop-papers-adam-winthrop-diary-1605",
+    "shortTitle": "Adam Winthrop's diary, 3 Oct. 1605: Lewkenor deaths (Winthrop Papers I:153)",
+    "citation": "Adam Winthrop, diary/almanac note, 3 October 1605 (deaths of Sir Edward Lewkenor of Denham and his wife Susan), in Winthrop Papers, vol. I, 1498-1628 (Boston: Massachusetts Historical Society, 1929), p. 153.",
+    "archive": "Massachusetts Historical Society (Winthrop Papers, print vol. I, 1929); Internet Archive item winthroppapersvo0000comm",
+    "url": "https://archive.org/details/winthroppapersvo0000comm",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/mhs-winthrop-papers-adam-winthrop-diary-1605.md",
+    "notes": "Adam Winthrop (John Winthrop's father) recorded in his diary the 3 October 1605 deaths of Sir Edward Lewkenor of Denham and his wife Susan (Heigham), the parents of Martha (Lewkenor) Gurney. Relevant because it documents the Winthrop family's personal regard for the Denham Lewkenors a generation before the 1627 Gurdon-Winthrop letter, deepening the senior West Barsham branch's tie to the Massachusetts founders. A distinct document at p. 153 of the same Winthrop Papers vol. I as the 1627 letter; the reading is carried in the wardship-network topic."
+  },
+  {
     "sourceId": "alumni-cantabrigienses-venn",
     "shortTitle": "Alumni Cantabrigienses (Venn) — ACAD database",
     "citation": "John Venn and J. A. Venn (comps.), Alumni Cantabrigienses: A Biographical List of All Known Students, Graduates and Holders of Office at the University of Cambridge, from the Earliest Times to 1900 (Cambridge: Cambridge University Press, 1922-1954); consulted via the online ACAD database (A Cambridge Alumni Database).",
@@ -612,6 +624,18 @@
     "notes": "Broad Gurney-variant sweep of the body (Modern set + OCR garbles, fuzzy), confirmed on two independent text copies (IA + sources/intake/new/pdfs/secondreportofre00bost.txt): NEGATIVE for Gurney in any spelling; body reaches 1659-1660, Book of Possessions present. The FS-index 'Garnsey' = the separate Garnsey/Guernsey family of Dorchester, not Gurney. William Tyng and John Newgate pervasive. Bears on Anderson's unverified 'Boston' settlement (lead L-193). FS manuscript film 007939452 not read directly."
   },
   {
+    "sourceId": "boston-record-commissioners-ninth-report-1883",
+    "shortTitle": "Boston Vital Records 1630-1699 (Ninth Record Commissioners' Report)",
+    "citation": "A Report of the Record Commissioners of the City of Boston, Containing Boston Births, Baptisms, Marriages, and Deaths, 1630-1699 [Ninth Report]. 2nd ed. Boston: Rockwell and Churchill, 1883.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/reportofrecordco09bost",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/boston-record-commissioners-ninth-report-1883.md",
+    "notes": "The printed register of Boston births, baptisms, marriages, and deaths, 1630-1699 (Ninth Report of the Boston Record Commissioners). A full Gurney-variant sweep is negative for the emigrant's generation; the only Gurney entry is a single 1690s descendant marriage. Relevant as the Boston vital-record class that tests Anderson's unverified 'Boston' settlement attribution for John Gurney (lead L-193)."
+  },
+  {
     "sourceId": "braintree-records-1640-1793-1886",
     "shortTitle": "Braintree town records, 1640-1793",
     "citation": "Braintree (Mass.). Records of the Town of Braintree, 1640 to 1793. Edited by Samuel A. Bates. Randolph, Mass.: D. H. Huxford, printer, 1886.",
@@ -960,6 +984,18 @@
     "notes": "Edmund Gurnay's 1619 treatise against transubstantiation; sermon on Matthew 26:26; STC 12527. Online book scan: https://archive.org/details/bim_early-english-books-1475-1640_corpus-christi_gurnay-edmund_1619 (Internet Archive, Early English Books 1475-1640). Folger catalog record (secondary bibliographic control): https://catalog.folger.edu/record/159988."
   },
   {
+    "sourceId": "csm-39-boston-first-church",
+    "shortTitle": "CSM 39 — Records of the First Church in Boston, vol. I (1961)",
+    "citation": "Pierce, Richard D., ed. The Records of the First Church in Boston, 1630–1868. Publications of the Colonial Society of Massachusetts, vol. 39. Boston: Colonial Society of Massachusetts, 1961.",
+    "archive": "Colonial Society of Massachusetts (colonialsociety.org)",
+    "url": "https://www.colonialsociety.org/node/1070",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/csm-39-boston-first-church.md",
+    "notes": "Publications of the Colonial Society of Massachusetts vol. 39: the full admissions, discipline, and baptismal register of Boston's First Church, 1630–1868, edited by Richard D. Pierce from the church's original record books. Companion volumes 40–41 (not registered) carry marriages and further records. Freely searchable full text hosted by the Colonial Society at colonialsociety.org; relevant as the record class that tests any Boston church-membership hypothesis for a colonial-era Gurney."
+  },
+  {
     "sourceId": "cummington-vital-records",
     "shortTitle": "Cummington, Massachusetts, town vital records (births)",
     "citation": "Cummington, Hampshire County, Massachusetts. Town clerk's register of births, page 213 (births under 'G'). Image: 'Massachusetts, U.S., Town and Vital Records, 1620-1988' (Ancestry); index: 'Massachusetts, Town Clerk, Vital and Town Records, 1626-2001' (FamilySearch).",
@@ -1234,6 +1270,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/eaa-occasional-paper-2-ellingham-kiln-1997.md",
     "notes": "Resolved from the Yumpu East Anglian Archaeology lead. Place-context source for the Roman mortarium kiln at Dairy Farm, Ellingham; not genealogical evidence despite coauthor David Gurney being named."
+  },
+  {
+    "sourceId": "early-records-town-of-providence",
+    "shortTitle": "Early Records of the Town of Providence (21 vols, 1892-1915)",
+    "citation": "The Early Records of the Town of Providence. 21 vols. Providence: Snow & Farnham, City Printers, 1892-1915.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/earlyrecordsofto01inprov",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/early-records-town-of-providence.md",
+    "notes": "The printed edition of Providence, Rhode Island town-meeting, deed, and probate records. The town-meeting and probate volumes swept carry no Gurney of any spelling; the only near-name is a distinct Providence Garnet family. Relevant to bounding John Gurney's unrecorded Quinapaug (Providence-jurisdiction) frontier interest and to clearing Providence-side same-name false friends."
   },
   {
     "sourceId": "early-yorkshire-charters-vol-8-clay-1949",
@@ -1591,9 +1639,9 @@
     "url": "https://www.findmypast.com/",
     "corpusStatus": "transcript",
     "corpusPath": "",
-    "mediaPath": "sources/intake/john-gurney-2026May/",
+    "mediaPath": "",
     "validationPath": "sources/validations/findmypast-john-gurney-2026may-supplementary-same-name-sweep.md",
-    "notes": "Bundle source for the 12 May 2026 raw research batch supplementary same-name sweep. Carries the Findmypast index transcript content for the new Section 8 comparator rows added to the case file by patchset v38, plus the Section 8.3 Buckinghamshire same-county cluster expansion. Aylesbury area search screenshots (image-20260512084250360.png, image-20260512084825041.png, image-20260512084943795.png, image-20260512085055660.png) are retained at the intake media path. Use this bundle for comparator-row provenance; cite record-level sources for any household that is later promoted to deeper research."
+    "notes": "Bundle source for the 12 May 2026 raw research batch supplementary same-name sweep. Carries the Findmypast index transcript content for the Section 8 comparator rows and the Section 8.3 Buckinghamshire same-county cluster expansion. The original intake media directory has been archived and no longer resolves; the validation worksheet is the canonical local record. Use this bundle for comparator-row provenance; cite record-level sources for any household later promoted to deeper research."
   },
   {
     "sourceId": "findmypast-bury-st-edmunds-st-mary-gurney-burials-1653-1656",
@@ -2640,6 +2688,18 @@
     "notes": "Printed record of the General Court session beginning 30 Oct 1644: \"John Gurny his byl for 3. 16. 4d & Tho: Lake his note for 1. 3. 8d are accepted for £5 fro Mr Ginner.\" Corrects the earlier machine-transcript reading of a \"16 March 1641/2\" date. Index renders the counterparty \"Ginner, Mr.\" = Rev. Thomas Jenner."
   },
   {
+    "sourceId": "massachusetts-archives-vol-45-lands-1622-1726",
+    "shortTitle": "Massachusetts Archives, vol. 45 (Lands, 1622–1726)",
+    "citation": "Massachusetts Archives Collection (Felt Collection), vol. 45, \"Lands, 1622–1726.\" Boston: Massachusetts Archives. Digitized on FamilySearch, film/DGS 007702989.",
+    "archive": "Massachusetts Archives (Boston); FamilySearch",
+    "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9Y5-YWYK",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/massachusetts-archives-vol-45-lands-1622-1726.md",
+    "notes": "Volume 45 of the Massachusetts Archives Collection, the \"Lands\" series (1622–1726), covering colonial-era petitions, grants, and disputes over land in Massachusetts Bay towns. Distinct from the general calendar/index already registered as massachusetts-state-archives-colonial (a different FamilySearch film, DGS 007702977); this volume is cited for a specific imaged petition and its answer slip at folio/page level. Digitized on FamilySearch as film DGS 007702989."
+  },
+  {
     "sourceId": "massachusetts-bay-records-v1-1853",
     "shortTitle": "Massachusetts Bay Records, vol. 1",
     "citation": "Shurtleff, Nathaniel B., ed. Records of the Governor and Company of the Massachusetts Bay in New England. Vol. 1, 1628-1641. Boston: William White, 1853.",
@@ -2854,6 +2914,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/muskett-suffolk-manorial-families-v2-1900.md",
     "notes": "Companion volume to Muskett vol. 1, carrying the L'Estrange-of-Hunstanton/Bozoune and Hovell-of-Hillington pedigrees and abstracted wills. Relevant because those charts, unlike vol. 1, name West Barsham Gurneys by marriage — the volume is the source for the senior branch's daughters and in-laws. Content is compiled visitation pedigrees plus will abstracts, not original records. Findings are carried in the Candidate-B identity topic; sweep scope in the validation worksheet."
+  },
+  {
+    "sourceId": "muskett-suffolk-manorial-families-v3-1900",
+    "shortTitle": "Muskett, Suffolk Manorial Families, vol. 3 pt. 1 (1900)",
+    "citation": "Joseph James Muskett, Suffolk Manorial Families, being the County Visitations and other Pedigrees, vol. 3 pt. 1 (Exeter: William Pollard & Co., 1900).",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/suffolkmanorialf31john",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/muskett-suffolk-manorial-families-v3-1900.md",
+    "notes": "Third companion volume to Muskett vols 1–2, carrying further Suffolk visitation pedigrees and abstracted wills, including the Chaplin-of-Semer/Bury-St-Edmunds pedigree. Internet Archive metadata credits Frederic Johnson as editor alongside Muskett, who died in 1910 before the series was complete; the shape and imprint otherwise match vols 1–2. Relevant for a Bury St Edmunds will abstract naming a Gurney household member."
   },
   {
     "sourceId": "nash-historical-sketch-weymouth-1885",
@@ -4186,6 +4258,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Richard I grant to Gerard de Canville and his wife Nicholaa de la Haye of her right and inheritance in England and Normandy, with the custody and constableship of Lincoln castle and the manors of Puppeville and Warreville. Hugh de Gurnai [Gournay] is named in the witness list alongside John the king's brother count of Mortain, William de Hommet constable, Henry de Newburgh, Walkelin de Ferrers, Ralph Taissun, William de St John, Robert de Harcourt, William de Diva, and Hugh Bard the king's marshal. Dated by William the king's chancellor at Barfleur; undated, 1189-1199. Latin. The Discovery catalogue note reproduces a substantial English summary of the grant."
+  },
+  {
+    "sourceId": "tna-e115-180-113-certificate-of-residence-1641",
+    "shortTitle": "TNA E 115/180/113 - certificate of residence, John Gurney, 1641",
+    "citation": "Certificate of residence for John Gurney, showing him moving from the Aylesbury half-hundred, Buckinghamshire, into Northamptonshire, 1641. The National Archives, Kew, E 115/180/113 (Exchequer: King's Remembrancer: Certificates of Residence).",
+    "archive": "The National Archives, Kew",
+    "url": "https://discovery.nationalarchives.gov.uk/results/r?_q=E%20115%2F180%2F113",
+    "corpusStatus": "deferred",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/tna-e115-180-113-certificate-of-residence-1641.md",
+    "notes": "Exchequer certificate of residence recording a John Gurney's 1641 move out of the Aylesbury half-hundred into Northamptonshire. Registered because it is the government record tying the Buckinghamshire and Northamptonshire halves of the Candidate A chain together in the John Gurney identity work. The document has not been examined at image level; the reference reached the project through its own early foundation research."
   },
   {
     "sourceId": "tna-e179-1661-london-poll-tax-deferred",

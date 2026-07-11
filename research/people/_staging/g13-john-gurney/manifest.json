@@ -111,7 +111,8 @@
         "G13-RI-000015",
         "G13-RI-000016",
         "G13-RI-000017",
-        "G13-RI-000047"
+        "G13-RI-000047",
+        "G13-RI-000184"
       ]
     },
     {
@@ -175,7 +176,12 @@
         "G13-RI-000039",
         "G13-RI-000040",
         "G13-RI-000041",
-        "G13-RI-000042"
+        "G13-RI-000042",
+        "G13-RI-000179",
+        "G13-RI-000180",
+        "G13-RI-000181",
+        "G13-RI-000182",
+        "G13-RI-000183"
       ]
     },
     {
@@ -327,7 +333,10 @@
         "G13-RI-000079",
         "G13-RI-000089",
         "G13-RI-000090",
-        "G13-RI-000091"
+        "G13-RI-000091",
+        "G13-RI-000189",
+        "G13-RI-000190",
+        "G13-RI-000191"
       ]
     },
     {
@@ -341,14 +350,17 @@
       "order": 50,
       "publicSlug": "origin/wardship-and-patronage-network",
       "publicationStatus": "public",
-      "summary": "The English wardship-and-patronage network around the senior West Barsham branch in John's emigration decade: the branch as a Court of Wards minor-heir household (Edward Gournay a royal ward under his widowed mother Martha Lewkenor after Thomas Gurney III died c.1621×1623, predeceasing Henry G15), the 1627 Gurdon–Winthrop letter placing the widowed 'Mrs. Gurney' inside the Court of Wards circle of Winthrop and Downing, and the Gurdon–Sedley–Lewkenor puritan matrix behind it — read as origin-bearing context about the senior branch that neither connects John to it nor traces his crossing, with the identity question held to the case file.",
+      "summary": "The English wardship-and-patronage network around the senior West Barsham branch in John's emigration decade: the branch as a Court of Wards minor-heir household (Edward Gournay a royal ward under his widowed mother Martha Lewkenor after Thomas Gurney III died c.1621×1623, predeceasing Henry G15), the 1627 Gurdon–Winthrop letter placing the widowed 'Mrs. Gurney' inside the Court of Wards circle of Winthrop and Downing, and the Gurdon–Sedley–Lewkenor puritan matrix behind it — plus the Gurney-held West Barsham advowson behind the open Warford presentation, Adam Winthrop's 1605 diary memorial of the Denham Lewkenors, and the kin-sourced L'Estrange jest-book tradition — read as origin-bearing context about the senior branch that neither connects John to it nor traces his crossing, with the identity question held to the case file.",
       "researchItemIds": [
         "G13-RI-000080",
         "G13-RI-000081",
         "G13-RI-000082",
         "G13-RI-000083",
         "G13-RI-000084",
-        "G13-RI-000085"
+        "G13-RI-000085",
+        "G13-RI-000185",
+        "G13-RI-000186",
+        "G13-RI-000187"
       ]
     },
     {
@@ -362,14 +374,15 @@
       "order": 60,
       "publicSlug": "origin/bury-connections",
       "publicationStatus": "public",
-      "summary": "Charles Banks's 'Bury St Edmunds' origin attribution for John Gurney — the one specific English parish any published authority ever named for him — resolved: an unproven 'Banks Mss.' lead with no Bury natal record behind it, most plausibly tracking the Bury-area feltmaker John Newgate's 1636 runaway apprentice rather than the Braintree emigrant, and consistent with the favoured Norfolk (Candidate B) origin rather than evidence against it. The Bury St James and St Mary parish registers hold no Gurney household that could have fathered him, and Anderson's Great Migration Directory independently records the origin as 'Unknown'.",
+      "summary": "Charles Banks's 'Bury St Edmunds' origin attribution for John Gurney — the one specific English parish any published authority ever named for him — resolved: an unproven 'Banks Mss.' lead with no Bury natal record behind it, most plausibly tracking the Bury-area feltmaker John Newgate's 1636 runaway apprentice rather than the Braintree emigrant, and consistent with the favoured Norfolk (Candidate B) origin rather than evidence against it. The Bury St James and St Mary parish registers hold no Gurney household that could have fathered him, and Anderson's Great Migration Directory independently records the origin as 'Unknown'. A 1672 Bury will leaving £40 to 'Mary Gurney my servant' beside a New England (Houchin) debt illustrates the real Suffolk–Massachusetts corridor Banks mistook for a birthplace, without touching the emigrant's family.",
       "researchItemIds": [
         "G13-RI-000092",
         "G13-RI-000093",
         "G13-RI-000094",
         "G13-RI-000095",
         "G13-RI-000096",
-        "G13-RI-000097"
+        "G13-RI-000097",
+        "G13-RI-000188"
       ]
     },
     {
@@ -468,7 +481,9 @@
         "G13-RI-000167",
         "G13-RI-000168",
         "G13-RI-000169",
-        "G13-RI-000170"
+        "G13-RI-000170",
+        "G13-RI-000192",
+        "G13-RI-000193"
       ]
     },
     {
@@ -551,7 +566,8 @@
         "G13-RI-000175",
         "G13-RI-000176",
         "G13-RI-000177",
-        "G13-RI-000178"
+        "G13-RI-000178",
+        "G13-RI-000194"
       ]
     },
     {

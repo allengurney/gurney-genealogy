@@ -23,10 +23,8 @@ was reading real content rather than a truncated or malformed page.
 
 ## Remaining / where findings landed
 - Remaining: vols 40–41 (marriages, further records) not yet swept.
-- The sweep result is currently recorded only in the dump file above (finding
-  F-R4.2, un-dispositioned backlog per
-  `research/people/_staging/g13-john-gurney/coverage/dump-findings-map.csv`).
-  It is routed to the `g13-colonial-record-coverage` topic and to the
-  Anderson-"Boston" discussion in `g13-identity-assessment`, but has not yet
-  been assimilated into topic prose — that promotion is out of scope for this
-  registration turn.
+- The sweep result (finding F-R4.2) is assimilated into
+  `g13-colonial-record-coverage` as the headline negative `G13-RI-000180`
+  (First Church, zero Gurney 1630–1778), which supplies the record-level
+  ground for the Anderson-"Boston" conflation reading in
+  `g13-identity-assessment` (`G13-RI-000176`).

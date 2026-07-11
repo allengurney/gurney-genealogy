@@ -1,4 +1,16 @@
 const factsheets = require("./factsheetIndex.js");
+
+// The G13 annex (research library + Context Graph explorer) only exists in
+// package-mode builds (G13_PACKAGE=staging|production, same gate as
+// scripts/sync-g13-package.js); a legacy build must not carry dead menu links.
+const g13PackageMode = String(process.env.G13_PACKAGE || "").trim().toLowerCase();
+const g13AnnexNavItems = g13PackageMode && g13PackageMode !== "off" && g13PackageMode !== "legacy"
+  ? [
+      { title: "John Gurney Context Graph Explorer", url: "/research/notes/g13-john-gurney/explorer/", key: "g13-explorer" },
+      { title: "John Gurney Research Library", url: "/research/notes/g13-john-gurney.html", key: "g13-library" },
+    ]
+  : [];
+
 module.exports = {
   items: [
     { title: "Home", url: "/index.html", key: "home", visible: true },
@@ -8,6 +20,7 @@ module.exports = {
       visible: true,
       children: [
         { title: "John Gurney Case File", url: "/key-research/john-gurney-case-file.html", key: "john" },
+        ...g13AnnexNavItems,
         { title: "Brig. General William Gurney Bio", url: "/key-research/brigadier-general-william-gurney.html", key: "william" },
         { title: "Heraldic Chain of Evidence", url: "/key-research/gurney-heraldic-chain-of-evidence.html", key: "heraldic-chain" },
         { title: "AI Paleographic Analysis John Gurney baptism record", url: "/key-research/east-dereham-ai-assistant-procedure.html", key: "east-dereham" },

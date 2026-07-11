@@ -264,7 +264,7 @@ function copyGraphAssets(graph, topicUrlByTopicId, relatedWebsite) {
     ].filter(Boolean),
   };
   fs.writeFileSync(path.join(graphAssetsTarget, "site-map.json"), `${JSON.stringify(siteMap)}\n`);
-  ["manifest.json", "findings.json", "markers.json"].forEach(file => {
+  ["manifest.json", "findings.json", "markers.json", "adjacency.json"].forEach(file => {
     fs.copyFileSync(path.join(graphExportDir, file), path.join(graphAssetsTarget, file));
   });
   ["findings", "marker-bundles"].forEach(dir => {
@@ -276,14 +276,46 @@ function copyGraphAssets(graph, topicUrlByTopicId, relatedWebsite) {
       .forEach(file => fs.copyFileSync(path.join(sourceDir, file), path.join(targetDir, file)));
   });
   // Compact citation lookup so the drawer resolves sourceIds like the
-  // permanent pages do, without shipping all of data/sources.json.
+  // permanent pages do, without shipping all of data/sources.json. The same
+  // pass collects the per-item year range + source count for the explorer's
+  // list index (the findings.json index carries neither).
   const cited = new Set();
+  const explorerExtras = new Map();
+  // sourceId → [{id, role}] of distinct citing items (drives the explorer's
+  // source-centered ego view and the off-page "+N cited by" stubs).
+  const sourceUsage = {};
   fs.readdirSync(path.join(graphExportDir, "findings"))
     .filter(file => file.endsWith(".json"))
     .forEach(file => {
       const finding = readJson(path.join(graphExportDir, "findings", file), file);
-      (finding.sources || []).forEach(source => cited.add(source.sourceId));
+      const findingSourceIds = new Set();
+      (finding.sources || []).forEach(source => {
+        if (findingSourceIds.has(source.sourceId)) return; // one entry per (source, item)
+        findingSourceIds.add(source.sourceId);
+        cited.add(source.sourceId);
+        (sourceUsage[source.sourceId] = sourceUsage[source.sourceId] || [])
+          .push({ id: finding.id, role: source.role });
+      });
+      const years = [];
+      (finding.dates || []).forEach(date => {
+        ["probableStart", "probableEnd", "plausibleStart", "plausibleEnd"].forEach(key => {
+          const match = String(date[key] || "").match(/^(\d{4})/);
+          if (match) years.push(Number(match[1]));
+        });
+      });
+      explorerExtras.set(finding.id, {
+        years: years.length ? [Math.min(...years), Math.max(...years)] : null,
+        sourceCount: findingSourceIds.size,
+      });
     });
+  const explorerIndex = {
+    items: graph.findingsIndex.map(entry => ({
+      ...entry,
+      ...(explorerExtras.get(entry.id) || { years: null, sourceCount: 0 }),
+    })),
+    sourceUsage,
+  };
+  fs.writeFileSync(path.join(graphAssetsTarget, "explorer.json"), `${JSON.stringify(explorerIndex)}\n`);
   const subset = {};
   [...cited].sort().forEach(sourceId => {
     const source = graph.sourcesRegistry[sourceId];
@@ -338,10 +370,17 @@ function writeHubPage(manifest, orderedGroups, topicsByGroup, hubUrl) {
     })
     .join("");
 
+  const explorerCard =
+    `<section class="g13-group"><h2>Explore the Context Graph</h2><div class="g13-cards">` +
+    `<a class="g13-card" href="${hubUrl}/explorer/"><span class="g13-card-title">Context Graph Explorer (beta)</span>` +
+    `<span class="g13-card-summary">Browse every research item on an interactive map: filter by kind, confidence, topic file, or year, and follow the relationships between findings, sources, and open questions.</span></a>` +
+    `</div></section>`;
+
   const body = [
     intro,
     "",
     sections,
+    explorerCard,
     relatedLinks ? `<section class="g13-group"><h2>Fact sheet and case file</h2><ul class="g13-list">${relatedLinks}</ul></section>` : "",
     `<section class="g13-group"><h2>All topics</h2><ul class="g13-topic-index">${indexList}</ul></section>`,
     "",
@@ -436,6 +475,7 @@ function writeEvidencePages(graph, hubUrl) {
 
 function writeFindingPages(graph, hubUrl) {
   const revision = String(graph.exportManifest.database_revision);
+  const explorerUrl = `${hubUrl}/explorer/`;
   const findingsDir = path.join(annexTarget, "findings");
   ensureDir(findingsDir);
   fs.readdirSync(path.join(graphExportDir, "findings"))
@@ -444,13 +484,22 @@ function writeFindingPages(graph, hubUrl) {
     .forEach(file => {
       const finding = readJson(path.join(graphExportDir, "findings", file), file);
       const label = finding.shortLabel || finding.statement;
+      // The embedded relationship map: assets/g13-graph-explorer.js draws the
+      // same ego scene the explorer shows, into this container, at page load.
+      const relationshipMap =
+        `<section class="g13-section g13x-embed-section"><h3>Relationship map</h3>` +
+        `<div id="g13x-embed" class="g13x-embed" data-item="${finding.id}" data-explorer-url="${explorerUrl}"></div>` +
+        `</section>`;
       const body =
         breadcrumbsHtml([
           { title: "John Gurney Research Library", url: hubUrl },
           { title: "Research findings" },
         ]) +
         "\n\n" +
-        render.renderFinding(finding, graph.ctx, { headingTag: "h1", compact: false, revision }) +
+        render.renderFinding(finding, graph.ctx, {
+          headingTag: "h1", compact: false, revision,
+          beforeTechnicalHtml: relationshipMap,
+        }) +
         `\n<p class="g13-context-line">This is one research item from the John Gurney research graph; the fuller narrative treatment is in the linked topic above and the <a href="${hubUrl}">research library</a>.</p>\n`;
       const content =
         frontMatter({
@@ -464,6 +513,28 @@ function writeFindingPages(graph, hubUrl) {
         }) + body;
       fs.writeFileSync(path.join(findingsDir, `${finding.id}.md`), content);
     });
+}
+
+function writeExplorerPage(manifest, hubUrl) {
+  // A single app-shell page; assets/g13-graph-explorer.js builds the three
+  // areas at runtime from the static JSON in assets/g13-graph/.
+  const body =
+    `<div class="g13x-app" id="g13x-app" data-hub-url="${hubUrl}">` +
+    `<header class="g13x-bar"><h1 class="g13x-brand">John Gurney Context Graph <span class="tag">explorer</span></h1></header>` +
+    `<p style="padding:2rem;color:#97a1b0">Loading the Context Graph…</p>` +
+    `</div>\n` +
+    `<noscript><p style="padding:2rem">The Context Graph explorer needs JavaScript. ` +
+    `Every research item is also an ordinary page: start from the <a href="${hubUrl}">research library</a>.</p></noscript>\n`;
+  const content =
+    frontMatter({
+      title: "John Gurney Context Graph Explorer",
+      description:
+        "Interactive explorer for the John Gurney (G13) research Context Graph: search and filter the research items, see each item's relationships and sources on a map, and read its full statement, sources, and qualifications.",
+      permalink: `${hubUrl}/explorer/index.html`,
+      layout: "layouts/g13-explorer.njk",
+      eleventyExcludeFromCollections: true,
+    }) + body;
+  fs.writeFileSync(path.join(annexTarget, "explorer.md"), content);
 }
 
 // ---------------------------------------------------------------------------
@@ -519,6 +590,7 @@ function syncG13Package() {
   writeTopicPages(manifest, topics, hubUrl, transforms);
   writeEvidencePages(graph, hubUrl);
   writeFindingPages(graph, hubUrl);
+  writeExplorerPage(manifest, hubUrl);
 
   if (droppedMarkers.length) {
     console.warn(
@@ -529,7 +601,7 @@ function syncG13Package() {
     enabled: true,
     mode: config.mode,
     hubSlug: manifest.website.hubSlug,
-    pages: 1 + topics.length + graph.markersIndex.length + graph.findingsIndex.length,
+    pages: 2 + topics.length + graph.markersIndex.length + graph.findingsIndex.length,
   };
 }
 

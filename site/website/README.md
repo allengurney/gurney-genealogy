@@ -222,6 +222,77 @@ hand-maintain deployed copies. Only `robots.txt` is a hand-kept passthrough file
 
 ---
 
+## G13 research annex and Context Graph explorer (package mode)
+
+The John Gurney (G13) research annex — the research library hub, topic pages,
+permanent evidence/finding pages, the evidence drawer, and the **Context Graph
+explorer** — is generated only when `G13_PACKAGE=staging|production` is set
+(`npm run preview:g13` sets it and produces the deployable zip). An ordinary
+legacy `npm run build` cleans all of it away, and `_data/navigation.js` gates
+the two Key Research menu items ("John Gurney Context Graph Explorer",
+"John Gurney Research Library") on the same env var so a legacy build never
+carries dead links.
+
+Data flow: `tools/g13_graph.py export-website` (repo root, run against the live
+canonical SQLite graph) writes the public export to
+`data/context-graphs/g13/exports/website/` (gitignored, derived). At build time
+`scripts/sync-g13-package.js` copies it into `assets/g13-graph/` and generates
+the annex pages under `research/g13-annex/` (also cleaned/derived).
+
+The Context Graph explorer (`/research/notes/g13-john-gurney/explorer/`) is a
+view-only, dependency-free three-area page:
+
+- **Files:** `assets/g13-graph-explorer.js` (app), `assets/g13-graph-explorer.css`
+  (dark theme mirroring `tools/g13_graph_editor/static/styles.css`, including the
+  per-kind color palette), `_includes/layouts/g13-explorer.njk` (full-viewport
+  layout below the site header), and the `writeExplorerPage`/`explorer.json`
+  pieces of `scripts/sync-g13-package.js`.
+- **Data it reads (all under `/assets/g13-graph/`):** `explorer.json`
+  (`{items, sourceUsage}` — the findings index enriched with per-item year range
+  and source count, plus sourceId→citing-item counts), `adjacency.json` (item↔item
+  edges with relation type/strength/explanation), `findings/<ID>.json` (full item
+  detail, fetched lazily), `sources.json` (compact citation lookup),
+  `site-map.json` (topic/publication URL resolution), `manifest.json` (revision).
+- **Area 1** mirrors the graph editor's Items tab: search plus kind / confidence /
+  topic file / year (5-year buckets, 1600–1670, matched against each item's date
+  range) filters.
+- **Area 2** is an SVG map: with a selection, an ego view (incoming relations on
+  the left, outgoing on the right, relation verbs from
+  `assets/g13-graph-render.js` `RELATIONS`, the item's cited sources below with
+  role verbs, and off-page stub lines with "+N" counts for a neighbor's or
+  source's other connections; click any node — item or source — to recenter).
+  Centering a **source** shows every research item that cites it (role verbs on
+  the edges) and puts the source's citation, external link, and "Cited by" list
+  in Area 3. With no selection, a force-layout overview of the filtered items
+  (click = preview, click again = focus). `#item/G13-RI-######` and
+  `#source/<sourceId>` hash deep-links restore the view.
+- **Area 3** renders the selected item through the shared
+  `G13GraphRender.renderFinding` — the same projection as the evidence drawer
+  and permanent finding pages — restyled dark.
+- **Embedded relationship map:** every permanent finding page carries a
+  "Relationship map" section (before Technical details) with the same ego scene,
+  drawn by the same script into `#g13x-embed` — item clicks navigate to that
+  item's permanent page, source clicks open the explorer on the source, and the
+  caption deep-links into the explorer. `research.njk` loads the explorer
+  CSS/JS on all `g13Annex` pages; the script no-ops unless `#g13x-app` or
+  `#g13x-embed` exists.
+- **Printing:** an `@media print` block in the explorer CSS linearizes the app
+  (hides the chrome and Area 1, re-themes the map and text light); permanent
+  finding pages — now including the embedded map — are the print-preferred
+  surface.
+- **Gotchas:** every public page must have exactly one `h1` (the app bar brand
+  is the explorer's); the shared `g13-*` finding markup is restyled inside
+  `.g13x-app` at deliberately low selector specificity so the per-kind chip
+  colors win; sources are not adjacency nodes — the per-item citation links come
+  from each finding's detail JSON, which is why the list (Area 1) stays
+  items-only (the source-centered ego view covers source navigation instead).
+- **SEO / cutover:** index-readiness of the whole staged annex was validated
+  2026-07-11; the checklist (sitemap/llms/canonicals/robots/redirects, the
+  production-vs-preview zip distinction, post-deploy search-console steps) lives
+  in `tools/plans/G-13 Refactor/prompts/cutover.md`.
+
+---
+
 ## Full file map
 
 Files marked **(generated)** are produced by the build from upstream sources and

@@ -39,5 +39,6 @@ OCR sweep for Gurney/Gurnay/Gournay/Garney variants accompanied the reads.
 ## Where findings landed
 - `research/people/_staging/g13-john-gurney/topics/identity/32-norfolk-parentage.md`
   (staged topic; items `G13-RI-000166`, `G13-RI-000167`, `G13-RI-000168`).
-- The L'Estrange/Lewkenor kin-sourcing of the Thoms anecdotes remains unassimilated
-  (dump finding F-R3.9, routed to `g13-origin-wardship-network`).
+- The L'Estrange/Lewkenor kin-sourcing of the Thoms anecdotes (F-R3.9) is assimilated
+  (2026-07-10) into `research/people/_staging/g13-john-gurney/topics/origin/23-wardship-network.md`
+  as research_finding `G13-RI-000187` (with `thoms-anecdotes-traditions-1839`).

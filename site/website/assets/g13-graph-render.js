@@ -263,7 +263,7 @@
     var topic = unit.id ? ctx.topicUrl(unit.id) : null;
     if (!topic) return "";
     return (
-      '<p class="g13-treatment"><a href="' + escapeHtml(topic.url) + '">Full research treatment: ' +
+      '<p class="g13-treatment"><a href="' + escapeHtml(topic.url) + '">Topic file location: ' +
       escapeHtml(topic.title) + "</a></p>"
     );
   }
@@ -302,6 +302,9 @@
     html += sourcesHtml(finding, ctx, compact);
     html += publicationsHtml(finding, ctx);
     html += treatmentLinkHtml(finding, ctx);
+    // Caller-supplied section (e.g. the permanent page's embedded
+    // relationship map) between the standard sections and Technical details.
+    if (opts.beforeTechnicalHtml) html += opts.beforeTechnicalHtml;
     if (!opts.omitTechnical) {
       html += technicalDetailsHtml([
         ["Research item", finding.id],

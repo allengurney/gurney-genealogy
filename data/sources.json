@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "1.16.0",
+    "version": "1.18.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
     "lastUpdated": "2026-07-10",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
@@ -3253,6 +3253,17 @@
       "validationPath": "sources/validations/mhs-winthrop-papers-gurdon-to-winthrop-1627.md",
       "notes": "Brampton Gurdon's 20 Oct. 1627 letter to John Winthrop (Winthrop Papers I:363; MHS digital edition PWF01d256) — the only Gurney-variant document in the Winthrop Family Papers, placing the widowed 'mrs. Gurny' and her near-of-age ward inside the Court of Wards circle of Winthrop and Downing. The full reading, the project's West Barsham identification, and its limits are carried in the wardship-network research topic; examination scope in the validation worksheet."
     },
+    "mhs-winthrop-papers-adam-winthrop-diary-1605": {
+      "shortTitle": "Adam Winthrop's diary, 3 Oct. 1605: Lewkenor deaths (Winthrop Papers I:153)",
+      "citation": "Adam Winthrop, diary/almanac note, 3 October 1605 (deaths of Sir Edward Lewkenor of Denham and his wife Susan), in Winthrop Papers, vol. I, 1498-1628 (Boston: Massachusetts Historical Society, 1929), p. 153.",
+      "archive": "Massachusetts Historical Society (Winthrop Papers, print vol. I, 1929); Internet Archive item winthroppapersvo0000comm",
+      "url": "https://archive.org/details/winthroppapersvo0000comm",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/mhs-winthrop-papers-adam-winthrop-diary-1605.md",
+      "notes": "Adam Winthrop (John Winthrop's father) recorded in his diary the 3 October 1605 deaths of Sir Edward Lewkenor of Denham and his wife Susan (Heigham), the parents of Martha (Lewkenor) Gurney. Relevant because it documents the Winthrop family's personal regard for the Denham Lewkenors a generation before the 1627 Gurdon-Winthrop letter, deepening the senior West Barsham branch's tie to the Massachusetts founders. A distinct document at p. 153 of the same Winthrop Papers vol. I as the 1627 letter; the reading is carried in the wardship-network topic."
+    },
     "muskett-suffolk-manorial-families-v1-1900": {
       "shortTitle": "Muskett, Suffolk Manorial Families, vol. 1 (1900)",
       "citation": "Joseph James Muskett, Suffolk Manorial Families, being the County Visitations and other Pedigrees, vol. 1 (Exeter: William Pollard & Co., 1900).",
@@ -4169,6 +4180,28 @@
       "mediaPath": null,
       "validationPath": "sources/validations/muskett-suffolk-manorial-families-v3-1900.md",
       "notes": "Third companion volume to Muskett vols 1–2, carrying further Suffolk visitation pedigrees and abstracted wills, including the Chaplin-of-Semer/Bury-St-Edmunds pedigree. Internet Archive metadata credits Frederic Johnson as editor alongside Muskett, who died in 1910 before the series was complete; the shape and imprint otherwise match vols 1–2. Relevant for a Bury St Edmunds will abstract naming a Gurney household member."
+    },
+    "boston-record-commissioners-ninth-report-1883": {
+      "shortTitle": "Boston Vital Records 1630-1699 (Ninth Record Commissioners' Report)",
+      "citation": "A Report of the Record Commissioners of the City of Boston, Containing Boston Births, Baptisms, Marriages, and Deaths, 1630-1699 [Ninth Report]. 2nd ed. Boston: Rockwell and Churchill, 1883.",
+      "archive": "Internet Archive",
+      "url": "https://archive.org/details/reportofrecordco09bost",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/boston-record-commissioners-ninth-report-1883.md",
+      "notes": "The printed register of Boston births, baptisms, marriages, and deaths, 1630-1699 (Ninth Report of the Boston Record Commissioners). A full Gurney-variant sweep is negative for the emigrant's generation; the only Gurney entry is a single 1690s descendant marriage. Relevant as the Boston vital-record class that tests Anderson's unverified 'Boston' settlement attribution for John Gurney (lead L-193)."
+    },
+    "early-records-town-of-providence": {
+      "shortTitle": "Early Records of the Town of Providence (21 vols, 1892-1915)",
+      "citation": "The Early Records of the Town of Providence. 21 vols. Providence: Snow & Farnham, City Printers, 1892-1915.",
+      "archive": "Internet Archive",
+      "url": "https://archive.org/details/earlyrecordsofto01inprov",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/early-records-town-of-providence.md",
+      "notes": "The printed edition of Providence, Rhode Island town-meeting, deed, and probate records. The town-meeting and probate volumes swept carry no Gurney of any spelling; the only near-name is a distinct Providence Garnet family. Relevant to bounding John Gurney's unrecorded Quinapaug (Providence-jurisdiction) frontier interest and to clearing Providence-side same-name false friends."
     }
   }
 }

@@ -416,6 +416,27 @@ already carried in `g13-colonial-weymouth-community` RI-000046. Cross-unit prose
 in the citation map (parity-exempt); no in-unit item link pulled for the colonial occupation/land
 witnesses.
 
+Phase 2 revision increment (2026-07-10, bounded): `topics/origin/22-migration-network.md`
+(`g13-origin-migration-network`), assimilating the case-file §7 Ann Gurney × John Gilman connection —
+the one input to this unit that had no staged home. Three new items via `author-batch` (rev 177):
+source_evidence **RI-000189** (the Gilman–Gurney family record — Ann × John Gilman, worsted weaver,
+married Hingham, Norfolk 1 Oct 1626; children baptised West Dereham and Hingham; Ann buried Hingham
+23 Nov 1651; son John Gilman Jr. → Exeter, NH; cites `hingham-register` + `davis-abel-lunt-1963`);
+open_question **RI-000190** (was Ann John's sister? — Pease's compiled claim held at **low** confidence,
+qualified by the confounding West Dereham 1618/19 Woodcocke marriage `freebmd-freereg`, and the West-vs-East
+Dereham twenty-mile trap); analysis **RI-000191** (moderate — the marriage as a concrete Gurney thread on
+the Norfolk-to-New-England corridor, `blomefield-norfolk` for Hingham as Gurney manorial territory; SUPPORTS
+the corridor finding RI-000091, DEPENDS_ON RI-000190). One new marker **G13-PM-000114**. All four case-file
+§7 source ids journey in-unit; the case file is a cross-reference only. Snapshot `g13-context-r000177.ndjson`;
+validate 0/0, all tiers aligned; per-increment gates all 0 (parity, source-journey, topic-graph-source,
+publication, input-source-set, friction). **Left in backlog, reported not false-closed:** F-R4.5 (Rev. Thomas
+Jenner) — his Weymouth credit tie stays in `g13-colonial-weymouth-community` RI-000020/021 and his own
+Essex-origin/Coltishall-Norfolk-end track is identity content needing the unregistered Venn source; and the
+Aylesbury-Vale Bucks neighbour cluster — its reception bearing is already homed (RI-000046 Weymouth, RI-000090
+here), the residual Bucks-as-origin nuance is identity work. Note: F-R4.6 (Brackett brothers → Sudbury/Gurdon
+vector) sits in backlog on this unit from the braintree increment's re-route but was outside this increment's
+three-input scope; it remains for a future migration-network revision.
+
 Phase G3 increment (2026-07-06, bounded): `topics/origin/23-wardship-network.md`
 (topicId `g13-origin-wardship-network` — the fourth **origin** topic; manifest `order` 50;
 heading_id `origin-wardship-and-patronage-network` slug-matches H1 "Origin — wardship and
@@ -1011,3 +1032,122 @@ Phase 2 items 5 and 6 in `tools/plans/G-13 Refactor/prompts/phase-1-and-2-prompt
 Gates after the pass: validate **0/0**, tiers aligned, `input_source_set_gaps`, `source_journey_gaps`,
 `topic_graph_source_gaps`, `publication_mapping_gaps`, `friction_needs_decision` all **0**; backlog
 unchanged at 85.
+
+## Wardship-network revision + Bury Chaplin fold-in (2026-07-10, Opus; graph rev 170→175, snapshot r175)
+
+A bounded **revision** of `g13-origin-wardship-network` (four Norfolk senior-branch / Court-of-Wards
+backlog rows) plus one conditional fold-in to `g13-origin-bury-connections`. Four new items
+**G13-RI-000185..000188**, one new marker **G13-PM-000113**, three `add_marker_item` editor ops.
+
+**F-R3.6 — West Barsham advowson (→ RI-000185).** Blomefield's parish-advowson sweep: the Gurneys held
+the West Barsham vicarage advowson (Henry G15 patron in 1603), and the printed vicars list gaps
+1603–1743, so the 1627–28 Warford institution is invisible there; Harpley (Edmund Gurnay B.D. under
+Yelverton 1620–1648) and Great Ellingham (1628 Earl-of-Sussex presentation) are excluded as the 1627
+living. `source_evidence` **RI-000185** QUALIFIES the open Warford question **RI-000085** — the
+patron-side lever on that open question. Extended `23-wardship-network.md` §2 (marker PM-000053, expressed). West Barsham
+vicars-list/advowson extract added to `sources/corpus_supplement/blomefield-norfolk-vol7-pp42-47-west-barsham.md`.
+`blomefield-norfolk` already registered.
+
+**F-R3.7 — Adam Winthrop's diary (→ RI-000186).** Winthrop Papers I:153, Adam Winthrop's 3 Oct 1605
+record of the deaths of Sir Edward Lewkenor of Denham and his wife Susan (Heigham) — Martha (Lewkenor)
+Gurney's parents. `source_evidence` **RI-000186** SUPPORTS the founders-network finding **RI-000083**
+(indirect): the Winthrop family personally memorialised the widowed Mrs. Gurney's own parents a
+generation before the 1627 letter. **One source registered:** `mhs-winthrop-papers-adam-winthrop-diary-1605`
+(sources.json 1.17.0→1.18.0 + validation worksheet; a distinct document from the already-registered
+1627 letter). Extended §3 (marker PM-000054, expressed).
+
+**F-R3.9 — L'Estrange kin-sourcing (→ RI-000187).** Sir Nicholas L'Estrange, 1st Bt. (the jest-book
+compiler behind Thoms's 1839 anecdotes), married Anne Lewkenor of Denham — niece of Martha (Lewkenor)
+Gurney and first cousin of Edward Gournay — so the West Barsham Gurney anecdotes are kin-sourced family
+testimony. `research_finding` **RI-000187** CONTEXTUALIZES the pedigree evidence **RI-000081**; it
+explains "Frances Hood" = Frances Hovell and shows the erroneous "1614" death circulated inside the
+family (the wills place it 1621×1623). New subsection "Kin-sourced tradition: the L'Estrange
+connection" with new marker **PM-000113** (primary). Sources `muskett-suffolk-manorial-families-v2-1900`
+and `thoms-anecdotes-traditions-1839` both already registered.
+
+**F-R3.2 — Martha Heigham's will: no new item.** Re-reviewed and confirmed the wardship-network /
+puritan-matrix bearing is already fully homed in **RI-000082** (Muskett vol.1 prints the will; the
+Denham sisters, Emmanuel College scholarship, and Geneva Bible to Denham church are all carried in
+prose and the item). Nothing genuinely unhomed for this unit; the Candidate-B identity bearing stays
+backlog for the identity pass (row annotated, not false-closed).
+
+**F-R3.11 folded into `g13-origin-bury-connections` (→ RI-000188).** Phase 1 registered
+`muskett-suffolk-manorial-families-v3-1900`, so the conditional fold-in landed. Thomas Chaplin's 1672
+Bury St Edmunds will left £40 "to Mary Gurney my servant" beside a debt from "Jeremy Houchin, late in
+New England." `source_evidence` **RI-000188** CONTEXTUALIZES the attribution finding **RI-000097** — a
+concrete Bury⇄Boston corridor instance illustrating what Banks mistook for a birthplace. It names no
+John Gurney and connects to no natal household; added to §"What the attribution is worth" (marker
+PM-000066, expressed).
+
+**Line held (per RI-000084 / task).** Every item attaches to the senior West Barsham branch, not to
+John; nothing here identifies the emigrant. RI-000185 QUALIFIES the open Warford question; RI-000186/187
+deepen the senior branch's Denham-Lewkenor kinship and its tie to the founders; RI-000188 stays firmly
+on the Suffolk-migration milieu.
+
+Loaded across database revisions **170–175** (sync-sources r170 for the new registration → author-batch
+r171 → three `add_marker_item` editor ops r172–174 → hash-sources r175 baselining the two newly-cited
+printed sources); milestone snapshot at revision 175
+(`data/context-graphs/g13/exports/snapshots/g13-context-r000175.ndjson`). Both units keep
+`coverageStatus: increment-complete`. Gates after the pass: validate **0/0**, tiers aligned, lint PASS;
+`input_source_set_gaps`, `source_journey_gaps`, `topic_graph_source_gaps`, `publication_mapping_gaps`,
+`friction_needs_decision` all **0**; dump-findings backlog **47→43** (the four assimilated rows), global
+un-dispositioned backlog **72** (whole-refactor, expected). Remaining wardship/bury backlog: **F-R3.2**
+(Candidate-B identity bearing of the Martha Heigham will).
+
+## Case-file §6 fold-in: naming pattern + children-search matrix (2026-07-11, Opus; graph rev 177→180, snapshot r180)
+
+A bounded **revision** across two already-committed units — `g13-identity-candidate-b`
+(`topics/identity/32-norfolk-parentage.md`) and `g13-identity-assessment`
+(`topics/identity/37-identity-assessment.md`) — homing the last substantive identity section with
+no staged home, case file **§6**. Three new items **G13-RI-000192..000194** (two author-batches) and
+two new markers **G13-PM-000115/000116**; one editor `add_relation` op. The ~65% probability model
+stays external-canonical to the case file (cross-referenced, never restated as a graph fact); every
+new item cites its own third-party record, not the case file.
+
+**§6.2 Peter naming gap → `g13-identity-candidate-b` (analysis RI-000192).** Of twelve indexed
+Peter-Gurney baptisms across Britain 1632–1642 (`findmypast-uk-parish-baptisms`), none was fathered
+by a John Gurney; Peter is not absolutely absent from Norfolk Gurney households (the 1641 Smallburgh
+Peter-son-of-Peter qualifier is carried), but the name enters John's branch most plausibly through
+his wife Mary's kin — neither for nor against the parentage. CONTEXTUALIZES the standing first-wife
+open question **RI-000055**.
+
+**§6.3 Absence of a son named Francis → `g13-identity-candidate-b` (analysis RI-000193).** The
+strongest naming-pattern argument against Candidate B, read off John's own roster (Sarah, Mary,
+Richard, John Jr., Peter; `sprague-braintree`, `history-of-weymouth`). Authored as a first-class
+negative that **QUALIFIES the parentage hypothesis RI-000145**, with the summary weighing
+**RI-000170 now DEPENDS_ON it** (editor op, rev 180). The case file's four candidate explanations
+(estrangement, name-ruin, maternal priority, dead earlier child) are carried explicitly as
+undocumented hypotheses, not evidence. New prose section "The naming pattern: Peter and the missing
+Francis" (marker **PM-000115**, primary RI-000193, expressed RI-000192).
+
+**§6.1 Children-search matrix → `g13-identity-assessment` (negative_result RI-000194).** No indexed
+English parish cluster matches the colonial John's full family signature (Sarah, Mary, Richard, John
+Jr., Peter) 1620–1640 across 20+ Gurney baptisms in FamilySearch, Findmypast, and Ancestry
+(`findmypast-uk-parish-baptisms`, `fs-england-births-christenings`, `ancestry-norfolk-1535-1812`),
+with a structured `negative_result_scope` — a coverage gap, **not** a finding that the children were
+born in Massachusetts; the wildcard marriage negative RI-000064 is cross-referenced, not re-authored.
+SUPPORTS the record-shape analysis **RI-000177**. New section "The emigrant's own family leaves no
+English trace" (marker **PM-000116**). The unit's offsets footnote (`[^bottom-line]`) was updated:
+the "absence of a son named Francis" offset now points to the first-class item RI-000193, not only to
+the roster item RI-000065.
+
+**§10 residual-facet sweep (annotated on the s10 supplemental row, none newly authored).** Reviewed
+against RI-000145..000170: the trade/corridor/motive/network narrative recap is already carried
+(RI-000170 weighing + RI-000147/000150/000154/000168 threads + fischer via RI-000170 + migration
+RI-000091); the John-of-Maldon second-son datum is carried on RI-000161 (the Maldon-specific
+hearth-tax/administration/bachelor biography stays external G14 context); the Coleman Street adjacency
+stays backlog, its corridor/network bearing already carried at finding level and its witnesses
+(`protestation-returns`, `gibson-dell-protestation`) not identity-decisive — fuller home
+`g13-origin-wardship-network` / the G14 companion.
+
+**No new sources or entities registered** — all six cited ids were already registered and baselined
+(hash-sources a no-op). Loaded across database revisions **178–180** (candidate-b author-batch r178 →
+assessment author-batch r179 → editor `add_relation` RI-000170 DEPENDS_ON RI-000193 r180); milestone
+snapshot at revision 180 (`data/context-graphs/g13/exports/snapshots/g13-context-r000180.ndjson`);
+validate **0/0**, all tiers aligned. Both units keep `coverageStatus: increment-complete`. Ledgers:
+5 new `source-and-citation-map.csv` rows + the `fs-england-births-christenings` assessment row updated
+to reflect its second in-unit role (RI-000194); the case-file **s6** supplemental row moved to
+`assimilated` (all three sub-parts homed), the **s10** identity row annotated with the facet sweep.
+Per-increment gates hold: `input_source_set_gaps`, `source_journey_gaps`, `topic_graph_source_gaps`,
+`publication_mapping_gaps`, `friction_needs_decision` all **0**; whole-refactor un-dispositioned
+backlog **71→70** (the s6 row closed).

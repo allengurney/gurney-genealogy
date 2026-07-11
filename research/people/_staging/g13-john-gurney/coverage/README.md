@@ -126,6 +126,42 @@ family/origin/identity/research-state topics — the expected whole-refactor
 `RESULT: FAIL`). All six colonial topics carry `coverageStatus:
 increment-complete`. **GO** for resuming normal G3 authoring.
 
+**G3 record-coverage revision (2026-07-10, Opus).** Revised the already-committed
+`g13-colonial-record-coverage` unit to assimilate the colony-level negative
+catalogue it had left in backlog. New items `G13-RI-000179..000183` (Boston-silence
+synthesis + First Church, Boston civil/deed/vital, FamilySearch manuscript-sweep,
+and Providence negatives) with marker `G13-PM-000111`; existing `G13-RI-000041`
+gained the primary Massachusetts Bay Records witness for the never-freeman negative.
+Dump rows F-R4.2 and F8 → assimilated; F6, F11, F-R4, F-R3.4, F-R4.11, F-R6 → partial
+(sibling facets — the Samuel×Shapley descendant record, the Hingham Hobart-journal
+lead, the Providence Garnet false-friend — routed to `g13-family-mendon-descendants`,
+`g13-origin-migration-network`, and the unbuilt false-friends registry, and left in
+backlog there). Two new sources registered (`boston-record-commissioners-ninth-report-1883`,
+`early-records-town-of-providence`); `csm-39-boston-first-church` (Phase 1) is now
+assimilated. Live DB **rev 167**, snapshot `g13-context-r000167.ndjson`, validate 0/0,
+all tiers aligned. All Plan 2b per-increment categories zero for the touched topic;
+whole-refactor backlog 77 (down from 148), the expected mid-refactor `RESULT: FAIL`.
+The unit stays `increment-complete` (the partial rows' sibling facets remain backlog).
+
+**G3 Braintree revision (2026-07-10, Opus).** Revised the already-committed
+`g13-colonial-braintree-community` unit for two backlog rows. **F-R4.1 assimilated**:
+the imaged 1646 Braintree meadows petition (Mass. Archives vol. 45 p. 11 + answer slip
+p. 11a, DGS 007702989 imgs 1403/1402) is new source_evidence `G13-RI-000184` with marker
+`G13-PM-000112`, SUPPORTS the residence finding RI-000008 (strong) and the community-standing
+finding RI-000016 (moderate); cited at folio/image level. It is kept explicitly distinct from
+the still-unlocated 1645 plantation petition (open_question RI-000017, L-191). The Phase-1
+source `massachusetts-archives-vol-45-lands-1622-1726` is now assimilated; lead L-194 advanced
+(append-status-note). **F-R4.6 re-routed** off `g13-colonial-braintree-community` to
+`g13-origin-migration-network` and left backlog there: the Brackett-brothers→Sudbury→Gurdon
+reading is a compiled-level network suggestion about origin, not a documented tie to John, and
+the Gurdon-Winthrop material already lives in `g13-origin-wardship-network`; the documented
+Braintree co-action with the Bracketts is carried in RI-000016 and the new RI-000184. Live DB
+**rev 169**, snapshot `g13-context-r000169.ndjson`, validate 0/0, all tiers aligned. All Plan 2b
+per-increment categories zero for the touched topic (source_journey_gaps=0, 0 deferred,
+topic_graph_source_gaps=0); whole-refactor backlog **76** (down from 77 — F-R4.1 assimilated;
+F-R4.6 stays backlog, re-homed from Braintree to migration-network, not closed). The unit stays
+`increment-complete`.
+
 ## The four ledgers
 
 All ledgers use `topicId`, never numbered shorthand (§5) — a file rename cannot

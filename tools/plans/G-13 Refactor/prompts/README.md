@@ -19,7 +19,8 @@ first. Rough order (several tracks run in parallel):
 | 4 | G4 editor UI polish (contract fixed) | Fable | `g4-editor-polish.md` | — (any time) |
 | 5 | 2a Braintree marker pilot (M2) + reader JS (M4/M5) | Opus / Plan 03 | — (folded into skill / Plan 03) | #1 |
 | 5b | Source registrations + five revision increments | Sonnet, then Opus | `phase-1-and-2-prompts.md` | #3 complete |
-| 6 | **Cutover** — promote package, switch site | Opus | `cutover.md` | package complete + #2 green + hub |
+| 5c | Backlog burn-down: small-rows sweep, false-friends registry, out-of-scope routing, root hub + ledger closeout | Sonnet / Opus | `phase-3-to-7-prompts.md` | #5b complete (4/5 unblocked now) |
+| 6 | **Cutover** — promote package, switch site | Opus | `cutover.md` | #5c complete + gate green |
 
 #1, #2, #4 can start now and run concurrently. #3 was the long pole and is **done** —
 all 25 topic units are authored and `increment-complete`, so the current recurring loop
@@ -29,6 +30,10 @@ is #5b, not #3. #6 waits for the gate in `cutover.md`.
 - `phase-1-and-2-prompts.md` — the current loop: one Sonnet prompt registering the three
   gating sources, then five Opus prompts for revision increments on already-committed
   units (the skill's revision path, `apply-graph-edits.py`, never `author-batch`).
+- `phase-3-to-7-prompts.md` — the backlog burn-down after Phase 2: small-rows sweep,
+  false-friends registry, out-of-scope routing (all Sonnet), root hub + legacy/
+  supplemental ledger closeout (Opus), and the pointer to cutover. Records Allen's
+  2026-07-10 decisions (fact sheet → ~65% at cutover; identity units stay public).
 - `g3-topic-increment.md` + `example-batch.json` — author one bounded topic (the creation
   loop; every planned unit now exists, so this is kept for a future new unit).
 - `codex-2a-markers.md` — Codex builds the narrative-marker plumbing.

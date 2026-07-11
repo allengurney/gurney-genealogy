@@ -1,0 +1,318 @@
+/*
+ * G13 research-graph explorer (dark app surface).
+ * Palette and list styling mirror tools/g13_graph_editor/static/styles.css
+ * (the Items tab) so the public explorer reads as the view-only sibling of
+ * the graph editor. Area 3 restyles the shared g13-* finding markup
+ * (assets/g13-graph-render.js) for the dark surface.
+ */
+
+.g13x-body {
+  background: #12151b;
+}
+
+/* Shared palette: the explorer app and the permanent-page embed draw the
+   same SVG scenes, so both containers define the same variables. */
+.g13x-app, .g13x-embed {
+  --bg: #12151b;
+  --panel: #1a1f28;
+  --panel-2: #222834;
+  --line: #333c4a;
+  --text: #e6e9ee;
+  --muted: #97a1b0;
+  --accent: #5aa9ff;
+  --ok: #3ecf8e;
+  --warn: #e5b567;
+  --chip: #2b3341;
+
+  /* item-kind palette (one hue per controlled item_kind value) */
+  --k-source_evidence: #56b6c2;
+  --k-research_finding: #3ecf8e;
+  --k-analysis: #a78bfa;
+  --k-identity_hypothesis: #e08fd0;
+  --k-negative_result: #8fa3b8;
+  --k-evidence_conflict: #f0883e;
+  --k-published_source_statement: #5aa9ff;
+  --k-project_statement: #9aa5b1;
+  --k-open_question: #e5b567;
+  --k-source: #d8dee9; /* cited sources (not an item kind; paper-white) */
+}
+
+.g13x-app {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: clamp(320px, 26vw, 420px) 1fr;
+  grid-template-rows: auto minmax(0, 1fr) minmax(0, 1fr);
+  height: calc(100dvh - var(--g13x-top, 58px));
+  background: var(--bg);
+  color: var(--text);
+  font: 14px/1.45 "Inter", "Segoe UI", system-ui, sans-serif;
+}
+.g13x-app *, .g13x-app *::before, .g13x-app *::after { box-sizing: border-box; min-width: 0; }
+.g13x-app :focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; border-radius: 4px; }
+.g13x-app a { color: var(--accent); }
+
+/* ------------------------------- top bar ------------------------------- */
+.g13x-bar {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 8px 14px;
+  background: var(--panel);
+  border-bottom: 1px solid var(--line);
+}
+.g13x-brand { font-weight: 600; white-space: nowrap; margin: 0; font-size: 14px; font-family: inherit; color: var(--text); }
+.g13x-brand .tag {
+  font-size: 11px; color: var(--bg); background: var(--accent);
+  padding: 1px 6px; border-radius: 10px; margin-left: 4px; vertical-align: middle;
+}
+.g13x-bar .meta { color: var(--muted); font-size: 12px; }
+.g13x-bar .links { margin-left: auto; font-size: 12.5px; display: flex; gap: 14px; }
+.g13x-bar .links a { text-decoration: none; }
+.g13x-bar .links a:hover, .g13x-bar .links a:focus-visible { text-decoration: underline; }
+
+/* ---------------------------- Area 1: list ----------------------------- */
+#g13x-left {
+  grid-row: 2 / 4;
+  border-right: 1px solid var(--line);
+  overflow-y: auto;
+  padding: 10px;
+}
+.g13x-filters { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-bottom: 10px; }
+.g13x-filters .full { grid-column: 1 / -1; }
+.g13x-filters label { font-size: 11px; color: var(--muted); display: block; }
+.g13x-filters input, .g13x-filters select {
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  padding: 5px 7px;
+  font: inherit;
+  width: 100%;
+}
+.g13x-meta { color: var(--muted); font-size: 12px; margin-bottom: 6px; }
+.g13x-hint { color: var(--muted); font-size: 11px; margin: 2px 0 8px; }
+.g13x-hint kbd {
+  font-family: ui-monospace, monospace; font-size: 10px; background: var(--chip);
+  border: 1px solid var(--line); border-radius: 3px; padding: 0 4px;
+}
+
+.g13x-itemlist { list-style: none; margin: 0; padding: 0; }
+.g13x-itemlist li {
+  padding: 7px 9px; border: 1px solid var(--line); border-left-width: 3px; border-radius: 6px;
+  margin-bottom: 6px; cursor: pointer; background: var(--panel);
+  border-left-color: var(--kind-color, var(--line));
+}
+.g13x-itemlist li:hover { border-color: var(--accent); border-left-color: var(--kind-color, var(--accent)); }
+.g13x-itemlist li.selected { border-color: var(--accent); background: var(--panel-2); }
+.g13x-itemlist .row1 { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.g13x-itemlist .stmt { margin-top: 3px; font-size: 12.5px; color: var(--text); overflow-wrap: anywhere; }
+.g13x-itemlist .counts { margin-left: auto; font-size: 11px; color: var(--muted); white-space: nowrap; }
+.g13x-itemlist li.emptylist {
+  color: var(--muted); font-size: 12.5px; cursor: default;
+  border-style: dashed; border-left-width: 1px; background: transparent;
+}
+
+.g13x-kind, .g13x-chip {
+  font-size: 10.5px; padding: 1px 7px; border-radius: 9px; background: var(--chip); color: var(--muted);
+  white-space: nowrap; border: 1px solid transparent;
+}
+:where(.g13x-app, .g13x-embed) .kind-source_evidence { --kind-color: var(--k-source_evidence); }
+:where(.g13x-app, .g13x-embed) .kind-research_finding { --kind-color: var(--k-research_finding); }
+:where(.g13x-app, .g13x-embed) .kind-analysis { --kind-color: var(--k-analysis); }
+:where(.g13x-app, .g13x-embed) .kind-identity_hypothesis { --kind-color: var(--k-identity_hypothesis); }
+:where(.g13x-app, .g13x-embed) .kind-negative_result { --kind-color: var(--k-negative_result); }
+:where(.g13x-app, .g13x-embed) .kind-evidence_conflict { --kind-color: var(--k-evidence_conflict); }
+:where(.g13x-app, .g13x-embed) .kind-published_source_statement { --kind-color: var(--k-published_source_statement); }
+:where(.g13x-app, .g13x-embed) .kind-project_statement { --kind-color: var(--k-project_statement); }
+:where(.g13x-app, .g13x-embed) .kind-open_question { --kind-color: var(--k-open_question); }
+:where(.g13x-app, .g13x-embed) .kind-source { --kind-color: var(--k-source); }
+.g13x-kind[class*="kind-"] {
+  color: var(--kind-color, var(--muted));
+  border-color: var(--kind-color, var(--line));
+  background: transparent;
+}
+.g13x-chip.st-open { color: var(--warn); border-color: var(--warn); background: transparent; }
+
+/* ---------------------------- Area 2: graph ---------------------------- */
+#g13x-graph {
+  grid-row: 2;
+  position: relative;
+  overflow: auto;
+  border-bottom: 1px solid var(--line);
+  background:
+    radial-gradient(circle at 1px 1px, rgba(151, 161, 176, 0.10) 1px, transparent 0) 0 0 / 22px 22px,
+    var(--bg);
+}
+#g13x-graph svg { display: block; }
+.g13x-overlay {
+  position: sticky; top: 0; left: 0; z-index: 3;
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  padding: 6px 10px; pointer-events: none;
+  font-size: 11.5px; color: var(--muted);
+}
+.g13x-overlay > * { pointer-events: auto; }
+.g13x-overlay .g13x-back {
+  background: var(--panel-2); color: var(--text); border: 1px solid var(--line);
+  border-radius: 5px; padding: 3px 10px; font: inherit; cursor: pointer;
+}
+.g13x-overlay .g13x-back:hover { border-color: var(--accent); }
+.g13x-legend { display: flex; gap: 6px; flex-wrap: wrap; }
+
+/* SVG node/edge styling */
+.g13x-node { cursor: pointer; }
+.g13x-node rect {
+  fill: var(--panel);
+  stroke: var(--kind-color, var(--line));
+  stroke-width: 1.4;
+  rx: 7px;
+}
+.g13x-node:hover rect, .g13x-node:focus rect { fill: var(--panel-2); stroke-width: 2.2; }
+.g13x-node text { fill: var(--text); font-size: 11px; }
+.g13x-node .nkind { fill: var(--kind-color, var(--muted)); font-size: 9px; letter-spacing: 0.04em; text-transform: uppercase; }
+.g13x-node-center rect { fill: var(--panel-2); stroke-width: 2.4; }
+.g13x-node-center text { font-size: 12.5px; font-weight: 600; }
+.g13x-edge { stroke: #566276; fill: none; }
+.g13x-edge-label {
+  fill: var(--g13x-edge-label, #b9c2cf); font-size: 10px; font-style: italic;
+  paint-order: stroke; stroke: var(--bg, #12151b); stroke-width: 4px; stroke-linejoin: round;
+}
+.g13x-stub { stroke: #566276; }
+.g13x-stub-label { fill: var(--muted); font-size: 9.5px; }
+
+.g13x-ov-edge { stroke: #4a5568; stroke-opacity: 0.5; }
+.g13x-ov-node { cursor: pointer; }
+.g13x-ov-node circle { stroke: #0d1014; stroke-width: 1; }
+.g13x-ov-node text {
+  fill: var(--muted); font-size: 9px;
+  paint-order: stroke; stroke: var(--bg, #12151b); stroke-width: 3px; stroke-linejoin: round;
+}
+.g13x-ov-node:hover circle, .g13x-ov-node.preview circle { stroke: var(--accent); stroke-width: 2; }
+.g13x-ov-node.preview text, .g13x-ov-node:hover text { fill: var(--text); font-size: 10px; }
+svg.g13x-dense .g13x-ov-node text { display: none; }
+svg.g13x-dense .g13x-ov-node:hover text, svg.g13x-dense .g13x-ov-node.preview text { display: block; }
+
+/* --------------------------- Area 3: detail ---------------------------- */
+#g13x-detail {
+  grid-row: 3;
+  overflow-y: auto;
+  padding: 14px 20px 24px;
+}
+#g13x-detail.empty { color: var(--muted); }
+#g13x-detail .g13-heading { margin: 0.1rem 0 0.5rem; font-size: 19px; color: var(--text); }
+#g13x-detail .g13-chip-row { margin: 0 0 0.3rem; }
+#g13x-detail .g13-statement { font-size: 14.5px; }
+#g13x-detail .g13-summary { color: var(--muted); }
+#g13x-detail .g13-meta, #g13x-detail .g13-dates { font-size: 12.5px; color: var(--muted); }
+#g13x-detail .g13-section h3 {
+  font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.05em;
+  color: var(--muted); margin: 1.3rem 0 0.4rem;
+}
+#g13x-detail .g13-list { list-style: none; margin: 0; padding: 0; }
+#g13x-detail .g13-list > li { padding: 0.3rem 0; }
+#g13x-detail .g13-relation-label { font-size: 11px; font-weight: 600; color: var(--muted); margin-right: 0.25rem; }
+#g13x-detail .g13-relation-note { display: block; font-size: 11.5px; color: var(--muted); margin-top: 0.1rem; }
+#g13x-detail .g13-excerpt {
+  margin: 0.35rem 0 0.2rem; padding: 0.3rem 0.75rem;
+  border-left: 3px solid var(--line); font-size: 12.5px; color: var(--muted);
+  font-style: italic; overflow-wrap: anywhere;
+}
+#g13x-detail .g13-source { overflow-wrap: anywhere; }
+#g13x-detail .g13-view-all { margin: 0.25rem 0 0; font-size: 12.5px; }
+#g13x-detail .g13-view-all summary, #g13x-detail .g13-technical summary { cursor: pointer; color: var(--muted); }
+#g13x-detail .g13-treatment { margin-top: 1.3rem; font-weight: 600; }
+#g13x-detail .g13-technical { margin-top: 1.4rem; font-size: 11.5px; color: var(--muted); }
+#g13x-detail .g13-technical code { overflow-wrap: anywhere; background: var(--chip); border-radius: 3px; padding: 0 4px; }
+#g13x-detail .g13x-permalink { margin-top: 1rem; font-size: 12.5px; border-top: 1px solid var(--line); padding-top: 0.7rem; }
+
+/* kind chips inside rendered findings/relations: editor-style outline chips.
+   Keep this base selector at the same specificity as the per-kind color rules
+   below (it must lose to them), so the kind palette carries into Area 3. */
+.g13x-app .g13-kind {
+  display: inline-block; font-size: 10.5px; font-weight: 600; padding: 1px 7px;
+  border-radius: 9px; border: 1px solid var(--line); background: transparent;
+  color: var(--muted); vertical-align: middle; letter-spacing: 0.02em;
+}
+.g13x-app .g13-kind-source_evidence { color: var(--k-source_evidence); border-color: var(--k-source_evidence); }
+.g13x-app .g13-kind-research_finding { color: var(--k-research_finding); border-color: var(--k-research_finding); }
+.g13x-app .g13-kind-analysis { color: var(--k-analysis); border-color: var(--k-analysis); }
+.g13x-app .g13-kind-identity_hypothesis { color: var(--k-identity_hypothesis); border-color: var(--k-identity_hypothesis); }
+.g13x-app .g13-kind-negative_result { color: var(--k-negative_result); border-color: var(--k-negative_result); }
+.g13x-app .g13-kind-evidence_conflict { color: var(--k-evidence_conflict); border-color: var(--k-evidence_conflict); }
+.g13x-app .g13-kind-published_source_statement { color: var(--k-published_source_statement); border-color: var(--k-published_source_statement); }
+.g13x-app .g13-kind-project_statement { color: var(--k-project_statement); border-color: var(--k-project_statement); }
+.g13x-app .g13-kind-open_question { color: var(--k-open_question); border-color: var(--k-open_question); }
+.g13x-app .g13-kind.kind-source { color: var(--k-source); border-color: var(--k-source); }
+
+/* ----------------- permanent-page embed (light pages) ------------------ */
+/* The relationship map renders as a framed dark figure inside the ordinary
+   light finding page; wide scenes scroll inside the frame. */
+.g13x-embed {
+  background: var(--bg);
+  border: 1px solid #333c4a;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 0.5rem 0 0.25rem;
+}
+.g13x-embed svg { display: block; }
+.g13x-embed-caption {
+  margin: 0;
+  padding: 0.45rem 0.8rem 0.55rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+  border-top: 1px solid #333c4a;
+}
+.g13x-embed-caption a { color: var(--accent); }
+
+/* --------------------------- narrow fallback --------------------------- */
+@media (max-width: 900px) {
+  .g13x-app {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto minmax(280px, 45dvh) auto;
+    height: auto;
+  }
+  #g13x-left { grid-row: 2; border-right: none; border-bottom: 1px solid var(--line); max-height: 45dvh; }
+  #g13x-graph { grid-row: 3; }
+  #g13x-detail { grid-row: 4; max-height: none; }
+}
+
+/* -------------------------------- print -------------------------------- */
+/* Linearize the app for paper: hide the chrome and the item list, re-theme
+   the map and text light (browsers drop dark backgrounds by default), and
+   let the map + selected item's text flow at natural height. */
+@media print {
+  .g13x-body { background: #ffffff; }
+  .g13x-body .site-header, .g13x-body .utility-fab { display: none !important; }
+  .g13x-app, .g13x-embed {
+    --bg: #ffffff;
+    --panel: #ffffff;
+    --panel-2: #f2f4f7;
+    --line: #7d8794;
+    --text: #000000;
+    --muted: #3d4650;
+    --chip: #eef1f4;
+    --g13x-edge-label: #3d4650;
+  }
+  .g13x-app {
+    display: block;
+    height: auto;
+    background: #ffffff;
+    color: #000000;
+    font-size: 12px;
+  }
+  .g13x-bar .links, #g13x-left, .g13x-overlay .g13x-back { display: none !important; }
+  .g13x-bar { background: #ffffff; border-bottom-color: #7d8794; }
+  .g13x-brand .tag { background: #eef1f4; color: #000000; }
+  #g13x-graph {
+    overflow: visible;
+    border-bottom: none;
+    background: #ffffff;
+  }
+  #g13x-graph svg { max-width: 100%; height: auto; }
+  #g13x-detail { overflow: visible; padding: 0.5rem 0 0; }
+  .g13x-edge, .g13x-stub { stroke: #4a5461; }
+  .g13x-ov-edge { stroke: #6b7684; }
+  .g13x-embed { border-color: #7d8794; overflow: visible; }
+  .g13x-embed svg { max-width: 100%; height: auto; }
+}

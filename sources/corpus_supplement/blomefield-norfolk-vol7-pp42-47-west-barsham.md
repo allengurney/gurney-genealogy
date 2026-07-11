@@ -62,6 +62,14 @@ Church monument:
 
 > In 1603, Leonard Metcalf occurs vicar, and certified 420 communicants; patron then, Henry Gurney.
 
+## Vicars list and the 1603–1743 institution gap
+
+The printed West Barsham vicars list runs from a 1583 Fermor presentation to Henry Gurney's 1603 patronage and then jumps to the mid-eighteenth century with no institution recorded in between:
+
+> …1583, Christopher Breese, by Thomas Fermer, Esq. of East-Barsham. In 1603, Leonard Metcalf occurs vicar, and certified 420 communicants; patron then, Henry Gurney. … Mr. Rice died vicar in 1743…
+
+So the list records no West Barsham institution between 1603 and 1743, and a presentation about 1627–28 (the year the widowed Mrs. Gurney presented the schoolmaster "Warford" in the Gurdon–Winthrop letter) would leave no trace in Blomefield. A competing Fermor advowson interest also runs through the parish: Thomas Fermour held a West Barsham lordship "with the advowson of the church of this town" in 12 Eliz., a Kemp release passed to the Fermors in 1603, and "William Fermor, Esq. son of Thomas, was lord of it in 1627." Earlier curio, flagged only: "1555, Richard Gogney, by the Duke of Norfolk" — a possible Gurney-form vicar.
+
 ## Pre-Gurney West Barsham — Walter de Wauci's sheep-foldcourse charter
 
 > Walter de Wauci confirmed to them [the priory] the gifts of his father Hugh, and gave them four acres, with liberty of a fold course for nine score sheep; and that they might take of their men (in the town of West Barsham) customary aid, as they took of their other men, in other places.

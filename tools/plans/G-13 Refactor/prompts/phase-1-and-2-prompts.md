@@ -46,7 +46,7 @@ Run Phase 1 first. 2.4 and 2.5 are unblocked today and can run in parallel with 
 
 ---
 
-## Phase 1 — unblock the source registrations
+## Phase 1 — unblock the source registrations - DONE
 
 *Model: Sonnet. Mechanical, enumerated worklist, hard gate is the lint.*
 
@@ -96,7 +96,7 @@ confirm. `muskett-…-v2` is already registered, so F-R3.9 needs no registration
 
 ---
 
-## Phase 2.1 — `g13-colonial-record-coverage`: the colony-level negative catalogue
+## Phase 2.1 — `g13-colonial-record-coverage`: the colony-level negative catalogue - DONE
 
 *Model: Opus. Nine rows; the largest single revision. Depends on Phase 1.*
 
@@ -141,7 +141,7 @@ and any row you left in backlog with the reason.
 
 ---
 
-## Phase 2.2 — `g13-colonial-braintree-community`: the 1646 petition and the Bracketts
+## Phase 2.2 — `g13-colonial-braintree-community`: the 1646 petition and the Bracketts - DONE
 
 *Model: Opus. Two rows. Depends on Phase 1.*
 
@@ -175,7 +175,7 @@ re-routed, and what stayed backlog.
 
 ---
 
-## Phase 2.3 — `g13-origin-wardship-network`: four English-network rows
+## Phase 2.3 — `g13-origin-wardship-network`: four English-network rows - DONE
 
 *Model: Opus. Four rows, one coherent unit. Phase 1 gates only the Bury fold-in.*
 
@@ -213,7 +213,7 @@ Close out per the skill. Report items, revisions, snapshot, and backlog left sta
 
 ---
 
-## Phase 2.4 — `g13-origin-migration-network`: Jenner, Ann Gurney, the Bucks cluster
+## Phase 2.4 — `g13-origin-migration-network`: Jenner, Ann Gurney, the Bucks cluster - DONE
 
 *Model: Opus. Unblocked today.*
 
@@ -253,7 +253,7 @@ the Ann Gurney sisterhood with your reasoning.
 
 ---
 
-## Phase 2.5 — `g13-identity-candidate-b` + `g13-identity-assessment`: case-file §6 and §10
+## Phase 2.5 — `g13-identity-candidate-b` + `g13-identity-assessment`: case-file §6 and §10 - DONE
 
 *Model: Opus. The last identity work. Unblocked today.*
 
@@ -308,10 +308,11 @@ items land.
 
 ## After Phase 2
 
-Phases 3–7 from the same plan remain: a small-rows sweep (Sonnet), the false-friends
-registry (Sonnet), out-of-scope routing (Sonnet — the cheapest large win, ~35 dump rows to
-`routed`, taking backlog from ~50 to ~15), legacy companion closeout (Opus), and cutover
-(Opus, gated, irreversible). Cutover needs two decisions from Allen before it runs:
-whether the fact sheet's "roughly a sixty percent probability" is updated to the case
-file's ~65% (the standing `confidence_mismatch` friction), and whether the identity units
-stay `public`.
+Phases 3–7 are drafted in [`phase-3-to-7-prompts.md`](phase-3-to-7-prompts.md): the
+small-rows sweep (Sonnet), the false-friends registry (Sonnet), out-of-scope routing
+(Sonnet — the cheapest large win, 35 dump rows to `routed`), the root hub plus
+legacy/supplemental ledger closeout (Opus, two sub-phases), and cutover (Opus, gated,
+irreversible; prompt in `cutover.md`). Allen took the two standing cutover decisions on
+2026-07-10: the fact sheet's "roughly a sixty percent probability" is updated to the case
+file's / topic files' ~65% as part of the cutover change, and the identity units stay
+`public`.

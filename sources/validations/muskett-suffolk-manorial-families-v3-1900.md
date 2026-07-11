@@ -31,11 +31,8 @@ it becomes load-bearing.
 - Remaining: no full-volume variant sweep has been run against this volume;
   only the single Chaplin-pedigree passage has been examined.
 - The finding (the Thomas Chaplin 1672 will naming "Mary Gurney my servant"
-  and the Jeremy Houchin New England debt) is currently recorded only in the
-  dump file
-  `sources/intake/dump-files/dump-2026-07-02-g13-colonial-round3-part2.md`
-  (finding F-R3.11, un-dispositioned backlog per
-  `research/people/_staging/g13-john-gurney/coverage/dump-findings-map.csv`),
-  routed to the `g13-origin-bury-connections` topic. It has not yet been
-  assimilated into topic prose — that promotion is out of scope for this
-  registration turn.
+  and the Jeremy Houchin New England debt) is assimilated (2026-07-10) into
+  `research/people/_staging/g13-john-gurney/topics/origin/24-bury-connections.md`
+  as source_evidence `G13-RI-000188` (CONTEXTUALIZES the attribution finding
+  `G13-RI-000097` as a concrete Bury⇄New England corridor instance; names no
+  John Gurney).
