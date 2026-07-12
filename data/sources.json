@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "1.25.0",
+    "version": "1.26.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
     "lastUpdated": "2026-07-12",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
@@ -4334,6 +4334,83 @@
       "mediaPath": null,
       "validationPath": "sources/validations/early-records-town-of-dedham-vol4-1894.md",
       "notes": "Printed Dedham town-meeting record volume. A full-text sweep is otherwise clean of any Gurn-variant; the sole hit is the 2 January 1670/1 town-meeting entry naming apprentice Thomas Walker's master, \"Goodman Gurney of Dorchester, a Tanner\" — a third independent record stream rendering the Dorchester Gurnell householder as Gurney, this time with an occupation."
+    },
+    "bho-ipm-edward-ii-vol5-gournay-somerset": {
+      "shortTitle": "IPM Edward II vol. 5, no. 538 - Somerset Gournay fees (Anselm, Thomas)",
+      "citation": "\"Inquisitions Post Mortem, Edward II, [no. 538].\" Calendar of Inquisitions Post Mortem, vol. 5 (Edward II). London: HMSO. Internet Archive full text (cu31924011387838).",
+      "archive": "Internet Archive (public-domain HMSO calendar) / British History Online",
+      "url": "https://archive.org/details/cu31924011387838",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/bho-ipm-edward-ii-vol5-gournay-somerset.md",
+      "notes": "Calendar-abstract level. Entry 538 records the early-14th-century Somerset Gournay fees: Thomas de Gurneye holding Inglescombe, and Anselm de Gurnay holding Boketon, Fodyngton and Northcote. Registered as the primary anchor for the Anselm-to-Thomas Inglescombe generation of the Somerset collateral branch; the volume carries no Norfolk Gurnay/Bardolf feoffment (that record is in vol. 7)."
+    },
+    "bho-ipm-henry-iv-vol18-matthew-gournay": {
+      "shortTitle": "BHO IPM Henry IV vol. 18 - Sir Matthew de Gournay footprint",
+      "citation": "\"Inquisitions Post Mortem, Henry IV.\" Calendar of Inquisitions Post Mortem, vol. 18. British History Online.",
+      "archive": "British History Online",
+      "url": "https://www.british-history.ac.uk/inquis-post-mortem/vol18/pp125-144",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/bho-ipm-henry-iv-vol18-matthew-gournay.md",
+      "notes": "Calendar-abstract level. The densest single-volume footprint of Sir Matthew de Gournay (d. 1406), the Somerset soldier: indexed as knight at nos. 152, 446, 651, 846, 962, 1126, 1146, with a reference to the Gurnay barony (no. 793), and a Haccombe (Devon) feoffment (pp. 125-144) naming him beside Trivet, Malet and Hull. Somerset collateral, not the Norfolk direct line."
+    },
+    "bho-ipm-richard-ii-vol16-gournay-catecote": {
+      "shortTitle": "BHO IPM Richard II vol. 16 - Joan (Catecote) heiress; Roger Gournay",
+      "citation": "\"Inquisitions Post Mortem, Richard II.\" Calendar of Inquisitions Post Mortem, vol. 16. British History Online.",
+      "archive": "British History Online",
+      "url": "https://www.british-history.ac.uk/inquis-post-mortem/vol16",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/bho-ipm-richard-ii-vol16-gournay-catecote.md",
+      "notes": "Calendar-abstract level, distinct from the vol. 16 index already registered. Substantive entries: the Dorset manors of Edmondsham and Stour Payn held of Walter Catecote and Joan his wife, daughter and heir of Thomas de Gornay of East Harptree; and Roger Gournay as tenant of two Bamburgh (Northumberland) tenements. For the Somerset and northern collateral map."
+    },
+    "bho-ipm-henry-iii-vol1-robert-gurnay": {
+      "shortTitle": "BHO IPM Henry III vol. 1, no. 710 - Robert de Gurnay (d. 1269)",
+      "citation": "\"Inquisitions Post Mortem, Henry III, [no. 710].\" Calendar of Inquisitions Post Mortem, vol. 1. British History Online.",
+      "archive": "British History Online",
+      "url": "https://www.british-history.ac.uk/inquis-post-mortem/vol1",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Calendar-abstract level. No. 710 records the death (1269) of Robert de Gurnay, the mid-13th-century Somerset baron who united the Somerset Gournay, Harptree and FitzHarding-of-Weare inheritances. Registered as single-citation corroboration of the 1269 date already carried from the VCH Hampshire Wellow Gurnay descent."
+    },
+    "suffolk-institute-proceedings-v1": {
+      "shortTitle": "Proceedings of the Suffolk Institute of Archaeology, vol. 1 (1853)",
+      "citation": "Proceedings of the Suffolk Institute of Archaeology and Natural History, vol. 1 (Bury St Edmunds, 1853), pp. 287-290 (institutions list).",
+      "archive": "British History Online / Internet Archive (public-domain society transactions)",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Printed antiquarian society transactions. The institutions list at pp. 287-290 records a Thomas Gurnay instituted 1435 on the presentation of Walter Aslack, Esq., and Margery his wife (Paston-circle patronage). Single-citation abstract for the Norwich-collateral clergy note; the exact parish is to be confirmed from the page running head."
+    },
+    "bho-journals-commons-lords": {
+      "shortTitle": "BHO Journals of the House of Commons & Lords (Civil-War Gurney items)",
+      "citation": "Journal of the House of Commons, vol. 6 (1648-1651); Journal of the House of Lords, vols. 5, 6, 8. British History Online.",
+      "archive": "British History Online",
+      "url": "https://www.british-history.ac.uk/commons-jrnl/vol6",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Parliamentary journals of the 1640s civil war. Registered only for the impeachment, sequestration and imprisonment records of Sir Richard Gurney, Lord Mayor of London (a same-surname false friend excluded from the Gurney direct line), used in the false-friends registry. Not a source for the direct or collateral pedigree."
+    },
+    "odnb-richard-gurney-lord-mayor": {
+      "shortTitle": "ODNB - Sir Richard Gurney, 1st baronet (1576/7-1647), Lord Mayor",
+      "citation": "Oxford Dictionary of National Biography, s.v. 'Gurney, Sir Richard, first baronet (1576/7-1647), local politician and merchant' (Oxford University Press).",
+      "archive": "Oxford University Press (ODNB)",
+      "url": null,
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Tertiary biographical authority for Sir Richard Gurney, Lord Mayor of London 1641-42, impeached and imprisoned for proclaiming the royalist Commission of Array. Registered for the false-friends registry only: a genuine Gurney by surname but not the Norfolk direct line, and the dominant London 'Gurney' false-positive of the 1640s."
     }
   }
 }

@@ -226,7 +226,7 @@ L-54 (Philippide locators found), and the Anchin-charter follow-up is L-196 (ver
 
 ---
 
-## W5 — the Norfolk collateral map & G17 Anthony — Model: Opus
+## W5 — the Norfolk collateral map & G17 Anthony — Model: Opus - DONE
 
 *Destinations: `research/people/g17-anthony-gurney-fact-sheet.research.md`,
 `research/topics/norwich-gurney-collateral-network.md`,

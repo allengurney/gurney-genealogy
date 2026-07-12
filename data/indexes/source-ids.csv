@@ -36,13 +36,18 @@ bho-1640-principal-inhabitants-london-deferred,"Harvey - List of the Principal I
 bho-beaven-aldermen-richard-gourney-1589-1597,"BHO - Beaven aldermen, Richard Gourney",partial,sources/corpus_supplement/bho-beaven-aldermen-richard-gourney-1589-1597.md,,sources/validations/bho-beaven-aldermen-richard-gourney-1589-1597.md
 bho-hmc-kings-lynn-chamberlains-accounts,BHO HMC - King's Lynn Chamberlains' Accounts,full,sources/corpus_supplement/bho-hmc-kings-lynn-chamberlains-accounts-pp213-231.md,,sources/validations/bho-hmc-kings-lynn-chamberlains-accounts.md
 bho-hmc-kings-lynn-misc-writings,BHO HMC - King's Lynn Miscellaneous Writings,partial,sources/corpus_supplement/bho-hmc-kings-lynn-francis-gurney-1622.md,,sources/validations/bho-hmc-kings-lynn-misc-writings.md
+bho-ipm-edward-ii-vol5-gournay-somerset,"IPM Edward II vol. 5, no. 538 - Somerset Gournay fees (Anselm, Thomas)",none,,,sources/validations/bho-ipm-edward-ii-vol5-gournay-somerset.md
 bho-ipm-edward-iii-file31-gournay-harpetree,BHO IPM Edward III File 31 - Thomas Gournay of Harpetree,partial,sources/corpus_supplement/bho-ipm-edward-iii-file31-gournay-harpetree.md,,sources/validations/bho-ipm-edward-iii-file31-gournay-harpetree.md
 bho-ipm-edward-iii-file35-gournay-inglescombe,BHO IPM Edward III File 35 - Thomas Gournay of Inglescombe,partial,sources/corpus_supplement/bho-ipm-edward-iii-file35-gournay-inglescombe.md,,sources/validations/bho-ipm-edward-iii-file35-gournay-inglescombe.md
 bho-ipm-edward-iii-vol12-sancto-omero-mulbarton-1366,"BHO Calendar of IPM, Edward III, vol. 12 — Thomas de Sancto Omero (1366)",none,,,
 bho-ipm-edward-iii-vol7-bardolf-swathings,"BHO IPM Edward III vol. 7, no. 243 - Thomas Bardolf (Swathings/barony of Gurnay)",partial,sources/corpus_supplement/bho-ipm-edward-iii-vol7-243-bardolf-swathings.md,,sources/validations/bho-ipm-edward-iii-vol7-bardolf-swathings.md
+bho-ipm-henry-iii-vol1-robert-gurnay,"BHO IPM Henry III vol. 1, no. 710 - Robert de Gurnay (d. 1269)",none,,,
+bho-ipm-henry-iv-vol18-matthew-gournay,BHO IPM Henry IV vol. 18 - Sir Matthew de Gournay footprint,none,,,sources/validations/bho-ipm-henry-iv-vol18-matthew-gournay.md
 bho-ipm-henry-iv-vol19-gournay-johnv,"BHO IPM vol. 19 (Henry IV) - John Gournay (Sir John V), d.1408",none,,,sources/validations/bho-ipm-henry-iv-vol19-gournay-johnv.md
 bho-ipm-henry-vii-townshend-gurnay-feoffee,"BHO Calendar of IPM, Henry VII (series 2) - William Gurnay feoffee appearances",partial,sources/corpus_supplement/bho-ipm-henry-vii-townshend-gurnay-feoffee.md,,
+bho-ipm-richard-ii-vol16-gournay-catecote,BHO IPM Richard II vol. 16 - Joan (Catecote) heiress; Roger Gournay,none,,,sources/validations/bho-ipm-richard-ii-vol16-gournay-catecote.md
 bho-ipm-vol16-index-gournay,BHO IPM vol. 16 Index - Gournay/Gurney,partial,sources/corpus_supplement/bho-ipm-vol16-index-gournay.md,,sources/validations/bho-ipm-vol16-index-gournay.md
+bho-journals-commons-lords,BHO Journals of the House of Commons & Lords (Civil-War Gurney items),none,,,
 bho-livery-haberdashers-gournay-charity,BHO - Haberdashers' Company Gournay's Charity,partial,sources/corpus_supplement/bho-haberdashers-gournays-charity.md,,sources/validations/bho-livery-haberdashers-gournay-charity.md
 bho-london-hearth-tax-merry-2010,London Hearth Tax project database (Merry 2010),partial,sources/corpus_supplement/london-hearth-tax-1662-1666-gurney-cluster.md,sources/media/london-hearth-tax-merry-2010/London_Hearth_Tax_database.mdb,
 bho-london-inhabitants-st-augustine-1638,"BHO - Inhabitants of London 1638, St Augustine",full,sources/corpus_supplement/bho-london-inhabitants-st-augustine-1638.md,,sources/validations/bho-london-inhabitants-st-augustine-1638.md
@@ -289,6 +294,7 @@ ny-state-military-museum-127th-infantry,NYS Military Museum - 127th Infantry Reg
 ny-war-1812-payroll-abstracts,New York War of 1812 militia payroll abstracts,none,,sources/media/ny-war-1812-payroll-abstracts/,sources/validations/ny-war-1812-payroll-abstracts.md
 nyclipper-1895-08-patchogue-fauntleroy,"New York Clipper, August 1895 — Patchogue Lord Fauntleroy notice",partial,sources/corpus_supplement/nyclipper-1895-08-patchogue-fauntleroy.md,sources/media/nyclipper-1895-08-patchogue-fauntleroy/,sources/validations/nyclipper-1895-08-patchogue-fauntleroy.md
 odnb-matthew-gournay,"ODNB / DNB — Sir Matthew de Gournay (d. 1406), soldier",none,,,sources/validations/odnb-matthew-gournay.md
+odnb-richard-gurney-lord-mayor,"ODNB - Sir Richard Gurney, 1st baronet (1576/7-1647), Lord Mayor",none,,,
 oeuvres-rigord-guillaume-breton-delaborde,"Œuvres de Rigord et de Guillaume le Breton (Delaborde, SHF, 1882-1885)",partial,sources/corpus_supplement/oeuvres-rigord-guillaume-breton-delaborde-vol2-gournay-philippide.md,,sources/validations/oeuvres-rigord-guillaume-breton-delaborde.md
 opendomesday-org,Open Domesday,external,,,
 openedition-abbayes-seigneurs-normands-annexe,"OpenEdition, abbeys founded by Norman lords",none,,,
@@ -353,6 +359,7 @@ suffolk-county-court-records-1671-1680-csm-29-30,"Records of the Suffolk County 
 suffolk-deeds-liber-12-1902,"Suffolk Deeds, Liber XII (1902)",supplement,sources/corpus_supplement/suffolk-deeds-liber-xii-gurnell-dorchester.md,,sources/validations/suffolk-deeds-liber-12-1902.md
 suffolk-deeds-liber-i-1880,"Suffolk Deeds, Liber I (1880)",none,,,sources/validations/suffolk-deeds-liber-i-1880.md
 suffolk-deeds-liber-iv-1888,"Suffolk Deeds, Liber IV (1888)",partial,sources/corpus_supplement/suffolk-deeds-liber-iv-1888-gurney-extracts.md,,sources/validations/suffolk-deeds-liber-iv-1888.md
+suffolk-institute-proceedings-v1,"Proceedings of the Suffolk Institute of Archaeology, vol. 1 (1853)",none,,,
 suffolk-probate-index-v2-1895,"Suffolk Probate Index, vol. 2",none,,,sources/validations/suffolk-probate-index-v2-1895.md
 suffolk-visitations-metcalfe-1882,"Metcalfe, Visitations of Suffolk",extract,sources/corpus_supplement/ryvett-suffolk-visitation-pedigrees-metcalfe.md,,sources/validations/suffolk-visitations-metcalfe-1882.md
 suger-vie-louis-le-gros,"Suger, Vie de Louis le Gros",external,,,

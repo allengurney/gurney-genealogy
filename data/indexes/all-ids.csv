@@ -192,8 +192,12 @@ bho-hmc-kings-lynn-misc-writings,source,BHO HMC - King's Lynn Miscellaneous Writ
 bho-ipm-edward-iii-file31-gournay-harpetree,source,BHO IPM Edward III File 31 - Thomas Gournay of Harpetree,data/sources.json
 bho-ipm-edward-iii-file35-gournay-inglescombe,source,BHO IPM Edward III File 35 - Thomas Gournay of Inglescombe,data/sources.json
 bho-ipm-edward-iii-vol7-bardolf-swathings,source,"BHO IPM Edward III vol. 7, no. 243 - Thomas Bardolf (Swathings/barony of Gurnay)",data/sources.json
+bho-ipm-henry-iii-vol1-robert-gurnay,source,"BHO IPM Henry III vol. 1, no. 710 - Robert de Gurnay (d. 1269)",data/sources.json
+bho-ipm-henry-iv-vol18-matthew-gournay,source,BHO IPM Henry IV vol. 18 - Sir Matthew de Gournay footprint,data/sources.json
+bho-ipm-richard-ii-vol16-gournay-catecote,source,BHO IPM Richard II vol. 16 - Joan (Catecote) heiress; Roger Gournay,data/sources.json
 bho-ipm-vol16-index-gournay,source,BHO IPM vol. 16 Index - Gournay/Gurney,data/sources.json
 bho-ipm-henry-iv-vol19-gournay-johnv,source,"BHO IPM vol. 19 (Henry IV) - John Gournay (Sir John V), d.1408",data/sources.json
+bho-journals-commons-lords,source,BHO Journals of the House of Commons & Lords (Civil-War Gurney items),data/sources.json
 bho-statutes-realm-1661-assessment,source,BHO Statutes - 1661 Assessment Act,data/sources.json
 billerica-town-records-ms,source,Billerica town records (MS),data/sources.json
 blomefield-norfolk,source,"Blomefield, History of Norfolk",data/sources.json
@@ -359,6 +363,7 @@ hull-thesis-english-way-of-war-1360-1399,source,"Hull PhD thesis — The English
 arber-stationers-bsoc-petition-1646-hunscott,source,"Hunscott - Humble Petition and Information, 1646 (Wing H3728)",data/sources.json
 hurlock-oldfield-crusading-pilgrimage-norman-2015,source,"Hurlock and Oldfield, Crusading and Pilgrimage in the Norman World (2015)",data/sources.json
 rye-index-rerum-norfolk-antiquities-1910,source,"Index Rerum to Norfolk Antiquities (Rye, 1910)",data/sources.json
+bho-ipm-edward-ii-vol5-gournay-somerset,source,"IPM Edward II vol. 5, no. 538 - Somerset Gournay fees (Anselm, Thomas)",data/sources.json
 keates-rohan-domesday,source,"Keates-Rohan, Domesday People",data/sources.json
 laslett-world-we-have-lost-1965,source,"Laslett, World We Have Lost",data/sources.json
 les-olim,source,Les Olim (French legal records),data/sources.json
@@ -429,6 +434,7 @@ nro-pd-12-1,source,"NRO PD 12/1 (St Martin at Palace, Norwich)",data/sources.jso
 nro-pd-86-41,source,NRO PD 86/41 (East Dereham register),data/sources.json
 nrp-recherches-possessions-1852,source,"NRP de la Mairie, Recherches…Possessions des Sires Normands (1852)",data/sources.json
 ny-state-military-museum-127th-infantry,source,NYS Military Museum - 127th Infantry Regiment,data/sources.json
+odnb-richard-gurney-lord-mayor,source,"ODNB - Sir Richard Gurney, 1st baronet (1576/7-1647), Lord Mayor",data/sources.json
 odnb-matthew-gournay,source,"ODNB / DNB — Sir Matthew de Gournay (d. 1406), soldier",data/sources.json
 opendomesday-org,source,Open Domesday,data/sources.json
 openedition-abbayes-seigneurs-normands-annexe,source,"OpenEdition, abbeys founded by Norman lords",data/sources.json
@@ -457,6 +463,7 @@ porter-genealogy-richard-porter-1878,source,"Porter, Genealogy of the Descendant
 potin-recherches-ville-gournay-1842,source,"Potin de la Mairie, Recherches…ville de Gournay (1842)",data/sources.json
 potts-monastic-revival-regional-identity-1997,source,"Potts, Monastic Revival and Regional Identity (1997)",data/sources.json
 powell-historie-cambria-1584,source,Powell -- Historie of Cambria (1584),data/sources.json
+suffolk-institute-proceedings-v1,source,"Proceedings of the Suffolk Institute of Archaeology, vol. 1 (1853)",data/sources.json
 gurney-drogo-pilgrimage-research-2026,source,Project research handoff -- Gerard de Gournay Drogo/pilgrimage/death window (2026),data/sources.json
 projet-conde-conquets-hue-gournay,source,"Projet ConDE, Conquets Hue de Gournay custom",data/sources.json
 protestation-returns,source,Protestation Returns 1641–42,data/sources.json
