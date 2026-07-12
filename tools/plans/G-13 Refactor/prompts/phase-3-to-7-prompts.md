@@ -203,7 +203,7 @@ regresses. Report the registry path, entries, registrations, and rows closed.
 
 ---
 
-## Phase 5 — out-of-scope routing: 35 dump rows to `routed` - WIP
+## Phase 5 — out-of-scope routing: 35 dump rows to `routed` - DONE
 
 *Model: Sonnet. The cheapest large win. Ledger-only — no graph writes, no topic
 prose, no source registrations. Unblocked today.*
@@ -253,7 +253,7 @@ matched, and any row held back with its G13 bearing.
 
 ---
 
-## Phase 6.1 — the root hub
+## Phase 6.1 — the root hub - DONE
 
 *Model: Opus. The Plan 02 §6 hub is a cutover gate requirement, and several
 legacy rows can only be dispositioned once it exists. After Phases 3–5.*

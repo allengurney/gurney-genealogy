@@ -299,7 +299,7 @@ L-197/L-199 (Fleet-Street Gurneys — verify).
 
 ---
 
-## W7 — corpus / source / data-spine reconciliation — Model: Sonnet
+## W7 — corpus / source / data-spine reconciliation — Model: Sonnet - DONE
 
 *The closing mechanical session. Destinations: `data/sources.json`,
 `sources/corpus_supplement/`, `sources/validations/`, `data/search-variants.json`,

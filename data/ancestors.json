@@ -1218,7 +1218,8 @@
       "place-irstead-norfolk-england",
       "place-west-barsham-norfolk-england",
       "place-gurneys-manor-hingham-norfolk-england",
-      "place-old-hall-great-ellingham-norfolk-england"
+      "place-old-hall-great-ellingham-norfolk-england",
+      "place-larling-norfolk-england"
     ]
   },
   {
@@ -1366,7 +1367,9 @@
     "placeRefs": [
       "place-baconsthorpe-castle-norfolk-england",
       "place-burnham-thorpe-norfolk-england",
-      "place-west-barsham-norfolk-england"
+      "place-west-barsham-norfolk-england",
+      "place-booton-norfolk-england",
+      "place-cawston-norfolk-england"
     ]
   },
   {
@@ -1682,7 +1685,8 @@
     "recordId": "ancestor-g25-john-de-gournay-iii",
     "placeRefs": [
       "place-hardingham-norfolk-england",
-      "place-harpley-norfolk-england"
+      "place-harpley-norfolk-england",
+      "place-letton-norfolk-england"
     ]
   },
   {

@@ -20,6 +20,15 @@ The documents themselves have **not** been pulled.
   unresolved; they are carried as catalogue leads, not as Thomas III's death IPM.
 - A "Thomas Gurney, knight: Essex" (WARD 7/81/91; C 142/479/95, 7 Chas I) has no
   known place in the Norfolk line and is logged only as an Essex comparator.
+- **Antony Gurney: Norfolk** — C 142/106/46 (2&3 Ph&M, 1555/6) and C 142/154/67
+  (12 Eliz, 1569/70). The first predates G17 Anthony Gurney's documented death
+  (his will was proved Dec. 1557), so it cannot be his own death inquisition as
+  read literally; promoted to the g17 companion as an open catalogue lead, not
+  assigned to Anthony without the document itself.
+- **William Gurney: Norfolk / Suffolk** — C 142/37/103 and C 142/37/122 (13 Hen
+  VIII, 1521/2). Conflicts with both G19's IPM-attested death (16 Feb. 1507/8)
+  and G18's predecease of his father — neither fits 1521/2 as read. Promoted to
+  the g19 companion as an unresolved catalogue lead (2026-07-12).
 
 ## Scope and limitations
 - **Catalogue-level only** — descriptions, regnal dates, and references are read;
@@ -34,3 +43,7 @@ The documents themselves have **not** been pulled.
 ## Where findings landed
 - `research/people/_staging/g13-john-gurney/topics/origin/23-wardship-network.md`
   (staged topic; item `G13-RI-000081`, and via synthesis `G13-RI-000083`).
+- `research/people/g17-anthony-gurney-fact-sheet.research.md` (Antony IPMs,
+  catalogue-level open lead, 2026-07-12).
+- `research/people/g19-william-gurney-iv-fact-sheet.research.md` (William IPMs,
+  catalogue-level open lead, 2026-07-12).

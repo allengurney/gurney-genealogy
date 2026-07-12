@@ -44,7 +44,7 @@ bho-ipm-edward-iii-vol7-bardolf-swathings,"BHO IPM Edward III vol. 7, no. 243 - 
 bho-ipm-henry-iii-vol1-robert-gurnay,"BHO IPM Henry III vol. 1, no. 710 - Robert de Gurnay (d. 1269)",none,,,
 bho-ipm-henry-iv-vol18-matthew-gournay,BHO IPM Henry IV vol. 18 - Sir Matthew de Gournay footprint,none,,,sources/validations/bho-ipm-henry-iv-vol18-matthew-gournay.md
 bho-ipm-henry-iv-vol19-gournay-johnv,"BHO IPM vol. 19 (Henry IV) - John Gournay (Sir John V), d.1408",none,,,sources/validations/bho-ipm-henry-iv-vol19-gournay-johnv.md
-bho-ipm-henry-vii-townshend-gurnay-feoffee,"BHO Calendar of IPM, Henry VII (series 2) - William Gurnay feoffee appearances",partial,sources/corpus_supplement/bho-ipm-henry-vii-townshend-gurnay-feoffee.md,,
+bho-ipm-henry-vii-townshend-gurnay-feoffee,"BHO Calendar of IPM, Henry VII (series 2) - William Gurnay feoffee appearances",partial,sources/corpus_supplement/bho-ipm-henry-vii-townshend-gurnay-feoffee.md,,sources/validations/bho-ipm-henry-vii-townshend-gurnay-feoffee.md
 bho-ipm-richard-ii-vol16-gournay-catecote,BHO IPM Richard II vol. 16 - Joan (Catecote) heiress; Roger Gournay,none,,,sources/validations/bho-ipm-richard-ii-vol16-gournay-catecote.md
 bho-ipm-vol16-index-gournay,BHO IPM vol. 16 Index - Gournay/Gurney,partial,sources/corpus_supplement/bho-ipm-vol16-index-gournay.md,,sources/validations/bho-ipm-vol16-index-gournay.md
 bho-journals-commons-lords,BHO Journals of the House of Commons & Lords (Civil-War Gurney items),none,,,
@@ -72,7 +72,7 @@ burke-landed-gentry-gurney,Burke's Landed Gentry - Gurney of Maldon pedigree (te
 bury-st-james-registers,"Bury St Edmunds, St James registers",extract,sources/corpus_supplement/bury-st-edmunds-gurney-registers-1561-1800.md,,sources/validations/bury-st-james-registers.md
 cal-cecil-papers-hatfield,"Calendar of Cecil Papers, Hatfield House",partial,sources/corpus_supplement/cecil-papers-vol18-edmund-gurnay-1606-cambridge.md,,
 calder-new-haven-colony-1934,"Calder, New Haven Colony",none,,,
-calendar-close-rolls-edward-iii-vols12-14,"Calendar of the Close Rolls, Edward III, vols. 12-14",partial,sources/corpus_supplement/calendar-close-rolls-edward-iii-edmund-gourneye-commissions.md,,sources/validations/calendar-close-rolls-edward-iii-vols12-14.md
+calendar-close-rolls-edward-iii-vols12-14,"Calendar of the Close Rolls, Edward III, vols. 12-14",full,sources/corpus_supplement/calendar-close-rolls-edward-iii-edmund-gourneye-commissions.md,,sources/validations/calendar-close-rolls-edward-iii-vols12-14.md
 cambridge-core-camden-preface-addenda,Camden Old Series - Preface and Addenda,partial,sources/corpus_supplement/cambridge-core-camden-preface-addenda-gournay-bardolf.md,,sources/validations/cambridge-core-camden-preface-addenda.md
 candidate-d-london-context-web-bundle,Candidate D London context web bundle,none,,,sources/validations/candidate-d-london-context-web-bundle.md
 candidate-d-london-grine-grene-index-leads-bundle,Candidate D London Grine/Grene index-lead bundle,none,,,sources/validations/candidate-d-london-grine-grene-index-leads-bundle.md
@@ -127,7 +127,7 @@ faden-map-norfolk-1797-hardingham,Faden map of Norfolk - Hardingham extract,none
 fairhaven-lester-obituary,"Lester Hayes Gurney Obituary (FairHaven, 2025)",none,,,
 familysearch-fulltext-search,FamilySearch Full-Text Search (AI-transcribed images),none,,,sources/validations/familysearch-fulltext-search.md
 farrer-church-heraldry-norfolk,"Farrer, Church Heraldry of Norfolk",none,,,sources/validations/farrer-church-heraldry-norfolk.md
-farrer-honors-knights-fees-v3-gurnay-extracts,"Farrer, Honors and Knights' Fees, vol. 3 - Gurnay extracts",partial,sources/corpus_supplement/farrer-honors-knights-fees-v3-gurnay-extracts.txt,sources/media/mdp-39015032992151-158-312-314-333-406-407-436-439-1777765448.pdf,sources/validations/farrer-honors-knights-fees-v3-gurnay-extracts.md
+farrer-honors-knights-fees-v3-gurnay-extracts,"Farrer, Honors and Knights' Fees, vol. 3 - Gurnay extracts",full,sources/corpus_supplement/farrer-honors-knights-fees-v3-gurnay-extracts.txt,sources/media/mdp-39015032992151-158-312-314-333-406-407-436-439-1777765448.pdf,sources/validations/farrer-honors-knights-fees-v3-gurnay-extracts.md
 fauroux-recueil,"Fauroux, Recueil des actes des ducs de Normandie",none,,,
 feltwell-net-mundefords-of-feltwell,feltwell.net -- The Mundefords of Feltwell,none,,,
 ferrieres-en-bray-official-history,Ferrieres-en-Bray official history,none,,,
@@ -238,6 +238,7 @@ macris-mhc,MACRIS - Massachusetts Cultural Resource Information System,none,,,
 massachusetts-archives-vol-45-lands-1622-1726,"Massachusetts Archives, vol. 45 (Lands, 1622–1726)",none,,,sources/validations/massachusetts-archives-vol-45-lands-1622-1726.md
 massachusetts-bay-records-v1-1853,"Massachusetts Bay Records, vol. 1",none,,,sources/validations/massachusetts-bay-records-v1-1853.md
 massachusetts-bay-records-v2-1853,"Mass. Bay Records, vol. 2 (1642–1649), Shurtleff ed.",extract,,,sources/validations/massachusetts-bay-records-v2-1853.md
+massachusetts-bay-records-v5-1854,"Massachusetts Bay Records, vol. 5 (1674-1686), Shurtleff ed.",none,,,sources/validations/massachusetts-bay-records-v5-1854.md
 massachusetts-state-archives-colonial,"Massachusetts State Archives, colonial period (petition calendar)",,,,sources/validations/massachusetts-state-archives-colonial.md
 may-henry-gurney-spenser-2005,"May, Henry Gurney reads Spenser",partial,sources/corpus_supplement/henry_gurney_g15_may_article_narrative.md,,sources/validations/may-henry-gurney-spenser-2005.md
 mcgraw-edison-history,McGraw-Edison company history (Wikipedia; Eaton/Cooper heritage),none,,,
@@ -295,7 +296,7 @@ ny-war-1812-payroll-abstracts,New York War of 1812 militia payroll abstracts,non
 nyclipper-1895-08-patchogue-fauntleroy,"New York Clipper, August 1895 — Patchogue Lord Fauntleroy notice",partial,sources/corpus_supplement/nyclipper-1895-08-patchogue-fauntleroy.md,sources/media/nyclipper-1895-08-patchogue-fauntleroy/,sources/validations/nyclipper-1895-08-patchogue-fauntleroy.md
 odnb-matthew-gournay,"ODNB / DNB — Sir Matthew de Gournay (d. 1406), soldier",none,,,sources/validations/odnb-matthew-gournay.md
 odnb-richard-gurney-lord-mayor,"ODNB - Sir Richard Gurney, 1st baronet (1576/7-1647), Lord Mayor",none,,,
-oeuvres-rigord-guillaume-breton-delaborde,"Œuvres de Rigord et de Guillaume le Breton (Delaborde, SHF, 1882-1885)",partial,sources/corpus_supplement/oeuvres-rigord-guillaume-breton-delaborde-vol2-gournay-philippide.md,,sources/validations/oeuvres-rigord-guillaume-breton-delaborde.md
+oeuvres-rigord-guillaume-breton-delaborde,"Œuvres de Rigord et de Guillaume le Breton (Delaborde, SHF, 1882-1885)",full,sources/corpus_supplement/oeuvres-rigord-guillaume-breton-delaborde-vol2-gournay-philippide.md,,sources/validations/oeuvres-rigord-guillaume-breton-delaborde.md
 opendomesday-org,Open Domesday,external,,,
 openedition-abbayes-seigneurs-normands-annexe,"OpenEdition, abbeys founded by Norman lords",none,,,
 orderic-vitalis-chibnall-vol-5,"Orderic Vitalis, Historia Aecclesiastica, ed./trans. Chibnall, vol. 5 (Books 9-10)",external,,,
@@ -309,7 +310,7 @@ palgrave-history-england-normandy-1864,"Palgrave, History of England and Normand
 palmer-perlustration-yarmouth-1872,"Palmer, Perlustration of Great Yarmouth (1872)",partial,,,
 park-royal-holloway-thesis-2013,"Park, PhD thesis (Royal Holloway, 2013) -- crusading inheritance protection",external,,,
 paston-letters-davis,Paston Letters and Papers -- Davis edition,none,,,sources/validations/paston-letters-davis.md
-paston-letters-gairdner,Paston Letters -- Gairdner edition (1904),supplement,sources/corpus_supplement/paston-letters-gairdner-gurney-extracts.md,,
+paston-letters-gairdner,Paston Letters -- Gairdner edition (1904),full,sources/corpus_supplement/paston-letters-gairdner-gurney-extracts.md,,sources/validations/paston-letters-gairdner.md
 pattou-racines-histoire-gournay-2025,Pattou Racines Histoire -- Gournay,external,,,
 pcc-rivett-rattlesden-wills,"PCC wills - Rivett/Ryvett of Rattlesden (1610, 1626)",none,,,sources/validations/pcc-rivett-rattlesden-wills.md
 pease-pennyghael,Pease genealogy (Pennyghael),none,,,
@@ -326,7 +327,7 @@ powell-historie-cambria-1584,Powell -- Historie of Cambria (1584),external,,,
 projet-conde-conquets-hue-gournay,"Projet ConDE, Conquets Hue de Gournay custom",none,,,
 protestation-returns,Protestation Returns 1641–42,none,,,
 records-first-church-dorchester-1891,"Records of the First Church at Dorchester, 1636-1734 (1891)",none,,,sources/validations/records-first-church-dorchester-1891.md
-recueil-actes-henri-ii-delisle-berger-introduction,"Recueil des actes de Henri II, Delisle/Berger, Introduction (1909)",partial,sources/corpus_supplement/actes-henri-ii-delisle-berger-introduction-gournay-extracts.md,,sources/validations/recueil-actes-henri-ii-delisle-berger-introduction.md
+recueil-actes-henri-ii-delisle-berger-introduction,"Recueil des actes de Henri II, Delisle/Berger, Introduction (1909)",full,sources/corpus_supplement/actes-henri-ii-delisle-berger-introduction-gournay-extracts.md,,sources/validations/recueil-actes-henri-ii-delisle-berger-introduction.md
 recueil-actes-henri-ii-delisle-berger-vol-1,"Recueil des actes de Henri II, Delisle/Berger, vol. 1 (1916)",full,sources/corpus_supplement/actes-henri-ii-delisle-berger-vol1-text.md,sources/media/recueildesactesd01grea.pdf,
 recueil-actes-henri-ii-delisle-berger-vol-2,"Recueil des actes de Henri II, Delisle/Berger, vol. 2 (1920)",full,sources/corpus_supplement/actes-henri-ii-delisle-berger-vol2-text.md,sources/media/recueildesactesd02grea.pdf,
 regesta-rano,Regesta Regum Anglo-Normannorum (Bates),none,,,

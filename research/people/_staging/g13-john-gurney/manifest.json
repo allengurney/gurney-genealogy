@@ -6,6 +6,7 @@
     "title": "John Gurney Research Library",
     "hubSlug": "g13-john-gurney",
     "introFile": "research/people/_staging/g13-john-gurney/topics/00-research-library.md",
+    "rootHubFile": "research/people/_staging/g13-john-gurney/hub.md",
     "groups": [
       {
         "id": "colonial",
@@ -307,7 +308,7 @@
       "order": 30,
       "publicSlug": "origin/trade-and-training",
       "publicationStatus": "public",
-      "summary": "The origin bearing of John's tailoring trade. A tailor's craft usually passed father to son, and his likely father Francis Gurney was himself a Merchant Taylor from a Norfolk family long in the worsted-and-woollen economy — so his training should be traceable, yet both surviving formal pathways (the Merchant Taylors' Company of London and the Norwich freemen and apprentice registers) carry no John Gurney in the emigrant window. His craft was learned off the enrolled books, by informal or country training; the one enrolled 'John Gurney' apprenticeship in the New England orbit, the 1636 Newgate indenture, belongs to a de-conflated younger man. The trade points back toward a Norfolk textile family, strengthening without proving the association with Norfolk, the Gurneys, and Francis.",
+      "summary": "The origin bearing of John's tailoring trade. A tailor's craft usually passed father to son, and his likely father Francis Gurney was a Merchant Taylor from a Norfolk textile family — so his training should be traceable, yet both formal pathways (the Merchant Taylors' Company of London and the Norwich freemen and apprentice registers) carry no John Gurney in the emigrant window. His craft was learned off the enrolled books; the trade points back toward a Norfolk textile family, strengthening without proving the Norfolk and Francis association.",
       "researchItemIds": [
         "G13-RI-000072",
         "G13-RI-000073",
@@ -353,7 +354,7 @@
       "order": 50,
       "publicSlug": "origin/wardship-and-patronage-network",
       "publicationStatus": "public",
-      "summary": "The English wardship-and-patronage network around the senior West Barsham branch in John's emigration decade: the branch as a Court of Wards minor-heir household (Edward Gournay a royal ward under his widowed mother Martha Lewkenor after Thomas Gurney III died c.1621×1623, predeceasing Henry G15), the 1627 Gurdon–Winthrop letter placing the widowed 'Mrs. Gurney' inside the Court of Wards circle of Winthrop and Downing, and the Gurdon–Sedley–Lewkenor puritan matrix behind it — plus the Gurney-held West Barsham advowson behind the open Warford presentation, Adam Winthrop's 1605 diary memorial of the Denham Lewkenors, and the kin-sourced L'Estrange jest-book tradition — read as origin-bearing context about the senior branch that neither connects John to it nor traces his crossing, with the identity question held to the case file.",
+      "summary": "The English wardship-and-patronage network around the senior West Barsham branch in John's emigration decade: the branch as a Court of Wards minor-heir household under the widowed Martha Lewkenor, and the 1627 Gurdon–Winthrop letter placing 'Mrs. Gurney' inside the Court of Wards circle of Winthrop and Downing. Read as origin-bearing context about the senior branch that neither connects John to it nor traces his crossing, with the identity question held to the case file.",
       "researchItemIds": [
         "G13-RI-000080",
         "G13-RI-000081",
@@ -377,7 +378,7 @@
       "order": 60,
       "publicSlug": "origin/bury-connections",
       "publicationStatus": "public",
-      "summary": "Charles Banks's 'Bury St Edmunds' origin attribution for John Gurney — the one specific English parish any published authority ever named for him — resolved: an unproven 'Banks Mss.' lead with no Bury natal record behind it, most plausibly tracking the Bury-area feltmaker John Newgate's 1636 runaway apprentice rather than the Braintree emigrant, and consistent with the favoured Norfolk (Candidate B) origin rather than evidence against it. The Bury St James and St Mary parish registers hold no Gurney household that could have fathered him, and Anderson's Great Migration Directory independently records the origin as 'Unknown'. A 1672 Bury will leaving £40 to 'Mary Gurney my servant' beside a New England (Houchin) debt illustrates the real Suffolk–Massachusetts corridor Banks mistook for a birthplace, without touching the emigrant's family.",
+      "summary": "Charles Banks's 'Bury St Edmunds' attribution — the one specific English parish any published authority ever named for John — resolved: an unproven 'Banks Mss.' lead with no Bury natal record behind it, most plausibly tracking the feltmaker John Newgate's 1636 runaway apprentice rather than the emigrant, and consistent with the favoured Norfolk origin. The Bury registers hold no Gurney household that could have fathered him, and Anderson independently records the origin as 'Unknown'.",
       "researchItemIds": [
         "G13-RI-000092",
         "G13-RI-000093",
@@ -457,7 +458,7 @@
       "order": 30,
       "publicSlug": "identity/candidate-b-norfolk-parentage",
       "publicationStatus": "public",
-      "summary": "The surviving candidate's own case: John Gurney of Braintree as the son of Francis Gurney, Merchant Taylor of West Barsham, Norwich and London, by his first wife Margaret Rybett. Two primary records carry it — the 1611 Norwich marriage no earlier genealogist found, and the East Dereham baptism entry indexed as \"Nicholas Gorne\" and re-read as \"John the sonne of ffrancis Gurnie\" — supported by a father-to-son trade, the East Anglia-to-London emigration corridor, Francis's 1634 forced sale of every acre, Margaret's Rivett kin two miles from the register, and a senior West Barsham branch keeping house five miles away. Against them: the 1633 Visitation's \"eldest sonne,\" no child named Francis, no English marriage record, and a deposition age five to eight years too old. Probable, not proven.",
+      "summary": "The surviving candidate's own case: John Gurney of Braintree as the son of Francis Gurney, Merchant Taylor, by Margaret Rybett of Norfolk. Two primary records carry it — the 1611 Norwich marriage no earlier genealogist found, and the East Dereham baptism re-read from \"Nicholas Gorne\" to \"John the sonne of ffrancis Gurnie\" — supported by a father-to-son trade, the East Anglia-to-London corridor, and Rivett and West Barsham kin close by. Against them: the 1633 Visitation's \"eldest sonne,\" no English marriage record, and a deposition age too old. Probable, not proven.",
       "researchItemIds": [
         "G13-RI-000145",
         "G13-RI-000146",
@@ -560,7 +561,7 @@
       "order": 70,
       "publicSlug": "identity/assessment",
       "publicationStatus": "public",
-      "summary": "What the identity work adds up to: an identification reached by elimination and circumstantial fit rather than by any document naming John's father. Eliminates Candidate C (Berkhamsted), the last principal alternative without its own unit; states the unknown-corridor residual the eliminations do not clear, with the 1662–1666 London Gurney hearth-tax cluster as its density evidence; leaves open whether John emigrated through the Gurdon–Winthrop Court of Wards patronage network; reads Anderson's \"Boston\" settlement attribution as a conflation with the 1636 Newgate apprentice; and names the two realistic end-states for the estimate, the three levers that would move it, and the lag between the fact sheet's published sixty percent and the case file's current sixty-five.",
+      "summary": "What the identity work adds up to: an identification reached by elimination and circumstantial fit rather than by any document naming John's father. Eliminates the last principal alternative (Candidate C, Berkhamsted); states the unknown-corridor residual the eliminations do not clear; leaves open whether John emigrated through the Gurdon–Winthrop patronage network; reads Anderson's \"Boston\" settlement as a conflation with the 1636 Newgate apprentice; and names the two end-states for the estimate and the three levers that would move it.",
       "researchItemIds": [
         "G13-RI-000171",
         "G13-RI-000172",

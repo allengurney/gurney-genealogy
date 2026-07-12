@@ -1499,5 +1499,77 @@
     "heritageUrl": "",
     "heritageLabel": "",
     "reviewNotes": []
+  },
+  {
+    "placeId": "place-letton-norfolk-england",
+    "placeName": "Letton, Norfolk, England",
+    "longDescription": "Mitford-hundred parish adjoining Hardingham/Cranworth. Blomefield and Ancient Deed A.2972 record an undated grant by 'Hugh de Gurnay of Letton' to Lewes Priory. The identity of this Hugh (senior-line forename vs. an unrecorded local Gurnay) is an open cadet-enfeoffment question, not resolved.",
+    "siteName": "",
+    "streetAddress": "",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinateBasis": "approximate parish centroid, not a surveyed manor site",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "",
+    "heritageLabel": "",
+    "reviewNotes": [
+      "No map pin confirmed; coordinate is a low-precision parish-centroid placeholder pending a tighter manor-site fix.",
+      "Bundled with Larling, Booton, and Cawston in research/places/norfolk-minor-manors.md rather than given its own place file."
+    ]
+  },
+  {
+    "placeId": "place-larling-norfolk-england",
+    "placeName": "Larling, Norfolk, England",
+    "longDescription": "Shropham-hundred parish. Anthony Gurney (G17) held and settled by feoffment in 1532 the manor of Welholme's (Easthall), a fraction of Larling held of the Wauncy/Bardolph/Warenne tenurial chain that also produced the family's West Barsham inheritance and the junior line's Swathings tenure.",
+    "siteName": "",
+    "streetAddress": "",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinateBasis": "approximate parish centroid, not a surveyed manor site",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "",
+    "heritageLabel": "",
+    "reviewNotes": [
+      "No map pin confirmed; coordinate is a low-precision parish-centroid placeholder pending a tighter manor-site fix.",
+      "Bundled with Letton, Booton, and Cawston in research/places/norfolk-minor-manors.md rather than given its own place file."
+    ]
+  },
+  {
+    "placeId": "place-booton-norfolk-england",
+    "placeName": "Booton, Norfolk, England",
+    "longDescription": "South Erpingham parish immediately south of Cawston. Ancient Deed B.991 (1481) names William Gurnay of Booton as a party to a Cawston property grant, a century before the documented seventeenth-century Cawston copyhold family; the link between them is an open question.",
+    "siteName": "",
+    "streetAddress": "",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinateBasis": "approximate parish centroid, not a surveyed manor site",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "",
+    "heritageLabel": "",
+    "reviewNotes": [
+      "No map pin confirmed; coordinate is a low-precision parish-centroid placeholder pending a tighter manor-site fix.",
+      "Bundled with Letton, Larling, and Cawston in research/places/norfolk-minor-manors.md rather than given its own place file."
+    ]
+  },
+  {
+    "placeId": "place-cawston-norfolk-england",
+    "placeName": "Cawston, Norfolk, England",
+    "longDescription": "South Erpingham parish, 11 miles north of Norwich. A 1578 church monument to William Gurney, gent. (d. 10 Mar. 1578) and Anne his wife bears West Barsham-arms differenced with a crescent, identifying him as an armigerous cadet of the West Barsham line. A separate copyhold Gurney family appears in the Cawston manorial courts, 1640s-1750s; the descent link between the two is unresolved.",
+    "siteName": "",
+    "streetAddress": "",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinateBasis": "approximate parish centroid, not a surveyed manor site",
+    "imageUrl": "",
+    "imageTitle": "",
+    "heritageUrl": "",
+    "heritageLabel": "",
+    "reviewNotes": [
+      "No map pin confirmed; coordinate is a low-precision parish-centroid placeholder pending a tighter manor-site fix.",
+      "Bundled with Letton, Larling, and Booton in research/places/norfolk-minor-manors.md rather than given its own place file."
+    ]
   }
 ]

@@ -30,6 +30,12 @@ The daughters Elizabeth (£200 — a full marriage portion, so probably unmarrie
 
 [^anthony-will-1557]: Will of Anthony Gurney of Great Ellingham, Esq., 6 Dec. 1557, proved Norwich 10 Dec. 1557; Norwich wills register (FamilySearch film 008076312), images 145 ff., [ark:/61903/3:1:3Q9M-CSND-MSDX-K](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSND-MSDX-K?view=fullText) and [ark:/61903/3:1:3Q9M-CSND-MSDH-G](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSND-MSDH-G?view=fullText) (probate at register p. 137). Expert paleographic transcription 2026-06-11 from the full-resolution images; full text in the corpus supplement linked in the body. Source ID: `familysearch-fulltext-search`.
 
+### TNA Chancery IPM catalogue entries — open, not resolved to Anthony
+
+The National Archives' Chancery inquisitions post mortem series (C 142) carries two "Gurney, Antony: Norfolk" entries: **C 142/106/46** (2&3 Philip & Mary, 1555/6) and **C 142/154/67** (12 Elizabeth, 1569/70), read at TNA Discovery catalogue-description level only — the documents themselves have not been pulled. Neither fits Anthony cleanly: an IPM is a death inquisition, but Anthony's own will (made 6 Dec., proved 10 Dec. 1557, above) fixes his death to **late 1557**, after the first entry's 1555/6 date and well before the second's 1569/70. The catalogue attribution is therefore either a different "Antony Gurney," a mis-dated or delayed inquiry, or (for the 1569/70 entry) a kinsman — carried here as an open lead, not assigned to this Anthony by name alone.[^tna-c142-antony-catalogue]
+
+[^tna-c142-antony-catalogue]: The National Archives (Kew), Chancery inquisitions post mortem, Series II (C 142): C 142/106/46 ("Gurney, Antony: Norfolk," 2&3 Ph&M) and C 142/154/67 ("Gurney, Antony: Norfolk," 12 Eliz.); consulted via TNA Discovery at catalogue-description level, 2026-07-01. Catalogue read in `sources/validations/tna-ward-c142-west-barsham-gurney-inquisitions.md`. Source ID: `tna-ward-c142-west-barsham-gurney-inquisitions`.
+
 ### Two earlier Gurney–Spelman documentary intersections
 
 Two will abstracts in the typescript Norfolk wills abstract volume bear on this family's network a generation either side of Anthony:

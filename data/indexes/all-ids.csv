@@ -71,6 +71,7 @@ place-attleborough-norfolk-england,place,"Attleborough, Norfolk, England",data/p
 place-baconsthorpe-castle-norfolk-england,place,"Baconsthorpe Castle, Baconsthorpe, Norfolk, England",data/places.json
 place-bedfordshire-england,place,"Bedfordshire, England",data/places.json
 place-billerica-massachusetts-usa,place,"Billerica, Massachusetts, USA",data/places.json
+place-booton-norfolk-england,place,"Booton, Norfolk, England",data/places.json
 place-bosc-hyons-boshyon-normandy-france,place,"Bosc-Hyons (medieval Boshyon / Boscus Hugonis), Seine-Maritime, Normandy, France",data/places.json
 place-braintree-massachusetts-usa,place,"Braintree, Massachusetts, USA",data/places.json
 place-bridgewater-massachusetts-usa,place,"Bridgewater, Massachusetts, USA",data/places.json
@@ -79,6 +80,7 @@ place-burnham-thorpe-norfolk-england,place,"Burnham Thorpe, Norfolk, England",da
 place-la-ferte-butte-feodale-normandy-france,place,"Butte féodale / Château de La Ferté, La Ferté-Saint-Samson, Normandy, France",data/places.json
 place-caister-on-sea-norfolk-england,place,"Caister-on-Sea, Norfolk, England",data/places.json
 place-cantley-norfolk-england,place,"Cantley, Norfolk, England",data/places.json
+place-cawston-norfolk-england,place,"Cawston, Norfolk, England",data/places.json
 place-charleston-south-carolina-usa,place,"Charleston, South Carolina, USA",data/places.json
 place-chatham-new-jersey-usa,place,"Chatham, New Jersey, USA",data/places.json
 place-city-of-london-england,place,"City of London, England",data/places.json
@@ -113,7 +115,9 @@ place-gurney-monatiquot-freehold-braintree-massachusetts-usa,place,"John Gurney'
 place-kings-lynn-norfolk-england,place,"King's Lynn, Norfolk, England",data/places.json
 place-la-ferte-foundation-endowment-cluster-pays-de-bray-france,place,"La Ferté foundation endowment cluster, Pays de Bray, France",data/places.json
 place-la-ferte-en-bray-normandy-france,place,"La Ferté-en-Bray / La Ferté-Saint-Samson, Normandy, France",data/places.json
+place-larling-norfolk-england,place,"Larling, Norfolk, England",data/places.json
 place-lessingham-norfolk-england,place,"Lessingham, Norfolk, England",data/places.json
+place-letton-norfolk-england,place,"Letton, Norfolk, England",data/places.json
 place-lewes-sussex-england,place,"Lewes, Sussex, England",data/places.json
 place-liston-essex-england,place,"Liston, Essex, England",data/places.json
 place-abington-whitman-line-massachusetts-usa,place,"Little Comfort / Abington-Bridgewater line, Massachusetts, USA",data/places.json
@@ -385,6 +389,7 @@ macris-cum-151-gurney-asa-house,source,"MACRIS CUM.151 - Gurney, Asa House (75 M
 massachusetts-bay-records-v2-1853,source,"Mass. Bay Records, vol. 2 (1642–1649), Shurtleff ed.",data/sources.json
 massachusetts-archives-vol-45-lands-1622-1726,source,"Massachusetts Archives, vol. 45 (Lands, 1622–1726)",data/sources.json
 massachusetts-bay-records-v1-1853,source,"Massachusetts Bay Records, vol. 1",data/sources.json
+massachusetts-bay-records-v5-1854,source,"Massachusetts Bay Records, vol. 5 (1674-1686), Shurtleff ed.",data/sources.json
 massachusetts-state-archives-colonial,source,"Massachusetts State Archives, colonial period (petition calendar)",data/sources.json
 ma-wills-probate-records,source,"Massachusetts Wills and Probate Records, 1635-1991",data/sources.json
 may-henry-gurney-spenser-2005,source,"May, Henry Gurney reads Spenser",data/sources.json

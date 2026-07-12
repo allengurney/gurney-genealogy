@@ -3021,5 +3021,105 @@
       }
     ],
     "filename": "hackettstown-nj.md"
+  },
+  {
+    "placeId": "place-letton-norfolk-england",
+    "name": "Letton, Norfolk, England",
+    "aliases": [
+      "Letton, Norfolk"
+    ],
+    "shortDescription": "Hugh de Gurnay grant to Lewes Priory (undated, 12th-13th c.)",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 52.616,
+      "lng": 0.89
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "cadet-enfeoffment open-question datapoint"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g25-john-de-gournay-iii",
+        "role": "cadet-enfeoffment open-question datapoint"
+      }
+    ],
+    "filename": "norfolk-minor-manors.md"
+  },
+  {
+    "placeId": "place-larling-norfolk-england",
+    "name": "Larling, Norfolk, England",
+    "aliases": [
+      "Larling, Norfolk",
+      "Lerling",
+      "Lurling",
+      "Lirling"
+    ],
+    "shortDescription": "Anthony Gurney's 1532 Welholme's/Easthall feoffment",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 52.418,
+      "lng": 0.917
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g17-anthony-gurney",
+        "role": "landholding / property reference"
+      }
+    ],
+    "filename": "norfolk-minor-manors.md"
+  },
+  {
+    "placeId": "place-booton-norfolk-england",
+    "name": "Booton, Norfolk, England",
+    "aliases": [
+      "Booton, Norfolk",
+      "Boton"
+    ],
+    "shortDescription": "1481 Ancient Deed B.991, William Gurnay of Booton",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 52.775,
+      "lng": 1.152
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "collateral cadet-branch reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g19-william-gurney-iv",
+        "role": "collateral cadet-branch reference"
+      }
+    ],
+    "filename": "norfolk-minor-manors.md"
+  },
+  {
+    "placeId": "place-cawston-norfolk-england",
+    "name": "Cawston, Norfolk, England",
+    "aliases": [
+      "Cawston, Norfolk"
+    ],
+    "shortDescription": "1578 monument to William Gurney, gent., a West-Barsham-arms cadet",
+    "placeType": "locality",
+    "coordinate": {
+      "lat": 52.778,
+      "lng": 1.157
+    },
+    "coordinatePrecision": "low",
+    "roles": [
+      "collateral cadet-branch reference"
+    ],
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g19-william-gurney-iv",
+        "role": "collateral cadet-branch reference"
+      }
+    ],
+    "filename": "norfolk-minor-manors.md"
   }
 ]

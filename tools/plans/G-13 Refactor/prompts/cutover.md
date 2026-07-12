@@ -9,7 +9,9 @@ than** the G4 editor polish. Run it only when every gate below is green.
 - The staged topic package is substantially complete (Plan 02 §4) — **satisfied
   2026-07-09: all 25 planned units are authored and `increment-complete`.**
 - The root hub (`g13-john-gurney-fact-sheet.research.md` replacement) is authored
-  (Plan 02 §6; 2,500–4,000 words, substantive current-state).
+  (Plan 02 §6, revised 2026-07-12: **extra-light entry-point stub**, ~300–800
+  words, not a synthesis). Staged as `hub.md` (manifest `website.rootHubFile`);
+  authored + hub-destined legacy rows dispositioned 2026-07-12.
 - The coverage checker reports **zero un-dispositioned items and zero untracked
   citation gaps** across all three ledgers (Plan 02 §7.4, §14).
 - The difference reports (content / evidence / conclusion / website) are produced

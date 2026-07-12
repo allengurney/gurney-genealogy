@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "1.26.0",
+    "version": "1.28.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
     "lastUpdated": "2026-07-12",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
@@ -483,7 +483,7 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Key parish entries: Harpley (vol. viii, pp.452–459), West Barsham (vol. vii, pp.42–47), Great Ellingham (vol. ii), Hardingham (vol. x, p. 224), Hingham (vol. ii, p. 445). Independently confirms multiple DG pedigree points. Priority corpus extraction candidate for Norfolk ancestors G20–G27. Per-parish extracts captured in `sources/corpus_supplement/` as separate files: `blomefield-norfolk-vol7-pp42-47-west-barsham.md` (West Barsham, Gurney manorial descent and 1471 will text); `blomefield-norfolk-vol7-pp53-65-east-barsham.md` (East Barsham, 1434-35 Thomas Gournay I feoffment and 1499 Earl of Oxford grant to William junior); `blomefield-norfolk-vol10-pp221-227-hardingham-swathing.md` (Hardingham, the full 'Gurney's and Swathing's Manor' descent, Matthew de Gurnay temp. King John through the 1469 Thomas Gournay will and the Thwaytes succession)."
+      "notes": "Key parish entries: Harpley (vol. viii, pp.452–459), West Barsham (vol. vii, pp.42–47), Great Ellingham (vol. ii), Hardingham (vol. x, p. 224), Hingham (vol. ii, p. 445). Independently confirms multiple DG pedigree points. Priority corpus extraction candidate for Norfolk ancestors G20–G27. Per-parish extracts in `sources/corpus_supplement/`: `blomefield-norfolk-vol7-pp42-47-west-barsham.md`; `blomefield-norfolk-vol7-pp53-65-east-barsham.md`; `blomefield-norfolk-vol10-pp221-227-hardingham-swathing.md`; `blomefield-norfolk-vol10-pp231-233-letton.md` (Letton, Hugh de Gurnay grant to Lewes Priory); `blomefield-norfolk-vol1-pp428-432-larling.md` (Larling/Welholme's, Anthony Gurnay's 1532 feoffment)."
     },
     "blomefield-norfolk-vol5-pp33-cringleford-berford": {
       "shortTitle": "Blomefield, Norfolk vol. 5 (BHO) — Cringleford, Berford's Manor",
@@ -781,6 +781,17 @@
       "mediaPath": null,
       "validationPath": "sources/validations/winthrop-history-new-england-addenda-1636.md",
       "notes": "Direct published text of the 21 July 1636 John Newgate / John Gurney apprentice entry. Use for the Newgate-apprentice chronology and two-Johns/composite-source problem, not as proof that the apprentice was John Gurney of Braintree."
+    },
+    "massachusetts-bay-records-v5-1854": {
+      "shortTitle": "Massachusetts Bay Records, vol. 5 (1674-1686), Shurtleff ed.",
+      "citation": "Shurtleff, Nathaniel B., ed. Records of the Governor and Company of the Massachusetts Bay in New England, vol. 5, 1674-1686. Boston: William White, 1854, p. 540.",
+      "archive": "Internet Archive (item recordsofgoverno05mass)",
+      "url": "https://archive.org/details/recordsofgoverno05mass",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/massachusetts-bay-records-v5-1854.md",
+      "notes": "Printed sworn-freemen list (1681 by position) naming \"Rich'd Gurney\" alongside a Weymouth cohort (Tho: White, Tho: Bayly, Joseph Dyer, Obadiah Sayle, Jn Shaw Jun.). Second, independent page locator for Richard Gurney's (G12) 1681 freeman admission, corroborating Paige's List of Freemen citation (Colony Records Vol. V, pp. 320-321). Index-level; MBCR page image not yet pulled."
     },
     "massachusetts-bay-records-v1-1853": {
       "shortTitle": "Massachusetts Bay Records, vol. 1",
@@ -2213,11 +2224,11 @@
       "citation": "Calendar of the Close Rolls Preserved in the Public Record Office, Edward III. Vol. 12 (1364-1368), vol. 13 (1369-1374), vol. 14 (1374-1377). London: HMSO, 1910-1952.",
       "archive": "Internet Archive (public-domain HMSO calendar, djvu full text)",
       "url": "https://archive.org/details/calendarofcloser12grea",
-      "corpusStatus": "partial",
+      "corpusStatus": "full",
       "corpusPath": "sources/corpus_supplement/calendar-close-rolls-edward-iii-edmund-gourneye-commissions.md",
       "mediaPath": null,
       "validationPath": "sources/validations/calendar-close-rolls-edward-iii-vols12-14.md",
-      "notes": "Three Close Roll entries fix Edmund Gourneye (G23)'s 1367-1375 profile as crown commissioner: a revoked oyer-and-terminer commission (vol.12 p.384, 1367); a wreck/Anglo-Scottish-truce inquisition (vol.13 pp.64-66, 1370); a Norfolk riot inquisition alongside Chief Justice John de Cavendish (vol.14 pp.220-221, 1375). Index styles him 'Gourneye, Edmund, justice.' Corpus extract covers only the Edmund passages; full volumes retained in the dump-files intake pending wider retention review."
+      "notes": "Three Close Roll entries fix Edmund Gourneye (G23)'s 1367-1375 profile as crown commissioner: a revoked oyer-and-terminer commission (vol.12 p.384, 1367); a wreck/Anglo-Scottish-truce inquisition (vol.13 pp.64-66, 1370); a Norfolk riot inquisition alongside Chief Justice John de Cavendish (vol.14 pp.220-221, 1375). Index styles him 'Gourneye, Edmund, justice.' Corpus extract covers only the Edmund passages; full vols. 12-14 retained 2026-07-12 at `sources/corpus_supplement/calendar-close-rolls-edward-iii-vol{12,13,14}-fulltext.txt`."
     },
     "bho-statutes-realm-1661-assessment": {
       "shortTitle": "BHO Statutes - 1661 Assessment Act",
@@ -2315,7 +2326,7 @@
       "corpusStatus": "partial",
       "corpusPath": "sources/corpus_supplement/bho-ipm-henry-vii-townshend-gurnay-feoffee.md",
       "mediaPath": null,
-      "validationPath": null,
+      "validationPath": "sources/validations/bho-ipm-henry-vii-townshend-gurnay-feoffee.md",
       "notes": "William Gurnay, esq. (West Barsham family) recurs as feoffee-to-uses across Henry VII IPMs: the Townshend estate (Sir Roger Townshend, knt., d. 1493 - Raynham 'Havyles', Helloughton, Whissonsett, Hadleigh), plus the Wynter, Geddyng/Drury (1490), Tendale, and Fortescue/Calthorpe trusts - roughly 15 dated acts c. 1488-1502. The Wynter IPM styles a feoffee 'William Gurnay the younger', proving G18 William V acted contemporaneously with his father G19 William IV. Calendar abstract level."
     },
     "descriptive-catalogue-ancient-deeds": {
@@ -2785,11 +2796,11 @@
       "citation": "Farrer, William. Honors and Knights' Fees: An Attempt to Identify the Component Parts of Certain Honors and to Trace the Descent of the Tenants of the Same Who Held by Knight's Service or Serjeanty from the Eleventh to the Fourteenth Century. Vol. 3. London: printed for the author by Spottiswoode, Ballantyne & Co., 1923-1925, selected Gurnay/Gournay pages.",
       "archive": "HathiTrust public-domain PDF extract",
       "url": "https://hdl.handle.net/2027/mdp.39015032992151",
-      "corpusStatus": "partial",
+      "corpusStatus": "full",
       "corpusPath": "sources/corpus_supplement/farrer-honors-knights-fees-v3-gurnay-extracts.txt",
       "mediaPath": "sources/media/mdp-39015032992151-158-312-314-333-406-407-436-439-1777765448.pdf",
       "validationPath": "sources/validations/farrer-honors-knights-fees-v3-gurnay-extracts.md",
-      "notes": "Public-domain HathiTrust extract for Gurnay/Gournay/Gurney entries: Stutevill/Gurnai fee in South Wootton, Bedingham, Kimberley; John de Gurney at Evesham; Honor of Warenne tenant table; Mapledurham/Wendover/Bledlow/Cantley/Caister/Swathings. Extended 2026-07-03 with full-volume passages (Harpley chain pp.391-392; Olive p.82; Clemency de Chesney pp.313-318; Hawise pp.355-356). A complete 536-page capture exists and may later supersede this extract as a full corpus retention."
+      "notes": "Public-domain HathiTrust extract for Gurnay/Gournay/Gurney entries: Stutevill/Gurnai fee in South Wootton, Bedingham, Kimberley; John de Gurney at Evesham; Honor of Warenne tenant table; Mapledurham/Wendover/Bledlow/Cantley/Caister/Swathings. Extended 2026-07-03 with full-volume passages (Harpley chain pp.391-392; Olive p.82; Clemency de Chesney pp.313-318; Hawise pp.355-356). Full 536-page HathiTrust capture retained 2026-07-12 at `sources/corpus_supplement/farrer-honors-knights-fees-v3-fulltext.txt`; this file remains the pinpoint citation extract."
     },
     "swann-chethams-library-ms-a4-15-2016": {
       "shortTitle": "Swann, Chetham's Library MS A.4.15",
@@ -3339,7 +3350,7 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": "sources/validations/tna-ward-c142-west-barsham-gurney-inquisitions.md",
-      "notes": "Catalogue-level TNA Discovery descriptions of the Court of Wards (WARD 7) and Chancery (C 142) inquisitions post mortem for the Gurneys of West Barsham — the record class establishing the senior branch's tenure in capite and the minor-heir wardship. Key entry: Edward Gournay's inquisition C 142/613/60 (17 Chas I). Read at catalogue level only (2026-07-01); document pulls queued as offline follow-ups. Findings, including the unresolved earlier 'Thomas Gurney' attributions, are carried in the John Gurney wardship-network research topic."
+      "notes": "Catalogue-level TNA Discovery descriptions (WARD 7, C 142 inquisitions post mortem) for the West Barsham Gurneys — tenure in capite and the minor-heir wardship. Key entry: Edward Gournay's C 142/613/60 (17 Chas I). Also covers C 142/106/46 + /154/67 (Antony Gurney) and C 142/37/103 + /122 (William Gurney), promoted to the g17/g19 companions with open date-conflict flags. Catalogue level only; pulls queued offline. Findings in the wardship-network research topic."
     },
     "foster-alumni-oxonienses-1500-1714": {
       "shortTitle": "Foster, Alumni Oxonienses 1500–1714",
@@ -3812,29 +3823,29 @@
       "corpusPath": "sources/corpus_supplement/actes-henri-ii-delisle-berger-vol2-text.md",
       "mediaPath": "sources/media/recueildesactesd02grea.pdf",
       "validationPath": null,
-      "notes": "Posthumous edition of Delisle's collection of Henry II's acts concerning the French provinces, completed by Élie Berger. Tome 2 covers acts CCCCXLVIII (act 448) onward through DCCC+ range, all c. 1170s–1189. Key Gournay-related acts: (a) DXXXII (Delisle n° 365), 1172–1178, Bec Pré-de-Rouen confirmation subscribed by Hugues IV de Gournay (witness list: Hommet, Beaumont, Crispin, 'Hugone de Guurnayo et Roberto de Haricuria'); (b) DCXXXVI (Delisle n° 452–453), 1181–1183 at Selvi castrum, Valmont confirmation naming 'Ex dono Richardi Taliebot et Amicie, uxoris ejus, et Hugonis et Willelmi filiomm suorum' — Amicie Talbot primary attestation; (c) DCXXXVIII (Delisle n° 445 A), 20 January 1183 at Caen, fine between abbess of La Trinité de Caen and Robert de Scrotonia, witnessed by 'Hugone de Gornaiu' — latest dated Hugues IV witness attestation before death; (d) DCCXLIV (Delisle n° 552), 1181–1189 at Montfort, Bec confirmation listing five Gournay 'Ex dono' clauses including 'Ex dono Hugonis de Gornaio, decimam de prepositura et portione sua in villa de Escochei et pertinenciis suis' — primary-source attestation of Hugues IV's continuing Bec donation from Basilea Flaitel's Écouché maritagium, preserving the Gournay-Écouché tenure across three generations; (e) DCCL (Delisle n° 554), 1182–1189 at Rouen, Barbery confirmation witnessed by 'Hugone de Gurnai' (Hugues V); (f) DCCLII (Delisle n° 557), 1185–1189 at Argentan, Sigy priory confirmation naming 'Hugo Feriensis' as founder (= FMG's HUGUES [I] de la Ferté collateral) and listing the priory's six dependent churches including the Gaillefontaine church; (g) DCCLXVIII (Delisle n° 528), 1188–1189 probably March–June 1189 at Le Mans, Sainte-Foi de Longueville confirmation naming 'Ricardi Thalebot et Avitie uxoris sue et Hugonis filii sui' as donors of the church of Sainte Geneviève. Fetched 2026-05-25 from Internet Archive recueildesactesd02grea. Full Gournay-relevant Latin extracts at sources/corpus_supplement/actes-henri-ii-delisle-berger-vol2-text.md (Phase-2 to populate)."
+      "notes": "Posthumous edition of Delisle's collection of Henry II's acts concerning the French provinces, completed by Élie Berger. Tome 2 covers acts CCCCXLVIII (act 448) onward through DCCC+ range, all c. 1170s–1189. Key Gournay-related acts: (a) DXXXII (Delisle n° 365), 1172–1178, Bec Pré-de-Rouen confirmation subscribed by Hugues IV de Gournay (witness list: Hommet, Beaumont, Crispin, 'Hugone de Guurnayo et Roberto de Haricuria'); (b) DCXXXVI (Delisle n° 452–453), 1181–1183 at Selvi castrum, Valmont confirmation naming 'Ex dono Richardi Taliebot et Amicie, uxoris ejus, et Hugonis et Willelmi filiomm suorum' — Amicie Talbot primary attestation; (c) DCXXXVIII (Delisle n° 445 A), 20 January 1183 at Caen, fine between abbess of La Trinité de Caen and Robert de Scrotonia, witnessed by 'Hugone de Gornaiu' — latest dated Hugues IV witness attestation before death; (d) DCCXLIV (Delisle n° 552), 1181–1189 at Montfort, Bec confirmation listing five Gournay 'Ex dono' clauses including 'Ex dono Hugonis de Gornaio, decimam de prepositura et portione sua in villa de Escochei et pertinenciis suis' — primary-source attestation of Hugues IV's continuing Bec donation from Basilea Flaitel's Écouché maritagium, preserving the Gournay-Écouché tenure across three generations; (e) DCCL (Delisle n° 554), 1182–1189 at Rouen, Barbery confirmation witnessed by 'Hugone de Gurnai' (Hugues V); (f) DCCLII (Delisle n° 557), 1185–1189 at Argentan, Sigy priory confirmation naming 'Hugo Feriensis' as founder (= FMG's HUGUES [I] de la Ferté collateral) and listing the priory's six dependent churches including the Gaillefontaine church; (g) DCCLXVIII (Delisle n° 528), 1188–1189 probably March–June 1189 at Le Mans, Sainte-Foi de Longueville confirmation naming 'Ricardi Thalebot et Avitie uxoris sue et Hugonis filii sui' as donors of the church of Sainte Geneviève. Fetched 2026-05-25 from Internet Archive recueildesactesd02grea. Full Gournay-relevant Latin extracts at sources/corpus_supplement/actes-henri-ii-delisle-berger-vol2-text.md. Full raw volume retained 2026-07-12 at `sources/corpus_supplement/actes-henri-ii-delisle-berger-vol2-fulltext.txt`."
     },
     "recueil-actes-henri-ii-delisle-berger-introduction": {
       "shortTitle": "Recueil des actes de Henri II, Delisle/Berger, Introduction (1909)",
       "citation": "Delisle, Léopold. Recueil des actes de Henri II, roi d'Angleterre et duc de Normandie, concernant les provinces françaises et les affaires de France. Introduction. Paris: Imprimerie nationale, 1909.",
       "archive": "Internet Archive (recueildesactesd00grea); also Gallica",
       "url": "https://archive.org/details/recueildesactesd00grea",
-      "corpusStatus": "partial",
+      "corpusStatus": "full",
       "corpusPath": "sources/corpus_supplement/actes-henri-ii-delisle-berger-introduction-gournay-extracts.md",
       "mediaPath": null,
       "validationPath": "sources/validations/recueil-actes-henri-ii-delisle-berger-introduction.md",
-      "notes": "Introduction volume to the Delisle-Berger edition of Henry II's acts. Its biographical-notes section flags two sealed Hugh de Gournay charters (Anchin abbey, 1176 and 1177) that Daniel Gurney did not print, the 1177 one styling Hugh 'Dei permissione dominus Gorniaci' and naming Ralph de Coucy 'dominus et cognatus noster'. The appended Norman exchequer-roll extracts record 'Osbertus de Gornaio mortuus usurarius'."
+      "notes": "Introduction volume to the Delisle-Berger edition of Henry II's acts. Its biographical-notes section flags two sealed Hugh de Gournay charters (Anchin abbey, 1176 and 1177) that Daniel Gurney did not print, the 1177 one styling Hugh 'Dei permissione dominus Gorniaci' and naming Ralph de Coucy 'dominus et cognatus noster'. The appended Norman exchequer-roll extracts record 'Osbertus de Gornaio mortuus usurarius'. Full volume retained 2026-07-12 at `sources/corpus_supplement/actes-henri-ii-delisle-berger-introduction-fulltext.txt`."
     },
     "oeuvres-rigord-guillaume-breton-delaborde": {
       "shortTitle": "Œuvres de Rigord et de Guillaume le Breton (Delaborde, SHF, 1882-1885)",
       "citation": "Delaborde, Henri-François, ed. Œuvres de Rigord et de Guillaume le Breton, historiens de Philippe-Auguste. 2 vols. Société de l'histoire de France. Paris: Renouard, 1882-1885.",
       "archive": "Internet Archive (uvresderigordetd02rigouoft = vol. 2)",
       "url": "https://archive.org/details/uvresderigordetd02rigouoft",
-      "corpusStatus": "partial",
+      "corpusStatus": "full",
       "corpusPath": "sources/corpus_supplement/oeuvres-rigord-guillaume-breton-delaborde-vol2-gournay-philippide.md",
       "mediaPath": null,
       "validationPath": "sources/validations/oeuvres-rigord-guillaume-breton-delaborde.md",
-      "notes": "Standard critical edition of the two court historians of Philip Augustus. Vol. 2 carries Guillaume le Breton's verse Philippide; its book VI set-piece (lines 210-262) describes Gournay-en-Bray's triple-walled defences, names Hugh de Gournay as its commander, and recounts Philip Augustus's 1202 capture by breaching a mill-pond dam to flood the walls. Rigord's prose §138 parallels the siege."
+      "notes": "Standard critical edition of the two court historians of Philip Augustus. Vol. 2 carries Guillaume le Breton's verse Philippide; its book VI set-piece (lines 210-262) describes Gournay-en-Bray's triple-walled defences, names Hugh de Gournay as its commander, and recounts Philip Augustus's 1202 capture by breaching a mill-pond dam to flood the walls. Rigord's prose §138 parallels the siege. Full volume retained 2026-07-12 at `sources/corpus_supplement/oeuvres-rigord-guillaume-breton-delaborde-vol2-fulltext.txt`."
     },
     "early-yorkshire-charters-vol-8-clay-1949": {
       "shortTitle": "Early Yorkshire Charters, vol. 8: The Honour of Warenne (Clay 1949)",
@@ -3852,11 +3863,11 @@
       "citation": "James Gairdner, ed., The Paston Letters, A.D. 1422-1509, 6 vols. (London: Chatto and Windus, 1904).",
       "archive": "Project Gutenberg + Internet Archive",
       "url": "https://www.gutenberg.org/cache/epub/43348/pg43348.txt",
-      "corpusStatus": "supplement",
+      "corpusStatus": "full",
       "corpusPath": "sources/corpus_supplement/paston-letters-gairdner-gurney-extracts.md",
       "mediaPath": null,
-      "validationPath": null,
-      "notes": "Standard scholarly edition. Vol. I is the editorial Introduction; vols. II-VI carry the letters in numbered sequence. Gurney-related extracts captured: Saxthorpe Court 1472 episode (vol. I Introduction + the two John Paston III letters Nos. 796, 801 verbatim); 23 April 1452 St George's Day petition signed by Thomas Gurnay (vol. II); Countess of Oxford referencing Margaret Gurnay (vol. II); John Jerningham to Margaret Paston, Corpus Christi 1458 ('myn ownkll Gournay') confirming the Gournay-Jerningham marriage (vol. III)."
+      "validationPath": "sources/validations/paston-letters-gairdner.md",
+      "notes": "Standard scholarly edition. Vol. I is the editorial Introduction; vols. II-VI carry the letters in numbered sequence. Gurney-related extracts: Saxthorpe Court 1472 episode (vol. I Introduction + John Paston III letters Nos. 796, 801 verbatim); 1452 St George's Day petition signed by Thomas Gurnay (vol. II); Countess of Oxford referencing Margaret Gurnay (vol. II); Jerningham-Gournay marriage confirmation (vol. III). Full six-volume text retained at `sources/corpus_supplement/paston-letters-gairdner-vol{1-6}-fulltext.txt`."
     },
     "paston-letters-davis": {
       "shortTitle": "Paston Letters and Papers -- Davis edition",
