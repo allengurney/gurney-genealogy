@@ -14,6 +14,8 @@ The clearest medieval connection is **Edmund Gournay (G23)**, whom DG-II describ
 
 This Lynn role should not be understated. It marks Edmund not merely as a landholder near the town but as a working legal figure embedded in borough governance.
 
+The borough's own Chamberlains' accounts corroborate the role directly, in two consecutive years' entries. In 46–47 Edward III (1373–74) the town entertained Edmund with wine in the Mayor's presence, in the same account that hosted the Duke of Brittany's men and Geoffrey de Folcham, the Duke of Lancaster's steward. The following year, 48–49 Edward III (1374–75), the accounts record a public-order crisis — men banded together against the peace, some imprisoned — and the Mayor's letter sent to Edmund for his counsel; the town spent on wine in his presence at least three times "for the aforesaid cause" and finally paid him twenty shillings "for making a session … for delivering the said prisoners." This is primary civic-account evidence, independent of Blomefield and Daniel Gurney, of Edmund working as the town's legal counsel during a live crisis rather than merely holding a nominal fee.[^hmc-kings-lynn-chamberlains-place]
+
 ## Gaywood and the William I connection
 
 The Lynn area also matters much earlier because of the **Gaywood deed** cited by DG-I, which designates **William de Gournay I (G30)** as *Dominus Willelmus de Gurney*. Gaywood is now effectively part of the greater King's Lynn urban area. That makes the Lynn region one of the few places where the project can point both to very early junior-line documentary evidence and to later medieval civic prominence. [DG-I]
@@ -43,16 +45,20 @@ This places Francis in a civic poor-employment and textile-production scheme rat
 
 [^hmc-kings-lynn-place]: Historical Manuscripts Commission, ["The Borough of King's Lynn: Miscellaneous Writings,"](https://www.british-history.ac.uk/hist-mss-comm/vol11/pt3/pp235-247) *Eleventh Report, Appendix, Part III*, British History Online. Source ID: `bho-hmc-kings-lynn-misc-writings`.
 
+[^hmc-kings-lynn-chamberlains-place]: Historical Manuscripts Commission, ["The Borough of King's Lynn: Extracts from the Chamberlains' Accounts,"](https://www.british-history.ac.uk/hist-mss-comm/vol11/pt3/pp213-231) *Eleventh Report, Appendix, Part III* (London: HMSO, 1887), British History Online, pp. 213, 221–222. Full extract at [`sources/corpus_supplement/bho-hmc-kings-lynn-chamberlains-accounts-pp213-231.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/bho-hmc-kings-lynn-chamberlains-accounts-pp213-231.md). Source ID: `bho-hmc-kings-lynn-chamberlains-accounts`.
+
 ## Open items
 
-- [ ] Pull the underlying source for Edmund's standing-counsel role more directly from borough or topographical records.
 - [ ] Identify the specific seventeenth-century Gurney and the source behind the St James's Chapel textile-manufacture reference, then integrate that explicitly into the narrative with fuller detail.
 - [ ] Locate the Gaywood deed if it survives in NRO or BL collections.
+
+*(The item "pull the underlying source for Edmund's standing-counsel role more directly from borough or topographical records" is resolved by the Chamberlains' accounts extract above.)*
 
 ## Sources
 
 - Daniel Gurney, *Record of the House of Gournay*, Part I (1848), p. 278 (Gaywood / William I), p. 280. [DG-I]
 - DG-II, pp. 357–363 (Edmund Gournay chapter and Lynn counsel role). [DG-II]
+- Historical Manuscripts Commission, *The Manuscripts of the Corporations of Southampton and Kings Lynn*, Eleventh Report, Appendix, Part III (1887), pp. 213–231 (Chamberlains' accounts, Edmund's civic hospitality and Lynn counsel role, 1373–75).
 - `research/people/g23-edmund-gurney-fact-sheet.research.md`
 - Existing place file / normalized place registry for the St James's Chapel industrial note.
 

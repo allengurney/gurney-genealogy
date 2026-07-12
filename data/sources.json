@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "1.20.0",
+    "version": "1.21.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
     "lastUpdated": "2026-07-11",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
@@ -2185,6 +2185,28 @@
       "mediaPath": null,
       "validationPath": "sources/validations/bho-hmc-kings-lynn-misc-writings.md",
       "notes": "HMC calendar entry for the 17 October 20 James I agreement involving Francis Gurney, citizen and merchant-taylor of London, Ambrose Tompson, and Martin Hill to teach King's Lynn poor children spinning worsted-yarn and employ the poor in that industry."
+    },
+    "bho-hmc-kings-lynn-chamberlains-accounts": {
+      "shortTitle": "BHO HMC - King's Lynn Chamberlains' Accounts",
+      "citation": "Historical Manuscripts Commission. \"The Borough of King's Lynn: Extracts from the Chamberlains' Accounts.\" Eleventh Report, Appendix, Part III. British History Online.",
+      "archive": "British History Online",
+      "url": "https://www.british-history.ac.uk/hist-mss-comm/vol11/pt3/pp213-231",
+      "corpusStatus": "full",
+      "corpusPath": "sources/corpus_supplement/bho-hmc-kings-lynn-chamberlains-accounts-pp213-231.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/bho-hmc-kings-lynn-chamberlains-accounts.md",
+      "notes": "Chamberlains' account abstracts, 1 Edw. III to 4/5 Philip and Mary. The 46-47 and 48-49 Edward III (1373-75) accounts record Edmund Gurney/Gournay (G23) twice: civic hospitality in the Mayor's presence, then retained for his counsel during a breach-of-the-peace crisis (imprisoned rioters; a payment for 'making a session for delivering the said prisoners'). Distinct page range from bho-hmc-kings-lynn-misc-writings (pp235-247, the 1622 Francis Gurney worsted scheme)."
+    },
+    "calendar-close-rolls-edward-iii-vols12-14": {
+      "shortTitle": "Calendar of the Close Rolls, Edward III, vols. 12-14",
+      "citation": "Calendar of the Close Rolls Preserved in the Public Record Office, Edward III. Vol. 12 (1364-1368), vol. 13 (1369-1374), vol. 14 (1374-1377). London: HMSO, 1910-1952.",
+      "archive": "Internet Archive (public-domain HMSO calendar, djvu full text)",
+      "url": "https://archive.org/details/calendarofcloser12grea",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/calendar-close-rolls-edward-iii-edmund-gourneye-commissions.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/calendar-close-rolls-edward-iii-vols12-14.md",
+      "notes": "Three Close Roll entries fix Edmund Gourneye (G23)'s 1367-1375 profile as crown commissioner: a revoked oyer-and-terminer commission (vol.12 p.384, 1367); a wreck/Anglo-Scottish-truce inquisition (vol.13 pp.64-66, 1370); a Norfolk riot inquisition alongside Chief Justice John de Cavendish (vol.14 pp.220-221, 1375). Index styles him 'Gourneye, Edmund, justice.' Corpus extract covers only the Edmund passages; full volumes retained in the dump-files intake pending wider retention review."
     },
     "bho-statutes-realm-1661-assessment": {
       "shortTitle": "BHO Statutes - 1661 Assessment Act",

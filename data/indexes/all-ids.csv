@@ -184,6 +184,7 @@ bho-livery-haberdashers-gournay-charity,source,BHO - Haberdashers' Company Gourn
 bho-london-inhabitants-st-augustine-1638,source,"BHO - Inhabitants of London 1638, St Augustine",data/sources.json
 bho-port-trade-early-elizabethan-london-richard-gurney-1567-8,source,"BHO - London Port Book 1567-8, Richard Gurney",data/sources.json
 bho-ipm-edward-iii-vol12-sancto-omero-mulbarton-1366,source,"BHO Calendar of IPM, Edward III, vol. 12 — Thomas de Sancto Omero (1366)",data/sources.json
+bho-hmc-kings-lynn-chamberlains-accounts,source,BHO HMC - King's Lynn Chamberlains' Accounts,data/sources.json
 bho-hmc-kings-lynn-misc-writings,source,BHO HMC - King's Lynn Miscellaneous Writings,data/sources.json
 bho-ipm-edward-iii-file31-gournay-harpetree,source,BHO IPM Edward III File 31 - Thomas Gournay of Harpetree,data/sources.json
 bho-ipm-edward-iii-file35-gournay-inglescombe,source,BHO IPM Edward III File 35 - Thomas Gournay of Inglescombe,data/sources.json
@@ -214,6 +215,7 @@ cal-cecil-papers-hatfield,source,"Calendar of Cecil Papers, Hatfield House",data
 cfr-henry-iv-1405-13,source,"Calendar of Fine Rolls, Henry IV, 1405-13",data/sources.json
 cpr-henry-iv-1399-1401,source,"Calendar of Patent Rolls, Henry IV, 1399-1401",data/sources.json
 cpr-henry-vi-1422-29,source,"Calendar of Patent Rolls, Henry VI, 1422-29",data/sources.json
+calendar-close-rolls-edward-iii-vols12-14,source,"Calendar of the Close Rolls, Edward III, vols. 12-14",data/sources.json
 histoire-de-lorraine-calmet,source,"Calmet, Histoire de Lorraine — Maison de Gournay genealogy",data/sources.json
 cambridge-core-camden-preface-addenda,source,Camden Old Series - Preface and Addenda,data/sources.json
 candidate-d-london-context-web-bundle,source,Candidate D London context web bundle,data/sources.json

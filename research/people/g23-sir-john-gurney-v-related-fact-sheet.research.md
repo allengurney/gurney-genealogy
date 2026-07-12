@@ -32,6 +32,7 @@ John and Alice did not keep the core Heylesdon manors long: in 1395–96 they co
 | "La Selde Coronata" (the Crowned Seld), City of London | Westcheap warehouse from the Heylesdon inheritance.[^husting] |
 | Houghton, Norfolk | Bought a half-share of the Nerford manor in 1399, adjoining his Harpley estate.[^hop] |
 | "Loundhall," Saxthorpe, Norfolk | Enfeoffed 1406 with Erpingham, Wynter, Berney, and Shelton.[^hop] |
+| Holm Hale, Norfolk | Held the first court and lete in 1401 as co-feoffee with Edmund Oldhalle, John Drewe (rector of Harpley), Edmund Belleyeter (burgess of Lynn), Robert Botekesham, Thomas Brigge, Clement Herward, and others.[^blomefield-holm-hale-1401] |
 
 The crown's 1409 inquisition found he held nothing of the king in chief; his estate at death was reckoned at eight manors in Norfolk and one in Suffolk.[^cipm19][^hop]
 
@@ -43,7 +44,7 @@ His only son **Edmund** "died sine prole [without offspring], and probably under
 
 ## Standing among the Norfolk gentry
 
-John moved in the leading knightly circle of his county. **Sir John Howard's** will left him a new silver cup with a cover, alongside Sir William Beauchamp, Sir John Marmion, Sir Stephen Hales, Sir John de Burgh, and Sir Richard Sutton.[^armstrong-howard] The History of Parliament life of **Sir Robert Berney** independently places John in the Lancastrian Norfolk bloc — fellow shire knight of 1399, Erpingham co-trustee, and co-feoffee in the Saxthorpe/Loundhall circle (Erpingham, Wynter, Berney, Shelton).[^berney] Not every relationship was friendly: early in 1408 he began building a bridge over the river Wensum at Hellesdon, and the citizens of Norwich, fearing lost toll revenue, obtained a royal writ suspending the work.[^hop]
+John moved in the leading knightly circle of his county. **Sir John Howard's** will left him a new silver cup with a cover, alongside Sir William Beauchamp, Sir John Marmion, Sir Stephen Hales, Sir John de Burgh, and Sir Richard Sutton.[^armstrong-howard] The History of Parliament life of **Sir Robert Berney** independently places John in the Lancastrian Norfolk bloc — fellow shire knight of 1399, Erpingham co-trustee, and co-feoffee in the Saxthorpe/Loundhall circle (Erpingham, Wynter, Berney, Shelton).[^berney] A further, more local feoffee company appears at **Holm Hale** in 1401, where John held the manor's first court and lete alongside Edmund Oldhalle, John Drewe (rector of Harpley — the family's own benefice), Edmund Belleyeter (a Lynn burgess, the same civic circle his father Edmund G23 served as counsel), Robert Botekesham, Thomas Brigge, and Clement Herward — a company that ties directly to the Harpley and Lynn corners of the family orbit.[^blomefield-holm-hale-1401] Not every relationship was friendly: early in 1408 he began building a bridge over the river Wensum at Hellesdon, and the citizens of Norwich, fearing lost toll revenue, obtained a royal writ suspending the work.[^hop]
 
 ## Downstream: Alice's later life and the Heylesdon feud
 
@@ -60,6 +61,7 @@ Alice survived John by at least twenty-five years. She sold "Loundhall" to John 
 - Reginald R. Sharpe, *Calendar of Wills … Court of Husting, London*, Part II, pp. 241–243 (John Heylesdon's 1384 will). [Husting]
 - Walter Rye, *A Short Calendar of the Feet of Fines for Norfolk*, Part II, entry 262 (Hellesdon/Drayton conveyance). [Rye]
 - Mostyn John Armstrong, *History and Antiquities of the County of Norfolk* (1781), vols. 6 and 9. [Armstrong]
+- Francis Blomefield, *History of Norfolk*, vol. 6, pp. 7–14 (Holm Hale, South Greenhoe). [Blomefield]
 - *Soldier in Later Medieval England Online Database* (1394 Aquitaine letters of attorney). [medievalsoldier-database]
 
 [^hop]: L. S. Woodger, "GURNEY, John (d.1408), of Harpley and West Barsham, Norf.," in *The History of Parliament: The House of Commons 1386–1421*, ed. J. S. Roskell, L. Clark, and C. Rawcliffe (1993), [History of Parliament Online](https://www.historyofparliamentonline.org/volume/1386-1421/member/gurney-john-1408); full text at [`sources/corpus_supplement/John-Gurney-d1408-The-History-of-Parliamentx.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/John-Gurney-d1408-The-History-of-Parliamentx.md). Source ID: `hop-gurney`.
@@ -81,3 +83,5 @@ Alice survived John by at least twenty-five years. She sold "Loundhall" to John 
 [^berney]: "BERNEY, Sir Robert (bef.1365–1415), of Great Witchingham and Gunton, Norf.," *The History of Parliament: The House of Commons 1386–1421* (1993), [History of Parliament Online](https://www.historyofparliamentonline.org/volume/1386-1421/member/berney-sir-robert-1365-1415): John Gurney as Berney's fellow shire knight of 1399 and co-trustee of Erpingham's lands. Source ID: `hop-berney`.
 
 [^msd]: *Soldier in Later Medieval England Online Database*: John Gourney, letters of attorney for Gascony/Aquitaine, 20 October 1394, in the retinue of John of Gaunt (The National Archives C61/104, m. 7). Source ID: `medievalsoldier-database`.
+
+[^blomefield-holm-hale-1401]: Francis Blomefield, *History of Norfolk*, vol. 6, South Greenhoe: Holm-Hale, footnote 6: "In 1401 John Gurnay, Edmund Oldhalle, John Drewe, rector of Harpele, Edmund Belleyeter, burgess of Lyn, Robert Botekesham, Thomas Brigge, Clement Herward, and other feoffees, held the 1st court and lete." Source ID: `blomefield-norfolk`.
