@@ -251,6 +251,19 @@ files.*
   (cross-ref W3) → somerset-gournay-collateral place + gurney-medieval-soldier
   topic (Matthew). Register the Ancient Deeds abstracts (A.1554 "Master John
   Gurnay, King's squire, of Westminster" 1458; A.7911/A.7196/A.8939 etc.).
+  - **Hawise / Helewise de Gurnai (†1201) — W3 already routed this here; do not
+    drop it.** W3 recorded the Farrer HKF v3 finding (Hawise †1201; Thomas son of
+    William son of John proffered 60 marks for Englishcumb, Som.; the 1210 Lasham
+    dower dispute; the "Helewise de Clere … seems to have survived as Helewise de
+    Gornai" identification, wife of Roger de Clere d.1183-4 s.p.) as a
+    *cross-reference* in `research/topics/anderson-yvery-harpetre-gournay-collateral.md`
+    (subsection "More Gurnay names from the Farrer full-volume capture"), footnote
+    `[^topic-farrer-hawise]`, deliberately leaving the full Somerset treatment to
+    W5. Migrate/expand it into `research/places/somerset-gournay-collateral.md`
+    (Englishcombe = the Somerset Gournay caput), reuse the existing
+    `farrer-honors-knights-fees-v3-gurnay-extracts` sourceId and its extract file
+    (the passage is already captured there), and leave the topic's cross-reference
+    pointing at the fuller Somerset home.
 - **§3.7 (false-friend)** — Sir Richard Gurney, Lord Mayor of London (the
   dominant 1640s London "Gurney"; systematic false-positive). Phase 4 built the
   false-friends registry; **verify** whether he is already an entry there and add

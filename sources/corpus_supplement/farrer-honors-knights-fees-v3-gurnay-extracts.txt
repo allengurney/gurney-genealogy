@@ -708,3 +708,79 @@ op. cit. 143. 20. Stapleton , op . cit . p . cxliv . 21. R. Lit. Claus . i . 141
 36. R. Hund . i . 38 . 37. Ibid . 42 . 38. Ibid . 336 . 39. Abbrev .
 Placit . 184b . 40. Cat . of Anct . D. A. 7918 , 7963. 41. Cal . Inquis . ii . 469 .
 42. Cal . Chart . iii . 43 . 43. Feud . Aids , iv . 170 . 44. Cal . Pat . R. 273 .
+
+
+========================================================================
+SUPPLEMENTARY PASSAGES FROM THE FULL-VOLUME HATHITRUST CAPTURE (2026-07-03)
+========================================================================
+Source: complete per-page OCR of all 536 scans of mdp.39015032992151 (printed
+page ~= HathiTrust seq - 16), assembled 2026-07-03. Passages below are the
+Gurnay/Gournay material used in the non-G13 assimilation beyond the user-supplied
+extract pages above. Printed pages are as given in the volume index (p. 574:
+"Gurnay ... de, family, 297, 420-423; ... Hawise [Helewise], 355-356; ...
+Olive, 82; ...").
+
+
+--- Harpley tenure chain, Burnham/Grancurt-Calthorpe chapter, Honor of Warenne
+    (printed pp. 391-392) ---
+
+Aid of 1242-3 (fee fractions lost to OCR; the numerals before "fee" require an
+image read of the printed page):
+
+  "Cecily the daughter of Philip de Burnham [   ] fee in Harpley . William de
+  Gurney [   ] fee in Harpley . William de Grancurt 1½ fee in Fulmodeston and
+  Croxton and fee in Clipston ."
+
+1275 Hundred Rolls (Burnham entry):
+
+  "In 1275 there is reference on the Hundred rolls to William de Calethorp's fair
+  at the manor of Burnham , Walter de Grancurt's right of free warren at his manor
+  of Fulmodeston , and Ralph son of John de Brunham's suit of his tenants . William
+  de Caletorp held 1 fee in the vill of Harpley , with the moiety of that fee which
+  John de Gurney held of him there , of William earl of Warenne . The year
+  following Cecily de Calethorp , in claiming the right of patronage of the church
+  of Harpley , gave this pedigree ..."
+
+[The 1302-3 aid entry — "Walter de Calthorp, John de Gurneye, and their tenants
+1 fee in Harpley" — is on the same printed pp. 391-392; its fee fraction is
+likewise an image-check item.]
+
+
+--- Olive de Gurnay, Hugh Lovel IPM 1291 (printed p. 82), Honor of Arundel ---
+
+  "Hugh Lovel died in 1291 holding inter alia fee in East Hampnett by Boxgrove
+  held by William de Alta Ripa , having been given to his mother in marriage ; fee
+  held by John de Chaggely ... ; fee held by Olive de Gurnay ; in Billinghurst fee
+  and in Storrington ¼ fee ."
+
+
+--- Clemency de Chesney, Stinton/Chesney chapter (printed pp. 313-318) ---
+
+  "It appears that William de Chesney left three daughters , as stated by the
+  Chronicle of Sibton , but at least two of them left issue . Margaret ( Margery )
+  had issue by Hugh de Creissi a son Roger ; Clemency seems to have married a
+  Gurnay , and then Jordan de Saukevill ; Sarra married Richard Engayne ... .
+  Margaret had the lands of this fee in Norfolk ..."
+
+
+--- Hawise / Helewise de Gurnai, Shere/Greatham-Clere chapter (printed pp. 355-356) ---
+
+  "Hawise de Gurnai died in 1201 , when Thomas son of William son of John proffered
+  60 marks for his land of Englishcumb , Som . , late of Hawise de Gurnai . ... In
+  1210 , the primate having the wardship of Ralph de Clere and his land , his
+  attorney complained that Walter de Abernun , William and Richard his brothers ,
+  held ... certain land in Lasham which by hereditary right ought to descend to
+  Ralph de Clere after the death of Hawise de Gurnai , of whose dower it was ."
+
+(Farrer elsewhere: "Helewise de Clere, foundress of the nunnery of Little Mareis
+[Yorks] ... seems to have survived as Helewise de Gornai" — wife of Roger de Clere,
+d. 1183-4 s.p.)
+
+
+--- Warenne-honor intro fee-table (printed p. 297) ---
+
+The volume index lists the senior "Gurnay ... fee" at p. 297 within the Honor-of-
+Warenne introductory fee-table; the row alignment (place column vs tenant column)
+is scrambled in OCR and requires an image read of the printed table before the
+Gurnay-Bardolf/Wormegay row can be tied to a specific place.
+

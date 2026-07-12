@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.23.0",
+    "version": "1.24.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-07-11",
+    "lastUpdated": "2026-07-12",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
@@ -2285,6 +2285,17 @@
       "validationPath": "sources/validations/bho-ipm-edward-iii-file35-gournay-inglescombe.md",
       "notes": "IPM entry mentioning land held of the demise of Thomas de Gournay of Inglescombe. Collateral/Somerset Gournay evidence."
     },
+    "bho-ipm-edward-iii-vol7-bardolf-swathings": {
+      "shortTitle": "BHO IPM Edward III vol. 7, no. 243 - Thomas Bardolf (Swathings/barony of Gurnay)",
+      "citation": "\"Inquisitions Post Mortem, Edward III, [no. 243, Thomas Bardolf].\" Calendar of Inquisitions Post Mortem, vol. 7, pp. 174-183. British History Online.",
+      "archive": "British History Online",
+      "url": "https://www.british-history.ac.uk/inquis-post-mortem/vol7/pp174-183",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/bho-ipm-edward-iii-vol7-243-bardolf-swathings.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/bho-ipm-edward-iii-vol7-bardolf-swathings.md",
+      "notes": "Inquisition post mortem of Thomas Bardolf (no. 243). Returns the Norfolk caput manors of Caister, Cantley and Winburgh as re-settled in 1313/14 by the feoffees John de Gurnay and John de Halughton and held in chief 'as parcel of the barony of Gurnay', and Swathings as held by John de Gurnay by knight service. The primary printed-calendar anchor for the junior line's Bardolf/Swathings tenure (previously known only via DG-Supp Note 115); calendar-abstract level, and it does not distinguish which John de Gurnay is meant."
+    },
     "bho-ipm-vol16-index-gournay": {
       "shortTitle": "BHO IPM vol. 16 Index - Gournay/Gurney",
       "citation": "\"Index of Persons and Places: G.\" Calendar of Inquisitions Post Mortem, vol. 16. British History Online.",
@@ -2316,7 +2327,7 @@
       "corpusPath": "sources/corpus_supplement/ancient-deeds-a7857-heydon-gurney-ormesby.md",
       "mediaPath": null,
       "validationPath": "sources/validations/descriptive-catalogue-ancient-deeds.md",
-      "notes": "Printed abstracts of the TNA A/B/C/D-series ancient deeds. Carries English-language abstracts (parties, property, date, witnesses) of medieval and early-modern private deeds; abstract level, not the original. Registered for A.7857 (Henry Heydon's 1493 Ormesby/Flegg feoffment naming William Gurney); the fuller Gurnay index across the A/B/C/D series is a candidate for further extraction."
+      "notes": "Printed abstracts of the TNA A/B/C/D-series ancient deeds. Carries English-language abstracts (parties, property, date, witnesses) of medieval and early-modern private deeds; abstract level, not the original. Registered for A.7857 (Henry Heydon's 1493 Ormesby/Flegg feoffment naming William Gurney) and A.2972 (undated grant by Hugh de Gurnay of Letton to Lewes priory; extract at ancient-deeds-a2972-hugh-gurnay-letton.md); the fuller Gurnay index across the A/B/C/D series is a candidate for further extraction."
     },
     "vch-hants-vol4-wellow-gurnay": {
       "shortTitle": "VCH Hampshire vol. 4 - East Wellow / Wellow Gurnay",
@@ -2778,7 +2789,7 @@
       "corpusPath": "sources/corpus_supplement/farrer-honors-knights-fees-v3-gurnay-extracts.txt",
       "mediaPath": "sources/media/mdp-39015032992151-158-312-314-333-406-407-436-439-1777765448.pdf",
       "validationPath": "sources/validations/farrer-honors-knights-fees-v3-gurnay-extracts.md",
-      "notes": "Public-domain HathiTrust extract pages for Gurnay/Gournay/Gurney entries. Especially useful for the Stutevill/Gurnai fee in South Wootton, Bedingham, and Kimberley; John de Gurney at Evesham; Honor of Warenne tenant table; Mapledurham/Wendover/Houghton Regis/Bledlow/Cantley/Caister/Swathings evidence."
+      "notes": "Public-domain HathiTrust extract for Gurnay/Gournay/Gurney entries: Stutevill/Gurnai fee in South Wootton, Bedingham, Kimberley; John de Gurney at Evesham; Honor of Warenne tenant table; Mapledurham/Wendover/Bledlow/Cantley/Caister/Swathings. Extended 2026-07-03 with full-volume passages (Harpley chain pp.391-392; Olive p.82; Clemency de Chesney pp.313-318; Hawise pp.355-356). A complete 536-page capture exists and may later supersede this extract as a full corpus retention."
     },
     "swann-chethams-library-ms-a4-15-2016": {
       "shortTitle": "Swann, Chetham's Library MS A.4.15",

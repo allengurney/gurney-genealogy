@@ -60,6 +60,10 @@ Sir Harris Nicolas dated this roll to between 1240 and 1245. DG calls these "the
 
 This last entry is genealogically important — it shows the Harpley tenure chain: King → Earl Warren → William de Caletorp → John de Gournay. The Warren overlordship at Harpley is consistent with the original Burnham marriage (Rose de Burnham was given in marriage by Hameline Earl Warren).
 
+Farrer's *Honors and Knights' Fees* (v3, printed p. 391) independently records the same 1275 entry — "William de Caletorp held 1 fee in the vill of Harpley, with the moiety of that fee which John de Gurney held of him there, of William earl of Warenne" — placing it in the Burnham/Calthorpe chapter of the Honor of Warenne, and showing John held a *moiety* of Calthorpe's Harpley fee. Farrer sets this 1275 tenure inside a three-generation Gurney chain at Harpley: a fee held by G28 William II in the 1242–3 aid, John (G27) here in 1275, and Calthorpe with a John de Gurney jointly holding one fee in the 1302–3 aid. The full chain is consolidated on `research/places/harpley.md`.[^farrer-g27-harpley-chain]
+
+[^farrer-g27-harpley-chain]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author, 1923-1925), Burnham/Grancurt–Calthorpe chapter, Honor of Warenne, printed pp. 391-392, full-volume HathiTrust capture https://hdl.handle.net/2027/mdp.39015032992151; passage in `sources/corpus_supplement/farrer-honors-knights-fees-v3-gurnay-extracts.txt`. Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
+
 4. Dodsworth Collections (No. 93, p. 30, 4 Edward I): Richard de Braundon [grants?] to John de Gurnay a tenement in Runhall.
 
 ### Lewes and Evesham — the rebel's arc

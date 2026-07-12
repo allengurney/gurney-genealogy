@@ -15,9 +15,14 @@ Research companion for `g25-john-de-gournay-iii-fact-sheet.md`. See `.claude/rul
 
 **Significance:** This is a major finding. John de Gurnay was entrusted as feoffee of Bardolf baronial properties — manors held from the King by barony in Nottingham and Derby as well as Norfolk. This is not a minor administrative role; it implies the Gurneys were trusted associates of the Bardolf barons. The Bardolfs were one of the great Norfolk baronial families (they had married Julia de Gournay of the senior line, per DG-Supp Note 113).
 
-**Question:** Which John is this? The 1314 date fits either the Rector John (collateral, d. 1332) or John III (G25, succeeded Rector in 1332). Most likely the Rector, as he was the more prominent John at that date.
+**Question:** Which John is this? The 1314 date fits either the Rector John (collateral, d. 1332) or John III (G25, succeeded Rector in 1332). Most likely the Rector, as he was the more prominent John at that date. The primary calendar does not resolve it, so the attribution stays open.
 
-The online route is only partial. The printed *Calendar of Inquisitions Post Mortem*, Edward II vol. 5, is online at Internet Archive, but a target check did not surface this Bardolf/John de Gurnay feoffment there. The useful current trail remains Daniel Gurney's Supplement, citing Escheat Rolls 7 Edward II and Dodsworth MS 57; the primary-roll/Dodsworth route is the remaining control to identify which John.[^bardolf-feoffee-online-route]
+**Primary-calendar anchor (CIPM vii. 243).** The record DG cited from the Escheat Rolls and Dodsworth MS 57 is now anchored in the printed calendar: it is the inquisition post mortem of Thomas Bardolf, *Calendar of Inquisitions Post Mortem*, vol. 7 (Edward III), no. 243, pp. 174–183 — not vol. 5 (Edward II), which is why the earlier vol.-5 check missed it. The Bardolf extent returns Caister, Cantley, and Winburgh as re-settled on Thomas Bardolf and Agnes his wife by a fine of 7 Edward II (1313/14), of the gift of the feoffees "John de Gurnay and John de Halughton," held in chief "as parcel of the barony of Gurnay"; and it returns "Shathingge [Swathings]. The manor held by John de Gurnay by service of a knight's fee." So the same John acted both as the Bardolfs' re-settlement feoffee for their Gournay-barony manors and as tenant of Swathings held of Bardolf. This confirms, at printed-calendar level, the feodary chain in Note 115 (Swathings held "de Hugone de Bardolf … et idem de Rege"); the John-identity (Rector John vs G25 John III) remains the open question.[^bardolf-feoffee-online-route]
+
+### Harpley fee in the 1302–3 aid (Farrer HKF v3)
+2026-07-12 — Farrer's *Honors and Knights' Fees* (v3, printed pp. 391–392) carries the Harpley tenure chain under the Honor of Warenne down to this generation: the 1302–3 aid returns "**Walter de Calthorp, John de Gurneye, and their tenants 1 fee in Harpley**." Calthorpe and a John de Gurney hold the Harpley fee jointly. Whether this John is the direct-line G25 John III or the collateral Rector John (d. 1332), who held Harpley across these years, the aid does not distinguish — the same identity ambiguity that runs through the Swathings/Bardolf record above. The chain (G28 in 1242–3, G27 in 1275, this 1302–3 entry) is consolidated on `research/places/harpley.md`.[^farrer-g25-harpley]
+
+[^farrer-g25-harpley]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author, 1923-1925), Burnham/Grancurt–Calthorpe chapter, Honor of Warenne, printed pp. 391-392, full-volume HathiTrust capture https://hdl.handle.net/2027/mdp.39015032992151; passage in `sources/corpus_supplement/farrer-honors-knights-fees-v3-gurnay-extracts.txt`. The 1302–3 fee-fraction detail is an image-check item. Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
 
 ### Saxthorpe — manor connection (DG-Supp Note 117)
 2026-04-18 — DG-Supp Note 117 (p. 789) notes: "John de Mereworthe was lord of the manor of Saxthorpe, which had been held by John Gurnay II. [the Rector], as it afterwards was by John Gurnay V. [Sir John, d. 1408]." Saxthorpe (Loundhall manor) was thus in the Gournay orbit across multiple generations. DG speculates the £20/year annuity granted by Edmund (G23) to John de Mereworthe was "probably in consequence of some agreement between them" regarding Saxthorpe.
@@ -42,13 +47,13 @@ This pertains to G23 Edmund specifically, not G25 John III, but confirms Edmund'
 | Place | Period | Notes |
 |---|---|---|
 | [Harpley, Norfolk](../places/harpley.md) | 1332–c. 1353+ | Succeeded uncle John (Rector) in 1332. Presented to the living that year. |
-| [Hardingham/Swathings, Norfolk](../places/hardingham.md) | 1332–c. 1353+ | Swathings held under Bardolf, per Norfolk feodary (DG-Supp Note 115). |
+| [Hardingham/Swathings, Norfolk](../places/hardingham.md) | 1332–c. 1353+ | Swathings held of Bardolf by knight service (Norfolk feodary, DG-Supp Note 115; primary-calendar anchor CIPM vii. 243, Thomas Bardolf IPM). |
 
 ---
 
 ## Open Questions
 
-1. **Which John was the Bardolf feoffee?** The 1314 Escheat Roll feoffment (Stoke Bardolf, Okebrook, Winburgh) — was this the Rector John (collateral) or John III (G25)? The Rector seems more likely at that date.
+1. **Which John was the Bardolf feoffee?** The 1313/14 feoffment (now anchored in CIPM vii. 243, the Thomas Bardolf IPM: Caister/Cantley/Winburgh re-settled through John de Gurnay and John de Halughton; Swathings held by John de Gurnay) — was this the Rector John (collateral) or John III (G25)? The Rector seems more likely at that date, but the calendar does not say. The record is now primary-calendar anchored; the identity is the residual open point.
 2. **Lexham family in Blomefield:** Edmund de Lexham (Jane's father) — does Blomefield's *Norfolk* cover a Lexham parish entry with Lexham family pedigree?
 3. **Black Death impact:** Are there Norfolk manorial records from 1348–50 showing the Gurneys' response to the pandemic?
 4. **1353 attestation:** What is the specific record for "living 27 Edward III (1353)"?
@@ -63,7 +68,7 @@ This pertains to G23 Edmund specifically, not G25 John III, but confirms Edmund'
 - DG-Supp, Note 117 (p. 789): Saxthorpe manor connection; Feltwell trust (Close Rolls 5 Rich. II). [DG-Supp]
 - Blomefield, *History of Norfolk*, vol. viii, pp. 452–459 (Harpley). [Blomefield]
 
-[^bardolf-feoffee-online-route]: Daniel Gurney, *Supplement to the Record of the House of Gournay* (1858), Note 115, pp. 787-788; printed IPM-calendar route checked in *Calendar of Inquisitions Post Mortem*, Edward II, vol. 5 (London: HMSO, 1908), Internet Archive, https://archive.org/details/cu31924011387838, without locating the target Bardolf/John de Gurnay feoffment. The control trail remains Escheat Rolls 7 Edward II and Dodsworth MS 57.
+[^bardolf-feoffee-online-route]: The primary printed-calendar record is "Inquisitions Post Mortem, Edward III, [no. 243, Thomas Bardolf]," *Calendar of Inquisitions Post Mortem*, vol. 7, pp. 174–183 (index pp. 571–576), British History Online, https://www.british-history.ac.uk/inquis-post-mortem/vol7/pp174-183; verbatim extract at `sources/corpus_supplement/bho-ipm-edward-iii-vol7-243-bardolf-swathings.md`. Source ID: `bho-ipm-edward-iii-vol7-bardolf-swathings`. This is the same 7 Edward II (1313/14) fine that Daniel Gurney, *Supplement to the Record of the House of Gournay* (1858), Note 115, pp. 787–788, cited from the Escheat Rolls and Dodsworth MS 57; the earlier check of *Calendar of Inquisitions Post Mortem*, Edward II, vol. 5 (Internet Archive, https://archive.org/details/cu31924011387838) missed it only because the target sits in vol. 7 (Edward III), inside the Bardolf IPM.
 
 ---
 

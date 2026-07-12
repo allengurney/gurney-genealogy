@@ -33,14 +33,19 @@ Runhall is a good example of why the place library needs both concise JSON and f
 
 ## Post-Gurney tenure
 
-Runhall appears to have passed out of the direct Gurney line after William I and Matthew. The fiefs of Runhall and Swathings may have come to the junior branch through the forfeiture of the Le Bourguignon family when Normandy was lost in 1204 — a plausible explanation, but one that still needs a firmer source trail.
+Runhall appears to have passed out of the direct Gurney line after William I and Matthew.
+
+The old working explanation — that the fiefs of Runhall and Swathings came to the junior branch through the forfeiture of the Le Bourguignon family when Normandy was lost in 1204 — can now be sharpened rather than simply left "needing a firmer source trail." The Thomas Bardolf inquisition post mortem of 1329 (CIPM vii. 243) shows that by 7 Edward II (1313/14) the junior John de Gurnay held Swathings *of* the Bardolfs by knight service, and that the Bardolfs' neighbouring caput manors (Caister, Cantley, Winburgh) were held "as parcel of the barony of Gurnay" — the forfeited senior-line honour carried to the Bardolfs by Juliana de Gournay. The architecture is therefore: the senior barony forfeited in 1204, restored, and descending through Juliana to the Bardolfs; the junior line holding *fragments of that same barony*, of the Bardolfs as its heirs. That reframes the Swathings/Runhall descent question from "reconcile two conflicting accounts" to "identify the cadet enfeoffment" — the point at which a junior cadet was enfeoffed within the senior fee, most plausibly *before* the 1204 forfeiture. Two 12th–13th-century Mitford-hundred datapoints are candidates to anchor such a cadet origin: the undated grant by "Hugh de Gurnay of Letton" to Lewes priory (Ancient Deeds A.2972), a senior-line forename operating in junior-line territory; and the marriage, c. 1170–1200, of a Gurnay to Clemency, coheir of William de Chesney of Norfolk (Farrer HKF v3). Both are worked up on `research/topics/anderson-yvery-harpetre-gournay-collateral.md`; neither yet resolves *which* Gurnay, so the cadet enfeoffment is a reframed open question, not a settled descent.[^runhall-bardolf-cadet]
+
+[^runhall-bardolf-cadet]: "Inquisitions Post Mortem, Edward III, [no. 243, Thomas Bardolf]," *Calendar of Inquisitions Post Mortem*, vol. 7, pp. 174-183, British History Online, https://www.british-history.ac.uk/inquis-post-mortem/vol7/pp174-183 (extract at `sources/corpus_supplement/bho-ipm-edward-iii-vol7-243-bardolf-swathings.md`, Source ID `bho-ipm-edward-iii-vol7-bardolf-swathings`); with *A Descriptive Catalogue of Ancient Deeds*, vol. 2, A.2972 (`descriptive-catalogue-ancient-deeds`) and William Farrer, *Honors and Knights' Fees*, vol. 3, pp. 313-318 (`farrer-honors-knights-fees-v3-gurnay-extracts`). Fuller synthesis: cross-reference, not a source — `research/topics/anderson-yvery-harpetre-gournay-collateral.md`.
 
 ## Open items
 
 - Locate DG-I Appendix LIII in the project corpus.
 - Pull the published Placita text for the Runhall reference naming William I.
 - Locate the Gaywood deed and check whether it survives in NRO or BL charter collections.
-- Clarify the Le Bourguignon forfeiture timing and whether Runhall and Swathings entered the line together.
+- Clarify the Le Bourguignon forfeiture timing and whether Runhall and Swathings entered the line together, now against the fixed datum that by 1313/14 the junior John held Swathings of the Bardolfs "as parcel of the barony of Gurnay" (CIPM vii. 243).
+- Pursue the reframed cadet-enfeoffment question: identify the junior cadet enfeoffed within the senior fee before 1204 (test the Hugh de Gurnay of Letton deed and the Clemency de Chesney marriage).
 
 ## Sources
 
