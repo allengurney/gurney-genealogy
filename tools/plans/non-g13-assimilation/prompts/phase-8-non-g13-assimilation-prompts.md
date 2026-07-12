@@ -89,7 +89,7 @@ sessions collide). Suggested order W1 → W7; W1/W6 are the cleanest first sessi
 
 ---
 
-## W1 — G23 Edmund Gournay (medieval justice & borough counsel) — Model: Sonnet
+## W1 — G23 Edmund Gournay (medieval justice & borough counsel) — Model: Sonnet - DONE
 
 *Self-contained, high narrative value, cleanest starting cluster. Destinations:
 `research/people/g23-edmund-gurney-fact-sheet.research.md`,
@@ -125,7 +125,7 @@ Edmund test done) per its companion.
 
 ---
 
-## W2 — William Gurney IV & V and the Tudor legal-gentry network — Model: Opus
+## W2 — William Gurney IV & V and the Tudor legal-gentry network — Model: Opus - DONE
 
 *The richest single narrative gain. Destinations:
 `research/people/g19-william-gurney-iv-fact-sheet.research.md`,
@@ -261,7 +261,7 @@ squire, verify).
 
 ---
 
-## W6 — the London Gurneys & the G14/G15 household — Model: Sonnet
+## W6 — the London Gurneys & the G14/G15 household — Model: Sonnet - DONE
 
 *Cleanest of the late clusters. Destinations:
 `research/topics/london-gurney-comparators-1595-1670.md`,

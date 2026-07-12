@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "1.21.0",
+    "version": "1.23.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
     "lastUpdated": "2026-07-11",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
@@ -2164,6 +2164,17 @@
       "validationPath": "sources/validations/bho-london-inhabitants-st-augustine-1638.md",
       "notes": "St Augustine 1638 rents return, three manuscript pages (MS. 67, MS. 67a, MS. 68), £1,700 total assessed value yielding £233 5s tithe at 2/9 per £. John Gurney is in MS. 67a at £10, between Christopher Hunlock £2 and George Browne £10. Joseph Huntscott (= Joseph Henscott, will overseer of Robert Gurney 1625, and the well-documented Stationer) appears on MS. p. 68 at £12, anchoring parish-network continuity from Robert's death (1625) into 1638. Candidate D context now stronger than a generic same-name London lead."
     },
+    "bho-london-inhabitants-st-dunstan-west-1638": {
+      "shortTitle": "BHO - Inhabitants of London 1638, St Dunstan in the West",
+      "citation": "Dale, T. C. \"Inhabitants of London in 1638: St. Dunstan in the West.\" In The Inhabitants of London in 1638. Society of Genealogists, 1931. British History Online.",
+      "archive": "British History Online",
+      "url": "https://www.british-history.ac.uk/no-series/london-inhabitants/1638/pp230-235",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/bho-london-inhabitants-st-dunstan-west-1638.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/bho-london-inhabitants-st-dunstan-west-1638.md",
+      "notes": "St Dunstan in the West householder list, 1638. Only a single search-result line is retrieved so far: Henry Gurney rated 13/6/8 (twenty marks), in the Fleet Street legal quarter, between Wm. Elborne/Edw. Paris and Philymon Powell. A distinct page range from bho-london-inhabitants-st-augustine-1638 (pp34-35, the Candidate D John Gurney entry). Full pp230-235 return not yet pulled."
+    },
     "bho-london-hearth-tax-merry-2010": {
       "shortTitle": "London Hearth Tax project database (Merry 2010)",
       "citation": "Merry, Mark (2010). London Hearth Tax project database. Centre for Metropolitan History. Published online with London Hearth Tax: City of London and Middlesex, 1666 (2011) and London Hearth Tax: Westminster 1664 (2011) at British History Online.",
@@ -2286,15 +2297,26 @@
       "notes": "Index references for Gournay/Gornay/Gurney, including Matthew de Gournay, Philippa wife of Matthew, Roger, and Thomas de Gournay. Use as a finding aid, not as a standalone proof. No Edmund Gournay appears — consistent with Edmund G23 (d.1387) holding no land in chief and thus having no royal IPM."
     },
     "bho-ipm-henry-vii-townshend-gurnay-feoffee": {
-      "shortTitle": "BHO IPM Henry VII - William Gurnay feoffee of Sir Roger Townshend",
-      "citation": "\"Inquisitions Post Mortem, Henry VII, Entries 1101-1150.\" Calendar of Inquisitions Post Mortem, Series 2, Volume 1, Henry VII (London: HMSO), pp. 469-504. British History Online.",
+      "shortTitle": "BHO Calendar of IPM, Henry VII (series 2) - William Gurnay feoffee appearances",
+      "citation": "Calendar of Inquisitions Post Mortem, Series 2, Henry VII (London: HMSO). British History Online: vol. 1 pp. 469-504 (Townshend estate); vol. 1 pp. 430-451 (Wynter, Geddyng/Drury, Tendale); vol. 2 pp. 223-251 (Fortescue).",
       "archive": "British History Online",
       "url": "https://www.british-history.ac.uk/inquis-post-mortem/series2-vol1/pp469-504",
       "corpusStatus": "partial",
       "corpusPath": "sources/corpus_supplement/bho-ipm-henry-vii-townshend-gurnay-feoffee.md",
       "mediaPath": null,
       "validationPath": null,
-      "notes": "William Gurnay, esq. (West Barsham family; most likely G19 William IV, escheator, d.1508, or his son William V) recurs as feoffee-to-uses in the IPMs of Sir Roger Townshend, knt., d. 9 Nov 1493 (9 Hen VII) - the Raynham manor 'Havyles', Helloughton, Whissonsett, Horningtoft, Gateley, and Hadleigh (Suffolk). Co-feoffees: William Pekenham (Archdeacon of Suffolk), Thomas Woodhouse, Edward Knyvet, John/Thomas Blakeney, Thomas Gygges. Primary-record evidence of the Gurney-Townshend-Heydon-Knyvet trust affinity (Townshend's wife Amy Heydon was sister to Anne Heydon, wife of G18 William V). Calendar abstract level. Surfaced via BHO full-text 'Gurnay' sweep, June 2026."
+      "notes": "William Gurnay, esq. (West Barsham family) recurs as feoffee-to-uses across Henry VII IPMs: the Townshend estate (Sir Roger Townshend, knt., d. 1493 - Raynham 'Havyles', Helloughton, Whissonsett, Hadleigh), plus the Wynter, Geddyng/Drury (1490), Tendale, and Fortescue/Calthorpe trusts - roughly 15 dated acts c. 1488-1502. The Wynter IPM styles a feoffee 'William Gurnay the younger', proving G18 William V acted contemporaneously with his father G19 William IV. Calendar abstract level."
+    },
+    "descriptive-catalogue-ancient-deeds": {
+      "shortTitle": "A Descriptive Catalogue of Ancient Deeds (TNA, HMSO)",
+      "citation": "A Descriptive Catalogue of Ancient Deeds in the Public Record Office, 6 vols. (London: HMSO, 1890-1915). British History Online.",
+      "archive": "British History Online / The National Archives",
+      "url": "https://www.british-history.ac.uk/descriptive-cat-ancient-deeds",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/ancient-deeds-a7857-heydon-gurney-ormesby.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/descriptive-catalogue-ancient-deeds.md",
+      "notes": "Printed abstracts of the TNA A/B/C/D-series ancient deeds. Carries English-language abstracts (parties, property, date, witnesses) of medieval and early-modern private deeds; abstract level, not the original. Registered for A.7857 (Henry Heydon's 1493 Ormesby/Flegg feoffment naming William Gurney); the fuller Gurnay index across the A/B/C/D series is a candidate for further extraction."
     },
     "vch-hants-vol4-wellow-gurnay": {
       "shortTitle": "VCH Hampshire vol. 4 - East Wellow / Wellow Gurnay",
@@ -3801,7 +3823,7 @@
       "corpusPath": "sources/corpus_supplement/paston-letters-gairdner-gurney-extracts.md",
       "mediaPath": null,
       "validationPath": null,
-      "notes": "Standard scholarly edition. Vol. I is the editorial Introduction; vols. II-VI carry the letters in numbered sequence. Gurney-related extracts captured: Saxthorpe Court 1472 episode (vol. I Introduction, narrating Paston letters Nos. 779, 796, 801 + Margaret Paston 5 June 1472); 23 April 1452 St George's Day petition signed by Thomas Gurnay (vol. II); Countess of Oxford to John Paston referencing Margaret Gurnay (vol. II, undated)."
+      "notes": "Standard scholarly edition. Vol. I is the editorial Introduction; vols. II-VI carry the letters in numbered sequence. Gurney-related extracts captured: Saxthorpe Court 1472 episode (vol. I Introduction + the two John Paston III letters Nos. 796, 801 verbatim); 23 April 1452 St George's Day petition signed by Thomas Gurnay (vol. II); Countess of Oxford referencing Margaret Gurnay (vol. II); John Jerningham to Margaret Paston, Corpus Christi 1458 ('myn ownkll Gournay') confirming the Gournay-Jerningham marriage (vol. III)."
     },
     "paston-letters-davis": {
       "shortTitle": "Paston Letters and Papers -- Davis edition",

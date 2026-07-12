@@ -40,11 +40,12 @@ bho-ipm-edward-iii-file31-gournay-harpetree,BHO IPM Edward III File 31 - Thomas 
 bho-ipm-edward-iii-file35-gournay-inglescombe,BHO IPM Edward III File 35 - Thomas Gournay of Inglescombe,partial,sources/corpus_supplement/bho-ipm-edward-iii-file35-gournay-inglescombe.md,,sources/validations/bho-ipm-edward-iii-file35-gournay-inglescombe.md
 bho-ipm-edward-iii-vol12-sancto-omero-mulbarton-1366,"BHO Calendar of IPM, Edward III, vol. 12 — Thomas de Sancto Omero (1366)",none,,,
 bho-ipm-henry-iv-vol19-gournay-johnv,"BHO IPM vol. 19 (Henry IV) - John Gournay (Sir John V), d.1408",none,,,sources/validations/bho-ipm-henry-iv-vol19-gournay-johnv.md
-bho-ipm-henry-vii-townshend-gurnay-feoffee,BHO IPM Henry VII - William Gurnay feoffee of Sir Roger Townshend,partial,sources/corpus_supplement/bho-ipm-henry-vii-townshend-gurnay-feoffee.md,,
+bho-ipm-henry-vii-townshend-gurnay-feoffee,"BHO Calendar of IPM, Henry VII (series 2) - William Gurnay feoffee appearances",partial,sources/corpus_supplement/bho-ipm-henry-vii-townshend-gurnay-feoffee.md,,
 bho-ipm-vol16-index-gournay,BHO IPM vol. 16 Index - Gournay/Gurney,partial,sources/corpus_supplement/bho-ipm-vol16-index-gournay.md,,sources/validations/bho-ipm-vol16-index-gournay.md
 bho-livery-haberdashers-gournay-charity,BHO - Haberdashers' Company Gournay's Charity,partial,sources/corpus_supplement/bho-haberdashers-gournays-charity.md,,sources/validations/bho-livery-haberdashers-gournay-charity.md
 bho-london-hearth-tax-merry-2010,London Hearth Tax project database (Merry 2010),partial,sources/corpus_supplement/london-hearth-tax-1662-1666-gurney-cluster.md,sources/media/london-hearth-tax-merry-2010/London_Hearth_Tax_database.mdb,
 bho-london-inhabitants-st-augustine-1638,"BHO - Inhabitants of London 1638, St Augustine",full,sources/corpus_supplement/bho-london-inhabitants-st-augustine-1638.md,,sources/validations/bho-london-inhabitants-st-augustine-1638.md
+bho-london-inhabitants-st-dunstan-west-1638,"BHO - Inhabitants of London 1638, St Dunstan in the West",partial,sources/corpus_supplement/bho-london-inhabitants-st-dunstan-west-1638.md,,sources/validations/bho-london-inhabitants-st-dunstan-west-1638.md
 bho-port-trade-early-elizabethan-london-richard-gurney-1567-8,"BHO - London Port Book 1567-8, Richard Gurney",partial,sources/corpus_supplement/bho-port-trade-early-elizabethan-london-richard-gurney-1567-8.md,,sources/validations/bho-port-trade-early-elizabethan-london-richard-gurney-1567-8.md
 bho-statutes-realm-1661-assessment,BHO Statutes - 1661 Assessment Act,partial,sources/corpus_supplement/bho-statutes-1661-francis-gurney.md,,sources/validations/bho-statutes-realm-1661-assessment.md
 billerica-town-records-ms,Billerica town records (MS),extract,sources/corpus_supplement/billerica-town-records-gurney-1659-1660.md,,sources/validations/billerica-town-records-ms.md
@@ -88,6 +89,7 @@ dashwood-visitation-norfolk-1563-vol1-1878,"Dashwood, Visitation of Norfolk 1563
 davis-abel-lunt-1963,"Davis, Ancestry of Abel Lunt",none,,,
 decorde-essai-canton-gournay-1861,"Decorde, Essai historique et archeologique sur le Canton de Gournay (1861)",full,sources/corpus_supplement/essai-historique-archeologique-canton-de-gournay-decorde-1861.txt,,sources/validations/decorde-essai-canton-gournay-1861.md
 delisle-critique-of-dg,Léopold Delisle's critique of Daniel Gurney,minimal,,,
+descriptive-catalogue-ancient-deeds,"A Descriptive Catalogue of Ancient Deeds (TNA, HMSO)",partial,sources/corpus_supplement/ancient-deeds-a7857-heydon-gurney-ormesby.md,,sources/validations/descriptive-catalogue-ancient-deeds.md
 deville-cartulaire-sainte-trinite-rouen,"Deville, Cartulaire de la Sainte-Trinite du Mont de Rouen (1840)",none,,,sources/validations/deville-cartulaire-sainte-trinite-rouen.md
 dg-rec-pt1,"DG Record, Part I",full,sources/corpus/daniel-gurney-part-1.md,,
 dg-rec-pt2,"DG Record, Part II",full,sources/corpus/daniel-gurney-part-2.md,,

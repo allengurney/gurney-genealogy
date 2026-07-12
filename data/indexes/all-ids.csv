@@ -147,6 +147,7 @@ place-weymouth-massachusetts-usa,place,"Weymouth, Massachusetts, USA",data/place
 place-ecouche-normandy-france,place,"Écouché, Normandy, France",data/places.json
 place-fry-eglise-saint-martin-normandy-france,place,"Église Saint-Martin, Fry, Normandy, France",data/places.json
 complete-history-england-1706-v1,source,"A Complete History of England, vol. 1 (1706)",data/sources.json
+descriptive-catalogue-ancient-deeds,source,"A Descriptive Catalogue of Ancient Deeds (TNA, HMSO)",data/sources.json
 aalt-cp40-edward-i,source,"AALT CP 40, Edward I",data/sources.json
 abington-vr-1850-vol1,source,"Abington Vital Records to 1850, vol. 1",data/sources.json
 accessgenealogy-lysander-franklin-gurney,source,"AccessGenealogy, Lysander Franklin Gurney",data/sources.json
@@ -182,13 +183,14 @@ british-archivist-bernau-1913,source,"Bernau, British Archivist - Francis Gourna
 bho-beaven-aldermen-richard-gourney-1589-1597,source,"BHO - Beaven aldermen, Richard Gourney",data/sources.json
 bho-livery-haberdashers-gournay-charity,source,BHO - Haberdashers' Company Gournay's Charity,data/sources.json
 bho-london-inhabitants-st-augustine-1638,source,"BHO - Inhabitants of London 1638, St Augustine",data/sources.json
+bho-london-inhabitants-st-dunstan-west-1638,source,"BHO - Inhabitants of London 1638, St Dunstan in the West",data/sources.json
 bho-port-trade-early-elizabethan-london-richard-gurney-1567-8,source,"BHO - London Port Book 1567-8, Richard Gurney",data/sources.json
 bho-ipm-edward-iii-vol12-sancto-omero-mulbarton-1366,source,"BHO Calendar of IPM, Edward III, vol. 12 — Thomas de Sancto Omero (1366)",data/sources.json
+bho-ipm-henry-vii-townshend-gurnay-feoffee,source,"BHO Calendar of IPM, Henry VII (series 2) - William Gurnay feoffee appearances",data/sources.json
 bho-hmc-kings-lynn-chamberlains-accounts,source,BHO HMC - King's Lynn Chamberlains' Accounts,data/sources.json
 bho-hmc-kings-lynn-misc-writings,source,BHO HMC - King's Lynn Miscellaneous Writings,data/sources.json
 bho-ipm-edward-iii-file31-gournay-harpetree,source,BHO IPM Edward III File 31 - Thomas Gournay of Harpetree,data/sources.json
 bho-ipm-edward-iii-file35-gournay-inglescombe,source,BHO IPM Edward III File 35 - Thomas Gournay of Inglescombe,data/sources.json
-bho-ipm-henry-vii-townshend-gurnay-feoffee,source,BHO IPM Henry VII - William Gurnay feoffee of Sir Roger Townshend,data/sources.json
 bho-ipm-vol16-index-gournay,source,BHO IPM vol. 16 Index - Gournay/Gurney,data/sources.json
 bho-ipm-henry-iv-vol19-gournay-johnv,source,"BHO IPM vol. 19 (Henry IV) - John Gournay (Sir John V), d.1408",data/sources.json
 bho-statutes-realm-1661-assessment,source,BHO Statutes - 1661 Assessment Act,data/sources.json

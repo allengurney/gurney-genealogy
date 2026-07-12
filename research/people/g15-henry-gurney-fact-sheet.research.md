@@ -155,11 +155,14 @@ Note: Blomefield's "Edm. Gurney" here is **Edward Gurney** (Henry G15's grandson
 - Pevsner & Wilson, <em>Norfolk 2: North-West and South</em> (Buildings of England, 2nd ed. 1999), pp. 365–366.
 
 ### Negative Results
+- Henry does not surface by name in British History Online's full-text search of the Cecil Papers (Hatfield) or State Papers: a phrase search for "Henry Gurney" returns 7 hits, none in the Cecil Papers or State Papers (the one CSPD 1641-3 index hit is a false positive with no Gurn* string on the page); "Henry Gurnay" returns 2 hits, both already-held Blomefield parish ground. The BHO-Cecil/CSPD route is treated as exhausted for Henry by name; residual routes are non-BHO (the ProQuest Hatfield calendar index, State Papers Online/Gale, or the TNA SP 46 series).[^bho-cecil-negative-g15]<!-- discovery trail: lead L-179 --> A same-forename Henry Gurney rated in the Fleet Street legal quarter (St Dunstan in the West, 1638) is a separate, unidentified London household — treated on [`research/topics/london-gurney-comparators-1595-1670.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/topics/london-gurney-comparators-1595-1670.md), not here.
 - No portrait or funeral effigy of Henry is known to survive.
 - The full text of his 1614 will has not been recovered; needs Norfolk Record Office probate registers.
 - The exact location of the surviving epitaph verse (wall monument, ledger slab, lost brass) is not specified.
 - Bodleian MS Tanner 175 has not been consulted directly.
 - Farrer online OCR/search was productive for Harpley and West Barsham Gurney arms, but did not surface a Great Ellingham Gurney monument entry in the examined Internet Archive volumes.
+
+[^bho-cecil-negative-g15]: British History Online, full-text search of *Calendar of the Cecil Papers in Hatfield House* and State Papers Domestic, phrase queries "henry gurney" and "henry gurnay" (2026-07-03). Source ID: `cal-cecil-papers-hatfield`.
 
 ### Open Questions for Future Research
 1. **Direct examination of Bodleian MS Tanner 175** — highest-value path. The MARCO catalogue lead is now captured as `bodleian-ms-tanner-175-marco`, but the manuscript record did not render during v08 intake; review the Bodleian catalogue and any digitized images directly.

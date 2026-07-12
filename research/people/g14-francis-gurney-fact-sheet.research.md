@@ -79,6 +79,8 @@ Francis G14's documented East Dereham child set is grounded in the parish-regist
 
 Net effect: Entries B and C remain associated with Francis G14's household with their original given names Marye and Agnes — Agnes a confirmed daughter, Marye now more likely a niece — while Entry D (Marye, 1618) and Entry F (Francis, 1633) round out the documented Norfolk children.
 
+No Henry appears among these East Dereham entries or among the St Benet Fink children by Anne Browning (below); a Henry Gurney rated in the Fleet Street legal quarter (St Dunstan in the West, 1638) — the name-bearing forename of Henry G15 — is therefore not attributable to Francis G14's documented household on the present record. The finding and its open identification question are treated on [`research/topics/london-gurney-comparators-1595-1670.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/topics/london-gurney-comparators-1595-1670.md), not here.
+
 Register chronology context (all I-class except where noted):
 - Pages 00735 / 00736 = 1620 register year (D, in-parchment heading).
 - Pages 00726 / 00727 = 1616 register year (D, in-parchment "25 of March 1616 unto the 25 of March 1617" date span).
