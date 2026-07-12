@@ -289,6 +289,7 @@ ny-state-military-museum-127th-infantry,NYS Military Museum - 127th Infantry Reg
 ny-war-1812-payroll-abstracts,New York War of 1812 militia payroll abstracts,none,,sources/media/ny-war-1812-payroll-abstracts/,sources/validations/ny-war-1812-payroll-abstracts.md
 nyclipper-1895-08-patchogue-fauntleroy,"New York Clipper, August 1895 — Patchogue Lord Fauntleroy notice",partial,sources/corpus_supplement/nyclipper-1895-08-patchogue-fauntleroy.md,sources/media/nyclipper-1895-08-patchogue-fauntleroy/,sources/validations/nyclipper-1895-08-patchogue-fauntleroy.md
 odnb-matthew-gournay,"ODNB / DNB — Sir Matthew de Gournay (d. 1406), soldier",none,,,sources/validations/odnb-matthew-gournay.md
+oeuvres-rigord-guillaume-breton-delaborde,"Œuvres de Rigord et de Guillaume le Breton (Delaborde, SHF, 1882-1885)",partial,sources/corpus_supplement/oeuvres-rigord-guillaume-breton-delaborde-vol2-gournay-philippide.md,,sources/validations/oeuvres-rigord-guillaume-breton-delaborde.md
 opendomesday-org,Open Domesday,external,,,
 openedition-abbayes-seigneurs-normands-annexe,"OpenEdition, abbeys founded by Norman lords",none,,,
 orderic-vitalis-chibnall-vol-5,"Orderic Vitalis, Historia Aecclesiastica, ed./trans. Chibnall, vol. 5 (Books 9-10)",external,,,
@@ -319,6 +320,7 @@ powell-historie-cambria-1584,Powell -- Historie of Cambria (1584),external,,,
 projet-conde-conquets-hue-gournay,"Projet ConDE, Conquets Hue de Gournay custom",none,,,
 protestation-returns,Protestation Returns 1641–42,none,,,
 records-first-church-dorchester-1891,"Records of the First Church at Dorchester, 1636-1734 (1891)",none,,,sources/validations/records-first-church-dorchester-1891.md
+recueil-actes-henri-ii-delisle-berger-introduction,"Recueil des actes de Henri II, Delisle/Berger, Introduction (1909)",partial,sources/corpus_supplement/actes-henri-ii-delisle-berger-introduction-gournay-extracts.md,,sources/validations/recueil-actes-henri-ii-delisle-berger-introduction.md
 recueil-actes-henri-ii-delisle-berger-vol-1,"Recueil des actes de Henri II, Delisle/Berger, vol. 1 (1916)",full,sources/corpus_supplement/actes-henri-ii-delisle-berger-vol1-text.md,sources/media/recueildesactesd01grea.pdf,
 recueil-actes-henri-ii-delisle-berger-vol-2,"Recueil des actes de Henri II, Delisle/Berger, vol. 2 (1920)",full,sources/corpus_supplement/actes-henri-ii-delisle-berger-vol2-text.md,sources/media/recueildesactesd02grea.pdf,
 regesta-rano,Regesta Regum Anglo-Normannorum (Bates),none,,,

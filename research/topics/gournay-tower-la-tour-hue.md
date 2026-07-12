@@ -20,13 +20,19 @@ The construction was concentrated near the future site of the **Collégiale Sain
 
 ## 2. William Brito's *Philippide* (c. 1224) — the original Latin source
 
-Guillaume le Breton (William the Breton, c. 1165–1226), court poet of Philip Augustus, completed his epic *Philippide* c. 1224 celebrating Philip's reign. The relevant passage describing Gournay's defences sits in book XI (cited as "Lib. xi" in DG-I p. 24 and Potin 1842 p. 76).
+Guillaume le Breton (William the Breton, c. 1165–1226), court poet of Philip Augustus, completed his epic *Philippide* c. 1224 celebrating Philip's reign. In Delaborde's critical edition the Gournay set-piece stands in **book VI** (verse lines 210–262, printed vol. 2 pp. 160–162), not in "lib. xi" as Daniel Gurney's citation (DG-I p. 24) transmits — the book-XI locator carried in earlier repo notes and via Potin 1842 p. 76 is an edition/citation slip. The `munitum triplice muro … inexpugnabile` verse Daniel Gurney quotes is line VI, 212; the index of the same volume fixes the four Gournay loci as description (VI, 210), Hugh de Gournay in command (VI, 216), the dam-breach capture (VI, 221), and Arthur of Brittany knighted at Gournay (VI, 262).
 
-Standard published edition: H.-F. Delaborde (ed.), *Oeuvres de Rigord et de Guillaume le Breton, historiens de Philippe-Auguste*, 2 vols. (Paris: Renouard, *Société de l'histoire de France*, 1882–1885). Modern editions are accessible via the Rolls Series.
+Standard published edition: H.-F. Delaborde (ed.), *Œuvres de Rigord et de Guillaume le Breton, historiens de Philippe-Auguste*, 2 vols. (Paris: Renouard, *Société de l'histoire de France*, 1882–1885). The book VI verses on Gournay are now transcribed verbatim in `sources/corpus_supplement/oeuvres-rigord-guillaume-breton-delaborde-vol2-gournay-philippide.md`; the key lines run:
 
-DG-I p. 24 cites the Latin verse: *"munitum triplice muro … inexpugnabilis"* — *"fortified with a triple wall…impregnable."* The full passage has not been located in the Delaborde edition by the repo as of this writing. **Open task**: locate the Brito verses and reproduce the original Latin in full.
+> *Rure situm plano, munitum triplice muro,*
+> *Deliciosa nimis speciosaque vallis habebat*
+> *Nomine Gornacum, situ inexpugnabile solo,*
+> *Etsi nullus ei defensor ab intus adesset;*
+> *Cui multisque aliis preerat Gornacius Hugo.*
 
-The *Philippide* describes Gournay's fortifications during Philip Augustus's campaigns in Normandy. By Brito's time (c. 1224), the fortifications included not just Hugh I's original tower but also any subsequent reinforcements (DG-Supp Note 7 p. 730 records Philip Augustus himself "appears to have repaired and extended the fortifications"). So Brito's description blends Hugh I's original 10th-century work with 12th–13th-century extensions.
+*"Set on level open country, fortified with a triple wall — a most delightful and handsome valley held it, Gournay by name, impregnable by the ground of its site even had no defender been within; over which, and many other places, Hugh de Gournay presided."* Brito then describes how Philip Augustus, unable to force the Epte-fed ditches, had the earthen dam (*terreus agger*) of a great pond above the town broken through the middle, so that the released deluge overwhelmed the walls: *"Diluvio capitur inopino; menia sternunt undosi assultus, arces brevis eruit unda"* — *"it is taken by an unlooked-for flood; the watery assaults throw down the ramparts, a brief wave overturns the citadel."* Rigord's prose chronicle §138 and the *Chronicon* c. 112 parallel the account. (Guillaume le Breton, *Philippide* VI, 210–262, ed. Delaborde vol. 2; Source ID `oeuvres-rigord-guillaume-breton-delaborde`.)
+
+The *Philippide* describes Gournay's fortifications during Philip Augustus's campaigns in Normandy. By Brito's time (c. 1224), the fortifications included not just Hugh I's original tower but also any subsequent reinforcements (DG-Supp Note 7 p. 730 records Philip Augustus himself "appears to have repaired and extended the fortifications"). So Brito's description blends Hugh I's original 10th-century work with 12th–13th-century extensions — his "triple wall" matches Père du Plessis's *triple mur* at §1 above.
 
 ---
 
@@ -121,7 +127,7 @@ The Caister and Cantley English-parish tithes given to the Saint-Hildevert chapt
 
 ## 8. Open questions
 
-1. **Brito *Philippide* lib. xi**: locate the specific verses in Delaborde's edition and reproduce in full Latin.
+1. **Brito *Philippide* Gournay verses** — resolved. Located in Delaborde's edition at book VI, lines 210–262 (vol. 2 pp. 160–162), transcribed verbatim in `sources/corpus_supplement/oeuvres-rigord-guillaume-breton-delaborde-vol2-gournay-philippide.md` and summarised in §2 above. Daniel Gurney's "lib. xi" locator does not match the Delaborde edition; the set-piece is book VI. Residual: whether a fuller Latin excerpt of the Arthur-knighting verse (VI, 262) is worth transcribing.
 
 2. **Cordier MS *Histoire de Gournay***: survival status unknown. The Bibliothèque municipale de Gournay-en-Bray, the Bibliothèque nationale (Paris), and the archives départementales de Seine-Maritime are the most likely repositories.
 
@@ -137,7 +143,7 @@ The Caister and Cantley English-parish tithes given to the Saint-Hildevert chapt
 
 | Source | Citation handle |
 |---|---|
-| William Brito, *Philippide* (c. 1224), lib. xi; ed. Delaborde, *Oeuvres de Rigord et de Guillaume le Breton*, 2 vols. (Paris 1882–1885) | `brito-philippide` (proposed) |
+| Guillaume le Breton, *Philippide* (c. 1224), book VI, lines 210–262; ed. Delaborde, *Œuvres de Rigord et de Guillaume le Breton*, 2 vols. (Paris 1882–1885), vol. 2 pp. 160–162 | `oeuvres-rigord-guillaume-breton-delaborde` |
 | Père du Plessis, *Description de la Haute Normandie*, T. premier (early 18th c.) | via Potin 1842 |
 | Nicolas Cordier, MS *Histoire de Gournay* (c. 1710–1738), curé of Notre-Dame de Gournay | via Potin 1842 |
 | L'Anglois, MS Les Andelys notes (18th c.) | via DG-Supp Note 7 |

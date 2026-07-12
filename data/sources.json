@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "1.24.0",
+    "version": "1.25.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
     "lastUpdated": "2026-07-12",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
@@ -3813,6 +3813,28 @@
       "mediaPath": "sources/media/recueildesactesd02grea.pdf",
       "validationPath": null,
       "notes": "Posthumous edition of Delisle's collection of Henry II's acts concerning the French provinces, completed by Élie Berger. Tome 2 covers acts CCCCXLVIII (act 448) onward through DCCC+ range, all c. 1170s–1189. Key Gournay-related acts: (a) DXXXII (Delisle n° 365), 1172–1178, Bec Pré-de-Rouen confirmation subscribed by Hugues IV de Gournay (witness list: Hommet, Beaumont, Crispin, 'Hugone de Guurnayo et Roberto de Haricuria'); (b) DCXXXVI (Delisle n° 452–453), 1181–1183 at Selvi castrum, Valmont confirmation naming 'Ex dono Richardi Taliebot et Amicie, uxoris ejus, et Hugonis et Willelmi filiomm suorum' — Amicie Talbot primary attestation; (c) DCXXXVIII (Delisle n° 445 A), 20 January 1183 at Caen, fine between abbess of La Trinité de Caen and Robert de Scrotonia, witnessed by 'Hugone de Gornaiu' — latest dated Hugues IV witness attestation before death; (d) DCCXLIV (Delisle n° 552), 1181–1189 at Montfort, Bec confirmation listing five Gournay 'Ex dono' clauses including 'Ex dono Hugonis de Gornaio, decimam de prepositura et portione sua in villa de Escochei et pertinenciis suis' — primary-source attestation of Hugues IV's continuing Bec donation from Basilea Flaitel's Écouché maritagium, preserving the Gournay-Écouché tenure across three generations; (e) DCCL (Delisle n° 554), 1182–1189 at Rouen, Barbery confirmation witnessed by 'Hugone de Gurnai' (Hugues V); (f) DCCLII (Delisle n° 557), 1185–1189 at Argentan, Sigy priory confirmation naming 'Hugo Feriensis' as founder (= FMG's HUGUES [I] de la Ferté collateral) and listing the priory's six dependent churches including the Gaillefontaine church; (g) DCCLXVIII (Delisle n° 528), 1188–1189 probably March–June 1189 at Le Mans, Sainte-Foi de Longueville confirmation naming 'Ricardi Thalebot et Avitie uxoris sue et Hugonis filii sui' as donors of the church of Sainte Geneviève. Fetched 2026-05-25 from Internet Archive recueildesactesd02grea. Full Gournay-relevant Latin extracts at sources/corpus_supplement/actes-henri-ii-delisle-berger-vol2-text.md (Phase-2 to populate)."
+    },
+    "recueil-actes-henri-ii-delisle-berger-introduction": {
+      "shortTitle": "Recueil des actes de Henri II, Delisle/Berger, Introduction (1909)",
+      "citation": "Delisle, Léopold. Recueil des actes de Henri II, roi d'Angleterre et duc de Normandie, concernant les provinces françaises et les affaires de France. Introduction. Paris: Imprimerie nationale, 1909.",
+      "archive": "Internet Archive (recueildesactesd00grea); also Gallica",
+      "url": "https://archive.org/details/recueildesactesd00grea",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/actes-henri-ii-delisle-berger-introduction-gournay-extracts.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/recueil-actes-henri-ii-delisle-berger-introduction.md",
+      "notes": "Introduction volume to the Delisle-Berger edition of Henry II's acts. Its biographical-notes section flags two sealed Hugh de Gournay charters (Anchin abbey, 1176 and 1177) that Daniel Gurney did not print, the 1177 one styling Hugh 'Dei permissione dominus Gorniaci' and naming Ralph de Coucy 'dominus et cognatus noster'. The appended Norman exchequer-roll extracts record 'Osbertus de Gornaio mortuus usurarius'."
+    },
+    "oeuvres-rigord-guillaume-breton-delaborde": {
+      "shortTitle": "Œuvres de Rigord et de Guillaume le Breton (Delaborde, SHF, 1882-1885)",
+      "citation": "Delaborde, Henri-François, ed. Œuvres de Rigord et de Guillaume le Breton, historiens de Philippe-Auguste. 2 vols. Société de l'histoire de France. Paris: Renouard, 1882-1885.",
+      "archive": "Internet Archive (uvresderigordetd02rigouoft = vol. 2)",
+      "url": "https://archive.org/details/uvresderigordetd02rigouoft",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/oeuvres-rigord-guillaume-breton-delaborde-vol2-gournay-philippide.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/oeuvres-rigord-guillaume-breton-delaborde.md",
+      "notes": "Standard critical edition of the two court historians of Philip Augustus. Vol. 2 carries Guillaume le Breton's verse Philippide; its book VI set-piece (lines 210-262) describes Gournay-en-Bray's triple-walled defences, names Hugh de Gournay as its commander, and recounts Philip Augustus's 1202 capture by breaching a mill-pond dam to flood the walls. Rigord's prose §138 parallels the siege."
     },
     "early-yorkshire-charters-vol-8-clay-1949": {
       "shortTitle": "Early Yorkshire Charters, vol. 8: The Honour of Warenne (Clay 1949)",

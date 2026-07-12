@@ -5,6 +5,46 @@ Source: Leopold Delisle and Elie Berger, eds., *Recueil des actes de Henri II, r
 This file holds the Gournay-relevant Latin charter texts extracted from the Internet Archive DJVU text for the volume. Pagination follows the printed Delisle-Berger edition where visible in the extract; act numbers are the volume's continuous Roman-numeral numbering. OCR noise from the Internet Archive text has been retained where it does not affect the targeted Gournay clauses.
 
 
+## DXXV - Safeguard for the priory of Saint-Martin de Sigy, Oct. 1174-1178 at Rouen (Delisle no. 357; p. 89)
+
+Henry II's royal safeguard (*sauvegarde*) taking the priory of Saint-Martin de Sigy, its monks, tenants, men, and possessions into the king's hand and protection, and twice forbidding that Hugh de Gournay or anyone else oppress or encroach on the priory. Original at the Archives de la Seine-Inférieure (with photograph and facsimile in Chevreux and Vernier, *Les Archives de Normandie*, pl. XXVI). Earlier printings: Pommeraye, *Histoire de Saint-Ouen*, p. 463, and Daniel Gurney, *Record of the House of Gournay*, p. 35 (Round n° 265).
+
+```text
+DXXV
+
+Delisle,  n°  357.
+Octobre  1174-1178.  —  Rouen.
+
+Sauvegarde  pour  le  prieuré  de  Saint-Martin  de  Sigi.
+
+Henricus,  Dei  gratia  rex  Anglorum,  et  dux  Normannorum  et  Aquitanorum,  et
+cornes  Andegavorum,  archiepiscopo  Rothomagensi,  episcopis,  abbatibus,  comitibus,
+baronibus,  justiciis,  vicecomitibus  et  omnibus  ministris  et  fidelibus  suis  totius  Nor-
+mannie,  salutem.
+
+Sciatis  quod  prioratus  Sancti  Martini  de  Sigeio  et  monachi  ibidem  Deo  servientes
+et  omnes  tenure  et  possessiones  eorum  et  homines  sunt  in  manu  mea  et  custodia  et
+protectione.  Et  ideo  volo  et  firmiter  precipio  quod  predictum  prioratum  et  monachos
+ejusdem  loci  et  omnia  tenementa  eorum  et  homines  et  omnes  res  suas  sicut  meas
+dominicas  custodiatis  et  manuteneatis  et  protegatis  ita  quod  nullam  injuriam  vel
+contumeliam  eis  faciatis,  neque  permittatis  quod  Hugo  de  Gurnai  vel  aliquis  alius
+aliquod  gravamen  sive  molestiam  eis  inferat.  Sed  si  quis  in  aliquo  eis  forisfecerit,
+plenariam  inde  justiciam  sine  dilatione  fatiatis,  et  non  patiamini  quod  Hugo  de
+Gurnai  vel  aliquis  alius  eos  ponat  in  aliquas  consuetudines  vel  servitia  que  facere
+non  debeant  vel  ab  eis  quicquam  exigat  quod  sit  contra  jus  et  rationem  vel  quod
+ipsi  aliquid  amittant  quod  habere  debeant.
+
+Testibus  :  Ricardo  Wintoniensi,  Henrico  Baiocensi,  Egidio  Ebroicensi,  Frogerio
+Sagiensi  episcopis,  Simone  de  Turnebu,  Ricardo  de  Aufai,  Alvredo  de  Sancto
+Martino.
+
+Apud  Rothomagum.
+```
+
+Working translation: *"…Know that the priory of Saint-Martin de Sigy and the monks there serving God, and all their holdings and possessions and men, are in my hand and custody and protection. And therefore I will and firmly command that you keep, maintain and protect the said priory and its monks and all their tenements and men and all their goods as my own demesne, so that you do them no injury or affront, and that you not permit **Hugh de Gournay or anyone else** to bring on them any grievance or molestation. But if anyone offend against them in anything, you are to do full justice thereon without delay, and you are not to suffer that **Hugh de Gournay or anyone else** put them to any customs or services they ought not to render, or exact from them anything against right and reason, or [cause] that they lose anything they ought to have."*
+
+The act is a royal protection *against* Hugh de Gournay's encroachment, not a Gournay conveyance; it is the Henry II charter behind Daniel Gurney's p. 35 notice (drawn from Pommeraye's *Histoire de Saint-Ouen* p. 463). It is distinct from the later Sigy possessions-confirmation DCCLII (Delisle n° 557), which names the priory's founder as "Hugo Feriensis" of the la Ferté line.
+
 ## DXXXII - Bec Pre-de-Rouen confirmation, 1172-1178 (Delisle no. 365; pp. 105-108)
 
 ```text

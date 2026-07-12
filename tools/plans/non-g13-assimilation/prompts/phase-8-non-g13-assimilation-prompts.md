@@ -159,7 +159,7 @@ catalogue). Update L-175 (promote + close), L-122 context, L-163 (Saxthorpe).
 
 ---
 
-## W3 — the medieval junior line & the Bardolf key (G25–G28) — Model: Opus - NOW STARTING
+## W3 — the medieval junior line & the Bardolf key (G25–G28) — Model: Opus - DONE
 
 *The heaviest analytically — the tenurial spine. Destinations:
 `research/places/hardingham.md` (Swathings), `research/places/harpley.md`,
@@ -201,7 +201,7 @@ L-43 (route RESOLVED — record is CIPM vii.243, John-identity open), L-151
 
 ---
 
-## W4 — the senior Gournay line & the Norman charters (G32–G37) — Model: Opus
+## W4 — the senior Gournay line & the Norman charters (G32–G37) — Model: Opus - DONE
 
 *Destinations: `research/topics/senior-gournay-baron-line-collateral.md`,
 `research/people/g32-gerard-...`, `g33-hugh-iii-...`, `g34-hugh-ii-...`,
