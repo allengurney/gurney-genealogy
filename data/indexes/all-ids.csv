@@ -152,6 +152,7 @@ abington-vr-1850-vol1,source,"Abington Vital Records to 1850, vol. 1",data/sourc
 accessgenealogy-lysander-franklin-gurney,source,"AccessGenealogy, Lysander Franklin Gurney",data/sources.json
 actors-fund-of-america-history,source,Actors' Fund of America history (Wikipedia; NYU finding aid),data/sources.json
 actors-order-of-friendship-history,source,Actors' Order of Friendship (Oxford Reference),data/sources.json
+mhs-winthrop-papers-adam-winthrop-diary-1605,source,"Adam Winthrop's diary, 3 Oct. 1605: Lewkenor deaths (Winthrop Papers I:153)",data/sources.json
 alumni-cantabrigienses-venn,source,Alumni Cantabrigienses (Venn) — ACAD database,data/sources.json
 american-biography-cyclopedia-v26-gurney-1926,source,"American Biography, vol. 26 - Gurney",data/sources.json
 ancestry-pcc-wills-1384-1858,source,"Ancestry - PCC Wills, 1384-1858 (collection 5111)",data/sources.json
@@ -197,6 +198,8 @@ bodge-soldiers-king-philips-war-1891,source,"Bodge, Soldiers in King Philip's Wa
 bodleian-ms-tanner-175-marco,source,Bodleian MS Tanner 175 - MARCO,data/sources.json
 boston-record-commissioners-fourth-report-1880,source,"Boston Record Commissioners, Fourth Report - Dorchester Town Records (1880)",data/sources.json
 boston-town-records-1634-1660,source,Boston Town Records 1634-1660 (Book of Possessions),data/sources.json
+boston-record-commissioners-ninth-report-1883,source,Boston Vital Records 1630-1699 (Ninth Record Commissioners' Report),data/sources.json
+brackett-genealogy-1907,source,"Brackett, Brackett Genealogy (1907)",data/sources.json
 braintree-records-1640-1793-1886,source,"Braintree town records, 1640-1793",data/sources.json
 mhs-winthrop-papers-gurdon-to-winthrop-1627,source,"Brampton Gurdon to John Winthrop, 20 Oct. 1627 (Winthrop Papers I:363)",data/sources.json
 brooke-catalogue-succession-1619,source,"Brooke, Catalogue and Succession (1619)",data/sources.json
@@ -250,6 +253,8 @@ drake-result-of-researches-1860,source,"Drake, Result of Some Researches (1860)"
 dudo-historia,source,"Dudo of Saint-Quentin, Historia Normannorum",data/sources.json
 ecipm-mapping-medieval-countryside,source,E-CIPM / Mapping the Medieval Countryside (digital Calendar of Inquisitions Post Mortem),data/sources.json
 eaa-occasional-paper-2-ellingham-kiln-1997,source,EAA Occasional Paper 2 - Ellingham Kiln,data/sources.json
+early-records-town-of-dedham-vol4-1894,source,"Early Records of Dedham, Massachusetts, vol. 4 (1894)",data/sources.json
+early-records-town-of-providence,source,"Early Records of the Town of Providence (21 vols, 1892-1915)",data/sources.json
 early-yorkshire-charters-vol-8-clay-1949,source,"Early Yorkshire Charters, vol. 8: The Honour of Warenne (Clay 1949)",data/sources.json
 edmund-divine-pcc-probate-negative,source,Edmund Gurney (Divine) probate search — negative,data/sources.json
 elizabeth-stettler-walker-gurney-obituary,source,Elizabeth Stettler Walker Gurney Obituary (2013),data/sources.json
@@ -331,6 +336,7 @@ hrp-anne-boleyn,source,"Historic Royal Palaces, Anne Boleyn",data/sources.json
 nfwf-little-neck-bay-history-ecology-2008,source,History and Ecology of Little Neck Bay,data/sources.json
 hop-drury-robert-i-1456-1535,source,"History of Parliament -- DRURY, Sir Robert I (by 1456-1535)",data/sources.json
 hop-harling,source,History of Parliament / biography — Sir Robert Harling (d.1435),data/sources.json
+hop-gurdon-brampton-1566-1650,source,"History of Parliament Online — Gurdon, Brampton (1566-1650)",data/sources.json
 hop-gurney,source,History of Parliament Online — Gurney,data/sources.json
 hop-berney,source,"History of Parliament — Berney, Sir Robert (c.1365-1415)",data/sources.json
 history-of-town-of-hingham-1893,source,"History of the Town of Hingham, Massachusetts (1893)",data/sources.json
@@ -390,6 +396,7 @@ muskett-suffolk-manorial-families-v3-1900,source,"Muskett, Suffolk Manorial Fami
 nash-historical-sketch-weymouth-1885,source,"Nash, Historical Sketch of Weymouth (1885)",data/sources.json
 national-churches-trust-harpley-st-lawrence,source,National Churches Trust - Harpley St Lawrence,data/sources.json
 nehgr-12-suffolk-wills-1858,source,NEHGR 12 - Suffolk Wills - John Gurney probate abstract,data/sources.json
+nehgr-121-hobart-journal-1967,source,"NEHGR 121 — ""The Hobart Journal"" (1967)",data/sources.json
 nehgr-13-abstracts-of-early-wills-1859,source,"NEHGR 13 - Abstracts of Early Wills (Margery Laver, 1664)",data/sources.json
 nehgr-49-genealogical-gleanings-john-lewis,source,"NEHGR 49 - Genealogical Gleanings, John Lewis will",data/sources.json
 nehgr-62-94,source,NEHGR 62:94,data/sources.json
@@ -521,6 +528,7 @@ wansey-medieval-genealogy-1925,source,"Wansey, ancient family of the Wanseys",da
 weymouth-land-grants-book-ms,source,Weymouth Land Grants book (MS),data/sources.json
 wikipedia-en-hamelin-de-warenne,source,Wikipedia -- Hamelin de Warenne,data/sources.json
 wikipedia-fr-famille-de-gournay,source,Wikipedia FR -- Famille de Gournay,data/sources.json
+wikitree-brackett-20-richard-brackett,source,WikiTree Brackett-20 — Richard Brackett (1610-1690),data/sources.json
 wikitree-newgate-14-horningsheath,source,"WikiTree Newgate-14 — John Newgate of Horningsheath, Suffolk",data/sources.json
 ncc-will-1584-margaret-bate-rivett-garveston,source,"Will of Margaret (Bate) Rivett of Garveston, widow, 1584",data/sources.json
 william-of-poitou-gesta-guillelmi,source,"William of Poitiers, Gesta Guillelmi",data/sources.json

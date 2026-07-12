@@ -162,6 +162,25 @@ topic_graph_source_gaps=0); whole-refactor backlog **76** (down from 77 — F-R4
 F-R4.6 stays backlog, re-homed from Braintree to migration-network, not closed). The unit stays
 `increment-complete`.
 
+**G4 out-of-scope dump routing (2026-07-11).** Routed the 35 dump-map rows that are not G13
+John Gurney's and never belonged to this refactor: `F5` (G12 corroboration), `Input-1`
+(county-framing methods guidance), `Input-3` (Hobart-journal transcript artifact), `F-R1`
+(direct-ancestor Chancery IPMs, English-line), `F-R4.3` (Abel Gourney, London, resolved
+same-name elimination), `F-R4.9` (Threnodia 1606 EEBO artifact), `HOB-Result`/`HOB-Nearby`
+(Hobart-journal negative-context artifacts), and the 27 round-5 rows (`2.1`-`2.9`, `2.x`,
+`3.1`-`3.9`, `4.1`-`4.8`) in `dump-2026-07-03-round5-G-14-to-G-37.md`, all G14-G37
+English/collateral material with no G13 bearing on inspection. All 35 dispositioned `routed`
+to their correct external subject/place files (extending S0's already-`routed` pattern), with
+`source_ids` filled where a cited source is already registered and left empty (flagged
+`source_registration_required=yes`) where it is not — no source registrations, graph writes,
+or topic-prose edits were made in this pass. Nine existing leads updated (L-40, L-43, L-44,
+L-54, L-151, L-174, L-175, L-178, L-179) and eight new leads added (L-195-L-202) for
+genuinely actionable follow-ups with no prior tracker. Dump findings map now **83/83
+dispositioned, 0 backlog**; checker gates hold (`input_source_set_gaps=0`,
+`topic_graph_source_gaps=1` unchanged/pre-existing), whole-refactor backlog **27** (down from
+62 — exactly the 35 routed rows). The frozen dump blocks retain the full text; nothing is
+lost, only routed.
+
 ## The four ledgers
 
 All ledgers use `topicId`, never numbered shorthand (§5) — a file rename cannot

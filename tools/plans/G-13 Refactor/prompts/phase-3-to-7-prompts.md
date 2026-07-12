@@ -70,7 +70,7 @@ Same as `phase-1-and-2-prompts.md`; the load-bearing ones restated:
 
 ---
 
-## Phase 3 — small-rows sweep: the last topic-destination dump rows
+## Phase 3 — small-rows sweep: the last topic-destination dump rows - DONE
 
 *Model: Sonnet. Four gating rows + two non-gating residuals, spread across
 four units. Depends on Phase 2 complete (2.4 owns `g13-origin-migration-network`,
@@ -143,7 +143,7 @@ anything left in backlog with the reason.
 
 ---
 
-## Phase 4 — the false-friends registry
+## Phase 4 — the false-friends registry - DONE
 
 *Model: Sonnet. Creates the long-promised cross-cutting artifact, then closes
 the four dump rows routed to it. Unblocked today.*
@@ -203,7 +203,7 @@ regresses. Report the registry path, entries, registrations, and rows closed.
 
 ---
 
-## Phase 5 — out-of-scope routing: 35 dump rows to `routed`
+## Phase 5 — out-of-scope routing: 35 dump rows to `routed` - WIP
 
 *Model: Sonnet. The cheapest large win. Ledger-only — no graph writes, no topic
 prose, no source registrations. Unblocked today.*

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.18.0",
+    "version": "1.20.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-07-10",
+    "lastUpdated": "2026-07-11",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
@@ -4202,6 +4202,61 @@
       "mediaPath": null,
       "validationPath": "sources/validations/early-records-town-of-providence.md",
       "notes": "The printed edition of Providence, Rhode Island town-meeting, deed, and probate records. The town-meeting and probate volumes swept carry no Gurney of any spelling; the only near-name is a distinct Providence Garnet family. Relevant to bounding John Gurney's unrecorded Quinapaug (Providence-jurisdiction) frontier interest and to clearing Providence-side same-name false friends."
+    },
+    "brackett-genealogy-1907": {
+      "shortTitle": "Brackett, Brackett Genealogy (1907)",
+      "citation": "Brackett, Herbert I. Brackett Genealogy: Being a Record of the Descendants of Capt. Richard Brackett Who Came from England and Settled in Boston, Mass., in 1629. Boston: George E. Littlefield, 1907.",
+      "archive": "Internet Archive",
+      "url": "https://archive.org/details/brackettgenealog00brac",
+      "corpusStatus": "extract",
+      "corpusPath": "sources/corpus_supplement/brackett-genealogy-1907-origin-extract.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/brackett-genealogy-1907.md",
+      "notes": "Early-20th-century compiled genealogy of Richard, Peter, and Thomas Brackett, John Gurney's Braintree associates. The volume's own author calls the evidence for the brothers' shared parentage and English origin 'meager,' offering only a superseded 1574 Gonville & Caius admission of a Richard Brackett of Wreningham, Norfolk as a possible-kin scrap, not a Sudbury, Suffolk origin."
+    },
+    "wikitree-brackett-20-richard-brackett": {
+      "shortTitle": "WikiTree Brackett-20 — Richard Brackett (1610-1690)",
+      "citation": "WikiTree profile Richard Brackett (Brackett-20): baptised 16 September 1610 at St. Gregory, Sudbury, Suffolk, son of Peter Bracket and Rachel; emigrated 1632, settled Boston then Braintree, Massachusetts Bay Colony; died Braintree, 4 March 1690.",
+      "archive": "WikiTree.com",
+      "url": "https://www.wikitree.com/wiki/Brackett-20",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/wikitree-brackett-20-richard-brackett.md",
+      "notes": "Compiled-genealogy profile used solely for the modern claimed origin of Richard Brackett (John Gurney's Braintree associate Peter Brackett's probable brother): baptism at St Gregory, Sudbury, Suffolk, 1610, superseding the 1907 Brackett Genealogy's own weaker Norfolk (Wreningham) scrap. Treat as compiled-genealogy lead, not an image-verified parish-register fact."
+    },
+    "hop-gurdon-brampton-1566-1650": {
+      "shortTitle": "History of Parliament Online — Gurdon, Brampton (1566-1650)",
+      "citation": "\"GURDON, Brampton (1566-1650), of Assington, Suff.,\" in The History of Parliament: the House of Commons 1604-1629, ed. Andrew Thrush and John P. Ferris (2010), History of Parliament Online.",
+      "archive": "History of Parliament Trust",
+      "url": "https://www.historyofparliamentonline.org/volume/1604-1629/member/gurdon-brampton-1566-1650",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/hop-gurdon-brampton-1566-1650.md",
+      "notes": "Authoritative parliamentary biography of Brampton Gurdon of Assington, Suffolk — the patron who brokered the 1627 Gurdon-Winthrop wardship letter for the senior West Barsham Gurneys. Confirms his family's 1556 purchase of Assington (four miles from Sudbury), his own 1621 election as MP for Sudbury, and his personal friendship and continuing correspondence with John Winthrop. Used only as orienting background biography, not a genealogical claim about any Gurney or Brackett."
+    },
+    "nehgr-121-hobart-journal-1967": {
+      "shortTitle": "NEHGR 121 — \"The Hobart Journal\" (1967)",
+      "citation": "\"The Hobart Journal,\" The New England Historical and Genealogical Register, vol. 121 (1967), pp. 8-24 (printed pagination).",
+      "archive": "American Ancestors / NEHGS periodical database (subscription); not separately held on Internet Archive",
+      "url": null,
+      "corpusStatus": "extract",
+      "corpusPath": "sources/intake/dump-files/hobart-journal-pages-8-24-transcription.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/nehgr-121-hobart-journal-1967.md",
+      "notes": "David Hobart's Hingham family register, 1635-1652 with later interpolations, printed with editorial annotation in NEHGR vol. 121. Registered at the verification level actually examined: a user transcript of the printed pages 8-24 only (pp. 25 onward, 1652-1679, remain untranscribed). The one Gurney-adjacent entry, \"10 Aprill 1651 John Garnet maried at Boston,\" reads Garnet, not Gurney, and resolves to the Hingham Gardner/Garnet family."
+    },
+    "early-records-town-of-dedham-vol4-1894": {
+      "shortTitle": "Early Records of Dedham, Massachusetts, vol. 4 (1894)",
+      "citation": "Hill, Don Gleason, ed. Early Records of Dedham, Massachusetts, vol. 4. Dedham: Dedham Transcript Press, for the Dedham Historical Society, 1894.",
+      "archive": "Internet Archive (item earlyrecordsded00masgoog).",
+      "url": "https://archive.org/details/earlyrecordsded00masgoog",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/early-records-town-of-dedham-vol4-1894.md",
+      "notes": "Printed Dedham town-meeting record volume. A full-text sweep is otherwise clean of any Gurn-variant; the sole hit is the 2 January 1670/1 town-meeting entry naming apprentice Thomas Walker's master, \"Goodman Gurney of Dorchester, a Tanner\" — a third independent record stream rendering the Dorchester Gurnell householder as Gurney, this time with an occupation."
     }
   }
 }
