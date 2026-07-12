@@ -159,7 +159,7 @@ catalogue). Update L-175 (promote + close), L-122 context, L-163 (Saxthorpe).
 
 ---
 
-## W3 — the medieval junior line & the Bardolf key (G25–G28) — Model: Opus
+## W3 — the medieval junior line & the Bardolf key (G25–G28) — Model: Opus - NOW STARTING
 
 *The heaviest analytically — the tenurial spine. Destinations:
 `research/places/hardingham.md` (Swathings), `research/places/harpley.md`,
