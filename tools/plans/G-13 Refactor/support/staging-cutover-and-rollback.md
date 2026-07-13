@@ -113,7 +113,10 @@ Cutover should be one coherent reviewed patchset:
 3. Store checksums and baseline metadata beside it.
 4. Promote staged topics to:
    `research/people/g13-john-gurney/`.
-5. Replace the root companion with the approved hub.
+5. Replace the legacy root companion (`g13-john-gurney-fact-sheet.research.md`)
+   with a compact pointer to the promoted research library; the library's own
+   intro (`00-research-library.md`) is the substantive front door (Plan 02 §6,
+   revised 2026-07-13 — no separate hub).
 6. Migrate the staging graph DB content to its dedicated canonical
    location/config (export from staging → restore into the canonical DB, or
    repoint config at it), refresh the current recovery export, and commit a

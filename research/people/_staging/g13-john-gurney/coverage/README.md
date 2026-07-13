@@ -201,10 +201,42 @@ g13-origin-traditions RI-000100; two new g13-research-source-coverage negatives
 RI-000198 (Hotten/ROLLCO port-emigration & livery search) and RI-000199 (English
 probate + Norfolk parish/marriage search) homing nine previously-unjourneyed
 lead-search sources; and thompson→migration RI-000091, fs-england-marriages→other-
-eliminations RI-000117. The dump ledger's 17 non-gating 'synthesized'/'partial'/
-'mentions' vocabulary warnings are pre-existing and out of this task's scope (the
-dump map was already 0-backlog). **The cutover gate's coverage conditions are now
-met.**
+eliminations RI-000117. (e) **dump-ledger vocabulary + journey activation (2026-07-13, rev 194->214).**
+The 17 dump rows carrying the non-vocabulary values 'synthesized'/'partial'/
+'mentions' were retagged to `assimilated` — the correct dump-ledger word, which
+(unlike those legacy-ledger values) the checker DOES journey-check. This was not
+cosmetic: it activated source-journey verification on 17 rows that had been
+skipping it. All 17 pass — every listed source was first confirmed item-linked in
+its destination unit; three rows (F3-VERBATIM, F-R3, F-R6) had their
+`destination_type` set to `topic` so the journey check would run on their graph
+home; F11's destination was corrected to where its content actually landed
+(record-coverage + migration, not arrival); and F-R4.5 (Jenner-in-Venn), the one
+row that was a bare prose mention with its source unlinked, was homed by a
+`mentions` source link of `alumni-cantabrigienses-venn` to the migration
+weak-lever analysis RI-000079 it already elaborates. Dump ledger now 83/83
+`assimilated`/`routed` with 0 vocabulary warnings and 0 journey gaps.
+
+**The cutover gate's coverage conditions are now met** for all three ledgers.
+CORRECTION (2026-07-13) to an earlier draft of this note: the ~40 `routed` dump
+rows (non-G13 subjects — G12, G15-G34, medieval Gournay lines, place files, the
+false-friends registry) are NOT merely "directed but unpromoted." Phase 5 routed
+them ledger-only, but **Phase 8 (W1-W7, tools/plans/non-g13-assimilation/, all
+marked DONE) subsequently ASSIMILATED that content into the destination
+companions/places/topics and registered the sources** (spot-checked: g23-edmund
+carries the Kings Lynn 1373-75 material; g19 the Townshend/Saxthorpe network). The
+dump-map rows were deliberately left `routed` (not re-marked `assimilated`) per
+Phase-8 rule #9 — re-marking is an explicit separate mechanical pass, not a silent
+rewrite of this ledger from the non-G13 track. So `routed` here now means
+routed-AND-homed-elsewhere.
+
+Residual, genuinely-not-ingestable-now items are each tracked as a lead (per Allen's
+directive): F-R4.9 Threnodia 1606 EEBO OCR unusable -> new lead **L-205**; F-R4.8
+Rotuli Hundredorum scan-only -> **L-44**; Hobart journal pp.1652-1679 -> **L-188**.
+Two "research-done-but-source-not-registered" chads are likewise lead-tracked:
+Aspinwall Notarial Records + Lechford Note-Book (dump F6, swept-negative, cited at
+IA-identifier level in record-coverage [^bostonclasses]) -> **L-193**; the John
+Lewis of Nevis will Mary-Gurney identification (l.144 residual, graph open_question
+RI-000135) -> new lead **L-206**.
 
 ## The four ledgers
 

@@ -8,10 +8,12 @@ than** the G4 editor polish. Run it only when every gate below is green.
 ## Gate — all must hold before cutover
 - The staged topic package is substantially complete (Plan 02 §4) — **satisfied
   2026-07-09: all 25 planned units are authored and `increment-complete`.**
-- The root hub (`g13-john-gurney-fact-sheet.research.md` replacement) is authored
-  (Plan 02 §6, revised 2026-07-12: **extra-light entry-point stub**, ~300–800
-  words, not a synthesis). Staged as `hub.md` (manifest `website.rootHubFile`);
-  authored + hub-destined legacy rows dispositioned 2026-07-12.
+- The single front door is settled (Plan 02 §6, revised 2026-07-13: **no separate
+  root hub** — the research library's own intro, `topics/00-research-library.md`
+  / manifest `website.introFile`, is used as-is and serves both the website landing
+  page and the post-cutover repo entry point). The separate `hub.md` companion is
+  retired; the two hub-destined legacy-companion rows have their notes refreshed in
+  `coverage/legacy-companion-map.csv`.
 - The coverage checker reports **zero un-dispositioned items and zero untracked
   citation gaps** across all three ledgers (Plan 02 §7.4, §14).
 - The difference reports (content / evidence / conclusion / website) are produced
@@ -59,7 +61,9 @@ first and stop if any is not met.
    store checksums + baseline metadata beside it.
 3. Promote staged topics from research/people/_staging/g13-john-gurney/ to
    research/people/g13-john-gurney/.
-4. Replace the root companion with the approved hub.
+4. Replace the legacy root companion (`g13-john-gurney-fact-sheet.research.md`)
+   with a compact pointer to the promoted research library; the library's own
+   intro (`00-research-library.md`) is the substantive front door. No separate hub.
 4b. Apply the approved publication edit (Resolved decisions above): update the
     fact sheet's "roughly a sixty percent probability" to the case file's ~65%
     in n8, the parentage highlight, and narrative para 2; then the re-freeze

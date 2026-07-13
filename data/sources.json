@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.28.0",
+    "version": "1.29.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-07-12",
+    "lastUpdated": "2026-07-13",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
@@ -4422,6 +4422,28 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "Tertiary biographical authority for Sir Richard Gurney, Lord Mayor of London 1641-42, impeached and imprisoned for proclaiming the royalist Commission of Array. Registered for the false-friends registry only: a genuine Gurney by surname but not the Norfolk direct line, and the dominant London 'Gurney' false-positive of the 1640s."
+    },
+    "aspinwall-notarial-records": {
+      "shortTitle": "Aspinwall Notarial Records 1644-1651 (32nd Record Commissioners Report)",
+      "citation": "A Volume Relating to the Early History of Boston Containing the Aspinwall Notarial Records from 1644 to 1651 [32nd Report of the Record Commissioners of the City of Boston]. Boston: Municipal Printing Office, 1903.",
+      "archive": "Internet Archive",
+      "url": "https://archive.org/details/volumerelatingto32bost",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/aspinwall-notarial-records.md",
+      "notes": "William Aspinwall's Boston notarial register, 1644-1651 (32nd Report of the Boston Record Commissioners). A Boston civil/commercial record class covering John Gurney's decades; swept for Gurney variants in the 2026 full-text campaign as a test of Anderson's unverified 'Boston' settlement. Bears on the Boston record-coverage negative (g13-colonial-record-coverage; lead L-193)."
+    },
+    "lechford-note-book": {
+      "shortTitle": "Lechford's Note-Book 1638-1641",
+      "citation": "Thomas Lechford, Note-Book Kept by Thomas Lechford, Esq., Lawyer, in Boston, Massachusetts Bay, from June 27, 1638, to July 29, 1641. Ed. Edward Everett Hale. Cambridge: John Wilson and Son, 1885.",
+      "archive": "Internet Archive",
+      "url": "https://archive.org/details/notebookkeptbyth00lech",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/lechford-note-book.md",
+      "notes": "Thomas Lechford's Boston lawyer's note-book, June 1638-July 1641 - the fullest surviving record of Boston legal/commercial business across John Gurney's most probable arrival window. Swept for Gurney variants in the 2026 full-text campaign as a Boston-record-class test of Anderson's unverified 'Boston' settlement. Bears on the Boston record-coverage negative (g13-colonial-record-coverage; lead L-193)."
     }
   }
 }

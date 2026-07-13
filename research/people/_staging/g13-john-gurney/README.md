@@ -1192,3 +1192,26 @@ units, headings now the website group index). Checker (`g13_coverage_check.py`):
 whole-refactor `RESULT: FAIL` and residual backlog are the expected pre-cutover state (non-hub
 legacy rows, supplemental surfaces, and dump HOB rows remain for later passes; the single §8.4
 parity gap is pre-existing, not introduced here).
+
+---
+
+Separate root hub retired — the existing research-library intro is the single front door (2026-07-13,
+Opus). **Design decision (Allen):** even the extra-light `hub.md` was a duplicate — its condensed
+footnoted identity/lineage banner reads as a mini fact sheet, a second copy of the biography to keep
+in sync. Retired `hub.md` and dropped `website.rootHubFile` from `manifest.json`. The website
+research-library intro (`topics/00-research-library.md`, `website.introFile`) is left **as-is** and is
+now the **single front door** for both surfaces: the website annex landing page and, after cutover,
+the substantive entry point for the promoted research library. Its existing intro — a condensed
+identity/lineage summary plus the three-layer framing (fact sheet / case file / research library), the
+Context Graph Explorer, and the working-research note — was not modified; no separate hub and no new
+footnoted banner were authored. At cutover the legacy `g13-john-gurney-fact-sheet.research.md` path
+becomes a compact pointer to the promoted research library rather than a second authored hub. **Plan
+updated to match:** Plan 02 §6 gained a 2026-07-13 revision (single-front-door design; the 2026-07-12
+extra-light-hub note demoted to "superseded"); `prompts/cutover.md` gate + step 4 and
+`support/staging-cutover-and-rollback.md` step 5 updated. **Coverage ledger notes refreshed**
+(`coverage/legacy-companion-map.csv`): the intro/lineage-banner row (l.1, `retained_in_hub`) and the
+Crosslinks row (l.544, `retained_in_hub`) both keep their disposition — the intro/lineage summary and
+the three-layer + explorer links are genuinely retained in the single front door — with notes updated
+to point at `00-research-library.md` and to record that hub.md-only material (the direct-line
+father/son links and the granular crosslink map) is not reproduced, being carried by the topic units
+and the website's generated related-links. No topic content, graph items, sources, or entities changed.
