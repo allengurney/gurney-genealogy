@@ -54,7 +54,9 @@ The two decisions this gate was waiting on are taken:
 ```
 Work in main. Execute the G13 cutover as one coherent reviewed change, per Plan 02
 §15 and support/staging-cutover-and-rollback.md §6. Confirm every gate condition
-first and stop if any is not met.
+first and stop if any is not met. 
+
+Before you start, backup all databases and files that are not part of top and do not proceed if a step is not reversable in some manner. Ask for clarification, do not guess. 
 
 1. Verify the intended worktree scope is clean and bounded to this cutover.
 2. Copy the exact legacy companion to research/people/_legacy/g13-pre-refactor/;
@@ -82,6 +84,8 @@ first and stop if any is not met.
    hashes in place (rollback levels 1–3 must remain available) until Allen accepts.
 10. Review the full Git diff before committing. Do not combine unrelated research
     promotions with this cutover.
+11. Prepare a manifest of files for cleanup post-custover once cutover is accepted. it will be used separately in the future (a few days later) once cutover is accepted and exercised. Include temporary files, backup files, or other remainants of this refactor process. While we are at it, include similar types of content that clearly should have been culled prior to the refactor but had been forgotten. Include in the mainfest your rationale and your recommended disposition (delete, move to logner term archive folder, move to legacy location, move for organizational purposes, or other). All planning documentation should remain. The legacy research companion and legacy topic files incoprorated in the refactor should not be deleted and should be searchable but clearly identifable as legacy and below other results when using the repo search tool (by file location and/or code modification). The goal of this task is not storage recovery but information and organizational hygeine.      
+    
 ```
 
 ## SEO / index-readiness checklist (validated 2026-07-11 against the staging build)
