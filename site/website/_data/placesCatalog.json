@@ -4764,6 +4764,54 @@
     "ancestorCount": 1
   },
   {
+    "placeId": "place-booton-norfolk-england",
+    "name": "Booton, Norfolk, England",
+    "title": "Booton, Norfolk, England",
+    "seoTitle": "Booton, Norfolk, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Booton, Norfolk",
+      "Boton"
+    ],
+    "shortDescription": "1481 Ancient Deed B.991, William Gurnay of Booton",
+    "longDescription": "South Erpingham parish immediately south of Cawston. Ancient Deed B.991 (1481) names William Gurnay of Booton as a party to a Cawston property grant, a century before the documented seventeenth-century Cawston copyhold family; the link between them is an open question.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 52.775,
+      "lng": 1.152
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "approximate parish centroid, not a surveyed manor site",
+    "roles": [
+      "collateral cadet-branch reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "",
+    "researchSlug": "",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g19-william-gurney-iv",
+        "type": "ancestor",
+        "gen": "G19",
+        "name": "William Gurney IV",
+        "dates": "b. c. 1440–1450 — d. 16 Feb. 1507/8",
+        "role": "collateral cadet-branch reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g19-william-gurney-iv-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
     "placeId": "place-buckinghamshire-england",
     "name": "Buckinghamshire, England",
     "title": "Buckinghamshire, England",
@@ -4853,6 +4901,53 @@
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
         "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-cawston-norfolk-england",
+    "name": "Cawston, Norfolk, England",
+    "title": "Cawston, Norfolk, England",
+    "seoTitle": "Cawston, Norfolk, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Cawston, Norfolk"
+    ],
+    "shortDescription": "1578 monument to William Gurney, gent., a West-Barsham-arms cadet",
+    "longDescription": "South Erpingham parish, 11 miles north of Norwich. A 1578 church monument to William Gurney, gent. (d. 10 Mar. 1578) and Anne his wife bears West Barsham-arms differenced with a crescent, identifying him as an armigerous cadet of the West Barsham line. A separate copyhold Gurney family appears in the Cawston manorial courts, 1640s-1750s; the descent link between the two is unresolved.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 52.778,
+      "lng": 1.157
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "approximate parish centroid, not a surveyed manor site",
+    "roles": [
+      "collateral cadet-branch reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "",
+    "researchSlug": "",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g19-william-gurney-iv",
+        "type": "ancestor",
+        "gen": "G19",
+        "name": "William Gurney IV",
+        "dates": "b. c. 1440–1450 — d. 16 Feb. 1507/8",
+        "role": "collateral cadet-branch reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g19-william-gurney-iv-fact-sheet.html"
       }
     ],
     "ancestorCount": 1
@@ -5543,6 +5638,56 @@
     "ancestorCount": 1
   },
   {
+    "placeId": "place-larling-norfolk-england",
+    "name": "Larling, Norfolk, England",
+    "title": "Larling, Norfolk, England",
+    "seoTitle": "Larling, Norfolk, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Larling, Norfolk",
+      "Lerling",
+      "Lurling",
+      "Lirling"
+    ],
+    "shortDescription": "Anthony Gurney's 1532 Welholme's/Easthall feoffment",
+    "longDescription": "Shropham-hundred parish. Anthony Gurney (G17) held and settled by feoffment in 1532 the manor of Welholme's (Easthall), a fraction of Larling held of the Wauncy/Bardolph/Warenne tenurial chain that also produced the family's West Barsham inheritance and the junior line's Swathings tenure.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 52.418,
+      "lng": 0.917
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "approximate parish centroid, not a surveyed manor site",
+    "roles": [
+      "landholding / property reference"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "",
+    "researchSlug": "",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g17-anthony-gurney",
+        "type": "ancestor",
+        "gen": "G17",
+        "name": "Anthony Gurney",
+        "dates": "b. c. 1499 — d. early Dec. 1557",
+        "role": "landholding / property reference",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g17-anthony-gurney-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
     "placeId": "place-lessingham-norfolk-england",
     "name": "Lessingham, Norfolk, England",
     "title": "Lessingham, Norfolk, England",
@@ -5585,6 +5730,53 @@
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
         "url": "/fact-sheets/g32-gerard-de-gournay-fact-sheet.html"
+      }
+    ],
+    "ancestorCount": 1
+  },
+  {
+    "placeId": "place-letton-norfolk-england",
+    "name": "Letton, Norfolk, England",
+    "title": "Letton, Norfolk, England",
+    "seoTitle": "Letton, Norfolk, England",
+    "siteName": "",
+    "streetAddress": "",
+    "region": "Norfolk, England",
+    "regionGroup": "england",
+    "aliases": [
+      "Letton, Norfolk"
+    ],
+    "shortDescription": "Hugh de Gurnay grant to Lewes Priory (undated, 12th-13th c.)",
+    "longDescription": "Mitford-hundred parish adjoining Hardingham/Cranworth. Blomefield and Ancient Deed A.2972 record an undated grant by 'Hugh de Gurnay of Letton' to Lewes Priory. The identity of this Hugh (senior-line forename vs. an unrecorded local Gurnay) is an open cadet-enfeoffment question, not resolved.",
+    "placeType": "locality",
+    "extantStatus": "unknown",
+    "extantStatusDescription": "",
+    "coordinate": {
+      "lat": 52.616,
+      "lng": 0.89
+    },
+    "coordinatePrecision": "low",
+    "coordinateBasis": "approximate parish centroid, not a surveyed manor site",
+    "roles": [
+      "cadet-enfeoffment open-question datapoint"
+    ],
+    "imageUrl": "",
+    "imageTitle": "",
+    "siteUrl": "",
+    "siteLabel": "",
+    "researchUrl": "/research/places/norfolk-minor-manors.html",
+    "researchSlug": "norfolk-minor-manors",
+    "ancestorLinks": [
+      {
+        "recordId": "ancestor-g25-john-de-gournay-iii",
+        "type": "ancestor",
+        "gen": "G25",
+        "name": "John de Gournay III",
+        "dates": "fl. c. 1300–1353",
+        "role": "cadet-enfeoffment open-question datapoint",
+        "lineageStatus": "Confirmed",
+        "displayLineageStatus": "",
+        "url": "/fact-sheets/g25-john-de-gournay-iii-fact-sheet.html"
       }
     ],
     "ancestorCount": 1

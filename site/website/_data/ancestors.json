@@ -2943,9 +2943,10 @@
       "place-irstead-norfolk-england",
       "place-west-barsham-norfolk-england",
       "place-gurneys-manor-hingham-norfolk-england",
-      "place-old-hall-great-ellingham-norfolk-england"
+      "place-old-hall-great-ellingham-norfolk-england",
+      "place-larling-norfolk-england"
     ],
-    "placeSummary": "Great Ellingham, Norfolk, England; Hingham, Norfolk, England; Irstead, Norfolk, England; +3 more",
+    "placeSummary": "Great Ellingham, Norfolk, England; Hingham, Norfolk, England; Irstead, Norfolk, England; +4 more",
     "locations": [
       {
         "placeId": "place-great-ellingham-norfolk-england",
@@ -3048,6 +3049,23 @@
         "photoTitle": "",
         "siteUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1077566",
         "siteLabel": "Historic England 1077566"
+      },
+      {
+        "placeId": "place-larling-norfolk-england",
+        "place": "Larling, Norfolk, England",
+        "siteName": "",
+        "region": "Norfolk, England",
+        "eventType": "landholding / property reference",
+        "eventDate": "b. c. 1499 — d. early Dec. 1557",
+        "sourceQuote": "Shropham-hundred parish. Anthony Gurney (G17) held and settled by feoffment in 1532 the manor of Welholme's (Easthall), a fraction of Larling held of the Wauncy/Bardolph/Warenne tenurial chain that also produced the family's West Barsham inheritance and the junior line's Swathings tenure.",
+        "lat": 52.418,
+        "lng": 0.917,
+        "geocodeBasis": "approximate parish centroid, not a surveyed manor site",
+        "confidence": "Low",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "",
+        "siteLabel": ""
       }
     ],
     "externalIds": {
@@ -3388,9 +3406,11 @@
     "placeRefs": [
       "place-baconsthorpe-castle-norfolk-england",
       "place-burnham-thorpe-norfolk-england",
-      "place-west-barsham-norfolk-england"
+      "place-west-barsham-norfolk-england",
+      "place-booton-norfolk-england",
+      "place-cawston-norfolk-england"
     ],
-    "placeSummary": "Baconsthorpe Castle; Burnham Thorpe, Norfolk, England; West Barsham Hall",
+    "placeSummary": "Baconsthorpe Castle; Burnham Thorpe, Norfolk, England; West Barsham Hall; +2 more",
     "locations": [
       {
         "placeId": "place-baconsthorpe-castle-norfolk-england",
@@ -3442,6 +3462,40 @@
         "photoTitle": "West Barsham Hall",
         "siteUrl": "https://www.geograph.org.uk/photo/2122114",
         "siteLabel": "Photo / site reference"
+      },
+      {
+        "placeId": "place-booton-norfolk-england",
+        "place": "Booton, Norfolk, England",
+        "siteName": "",
+        "region": "Norfolk, England",
+        "eventType": "collateral cadet-branch reference",
+        "eventDate": "b. c. 1440–1450 — d. 16 Feb. 1507/8",
+        "sourceQuote": "South Erpingham parish immediately south of Cawston. Ancient Deed B.991 (1481) names William Gurnay of Booton as a party to a Cawston property grant, a century before the documented seventeenth-century Cawston copyhold family; the link between them is an open question.",
+        "lat": 52.775,
+        "lng": 1.152,
+        "geocodeBasis": "approximate parish centroid, not a surveyed manor site",
+        "confidence": "Low",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "",
+        "siteLabel": ""
+      },
+      {
+        "placeId": "place-cawston-norfolk-england",
+        "place": "Cawston, Norfolk, England",
+        "siteName": "",
+        "region": "Norfolk, England",
+        "eventType": "collateral cadet-branch reference",
+        "eventDate": "b. c. 1440–1450 — d. 16 Feb. 1507/8",
+        "sourceQuote": "South Erpingham parish, 11 miles north of Norwich. A 1578 church monument to William Gurney, gent. (d. 10 Mar. 1578) and Anne his wife bears West Barsham-arms differenced with a crescent, identifying him as an armigerous cadet of the West Barsham line. A separate copyhold Gurney family appears in the Cawston manorial courts, 1640s-1750s; the descent link between the two is unresolved.",
+        "lat": 52.778,
+        "lng": 1.157,
+        "geocodeBasis": "approximate parish centroid, not a surveyed manor site",
+        "confidence": "Low",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "",
+        "siteLabel": ""
       }
     ],
     "externalIds": {
@@ -4219,9 +4273,10 @@
     "recordId": "ancestor-g25-john-de-gournay-iii",
     "placeRefs": [
       "place-hardingham-norfolk-england",
-      "place-harpley-norfolk-england"
+      "place-harpley-norfolk-england",
+      "place-letton-norfolk-england"
     ],
-    "placeSummary": "Hardingham / Low Street / Old Hall context; Harpley, Norfolk, England",
+    "placeSummary": "Hardingham / Low Street / Old Hall context; Harpley, Norfolk, England; Letton, Norfolk, England",
     "locations": [
       {
         "placeId": "place-hardingham-norfolk-england",
@@ -4256,6 +4311,23 @@
         "photoTitle": "Harpley Manor (Hall) no longer exists but the church survives. Built 13th century. Lawrence's Church, Harpley, Norfolk (© Copyright Borough Council of King's Lynn)",
         "siteUrl": "https://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp452-459",
         "siteLabel": "Blomefield: Harpley"
+      },
+      {
+        "placeId": "place-letton-norfolk-england",
+        "place": "Letton, Norfolk, England",
+        "siteName": "",
+        "region": "Norfolk, England",
+        "eventType": "cadet-enfeoffment open-question datapoint",
+        "eventDate": "fl. c. 1300–1353",
+        "sourceQuote": "Mitford-hundred parish adjoining Hardingham/Cranworth. Blomefield and Ancient Deed A.2972 record an undated grant by 'Hugh de Gurnay of Letton' to Lewes Priory. The identity of this Hugh (senior-line forename vs. an unrecorded local Gurnay) is an open cadet-enfeoffment question, not resolved.",
+        "lat": 52.616,
+        "lng": 0.89,
+        "geocodeBasis": "approximate parish centroid, not a surveyed manor site",
+        "confidence": "Low",
+        "photoUrl": "",
+        "photoTitle": "",
+        "siteUrl": "",
+        "siteLabel": ""
       }
     ],
     "externalIds": {

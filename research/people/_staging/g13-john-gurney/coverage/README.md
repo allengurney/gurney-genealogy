@@ -181,6 +181,31 @@ dispositioned, 0 backlog**; checker gates hold (`input_source_set_gaps=0`,
 62 — exactly the 35 routed rows). The frozen dump blocks retain the full text; nothing is
 lost, only routed.
 
+**FIRST ALL-GREEN RUN — coverage cutover gate met (2026-07-12, Opus).** The
+legacy-companion and supplemental-surfaces ledgers were driven to **zero
+un-dispositioned rows** and every §8 source-lossless category to zero.
+`g13_coverage_check.py` now returns `RESULT: PASS` (0 gating) and
+`SOURCE-LOSSLESS: PASS` — legacy 41/41, dump 83/83, supplemental 60/60
+dispositioned; 0 citation gaps, 0 unregistered, 0 input-source-set gaps, 0
+source-journey gaps, 0 prose↔graph parity gaps, 0 publication-mapping gaps, 0
+friction-needing-decision. Live DB **rev 194**, snapshot `g13-context-r000194.ndjson`,
+validate 0 errors. Work this session: (a) `sync-sources` cleared the stale
+source_registry validate error; (b) the `alumni-cantabrigienses-venn` migration
+parity gap retagged `cross_unit`, and the four `g13-colonial-record-coverage`
+citation-map warns cleared by labelling the `[^land]` footnote's cross-unit ids;
+(c) 20 legacy + supplemental backlog rows closed by disposition/routing (sources
+already journeying, empty-set synthesized, external-canonical, or collectively-
+carried context per the collective-set exception on case-file §8/§10); (d) five
+authoring closures: the Newgate de-conflation's two residual witnesses linked to
+g13-origin-traditions RI-000100; two new g13-research-source-coverage negatives
+RI-000198 (Hotten/ROLLCO port-emigration & livery search) and RI-000199 (English
+probate + Norfolk parish/marriage search) homing nine previously-unjourneyed
+lead-search sources; and thompson→migration RI-000091, fs-england-marriages→other-
+eliminations RI-000117. The dump ledger's 17 non-gating 'synthesized'/'partial'/
+'mentions' vocabulary warnings are pre-existing and out of this task's scope (the
+dump map was already 0-backlog). **The cutover gate's coverage conditions are now
+met.**
+
 ## The four ledgers
 
 All ledgers use `topicId`, never numbered shorthand (§5) — a file rename cannot

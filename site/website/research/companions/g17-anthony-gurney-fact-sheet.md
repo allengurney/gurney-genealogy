@@ -35,6 +35,12 @@ The daughters Elizabeth (£200 — a full marriage portion, so probably unmarrie
 
 [^anthony-will-1557]: Will of Anthony Gurney of Great Ellingham, Esq., 6 Dec. 1557, proved Norwich 10 Dec. 1557; Norwich wills register (FamilySearch film 008076312), images 145 ff., [ark:/61903/3:1:3Q9M-CSND-MSDX-K](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSND-MSDX-K?view=fullText) and [ark:/61903/3:1:3Q9M-CSND-MSDH-G](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSND-MSDH-G?view=fullText) (probate at register p. 137). Expert paleographic transcription 2026-06-11 from the full-resolution images; full text in the corpus supplement linked in the body. Source ID: `familysearch-fulltext-search`.
 
+### TNA Chancery IPM catalogue entries — open, not resolved to Anthony
+
+The National Archives' Chancery inquisitions post mortem series (C 142) carries two "Gurney, Antony: Norfolk" entries: **C 142/106/46** (2&3 Philip & Mary, 1555/6) and **C 142/154/67** (12 Elizabeth, 1569/70), read at TNA Discovery catalogue-description level only — the documents themselves have not been pulled. Neither fits Anthony cleanly: an IPM is a death inquisition, but Anthony's own will (made 6 Dec., proved 10 Dec. 1557, above) fixes his death to **late 1557**, after the first entry's 1555/6 date and well before the second's 1569/70. The catalogue attribution is therefore either a different "Antony Gurney," a mis-dated or delayed inquiry, or (for the 1569/70 entry) a kinsman — carried here as an open lead, not assigned to this Anthony by name alone.[^tna-c142-antony-catalogue]
+
+[^tna-c142-antony-catalogue]: The National Archives (Kew), Chancery inquisitions post mortem, Series II (C 142): C 142/106/46 ("Gurney, Antony: Norfolk," 2&3 Ph&M) and C 142/154/67 ("Gurney, Antony: Norfolk," 12 Eliz.); consulted via TNA Discovery at catalogue-description level, 2026-07-01. Catalogue read in `sources/validations/tna-ward-c142-west-barsham-gurney-inquisitions.md`. Source ID: `tna-ward-c142-west-barsham-gurney-inquisitions`.
+
 ### Two earlier Gurney–Spelman documentary intersections
 
 Two will abstracts in the typescript Norfolk wills abstract volume bear on this family's network a generation either side of Anthony:
@@ -44,6 +50,12 @@ Two will abstracts in the typescript Norfolk wills abstract volume bear on this 
 
 [^spilman-1524]: Norfolk wills abstract volume ("Norfolk. Wills 1370–1763," typescript abstracts), FamilySearch film 008480295, image 149, [ark:/61903/3:1:3Q9M-C39V-K2VN](https://www.familysearch.org/ark:/61903/3:1:3Q9M-C39V-K2VN?view=fullText), abstract of Henry Spillman, Esq., D: 17 Feb., P. 1524, citing register "Cons: Alabaster: 1520-3: 231." Flagged by Allen 2026-06-10 (lead L-101). Source ID: `familysearch-fulltext-search`.
 [^wymondham-1475]: Same abstract volume, image 806, [ark:/61903/3:1:3Q9M-C39V-KLFM](https://www.familysearch.org/ark:/61903/3:1:3Q9M-C39V-KLFM?view=fullText), abstract of John Wymondham the elder, Esq., D: 26 April 1475. Source ID: `familysearch-fulltext-search`.
+
+### Anthony's manor of Larling, settled by feoffment in 1532
+
+Anthony held the manor of **Larling** (Lerling), in the hundred of Shropham a few miles south-west of Great Ellingham, and settled it by feoffment in 1532: Blomefield's Larling descent records that "In 1532, **Anthony Gurnay, Esq. settled the manor on John Tirrell, Esq. and others**," in the same years that the Heydons (Sir John Heydon and Catherine his wife, and Sir Christopher Heydon) were dealing with holdings in the parish.[^anthony-larling-1532] The act is a documented Gurney landholding fifteen years before the Surrey grand jury and a quarter-century before Anthony's own will, and it names the same **John Tirrell/Turrell** who served beside Anthony as co-executor of Henry Spilman's 1524 Great Ellingham will (above) — a recurring associate across Anthony's early-Tudor Shropham-hundred dealings. The feoffment-to-uses form (settling the manor on Tirrell "and others") is the ordinary conveyancing device of the period, so Larling remained in the family's disposition rather than being alienated; Blomefield's own Larling narrative shows the manor moving through the local Heydon/Groose orbit across 1453–1532.[^anthony-larling-1532]
+
+[^anthony-larling-1532]: Francis Blomefield, *An Essay Towards a Topographical History of the County of Norfolk*, vol. 1 (London: William Miller, 1805), "Hundred of Shropham: Lerling," pp. 428–432, British History Online, [www.british-history.ac.uk/topographical-hist-norfolk/vol1/pp428-432](https://www.british-history.ac.uk/topographical-hist-norfolk/vol1/pp428-432): "In 1532, Anthony Gurnay, Esq. settled the manor on John Tirrell, Esq. and others, and the same year John Heydon, Knt. and Catherine his wife, and Christopher Heydon, Knt. …" Source ID: `blomefield-norfolk`.
 
 ### Visitation of Norfolk corroboration
 

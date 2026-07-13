@@ -75,9 +75,10 @@ The 1688 reference is the only firm record of Rebecca Taylor's family. The will 
 
 ### Freeman 1681
 
-Richard's freeman admission is fixed to **12 October 1681**, his residence given as **Weymouth**. Paige's *List of Freemen of Massachusetts* keys the entry to the Colony Records, **Vol. V, pp. 320–321** — i.e. the published *Records of the Governor and Company of Massachusetts Bay* (MBCR), the standard primary source for Freeman admissions. This supplies the precise date the section previously lacked and locates the underlying record for image verification.[^paige-freemen-g12]
+Richard's freeman admission is fixed to **12 October 1681**, his residence given as **Weymouth**. Paige's *List of Freemen of Massachusetts* keys the entry to the Colony Records, **Vol. V, pp. 320–321** — i.e. the published *Records of the Governor and Company of Massachusetts Bay* (MBCR), the standard primary source for Freeman admissions.[^paige-freemen-g12] A second, independent MBCR locator pins the same admission: the printed volume's own sworn-freemen list, **MBCR 5:540**, names **"Rich'd Gurney"** among a Weymouth cohort (Tho: White, Tho: Bayly, Joseph Dyer, Obadiah Sayle, Jn Shaw Jun.), dated 1681 by list position.[^mbcr5-540-g12] The two locators (pp. 320–321 and p. 540) have not been reconciled against the page images — a full-text sweep of the volume found no other Gurney entry there beyond this one and the unrelated Gurnell/Burg items.
 
 [^paige-freemen-g12]: Lucius R. Paige, *List of Freemen of Massachusetts, 1630–1691* (Boston: New England Historic Genealogical Society, 1849), Richard Gurney, application 12 Oct. 1681, Weymouth, keyed to Colony Records (C.R.) Vol. V, pp. 320–321; accessed via Ancestry.com, "Massachusetts, U.S., Applications of Freemen, 1630–1691," [collection 4296, record 3598](https://www.ancestry.com/search/collections/4296/records/3598). Index-level; not yet image-verified against MBCR. Source ID: `paige-list-freemen-massachusetts-1849`.
+[^mbcr5-540-g12]: Nathaniel B. Shurtleff, ed., *Records of the Governor and Company of the Massachusetts Bay in New England*, vol. 5, 1674–1686 (Boston: William White, 1854), p. 540, Internet Archive item `recordsofgoverno05mass`. Index/full-text-sweep level; not yet image-verified. Source ID: `massachusetts-bay-records-v5-1854`.
 
 ### Negative results
 

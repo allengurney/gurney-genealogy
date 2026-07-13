@@ -45,6 +45,11 @@ The label-vs-narrative tension is entirely internal to DG-I 1848; DG-Supp 1858 o
 
 [^wiki-bishop-thomas-ingoldsthorpe]: Wikipedia, "Thomas Ingoldsthorpe" (Bishop of Rochester, d. 1291). <https://en.wikipedia.org/wiki/Thomas_Ingoldsthorpe>. Accessed 2026-05-29. A later relative, not the Thomas of the 1243 fine.
 
+### Harpley fee in the 1242–3 aid (Farrer HKF v3)
+2026-07-12 — William Farrer's feudal-tenure survey supplies a dated Harpley tenure for William II that sits earlier than the family's better-documented Harpley activity under his son. The 1242–3 aid, in the Burnham/Grancurt–Calthorpe chapter of the Honor of Warenne, returns "Cecily the daughter of Philip de Burnham … fee in Harpley. **William de Gurney … fee in Harpley**." This is an independent, datable attestation of G28 holding a fee-fraction in Harpley c. 1242–3, corroborating the "liv. 1234 & 1243" span on DG's pedigree with a specific landholding record. The exact fee-fraction is lost to OCR on the printed page (an image-check item); Farrer's Harpley chain then continues to G27 in 1275 and to G25/Rector John in 1302–3, worked up on `research/places/harpley.md`.[^farrer-g28-harpley]
+
+[^farrer-g28-harpley]: William Farrer, *Honors and Knights' Fees*, vol. 3 (London: printed for the author, 1923-1925), Burnham/Grancurt–Calthorpe chapter, Honor of Warenne, printed pp. 391-392, full-volume HathiTrust capture https://hdl.handle.net/2027/mdp.39015032992151; passage in `sources/corpus_supplement/farrer-honors-knights-fees-v3-gurnay-extracts.txt`. Source ID: `farrer-honors-knights-fees-v3-gurnay-extracts`.
+
 ### Clifford charter witness, 1220 (DG-Supp Note 111)
 2026-04-18 — DG-Supp Note 111 (pp. 780–781) records: "The name of William de Gurney occurs as witness to William de Clifford to the abbey of Dore, in Herefordshire." Source: Dodsworth's MS. collections, Bodleian Library, No. 42, p. 134. Placita 4 Henry III (1220).
 
@@ -75,7 +80,7 @@ One indirect tonal echo: the Jernegan/Jerningham coat is on the West Barsham lis
 
 | Place | Period | Notes |
 |---|---|---|
-| [Harpley, Norfolk](../places/harpley.md) | fl. c. 1210–1250 | Lord of Harpley manor, inherited from father Matthew (G29) |
+| [Harpley, Norfolk](../places/harpley.md) | fl. c. 1210–1250 | Lord of Harpley manor, inherited from father Matthew (G29); holds a fee in Harpley in the 1242–3 aid (Farrer HKF v3) |
 | [Hardingham/Swathings, Norfolk](../places/hardingham.md) | fl. c. 1210–1250 | Inherited |
 | [Runhall, Norfolk](../places/runhall.md) | fl. c. 1210–1250 | Inherited |
 
