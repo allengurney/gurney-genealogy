@@ -3,7 +3,7 @@ const factsheets = require("./factsheetIndex.js");
 // The G13 annex (research library + Context Graph explorer) only exists in
 // package-mode builds (G13_PACKAGE=staging|production, same gate as
 // scripts/sync-g13-package.js); a legacy build must not carry dead menu links.
-const g13PackageMode = String(process.env.G13_PACKAGE || "").trim().toLowerCase();
+const g13PackageMode = String(process.env.G13_PACKAGE || "production").trim().toLowerCase();
 const g13AnnexNavItems = g13PackageMode && g13PackageMode !== "off" && g13PackageMode !== "legacy"
   ? [
       { title: "John Gurney Context Graph Explorer", url: "/research/notes/g13-john-gurney/explorer/", key: "g13-explorer" },

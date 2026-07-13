@@ -436,9 +436,9 @@ def _marker_fallback(bundle: dict[str, Any]) -> str:
 
 def export_website(config: GraphConfig, out_dir: Path | None = None) -> Path:
     """Write the static website export under ``out_dir`` (default
-    ``<export_dir>/website``). Returns the output directory. Read-only w.r.t. the
+    ``<export_dir>/website-current``). Returns the output directory. Read-only w.r.t. the
     database, prose, and sources."""
-    target = out_dir or (config.export_dir / "website")
+    target = out_dir or (config.export_dir / "website-current")
     connection = connect(config.db_path, read_only=True)
     try:
         document = build_website_export(connection)

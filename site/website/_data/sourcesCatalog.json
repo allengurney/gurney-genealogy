@@ -300,6 +300,18 @@
     "notes": "Pre-Blomefield-completion 10-volume antiquarian county history, issued one generation after Blomefield's first edition and three to four decades before the posthumous completion was reissued. 118 Gurney-variant hits across all ten volumes, transcribed in v69 by parish and theme. Per-volume IA item identifiers follow the pattern bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_N for N in 1..10; vol. 2 alone has no Gurney content. Substantively new findings include Edward Gourney's Aug 1641 death (West Barsham chancel monument); Edward's 1637 Justice-of-the-Peace attestation at Walsingham Parva; the full impaled/quartered arms list at West Barsham church including a probable Wentworth shield; Henry G15's lord-of-Hingham confirmation for 1572 and the 1715 post-Gurney successor at Hingham; G17 Anthony's 1541-42 Irstead purchase from Southwell + 1540 Merton sale to Southwell; the William Gurnay of Cawston 1578 gravestone; Sir John V's Hellesden/Drayton/Taverham/Heigham 1395-96 to 1401-02 attestations with his wife Alice; the Norwich Cathedral cloister Gournay-arms attestation; and the Cranworth/Swathing/Letton King-John-era junior-branch cluster including an undated Hugh de Gourney charter to Robert the Burgundian and a Saint-Hildevert-at-Gournay-tithes pattern extending to Hardingham. Volume-specific OCR / editorial caveats are documented in the corpus supplement."
   },
   {
+    "sourceId": "aspinwall-notarial-records",
+    "shortTitle": "Aspinwall Notarial Records 1644-1651 (32nd Record Commissioners Report)",
+    "citation": "A Volume Relating to the Early History of Boston Containing the Aspinwall Notarial Records from 1644 to 1651 [32nd Report of the Record Commissioners of the City of Boston]. Boston: Municipal Printing Office, 1903.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/volumerelatingto32bost",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/aspinwall-notarial-records.md",
+    "notes": "William Aspinwall's Boston notarial register, 1644-1651 (32nd Report of the Boston Record Commissioners). A Boston civil/commercial record class covering John Gurney's decades; swept for Gurney variants in the 2026 full-text campaign as a test of Anderson's unverified 'Boston' settlement. Bears on the Boston record-coverage negative (g13-colonial-record-coverage; lead L-193)."
+  },
+  {
     "sourceId": "ballou-history-of-milford-1882",
     "shortTitle": "Ballou, History of Milford (1882)",
     "citation": "Ballou, Adin. History of the Town of Milford, Worcester County, Massachusetts, from Its First Settlement to 1881. In Two Parts. Part I. Strictly Historical; Part II. Biographico-Genealogical Register. Boston: Franklin Press, Rand, Avery, & Co., 1882.",
@@ -2638,6 +2650,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Social-history context source cited in the John Gurney case file for marriage, courtship, and family-formation norms. Page-level extraction has not been added to the corpus."
+  },
+  {
+    "sourceId": "lechford-note-book",
+    "shortTitle": "Lechford's Note-Book 1638-1641",
+    "citation": "Thomas Lechford, Note-Book Kept by Thomas Lechford, Esq., Lawyer, in Boston, Massachusetts Bay, from June 27, 1638, to July 29, 1641. Ed. Edward Everett Hale. Cambridge: John Wilson and Son, 1885.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/notebookkeptbyth00lech",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/lechford-note-book.md",
+    "notes": "Thomas Lechford's Boston lawyer's note-book, June 1638-July 1641 - the fullest surviving record of Boston legal/commercial business across John Gurney's most probable arrival window. Swept for Gurney variants in the 2026 full-text campaign as a Boston-record-class test of Anderson's unverified 'Boston' settlement. Bears on the Boston record-coverage negative (g13-colonial-record-coverage; lead L-193)."
   },
   {
     "sourceId": "delisle-critique-of-dg",

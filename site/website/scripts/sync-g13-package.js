@@ -7,8 +7,7 @@
  * finding pages, and the drawer's static JSON into the Eleventy site source.
  *
  * Mode is selected by the G13_PACKAGE environment variable:
- *   (unset)/off  → disabled; generated targets are cleaned and nothing is
- *                  written, so the ordinary build stays pure legacy.
+ *   (unset)/production → read research/people/g13-john-gurney (post-cutover).
  *   staging      → read research/people/_staging/g13-john-gurney (preview).
  *   production   → read research/people/g13-john-gurney (post-cutover).
  *
@@ -25,7 +24,9 @@ const render = require(path.join(projectRoot, "assets", "g13-graph-render.js"));
 
 const annexTarget = path.join(projectRoot, "research", "g13-annex");
 const graphAssetsTarget = path.join(projectRoot, "assets", "g13-graph");
-const graphExportDir = path.join(repoRoot, "data", "context-graphs", "g13", "exports", "website");
+// `website` remains the protected pre-cutover export for rollback; current is
+// the canonical derived export refreshed from the live graph.
+const graphExportDir = path.join(repoRoot, "data", "context-graphs", "g13", "exports", "website-current");
 const githubBlobBase = "https://github.com/allengurney/gurney-genealogy/blob/main/";
 
 const PACKAGE_ROOTS = {
@@ -34,7 +35,7 @@ const PACKAGE_ROOTS = {
 };
 
 function getPackageConfig() {
-  const mode = String(process.env.G13_PACKAGE || "").trim().toLowerCase();
+  const mode = String(process.env.G13_PACKAGE || "production").trim().toLowerCase();
   if (!mode || mode === "off" || mode === "legacy") {
     return { enabled: false, mode: "off" };
   }

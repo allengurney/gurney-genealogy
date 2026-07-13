@@ -237,7 +237,7 @@ like any other editor change (see `tools/g13_graph_editor/README.md`).
 ## Static website export (Phase G5)
 
 `export-website` writes a deterministic, read-only public export for the future
-graph-enhanced website under `<export-dir>/website` (override with `--out`):
+graph-enhanced website under `<export-dir>/website-current` (override with `--out`):
 `manifest.json`, `findings.json` and `markers.json` indexes, an `adjacency.json`
 node/edge slice, one `findings/<item_id>.json` per public item, and one
 `marker-bundles/<marker_id>.json` per complete public marker. Permanent

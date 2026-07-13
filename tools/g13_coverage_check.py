@@ -107,7 +107,8 @@ MD_FOOTNOTE_DEF_RE = re.compile(r"^\[\^([^\]]+)\]:", re.MULTILINE)
 HTML_FOOTNOTE_REF_RE = re.compile(r"href=\"#([A-Za-z0-9_-]+)\"")
 HTML_ID_RE = re.compile(r"\bid=\"([A-Za-z0-9_-]+)\"")
 
-STAGING_REL = Path("research/people/_staging/g13-john-gurney")
+# The G13 cutover promotes the package; coverage records are now canonical here.
+STAGING_REL = Path("research/people/g13-john-gurney")
 DEFAULT_COVERAGE_REL = STAGING_REL / "coverage"
 DEFAULT_SOURCES_REL = Path("data/sources.json")
 SNAPSHOT_DIR_REL = Path("data/context-graphs/g13/exports/snapshots")
@@ -735,10 +736,16 @@ def run_check(
                 report.hash_mismatches.append(
                     {"path": rel, "frozen": item["sha256"], "actual": actual}
                 )
+        # The cutover preserves the exact companion under `_legacy/`, while
+        # its lossless-disposition ledger intentionally retains the original
+        # companion path. Treat that one frozen input as its historical alias.
+        ledger_rel = rel
+        if rel == "research/people/_legacy/g13-pre-refactor/g13-john-gurney-fact-sheet.research.md":
+            ledger_rel = "research/people/g13-john-gurney-fact-sheet.research.md"
         if (
-            rel not in legacy_paths
-            and rel not in dump_files
-            and rel not in supplemental_paths
+            ledger_rel not in legacy_paths
+            and ledger_rel not in dump_files
+            and ledger_rel not in supplemental_paths
         ):
             report.inputs_without_rows.append(rel)
 

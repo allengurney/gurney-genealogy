@@ -235,7 +235,8 @@ carries dead links.
 
 Data flow: `tools/g13_graph.py export-website` (repo root, run against the live
 canonical SQLite graph) writes the public export to
-`data/context-graphs/g13/exports/website/` (gitignored, derived). At build time
+`data/context-graphs/g13/exports/website-current/` (gitignored, derived). The
+pre-cutover `website/` directory is retained for rollback. At build time
 `scripts/sync-g13-package.js` copies it into `assets/g13-graph/` and generates
 the annex pages under `research/g13-annex/` (also cleaned/derived).
 
