@@ -39,7 +39,7 @@ latter with `No such file or directory`. Example status check:
 - `tools/plans/G-13 Refactor/02b-source-lossless-topic-assimilation.md` — the
   source-lossless contract (§2), the tiered checker (§8), and the revised
   authoring checkpoint (§9) this skill implements.
-- `research/people/_staging/g13-john-gurney/coverage/README.md` + the **four**
+- `research/people/g13-john-gurney/coverage/README.md` + the **four**
   ledgers there (`legacy-companion-map.csv`, `dump-findings-map.csv`,
   `source-and-citation-map.csv`, `supplemental-surfaces-map.csv`) and the
   checker `tools/g13_coverage_check.py` — you add rows to these every increment
@@ -47,10 +47,11 @@ latter with `No such file or directory`. Example status check:
   citation gaps, and zero Plan 2b source-journey/parity gaps.
 
 ## Non-destructive invariant (Plan 02)
-Work only in `research/people/_staging/g13-john-gurney/`. Do **not** edit the live
+Work only in the promoted G13 topic tree `research/people/g13-john-gurney/` and
+the canonical graph/coverage artifacts it names. Do **not** edit the legacy
 companion `research/people/g13-john-gurney-fact-sheet.research.md`, the
-`sources/intake/dump-files/`, or the public site. Reading them to assimilate is
-expected; editing them is not (that happens only at an approved cutover).
+`sources/intake/dump-files/`, or the public site. Reading them for context is
+expected; editing them is not part of G13 topic authoring.
 
 ## Workflow
 
@@ -119,8 +120,8 @@ expected; editing them is not (that happens only at an approved cutover).
    citation deliberately carried without an item link in this unit needs a
    `context_only`/`cross_unit` role on its citation-map row, or parity fails.
    Then run `tools/g13_coverage_check.py` and check the per-increment gates below.
-10. **Update `manifest.json`** (new topic + its `researchItemIds`) and the staging
-   `README.md`. Optionally show the increment through `context --terms <topic> --mode grounding`.
+10. **Update `manifest.json`** (new topic + its `researchItemIds`) and the promoted
+    topic-tree `README.md`. Optionally show the increment through `context --terms <topic> --mode grounding`.
 
 ## Revising an already-committed increment (edits, not creation)
 
@@ -243,37 +244,25 @@ every increment**:
   Gurney subject and the common place rows (e.g. `place-weymouth-massachusetts-usa`)
   already exist, and re-creating one collides. Add an `entities` row only for a genuinely
   new place/person.
-- **Leads: update through the tool with a distinguishable staging tag; never hand-edit.**
-  `research/future-research/research-leads.csv` is production, but an increment often
-  *resolves or advances* a lead (promotes a Status "tail" into a topic finding, gives a lead a
-  topic home). The agreed interim process is **non-destructive-by-tag**, not defer-to-cutover:
-  append a bracketed, greppable note via
-  `research_leads.py update L-### --append-status-note "[G13-STAGING <date>: <what> → <topicId> <RI ids>; reconcile at cutover]"`.
-  Rules: (1) always `--dry-run` first; the tool keeps a timestamped backup in the gitignored
-  `research/future-research/_local/backups/` (30-day retention) and git is the ultimate fallback.
-  (2) **Append only** — never overwrite existing Status, and **do not repoint `Source ref`** at a
-  staged path (the staged destination goes *inside* the bracket; `Source ref` stays production).
-  (3) The `[G13-STAGING …]` prefix is the staging↔production marker: `research_leads.py search
-  G13-STAGING` lists every lead a refactor increment touched. (4) The tool warns on Status
-  length/commas — accepted in the interim (index gets heavier; risk stays low). (5) Never rewrite
-  the CSV by hand or with an ad-hoc script. **At cutover**, review each `G13-STAGING`-tagged lead
-  (original + bracketed note both present, so the digest is reliable), then finalize via
-  `update`/`close` and strip the tag. Also keep the `L-###` discovery trail in the staged topic
-  footnote/HTML comments.
-- **Coverage checker is whole-refactor, not per-increment.** `g13_coverage_check.py`
-  will keep reporting `RESULT: FAIL — N un-dispositioned` and
-  `SOURCE-LOSSLESS: PENDING` until every topic is authored and remediated; that
-  global backlog is expected mid-refactor. Per increment (Plan 2b §8.6), confirm:
+- **Leads: update through `research_leads.py`; never hand-edit.** An increment may
+  resolve or advance a lead, or give it a promoted G13 topic home. Run `--dry-run`
+  first, then use `update` or `close`; keep `Status` to a standard value such as
+  `Open` or `Partial`, put the current promoted topic path in `Source ref` when it
+  is the lead's home, and keep any status note short. Never rewrite the CSV with an
+  ad-hoc script. Keep the `L-###` discovery trail in the relevant topic footnote or
+  HTML comment.
+- **Coverage checker is whole-refactor and now a passing gate.** Run
+  `g13_coverage_check.py` against `research/people/g13-john-gurney/coverage/`.
+  After promotion, every reported gating failure is actionable. Per increment
+  (Plan 2b §8.6), confirm:
   **0 citation gaps**, **0 unregistered**, **0 inventory** problems, and — for the
   topics you touched — **0 `input_source_set_gaps`**, **0 `source_journey_gaps`**,
   **0 `topic_graph_source_gaps`**, **0 `publication_mapping_gaps`**, no new
-  `friction_needs_decision`, and no backlog increase. Journey rows whose
-  destination topic is not yet staged report as *deferred*, not failed. A topic is
-  `increment-complete` when only broader-refactor backlog remains and
-  `source-lossless` when every input routed to it passes — record the status as
-  `coverageStatus` on its `manifest.json` entry. Multi-destination legacy
-  rows that you only partly assimilate stay backlog — annotate the sub-part in `notes`
-  rather than false-closing the row.
+  `friction_needs_decision`, and no backlog increase. A topic is `source-lossless`
+  when every input routed to it passes; record the current status as `coverageStatus`
+  on its `manifest.json` entry. Multi-destination legacy rows that are only partly
+  assimilated stay backlog — annotate the sub-part in `notes` rather than
+  false-closing the row.
 
 ## See also
 - `.claude/skills/online-discovery-strategy/SKILL.md` — if the increment needs new
