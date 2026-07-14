@@ -272,6 +272,8 @@ class Entity:
     generation: str = ""
     dates: str = ""
     paths: list[str] = field(default_factory=list)
+    preferred_paths: list[str] = field(default_factory=list)
+    legacy_paths: list[str] = field(default_factory=list)
     aliases: list[str] = field(default_factory=list)
     linked_ids: list[str] = field(default_factory=list)
 
@@ -847,6 +849,24 @@ def resolve_ancestor(repo_root: Path, selector: str, config: dict[str, Any]) -> 
     for publication in config.get("specialPublications", []):
         if publication.get("ancestor", "").upper() == row.get("gen", "").upper():
             paths.append(publication["path"])
+    preferred_paths: list[str] = []
+    legacy_paths: list[str] = []
+    for package in config.get("activeResearchPackages", []):
+        if package.get("ancestor", "").upper() != row.get("gen", "").upper():
+            continue
+        topic_root = repo_root / package.get("topicRoot", "")
+        if topic_root.is_dir():
+            preferred_paths.extend(
+                path.relative_to(repo_root).as_posix()
+                for path in topic_root.rglob("*.md")
+                if path.is_file()
+            )
+        legacy_paths.extend(package.get("legacyPaths", []))
+    paths = [
+        path
+        for path in paths
+        if path not in set(legacy_paths) and (repo_root / path).is_file()
+    ]
     return Entity(
         kind="ancestor",
         id=row.get("recordId", ""),
@@ -854,6 +874,8 @@ def resolve_ancestor(repo_root: Path, selector: str, config: dict[str, Any]) -> 
         generation=row.get("gen", ""),
         dates=row.get("dates", ""),
         paths=sorted(set(paths)),
+        preferred_paths=sorted(set(preferred_paths)),
+        legacy_paths=sorted(set(legacy_paths)),
         aliases=[row.get("name", "")],
     )
 
@@ -1331,9 +1353,21 @@ def load_lead_sections(repo_root: Path, terms: list[str], lead_id: str | None = 
     return sections
 
 
-def bucket_for(section: Section, direct_paths: set[str], direct_object_id: str = "") -> str:
+def bucket_for(
+    section: Section,
+    direct_paths: set[str],
+    direct_object_id: str = "",
+    preferred_paths: set[str] | None = None,
+    legacy_paths: set[str] | None = None,
+) -> str:
+    preferred_paths = preferred_paths or set()
+    legacy_paths = legacy_paths or set()
     if section.path in direct_paths or (direct_object_id and section.object_id == direct_object_id):
         return "core"
+    if section.path in preferred_paths:
+        return "active-research"
+    if section.path in legacy_paths:
+        return "historical-audit"
     if section.layer == "sources" or section.path == "data/sources.json":
         return "source-and-corpus"
     if section.layer == "leads":
@@ -1399,6 +1433,8 @@ def build_results(
     for match in exact_matches:
         exact_by_path.setdefault(match.path, []).append(match)
     direct_paths = set(entity.paths if entity else [])
+    preferred_paths = set(entity.preferred_paths if entity else [])
+    legacy_paths = set(entity.legacy_paths if entity else [])
     direct_object_id = entity.id if entity else ""
     candidate_ids = set(fts_scores)
     section_cache: dict[int, Section] = {}
@@ -1445,6 +1481,12 @@ def build_results(
         if section.path in direct_paths or (direct_object_id and section.object_id == direct_object_id):
             kinds.append("direct-entity")
             score += 45.0
+        if section.path in preferred_paths:
+            kinds.append("active-research-package")
+            score += 80.0
+        if section.path in legacy_paths:
+            kinds.append("superseded-but-preserved")
+            score -= 80.0
         if section.layer == "historical":
             score -= 18.0
         elif section.layer == "sources":
@@ -1480,7 +1522,7 @@ def build_results(
                 match_kinds=kinds,
                 matched_terms=matched_terms,
                 exact_lines=exact_lines,
-                bucket=bucket_for(section, direct_paths, direct_object_id),
+                bucket=bucket_for(section, direct_paths, direct_object_id, preferred_paths, legacy_paths),
                 excerpt=excerpt_for(section, exact_lines, entity_map=entity_map and section.path in direct_paths),
                 warnings=daniel_warnings(section, config),
             )
@@ -1554,10 +1596,12 @@ def select_staged_results(
         if result.result_id in selected:
             continue
         bucket = result.bucket
-        if bucket_counts.get(bucket, 0) >= per_bucket:
+        bucket_limit = 8 if bucket == "active-research" else per_bucket
+        file_limit = 1 if bucket == "active-research" else 3
+        if bucket_counts.get(bucket, 0) >= bucket_limit:
             continue
         file_key = (bucket, result.section.path)
-        if file_counts.get(file_key, 0) >= 3:
+        if file_counts.get(file_key, 0) >= file_limit:
             continue
         selected[result.result_id] = result
         bucket_counts[bucket] = bucket_counts.get(bucket, 0) + 1
@@ -1688,8 +1732,15 @@ def write_package(
     )
     write_json(package / "staged-result-ids.json", [result.result_id for result in staged_results])
 
-    bucket_order = ["core", "supporting", "source-and-corpus", "leads", "historical-audit"]
-    bucket_prefix = {"core": "01", "supporting": "02", "source-and-corpus": "03", "leads": "04", "historical-audit": "05"}
+    bucket_order = ["active-research", "core", "supporting", "source-and-corpus", "leads", "historical-audit"]
+    bucket_prefix = {
+        "active-research": "01",
+        "core": "02",
+        "supporting": "03",
+        "source-and-corpus": "04",
+        "leads": "05",
+        "historical-audit": "06",
+    }
     volume_entries: list[dict[str, Any]] = []
     for bucket in bucket_order:
         blocks = [render_result(result) for result in staged_results if result.bucket == bucket]

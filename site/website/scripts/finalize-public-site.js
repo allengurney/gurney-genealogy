@@ -73,6 +73,60 @@ function outputPathToCanonicalUrl(relativePath) {
   return `${siteUrl}${outputPathToPublicPath(relativePath) === "/" ? "/" : outputPathToPublicPath(relativePath)}`;
 }
 
+function publicPathSet(publicHtmlFiles) {
+  return new Set(
+    publicHtmlFiles.map(file =>
+      outputPathToPublicPath(toPosix(path.relative(siteDir, file)))
+    )
+  );
+}
+
+function internalPathFromReference(value, relativePath) {
+  const { pathPart, suffix } = splitUrlSuffix(value);
+  if (!pathPart) return null;
+  if (pathPart.startsWith(`${siteUrl}/`)) {
+    return { path: pathPart.slice(siteUrl.length), suffix };
+  }
+  if (/^[a-z][a-z0-9+.-]*:/i.test(pathPart) || pathPart.startsWith("//")) {
+    return null;
+  }
+  if (pathPart.startsWith("/")) return { path: pathPart, suffix };
+  return {
+    path: new URL(pathPart, `${siteUrl}/${toPosix(relativePath)}`).pathname,
+    suffix,
+  };
+}
+
+function rewritePublicReference(value, relativePath, publicPaths) {
+  const normalized = normalizeInternalUrl(value);
+  const reference = internalPathFromReference(normalized, relativePath);
+  if (!reference) return { value: normalized, unpublishedMarkdown: false };
+
+  let candidate = null;
+  const companion = reference.path.match(/^\/research\/companions\/([^/]+)$/i);
+  const personResearch = reference.path.match(/^\/research\/people\/(.+?)\.research\.md$/i);
+  const topic = reference.path.match(/^\/research\/topics\/(.+?)\.md$/i);
+  const markdown = reference.path.match(/^(.*)\.md$/i);
+
+  if (companion) {
+    candidate = `/research/notes/${companionPublicSlug(companion[1])}`;
+  } else if (personResearch) {
+    candidate = `/research/notes/${companionPublicSlug(personResearch[1])}`;
+  } else if (topic) {
+    candidate = `/key-research/topics/${topic[1]}`;
+  } else if (markdown) {
+    candidate = markdown[1] || "/";
+  }
+
+  if (candidate && publicPaths.has(candidate)) {
+    return { value: `${candidate}${reference.suffix}`, unpublishedMarkdown: false };
+  }
+  return {
+    value: normalized,
+    unpublishedMarkdown: Boolean(markdown || personResearch),
+  };
+}
+
 function walkFiles(dir, predicate, results = []) {
   if (!fs.existsSync(dir)) return results;
   fs.readdirSync(dir, { withFileTypes: true }).forEach(entry => {
@@ -169,7 +223,7 @@ function buildRedirectRules(publicHtmlFiles) {
     .join("\n") + "\n";
 }
 
-function normalizeHtmlFile(file) {
+function normalizeHtmlFile(file, publicPaths) {
   const relativePath = toPosix(path.relative(siteDir, file));
   const canonicalUrl = outputPathToCanonicalUrl(relativePath);
   let html = fs.readFileSync(file, "utf8");
@@ -178,10 +232,21 @@ function normalizeHtmlFile(file) {
   html = html.replace(/<\/head>/i, `  <link rel="canonical" href="${canonicalUrl}">\n</head>`);
   html = html.replace(/\b(href)=("([^"]*)"|'([^']*)')/gi, (match, attr, quoted, doubleValue, singleValue) => {
     const value = doubleValue !== undefined ? doubleValue : singleValue;
-    const normalized = normalizeInternalUrl(value);
+    const normalized = rewritePublicReference(value, relativePath, publicPaths).value;
     const quote = quoted.startsWith("'") ? "'" : "\"";
     return `${attr}=${quote}${normalized}${quote}`;
   });
+
+  // A research file can cite an internal Markdown artifact that is deliberately
+  // not published as a page.  Do not leave a public 404 behind: retain its
+  // visible label but remove the unavailable link.  Published places, notes,
+  // and opt-in topics were rewritten above to their public canonical routes.
+  html = html.replace(/<a\b([^>]*?)\bhref=("([^"]*)"|'([^']*)')([^>]*)>([\s\S]*?)<\/a>/gi,
+    (match, before, quoted, doubleValue, singleValue, after, contents) => {
+      const value = doubleValue !== undefined ? doubleValue : singleValue;
+      const reference = rewritePublicReference(value, relativePath, publicPaths);
+      return reference.unpublishedMarkdown ? contents : match;
+    });
 
   fs.writeFileSync(file, html);
 }
@@ -291,6 +356,15 @@ function validatePublicOutput(publicHtmlFiles) {
       .map(match => match[1])
       .filter(url => url.startsWith("/") || url.startsWith(`${siteUrl}/`));
     htmlInternalLinks.forEach(url => errors.push(`internal .html link remains in ${rel}: ${url}`));
+
+    const markdownInternalLinks = [...html.matchAll(/\bhref=["']([^"']*\.md(?:[?#][^"']*)?)["']/gi)]
+      .map(match => match[1])
+      .filter(url =>
+        url.startsWith("/") ||
+        url.startsWith(`${siteUrl}/`) ||
+        !/^[a-z][a-z0-9+.-]*:/i.test(url)
+      );
+    markdownInternalLinks.forEach(url => errors.push(`internal Markdown link remains in ${rel}: ${url}`));
   });
 
   sitemapUrls.forEach(url => {
@@ -318,8 +392,9 @@ removePrivateOutputs();
 
 const publicHtmlFiles = walkFiles(siteDir, file => file.endsWith(".html"))
   .filter(file => !privateOutputPaths.has(toPosix(path.relative(siteDir, file))));
+const publicPaths = publicPathSet(publicHtmlFiles);
 
-publicHtmlFiles.forEach(normalizeHtmlFile);
+publicHtmlFiles.forEach(file => normalizeHtmlFile(file, publicPaths));
 fs.writeFileSync(path.join(siteDir, "_redirects"), buildRedirectRules(publicHtmlFiles));
 generateSitemap(publicHtmlFiles);
 generateLlmsTxt(publicHtmlFiles);

@@ -51,6 +51,23 @@
       "ancestor": "G13"
     }
   ],
+  "activeResearchPackages": [
+    {
+      "ancestor": "G13",
+      "topicRoot": "research/people/g13-john-gurney/topics",
+      "legacyPaths": [
+        "research/people/g13-john-gurney-fact-sheet.research.md",
+        "research/people/_legacy/g13-pre-refactor/g13-john-gurney-fact-sheet.research.md",
+        "research/topics/g13-john-gurney-immigration-by-association.md",
+        "research/topics/john-gurney-candidate-ackworth-yorkshire.md",
+        "research/topics/john-gurney-candidate-aylesbury-buckinghamshire.md",
+        "research/topics/john-gurney-candidate-berkhamsted-hertfordshire.md",
+        "research/topics/john-gurney-candidate-london-draper.md",
+        "research/topics/john-gurney-candidate-others.md",
+        "research/topics/massachusetts-bay-passenger-lists-bevis-diligent-mary-anne.md"
+      ]
+    }
+  ],
   "danielGurney": {
     "sourceIds": [
       "dg-rec-pt1",

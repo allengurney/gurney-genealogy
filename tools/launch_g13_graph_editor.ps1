@@ -83,6 +83,17 @@ function Restore-Staging {
         "--sources", $Sources,
         "restore", "--from", $LiveRecovery
     ) | Out-Null
+    # A restore creates the rolling recovery export but intentionally does not
+    # carry snapshot files with it.  This staging copy is an exact replica of
+    # live at this point, so write its matching snapshot before editor
+    # preflight.  Otherwise every fresh staging refresh reports a misleading
+    # "ahead of the latest milestone snapshot" advisory.
+    Invoke-Graph @(
+        "--db", $StagingDb,
+        "--export-dir", $StagingExport,
+        "--sources", $Sources,
+        "export", "--snapshot"
+    ) | Out-Null
 }
 
 function Refresh-Staging {

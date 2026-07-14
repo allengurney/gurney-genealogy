@@ -98,6 +98,15 @@ class RepoSearchUnitTests(unittest.TestCase):
         self.assertIn("Gerard de Gournay", [spec.term for spec in specs])
         self.assertTrue(any(item["family"] == "norman" for item in expansions))
 
+    def test_active_g13_package_prefers_topics_and_preserves_legacy_companion(self) -> None:
+        repo_root = repo_search.find_repo_root(Path(__file__).resolve())
+        entity = repo_search.resolve_ancestor(repo_root, "G13", repo_search.load_config(repo_root))
+        self.assertIn("research/people/g13-john-gurney/topics/colonial/03-braintree-community.md", entity.preferred_paths)
+        self.assertNotIn("research/people/_legacy/g13-pre-refactor/g13-john-gurney-fact-sheet.research.md", entity.paths)
+        self.assertNotIn("research/people/g13-john-gurney-fact-sheet.research.md", entity.paths)
+        self.assertIn("research/people/_legacy/g13-pre-refactor/g13-john-gurney-fact-sheet.research.md", entity.legacy_paths)
+        self.assertIn("research/topics/john-gurney-candidate-london-draper.md", entity.legacy_paths)
+
     def test_raw_auto_search_does_not_expand_name_variants(self) -> None:
         repo_root = repo_search.find_repo_root(Path(__file__).resolve())
         specs, expansions, selection = repo_search.expand_variants(
