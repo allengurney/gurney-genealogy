@@ -21,8 +21,12 @@ This Fine Roll entry proves Matthew was alive in 1217 — paying 20 marks to the
 This is the foundational moment for the Harpley connection that would define the family for centuries. Key details:
 
 - **Hameline Plantagenet** (also Hamelin de Warenne, Earl of Surrey, c. 1129–1202) was an illegitimate half-brother of Henry II — a Plantagenet prince. He arranged Rose's marriage to Matthew, giving his kinswoman to the junior Gournay as a calculated match. This is a royal connection at one remove: the King's half-brother personally orchestrating the marriage.
-- **Rose de Burnham** was "daughter and heir of Reginald de Burnham (Fitz-Philip)" — the "Burnhams were a younger branch of the house of Warren" per the fact sheet companion notes from an earlier session. Through her, the Harpley manor entered the family.
+- **Rose de Burnham** was "daughter and heir of Reginald de Burnham (Fitz-Philip)." Through her, the Harpley manor entered the family.
 - **Harpley** would remain the Gurneys' most important Norfolk manor for nearly two centuries, through G29 (Matthew) to at least G21 (Thomas I).
+
+Clay's edition of the Warenne charters puts the marriage on documentary footing. The earl's own charter survives (copied from the original in Harleian MS 970): earl Hamelin, addressing "all his English barons and his other men," gives "to Matthew de Gournay the daughter of Reginald son of Philip as his wife and all her inheritance, to hold to him and his heirs of the grantor and his heirs." Her name, Rose, appears in a fine (a court-recorded settlement) of **17 October 1184** between Philip de Burnham and Rose and her husband, for half a knight's fee in Harpley — so the marriage was made "not later than 1184." Clay adds the next century's tenure: "In 1242-43 Cecily daughter of Philip de Burnham [III] and William de Gurney each held half a knight's fee in Harpley of earl de Warenne." On the Burnham family's own ancestry Clay is more cautious than Daniel Gurney: DG's suggestion (Record, p. 311) that the Burnhams descended from Reginald, son of the first earl Warenne, has "no confirmatory evidence, and it is very unlikely to be true" — though Clay accepts a probable Warenne kinship for the Burnhams on other grounds (Blomefield's note of accounts calling them descended from a first cousin of earl Hamelin). The substance — the earl personally granting his kinswoman and Harpley to Matthew — stands on the charter and the fine.[^eyc8-hamelin-g29]
+
+[^eyc8-hamelin-g29]: C. T. Clay, ed., *Early Yorkshire Charters*, vol. 8: *The Honour of Warenne* (Yorkshire Archaeological Society, Extra Series 6, 1949), pp. 38–39 (the marriage, the 1184 fine, the 1242–3 Harpley tenures, and the Burnham-descent assessment at p. 38 n. 7) and p. 95 (note to charter no. 47, describing earl Hamelin's charter copied from the original in Harl. MS 970). Extract: sources/corpus_supplement/eyc8-warenne-gournay-extracts.md. Source ID: `eyc8-warenne-clay-1949`.
 
 ### DG-I pp. 278–279 — additional Matthew details
 2026-04-18 — DG records that Matthew "gave tithes of Hardingham to the church" (citing Harleian MSS. 970, *Vitis Calthorpiana*). He also held the manor of Swathings in Hardingham and Runhall (inherited from his father William I).
@@ -62,10 +66,10 @@ Blomefield's Harpley account (vol. 8, pp. 452–459) independently confirms the 
 ## Open Questions
 
 1. **Blomefield's Harpley:** ~~The Harpley entry (vol. viii, pp. 452–459) should document the Burnham-to-Gurney descent through Rose. Priority extraction.~~ **Done 2026-06-14** — extracted (see Working Notes "Blomefield's Harpley — extracted"): confirms the Rose de Burnham / Hameline Warenne acquisition, the full medieval-Tudor descent to Anthony Gurnay (1511) → Sir John Allen (c. 1535), the rector's gravestone, and the engrailed-cross window arms.
-2. **Harl. MSS. 970:** The Hardingham tithe grant — can the British Library digitized Harleian manuscripts be searched for this?
-3. **DG-I Appendix XLIX (p. 308):** The c. 1160 deed — what does it establish? Full transcription needed.
-4. **DG-I Appendix LIII:** Matthew v. Gilbert de Runhall plea — what was the outcome? Was this a successful defense of Runhall?
-5. **Montigny-sur-Andelle after 1204:** Did the junior branch lose this Norman holding when Philip Augustus conquered Normandy? DG does not address this explicitly.
+2. **Harl. MSS. 970:** The Hardingham tithe grant — can the British Library digitized Harleian manuscripts be searched for this?<!-- L-226 -->
+3. **DG-I Appendix XLIX (p. 308):** The c. 1160 deed — what does it establish? Full transcription needed.<!-- L-227 -->
+4. **DG-I Appendix LIII:** Matthew v. Gilbert de Runhall plea — what was the outcome? Was this a successful defense of Runhall?<!-- L-228 -->
+5. **Montigny-sur-Andelle after 1204:** Did the junior branch lose this Norman holding when Philip Augustus conquered Normandy? DG does not address this explicitly.<!-- L-229 -->
 
 ---
 
@@ -79,6 +83,7 @@ Blomefield's Harpley account (vol. 8, pp. 452–459) independently confirms the 
 - DG-II, p. 310: Matthew reference (per citation audit — correct as DG-II). [DG-II]
 - Harl. MSS. 970 (*Vitis Calthorpiana*): Hardingham tithe grant. Cited via DG. [Harl-970]
 - Blomefield, *History of Norfolk* (Harpley entry, vol. viii, pp. 452–459). Extracted 2026-06-14: Rose de Burnham/Hameline Warenne acquisition; full medieval–Tudor manorial descent to Anthony Gurnay (1511) → Sir John Allen (c. 1535); rector's gravestone of John de Gournay; engrailed-cross window arms; Edmund Gurnay B.D. presented rector 1620. Source ID: `blomefield-norfolk`. [Blomefield]
+- Clay, C. T., ed., *Early Yorkshire Charters*, vol. 8 (1949), pp. 38–39, 95: earl Hamelin's charter (from the original, copied in Harl. MS 970) giving Rose to Matthew with her inheritance; the fine of 17 Oct 1184 naming Rose; the 1242–3 Harpley half-fees held of the earl; Clay's caution on DG's Burnham-Warenne mechanism. Source ID: `eyc8-warenne-clay-1949`. [EYC-viii]
 - Anderson, James, *Genealogical History of the House of Yvery*, Vol. II (London, 1742), p. 478: brief aside on Norfolk Gournays with a different pedigree from DG. Matthew placed "in the Time of Henry the First" with sons Thomas and William — does not match DG's more detailed and better-sourced Walter→William→Matthew sequence. [Anderson-Yvery]
 - *Supplément aux recherches historiques sur la ville de Gournay-en-Bray* (1844): examined. Primarily local town history; confirms Daniel Gurney as a subscriber (establishing 1840s transatlantic scholarly communication). No specific content on the Norfolk junior branch. [Gournay-1844]
 

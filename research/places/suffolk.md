@@ -16,7 +16,7 @@ That means Suffolk is more historically layered than Essex, even though the plac
 
 The earliest strong Suffolk connection belongs to **Walter de Gournay (G31)**. DG-I cites the **Liber Niger Scaccarii**, vol. i, p. 298, for Walter's holdings in Suffolk under **Manasser de Dampmartin**. This is one of the earliest documentary witnesses to Walter in England and one of the key reasons Suffolk must exist in the place library at all. [DG-I]
 
-At present, however, the county file is standing in for more specific manors that have not yet been separated. Until the Liber Niger entry is pulled directly and the named Suffolk places identified, Suffolk should remain a **county-level placeholder for early holdings**, not a claim that the family held the whole county in any broad sense.
+The Liber Niger entry has now been pulled directly: Manasser de Dampmartin's 1166 return states that "in the time of the war" (1135–1154) he gave Walter a quarter of a knight's fee out of his own fee — the Dammartin fee of **Mendlesham**, with Cotton and Wickham Skeith nearby, in Hartismere hundred. [Red Book, ed. Hall (1896), vol. 1, pp. 409–410; DG-II p. 289; Hatton Book of Seals No. 350] The quarter-fee's own vill is not named in the return, so Suffolk remains a **county-level umbrella** for this holding — now anchored to the Mendlesham fee rather than to the county at large. A separate Mendlesham place file becomes worthwhile only if a later record localizes the quarter-fee.
 
 ## Later medieval Suffolk
 
@@ -36,10 +36,10 @@ Suffolk is therefore one of the more complex county umbrellas in the library. It
 
 ## Open items
 
-- [ ] Pull the **Liber Niger Scaccarii** entry and identify Walter's specific Suffolk holdings under Manasser de Dampmartin.
-- [ ] Identify the unnamed Suffolk manor in the 1408 estate of Sir John Gurney.
-- [ ] Consider a separate **Depden** place file once the Wauncy appendix is worked more fully into the library.
-- [ ] Keep Bury St Edmunds separate from the landed-history layer unless stronger evidence links it to property rather than apprenticeship/origin tradition.
+- [x] Pull the **Liber Niger Scaccarii** entry and identify Walter's specific Suffolk holdings under Manasser de Dampmartin. **Done 2026-07** — quarter-fee out of the Dammartin fee of Mendlesham (Hartismere hundred); vill not named. See the Walter section above.
+- [ ] Identify the unnamed Suffolk manor in the 1408 estate of Sir John Gurney.<!-- L-230 -->
+- [ ] Consider a separate **Depden** place file once the Wauncy appendix is worked more fully into the library.<!-- L-231 -->
+- [ ] Keep Bury St Edmunds separate from the landed-history layer unless stronger evidence links it to property rather than apprenticeship/origin tradition.<!-- L-21 -->
 
 ## Sources
 

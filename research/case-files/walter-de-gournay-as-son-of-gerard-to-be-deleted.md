@@ -62,17 +62,17 @@ Pattou's "possible petit-fils" is **not** an active rejection of the senior-line
 
 Richardson's bibliography (the most extensive modern apparatus on the question):
 
-| Source | Citation |
-|---|---|
-| Hasted, *Kent* (1798) vol. 4, pp. 544–545 | William de Gumay of Addington, Kent |
-| Copinger, *Manors of Suffolk* (1909) vol. 3, pp. 277–278 | Walter de Gumay's Suffolk holdings under Dammartin |
-| Loyd & Stenton, *Sir Christopher Hatton's Book of Seals* (1958), pp. 229–230, 239–240 | charter material |
-| *VCH Essex* (1956) vol. 4, pp. 151–152 | Manasser de Dammartin's Norton Mandeville lands |
-| *Genealogist* (1965) vol. 15, pp. 53–63 | Dammartin family article |
-| Jenkins, *Cartulary of Missenden Abbey*, vol. 1, pp. 70–75 | 1150 Missenden charter to Manasser and Galiena (Walter as witness) |
-| Gervers, *Cartulary of the Knights of St. John of Jerusalem in England: Secunda Camera/Essex* (1982) vol. 1, p. 216 | charter material |
-| Power, *The Norman Frontier in the 12th and Early 13th Centuries* (2004), pp. 355–357 | Walter's place in the Norman frontier feudal network |
-| Tanner, *Families, Friends, & Allies* (2004), p. 315 | Warenne pedigree |
+| Source | Citation | Availability |
+|---|---|---|
+| Hasted, *Kent* (1798) vol. 4, pp. 544–545 | William de Gumay of Addington, Kent | "C:\Users\allen\Downloads\The_History_and_Topographical_Survey_of_vol_4.pdf"<br /><br />"C:\Users\allen\Downloads\The_History_and_Topographical_Survey_of.pdf (this is volume 3 - likely do not need)"<br /><br />(note decent searchable text but ancient spellings)  Search for Gurnay+variants |
+| Copinger, *Manors of Suffolk* (1909) vol. 3, pp. 277–278 | Walter de Gumay's Suffolk holdings under Dammartin | https://archive.org/details/manorsofsuffolkn01copiuoft/<br /><br />Download full text and add to corpus. Search for multiple Gurney variants. |
+| Loyd & Stenton, *Sir Christopher Hatton's Book of Seals* (1958), pp. 229–230, 239–240 | charter material | https://archive.org/details/nrs015/mode/2up<br /><br />Download full text and add to corpus |
+| *VCH Essex* (1956) vol. 4, pp. 151–152 | Manasser de Dammartin's Norton Mandeville lands |  |
+| *Genealogist* (1965) vol. 15, pp. 53–63 | Dammartin family article |  |
+| Jenkins, *Cartulary of Missenden Abbey*, vol. 1, pp. 70–75 | 1150 Missenden charter to Manasser and Galiena (Walter as witness) |  |
+| Gervers, *Cartulary of the Knights of St. John of Jerusalem in England: Secunda Camera/Essex* (1982) vol. 1, p. 216 | charter material |  |
+| Power, *The Norman Frontier in the 12th and Early 13th Centuries* (2004), pp. 355–357 | Walter's place in the Norman frontier feudal network | Requested via interlibrary loan.  TBD. |
+| Tanner, *Families, Friends, & Allies* (2004), p. 315 | Warenne pedigree |  |
 
 Richardson's structural argument:
 - Walter de Gumay (Suffolk) is documented in 1150 as a witness to a charter for Manasser de Dammartin and his wife Galiena.

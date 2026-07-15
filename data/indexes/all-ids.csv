@@ -183,6 +183,7 @@ bardsley-english-welsh-surnames-1901,source,"Bardsley, Dictionary of English & W
 bartlett-bartletts-of-weymouth-1892,source,"Bartlett, The Bartletts of Weymouth (1892)",data/sources.json
 bates-ancient-iron-works-braintree-1898,source,"Bates, Ancient Iron Works at Braintree",data/sources.json
 bauduin-franchises-normandie-orientale-2001,source,"Bauduin, Trois cas de peuplement en franchises",data/sources.json
+bhrs-v7-fowler-1926,source,Beds. Hist. Rec. Soc. vol. 7 (Fowler on de Gournai),data/sources.json
 benjamin-gurney-harden-research-tables-2026-04,source,Benjamin Gurney / Harden research tables (2026-04),data/sources.json
 british-archivist-bernau-1913,source,"Bernau, British Archivist - Francis Gournay",data/sources.json
 bho-beaven-aldermen-richard-gourney-1589-1597,source,"BHO - Beaven aldermen, Richard Gourney",data/sources.json
@@ -234,6 +235,7 @@ candidate-d-london-context-web-bundle,source,Candidate D London context web bund
 candidate-d-london-grine-grene-index-leads-bundle,source,Candidate D London Grine/Grene index-lead bundle,data/sources.json
 cape-cod-canal-history,source,Cape Cod Canal history (Mass.gov; Wikipedia),data/sources.json
 saint-leu-esserent-cartulary-muller,source,"Cartulaire du prieure de Saint-Leu d'Esserent (1080-1538), ed. Muller",data/sources.json
+jenkins-missenden-cartulary-v1,source,"Cartulary of Missenden Abbey, vol. 1 (Jenkins)",data/sources.json
 chronicon-beccensis,source,Chronicon Beccensis Abbatiæ,data/sources.json
 weymouth-classified-record-births-nash,source,"Classified Record of Weymouth Births (Nash copy, 1879)",data/sources.json
 weymouth-classified-record-deaths-nash,source,"Classified Record of Weymouth Deaths (Nash copy, 1879)",data/sources.json
@@ -242,6 +244,8 @@ cleveland-battle-abbey-roll-introduction,source,"Cleveland, Battle Abbey Roll in
 cleveland-battle-abbey-roll-v1-crossrefs,source,"Cleveland, Battle Abbey Roll vol. 1 crossrefs",data/sources.json
 cleveland-battle-abbey-roll-v3-crossrefs,source,"Cleveland, Battle Abbey Roll vol. 3 crossrefs",data/sources.json
 commissary-court-london-testamentary-index-marc-fitch,source,commissary-court-london-testamentary-index-marc-fitch,data/sources.json
+cooke-mapledurham-ors7-1925,source,"Cooke, Early History of Mapledurham",data/sources.json
+copinger-manors-suffolk-v3,source,"Copinger, Manors of Suffolk, vol. 3",data/sources.json
 folger-corpus-christi-1619,source,Corpus Christi (1619) - Internet Archive / Folger,data/sources.json
 csm-39-boston-first-church,source,"CSM 39 — Records of the First Church in Boston, vol. I (1961)",data/sources.json
 cummington-vital-records,source,"Cummington, Massachusetts, town vital records (births)",data/sources.json
@@ -269,11 +273,14 @@ ecipm-mapping-medieval-countryside,source,E-CIPM / Mapping the Medieval Countrys
 eaa-occasional-paper-2-ellingham-kiln-1997,source,EAA Occasional Paper 2 - Ellingham Kiln,data/sources.json
 early-records-town-of-dedham-vol4-1894,source,"Early Records of Dedham, Massachusetts, vol. 4 (1894)",data/sources.json
 early-records-town-of-providence,source,"Early Records of the Town of Providence (21 vols, 1892-1915)",data/sources.json
+eyc8-warenne-clay-1949,source,"Early Yorkshire Charters, vol. 8 (Warenne)",data/sources.json
 early-yorkshire-charters-vol-8-clay-1949,source,"Early Yorkshire Charters, vol. 8: The Honour of Warenne (Clay 1949)",data/sources.json
+eyc9-stuteville-clay-1952,source,"Early Yorkshire Charters, vol. 9 (Stuteville)",data/sources.json
 edmund-divine-pcc-probate-negative,source,Edmund Gurney (Divine) probate search — negative,data/sources.json
 elizabeth-stettler-walker-gurney-obituary,source,Elizabeth Stettler Walker Gurney Obituary (2013),data/sources.json
 english-heritage-baconsthorpe-castle-history,source,English Heritage - Baconsthorpe Castle history,data/sources.json
 english-heritage-baconsthorpe-castle-wool-factory,source,English Heritage - Baconsthorpe Tudor wool factory,data/sources.json
+evans-dammartin-genealogists-magazine-1965,source,"Evans, 'Dammartin' (Genealogists' Magazine 1965)",data/sources.json
 explore-west-norfolk-harpley-st-lawrence,source,"Explore West Norfolk - St Lawrence, Harpley",data/sources.json
 faden-map-norfolk-1797-hardingham,source,Faden map of Norfolk - Hardingham extract,data/sources.json
 fs-england-births-christenings,source,FamilySearch England Births and Christenings,data/sources.json
@@ -336,6 +343,8 @@ three-hundred-years-norman-house,source,"Hannay, Three Hundred Years of a Norman
 hardingham-parish-history-2026,source,Hardingham Parish - History of Hardingham,data/sources.json
 harleian-st-vedast-st-michael-le-quern-registers,source,Harleian Society - St Vedast and St Michael le Quern registers,data/sources.json
 bho-1640-principal-inhabitants-london-deferred,source,"Harvey - List of the Principal Inhabitants of the City of London, 1640 (deferred)",data/sources.json
+hasted-kent-vol4,source,"Hasted, History of Kent, vol. 4",data/sources.json
+hatton-book-of-seals-1958,source,Hatton Book of Seals (Loyd & Stenton),data/sources.json
 hazen-billerica-1883,source,"Hazen, History of Billerica",data/sources.json
 henry-project-matilda-flanders-gundred,source,Henry Project - Matilda of Flanders / Gundred,data/sources.json
 henry-project-william-conqueror-gundred,source,Henry Project - William the Conqueror / Gundred,data/sources.json
@@ -482,7 +491,9 @@ recueil-actes-henri-ii-delisle-berger-introduction,source,"Recueil des actes de 
 recueil-actes-henri-ii-delisle-berger-vol-1,source,"Recueil des actes de Henri II, Delisle/Berger, vol. 1 (1916)",data/sources.json
 recueil-actes-henri-ii-delisle-berger-vol-2,source,"Recueil des actes de Henri II, Delisle/Berger, vol. 2 (1920)",data/sources.json
 rhgf-vol-15-1878,source,"Recueil des historiens des Gaules et de la France, tome 15 (1878 ed.)",data/sources.json
+redbook-exchequer-hall-v1,source,"Red Book of the Exchequer, vol. 1 (Hall)",data/sources.json
 regesta-rano,source,Regesta Regum Anglo-Normannorum (Bates),data/sources.json
+registrum-roffense-1769,source,Registrum Roffense (Thorpe),data/sources.json
 richardson-sgm-soc-genealogy-medieval-2002,source,Richardson SGM 2002 -- Walter not son of Gerard,data/sources.json
 rigler-genealogy-notes-c1980,source,"Rigler genealogy notes (worksheets, c. 1980)",data/sources.json
 rigler-gurney-family-aaron-zuinglius-1994,source,"Rigler, Gurney family from Aaron to Zuinglius",data/sources.json
@@ -538,6 +549,7 @@ us-census-1940,source,"U.S. Federal Census, 1940",data/sources.json
 us-public-records-1970-2009,source,"U.S. Public Records, 1970-2009",data/sources.json
 vch-bucks-vol2-bledlow,source,VCH Buckinghamshire vol. 2 - Bledlow,data/sources.json
 vch-bucks-v3,source,VCH Bucks v3 (Stewkley manors),data/sources.json
+vch-essex-vol4,source,"VCH Essex, vol. 4",data/sources.json
 vch-glos-vol2-gaunts-hospital,source,"VCH Gloucestershire vol. 2 - Gaunt's Hospital (St Mark, Billeswick)",data/sources.json
 vch-hants-vol4-wellow-gurnay,source,VCH Hampshire vol. 4 - East Wellow / Wellow Gurnay,data/sources.json
 visitations-norfolk-harleian-32,source,Visitations of Norfolk 1563/1589/1613 (Harleian Soc. 32),data/sources.json

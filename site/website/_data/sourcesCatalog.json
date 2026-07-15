@@ -396,6 +396,18 @@
     "notes": "Scholarly article on Villedieu-la-Montagne, Gourchelles, and Criquiers. Relevant to northern Gournay-honor dependency context: Haucourt lands principally depended on the honor of Gournay, and Hugues III de Gournay's Beaubec confirmation is cited in relation to Guillaume de Haucourt and Gila de Gourchelles."
   },
   {
+    "sourceId": "bhrs-v7-fowler-1926",
+    "shortTitle": "Beds. Hist. Rec. Soc. vol. 7 (Fowler on de Gournai)",
+    "citation": "The Publications of the Bedfordshire Historical Record Society, vol. 7 (1926), Note iiD/11 (De Gournai), pp. 153-157.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/publicationsofbe07bedf",
+    "corpusStatus": "full",
+    "corpusPath": "sources/corpus_supplement/bhrs-v7-fowler-gournay-note.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Fowler's account of the senior Gournay lords of Houghton Regis and Wendover, cited by Clay (EYC viii p. 6) as a standard modern treatment. Baronial succession only; names no children of Gerard beyond Hugh and Gundred. Full searchable text at sources/corpus/bhrs-v7-1926-fulltext.txt."
+  },
+  {
     "sourceId": "benjamin-gurney-harden-research-tables-2026-04",
     "shortTitle": "Benjamin Gurney / Harden research tables (2026-04)",
     "citation": "Allen Gurney research intake. Benjamin Gurney, Jane/Jean Harden, and Related Harden-Gurney Research Tables. Updated April 2026.",
@@ -1008,6 +1020,18 @@
     "notes": "Cartulary of the priory of Saint-Leu d'Esserent. Contains the editor's note distinguishing Dreux II de Mouchy (Second Crusader, died 1148) from his father Dreux I, and repeating the Jumieges-tradition sequence in which Gerard de Gournay sought Jerusalem with Edith, died on the journey, and Edith returned to marry Dreux de Mouchy. Used to disambiguate the two Drogos."
   },
   {
+    "sourceId": "jenkins-missenden-cartulary-v1",
+    "shortTitle": "Cartulary of Missenden Abbey, vol. 1 (Jenkins)",
+    "citation": "Jenkins, J. G., ed. The Cartulary of Missenden Abbey, vol. 1. Buckinghamshire Archaeological Society, Records Branch 2, 1938. Dammartin charters at pp. 70-75.",
+    "archive": "HathiTrust (limited view)",
+    "url": "https://catalog.hathitrust.org/Record/007081366",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Cited by Richardson (SGM 2002) for the c. 1150 charter of Manasser de Dammartin and his wife Galiena (with sons Bartholomew, Odo, Hamon, William) witnessed by Walter de Gournay. Not yet held; HathiTrust copy is search-only. The charter's substance is corroborated in hatton-book-of-seals-1958 note to No. 409 and secondary references."
+  },
+  {
     "sourceId": "chronicon-beccensis",
     "shortTitle": "Chronicon Beccensis Abbatiæ",
     "citation": "Chronicon Beccensis Abbatiæ (Chronicle of Bec Abbey).",
@@ -1102,6 +1126,30 @@
     "mediaPath": "sources/media/commissary-court-london-testamentary-index-marc-fitch/",
     "validationPath": "sources/validations/commissary-court-london-testamentary-index-marc-fitch.md",
     "notes": "Page 296 carries all five Gurney/Gourny entries for the volume's range (Daniel 1690, Miles 1636, Tho. Gourny 1676, Thomazine 1680, Wm. 1665); no Francis. Also searchable via FindMyPast 'England & Wales Published Wills & Probate Indexes 1300-1858' (record id OR/BRS/327/0310), whose transcription is incomplete vs the printed page."
+  },
+  {
+    "sourceId": "cooke-mapledurham-ors7-1925",
+    "shortTitle": "Cooke, Early History of Mapledurham",
+    "citation": "Cooke, A. H. The Early History of Mapledurham. Oxfordshire Record Society, vol. 7 (1925). Gournay family at pp. 9-11; Kimberley church gift at p. 85.",
+    "archive": "",
+    "url": "",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Modern account of the Gournay family and the descent of Mapledurham Gurney, cited by Clay (EYC ix pp. 45-47) for Hugh IV's death c. 1180 and Hugh V alive 1207. Not yet obtained; not found on Internet Archive."
+  },
+  {
+    "sourceId": "copinger-manors-suffolk-v3",
+    "shortTitle": "Copinger, Manors of Suffolk, vol. 3",
+    "citation": "Copinger, W. A. The Manors of Suffolk, vol. 3 (Hartismere, Hoxne, and Lackford hundreds). Manchester: Taylor, Garnett, Evans, 1909. Mendlesham at pp. 277-278.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/manorsofsuffolkn03copiuoft",
+    "corpusStatus": "full",
+    "corpusPath": "sources/corpus_supplement/copinger-manors-suffolk-v3-mendlesham-extract.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Cited by Richardson (SGM 2002) for the Dammartin tenure of Mendlesham. Documents two contemporary Dammartin branches at Mendlesham and the manor's descent through Galiena to the Mandevilles. Full searchable text at sources/corpus/copinger-manors-suffolk-v3-fulltext.txt."
   },
   {
     "sourceId": "folger-corpus-christi-1619",
@@ -1428,6 +1476,18 @@
     "notes": "The printed edition of Providence, Rhode Island town-meeting, deed, and probate records. The town-meeting and probate volumes swept carry no Gurney of any spelling; the only near-name is a distinct Providence Garnet family. Relevant to bounding John Gurney's unrecorded Quinapaug (Providence-jurisdiction) frontier interest and to clearing Providence-side same-name false friends."
   },
   {
+    "sourceId": "eyc8-warenne-clay-1949",
+    "shortTitle": "Early Yorkshire Charters, vol. 8 (Warenne)",
+    "citation": "Clay, Charles Travis, ed. Early Yorkshire Charters, vol. 8: The Honour of Warenne. Yorkshire Archaeological Society, Extra Series 6, 1949.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/YASES6",
+    "corpusStatus": "full",
+    "corpusPath": "sources/corpus_supplement/eyc8-warenne-gournay-extracts.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Clay's Warenne-family account: Edith de Warenne m. Gerard de Gournay ('among other children'), Mapledurham maritagium, and the Burnham/Harpley section with earl Hamelin's charter giving Rose, heiress of Harpley, to Matthew de Gournay (fine 17 Oct 1184). Full searchable text at sources/corpus/eyc8-warenne-clay-1949-fulltext.txt."
+  },
+  {
     "sourceId": "early-yorkshire-charters-vol-8-clay-1949",
     "shortTitle": "Early Yorkshire Charters, vol. 8: The Honour of Warenne (Clay 1949)",
     "citation": "Clay, Charles Travis, ed. Early Yorkshire Charters, vol. 8: The Honour of Warenne. Yorkshire Archaeological Society Record Series, extra series 6. 1949. Reprinted: Cambridge Library Collection, Cambridge University Press, 2013.",
@@ -1438,6 +1498,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Modern scholarly edition of charters relating to the honour of Warenne. Pages 6-7 give an independent scholarly statement of Edith / Ediva de Warenne's two marriages: (1) Gerard de Gournay, on whose Jerusalem pilgrimage 'he died not earlier than 1104'; (2) 'Drew de Monchy, by whom she had a son Drew the younger.' This is the strongest modern third-party confirmation of the corrected G32 chronology (death after 1104, not before), the Drogo I/Drogo II distinction, Edith's role on the pilgrimage, and Edith's placement as daughter of William de Warenne and Gundreda. Also notes that Edith named her daughter Gundreda after her grandmother Gundreda de Warenne. Pages 40-46 / 50-62 are also relevant to the Gundred parentage controversy, including the Lewes evidence, the Gerbod relationship, and the source-critical rejection of the older royal-descent theory."
+  },
+  {
+    "sourceId": "eyc9-stuteville-clay-1952",
+    "shortTitle": "Early Yorkshire Charters, vol. 9 (Stuteville)",
+    "citation": "Clay, Charles Travis, ed. Early Yorkshire Charters, vol. 9: The Stuteville Fee. Yorkshire Archaeological Society, Extra Series 7, 1952.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/YASES7",
+    "corpusStatus": "full",
+    "corpusPath": "sources/corpus_supplement/eyc9-stuteville-gournay-extracts.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Clay's Stuteville account pp. 45-47: Nicholas de Stuteville the elder married Eidiva, daughter of Hugh de Gournay IV and sister of Hugh V (correcting Blomefield/DG's 'Gunnora'), bringing Kimberley and Bedingham; the 1206-7 writ styles Nicholas the younger 'nephew of Hugh de Gournay'. Full searchable text at sources/corpus/eyc9-stuteville-clay-1952-fulltext.txt."
   },
   {
     "sourceId": "edmund-divine-pcc-probate-negative",
@@ -1486,6 +1558,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/english-heritage-baconsthorpe-castle-wool-factory.md",
     "notes": "Official English Heritage article on the Heydon family's Tudor wool economy at Baconsthorpe Castle. Supports contextual comparison with the Gurney wool economy: pasture surrounding the castle, major sheep flocks, mid-16th-century wool processing range, cloth sold in England and the Netherlands, and later debt-driven decline."
+  },
+  {
+    "sourceId": "evans-dammartin-genealogists-magazine-1965",
+    "shortTitle": "Evans, 'Dammartin' (Genealogists' Magazine 1965)",
+    "citation": "Evans, C. F. H. 'Dammartin.' The Genealogists' Magazine, vol. 15 (1965), pp. 53-63.",
+    "archive": "",
+    "url": "",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "The 'Genealogist 15 (1965)' item in Richardson's SGM 2002 bibliography, now identified as C. F. H. Evans's Dammartin article in the Genealogists' Magazine. Standard modern account of the English Dammartin family. Not yet obtained; Society of Genealogists holds the run."
   },
   {
     "sourceId": "explore-west-norfolk-harpley-st-lawrence",
@@ -2230,6 +2314,30 @@
     "mediaPath": "",
     "validationPath": "sources/validations/bho-1640-principal-inhabitants-london-deferred.md",
     "notes": "1640 alderman-return inhabitants list covering 93 of 107 City parishes. A Gurney entry at St Augustine in 1640 would be a clean midpoint between the 1638 Dale return and the 1661 poll tax cue, strengthening the case for continued London residence. Full text not yet retrieved online; copy held at British Library, Bodleian, and major research libraries."
+  },
+  {
+    "sourceId": "hasted-kent-vol4",
+    "shortTitle": "Hasted, History of Kent, vol. 4",
+    "citation": "Hasted, Edward. The History and Topographical Survey of the County of Kent, 2nd ed., vol. 4. Canterbury: W. Bristow, 1798. Addington at pp. 542-547.",
+    "archive": "User-supplied PDF (Downloads); Google Books scan",
+    "url": "",
+    "corpusStatus": "full",
+    "corpusPath": "sources/corpus_supplement/hasted-kent-vol4-addington-extract.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Cited by Richardson (SGM 2002) at pp. 544-545 for William de Gurnay of Addington, Kent. Addington descent: William de Gurnay, then Galiena de Gurnay his grandchild, then the Mandevilles, held of the Montchensies as of the manor of Swanscombe. Full searchable text at sources/corpus/hasted-kent-vol4-fulltext.txt."
+  },
+  {
+    "sourceId": "hatton-book-of-seals-1958",
+    "shortTitle": "Hatton Book of Seals (Loyd & Stenton)",
+    "citation": "Loyd, Lewis C., and Doris Mary Stenton, eds. Sir Christopher Hatton's Book of Seals. Northamptonshire Record Society 15; Oxford: Clarendon Press, 1950. Dammartin charters Nos. 332, 350, 409.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/nrs015",
+    "corpusStatus": "full",
+    "corpusPath": "sources/corpus_supplement/hatton-book-of-seals-dammartin-gurnay-extracts.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Cited by Richardson (SGM 2002) at pp. 229-230, 239-240. Charters of Manasser de Dammartin (Nos. 332, 350) and Galiena de Dammartin (No. 409) with the editors' Dammartin pedigree notes. Full searchable text at sources/corpus/hatton-book-of-seals-1958-fulltext.txt."
   },
   {
     "sourceId": "hazen-billerica-1883",
@@ -3996,6 +4104,18 @@
     "notes": "Standard scholarly compilation of source documents for the reigns of Philippe I, Louis VI le Gros, and Louis VII le Jeune (c. 1060-1180). Tome 15 contains the EPISTOLAE SUGERII ABBATIS S. DIONYSII section (starting RHGF p. 483). Letter XLVII (Louis VII to Suger, dated 1148; Chesne's edition: Suger Epistola 48, p. 508) is the primary source for Drogo de Mouchy's death on the Second Crusade: 'Super Drogone de Munci, qui mortuus est, similiter vobis mandamus quatinus hereditatem suam tamquam nostram propriam, ad nostram siquidem utilitatem, servari faciatis' -- 'Concerning Drogo de Munci, who is dead, we likewise order you to keep his inheritance as if our own, indeed for our use.' The same letter directs Suger to protect the patrimony of Reginald de Bulis (still in the East). Footnote (b) at this letter confirms Manasses de Bulis 'died in January 1148 ascending Mount Cadmus near Laodicea' on Second Crusade. Letter XXXIX (Chesne 39) on RHGF p. 496 provides additional context. The volume also contains Ivo of Chartres's letter CIX (c. 1107) condoling the Beauvais church about troubles caused by 'Drogo de Monciaco' (Drogo I, then excommunicated), with editorial footnote linking him to Drogo de Monchy-le-Châtel. Full extracted text at sources/corpus_supplement/rhgf-vol15-1878-hocr-text.md."
   },
   {
+    "sourceId": "redbook-exchequer-hall-v1",
+    "shortTitle": "Red Book of the Exchequer, vol. 1 (Hall)",
+    "citation": "The Red Book of the Exchequer (Liber Rubeus de Scaccario), ed. Hubert Hall. Rolls Series 99, vol. 1. London: HMSO, 1896.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/redbookofexchequ9911grea",
+    "corpusStatus": "full",
+    "corpusPath": "sources/corpus_supplement/redbook-exchequer-hall-v1-dammartin-gournay-cartae.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Critical edition of the 1166 cartae baronum, superseding Hearne's 1774 Liber Niger text (see liber-niger) with L.N. variants in footnotes. Carries the cartae of Manasser de Dammartin (Walter de Gornaco's quarter-fee) and Walter de Meduana (Talbot-of-Swanscombe honour, with a William de Gornaco). Full searchable text at sources/corpus/redbook-exchequer-hall-v1-fulltext.txt."
+  },
+  {
     "sourceId": "regesta-rano",
     "shortTitle": "Regesta Regum Anglo-Normannorum (Bates)",
     "citation": "Bates, David, ed. Regesta Regum Anglo-Normannorum: The Acta of William I (1066–1087). Oxford: Clarendon Press, 1998.",
@@ -4008,6 +4128,18 @@
     "notes": "Standard edition of William I's acta. Contains the 1077 St-Étienne and 1082 La Trinité Caen charter witness lists. Also the 1067 Vaudreuil charter (No. 6a)."
   },
   {
+    "sourceId": "registrum-roffense-1769",
+    "shortTitle": "Registrum Roffense (Thorpe)",
+    "citation": "Thorpe, John. Registrum Roffense: or, a Collection of Antient Records... of the Diocese and Cathedral Church of Rochester. London, 1769.",
+    "archive": "Internet Archive",
+    "url": "https://archive.org/details/registrumroffens00thor",
+    "corpusStatus": "full",
+    "corpusPath": "sources/corpus_supplement/registrum-roffense-addington-gurnay-extracts.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Prints the Rochester priory records behind DG-II p. 296 note and Richardson's Addington evidence: Galiena de Gurnay's confirmation charter, the benefaction list entry 'Willelmus de Gurnai dedit decimam de Edintune', and the episcopal confirmations. Full searchable text at sources/corpus/registrum-roffense-1769-fulltext.txt."
+  },
+  {
     "sourceId": "richardson-sgm-soc-genealogy-medieval-2002",
     "shortTitle": "Richardson SGM 2002 -- Walter not son of Gerard",
     "citation": "Richardson, Douglas. soc.genealogy.medieval (SGM) Usenet post, 11 September 2002. Corrected pedigree post archived in Google Groups thread cPiFbsyHAa8.",
@@ -4017,7 +4149,7 @@
     "corpusPath": "",
     "mediaPath": "",
     "validationPath": "",
-    "notes": "Douglas Richardson's SGM post argues, drawing on English-side feudal evidence, that Walter de Gournay (G31 in repo numbering) was not a son of Gerard de Gournay (G32) of the senior Norman baronial line. Richardson's pedigree starts from Hugh de Gournay III (G33) and treats earlier generations as tradition. The repo follows DG's contrary position; the dispute is documented at research/case-files/walter-de-gournay-as-son-of-gerard.md."
+    "notes": "Douglas Richardson's SGM post argues, drawing on English-side feudal evidence, that Walter de Gournay (G31 in repo numbering) was not a son of Gerard de Gournay (G32) of the senior Norman baronial line. Richardson's pedigree starts from Hugh de Gournay III (G33) and treats earlier generations as tradition. The repo follows DG's contrary position; the post's cited records were examined July 2026 and the record-level treatment is at research/people/g31-walter-de-gournay-fact-sheet.research.md."
   },
   {
     "sourceId": "rigler-genealogy-notes-c1980",
@@ -4666,6 +4798,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Stewkley manors. Used in Candidate A analysis."
+  },
+  {
+    "sourceId": "vch-essex-vol4",
+    "shortTitle": "VCH Essex, vol. 4",
+    "citation": "A History of the County of Essex (Victoria County History), vol. 4 (Ongar hundred). London, 1956. Norton Mandeville at pp. 150-154.",
+    "archive": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/essex/vol4/pp151-152",
+    "corpusStatus": "extract",
+    "corpusPath": "sources/corpus_supplement/vch-essex-vol4-norton-mandeville-extract.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Cited by Richardson (SGM 2002) at pp. 151-152 for Manasser de Dammartin's Norton Mandeville lands. The church section (pp. 152-154) attests Bartholomew de Dammartin and Galiena his mother granting Norton church c. 1181-90."
   },
   {
     "sourceId": "vch-glos-vol2-gaunts-hospital",

@@ -790,7 +790,7 @@
   {
     "placeId": "place-montigny-sur-andelle-normandy-france",
     "placeName": "Montigny-sur-Andelle, Normandy, France",
-    "longDescription": "Montigny-sur-Andelle parage tenure, cited by Daniel Gurney and Hannay as strong legal proof that William de Gournay I and the junior Norfolk line were of the blood of the Barons of Gournay.",
+    "longDescription": "Montigny-sur-Andelle parage tenure, cited by Daniel Gurney and Hannay as strong legal proof that William de Gournay I and the junior Norfolk line were of the blood of the Barons of Gournay. The 1259 petition of Eustace de Montigny in the Registres Olim (denied on its own request) recites that a William de Gournay held Montigny directly of the king, with a charter confirmed by Henry II.",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "historic fief / locality; exact modern site identity requires verification",
@@ -803,7 +803,7 @@
     "reviewNotes": [
       "High-priority existing place because of G30 parage tenure.",
       "Do not duplicate this record.",
-      "Locate Beugnot's Registres Olim entry and verify modern Montigny-sur-Andelle identity before coordinate upgrade.",
+      "Olim entry held via DG-II p. 293 print (Beugnot vol. 1 p. 85; petition denied, recital stands); verify on Gallica and confirm modern Montigny-sur-Andelle identity before coordinate upgrade.",
       "Bois Gautier near Montigny remains a candidate place but is not ready for canonical addition."
     ]
   },
@@ -1007,7 +1007,7 @@
   {
     "placeId": "place-suffolk-england",
     "placeName": "Suffolk, England",
-    "longDescription": "County-level record for Suffolk holdings held under Manasser de Dampmartin.",
+    "longDescription": "County-level record for the early Suffolk holding: Walter de Gournay's quarter knight's fee, granted 1135-1154 out of Manasser de Dampmartin's fee of Mendlesham (with Cotton and Wickham Skeith, Hartismere hundred) per the 1166 carta; the quarter-fee's own vill is not named, so the county umbrella stands in for it. Also covers the later-medieval Suffolk interests (the 1408 manor; Depden via the Wauncy inheritance).",
     "siteName": "",
     "streetAddress": "",
     "extantStatus": "",

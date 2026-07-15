@@ -3576,7 +3576,7 @@
         "type": "ancestor",
         "gen": "G31",
         "name": "Walter de Gournay",
-        "dates": "fl. c. 1108–1154",
+        "dates": "b. c. 1090/1104 – d. by 1166",
         "role": "landholding / property reference",
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
@@ -5081,7 +5081,7 @@
       "Montigny, Normandy"
     ],
     "shortDescription": "Parage tenure locality and junior-line proof-place",
-    "longDescription": "Montigny-sur-Andelle parage tenure, cited by Daniel Gurney and Hannay as strong legal proof that William de Gournay I and the junior Norfolk line were of the blood of the Barons of Gournay.",
+    "longDescription": "Montigny-sur-Andelle parage tenure, cited by Daniel Gurney and Hannay as strong legal proof that William de Gournay I and the junior Norfolk line were of the blood of the Barons of Gournay. The 1259 petition of Eustace de Montigny in the Registres Olim (denied on its own request) recites that a William de Gournay held Montigny directly of the king, with a charter confirmed by Henry II.",
     "placeType": "historic fief / locality",
     "extantStatus": "historic fief / locality; exact modern site identity requires verification",
     "extantStatusDescription": "The place is already represented in the repo as a medium-precision locality. Keep it as a proof-place but do not upgrade coordinate precision until the Registres Olim passage and modern place identity are verified.",
@@ -5120,7 +5120,7 @@
         "type": "ancestor",
         "gen": "G31",
         "name": "Walter de Gournay",
-        "dates": "fl. c. 1108–1154",
+        "dates": "b. c. 1090/1104 – d. by 1166",
         "role": "blood-descent proof context",
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
@@ -5267,7 +5267,7 @@
         "type": "ancestor",
         "gen": "G31",
         "name": "Walter de Gournay",
-        "dates": "fl. c. 1108–1154",
+        "dates": "b. c. 1090/1104 – d. by 1166",
         "role": "individual geography",
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
@@ -6294,8 +6294,8 @@
     "aliases": [
       "Suffolk"
     ],
-    "shortDescription": "Regional holdings context",
-    "longDescription": "County-level record for Suffolk holdings held under Manasser de Dampmartin.",
+    "shortDescription": "Quarter-fee out of the Dammartin fee of Mendlesham",
+    "longDescription": "County-level record for the early Suffolk holding: Walter de Gournay's quarter knight's fee, granted 1135-1154 out of Manasser de Dampmartin's fee of Mendlesham (with Cotton and Wickham Skeith, Hartismere hundred) per the 1166 carta; the quarter-fee's own vill is not named, so the county umbrella stands in for it. Also covers the later-medieval Suffolk interests (the 1408 manor; Depden via the Wauncy inheritance).",
     "placeType": "region",
     "extantStatus": "",
     "extantStatusDescription": "",
@@ -6320,7 +6320,7 @@
         "type": "ancestor",
         "gen": "G31",
         "name": "Walter de Gournay",
-        "dates": "fl. c. 1108–1154",
+        "dates": "b. c. 1090/1104 – d. by 1166",
         "role": "landholding / property reference",
         "lineageStatus": "Confirmed",
         "displayLineageStatus": "",
@@ -6330,9 +6330,9 @@
     "ancestorCount": 1,
     "slug": "suffolk",
     "url": "/research/places/suffolk.html",
-    "seoDescription": "County-level record for Suffolk holdings held under Manasser de Dampmartin. Linked to G31 Walter de Gournay. Research context: landholding / property reference.",
+    "seoDescription": "County-level record for the early Suffolk holding: Walter de Gournay’s quarter knight’s fee, granted 1135-1154 out of Manasser de Dampmartin’s fee of Mendlesham.",
     "researchTitle": "Suffolk (county-level)",
-    "researchMarkdown": "# Suffolk (county-level)\n\nHistoric county adjacent to Norfolk. Approximate county centroid used for structured display: **52.188, 1.005**.\n\n## Why this county matters\n\nSuffolk is a **mixed-type umbrella record** in the project. It matters for at least three different reasons:\n\n1. as the county of **Walter de Gournay's early English holdings** under **Manasser de Dampmartin** during the reign of Stephen; [DG-I]\n2. as a later county in which the family still possessed at least **one manor** by the death of Sir John Gurney in 1408; [HoP-Gurney]\n3. as the county of **Depden**, which entered the Gurney portfolio through the **Wauncy inheritance** that also brought West Barsham. [DG-II] [West Barsham file]\n\nThat means Suffolk is more historically layered than Essex, even though the place evidence is currently more dispersed and less well separated into specific manor files. [current file]\n\n## Walter de Gournay and the earliest Suffolk evidence\n\nThe earliest strong Suffolk connection belongs to **Walter de Gournay (G31)**. DG-I cites the **Liber Niger Scaccarii**, vol. i, p. 298, for Walter's holdings in Suffolk under **Manasser de Dampmartin**. This is one of the earliest documentary witnesses to Walter in England and one of the key reasons Suffolk must exist in the place library at all. [DG-I]\n\nAt present, however, the county file is standing in for more specific manors that have not yet been separated. Until the Liber Niger entry is pulled directly and the named Suffolk places identified, Suffolk should remain a **county-level placeholder for early holdings**, not a claim that the family held the whole county in any broad sense.\n\n## Later medieval Suffolk\n\nThe county reappears in the later medieval line in two ways.\n\nFirst, the **History of Parliament** biography of **Sir John Gurney (d. 1408)** notes that he died holding **one manor in Suffolk** in addition to his Norfolk property. [HoP-Gurney]\n\nSecond, **Depden, Suffolk** entered the family through the **Wauncy inheritance** that brought West Barsham into the line. This makes Suffolk part of the same inheritance geography that reshaped the family's fortunes in the late fourteenth century, even though the place-level Suffolk evidence has not yet been broken out in detail. [DG-II] [West Barsham file]\n\n## Bury St Edmunds — an important non-landholding Suffolk connection\n\nThe project also preserves a very different Suffolk association through **Bury St Edmunds** in the **Candidate B / John Gurney-1** research. That is not a documented landholding but rather a possible origin or apprenticeship setting derived from later genealogical tradition. It matters enough to note here as a **separate Suffolk connection of a different type**, while keeping it clearly distinct from the county's landed-history layer. [current file]\n\n## Interpretive note\n\nSuffolk is therefore one of the more complex county umbrellas in the library. It is neither a single clear Domesday cluster like Essex nor a full-spectrum family county like Norfolk. Instead it is a county of **scattered but important evidence points** that probably deserves eventual subdivision — especially if the Liber Niger place names and the later Suffolk manor can be identified directly. [DG-I] [HoP-Gurney] [DG-II]\n\n## Open items\n\n- [ ] Pull the **Liber Niger Scaccarii** entry and identify Walter's specific Suffolk holdings under Manasser de Dampmartin.\n- [ ] Identify the unnamed Suffolk manor in the 1408 estate of Sir John Gurney.\n- [ ] Consider a separate **Depden** place file once the Wauncy appendix is worked more fully into the library.\n- [ ] Keep Bury St Edmunds separate from the landed-history layer unless stronger evidence links it to property rather than apprenticeship/origin tradition.\n\n## Sources\n\n- Daniel Gurney, *Record of the House of Gournay*, Part I (1848), pp. 277–278. [DG-I]\n- DG-II Appendix LXIII (Wauncy family / Depden). [DG-II]\n- History of Parliament Online: Sir John Gurney, d. 1408. [HoP-Gurney]\n- `research/places/west-barsham.md`\n- `research/people/g31-walter-de-gournay-fact-sheet.research.md`\n- `research/people/g13-john-gurney-fact-sheet.research.md`"
+    "researchMarkdown": "# Suffolk (county-level)\n\nHistoric county adjacent to Norfolk. Approximate county centroid used for structured display: **52.188, 1.005**.\n\n## Why this county matters\n\nSuffolk is a **mixed-type umbrella record** in the project. It matters for at least three different reasons:\n\n1. as the county of **Walter de Gournay's early English holdings** under **Manasser de Dampmartin** during the reign of Stephen; [DG-I]\n2. as a later county in which the family still possessed at least **one manor** by the death of Sir John Gurney in 1408; [HoP-Gurney]\n3. as the county of **Depden**, which entered the Gurney portfolio through the **Wauncy inheritance** that also brought West Barsham. [DG-II] [West Barsham file]\n\nThat means Suffolk is more historically layered than Essex, even though the place evidence is currently more dispersed and less well separated into specific manor files. [current file]\n\n## Walter de Gournay and the earliest Suffolk evidence\n\nThe earliest strong Suffolk connection belongs to **Walter de Gournay (G31)**. DG-I cites the **Liber Niger Scaccarii**, vol. i, p. 298, for Walter's holdings in Suffolk under **Manasser de Dampmartin**. This is one of the earliest documentary witnesses to Walter in England and one of the key reasons Suffolk must exist in the place library at all. [DG-I]\n\nThe Liber Niger entry has now been pulled directly: Manasser de Dampmartin's 1166 return states that \"in the time of the war\" (1135–1154) he gave Walter a quarter of a knight's fee out of his own fee — the Dammartin fee of **Mendlesham**, with Cotton and Wickham Skeith nearby, in Hartismere hundred. [Red Book, ed. Hall (1896), vol. 1, pp. 409–410; DG-II p. 289; Hatton Book of Seals No. 350] The quarter-fee's own vill is not named in the return, so Suffolk remains a **county-level umbrella** for this holding — now anchored to the Mendlesham fee rather than to the county at large. A separate Mendlesham place file becomes worthwhile only if a later record localizes the quarter-fee.\n\n## Later medieval Suffolk\n\nThe county reappears in the later medieval line in two ways.\n\nFirst, the **History of Parliament** biography of **Sir John Gurney (d. 1408)** notes that he died holding **one manor in Suffolk** in addition to his Norfolk property. [HoP-Gurney]\n\nSecond, **Depden, Suffolk** entered the family through the **Wauncy inheritance** that brought West Barsham into the line. This makes Suffolk part of the same inheritance geography that reshaped the family's fortunes in the late fourteenth century, even though the place-level Suffolk evidence has not yet been broken out in detail. [DG-II] [West Barsham file]\n\n## Bury St Edmunds — an important non-landholding Suffolk connection\n\nThe project also preserves a very different Suffolk association through **Bury St Edmunds** in the **Candidate B / John Gurney-1** research. That is not a documented landholding but rather a possible origin or apprenticeship setting derived from later genealogical tradition. It matters enough to note here as a **separate Suffolk connection of a different type**, while keeping it clearly distinct from the county's landed-history layer. [current file]\n\n## Interpretive note\n\nSuffolk is therefore one of the more complex county umbrellas in the library. It is neither a single clear Domesday cluster like Essex nor a full-spectrum family county like Norfolk. Instead it is a county of **scattered but important evidence points** that probably deserves eventual subdivision — especially if the Liber Niger place names and the later Suffolk manor can be identified directly. [DG-I] [HoP-Gurney] [DG-II]\n\n## Open items\n\n- [x] Pull the **Liber Niger Scaccarii** entry and identify Walter's specific Suffolk holdings under Manasser de Dampmartin. **Done 2026-07** — quarter-fee out of the Dammartin fee of Mendlesham (Hartismere hundred); vill not named. See the Walter section above.\n- [ ] Identify the unnamed Suffolk manor in the 1408 estate of Sir John Gurney.<!-- L-230 -->\n- [ ] Consider a separate **Depden** place file once the Wauncy appendix is worked more fully into the library.<!-- L-231 -->\n- [ ] Keep Bury St Edmunds separate from the landed-history layer unless stronger evidence links it to property rather than apprenticeship/origin tradition.<!-- L-21 -->\n\n## Sources\n\n- Daniel Gurney, *Record of the House of Gournay*, Part I (1848), pp. 277–278. [DG-I]\n- DG-II Appendix LXIII (Wauncy family / Depden). [DG-II]\n- History of Parliament Online: Sir John Gurney, d. 1408. [HoP-Gurney]\n- `research/places/west-barsham.md`\n- `research/people/g31-walter-de-gournay-fact-sheet.research.md`\n- `research/people/g13-john-gurney-fact-sheet.research.md`"
   },
   {
     "placeId": "place-tower-of-london-england",

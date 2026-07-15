@@ -55,6 +55,7 @@ bho-london-inhabitants-st-augustine-1638,"BHO - Inhabitants of London 1638, St A
 bho-london-inhabitants-st-dunstan-west-1638,"BHO - Inhabitants of London 1638, St Dunstan in the West",partial,sources/corpus_supplement/bho-london-inhabitants-st-dunstan-west-1638.md,,sources/validations/bho-london-inhabitants-st-dunstan-west-1638.md
 bho-port-trade-early-elizabethan-london-richard-gurney-1567-8,"BHO - London Port Book 1567-8, Richard Gurney",partial,sources/corpus_supplement/bho-port-trade-early-elizabethan-london-richard-gurney-1567-8.md,,sources/validations/bho-port-trade-early-elizabethan-london-richard-gurney-1567-8.md
 bho-statutes-realm-1661-assessment,BHO Statutes - 1661 Assessment Act,partial,sources/corpus_supplement/bho-statutes-1661-francis-gurney.md,,sources/validations/bho-statutes-realm-1661-assessment.md
+bhrs-v7-fowler-1926,Beds. Hist. Rec. Soc. vol. 7 (Fowler on de Gournai),full,sources/corpus_supplement/bhrs-v7-fowler-gournay-note.md,,
 billerica-town-records-ms,Billerica town records (MS),extract,sources/corpus_supplement/billerica-town-records-gurney-1659-1660.md,,sources/validations/billerica-town-records-ms.md
 blomefield-norfolk,"Blomefield, History of Norfolk",none,,,
 blomefield-norfolk-vol5-pp33-cringleford-berford,"Blomefield, Norfolk vol. 5 (BHO) — Cringleford, Berford's Manor",partial,sources/corpus_supplement/blomefield-norfolk-vol5-pp33-cringleford-berford.md,,sources/validations/blomefield-norfolk-vol5-pp33-cringleford-berford.md
@@ -87,6 +88,8 @@ cleveland-battle-abbey-roll-v3-crossrefs,"Cleveland, Battle Abbey Roll vol. 3 cr
 comerford-dam-history,Frank D. Comerford Dam history (Wikipedia; North Star Monthly),none,,,
 commissary-court-london-testamentary-index-marc-fitch,commissary-court-london-testamentary-index-marc-fitch,extract,sources/corpus_supplement/commissary-court-london-gurney-testamentary-index-1626-1700.md,sources/media/commissary-court-london-testamentary-index-marc-fitch/,sources/validations/commissary-court-london-testamentary-index-marc-fitch.md
 complete-history-england-1706-v1,"A Complete History of England, vol. 1 (1706)",supplement,sources/corpus_supplement/complete-history-england-1706-v1-gurney-extracts.md,,sources/validations/complete-history-england-1706-v1.md
+cooke-mapledurham-ors7-1925,"Cooke, Early History of Mapledurham",none,,,
+copinger-manors-suffolk-v3,"Copinger, Manors of Suffolk, vol. 3",full,sources/corpus_supplement/copinger-manors-suffolk-v3-mendlesham-extract.md,,
 cpr-henry-iv-1399-1401,"Calendar of Patent Rolls, Henry IV, 1399-1401",none,,,
 cpr-henry-vi-1422-29,"Calendar of Patent Rolls, Henry VI, 1422-29",none,,,
 csm-39-boston-first-church,"CSM 39 — Records of the First Church in Boston, vol. I (1961)",none,,,sources/validations/csm-39-boston-first-church.md
@@ -123,7 +126,10 @@ edmund-divine-pcc-probate-negative,Edmund Gurney (Divine) probate search — neg
 elizabeth-stettler-walker-gurney-obituary,Elizabeth Stettler Walker Gurney Obituary (2013),none,,,
 english-heritage-baconsthorpe-castle-history,English Heritage - Baconsthorpe Castle history,partial,sources/corpus_supplement/english-heritage-baconsthorpe-castle-history.md,,sources/validations/english-heritage-baconsthorpe-castle-history.md
 english-heritage-baconsthorpe-castle-wool-factory,English Heritage - Baconsthorpe Tudor wool factory,partial,sources/corpus_supplement/english-heritage-baconsthorpe-castle-wool-factory.md,,sources/validations/english-heritage-baconsthorpe-castle-wool-factory.md
+evans-dammartin-genealogists-magazine-1965,"Evans, 'Dammartin' (Genealogists' Magazine 1965)",none,,,
 explore-west-norfolk-harpley-st-lawrence,"Explore West Norfolk - St Lawrence, Harpley",partial,sources/corpus_supplement/explore-west-norfolk-harpley-st-lawrence.md,,sources/validations/explore-west-norfolk-harpley-st-lawrence.md
+eyc8-warenne-clay-1949,"Early Yorkshire Charters, vol. 8 (Warenne)",full,sources/corpus_supplement/eyc8-warenne-gournay-extracts.md,,
+eyc9-stuteville-clay-1952,"Early Yorkshire Charters, vol. 9 (Stuteville)",full,sources/corpus_supplement/eyc9-stuteville-gournay-extracts.md,,
 faden-map-norfolk-1797-hardingham,Faden map of Norfolk - Hardingham extract,none,,sources/media/Hardingham c1790 Faden Map.png,sources/validations/faden-map-norfolk-1797-hardingham.md
 fairhaven-lester-obituary,"Lester Hayes Gurney Obituary (FairHaven, 2025)",none,,,
 familysearch-fulltext-search,FamilySearch Full-Text Search (AI-transcribed images),none,,,sources/validations/familysearch-fulltext-search.md
@@ -189,6 +195,8 @@ gurney-family-handwritten-notes-1963,Gurney family handwritten notes 1963,partia
 gurney-family-papers-g3-to-g2-certificates-clippings,Gurney family papers from G3 to G2,partial,sources/corpus_supplement/2026-gurney-family-papers-g3-to-g2-certificates-clippings.md,sources/media/gurney-family-papers-g3-to-g2-certificates-clippings/,sources/validations/gurney-family-papers-g3-to-g2-certificates-clippings.md
 hardingham-parish-history-2026,Hardingham Parish - History of Hardingham,partial,sources/corpus_supplement/hardingham-parish-history-2026.md,,sources/validations/hardingham-parish-history-2026.md
 harleian-st-vedast-st-michael-le-quern-registers,Harleian Society - St Vedast and St Michael le Quern registers,partial,,sources/media/harleian-st-vedast-st-michael-le-quern-registers,sources/validations/harleian-st-vedast-st-michael-le-quern-registers.md
+hasted-kent-vol4,"Hasted, History of Kent, vol. 4",full,sources/corpus_supplement/hasted-kent-vol4-addington-extract.md,,
+hatton-book-of-seals-1958,Hatton Book of Seals (Loyd & Stenton),full,sources/corpus_supplement/hatton-book-of-seals-dammartin-gurnay-extracts.md,,
 hazen-billerica-1883,"Hazen, History of Billerica",none,,,sources/validations/hazen-billerica-1883.md
 henry-project-matilda-flanders-gundred,Henry Project - Matilda of Flanders / Gundred,external,,,
 henry-project-william-conqueror-gundred,Henry Project - William the Conqueror / Gundred,external,,,
@@ -218,6 +226,7 @@ hrp-anne-boleyn,"Historic Royal Palaces, Anne Boleyn",none,,,sources/validations
 hull-thesis-english-way-of-war-1360-1399,"Hull PhD thesis — The English Way of War, 1360–1399",none,,sources/media/hull-thesis-english-way-of-war-1360-1399/_local/content-hull_9036a.pdf,sources/validations/hull-thesis-english-way-of-war-1360-1399.md
 hurlock-oldfield-crusading-pilgrimage-norman-2015,"Hurlock and Oldfield, Crusading and Pilgrimage in the Norman World (2015)",external,,,
 husting-wills-london-vol2-sharpe,Sharpe -- Calendar of Wills Court of Husting London Part II (1890),supplement,sources/corpus_supplement/husting-wills-london-vol2-john-heylesdon-1384.md,,
+jenkins-missenden-cartulary-v1,"Cartulary of Missenden Abbey, vol. 1 (Jenkins)",none,,,
 keates-rohan-domesday,"Keates-Rohan, Domesday People",none,,,
 laslett-world-we-have-lost-1965,"Laslett, World We Have Lost",none,,,
 lechford-note-book,Lechford's Note-Book 1638-1641,none,,,sources/validations/lechford-note-book.md
@@ -332,7 +341,9 @@ records-first-church-dorchester-1891,"Records of the First Church at Dorchester,
 recueil-actes-henri-ii-delisle-berger-introduction,"Recueil des actes de Henri II, Delisle/Berger, Introduction (1909)",full,sources/corpus_supplement/actes-henri-ii-delisle-berger-introduction-gournay-extracts.md,,sources/validations/recueil-actes-henri-ii-delisle-berger-introduction.md
 recueil-actes-henri-ii-delisle-berger-vol-1,"Recueil des actes de Henri II, Delisle/Berger, vol. 1 (1916)",full,sources/corpus_supplement/actes-henri-ii-delisle-berger-vol1-text.md,sources/media/recueildesactesd01grea.pdf,
 recueil-actes-henri-ii-delisle-berger-vol-2,"Recueil des actes de Henri II, Delisle/Berger, vol. 2 (1920)",full,sources/corpus_supplement/actes-henri-ii-delisle-berger-vol2-text.md,sources/media/recueildesactesd02grea.pdf,
+redbook-exchequer-hall-v1,"Red Book of the Exchequer, vol. 1 (Hall)",full,sources/corpus_supplement/redbook-exchequer-hall-v1-dammartin-gournay-cartae.md,,
 regesta-rano,Regesta Regum Anglo-Normannorum (Bates),none,,,
+registrum-roffense-1769,Registrum Roffense (Thorpe),full,sources/corpus_supplement/registrum-roffense-addington-gurnay-extracts.md,,
 rhgf-vol-15-1878,"Recueil des historiens des Gaules et de la France, tome 15 (1878 ed.)",full,sources/corpus_supplement/rhgf-vol15-1878-hocr-text.md,sources/media/rhgf-vol15-1878.pdf,
 richardson-sgm-soc-genealogy-medieval-2002,Richardson SGM 2002 -- Walter not son of Gerard,external,,,
 rigler-genealogy-notes-c1980,"Rigler genealogy notes (worksheets, c. 1980)",partial,sources/corpus_supplement/rigler-genealogy-notes-c1980-worksheets-extract.md,sources/media/rigler-genealogy-notes-c1980/,sources/validations/rigler-genealogy-notes-c1980.md
@@ -388,6 +399,7 @@ us-census-1940,"U.S. Federal Census, 1940",none,,,
 us-public-records-1970-2009,"U.S. Public Records, 1970-2009",none,,,
 vch-bucks-v3,VCH Bucks v3 (Stewkley manors),none,,,
 vch-bucks-vol2-bledlow,VCH Buckinghamshire vol. 2 - Bledlow,none,,,sources/validations/vch-bucks-vol2-bledlow.md
+vch-essex-vol4,"VCH Essex, vol. 4",extract,sources/corpus_supplement/vch-essex-vol4-norton-mandeville-extract.md,,
 vch-glos-vol2-gaunts-hospital,"VCH Gloucestershire vol. 2 - Gaunt's Hospital (St Mark, Billeswick)",none,,,sources/validations/vch-glos-vol2-gaunts-hospital.md
 vch-hants-vol4-wellow-gurnay,VCH Hampshire vol. 4 - East Wellow / Wellow Gurnay,none,,,sources/validations/vch-hants-vol4-wellow-gurnay.md
 visitations-norfolk-harleian-32,Visitations of Norfolk 1563/1589/1613 (Harleian Soc. 32),none,,,sources/validations/visitations-norfolk-harleian-32.md
