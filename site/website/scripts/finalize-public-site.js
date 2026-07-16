@@ -383,6 +383,22 @@ function validatePublicOutput(publicHtmlFiles) {
   }
 }
 
+function finalizeNotFoundPage(file) {
+  if (!fs.existsSync(file)) return;
+  let html = fs.readFileSync(file, "utf8");
+  // Force noindex (the layout emits index,follow) so the error page never
+  // competes for indexing.
+  if (/<meta\b[^>]*\bname=["']robots["'][^>]*>/i.test(html)) {
+    html = html.replace(/<meta\b[^>]*\bname=["']robots["'][^>]*>/i, '<meta name="robots" content="noindex">');
+  } else {
+    html = html.replace(/<\/head>/i, '  <meta name="robots" content="noindex">\n</head>');
+  }
+  // Drop the self-canonical the normalizer added; a canonical to a
+  // non-existent /404 route is meaningless on an error page.
+  html = html.replace(/\s*<link\b[^>]*\brel=["']canonical["'][^>]*>\s*/gi, "\n");
+  fs.writeFileSync(file, html);
+}
+
 if (!fs.existsSync(siteDir)) {
   console.error("Cannot finalize public site: _site/ does not exist.");
   process.exit(1);
@@ -390,14 +406,27 @@ if (!fs.existsSync(siteDir)) {
 
 removePrivateOutputs();
 
-const publicHtmlFiles = walkFiles(siteDir, file => file.endsWith(".html"))
+const notFoundRelPath = "404.html";
+const allHtmlFiles = walkFiles(siteDir, file => file.endsWith(".html"))
   .filter(file => !privateOutputPaths.has(toPosix(path.relative(siteDir, file))));
+// The 404 page is a real styled page, but it must never be indexed, listed in
+// the sitemap/llms.txt, treated as a redirect source, or held to the public
+// canonical contract. Cloudflare Pages serves /404.html with a genuine 404
+// status for any request that matches no static asset or redirect rule, which
+// is what replaces the soft-404 (homepage-with-200) fallback.
+const publicHtmlFiles = allHtmlFiles
+  .filter(file => toPosix(path.relative(siteDir, file)) !== notFoundRelPath);
 const publicPaths = publicPathSet(publicHtmlFiles);
 
-publicHtmlFiles.forEach(file => normalizeHtmlFile(file, publicPaths));
+// Normalize every emitted page (including 404) so its internal links are
+// rewritten to the extensionless public shape; publicPaths is the link-target
+// allowlist. The 404 page is then demoted to noindex with its canonical dropped.
+allHtmlFiles.forEach(file => normalizeHtmlFile(file, publicPaths));
+finalizeNotFoundPage(path.join(siteDir, notFoundRelPath));
+
 fs.writeFileSync(path.join(siteDir, "_redirects"), buildRedirectRules(publicHtmlFiles));
 generateSitemap(publicHtmlFiles);
 generateLlmsTxt(publicHtmlFiles);
 validatePublicOutput(publicHtmlFiles);
 
-console.log(`Finalized public site: ${publicHtmlFiles.length} public HTML pages, ${path.relative(projectRoot, path.join(siteDir, "sitemap.xml")).replace(/\\/g, "/")}, _redirects, and llms.txt.`);
+console.log(`Finalized public site: ${publicHtmlFiles.length} public HTML pages, ${path.relative(projectRoot, path.join(siteDir, "sitemap.xml")).replace(/\\/g, "/")}, _redirects, llms.txt, and 404.html.`);
