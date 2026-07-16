@@ -16,7 +16,7 @@ The later structured links to the Tudor family also matter here. Henry Gurney's 
 
 | Ancestor | Gen | Period | Notes |
 |---|---|---|---|
-| Walter de Gournay | G31 | fl. c. 1108–1154 | Held as mesne lord under the senior line |
+| Walter de Gournay | G31 | b. 1090×1104 – d. 1150×1166 | Attribution to Walter himself uncertain — Daniel Gurney: "It does not appear whether Walter de Gournay held the manors of Swathings and Hingham Gurney's, possessed by his descendants" (Record Part II p. 288); the manors are first securely documented with his son William |
 | William de Gournay I | G30 | fl. c. 1150–1180 | Lord of Swathings manor |
 | Sir Matthew de Gournay | G29 | fl. c. 1180–1220 | Gave tithes of Hardingham to the parish church |
 | William de Gournay II | G28 | fl. c. 1210–1250 | |

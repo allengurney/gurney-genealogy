@@ -1658,15 +1658,17 @@
     "aliases": [
       "Montigny-sur-Andelle",
       "Montigny sur Andelle",
-      "Montigny, Normandy"
+      "Montigny, Normandy",
+      "Montagny (Nolléval)",
+      "Montigny-en-Bray"
     ],
     "shortDescription": "Parage tenure locality and junior-line proof-place",
     "placeType": "historic fief / locality",
     "coordinate": {
-      "lat": 49.327,
-      "lng": 1.352
+      "lat": 49.4879,
+      "lng": 1.4807
     },
-    "coordinatePrecision": "medium",
+    "coordinatePrecision": "high",
     "roles": [
       "landholding / property reference",
       "parage tenure",

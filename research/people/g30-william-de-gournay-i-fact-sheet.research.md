@@ -41,6 +41,11 @@ Source: Walter Map, *De Nugis Curialium* (published by the Camden Society, 1850,
 ### Knight designation
 2026-04-18 — The ancestor table notes William was designated "Dominus Willelmus de Gurney," which implies knightly status. "Dominus" was the standard Latin designation for a knight in this period. This is notable because it shows the junior branch maintained gentry status despite being younger sons — not just landholders but recognized knights.
 
+### Missenden attestation — William inside the Dammartin circle (1150×1178)
+William witnessed a confirmation charter of Manasser de Dammartin and his wife Galiena for Missenden Abbey, signing "Willelmo de Gornaio" among the lay witnesses (with three Dammartin kinsmen — Aubrey, William, and Alan — and Graelend de Tany, who had co-witnessed with William's father Walter in 1150). The charter, datable 1150×1178 (Manasser died 1178/9), names the grantors' sons "Bartholomew our son and heir, and Odo and Hamo and William our sons." This is a previously unrecorded attestation of William, and it corroborates the 1166 return's "now William his son holds that part": William stood inside the affinity of the lord whose Suffolk quarter-fee he had taken over from Walter. Full context (the 1150 parent charter Walter witnessed, and the 1257/8 Galiena II quitclaim tracing the same hide) is on the [Walter de Gournay companion](g31-walter-de-gournay-fact-sheet.research.md).[^missenden-william-g30]
+
+[^missenden-william-g30]: J. G. Jenkins, ed., *The Cartulary of Missenden Abbey*, vol. 1 (Buckinghamshire Record Society 2, 1938), pp. 70–75; full text via the University of Toronto DEEDS database, document 00130070, https://deeds.utsc.utoronto.ca/charters/00130070 (assigned 1150–1178). Extract: sources/corpus_supplement/missenden-cartulary-dammartin-charters-deeds-transcripts.md. Source ID: `jenkins-missenden-cartulary-v1`.
+
 ---
 
 ## Landholdings

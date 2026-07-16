@@ -32,6 +32,7 @@ bardsley-english-welsh-surnames-1901,"Bardsley, Dictionary of English & Welsh Su
 bartlett-bartletts-of-weymouth-1892,"Bartlett, The Bartletts of Weymouth (1892)",partial,sources/corpus_supplement/bartlett-bartletts-of-weymouth-1892-gurney-extract.md,,
 bates-ancient-iron-works-braintree-1898,"Bates, Ancient Iron Works at Braintree",none,,,sources/validations/bates-ancient-iron-works-braintree-1898.md
 bauduin-franchises-normandie-orientale-2001,"Bauduin, Trois cas de peuplement en franchises",none,,,
+beaurepaire-dict-topo-seine-maritime-1982,"Beaurepaire & Laporte, Dictionnaire topographique de la Seine-Maritime",supplement,sources/corpus_supplement/dicotopo-seine-maritime-bois-gautier-montigny-massy.md,,
 benjamin-gurney-harden-research-tables-2026-04,Benjamin Gurney / Harden research tables (2026-04),captured,sources/corpus_supplement/benjamin-gurney-harden-research-tables-2026-04.md,,sources/validations/benjamin-gurney-harden-research-tables-2026-04.md
 bho-1640-principal-inhabitants-london-deferred,"Harvey - List of the Principal Inhabitants of the City of London, 1640 (deferred)",deferred,,,sources/validations/bho-1640-principal-inhabitants-london-deferred.md
 bho-beaven-aldermen-richard-gourney-1589-1597,"BHO - Beaven aldermen, Richard Gourney",partial,sources/corpus_supplement/bho-beaven-aldermen-richard-gourney-1589-1597.md,,sources/validations/bho-beaven-aldermen-richard-gourney-1589-1597.md
@@ -180,6 +181,7 @@ gaillefontaine-official-history,Gaillefontaine official history,none,,,
 gancourt-saint-etienne-bulletin-2023,Gancourt-Saint-Etienne municipal bulletin 2023,none,,,
 gascon-rolls-project,The Gascon Rolls Project (1317-1468),none,,,sources/validations/gascon-rolls-project.md
 genuki-hardingham-white-1845,"GENUKI - Hardingham, White 1845",partial,sources/corpus_supplement/genuki-hardingham-white-1845.md,,sources/validations/genuki-hardingham-white-1845.md
+gervers-st-john-secunda-camera-1982,"Gervers, Cartulary of the Knights of St John, Secunda Camera (Essex)",supplement,sources/corpus_supplement/gervers-st-john-galiena-de-gurnay-norton-charter.md,,
 ggm-benefice-harpley-church-history,GGM Benefice - Harpley Church History,partial,sources/corpus_supplement/ggm-benefice-harpley-church-history.md,,sources/validations/ggm-benefice-harpley-church-history.md
 ggm-benefice-harpley-rectors,GGM Benefice - Harpley Register of Rectors,partial,sources/corpus_supplement/ggm-benefice-harpley-rectors-edmund-gurnay.md,,
 gibson-dell-protestation,"Gibson & Dell, Protestation Returns guide",none,,,
@@ -226,11 +228,12 @@ hrp-anne-boleyn,"Historic Royal Palaces, Anne Boleyn",none,,,sources/validations
 hull-thesis-english-way-of-war-1360-1399,"Hull PhD thesis — The English Way of War, 1360–1399",none,,sources/media/hull-thesis-english-way-of-war-1360-1399/_local/content-hull_9036a.pdf,sources/validations/hull-thesis-english-way-of-war-1360-1399.md
 hurlock-oldfield-crusading-pilgrimage-norman-2015,"Hurlock and Oldfield, Crusading and Pilgrimage in the Norman World (2015)",external,,,
 husting-wills-london-vol2-sharpe,Sharpe -- Calendar of Wills Court of Husting London Part II (1890),supplement,sources/corpus_supplement/husting-wills-london-vol2-john-heylesdon-1384.md,,
-jenkins-missenden-cartulary-v1,"Cartulary of Missenden Abbey, vol. 1 (Jenkins)",none,,,
+jenkins-missenden-cartulary-v1,"Cartulary of Missenden Abbey, vol. 1 (Jenkins)",supplement,sources/corpus_supplement/missenden-cartulary-dammartin-charters-deeds-transcripts.md,,
 keates-rohan-domesday,"Keates-Rohan, Domesday People",none,,,
+keats-rohan-domesday-descendants-2002,"Keats-Rohan, Domesday Descendants",supplement,sources/corpus_supplement/keats-rohan-domesday-descendants-p492-gournay-snippets.md,,
 laslett-world-we-have-lost-1965,"Laslett, World We Have Lost",none,,,
 lechford-note-book,Lechford's Note-Book 1638-1641,none,,,sources/validations/lechford-note-book.md
-les-olim,Les Olim (French legal records),none,,,
+les-olim,Les Olim (French legal records),supplement,sources/corpus_supplement/les-olim-beugnot-tome1-p85-montigny-verification.md,,
 letters-papers-henry-viii,"Letters and Papers, Foreign and Domestic, Henry VIII",none,,,sources/validations/letters-papers-henry-viii.md
 liber-niger,Liber Niger Scaccarii,none,,,
 lma-st-augustine-watling-register-candidate-d-images,LMA St Augustine Watling Street register - Candidate D images,partial,,sources/intake/archive/john-gurney-2026May/john-gurney-candidate-d-working-packet-audited-v13.md,sources/validations/lma-st-augustine-watling-register-candidate-d-images.md
