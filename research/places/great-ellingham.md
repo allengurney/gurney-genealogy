@@ -184,5 +184,20 @@ The "1641" trigger is Edward Gourney's August 1641 death (West Barsham chancel m
 
 The printed antiquarian descent (Armstrong, Blomefield) is corroborated at parcel level by the manorial court rolls themselves. The Buckenham manor-court rolls ("Lathes, Close, Castle and Buckenham Priory, 1595–1847"), which carried copyhold business for land in Great Ellingham, preserve **Henry Gurney (G15)'s holding as a recurring boundary abuttal** in 18th–19th-century admissions: the south side of the copyhold **Tenement Bovells**, by Town Green, is "the lands formerly of Henry Gurney Esqr late of Robert Morley and afterwards of Hannah Sprall," and a separate close is "formerly of Henry Gurney Esqr late of Sir Roger Potts Bart, called **Lay Close**." The parcels therefore descended out of the family **Gurney → Morley (the chief lord) → Sprall/Snell** (the Tenement Bovells land) and **Gurney → Sir Roger Potts** (Lay Close) — the same Morley/Potts names Armstrong gives for the manor as a whole, now fixed to specific closes. No Gurney holder is named between G15 and a later **Joseph Gurney** admitted in 1788 (a distinct, later man), so no continuing direct-line copyhold at Great Ellingham is visible after Henry. Verbatim recitals and arks are gathered in [`sources/corpus_supplement/great-ellingham-manorial-henry-gurney-closes-2026-06.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/great-ellingham-manorial-henry-gurney-closes-2026-06.md).[^buckenham-manorial-gurney]
 
+## Unfilmed manorial archive at the Norfolk Record Office (mapped July 2026)
+
+The earlier "manorial routes exhausted" judgment was true only of the FamilySearch films —
+the original manorial archive survives richly, unfilmed. At the NRO (Walsingham collection):
+court rolls 1556–1621 (WLS V/16–17); a draft court roll 1585–99 (WLS V/19); **a court book
+1605–1755 (WLS V/21) covering Henry Gurney G15's death (1621×23)** — his death presentment
+and the heir admissions, including any of Francis G14, would sit here if the family held
+copyhold, making this the single best paternal-line unlock; a court roll 1627–28
+(WLS V/18); an extent of 1608 (WLS V/28); a 15th-century terrier (WLS V/24); and an
+abstract of court records 1605–1792 (WLS XXIII/17). Cambridge University Library (Buxton
+Papers 51/5–8) holds Great Ellingham court rolls 1421–22, and Bodleian MS. Tanner 95 f.98
+is a 17th-century survey.<!-- leads L-140, L-241 -->[^ge-mdr]
+
+[^ge-mdr]: TNA Discovery / Manorial Documents Register catalogue rows for Great Ellingham manorial records (API sweep, 2026-07-16); pieces held at the Norfolk Record Office (Walsingham collection), Cambridge University Library (Buxton Papers; not item-indexed in ArchiveSearch), and the Bodleian Library, as listed. Catalogue level only — the originals are unexamined. Discovery is the access route; the MDR entries are the source.
+
 [^buckenham-manorial-gurney]: Buckenham manorial court rolls ("Lathes, Close, Castle and Buckenham Priory, 1595–1847"), FamilySearch Full-Text Search collection "England, Norfolk, Legal," films DGS 004389549 and 004389550; boundary recitals "formerly of Henry Gurney Esqr late of Robert Morley and afterwards of Hannah Sprall" (Tenement Bovells, e.g. admissions 1751 ark `3:1:S3HT-DW22-RD`, 1813 ark `3:1:S3HT-D474-YHZ`) and "formerly of Henry Gurney Esqr late of Sir Roger Potts Bart, called Lay Close" (1787 ark `3:1:S3HT-D474-1LL`). Full extracts: `sources/corpus_supplement/great-ellingham-manorial-henry-gurney-closes-2026-06.md`. Surfaced June 2026 via a no-date-filter "Ellingham Magna" Full-Text pull. Source ID: `familysearch-fulltext-search`.
 [^v71-armstrong-great-ellingham]: Mostyn John Armstrong, *The History and Antiquities of the County of Norfolk*, vol. 8 (Norwich, 1781), Shropham Hundred — Great Ellingham capital manor + rectory mediety entries. Internet Archive item `bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_8`. Source ID: `armstrong-norfolk-1781`.

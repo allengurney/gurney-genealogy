@@ -1084,7 +1084,8 @@
       "publisher": "Ancestry.com / Norfolk Record Office",
       "type": "parish register index and images (subscription)",
       "url": "https://www.ancestry.com/search/collections/61045/",
-      "notes": "Used 2026-05-11 for the Norfolk Gurney baptism roster 1615-1645 (14 baptisms across ten households) and to image-verify the Denton 12 Aug 1638 Mary Gurney baptism. NRO indexer reads the Denton 1638 father as Josiah Gurney, disagreeing with FS England B&C and Findmypast UK Parish Baptisms which read the same register entry as father John Gurney."
+      "mediaPath": "sources/media/garveston-parish-register-fts/README.md",
+      "notes": "Image-backed NRO register collection (dbid 61045); for covered parishes it is the Ancestry image route the index-only FamilySearch NRO collection lacks, though its indexing is parish/era-partial (Garveston indexing lapses mid-1580s-1651 while the images run complete to 1675). Used 2026-05-11 for the Norfolk Gurney baptism roster and the Denton 1638 baptism (NRO indexer reads father Josiah vs FS/FMP John), and 2026-07-16 for the Garveston/Gressenhall/Wymondham Rivet and Podmer censuses and the pre-1586 Garveston register leaves."
     },
     "spr-case-338-john-gurney-probate-1663": {
       "shortTitle": "SPR Case #338 - John Gurney probate inventory",
@@ -4675,6 +4676,28 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "The NRO's public catalogue: per-item descriptive rows for the office's fonds, including per-will NCC index rows (with parish and year) and deed-level rows across family and estate collections. Search URL pattern: /index.php/informationobject/browse?query=%22<term>%22&topLod=0&page=N (15 rows/page). Cited for catalogue-row evidence; the described originals remain unexamined unless separately pulled."
+    },
+    "fs-whinburgh-with-members-court-rolls": {
+      "shortTitle": "FamilySearch - Whinburgh-with-Members manorial court rolls, 1595-1790",
+      "citation": "Manor of Whinburgh-with-Members (Norfolk), manorial court rolls on the part of Garvestone, Reymerston, Thuxton, Mattishall and Yaxham, 1595-1790; originals at the Norfolk Record Office, microfilmed 1991. FamilySearch catalog record koha:439083: court rolls 1595-1663 and 1743-1755 = British Film 1472614 = DGS 004389244; 1664-1743 = Film 1472654 = DGS 004389566; 1756-1790 = Film 1702191 = DGS 004395112.",
+      "archive": "FamilySearch International / Norfolk Record Office",
+      "url": "https://www.familysearch.org/en/search/catalog/439083",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": "sources/media/fs-whinburgh-with-members-court-rolls/",
+      "validationPath": "sources/validations/fs-whinburgh-with-members-court-rolls.md",
+      "notes": "The manor whose courts governed Garveston copyhold - the heir-naming record class for the Rivett maternal-kin questions - with Gurney tenants in its orbit (a 1639-headed leaf; a 1754 entry). Full-text name-extraction on the films is proven partial, so film-scoped full-text negatives are meaningless. The richer unfilmed classes (surrenders and admissions 1564-1800, NRS 21256-21355; rough court books) remain at the NRO. Whinburgh was a Bardolf caput manor held as parcel of the barony of Gurnay."
+    },
+    "grigson-garveston-register-transcripts": {
+      "shortTitle": "Grigson, Garveston parish register transcripts, 1538-1845",
+      "citation": "Francis Grigson, Garveston parish register transcripts, 1538-1845 (Church of England parish churches of Garvestone and Thuxton); microfilm of the original typescript at the Norfolk Record Office. FamilySearch catalog record koha:586425, British Film 1702622 items 11-12 = DGS 004115503.",
+      "archive": "FamilySearch International / Norfolk Record Office",
+      "url": "https://www.familysearch.org/en/search/catalog/586425",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/grigson-garveston-register-transcripts.md",
+      "notes": "Nineteenth-century antiquarian fair copy bridging every gap in the surviving Garveston register, including burials after 1625; the extraction source behind the IGI's later Garveston rows (the 1584 Rivet-Podmer marriage; the 1626 Elizabeth Rivet burial). Digitized but access-restricted ('not currently digitally accessible') - readable from a FamilySearch Center or via NRO reproduction; the online catalog row exposes index search only."
     }
   }
 }

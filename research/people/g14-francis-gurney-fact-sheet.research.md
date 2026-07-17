@@ -100,16 +100,20 @@ Pettigrew's digest of DG gives a useful public-domain restatement of Francis Gur
 
 The same section connects Francis to the later commercial Gurneys without making them part of the American-line proof. Francis's second son Francis of Maldon had an eldest son John, born in 1655, apprenticed to Daniel Gilman of Norwich, who entered the silk trade, married Elizabeth Swanton, became a Quaker, suffered imprisonment at Norwich in 1683/4, and laid the commercial foundation of the Gurneys of Keswick. This is useful background for the Norfolk textile/commercial world around Candidate B, but it is not direct evidence that John Gurney-1 of Braintree was Francis's son.[^pettigrew-francis-g14]
 
-### First wife — Margaret Rybett = Margaret Rivet of Garveston
+### First wife — Margaret Rybett = a Margaret Rivet of Garveston
 
-Francis's first wife, married at St Martin at Palace, Norwich on 23 September 1611, is
-identified at index level as **Margaret Rivet, baptized 21 May 1586 at Garveston, Norfolk,
-daughter of Francis Rivet** — a mid-Norfolk family in the parishes adjoining East Dereham,
-where Francis then settled. Full treatment, evidence, and the controlling negatives are on
+Francis's first wife, married at St Martin at Palace, Norwich on 23 September 1611, is a
+**Margaret Rivet of Garveston, Norfolk** — a mid-Norfolk family in the parishes adjoining
+East Dereham, where Francis then settled. Two register-attested Garveston baptisms compete
+for her (working weights ~55/40): **21 May 1586, daughter of Francis Rivet**, and
+**1 February 1577/8, daughter of Robert Rivet** — the latter a full sister of Richard Ryvett
+of Gressenhall, after whom John G13's son Richard may be named. Full treatment, the weighing
+of the candidates, and the controlling negatives are on
 [`research/people/rivett-family-of-garveston.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/rivett-family-of-garveston.md);
 the marriage venue (St Martin at Palace) reflects neither family's baptismal parish in the
-indexes and is best read as a neutral Norwich church, not evidence of residence. Probable, not
-proven.<!-- discovery trail: lead L-128 -->
+indexes and is best read as a neutral Norwich church, not evidence of residence — though
+whether Margaret was living or in service in Norwich by 1611 is an open question. Probable
+at the family level, not proven at the candidate level.<!-- discovery trail: lead L-128 -->
 
 ### Lestrange household references
 

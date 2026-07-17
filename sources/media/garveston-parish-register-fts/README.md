@@ -13,3 +13,13 @@ Sequential viewer pages `image (17).jpg` … `image (45).jpg` (batch 1, ~1538–
 | `image (26).jpg` / `image (27).jpg` | A Rivet child of Robert, christened October 1571 (forename Miles/Milius, day uncertain) |
 
 The burial section (1561–1625) and the c.1615–1640 pages were read for a Margaret Rivet/Gurney burial and any Gurney entry; neither was found. Batch-2 pages added no further Rivett or Gurney entry. The bulk of the register is unrelated Garveston families. Read June 2026 (paleography packets 19 and 22).
+
+## `_local/61045/` (not committed)
+
+The **same register book served through Ancestry's image-backed NRO collection** (dbid 61045; sourceId `ancestry-norfolk-1535-1812`), piece "Garveston 1538–1675" (69 images; file suffix = viewer image number + 529). Ancestry subscription content — kept off GitHub. Pulled July 2026:
+
+| Image | Content |
+|---|---|
+| `garveston-register-61045-4033226_00537.jpg` | The *Anno Dni 1569/1570* opening — expert-read (packet 50): **no Rivet child visible at 24 Oct 1569** (the indexed "Pagnell Rivet" does not resolve against this leaf) |
+| `garveston-register-61045-4033226_00540.jpg` | The *1576/1577/1578* opening — expert-read (packet 50): **"Margarett Rivet daughter of Robt christened first of ffebruarie"** (1 Feb 1577/8) and **"Richard Rivet ye sonne of Robt"** (30 Nov 1575), the competing-candidate and Gressenhall-origin entries |
+| `garveston-register-61045-4033226_00583.jpg` | Marriages 1599–1603 (calibration leaf for locating the 2 Jul 1584 Rivet×Podmer marriage, which falls at piece-images 52–54 = `00580`–`00582`, not yet pulled) |
