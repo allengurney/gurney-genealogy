@@ -108,3 +108,15 @@ Append durable, reusable paleography lessons here after manuscript-analysis task
 - Gurney/Gournay variants or false friends: Image-supported `John Gurny` on manuscript p. 12 and `John Gurnie` on pp. 23 and 31.
 - Reading lesson: Nash's printed page references are locator numbers, not manuscript foliation. In this film, the three early-grantee clauses are on manuscript pp. 12, 23, and 31; the staged run ends at p. 32 before the separate 1636 and 1651–52 lists.
 - Avoid next time: Do not infer a 1643 date from Nash's appendix heading or a 1651–52 entry from the printed edition when the manuscript heading and continuation images are absent.
+
+## 2026-07-16 - Whinburgh court rolls, Garveston Grigson transcript, and East Dereham returns
+
+- Scope: Packets 41-45 paleography staging review.
+- Source/image range: Whinburgh DGS 004389244 targets and calibrations; Garveston Grigson transcript DGS 004115503; East Dereham PD 86/41 images 00725-00734; Norwich probate inventory and NCC registered-will targets.
+- Document type and date range: Manor court rolls, parish-register transcript, combined annual parish returns, probate inventory, and registered will, 1456-1648.
+- Hand or scribe: Mixed Latin/court hand, English register hand, and high-reduction microfilm.
+- Useful enhancement: Full-page grids first; for dense court/will pages, split by page/column before making token crops.
+- Comparator words: East Dereham annual-return headers and visible `Burials`; Whinburgh visible court-date headings; Stephen Gurney inventory room headings.
+- Gurney/Gournay variants or false friends: File slugs and FamilySearch machine dates can point at the wrong visible court date; a Gurney-like full-text hit in a Latin will is not automatically a person-name.
+- Reading lesson: Confirm catalog access, visible headings, and page-section exposure before transcription. A digitally restricted catalog row or a page that shows only christenings/marriages cannot support an image-based burial negative.
+- Avoid next time: Do not treat a staged filename, FTS date, or index-only FamilySearch access as a substitute for the manuscript image and its visible heading/section.

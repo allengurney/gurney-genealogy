@@ -273,11 +273,11 @@ Palmer's *Perlustration of Yarmouth* (1872) dates the Caister acquisition to 107
 | Name | Dates | Mother | Status | Notes |
 |---|---|---|---|---|
 | Hugh de Gournay IV | [1098/1100] (FMG) or c. 1091 (Richardson, "of full age 1112") – 1180 (or 1185 per Pattou variant) | Edith de Warenne | **Confirmed** | Senior baron line. SGM Richardson's c. 1091 birth ties to the Henry I wardship narrative (raised at the king's court during minority); FMG's [1098/1100] is the more recent reading. Both positions defensible. Crusader 1147 (Louis VII expedition). |
-| Walter de Gournay | fl. c. 1108–1154; held lands in Suffolk under the Dammartins in Stephen's reign | Edith de Warenne | **G31 in repo direct line; identification editorial choice** | Position assumed: DG view (son of Gerard, paragium tenure of Suffolk lands). See §3.1. |
+| Walter de Gournay | b. 1090×1104 – d. 1150×1166; held lands in Suffolk under the Dammartins in Stephen's reign | Edith de Warenne | **G31 in repo direct line; identification editorial choice** | Position assumed: DG view (son of Gerard, paragium tenure of Suffolk lands). See §3.1. Dates per the corrected bracket on the G31 companion (Note 104 arithmetic; witness 1150; son holds the quarter-fee 1166). |
 | Gundred de Gournay | [1100/1105] – after 1155 | Edith de Warenne | **Confirmed** | Married Nigel d'Aubigny (Albini) Jun 1118, marriage arranged with Henry I's counsel (Orderic). Mother of Roger de Mowbray (~1188). Henri (younger son, ancestor of Albini of Cainho per Planché). 1130 Pipe Roll Leicestershire: "Gunderede uxori Nig de Albin." |
 | Gerard (eldest son) | died *vit. pat.* | Edith de Warenne | **DG-I p. 277 pedigree only** | The figure resolving the "1097 Nicaea" death-date confusion in some secondary sources. Not in FMG. |
-| (Renaud — possible) | c. 1100? – ? | unknown | **Local-tradition mention, not adopted** | Potin 1842 p. 124: *"Quelques historiens donnent à Girard un autre fils nommé Renaud de Gournay qui lui-même eut un fils du nom de Hugues."* Not in DG, FMG, or Pattou main chart. |
-| (Amicie — see §3.2) | before [1085] – after 1100 | first wife (?) per FMG / Pattou preferred reading | **Open** | m. Richard Talbot. Mother of Hugh and William Talbot per Henry II charters [1181/83] and 1189. |
+| Renaud — possible | c. 1100? – ? | unknown | **Local-tradition mention; on the fact sheet as possible only (promoted July 2026)** | Potin 1842 p. 124: *"Quelques historiens donnent à Girard un autre fils nommé Renaud de Gournay qui lui-même eut un fils du nom de Hugues."* Transmitted by DG 1845 (Record Part I p. 69, "M. De La Mairie says … some authors give to Gerard another son, Renaud") and Pettigrew 1871 pp. 185–186 ("another son Renaud has been ascribed to him"). Not in DG's pedigree, FMG, or Pattou main chart; no contemporary record. The Renaud-with-a-son-Hugh pairing mirrors the 10th-century Renaud (G35, whose elder son was Hugues I) — the tradition may be a displaced echo of that earlier pair (hypothesis). |
+| Amicie — see §3.2 | before [1085] – after 1100 | first wife (?) per FMG / Pattou preferred reading | **Open on parentage; on the fact sheet with the preferred earlier-wife reading (promoted July 2026)** | m. Richard Talbot. Mother of Hugh and William Talbot per Henry II charters [1181/83] and 1189 (Delisle–Berger Tome II acts DCXXXVI, DCCLXVIII — primary texts in repo). Name Amicie from those charters; DG knew her only as an unnamed daughter and assigned her to Edith. |
 
 ---
 
@@ -408,11 +408,13 @@ Drogo II is not a Gournay by blood but he is half-brother to Hugh de Gournay (IV
 
 4. **The eldest-son Gerard**: DG-I p. 277 names him; FMG silent. Retained per DG.
 
-5. **The Renaud / "another son" mention**: Potin 1842 attributes to "some historians" without naming them; not in major secondary literature; not adopted.
+5. **The Renaud / "another son" mention**: Potin 1842 attributes to "some historians" without naming them; not in major secondary literature. Placed on the fact-sheet children table in July 2026 as a possible child with the local-tradition-only caveat (see §7); the tradition's Renaud-with-a-son-Hugh shape may be a displaced echo of the 10th-century Renaud (G35).
 
-6. **The 1082 Caen charter signature requires Gerard adult**: this is the lower-bound chronological constraint that rules out Pattou's "~1073" birth date. Pattou's 1073 should be flagged as a chart-typesetting error not adopted.
+6. **Keats-Rohan's dissent on Gerard's death**: *Domesday Descendants* (2002), p. 492 (snippet capture, July 2026; full page unread), has Gerard dying "before Jerusalem was taken in 1099," citing Robert of Torigny's interpolations in Jumièges, with his wife accompanying him "on the First Crusade" — reading the *Hierosolymam petens* passage as the crusade journey itself. This conflicts with the reading followed here (Orderic places Gerard at Nicaea after May 1097; the St-Sauveur roll shows him alive in/about 1104; Clay, EYC 8, pp. 6–7: "died not earlier than 1104"). The documentary 1104 anchor outweighs the compressed prosopography entry, but the dissent should be acknowledged if the death window is ever revisited. Her Gerard entry's issue clause, as captured, names only "Hugh II de Gournay and Gundreda" — silent on Walter either way. Snippet capture: sources/corpus_supplement/keats-rohan-domesday-descendants-p492-gournay-snippets.md. Source ID: `keats-rohan-domesday-descendants-2002`.
 
-7. **Cartulary of La Trinité de Rouen, Charter No. 94** (Gerard's seal "Signum Girardi de Gornaco"): the Deville edition (Tome III of *Cartulaires de France*) is publicly accessible but the repo has not yet inspected it directly.
+7. **The 1082 Caen charter signature requires Gerard adult**: this is the lower-bound chronological constraint that rules out Pattou's "~1073" birth date. Pattou's 1073 should be flagged as a chart-typesetting error not adopted.
+
+8. **Cartulary of La Trinité de Rouen, Charter No. 94** (Gerard's seal "Signum Girardi de Gornaco"): the Deville edition (Tome III of *Cartulaires de France*) is publicly accessible but the repo has not yet inspected it directly.
 
 ---
 

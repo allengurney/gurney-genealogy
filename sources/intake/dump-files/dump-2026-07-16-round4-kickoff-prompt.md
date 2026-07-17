@@ -1,0 +1,24 @@
+# Round-4 kickoff prompt (paste into a NEW thread)
+
+Work in main. Read AGENTS.md first; read path-scoped rules before substantive edits. No repo edits of existing content — write all output as you work to a NEW dump file `sources/intake/dump-files/dump-<TODAY>-round4.md`, with images AND raw text extracts saved via file operations into a sibling `dump-<TODAY>-files-round4/` folder. Include actual URLs for every web object. Chrome is authenticated for FamilySearch, FindMyPast, and Ancestry — **use ancestry.com, never ancestry.co.uk** (separate signed-out session).
+
+CONTEXT: This continues the non-G13 online-discovery campaign (rounds 1–3 done 2026-07-16). Before designing searches, read IN THIS ORDER: (1) the memory file pointer topic (campaign state) if present; (2) `sources/intake/dump-files/dump-2026-07-16-round1.md`, `-round2.md`, `-round3.md` — these carry the do-not-repeat ground, negative ledgers, and the live analyses (esp. round-2 §1.2 the competing-Margaret fork and round-3 §6.1 the register-Aleyn/L-200 dating test); (3) the online-discovery-strategy skill + data/search-variants.json; (4) the FS-FTS and FMP skills. Ground each lead with tools/research_leads.py context and repo_search before working it. Never grep repo content; use repo_search.
+
+PRIORITY ROUND-4 QUEUE (work ~7, adapt freely on discoveries):
+1. **Paleo-packet returns** (41–45, returned reports to `sources/intake/paleography-staging/`): read the reports FIRST — they gate everything below. If packet 41's calibration table came back, run the **targeted Whinburgh 1595–1630 image walk** (DGS 004389244; array-hydration + das recipe in the FS skill; round-3 dump §3.1 has the position map) hunting Rivet admissions/surrenders and the Francis-Rivet death presentment.
+2. **PCC image cluster on Ancestry** (round-3 dump §5): Calthorpe 1494 PROB 11/10 reg. Vox fo. 23 (closes L-122); Richard Podmer of Leaton 1615 PROB 11/125/537 (Norfolk-kin long shot); Mary Gurney/John Lewis of Nevis PROB 11/461 (L-206).
+3. **NCC Aleyn folio-19 walk** (DGS 008076270, vols 6–7 1444–55): locate register Aleyn's start, calibrate folios, pull fo. 19 (the L-30 "Thomas Gurnay" probate) — decides whether the 1435 cleric was dead by 1455, which re-weights the L-200 clerk-convict identity (round-3 dump §6.1).
+4. **L-109 Earsham + L-152 Hempnall** index sweeps (deferred twice): FMP/FS parish sets, Sion/Syon Gurney wives disentangling; Hempnall marriages/burials for the gurnie household; George Gurnay rector of Tacolneston kinship probe.
+5. **Maldon**: pull the three court-leaf images flagged round-2 §4.1 (arks 3:1:9Q97-YSL8-9VR, -YSLK-2HC, -YSL8-9NC) for the paleo queue; L-14's Commissary-London 1681 admin file via Ancestry London probate collections if reachable.
+6. **Wymondham Francis Rivett disambiguation** (round-2 §3.7 + round-3 §3.2): Wymondham register rows in 61045 (father-abode readings), any Wymondham manorial/probate Rivett 1620–1660 — settles whether he's the Buxton son.
+7. **Creative slot**: CUL ArchiveSearch sweep of the Buxton Papers fonds for Gurnay/Ellingham items (round-3 §7); or the Norwich freemen ORIGINAL roll question; or E 179 lay subsidies Mitford hundred (Garveston/Whinburgh/E. Dereham Rivet-Gurney taxpayer anchoring).
+
+MAIN ROUND-4 QUEUE (work after priority, the remainder to become ROUND-5 (next turn in this chat thread)):
+
+1. Pull additional leads, slightly biased but not exclusive to leverage your existing context or tool usage; focus on high-impact, high-value leads.
+2. Creative ideation: Identify at least one creative source (ideally target 3) not already used as a source in the repo as explore that source. Consider topics, timeframes, databases, institutions, source-of-existing sources, search concepts or other attributes to help you find some new sources to search for records relating to any ancestor (excluding G0 to G5).
+3. Paleographic analysis (packets 41+) that needs additional work.   
+
+GUIDELINES (unchanged from rounds 1–3): dump-file discipline with full source tracking + URLs; negative-results ledger; [REC]/[GATED] roll-ups; raw text retained as files by file-ops (no token drafting); retain full text for multi-section sources, extracts for single-hits; no/minimal in-turn paleography — download images and stage outsourcing packets per `sources/intake/paleography-staging/README.md` (next packet number: check the staging folder; 41–45 exist); prepare packet bundles before turn end for any new images; no subagents; stop-after-two-failures; djvu.txt→scratch→repo_search locate sweep loop for any printed-calendar/book targets; loop back with Gurney variants in every source opened for Rivett work and vice versa. End the turn with: dump complete, memory updated, and (if this is the last round on the thread) a round-5 kickoff prompt file.
+
+TURN SIZE: aim for to scale roughly 100-120 tool calls / several hours of continuous work; go longer if discoveries chain.

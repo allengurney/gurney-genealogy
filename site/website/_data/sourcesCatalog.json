@@ -396,6 +396,18 @@
     "notes": "Scholarly article on Villedieu-la-Montagne, Gourchelles, and Criquiers. Relevant to northern Gournay-honor dependency context: Haucourt lands principally depended on the honor of Gournay, and Hugues III de Gournay's Beaubec confirmation is cited in relation to Guillaume de Haucourt and Gila de Gourchelles."
   },
   {
+    "sourceId": "beaurepaire-dict-topo-seine-maritime-1982",
+    "shortTitle": "Beaurepaire & Laporte, Dictionnaire topographique de la Seine-Maritime",
+    "citation": "Beaurepaire, Charles de Robillard de, and Dom Jean Laporte. Dictionnaire topographique du département de la Seine-Maritime. 2 vols. Paris, 1982–84. Consulted via the CTHS DicoTopo database, https://dicotopo.cths.fr.",
+    "archive": "",
+    "url": "https://dicotopo.cths.fr",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/dicotopo-seine-maritime-bois-gautier-montigny-massy.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Entries used: Bois-Gauthier (La Chapelle-Saint-Ouen, canton Argueil; place P27558354), Montagny/Montigny (Nolléval, canton Argueil; place P47177631 — the dictionary cites Daniel Gurney's Record for the 12th-century forms), and Massy (place P31767858; 1406 'half-fief held of the half-fief of Montigny-en-Bray')."
+  },
+  {
     "sourceId": "bhrs-v7-fowler-1926",
     "shortTitle": "Beds. Hist. Rec. Soc. vol. 7 (Fowler on de Gournai)",
     "citation": "The Publications of the Bedfordshire Historical Record Society, vol. 7 (1926), Note iiD/11 (De Gournai), pp. 153-157.",
@@ -1024,12 +1036,12 @@
     "shortTitle": "Cartulary of Missenden Abbey, vol. 1 (Jenkins)",
     "citation": "Jenkins, J. G., ed. The Cartulary of Missenden Abbey, vol. 1. Buckinghamshire Archaeological Society, Records Branch 2, 1938. Dammartin charters at pp. 70-75.",
     "archive": "HathiTrust (limited view)",
-    "url": "https://catalog.hathitrust.org/Record/007081366",
-    "corpusStatus": "none",
-    "corpusPath": "",
+    "url": "https://deeds.utsc.utoronto.ca/cartularies/0013",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/missenden-cartulary-dammartin-charters-deeds-transcripts.md",
     "mediaPath": "",
     "validationPath": "",
-    "notes": "Cited by Richardson (SGM 2002) for the c. 1150 charter of Manasser de Dammartin and his wife Galiena (with sons Bartholomew, Odo, Hamon, William) witnessed by Walter de Gournay. Not yet held; HathiTrust copy is search-only. The charter's substance is corroborated in hatton-book-of-seals-1958 note to No. 409 and secondary references."
+    "notes": "Cited by Richardson (SGM 2002) for the c. 1150 charter of Manasser de Dammartin and his wife Galiena witnessed by Walter de Gournay. Full texts read July 2026 via the University of Toronto DEEDS database (cartulary 0013): doc 00130071 (the 1150 grant, 'Waltero de Gurnay' witness, bench headed by Theobald of Canterbury), doc 00130070 (family confirmation 1150×1178, 'Willelmo de Gornaio' witness, sons Bartholomew/Odo/Hamo/William), doc 00130072 (Galiena II quitclaim, 1257/8). HathiTrust remains search-only."
   },
   {
     "sourceId": "chronicon-beccensis",
@@ -2148,6 +2160,18 @@
     "notes": "White's 1845 directory entry for Hardingham. Corroborates Flockthorpe, Low Street, and the manors of Camois, Gurneys, and Swathings."
   },
   {
+    "sourceId": "gervers-st-john-secunda-camera-1982",
+    "shortTitle": "Gervers, Cartulary of the Knights of St John, Secunda Camera (Essex)",
+    "citation": "Gervers, Michael, ed. The Cartulary of the Knights of St. John of Jerusalem in England, Part 1: Secunda Camera, Essex. Records of Social and Economic History, n.s. 6. London: British Academy / Oxford University Press, 1982. From BL Cotton MS Nero E VI.",
+    "archive": "British Library, Cotton MS Nero E VI (f. 339r for the Galiena de Gurnay charter)",
+    "url": "https://deeds.utsc.utoronto.ca/charters/00880374",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/gervers-st-john-galiena-de-gurnay-norton-charter.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "P. 216: charter of Galiena de Gurnay (c. 1170) granting the Hospitallers land at Norton (Mandeville), Essex, 'for the salvation of my soul and of Manasser de Dammartin my husband' — first-person proof that Manasser's wife was a Gurnay who kept her natal surname. Full text read via the University of Toronto DEEDS database transcription (cartulary 0088)."
+  },
+  {
     "sourceId": "ggm-benefice-harpley-church-history",
     "shortTitle": "GGM Benefice - Harpley Church History",
     "citation": "\"Harpley Church History.\" GGM Benefice, Harpley, St Lawrence.",
@@ -2748,6 +2772,18 @@
     "notes": "p. 126: Geoffrey Talebot identified as Hugh de Gournay's Essex tenant."
   },
   {
+    "sourceId": "keats-rohan-domesday-descendants-2002",
+    "shortTitle": "Keats-Rohan, Domesday Descendants",
+    "citation": "Keats-Rohan, K. S. B. Domesday Descendants: A Prosopography of Persons Occurring in English Documents 1066–1166, II: Pipe Rolls to Cartae Baronum. Woodbridge: Boydell Press, 2002.",
+    "archive": "",
+    "url": "",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/keats-rohan-domesday-descendants-p492-gournay-snippets.md",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "P. 492 carries the de Gurnai entries (snippet capture July 2026; full page unread): William entry 'Son of Walter de Gournay' (accepting the 1166 carta filiation; her 'half a fee' is a slip for the quarter); Gerard entry names issue Hugh and Gundreda only and has Gerard dying before Jerusalem was taken in 1099 (a dissent from the two-journey reading). Distinct from Domesday People vol. 1 (1999), registered as keates-rohan-domesday."
+  },
+  {
     "sourceId": "laslett-world-we-have-lost-1965",
     "shortTitle": "Laslett, World We Have Lost",
     "citation": "Laslett, Peter. The World We Have Lost. London: Methuen, 1965.",
@@ -2788,12 +2824,12 @@
     "shortTitle": "Les Olim (French legal records)",
     "citation": "Les Olim, ou Registres des arrêts rendus par la Cour du roi. Ed. A. Beugnot, 1839–1848.",
     "archive": "",
-    "url": "",
-    "corpusStatus": "none",
-    "corpusPath": "",
+    "url": "https://archive.org/details/bub_gb_DI5crXZamY4C",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/les-olim-beugnot-tome1-p85-montigny-verification.md",
     "mediaPath": "",
     "validationPath": "",
-    "notes": "DG-I p. 293 cites Les Olim for proving the Gurneys of Swathings 'to be of the blood of the Lords of Gournay.' Key legal document linking the junior Norfolk branch to the senior baronial line."
+    "notes": "Vol. 1 (1839), p. 85: the 1259 petition of Eustace de Montigny (entry XXII, Pentecost parlement 1259; concluded in the Exchequer of Normandy), whose recital preserves William de Gournay's in-chief Montigny tenure with Henry II's confirmation — the petition itself was denied. Daniel Gurney printed the entry in full (Record Part II p. 293) and drew from it the blood-descent argument for the junior Norfolk branch; the recital plus parage tenure is the evidence, not a court declaration. Verified directly in the printed edition July 2026."
   },
   {
     "sourceId": "fairhaven-lester-obituary",

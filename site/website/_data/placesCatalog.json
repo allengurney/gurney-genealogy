@@ -3953,19 +3953,21 @@
     "aliases": [
       "Montigny-sur-Andelle",
       "Montigny sur Andelle",
-      "Montigny, Normandy"
+      "Montigny, Normandy",
+      "Montagny (Nolléval)",
+      "Montigny-en-Bray"
     ],
     "shortDescription": "Parage tenure locality and junior-line proof-place",
-    "longDescription": "Montigny-sur-Andelle parage tenure, cited by Daniel Gurney and Hannay as strong legal proof that William de Gournay I and the junior Norfolk line were of the blood of the Barons of Gournay. The 1259 petition of Eustace de Montigny in the Registres Olim (denied on its own request) recites that a William de Gournay held Montigny directly of the king, with a charter confirmed by Henry II.",
+    "longDescription": "Montigny-sur-Andelle parage tenure, cited by Daniel Gurney and Hannay as strong legal proof that William de Gournay I and the junior Norfolk line were of the blood of the Barons of Gournay. The 1259 petition of Eustace de Montigny in Les Olim (denied on its own request; verified directly in Beugnot's edition, vol. 1, p. 85, entry XXII of the Pentecost parlement of 1259, concluded in the Exchequer of Normandy) recites that a William de Gournay held Montigny directly of the king, with a charter confirmed by Henry II. The medieval fief is identified with Montagny, a hamlet (formerly a parish and commune) of Nolléval, canton of Argueil, Seine-Maritime, per the Seine-Maritime topographic dictionary, which cites Daniel Gurney's Record for the twelfth-century forms; a de Monteniaco family held it as a half-fee by c. 1210, and Massy was still recorded in 1406 as a half-fief held of the half-fief of Montigny-en-Bray.",
     "placeType": "historic fief / locality",
-    "extantStatus": "historic fief / locality; exact modern site identity requires verification",
-    "extantStatusDescription": "The place is already represented in the repo as a medium-precision locality. Keep it as a proof-place but do not upgrade coordinate precision until the Registres Olim passage and modern place identity are verified.",
+    "extantStatus": "historic fief; identified with Montagny, hamlet of Nolléval (canton of Argueil, Seine-Maritime)",
+    "extantStatusDescription": "Identity and the Les Olim entry both verified July 2026; the coordinate was corrected to the Montagny hamlet position and upgraded to high precision at hamlet level.",
     "coordinate": {
-      "lat": 49.327,
-      "lng": 1.352
+      "lat": 49.4879,
+      "lng": 1.4807
     },
-    "coordinatePrecision": "medium",
-    "coordinateBasis": "existing repo coordinate; modern identity and exact fief geography require verification",
+    "coordinatePrecision": "high",
+    "coordinateBasis": "Dictionnaire topographique de la Seine-Maritime / DicoTopo place P47177631 (Montagny, Nolléval); verified July 2026",
     "roles": [
       "landholding / property reference",
       "parage tenure",
