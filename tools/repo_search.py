@@ -1138,6 +1138,29 @@ _RG_CACHE: str | None = None
 _RG_SEARCHED = False
 
 
+def is_executable_file(path: Path) -> bool:
+    try:
+        return path.is_file() and os.access(path, os.R_OK | os.X_OK)
+    except OSError:
+        return False
+
+
+def first_executable(paths: Iterable[Path]) -> str | None:
+    for path in paths:
+        if is_executable_file(path):
+            return str(path)
+    return None
+
+
+def glob_executables(root: Path, pattern: str) -> Iterable[Path]:
+    if not root.is_dir():
+        return []
+    try:
+        return sorted(root.glob(pattern), reverse=True)
+    except OSError:
+        return []
+
+
 def find_ripgrep() -> str | None:
     """Locate the ripgrep executable robustly, without relying on PATH alone.
 
@@ -1167,39 +1190,33 @@ def find_ripgrep() -> str | None:
         if found:
             candidates.append(Path(found))
 
+    resolved = first_executable(candidates)
+
     if os.name == "nt":
         local = os.environ.get("LOCALAPPDATA", "")
         program_files = os.environ.get("ProgramFiles", r"C:\Program Files")
         program_data = os.environ.get("ProgramData", r"C:\ProgramData")
         user_profile = os.environ.get("USERPROFILE", "")
-        glob_roots: list[tuple[Path, str]] = []
-        if local:
-            candidates.append(Path(local) / "Microsoft" / "WinGet" / "Links" / "rg.exe")
-            glob_roots.append((Path(local) / "Microsoft" / "WinGet" / "Packages", "*ripgrep*/**/rg.exe"))
-        if user_profile:
-            candidates.append(Path(user_profile) / "scoop" / "shims" / "rg.exe")
-        if program_data:
-            candidates.append(Path(program_data) / "chocolatey" / "bin" / "rg.exe")
-        if program_files:
-            glob_roots.append((Path(program_files), "ripgrep*/**/rg.exe"))
-        for root, pattern in glob_roots:
-            if root.is_dir():
-                try:
-                    candidates.extend(sorted(root.glob(pattern), reverse=True))
-                except OSError:
-                    pass
+        if resolved is None:
+            common_paths: list[Path] = []
+            if local:
+                common_paths.append(Path(local) / "Microsoft" / "WinGet" / "Links" / "rg.exe")
+            if user_profile:
+                common_paths.append(Path(user_profile) / "scoop" / "shims" / "rg.exe")
+            if program_data:
+                common_paths.append(Path(program_data) / "chocolatey" / "bin" / "rg.exe")
+            resolved = first_executable(common_paths)
+        if resolved is None and local:
+            resolved = first_executable(glob_executables(Path(local) / "Microsoft" / "WinGet" / "Packages", "*ripgrep*/**/rg.exe"))
+        if resolved is None and program_files:
+            resolved = first_executable(glob_executables(Path(program_files), "ripgrep*/**/rg.exe"))
+        if resolved is None and local:
+            resolved = first_executable(glob_executables(Path(local) / "Programs", "*/resources/**/vscode-ripgrep/**/rg.exe"))
+        if resolved is None and program_files:
+            resolved = first_executable(glob_executables(Path(program_files), "*/resources/**/vscode-ripgrep/**/rg.exe"))
     else:
-        for path in ("/usr/bin/rg", "/usr/local/bin/rg", "/opt/homebrew/bin/rg", "/snap/bin/rg"):
-            candidates.append(Path(path))
-
-    resolved: str | None = None
-    for candidate in candidates:
-        try:
-            if candidate.is_file():
-                resolved = str(candidate)
-                break
-        except OSError:
-            continue
+        if resolved is None:
+            resolved = first_executable(Path(path) for path in ("/usr/bin/rg", "/usr/local/bin/rg", "/opt/homebrew/bin/rg", "/snap/bin/rg"))
 
     if resolved:
         rg_dir = str(Path(resolved).parent)
