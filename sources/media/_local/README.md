@@ -32,6 +32,9 @@ The repo stays self-describing — readers can see what exists locally even when
 | `Collectanea_Archaeologica.pdf` | 55 MB | Oversize | *Collectanea Archaeologica: Communications made to the British Archaeological Association*. 19th-century, public domain. Available at archive.org / HathiTrust. |
 | `recueildesactesd01grea.pdf` | 38 MB | Oversize | Léopold Delisle (ed.), *Recueil des actes de Henri II*, vol. 1 (Paris, Imprimerie nationale). Public domain. Available at archive.org (`recueildesactesd01grea`) and Gallica. |
 | `packets-34-36-working-crops/` | folder | Regenerable paleography diagnostics | Contact sheets, enhancement sheets, and crops generated from FamilySearch Packet 34-36 masters. Durable source masters live under `sources/media/fs-england-norfolk-parish-registers-1510-1997/_local/` and `sources/media/familysearch-fulltext-search/_local/`; reports live in `sources/intake/paleography-staging/done/`. |
+| `cpr-edward-iv-1461-1467-fulltext-calendarpatentr14offigoog.txt` | ~4 MB | Raw OCR master; extracts cut | *Calendar of the Patent Rolls, Edward IV, 1461–1467* (HMSO 1897), public domain; archive.org `calendarpatentr14offigoog`. Curated Gurney extracts at `sources/corpus_supplement/cpr-edward-iv-1461-1477-gurney-entries.md`. |
+| `cpr-edward-iv-henry-vi-1467-1477-fulltext-calendarofpatent00grea.txt` | ~3 MB | Raw OCR master; extracts cut | *Calendar of the Patent Rolls, Edward IV–Henry VI, 1467–1477* (HMSO 1900), public domain; archive.org `calendarofpatent00grea`. Same extracts file. |
+| `norwich-freemen-calendar-1317-1603-fulltext-cu31924029785528.txt` | ~1 MB | Raw OCR master; extracts cut | L'Estrange/Rye, *Calendar of the Freemen of Norwich 1317–1603* (1888), public domain; archive.org `cu31924029785528`. Curated Gurney extracts at `sources/corpus_supplement/norwich-freemen-calendar-1317-1603-gurney-entries.md`. |
 
 ## Cross-reference
 - `.claude/rules/sources.md` (intake + validations + media discipline)

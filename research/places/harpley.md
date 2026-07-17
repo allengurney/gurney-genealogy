@@ -23,7 +23,7 @@ It also has a second life in the project, because the structured layer correctly
 | John de Gournay IV | G24 | fl. c. 1330–1370 | Held the first recorded manorial court at Harpley in 1354 |
 | Edmund Gournay | G23 | d. 1387 | Held Harpley while establishing West Barsham via Katherine de Wauncy |
 | Thomas Gournay I | G21 | fl. c. 1408–1450 | Inherited by collateral succession |
-| Thomas Gournay II | G20 | d. 1471 | Named Harpley among his residences in his will |
+| Thomas Gournay II | G20 | d. 1471 | Chose burial in the chancel of St Lawrence in his will; left 40s for works at the church, a high-altar gift, and a legacy to every Harpley householder |
 | Henry Gurney | G15 | d. 1615/16 | Repurchased Harpley manor in 1587 |
 
 ## Primary-source hooks
@@ -60,6 +60,10 @@ The church fabric itself carries the medieval patronage story. A local church-hi
 > "Hic jacet corpus Joh'is de Gurnay quondam Rectoris Paronique hujus ecclesie cujus anime propicietur Deua. Amen"[^ggm-harpley-church]
 
 That reading is rough in the web transcription, but the substance is important: Harpley remembered John as both former rector and patron of the church. A chalice was reportedly found there in 1820.[^ggm-harpley-church]
+
+The last medieval Gurney lord's will makes the family's bond to this chancel explicit. Thomas Gournay II (G20) directed in 1469/70 that his body be buried "infra cancellum ecclesie parochialis Sancti Laurencij martiris de Harpele" — within the chancel of the parish church of St Lawrence the Martyr of Harpley — if he died there (with the Norwich Greyfriars as the alternative if he died at his town house), and left 13s 4d to the high altar, 40s for works and vestments at Harpley church, and a small sum to each householder of the village — a living-community legacy paired with an identical provision for West Barsham. He thus chose the chancel where the rector-patron John de Gurnay had been laid nearly a century and a half earlier.[^jekkys-harpley-clauses]
+
+[^jekkys-harpley-clauses]: Norwich Consistory Court will register Jekkys, fo. 211v–212v, testament and ultima voluntas of Thomas Gurnay, armiger, proved 27 July 1471; register images FS film DGS 008470476, imgs 366–367, expert read July 2026. Verified transcription at [`sources/corpus_supplement/ncc-jekkys-211-thomas-gurnay-will-complex-1471.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/ncc-jekkys-211-thomas-gurnay-will-complex-1471.md); full reconciliation with Blomefield's and Daniel Gurney's accounts on the [G20 companion](../people/g20-thomas-gournay-ii-fact-sheet.research.md). Source ID: `nro-ncc-wills-registers`.
 
 The modern visitor description independently preserves the same core tradition: the chancel is thought to have been built by Rector John de Gurnay, who held the living 1294-1332; his family had the advowson from 1184; the Gurnays/Gournays/Gurneys held a manor at Harpley from about 1153-1401; and later family members Christopher and Edmund also served as priests there.[^explore-harpley-st-lawrence] The same page notes that the Gurney shield, argent a cross engrailed gules, could be seen on shields held by angels in the nave roof and on the second shield from the west on the south aisle parapet.[^explore-harpley-st-lawrence]
 

@@ -35,7 +35,9 @@ The manor then passed through the central later line of the family:
 
 - **Sir John Gurney (d. 1408)**, collateral son and heir of Edmund, whose History of Parliament entry confirms West Barsham as his seat [HoP-Gurney]
 - **Thomas Gournay I (G21)**, who inherited after the failure of Sir John's direct male line [DG-I]
-- **Thomas Gournay II (G20)**, whose will shows the family still moving between **West Barsham, Harpley, and Norwich** [DG-I]
+- **Thomas Gournay II (G20)**, whose will shows the family still moving between **West Barsham, Harpley, and Norwich** — and treats West Barsham as a living community, not just a seat: beside 6s 8d to the high altar and a books-and-vestments gift to the church, he left **12d to every householder ("vocati householder") within West Barsham**, paired with a like provision for Harpley's householders[^jekkys-west-barsham-clauses] [DG-I]
+
+[^jekkys-west-barsham-clauses]: Norwich Consistory Court will register Jekkys, fo. 211v–212v, testament and ultima voluntas of Thomas Gurnay, armiger, proved 27 July 1471; register images FS film DGS 008470476, imgs 366–367, expert read July 2026. Verified transcription at [`sources/corpus_supplement/ncc-jekkys-211-thomas-gurnay-will-complex-1471.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/ncc-jekkys-211-thomas-gurnay-will-complex-1471.md); reconciliation with Blomefield's summary (already extracted at `sources/corpus_supplement/blomefield-norfolk-vol7-pp42-47-west-barsham.md`) on the [G20 companion](../people/g20-thomas-gournay-ii-fact-sheet.research.md). Source ID: `nro-ncc-wills-registers`.
 - **William Gurney IV (G19)**, whose 1507/8 death marks the end of one phase and the transition to the Tudor line [G19 companion]
 - **Anthony Gurney (G17)** and **Henry Gurney (G15)**, who carried the seat through the Henrician and Elizabethan period [Henry G15 companion]
 - **Francis Gurney (G14)**, merchant tailor of London, who finally sold the Norfolk and Suffolk lands in **1634** [current file] [Henry G15 companion]

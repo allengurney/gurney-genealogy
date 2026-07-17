@@ -227,6 +227,8 @@ adams-history-of-braintree-1891,source,"C. F. Adams, History of Braintree (1891)
 calder-new-haven-colony-1934,source,"Calder, New Haven Colony",data/sources.json
 cal-cecil-papers-hatfield,source,"Calendar of Cecil Papers, Hatfield House",data/sources.json
 cfr-henry-iv-1405-13,source,"Calendar of Fine Rolls, Henry IV, 1405-13",data/sources.json
+cpr-edward-iv-1461-67,source,"Calendar of Patent Rolls, Edward IV, 1461-67",data/sources.json
+cpr-edward-iv-henry-vi-1467-77,source,"Calendar of Patent Rolls, Edward IV-Henry VI, 1467-77",data/sources.json
 cpr-henry-iv-1399-1401,source,"Calendar of Patent Rolls, Henry IV, 1399-1401",data/sources.json
 cpr-henry-vi-1422-29,source,"Calendar of Patent Rolls, Henry VI, 1422-29",data/sources.json
 calendar-close-rolls-edward-iii-vols12-14,source,"Calendar of the Close Rolls, Edward III, vols. 12-14",data/sources.json
@@ -240,6 +242,7 @@ jenkins-missenden-cartulary-v1,source,"Cartulary of Missenden Abbey, vol. 1 (Jen
 chronicon-beccensis,source,Chronicon Beccensis Abbatiæ,data/sources.json
 weymouth-classified-record-births-nash,source,"Classified Record of Weymouth Births (Nash copy, 1879)",data/sources.json
 weymouth-classified-record-deaths-nash,source,"Classified Record of Weymouth Deaths (Nash copy, 1879)",data/sources.json
+cced-clergy-database,source,Clergy of the Church of England Database (CCEd),data/sources.json
 cleveland-battle-abbey-roll-v2-gurnay,source,"Cleveland, Battle Abbey Roll - Gurnay",data/sources.json
 cleveland-battle-abbey-roll-introduction,source,"Cleveland, Battle Abbey Roll introduction",data/sources.json
 cleveland-battle-abbey-roll-v1-crossrefs,source,"Cleveland, Battle Abbey Roll vol. 1 crossrefs",data/sources.json
@@ -382,6 +385,7 @@ rye-index-rerum-norfolk-antiquities-1910,source,"Index Rerum to Norfolk Antiquit
 bho-ipm-edward-ii-vol5-gournay-somerset,source,"IPM Edward II vol. 5, no. 538 - Somerset Gournay fees (Anselm, Thomas)",data/sources.json
 keates-rohan-domesday,source,"Keates-Rohan, Domesday People",data/sources.json
 keats-rohan-domesday-descendants-2002,source,"Keats-Rohan, Domesday Descendants",data/sources.json
+lestrange-rye-norwich-freemen-1317-1603,source,"L'Estrange/Rye, Calendar of the Freemen of Norwich, 1317-1603",data/sources.json
 laslett-world-we-have-lost-1965,source,"Laslett, World We Have Lost",data/sources.json
 lechford-note-book,source,Lechford's Note-Book 1638-1641,data/sources.json
 les-olim,source,Les Olim (French legal records),data/sources.json
@@ -436,6 +440,7 @@ nyclipper-1895-08-patchogue-fauntleroy,source,"New York Clipper, August 1895 —
 ny-war-1812-payroll-abstracts,source,New York War of 1812 militia payroll abstracts,data/sources.json
 nher-mnf9108-old-hall-great-ellingham,source,"NHER MNF9108 — Old Hall, Great Ellingham",data/sources.json
 nher-great-ellingham-parish-summary,source,NHER Parish Summary — Great Ellingham,data/sources.json
+nro-catalogue-atom,source,Norfolk Record Office online catalogue (AtoM),data/sources.json
 nro-ncc-wills-registers,source,"Norfolk Record Office, NCC Will Registers",data/sources.json
 norfolk-wills-extracts-bradfer-lawrence,source,"Norfolk wills extracts, 1370-1763 (Bradfer-Lawrence)",data/sources.json
 norfolk-wills-probate-index-1371-1858,source,"Norfolk wills/probate index, 1371-1858",data/sources.json
@@ -470,6 +475,7 @@ park-royal-holloway-thesis-2013,source,"Park, PhD thesis (Royal Holloway, 2013) 
 paston-letters-gairdner,source,Paston Letters -- Gairdner edition (1904),data/sources.json
 paston-letters-davis,source,Paston Letters and Papers -- Davis edition,data/sources.json
 pattou-racines-histoire-gournay-2025,source,Pattou Racines Histoire -- Gournay,data/sources.json
+pcc-prob11-10-vox-calthorpe-1495,source,"PCC will of Sir William Calthorpe (PROB 11/10, Vox, 1495)",data/sources.json
 pcc-rivett-rattlesden-wills,source,"PCC wills - Rivett/Ryvett of Rattlesden (1610, 1626)",data/sources.json
 pease-pennyghael,source,Pease genealogy (Pennyghael),data/sources.json
 pettigrew-collectanea-house-gournay-1871,source,"Pettigrew, On the House of Gournay",data/sources.json

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.31.0",
+    "version": "1.32.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-07-14",
+    "lastUpdated": "2026-07-17",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
@@ -3489,11 +3489,11 @@
       "citation": "Norfolk Record Office, Norwich Consistory Court (NCC) will registers, including registers Doke (mid-15th c.), Aleyn (mid-15th c.), and Jekkys (later 15th c.).",
       "archive": "Norfolk Record Office, The Archive Centre, Martineau Lane, Norwich",
       "url": "http://nrocat.norfolk.gov.uk",
-      "corpusStatus": "none",
-      "corpusPath": null,
-      "mediaPath": null,
-      "validationPath": null,
-      "notes": "Umbrella entry for the NCC will and administration registers held at the Norfolk Record Office. v52 uses three entries discovered via girders.net: NCC will register Doke, 17 (administration of Henry Gurnay of Norwich, 1443); NCC will register Aleyn, 19 (administration of Thomas Gurnay of Great Ellingham, 1454); NCC will register Jekkys, 211 (will of Thomas Gurnay of Harpley, 1471 = G20 Thomas Gournay II). The Jekkys 211 will is the primary register copy of the will whose contents DG-I pp. 280-282 already extracts."
+      "corpusStatus": "extract",
+      "corpusPath": "sources/corpus_supplement/ncc-jekkys-211-thomas-gurnay-will-complex-1471.md",
+      "mediaPath": "sources/media/ncc-wills-registers/",
+      "validationPath": "sources/validations/nro-ncc-wills-registers.md",
+      "notes": "Umbrella entry for the NCC will and administration registers at the Norfolk Record Office, including the register-Aleyn-period volumes (1444-55, FS film DGS 008076270) and register Jekkys (1464-72, DGS 008470476). Key rows: Doke 17 (admon of Henry Gurnay of Norwich, 1443); \"Aleyn 19\" = act-book fo. 19v admon of Thomas Gurnay of Great Ellingham, 5 Aug 1454 (extract: ncc-aleyn-actbook-fo19v-thomas-gurnay-admon-1454.md); Jekkys 211 = will complex of Thomas Gurnay of Harpley, proved 27 July 1471 (G20; extract at corpusPath). Working-reference masters in mediaPath _local/."
     },
     "tna-dl-42-2-33-5-richard-i-canville-nicholaa-de-la-haye": {
       "shortTitle": "TNA DL 42/2/33/5 — Richard I grant to Gerard de Canville and Nicholaa de la Haye",
@@ -4609,6 +4609,72 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "Entries used: Bois-Gauthier (La Chapelle-Saint-Ouen, canton Argueil; place P27558354), Montagny/Montigny (Nolléval, canton Argueil; place P47177631 — the dictionary cites Daniel Gurney's Record for the 12th-century forms), and Massy (place P31767858; 1406 'half-fief held of the half-fief of Montigny-en-Bray')."
+    },
+    "pcc-prob11-10-vox-calthorpe-1495": {
+      "shortTitle": "PCC will of Sir William Calthorpe (PROB 11/10, Vox, 1495)",
+      "citation": "Will of Sir William Calthorpe, knight, of Burnham Thorpe, dated 31 May 1494, proved 23 May 1495. The National Archives, PROB 11/10 (register Vox), fo. 23; register images via Ancestry, \"England & Wales, Prerogative Court of Canterbury Wills, 1384-1858\" (dbid 5111), Piece 10 Vox, images 40611_311109-00370 to -00372.",
+      "archive": "The National Archives (PROB 11/10); Ancestry dbid 5111 register images",
+      "url": "https://www.ancestry.com/search/collections/5111/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": "sources/media/pcc-prob11-10-vox-calthorpe-1495/",
+      "validationPath": "sources/validations/pcc-prob11-10-vox-calthorpe-1495.md",
+      "notes": "Register copy of the 1494 Calthorpe will, previously held only at abstract level (Bradfer-Lawrence). The image supplies the Gurney son-in-law's forename: \"by the handes of my son William Gurney\" and the executor cluster \"Dame Elizabeth my wife, Robert Clerke, Robert Fermer, William Gurney, Walter Aslake.\" Probate clause supports 23 May 1495. Working-reference images in mediaPath _local/ (licensed-database captures)."
+    },
+    "cpr-edward-iv-1461-67": {
+      "shortTitle": "Calendar of Patent Rolls, Edward IV, 1461-67",
+      "citation": "Calendar of the Patent Rolls Preserved in the Public Record Office, Edward IV, A.D. 1461-1467 (London: HMSO, 1897).",
+      "archive": "TNA / HMSO printed calendar; Internet Archive calendarpatentr14offigoog (Google scan)",
+      "url": "https://archive.org/details/calendarpatentr14offigoog",
+      "corpusStatus": "extract",
+      "corpusPath": "sources/corpus_supplement/cpr-edward-iv-1461-1477-gurney-entries.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/cpr-edward-iv-calendars-1461-1477.md",
+      "notes": "Printed calendar of the patent rolls for Edward IV's first six years. Gurn*-surname content: John Gourney/Gurney esquire regrant entries (pp. 188, 273, 297 - the Lancastrian household man stripped of Henry VI grants), Thomas Garney of London, yeoman, mainpernor (p. 284), and posthumous references to Matthew Gurney's Somerset manors. Complete surname harvest with index coverage in the corpus extract."
+    },
+    "cpr-edward-iv-henry-vi-1467-77": {
+      "shortTitle": "Calendar of Patent Rolls, Edward IV-Henry VI, 1467-77",
+      "citation": "Calendar of the Patent Rolls Preserved in the Public Record Office, Edward IV, Henry VI, A.D. 1467-1477 (London: HMSO, 1900).",
+      "archive": "TNA / HMSO printed calendar; Internet Archive calendarofpatent00grea",
+      "url": "https://archive.org/details/calendarofpatent00grea",
+      "corpusStatus": "extract",
+      "corpusPath": "sources/corpus_supplement/cpr-edward-iv-1461-1477-gurney-entries.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/cpr-edward-iv-calendars-1461-1477.md",
+      "notes": "Printed calendar of the patent rolls 1467-77. Sole Gurn*-surname entry: Thomas Gourney of Halton, Buckinghamshire, feoffee in the Bryghtwell collusive-enfeoffment custody grant (p. 152) - a 15th-century anchor for the Buckinghamshire Gurney presence. Complete surname harvest with index coverage in the corpus extract."
+    },
+    "lestrange-rye-norwich-freemen-1317-1603": {
+      "shortTitle": "L'Estrange/Rye, Calendar of the Freemen of Norwich, 1317-1603",
+      "citation": "John L'Estrange, comp., and Walter Rye, ed., Calendar of the Freemen of Norwich from 1317 to 1603 (Edward II to Elizabeth Inclusive) (London: Elliot Stock, 1888).",
+      "archive": "Internet Archive cu31924029785528 (Cornell scan; cleaner OCR than freemennorwich1317)",
+      "url": "https://archive.org/details/cu31924029785528",
+      "corpusStatus": "extract",
+      "corpusPath": "sources/corpus_supplement/norwich-freemen-calendar-1317-1603-gurney-entries.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/lestrange-rye-norwich-freemen-1317-1603.md",
+      "notes": "Alphabetical calendar of Norwich freedom admissions 1317-1603, compiled by L'Estrange from the original roll and printed unchecked by Rye (editor's completeness caveat applies). Gurney content: two medieval admissions (Geoffrey, barber, 1396/97; William, tanner, 1407/08) and John Gurnell, cordwainer, 1551. Predecessor series to Millican's 1548-1713 register."
+    },
+    "cced-clergy-database": {
+      "shortTitle": "Clergy of the Church of England Database (CCEd)",
+      "citation": "Clergy of the Church of England Database 1540-1835 (CCEd), King's College London / AHRC, theclergydatabase.org.uk.",
+      "archive": "Online database",
+      "url": "https://theclergydatabase.org.uk/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "Relational database of Church of England clergy careers compiled from diocesan records; coverage begins at the Reformation (records from 1540), so medieval institutions are out of scope. July 2026 surname census: Gurney = 24 person-records, all late-Georgian/Regency (1767-1834); Gurnay and Gournay = 0. No 15th-17th-century Gurney cleric and no George Gurnay of Tacolneston under any spelling."
+    },
+    "nro-catalogue-atom": {
+      "shortTitle": "Norfolk Record Office online catalogue (AtoM)",
+      "citation": "Norfolk Record Office online catalogue, AtoM instance at nrocatalogue.norfolk.gov.uk (successor to the CalmView NROCAT at nrocat.norfolk.gov.uk).",
+      "archive": "Norfolk Record Office, The Archive Centre, Martineau Lane, Norwich",
+      "url": "http://nrocatalogue.norfolk.gov.uk/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": null,
+      "notes": "The NRO's public catalogue: per-item descriptive rows for the office's fonds, including per-will NCC index rows (with parish and year) and deed-level rows across family and estate collections. Search URL pattern: /index.php/informationobject/browse?query=%22<term>%22&topLod=0&page=N (15 rows/page). Cited for catalogue-row evidence; the described originals remain unexamined unless separately pulled."
     }
   }
 }

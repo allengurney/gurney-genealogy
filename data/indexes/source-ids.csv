@@ -80,6 +80,7 @@ cambridge-core-camden-preface-addenda,Camden Old Series - Preface and Addenda,pa
 candidate-d-london-context-web-bundle,Candidate D London context web bundle,none,,,sources/validations/candidate-d-london-context-web-bundle.md
 candidate-d-london-grine-grene-index-leads-bundle,Candidate D London Grine/Grene index-lead bundle,none,,,sources/validations/candidate-d-london-grine-grene-index-leads-bundle.md
 cape-cod-canal-history,Cape Cod Canal history (Mass.gov; Wikipedia),none,,,
+cced-clergy-database,Clergy of the Church of England Database (CCEd),none,,,
 cfr-henry-iv-1405-13,"Calendar of Fine Rolls, Henry IV, 1405-13",none,,,
 chronicon-beccensis,Chronicon Beccensis Abbatiæ,none,,,
 cleveland-battle-abbey-roll-introduction,"Cleveland, Battle Abbey Roll introduction",partial,sources/corpus_supplement/cleveland-battle-abbey-roll-introduction-gurnay.md,,sources/validations/cleveland-battle-abbey-roll-introduction.md
@@ -91,6 +92,8 @@ commissary-court-london-testamentary-index-marc-fitch,commissary-court-london-te
 complete-history-england-1706-v1,"A Complete History of England, vol. 1 (1706)",supplement,sources/corpus_supplement/complete-history-england-1706-v1-gurney-extracts.md,,sources/validations/complete-history-england-1706-v1.md
 cooke-mapledurham-ors7-1925,"Cooke, Early History of Mapledurham",none,,,
 copinger-manors-suffolk-v3,"Copinger, Manors of Suffolk, vol. 3",full,sources/corpus_supplement/copinger-manors-suffolk-v3-mendlesham-extract.md,,
+cpr-edward-iv-1461-67,"Calendar of Patent Rolls, Edward IV, 1461-67",extract,sources/corpus_supplement/cpr-edward-iv-1461-1477-gurney-entries.md,,sources/validations/cpr-edward-iv-calendars-1461-1477.md
+cpr-edward-iv-henry-vi-1467-77,"Calendar of Patent Rolls, Edward IV-Henry VI, 1467-77",extract,sources/corpus_supplement/cpr-edward-iv-1461-1477-gurney-entries.md,,sources/validations/cpr-edward-iv-calendars-1461-1477.md
 cpr-henry-iv-1399-1401,"Calendar of Patent Rolls, Henry IV, 1399-1401",none,,,
 cpr-henry-vi-1422-29,"Calendar of Patent Rolls, Henry VI, 1422-29",none,,,
 csm-39-boston-first-church,"CSM 39 — Records of the First Church in Boston, vol. I (1961)",none,,,sources/validations/csm-39-boston-first-church.md
@@ -234,6 +237,7 @@ keats-rohan-domesday-descendants-2002,"Keats-Rohan, Domesday Descendants",supple
 laslett-world-we-have-lost-1965,"Laslett, World We Have Lost",none,,,
 lechford-note-book,Lechford's Note-Book 1638-1641,none,,,sources/validations/lechford-note-book.md
 les-olim,Les Olim (French legal records),supplement,sources/corpus_supplement/les-olim-beugnot-tome1-p85-montigny-verification.md,,
+lestrange-rye-norwich-freemen-1317-1603,"L'Estrange/Rye, Calendar of the Freemen of Norwich, 1317-1603",extract,sources/corpus_supplement/norwich-freemen-calendar-1317-1603-gurney-entries.md,,sources/validations/lestrange-rye-norwich-freemen-1317-1603.md
 letters-papers-henry-viii,"Letters and Papers, Foreign and Domestic, Henry VIII",none,,,sources/validations/letters-papers-henry-viii.md
 liber-niger,Liber Niger Scaccarii,none,,,
 lma-st-augustine-watling-register-candidate-d-images,LMA St Augustine Watling Street register - Candidate D images,partial,,sources/intake/archive/john-gurney-2026May/john-gurney-candidate-d-working-packet-audited-v13.md,sources/validations/lma-st-augustine-watling-register-candidate-d-images.md
@@ -301,7 +305,8 @@ normonde-hugues-1er-de-gournay,Normonde authority file: Hugues Ier de Gournay,pa
 norwich-records-hudson-tingey-vol2,"Hudson and Tingey -- Records of the City of Norwich, vol. ii (1910)",supplement,sources/corpus_supplement/norwich-records-hudson-tingey-vol2-edmund-gornay-fees.md,,
 norwich-university-history,Norwich University history (Wikipedia; Norwich catalog),none,,,
 nps-adams-nhp,NPS Adams National Historical Park CLR,full,sources/corpus/nps-adams-clr-1997.txt,sources/media/nps-adams-nhp/,sources/validations/nps-adams-nhp.md
-nro-ncc-wills-registers,"Norfolk Record Office, NCC Will Registers",none,,,
+nro-catalogue-atom,Norfolk Record Office online catalogue (AtoM),none,,,
+nro-ncc-wills-registers,"Norfolk Record Office, NCC Will Registers",extract,sources/corpus_supplement/ncc-jekkys-211-thomas-gurnay-will-complex-1471.md,sources/media/ncc-wills-registers/,sources/validations/nro-ncc-wills-registers.md
 nro-pd-12-1,"NRO PD 12/1 (St Martin at Palace, Norwich)",none,,,
 nro-pd-86-41,NRO PD 86/41 (East Dereham register),none,,,sources/validations/east-dereham-pd-86-41-register-structure-and-chronology.md
 nrp-recherches-possessions-1852,"NRP de la Mairie, Recherches…Possessions des Sires Normands (1852)",partial,,sources/FS/Norman_additions/Recherches_historiques_archéologiques_e_volume1.pdf,
@@ -326,6 +331,7 @@ park-royal-holloway-thesis-2013,"Park, PhD thesis (Royal Holloway, 2013) -- crus
 paston-letters-davis,Paston Letters and Papers -- Davis edition,none,,,sources/validations/paston-letters-davis.md
 paston-letters-gairdner,Paston Letters -- Gairdner edition (1904),full,sources/corpus_supplement/paston-letters-gairdner-gurney-extracts.md,,sources/validations/paston-letters-gairdner.md
 pattou-racines-histoire-gournay-2025,Pattou Racines Histoire -- Gournay,external,,,
+pcc-prob11-10-vox-calthorpe-1495,"PCC will of Sir William Calthorpe (PROB 11/10, Vox, 1495)",none,,sources/media/pcc-prob11-10-vox-calthorpe-1495/,sources/validations/pcc-prob11-10-vox-calthorpe-1495.md
 pcc-rivett-rattlesden-wills,"PCC wills - Rivett/Ryvett of Rattlesden (1610, 1626)",none,,,sources/validations/pcc-rivett-rattlesden-wills.md
 pease-pennyghael,Pease genealogy (Pennyghael),none,,,
 pettigrew-collectanea-house-gournay-1871,"Pettigrew, On the House of Gournay",partial,sources/corpus_supplement/pettigrew-collectanea-house-gournay-1871.txt,sources/media/Collectanea_Archaeologica.pdf,sources/validations/pettigrew-collectanea-house-gournay-1871.md
