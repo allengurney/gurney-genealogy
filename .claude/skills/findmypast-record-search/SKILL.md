@@ -22,7 +22,7 @@ https://www.findmypast.co.uk/search/results?datasetname=<slug>&sid=103&lastname=
 - `datasetname` uses `+` for spaces. **Confirmed slugs:** `norfolk+baptisms`, `norfolk+banns+and+marriages`, `norfolk+burials`. ⚠ `norfolk+marriages` 500s — the marriages set is "banns and marriages".
 - `sid=103` worked for the Norfolk parish sets. If a `datasetname` returns a **500**, the slug or `sid` is wrong: open the record-set search page (`https://search.findmypast.co.uk/search-world-records/<record-set-slug>`), run one search through the form, and **capture the resulting `/search/results` URL** — it contains the correct `datasetname`+`sid`. Reuse that pattern thereafter.
 - `yearofbirth` + `yearofbirth_offset` (allowed offsets: 0,1,2,5,10,20,40). **±40 is the practical way to bound a surname sweep.** ⚠ The marriages set rejects `yearofbirth` (→500); omit it there (or use the form's Year field).
-- `page=<n>` paginates.
+- ⚠ **`page=<n>` does not reliably paginate the Norfolk parish sets** — `page=2` on the baptisms results returned 0 rows (the param did not page). When a keyword-boosted result is small and the primaries look exhaustive, treat page 1 as the complete set; otherwise narrow by year or a tighter surname-variant spelling rather than paging. (Same failure class on Ancestry collection results — §6.)
 - `spouselastname` (marriages set) — see §3.
 - ⚠ **`mothersfirstname` does not bind** on the baptisms results URL — a `mothersfirstname=` filter returns the full unfiltered result set (confirmed June 2026). Filter baptisms by reading the **Mother** column, or constrain via year / place / a tighter surname-variant spelling instead.
 - ⚠ **`fathersfirstname` also does not bind** on the baptisms results URL (confirmed 2026-06-20: `lastname=gurn*&fathersfirstname=jo*` returned the identical 102-row set as without it). Neither parent-forename URL param filters. To isolate one household, narrow by the **exact index spelling** of the surname (e.g. `lastname=gurnie` pulled the Hempnall family's 10 rows cleanly out of the 102 `gurn*` baptisms) and then read the Father/Mother/Place columns.
@@ -53,7 +53,7 @@ The banns-and-marriages set has a **Spouse's last name** field (URL `spouselastn
 
 ## 6. Ancestry record-search mechanics (collection-scoped URLs)
 
-Authenticated Ancestry in the same browser. The most reliable automation path is a **collection-scoped results URL**, not the global search:
+Authenticated Ancestry in the same browser. **Always use `ancestry.com`, not `.co.uk`:** a `.co.uk` URL can silently present the signed-out *masked* view (separate session cookies + consent banner) even when `.com` is fully authenticated — a round-1 "Podmer signed out" negative was purely this domain artifact. The most reliable automation path is a **collection-scoped results URL**, not the global search:
 
 ```
 https://www.ancestry.co.uk/search/collections/<dbid>/?name=<First>_<Last>&birth=<year>_<place>&f-<FACET>=<value>
@@ -64,6 +64,8 @@ https://www.ancestry.co.uk/search/collections/<dbid>/?name=<First>_<Last>&birth=
 - **Marriages:** add the partner with **`spouse=_Anne`**. Father filter in births works via a facet param (e.g. `f-F0005A1A=Edward`) but the param id is collection-specific and brittle — prefer reading the **Relatives** column (it shows father/mother) over trusting the facet.
 - **Do NOT set exact flags when you want to see candidates.** Appending `_x=0-0-0` / `_x=...1` (the "Exact" toggles) makes Ancestry return *"zero good matches"* whenever nothing matches exactly — it fails closed. Search **non-exact** and filter the result table yourself by the Baptism/Marriage Place and Year columns.
 - The **place in `birth=`/`marriage=` does not hard-filter** — it only re-ranks; non-matching parishes still appear far down the list. Read the Place column to confirm, exactly as with FMP.
+- ⚠ **`&page=2` does not bind on collection results** — it returns the identical page-1 rows. When the primaries are exhausted on a keyword-boosted small result, that page *is* the set; otherwise tighten the query rather than paging.
+- **Pulling the full record image:** the collection viewer serves a single full-res JPEG via a per-media cookie-bound endpoint — recipe (and its claude-in-chrome renderer-freeze caveat) is in `familysearch-fulltext-research` §3.
 - **Reading results:** `get_page_text` on the results tab returns the table cleanly (Name / Date / Place / Relatives / Primary). Right after `navigate`, the first `get_page_text` can return empty — wait ~2s and retry. The URL silently localizes to `.com`; that's fine.
 
 ## 7. Published probate indexes dataset (BRS + Matthews)

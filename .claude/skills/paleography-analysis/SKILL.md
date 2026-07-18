@@ -90,6 +90,8 @@ During staging, keep generated snippets near the image packet, normally under `s
 
 After a batch is promoted, follow `.claude/skills/familysearch-fulltext-research/SKILL.md` for disposition of packet reports, master images, working crops, and staging-path cleanup.
 
+**Commit only the masters, final contact sheets, and manifests.** Derivative analysis crops — single-band enhancement crops, line strips, and crop ladders — are regenerable from the kept masters via the workbench, and a full enhancement run is large (a single packet's band/ladder PNGs can reach hundreds of MB). Produce them under the packet's `_local/` (gitignored) or delete them after the report is written; never commit them. This keeps the repo to the durable inputs (das/v2 or contact-sheet masters), the final contact sheets, and the `*-manifest.md` that records the coordinates to reproduce any crop.
+
 Substantive readings and findings belong in the relevant research file or `sources/corpus_supplement/`, not only in image manifests. Manifests are reproducibility aids, not research destinations.
 
 ## Continual Improvement
