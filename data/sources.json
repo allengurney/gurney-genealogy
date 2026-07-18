@@ -3021,7 +3021,7 @@
       "corpusPath": "sources/corpus_supplement/unicaen-scripta-selected-gournay-acts.md",
       "mediaPath": null,
       "validationPath": "sources/validations/unicaen-scripta-selected-gournay-acts.md",
-      "notes": "Selected SCRIPTA acts from the Normonde Hugues Ier de Gournay authority roster and follow-on act exploration. Includes Acts 151, 1633, 1661, 6458, 6463, 6466, 6467, 6472, 6511, 6512, 6520, 6523, 6538, and 6565. Key findings: Act 151 directly names Hugh, Basilia, and Gerard consenting to Raoul Havoth's Jumieges donation at Hugonis Silva/Boschyons; Act 6511 directly names Hugh de Gornaco and his son Gerard donating their domain in the same villa, contextually Bois Girard, to Bec; Act 6512 preserves William I's confirmation that Hugh gave Bec what he held of the king in London plus Fordham, Ardleigh, and Liston rights; Act 6538 provides modern SCRIPTA/Bates/Fauroux control for the Cauville/Montivilliers sale already printed by Daniel Gurney."
+      "notes": "Selected SCRIPTA acts from the Normonde Hugues Ier de Gournay authority roster and follow-on act exploration. Includes Acts 151, 1633, 1661, 6458, 6463, 6466, 6467, 6472, 6511, 6512, 6520, 6523, 6538, and 6565. Key findings: Act 151 directly names Hugh, Basilia, and Gerard consenting to Raoul Havoth's Jumieges donation at Hugonis Silva/Boschyons; Act 6511 directly names Hugh de Gornaco and his son Gerard donating their domain in the same villa, contextually Bois Girard, to Bec; Act 6512 preserves William I's confirmation that Hugh gave Bec what he held of the king in London plus Fordham, Ardleigh, and Liston rights; Act 6538 provides modern SCRIPTA/Bates/Fauroux control for the Cauville/Montivilliers sale already printed by Daniel Gurney. The Toronto DEEDS database mirrors SCRIPTA for its Norman acta (see deeds-utoronto-gournay-charter-extracts), so a doubted DEEDS 'Assigned' date can be cross-checked against the SCRIPTA sc_ record; the assignments can differ (DEEDS 06400021 'assigned 1040' vs SCRIPTA sc_151 [1049-1087] for the same Havoth act)."
     },
     "potts-monastic-revival-regional-identity-1997": {
       "shortTitle": "Potts, Monastic Revival and Regional Identity (1997)",
@@ -4522,6 +4522,17 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "Cited by Richardson (SGM 2002) for the c. 1150 charter of Manasser de Dammartin and his wife Galiena witnessed by Walter de Gournay. Full texts read July 2026 via the University of Toronto DEEDS database (cartulary 0013): doc 00130071 (the 1150 grant, 'Waltero de Gurnay' witness, bench headed by Theobald of Canterbury), doc 00130070 (family confirmation 1150×1178, 'Willelmo de Gornaio' witness, sons Bartholomew/Odo/Hamo/William), doc 00130072 (Galiena II quitclaim, 1257/8). HathiTrust remains search-only."
+    },
+    "deeds-utoronto-gournay-charter-extracts": {
+      "shortTitle": "DEEDS (Toronto) Gournay charter extracts",
+      "citation": "DEEDS: Documents of Early England Data Set, University of Toronto Scarborough. Selected charter transcriptions relating to the Gournay family, captured from a systematic gour*/gurn*/gorn* full-text sweep, July 2026. Underlying editions include Regesta Regum Anglo-Normannorum vols. 1-2, Chartes de l'Abbaye de Jumieges t. 1 (Vernier 1916), The Cartulary of Missenden Abbey vol. 2 (BRS 12), Feet of Fines Norfolk (PRS n.s. 27), Annales de Burton (BL Cotton Vespasian E III), and Newly Discovered Charters of King John.",
+      "archive": "DEEDS database, deeds.utsc.utoronto.ca",
+      "url": "https://deeds.utsc.utoronto.ca/",
+      "corpusStatus": "supplement",
+      "corpusPath": "sources/corpus_supplement/deeds-utoronto-gournay-charter-extracts.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/deeds-utoronto-gournay-charter-extracts.md",
+      "notes": "Aggregate entry for the July 2026 DEEDS variant sweep and eleven charter full-text pulls: the Jumieges Havoth family-group act (06400021, original AD Seine-Maritime 9 H 1747/1), the Bec three-generation confirmation of 1112/13 (03781013), the 1167 Broughton acts of Hugh de Gournay and his wife Milesent (02580556/61), the 1202/3 Harpley fine (01770391), the Wendover Brisepot grant (00130234), and five further Norman acta. For the Norman acta DEEDS mirrors SCRIPTA (Universite de Caen); 'Assigned' dates are editorial, and the two databases' assignments can differ. Individual charters cite this entry plus the underlying printed edition in the footnote. Distinct from jenkins-missenden-cartulary-v1 (Missenden vol. 1 / cartulary 0013) and gervers-st-john-secunda-camera-1982 (cartulary 0088)."
     },
     "evans-dammartin-genealogists-magazine-1965": {
       "shortTitle": "Evans, 'Dammartin' (Genealogists' Magazine 1965)",

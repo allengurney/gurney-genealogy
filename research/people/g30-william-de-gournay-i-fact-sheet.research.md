@@ -46,6 +46,12 @@ William witnessed a confirmation charter of Manasser de Dammartin and his wife G
 
 [^missenden-william-g30]: J. G. Jenkins, ed., *The Cartulary of Missenden Abbey*, vol. 1 (Buckinghamshire Record Society 2, 1938), pp. 70–75; full text via the University of Toronto DEEDS database, document 00130070, https://deeds.utsc.utoronto.ca/charters/00130070 (assigned 1150–1178). Extract: sources/corpus_supplement/missenden-cartulary-dammartin-charters-deeds-transcripts.md. Source ID: `jenkins-missenden-cartulary-v1`.
 
+### A "Willelmus de Gurnai" in a Norfolk fine, 1198
+
+A final concord made in the king's court at Norwich in 1198 ran "inter Willelmum de Gurnai petentem et Martinum de Mertlai" — between William de Gurnai, claimant, and Martin de Mertlai. A Norfolk-line William litigating at Norwich in 1198 is either G30 himself late in life (his attested floruit runs c. 1150–1180, "Living 1167") or an unrecorded son of the same name; the record was identified at result-card level in the July 2026 DEEDS sweep and the full concord has not been pulled. Five years later the same bench recorded the Harpley concord of Matthew de Gurnay (G29, 21 March 1202/3 — full treatment on [harpley.md](../places/harpley.md)); the two fines together put the junior line in the Norfolk possessory courts at the turn of the century, and their household fit is an open micro-question.[^deeds-1198-fine-g30]<!-- L-246 -->
+
+[^deeds-1198-fine-g30]: Feet of Fines for Norfolk (Pipe Roll Society n.s. 27); DEEDS database document 01770022 (1198, Norwich), result-card snippet from the July 2026 sweep; the Matthew concord is DEEDS 01770391, verbatim in `sources/corpus_supplement/deeds-utoronto-gournay-charter-extracts.md`. Source ID: `deeds-utoronto-gournay-charter-extracts`.
+
 ---
 
 ## Landholdings

@@ -24,6 +24,12 @@ Fordham had **eleven *bordarii* and four *servi*** per the Domesday entry (cited
 
 Because Fordham preserves a little more socio-economic texture than the other two Essex places, it is a good reminder that the Gournay family's English footprint was not only a list of names on parchment but a set of working agricultural communities embedded in the post-Conquest tenurial order.
 
+## The church of Fordham given to Bec
+
+Hugh III's tenure at Fordham had an ecclesiastical arm that outlived his lay lordship: he gave the **church of Fordham** to the Abbey of Bec. The gift enters the record three times across four decades. The 1076 Bec charter gave the abbey the tithes of Fordham, Liston, and Ardleigh with patronage rights (DG-Supp Note 13). William I's confirmation of Bec's English holdings ([1081–1087], SCRIPTA Act 6512) confirms, at Fordham specifically, the church and church land with all tithe and one *villanus* (villein). And Henry I's Bec confirmation of 11 February 1112/13 recites among the grandfather Hugh's gifts "in Essessa ecclesiam de Fordaham" — in Essex, the church of Fordham — alongside his London holding held of King William.[^fordham-bec-stack] Whatever became of the lay manor after Hugh III, the church was in Bec's alien-priory network from the Conqueror's reign.
+
+[^fordham-bec-stack]: (1) DG-Supp Note 13, pp. 732–734 (the 1076 Bec tithe charter, from the Paris MS. *Histoire des Seigneurs de Gournay* recording the Cartulaire du Bec); Source ID: `dg-rec-supp`. (2) SCRIPTA Act 6512, William I confirmation of Bec's English holdings, [1081–1087]; Source ID: `unicaen-scripta-selected-gournay-acts`. (3) *Regesta Regum Anglo-Normannorum*, vol. 2, Henry I confirmation for Bec, 11 Feb 1112/13, via the University of Toronto DEEDS database, document 03781013, https://deeds.utsc.utoronto.ca/charters/03781013; verbatim in `sources/corpus_supplement/deeds-utoronto-gournay-charter-extracts.md`; Source ID: `deeds-utoronto-gournay-charter-extracts`.
+
 ## Primary-source hooks
 
 - **Domesday Book (1086)** — Essex folio for Fordham. Accessible via Open Domesday.
@@ -31,7 +37,7 @@ Because Fordham preserves a little more socio-economic texture than the other tw
 ## Open items
 
 - [ ] Pull the Domesday Essex entry for Fordham for full Latin text, valuations, and any detail on hides/carucates.
-- [ ] Check whether Fordham remained in Gournay hands after Hugh III.
+- [ ] Check whether the lay manor of Fordham remained in Gournay hands after Hugh III (the church went to Bec — see above).
 - [ ] Compare the valuation and labour profile with Ardleigh and Liston once the direct entries are extracted.
 
 ## Sources
