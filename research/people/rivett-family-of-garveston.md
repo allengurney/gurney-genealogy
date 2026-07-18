@@ -217,6 +217,38 @@ the boys' uncles. The indexed adult-trail search for John's brother **Edward** i
 without a candidate; the remaining paternal-fostering route is the targeted Great Ellingham
 and West Barsham manorial and probate work under L-136.
 
+### The name-switch and wardship tests
+
+If John and Edward were raised by Rivett kin, they might surface in records under their
+mother's surname (or an alias form — "X alias Y" surnames are routine in this era's court
+and parish records; a "Jas. Gurney alias Greenhill, husbandman" appears at Watford in
+1656/7, proving the pattern for Gurneys generally). Three tests of that hypothesis are now
+run, all effectively negative but each sharpening the search picture:
+
+- **No formal wardship record exists for the family — and none should.** The 1611 clerk's
+  spelling "Rybett" appears in **zero records nationally** in the TNA catalogue, and a
+  Court of Wards sweep for Rivett variants finds **no Norfolk Rivett at all** — every
+  wardship-class hit belongs to the Suffolk gentry Ryvetts (below) or a Sussex family.
+  Crown wardship attached only to land held in chief of the king; the Garveston Rivetts
+  were copyholders, so their orphans' guardianship was a **manor-court** matter — under
+  copyhold custom the court itself assigned custody of an under-age heir and his land.
+  This is one more reason the Whinburgh-with-Members rolls (L-238) are the decisive
+  series: a guardianship assignment for any Rivet or Gurney-connected minor c. 1597–1630
+  would sit in exactly those courts.[^spike-ward-rivett]
+- **No "alias Gurney" record class exists at national-catalogue level** ("Gurney alias" and
+  "alias Gurney" return nothing relevant before the 18th century in the TNA catalogue); a
+  place-scoped full-text alias probe of the Norfolk legal collections remains open
+  (L-245).[^spike-alias]
+- **The Edward-under-Rivett tracer is negative — and diagnostic.** No documented Norfolk
+  Rivett household used the forename Edward at all: across both index nets the **only**
+  17th-century adult Edward Riv\* event in the county is a marriage at **Great Yarmouth,
+  10 May 1653** (spouse's name indexed "Weno" in one set, "Adrye" in the other), and no
+  Edward Rivett left Norfolk probate before 1725. The 1653 groom is a weak candidate for
+  John's brother Edward (he would be ~42; Yarmouth is coastal Revett country, far from the
+  Mitford orbit) — but the forename's absence from the Rivett onomasticon means **any
+  future "Edward Rivett" surfacing in mid-Norfolk records c. 1625–1660 would be anomalous
+  and worth immediate attention** as a possible name-switched brother.[^spike-edward-tracer]
+
 ## The Whinburgh-with-Members manorial unlock
 
 **The one record class that could still prove Margaret's parentage outright is manorial.**
@@ -337,6 +369,16 @@ or unconnected is unresolved (lead L-133). The Brandeston branch (John Ryvett ×
 has a daughter Margaret and a Gressenhall (Trench) marriage, but the Garveston Margaret is the
 stronger candidate for Francis Gurney's wife.
 
+The status gulf between the two families now has a record-class marker: the Suffolk gentry
+Ryvetts generated **Court of Wards** business — inquisitions post mortem for Thomas Rivett
+of Suffolk (1610/11, WARD 7/44/137) and John Rivett of Suffolk (1616/17, WARD 7/55/147; and
+as "John Rivett, idiot," 1618/19, WARD 7/59/100), with John Brooke, gent., serving as the
+Court-appointed committee and guardian of the "idiot" John Ryvett and accounting to the
+Court from 1620 into the 1620s (Blois family archive, Suffolk Archives Ipswich, HA30/369
+series) — because their land was held in chief. No mid-Norfolk Rivett appears anywhere in
+the same series: the Garveston family held by copyhold, below the wardship
+threshold.[^suffolk-ward-ryvett]
+
 ## Myrable Ryvett's marriage
 
 The primary Visitation of Suffolk (Metcalfe, p. 63) records **Myrable Ryvett married William
@@ -392,7 +434,8 @@ the Gurney–Heydon tie via Anne Heydon m. William Gurney V is independent and u
   re-crop (+ "who is Robt Gurn[ey]" on the 1648 leaf); **L-240** East Dereham burial-header
   continuation pulls; **L-242** Grigson look-ups + the 1584 marriage leaf; **L-243** the
   Podmer-variant (`p?tm*r`/`patm*`) probate re-sweep; **L-244** Mattishall register-coverage
-  characterisation.
+  characterisation; **L-245** the name-switch residuals (Norfolk-scoped alias probe, Rivett
+  rows in the Norwich freemen/apprentices indexes, the 1653 Yarmouth Edward identity check).
 
 ## Crosslinks
 - Father of John: [`research/people/g14-francis-gurney-fact-sheet.research.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g14-francis-gurney-fact-sheet.research.md)
@@ -430,4 +473,8 @@ the Gurney–Heydon tie via Anne Heydon m. William Gurney V is independent and u
 [^podmer-pcc]: Will of Richard Podmer of Leaton, Shropshire, PROB 11/125/537 (PROB 11 Piece 125, register Rudd, quires 1–66), proved 22 May 1615; located via TNA Discovery (`podmer` = 4 records nationally, this the only early will), imaged from the Ancestry PCC collection and read at expert level 2026-07-16 (paleography packet 48-B): wife Elizabeth; Podmer/Podmore legatees Thomas, Richard, John, Henry, Edward, William, Samuel; no Norfolk token, no Rivett, no Gurney. Source ID: `ancestry-pcc-wills-1384-1858`.
 [^podmer-negative]: Ancestry.co.uk/.com, "Norfolk, England, Indexes to Wills, Probate, Administrations and Marriage Licence Bonds, 1371–1858," sweeps 2026-07-16 (authenticated ancestry.com session): `podm*` = 0, `p?dm*r` = 0, fuzzy `podmore` = 1 (Barnaby Patmore, marriage licence 1733, × Margaret Webster) — no Podmer will, administration, or licence in any Norfolk court under those patterns. The patterns do not catch the attested variants Pitmer/Pytmer/Patmer, so the negative is unproven for the variant family; the `p?tm*r`/`patm*` re-sweep is open. Source ID: `norfolk-wills-probate-index-1371-1858`.
 [^wymondham-francis]: Ancestry.com, "Norfolk, England, Church of England Baptisms, Marriages, and Burials, 1535–1812," record 4170469 (image-backed; NRO PD 184/8): Francis Rivett m. Matthy Gray, 1 October 1620, Wymondham; the same collection carries Margaret Rivott bp 17 Nov 1624 (father Francis), Martha Rivett burial 27 Aug 1681, and Margarett Rivett burial 5 Jul 1686, all Wymondham, with no Francis Rivett burial there at any date (earliest Rivett burial 1681; pre-1656 burial coverage unverified). FindMyPast "Norfolk Baptisms": James Rivett 1622, Margaret Rivett 1624, Fran(n)cis Revett 1626, all father Francis, Wymondham; and the Buxton block — Francis Rivet + Ruth: Francis, John Benjamin, Sarah, Susanna, William, all year-indexed 1600 (with other Buxton Rivet households similarly block-indexed). Elizabeth (Podmer) Rivet's continued Garveston residence to 1626 per the burial at `[^elizabeth-burial-1626]`. Source IDs: `ancestry-norfolk-1535-1812`; `findmypast-norfolk-baptisms-index`.
+[^spike-ward-rivett]: The National Archives, Discovery catalogue (API, 2026-07-17): `"rybett"` = 0 records nationally; `rivett AND "court of wards"` = 10 records, none Norfolk — three TNA WARD 7 inquisitions for Suffolk Rivetts (see the Suffolk Ryvett section), the Suffolk Archives HA30/369 committee/guardian series for John Ryvett "idiot," a 1589 WARD 2 privy-seal commission naming a John Rivett, and a 1595 Court of Wards injunction to an Anthony Rivett (West Sussex RO, Lavington/224, Billingshurst, Sussex). Catalogue level; Discovery is the access route. Limitation: the Court of Wards miscellanea (WARD 9) and feodary surveys are not name-indexed at item level, so this is a catalogue-index negative, not a document-level one — but the structural point (copyholders fell outside Crown wardship) does not depend on it.
+[^spike-alias]: The National Archives, Discovery catalogue (API, 2026-07-17): `"alias gurney"` = 0; `"gurney alias"` = 4 (two 19th-century soldiers, a 1586/7 Star Chamber defendant "John Gurney alias Keeling," and an Essex manor called "Gurney alias Gurnades" — none relevant). FamilySearch Full-Text Search, `"Gurney alias"` (2026-07-17): the era-pattern example "Jas. Gurney, alias Greenhill, husbandman, of Watford (s. Thos. Gurney, alias Greenhill, husbandman)," Rickmansworth marriages, Dec. 1656/7, in an Ardeley, Hertfordshire record volume; the query would not scope to Norfolk in this pass (245 unscoped result pages, top ranks all modern/American) — the place-scoped Norfolk alias probe is the open residual (L-245). Source ID: `familysearch-fulltext-search`.
+[^spike-edward-tracer]: Ancestry.com, "Norfolk, England, Church of England Baptisms, Marriages, and Burials, 1535–1812," search `edward_riv*` (20 rows, complete, 2026-07-17): the only 17th-century row is Edward Rivett, marriage 10 May 1653, Great Yarmouth (spouse indexed "Weno"); every other row is 1703 or later (Wymondham, Westfield, Shipdham, Carleton Rode, Stockton, Necton, East Bradenham). FindMyPast "Norfolk Banns and Marriages," `edward r?vett` (25 rows, 2026-07-17): same single pre-1800 event (spouse indexed "Adrye"), next earliest 1804. Ancestry.com, "Norfolk, England, Indexes to Wills, Probate, Administrations and Marriage Licence Bonds, 1371–1858," `edward_riv*` (3 rows, 2026-07-17): will 1725 and inventory 1726–27 of an Edward Rivett, plus an Edward Rivers admon 1767 — no Edward Rivett probate in the brother's lifetime window. Coverage caveats: 61045 covers ~¾ of parishes and FMP's Norfolk sets are parish-selective (both omit some Mitford-hundred parishes), so these are index-net negatives, not register-level ones. Source IDs: `ancestry-norfolk-1535-1812`; `findmypast-norfolk-banns-marriages-index`; `norfolk-wills-probate-index-1371-1858`.
+[^suffolk-ward-ryvett]: The National Archives, Discovery catalogue (API, 2026-07-17), `rivett AND "court of wards"`: WARD 7/44/137 ("Rivett, Thomas: Suffolk," 8 Jas I = 1610/11); WARD 7/55/147 ("Rivett, John: Suffolk," 14 Jas I = 1616/17); WARD 7/59/100 ("Rivett, John (idiot): Suffolk," 16 Jas I = 1618/19); Suffolk Archives (Ipswich), Blois Family Archive HA30/369/211 (account of John Brooke, gent., guardian of John Rivett, idiot, before the Court of Wards and Liveries, Michaelmas 1620–Michaelmas 1621), HA30/369/215 (receipt of Sir Miles Fletewood, Receiver General, to Brooke for two years' rents of John Rivett's lands, 22 Nov 1622), HA30/369/203 (declaration of account, 1626–27), HA30/312/130 (estate records, 1622–23), HA30/369/93 (order appointing Brooke committee). Catalogue level; the documents are unexamined. Discovery is the access route.
 [^packet44]: East Dereham parish register (NRO PD 86/41), staged-image read 2026-07-16 (paleography packet 44) over the 1615–1619 return pages (film pages 00725–00734): the visible 1619 "Burials" section was scanned for Gurney/Gurnay/Gurnoe/Gurnye, Rivett/Rivet/Ryvett/Rybett, and Margaret/Margarett/Margeria forms with no target found; the 1616–1618 burial subsections were not cleanly isolated in the staged sequence, so no hard negative is logged for those years. The known anchor "Marye the daughter of Francis Gurnoe bapt. May 25" (page 00732, 1618 return) was confirmed in passing. Source ID: `nro-pd-86-41`.
