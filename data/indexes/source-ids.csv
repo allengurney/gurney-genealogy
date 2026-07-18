@@ -244,6 +244,7 @@ les-olim,Les Olim (French legal records),supplement,sources/corpus_supplement/le
 lestrange-rye-norwich-freemen-1317-1603,"L'Estrange/Rye, Calendar of the Freemen of Norwich, 1317-1603",extract,sources/corpus_supplement/norwich-freemen-calendar-1317-1603-gurney-entries.md,,sources/validations/lestrange-rye-norwich-freemen-1317-1603.md
 letters-papers-henry-viii,"Letters and Papers, Foreign and Domestic, Henry VIII",none,,,sources/validations/letters-papers-henry-viii.md
 liber-niger,Liber Niger Scaccarii,none,,,
+lloyd-family-boston,Lloyd family of Boston and Lloyd Neck (compiled/collector references),none,,,sources/validations/lloyd-family-boston.md
 lma-st-augustine-watling-register-candidate-d-images,LMA St Augustine Watling Street register - Candidate D images,partial,,sources/intake/archive/john-gurney-2026May/john-gurney-candidate-d-working-packet-audited-v13.md,sources/validations/lma-st-augustine-watling-register-candidate-d-images.md
 lma-st-giles-cripplegate-register-john-grone-1630,LMA St Giles Cripplegate - John Grone baptism (1630),partial,,sources/media/lma-st-giles-cripplegate-register-john-grone-1630,sources/validations/lma-st-giles-cripplegate-register-john-grone-1630.md
 lma-st-giles-cripplegate-register-p69-gis-a-002,"St Giles Cripplegate, parish register (LMA P69/GIS/A/002/MS06419/003)",none,,,sources/validations/lma-st-giles-cripplegate-register-p69-gis-a-002.md
@@ -336,6 +337,7 @@ paston-letters-davis,Paston Letters and Papers -- Davis edition,none,,,sources/v
 paston-letters-gairdner,Paston Letters -- Gairdner edition (1904),full,sources/corpus_supplement/paston-letters-gairdner-gurney-extracts.md,,sources/validations/paston-letters-gairdner.md
 pattou-racines-histoire-gournay-2025,Pattou Racines Histoire -- Gournay,external,,,
 pcc-prob11-10-vox-calthorpe-1495,"PCC will of Sir William Calthorpe (PROB 11/10, Vox, 1495)",none,,sources/media/pcc-prob11-10-vox-calthorpe-1495/,sources/validations/pcc-prob11-10-vox-calthorpe-1495.md
+pcc-prob11-461-dyer-lewis-nevis,"PCC will of John Lewis of Nevis (PROB 11/461, Dyer, 1701)",none,,sources/media/pcc-prob11-461-dyer-lewis-nevis/,sources/validations/pcc-prob11-461-dyer-lewis-nevis.md
 pcc-rivett-rattlesden-wills,"PCC wills - Rivett/Ryvett of Rattlesden (1610, 1626)",none,,,sources/validations/pcc-rivett-rattlesden-wills.md
 pease-pennyghael,Pease genealogy (Pennyghael),none,,,
 pettigrew-collectanea-house-gournay-1871,"Pettigrew, On the House of Gournay",partial,sources/corpus_supplement/pettigrew-collectanea-house-gournay-1871.txt,sources/media/Collectanea_Archaeologica.pdf,sources/validations/pettigrew-collectanea-house-gournay-1871.md

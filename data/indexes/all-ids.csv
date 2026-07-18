@@ -396,6 +396,7 @@ les-olim,source,Les Olim (French legal records),data/sources.json
 fairhaven-lester-obituary,source,"Lester Hayes Gurney Obituary (FairHaven, 2025)",data/sources.json
 letters-papers-henry-viii,source,"Letters and Papers, Foreign and Domestic, Henry VIII",data/sources.json
 liber-niger,source,Liber Niger Scaccarii,data/sources.json
+lloyd-family-boston,source,Lloyd family of Boston and Lloyd Neck (compiled/collector references),data/sources.json
 lma-st-augustine-watling-register-candidate-d-images,source,LMA St Augustine Watling Street register - Candidate D images,data/sources.json
 lma-st-giles-cripplegate-register-john-grone-1630,source,LMA St Giles Cripplegate - John Grone baptism (1630),data/sources.json
 lma-st-magnus-martyr-register-candidate-d-images,source,LMA St Magnus the Martyr register - Candidate D images,data/sources.json
@@ -479,6 +480,7 @@ park-royal-holloway-thesis-2013,source,"Park, PhD thesis (Royal Holloway, 2013) 
 paston-letters-gairdner,source,Paston Letters -- Gairdner edition (1904),data/sources.json
 paston-letters-davis,source,Paston Letters and Papers -- Davis edition,data/sources.json
 pattou-racines-histoire-gournay-2025,source,Pattou Racines Histoire -- Gournay,data/sources.json
+pcc-prob11-461-dyer-lewis-nevis,source,"PCC will of John Lewis of Nevis (PROB 11/461, Dyer, 1701)",data/sources.json
 pcc-prob11-10-vox-calthorpe-1495,source,"PCC will of Sir William Calthorpe (PROB 11/10, Vox, 1495)",data/sources.json
 pcc-rivett-rattlesden-wills,source,"PCC wills - Rivett/Ryvett of Rattlesden (1610, 1626)",data/sources.json
 pease-pennyghael,source,Pease genealogy (Pennyghael),data/sources.json

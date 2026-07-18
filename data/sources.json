@@ -2614,7 +2614,29 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": "sources/validations/nehgr-49-genealogical-gleanings-john-lewis.md",
-      "notes": "User-supplied extract from John Lewis of Nevis will, dated 21 December 1699 and proved 9 July 1701, includes a reference to Mary Gurney, daughter of John Gurney. Probate registration confirmed 2026-05-29 as PCC register Dyer, quire 99 (PROB 11/461) from the NEHGR vol. 49 abstract (Internet Archive scan newenglandhistor49wate). Treat as a same-name/relationship lead; the working hypothesis ties Mary to G13's son John Jr. (b. c.1633), unconfirmed."
+      "notes": "User-supplied extract from John Lewis of Nevis will, dated 21 December 1699 and proved 9 July 1701, includes a reference to Mary Gurney, daughter of John Gurney. Probate registration confirmed 2026-05-29 as PCC register Dyer, quire 99 (PROB 11/461) from the NEHGR vol. 49 abstract (Internet Archive scan newenglandhistor49wate). Treat as a same-name/relationship lead; the working hypothesis ties Mary to G13's son John Jr. (b. c.1633), unconfirmed. Register-image confirmation of the abstract is held separately as pcc-prob11-461-dyer-lewis-nevis."
+    },
+    "pcc-prob11-461-dyer-lewis-nevis": {
+      "shortTitle": "PCC will of John Lewis of Nevis (PROB 11/461, Dyer, 1701)",
+      "citation": "Will of John Lewis of the Island of Nevis, merchant, dated 21 December 1699, proved 9 July 1701. The National Archives, PROB 11/461 (register Dyer), quire 99; register images via Ancestry, \"England & Wales, Prerogative Court of Canterbury Wills, 1384-1858\" (dbid 5111), images 40611_310640-00574 to -00576.",
+      "archive": "The National Archives (PROB 11/461); Ancestry dbid 5111 register images",
+      "url": "https://www.ancestry.com/search/collections/5111/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": "sources/media/pcc-prob11-461-dyer-lewis-nevis/",
+      "validationPath": "sources/validations/pcc-prob11-461-dyer-lewis-nevis.md",
+      "notes": "Register copy of the 1699 Lewis will, previously held only at abstract level (Waters, NEHGR 49). The image confirms the stand-alone legatee wording \"unto Mary Gurney the daughter of John Gurney,\" placed immediately after the bequest to \"my kinswoman Grisell Lloyd daughter of James Lloyd\"; Mary carries no residence or kinship qualifier. Sole executor Henry Lloyd, merchant of Bristol. Working-reference images in mediaPath _local/ (licensed-database captures)."
+    },
+    "lloyd-family-boston": {
+      "shortTitle": "Lloyd family of Boston and Lloyd Neck (compiled/collector references)",
+      "citation": "Compiled and collector references for James Lloyd, merchant of Boston (c. 1653-1693), and his family: Geni, \"James Lloyd merchant of Boston\"; Lloyd Harbor Historical Society, \"The Lloyd Family\"; Town of Huntington, \"The Lloyds of Lloyd Neck (1676-1885)\"; American Aristocracy, \"Grizzell (Eastwick) Apthorp\"; Cobbold Family History Trust biography no. 9342.",
+      "archive": "Web (collector/compiled genealogies and local-history pages)",
+      "url": "https://lloydharborhistoricalsociety.org/lloyd-family/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/lloyd-family-boston.md",
+      "notes": "Collector-level references establishing that Grisell Lloyd, the kinswoman named in John Lewis of Nevis's 1699 will, was the daughter of James Lloyd of Boston (grandson of Sir John Lloyd 1st Bt.), born Jamaica c. 1685 and married John Eastwick 1703. Used only to characterise the will's Boston-Shelter Island-Nevis-Bristol merchant milieu; tertiary/compiled sources carrying no primary documentation, cited as collectors, not authorities."
     },
     "pcc-rivett-rattlesden-wills": {
       "shortTitle": "PCC wills - Rivett/Ryvett of Rattlesden (1610, 1626)",
