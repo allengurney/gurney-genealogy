@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "1.32.0",
+    "version": "1.33.0",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
     "lastUpdated": "2026-07-17",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
@@ -4676,6 +4676,17 @@
       "mediaPath": null,
       "validationPath": null,
       "notes": "Relational database of Church of England clergy careers compiled from diocesan records; coverage begins at the Reformation (records from 1540), so medieval institutions are out of scope. July 2026 surname census: Gurney = 24 person-records, all late-Georgian/Regency (1767-1834); Gurnay and Gournay = 0. No 15th-17th-century Gurney cleric and no George Gurnay of Tacolneston under any spelling."
+    },
+    "cul-archivesearch": {
+      "shortTitle": "Cambridge University Library ArchiveSearch",
+      "citation": "ArchiveSearch, the discovery portal for archives and manuscript collections at Cambridge University Library and Cambridge colleges (archivesearch.lib.cam.ac.uk).",
+      "archive": "Cambridge University Library and Cambridge college archives (Christ's College Muniments; Corpus Christi College archives; CUL University Archives)",
+      "url": "https://archivesearch.lib.cam.ac.uk/",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/cul-archivesearch.md",
+      "notes": "Aggregated catalogue for the manuscript and archive collections held at CUL and the Cambridge colleges. Cited for catalogue-row evidence surfaced by a July 2026 'gurnay' keyword sweep (10 rows): Christ's College Muniments Norfolk manorial deeds (Feltwell, Bintry) naming medieval Gurnays, a CUL Vice-Chancellor's Court act-book entry, and Corpus Christi Cambridge parish deeds. Described originals remain unexamined in the CUL reading rooms unless separately pulled."
     },
     "nro-catalogue-atom": {
       "shortTitle": "Norfolk Record Office online catalogue (AtoM)",

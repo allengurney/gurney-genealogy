@@ -97,11 +97,13 @@ cpr-edward-iv-henry-vi-1467-77,"Calendar of Patent Rolls, Edward IV-Henry VI, 14
 cpr-henry-iv-1399-1401,"Calendar of Patent Rolls, Henry IV, 1399-1401",none,,,
 cpr-henry-vi-1422-29,"Calendar of Patent Rolls, Henry VI, 1422-29",none,,,
 csm-39-boston-first-church,"CSM 39 — Records of the First Church in Boston, vol. I (1961)",none,,,sources/validations/csm-39-boston-first-church.md
+cul-archivesearch,Cambridge University Library ArchiveSearch,none,,,sources/validations/cul-archivesearch.md
 cummington-vital-records,"Cummington, Massachusetts, town vital records (births)",partial,sources/corpus_supplement/cummington-vital-records-gurney-births.md,sources/media/cummington-vital-records/,sources/validations/cummington-vital-records.md
 daniel-history-england-1613-pt1,"Daniel, First Part of the Historie of England (1613)",supplement,sources/corpus_supplement/daniel-history-england-1613-pt1-gurney-extract.md,,sources/validations/daniel-history-england-1613-pt1.md
 dashwood-visitation-norfolk-1563-vol1-1878,"Dashwood, Visitation of Norfolk 1563, vol. 1 (1878)",partial,sources/corpus_supplement/dashwood-visitation-norfolk-1563-vol1-1878-kervile-p58.md,sources/media/dashwood-visitation-norfolk-1563-vol1-1878/,sources/validations/dashwood-visitation-norfolk-1563-vol1-1878.md
 davis-abel-lunt-1963,"Davis, Ancestry of Abel Lunt",none,,,
 decorde-essai-canton-gournay-1861,"Decorde, Essai historique et archeologique sur le Canton de Gournay (1861)",full,sources/corpus_supplement/essai-historique-archeologique-canton-de-gournay-decorde-1861.txt,,sources/validations/decorde-essai-canton-gournay-1861.md
+deeds-utoronto-gournay-charter-extracts,DEEDS (Toronto) Gournay charter extracts,supplement,sources/corpus_supplement/deeds-utoronto-gournay-charter-extracts.md,,sources/validations/deeds-utoronto-gournay-charter-extracts.md
 delisle-critique-of-dg,Léopold Delisle's critique of Daniel Gurney,minimal,,,
 descriptive-catalogue-ancient-deeds,"A Descriptive Catalogue of Ancient Deeds (TNA, HMSO)",partial,sources/corpus_supplement/ancient-deeds-a7857-heydon-gurney-ormesby.md,,sources/validations/descriptive-catalogue-ancient-deeds.md
 deville-cartulaire-sainte-trinite-rouen,"Deville, Cartulaire de la Sainte-Trinite du Mont de Rouen (1840)",none,,,sources/validations/deville-cartulaire-sainte-trinite-rouen.md

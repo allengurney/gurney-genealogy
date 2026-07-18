@@ -87,6 +87,12 @@ In 1606 the Bishop of Norwich was John Jegon and the Master of Corpus Christi wa
 
 [^cecil-1606-suspension]: "Cecil Papers: Miscellaneous 1605," in *Calendar of the Cecil Papers in Hatfield House: Volume 18, 1606*, ed. M. S. Giuseppi (London, 1940), pp. 371–462, British History Online, https://www.british-history.ac.uk/cal-cecil-papers/vol18/pp371-462. Edmund Gurnay to the Earl of Salisbury, Chancellor of Cambridge, [1606], appealing his Corpus Christi suspension; full extract at `sources/corpus_supplement/cecil-papers-vol18-edmund-gurnay-1606-cambridge.md`. Bishop John Jegon of Norwich and his brother Master Thomas Jegon of Corpus Christi identified from standard episcopal/college lists. A second Edmund Gurnay calendar entry falls in December 1602 (Cecil Papers vol. 12), not yet extracted (lead L-179). Source ID: `cal-cecil-papers-hatfield`.
 
+## A 1609 Vice-Chancellor's Court charge — possibly Edmund [SPEC]
+
+The Cambridge Vice-Chancellor's Court rough act book for 12 May 1609 – 8 August 1610 records, at folios 26v–27v, **"charges against Gurnay and Rush"** — an unexplained 1609 university prosecution of a Gurnay, catalogued in the CUL University Archives.[^vcct-1609] The date falls squarely inside Edmund's Cambridge years (Corpus Christi fellow 1601–1614, B.D. 1609), and he is the obvious Gurnay candidate: a Corpus fellow already in documented conflict with his college and the diocese over the 1606/07 suspension above. **[SPEC]** If the "Gurnay" of the charge is Edmund, it adds a further episode to his combative Cambridge career — but the identification is unproven, the co-defendant "Rush" is unidentified, and the charge itself is unread. The act book is a manuscript in the CUL reading room, so its content is gated on a reading-room visit.
+
+[^vcct-1609]: Cambridge University Archives, Vice-Chancellor's Court rough act book, 12 May 1609 – 8 August 1610, ff. 26v–27v, "charges against Gurnay and Rush" (GBR/0265/UA/VCCt.I 39), catalogued via Cambridge University Library ArchiveSearch (`"gurnay"` sweep, July 2026). Catalogue level; the act-book folios are unread (CUL manuscript reading room). Source ID: `cul-archivesearch`.
+
 ## Clerical career: Edgefield and Harpley
 
 DNB says Edmund left Cambridge in 1614 when presented to Edgefield, held Edgefield until 1620, and then received Harpley.[^dnb-edmund] Thoms provides the patronage context: Richard Stubbe, Edmund's uncle by marriage, presented him to Edgefield in 1614; in 1620 Sir William Yelverton presented him to Harpley; he appears to have held Harpley until 1648.[^thoms-identity]
@@ -237,6 +243,7 @@ No claim should be made that Edmund directly influenced John Gurney-1, assisted 
 7. **Wren visitation / excommunication.** Identify the underlying list for the Harpley register's claim.
 8. **Gurnay Redivivus date problem.** Resolve 1660 vs 1661 with ESTC/Wing and copy-specific title pages.
 9. **Grokipedia validation.** If Grokipedia remains in the source catalog, capture the article text and map each claim to a primary or older secondary source.
+10. **1609 Vice-Chancellor's Court charge.** Read CUL University Archives VCCt.I 39, ff. 26v–27v ("charges against Gurnay and Rush"), to test whether the Gurnay prosecuted at Cambridge in 1609 is Edmund, and identify "Rush." Gated on the CUL manuscript reading room.
 
 ## Source status summary
 

@@ -16,6 +16,21 @@ Gurney-Calthorpe feoffee circle documented later in the direct-line material.
 The exact deeds remain to be pulled and identified before any person-level
 connection is asserted.[^rye-calendar]
 
+[^cul-christs-deeds]: Christ's College, Cambridge, Muniments, catalogued via Cambridge University Library ArchiveSearch (`"gurnay"` sweep, July 2026): grant of the manor of Feltwell by Sir John de Plays to feoffees, 18 June 1382, witnesses including "Ed' Gurnay" (GBR/1849/MR/Easthall/A/20); inspeximus concerning Bintry, 22 June 1393, witnessed by Robert Knolles, Stephen de Hales, Oliver de Calthorp, and Ralph de Shelton, knights, with John [?]Gurnay and Simon Baret (GBR/1849/MR/Bintry/A/5). Catalogue level; originals unexamined at Cambridge. Source ID: `cul-archivesearch`.
+
+Two Norfolk manorial deeds in the Christ's College, Cambridge, Muniments —
+catalogued through Cambridge University Library's ArchiveSearch — push a
+Gurnay–Calthorpe association back a further eighty years. A grant by Sir John de
+Plays to feoffees on 18 June 1382, conveying the manor of **Feltwell**, is
+witnessed among others by **Ed[mund] Gurnay**, an appearance in the orbit of
+Edmund Gournay (G23), the city's fee'd counsel of that generation. And an
+inspeximus of 22 June 1393 concerning **Bintry** is witnessed by Sir Robert
+Knolles, Sir Stephen de Hales, **Sir Oliver de Calthorp**, and Sir Ralph de
+Shelton, with **John [?]Gurnay** and Simon Baret — a Gurnay–Calthorpe
+co-attestation a full century before the William Gurney × Anne Calthorpe
+marriage (the L-122 match), and cross-institution corroboration of the John
+Gurnay deed layer of the 1390s catalogued below.[^cul-christs-deeds]
+
 ## NCC Gurnay probate census, 1387–1641 (catalogue level)
 
 The NRO's per-will catalogue rows give a register-and-folio census of Gurnay probates in the Norwich Consistory Court, each now carrying parish and year. Rows already worked elsewhere are cross-linked; the rest are unworked collateral:[^nrocat-probate-census]
@@ -55,6 +70,12 @@ The printed calendar of Norwich freedom admissions (L'Estrange/Rye, covering 131
 
 [^freemen-calendar]: John L'Estrange, comp., and Walter Rye, ed., *Calendar of the Freemen of Norwich from 1317 to 1603* (London: Elliot Stock, 1888), Gurn*/Gourn*-level sweep of the full alphabetical run (Cornell scan, archive.org `cu31924029785528`). Entries and the editor's caveat verbatim at [`sources/corpus_supplement/norwich-freemen-calendar-1317-1603-gurney-entries.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/norwich-freemen-calendar-1317-1603-gurney-entries.md). Source ID: `lestrange-rye-norwich-freemen-1317-1603`.
 
+## Stephen Gurney — a Norwich probate inventory, 1613×19
+
+The Norwich probate films yield one previously unlogged Gurney decedent beyond the Earsham John of 1638. A one-page probate inventory names **Stephen Gurney** (the machine transcript misread "Septeph") and lists an ordinary middling household room by room — garret, buttery, pantry, kitchen chamber, chamber over the hall, bakehouse and boulting house, yard — closing with debts owing, his apparel, and his books. The inventory was exhibited "14 die Junii"; the year is not clean enough on the single staged image to fix, though the film's 1613–19 range holds. The bakehouse and boulting/brewing equipment mark a household that baked or brewed, but not enough to style Stephen a baker or brewer, and the "debts owing" section states an amount rather than naming debtors, so no kin are recovered from it. Best-effort readings of the appraiser block give John Cump[e]s (?), John Frost, William Allman, and Robert Bes[i]an (?). He feeds the city's collateral map in the St Gregory's-line era; his parish and occupation are not yet proven from the image.[^stephen-inventory]
+
+[^stephen-inventory]: Probate inventory of Stephen Gurney, Norwich court, exhibited 14 June [year unresolved on the single image; FamilySearch film "Norwich. Probate Records 1613, 1619, 1618, 1614–1615, 1617"], FamilySearch Full-Text Search image [ark:/61903/3:1:S3HT-624X-58](https://www.familysearch.org/ark:/61903/3:1:S3HT-624X-58); expert paleographic read July 2026 (paleography packet 43). Master at `sources/media/stephen-gurney-norwich-probate-inventory/_local/`. Source ID: `familysearch-fulltext-search`.
+
 ## John Gurnell (once written "Gurney"), 1556 — classified toward Gurnell
 
 Rye's deed index contains "Gurnell (orig. written Gurney) Jno., St. Jno. Sepulchre" with a 1556 reference. The classification question — Gurnell family or Gurney family? — now resolves toward **Gurnell**: the freemen calendar records **John Gurnell, cordwainer ("Cordwr., not app."), admitted 5 Edward VI (1551)**, and a 1551-enfranchised cordwainer John Gurnell fits a 1556 city-deed party exactly, while the same calendar shows no Tudor Gurney freeman.[^rye-calendar][^freemen-calendar] The scribe's "orig. written Gurney" remains evidence the name was read both ways; the underlying deed would still be needed for certainty.
@@ -71,6 +92,17 @@ Two beneficed clergy of the Norwich diocese carry the surname a century apart, n
 [^gurnay-1435-institution]: Daniel Gurney, *Supplement to the Record of the House of Gournay* (1858), Note 128 (p. 816): "Walter Aslack and Margery his wife presented Thomas Gurnay to the living of Rushmere in Suffolk, in 1435. Who this Thomas Gurnay was does not appear." Corpus transcription at `sources/corpus/daniel-gurney-supplement.md`. Also "Institutions" list, *Proceedings of the Suffolk Institute of Archaeology and Natural History*, vol. 1 (Bury St Edmunds, 1853), pp. 287–290: Thomas Gurnay instituted 1435, patrons Walter Aslack, Esq., and Margery his wife. Source IDs: `dg-rec-supp`, `suffolk-institute-proceedings-v1`.
 [^cced-negative]: Clergy of the Church of England Database (theclergydatabase.org.uk), surname census July 2026: `Gurney` = 24 person-records, all 1767–1834; `Gurnay` = 0; `Gournay` = 0. CCEd records begin at the Reformation (1540), so neither the 1435 institution nor any medieval Norwich cleric is testable there. Source ID: `cced-clergy-database`.
 [^george-tacolneston]: Francis Blomefield, *An Essay Towards a Topographical History of the County of Norfolk*, vol. 5 (London: William Miller, 1806), "Hundred of Depwade: Tacolneston," pp. 164–171, British History Online, [www.british-history.ac.uk/topographical-hist-norfolk/vol5/pp164-171](https://www.british-history.ac.uk/topographical-hist-norfolk/vol5/pp164-171): George Gurnay presented rector 1577 by Sir Edward Clere, returning 120 communicants in 1603; successor presented 1618. Source ID: `blomefield-norfolk`.
+
+## South-Norfolk Gurney nodes — Saxlingham, Wymondham, and the Hempnall–Earsham Syon family
+
+South of Norwich, three market-parish clusters carry the surname in the generations around **G15 Henry Gurney of Great Ellingham (d. 1621×23)** and his sons — close enough in place and time to be candidate kin of the direct line, none yet proved. They matter to the line because Great Ellingham was the paternal seat in exactly this era, and daughters or younger sons of that gentry household would have married out into just these neighbouring parishes.
+
+- **Saxlingham Thorpe-and-Nethergate (1570–1713)** is a previously uncarried Gurney node about four miles north of Hempnall on the Norwich road. Image-backed register rows give marriages John × Agnes (2 October 1570), Thomas × Besula [?Basilia] (4 August 1623), William × Sara (20 June 1631), Mariam × Humfrey (3 November 1663), and John × Abigail (25 March 1682), a William-and-Sara Latin-form family (children Gulielmus, Johannes, Nicholaus, Maria), and burials Diana (1623), Nicholaus (1642), William (1687), John (1695), and Thomas (1713). The node bridges Hempnall and Norwich geographically; the NRO also holds a Saxlingham deed run (WHT 1/44/1–67, 1441–1638) noted in the deed layer above. One of these Saxlingham marriages — **Sion Gurney × Amia, 1636** — is the middle link in the Hempnall→Earsham Syon chain written up on [`john-gurney-candidate-earsham-norfolk.md`](john-gurney-candidate-earsham-norfolk.md).[^saxlingham-node]
+- **Wymondham Gurnay brides, 1617 and 1628.** Two Gurnay women married at Wymondham, about five miles north of Great Ellingham: **Mary Gurnay × Richard Wen, 29 September 1617**, and **Frances Gurnay × Anthony Leake, 16 June 1628** — both image-backed, both new. Their nearness to the G15 household makes them candidate daughters or nieces of that family marrying in the neighbouring market parish; Wen and Leake join the collateral-alliances watch-list (neither is the Allen surname of the packet-41 sister-heir). Later Wymondham Gurney continuity runs on: a Robert Gurney household (children baptised 1689–1706; burials of Robert 1689 and 1726, Thomas 1691 and 1729, Ann 1728) and marriages of Elizabeth Gurney (1688) and Anne Gurney (1715).[^wymondham-brides]
+- **Hempnall, Ditchingham, and the Earsham Syon family.** The Hempnall Gurnie household — source of the rare forename Syon, first at Hempnall in 1593 — and the Ditchingham household that carries the name into the parish adjoining Earsham are the south-eastern, Waveney-corner end of this collateral spread. Both are treated in full, with the three-generation Syon-chain analysis and the resolved Earsham wife sequence, on [`john-gurney-candidate-earsham-norfolk.md`](john-gurney-candidate-earsham-norfolk.md) (carried as lead L-152). George Gurnay, rector of Tacolneston four miles from Hempnall (above), is the plausible clerical member of this same south-Norfolk group.
+
+[^saxlingham-node]: Ancestry / Norfolk Record Office, "Norfolk, England, Church of England Baptism, Marriages, and Burials, 1535–1812" (image-backed collection, dbid 61045), `_gurn*` keyword=Saxlingham and `sion_gurn*` sweeps, July 2026. Index level. Source ID: `ancestry-norfolk-1535-1812`.
+[^wymondham-brides]: Ancestry / Norfolk Record Office collection 61045, `_gurn*` keyword=Wymondham sweep July 2026 (NRO ref PD 184/8): Mary Gurnay × Richard Wen, 29 September 1617 (record 904170381); Frances Gurnay × Anthony Leake, 16 June 1628 (record 904170604); with later Robert-Gurney-household baptisms and burials 1689–1729 and marriages of Elizabeth (1688) and Anne (1715) Gurney. Image-backed, index level. Source ID: `ancestry-norfolk-1535-1812`.
 
 ## The armigerous cadet at Cawston and Booton (15th–16th c.)
 
