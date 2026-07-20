@@ -18,13 +18,13 @@ content, not its committed blob. Nothing in the current inputs is missed.
 | Input | Lines | State at cutoff | Frozen SHA-256 (whole file) |
 |---|---|---|---|
 | `research/people/_legacy/g13-pre-refactor/g13-john-gurney-fact-sheet.research.md` (legacy companion) | 617 | exact pre-cutover copy; checksum recorded in `_legacy/g13-pre-refactor/BASELINE.md` | `41189a50f694ca749e40f3ae5cd870e8423949ad6d8de4bc50dabaf2fccef364` |
-| `sources/intake/dump-files/dump-2026-07-01-g13-colonial-massbay-campaign.md` | 567 | **modified (uncommitted, +4/−3)** — frozen at working tree | `4ed9820e7684e6a58a27ccfcc6394e7c89d96abf13be0ba04b4ace74ff12b10d` |
-| `sources/intake/dump-files/dump-2026-07-01-g13-colonial-round2-ward-county.md` | 466 | clean @ e782703f | `65e8ada86ad661adf2c38a8505eecbf2fd6dc1ada3eb9e4bd06aef2df120e481` |
-| `sources/intake/dump-files/dump-2026-07-02-g13-colonial-round3-english-network.md` | 197 | clean @ e782703f | `1c5db3e2e16c19aa6a7731af2110189a97d901a5fb6813f657edce1812e56b57` |
-| `sources/intake/dump-files/dump-2026-07-02-g13-colonial-round3-part2.md` | 264 | clean @ e782703f | `6a1810a25e29a3f4c2a182bb1dfb96afbdd6c4091ab8e42e72960b35b7d377d1` |
-| `sources/intake/dump-files/dump-2026-07-02-g13-colonial-round4-arch45-and-network.md` | 681 | clean @ e782703f | `50c82ad7c00cdaa3670386b7f0b826aa2de95347e4a8646c078b70cb98744c80` |
-| `sources/intake/dump-files/dump-2026-07-03-round5-G-14-to-G-37.md` | 322 | clean @ e782703f | `f5f8caa1aa02f224623c0da8c27900c9e97000957b31442f75c4f3093fc39408` |
-| `sources/intake/dump-files/hobart-journal-pages-8-24-transcription.md` | 1173 | clean @ e782703f | `9afa515fd9e9723efed10586c210063f5835c5491aad48fe68f53b4eb1db3120` |
+| `sources/intake/dump-files/Old dumps/dump-2026-07-01-g13-colonial-massbay-campaign.md` | 567 | **modified (uncommitted, +4/−3)** — frozen at working tree | `4ed9820e7684e6a58a27ccfcc6394e7c89d96abf13be0ba04b4ace74ff12b10d` |
+| `sources/intake/dump-files/Old dumps/dump-2026-07-01-g13-colonial-round2-ward-county.md` | 466 | clean @ e782703f | `65e8ada86ad661adf2c38a8505eecbf2fd6dc1ada3eb9e4bd06aef2df120e481` |
+| `sources/intake/dump-files/Old dumps/dump-2026-07-02-g13-colonial-round3-english-network.md` | 197 | clean @ e782703f | `1c5db3e2e16c19aa6a7731af2110189a97d901a5fb6813f657edce1812e56b57` |
+| `sources/intake/dump-files/Old dumps/dump-2026-07-02-g13-colonial-round3-part2.md` | 264 | clean @ e782703f | `6a1810a25e29a3f4c2a182bb1dfb96afbdd6c4091ab8e42e72960b35b7d377d1` |
+| `sources/intake/dump-files/Old dumps/dump-2026-07-02-g13-colonial-round4-arch45-and-network.md` | 681 | clean @ e782703f | `50c82ad7c00cdaa3670386b7f0b826aa2de95347e4a8646c078b70cb98744c80` |
+| `sources/intake/dump-files/Old dumps/dump-2026-07-03-round5-G-14-to-G-37.md` | 322 | clean @ e782703f | `f5f8caa1aa02f224623c0da8c27900c9e97000957b31442f75c4f3093fc39408` |
+| `sources/intake/dump-files/Old dumps/hobart-journal-pages-8-24-transcription.md` | 1173 | clean @ e782703f | `9afa515fd9e9723efed10586c210063f5835c5491aad48fe68f53b4eb1db3120` |
 
 Dump image folders (`dump-2026-07-01-images/`, `dump-2026-07-02-images/`,
 `dump-2026-07-03-images/`, `dump-2026-07-02-g13-colonial-round4-files/`) are
@@ -34,6 +34,11 @@ source-review time and are not enumerated as finding rows.
 Material added to any input **after** this cutoff is queued for a later round,
 not folded into this refactor (§8 step 1). If the modified massbay dump is later
 committed, re-freeze that row against the new blob.
+
+**Path update (2026-07-19):** the seven dump/transcription inputs above were
+archived to `sources/intake/dump-files/Old dumps/` during the July dump-campaign
+cleanup; contents are byte-identical (all seven SHA-256 values re-verified
+against the frozen hashes) and only the paths changed.
 
 The live companion and dump are **not** touched by this work.
 
@@ -66,9 +71,9 @@ Gurney as its subject.
 | `research/topics/john-gurney-candidate-aylesbury-buckinghamshire.md` | existing_topic | 62 | clean @ c9006ce6 | `a57093b226c3be5b1a26aca4d253aad873251544270e0c913be42985be20a7a7` |
 | `research/topics/john-gurney-candidate-berkhamsted-hertfordshire.md` | existing_topic | 21 | clean @ c9006ce6 | `48a4d4e36fc88f4aa097c6007982eaa11c598ea9999c4f6e874eeb9d2d41cdd2` |
 | `research/topics/john-gurney-candidate-ackworth-yorkshire.md` | existing_topic | 28 | clean @ c9006ce6 | `88bbb4de83959d3bf0e3c17a65e4651ffeaf4d7f7f8893fee51f56c1587a93f0` |
-| `research/topics/john-gurney-candidate-earsham-norfolk.md` | existing_topic | 57 | clean @ c9006ce6 | `1905273978b19bee38774544b1077078c24efd36f682e8ddb6679960047e1aa3` |
+| `research/topics/john-gurney-candidate-earsham-norfolk.md` | existing_topic | 64 | re-frozen 2026-07-19 after post-freeze Syon-chain/wife-sequence additions (July 2026 campaign; new material is lead-tracked, not silently folded into the refactor) | `660eaf358240d307a1372884d8aece92d1438e8ba8ff5d897bd7fe47fabe237a` |
 | `research/topics/john-gurney-candidate-london-draper.md` | existing_topic | 293 | clean @ c9006ce6 | `2a80a373358da920c66a5514efabbaad4591b77a2400a2c6d70ab0c60a1f3c87` |
-| `research/topics/john-gurney-candidate-others.md` | existing_topic | 236 | clean @ c9006ce6 | `870960a6ca81f6de2ad4e22ef29ff691f821895b5218185f22d83cf25ff6e16c` |
+| `research/topics/john-gurney-candidate-others.md` | existing_topic | 239 | re-frozen 2026-07-19 after the Margery/East Dereham campaign additions — assimilated to `g13-identity-candidate-b` (G13-RI-000206..000210) the same day | `59f8bc04f6194fab4aef6d93fc0f4e36f5766bebc977364e59da36ee84d40e1e` |
 | `research/topics/massachusetts-bay-passenger-lists-bevis-diligent-mary-anne.md` | existing_topic | 993 | clean @ c9006ce6 | `ec305d20d1fb84edc5a0eb34df0d35bfb42a81341f636b4c813507f390ff9c49` |
 
 Material added to any of these files **after** this cutoff is queued for a
