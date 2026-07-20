@@ -144,6 +144,7 @@ farrer-honors-knights-fees-v3-gurnay-extracts,"Farrer, Honors and Knights' Fees,
 fauroux-recueil,"Fauroux, Recueil des actes des ducs de Normandie",none,,,
 feltwell-net-mundefords-of-feltwell,feltwell.net -- The Mundefords of Feltwell,none,,,
 ferrieres-en-bray-official-history,Ferrieres-en-Bray official history,none,,,
+field-genealogy-pierce-1901,"Pierce, Field Genealogy (1901)",none,,,sources/validations/field-genealogy-pierce-1901.md
 findagrave-john-gurney-252975617,"Find a Grave memorial 252975617 - John Gurney, Braintree, MA",none,,,sources/validations/findagrave-john-gurney-252975617.md
 findmypast-ackworth-gurnoe-baptism-1637-john-thomas,"Findmypast England Births & Baptisms 1538-1975 - John Thomas Gurnoe, Ackworth, 1637",transcript,,,sources/validations/findmypast-ackworth-gurnoe-burton-marriage-1636.md
 findmypast-ackworth-gurnoe-burton-marriage-1636,"Findmypast England Marriages 1538-1973 - John Gurnoe + Mary Burton, Ackworth, 1636",transcript,,,sources/validations/findmypast-ackworth-gurnoe-burton-marriage-1636.md
@@ -169,6 +170,7 @@ folger-second-commandment-1639,Toward the Vindication of the Second Commandment 
 foster-alumni-oxonienses-1500-1714,"Foster, Alumni Oxonienses 1500–1714",none,,,sources/validations/foster-alumni-oxonienses-1500-1714.md
 foster-streeter-cummington,"Foster & Streeter, Only One Cummington (1974)",none,,,
 freebmd-freereg,FreeREG / FreeBMD,none,,,
+fs-east-dereham-manor-court-books,"FamilySearch - East Dereham manorial court books, 1623-1852",partial,sources/corpus_supplement/paleo-2026-07-packet-53-east-dereham-courts-1623-1635.md,sources/media/east-dereham-court-books-fts/,sources/validations/fs-east-dereham-manor-court-books.md
 fs-england-births-christenings,FamilySearch England Births and Christenings,none,,,sources/validations/fs-england-births-christenings.md
 fs-england-buckinghamshire-church-records-1217-1994,"FamilySearch England, Buckinghamshire, Church Records, 1217-1994",none,,,
 fs-england-deaths-burials-1538-1991,"FamilySearch England Deaths and Burials, 1538-1991",none,,,
@@ -181,7 +183,7 @@ fs-vnn2-h8s-francis-gurney-burial-east-dereham-1633,"FS index VNN2-H8S — Franc
 fs-vnn2-scf-edward-gurney-baptism-east-dereham,"FS index VNN2-SCF — Edward Gurney baptism, East Dereham, father Francis",transcript,,,sources/validations/fs-east-dereham-francis-gurney-indexed-children.md
 fs-vnn2-wr2-marye-gurney-burial-east-dereham,"FS index VNN2-WR2 — Marye Gurney burial, East Dereham, father Francis",transcript,,sources/media/Parish_Register_East_Dereham/page_00725_line_marye_ffrancis_gurny_sweep.png,sources/validations/fs-east-dereham-francis-gurney-indexed-children.md
 fs-vnn2-wrg-agnes-gurney-burial-east-dereham,"FS index VNN2-WRG — Agnes (FS-indexed 'Susan') Gurney burial, East Dereham, father Francis",transcript,,sources/media/Parish_Register_East_Dereham/page_00725_line_agnes_ffrancis_gurny_sweep.png,sources/validations/fs-east-dereham-francis-gurney-indexed-children.md
-fs-whinburgh-with-members-court-rolls,"FamilySearch - Whinburgh-with-Members manorial court rolls, 1595-1790",none,,sources/media/fs-whinburgh-with-members-court-rolls/,sources/validations/fs-whinburgh-with-members-court-rolls.md
+fs-whinburgh-with-members-court-rolls,"FamilySearch - Whinburgh-with-Members manorial court rolls, 1595-1790",partial,sources/corpus_supplement/paleo-2026-07-packet-52-whinburgh-courts-1595-1599.md,sources/media/fs-whinburgh-with-members-court-rolls/,sources/validations/fs-whinburgh-with-members-court-rolls.md
 ftdna-gurney-ydna,FTDNA Gurney Y-DNA project + Discover (public),extract,sources/corpus_supplement/ftdna-gurney-ydna-braintree-line-2026.md,,sources/validations/ftdna-gurney-ydna.md
 gaillefontaine-official-history,Gaillefontaine official history,none,,,
 gancourt-saint-etienne-bulletin-2023,Gancourt-Saint-Etienne municipal bulletin 2023,none,,,

@@ -160,6 +160,24 @@ Walter Rye's *The Gurneys of Norwich* (Norfolk Antiquarian Miscellany, 1906) ind
 [^fs-visitation]: [`fact-sheets/g14-francis-gurney-fact-sheet.md`](https://github.com/allengurney/gurney-genealogy/blob/main/fact-sheets/g14-francis-gurney-fact-sheet.md), Timeline and Highlights sections; [`research/case-files/john-gurney-case-file-v4.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v4.md), §2.4 and Master Timeline.
 [^rye-1664-essex-visitation]: Walter Rye, "The Gurneys of Norwich," *Norfolk Antiquarian Miscellany* (Norwich: Gibbs and Waller, 1906), p. 285; corpus extract at [`sources/corpus/norfolk-antiquarian-gurneys-of-norwich.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus/norfolk-antiquarian-gurneys-of-norwich.md). Source ID `rye-norfolk-antiquarian`.
 
+### The Norfolk-estate sale: the original indenture survives at Kew — with a one-year date discrepancy
+
+The sale by which Francis liquidated the family's Norfolk landholding — long known from
+Daniel Gurney's transcription (an indenture between "Fraunces Gurnay of London, Merchant
+Taylor," and **Sir Owen Smith of Irmingland, Norfolk**, conveying Francis's Norfolk and
+Suffolk manors and lands for **£1,000**, dated **11 July 1634** in *Record* Part III,
+Appendix C, no. 2) — survives as an original document at The National Archives: **WARD
+2/32/118A/20** (Court of Wards and Liveries, deeds and evidences), which the TNA catalogue
+dates **11 July 1633**. The catalogue's 1633 against Daniel Gurney's transcribed 1634 is a
+one-year discrepancy to resolve at document level (a calendaring slip on one side or a
+regnal-year conversion error on the other); the parties, consideration, and substance
+match exactly, so this is the same instrument, not a second sale. Its Court of Wards
+custody is itself informative — the conveyed manors were held by knight-service, which is
+why the family's minors kept generating wardship-class records. The piece is orderable
+from Kew; reading it would fix the date and recover the full manor list.[^ward2-sale-2026-07]
+
+[^ward2-sale-2026-07]: The National Archives, Discovery catalogue (2026-07-19): WARD 2/32/118A/20, indenture of Francis Gurnay of London and Sir Owen Smith of Irmingland, Norfolk — sale of manors, lands and tenements for £1,000, catalogued 11 July 1633; document unexamined. Discovery is the access route. The transcription of record: Daniel Gurney, *The Record of the House of Gournay*, Part III (1848), Appendix C, no. 2 (dated 11 July 1634). Source ID: `dg-rec-pt3`.
+
 ### Second wife's father located as William Browning of Norwich and Maldon
 
 Bernau identifies Anne Browning's father as **William Browning, of Norwich, merchant, and later of Maldon, Essex**, with the marriage "in or before the year 1618."[^bernau-anne] The "later of Maldon" detail is new to the corpus — the fact sheet currently identifies Anne only as a Browning of Norwich/Maldon without specifying that her father relocated. It matters because:

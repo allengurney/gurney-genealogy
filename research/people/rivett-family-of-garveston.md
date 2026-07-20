@@ -215,15 +215,23 @@ equally live option: Francis's father Henry Gurnay (G15) lived at Great Ellingha
 death (1621×1623), and Francis's brothers — Thomas, Henry, Edward, and Anthony Gurnay — were
 the boys' uncles. The indexed adult-trail search for John's brother **Edward** is exhausted
 without a candidate; the remaining paternal-fostering route is the targeted Great Ellingham
-and West Barsham manorial and probate work under L-136.
+and West Barsham manorial and probate work under L-136. (A newly-surfaced probate
+inventory of a **Thomas Gurnay, Esquire, of Great Ellingham, 1615–16** may take uncle
+Thomas off the candidate-hearth list entirely — if it is Henry G15's eldest son, he died
+before the fostering window opened; see the
+[G15 companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g15-henry-gurney-fact-sheet.research.md).)
 
 ### The name-switch and wardship tests
 
 If John and Edward were raised by Rivett kin, they might surface in records under their
 mother's surname (or an alias form — "X alias Y" surnames are routine in this era's court
 and parish records; a "Jas. Gurney alias Greenhill, husbandman" appears at Watford in
-1656/7, proving the pattern for Gurneys generally). Three tests of that hypothesis are now
-run, all effectively negative but each sharpening the search picture:
+1656/7, proving the pattern for Gurneys generally). The tests of that hypothesis run so far
+are all effectively negative, each sharpening the search picture. (A search-method control
+worth carrying: the Mendlesham, Suffolk marriage transcripts show **RIVETT and RIVET
+co-existing in one register series** (entries of 1580, 1622, 1654, 1655), so both spellings
+must be searched even in databases that appear to normalise one
+form.[^mendlesham-control])
 
 - **No formal wardship record exists for the family — and none should.** The 1611 clerk's
   spelling "Rybett" appears in **zero records nationally** in the TNA catalogue, and a
@@ -236,9 +244,26 @@ run, all effectively negative but each sharpening the search picture:
   series: a guardianship assignment for any Rivet or Gurney-connected minor c. 1597–1630
   would sit in exactly those courts.[^spike-ward-rivett]
 - **No "alias Gurney" record class exists at national-catalogue level** ("Gurney alias" and
-  "alias Gurney" return nothing relevant before the 18th century in the TNA catalogue); a
-  place-scoped full-text alias probe of the Norfolk legal collections remains open
-  (L-245).[^spike-alias]
+  "alias Gurney" return nothing relevant before the 18th century in the TNA catalogue),
+  **and the full-text alias probe is now also negative**: FamilySearch full-text phrase
+  queries for "alias Gurney" / "Gurney alias" / "alias Rivett" / "Rivett alias" surface no
+  17th-century Norfolk document of any kind — the closest hits are 19th–20th-century and
+  out-of-county. Formal "alias" surnaming was in any case rare this early, so the absence
+  is expected rather than decisive against the mother's-surname
+  hypothesis.[^spike-alias][^alias-fts-2026-07]
+- **No Rivett ever took the Norwich freedom before 1603 — and the decisive apprentice test
+  is narrowed to 1603–1713.** The printed calendar of Norwich freedom admissions
+  (L'Estrange/Rye, 1317–1603) contains **no Rivett/Ryvett/Revett freeman across 286
+  years** (and no John or Francis Gurney — the only Gurney freemen are the medieval
+  Geoffrey and William). A Rivett-son-of-Francis apprenticeship or freedom — a child of
+  the Garveston household raised under the Rivett name — would therefore have to sit in
+  the **1603–1713 window covered only by Millican's printed register**, which is
+  currently gated (HathiTrust limited view; FamilySearch Books CAPTCHA); Norwich Freemen
+  Records Online has loaded only its post-1714 phase (its earliest Rivett rows are
+  1814–1830, earliest Gurney 1719), so it cannot test the window either. A parallel
+  untried route is Rutledge's printed calendar of **Great Yarmouth enrolled apprenticeship
+  indentures 1563–1665**, which also bears on the 1653 Yarmouth Edward
+  check.[^rivett-freemen-2026-07]
 - **The Edward-under-Rivett tracer is negative — and diagnostic.** No documented Norfolk
   Rivett household used the forename Edward at all: across both index nets the **only**
   17th-century adult Edward Riv\* event in the county is a marriage at **Great Yarmouth,
@@ -248,6 +273,18 @@ run, all effectively negative but each sharpening the search picture:
   Mitford orbit) — but the forename's absence from the Rivett onomasticon means **any
   future "Edward Rivett" surfacing in mid-Norfolk records c. 1625–1660 would be anomalous
   and worth immediate attention** as a possible name-switched brother.[^spike-edward-tracer]
+  The FindMyPast Norfolk Burials check of the 1653 Yarmouth man is now complete and
+  negative: a signed-in Edward `R?vett` query returns 33 rows whose **earliest burial is
+  Edward Rivett of Shipdham, 1725** — no 1653 (or any 17th-century) Edward Rivett burial
+  is in the set. Because FindMyPast's Norfolk parish coverage is selective and Great
+  Yarmouth is a documented gap, this closes the *index* check without proving no such
+  burial occurred; the residual is the Yarmouth register itself. A broader signed-in
+  Rivett result view supplies pre-1653 county context without any relationship evidence —
+  notably a **William Rivett of East Dereham** with an indexed burial-year range of
+  1593–1640 (a named pre-1640 Rivett in the very parish where Francis Gurney raised his
+  children — a source-collision risk to resolve to its underlying register entry before
+  any inference), and a King's Lynn St Margaret's Rivett cluster of the
+  1620s.[^fmp-edward-1653-2026-07]
 
 ## The Whinburgh-with-Members manorial unlock
 
@@ -276,15 +313,37 @@ Office:**
   1472614 item 9), and 1756–1790 (Film 1702191 items 6–7 = DGS 004395112); microfilmed 1991
   from NRO originals. Full-text name-extraction on these films is demonstrably partial — a
   single extracted Rivett (the 1755 homage) despite the family's proven tenancy — so
-  **full-text negatives inside the films mean nothing; the 1595–1663 item needs an
-  image-level walk** (roughly film images 1395–1784 cover the pre-1639 Latin-era
-  courts).[^whinburgh-film]
+  full-text negatives inside the films mean nothing; the courts must be read at image
+  level.[^whinburgh-film] The 1595–1663 material is now **structurally mapped** at
+  heading level: item 10 (film images 1426–1869, labelled "1595–1647") contains (a) an
+  Elizabethan court book at images 1426–~1539, running from about September 1595 to
+  roughly 1603 at the book's pace; (b) a short book beginning **1627** (~images
+  1540–1569); and (c) a paginated book covering **1629–1641+** (~images 1575–1869); item
+  11 (images 1870–2301) is the 1644–1663 book. **The film contains no courts at all for
+  c. 1604–1626** — the very window in which Francis Rivet most likely died (last child
+  1609; his wife's burial 1626). That window survives only in the NRO-held early court
+  rolls and surrender series listed below.[^whinburgh-structure-2026-07]
 - **Unfilmed (NRO originals):** the richer classes — **surrenders and admissions, 1564–1800
   (NRS 21256–21355, ≈100 pieces)**, the direct heir-naming series, beginning thirty years
   before the earliest filmed roll; rough court books 1593–1790 (NRS 17009–18); early court
   rolls 1594–1629 (NRS 27281, NRS 15110, NRS 27282–85) covering Francis Rivet's prime
   window; and a minute book 1548–1578, survey 1565, and court book 1560 covering the
   matriarch's and Robert's lifetimes.[^whinburgh-mdr]
+
+**The filmed Elizabethan book is walked, and Robert Rivett's death presentment is not in
+the sampled courts.** An expert image walk of film images 1426, 1435, 1440–1470
+(contiguous), 1475, 1480, and 1485 — approximately September 1595 through 1599, the window
+in which Robert Rivett (admon 1597) died — found **no secure Rivet/Ryvett/Revett, no
+Podmer/Petman, and no Gurney occurrence**: no death presentment, heir admission,
+guardianship, or surrender-to-uses for Robert. The read was a surname-and-heading walk of
+dense Latin secretary hand, not a full diplomatic transcript, so the negative is narrow
+but real, and repeating the same filmed pass has little value. The consequence for the
+parentage question is a corrected map of the proof engine: **the filmed material can only
+ever resolve a post-1627 death of Francis Rivet** (the 1627–1647 and 1644–1663 books
+remain unwalked), while the direct heir-naming classes for both Robert (d. by 1597) and a
+1604×1626 Francis death are the **unfilmed NRO surrender-and-admission series (NRS
+21256–21355) and early court rolls** — an archive-access boundary, not a search
+gap.[^packet-52-2026-07]
 
 **Gurneys sat in the same manor's orbit.** Two mid-17th-century court leaves carry
 Gurney-family text — cautious, triage-level readings only, because the images are
@@ -295,7 +354,9 @@ admission/surrender-style copyhold entry whose readable words include *Henry*, *
 *Mary*, *"said Henry Gurney,"* and *Mattishall* — the strongest reading is an entry involving
 an Allen and a deceased or related Henry Gurney, but the inheritance structure (a machine
 transcript suggested an heir tracing through "a sister of the said Henry") is **not safely
-resolved** and awaits a tighter re-crop. The leaf at ark `3:1:S3HT-6X45-XZ`, headed
+resolved** — a full-master grid and crop-ladder pass (July 2026) improved reviewability but
+could not securely read the struck-through relational language, so the leaf now awaits
+specialist same-hand review rather than another general re-crop. The leaf at ark `3:1:S3HT-6X45-XZ`, headed
 **26 October 1648**, is **uncertain and probably not actionable** without a better image; its
 machine transcript adds the tokens "Notherogate [Northgate?] in Garveston" and a possible
 living "Robt Gurn[ey]" — who that Robert Gurney would be is itself an open question. If the
@@ -332,12 +393,19 @@ Leaton, Shropshire, proved 22 May 1615** — has been read at image level and is
 negative**: Shropshire-facing legatees only, no Norfolk token, no Rivett, no
 Gurney.[^podmer-pcc]
 
-**The "no Podmer probate in Norfolk, ever" negative is unproven for the variant family.** The
-probate-index sweep used the patterns `podm*` and `p?dm*r` — neither catches the lived
-variants the records themselves surface (**Pitmer, Pytmer, Patmer**). A re-sweep on
-`p?tm*r`/`patm*` remains open, and the same variant breadth applies to the expected spelling
-of the 1584 bride.[^podmer-negative] Any Podmer-variant probate c. 1590–1660 could name
-Rivett in-laws or Rivett grandchildren — the transitive bridge the parentage question needs.
+**The Podmer-variant probate negative is now hard.** The variant re-sweep of the Norfolk
+probate index — patterns `patm*`, `pitm*`, `pytm*`, `padm*`, and `petm*`, catching the
+lived forms Pitmer/Pytmer/Patmer and the Pitman/Petman/Pytman family, and completing the
+earlier `podm*`/`p?dm*r` pass[^podmer-negative] — found **exactly one
+probate event of any variant in the 1580–1660 window: Roger Petman, administration 1617**;
+everything else is pre-1560 or post-1690.[^podmer-resweep-2026-07] And that one candidate
+fails on geography: full-text tracing places the Roger Petman family firmly at **North
+Walsham**, in north-east Norfolk (manor-court entries 1647 and 1669, with outliers at
+Costessey and Edingthorpe) — some 25 miles from the Garveston/Hingham/East Tuddenham orbit,
+a different manorial world. The 1617 administration is almost certainly that North Walsham
+line and will not name Rivett or Podmer kin. The hoped-for transitive bridge — a
+Podmer-variant probate naming Rivett in-laws — does not exist in the indexed Norfolk
+probate record.[^podmer-resweep-2026-07]<!-- discovery trail: lead L-243, closed 2026-07-19 -->
 
 ## The Wymondham Francis Rivett — a distinct man, split off
 
@@ -394,9 +462,11 @@ the Gurney–Heydon tie via Anne Heydon m. William Gurney V is independent and u
   of any kind; the two older Garveston probates (Margaret Bate Rivett will 1584, NCC reg.
   "Bate" fo. 399; Robert Rivett admon 1597, NCC act book vol. 8) name no Francis, no younger
   Margaret, no Gurney; Francis Rivet left no probate. The remaining direct-proof class is
-  **manorial** — the Whinburgh-with-Members walk (L-238) and the gated NRO surrender series —
-  with the Grigson look-ups (L-242) as the cheap discriminator for the 1577/8 candidate's
-  pre-1611 fate.
+  **manorial**, and it is now precisely bounded: the filmed Elizabethan courts are walked
+  (negative for Robert's 1597 succession), the 1604–1626 window is unfilmed (NRO-only
+  surrenders and early rolls — gated), and the filmed 1627–1663 books (unwalked) can only
+  catch a late Francis Rivet death — with the Grigson look-ups (L-242) as the cheap
+  discriminator for the 1577/8 candidate's pre-1611 fate.
 - L-129 — Francis Rivet's wife and child set. **Francis Rivet's wife is most likely Elizabeth
   Podmer** (m. 2 July 1584 Garveston; see the Finding above). The IGI indexes attribute to Francis
   Rivet of Garveston a child set of **Margaret (1586), Marye (1588), Elen (1593), Thomas (1595),
@@ -408,6 +478,11 @@ the Gurney–Heydon tie via Anne Heydon m. William Gurney V is independent and u
   pages (1627–1675) add no further Rivett entry.[^reg-p19] The 1584 marriage leaf is now located
   to piece-images 52–54 of the Ancestry register piece (pull open — corroboration, since the
   marriage is index-confirmed twice); the "Podmer" spelling check rides on it (L-242).[^register-map]
+  Two bounded index probes of the image-backed collection (Francis Rivett and Podmer, each
+  with an 1584 event filter) confirm the marriage is invisible to that collection's index —
+  consistent with its known Garveston indexing lapse, and one more reason the leaf image,
+  not another index query, is the confirmation route.[^l129-index-probes-2026-07] This
+  child-set lead is otherwise folded into the Grigson/leaf work above.<!-- discovery trail: lead L-129, closed 2026-07-19 -->
 - L-130 — **closed.** Richard Ryvett of Gressenhall's origin — **Richard Rivet, baptized
   30 November 1575 at Garveston, son of Robert** — is image- and expert-confirmed, and his
   Gressenhall child sequence is resolved at image-backed index level (household table
@@ -429,13 +504,20 @@ the Gurney–Heydon tie via Anne Heydon m. William Gurney V is independent and u
   PD 86/41) found **no Margaret Gurney/Rivett burial — but the 1616–18 burial subsections
   were not cleanly exposed in the staged images, so this is a soft negative, not a hard
   one**. The follow-up is the burial-header continuation pulls (L-240).[^packet44]
-- New leads opened from this campaign: **L-238** Whinburgh-with-Members 1595–1663 image walk
-  (the proof engine); **L-239** the 6 Sep 1639 Henry Gurney/Allen court-entry specialist
-  re-crop (+ "who is Robt Gurn[ey]" on the 1648 leaf); **L-240** East Dereham burial-header
-  continuation pulls; **L-242** Grigson look-ups + the 1584 marriage leaf; **L-243** the
-  Podmer-variant (`p?tm*r`/`patm*`) probate re-sweep; **L-244** Mattishall register-coverage
-  characterisation; **L-245** the name-switch residuals (Norfolk-scoped alias probe, Rivett
-  rows in the Norwich freemen/apprentices indexes, the 1653 Yarmouth Edward identity check).
+- Lead state after the July 2026 discovery campaign: the Whinburgh 1595–1663 walk lead is
+  retired in favour of a clean successor scoped to the **filmed 1627–1663 books** (item 10
+  images ~1540–1869 + item 11 images 1870–2301 — the only filmed material that can still
+  carry a Rivet succession event, and the book context for the 1639 Henry Gurney/Allen
+  leaf); **L-239** (the 6 Sep 1639 leaf specialist re-crop — a reproducible crop-ladder
+  packet now exists, relationship language still unresolved) and **L-240** (East Dereham
+  burial-header continuation pulls; a targeted 1616-window index probe added a soft
+  negative) stay open; **L-242** Grigson look-ups stay gated; the Podmer-variant probate
+  re-sweep and the name-switch residuals are **closed complete** (hard variant-probate
+  negative with the Petman bridge de-linked; alias, freemen-to-1603, and FMP-Edward checks
+  all negative), leaving two streamlined successors — the **Norwich/Yarmouth apprentice
+  calendars 1603–1713** (Millican tail + Rutledge) and the **William Rivett of East
+  Dereham (1593–1640) index entry** to resolve at register level. **L-244** Mattishall
+  register-coverage characterisation is unworked.
 
 ## Crosslinks
 - Father of John: [`research/people/g14-francis-gurney-fact-sheet.research.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g14-francis-gurney-fact-sheet.research.md)
@@ -478,3 +560,11 @@ the Gurney–Heydon tie via Anne Heydon m. William Gurney V is independent and u
 [^spike-edward-tracer]: Ancestry.com, "Norfolk, England, Church of England Baptisms, Marriages, and Burials, 1535–1812," search `edward_riv*` (20 rows, complete, 2026-07-17): the only 17th-century row is Edward Rivett, marriage 10 May 1653, Great Yarmouth (spouse indexed "Weno"); every other row is 1703 or later (Wymondham, Westfield, Shipdham, Carleton Rode, Stockton, Necton, East Bradenham). FindMyPast "Norfolk Banns and Marriages," `edward r?vett` (25 rows, 2026-07-17): same single pre-1800 event (spouse indexed "Adrye"), next earliest 1804. Ancestry.com, "Norfolk, England, Indexes to Wills, Probate, Administrations and Marriage Licence Bonds, 1371–1858," `edward_riv*` (3 rows, 2026-07-17): will 1725 and inventory 1726–27 of an Edward Rivett, plus an Edward Rivers admon 1767 — no Edward Rivett probate in the brother's lifetime window. Coverage caveats: 61045 covers ~¾ of parishes and FMP's Norfolk sets are parish-selective (both omit some Mitford-hundred parishes), so these are index-net negatives, not register-level ones. Source IDs: `ancestry-norfolk-1535-1812`; `findmypast-norfolk-banns-marriages-index`; `norfolk-wills-probate-index-1371-1858`.
 [^suffolk-ward-ryvett]: The National Archives, Discovery catalogue (API, 2026-07-17), `rivett AND "court of wards"`: WARD 7/44/137 ("Rivett, Thomas: Suffolk," 8 Jas I = 1610/11); WARD 7/55/147 ("Rivett, John: Suffolk," 14 Jas I = 1616/17); WARD 7/59/100 ("Rivett, John (idiot): Suffolk," 16 Jas I = 1618/19); Suffolk Archives (Ipswich), Blois Family Archive HA30/369/211 (account of John Brooke, gent., guardian of John Rivett, idiot, before the Court of Wards and Liveries, Michaelmas 1620–Michaelmas 1621), HA30/369/215 (receipt of Sir Miles Fletewood, Receiver General, to Brooke for two years' rents of John Rivett's lands, 22 Nov 1622), HA30/369/203 (declaration of account, 1626–27), HA30/312/130 (estate records, 1622–23), HA30/369/93 (order appointing Brooke committee). Catalogue level; the documents are unexamined. Discovery is the access route.
 [^packet44]: East Dereham parish register (NRO PD 86/41), staged-image read 2026-07-16 (paleography packet 44) over the 1615–1619 return pages (film pages 00725–00734): the visible 1619 "Burials" section was scanned for Gurney/Gurnay/Gurnoe/Gurnye, Rivett/Rivet/Ryvett/Rybett, and Margaret/Margarett/Margeria forms with no target found; the 1616–1618 burial subsections were not cleanly isolated in the staged sequence, so no hard negative is logged for those years. The known anchor "Marye the daughter of Francis Gurnoe bapt. May 25" (page 00732, 1618 return) was confirmed in passing. Source ID: `nro-pd-86-41`.
+[^whinburgh-structure-2026-07]: Whinburgh-with-Members court-roll film DGS 004389244, heading-level calibration ladder read 2026-07-18 (28 sampled openings across item 10, film images 1426–1869): Elizabethan Latin court headings ("anno regni … Elizabethe") throughout images 1426–~1539; a new book headed 1627 at image 1540; a microfilm separator card at image 1570; paginated Caroline courts 1629–1641 from image ~1575 (dated openings at images 1600 = Apr 1629, 1690 = Sept 1634, 1780 = 30 Sept 1640, 1840 = May 1641); "END OF ITEM" card at image 1869; item 11 = images 1870–2301 (1644–1663). Item-level structure confirmed by the FamilySearch Explore Images item list for imageGroupNumbers=004389244 (11 items; item 10 "Whinburgh 1595–1647," 444 images; item 11 "Whinburgh 1644–1663," 432 images). No court heading dated 1604–1626 appears anywhere in the ladder. Source ID: `fs-whinburgh-with-members-court-rolls`.
+[^packet-52-2026-07]: Expert paleographic walk of the Whinburgh Elizabethan book, film images 1426, 1435, 1440–1470, 1475, 1480, 1485 (≈4 Sept 1595–1599 by regnal-year calibration), 2026-07-18 (paleography packet 52); report at [`sources/corpus_supplement/paleo-2026-07-packet-52-whinburgh-courts-1595-1599.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/paleo-2026-07-packet-52-whinburgh-courts-1595-1599.md); masters at `sources/media/fs-whinburgh-with-members-court-rolls/_local/`. Image-level surname/heading walk, not a full diplomatic transcript. Source IDs: `fs-whinburgh-with-members-court-rolls`; `familysearch-fulltext-search`.
+[^podmer-resweep-2026-07]: Ancestry.com, "Norfolk, England, Indexes to Wills, Probate, Administrations and Marriage Licence Bonds, 1371–1858" (collection 62679), authenticated variant sweep 2026-07-18: `patm*` = 1 (Barnaby Patmore ML 1733, known); `pitm*` = 9 (Pitman rows — wills 1504, 1520, 1551–52, 1557, 1696, 1729–30 + 19th-c. MLs); `pytm*` = 2 (Pytman spellings of the same 1551/1557 testators); `padm*` = 0; `petm*` = 5 (wills 1431–1512, Stewyne Pitman 1520, and **Roger Petman, administration 1617** — the sole 1580–1660 event). Roger Petman's family located by FamilySearch full-text phrase query `+"Roger Petman"` = 11 hits clustering at North Walsham (manor-court entries 1647, 1669, several undated; outliers Costessey 1705, Edingthorpe manorial 1741). Source IDs: `norfolk-wills-probate-index-1371-1858`; `familysearch-fulltext-search`.
+[^alias-fts-2026-07]: FamilySearch Full-Text Search phrase probes, all collections, 2026-07-18: `+"alias Gurney"` = 32 (top hits Boston 1869, Kent 1794 — no 17th-c. Norfolk); `+"Gurney alias"` = 71 (modern); `+"alias Rivett"` = 2 (Michigan 1951, Australia 1929); `+"Rivett alias"` = 2 (Westminster 1845, North Carolina 1896); `+Gurney +alias +Norfolk` = 142 (Norfolk-Massachusetts pollution, none relevant). Source ID: `familysearch-fulltext-search`.
+[^rivett-freemen-2026-07]: John L'Estrange, comp., and Walter Rye, ed., *Calendar of the Freemen of Norwich from 1317 to 1603* (London: Elliot Stock, 1888), full-text read of the alphabetical R/Ry run 2026-07-19 (archive.org, incl. R→E OCR-confusable checks): no Rivett/Ryvett/Revett freeman; the complete Gurney/Gurnell yield is the known Geoffrey Gurney (barber, 1396/97), William Gurney (barker, 1407/08), and John Gurnell (cordwainer, 1551). Source ID: `lestrange-rye-norwich-freemen-1317-1603`. Norwich Freemen Records Online (nfro.norwichfreemen.org.uk), checked 2026-07-18: Phase 1 (1714-present) only — `surname=Rivett` = 6 rows, all 1814–1830; `surname=Gurney` = 112 rows, earliest 1719; the 1317–1713 phase is not yet loaded, so the pre-1714 window is unsearchable there. Millican, *Register of the Freemen of Norwich 1548–1713*: HathiTrust `uc1.b3259758` = limited view; FamilySearch Digital Library copy CAPTCHA-gated (2026-07-19). Rutledge, *A Calendar of Great Yarmouth Enrolled Apprenticeship Indentures, 1563–1665*: FamilySearch catalog `koha:84018`, unconsulted.
+[^fmp-edward-1653-2026-07]: FindMyPast "Norfolk Burials," authenticated query `lastname=r?vett&firstname=edward` (33 results, read 2026-07-19): earliest burial Edward Rivett, Shipdham, 1725; then 1785 (Shipdham), 1811 (Wymondham), 1813 (Shipdham), remainder 19th-century or later — no 17th-century Edward. Coverage caveat: the set is parish-selective and omits Great Yarmouth, so this is an index negative, not a register-level one. The broader signed-in Rivett result extension (no preserved query URL) supplies context rows only: William Rivett, East Dereham, indexed burial-year range 1593–1640; King's Lynn St Margaret-with-St Nicholas cluster (John 1620/1623, unnamed 1624–25, Alice/Alyce and Samuel 1625, Mary 1627, James 1628, Faith/Fayth 1629); dispersed rows at Wymondham, Tharston, Lyng, Ingworth, Filby, Framingham Pigot — index screens without image, informant, age, spouse, or parent fields. Source ID: `findmypast-norfolk-burials-index`.
+[^mendlesham-control]: Mendlesham St Mary, Suffolk, marriage transcription (grooms 1558–1749), transcribed from Suffolk Record Office FB159/D/1/1, /3, /4, published at essexandsuffolksurnames.co.uk (PDF, read 2026-07-19): RIVETT and RIVET entries co-occur in the same parish series (1580, 1622, 1654, 1655). Not assigned to the Garveston line; retained as a source-specific spelling control.
+[^l129-index-probes-2026-07]: Ancestry.com, "Norfolk, England, Church of England Baptisms, Marriages, and Burials, 1535–1812" (collection 61045), bounded probes 2026-07-19: `name=Francis_Rivett&event=1584` = 16 results (Francis/Frances/Franciscus Rivett variants incl. a Francis Rivett marriage 1 Oct 1620 [= the Wymondham man] and Garveston baptisms of Frances Rivet 20 Nov 1547 and 1 Apr 1578) — no 1584 Garveston marriage row; `name=Podmer&event=1584` = 62 results, closest an unreadable "P??"/"Pothumer" burial 5 Sept 1584 at Norwich St Simon and St Jude — no Garveston marriage. Index negatives only. Source ID: `ancestry-norfolk-1535-1812`.

@@ -289,6 +289,7 @@ english-heritage-baconsthorpe-castle-wool-factory,source,English Heritage - Baco
 evans-dammartin-genealogists-magazine-1965,source,"Evans, 'Dammartin' (Genealogists' Magazine 1965)",data/sources.json
 explore-west-norfolk-harpley-st-lawrence,source,"Explore West Norfolk - St Lawrence, Harpley",data/sources.json
 faden-map-norfolk-1797-hardingham,source,Faden map of Norfolk - Hardingham extract,data/sources.json
+fs-east-dereham-manor-court-books,source,"FamilySearch - East Dereham manorial court books, 1623-1852",data/sources.json
 fs-whinburgh-with-members-court-rolls,source,"FamilySearch - Whinburgh-with-Members manorial court rolls, 1595-1790",data/sources.json
 fs-england-births-christenings,source,FamilySearch England Births and Christenings,data/sources.json
 fs-england-deaths-burials-1538-1991,source,"FamilySearch England Deaths and Burials, 1538-1991",data/sources.json
@@ -486,6 +487,7 @@ pcc-rivett-rattlesden-wills,source,"PCC wills - Rivett/Ryvett of Rattlesden (161
 pease-pennyghael,source,Pease genealogy (Pennyghael),data/sources.json
 pettigrew-collectanea-house-gournay-1871,source,"Pettigrew, On the House of Gournay",data/sources.json
 phillimore-bucks-marriages-vol1,source,"Phillimore Bucks parish registers, marriages, vol. 1",data/sources.json
+field-genealogy-pierce-1901,source,"Pierce, Field Genealogy (1901)",data/sources.json
 planche-conqueror-companions-1874,source,"Planche, The Conqueror and His Companions",data/sources.json
 plymouth-colony-records-vol8-shurtleff-pulsifer-1857,source,"Plymouth Colony Records, vol. 8 (Shurtleff & Pulsifer, 1855-1861)",data/sources.json
 plymouth-probate-john-harden-1751-will,source,Plymouth Probate - John Harden will (1751),data/sources.json

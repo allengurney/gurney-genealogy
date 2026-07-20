@@ -47,9 +47,66 @@ The NRO's per-will catalogue rows give a register-and-folio census of Gurnay pro
 | Cobald 55 | Joan [Gurney] of Deopham | 1465 | carried on [`great-ellingham.md`](../places/great-ellingham.md) |
 | Jekkys 211 | Thomas Gurnay, armiger, of Harpley | 1471 | = **G20's will complex**, imaged and expert-read — [G20 companion](../people/g20-thomas-gournay-ii-fact-sheet.research.md) |
 | Attmere 211 | John Gurney, gent., of Levington, Suffolk | 1533 | unworked collateral |
-| Brampton 140 | Dorothy Gurney, single woman, of St George Tombland, Norwich | 1641 | unworked; late city-parish stray |
+| Brampton 140 | Dorothy Gurney, single woman, of St George Tombland, Norwich | 1641 | = Dorothy of Francis G14's household (Daniel Gurney, *Record* Pt III, notes the Tombland Dorothy of 1641); see the in-window census below |
 
 [^nrocat-probate-census]: Norfolk Record Office online catalogue (AtoM instance, nrocatalogue.norfolk.gov.uk), per-will NCC index rows from the `"gurnay"` sweep of July 2026 (69 rows over 5 pages, all read); each row gives register, folio, parish, and year. G15 Henry Gurney's probate row (NCC Lawson 151, 1623) surfaced in the same sweep and is carried on his companion and [`great-ellingham.md`](../places/great-ellingham.md). Source ID: `nro-ncc-wills-registers`.
+
+## The 1585–1650 Gurney probate universe — complete all-courts census
+
+The Norfolk probate master index (Norwich Consistory, Archdeaconry of Norwich, Archdeaconry
+of Norfolk, and the peculiars, 1371–1858) has now been enumerated for **every
+Gurney-variant probate event in the 1585–1650 window** — a closed census, independently
+consistent with the full-text sweeps, so no unexpected Gurney testator is hiding in any
+Norfolk court in the emigrant John G13's father-and-grandfather generations. The in-window
+universe:[^gurney-census-62679]
+
+| Event | Person (index spelling) | Date | Standing |
+|---|---|---|---|
+| Will | Margery Gurney (Gurnye), widow, East Dereham | 1602–03 | ANF; the East Dereham anchor — treated on [`john-gurney-candidate-others.md`](john-gurney-candidate-others.md) |
+| Will | Henry Gurney (Gurnay), Esq., Great Ellingham | 1623 | = G15 Henry (NCC Lawson 151) |
+| Will | John Gurney, yeoman, Earsham | 1630 and 1639 (+ inventory 1630–31) | = the Earsham testator ([`john-gurney-candidate-earsham-norfolk.md`](john-gurney-candidate-earsham-norfolk.md)) |
+| Will | Dorothy Gurney, single woman, St George Tombland, Norwich | 1641 | = Dorothy of Francis G14's household (proved 12 Jan 1641/2) |
+| Admon | Wolstan Gurney, Aylsham | 1607 | known collateral |
+| Admon | John Gurney, Ashwellthorpe | 1615 | S-Norfolk cluster (below) |
+| Admon | Alexander Gurney, Tasburgh | 1617 | S-Norfolk cluster (below) |
+| Admon | Robert Gurny | 1591 | unread; likely = the Robert of the 1588 inventory |
+| Admon | Anne Gurnay | 1595 | unread |
+| Inventory | Robert Gurney | 1588 | unread |
+| Inventory | John Gurne | 1593 | unread |
+| Inventory | [forename blank] Gurney | 1599 | unread |
+| Inventory | Thomas Gurnay, Esq., Great Ellingham | 1615–16 | ⭐ the reopened G15 Thomas-death conflict — treated on the [G15 companion](../people/g15-henry-gurney-fact-sheet.research.md) |
+| Inventory | Stephen Gurney, Norwich | 1613×19 | expert-read (section below) |
+
+**The court choice is itself a signal.** The gentry proved in the Norwich Consistory
+(Henry G15, 1623), while both newly-surfaced humble probates — Margery of East Dereham and
+Alexander of Tasburgh — prove in the **Archdeaconry of Norfolk (ANF)**, the lesser-estate
+court. Future humble-Gurney finds should be expected in the archdeaconry series, not the
+Consistory registers. The practical catch: the ANF register and act-book films on
+FamilySearch (catalogue `koha:291384`) are **affiliate-library-restricted** — the index
+rows are readable everywhere, but the register images are gated to a FamilySearch
+Center/affiliate library, the NRO, or a paid copy order.[^gurney-census-62679]
+
+**Alexander Gurney of Tasburgh (admon 1617) and the South-Norfolk pair.** Alexander's
+administration sits in the ANF administration act book 1611–1619, folio 101 (NRO MF 501).
+Tasburgh is about four miles from **Ashwellthorpe**, where a John Gurney was administered
+in 1615 — together a discrete **South-Norfolk Gurney cluster** distinct from the West
+Barsham gentry, the Earsham/Waveney yeomen, and the East Dereham household. (A Margaret
+Gurney, baptised 1 March 1589 at Tasburgh to parents indexed Alexander and Johan, gives
+the household a register-level footing.) Low direct bearing on the emigrant question —
+wrong geography for East Dereham — but a clean collateral node.[^alexander-tasburgh-2026-07]
+
+**A Norwich Gurney worsted-weaver family enters the freedom from 1719.** Norwich Freemen
+Records Online (post-1714 phase) shows a compact Gurney textile family taking the city
+freedom a century after the emigrant window: Robert (1719, master), Andrew (1722, worsted
+weaver), John, Benjamin, Edmund, and Joseph (1723, worsted weavers, admitted together —
+evidently brothers), John (1725, by patrimony), John and Joseph (1738), Benjamin (1739,
+hotpresser). A Norwich worsted-weaving Gurney family belongs to the same textile world the
+direct line touched (Francis G14's King's Lynn worsted venture; the St Peter Parmentergate
+weavers) but a century later — collateral-network material only.[^nfro-worsted-weavers]
+
+[^gurney-census-62679]: Ancestry.com, "Norfolk, England, Indexes to Wills, Probate, Administrations and Marriage Licence Bonds, 1371–1858" (collection 62679; NCC + Archdeaconry of Norwich + Archdeaconry of Norfolk + peculiars), authenticated census 2026-07-18: `name=_Gurney` = 102 rows; `name=_Gurn*` = 119 rows (variant spellings; Gurnell rows excluded as a distinct surname); every 1585–1650 row read and tabulated. Independently cross-checked against FamilySearch full-text name-extraction and co-occurrence probes (`+Gurnay +Norfolk` = 26; `+Gournay +Norfolk` = 152; `+Gurnay +Norwich` = 18), which surfaced no additional in-window Norfolk Gurney probate. ANF film restriction verified 2026-07-19 on film 008045772 (all leaves padlocked; das/v2 = HTTP 403). The four John-era residences (Ashwellthorpe 1615, Aylsham 1607, Earsham 1630/1639, Great Ellingham 1623) were previously grounded at `sources/corpus_supplement/rivett-garveston-maternal-family-2026-06.md`. Source ID: `norfolk-wills-probate-index-1371-1858`.
+[^alexander-tasburgh-2026-07]: Ancestry collection 62679, record 105314: "Gurney, Alexander, of Tasburgh," administration 1617; NRO permalink `.../gurney-alexander-of-tasburgh`; court and act book resolved from the NRO reference and finding aid ("Typescript index: ANW and ANF wills and admons 1604–1686"): ANF administration act book 1611–1619, fo. 101, NRO MF 501 (film within catalogue record `koha:291384`; specific reel not located — expected under the same affiliate restriction as the ANF will registers). Tasburgh Margaret baptism 1589: Ancestry collection 61045, targeted probe 2026-07-19. Source IDs: `norfolk-wills-probate-index-1371-1858`; `ancestry-norfolk-1535-1812`.
+[^nfro-worsted-weavers]: Norwich Freemen Records Online (nfro.norwichfreemen.org.uk), `surname=Gurney` (112 rows, earliest 1719), read 2026-07-18. The database currently loads only its Phase 1 (1714-present); the 1317–1713 phase is not yet online. Detail rows carry father/master and admission method.
 
 ## NRO medieval-to-Stuart Gurnay deed layer (catalogued rows, unworked originals)
 
@@ -99,9 +156,18 @@ South of Norwich, three market-parish clusters carry the surname in the generati
 
 - **Saxlingham Thorpe-and-Nethergate (1570–1713)** is a previously uncarried Gurney node about four miles north of Hempnall on the Norwich road. Image-backed register rows give marriages John × Agnes (2 October 1570), Thomas × Besula [?Basilia] (4 August 1623), William × Sara (20 June 1631), Mariam × Humfrey (3 November 1663), and John × Abigail (25 March 1682), a William-and-Sara Latin-form family (children Gulielmus, Johannes, Nicholaus, Maria), and burials Diana (1623), Nicholaus (1642), William (1687), John (1695), and Thomas (1713). The node bridges Hempnall and Norwich geographically; the NRO also holds a Saxlingham deed run (WHT 1/44/1–67, 1441–1638) noted in the deed layer above. One of these Saxlingham marriages — **Sion Gurney × Amia, 1636** — is the middle link in the Hempnall→Earsham Syon chain written up on [`john-gurney-candidate-earsham-norfolk.md`](john-gurney-candidate-earsham-norfolk.md).[^saxlingham-node]
 - **Wymondham Gurnay brides, 1617 and 1628.** Two Gurnay women married at Wymondham, about five miles north of Great Ellingham: **Mary Gurnay × Richard Wen, 29 September 1617**, and **Frances Gurnay × Anthony Leake, 16 June 1628** — both image-backed, both new. Their nearness to the G15 household makes them candidate daughters or nieces of that family marrying in the neighbouring market parish; Wen and Leake join the collateral-alliances watch-list (neither is the Allen surname of the packet-41 sister-heir). Later Wymondham Gurney continuity runs on: a Robert Gurney household (children baptised 1689–1706; burials of Robert 1689 and 1726, Thomas 1691 and 1729, Ann 1728) and marriages of Elizabeth Gurney (1688) and Anne Gurney (1715).[^wymondham-brides]
+- **Shottesham — an Elizabethan Gurney family litigating over land, 1558–79.** Two Chancery
+  suits in the TNA catalogue fix a Tudor Gurney landholding family at Shottesham (on the
+  Norwich road two miles from Saxlingham): **C 3/70/66, Gurney v Gurney** (John Gurney v
+  Richard Gurney, property in Shottesham — an intra-family dispute whose pleadings would
+  name the relationship) and **C 3/76/23, Gurney v Tylney** (Nicholas Gurney v Richard
+  Tylney, same place). Catalogue level only; the pleadings are unread and orderable from
+  Kew. A Shottesham Hall manor court-roll copy of 1557–58, enrolling a will, survives
+  separately as TNA C 146/11086.[^shottesham-chancery-2026-07]
 - **Hempnall, Ditchingham, and the Earsham Syon family.** The Hempnall Gurnie household — source of the rare forename Syon, first at Hempnall in 1593 — and the Ditchingham household that carries the name into the parish adjoining Earsham are the south-eastern, Waveney-corner end of this collateral spread. Both are treated in full, with the three-generation Syon-chain analysis and the resolved Earsham wife sequence, on [`john-gurney-candidate-earsham-norfolk.md`](john-gurney-candidate-earsham-norfolk.md) (carried as lead L-152). George Gurnay, rector of Tacolneston four miles from Hempnall (above), is the plausible clerical member of this same south-Norfolk group.
 
 [^saxlingham-node]: Ancestry / Norfolk Record Office, "Norfolk, England, Church of England Baptism, Marriages, and Burials, 1535–1812" (image-backed collection, dbid 61045), `_gurn*` keyword=Saxlingham and `sion_gurn*` sweeps, July 2026. Index level. Source ID: `ancestry-norfolk-1535-1812`.
+[^shottesham-chancery-2026-07]: The National Archives, Discovery catalogue (API, 2026-07-19), Gurney-variant sweep filtered Norfolk 1560–1665: C 3/70/66 (Chancery pleadings, Series II, 1558–1579), "Gurney v Gurney … John Gurney v Richard Gurney … Shottesham, Norfolk"; C 3/76/23 (same series), "Gurney v Tylney … Nicholas Gurney v Richard Tylney … Shottesham"; C 146/11086 (Shottesham Hall court-roll copy, 1557–58). Catalogue level; documents unexamined. Discovery is the access route.
 [^wymondham-brides]: Ancestry / Norfolk Record Office collection 61045, `_gurn*` keyword=Wymondham sweep July 2026 (NRO ref PD 184/8): Mary Gurnay × Richard Wen, 29 September 1617 (record 904170381); Frances Gurnay × Anthony Leake, 16 June 1628 (record 904170604); with later Robert-Gurney-household baptisms and burials 1689–1729 and marriages of Elizabeth (1688) and Anne (1715) Gurney. Image-backed, index level. Source ID: `ancestry-norfolk-1535-1812`.
 
 ## The armigerous cadet at Cawston and Booton (15th–16th c.)

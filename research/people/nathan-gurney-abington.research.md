@@ -41,6 +41,30 @@ Benjamin G9 (bpt. 30 May 1730) was almost exactly the age of Lemuel and slightly
 
 Nathan died at Abington on 17 April 1786; Sarah died in 1788.[^rigler-nathan]
 
+## The First Church record — the household at primary church-record level
+
+The digitised **First Church of Abington records (1714–1949)** — the "C.R.1" behind
+Benjamin G9's 1730 baptismal entry — are full-text searchable in New England's Hidden
+Histories, and they put the compiled household on primary church-record footing. The
+volume returns 22 Gurney page-hits, so far read at transcription level: **Nathan Gurney
+and his wife Sarah owned the covenant**, and their son **Nathan was baptised 4 May 1740**
+— the church-side record of the boy born 22 November 1739. A further entry baptises a
+**son David in 1746 — a child in neither Hobart's register nor Rigler's ten-child list**
+(most plausibly a child who died young, though a mis-attributed entry is possible; the
+compiled list puts daughter Sarah's birth at 14 March 1745/6, so a David of 1746 needs the
+page image before he is added to the household). A disciplinary entry calls Nathan to
+answer for absenting himself from worship. The same volume carries **Mary, wife of Joseph
+Gurney, admitted to communion 21 November 1734** — which Joseph (Nathan's brother, or the
+Joseph of the town's second, probably unrelated Gurney stock) is unresolved — and a
+baptism of **Thomas, son of Perkins Gurney** (a name belonging to that second stock).
+Most suggestively for the family's origins, one entry records a Gurney couple **"Dismissed
+from S[ai]d Church In Weymouth"** — a documented church-membership transfer between
+Abington and **Weymouth**, the family's ancestral town, whose own colonial church records
+do not survive anywhere. Per-record reads of the full 22 hits, with page images, are the
+open follow-up.[^nehh-abington-2026-07]
+
+[^nehh-abington-2026-07]: New England's Hidden Histories digital archive (Congregational Library & Archives), Quartex platform (congregationallibrary.quartexcollections.com), "Abington, Mass. First Church records, 1714–1949," document 40810; full-text `Gurney` search = 22 image-hits, transcription-level reads 2026-07-19 (per-record page-image verification pending). The Samuel Niles journal (Braintree, 1697–1777) also matched on Gurney and is unread. Source ID: `nehh-congregational-library-colonial-church-records`.
+
 ## The Little Comfort origin — John Gurney-3, Nathan's uncle
 
 Hobart: "**John Gurney**, the ancestor of most of the name in Abington, came from Weymouth, and settled in the south part of this town, then a part of Bridgewater, about the year 1690. He died about 1715; and, it seems, intestate… children, among whom were Richard, David and Nathan."[^hobart-register]

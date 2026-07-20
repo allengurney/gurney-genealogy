@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.33.0",
+    "version": "1.35.1",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-07-17",
+    "lastUpdated": "2026-07-19",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
@@ -4554,7 +4554,7 @@
       "corpusPath": "sources/corpus_supplement/deeds-utoronto-gournay-charter-extracts.md",
       "mediaPath": null,
       "validationPath": "sources/validations/deeds-utoronto-gournay-charter-extracts.md",
-      "notes": "Aggregate entry for the July 2026 DEEDS variant sweep and eleven charter full-text pulls: the Jumieges Havoth family-group act (06400021, original AD Seine-Maritime 9 H 1747/1), the Bec three-generation confirmation of 1112/13 (03781013), the 1167 Broughton acts of Hugh de Gournay and his wife Milesent (02580556/61), the 1202/3 Harpley fine (01770391), the Wendover Brisepot grant (00130234), and five further Norman acta. For the Norman acta DEEDS mirrors SCRIPTA (Universite de Caen); 'Assigned' dates are editorial, and the two databases' assignments can differ. Individual charters cite this entry plus the underlying printed edition in the footnote. Distinct from jenkins-missenden-cartulary-v1 (Missenden vol. 1 / cartulary 0013) and gervers-st-john-secunda-camera-1982 (cartulary 0088)."
+      "notes": "Aggregate entry for the July 2026 DEEDS variant sweep and eleven charter full-text pulls (Jumieges Havoth act 06400021; Bec confirmation of 1112/13; the 1167 Broughton acts of Hugh de Gournay and Milesent; the 1202/3 Harpley fine; the Wendover Brisepot grant; five further Norman acta). For the Norman acta DEEDS mirrors SCRIPTA (Universite de Caen); 'Assigned' dates are editorial and the two databases' assignments can differ. Individual charters cite this entry plus the underlying printed edition. Distinct from jenkins-missenden-cartulary-v1 and gervers-st-john-secunda-camera-1982."
     },
     "evans-dammartin-genealogists-magazine-1965": {
       "shortTitle": "Evans, 'Dammartin' (Genealogists' Magazine 1965)",
@@ -4726,8 +4726,8 @@
       "citation": "Manor of Whinburgh-with-Members (Norfolk), manorial court rolls on the part of Garvestone, Reymerston, Thuxton, Mattishall and Yaxham, 1595-1790; originals at the Norfolk Record Office, microfilmed 1991. FamilySearch catalog record koha:439083: court rolls 1595-1663 and 1743-1755 = British Film 1472614 = DGS 004389244; 1664-1743 = Film 1472654 = DGS 004389566; 1756-1790 = Film 1702191 = DGS 004395112.",
       "archive": "FamilySearch International / Norfolk Record Office",
       "url": "https://www.familysearch.org/en/search/catalog/439083",
-      "corpusStatus": "none",
-      "corpusPath": null,
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/paleo-2026-07-packet-52-whinburgh-courts-1595-1599.md",
       "mediaPath": "sources/media/fs-whinburgh-with-members-court-rolls/",
       "validationPath": "sources/validations/fs-whinburgh-with-members-court-rolls.md",
       "notes": "The manor whose courts governed Garveston copyhold - the heir-naming record class for the Rivett maternal-kin questions - with Gurney tenants in its orbit (a 1639-headed leaf; a 1754 entry). Full-text name-extraction on the films is proven partial, so film-scoped full-text negatives are meaningless. The richer unfilmed classes (surrenders and admissions 1564-1800, NRS 21256-21355; rough court books) remain at the NRO. Whinburgh was a Bardolf caput manor held as parcel of the barony of Gurnay."
@@ -4742,6 +4742,28 @@
       "mediaPath": null,
       "validationPath": "sources/validations/grigson-garveston-register-transcripts.md",
       "notes": "Nineteenth-century antiquarian fair copy bridging every gap in the surviving Garveston register, including burials after 1625; the extraction source behind the IGI's later Garveston rows (the 1584 Rivet-Podmer marriage; the 1626 Elizabeth Rivet burial). Digitized but access-restricted ('not currently digitally accessible') - readable from a FamilySearch Center or via NRO reproduction; the online catalog row exposes index search only."
+    },
+    "field-genealogy-pierce-1901": {
+      "shortTitle": "Pierce, Field Genealogy (1901)",
+      "citation": "Pierce, Frederick Clifton. Field Genealogy; Being the Record of All the Field Family in America. 2 vols. Chicago: Hammond Press, 1901.",
+      "archive": "Library of Congress scan; Internet Archive item fieldgenealogybe01pier (vol. 1), also served via Wikimedia Commons",
+      "url": "https://archive.org/details/fieldgenealogybe01pier",
+      "corpusStatus": "none",
+      "corpusPath": null,
+      "mediaPath": null,
+      "validationPath": "sources/validations/field-genealogy-pierce-1901.md",
+      "notes": "Compiled Field-family genealogy. Cited for the Providence, RI statement that Sarah Thornton, widow of Zachariah Field, married second John Gurney (vol. 1, citing Early Providence records, Book 2, p. 200) - the maiden-name and first-husband identification for Sarah Gurney (d. 1714). Compiled work: use as a pointer to the town-record citation it carries, not as primary evidence."
+    },
+    "fs-east-dereham-manor-court-books": {
+      "shortTitle": "FamilySearch - East Dereham manorial court books, 1623-1852",
+      "citation": "East Dereham (the Queen's manor, East Dereham with members; NRO DC 12/5), manorial court books 1623-1852 with index 1623-1820; originals at the Norfolk Record Office. FamilySearch films: DGS 004389483 ('Dereham, Norfolk. Court Records 1623-1689,' bundled with Deopham and Denver material) and DGS 004389277 ('Court Records 1689-1820,' with the manor index at item 8).",
+      "archive": "FamilySearch International / Norfolk Record Office",
+      "url": "https://www.familysearch.org/en/records/images/search-results?imageGroupNumbers=004389483",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/paleo-2026-07-packet-53-east-dereham-courts-1623-1635.md",
+      "mediaPath": "sources/media/east-dereham-court-books-fts/",
+      "validationPath": "sources/validations/fs-east-dereham-manor-court-books.md",
+      "notes": "The manor courts of John Gurney G13's birth parish - the record set behind the East Dereham Gurney copyhold chain (the Margery-widow abuttals and the later Matthew/Michael/Richard tenures). The Queen's-manor books begin at 1623, so no court record exists for 1605-1622; the other Dereham manor's books (1562-1582, 1649-1663) are NRO-only. Latin court-hand full-text extraction on these films is thin - film-scoped negatives require image-level confirmation. Previously cited via the familysearch-fulltext-search catch-all; dedicated entry minted 2026-07-19."
     }
   }
 }

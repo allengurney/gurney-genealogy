@@ -16,13 +16,25 @@ packet 41). The two leaf files are **date-inverted against their filenames and F
 dates** — cite by ark and visible heading only. Calibration read produced no secure
 image→year map for the Latin-era leaves.
 
-**Unexamined / limits.** The 1595–1663 item has not been image-walked (lead L-238; pre-1639
-courts ≈ images 1395–1784). Name-extraction on the film is proven partial (one extracted
+**Examined (2026-07-18, campaign rounds 1–2).** Item-level structure mapped at heading
+level (28 sampled openings): item 10 (images 1426–1869, "1595–1647") = Elizabethan book
+images 1426–~1539 (≈1595–1603) + a book from 1627 (~1540–1569) + a paginated 1629–1641
+book (~1575–1869); item 11 (images 1870–2301) = 1644–1663. **No courts c. 1604–1626 are on
+the film.** Expert image walk of the Elizabethan-book window images 1426, 1435, 1440–1470,
+1475, 1480, 1485 (≈Sept 1595–1599; paleography packet 52): no secure
+Rivet/Ryvett/Podmer/Petman/Gurney occurrence — a surname/heading walk, not a diplomatic
+transcript. Report: `sources/corpus_supplement/paleo-2026-07-packet-52-whinburgh-courts-1595-1599.md`;
+55 pulled masters at `sources/media/fs-whinburgh-with-members-court-rolls/_local/packet-52-whinburgh-courts-1595-1599/`.
+
+**Unexamined / limits.** The filmed 1627–1663 books (item 10 images ~1540–1869 + item 11)
+are not walked (lead L-253). Name-extraction on the film is proven partial (one extracted
 Rivett despite continuous tenancy), so **film-scoped full-text negatives mean nothing**.
 The unfilmed NRO classes — surrenders and admissions 1564–1800 (NRS 21256–21355), rough
-court books 1593–1790 (NRS 17009–18), early rolls 1594–1629 — are gated originals.
+court books 1593–1790 (NRS 17009–18), early rolls 1594–1629 covering the 1604–1626 gap —
+are gated originals.
 
 **Findings recorded at** `research/people/rivett-family-of-garveston.md`
 (Whinburgh-with-Members section). Media: `sources/media/fs-whinburgh-with-members-court-rolls/`
-(README committed; masters in `_local/`). Packet brief/report:
-`sources/intake/paleography-staging/packet-41-whinburgh-with-members-courts{,.report}.md`.
+(README committed; masters in `_local/`). Packet briefs/reports: packet 41
+(`sources/intake/paleography-staging/done/packet-41-whinburgh-with-members-courts{,.report}.md`)
+and packet 52 (same `done/` folder; report promoted to the corpus_supplement path above).

@@ -16,6 +16,29 @@ Cross-cutting holding file for the medieval Norfolk Gournay/Gurnay final concord
 - **[forename lost] de Gornay and Katrine his wife** v. Henry de Habelund — Rye Pt I.[^rye-fines-corpus]
 - **[forename lost] Gurney and Havisia his wife, in Duneston** — Rye Pt I.[^rye-fines-corpus]
 
+## Late-fifteenth-century William Gurney fines — date-fixed from the modern calendar
+
+Two Norfolk fines are now **date-controlled** from the Some Notes on Medieval English
+Genealogy abstract calendar of CP 25/1/170/195 — later, geographically distinct William
+Gurney appearances useful for separating same-name contemporaries:
+
+- **4 June 1486** (no. 2): **William Gurney the elder, esquire**, one of twelve querents;
+  four messuages, 200 a. land, 20 a. meadow, 60 a. pasture, 60 a. heath, and 40s rent in
+  **Westwick and Worstead**. The "the elder" qualifier proves a younger namesake alive in
+  1486. AALT image: [IMG_0020](https://aalt.law.uh.edu/AALT4/CP25%281%29/CP25%281%29no170/IMG_0020.htm).
+- **3 February 1491** (no. 24): **William Gurney, esquire**, co-querent with Thomas
+  Wodehouse, Edmund Harberd, and John Pegeon; a moiety of a messuage called **Towtons in
+  Tittleshall and Godwick**. AALT image:
+  [IMG_0042](https://aalt.law.uh.edu/AALT4/CP25%281%29/CP25%281%29no170/IMG_0042.htm).
+
+Neither fine yet identifies its William against the direct line (the G18/G19-era Williams
+are the obvious candidates, with the Cawston/Booton cadet as the alternative); the
+membrane images are unread (the AALT viewer timed out in the July 2026 session — retry
+from another network). The dates and places slot alongside the NRO William-Gurnay deed
+layer of 1468–1507 on the collateral-network file.[^cp25-170-195-2026-07]
+
+[^cp25-170-195-2026-07]: "Some Notes on Medieval English Genealogy," Feet of Fines abstracts, [CP 25/1/170/195](https://www.medievalgenealogy.org.uk/fines/abstracts/CP_25_1_170_195.shtml), nos. 2 (4 June 1486) and 24 (3 February 1491), read 2026-07-19; underlying manuscripts TNA CP 25/1, images at AALT (links above, unread). Abstract-calendar level.
+
 Each remains unattributed pending a date/reign or image read (lead L-158); promote to the relevant subject companion once the generation is fixed.
 
 [^rye-fines-corpus]: Walter Rye, *A Short Calendar of the Feet of Fines for Norfolk*, Parts I and II; the Gournay/Gurnay entries and the place/party-anchoring method used around the degraded OCR are transcribed at [`sources/corpus_supplement/norfolk-feet-of-fines-gurnay-entries-rye.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/norfolk-feet-of-fines-gurnay-entries-rye.md). Internet Archive `ashortcalendarf02ryegoog` (Part I; local copy [`sources/corpus/rye-feet-of-fines-norfolk-part1.pdf`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus/rye-feet-of-fines-norfolk-part1.pdf)) and `ashortcalendarf00ryegoog` (Part II); underlying manuscripts TNA CP 25/1 (Norfolk), images at AALT. Source ID: `rye-feet-of-fines-norfolk`.

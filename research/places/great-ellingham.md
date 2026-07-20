@@ -115,6 +115,7 @@ ARCHI UK's search result is only a tertiary lead, but it preserves three useful 
 
 ## Open items
 
+- [ ] Two Great Ellingham one-place-study articles are located as finding aids for the post-1641 succession (chase the wills/deeds they cite, not the blog assertions): ["Ned Gurney inherits Great Ellingham Hall"](https://greatellingham.org/people/ned-gurney-inherits-great-ellingham-hall/) (Edward Gournay's inheritance) and ["From the Davy family to the Potts family"](https://greatellingham.org/people/from-the-davy-family-to-the-potts-family-great-ellingham-hall/) (the Davy→Potts transit), both at greatellingham.org — the site already cited here for Manor Farmhouse.
 - [ ] Pull the full Blomefield Great Ellingham entry directly into this file, especially the exact wording on Anthony's wife Margaret Lovell and the later Potts descent.
 - [ ] Check whether St James the Apostle church at Great Ellingham preserves any Gurney heraldry, epitaph material, or monument evidence tied to Henry G15 or his descendants.
 - [ ] Clarify whether Francis G16 should remain an explicit structured link here or whether the cleaner topographical evidence begins with Anthony G17.
