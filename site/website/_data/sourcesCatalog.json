@@ -175,9 +175,9 @@
     "url": "https://www.ancestry.com/search/collections/61045/",
     "corpusStatus": "",
     "corpusPath": "",
-    "mediaPath": "",
+    "mediaPath": "sources/media/garveston-parish-register-fts/README.md",
     "validationPath": "",
-    "notes": "Used 2026-05-11 for the Norfolk Gurney baptism roster 1615-1645 (14 baptisms across ten households) and to image-verify the Denton 12 Aug 1638 Mary Gurney baptism. NRO indexer reads the Denton 1638 father as Josiah Gurney, disagreeing with FS England B&C and Findmypast UK Parish Baptisms which read the same register entry as father John Gurney."
+    "notes": "Image-backed NRO register collection (dbid 61045); for covered parishes it is the Ancestry image route the index-only FamilySearch NRO collection lacks, though its indexing is parish/era-partial (Garveston indexing lapses mid-1580s-1651 while the images run complete to 1675). Used 2026-05-11 for the Norfolk Gurney baptism roster and the Denton 1638 baptism (NRO indexer reads father Josiah vs FS/FMP John), and 2026-07-16 for the Garveston/Gressenhall/Wymondham Rivet and Podmer censuses and the pre-1586 Garveston register leaves."
   },
   {
     "sourceId": "anderson-yvery-1742",
@@ -902,14 +902,14 @@
   {
     "sourceId": "cal-cecil-papers-hatfield",
     "shortTitle": "Calendar of Cecil Papers, Hatfield House",
-    "citation": "Calendar of the Cecil Papers in Hatfield House, ed. M. S. Giuseppi et al. (London: HMSO). Vol. 18 (1606), pp. 371-462, 'Cecil Papers: Miscellaneous 1605'.",
+    "citation": "Calendar of the Cecil Papers in Hatfield House, ed. R. A. Roberts, M. S. Giuseppi et al. (London: HMSO). BHO entries used include vol. 12 (1602-1603), pp. 518-528, 'Cecil Papers: December 1602, 16-25', and vol. 18 (1606), pp. 371-462, 'Cecil Papers: Miscellaneous 1605'.",
     "archive": "British History Online",
-    "url": "https://www.british-history.ac.uk/cal-cecil-papers/vol18/pp371-462",
+    "url": "https://www.british-history.ac.uk/cal-cecil-papers",
     "corpusStatus": "partial",
     "corpusPath": "sources/corpus_supplement/cecil-papers-vol18-edmund-gurnay-1606-cambridge.md",
     "mediaPath": "",
-    "validationPath": "",
-    "notes": "Calendar of the Hatfield House (Cecil/Salisbury) manuscripts. Holds Edmund Gurnay's 1606 letter to Robert Cecil, Earl of Salisbury, Chancellor of Cambridge, appealing his Corpus Christi College suspension under Master Thomas Jegon (brother of Bishop John Jegon of Norwich) -- primary witness to the Jegon dispute that Daniel Gurney's Record supplement narrates only secondarily. A second Edmund Gurnay entry falls in December 1602 (not yet extracted). Surfaced via BHO full-text variant search, June 2026."
+    "validationPath": "sources/validations/cal-cecil-papers-hatfield.md",
+    "notes": "Calendar of the Hatfield House (Cecil/Salisbury) manuscripts. Holds Edmund Gurnay's 1602 Corpus Christi signatory entry and 1606 letter to Robert Cecil, Earl of Salisbury, Chancellor of Cambridge, appealing his Corpus Christi College suspension under Master Thomas Jegon (brother of Bishop John Jegon of Norwich). Surfaced via BHO full-text variant search, June-July 2026."
   },
   {
     "sourceId": "cfr-henry-iv-1405-13",
@@ -922,6 +922,30 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Henry IV Fine Rolls calendar volume. Used in v52 for the 16 Feb 1409 escheator order on the lands of John Gurnay (= collateral Sir John Gurney d. 4 Dec 1408), p. 123, and for the 5 Nov 1406 record that Sir Matthew de Gournay (Somerset/regicide collateral) had died by that date, p. 78."
+  },
+  {
+    "sourceId": "cpr-edward-iv-henry-vi-1467-77",
+    "shortTitle": "Calendar of Patent Rolls, Edward IV-Henry VI, 1467-77",
+    "citation": "Calendar of the Patent Rolls Preserved in the Public Record Office, Edward IV, Henry VI, A.D. 1467-1477 (London: HMSO, 1900).",
+    "archive": "TNA / HMSO printed calendar; Internet Archive calendarofpatent00grea",
+    "url": "https://archive.org/details/calendarofpatent00grea",
+    "corpusStatus": "extract",
+    "corpusPath": "sources/corpus_supplement/cpr-edward-iv-1461-1477-gurney-entries.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/cpr-edward-iv-calendars-1461-1477.md",
+    "notes": "Printed calendar of the patent rolls 1467-77. Sole Gurn*-surname entry: Thomas Gourney of Halton, Buckinghamshire, feoffee in the Bryghtwell collusive-enfeoffment custody grant (p. 152) - a 15th-century anchor for the Buckinghamshire Gurney presence. Complete surname harvest with index coverage in the corpus extract."
+  },
+  {
+    "sourceId": "cpr-edward-iv-1461-67",
+    "shortTitle": "Calendar of Patent Rolls, Edward IV, 1461-67",
+    "citation": "Calendar of the Patent Rolls Preserved in the Public Record Office, Edward IV, A.D. 1461-1467 (London: HMSO, 1897).",
+    "archive": "TNA / HMSO printed calendar; Internet Archive calendarpatentr14offigoog (Google scan)",
+    "url": "https://archive.org/details/calendarpatentr14offigoog",
+    "corpusStatus": "extract",
+    "corpusPath": "sources/corpus_supplement/cpr-edward-iv-1461-1477-gurney-entries.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/cpr-edward-iv-calendars-1461-1477.md",
+    "notes": "Printed calendar of the patent rolls for Edward IV's first six years. Gurn*-surname content: John Gourney/Gurney esquire regrant entries (pp. 188, 273, 297 - the Lancastrian household man stripped of Henry VI grants), Thomas Garney of London, yeoman, mainpernor (p. 284), and posthumous references to Matthew Gurney's Somerset manors. Complete surname harvest with index coverage in the corpus extract."
   },
   {
     "sourceId": "cpr-henry-iv-1399-1401",
@@ -970,6 +994,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "17th-century Metz family genealogy claiming Norman descent. Vuldus de Gournay c. 960 origin story (anachronistic; rejected). 'Comte de Gournay' attribution (Hugues received Norfolk grant as 'Bishopric of Norveck' — local-tradition compression). Conflates Basilia Flaitel with Edith de Warenne. Useful as documentation of confusion that proliferates around the Gournay junction."
+  },
+  {
+    "sourceId": "cul-archivesearch",
+    "shortTitle": "Cambridge University Library ArchiveSearch",
+    "citation": "ArchiveSearch, the discovery portal for archives and manuscript collections at Cambridge University Library and Cambridge colleges (archivesearch.lib.cam.ac.uk).",
+    "archive": "Cambridge University Library and Cambridge college archives (Christ's College Muniments; Corpus Christi College archives; CUL University Archives)",
+    "url": "https://archivesearch.lib.cam.ac.uk/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/cul-archivesearch.md",
+    "notes": "Aggregated catalogue for the manuscript and archive collections held at CUL and the Cambridge colleges. Cited for catalogue-row evidence surfaced by a July 2026 'gurnay' keyword sweep (10 rows): Christ's College Muniments Norfolk manorial deeds (Feltwell, Bintry) naming medieval Gurnays, a CUL Vice-Chancellor's Court act-book entry, and Corpus Christi Cambridge parish deeds. Described originals remain unexamined in the CUL reading rooms unless separately pulled."
   },
   {
     "sourceId": "cambridge-core-camden-preface-addenda",
@@ -1078,6 +1114,18 @@
     "mediaPath": "sources/media/weymouth-classified-record-deaths-nash/",
     "validationPath": "",
     "notes": "Deaths companion volume to weymouth-classified-record-births-nash, same Nash 1879 classified-record project. The Gurney section (p. 208) records six deaths: Richard (Oct. 1719); Zechariah Senior (27 Oct. 1732); Mary (14 Feb. 1736); Joseph Senior (14 Dec. 1739); Jacob (1 Sept. 1793, aged 87); Elizabeth wife of Jacob (19 Sept. 1794, aged 78). 'Richard Oct. 1719' is the primary entry behind the History-of-Weymouth death-year error: it is Richard3 (b. 1656, unmarried), the son, not Richard2/G12 (d. Oct. 1691). Gives exact death dates for Richard2's children Joseph (b. 1664/5, d. 14 Dec. 1739, 'Senior' vs his nephew Joseph b. 1698) and Mary (b. 1667, d. 14 Feb. 1736 - the unmarried daughter on the no-'wife of' reading; History of Weymouth instead read this Mary as Zachariah3's wife Mary Benson) and confirms Zachariah3 (Senior) d. 27 Oct. 1732. Jacob (b. 1706) and his wife Elizabeth are later collateral. Page image (subscription) held local-only under mediaPath/_local; transcription on the G12 Richard companion."
+  },
+  {
+    "sourceId": "cced-clergy-database",
+    "shortTitle": "Clergy of the Church of England Database (CCEd)",
+    "citation": "Clergy of the Church of England Database 1540-1835 (CCEd), King's College London / AHRC, theclergydatabase.org.uk.",
+    "archive": "Online database",
+    "url": "https://theclergydatabase.org.uk/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "Relational database of Church of England clergy careers compiled from diocesan records; coverage begins at the Reformation (records from 1540), so medieval institutions are out of scope. July 2026 surname census: Gurney = 24 person-records, all late-Georgian/Regency (1767-1834); Gurnay and Gournay = 0. No 15th-17th-century Gurney cleric and no George Gurnay of Tacolneston under any spelling."
   },
   {
     "sourceId": "cleveland-battle-abbey-roll-v2-gurnay",
@@ -1246,6 +1294,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/decorde-essai-canton-gournay-1861.md",
     "notes": "French local history and archaeology of the canton of Gournay. Important for Gournay-en-Bray, Beauvaisis frontier acquisitions, Boshyon/Bois-Hugues, Bremontier-Merval / Bellosanne, Gaillefontaine, the Collegiate Saint-Hildevert at Gournay, and Cottentray/Avesnes-en-Bray. Findings from the 2026 deep-research synthesis are now promoted into research/people/g33, research/people/g32, research/places/gournay-en-bray.md, research/places/collegiale-saint-hildevert-gournay.md, research/places/g33-bec-gournay-endowment-cluster.md, research/places/gaillefontaine.md, research/places/bosc-hyons.md, research/places/bellosanne-abbey.md, research/places/cottentray-avesnes-en-bray.md, and research/topics/senior-gournay-baron-line-collateral.md. The OCR text in sources/corpus_supplement is visibly noisy; cite exact French phrasing only after checking page images or cleaner scans for delicate claims."
+  },
+  {
+    "sourceId": "deeds-utoronto-gournay-charter-extracts",
+    "shortTitle": "DEEDS (Toronto) Gournay charter extracts",
+    "citation": "DEEDS: Documents of Early England Data Set, University of Toronto Scarborough. Selected charter transcriptions relating to the Gournay family, captured from a systematic gour*/gurn*/gorn* full-text sweep, July 2026. Underlying editions include Regesta Regum Anglo-Normannorum vols. 1-2, Chartes de l'Abbaye de Jumieges t. 1 (Vernier 1916), The Cartulary of Missenden Abbey vol. 2 (BRS 12), Feet of Fines Norfolk (PRS n.s. 27), Annales de Burton (BL Cotton Vespasian E III), and Newly Discovered Charters of King John.",
+    "archive": "DEEDS database, deeds.utsc.utoronto.ca",
+    "url": "https://deeds.utsc.utoronto.ca/",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/deeds-utoronto-gournay-charter-extracts.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/deeds-utoronto-gournay-charter-extracts.md",
+    "notes": "Aggregate entry for the July 2026 DEEDS variant sweep and eleven charter full-text pulls: the Jumieges Havoth family-group act (06400021, original AD Seine-Maritime 9 H 1747/1), the Bec three-generation confirmation of 1112/13 (03781013), the 1167 Broughton acts of Hugh de Gournay and his wife Milesent (02580556/61), the 1202/3 Harpley fine (01770391), the Wendover Brisepot grant (00130234), and five further Norman acta. For the Norman acta DEEDS mirrors SCRIPTA (Universite de Caen); 'Assigned' dates are editorial, and the two databases' assignments can differ. Individual charters cite this entry plus the underlying printed edition in the footnote. Distinct from jenkins-missenden-cartulary-v1 (Missenden vol. 1 / cartulary 0013) and gervers-st-john-secunda-camera-1982 (cartulary 0088)."
   },
   {
     "sourceId": "folger-demonstration-antichrist-1631",
@@ -1606,6 +1666,18 @@
     "mediaPath": "sources/media/Hardingham c1790 Faden Map.png",
     "validationPath": "sources/validations/faden-map-norfolk-1797-hardingham.md",
     "notes": "Map extract shows Hardingham, Old Hall, Manson Green, Hardingham Low Common, and surrounding roads/watercourses. Use as visual place context, not as evidence for medieval Swathings identity by itself. Faden's Norfolk map was published in 1797 after surveying in the 1790s."
+  },
+  {
+    "sourceId": "fs-whinburgh-with-members-court-rolls",
+    "shortTitle": "FamilySearch - Whinburgh-with-Members manorial court rolls, 1595-1790",
+    "citation": "Manor of Whinburgh-with-Members (Norfolk), manorial court rolls on the part of Garvestone, Reymerston, Thuxton, Mattishall and Yaxham, 1595-1790; originals at the Norfolk Record Office, microfilmed 1991. FamilySearch catalog record koha:439083: court rolls 1595-1663 and 1743-1755 = British Film 1472614 = DGS 004389244; 1664-1743 = Film 1472654 = DGS 004389566; 1756-1790 = Film 1702191 = DGS 004395112.",
+    "archive": "FamilySearch International / Norfolk Record Office",
+    "url": "https://www.familysearch.org/en/search/catalog/439083",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "sources/media/fs-whinburgh-with-members-court-rolls/",
+    "validationPath": "sources/validations/fs-whinburgh-with-members-court-rolls.md",
+    "notes": "The manor whose courts governed Garveston copyhold - the heir-naming record class for the Rivett maternal-kin questions - with Gurney tenants in its orbit (a 1639-headed leaf; a 1754 entry). Full-text name-extraction on the films is proven partial, so film-scoped full-text negatives are meaningless. The richer unfilmed classes (surrenders and admissions 1564-1800, NRS 21256-21355; rough court books) remain at the NRO. Whinburgh was a Bardolf caput manor held as parcel of the barony of Gurnay."
   },
   {
     "sourceId": "fs-england-births-christenings",
@@ -2244,6 +2316,18 @@
     "notes": "Contextual/operator history of the Deerfield and Connecticut River hydroelectric developments built by the New England Power Company / New England Power System (Great River Hydro is a later owner; the corporate line runs to National Grid). Dated build-out: Somerset reservoir (1911), Deerfield Nos. 2-5 (1911-1915), Searsburg (1922; 18,412-ft wood-stave penstock), Harriman (1924, 'largest hydroelectric facility east of Niagara Falls at the time'; 12,812-ft bedrock tunnel; reservoir still the largest man-made lake in Vermont), Sherman (1927), Bellows Falls (1928), Comerford/Fifteen Mile Falls (1930). Project context for G4 Lester Sawyer Gurney Jr.'s resident-engineer roles. Tertiary/contextual source per the contextual-colour band in citations.md."
   },
   {
+    "sourceId": "grigson-garveston-register-transcripts",
+    "shortTitle": "Grigson, Garveston parish register transcripts, 1538-1845",
+    "citation": "Francis Grigson, Garveston parish register transcripts, 1538-1845 (Church of England parish churches of Garvestone and Thuxton); microfilm of the original typescript at the Norfolk Record Office. FamilySearch catalog record koha:586425, British Film 1702622 items 11-12 = DGS 004115503.",
+    "archive": "FamilySearch International / Norfolk Record Office",
+    "url": "https://www.familysearch.org/en/search/catalog/586425",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/grigson-garveston-register-transcripts.md",
+    "notes": "Nineteenth-century antiquarian fair copy bridging every gap in the surviving Garveston register, including burials after 1625; the extraction source behind the IGI's later Garveston rows (the 1584 Rivet-Podmer marriage; the 1626 Elizabeth Rivet burial). Digitized but access-restricted ('not currently digitally accessible') - readable from a FamilySearch Center or via NRO reproduction; the online catalog row exposes index search only."
+  },
+  {
     "sourceId": "grokipedia-edmund-gurney-divine",
     "shortTitle": "Grokipedia - Edmund Gurney (divine)",
     "citation": "\"Edmund Gurney (divine).\" Grokipedia. User-supplied article capture, 2026-04-26.",
@@ -2784,6 +2868,18 @@
     "notes": "P. 492 carries the de Gurnai entries (snippet capture July 2026; full page unread): William entry 'Son of Walter de Gournay' (accepting the 1166 carta filiation; her 'half a fee' is a slip for the quarter); Gerard entry names issue Hugh and Gundreda only and has Gerard dying before Jerusalem was taken in 1099 (a dissent from the two-journey reading). Distinct from Domesday People vol. 1 (1999), registered as keates-rohan-domesday."
   },
   {
+    "sourceId": "lestrange-rye-norwich-freemen-1317-1603",
+    "shortTitle": "L'Estrange/Rye, Calendar of the Freemen of Norwich, 1317-1603",
+    "citation": "John L'Estrange, comp., and Walter Rye, ed., Calendar of the Freemen of Norwich from 1317 to 1603 (Edward II to Elizabeth Inclusive) (London: Elliot Stock, 1888).",
+    "archive": "Internet Archive cu31924029785528 (Cornell scan; cleaner OCR than freemennorwich1317)",
+    "url": "https://archive.org/details/cu31924029785528",
+    "corpusStatus": "extract",
+    "corpusPath": "sources/corpus_supplement/norwich-freemen-calendar-1317-1603-gurney-entries.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/lestrange-rye-norwich-freemen-1317-1603.md",
+    "notes": "Alphabetical calendar of Norwich freedom admissions 1317-1603, compiled by L'Estrange from the original roll and printed unchecked by Rye (editor's completeness caveat applies). Gurney content: two medieval admissions (Geoffrey, barber, 1396/97; William, tanner, 1407/08) and John Gurnell, cordwainer, 1551. Predecessor series to Millican's 1548-1713 register."
+  },
+  {
     "sourceId": "laslett-world-we-have-lost-1965",
     "shortTitle": "Laslett, World We Have Lost",
     "citation": "Laslett, Peter. The World We Have Lost. London: Methuen, 1965.",
@@ -2866,6 +2962,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Vol. i, p. 298: Walter de Gournay (G31) enfeoffed of a quarter knight's fee in Suffolk under Manasser de Dampmartin, reign of Stephen. Key primary source for the junior Norfolk branch."
+  },
+  {
+    "sourceId": "lloyd-family-boston",
+    "shortTitle": "Lloyd family of Boston and Lloyd Neck (compiled/collector references)",
+    "citation": "Compiled and collector references for James Lloyd, merchant of Boston (c. 1653-1693), and his family: Geni, \"James Lloyd merchant of Boston\"; Lloyd Harbor Historical Society, \"The Lloyd Family\"; Town of Huntington, \"The Lloyds of Lloyd Neck (1676-1885)\"; American Aristocracy, \"Grizzell (Eastwick) Apthorp\"; Cobbold Family History Trust biography no. 9342.",
+    "archive": "Web (collector/compiled genealogies and local-history pages)",
+    "url": "https://lloydharborhistoricalsociety.org/lloyd-family/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/lloyd-family-boston.md",
+    "notes": "Collector-level references establishing that Grisell Lloyd, the kinswoman named in John Lewis of Nevis's 1699 will, was the daughter of James Lloyd of Boston (grandson of Sir John Lloyd 1st Bt.), born Jamaica c. 1685 and married John Eastwick 1703. Used only to characterise the will's Boston-Shelter Island-Nevis-Bristol merchant milieu; tertiary/compiled sources carrying no primary documentation, cited as collectors, not authorities."
   },
   {
     "sourceId": "lma-st-augustine-watling-register-candidate-d-images",
@@ -3333,7 +3441,7 @@
     "corpusPath": "",
     "mediaPath": "",
     "validationPath": "sources/validations/nehgr-49-genealogical-gleanings-john-lewis.md",
-    "notes": "User-supplied extract from John Lewis of Nevis will, dated 21 December 1699 and proved 9 July 1701, includes a reference to Mary Gurney, daughter of John Gurney. Probate registration confirmed 2026-05-29 as PCC register Dyer, quire 99 (PROB 11/461) from the NEHGR vol. 49 abstract (Internet Archive scan newenglandhistor49wate). Treat as a same-name/relationship lead; the working hypothesis ties Mary to G13's son John Jr. (b. c.1633), unconfirmed."
+    "notes": "User-supplied extract from John Lewis of Nevis will, dated 21 December 1699 and proved 9 July 1701, includes a reference to Mary Gurney, daughter of John Gurney. Probate registration confirmed 2026-05-29 as PCC register Dyer, quire 99 (PROB 11/461) from the NEHGR vol. 49 abstract (Internet Archive scan newenglandhistor49wate). Treat as a same-name/relationship lead; the working hypothesis ties Mary to G13's son John Jr. (b. c.1633), unconfirmed. Register-image confirmation of the abstract is held separately as pcc-prob11-461-dyer-lewis-nevis."
   },
   {
     "sourceId": "nehgr-62-94",
@@ -3432,16 +3540,28 @@
     "notes": "Norfolk Heritage Explorer parish summary for Great Ellingham. Important contextual source for Great Ellingham's long occupation history, medieval church and residential buildings, and Old Hall (NHER 9108), described as a mid-16th-century house built for one of the Gurney family on the site of an earlier moated manor."
   },
   {
+    "sourceId": "nro-catalogue-atom",
+    "shortTitle": "Norfolk Record Office online catalogue (AtoM)",
+    "citation": "Norfolk Record Office online catalogue, AtoM instance at nrocatalogue.norfolk.gov.uk (successor to the CalmView NROCAT at nrocat.norfolk.gov.uk).",
+    "archive": "Norfolk Record Office, The Archive Centre, Martineau Lane, Norwich",
+    "url": "http://nrocatalogue.norfolk.gov.uk/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "The NRO's public catalogue: per-item descriptive rows for the office's fonds, including per-will NCC index rows (with parish and year) and deed-level rows across family and estate collections. Search URL pattern: /index.php/informationobject/browse?query=%22<term>%22&topLod=0&page=N (15 rows/page). Cited for catalogue-row evidence; the described originals remain unexamined unless separately pulled."
+  },
+  {
     "sourceId": "nro-ncc-wills-registers",
     "shortTitle": "Norfolk Record Office, NCC Will Registers",
     "citation": "Norfolk Record Office, Norwich Consistory Court (NCC) will registers, including registers Doke (mid-15th c.), Aleyn (mid-15th c.), and Jekkys (later 15th c.).",
     "archive": "Norfolk Record Office, The Archive Centre, Martineau Lane, Norwich",
     "url": "http://nrocat.norfolk.gov.uk",
-    "corpusStatus": "none",
-    "corpusPath": "",
-    "mediaPath": "",
-    "validationPath": "",
-    "notes": "Umbrella entry for the NCC will and administration registers held at the Norfolk Record Office. v52 uses three entries discovered via girders.net: NCC will register Doke, 17 (administration of Henry Gurnay of Norwich, 1443); NCC will register Aleyn, 19 (administration of Thomas Gurnay of Great Ellingham, 1454); NCC will register Jekkys, 211 (will of Thomas Gurnay of Harpley, 1471 = G20 Thomas Gournay II). The Jekkys 211 will is the primary register copy of the will whose contents DG-I pp. 280-282 already extracts."
+    "corpusStatus": "extract",
+    "corpusPath": "sources/corpus_supplement/ncc-jekkys-211-thomas-gurnay-will-complex-1471.md",
+    "mediaPath": "sources/media/ncc-wills-registers/",
+    "validationPath": "sources/validations/nro-ncc-wills-registers.md",
+    "notes": "Umbrella entry for the NCC will and administration registers at the Norfolk Record Office, including the register-Aleyn-period volumes (1444-55, FS film DGS 008076270) and register Jekkys (1464-72, DGS 008470476). Key rows: Doke 17 (admon of Henry Gurnay of Norwich, 1443); \"Aleyn 19\" = act-book fo. 19v admon of Thomas Gurnay of Great Ellingham, 5 Aug 1454 (extract: ncc-aleyn-actbook-fo19v-thomas-gurnay-admon-1454.md); Jekkys 211 = will complex of Thomas Gurnay of Harpley, proved 27 July 1471 (G20; extract at corpusPath). Working-reference masters in mediaPath _local/."
   },
   {
     "sourceId": "norfolk-wills-extracts-bradfer-lawrence",
@@ -3850,6 +3970,30 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Etienne Pattou's chart-genealogy of the Gournay seigneurial line and its Norfolk and Somerset cadet branches. Independent of DG and of Cawley's MedLands; draws on Potin 1842, NRP-I 1852, and modern French scholarship. Companion chart referenced extensively in research companions for G31-G37. Note TLS-certificate issue when fetching via WebFetch (ERR_TLS_CERT_ALTNAME_INVALID on 2026-05-23); browser download works."
+  },
+  {
+    "sourceId": "pcc-prob11-461-dyer-lewis-nevis",
+    "shortTitle": "PCC will of John Lewis of Nevis (PROB 11/461, Dyer, 1701)",
+    "citation": "Will of John Lewis of the Island of Nevis, merchant, dated 21 December 1699, proved 9 July 1701. The National Archives, PROB 11/461 (register Dyer), quire 99; register images via Ancestry, \"England & Wales, Prerogative Court of Canterbury Wills, 1384-1858\" (dbid 5111), images 40611_310640-00574 to -00576.",
+    "archive": "The National Archives (PROB 11/461); Ancestry dbid 5111 register images",
+    "url": "https://www.ancestry.com/search/collections/5111/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "sources/media/pcc-prob11-461-dyer-lewis-nevis/",
+    "validationPath": "sources/validations/pcc-prob11-461-dyer-lewis-nevis.md",
+    "notes": "Register copy of the 1699 Lewis will, previously held only at abstract level (Waters, NEHGR 49). The image confirms the stand-alone legatee wording \"unto Mary Gurney the daughter of John Gurney,\" placed immediately after the bequest to \"my kinswoman Grisell Lloyd daughter of James Lloyd\"; Mary carries no residence or kinship qualifier. Sole executor Henry Lloyd, merchant of Bristol. Working-reference images in mediaPath _local/ (licensed-database captures)."
+  },
+  {
+    "sourceId": "pcc-prob11-10-vox-calthorpe-1495",
+    "shortTitle": "PCC will of Sir William Calthorpe (PROB 11/10, Vox, 1495)",
+    "citation": "Will of Sir William Calthorpe, knight, of Burnham Thorpe, dated 31 May 1494, proved 23 May 1495. The National Archives, PROB 11/10 (register Vox), fo. 23; register images via Ancestry, \"England & Wales, Prerogative Court of Canterbury Wills, 1384-1858\" (dbid 5111), Piece 10 Vox, images 40611_311109-00370 to -00372.",
+    "archive": "The National Archives (PROB 11/10); Ancestry dbid 5111 register images",
+    "url": "https://www.ancestry.com/search/collections/5111/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "sources/media/pcc-prob11-10-vox-calthorpe-1495/",
+    "validationPath": "sources/validations/pcc-prob11-10-vox-calthorpe-1495.md",
+    "notes": "Register copy of the 1494 Calthorpe will, previously held only at abstract level (Bradfer-Lawrence). The image supplies the Gurney son-in-law's forename: \"by the handes of my son William Gurney\" and the executor cluster \"Dame Elizabeth my wife, Robert Clerke, Robert Fermer, William Gurney, Walter Aslake.\" Probate clause supports 23 May 1495. Working-reference images in mediaPath _local/ (licensed-database captures)."
   },
   {
     "sourceId": "pcc-rivett-rattlesden-wills",
@@ -4377,7 +4521,7 @@
     "corpusPath": "sources/corpus_supplement/unicaen-scripta-selected-gournay-acts.md",
     "mediaPath": "",
     "validationPath": "sources/validations/unicaen-scripta-selected-gournay-acts.md",
-    "notes": "Selected SCRIPTA acts from the Normonde Hugues Ier de Gournay authority roster and follow-on act exploration. Includes Acts 151, 1633, 1661, 6458, 6463, 6466, 6467, 6472, 6511, 6512, 6520, 6523, 6538, and 6565. Key findings: Act 151 directly names Hugh, Basilia, and Gerard consenting to Raoul Havoth's Jumieges donation at Hugonis Silva/Boschyons; Act 6511 directly names Hugh de Gornaco and his son Gerard donating their domain in the same villa, contextually Bois Girard, to Bec; Act 6512 preserves William I's confirmation that Hugh gave Bec what he held of the king in London plus Fordham, Ardleigh, and Liston rights; Act 6538 provides modern SCRIPTA/Bates/Fauroux control for the Cauville/Montivilliers sale already printed by Daniel Gurney."
+    "notes": "Selected SCRIPTA acts from the Normonde Hugues Ier de Gournay authority roster and follow-on act exploration. Includes Acts 151, 1633, 1661, 6458, 6463, 6466, 6467, 6472, 6511, 6512, 6520, 6523, 6538, and 6565. Key findings: Act 151 directly names Hugh, Basilia, and Gerard consenting to Raoul Havoth's Jumieges donation at Hugonis Silva/Boschyons; Act 6511 directly names Hugh de Gornaco and his son Gerard donating their domain in the same villa, contextually Bois Girard, to Bec; Act 6512 preserves William I's confirmation that Hugh gave Bec what he held of the king in London plus Fordham, Ardleigh, and Liston rights; Act 6538 provides modern SCRIPTA/Bates/Fauroux control for the Cauville/Montivilliers sale already printed by Daniel Gurney. The Toronto DEEDS database mirrors SCRIPTA for its Norman acta (see deeds-utoronto-gournay-charter-extracts), so a doubted DEEDS 'Assigned' date can be cross-checked against the SCRIPTA sc_ record; the assignments can differ (DEEDS 06400021 'assigned 1040' vs SCRIPTA sc_151 [1049-1087] for the same Havoth act)."
   },
   {
     "sourceId": "husting-wills-london-vol2-sharpe",

@@ -154,6 +154,14 @@ Source: D. Martene, *Thesaurus Anecdotorum*, t. i, c. 196.
 
 This charter is post-Conquest (April 1067, six months after Hastings). Together the three charters establish Hugh II at the inner circle of ducal governance both before and after the Conquest.
 
+### 5.4 The pre-1054 attestation and the Hugh II / Hugh III split of the ducal-charter series
+
+A fourth, earlier attestation was identified in the July 2026 sweep of the Toronto DEEDS charter database: an Avranches confirmation of **1037×1048** subscribed "S Hugonis Gornai" (Norman Episcopal Acta, ed. Allen 2009; DEEDS document 06081055 — identified at result-card level, full text not yet pulled). A Hugh de Gournay attesting before 1048 can only be Hugh II — his son was at most a young adult — so the act, once pulled, would be the earliest charter-level attestation at this generation and independent support for the two-Hugh ordering.[^deeds-avranches-g34]
+
+The post-Conquest royal-attestation series (1067 Fleury, 1068×76 with the kinsman Warner, 1071–1087) is a different matter: within it, individual acts are formally ambiguous between Hugh II (alive to c. 1074) and Hugh III, and the repo attributes the series as a whole to Hugh III as active family head, per FMG. The full reconciliation of the charter chain against the Hugh II / Hugh III ordering — including why the Bec and Jumièges family-group charters neither attest nor threaten this generation — is on the G33 companion §3.4; the interleaved ordering is retained there at roughly 85–90%.[^deeds-avranches-g34]
+
+[^deeds-avranches-g34]: DEEDS sweep index item 06081055 (Avranches confirmation 1037×1048, "S Hugonis Gornai," from *Norman Episcopal Acta*, ed. Allen 2009) — identified but not pulled; the pull is tracked in the leads catalog.<!-- L-247 --> Sweep record in `sources/corpus_supplement/deeds-utoronto-gournay-charter-extracts.md`. For the series attribution and reconciliation, see the G33 companion §3.4 (cross-reference, not a source). Source ID: `deeds-utoronto-gournay-charter-extracts`.
+
 ---
 
 ## 6. The 1074 "Cardiff" tradition — fully sourced and triply-skeptical
@@ -229,7 +237,7 @@ The FS-tree's **Berthilde de Gerberoy** attribution at this PID (LVSH-KBM) is mi
 
 French secondary sources (histoireeurope.fr; French Wikipedia "Famille de Gournay") name a "**Manassès Ier de Gournay-en-Bray**" as son of Hugh II who became Archbishop of Reims in 1070. DG does not mention this connection. If confirmed, this would make Hugh II father of one of the most powerful churchmen in France — an extraordinary collateral connection.
 
-The identification is **not yet verified** against primary sources in the repo's pass. The Manassès-as-Archbishop-of-Reims is a real, well-documented figure (Manassès I, Archbishop of Reims c. 1069–1080, deposed at Council of Lyon 1080); whether he was a Gournay rather than from another family of similar name is the open question. **Hold for further research**; not adopted into the fact sheet.
+The identification is **not yet verified** against primary sources in the repo's pass. The Manassès-as-Archbishop-of-Reims is a real, well-documented figure (Manassès I, Archbishop of Reims c. 1069–1080, deposed at Council of Lyon 1080); whether he was a Gournay rather than from another family of similar name is the open question. **Hold for further research**; not adopted into the fact sheet. The verification is tracked in the leads catalog.<!-- L-248, added 2026-07-17 (previously an unled hold) -->
 
 ---
 
@@ -289,5 +297,6 @@ Per the la Ferté charter logic of Renaud's three sons (Hugh, Gauthier, Raoul), 
 | D. Martene, *Thesaurus Anecdotorum* t. i c. 196 (Vaudreuil 1067) | via DG-Supp Note 9 |
 | *Histoire de Lorraine* (Calmet) Maison de Gournay genealogy, M. Palain de Mongnigny / 1674 Metz judgment | `histoire-de-lorraine-calmet` (proposed) |
 | Fauroux, *Recueil des actes des ducs de Normandie de 911 à 1066* (Caen 1961) | not yet inspected — index search needed |
+| DEEDS (Toronto) Gournay charter extracts — Avranches 1037×1048 index item; attestation-series context | `deeds-utoronto-gournay-charter-extracts` |
 | French Wikipedia, *Famille de Gournay* | (URL) |
 | Histoireeurope.fr (Manassès of Reims) | (URL) |

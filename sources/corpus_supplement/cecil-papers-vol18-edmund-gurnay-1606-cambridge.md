@@ -24,4 +24,4 @@ The calendar entry is an abstract, not a full transcript; spellings and the edit
 ## Related primary/secondary material
 
 - Daniel Gurney, *The Record of the House of Gournay*, supplement (Edmund Gurnay's Corpus Christi fellowship and the dispute with Master Jegon, citing Lamb's *Masters' History of Corpus Christi College*): `sources/corpus/daniel-gurney-supplement.md`.
-- A second Cecil Papers calendar entry under "Edmund Gurnay" falls in December 1602 (Calendar of the Cecil Papers, Hatfield House) — not yet extracted.
+- A December 1602 Cecil Papers calendar entry records Edmund Gurnay among the Corpus Christi fellows signing a letter to Sir Robert Cecil about Dr. Jegon's expected departure from the mastership: `sources/corpus_supplement/cecil-papers-vol12-corpus-christi-fellows-1602.md`.

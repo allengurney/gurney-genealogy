@@ -1,0 +1,35 @@
+# Kickoff prompt — online discovery round 2 (paste into a new thread)
+
+Work in main. Read AGENTS.md first; read path-scoped rules before substantive edits. No repo edits of existing content — write all output as you work to a NEW dump file `sources/intake/dump-files/dump-<TODAY>-round2.md`, with images AND raw text extracts saved via file operations into a sibling `dump-<TODAY>-files-round2/` folder. Include actual URLs for every web object. Chrome is authenticated for FamilySearch.org, FindMyPast.co.uk, and Ancestry.com.
+
+TOPIC: Online genealogy research for ancestors G8 to G37 — round 2 of the discovery campaign.
+
+CONTEXT: Round 1 (dump: `sources/intake/dump-files/dump-2026-07-18-round1.md`) mapped the Whinburgh film structure (item 10 = imgs 1426–1869; NO courts 1604–1626 — that window is NRO-only), staged paleography packet 52 (Robert Rivett 1597 death-presentment hunt; next packet number: 53), found John Gurney rated in the 1705 Providence town rate, and hardened the Podmer-variant probate negative (sole 1580–1660 candidate: Roger Petman admon 1617). Before designing searches, read the online-discovery-strategy skill + data/search-variants.json and the FS-FTS and FMP skills. Ground each lead with tools/research_leads.py context and repo_search before working it; never grep repo content.
+
+HARD PROCESS CONSTRAINTS (round-1 failure to avoid):
+1. **Breadth is the deliverable: work 8–10 distinct topics this round.** First pass every topic text-first (search indexes, FTS JSON probes, full-text books, catalogues); soft cap ~10–12 tool calls per topic on the first pass; deepen only the 2–3 that show chaining discoveries, and only after the breadth pass is complete.
+2. **Zero-token image handling only.** NEVER relay presigned S3/image URLs through your own output (~2k tokens each — this destroyed round 1). If an image pull is needed: validate a file-based pipeline in ≤10 tool calls total — e.g., start a localhost receiver (`python -m http.server` variant or a 10-line POST-catcher started via Bash background), have the page POST the harvested URL list or image blobs to it (the FS skill §3 Ancestry recipe documents in-page fetch→POST; for FS das, harvest S3 URLs in-page from `performance.getEntriesByType('resource')` after concurrent das firing), then download with PowerShell from the written file. If the pipeline does not validate within the cap, STOP pulling images: record the exact ark/image-number list in the dump as a staged pull for a Codex/CDP session (FS-FTS skill appendix) and move on. Machine transcripts, indexes, and printed full text carry the round.
+3. Stop-after-two-failures on any mechanism; djvu.txt→scratch→repo_search locate sweep loop for printed-calendar/book targets; negative-results ledger; [REC]/[GATED] roll-ups with human URLs; no/minimal in-turn paleography — stage packets (next: 53).
+
+TOPIC MENU for the breadth pass — a round typically may hit 8+, favoring intersecting tooling; ordered with slight preference. pivot freely if discoveries chain (all leads: ground via `research_leads.py context` first):
+1. **L-136 — Paternal-uncle fostering: Great Ellingham & West Barsham** — Henry Gurnay G15's household until his death (1621×1623) and uncles Thomas/Henry/Edward/Anthony as the alternative foster hearth. Text-first: FTS `q.fullName`/token probes over the Great Ellingham and West Barsham manorial/probate films already mapped in the L-136 companion notes; Norfolk probate index rows for the uncles c. 1615–1660 (any will naming "my nephew John").
+2. **L-245 — Name-switch residuals (John or Edward raised under Rivett)** — the Norfolk-scoped FTS alias probe (`+"alias Gurney"` / `+"Gurney alias"` co-occurred with Norfolk parishes) that round-0 left open; Rivett AND Gurney rows in the Norwich freemen and apprenticeship indexes; the 1653 Great Yarmouth Edward Rivett × "Weno/Adrye" identity check.
+3. **L-98 — East Dereham manor courts 1623–1689, John's-childhood slice** — FTS film-scoped token probes (gurn*/rivet*/ryvet*) over the Dereham court-record collections for the 1616–1630 window specifically: any Gurney or Rivett tenancy/guardianship entry at John's birthplace after Margaret's death is direct fostering-geography evidence; text triage only, flag image targets for packet 53.
+4. **L-174** BHO full-text Gurney-variant sweep across non-Blomefield series (in-browser, CAPTCHA-free; british-history-online-research skill).
+5. **L-237 residual** — Early Records of Providence vols 14/15/20 (vol 14 = Google Books `WMUTAAAAYAAJ`; try plain-text/HathiTrust; archive.org identifier browse) + date the vol.17 p.167 rate; G12.
+6. **Paleographic bundle report review**  -- "C:\Users\allen\OneDrive\Documents\GitHub\gurney-genealogy\sources\intake\paleography-staging\packet-52-whinburgh-courts-1595-1599.report.md"  (entry in research dump + any subsequent batching if applicable)
+7. **New England's Hidden Histories** (Congregational Library) — Braintree/Weymouth church records for G8–G12; creative source, catalog browse: https://www.congregationallibrary.org/nehh/main
+8. **L-124** Archdeaconry of Norwich Gurney testator sweep 1600–1645 — FTS `q.fullName` + catalogue mapping, text-first.
+9. **L-158** Norfolk CP25/1 Gurnay feet of fines on AALT — resolve Robert #64 + unattributed set against Rye's calendar (text/catalog matching; AALT is open-web).
+10. **L-243 residual** — Roger Petman 1617: NCC admon act book via FTS (`q.fullName=petman`, year window) for the parish; text-first before any image.
+11. **NROCAT** item-level dates for Whinburgh surrenders NRS 21256–21355 (does a piece cover 1597? 1604–1626?) — https://nrocat.norfolk.gov.uk ; feeds the L-128 GATED plan.
+12. **L-97 + L-14** Maldon, Essex — Francis/John Gurney entries in borough court books via FTS full text (17th-c English transcripts are usable); Commissary 1681 admin file.
+13. **L-193-adjacent** colonial sweeps — Suffolk Co. deeds/court FTS variant probes not yet run (Modern set + garbles), incl. `Surney/Garney`.
+14. **L-135** Anne Browning (G14's 2nd wife) origin — Norfolk probate index `brown*`/licence rows c. 1590–1640 + FMP marriages; text-only.
+15. **L-109** Earsham/Lyon Gurney 1710–1818 — FTS film-scoped probes + FMP/Ancestry index rows (Sarah-wife image ref pending).
+16. **Whinburgh 1627–1647 books** (film imgs 1540–1869) — FTS film-scoped `q.groupName=004389244` token probes (rivet*/ryvet*/gurn*/podm*/petm*) — known-partial extraction, cheap text triage before any future walk.
+17. **L-186/L-184** 1641 gunpowder-fines petition / Porter identity — FTS Massachusetts State Archives calendar text reads around film 007702977 imgs 947–948.
+
+GOALS: Maximum research via online discovery using minimal tokens; expert reasoning on analysis, not mechanics. End the turn with: dump complete (structured for assimilation, with suggested placement labels), memory updated, packet bundle(s) staged if any new images, and a round-3 kickoff prompt file if this is the thread's last round.
+
+TURN SIZE: ~100–120 tool calls; the breadth pass across 8–10 topics comes first, depth second.

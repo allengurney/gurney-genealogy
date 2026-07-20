@@ -3,8 +3,10 @@
 grep/find/rg/Select-String, steering toward the repo's repo_search-first tooling.
 
 Reads the hook JSON on stdin, inspects tool_input.command, and emits a PreToolUse
-"ask" decision (a confirm gate — grep remains a usable last resort, not blocked)
-when the command invokes a content/file search tool against the filesystem.
+"allow" decision with a top-level `systemMessage` warning (visible in the chat
+transcript, but non-blocking — no approval prompt) when the command invokes a
+content/file search tool against the filesystem. grep remains a usable last
+resort; this guard nudges toward repo_search without stopping execution.
 Allows the command silently (exit 0, no output) when it explicitly targets a
 non-repo path (the ~/.claude auto-memory area), carries the opt-out marker
 `#grepok`, or **reads from a pipe** (`cmd | grep ...`) — a piped search filters
@@ -45,19 +47,19 @@ patterns = [
 ]
 
 if any(re.search(p, cmd, re.IGNORECASE) for p in patterns):
-    reason = (
-        "repo_search-first (AGENTS §0a): prefer `.venv/Scripts/python.exe "
-        "tools/repo_search.py search --terms ...` for repo content and the Glob tool "
-        "for filenames. grep / find / rg / Select-String are a LAST RESORT — only when "
-        "repo_search genuinely can't answer the question. Confirm to run this one, or "
-        "switch to repo_search. (Auto-allowed for non-repo paths like the ~/.claude "
-        "auto-memory dir, or when the command carries the marker `#grepok`.)"
+    warning = (
+        "⚠️ repo_search-first (AGENTS §0a): this command used grep/find/rg/Select-String "
+        "directly. Prefer `.venv/Scripts/python.exe tools/repo_search.py search --terms ...` "
+        "for repo content and the Glob tool for filenames — grep is a LAST RESORT. Allowed "
+        "to run (not blocked). (Auto-silent for non-repo paths like the ~/.claude auto-memory "
+        "dir, or when the command carries the marker `#grepok`.)"
     )
     print(json.dumps({
+        "systemMessage": warning,
         "hookSpecificOutput": {
             "hookEventName": "PreToolUse",
-            "permissionDecision": "ask",
-            "permissionDecisionReason": reason,
+            "permissionDecision": "allow",
+            "additionalContext": warning,
         }
     }))
 

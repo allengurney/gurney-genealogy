@@ -33,19 +33,25 @@ SCRIPTA Act 6472 gives the La Trinite witness forms as `[Hugonis] de Gornayo` / 
 
 This matters because the older FMG/DG tradition has been read in the repo as "William de Gornai ... Girard de Gornai." The modern SCRIPTA transcription does not show that William form in the Gournay witness slot; it supports Hugh + Gerard in the witness list and makes the brother-William inference unresolved pending a check of FMG's edition basis.
 
-### 2.2 Undated Jumièges charter — Radulphus Havoth's entry
+### 2.2 The Jumièges Havoth charter — the family triad with Gerard's consent, c. 1082
 
-Independent attestation of the family triad Hugh III + Gerard + Basilea:
+Independent attestation of the family triad Hugh III + Gerard + Basilea, now held in full diplomatic text. Ralph surnamed Havoth, offering his son as a monk to Jumièges, gave the abbey ninety acres and his tithes at "the villa called Hugh's Wood" (*Hugonis Silva*, the later Boshyon / Bosc-Hyons):
 
-> "Domino meo Hugone Gurnaiensi et filio eius Girardo et uxore eius Basilia" consented to a donation to Jumièges abbey by "Radulphus cognomina Havoth cum uxore mea" on his entering the abbey as a monk, by undated charter. (FMG [876])
+> "…**domino meo Hugone Gurnacensi et filio ejus Girardo et uxore ejus Basilia annuentibus** et volentibus et laudantibus quorum hec sunt signa **Signum Hugonis Gornaiensis Signum Basilie uxoris ejus** Signum Radulfi Havot Ego vero Athelinus Gornaiensis ecclesie tesaurarius confirmo et hoc signo."
 
-Source: Gurney 1845, p. 57, quoting "an old copy in a paper Cartulary of Jumièges," Rouen Archives. The earlier dated [1040] charter (FMG [875]) is presumed misdated — Gerard cannot have been adult in 1040 if he was witnessing in 1082.
+Translation: "…with my lord Hugh of Gournay and his son Gerard and his wife Basilia consenting, willing, and approving, whose signa these are: the sign of Hugh of Gournay; the sign of Basilia his wife; the sign of Ralph Havot. And I, Athelinus, treasurer of the church of Gournay, confirm, and with this sign." Gerard appears as the adult-consenting son and heir in his father's lordship, a decade or so before the castle-delivery politics of [1089/90]. The original survives (Archives départementales de Seine-Maritime, 9 H 1747/1); DG knew the act from "an old copy in a paper Cartulary of Jumièges," Rouen Archives (1845, p. 57 = FMG [876], undated version), and FMG's separately transmitted 1040-dated version ([875]) is presumed misdated — Gerard cannot have been adult in 1040 if he was witnessing in 1082. The dating stack (an editorial "1040" in DEEDS/Vernier; SCRIPTA's [1049–1087]; Decorde's c. 1082 at Boshyon, adopted at ~80%) is analysed on the G33 companion §3.4.[^deeds-jumieges-g32]
+
+[^deeds-jumieges-g32]: *Chartes de l'Abbaye de Jumièges*, t. 1, ed. Vernier (1916); original AD Seine-Maritime 9 H 1747/1; full text via the DEEDS database, document 06400021, https://deeds.utsc.utoronto.ca/charters/06400021; same act = SCRIPTA sc_151 [1049–1087]. Extract: `sources/corpus_supplement/deeds-utoronto-gournay-charter-extracts.md`. Source IDs: `deeds-utoronto-gournay-charter-extracts`, `unicaen-scripta-selected-gournay-acts`, `fmg-medlands-normacre`.
 
 ### 2.2.1 1077 Bec pancarte - Hugh and Gerard as father-son donors
 
 SCRIPTA Act 6511 gives a separate Bec-side father-son attestation: after Hugh de Bolbec's half milling right of Bois Girard, the act says Hugh de Gornaco and his son Gerard gave their domain in the same villa, except the wood called Ramerius and the wood below Rodulf's house.[^scripta-bec-6511-g32]
 
 This is important because it is not only a later royal recitation of earlier gifts. It directly names Hugh and Gerard in a donor clause and places Gerard inside the Bec patronage sequence before his later independent Lessingham and Bec-family role.
+
+Two further early signa from the DEEDS sweep of the Regesta Willelmi Conquestoris strengthen the pre-crusade attestation record: "Signum + Girardi de Gornai" in an act of 1066×83, and "Signum + Girardi de Gornaio" in a second act of 1082. The 1082 signum is an independent companion to the La Trinité de Caen witness of the same year (§2.1), and the 1066×83 act — if it sits early in its bracket — would push Gerard's earliest documentary appearance back toward the Conquest itself, consistent with the c. 1040–1050 birth.[^deeds-gerard-early-signa]
+
+[^deeds-gerard-early-signa]: *Regesta Willelmi Conquestoris et Willelmi Rufi 1066–1100*: DEEDS documents 03770183 (1066×83) and 03779150 (1082), result-card signa captured in the July 2026 sweep. Sweep record: `sources/corpus_supplement/deeds-utoronto-gournay-charter-extracts.md`. Source ID: `deeds-utoronto-gournay-charter-extracts`.
 
 ### 2.3 [1089/90] — Orderic Vitalis: Gerard delivers three castles to William Rufus
 
@@ -166,11 +172,15 @@ The "signum" is therefore a **subscription / attestation mark in the witness cla
 
 DG-Supp Note 18 (p. 736) transcribes a passage from a c. 1125 treatise on the miracles of St Nicholas (Évreux MS. 132) describing a *discordia* between William de Britolio (William of Breteuil, lord of Pont-Saint-Pierre) and Gerard de Gournay over a rebel knight Gerard sheltered. The dispute escalated to the point where the inhabitants of the town feared their homes would be burned. (Source MS preserved at Bibliothèque d'Évreux.)
 
-### 2.14 [c. 1112/22] — Hugues IV's Bec confirmation naming the ancestor chain (Decorde 1861)
+### 2.14 1112 (confirmed 11 Feb 1112/13) — Hugues IV's Bec confirmation naming the ancestor chain, with Gerard's Lessingham gift recited
 
-Decorde preserves an early-twelfth-century confirmation, dated c. 1112 or 1122 in the local tradition he transmits, in which "Hugues de Gournay" — i.e., Hugues IV, Gerard's eldest son and successor in the senior barony — confirmed gifts to the Abbey of Bec made by "his ancestors Hugues and Basilie, and by Gérard, his father," and explicitly included the church of **Brémontier** and its tithes in that confirmation.[^decorde-hugues-iv-bec-confirmation]
+Hugues IV's early confirmation of the family's Bec gifts is now held at record level. The Regesta Henrici Primi preserves the act: in 1112 "**Hugo filius Girardi de Gornaco**" granted what "**pater eius Girardus et Hugo de Gornaco auus suus et auia sua Basilia**" — his father Gerard, and Hugh de Gournay his grandfather and Basilia his grandmother — had given the church of St Mary of Bec (whatever they had in Longueil and the rest); in England the grandfather Hugh's London holding "of King William, father of King Henry" and the church of Fordham, Essex; "**et Girardus de Gornaco dedit eidem ecclesie quoddam maneriolum in Norfolch quod dicitur Lesingeham**" — and Gerard de Gournay gave the same church a certain little manor in Norfolk called Lessingham. Henry I confirmed the donations to Bec the same year, on 11 February 1112/13. This is the earliest record-level attestation of Gerard's Lessingham gift — sixty years before the Henry II confirmations (§2.10; act CCCCXXXIII "de dono Gerardi de Gornay, Lesingham") — and the act in which Gerard's heir, "of full age in 1112" (§12), formally took up the family's Bec patronage.[^deeds-bec-1112-g32]
 
-This sits a generation earlier than the [1181/89] Henry II royal confirmation already recorded in §2.10, and it is independent of it. Together the two confirmations document the same donation chain — Hugh III → Basilie → Gerard → continued patronage under Hugues IV — in two distinct twelfth-century attestations, one familial (c. 1112/22) and one royal (1181/89). For the direct-line argument this strengthens Gerard's middle-generation role in the Gournay-Bec patronage relationship and supplies the immediate documentary context for §2.10 Henry II's later wholesale confirmation.
+Decorde transmits the same transaction from the local tradition, dated "c. 1112 or 1122" and explicitly including the church of **Brémontier** and its tithes among the confirmed gifts (the Regesta abstract compresses the Norman schedule to Longueil "and the rest"); his account and the Regesta record are best read as one event, the familial concession of 1112 with its royal confirmation that February.[^decorde-hugues-iv-bec-confirmation]
+
+This sits a generation earlier than the [1181/89] Henry II royal confirmation already recorded in §2.10, and it is independent of it. Together the confirmations document the same donation chain — Hugh III → Basilie → Gerard → continued patronage under Hugues IV — across the twelfth century: familial-and-royal in 1112/13, royal again in 1166–72/3 and 1181/89. For the direct-line argument this strengthens Gerard's middle-generation role in the Gournay-Bec patronage relationship and supplies the immediate documentary context for §2.10 Henry II's later wholesale confirmation.
+
+[^deeds-bec-1112-g32]: *Regesta Regum Anglo-Normannorum*, vol. 2 (Regesta Henrici Primi), ed. Davis/Johnson/Cronne (1956); abstract as transcribed in the DEEDS database, document 03781013, https://deeds.utsc.utoronto.ca/charters/03781013. Verbatim text: `sources/corpus_supplement/deeds-utoronto-gournay-charter-extracts.md`. The generational mapping (the confirmer = Hugues IV; the grandfather = Hugh III) is analysed on the G33 companion §3.4 (cross-reference, not a source). Source ID: `deeds-utoronto-gournay-charter-extracts`.
 
 [^decorde-hugues-iv-bec-confirmation]: J.-E. Decorde, *Essai historique et archéologique sur le Canton de Gournay* (Paris: Derache and Didron; Rouen: Lebrument, 1861); deep-research synthesis at [`sources/corpus_supplement/deep-research-report-decorde-essai-gournay-ancestors.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/deep-research-report-decorde-essai-gournay-ancestors.md). Decorde's local-tradition dating is c. 1112 or 1122; the c. 1180s Henry II confirmation at §2.10 above is a distinct, later event. Source ID: `decorde-essai-canton-gournay-1861`.
 
@@ -272,7 +282,7 @@ Palmer's *Perlustration of Yarmouth* (1872) dates the Caister acquisition to 107
 
 | Name | Dates | Mother | Status | Notes |
 |---|---|---|---|---|
-| Hugh de Gournay IV | [1098/1100] (FMG) or c. 1091 (Richardson, "of full age 1112") – 1180 (or 1185 per Pattou variant) | Edith de Warenne | **Confirmed** | Senior baron line. SGM Richardson's c. 1091 birth ties to the Henry I wardship narrative (raised at the king's court during minority); FMG's [1098/1100] is the more recent reading. Both positions defensible. Crusader 1147 (Louis VII expedition). |
+| Hugh de Gournay IV | [1098/1100] (FMG) or c. 1091 (Richardson, "of full age 1112") – 1180 (or 1185 per Pattou variant) | Edith de Warenne | **Confirmed** | Senior baron line. SGM Richardson's c. 1091 birth ties to the Henry I wardship narrative (raised at the king's court during minority); FMG's [1098/1100] is the more recent reading. Both positions defensible. Crusader 1147 (Louis VII expedition). Confirmed his father's and grandparents' Bec gifts in 1112 (§2.14); with his second wife Mélisende (charter form "Mileseint") granted Broughton, Bucks — her dower — to Missenden in 1167, under both their seals. Full senior-line treatment: `research/topics/senior-gournay-baron-line-collateral.md`. |
 | Walter de Gournay | b. 1090×1104 – d. 1150×1166; held lands in Suffolk under the Dammartins in Stephen's reign | Edith de Warenne | **G31 in repo direct line; identification editorial choice** | Position assumed: DG view (son of Gerard, paragium tenure of Suffolk lands). See §3.1. Dates per the corrected bracket on the G31 companion (Note 104 arithmetic; witness 1150; son holds the quarter-fee 1166). |
 | Gundred de Gournay | [1100/1105] – after 1155 | Edith de Warenne | **Confirmed** | Married Nigel d'Aubigny (Albini) Jun 1118, marriage arranged with Henry I's counsel (Orderic). Mother of Roger de Mowbray (~1188). Henri (younger son, ancestor of Albini of Cainho per Planché). 1130 Pipe Roll Leicestershire: "Gunderede uxori Nig de Albin." |
 | Gerard (eldest son) | died *vit. pat.* | Edith de Warenne | **DG-I p. 277 pedigree only** | The figure resolving the "1097 Nicaea" death-date confusion in some secondary sources. Not in FMG. |
@@ -414,7 +424,7 @@ Drogo II is not a Gournay by blood but he is half-brother to Hugh de Gournay (IV
 
 7. **The 1082 Caen charter signature requires Gerard adult**: this is the lower-bound chronological constraint that rules out Pattou's "~1073" birth date. Pattou's 1073 should be flagged as a chart-typesetting error not adopted.
 
-8. **Cartulary of La Trinité de Rouen, Charter No. 94** (Gerard's seal "Signum Girardi de Gornaco"): the Deville edition (Tome III of *Cartulaires de France*) is publicly accessible but the repo has not yet inspected it directly.
+8. **Cartulary of La Trinité de Rouen, Charter No. 94** ("Signum Girardi de Gornaco"): settled — the Deville edition was located and read in July 2026 (lead L-49, closed): Charter XCIV at *Chartularium* p. 168, a Richard de Redvers grant with Gerard subscribing as a magnate witness. Full treatment at §2.12; retained here for the record.
 
 ---
 
@@ -427,6 +437,7 @@ Drogo II is not a Gournay by blood but he is half-brother to Hugh de Gournay (IV
 | Source | Citation handle |
 |---|---|
 | SCRIPTA selected Gournay acts, especially Acts 6472 and 6511 | `unicaen-scripta-selected-gournay-acts` |
+| DEEDS (Toronto) Gournay charter extracts — Jumièges 06400021 full text, Bec 1112/13 (03781013), early Gerard signa 03770183/03779150 | `deeds-utoronto-gournay-charter-extracts` |
 | Daniel Gurney 1845/1848, *Record of the House of Gournay* Part I, pp. 27–32, 67–70; pedigree p. 277 (Walter-youngest); pedigree p. 286 | `dg-rec-pt1` |
 | DG-Supp (1858) Notes 15 (Raoul / 1103 accord), 16 (Cartulary of La Trinité de Rouen), 17 (St-Wandrille), 18 (Britolio dispute), 104 (Walter-as-son generational proof) | `dg-rec-supp` |
 | Hannay 1867, *Three Hundred Years*, ch. III pp. 100–117 | `hannay-three-hundred-years-1867` |
@@ -449,7 +460,7 @@ Drogo II is not a Gournay by blood but he is half-brother to Hugh de Gournay (IV
 | Albert of Aix, RHC, Liber II Cap. XXIII p. 316 | `albert-of-aix-rhc` (proposed) |
 | Baudry of Dol, RHC II.I p. 33 | `baudry-of-dol-rhc` (proposed) |
 | Guillaume of Jumièges, Duchesne ed. 1619 / Marx 1914 / van Houts 1992–95 | `guillaume-of-jumieges-historia` (proposed) |
-| Cartulary of La Trinité de Rouen, ed. Deville, *Cartulaires de France* Tome III, Charter No. 94 | not yet inspected |
+| Cartulary of La Trinité de Rouen, ed. Deville, *Cartulaires de France* Tome III, Charter XCIV — located and read July 2026 (§2.12; L-49 closed) | `deville-cartulaire-sainte-trinite-rouen` |
 | Beauvais ancient obituary (church chapter; specific MS unidentified) | via Potin 1842, DG 1845 |
 | St-Sauveur en Cotentin cartulary roll (formerly held by M. de Gerville at Valognes) | via DG 1845 |
 | St-Wandrille chartulary, f. 314 (Caux archives Seine-Inférieure, piece D, II, VI) | via DG-Supp Note 17 |

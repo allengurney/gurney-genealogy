@@ -2112,14 +2112,14 @@
     },
     "cal-cecil-papers-hatfield": {
       "shortTitle": "Calendar of Cecil Papers, Hatfield House",
-      "citation": "Calendar of the Cecil Papers in Hatfield House, ed. M. S. Giuseppi et al. (London: HMSO). Vol. 18 (1606), pp. 371-462, 'Cecil Papers: Miscellaneous 1605'.",
+      "citation": "Calendar of the Cecil Papers in Hatfield House, ed. R. A. Roberts, M. S. Giuseppi et al. (London: HMSO). BHO entries used include vol. 12 (1602-1603), pp. 518-528, 'Cecil Papers: December 1602, 16-25', and vol. 18 (1606), pp. 371-462, 'Cecil Papers: Miscellaneous 1605'.",
       "archive": "British History Online",
-      "url": "https://www.british-history.ac.uk/cal-cecil-papers/vol18/pp371-462",
+      "url": "https://www.british-history.ac.uk/cal-cecil-papers",
       "corpusStatus": "partial",
       "corpusPath": "sources/corpus_supplement/cecil-papers-vol18-edmund-gurnay-1606-cambridge.md",
       "mediaPath": null,
-      "validationPath": null,
-      "notes": "Calendar of the Hatfield House (Cecil/Salisbury) manuscripts. Holds Edmund Gurnay's 1606 letter to Robert Cecil, Earl of Salisbury, Chancellor of Cambridge, appealing his Corpus Christi College suspension under Master Thomas Jegon (brother of Bishop John Jegon of Norwich) -- primary witness to the Jegon dispute that Daniel Gurney's Record supplement narrates only secondarily. A second Edmund Gurnay entry falls in December 1602 (not yet extracted). Surfaced via BHO full-text variant search, June 2026."
+      "validationPath": "sources/validations/cal-cecil-papers-hatfield.md",
+      "notes": "Calendar of the Hatfield House (Cecil/Salisbury) manuscripts. Holds Edmund Gurnay's 1602 Corpus Christi signatory entry and 1606 letter to Robert Cecil, Earl of Salisbury, Chancellor of Cambridge, appealing his Corpus Christi College suspension under Master Thomas Jegon (brother of Bishop John Jegon of Norwich). Surfaced via BHO full-text variant search, June-July 2026."
     },
     "eaa-occasional-paper-2-ellingham-kiln-1997": {
       "shortTitle": "EAA Occasional Paper 2 - Ellingham Kiln",
