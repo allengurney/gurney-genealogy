@@ -110,6 +110,7 @@ deville-cartulaire-sainte-trinite-rouen,"Deville, Cartulaire de la Sainte-Trinit
 dg-rec-pt1,"DG Record, Part I",full,sources/corpus/daniel-gurney-part-1.md,,
 dg-rec-pt2,"DG Record, Part II",full,sources/corpus/daniel-gurney-part-2.md,,
 dg-rec-pt3,"DG Record, Part III",full,sources/corpus/daniel-gurney-part-3.md,,
+dg-rec-pt3-appendix-lxxxvii-lynn-indenture,"DG Record Part III — Lynn Indenture, 1622",partial,sources/corpus_supplement/dg-record-part3-appendix-lxxxvii-lynn-indenture-1622.md,,sources/validations/dg-rec-pt3-appendix-lxxxvii-lynn-indenture.md
 dg-rec-pt4,"DG Record, Part IV",full,sources/corpus/daniel-gurney-part-4.md,,
 dg-rec-supp,"DG Record, Supplement (1858)",full,sources/corpus/daniel-gurney-supplement.md,,
 dg-rye-appendix,DG Rye Appendix,partial,sources/corpus_supplement/gascon-rolls-gournay-calendar.md,,
@@ -398,7 +399,7 @@ swann-chethams-library-ms-a4-15-2016,"Swann, Chetham's Library MS A.4.15",partia
 tag-10-70,"Holman, Grissell of the Many Marriages",none,,,
 taunton-vital-records-to-1850-vol2-marriages-1928,"Vital Records of Taunton, Mass., to 1850, vol. 2 (Marriages, 1928)",none,,,sources/validations/taunton-vital-records-to-1850-vol2-marriages-1928.md
 thompson-mobility-migration-1994,"Thompson, Mobility and Migration (1994)",none,,,
-thoms-anecdotes-traditions-1839,"Thoms, Anecdotes and Traditions",none,,,sources/validations/thoms-anecdotes-traditions-1839.md
+thoms-anecdotes-traditions-1839,"Thoms, Anecdotes and Traditions",supplement,sources/corpus_supplement/lestrange-anecdotes-gurney-roster-thoms-1839.md,,sources/validations/thoms-anecdotes-traditions-1839.md
 three-hundred-years-norman-house,"Hannay, Three Hundred Years of a Norman House",full,sources/corpus/threehundredyear00hann - THEEE HUNDRED YEAES OF A NORMAN HOUSE.txt,,
 tna-a2a-705-349-aylesbury-1483-grant,"TNA A2A 705:349/12946/495200 — Aylesbury grant, 4 April 1483",none,,,
 tna-dl-42-2-33-5-richard-i-canville-nicholaa-de-la-haye,TNA DL 42/2/33/5 — Richard I grant to Gerard de Canville and Nicholaa de la Haye,none,,,
@@ -406,10 +407,13 @@ tna-e115-180-113-certificate-of-residence-1641,"TNA E 115/180/113 - certificate 
 tna-e179-1661-london-poll-tax-deferred,"TNA E179 - 1661 Free and Voluntary Present, City of London (deferred image-pull target)",deferred,,,sources/validations/tna-e179-1661-london-poll-tax-deferred.md
 tna-pcc-gurney-elimination-corpus,"TNA PCC Gurney probate corpus (1577-1682, elimination set)",partial,sources/corpus_supplement/tna-pcc-gurney-elimination-corpus.md,,
 tna-pcc-probate,TNA PCC Probate Records,none,,,
+tna-pcc-west-barsham-gournay-wills,"TNA PCC wills, Gournay of West Barsham (1642, 1661)",partial,sources/corpus_supplement/tna-pcc-west-barsham-gournay-wills.md,sources/media/tna-pcc-west-barsham-gournay-wills,sources/validations/tna-pcc-west-barsham-gournay-wills.md
 tna-ward-c142-west-barsham-gurney-inquisitions,TNA WARD 7 & C 142 inquisitions for the West Barsham Gurneys (catalogue level),none,,,sources/validations/tna-ward-c142-west-barsham-gurney-inquisitions.md
 torrey-new-england-marriages-prior-1700,"Torrey, New England Marriages Prior to 1700",partial,sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md,,sources/validations/torrey-new-england-marriages-prior-1700.md
 trevor-john-erpingham-1970,"Trevor John, 'Sir Thomas Erpingham, East Anglian Society and the Dynastic Revolution of 1399' (1970)",none,,,sources/validations/trevor-john-erpingham-1970.md
 tyrwhitt-canterbury-tales-1798-v2,"Tyrwhitt ed., Canterbury Tales of Chaucer, vol. ii Notes (1798)",supplement,sources/corpus_supplement/tyrwhitt-canterbury-tales-1798-v2-matheu-gourney-epitaph.md,,sources/validations/tyrwhitt-canterbury-tales-1798-v2.md
+ukda-4816-pcc-wills-index,"PCC Wills index, 1384-1858 (UK Data Service SN 4816)",partial,sources/corpus_supplement/pcc-wills-gurney-variants-1384-1858.md,sources/media/ukda-4816-pcc-wills,sources/validations/ukda-4816-pcc-wills-index.md
+ukda-5726-lestrange-household-accounts-1606-1626,UKDA 5726 — Le Strange Household Accounts,supplement,sources/corpus_supplement/ukda-5726-lestrange-household-accounts-francis-gurney.md,,sources/validations/ukda-5726-lestrange-household-accounts-1606-1626.md
 ukda-9263-mt-apprentices-scott-2024,"Scott, Merchant Taylors' Apprentices 1583-1800 (UKDA-SN-9263)",full,sources/media/ukda-9263-merchant-taylors-apprentices/gurney-variants-extract.csv,sources/media/ukda-9263-merchant-taylors-apprentices/,sources/validations/ukda-9263-mt-apprentices-scott-2024.md
 unicaen-scripta-selected-gournay-acts,SCRIPTA selected Gournay acts,partial,sources/corpus_supplement/unicaen-scripta-selected-gournay-acts.md,,sources/validations/unicaen-scripta-selected-gournay-acts.md
 us-census-1940,"U.S. Federal Census, 1940",none,,,

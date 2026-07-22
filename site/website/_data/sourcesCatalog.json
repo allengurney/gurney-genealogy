@@ -549,7 +549,7 @@
     "corpusPath": "sources/corpus_supplement/bho-hmc-kings-lynn-francis-gurney-1622.md",
     "mediaPath": "",
     "validationPath": "sources/validations/bho-hmc-kings-lynn-misc-writings.md",
-    "notes": "HMC calendar entry for the 17 October 20 James I agreement involving Francis Gurney, citizen and merchant-taylor of London, Ambrose Tompson, and Martin Hill to teach King's Lynn poor children spinning worsted-yarn and employ the poor in that industry."
+    "notes": "HMC calendar entry for the 17 October 20 James I agreement involving Francis Gurney, citizen and merchant-taylor of London, Ambrose Tompson, and Martin Hill to teach King's Lynn poor children spinning worsted-yarn and employ the poor in that industry. The full calendared wording is preserved in its corpus supplement; this is a calendar, not the sealed indenture."
   },
   {
     "sourceId": "bho-ipm-edward-iii-file31-gournay-harpetree",
@@ -1305,7 +1305,7 @@
     "corpusPath": "sources/corpus_supplement/deeds-utoronto-gournay-charter-extracts.md",
     "mediaPath": "",
     "validationPath": "sources/validations/deeds-utoronto-gournay-charter-extracts.md",
-    "notes": "Aggregate entry for the July 2026 DEEDS variant sweep and eleven charter full-text pulls: the Jumieges Havoth family-group act (06400021, original AD Seine-Maritime 9 H 1747/1), the Bec three-generation confirmation of 1112/13 (03781013), the 1167 Broughton acts of Hugh de Gournay and his wife Milesent (02580556/61), the 1202/3 Harpley fine (01770391), the Wendover Brisepot grant (00130234), and five further Norman acta. For the Norman acta DEEDS mirrors SCRIPTA (Universite de Caen); 'Assigned' dates are editorial, and the two databases' assignments can differ. Individual charters cite this entry plus the underlying printed edition in the footnote. Distinct from jenkins-missenden-cartulary-v1 (Missenden vol. 1 / cartulary 0013) and gervers-st-john-secunda-camera-1982 (cartulary 0088)."
+    "notes": "Aggregate entry for the July 2026 DEEDS variant sweep and eleven charter full-text pulls (Jumieges Havoth act 06400021; Bec confirmation of 1112/13; the 1167 Broughton acts of Hugh de Gournay and Milesent; the 1202/3 Harpley fine; the Wendover Brisepot grant; five further Norman acta). For the Norman acta DEEDS mirrors SCRIPTA (Universite de Caen); 'Assigned' dates are editorial and the two databases' assignments can differ. Individual charters cite this entry plus the underlying printed edition. Distinct from jenkins-missenden-cartulary-v1 and gervers-st-john-secunda-camera-1982."
   },
   {
     "sourceId": "folger-demonstration-antichrist-1631",
@@ -1330,6 +1330,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/deville-cartulaire-sainte-trinite-rouen.md",
     "notes": "Charter XCIV (94), Chartularium p. 168: Richard de Redvers' gift to the Holy Trinity of the church and tithe of a vill (Opimensis), Abbot Walter and the brethren paying him 15 livres. Attestation clause names 'Signum Girardi de Gornaco' (Gerard de Gournay, G32) with Hugh de Bellebeuf, plus the abbey's witnesses Richard the seneschal and Bernard the cook. The Gournay mark is a 'signum' (subscription), not a described pictorial seal. Late 11th / early 12th c. (Abbot Walter's tenure; Richard de Redvers d. 1107). Resolves lead L-49."
+  },
+  {
+    "sourceId": "dg-rec-pt3-appendix-lxxxvii-lynn-indenture",
+    "shortTitle": "DG Record Part III — Lynn Indenture, 1622",
+    "citation": "Gurney, Daniel. The Record of the House of Gournay, Part III. London: J. B. Nichols and J. G. Nichols, 1848, Appendix LXXXVII, pp. 531–532B.",
+    "archive": "Google Books / Oxford University digitization",
+    "url": "https://books.google.com/books?id=dlUBAAAAQAAJ&pg=PA532-IA1",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/dg-record-part3-appendix-lxxxvii-lynn-indenture-1622.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/dg-rec-pt3-appendix-lxxxvii-lynn-indenture.md",
+    "notes": "Focused extract of the 11 October 1622 King's Lynn indenture, its Hall Book entry, subscription, and 1625–1626 follow-up. It is a nineteenth-century printed transcription, not the sealed original. The related HMC calendar is separately registered as bho-hmc-kings-lynn-misc-writings."
   },
   {
     "sourceId": "dg-rec-pt1",
@@ -1365,7 +1377,7 @@
     "corpusPath": "sources/corpus/daniel-gurney-part-3.md",
     "mediaPath": "",
     "validationPath": "",
-    "notes": "Gurneys of Keswick: Francis G14 Merchant Taylor, Francis of Maldon, John of Norwich. Includes Appendix C (Court of Wards records, Merchant Taylors' Company membership). See sources/corpus/daniel-gurney-readme.md."
+    "notes": "Gurneys of Keswick: Francis G14 Merchant Taylor, Francis of Maldon, John of Norwich. Includes Appendix C (Court of Wards records, Merchant Taylors' Company membership) and Appendix LXXXVII; the 1622 Lynn indenture is separately extracted under dg-rec-pt3-appendix-lxxxvii-lynn-indenture. See sources/corpus/daniel-gurney-readme.md."
   },
   {
     "sourceId": "dg-rec-pt4",
@@ -1668,13 +1680,25 @@
     "notes": "Map extract shows Hardingham, Old Hall, Manson Green, Hardingham Low Common, and surrounding roads/watercourses. Use as visual place context, not as evidence for medieval Swathings identity by itself. Faden's Norfolk map was published in 1797 after surveying in the 1790s."
   },
   {
+    "sourceId": "fs-east-dereham-manor-court-books",
+    "shortTitle": "FamilySearch - East Dereham manorial court books, 1623-1852",
+    "citation": "East Dereham (the Queen's manor, East Dereham with members; NRO DC 12/5), manorial court books 1623-1852 with index 1623-1820; originals at the Norfolk Record Office. FamilySearch films: DGS 004389483 ('Dereham, Norfolk. Court Records 1623-1689,' bundled with Deopham and Denver material) and DGS 004389277 ('Court Records 1689-1820,' with the manor index at item 8).",
+    "archive": "FamilySearch International / Norfolk Record Office",
+    "url": "https://www.familysearch.org/en/records/images/search-results?imageGroupNumbers=004389483",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/paleo-2026-07-packet-53-east-dereham-courts-1623-1635.md",
+    "mediaPath": "sources/media/east-dereham-court-books-fts/",
+    "validationPath": "sources/validations/fs-east-dereham-manor-court-books.md",
+    "notes": "The manor courts of John Gurney G13's birth parish - the record set behind the East Dereham Gurney copyhold chain (the Margery-widow abuttals and the later Matthew/Michael/Richard tenures). The Queen's-manor books begin at 1623, so no court record exists for 1605-1622; the other Dereham manor's books (1562-1582, 1649-1663) are NRO-only. Latin court-hand full-text extraction on these films is thin - film-scoped negatives require image-level confirmation. Previously cited via the familysearch-fulltext-search catch-all; dedicated entry minted 2026-07-19."
+  },
+  {
     "sourceId": "fs-whinburgh-with-members-court-rolls",
     "shortTitle": "FamilySearch - Whinburgh-with-Members manorial court rolls, 1595-1790",
     "citation": "Manor of Whinburgh-with-Members (Norfolk), manorial court rolls on the part of Garvestone, Reymerston, Thuxton, Mattishall and Yaxham, 1595-1790; originals at the Norfolk Record Office, microfilmed 1991. FamilySearch catalog record koha:439083: court rolls 1595-1663 and 1743-1755 = British Film 1472614 = DGS 004389244; 1664-1743 = Film 1472654 = DGS 004389566; 1756-1790 = Film 1702191 = DGS 004395112.",
     "archive": "FamilySearch International / Norfolk Record Office",
     "url": "https://www.familysearch.org/en/search/catalog/439083",
-    "corpusStatus": "none",
-    "corpusPath": "",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/paleo-2026-07-packet-52-whinburgh-courts-1595-1599.md",
     "mediaPath": "sources/media/fs-whinburgh-with-members-court-rolls/",
     "validationPath": "sources/validations/fs-whinburgh-with-members-court-rolls.md",
     "notes": "The manor whose courts governed Garveston copyhold - the heir-naming record class for the Rivett maternal-kin questions - with Gurney tenants in its orbit (a 1639-headed leaf; a 1754 entry). Full-text name-extraction on the films is proven partial, so film-scoped full-text negatives are meaningless. The richer unfilmed classes (surrenders and admissions 1564-1800, NRS 21256-21355; rough court books) remain at the NRO. Whinburgh was a Bardolf caput manor held as parcel of the barony of Gurnay."
@@ -4044,6 +4068,18 @@
     "notes": "Marriages for Cheddington, Cholesbury, Edlesborough, Hawridge, Marsworth, Mentmore, Pitstone, Slapton, and Soulbury. Includes the 1660-1685 Edlesborough Gurney marriage cluster: Joh. Gurney and Mary Kidgell, 1661; Wm. Gurney and Martha Halsey, 1660; Saml. Gurney of Bierton and Elizab. Bunce of Padbury, 1662; Tho. Gurney of Hockliffe and Frances Norman of Houghton Regis, 1680; Geo. Hill of Chesham and Mary Gurney, 1685."
   },
   {
+    "sourceId": "field-genealogy-pierce-1901",
+    "shortTitle": "Pierce, Field Genealogy (1901)",
+    "citation": "Pierce, Frederick Clifton. Field Genealogy; Being the Record of All the Field Family in America. 2 vols. Chicago: Hammond Press, 1901.",
+    "archive": "Library of Congress scan; Internet Archive item fieldgenealogybe01pier (vol. 1), also served via Wikimedia Commons",
+    "url": "https://archive.org/details/fieldgenealogybe01pier",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/field-genealogy-pierce-1901.md",
+    "notes": "Compiled Field-family genealogy. Cited for the Providence, RI statement that Sarah Thornton, widow of Zachariah Field, married second John Gurney (vol. 1, citing Early Providence records, Book 2, p. 200) - the maiden-name and first-husband identification for Sarah Gurney (d. 1714). Compiled work: use as a pointer to the town-record citation it carries, not as primary evidence."
+  },
+  {
     "sourceId": "planche-conqueror-companions-1874",
     "shortTitle": "Planche, The Conqueror and His Companions",
     "citation": "Planche, J. R. The Conqueror and His Companions. Vol. 1. London: Tinsley Brothers, 1874.",
@@ -4793,11 +4829,11 @@
     "citation": "Thoms, William J., ed. Anecdotes and Traditions, Illustrative of Early English History and Literature, Derived from MS. Sources. Camden Society, old series, vol. 5. London: Printed for the Camden Society by J. B. Nichols and Son, 1839.",
     "archive": "Internet Archive (anecdotestraditi00thomrich); Open Library OL13504024M",
     "url": "https://archive.org/details/anecdotestraditi00thomrich/",
-    "corpusStatus": "none",
-    "corpusPath": "",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/lestrange-anecdotes-gurney-roster-thoms-1839.md",
     "mediaPath": "",
     "validationPath": "sources/validations/thoms-anecdotes-traditions-1839.md",
-    "notes": "Camden Society edition of anecdotes drawn from manuscript sources, including Sir Nicholas L'Estrange's Harleian MS 6395 material. pp. xviii-xx identify Parson Edmund Gurney as brother to Francis Gurney and trace the L'Estrange/Gurney context; p. 6 preserves Edmund's 'mathematician defined' anecdote and Fuller's account of him."
+    "notes": "Camden Society edition of anecdotes drawn from manuscript sources, including Sir Nicholas L'Estrange's Harleian MS 6395 material. pp. xviii-xx identify Francis Gurney as a London merchant frequently named in Alice Lady L'Estrange's Hunstanton account book; they also set out the claimed Gurney/L'Estrange cousinage and identify Parson Edmund as Francis's brother. p. 6 preserves Edmund's 'mathematician defined' anecdote and Fuller's account of him."
   },
   {
     "sourceId": "tna-a2a-705-349-aylesbury-1483-grant",
@@ -4870,6 +4906,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "13 probate items examined for John Gurney emigrant elimination. 7 John Gurneys confirmed in England post-1637 (St Botolph Aldgate, Winkfield, Aylesbury, East Grinstead, Albury, East Chiltington x2). 6 contextual records (Anne Gurney Eythorne, Daniel Gurney Aylesbury, William Gurney London, Richard Gurney London, Sir Richard Gurney, Tobias/Edward Gurney). Full analysis in research/case-files/john-gurney-case-file-v4.md. 2026-06-20 (TNA Discovery online catalogue, https://discovery.nationalarchives.gov.uk): PROB 11 search for Rivet/Rivett/Revett of Garveston/Dereham/Norfolk 1580-1640 = nil (no PCC will for Francis Rivet or the Garveston Rivetts); Gourney/Maldon/Essex 1637-1665 = nil (no PCC will for Francis G14)."
+  },
+  {
+    "sourceId": "tna-pcc-west-barsham-gournay-wills",
+    "shortTitle": "TNA PCC wills, Gournay of West Barsham (1642, 1661)",
+    "citation": "The National Archives, Kew, Prerogative Court of Canterbury: Will Registers. PROB 11/188/136 (will of Edward Gournay of West Barsham, Norfolk, esquire, dated November 1639, proved 8 February 1642; register Cambell, quires 1-42); PROB 11/303/284 (will of Henry Gourney of West Barsham, Norfolk, esquire, dated 21 December, proved 11 February 1661; register May, quires 1-53).",
+    "archive": "The National Archives, Kew (PROB 11 series, registered copy wills).",
+    "url": "https://discovery.nationalarchives.gov.uk/details/r/D856077",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/tna-pcc-west-barsham-gournay-wills.md",
+    "mediaPath": "sources/media/tna-pcc-west-barsham-gournay-wills",
+    "validationPath": "sources/validations/tna-pcc-west-barsham-gournay-wills.md",
+    "notes": "Father-and-son pair seated at West Barsham, Norfolk. Edward's will names his pregnant wife Frances, under-age son Henry, brother Thomas, and five sisters; Henry's will names Frances Gourney widow as his mother and recites her surrender of the West Barsham life estate. Together they establish the West Barsham Gournay household across 1639-1661. Working transcriptions from register copies, not diplomatic transcriptions; uncertain readings bracketed in the corpus file."
   },
   {
     "sourceId": "tna-ward-c142-west-barsham-gurney-inquisitions",
@@ -4954,6 +5002,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "FamilySearch public-records database covering two G3-household records. (1) Elizabeth Stettler Walker Gurney (G3's third wife; ark KPQN-KN9; household 51109209), corroborating her use of the Gurney surname after the 1995 marriage; aliases Elizabeth S Gurney / Elizabeth Walker Gurney / Elizabeth S Walker; birth date given as 18 Jun 1918 (the obituary gives 8 June 1918 — a ten-day variance noted on the G3 research companion); residence trail Chatham, NJ 07928 (Sep 1993-Nov 2000) then Hackettstown, NJ 07840 (Nov 1996-Oct 2005). (2) Lester L Gurney (G3 himself; ark KPQN-KNR; household 51109233; b. 10 Jun 1923), tracing his New Jersey residences: Chatham, NJ 07928 (Feb 1975-Nov 1999) then Hackettstown, NJ 07840 (Feb 1997-Oct 2006). Indexed records (accessed 21 November 2019 per the FamilySearch citation)."
+  },
+  {
+    "sourceId": "ukda-5726-lestrange-household-accounts-1606-1626",
+    "shortTitle": "UKDA 5726 — Le Strange Household Accounts",
+    "citation": "Whittle, Jane, and Elizabeth Griffiths. Household Accounts of the Le Strange Family, 1606–1626. UK Data Archive Study 5726. Colchester: UK Data Service, 2006.",
+    "archive": "UK Data Service / Norfolk Record Office (underlying account books LEST/P6–P11)",
+    "url": "https://doc.ukdataservice.ac.uk/doc/5726/mrdoc/pdf/guide.pdf",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/ukda-5726-lestrange-household-accounts-francis-gurney.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/ukda-5726-lestrange-household-accounts-1606-1626.md",
+    "notes": "Relational transcription database of selected Le Strange household-account material. The supplement preserves all 31 entries indexed to Francis Gurney, the relevant person/place links, the separate Rivett and apprenticeship evidence, and bounded search results. Original account-book targets are mapped by database section to Norfolk Record Office LEST/P6–P11."
   },
   {
     "sourceId": "vch-bucks-vol2-bledlow",

@@ -57,6 +57,26 @@ Anthony Gurney's wife **Margaret Lovell** brought Great Ellingham into the famil
 
 Henry Gurney (G15) was lord in 1572. After him the manor passed through the senior West Barsham line to his grandson **Edward Gurney** (d. 1641), then to the younger **Henry Gurney** (d. 1661 without issue), and then through **Margaret Gurney Davy** to the Potts family. That later descent is important because it shows Great Ellingham outlasting several other named Gurney properties in active memory and remaining visible in county topography well after the surname's direct possession ended. [Henry G15 companion]
 
+**That descent is now confirmed from the wills themselves, and the missing generation between
+Henry and Edward can be named.** Henry's eldest son **Thomas Gurney** — husband of Martha,
+daughter of Sir Edward Lewkenor of Denham — **died in 1614 or early 1615, before his father**,
+leaving a son and heir about five years old. Edward was therefore a minor for the whole of
+Henry's last decade, and the manor passed grandfather-to-grandson in 1623 because the middle
+generation had already gone. Edward's own will, proved February 1641/2, and his son Henry's,
+proved February 1661, complete the sequence: Henry's settles the estate on his wife for life
+with **no provision for children at all**, which is why the senior line ends
+here.[^gt-ellingham-succession]
+
+**Great Ellingham is also where the widow's Chancery business lands.** In 1648 **Frances
+Gurnay, widow, and Henry Gurnay** sued Edmund Cocke over property in Great Ellingham. The
+wills identify those parties precisely — Frances is Edward's widow (Frances Hood), Henry the
+son who made the 1661 will — so the suit is the senior line litigating over this manor in the
+generation before it failed. The pleadings themselves are unread and would give the substance
+of the dispute.[^gt-ellingham-chancery]
+
+[^gt-ellingham-succession]: Thomas's death and Martha's parentage: J. G. Nichols, prefatory notice to William J. Thoms, ed., *Anecdotes and Traditions* (Camden Society, old series, vol. 5, 1839), p. xviii; corroborated by the Norris MSS. memorandum of 23 March 1615 printed in Daniel Gurney, *The Record of the House of Gournay*, Part II (1848), p. 370 (widow Martha holding the evidences; son and heir "of th' age of five years or there about"). The two wills: The National Archives, PROB 11/188/136 and PROB 11/303/284, transcriptions at [`sources/corpus_supplement/tna-pcc-west-barsham-gournay-wills.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/tna-pcc-west-barsham-gournay-wills.md). Source IDs: `thoms-anecdotes-traditions-1839`; `dg-rec-pt2`; `tna-pcc-west-barsham-gournay-wills`.
+[^gt-ellingham-chancery]: The National Archives, Discovery catalogue: C 5/609/120 (Chancery pleadings, Gurnay v Cocke, 1648, Great Ellingham, Norfolk). Catalogue level; document unexamined. Party identification from PROB 11/303/284 as above.
+
 Two record-level anchors for Henry G15's tenure surfaced in the NRO catalogue: his probate register row — **NCC register Lawson, fo. 151, 1623**, matching the probate clause of 23 October 1623 on his will images — and a pair of 1587 conveyances, **RQG 180 (10 Dec 1587, "Indenture: bargain and sale. Henry Gurnay of Great Elingham, esq.") and RQG 181 (19 Dec 1587, feoffment Henry Gurnay to Paul Gooche)** — working conveyances by the Elizabethan lord styled "of Great Ellingham," their originals unexamined.[^nrocat-g15-rows]
 
 [^nrocat-g15-rows]: Norfolk Record Office online catalogue (AtoM, nrocatalogue.norfolk.gov.uk), per-item rows from the `"gurnay"` sweep of July 2026: NCC will register Lawson 151 (Henry Gurney, 1623); RQG 180 and RQG 181 (1587). Catalogue level; the will itself is already held at image level (FS film DGS 008470484, imgs 594–596 — see `sources/media/ncc-wills-registers/README.md`). Source IDs: `nro-catalogue-atom`, `nro-ncc-wills-registers`.

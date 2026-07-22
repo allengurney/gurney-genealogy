@@ -42,7 +42,17 @@ The manor then passed through the central later line of the family:
 - **Anthony Gurney (G17)** and **Henry Gurney (G15)**, who carried the seat through the Henrician and Elizabethan period [Henry G15 companion]
 - **Francis Gurney (G14)**, merchant tailor of London, who finally sold the Norfolk and Suffolk lands in **1634** [current file] [Henry G15 companion]
 
+The senior branch continued at West Barsham after Henry G15 for three more generations, and
+the last two are documented by their own Canterbury wills:
+
+- **Thomas Gurnay (d. by March 1615)**, Henry G15's eldest son, who predeceased his father — a memorandum of 23 March 1615 describes his evidences in the hands of his widow **Martha (Lewkenor) Gurnay** and his son and heir "of th' age of five years or there about"[^norris-1615-wb]
+- **Edward Gournay (d. 1642)**, that minor heir, who succeeded his grandfather Henry in 1623 and asked in his will to be buried near **Martha Gournay** at West Barsham[^west-barsham-pcc-wills]
+- **Henry Gourney (d. 1661)**, Edward's son, who held "the Mannor of West Barsham, Helton alias Hault Hall in Helton" and **Scotts Hall in North Barsham** with lands in North Barsham and adjoining towns, and who left no children[^west-barsham-pcc-wills]
+
 That long continuity is one reason West Barsham is so valuable genealogically: it lets the project follow a single estate from the later fourteenth century well into the seventeenth. [DG-I] [DG-II]
+
+[^norris-1615-wb]: Daniel Gurney, *The Record of the House of Gournay*, Part II (1848), p. 370, printing a memorandum from the Norris MSS. dated 23 March 1615. Source ID: `dg-rec-pt2`.
+[^west-barsham-pcc-wills]: The National Archives, Kew, PROB 11/188/136 (will of Edward Gournay of West Barsham, esquire, proved 8 February 1642) and PROB 11/303/284 (will of Henry Gourney of West Barsham, esquire, proved 11 February 1661). Working transcriptions at [`sources/corpus_supplement/tna-pcc-west-barsham-gournay-wills.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/tna-pcc-west-barsham-gournay-wills.md). Source ID: `tna-pcc-west-barsham-gournay-wills`.
 
 ## West Barsham Hall
 
@@ -59,6 +69,17 @@ The **Church of the Assumption of the Blessed Virgin** at West Barsham is almost
 The place also matters because it records the **end** of the old landed story. Francis G14's **1634 sale** of the Norfolk and Suffolk lands marks the alienation of the historic estate from Allen's direct line. Yet the place did not vanish instantly from the family story: the broader senior West Barsham branch lingered until **1661**, which is why the project should continue to distinguish between the **direct-line sale in 1634** and the **extinction of the wider senior West Barsham line in 1661**. [current file]
 
 That distinction is important enough to preserve explicitly, because otherwise the history can look as if West Barsham simply ended in 1634. It did not. The estate left Allen's direct line in 1634, but the broader family connection persisted a little longer. [current file]
+
+**The 1661 date is now evidenced, and the manner of the ending is documented.** Henry
+Gourney's will, made 21 December and proved 11 February 1661, settles the manor of West
+Barsham, Helton alias Hault Hall, and Scotts Hall in North Barsham on his wife for the term
+of her natural life, charged with £100 a year to his mother Frances. **It names no children
+and makes no provision for issue.** The senior line therefore did not sell out of West
+Barsham so much as run out of heirs: an estate held in tail, passed through two successive
+widows — Martha after 1615 and Frances after 1642 — and reaching a last holder who died
+without issue. Henry's own settlement recital describes his mother surrendering her life
+estate to him "who had the Remainder in tayle," which is the tenurial mechanism that carried
+the manor through those two minorities.[^west-barsham-pcc-wills]
 
 ## Open items
 

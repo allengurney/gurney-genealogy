@@ -82,6 +82,35 @@ Six entries in PD 86/41 are tied to Francis Gurney by visual reading and/or FS i
 - **Source:** FS index VNN2-H8S. Parent not in the index; the probable-son-of-Francis-G14 attribution rests on geographic + chronological elimination of competing Francis Gurney identifications, and on the documented name-reuse pattern at the 1628 St Benet Fink Francis baptism (Bernau 1913).
 - **Confidence:** **Probable son** (per V39 framing; not refined in this pass).
 
+## The clerk's illegitimacy convention — a same-page control on page 00715
+
+Page 00715 carries its own exemplar of how this hand recorded an illegitimate birth. About a
+third of the way down the christenings column sits:
+
+> **Alyce the daughter of Jane Iewell *filia populi* bapt: Febr 11**
+
+*Filia populi* — "daughter of the people" — is the standard Latin formula for a child born out
+of wedlock. The entry's shape is as informative as the tag: **the mother is named, no father
+appears, and the Latin formula follows the parent's name**, against the page's ordinary
+pattern of "X the sonne/daughter of [father] bapt: [month] [day]".[^filia-populi-00715]
+
+Two consequences follow for the John entry on the same page. First, **this clerk marked status
+when it applied**, so a plain patronymic entry on this page carries more weight than a general
+appeal to period practice would give it — silence from a marking clerk is meaningful. Second,
+the *filia populi* line is a **same-page, same-hand control** and should be used as the
+comparator in any assessment of the John entry's relationship wording, which the 2026
+four-test analysis never examined (its tests adjudicated the father's forename only).
+
+**A structural note that unsettles the layout claim above.** Page 00715 shows a christenings
+column followed by an inline **"Mariages"** header and marriage entries — the same combined
+annual-return structure on which the post-00726 chronology lattice is built. The statement in
+"Register structure" that pre-00726 pages use a different, uncharacterised layout should
+therefore be re-tested: if the annual-return structure runs back to 00715, the lattice may be
+extendable backwards, which bears directly on the ±2–3 year margin around the John entry's
+year.[^filia-populi-00715]
+
+[^filia-populi-00715]: Norfolk Record Office, East Dereham parish register PD 86/41, page 00715, christenings column; entry located at approximately x 1800, y 1955, width 1250, height 80 in the master image `sources/media/Parish_Register_East_Dereham/gbprs_norfolk_pd_86-41_00715.jpg`, read 2026-07-22 from a six-state enhancement sheet at scale 6. The "Mariages" subsection header is visible in the full-page grid of the same master. Working crops at `sources/intake/paleography-staging/working-snippets/packet-56/`. Source ID: `nro-pd-86-41`.
+
 ## Negative findings
 
 - **No marriage of Francis Gurney to Margaret in the 1617 annual return** (pages 00728–00730). Scan-sheet level pass. The 1616, 1618, 1619, 1620 annual returns' marriages subsections have not yet been line-scanned for Gurney candidates, and a pre-00726 marriages section would also need separate scanning.[^marriages-1617]

@@ -261,6 +261,7 @@ decorde-essai-canton-gournay-1861,source,"Decorde, Essai historique et archeolog
 deeds-utoronto-gournay-charter-extracts,source,DEEDS (Toronto) Gournay charter extracts,data/sources.json
 folger-demonstration-antichrist-1631,source,Demonstration of Antichrist (1631) - Internet Archive / Folger,data/sources.json
 deville-cartulaire-sainte-trinite-rouen,source,"Deville, Cartulaire de la Sainte-Trinite du Mont de Rouen (1840)",data/sources.json
+dg-rec-pt3-appendix-lxxxvii-lynn-indenture,source,"DG Record Part III — Lynn Indenture, 1622",data/sources.json
 dg-rec-pt1,source,"DG Record, Part I",data/sources.json
 dg-rec-pt2,source,"DG Record, Part II",data/sources.json
 dg-rec-pt3,source,"DG Record, Part III",data/sources.json
@@ -484,6 +485,7 @@ pattou-racines-histoire-gournay-2025,source,Pattou Racines Histoire -- Gournay,d
 pcc-prob11-461-dyer-lewis-nevis,source,"PCC will of John Lewis of Nevis (PROB 11/461, Dyer, 1701)",data/sources.json
 pcc-prob11-10-vox-calthorpe-1495,source,"PCC will of Sir William Calthorpe (PROB 11/10, Vox, 1495)",data/sources.json
 pcc-rivett-rattlesden-wills,source,"PCC wills - Rivett/Ryvett of Rattlesden (1610, 1626)",data/sources.json
+ukda-4816-pcc-wills-index,source,"PCC Wills index, 1384-1858 (UK Data Service SN 4816)",data/sources.json
 pease-pennyghael,source,Pease genealogy (Pennyghael),data/sources.json
 pettigrew-collectanea-house-gournay-1871,source,"Pettigrew, On the House of Gournay",data/sources.json
 phillimore-bucks-marriages-vol1,source,"Phillimore Bucks parish registers, marriages, vol. 1",data/sources.json
@@ -557,6 +559,7 @@ tna-e115-180-113-certificate-of-residence-1641,source,"TNA E 115/180/113 - certi
 tna-e179-1661-london-poll-tax-deferred,source,"TNA E179 - 1661 Free and Voluntary Present, City of London (deferred image-pull target)",data/sources.json
 tna-pcc-gurney-elimination-corpus,source,"TNA PCC Gurney probate corpus (1577-1682, elimination set)",data/sources.json
 tna-pcc-probate,source,TNA PCC Probate Records,data/sources.json
+tna-pcc-west-barsham-gournay-wills,source,"TNA PCC wills, Gournay of West Barsham (1642, 1661)",data/sources.json
 tna-ward-c142-west-barsham-gurney-inquisitions,source,TNA WARD 7 & C 142 inquisitions for the West Barsham Gurneys (catalogue level),data/sources.json
 torrey-new-england-marriages-prior-1700,source,"Torrey, New England Marriages Prior to 1700",data/sources.json
 folger-second-commandment-1639,source,Toward the Vindication of the Second Commandment (1639/1661) - Internet Archive / Folger,data/sources.json
@@ -564,6 +567,7 @@ trevor-john-erpingham-1970,source,"Trevor John, 'Sir Thomas Erpingham, East Angl
 tyrwhitt-canterbury-tales-1798-v2,source,"Tyrwhitt ed., Canterbury Tales of Chaucer, vol. ii Notes (1798)",data/sources.json
 us-census-1940,source,"U.S. Federal Census, 1940",data/sources.json
 us-public-records-1970-2009,source,"U.S. Public Records, 1970-2009",data/sources.json
+ukda-5726-lestrange-household-accounts-1606-1626,source,UKDA 5726 — Le Strange Household Accounts,data/sources.json
 vch-bucks-vol2-bledlow,source,VCH Buckinghamshire vol. 2 - Bledlow,data/sources.json
 vch-bucks-v3,source,VCH Bucks v3 (Stewkley manors),data/sources.json
 vch-essex-vol4,source,"VCH Essex, vol. 4",data/sources.json

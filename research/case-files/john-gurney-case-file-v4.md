@@ -157,6 +157,8 @@ For John to be Francis's son, he must be older than Roger Gurney whom the 1633 H
 Roger (baptized St Benet Fink in December 1621 — Daniel Gurney's transcription reads the 27th, the modern index the 20th) was the eldest son of the *second* marriage. John, if born c.1609/10, would have been twelve years older.
 
 
+*Where and how John spent his childhood — the competing household scenarios, the collapse of his father's credit, and a reconstruction — is treated separately in [`research/case-files/john-gurney-g13-childhood.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-g13-childhood.md).*
+
 <h2 id="s3">3. MASTER TIMELINE</h2>
 
 | Date | Francis Gurney (Father) | John Gurney-1 (Son) |
@@ -171,6 +173,7 @@ Roger (baptized St Benet Fink in December 1621 — Daniel Gurney's transcription
 | **23 Sept 1611** | **Marries Margaret Rybett, St Martin at Palace, Norwich ★** | Possibly infant; potentially born before marriage |
 | c.1611/12 | Edward baptized, East Dereham | — |
 | Jan 1612 | First documented Lestrange payment | — |
+| 1614/15 | Eldest brother Thomas dies, leaving a five-year-old heir | Age c.4–5 |
 | c.1615 / Jan 1616 | Marye (likely niece) buried, East Dereham | — |
 | 31 Jan 1616 | Agnes buried, East Dereham | Age c.6–7 |
 | 22 April 1616 | Takes Francis Spelman as apprentice <br />(£100 bond from Sir Henry Spelman of Middleton, Norfolk) | — |
@@ -180,13 +183,17 @@ Roger (baptized St Benet Fink in December 1621 — Daniel Gurney's transcription
 | **c.1618–1619** | **Family relocates from East Dereham to London** | Family moves with father |
 | 2 March 1619 | Dorothy baptized, St Benet Fink, London | — |
 | 1619–1637 | Six more children baptized at St Benet Fink | Growing up in or near London |
-| c.1622–1625 | King's Lynn manufacturing venture fails | Age c.12-16 |
+| **11 Oct 1622** | **Borrows £200 from King's Lynn; must live there<br />to Michaelmas 1625** | Age c.12–13 |
+| 5 Aug 1623 | Gives a bond to Sir Owen Smith, his later buyer | Age c.13–14 |
+| 23 Oct 1623 | Father Henry Gurnay's will proved at Norwich | Age c.13–14 |
+| 1625–26 | Lynn venture fails; Sir Hamon L'Estrange stands bound<br />for his unpaid debt | Age c.15–16 |
 | **1 Oct 1626** | — | **Sister Ann marries John Gilman, Hingham, Norfolk** |
 | c.1628–1630 | — | **John marries Mary (surname unknown)**<br /> Age c.18-20 |
 | c.1628–1635 | — | Children born in England (Sarah, Mary, Richard, John Jr.) |
 | 1633 | Heralds' Visitation of London — Francis attests pedigree | — |
 | **8 Nov 1633** | Francis (probable son) buried, East Dereham | — |
-| **11 July 1634** | **Sells all Norfolk and Suffolk lands for £1,000** | No inheritance to expect |
+| **11 July 1634** | **Sells all Norfolk and Suffolk lands to Sir Owen Smith<br />for £1,000** | No inheritance to expect |
+| 1634 | Carries Roger L'Estrange's trunks from Eton to his house,<br />then on to Cambridge | Age c.24–25 |
 | May 1636 | Last Lestrange payment | — |
 | 1638 | Not found in the cataloged extract of the 1638 Inhabitants of London survey (St Benet Fink page unverified) | — |
 | c.1638–1641 | — | **Emigrates to Massachusetts** |

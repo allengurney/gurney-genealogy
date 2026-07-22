@@ -21,7 +21,8 @@
     ".json",
     ".html",
     ".htm",
-    ".rtf"
+    ".rtf",
+    ".tab"
   ],
   "objectRoots": {
     "factSheets": "fact-sheets",
@@ -48,6 +49,12 @@
       "id": "john-gurney-case-file",
       "role": "case-file",
       "path": "research/case-files/john-gurney-case-file-v4.md",
+      "ancestor": "G13"
+    },
+    {
+      "id": "john-gurney-childhood-case-file",
+      "role": "case-file",
+      "path": "research/case-files/john-gurney-g13-childhood.md",
       "ancestor": "G13"
     }
   ],

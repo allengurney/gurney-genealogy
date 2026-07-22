@@ -42,6 +42,29 @@ This passage reinforces the working model already in this file: Hingham Gurney's
 
 [^blomefield-hingham]: Francis Blomefield, ["Hundred of Forehoe: Hingham,"](https://www.british-history.ac.uk/topographical-hist-norfolk/vol2/pp422-445) in *An Essay Towards A Topographical History of the County of Norfolk*, vol. 2 (London, 1805), pp. 422-445, British History Online. Source ID: `blomefield-norfolk`.
 
+## The surviving court series — what can actually be read
+
+Blomefield takes the manor's descent only so far: "Henry Gurney was lord in 1572; how it
+passed afterwards I do not find." The record series that can answer him survives at the
+Norfolk Record Office in a defined and reachable sequence: **eight court rolls covering
+1583–1619 (KIM 1/6/26–34)**, a **rental of 1620–21 (KIM 1/6/75)**, and **bailiffs' accounts
+1628–39 (KIM 1/6/56–63)**. Those three classes bracket the years either side of Henry G15's
+death and would show whether the manor stayed in Gurney hands, who the tenants were, and
+whether any Gurney household sat in the parish after 1572.[^hingham-kim-series]
+
+Two search cautions apply to any read of them. The parish spells the family **Girnye** in at
+least one attested entry — the 1626 marriage of Ann *Girnye* to John Gilman — so a search
+keyed to "Gurney" can miss the very household that makes Hingham interesting; `Gurnay`,
+`Gourney`, `Girney` and `Girnye` all need trying. And the parish carries two adjacent
+questions worth testing in the same pass: the **Gilman** worsted-weaving household, whose son
+emigrated to New England, and the **Podmer** family, a John Podmer having married at Hingham
+in 1609 and been buried there in 1623 — the surname of the probable maternal grandmother of
+John Gurney G13 under one of the two competing readings of his mother's
+parentage.[^hingham-search-cautions]
+
+[^hingham-kim-series]: The National Archives, [Manorial Documents Register: Hingham Manor](https://discovery.nationalarchives.gov.uk/details/c/F238089), Norfolk Record Office holdings: `KIM 1/6/26–34`, eight court rolls, 1583–1619; `KIM 1/6/75`, rental, 1620–21; `KIM 1/6/56–63`, bailiffs' accounts, 1628–39. The catalogue establishes container and dates only; no Gurney or Gilman entry has been read. Blomefield's statement: *An Essay towards a Topographical History of the County of Norfolk*, vol. 2 (1805), "Hundred of Forehoe: Hingham," Gurney's Manor. Source ID: `blomefield-norfolk`.
+[^hingham-search-cautions]: Hingham, Norfolk, parish register: Ann Gurney (entered *Girnye*) and John Gilman married 1 November 1626; Ann buried there 23 November 1651. John Podmer married Mary at Hingham 2 November 1609, daughter Alice baptised there 27 December 1609, John Podmer buried there 26 September 1623. Source IDs: `hingham-register`; `ancestry-norfolk-1535-1812`.
+
 ## Open items
 
 - [ ] Pull the full Blomefield Hingham entry to clarify the descent of Gurney's Manor before Henry G15 and verify how far back Anthony G17 and William G18 can be placed explicitly.

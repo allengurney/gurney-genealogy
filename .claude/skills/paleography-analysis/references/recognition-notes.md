@@ -120,3 +120,39 @@ Append durable, reusable paleography lessons here after manuscript-analysis task
 - Gurney/Gournay variants or false friends: File slugs and FamilySearch machine dates can point at the wrong visible court date; a Gurney-like full-text hit in a Latin will is not automatically a person-name.
 - Reading lesson: Confirm catalog access, visible headings, and page-section exposure before transcription. A digitally restricted catalog row or a page that shows only christenings/marriages cannot support an image-based burial negative.
 - Avoid next time: Do not treat a staged filename, FTS date, or index-only FamilySearch access as a substitute for the manuscript image and its visible heading/section.
+
+## 2026-07-21 - PCC register copies, Gournay of West Barsham (PROB 11/188, PROB 11/303)
+
+- Scope: Packets 54-55; sourceId `tna-pcc-west-barsham-gournay-wills`.
+- Source/image range: TNA facsimile PDFs of PROB 11/188/136 (register Cambell, folio 162) and PROB 11/303/284 (register May, folio 170), 2 pages each, rendered at 300 dpi (3509x4963).
+- Document type and date range: Prerogative Court of Canterbury registered copy wills, 1639-1661.
+- Hand or scribe: Mid-17th-century English register/engrossing hand; dense, regular line spacing, heavy display capitals for `In the name of God Amen` and `Probatum`.
+- Useful enhancement: `line-strips --line-count N` over a grid-derived box at scale 3 segments this hand cleanly; automatic line detection is unnecessary because spacing is regular (~49 px between baselines at 300 dpi). Token crops at scale 5-6 for individual names; `raw`/`autocontrast` were sufficient and `threshold` added nothing on these clean scans.
+- Comparator words: `In the name of God Amen`, `Probatum`, `Item I give and bequeath`, `my deare wife`, `Esqr`, the marginal Latin genitive headings (`Edwardi Gournay`, `Henrici Gourney`).
+- Gurney/Gournay variants or false friends: The same West Barsham family is spelled `Gournay` in 1642 and `Gourney` in 1661 - the register spelling shifts between generations, so a surname-exact search will silently split a father and son. TNA Discovery keyword search is likewise spelling-literal: `Gournay Barsham` returns only the father, `Gourney Barsham` only the son.
+- Reading lesson: A PCC register folio carries several unrelated wills; grid the page and fix the entry's start/end before cropping, or the neighbouring testator's text gets transcribed as the target's. Marginal Latin genitive headings are the fastest way to confirm which entry you are in. Also note that TNA catalogue descriptions routinely omit the testator's status - both these men are styled `Esqr` in the register text but plain in the catalogue.
+- Avoid next time: Do not read `Eliz:` as `Elias`; the colon/flourish abbreviation for Elizabeth is standard in these witness lists. Do not assume a will's stated year equals the probate year - a December will proved the following February sits in the prior historical year under Old Style dating.
+
+## 2026-07-22 - East Dereham PD 86/41 image 00715, John Entry E target-line negative
+
+- Scope: Packet 56 Pass 0 image preparation for the John Entry E re-read.
+- Source/image range: `sources/media/Parish_Register_East_Dereham/gbprs_norfolk_pd_86-41_00715.jpg` (5048x4272 grayscale) and its downscaled twin at `site/website/media/east-dereham/` (2048x1733 RGB, same page).
+- Document type and date range: Combined annual parish return, christenings October-March, marriages May-February, burials cut off by the frame edge.
+- Hand or scribe: One English register hand throughout; regular ~77 px baseline spacing.
+- Useful enhancement: `band-ladder` with four hand-picked 580 px bands at scale 2 reads the whole christenings column; automatic `line-strips` segmentation collapses this page into three uneven strips and is useless here.
+- Comparator words: `the sonne of` / `the daughter of` openings, `bapt`, and the same-page `filia populi` illegitimacy tag at y~1988 (`Alyce the daughter of Iane Iewell filia populi bapt: ffebr 11`). A fully legible same-hand `Nicholas` also occurs on the page as a father's forename at y~1822.
+- Gurney/Gournay variants or false friends: None on the page. The christenings column holds 28 entries, no Gurney-form surname, no 10 January date, and its two `John the sonne of` entries name `Willm Locke` and `Iohn Ki[n]gs[fo]rd` as fathers.
+- Reading lesson: The image the repo calls 00715 does not contain the John Entry E line. The March 2026 canonical target crop `site/website/media/east-dereham/line_05_enh_x3.png` shows `Eliz[abeth] ... daughter of Ro[b]art [C]r[o]wby` over `Amorye ... Iosue Ramplin[g]`, neither of which is on this page, and at ~1080 px per line it was cut from a full-resolution master, not from the 2048-px website copy. Verify the target line is on the master before building a crop set around it.
+- Avoid next time: Do not treat a staged image filename as proof the indexed entry is on that image, and do not accept a retained "canonical" line crop without re-locating it on the page - a crop whose coordinates were never recorded may belong to a different image entirely.
+
+## 2026-07-22 - East Dereham PD 86/41 image 00730, the actual John/Gorne baptism line
+
+- Scope: Packet 56 Pass 0, run again after the 00715 negative above. Resolves that negative.
+- Source/image range: `sources/media/Parish_Register_East_Dereham/gbprs_norfolk_pd_86-41_00730.jpg` (5016x4272 grayscale). Two membranes in one frame: burials above (y 600-3090), christenings below (y 3050-3780, cut by the frame edge).
+- Document type and date range: Combined annual return. Burials maye 11 - march 19 complete; christenings Septem 8 - Janua 10 and continuing past the frame.
+- Hand or scribe: Round, well-formed italic - a different and much more legible scribe than the 00715 secretary hand. Writes `off` for `of`. Brackets consecutive entries onto one shared date.
+- Useful enhancement: None needed. The lower membrane reads at scale 2; the target token is unambiguous at scale 10 from the raw grayscale master. No contrast or threshold work was required.
+- Comparator words: `the sonne off` / `the daughter off`, `bapt`, `buried`. Best comparator on the page is the second `Nicholas` three lines above the target, written by the same scribe as a surname (`John Nicholas`) - a whole-token exemplar rather than a letterform argument.
+- Gurney/Gournay variants or false friends: The target reads `John the sonne off Nicholas Gorne bapt Janua 10` - matching the FindMyPast index, not the `ffrancis Gurnie` re-reading. `Gorne` is `G-o-r-n-e`: a round `o` where this hand's `u` would show two minims, and a plain `-e` terminal, not `-ie`/`-y`. The strokes do not support `Gurnie` on this line.
+- Reading lesson: The March 2026 four-test adjudication of `ffrancis` vs `Nicholas` was run on a crop from neither this page nor 00715, so it tested a line that does not exist in the evidence. When a hypothesis-driven letterform test is inherited, re-locate the line on the master before reusing the conclusion. Also: an illegitimacy control only transfers within a scribe - the 00715 `filia populi` exemplar is a different hand and cannot license an argument from silence about this entry.
+- Avoid next time: Do not carry a same-page control across a membrane or scribe boundary. Do not assume a heading exists: on this page the top of the burials membrane is destroyed by staining and neither membrane carries a legible year or regnal formula.

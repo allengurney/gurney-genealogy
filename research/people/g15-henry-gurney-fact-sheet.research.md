@@ -19,12 +19,24 @@ Henry inherited West Barsham and Great Ellingham not from his father but from hi
 
 **The children in the will.** Bequests and the already-portioned recital name: eldest son **Thomas** (the silver-and-gilt basin and ewer); sons **Henry**, **Edward**, and **Francis** among children "heretofore" given their portions; **Francis** separately receives "all my bookes in Latyne" — the commonplace-book poet's Latin library passing to the Merchant Taylor sixth son (G14); daughters **Elizabeth** (portioned) and the unmarried **Anne** and **Abigayle** (£200 portions at marriage, £20 yearly maintenance, payable on demand after two years even if unmarried, cross-remainder to the survivor, £200 to younger sons if both die unmarried); the executor must bond for the daughters' portions before taking his benefit; £10 to the poor of Great Ellingham as a continuing churchwardens' loan-stock (sums of 20s or under, on pawn or bill obligatory, the minister as "moderator" in disputes). **No wife is named or provided for** — consistent with Ellen Blennerhasset's death before May 1621 and the 1614 will's burial directive beside her. **No grandchild and no New England kin is named.** Anthony, not named in the legacy clauses as read, is established by the probate clause and was very likely the executor.[^henry-will-children]
 
+**The "Edward" in the 1621 portioned list is not securely a son of Henry, and should not be published as one.** Three things pull against it. First, the **1614 will omits him**: its recital lists the children already portioned as "Thomas, Henry, Edmund, Anthony, Francis, Leonard, Elizabeth, and Anne" — a full eight names, with no Edward, seven years before the 1621 text supposedly lists him among those "heretofore" portioned. A son portioned by 1621 should have been portioned by 1614 on that wording. Second, the packet-10 reading of the already-portioned list is recorded at **medium** confidence, not high — unlike the Thomas-eldest and probate clauses. Third, and most substantively, **there was a living Edward Gurnay in the family in 1621 who was not Henry's son**: his grandson and eventual heir, Thomas's boy, then about eleven. A grandfather providing for the minor heir of his dead eldest son is exactly what one expects, and would put "Edward" in a list of those already provided for without his being a son at all.
+
+The competing possibility remains that Henry did have a son Edward who simply post-dates the 1614 recital's scope or was omitted from it. But the balance of the evidence does not support promoting Edward to the children table as a son. The safer statement is that **an Edward Gurnay was provided for by 1621, and the likeliest identification is the grandson-heir**. Resolving it needs the 1621 image re-read at that clause and, ideally, the Visitation child-set control checked for an Edward in Henry's generation.[^henry-will-children][^henry-1614-recital]
+
+[^henry-1614-recital]: Daniel Gurney, *The Record of the House of Gournay*, Part II (1848), p. 456, will transcription pp. 457–458, Henry Gurnay's May 1614 will: "Concerning my children, forasmuch as most of them have had theyr portions delivered them, as Thomas, Henry, Edmund, Anthony, Francis, Leonard, Elizabeth, and Anne." [Internet Archive text](https://archive.org/stream/recordhousegour02gurngoog/recordhousegour02gurngoog_djvu.txt). Source ID: `dg-rec-pt2`.
+
 **Two conflicts — Anthony's is resolved; Thomas's is reopened by a newly-surfaced probate record.** (1) **Thomas:** the family genealogies say the eldest son Thomas III died in 1614, *vita patris*; the 1 May 1621 will bequeaths to "my eldest sonne Thomas," which had seemed to settle that Thomas was alive in May 1621 and died 1621×1623 (the "1614" read as the date of Henry's revoked *earlier* will, mis-transmitted as a death year — a reading supported by the source-trace: Daniel Gurney's *Record* p. 283 gives **no year** for Thomas's death, and the "p. 287" pedigree entry sometimes cited is a *different* Thomas, "Thomas Gurnet," William IV's (G19) son — see the [G19 companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g19-william-gurney-iv-fact-sheet.research.md)). **The Norfolk probate master index now reopens the question: it carries an inventory of "Thomas Gurnay, Esquire, of Great Ellingham," 1615–16** — a primary probate event landing squarely on the old date. Two readings, exposed rather than reconciled:[^thomas-inventory-1616]
 
 - **(a) It is Henry's eldest son Thomas**, dead 1615–16 **intestate** — an inventory without a will, with his heir Edward (b. 1608) then a seven-year-old minor, fits an intestate death with admon and wardship far better than a testate one — in which case the packet-10 "my eldest sonne Thomas" bequest of May 1621 needs re-examination (a recital from the revoked 1614 will? a different Thomas? a misreading?), and the compilers' "d. 1614/15" tradition was approximately right after all.
 - **(b) It is a different armigerous Thomas Gurnay at Great Ellingham** — but the Visitation pedigree shows no second adult esquire Thomas there in this window, so reading (b) currently has no candidate.
 
-The 1621 will remains the strongest *read* evidence, so the working conclusion stays 1621×1623 — but contested, not resolved. Three soft corroborations lean toward (a) without deciding it: an Ancestry user tree (leads only, never citable) records a Thomas Gurnay with a Lewkenor spouse dying 25 February 1615/16; the TNA Court of Wards / inquisition catalogue rows for a "Thomas Gurney: Norfolk" of 1616/17–1617/18 (C 142/365/126, C 142/370/10, WARD 7/57/80, WARD 7/57/157 — carried since July 2026 as unresolved catalogue leads, see `sources/validations/tna-ward-c142-west-barsham-gurney-inquisitions.md`) sit on the same date; and the earlier control that the NCC registers 1615–20 hold no Gurney testator is *consistent* with (a), because a loose intestate inventory is not a registered will. **Decisive tests, in order of reachability:** the Great Ellingham burial register c. 1615/16 (the image-backed Ancestry/NRO collection carries viewable Gurnay entries — a "Thomas Gurnay Esq." burial would settle it without the inventory); the inventory itself plus any accompanying admon/guardianship (administrator = Martha the widow? heir = Edward, minor?) — an NRO loose document, not in the FamilySearch full-text or registered-will films; or the actual 1616/17 inquisition (heir and age). If (a) proves out, Thomas's household could not have fostered the motherless John G13 (b. c. 1609/10) after 1616, weakening the paternal-uncle-Thomas branch of the fostering hypothesis.[^thomas-inventory-1616]
+**Reading (a) is now much the stronger, on printed primary-derived evidence that had not been brought to bear here.** A memorandum from the Norris manuscripts, dated **23 March 1615**, records Clement Paman examining evidences then in the hands of "**Martha Gurnay, widow, late wife of Thomas Gurnay, esq. deceased**," and states that Thomas had left his son and heir "**of th' age of five years or there about, for whom an office was to be presently found**."[^thomas-1615-norris] That is a dated, named, circumstantial record of the same event the 1615–16 inventory indexes: Thomas dead, a widow named Martha holding the muniments, a minor heir aged about five, and an inquisition ("office") pending — which is precisely what the Court of Wards catalogue rows of 1616/17–1617/18 would be. It also supplies the wardship mechanism that an intestate death with a five-year-old heir requires.
+
+**A fourth witness, independent of all three, states the death year outright.** J. G. Nichols's 1839 notice to the L'Estrange anecdotes — written from information supplied by Daniel Gurney himself — says that "Martha, daughter of Sir Edward Lewkenor, of Denham … was married to **Thomas Gurney, Esq. of West Barsham, Norfolk, who died in 1614**; leaving issue Edward Gurney, Esq. of the same place." That sentence is not a garbled echo of Henry's 1614 will: it appears in a note about the Lewkenor marriage, gives the widow's parentage, and carries straight on to the son who succeeded. It is an independent statement of the same fact.[^nichols-lestrange-gurneys]
+
+Four witnesses therefore converge on Thomas dying in 1614 or early 1615: Nichols's stated death year, the Norris memorandum of 23 March 1615, the indexed 1615–16 inventory, and the minor heir Edward's succession to Henry in 1623 (Daniel Gurney: Henry "died in 1623, and was succeeded… by Edward Gournay **his grandson**, Thomas Gourney, his eldest son, having died in his life-time"). Against them stands one reading — "my eldest sonne Thomas" in the 1 May 1621 will. **The question is settled in substance: Thomas III died in 1614/15, and the 1621 phrase is the outlier that needs explaining.** The likeliest explanations are that the clause carries forward wording from the revoked 1614 will, or that the packet-10 reading of that name needs re-checking against the image. The "1614 is really Henry's 1614 will misremembered" theory should be dropped — Nichols's note is the wrong shape for that confusion.
+
+Two further soft signals point the same way without deciding anything: an Ancestry user tree (leads only, never citable) records a Thomas Gurnay with a Lewkenor spouse dying 25 February 1615/16 — the Lewkenor match is notable because Martha Gurnay is independently identified as a Lewkenor; and the TNA Court of Wards / inquisition catalogue rows for a "Thomas Gurney: Norfolk" of 1616/17–1617/18 (C 142/365/126, C 142/370/10, WARD 7/57/80, WARD 7/57/157 — carried since July 2026 as unresolved catalogue leads, see `sources/validations/tna-ward-c142-west-barsham-gurney-inquisitions.md`) sit on the same date; and the earlier control that the NCC registers 1615–20 hold no Gurney testator is *consistent* with (a), because a loose intestate inventory is not a registered will. **Decisive tests, in order of reachability:** the Great Ellingham burial register c. 1615/16 (the image-backed Ancestry/NRO collection carries viewable Gurnay entries — a "Thomas Gurnay Esq." burial would settle it without the inventory); the inventory itself plus any accompanying admon/guardianship (administrator = Martha the widow? heir = Edward, minor?) — an NRO loose document, not in the FamilySearch full-text or registered-will films; or the actual 1616/17 inquisition (heir and age). If (a) proves out, Thomas's household could not have fostered the motherless John G13 (b. c. 1609/10) after 1616, weakening the paternal-uncle-Thomas branch of the fostering hypothesis.[^thomas-inventory-1616]
 
 (2) **Anthony:** the fact sheet carried Anthony (Francis's twin, b. 1581) as died *vita patris*; the probate clause shows him alive, administering, on 23 October 1623. The *vita-patris* claim is superseded. The precise West Barsham burial dates for both Thomas and Henry are not FamilySearch-indexed (the FMP Norfolk Burials set omits West Barsham), so they await the register images.[^henry-will-conflicts]
 
@@ -32,6 +44,97 @@ The 1621 will remains the strongest *read* evidence, so the working conclusion s
 [^henry-will-children]: Packet-10 transcription (citation above), confidence levels per its report: Thomas-eldest, Anne/Abigail portions, poor-stock, probate/administration high; the already-portioned list (Henry, Edward, Francis, Elizabeth) and "bookes in Latyne" medium — "in Latyne" preferred over "in London" on letter forms. Visitation child-set control: Walter Rye, ed., *The Visitations of Norfolk, 1563, 1589 and 1613* (Harleian Society vol. 32, 1891), p. 141. Source ID: `familysearch-fulltext-search`.
 [^henry-will-conflicts]: Thomas d. 1614: Daniel Gurney, *Record* (1848), pedigree p. 287, and Pease/Pennyghael (the fact sheet's citations 12 and 2). Anthony *vita patris*: same pedigree sources (fact-sheet citation 15). Against both: packet-10 readings of the bequest to "my eldest sonne Thomas" and the probate commission to Anthony, 23 Oct. 1623. Source ID: `familysearch-fulltext-search`.
 [^thomas-inventory-1616]: Ancestry.com, "Norfolk, England, Indexes to Wills, Probate, Administrations and Marriage Licence Bonds, 1371–1858" (collection 62679), record 155780: "Gurnay, Thomas, Esquire, of Great Ellingham, Norfolk," record type Inventory, 1615–16; NRO permalink `.../gurnay-thomas-esquire-of-great-ellingham-norfolk` (the NRO catalogue was unreachable through 2026-07-19, so the court/register reference is unresolved). FamilySearch full-text negatives, 2026-07-19: `+Gurnay +Ellingham +inventory` = 0; `+"Thomas Gurnay" +Ellingham` = 1 (an 1856 heraldry volume) — the loose inventory is not in the registered-will films or full-text coverage, so the image is NRO-only. Non-citable soft signal: Ancestry user tree "Fryer Dunster Evans," Thomas Gurnay, spouse a Lewkenor, d. 25 Feb 1616. Visitation control (no second adult Thomas Gurnay Esq. at Great Ellingham): Walter Rye, ed., *The Visitations of Norfolk, 1563, 1589 and 1613* (Harleian Society vol. 32, 1891), p. 141. FMP "England Deaths & Burials 1538–1991" composite, exact `Gurnay` = 11 rows, none a Thomas at Great Ellingham c. 1615 (composite is parish-partial — not decisive). Source IDs: `norfolk-wills-probate-index-1371-1858`; `familysearch-fulltext-search`; `visitations-norfolk-harleian-32`.
+
+[^thomas-1615-norris]: Daniel Gurney, *The Record of the House of Gournay*, Part II (1848), p. 370, printing a memorandum from the Norris MSS. dated 23 March 1615: Clement Paman examined evidences in the hands of "Martha Gurnay, widow, late wife of Thomas Gurnay, esq. deceased"; Thomas had left his son and heir "of th' age of five years or there about, for whom an office was to be presently found." [Internet Archive text](https://archive.org/stream/recordhousegour02gurngoog/recordhousegour02gurngoog_djvu.txt). Succession of the grandson: same work, p. 283. Source ID: `dg-rec-pt2`.
+
+### The West Barsham succession after Henry: two PCC wills read in full
+
+Henry's grandson and great-grandson both proved at Canterbury rather than Norwich, and their
+register copies have now been read. Together they document the senior household for the
+twenty years after Henry's death and confirm several identifications that had stood as
+inferences.
+
+**Edward Gournay of West Barsham, esquire — will November 1639, proved 8 February 1642.**
+Edward is Henry's grandson, the minor heir of the 1615 memorandum, who succeeded Henry in
+1623. He wrote in "perfect health, memorie and understanding," some three years before
+probate, opening with an unusually long and personal Calvinist preamble on sin and the
+sufficiency of Christ's satisfaction before reaching the burial direction — he asks to be
+buried near **Martha Gournay** at West Barsham, his mother, the widow of the 1615
+memorandum. The people he names are the household Henry's will could not reach:
+
+- **Frances ("ffrauncis") his wife**, then pregnant — the child's portion is to come from the
+  benefit of "the wardshipp and marryage of my Childe," and he asks her to be "loveing and
+  carefull in the breeding of itt."
+- **Henry, his son**, who receives "all my [owne] Library, Mappes, Globes or any such
+  mathematicall instruments as I shall have att the time of my death, and that they bee all
+  kept for his use in my Closett nexte over the kitchin **untill hee be of discretion to use
+  them**" — a custody clause that puts Henry under age in 1639, and a striking continuity
+  with his great-grandfather Henry G15's own book-collecting.
+- **Thomas Gournay, his brother**, and **five sisters — Susan, Dorothy, Elizabeth, Ellin and
+  Margarett** — each twenty shillings to buy a mourning ring, "when I am out of sight I would
+  not be out of mynd," closed with his motto **"Pax Vobis E:G:"** The second sister's name
+  carries an appended surname, probably married; the letterforms admit *Mathewson* or
+  *Mathison* and the reading is not secure.
+
+He also left five shillings apiece to the servants who waited on him at table and two
+shillings to the rest, fivepence apiece to twenty of the poorest widows of Little Massingham
+and Fakenham within eight days of his burial, and a sum to the Vicar of West Barsham for
+"all tythes forgotten and not satisfied."[^west-barsham-wills]
+
+**This sibling group is new, and it independently corroborates the L'Estrange anecdote
+roster.** Nichols's roster names *Fra. Gurney* ("an uncle of Edward, and a merchant in
+London" = Francis G14), *Ed./Ned Gurney*, *Tho. Gurney* ("his brother"), and *Dol. Gurney*
+("Dorothy, his sister, died single"). Edward's own will, an entirely independent document,
+names exactly that brother Thomas and that sister Dorothy — and the roster's description of
+Francis as Edward's **uncle** is precisely right if Edward is Henry G15's grandson through
+Thomas, since Francis was Henry's son. Two unrelated sources agree on the same family
+structure.[^west-barsham-wills][^henry-will-conflicts]
+
+**Henry Gourney of West Barsham, esquire — will 21 December, proved 11 February 1661.**
+Edward's son, "sicke in body but of perfect memory," opens with a recital of how the estate
+reached him:
+
+> Whereas ffrauncis Gourney widdowe **my Mother** by her deede of surrender did surrender and
+> covenant her estate for life of the Mannor of West Barsham, Helton alias Hault Hall in
+> Helton and all the lands libertyes and priviledges to those the said Mannors apperteyning
+> … unto me the said Henry Gourney **her sonne** who had the Remainder in tayle
+
+The properties named are the **Manor of West Barsham**, **Helton alias Hault Hall in Helton**
+(the place-name reading is not securely matched to a modern parish), **Scotts Hall in North
+Barsham**, and lands in North Barsham and adjoining towns. His wife is to hold all of it for
+her life, paying his mother **one hundred pounds a year** at the four usual feasts —
+"Christmas our Lady day Midsumer and Michas" — with power to distrain for arrears. That life
+estate is conditional on **William Adams of the Middle Temple, esquire, father of his wife**,
+paying the **two thousand pounds** "according as he stands bound to pay to me at the tymes
+limitted & appointed"; the money is to clear Henry's debts, and if Adams defaults the
+executors are to sell so much of the Barsham lands as will satisfy them. Executors: "my deare
+wife, Mr John Colson and Mr William Darby," probate going to Darby with power reserved to
+Colson. Witnesses: **Eliz[abeth] Gournay**, Thomasin Golding, Thomas Wetherby.
+
+**No children are named anywhere in the will, and no provision is made for issue** — the
+estate stops with the widow. Taken with the Chancery suits below, that is the senior line
+running out.[^west-barsham-wills]
+
+**Frances was Frances Hood.** Nichols's 1839 notice, from Daniel Gurney's own information,
+records that Edward "married **Frances Hood**, and died in 1641" — a death year matching the
+February 1641/2 probate, and a maiden name for the widow whom Henry's will calls "ffrauncis
+Gourney widdowe my Mother." The same notice adds that Edward's younger brother **Thomas was
+still living after the Restoration**, and that their sister **Dorothy died single, her will
+proved in 1641** — so at least one more will of this household exists and has not been
+sought.[^nichols-lestrange-gurneys]
+
+**What the two wills settle.** The succession from Henry G15 now reads **Thomas (d. 1614/15)
+→ Edward (d. 1641/2) → Henry (d. 1661)**, with Martha (Lewkenor) and then Frances (Hood) as
+the successive widows holding the estate through two minorities. Frances's identity as
+Edward's widow, previously the "most plausible" reading of the Chancery rows below, is now
+stated in Henry's own will and her maiden name supplied by Nichols. So is his wife's family: Blomefield's "Ellen (Adams)" is confirmed from the
+primary record by the £2,000 bond of her father William Adams of the Middle Temple. And the
+register spelling shifts between the generations — **Gournay** in 1642, **Gourney** in 1661 —
+which is why a surname-exact search separates father from son.[^west-barsham-wills]
+
+[^nichols-lestrange-gurneys]: J. G. Nichols, "Notices of Sir Nicholas Lestrange, Bart. and His Family Connexions," prefatory notice to William J. Thoms, ed., *Anecdotes and Traditions, Illustrative of Early English History and Literature, Derived from MS. Sources* (Camden Society, old series, vol. 5, 1839), p. xviii: "Martha, daughter of Sir Edward Lewkenor, of Denham, and aunt of Lady Lestrange, was married to Thomas Gurney, Esq. of West Barsham, Norfolk, who died in 1614; leaving issue Edward Gurney, Esq. of the same place, who is the 'Ned Gurney' of our book. He married Frances Hood, and died in 1641. Thomas Gurney was a younger brother of Edward, and was living after the Restoration. 'My couz. Dol.' or Dorothy Gurney, was sister to 'Ned,' and died single. Her will was proved in 1641." Nichols's note records this information as a communication of Daniel Gurney, Esq., of North Runcton; it is a nineteenth-century editorial account, not a contemporary pedigree, but it is independent of the probate and manorial witnesses. Full passage and roster at [`sources/corpus_supplement/lestrange-anecdotes-gurney-roster-thoms-1839.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/lestrange-anecdotes-gurney-roster-thoms-1839.md). Source ID: `thoms-anecdotes-traditions-1839`.
+
+[^west-barsham-wills]: The National Archives, Kew, Prerogative Court of Canterbury: Will Registers. PROB 11/188/136, will of Edward Gournay of West Barsham, Norfolk, esquire, dated November 1639, proved 8 February 1642 (register Cambell, quires 1–42; Discovery record [D856077](https://discovery.nationalarchives.gov.uk/details/r/D856077)); PROB 11/303/284, will of Henry Gourney of West Barsham, Norfolk, esquire, dated 21 December, proved 11 February 1661 (register May, quires 1–53; Discovery record [D837411](https://discovery.nationalarchives.gov.uk/details/r/D837411)). Read in full from the facsimile page images; working transcriptions, uncertain readings bracketed, at [`sources/corpus_supplement/tna-pcc-west-barsham-gournay-wills.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/tna-pcc-west-barsham-gournay-wills.md). Neither testator's status appears in the TNA catalogue description; both are styled *esquire* in the register text. Source ID: `tna-pcc-west-barsham-gournay-wills`.
 
 ### TNA catalogue: an Exchequer suit of 1594 and the post-1641 widow's Chancery suits
 
@@ -44,10 +147,14 @@ Chancery: **C 5/609/120 [1648], Gurnay v Cocke** — **Frances Gurnay, widow, an
 Gurnay** v Edmund Cocke, property in **Great Ellingham**; and **C 5/383/53 [1647], Feltham
 v Gournay**, with **C 10/466/102 [1657], Feltham v Gurnay** — Frances Gournay, widow,
 Henry, and **Helen Gurnay**, over the site of the manor of **Sculthorpe** (near West
-Barsham). The parties fit the post-1641 senior line — most plausibly Edward Gournay's
-widow Frances with the young Henry II (b. c. 1632), the 1657 "Helen" matching Henry II's
-wife Ellen (Adams) — but the identification is unproven until the pleadings, which would
-state the relationships, are read.[^tna-suits-2026-07]
+Barsham). **The two PCC wills above now identify these parties.** Frances is Edward Gournay's
+widow — Henry's 1661 will calls her "ffrauncis Gourney widdowe my Mother" and recites her
+surrender of the West Barsham life estate to him. The Henry of the 1648 and 1657 suits is her
+son, the testator of 1661. The 1657 "Helen Gurnay" is his wife: Henry's will names her father
+as William Adams of the Middle Temple, esquire, which matches Blomefield's Ellen (Adams). What
+remains unread is the pleadings themselves, which would give the substance of each dispute —
+the Great Ellingham property at issue with Edmund Cocke, and the Sculthorpe manor site — not
+the identity of the parties.[^tna-suits-2026-07][^west-barsham-wills]
 
 [^tna-suits-2026-07]: The National Archives, Discovery catalogue (API, 2026-07-19), Gurney-variant sweep filtered Norfolk 1560–1665: E 134/36&37Eliz/Mich24 (Exchequer depositions, Lawnce v Gurnay, 1594, Hargham); C 5/609/120 (Chancery pleadings, Gurnay v Cocke, 1648, Great Ellingham); C 5/383/53 (Feltham v Gournay, 1647) and C 10/466/102 (Feltham v Gurnay, 1657), site of the manor of Sculthorpe. Catalogue level; documents unexamined. Discovery is the access route. Henry II × Ellen Adams: Blomefield (see the descent section below).
 

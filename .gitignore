@@ -196,6 +196,26 @@ site/**/_site/
 site/**/dist/
 _site/
 
+# Generated site markdown. `site/website/scripts/sync-site-content.js` rebuilds
+# every one of these from the canonical layers on each build (`npm run build`
+# runs sync:content first), and it deletes the target .md before recopying — so
+# a hand-edit here is always lost. Tracking them duplicated each canonical edit
+# as a second diff under site/, which read as "the site copy was edited instead
+# of the real one," and let published copies drift silently behind canonical.
+# Deploys are manual from site/website/dist/, so these are never needed in git.
+# Canonical sources: fact-sheets/, research/people/*.research.md,
+# research/topics/ (via _published-topics.csv), research/case-files/,
+# research/highlights.md.
+site/website/fact-sheets/*.md
+site/website/research/companions/*.md
+site/website/research/highlights.md
+site/website/key-research/topics/*.md
+# key-research/ is NOT wiped by the sync: only these two are generated; the
+# other .md there (using-gen-ai-in-genealogy, east-dereham-ai-assistant-
+# procedure) are hand-authored site pages and stay tracked.
+site/website/key-research/john-gurney-case-file.md
+site/website/key-research/brigadier-general-william-gurney.md
+
 # Accidentally-rendered temp/preview HTML written to the repo root
 # (mangled OS temp paths leaked from local site previews). Real pages
 # live under site/, never at the repo root.

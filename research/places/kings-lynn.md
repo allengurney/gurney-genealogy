@@ -43,6 +43,35 @@ King's Lynn appears directly in Francis Gurney's working life through a 17 Octob
 
 This places Francis in a civic poor-employment and textile-production scheme rather than only in private Lestrange finance.
 
+**The fuller printed deed adds a residence covenant, and it is the strongest evidence for
+where Francis actually lived in the early 1620s.** Daniel Gurney printed a Lynn Hall entry of
+**11 October 1622** and the indenture itself, which lent the three men £200 for three years
+and required them to "**inhabit and dwell within the Borough of Kynges Lynn**" until
+Michaelmas 1625. The learners were to be children "living in the Borough … or Liberties
+thereof" whom the mayor and aldermen sent, and the firm took the benefit of each child's work
+for the first four months without allowance. The Historical Manuscripts Commission calendar
+dates its agreement 17 October rather than 11 October — a date or instrument discrepancy that
+only the original Hall Book and sealed deed can settle.[^lynn-deed-place][^hmc-kings-lynn-place]
+
+**The deed is attested by the borough's own clerk, not by a private witness.** It closes
+`Teste me—Tho Rivett coi clico`, which expands most naturally as *communi clerico*, common
+clerk. A same-name Lynn civic career follows: a Thomas Rivett styled "gentleman of Lynne" in
+1629 and **Alderman** Thomas Rivett in 1646. Because Francis's first wife was a Margaret
+Rybett, this subscription was for a time read as a kinship signal; on the officer reading it
+is simply the town clerk attesting a corporation instrument, and it should not be treated as
+evidence of a family connection between the Lynn Rivetts and Margaret's Garveston
+family.[^lynn-deed-place][^rivett-lynn-civic-place]
+
+**Lynn was still calling in Francis's debts three years after the term ended.** The Le Strange
+household accounts record a £100 obligation to the town for which **Sir Hamon Le Strange stood
+bound on Francis's behalf** (1625–26), and a later payment to the town after £103 was paid by
+Sir Owen Smith with a further obligation by a Mr Drury. The venture ended in liabilities that
+Francis's Norfolk patron had to cover.[^lynn-obligations-place]
+
+[^lynn-deed-place]: Daniel Gurney, *The Record of the House of Gournay*, Part III (1848), Appendix LXXXVII, pp. 531–532B, printing the Lynn Hall entry of 11 October 1622 and the indenture; the 1858 *Supplement*, p. 1054, paraphrases the residence term. Full printed text at [`sources/corpus_supplement/dg-record-part3-appendix-lxxxvii-lynn-indenture-1622.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/dg-record-part3-appendix-lxxxvii-lynn-indenture-1622.md). Source IDs: `dg-rec-pt3`; `dg-rec-pt3-appendix-lxxxvii-lynn-indenture`; `dg-rec-supp`.
+[^rivett-lynn-civic-place]: University of Kent repository copy, p. 179, reporting Thomas Rivett, "gentleman of Lynne," in an 11 October 1629 incident, citing British Library Add. MS 24346, fol. 9, and Norfolk Record Office `DN DEP/38/43`, fols. 389r–v; and William Richards, *The History of Lynn*, vol. 2, pp. 724, 1201, for the town order of 11 May 1646 naming Alderman Thomas Rivett. Both are secondary reports of the underlying records.
+[^lynn-obligations-place]: Jane Whittle and Elizabeth Griffiths, *Household Accounts of the Le Strange Family, 1606–1626*, UK Data Archive Study 5726 (2006), entries 12543 (`LEST/P7` section 043, fols. 142B–147B) and 12818 (section 045, fols. 150–152B). Joined ledger at [`sources/corpus_supplement/ukda-5726-lestrange-household-accounts-francis-gurney.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/ukda-5726-lestrange-household-accounts-francis-gurney.md). Source ID: `ukda-5726-lestrange-household-accounts-1606-1626`.
+
 [^hmc-kings-lynn-place]: Historical Manuscripts Commission, ["The Borough of King's Lynn: Miscellaneous Writings,"](https://www.british-history.ac.uk/hist-mss-comm/vol11/pt3/pp235-247) *Eleventh Report, Appendix, Part III*, British History Online. Source ID: `bho-hmc-kings-lynn-misc-writings`.
 
 [^hmc-kings-lynn-chamberlains-place]: Historical Manuscripts Commission, ["The Borough of King's Lynn: Extracts from the Chamberlains' Accounts,"](https://www.british-history.ac.uk/hist-mss-comm/vol11/pt3/pp213-231) *Eleventh Report, Appendix, Part III* (London: HMSO, 1887), British History Online, pp. 213, 221–222. Full extract at [`sources/corpus_supplement/bho-hmc-kings-lynn-chamberlains-accounts-pp213-231.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/bho-hmc-kings-lynn-chamberlains-accounts-pp213-231.md). Source ID: `bho-hmc-kings-lynn-chamberlains-accounts`.

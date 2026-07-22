@@ -1,0 +1,4 @@
+# Licensed UK Data Service downloads are retained locally for analysis only.
+# Do not commit package files, extracts, or derivative content from this folder.
+*
+!.gitignore
