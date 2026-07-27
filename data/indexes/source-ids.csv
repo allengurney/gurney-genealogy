@@ -173,8 +173,9 @@ foster-streeter-cummington,"Foster & Streeter, Only One Cummington (1974)",none,
 freebmd-freereg,FreeREG / FreeBMD,none,,,
 fs-east-dereham-manor-court-books,"FamilySearch - East Dereham manorial court books, 1623-1852",partial,sources/corpus_supplement/paleo-2026-07-packet-53-east-dereham-courts-1623-1635.md,sources/media/east-dereham-court-books-fts/,sources/validations/fs-east-dereham-manor-court-books.md
 fs-england-births-christenings,FamilySearch England Births and Christenings,none,,,sources/validations/fs-england-births-christenings.md
-fs-england-buckinghamshire-church-records-1217-1994,"FamilySearch England, Buckinghamshire, Church Records, 1217-1994",none,,,
+fs-england-buckinghamshire-church-records-1217-1994,"FamilySearch England, Buckinghamshire, Church Records, 1217-1994",none,,,sources/validations/fs-england-buckinghamshire-church-records-1217-1994.md
 fs-england-deaths-burials-1538-1991,"FamilySearch England Deaths and Burials, 1538-1991",none,,,
+fs-england-hertfordshire-parish-registers-1538-1912,"FamilySearch England, Hertfordshire, Parish Registers, 1538-1912",none,,,sources/validations/fs-england-hertfordshire-parish-registers-1538-1912.md
 fs-england-marriages-1538-1973,"FamilySearch England Marriages, 1538-1973",none,,,
 fs-england-norfolk-parish-registers-1510-1997,"FamilySearch England, Norfolk, Parish Registers (County Record Office), 1510-1997",none,,,
 fs-jw7y-c3b-john-gurney-baptism-st-ann-blackfriars,"FS index JW7Y-C3B — John Gurney baptism, St Ann Blackfriars, 1615, father Wm.",transcript,,,
@@ -315,7 +316,7 @@ norwich-university-history,Norwich University history (Wikipedia; Norwich catalo
 nps-adams-nhp,NPS Adams National Historical Park CLR,full,sources/corpus/nps-adams-clr-1997.txt,sources/media/nps-adams-nhp/,sources/validations/nps-adams-nhp.md
 nro-catalogue-atom,Norfolk Record Office online catalogue (AtoM),none,,,
 nro-ncc-wills-registers,"Norfolk Record Office, NCC Will Registers",extract,sources/corpus_supplement/ncc-jekkys-211-thomas-gurnay-will-complex-1471.md,sources/media/ncc-wills-registers/,sources/validations/nro-ncc-wills-registers.md
-nro-pd-12-1,"NRO PD 12/1 (St Martin at Palace, Norwich)",none,,,
+nro-pd-12-1,"NRO PD 12/1 (St Martin at Palace, Norwich)",none,,sources/media/nro-pd-12-1/_local/4143432_01883-st-martin-at-palace-marriage-1611.jpg,sources/validations/nro-pd-12-1-gurney-rybett-marriage-1611.md
 nro-pd-86-41,NRO PD 86/41 (East Dereham register),none,,,sources/validations/east-dereham-pd-86-41-register-structure-and-chronology.md
 nrp-recherches-possessions-1852,"NRP de la Mairie, Recherches…Possessions des Sires Normands (1852)",partial,,sources/FS/Norman_additions/Recherches_historiques_archéologiques_e_volume1.pdf,
 ny-state-military-museum-127th-infantry,NYS Military Museum - 127th Infantry Regiment,none,,,sources/validations/ny-state-military-museum-127th-infantry.md
@@ -406,7 +407,7 @@ tna-dl-42-2-33-5-richard-i-canville-nicholaa-de-la-haye,TNA DL 42/2/33/5 — Ric
 tna-e115-180-113-certificate-of-residence-1641,"TNA E 115/180/113 - certificate of residence, John Gurney, 1641",deferred,,,sources/validations/tna-e115-180-113-certificate-of-residence-1641.md
 tna-e179-1661-london-poll-tax-deferred,"TNA E179 - 1661 Free and Voluntary Present, City of London (deferred image-pull target)",deferred,,,sources/validations/tna-e179-1661-london-poll-tax-deferred.md
 tna-pcc-gurney-elimination-corpus,"TNA PCC Gurney probate corpus (1577-1682, elimination set)",partial,sources/corpus_supplement/tna-pcc-gurney-elimination-corpus.md,,
-tna-pcc-probate,TNA PCC Probate Records,none,,,
+tna-pcc-probate,TNA PCC Probate Records,none,,,sources/validations/tna-pcc-probate.md
 tna-pcc-west-barsham-gournay-wills,"TNA PCC wills, Gournay of West Barsham (1642, 1661)",partial,sources/corpus_supplement/tna-pcc-west-barsham-gournay-wills.md,sources/media/tna-pcc-west-barsham-gournay-wills,sources/validations/tna-pcc-west-barsham-gournay-wills.md
 tna-ward-c142-west-barsham-gurney-inquisitions,TNA WARD 7 & C 142 inquisitions for the West Barsham Gurneys (catalogue level),none,,,sources/validations/tna-ward-c142-west-barsham-gurney-inquisitions.md
 torrey-new-england-marriages-prior-1700,"Torrey, New England Marriages Prior to 1700",partial,sources/corpus_supplement/torrey-new-england-marriages-prior-1700-page-331-gurney.md,,sources/validations/torrey-new-england-marriages-prior-1700.md

@@ -296,6 +296,7 @@ fs-england-births-christenings,source,FamilySearch England Births and Christenin
 fs-england-deaths-burials-1538-1991,source,"FamilySearch England Deaths and Burials, 1538-1991",data/sources.json
 fs-england-marriages-1538-1973,source,"FamilySearch England Marriages, 1538-1973",data/sources.json
 fs-england-buckinghamshire-church-records-1217-1994,source,"FamilySearch England, Buckinghamshire, Church Records, 1217-1994",data/sources.json
+fs-england-hertfordshire-parish-registers-1538-1912,source,"FamilySearch England, Hertfordshire, Parish Registers, 1538-1912",data/sources.json
 fs-england-norfolk-parish-registers-1510-1997,source,"FamilySearch England, Norfolk, Parish Registers (County Record Office), 1510-1997",data/sources.json
 familysearch-fulltext-search,source,FamilySearch Full-Text Search (AI-transcribed images),data/sources.json
 fs-suffolk-probate-1636-1915,source,FamilySearch Suffolk County probate records,data/sources.json

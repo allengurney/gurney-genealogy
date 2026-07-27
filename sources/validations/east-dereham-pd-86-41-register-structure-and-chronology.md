@@ -1,5 +1,55 @@
 # East Dereham PD 86/41 register structure and chronology
 
+> **2026-07-27 — the file is now examined complete, and three things below are superseded. Read this
+> section first.**
+>
+> **Extent.** NRO catalogues PD 86/41 as **"Indented register bills, 1593–1641"**, digitised as **110
+> contiguous images, `4034129-00692` – `4034129-00801`**. The May 2026 work used `00693`–`00768` — 76 of
+> the 110. The remaining 34 (`00692`, `00769`–`00801`) were pulled 2026-07-27 from FindMyPast and are
+> held at `sources/media/nro-pd-86-41/_local/` (see that folder's README for the retrieval recipe).
+>
+> **Whole-file year map, read from the membrane heads.** Every membrane carries a modern pencil year at
+> its head, and most annual returns also carry an in-parchment heading. The file is **strictly
+> chronological throughout** — no membrane is out of sequence:
+>
+> | Images | Return |
+> |---|---|
+> | 00693 / 00694, 00697 | 1593-4 (00697 labelled "1593-1594 / 38 Eliz") |
+> | 00704 / 00705 | 1601 |
+> | 00708 / 00709 | 1608 |
+> | 00712 / 00713 | 1609 |
+> | 00720 / 00721 → 00725 | **1610** (in-parchment "East Dereham 1610"; runs through marriages and burials) |
+> | *— nothing —* | **1611-12, 1612-13, 1613-14, 1614-15, 1615-16** |
+> | 00726 / 00727 → 00731 | **1616-17** (in-parchment "25 of march 1616 unto the 25 of march 1617") |
+> | 00732 → 00734 | 1618-19 (in-parchment "25 of march 1618 untill the 25 of march 1619") |
+> | 00735 / 00736, 00738 | 1620 (in-parchment "Billes Indented … East Dereham 1620"; "Buriallis Anno Dom 1620") |
+> | 00739 → | 1621 ("Bills Indented … 1621, John Bretton being vicar") |
+> | 00752 | 1632-33 ("from our Ladie 1632 untill our Ladie 1633") |
+> | 00766 / 00767 | endorsed *"Duplicate that does not agree with the other sheet"* |
+> | 00770 / 00771, 00772, 00777 / 00778 | 1635-36 (00777/78 endorsed *Duplicate*) |
+> | 00779 / 00780 | 1636-37 |
+> | 00783 / 00784 | 1637-38 |
+> | 00793 / 00794 → 00798 | 1640-41 (PD 86/41/20); 00798 is the last membrane |
+> | 00799 / 00800 / 00801 | END OF ITEM target card, then leader frames |
+>
+> **1. The 1611–1615 returns do not survive.** The file runs from the 1610 return directly to the
+> 1616–17 return, and the tail that had never been examined turns out to be 1635–1641. There is no
+> misfiled membrane and no unexamined leaf left. **Five annual returns — 25 March 1611 to 25 March 1616
+> — are lost.** The archdeacon's counterpart series for East Dereham (FindMyPast, *Norfolk Archdeacon's
+> Transcripts 1600–1812*, `AT EAST DEREHAM`, 243 images) begins only at **1725**, so no second witness
+> exists for those years. **This is a permanent evidentiary limit, not a pending pull.**
+>
+> **2. The chronology lattice in §3 below is superseded.** Its rows `00728/00729/00730 = 1617` and
+> `00731/00732 = 1618` and `00733/00734 = 1619` were interpolated from a one-page-per-return assumption
+> that does not hold: each return runs across several membranes and each membrane is shot twice.
+> 00726–00731 all belong to the 1616-17 return; 00732–00734 to the 1618-19 return. Use in-parchment
+> headings only.
+>
+> **3. "Page 00725 = the 1615 register year" is wrong.** 00724 / 00725 are the marriages-and-burials
+> membranes of the **1610** return (00720–00725), not a 1615 subsection — which the year map above makes
+> unavoidable, since no 1615 return exists at all. Every date derived from the 00725 = 1615 assignment
+> needs re-deriving, including the Marye and Agnes burial years.
+
 Examined: 2026-05-15. Image set under `sources/media/Parish_Register_East_Dereham/` (raw `gbprs_norfolk_pd_86-41_00693.jpg` through `gbprs_norfolk_pd_86-41_00768.jpg`; enhanced crops per `sources/media/Parish_Register_East_Dereham/crop-index.md`). Tooling at `tools/east_dereham_image_sweeps.py`.
 
 Findings landed in:
