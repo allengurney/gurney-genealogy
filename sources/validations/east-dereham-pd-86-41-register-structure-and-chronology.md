@@ -14,9 +14,14 @@
 >
 > | Images | Return |
 > |---|---|
-> | 00693 / 00694, 00697 | 1593-4 (00697 labelled "1593-1594 / 38 Eliz") |
-> | 00704 / 00705 | 1601 |
-> | 00708 / 00709 | 1608 |
+> | 00693 / 00694, 00695 / 00696 | 1593-4 christenings |
+> | 00697 | dorse of the 1593-4 return, endorsed "1593-1594 / 38 Eliz", signed by John Blomfield, churchwarden |
+> | 00698 / 00699 | 1593-4 marriages and burials |
+> | 00700 / 00701 → 00702 / 00703 | **1595-6** — "from the yeare of our lord god 1595 unto the yeare of our lord god 1596"; closes "Churchwardens of Estdereham … 1 Aprilis 1596, John Crampton Vicar" |
+> | *— nothing —* | **1594-5, and 1596-7 through 1600-1** |
+> | 00704 / 00705 → 00706 / 00707 | **1601** — heavily faded and stained; Mariages, Christenings, Burialls |
+> | *— nothing —* | **1602-3, 1603-4, 1604-5, 1605-6, 1606-7, 1607-8** |
+> | 00708 / 00709 → 00710 / 00711 | **1608-9** — "… 1608 untill the 25th of March [1609] … the xxvij of Aprill 1609"; "Mariages 1608"; "Burialls A[nno] 1609" |
 > | 00712 / 00713 | 1609 |
 > | 00720 / 00721 → 00725 | **1610** (in-parchment "East Dereham 1610"; runs through marriages and burials) |
 > | *— nothing —* | **1611-12, 1612-13, 1613-14, 1614-15, 1615-16** |
@@ -31,6 +36,18 @@
 > | 00783 / 00784 | 1637-38 |
 > | 00793 / 00794 → 00798 | 1640-41 (PD 86/41/20); 00798 is the last membrane |
 > | 00799 / 00800 / 00801 | END OF ITEM target card, then leader frames |
+>
+> **0. Added 2026-07-28 — the pre-1610 stretch is far gappier than "strictly chronological" suggests.**
+> The head of the file was landmarked, not read. Reading every in-parchment heading, endorsement and
+> churchwardens' subscription across `00693`–`00711` shows **only four annual returns survive between
+> 1593 and 1609 — 1593-4, 1595-6, 1601 and 1608-9 — and twelve are missing.** The gaps are invisible
+> from image position alone, because each return runs across several membranes and each membrane is
+> shot twice. The missing years include **1602-3**, in which Margery Gurney's will was proved, so her
+> burial is unobservable in the only witness the parish ever had. A Gurney-variant sweep of the four
+> surviving returns is negative, with the 1601 return a **weak** negative: it carries both a "Faded
+> Document" and a "Soiled Document" archival flag, a heavy central stain, and a minority of surnames
+> that cannot be resolved at any enhancement. Findings at
+> `research/people/g13-john-gurney/topics/identity/56-refactor-the-east-dereham-gurney-family.md`.
 >
 > **1. The 1611–1615 returns do not survive.** The file runs from the 1610 return directly to the
 > 1616–17 return, and the tail that had never been examined turns out to be 1635–1641. There is no

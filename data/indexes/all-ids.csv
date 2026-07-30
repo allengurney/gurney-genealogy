@@ -165,6 +165,8 @@ ancestry-child-apprentices-christs-hospital-1617-1778,source,"Ancestry / Coldham
 ancestry-emigrants-in-bondage-1614-1775,source,"Ancestry / Coldham, Emigrants in Bondage, 1614–1775",data/sources.json
 ancestry-english-adventurers-emigrants-1609-1660,source,"Ancestry / Coldham, English Adventurers and Emigrants, 1609–1660",data/sources.json
 ancestry-norfolk-1535-1812,source,"Ancestry / NRO, Norfolk Church of England Baptism, Marriages and Burials, 1535-1812",data/sources.json
+ancestry-england-select-births-christenings-9841,source,"Ancestry, England, Select Births and Christenings, 1538-1975 (IGI)",data/sources.json
+ancestry-england-select-marriages-9852,source,"Ancestry, England, Select Marriages, 1538-1973 (IGI)",data/sources.json
 anderson-yvery-1742,source,"Anderson, Genealogical History of the House of Yvery",data/sources.json
 anderson-yvery-1742-vol-i,source,"Anderson, Genealogical History of the House of Yvery, Vol. I",data/sources.json
 anderson-great-migration-begins-v1-baxter,source,"Anderson, Great Migration Begins vol. 1 - Gregory Baxter",data/sources.json
@@ -219,6 +221,7 @@ braintree-records-1640-1793-1886,source,"Braintree town records, 1640-1793",data
 mhs-winthrop-papers-gurdon-to-winthrop-1627,source,"Brampton Gurdon to John Winthrop, 20 Oct. 1627 (Winthrop Papers I:363)",data/sources.json
 brooke-catalogue-succession-1619,source,"Brooke, Catalogue and Succession (1619)",data/sources.json
 brs-v21,source,BRS v21 (1642 Bucks tax),data/sources.json
+bucks-archives-catalogue,source,Buckinghamshire Archives online catalogue,data/sources.json
 burke-landed-gentry-gurney,source,Burke's Landed Gentry - Gurney of Maldon pedigree (tertiary),data/sources.json
 burke-ancient-family,source,"Burke, The Ancient Family of Gurney",data/sources.json
 bury-st-james-registers,source,"Bury St Edmunds, St James registers",data/sources.json
@@ -285,6 +288,7 @@ early-yorkshire-charters-vol-8-clay-1949,source,"Early Yorkshire Charters, vol. 
 eyc9-stuteville-clay-1952,source,"Early Yorkshire Charters, vol. 9 (Stuteville)",data/sources.json
 edmund-divine-pcc-probate-negative,source,Edmund Gurney (Divine) probate search — negative,data/sources.json
 elizabeth-stettler-walker-gurney-obituary,source,Elizabeth Stettler Walker Gurney Obituary (2013),data/sources.json
+england-wales-published-probate-indexes,source,"England & Wales Published Wills & Probate Indexes, 1300-1858 (FindMyPast / British Record Society)",data/sources.json
 english-heritage-baconsthorpe-castle-history,source,English Heritage - Baconsthorpe Castle history,data/sources.json
 english-heritage-baconsthorpe-castle-wool-factory,source,English Heritage - Baconsthorpe Tudor wool factory,data/sources.json
 evans-dammartin-genealogists-magazine-1965,source,"Evans, 'Dammartin' (Genealogists' Magazine 1965)",data/sources.json
@@ -306,6 +310,7 @@ fauroux-recueil,source,"Fauroux, Recueil des actes des ducs de Normandie",data/s
 feltwell-net-mundefords-of-feltwell,source,feltwell.net -- The Mundefords of Feltwell,data/sources.json
 ferrieres-en-bray-official-history,source,Ferrieres-en-Bray official history,data/sources.json
 findagrave-john-gurney-252975617,source,"Find a Grave memorial 252975617 - John Gurney, Braintree, MA",data/sources.json
+findmypast-bedfordshire-baptisms,source,Findmypast Bedfordshire Baptisms,data/sources.json
 findmypast-boyds-inhabitants-london-candidate-d-gurney-cards,source,Findmypast Boyd's Inhabitants - Candidate D Gurney cards,data/sources.json
 findmypast-bucks-baptism-index,source,Findmypast Buckinghamshire Baptism Index,data/sources.json
 findmypast-bucks-burial-index,source,Findmypast Buckinghamshire Burial Index,data/sources.json
@@ -313,6 +318,7 @@ findmypast-bucks-marriage-index,source,Findmypast Buckinghamshire Marriage Index
 findmypast-ackworth-gurnoe-baptism-1637-john-thomas,source,"Findmypast England Births & Baptisms 1538-1975 - John Thomas Gurnoe, Ackworth, 1637",data/sources.json
 findmypast-england-marriages-gurney-mary-wildcard-sweep-2026-06,source,"Findmypast England Marriages 1538-1973 - G*rn* + Mary wildcard sweep, June 2026",data/sources.json
 findmypast-ackworth-gurnoe-burton-marriage-1636,source,"Findmypast England Marriages 1538-1973 - John Gurnoe + Mary Burton, Ackworth, 1636",data/sources.json
+findmypast-hertfordshire-banns-marriages,source,Findmypast Hertfordshire Banns & Marriages,data/sources.json
 findmypast-hertfordshire-baptisms,source,Findmypast Hertfordshire Baptisms,data/sources.json
 findmypast-hertfordshire-burials,source,Findmypast Hertfordshire Burials,data/sources.json
 findmypast-john-gurney-2026may-supplementary-same-name-sweep,source,"Findmypast John Gurney same-name sweep, 12 May 2026 raw batch",data/sources.json
@@ -351,6 +357,7 @@ grokipedia-edmund-gurney-divine,source,Grokipedia - Edmund Gurney (divine),data/
 gurnay-redivivus-1660,source,Gurnay Redivivus (1660),data/sources.json
 gurney-family-handwritten-notes-1963,source,Gurney family handwritten notes 1963,data/sources.json
 gurney-family-papers-g3-to-g2-certificates-clippings,source,Gurney family papers from G3 to G2,data/sources.json
+worcs-archives-pakington-westwood-park,source,Hampton (Pakington) of Westwood Park - Buckinghamshire property deeds,data/sources.json
 three-hundred-years-norman-house,source,"Hannay, Three Hundred Years of a Norman House",data/sources.json
 hardingham-parish-history-2026,source,Hardingham Parish - History of Hardingham,data/sources.json
 harleian-st-vedast-st-michael-le-quern-registers,source,Harleian Society - St Vedast and St Michael le Quern registers,data/sources.json
@@ -550,6 +557,7 @@ suger-vie-louis-le-gros,source,"Suger, Vie de Louis le Gros",data/sources.json
 gournay-en-bray-1844,source,Supplément aux recherches historiques sur Gournay-en-Bray (1844),data/sources.json
 swann-chethams-library-ms-a4-15-2016,source,"Swann, Chetham's Library MS A.4.15",data/sources.json
 gascon-rolls-project,source,The Gascon Rolls Project (1317-1468),data/sources.json
+tna-discovery-catalogue,source,"The National Archives, Discovery catalogue",data/sources.json
 neverending-hobby-john-gurney-us-1636,source,"The Neverending Hobby - John Gurney, US 1636",data/sources.json
 folger-romish-chaine-1624,source,The Romish chaine (1624) - Internet Archive / Folger,data/sources.json
 thompson-mobility-migration-1994,source,"Thompson, Mobility and Migration (1994)",data/sources.json

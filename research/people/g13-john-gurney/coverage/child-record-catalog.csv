@@ -1,0 +1,211 @@
+record_id,child_forename_as_indexed,child_surname_as_indexed,event_type,event_date_as_indexed,parish,county,father_forename_as_indexed,father_surname_as_indexed,mother_forename_as_indexed,source_code,collection_name,archive_ref,exclusive_flag,household_id,query_date,notes
+CR-001,Richard,Gurnie,baptism,1626-12-15,"St Peter, Berkhamsted",Hertfordshire,John,Gurnie,,S13,John Gurney Children Matrix V3 (Mar 2026),,,HH-BERK-2,2026-03,Prior repo work; date and parish more precise than the July 2026 index rows
+CR-002,Sara,Gurny,baptism,1634-05-18,"St Peter, Berkhamsted",Hertfordshire,John,Gurny,,S13,John Gurney Children Matrix V3 (Mar 2026),,,HH-BERK-2,2026-03,Prior repo work
+CR-003,Hugh,Gurney,baptism,1597,Great Berkhampstead,Hertfordshire,John,Gurney,,S2,England Births & Baptisms 1538-1975,,,HH-BERK-1,2026-07-28,Parent-name search sid=102
+CR-004,Anne,Gornay,baptism,1599,Great Berkhampstead,Hertfordshire,John,Gornay,,S2,England Births & Baptisms 1538-1975,,,HH-BERK-1,2026-07-28,
+CR-005,Amye,Gourney,baptism,1602,Great Berkhampstead,Hertfordshire,John,Gourney,,S2,England Births & Baptisms 1538-1975,,,HH-BERK-1,2026-07-28,
+CR-006,Bridgett,Gourney,baptism,1606,Great Berkhampstead,Hertfordshire,John,Gourney,,S2,England Births & Baptisms 1538-1975,,,HH-BERK-1,2026-07-28,
+CR-007,Henrye,Gourney,baptism,1610,Great Berkhampstead,Hertfordshire,John,Gourney,,S2,England Births & Baptisms 1538-1975,,,HH-BERK-1,2026-07-28,Case-file anchor for the C elimination on age
+CR-008,Sara,Gourney,baptism,1615,Great Berkhampstead,Hertfordshire,John,Gourney,,S2,England Births & Baptisms 1538-1975,,,HH-BERK-1,2026-07-28,
+CR-009,Jhon,Gourney,baptism,1624,Great Berkhampstead,Hertfordshire,Jhon,Gourney,,S2,England Births & Baptisms 1538-1975,,,HH-BERK-2,2026-07-28,
+CR-010,Richard,Gourneye,baptism,1626,Great Berkhampstead,Hertfordshire,Jhon,Gourneye,,S2,England Births & Baptisms 1538-1975,,,HH-BERK-2,2026-07-28,Same event as CR-001 under a different spelling
+CR-011,Elizabeth,Gourney,baptism,1629,Great Berkhampstead,Hertfordshire,John,Gourney,,S2,England Births & Baptisms 1538-1975,,,HH-BERK-2,2026-07-28,
+CR-012,Elyzabeth,Gurnie,baptism,1629-08-02,"St Peter, Hertfordshire",Hertfordshire,John,Gurnie,,S6,FamilySearch England Births and Christenings 1538-1975,,,HH-BERK-2,2026-07-28,Death 1639-02-21 recorded in this set only
+CR-013,Michaell,Gourneye,baptism,1631,Great Berkhampstead,Hertfordshire,John,Gourneye,,S2,England Births & Baptisms 1538-1975,,,HH-BERK-2,2026-07-28,No colonial counterpart
+CR-014,Sarah,Gourneye,baptism,1634,Great Berkhampstead,Hertfordshire,John,Gourneye,,S2,England Births & Baptisms 1538-1975,,,HH-BERK-2,2026-07-28,Same event as CR-002
+CR-015,Francys,Gourneye,baptism,1636,Great Berkhampstead,Hertfordshire,John,Gourneye,,S2,England Births & Baptisms 1538-1975,,,HH-BERK-2,2026-07-28,
+CR-016,Francis,Gurney,baptism,1637-03-01,"St Peter, Hertfordshire",Hertfordshire,John,Gurney,,S6,FamilySearch England Births and Christenings 1538-1975,,,HH-BERK-2,2026-07-28,Death 1639-03-09 recorded in this set only; probably the same child as CR-015
+CR-017,Mary,Gurny,baptism,1631-01-22,Hitcham,Buckinghamshire,John,Gurny,,S1,Buckinghamshire Baptism Index,D/A/T/106,,HH-HITCH,2026-07-28,Archive ref is a BISHOPS TRANSCRIPT not a register
+CR-018,Joane,Gurney,baptism,1622-01-26,Haddenham,Buckinghamshire,John,Gurney,,S1,Buckinghamshire Baptism Index,D/A/T/90,,HH-HADD,2026-07-28,Bishops transcript
+CR-019,John,Gurney,baptism,1621-09-23,Tilsworth,Bedfordshire,John,Gurney,,S1,Bedfordshire Baptisms,,,HH-TILS,2026-07-28,Household not previously in the file
+CR-020,John,Gernne,baptism,1631-02-13,Toddington,Bedfordshire,Thomas,Gernne,,S1,Bedfordshire Baptisms,,yes,HH-TODD-T,2026-07-28,FATHER CORRECTED to Thomas - the Bedfordshire county set indexes this as John Gernne Or Gurney 1630 father Thomas and unit 62 read it the same way. Row was stale against the file's own work
+CR-021,John,Gurney,baptism,1640-11-08,Luton,Bedfordshire,Jn.,Gurney,Eliz.,S1,Bedfordshire Baptisms,,,HH-LUTON,2026-07-28,Household not previously in the file
+CR-022,Marye,Garne,baptism,1638-11-26,Compton Abdale,Gloucestershire,John,Garne,,S2,England Births & Baptisms 1538-1975,,,HH-COMPT,2026-07-28,Missed by all gurn* queries. VARIANT WEIGHT moderate: GARNE. Retained; the surname-class exclusion asserted 2026-07-28 is retracted
+CR-023,Margaret,Greney,baptism,1612-11-08,Ryton,Durham,John,Greney,,S2,England Births & Baptisms 1538-1975,,,HH-RYTON,2026-07-28,Out of corridor
+CR-024,John,Gowrne,baptism,1649,Kinnersley,Herefordshire,John,Gowrne,,S1,Herefordshire Baptisms,,,HH-KINN,2026-07-28,Too late for the emigrant
+CR-025,John,Gourney,baptism,,[parish not shown],Buckinghamshire,John,Gourney,,S1,Buckinghamshire Baptism Index,D/A/T/,,HH-UNK-BUCKS,2026-07-28,UNDATED and UNPLACED; register range 1575-1813; must be resolved
+CR-026,Maria,Gorne,baptism,1627-03-02,Bishops Cleeve,Gloucestershire,John,Gorne,,S13,John Gurney Children Matrix V3 (Mar 2026),,,HH-BCLEEVE,2026-03,Prior repo work; never surfaced in the July sweeps. VARIANT WEIGHT moderate: GARNE. Retained; the surname-class exclusion asserted 2026-07-28 is retracted
+CR-027,Mary,Gurney,baptism,1629-09-07,Upton upon Severn,Worcestershire,,,Mary,S13,John Gurney Children Matrix V3 (Mar 2026),,,HH-UPTON,2026-03,MOTHER MARY and NO FATHER NAMED; prior repo work; never surfaced in July sweeps
+CR-028,John,Girney,baptism,1636-12-23,Earsham,Norfolk,John,Girney,,S13,John Gurney Children Matrix V3 (Mar 2026),,,HH-EARS,2026-03,Prior repo work
+CR-029,Richard,Gurney,baptism,1626,Stewkley,Buckinghamshire,Robert,Gurney,,S1,Buckinghamshire Baptism Index,,yes,HH-STEWK-R,2026-07-28,Father Robert; V3 gives 1626-01-25 and mother Jane
+CR-030,Mary,Gurner,baptism,1633-11-28,Eythorne,Kent,John,Gurner,,S2,England Births & Baptisms 1538-1975,,,HH-EYTH,2026-07-28,
+CR-031,Thomas,Gurney,baptism,1635,Eythorne,Kent,John,Gurney,Mary,S2,England Births & Baptisms 1538-1975,,,HH-EYTH,2026-07-28,
+CR-032,John,Gurnay,baptism,1638-05-13,Eythorne,Kent,John,Gurnay,Mary,S2,England Births & Baptisms 1538-1975,,,HH-EYTH,2026-07-28,
+CR-033,Edward,Gorney,baptism,1641-11-07,Eythorne,Kent,John,Gorney,Mary,S13,John Gurney Children Matrix V3 (Mar 2026),,,HH-EYTH,2026-03,Mother Mary buried 6 days later
+CR-034,Mary,Gurney,baptism,1638-08-10,Denton,Norfolk,John,Gurney,Rachell,S2,England Births & Baptisms 1538-1975,,,HH-DENT,2026-07-28,CONFLICT RESOLVED AGAINST JOHN: Ancestry 61045 reads Josiah and FreeREG independently reads Josias with mother Rachell. Not a father-John household
+CR-035,Elizabeth,Gurney,baptism,1625,Toddington,Bedfordshire,John,Gurney,,S1,Bedfordshire Baptisms,,,HH-TODD,2026-07-28,
+CR-036,Anne,Gurney,baptism,1628,Toddington,Bedfordshire,John,Gurney,,S1,Bedfordshire Baptisms,,,HH-TODD,2026-07-28,
+CR-037,Audrey,Gurney,baptism,1634,Toddington,Bedfordshire,John,Gurney,,S1,Bedfordshire Baptisms,,,HH-TODD,2026-07-28,
+CR-038,Elyzabethe,Gurney,baptism,1627-09-02,Weston Turville,Buckinghamshire,John,Gurney,,S1,Buckinghamshire Baptism Index,,,HH-WTURV,2026-07-28,
+CR-039,Elinor,Gurney,baptism,1632,East Claydon,Buckinghamshire,John,Gurney,Elizabeth,S1,Buckinghamshire Baptism Index,,,HH-ECLAY,2026-07-28,
+CR-040,Samuel,Gurney,baptism,1636,East Claydon,Buckinghamshire,John,Gurney,Elizabeth,S1,Buckinghamshire Baptism Index,,,HH-ECLAY,2026-07-28,
+CR-041,John,Gurney,baptism,1638-12-16,"Aylesbury, St Mary",Buckinghamshire,John,Gurney,,S2,England Births & Baptisms 1538-1975,,,HH-AYLES,2026-07-28,Candidate A(ii)
+CR-042,Sarah,Gurney,baptism,1639-08-22,"Aylesbury, St Mary",Buckinghamshire,John,Gurney,,S2,England Births & Baptisms 1538-1975,,,HH-AYLES,2026-07-28,Candidate A(ii)
+CR-043,Andtr,Gurney,baptism,,Chesham,Buckinghamshire,John,Gurney,Elizabeth,S1,Buckinghamshire Baptism Index,,,HH-CHESH,2026-07-28,Register range 1576-1682; undated
+CR-044,Martha,Gurney,baptism,,Chesham,Buckinghamshire,John,Gurney,Elizabeth,S1,Buckinghamshire Baptism Index,,,HH-CHESH,2026-07-28,Undated
+CR-045,Maria,Gurney,baptism,1627-03-02,"Ashwellthorpe, All Saints",Norfolk,Willyam,Gurney,,S13,John Gurney Children Matrix V3 (Mar 2026),,,HH-ASHW,2026-03,Father William
+CR-046,Sara,Gurnay,baptism,1628-03-31,"St Benedict, Norwich",Norfolk,Robart,Gurnay,,S13,John Gurney Children Matrix V3 (Mar 2026),,,HH-NORW-R,2026-03,Father Robert
+CR-047,Richard,Gurny,baptism,1630-10-24,"St Lawrence, Norwich",Norfolk,William,Gurny,,S1,Norfolk Baptisms,,,HH-NORW-W,2026-07-28,Twin row at St John Maddermarket
+CR-048,Richard,Gouerne,baptism,1630-11-14,"St Edmund, Salisbury",Wiltshire,Richard,Gouerne,,S13,John Gurney Children Matrix V3 (Mar 2026),,,HH-SALIS,2026-03,Father Richard
+CR-049,John,Gurney,baptism,1634-12-14,Cheddington,Buckinghamshire,Isaac,Gurney,Martha,S4,Ancestry England Select Births and Christenings 9841,,,HH-CHEDD-I,2026-07-28,Absent from the Buckinghamshire county index
+CR-050,John,Gurney,baptism,1637,Aston Abbotts,Buckinghamshire,Robert,Gurney,Sarah,S1,Buckinghamshire Baptism Index,,,HH-ASTON,2026-07-28,New household
+CR-051,John,Gurney,baptism,1624,Wingrave,Buckinghamshire,Thomas,Gurney,,S1,Buckinghamshire Baptism Index,,,HH-WINGR,2026-07-28,
+CR-052,Richard,Gurney,baptism,1635,"Luton, St Mary",Bedfordshire,Richard,Gurney,Joyce,S1,Bedfordshire Baptisms,,,HH-LUTON-R,2026-07-28,Father Richard
+CR-053,Mary,Gurney,baptism,1633-05-19,Linslade,Buckinghamshire,Ezechiell,Gurney,,S7,FamilySearch England Buckinghamshire Church Records 1217-1994,,,HH-LINS,2026-07-28,FATHER NOW READ: Ezechiell not John. Ties to the Ezechiell+Alice Linslade household
+CR-054,Mary,Gurney,baptism,1630-10-27,Kelham,Nottinghamshire,William,Gurney,,S7,FamilySearch England Nottinghamshire Church Records 1578-1937,,,HH-KELH,2026-07-28,FATHER NOW READ: William not John. Ancestry 9841 dates the same event 11 Oct 1630 - provider disagreement
+CR-055,Mary,Gurnard,baptism,1629-04-12,"Bishop's Stortford, St Michael",Hertfordshire,Henry,Gurnard,Mary,S4,Ancestry England Select Births and Christenings 9841,,,HH-BSTORT,2026-07-28,"FATHER NOW READ: Henry with a wife Mary. Surname Gurnard; not John. VARIANT WEIGHT moderate-high: GURNARD is a DOCUMENTED Gurney alias - Heralds Visitation London 1634, Richard Gurny alias Gurnard - and the family crest is a canting gurnard fish"
+CR-056,Joane,Gurney,burial,1637-11-07,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Burials,,,HH-BERK-X,2026-07-28,Transcript GBPRS/D/72723092; household attribution unresolved
+CR-057,Richard,Gurney,burial,1638-06-28,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Burials,,,HH-BERK-X,2026-07-28,CRITICAL. Either CR-010 (b.1626 s. John) or CR-083 (b.1635 s. Thomas). Register image is the discriminator. Transcript GBPRS/D/72723126
+CR-058,William,Gurney,burial,1638-10-01,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Burials,,,HH-BERK-X,2026-07-28,Transcript GBPRS/D/72723150
+CR-059,Elizabeth,Gurney,burial,1638-02-21,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Burials,,,HH-BERK-2,2026-07-28,21 Feb 1638/9. Matches the FS death date for CR-012 to the day. Transcript GBPRS/D/72723160
+CR-060,Francis,Gurney,burial,1638-03-09,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Burials,,,HH-BERK-2,2026-07-28,9 Mar 1638/9. Matches the FS death date for CR-016 to the day. Transcript GBPRS/D/72723162
+CR-061,Elizabeth,Gurnie,burial,1639,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Burials,,,HH-BERK-2,2026-07-28,Probably a second index row for CR-059
+CR-062,Thomas,Gurney,burial,1639,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Burials,,,HH-BERK-T,2026-07-28,
+CR-063,Thomas,Gurney,burial,1639,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Burials,,,HH-BERK-T,2026-07-28,Second index row
+CR-064,Margaret,Gurney,burial,1643,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Burials,,,HH-BERK-X,2026-07-28,Last Gurney burial before the 1643-1660 defective window
+CR-065,Thomas,Gurney,burial,1643,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Burials,,,HH-BERK-T,2026-07-28,
+CR-066,Jhon,Gourney,burial,1612,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Burials,,,HH-BERK-X,2026-07-28,In the repo registry since 2026-05-09 and missed by the July sweep
+CR-067,Jhon,Gourney,burial,1620,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Burials,,,HH-BERK-1,2026-07-28,Candidate for C(i)'s own burial; falls between C(i)'s last child 1615 and C(ii)'s first 1624
+CR-068,Isabell,Gourney,burial,1601,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Burials,,,HH-BERK-X,2026-07-28,
+CR-069,Henry,Gourney,burial,1607,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Burials,,,HH-BERK-X,2026-07-28,
+CR-070,Elizabeth,Gourney,burial,1639,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Burials,,,HH-BERK-2,2026-07-28,Third index row for the same 1638/9 Elizabeth event
+CR-071,Thomas,Gorne,burial,1620,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Burials,,,HH-BERK-X,2026-07-28,
+CR-072,Jhone,Gernnye,burial,1579,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Burials,,,HH-BERK-X,2026-07-28,Pre-dates both John households
+CR-073,John,Gurney,baptism,1588,Berkhamstead,Hertfordshire,Thomas,Gurney,,S1,Hertfordshire Baptisms,,,HH-BERK-T,2026-07-28,A third adult John Gurney of the parish; bears on the 1612 and 1620 burials
+CR-074,Eliz,Gurney,baptism,1591,Berkhamstead,Hertfordshire,Thomas,Gurney,,S1,Hertfordshire Baptisms,,,HH-BERK-T,2026-07-28,
+CR-075,Willm,Gurney,baptism,1594,Berkhamstead,Hertfordshire,Thomas,Gurney,,S1,Hertfordshire Baptisms,,,HH-BERK-T,2026-07-28,
+CR-076,Anna,Gurney,baptism,1594,Berkhamstead,Hertfordshire,William,Gurney,,S1,Hertfordshire Baptisms,,,HH-BERK-W,2026-07-28,Indexed three times as Anna / Anne / Annie
+CR-077,James,Gourney,baptism,1603,Berkhamstead,Hertfordshire,Edward,Gourney,,S1,Hertfordshire Baptisms,,,HH-BERK-E,2026-07-28,
+CR-078,Thomas,Gourney,baptism,1604,Berkhamstead,Hertfordshire,Thomas,Gourney,,S1,Hertfordshire Baptisms,,,HH-BERK-T,2026-07-28,
+CR-079,Elisabeth,Gourney,baptism,1606,Berkhamstead,Hertfordshire,Edwarde,Gourney,,S1,Hertfordshire Baptisms,,,HH-BERK-E,2026-07-28,
+CR-080,Nicolas,Gourney,baptism,1607,Berkhamstead,Hertfordshire,Thomas,Gourney,,S1,Hertfordshire Baptisms,,,HH-BERK-T,2026-07-28,
+CR-081,Susanna,Gourney,baptism,1611,Berkhamstead,Hertfordshire,Edwarde,Gourney,,S1,Hertfordshire Baptisms,,,HH-BERK-E,2026-07-28,
+CR-082,Willyam,Gourney,baptism,1632,Berkhamstead,Hertfordshire,Willyam,Gourney,,S1,Hertfordshire Baptisms,,,HH-BERK-W,2026-07-28,
+CR-083,Richarde,Gourney,baptism,1635,Berkhamstead,Hertfordshire,Thomas,Gourney,,S1,Hertfordshire Baptisms,,,HH-BERK-T,2026-07-28,The alternative Richard for CR-057; also indexed Gourny
+CR-084,Thomas,Gourneye,baptism,1638,Berkhamstead,Hertfordshire,Thomas,Gourneye,Elisabethe,S1,Hertfordshire Baptisms,,,HH-BERK-T,2026-07-28,Thomas household still baptising during the 1637-39 burial run
+CR-085,Thomas,Gourney,baptism,1640,Berkhamstead,Hertfordshire,Thomas,Gourney,Elisab,S1,Hertfordshire Baptisms,,,HH-BERK-T,2026-07-28,Gurneys still in the parish after C(ii) stops
+CR-086,Henry,Girney,baptism,1638,Earsham,Norfolk,John,Girney,Alex,S1,Norfolk Baptisms,,,HH-EARS,2026-07-28,Mother is NOT Mary; and a further son in 1638. Earsham closes
+CR-087,Susan,Girney,baptism,1638,Earsham,Norfolk,Sion,Girney,Anna,S1,Norfolk Baptisms,,,HH-EARS-S,2026-07-28,Second Earsham Gurney household
+CR-088,Steven,Girny,baptism,1637,Earsham,Norfolk,Sion,Girny,Amy,S1,Norfolk Baptisms,,,HH-EARS-S,2026-07-28,
+CR-089,Mathew,Garne,baptism,1629,Bishop's Cleeve,Gloucestershire,John,Garne,,S2,England Births & Baptisms 1538-1975,,,HH-BCLEEVE,2026-07-28,Sibling of CR-026. Surname is GARNE not a Gurney variant. VARIANT WEIGHT moderate: GARNE
+CR-090,John,Garne,baptism,1679,Bishop's Cleeve,Gloucestershire,John,Garne,,S2,England Births & Baptisms 1538-1975,,,HH-BCLEEVE,2026-07-28,Same parish 50 years later; the family never leaves. VARIANT WEIGHT moderate: GARNE
+CR-091,Mary,Garne,baptism,1712,Bishop's Cleeve,Gloucestershire,John,Garne,,S2,England Births & Baptisms 1538-1975,,,HH-BCLEEVE,2026-07-28,Run continues to 1714 (Alce). VARIANT WEIGHT moderate: GARNE
+CR-092,John,Gourney,baptism,1540,Chesham,Buckinghamshire,Rychard,Gourney,,S1,Buckinghamshire Baptism Index,,,HH-CHESH-G,2026-07-28,The Gourney spelling in this index is essentially a Chesham spelling
+CR-093,John,Gourney,baptism,1569,Chesham,Buckinghamshire,Willm,Gourney,,S1,Buckinghamshire Baptism Index,,,HH-CHESH-G,2026-07-28,
+CR-094,John,Gourney,baptism,1591,Chesham,Buckinghamshire,Ryc,Gourney,Jaane,S1,Buckinghamshire Baptism Index,,,HH-CHESH-G,2026-07-28,
+CR-095,John,Gourney,baptism,1600,Chesham,Buckinghamshire,Willm,Gourney,Mary,S1,Buckinghamshire Baptism Index,,,HH-CHESH-G,2026-07-28,
+CR-096,Alice,Gourneye,marriage,1616,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Banns & Marriages,,,HH-BERK-X,2026-07-28,Married John Androe. NOT a John Gurney groom
+CR-097,Elisabeth,Gourneye,marriage,1617,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Banns & Marriages,,,HH-BERK-X,2026-07-28,Married John Hunte. NOT a John Gurney groom
+CR-098,Anne,Gourney,marriage,1602,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Banns & Marriages,,,HH-BERK-X,2026-07-28,Married Isaac Thorne
+CR-099,Joan,Gurney,marriage,1582,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Banns & Marriages,,,HH-BERK-X,2026-07-28,Married Nicholas Benning
+CR-100,Elizabeth,Gurney,marriage,1588,Berkhamstead,Hertfordshire,,,,S1,Hertfordshire Banns & Marriages,,,HH-BERK-X,2026-07-28,Married William Foordan
+CR-101,Marie,GURNEY,baptism,1626-02-12,Epping,Essex,Robert,GURNEY,Sarra,S8,FreeREG (Parish Register),,,HH-EPPING,2026-07-28,"ABSENT FROM FINDMYPAST'S ENGLAND-WIDE SWEEP. Right window and the right county for the colonial network; father Robert closes it. VARIANT WEIGHT lower: GURNETT. The Epping rows span 3+ generations on 5 data points with no image read, so a single-family reading is unproven; retained pending paleography"
+CR-102,Mary,GOURNY,baptism,1624-10-28,"Farringdon, St Vedast",London (City),Richard,GOURNY,,S8,FreeREG (Other Transcript),,,HH-VEDAST,2026-07-28,ABSENT FROM FINDMYPAST'S ENGLAND-WIDE SWEEP. Father Richard; enters the Richard-household comparator set not the child inventory
+CR-103,Mary,GURNEY,baptism,1626-03-12,"Norwich, St Giles",Norfolk,,,,S8,FreeREG (Parish Register),,,HH-NORW-GILES,2026-07-28,Counted in the July FindMyPast totals but never catalogued; father not shown in the FreeREG row
+CR-104,Mary,GARNN,baptism,1625-04-10,Norton,Gloucestershire,,,,S8,FreeREG,,,HH-NORTON,2026-07-28,Garne cluster not a Gurney variant; consistent with the Bishop's Cleeve finding. VARIANT WEIGHT moderate: GARNE
+CR-105,Richard,GURNEY,baptism,1624-06,Stewkley,Buckinghamshire,Walter,GURNEY,Joan,S8,FreeREG (Other Transcript),,,HH-STEWK-W,2026-07-28,FATHER WALTER not Robert - so NOT a reused name in Robert's household. Ties to CR-107 the Walter x Joan Coalls marriage of 1620
+CR-106,Robert,GURNEY,marriage,1626-07-10,Stewkley,Buckinghamshire,,,,S8,FreeREG,,,HH-STEWK-R,2026-07-28,Robert Gurney m. Joan Fenn. POSTDATES CR-029 by six months so Joan is not Richard's mother; the Stewkley household is two marriages
+CR-107,Walter,GURNEY,marriage,1620-05-04,Stewkley,Buckinghamshire,,,,S8,FreeREG,,,HH-STEWK-W,2026-07-28,Water Gurney m. Joan Coalls; a Stewkley household the file did not carry
+CR-108,Richard,GOWRNEY,marriage,1625-11-10,Stone,Buckinghamshire,,,,S8,FreeREG,,,HH-STONE,2026-07-28,Richd. Gowrney m. Anne Liscombe
+CR-109,Robert,GURNEY,burial,1631-08-30,Stewkley,Buckinghamshire,,,,S8,FreeREG,,,HH-STEWK-R,2026-07-28,Matches the 1631 Stewkley probate of Robert Gorny/Gerny husbandman
+CR-110,Richard,GOURNEY,burial,1631-12-29,Chesham,Buckinghamshire,,,,S8,FreeREG,,,HH-CHESH-G,2026-07-28,
+CR-111,Richard,GURNEY,burial,1649-04-29,Stewkley,Buckinghamshire,,,,S8,FreeREG,,,HH-STEWK-R,2026-07-28,
+CR-112,Richard,GURNEY,burial,1649-07-16,Stewkley,Buckinghamshire,,,,S8,FreeREG,,,HH-STEWK-R,2026-07-28,Second Richard burial the same year
+CR-113,John,GURNEY,baptism,1638-01-11,Aston Abbotts,Buckinghamshire,,,,S8,FreeREG,,,HH-ASTON,2026-07-28,Same event as CR-050 on an independent transcription; father Robert per the county index
+CR-114,Anne,Gourney,baptism,1626,"St Vedast Foster-Lane, London",London,Richard,Gourny,,S1,Middlesex Baptisms,,,HH-VEDAST,2026-07-28,NEW. Sister of CR-102; establishes the St Vedast household as Richard Gourny with two daughters
+CR-115,Mary,Gurney,baptism,1634-09-05,[Middlesex parish not shown],Middlesex,Henery,Gurney,Mary,S7,FamilySearch England Middlesex Parish Registers 1539-1988,,,HH-MDX-HEN,2026-07-28,NEW. A Gurney household with a WIFE MARY in window; probably the London Henry Gurney of case-file 8.8
+CR-116,Mary,Gurnel,baptism,1627-01-21,Allhallows London Wall,London,Edward,Gurnel,Winefret,S4,Ancestry England Select Births and Christenings 9841,,,HH-ALLHAL,2026-07-28,NEW household; Gurnel probably a distinct surname. VARIANT WEIGHT lower: GURNEL
+CR-117,Richard,Gurnet,baptism,1628-06-01,Allhallows London Wall,London,Edward,Gurnet,Winefret,S4,Ancestry England Select Births and Christenings 9841,,,HH-ALLHAL,2026-07-28,"NEW. Sibling of CR-116; two colonial-name children to a non-John father. VARIANT WEIGHT lower: GURNET/GURNEL, same London household as CR-116"
+CR-118,John,Gurney,baptism,1633-11-17,"St Martin in the Fields, Westminster",Middlesex,Thomas,Gurney,Elizabeth,S4,Ancestry England Select Births and Christenings 9841,,,HH-STMARTIN,2026-07-28,NEW London household
+CR-119,John,Gurnell,baptism,1633-01-27,St Botolph Bishopsgate,London,James,Gurnell,Elizabeth,S4,Ancestry England Select Births and Christenings 9841,,,HH-BISHOPSG,2026-07-28,Gurnell; distinct surname. Same parish as Francis G14's 1646/7 burial. VARIANT WEIGHT lower: GURNELL
+CR-120,John,Gurner,baptism,1636-01-22,Buckland near Dover,Kent,William,Gurner,Marlin,S4,Ancestry England Select Births and Christenings 9841,,,HH-BUCKLAND,2026-07-28,NEW Kent household. VARIANT WEIGHT lower: GURNER
+CR-121,John Thomas,Gurnoe,baptism,1637-01-19,Ackworth,Yorkshire,John,Gurnoe,Mary,S4,Ancestry England Select Births and Christenings 9841,,,HH-ACKWORTH,2026-07-28,The Ackworth candidate's son on a third instrument; Ancestry dates it 19 Jan 1637
+CR-122,Elizabeth,Gurney,baptism,,[Sussex parish not shown],Sussex,John,Gurney,Mary,S7,FamilySearch England Sussex Parish Registers 1538-1910,,,HH-SUSSEX-JM,2026-07-28,UNDATED role row. A JOHN AND MARY household in Sussex - the only new John+Mary household this pass; date not recoverable from the role row
+CR-123,Grace,Gurney,baptism,,[Sussex parish not shown],Sussex,John,Gurney,Mary,S7,FamilySearch England Sussex Parish Registers 1538-1910,,,HH-SUSSEX-JM,2026-07-28,UNDATED role row. Sibling of CR-122
+CR-124,Mary,Gurney,baptism,,[Herefordshire parish not shown],Herefordshire,John,Gurney,Margaret,S7,FamilySearch England Herefordshire Bishops Transcripts 1583-1900,,,HH-HEREF-JM,2026-07-28,UNDATED role row; wife Margaret not Mary
+CR-125,John,GURNEY,baptism,1630-07-11,Lamport,Northamptonshire,John,GURNEY,Anne,S8,FreeREG,,,HH-LAMPORT,2026-07-28,NEW father-John household - the largest unrecorded one found this month. Wife ANNE not Mary
+CR-126,Thomas,GURNEY,baptism,1632-05-24,Lamport,Northamptonshire,John,GURNEY,Anne,S8,FreeREG,,,HH-LAMPORT,2026-07-28,
+CR-127,Steven,GURNEY,baptism,1634-07-03,Lamport,Northamptonshire,John,GURNEY,Anne,S8,FreeREG,,,HH-LAMPORT,2026-07-28,
+CR-128,Francis,GOURNAY,baptism,1636-04-29,Lamport,Northamptonshire,John,GOURNAY,Anne,S8,FreeREG,,,HH-LAMPORT,2026-07-28,
+CR-129,Charles,GOURNAY,baptism,1637-04-27,Lamport,Northamptonshire,John,GOURNAY,Anne,S8,FreeREG,,,HH-LAMPORT,2026-07-28,
+CR-130,Anne,GOURNEY,baptism,1639-04-01,Lamport,Northamptonshire,John,GOURNEY,Anne,S8,FreeREG,,,HH-LAMPORT,2026-07-28,Household still baptising after the emigration window - eliminated on continuing residence
+CR-131,Katharine,GOURNEY,baptism,1640-03-04,Lamport,Northamptonshire,John,GOURNEY,Anne,S8,FreeREG,,,HH-LAMPORT,2026-07-28,
+CR-132,Giles,GURNEY,baptism,1627-03-20,Longdon,Worcestershire,John,GURNEY,Dorothy,S8,FreeREG,,,HH-LONGDON,2026-07-28,NEW father-John household; wife Dorothy
+CR-133,Rafe,GURNEY,baptism,1627-03-20,Longdon,Worcestershire,John,GURNEY,Dorothy,S8,FreeREG,,,HH-LONGDON,2026-07-28,Same day as CR-132 - twins
+CR-134,Frances,GURNEY,baptism,1639-06-15,Longdon,Worcestershire,John,GURNEY,Isabell,S8,FreeREG,,,HH-LONGDON,2026-07-28,Second wife Isabell; household continues past 1641
+CR-135,Alice,GURNY,baptism,1641-02-23,Longdon,Worcestershire,John,GURNY,Isabell,S8,FreeREG,,,HH-LONGDON,2026-07-28,
+CR-136,Humfry,GARNEY,baptism,1628-01-03,Oldswinford,Worcestershire,John,GARNEY,,S8,FreeREG,,,HH-OLDSWIN,2026-07-28,NEW father-John household; mother unindexed
+CR-137,Elizabeth,GARNEY,baptism,1629-11-27,Oldswinford,Worcestershire,John,GARNEY,,S8,FreeREG,,,HH-OLDSWIN,2026-07-28,
+CR-138,John,GIRNEY,baptism,1635-07-11,Earsham,Norfolk,John,GIRNEY,,S8,FreeREG,,,HH-EARS,2026-07-28,A FIRST son John who must have died - CR-028 baptises another John 17 months later
+CR-139,Henry,GIRNEY,baptism,1638-03-22,Earsham,Norfolk,John,GIRNEY,Ales,S8,FreeREG,,,HH-EARS,2026-07-28,Mother ALES = Alice; FindMyPast indexes the same mother as Alex. Two instruments agree the Earsham wife is not Mary
+CR-140,Marie,GURNEY,baptism,1637-06-25,North Weald Bassett,Essex,Robert,GURNEY,Anne,S8,FreeREG,,,HH-NWEALD,2026-07-28,NEW. Parish adjoins Epping where Robert + Sarra baptised CR-101; same man remarried or a second Essex Robert. VARIANT WEIGHT moderate-high: GURNARD is a documented Gurney alias (Visitation of London 1634). Same North Weald parents indexed Gurnard by FindMyPast and Gurney by FreeREG
+CR-141,John,GURNER,baptism,1625-07-21,Crondall,Hampshire,Robte,GURNER,,S8,FreeREG,,,HH-CRONDALL,2026-07-28,NEW household. VARIANT WEIGHT lower: GURNER
+CR-142,John,GURNER,baptism,1634-05-26,Clayton,Sussex,Thomas,GURNER,,S8,FreeREG,,,HH-CLAYTON,2026-07-28,NEW household. VARIANT WEIGHT lower: GURNER
+CR-143,John,GURNER,baptism,1637-09-17,Mamble,Worcestershire,Thomas,GURNER,Margery,S8,FreeREG,,,HH-MAMBLE,2026-07-28,NEW; also indexed at Bayton. VARIANT WEIGHT lower: GURNER
+CR-144,John,GURNEY,baptism,1638-04-05,Houghton Regis,Bedfordshire,Joseph,GURNEY,,S8,FreeREG,,,HH-HOUGHTON,2026-07-28,NEW; father Joseph
+CR-145,Mary,GURNEY,baptism,1640-09-28,Wootton,Bedfordshire,Dan,GURNEY,,S8,FreeREG,,,HH-WOOTTON,2026-07-28,NEW; father Daniel
+CR-146,Elizabeth,GURNEY,baptism,1702-06-11,Horsham,Sussex,John,GURNEY,Mary,S7,FamilySearch England Sussex Parish Registers 1538-1910,,,HH-SUSSEX-JM,2026-07-28,DATED: 1702 not the 1620s. Closes the Sussex John+Mary lead - supersedes CR-122
+CR-147,Grace,GURNEY,baptism,1704-08-05,Horsham,Sussex,John,GURNEY,Mary,S7,FamilySearch England Sussex Parish Registers 1538-1910,,,HH-SUSSEX-JM,2026-07-28,DATED: 1704. Supersedes CR-123
+CR-148,Richard,Gurnat,baptism,1616,"""Epping Upland, All Saints""",Essex,John,Gurnat,,S1,Essex Baptisms,,,HH-EPPING,2026-07-28,A father John at Epping - but the household settles as GURNETT and runs unbroken to 1726; not a Gurney line
+CR-149,John,Gurne,baptism,1622,"""Epping, All Saints""",Essex,Robert,Gurne,Sara,S1,Essex Baptisms,,,HH-EPPING,2026-07-28,Sibling of CR-101; same Gurnett household
+CR-150,John,Gourney,baptism,1655,"""Maldon, St Mary the Virgin""",Essex,Francis,Gourney,,S1,Essex Baptisms,,,HH-MALDON,2026-07-28,THE MALDON BRANCH at register level. Almost certainly the John of Maldon bachelor d.1681 whose administration went to his brother Thomas
+CR-151,Thomas,Gourney,baptism,1660,"""Maldon, St Mary the Virgin""",Essex,Francis,Gourney,,S1,Essex Baptisms,,,HH-MALDON,2026-07-28,The brother Thomas Gurney named in the 1681 administration
+CR-152,Francis,Gourney,baptism,1657,"""Maldon, St Mary the Virgin""",Essex,Francis,Gourney,Ann,S1,Essex Baptisms,,,HH-MALDON,2026-07-28,Maldon branch; corroborates Bernau and Daniel Gurney from the register
+CR-153,Anthony,Gourney,baptism,1615,Aveley,Essex,George,Gourney,,S1,Essex Baptisms,,,HH-AVELEY,2026-07-28,The ONLY genuine Gurney-surname baptism in Essex before 1650
+CR-154,Mary,Gurnie,baptism,1617,Toddington,Bedfordshire,Richard,Gurnie,,S1,Bedfordshire Baptisms,,,HH-TODD-R,2026-07-28,A Richard Gurney household at Toddington; bears on the section 6.3a paternal-grandfather-Richard prediction
+CR-155,Mary,Gurney,baptism,1638,"Luton, St Mary",Bedfordshire,Richard,Gurney,Joyce,S1,Bedfordshire Baptisms,,,HH-LUTON-R,2026-07-28,Sibling of CR-052; the two index rows disagree on the mother - Joan in one and Joyce in the other
+CR-156,Richard,Gurnney,baptism,1636,Toddington,Bedfordshire,Thomas,Gurnney,,S1,Bedfordshire Baptisms,,,HH-TODD-T,2026-07-28,
+CR-157,Mary,Gurney,baptism,1640,Toddington,Bedfordshire,Thomas,Gurney,,S1,Bedfordshire Baptisms,,,HH-TODD-T,2026-07-28,
+CR-158,Margaret,Gurnie,baptism,1626,Clapham,Bedfordshire,Robert,Gurnie,,S1,Bedfordshire Baptisms,,,HH-CLAPHAM,2026-07-28,NEW household
+CR-159,Elizabeth,Gurney,baptism,1622,Woburn,Bedfordshire,Alexander,Gurney,,S1,Bedfordshire Baptisms,,,HH-WOBURN,2026-07-28,NEW household; father Alexander
+CR-160,Alice,Gurney,baptism,1636,"Luton, St Mary",Bedfordshire,Edward,Gurney,Sibell,S1,Bedfordshire Baptisms,,,HH-LUTON-E,2026-07-28,NEW household
+CR-161,Daniel,Gurney,baptism,1642,"Luton, St Mary",Bedfordshire,Henry,Gurney,Elizabeth,S1,Bedfordshire Baptisms,,,HH-LUTON-H,2026-07-28,NEW household
+CR-162,Alice,Gurney,baptism,1619,"Hockliffe, St Nicholas",Bedfordshire,Thomas,Gurney,,S1,Bedfordshire Baptisms,,,HH-HOCKLIFFE,2026-07-28,Register-attests the Hockliffe household five miles from Cheddington
+CR-163,Jane,Gurnard,baptism,1623,Owermoigne,Dorset,Robert,Gurnard,,S1,Dorset Baptisms,,,HH-OWERMOIGNE,2026-07-29,West Country sweep. Seven miles from Weymouth Dorset - the port that named John's first colonial town. Father Robert not John
+CR-164,Elizabeth,Gurnard,baptism,1625,Owermoigne,Dorset,Robert,Gurnard,,S1,Dorset Baptisms,,,HH-OWERMOIGNE,2026-07-29,Sibling of CR-163
+CR-165,Armenell,Gurnard,baptism,1596,Owermoigne,Dorset,Nicholas,Gurnard,,S1,Dorset Baptisms,,,HH-OWERMOIGNE,2026-07-29,Earlier generation of the same Owermoigne household; fathers run Martin 1574-76 then Nicholas 1582-96 then Robert 1623-25. NO JOHN in fifty years
+CR-166,William,Gurnett,baptism,1626,Clapton in Gordano,Somerset,,,,S1,Somerset Baptisms,,,HH-CLAPTON,2026-07-29,One of only two Gurney-variant baptisms in all Somerset 1610-1650
+CR-167,Rebeca,Gurnsoy,baptism,1630,Knowle St Giles,Somerset,,,,S1,Somerset Baptisms,,,HH-KNOWLE,2026-07-29,The other Somerset row
+CR-168,He.Rs,Ludham,baptism,1608,Little Plumstead,Norfolk,,,,S2,England Births & Baptisms 1538-1975,,,HH-LUDHAM-NFK,2026-07-29,NOT A GURNEY. Recorded because it was matched to an unsourced claim that James Ludden of Weymouth came from this parish; the connection is WITHDRAWN and the better secondary account says Dorsetshire
+CR-169,Ane,Ludham,baptism,1610,Little Plumstead,Norfolk,,,,S2,England Births & Baptisms 1538-1975,,,HH-LUDHAM-NFK,2026-07-29,See CR-168
+CR-170,John,Gurney,burial,1615-09-21,Stewkley,Buckinghamshire,,,,S10,Buckinghamshire Burial Index (bishop's transcripts),D/A/T/160,,HH-STEWK-J,2026-07-29,DECISIVE-IF-RESOLVED. Either A(1603) dying at twelve or his father John Gurney Sr. No age or relationship in the transcript. Contradicts the case-file claim that A(1603) has no burial
+CR-171,Simon,Gurney,burial,1604,Stewkley,Buckinghamshire,,,,S10,Buckinghamshire Burial Index,D/A/T/160,,HH-STEWK-J,2026-07-29,The Simeon baptised and buried in infancy 25 Feb 1604; confirms the sibling record
+CR-172,Elizabeth,Gurney,burial,1614,Stewkley,Buckinghamshire,,,,S10,Buckinghamshire Burial Index,D/A/T/160,,HH-STEWK-X,2026-07-29,Part of a 1614-1618 Stewkley Gurney burial cluster
+CR-173,Martha,Gurney,burial,1615,Stewkley,Buckinghamshire,,,,S10,Buckinghamshire Burial Index,D/A/T/160,,HH-STEWK-X,2026-07-29,Same cluster as CR-170 and CR-172
+CR-174,Robert,Gurney,burial,1618,Stewkley,Buckinghamshire,,,,S10,Buckinghamshire Burial Index,D/A/T/160,,HH-STEWK-R,2026-07-29,Matches the 1618 Stewkley probate of Robert Gurnie husbandman
+CR-175,John,Gurny,burial,1625,Weston Turville,Buckinghamshire,,,,S10,Buckinghamshire Burial Index,,,HH-WTURV-X,2026-07-29,Predates the 1627 baptism of Elyzabethe so a different man from the Weston Turville head; parish IS covered in window so that head's absent burial is a genuine negative
+CR-176,Thomas,Gurney,burial,1633,Weston Turville,Buckinghamshire,,,,S10,Buckinghamshire Burial Index,,,HH-WTURV-T,2026-07-29,The Weston Turville Gurney tailor who died 1633
+CR-177,Thomas,Gurny,burial,1621,Weston Turville,Buckinghamshire,,,,S10,Buckinghamshire Burial Index,,,HH-WTURV-T,2026-07-29,
+CR-178,Joyce,Gurney,burial,1633,Weston Turville,Buckinghamshire,,,,S10,Buckinghamshire Burial Index,,,HH-WTURV-T,2026-07-29,
+CR-179,Edward,Gourney,baptism,1628,Aylesbury,Buckinghamshire,John,Gourney,,S2,England Births & Baptisms 1538-1975,,,HH-AYLES-E,2026-07-29,NEW. A child to a father John at Aylesbury a decade before the 1638-1653 run the file carries; Candidate A(i) married Alice Oliffe at Bierton in April 1628
+CR-180,Johes.,Gurner,baptism,1634,Bromsgrove,Worcestershire,John,Gurner,,S2,England Births & Baptisms 1538-1975,,,HH-BROMSGROVE,2026-07-29,NEW household; no colonial-name child
+CR-181,Ellinor,Gornie,baptism,1636,Rochester,Kent,John,Gornie,,S2,England Births & Baptisms 1538-1975,,,HH-ROCHESTER,2026-07-29,NEW household; no colonial-name child
+CR-182,John,G.,baptism,1635,Norton,Suffolk,John,G.,,S2,England Births & Baptisms 1538-1975,,,HH-NORTON-SFK,2026-07-29,"SURNAME UNREADABLE in the index. Suffolk is inside the East Anglian corridor and FindMyPast has no Suffolk baptism county set. Image question, not an index question"
+CR-183,John,G?th,baptism,1632,Wooburn,Buckinghamshire,John,G?th,,S1,Buckinghamshire Baptism Index,,,HH-WOOBURN,2026-07-29,SURNAME UNREADABLE; two transcriptions of one entry (also indexed G.Uth). In the target county. Image question
+CR-184,Eliz,Gurley,baptism,1627,"St Clement Danes, Westminster",Middlesex,John,Gurley,Mary,S1,Westminster Baptisms,,,HH-STCLEMENT,2026-07-29,BEST PARTIAL SHAPE MATCH found: father John AND mother Mary. But surname Gurley is low weight and not in the Gurn- family
+CR-185,Ellynor,Gurley,baptism,1628,"St Clement Danes, Westminster",Middlesex,John,Gurley,Mary,S1,Westminster Baptisms,,,HH-STCLEMENT,2026-07-29,No colonial counterpart
+CR-186,Alexander,Gurley,baptism,1629,"St Clement Danes, Westminster",Middlesex,John,Gurley,Mary,S1,Westminster Baptisms,,,HH-STCLEMENT,2026-07-29,No colonial counterpart; a distinctly un-colonial forename
+CR-187,Mary,Gurley,baptism,1631,"St Clement Danes, Westminster",Middlesex,John,Gurley,Mary,S1,Westminster Baptisms,,,HH-STCLEMENT,2026-07-29,SATISFIES the hard bound - colonial Mary born by 1631 from her 1647 Braintree marriage
+CR-188,Sara,Gurley,baptism,1633,"St Clement Danes, Westminster",Middlesex,John,Gurley,Mary,S1,Westminster Baptisms,,,HH-STCLEMENT,2026-07-29,Second colonial-name child. Household stops appearing 1633. FAILS on the child set regardless of surname: no Richard and no John Jr
+CR-189,,,marriage,1625-07-25,Longdon,Worcestershire,John,Gurney,,S8,FreeREG,,,HH-LONGDON,2026-07-29,"John Gurney m. Dorothy Tuffley. With the 1602 marriage to Fraunces Price and a third wife Isabell by 1639, Longdon is a father and son not one man"
+CR-190,,,marriage,1602-05-01,Longdon,Worcestershire,John,Gurney,,S8,FreeREG,,,HH-LONGDON,2026-07-29,John Gurney m. Fraunces Price
+CR-191,,,marriage,1632-10-09,Earsham,Norfolk,John,Girney,,S8,FreeREG,,,HH-EARS,2026-07-29,John Girney m. ELIZABETH SINGLER - dates the Earsham marriage and confirms the wife is not Mary from a second direction; the case file eliminates this household on the 1639 will
+CR-192,,,marriage,1642-10-27,Greenwich,Kent,John,Gurney,,S8,FreeREG,,,HH-GREENWICH,2026-07-29,NEW John Gurney marriage; bride not in the record slug. After the colonial John was already in Massachusetts
+CR-193,,,marriage,1629-03-30,Farnham Royal,Buckinghamshire,John,Gurney,,S1,Buckinghamshire Marriage Index,,,HH-FARNHAM-JS,2026-07-29,John Gurney m. SUSAN (Cogeram). NO CHILD recorded to a John+Susan Gurney household anywhere before 1770. Five miles and 22 months from the Hitcham Mary of Jan 1630/1 whose mother is unindexed - a plausible alternative parentage that is not a Mary
+CR-194,Ann,Gurney,baptism,1623,Farnham Royal,Buckinghamshire,Silvester,Gurney,,S1,Buckinghamshire Baptism Index,,,HH-FARNHAM-S,2026-07-29,"Farnham Royal's Gurney baptisms are Silvester's and a Thomas's - NONE to a father John, so the 1629 John+Susan couple baptised nowhere in their own parish"
+CR-195,Rebecca,Gurney,baptism,1630,Farnham Royal,Buckinghamshire,Silvester,Gurney,,S1,Buckinghamshire Baptism Index,,,HH-FARNHAM-S,2026-07-29,
+CR-196,Thomas,Gurney,baptism,1630,Farnham Royal,Buckinghamshire,Thomas,Gurney,,S1,Buckinghamshire Baptism Index,,,HH-FARNHAM-T,2026-07-29,
+CR-197,Eliz,Gurley,baptism,1627,Westminster,London,John,Gurley,Mary,S2,England Births & Baptisms 1538-1975,,,HH-WESTM-GURLEY,2026-07-29,Documented John x Mary household reached through the provider's own variant expansion on Gurney. Eldest of five
+CR-198,Ellynor,Gurley,baptism,1628,Westminster,London,John,Gurley,Mary,S2,England Births & Baptisms 1538-1975,,,HH-WESTM-GURLEY,2026-07-29,
+CR-199,Alexander,Gurley,baptism,1629,Westminster,London,John,Gurley,Mary,S2,England Births & Baptisms 1538-1975,,,HH-WESTM-GURLEY,2026-07-29,"The only son. Alexander is absent from the colonial family, so this household fails the Richard and John attributes outright"
+CR-200,Mary,Gurley,baptism,1631,Westminster,London,John,Gurley,Mary,S2,England Births & Baptisms 1538-1975,,,HH-WESTM-GURLEY,2026-07-29,"Satisfies Mary's PRIMARY bound (born by 1631, from her 1647 Braintree marriage) rather than the compiled c.1628"
+CR-201,Sara,Gurley,baptism,1633,Westminster,London,John,Gurley,Mary,S2,England Births & Baptisms 1538-1975,,,HH-WESTM-GURLEY,2026-07-29,LAST recorded baptism to this father anywhere. Household record stops 1633
+CR-202,Richard,Gurnat,baptism,1616,"Epping Upland, All Saints",Essex,John,Gurnat,,S1,Essex Baptisms,,,HH-EPPING-J,2026-07-29,A father JOHN naming a son RICHARD in Essex - the naming behaviour attribute 10 is derived from. Double-indexed as Epping and Epping Upland
+CR-203,Richard,Gurnet,baptism,1649,"Epping Upland, All Saints",Essex,Richard,Gurnet,,S1,Essex Baptisms,,,HH-EPPING-R,2026-07-29,Richard naming Richard. With CR-202 and CR-204 the Epping line ALTERNATES John and Richard across three generations
+CR-204,John,Gurnet,baptism,1654,"Epping Upland, All Saints",Essex,John,Gurnet,,S1,Essex Baptisms,,,HH-EPPING-J2,2026-07-29,
+CR-205,Elisabeth,Gurnet,baptism,1659,"Epping, All Saints",Essex,John,Gurnet,Anne,S1,Essex Baptisms,,,HH-EPPING-J2,2026-07-29,
+CR-206,Grace,Gurne,baptism,1704,Horsham,Sussex,John,Gurne,Mary,S1,Sussex Baptisms,,,HH-HORSHAM-JM,2026-07-29,DATES the undated FamilySearch John-and-Mary Sussex household that unit 68 called the single most important loose end. A century too late. ELIMINATED
+CR-207,Mary,Gurney,baptism,1687,Stoke Lacy,Herefordshire,John,Gurney,Margaret,S1,Herefordshire Baptisms,,,HH-HEREF-JM,2026-07-29,"DATES the undated Herefordshire John-and-Margaret household (was CR-124). Sixty years too late. ELIMINATED on date, NOT on the retracted Margaret rule"
+CR-208,Ann,Gurney,baptism,1710,Coleshill,Warwickshire,John,Gurney,,S1,Warwickshire Baptisms,,,HH-COLESHILL,2026-07-29,DATES the undated Warwickshire John Gurney household. A century too late. ELIMINATED. All three unit-68 role-row households resolved to 1687-1710
+CR-209,Katerine,Gurnay,baptism,1620,Tittleshall with Godwick,Norfolk,Henry,Gurnay,Anne,S1,Norfolk Baptisms Index,,,HH-TITTLESHALL,2026-07-29,"SAME EVENT as CR-210, mother indexed ANNE here and MARY there. Worked example of the mother forename being unstable between witnesses - the general case behind the Margaret argument"
+CR-210,Katherine,Gurnay,baptism,1620,Tittleshall with Godwick,Norfolk,Henry,Gurnay,Mary,S1,Norfolk Baptisms Index,,,HH-TITTLESHALL,2026-07-29,Duplicate transcription of CR-209 with a different mother name

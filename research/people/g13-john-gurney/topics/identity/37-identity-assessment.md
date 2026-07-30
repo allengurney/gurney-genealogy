@@ -2,6 +2,27 @@
 
 # Identity — assessment
 
+> **SUPERSEDED IN PART by the July 2026 refactor — read this box before using any number below.**
+>
+> **The "roughly sixty-five percent" for Candidate B in the opening paragraph is obsolete by a factor
+> of six.** The East Dereham baptism this unit calls "a baptism" among the independent signals **does
+> not exist** — it was disproved in the July 2026 deviation audit. The current table, revised
+> 2026-07-28, puts *documented but never assembled* first at 25%, *no record survives* second at 18%,
+> and **Candidate B third at 11%**.
+>
+> **Candidate C is two men.** The section below eliminates the father, who fathered from 1597 and was
+> born c.1570–75. His son, fathering 1624–1637 and about 51 in 1653, was never assessed here and is now
+> carried separately at ~4%.
+>
+> This unit's own record of "two entries for a Jhon Gourney, in 1612 and 1620" is **correct and was
+> overlooked** by a July 2026 sweep that reported no Gurney burial at Berkhamsted at any date. The
+> parish in fact holds sixteen.
+>
+> Current treatment: [`66-refactor-berkhamsted-burials-and-the-departure-gap.md`](66-refactor-berkhamsted-burials-and-the-departure-gap.md),
+> [`64-refactor-berkhamsted-reopened.md`](64-refactor-berkhamsted-reopened.md),
+> [`63-refactor-child-sweep-closed-and-reassessment.md`](63-refactor-child-sweep-closed-and-reassessment.md).
+> Do not carry this unit's probabilities into the graph.
+
 John Gurney's parentage is settled by elimination and circumstantial fit, not by a document. No record made in his lifetime names his father, and none ever will unless a new one is found: the identification of him as the son of Francis Gurney, Merchant Taylor of West Barsham, Norwich and London, rests on the failure of every other documented John Gurney to fit, plus a set of independent signals — trade, corridor, motive, network, a baptism — that all point the same way and none of which is decisive alone.[^cb] The case file puts the parentage at roughly sixty-five percent, and that estimate belongs to the case file's own argument, not to this unit.[^s11-xref]
 
 Two things make this elimination stronger than most colonial origin attributions. Every rival was actively disproved rather than left unexamined: Candidate A by continuous English residence to 1653, Candidate C by a family of the wrong shape, Candidate D by a 1662 London hearth-tax entry made in the year the colonial John lay dying at Boston, the Earsham testator by dying in England in 1638, and the 1636 Newgate apprentice by a mismatched family status and a chronology that will not bend.[^candidates] And the colonial record now shows exactly one adult Gurney household in Massachusetts before 1660 — the Dorchester "Gurneys" are Gurnells, the Providence John and Sarah are a later and unconnected pair, and there is no second emigrant John to confuse with ours.[^collaterals] The weakness is the mirror image of the strength: Candidate B predicts a man who would leave almost no English paper — a motherless son raised by his mother's kin, trained outside both the guild registers that would have recorded him — so the absence of a confirming document is exactly what the hypothesis expects, and cannot be counted against it.[^b-record-shape] Anderson's *Great Migration Directory*, working only from what the records state, still gives John's origin as "Unknown."[^anderson]<!-- graph-marker: G13-PM-000109 -->

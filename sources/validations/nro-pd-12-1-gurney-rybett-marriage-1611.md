@@ -14,7 +14,7 @@ fixing the year to **1611** → 23 September 1611. Read at scale 10–12 from th
 **Provenance note:** the record was located via the Ancestry index (March 2026); the image was read
 as confirmation then, and re-read independently 2026-07-22. Unlike the East Dereham "John" entry
 audited alongside it, this is a whole-entry reading with every field legible and mutually
-consistent — see `sources/intake/paleography-staging/east-dereham-re-review-july-2026/FINDINGS-2026-07-22-deviation-audit.md`.
+consistent — see `sources/intake/paleography-staging/done/east-dereham-re-review-2026-07-FINDINGS-deviation-audit.md`.
 
 **Findings recorded in:** `research/case-files/john-gurney-case-file-v4.md` §2.2;
 `research/people/rivett-family-of-garveston.md`.

@@ -29,6 +29,7 @@ Human-facing overview:
 - `sitemap.xml`, `llms.txt`, and `_redirects` are generated from `_site/` by the public-site finalization step; do not hand-maintain deployed copies.
 - Homepage helper files such as `fact-sheets/featured-ancestors.md` may feed templates without becoming standalone public pages.
 - Run the site package or validation script after URL/indexing changes so the finalizer can fail the build on stale `.html` links, missing canonicals, sitemap drift, or meta-refresh redirects.
+- In Search Console, do not treat URL Inspection's “No referring sitemaps detected” as a sitemap error or prescribe re-submitting an already successful sitemap. First verify the sitemap report and URL inclusion; that field records Google’s association/discovery history for the individual URL and can persist after re-submission. Diagnose actual crawl or indexing status separately.
 
 ## Published research topics (Misc. Topics)
 - Select `research/topics/*.md` files publish to the site as lightly-formatted research notes under **Key Research → Misc. Topics** — a deliberately lighter surface than fact sheets and case files (working evidence the reader can follow, not a vetted publication).

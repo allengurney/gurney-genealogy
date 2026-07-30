@@ -828,6 +828,18 @@
     "notes": "Used in Candidate A (Stewkley) analysis."
   },
   {
+    "sourceId": "bucks-archives-catalogue",
+    "shortTitle": "Buckinghamshire Archives online catalogue",
+    "citation": "Buckinghamshire Archives, online catalogue (archives.buckinghamshire.gov.uk). Deeds, estate papers, manorial records and settlement bonds; principal series used: Buckinghamshire Archaeological Society Collection (D-BAS), Lee family of Hartwell House estate deeds (D-LE), Cavendish/Chesham deeds (D-CH), the Gurney estate at Marsworth (D-X_202), and Buckinghamshire Manorial Records (D-BASM).",
+    "archive": "Buckinghamshire Archives, County Hall, Aylesbury.",
+    "url": "https://archives.buckinghamshire.gov.uk/",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/bucks-archives-gurney-deeds-1570-1660.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/bucks-archives-catalogue.md",
+    "notes": "Catalogue-level descriptions, not document images. Searched for Gurney 1570-1660 in July 2026; the extract at corpusPath carries every hit. The catalogue normalises the surname, so the variants gurnay, gorney, garney, gournay and gurnie each return zero in that window while gurney returns the full set - a gurney blank is therefore a real blank, not a spelling artefact. It indexes abstracts rather than document text, so a person named only inside an unabstracted deed will not surface. Individuates several Buckinghamshire John Gurneys who were previously known only from parish registers, including the Bishopstone gentleman who sold the family estate in 1648/9 and the Owlswick marriage settlement of 1619."
+  },
+  {
     "sourceId": "burke-ancient-family",
     "shortTitle": "Burke, The Ancient Family of Gurney",
     "citation": "Burke, J. Bernard. The Ancient Family of Gurney. Reprinted, Asbury Park, NJ: Martin & Allardyce.",
@@ -1620,6 +1632,18 @@
     "notes": "Obituary of Elizabeth Stettler Walker Gurney (8 June 1918 - 11 June 2013), G3's third wife. Lifelong Morris County resident, of Chatham until 1995; daughter of Charlie and Elsie Stettler; educated at Wheaton College and the New Jersey State Teachers College, Trenton; elementary-school and music teacher in Chatham and Livingston. Widow of Alan Banham Walker of Cambridge, England (d. 1980, after 34 years of marriage); married Lester Gurney III in 1995 before moving to the Heath Village retirement community, Washington Township; 'after 16 happy years, Mr. Gurney died in 2011.' Survived by daughter Martha Walker Jones and son Charles Derek Walker (children of her first marriage), five grandchildren, and three great-grandchildren. Active Episcopal churchwoman; accomplished pianist, organist, violinist, and chorister."
   },
   {
+    "sourceId": "england-wales-published-probate-indexes",
+    "shortTitle": "England & Wales Published Wills & Probate Indexes, 1300-1858 (FindMyPast / British Record Society)",
+    "citation": "England & Wales Published Wills & Probate Indexes, 1300-1858 (FindMyPast), page images of the British Record Society county probate index volumes. Volume used: British Record Society vol. 114, Index to Buckinghamshire Probate Records 1483-1660 and Buckinghamshire Peculiars 1420-1660.",
+    "archive": "FindMyPast, subscription database; original volumes published by the British Record Society.",
+    "url": "https://www.findmypast.co.uk/search/results?datasetname=england+%26+wales+published+wills+%26+probate+indexes%2c+1300-1858",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/bucks-probate-index-brs114-gurney-variants-to-1660.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/england-wales-published-probate-indexes.md",
+    "notes": "Page images of the printed British Record Society county probate indexes. The results table shows only place, page number and publication, so the testator names must be read from the page image itself. Buckinghamshire vol. 114 was read in full for Gurney variants to 1660 (printed pp. 173-174, records OR/BRS/333/0197 and 0198); the extract is at the corpusPath. Coverage is by county volume and is uneven: Hertfordshire is absent from the dataset entirely, and Northamptonshire is represented only by administrations indexes from 1677, so a blank for those counties is a coverage gap and not a negative."
+  },
+  {
     "sourceId": "english-heritage-baconsthorpe-castle-history",
     "shortTitle": "English Heritage - Baconsthorpe Castle history",
     "citation": "English Heritage. \"History of Baconsthorpe Castle.\" English Heritage.",
@@ -1744,12 +1768,24 @@
     "shortTitle": "FamilySearch England, Buckinghamshire, Church Records, 1217-1994",
     "citation": "England, Buckinghamshire, Church Records, 1217-1994. FamilySearch indexed records and images, drawn from the Centre for Buckinghamshire Studies.",
     "archive": "FamilySearch International / Centre for Buckinghamshire Studies",
-    "url": "https://www.familysearch.org/search/collection/2376818",
+    "url": "https://www.familysearch.org/search/collection/4380170",
     "corpusStatus": "none",
     "corpusPath": "",
     "mediaPath": "",
-    "validationPath": "",
-    "notes": "Buckinghamshire baptisms, marriages, and burials indexed and partly imaged through FamilySearch from the Centre for Buckinghamshire Studies."
+    "validationPath": "sources/validations/fs-england-buckinghamshire-church-records-1217-1994.md",
+    "notes": "Buckinghamshire baptisms, marriages, and burials indexed and partly imaged through FamilySearch from the Centre for Buckinghamshire Studies. Unlike England, Births and Christenings, 1538-1975, this collection indexes mothers' names on baptisms and both parties on marriages, so it individuates same-name households the older index cannot. Coverage is parish-uneven: Saint Mary Aylesbury and Amersham carry no seventeenth-century entries, and Chenies and Great Kimble carry no Gurney entry at all."
+  },
+  {
+    "sourceId": "fs-england-hertfordshire-parish-registers-1538-1912",
+    "shortTitle": "FamilySearch England, Hertfordshire, Parish Registers, 1538-1912",
+    "citation": "England, Hertfordshire, Parish Registers, 1538-1912. FamilySearch indexed records and images, drawn from Hertfordshire Archives and Local Studies.",
+    "archive": "FamilySearch International / Hertfordshire Archives and Local Studies",
+    "url": "https://www.familysearch.org/search/collection/2388825",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/fs-england-hertfordshire-parish-registers-1538-1912.md",
+    "notes": "Hertfordshire baptisms, marriages, banns, and burials indexed through FamilySearch. Carries mothers' names and both marriage parties. Berkhamsted holds no seventeenth-century Gurney entry in this collection, so the Berkhamsted household cannot be individuated through it."
   },
   {
     "sourceId": "fs-england-norfolk-parish-registers-1510-1997",
@@ -3734,14 +3770,14 @@
   {
     "sourceId": "nro-pd-12-1",
     "shortTitle": "NRO PD 12/1 (St Martin at Palace, Norwich)",
-    "citation": "Parish register, St Martin at Palace, Norwich, 1538–1639. Norfolk Record Office, PD 12/1.",
-    "archive": "Norfolk Record Office",
-    "url": "",
+    "citation": "Parish register, St Martin at Palace, Norwich, 1538–1639. Norfolk Record Office, PD 12/1. Digitized in Ancestry.com, \"Norfolk, England, Church of England Baptisms, Marriages, and Burials, 1535–1812\" (Provo, UT: Ancestry.com Operations, 2016).",
+    "archive": "Norfolk Record Office (original); Ancestry.com (digitized)",
+    "url": "https://www.ancestry.com/search/collections/61045/records/2879447",
     "corpusStatus": "none",
     "corpusPath": "",
-    "mediaPath": "",
-    "validationPath": "",
-    "notes": "BREAKTHROUGH SOURCE (March 2026): Francis Gurney + Margaret Rybett marriage, 23 September 1611. Image examined on Ancestry; paleographic reading confirmed."
+    "mediaPath": "sources/media/nro-pd-12-1/_local/4143432_01883-st-martin-at-palace-marriage-1611.jpg",
+    "validationPath": "sources/validations/nro-pd-12-1-gurney-rybett-marriage-1611.md",
+    "notes": "Francis Gurney + Margaret Rybett marriage, 23 September 1611, St Martin at Palace, Norwich. Found via the Ancestry indexed record (March 2026), then the register image was read as confirmation; the image was re-read 2026-07-22 and the entry reads 'franc: Gurney et Margarett Rybett nupt 23 Sept', a whole-entry Latin marriage record (both surnames, verb nupt, and day all legible). Master is copyright-restricted Ancestry content, held local-only."
   },
   {
     "sourceId": "nro-pd-86-41",
@@ -4030,6 +4066,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/pcc-rivett-rattlesden-wills.md",
     "notes": "Both Rattlesden Rivett/Ryvett wills transcribed in full 2026-05-29 to test Margaret Rybett/Ryvett's parentage (lead L-7). Neither names a Gurney; the 1610 testator's children are Edward (sole executor), Thomas, and a married daughter Dame Anne Glascock, with no Margaret. Paywalled subscription images; not committed to repo."
+  },
+  {
+    "sourceId": "ukda-4816-pcc-wills-index",
+    "shortTitle": "PCC Wills index, 1384-1858 (UK Data Service SN 4816)",
+    "citation": "Prerogative Court of Canterbury Wills, 1384-1858 [data collection], UK Data Service, Study Number 4816, study catalogue https://datacatalogue.ukdataservice.ac.uk/studies/study/4816. Deposited electronic index to The National Archives series PROB 11 (registered copy wills); period-sharded tables giving forename, surname, title, occupation, parish, county and date, joined to register piece and quire via wills_piece_data.tab.",
+    "archive": "UK Data Service (Safeguarded access); underlying records at The National Archives, Kew, series PROB 11.",
+    "url": "https://datacatalogue.ukdataservice.ac.uk/studies/study/4816",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/pcc-wills-gurney-variants-1384-1858.md",
+    "mediaPath": "sources/media/ukda-4816-pcc-wills",
+    "validationPath": "sources/validations/ukda-4816-pcc-wills-index.md",
+    "notes": "Index only, not will text. A 47-term Gurney-variant sweep of the surname field returned 212 testators across 1384-1858, none of them a direct-line ancestor - the Norfolk line proved at Norwich, not Canterbury. Valuable for collateral and elimination work, and for locating orderable PROB 11 references. Its place and occupation fields are index derivations and disagree with the repository's earlier scan readings on three wills."
   },
   {
     "sourceId": "pease-pennyghael",
@@ -4904,8 +4952,8 @@
     "corpusStatus": "none",
     "corpusPath": "",
     "mediaPath": "",
-    "validationPath": "",
-    "notes": "13 probate items examined for John Gurney emigrant elimination. 7 John Gurneys confirmed in England post-1637 (St Botolph Aldgate, Winkfield, Aylesbury, East Grinstead, Albury, East Chiltington x2). 6 contextual records (Anne Gurney Eythorne, Daniel Gurney Aylesbury, William Gurney London, Richard Gurney London, Sir Richard Gurney, Tobias/Edward Gurney). Full analysis in research/case-files/john-gurney-case-file-v4.md. 2026-06-20 (TNA Discovery online catalogue, https://discovery.nationalarchives.gov.uk): PROB 11 search for Rivet/Rivett/Revett of Garveston/Dereham/Norfolk 1580-1640 = nil (no PCC will for Francis Rivet or the Garveston Rivetts); Gourney/Maldon/Essex 1637-1665 = nil (no PCC will for Francis G14)."
+    "validationPath": "sources/validations/tna-pcc-probate.md",
+    "notes": "13 probate items examined for John Gurney emigrant elimination. 7 John Gurneys confirmed in England post-1637 (St Botolph Aldgate, Winkfield, Aylesbury, East Claydon x2 registrations, East Greenwich, and a merchant). 6 contextual records (Anne Gurney Eythorne, Daniel Gurney Aylesbury, William Gurney London, Richard Gurney London, Sir Richard Gurney, Tobias/Edward Gurney). Full analysis in research/case-files/john-gurney-case-file-v4.md. 2026-06-20 (TNA Discovery online catalogue, https://discovery.nationalarchives.gov.uk): PROB 11 search for Rivet/Rivett/Revett of Garveston/Dereham/Norfolk 1580-1640 = nil (no PCC will for Francis Rivet or the Garveston Rivetts); Gourney/Maldon/Essex 1637-1665 = nil (no PCC will for Francis G14)."
   },
   {
     "sourceId": "tna-pcc-west-barsham-gournay-wills",

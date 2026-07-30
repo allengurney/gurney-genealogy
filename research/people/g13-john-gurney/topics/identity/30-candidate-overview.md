@@ -2,6 +2,28 @@
 
 # Identity — candidate overview
 
+> **SUPERSEDED IN PART by the July 2026 refactor — read this box first.**
+>
+> **"Only Candidate B survives the test" is no longer true, and the framing that produced it has been
+> retired.** Four named men now survive alongside B — the Cheddington 1608 John, the Ackworth
+> household, the Hitcham head, and the younger Berkhamsted John, C(ii) — and B is no longer the
+> leading row on the table at all. The revised assessment of 2026-07-28 puts *documented but never
+> assembled* first at 25%, *no record survives or is indexed* second at 18%, and **Candidate B third
+> at 11%**, against the ~65% this unit's cross-reference assumes.
+>
+> Two structural corrections underlie that. The East Dereham baptism that anchored B **does not
+> exist**. And the counting method here — "of the 51 named households, 45 are eliminated outright" —
+> counts *households as reconstructed*, which repeatedly proves to be too few men: Candidate A was one
+> household and is two, Candidate C was one and is two, and Great Berkhamsted alone holds four
+> contemporaneous Gurney households rather than the one this unit assumes.
+>
+> The §11 cross-reference also points at case file **v4**; the live file is
+> [`john-gurney-case-file-v5.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v5.md).
+>
+> Current treatment: [`63-refactor-child-sweep-closed-and-reassessment.md`](63-refactor-child-sweep-closed-and-reassessment.md),
+> [`66-refactor-berkhamsted-burials-and-the-departure-gap.md`](66-refactor-berkhamsted-burials-and-the-departure-gap.md).
+> Do not carry this unit's counts or probabilities into the graph.
+
 Every documented same-name English John Gurney household the record sweeps have surfaced is tested against one shared matching-criteria profile, drawn from the colonial baseline and set out below; each household that fails it is eliminated or reduced to a residual. Of the 51 named households, 45 are eliminated outright and five more are held to a residual 1–3% likelihood; only Candidate B — the working hypothesis that John was the son of Francis Gurney of Norfolk and London — survives the test.[^sweep-basis] Candidate B's own probability assessment, including its unknown-corridor residuals, is the argument-specific synthesis of the [John Gurney identity case file](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v4.md) §11; it stays there rather than being re-derived in this graph.[^probability-xref] This unit carries the shared test and its outcome, not the surviving candidate's own case.
 
 ## The matching-criteria profile

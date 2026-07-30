@@ -1,0 +1,41 @@
+total_records=583
+johns_count=38
+incomplete=[('bap-gurnoe', 'TIMEOUT')]
+JOHN: Alice GURNEY Baptism 01 Mar 1599/00 Houghton Regis Bedfordshire father=John mother= url=https://www.freereg.org.uk/search_records/6828a860865574b9fca6e586/alice-gurney-baptism-bedfordshire-houghton-regis-1600-03-01
+JOHN: Jhon GURNEY Baptism 21 Feb 1602/3 Stewkley Buckinghamshire father=Jhon mother= url=https://www.freereg.org.uk/search_records/5e6fefd9f493fd014cf2dfab/jhon-gurney-baptism-buckinghamshire-stewkley-1603-02-21
+JOHN: John GURNEY Baptism 05 Apr 1604 Longdon Worcestershire father=John mother= url=https://www.freereg.org.uk/search_records/685bbdbd865574d145c3a47e/john-gurney-baptism-worcestershire-longdon-1604-04-05
+JOHN: Daniel GURNEY Baptism 8 Feb 1600/1 Stewkley Buckinghamshire father=John mother= url=https://www.freereg.org.uk/search_records/5e6fefd0f493fd014cf2df0a/daniel-gurney-baptism-buckinghamshire-stewkley-1601-02-08
+JOHN: Simeon GURNEY Baptism 3 Feb 1604/5 Stewkley Buckinghamshire father=Jhon mother= url=https://www.freereg.org.uk/search_records/5e6ffec0f493fd014cf2f322/simeon-gurney-baptism-buckinghamshire-stewkley-1605-02-03
+JOHN: William GURNEY Baptism 24 Jul 1607 Longdon Worcestershire father=John mother=Frauncis url=https://www.freereg.org.uk/search_records/685bbdbf865574d145c3a587/william-gurney-baptism-worcestershire-longdon-1607-07-24
+JOHN: Giles GURNEY Baptism 20 Mar 1627/8 Longdon Worcestershire father=John mother=Dorothy url=https://www.freereg.org.uk/search_records/685bbdd0865574d145c3abea/giles-gurney-baptism-worcestershire-longdon-1628-03-20
+JOHN: Rafe GURNEY Baptism 20 Mar 1627/8 Longdon Worcestershire father=John mother=Dorothy url=https://www.freereg.org.uk/search_records/685bbdd0865574d145c3abf1/rafe-gurney-baptism-worcestershire-longdon-1628-03-20
+JOHN: John GURNEY Baptism 11 Jul 1630 Lamport Northamptonshire father=John mother=Anne url=https://www.freereg.org.uk/search_records/68709505b18f7c55fc578b9b/john-gurney-baptism-northamptonshire-lamport-1630-07-11
+JOHN: Thomas GURNEY Baptism 24 May 1632 Lamport Northamptonshire father=John mother=Anne url=https://www.freereg.org.uk/search_records/68709506b18f7c55fc578c17/thomas-gurney-baptism-northamptonshire-lamport-1632-05-24
+JOHN: Steven GURNEY Baptism 03 Jul 1634 Lamport Northamptonshire father=John mother=Anne url=https://www.freereg.org.uk/search_records/68709507b18f7c55fc578c96/steven-gurney-baptism-northamptonshire-lamport-1634-07-03
+JOHN: Frances GURNEY Baptism 15 Jun 1639 Longdon Worcestershire father=John mother=Isabell url=https://www.freereg.org.uk/search_records/685bbddb865574d145c3b01d/frances-gurney-baptism-worcestershire-longdon-1639-06-15
+JOHN: Elizabeth GURNEY Baptism 21 Dec 1641 Hempnall Norfolk father=John mother=Jane url=https://www.freereg.org.uk/search_records/684763208655745405c221c1/elizabeth-gurney-baptism-norfolk-hempnall-1641-12-21
+JOHN: John GURNEY Baptism 15 Aug 1650 Greenwich Kent father=John mother= url=https://www.freereg.org.uk/search_records/634ef8bdf493fd866f4a95c9/john-gurney-baptism-kent-greenwich-1650-08-15
+JOHN: Mary GURNEY Baptism  Aspley Guise Bedfordshire father=John mother= url=https://www.freereg.org.uk/search_records/68c1604d865574b346f15518/mary-gurney-baptism-bedfordshire-aspley-guise-1660-01-15
+JOHN: Alice GURNY Baptism 23 Feb 1641/2 Longdon Worcestershire father=John mother=Isabell url=https://www.freereg.org.uk/search_records/685bbddd865574d145c3b0ff/alice-gurny-baptism-worcestershire-longdon-1642-02-23
+JOHN: Justinian GOURNEY Baptism 30 Dec 1650 Lamport Northamptonshire father=John mother=Anne url=https://www.freereg.org.uk/search_records/6870950fb18f7c55fc579009/justinian-gourney-baptism-northamptonshire-lamport-1650-12-30
+JOHN: Anne GOURNEY Baptism 01 Apr 1639 Lamport Northamptonshire father=John mother=Anne url=https://www.freereg.org.uk/search_records/68709509b18f7c55fc578dc1/anne-gourney-baptism-northamptonshire-lamport-1639-04-01
+JOHN: Katharine GOURNEY Baptism 04 Mar 1640/1641 Lamport Northamptonshire father=John mother=Anne url=https://www.freereg.org.uk/search_records/6870950ab18f7c55fc578e49/katharine-gourney-baptism-northamptonshire-lamport-1641-03-04
+JOHN: Anne GOURNEY Baptism 29 Sep 1656 Langbourn London (City) father=John mother= url=https://www.freereg.org.uk/search_records/6843c58986557488166f9235/anne-gourney-baptism-london-city-langbourn-1656-09-29
+JOHN: Dorithy GOURNEY Baptism 22 Jul 1658 Langbourn London (City) father=John mother= url=https://www.freereg.org.uk/search_records/6843c58c86557488166f937a/dorithy-gourney-baptism-london-city-langbourn-1658-07-22
+JOHN: Francis GOURNAY Baptism 29 Apr 1636 Lamport Northamptonshire father=John mother=Anne url=https://www.freereg.org.uk/search_records/68709507b18f7c55fc578cdc/francis-gournay-baptism-northamptonshire-lamport-1636-04-29
+JOHN: Charles GOURNAY Baptism 27 Apr 1637 Lamport Northamptonshire father=John mother=Anne url=https://www.freereg.org.uk/search_records/68709508b18f7c55fc578d37/charles-gournay-baptism-northamptonshire-lamport-1637-04-27
+JOHN: Elizabeth GARNEY Baptism 27 Nov 1629 Oldswinford Worcestershire father=John mother= url=https://www.freereg.org.uk/search_records/5f3dc31df493fd0504cca4bc/elizabeth-garney-baptism-worcestershire-oldswinford-1629-11-27
+JOHN: Humfry GARNEY Baptism 03 Jan 1628/29 Oldswinford Worcestershire father=John mother= url=https://www.freereg.org.uk/search_records/685bd271865574d145ccbad7/humfry-garney-baptism-worcestershire-oldswinford-1629-01-03
+JOHN: John GIRNEY Baptism 23 Dec 1636 Earsham Norfolk father=John mother= url=https://www.freereg.org.uk/search_records/6845da1b86557454054b905a/john-girney-baptism-norfolk-earsham-1636-12-23
+JOHN: John GIRNEY Baptism 11 Jul 1635 Earsham Norfolk father=John mother= url=https://www.freereg.org.uk/search_records/6845da1c86557454054b910e/john-girney-baptism-norfolk-earsham-1635-07-11
+JOHN: Henry GIRNEY Baptism 22 Mar 1638/9 Earsham Norfolk father=John mother=Ales url=https://www.freereg.org.uk/search_records/6845da1986557454054b8f58/henry-girney-baptism-norfolk-earsham-1639-03-22
+JOHN: Henry GORNE Baptism 07 Sep 1659 Deerhurst Gloucestershire father=John mother= url=https://www.freereg.org.uk/search_records/5c38382af493fd8c923ead83/henry-gorne-baptism-gloucestershire-deerhurst-1659-09-07
+JOHN: William GARNE Baptism 21 Oct 1603 Alstone Worcestershire father=John mother= url=https://www.freereg.org.uk/search_records/665d026ff493fd6362422181/william-garne-baptism-worcestershire-alstone-1603-10-21
+JOHN: Jhon GARNE Baptism 23 Feb 1605/6 Alstone Worcestershire father=Jhon mother=Elizabeth url=https://www.freereg.org.uk/search_records/665d0270f493fd63624221c3/jhon-garne-jhon-garne-baptism-worcestershire-alstone-1606-02-23
+JOHN: Simeon GURNEY Burial 5 Feb 1604/5 Stewkley Buckinghamshire father=Jhon mother= url=https://www.freereg.org.uk/search_records/5e7026abf493fd9416574509/simeon-gurney-burial-buckinghamshire-stewkley-1605-02-05
+JOHN: Richard GURNEY Burial 25 Feb 1599/00 Stewkley Buckinghamshire father=John mother= url=https://www.freereg.org.uk/search_records/5e6ff587f493fd014cf2ebf5/richard-gurney-burial-buckinghamshire-stewkley-1600-02-25
+JOHN: Rafe GURNEY Burial 24 Mar 1627/8 Longdon Worcestershire father=John mother=Dorothy url=https://www.freereg.org.uk/search_records/685bbeaf865574d145c40c52/rafe-gurney-burial-worcestershire-longdon-1628-03-24
+JOHN: Steven GURNEY Burial 29 Nov 1636 Lamport Northamptonshire father=John mother= url=https://www.freereg.org.uk/search_records/68733c79b18f7c39eb28df81/steven-gurney-burial-northamptonshire-lamport-1636-11-29
+JOHN: Francis GOURNAY Burial Apr 1636 Lamport Northamptonshire father=John mother=Anne url=https://www.freereg.org.uk/search_records/68733c78b18f7c39eb28df0a/francis-gournay-burial-northamptonshire-lamport-1636-04-
+JOHN: John GIRNEY Burial 01 Nov 1635 Earsham Norfolk father=John mother= url=https://www.freereg.org.uk/search_records/684bd590865574540529480a/john-girney-burial-norfolk-earsham-1635-11-01
+JOHN: Henry GIRNEY Burial 18 Apr 1639 Earsham Norfolk father=John mother=Ales url=https://www.freereg.org.uk/search_records/684bd58c865574540529473e/henry-girney-burial-norfolk-earsham-1639-04-18

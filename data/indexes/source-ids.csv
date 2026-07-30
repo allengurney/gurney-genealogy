@@ -11,6 +11,8 @@ alumni-cantabrigienses-venn,Alumni Cantabrigienses (Venn) — ACAD database,none
 american-biography-cyclopedia-v26-gurney-1926,"American Biography, vol. 26 - Gurney",none,,,sources/validations/american-biography-cyclopedia-v26-gurney-1926.md
 ancestry-child-apprentices-christs-hospital-1617-1778,"Ancestry / Coldham, Child Apprentices in America from Christ's Hospital, London, 1617–1778",none,,,sources/validations/ancestry-child-apprentices-christs-hospital-1617-1778.md
 ancestry-emigrants-in-bondage-1614-1775,"Ancestry / Coldham, Emigrants in Bondage, 1614–1775",none,,,sources/validations/ancestry-emigrants-in-bondage-1614-1775.md
+ancestry-england-select-births-christenings-9841,"Ancestry, England, Select Births and Christenings, 1538-1975 (IGI)",none,,,sources/validations/ancestry-england-select-igi-9841-9852.md
+ancestry-england-select-marriages-9852,"Ancestry, England, Select Marriages, 1538-1973 (IGI)",none,,,sources/validations/ancestry-england-select-igi-9841-9852.md
 ancestry-english-adventurers-emigrants-1609-1660,"Ancestry / Coldham, English Adventurers and Emigrants, 1609–1660",none,,,sources/validations/ancestry-english-adventurers-emigrants-1609-1660.md
 ancestry-norfolk-1535-1812,"Ancestry / NRO, Norfolk Church of England Baptism, Marriages and Burials, 1535-1812",,,sources/media/garveston-parish-register-fts/README.md,
 ancestry-pcc-wills-1384-1858,"Ancestry - PCC Wills, 1384-1858 (collection 5111)",none,,,sources/validations/ancestry-pcc-wills-1384-1858.md
@@ -70,6 +72,7 @@ braintree-records-1640-1793-1886,"Braintree town records, 1640-1793",none,,,sour
 british-archivist-bernau-1913,"Bernau, British Archivist - Francis Gournay",full,sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md,sources/media/The_British_Archivist.pdf,sources/validations/british-archivist-bernau-1913.md
 brooke-catalogue-succession-1619,"Brooke, Catalogue and Succession (1619)",partial,sources/corpus_supplement/brooke-catalogue-succession-1619-selected-gurney-pages.md,sources/media/brooke-catalogue-succession-1619/,sources/validations/brooke-catalogue-succession-1619.md
 brs-v21,BRS v21 (1642 Bucks tax),none,,,
+bucks-archives-catalogue,Buckinghamshire Archives online catalogue,supplement,sources/corpus_supplement/bucks-archives-gurney-deeds-1570-1660.md,,sources/validations/bucks-archives-catalogue.md
 burke-ancient-family,"Burke, The Ancient Family of Gurney",none,,,
 burke-landed-gentry-gurney,Burke's Landed Gentry - Gurney of Maldon pedigree (tertiary),extract,sources/corpus_supplement/burke-landed-gentry-gurney-of-maldon.md,,
 bury-st-james-registers,"Bury St Edmunds, St James registers",extract,sources/corpus_supplement/bury-st-edmunds-gurney-registers-1561-1800.md,,sources/validations/bury-st-james-registers.md
@@ -131,6 +134,7 @@ early-yorkshire-charters-vol-8-clay-1949,"Early Yorkshire Charters, vol. 8: The 
 ecipm-mapping-medieval-countryside,E-CIPM / Mapping the Medieval Countryside (digital Calendar of Inquisitions Post Mortem),partial,sources/corpus_supplement/ecipm-gournay-mentions-index-of-persons.md,,
 edmund-divine-pcc-probate-negative,Edmund Gurney (Divine) probate search — negative,extract,sources/corpus_supplement/edmund-gurney-divine-pcc-probate-negative.md,,sources/validations/edmund-divine-pcc-probate-negative.md
 elizabeth-stettler-walker-gurney-obituary,Elizabeth Stettler Walker Gurney Obituary (2013),none,,,
+england-wales-published-probate-indexes,"England & Wales Published Wills & Probate Indexes, 1300-1858 (FindMyPast / British Record Society)",supplement,sources/corpus_supplement/bucks-probate-index-brs114-gurney-variants-to-1660.md,,sources/validations/england-wales-published-probate-indexes.md
 english-heritage-baconsthorpe-castle-history,English Heritage - Baconsthorpe Castle history,partial,sources/corpus_supplement/english-heritage-baconsthorpe-castle-history.md,,sources/validations/english-heritage-baconsthorpe-castle-history.md
 english-heritage-baconsthorpe-castle-wool-factory,English Heritage - Baconsthorpe Tudor wool factory,partial,sources/corpus_supplement/english-heritage-baconsthorpe-castle-wool-factory.md,,sources/validations/english-heritage-baconsthorpe-castle-wool-factory.md
 evans-dammartin-genealogists-magazine-1965,"Evans, 'Dammartin' (Genealogists' Magazine 1965)",none,,,
@@ -149,12 +153,14 @@ field-genealogy-pierce-1901,"Pierce, Field Genealogy (1901)",none,,,sources/vali
 findagrave-john-gurney-252975617,"Find a Grave memorial 252975617 - John Gurney, Braintree, MA",none,,,sources/validations/findagrave-john-gurney-252975617.md
 findmypast-ackworth-gurnoe-baptism-1637-john-thomas,"Findmypast England Births & Baptisms 1538-1975 - John Thomas Gurnoe, Ackworth, 1637",transcript,,,sources/validations/findmypast-ackworth-gurnoe-burton-marriage-1636.md
 findmypast-ackworth-gurnoe-burton-marriage-1636,"Findmypast England Marriages 1538-1973 - John Gurnoe + Mary Burton, Ackworth, 1636",transcript,,,sources/validations/findmypast-ackworth-gurnoe-burton-marriage-1636.md
+findmypast-bedfordshire-baptisms,Findmypast Bedfordshire Baptisms,none,,,
 findmypast-boyds-inhabitants-london-candidate-d-gurney-cards,Findmypast Boyd's Inhabitants - Candidate D Gurney cards,partial,sources/corpus_supplement/boyds-inhabitants-london-candidate-d-gurney-cards.md,sources/media/findmypast-boyds-inhabitants-london-candidate-d-gurney-cards,sources/validations/findmypast-boyds-inhabitants-london-candidate-d-gurney-cards.md
 findmypast-bucks-baptism-index,Findmypast Buckinghamshire Baptism Index,none,,,sources/validations/findmypast-bucks-baptism-index.md
 findmypast-bucks-burial-index,Findmypast Buckinghamshire Burial Index,none,,,sources/validations/findmypast-bucks-burial-index.md
 findmypast-bucks-marriage-index,Findmypast Buckinghamshire Marriage Index,none,,,sources/validations/findmypast-bucks-marriage-index.md
 findmypast-bury-st-edmunds-st-mary-gurney-burials-1653-1656,Findmypast National Burial Index - Bury St Edmunds St Mary Gurney burials 1653-1656,transcript,,,sources/validations/findmypast-bury-st-edmunds-st-mary-gurney-burials-1653-1656.md
 findmypast-england-marriages-gurney-mary-wildcard-sweep-2026-06,"Findmypast England Marriages 1538-1973 - G*rn* + Mary wildcard sweep, June 2026",none,,,sources/validations/findmypast-england-marriages-gurney-mary-wildcard-sweep-2026-06.md
+findmypast-hertfordshire-banns-marriages,Findmypast Hertfordshire Banns & Marriages,none,,,sources/validations/findmypast-hertfordshire-banns-marriages.md
 findmypast-hertfordshire-baptisms,Findmypast Hertfordshire Baptisms,none,,,sources/validations/findmypast-hertfordshire-baptisms.md
 findmypast-hertfordshire-burials,Findmypast Hertfordshire Burials,none,,,sources/validations/findmypast-hertfordshire-burials.md
 findmypast-john-gurney-2026may-supplementary-same-name-sweep,"Findmypast John Gurney same-name sweep, 12 May 2026 raw batch",transcript,,,sources/validations/findmypast-john-gurney-2026may-supplementary-same-name-sweep.md
@@ -170,7 +176,7 @@ folger-romish-chaine-1624,The Romish chaine (1624) - Internet Archive / Folger,n
 folger-second-commandment-1639,Toward the Vindication of the Second Commandment (1639/1661) - Internet Archive / Folger,none,,,
 foster-alumni-oxonienses-1500-1714,"Foster, Alumni Oxonienses 1500–1714",none,,,sources/validations/foster-alumni-oxonienses-1500-1714.md
 foster-streeter-cummington,"Foster & Streeter, Only One Cummington (1974)",none,,,
-freebmd-freereg,FreeREG / FreeBMD,none,,,
+freebmd-freereg,FreeREG / FreeBMD,none,,,sources/validations/freebmd-freereg.md
 fs-east-dereham-manor-court-books,"FamilySearch - East Dereham manorial court books, 1623-1852",partial,sources/corpus_supplement/paleo-2026-07-packet-53-east-dereham-courts-1623-1635.md,sources/media/east-dereham-court-books-fts/,sources/validations/fs-east-dereham-manor-court-books.md
 fs-england-births-christenings,FamilySearch England Births and Christenings,none,,,sources/validations/fs-england-births-christenings.md
 fs-england-buckinghamshire-church-records-1217-1994,"FamilySearch England, Buckinghamshire, Church Records, 1217-1994",none,,,sources/validations/fs-england-buckinghamshire-church-records-1217-1994.md
@@ -402,7 +408,8 @@ taunton-vital-records-to-1850-vol2-marriages-1928,"Vital Records of Taunton, Mas
 thompson-mobility-migration-1994,"Thompson, Mobility and Migration (1994)",none,,,
 thoms-anecdotes-traditions-1839,"Thoms, Anecdotes and Traditions",supplement,sources/corpus_supplement/lestrange-anecdotes-gurney-roster-thoms-1839.md,,sources/validations/thoms-anecdotes-traditions-1839.md
 three-hundred-years-norman-house,"Hannay, Three Hundred Years of a Norman House",full,sources/corpus/threehundredyear00hann - THEEE HUNDRED YEAES OF A NORMAN HOUSE.txt,,
-tna-a2a-705-349-aylesbury-1483-grant,"TNA A2A 705:349/12946/495200 — Aylesbury grant, 4 April 1483",none,,,
+tna-a2a-705-349-aylesbury-1483-grant,"TNA A2A 705:349/12946/495200 — Aylesbury grant, 4 April 1483",supplement,sources/corpus_supplement/tna-discovery-gurney-equity-and-estate-records-1590-1685.md,,
+tna-discovery-catalogue,"The National Archives, Discovery catalogue",supplement,sources/corpus_supplement/tna-discovery-gurney-equity-and-estate-records-1590-1685.md,,sources/validations/tna-discovery-catalogue.md
 tna-dl-42-2-33-5-richard-i-canville-nicholaa-de-la-haye,TNA DL 42/2/33/5 — Richard I grant to Gerard de Canville and Nicholaa de la Haye,none,,,
 tna-e115-180-113-certificate-of-residence-1641,"TNA E 115/180/113 - certificate of residence, John Gurney, 1641",deferred,,,sources/validations/tna-e115-180-113-certificate-of-residence-1641.md
 tna-e179-1661-london-poll-tax-deferred,"TNA E179 - 1661 Free and Voluntary Present, City of London (deferred image-pull target)",deferred,,,sources/validations/tna-e179-1661-london-poll-tax-deferred.md
@@ -438,3 +445,4 @@ wikitree-newgate-14-horningsheath,"WikiTree Newgate-14 — John Newgate of Horni
 william-of-poitou-gesta-guillelmi,"William of Poitiers, Gesta Guillelmi",partial,,,
 william-of-tyre-historia,"William of Tyre, Historia Rerum in Partibus Transmarinis Gestarum",external,,,
 winthrop-history-new-england-addenda-1636,"Winthrop/Savage, History of New England Addenda",none,,,sources/validations/winthrop-history-new-england-addenda-1636.md
+worcs-archives-pakington-westwood-park,Hampton (Pakington) of Westwood Park - Buckinghamshire property deeds,supplement,sources/corpus_supplement/tna-discovery-gurney-equity-and-estate-records-1590-1685.md,,sources/validations/worcs-archives-pakington-westwood-park.md
