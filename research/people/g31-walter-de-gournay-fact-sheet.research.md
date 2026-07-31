@@ -16,6 +16,12 @@ Walter's world had two theatres. In **England**, the family's manors of Swathing
 
 [^setting-kent]: Edward Hasted, *History of Kent*, 2nd ed., vol. 4 (1798), pp. 544–545 (Addington held of the Montchensies "as of his manor of Swanscombe"); carta of Walter de Meduana, 1166 (Manasser's three Kent fees). Source IDs: `hasted-kent-vol4`, `redbook-exchequer-hall-v1`.
 
+## Power's senior-lordship boundary
+
+Daniel Power's modern study supplies valuable context for the senior Gournay lordship—its three-castle geography, Beauvaisis holdings, and frontier character—but it does **not** name Walter, connect him to Montigny-sur-Andelle, or apply *parage* to the Norfolk junior branch. The p. 504 genealogy diagram is likewise selective and senior-line only. Power is therefore a useful boundary on what this source can support, not independent evidence for Walter's parentage.[^power-walter-scope]
+
+[^power-walter-scope]: Daniel Power, *The Norman Frontier in the Twelfth and Early Thirteenth Centuries* (Cambridge: Cambridge University Press, 2004), pp. 27, 188–191, 355–359, 368–369, 469, 504–505. Extract: `sources/corpus_supplement/power-norman-frontier-gournay-selected-pages.md`. Source ID: `power-norman-frontier-2004`.
+
 ## Cast — the people in this file
 
 | Name | Who they are |
@@ -199,7 +205,7 @@ Walter's documented activity falls within the reign of Stephen (1135–1154), th
 3. **Galiena's witnesses:** the truncated witness list of Galiena de Gurnay's Rochester charter (BL Cotton MS Domitian A.X, f. 91).<!-- L-215 -->
 4. **The Kent William de Gornaco of 1166:** Walter's son (Daniel Gurney's suggestion) or an Addington kinsman?<!-- L-224 -->
 5. **Basilia de Dammartin:** Can Daniel Gurney's name-conjecture (a daughter of Hugh de Gournay III) be tested in the Bec or pipe-roll material?<!-- L-225 -->
-6. **Reference works still to be read:** Keats-Rohan, *Domesday Descendants*, p. 492 in full (snippets captured July 2026); Loyd, *Origins of Some Anglo-Norman Families* (Gurnai entry — no online route; library); Evans, "Dammartin" (1965); Cooke, *Early History of Mapledurham* pp. 9–11, 85; Power, *Norman Frontier* pp. 355–357 (on interlibrary loan); Tanner p. 315.<!-- L-208 through L-214 -->
+6. **Reference works still to be read:** Keats-Rohan, *Domesday Descendants*, p. 492 in full (snippets captured July 2026); Loyd, *Origins of Some Anglo-Norman Families* (Gurnai entry — no online route; library); Evans, "Dammartin" (1965); Cooke, *Early History of Mapledurham* pp. 9–11, 85; Tanner p. 315.<!-- L-214 -->
 
 ---
 

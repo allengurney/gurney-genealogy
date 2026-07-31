@@ -56,6 +56,12 @@ This list is currently the best preserved historical clue to the territorial blo
 
 Planché preserves a concise label for the acquisition block: certain parishes on the left bank of the Epte, annexed by Hugh de Gournay in the twelfth century, were known as the Conquets Hue de Gournay, citing De la Marie's historical researches. This is not as detailed as Decorde's twenty-four-place list, but it independently supports three elements already used by this file: the left-bank/eastern-Epte orientation, the conquest/acquisition language, and the association with a Hugh de Gournay.[^planche-conquets]
 
+### Power 2004 — modern synthesis and limits
+
+Power identifies the *Conquêts Hue de Gournay* as twenty-four villages and hamlets north and east of Gournay. He explains that they generally followed Norman custom while retaining some Beauvaisis practices, confirming that this was a frontier customary-law territory rather than simply a remembered list of villages. He also cautions that both the association with an earlier Hugh and the dating of the relevant evidence are open to challenge. This strengthens the aggregate-place model while preserving its chronological caution.[^power-conquests-place]
+
+[^power-conquests-place]: Daniel Power, *The Norman Frontier in the Twelfth and Early Thirteenth Centuries* (Cambridge: Cambridge University Press, 2004), pp. 162, 188–191. Extract: `sources/corpus_supplement/power-norman-frontier-gournay-selected-pages.md`. Source ID: `power-norman-frontier-2004`.
+
 ## Geographic interpretation now adopted in the library
 
 The uploaded reconstruction work divides the geography into two main polygons plus a schematic frontier line:

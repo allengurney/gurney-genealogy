@@ -2,6 +2,12 @@
 
 The repo's direct line descends through Gerard de Gournay (G32) and his youngest son Walter de Gournay (G31), founder of the junior Norfolk branch. The **senior** Gournay baron line passed through Gerard's eldest son Hugues IV and ended at Hugues V, the last lord of Gournay before the Capetian conquest of Normandy. Both are collateral to the direct line, but the senior line holds the Norman seat itself, and its closing chapter shapes the place library at Gournay-en-Bray, Bellosanne, Cottentray, and Gaillefontaine. This topic file consolidates the senior-line narrative as it appears in Decorde 1861 and adjacent sources.
 
+## Power 2004 — senior-line context
+
+Power's modern synthesis reinforces the senior-line framing used here. He treats Gerard's widow's remarriage to Dreux de Mouchy and her son's Coucy marriage as part of a durable network linking north-eastern Normandy, Picardy, and northern Champagne; he also identifies a senior Hugh's style *Dei permissione dominus Gorniaci* and the exceptional power of the Gournay lords. These observations support the existing primary and charter evidence for the Edith–Dreux and Coucy connections, while retaining the source's own Hugh numbering rather than imposing the repository's generation labels on it.[^power-senior-line]
+
+[^power-senior-line]: Daniel Power, *The Norman Frontier in the Twelfth and Early Thirteenth Centuries* (Cambridge: Cambridge University Press, 2004), pp. 219, 233. Extract: `sources/corpus_supplement/power-norman-frontier-gournay-selected-pages.md`. Source ID: `power-norman-frontier-2004`.
+
 ## Hugues IV de Gournay (c. 1098 – c. 1180)
 
 Hugues IV inherited the senior barony from Gerard. He held Gournay-en-Bray through the long mid-twelfth century — the reigns of Louis VI and Louis VII of France, Henry I and Henry II of England — and was the family figure responsible for the major twelfth-century consolidation of the senior line.

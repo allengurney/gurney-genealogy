@@ -25,7 +25,9 @@ There is no contemporary documentary evidence for Eudes. His existence rests on 
 
 Per Dudo of Saint-Quentin's *De moribus et actis primorum Normanniae ducum* (c. 996–1015, ed. Lair Caen 1865; English trans. Christiansen, Boydell 1998), Rollo divided the new duchy *terram fidelibus suis funiculo divisit* — *"divided the land among his followers by the measurement of a rope"* — at the 911 Treaty of Saint-Clair-sur-Epte. Dudo names few specific recipients; he is hagiographic propaganda for the ducal line, not reliable reportage. Modern scholars (Prentout 1916, Searle 1984, Shopkow 1989) have progressively reassessed Dudo's reliability.
 
-**No contemporary document names Eudes as a recipient.** The Eudes / Gournay attribution rests on the *MS. Histoire de Gournay* and DG's transcription thereof.
+**No contemporary document names Eudes as a recipient.** The Eudes / Gournay attribution rests on the *MS. Histoire de Gournay* and historian Daniel Gurney's transcription of it. Researcher Daniel Power's source-critical overview independently reinforces this: he says Dudo's broad territorial claim for Rollo has been disproved, that Rollo's authority was initially concentrated around Rouen, and that no single established Norman frontier existed in either 911 or 933. The Eudes tradition therefore cannot be converted into a documented personal grant of Gournay by Rollo.[^power-rollo-territory]
+
+[^power-rollo-territory]: Daniel Power, *The Norman Frontier in the Twelfth and Early Thirteenth Centuries* (Cambridge: Cambridge University Press, 2004), pp. 11–12. Extract: `sources/corpus_supplement/power-norman-frontier-gournay-selected-pages.md`. Source ID: `power-norman-frontier-2004`.
 
 ### 2.2 Potin 1842's chronology — Eudes died before Rollo
 

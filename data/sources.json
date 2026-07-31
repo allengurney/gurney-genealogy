@@ -3964,6 +3964,17 @@
       "validationPath": null,
       "notes": "Welsh-chronicle tradition dating the Cardiff engagement of Hugh de Gournay to 1094 (not 1074), between Cardiff and Brecknock, under William II Rufus's Welsh frontier campaigns. Powell's list of named wounded/killed is a near-perfect subset of the French Histoire et Chronique de Normandie list for the same engagement, with the dating offset twenty years. URL above is the patp.us mediating page where the verbatim 1094 entry was retrieved; direct verification against Powell 1584 or the 1811 Wynne re-edition is the next step."
     },
+    "power-norman-frontier-2004": {
+      "shortTitle": "Power, The Norman Frontier (2004)",
+      "citation": "Power, Daniel. The Norman Frontier in the Twelfth and Early Thirteenth Centuries. Cambridge Studies in Medieval Life and Thought, Fourth Series 62. Cambridge: Cambridge University Press, 2004.",
+      "archive": "Allen Gurney's print copy; selected page scans held locally because the book is copyright-restricted.",
+      "url": "https://www.cambridge.org/core/books/norman-frontier-in-the-twelfth-and-early-thirteenth-centuries/EBEC4C90CF06D687036351D2E496166B",
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/power-norman-frontier-gournay-selected-pages.md",
+      "mediaPath": "sources/media/power-norman-frontier-2004",
+      "validationPath": "sources/validations/power-norman-frontier-2004.md",
+      "notes": "Modern scholarly study of Normandy's twelfth- and early-thirteenth-century frontiers. Local scans cover Gournay frontier service and customs, the senior lordship (pp. 355-359), Gerard in 1089 frontier politics, the senior-line genealogy diagram, and the 1202 French capture of Gournay (pp. 532-538). The supplied pages give no direct treatment of Walter de Gournay, Montigny-sur-Andelle, or the Norfolk junior branch."
+    },
     "projet-conde-conquets-hue-gournay": {
       "shortTitle": "Projet ConDE, Conquets Hue de Gournay custom",
       "citation": "Projet ConDE, Universite de Caen Normandie. \"Coutumes et usages locaux des vingt quatre Paroisses, Hameaux & Villages... Conquets Hue de Gournay.\" Digital edition of the Norman custom-law passage.",

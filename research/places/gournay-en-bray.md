@@ -19,7 +19,9 @@ That hierarchy matters because the source material itself tends to treat Gournay
 
 The foundational tradition is that **Eudes (Odon) de Gournay** received the place from **Rollo** after the Norman settlement. Daniel Gurney placed Eudes in the generation immediately following the cession of Normandy and treated Gournay as the territorial basis from which the later line emerged. [DG-I] Hannay developed the same tradition in more literary terms, presenting Gournay as a marchland honour planted on the eastern edge of Normandy by a sea-roving war leader whose descendants would spend centuries defending the frontier. [Hannay]
 
-This remains partly traditional rather than documentary history, but it is still worth preserving because it is the form in which both the Victorian family historians understood the origin of the seat. The place file should continue to distinguish between:
+This remains partly traditional rather than documentary history, but it is still worth preserving because it is the form in which both the Victorian family historians understood the origin of the seat. Power's modern study gives the reason for keeping that distinction firm: early ducal authority was not territorially fixed, and Gournay's later frontier character cannot retrospectively prove a 911 personal grant. The place file should continue to distinguish between:[^power-gournay-place-boundary]
+
+[^power-gournay-place-boundary]: Daniel Power, *The Norman Frontier in the Twelfth and Early Thirteenth Centuries* (Cambridge: Cambridge University Press, 2004), pp. 11–13, 53, 118, 469. Extract: `sources/corpus_supplement/power-norman-frontier-gournay-selected-pages.md`. Source ID: `power-norman-frontier-2004`.
 - **traditional early founding matter** (Eudes, Rollo, black shield tradition), and
 - **firmer later documentary matter** (Renaud, Hugh II, Hugh III onward). [DG-I] [Hannay]
 

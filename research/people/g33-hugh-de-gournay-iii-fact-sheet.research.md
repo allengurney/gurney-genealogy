@@ -232,6 +232,10 @@ Palgrave 1864 (*History of England and Normandy*) gives an independent narrative
 
 This mediator role places Hugh III among the very top tier of Anglo-Norman barons trusted by both sides.
 
+Power adds a qualified territorial observation to this existing Gerberoy evidence. He says that, before the 1078–79 war in which Gournay and Hugh de Gournay suffered defeat near Gerberoy, the Gournay men appear to have seized Beauvaisis parishes later known as the *Conquêts Hue de Gournay*. Power expressly says the dates of both events are open to challenge. This supports the existing association of Hugh III with the Conquests, but is not proof of a precisely dated seizure.[^power-hugh-gerberoy-conquests]
+
+[^power-hugh-gerberoy-conquests]: Daniel Power, *The Norman Frontier in the Twelfth and Early Thirteenth Centuries* (Cambridge: Cambridge University Press, 2004), p. 162. Extract: `sources/corpus_supplement/power-norman-frontier-gournay-selected-pages.md`. Source ID: `power-norman-frontier-2004`.
+
 ### 6.4 1067 + 1073 — earlier ducal charter witnesses
 
 FMG MedLands (cited via the FS export) preserves earlier appearances:
@@ -344,4 +348,3 @@ The William Baynard rebellion is the 1110 episode in which Baynard's English hon
 [^v71-armstrong-bastwick]: Mostyn John Armstrong, *The History and Antiquities of the County of Norfolk*, vol. 7 (Norwich, 1781), Tunstead Hundred — Bastwick / D'Aggs entry. Internet Archive item `bim_eighteenth-century_history-and-antiquities-_armstrong-mostyn-john_1781_7`. Source ID: `armstrong-norfolk-1781`.
 
 <!-- Lead trail: L-232 (medieval Gournay charter layer) closed 2026-07-17 after the DEEDS/SCRIPTA sweep landed (§3.4 reconciliation, §4 senex act, §5.2/§5.4 Bec recitations, §6.4 Fleury 1067 + Warner kinsman). The two test-bearing residuals — DEEDS 06081055 full-text pull (Avranches 1037×1048) and the SCRIPTA sc_151 date-apparatus check on the Havoth act — were spun into L-247 (2026-07-17). Deliberately lead-less (diminishing returns): blanket SCRIPTA sc_-record cross-checks of the mirrored Norman acta; DEEDS 05560028/29 (King John 1203 Rouen originals, witness-lists only). -->
-

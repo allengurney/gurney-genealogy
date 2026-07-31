@@ -56,6 +56,10 @@ The political moment that aligned Gerard with Rufus against Robert Curthose:
 
 Painchault 2012 contextualizes this as a coordinated frontier-triad action: Gournay + La Ferté + Gaillefontaine sit at the head of the Bresle valley, the political stake of first order between the duchy and Capetian France. Painchault: *"Les châteaux sont situés à la naissance de la vallée de la Bresle, à la frontière du duché et du royaume de France, et constituent un enjeu politique de premier ordre tant du côté français que normand."*
 
+Power independently places Gerard among the five leading north-eastern frontier magnates who submitted to William Rufus in 1089. He reads Gerard's choice as part both of the contest for the Andelle valley and of the wider struggle among frontier lords, Robert Curthose, Rufus, and Count William of Évreux. This modern synthesis reinforces, but does not replace, Orderic's primary account.[^power-gerard-1089]
+
+[^power-gerard-1089]: Daniel Power, *The Norman Frontier in the Twelfth and Early Thirteenth Centuries* (Cambridge: Cambridge University Press, 2004), pp. 368–369. Extract: `sources/corpus_supplement/power-norman-frontier-gournay-selected-pages.md`. Source ID: `power-norman-frontier-2004`.
+
 ### 2.4 [1089] — Orderic on Écouché: Gerard as son of Basilea daughter of Gerard Flaitel
 
 The pedigree-grounding citation:
