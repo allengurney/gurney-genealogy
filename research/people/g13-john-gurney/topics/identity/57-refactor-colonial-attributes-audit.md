@@ -1,5 +1,8 @@
-<!-- WIP refactor unit, July 2026. Not yet in the G13 context graph; no prose markers. Graph-bearing
-     content is tracked in sources/intake/g13-graph-breadcrumb.md. Not linked from published pages. -->
+<!-- July 2026 refactor working round. Its findings are carried in the permanent identity units
+     30- to 39-, which are the current account; this file is retained as the working record,
+     including its own correction and retraction trail, which is deliberate and belongs to the
+     research layer. Not yet in the G13 context graph — graph-bearing content is tracked in
+     sources/intake/g13-graph-breadcrumb.md. Not linked from published pages. -->
 
 # The colonial template, audited — Sarah, Isaac, and the tailor label
 
@@ -57,7 +60,7 @@ Mary, Richard and John Jr.
 ## Sarah does not carry the weight the case file assigns her
 
 The case file singles her out: "One colonial-side check now carries unusual weight … The naming
-inference in §6.3a depends entirely on Sarah, the supposed eldest child, not existing. If she is
+inference in §6.6 depends entirely on Sarah, the supposed eldest child, not existing. If she is
 real and eldest, Richard moves to the second-son slot, the maternal-grandfather reading
 returns."[^casefile]
 

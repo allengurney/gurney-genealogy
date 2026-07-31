@@ -1,5 +1,32 @@
 # Thread prompt B — bringing the repo up to the new G13 baseline
 
+> **STATUS, 30 July 2026 — this prompt is live, and one of four tranches is done.**
+>
+> The assessment this prompt asks for is at
+> [`prompt-b-reconciliation-assessment.md`](prompt-b-reconciliation-assessment.md). It measured the work
+> as four tranches, not one, and recorded three corrections to the scope described below.
+>
+> - **Tranche A — research layer: DONE.** The 26 refactor units are promoted into a permanent `30-`–`39-`
+>   identity sequence (three new units authored); the seven pre-existing units are rewritten to the
+>   current position and their superseded banners removed; the variant-scale binary is gone from every
+>   live file; the R-71 void-negative audit is executed and returned no void negative.
+> - **Tranche B — the case file: DONE.** Rewritten and cut from 31,910 to 20,934 words; front matter
+>   corrected to version 5; §5 repurposed to state that no baptism of a John survives; footnotes
+>   renumbered 1–71; v4 retired to `research/case-files/_legacy/` with a `BASELINE.md`; 261 inbound
+>   references swapped across ~60 live files. Section numbering `1`–`12` and all anchors preserved.
+> - **Tranche C — source, data and leads layers: DONE.** Both fact sheets and the research companions
+>   corrected off the ~65% figure and the withdrawn East Dereham baptism; the 76 `R-nn` actions folded
+>   into the lead catalogue as 55 open leads, 15 closed leads and 7 struck; the three sweep datasets
+>   archived with their coverage ledgers; `ancestors.json`, `sources.json` and the ID indexes brought
+>   current; Epping and North Weald Bassett recorded as newly relevant places.
+> - **Tranche D — context graph and published surfaces.** Not started.
+>
+> **Scope corrections carried by the assessment:** fact-sheet patchset v126 is **already applied**
+> (`sources/intake/done/`, stamped 18 July 2026) and should be struck from the scope below; `59-` holds
+> **76** `R-nn` rows, not 73, and a material subset of them are repo-edit instructions for this
+> reconciliation rather than research leads, so they must be triaged into three classes before any lead
+> number is issued.
+
 *Revised 29 July 2026, at the close of the research phase. The refactor is now **finished as research**
 and unincorporated as repo state — this prompt is the incorporation. Recommended model: Opus 5. Work in
 `main`, no patchset process — review will be by GitHub Desktop diff.*
@@ -24,7 +51,7 @@ the whole repo brought into line with them.
 
 ## Ground yourself first
 
-1. `research/case-files/john-gurney-case-file-v5.md` — the new authority. Note its §11 probability
+1. `research/case-files/john-gurney-case-file-v5.md` — §6 to §11 is the new authority. Note its §11 probability
    table: **18 rows summing to 100**, three of which are *record-state* rows rather than people and
    together hold 44%.
 2. `research/people/g13-john-gurney/topics/identity/` — the **`50-` through `75-`** refactor units. Each
@@ -82,6 +109,8 @@ superseded artefacts in this repo have been handled in a particular way.
 `Version: 4.3` and `updated: 9 June 2026` on a file that is substantively v5 and was edited through late
 July 2026. Fix it as part of the swap.
 
+Case file revisions. The revisions are substantial and include updating §1 to §5 to current thinking.  The case file should be written as if all of the evidence and findings were derived instantaneously and not evolved over multiple iterations. While written objectively and balanced, the case file is intended to advocate for candidate B. If/when another candidate rises to candidate B's level, we will draft a case file for that candidate. We let the length of the case file grow as research evolved and it now needs to be streamlined from its near 37,000 words to something more readable in the 15,000 to 25,000 word range. All trimmed content should be re-homed and not lost. The wording of the case file also must be plainly spoken and consumable by an average human without expertise in the family or this repo. For footnotes or footnote content that is removed, if is it not referenced elsewhere in the repo, then add it to a historical reconciliation file (we do not want to create orphaned sources without references in research). The sections of the case file can be adjusted to fit what needs to be messaged and to aid a concise reading (although I generally like the design of sections 6 to 11 so changes in structure should be lighter in that area). The mechanics of *how* the searches were ran, discoveries made, etc. are generally not important to the case file messaging. Similarly, the sources are not generally core to the story and most references should be in footnote citations.
+
 **The refactor units.** They carry `refactor` in the filename and an HTML comment marking them WIP and
 graph-absent. Decide per unit whether to promote content into the existing `30-`–`37-` units, keep the
 unit and renumber it into the permanent sequence, or retire it once its content has landed elsewhere.
@@ -104,7 +133,7 @@ refactor work, of which the newest is `findmypast-county-baptism-sets-2026-07-sw
 validation worksheet); `data/sources.json` notes discipline — catalogue annotation only, never evidence.
 `tools/lint_source_notes.py` currently reports **two pre-existing flags**, `bucks-archives-catalogue`
 (711 chars) and `england-wales-published-probate-indexes` (604 chars). Neither is refactor work; fix them
-if you are in the file anyway, but they are not a blocker.
+if you are in the file anyway, but they are not a blocker. Note that the notes field is not intended to be a summary of the source and our use and not as a listing of or repository for evidence.  
 
 **Raw sweep data awaiting routing.** Three working datasets sit in `sources/intake/new/` and have been
 cited from the research layer but never triaged:
@@ -129,8 +158,7 @@ against existing leads: at least one is known to be mis-based and several others
 that many `R-nn` rows are already **Done** with their result recorded in the row — those become closed
 leads with a finding, not open ones.
 
-**The site.** At least one public page presents an analysis of a reading that has been disproved. Check
-what else on the published surface depends on the old baseline, including any probability figure.
+**The site.** At least one public page presents an analysis of a reading that has been disproved (remove it from the published site but keep it in the repo). Check what else on the published surface depends on the old baseline, including any probability figure.
 
 ## Where the research actually stands — do not overstate it either way
 
@@ -146,6 +174,8 @@ The identification is **open**, and the reconciliation must leave it open:
 
 Files that still imply a settled identification need to stop implying it. Equally, do not inflate the
 uncertainty into "nothing is known" — a great deal was eliminated, and the eliminations are findings.
+
+The bottom line: With no other candidate above candidate B, he is still presented as the most probable lineage.  What I don't want to see is extensive "clutter" for the reader of our published material meaning extra prose, caveating, complicated wording, lengthy conditions, etc. for item after item in a narration. Genealogy (particularly going back hundreds of years) is an imprecise accounting so while we strive not to misrepresent, we should also recognize that there's inference needed and we do the best we can...and it has to be consumable for reading (and even enjoyment). If/when we have a candidate with a sufficiently higher probability, we can explore how we present that in the library at that time.    
 
 ## How I want you to work
 

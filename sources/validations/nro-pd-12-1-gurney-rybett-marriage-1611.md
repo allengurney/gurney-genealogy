@@ -16,7 +16,7 @@ as confirmation then, and re-read independently 2026-07-22. Unlike the East Dere
 audited alongside it, this is a whole-entry reading with every field legible and mutually
 consistent — see `sources/intake/paleography-staging/done/east-dereham-re-review-2026-07-FINDINGS-deviation-audit.md`.
 
-**Findings recorded in:** `research/case-files/john-gurney-case-file-v4.md` §2.2;
+**Findings recorded in:** `research/case-files/john-gurney-case-file-v5.md` §2.2;
 `research/people/rivett-family-of-garveston.md`.
 
 **Unexamined / open:** only the single marriage frame was examined; St Martin at Palace baptisms and

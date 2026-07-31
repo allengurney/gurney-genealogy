@@ -16,4 +16,4 @@ Usable for derivative-source and family-arms lead. Full page images were not ret
 ## Findings landed
 
 - `research/people/g13-john-gurney-fact-sheet.research.md`
-- `research/case-files/john-gurney-case-file-v4.md`
+- `research/case-files/john-gurney-case-file-v5.md`

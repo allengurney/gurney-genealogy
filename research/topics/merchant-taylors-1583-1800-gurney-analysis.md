@@ -5,7 +5,7 @@ Cross-cutting source analysis of UKDA-SN-9263 (Scott 2024), the published transc
 [^source-1]: Scott, M. (2024). *Merchant Taylors' Company of London: Apprentices 1583–1800* [data collection]. UK Data Service. SN 9263. DOI: [10.5255/UKDA-SN-9263-1](https://doi.org/10.5255/UKDA-SN-9263-1). Study catalogue page: [datacatalogue.ukdataservice.ac.uk/studies/study/9263#details](https://datacatalogue.ukdataservice.ac.uk/studies/study/9263#details). British Record Society volumes 136–138 (forthcoming print) and Guildhall Library Manuscripts Section, MT binding books and freedom registers. Source ID: `ukda-9263-mt-apprentices-scott-2024`. Validation: `sources/validations/ukda-9263-mt-apprentices-scott-2024.md`. Media: `sources/media/ukda-9263-merchant-taylors-apprentices/`.
 [^source-2]: Daniel Gurney, *The Record of the House of Gournay*, Part III (London: J. B. Nichols and J. G. Nichols, 1848), pp. 523–526 and Appendix C; *Supplement* (privately printed, 1858), Note 181. Source IDs: `dg-rec-pt3`; `dg-rec-supp`.
 [^source-3]: T. J. Pettigrew, "On the House of Gournay," *Collectanea Archaeologica*, vol. 2 (London: Longmans, Green, and Co., 1871), pp. 207–210. Source ID: `pettigrew-collectanea-house-gournay-1871`.
-[^source-4]: `research/case-files/john-gurney-case-file-v4.md`; `research/people/g13-john-gurney-fact-sheet.research.md`; `research/people/g14-francis-gurney-fact-sheet.research.md`.
+[^source-4]: `research/case-files/john-gurney-case-file-v5.md`; `research/people/g13-john-gurney-fact-sheet.research.md`; `research/people/g14-francis-gurney-fact-sheet.research.md`.
 
 ---
 
@@ -96,7 +96,7 @@ The negative result does not refute Candidate B. It removes a piece of supportin
 
 [^john-1602]: UKDA-SN-9263, COMB sheet row 7404 and Freedoms sheet row 25155 (volume 3b, binding no. 852, page 114).
 [^john-1655]: UKDA-SN-9263, COMB sheet row 25472 and Freedoms sheet row 25159 (volume 14, binding no. 514, page 67).
-[^drapers-cross]: `research/people/john-gurney-candidate-d.md`; `research/case-files/john-gurney-case-file-v4.md`, §8.4.
+[^drapers-cross]: `research/people/john-gurney-candidate-d.md`; `research/case-files/john-gurney-case-file-v5.md`, §8.4.
 
 ---
 
@@ -148,7 +148,7 @@ The wider scan also surfaced Garne / Garneys / Goney as the only g-r-n / g-n sur
 
 [^goney-binding]: UKDA-SN-9263, COMB sheet row 37937 and Freedoms sheet row 23488 (volume 6a, binding no. 725, page 86). Source ID: `ukda-9263-mt-apprentices-scott-2024`.
 [^garne-binding]: UKDA-SN-9263, COMB sheet row 12199 and Freedoms sheet row 22389 (volume 11, binding no. 1055, page 124). Source ID: `ukda-9263-mt-apprentices-scott-2024`.
-[^garneys-binding]: UKDA-SN-9263, COMB sheet row 35186 and Freedoms sheet row 22406 (volume 2a, binding no. 417, page 25). For the established Garneys gentry surname, see `research/case-files/john-gurney-case-file-v4.md` §8 (Mickfield / Morningthorpe Garneys row). Source ID: `ukda-9263-mt-apprentices-scott-2024`.
+[^garneys-binding]: UKDA-SN-9263, COMB sheet row 35186 and Freedoms sheet row 22406 (volume 2a, binding no. 417, page 25). For the established Garneys gentry surname, see `research/case-files/john-gurney-case-file-v5.md` §8 (Mickfield / Morningthorpe Garneys row). Source ID: `ukda-9263-mt-apprentices-scott-2024`.
 
 ### 4.4 De-duplication note
 
@@ -185,7 +185,7 @@ A focused summary of the bearings on the case file.
 ## Crosslinks
 
 - Direct-line ancestor: `research/people/g14-francis-gurney-fact-sheet.research.md` (apprenticeship dates, Spelman master-apprentice link, "journey into the north" transfer note).
-- Direct-line ancestor: `research/people/g13-john-gurney-fact-sheet.research.md` and the active case file: `research/case-files/john-gurney-case-file-v4.md` (negative result on a John-son-of-Francis MT binding; date discrepancy on Francis G14's freedom).
+- Direct-line ancestor: `research/people/g13-john-gurney-fact-sheet.research.md` and the active case file: `research/case-files/john-gurney-case-file-v5.md` (negative result on a John-son-of-Francis MT binding; date discrepancy on Francis G14's freedom).
 - Collateral context: `research/people/francis-gurney-of-maldon.md` (Norwich Quaker line / Richard Gurney goldsmith ancestry).
 - Aylesbury Vale comparator cluster: case-file v4 §8.3 (Cublington, Aylesbury, Winchendon, Edlesborough, Chesham, etc.).
 - Source: `sources/validations/ukda-9263-mt-apprentices-scott-2024.md`; `sources/media/ukda-9263-merchant-taylors-apprentices/`.

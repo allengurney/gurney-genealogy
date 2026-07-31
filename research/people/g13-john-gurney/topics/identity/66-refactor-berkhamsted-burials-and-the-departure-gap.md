@@ -1,6 +1,8 @@
-<!-- WIP refactor unit, July 2026. Not yet in the G13 context graph; no prose markers. Graph-bearing
-     content is tracked in sources/intake/g13-graph-breadcrumb.md. Not linked from published pages.
-     Executes R-43, R-44 (part), R-47 and R-48 (part) against the method in 65-. -->
+<!-- July 2026 refactor working round. Its findings are carried in the permanent identity units
+     30- to 39-, which are the current account; this file is retained as the working record,
+     including its own correction and retraction trail, which is deliberate and belongs to the
+     research layer. Not yet in the G13 context graph — graph-bearing content is tracked in
+     sources/intake/g13-graph-breadcrumb.md. Not linked from published pages. -->
 
 # The Berkhamsted burials exist — the departure-shaped gap does not
 
@@ -176,9 +178,15 @@ John Gorne* belongs to a **Garne** family, a settled Cotswold surname distinct f
 parent-name sweep on the household returns children of a John Garn/Garne at Bishop's Cleeve running
 **Mathew 1629, John 1679, John 1681, James 1683, Frances 1687, Giles 1692, Mary 1712, Alce
 1714**.[^garne] A lineage baptising in the same parish for eighty-five years across and beyond the
-emigration window is not an emigrant household, and the surname is not a Gurney variant. The same
-reading disposes of **CR-022, Marye Garne 1638 at Compton Abdale**, twenty miles away in the same
-county. Both should be reclassified from Gurney-variant to Garne and retired from the candidate set.
+emigration window is not an emigrant household. The same reading disposes of **CR-022, Marye Garne
+1638 at Compton Abdale**, twenty miles away in the same county. Both are retired from the candidate
+set.
+
+> **Corrected 2026-07-29.** This paragraph originally added "and the surname is not a Gurney variant,"
+> and directed that both rows be reclassified from Gurney-variant to Garne. **The surname-class part is
+> withdrawn** — *Garne* is a moderate-weight Gurney form and variant plausibility is a per-record
+> weight, never a class boundary (unit 69). What retires these two rows is the household's own
+> eighty-five-year continuity in one parish, which is unaffected.
 
 **Earsham, Norfolk — eliminated on the wife's name and on a documented English death.** The Norfolk
 Baptisms set carries four Girney baptisms at Earsham: **John 1636, father John**; **Henry 1638,

@@ -7,7 +7,7 @@ Examined: 2026-05-12 Findmypast search of the National Burial Index for England 
 - Gurney (given name not transcribed), 13 May 1656, notes "Wife".
 
 Findings landed in:
-- `research/case-files/john-gurney-case-file-v4.md` Section 8 new Bury St Edmunds row and Section 10.6 paragraph addition.
+- `research/case-files/john-gurney-case-file-v5.md` Section 8 new Bury St Edmunds row and Section 10.6 paragraph addition.
 
 Source ID added:
 - `findmypast-bury-st-edmunds-st-mary-gurney-burials-1653-1656`

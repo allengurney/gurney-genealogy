@@ -17,7 +17,7 @@ Usable for the Newgate-apprentice chronology and the two-Johns/composite-source 
 ## Findings recorded in
 
 - `research/people/g13-john-gurney-fact-sheet.research.md`
-- `research/case-files/john-gurney-case-file-v4.md`
+- `research/case-files/john-gurney-case-file-v5.md`
 
 ## Patchset
 

@@ -16,4 +16,4 @@ Usable as a derivative source. The Elm Street Cemetery burial location is a new 
 ## Findings landed
 
 - `research/people/g13-john-gurney-fact-sheet.research.md`
-- `research/case-files/john-gurney-case-file-v4.md`
+- `research/case-files/john-gurney-case-file-v5.md`

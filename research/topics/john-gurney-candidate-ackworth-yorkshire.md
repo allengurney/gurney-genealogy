@@ -1,12 +1,12 @@
 # John Gurney Candidate — Ackworth, Yorkshire (John Gurnoe × Mary Burton)
 
-*Alternative-candidate research for **John Gurney-1 of Braintree, Massachusetts (G13)**. This file holds the detailed working research kept out of the main [G13 research companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g13-john-gurney-fact-sheet.research.md); the published argument is the [John Gurney case file](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v4.md). Standing: residual ~3% (the only wife-name match with an emigrant-shaped disappearance, capped by the pre-1628 marriage bound).*
+*Alternative-candidate research for **John Gurney-1 of Braintree, Massachusetts (G13)**. This file holds the detailed working research kept out of the main [G13 research companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g13-john-gurney-fact-sheet.research.md); the published argument is the [John Gurney case file](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v5.md). Standing: residual ~3% (the only wife-name match with an emigrant-shaped disappearance, capped by the pre-1628 marriage bound).*
 
 John Gurnoe and Mary Burton married at Ackworth, Yorkshire, on 6 June 1636.[^fmp-ackworth-marriage-1636] A John Thomas Gurnoe was baptized at the same parish on 19 January 1637.[^fmp-ackworth-baptism-1637] The household is small in indexed coverage; the indexed Findmypast pass surfaces no Ackworth burial of either spouse and no further indexed children for this household in the present range.
 
 ## Relevance to the colonial John Gurney case file
 
-The wife is genuinely named Mary, and the marriage falls in the right window for an emigration cohort departing England in 1636-1638. Those two factors keep this household visible as a same-name comparator in the John Gurney case file (Section 8 of `research/case-files/john-gurney-case-file-v4.md`).
+The wife is genuinely named Mary, and the marriage falls in the right window for an emigration cohort departing England in 1636-1638. Those two factors keep this household visible as a same-name comparator in the John Gurney case file (Section 8 of `research/case-files/john-gurney-case-file-v5.md`).
 
 The case against this household being the Massachusetts emigrant remains the stronger reading.
 

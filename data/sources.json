@@ -812,7 +812,7 @@
       "corpusPath": "sources/corpus_supplement/bucks-archives-gurney-deeds-1570-1660.md",
       "mediaPath": null,
       "validationPath": "sources/validations/bucks-archives-catalogue.md",
-      "notes": "Catalogue-level descriptions, not document images. Searched for Gurney 1570-1660 in July 2026; the extract at corpusPath carries every hit. The catalogue normalises the surname, so the variants gurnay, gorney, garney, gournay and gurnie each return zero in that window while gurney returns the full set - a gurney blank is therefore a real blank, not a spelling artefact. It indexes abstracts rather than document text, so a person named only inside an unabstracted deed will not surface. Individuates several Buckinghamshire John Gurneys who were previously known only from parish registers, including the Bishopstone gentleman who sold the family estate in 1648/9 and the Owlswick marriage settlement of 1619."
+      "notes": "Catalogue-level descriptions of deeds and estate papers, not document images. Searched for Gurney 1570-1660 in July 2026; the extract at corpusPath carries every hit. Two usage notes: the catalogue normalises the surname, so a blank is a real blank rather than a spelling artefact; and it indexes abstracts rather than document text, so a person named only inside an unabstracted deed will not surface."
     },
     "burke-ancient-family": {
       "shortTitle": "Burke, The Ancient Family of Gurney",
@@ -1493,7 +1493,7 @@
       "corpusPath": "sources/corpus_supplement/bucks-probate-index-brs114-gurney-variants-to-1660.md",
       "mediaPath": null,
       "validationPath": "sources/validations/england-wales-published-probate-indexes.md",
-      "notes": "Page images of the printed British Record Society county probate indexes. The results table shows only place, page number and publication, so the testator names must be read from the page image itself. Buckinghamshire vol. 114 was read in full for Gurney variants to 1660 (printed pp. 173-174, records OR/BRS/333/0197 and 0198); the extract is at the corpusPath. Coverage is by county volume and is uneven: Hertfordshire is absent from the dataset entirely, and Northamptonshire is represented only by administrations indexes from 1677, so a blank for those counties is a coverage gap and not a negative."
+      "notes": "Page images of the printed British Record Society county probate indexes. The results table shows only place, page number and publication, so testator names must be read from the page image itself. Buckinghamshire vol. 114 was read in full for Gurney variants to 1660; the extract is at corpusPath. Coverage is by county volume and uneven - Hertfordshire is absent entirely and Northamptonshire runs only from 1677."
     },
     "english-heritage-baconsthorpe-castle-history": {
       "shortTitle": "English Heritage - Baconsthorpe Castle history",
@@ -3566,7 +3566,7 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": "sources/validations/east-dereham-pd-86-41-register-structure-and-chronology.md",
-      "notes": "Microfilmed East Dereham parish register, 69 images, covering 1593–1641 baptisms, marriages, and burials in combined annual returns. Relevant because it carries the Francis Gurney child cluster and the disputed Entry E baptism read as \"John the sonne of ffrancis Gurnie.\" Much of the film is degraded, so most entry dates carry a ±2-year margin. The validation worksheet records the image set (under sources/media/Parish_Register_East_Dereham/), the register's structure, and where findings landed."
+      "notes": "East Dereham parish register, catalogued and digitised as 110 images: loose annual certificates rather than a bound book, covering 1593–1641 baptisms, marriages and burials in combined annual returns. Relevant because it carries the Francis Gurney child cluster. Two coverage limits govern any use of it: the returns for 25 March 1611 to 25 March 1616 do not survive, and twelve more are missing between 1594 and 1608. Years should be taken from in-parchment headings only, never from image position. The validation worksheet records the image set and the register's structure."
     },
     "nrp-recherches-possessions-1852": {
       "shortTitle": "NRP de la Mairie, Recherches…Possessions des Sires Normands (1852)",
@@ -4578,7 +4578,7 @@
       "corpusPath": null,
       "mediaPath": null,
       "validationPath": "sources/validations/tna-pcc-probate.md",
-      "notes": "13 probate items examined for John Gurney emigrant elimination. 7 John Gurneys confirmed in England post-1637 (St Botolph Aldgate, Winkfield, Aylesbury, East Claydon x2 registrations, East Greenwich, and a merchant). 6 contextual records (Anne Gurney Eythorne, Daniel Gurney Aylesbury, William Gurney London, Richard Gurney London, Sir Richard Gurney, Tobias/Edward Gurney). Full analysis in research/case-files/john-gurney-case-file-v4.md. 2026-06-20 (TNA Discovery online catalogue, https://discovery.nationalarchives.gov.uk): PROB 11 search for Rivet/Rivett/Revett of Garveston/Dereham/Norfolk 1580-1640 = nil (no PCC will for Francis Rivet or the Garveston Rivetts); Gourney/Maldon/Essex 1637-1665 = nil (no PCC will for Francis G14)."
+      "notes": "13 probate items examined for John Gurney emigrant elimination. 7 John Gurneys confirmed in England post-1637 (St Botolph Aldgate, Winkfield, Aylesbury, East Claydon x2 registrations, East Greenwich, and a merchant). 6 contextual records (Anne Gurney Eythorne, Daniel Gurney Aylesbury, William Gurney London, Richard Gurney London, Sir Richard Gurney, Tobias/Edward Gurney). Full analysis in research/case-files/john-gurney-case-file-v5.md. 2026-06-20 (TNA Discovery online catalogue, https://discovery.nationalarchives.gov.uk): PROB 11 search for Rivet/Rivett/Revett of Garveston/Dereham/Norfolk 1580-1640 = nil (no PCC will for Francis Rivet or the Garveston Rivetts); Gourney/Maldon/Essex 1637-1665 = nil (no PCC will for Francis G14)."
     },
     "tna-pcc-west-barsham-gournay-wills": {
       "shortTitle": "TNA PCC wills, Gournay of West Barsham (1642, 1661)",

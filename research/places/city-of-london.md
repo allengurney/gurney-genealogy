@@ -14,7 +14,7 @@ Robert Gourney was admitted to the Drapers' Company by servitude on 16 December 
 
 John Gurney, son of Robert, was admitted to the Drapers' Company by redemption on 11 February 1623/4 (a non-patrimony path that requires explanation since Robert was a Drapers' freeman since 1581) and appears as a Drapers' apprenticeship master on 3 November 1630, binding Henry Smith of Kilton, Suffolk, for seven years. In 1638 the St Augustine rents return lists one John Gurney at £10 in MS. 67a; on MS. p. 68 of the same return Joseph Huntscott (= Joseph Henscott, the Stationer named in Robert's will as overseer) appears at £12, confirming continued parish-network presence of the same circle 13 years after Robert's death. Boyd's Inhabitants of London card for John Gurny of S Augustine also carries an unverified 1661 Old Change poll-tax reading, which if confirmed at image level would extend the household's London presence well past the colonial-emigration horizon.[^rollco-1630-place][^bho-1638-place][^boyd-card-place]
 
-This Old Change household is the Candidate D cluster of the John Gurney case. Depth-of-detail analysis is held in `research/people/john-gurney-candidate-d.md`; the case-file summary is at `research/case-files/john-gurney-case-file-v4.md` Section 8.4.
+This Old Change household is the Candidate D cluster of the John Gurney case. Depth-of-detail analysis is held in `research/people/john-gurney-candidate-d.md`; the case-file summary is at `research/case-files/john-gurney-case-file-v5.md` Section 8.4.
 
 ### Haberdashers' Gournay charity
 

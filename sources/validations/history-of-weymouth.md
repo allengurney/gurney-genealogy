@@ -18,4 +18,4 @@ Usable. Full transcribed extract in `sources/corpus_supplement/history-of-weymou
 
 - `research/people/g13-john-gurney-fact-sheet.research.md`
 - `research/people/g12-richard-gurney-fact-sheet.research.md`
-- `research/case-files/john-gurney-case-file-v4.md`
+- `research/case-files/john-gurney-case-file-v5.md`

@@ -18,7 +18,7 @@ const highlightsTarget = path.join(projectRoot, "research", "highlights.md");
 const keyResearchTarget = path.join(projectRoot, "key-research");
 const keyResearchSources = [
   {
-    source: path.join(repoRoot, "research", "case-files", "john-gurney-case-file-v4.md"),
+    source: path.join(repoRoot, "research", "case-files", "john-gurney-case-file-v5.md"),
     target: path.join(keyResearchTarget, "john-gurney-case-file.md"),
   },
   {

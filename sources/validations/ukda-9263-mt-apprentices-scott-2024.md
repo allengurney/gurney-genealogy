@@ -23,7 +23,7 @@ All sheets were filtered for surname tokens matching the Gurney variant set (Gur
 
 ## Where findings landed
 - `research/topics/merchant-taylors-1583-1800-gurney-analysis.md` — substantive analysis, person-by-person, with implications for Candidate B (G13 John Gurney as son of Francis G14).
-- Crosslinked update points: `research/people/g14-francis-gurney-fact-sheet.research.md` (Francis G14 own apprenticeship dates, transfer note, Spelman master-apprentice link); `research/case-files/john-gurney-case-file-v4.md` (negative result on a John-son-of-Francis MT binding; reconciliation of the 16 June vs 30 June 1606 freedom date).
+- Crosslinked update points: `research/people/g14-francis-gurney-fact-sheet.research.md` (Francis G14 own apprenticeship dates, transfer note, Spelman master-apprentice link); `research/case-files/john-gurney-case-file-v5.md` (negative result on a John-son-of-Francis MT binding; reconciliation of the 16 June vs 30 June 1606 freedom date).
 
 ## Limits
 - The dataset is the published transcription of the Company's binding books and freedom registers; it is not the manuscripts themselves. Where the transcription disagrees with Daniel Gurney's 1858 quotation (notably the freedom date of Francis G14), resolution requires direct examination of the Guildhall MS or of the British Record Society print volumes 136–138.

@@ -683,7 +683,7 @@ two corrections to the eleventh/twelfth passes.**
 
 Prose folded into
 [`67-refactor-freereg-second-instrument.md`](../../research/people/g13-john-gurney/topics/identity/67-refactor-freereg-second-instrument.md)
-§"The complete sweep". Raw capture at `sources/intake/new/freereg-g13-sweep-2026-07-28/`
+§"The complete sweep". Raw capture at `sources/intake/archive/g13-july-2026-sweeps/freereg-g13-sweep-2026-07-28/`
 (585-row TSV, per-query log). Catalogue now **147 rows** across seven of the thirteen method sources.
 
 What an increment must handle:
@@ -883,7 +883,7 @@ statement.**
 
 Prose at
 [`72-refactor-the-parent-sweep-completed.md`](../../research/people/g13-john-gurney/topics/identity/72-refactor-the-parent-sweep-completed.md).
-Raw capture at `sources/intake/new/fmp-parent-sweep-2026-07-28/` (598 rows, per-query log).
+Raw capture at `sources/intake/archive/g13-july-2026-sweeps/fmp-parent-sweep-2026-07-28/` (598 rows, per-query log).
 
 What an increment must handle:
 
@@ -1055,9 +1055,27 @@ Unit `75-refactor-margaret-county-sets-and-loose-ends.md`.
 
 ## Standing note
 
-The July 2026 refactor units are numbered `50-` through `75-` under
-`research/people/g13-john-gurney/topics/identity/`. They carry **no prose markers** and are not in the
-graph. When the refactor settles, either promote them into the existing 30–37 units or author them as
-new ones — but do not double-author: several of them supersede claims in `31-candidate-a-aylesbury.md`,
-`32-norfolk-parentage.md`, `37-identity-assessment.md` and `30-candidate-overview.md`, and those
-supersessions are the point of the increment.
+**Resolved 30 July 2026.** The July 2026 refactor units, numbered `50-` through `75-` under
+`research/people/g13-john-gurney/topics/identity/`, have been **promoted into the permanent identity
+sequence and retained as the working record**. Their findings now live in `30-` to `39-`, which are the
+current account:
+
+| Unit | Scope |
+|---|---|
+| `30-candidate-overview.md` | the shared test, the three procedural corrections, the candidate landscape |
+| `31-candidate-a-aylesbury.md` | Candidate A split into A(i)/A(ii), and the whole Buckinghamshire cluster |
+| `32-norfolk-parentage.md` | Candidate B |
+| **`33-berkhamsted-candidates.md`** *(new)* | C(i) and C(ii), split out of the assessment unit |
+| `34-london-draper.md` | Candidate D |
+| `35-candidate-ackworth.md` | Ackworth |
+| `36-other-eliminations.md` | the variant scale, Essex, the West Country, the cleared field |
+| `37-identity-assessment.md` | the assessment and the 18-row probability model |
+| **`38-the-shape-and-the-two-families.md`** *(new)* | the 15-attribute shape, the matrix, the disjoint-families finding |
+| **`39-child-inventory-method.md`** *(new)* | the method governing any further round |
+
+The `50-`–`75-` units keep their own correction and retraction trails, which belong to the research
+layer, and their headers now say so. **None of them is in the graph, and neither are `33-`, `38-` and
+`39-`** — those three are new topicIds (`g13-identity-candidate-c`, `g13-identity-shape-matrix`,
+`g13-identity-inventory-method`) that the increment must create. The prose markers carried in `30-`–`37-`
+are unchanged in identifier but several now sit over rewritten passages, so **expect restatements, not
+only additions**, and derive live RI/PM ids from the database at authoring time.

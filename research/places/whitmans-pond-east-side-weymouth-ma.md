@@ -30,4 +30,4 @@
 
 **What we don't.** John's specific lot no. 16 within the strip is not individually surveyed, so the coordinate is a representative point east of the pond toward the Hingham line (medium precision).
 
-See the [John Gurney (G13) case file](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v4.md) and the verbatim grant extracts in [`nash-…-gurney-extracts.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/nash-historical-sketch-weymouth-1885-gurney-extracts.md).
+See the [John Gurney (G13) case file](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v5.md) and the verbatim grant extracts in [`nash-…-gurney-extracts.md`](https://github.com/allengurney/gurney-genealogy/blob/main/sources/corpus_supplement/nash-historical-sketch-weymouth-1885-gurney-extracts.md).

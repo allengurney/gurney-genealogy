@@ -33,9 +33,35 @@ The individual manor files carry the real weight of the evidence, but the county
 
 Together, those three places give a more complete picture of what English lordship looked like at the manor level than any one of them could do alone.
 
+## A second, unrelated Essex thread: the seventeenth-century emigration question
+
+Essex matters to this project twice over, in two periods that have nothing to do with each other. The Domesday material above concerns the senior Norman line in 1086. **Six centuries later the county becomes the place the colonial evidence for John Gurney (G13) points at hardest** — and until July 2026 it had never been searched.
+
+Three ties run from the Massachusetts emigrant to Essex:
+
+- his Braintree land was held by lease inside the estate of **William Tyng of Stanford Rivers**;
+- his daughter Mary married **Daniel Shed of Finchingfield**;
+- **Braintree, Massachusetts took its name from Braintree, Essex**.
+
+**The two parishes those ties name directly are empty of Gurneys.** Finchingfield holds one Gurney-variant baptism in its entire register run, and Stanford Rivers none.[^essex-sweep]
+
+**The country four miles from the Tyng estate is not empty.** A Gurney-plausible cluster sits in the **Epping – North Weald Bassett – Fyfield** triangle right through the emigration window, and one record names a father John: **Richard Gurnat, baptised at Epping in 1616.** Fully enumerated, the Epping line alternates John and Richard across three generations — a John naming a Richard in 1616, a Richard naming a Richard in 1649, a John naming a John in 1654 — which is the naming behaviour that the reconstruction of the emigrant's own family predicts. What the index does not contain is a John baptised about 1603, and **that absence cannot be interpreted**: establishing the set's early coverage for the parish requires combining a year bound with a place keyword, and that combination fails closed on the provider. The registers at the Essex Record Office are the next step.[^epping-line]
+
+**Epping and North Weald Bassett are therefore newly relevant places in this project**, carried as a named candidate in the G13 identity assessment. They are the only candidate whose household records are *untested* rather than absent.
+
+Separately, the county's substantial Gurney presence is at **Maldon**, and it begins in **1655** — a generation after the emigration window. That household is Francis Gurney G14's own descendants, and the register there independently corroborates a family composition that had rested on compiled authorities alone.[^maldon]
+
 ## Interpretive note
 
-Essex should remain a **county of early evidence**, not a county of later family residence. It is historically significant, but in a different way from Norfolk. The project should resist the temptation to imply a later continuous Essex Gurney story unless stronger evidence emerges. [DG-I]
+Essex should remain a **county of early evidence** for the Norman line, not a county of later family residence for it. It is historically significant, but in a different way from Norfolk, and the project should resist implying a continuous medieval Essex Gurney story unless stronger evidence emerges. [DG-I]
+
+That caution does **not** extend to the seventeenth-century thread above, which rests on its own county register sweep and is live.
+
+[^essex-sweep]: FindMyPast *Essex Baptisms* (Essex Record Office and Essex Family History Society transcription), authenticated session, 28 July 2026: 492 Gurn-variant records countywide, of which Finchingfield holds one across the whole register run and Stanford Rivers none. Source ID: `findmypast-uk-parish-baptisms`.
+
+[^epping-line]: Same set and session, scoped to Epping with no year bound: 28 results, every event double-indexed as both *Epping, All Saints* and *Epping Upland, All Saints*, giving 14 distinct events. The seventeenth-century sequence is Richard Gurnat 1616 (father John); John Gurne 1622 (father Robert, mother Sara); Richard Gurnet 1649 (father Richard); John Gurnet 1654 (father John); Elisabeth Gurnet 1659 (father John, mother Anne). North Weald Bassett adds Susan Gurnard 1627 and Marie Gurney 1637 to a father Robert; Fyfield adds Johannes Gurnard 1625 to a father William. Full treatment at [`research/people/g13-john-gurney/topics/identity/36-other-eliminations.md`](../people/g13-john-gurney/topics/identity/36-other-eliminations.md). Source ID: `findmypast-county-baptism-sets-2026-07-sweep`.
+
+[^maldon]: Same set: the *Gourn-* spelling in Essex concentrates at Maldon, St Mary the Virgin, with ten children to Francis Gourney and Ann between 1655 and 1667, including the John of 1655 and the Thomas of 1660 who match the bachelor John of Maldon who died in 1681 with administration to his brother Thomas. See [`research/places/st-marys-maldon.md`](st-marys-maldon.md). Source ID: `findmypast-county-baptism-sets-2026-07-sweep`.
 
 ## Open items
 

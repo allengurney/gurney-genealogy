@@ -1,6 +1,8 @@
-<!-- WIP refactor unit, July 2026. Not yet in the G13 context graph; no prose markers. Graph-bearing
-     content is tracked in sources/intake/g13-graph-breadcrumb.md. Not linked from published pages.
-     Closes R-42 / R-59. -->
+<!-- July 2026 refactor working round. Its findings are carried in the permanent identity units
+     30- to 39-, which are the current account; this file is retained as the working record,
+     including its own correction and retraction trail, which is deliberate and belongs to the
+     research layer. Not yet in the G13 context graph — graph-bearing content is tracked in
+     sources/intake/g13-graph-breadcrumb.md. Not linked from published pages. -->
 
 # The parent-name sweep, completed — and what the colonial band actually contains
 
@@ -12,7 +14,7 @@ July after a wrong parameter, then run in fragments. It is now complete for **16
 year at a time because `page=2` is broken on that mode, run both strict and variant-expanded, and
 capturing **598 rows**.[^sweep]
 
-Raw capture at `sources/intake/new/fmp-parent-sweep-2026-07-28/` with a per-query log. Five year-slices
+Raw capture at `sources/intake/archive/g13-july-2026-sweeps/fmp-parent-sweep-2026-07-28/` with a per-query log. Five year-slices
 lost between one and seven rows each to the pagination break and are logged `CAPPED`; the strict
 windows returned nothing the variant slices had not already caught.
 
@@ -90,6 +92,6 @@ country — on a row whose other support this same day proved to be a coverage a
 - [`63-refactor-child-sweep-closed-and-reassessment.md`](63-refactor-child-sweep-closed-and-reassessment.md) — the retraction that created this action
 - [`68-refactor-four-instruments-compared.md`](68-refactor-four-instruments-compared.md) — why this remains a floor
 - [`71-refactor-burials-as-the-elimination-instrument.md`](71-refactor-burials-as-the-elimination-instrument.md) — the same day's burial and marriage work
-- Raw capture: `sources/intake/new/fmp-parent-sweep-2026-07-28/`
+- Raw capture: `sources/intake/archive/g13-july-2026-sweeps/fmp-parent-sweep-2026-07-28/`
 
-[^sweep]: FindMyPast cross-collection parent search, authenticated session, 28–29 July 2026: `sourcecategory=life+events+(bmds)&collection=parish+baptisms&sourcecountry=great+britain&sid=102&fatherfirstname=john&fatherfirstname_variants=true&fatherlastname=gurney[&fatherlastname_variants=true]&yearofbirth=YYYY&yearofbirth_offset=0`, run for every year 1615–1649 variant-expanded, plus strict-surname windows at 1617, 1622, 1627, 1632, 1637, 1642 and 1647. **598 rows captured**, held with a per-query log at `sources/intake/new/fmp-parent-sweep-2026-07-28/results.tsv` and `PROGRESS.md`. Mechanics: `year=` returns a silent zero and must not be used; `page=2` returns page 1 again, which is why every window is a single year and why the slices for 1627, 1628, 1633, 1634 and 1637 are logged `CAPPED` with between one and seven rows unretrieved. The variants engine also returns Gray, Griffith, Gaune and unreadable-surname rows, which are captured and filtered rather than trusted. Row counts and the band analysis were re-derived from the raw TSV rather than taken from the run's own summary. Source ID: `findmypast-uk-parish-baptisms`.
+[^sweep]: FindMyPast cross-collection parent search, authenticated session, 28–29 July 2026: `sourcecategory=life+events+(bmds)&collection=parish+baptisms&sourcecountry=great+britain&sid=102&fatherfirstname=john&fatherfirstname_variants=true&fatherlastname=gurney[&fatherlastname_variants=true]&yearofbirth=YYYY&yearofbirth_offset=0`, run for every year 1615–1649 variant-expanded, plus strict-surname windows at 1617, 1622, 1627, 1632, 1637, 1642 and 1647. **598 rows captured**, held with a per-query log at `sources/intake/archive/g13-july-2026-sweeps/fmp-parent-sweep-2026-07-28/results.tsv` and `PROGRESS.md`. Mechanics: `year=` returns a silent zero and must not be used; `page=2` returns page 1 again, which is why every window is a single year and why the slices for 1627, 1628, 1633, 1634 and 1637 are logged `CAPPED` with between one and seven rows unretrieved. The variants engine also returns Gray, Griffith, Gaune and unreadable-surname rows, which are captured and filtered rather than trusted. Row counts and the band analysis were re-derived from the raw TSV rather than taken from the run's own summary. Source ID: `findmypast-uk-parish-baptisms`.

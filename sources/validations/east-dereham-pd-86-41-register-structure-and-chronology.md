@@ -72,7 +72,7 @@ Examined: 2026-05-15. Image set under `sources/media/Parish_Register_East_Dereha
 Findings landed in:
 - `research/topics/east-dereham-parish-register-paleography.md` (fact-and-confidence narrative).
 - `sources/media/Parish_Register_East_Dereham/east-dereham-paleographic-analysis-comprehensive-2026-05-15.md` (deep-reference comprehensive analysis).
-- `research/case-files/john-gurney-case-file-v4.md` §4.2 children-table refinement (Entry B relationship; Entry D page attribution).
+- `research/case-files/john-gurney-case-file-v5.md` §4.2 children-table refinement (Entry B relationship; Entry D page attribution).
 - `research/people/g14-francis-gurney-fact-sheet.research.md` East Dereham subsection (paleographic refinement).
 
 Source IDs touched:

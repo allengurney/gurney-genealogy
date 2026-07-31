@@ -251,7 +251,7 @@ Three further English records surfaced but are viewable only at a FamilySearch C
 - Father: `research/people/g14-francis-gurney-fact-sheet.research.md`
 - Half-brother (direct line): `research/people/g13-john-gurney-fact-sheet.research.md`
 - Paternal grandfather: `fact-sheets/g15-henry-gurney-fact-sheet.md` and `research/people/g15-henry-gurney-fact-sheet.research.md`
-- Active case file (direct-line emigrant question): `research/case-files/john-gurney-case-file-v4.md`
+- Active case file (direct-line emigrant question): `research/case-files/john-gurney-case-file-v5.md`
 - Corpus source: `sources/corpus_supplement/The_British_Archivist-Unrecorded-Biographies-Francis-Gurney.md`
 - Validation: `sources/validations/british-archivist-bernau-1913.md`
 - Related family — Norwich plebeian Gurneys / "The Problem": `sources/corpus/norfolk-antiquarian-gurneys-of-norwich.md` (Walter Rye)

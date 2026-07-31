@@ -1,5 +1,8 @@
-<!-- WIP refactor unit, July 2026. Method document, not a findings document. Not yet in the G13 context
-     graph. Graph-bearing content is tracked in sources/intake/g13-graph-breadcrumb.md. -->
+<!-- July 2026 refactor working round. Its findings are carried in the permanent identity units
+     30- to 39-, which are the current account; this file is retained as the working record,
+     including its own correction and retraction trail, which is deliberate and belongs to the
+     research layer. Not yet in the G13 context graph — graph-bearing content is tracked in
+     sources/intake/g13-graph-breadcrumb.md. Not linked from published pages. -->
 
 # Method for a complete child inventory — sources, catalogue, scoring, and stopping rule
 

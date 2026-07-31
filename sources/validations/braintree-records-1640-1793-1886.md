@@ -27,7 +27,7 @@ TAG 10:70-73, Mary Lovering Holman, "Grissell of the Many Marriages," remains a 
 ## Findings recorded in
 
 - `research/people/g13-john-gurney-fact-sheet.research.md`
-- `research/case-files/john-gurney-case-file-v4.md`
+- `research/case-files/john-gurney-case-file-v5.md`
 
 ## Patchset
 

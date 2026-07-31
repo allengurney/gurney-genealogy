@@ -3,7 +3,7 @@
 Examined: 2026-05-15 web pass of WikiTree profile https://www.wikitree.com/wiki/Newgate-14 .
 
 Findings landed in:
-- `research/case-files/john-gurney-case-file-v4.md` Section 8 (new 1636 Newgate apprentice row) and Section 10.6 (Banks's Bury St Edmunds attribution explanation).
+- `research/case-files/john-gurney-case-file-v5.md` Section 8 (new 1636 Newgate apprentice row) and Section 10.6 (Banks's Bury St Edmunds attribution explanation).
 - `research/people/g13-john-gurney-fact-sheet.research.md` working notes (Newgate Horningsheath origin / Banks BSE explanation).
 
 Source ID added:

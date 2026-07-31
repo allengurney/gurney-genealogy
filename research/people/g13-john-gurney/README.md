@@ -1,9 +1,37 @@
-# G13 John Gurney — staged research package (in progress)
+# G13 John Gurney — research package
 
-Staging area for the G13 companion/dump refactor (Plan 02) and the context-graph
-pilot (Plan 01). **Not canonical yet** — the live companion at
-`research/people/g13-john-gurney-fact-sheet.research.md` remains untouched until
-an approved cutover (Plan 02 §15).
+This directory is the canonical research layer for John Gurney of Braintree. The
+former root companion was retired to `research/people/_legacy/g13-pre-refactor/`
+at cutover.
+
+## Where to start
+
+| If you want | Read |
+|---|---|
+| The current position on his English origin | [`topics/identity/37-identity-assessment.md`](topics/identity/37-identity-assessment.md) |
+| The shared test every candidate is scored against | [`topics/identity/30-candidate-overview.md`](topics/identity/30-candidate-overview.md) and [`topics/identity/38-the-shape-and-the-two-families.md`](topics/identity/38-the-shape-and-the-two-families.md) |
+| A named candidate | `topics/identity/31-` to `36-` |
+| How a further search round should be run | [`topics/identity/39-child-inventory-method.md`](topics/identity/39-child-inventory-method.md) |
+| His colonial life | `topics/colonial/` |
+| The published argument | [`research/case-files/john-gurney-case-file-v5.md`](../../case-files/john-gurney-case-file-v5.md) |
+
+## Current baseline
+
+**The identification is open.** Eighteen rows, none above 22%. Candidate B — the
+son of Francis Gurney — is the leading *named* candidate at **about 11%**, and
+three rows describing the state of the record rather than any man hold **44%**
+between them. No baptism of the emigrant survives, and the East Dereham window in
+which one would fall is permanently lost.
+
+**Anything below this heading is a build log**, recording how each increment of
+the research package and the context graph was authored. It states what each
+increment carried at the time it ran — including probability figures that later
+increments moved — and it is not a statement of the current position. For that,
+use the table above.
+
+---
+
+## Build log
 
 Phase P pilot slice (2026-07-03): `topics/colonial/01-arrival-chronology.md`,
 co-authored with research items `G13-RI-000001..000007` in the canonical SQLite
@@ -562,7 +590,7 @@ increment). Dump F-R3.6 (West Barsham advowson) and F-R3.8 (Elizabeth Gournay ×
 re-routed off this topic to `g13-origin-wardship-network` / `g13-identity-candidate-b` as Norfolk
 senior-branch and new-person identity material, not Bury/Suffolk attribution content. Deliberately
 not poached: the whole English-origin identity conclusion (John = son of Francis Gurney and Margaret
-Rybett) stays in the [case file](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v4.md)
+Rybett) stays in the [case file](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v5.md)
 §8.5/§10.2, linked from the topic prose; the maternal-Rivett and grandfather/great-uncle-wills legacy
 blocks stay backlog to migration-network / research-source-coverage.
 
@@ -988,7 +1016,7 @@ file, which had filed a contradicting witness under `findings_supported`.
 
 ## Case-file-as-source repair (2026-07-10, Opus; graph rev 144→160, snapshot r160)
 
-Allen flagged that staged topic footnotes were citing `research/case-files/john-gurney-case-file-v4.md`
+Allen flagged that staged topic footnotes were citing `research/case-files/john-gurney-case-file-v5.md`
 as the **source of truth** for evidence and findings. The case file is a publication surface, not a
 source: all evidence must cite third-party records. Cross-references to it, for reader convenience,
 are fine and are retained — now explicitly labelled.

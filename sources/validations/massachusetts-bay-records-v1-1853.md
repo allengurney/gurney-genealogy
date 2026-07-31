@@ -18,7 +18,7 @@ Usable as the direct court-record citation for MBCR 1:331. The line itself does 
 ## Findings recorded in
 
 - `research/people/g13-john-gurney-fact-sheet.research.md`
-- `research/case-files/john-gurney-case-file-v4.md`
+- `research/case-files/john-gurney-case-file-v5.md`
 
 ## Patchset
 

@@ -15,5 +15,5 @@ Usable for English same-name elimination work and for clarifying multiple Crippl
 
 ## Findings landed
 
-- `research/case-files/john-gurney-case-file-v4.md`
+- `research/case-files/john-gurney-case-file-v5.md`
 - `research/people/g13-john-gurney-fact-sheet.research.md`

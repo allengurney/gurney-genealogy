@@ -52,5 +52,5 @@ under another surname. Separately, `sortby` is accepted and silently ignored. Re
 
 ## Raw working data
 
-`sources/intake/new/fmp-county-sweep-2026-07-29/results.tsv` (705 rows) and `PROGRESS.md` (per-query
+`sources/intake/archive/g13-july-2026-sweeps/fmp-county-sweep-2026-07-29/results.tsv` (705 rows) and `PROGRESS.md` (per-query
 coverage ledger, including every capped and non-existent set).

@@ -1,3 +1,9 @@
+<!-- July 2026 refactor working round. Its findings are carried in the permanent identity units
+     30- to 39-, which are the current account; this file is retained as the working record,
+     including its own correction and retraction trail, which is deliberate and belongs to the
+     research layer. Not yet in the G13 context graph — graph-bearing content is tracked in
+     sources/intake/g13-graph-breadcrumb.md. Not linked from published pages. -->
+
 # 75 — The Margaret axis, the county sets, and three loose ends closed
 
 Final research round of the July 2026 refactor. Four things happened: a scoring rule I had asserted
@@ -266,7 +272,7 @@ because §5 gives it a specific prediction to test and §7 shows the index canno
 is in unit 59.
 
 [^freereg]: FreeREG (Free UK Genealogy), sweep of 28 July 2026, 585 captured rows across the Gurney
-surname family; working dataset at `sources/intake/new/freereg-g13-sweep-2026-07-28/results.tsv` with
+surname family; working dataset at `sources/intake/archive/g13-july-2026-sweeps/freereg-g13-sweep-2026-07-28/results.tsv` with
 per-query coverage in the accompanying `PROGRESS.md`. Margaret-family mothers re-cut 29 July 2026:
 Norwich 12 August 1638 (Ellin, father Will, mother Margret); Bardwell, Suffolk 18 June 1643 and 18 May
 1645 (Robert, father Edward, mother Margarett); Mamble and Bayton, Worcestershire 17 September 1637
@@ -276,7 +282,7 @@ Norwich 12 August 1638 (Ellin, father Will, mother Margret); Bardwell, Suffolk 1
 2026; 705 captured rows across Norfolk, Essex, Northamptonshire, Oxfordshire, Cambridgeshire,
 Middlesex, Westminster and Berkshire, each against stems `gurn*`, `gourn*`, `gorn*`, `gern*`, `girn*`,
 `garn*`. Working dataset and per-query coverage ledger at
-`sources/intake/new/fmp-county-sweep-2026-07-29/results.tsv` and `PROGRESS.md`. Tittleshall with
+`sources/intake/archive/g13-july-2026-sweeps/fmp-county-sweep-2026-07-29/results.tsv` and `PROGRESS.md`. Tittleshall with
 Godwick duplicate: Norfolk Baptisms Index, 1620, Katerine/Katherine Gurnay, father Henry, mother
 indexed Anne in one row and Mary in the other. Norwich St Giles 1618, Joseph Garnam, father indexed
 `Jone`; King's Lynn St Margaret with St Nicholas 1615, Gregorye Gurnall, father indexed `Katheryne`.

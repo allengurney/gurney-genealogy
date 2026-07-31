@@ -1,6 +1,8 @@
-<!-- WIP refactor unit, July 2026. Not yet in the G13 context graph; no prose markers. Graph-bearing
-     content is tracked in sources/intake/g13-graph-breadcrumb.md. Not linked from published pages.
-     Executes the S8 arm of R-46 / R-42 against the method in 65-. -->
+<!-- July 2026 refactor working round. Its findings are carried in the permanent identity units
+     30- to 39-, which are the current account; this file is retained as the working record,
+     including its own correction and retraction trail, which is deliberate and belongs to the
+     research layer. Not yet in the G13 context graph — graph-bearing content is tracked in
+     sources/intake/g13-graph-breadcrumb.md. Not linked from published pages. -->
 
 # The second instrument: what FreeREG holds that FindMyPast does not
 
@@ -56,7 +58,7 @@ surname cluster:[^marysweep]
 | Baptism | Person | Parish | Father | Status |
 |---|---|---|---|---|
 | 28 Oct 1624 | Mary **GOURNY** | St Vedast, Farringdon, London (City) | **Richard** | New to the file; **present in FindMyPast's Middlesex Baptisms**, missed by the `gurn*` stem |
-| 10 Apr 1625 | Mary **GARNN** | Norton, Gloucestershire | — | Garne cluster, not a Gurney variant |
+| 10 Apr 1625 | Mary **GARNN** | Norton, Gloucestershire | — | Garne cluster; set aside on the household, not the surname (see unit 69) |
 | 12 Feb 1625/6 | Marie **GURNEY** | **Epping, Essex** | **Robert**, mother **Sarra** | New to the file; **present in FindMyPast's Essex Baptisms**, missed by the `Mary` forename constraint |
 | 12 Mar 1625/6 | Mary **GURNEY** | Norwich St Giles, Norfolk | — | Counted in the July totals, never catalogued |
 | 2 Mar 1627/8 | Marie **GURNEY** | Ashwellthorpe, Norfolk | Willyam | Yes — CR-045 |
@@ -72,7 +74,7 @@ have been the best-placed candidate child the project had ever seen. The record 
 inference.
 
 **St Vedast Foster Lane** names a father **Richard** — a Gurney household in a City parish in 1624.[^vedast]
-It bears on the §6.3a prediction only obliquely: the naming custom predicts a paternal grandfather
+It bears on the §6.6 prediction only obliquely: the naming custom predicts a paternal grandfather
 named Richard for the colonial John, and this is a Richard Gurney fathering in London in the right
 generation. It is not a child of a John, so it does not enter the child inventory; it enters the
 Richard-household comparator set, alongside the Salisbury Richard of 1630 and the Luton Richard of
@@ -153,7 +155,7 @@ Cheddington produce nothing in this instrument for the window.
 The exploratory runs above were followed by an exhaustive pass: **twenty surname spellings × baptisms,
 marriages and burials × all counties × 1600–1660**, sixty queries in all, no soundex.[^sweepmethod]
 It captured **585 Gurney-cluster records**, held at
-`sources/intake/new/freereg-g13-sweep-2026-07-28/results.tsv` — 232 baptisms, 178 marriages, 175
+`sources/intake/archive/g13-july-2026-sweeps/freereg-g13-sweep-2026-07-28/results.tsv` — 232 baptisms, 178 marriages, 175
 burials. No query hit the 500-row cap; the largest was *Gurney*/Baptism at 143.
 
 **A calibration finding that justifies the whole approach: FreeREG's non-soundex surname matching is
@@ -250,7 +252,7 @@ held. What moves is the **confidence attached to the negatives**, which should f
 - [`59-refactor-open-actions.md`](59-refactor-open-actions.md) — actions arising
 - Catalogue: `research/people/g13-john-gurney/coverage/child-record-catalog.csv`
 
-[^sweepmethod]: FreeREG (freereg.org.uk), swept 28 July 2026 across twenty surname spellings — Gurney, Gurny, Gurnie, Gourney, Gourny, Gorney, Gurnay, Gournay, Garney, Girney, Gerney, Gernne, Gowrney, Gorne, Garne, Gurnoe, Gurner, Greney, Gowrne, Hurney — each run separately for Baptism, Marriage and Burial, all counties, 1600–1660, Name Soundex off. Sixty queries; one (`bap-gurnoe`) timed out and succeeded on retry; none reached the 500-row display cap. Results, per-query log and method notes at `sources/intake/new/freereg-g13-sweep-2026-07-28/` (`results.tsv`, `PROGRESS.md`, `_summary.txt`). **Method disclosure:** the volume of detail pages made driving the browser impractical, so the queries were issued by script against the same anonymous, unauthenticated public form and record endpoints the browser session uses; no login, no paywalled content, and the record-detail fields recorded are those FreeREG displays publicly. The 585-row total, the 38 father-John rows and the nil intersection of father-John with mother-Mary were re-derived independently from the raw TSV rather than taken from the run's own summary. Source ID: `freebmd-freereg`.
+[^sweepmethod]: FreeREG (freereg.org.uk), swept 28 July 2026 across twenty surname spellings — Gurney, Gurny, Gurnie, Gourney, Gourny, Gorney, Gurnay, Gournay, Garney, Girney, Gerney, Gernne, Gowrney, Gorne, Garne, Gurnoe, Gurner, Greney, Gowrne, Hurney — each run separately for Baptism, Marriage and Burial, all counties, 1600–1660, Name Soundex off. Sixty queries; one (`bap-gurnoe`) timed out and succeeded on retry; none reached the 500-row display cap. Results, per-query log and method notes at `sources/intake/archive/g13-july-2026-sweeps/freereg-g13-sweep-2026-07-28/` (`results.tsv`, `PROGRESS.md`, `_summary.txt`). **Method disclosure:** the volume of detail pages made driving the browser impractical, so the queries were issued by script against the same anonymous, unauthenticated public form and record endpoints the browser session uses; no login, no paywalled content, and the record-detail fields recorded are those FreeREG displays publicly. The 585-row total, the 38 father-John rows and the nil intersection of father-John with mother-Mary were re-derived independently from the raw TSV rather than taken from the run's own summary. Source ID: `freebmd-freereg`.
 [^fmpholds]: FindMyPast cross-collection search, authenticated session, 28 July 2026. `sid=999&collection=parish+baptisms&sourcecountry=great+britain&firstname=mar*&lastname=gurn*&keywords=epping` returns "Gurney Marie, 1625, Epping, Essex" three times — once in *England Births & Baptisms 1538–1975* and twice in *Essex Baptisms* (Epping All Saints and Epping Upland All Saints). `lastname=gourn*&keywords=vedast` returns two rows in *Middlesex Baptisms*: "Gourny Mary, 1624, St Vedast Foster-Lane, London" and "Gourney Anne, 1626, St Vedast Foster-Lane, London". The *Essex Baptisms* and *Middlesex Baptisms* record sets are reached here through the cross-collection view and are not separately registered; they are covered by the general parish-baptism source. Source ID: `findmypast-uk-parish-baptisms`.
 [^marwild]: Same instrument and session: `sid=999&collection=parish+baptisms&sourcecountry=great+britain&firstname=mar*&lastname=gurn*&yearofbirth=1629&yearofbirth_offset=10` (1619–1639) returns **54 results**, against the 17 recorded for the exact forename *Mary* in the July 2026 sweep. The wildcard also admits Margaret/Margret/Mark rows, so 54 is not a corrected Mary count — it is a demonstration that the exact-forename constraint was excluding real Marie/Marye/Maria rows. Source ID: `findmypast-uk-parish-baptisms`.
 [^marysweep]: FreeREG (freereg.org.uk), parish-register transcriptions by volunteer transcribers, searched 28 July 2026: surname Gurney, forename Mary, baptisms, 1622–1636, all counties, Name Soundex on — 205 results, listed by date. The five Gurney-cluster rows are as tabulated; the remainder are Green/Greene/Grime/Groome/Gorham rows returned by the Soundex collision. Source ID: `freebmd-freereg`.

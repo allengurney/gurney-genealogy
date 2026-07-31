@@ -3,7 +3,7 @@
 Examined: 2026-05-15 FamilySearch authenticated session (England, Norfolk, Parish Registers (County Record Office), 1510-1997 collection) plus a paired image-walk of the East Dereham parish-register crops at `sources/media/Parish_Register_East_Dereham/`. Working artifacts and the deeper page-00725 analysis are in `sources/media/Parish_Register_East_Dereham/burial-analysis.md`, `crop-index.md`, and `page-00725-deep-analysis.md`.
 
 Findings landed in:
-- `research/case-files/john-gurney-case-file-v4.md` Section 4 children table and Section 11 probability discussion.
+- `research/case-files/john-gurney-case-file-v5.md` Section 4 children table and Section 11 probability discussion.
 - `research/people/g14-francis-gurney-fact-sheet.research.md` working notes (East Dereham primary expansion subsection).
 
 Source IDs added:

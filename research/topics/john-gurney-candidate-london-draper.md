@@ -1,6 +1,6 @@
 # John Gurney Candidate — London Draper, Old Change (Candidate D)
 
-*Alternative-candidate research for **John Gurney-1 of Braintree, Massachusetts (G13)**. This file holds the detailed working research kept out of the main [G13 research companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g13-john-gurney-fact-sheet.research.md); the published argument is the [John Gurney case file](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v4.md) §8.4. Standing: **ELIMINATED** by the 1662 hearth-tax confirmation below.*
+*Alternative-candidate research for **John Gurney-1 of Braintree, Massachusetts (G13)**. This file holds the detailed working research kept out of the main [G13 research companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g13-john-gurney-fact-sheet.research.md); the published argument is the [John Gurney case file](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v5.md) §8.4. Standing: **ELIMINATED** by the 1662 hearth-tax confirmation below.*
 
 The Old Change John Gurney (son and executor of Robert Gurney, draper) is documented continuing at St Augustine Watling Street in 1662 (hearth tax: 1 hearth, "poore," TNA E 179/252/27 rot 21). The colonial John of Braintree was dying at Boston in the same year. They cannot be the same person.
 
@@ -10,7 +10,7 @@ Detailed research follows; the file is preserved as the source-by-source record 
 
 This research file holds the depth and detail of the Candidate D investigation, kept out of the main John Gurney case file so that the case file's Section 8 stays tight. Candidate D is John Gurney, adult son and executor of Robert Gurney, citizen and draper of London / tailor of Old Change, with John made free of the Drapers' Company by redemption on 11 February 1623/4.
 
-The companion summary lives in `research/case-files/john-gurney-case-file-v4.md` Section 8.4. Working extracts and transcriptions are in `sources/intake/john-gurney-2026May/john-gurney-candidate-d-working-packet-audited-v13.md`.
+The companion summary lives in `research/case-files/john-gurney-case-file-v5.md` Section 8.4. Working extracts and transcriptions are in `sources/intake/john-gurney-2026May/john-gurney-candidate-d-working-packet-audited-v13.md`.
 
 ## Identity anchor
 
@@ -286,7 +286,7 @@ The cluster confirms continuing London residence for the William Gurney family n
 
 ## Cross-references
 
-- Case-file summary: `research/case-files/john-gurney-case-file-v4.md` Section 8.4.
+- Case-file summary: `research/case-files/john-gurney-case-file-v5.md` Section 8.4.
 - Research companion: `research/people/g13-john-gurney-fact-sheet.research.md` (London Drapers' Old Change discriminator).
 - Place note: `research/places/city-of-london.md` (St Augustine Watling Street).
 - Validation notes: `sources/validations/bho-london-inhabitants-st-augustine-1638.md`, `sources/validations/rollco-drapers-gurney-old-change-cluster.md`, `sources/validations/rollco-stationers-hunscott-cluster.md`, `sources/validations/rollco-stationers-gurney-1613-1626.md`.

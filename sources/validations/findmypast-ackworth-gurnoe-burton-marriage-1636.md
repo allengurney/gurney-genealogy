@@ -4,7 +4,7 @@ Examined: 2026-05-12 Findmypast transcripts for England Marriages 1538-1973 (rec
 
 Findings landed in:
 - `research/people/john-gurnoe-ackworth-yorkshire.md`
-- `research/case-files/john-gurney-case-file-v4.md` Section 8 Ackworth row update
+- `research/case-files/john-gurney-case-file-v5.md` Section 8 Ackworth row update
 - `research/people/g13-john-gurney-fact-sheet.research.md` cross-link
 
 Source IDs added:

@@ -6,7 +6,7 @@ Portion examined: search-hit extracts only, not page images. Page-level verifica
 
 Findings landed in:
 - `sources/corpus_supplement/millican-norwich-freemen-apprentices-gurney-extracts.md` (extracts and analysis)
-- `research/case-files/john-gurney-case-file-v4.md` §9 (James son of Francis of St Peter Parmentergate) and §10.1 (Norwich-pathway negative)
+- `research/case-files/john-gurney-case-file-v5.md` §9 (James son of Francis of St Peter Parmentergate) and §10.1 (Norwich-pathway negative)
 - `research/people/g13-john-gurney-fact-sheet.research.md` (pathway negative; target pulls)
 - `research/people/francis-gurney-of-maldon.md` (Norwich plebeian-line cross-link)
 

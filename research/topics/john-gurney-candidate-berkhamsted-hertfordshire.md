@@ -1,6 +1,6 @@
 # John Gurney Candidate — Berkhamsted, Hertfordshire (Candidate C)
 
-*Alternative-candidate research for **John Gurney-1 of Braintree, Massachusetts (G13)**. This file holds the detailed working research kept out of the main [G13 research companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g13-john-gurney-fact-sheet.research.md); the published argument is the [John Gurney case file](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v4.md). Standing: **ELIMINATED** (~0-1%) by the eight-child Berkhamsted family group fathered by a John born about 1585-1590.*
+*Alternative-candidate research for **John Gurney-1 of Braintree, Massachusetts (G13)**. This file holds the detailed working research kept out of the main [G13 research companion](https://github.com/allengurney/gurney-genealogy/blob/main/research/people/g13-john-gurney-fact-sheet.research.md); the published argument is the [John Gurney case file](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/john-gurney-case-file-v5.md). Standing: **ELIMINATED** (~0-1%) by the eight-child Berkhamsted family group fathered by a John born about 1585-1590.*
 
 ## Candidate C Berkhamsted family group (FMP Hertfordshire Baptisms)
 

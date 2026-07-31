@@ -1031,7 +1031,7 @@ Possible contents:
     {
       "id": "john-gurney-case-file",
       "role": "case-file",
-      "path": "research/case-files/john-gurney-case-file-v4.md"
+      "path": "research/case-files/john-gurney-case-file-v5.md"
     }
   ],
   "cacheRetentionDays": 90

@@ -20,7 +20,7 @@ Usable as derivative family-memory/manuscript-pointer evidence. Do not use as pr
 ## Findings recorded in
 
 - `research/people/g13-john-gurney-fact-sheet.research.md`
-- `research/case-files/john-gurney-case-file-v4.md`
+- `research/case-files/john-gurney-case-file-v5.md`
 
 ## Patchset
 

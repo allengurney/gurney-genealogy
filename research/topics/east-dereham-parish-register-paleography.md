@@ -39,12 +39,13 @@ Page **00725** (= 00724 duplicate) sits immediately before the 1616 annual retur
 
 Six entries in PD 86/41 are tied to Francis Gurney by visual reading and/or FS index attribution.
 
-### 1. John (case-file Entry E)
+### 1. John — withdrawn; there is no such entry
 
-- **Event:** baptism.
-- **Date:** c.January 10, 1609–1610 (date day-and-month direct; year inferred — pre-00726 chronology, less constrained, case-file ±2-3 year margin applies).
-- **Source:** PD 86/41 page 00715. FS index has the entry as "John the sonne of Nicholas Gorne"; the four-test letterform analysis (March 2026 ChatGPT analysis, re-built six-state in May 2026) reads it as **"John the sonne of ffrancis Gurnie"** — every test favored `ffrancis`, none favored `Nicholas`; same-hand recurrence and singleton analysis put `Nicholas Gorne` as an FS-index error.[^john-entry-e]
-- **Confidence:** the father-name reading is the strongest single anchor for placing the colonial John Gurney's birth family at East Dereham. **Probable.**
+- **Event:** none. **No baptism of a John to this household exists in PD 86/41.**
+- **What was read:** a line was adjudicated on page 00715 and read as **"John the sonne of ffrancis Gurnie"**, against the index reading "John the sonne of Nicholas Gorne", on a four-test letterform comparison. That reading placed a John Gurney, son of Francis, at East Dereham about January 1609/10, and it was treated as the strongest single anchor of the whole parentage argument.
+- **Why it does not stand:** re-read across the full image run against recorded coordinates, **the line adjudicated is on image `00722`** and reads *"Amorye the daughter of Robart Enderby, Ianuarij 10"*. **The record the index actually describes is on image `00726`**, six years later, and reads *"John the sonne off Nicholas Horne bapt — Janua 10"*, 10 January 1616/17 — a Horne family. The two were never the same line.[^john-withdrawn]
+- **Consequence:** the parentage argument has no baptism, and it can never acquire one from this parish, because the annual returns for 25 March 1611 to 25 March 1616 do not survive and no bound register or diocesan transcript covers those years.
+- **Confidence:** **withdrawn.**
 
 ### 2. Edward (case-file Entry A)
 
@@ -142,7 +143,7 @@ The image-processing tooling lives in `tools/east_dereham_image_sweeps.py`. The 
 [^anchor-1620]: PD 86/41 pages 00735 and 00736 — in-parchment heading "Christings Anno Dom 1620". Six-state sweeps in `sources/media/Parish_Register_East_Dereham/page_00735_heading_year_sweep.png` and `page_00736_marye_1618_source_mismatch_context.png`.
 [^anchor-1616]: PD 86/41 pages 00726 and 00727 — in-parchment date span "25 of March 1616 unto the 25 of March 1617" per the heading sweep `sources/media/Parish_Register_East_Dereham/page_00726_00727_heading_year_sweep.png` and the reading summarized in `next-pull-results-2026-05-15.md`.
 [^marginal-annotations]: Procedure §16.3 in `site/website/key-research/east-dereham-ai-assistant-procedure.md` already flagged the modern 1610 annotation on the 00721 page as external. The modern "1620" annotation on the 00732 page sits outside the parchment edge in the user's image set; the user has confirmed only the 00732 page carries a modern annotation outside the parchment in this corpus.
-[^john-entry-e]: Four-test letterform analysis in `site/website/key-research/east-dereham-ai-assistant-procedure.md` §10–§14 (initial-stroke cluster, mid-body ascender/loop, segmentation/rhythm, terminal formation). Six-state rebuild in `sources/media/Parish_Register_East_Dereham/page_00715_entry_e_john_six_state_sweep.png`.
+[^john-withdrawn]: Norfolk Record Office, East Dereham register bills (PD 86/41), images 00715, 00722 and 00726, re-read across the full image run against recorded coordinates in the deviation audit of 22 July 2026. The audit itemises ten deviations and eight root causes in the March–May 2026 analysis; the misattributed line is the first of them. The superseded four-test letterform analysis is described at `site/website/key-research/east-dereham-ai-assistant-procedure.md` §10–§14, and the six-state image rebuild at `sources/media/Parish_Register_East_Dereham/page_00715_entry_e_john_six_state_sweep.png`; both are retained as a record of method rather than as evidence. Source ID: `nro-pd-86-41`.
 [^edward-line]: Full-line six-state sweep in `sources/media/Parish_Register_East_Dereham/page_00721_line_edward_ffrancis_gurnie_sweep.png`. Modern marginal "1610" annotation visible in `page_00721_edward_line_position_guide.png`. FS index `fs-vnn2-scf-edward-gurney-baptism-east-dereham` in `data/sources.json`.
 [^marye-burial]: Line sweep `sources/media/Parish_Register_East_Dereham/page_00725_line_marye_ffrancis_gurny_sweep.png`. Relationship-token magnification `page_00725_marye_relationship_token_magnification_sweep.png`. Month-token magnification `page_00725_marye_month_token_magnification_sweep.png`. The relationship-token analysis is the second-opinion finding in `page-00725-second-opinion-verification-addendum.md` and `consolidation-note-2026-05-15.md`, where the stroke count and opening-letter shape refute `daughter`.
 [^agnes-burial]: Line sweep `sources/media/Parish_Register_East_Dereham/page_00725_line_agnes_ffrancis_gurny_sweep.png`. The capital-A opening-architecture refutation of "Susan" is documented in `page-00725-second-opinion-verification.md`.

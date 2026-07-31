@@ -9,5 +9,5 @@
   <https://www.ancestry.com/search/collections/61045/records/2879447>. Underlying original:
   Church of England Parish Registers, Norfolk Record Office, Norwich (PD 12/1).
 - The marriage finding is carried in the research layer at
-  `research/case-files/john-gurney-case-file-v4.md` §2.2 and the Rivett companion
+  `research/case-files/john-gurney-case-file-v5.md` §2.2 and the Rivett companion
   `research/people/rivett-family-of-garveston.md`.
