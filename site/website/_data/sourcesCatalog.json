@@ -180,6 +180,30 @@
     "notes": "Image-backed NRO register collection (dbid 61045); for covered parishes it is the Ancestry image route the index-only FamilySearch NRO collection lacks, though its indexing is parish/era-partial (Garveston indexing lapses mid-1580s-1651 while the images run complete to 1675). Used 2026-05-11 for the Norfolk Gurney baptism roster and the Denton 1638 baptism (NRO indexer reads father Josiah vs FS/FMP John), and 2026-07-16 for the Garveston/Gressenhall/Wymondham Rivet and Podmer censuses and the pre-1586 Garveston register leaves."
   },
   {
+    "sourceId": "ancestry-england-select-births-christenings-9841",
+    "shortTitle": "Ancestry, England, Select Births and Christenings, 1538-1975 (IGI)",
+    "citation": "England, Select Births and Christenings, 1538-1975; database, Ancestry.com (collection 9841), derived from the International Genealogical Index.",
+    "archive": "Ancestry.com (subscription); IGI-derived",
+    "url": "https://www.ancestry.com/search/collections/9841/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/ancestry-england-select-igi-9841-9852.md",
+    "notes": "IGI-derived national baptism index. Covers parishes the FindMyPast county sets omit (including Great Yarmouth), so it is the standard cross-check against a county-set blank. Index level only, no images. Results rank rather than filter on place, and parent-role rows are boosted above baptism events, so read the Baptism Date and Baptism Place columns rather than trusting the ranking."
+  },
+  {
+    "sourceId": "ancestry-england-select-marriages-9852",
+    "shortTitle": "Ancestry, England, Select Marriages, 1538-1973 (IGI)",
+    "citation": "England, Select Marriages, 1538-1973; database, Ancestry.com (collection 9852), derived from the International Genealogical Index.",
+    "archive": "Ancestry.com (subscription); IGI-derived",
+    "url": "https://www.ancestry.com/search/collections/9852/",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/ancestry-england-select-igi-9841-9852.md",
+    "notes": "IGI-derived national marriage index, and the only instrument in use here that indexes both parties, so a groom-and-bride pair can be asked of the whole country in one query. Used July 2026 for the England-wide John Gurney x Mary sweep. Index level only. Does not contain the 1611 Norwich Gurney-Rybett marriage, which bounds any negative drawn from it; exact-match flags fail closed and must not be set."
+  },
+  {
     "sourceId": "anderson-yvery-1742",
     "shortTitle": "Anderson, Genealogical History of the House of Yvery",
     "citation": "Anderson, James. Genealogical History of the House of Yvery: In its Different Branches of Yvery, Luvel, Perceval, and Gournay. Vol. II. London: H. Woodfall, Jun., 1742.",
@@ -837,7 +861,7 @@
     "corpusPath": "sources/corpus_supplement/bucks-archives-gurney-deeds-1570-1660.md",
     "mediaPath": "",
     "validationPath": "sources/validations/bucks-archives-catalogue.md",
-    "notes": "Catalogue-level descriptions, not document images. Searched for Gurney 1570-1660 in July 2026; the extract at corpusPath carries every hit. The catalogue normalises the surname, so the variants gurnay, gorney, garney, gournay and gurnie each return zero in that window while gurney returns the full set - a gurney blank is therefore a real blank, not a spelling artefact. It indexes abstracts rather than document text, so a person named only inside an unabstracted deed will not surface. Individuates several Buckinghamshire John Gurneys who were previously known only from parish registers, including the Bishopstone gentleman who sold the family estate in 1648/9 and the Owlswick marriage settlement of 1619."
+    "notes": "Catalogue-level descriptions of deeds and estate papers, not document images. Searched for Gurney 1570-1660 in July 2026; the extract at corpusPath carries every hit. Two usage notes: the catalogue normalises the surname, so a blank is a real blank rather than a spelling artefact; and it indexes abstracts rather than document text, so a person named only inside an unabstracted deed will not surface."
   },
   {
     "sourceId": "burke-ancient-family",
@@ -1641,7 +1665,7 @@
     "corpusPath": "sources/corpus_supplement/bucks-probate-index-brs114-gurney-variants-to-1660.md",
     "mediaPath": "",
     "validationPath": "sources/validations/england-wales-published-probate-indexes.md",
-    "notes": "Page images of the printed British Record Society county probate indexes. The results table shows only place, page number and publication, so the testator names must be read from the page image itself. Buckinghamshire vol. 114 was read in full for Gurney variants to 1660 (printed pp. 173-174, records OR/BRS/333/0197 and 0198); the extract is at the corpusPath. Coverage is by county volume and is uneven: Hertfordshire is absent from the dataset entirely, and Northamptonshire is represented only by administrations indexes from 1677, so a blank for those counties is a coverage gap and not a negative."
+    "notes": "Page images of the printed British Record Society county probate indexes. The results table shows only place, page number and publication, so testator names must be read from the page image itself. Buckinghamshire vol. 114 was read in full for Gurney variants to 1660; the extract is at corpusPath. Coverage is by county volume and uneven - Hertfordshire is absent entirely and Northamptonshire runs only from 1677."
   },
   {
     "sourceId": "english-heritage-baconsthorpe-castle-history",
@@ -1896,6 +1920,18 @@
     "notes": "Derivative memorial. Birth: 29 Sep 1615, 'London Borough of Brent, Greater London, England' (anachronistic place name; Brent is a 1965 London borough). Death: 16 Mar 1663 (consistent with the SPR Case #338 inventory date 16 Mar 1662/63). Burial: Elm Street Cemetery, Braintree, Norfolk County, Massachusetts (https://www.findagrave.com/cemetery/1960540/elm-street-cemetery). Use as a derivative cross-check for the Elm Street Cemetery burial location (new datum for the G13 file) and as a second instance of the problematic 1615/London birth tradition already preserved from American Biography vol. 26."
   },
   {
+    "sourceId": "findmypast-bedfordshire-baptisms",
+    "shortTitle": "Findmypast Bedfordshire Baptisms",
+    "citation": "Bedfordshire Baptisms; database, Findmypast (findmypast.co.uk), transcribed parish baptism registers for Bedfordshire.",
+    "archive": "Findmypast (subscription); after Bedfordshire Archives and transcribing societies",
+    "url": "https://www.findmypast.co.uk/search/results?datasetname=bedfordshire+baptisms&sid=103",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "",
+    "notes": "County baptism index with Father's and Mother's first-name columns; a high proportion of rows are flagged exclusive to Findmypast and appear in no other provider's index. Holds 141 Gurney-variant baptisms for 1605-1645 alone, across Hockliffe, Luton, Clapham, Leighton Buzzard, Houghton Regis and Toddington. Note the fathersfirstname URL parameter does not bind on this set - read the Father column instead. Opened July 2026; the county has not yet been swept in full."
+  },
+  {
     "sourceId": "findmypast-boyds-inhabitants-london-candidate-d-gurney-cards",
     "shortTitle": "Findmypast Boyd's Inhabitants - Candidate D Gurney cards",
     "citation": "Boyd's Inhabitants of London & Family Units 1200-1946, selected Gurney/Garney/Gourney cards for John Gourney/Gurny, William Shipman with Mary Garney/Gurney, John Gurny/Gurney, and Robert Gurny/Gurney. Images GBOR/BIL/SOG25/0595, GBOR/BIL/SOG26/0392, GBOR/BIL/SOG36/0477, GBOR/BIL/SOG59/0240, and GBOR/BIL/SOG82/0603. Accessed via Findmypast from user-supplied image captures.",
@@ -1944,6 +1980,18 @@
     "notes": "Subscription index of Bucks parish marriage records held at Bucks Archives. Candidate A entry: John Gurney and Alice Oliffe, 24 Apr 1628, Bierton with Broughton, PR16/1/1Q p. 30; also John Gurny and Alice Hewet, widow, 20 Oct 1619, Great Kimble, D/A/T/116."
   },
   {
+    "sourceId": "findmypast-county-baptism-sets-2026-07-sweep",
+    "shortTitle": "FindMyPast county baptism and marriage index sets (July 2026 Gurney sweep)",
+    "citation": "FindMyPast county-level parish index sets — Norfolk, Essex, Northamptonshire, Oxfordshire, Cambridgeshire, Middlesex, Westminster, Berkshire, Herefordshire, Sussex, Warwickshire and Yorkshire baptisms, with Norfolk, Northamptonshire, Cambridgeshire and Westminster marriages and banns. Authenticated sessions, 29 July and 1 August 2026; retained transcript records from Norfolk, Cambridgeshire, Westminster, Berkshire, Essex, Northamptonshire and Middlesex.",
+    "archive": "FindMyPast (county record offices and family history societies)",
+    "url": "https://www.findmypast.co.uk/search/british-records",
+    "corpusStatus": "transcript",
+    "corpusPath": "sources/corpus_supplement/findmypast-county-gurney-variant-baptism-transcripts-1606-1643.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/findmypast-county-baptism-sets-2026-07-sweep.md",
+    "notes": "Single-dataset (sid=103) county sets, the only FindMyPast query mode that returns father and mother columns. A bounded corpus supplement preserves twelve selected 1600-1643 transcript records; it is index/transcript evidence, not original-register reading. Carries a documented fail-closed defect: a year bound and a place keyword in the same query return zero regardless of holdings."
+  },
+  {
     "sourceId": "findmypast-ackworth-gurnoe-baptism-1637-john-thomas",
     "shortTitle": "Findmypast England Births & Baptisms 1538-1975 - John Thomas Gurnoe, Ackworth, 1637",
     "citation": "England Births & Baptisms 1538-1975, Findmypast transcript record R_948023155: John Thomas Gurnoe, male, baptism 19 January 1637, Ackworth, Yorkshire, England; parents not transcribed.",
@@ -1954,6 +2002,18 @@
     "mediaPath": "",
     "validationPath": "sources/validations/findmypast-ackworth-gurnoe-burton-marriage-1636.md",
     "notes": "Ackworth parish baptism of John Thomas Gurnoe, 19 January 1637, the year after the John Gurnoe + Mary Burton marriage at the same parish (`findmypast-ackworth-gurnoe-burton-marriage-1636`). Father and mother are not in the transcript index but the household continuity is consistent. First child given a compound name John Thomas — not Sarah — which is the distinctive name discriminator against the colonial John Gurney's first-child Sarah."
+  },
+  {
+    "sourceId": "findmypast-upton-gurney-baptisms-1597-1629",
+    "shortTitle": "Findmypast England Births & Baptisms 1538-1975 - Upton on Severn Gurney entries, 1597-1629",
+    "citation": "England Births & Baptisms 1538-1975, Findmypast transcript records R_960587515, R_960589747, R_960590015, and R_960590641: Gurney/Gorney baptisms at Upton on Severn, Worcestershire, 9 October 1597 to 13 September 1629.",
+    "archive": "Findmypast; IRI index used by permission of FamilySearch International",
+    "url": "https://www.findmypast.co.uk/transcript?id=R_960590641&tab=this",
+    "corpusStatus": "transcript",
+    "corpusPath": "sources/corpus_supplement/findmypast-upton-gurney-baptisms-1597-1629.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/findmypast-upton-gurney-baptisms-1597-1629.md",
+    "notes": "Four indexed Upton on Severn baptism transcripts preserving a local Gurney/Gorney sequence. The corpus supplement preserves the displayed index fields. No original parish-register image has been examined; literal dash parent fields mean the relevant parent was not indexed in that transcript."
   },
   {
     "sourceId": "findmypast-england-marriages-gurney-mary-wildcard-sweep-2026-06",
@@ -1980,6 +2040,18 @@
     "notes": "Primary record reached for the Ackworth Yorkshire John Gurnoe + Mary Burton marriage previously known only as a claim in compiled genealogies. Surname is transcribed Gurnoe; Burton is the indexed spouse surname, not the older Barton variant carried in some compilations. Marriage date 6 June 1636. The household continued at Ackworth: see paired source `findmypast-ackworth-gurnoe-baptism-1637-john-thomas` for the 19 January 1637 baptism of John Thomas Gurnoe at the same parish."
   },
   {
+    "sourceId": "findmypast-hertfordshire-banns-marriages",
+    "shortTitle": "Findmypast Hertfordshire Banns & Marriages",
+    "citation": "Hertfordshire Banns & Marriages, parish-register banns and marriage records, Hertfordshire Archives and Local Studies; served via Findmypast.",
+    "archive": "Findmypast / Hertfordshire Archives",
+    "url": "https://search.findmypast.co.uk/search-world-records/hertfordshire-banns-and-marriages",
+    "corpusStatus": "none",
+    "corpusPath": "",
+    "mediaPath": "",
+    "validationPath": "sources/validations/findmypast-hertfordshire-banns-marriages.md",
+    "notes": "County marriage and banns index for Hertfordshire. Both parties are indexed, so a spouse-side query returns the mirror row and recovers the other party's surname. Used 2026-07-28 to test the Candidate C household for a John Gurney marriage at Berkhamsted and across the county."
+  },
+  {
     "sourceId": "findmypast-hertfordshire-baptisms",
     "shortTitle": "Findmypast Hertfordshire Baptisms",
     "citation": "Hertfordshire Baptisms, parish-register baptism records, Hertfordshire Archives and Local Studies; served via Findmypast.",
@@ -1994,14 +2066,14 @@
   {
     "sourceId": "findmypast-hertfordshire-burials",
     "shortTitle": "Findmypast Hertfordshire Burials",
-    "citation": "Hertfordshire Burials, parish-register burial records, Hertfordshire Archives and Local Studies; served via Findmypast.",
+    "citation": "Hertfordshire Burials, parish-register burial records and images, Hertfordshire Archives and Local Studies; served via Findmypast. Great Berkhamsted, 28 June 1638 burial entry on viewer page 165 of 175, record GBPRS/HERT/007567815/00277.",
     "archive": "Findmypast / Hertfordshire Archives",
     "url": "https://search.findmypast.co.uk/search-world-records/hertfordshire-burials",
-    "corpusStatus": "none",
-    "corpusPath": "",
-    "mediaPath": "",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/findmypast-hertfordshire-berkhamsted-burial-page-165-1638.md",
+    "mediaPath": "sources/media/findmypast-hertfordshire-burials",
     "validationPath": "sources/validations/findmypast-hertfordshire-burials.md",
-    "notes": "Used 2026-05-09 for a John Gurney Hertfordshire burials walk. Forty-eight results across the full 1538-present span; only two seventeenth-century Berkhamsted entries, Jhon Gourney 1612 and 1620, both predating Candidate C's documented children. Zero John Gurney burials at Berkhamsted 1640-1700."
+    "notes": "Parish-register burials for Hertfordshire, indexed with name, burial date and place only - no age, no parent - so household attribution in a multi-household parish ordinarily needs the register image. A retained Great Berkhamsted 1638 image supplies a stated father for one Richard Gurney entry; see the registered corpus supplement. The set description states that many Hertfordshire registers are defective for 1643-1660, which bounds any burial negative in that window. The parish is indexed here as 'Berkhamstead', a different place token from the 'Great Berkhampstead' used in the baptism set."
   },
   {
     "sourceId": "findmypast-john-gurney-2026may-supplementary-same-name-sweep",
@@ -2076,6 +2148,18 @@
     "notes": "Used 2026-05-09 for Peter Gurney 1632-1642 Britain-wide search, including Peter G. 1641 Smallburgh, Norfolk, transcript R_880200102, and for the Norfolk Gurney plus father John 1623-1643 cluster, including Denton, Hempnall, Stanfield, Norwich, North Runcton, and Earsham households."
   },
   {
+    "sourceId": "findmypast-westminster-marriages-gurney-transcripts-1591-1642",
+    "shortTitle": "Findmypast Westminster Marriages — selected Gurney transcripts, 1591–1642",
+    "citation": "Westminster Marriages; database, Findmypast (findmypast.co.uk), parish-register marriage transcriptions supplied with the Westminster Collection in association with City of Westminster Archives Centre. Thirteen selected Gurney-variant transcript pages, retrieved 1 August 2026.",
+    "archive": "Findmypast / City of Westminster Archives Centre",
+    "url": "https://www.findmypast.co.uk/search-world-records/westminster-marriages",
+    "corpusStatus": "transcript",
+    "corpusPath": "sources/corpus_supplement/findmypast-westminster-marriages-gurney-transcripts-1591-1642.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/findmypast-westminster-marriages-gurney-transcripts-1591-1642.md",
+    "notes": "Selected early Gurney-variant entries reopened from the live, unbounded Westminster Marriages result. The retained corpus preserves all fields displayed by the transcript pages and documents two same-event ID pairs with surname-spelling variance. It is index/transcript evidence only; no original-register image was opened."
+  },
+  {
     "sourceId": "fischer-albions-seed-1989",
     "shortTitle": "Fischer, Albion's Seed",
     "citation": "Fischer, David Hackett. Albion's Seed: Four British Folkways in America. New York: Oxford University Press, 1989.",
@@ -2144,8 +2228,8 @@
     "corpusStatus": "none",
     "corpusPath": "",
     "mediaPath": "",
-    "validationPath": "",
-    "notes": "FreeREG confirmed Francis G14 burial 9 Jan 1646/7, St Botolph Bishopsgate. Corrected Boyd's 1641 misread."
+    "validationPath": "sources/validations/freebmd-freereg.md",
+    "notes": "Volunteer transcription of English parish registers, returning event rows with parents named, and the only source consulted here that publishes its own per-parish coverage. Independent of the commercial indexes in both directions: it holds Gurney baptisms Findmypast lacks and lacks others Findmypast holds. FreeREG confirmed Francis G14 burial 9 Jan 1646/7, St Botolph Bishopsgate, and corrected Boyd's 1641 misread. Swept for the G13 child inventory 2026-07-28; coverage limits recorded in the identity refactor unit 67."
   },
   {
     "sourceId": "fs-jw7y-c3b-john-gurney-baptism-st-ann-blackfriars",
@@ -2434,6 +2518,18 @@
     "mediaPath": "sources/media/gurney-family-papers-g3-to-g2-certificates-clippings/",
     "validationPath": "sources/validations/gurney-family-papers-g3-to-g2-certificates-clippings.md",
     "notes": "Thirty scanned family-paper pages. Major content: G3 Springfield birth certification (Wellesley Hills childhood home); G3 Norwich University civil-engineering attendance 1941-1943 and full wartime Signal Corps chronology, including outside-plant telephone-line construction on Luzon supervising 75 enlisted men, prisoner-of-war labor, and 75 civilian linemen; G3 pre-war employment as assistant construction engineer at New England Power Company, Boston; G3 St. Alban's Lodge No. 6 (Bristol, RI) junior-deacon notice and Bristol social life; G3 marriages to Edith W. Scott (1942) and Dorothy Lillian Hoben (1965); Dorothy Hoben birth/death/probate; G4 marriage to Ethel June Hayes (23 Apr. 1921); G4 1920 Worcester divorce from Nettie; G4 thirty-five-year New England Power System career and 1953 retirement; G5 marriage certificate to Helen Ransome Hill (1881); Helen Ransome Gurney-Lawrence Branch O'Brien marriage (1900); 1936 Masonic correspondence for G5/G6 Continental Lodge context. SAR chart includes G1 living-person details and is private/source context only."
+  },
+  {
+    "sourceId": "worcs-archives-pakington-westwood-park",
+    "shortTitle": "Hampton (Pakington) of Westwood Park - Buckinghamshire property deeds",
+    "citation": "Worcestershire Archive and Archaeology Service, Hampton (Pakington) of Westwood Park, Droitwich, collection reference 705:349, series 'Buckinghamshire Property - Aylesbury and District', subdivided by parish (Aylesbury; Weston Turville; and others).",
+    "archive": "Worcestershire Archive and Archaeology Service, The Hive, Worcester",
+    "url": "https://discovery.nationalarchives.gov.uk/",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/tna-discovery-gurney-equity-and-estate-records-1590-1685.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/worcs-archives-pakington-westwood-park.md",
+    "notes": "Deeds of the Pakington family's Buckinghamshire estate, deposited in Worcestershire with the family's own muniments, and therefore invisible to a Buckinghamshire Archives search. Catalogued to item level with parties, parishes, status and trade named. Carries twenty-three Gurney items 1399-1663, including the Aylesbury burgess family from 1399, Luke Gurney of Aylesbury dealing in land with Sir Thomas Pakington in 1561-66, and John Gurney of Broughton in Bierton, husbandman, holding Weston Turville meadow in 1592 and 1598/9. Catalogue level only; no document examined."
   },
   {
     "sourceId": "three-hundred-years-norman-house",
@@ -3789,7 +3885,7 @@
     "corpusPath": "",
     "mediaPath": "",
     "validationPath": "sources/validations/east-dereham-pd-86-41-register-structure-and-chronology.md",
-    "notes": "Microfilmed East Dereham parish register, 69 images, covering 1593–1641 baptisms, marriages, and burials in combined annual returns. Relevant because it carries the Francis Gurney child cluster and the disputed Entry E baptism read as \"John the sonne of ffrancis Gurnie.\" Much of the film is degraded, so most entry dates carry a ±2-year margin. The validation worksheet records the image set (under sources/media/Parish_Register_East_Dereham/), the register's structure, and where findings landed."
+    "notes": "East Dereham parish register, catalogued and digitised as 110 images: loose annual certificates rather than a bound book, covering 1593–1641 baptisms, marriages and burials in combined annual returns. Relevant because it carries the Francis Gurney child cluster. Two coverage limits govern any use of it: the returns for 25 March 1611 to 25 March 1616 do not survive, and twelve more are missing between 1594 and 1608. Years should be taken from in-parchment headings only, never from image position. The validation worksheet records the image set and the register's structure."
   },
   {
     "sourceId": "nrp-recherches-possessions-1852",
@@ -4222,6 +4318,18 @@
     "mediaPath": "",
     "validationPath": "",
     "notes": "Welsh-chronicle tradition dating the Cardiff engagement of Hugh de Gournay to 1094 (not 1074), between Cardiff and Brecknock, under William II Rufus's Welsh frontier campaigns. Powell's list of named wounded/killed is a near-perfect subset of the French Histoire et Chronique de Normandie list for the same engagement, with the dating offset twenty years. URL above is the patp.us mediating page where the verbatim 1094 entry was retrieved; direct verification against Powell 1584 or the 1811 Wynne re-edition is the next step."
+  },
+  {
+    "sourceId": "power-norman-frontier-2004",
+    "shortTitle": "Power, The Norman Frontier (2004)",
+    "citation": "Power, Daniel. The Norman Frontier in the Twelfth and Early Thirteenth Centuries. Cambridge Studies in Medieval Life and Thought, Fourth Series 62. Cambridge: Cambridge University Press, 2004.",
+    "archive": "Allen Gurney's print copy; selected page scans held locally because the book is copyright-restricted.",
+    "url": "https://www.cambridge.org/core/books/norman-frontier-in-the-twelfth-and-early-thirteenth-centuries/EBEC4C90CF06D687036351D2E496166B",
+    "corpusStatus": "partial",
+    "corpusPath": "sources/corpus_supplement/power-norman-frontier-gournay-selected-pages.md",
+    "mediaPath": "sources/media/power-norman-frontier-2004",
+    "validationPath": "sources/validations/power-norman-frontier-2004.md",
+    "notes": "Modern scholarly study of Normandy's twelfth- and early-thirteenth-century frontiers. Local scans cover Gournay frontier service and customs, the senior lordship (pp. 355-359), Gerard in 1089 frontier politics, the senior-line genealogy diagram, and the 1202 French capture of Gournay (pp. 532-538). The supplied pages give no direct treatment of Walter de Gournay, Montigny-sur-Andelle, or the Norfolk junior branch."
   },
   {
     "sourceId": "suffolk-institute-proceedings-v1",
@@ -4836,6 +4944,18 @@
     "notes": "Searchable calendar/edition of the C61 Gascon Rolls — the series behind the Gascony/Aquitaine letters of protection for Thomas de Gourney, Sir Matthew de Gournay, and others in the soldier database. Systematically searched in June 2026 across Gournay/Gurney variants: 32 calendar entries on 17 rolls captured; the clearest Norfolk signal is John Gournay's 1394 appointment of John Dru, parson of Harpley, as attorney before Aquitaine service."
   },
   {
+    "sourceId": "tna-discovery-catalogue",
+    "shortTitle": "The National Archives, Discovery catalogue",
+    "citation": "The National Archives, Discovery online catalogue (discovery.nationalarchives.gov.uk), indexing TNA's own holdings and catalogues contributed by some 2,500 other UK repositories; searched through the public search API at /API/search/records.",
+    "archive": "The National Archives, Kew, and contributing repositories",
+    "url": "https://discovery.nationalarchives.gov.uk/",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/tna-discovery-gurney-equity-and-estate-records-1590-1685.md",
+    "mediaPath": "",
+    "validationPath": "sources/validations/tna-discovery-catalogue.md",
+    "notes": "Catalogue descriptions, not document text: a person named only inside an uncalendared bill or deed does not surface, so a blank here is a blank in the finding aid. Item-level description is dense for Chancery (C 1-C 10), Requests (REQ 2), certificates of residence (E 115), Exchequer depositions (E 134), Star Chamber, Court of Wards deeds and PCC wills; contributed county catalogues vary, and manorial rolls and parish registers are catalogued only as volumes. Swept for fourteen Gurney variants across 1590-1685 in July 2026; see corpusPath and the validation worksheet."
+  },
+  {
     "sourceId": "neverending-hobby-john-gurney-us-1636",
     "shortTitle": "The Neverending Hobby - John Gurney, US 1636",
     "citation": "\"John Gurney, US 1636.\" The Neverending Hobby.",
@@ -4887,13 +5007,13 @@
     "sourceId": "tna-a2a-705-349-aylesbury-1483-grant",
     "shortTitle": "TNA A2A 705:349/12946/495200 — Aylesbury grant, 4 April 1483",
     "citation": "The National Archives, Access to Archives (A2A), reference 705:349/12946/495200, grant of lands, tenements and appurtenances in Aylesbury and Walton-near-Aylesbury by John Ingram of Aylesbury and his wife Agnes to Richard Gourney and John Ingram of North Marston, 4 April 1483.",
-    "archive": "The National Archives (UK) — collection now searchable through Discovery; original held at a county record office (per A2A description, the depositing repository line should be re-verified at next pass).",
-    "url": "https://www.nationalarchives.gov.uk/a2a/",
-    "corpusStatus": "none",
-    "corpusPath": "",
+    "archive": "Worcestershire Archive and Archaeology Service, Hampton (Pakington) of Westwood Park, Droitwich, collection 705:349 (resolved 2026-07-28 through the Discovery catalogue, which superseded A2A).",
+    "url": "https://discovery.nationalarchives.gov.uk/",
+    "corpusStatus": "supplement",
+    "corpusPath": "sources/corpus_supplement/tna-discovery-gurney-equity-and-estate-records-1590-1685.md",
     "mediaPath": "",
     "validationPath": "",
-    "notes": "A2A descriptive index entry only. The deed names John Goodman and Henry Crowlond as attorneys for delivery of possession. Used in v52 as a Buckinghamshire collateral Gurney record (Richard Gourney of Aylesbury, fl.1483). The A2A descriptive system is being progressively folded into TNA Discovery; the exact Discovery URL for this reference should be resolved when next examined."
+    "notes": "Descriptive catalogue entry only. The deed names John Goodman and Henry Crowlond as attorneys for delivery of possession. Used in v52 as a Buckinghamshire collateral Gurney record (Richard Gourney of Aylesbury, fl.1483). The depositing repository, left open at registration, is now resolved: this deed is one of twenty-three Gurney items in the Pakington family's Buckinghamshire property series - see the collection-level entry worcs-archives-pakington-westwood-park."
   },
   {
     "sourceId": "tna-dl-42-2-33-5-richard-i-canville-nicholaa-de-la-haye",
@@ -4953,7 +5073,7 @@
     "corpusPath": "",
     "mediaPath": "",
     "validationPath": "sources/validations/tna-pcc-probate.md",
-    "notes": "13 probate items examined for John Gurney emigrant elimination. 7 John Gurneys confirmed in England post-1637 (St Botolph Aldgate, Winkfield, Aylesbury, East Claydon x2 registrations, East Greenwich, and a merchant). 6 contextual records (Anne Gurney Eythorne, Daniel Gurney Aylesbury, William Gurney London, Richard Gurney London, Sir Richard Gurney, Tobias/Edward Gurney). Full analysis in research/case-files/john-gurney-case-file-v4.md. 2026-06-20 (TNA Discovery online catalogue, https://discovery.nationalarchives.gov.uk): PROB 11 search for Rivet/Rivett/Revett of Garveston/Dereham/Norfolk 1580-1640 = nil (no PCC will for Francis Rivet or the Garveston Rivetts); Gourney/Maldon/Essex 1637-1665 = nil (no PCC will for Francis G14)."
+    "notes": "13 probate items examined for John Gurney emigrant elimination. 7 John Gurneys confirmed in England post-1637 (St Botolph Aldgate, Winkfield, Aylesbury, East Claydon x2 registrations, East Greenwich, and a merchant). 6 contextual records (Anne Gurney Eythorne, Daniel Gurney Aylesbury, William Gurney London, Richard Gurney London, Sir Richard Gurney, Tobias/Edward Gurney). Full analysis in research/case-files/john-gurney-case-file-v5.md. 2026-06-20 (TNA Discovery online catalogue, https://discovery.nationalarchives.gov.uk): PROB 11 search for Rivet/Rivett/Revett of Garveston/Dereham/Norfolk 1580-1640 = nil (no PCC will for Francis Rivet or the Garveston Rivetts); Gourney/Maldon/Essex 1637-1665 = nil (no PCC will for Francis G14)."
   },
   {
     "sourceId": "tna-pcc-west-barsham-gournay-wills",

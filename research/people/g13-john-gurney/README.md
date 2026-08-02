@@ -1243,3 +1243,30 @@ the three-layer + explorer links are genuinely retained in the single front door
 to point at `00-research-library.md` and to record that hub.md-only material (the direct-line
 father/son links and the granular crosslink map) is not reproduced, being carried by the topic units
 and the website's generated related-links. No topic content, graph items, sources, or entities changed.
+
+Phase G3 increment (2026-08-01, prompt-B tranche D): three identity units promoted out of the
+July 2026 refactor rounds and registered in the graph — `topics/identity/33-berkhamsted-candidates.md`
+(topicId `g13-identity-candidate-c`, items `G13-RI-000211..000220`, markers `G13-PM-000105`,
+`000130`, `000135..000137`), `topics/identity/38-the-shape-and-the-two-families.md`
+(`g13-identity-shape-matrix`, `G13-RI-000221..000227`, markers `G13-PM-000126..000129`), and
+`topics/identity/39-child-inventory-method.md` (`g13-identity-inventory-method`,
+`G13-RI-000228..000232`, markers `G13-PM-000131..000133`). One further item, `G13-RI-000233`, homes
+the variant-weighting rule in `36-other-eliminations.md` under marker `G13-PM-000134`.
+
+The same pass reconciled the graph to the case file's fifth edition. Marker `G13-PM-000105` and
+items `G13-RI-000171` and `G13-RI-000172` moved from `g13-identity-assessment` to the new Berkhamsted
+unit, which is now their canonical home. Nine items carrying the superseded baseline were restated —
+`RI-000065` (the child roster, with Peter and Isaac as American-born and Sarah doubtful),
+`RI-000104`, `RI-000106`, `RI-000120`, `RI-000145`, `RI-000170`, `RI-000172`, `RI-000174`,
+`RI-000177`, `RI-000178` and `RI-000194` — and `RI-000159`, which absorbed a chronology tension in
+the withdrawn East Dereham reading, was rewritten to record that no baptism date remains to be
+reconciled. All twenty-six publication mappings that pointed at the retired fourth edition were
+removed and thirty-two truthful mappings written against the fifth; five were deliberately not
+re-added, because the fifth edition no longer carries the American-arms tradition, the Nevis-will
+thread, or the Bury St Edmunds burial clearance.
+
+Coverage ledgers closed with the increment: 101 rows added to `source-and-citation-map.csv`, the
+Berkhamsted rows in `supplemental-surfaces-map.csv` repointed to the new unit, and the frozen
+inventory re-frozen for the nine inputs that tranches B and C edited, each with its prior baseline
+recorded. Every gate in `tools/g13_coverage_check.py` passes, and `validate` reports 0 errors at
+database revision 381.

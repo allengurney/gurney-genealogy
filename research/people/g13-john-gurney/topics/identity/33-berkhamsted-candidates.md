@@ -21,7 +21,7 @@ Forty years of fathering. The natural break is the nine-year gap between **Sara 
 - **C(i), the elder John** — Hugh 1597, Anne 1599, Amye 1602, Bridgett 1606, Henrye 1610, Sara 1615. Fathering from 1597 puts his birth about 1570–75, so he is comfortably eliminated on age against a colonial John who deposed "aged 50 years or thereabouts" in 1653.
 - **C(ii), the younger John** — Jhon 1624, Richard 1626, Elizabeth 1629, Michaell 1631, Sarah 1634, Francis 1636/7. Fathering from 1624 puts his birth about **1598–1602**, so he was about **fifty-one in 1653**.
 
-**The split gains its first real evidence from the burial register: a Jhon Gourney was buried at Berkhamsted in 1620** — after C(i)'s last recorded child and before C(ii)'s first. That is exactly the shape the father-and-son reading predicts. It is not proof, because a second Jhon Gourney was buried in 1612 while C(i) was demonstrably still fathering, so the parish held more than one John, and the 1620 burial could be a son, a cousin, or the John baptised 1588 to a father Thomas. The discriminating evidence is the elder John's will in the Archdeaconry of St Albans registered volume `ASA/AR/8` (1610–1636), an offline pull at Hertfordshire Archives.[^roster]
+**The split gains its first real evidence from the burial register: a Jhon Gourney was buried at Berkhamsted in 1620** — after C(i)'s last recorded child and before C(ii)'s first. That is exactly the shape the father-and-son reading predicts. It is not proof, because a second Jhon Gourney was buried in 1612 while C(i) was demonstrably still fathering, so the parish held more than one John, and the 1620 burial could be a son, a cousin, or the John baptised 1588 to a father Thomas. The discriminating evidence is the elder John's will in the Archdeaconry of St Albans registered volume `ASA/AR/8` (1610–1636), an offline pull at Hertfordshire Archives.[^roster]<!-- graph-marker: G13-PM-000105 -->
 
 **And the parish is not one Gurney family.** Read whole, the baptism corpus carries four contemporaneous households distinguished by the father's forename:[^bapts]
 
@@ -32,9 +32,9 @@ Forty years of fathering. The natural break is the nine-year gap between **Sara 
 | **Edward / Edwarde** | James 1603, Elisabeth 1606, Susanna 1611 |
 | **William / Willyam** | Anna/Anne 1594, Willyam 1632 |
 
-That governs how the burials may be read: they cannot be assigned wholesale to the John line, and the Thomas household was actively baptising in 1638 and 1640.
+That governs how the burials may be read: they cannot be assigned wholesale to the John line, and the Thomas household was actively baptising in 1638 and 1640.<!-- graph-marker: G13-PM-000135 -->
 
-The parish attribution itself is settled. FindMyPast indexes this family at Great Berkhampstead and FamilySearch indexes the same children at St Peter, Hertfordshire; **St Peter's is Berkhamsted's parish church, and the two providers mean the same place.**[^parish]<!-- graph-marker: G13-PM-000105 -->
+The parish attribution itself is settled. FindMyPast indexes this family at Great Berkhampstead and FamilySearch indexes the same children at St Peter, Hertfordshire; **St Peter's is Berkhamsted's parish church, and the two providers mean the same place.**[^parish]
 
 ## What C(ii) has
 
@@ -50,7 +50,7 @@ The parish attribution itself is settled. FindMyPast indexes this family at Grea
 
 **Mary is absent at parish level, not merely at household level.** Across every surname stem and every father, the Berkhamsted baptism corpus contains **no Mary Gurney at any date between 1544 and 1888** — the only Mary is a 1730 burial.[^bapts] Mary Gurney married Daniel Shed at Braintree in 1647, so she was born by 1631 at the latest. This is the single strongest objection to C(ii) and it should not be smoothed over.
 
-**The household's records do not stop.** C(ii) was opened on a departure-shaped gap, and the gap does not exist. Great Berkhamsted's burial register survives for 1600–1660, is transcribed, and holds **sixteen Gurney-variant burials 1579–1643** — five of them between November 1637 and March 1638/9. A household that loses four or five members in eighteen months and then stops appearing in the baptism register is displaying mortality, not departure.[^roster]
+**The household's records do not stop.** C(ii) was opened on a departure-shaped gap, and the gap does not exist. Great Berkhamsted's burial register survives for 1600–1660, is transcribed, and holds **sixteen Gurney-variant burials 1579–1643** — five of them between November 1637 and March 1638/9. A household that loses four or five members in eighteen months and then stops appearing in the baptism register is displaying mortality, not departure.[^roster]<!-- graph-marker: G13-PM-000136 -->
 
 **A Richard Gurney was buried in the parish on 28 June 1638**, and this is the sharpest single blow. If he is the Richard baptised there 15 December 1626, C(ii)'s best name-match child died in England at eleven while the colonial Richard Gurney of Weymouth was alive and a freeman in 1681, and C(ii) collapses outright. Three readings are open: (a) he is the 1626 Richard, son of John; (b) he is Richarde Gurney baptised 1635, son of Thomas — a three-year-old of the neighbouring household, equally consistent with a June 1638 burial in a mortality year; (c) he is an adult Richard of the parish, unbaptised there, which is weak, since no Richard Gurney baptism other than 1626 and 1635 appears in the whole run. **The index cannot discriminate** — the burial transcript carries name, date and place only, with no age and no parent. The register image is the discriminator.[^roster][^bapts]
 
@@ -77,7 +77,7 @@ The earlier zero — "no Gurney burial at Great Berkhampstead at any date" — w
 
 **C(i) is eliminated on his own age, and that ground is immune to the same-name masking problem that weakens register-continuity eliminations. He holds at 1%.**
 
-**C(ii) is a documented man of the right age whose household is documented dying rather than leaving. He holds at 4%** — for him, only the absence of a burial for the head, inside a defective register window; against him, a parish-level absence of any Mary Gurney at any date, no marriage anywhere in the county in the window, and a Richard Gurney buried in the parish in June 1638 who may well be his own son.
+**C(ii) is a documented man of the right age whose household is documented dying rather than leaving. He holds at 4%** — for him, only the absence of a burial for the head, inside a defective register window; against him, a parish-level absence of any Mary Gurney at any date, no marriage anywhere in the county in the window, and a Richard Gurney buried in the parish in June 1638 who may well be his own son.<!-- graph-marker: G13-PM-000137 -->
 
 ## What would settle it
 

@@ -175,7 +175,6 @@ The identification stops short of proof, and the gap is specific. No surviving d
   <h2>Related Links</h2>
   <div class="fact-buttons">
     <a href="/key-research/john-gurney-case-file.html">Case File</a>
-    <a href="/key-research/east-dereham-ai-assistant-procedure.html">AI Procedure</a>
     <a href="https://en.wikipedia.org/wiki/St_Benet_Fink">St Benet Fink</a>
     <a href="https://historicengland.org.uk/listing/the-list/list-entry/1298188">St James's Chapel</a>
     <a href="http://www.pennyghael.org.uk/Gurney.pdf">Pease Genealogy</a>

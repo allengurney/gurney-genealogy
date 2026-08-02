@@ -159,16 +159,18 @@ findmypast-bucks-baptism-index,Findmypast Buckinghamshire Baptism Index,none,,,s
 findmypast-bucks-burial-index,Findmypast Buckinghamshire Burial Index,none,,,sources/validations/findmypast-bucks-burial-index.md
 findmypast-bucks-marriage-index,Findmypast Buckinghamshire Marriage Index,none,,,sources/validations/findmypast-bucks-marriage-index.md
 findmypast-bury-st-edmunds-st-mary-gurney-burials-1653-1656,Findmypast National Burial Index - Bury St Edmunds St Mary Gurney burials 1653-1656,transcript,,,sources/validations/findmypast-bury-st-edmunds-st-mary-gurney-burials-1653-1656.md
-findmypast-county-baptism-sets-2026-07-sweep,FindMyPast county baptism and marriage index sets (July 2026 Gurney sweep),none,,,sources/validations/findmypast-county-baptism-sets-2026-07-sweep.md
+findmypast-county-baptism-sets-2026-07-sweep,FindMyPast county baptism and marriage index sets (July 2026 Gurney sweep),transcript,sources/corpus_supplement/findmypast-county-gurney-variant-baptism-transcripts-1606-1643.md,,sources/validations/findmypast-county-baptism-sets-2026-07-sweep.md
 findmypast-england-marriages-gurney-mary-wildcard-sweep-2026-06,"Findmypast England Marriages 1538-1973 - G*rn* + Mary wildcard sweep, June 2026",none,,,sources/validations/findmypast-england-marriages-gurney-mary-wildcard-sweep-2026-06.md
 findmypast-hertfordshire-banns-marriages,Findmypast Hertfordshire Banns & Marriages,none,,,sources/validations/findmypast-hertfordshire-banns-marriages.md
 findmypast-hertfordshire-baptisms,Findmypast Hertfordshire Baptisms,none,,,sources/validations/findmypast-hertfordshire-baptisms.md
-findmypast-hertfordshire-burials,Findmypast Hertfordshire Burials,none,,,sources/validations/findmypast-hertfordshire-burials.md
+findmypast-hertfordshire-burials,Findmypast Hertfordshire Burials,partial,sources/corpus_supplement/findmypast-hertfordshire-berkhamsted-burial-page-165-1638.md,sources/media/findmypast-hertfordshire-burials,sources/validations/findmypast-hertfordshire-burials.md
 findmypast-john-gurney-2026may-supplementary-same-name-sweep,"Findmypast John Gurney same-name sweep, 12 May 2026 raw batch",transcript,,,sources/validations/findmypast-john-gurney-2026may-supplementary-same-name-sweep.md
 findmypast-norfolk-banns-marriages-index,FindMyPast Norfolk Banns and Marriages index,extract,sources/corpus_supplement/rivett-garveston-maternal-family-2026-06.md,,sources/validations/findmypast-norfolk-banns-marriages-index.md
 findmypast-norfolk-baptisms-index,FindMyPast Norfolk Baptisms index,extract,sources/corpus_supplement/rivett-garveston-maternal-family-2026-06.md,,sources/validations/findmypast-norfolk-baptisms-index.md
 findmypast-norfolk-burials-index,Findmypast Norfolk Burials index,transcript,,,sources/validations/findmypast-norfolk-burials-index.md
 findmypast-uk-parish-baptisms,Findmypast UK Parish Baptisms,none,,,sources/validations/findmypast-uk-parish-baptisms.md
+findmypast-upton-gurney-baptisms-1597-1629,"Findmypast England Births & Baptisms 1538-1975 - Upton on Severn Gurney entries, 1597-1629",transcript,sources/corpus_supplement/findmypast-upton-gurney-baptisms-1597-1629.md,,sources/validations/findmypast-upton-gurney-baptisms-1597-1629.md
+findmypast-westminster-marriages-gurney-transcripts-1591-1642,"Findmypast Westminster Marriages — selected Gurney transcripts, 1591–1642",transcript,sources/corpus_supplement/findmypast-westminster-marriages-gurney-transcripts-1591-1642.md,,sources/validations/findmypast-westminster-marriages-gurney-transcripts-1591-1642.md
 fischer-albions-seed-1989,"Fischer, Albion's Seed",none,,,
 fmg-medlands-normacre,FMG MedLands -- Normandy (Cawley),external,,,
 folger-corpus-christi-1619,Corpus Christi (1619) - Internet Archive / Folger,none,,,

@@ -42,7 +42,9 @@ This note captures the initial baseline for moving from the current Eleventy sit
 Keep these public surfaces available during the refactor unless explicitly retired:
 - `/key-research/john-gurney-case-file.html`
 - `/key-research/brigadier-general-william-gurney.html`
-- `/key-research/east-dereham-ai-assistant-procedure.html`
+- ~~`/key-research/east-dereham-ai-assistant-procedure.html`~~ — **retired 1 August 2026.** The page
+  set out the workflow behind a withdrawn reading of the East Dereham register. Source retained at
+  `research/topics/_legacy/east-dereham-ai-assistant-procedure/`; its redirect stub was deleted.
 - `/key-research/using-gen-ai-in-genealogy.html`
 - `/maps-and-lists/ancestor-map.html`
 - existing `/fact-sheets/*.html`

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.35.1",
+    "version": "1.35.2",
     "description": "Canonical source bibliography. Every citable document referenced in fact sheets, case files, or research notes.",
-    "lastUpdated": "2026-07-19",
+    "lastUpdated": "2026-08-01",
     "schema": "sourceId → {citation, archive, url, corpusStatus, corpusPath, mediaPath, validationPath, notes}"
   },
   "sources": {
@@ -1783,14 +1783,14 @@
     },
     "findmypast-hertfordshire-burials": {
       "shortTitle": "Findmypast Hertfordshire Burials",
-      "citation": "Hertfordshire Burials, parish-register burial records, Hertfordshire Archives and Local Studies; served via Findmypast.",
+      "citation": "Hertfordshire Burials, parish-register burial records and images, Hertfordshire Archives and Local Studies; served via Findmypast. Great Berkhamsted, 28 June 1638 burial entry on viewer page 165 of 175, record GBPRS/HERT/007567815/00277.",
       "archive": "Findmypast / Hertfordshire Archives",
       "url": "https://search.findmypast.co.uk/search-world-records/hertfordshire-burials",
-      "corpusStatus": "none",
-      "corpusPath": null,
-      "mediaPath": null,
+      "corpusStatus": "partial",
+      "corpusPath": "sources/corpus_supplement/findmypast-hertfordshire-berkhamsted-burial-page-165-1638.md",
+      "mediaPath": "sources/media/findmypast-hertfordshire-burials",
       "validationPath": "sources/validations/findmypast-hertfordshire-burials.md",
-      "notes": "Parish-register burials for Hertfordshire, indexed with name, burial date and place only - no age, no parent - so household attribution in a multi-household parish needs the register image. The set's own description states that many Hertfordshire registers are defective for 1643-1660, which bounds any burial negative in that window. The parish is indexed here as 'Berkhamstead', a different place token from the 'Great Berkhampstead' used in the baptism set. Swept for Gurney variants at Berkhamsted 2026-07-28; findings in the G13 identity refactor unit 66."
+      "notes": "Parish-register burials for Hertfordshire, indexed with name, burial date and place only - no age, no parent - so household attribution in a multi-household parish ordinarily needs the register image. A retained Great Berkhamsted 1638 image supplies a stated father for one Richard Gurney entry; see the registered corpus supplement. The set description states that many Hertfordshire registers are defective for 1643-1660, which bounds any burial negative in that window. The parish is indexed here as 'Berkhamstead', a different place token from the 'Great Berkhampstead' used in the baptism set."
     },
     "findmypast-hertfordshire-banns-marriages": {
       "shortTitle": "Findmypast Hertfordshire Banns & Marriages",
@@ -1857,6 +1857,17 @@
       "mediaPath": null,
       "validationPath": "sources/validations/findmypast-uk-parish-baptisms.md",
       "notes": "Used 2026-05-09 for Peter Gurney 1632-1642 Britain-wide search, including Peter G. 1641 Smallburgh, Norfolk, transcript R_880200102, and for the Norfolk Gurney plus father John 1623-1643 cluster, including Denton, Hempnall, Stanfield, Norwich, North Runcton, and Earsham households."
+    },
+    "findmypast-upton-gurney-baptisms-1597-1629": {
+      "shortTitle": "Findmypast England Births & Baptisms 1538-1975 - Upton on Severn Gurney entries, 1597-1629",
+      "citation": "England Births & Baptisms 1538-1975, Findmypast transcript records R_960587515, R_960589747, R_960590015, and R_960590641: Gurney/Gorney baptisms at Upton on Severn, Worcestershire, 9 October 1597 to 13 September 1629.",
+      "archive": "Findmypast; IRI index used by permission of FamilySearch International",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_960590641&tab=this",
+      "corpusStatus": "transcript",
+      "corpusPath": "sources/corpus_supplement/findmypast-upton-gurney-baptisms-1597-1629.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/findmypast-upton-gurney-baptisms-1597-1629.md",
+      "notes": "Four indexed Upton on Severn baptism transcripts preserving a local Gurney/Gorney sequence. The corpus supplement preserves the displayed index fields. No original parish-register image has been examined; literal dash parent fields mean the relevant parent was not indexed in that transcript."
     },
     "fischer-albions-seed-1989": {
       "shortTitle": "Fischer, Albion's Seed",
@@ -4922,14 +4933,25 @@
     },
     "findmypast-county-baptism-sets-2026-07-sweep": {
       "shortTitle": "FindMyPast county baptism and marriage index sets (July 2026 Gurney sweep)",
-      "citation": "FindMyPast county-level parish index sets — Norfolk, Essex, Northamptonshire, Oxfordshire, Cambridgeshire, Middlesex, Westminster, Berkshire, Herefordshire, Sussex, Warwickshire and Yorkshire baptisms, with Norfolk, Northamptonshire, Cambridgeshire and Westminster marriages and banns. Authenticated session, 29 July 2026.",
+      "citation": "FindMyPast county-level parish index sets — Norfolk, Essex, Northamptonshire, Oxfordshire, Cambridgeshire, Middlesex, Westminster, Berkshire, Herefordshire, Sussex, Warwickshire, Yorkshire and Bedfordshire baptisms, with Norfolk, Northamptonshire, Cambridgeshire and Westminster marriages and banns. Authenticated sessions, 29 July and 1 August 2026; retained transcript records from Norfolk, Cambridgeshire, Westminster, Berkshire, Essex, Northamptonshire, Middlesex and Bedfordshire.",
       "archive": "FindMyPast (county record offices and family history societies)",
       "url": "https://www.findmypast.co.uk/search/british-records",
-      "corpusStatus": "none",
-      "corpusPath": null,
+      "corpusStatus": "transcript",
+      "corpusPath": "sources/corpus_supplement/findmypast-county-gurney-variant-baptism-transcripts-1606-1643.md",
       "mediaPath": null,
       "validationPath": "sources/validations/findmypast-county-baptism-sets-2026-07-sweep.md",
-      "notes": "Single-dataset (sid=103) county sets, the only FindMyPast query mode that returns father and mother columns. Used for the July 2026 county-set sweep measuring the G13 coverage row, for dating three previously undated households, and for the Epping enumeration. Carries a documented fail-closed defect: a year bound and a place keyword in the same query return zero regardless of holdings."
+      "notes": "Single-dataset (sid=103) county sets, the only FindMyPast query mode that returns father and mother columns. A bounded corpus supplement preserves thirty-three selected 1600-1644 transcript records, including two Norfolk marriages; it is index/transcript evidence, not original-register reading. Carries a documented fail-closed defect: a year bound and a place keyword in the same query return zero regardless of holdings."
+    },
+    "findmypast-westminster-marriages-gurney-transcripts-1591-1642": {
+      "shortTitle": "Findmypast Westminster Marriages — selected Gurney transcripts, 1591–1642",
+      "citation": "Westminster Marriages; database, Findmypast (findmypast.co.uk), parish-register marriage transcriptions supplied with the Westminster Collection in association with City of Westminster Archives Centre. Thirteen selected Gurney-variant transcript pages, retrieved 1 August 2026.",
+      "archive": "Findmypast / City of Westminster Archives Centre",
+      "url": "https://www.findmypast.co.uk/search-world-records/westminster-marriages",
+      "corpusStatus": "transcript",
+      "corpusPath": "sources/corpus_supplement/findmypast-westminster-marriages-gurney-transcripts-1591-1642.md",
+      "mediaPath": null,
+      "validationPath": "sources/validations/findmypast-westminster-marriages-gurney-transcripts-1591-1642.md",
+      "notes": "Selected early Gurney-variant entries reopened from the live, unbounded Westminster Marriages result. The retained corpus preserves all fields displayed by the transcript pages and documents two same-event ID pairs with surname-spelling variance. It is index/transcript evidence only; no original-register image was opened."
     }
   }
 }

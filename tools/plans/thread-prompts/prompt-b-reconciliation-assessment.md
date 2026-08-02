@@ -296,6 +296,69 @@ in two working rounds, `§8.6` → `§8.8` for the clearance table).
 
 **Also fixed in passing:** six orphan citation anchors in the G13 fact sheet whose notes carried no matching back-link.
 
+## 5d. Tranche D — executed 1 August 2026
+
+**Context graph and published surfaces. All four tranches are now done; the prompt is closed.**
+
+**Graph repair (rev 285 → 344).** Validation opened at **34 errors**; every one is now cleared.
+All **26 publication mappings** pointed at the retired fourth edition of the case file. They were not
+repointed blindly: each was tested against what the fifth edition actually asserts, all 26 were
+removed, and **32 truthful mappings** written against v5. **Five were deliberately not re-added** —
+the American-arms tradition (`RI-000101`, `RI-000102`), the 1699 Nevis-will thread (`RI-000135`), and
+the Bury St Edmunds burial and birthplace-clearance rows (`RI-000095`, `RI-000096`) — because the
+fifth edition no longer carries them. The items survive; only the claim that a published surface
+asserts them is gone. Two `research_location_invalid` errors were heading-id drift from the Tranche A
+rewrites of `31-` and `36-`. Three marker tokens lost in the same rewrites (`PM-000080`, `000081`,
+`000082`) were restored to the surviving passages in `36-`.
+
+**The increment (rev 344 → 381).** Three units registered, with items and markers authored in the
+same pass:
+
+| Unit | File | Items | Markers |
+|---|---|---|---|
+| `g13-identity-candidate-c` | `33-berkhamsted-candidates.md` | `RI-000211..000220` | `PM-000105`, `000130`, `000135..000137` |
+| `g13-identity-shape-matrix` | `38-the-shape-and-the-two-families.md` | `RI-000221..000227` | `PM-000126..000129` |
+| `g13-identity-inventory-method` | `39-child-inventory-method.md` | `RI-000228..000232` | `PM-000131..000133` |
+
+One further item, `RI-000233`, homes the variant-weighting rule in `36-` under `PM-000134`.
+
+**Retirements and restatements, as the prompt expected.** Marker `PM-000105` and items `RI-000171`
+and `RI-000172` moved from `g13-identity-assessment` to the new Berkhamsted unit, which is their
+canonical home now. Eleven items carrying the superseded baseline were restated: `RI-000065` (the
+child roster — Peter and Isaac American-born, Sarah doubtful), `RI-000104`, `RI-000106`
+(the "sole survivor" claim), `RI-000120`, `RI-000145` (two primary records → one; confidence
+`moderate` → `low`), `RI-000170`, `RI-000171`, `RI-000172` (Candidate C "eliminated" → two men),
+`RI-000174` (the sixties estimate → the three record-state rows at 44%), `RI-000177`, `RI-000178`
+(the 65–70% band → the five records that would move specific rows) and `RI-000194`. `RI-000159`
+rested entirely on the withdrawn East Dereham entry and was rewritten to record that no baptism date
+remains to be reconciled. **The graph now carries the final 18-row state.**
+
+**Coverage ledgers closed.** The Tranche A rewrites had left the refactor's own gates red: 66
+citation gaps and 66 parity gaps, because the rewritten prose cited sources the graph items never
+gained. 101 rows were added to `source-and-citation-map.csv`, each dispositioned by a stated rule —
+the real role where the source is on an item in that unit, `cross_unit` where its items live
+elsewhere, `context_only` where no item anywhere carries it. Nine frozen inputs that tranches B and C
+edited were re-frozen with their prior baselines recorded, following the precedent already set in the
+ledger README. **Every gate in `g13_coverage_check.py` now passes.**
+
+**Published surfaces.** The case file page is the fifth edition; the website package is re-exported
+at revision 381 (229 public findings, 118 markers, 312 edges) and placed at `website-r381`,
+`website-current` and `website`. `npm run validate` passes — 565 public pages, no broken links.
+**`/key-research/east-dereham-ai-assistant-procedure.html` is off the site and kept in the repo**, at
+`research/topics/_legacy/east-dereham-ai-assistant-procedure/`, with a header stating that the reading
+it documents is withdrawn and that nothing in it is evidence. Its redirect stub was deleted, its nav
+entry removed, and the four live repo references repointed. The AI-in-genealogy essay's link to it was
+replaced with the lesson itself, written so the page is not needed to understand it. **No page on the
+built site carries a sixty-five percent figure.**
+
+**What was deliberately not changed.** `exports/website-r244` is left in place as the audit record of
+the superseded export. The `sources.json` `mediaPath` for `pcc-prob11-461-dyer-lewis-nevis` points at a
+directory rather than a file, which the graph reports as one `source_content_missing` warning; it
+predates this work and is a registry-shape question, not a baseline question. Nineteen `repo_only`
+markers in `g13-identity-candidate-b` stay out of the public export, which is a pre-existing
+visibility decision. `research/case-files/Initial foundation work for.../john-gurney-case-file-v2.md`
+and the retired v4 keep their old links, being frozen surfaces.
+
 ## 6. Traps to carry into every tranche
 
 - A negative that loses its coverage qualifier becomes a false claim.

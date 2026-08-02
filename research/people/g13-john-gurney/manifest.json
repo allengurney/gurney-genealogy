@@ -61,7 +61,8 @@
         "G13-RI-000005",
         "G13-RI-000006",
         "G13-RI-000007",
-        "G13-RI-000043"
+        "G13-RI-000043",
+        "G13-RI-000204"
       ]
     },
     {
@@ -85,7 +86,8 @@
         "G13-RI-000023",
         "G13-RI-000044",
         "G13-RI-000045",
-        "G13-RI-000046"
+        "G13-RI-000046",
+        "G13-RI-000205"
       ]
     },
     {
@@ -110,7 +112,6 @@
         "G13-RI-000014",
         "G13-RI-000015",
         "G13-RI-000016",
-        "G13-RI-000017",
         "G13-RI-000047",
         "G13-RI-000184"
       ]
@@ -248,8 +249,7 @@
         "G13-RI-000133",
         "G13-RI-000134",
         "G13-RI-000135",
-        "G13-RI-000196",
-        "G13-RI-000197"
+        "G13-RI-000196"
       ]
     },
     {
@@ -274,6 +274,239 @@
         "G13-RI-000142",
         "G13-RI-000143",
         "G13-RI-000144"
+      ]
+    },
+    {
+      "topicId": "g13-identity-candidate-overview",
+      "path": "research/people/g13-john-gurney/topics/identity/30-candidate-overview.md",
+      "headingId": "identity-candidate-overview",
+      "title": "Identity — candidate overview",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "identity",
+      "order": 10,
+      "publicSlug": "identity/candidate-overview",
+      "publicationStatus": "public",
+      "summary": "The shared matching-criteria profile and elimination scaffold the case file applies across every alternative English John Gurney candidate: of 51 same-name households surveyed, three principal alternatives and 45 further households are eliminated on structural grounds and five are held to a low residual, leaving Candidate B the sole survivor. The case file's own probability model for Candidate B stays external-canonical there, cross-referenced rather than restated; what the elimination amounts to is the assessment unit.",
+      "researchItemIds": [
+        "G13-RI-000104",
+        "G13-RI-000105",
+        "G13-RI-000106"
+      ]
+    },
+    {
+      "topicId": "g13-identity-candidate-a",
+      "path": "research/people/g13-john-gurney/topics/identity/31-candidate-a-aylesbury.md",
+      "headingId": "identity-candidate-a-aylesbury-buckinghamshire",
+      "title": "Identity — Candidate A: Aylesbury, Buckinghamshire",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "identity",
+      "order": 20,
+      "publicSlug": "identity/candidate-a-aylesbury",
+      "publicationStatus": "public",
+      "summary": "Candidate A's continuous Buckinghamshire/Northamptonshire chain — the 1603 Stewkley baptism, the 1628 Bierton marriage to Alice Oliffe, the 1638-1653 Aylesbury family group, and a 1641 move into Northamptonshire — places one Englishman in England across exactly the years the Massachusetts John Gurney was at Weymouth and Braintree. A wider Bucks Gurney household map and a 1661 Edlesborough marriage independently reinforce the elimination.",
+      "researchItemIds": [
+        "G13-RI-000107",
+        "G13-RI-000108",
+        "G13-RI-000109",
+        "G13-RI-000110"
+      ]
+    },
+    {
+      "topicId": "g13-identity-candidate-b",
+      "path": "research/people/g13-john-gurney/topics/identity/32-norfolk-parentage.md",
+      "headingId": "identity-candidate-b-norfolk-parentage",
+      "title": "Identity — Candidate B: Norfolk parentage",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "identity",
+      "order": 30,
+      "publicSlug": "identity/candidate-b-norfolk-parentage",
+      "publicationStatus": "public",
+      "summary": "The surviving candidate's own case: John Gurney of Braintree as the son of Francis Gurney, Merchant Taylor, by Margaret Rybett of Norfolk. Two primary records carry it — the 1611 Norwich marriage no earlier genealogist found, and the East Dereham baptism re-read from \"Nicholas Gorne\" to \"John the sonne of ffrancis Gurnie\" — supported by a father-to-son trade, the East Anglia-to-London corridor, and Rivett and West Barsham kin close by. Against them: the 1633 Visitation's \"eldest sonne,\" no English marriage record, and a deposition age too old. Probable, not proven.",
+      "researchItemIds": [
+        "G13-RI-000145",
+        "G13-RI-000146",
+        "G13-RI-000147",
+        "G13-RI-000148",
+        "G13-RI-000149",
+        "G13-RI-000150",
+        "G13-RI-000151",
+        "G13-RI-000152",
+        "G13-RI-000153",
+        "G13-RI-000154",
+        "G13-RI-000155",
+        "G13-RI-000156",
+        "G13-RI-000157",
+        "G13-RI-000160",
+        "G13-RI-000161",
+        "G13-RI-000162",
+        "G13-RI-000163",
+        "G13-RI-000164",
+        "G13-RI-000165",
+        "G13-RI-000166",
+        "G13-RI-000167",
+        "G13-RI-000168",
+        "G13-RI-000170",
+        "G13-RI-000192",
+        "G13-RI-000193",
+        "G13-RI-000206",
+        "G13-RI-000207",
+        "G13-RI-000208",
+        "G13-RI-000209",
+        "G13-RI-000210"
+      ]
+    },
+    {
+      "topicId": "g13-identity-candidate-c",
+      "path": "research/people/g13-john-gurney/topics/identity/33-berkhamsted-candidates.md",
+      "headingId": "identity-berkhamsted-candidates-ci-and-cii",
+      "title": "Identity — Berkhamsted: Candidates C(i) and C(ii)",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "identity",
+      "order": 35,
+      "publicSlug": "identity/berkhamsted-candidates",
+      "publicationStatus": "public",
+      "summary": "The Great Berkhamsted Gurney households and the two men who together make up Candidate C. The father-John baptisms run forty years, which is not one man: C(i) is eliminated on his own age, while C(ii) is the best documented age fit in the whole field and is held at about 4 percent, because his household is documented dying rather than leaving.",
+      "researchItemIds": [
+        "G13-RI-000171",
+        "G13-RI-000172",
+        "G13-RI-000211",
+        "G13-RI-000212",
+        "G13-RI-000213",
+        "G13-RI-000214",
+        "G13-RI-000215",
+        "G13-RI-000216",
+        "G13-RI-000217",
+        "G13-RI-000218",
+        "G13-RI-000219",
+        "G13-RI-000220"
+      ]
+    },
+    {
+      "topicId": "g13-identity-london-candidate",
+      "path": "research/people/g13-john-gurney/topics/identity/34-london-draper.md",
+      "headingId": "identity-candidate-d-london-draper-old-change",
+      "title": "Identity — Candidate D: London Draper, Old Change",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "identity",
+      "order": 40,
+      "publicSlug": "identity/candidate-d-london-draper",
+      "publicationStatus": "public",
+      "summary": "Candidate D — John Gurney, son and executor of Robert Gurney, citizen and draper of Old Change — is eliminated: the same John Gurney is documented continuously in the same St Augustine Watling Street parish from a 1638 rents return through a 1662 hearth-tax entry, the same year the colonial John of Braintree was dying at Boston; the missing wife Mary and matching children give the elimination a second, independent ground.",
+      "researchItemIds": [
+        "G13-RI-000121",
+        "G13-RI-000122",
+        "G13-RI-000123",
+        "G13-RI-000124",
+        "G13-RI-000125"
+      ]
+    },
+    {
+      "topicId": "g13-identity-candidate-ackworth",
+      "path": "research/people/g13-john-gurney/topics/identity/35-candidate-ackworth.md",
+      "headingId": "identity-ackworth-yorkshire",
+      "title": "Identity — Ackworth, Yorkshire",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "identity",
+      "order": 50,
+      "publicSlug": "identity/ackworth-yorkshire",
+      "publicationStatus": "public",
+      "summary": "The 1636 Ackworth marriage of John Gurnoe to Mary Burton is the only same-name comparator anywhere in the record sweeps whose wife is genuinely named Mary in roughly the right window — held at a residual ~3% rather than eliminated outright, capped by a naming/birth-order mismatch and the colonial John's own pre-1628 marriage bound.",
+      "researchItemIds": [
+        "G13-RI-000111",
+        "G13-RI-000112",
+        "G13-RI-000113"
+      ]
+    },
+    {
+      "topicId": "g13-identity-other-eliminations",
+      "path": "research/people/g13-john-gurney/topics/identity/36-other-eliminations.md",
+      "headingId": "identity-other-eliminations-and-earsham",
+      "title": "Identity — Other Eliminations and Earsham",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "identity",
+      "order": 60,
+      "publicSlug": "identity/other-eliminations",
+      "publicationStatus": "public",
+      "summary": "A 1638 Earsham, Norfolk Gurney yeoman family (wife Mary, son John too young to be the emigrant); the distinct Gurnell surname; a six-parish Norfolk household-density survey; a targeted Richard/Isaac negative search; and the wider English probate, parish, and muster comparators that clear the remaining same-name field, leaving Candidate B the sole surviving identity.",
+      "researchItemIds": [
+        "G13-RI-000114",
+        "G13-RI-000115",
+        "G13-RI-000116",
+        "G13-RI-000117",
+        "G13-RI-000118",
+        "G13-RI-000119",
+        "G13-RI-000120",
+        "G13-RI-000233"
+      ]
+    },
+    {
+      "topicId": "g13-identity-assessment",
+      "path": "research/people/g13-john-gurney/topics/identity/37-identity-assessment.md",
+      "headingId": "identity-assessment",
+      "title": "Identity — assessment",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "identity",
+      "order": 70,
+      "publicSlug": "identity/assessment",
+      "publicationStatus": "public",
+      "summary": "What the identity work adds up to: an identification reached by elimination and circumstantial fit rather than by any document naming John's father. Eliminates the last principal alternative (Candidate C, Berkhamsted); states the unknown-corridor residual the eliminations do not clear; leaves open whether John emigrated through the Gurdon–Winthrop patronage network; reads Anderson's \"Boston\" settlement as a conflation with the 1636 Newgate apprentice; and names the two end-states for the estimate and the three levers that would move it.",
+      "researchItemIds": [
+        "G13-RI-000173",
+        "G13-RI-000174",
+        "G13-RI-000176",
+        "G13-RI-000177",
+        "G13-RI-000178",
+        "G13-RI-000194"
+      ]
+    },
+    {
+      "topicId": "g13-identity-shape-matrix",
+      "path": "research/people/g13-john-gurney/topics/identity/38-the-shape-and-the-two-families.md",
+      "headingId": "identity-the-shape-the-matrix-and-the-two-families",
+      "title": "Identity — the shape, the matrix, and the two families",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "identity",
+      "order": 80,
+      "publicSlug": "identity/shape-and-two-families",
+      "publicationStatus": "public",
+      "summary": "The fifteen-attribute specification every candidate is scored against, the matrix that scores them, and the structural finding it produced: the candidates fall into documented households with the wrong shape and documented men with no household at all, and no candidate is in both.",
+      "researchItemIds": [
+        "G13-RI-000221",
+        "G13-RI-000222",
+        "G13-RI-000223",
+        "G13-RI-000224",
+        "G13-RI-000225",
+        "G13-RI-000226",
+        "G13-RI-000227"
+      ]
+    },
+    {
+      "topicId": "g13-identity-inventory-method",
+      "path": "research/people/g13-john-gurney/topics/identity/39-child-inventory-method.md",
+      "headingId": "identity-method-for-a-complete-child-inventory",
+      "title": "Identity — method for a complete child inventory",
+      "phase": "G3-increment",
+      "coverageStatus": "increment-complete",
+      "group": "identity",
+      "order": 90,
+      "publicSlug": "identity/child-inventory-method",
+      "publicationStatus": "public",
+      "summary": "The method governing any further round of the same-name and child-inventory search: the fourteen instruments that must be consulted, the catalogue and household-assembly discipline, the scoring rubric, the stopping rule, the eight self-checks, and the highest-value query that has never been run.",
+      "researchItemIds": [
+        "G13-RI-000228",
+        "G13-RI-000229",
+        "G13-RI-000230",
+        "G13-RI-000231",
+        "G13-RI-000232"
       ]
     },
     {
@@ -410,175 +643,6 @@
       ]
     },
     {
-      "topicId": "g13-identity-candidate-overview",
-      "path": "research/people/g13-john-gurney/topics/identity/30-candidate-overview.md",
-      "headingId": "identity-candidate-overview",
-      "title": "Identity — candidate overview",
-      "phase": "G3-increment",
-      "coverageStatus": "increment-complete",
-      "group": "identity",
-      "order": 10,
-      "publicSlug": "identity/candidate-overview",
-      "publicationStatus": "public",
-      "summary": "The shared matching-criteria profile and elimination scaffold the case file applies across every alternative English John Gurney candidate: of 51 same-name households surveyed, three principal alternatives and 45 further households are eliminated on structural grounds and five are held to a low residual, leaving Candidate B the sole survivor. The case file's own probability model for Candidate B stays external-canonical there, cross-referenced rather than restated; what the elimination amounts to is the assessment unit.",
-      "researchItemIds": [
-        "G13-RI-000104",
-        "G13-RI-000105",
-        "G13-RI-000106"
-      ]
-    },
-    {
-      "topicId": "g13-identity-candidate-a",
-      "path": "research/people/g13-john-gurney/topics/identity/31-candidate-a-aylesbury.md",
-      "headingId": "identity-candidate-a-aylesbury-buckinghamshire",
-      "title": "Identity — Candidate A: Aylesbury, Buckinghamshire",
-      "phase": "G3-increment",
-      "coverageStatus": "increment-complete",
-      "group": "identity",
-      "order": 20,
-      "publicSlug": "identity/candidate-a-aylesbury",
-      "publicationStatus": "public",
-      "summary": "Candidate A's continuous Buckinghamshire/Northamptonshire chain — the 1603 Stewkley baptism, the 1628 Bierton marriage to Alice Oliffe, the 1638-1653 Aylesbury family group, and a 1641 move into Northamptonshire — places one Englishman in England across exactly the years the Massachusetts John Gurney was at Weymouth and Braintree. A wider Bucks Gurney household map and a 1661 Edlesborough marriage independently reinforce the elimination.",
-      "researchItemIds": [
-        "G13-RI-000107",
-        "G13-RI-000108",
-        "G13-RI-000109",
-        "G13-RI-000110"
-      ]
-    },
-    {
-      "topicId": "g13-identity-candidate-b",
-      "path": "research/people/g13-john-gurney/topics/identity/32-norfolk-parentage.md",
-      "headingId": "identity-candidate-b-norfolk-parentage",
-      "title": "Identity — Candidate B: Norfolk parentage",
-      "phase": "G3-increment",
-      "coverageStatus": "increment-complete",
-      "group": "identity",
-      "order": 30,
-      "publicSlug": "identity/candidate-b-norfolk-parentage",
-      "publicationStatus": "public",
-      "summary": "The surviving candidate's own case: John Gurney of Braintree as the son of Francis Gurney, Merchant Taylor, by Margaret Rybett of Norfolk. Two primary records carry it — the 1611 Norwich marriage no earlier genealogist found, and the East Dereham baptism re-read from \"Nicholas Gorne\" to \"John the sonne of ffrancis Gurnie\" — supported by a father-to-son trade, the East Anglia-to-London corridor, and Rivett and West Barsham kin close by. Against them: the 1633 Visitation's \"eldest sonne,\" no English marriage record, and a deposition age too old. Probable, not proven.",
-      "researchItemIds": [
-        "G13-RI-000145",
-        "G13-RI-000146",
-        "G13-RI-000147",
-        "G13-RI-000148",
-        "G13-RI-000149",
-        "G13-RI-000150",
-        "G13-RI-000151",
-        "G13-RI-000152",
-        "G13-RI-000153",
-        "G13-RI-000154",
-        "G13-RI-000155",
-        "G13-RI-000156",
-        "G13-RI-000157",
-        "G13-RI-000158",
-        "G13-RI-000159",
-        "G13-RI-000160",
-        "G13-RI-000161",
-        "G13-RI-000162",
-        "G13-RI-000163",
-        "G13-RI-000164",
-        "G13-RI-000165",
-        "G13-RI-000166",
-        "G13-RI-000167",
-        "G13-RI-000168",
-        "G13-RI-000169",
-        "G13-RI-000170",
-        "G13-RI-000192",
-        "G13-RI-000193",
-        "G13-RI-000206",
-        "G13-RI-000207",
-        "G13-RI-000208",
-        "G13-RI-000209",
-        "G13-RI-000210"
-      ]
-    },
-    {
-      "topicId": "g13-identity-london-candidate",
-      "path": "research/people/g13-john-gurney/topics/identity/34-london-draper.md",
-      "headingId": "identity-candidate-d-london-draper-old-change",
-      "title": "Identity — Candidate D: London Draper, Old Change",
-      "phase": "G3-increment",
-      "coverageStatus": "increment-complete",
-      "group": "identity",
-      "order": 40,
-      "publicSlug": "identity/candidate-d-london-draper",
-      "publicationStatus": "public",
-      "summary": "Candidate D — John Gurney, son and executor of Robert Gurney, citizen and draper of Old Change — is eliminated: the same John Gurney is documented continuously in the same St Augustine Watling Street parish from a 1638 rents return through a 1662 hearth-tax entry, the same year the colonial John of Braintree was dying at Boston; the missing wife Mary and matching children give the elimination a second, independent ground.",
-      "researchItemIds": [
-        "G13-RI-000121",
-        "G13-RI-000122",
-        "G13-RI-000123",
-        "G13-RI-000124",
-        "G13-RI-000125"
-      ]
-    },
-    {
-      "topicId": "g13-identity-candidate-ackworth",
-      "path": "research/people/g13-john-gurney/topics/identity/35-candidate-ackworth.md",
-      "headingId": "identity-ackworth-yorkshire",
-      "title": "Identity — Ackworth, Yorkshire",
-      "phase": "G3-increment",
-      "coverageStatus": "increment-complete",
-      "group": "identity",
-      "order": 50,
-      "publicSlug": "identity/ackworth-yorkshire",
-      "publicationStatus": "public",
-      "summary": "The 1636 Ackworth marriage of John Gurnoe to Mary Burton is the only same-name comparator anywhere in the record sweeps whose wife is genuinely named Mary in roughly the right window — held at a residual ~3% rather than eliminated outright, capped by a naming/birth-order mismatch and the colonial John's own pre-1628 marriage bound.",
-      "researchItemIds": [
-        "G13-RI-000111",
-        "G13-RI-000112",
-        "G13-RI-000113"
-      ]
-    },
-    {
-      "topicId": "g13-identity-other-eliminations",
-      "path": "research/people/g13-john-gurney/topics/identity/36-other-eliminations.md",
-      "headingId": "identity-other-eliminations-and-earsham",
-      "title": "Identity — Other Eliminations and Earsham",
-      "phase": "G3-increment",
-      "coverageStatus": "increment-complete",
-      "group": "identity",
-      "order": 60,
-      "publicSlug": "identity/other-eliminations",
-      "publicationStatus": "public",
-      "summary": "A 1638 Earsham, Norfolk Gurney yeoman family (wife Mary, son John too young to be the emigrant); the distinct Gurnell surname; a six-parish Norfolk household-density survey; a targeted Richard/Isaac negative search; and the wider English probate, parish, and muster comparators that clear the remaining same-name field, leaving Candidate B the sole surviving identity.",
-      "researchItemIds": [
-        "G13-RI-000114",
-        "G13-RI-000115",
-        "G13-RI-000116",
-        "G13-RI-000117",
-        "G13-RI-000118",
-        "G13-RI-000119",
-        "G13-RI-000120"
-      ]
-    },
-    {
-      "topicId": "g13-identity-assessment",
-      "path": "research/people/g13-john-gurney/topics/identity/37-identity-assessment.md",
-      "headingId": "identity-assessment",
-      "title": "Identity — assessment",
-      "phase": "G3-increment",
-      "coverageStatus": "increment-complete",
-      "group": "identity",
-      "order": 70,
-      "publicSlug": "identity/assessment",
-      "publicationStatus": "public",
-      "summary": "What the identity work adds up to: an identification reached by elimination and circumstantial fit rather than by any document naming John's father. Eliminates the last principal alternative (Candidate C, Berkhamsted); states the unknown-corridor residual the eliminations do not clear; leaves open whether John emigrated through the Gurdon–Winthrop patronage network; reads Anderson's \"Boston\" settlement as a conflation with the 1636 Newgate apprentice; and names the two end-states for the estimate and the three levers that would move it.",
-      "researchItemIds": [
-        "G13-RI-000171",
-        "G13-RI-000172",
-        "G13-RI-000173",
-        "G13-RI-000174",
-        "G13-RI-000175",
-        "G13-RI-000176",
-        "G13-RI-000177",
-        "G13-RI-000178",
-        "G13-RI-000194"
-      ]
-    },
-    {
       "topicId": "g13-research-source-coverage",
       "path": "research/people/g13-john-gurney/topics/research-state/40-source-coverage.md",
       "headingId": "research-state-source-coverage",
@@ -617,7 +681,11 @@
         "G13-RI-000054",
         "G13-RI-000055",
         "G13-RI-000056",
-        "G13-RI-000057"
+        "G13-RI-000057",
+        "G13-RI-000200",
+        "G13-RI-000201",
+        "G13-RI-000202",
+        "G13-RI-000203"
       ]
     }
   ]

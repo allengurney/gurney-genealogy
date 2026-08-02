@@ -20,7 +20,6 @@ The published page set, grouped as in the site menu (`_data/navigation.js`):
 | Key Research | John Gurney case file | `key-research/john-gurney-case-file.md` | Formal research case file for the G13–G14 origin hypothesis |
 | Key Research | Brig. Gen. William Gurney bio | `key-research/brigadier-general-william-gurney.md` | Full biography of the G6 ancestor |
 | Key Research | Heraldic Chain of Evidence | `key-research/gurney-heraldic-chain-of-evidence.njk` | Heraldic evidence chain for the medieval line |
-| Key Research | AI paleographic analysis | `key-research/east-dereham-ai-assistant-procedure.md` | Workflow record supporting the John Gurney case file |
 | Key Research | AI in genealogy | `key-research/using-gen-ai-in-genealogy.md` | Methodology essay on AI-assisted research |
 | Key Research | Sources | `key-research/sources.njk` | Source catalog, generated from `data/sources.json` |
 | Key Research | Misc. Topics | `key-research/misc-topics.njk` + generated `key-research/topics/*` | Select working research topics, published from `research/topics/` via `research/topics/_published-topics.csv` |
@@ -62,7 +61,6 @@ media/
 key-research/brigadier-general-william-gurney.md   ← Biography prose (edit in Typora)
 key-research/john-gurney-case-file.md              ← Case file prose (edit in Typora)
 fact-sheets/g14-francis-gurney-fact-sheet.md          ← Published fact sheet exemplar
-key-research/east-dereham-ai-assistant-procedure.md   ← Technical workflow reference page
 templates/ancestor-factsheet-TEMPLATE.md ← Non-published template for future fact sheets
 index.njk                             ← Homepage template (loops over ancestors.json)
 maps-and-lists/ancestor-table.njk                    ← Ancestor table template (loops over ancestors.json)

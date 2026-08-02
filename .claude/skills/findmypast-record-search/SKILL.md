@@ -158,6 +158,9 @@ and read past the noise** (`mar*` also pulls Margaret and Mark; that is the corr
 - **`yearofdeath=<YYYY>&yearofdeath_offset=<N>` binds** on the burial sets (the chip renders only the
   year, but the offset is applied). `yearofbaptism=` binds on baptism sets; `year=` + `year_offset=`
   binds on Norfolk Baptisms.
+- **Bedfordshire Baptisms positive control:** `lastname=gurney&yearofbaptism=1606&yearofbaptism_offset=5`
+  returned 19 rows including the known 26 Sep 1606 Eaton Bray John. This proves that bounded
+  positive slice works in that set; it is not authority for a Bedfordshire negative or for other sets.
 - **County sets have real parish holes, and the control is cheap.** `norfolk+baptisms` has **no Yaxham
   coverage before 1806** (Smith at Yaxham: 125 rows, all 1806+; the same query bounded 1560–1640
   returns 0). `worcestershire+baptisms` **does not cover Upton on Severn** at all (Smith → 0). Always
@@ -194,7 +197,10 @@ covers for another surname in the very same year.
 
 Two consequences worth carrying:
 
-- **`sortby=dateasc` is accepted and silently ignored.** The result order does not change. So you cannot
+- **`sortby=dateasc` is accepted and silently ignored.** The result order does not change. The functional
+  chronological sort is the provider's visible **Baptism year** header link, which supplies
+  `o=eventyear&d=asc` (confirmed on Essex Baptisms, 1 August 2026); retain that exact visible link
+  before pagination rather than inventing a `sortby` URL. So you cannot
   establish a set's earliest coverage year by sorting — use a common-surname control and report the span
   of the rows you actually see, stating that it is a partial page if it is.
 - Together these mean **a set's coverage window for a named parish is often not establishable from the
@@ -219,6 +225,14 @@ errors:
   (baptisms); Norfolk, Northamptonshire, Cambridgeshire, Westminster (marriages).
 - **Suffolk** has no county baptism set in this family — a real gap, since Suffolk is a Great Migration
   county. Reach it through FreeREG instead.
+
+### Buckinghamshire Burial Index generic `year=` fails closed (confirmed 2026-07-31)
+
+In `datasetname=buckinghamshire+burial+index`, the visible generic `year=` parameter is not a usable
+event-year bound: `lastname=gurney&firstname=john&year=1615` returns 0, while the unbounded
+event-year-ascending result contains **John Gurney, Stewkley, 21 Sep. 1615** (D/A/T/160). Do not use
+`year=` to assert a zero in this set; search unbounded and read/sort the result table, or first prove a
+source-specific date parameter with a positive control.
 
 ## 1. Search by URL parameters, not the form
 

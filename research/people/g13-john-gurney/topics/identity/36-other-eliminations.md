@@ -58,7 +58,7 @@ John Gurney of Earsham ("Eursham"), Norfolk, yeoman, made his will on 10 August 
 
 The testator died in 1638 and his son was still a minor, so neither man is the emigrant. **And the register closes the household from a second direction.** The Norfolk county baptism set carries four Girney baptisms at Earsham: **John 1636 and Henry 1638, both to a father John**, the second with a mother indexed **"Alex,"** plus Steven 1637 and Susan 1638 to a father Sion. The marriage is dated too — **John Girney × Elizabeth Singler, 9 October 1632.** So the Earsham John's wife is **Alice or Elizabeth, not Mary**, on two independent instruments, and he has a further son in 1638. The 1635 first son John must have died, since a second was baptised in 1636.[^earsham-register]
 
-What the will documents instead is a previously unlogged Waveney-valley Gurney family, distinctive enough to recognise and set aside wherever it resurfaces. Its own later history belongs to that family's subject file.[^earsham-external]
+What the will documents instead is a previously unlogged Waveney-valley Gurney family, distinctive enough to recognise and set aside wherever it resurfaces. Its own later history belongs to that family's subject file.[^earsham-external]<!-- graph-marker: G13-PM-000080 -->
 
 **Earsham also carries a coverage lesson.** The national parent-search pool returns **zero** for this household, while the Norfolk county set returns the 1636 and 1638 baptisms with the father indexed. The pool's positive control passes on the same instrument, so this is coverage, not a query defect: **any England-wide negative from that pool needs a county-set pair.**[^pool]
 
@@ -96,7 +96,7 @@ An **instrument note** belongs with it: the single-dataset route with a year bou
 
 A separate **John Gurnell**, admitted freeman in Massachusetts on 10 May 1643, is not John Gurney under a different spelling. Surviving Massachusetts Gurnell records are thin enough to invite a misreading, but a 30 July 1675 Dorchester death entry, checked directly, reads "Gurnell" plainly. The colonial John is recorded under Gurney/Gurny/Garny variants throughout his New England career, never Gurnell.[^gurnell]
 
-Beyond the individual candidates, a Norfolk-restricted search for baptisms to a father John, 1623–1643, surfaces fourteen further baptisms across six parishes: Denton, Hempnall, Stanfield, Norwich St Margaret & St Swithin, North Runcton, and Earsham. **None reproduces the colonial child set**, but the density itself matters: Norfolk was a Gurney heartland with several parish-level Johns active in the same decade, which is part of what makes a Norfolk origin geographically unremarkable rather than a stretch.[^norfolk-density]
+Beyond the individual candidates, a Norfolk-restricted search for baptisms to a father John, 1623–1643, surfaces fourteen further baptisms across six parishes: Denton, Hempnall, Stanfield, Norwich St Margaret & St Swithin, North Runcton, and Earsham. **None reproduces the colonial child set**, but the density itself matters: Norfolk was a Gurney heartland with several parish-level Johns active in the same decade, which is part of what makes a Norfolk origin geographically unremarkable rather than a stretch.[^norfolk-density]<!-- graph-marker: G13-PM-000081 -->
 
 **Denton is not a father-John household**, despite one index reading it that way. The providers disagree on the father's forename, and two of the three read against John: FreeREG gives **Josias** with a mother Rachell, and Ancestry gives *Josiah*, against FindMyPast's *John*.[^denton]
 
@@ -127,7 +127,7 @@ A dozen further Prerogative Court probate records anchor separate English cluste
 
 **A clean structural negative belongs with them:** no direct-line ancestor appears anywhere in the Prerogative Court index across 1384–1858. The Norfolk line proved in the Norwich Consistory Court, so the absence is jurisdictional rather than evidential, and it should not be re-searched. Thirty-one of the forty-nine pre-1700 Prerogative Court Gurney-variant wills have never been examined, including a pre-1620 London merchant and draper cluster that sits on the London-draper thread.[^pcc-index]
 
-The 1641–42 Protestation Returns add a final negative: the surviving Buckinghamshire returns name Anthony, Robert (twice), Thomas and Walter Gurney at Stewkley, plus further Thomases, Ezekiels, Richards and an Isaac scattered across Linslade, Ivinghoe, Soulbury, Marsh Gibbon, Cheddington and Marsworth — **but no John anywhere**, which is consistent with Candidate A(i) having already moved to Northamptonshire by 1641.[^protestation-returns]
+The 1641–42 Protestation Returns add a final negative: the surviving Buckinghamshire returns name Anthony, Robert (twice), Thomas and Walter Gurney at Stewkley, plus further Thomases, Ezekiels, Richards and an Isaac scattered across Linslade, Ivinghoe, Soulbury, Marsh Gibbon, Cheddington and Marsworth — **but no John anywhere**, which is consistent with Candidate A(i) having already moved to Northamptonshire by 1641.[^protestation-returns]<!-- graph-marker: G13-PM-000082 -->
 
 ## Standing
 

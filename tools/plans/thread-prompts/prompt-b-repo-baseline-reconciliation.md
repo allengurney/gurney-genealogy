@@ -1,6 +1,8 @@
 # Thread prompt B — bringing the repo up to the new G13 baseline
 
-> **STATUS, 30 July 2026 — this prompt is live, and one of four tranches is done.**
+> **STATUS, 1 August 2026 — CLOSED. All four tranches are done.** Nothing below remains to be
+> executed. The prompt is kept as the specification the reconciliation was measured against; the
+> record of what was actually done, layer by layer, is in the assessment.
 >
 > The assessment this prompt asks for is at
 > [`prompt-b-reconciliation-assessment.md`](prompt-b-reconciliation-assessment.md). It measured the work
@@ -19,7 +21,15 @@
 >   into the lead catalogue as 55 open leads, 15 closed leads and 7 struck; the three sweep datasets
 >   archived with their coverage ledgers; `ancestors.json`, `sources.json` and the ID indexes brought
 >   current; Epping and North Weald Bassett recorded as newly relevant places.
-> - **Tranche D — context graph and published surfaces.** Not started.
+> - **Tranche D — context graph and published surfaces: DONE (1 August 2026).** Graph validation taken
+>   from 34 errors to zero; all 26 publication mappings off the retired fourth edition and 32 truthful
+>   ones written against the fifth, five deliberately not re-added because v5 no longer carries them;
+>   three units registered with items `G13-RI-000211..000233` and markers `G13-PM-000126..000137`;
+>   twelve items restated and one rewritten off the withdrawn East Dereham reading, so the graph now
+>   carries the 18-row state; every gate in `g13_coverage_check.py` passing after 101 citation-map rows
+>   and a re-freeze of the nine inputs tranches B and C edited; website package re-exported at revision
+>   381 and `npm run validate` passing over 565 pages; and the East Dereham AI-procedure page removed
+>   from the site and kept in the repo at `research/topics/_legacy/`.
 >
 > **Scope corrections carried by the assessment:** fact-sheet patchset v126 is **already applied**
 > (`sources/intake/done/`, stamped 18 July 2026) and should be struck from the scope below; `59-` holds

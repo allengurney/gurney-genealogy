@@ -317,6 +317,7 @@ findmypast-bucks-burial-index,source,Findmypast Buckinghamshire Burial Index,dat
 findmypast-bucks-marriage-index,source,Findmypast Buckinghamshire Marriage Index,data/sources.json
 findmypast-county-baptism-sets-2026-07-sweep,source,FindMyPast county baptism and marriage index sets (July 2026 Gurney sweep),data/sources.json
 findmypast-ackworth-gurnoe-baptism-1637-john-thomas,source,"Findmypast England Births & Baptisms 1538-1975 - John Thomas Gurnoe, Ackworth, 1637",data/sources.json
+findmypast-upton-gurney-baptisms-1597-1629,source,"Findmypast England Births & Baptisms 1538-1975 - Upton on Severn Gurney entries, 1597-1629",data/sources.json
 findmypast-england-marriages-gurney-mary-wildcard-sweep-2026-06,source,"Findmypast England Marriages 1538-1973 - G*rn* + Mary wildcard sweep, June 2026",data/sources.json
 findmypast-ackworth-gurnoe-burton-marriage-1636,source,"Findmypast England Marriages 1538-1973 - John Gurnoe + Mary Burton, Ackworth, 1636",data/sources.json
 findmypast-hertfordshire-banns-marriages,source,Findmypast Hertfordshire Banns & Marriages,data/sources.json
@@ -328,6 +329,7 @@ findmypast-norfolk-banns-marriages-index,source,FindMyPast Norfolk Banns and Mar
 findmypast-norfolk-baptisms-index,source,FindMyPast Norfolk Baptisms index,data/sources.json
 findmypast-norfolk-burials-index,source,Findmypast Norfolk Burials index,data/sources.json
 findmypast-uk-parish-baptisms,source,Findmypast UK Parish Baptisms,data/sources.json
+findmypast-westminster-marriages-gurney-transcripts-1591-1642,source,"Findmypast Westminster Marriages — selected Gurney transcripts, 1591–1642",data/sources.json
 fischer-albions-seed-1989,source,"Fischer, Albion's Seed",data/sources.json
 fmg-medlands-normacre,source,FMG MedLands -- Normandy (Cawley),data/sources.json
 foster-streeter-cummington,source,"Foster & Streeter, Only One Cummington (1974)",data/sources.json

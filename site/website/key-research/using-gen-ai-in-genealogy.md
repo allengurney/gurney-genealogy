@@ -94,7 +94,7 @@ I used generative AI heavily in this project, but not as a substitute for record
 - I found AI stronger at **comparative analysis** than at blind transcription.
 - I still treated ambiguous readings as ambiguous unless the comparison work became genuinely persuasive.
 - For background on old handwriting, the **[UK National Archives palaeography tutorial](https://www.nationalarchives.gov.uk/education/resources/palaeography/)** is a useful resource.
-- One example from this project is my [AI Assistant Procedure for Parish Record Analysis](/key-research/east-dereham-ai-assistant-procedure.html).
+- The hardest lesson from this project came from a case where all of that was done and the reading was still wrong. A damaged parish-register line was worked through crops, comparators and enhancements, and read confidently as the name I was hoping to find. It was the wrong line on the wrong page, and the entry I was actually chasing sat four images later and named a different family. **A machine reading can be detailed, internally consistent, and wrong**, so the register image and the page around it have to be checked before a reading is relied on.
 
 ## Writing a narrative
 

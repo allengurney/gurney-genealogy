@@ -1980,7 +1980,7 @@
     "gen": "G13",
     "genNumber": 13,
     "name": "John Gurney",
-    "dates": "b. c. 1609-12 — d. 1662/3",
+    "dates": "b. c. 1603 — d. 1662/3",
     "geography": "England → Weymouth, MA → Braintree, MA",
     "eraId": "era-emigrant-colonial-massachusetts",
     "eraLabel": "The Emigrant — Colonial Massachusetts",
@@ -1992,7 +1992,7 @@
     "colorTo": "#47836c",
     "lineageStatus": "Probable",
     "displayLineageStatus": "Probable",
-    "summary": "Tailor. First Gurney in North America. Estate: £55.14.6.",
+    "summary": "Tailor, and the first Gurney in North America. His English origin is unsolved: no baptism has been found and no record names his birthplace. The leading candidate for his father is Francis Gurney (G14), a Merchant Taylor of Norfolk and London. Estate: £55.14.6.",
     "notables": "Tailor. FIRST GURNEY IN NORTH AMERICA. First record: June 1641, Weymouth. Married (1) Mary (surname unknown) (c.1630–1632, England — d. 20 Sept. 1661); (2) Grissell Fletcher (12 Nov. 1661). Estate: £55.14.6. Probable arrival: 1636–1641. Grissell was a Mendon proprietor (received 20-acre allotment, Dec. 1663).",
     "landHoldings": "• East field and mill field — Weymouth: original Gurney grants recorded in Nash's 1643 property list as 'first granted/given to John Gurny/Gurnie' but already held by other men by 1643 (East Field under Robert Randoll, p. 258; Mill Field under Thomas Richardes, p. 278) — implying inhabitant status at Weymouth in the early 1640s before moving to Braintree, c. 1642–1645. • East-side-of-pond great lot no. 16 — Weymouth Second Division, 2 Feb. 1651-52 (Nash p. 282); subsequently granted to others. • 48 acres at Braintree 'in the possession of John Gurney' — Tyng inventory 25 May 1653 (NEHGR 30:432). Tenant by lease, not owner. • Sold land in Braintree 12 Feb. 1661 (deed witnessed by son John Jr.). • Grissell applied for John's Mendon lot after his death (NEHGR 22:44).",
     "hasLandHoldings": true,
@@ -2012,13 +2012,13 @@
         "name": "Sarah Gurney",
         "dates": "unknown",
         "mother": "Mary",
-        "notes": "Listed first by Sprague; no further record located"
+        "notes": "Listed first in the compiled genealogies and so treated as the eldest, but no record of any kind attests her, and she is absent from Torrey's survey of New England marriages before 1700. She may not have existed"
       },
       {
         "name": "Mary Gurney",
-        "dates": "c.1630–1632",
+        "dates": "b. by 1631",
         "mother": "Mary",
-        "notes": "Married Daniel Shed"
+        "notes": "Married Daniel Shed of Finchingfield, Essex, at Braintree in 1647. That marriage fixes her birth: at a minimum marriage age of sixteen she was born by 1631, making her the only child whose date rests on a record rather than an estimate"
       },
       {
         "name": "Richard Gurney",
@@ -2036,13 +2036,13 @@
         "name": "Peter Gurney",
         "dates": "c.1635–1641",
         "mother": "Mary",
-        "notes": "May have been born in England or early Massachusetts"
+        "notes": "Born in Massachusetts. No Peter Gurney baptism exists anywhere in Britain between 1627 and 1647, across every major parish-baptism collection and the full range of surname spellings; he first appears in the King Philip's War muster rolls"
       },
       {
         "name": "Isaac Gurney",
         "dates": "c.1643",
         "mother": "Mary",
-        "notes": "Probably born in Massachusetts. An Isaac Gurney is documented in Middlesex and Suffolk court records 1666–67 (Blue Hill/Ponkapoag area, Braintree's back country); the uncommon forename, the age fit, and the location — with no competing colonial Isaac Gurney documented in this generation — make the identification with this family highly probable, though no record yet states the parentage"
+        "notes": "Born in Massachusetts — no Isaac Gurney baptism exists anywhere in Britain between 1632 and 1652. An Isaac Gurney is documented in Middlesex and Suffolk court records 1666–67 (Blue Hill/Ponkapoag area, Braintree's back country); the uncommon forename, the age fit, and the location — with no competing colonial Isaac Gurney documented in this generation — make the identification with this family highly probable, though no record yet states the parentage"
       }
     ],
     "buttons": [
@@ -2091,7 +2091,7 @@
         "siteName": "",
         "region": "Massachusetts, USA",
         "eventType": "landholding / property reference; individual geography",
-        "eventDate": "b. c. 1609-12 — d. 1662/3",
+        "eventDate": "b. c. 1603 — d. 1662/3",
         "sourceQuote": "Massachusetts town where immigrant John Gurney held land and where Braintree church context intersects the Harden/Gurney cluster: Benjamin Gurney G11 married Rebecca Staples at Braintree First Church, and Mr. Niles of Braintree recorded Jane Harden of Little Comfort in 1711.",
         "lat": 42.2079,
         "lng": -71.001,
@@ -2108,7 +2108,7 @@
         "siteName": "East Dereham Parish Church",
         "region": "Norfolk, England",
         "eventType": "individual geography",
-        "eventDate": "b. c. 1609-12 — d. 1662/3",
+        "eventDate": "b. c. 1603 — d. 1662/3",
         "sourceQuote": "Market town in central Norfolk. Site of the East Dereham parish church (NRO PD 86/41) where Francis Gurney (G14) and Margaret Rybett's children were baptized c.1609–1618, including the probable baptism of John Gurney-1 (G13, Entry E). The Rivett/Ryvett family — Margaret's kin — had a presence nearby at Gressenhall (3 mi) and Garveston (2 mi).",
         "lat": 52.6819,
         "lng": 0.9419,
@@ -2125,7 +2125,7 @@
         "siteName": "",
         "region": "Massachusetts, USA",
         "eventType": "landholding / property reference",
-        "eventDate": "b. c. 1609-12 — d. 1662/3",
+        "eventDate": "b. c. 1603 — d. 1662/3",
         "sourceQuote": "Grissell applied for John's Mendon lot after his death (NEHGR 22:44).",
         "lat": 42.1056,
         "lng": -71.5523,
@@ -2142,7 +2142,7 @@
         "siteName": "",
         "region": "Massachusetts, USA",
         "eventType": "individual geography",
-        "eventDate": "b. c. 1609-12 — d. 1662/3",
+        "eventDate": "b. c. 1603 — d. 1662/3",
         "sourceQuote": "South-shore town where four generations of the line lived: the emigrant John Gurney Sr. (G13) first recorded 1641, his son Richard (G12), and Richard's son and grandson Benjamin (G11, G10), both born here. Individual Gurney land grants are tracked as their own sub-places (Richard's Great Pond homestead; John Sr.'s East Field, Mill Field, and east-side-of-Great-Pond grants).",
         "lat": 42.218,
         "lng": -70.94,
@@ -2159,7 +2159,7 @@
         "siteName": "",
         "region": "Massachusetts, USA",
         "eventType": "landholding / property reference",
-        "eventDate": "b. c. 1609-12 — d. 1662/3",
+        "eventDate": "b. c. 1603 — d. 1662/3",
         "sourceQuote": "Town and Dudley Farm purchase context where John Gurney appears in Hazen's printed 1659 rate list for the half payment of the purchase.",
         "lat": 42.5584,
         "lng": -71.2689,
@@ -2176,7 +2176,7 @@
         "siteName": "Whitman's Pond (Fresh Pond)",
         "region": "Weymouth, Massachusetts, USA",
         "eventType": "landholding / property reference",
-        "eventDate": "b. c. 1609-12 — d. 1662/3",
+        "eventDate": "b. c. 1603 — d. 1662/3",
         "sourceQuote": "John Gurney Sr. (G13) was entitled to great lot no. 16 in the division ordered 2–3 February 1651–52, laid out on the east side of the pond 'next to Mrs Richards mill' and running east toward the Hingham line (Nash, Historical Sketch of Weymouth, Appendix C, p. 282). The pond is Whitman's Pond — called Fresh Pond when the town bounds were set in 1636 — in East Weymouth, near the early mills; the History of Weymouth's summary of this grant as 'east side of Great Pond' conflates it with the larger South Weymouth pond of that modern name.",
         "lat": 42.2055,
         "lng": -70.928,
@@ -2193,7 +2193,7 @@
         "siteName": "East Field",
         "region": "Weymouth, Massachusetts, USA",
         "eventType": "landholding / property reference",
-        "eventDate": "b. c. 1609-12 — d. 1662/3",
+        "eventDate": "b. c. 1603 — d. 1662/3",
         "sourceQuote": "An open-field division of early Weymouth in which John Gurney Sr. (G13) was the original grantee of two separate two-acre lots, confirmed by the manuscript Land Grants book (film 007009659): one (ms p. 12, 'John Gurny') by 1643 held by Robert Randoll of Wendover, Buckinghamshire, bounded east by Edmond Hart and the highway, west by Robert Cooke, north and south by Nathaniel Addames; a second (ms p. 23, 'John Gurnie') held by Nathaniel Addames, bounded east by Jeffery Staple, west by Robert Randoll, north by a cedar swamp, south by the highway. Both were 'first granted/given to' John and reassigned by the 1643 survey. The East Field lay in the original North/East Weymouth settlement, its lots bounded 'with the sea,' the Back River, and 'a greate pond' (Whitman's Pond). Exact bounds are not established from sources to hand.",
         "lat": 42.23,
         "lng": -70.938,
@@ -2210,7 +2210,7 @@
         "siteName": "Mill Field",
         "region": "Weymouth, Massachusetts, USA",
         "eventType": "landholding / property reference",
-        "eventDate": "b. c. 1609-12 — d. 1662/3",
+        "eventDate": "b. c. 1603 — d. 1662/3",
         "sourceQuote": "An open-field division of early Weymouth in which John Gurney Sr. (G13) held a four-acre grant recorded in Nash's 1643 property list as 'first giuen to John Gurnie' under the land of Thomas Richardes, bounded east by Nicholas Norton, west by Richard Rawlings, north by John Giles, south by William Brandon of Ashton Clinton, Buckinghamshire (Nash, Historical Sketch of Weymouth, Appendix C, p. 278). The Mill Field lay in East Weymouth near Whitman's Pond and the early mills (the Bates Mill of 1640) and Mill River: a parallel grant to Matthew Pratt is described as 'in the mill field, now east of Weymouth' and 'on the west side of Mill River,' and another Mill Field lot is 'bounded on the East and South with Hingham Line.' The parcel's exact bounds are not established from sources to hand.",
         "lat": 42.205,
         "lng": -70.93,
@@ -2227,7 +2227,7 @@
         "siteName": "Adams Old House / 'the Gurney farm'",
         "region": "Braintree/Quincy, Massachusetts, USA",
         "eventType": "landholding / property reference",
-        "eventDate": "b. c. 1609-12 — d. 1662/3",
+        "eventDate": "b. c. 1603 — d. 1662/3",
         "sourceQuote": "In 1647 William Tyng leased John Gurney a 45-acre farm in Braintree (the Mount Wollaston / north-precinct area, now central Quincy) for ten years; Gurney continued leasing it from Tyng's daughters Bethia and Mercy until 1662. It is the holding in Tyng's 1653 probate inventory recorded as land 'in the possession of John Gurney' (45 acres per the NPS/Sargent reading, 48 acres per the NEHGR abstract). The northern portion of this 'Gurney farm' later became the Adams family seat: 'The Old House' (Peace field), first acquired by the Adams family in 1787, and the nearby Adams Birthplaces of John Adams and John Quincy Adams. Per the NPS Cultural Landscape Report (1997, citing the Ezekiel Sargent MSS). The same record stream notes the larger ~500-acre Tyng farm (Salter's Farm / Mount Wollaston) was leased to John Read then Gregory Belcher.",
         "lat": 42.239204,
         "lng": -71.00361,
@@ -2244,7 +2244,7 @@
         "siteName": "Gurney house & orchard, Monatiquot",
         "region": "Braintree, Massachusetts, USA",
         "eventType": "landholding / property reference",
-        "eventDate": "b. c. 1609-12 — d. 1662/3",
+        "eventDate": "b. c. 1603 — d. 1662/3",
         "sourceQuote": "A house, orchard, a five-acre parcel on the Monatiquot River ('at Monotecott'), and an adjoining half-acre that John Gurney owned outright in the Braintree middle precinct (now Braintree center/East Braintree) and sold to Richard Thayer, planter, for £14 on 12 February 1661/2 (possession given 16 April 1662). The five-acre parcel was bounded by the Monatiquot River on the south and the lands of Richard Thayer, Nathaniel Mott, and John Hodman (east), Symond Crosby (north), and George Oldredge (west). This freehold was distinct from, and several miles from, the Tyng leasehold up at Mount Wollaston.",
         "lat": 42.21,
         "lng": -70.992,
@@ -2289,7 +2289,7 @@
     "colorTo": "#ae6539",
     "lineageStatus": "Confirmed",
     "displayLineageStatus": "",
-    "summary": "A younger son of West Barsham gentry sent down to London, admitted to the Merchant Taylors' Company in 1606, and twenty-eight years a financial agent — \"a sort of agent, or banker\" — to the Lestranges of Hunstanton. Probable father of the Massachusetts emigrant John Gurney-1.",
+    "summary": "A younger son of West Barsham gentry sent down to London, admitted to the Merchant Taylors' Company in 1606, and twenty-eight years a financial agent — \"a sort of agent, or banker\" — to the Lestranges of Hunstanton. The leading candidate for the father of the Massachusetts emigrant John Gurney-1 — an identification built on trade, corridor, motive and kindred, and unproven: no record names a John among his children.",
     "notables": "Sixth son of Henry Gurney (G15) and Ellen Blennerhasset; twin of Anthony. Apprenticed to Henry Tryme, admitted to the freedom of the Merchant Taylors' Company 16 June 1606. Married (1) Margaret Rybett, 23 Sept. 1611 at St Martin at Palace, Norwich (NRO PD 12/1; primary-source discovery March 2026); (2) Anne Browning c. 1617, daughter of William Browning, merchant of Norwich and later Maldon, Essex. Twenty-four years' financial agency to the Lestranges of Hunstanton, 1612–1636 — the kinship route ran through his great-great-grandmother Anne Heydon (G18's wife), whose sister Amy had married Sir Roger Lestrange. Failed King's Lynn textile venture c. 1622–25 inside the desecrated St James's Chapel; Sir Hamon Lestrange paid Francis's £100 bond. Sold all Norfolk and Suffolk lands for £1,000 in 1634. Brother of the Cambridge-educated Puritan divine Edmund Gurney (Rector of Harpley 1620–1648). Buried St Botolph Bishopsgate, London, 9 January 1646/7. The financial contraction of his later years is the most plausible material context for an elder son such as John seeing little inheritance ahead in England — and emigrating to Weymouth, Massachusetts.",
     "landHoldings": "• Parish of St. Benet Fink, City of London — commercial premises (leased; church demolished 1844, site now Bank of England east wing). • Attempted textile manufacture: desecrated St. James's Church, King's Lynn, Norfolk — leased from Lynn corporation (failed enterprise; Sir Hamon Lestrange paid his £100 bond c.1625). • Occasional residence at Norwich and King's Lynn noted (Pennyghael genealogy). • No land holdings documented — Daniel Gurney states both Francis wills 'unable to be discovered' suggesting little or no property to bequeath.",
     "hasLandHoldings": true,
@@ -2297,7 +2297,7 @@
       {
         "name": "Margaret Rybett",
         "dates": "m. 23 Sep 1611, St Martin at Palace, Norwich, d. c.1616–1617",
-        "notes": "Primary source discovery March 2026, NRO PD 12/1. Identified as Margaret Rivet, bp. 21 May 1586 Garveston, Norfolk, daughter of Francis Rivet — register image-confirmed June 2026 (the entry names the father, not the mother). The Garveston Rivetts were a parish family; their relationship, if any, to the Suffolk gentry Ryvetts is unconfirmed. Probable, not proven — see research/people/rivett-family-of-garveston.md."
+        "notes": "NRO PD 12/1 — the marriage no earlier account of Francis knew of. She is a Rivet of Garveston, and the register offers two candidates of the right age: Margaret, daughter of Francis Rivet, baptized 21 May 1586, and Margarett, daughter of Robert Rivet, baptized 1 February 1577/8. The Garveston Rivets held by copyhold; their relationship, if any, to the Suffolk gentry Ryvetts is unresolved. See research/people/rivett-family-of-garveston.md."
       },
       {
         "name": "Anne Browning",
@@ -2308,9 +2308,9 @@
     "children": [
       {
         "name": "John Gurney",
-        "dates": "c.1609/10",
+        "dates": "—",
         "mother": "Margaret Rybett",
-        "notes": "Probable — Entry E in East Dereham register; G13 in direct line"
+        "notes": "G13 in direct line, if the identification holds. No baptism survives, and the East Dereham register's returns for 1611–1616 — the years a first child of the 1611 marriage would fall — are lost, with no bound register or diocesan transcript covering them"
       },
       {
         "name": "Ann Gurney",
@@ -2320,27 +2320,27 @@
       },
       {
         "name": "Edward Gurney",
-        "dates": "c.1611/12",
-        "mother": "Margaret Rybett",
-        "notes": "Baptized East Dereham (Entry A)"
+        "dates": "27 May 1610",
+        "mother": "uncertain",
+        "notes": "Baptized East Dereham; the year is fixed by a heading written into the parchment, making this the firmest-dated of the Norfolk entries. It falls sixteen months before the 1611 marriage, so his mother is not established"
       },
       {
         "name": "Agnes Gurney",
-        "dates": "c.1614",
+        "dates": "bur. 31 Jan 1616",
         "mother": "Margaret Rybett",
-        "notes": "Baptized East Dereham (Entry C)"
+        "notes": "Known from her burial at East Dereham, which names her as Francis's daughter; no baptism survives"
       },
       {
         "name": "Marye Gurney (first)",
-        "dates": "c.1614–15",
-        "mother": "Margaret Rybett",
-        "notes": "Entry B; may have died young, name reused in 1618"
+        "dates": "bur. c.1615–16",
+        "mother": "—",
+        "notes": "An East Dereham burial of a Marye in Francis's household. The relationship word does not read \"daughter\" and she is more likely a niece"
       },
       {
         "name": "Marye Gurney (second)",
         "dates": "25 May 1618",
         "mother": "Anne Browning",
-        "notes": "Baptized East Dereham (Entry D); first child with Anne Browning"
+        "notes": "Baptized East Dereham. Probably Anne's first child, since Margaret died about 1616–17, but Margaret's burial has never been found so the attribution is probable rather than certain"
       },
       {
         "name": "Dorothy Gurney",

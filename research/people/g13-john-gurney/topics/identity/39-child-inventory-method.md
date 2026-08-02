@@ -35,7 +35,7 @@ A complete inventory is not one provider's index. Parish baptisms reach us throu
 
 **S14 was earned.** The Berkhamsted burial negative that opened Candidate C(ii) was contradicted by the registry's own entry for the Hertfordshire burial set, which had recorded the two seventeenth-century Jhon Gourney burials since 9 May 2026. Nobody read it, because "read the repo first" had only ever meant the research layer. The registry is a different witness: it records what an instrument returned on a given date, which is exactly the thing a fresh sweep is at risk of getting wrong.
 
-**S10 deserves emphasis.** Several Buckinghamshire rows carry archive references of the form `D/A/T/nn` — those are **bishop's transcripts**, not parish registers. Where a register is lost the transcript may survive; where both survive they are two witnesses and can disagree. **No county is done until both series are accounted for**, and the point is demonstrated rather than asserted: FindMyPast's Buckinghamshire Baptism Index is bishop's transcripts, FreeREG transcribes parish registers, and the two return materially different Gurney event sets for the same county and window.<!-- graph-marker: G13-PM-000131 -->
+**S10 deserves emphasis.** Several Buckinghamshire rows carry archive references of the form `D/A/T/nn` — those are **bishop's transcripts**, not parish registers. Where a register is lost the transcript may survive; where both survive they are two witnesses and can disagree. **No county is done until both series are accounted for**, and the point is demonstrated rather than asserted: FindMyPast's Buckinghamshire Baptism Index is bishop's transcripts, FreeREG transcribes parish registers, and the two return materially different Gurney event sets for the same county and window.[^bts]<!-- graph-marker: G13-PM-000131 -->
 
 ## 2. Catalogue — one row per record instance
 
@@ -53,6 +53,8 @@ Four households have been split on plausibility arguments, and each split was th
 - When a baptism run is too long for one father, **enumerate the alternatives rather than choosing one**: (a) one man, two wives; (b) father and son; (c) two unrelated same-name men in one parish; (d) an index conflating two parishes; (e) a mis-transcribed father forename in some rows.
 - Record **which evidence would discriminate** — a marriage, a burial, a will naming children, a transcript/register disagreement — and hold the shape open until it exists.
 - **Never build a probability on an unresolved shape.** Where a row rests on a split, label it conditional on that shape.
+
+The worked example is Great Berkhamsted, where a father-John baptism run of forty years was carried as one household until it was read as two, and the parish then turned out to hold four contemporaneous Gurney households under different fathers.[^berkrun]
 
 ## 4. Scoring rubric
 
@@ -142,6 +144,10 @@ Two mechanics have to be right first. The year parameter in this mode is `yearof
 ---
 
 [^v3]: *John Gurney Children Matrix V3*, compiled March 2026, at [`research/case-files/Initial foundation work for john-gurney-case-file/John_Gurney_Children_Matrix_V3.md`](https://github.com/allengurney/gurney-genealogy/blob/main/research/case-files/Initial%20foundation%20work%20for%20john-gurney-case-file/John_Gurney_Children_Matrix_V3.md). Carries Berkhamsted at "2/5 … No disqualifying evidence … PRIORITY SEARCH: marriage register + Mary/John Jr./Peter baptisms … could rise dramatically with additional matches"; the England-wide Peter negative for 1620–1645; and households absent from the July 2026 sweeps — Maria Gorne, 2 March 1627, Bishop's Cleeve, Gloucestershire, father John Gorne; Mary Gurney, 7 September 1629, Upton upon Severn, Worcestershire, mother Mary with no father named; John Girney, 23 December 1636, Earsham, Norfolk, father John Girney. The matrix also names the Berkhamsted parish as "St Peter's, Berkhamsted," which settles a provider disagreement that was briefly treated as a parish discrepancy: St Peter's is Berkhamsted's own parish church. Cross-reference to prior project work, not a source; the underlying records are the parish registers it cites.
+
+[^bts]: FindMyPast's *Buckinghamshire Baptism Index* is a bishop's-transcript series — several of its rows carry archive references of the form `D/A/T/nn` — while FreeREG transcribes the parish registers themselves, and the two return materially different Gurney event sets for the same county and window. Source IDs: `findmypast-bucks-baptism-index`; `freebmd-freereg`.
+
+[^berkrun]: The Great Berkhamsted father-John baptism run of 1597–1637 and the four-household reconstruction of the parish are worked at [`33-berkhamsted-candidates.md`](33-berkhamsted-candidates.md), from the Hertfordshire Baptisms set read with the Father's and Mother's first-name columns. Source ID: `findmypast-hertfordshire-baptisms`.
 
 [^mary-bound]: Mary Gurney's 1647 marriage to Daniel Shed at Braintree is in Samuel A. Bates, ed., *Records of the Town of Braintree, 1640 to 1793* (1886), and in Torrey, *New England Marriages Prior to 1700*. The compiled estimates are Sprague, *Genealogies of the Families of Braintree* (2001), p. 695, and the *History of Weymouth* (1923), vol. 3, p. 251. Source IDs: `braintree-records-1640-1793-1886`; `torrey-new-england-marriages-prior-1700`; `sprague-braintree`; `history-of-weymouth`.
 
